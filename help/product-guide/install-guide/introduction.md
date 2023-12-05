@@ -1,15 +1,15 @@
 ---
-title: À propos de ce guide
+title: Installation on-premise
 description: Découvrez comment télécharger, installer et configurer AEM Guides.
 exl-id: 90d5ad94-eb68-4d73-9b23-a1f3d4b802ba
-source-git-commit: b8fba97d5e686fd09b094a6cf5b52aa08ef2d069
+source-git-commit: 02b33615669945cf65f70d6fd2de81bfd340a0ab
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
 
-# À propos de ce guide {#id175MC0P0S5Z}
+# Installation on-premise {#id175MC0P0S5Z}
 
 Guides Adobe Experience Manager \(ultérieurement appelés *Guides d’AEM*\) est une puissante solution de gestion de contenu de composant de niveau entreprise \(CCMS\). Il active la prise en charge native de DITA dans Adobe Experience Manager, ce qui permet à AEM de gérer la création et la diffusion de contenu basé sur DITA. Il permet aux auteurs de créer du contenu à l’aide de n’importe quel outil de création DITA hors ligne, tel qu’Adobe FrameMaker ou un éditeur web intégré convivial.
 
