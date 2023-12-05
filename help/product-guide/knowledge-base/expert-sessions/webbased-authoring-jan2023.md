@@ -1,0 +1,57 @@
+---
+title: Création de contenu web
+description: Découvrez comment créer du contenu structuré à l’aide de l’éditeur web.
+exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
+source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 2%
+
+---
+
+# Création de contenu web
+
+AEM Guides est fourni avec un éditeur web intégré pour la création de contenu structuré. Vous pouvez travailler avec une expérience de création web simplifiée, mais tout en choisissant d’utiliser ou d’activer des fonctionnalités puissantes telles que la validation de contenu conditionnel, la vérification orthographique, la réutilisation du contenu, la validation des références, les noms conviviaux et les équations mathématiques de création.
+
+## Présentation de la session
+
+Au cours de cette session, vous apprendrez à créer, publier et gérer du contenu à l’aide de l’éditeur web.
+
+## Enregistrement de session
+
+>[!VIDEO](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on)
+
+## Tons clairs
+
+- **Date** - 19 janvier 2023
+- **Nombre de participants** - 89
+- **Durée** - 60 minutes
+- **Audience** - Clients, partenaires et employés d’Adobe
+
+## Principaux points à retenir
+
+Au cours de cette session, vous découvrirez les éléments suivants :
+
+- Configuration des paramètres de l’éditeur web
+- Utilisation des fonctionnalités de l’éditeur web pour améliorer la productivité des auteurs
+- Étendre et intégrer les fonctionnalités disponibles
+- Personnaliser l’éditeur web en personnalisant les styles ou la marque
+
+## Ressources connexes
+
+- **Vidéos de présentation** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+
+- **Guide de l’utilisateur** - [Création de contenu](/help/product-guide/user-guide/authoring-content.md)
+
+- **Forum communautaire** - Pour les interactions de communauté spécifiques à une session sur Experience League, rendez-vous sur la page  [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+
+>[!NOTE]
+>
+> Les fonctionnalités affichées dans cette session sont disponibles dans les versions suivantes des AEM Guides :
+>
+> - On-premise 4.1.3 ou version ultérieure
+> - Cloud Service 2211 et versions ultérieures
+
+## Contactez-nous
+
+Pour toute demande, envoyez-nous un email à l’adresse <techcomm@adobe.com>
