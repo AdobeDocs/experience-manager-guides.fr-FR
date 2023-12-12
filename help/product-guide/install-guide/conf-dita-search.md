@@ -2,9 +2,9 @@
 title: Configuration de la recherche dans l’interface utilisateur d’AEM Assets
 description: Découvrez comment configurer la recherche dans l’interface utilisateur d’AEM Assets
 exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
-source-git-commit: 247f4d8fe744b6f9d285a7f61c2b31628de2bb36
+source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
 workflow-type: tm+mt
-source-wordcount: '1695'
+source-wordcount: '1696'
 ht-degree: 1%
 
 ---
@@ -70,6 +70,7 @@ Procédez comme suit pour ajouter un composant de recherche basé sur l’UUID d
 
    - **Libellé du champ**: UUID
    - **Nom de la propriété**: jcr:content/fmUuid
+
 1. Cliquez sur **Terminé** pour enregistrer vos modifications.
 
    Lorsque vous accédez à l’option Filtres dans l’interface utilisateur d’Assets, vous obtenez l’option Filtrage de la recherche basé sur l’UUIS.
@@ -118,7 +119,7 @@ La configuration de recherche par défaut vous permet de rechercher tous les él
 >
 > Si vous souhaitez utiliser la configuration de recherche par défaut dans la variable `prolog` , vous pouvez ensuite ignorer ce processus.
 
-Ce fichier contient deux sections principales : jeu d’attributs et jeu de règles. Vous trouverez ci-dessous un extrait de la section du jeu de règles :
+Ce fichier contient deux sections principales : ensemble d’attributs et ensemble de règles. Vous trouverez ci-dessous un extrait de la section du jeu de règles :
 
 ```XML
 <ruleset filetypes="xml dita"><!-- Element rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]//*[not(*)]" text="yes" attributeset="all-attrs" /><!-- Attribute rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]///@[local-name() != 'class']" /></ruleset>
@@ -127,7 +128,6 @@ Ce fichier contient deux sections principales : jeu d’attributs et jeu de règ
 Dans la section du jeu de règles, vous pouvez spécifier :
 
 - Règles d’extraction des éléments
-
 - Règles d’extraction d’attributs
 
 

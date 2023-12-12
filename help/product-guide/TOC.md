@@ -2,7 +2,7 @@
 user-guide-title: Guides du Experience Manager
 user-guide-description: Lisez la documentation du produit pour les guides Adobe Experience Manager.
 breadcrumb-title: Guide d’AEM
-source-git-commit: 02b33615669945cf65f70d6fd2de81bfd340a0ab
+source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
 workflow-type: tm+mt
 source-wordcount: '1639'
 ht-degree: 4%
