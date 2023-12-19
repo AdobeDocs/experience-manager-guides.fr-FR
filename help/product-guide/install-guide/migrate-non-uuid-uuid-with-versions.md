@@ -1,69 +1,96 @@
 ---
 title: Conversion de contenu non UID avec des versions en contenu UID
-description: Découvrez comment migrer du contenu non UUID avec des versions.
-exl-id: 9387e0d1-906c-4e5c-a7a0-0ed1600f5eb6
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+description: Découvrez comment migrer du contenu non UUID avec des versions vers du contenu UID.
+source-git-commit: 72cdc50df0dfb4af8c798bd1a488c852ed054707
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 2%
+source-wordcount: '782'
+ht-degree: 1%
 
 ---
 
-# Migration de contenu non UUID avec des versions
+# Migration de contenu versionné
 
-Effectuez les étapes suivantes pour migrer votre contenu non UUID avec des versions vers le contenu UID.
+Effectuez les étapes suivantes pour migrer votre contenu versionné non UUID vers le contenu UID.
+
+>[!NOTE]
+>
+>Suivez les instructions de mise à niveau correspondant à votre version avant de migrer vers la version UID requise.
 
 ## Matrice de compatibilité
 
-| Version actuelle des guides AEM (non UUID) | Version requise pour la migration vers UUID | Chemin de mise à niveau pris en charge |
+| Version actuelle des guides du Experience Manager (non UUID) | Version requise pour la migration vers UUID | Chemin de mise à niveau pris en charge |
 |---|---|---|
-| 3.8.5 | 4.0 non UUID | Installez la version 4.1 (UUID) et exécutez la migration |
-| 4.0, 4.0.x, 4.1 ou 4.1.x | Identique au non-UUID actuel | Installez la version 4.1 (UUID) et exécutez la migration |
-| 4.2 ou version ultérieure | S/O | Pas encore pris en charge |
+| 3.8.5, 4.0.x ou 4.1.x | 4.1 non UUID | Installez la version 4.1 (UUID) et exécutez la migration |
+| 4.2, 4.2.x ou 4.3 | 4.3.0 non UUID | Installez la version 4.3.1 (UUID) et exécutez la migration |
+| 4.3.1 | N/A | N/A |
 
-## Packages requis
+## Installation du package
 
-1. **Purge de version**: `com.adobe.guides.version-purge-1.0.11.zip` (facultatif)
-1. **Avant migration**: `com.adobe.guides.pre-uuid-migration-1.0.7.zip`
-1. **Migration**: `com.adobe.guides.uuid-upgrade-1.0.17`
-1. **Post-migration**: `com.adobe.guides.post-uuid-migration-1.0.2.zip`
+Téléchargez les packages requis à partir du portail de distribution de logiciels Adobe, en fonction de votre version, et installez-les :
+<details>
+<summary>  Modules pour la version 4.1 </summary>
+Si vous utilisez la version 4.1 sans UUID, vous devez installer l’UUID de la version 4.1 avant d’installer les packages suivants :
 
+1. **Avant migration**: [com.adobe.guides.pre-uuid-migration-1.0.9.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F1-0%2Fcom.adobe.guides.pre-uuid-migration-1.0.9.zip)
+1. **Migration**: [com.adobe.guides.uuid-upgrade-1.0.19.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F1-0%2Fcom.adobe.guides.uuid-upgrade-1.0.19.zip)
+</details>
+
+
+<details>
+<summary> Modules pour la version 4.3.1</summary>
+Si vous utilisez la version 4.3 non UUID, vous devez installer l’UUID de la version 4.3.1 avant d’installer les packages suivants :
+
+1. **Avant migration**: [com.adobe.guides.pre-uuid-migration-1.1.3.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2Fcom.adobe.guides.pre-uuid-migration-1.1.3.zip)
+1. **Migration**: [com.adobe.guides.uuid-upgrade-1.1.15.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2Fcom.adobe.guides.uuid-upgrade-1.1.15.zip)
+
+</details>
 
 ## Avant migration
 
-1. (Facultatif) Effectuez la purge des versions sur le contenu pour supprimer les versions inutiles et accélérer le processus de migration. Pour effectuer la purge de version sur la version 4.1 (NON pris en charge sur la version 4.0), installez le module . `com.adobe.guides.version-purge-1.0.11.zip`et accédez à l’interface utilisateur à l’aide de cette URL. `http://<server-name> /libs/fmdita/clientlibs/xmleditor_version_purge/page.html`.
+1. (Facultatif) Effectuez la purge des versions sur le contenu pour supprimer les versions inutiles et accélérer le processus de migration. Pour effectuer la purge de version, sélectionnez l’option . **Purge de version** à partir de l’écran de migration et accédez à l’interface utilisateur à l’aide de l’URL . `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 
    >[!NOTE]
    >
    >Cet utilitaire ne supprime aucune version utilisée dans les lignes de base ou les révisions, ni ne comporte d’étiquettes.
-1. Installez le package de pré-migration (`com.adobe.guides.pre-uuid-migration-1.0.7.zip`).
+1. Installez le package de pré-migration en fonction de votre version.
 
-1. Exécutez la requête suivante ci-dessous pour obtenir un rapport avec une durée estimée (ETA) de la durée de la migration. Il indique s’il existe des fichiers avec des problèmes de contenu qui ne migreront pas.
+   >[!NOTE]
+   >
+   >* Vous avez besoin de l’autorisation d’administrateur pour exécuter la migration.
+   >* Il est recommandé de corriger les fichiers en erreur avant de poursuivre la migration.
+1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. Sélectionner **Évaluation de la compatibilité**  dans le panneau de gauche, puis parcourez un chemin d’accès au dossier.
+1. Vérifiez la compatibilité pour lister les informations suivantes :
+   * Fichiers totaux
+   * Versions totales
+   * Durée estimée de la migration
+   * Nombre de fichiers en erreur
 
->[!NOTE]
->
->Vous avez besoin de l’autorisation d’administrateur pour exécuter la migration.
 
 
-| URL du point d’entrée | Type de requête | Paramètre de requête | Résultats attendus |
-|---|---|---|---|
-| `/bin/guides/pre_uuid_upgrade` <br> <br>**Par exemple**: http://localhost:4502/bin/guides/pre_uuid_upgrade?root=/content/dam | GET | **root**: dossier racine<br> **Valeur**: `/content/dam` pour l’ensemble du référentiel. | Un rapport de pré-migration (.csv) sera créé, répertoriant le nombre de fichiers, le nombre total de versions et les erreurs. <br><br> **Exemple de résultat**:<br>RootFolder: /content/dam <br>Total des fichiers : 2697 <br>Total des versions : 10380 <br>Nombre de fichiers en erreur : 28 <br>Un rapport détaillé sera disponible via AEM CRX à l’adresse `/content/uuid-pgrade/UuidMigrationReport_1688400131039.csv` |
+   ![onglet évaluation de la compatibilité dans la migration](assets/migration-compatibility-assessment.png){width="800" align="left"}
 
-Cette étape peut échouer si le système contient de nombreux fichiers DITA. Pour résoudre ce problème, augmentez la limite du nombre de fichiers parcourus dans la requête en augmentant la valeur de *Limite de lecture en mémoire (queryLimitReads)* dans le service de paramètres du moteur de requête Apache Jackrabbit à partir du 100000 un nombre supérieur au nombre total de ressources DITA présentes dans le système.
+
+1. Sélectionner **Configuration des validations** dans le panneau de gauche. Alors, **Sélectionner une carte** et **Sélectionner un paramètre prédéfini** de la carte pour les configurer. La liste de validation de sortie actuelle affiche les fichiers de sortie présents avant la migration et peut être validée par rapport aux fichiers de sortie générés après la migration.
+
+   ![Configuration de l’onglet Validations dans la migration](assets/migration-configure-validation.png){width="800" align="left"}
+
+
+
 
 ## Migration
 
 ### Etape 1 : mise à jour de la configuration
 
-1. Assurez-vous que l’espace disponible est au moins 10 fois supérieur à l’espace utilisé par AEM (répertoire crx-quickstart) pendant la migration. Une fois la migration terminée, vous pouvez récupérer la plus grande partie de l’espace disque en exécutant la compression (voir [Nettoyage des révisions](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=fr)).
+1. Assurez-vous que l’espace disponible est au moins dix fois supérieur à l’espace utilisé par AEM (répertoire crx-quickstart) pendant la migration. Une fois la migration terminée, vous pouvez récupérer la plus grande partie de l’espace disque en exécutant la compression (voir [Nettoyage des révisions](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=fr)).
 
 1. Activer *Activation des lanceurs de workflow de post-traitement* in `com.adobe.fmdita.config.ConfigManager` et *Activation du post-traitement des versions* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
 
-1. Installez la version UID de la version prise en charge sur la version non UUID. Par exemple, si vous utilisez une version 4.0 non UUID ou une version 4.1 non UUID, vous devez installer UID version 4.1.
+1. Installez la version UID de la version prise en charge sur la version non UUID. Par exemple, si vous utilisez une version 4.1 non UUID, vous devez installer UID version 4.1 et exécuter la migration.
 
-1. Installez le nouveau package pour la migration uuid (`com.adobe.guides.uuid-upgrade-1.0.17`).
+1. Installez le nouveau package pour la migration uuid.
 
-1. Désactivez les workflows suivants et tout autre workflow qui s’exécute sur `/content/dam` utilisation des lanceurs dans `http://localhost:4502/libs/cq/workflow/content/console.html`.
+1. Désactivez les workflows suivants et tout autre workflow qui s’exécute sur `/content/dam` utilisation des lanceurs dans `http://<server-name>/libs/cq/workflow/content/console.html`.
 
    * Workflow Ressource de mise à jour de la gestion des DAM
    * Workflow d’écriture différée des métadonnées de gestion des actifs numériques
@@ -75,80 +102,49 @@ Cette étape peut échouer si le système contient de nombreux fichiers DITA. Po
 1. Assurez-vous que `uuid.regex` Le dossier de propriétés est correctement défini dans `com.adobe.fmdita.config.ConfigManager`. S’il est vide, définissez-le sur la valeur par défaut - `^GUID-(?<id>.*)`.
 1. Ajouter un journal distinct pour `com.adobe.fmdita.uuid.upgrade.UuidUpgrade` La réponse du navigateur est également disponible sur la page `/content/uuid-upgrade/logs`.
 
-### Etape 2 : Exécuter le script et valider
+### Etape 2 : lancer la migration et valider
 
-Exécutez la requête donnée sur un dossier contenant des données plus petites avant de l’exécuter sur `/content/dam`.
+#### Installation du package de migration
 
->[!TIP]
->
->Vous pouvez vérifier si tous les fichiers du dossier sont correctement mis à niveau et si toutes les fonctionnalités ne fonctionnent que pour ce dossier.
+1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 
-| URL du point d’entrée | Type de requête | Paramètre de requête | Résultats attendus |
-|---|---|---|---|
-| `/bin/guides/uuid_upgrade`<br><br> **Par exemple**: `http://localhost:4502/bin/guides/uuid_upgrade?root=/content/dam/test` | GET | **root**: dossier racine <br>**Valeur**: /content/dam pour le référentiel entier.<br><br>**ignoreImageVersions**<br> **Valeur**: vrai/faux (ignore le traitement des versions d’image). La valeur par défaut est false) | Rapport de migration avec la liste des fichiers migrés avec succès, échec de la mise à niveau, mise à niveau avec des erreurs et temps total. <br><br> **Exemple de résultat**: <br> [INFO] Liste des fichiers en échec : 0 <br>[INFO] Non. de fichiers mis à niveau : 2241 <br>[INFO] Non. de fichiers mis à niveau avec des erreurs : 28 <br>[INFO] Non. de fichiers n’ayant pas pu être mis à niveau : 0 <br> [INFO] Durée totale prise : 0:37:03.131 |
+   ![Onglet Mise à niveau du système dans la migration](assets/migration-system-upgrade.png){width="800" align="left"}
+
+1. Sélectionner **Mise à niveau du système** dans le panneau de gauche pour exécuter la migration. Commencez sur un dossier contenant des données plus petites avant de l’exécuter sur `/content/dam`.
+
+1. Sélectionner **Télécharger le rapport** pendant la migration pour vérifier si tous les fichiers du dossier sont correctement mis à niveau et si toutes les fonctionnalités ne fonctionnent que pour ce dossier.
+
 
 >[!NOTE]
 >
-> La migration du contenu peut être exécutée au niveau du dossier ou l’intégralité de la `/content/dam` ou sur le même dossier (réexécuter la migration).
+> La migration du contenu peut être exécutée au niveau du dossier, la `/content/dam`ou le même dossier (réexécuter la migration).
 
-En outre, il est important de s’assurer que la migration du contenu est également effectuée pour toutes les ressources multimédias, telles que les images et les graphiques que vous avez utilisés dans le contenu DITA.
+En outre, il est important de s’assurer que la migration du contenu est effectuée pour toutes les ressources multimédias, telles que les images et les graphiques que vous avez utilisés dans le contenu DITA.
 
-#### Migration de base
+#### Migration de référence et de révision
 
-Exécutez la requête sur le dossier que vous avez déjà migré pour migrer les lignes de base dessus.
+Sélectionner **Mise à niveau de référence/révision** dans le panneau de gauche pour migrer les lignes de base et effectuer une révision au niveau du dossier.
 
-| URL du point d’entrée | Type de requête | Paramètre de requête | Résultats attendus |
-|---|---|---|---|
-| `/bin/guides/baseline_uuid_upgrade`<br><br> **Par exemple**: ` http://localhost:4502/bin/guides/baseline_uuid_upgrade?root=/content/dam/test` | GET | **root**: dossier racine <br> **Valeur**: /content/dam pour le référentiel entier. <br><br> **ignoreImageVersions**<br> **Valeur**: true/false <br>(Ignore le traitement des versions d’image. La valeur par défaut est false) <br><br> **doReviews** <br> **Valeur**: true/false <br> (Si les révisions doivent être mises à niveau ou non. La valeur par défaut est false.) Rapport de migration avec la liste des fichiers migrés avec succès, échec de la mise à niveau, mise à niveau avec des erreurs et temps total. <br> <br> **Exemple de résultat**:<br>[INFO] Échec de la liste des fichiers <br> [INFO] Non. de fichiers mis à niveau avec succès 241<br> [INFO] Non. de fichiers mis à niveau avec des erreurs 28<br>[INFO] Non. de fichiers n’ayant pas pu mettre à niveau 0<br>[INFO] Durée totale prise : 0:37:03.131 |
+![Onglet Référence et révision de la migration](assets/migration-baseline-review-upgrade.png){width="800" align="left"}
 
 
 ### Etape 3 : restauration de la configuration
 
-Une fois la migration du serveur terminée, activez les workflows de post-traitement, de balisage et suivants (y compris tous les autres workflows initialement désactivés lors de la migration) pour continuer à fonctionner sur le serveur.
+Une fois la migration du serveur réussie, activez le post-traitement, le balisage et les workflows suivants (y compris tous les autres workflows désactivés initialement pendant la migration) pour continuer à fonctionner sur le serveur.
 
 * Workflow Ressource de mise à jour de la gestion des DAM
 * Workflow de métadonnées de gestion des actifs numériques
 
 >[!NOTE]
 >
->Si certains fichiers ne sont pas traités ou sont corrompus avant la migration, ils seront corrompus avant la migration et resteront corrompus même après la migration.
+>Si certains fichiers ne sont pas traités ou corrompus avant la migration, ils seront corrompus avant la migration et resteront corrompus même après la migration.
 
 ## Validation de la migration
 
-1. Installez le package de migration post uuid (`com.adobe.guides.post-uuid-migration-1.0.2.zip`).
+1. Une fois la migration terminée, sélectionnez **Validation de la mise à niveau du système** dans le panneau de gauche et validez les fichiers de sortie avant et après la migration pour vous assurer que la migration est réussie.
 
-1. Exécutez la requête suivante pour vérifier qu’aucune erreur ne s’est produite lors de la migration, ce qui a entraîné la rupture de tous les liens. Ce script identifie les liens qui n’ont pas été rompus auparavant, mais qui ont été rompus maintenant pour une raison quelconque.
+   ![Onglet Validation de la mise à niveau du système dans la migration](assets/migration-validate-system-upgrade.png){width="800" align="left"}
 
-   | URL du point d’entrée | Type de requête | Paramètre de requête | Résultats attendus |
-   |---|---|---|---|
-   | `/bin/guides/get_broken_links` <br> <br> **Par exemple**:<br>`http://localhost:4502/bin/guides/get_broken_links` | GET | S/O | Rapport de migration avec le nombre total de fichiers ayant des UUID rompus et leurs chemins d’accès aux fichiers respectifs. <br> <br> **Exemple de résultat**:<br>[DEBUG] Vérifiez si tous ces GUID sont utilisés dans le contenu.<br>[DEBUG] Nombre total de fichiers ayant potentiellement des UUID rompus : 0 <br>[DEBUG] Chemins ayant potentiellement un UUID rompu:0 |
 
-1. Une fois la migration terminée, la plus grande partie de l’espace disque peut être récupérée en exécutant la compression (voir `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
+1. Une fois la validation terminée, la plupart de l’espace disque peut être récupéré en exécutant la compression (voir `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
 
-## Migration du contenu delta
-
-1. Pour migrer le contenu delta du serveur actif (non UUID) vers le serveur uuid actuel, installez le script de pré-migration sur le serveur non UUID.
-
-1. Exécutez la requête suivante sur l’ensemble du jeu de données (ou sous-dossier) afin d’identifier et d’exporter tous les fichiers modifiés après l’horodatage donné : l’horodatage utilise le format ISO8601 pour les dates et heures ( AAAA-MM-JJTHH:mm:s.SSSZ) et permet également des représentations partielles, comme AAAA-MM-JJ.
-
-   | URL du point d’entrée | Type de requête | Paramètre de requête | Résultats attendus |
-   |---|---|---|---|
-   | `/bin/guides/data_export`<br><br>**Par exemple**: <br> `http://localhost:4502/bin/guides/data_export?timestamp=2023-07-11&root=/content/dam` | GET | **timestamp** <br> **Valeur**: AAAA-MM-JJ<br><br> **root**: dossier racine <br> **Valeur**: `/content/dam` pour l’ensemble du référentiel. | Un fichier zip avec du contenu delta est créé dans /var/dxml/exports. <br> <br>**Exemple**: dataexport_1689761491218.zip (le fichier est créé) |
-
-1. Téléchargez le fichier zip exporté par le script. La dernière ligne de la réponse doit indiquer le chemin d’accès au fichier zip généré (stocké dans /var/dxml/exports dans le système).
-
-1. Téléchargez le fichier zip sur le serveur uuid à l’emplacement souhaité dans l’interface utilisateur d’Assets.
-
-1. Vérifiez que le package post-migration est installé sur le serveur uuid.
-
-1. Exécutez la requête donnée suivante pour importer le contenu delta du fichier zip téléchargé dans le système. La requête doit inclure le chemin d’accès au fichier zip chargé afin d’identifier et de traiter correctement les données.
-
-   | URL du point d’entrée | Type de requête | Paramètre de requête | Résultats attendus |
-   |---|---|---|---|
-   | `/bin/guides/data_import`<br> **Par exemple**:`http://localhost:4502/bin/guides/data_import?path=/content/dam/dataexport_1689344927551.zip&createVersion=true` | POST | **Chemin.**<br> **Valeur**: `/content/dam/filename.zip`(Emplacement du fichier téléchargé) **createVersion** <br> **Valeur**: true/false<br>(La valeur par défaut de createVersion est false). | Le fichier est téléchargé vers le chemin d’accès au contenu souhaité.<br><br>**Exemple**: `dataexport_1689761491218.zip`<br><br> (Le même fichier qui a été exporté à l’étape précédente est téléchargé vers le chemin d’accès souhaité dans `/content/dam`). |
-
-1. Le script crée un nouveau fichier s’il n’existe pas ou remplace le fichier existant s’il a été modifié.
-
->[!NOTE]
->
-> L’historique des versions et toute autre modification apportée sur le serveur (comme les workflows et les révisions ) doivent être mis à jour manuellement.
