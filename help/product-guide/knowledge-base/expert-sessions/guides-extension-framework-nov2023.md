@@ -2,9 +2,9 @@
 title: Structure d’extension des AEM Guides - Personnalisation de l’éditeur web et de l’interface utilisateur de révision
 description: Avec la structure d’extension Guides, vous pouvez personnaliser les sections souhaitées de l’interface utilisateur de révision ou de l’éditeur Web à l’aide d’un code JSON, CSS et JavaScript facile à mettre à jour.
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 9406895007386cbd15d5a9412457333493d7bb36
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ Au cours de cette session, vous avez appris ce qui suit :
 
 - **Cas d’utilisation courants documentés** - [sur Experience League](https://guides-extension.vercel.app/docs/aem_guides_framework/basic_customisation)
 
-- **Référentiel public avec exemples** - [sur GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Reportez-vous à la section sc-expert-session
+- **Référentiel public avec exemples** - [sur GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Reportez-vous à la branche sc-expert-session
 
 
 >[!NOTE]
