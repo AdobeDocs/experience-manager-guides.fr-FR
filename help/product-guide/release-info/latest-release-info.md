@@ -1,11 +1,11 @@
 ---
 title: Versions des Guides d’AEM
-description: Dernières versions AEM Guides et versions AEM prérequises
+description: Dernières versions d’AEM Guides et versions d’AEM prérequises
 exl-id: 780697a9-bdc6-40c2-b258-64639fe30f88
 source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
 workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
