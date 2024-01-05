@@ -1,10 +1,14 @@
 ---
-source-git-commit: 5962414dfc065543b946cac1468a5f62013073cf
+title: Personnalisation
+description: Personnalisation de l’application de révision
+source-git-commit: a61abc0d2b480e276991db916ba0cbf630ca7996
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
+
+
 # Personnalisation de l’application de révision
 
 Pour faciliter la personnalisation de l’application de révision, nous avons fourni quelques crochets répertoriés et expliqués ci-dessous :
@@ -14,7 +18,7 @@ Pour faciliter la personnalisation de l’application de révision, nous avons f
 - id: `review_comment`
 - hook : `this.updateExtraProps`:
 
-Comme décrit [here](../../aem_guides_framework/basic_customisation.md), tout nouvel attribut ajouté pendant la personnalisation passe sous `this.model.extraProps`. La méthode `updateExtraProps` vous permet d’ajouter des attributs à un commentaire de révision, en gérant la mise à jour et le stockage de l’attribut ajouté sur le serveur.
+Comme décrit [here](../../aem_guides_framework/basic-customisation.md), tout nouvel attribut ajouté pendant la personnalisation passe sous `this.model.extraProps`. La méthode `updateExtraProps` vous permet d’ajouter des attributs à un commentaire de révision, en gérant la mise à jour et le stockage de l’attribut ajouté sur le serveur.
 
 ### Exemple d’utilisation
 

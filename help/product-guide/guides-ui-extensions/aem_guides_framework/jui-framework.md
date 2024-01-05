@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+title: Structure Jui
+description: Présentation De La Structure Jui
+source-git-commit: a61abc0d2b480e276991db916ba0cbf630ca7996
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
@@ -23,7 +24,7 @@ La bibliothèque JUI-React-Spectrum comporte des widgets wrapper des composants 
 
 ### Conception de l’IU MVC
 
-![Texte de remplacement](./imgs/jui-mvc-flow.png)
+![Flux MVC JUI](./imgs/jui-mvc-flow.png)
 
 ### Widget
 
@@ -35,7 +36,7 @@ La bibliothèque JUI-React-Spectrum comporte des widgets wrapper des composants 
 - Peut comporter d’autres widgets
 - L’application est un widget
 
-![Texte de remplacement](./imgs/jui-widget.png)
+![Widget JUI](./imgs/jui-widget.png)
 
 ### Elément
 
@@ -76,4 +77,4 @@ La bibliothèque JUI-React-Spectrum comporte des widgets wrapper des composants 
 
 ### Exemple de conception d’application
 
-![Texte de remplacement](./imgs/jui-sample-app.png)
+![Exemple d’application](./imgs/jui-sample-app.png)
