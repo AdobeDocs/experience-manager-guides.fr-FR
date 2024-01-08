@@ -1,7 +1,7 @@
 ---
 title: Gestionnaire d’événements complete d’activation en bloc
 description: En savoir plus sur le gestionnaire d’événement complet d’activation en bloc
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 8f1bb12a92ab9a63aef1765e51159644242683a0
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 2%
@@ -11,7 +11,6 @@ ht-degree: 2%
 # Gestionnaire d’événements complete d’activation en bloc
 
 Exposition de guides du Experience Manager `com/adobe/fmdita/replication/complete` qui est utilisé pour effectuer toute opération après la fin d’un processus d’activation en bloc. Cet événement est déclenché chaque fois qu’un processus d’activation en bloc est terminé. Par exemple, si vous exécutez l’activation en bloc d’un paramètre prédéfini de site AEM d’une carte, cet événement est appelé une fois le processus d’activation terminé.
-
 
 Vous devez créer un gestionnaire d’événements AEM pour lire les propriétés disponibles dans cet événement et effectuer un traitement ultérieur.
 

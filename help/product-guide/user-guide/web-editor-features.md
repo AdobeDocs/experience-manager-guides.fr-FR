@@ -2,9 +2,9 @@
 title: Présentation des fonctionnalités de l’éditeur web
 description: Découvrez les fonctionnalités de l’éditeur web dans AEM Guides. Découvrez l’interface de l’éditeur web, notamment la barre d’outils principale, la barre d’outils secondaire, le panneau de gauche, la zone d’édition de contenu et le panneau de droite.
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 9d9a1f270873869ce8261aae439f0ecd7d9fea94
 workflow-type: tm+mt
-source-wordcount: '17222'
+source-wordcount: '17364'
 ht-degree: 0%
 
 ---
@@ -147,9 +147,11 @@ Dans la capture d’écran suivante, seuls 3 éléments configurés sur 4 de la 
 
   ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **Profil de publication**: contient les profils de publication qui peuvent être utilisés pour publier la sortie de la base de connaissances. Vous pouvez créer un profil pour un type de consommateur sélectionné. Par exemple, Salesforce.
+- **Profil de publication**: contient les profils de publication qui peuvent être utilisés pour publier le rapport **Base de connaissances** sortie. Vous pouvez créer un nouveau profil pour une base de connaissances cible. Par exemple, Salesforce ou ServiceNow.
 
-   - **Conditions requises pour créer un profil de publication Salesforce**
+   - **Création d’un profil de publication Salesforce**
+
+     **Conditions préalables**
 
       - Créez une application connectée pour Salesforce. Pour plus d’informations, voir [Activation des paramètres OAuth pour l’intégration d’API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
 
@@ -157,7 +159,7 @@ Dans la capture d’écran suivante, seuls 3 éléments configurés sur 4 de la 
 
          - Spécifiez le rappel.
 
-           `URL: http://: <server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+           `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
          - Sélectionnez les périmètres OAuth suivants :
             - Accès complet (complet)
@@ -166,18 +168,38 @@ Dans la capture d’écran suivante, seuls 3 éléments configurés sur 4 de la 
   Une fois l’application configurée, Salesforce fournit une **Clé client** et **Secret du client**.
 
   Ils peuvent être utilisés pour créer le profil de publication Salesforce.
-  ![profils dans les paramètres de l’éditeur](./images/create-profile-editor-settings.png){width="300" align="left"}
 
 
+   - Pour créer un profil de publication Salesforce, sélectionnez le **Salesforce** de la base de connaissances **Type de serveur** menu déroulant. Saisissez un nom de profil. Dans le **URL du site**, saisissez le site destiné aux consommateurs que vous utiliserez pour publier la sortie, puis ajoutez le **Clé client** et **Secret du client** fourni par le site client Salesforce. Alors, **Valider** et **Enregistrer** le profil nouvellement créé.
+     ![profil de publication Salesforce dans les paramètres de l’éditeur](./images/salesforce-publish-profile.png){width="550" align="left"}
 
-- Pour créer un profil de publication, vous pouvez sélectionner une base de connaissances telle que Salesforce à partir de la **Type de serveur** menu déroulant. Saisissez un nom de profil. Dans le **URL du site** accédez au site destiné aux consommateurs que vous utiliserez pour publier la sortie, puis ajoutez le **Clé client** et **Secret du client** fourni par le site client comme Salesforce. Connectez-vous ensuite au profil nouvellement créé.
-
-  >[!NOTE]
-  >
-  >Pour configurer un proxy pour Salesforce dans les guides du Experience Manager, utilisez la configuration du proxy des composants HTTP Apache dans AEM. Découvrez comment [Configuration du proxy pour le vérificateur de lien d’AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+     >[!NOTE]
+     >
+     >Pour configurer un proxy pour Salesforce dans les guides du Experience Manager, utilisez la configuration du proxy des composants HTTP Apache dans AEM. Découvrez comment [Configuration du proxy pour le vérificateur de lien d’AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
-  Après vous être connecté, vous pouvez sélectionner le profil de publication dans les paramètres prédéfinis de sortie d’une carte DITA et l’utiliser pour générer la sortie pour les articles sélectionnés. Pour plus d’informations, voir [Publication basée sur des articles à partir de l’éditeur web](../install-guide/configure-article-based-publishing.md) dans le Guide d&#39;installation et de configuration.
+   - **Création d’un profil de publication ServiceNow**
+
+     **Conditions préalables**
+
+     Configurez le serveur ServiceNow pour charger les ressources.
+      - Connectez-vous au **ServiceNow** serveur.
+      - Accédez à **Propriétés système** > **Sécurité**.
+      - Décochez l’option suivante :
+
+        **Cette propriété doit être définie pour activer la vérification de type MIME pour les téléchargements (toutes les versions Eureka et supérieures). Active (true) ou désactive la validation de type MIME (false) pour les pièces jointes. Les extensions de fichier configurées via glide.attachment.extensions seront vérifiées pour le type MIME lors du téléchargement.**
+
+      - Cliquez sur **Enregistrer**.
+
+     Une fois l’application configurée, créez la **ServiceNow** Publier le profil.
+   - Pour créer un profil de publication, sélectionnez la base de connaissances ServiceNow dans le **Type de serveur** menu déroulant. Saisie d’un profil **Nom**. Dans le **URL ServiceNow**, saisissez le site destiné aux consommateurs que vous utiliseriez pour publier la sortie, puis ajoutez le **Nom d’utilisateur** et **Password** fourni par le site consommateur ServiceNow. Alors, **Valider** et **Enregistrer** le profil nouvellement créé.
+
+     ![Profil de publication ServiceNow](./images/service-now-publish-profile.png){width="550" align="left"}
+
+  Après avoir validé, vous pouvez sélectionner le profil de publication dans les paramètres prédéfinis de sortie d’une carte DITA et l’utiliser pour générer la sortie vers la  **Salesforce** ou **ServiceNow** serveur que vous avez choisi.
+
+  En savoir plus sur les [Base de connaissances](../user-guide/generate-output-knowledge-base.md) paramètre prédéfini de sortie.
+
 
 - **Validation**: cet onglet contient les options de configuration des validations de schémas dans l’éditeur web. Vous pouvez activer les fonctionnalités suivantes :
 
@@ -186,7 +208,7 @@ Dans la capture d’écran suivante, seuls 3 éléments configurés sur 4 de la 
      >[!NOTE]
      >Le ou les fichiers de schéma sélectionnés seront conservés pour le profil de dossier sélectionné.
 
-     ![Validation dans les paramètres de l’éditeur](./images/editor-setting-validation.png){width="300" align="left"}
+     ![Validation dans les paramètres de l’éditeur](./images/editor-setting-validation.png){width="550" align="left"}
 Cela empêche les utilisateurs d’enregistrer un fichier qui rompt une règle définie dans le ou les fichiers de schéma sélectionnés. Si cette option n’est pas sélectionnée, le fichier ne sera pas validé avant d’enregistrer les modifications.
 
    - **Autoriser tous les utilisateurs à ajouter des fichiers de schéma dans le panneau de validation**: sélectionnez cette option pour permettre aux utilisateurs d’ajouter n’importe quel fichier de schéma dans le panneau Validation de l’éditeur web. Cela permet aux utilisateurs d’ajouter des fichiers de schéma, puis de valider les rubriques par rapport au fichier de schéma. Si cette option n’est pas sélectionnée, l’événement **Ajouter un fichier de schéma** n’est pas disponible pour les utilisateurs de la fonction **Panneau de validation** de l’éditeur Web.
@@ -232,9 +254,8 @@ Les préférences utilisateur sont disponibles pour tous les auteurs. À l’aid
 
 - **Sélectionner la carte racine**: sélectionnez un fichier de mappage DITA pour résoudre les références ou entrées de glossaire clés. La carte racine sélectionnée a la priorité la plus élevée pour résoudre les références clés. Pour plus d’informations, voir [Résoudre les références de clés](map-editor-other-features.md#id176GD01H05Z).
 
-
 >[!NOTE]
->
+> 
 > Si vous ne souhaitez pas utiliser de mappage racine, assurez-vous que la variable **Sélectionner la carte racine** est vide.
 
 **Modes d’auteur, de source et d’aperçu**
@@ -666,7 +687,7 @@ AEM Guides vous permet de spécifier des libellés dans un format de texte libre
 
 Ces libellés s’affichent sous la forme d’une liste déroulante pour les auteurs lorsqu’ils ont besoin de spécifier un libellé. Ainsi, seules les étiquettes prédéfinies et cohérentes sont utilisées dans le système.
 
-Il existe différentes méthodes pour appliquer des libellés à vos rubriques : [Historique des versions](web-editor-use-label.md#) Panneau dans l’interface utilisateur d’Assets, [Lignes de base](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md#id184KD0T305Z) de l’interface utilisateur et de l’éditeur web. La fonction Libellé de version de l’éditeur web permet aux auteurs d’attribuer facilement et rapidement des libellés à leurs rubriques.
+Il existe différentes méthodes pour appliquer des libellés à vos rubriques : [Historique des versions](web-editor-use-label.md) Panneau dans l’interface utilisateur d’Assets, [Lignes de base](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) de l’interface utilisateur et de l’éditeur web. La fonction Libellé de version de l’éditeur web permet aux auteurs d’attribuer facilement et rapidement des libellés à leurs rubriques.
 
 Pour ajouter des libellés à votre rubrique à partir de l’éditeur web, procédez comme suit :
 

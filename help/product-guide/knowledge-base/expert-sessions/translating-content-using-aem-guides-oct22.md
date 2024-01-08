@@ -2,9 +2,9 @@
 title: Traduction du contenu
 description: Découvrez comment traduire votre contenu dans plusieurs langues.
 exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '166'
 ht-degree: 5%
 
 ---
@@ -31,7 +31,6 @@ Au cours de cette session, vous découvrirez le processus de traduction, le méc
 ## Principaux points à retenir
 
 Au cours de cette session, vous découvrirez les éléments suivants :
-
 - Raisons pour lesquelles les entreprises investissent dans la traduction pour améliorer leurs activités
 - Mécanisme de structure disponible et processus de traduction
 - Automatisation du workflow de traduction, des API et du tableau de bord
@@ -41,14 +40,13 @@ Au cours de cette session, vous découvrirez les éléments suivants :
 
 - **Vidéos de présentation** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Guide de l’utilisateur** - [Traduire le contenu](/help/product-guide/install-guide/translation.md)
+- **Guide de l’utilisateur** - [Traduire le contenu](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
 
 - **Forum communautaire** - Pour les interactions de communauté spécifiques à une session sur Experience League, rendez-vous sur la page [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
 
 >[!NOTE]
 >
 > Les fonctionnalités affichées dans cette session sont disponibles dans les versions suivantes des AEM Guides :
->
 > - On-premise 4.1 ou version ultérieure
 > - Cloud Service 2207 ou version ultérieure
 

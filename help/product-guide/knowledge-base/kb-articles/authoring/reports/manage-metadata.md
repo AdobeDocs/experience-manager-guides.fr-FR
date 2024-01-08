@@ -2,9 +2,9 @@
 title: Gestion des balises des fichiers DITA dans les Guides d’AEM
 description: Article bref à fournir sur la gestion des balises cq:tags dans AEM Guides
 exl-id: 2d805c26-df9b-405a-81ca-7aa84c6f86c8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '280'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Vous pouvez également supprimer les balises existantes qui sont communes aux fi
 
 ### Liste dans manage->metadata est vide ou incomplet
 
-Si la liste est vide ou incomplète, vous devrez peut-être exécuter l’indexation sur votre fichier ditamap. Vous pouvez consulter [Instructions de mise à niveau (indexer votre contenu)](/help/product-guide/install-guide/upgrade-xml-documentation.md#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
+`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [Instructions de mise à niveau (indexer votre contenu)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=en#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
 
 ### Les métadonnées personnalisées ne figurent pas dans la liste
 
@@ -54,8 +54,8 @@ Si la liste est vide ou incomplète, vous devrez peut-être exécuter l’indexa
 
 ## Autres ressources utiles
 
-- [Balisage en masse à l’aide du tableau de bord des cartes (interface utilisateur des ressources)](/help/product-guide/user-guide/map-editor-bulk-tagging.md)
-- [Rapports Ditamap dans l’éditeur web](/help/product-guide/user-guide/reports-web-editor.md)
+- [Balisage en masse à l’aide du tableau de bord des cartes (interface utilisateur des ressources)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
+- [Rapports Ditamap dans l’éditeur web](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
 - [Balisage dans AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
 
 

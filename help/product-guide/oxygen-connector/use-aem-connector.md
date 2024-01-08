@@ -4,9 +4,9 @@ description: Découvrez comment utiliser le module externe Oxygen pour les guide
 hide: true
 hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 0e19b870541e8e65dc371eb01fc3256f172c1a91
 workflow-type: tm+mt
-source-wordcount: '6101'
+source-wordcount: '6294'
 ht-degree: 0%
 
 ---
@@ -246,22 +246,21 @@ Effectuez les étapes suivantes pour configurer les attributs de profilage et le
 
    ![association de type de document](images/document_type_association.png){width="650" align="left"}
 
-1. Dans le **Classpath** sélectionnez com.adobe.o2.connector dans l’onglet **Utilisation du module externe de chargement de classe parent avec identifiant** menu déroulant.
+1. Dans le **Classpath** onglet, sélectionnez `com.adobe.o2.connector` dans le **Utilisation du module externe de chargement de classe parent avec identifiant** menu déroulant.
 
    ![Onglet Chemin de classe](images/dita-extension.png){width="650" align="left"}
 
 1. Dans le **Extensions** effectuez les modifications suivantes :
-   - Cliquez sur **Choisir** en regard de **Écouteur d’état de l’extension de création** under **Extensions individuelles** et sélectionnez CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn dans **Classe** liste. Cliquez sur **OK**.
-   - Cliquez sur **Choisir** en regard de **Éditeur de valeur d’attribut personnalisé de création** under **Extensions individuelles** et sélectionnez CustomValueEditor - com.adobe.o2.framework.extn dans la **Classe** liste. Cliquez sur **OK**.
-La capture d’écran suivante montre le **Extension** pour les rubriques DITA :
 
-     ![Extension configurée pour les rubriques DITA](images/dita-topic-extension-tab.png){width="650" align="left"}
-
-   - Cliquez sur **Choisir** en regard de **Groupe d’extensions** et sélectionnez LinkResolverExtensionBundle - com.adobe.o2.framework.extn dans **Classe** liste. Cliquez sur **OK**.
-
+   - Cliquez sur **Choisir** en regard de **Groupe d’extensions** et sélectionnez   `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` dans le **Classe** liste. Cliquez sur **OK**.
      ![Extension configurée pour les rubriques DITA](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
+   - Cliquez sur **Choisir** en regard de **Écouteur d’état de l’extension de création** under **Extensions individuelles** et sélectionnez `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` dans le **Classe** liste. Cliquez sur **OK**.
+   - Cliquez sur **Choisir** en regard de **Éditeur de valeur d’attribut personnalisé de création** under **Extensions individuelles** et sélectionnez `CustomValueEditor - com.adobe.o2.framework.extn` dans le **Classe** liste. Cliquez sur **OK**.
+   - Cliquez sur **Choisir** en regard de **Créateur du gestionnaire d’insertion d’objets externes** under **Extensions individuelles** et sélectionnez `CustomURLInsertionHandler - com.adobe.o2.ui ` dans le **Classe** liste. Cliquez sur **OK**.
 
 
+   La capture d’écran suivante montre le **Extension** pour les rubriques DITA :
+   <img src="images/dita-topic-extension-tab.png" alt="Extension configurée pour les rubriques DITA" width="650" border="2px">
 1. Cliquez sur **OK** dans toutes les boîtes de dialogue pour enregistrer vos modifications.
 
 ### Configuration de l’extension de carte DITA
@@ -274,16 +273,19 @@ Effectuez les étapes suivantes pour configurer l’extension de mappage DITA :
 1. Dans le **Association du type de document** onglet, sélectionnez **Carte DITA**, puis cliquez sur **Étendre**.
 1. Dans le **Classpath** sélectionnez com.adobe.o2.connector dans l’onglet **Utilisation du module externe de chargement de classe parent avec identifiant** menu déroulant.
 1. Dans le **Extensions** effectuez les modifications suivantes :
-1. 
-   - Cliquez sur **Choisir** en regard de **Écouteur d’état de l’extension de création** under **Extensions individuelles** et sélectionnez CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn dans **Classe** liste. Cliquez sur **OK**.
-- Cliquez sur **Choisir** en regard de **Éditeur de valeur d’attribut personnalisé de création** under **Extensions individuelles** et sélectionnez CustomValueEditor - com.adobe.o2.framework.extn dans la **Classe** liste. Cliquez sur **OK**.
-- *\(Facultatif\)* Si vous ne souhaitez pas résoudre les références lors de l’ouverture d’un fichier map, vous devez effectuer la configuration supplémentaire suivante :
+   - Cliquez sur **Choisir** en regard de **Groupe d’extensions** et sélectionnez   `com.adobe.o2.framework.extn.LinkResolverDITAMapExtensionBundle` dans le **Classe** liste. Cliquez sur **OK**.
 
-  Cliquez sur **Choisir** en regard de **Références Resolver** under **Extensions individuelles** et sélectionnez CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn dans la **Classe** liste. Cliquez sur **OK**.
+   - Cliquez sur **Choisir** en regard de **Écouteur d’état de l’extension de création** under **Extensions individuelles** et sélectionnez `CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn` dans le **Classe** liste. Cliquez sur **OK**.
 
-  La capture d’écran suivante montre le **Extension** tab :
+   - Cliquez sur **Choisir** en regard de **Créateur du gestionnaire d’insertion d’objets externes** under **Extensions individuelles** et sélectionnez `CustomURLInsertionHandler - com.adobe.o2.ui ` dans le **Classe** liste. Cliquez sur **OK**.
 
-  ![Extension configurée pour le mappage DITA](images/dita-map-extension-tab.png){width="650" align="left"}
+   - Cliquez sur **Choisir** en regard de **Éditeur de valeur d’attribut personnalisé de création** under **Extensions individuelles** et sélectionnez `CustomValueEditor - com.adobe.o2.framework.extn` dans le **Classe** liste. Cliquez sur **OK**.
+
+   - Cliquez sur **Choisir** en regard de **Résolveur de références** under **Extensions individuelles** et sélectionnez `CustomDITAMapReferenceResolver - com.adobe.o2` dans le **Classe** liste. Cliquez sur **OK**.
+   - *\(Facultatif\)* Si vous ne souhaitez pas résoudre les références lors de l’ouverture d’un fichier map, vous devez effectuer la configuration supplémentaire suivante :
+
+   La capture d’écran suivante montre le **Extension** tab :
+   <img src="images/dita-map-extension-tab.png" alt="Extension configurée pour le mappage DITA" width="650" border="2px">
 
 1. Cliquez sur **OK** dans toutes les boîtes de dialogue pour enregistrer vos modifications.
 
@@ -382,7 +384,7 @@ Lorsque vous extrayez un fichier, il est stocké localement sur votre système e
    - Cliquez avec le bouton droit de la souris sur un fichier dans le panneau Gestionnaire de cartes DITA .
    - Cliquez avec le bouton droit sur l’onglet Fichier lorsque vous ouvrez une carte ou une rubrique dans l’éditeur.
 
-1. Sélectionnez l’une des options suivantes :
+1. Sélectionnez l’une des options suivantes :
    - **Extraction :** Extrait un fichier du référentiel AEM et le rend disponible pour modification.
    - **Extraction avec dépendances**: extrait un fichier avec ses références directes. Vous pouvez apporter des modifications aux pages parents et enfants à l’aide de cette option. Le module externe Oxygen pour AEM Guides prend en charge l’extraction d’un niveau de dépendances. Par exemple, la carte A fait référence à la rubrique A et la rubrique A à la rubrique B. L’extraction de la carte A entraîne l’extraction de la rubrique A, quel que soit son niveau dans la hiérarchie de la table des matières. Cependant, il n’extrait pas la rubrique B, car elle n’est pas directement liée à partir de la carte A.
    - **Extraction avec dépendances en lecture seule**: extrait un fichier et télécharge ses dépendances sur votre ordinateur local en tant que copies en lecture seule. Vous ne pouvez pas apporter de modifications aux fichiers dépendants.
@@ -440,7 +442,7 @@ Lorsque vous archivez un fichier, la copie locale du système est stockée dans 
 
    ![Boîte de dialogue d’archivage](images/checkin-dropdown-labels.png){width="550" align="left"}
 
-   Vous pouvez ajouter plusieurs libellés (séparés par des virgules) à la même version d’une rubrique.  Par exemple : *Adobe*, *AEM*,*Guides*
+   Vous pouvez ajouter plusieurs libellés (séparés par des virgules) à la même version d’une rubrique.  Par exemple : *Adobe*, *AEM*, *Guides*.
 Cependant, vous ne pouvez pas ajouter le même libellé aux différentes versions d’une rubrique. Si vous ajoutez un libellé que vous avez déjà ajouté à une version antérieure, il est ajouté à la dernière version et supprimé de la version précédente.
 
    >[!NOTE]
@@ -488,7 +490,7 @@ Lorsque vous disposez de plusieurs dossiers, il n’est pas facile de détermine
 Effectuez les étapes suivantes pour charger des fichiers ou des dossiers :
 
 1. Cliquez avec le bouton droit de la souris sur un dossier dans le panneau AEM Guides.
-1. Sélectionnez l’une des options suivantes :
+1. Sélectionnez l’une des options suivantes :
    - **Télécharger le fichier\(s\)**: sélectionnez cette option pour charger un ou plusieurs fichiers dans le dossier sélectionné du référentiel AEM. Dans la boîte de dialogue Sélectionner les fichiers à charger, sélectionnez les fichiers et cliquez sur **Ouvrir**.
    - **Chargement avec des dépendances**: sélectionnez cette option pour charger un fichier DITA avec ses dépendances. Dans la boîte de dialogue Select file to upload, sélectionnez les fichiers, puis cliquez sur **Ouvrir**.
    - **Dossier de chargement**: sélectionnez cette option pour charger un dossier dans le référentiel AEM. Dans la boîte de dialogue Choisir, sélectionnez le dossier et cliquez sur **Choisir**.
@@ -511,7 +513,7 @@ Les points suivants doivent être pris en compte lors du déplacement ou de la c
 
 - Lorsque vous extrayez du contenu du référentiel AEM et apportez des modifications sur votre système local, assurez-vous que le nom de fichier n’est pas modifié au moment du téléchargement du fichier.
 
-- Lorsque vous insérez une référence dans le Gestionnaire de mappages DITA, elle affiche le titre du fichier et non l’UUID. Si le titre n’est pas présent, il affiche le nom du fichier.
+- Lorsque vous insérez une référence dans le Gestionnaire de mappages DITA ou dans l’éditeur, elle affiche le titre du fichier et non l’UUID. Si le titre n’est pas présent, il affiche le nom du fichier.
 
 ### Ajouter ou supprimer des Favoris {#id195HC04405P}
 
@@ -607,6 +609,24 @@ Effectuez les étapes suivantes pour modifier une rubrique DITA dans Oxygen XML 
    >[!NOTE]
    >
    >Assurez-vous d’archiver la rubrique à l’aide du module externe Oxygen pour AEM Guides. Si vous archivez à partir de l’interface web d’AEM, les modifications que vous apportez dans l’auteur XML Oxygen ne sont pas enregistrées dans la version archivée de la rubrique.
+
+**Insertion d’une référence à une rubrique à partir du référentiel des guides du Experience Manager**
+
+Vous pouvez également faire glisser et déposer une rubrique pour insérer la référence dans une rubrique ou un mappage DITA.
+>[!NOTE]
+>
+> Vous devez extraire un fichier avant d’y ajouter toute référence.
+
+Les éléments suivants sont ajoutés en fonction du type de références :
+
+Si vous déposez dans l’éditeur avec une rubrique ouverte :
+- Une référence est ajoutée avec `<image>` pour les images.
+- Un élément d’objet est ajouté pour un contenu vidéo ou audio.
+- La variable `<xref>`  est ajouté pour toutes les autres références telles que topic, map, DITAVAL, PDF, ZIP et XML.
+
+Si vous déposez dans le Gestionnaire de mappages de l’éditeur ou de la DITA avec une carte ouverte :
+- La variable `<mapref>` est ajouté pour les références de mappage, qui incluent un mappage DITA, un bookmap ou un schéma d’objet.
+- La variable `<topicref>` est ajouté pour toutes les autres références telles que topic, map, DITAVAL, PDF, ZIP et XML.
 
 
 ## Utilisation des profils d’attribut {#id1827JA002YK}

@@ -2,9 +2,9 @@
 title: Ajout d’un bouton interactif personnalisé dans la barre d’outils de l’éditeur de webeans
 description: Découvrez comment ajouter un nouveau bouton personnalisé dans la barre d’outils de l’éditeur de weets et appeler javascript pour l’utiliser de manière personnalisée.
 exl-id: 34999db6-027a-4d93-944f-b285b4a44288
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -60,10 +60,7 @@ Utilisez les profils de dossier pour vérifier la variable *ui_config.json* sous
 
 ### Gérer l’événement &quot;onclick&quot; pour le nouveau bouton
 
->[!NOTE]
->
->Les étapes mentionnées ci-dessous sont disponibles sous forme de package joint à cette publication.
-
+    REMARQUE : Les étapes mentionnées ci-dessous sont disponibles sous forme de package joint à ce billet.
 
 
 - Après avoir enregistré le profil de dossier, créez un &quot;cq:ClientLibraryFolder&quot; sous un répertoire de projet (sous */apps*) et ajoutez des propriétés comme illustré dans la capture d’écran ci-dessous :

@@ -2,9 +2,9 @@
 title: Rapports dans les guides d’AEM
 description: Découvrez tous les rapports disponibles dans AEM pour aider les utilisateurs à améliorer la qualité du contenu.
 exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,6 @@ Dans une configuration organisationnelle, vous souhaitez vérifier l’exhaustiv
 ## Présentation de la session
 
 Au cours de cette session, nous avons présenté des rapports d’usine disponibles pour les utilisateurs. Nous avons abordé en détail les sujets suivants :
-
 - Rapports de document (map) et de rubrique
 - Rapports de métadonnées et options de gestion des métadonnées en masse
 - Rapports de réutilisation du contenu
@@ -41,7 +40,6 @@ Au cours de cette session, nous avons présenté des rapports d’usine disponib
 ## Principaux points à retenir
 
 Au cours de cette session, vous avez appris les éléments suivants :
-
 - Importance des rapports dans le CCMS
 - rapports prêts à l’emploi disponibles
 - exemples de reporting sur le contenu
@@ -53,14 +51,13 @@ Au cours de cette session, vous avez appris les éléments suivants :
 
 - **Vidéos de présentation** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
-- **Guide de l’utilisateur** - [Création de contenu](/help/product-guide/user-guide/reports-intro.md)
+- **Guide de l’utilisateur** - [Création de contenu](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
 - **Forum communautaire** - Pour les interactions de communauté spécifiques à une session sur Experience League, rendez-vous sur la page  [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > Les fonctionnalités affichées dans cette session sont disponibles dans les versions suivantes des AEM Guides :
->
 > - On-premise : 4.2 ou version ultérieure
 > - Cloud Service : 2302 ou version ultérieure
 

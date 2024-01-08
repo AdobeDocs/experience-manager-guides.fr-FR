@@ -2,9 +2,9 @@
 title: Création et gestion des lignes de base à partir de l’éditeur web
 description: Créez et gérez des lignes de base à partir de l’éditeur web dans AEM Guides. Découvrez comment créer des lignes de base sur la base des libellés et appliquer des filtres aux lignes de base.
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: f02a9e4a71796996a4ea933cb3c5b983103a251b
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1617'
 ht-degree: 0%
 
 ---
@@ -26,19 +26,19 @@ Vous pouvez créer une ligne de base à partir de l’éditeur Web en procédant
 
    ![Panneau de base](images/baseline-manage.png){width="800" align="left"}
 
-1. Sur le **Ligne de base** , cliquez sur l’icône + en haut à droite. Vous pouvez créer une ligne de base avec une version spécifique des rubriques et du contenu référencé disponible à une date et une heure spécifiques, ou avec un libellé défini pour une version des rubriques.
-1. Saisissez un nom pour la ligne de base dans **Nom de la ligne de base**.
-1. Dans **Option de ligne de base**, vous pouvez choisir **Utiliser la version du fichier** ou **Utilisation des libellés** option :
+1. Sur le **Ligne de base** sélectionnez l’icône + en haut à droite pour commencer à créer une ligne de base.
+1. Saisissez un nom pour la ligne de base dans **Nom**.
+1. Dans **Configuration**, vous pouvez choisir **Mise à jour manuelle** ou **Mise à niveau automatique** option :
 
-   **Utiliser la version du fichier**: vous pouvez créer une ligne de base statique avec une version spécifique des rubriques et du contenu référencé disponible à une date et une heure spécifiques, ou avec un libellé défini pour une version des rubriques :
+   **Mise à jour manuelle**: vous pouvez créer manuellement une ligne de base statique avec une version spécifique des rubriques et du contenu référencé disponible à une date et une heure spécifiques, ou avec un libellé défini pour une version des rubriques :
 
-   - Dans **Définissez la dernière version en fonction de,** sélectionnez l’une des options suivantes :
+   - Dans **Sélectionnez la version en fonction de,** sélectionnez l’une des options suivantes :
 
 
       1. **Date** &lt;time stamp=&quot;&quot;>: sélectionne la version des rubriques à la date et à l’heure spécifiées.
       1. **Libellé**: sélectionnez cette option pour sélectionner les rubriques en fonction du libellé qui leur est appliqué. Si des libellés sont spécifiés pour les rubriques, ils sont répertoriés dans la liste déroulante. Vous pouvez choisir un libellé dans la liste. Vous pouvez également ajouter un libellé dans la zone de texte.
 
-         Pour les références directes dans les lignes de base statiques, les libellés sont extraits de la dernière version enregistrée de la carte. Par exemple, si vous avez créé des étiquettes `Label Release 1.0` et `Label Release 1.1` pour les versions 1.0 et 1.1 de la rubrique A, puis ajoutez la rubrique A à la carte enregistrée comme version 1.0. Dans ce cas, vous pouvez afficher les libellés `Label Release 1.0` et `Label Release 1.1` dans la liste déroulante des libellés de ligne de base statiques.
+         Pour les références directes dans les lignes de base statiques, les libellés sont extraits de la dernière version enregistrée de la carte. Par exemple, si vous avez créé des étiquettes `Label Release 1.0` et `Label Release 1.1` pour les versions 1.0 et 1.1 de la rubrique A, puis ajoutez la rubrique A à la carte enregistrée comme version 1.0. Dans ce cas, vous pouvez afficher les libellés `Label Release 1.0` et `Label Release 1.1` dans la liste déroulante pour les libellés de ligne de base statiques.
 
 
          Lorsque vous sélectionnez **Libellé,** vous pouvez choisir les références directes et indirectes.
@@ -52,9 +52,9 @@ Vous pouvez créer une ligne de base à partir de l’éditeur Web en procédant
 
          Une fois que vous avez sélectionné un libellé ou une version à la date, toutes les rubriques et tous les fichiers multimédias référencés dans le mappage sont sélectionnés en conséquence. Cette sélection de rubriques n’est pas affichée dans l’interface utilisateur, mais elle est enregistrée dans le serveur principal.
 
-   **Utiliser des étiquettes**: sélectionnez cette option pour la création de ligne de base afin de sélectionner les rubriques en fonction du libellé qui leur est appliqué.
+   **Mise à niveau automatique**: sélectionnez cette option pour la création de ligne de base afin de sélectionner automatiquement les rubriques en fonction du libellé qui leur est appliqué.
 
-   Les lignes de base basées sur les libellés sont mises à jour dynamiquement. Si vous générez une ligne de base, téléchargez une ligne de base ou créez un projet de traduction à l’aide d’une ligne de base, les fichiers sont sélectionnés dynamiquement en fonction des étiquettes mises à jour. Par exemple, si vous avez utilisé la version 1.2 d’une rubrique avec la version 1.0 du libellé pour la ligne de base et la version 1.5 ultérieure mise à jour avec la version 1.0 du libellé, la ligne de base sera mise à jour dynamiquement et la version 1.5 sera utilisée.
+   Les lignes de base créées à l’aide de la configuration de mise à niveau automatique sont mises à jour dynamiquement. Si vous générez une ligne de base, téléchargez une ligne de base ou créez un projet de traduction à l’aide d’une ligne de base, les fichiers sont sélectionnés dynamiquement en fonction des étiquettes mises à jour. Par exemple, si vous avez utilisé la version 1.2 d’une rubrique avec la version 1.0 du libellé pour la ligne de base et la version 1.5 ultérieure mise à jour avec la version 1.0 du libellé, la ligne de base sera mise à jour dynamiquement et la version 1.5 sera utilisée.
 
    ![Création d’une ligne de base](images/dynamic-baseline.png){width="550" align="left"}
 
@@ -78,16 +78,7 @@ Vous pouvez gérer vos lignes de base existantes à l’aide des différentes fo
 
 - Vous pouvez rechercher une ligne de base existante à l’aide de la zone de texte dans le panneau Ligne de base . Utilisez la variable **Appliquer un filtre** pour afficher toutes les lignes de base ou répertorier celles dont l’état de création est Réussite, En cours ou Échec.
 - Utilisez la variable **Actualiser** dans le panneau Ligne de base pour vérifier toutes les lignes de base et afficher une nouvelle liste des lignes de base pour le mappage DITA ouvert dans la vue Carte.
-- Vous pouvez afficher ou modifier le contenu d’une ligne de base statique existante en double-cliquant sur la ligne de base dans la liste du panneau Ligne de base . La fenêtre de modification de ligne de base au centre affiche le fichier de mappage DITA, le contenu ou les rubriques de la carte et le contenu référencé.
-
-
-  ![options d’une ligne de base](images/baseline-options.png){width="800" align="left"}
-
-
-
-  Vous pouvez également effectuer les opérations suivantes sur la ligne de base à partir du menu Options :
-
-- **Modifier**, **Dupliquer,** **Renommer**, ou **Supprimer** une ligne de base existante.
+- Vous pouvez afficher ou modifier le contenu d’une ligne de base statique existante en double-cliquant sur la ligne de base dans la liste du **Ligne de base** du panneau. La fenêtre de modification de ligne de base au centre affiche le fichier de mappage DITA, le contenu ou les rubriques de la carte et le contenu référencé.
 
   >[!NOTE]
   >
@@ -95,6 +86,24 @@ Vous pouvez gérer vos lignes de base existantes à l’aide des différentes fo
   >
   >L’opération de modification dans le cas d’une ligne de base dynamique vous permet de modifier les propriétés de la ligne de base, car les références des lignes de base dynamiques sont générées au moment de l’exécution à l’aide des libellés.
 
+  ![options d’une ligne de base](images/baseline-options.png){width="800" align="left"}
+
+
+
+  Vous pouvez également effectuer les opérations suivantes sur la ligne de base à partir du menu Options :
+- **Duplication d’une ligne de base**: vous pouvez dupliquer une ligne de base et la modifier selon vos besoins.
+  ![duplication d’une ligne de base](images/baseline-duplicate.png){width="300" align="left"}
+  *Dupliquez une ligne de base à partir d’un libellé ou créez une copie exacte.*
+
+   1. Sélectionner **Dupliquer** dans le menu Options d’une ligne de base. La variable **Dupliquer la ligne de base** s’ouvre.
+      >[!NOTE]
+      > 
+      >Le nom par défaut de la ligne de base est `<selected baseline name>`_suffix (comme sample-baseline_1). Vous pouvez modifier le nom en fonction de vos besoins.
+   1. Dans **Sélectionnez la version en fonction de**, vous pouvez choisir l’une des options suivantes : **Exact Copy** ou l’option **Libellé** option :
+      - **Exact Copy**: les guides du Experience Manager sélectionnent la même version de toutes les rubriques et créent une copie exacte de la ligne de base dupliquée.
+      - **Libellé**: vous pouvez choisir un libellé dans la liste déroulante. Les guides du Experience Manager sélectionnent ces versions des rubriques pour lesquelles le libellé sélectionné est défini, tandis que pour les rubriques restantes, il sélectionne la version à partir de la ligne de base dupliquée. Par exemple, vous sélectionnez le libellé `Release 1.0` dans la liste déroulante, il sélectionne les versions des rubriques pour lesquelles vous avez défini ce libellé. Pour toutes les autres rubriques, la version est sélectionnée à partir de la ligne de base dupliquée.
+   1. Cliquez sur **Dupliquer**.
+- **Renommer**, ou **Supprimer** une ligne de base existante.
 - Ajoutez, supprimez ou apportez des modifications à des étiquettes existantes à partir de la fonction **Gestion des étiquettes** pour les lignes de base statiques. Si votre administrateur a configuré des libellés prédéfinis, ces libellés s’affichent dans la liste déroulante Ajouter un libellé . Pour plus d’informations sur l’ajout d’étiquettes, voir [Utilisation des libellés](web-editor-use-label.md#).
 
   >[!NOTE]
@@ -123,3 +132,4 @@ Utilisation de l’icône Filtres dans la variable **Filtres de ligne de base** 
 Une fois que vous avez modifié la ligne de base, vous pouvez cliquer sur le bouton **Enregistrer** pour enregistrer les modifications apportées à la ligne de base. Vous pouvez cliquer sur le bouton **Réinitialiser** si vous ne souhaitez pas enregistrer la modification et réinitialiser la ligne de base. Lorsque vous cliquez sur le bouton **Réinitialiser** un avertissement s’affiche pour vous informer que vos modifications non enregistrées seront perdues.
 
 **Rubrique parente :**[ Utilisation de l’éditeur web](web-editor.md)
+

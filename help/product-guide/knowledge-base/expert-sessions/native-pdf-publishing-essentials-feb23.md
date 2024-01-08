@@ -2,9 +2,9 @@
 title: Principes élémentaires de la publication par les PDF natifs
 description: Découvrez comment publier du PDF à l’aide du moteur PDF natif dans AEM Guides.
 exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '204'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,6 @@ Au cours de cette session, vous apprendrez à publier PDF à l’aide du moteur 
 ## Principaux points à retenir
 
 Au cours de cette session, vous découvrirez les éléments suivants :
-
 - Principes de publication des PDF
 - Création et personnalisation de divers composants du modèle de PDF
 - Structuration et style du contenu pour la publication
@@ -42,14 +41,13 @@ Au cours de cette session, vous découvrirez les éléments suivants :
 
 - **Vidéos de présentation** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Guide de l’utilisateur** - [Publication PDF native](/help/product-guide/native-pdf/pdf-template.md)
+- **Guide de l’utilisateur** - [Publication PDF native](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
 - **Forum communautaire** - Pour les interactions de communauté spécifiques à une session sur Experience League, rendez-vous sur la page  [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > Les fonctionnalités affichées dans cette session sont disponibles dans les versions suivantes des AEM Guides :
->
 > - On-premise 4.2 ou version ultérieure
 > - Cloud Service 2211 et versions ultérieures
 

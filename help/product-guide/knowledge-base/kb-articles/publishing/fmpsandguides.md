@@ -2,9 +2,9 @@
 title: Publication à l’aide de FrameMaker Publishing Server (FMPS) dans AEM Guides
 description: Publication à l’aide de FMPS à l’aide de AEM Guides
 exl-id: 05d4d876-f83b-473c-bf31-14d6565e80e2
-source-git-commit: c31a569c009155dacef00b6b3f1e6d64e556cf29
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ Cet article vous aide à configurer et à exécuter FMPS avec AEM Guides.
 
 ## Compatibilité de FMPS avec AEM Guides
 
-- Compatibilité avec les AEM Guides 4.1 : [Tableau de compatibilité 4.1](/help/product-guide/release-info/release-notes-4.1.md#compatibility-matrix)
+- Compatibilité avec les AEM Guides 4.1 : [Tableau de compatibilité 4.1](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
 - Compatibilité avec les AEM Guides 4.0 : [Tableau de compatibilité 4.0](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- Dernière version : [Dernières informations de mise à jour](/help/product-guide/release-info/latest-release-info.md)
+- Dernière version : [Dernières informations de mise à jour](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
 
 ## Installation
 

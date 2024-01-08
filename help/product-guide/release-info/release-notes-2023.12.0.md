@@ -1,7 +1,7 @@
 ---
 title: Notes de mise à jour | Instructions de mise à niveau et problèmes résolus dans les guides Adobe Experience Manager, version de décembre 2023
 description: Découvrez les correctifs de bogues et comment effectuer la mise à niveau vers la version de décembre 2023 de Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 1%
@@ -19,7 +19,7 @@ Pour plus d’informations sur les nouvelles fonctionnalités et améliorations,
 Mettez à niveau votre configuration as a Cloud Service actuelle des guides de Experience Manager en procédant comme suit :
 
 1. Extrayez le code Git des Cloud Service et passez à la branche configurée dans le pipeline Cloud Service correspondant à l’environnement que vous souhaitez mettre à niveau.
-2. Mettre à jour `<dox.version>` dans `/dox/dox.installer/pom.xml` du code Git Cloud Service vers la version 2023.12.0.16.
+2. Mettre à jour `<dox.version>` dans `/dox/dox.installer/pom.xml` du code Git Cloud Service vers la version 2023.12.0.15.
 3. Validez les modifications et exécutez le pipeline Cloud Service pour effectuer la mise à niveau vers la version de décembre 2023 des Guides Experience Manager as a Cloud Service.
 
 ## Procédure d’activation du déclencheur d’un script via un servlet
@@ -88,7 +88,7 @@ Effectuez les étapes suivantes pour post-traiter le contenu existant et utilise
 
 Effectuez les étapes suivantes pour indexer le contenu existant et utilisez le nouveau texte de recherche et de remplacement au niveau de la carte et de la liste des rubriques sous l’onglet rapports :
 
-1. Exécutez une requête de POST sur le serveur (avec l’authentification correcte) - `http://<server:port>/bin/guides/map-find/indexing`. (Facultatif : vous pouvez transmettre des chemins spécifiques des cartes pour les indexer. Par défaut, toutes les cartes seront indexées|| Par exemple : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+1. Exécutez une requête de POST sur le serveur (avec l’authentification correcte) - `http://<server:port>/bin/guides/map-find/indexing`. (Facultatif : vous pouvez transmettre des chemins spécifiques des cartes pour les indexer ; par défaut, toutes les cartes seront indexées|| Par exemple : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 1. Vous pouvez également transmettre un dossier racine pour indexer les mappages DITA d’un dossier spécifique (et de ses sous-dossiers). Par exemple, `http://<server:port>/bin/guides/map-find/indexing?root=/content/dam/test`. Notez que si les paramètres paths et root sont transmis, seul le paramètre paths est pris en compte.
 

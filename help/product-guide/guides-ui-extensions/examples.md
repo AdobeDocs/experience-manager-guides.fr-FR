@@ -1,8 +1,8 @@
 ---
 sidebar_position: 8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Dans ce fichier, nous calculons et affectons l’identifiant de commentaire uniq
 5. [Panneau des révisions des rubriques](../../src/review_app_examples/topic_reviews.ts): ce fichier étend [Panneau de révision en ligne](../../src/review_app_examples/inline_review_panel.ts) afin que les personnalisations ajoutées fonctionnent également du côté de l’application de révision.
 
 6. [Boîte de dialogue Accepter avec modification](../../src/review_app_examples/accept_with_modification_dialog.ts)
-Il s’agit d’un exemple d’ajout d’un nouveau widget à l’application. Nous avons ici créé une nouvelle boîte de dialogue, qui comporte deux champs de texte de saisie : `Revised Text` et `Adjudicator Comment Rationale`
+Il s’agit d’un exemple d’ajout de nouveaux widgets à l’application. Nous avons ici créé une nouvelle boîte de dialogue, qui comporte deux champs de texte de saisie : `Revised Text` et `Adjudicator Comment Rationale`
 
 ![Boîte De Dialogue Accepter Avec Modification](./imgs/accept_with_modification_dialogue.png)
 

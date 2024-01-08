@@ -1,9 +1,9 @@
 ---
 title: Notes de mise à jour | Nouveautés des guides Adobe Experience Manager, version de décembre 2023
 description: Découvrez les nouvelles fonctionnalités améliorées de la version de décembre 2023 de Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: a2605a7758f53fd877f28cad98a1ef17f9f87b50
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,15 @@ Cet article couvre les nouvelles fonctionnalités et les fonctionnalités améli
 Pour plus d’informations sur les instructions de mise à niveau, la matrice de compatibilité et les problèmes résolus dans cette version, consultez [Notes de mise à jour](release-notes-2023.12.0.md).
 
 
-## Utilisation de variables dans la sortie du PDF natif
+## Utiliser des variables dans la sortie du PDF
 
-Vous pouvez utiliser des jeux de variables pour insérer et gérer dynamiquement des informations qui peuvent changer en fonction de conditions spécifiques telles que les noms et versions des produits. Cette fonctionnalité vous permet d’utiliser la même mise en page de PDF et de générer des sorties avec des valeurs différentes. Il n’est pas nécessaire de créer des mises en page distinctes pour chaque ensemble de valeurs.
+Vous pouvez utiliser des variables pour insérer et gérer dynamiquement des informations réutilisables. Les guides de Experience Manager vous aident à créer, modifier et prévisualiser des variables lorsque vous générez la sortie du PDF. Vous pouvez modifier rapidement les valeurs des variables et rendre vos documents portables et faciles à mettre à jour.
 
-Par exemple, vous pouvez créer un jeu de variables pour chaque produit. Ce jeu de variables peut être constitué de variables pour différents détails de produit, tels que ProductName, VersionNumber et ReleaseDate. Vous pouvez ensuite ajouter différentes valeurs pour ces variables.
+![variables pdf natives](assets/add-variable-default.png){width="800" align="left"}
+
+*Créez et gérez des variables dans l’éditeur web.*
+
+Vous pouvez également créer des ensembles de variables qui remplacent les valeurs par défaut et affecter d’autres valeurs à vos variables. Insérez ces variables dans la mise en page et utilisez la même mise en page de PDF. Il n’est pas nécessaire de créer des mises en page distinctes pour chaque ensemble de valeurs. Par exemple, vous pouvez créer un jeu de variables pour chaque version de produit. Ce jeu de variables peut être constitué de variables pour différents détails de produit, tels que le nom, le numéro de version et la date de publication du produit. Vous pouvez ensuite ajouter différentes valeurs pour ces variables.
 
 **Jeu de variables 1 : Adobe-set1**
 
@@ -27,30 +31,25 @@ Par exemple, vous pouvez créer un jeu de variables pour chaque produit. Ce jeu 
 * VersionNumber : 2311
 * Date de publication : 11/02/2023
 
-**Jeu de variables 1 : Adobe-set2**
+**Jeu de variables 2 : Adobe-set2**
 
 * ProductName : guides du Experience Manager
 * VersionNumber : 2310
 * Date de publication : 09/27/2023
 
 
-![variables pdf natives](assets/native-pdf-variables.png){width="800" align="left"}
-
-*Créez des variables à partir de l’onglet Sortie de l’éditeur Web.*
-
-Vous pouvez également créer des variables avec des valeurs comportant des balises HTMLS. Par exemple, ajoutez des images issues de la gestion des actifs numériques du contenu à l’aide de la fonction `<img>` balise .
-
-Une fois les variables créées, vous pouvez les ajouter aux emplacements appropriés dans votre document à l’aide des mises en page des modèles de sortie. Les valeurs sont automatiquement sélectionnées dans la sortie du PDF en fonction du jeu de variables que vous sélectionnez dans le paramètre prédéfini de sortie.
-
-
 
 <img src="./assets/native-pdf-variable-output.png" alt="Pied de page en sortie du PDF" width="500" border="2px">
 
-*Générez la sortie du PDF natif à l’aide de variables dans la disposition du PDF.*
+*Générez la sortie du PDF à l’aide de variables dans la mise en page du PDF.*
 
-Cette fonctionnalité permet de générer une sortie personnalisée avec du contenu dynamique dans votre documentation et de gérer les modifications efficacement. Vous pouvez également appliquer des styles et utiliser des balises de HTML pour formater les variables.
+Vous pouvez appliquer des styles et utiliser des balises de HTML pour formater les variables.  Vous pouvez également mettre rapidement à jour les valeurs de toutes les variables, le cas échéant, et générer à nouveau la sortie. Par exemple, si vous devez mettre à jour les détails d’une version, vous pouvez modifier la valeur de la version dans la variable VersionNumber et générer à nouveau la sortie.
 
-Vous pouvez également mettre rapidement à jour les valeurs de n’importe quel jeu de variables, le cas échéant, et générer à nouveau la sortie. Par exemple, si vous devez mettre à jour les détails d’une version, vous pouvez mettre à jour la valeur de la version dans VersionNumber et générer à nouveau la sortie.
+
+En savoir plus sur l’utilisation [dans la sortie du PDF](../native-pdf/native-pdf-variables.md).
+
+
+
 
 
 ## Expérience restructurée pour modifier les attributs
@@ -89,6 +88,7 @@ Cette fonctionnalité vous permet de publier du contenu (texte, vidéos et image
 
 *Créez un paramètre prédéfini de sortie pour la base de connaissances ServiceNow.*
 
+En savoir plus sur les [Base de connaissances](../user-guide/generate-output-knowledge-base.md) paramètres prédéfinis de sortie.
 
 ## Tableau de bord amélioré de la collecte des cartes
 
@@ -124,6 +124,8 @@ Il permet également de dupliquer une ligne de base en fonction du libellé. La 
 ![duplication d’une ligne de base ](assets/duplicate-baseline.png) {width="300" align="left"}
 
 *Dupliquez une ligne de base à partir d’un libellé ou créez une copie exacte.*
+
+En savoir plus sur la manière de procéder [créer et gérer des lignes de base à partir de l’éditeur Web ;](../user-guide/web-editor-baseline.md).
 
 ## Amélioration du processus de création d’une collecte de carte d’activation en bloc
 

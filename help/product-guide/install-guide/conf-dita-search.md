@@ -2,9 +2,9 @@
 title: Configuration de la recherche dans l’interface utilisateur d’AEM Assets
 description: Découvrez comment configurer la recherche dans l’interface utilisateur d’AEM Assets
 exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
-source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1697'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,6 @@ Procédez comme suit pour ajouter un composant de recherche basé sur l’UUID d
 
    - **Libellé du champ**: UUID
    - **Nom de la propriété**: jcr:content/fmUuid
-
 1. Cliquez sur **Terminé** pour enregistrer vos modifications.
 
    Lorsque vous accédez à l’option Filtres dans l’interface utilisateur d’Assets, vous obtenez l’option Filtrage de la recherche basé sur l’UUIS.
@@ -119,7 +118,7 @@ La configuration de recherche par défaut vous permet de rechercher tous les él
 >
 > Si vous souhaitez utiliser la configuration de recherche par défaut dans la variable `prolog` , vous pouvez ensuite ignorer ce processus.
 
-Ce fichier contient deux sections principales : ensemble d’attributs et ensemble de règles. Vous trouverez ci-dessous un extrait de la section du jeu de règles :
+Ce fichier contient deux sections principales : jeu d’attributs et jeu de règles. Vous trouverez ci-dessous un extrait de la section du jeu de règles :
 
 ```XML
 <ruleset filetypes="xml dita"><!-- Element rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]//*[not(*)]" text="yes" attributeset="all-attrs" /><!-- Attribute rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]///@[local-name() != 'class']" /></ruleset>
@@ -128,6 +127,7 @@ Ce fichier contient deux sections principales : ensemble d’attributs et ensemb
 Dans la section du jeu de règles, vous pouvez spécifier :
 
 - Règles d’extraction des éléments
+
 - Règles d’extraction d’attributs
 
 
@@ -135,15 +135,15 @@ Une règle se compose des éléments suivants :
 
 xpath : il s’agit de la requête XPath qui récupère les éléments ou les attributs des fichiers DITA. La configuration par défaut de la règle d’élément récupère toutes les `prolog` éléments . Et la configuration par défaut de la règle d’attribut récupère tous les attributs de `prolog` éléments . Vous pouvez spécifier une requête XPath pour sérialiser les éléments ou attributs que vous souhaitez rechercher.
 
-La requête XPath contient le nom de classe du type de document. La variable `topic/topic` est utilisée pour les documents DITA de type rubrique. Si vous souhaitez créer une règle pour d’autres documents DITA, vous devez utiliser les noms de classe suivants :
-
-| Type de document | Nom de la classe |
-|-------------|----------|
-| Thème | - rubrique/rubrique |
-| Tâche | - tâche/tâche de rubrique/de rubrique |
-| Concept | - concept/thème/thème |
-| Référence | - référence/référence de rubrique |
-| Mappage | - map/map |
+    La requête XPath contient le nom de classe du type de document. La classe &quot;rubrique/rubrique&quot; est utilisée pour les documents DITA de type de rubrique. Si vous souhaitez créer une règle pour d’autres documents DITA, vous devez utiliser les noms de classe suivants :
+    
+    |Type de document|Nom de classe|
+    |—|—|
+    |Rubrique|- rubrique/rubrique|
+    |Tâche|- tâche/tâche de rubrique/de rubrique
+    |Concept|- thème/sujet concept/concept|
+    |Référence|- Référence/référence de rubrique/de rubrique|
+    |Carte|- map/map|
 
 text : si vous souhaitez rechercher le texte dans l’élément spécifié, indiquez la valeur oui. Si vous spécifiez non comme valeur, seuls les attributs de l’élément sont sérialisés. Les attributs que vous souhaitez rechercher doivent être spécifiés dans la section du jeu d’attributs .
 
