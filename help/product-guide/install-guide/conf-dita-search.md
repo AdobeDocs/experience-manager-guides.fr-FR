@@ -2,9 +2,9 @@
 title: Configuration de la recherche dans l’interface utilisateur d’AEM Assets
 description: Découvrez comment configurer la recherche dans l’interface utilisateur d’AEM Assets
 exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+source-git-commit: 86305f4979369b2c5bccfca635a06e5091d0124d
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '1695'
 ht-degree: 1%
 
 ---
@@ -135,15 +135,15 @@ Une règle se compose des éléments suivants :
 
 xpath : il s’agit de la requête XPath qui récupère les éléments ou les attributs des fichiers DITA. La configuration par défaut de la règle d’élément récupère toutes les `prolog` éléments . Et la configuration par défaut de la règle d’attribut récupère tous les attributs de `prolog` éléments . Vous pouvez spécifier une requête XPath pour sérialiser les éléments ou attributs que vous souhaitez rechercher.
 
-    La requête XPath contient le nom de classe du type de document. La classe &quot;rubrique/rubrique&quot; est utilisée pour les documents DITA de type de rubrique. Si vous souhaitez créer une règle pour d’autres documents DITA, vous devez utiliser les noms de classe suivants :
-    
-    |Type de document|Nom de classe|
-    |—|—|
-    |Rubrique|- rubrique/rubrique|
-    |Tâche|- tâche/tâche de rubrique/de rubrique
-    |Concept|- thème/sujet concept/concept|
-    |Référence|- Référence/référence de rubrique/de rubrique|
-    |Carte|- map/map|
+La requête XPath contient le nom de classe du type de document. La variable `topic/topic` est utilisée pour les documents DITA de type rubrique. Si vous souhaitez créer une règle pour d’autres documents DITA, vous devez utiliser les noms de classe suivants :
+
+| Type de document | Nom de la classe |
+|-------------|----------|
+| Thème | - rubrique/rubrique |
+| Tâche | - tâche/tâche de rubrique/de rubrique |
+| Concept | - concept/thème/thème |
+| Référence | - référence/référence de rubrique |
+| Map | - map/map |
 
 text : si vous souhaitez rechercher le texte dans l’élément spécifié, indiquez la valeur oui. Si vous spécifiez non comme valeur, seuls les attributs de l’élément sont sérialisés. Les attributs que vous souhaitez rechercher doivent être spécifiés dans la section du jeu d’attributs .
 
