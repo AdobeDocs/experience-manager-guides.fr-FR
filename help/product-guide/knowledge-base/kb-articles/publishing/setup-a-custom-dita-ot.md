@@ -3,7 +3,8 @@ title: Configuration de DITA-OT personnalisé dans [!DNL AEM Guides]
 description: Découvrez comment configurer DITA-OT personnalisé dans [!DNL Adobe Experience Manager Guides]
 role: Admin
 exl-id: f479c2cf-5b8b-4517-be97-81303468007a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: DITA-OT Configuration
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%

@@ -2,7 +2,9 @@
 title: Modification des rubriques dans l’éditeur web
 description: Découvrez comment modifier des rubriques dans l’éditeur web. Découvrez les différentes fonctions de modification pour modifier vos fichiers de rubrique dans les Guides d’AEM.
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 0%

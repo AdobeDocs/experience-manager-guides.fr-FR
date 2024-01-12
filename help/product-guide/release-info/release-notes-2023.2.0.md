@@ -2,7 +2,9 @@
 title: Notes de mise à jour | Guides Adobe Experience Manager as a Cloud Service, version de février 2023
 description: Version de février des guides Adobe Experience Manager as a Cloud Service
 exl-id: c639b136-11ed-4a8b-a595-4bb5da879747
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 1%
@@ -80,7 +82,7 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 * Le message d’avertissement ne s’affiche pas lors du téléchargement d’un fichier qui est supérieur à la limite autorisée dans AEM (2 Go par défaut). (10817)
 * Ligne de base de l’éditeur web | Le comportement de la colonne Dernière colonne est différent dans le nouveau tableau de bord de ligne de base de l’éditeur web. 10808
 * Traduction | La tâche de traduction ne démarre pas en raison d’un /libs/fmdita/i18n/ja.json non valide. 10543
-* Traduction | Une erreur se produit dans un projet de traduction de portée créé à partir du tableau de bord de traduction (traduction humaine). 10526
+* Traduction | Une erreur se produit dans un projet de traduction de portée créé à partir du tableau de bord de traduction (Traduction humaine). 10526
 * Traduction | Le post-traitement est bloqué pour l’ensemble du dossier linguistique dont les ressources sont présentes dans un projet de traduction actif. (10332)
 * Plusieurs fenêtres contextuelles s’affichent pour n’importe quelle ressource si la version est modifiée et enregistrée dans l’éditeur de ligne de base. 10399)
 * La fuite de session se produit à l’adresse `com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210)`. (10279)
@@ -89,12 +91,12 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 
 * La régénération de rubrique ne fonctionne pas dans certains scénarios. (10635)
 * L’écouteur de publication n’affiche pas les données demandées dans les journaux d’informations et contient également des journaux indésirables.(10567)
-* PDF natif | Lors de la création d’un paramètre prédéfini de sortie avec l’option &quot;Ajouter au profil de dossier&quot;, la génération du PDF échoue avec une exception Null Pointer. (10950)
-* PDF natif | Des problèmes se produisent lors de la rotation de l’en-tête du tableau. (10555)
+* PDF natif | Lors de la création d’un paramètre prédéfini de sortie avec l’option &quot;Ajouter au profil de dossier&quot;, la génération du PDF échoue avec une exception de pointeur de valeur NULL. (10950)
+* PDF natif | Les problèmes se produisent lors de la rotation de l’en-tête du tableau. (10555)
 * PDF natif | Imbriqué `<indexterm>` ne sont pas imbriqués dans l’exportation de PDF natif. (10521)
-* PDF natif | La référence de topicref imbriquée dans les appendices est toutes transformée en h1 dans le HTML temporaire. (10454)
+* PDF natif | Les topicref imbriqués dans les appendices sont tous transformés en h1 dans le HTML temporaire. (10454)
 * La publication de ligne de base échoue pour le PDF généré à l’aide de FrameMaker Publishing Server 2020. (10551)
 * PDF natif | Ajouter `xref` à une image n’effectue pas le rendu de l’image sur le PDF généré. (11346)
 * PDF natif | La balise d’image ajoute un attribut display-inline à toutes les images. 10653)
-* PDF natif | Les commentaires brouillons sont masqués par défaut dans la sortie générée. (10560)
+* PDF natif | Les commentaires en version préliminaire sont masqués par défaut dans la sortie générée. (10560)
 * PDF natif | navtitle n’est pas honoré pour topichead. 10509)

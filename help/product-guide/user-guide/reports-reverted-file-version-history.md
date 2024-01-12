@@ -2,7 +2,9 @@
 title: Rapport Historique des versions des fichiers restaurés
 description: Affichez les rapports d’historique des versions de fichiers restaurés dans AEM Guides. Découvrez comment accéder aux journaux de version rétablie à partir de l’interface utilisateur d’Assets, de l’aperçu de la rubrique et de la sélection des outils d’AEM.
 exl-id: 74bef625-acd6-49a6-b983-881a782f68d6
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Report Generation
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%

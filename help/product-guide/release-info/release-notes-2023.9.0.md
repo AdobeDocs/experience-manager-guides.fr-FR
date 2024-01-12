@@ -2,7 +2,9 @@
 title: Notes de mise à jour | Instructions de mise à niveau et problèmes résolus dans les guides Adobe Experience Manager, version de septembre 2023
 description: Découvrez les correctifs et comment mettre à niveau vers la version de septembre 2023 de Adobe Experience Manager Guides as a Cloud Service
 exl-id: 795b86a0-e763-404a-a4bb-35d3d2a42672
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 0%
@@ -88,7 +90,7 @@ Effectuez les étapes suivantes pour le post-traitement du contenu existant et l
 
 Effectuez les étapes suivantes pour indexer le contenu existant et utilisez le nouveau texte de recherche et de remplacement au niveau de la carte et de la liste des rubriques sous l’onglet rapports :
 
-1. Exécutez une requête de POST sur le serveur \(avec l’authentification correcte\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facultatif : vous pouvez transmettre des chemins spécifiques des cartes pour les indexer. Par défaut, toutes les cartes seront indexées \|\| Par exemple : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. Exécutez une requête de POST sur le serveur \(avec l’authentification correcte\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facultatif : vous pouvez transmettre des chemins spécifiques des cartes pour les indexer ; par défaut, toutes les cartes seront indexées \|\| Par exemple : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. Vous pouvez également transmettre un dossier racine pour indexer les mappages DITA d’un dossier spécifique (et de ses sous-dossiers). Par exemple, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Notez que si les paramètres paths et root sont transmis, seul le paramètre paths est pris en compte.
 
@@ -159,14 +161,14 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 - La publication échoue lors du changement du nom d’un paramètre prédéfini de PDF natif. 12564
 - La duplication d’un modèle de PDF natif duplique l’emplacement du modèle par défaut au lieu de l’emplacement du modèle personnalisé fourni. 12563
 
-- PDF natif | L’inclusion de plusieurs xrefs étend le texte au-delà de la largeur de la colonne. 13004
+- PDF natif | L’inclusion de plusieurs expressions étend le texte au-delà de la largeur de colonne. 13004
 - PDF natif | Lorsque la rubrique et le titre ont le même ID, cela entraîne une génération incorrecte de la sortie du PDF. 12644
-- PDF natif | Lors de l’ajout d’une classe de sortie à un parent `<topicref>` dans un mappage DITA et en appliquant un style personnalisé à la classe outputclass, le style est appliqué aux éléments du corps de la rubrique, y compris les titres des sections.(12166)
+- PDF natif | Lors de l’ajout d’une classe sortante à un parent `<topicref>` dans un mappage DITA et en appliquant un style personnalisé à la classe outputclass, le style est appliqué aux éléments du corps de la rubrique, y compris les titres des sections.(12166)
 - La publication incrémentielle ne fonctionne pas si un mappage DITA comporte plusieurs attributs ditavalrefs. (12117)
-- AEM site | Lors de la création d’une carte avec keydef pointant vers une rubrique comme variable et l’ajout de processing-role=resource-only crée des pages inattendues. (12099)
+- AEM site | Lors de la création d’un mappage avec keydef pointant vers une rubrique en tant que variable, l’ajout de processing-role=resource-only crée des pages inattendues. (12099)
 - Si des ressources de la gestion des ressources numériques d’AEM sont utilisées dans une sortie autre que le site AEM, les métadonnées &quot;jcr:createdBy&quot; ne reflètent pas le nom de l’éditeur ou le nom de l’utilisateur qui a modifié la dernière fois le mappage ou la rubrique DITA. (12090)
 - AEM Sites | Le mappage DITA avec le titre de la topique dans le titre de navigation (avec des caractères non pris en charge) entraîne des URL de page incorrectes. (1978)
-- PDF natif | Des problèmes se produisent pour la prise en charge de topichead / topicmeta / navtitle dans les sections Frontmatter et Backmatter. (1969)
+- PDF natif | Des problèmes se produisent pour la prise en charge de topichead/topicmeta/navtitle dans les sections Frontmatter et Backmatter. (1969)
 - PDF natif | La génération de PDF pour les documents volumineux prend du temps. (11955)
 - PDF natif | Le changement de nom d’un paramètre prédéfini renvoie une exception NullPointerException lors de la génération d’une sortie de PDF. (11889)
 - La variable `<conref>` le contenu n’est pas affiché dans la sortie du PDF. (11131)

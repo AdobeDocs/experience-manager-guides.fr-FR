@@ -2,7 +2,9 @@
 title: Notes de mise à jour | Adobe Experience Manager Guides version 4.1
 description: Dernière version des guides Adobe Experience Manager
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '3644'
 ht-degree: 1%
@@ -354,7 +356,7 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 * AEM Guides ne copie pas les propriétés non uniques d’une ressource lorsqu’elle est copiée et collée. (8241)
 * Le nom du fichier de mappage DITA n’est pas converti en minuscules lors de sa création. (8383)
 * La description de la tâche de révision n’apparaît pas dans la notification électronique envoyée lorsqu’une nouvelle tâche de révision est affectée. (8507)
-* API de mappage de téléchargement | Les dossiers temporaires ne sont pas nettoyés en cas d’erreur de processus de téléchargement. (8523)
+* API de mappage de téléchargement | Les dossiers temporaires ne sont pas nettoyés en cas d’erreur du processus de téléchargement. (8523)
 * `columnpreview.jsp` dépend de SP.  (8543)
 * Les tâches de sortie avec le statut &quot;En attente&quot; ou &quot;En cours&quot; ne sont pas nettoyées dans le tableau de bord de publication.  (8569)
 * Icône par défaut sélectionnée lors de la génération d’un rapport à l’aide du bouton Générer , même lorsque la propriété de l’icône est définie. (8573)

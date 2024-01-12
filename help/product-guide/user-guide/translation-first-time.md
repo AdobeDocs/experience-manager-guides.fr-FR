@@ -2,7 +2,9 @@
 title: Bonnes pratiques relatives à la traduction de contenu
 description: Découvrez les bonnes pratiques en matière de traduction de contenu dans AEM Guides. Découvrez comment configurer le service de traduction, créer un projet de traduction et lancer la tâche de traduction.
 exl-id: f2a4df86-bba7-434c-b7f9-3587b8a4f9bc
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Translation
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 2%

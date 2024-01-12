@@ -1,7 +1,10 @@
 ---
 title: Conversion de contenu non UID avec des versions en contenu UID
 description: Découvrez comment migrer du contenu non UUID avec des versions vers du contenu UID.
-source-git-commit: d37cb4a416d85b072c152d795d8a28b5ac70ef4e
+feature: Migration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 1%

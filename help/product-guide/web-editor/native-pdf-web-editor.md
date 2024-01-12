@@ -2,7 +2,9 @@
 title: PDF natif | Génération de sortie PDF
 description: Découvrez comment utiliser la publication native de PDF, créer et générer un paramètre prédéfini de sortie de PDF, télécharger des fichiers temporaires après avoir généré la sortie de PDF natif et utiliser des variables de langue dans les Guides d’AEM.
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
+feature: Publishing, Web Editor, Native PDF Output
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '3196'
 ht-degree: 0%

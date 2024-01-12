@@ -2,7 +2,10 @@
 title: Configuration de profils globaux ou au niveau du dossier
 description: Découvrez comment configurer des profils globaux ou de niveau dossier
 exl-id: d7bf7e69-fe12-4c48-8ce4-17b74a6c61e7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Profiles
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '3896'
 ht-degree: 0%
@@ -49,7 +52,7 @@ Vous pouvez également déléguer les configurations spécifiques aux dossiers �
 
   Avec les modèles de rubrique, vous pouvez également définir les modèles de mappage qui seront mis à la disposition des auteurs. Les modèles de mappage suivants sont disponibles prêts à l’emploi :
 
-   - Mappage
+   - Map
 
    - Bookmap
 

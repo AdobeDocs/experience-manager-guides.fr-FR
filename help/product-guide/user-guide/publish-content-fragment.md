@@ -2,7 +2,9 @@
 title: Publication d’une rubrique sur un fragment de contenu
 description: Publiez une rubrique ou les éléments d’une rubrique sur un fragment de contenu dans AEM Guides.  Découvrez comment afficher les fragments de contenu présents pour une rubrique et les republier.
 exl-id: b1769e48-d721-4e93-b10f-04b385272be7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 0%

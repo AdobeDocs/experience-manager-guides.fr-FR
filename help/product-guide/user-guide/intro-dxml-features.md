@@ -2,7 +2,9 @@
 title: Principales fonctionnalités des AEM Guides
 description: Découvrez les principales fonctionnalités des Guides d’AEM, de la création DITA, de la gestion de contenu, de la révision web, de la traduction, de la localisation, de la publication multicanal et de l’intégration de FrameMaker.
 exl-id: 978d7027-08da-40f7-ae9e-bb4d559a84dc
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Introduction
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 0%

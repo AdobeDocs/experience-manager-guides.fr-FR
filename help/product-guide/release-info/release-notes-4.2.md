@@ -1,8 +1,10 @@
 ---
-title: Notes de mise à jour | Version 4.2 de Adobe Experience Manager Guides
+title: Notes de mise à jour | Adobe Experience Manager Guides version 4.2
 description: Découvrez les correctifs de bogues et comment mettre à niveau vers les versions 4.2 des Guides Adobe Experience Manager.
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1391'
 ht-degree: 1%
@@ -105,7 +107,7 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 * Le message d’avertissement ne s’affiche pas lors du téléchargement d’un fichier qui est supérieur à la limite autorisée dans AEM (2 Go par défaut). (10817)
 * Ligne de base de l’éditeur web | Le comportement de la colonne Dernière colonne est différent dans le nouveau tableau de bord de ligne de base de l’éditeur web. 10808
 * Traduction | La tâche de traduction ne démarre pas en raison d’un /libs/fmdita/i18n/ja.json non valide. 10543
-* Traduction | Une erreur se produit dans un projet de traduction de portée créé à partir du tableau de bord de traduction (traduction humaine). 10526
+* Traduction | Une erreur se produit dans un projet de traduction de portée créé à partir du tableau de bord de traduction (Traduction humaine). 10526
 * Traduction | Le post-traitement est bloqué pour l’ensemble du dossier linguistique dont les ressources sont présentes dans un projet de traduction actif. (10332)
 * Traduction| Les métadonnées et les balises ne sont pas propagées aux copies traduites. (4696)
 * Plusieurs fenêtres contextuelles s’affichent pour n’importe quelle ressource si la version est modifiée et enregistrée dans l’éditeur de ligne de base. 10399)
@@ -121,17 +123,17 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 * PDF natif | La génération du PDF échoue avec une exception Null Pointer . (10950)
 * PDF natif | conkeyref n’est pas résolu dans la sortie générée. 10564
 * PDF natif | Des problèmes se produisent avec les métadonnées d’un mappage qui doit être référencé dans la sortie du PDF.(10556)
-* PDF natif | Des problèmes se produisent lors de la rotation de l’en-tête du tableau. (10555)
+* PDF natif | Les problèmes se produisent lors de la rotation de l’en-tête du tableau. (10555)
 * PDF natif | Des problèmes se produisent lors de la suppression des rubriques qui ont un rôle de traitement=&#39;resource-only&#39;. (10554)
-* PDF natif | Les clés vides s’affichent en sortie PDF. 10553)
+* PDF natif | Les Keyrefs vides s’affichent en sortie PDF. 10553)
 * PDF natif | Imbriqué `<indexterm>` ne sont pas imbriqués dans l’exportation de PDF natif. (10521)
-* PDF natif | Le PDF natif utilise le style intégré au lieu du nom de classe pour les balises générées. (10498)
-* PDF natif | La référence de topicref imbriquée dans les appendices est toutes transformée en h1 dans le HTML temporaire.(10454)
+* PDF natif | Le PDF natif utilise un style intégré au lieu du nom de classe pour les balises générées. (10498)
+* PDF natif | Les topicref imbriqués dans les appendices sont tous transformés en h1 dans le HTML temporaire.(10454)
 * PDF natif | Impossible de masquer les rubriques de première ligne de la table des matières. 10355
 * PDF natif | L’attribut de cadre de tableau n’est pas propagé au HTML temporaire (en tant que classe). (10353)
 * PDF natif | Les fichiers de HTML temporaires ajoutent les classes colsep et rowsep à <td> et <th> même si leur valeur est 0 dans le DITA source. 10352)
-* PDF natif | Le redémarrage des numéros de page dans la mise en page de chapitre commence aléatoirement la numérotation à partir de la fin du chapitre précédent. 10154
-* PDF natif | Les références clés des clés avec des liens d’image ou externes ne sont pas résolues. (10063)
+* PDF natif | Le redémarrage des numéros de page dans la mise en page de chapitre commence de manière aléatoire la numérotation à partir de la fin du chapitre précédent. 10154
+* PDF natif | Les références clés pour les clés avec des liens d’image ou externes ne sont pas résolues. (10063)
 * PDF natif | L’annexe s’affiche sous la forme d’un chapitre dans le PDF généré. (9829)
 * L’onglet Modèle de l’éditeur xml n’est pas affiché pour les administrateurs de profil de dossier. (10266)
 * La publication de ligne de base échoue pour le PDF généré à l’aide de FrameMaker Publishing Server 2020. (10551)

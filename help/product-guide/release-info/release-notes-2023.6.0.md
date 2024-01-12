@@ -1,8 +1,10 @@
 ---
-title: Notes de mise à jour | Instructions de mise à niveau et problèmes résolus dans les guides Adobe Experience Manager, version de juin 2023
+title: Notes de mise à jour | Instructions de mise à niveau et problèmes résolus dans les Guides de Adobe Experience Manager, version de juin 2023
 description: Découvrez les correctifs et comment mettre à niveau vers la version de juin 2023 de Adobe Experience Manager Guides as a Cloud Service
 exl-id: df17ee33-9f50-4223-ab9f-a57a31097d22
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 1%
@@ -86,7 +88,7 @@ Effectuez les étapes suivantes pour le post-traitement du contenu existant et l
 
 Effectuez les étapes suivantes pour indexer le contenu existant et utilisez le nouveau texte de recherche et de remplacement au niveau de la carte et de la liste des rubriques sous l’onglet rapports :
 
-1. Exécutez une requête de POST sur le serveur \(avec l’authentification correcte\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facultatif : vous pouvez transmettre des chemins spécifiques des cartes pour les indexer. Par défaut, toutes les cartes seront indexées \|\| Par exemple : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. Exécutez une requête de POST sur le serveur \(avec l’authentification correcte\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facultatif : vous pouvez transmettre des chemins spécifiques des cartes pour les indexer ; par défaut, toutes les cartes seront indexées \|\| Par exemple : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. Vous pouvez également transmettre un dossier racine pour indexer les mappages DITA d’un dossier spécifique (et de ses sous-dossiers). Par exemple, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Notez que si les paramètres paths et root sont transmis, seul le paramètre paths est pris en compte.
 
@@ -142,11 +144,11 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 
 - La publication sur AEM site échoue lors de la lecture de fichiers temporaires à partir d’une capsule qui peuvent avoir été actualisés ou redémarrés. (12113)
 - PDF natif | La publication de contenu comportant une classe de sortie avec crochets () entraîne un gel de publication. (11936)
-- Sortie JSON | Métadonnées de carte dont la valeur de propriété est `"value in spaces and double quotes"` génère une erreur de publication. (11933)
+- Sortie JSON | Mappage des métadonnées dont la valeur de propriété est `"value in spaces and double quotes"` génère une erreur de publication. (11933)
 - Éditeur web | Le chemin de sortie et le modèle ne peuvent pas être sélectionnés dans le paramètre prédéfini AEM. (11530)
 - PDF natif | Les attributs personnalisés ne sont pas propagés au moteur de HTML ou de PDF temporaire. (DXML-12005)
 - PDF natif | Java OutOfMemoryError survient lors de la publication de contenu volumineux. (11789)
-- Sortie JSON | Le `fmUuid` sur le noeud jcr:content de JSON est différent de &quot;id&quot; dans le fichier JSON. (11564)
+- Sortie JSON | La variable `fmUuid` sur le noeud jcr:content de JSON est différent de &quot;id&quot; dans le fichier JSON. (11564)
 - Sortie JSON | Si la carte et la rubrique portant le même nom de fichier sont présentes, JSON de la carte est supprimé. (11524)
 - PDF natif | Xref imprime le contenu du titre de la rubrique href au lieu de l’étiquette Xref. (11322)
 - PDF natif | Impossible d’enregistrer les paramètres du modèle de PDF. (10751)
@@ -162,4 +164,4 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 
 ### Révision
 
-- Nouvelle interface utilisateur de révision | Les conditions de mise en surbrillance et d’affichage du masquage fonctionnent différemment de leur fonctionnement dans l’éditeur web. (11628)
+- Nouvelle interface utilisateur de révision | Les conditions de mise en évidence et d’affichage du masquage fonctionnent différemment de leur fonctionnement dans l’éditeur web. (11628)

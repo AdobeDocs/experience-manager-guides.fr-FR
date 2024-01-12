@@ -2,7 +2,9 @@
 title: Balisage en masse de contenu DITA
 description: Utilisez le balisage massif du contenu dans AEM Guides pour améliorer la visibilité du contenu DITA. Découvrez comment appliquer, supprimer, afficher ou masquer des balises en bloc sur une ou plusieurs rubriques.
 exl-id: 4c6639a3-333b-44ad-9aec-735a327c3320
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Metadata Management
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%

@@ -2,7 +2,9 @@
 title: Principes élémentaires de la publication par les PDF natifs
 description: Découvrez comment publier du PDF à l’aide du moteur PDF natif dans AEM Guides.
 exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Native PDF Output
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 2%

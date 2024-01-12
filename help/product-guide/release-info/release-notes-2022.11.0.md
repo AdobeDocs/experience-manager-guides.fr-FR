@@ -1,8 +1,10 @@
 ---
-title: Notes de mise à jour | Guides Adobe Experience Manager as a Cloud Service, version de novembre 2022
+title: Notes de mise à jour | Adobe Experience Manager Guides as a Cloud Service, version de novembre 2022
 description: Version de novembre des guides Adobe Experience Manager as a Cloud Service
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1384'
 ht-degree: 0%
@@ -121,7 +123,7 @@ Vous pouvez désormais également utiliser les variables d’usine suivantes pou
 * `${path_after_langfolder}` (Uniquement pour le chemin de sortie)
 
 
-### PDF natif | Générer la table des matières pour les mappages DITA et réorganiser les mises en page
+### PDF natif | Générer une table des matières pour les mappages DITA et réorganiser les mises en page
 
 Vous pouvez désormais également générer la table des matières dans les mappages DITA à l’aide d’un paramètre de PDF avancé du modèle. Vous pouvez choisir d’activer ou de désactiver l’affichage des différentes mises en page et de réorganiser leur position.
 

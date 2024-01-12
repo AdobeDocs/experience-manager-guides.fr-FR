@@ -1,8 +1,10 @@
 ---
-title: Notes de mise à jour | Guides Adobe Experience Manager as a Cloud Service, version de mars 2023
+title: Notes de mise à jour | Adobe Experience Manager Guides as a Cloud Service, version de mars 2023
 description: Version de mars des guides Adobe Experience Manager as a Cloud Service
 exl-id: 6a0bba92-7d7d-4b20-ad46-0eacc91268da
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -58,10 +60,10 @@ Cette section répertorie le tableau de compatibilité des applications logiciel
 Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 
 * Le processus du PDF de téléchargement ne fonctionne pas correctement dans l’éditeur web. (11496)
-* Sortie JSON | Métadonnées de carte dont la valeur de propriété est `"value in spaces and double quotes"` génère une erreur de publication. (11438)
+* Sortie JSON | Mappage des métadonnées dont la valeur de propriété est `"value in spaces and double quotes"` génère une erreur de publication. (11438)
 * L’insertion pour les fichiers multimédia audio et vidéo échoue au format YouTube sous le **Insérer du contenu multimédia** Icône (11320)
 * Une erreur de validation se produit lorsqu’une map est créée à l’aide du modèle qui comporte un élément de titre spécialisé. (11212)
-* PDF natif | La note de bas de page présente dans l’en-tête du tableau pour afficher le texte en gras aligné au centre dans le pied de page correspondant dans la sortie du PDF. (10610)
+* PDF natif | la note de bas de page présente dans l’en-tête du tableau pour afficher le texte en gras aligné au centre dans le pied de page correspondant dans la sortie du PDF. (10610)
 >[!NOTE]
 >
 >Pour refléter la modification du PDF natif, supprimez le dossier du PDF situé à l’emplacement /content/dam/dita-templates, puis effectuez la mise à niveau vers le dernier build. (10610)

@@ -2,7 +2,9 @@
 title: Notes de mise à jour | Nouveautés de la version 4.2 des guides Adobe Experience Manager
 description: Découvrez les nouvelles fonctionnalités et les fonctionnalités améliorées des versions 4.2 des Guides Adobe Experience Manager
 exl-id: 46367ccf-58ff-4889-8314-cdd5bf5d0f1d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: What's New
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 0%
@@ -209,7 +211,7 @@ Vous pouvez désormais également utiliser les variables d’usine suivantes pou
 * `${map_parentpath}` (Uniquement pour le chemin de sortie)
 * `${path_after_langfolder}` (Uniquement pour le chemin de sortie)
 
-## PDF natif | Générer la table des matières pour les mappages DITA et réorganiser les mises en page
+## PDF natif | Générer une table des matières pour les mappages DITA et réorganiser les mises en page
 
 Vous pouvez désormais également générer la table des matières dans les mappages DITA à l’aide d’un paramètre de PDF avancé du modèle. Vous pouvez choisir d’activer ou de désactiver l’affichage des différentes mises en page et de réorganiser leur position.
 

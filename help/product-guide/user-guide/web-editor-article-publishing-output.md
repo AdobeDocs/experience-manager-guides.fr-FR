@@ -2,7 +2,9 @@
 title: Générer une sortie à partir du panneau Repository
 description: Générez la sortie à partir du panneau du référentiel ou du panneau Vue Carte dans AEM Guides. Découvrez comment publier une rubrique utilisée sur un ou plusieurs mappages DITA ou générer une sortie pour plusieurs rubriques.
 exl-id: f7a4be54-9c51-44e6-96bb-f25e3a6155da
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor, Publishing
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%

@@ -1,8 +1,10 @@
 ---
-title: Notes de mise à jour | Instructions de mise à niveau et problèmes résolus dans la version 4.3.0 de Adobe Experience Manager Guides
+title: Notes de mise à jour | Instructions de mise à niveau et problèmes résolus dans la version 4.3.0 des guides Adobe Experience Manager
 description: Découvrez les correctifs et comment mettre à niveau vers les versions 4.3.0 des Guides Adobe Experience Manager.
 exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 1%
@@ -104,7 +106,7 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 
 ### Révision
 
-- Nouvelle interface utilisateur de révision | Les conditions de mise en surbrillance et d’affichage du masquage fonctionnent différemment de leur fonctionnement dans l’éditeur web. (11628)
+- Nouvelle interface utilisateur de révision | Les conditions de mise en évidence et d’affichage du masquage fonctionnent différemment de leur fonctionnement dans l’éditeur web. (11628)
 
 ### Publication
 
@@ -118,7 +120,7 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 - PDF natif | Impossible d’enregistrer les paramètres du modèle de PDF. (10751)
 - PDF natif | Le texte s’étend au-delà de la largeur de colonne sur l’inclusion de plusieurs xrefs. (10876)
 - PDF natif | `<note>``</note>` ne génère pas de titre d’étendue supplémentaire de son type. (10549)
-- Sortie JSON | Le `fmUuid` sur le noeud jcr:content de JSON est différent de &quot;id&quot; dans le fichier JSON. (11564)
+- Sortie JSON | La variable `fmUuid` sur le noeud jcr:content de JSON est différent de &quot;id&quot; dans le fichier JSON. (11564)
 - Sortie JSON | Si la carte et la rubrique portant le même nom de fichier sont présentes, JSON de la carte est supprimé. (11524)
 
 ## Problème connu

@@ -1,7 +1,9 @@
 ---
 title: Base de connaissances
 description: Découvrez comment créer un paramètre prédéfini de la base de connaissances à partir de l’éditeur web et du tableau de bord de mappage. Configurez le paramètre prédéfini de sortie de la base de connaissances dans AEM Guides.
-source-git-commit: 899b493709ee7f1fb31789e4afc3e985fa2505f7
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 1%

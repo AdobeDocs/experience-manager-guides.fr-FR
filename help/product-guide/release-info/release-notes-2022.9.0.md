@@ -1,8 +1,10 @@
 ---
-title: Notes de mise à jour | Guides Adobe Experience Manager as a Cloud Service, version de septembre 2022
+title: Notes de mise à jour | Adobe Experience Manager Guides as a Cloud Service, version de septembre 2022
 description: Version de septembre des guides Adobe Experience Manager as a Cloud Service
 exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 0%
@@ -92,7 +94,7 @@ Ces métadonnées remplacent les métadonnées définies au niveau du livre. Vou
 
 Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 
-* Éditeur web | Lors du déplacement d’éléments dans une rubrique, les identifiants attribués pour les éléments sont remplacés par des identifiants attribués automatiquement. (7895)
+* Éditeur web | Lors du déplacement d’éléments dans une rubrique, les identifiants affectés aux éléments sont remplacés par des identifiants attribués automatiquement. (7895)
 * Suivi des modifications | Le contenu est perdu lorsqu’un nouvel élément est saisi à l’aide de la touche Entrée. (10246)
 * Le sous-mappage référencé à la carte principale dans les modèles dita n’est pas créé. (10231)
 * Éditeur XML | Le copier-coller ne fonctionne pas en mode création. 10309
@@ -101,12 +103,12 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 * Le panneau Plan n’affiche pas de contenu lorsqu’il est sélectionné à partir de **Auteur** to **Source** mode . 10319)
 * La référence dans une nouvelle rubrique créée à l’aide d’un contenu dans le modèle de rubrique ne fonctionne pas. L’ID de hachage copié n’est pas mis à jour dans la copie de contenu. (9890)
 * Éditeur web | Il n’existe aucun chargeur lors de la création d’une carte à partir du modèle de carte. (9891)
-* Nouvel éditeur de cartes | Le texte gras ou italique ajouté dans le titre de la carte n’est pas conservé si nous changeons de **Auteur** à la fonction **Disposition** vue. 10218
+* Nouvel éditeur de cartes | Le texte en gras ou en italique ajouté dans le titre de la carte n’est pas conservé si nous changeons de **Auteur** à la fonction **Disposition** vue. 10218
 * Nouvel éditeur de cartes | Les conditions appliquées à une référence ne peuvent pas être supprimées de la vue Mise en page. (10213)
 * Nouvel éditeur de cartes | L’application de références de conditions ne fonctionne pas dans la vue Disposition comme dans la vue Auteur. (10198)
-* Nouvel éditeur de cartes | Déplacer à gauche du menu contextuel supprime la référence si elle ne peut pas être déplacée à gauche. (10219)
+* Nouvel éditeur de cartes | Le déplacement vers la gauche du menu contextuel supprime la référence si elle ne peut pas être déplacée vers la gauche. (10219)
 * Nouvel éditeur de cartes |L’icône s’affiche incorrectement pour les références dans une carte créée à l’aide de la vue Mise en page. (10197)
-* Panneau Référentiel | Le clic droit dans le panneau du référentiel renvoie une erreur d’application. (10123)
+* Panneau Référentiel | Un clic droit dans le panneau du référentiel renvoie une erreur d’application. (10123)
 * Rechercher et remplacer | Le mode sombre n’est pas lisible pour les résultats de recherche dans l’éditeur web. (9978)
 * Traduction | Les métadonnées et les balises ne sont pas propagées aux copies traduites. (4696)
 * Le fait de copier-coller (ctrl+c/ctrl+v) renvoie une erreur en mode création. 10304
@@ -114,9 +116,9 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 * PDF natif | Le titre du chapitre et l’en-tête du chapitre ne fonctionnent pas dans la publication en PDF. (9947)
 * PDF natif | `xref` pour un concept n’est pas résolu correctement pour une rubrique DITA spécifique. (10229)
 * PDF natif | Impossible d’afficher le texte de légende d’un tableau dans la sortie de PDF générée. (9827)
-* PDF natif | Les références dans les annexes ne s’affichent pas en tant qu’annexes dans la sortie PDF. 10182
-* PDF natif | L’attribut de cadre d’un tableau n’est pas propagé vers le HTML temporaire (en tant que classe). (10353)
-* PDF natif | Les fichiers de HTML temporaire ajoutent les classes colsep et rowsep à td et même si leur valeur est 0 dans le DITA source. 10352)
+* PDF natif | Les références figurant dans les annexes ne s’affichent pas en tant qu’annexes dans la sortie PDF. 10182
+* PDF natif | L’attribut d’image d’un tableau n’est pas propagé au HTML temporaire (en tant que classe). (10353)
+* PDF natif | les fichiers de HTML temporaire ajoutent les classes colsep et rowsep à td et même si leur valeur est 0 dans le DITA source. 10352)
 * PDF natif | Les métadonnées des critères ajoutés dans la mise en page ne sont pas honorées. 10377
 * PDF natif | La génération du PDF échoue pour un contenu spécifique. (9927)
 * PDF natif | Le contenu via conkeyref n’est pas affiché dans la sortie du PDF. (9836)

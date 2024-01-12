@@ -2,7 +2,9 @@
 title: AEM site
 description: Créez et configurez AEM paramètre prédéfini de site dans AEM Guides. Utilisez la prise en charge AEM site pour générer une sortie basée sur un article, des rubriques de liaison de sortie, une référence de publication et rechercher une chaîne dans le contenu.
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
-source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2577'
 ht-degree: 0%

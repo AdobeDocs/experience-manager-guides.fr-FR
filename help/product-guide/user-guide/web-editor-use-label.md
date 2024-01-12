@@ -2,7 +2,9 @@
 title: Utilisation des libellés
 description: Découvrez l’utilisation des libellés pour différentes versions d’un fichier dans AEM Guides. Découvrez comment ajouter ou supprimer une étiquette à une version d’une rubrique.
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor, Publishing
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%

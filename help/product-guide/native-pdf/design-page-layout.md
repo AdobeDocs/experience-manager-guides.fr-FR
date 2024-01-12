@@ -2,7 +2,10 @@
 title: Fonction de publication native d’un PDF | Concevoir une mise en page
 description: Découvrez comment concevoir la mise en page afin de présenter des informations dans différentes sections de la sortie de votre PDF.
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Output Generation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '4825'
 ht-degree: 0%

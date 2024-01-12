@@ -2,7 +2,9 @@
 title: Créer, modifier, dupliquer ou supprimer un paramètre prédéfini de sortie
 description: Découvrez comment créer, modifier, dupliquer et supprimer un paramètre prédéfini de sortie personnalisé dans AEM Guides.
 exl-id: 0522a49d-4dce-4456-bfdc-7ff9261ae04c
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 0%

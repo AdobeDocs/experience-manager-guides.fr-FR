@@ -2,7 +2,9 @@
 title: Ajouter et gérer des citations dans votre contenu
 description: Ajoutez et gérez des citations dans AEM Guides. Découvrez comment appliquer, importer, filtrer, rechercher, modifier le style de la citation, modifier, prévisualiser, insérer, supprimer et générer une sortie de contenu avec des citations.
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -133,7 +135,7 @@ Les options suivantes sont disponibles dans la liste déroulante :
 | MLA | APA | Chicago | IEEE | AHA |
 |---|---|---|---|---|
 | Style d&#39;association de langues modernes <br> | Le style de l&#39;association psychologique américaine | Manuel de style de Chicago | Style de l&#39;Institut pour les ingénieurs électriques et électroniques | American Heartbeat Association Style |
-| Exemple :<br> Crawford, Claire, et al. *Contenu émotionnel des souvenirs sombres*.Edité par Memory, vol 16, 2010, Amsterdam. | Exemple : <br> Crawford, C., J., &amp;, C. (2010) *Contenu émotionnel des souvenirs sombres* (505-16 éd.). 10.1080/09658210902067289 | Exemple : <br> Crawford, Claire, et al. *Contenu émotionnel des souvenirs sombres*. 505-16, 2010. | Exemple : <br> C. Crawford, J. et C. , *Contenu émotionnel des souvenirs sombres*. Amsterdam, 2010. | Exemple : <br> C. Crawford, J. et C. , *Contenu émotionnel des souvenirs sombres*. Amsterdam, 2010. |
+| Exemple :<br> Crawford, Claire, et al. *Contenu émotionnel des souvenirs sombres*.Edité par Memory, vol 16, 2010, Amsterdam. | Exemple : <br> Crawford, C., J., &amp;, C. (2010). *Contenu émotionnel des souvenirs sombres* (505-16 éd.). 10.1080/09658210902067289 | Exemple : <br> Crawford, Claire, et al. *Contenu émotionnel des souvenirs sombres*. 505-16, 2010. | Exemple : <br> C. Crawford, J. et C. , *Contenu émotionnel des souvenirs sombres*. Amsterdam, 2010. | Exemple : <br> C. Crawford, J. et C. , *Contenu émotionnel des souvenirs sombres*. Amsterdam, 2010. |
 
 
 ## Modifier une citation

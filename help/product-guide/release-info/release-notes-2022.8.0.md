@@ -1,8 +1,10 @@
 ---
-title: Notes de mise à jour | Guides Adobe Experience Manager as a Cloud Service, version d’août 2022
+title: Notes de mise à jour | Adobe Experience Manager Guides as a Cloud Service, version d’août 2022
 description: Version d’août des Guides Adobe Experience Manager as a Cloud Service
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%

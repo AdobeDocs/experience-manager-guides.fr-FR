@@ -2,7 +2,9 @@
 title: Utilisation des paramètres de condition prédéfinis
 description: Découvrez l’utilisation des paramètres prédéfinis de condition dans AEM Guides. Découvrez comment créer, modifier, copier et supprimer des paramètres prédéfinis de condition dans AEM.
 exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 1%
@@ -54,7 +56,7 @@ La variable **Attributs** affiche tous les attributs ajoutés aux références p
    * **Tout sélectionner** pour ajouter tous les attributs et leurs valeurs au paramètre prédéfini de condition.
 Par défaut, l’action d’un attribut est `Include`.
 
-1. Sélectionner **Ajouter**. Vous pouvez répéter cette étape pour ajouter d’autres attributs. Les attributs que vous ajoutez passent du central au panneau de droite.
+1. Sélectionnez **Ajouter**. Vous pouvez répéter cette étape pour ajouter d’autres attributs. Les attributs que vous ajoutez passent du central au panneau de droite.
 1. Sélectionnez Supprimer dans la barre d’actions supérieure pour supprimer les attributs sélectionnés dans le panneau de droite.
 1. (Facultatif) Si nécessaire, vous pouvez remplacer l’action appliquée aux attributs.
 Utilisez l’une des méthodes suivantes :

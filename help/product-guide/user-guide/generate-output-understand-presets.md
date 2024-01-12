@@ -2,7 +2,9 @@
 title: Présentation des paramètres prédéfinis de sortie
 description: Comprendre les paramètres prédéfinis de sortie dans AEM Guides. Créez des paramètres prédéfinis de sortie à partir de l’éditeur web et du tableau de bord de mappage pour les formats de site AEM, de PDF, de HTML 5, d’EPUB, personnalisé et JSON.
 exl-id: 8eaf0765-8b66-47d6-9c40-888495baa711
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%

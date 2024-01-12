@@ -1,8 +1,10 @@
 ---
-title: Notes de mise à jour | Guides Adobe Experience Manager as a Cloud Service, version d’octobre 2022
+title: Notes de mise à jour | Adobe Experience Manager Guides as a Cloud Service, version d’octobre 2022
 description: Version d’octobre des guides Adobe Experience Manager as a Cloud Service
 exl-id: 38638080-625c-49c3-9e54-56cc23831546
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 1%
@@ -61,8 +63,8 @@ Sélectionnez un ou plusieurs paramètres prédéfinis et générez rapidement l
 
 Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 
-* PDF natif | Une erreur se produit lors de la suppression des rubriques de ressource seule de la sortie du PDF. (10554)
-* PDF natif | Les keyrefs vides apparaissent dans la sortie du PDF. 10553)
+* PDF natif | Une erreur se produit lors de la suppression des rubriques de ressources uniques de la sortie du PDF. (10554)
+* PDF natif | Les Keyrefs vides apparaissent dans la sortie du PDF. 10553)
 * PDF natif | `navtitle` pour `topichead` n’est pas honorée. 10509)
 * PDF natif | Prise en charge nécessaire pour les versions du JDK amd64. (10465)
 * PDF natif | Impossible de masquer les rubriques de première ligne de la table des matières. 10355
