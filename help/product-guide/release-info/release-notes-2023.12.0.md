@@ -3,7 +3,7 @@ title: Notes de mise à jour | Instructions de mise à niveau et problèmes rés
 description: Découvrez les correctifs de bogues et comment effectuer la mise à niveau vers la version de décembre 2023 de Adobe Experience Manager Guides as a Cloud Service.
 feature: Release Notes
 role: Leader
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 110a358ce6c0525f7b1eae075d89d78f8014ceff
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Pour plus d’informations sur les nouvelles fonctionnalités et améliorations,
 Mettez à niveau votre configuration as a Cloud Service actuelle des guides de Experience Manager en procédant comme suit :
 
 1. Extrayez le code Git des Cloud Service et passez à la branche configurée dans le pipeline Cloud Service correspondant à l’environnement que vous souhaitez mettre à niveau.
-2. Mettre à jour `<dox.version>` dans `/dox/dox.installer/pom.xml` du code Git Cloud Service vers la version 2023.12.0.15.
+2. Mettre à jour `<dox.version>` dans `/dox/dox.installer/pom.xml` du code Git Cloud Service vers la version 2023.12.0.16.
 3. Validez les modifications et exécutez le pipeline Cloud Service pour effectuer la mise à niveau vers la version de décembre 2023 des Guides Experience Manager as a Cloud Service.
 
 ## Procédure d’activation du déclencheur d’un script via un servlet
