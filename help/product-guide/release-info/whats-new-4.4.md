@@ -1,9 +1,9 @@
 ---
 title: Notes de mise à jour | Nouveautés de la version 4.4.0 des guides Adobe Experience Manager
 description: Découvrez les nouvelles fonctionnalités et les fonctionnalités améliorées de la version 4.4.0 des Guides Adobe Experience Manager
-source-git-commit: ca86700d033ad8eb7cdba917f010f3aa71113a19
+source-git-commit: 027e8e6a6119145a5b2255449514a76488c90463
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Vous pouvez définir des attributs de condition dans vos rubriques DITA. Ensuite
 
 ![Paramètres prédéfinis de condition de l’onglet Gérer de l’éditeur web ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
 
-Pour plus d’informations, voir [Utilisation des paramètres de condition prédéfinis](../user-guide/generate-output-use-condition-presets.md).
+Pour plus d’informations, voir [Utiliser des paramètres prédéfinis de condition](../user-guide/generate-output-use-condition-presets.md).
 
 ## Expérience restructurée pour modifier les attributs
 
@@ -177,6 +177,7 @@ Les guides du Experience Manager vous permettent, en tant qu’administrateur, d
 
 Experience Manager fournit la fonctionnalité permettant de créer des lignes de base en sélectionnant automatiquement les rubriques en fonction du libellé qui leur est appliqué. Vous pouvez désormais également publier en toute transparence plusieurs paramètres prédéfinis de sortie avec des lignes de base automatiques d’un même mappage DITA. Vous n’avez pas à publier un seul paramètre prédéfini à la fois, mais vous pouvez facilement publier plusieurs paramètres prédéfinis de sortie en parallèle.
 
+En savoir plus sur la manière de procéder [créer et gérer des lignes de base à partir de l’éditeur Web ;](../user-guide/web-editor-baseline.md).
 
 ## Améliorations apportées aux PDF natifs
 
