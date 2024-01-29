@@ -4,9 +4,9 @@ description: Découvrez comment gérer les fichiers et les dossiers dans AEM Gui
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '3108'
+source-wordcount: '3109'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ Pour déplacer des fichiers en bloc, procédez comme suit :
    > Sélectionner <img src="images/info-icon.svg" width="25">   à proximité de n’importe quel champ pour en afficher plus de détails.
 
    - **Taille du lot**: indiquez le nombre de fichiers à déplacer dans un seul lot. Valeurs par défaut si 50 fichiers.
-   - **Intervalle de sommeil**: spécifiez la durée (en secondes) d’attente du processus avant de démarrer le prochain lot. Pendant cet intervalle de temps de sommeil, le système corrige les références aux fichiers déplacés et aux fichiers déplacés. L’intervalle de sommeil par défaut est de 60 secondes.
+   - **Intervalle de sommeil (secondes)**: spécifiez la durée (en secondes) d’attente du processus avant de démarrer le prochain lot. Pendant cet intervalle de temps de sommeil, le système corrige les références aux fichiers déplacés et aux fichiers déplacés. L’intervalle de sommeil par défaut est de 60 secondes.
 
 
    - **Ajout d’un suffixe aux dossiers en double**: si vous déplacez des dossiers portant le même nom, vous devez sélectionner cette option. Par exemple, dans la capture d’écran précédente, la variable **Chemin source** contient le nom des dossiers à déplacer. Le dossier nommé rubrique existe à deux emplacements différents : test-A et test-B. Lorsque vous sélectionnez cette option, les dossiers se déplacent correctement. Le premier dossier déplacé sera nommé topic , tandis que le second sera topic0. L’opération de déplacement ajoute un suffixe dans les séries séquentielles \(0, 1, 2, etc.\) aux dossiers portant le même nom.

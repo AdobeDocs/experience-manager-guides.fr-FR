@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '4470'
+source-wordcount: '5744'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 >
 > Suivez les instructions de mise à niveau spécifiques à la version sous licence de votre produit.
 
-Vous pouvez mettre à niveau votre version actuelle des guides du Experience Manager vers la version 4.3.1.
+Vous pouvez mettre à niveau votre version actuelle des guides du Experience Manager vers la version 4.4.0 :
 
-- Si vous utilisez la version 4.3.0, 4.2 ou 4.2.1, vous pouvez directement effectuer la mise à niveau vers la version 4.3.1.
-- Si vous utilisez la version 4.1 ou 4.1.x, vous devez effectuer la mise à niveau vers la version 4.3.0, 4.2 ou 4.2.x avant de passer à la version 4.3.1.
-- Si vous utilisez la version 4.0, vous devez effectuer la mise à niveau vers la version 4.2 avant de passer à la version 4.3.1.
+- Si vous utilisez la version 4.3.1, 4.3.0 ou 4.2.1 (correctif 4.2.1.3), vous pouvez directement effectuer la mise à niveau vers la version 4.4.0.
+- Si vous utilisez les versions 4.2, 4.1 ou 4.1.x, vous devez effectuer la mise à niveau vers les versions 4.3.1, 4.3.0 ou 4.2.1 (correctif 4.2.1.3) avant de passer à la version 4.4.0.
+- Si vous utilisez la version 4.0, vous devez effectuer la mise à niveau vers la version 4.2 avant de passer à la version 4.3.x.
 - Si vous utilisez la version 3.8.5, vous devez effectuer la mise à niveau vers la version 4.0 avant de passer à la version 4.2.
 - Si vous utilisez une version antérieure à 3.8.5, reportez-vous à la section Guides du Experience Manager de mise à niveau du guide d’installation spécifique au produit.
 
@@ -38,6 +38,7 @@ Pour plus de détails, consultez les procédures suivantes :
 - [Mise à niveau vers la version 4.2.1](#upgrade-version-4-2-1)
 - [Mise à niveau vers la version 4.3.0](#upgrade-version-4-3)
 - [Mise à niveau vers la version 4.3.1](#upgrade-version-4-3-1)
+- [Mise à niveau vers la version 4.4.0](#upgrade-version-4-4-0)
 
 
 >[!IMPORTANT]
@@ -61,7 +62,7 @@ Avant de démarrer le processus de mise à niveau des guides du Experience Manag
 1. Importation des commentaires de révision dans les rubriques ouvertes pour révision.
 1. Fermer toutes les révisions actives.
 1. Fermeture de toutes les tâches de traduction
-1. Désinstallez tous les correctifs de Experience Manager Guides installés en haut de la version précédente \(version majeure ou version de correctif\) des Guides du Experience Manager.
+1. Désinstallez tous les correctifs de Guides de Experience Manager installés en haut de la version précédente \(version majeure ou version de correctif\) des Guides de Experience Manager.
 
 **Avant d’installer la version 4.0**
 
@@ -292,9 +293,11 @@ et définissez les propriétés suivantes dans le noeud :
 
 ## Mise à niveau vers la version 4.2.1 {#upgrade-version-4-2-1}
 
-La mise à niveau vers la version 4.2.1 dépend de la version actuelle des Guides du Experience Manager.
+>[!TIP]
+>
+>Il est recommandé d’installer Hotfix 4.2.1.3 sur la version 4.2.1.
 
-Si vous utilisez la version 4.1, 4.1.x ou 4.2, vous pouvez directement effectuer la mise à niveau vers la version 4.2.1.
+La mise à niveau vers la version 4.2.1 dépend de la version actuelle des Guides du Experience Manager. Si vous utilisez la version 4.1, 4.1.x ou 4.2, vous pouvez directement effectuer la mise à niveau vers la version 4.2.1.
 
 >[!NOTE]
 >
@@ -525,7 +528,6 @@ Effectuez les étapes suivantes pour le post-traitement du contenu existant et l
 1. Revenir à la valeur par défaut ou à la valeur existante précédente de `queryLimitReads` si vous l’avez modifié à l’étape 1.
 
 
-4.3.1
 
 ## Mise à niveau vers la version 4.3.1 {#upgrade-version-4-3-1}
 
@@ -540,7 +542,7 @@ La mise à niveau vers la version 4.3.1 dépend de la version actuelle des Guide
 Avant de démarrer le processus de mise à niveau vers Experience Manager Guides 4.3.1, vérifiez que vous disposez des éléments suivants :
 
 1. Mise à niveau vers les guides de Experience Manager version 4.3.0, 4.2 ou 4.2.1 et exécution de l’étape d’installation correspondante.
-1. Fermeture de toutes les tâches de traduction
+1. (Facultatif) Fermez toutes les tâches de traduction.
 1. Modification du niveau de journal en **INFO** pour `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` et ajoutez ces journaux dans un nouveau fichier journal, par exemple : `logs/translation_upgrade.log`.
 
 
@@ -725,6 +727,205 @@ Effectuez les étapes suivantes pour le post-traitement du contenu existant et l
 
 1. Revenir à la valeur par défaut ou à la valeur existante précédente de `queryLimitReads` si vous l’avez modifié à l’étape 1.
 
+## Mise à niveau vers la version 4.4.0 {#upgrade-version-4-4-0}
+
+La mise à niveau vers la version 4.4.0 dépend de la version actuelle des Guides du Experience Manager. Si vous utilisez les versions 4.3.1, 4.3.0, 4.2 ou 4.2.1 (correctif 4.2.1.3), vous pouvez directement effectuer la mise à niveau vers la version 4.4.0.
+
+>[!NOTE]
+>
+>Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de lancer le processus de mise à niveau aux heures creuses.
+
+****Conditions préalables****
+
+Avant de démarrer le processus de mise à niveau vers Experience Manager Guides 4.4.0, vérifiez que vous disposez des éléments suivants :
+
+1. Mise à niveau vers les Guides de Experience Manager version 4.3.1, 4.3.0 ou 4.2.1 (correctif 4.2.1.3) et terminé leurs étapes d’installation respectives.
+1. (Facultatif) Fermez toutes les tâches de traduction.
+1. Modification du niveau de journal en **INFO** pour `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` et ajoutez ces journaux dans un nouveau fichier journal, par exemple : `logs/translation_upgrade.log`.
+
+
+## Installation de la version 4.4.0
+
+1. Téléchargez le package de version 4.4.0 depuis [Portail de distribution de logiciels Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Installez le package version 4.4.0.
+1. Vous pouvez choisir d’ACCÉDER au déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, voir [Activation du déclencheur de script via une servlet](#enable-trigger-serverlet-4-4-0).
+
+1. Une fois l’installation du package terminée, attendez le ou les messages\(s\) suivants dans les journaux :
+
+   `Completed the post deployment setup script`
+
+   Le message ci-dessus indique que toutes les étapes de l’installation sont terminées.
+
+   Si vous rencontrez l’un des préfixes ERROR suivants, signalez-les à votre équipe de réussite client :
+
+   - Erreur dans le script de configuration après le déploiement
+   - Exception lors de la génération de la traduction MAP
+   - Impossible de transférer le mappage de traduction de la version 1 à la version 2 pour la propriété
+1. Mettre à niveau le module externe du connecteur Oxygen publié avec la version 4.4.0 \(si nécessaire\).
+1. Effacez le cache du navigateur après l’installation du package.
+1. Poursuivez la mise à niveau des personnalisations, comme décrit dans la section suivante.
+
+
+## Après avoir installé la version 4.4.0
+
+Après avoir installé Experience Manager Guides, vous pouvez fusionner les différentes configurations applicables de la version nouvellement installée à votre configuration.
+
+>[!NOTE]
+>
+> Le modèle dam-update-asset peut être personnalisé. Ainsi, si des personnalisations ont été effectuées, nous devons synchroniser les personnalisations et les guides du Experience Manager dans la copie de travail du modèle.
+
+1. **Processus de ressource de mise à jour de gestion des actifs numériques \(changements de post-traitement\) :**
+
+1. URL d’ouverture :
+
+   ```
+   http://localhost:4502/libs/cq/workflow/admin/console/content/models.html 
+   ```
+
+1. Sélectionner **Workflow Ressources de mise à jour de gestion des actifs numériques**.
+1. Cliquez sur **Modifier**.
+1. Si la variable **Initiateur de post-traitement DXML** est présent, assurez-vous que les personnalisations sont synchronisées.
+1. Si la variable **Initiateur de post-traitement DXML** est absent du composant, effectuez les étapes suivantes pour l’insérer :
+
+1. Cliquez sur **Insérer le composant** \(Responsable du post-traitement des guides du Experience Manager comme étape finale du processus\).
+1. Configurez la variable **Étape du processus** avec les détails ci-dessous :
+
+   **Onglet Courant**
+
+   **Titre :** Initiateur de post-traitement DXML
+
+   **Description**: étape de l’initiateur de post-processus DXML qui déclenchera une tâche Sling pour le post-traitement DXML de la ressource modifiée/créée.
+
+   **Onglet Processus**
+
+   - Sélectionner **Initiateur de post-traitement DXML** de la **Processus** menu déroulant
+
+   - Sélectionner **Avance du gestionnaire**
+
+   - Sélectionner **Terminé**
+
+1. Cliquez sur **Synchronisation** en haut à droite après avoir terminé les modifications. Vous recevrez une notification de succès.
+
+   >[!NOTE]
+   >
+   > Actualisez et vérifiez que les modifications personnalisées et l’étape de post-traitement des Guides du Experience Manager sont présentes dans le modèle de workflow final.
+
+1. Une fois **Workflow Ressources de mise à jour de gestion des actifs numériques** est validé, vérifiez les configurations de lanceur correspondantes. Pour ce faire, accédez à AEM interface de workflow et ouvrez les lanceurs.
+
+   ```http
+   http://localhost:4502/libs/cq/workflow/content/console.html
+   ```
+
+   Recherchez et apportez des modifications \(si nécessaire\) aux deux lanceurs suivants \(qui doivent être actifs\) correspondant à **Workflow Ressources de mise à jour de gestion des actifs numériques**:
+
+1. Lanceur pour &quot;*Noeud créé*&quot; pour **Workflow Ressources de mise à jour de gestion des actifs numériques**: condition `"jcr:content/jcr:mimeType!=video"`, la valeur &quot;Globbing&quot; doit être :
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - &#39;excludeList&#39; doit avoir `"event-user-data:changedByWorkflowProcess"`.
+   - Lanceur pour &quot;*Noeud modifié*&quot; pour **Processus Ressources de mise à jour de gestion des actifs numériques -** pour la condition &quot;`jcr:content/jcr:mimeType!=video`&quot;, la valeur &quot;Globbing&quot; doit être :
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - `excludeList` should `"event-user-data:changedByWorkflowProcess"`.
+
+1. Une fois la mise à niveau terminée, vérifiez que toutes les personnalisations/superpositions sont validées et mises à jour pour correspondre au nouveau code de l’application. Voici quelques exemples :
+   - Tous les composants superposés à partir de/libs/mditator/libs doivent être comparés au nouveau code de produit et les mises à jour doivent être effectuées dans les fichiers superposés sous/apps.
+   - Toutes les catégories clientlib utilisées à partir du produit doivent être examinées pour les modifications. Toutes les configurations remplacées \(exemples ci-dessous\) doivent être comparées aux configurations les plus récentes afin d’obtenir les dernières fonctionnalités :
+   - elementmapping.xml
+   - ui\_config.json\(peut avoir été défini dans les profils de dossier\)
+   - modified `com.adobe.fmdita.config.ConfigManager`
+
+1. Si vous avez ajouté des personnalisations dans damAssetLucene, vous devrez peut-être les appliquer à nouveau. Après avoir apporté ces modifications, définissez la réindexation sur true. Cela réindexera tous les noeuds existants avec les personnalisations. Une fois l’opération terminée, l’indicateur de réindexation est à nouveau défini sur false. Cette opération peut prendre quelques heures en fonction du nombre de ressources dans le système.
+
+## Étapes d’indexation du contenu existant
+
+>[!NOTE]
+>
+> Vous n’avez pas besoin d’effectuer ces étapes si vous effectuez une mise à niveau à partir de la version 4.3.0 ou 4.3.1.
+
+Effectuez les étapes suivantes pour indexer le contenu existant et utilisez le nouveau texte de recherche et de remplacement au niveau de la carte :
+
+- Exécutez une requête de POST sur le serveur \(avec l’authentification correcte\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facultatif : vous pouvez transmettre des chemins spécifiques des cartes pour les indexer ; par défaut, toutes les cartes seront indexées \|\| Par exemple : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+
+- L’API renvoie un jobId. Pour vérifier l’état de la tâche, vous pouvez envoyer une demande de GET avec l’ID de la tâche au même point de terminaison : `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Par exemple : `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+
+- Une fois la tâche terminée, la requête de GET ci-dessus répond avec succès et indique si une correspondance a échoué. Les mappages indexés avec succès peuvent être confirmés à partir des journaux du serveur.
+
+## Étapes de post-traitement du contenu existant pour utiliser le rapport de lien rompu
+
+>[!NOTE]
+>
+> Vous n’avez pas besoin d’effectuer ces étapes si vous effectuez une mise à niveau à partir de la version 4.3.0 ou 4.3.1.
+
+Effectuez les étapes suivantes pour le post-traitement du contenu existant et l’utilisation du nouveau rapport de lien rompu :
+
+1. (Facultatif) Si le système contient plus de 100 000 fichiers dita, mettez à jour la variable `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` à une valeur plus élevée (toute valeur supérieure au nombre de ressources présentes, par exemple 200 000), puis redéployez.
+
+   | PID | Clé de propriété | Valeur de la propriété |
+   |---|---|---|
+   | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Valeur : 200000 <br> Valeur par défaut : 100000 |
+
+1. Exécutez les API suivantes pour exécuter le post-traitement sur tous les fichiers :
+
+   | Point d’entrée | /bin/guides/reports/upgrade |
+   |---|---|
+   | Type de requête | **POST**  Ce script est une requête de POST qui doit donc être exécutée via des agents tels que Postman. |
+   | Réponse attendue | L’API renvoie un jobId. Pour vérifier l’état de la tâche, vous pouvez envoyer une demande de GET avec l’ID de la tâche au même point de terminaison.<br> Exemple d’URL : `http://<server:port>/bin/guides/reports/upgrade` |
+
+   | Point d’entrée | /bin/guides/reports/upgrade |
+   |---|---|
+   | Type de requête | **GET** |
+   | Param | jobId : transmettez le jobId reçu de la requête de publication précédente. |
+   | Réponse attendue | - Une fois la tâche terminée, la requête de GET répond avec succès. <br> - En cas d’erreur, partagez les journaux d’erreur avec la sortie de l’API avec votre équipe de succès client.  <br>Exemple d’URL : `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+
+1. Revenir à la valeur par défaut ou à la valeur existante précédente de `queryLimitReads` si vous l’avez modifié à l’étape 1.
+
+### Activation du déclencheur de script via une servlet{#enable-trigger-serverlet-4-4-0}
+
+>[!NOTE]
+>
+> Vous n’avez pas besoin d’effectuer ces étapes si vous effectuez une mise à niveau à partir de la version 4.3.0 ou 4.3.1.
+
+POST :
+
+```
+http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
+```
+
+Réponse :
+
+```
+{
+"msg": "Job is successfully submitted and lock node is created for future reference",
+"lockNodePath": "/var/dxml/executor-locks/translation-map-upgrade/1683190032886",
+"status": "SCHEDULED"
+}
+```
+
+Dans la réponse JSON ci-dessus, la clé `lockNodePath` contient le chemin d’accès au noeud créé dans le référentiel pointant vers la tâche envoyée. Il sera automatiquement supprimé une fois la tâche terminée. Vous pourrez alors vous référer à ce noeud pour connaître l’état actuel de la tâche.
+
+Recherchez `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Completed porting of translation map from V1 to V2` et `com.adobe.fmdita.xmltranslation.ots.TranslationMapUpgradeOTS Completed the thread to upgrade translation map from V1 to V2` avant de passer aux étapes suivantes.
+
+>[!NOTE]
+>
+> Vous devez vérifier si le noeud est toujours présent et l’état de la tâche.
+
+**GET**: `http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/1683190032886.json`
+
+
+
+## Procédure de gestion de la variable `'fmdita rewriter'` conflit
+
+Les guides du Experience Manager comportent une [**réécriture sling personnalisée**](../cs-install-guide/conf-output-generation.md#custom-rewriter) module de gestion des liens générés en cas de croix (liens entre les rubriques de deux cartes différentes).
+
+Si votre code base comporte un autre module de réécriture sling personnalisé, utilisez une `'order'` valeur supérieure à 50, comme l’utilise le module de réécriture sling de Guides de Experience Manager `'order'` 50.  Pour le remplacer, vous devez disposer d’une valeur supérieure à 50. Pour plus d’informations, voir [Pipelines de réécriture de sortie](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+
+Au cours de cette mise à niveau, depuis la variable `'order'` est modifiée de 1000 à 50, vous devez fusionner le module de réécriture personnalisé existant, le cas échéant, avec `'fmdita-rewriter'`.
 
 
 **Rubrique parente :**[ Télécharger et installer](download-install.md)

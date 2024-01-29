@@ -4,9 +4,9 @@ description: Découvrez les fonctionnalités de l’éditeur web dans AEM Guides
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '17364'
+source-wordcount: '17861'
 ht-degree: 0%
 
 ---
@@ -228,6 +228,27 @@ Cela empêche les utilisateurs d’enregistrer un fichier qui rompt une règle d
 
   ![](images/editor-setting-translation.png){width="550" align="left"}
 
+- **Métadonnées**: vous pouvez contrôler les métadonnées de version de la rubrique et leurs valeurs à afficher dans la variable **Historique des versions** de la boîte de dialogue  Dans le chemin d’accès aux métadonnées, spécifiez l’emplacement des noeuds à partir desquels vous souhaitez sélectionner les métadonnées. Vous pouvez également définir un nom personnalisé pour les métadonnées en tant que libellé. Les propriétés par défaut sont Titre, État du document et Balises.
+
+  Les métadonnées peuvent être sélectionnées à partir de n’importe quelle propriété sous la propriété `/jcr:content` de la ressource, afin que vous puissiez ajouter le chemin de la propriété en tant que chemin de métadonnées.
+
+
+  Une erreur s’affiche si le chemin des métadonnées est vide. Si vous laissez le libellé vide, le dernier élément est sélectionné comme libellé.
+
+
+
+
+  ![onglet de métadonnées dans les paramètres de l’éditeur](images/editor-setting-metadata.png){width="550" align="left"}
+
+  *Configurez les métadonnées de la variable **Historique des versions**de la boîte de dialogue*
+
+
+
+
+  Vous pouvez également définir l’ordre d’affichage de ces balises de métadonnées. Pour modifier l’ordre par défaut de ces balises, sélectionnez les barres en pointillés à l’emplacement de votre choix.
+Les libellés de métadonnées apparaissent dans la même séquence dans la variable **Historique des versions** de l’éditeur Web.
+
+
 
 **Préférences utilisateur** - ![](images/user_preference_editor_icon.svg)
 
@@ -270,9 +291,16 @@ La barre d’outils secondaire s’affiche lorsque vous ouvrez une rubrique en v
 
 **Insérer un élément** - ![](images/Add_icon.svg)
 
-Insère un élément valide à l’emplacement valide actuel ou à l’emplacement valide suivant. Si vous travaillez dans un élément de bloc comme un `note`, puis utilisez l’icône Insérer un élément pour insérer un nouvel élément après l’événement `note` élément . Dans la capture d’écran suivante, un élément de note a été inséré dans l’élément p \(paragraph\) :
+Insère un élément valide à l’emplacement valide actuel ou à l’emplacement valide suivant. Vous pouvez également utiliser le raccourci clavier ***Alt***+***Entrée*** pour ouvrir la fenêtre contextuelle Insérer un élément . Par exemple, vous modifiez un paragraphe, puis dans la variable **Insérer un élément** s’affiche alors une liste d’éléments pouvant être insérés dans le paragraphe. Sélectionnez l’élément à insérer. Vous pouvez utiliser le clavier pour faire défiler la liste d’éléments et appuyer sur ***Entrée*** pour insérer l’élément requis. Vous pouvez également saisir un caractère ou une chaîne dans la zone de recherche et rechercher les éléments qui commencent par celui-ci.
 
-![](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+
+![élément insert](images/insert-element.png){width="300" align="left"}
+
+*Saisissez &quot;t&quot; pour rechercher tous les éléments valides commençant par &quot;t&quot;.*
+
+Si vous travaillez dans un élément de bloc comme un `note`, puis utilisez l’icône Insérer un élément pour insérer un nouvel élément après l’événement `note` élément . Dans la capture d’écran suivante, un élément de note a été inséré dans l’élément p \(paragraph\) :
+
+![Insérer un élément dans un élément de bloc](images/note-in-para-insert-element_cs.png){width="800" align="left"}
 
 Si vous appuyez sur Entrée dans l’élément de note, un nouveau paragraphe est créé dans l’élément de note lui-même. Pour insérer un nouvel élément à l’extérieur de la note, cliquez sur l’élément p \(surligné dans la capture d’écran\) dans le chemin de navigation des éléments et cliquez sur l’icône Insérer l’élément ou appuyez sur ***Alt***+***Entrée*** pour ouvrir la fenêtre contextuelle Insérer un élément . Sélectionnez ensuite l’élément souhaité et appuyez sur Entrée pour insérer l’élément sélectionné après l’élément de note.
 
@@ -282,7 +310,7 @@ Vous pouvez également ajouter un élément entre deux éléments lorsqu’un cu
 
 Par exemple, si vous travaillez sur une rubrique DITA et que le curseur de bloc clignote entre la brève description et le corps, vous pouvez ajouter `prolog` , puis ajoutez les droits d’auteur, l’auteur et d’autres détails.
 
-Une autre manière de saisir un nouvel élément consiste à utiliser le menu contextuel. Cliquez avec le bouton droit de la souris à n’importe quel emplacement de votre document pour appeler le menu contextuel. Dans ce menu, choisissez Insérer un élément pour afficher la boîte de dialogue Insérer un élément et choisissez l’élément à insérer.
+Une autre manière de saisir un nouvel élément consiste à utiliser le menu contextuel. Cliquez avec le bouton droit de la souris à n’importe quel emplacement de votre document pour appeler le menu contextuel. Dans ce menu, choisissez **Insérer un élément** pour afficher la variable **Insérer un élément** et choisissez l’élément à insérer.
 
 ![](images/insert-element-before-after.png){width="300" align="left"}
 
@@ -297,6 +325,10 @@ Crée une liste numérotée à l’emplacement valide actuel ou suivant. Si vous
 **Insérer/Supprimer une liste à puces** - ![](images/BulletList_icon.svg)
 
 Crée une liste à puces à l’emplacement valide actuel ou suivant. Si vous vous trouvez dans une liste à puces et cliquez sur cette icône, l’élément est converti en paragraphe normal.
+
+>[!NOTE]
+>
+>Vous pouvez également sélectionner la variable **Diviser la liste** dans le menu contextuel d’un élément de liste pour fractionner la liste active et commencer une nouvelle liste au même niveau.
 
 **Insérer un tableau** - ![](images/Table_icon.svg)
 
@@ -640,9 +672,10 @@ Pour fusionner les modifications dans un fichier map, procédez comme suit :
 
 **Historique des versions** - ![](images/version-history-web-editor-ico.svg)
 
-AEM Guides fournit différentes manières d’afficher les versions créées pour vos fichiers de rubrique, ainsi que de restaurer une version spécifique. Cependant, la plupart de ces fonctions sont disponibles en dehors de l’éditeur web.
 
-La fonction Historique des versions de l’éditeur web vous permet non seulement de vérifier les versions et les libellés disponibles sur votre rubrique active, mais également de restaurer n’importe quelle version à partir de l’éditeur lui-même.
+La variable **Historique des versions** dans l’éditeur web, vous pouvez vérifier les versions disponibles de vos fichiers DITA, les comparer et revenir à n’importe quelle version à partir de l’éditeur lui-même.
+
+Dans l’historique des versions, vous pouvez comparer le contenu et les métadonnées de la version actuelle (qui peuvent également être une copie de travail) à n’importe quelle version précédente du même fichier. Vous pouvez également afficher les libellés et les commentaires pour les versions comparées.
 
 Pour accéder à l’historique des versions et revenir à une version spécifique de votre rubrique, procédez comme suit :
 
@@ -650,19 +683,39 @@ Pour accéder à l’historique des versions et revenir à une version spécifiq
 
 1. Cliquez sur **Historique des versions**.
 
-   La boîte de dialogue Historique de version s’affiche.
+   La variable **Historique des versions** s’affiche.
 
-   ![](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   ![Boîte de dialogue Historique des versions](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   *Prévisualisez les modifications dans les différentes versions d’une rubrique.*
 
-1. Sélectionnez une version de la rubrique à laquelle vous souhaitez revenir dans la section **Sélectionner la version** liste déroulante.
+1. Sélectionnez une version de la rubrique que vous souhaitez comparer ou revenir à dans le **Comparaison avec** liste déroulante
 
    >[!NOTE]
    >
    > Si des libellés sont appliqués à une version, ils sont également affichés \(entre crochets\) avec le numéro de version.
 
-   Une fois que vous avez sélectionné une version dans la liste déroulante, l’option Revenir à la version sélectionnée est disponible. La fenêtre d’aperçu affiche les différences entre la version actuelle et la version sélectionnée de la rubrique.
 
-   ![](images/version-history-revert-diff-dialog-web-editor.png){width="550" align="left"}
+
+1. Activer **Affichage des libellés et des commentaires** pour afficher les libellés et commentaires appliqués aux versions actuelle et comparées.
+
+1. Vous pouvez également afficher les informations suivantes dans la **Historique des versions** boîte de dialogue :
+
+   **Aperçu** tab : le contenu nouvellement ajouté est en vert et le contenu supprimé est en rouge.
+
+   **Métadonnées** tab : les métadonnées nouvellement ajoutées sont en vert et les métadonnées supprimées en rouge.
+   ![Différence entre les métadonnées pour les versions ](images/metadata-version-diff.png){width="550" align="left"}
+   *Comparez les métadonnées des différentes versions dans l’historique des versions.*
+
+   >[!NOTE]
+   >
+   > Votre administrateur système peut modifier les métadonnées à afficher à partir de l’onglet Métadonnées des Paramètres de l’éditeur.
+
+   Vous pouvez également afficher les détails de l’utilisateur et de l’heure de la version actuelle et comparée.
+
+
+
+1. Une fois que vous avez sélectionné une version dans la liste déroulante, la variable **Option Revenir à la version sélectionnée** est rendue disponible. La fenêtre d’aperçu affiche les différences entre la version actuelle et la version sélectionnée de la rubrique.
+
 
 1. Cliquez sur **Revenir à la version sélectionnée** pour rétablir votre copie de travail avec la version sélectionnée de la rubrique.
 
@@ -670,7 +723,7 @@ Pour accéder à l’historique des versions et revenir à une version spécifiq
 
    ![](images/version-history-revert-dialog-save-working-copy.png){width="550" align="left"}
 
-1. \(*Facultatif*\) Fournissez une raison de revenir à une version antérieure. Vous pouvez également créer une version de la copie de travail active de votre rubrique.
+1. \(*Facultatif*\) Fournissez une raison pour revenir à une version antérieure. Vous pouvez également créer une version de la copie de travail active de votre rubrique.
 
 1. Cliquez sur **Confirmez.**
 
@@ -875,7 +928,7 @@ Vous pouvez effectuer les actions suivantes à l’aide du menu Options disponib
 
 Le menu Options propose différentes options selon que vous sélectionnez un fichier multimédia ou un fichier DITA. Voici quelques options courantes disponibles pour les fichiers multimédia et DITA :
 
-- Dupliquer
+- Duplicata
 - Extraction/archivage
 - Prévisualisation
 - Déplacer vers
@@ -1107,14 +1160,17 @@ Vous pouvez effectuer les actions suivantes à l’aide du menu Options du fichi
 - **Ouvrir le tableau de bord de carte**: ouvrez le tableau de bord de la carte.
 
 - **Affichage dans l’interface utilisateur d’Assets**: utilisez cette option pour afficher un aperçu du fichier de mappage dans l’interface utilisateur d’Assets. Dans cette vue, tous les fichiers de rubrique dans le mappage sont affichés dans une seule vue page par page unifiée.
-- **Carte de téléchargement**: sélectionnez cette option pour ouvrir la **Carte de téléchargement** boîte de dialogue.
+- **Carte de téléchargement**: sélectionnez cette option pour ouvrir la **Carte de téléchargement** de la boîte de dialogue
 Dans le **Carte de téléchargement** , vous pouvez choisir les options suivantes :
    - **Utilisation de la ligne de base**: sélectionnez cette option pour obtenir une liste des lignes de base créées pour le mappage DITA. Si vous souhaitez télécharger le fichier de mappage et son contenu en fonction d’une ligne de base spécifique, sélectionnez la ligne de base dans la liste déroulante. Pour plus d’informations sur l’utilisation des lignes de base, voir [Utilisation de la ligne de base](./generate-output-use-baseline-for-publishing.md).
    - **Aplatissement de la hiérarchie de fichiers**: sélectionnez cette option pour enregistrer toutes les rubriques et tous les fichiers multimédias référencés dans un seul dossier.
 
   Vous pouvez également télécharger le fichier map sans sélectionner d’option. Dans ce cas, les dernières versions conservées des rubriques et des fichiers multimédia référencés sont téléchargées.
 
-  Après avoir cliqué sur **Télécharger** , la demande de téléchargement de carte est mise en file d’attente. Vous recevez la notification prête à être téléchargée si la carte est prête à être téléchargée. En cas d’échec du téléchargement, vous recevez la notification indiquant que le téléchargement de la carte a échoué.
+
+  Après avoir cliqué sur **Télécharger** , la demande de package d’exportation map est mise en file d’attente. La variable **Succès** s’affiche si le module est créé avec succès.  Vous pouvez cliquer sur le bouton **Télécharger** à partir du bouton **Succès** de la boîte de dialogue
+
+  Vous recevez la notification prête à être téléchargée si la carte est prête à être téléchargée. En cas d’échec du téléchargement, vous recevez la notification indiquant que le téléchargement de carte a échoué.
 
   Vous pouvez accéder au lien de téléchargement à partir de la boîte de réception des notifications AEM. Sélectionnez la notification de carte générée dans la boîte de réception pour télécharger la carte au format .zip.
 
@@ -1801,7 +1857,9 @@ Si votre administrateur a créé un profil pour les attributs, vous obtiendrez c
 
 **Propriétés du fichier** -  ![](images/topic-properties-icon.svg)
 
-Affichez les propriétés du fichier sélectionné en cliquant sur l’icône Propriétés du fichier dans le panneau de droite. Les propriétés du fichier comportent les deux sections suivantes :
+Affichez les propriétés du fichier sélectionné en cliquant sur Propriétés du fichier ![](images/topic-properties-icon.svg) dans le panneau de droite. La fonction Propriétés du fichier est disponible dans les quatre modes ou vues : Disposition, Auteur, Source et Aperçu.
+
+Les propriétés du fichier comportent les deux sections suivantes :
 
 **Général**
 

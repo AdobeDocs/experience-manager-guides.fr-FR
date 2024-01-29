@@ -4,9 +4,9 @@ description: Découvrez comment créer un paramètre prédéfini JSON à partir 
 exl-id: 9eb426fc-ca0a-4932-8a55-fea731281a0a
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '626'
 ht-degree: 1%
 
 ---
@@ -28,9 +28,6 @@ Dans l&#39;éditeur Web, les configurations suivantes ont été organisées sous
 
 Pour plus d’informations, voir [Configuration JSON](#id231KJA00REJ).
 
-**Depuis le tableau de bord de la carte**
-
-Pour ouvrir les paramètres prédéfinis de sortie pour PDF, cliquez sur un fichier de mappage DITA dans l’interface utilisateur d’Assets, puis cliquez sur Paramètres prédéfinis de sortie, puis sur l’option HTML5. Dans le tableau de bord de la carte, cliquez sur **Modifier** dans la partie supérieure pour mettre à jour les différentes configurations, puis cliquez sur **Enregistrer**.
 
 **Configuration JSON**
 

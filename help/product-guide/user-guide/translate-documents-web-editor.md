@@ -4,10 +4,10 @@ description: Traduisez votre contenu dans plusieurs langues à partir de l’éd
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1907'
-ht-degree: 0%
+source-wordcount: '1925'
+ht-degree: 1%
 
 ---
 
@@ -37,8 +37,8 @@ Avant d’exécuter les étapes de cette procédure, assurez-vous d’avoir cré
 ## Créer un projet de traduction
 
 1. Dans le panneau Référentiel, ouvrez le fichier de mappage DITA en mode Carte.
-1. Cliquez sur le bouton **Gérer** . Le panneau Traduction affiche le titre hypertexte du mappage DITA avec le **Langues** liste.
-1. Dans la **Langues** sélectionnez les paramètres régionaux dans lesquels vous souhaitez traduire votre projet. Vous pouvez sélectionner **Tous** pour traduire votre projet dans toutes les langues disponibles.
+1. Cliquez sur le bouton **Gérer** . Le panneau Traduction affiche le **Langues disponibles** liste.
+1. Dans la **Langues disponibles** sélectionnez les paramètres régionaux dans lesquels vous souhaitez traduire votre projet. Vous pouvez choisir **Tout sélectionner** pour traduire votre projet dans toutes les langues disponibles.
 
    >[!NOTE]
    >
@@ -46,11 +46,13 @@ Avant d’exécuter les étapes de cette procédure, assurez-vous d’avoir cré
 
    >[!IMPORTANT]
    >
-   > La langue affiche uniquement les langues pour lesquelles un dossier de langues est créé parallèlement à la langue source. Un dossier de langue créé à un autre niveau, tel qu’un niveau inférieur du dossier de langue source, n’est pas non plus affiché. Veillez à créer tous vos dossiers de langue cible au même niveau que votre dossier de langue source.
+   > La liste affiche uniquement les langues pour lesquelles un dossier de langues est créé parallèlement à la langue source. Un dossier de langue créé à un autre niveau, tel qu’un niveau inférieur du dossier de langue source, n’est pas non plus affiché. Veillez à créer tous vos dossiers de langue cible au même niveau que votre dossier de langue source.
 
-   ![](images/translation-languages.png){width="350" align="left"}
+   ![](images/translation-languages.png){width="300" align="left"}
 
-1. Vous pouvez également utiliser les options suivantes :
+1. Vous pouvez également sélectionner l’une des options suivantes pour traduire votre projet :
+
+   **Aucun** Sélectionnez cette option pour traduire les versions par défaut des fichiers. Cette option est sélectionnée par défaut.
 
    **Utiliser la ligne de base :** Vous pouvez sélectionner une référence pour traduire votre projet. Cliquez sur Utiliser la ligne de base et choisissez une ligne de base créée sur la carte. Tous les fichiers qui font partie de la ligne de base sélectionnée sont affichés dans la page Traduction. Une fois votre contenu traduit, vous pouvez exporter la ligne de base traduite. Pour plus d’informations sur l’exportation de la ligne de base traduite, voir [Exporter la ligne de base traduite](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 
@@ -146,7 +148,7 @@ Par exemple, si vous disposez de fichiers source avec le libellé de version `Re
 
 AEM Guides permet de vérifier les différences entre la version sélectionnée et la dernière version source traduite des rubriques. Vous pouvez choisir de traduire le **Désynchronisé** en fonction des modifications apportées.
 
-![](images/translation-version-diff.png){width="800" align="left"}
+![](images/translation-version-diff.png){width="650" align="left"}
 
 Sélectionnez la variable **Afficher la différence** icon \(![](images/show-difference-icon.svg)\) pour une rubrique afin d’afficher les différences entre la dernière version traduite et la version actuelle du fichier sélectionné.
 

@@ -4,10 +4,10 @@ description: Découvrez comment utiliser la publication native de PDF, créer et
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Web Editor, Native PDF Output
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '3196'
-ht-degree: 0%
+source-wordcount: '3293'
+ht-degree: 1%
 
 ---
 
@@ -87,16 +87,20 @@ Les métadonnées sont la description ou la définition de votre contenu. Les m�
 
 Utilisez l’onglet Métadonnées pour définir les champs de métadonnées tels que le nom de l’auteur, le titre du document, les mots-clés, les informations de copyright et d’autres champs de données pour la sortie du PDF. Vous pouvez également ajouter des métadonnées personnalisées pour la sortie de votre PDF.
 
-Ces métadonnées sont mappées aux métadonnées dans l’onglet Description des propriétés du document de votre PDF de sortie.
+Ces métadonnées sont mappées aux métadonnées dans la variable **Description** dans la **Propriétés du document** de votre PDF de sortie.
 
-**Remarque**: ces métadonnées remplacent les métadonnées définies au niveau du livre.
+
 
 <img src="assets/pdf-metadata.png" alt="onglet de métadonnées" width="600">
 
-À partir des paramètres prédéfinis de sortie, **sélectionner PDF** > **Métadonnées** pour ajouter et personnaliser des options de métadonnées.
+Dans les paramètres prédéfinis de sortie, sélectionnez  **PDF** > **Native-PDF** > **Métadonnées** pour ajouter et personnaliser des options de métadonnées.
+* **Utilisation de métadonnées ajoutées dans topicmeta**
+
+  Cette option est sélectionnée par défaut. Vous pouvez utiliser les métadonnées que vous avez ajoutées dans l’élément topicmeta du mappage DITA pour renseigner les champs de métadonnées de la sortie du PDF.
+
 * **Fournir un fichier XMP**
 
-  Les champs de métadonnées peuvent être directement renseignés en important [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform). Vous pouvez télécharger un exemple de fichier XMP ici.
+  Vous pouvez également remplir directement les champs de métadonnées en important des [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform). Vous pouvez télécharger un exemple de fichier XMP ici.
 
 [Télécharger](assets/SampleXMP.xmp)
 
@@ -169,6 +173,7 @@ Utilisez les options suivantes pour définir des paramètres avancés pour fusio
 | **Activation des équations MathML** | Sélectionnez cette option pour effectuer le rendu des équations MathML présentes dans votre contenu. Les équations seront ignorées par défaut. |
 | **Téléchargement de fichiers temporaires** | Sélectionnez cette option si vous souhaitez télécharger les fichiers de HTML intermédiaires créés lors de la génération de la sortie du PDF natif. Vous pouvez ensuite télécharger les fichiers temporaires après avoir généré la sortie. |
 | **Conformité du PDF** | Il s’agit de la norme à laquelle vous envisagez d’enregistrer votre PDF pour vous assurer qu’il est conforme. Sélectionnez dans la liste déroulante pour effectuer un choix dans la liste des normes de PDF disponibles. Pour plus d’informations sur les normes prises en charge, voir [A propos des normes PDF](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **Propriétés du fichier** | Sélectionnez les métadonnées à transmettre à la publication Native PDF. La liste déroulante répertorie les propriétés personnalisées et par défaut. Par exemple : `dc:description`, `dc:language`, `dc:title`, et `docstate` sont les propriétés par défaut, tandis que vous pouvez `author` comme propriété personnalisée. Les propriétés de métadonnées sélectionnées sont transmises au fichier de PDF généré à l’aide de l’PDF natif. <br> Ces propriétés sont sélectionnées dans la variable `metadataList` fichier disponible à l’adresse :`/libs/fmdita/config/metadataList`. <br>Ce fichier peut être superposé à l’emplacement suivant : `/apps/fmdita/config/metadataList`. |
 
 
 ## Génération d’une sortie de PDF {#generate-pdf-output}
