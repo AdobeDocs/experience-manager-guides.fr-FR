@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: 99ef336bc6ae1cab133ad91117e11bd65db403fa
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 6%
@@ -61,7 +61,7 @@ ht-degree: 6%
       + Version 4.4.0 {#44-release}
          + Nouveautés {#44-whats-new}
             + [4.4 Nouveautés](./release-info/whats-new-4.4.md)
-         + Notes de mise à jour {#43-release-notes}
+         + Notes de mise à jour {#44-release-notes}
             + [Notes de mise à jour 4.4](./release-info/release-notes-4.4.md)
       + Version 4.3.0 {#43-release}
          + Nouveautés {#43-whats-new}
@@ -358,7 +358,7 @@ ht-degree: 6%
          + [Configuration de la recherche dans l’interface utilisateur d’AEM Assets](./cs-install-guide/conf-dita-search.md)
       + [Annexe](./cs-install-guide/appendix.md)
 + Référence d’API {#api-reference}
-   + [Présentation](./api-reference/introduction.md)
+   + [Introduction](./api-reference/introduction.md)
    + [API REST pour la gestion de sortie](./api-reference/output-management.md)
    + [API REST pour travailler avec des mappages DITA](./api-reference/dita-map-management.md)
    + [API REST pour enregistrer un connecteur de source de données](./api-reference/data-source-connector.md)
@@ -412,7 +412,7 @@ ht-degree: 6%
                + [Widgets de rendu](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                + [Widgets de base](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
          + Prise en main {#getting-started}
-            + [Présentation](./guides-ui-extensions/getting-started/Introduction.md)
+            + [Introduction](./guides-ui-extensions/getting-started/Introduction.md)
             + [Guide d’installation](./guides-ui-extensions/getting-started/integrating-customisations.md)
             + [Intro du référentiel d’extension](./guides-ui-extensions/getting-started/extension-repo-intro.md)
          + Personnalisations {#customisations}
