@@ -5,7 +5,7 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
 workflow-type: tm+mt
 source-wordcount: '5744'
 ht-degree: 0%
@@ -237,7 +237,7 @@ Après avoir installé Experience Manager Guides, vous pouvez fusionner les diff
    - ui\_config.json\(peut avoir été défini dans les profils de dossier\)
    - modified `com.adobe.fmdita.config.ConfigManager`
    - Vérifiez si l’un des codes personnalisés utilisait d’anciens chemins d’accès \(comme indiqué dans la section [Mappage de migration](#id2244LE040XA) section\) - doit être mis à jour vers les nouveaux chemins afin que les personnalisations fonctionnent également comme prévu.
-1. Découvrez toutes les nouvelles configurations apportées à la version actuelle \(vérifier) [Notes de mise à jour](../release-info/release-notes-4.3.md)\) et voir si une fonctionnalité est affectée, puis prendre les mesures appropriées. Un exemple peut être l’utilisation de l’option &quot;Amélioration de la gestion des fichiers et des versions&quot; introduite dans la version 4.0, pour laquelle vous devez activer une configuration.
+1. Découvrez toutes les nouvelles configurations apportées à la version actuelle \(vérifier) [Notes de mise à jour](../release-info/release-notes-4-3.md)\) et voir si une fonctionnalité est affectée, puis prendre les mesures appropriées. Un exemple peut être l’utilisation de l’option &quot;Amélioration de la gestion des fichiers et des versions&quot; introduite dans la version 4.0, pour laquelle vous devez activer une configuration.
 
 ## Étapes d’indexation du contenu existant pour utiliser la nouvelle recherche et remplacement :
 
@@ -452,7 +452,7 @@ Après avoir installé Experience Manager Guides, vous pouvez fusionner les diff
    - ui\_config.json\(peut avoir été défini dans les profils de dossier\)
    - modified `com.adobe.fmdita.config.ConfigManager`
    - Vérifiez si l’un des codes personnalisés utilisait d’anciens chemins d’accès \(comme indiqué dans la section [Mappage de migration](#id2244LE040XA) section\) - doit être mis à jour vers les nouveaux chemins afin que les personnalisations fonctionnent également comme prévu.
-1. Découvrez toutes les nouvelles configurations apportées à la version actuelle \(vérifier) [Notes de mise à jour](../release-info/release-notes-4.2.1.md)\) et voir si une fonctionnalité est affectée, puis prendre les mesures appropriées. Un exemple peut être l’utilisation de l’option &quot;Amélioration de la gestion des fichiers et des versions&quot; introduite dans la version 4.0, pour laquelle vous devez activer une configuration.
+1. Découvrez toutes les nouvelles configurations apportées à la version actuelle \(vérifier) [Notes de mise à jour](../release-info/release-notes-4-2-1.md)\) et voir si une fonctionnalité est affectée, puis prendre les mesures appropriées. Un exemple peut être l’utilisation de l’option &quot;Amélioration de la gestion des fichiers et des versions&quot; introduite dans la version 4.0, pour laquelle vous devez activer une configuration.
 
 ## Étapes d’indexation du contenu existant pour utiliser la nouvelle recherche et remplacement :
 

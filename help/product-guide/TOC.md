@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: 1171f785ff183f9d3332842fb9a15e123041de4a
+source-git-commit: ae821964e123079707f51377390df378230680fc
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 6%
@@ -21,63 +21,63 @@ ht-degree: 6%
          + [Instructions de déploiement](./release-info/deploy-xml-on-aemaacs.md)
          + Versions de 2023 {#2023-releases}
             + Version de décembre {#2312-release}
-               + [Nouveautés](./release-info/whats-new-2023.12.0.md)
-               + [Notes de mise à jour](./release-info/release-notes-2023.12.0.md)
+               + [Nouveautés](./release-info/whats-new-2023-12-0.md)
+               + [Notes de mise à jour](./release-info/release-notes-2023-12-0.md)
             + Version de novembre {#2311-release}
-               + [Nouveautés](./release-info/whats-new-2023.11.0.md)
-               + [Notes de mise à jour](./release-info/release-notes-2023.11.0.md)
+               + [Nouveautés](./release-info/whats-new-2023-11-0.md)
+               + [Notes de mise à jour](./release-info/release-notes-2023-11-0.md)
             + Version d’octobre {#2310-release}
-               + [Nouveautés](./release-info/whats-new-2023.10.0.md)
-               + [Notes de mise à jour](./release-info/release-notes-2023.10.0.md)
+               + [Nouveautés](./release-info/whats-new-2023-10-0.md)
+               + [Notes de mise à jour](./release-info/release-notes-2023-10-0.md)
             + Version de septembre {#2309-release}
-               + [Nouveautés](./release-info/whats-new-2023.9.0.md)
-               + [Notes de mise à jour](./release-info/release-notes-2023.9.0.md)
+               + [Nouveautés](./release-info/whats-new-2023-9-0.md)
+               + [Notes de mise à jour](./release-info/release-notes-2023-9-0.md)
             + Version de juillet {#2307-release}
-               + [Nouveautés](./release-info/whats-new-2023.7.0.md)
-               + [Notes de mise à jour](./release-info/release-notes-2023.7.0.md)
+               + [Nouveautés](./release-info/whats-new-2023-7-0.md)
+               + [Notes de mise à jour](./release-info/release-notes-2023-7-0.md)
             + Version de juin {#2306-release}
-               + [Nouveautés](./release-info/whats-new-2023.6.0.md)
-               + [Notes de mise à jour](./release-info/release-notes-2023.6.0.md)
+               + [Nouveautés](./release-info/whats-new-2023-6-0.md)
+               + [Notes de mise à jour](./release-info/release-notes-2023-6-0.md)
             + Version d’avril {#2304-release}
-               + [Nouveautés](./release-info/whats-new-2023.4.0.md)
-               + [Notes de mise à jour](./release-info/release-notes-2023.4.0.md)
+               + [Nouveautés](./release-info/whats-new-2023-4-0.md)
+               + [Notes de mise à jour](./release-info/release-notes-2023-4-0.md)
             + Version de mars {#2303-release}
-               + [Nouveautés](./release-info/whats-new-2023.3.0.md)
-               + [Notes de mise à jour](./release-info/release-notes-2023.3.0.md)
+               + [Nouveautés](./release-info/whats-new-2023-3-0.md)
+               + [Notes de mise à jour](./release-info/release-notes-2023-3-0.md)
             + Version de février {#2302-release}
-               + [Nouveautés](./release-info/whats-new-2023.2.0.md)
-               + [Notes de mise à jour](./release-info/release-notes-2023.2.0.md)
+               + [Nouveautés](./release-info/whats-new-2023-2-0.md)
+               + [Notes de mise à jour](./release-info/release-notes-2023-2-0.md)
          + Versions de 2022 {#2022-releases}
-            + [Notes de mise à jour de novembre](./release-info/release-notes-2022.11.0.md)
-            + [Notes de mise à jour d’octobre](./release-info/release-notes-2022.10.0.md)
-            + [Notes de mise à jour de septembre](./release-info/release-notes-2022.9.0.md)
-            + [Notes de mise à jour d’août](./release-info/release-notes-2022.8.0.md)
-            + [Notes de mise à jour de mai](./release-info/release-notes-2022.5.0.md)
-            + [Notes de mise à jour d’avril](./release-info/release-notes-2022.4.0.md)
-            + [Notes de mise à jour de mars](./release-info/release-notes-2022.3.0.md)
-            + [Notes de mise à jour de février](./release-info/release-notes-2022.2.0.md)
-            + [Notes de mise à jour de janvier](./release-info/release-notes-2022.1.0.md)
+            + [Notes de mise à jour de novembre](./release-info/release-notes-2022-11-0.md)
+            + [Notes de mise à jour d’octobre](./release-info/release-notes-2022-10-0.md)
+            + [Notes de mise à jour de septembre](./release-info/release-notes-2022-9-0.md)
+            + [Notes de mise à jour d’août](./release-info/release-notes-2022-8-0.md)
+            + [Notes de mise à jour de mai](./release-info/release-notes-2022-5-0.md)
+            + [Notes de mise à jour d’avril](./release-info/release-notes-2022-4-0.md)
+            + [Notes de mise à jour de mars](./release-info/release-notes-2022-3-0.md)
+            + [Notes de mise à jour de février](./release-info/release-notes-2022-2-0.md)
+            + [Notes de mise à jour de janvier](./release-info/release-notes-2022-1-0.md)
       + On-premise/Managed Services {#on-prem-release-notes}
       + Version 4.4.0 {#44-release}
          + Nouveautés {#44-whats-new}
-            + [4.4 Nouveautés](./release-info/whats-new-4.4.md)
+            + [4.4 Nouveautés](./release-info/whats-new-4-4.md)
          + Notes de mise à jour {#44-release-notes}
-            + [Notes de mise à jour 4.4](./release-info/release-notes-4.4.md)
+            + [Notes de mise à jour 4.4](./release-info/release-notes-4-4.md)
       + Version 4.3.0 {#43-release}
          + Nouveautés {#43-whats-new}
-            + [4.3.1 Nouveautés](./release-info/whats-new-4.3.1-release.md)
-            + [4.3.0 Nouveautés](./release-info/whats-new-4.3-release.md)
+            + [4.3.1 Nouveautés](./release-info/whats-new-4-3-1-release.md)
+            + [4.3.0 Nouveautés](./release-info/whats-new-4-3-release.md)
          + Notes de mise à jour {#43-release-notes}
-            + [Notes de mise à jour 4.3.1](./release-info/release-notes-4.3.1.md)
-            + [Notes de mise à jour 4.3.0](./release-info/release-notes-4.3.md)
+            + [Notes de mise à jour 4.3.1](./release-info/release-notes-4-3-1.md)
+            + [Notes de mise à jour 4.3.0](./release-info/release-notes-4-3.md)
       + Version 4.2 {#42-release}
          + Nouveautés {#42-whats-new}
-            + [4.2.1 Nouveautés](./release-info/whats-new-4.2.1-release.md)
-            + [4.2 Nouveautés](./release-info/whats-new-4.2-release.md)
+            + [4.2.1 Nouveautés](./release-info/whats-new-4-2-1-release.md)
+            + [4.2 Nouveautés](./release-info/whats-new-4-2-release.md)
          + Notes de mise à jour {#42-release-notes}
-            + [Notes de mise à jour 4.2.1](./release-info/release-notes-4.2.1.md)
-            + [Notes de mise à jour 4.2](./release-info/release-notes-4.2.md)
-      + [Notes de mise à jour 4.1.x](./release-info/release-notes-4.1.md)
+            + [Notes de mise à jour 4.2.1](./release-info/release-notes-4-2-1.md)
+            + [Notes de mise à jour 4.2](./release-info/release-notes-4-2.md)
+      + [Notes de mise à jour 4.1.x](./release-info/release-notes-4-1.md)
       + [Notes de mise à jour 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
       + [Notes de mise à jour de la version 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 + Guide de l’utilisateur {#user-guide}
