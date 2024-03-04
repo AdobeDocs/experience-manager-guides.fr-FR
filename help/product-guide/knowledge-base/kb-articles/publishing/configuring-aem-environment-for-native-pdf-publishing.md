@@ -4,9 +4,9 @@ description: Configuration de l’environnement AEM pour la publication de PDF n
 exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
 feature: Native PDF Output
 role: User, Admin
-source-git-commit: a41fed965ed9fe33994478d51030eefdad1037de
+source-git-commit: 1baed01b2e573d79d4baaa6a551966ce59449136
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---
@@ -181,12 +181,6 @@ Si le problème persiste même après la correction des paramètres de l’envir
 
 Validez la valeur de la propriété timeout pour le noeud nodejs dans /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejs dans le référentiel CRX. La valeur par défaut est 300.
 
-### Erreur lors de l’extraction de l’exception de dépendance (chaîne trop longue)
-![Chaîne trop longue exception](..//assets/publishing/string-too-long-error.png)
-
-Pour contourner cette exception :
-1. Supprimez certains styles inutiles pour les réduire.
-2. Créez plusieurs feuilles de style au lieu d’un seul CSS de grande taille.
 
 
 Si vous rencontrez des problèmes lors de l’exécution de l’une des étapes ci-dessus, publiez votre question dans la communauté AEM Guides. [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) pour obtenir de l’aide.
