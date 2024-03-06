@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '3967'
+source-wordcount: '4285'
 ht-degree: 0%
 
 ---
@@ -405,6 +405,43 @@ Si vous avez mis à jour un paramètre prédéfini de sortie existant ou si vous
 
 1. Cliquez sur **OK** pour appliquer les modifications des paramètres prédéfinis de sortie sélectionnés sur tous les mappages DITA existants.
 
+
+
+## Configuration des suggestions intelligentes optimisées par l’IA dans l’éditeur web {#conf-ai-smart-suggestions}
+
+Pour ![AEM cloud ](assets/aem-cloud-icon.svg) Guides du Experience Manager as a Cloud Service .
+
+Vous pouvez configurer les suggestions intelligentes optimisées par l’IA et aider les auteurs à réutiliser le contenu existant et à créer facilement des références de contenu correctes et cohérentes. La variable **Configuration de l’IA** vous permet de contrôler les paramètres du panneau Suggestions intelligentes dans l’éditeur web.
+
+Effectuez les étapes suivantes pour configurer la configuration standard de l’IA au niveau du profil global ou au niveau du dossier :
+1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur ou utilisateur disposant de droits d’administration sur un profil de niveau dossier.
+1. Sélectionnez la variable **Adobe Experience Manager** lien dans la partie supérieure et choisissez **Outils**.
+1. Sélectionner **Guides** dans la liste des outils, puis sélectionnez l’option **Profils de dossier** mosaïque.
+1. Sélectionnez la mosaïque de profil que vous souhaitez configurer.
+
+   >[!NOTE]
+   >
+   >Vous pouvez configurer des suggestions intelligentes basées sur l’IA sur le profil global ou au niveau du dossier.
+
+1. Sur la page du profil, sélectionnez la variable **Configuration de l’IA** .
+   ![Onglet de configuration AI dans le profil global](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
+
+1. Cliquez sur **Modifier**.
+1. En tant qu’administrateur, vous pouvez configurer les paramètres suivants :
+
+   **Caractères minimum**: saisissez le nombre minimum de caractères que les auteurs doivent saisir pour obtenir les suggestions. Par exemple, si ce nombre est de 7, l’auteur doit ajouter au moins 7 caractères pour afficher une suggestion dynamique.
+
+   **Suggestions maximales**: saisissez le nombre maximal de suggestions que les auteurs peuvent obtenir lors de la création du contenu. Par exemple, si ce nombre est de 5, l’auteur peut afficher cinq suggestions intelligentes ou moins.
+
+   **Fichiers et dossiers**: sélectionnez les fichiers ou les dossiers à partir desquels les suggestions intelligentes doivent s’afficher. *Pour assurer la cohérence du contenu, il est recommandé qu’aucune des deux entrées de la liste ne comporte de fichiers communs.*. Une fois que vous avez sélectionné les fichiers et les dossiers, ils sont répertoriés.
+
+1. Cliquez sur **Enregistrer**.
+
+   >[!NOTE]
+   >
+   > Les derniers détails d’état indexé s’affichent en haut après l’enregistrement du fichier.
+
+En savoir plus sur l’affichage et l’ajout de [Suggestions intelligentes basées sur l’IA](../user-guide/authoring-ai-based-smart-suggestions.md) pour ajouter des références de contenu lors de la création dans l’éditeur web.
 
 ## Configuration et personnalisation de l’éditeur Web XML {#id2065G300O5Z}
 

@@ -4,9 +4,9 @@ description: Découvrez les correctifs et comment mettre à niveau vers les vers
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
 feature: Release Notes
 role: Leader
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1308'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Pour plus d’informations sur les nouvelles fonctionnalités et améliorations,
 ## Mise à niveau vers la version 4.3.1 des guides du Experience Manager
 
 
-Vous pouvez facilement mettre à niveau votre version actuelle des guides vers la version 4.3.1. Avant de procéder à la mise à niveau vers la version 4.3.1 des Guides du Experience Manager, vous devez tenir compte des points suivants : Vous pouvez mettre à niveau votre version actuelle des Guides du Experience Manager vers la version 4.3.1.
+Vous pouvez facilement mettre à niveau votre version actuelle des guides du Experience Manager vers la version 4.3.1. Avant de procéder à la mise à niveau vers la version 4.3.1 des Guides du Experience Manager, vous devez tenir compte des points suivants : Vous pouvez mettre à niveau votre version actuelle des Guides du Experience Manager vers la version 4.3.1.
 
 
 - Si vous utilisez la version 4.3.0, 4.2 ou 4.2.1, vous pouvez directement effectuer la mise à niveau vers la version 4.3.1.

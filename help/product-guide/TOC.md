@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: 8fc1a5232bcc9049b16def8d629ab45a278a2c8f
+source-git-commit: 933d683ec970417d4aac739c3cae19c103170ae9
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1740'
 ht-degree: 6%
 
 ---
@@ -15,10 +15,16 @@ ht-degree: 6%
 - [Présentation d’[!DNL AEM Guides]](overview.md)
 - [Clause de non-responsabilité](./user-guide/rebranding-disclaimer.md)
 - Informations sur la version {#release-info}
+
    - [[!DNL AEM Guides] versions](./release-info/latest-release-info.md)
    - Notes de mise à jour {#release-notes}
       - Cloud Services {#cloud-release-notes}
          - [Instructions de déploiement](./release-info/deploy-xml-on-aemaacs.md)
+         - Versions de 2024 {#2024-releases}
+            - Version 2024.2.0 {#2402-release}
+               - [Nouveautés](./release-info/whats-new-2024-2-0.md)
+               - [Problèmes résolus](./release-info/fixed-issues-2024-2-0.md)
+               - [Instructions de mise à niveau](./release-info/upgrade-instructions-2024-2-0.md)
          - Versions de 2023 {#2023-releases}
             - Version de décembre {#2312-release}
                - [Nouveautés](./release-info/whats-new-2023-12-0.md)
@@ -108,6 +114,7 @@ ht-degree: 6%
                - [Autres fonctionnalités de l’éditeur web](./user-guide/web-editor-other-features.md)
                - [Affichages de l’éditeur web](./user-guide/web-editor-views.md)
                - [Prise en charge des fichiers de schéma](./user-guide/support-schematron-file.md)
+               - [Suggestions intelligentes (bêta) optimisées par l’IA pour créer du contenu](./user-guide/authoring-ai-based-smart-suggestions.md)
                - [Création de documents Markdown à partir de l’éditeur web](./user-guide/web-editor-markdown-topic.md)
                - [Ajout de citations à votre contenu](./user-guide/web-editor-apply-citations.md)
                - [Utiliser les données de vos sources de données](./user-guide/web-editor-content-snippet.md)
@@ -219,8 +226,8 @@ ht-degree: 6%
       - Migration du contenu {#content-migration}
          - [Migration du contenu non UUID vers UUID](./install-guide/migrate-uuid-non-uuid.md)
          - Processus de migration {#migration-process}
-            - [Migration de contenu versionné](./install-guide/migrate-non-uuid-uuid-with-versions.md)
-            - [Migration de contenu non versionné](./install-guide/migrate-non-uuid-uuid-without-versions.md)
+            - [Migration de contenu non UUID avec des versions](./install-guide/migrate-non-uuid-uuid-with-versions.md)
+            - [Migration de contenu non UUID sans versions](./install-guide/migrate-non-uuid-uuid-without-versions.md)
          - [Migration de contenu existant](./install-guide/migrate-content.md)
          - [Chargement de contenu DITA existant](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [Migration de contenu non DITA](./install-guide/migrate-content-non-dita.md)
@@ -322,6 +329,7 @@ ht-degree: 6%
       - Utilisation des configurations de l’éditeur web {#web-editor-configs-cs}
          - [Personnalisation de l’éditeur web](./cs-install-guide/conf-web-editor.md)
          - [Barre d’outils Personnaliser](./cs-install-guide/conf-web-editor-customize-toolbar.md)
+         - [Configuration des suggestions intelligentes optimisées par l’IA pour la création](./cs-install-guide/conf-smart-suggestions.md)
          - [Configuration de la valeur par défaut pour la vue Balises](./cs-install-guide/configure-default-value-tags-view.md)
          - [Configuration de l’affichage des liens basés sur l’UUID](./cs-install-guide/conf-uuid-based-links.md)
          - [Ouvrir les fichiers de rubrique ou de mappage DITA dans le même onglet](./cs-install-guide/open-dita-files-same-tab.md)
@@ -358,7 +366,7 @@ ht-degree: 6%
          - [Configuration de la recherche dans l’interface utilisateur d’AEM Assets](./cs-install-guide/conf-dita-search.md)
       - [Annexe](./cs-install-guide/appendix.md)
 - Référence d’API {#api-reference}
-   - [Introduction](./api-reference/introduction.md)
+   - [Présentation](./api-reference/introduction.md)
    - [API REST pour la gestion de sortie](./api-reference/output-management.md)
    - [API REST pour travailler avec des mappages DITA](./api-reference/dita-map-management.md)
    - [API REST pour enregistrer un connecteur de source de données](./api-reference/data-source-connector.md)
@@ -414,7 +422,7 @@ ht-degree: 6%
                - [Widgets de rendu](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                - [Widgets de base](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
          - Prise en main {#getting-started}
-            - [Introduction](./guides-ui-extensions/getting-started/Introduction.md)
+            - [Présentation](./guides-ui-extensions/getting-started/Introduction.md)
             - [Guide d’installation](./guides-ui-extensions/getting-started/integrating-customisations.md)
             - [Intro du référentiel d’extension](./guides-ui-extensions/getting-started/extension-repo-intro.md)
          - Personnalisations {#customisations}

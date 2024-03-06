@@ -1,7 +1,7 @@
 ---
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 22150456d455687a1e3bf36695ce6c1238f92e0c
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '227'
 ht-degree: 2%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 2%
    - [Déploiement du module AEM Guides](download-install-dxml-first-time.md)
    - [Configuration du Dispatcher](download-install-configure-dispatcher.md)
    - [Vérification de l’installation AEM Guides](download-install-verify-dxml-installation.md)
-   - [Mise à niveau AEM guides](download-install-upgrade-dxml.md)
    - [Remplacements de configuration](download-install-additional-config-override.md)
    - [Recommendations pour l’optimisation des performances](download-install-recommend-perf-optimiz.md)
 - [Administration et sécurité des utilisateurs](user-admin-sec.md)
