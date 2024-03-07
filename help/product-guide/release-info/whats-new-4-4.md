@@ -1,18 +1,23 @@
 ---
 title: Notes de mise à jour | Nouveautés de la version 4.4.0 des guides Adobe Experience Manager
 description: Découvrez les nouvelles fonctionnalités et les fonctionnalités améliorées de la version 4.4.0 des Guides Adobe Experience Manager
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+role: Leader
+source-git-commit: 8f8075b205725a55b93286c804b879353b4d965d
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 0%
 
 ---
 
-# Nouveautés de la version 4.4.0 des guides Adobe Experience Manager (janvier 2024)
+# Nouveautés de la version 4.4.0 (janvier 2024)
 
-Cet article couvre les nouvelles fonctionnalités et les fonctionnalités améliorées de la version 4.4.0 des Guides Adobe Experience Manager (ultérieurement appelées *Guides du Experience Manager*).
+Cet article couvre les nouvelles fonctionnalités et les fonctionnalités améliorées de la version 4.4.0 des Guides Adobe Experience Manager.
 
-Pour plus d’informations sur les instructions de mise à niveau, la matrice de compatibilité et les problèmes résolus dans cette version, voir [Notes de mise à jour](./release-notes-4-4.md).
+Pour obtenir la liste des problèmes résolus dans cette version, consultez [Correction de problèmes dans la version 4.4.0](../release-info/fixed-issues-4-4.md).
+
+En savoir plus [instructions de mise à niveau de la version 4.4.0](../release-info/upgrade-instructions-4-4.md).
+
+
 
 ## Fonctionnalité d’historique des versions restructurée de l’éditeur web
 

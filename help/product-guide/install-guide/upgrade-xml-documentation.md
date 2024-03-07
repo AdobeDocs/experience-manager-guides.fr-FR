@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 98fec02367c7e3f33f2511e51675d9e02e41170a
 workflow-type: tm+mt
-source-wordcount: '5744'
+source-wordcount: '5940'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Vous pouvez mettre à niveau votre version actuelle des guides du Experience Manager vers la version 4.4.0 :
 
-- Si vous utilisez la version 4.3.1, 4.3.0 ou 4.2.1 (correctif 4.2.1.3), vous pouvez directement effectuer la mise à niveau vers la version 4.4.0.
+- Si vous utilisez les versions 4.3.1.5, 4.3.1, 4.3.0 ou 4.2.1 (correctif 4.2.1.3), vous pouvez directement effectuer la mise à niveau vers la version 4.4.0.
 - Si vous utilisez les versions 4.2, 4.1 ou 4.1.x, vous devez effectuer la mise à niveau vers les versions 4.3.1, 4.3.0 ou 4.2.1 (correctif 4.2.1.3) avant de passer à la version 4.4.0.
 - Si vous utilisez la version 4.0, vous devez effectuer la mise à niveau vers la version 4.2 avant de passer à la version 4.3.x.
 - Si vous utilisez la version 3.8.5, vous devez effectuer la mise à niveau vers la version 4.0 avant de passer à la version 4.2.
@@ -38,6 +38,7 @@ Pour plus de détails, consultez les procédures suivantes :
 - [Mise à niveau vers la version 4.2.1](#upgrade-version-4-2-1)
 - [Mise à niveau vers la version 4.3.0](#upgrade-version-4-3)
 - [Mise à niveau vers la version 4.3.1](#upgrade-version-4-3-1)
+- [Mise à niveau vers la version 4.3.1.5](#upgrade-version-4-3-1-5)
 - [Mise à niveau vers la version 4.4.0](#upgrade-version-4-4-0)
 
 
@@ -53,7 +54,9 @@ Avant d’exécuter le processus, vous devez effectuer certaines tâches. Les so
 
 >[!NOTE]
 >
-> Ce processus de mise à niveau s’applique uniquement de la version 3.8.5 à la version 4.0. Pour le processus de mise à niveau de la version 3.4 ou ultérieure vers la version 3.8.5, reportez-vous à la section *Guides du Experience Manager de mise à niveau* dans le guide d’installation spécifique au produit disponible dans la section [Page d’aide archivée](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+> Ce processus de mise à niveau s’applique uniquement de la version 3.8.5 à la version 4.0. Pour le processus de mise à niveau de la version 3.4 ou ultérieure vers la version 3.8.5, reportez-vous à la section *Guides du Experience Manager de mise à niveau* dans le guide d’installation spécifique au produit, disponible sur [Archive du PDF d’aide de Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+
+
 
 ****Conditions préalables****
 
@@ -726,6 +729,48 @@ Effectuez les étapes suivantes pour le post-traitement du contenu existant et l
 
 
 1. Revenir à la valeur par défaut ou à la valeur existante précédente de `queryLimitReads` si vous l’avez modifié à l’étape 1.
+
+
+
+## Mise à niveau vers la version 4.3.1.5 {#upgrade-version-4-3-1-5}
+
+La mise à niveau vers la version 4.3.1.5 dépend de la version actuelle des Guides du Experience Manager. Si vous utilisez la version 4.3.1, vous pouvez directement effectuer la mise à niveau vers la version 4.3.1.5.
+
+
+
+## Installation de la version 4.3.1.5
+
+1. Téléchargez le package de version 4.3.1.5 depuis [Portail de distribution de logiciels Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Installez le package version 4.3.1.5.
+
+1. Attendez que le processus d’installation soit terminé.
+1. Poursuivez la mise à niveau des personnalisations, comme décrit dans la section suivante.
+
+
+## Après avoir installé la version 4.3.1.5
+
+
+>[!NOTE]
+>
+>Si vous souhaitez utiliser le lot org.apache.velocity, effectuez les étapes suivantes avant de télécharger le lot :
+> 1. Accédez à `<server>:<port>/system/console/bundles`.
+> 1. Recherchez org.apache.velocity.
+> 1. Désinstallez le lot recherché.
+> 1. Installez le lot de vitesse requis.
+
+
+1. Une fois la mise à niveau terminée, vérifiez que toutes les personnalisations/superpositions sont validées et mises à jour pour correspondre au nouveau code de l’application. Voici quelques exemples :
+   - Tout composant recouvert à partir de `/libs/fmdita` ou` /libs` doit être comparé au nouveau code de produit et les mises à jour doivent être effectuées dans des fichiers superposés sous `/apps` .
+   - Toutes les catégories clientlib utilisées à partir du produit doivent être examinées pour les modifications. Toutes les configurations remplacées \(exemples ci-dessous\) doivent être comparées aux configurations les plus récentes afin d’obtenir les dernières fonctionnalités :
+   - `elementmapping.xml`
+   - `ui\_config.json\` (peut avoir été défini dans les profils de dossier\)
+   - modified `com.adobe.fmdita.config.ConfigManager`
+
+
+
+
+
+
 
 ## Mise à niveau vers la version 4.4.0 {#upgrade-version-4-4-0}
 
