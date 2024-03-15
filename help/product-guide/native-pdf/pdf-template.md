@@ -5,9 +5,9 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: e3fcfeb94c77ee9e499425608048fc882eaa293b
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
@@ -27,16 +27,19 @@ Il existe des exemples de modèles d’usine prêts à l’emploi que les dével
 Vous pouvez créer des modèles de PDF personnalisés avec des mises en page spécifiques et définir la mise en forme des composants de mise en page (comme la table des matières, l’index, le glossaire) ou des composants DITA (comme l’en-tête, le paragraphe, la liste) à l’aide de feuilles de style.
 
 Pour créer un modèle de PDF, procédez comme suit :
+
 1. Dans l’éditeur Web, accédez à la **Sortie** .
 1. Sélectionner **Modèles** <img src="./assets/template.svg" alt= "icône de modèles" width="25"> dans le panneau de gauche.
-<img src="assets/create-pdf-template.png" alt="Créer un modèle de PDF" width="400">
-1. Dans la fenêtre **Modèles**, sélectionnez l’icône **+** en regard de **Modèles** et choisissez **Modèle PDF**.
-1. Dans la boîte de dialogue **Nouveau modèle de PDF**, sélectionnez un modèle de fabrique que vous souhaitez utiliser comme base pour créer le modèle personnalisé. Vous pouvez également utiliser la zone de recherche pour rechercher un modèle.
+
+   <img src="assets/create-pdf-template.png" alt="Créer un modèle de PDF" width="400">
+
+1. Dans le **Modèles** , sélectionnez l’option **+** en regard de **Modèles** et choisissez **Modèle de PDF**.
+1. Dans le **Nouveau modèle de PDF** , sélectionnez un modèle d’usine que vous souhaitez utiliser comme base pour créer le modèle personnalisé. Vous pouvez également utiliser la zone de recherche pour rechercher un modèle.
 1. Indiquez un titre pour le modèle.
 
->[!NOTE]
->
->  Vous pouvez également prévisualiser une miniature du modèle lors de la création et de la duplication d’un modèle. Modifiez ou supprimez la miniature à l’aide de [**Propriétés**](#properties-option) dans le **Options** après la création du modèle.
+   >[!NOTE]
+   >
+   >  Vous pouvez également prévisualiser une miniature du modèle lors de la création et de la duplication d’un modèle. Modifiez ou supprimez la miniature à l’aide de [**Propriétés**](#properties-option) dans le **Options** après la création du modèle.
 
 1. Cliquez sur **Créer**.
 
@@ -47,6 +50,7 @@ Pour créer un modèle de PDF, procédez comme suit :
 Si vous souhaitez créer un modèle avec les mêmes mises en page et mises en forme que le modèle existant, vous pouvez en créer une copie. Une fois qu’un modèle a été dupliqué, vous pouvez personnaliser davantage ses composants, si nécessaire.
 
 Pour dupliquer un modèle de PDF existant, procédez comme suit :
+
 1. Dans l’éditeur Web, accédez à la **Sortie** .
 1. Sélectionner **Modèles** <img src="./assets/template.svg" alt= "icône de modèles" width="25"> dans le panneau de gauche. Cela ouvre la fenêtre **Modèles** fenêtre.
 1. Pointez sur le modèle à dupliquer, puis sélectionnez **..** *Options* et choisissez **Dupliquer** dans le menu contextuel.
@@ -88,6 +92,7 @@ Sélectionnez cette option pour afficher et modifier les propriétés du modèle
 Sélectionnez cette option pour afficher le modèle dans l’interface utilisateur d’Assets. Comme il ouvre l’emplacement racine du modèle, vous pouvez afficher toutes les ressources du modèle.
 
 Une fois que vous avez créé le modèle personnalisé, vous pouvez le choisir parmi les dispositions de page dans le paramètre prédéfini de sortie du PDF.
+
 Découvrez comment [publication d’une sortie PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
@@ -96,35 +101,36 @@ Découvrez comment [publication d’une sortie PDF](https://experienceleague.ado
 
 Selon votre configuration, votre administrateur peut configurer les modèles :
 
-<details>
-<summary> Services cloud </summary>
++++ Services cloud
 
 Pour plus d’informations sur la configuration des profils globaux et au niveau du dossier, voir [Configurer des modèles](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) dans le guide d&#39;installation et de configuration pour les Cloud Service.
 
-</details>
++++
 
-<details>    
-<summary>  Logiciel On-Premise </summary>
++++ Logiciel On-Premise
 
 Pour plus d’informations sur la configuration des profils globaux et au niveau du dossier, voir [Configuration de modèles de création](../install-guide/conf-folder-level.md#create-custom-authoring-template-id1917d0eg0hj) dans le guide Installation et configuration On-premise .
 
-</details>
++++
 
 ## Personnalisation d’un modèle de PDF {#customize-pdf-template}
 
 Vous pouvez personnaliser des modèles en ajustant les composants de modèle et en appliquant des formats de style à l’aide de feuilles de style.
 
 Pour personnaliser un modèle de PDF, procédez comme suit :
+
 1. Dans l’éditeur Web, accédez à la **Sortie** .
 1. Développez la barre latérale gauche et sélectionnez **Modèles**.
 
    Cela ouvre la fenêtre **Modèles** du panneau.
+
 1. Pour afficher les composants d’un modèle, effectuez l’une des opérations suivantes :
 
    * Sélectionnez l’icône > en regard d’un modèle ou double-cliquez sur le nom du modèle.
    * Passez la souris sur un modèle et sélectionnez le... (**Options** et choisissez **Modifier** dans le menu contextuel.
 
-     Par défaut, la fonction **Paramètres** dans l’éditeur de modèles.
+   Par défaut, la fonction **Paramètres** dans l’éditeur de modèles.
+
    <img src="assets/customize-pdf-template.png" alt="Personnalisation du modèle de PDF" width="350">
 
    >[!NOTE]
@@ -134,17 +140,20 @@ Pour personnaliser un modèle de PDF, procédez comme suit :
    > `/libs/fmdita/pdf`
 
    Les différents composants de modèle que vous pouvez personnaliser sont classés dans les sections suivantes :
+
    * Mise en page : un PDF type contient différentes pages, telles qu’une page de couverture ou de titre, la table des matières, le chapitre, l’index, les citations, etc. La section Mise en page vous permet de concevoir l’aspect des différentes pages qui constitueraient votre PDF. Pour plus d’informations, voir [Disposition de page](../native-pdf/components-pdf-template.md#page-layouts).
 
      En plus de l’aspect, vous pouvez définir la disposition des éléments de page, tels que l’en-tête, le pied de page et les zones de contenu d’une page. Pour en savoir plus sur la personnalisation de la mise en page d’une page, voir [Création et personnalisation de mises en page](components-pdf-template.md#create-customize-page-layout).
 
    * Feuilles de style : les paramètres de la section Feuilles de style vous permettent de personnaliser l’aspect des composants de mise en page tels que la table des matières, l’index, le glossaire, les citations, etc. En outre, vous pouvez également personnaliser les styles du contenu DITA comme les en-têtes, les paragraphes, les listes, etc. Pour plus d’informations sur l’utilisation des feuilles de style, voir [Utiliser des feuilles de style pour personnaliser PDF](components-pdf-template.md#stylesheet-customization).
    * Ressources : stockez les fichiers de ressources que vous devez personnaliser ou concevoir des modèles de PDF. Les ressources telles que les logos, les polices personnalisées, les images d’arrière-plan, etc., sont stockées dans les ressources.
-Vous pouvez également utiliser les ressources présentes à n’importe quel autre emplacement du référentiel. Vous n’avez pas besoin de créer des ressources en double pour chaque modèle. Vous pouvez les conserver dans un dossier partagé et les utiliser dans tous les modèles de PDF natif.
+Vous pouvez également utiliser les ressources présentes à n’importe quel autre emplacement du référentiel. Vous n’avez pas besoin de créer des ressources en double pour chaque modèle. Vous pouvez également les conserver dans un dossier partagé et les utiliser dans tous les modèles de PDF natif.
 
      Pour en savoir plus sur l’utilisation des ressources, voir [Utilisation des ressources](components-pdf-template.md#work-with-resources).
+
    * Paramètres : configurez les paramètres de sortie pour générer un PDF à l’aide du modèle. Cette section vous permet de définir le mappage des modèles pour différentes pages d’un PDF, d’une page de début de chapitre, de marqueurs d’impression, de citations, etc.
-Vous pouvez également organiser l’ordre dans lequel ils doivent apparaître dans la sortie finale du PDF.
+
+   Vous pouvez également organiser l’ordre dans lequel ils doivent apparaître dans la sortie finale du PDF.
 Pour plus d’informations sur l’application des paramètres, voir [Paramètres du PDF avancé](components-pdf-template.md#advanced-pdf-settings).
 
 
