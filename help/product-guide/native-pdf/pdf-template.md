@@ -5,7 +5,7 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 7790aa9dce9a586b8b422dc6deeecab3d53aca8d
+source-git-commit: a6c87e6f9a68962488e70985a0513dcb05eaa9cd
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Vous pouvez créer des modèles de PDF personnalisés avec des mises en page sp�
 Pour créer un modèle de PDF, procédez comme suit :
 
 1. Dans l’éditeur Web, accédez à la **Sortie** .
-1. Sélectionner **Modèles** ![icône de modèles](./assets/template.svg) dans le panneau de gauche.
+1. Sélectionner **Modèles** <img src="./assets/template.png" alt= "icône de modèles" width="25"> dans le panneau de gauche.
 
    <img src="assets/create-pdf-template.png" alt="Créer un modèle de PDF" width="400">
 
