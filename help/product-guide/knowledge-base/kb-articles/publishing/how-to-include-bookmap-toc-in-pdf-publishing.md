@@ -2,10 +2,12 @@
 title: Publication de la table des matières à l’aide de NativePDF
 description: Publication de la table des matières et d’autres listes d’applet pour votre carte d’utilisateur dita à l’aide de NativePDF
 feature: Native PDF Output
+author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: 6ccaef5d35d492fe8dbe0f8b52af8d11258f3d2a
+exl-id: c551f0a8-f973-4c5a-bd34-f52890a91342
+source-git-commit: 7638f3634ad45bbadda64ec6e3f706cbb65d696c
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -36,6 +38,31 @@ La spécification DITA permet de placer la table des matières et les listes de 
       <indexlist/>
     </booklists>
   </backmatter>
+```
+
+Exemple de structure de bookmap avec table des matières , liste-figure et liste-tableau en préface et liste-index en arrière-plan.
+
+```
+<bookmap>
+  <title>My Bookmap Title </title>
+  <frontmatter>
+    <booklists>
+      <toc/>
+      <figurelist/>
+      <tablelist/>
+    </booklists>
+  </frontmatter>
+
+  <chapter href="chapter1.ditamap">
+  <chapter href="chapter2.ditamap">
+  </chapter>
+
+  <backmatter>
+    <booklists>
+      <indexlist/>
+    </booklists>
+  </backmatter>
+</bookmap>
 ```
 
 La table des matières et les listes de signets sont automatiquement générées en fonction de la structure définie dans votre carte de pages.
@@ -71,6 +98,7 @@ Si vous publiez Ditamap, alors Native PDF offre la fonctionnalité de générati
 <br>
 <br>
 
-Posez vos questions sur la communauté AEM Guides [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) pour toutes les requêtes.
+Publication sur la communauté AEM Guides [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) pour toutes les requêtes.
+
 
 

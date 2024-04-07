@@ -4,7 +4,7 @@ description: Comment créer des clés à utiliser dans le contenu de l’organis
 role: Admin
 exl-id: b8e3a6d2-ea82-4fdb-bd16-3f4b6594af52
 feature: Use Keys in AEM Guides
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: 47e6c57b8a61f02dc4f03594d91ee842bdccef90
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Ici, vous avez défini deux définitions, comme illustré ci-dessus, qui vous on
   <shortdesc></shortdesc>
   <body>
     <p>This is a sample topic using the keys defined in the global map</p>
-    <p>here i am using the key definition for AEM :<keywordkeyref="AEM"></keyword></p>
+    <p>here i am using the key definition for AEM :<keyword keyref="AEM"></keyword></p>
   </body>
 </topic>
 ```
