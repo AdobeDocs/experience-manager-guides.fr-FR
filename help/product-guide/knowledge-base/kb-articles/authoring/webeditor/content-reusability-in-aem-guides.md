@@ -2,9 +2,9 @@
 title: Réutilisation du contenu DITA dans AEM Guides
 description: Ce bref article explique comment AEM Guides et DITA vous permettent de gagner du temps et des efforts lors de l’utilisation de la réutilisation du contenu.
 role: User, Admin
-source-git-commit: 6ff99d32dd7a30c1104a79da4f223defe109f190
+source-git-commit: 8fceb5e76dcc946efc118b217e93088619c5c5c6
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,12 @@ ht-degree: 0%
 # Réutilisation du contenu dans AEM Guides
 
 Les guides Adobe AEM exploitent les avantages de DITA pour offrir une interface conviviale pour la réutilisation du contenu.
+
+Dans cet article, nous parlerons de :
+
+1. Réutilisation à l’aide de la référence de rubrique (`topicrefs`)
+2. Réutilisation à l’aide de la référence de contenu (`conref` et `conkeyref`)
+3. Conseil pour réutiliser le contenu par glisser-déposer dans AEM Guides
 
 ## Réutilisation à l’aide des références de rubrique (topicref)
 
@@ -129,7 +135,7 @@ Etape 1 : cliquez sur Insérer du contenu réutilisable
 Ici, la carte racine a été automatiquement sélectionnée, car elle était déjà ouverte dans la vue map.
 
 
-### Réutilisation de contenu en un seul clic dans AEM Guides
+## Réutilisation de contenu en un seul clic dans AEM Guides
 
 AEM Guides offre une fonctionnalité &quot;Contenu réutilisable&quot; pour ajouter des références de contenu en un seul clic.
 
