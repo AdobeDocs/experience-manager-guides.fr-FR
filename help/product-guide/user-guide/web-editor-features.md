@@ -4,7 +4,7 @@ description: Découvrez les fonctionnalités de l’éditeur web dans AEM Guides
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 43bdcba4642c9d75585bc571acf0cb0da22a5f4c
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '18678'
 ht-degree: 0%
@@ -2014,3 +2014,4 @@ Pour plus d’informations, voir [Commentaires sur la révision des adresses](re
 > La fonction Modifications suivies affiche toutes les mises à jour qui ont été suivies à l’aide de la fonction Activer/Désactiver le suivi des modifications de la barre d’outils principale. Pour plus d’informations, voir [Activer/Désactiver le suivi des modifications](#id205DF0203Y4).
 
 **Rubrique parente :**[ Utilisation de l’éditeur web](web-editor.md)
+

@@ -5,7 +5,7 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 15%
@@ -85,3 +85,4 @@ Suivez les instructions de la section [Remplacements de configuration](download-
 | PID | Clé de propriété | Valeur de la propriété |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Booléen : <br> - Si vous ne souhaitez pas exécuter l’opération de post-traitement sur les fichiers temporaires, *Désactiver* \( false\) la variable **Copies de langue de post-traitement** .<br> - Si vous souhaitez exécuter l’opération de post-traitement sur les fichiers temporaires, *Activer* \( true\) la variable **Copies de langue de post-traitement** .<br> **Valeur par défaut**: false |
+
