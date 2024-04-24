@@ -4,9 +4,9 @@ description: Utilisez les données de votre source de données dans AEM Guides. 
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 2e5bf87b65cca6b522fcb97db1f40f98f020927a
 workflow-type: tm+mt
-source-wordcount: '2066'
+source-wordcount: '2389'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,11 @@ ht-degree: 0%
 
 A **source de données** est un système dans lequel vous stockez et gérez les données de votre entreprise. Il s’agit de vos systèmes d’enregistrement tels que JIRA, SQL Datases, PIM ou PLM. AEM Guides fournit la fonctionnalité permettant de se connecter à votre source de données et d’utiliser les données qu’ils contiennent.
 
+Vous pouvez également vous connecter aux fichiers de données JSON à l’aide d’un connecteur de fichier. Téléchargez le fichier JSON sur votre ordinateur ou parcourez-le à partir des ressources Adobe Experience Manager. Créez ensuite des fragments de contenu ou des rubriques à l’aide des générateurs.
+
 ## Panneau Sources de données
 
-Sélectionner **Sources de données** ![](images/data-source-icon.svg) dans le panneau de gauche pour afficher les sources de données connectées. Le panneau Sources de données s’ouvre et affiche toutes les sources de données connectées.
+Sélectionner **Sources de données** ![source de données](images/data-source-icon.svg) dans le panneau de gauche pour afficher les sources de données connectées. Le panneau Sources de données s’ouvre et affiche toutes les sources de données connectées.
 
 Selon votre configuration, votre administrateur peut configurer un connecteur de source de données :
 
@@ -80,11 +82,23 @@ Effectuez les étapes suivantes pour créer un fragment de contenu à l’aide d
 1. Sélectionnez une source de données pour afficher les générateurs de fragments de contenu disponibles pour la source de données sélectionnée.
 
    ![](images/code-snippet-generator.png){width="300" align="left"}
+
    *Le panneau Sources de données répertorie les générateurs de fragments de contenu disponibles.*
 
 1. Sélectionner **Ajouter** pour ajouter un nouveau générateur de fragments de contenu. La variable **Ajout d’un générateur de fragments de contenu** s’ouvre.
 
-1. Saisissez la requête dans la zone de texte Requête de données .
+1. Saisissez la requête dans le champ **Requête de données** zone de texte.  Sélectionner **Copie d’un exemple de requête** pour copier rapidement une requête de données. Au lieu de créer manuellement la requête, vous pouvez copier et coller l’exemple de requête dans le **Requête de données** zone de texte. Ensuite, modifiez simplement la requête en fonction de vos besoins de données.
+
+   >[!NOTE]
+   >
+   >Experience Manager fournit différents exemples de requêtes pour toutes les ressources des différentes sources de données. Ils correspondent à la source de données à partir de laquelle vous récupérez les données.
+
+1. Si vous utilisez un connecteur de fichier, vous pouvez charger le fichier JSON à partir de votre ordinateur ou parcourir un fichier JSON à partir de ressources Adobe Experience Manager.
+
+   >[!NOTE]
+   >
+   > Si vous utilisez un connecteur de fichier, vous verrez les options permettant de charger ou de parcourir des fichiers au lieu d’une requête de données.
+
 1. Sélectionnez le modèle qui mappe avec votre source de données dans la **Modèle de mappage de données** menu déroulant.
 Les modèles d’usine de la source de données sélectionnée s’affichent dans la liste déroulante. Par exemple, vous pouvez afficher le modèle &quot;sql-table&quot; pour la source de données nommée &quot;PostgreSQL&quot;.
 
@@ -93,6 +107,12 @@ Les modèles d’usine de la source de données sélectionnée s’affichent dan
    > Si votre administrateur a configuré des modèles personnalisés, ces modèles s’affichent également dans la liste déroulante (en fonction des configurations de chemin d’accès au modèle effectuées par votre administrateur).
    >   
    >Vous pouvez également utiliser les outils Velocity dans les modèles. En savoir plus sur la manière de procéder [utilisation des outils Velocity](#use-velocity-tools).
+
+1. La variable **Ressource** s’affiche pour certains connecteurs tels que le client REST, Salsify, Akeneo et Microsoft ADO.  Sélectionnez une ressource dans la liste déroulante et connectez-vous à elle pour créer un fragment de contenu ou une rubrique à l’aide du générateur correspondant.
+
+   >[!NOTE]
+   >
+   > Votre administrateur peut configurer les ressources par défaut ou ajouter des ressources pour plusieurs URL lors de la configuration des connecteurs de source de données.
 
 1. Cliquez sur **Récupérer** pour récupérer les données de la source de données et appliquer le modèle aux données qui résultent de la requête SQL.
 
@@ -144,6 +164,8 @@ Le générateur de rubriques peut créer les rubriques contenant les données et
 
 
 
+
+
 ### Création d’une rubrique
 
 Effectuez les étapes suivantes pour créer une rubrique à l’aide du générateur de rubriques :
@@ -166,7 +188,18 @@ Effectuez les étapes suivantes pour créer une rubrique à l’aide du généra
 
    *Ajoutez les détails de la requête de données, du modèle de mappage de données et du noeud racine pour le générateur de rubriques et attribuez-lui un nom unique dans le panneau Configuration de la récupération .*
 
-   1. Saisissez la requête dans le champ **Requête de données** zone de texte.
+   1. Saisissez la requête dans le champ **Requête de données** zone de texte. Sélectionner **Copie d’un exemple de requête** pour copier rapidement une requête de données. Au lieu de créer manuellement la requête, vous pouvez copier et coller l’exemple de requête dans le **Requête de données** zone de texte. Ensuite, modifiez simplement la requête en fonction de vos besoins de données.
+
+      >[!NOTE]
+      >
+      >Experience Manager fournit différents exemples de requêtes pour toutes les ressources des différentes sources de données. Ils correspondent à la source de données à partir de laquelle vous récupérez les données.
+
+   1. Si vous utilisez un connecteur de fichier, vous pouvez charger le fichier JSON à partir de votre ordinateur ou parcourir un fichier JSON à partir de ressources Adobe Experience Manager.
+
+      >[!NOTE]
+      >
+      > Si vous utilisez un connecteur de fichier, vous verrez les options permettant de charger ou de parcourir des fichiers au lieu d’une requête de données.
+
    1. Sélectionnez le modèle qui mappe avec votre source de données dans la **Modèle de mappage de données** menu déroulant.
 
       >[!NOTE]

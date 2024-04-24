@@ -4,9 +4,9 @@ description: Découvrez les fonctionnalités de l’éditeur web dans AEM Guides
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: 43bdcba4642c9d75585bc571acf0cb0da22a5f4c
 workflow-type: tm+mt
-source-wordcount: '17861'
+source-wordcount: '18678'
 ht-degree: 0%
 
 ---
@@ -222,11 +222,33 @@ Cela empêche les utilisateurs d’enregistrer un fichier qui rompt une règle d
 
   ![](images/editor-settings-display-attributes.png){width="550" align="left"}
 
-- **Traduction**: cet onglet contient l’option permettant de propager les libellés source à la version cible.
+- **Traduction**: cet onglet contient les options permettant de créer des groupes de langues, de propager les libellés sources à la version cible et de nettoyer le projet de traduction.
+  ![](images/editor-setting-translation.png){width="550" align="left"}
+
+   - **Groupes de langues**: en tant qu’administrateur, vous pouvez créer un groupe de langues et les utiliser comme un ensemble pour traduire le contenu.\
+     Pour créer un groupe de langues, procédez comme suit :
+      1. Sélectionnez Ajouter . ![icône ajouter](images/Add_icon.svg) Icône
+      1. Saisissez le nom du groupe de langues. Chaque langue doit avoir un nom unique. Vous pouvez afficher une erreur si le champ nom est vide ou si le nom n’est pas unique.
+      1. Sélectionnez les langues dans la liste déroulante. Vous pouvez sélectionner plusieurs langues.
+
+     Saisissez les premiers caractères de la langue ou le code de langue pour filtrer les langues de votre choix. Par exemple, saisissez &quot;en&quot; pour filtrer toutes les langues qui contiennent &quot;en&quot; au début de leur nom ou code.
+      1. Sélectionner **Terminé** pour ajouter les langues sélectionnées au groupe. Les langues s’affichent. Lorsque vous ajoutez trois langues ou plus, **Afficher plus** s’affiche. Vous pouvez sélectionner **Afficher plus** pour afficher toutes les langues présentes dans le groupe.
+         >[!TIP]
+         >
+         > Basculer **Afficher plus** to **Afficher moins** et n’affichent que quelques langues.
+
+      1. Passez la souris sur les langues d’un groupe pour les modifier. ![icône de modification](images/edit_pencil_icon.svg) ou supprimer ![delete](images/Delete_icon.svg) les groupes de langues.
+      1. Enregistrez le **Paramètres de l’éditeur**.
+
+         >[!NOTE]
+         >
+         >En tant qu’utilisateur, vous pouvez afficher les groupes de langues configurés pour votre profil de dossier.
 
    - **Propager les libellés de version source à la version cible**: sélectionnez cette option pour transmettre le libellé de la version du fichier source au fichier traduit. Par défaut, cette option est désactivée.
+   - **Nettoyage du projet de traduction une fois terminé**: sélectionnez cette option pour configurer les projets de traduction à désactiver ou à supprimer automatiquement après la traduction. Par défaut, **Aucun** est sélectionné, le projet existe donc après traduction.
 
-  ![](images/editor-setting-translation.png){width="550" align="left"}
+     Vous pouvez désactiver les projets de traduction si vous souhaitez les utiliser ultérieurement. La suppression d’un projet supprime définitivement tous les fichiers et dossiers présents dans le projet.
+
 
 - **Métadonnées**: vous pouvez contrôler les métadonnées de version de la rubrique et leurs valeurs à afficher dans la variable **Historique des versions** de la boîte de dialogue  Dans le chemin d’accès aux métadonnées, spécifiez l’emplacement des noeuds à partir desquels vous souhaitez sélectionner les métadonnées. Vous pouvez également définir un nom personnalisé pour les métadonnées en tant que libellé. Les propriétés par défaut sont Titre, État du document et Balises.
 
@@ -250,36 +272,48 @@ Les libellés de métadonnées apparaissent dans la même séquence dans la vari
 
 
 
-**Préférences utilisateur** - ![](images/user_preference_editor_icon.svg)
+**Préférences utilisateur** - ![icône préférences utilisateur](images/user_preference_editor_icon.svg)
 
 Les préférences utilisateur sont disponibles pour tous les auteurs. À l’aide des préférences, un auteur peut configurer les paramètres suivants :
 
-![](images/user_preference_editor.PNG){width="550" align="left"}
 
-- **Utilisation du thème du périphérique**: cochez cette case pour permettre à AEM Guides de basculer automatiquement entre les thèmes clairs et sombres en fonction du thème de votre appareil.
 
-- **Afficher les fichiers par**: sélectionnez la manière par défaut d’afficher les fichiers dans l’éditeur web. Vous pouvez afficher la liste des fichiers selon les titres ou les noms des fichiers à partir des différents panneaux du **Auteur** vue.
-  >[!NOTE]
-  >
-  > Par défaut, les fichiers sont affichés par titre dans l’éditeur web.
+- **Général**: l’onglet Général vous permet de configurer les paramètres suivants :
 
-- **Thème**: choisissez les thèmes Clair, Lumineux, Foncé ou Plus sombre pour l’éditeur. Dans le cas d’un thème plus clair, les barres d’outils et les panneaux utilisent un arrière-plan de couleur grise plus clair. Dans le cas du thème Lumière, les barres d’outils et les panneaux utilisent l’arrière-plan en gris clair. Dans le cas du thème le plus sombre, les barres d’outils et les panneaux utilisent un arrière-plan de couleur noire plus foncé. En cas de thème sombre, les barres d’outils et les panneaux utilisent l’arrière-plan en couleur noire. Dans tous les thèmes, la zone d’édition du contenu s’affiche en arrière-plan de couleur blanche.
+  ![Onglet Général des préférences utilisateur](images/user_preference_editor.PNG){width="550" align="left"}
 
-- **Profils de dossier**: le profil de dossier contrôle différentes configurations liées aux attributs conditionnels, aux modèles de création, aux paramètres prédéfinis de sortie et aux configurations de l’éditeur web. Le profil global s’affiche par défaut. En outre, si votre administrateur a configuré les profils de dossiers dans le système, ces derniers sont également affichés dans la liste Profils de dossiers .
+   - **Profils de dossier**: le profil de dossier contrôle différentes configurations liées aux attributs conditionnels, aux modèles de création, aux paramètres prédéfinis de sortie et aux configurations de l’éditeur web. Le profil global s’affiche par défaut. En outre, si votre administrateur a configuré les profils de dossiers dans le système, ces derniers sont également affichés dans la liste Profils de dossiers .
 
-  Les configurations de l’éditeur web qu’un administrateur peut définir dans le profil de dossier incluent : la personnalisation de l’interface utilisateur, notamment les icônes de la barre d’outils, la mise en page de l’éditeur web, les fragments de code et la carte racine. Pour plus d’informations, voir *Configuration de profils globaux ou au niveau du dossier* dans l’as a Cloud Service Installer et configurer les guides Adobe Experience Manager .
+     Les configurations de l’éditeur web qu’un administrateur peut définir dans le profil de dossier incluent : la personnalisation de l’interface utilisateur, notamment les icônes de la barre d’outils, la mise en page de l’éditeur web, les fragments de code et la carte racine. Pour plus d’informations, voir *Configuration de profils globaux ou au niveau du dossier* dans l’as a Cloud Service Installer et configurer les guides Adobe Experience Manager .
 
-  >[!NOTE]
-  >
-  > Le nom du profil de dossier actif s’affiche sous forme de libellé pour l’icône Préférences utilisateur dans la barre d’outils principale.
+     >[!NOTE]
+     >
+     > Le nom du profil de dossier actif s’affiche sous forme de libellé pour l’icône Préférences utilisateur de la barre d’outils principale.
 
-- **Chemin de base**: par défaut, lorsque vous accédez au référentiel d’AEM à partir de l’éditeur web, les ressources s’affichent à partir de l’emplacement /content/dam. Votre dossier de travail se composerait probablement de quelques dossiers dans le dossier /content/dam/ . Il vous faudrait quelques clics pour atteindre le dossier de travail à chaque fois. Vous pouvez définir le chemin d’accès de base sur votre dossier de travail et la vue Référentiel affiche ensuite le contenu de cet emplacement en amont. Cela réduit le temps d’accès à votre dossier de travail. En outre, lorsque vous insérez un fichier de référence ou multimédia dans votre rubrique, l’emplacement de navigation du fichier commence par le jeu de dossiers dans le chemin d’accès de base.
+   - **Chemin de base**: par défaut, lorsque vous accédez au référentiel d’AEM à partir de l’éditeur web, les ressources s’affichent à partir de l’emplacement /content/dam. Votre dossier de travail se composerait probablement de quelques dossiers dans le dossier /content/dam/ . Il vous faudrait quelques clics pour atteindre le dossier de travail à chaque fois. Vous pouvez définir le chemin d’accès de base sur votre dossier de travail et la vue Référentiel affiche ensuite le contenu de cet emplacement en amont. Cela réduit le temps d’accès à votre dossier de travail. En outre, lorsque vous insérez un fichier de référence ou multimédia dans votre rubrique, l’emplacement de navigation du fichier commence par le jeu de dossiers dans le chemin d’accès de base.
 
-- **Sélectionner la carte racine**: sélectionnez un fichier de mappage DITA pour résoudre les références ou entrées de glossaire clés. La carte racine sélectionnée a la priorité la plus élevée pour résoudre les références clés. Pour plus d’informations, voir [Résoudre les références de clés](map-editor-other-features.md#id176GD01H05Z).
+   - **Sélectionner la carte racine**: sélectionnez un fichier de mappage DITA pour résoudre les références ou entrées de glossaire clés. La carte racine sélectionnée a la priorité la plus élevée pour résoudre les références clés. Pour plus d’informations, voir [Résoudre les références de clés](map-editor-other-features.md#id176GD01H05Z).
 
->[!NOTE]
-> 
-> Si vous ne souhaitez pas utiliser de mappage racine, assurez-vous que la variable **Sélectionner la carte racine** est vide.
+     >[!NOTE]
+     >    
+     > Si vous ne souhaitez pas utiliser de mappage racine, assurez-vous que la variable **Sélectionner la carte racine** est vide.
+
+- **Apparence**: sélectionnez les thèmes de l&#39;application Web Editor et la vue source de la zone d&#39;édition du contenu.
+
+  ![onglet d’aspect des préférences utilisateur](images/user_preference_editor_appearance.png){width="550" align="left"}
+
+   - **Afficher les fichiers par**: sélectionnez la manière par défaut d’afficher les fichiers dans l’éditeur web. Vous pouvez afficher la liste des fichiers selon les titres ou les noms des fichiers à partir des différents panneaux du **Auteur** vue.
+     >[!NOTE]
+     >
+     > Par défaut, les fichiers sont affichés par titre dans l’éditeur web.
+
+   - **Thème d’application**: vous pouvez choisir parmi les **Lumière** ou **Sombre** thèmes de l’application. Dans le cas de la fonction **Lumière** , les barres d’outils et les panneaux utilisent un arrière-plan de couleur gris clair. Dans le cas de la fonction **Sombre** , les barres d’outils et les panneaux utilisent un arrière-plan en couleur noire. Sélectionner **Utilisation du thème du périphérique** pour permettre à Experience Manager Guides de sélectionner les thèmes clairs et sombres en fonction du thème de votre appareil.  Dans tous les thèmes, la zone d’édition du contenu s’affiche en arrière-plan de couleur blanche dans la zone **Auteur** vue.
+
+   - **Thème Vue source**: - Vous pouvez choisir parmi les **Lumière** ou **Sombre** thèmes de la zone d&#39;édition du contenu en mode source. Dans le cas de la fonction **Lumière** , la zone d’édition du contenu utilise un arrière-plan de couleur gris clair pour la vue source lorsque, dans le cas de **Sombre** thème, il utilise un arrière-plan en couleur noire. Sélectionner **Utilisation du thème du périphérique** pour permettre à Experience Manager Guides de sélectionner les thèmes clairs et sombres en fonction du thème de votre appareil.
+
+   - **Toujours localiser les fichiers dans le référentiel**: sélectionnez cette option pour afficher l’emplacement d’un fichier dans le référentiel lors de son édition dans l’éditeur web.
+
+   - **Afficher l’indicateur d’espace insécable en mode création**: sélectionnez cette option pour afficher un indicateur pour les espaces insécables lors de leur édition dans l’éditeur web. Elle est activée par défaut.
 
 **Modes d’auteur, de source et d’aperçu**
 
@@ -291,7 +325,19 @@ La barre d’outils secondaire s’affiche lorsque vous ouvrez une rubrique en v
 
 **Insérer un élément** - ![](images/Add_icon.svg)
 
-Insère un élément valide à l’emplacement valide actuel ou à l’emplacement valide suivant. Vous pouvez également utiliser le raccourci clavier ***Alt***+***Entrée*** pour ouvrir la fenêtre contextuelle Insérer un élément . Par exemple, vous modifiez un paragraphe, puis dans la variable **Insérer un élément** s’affiche alors une liste d’éléments pouvant être insérés dans le paragraphe. Sélectionnez l’élément à insérer. Vous pouvez utiliser le clavier pour faire défiler la liste d’éléments et appuyer sur ***Entrée*** pour insérer l’élément requis. Vous pouvez également saisir un caractère ou une chaîne dans la zone de recherche et rechercher les éléments qui commencent par celui-ci.
+Insère un élément valide à l’emplacement valide actuel ou à l’emplacement valide suivant. Vous pouvez également utiliser le raccourci clavier ***Alt***+***Entrée*** pour ouvrir la fenêtre contextuelle Insérer un élément . Par exemple, vous modifiez un paragraphe, puis dans la variable **Insérer un élément** s’affiche alors une liste d’éléments pouvant être insérés dans le paragraphe. Sélectionnez l’élément à insérer. Vous pouvez utiliser le clavier pour faire défiler la liste d’éléments et appuyer sur ***Entrée*** pour insérer l’élément requis.
+
+Vous pouvez afficher deux types d’éléments valides :
+
+- **Éléments valides à l’emplacement actuel**: la liste affiche les éléments que vous pouvez insérer à l’emplacement actuel du curseur.
+
+- **Éléments valides en dehors de l’emplacement actuel**: la liste affiche les éléments que vous pouvez insérer après l’un des parents pour l’élément actif dans la hiérarchie des éléments.
+
+
+
+Par exemple, si vous vous trouvez dans la `<b>` élément, vous pouvez insérer des éléments comme `<u>`, `<xref>`, `<i>` à l’emplacement actuel. En revanche, vous pouvez insérer des éléments comme `<table>` et `<topic>` à l’extérieur de l’emplacement actuel.
+
+Vous pouvez également saisir un caractère ou une chaîne dans la zone de recherche et rechercher les éléments qui commencent par celui-ci.
 
 
 ![élément insert](images/insert-element.png){width="300" align="left"}
@@ -618,7 +664,7 @@ Pour fusionner les modifications dans une rubrique, procédez comme suit :
 
 1. Ouvrez une rubrique dans l’éditeur web.
 
-1. Cliquez sur **Fusion**.
+1. Cliquez sur **Fusionner**.
 
    La boîte de dialogue Fusionner s’affiche.
 
@@ -647,7 +693,7 @@ Pour fusionner les modifications dans un fichier map, procédez comme suit :
 
 1. Ouvrez une carte dans l’éditeur web.
 
-1. Cliquez sur **Fusion**.
+1. Cliquez sur **Fusionner**.
 
    La boîte de dialogue Fusionner s’affiche.
 
@@ -863,22 +909,70 @@ Sélectionnez une carte et appuyez sur Entrée ou double-cliquez pour l’ouvrir
 
 **Recherche de filtre**
 
-L’éditeur web fournit des filtres améliorés pour la recherche de texte. Cliquez sur Filtrer la recherche \(![](images/filter-search-icon.svg)\)pour ouvrir le panneau des filtres. Vous pouvez rechercher un texte dans les fichiers présents sur le chemin d’accès sélectionné du référentiel AEM. Par exemple, &quot;usage général&quot; est recherché dans la capture d’écran ci-dessous.
+L’éditeur web fournit des filtres améliorés pour la recherche de texte. Vous pouvez rechercher et filtrer du texte dans les fichiers présents sur le chemin d’accès sélectionné du référentiel Adobe Experience Manager. Il effectue des recherches dans le titre, le nom de fichier et le contenu des fichiers.
 
-![](images/repository-filter-search.png){width="400" align="left"}
 
-Vous disposez également des options suivantes pour filtrer les fichiers et pour affiner votre recherche dans le référentiel AEM :
+![fichiers de recherche dans la vue du référentiel](images/repository-filter-search.png){width="300" align="left"}
 
-- **Fichiers DITA**: vous pouvez rechercher toutes les **Rubriques DITA** et **Mappages DITA** présente sur le chemin sélectionné.
-- **Fichiers non DITA**: vous pouvez rechercher des **Fichiers d’image**, **Multimédia**, et **Documents** dans le chemin sélectionné.
-- **Éléments DITA**: vous pouvez également rechercher des valeurs spécifiques dans les attributs des éléments DITA spécifiés.
-- **Extraits par**: vous pouvez rechercher les fichiers extraits par l’utilisateur spécifié.
-- **Dernière modification**: vous pouvez rechercher les fichiers qui ont été modifiés pour la dernière fois après une date sélectionnée, mais avant une date sélectionnée. Vous pouvez également rechercher les fichiers qui ont été modifiés pour la dernière fois au cours des deux dernières heures, de la semaine dernière, du mois dernier ou de l’année dernière.
+*Appliquer des filtres pour rechercher les fichiers contenant le texte`general purpose.`*
+
+Sélectionnez la variable **Recherche de filtre** \(![Icône Filtre de recherche](images/filter-search-icon.svg)\) pour ouvrir la fenêtre contextuelle Filtrer par .
+
+>[!NOTE]
+>
+> Lorsque vous recherchez du texte ou filtrez des fichiers, un point bleu s’affiche sur la page **Recherche de filtre**  \(![Icône Filtre de recherche](images/filter-search-icon.svg)\) pour indiquer que nous sommes dans le panneau de recherche et que certains filtres ont été appliqués.
+
+
+Vous disposez des options suivantes pour filtrer les fichiers et affiner votre recherche dans le référentiel Adobe Experience Manager :
+
+- **Fichiers DITA**: vous pouvez rechercher toutes les **Rubriques DITA** et **Mappages DITA** présente sur le chemin sélectionné. Ils sont sélectionnés par défaut.
+- **Fichiers non DITA**: vous pouvez rechercher des **Fichiers Ditaval**,  **Fichiers d’image**, **Multimédia**, **Documents**, et **Json** dans le chemin sélectionné.
+
+![filtre de recherche rapide ](images/repository-filter-search-quick.png) {width="300" align="left"}
+
+*Utilisez les filtres rapides pour rechercher des fichiers DITA et non DITA.*
+
+**Filtrage avancé**
+
+Sélectionnez la variable **Filtrage avancé** ![icône de filtre avancé](images/advanced-filter-gear-icon.svg)pour afficher la variable **Filtre avancé** de la boîte de dialogue
+
+Vous pouvez afficher les options suivantes sous le **Général** et **Avancé** onglets.
+
+![boîte de dialogue de filtre avancé](images/repository-filter-search-advanced.png) {width="800" align="left"}
+
+
+**Général**
+
+- **Les résultats de la recherche seront les suivants :**: recherchez du texte dans les fichiers présents sur le chemin d’accès sélectionné du référentiel Adobe Experience Manager. Le texte est recherché dans le titre, le nom de fichier et le contenu des fichiers.
+
+Elle est synchronisée avec la zone de recherche de la fenêtre du référentiel. Par exemple, si vous saisissez `general purpose` dans la zone de recherche du panneau du référentiel, elle apparaît également dans la variable **Filtre avancé** et inversement.
+
+- **Rechercher dans**: sélectionnez le chemin d’accès dans lequel vous souhaitez rechercher les fichiers présents dans le référentiel Adobe Experience Manager.
+
+- **Extraits par**: vous pouvez rechercher les fichiers que l’utilisateur spécifié extrait.
+- **Dernière modification**: vous pouvez rechercher les fichiers qui ont été modifiés pour la dernière fois après une date sélectionnée, mais avant une date sélectionnée.
+- **Modifié avant**: vous pouvez rechercher les fichiers qui ont été modifiés pour la dernière fois avant une date sélectionnée.
+- **Période**: vous pouvez également rechercher les fichiers qui ont été modifiés pour la dernière fois au cours des deux dernières heures, de la semaine dernière, du mois dernier ou de l’année dernière.
 - **Balises**: vous pouvez rechercher les fichiers auxquels des balises spécifiques sont appliquées. Vous pouvez saisir la balise ou la sélectionner dans la liste déroulante.
 
-**Remarque :** L’administrateur du système peut également configurer les filtres de texte et afficher ou masquer d’autres filtres. Pour plus d’informations, voir *Configuration des filtres de texte* dans la section Installation et configuration de Adobe Experience Manager Guides as a Cloud Service.
+**Avancé**
 
-La liste des fichiers filtrés contenant le texte recherché s’affiche. Par exemple, dans la capture d’écran ci-dessus, les fichiers contenant le texte &quot;usage général&quot; sont répertoriés. Vous pouvez sélectionner plusieurs fichiers de la liste filtrée pour les faire glisser et les déposer dans une carte ouverte pour modification.
+- **Éléments DITA**: vous pouvez également rechercher des valeurs spécifiques dans les attributs des éléments DITA spécifiés.
+   - Sélectionner **Ajouter un élément** ![icône ajouter](images/Add_icon.svg) pour ajouter les éléments, les attributs et les valeurs.
+   - Appliquez les filtres que vous avez sélectionnés.
+
+- Sélectionner **Effacer tout** pour effacer tous les filtres appliqués.
+
+
+- Sélectionnez la variable **Fermer le filtre** ![icône de fermeture](images/close-icon.svg) pour fermer le filtre et revenir à l’arborescence du référentiel.
+  >[!NOTE]
+  >
+  >L’administrateur du système peut également configurer les filtres de texte et afficher ou masquer d’autres filtres. Pour plus d’informations, voir *Configuration des filtres de texte* dans la section Installation et configuration de Adobe Experience Manager Guides as a Cloud Service.
+
+  La liste des fichiers filtrés contenant le texte recherché s’affiche. Par exemple, les fichiers contenant le texte `general purpose` sont répertoriées dans la capture d’écran précédente. Vous pouvez sélectionner plusieurs fichiers de la liste filtrée pour les faire glisser dans une carte ouverte à des fins d’édition.
+
+
+
 
 **Menu Options**
 
@@ -895,7 +989,7 @@ Vous pouvez effectuer les actions suivantes à l’aide du menu Options disponib
 
 
 
-- **Chargement de ressources**: téléchargez un fichier de votre système local vers le dossier sélectionné dans le référentiel AEM. Vous pouvez également faire glisser des fichiers de votre système local vers votre rubrique de travail actuelle. Cela s’avère très utile si vous souhaitez insérer des images de votre système local dans votre rubrique.
+- **Chargement de ressources**: téléchargez un fichier de votre système local vers le dossier sélectionné dans le référentiel Adobe Experience Manager. Vous pouvez également faire glisser des fichiers de votre système local vers votre rubrique de travail actuelle. Cela s’avère très utile si vous souhaitez insérer des images de votre système local dans votre rubrique.
 
   ![](images/upload-assets.png){width="550" align="left"}
 
@@ -928,7 +1022,7 @@ Vous pouvez effectuer les actions suivantes à l’aide du menu Options disponib
 
 Le menu Options propose différentes options selon que vous sélectionnez un fichier multimédia ou un fichier DITA. Voici quelques options courantes disponibles pour les fichiers multimédia et DITA :
 
-- Duplicata
+- Dupliquer
 - Extraction/archivage
 - Prévisualisation
 - Déplacer vers
@@ -1576,7 +1670,7 @@ Par exemple, utilisez l’énumération suivante pour restreindre l’objet `@pl
 </details>
 
 
-**Liste déroulante Attributs**
+**Attributs** menu déroulant
 
 Vous pouvez également modifier la valeur du modèle d’objet à l’aide de la variable **Attributs** de la liste déroulante **Propriétés du contenu** dans le panneau **Auteur** vue.
 ![](images/subject-scheme-attribute-dropdown.png){width="200" align="left"}
@@ -1828,10 +1922,13 @@ Le panneau de droite est un panneau persistant qui contient des informations sur
 
 Le panneau de droite vous donne accès aux fonctionnalités suivantes :
 
-**Propriétés du contenu** -  ![](images/content-properties-icon.svg)
+**Propriétés du contenu** -  ![propriétés de contenu](images/content-properties-icon.svg)
 
-Pour accéder à la fonction Propriétés du contenu , cliquez sur l’icône Propriétés du contenu dans le panneau de droite. Le panneau Propriétés du contenu contient des informations sur le type d’élément actuellement sélectionné dans le document et ses attributs.
-Vous pouvez facilement ajouter, modifier ou supprimer les attributs.
+Vous pouvez accéder au **Propriétés du contenu** en sélectionnant **Propriétés du contenu** dans le panneau de droite. La variable **Propriétés du contenu** contient des informations sur le type d’élément actuellement sélectionné dans le document et ses attributs.
+
+**Type**: vous pouvez afficher et sélectionner les balises de la hiérarchie complète de la balise active dans la liste déroulante.
+
+**Attributs**: la variable **Attributs** Le panneau déroulant est disponible en mode Disposition, Auteur et Source. Vous pouvez facilement ajouter, modifier ou supprimer les attributs.
 
 1. Cliquez sur **+ Ajouter**.
 

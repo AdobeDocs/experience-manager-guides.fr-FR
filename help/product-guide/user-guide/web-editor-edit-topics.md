@@ -4,9 +4,9 @@ description: Découvrez comment modifier des rubriques dans l’éditeur web. D�
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 05848b381999bf00d480b618ccb604c1798cc5dd
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -35,23 +35,34 @@ L’éditeur web s’accompagne d’un éventail de fonctions d’édition qui v
    >
    > Si vous ne souhaitez pas valider de modifications dans AEM référentiel, cliquez sur **Fermer**, puis cliquez sur **Fermer sans enregistrer** dans la boîte de dialogue Modifications non enregistrées .
 
-   **Actualiser le navigateur lors de la modification des fichiers**
+## Actualiser le navigateur lors de la modification des fichiers
+
 Les guides du Experience Manager prennent en charge l’actualisation du navigateur lorsque vous modifiez votre contenu dans l’éditeur web. Cette fonctionnalité vous permet de continuer à modifier le contenu si vous rencontrez une erreur d’application pendant que vous travaillez. Si vous appuyez sur l’actualisation du navigateur alors qu’un ou plusieurs fichiers contenant des modifications non enregistrées sont ouverts pour modification, vous êtes averti que les modifications non enregistrées risquent d’être perdues. Vous avez la possibilité d’annuler l’opération d’actualisation et d’enregistrer vos fichiers pour conserver vos modifications.
 
-   Même lors de l’actualisation du navigateur, les vues des panneaux gauche et droit sont conservées dans l’éditeur web. Experience Manager Guides restaure le dernier état enregistré des fichiers ouverts dans l’éditeur web lorsque vous actualisez le navigateur. Par exemple, les fichiers ouverts dans le panneau Référentiel sont à nouveau ouverts. Le panneau de mappage est conservé avec la carte précédemment ouverte.
+Même lors de l’actualisation du navigateur, les vues des panneaux gauche et droit sont conservées dans l’éditeur web. Experience Manager Guides restaure le dernier état enregistré des fichiers ouverts dans l’éditeur web lorsque vous actualisez le navigateur. Par exemple, les fichiers ouverts dans le panneau Référentiel sont à nouveau ouverts. Le panneau de mappage est conservé avec la carte précédemment ouverte.
 
-   La rubrique active ou le mappage DITA est rouvert dans la zone de modification du contenu.
+La rubrique active ou le mappage DITA est rouvert dans la zone de modification du contenu.
 
-   Le panneau de droite est également rouvert et affiche la même vue qu’avant l’actualisation.
+Le panneau de droite est également rouvert et affiche la même vue qu’avant l’actualisation.
 
-   **Indicateur de copie de travail**
+## Indicateur de copie de travail
+
 AEM Guides fournit l’indicateur de copie de travail qui indique si la \(copie de travail\) actuelle du fichier est synchronisée ou non avec la version enregistrée. Si vous avez apporté des modifications à votre copie actuelle et n’avez pas enregistré votre fichier, une marque \* apparaît avec le titre dans l’onglet Fichier du sujet. Cet indicateur sert de rappel pour enregistrer les modifications et disparaît lorsque vous enregistrez votre fichier.
 
-   ![](images/working-copy-text-update-indicator.png){width="550" align="left"}
+![indicateur de copie de travail](images/working-copy-text-update-indicator.png){width="550" align="left"}
 
-   AEM Guides indique également si la dernière copie enregistrée \(en cours\) du fichier est synchronisée ou non avec la version enregistrée. Si vous constatez des modifications non enregistrées entre la copie de travail et la dernière version enregistrée, un signe \* s’affiche avec les informations de version affichées dans le coin supérieur droit de l’onglet du fichier de la rubrique. Cet indicateur sert de rappel pour enregistrer et créer une version à partir de votre copie \(en cours\) actuelle du fichier.
+AEM Guides indique également si la dernière copie enregistrée \(en cours\) du fichier est synchronisée ou non avec la version enregistrée. Si vous constatez des modifications non enregistrées entre la copie de travail et la dernière version enregistrée, un signe \* s’affiche avec les informations de version affichées dans le coin supérieur droit de l’onglet du fichier de la rubrique. Cet indicateur sert de rappel pour enregistrer et créer une version à partir de votre copie \(en cours\) actuelle du fichier.
 
-   ![](images/version-update-indicator.png){width="550" align="left"}
+![Indicateur de mise à jour de version](images/version-update-indicator.png){width="550" align="left"}
+
+
+
+
+## Recherche d’un fichier ouvert en mode Référentiel
+
+Lorsque vous ouvrez un fichier dans l’éditeur web, Experience Manager Guides vous permet de localiser le fichier en mode Référentiel. Par exemple, il localise la rubrique en cours pendant que vous la modifiez.
+
+Vous pouvez désactiver la fonction pour localiser le fichier avec le **Toujours localiser les fichiers dans le référentiel** de l’option **Apparence** de la **Préférences utilisateur**.
 
 
 **Rubrique parente :**[ Utilisation de l’éditeur web](web-editor.md)

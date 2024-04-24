@@ -4,9 +4,9 @@ description: Activez la sortie des mappages DITA dans AEM Guides. Découvrez com
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 66d22560d40012a7475026ed44cec7bf301c1a97
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '444'
 ht-degree: 2%
 
 ---
@@ -27,14 +27,62 @@ Une fois que vous avez créé une collection de cartes pour l’activation en bl
 
    ![](images/bulk-activation-collection-open.png){width="800" align="left"}
 
-1. \(*Facultatif*\) Appliquez les filtres requis du rail de gauche pour filtrer la carte en fonction de leur \(état\), de leur paramètre prédéfini de sortie ou de leur langue modifiée :
-1. Utilisez l’une des méthodes suivantes :
+1. \(*Facultatif*\) Appliquez les filtres requis du rail de gauche pour filtrer la carte en fonction de leur \(état\), de leur paramètre prédéfini de sortie ou de leur langue modifiée.
 
-   - Pour activer la sortie des mappages sélectionnés, sélectionnez les fichiers de mappage et cliquez sur **Publication rapide**.
-   - Pour activer la sortie de toutes les cartes DITA avec leurs paramètres prédéfinis configurés, cochez la case en regard de l’option Mappage \(colonne\), puis cliquez sur **Publication rapide.**
-     ![](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+   >[!NOTE]
+   >
+   >Générez la sortie pour la carte à l’aide du paramètre prédéfini de sortie avant de l’activer dans la collection de cartes.
 
 
-Une fois que la sortie est activée pour les fichiers de mappage sélectionnés, la colonne Publié est mise à jour avec la date et l’heure actuelles.
+Affichez les différentes manières d’activer votre collection selon votre configuration.
 
-**Rubrique parente :**[ Activation en masse de contenu publié](conf-bulk-activation.md)
+<details>
+<summary> Services cloud </summary>
+
+![collecte-publication en bloc sur le service cloud](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
+
+Vous pouvez activer la sortie sur la page **Aperçu** ou **Publier** instances.
+
+**Aperçu**
+
+* Pour activer la sortie des cartes sélectionnées, sélectionnez la sortie de carte prégénérée et sélectionnez **Publier sur** > **Aperçu**.
+* Pour activer la sortie de toutes les cartes DITA avec leurs paramètres prédéfinis configurés, cochez la case en regard de l’option **Carte** , puis sélectionnez **Publier sur** > **Publier**.
+
+
+**Publication**
+
+* Pour activer la sortie des cartes sélectionnées, sélectionnez la sortie de carte prégénérée et sélectionnez **Publier sur** > **Publier**.
+
+* Pour activer la sortie de toutes les cartes DITA avec leurs paramètres prédéfinis configurés, cochez la case en regard de la carte (colonne), puis sélectionnez **Publier sur** > **Publier**.
+
+
+>[!NOTE]
+> 
+> La case à cocher d’une sortie de carte n’est activée que si vous avez généré la sortie pour une carte.
+
+Un message de réussite s’affiche lorsque la sortie du mappage est mise en file d’attente pour publication.
+
+Une fois que la sortie est activée pour les fichiers de mappage sélectionnés, l’onglet Historique d’audit est mis à jour et la dernière sortie activée s’affiche en haut. La variable **Publié** est mise à jour avec la date et l’heure de publication.
+
+</details>
+
+<details>    
+<summary>  Logiciel On-Premise </summary>
+
+
+Utilisez l’une des méthodes suivantes :
+
+* Pour activer la sortie des cartes sélectionnées, sélectionnez la sortie de carte prégénérée et sélectionnez **Publication rapide**.
+* Pour activer la sortie de toutes les cartes DITA avec leurs paramètres prédéfinis configurés, cochez la case en regard de la carte (colonne), puis sélectionnez **Publication rapide.**
+  ![collection-bloc-publication](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+
+  >[!NOTE]
+  > 
+  >La case à cocher d’une sortie de carte n’est activée que si vous avez généré la sortie pour une carte.
+
+
+Un message de réussite s’affiche lorsque la sortie du mappage est mise en file d’attente pour publication.
+
+Une fois que la sortie est activée pour les fichiers de mappage sélectionnés, l’onglet Historique d’audit est mis à jour et la dernière sortie activée s’affiche en haut. La variable **Publié** est mise à jour avec la date et l’heure de publication.
+
+**Rubrique parente : **[Activation en masse de contenu publié](conf-bulk-activation.md)

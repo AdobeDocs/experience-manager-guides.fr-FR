@@ -4,9 +4,9 @@ description: Traduisez votre contenu dans plusieurs langues à partir de l’éd
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: ce7619538b229625277a552071bed8800e67f677
 workflow-type: tm+mt
-source-wordcount: '1925'
+source-wordcount: '2246'
 ht-degree: 1%
 
 ---
@@ -36,19 +36,37 @@ Avant d’exécuter les étapes de cette procédure, assurez-vous d’avoir cré
 
 ## Créer un projet de traduction
 
-1. Dans le panneau Référentiel, ouvrez le fichier de mappage DITA en mode Carte.
-1. Cliquez sur le bouton **Gérer** . Le panneau Traduction affiche le **Langues disponibles** liste.
-1. Dans la **Langues disponibles** sélectionnez les paramètres régionaux dans lesquels vous souhaitez traduire votre projet. Vous pouvez choisir **Tout sélectionner** pour traduire votre projet dans toutes les langues disponibles.
+1. Dans le **Référentiel** , ouvrez le fichier de mappage DITA en mode Carte.
+1. Cliquez sur le bouton **Gérer** . La variable **Panneau de traduction** affiche les groupes de langues disponibles.
 
-   >[!NOTE]
-   >
-   > La liste contient les dossiers de langue ainsi que leurs codes de langue. Par exemple, Français \(fr\) et Allemand \(de\).
+1. En tant qu’utilisateur, vous pouvez afficher les groupes de langues configurés pour votre profil de dossier. Les groupes linguistiques affichent les dossiers de langue avec leurs codes de langue. Par exemple, le groupe de langues nommé G1 contient des dossiers de langue Italien \(it\), Allemand \(de\), Français \(fr\) et Anglais \(en\).
+
+   ![panneau de traduction](images/translation-languages.png){width="300" align="left"}
+
+   *Sélectionnez les groupes linguistiques ou les langues dans lesquels vous souhaitez traduire vos documents.*
+
 
    >[!IMPORTANT]
    >
-   > La liste affiche uniquement les langues pour lesquelles un dossier de langues est créé parallèlement à la langue source. Un dossier de langue créé à un autre niveau, tel qu’un niveau inférieur du dossier de langue source, n’est pas non plus affiché. Veillez à créer tous vos dossiers de langue cible au même niveau que votre dossier de langue source.
+   > Vous pouvez uniquement sélectionner et traduire dans les langues pour lesquelles vous avez créé le dossier cible parallèlement à la langue source. Un dossier de langue créé à un autre niveau, tel qu’un niveau inférieur du dossier de langue source, n’est pas non plus affiché. Veillez à créer tous vos dossiers de langue cible au même niveau que votre dossier de langue source.
 
-   ![](images/translation-languages.png){width="300" align="left"}
+
+
+1. Vous pouvez sélectionner n’importe quel groupe de langues comme cible pour la traduction. Si vous **Tout sélectionner**, les fichiers sélectionnés sont traduits dans toutes les langues disponibles dans les groupes de langues existants.
+
+   L’option du dossier de langue apparaît grisé et affiche un signe d’avertissement :
+
+   - Si le dossier cible d’une langue est manquant.
+   - Si la langue cible est la même que la source.
+
+
+   >[!NOTE]
+   >
+   > Si vous créez le dossier cible d’une langue après avoir créé le groupe de langues, actualisez le navigateur afin d’activer la langue dans les groupes de langues.
+
+1. Si vous choisissez une langue particulière, elle apparaît comme étant sélectionnée sous tous les groupes de langues que vous avez sélectionnés. Donc, quand vous traduisez dans n&#39;importe quelle langue, elle est traduite en une seule fois pour tous les groupes de langues. Par exemple, si l’allemand est présent dans les groupes de langue G1 et G2, il est sélectionné pour les deux.
+
+1. Dans la **Autres langues**, vous pouvez choisir n’importe quelle langue pour laquelle vous avez créé le dossier cible, mais ne fait partie d’aucun groupe de langues.
 
 1. Vous pouvez également sélectionner l’une des options suivantes pour traduire votre projet :
 
@@ -109,11 +127,11 @@ Avant d’exécuter les étapes de cette procédure, assurez-vous d’avoir cré
 
 ## Ajout de règles de traduction
 
-AEM Guides permet à vos administrateurs de configurer les règles de traduction. Le format SRX (Segmentation Rules eXchange) est une norme permettant d’échanger des règles de segmentation entre différents utilisateurs et différents environnements de traduction. Vous pouvez créer un dossier et y ajouter vos fichiers SRX personnalisés.
+AEM Guides permet à vos administrateurs de configurer les règles de traduction. Le format SRX (Segmentation Rules exchange) est une norme permettant d’échanger des règles de segmentation entre différents utilisateurs et différents environnements de traduction. Vous pouvez créer un dossier et y ajouter vos fichiers SRX personnalisés.
 
 Les fichiers SRX doivent être nommés comme `<language-code>.srx`. Par exemple, en-US ou ar-AE.
 
->[Remarque]
+>[!NOTE]
 >Le titre n’est pas sensible à la casse. Vous pouvez donc avoir &quot;en-US&quot;, &quot;en-us&quot; ou &quot;EN-us&quot;. En outre, AEM guides peuvent résoudre &quot;-&quot; (trait d’union) ou &quot;_&quot; (trait de soulignement). Vous pouvez donc avoir &quot;en-US&quot; ou &quot;en_US&quot;.
 
 En outre, vous pouvez placer ces fichiers dans n’importe quel dossier sous AEM racine de ressources qui est `./content/dam`.
@@ -188,5 +206,19 @@ Certaines des références de votre tableau de bord de traduction peuvent être 
 Cliquez sur le nom de la référence dans la boîte de dialogue pour l’ouvrir en mode aperçu. Vous pouvez également cliquer sur le projet de traduction pour commencer la traduction.
 
 ![](images/translation-in-progress.png){width="550" align="left"}
+
+
+## Supprimer ou désactiver automatiquement un projet de traduction terminé
+
+>[!NOTE]
+> 
+>Cette fonctionnalité est disponible pour les nouveaux projets de traduction que vous créez à l’aide de la version 2404 ou ultérieure de Guides du Experience Manager.  Cela n’aura aucune incidence sur les projets existants.
+
+Votre administrateur peut configurer la variable **Nettoyage du projet de traduction une fois terminé** sous l’option **Traduction** dans **Paramètres de l’éditeur** pour désactiver ou supprimer automatiquement les projets de traduction.
+
+Pour la gestion des documents, Experience Manager Guides permet de supprimer les projets de traduction une fois la traduction terminée.
+
+Vous pouvez également désactiver les projets de traduction si vous souhaitez les utiliser ultérieurement. La suppression d’un projet supprime tous les fichiers et dossiers présents dans le projet. La désactivation d’un projet ne le supprime pas, mais le conserve dans le référentiel. Vous ne pouvez toutefois pas mettre à jour ou modifier un projet désactivé.  La suppression ou la désactivation d’un projet n’a aucune incidence sur l’état de traduction des références.
+
 
 **Rubrique parente :**[ Utilisation de l’éditeur web](web-editor.md)

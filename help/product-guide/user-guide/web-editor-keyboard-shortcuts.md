@@ -4,9 +4,9 @@ description: Découvrez les raccourcis clavier permettant d’économiser du tem
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 33da473cfa8c654a5413f9d8cbe9c43acaf65766
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '360'
 ht-degree: 1%
 
 ---
@@ -49,5 +49,6 @@ Il existe de nombreuses opérations dans l’éditeur Web que vous pouvez effect
 | Ouvrir la boîte de dialogue Imprimer | ***Ctrl***+**P** | ***Commande***+**P** |
 | Annuler la dernière action | ***Ctrl***+**z** | ***Commande***+**z** |
 | Rétablir la dernière action | ***Ctrl***+**Y** | ***Commande***+**Y** |
+| Insérer un espace insécable `(&nbsp;)` | ***Alt***+**Espace** | ***Option***+**Espace** |
 
 **Rubrique parente :** [Utilisation de l’éditeur web](web-editor.md)

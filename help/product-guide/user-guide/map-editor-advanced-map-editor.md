@@ -4,9 +4,9 @@ description: Découvrez comment utiliser l’éditeur de mappage avancé dans AE
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6201434d3dd8336bf9fe1bce6368d5dbb9c56162
 workflow-type: tm+mt
-source-wordcount: '3695'
+source-wordcount: '3788'
 ht-degree: 0%
 
 ---
@@ -340,7 +340,12 @@ Pour modifier des rubriques via un mappage DITA, procédez comme suit :
 
      Vous pouvez choisir d’enregistrer toutes les rubriques sélectionnées ou de désélectionner les rubriques que vous ne souhaitez pas enregistrer.
 
-   - Vous pouvez archiver la rubrique à l’aide du **Enregistrer comme nouvelle version et déverrouiller** bouton . Lorsque vous enregistrez une révision de la rubrique, une nouvelle révision est créée et le verrouillage est également publié.
+   - Vous pouvez archiver la rubrique à l’aide du **Enregistrer comme nouvelle version et déverrouiller** bouton . Lorsque vous enregistrez une version de la rubrique, une nouvelle version est créée et le verrouillage est également publié.
+
+     Il est recommandé d’enregistrer vos modifications avant d’archiver les fichiers.  Lorsque vous enregistrez les modifications, le fichier XML est validé.
+
+   - Vous pouvez également sélectionner et archiver plusieurs rubriques à l’aide de l’ **Enregistrer comme nouvelle version et déverrouiller** bouton . Lorsque vous enregistrez une version des rubriques, une nouvelle version est créée pour chaque rubrique et le verrou est également publié. Vous pouvez également consulter la progression de l’archivage des rubriques à partir du **Enregistrer comme nouvelle version et déverrouiller** de la boîte de dialogue Un message de réussite s’affiche lorsque les fichiers sont archivés.
+
    - Si votre administrateur a activé l’option d’archivage des fichiers à la fermeture, vous serez invité à enregistrer les fichiers à la fermeture des fichiers extraits. Lorsque cette option est activée, lorsque vous fermez l’éditeur avec des fichiers modifiés, la liste des fichiers extraits qui doivent être enregistrés s’affiche. Les fichiers extraits s’affichent avec une icône de verrouillage :
 
      ![](images/save-on-close.PNG){width="550" align="left"}

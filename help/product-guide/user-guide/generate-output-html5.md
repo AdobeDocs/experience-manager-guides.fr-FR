@@ -4,9 +4,9 @@ description: Découvrez comment créer un paramètre prédéfini HTML5 à partir
 exl-id: b54bf3a0-7a13-41a0-ae72-cdf2caf8d974
 feature: Publishing
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: b82f1f3b42f85cce8420d3962c69cd3bafc5728d
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1187'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ La variable **Général** contient les configurations suivantes :
 L&#39;onglet Avancé contient les paramétrages suivants :
 
 - Nom de la transformation
-- Nettoyer les fichiers temporaires DITA-OT
+- Téléchargement de fichiers temporaires
 - Propriétés du fichier
 
 Pour plus d’informations, voir [Configuration de HTML5](#id231KJA00REJ).
@@ -65,7 +65,7 @@ Les options suivantes sont disponibles pour la sortie HTML5 :
 | Nom du fichier | Indiquez le nom de fichier avec lequel vous souhaitez enregistrer la sortie HTML5.<br><br>**Remarque**: si vous ne fournissez pas de nom de fichier, le titre de la carte DITA est utilisé pour générer le nom de fichier de sortie HTML5 final. Si le mappage ne comporte pas de titre, le nom de fichier du mappage DITA est utilisé pour nommer la sortie HTML5 finale. Le nom de fichier est assaini à l’aide des règles configurées dans le système pour gérer tout caractère non valide. |
 | Exécuter le processus de génération de publication | Lorsque vous sélectionnez cette option, une nouvelle liste déroulante Processus de génération de publication s’affiche, contenant tous les workflows configurés dans AEM. Vous devez sélectionner un workflow à exécuter une fois le workflow de génération de sortie terminé.<br><br>**Remarque**:Pour plus d’informations sur la création d’un workflow de génération de post-sortie personnalisé, voir _Personnaliser le workflow de génération après la sortie_ dans Installation et configuration de Adobe Experience Manager Guides as a Cloud Service. |
 | Chemin de destination | Chemin d’accès dans votre référentiel AEM où est stockée la sortie HTML5. |
-| Nettoyer les fichiers temporaires DITA-OT | Sélectionnez cette option pour nettoyer les fichiers temporaires générés par DITA-OT. L’emplacement où DITA-OT stocke les fichiers temporaires se trouve dans le journal de génération de sortie.<br><br>Si vous rencontrez des erreurs lors de la génération de la sortie via DITA-OT, vous pouvez désélectionner cette option pour conserver les fichiers temporaires. Vous pouvez ensuite utiliser ces fichiers pour résoudre les erreurs de génération de sortie. |
+| Téléchargement de fichiers temporaires | Sélectionnez cette option pour télécharger les fichiers temporaires générés par DITA-OT. L’emplacement où DITA-OT stocke les fichiers temporaires se trouve dans le journal de génération de sortie. Si vous rencontrez des erreurs lors de la génération de la sortie via DITA-OT, sélectionnez cette option pour conserver les fichiers temporaires. Vous pouvez ensuite utiliser ces fichiers pour résoudre les erreurs de génération de sortie.<br> <br>  Après avoir généré la sortie, sélectionnez la variable **Téléchargement de fichiers temporaires** ![icône de téléchargement de fichiers temporaires](images/download-temp-files-icon.png) pour télécharger le dossier ZIP contenant les fichiers temporaires. <br><br> **Remarque**: si vous sélectionnez certaines propriétés de fichier, puis téléchargez les fichiers temporaires, vous obtenez également la variable *metadata.xml* dans le dossier ZIP. |
 | Utilisation de la ligne de base | Si vous avez créé une ligne de base pour le mappage DITA sélectionné, sélectionnez cette option pour spécifier la version que vous souhaitez publier.<br><br>Voir [Utilisation de la ligne de base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) pour plus de détails. |
 | Propriétés du fichier | Sélectionnez les propriétés que vous souhaitez traiter en tant que métadonnées. Ces propriétés sont définies à partir de la page Propriétés du mappage DITA ou du fichier bookmap. Les propriétés que vous sélectionnez dans la liste déroulante s’affichent sous **Propriétés du fichier** champ . Sélectionnez l’icône croisée en regard de la propriété pour la supprimer. <br><br>**Remarque**: vous pouvez également transmettre les métadonnées à la sortie à l’aide de la publication DITA-OT. Pour plus d’informations, voir [Transmission des métadonnées à la sortie à l’aide de DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 

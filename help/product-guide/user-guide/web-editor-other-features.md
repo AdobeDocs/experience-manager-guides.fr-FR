@@ -4,9 +4,9 @@ description: Découvrez d’autres fonctionnalités de l’éditeur web dans AEM
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: caf00a014838751675aed11e5687a81fe7ad2e7c
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2532'
 ht-degree: 0%
 
 ---
@@ -159,15 +159,25 @@ Les options suivantes peuvent s’afficher selon que le fichier est verrouillé/
 
 **Insérer des équations MathML**
 
-- AEM Guides offre une prise en charge prête à l’emploi de l’insertion d’équations MathML par intégration à [Web MathType](https://docs.wiris.com/en/mathtype/mathtype_web/intro) application. Pour insérer une équation MathML, cliquez sur le bouton **Insérer un élément** et saisissez mathml. Lorsque vous sélectionnez un élément mathml dans la liste, la boîte de dialogue Insérer MathML s’affiche :
+- Experience Manager Guides vous offre une prise en charge prête à l’emploi pour l’insertion d’équations MathML par intégration à [Web MathType](https://docs.wiris.com/en/mathtype/mathtype_web/intro) application. Pour insérer une équation MathML, sélectionnez la propriété **Insérer un élément** et saisissez mathml. Lorsque vous sélectionnez un élément mathml dans la liste, la propriété **Insertion de MathML** s’affiche :
 
-![](images/insert-mathml-equation.png){width="550" align="left"}
+![insérer une équation mathml dans l&#39;éditeur mathml](images/insert-mathml-equation.png){width="550" align="left"}
 
-À l’aide des outils d’équation MathML, créez votre équation et cliquez sur Insérer pour l’ajouter à votre document. L’équation est insérée avec un arrière-plan gris clair, comme illustré ci-dessous :
+À l’aide des outils d’équation MathML, créez votre équation et cliquez sur **Insérer** pour l’ajouter à votre document. L’équation est insérée avec un arrière-plan gris clair, comme illustré ci-dessous :
 
-![](images/sample-mathml-equation.PNG){width="400" align="left"}
+![exemple d’équation mathml](images/sample-mathml-equation.PNG){width="400" align="left"}
 
 Vous pouvez à tout moment mettre à jour une équation en cliquant avec le bouton droit de la souris sur une équation existante et en sélectionnant **Modifier MathML** dans le menu contextuel.
+
+- **Validation des équations dans l’éditeur MathML**
+
+  Les guides du Experience Manager valident les équations MathML lorsque vous enregistrez une rubrique qui les contient.
+Lorsque vous insérez une équation à l’aide de l’éditeur MathML, les guides du Experience Manager mettent l’équation en rouge en cas de problème de syntaxe. Vous pouvez le corriger avant de l’insérer. Si vous n’effectuez aucune modification, mais sélectionnez **Insérer**, un avertissement s’affiche.
+
+  ![validate mathml équation](images/validate-mathml-equation.png){width="400" align="left"}
+
+  Si vous insérez l’équation MathML qui contient une erreur de syntaxe, une erreur de validation se produit lorsque vous essayez d’enregistrer la rubrique.
+
 
 **Insérer des notes de bas de page**
 
@@ -203,11 +213,30 @@ Outre le menu contextuel du chemin de navigation, la boîte de dialogue Renommer
 
 - Le déballage d’un élément vous permet de supprimer la balise d’élément du texte sélectionné et de le fusionner avec son élément parent. Par exemple, si vous avez une `p` dans un élément `note` , vous pouvez annuler l’encapsulage de l’élément `p` élément pour fusionner le texte directement dans l’élément `note` élément . La variable **Annuler le retour à la ligne** est disponible dans le menu contextuel du chemin de navigation de la rubrique. Pour retirer le retour à la ligne d’un élément, cliquez avec le bouton droit de la souris sur l’élément pour ouvrir le menu contextuel, puis sélectionnez **Annuler le retour à la ligne** pour supprimer l’élément et fusionner le texte de l’élément avec son élément parent.
 
+**Gestion des espaces blancs pour les éléments DITA**
+
+- Dans XML, les espaces blancs comprennent des espaces, des tabulations, des retours chariot et des lignes vierges. Les guides du Experience Manager convertissent plusieurs espaces consécutifs en un seul espace. Cela vous permet de conserver la vue WYSIWYG de l’éditeur web.
+
+  >[!NOTE]
+  >
+  >Dans certains éléments où les espaces blancs doivent être préservés conformément aux règles DITA, les espaces blancs multiples consécutifs sont conservés. Par exemple : `<pre>` et `<codeblock>` éléments .
+
+
 **Conservation des sauts de ligne et du retrait**
 
 - Les éléments DITA contenant des sauts de ligne et des espaces sont pris en charge et rendus selon leur définition en mode Auteur, Source ou Aperçu, ainsi que dans la sortie finale publiée. La capture d’écran suivante montre le contenu dans la variable `msgblock` dans lequel les sauts de ligne et les espaces \(retrait\) ont été conservés :
 
 ![](images/new-line-support_cs.png){width="500" align="left"}
+
+
+
+**Gestion des espaces insécables dans l’éditeur web**
+
+- Vous pouvez insérer des espaces insécables dans votre document à l’aide du **Insertion de caractères spéciaux**  ![icône d’insertion de caractères spéciaux](images/insert-special-chars-icon.svg) ou la fonction **Alt** + **Espace** raccourcis clavier.  Ces espaces insécables apparaissent comme un indicateur lorsque vous modifiez une rubrique dans l’éditeur web. Vous pouvez désactiver l’affichage des espaces insécables à l’aide de la fonction **Afficher l’indicateur d’espace insécable en mode création** de l’option **Apparence** de la **Préférences utilisateur** ![Icône Préférences utilisateur](images/user_preference_editor_icon.svg).
+
+- Si vous copiez et collez du contenu avec un espace insécable provenant de sources externes dans le **Auteur** vue, l’espace insécable est converti en espace.
+Cependant, si vous copiez et collez du contenu avec un espace insécable dans la propriété **Auteur** vue, elle est préservée.
+
 
 **Génération automatique de l’ID d’élément**
 

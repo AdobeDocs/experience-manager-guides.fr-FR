@@ -4,24 +4,28 @@ description: Découvrez comment configurer une nouvelle publication basée sur u
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: f929d4fd74e98e2025d80c14dbef6aeb464c0dd5
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 0%
+source-wordcount: '711'
+ht-degree: 2%
 
 ---
 
-# Configuration de la nouvelle publication basée sur un microservice pour AEM Guides as a Cloud Service
+# Configuration de la publication sur microservice avec authentification JWT
 
-Le nouveau microservice de publication permet aux utilisateurs d’exécuter simultanément des charges de travail de publication volumineuses sur AEM Guides as a Cloud Service et d’exploiter la plate-forme Adobe I/O Runtime sans serveur de pointe.
-
-Pour chaque demande de publication AEM Guides as a Cloud Service exécute un conteneur distinct qui se met à l’échelle horizontalement en fonction des demandes de l’utilisateur. Cela permet aux utilisateurs d’exécuter plusieurs requêtes de publication et d’obtenir de meilleures performances que leurs serveurs d’AEM on-premise volumineux.
+[!BADGE Cloud Service]{type=Informative}
 
 >[!NOTE]
 >
-> La publication basée sur les microservices dans AEM Guides prend en charge les types de paramètres prédéfinis de sortie PDF (natifs et basés sur DITA-OT), HTML5, JSON et PERSONNALISÉS.
+> Les informations d’identification du compte de service (JWT), ont été rendues obsolètes au profit des informations d’identification OAuth serveur à serveur. Vos applications utilisant les informations d’identification du compte de service (JWT) cesseront de fonctionner après le 1er janvier 2025. Vous devez migrer vers les nouvelles informations d’identification d’ici le 1er janvier 2025, afin de vous assurer que votre application continue de fonctionner. En savoir plus sur [migration des informations d’identification du compte de service (JWT) vers les informations d’identification OAuth serveur à serveur](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
 
-Comme le nouveau service de publication dans le cloud est sécurisé par l’authentification basée sur JWT d’Adobe IMS, les clients doivent suivre les étapes ci-dessous pour intégrer leurs environnements aux workflows d’authentification par jeton sécurisés d’Adobe et commencer à utiliser la nouvelle solution de publication évolutive basée sur le cloud.
+
+
+La publication basée sur les microservices dans pour Adobe Experience Manager Guides as a Cloud Service prend en charge les types de paramètres prédéfinis de sortie PDF (natif et basé sur DITA-OT), HTML5, JSON et PERSONNALISÉS.
+
+Comme les informations d’identification du compte de service (JWT) ont été abandonnées, il est donc recommandé d’utiliser l’authentification basée sur OAuth d’Adobe IMS. Découvrez comment [configuration de la publication sur microservice avec authentification OAuth](configure-microservices-imt-config.md).
+
+Pour le service de publication cloud sécurisé par l’authentification basée sur JWT Adobe IMS, les clients doivent suivre les étapes ci-dessous pour intégrer leurs environnements aux workflows d’authentification par jeton sécurisés d’Adobe et commencer à utiliser la nouvelle solution de publication évolutive basée sur le cloud.
 
 
 ## Création de configurations IMS dans la console Adobe Developer
@@ -80,7 +84,7 @@ Effectuez les étapes suivantes pour ajouter la configuration IMS à l’environ
 >
 > Vous devez ouvrir, copier et coller le contenu du fichier JSON des détails de clé privée et de service dans la colonne des valeurs du panneau Configuration, comme illustré dans la capture d’écran ci-dessus.
 
-Une fois que vous avez ajouté la configuration IMS à l’environnement, procédez comme suit pour lier ces propriétés à AEM Guides à l’aide d’OSGi :
+Une fois que vous avez ajouté la configuration IMS à l’environnement, procédez comme suit pour lier ces propriétés à des guides du Experience Manager à l’aide d’OSGi :
 
 1. Dans le code de projet Git de Cloud Manager, ajoutez les deux fichiers ci-dessous (pour le contenu du fichier, voir [Annexe](#appendix)).
 
