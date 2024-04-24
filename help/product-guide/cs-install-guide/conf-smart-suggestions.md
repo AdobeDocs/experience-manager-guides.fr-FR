@@ -2,7 +2,7 @@
 title: Configuration des suggestions intelligentes pour la création
 description: Découvrez comment configurer les suggestions intelligentes pour la création
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: b2042431e96f2cbd90eea9c8cfcdb3e7033e26bb
+source-git-commit: d3e0c475ebd50a2664ea45c293d34b3a10772633
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 1%
@@ -34,7 +34,9 @@ Effectuez les étapes suivantes pour créer des configurations IMS dans la conso
    *Ajoutez l’API de gestion I/O à votre projet.*
 
 1. Créer **Informations d’identification OAuth** et enregistrez-le.
-   ![Mosaïque Informations d’identification OAuth dans la configuration de l’API](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
+
+   ![Mosaïque Informations d’identification OAuth dans la configuration de l’API](assets/conf-ss-OAuth-credential.png)
+
    *Configurez les informations d’identification OAuth sur votre API.*
 
 1. Dans le  **Projets** , choisissez **Serveur OAuth vers serveur** puis sélectionnez les informations d’identification nouvellement créées.
