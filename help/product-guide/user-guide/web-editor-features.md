@@ -4,7 +4,7 @@ description: Découvrez les fonctionnalités de l’éditeur web dans AEM Guides
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+source-git-commit: 1b338bb702267640bc3f5b5de4b00051979b562f
 workflow-type: tm+mt
 source-wordcount: '18678'
 ht-degree: 0%
@@ -233,6 +233,7 @@ Cela empêche les utilisateurs d’enregistrer un fichier qui rompt une règle d
 
      Saisissez les premiers caractères de la langue ou le code de langue pour filtrer les langues de votre choix. Par exemple, saisissez &quot;en&quot; pour filtrer toutes les langues qui contiennent &quot;en&quot; au début de leur nom ou code.
       1. Sélectionner **Terminé** pour ajouter les langues sélectionnées au groupe. Les langues s’affichent. Lorsque vous ajoutez trois langues ou plus, **Afficher plus** s’affiche. Vous pouvez sélectionner **Afficher plus** pour afficher toutes les langues présentes dans le groupe.
+
          >[!TIP]
          >
          > Basculer **Afficher plus** to **Afficher moins** et n’affichent que quelques langues.
@@ -303,6 +304,7 @@ Les préférences utilisateur sont disponibles pour tous les auteurs. À l’aid
   ![onglet d’aspect des préférences utilisateur](images/user_preference_editor_appearance.png){width="550" align="left"}
 
    - **Afficher les fichiers par**: sélectionnez la manière par défaut d’afficher les fichiers dans l’éditeur web. Vous pouvez afficher la liste des fichiers selon les titres ou les noms des fichiers à partir des différents panneaux du **Auteur** vue.
+
      >[!NOTE]
      >
      > Par défaut, les fichiers sont affichés par titre dans l’éditeur web.
@@ -846,7 +848,9 @@ Le panneau de gauche vous donne accès aux fonctionnalités suivantes :
 **Favoris** -  ![](images/favorite-collections.svg)
 
 Si vous travaillez sur un ensemble de fichiers ou de dossiers, vous pouvez les ajouter à votre liste préférée pour y accéder rapidement. La liste Favori affiche la liste des documents que vous avez ajoutés ainsi que d’autres listes publiques des documents favoris des autres utilisateurs.
+
 Par défaut, vous pouvez afficher les fichiers par titres. Lorsque vous placez le pointeur de la souris sur un fichier, vous pouvez afficher le titre du fichier et le chemin du fichier sous forme d’info-bulle.
+
 >[!NOTE]
 >
 > En tant qu’administrateur, vous pouvez également choisir d’afficher la liste des fichiers par nom de fichier dans l’éditeur Web. Sélectionnez la variable **Nom du fichier** de l’ **Afficher les fichiers par** dans **Préférences utilisateur** ![](images/user_preference_editor_icon.svg).
@@ -878,6 +882,7 @@ Pour ajouter un fichier à votre collection préférée, utilisez l’une des m�
 Vous pouvez également effectuer de nombreuses actions à l’aide du menu Options disponible pour une collection Favoris :
 
 ![](images/favorites-options.png){width="400" align="left"}
+
 - **Renommer**: renommez la collection sélectionnée.
 - **Supprimer**: supprime la collection sélectionnée.
 - **Actualiser**: obtenez une nouvelle liste de fichiers et de dossiers à partir du référentiel.
@@ -965,11 +970,12 @@ Elle est synchronisée avec la zone de recherche de la fenêtre du référentiel
 
 
 - Sélectionnez la variable **Fermer le filtre** ![icône de fermeture](images/close-icon.svg) pour fermer le filtre et revenir à l’arborescence du référentiel.
+
   >[!NOTE]
   >
   >L’administrateur du système peut également configurer les filtres de texte et afficher ou masquer d’autres filtres. Pour plus d’informations, voir *Configuration des filtres de texte* dans la section Installation et configuration de Adobe Experience Manager Guides as a Cloud Service.
-
-  La liste des fichiers filtrés contenant le texte recherché s’affiche. Par exemple, les fichiers contenant le texte `general purpose` sont répertoriées dans la capture d’écran précédente. Vous pouvez sélectionner plusieurs fichiers de la liste filtrée pour les faire glisser dans une carte ouverte à des fins d’édition.
+  >
+  >La liste des fichiers filtrés contenant le texte recherché s’affiche. Par exemple, les fichiers contenant le texte `general purpose` sont répertoriées dans la capture d’écran précédente. Vous pouvez sélectionner plusieurs fichiers de la liste filtrée pour les faire glisser dans une carte ouverte à des fins d’édition.
 
 
 
@@ -1067,6 +1073,7 @@ Les différentes options du menu Options sont expliquées ci-dessous :
   ![](images/rename-move-asset.png){width="550" align="left"}
 
   >[!NOTE]
+  >
   > Vous pouvez également faire glisser un fichier vers un autre dossier de destination.
 
   **Scénarios d’exclusion**
@@ -1078,6 +1085,7 @@ Les différentes options du menu Options sont expliquées ci-dessous :
    - Si un autre utilisateur extrait le fichier, vous ne pouvez pas le renommer ni le déplacer, l’option Renommer ou Déplacer vers ne s’affiche pas pour le fichier.
 
   >[!NOTE]
+  >
   > Si votre administrateur vous a attribué des autorisations sur un dossier, alors seulement la variable **Renommer** ou **Déplacer vers** Les options s’affichent.
 
   <details>
@@ -1206,6 +1214,7 @@ Saisissez un **Titre** pour le dossier, qui est automatiquement converti en nom 
 Lorsque vous cliquez sur l’icône Affichage des cartes , vous obtenez une liste des rubriques dans le fichier de carte. Si vous n’avez ouvert aucun fichier de carte, la vue Carte apparaît vide. Double-cliquez sur un fichier de carte pour ouvrir le fichier de carte dans cette vue. Vous pouvez double-cliquer sur un fichier de la carte pour l’ouvrir dans l’éditeur Web.
 
 Par défaut, vous pouvez afficher les fichiers par titres. Lorsque vous placez le pointeur de la souris sur un fichier, vous pouvez afficher le titre du fichier et le chemin du fichier sous forme d’info-bulle.
+
 >[!NOTE]
 >
 >En tant qu’administrateur, vous pouvez également choisir d’afficher le nom de fichier de la carte parent actuellement ouverte dans la vue map. Sélectionnez la variable **Nom du fichier** de l’ **Afficher les fichiers par** dans **Préférences utilisateur** ![](images/user_preference_editor_icon.svg).
@@ -1255,12 +1264,13 @@ Vous pouvez effectuer les actions suivantes à l’aide du menu Options du fichi
 
 - **Affichage dans l’interface utilisateur d’Assets**: utilisez cette option pour afficher un aperçu du fichier de mappage dans l’interface utilisateur d’Assets. Dans cette vue, tous les fichiers de rubrique dans le mappage sont affichés dans une seule vue page par page unifiée.
 - **Carte de téléchargement**: sélectionnez cette option pour ouvrir la **Carte de téléchargement** de la boîte de dialogue
+
 Dans le **Carte de téléchargement** , vous pouvez choisir les options suivantes :
-   - **Utilisation de la ligne de base**: sélectionnez cette option pour obtenir une liste des lignes de base créées pour le mappage DITA. Si vous souhaitez télécharger le fichier de mappage et son contenu en fonction d’une ligne de base spécifique, sélectionnez la ligne de base dans la liste déroulante. Pour plus d’informations sur l’utilisation des lignes de base, voir [Utilisation de la ligne de base](./generate-output-use-baseline-for-publishing.md).
-   - **Aplatissement de la hiérarchie de fichiers**: sélectionnez cette option pour enregistrer toutes les rubriques et tous les fichiers multimédias référencés dans un seul dossier.
+
+- **Utilisation de la ligne de base**: sélectionnez cette option pour obtenir une liste des lignes de base créées pour le mappage DITA. Si vous souhaitez télécharger le fichier de mappage et son contenu en fonction d’une ligne de base spécifique, sélectionnez la ligne de base dans la liste déroulante. Pour plus d’informations sur l’utilisation des lignes de base, voir [Utilisation de la ligne de base](./generate-output-use-baseline-for-publishing.md).
+- **Aplatissement de la hiérarchie de fichiers**: sélectionnez cette option pour enregistrer toutes les rubriques et tous les fichiers multimédias référencés dans un seul dossier.
 
   Vous pouvez également télécharger le fichier map sans sélectionner d’option. Dans ce cas, les dernières versions conservées des rubriques et des fichiers multimédia référencés sont téléchargées.
-
 
   Après avoir cliqué sur **Télécharger** , la demande de package d’exportation map est mise en file d’attente. La variable **Succès** s’affiche si le module est créé avec succès.  Vous pouvez cliquer sur le bouton **Télécharger** à partir du bouton **Succès** de la boîte de dialogue
 
@@ -1387,6 +1397,7 @@ L’une des principales fonctionnalités de DITA est la possibilité de réutili
 Vous pouvez simplement faire glisser et déposer du contenu réutilisable du panneau sur votre rubrique actuelle et il est inséré facilement et rapidement. Vous pouvez également obtenir un aperçu du contenu avant de l’insérer dans votre document.
 
 Par défaut, vous pouvez afficher les fichiers par titres. Lorsque vous placez le pointeur de la souris sur un fichier, vous pouvez afficher le titre du fichier et le chemin du fichier sous forme d’info-bulle.
+
 >[!NOTE]
 >
 > En tant qu’administrateur, vous pouvez également choisir d’afficher la liste des fichiers par nom de fichier dans l’éditeur Web. Sélectionnez la variable **Nom du fichier** de l’ **Afficher les fichiers par** dans **Préférences utilisateur** ![](images/user_preference_editor_icon.svg).
@@ -1770,7 +1781,9 @@ Dans le menu Options d’un modèle existant, vous pouvez choisir de **Modifier*
 **Réviser** -  ![](images/active-review-tasklist-icon.svg)
 
 AEM Guides fournit la fonctionnalité permettant d’afficher toutes les tâches de révision dans vos projets. Vous pouvez afficher tous les projets de révision et les tâches de révision actives dans les projets de révision, dont vous faites partie à partir du **Réviser** du panneau.  Vous pouvez ensuite ouvrir les tâches de révision pour afficher les commentaires des différents réviseurs.
+
 Le panneau de révision affiche les tâches de révision. Par défaut, vous pouvez afficher les fichiers par titres. Lorsque vous placez le pointeur de la souris sur un fichier, vous pouvez afficher le titre du fichier et le chemin du fichier sous forme d’info-bulle.
+
 >[!NOTE]
 >
 > En tant qu’administrateur, vous pouvez également choisir d’afficher la liste des fichiers par nom de fichier dans l’éditeur Web. Sélectionnez la variable **Nom du fichier** de l’ **Afficher les fichiers par** dans **Préférences utilisateur** ![](images/user_preference_editor_icon.svg).
@@ -1805,6 +1818,7 @@ Pour afficher les commentaires de révision dans les tâches de révision active
    >[!NOTE]
    > 
    > La variable **Réviser** et le panneau **Commentaires** sont synchronisés en permanence. Dans le panneau Commentaires , les commentaires sont chargés en fonction de la tâche de révision chargée dans le panneau Révision.
+   >
    > Pour plus d’informations sur la manière de traiter les commentaires, voir [Commentaires sur la révision des adresses](review-address-review-comments.md#).
 
 **Rechercher et remplacer** -  ![](images/FindAndReplace_icon.svg)
@@ -1814,6 +1828,7 @@ L’icône Rechercher et remplacer se trouve au bas du panneau de gauche. Le pan
 ![](images/map-find-replace.png){width="800" align="left"}
 
 Par défaut, vous pouvez afficher les fichiers par titres. Lorsque vous placez le pointeur de la souris sur un fichier, vous pouvez afficher le titre du fichier et le chemin du fichier sous forme d’info-bulle.
+
 >[!NOTE]
 >
 > En tant qu’administrateur, vous pouvez également choisir d’afficher la liste des noms de fichier dans l’éditeur web. Sélectionnez la variable **Nom du fichier** de l’ **Afficher les fichiers par** dans **Préférences utilisateur** ![](images/user_preference_editor_icon.svg).
@@ -1822,6 +1837,7 @@ Pour effectuer la recherche globale et la remplacer, procédez comme suit :
 
 1. Ouvrez le **Rechercher et remplacer** du panneau.
 1. Cliquez sur le bouton **Regarder dans** sélectionnez l’une des options suivantes pour effectuer la recherche.
+
    - **Carte actuelle**: pour effectuer une recherche dans la carte actuellement ouverte
 
      >[!NOTE]
@@ -1875,9 +1891,7 @@ Pour effectuer la recherche globale et la remplacer, procédez comme suit :
 
 1. Appuyez sur Entrée ou sélectionnez **Rechercher** icon \( ![](images/search-icon.svg)\) pour effectuer la recherche.
 1. Sélectionnez un fichier dans la liste des résultats de la recherche. Le fichier s’ouvre dans la zone d’édition du contenu avec le terme recherché en surbrillance dans le contenu.
-
 1. Cliquez sur **Remplacer une occurrence unique** \( ![](images/replace-icon.svg)\) pour remplacer le terme de recherche actuellement mis en surbrillance dans la rubrique ou cliquez sur Correspondance suivante ![](images/next-match-in-search.png) ou ![](images/previous-match-in-search.png) Correspondance précédente pour passer à l’occurrence suivante ou précédente du texte.
-
 1. Cliquez sur **Tout remplacer dans le fichier** \( ![](images/replace-all-in-file-icon.svg)\) pour remplacer toutes les occurrences du terme recherché dans un seul fichier par le terme de remplacement en un seul clic. Une notification s’affiche après le remplacement de toutes les occurrences dans le fichier sélectionné.
 
    >[!NOTE]
@@ -1904,6 +1918,7 @@ Vous pouvez également utiliser la variable **Rechercher dans la carte** de l’
 La zone d’édition du contenu est l’endroit où s’affiche le contenu de votre rubrique ou mappage. Vous effectuez toutes les modifications de contenu dans cette zone. Il donne une vue WYSIWYG du contenu que vous êtes en train de modifier. Plusieurs rubriques peuvent être ouvertes simultanément et s’affichent dans leurs onglets respectifs.
 
 Par défaut, vous pouvez afficher les titres des fichiers dans les onglets. Lorsque vous placez le pointeur de la souris sur un fichier, vous pouvez afficher le titre du fichier et le chemin du fichier sous forme d’info-bulle.
+
 >[!NOTE]
 >
 > En tant qu’administrateur, vous pouvez également choisir d’afficher la liste des fichiers par nom de fichier dans les onglets. Sélectionnez la variable **Nom du fichier** de l’ **Afficher les fichiers par** dans **Préférences utilisateur** ![](images/user_preference_editor_icon.svg).
@@ -1985,6 +2000,7 @@ La section Références vous donne accès aux fonctionnalités suivantes :
 - **Liens sortants :** La section Liens sortants répertorie les documents auxquels il est fait référence dans le document actif.
 
 Par défaut, vous pouvez afficher les fichiers par titres. Lorsque vous placez le pointeur de la souris sur un fichier, vous pouvez afficher le titre du fichier et le chemin du fichier sous forme d’info-bulle.
+
 >[!NOTE]
 >
 > En tant qu’administrateur, vous pouvez également choisir d’afficher la liste des fichiers par nom de fichier dans l’éditeur Web. Sélectionnez la variable **Nom du fichier** de l’ **Afficher les fichiers par** dans **Préférences utilisateur** ![](images/user_preference_editor_icon.svg).
@@ -2014,4 +2030,3 @@ Pour plus d’informations, voir [Commentaires sur la révision des adresses](re
 > La fonction Modifications suivies affiche toutes les mises à jour qui ont été suivies à l’aide de la fonction Activer/Désactiver le suivi des modifications de la barre d’outils principale. Pour plus d’informations, voir [Activer/Désactiver le suivi des modifications](#id205DF0203Y4).
 
 **Rubrique parente :**[ Utilisation de l’éditeur web](web-editor.md)
-
