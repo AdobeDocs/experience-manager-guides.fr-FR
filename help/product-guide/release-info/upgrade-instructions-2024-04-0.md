@@ -1,9 +1,10 @@
 ---
 title: Notes de mise à jour | Instructions de mise à niveau et problèmes résolus dans les Guides Adobe Experience Manager, version 2024.04.0
 description: Découvrez la matrice de compatibilité et comment effectuer la mise à niveau vers la version 2024.04.0 de Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+exl-id: deca46e5-12cc-497f-84af-61ee02da3d65
+source-git-commit: 989f1628adf417167525a068845203380573b077
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -45,6 +46,12 @@ Cette section répertorie le tableau de compatibilité des applications logiciel
 ## Mise à niveau vers la version 2024.04.0
 
 Les guides de Experience Manager sont automatiquement mis à niveau lors de la mise à niveau de la version actuelle (la plus récente) de Experience Manager as a Cloud Service.
+
+>[!NOTE]
+>
+> Une fois que vous avez commencé à utiliser la version actuelle (la plus récente), comparez les configurations remplacées aux dernières pour obtenir les dernières fonctionnalités :
+>- ui_config.json (peut avoir été défini dans les profils de dossier)
+
 
 
 Effectuez les étapes suivantes pour les guides de Experience Manager as a Cloud Service si vous ne l’avez pas fait auparavant pour votre version existante :
@@ -130,4 +137,3 @@ Les guides du Experience Manager comportent une [**réécriture sling personnali
 Si votre code base comporte un autre module de réécriture sling personnalisé, utilisez une `'order'` valeur supérieure à 50, comme l’utilise le module de réécriture sling de Guides de Experience Manager `'order'` 50. Pour le remplacer, vous devez disposer d’une valeur supérieure à 50. Pour plus d’informations, voir [Pipelines de réécriture de sortie](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
 Au cours de cette mise à niveau, depuis la variable `'order'` est modifiée de 1000 à 50, vous devez fusionner le module de réécriture personnalisé existant, le cas échéant, avec `fmdita-rewriter`.
-
