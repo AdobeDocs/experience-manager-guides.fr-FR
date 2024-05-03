@@ -1,19 +1,19 @@
 ---
 title: Icône de configuration pour les types DITA personnalisés
 description: Découvrez comment définir des icônes pour les types de dictionnaire personnalisés afin d’afficher leur icône sur différentes interfaces utilisateur dans AEM
-source-git-commit: 60d4aeec9841fdab8ff97d975fbbe4a640ccf9e8
+source-git-commit: de281989de21d8bf4ba771670d7cb871a089b1e1
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
 
-# Icône de configuration pour les types de dictionnaire de données personnalisés (rubrique ou mappage)
+# Icône de configuration pour les types DITA (rubrique ou mappage) personnalisés/spécialisés
 
 
 ## Énoncé du problème
 
-Avec le schéma personnalisé utilisé dans AEM Guides, vous pouvez créer des types de rubrique ou de mappage personnalisés. Vous remarquerez peut-être que les rubriques/mappages personnalisés n’affichent pas d’icône dans l’éditeur web ou l’interface utilisateur d’Assets. Voir ci-dessous la capture d’écran pour référence
+Avec le schéma personnalisé utilisé dans AEM Guides, vous pouvez créer des types de rubrique ou de mappage personnalisés. Vous remarquerez peut-être que les types de rubrique/mappage personnalisés n’affichent pas d’icône dans l’éditeur web ou l’interface utilisateur d’Assets. Voir ci-dessous la capture d’écran pour référence
 
 ![capture d’écran de référence](../assets/authoring/custom-ditatype-icon-notshown.png)
 
