@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: e8febe389ed805375d4b79570cd9a0e023e046f3
+source-git-commit: ca1123005d1f36cba11b3f93a89de47006bfead4
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1783'
 ht-degree: 6%
 
 ---
@@ -404,8 +404,6 @@ ht-degree: 6%
       - [Traduire le contenu dans les guides - partie 2](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
    - Articles {#kb-articles}
       - Création {#authoring}
-         - Rapports {#reports}
-            - [Gestion des métadonnées du contenu DITA](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
          - Éditeur web {#webeditor}
             - [Réutilisation du contenu dans AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
             - Personnalisation {#customizing}
@@ -415,6 +413,9 @@ ht-degree: 6%
                - [Personnaliser le menu contextuel du fichier](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
             - Schéma {#schematron}
                - [Validation du schéma](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
+         - Rapports {#reports}
+            - [Gestion des métadonnées du contenu DITA](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
+         - [Icône Définir pour les types DITA personnalisés](./knowledge-base/kb-articles/authoring/define-icon-for-custom-ditatypes.md)
       - Structure de l’extension Guides {#extention-framework}
          - Structure Aem Guides {#aem-guides-framework}
             - [Personnalisations de base](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
