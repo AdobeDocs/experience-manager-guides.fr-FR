@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: ee272542d75a72620ef05094775fe2ed7f37996f
+source-git-commit: b1b95c2d57fc98c9dbf2a04fa4a3ace13211e3fa
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1796'
 ht-degree: 6%
 
 ---
@@ -15,7 +15,9 @@ ht-degree: 6%
 - [Présentation d’[!DNL AEM Guides]](overview.md)
 - [Clause de non-responsabilité](./user-guide/rebranding-disclaimer.md)
 - Informations sur la version {#release-info}
+- [Feuille de route AEM Guides]()
    - Notes de mise à jour {#release-notes}
+   - [Feuille de route AEM Guides](./release-info/aem-guides-releases-roadmap.md)
       - Cloud Services {#cloud-release-notes}
          - [Instructions de déploiement](./release-info/deploy-xml-on-aemaacs.md)
          - Versions de 2024 {#2024-releases}
@@ -430,7 +432,7 @@ ht-degree: 6%
             - Widgets {#framework-widgets}
                - [Widgets de rendu](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                - [Widgets de base](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
-         - Prise en main {#getting-started}
+         - Commencer {#getting-started}
             - [Présentation](./guides-ui-extensions/getting-started/Introduction.md)
             - [Guide d’installation](./guides-ui-extensions/getting-started/integrating-customisations.md)
             - [Intro du référentiel d’extension](./guides-ui-extensions/getting-started/extension-repo-intro.md)
