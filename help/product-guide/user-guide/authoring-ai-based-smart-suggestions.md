@@ -1,14 +1,13 @@
 ---
 title: Suggestions intelligentes optimisées par l’IA pour créer du contenu
 description: Découvrez comment afficher et utiliser les suggestions intelligentes optimisées par l’IA dans l’éditeur web.
-source-git-commit: eea4a30b91fd5c28647fd7ea95dd8058ec411adc
+exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
+source-git-commit: 75425d82ee55485503ea6678030c5e919e50a691
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
-
-
 
 # Suggestions intelligentes optimisées par l’IA pour créer du contenu
 
@@ -76,6 +75,8 @@ Effectuez les étapes suivantes pour afficher les suggestions intelligentes pour
 1. Vous pouvez également sélectionner **Accepter** ou **Refuser** dans le **Réutilisation de contenu** des suggestions pour les recommandations appropriées.
 
 
-
 Cette fonctionnalité intelligente est pratique et minimise les efforts de recherche manuelle de contenu, ce qui vous permet de vous concentrer davantage sur la génération de nouveau contenu. Il facilite également la collaboration entre les équipes et contribue à maintenir la cohérence du contenu créé par les différents auteurs.
 
+>[!NOTE]
+>
+>Les suggestions intelligentes ne conservent pas vos données au-delà de la session en cours. Pour les réponses, les suggestions intelligentes dépendent uniquement de l’index créé sur le contenu résidant dans votre base de données interne. Les outils d’IA externe ne sont pas utilisés, ce qui garantit que vos données restent dans le système.
