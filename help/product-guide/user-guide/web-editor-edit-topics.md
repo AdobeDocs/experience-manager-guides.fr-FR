@@ -4,9 +4,9 @@ description: Découvrez comment modifier des rubriques dans l’éditeur web. D�
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 05848b381999bf00d480b618ccb604c1798cc5dd
+source-git-commit: d30f05ff614693beca5d9cf7f206a36f3dadfc8b
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,24 @@ L’éditeur web s’accompagne d’un éventail de fonctions d’édition qui v
    >[!NOTE]
    >
    > Si vous ne souhaitez pas valider de modifications dans AEM référentiel, cliquez sur **Fermer**, puis cliquez sur **Fermer sans enregistrer** dans la boîte de dialogue Modifications non enregistrées .
+
+
+## Sélection partielle de contenu entre les éléments
+
+Les guides du Experience Manager vous permettent également de sélectionner du contenu pour tous les éléments. Après avoir sélectionné le contenu, vous pouvez effectuer les opérations suivantes :
+- Mise en forme et suppression : mettez le contenu sélectionné en gras, en italique, en souligné ou supprimez-le. Le contenu des balises ouvertes valides est ensuite fusionné et apparaît sous un seul élément. Vous pouvez par exemple sélectionner le contenu d’un paragraphe et étendre la sélection à un autre paragraphe. Ensuite, si vous mettez le contenu sélectionné en gras, tout le contenu en gras des balises ouvertes est fusionné et s’affiche sous un seul élément de paragraphe.
+
+De même, si vous supprimez le contenu sélectionné, le contenu restant après la suppression dans les balises ouvertes est fusionné.
+
+- Entourez le contenu d’un élément valide : procédez comme suit pour encapsuler le contenu avec un élément valide :
+   - Sélectionnez le contenu dans un élément.
+   - Sélectionnez la variable ![add](images/Add_icon.svg) dans la barre d’outils secondaire supérieure pour afficher la **Survol avec élément** de la boîte de dialogue La boîte de dialogue répertorie les éléments valides pour le contenu sélectionné.
+     >[!NOTE]
+     >
+     > Vous pouvez également afficher la boîte de dialogue Survoler avec l’élément en sélectionnant le menu contextuel du contenu sélectionné.
+
+   - Sélectionnez un élément dans la boîte de dialogue. Le contenu sélectionné est encapsulé sous cet élément. Par exemple, si vous sélectionnez le contenu d’un paragraphe, puis le `<note>` de l’élément **Survol avec élément** , le contenu sélectionné s’affiche sous une note.\
+     ![Boîte de dialogue d’élément entouré](./images/surround-element.png) {width="300" align="left"}
 
 ## Actualiser le navigateur lors de la modification des fichiers
 

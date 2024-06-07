@@ -4,9 +4,9 @@ description: Créez et gérez des lignes de base à partir de l’éditeur web d
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: c4c5fa16daf3f713f85783152094c8af59eb4f8c
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -60,8 +60,12 @@ Vous pouvez créer une ligne de base à partir de l’éditeur Web en procédant
 
    ![Création d’une ligne de base](images/dynamic-baseline.png){width="300" align="left"}
 
-   - **Sélectionner des étiquettes**: si des libellés sont spécifiés pour les rubriques, utilisez la variable **Sélectionner des étiquettes** pour choisir parmi les [libellés répertoriés](#labels-list).
+   - **Étiquettes**: si des libellés sont spécifiés pour les rubriques, utilisez la variable **Étiquettes** pour choisir parmi les [libellés répertoriés](#labels-list).
 Les libellés sélectionnés en premier se voient accorder une priorité plus élevée que les libellés ultérieurs.
+
+     >[!NOTE]
+     >
+     >Lorsque les libellés sont extraits, un chargeur s’affiche et la liste déroulante est désactivée.
 
      Pour les lignes de base dynamiques, les libellés sont extraits de la dernière version enregistrée et de la copie de travail actuelle du mappage. Par exemple, si vous avez créé des étiquettes   `Label Release A.1.0 ` et `Label Release A.1.1` pour les versions 1.0 et 1.1 de la rubrique A et des libellés `Label Release B.1.0` et `Label Release B.1.1` pour les versions 1.0 et 1.1 de la rubrique B . Vous pouvez ensuite ajouter la rubrique A au mappage A dans la version 1.0 et la rubrique B au mappage A dans la version 1.0* (copie de travail). Dans ce cas, vous pouvez afficher  `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0`, et `Label Release B.1.1` dans la liste déroulante des libellés de ligne de base dynamiques.
 

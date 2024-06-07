@@ -5,9 +5,9 @@ exl-id: 438e2964-b9c7-462a-a68c-8031bd97911c
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: f8c71e18f5e2e5dbc5a2abdbb92c72fdad3bb233
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -94,4 +94,4 @@ Exemple de fichier :
 ]
 ```
 
-Vous pouvez publier la rubrique entière avec le mappage par défaut. Sélectionnez la variable `Full Topic` mappage à partir de la liste déroulante dans la variable **Publier en tant que fragment de contenu** et disposer du champ &quot;topicData&quot; dans le modèle de fragment de contenu.
+Vous pouvez publier la rubrique entière avec le mappage par défaut. Sélectionnez la variable `Full Topic` mappage à partir de la liste déroulante **Générer un fragment de contenu** et disposer du champ &quot;topicData&quot; dans le modèle de fragment de contenu.

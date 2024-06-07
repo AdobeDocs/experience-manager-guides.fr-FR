@@ -4,7 +4,7 @@ description: Découvrez d’autres fonctionnalités de l’éditeur web dans AEM
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: caf00a014838751675aed11e5687a81fe7ad2e7c
+source-git-commit: d30f05ff614693beca5d9cf7f206a36f3dadfc8b
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Pour créer une version du fichier, sélectionnez **Enregistrer comme nouvelle v
 
 
 
-***Propriétés.***
+***Propriétés***
 
 Pour afficher la page des propriétés AEM du fichier sélectionné, sélectionnez **Propriétés**.
 
@@ -182,6 +182,7 @@ Lorsque vous insérez une équation à l’aide de l’éditeur MathML, les guid
 **Insérer des notes de bas de page**
 
 - Insérez une note de bas de page dans votre contenu à l’aide de la fonction `fn` élément . En mode création, la valeur de la note de bas de page s’affiche en ligne avec le contenu. Cependant, lorsque vous passez en mode Aperçu ou publiez votre document, la note de bas de page apparaît à la fin de la rubrique.
+
 
 **Renommer ou remplacer un élément**
 

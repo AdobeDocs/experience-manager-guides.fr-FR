@@ -5,9 +5,9 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: acd16f23a7b3023a62b3c15007b03d4f3b2cfb4f
+source-git-commit: 873542cb2e8e1b7e80e0ecc113cae4f603b18592
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,11 @@ ht-degree: 0%
 
 Les guides du Experience Manager sont fournis avec la variable **Sources de données** qui vous aide à configurer des connecteurs prêts à l’emploi pour les sources de données. Vous pouvez configurer les connecteurs client REST JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, Elasticsearch et générique.
 
-Outre ces connecteurs prêts à l’emploi, Experience Manager Guides fournit les connecteurs pour les sources de données Salsify, Akeneo et Microsoft Azure DevOps (ADO). Vous pouvez les télécharger et les installer. Les utilisateurs peuvent ensuite configurer ces connecteurs.
+
+Outre ces connecteurs prêts à l’emploi, Experience Manager Guides fournit les connecteurs pour les sources de données Salsify, Akeneo et Microsoft Azure DevOps (ADO). Vous pouvez télécharger et installer ces connecteurs Open Source à partir du [Référentiel Maven Central](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). Les utilisateurs peuvent ensuite configurer ces connecteurs.
+Découvrez comment [installation d’un connecteur open source](#install-open-source-connector).
+
+
 
 Vous pouvez également vous connecter aux fichiers de données JSON à l’aide d’un connecteur de fichier. Téléchargez le fichier JSON sur votre ordinateur ou parcourez-le à partir des ressources Adobe Experience Manager. Créez ensuite des fragments de contenu ou des rubriques à l’aide des générateurs.
 
@@ -78,6 +82,39 @@ Pour créer une ressource, procédez comme suit :
 1. Vous pouvez également utiliser les ressources par défaut disponibles pour les sources de données telles que Salsify, Akeneo et Microsoft ADO. Désactivez les options de la ressource que vous ne souhaitez pas configurer pour une source de données.
 
 Vous pouvez ainsi récupérer rapidement des données d’une des ressources d’une source de données spécifique dans un seul fragment de contenu ou une seule rubrique.
+
+
+
+## Installation d’un connecteur open source{#install-open-source-connector}
+
+Pour publier une dépendance présente sur la variable [Référentiel Maven Central](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) aux Cloud Service, vous devez inclure et incorporer la dépendance d’un connecteur open source.
+
+1. Ajoutez la dépendance dans `all/pom.xml`  dans le code de votre projet Git cloud manager. Par exemple, vous pouvez ajouter la dépendance suivante pour le connecteur de source de données des forums de développement Azure de Microsoft.
+
+
+   ```
+   <dependency>
+       <groupId>com.adobe.aem.addon.guides</groupId>
+       <artifactId>konnect-azure-devops</artifactId>
+       <version>1.0.0</version>
+       <type>jar</type>
+   </dependency> 
+   ```
+
+1. Incorporez la dépendance ajoutée.
+
+       &quot;
+       &lt;embedded>
+       &lt;groupid>com.adobe.aem.addon.guides&lt;/groupid>
+       &lt;artifactid>konnect-azure-devops&lt;/artifactid>
+       &lt;type>jar&lt;/type>
+       &lt;target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install&lt;/target>
+       &lt;/embedded>
+       &quot;
+   
+1. Exécutez le pipeline pour appliquer les modifications dans les Cloud Service.
+Le connecteur est installé dans votre environnement.
+
 
 ## Fonctionnalités disponibles pour un connecteur
 

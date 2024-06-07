@@ -5,9 +5,9 @@ exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
 feature: Java-Based API Packages
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 4ce78061ddb193d3c16241ff32fa87060c9c7bd6
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,10 @@ La variable `activate` crée un package CRX sur l’instance d’auteur et le r�
 >
 > Les erreurs rencontrées lors du processus de création ou d’activation sont écrites dans la variable `outputstream`.
 
+### Exemple avec deux paramètres
+
 **Syntaxe**:
+
 
 ```JAVA
 public static void activate
@@ -54,9 +57,28 @@ public static void activate
 throws GuidesApiException
 ```
 
-**Paramètres**: |Nom|Type|Description| |—|—|—| |`json`|Chaîne|Chaîne JSON qui détermine le package CRX à créer. Utilisez le format suivant pour créer la chaîne JSON : <br>- `activate`: est de type Booléen \(`true`/`false`\). Détermine si le package CRX créé dans l’instance de création est répliqué vers l’instance de publication. <br> - `rules`: est de type JSON Array. Tableau de règles JSON qui sont traitées de manière séquentielle pour créer le package CRX. <br> - `rootPath`: est de type Chaîne. Chemin d’accès de base sur lequel les requêtes de noeud/propriété sont exécutées. Si aucune requête de noeud/propriété n’est présente, le chemin d’accès racine et tous les noeuds présents sous le chemin d’accès racine sont inclus dans le package CRX. <br> - `nodeQueries`: est de type Regex Array. Tableau d’expressions régulières utilisées pour inclure des fichiers spécifiques sous le chemin racine. <br> - `propertyQueries`: est de type JSON Array. Tableau d’objets JSON comportant chaque objet JSON constitué d’une requête XPath à exécuter sur le chemin racine et le nom d’une propriété présente dans chaque noeud JCR après l’exécution de la requête. La valeur de la propriété dans chaque noeud JCR doit être un chemin d’accès ou un tableau de chemins d’accès. Les chemins d’accès présents dans cette propriété sont ajoutés au package CRX.| |`outputstream`|java.io.OutputStream|Permet d’écrire le résultat de différentes étapes, telles que l’exécution de requêtes, l’inclusion de fichiers, la création de packages CRX ou l’activation. Toute erreur rencontrée lors de la création ou du processus d’activation est écrite dans la variable `outputstream`. Cela s’avère utile pour le débogage.| |`session`|Chaîne|Une session JCR valide avec autorisation d’activation.|
+### Exemple avec troisième paramètre facultatif
 
-**Exception**: renvoie ``java.io.IOException``.
+```JAVA
+public static void activate
+(
+  String json, 
+  OutputStream outputstream,
+  String activationTarget, 
+  Session session
+) 
+throws GuidesApiException
+```
+
+**Paramètres**: |Nom|Type|Description| |—|—|—| |`json`|Chaîne|Chaîne JSON qui détermine le package CRX à créer. Utilisez le format suivant pour créer la chaîne JSON : <br>- `activate`: est de type Booléen \(`true`/`false`\). Détermine si le package CRX créé dans l’instance de création est répliqué vers l’instance de publication. <br> - `rules`: est de type JSON Array. Tableau de règles JSON, qui sont traitées de manière séquentielle pour créer le package CRX. <br> - `rootPath`: est de type Chaîne. Chemin d’accès de base sur lequel les requêtes de noeud/propriété sont exécutées. Si aucune requête de noeud/propriété n’est présente, le chemin d’accès racine et tous les noeuds présents sous le chemin d’accès racine sont inclus dans le package CRX. <br> - `nodeQueries`: est de type Regex Array. Tableau d’expressions régulières utilisées pour inclure des fichiers spécifiques sous le chemin racine. <br> - `propertyQueries`: est de type JSON Array. Tableau d’objets JSON comportant chaque objet JSON constitué d’une requête XPath à exécuter sur le chemin racine et le nom d’une propriété présente dans chaque noeud JCR après l’exécution de la requête. La valeur de la propriété dans chaque noeud JCR doit être un chemin d’accès ou un tableau de chemins d’accès. Les chemins d’accès présents dans cette propriété sont ajoutés au package CRX.| |`outputstream`|java.io.OutputStream|Permet d’écrire le résultat de différentes étapes, telles que l’exécution de requêtes, l’inclusion de fichiers, la création de packages CRX ou l’activation. Toute erreur rencontrée lors de la création ou du processus d’activation est écrite dans la variable `outputstream`. Cela s’avère utile pour le débogage.| |`session`|Chaîne|Une session JCR valide avec autorisation d’activation.| |`activationTarget`|String|(*Facultatif*) `preview` ou `publish` pour le Cloud Service et `publish` pour le logiciel On-premise <br> - Pour Cloud Service, si le paramètre contient une valeur non valide, l’activation du package échoue. <br> - Pour le logiciel On-Premise, si le paramètre contient une valeur non valide, l’erreur est consignée et la publication est effectuée à l’aide de la valeur par défaut, `publish`. |
+
+**Exception**:
+
+Lancements `java.io.IOException` et `java.io.IllegalArgumentException`
+
+
+Si vous ne définissez pas le paramètre facultatif, `activationTarget`, il s’active à l’aide de l’agent de publication par défaut pour les logiciels Cloud Service et On-premise.
+
 
 **Exemple**: l’exemple suivant montre comment créer une requête JSON :
 

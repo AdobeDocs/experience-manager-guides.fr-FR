@@ -5,9 +5,9 @@ exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: aad652509c54b516fca49b7ca28d7dd5547f9a1b
 workflow-type: tm+mt
-source-wordcount: '4825'
+source-wordcount: '4972'
 ht-degree: 0%
 
 ---
@@ -352,25 +352,39 @@ Les champs sont très utiles lorsque vous souhaitez insérer une information pr�
 
 Il existe les catégories suivantes pour les champs que vous pouvez insérer dans la mise en page :
 
+* Métadonnées
+* Titre de la rubrique
+* Titre du chapitre
+* Titre de la carte
+* Numéro de page
+* Numéro de chapitre
+* Nombre total de pages
 * Date 
 * estimé
-* Titre de la rubrique
-* Titre du profil
-* Numéro de page
-* Page totale
-* Titre du chapitre
-* Numéro de chapitre
-* Métadonnées
+
 
 Chacune de ces catégories de champs contient différentes variantes dans lesquelles les informations du champ peuvent être insérées. Par exemple, un champ Date peut avoir différentes variantes, telles que `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` etc. De même, le numéro de page peut avoir des variations sous la forme de formats romains, décimaux ou même régionaux, tels que _Arabe_, _Devanagari_, _Hébreu_, etc.
 
-Outre les champs prédéfinis, vous pouvez ajouter des informations de métadonnées sous la forme de variables ou de champs dans la mise en page. Ces métadonnées sont stockées dans le contenu du mappage DITA source et peuvent être facilement insérées dans la mise en page.
 
-Vous pouvez également sélectionner les propriétés de métadonnées de vos ressources et les ajouter à la mise en page. Les métadonnées de la ressource sont ensuite publiées pour la sortie de votre PDF. Ces propriétés de métadonnées des ressources sont définies à partir de la propriété **Propriétés** page du mappage DITA ou du fichier bookmap.
+Outre les champs prédéfinis, vous pouvez ajouter des informations de métadonnées sous la forme de variables ou de champs dans la mise en page. Ces métadonnées sont stockées dans votre DITA source. **Mapper le contenu**, ou peut être sélectionné dans le DITA **Propriétés du fichier de carte** ou le **Propriétés du fichier de rubrique** et facilement insérés dans la mise en page.
+
+Vous pouvez sélectionner les métadonnées parmi les options suivantes :
+
+* **Mapper le contenu** inclut les métadonnées que vous avez définies dans la variable `<topicmeta>` élément du mappage DITA.
+* **Propriétés du fichier de carte** inclut les métadonnées, auxquelles vous pouvez accéder à partir de la variable **Propriétés** page d’un mappage DITA.
+* **Propriétés du fichier de rubrique** inclut les métadonnées, auxquelles vous pouvez accéder à partir de la variable **Propriétés** d’une rubrique.
+
+
+Vous pouvez combiner des métadonnées à partir de **Propriétés du fichier de carte** et **Propriétés du fichier de rubrique** dans un seul document. Par exemple, vous pouvez publier un PDF avec le titre de mappage sur la page de couverture et le titre de rubrique dans l’en-tête d’autres pages. Pour ce faire, vous pouvez ajouter les métadonnées de titre de mappage à partir de la propriété **Propriétés du fichier de carte** à la mise en page de garde. Ajoutez ensuite les métadonnées du titre de la rubrique à partir de la propriété **Propriétés du fichier de rubrique**  dans l’en-tête de la mise en page de la page Chapitres et Rubriques .
+
+Si une rubrique se termine sur une page, tandis que l’autre commence sur la même page, les métadonnées de la première rubrique sont sélectionnées. Vous pouvez également ajouter des propriétés personnalisées, puis les insérer en tant que champs dans la mise en page.
+
 
 >[!NOTE]
 >
 > Les champs de métadonnées s’affichent en fonction de votre sélection de ressources ou de mappage dans la variable **De** menu déroulant.
+
+
 
 
 <!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
@@ -395,7 +409,7 @@ Dans l’exemple suivant, nous allons insérer un numéro de page et un titre de
 
 1. Sélectionnez la variable **Numéro de page** catégorie de la liste Champ, la variable **default(1)** Format du numéro de page dans la liste Format, puis cliquez sur **Insérer**.
 
-   <img src="./assets/insert-page-number-field.svg" width="400">
+   <img src="./assets/insert-page-number-field.png" width="400">
 
    >[!NOTE]
    >

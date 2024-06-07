@@ -4,9 +4,9 @@ description: Découvrez comment utiliser la publication native de PDF, créer et
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Web Editor, Native PDF Output
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: e78749b1d5b4ba944cbca69ba65c6d28355b2c34
 workflow-type: tm+mt
-source-wordcount: '3293'
+source-wordcount: '3362'
 ht-degree: 1%
 
 ---
@@ -212,3 +212,10 @@ Si vous sélectionnez l’option **Téléchargement de fichiers temporaires** da
 
 AEM Guides fournit également la prise en charge des variables de langue. Sélectionner **Variables de langue** <img src="./assets/language-variables.svg" width="25">  dans le panneau de gauche pour définir une version localisée des libellés prêts à l’emploi tels que Remarque, Attention et Avertissement ou texte statique dans la sortie du PDF. Pour plus d’informations, voir [Prise en charge des variables de langue](../native-pdf/native-pdf-language-variables.md).
 
+
+
+### Prise en charge des documents Markdown
+
+Les guides du Experience Manager prennent également en charge vos documents Markdown.  Les fichiers Markdown sont faciles à créer et offrent également diverses options de formatage. Découvrez comment [créer des documents Markdown à partir de l’éditeur web ;](../user-guide/web-editor-markdown-topic.md).
+
+Vous pouvez ajouter les rubriques Markdown à votre mappage DITA et générer la sortie du PDF à l’aide des paramètres prédéfinis de sortie du PDF natif.  Découvrez comment configurer ou [création d’un paramètre prédéfini de sortie PDF](#create-a-pdf-output-preset-create-output-preset).

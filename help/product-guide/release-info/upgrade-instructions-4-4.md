@@ -2,10 +2,11 @@
 title: Notes de mise à jour | Instructions de mise à niveau de la version 4.4.0 des guides Adobe Experience Manager
 description: Découvrez comment mettre à niveau vers la version 4.4.0 des Guides Adobe Experience Manager
 role: Leader
-source-git-commit: 2209fd311ca1ad524db35633b8be22f6d303346d
+exl-id: 884178b6-7a72-471a-a6e3-238a543fb227
+source-git-commit: 47c06dcc30b34780cbd26ded1ca400a5056a59ba
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 1%
+source-wordcount: '461'
+ht-degree: 5%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 Cet article décrit les instructions de mise à niveau et la matrice de compatibilité de la version 4.4.0 des Guides Adobe Experience Manager.
 
-Pour plus d’informations sur les nouvelles fonctionnalités et améliorations, voir [Nouveautés de la version 4.4.0](../release-info/whats-new-4-4.md).
+Pour plus d’informations sur les nouvelles fonctionnalités et améliorations, voir la section [Nouveautés de la version 4.4.0](../release-info/whats-new-4-4.md).
 
 Pour obtenir la liste des problèmes résolus dans cette version, consultez [Correction de problèmes dans la version 4.4.0](../release-info/fixed-issues-4-4.md).
 
@@ -27,10 +28,10 @@ Cette section répertorie le tableau de compatibilité des applications logiciel
 ### Adobe Experience Manager
 
 **4.4.0 Non UID**
-Version 6.5 Service Pack 19, 18, 17
+Version 6.5 Service Pack 20, 19, 18 ou 17
 
 **UUID 4.4.0**
-Version 6.5 Service Pack 19, 18, 17
+Version 6.5 Service Pack 20, 19, 18 ou 17
 
 
 Pour plus d’informations, voir la [Exigences techniques](../install-guide/download-install-technical-requirements.md) dans le Guide d&#39;installation et de configuration On-Premise.
@@ -82,4 +83,3 @@ Vous pouvez facilement mettre à niveau votre version actuelle des guides vers l
 >Vous devez installer AEM Service Pack avant de mettre à niveau la version des guides du Experience Manager.
 
 Pour plus d’informations, voir [Instructions de mise à niveau pour les versions On-premise](../install-guide/upgrade-xml-documentation.md) de guides Experience Manager.
-

@@ -5,9 +5,9 @@ exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: f98aa2b4b196ee0fd46542317894163b64b8a486
 workflow-type: tm+mt
-source-wordcount: '3525'
+source-wordcount: '3778'
 ht-degree: 1%
 
 ---
@@ -374,3 +374,63 @@ Dans l’exemple suivant, nous allons créer un titre de fenêtre (`wintitle`) s
 La capture d’écran suivante affiche le style de titre de la fenêtre appliquée au texte &quot;Contrôle de Principal&quot;.
 
 <img src="./assets/other-style-wintitle.png" width="500">
+
+
+## Définition d’un style unique pour une mise en page unique
+
+Lors de la publication de la sortie du PDF natif, tous les styles sont fusionnés dans le PDF final et il est essentiel d’attribuer un style unique à chaque modèle dans le CSS.
+Utilisez des noms de style CSS distincts pour appliquer des polices et des styles spécifiques à différentes sections d’un PDF. Par exemple, vous pouvez définir la police souhaitée pour la page de garde à l’aide du CSS suivant.
+
+```css
+...
+[data-page-layout="Front"] * { 
+    font-size: 18pt; 
+}  
+...
+```
+
+
+Le reste du document utilise la police par défaut que vous avez spécifiée pour la balise body dans `content.css` ou `layout.css`. Cela permet de s’assurer que les styles ne sont pas fusionnés et que chaque section conserve sa conception prévue. Si vous souhaitez différentes tailles de police, créez des styles spécifiques pour elles.
+
+Par exemple, vous pouvez définir les styles suivants pour définir la taille de police 18 sur les paragraphes de la page de couverture avant et la taille de police 11 pt pour la page de couverture arrière :
+
+```css
+[data-page-layout="Front"] p { //For all paragraphs inside Front page
+  font-size: 18pt; 
+} 
+  
+[data-page-layout="Back"] p { //For all paragraphs inside Back page
+  font-size: 11pt; 
+}
+```
+
+>[!NOTE]
+>
+Dans l’exemple précédent, &quot;Front&quot; et &quot;Back&quot; sont les exemples de noms des fichiers de mise en page que vous pouvez utiliser dans les modèles.
+
+
+## Définition d’un style CSS personnalisé pour le contenu de préfixe et de suffixe
+
+Si vous définissez les styles CSS personnalisés, ils ont la priorité la plus élevée lors de la génération de la sortie du PDF natif.
+Le style CSS par défaut suivant masque le contenu des préfixes et des suffixes.
+
+```css
+...
+.prefix-content, .suffix-content{
+    display: none;
+} 
+...
+```
+
+Pour autoriser ces préfixes dans la variable `<note>` incluez la page CSS suivante dans votre `content.css`:
+
+```css
+...
+.prefix-content{
+    display: inline !important;
+}
+...
+```
+
+La variable `<note>` génère un `<span>` avec la classe prefix-content correspondant à son attribut type . Cette règle CSS cible les `.prefix-content` classe dans `<note>` avec un attribut type , ce qui vous permet de mettre en forme ou de manipuler le contenu du préfixe selon vos besoins.
+

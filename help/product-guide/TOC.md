@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: 56fa545f1dd32bcc3ec533cffb14a364b934ba20
+source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
 workflow-type: tm+mt
-source-wordcount: '1792'
-ht-degree: 6%
+source-wordcount: '1815'
+ht-degree: 7%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 6%
       - Cloud Services {#cloud-release-notes}
          - [Instructions de déploiement](./release-info/deploy-xml-on-aemaacs.md)
          - Versions de 2024 {#2024-releases}
+            - Version 2024.6.0 {#2406-release}
+               - [Nouveautés](./release-info/whats-new-2024-06-0.md)
+               - [Problèmes résolus](./release-info/fixed-issues-2024-06-0.md)
+               - [Instructions de mise à niveau](./release-info/upgrade-instructions-2024-06-0.md)
             - Version 2024.4.0 {#2404-release}
                - [Nouveautés](./release-info/whats-new-2024-04-0.md)
                - [Problèmes résolus](./release-info/fixed-issues-2024-04-0.md)
@@ -121,6 +125,7 @@ ht-degree: 6%
                - [Affichages de l’éditeur web](./user-guide/web-editor-views.md)
                - [Prise en charge des fichiers de schéma](./user-guide/support-schematron-file.md)
                - [Suggestions intelligentes optimisées par l’IA pour créer du contenu](./user-guide/authoring-ai-based-smart-suggestions.md)
+
                - [Création de documents Markdown à partir de l’éditeur web](./user-guide/web-editor-markdown-topic.md)
                - [Ajout de citations à votre contenu](./user-guide/web-editor-apply-citations.md)
                - [Utiliser les données de vos sources de données](./user-guide/web-editor-content-snippet.md)
@@ -191,7 +196,8 @@ ht-degree: 6%
          - [Configuration de caractères spéciaux supplémentaires](./web-editor/configure-additional-special-characters.md)
       - [Gestion des tâches de publication à l’aide du tableau de bord de publication](./user-guide/generate-output-publish-dashboard.md)
       - [Résolution des problèmes de base](./user-guide/generate-output-basic-troubleshooting.md)
-      - [Publication sur un fragment de contenu](./user-guide/publish-content-fragment.md)
+      - [Publier des fragments de contenu](./user-guide/publish-content-fragment.md)
+      - [Publication de fragments d’expérience](./user-guide/publish-experience-fragment.md)
       - Activation en masse du contenu {#bulk-activation}
          - [Activation en masse de contenu publié](./user-guide/conf-bulk-activation.md)
          - [Création d’une collection de cartes d’activation en bloc](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -240,10 +246,11 @@ ht-degree: 6%
       - Utilisation de la personnalisation DITA-OT et de la spécialisation {#custom-dita-ot-spec}
          - [Utilisation de la spécialisation DITA-OT et DITA personnalisée](./install-guide/dita-ot-specialization.md)
       - Configuration des noms de fichier UUID et non UUID {#conf-non-uuid-filename}
-         - [Configuration des noms de fichier](./install-guide/conf-file-names.md)
-         - [Configuration des noms de fichier automatique en fonction de l’UUID](./install-guide/conf-auto-uuid-filenames.md)
-         - [Configuration de Regx pour les caractères de nom de fichier valides](./install-guide/conf-file-names-valid-regx.md)
-         - [Configuration de noms de fichier valides pour AEM sortie Site](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
+      - [Configuration du post-traitement d’un dossier](./install-guide/conf-folder-post-processing.md)
+      - [Configuration des noms de fichier](./install-guide/conf-file-names.md)
+      - [Configuration des noms de fichier automatique en fonction de l’UUID](./install-guide/conf-auto-uuid-filenames.md)
+      - [Configuration de Regx pour les caractères de nom de fichier valides](./install-guide/conf-file-names-valid-regx.md)
+      - [Configuration de noms de fichier valides pour AEM sortie Site](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
       - Utilisation de modèles de rubrique et de mappage {#topic-map-template}
          - [Configuration des modèles de rubrique et de mappage](./install-guide/conf-template-tags.md)
          - [Configuration du modèle de rubrique DITA personnalisé](./install-guide/conf-template-tags-custom-dita-topic-template.md)
@@ -287,6 +294,7 @@ ht-degree: 6%
             - [Concevoir une mise en page](./native-pdf/design-page-layout.md)
             - [Variables dans la sortie du PDF](./native-pdf/native-pdf-variables.md)
             - [Prise en charge des variables de langue](./native-pdf/native-pdf-language-variables.md)
+            - [Ajout d’un code à barres à la sortie PDF](./native-pdf/add-barcode.md)
             - Styles de contenu courants {#content-styles}
                - [Utilisation des styles de contenu communs](./native-pdf/stylesheet.md)
                - [Utilisation des styles de barres de modification personnalisés](./native-pdf/change-bar-style.md)
@@ -295,8 +303,7 @@ ht-degree: 6%
                - [Utilisation de JavaScript pour utiliser du contenu ou du style](./native-pdf/use-javascript-content-style.md)
                - [Application de styles aux notes de bas de page](./native-pdf/footnote-number-style.md)
          - [Configuration des indicateurs JVM pour la publication native de PDF](./native-pdf/configure-jvm-flags.md)
-         - [Créer un mappage entre une rubrique et un fragment de contenu](./install-guide/conf-content-fragment-mapping.md)
-      - Utilisation de workflows personnalisés {#custom-workflow}
+         - Utilisation de workflows personnalisés {#custom-workflow}
          - [Configuration et personnalisation des workflows](./install-guide/customize-workflows.md)
       - Utilisation des configurations de traduction {#translate-config}
          - [Traduction du contenu](./install-guide/translation.md)
@@ -365,6 +372,7 @@ ht-degree: 6%
          - [Publication de PDF natifs](./cs-install-guide/native-pdf-publishing.md)
          - [Configuration du processus Node pour la publication native de PDF](./native-pdf/configure-node-options.md)
          - [Créer un mappage entre une rubrique et un fragment de contenu](./cs-install-guide/conf-content-fragment-mapping-cs.md)
+         - [Créer un mappage entre une rubrique et un fragment d’expérience](./cs-install-guide/conf-experience-fragment-mapping-cs.md)
       - Utilisation de workflows personnalisés {#custom-workflow-cs}
          - [Configuration et personnalisation des workflows](./cs-install-guide/customize-workflows.md)
       - Utilisation des configurations de traduction {#translate-config-cs}
