@@ -1,9 +1,10 @@
 ---
-title: Configuration de la publication basée sur Microservice avec l’authentification OAuth pour AEM Guides as a Cloud Service
+title: Configuration de la publication basée sur Microsoft avec l’authentification OAuth pour AEM Guides as a Cloud Service
 description: Découvrez comment configurer la publication basée sur un microservice avec l’authentification OAuth pour AEM Guides.
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
+source-git-commit: 6d935ce934890066de358c434717efeef2c997cb
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -14,20 +15,20 @@ ht-degree: 0%
 
 Le microservice de publication vous permet d’exécuter simultanément des charges de travail de publication volumineuses sur Experience Manager Guides as a Cloud Service et de tirer parti de la plate-forme sans serveur Adobe I/O Runtime de pointe.
 
-Pour chaque demande de publication, les guides du Experience Manager as a Cloud Service exécutent un conteneur distinct qui se met à l’échelle horizontalement en fonction des demandes de l’utilisateur. Cela permet d’exécuter plusieurs requêtes de publication et d’obtenir de meilleures performances que leurs serveurs Adobe Experience Manager On-premise volumineux.
+Pour chaque demande de publication, Experience Manager Guides as a Cloud Service exécute un conteneur distinct qui se met à l’échelle horizontalement en fonction des demandes de l’utilisateur. Cela permet d’exécuter plusieurs requêtes de publication et d’obtenir de meilleures performances que leurs serveurs Adobe Experience Manager On-premise volumineux.
 
 >[!NOTE]
 >
-> La publication basée sur les microservices dans les guides de Experience Manager prend en charge les types de paramètres prédéfinis de sortie PDF (natifs et basés sur DITA-OT), HTML5, JSON et PERSONNALISÉS.
+> La publication basée sur les microservices dans Experience Manager Guides prend en charge les types de paramètres prédéfinis de sortie PDF (natif et basé sur DITA-OT), HTML5, JSON et PERSONNALISÉS.
 
 Comme le service de publication dans le cloud est sécurisé par l’authentification basée sur OAuth d’Adobe IMS, effectuez les étapes suivantes pour intégrer leurs environnements aux workflows d’authentification par jeton sécurisés d’Adobe et commencer à utiliser la solution de publication évolutive basée sur le cloud.
 
 
-## Création de configurations IMS dans la console Adobe Developer
+## Création de configurations IMS dans Adobe Developer Console
 
 **Rôle requis pour créer les configurations**: administrateur système
 
-Effectuez les étapes suivantes pour créer des configurations IMS dans **Console Adobe Developer**:
+Effectuez les étapes suivantes pour créer des configurations IMS dans **Adobe Developer Console**:
 
 >[!NOTE]
 >
@@ -39,7 +40,7 @@ Effectuez les étapes suivantes pour créer des configurations IMS dans **Consol
 
    <img src="assets/projects-tab.png" alt="onglet projets" width="500">
 
-   *Sélectionnez la variable **Projets**sur l’**Console Adobe Developer***
+   *Sélectionnez la variable **Projets**sur l’**Adobe Developer Console***
 
 1. Pour créer un projet vide, sélectionnez **Projet vide** de la **Créer un projet** menu déroulant.
 
@@ -127,7 +128,7 @@ Pour utiliser un microservice de publication pour la première fois, mettez à j
 >
 > Ignorez les étapes suivantes si vous utilisez déjà la publication basée sur un microservice :
 
-Une fois que vous avez ajouté la configuration IMS à l’environnement, procédez comme suit pour lier ces propriétés à des guides du Experience Manager à l’aide d’OSGi :
+Une fois la configuration IMS ajoutée à l’environnement, procédez comme suit pour lier ces propriétés à Experience Manager Guides à l’aide d’OSGi :
 
 1. Dans le code de votre projet Git Cloud Manager, ajoutez les deux fichiers suivants (pour le contenu du fichier, affichez [Annexe](#appendix)).
 
