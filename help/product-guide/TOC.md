@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: 1ec647821129467ecbf3641fcee0360e37e91fc0
+source-git-commit: 05a21c8b18d5eb79447423d48e1d65b4d6b44242
 workflow-type: tm+mt
 source-wordcount: '1819'
 ht-degree: 7%
@@ -138,8 +138,8 @@ ht-degree: 7%
                - Publication basée sur des articles {#article-based-pub}
                   - [Publication basée sur des articles à partir de l’éditeur web](./user-guide/web-editor-article-publishing.md)
                   - [Création de paramètres prédéfinis de sortie à partir de l’éditeur web](./user-guide/web-editor-article-publishing-presets.md)
-                  - [Sortie generate à partir du panneau Référentiel ou du panneau Vue Carte](./user-guide/web-editor-article-publishing-output.md)
-                  - [Utilisation du panneau Quick Generate pour generate et affichage de la sortie](./user-guide/web-editor-quick-generate-panel.md)
+                  - [Générer une sortie à partir du panneau Référentiel ou du panneau Vue Carte](./user-guide/web-editor-article-publishing-output.md)
+                  - [Utilisation du panneau Génération rapide pour générer et afficher la sortie](./user-guide/web-editor-quick-generate-panel.md)
                - [Traduire des documents à partir de l’éditeur Web](./user-guide/translate-documents-web-editor.md)
                - [Création et gestion des lignes de base à partir de l’éditeur web](./user-guide/web-editor-baseline.md)
                - [État du document](./user-guide/web-editor-document-states.md)
@@ -197,7 +197,7 @@ ht-degree: 7%
       - [profilage conditionnel des attributs](./user-guide/generate-output-conditional-attribute-profiling.md)
       - [Utilisation des paramètres de condition prédéfinis](./user-guide/generate-output-use-condition-presets.md)
       - [Utilisation de la ligne de base](./user-guide/generate-output-use-baseline-for-publishing.md)
-      - [Sortie generate pour un mappage DITA depuis la console de mappage](./user-guide/generate-output-for-a-dita-map.md)
+      - [Générer la sortie d’un mappage DITA à partir de la console de mappage](./user-guide/generate-output-for-a-dita-map.md)
       - [Utilisation de la collecte des cartes pour la génération de la sortie](./user-guide/generate-output-use-map-collection-output-generation.md)
       - Utilisation de la fonction de publication de PDF native {#web-editor}
          - [Sortie Publish PDF](./web-editor/native-pdf-web-editor.md)
@@ -213,13 +213,13 @@ ht-degree: 7%
          - [Modification d’une collection de cartes d’activation en bloc](./user-guide/conf-bulk-activation-edit-map-collection.md)
          - [Suppression d’une collection de cartes d’activation en bloc](./user-guide/conf-bulk-activation-delete-map-collection.md)
    - Génération de sorties de documents de FrameMaker {#generate-fm-output}
-      - [Sortie generate des documents de FrameMaker](./user-guide/fm-output-generatation.md)
+      - [Générer une sortie de documents de FrameMaker](./user-guide/fm-output-generatation.md)
       - Paramètres prédéfinis pris en charge {#fm-docs-generating-presets}
          - [Paramètres prédéfinis pour la génération de documents de FrameMaker](./user-guide/fm-output-understand-presets.md)
          - [PDF](./user-guide/fm-output-pdf-preset.md)
          - [HTML5](./user-guide/fm-output-html5-preset.md)
          - [EPUB](./user-guide/fm-output-epub-preset.md)
-      - [Sortie generate des fichiers .book ou .fm](./user-guide/fm-output-generate.md)
+      - [Générer la sortie des fichiers .book ou .fm](./user-guide/fm-output-generate.md)
       - [Afficher l&#39;état de la tâche de génération de sortie](./user-guide/fm-output-view-status.md)
    - Rapports dans AEM Guides {#reports-aem-guide}
       - [Présentation des rapports](./user-guide/reports-intro.md)
@@ -276,10 +276,10 @@ ht-degree: 7%
          - [Configurer un panneau personnalisé dans le panneau de gauche](./install-guide/configure-custom-panel.md)
          - [Configuration de l’enregistrement automatique du fichier dans l’éditeur web](./install-guide/auto-save-in-editor.md)
          - [Configuration des filtres pour la boîte de dialogue de navigation dans les fichiers](./install-guide/conf-custom-file-filters.md)
-         - [Configuration de prompt pour l’enregistrement en tant que nouvelle version à la fermeture](./install-guide/conf-save-as-new-version-close.md)
-         - [Configurer prompt pour archiver un fichier à la fermeture](./install-guide/conf-checkin-file-close.md)
+         - [Configuration d’une invite pour l’enregistrement en tant que nouvelle version à la fermeture](./install-guide/conf-save-as-new-version-close.md)
+         - [Configuration d’une invite pour archiver un fichier à la fermeture](./install-guide/conf-checkin-file-close.md)
          - [Configuration des caractères spéciaux autorisés](./install-guide/conf-special-chars.md)
-         - [Identifiants d’élément generate automatique](./install-guide/auto-generate-ids.md)
+         - [Génération automatique des identifiants d’élément](./install-guide/auto-generate-ids.md)
          - [Personnalisation AEM dictionnaire par défaut](./install-guide/customize-aem-custom-dictionary.md)
          - [Configuration des filtres de texte](./install-guide/config-text-filters.md)
          - [Configuration du nombre de LimitReads pour une requête](./install-guide/conf-query-limitreads.md)
@@ -358,10 +358,10 @@ ht-degree: 7%
          - [Ouvrir les fichiers de rubrique ou de mappage DITA dans le même onglet](./cs-install-guide/open-dita-files-same-tab.md)
          - [Configurer un panneau personnalisé dans le panneau de gauche](./cs-install-guide/configure-custom-panel.md)
          - [Configuration de l’enregistrement automatique du fichier dans l’éditeur web](./cs-install-guide/auto-save-in-editor.md)
-         - [Configuration de prompt pour l’enregistrement en tant que nouvelle version à la fermeture](./cs-install-guide/conf-save-as-new-version-close.md)
-         - [Configurer prompt pour archiver un fichier à la fermeture](./cs-install-guide/conf-checkin-file-close.md)
+         - [Configuration d’une invite pour l’enregistrement en tant que nouvelle version à la fermeture](./cs-install-guide/conf-save-as-new-version-close.md)
+         - [Configuration d’une invite pour archiver un fichier à la fermeture](./cs-install-guide/conf-checkin-file-close.md)
          - [Configuration des caractères spéciaux autorisés](./cs-install-guide/conf-special-chars.md)
-         - [Identifiants d’élément generate automatique](./cs-install-guide/auto-generate-ids.md)
+         - [Génération automatique des identifiants d’élément](./cs-install-guide/auto-generate-ids.md)
          - [Personnalisation AEM dictionnaire par défaut](./cs-install-guide/customize-aem-custom-dictionary.md)
          - [Configuration des filtres de texte](./cs-install-guide/config-text-filters.md)
          - [Configuration des filtres pour la boîte de dialogue de navigation dans les fichiers](./cs-install-guide/conf-custom-file-filters.md)
@@ -422,7 +422,7 @@ ht-degree: 7%
       - [Intégration de source de données externe](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
       - [Traduire le contenu dans les guides - partie 2](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
       - [Définition, gestion et utilisation des métadonnées](./knowledge-base/expert-sessions/metadata-define-manage-utilize-may2024.md)
-      - [Variations de sortie du site AEM](./knowledge-base/expert-sessions/aem-site-output-variations-27jun.md)
+      - [Variations de sortie du site AEM](./knowledge-base/expert-sessions/aem-site-output-variations-jun2024.md)
    - Articles {#kb-articles}
 
       - Création {#authoring}
@@ -466,7 +466,7 @@ ht-degree: 7%
 
          - [Configuration de l’environnement AEM pour la publication avec des PDF natifs](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
 
-         - [Table des matières de generate Bookmap dans la publication native PDF](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+         - [Générer la table des matières du plan de bookmap dans la publication du PDF natif](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
 
          - [FMPS et guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [Architecture et performances des microservices](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
