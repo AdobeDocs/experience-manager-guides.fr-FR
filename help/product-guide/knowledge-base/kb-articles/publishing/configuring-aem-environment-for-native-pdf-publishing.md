@@ -13,11 +13,11 @@ ht-degree: 1%
 
 # Configuration de l’environnement AEM pour la publication de PDF natifs
 
-AEM Guides comprend un moteur de publication PDF natif qui permet aux utilisateurs de concevoir, développer et publier le contenu au format PDF.
+AEM Guides comprend un moteur de publication de PDF natif qui permet aux utilisateurs de concevoir, développer et publier le contenu au format PDF.
 
 Il permet de créer différentes mises en page, modèles CSS et de concevoir les modèles de PDF conjointement avec les mises en page et CSS.
 
-Les étapes de configuration de cet PDF natif dans les Guides d’AEM diffèrent selon le système d’exploitation. Suivez les étapes de configuration ci-dessous en fonction du système d’exploitation sur lequel AEM est installé.
+Les étapes de configuration de cet PDF natif dans AEM Guides diffèrent selon le système d’exploitation. Suivez les étapes de configuration ci-dessous en fonction du système d’exploitation sur lequel AEM est installé.
 
 ## Conditions préalables
 
@@ -39,7 +39,7 @@ Le moteur de publication de PDF natif a besoin d’un JDK d’Oracle pour géné
 2. Dans la barre des tâches de Windows, cliquez avec le bouton droit de la souris sur l’icône Windows et sélectionnez Système.
 3. Dans la fenêtre Paramètres, sous Paramètres associés, cliquez sur Paramètres système avancés.
 4. Dans l’onglet Avancé, cliquez sur Variables d’environnement.
-5. Dans la section des variables système, cliquez sur &quot;_Nouveau_&quot; pour créer une variable d’environnement.
+5. Dans la section des variables système, cliquez sur &quot;_New_&quot; pour créer une variable d’environnement.
 6. Saisissez le nom de la variable JAVA_HOME.
 7. Dans le champ value , indiquez le chemin d’installation Java et cliquez sur OK.
 
@@ -93,7 +93,7 @@ Le moteur de publication de PDF natif a besoin d’un JDK d’Oracle pour géné
    2. export PATH=$PATH : $JAVA\_HOME/bin
 
 5. Redémarrez AEM serveur et passez à l’étape 12, si vous utilisez les Guides version 4.2 et ultérieure.
-6. Copiez le _node_modules.zip_&quot; joint au bas de cet article au répertoire crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
+6. Copiez le &quot;_node_modules.zip_&quot; joint au bas de cet article dans le répertoire crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
 7. Ouvrez le terminal à l’emplacement crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/ .
 8. Supprimez le répertoire node_modules en utilisant la commande ci-dessous
 
@@ -111,7 +111,7 @@ Le moteur de publication de PDF natif a besoin d’un JDK d’Oracle pour géné
 Commande : yum install fontconfig
 12. Générez un PDF natif à partir des paramètres prédéfinis dans l’éditeur web.
 
-**REMARQUE** : le package node_modules.zip peut être téléchargé [here](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
+**REMARQUE** : le package node_modules.zip peut être téléchargé [ici](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
 
 L’importation manuelle des modules de noeud téléchargés pour le système d’exploitation Linux est une solution de contournement pour les utilisateurs qui utilisent les guides 4.1 ou les versions antérieures (Étape 6-12).
 
@@ -142,11 +142,13 @@ L’importation manuelle des modules de noeud téléchargés pour le système d�
 
    C:/{aem-installation-folder}/crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
 
-   i) find . -type d -exec chmod 0755 {} \; ii) rechercher . -type f -exec chmod 0755 {} \; iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix . install —unsafe-perm —scripts-prepend-node-path
+   i) find . -type d -exec chmod 0755 {} \;
+ii) find . -type f -exec chmod 0755 {} \;
+iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix . install —unsafe-perm —scripts-prepend-node-path
 
 8. Vérifiez si Java est installé à l’aide de la commande ci-dessous
 
-   i) Exécuter **./node-darwin/bin/node** à partir du dossier /crx-quickstart/profiles/nodejs—b1aad0a 7-9079-e56c-1ed8-6fcababe8166
+   i) Exécutez **./node-darwin/bin/node** à partir du dossier /crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
 
    ![mac](../assets/publishing/mac.png)
 
@@ -163,7 +165,7 @@ Vous trouverez ci-dessous les erreurs courantes qui peuvent se produire pendant 
 
 ### Exception de pointeur nul sous Windows/Mac OS
 
-![exception de pointeur nul](../assets/publishing/null-pointer-exception.png)
+![ {null pointer exception](../assets/publishing/null-pointer-exception.png)
 
 Si le problème persiste même après la correction des paramètres de l’environnement Java, veuillez revalider les éléments suivants :
 
@@ -173,14 +175,14 @@ Si le problème persiste même après la correction des paramètres de l’envir
 
 ### Bibliothèques manquantes dans RHEL 7 Linux OS
 
-![bibliothèques manquantes](../assets/publishing/missing-libraries.png)
+![ bibliothèques manquantes](../assets/publishing/missing-libraries.png)
 
-### Timeout du processus de publication. Le processus ne s’est pas terminé pendant une période donnée de 0 ms
+### Délai d’expiration du processus Publish. Le processus ne s’est pas terminé pendant une période donnée de 0 ms
 
-![délai du processus de publication](../assets/publishing/publish-process-timeout.png)
+![Délai d’expiration du processus de publication](../assets/publishing/publish-process-timeout.png)
 
 Validez la valeur de la propriété timeout pour le noeud nodejs dans /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejs dans le référentiel CRX. La valeur par défaut est 300.
 
 
 
-Si vous rencontrez des problèmes lors de l’exécution de l’une des étapes ci-dessus, publiez votre question dans la communauté AEM Guides. [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) pour obtenir de l’aide.
+Si vous rencontrez des problèmes lors de l’exécution de l’une des étapes ci-dessus, publiez votre question sur le [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) de la communauté AEM Guides pour obtenir de l’aide.

@@ -2,7 +2,8 @@
 title: Widgets de rendu
 description: Fonctionnement du rendu dans les widgets JUI
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 381cc7b9-c957-40be-9db4-8347eefe2fa7
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
@@ -11,9 +12,9 @@ ht-degree: 0%
 
 # Widgets de rendu
 
-Nous pouvons générer un widget en le référençant à l’aide de la fonction `id`
+Nous pouvons générer un widget en le référençant à l’aide de son `id`
 
-Pour générer le widget `widget_languages` n’importe où dans l’application, nous pouvons utiliser la syntaxe simple :
+Pour effectuer le rendu du widget `widget_languages` n’importe où dans l’application, nous pouvons utiliser la syntaxe simple :
 
 ```json
 {
@@ -67,7 +68,7 @@ const listJSON = {
 }
 ```
 
-Ici `@files` est une liste d’objets de fichier contenant des champs
+Ici `@files` est une liste d&#39;objets de fichier contenant des champs
 
 ```typescript
 - fileName: string

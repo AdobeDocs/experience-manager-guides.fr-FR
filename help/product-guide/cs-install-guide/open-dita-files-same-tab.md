@@ -20,13 +20,13 @@ Suivez les instructions de la section [Remplacements de configuration](download-
 
 | PID | Clé de propriété | Valeur de la propriété |
 |---|------------|--------------|
-| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.openinsametab` | Booléen \(true/false\). <br> **Valeur par défaut**: `false` |
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.openinsametab` | Booléen \(true/false\). <br> **Valeur par défaut** : `false` |
 
 Ce paramètre a un impact sur les emplacements suivants d’où vous pouvez accéder aux fichiers de rubrique ou de mappage :
 
-- Créez une rubrique DITA \(à la fin du processus, lorsque vous cliquez sur l’icône **Ouvrir la rubrique** button\)
+- Créez une rubrique DITA \(à la fin du processus, lorsque vous cliquez sur le bouton **Ouvrir la rubrique**\)
 
-- Créez une carte DITA \(à la fin du processus, lorsque vous cliquez sur la **Open Map** button\)
+- Créez la carte DITA \(à la fin du processus, lorsque vous cliquez sur le bouton **Ouvrir la carte**\)
 
 - Onglet Sujets dans la console de mappage DITA
 
@@ -35,4 +35,4 @@ Ce paramètre a un impact sur les emplacements suivants d’où vous pouvez acc�
 - Onglet Rapports dans la console de mappage DITA
 
 
-**Rubrique parente :**[ Personnalisation de l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Chargement de contenu DITA existant {#id176FF000JUI}
 
-Il est probable que vous disposiez d’un référentiel de contenu DITA existant que vous souhaitez utiliser avec AEM Guides. Pour ce contenu existant, vous pouvez utiliser l’une des méthodes suivantes pour charger votre contenu en masse dans le référentiel AEM.
+Vous disposez probablement d’un référentiel de contenu DITA existant que vous souhaitez utiliser avec AEM Guides. Pour ce contenu existant, vous pouvez utiliser l’une des méthodes suivantes pour charger votre contenu en masse dans le référentiel AEM.
 
 ## Utilisation d’un outil WebDAV
 
@@ -28,7 +28,7 @@ Effectuez les étapes suivantes pour utiliser WinSCP pour charger des fichiers :
 
    La boîte de dialogue Connexion s’affiche.
 
-1. Dans la boîte de dialogue Connexion, spécifiez un paramètre Nouveau site en choisissant WebDAV comme paramètre **Protocole de fichier** et fournissant d’autres détails de connexion, tels que :
+1. Dans la boîte de dialogue Connexion, spécifiez un paramètre Nouveau site en choisissant WebDAV comme **protocole de fichier** et en fournissant d’autres détails de connexion tels que :
 
    - l&#39;URL d&#39;hébergement de votre serveur AEM,
 
@@ -49,20 +49,20 @@ Effectuez les étapes suivantes pour utiliser FrameMaker AEM Connector pour tél
 
 1. FrameMaker de lancement.
 
-1. Ouvrez le **Gestionnaire de connexions** boîte de dialogue.
+1. Ouvrez la boîte de dialogue **Connection Manager** .
 
    ![](assets/fm-aem-connector.png){width="550" align="left"}
 
 1. Saisissez les informations suivantes pour vous connecter au référentiel AEM :
 
-   - **Nom**: saisissez un nom explicite afin d’identifier la connexion à votre serveur AEM.
-   - **Serveur**: saisissez l’URL et le numéro de port de votre serveur AEM.
+   - **Nom** : saisissez un nom descriptif pour identifier la connexion à votre serveur AEM.
+   - **Serveur** : saisissez l’URL et le numéro de port de votre serveur AEM.
 
-   - **Nom d’utilisateur**/**Password**: saisissez le nom d’utilisateur et le mot de passe pour accéder au serveur AEM.
+   - **Nom d’utilisateur**/**Mot de passe** : saisissez le nom d’utilisateur et le mot de passe pour accéder au serveur AEM.
 
-1. Cliquez sur **Connexion**.
+1. Cliquez sur **Connect**.
 
-   Une fois la connexion établie, les ressources du référentiel AEM s’affichent dans la fenêtre Gestionnaire de référentiel.
+   Une fois la connexion établie, Assets du référentiel d’AEM s’affiche dans la fenêtre Gestionnaire de référentiel.
 
    ![](assets/fm-repo-manager.png){width="550" align="left"}
 
@@ -83,9 +83,9 @@ Effectuez les étapes suivantes pour vérifier les noms de fichier par rapport �
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Recherchez et cliquez sur le bouton *com.adobe.config.ConfigManager* du lot.
+1. Recherchez et cliquez sur le lot *com.adobe.fmdita.config.ConfigManager*.
 
-1. Dans le **Modèles de nom de fichier UUID** , spécifiez un modèle pour vérifier les noms du fichier importé.
+1. Dans la propriété **UUID Filename Patterns**, spécifiez un modèle pour vérifier les noms du fichier importé.
 
    Si un fichier ne suit pas le modèle spécifié, un UUID est ajouté à la propriété du fichier et toutes les références au fichier sont mises à jour avec l’UUID affecté au fichier.
 
@@ -97,14 +97,14 @@ Effectuez les étapes suivantes pour vérifier les noms de fichier par rapport �
 Vous pouvez utiliser l’une des méthodes suivantes pour télécharger votre contenu avec l’UUID :
 
 - Glissez-déposez du contenu depuis votre système local.
-- Utilisez la variable **Créer** \> **Fichiers** workflow à partir de l’interface utilisateur d’AEM Assets.
+- Utilisez le workflow **Créer** \> **Fichiers** à partir de l’interface utilisateur Assets d’AEM.
 - Utilisez un outil tel que WinSCP.
 
-Si vous utilisez un outil tel que WinSCP, vous pouvez définir l’action à effectuer sur un fichier dupliqué en définissant la variable **Déplacer un ancien fichier avec le même UUID vers un nouveau dossier** dans configMgr. Cette option définit l’action effectuée sur un fichier disponible à un autre emplacement du référentiel AEM. Ce paramètre est disponible dans la *com.adobe.config.ConfigManager* dans configMgr.
+Si vous utilisez un outil tel que WinSCP, vous pouvez définir l’action à effectuer sur un fichier dupliqué en définissant l’option **Déplacer l’ancien fichier avec le même UUID vers le nouveau dossier** dans configMgr. Cette option définit l’action effectuée sur un fichier disponible à un autre emplacement du référentiel AEM. Ce paramètre est disponible dans le lot *com.adobe.fmdita.config.ConfigManager* de configMgr.
 
-Par défaut, la variable **Déplacer un ancien fichier avec le même UUID vers un nouveau dossier** est activée. Cela signifie que lorsque le fichier en cours de chargement se trouve dans un autre dossier du référentiel, le fichier existant est déplacé vers l’emplacement actuel et remplacé par le fichier en cours de chargement. Si vous ne sélectionnez pas cette option, le fichier est remplacé à son emplacement existant.
+Par défaut, l’option **Déplacer l’ancien fichier avec le même UUID vers le nouveau dossier** est activée. Cela signifie que lorsque le fichier en cours de chargement se trouve dans un autre dossier du référentiel, le fichier existant est déplacé vers l’emplacement actuel et remplacé par le fichier en cours de chargement. Si vous ne sélectionnez pas cette option, le fichier est remplacé à son emplacement existant.
 
-**Remarques supplémentaires sur l’utilisation de fichiers UUID**:
+**Remarques supplémentaires sur l’utilisation de fichiers UUID** :
 
 Les points suivants doivent être pris en compte lors du déplacement ou de la copie de contenu dans le référentiel AEM :
 
@@ -126,7 +126,7 @@ Les points suivants doivent être pris en compte lors du déplacement ou de la c
 
 Vous pouvez également utiliser des commandes curl pour créer un dossier dans DAM, charger des fichiers et ajouter des métadonnées sur le contenu chargé.
 
-**Création d’un dossier**
+**Créer un dossier**
 
 Exécutez la commande suivante pour créer un dossier dans AEM référentiel :
 
@@ -136,14 +136,14 @@ curl --user <username>:<password> --data jcr:primaryType=sling:Folder "<server f
 
 Spécifiez les paramètres suivants pour créer un dossier :
 
-- `<username>:<passowrd>`: spécifiez le nom d’utilisateur et le mot de passe pour accéder au référentiel AEM. Cet utilisateur doit disposer des droits de création de dossier.
+- `<username>:<passowrd>` : indiquez le nom d’utilisateur et le mot de passe pour accéder au référentiel AEM. Cet utilisateur doit disposer des droits de création de dossier.
 
-- `jcr:primaryType=sling:Folder`: indiquez ce paramètre *as is* pour créer une ressource de type dossier.
+- `jcr:primaryType=sling:Folder` : spécifiez ce paramètre *tel quel* pour créer une ressource de type dossier.
 
-- `<server folder path>`: chemin d’accès complet au dossier, y compris le nom du nouveau dossier que vous souhaitez créer dans le référentiel AEM. Par exemple, si vous spécifiez le chemin comme `http://192.168.1.1:4502/content/dam/projects/AEM-Guides`, puis le dossier `AEM-Guides` est créé dans la fonction `projects` dans DAM.
+- `<server folder path>` : chemin d’accès complet au dossier incluant le nom du nouveau dossier que vous souhaitez créer dans le référentiel AEM. Par exemple, si vous spécifiez le chemin `http://192.168.1.1:4502/content/dam/projects/AEM-Guides`, le dossier `AEM-Guides` est créé dans le dossier `projects` de la gestion des ressources numériques.
 
 
-**Chargement d’un fichier**
+**Télécharger un fichier**
 
 Exécutez la commande suivante pour charger un fichier dans le référentiel AEM :
 
@@ -153,14 +153,14 @@ curl --user <username>:<password> -T "<local file path>" "<server folder path>"
 
 Spécifiez les paramètres suivants pour télécharger un fichier :
 
-- `<username>:<passowrd>`: spécifiez le nom d’utilisateur et le mot de passe pour accéder au référentiel AEM. Cet utilisateur doit disposer de droits d’écriture sur la variable `server folder path`.
+- `<username>:<passowrd>` : indiquez le nom d’utilisateur et le mot de passe pour accéder au référentiel AEM. Cet utilisateur doit disposer de droits d’écriture sur le `server folder path`.
 
-- ``local file path``: chemin d’accès au fichier complet sur le système local que vous souhaitez charger.
+- ``local file path`` : chemin d’accès complet au fichier sur le système local que vous souhaitez charger.
 
-- `<server folder path>`: chemin d’accès au dossier complet sur le serveur AEM où vous souhaitez charger le fichier.
+- `<server folder path>` : chemin d’accès complet au dossier sur le serveur AEM où vous souhaitez charger le fichier.
 
 
-**Ajout de métadonnées**
+**Ajouter des métadonnées**
 
 Exécutez la commande suivante pour ajouter des métadonnées à un fichier :
 
@@ -170,11 +170,11 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 
 Spécifiez les paramètres suivants pour ajouter des informations de métadonnées :
 
-- `<username>:<passowrd>`: spécifiez le nom d’utilisateur et le mot de passe pour accéder au référentiel AEM. Cet utilisateur doit disposer de droits d’écriture sur la variable ``metadata node path``.
+- `<username>:<passowrd>` : indiquez le nom d’utilisateur et le mot de passe pour accéder au référentiel AEM. Cet utilisateur doit disposer de droits d’écriture sur le ``metadata node path``.
 
-- ``-F<attribute name>=<value>``: la variable `<attribute name>` est le nom de l’attribut de métadonnées, tel que `audience` et la variable `<value>` pourrait être `internal`. Vous pouvez spécifier plusieurs paires nom-valeur d’attribut séparées par espace.
+- ``-F<attribute name>=<value>`` : `<attribute name>` est le nom de l’attribut de métadonnées, tel que `audience` et `<value>` peut être `internal`. Vous pouvez spécifier plusieurs paires nom-valeur d’attribut séparées par espace.
 
-- `<metadata node path>`: chemin d’accès complet au dossier, y compris le nom du fichier et son noeud de métadonnées. Par exemple, si vous spécifiez le chemin comme `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`, les informations de métadonnées spécifiées sont définies sur `intro.xml` fichier .
+- `<metadata node path>` : chemin d’accès complet au dossier incluant le nom du fichier et son noeud de métadonnées. Par exemple, si vous spécifiez le chemin d’accès `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`, les informations de métadonnées spécifiées sont définies sur le fichier `intro.xml`.
 
 
-**Rubrique parente :**[ Migration de contenu existant](migrate-content.md)
+**Rubrique parente :**[ Migrer le contenu existant](migrate-content.md)

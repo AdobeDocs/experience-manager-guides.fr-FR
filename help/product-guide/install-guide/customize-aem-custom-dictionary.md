@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Personnalisation AEM dictionnaire par défaut {#id209SD8000WU}
 
-L’éditeur web peut être configuré pour utiliser AEM vérificateur orthographique ou le vérificateur orthographique du navigateur. Si vous choisissez de travailler avec AEM vérificateur orthographique, vous avez la possibilité de définir votre liste de mots personnalisée. Ces mots personnalisés sont ensuite ajoutés au dictionnaire d’AEM et ces mots ne sont pas marqués \(comme incorrects\) dans l’éditeur web.
+L’éditeur web peut être configuré pour utiliser AEM vérificateur orthographique ou le vérificateur orthographique du navigateur. Si vous choisissez de travailler avec AEM vérificateur orthographique, vous avez la possibilité de définir votre liste de mots personnalisée. Ces mots personnalisés sont ensuite ajoutés au dictionnaire AEM et ces mots ne sont pas marqués \(comme incorrects\) dans l’éditeur web.
 
 Effectuez les étapes suivantes pour créer votre liste de mots personnalisés, qui sont ajoutés dans AEM dictionnaire :
 
@@ -37,4 +37,4 @@ Effectuez les étapes suivantes pour créer votre liste de mots personnalisés, 
 
 Les auteurs doivent redémarrer leur session Web Editor pour que la liste des mots personnalisés soit mise à jour dans AEM dictionnaire.
 
-**Rubrique parente :**[ Personnalisation de l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)

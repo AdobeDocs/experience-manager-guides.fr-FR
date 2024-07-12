@@ -28,9 +28,9 @@ Procédez comme suit pour ajouter vos options de filtrage de fichier personnalis
 
    `/apps/fmdita/xmleditor/ui_config.json`
 
-1. Accédez à et ouvrez le `ui_config.json` dans le fichier `apps` pour la modification.
+1. Accédez au fichier `ui_config.json` et ouvrez-le dans le noeud `apps` pour le modifier.
 
-1. Dans le `ui_config.json` ajoutez la définition des filtres que vous souhaitez ajouter.
+1. Dans le fichier `ui_config.json`, ajoutez la définition des filtres que vous souhaitez ajouter.
 
    Le fragment de code suivant montre comment ajouter deux options de filtrage : Fichiers DITA et Fichiers image.
 
@@ -57,13 +57,13 @@ Procédez comme suit pour ajouter vos options de filtrage de fichier personnalis
 
    - **title:**   Nom d’affichage du filtre. Ce titre apparaît comme option de filtrage dans la boîte de dialogue de navigation des fichiers.
 
-   - **property:**   Propriété à faire correspondre dans les métadonnées du fichier. Par exemple, pour n’autoriser que les fichiers qui ont la variable `dita_class` métadonnées dans leur propriété, le filtre de propriété utilise &quot;`jcr:content/metadata/dita_class`&quot; comme valeur.
+   - **property:**   Propriété à faire correspondre dans les métadonnées du fichier. Par exemple, pour autoriser uniquement les fichiers dont la propriété contient les métadonnées `dita_class`, le filtre de propriété prend &quot;`jcr:content/metadata/dita_class`&quot; comme valeur.
 
-   - **operation :**   Spécifiez &quot;`exists`&quot; pour correspondre à l’existence de la valeur spécifiée dans le paramètre de propriété.
+   - **operation:**   Indiquez &quot;`exists`&quot; pour correspondre à l’existence de la valeur spécifiée dans le paramètre de propriété.
 
-   Le second filtre concerne les fichiers image. Les paramètres sont similaires au premier filtre, à l’exception du filtre `value` . La variable `value` prend comme valeur un tableau de types d’image. Tous les types de fichiers spécifiés dans le paramètre de valeur sont recherchés et affichés dans la boîte de dialogue de navigation des fichiers ; tous les autres types de fichiers sont ignorés.
+   Le second filtre concerne les fichiers image. Les paramètres sont similaires au premier filtre, à l’exception du paramètre `value` . Le paramètre `value` utilise un tableau de types d’image comme valeur. Tous les types de fichiers spécifiés dans le paramètre de valeur sont recherchés et affichés dans la boîte de dialogue de navigation des fichiers ; tous les autres types de fichiers sont ignorés.
 
-1. Enregistrez le *ui\_config.json* et rechargez l’éditeur Web.
+1. Enregistrez le fichier *ui\_config.json* et rechargez l’éditeur Web.
 
    Lorsque vous lancez la boîte de dialogue de navigation des fichiers, les options de filtrage configurées dans le fichier ui\_config.json s’affichent.
 

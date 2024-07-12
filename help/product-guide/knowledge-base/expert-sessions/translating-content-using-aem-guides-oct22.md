@@ -13,7 +13,7 @@ ht-degree: 5%
 
 # Traduction du contenu
 
-AEM Guides constitue la solution ultime pour la création de contenu multilingue avec de puissantes fonctionnalités de traduction.
+AEM Guides offre la solution ultime pour la création de contenu multilingue avec de puissantes fonctionnalités de traduction.
 
 ## Présentation de la session
 
@@ -40,18 +40,18 @@ Au cours de cette session, vous découvrirez les éléments suivants :
 
 ## Ressources connexes
 
-- **Vidéos de présentation** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **Vidéos de démonstration** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
 - **Guide de l’utilisateur** - [Traduire le contenu](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
 
-- **Forum communautaire** - Pour les interactions de communauté spécifiques à une session sur Experience League, rendez-vous sur la page [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
+- **Forum de la communauté** - Pour les interactions de la communauté spécifiques à une session sur Experience League, rendez-vous sur le [forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
 
 >[!NOTE]
 >
-> Les fonctionnalités affichées dans cette session sont disponibles dans les versions suivantes des AEM Guides :
+> Les fonctionnalités affichées dans cette session sont disponibles dans les versions suivantes d’AEM Guides :
 > - On-premise 4.1 ou version ultérieure
 > - Cloud Service 2207 ou version ultérieure
 
 ## Contactez-nous
 
-Pour toute demande, envoyez-nous un email à l’adresse <techcomm@adobe.com>
+Pour toute requête, envoyez-nous un email à l’adresse <techcomm@adobe.com>

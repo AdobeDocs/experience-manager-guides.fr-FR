@@ -1,6 +1,6 @@
 ---
-title: Notes de mise à jour | Adobe Experience Manager Guides version 4.2
-description: Découvrez les correctifs de bogues et comment mettre à niveau vers les versions 4.2 des Guides Adobe Experience Manager.
+title: Notes de mise à jour | Version 4.2 d’Adobe Experience Manager Guides
+description: Découvrez les correctifs et comment mettre à niveau vers les versions 4.2 d’Adobe Experience Manager Guides
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
 feature: Release Notes
 role: Leader
@@ -11,38 +11,38 @@ ht-degree: 1%
 
 ---
 
-# Version 4.2 des guides Adobe Experience Manager (février 2023)
+# Version 4.2 d’Adobe Experience Manager Guides (février 2023)
 
-Cette note de mise à jour traite des instructions de mise à niveau, de la matrice de compatibilité et des problèmes résolus dans la version 4.2 des Guides Adobe Experience Manager (appelés ultérieurement *Guides d’AEM*).
+Cette note de mise à jour traite des instructions de mise à niveau, de la matrice de compatibilité et des problèmes résolus dans la version 4.2 d’Adobe Experience Manager Guides (appelée ultérieurement *AEM Guides*).
 
-Pour plus d’informations sur les nouvelles fonctionnalités et améliorations, voir [Nouveautés de la version 4.2 des guides Adobe Experience Manager](whats-new-4-2-release.md).
+Pour plus d’informations sur les nouvelles fonctionnalités et améliorations, voir [Nouveautés de la version 4.2 d’Adobe Experience Manager Guides](whats-new-4-2-release.md).
 
-## Mise à niveau vers la version 4.2 des Guides AEM
+## Mise à niveau vers la version 4.2 d’AEM Guides
 
-Vous pouvez facilement mettre à niveau votre version actuelle des AEM Guides vers la version 4.2. Avant de procéder à la mise à niveau vers la version 4.2 des Guides d’AEM, vous devez tenir compte des points suivants :
+Vous pouvez facilement mettre à niveau votre version actuelle d’AEM Guides vers la version 4.2. Avant de procéder à la mise à niveau vers la version 4.2 d’AEM Guides, vous devez tenir compte des points suivants :
 * Si vous utilisez la version 4.0, 4.1 ou 4.1.x, vous pouvez directement effectuer la mise à niveau vers la version 4.2.
 * Si vous utilisez la version 3.8.5, vous devez effectuer la mise à niveau vers la version 4.0 avant de passer à la version 4.2.
-* Si vous utilisez une version antérieure à 3.8.5, reportez-vous à la section *Mise à niveau AEM guides* dans le guide d’installation spécifique au produit.
+* Si vous utilisez une version antérieure à 3.8.5, reportez-vous à la section *Mise à niveau d’AEM Guides* du guide d’installation spécifique au produit.
 
 >[!NOTE]
 >
->Vous devez installer AEM Service Pack avant de mettre à niveau AEM version de Guides.
+>Vous devez installer AEM Service Pack avant de mettre à niveau la version d’AEM Guides.
 
 Pour plus d’informations, voir [Instructions de mise à niveau](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
 
 ## Matrice de compatibilité
 
-Cette section répertorie le tableau de compatibilité des applications logicielles prises en charge par AEM Guides 4.2.
+Cette section répertorie la matrice de compatibilité des applications logicielles prises en charge par la version 4.2 d’AEM Guides.
 
 ### Adobe Experience Manager
 
-**Non UUID**
+**Non-UUID**
 Version 6.5 Service Pack 15, 14, 13 ou 12
 
-**UUID**
+**UID**
 Version 6.5 Service Pack 15, 14, 13 ou 12
 
-Pour plus d’informations, voir *Exigences techniques* dans le guide d’installation et de configuration de Adobe Experience Manager Guides.
+Pour plus d’informations, voir la section *Exigences techniques* du guide Installation et configuration d’Adobe Experience Manager Guides.
 
 ### FrameMaker et FrameMaker Publishing Server
 
@@ -69,15 +69,15 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 ### Création
 
 * Le panneau de gauche se casse lors de l’ajout d’un onglet. (11126)
-* Les modifications dans le code HTML de l’éditeur Web entraînent des problèmes avec `<dl>` et `<dlentry>`. (11024)
+* Les modifications dans le code HTML de l’éditeur web provoquent des problèmes avec `<dl>` et `<dlentry>`. (11024)
 * Certains attributs ne sont pas traités comme conditionnels et posent des problèmes. (10895)
-* Trois niveaux ou plus imbriqués `<indexterm>` ne sont pas imbriqués dans l’exportation de PDF natif. (10799)
+* Trois niveaux ou plus imbriqués `<indexterm>` ne sont pas imbriqués dans l’exportation native de PDF. (10799)
 * Le contenu disparaît dans le corps d’une tâche lors du passage de la vue Auteur à la vue Source. (10735)
 * Les commentaires de révision sont déplacés dans une tâche de révision. (10625)
-* `<conref>` remarque à l’intérieur d’une balise para ne s’affiche pas en mode aperçu. (10559)
+* La note `<conref>` à l’intérieur d’une balise para ne s’affiche pas en mode aperçu. (10559)
 * Lorsque vous appuyez sur Retour arrière à la fin d’un élément de liste, toute la liste est supprimée. (10540)
 * L’écran s’affiche comme vide dans Chrome v106 lors du glisser-déposer d’un élément de l’interface utilisateur (par exemple, dans le panneau Conditions ). 10524)
-* Le bouton Retrait automatique est manquant dans la barre d’outils de la **Source** vue. 10448
+* Le bouton Retrait automatique est manquant dans la barre d’outils de la vue **Source**. 10448
 * Le premier caractère d’un élément de liste est parfois perdu lorsque la liste est en cours de création dans l’éditeur.(10447)
 * **Annuler** ou **Rétablir** ne fonctionne pas correctement sur certains fichiers. 10373)
 * Les métadonnées personnalisées ne sont pas conservées lors de l’action copier-coller. (10367)
@@ -95,10 +95,10 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 * Aucune option pour créer un modèle sur les sous-dossiers de rubriques ou de mappages. (9888)
 * XML Editor ne met pas à jour les images sur les rubriques. (9500)
 * mimeType est codé en dur pour la création et la mise à jour de ressources DITA. (8979)
-* Un trait d’union normal est inséré lors de la sélection d’un trait d’union insécable dans le **Insérer un caractère spécial** boîte de dialogue. (8919)
-* Le nom du créateur de versions dans l’historique de versions est &quot;fmdita-serviceuser&quot; pour les fichiers chargés via l’interface utilisateur d’Assets. (8910)
+* Un trait d’union normal est inséré lors de la sélection d’un trait d’union insécable dans la boîte de dialogue **Insérer un caractère spécial**. (8919)
+* Le nom du créateur de versions dans l’historique de version est &quot;fmdita-serviceuser&quot; pour les fichiers chargés via l’interface utilisateur d’Assets. (8910)
 * L’option Modifier ne fonctionne pas pour les images lorsque vous utilisez le mode Colonnes de l’interface utilisateur d’Assets. (8758)
-* La rubrique DITA n’est pas mise à jour automatiquement avec les modifications effectuées sur **Propriétés** page. (8745)
+* La rubrique DITA n’est pas mise à jour automatiquement avec les modifications effectuées sur la page **Propriétés**. (8745)
 * Lors du déplacement d’éléments dans la rubrique dans l’éditeur web, les identifiants attribués aux éléments sont remplacés par des identifiants attribués automatiquement. (7895)
 
 ### Gestion
@@ -108,7 +108,7 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 * Ligne de base de l’éditeur web | Le comportement de la colonne Dernière colonne est différent dans le nouveau tableau de bord de ligne de base de l’éditeur web. 10808
 * Traduction | La tâche de traduction ne démarre pas en raison d’un /libs/fmdita/i18n/ja.json non valide. 10543
 * Traduction | Une erreur se produit dans un projet de traduction de portée créé à partir du tableau de bord de traduction (Traduction humaine). 10526
-* Traduction | Le post-traitement est bloqué pour l’ensemble du dossier linguistique dont les ressources sont présentes dans un projet de traduction actif. (10332)
+* Traduction | Le traitement Post est bloqué pour l’ensemble du dossier de langue dont les ressources sont présentes dans un projet de traduction actif. (10332)
 * Traduction| Les métadonnées et les balises ne sont pas propagées aux copies traduites. (4696)
 * Plusieurs fenêtres contextuelles s’affichent pour n’importe quelle ressource si la version est modifiée et enregistrée dans l’éditeur de ligne de base. 10399)
 * La fuite de session se produit à l’adresse com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210). (10279)
@@ -126,12 +126,12 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 * PDF natif | Les problèmes se produisent lors de la rotation de l’en-tête du tableau. (10555)
 * PDF natif | Des problèmes se produisent lors de la suppression des rubriques qui ont un rôle de traitement=&#39;resource-only&#39;. (10554)
 * PDF natif | Les Keyrefs vides s’affichent en sortie PDF. 10553)
-* PDF natif | Imbriqué `<indexterm>` ne sont pas imbriqués dans l’exportation de PDF natif. (10521)
+* PDF natif | Les `<indexterm>` imbriqués ne sont pas imbriqués dans l’exportation native de PDF. (10521)
 * PDF natif | Le PDF natif utilise un style intégré au lieu du nom de classe pour les balises générées. (10498)
-* PDF natif | Les topicref imbriqués dans les appendices sont tous transformés en h1 dans le HTML temporaire.(10454)
+* PDF natif | Les topicref imbriqués dans les appendices sont tous transformés en h1 dans l’HTML temporaire.(10454)
 * PDF natif | Impossible de masquer les rubriques de première ligne de la table des matières. 10355
-* PDF natif | L’attribut de cadre de tableau n’est pas propagé au HTML temporaire (en tant que classe). (10353)
-* PDF natif | Les fichiers de HTML temporaires ajoutent les classes colsep et rowsep à <td> et <th> même si leur valeur est 0 dans le DITA source. 10352)
+* PDF natif | L’attribut de cadre de tableau n’est pas propagé à l’HTML temporaire (en tant que classe). (10353)
+* PDF natif | Les fichiers d’HTML temporaires ajoutent les classes colsep et rowsep à <td> et <th> même si leur valeur est 0 dans le DITA source. 10352)
 * PDF natif | Le redémarrage des numéros de page dans la mise en page de chapitre commence de manière aléatoire la numérotation à partir de la fin du chapitre précédent. 10154
 * PDF natif | Les références clés pour les clés avec des liens d’image ou externes ne sont pas résolues. (10063)
 * PDF natif | L’annexe s’affiche sous la forme d’un chapitre dans le PDF généré. (9829)

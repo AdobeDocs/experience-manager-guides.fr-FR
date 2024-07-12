@@ -22,7 +22,7 @@ Détails du lot :
 
 - ID d’artefact : **api**
 
-- Version : **3,4**
+- Version : **3.4**
 
 - Package : ****com.adobe.fmdita.api.maps****
 
@@ -32,12 +32,12 @@ Détails du lot :
   public class **PublishUtils** extends Object
   ```
 
-  La variable **`PublishUtils`** contient une méthode permettant de générer une sortie pour un ou plusieurs paramètres prédéfinis de sortie.
+  La classe **`PublishUtils`** contient une méthode pour générer la sortie pour un ou plusieurs paramètres prédéfinis de sortie.
 
 
 ## Générer la sortie
 
-La variable ``generateOutput`` génère une sortie pour un fichier de mappage DITA à l’aide des paramètres prédéfinis de sortie spécifiés.
+La méthode ``generateOutput`` génère une sortie pour un fichier de mappage DITA à l’aide des paramètres prédéfinis de sortie spécifiés.
 
 **Syntaxe**:
 
@@ -48,6 +48,12 @@ String outputName)
 throws GuidesApiException
 ```
 
-**Paramètres**: |Nom|Type|Description| |—|—|—| |`session`|javax.jcr.Session|Une session JCR valide.| |``sourcePath``|String|Path \(dans le référentiel AEM\) du fichier de mappage DITA pour lequel la sortie doit être générée.| |``outputName``|Chaîne|Nom du paramètre prédéfini de sortie\(s\) à utiliser pour générer la sortie. Plusieurs paramètres prédéfinis de sortie peuvent être spécifiés à l’aide d’un délimiteur barre verticale \(&quot;\|&quot;\), par exemple. `aemsite\|pdfoutput`.
+**Paramètres** :
+|Nom|Type|Description|
+|—|—|—|
+|`session`|javax.jcr.Session|Une session JCR valide.|
+|``sourcePath``|String|Path \(dans le référentiel AEM\) du fichier de mappage DITA pour lequel la sortie doit être générée.|
+|``outputName``|Chaîne|Nom du paramètre prédéfini de sortie\(s\) à utiliser pour générer la sortie. Plusieurs paramètres prédéfinis de sortie peuvent être spécifiés à l’aide d’un délimiteur barre verticale \(&quot;\|&quot;\), par exemple `aemsite\|pdfoutput`.|
 
-**Exception**: renvoie ``javax.jcr.RepositoryException``, `java.io.IOException`, et `java.lang.Exception`.
+**Exception** :
+Renvoie ``javax.jcr.RepositoryException``, `java.io.IOException` et `java.lang.Exception`.

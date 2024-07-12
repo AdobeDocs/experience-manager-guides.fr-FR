@@ -1,6 +1,6 @@
 ---
-title: Mise à niveau AEM guides
-description: Découvrez comment mettre à niveau AEM guides
+title: Mettre à niveau AEM Guides
+description: Découvrez comment mettre à niveau AEM Guides
 exl-id: 57ae906f-69e3-4319-89f6-0fa9ddb7a3ff
 feature: Installation
 role: Admin
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Mise à niveau AEM guides {#id213BD050YPH}
+# Mettre à niveau AEM Guides {#id213BD050YPH}
 
-1. Accédez au référentiel Git de Cloud Manager.
+1. Accédez à votre référentiel Git Cloud Manager.
 
 1. Mettez à jour le fichier dox/dox.installer/pom.xml .
 
@@ -29,6 +29,6 @@ ht-degree: 0%
 
 ## Effacer le cache du navigateur
 
-Une fois le processus de mise à niveau terminé, tous les utilisateurs doivent vider le cache du navigateur avant d’utiliser la version mise à niveau des AEM Guides.
+Une fois la mise à niveau terminée, tous les utilisateurs doivent vider le cache du navigateur avant d’utiliser la version mise à niveau d’AEM Guides.
 
 **Rubrique parente :**[ Télécharger et installer](download-install.md)

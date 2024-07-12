@@ -5,7 +5,7 @@ source-wordcount: '240'
 ht-degree: 2%
 
 ---
-# Installation et configuration des guides Adobe Experience Manager 4.2
+# Installation et configuration d’Adobe Experience Manager Guides 4.2
 
 - [Clause de non-responsabilité](rebranding-disclaimer.md)
 - [À propos de ce guide](introduction.md)
@@ -14,9 +14,9 @@ ht-degree: 2%
    - [Installer Adobe Experience Manager](download-install-AEM.md)
    - [Télécharger et installer AEM Guides pour la première fois](download-install-aemg-first-time.md)
    - [Configuration du Dispatcher](download-install-configure-dispatcher.md)
-   - [Vérification de l’installation AEM Guides](download-install-verify-aemg-installation.md)
-   - [Mise à niveau des guides Adobe Experience Manager](upgrade-xml-documentation.md)
-   - [Désinstallation des guides d’AEM](download-install-unistall-aemg.md)
+   - [Vérification de l’installation d’AEM Guides](download-install-verify-aemg-installation.md)
+   - [Mettre à niveau Adobe Experience Manager Guides](upgrade-xml-documentation.md)
+   - [Désinstallation d’AEM Guides](download-install-unistall-aemg.md)
    - [Recommendations pour l’optimisation des performances](download-install-recommend-perf-optimiz.md)
 - [Migration du contenu non UUID vers UUID](migrate-uuid-non-uuid.md)
 - [Administration et sécurité des utilisateurs](user-admin-sec.md)

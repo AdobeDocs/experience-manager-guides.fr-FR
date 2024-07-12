@@ -26,11 +26,11 @@ Pour augmenter le nombre de noeuds qu’une requête peut lire à la fois, proc�
 
 1. Recherchez et cliquez sur **QueryEngineSettings**.
 
-1. Modifiez la valeur d’attribut pour la variable **LimitReads** attribut.
+1. Modifiez la valeur de l’attribut **LimitReads** .
 
 1. Cliquez sur **Enregistrer**.
 
 
 Lorsque vous augmentez cette valeur d’attribut, vous pouvez générer le rapport pour les mappages DITA plus volumineux.
 
-**Rubrique parente :**[ Personnalisation de l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)

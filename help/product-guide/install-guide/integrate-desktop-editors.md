@@ -20,7 +20,7 @@ Il y a beaucoup d&#39;éditeurs XML disponibles sur le marché, et vous pourriez
 
 Vous pouvez utiliser FrameMaker ou tout autre éditeur DITA pour créer et mettre à jour du contenu DITA. Cependant, si votre entreprise utilise FrameMaker comme éditeur DITA, vous pouvez donner à vos utilisateurs la possibilité d’ouvrir des documents DITA directement dans le FrameMaker à partir d’AEM.
 
-Par défaut, vos utilisateurs ne voient pas le **Ouvrir dans le FrameMaker** dans la barre d’outils AEM. Procédez comme suit pour ajouter ce bouton dans la barre d’outils AEM :
+Par défaut, vos utilisateurs ne voient pas le bouton **Ouvrir dans le FrameMaker** sur la barre d’outils AEM. Procédez comme suit pour ajouter ce bouton dans la barre d’outils AEM :
 
 1. Ouvrez la page de configuration de la console web Adobe Experience Manager .
 
@@ -30,13 +30,13 @@ Par défaut, vos utilisateurs ne voient pas le **Ouvrir dans le FrameMaker** dan
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Recherchez et cliquez sur le bouton **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** du lot.
+1. Recherchez et cliquez sur le lot **com.adobe.fmdita.xmleditor.config.XmlEditorConfig**.
 
    ![](assets/open-in-fm-toolbar.png){width="550" align="left"}
 
-1. Sélectionnez la variable **Afficher le bouton Ouvrir dans le FrameMaker** .
+1. Sélectionnez l’option **Afficher l’ouverture dans le bouton de FrameMaker** .
 
 1. Cliquez sur **Enregistrer**.
 
 
-Lorsque vous activez la variable **Afficher le bouton Ouvrir dans le FrameMaker** , puis la variable **Ouvrir dans le FrameMaker** s’affiche lors de la sélection d’un fichier DITA dans le référentiel AEM. Lorsque cette option est *not enabled*, la variable **Ouvrir dans le FrameMaker** n’est affiché que lorsque vous sélectionnez un fichier .fm ou .livre dans le référentiel.
+Lorsque vous activez l’option **Afficher le bouton Ouvrir dans le FrameMaker**, le bouton **Ouvrir dans le FrameMaker** s’affiche lorsque vous sélectionnez un fichier DITA dans le référentiel AEM. Lorsque cette option est *non activée*, le bouton **Ouvrir dans le FrameMaker** s’affiche uniquement lorsque vous sélectionnez un fichier .fm ou .book dans le référentiel.

@@ -1,6 +1,6 @@
 ---
 title: Prise en charge des fichiers de schéma
-description: Découvrez comment importer et valider une rubrique DITA, utiliser l’insertion d’instructions de rapport pour rechercher des règles, utiliser des expressions regex et définir des modèles abstraits dans les fichiers de schéma des Guides d’AEM.
+description: Découvrez comment importer et valider une rubrique DITA, utiliser l’insertion d’instructions de rapport pour rechercher des règles, utiliser des expressions regex et définir des modèles abstraits dans les fichiers de schéma d’AEM Guides.
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
@@ -26,10 +26,10 @@ Effectuez les étapes suivantes pour importer les fichiers de schéma :
 
 ![](images/scematron-panel-add.png){width="300" align="left"}
 
-1. Accédez au dossier requis (dans lequel vous souhaitez charger les fichiers) dans *Repository View*.
-1. Cliquez sur le bouton **Options** pour ouvrir le menu contextuel et choisir **Chargement de ressources**.
-1. Dans le **Chargement de ressources** vous pouvez modifier le dossier de destination dans la boîte de dialogue **Sélectionner le dossier de ressources** champ .
-1. Cliquez sur **Choisir les fichiers** et accédez aux fichiers de schéma pour les sélectionner. Vous pouvez sélectionner un ou plusieurs fichiers de schéma, puis cliquer sur **Télécharger**.
+1. Accédez au dossier requis (où vous souhaitez charger les fichiers) dans *Repository View*.
+1. Cliquez sur l’icône **Options** pour ouvrir le menu contextuel et sélectionnez **Télécharger Assets**.
+1. Dans la boîte de dialogue **Télécharger Assets**, vous pouvez modifier le dossier de destination dans le champ **Sélectionner le dossier de ressources**.
+1. Cliquez sur **Choose Files** (Choisir les fichiers) et accédez aux fichiers de schéma pour les sélectionner. Vous pouvez sélectionner un ou plusieurs fichiers de schéma, puis cliquer sur **Télécharger**.
 
 ## Validation d’une rubrique ou d’un mappage DITA avec Schematron
 

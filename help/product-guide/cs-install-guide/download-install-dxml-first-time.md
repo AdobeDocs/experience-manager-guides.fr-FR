@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Déploiement du module Guides Adobe Experience Manager {#id213BCL00KEV}
+# Déploiement du module Adobe Experience Manager Guides {#id213BCL00KEV}
 
-Vous pouvez commencer par déployer des guides de Experience Manager via Cloud Manager. Pour déployer le module, vous pouvez suivre les instructions mentionnées dans la section [AEM Guides as a Cloud Service déploiement](../release-info/deploy-xml-on-aemaacs.md)
+Vous pouvez commencer par déployer Experience Manager Guides via Cloud Manager. Pour déployer le module, vous pouvez suivre les instructions mentionnées dans [AEM Guides as a Cloud Service deployment](../release-info/deploy-xml-on-aemaacs.md)
 
 
 

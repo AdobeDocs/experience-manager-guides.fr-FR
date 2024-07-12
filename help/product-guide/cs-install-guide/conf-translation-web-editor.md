@@ -16,17 +16,17 @@ ht-degree: 0%
 
 L’éditeur web fournit une puissante fonction de traduction pour traduire votre contenu dans plusieurs langues.
 
-Vous pouvez utiliser la variable **Gérer** dans l’éditeur web pour traduire votre contenu. Cet onglet est disponible par défaut.
+Vous pouvez utiliser l’onglet **Gérer** de l’éditeur Web pour traduire votre contenu. Cet onglet est disponible par défaut.
 
-Pour masquer la variable **Gérer** dans l’éditeur Web, procédez comme suit :
+Pour masquer l’onglet **Gérer** dans l’éditeur web, procédez comme suit :
 
-1. Se connecter **Adobe Experience Manager** en tant qu’administrateur.
-1. Cliquez sur le bouton **Adobe Experience Manager** lien dans la partie supérieure et choisissez **Outils**.
-1. Sélectionner **Guides** dans la liste des outils, puis cliquez sur l’icône **Profils de dossier**.
-1. Cliquez sur le bouton **Profil global** mosaïque.
+1. Connectez-vous à **Adobe Experience Manager** en tant qu’administrateur.
+1. Cliquez sur le lien **Adobe Experience Manager** dans la partie supérieure et sélectionnez **Outils**.
+1. Sélectionnez **Guides** dans la liste des outils et cliquez sur le bouton **Profils de dossier**.
+1. Cliquez sur la mosaïque **Profil global** .
 1. Cliquez sur **Configuration de l’éditeur XML**.
-1. Cliquez sur **Modifier** en haut.
-1. Téléchargez la `ui\_config.json` file.Supprimez le fragment de code suivant du fichier téléchargé :
+1. Cliquez sur l’icône **Modifier** en haut de l’écran.
+1. Téléchargez le fichier `ui\_config.json`. Supprimez le fragment de code suivant du fichier téléchargé :
 
    ```json
    {
@@ -46,6 +46,6 @@ Pour masquer la variable **Gérer** dans l’éditeur Web, procédez comme suit 
 
 1. Téléchargez le fichier ui\_config.json mis à jour.
 
-Notez que la variable **Gérer** n’est plus disponible.
+Notez que le filtre **Gérer** n’est plus disponible.
 
-**Rubrique parente :**[ Personnalisation de l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)

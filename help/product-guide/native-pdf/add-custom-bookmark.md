@@ -1,5 +1,5 @@
 ---
-title: Fonction de publication native d’un PDF | Ajout d’un signet personnalisé dans la sortie PDF
+title: Fonctionnalité Publish du PDF natif | Ajout d’un signet personnalisé dans la sortie PDF
 description: Découvrez comment créer des feuilles de style et créer des styles pour votre contenu.
 exl-id: 6e6dbba3-da41-4066-b7b2-735a3d92b70a
 feature: Output Generation
@@ -14,16 +14,16 @@ ht-degree: 0%
 
 # Ajout d’un signet personnalisé dans la sortie PDF
 
-En règle générale, la table des matières d’un mappage DITA est répliquée en tant que signets dans la sortie finale du PDF. Cette table des matières est créée à partir des titres de rubrique ou de section dans votre mappage DITA. Parfois, vous souhaiterez peut-être ajouter un signet personnalisé sur un contenu particulier dans la sortie de votre PDF pour une navigation facile. Pour ce faire, ajoutez une `outputclass` sur l’élément et en lui appliquant l’attribut suivant :
+En règle générale, la table des matières d’un mappage DITA est répliquée en tant que signets dans la sortie finale du PDF. Cette table des matières est créée à partir des titres de rubrique ou de section dans votre mappage DITA. Parfois, vous souhaiterez peut-être ajouter un signet personnalisé sur un contenu particulier dans la sortie de votre PDF pour une navigation facile. Pour ce faire, ajoutez un attribut `outputclass` sur l’élément et appliquez-lui l’attribut suivant :
 
 `bookmark-level: 3`
 
-Ici, le `bookmark-level` est un attribut et un nombre `3` est la valeur qui indique le niveau dans la hiérarchie des signets où le signet est ajouté. Dans l&#39;exemple suivant, la rubrique de premier niveau &quot;Contacts&quot; comporte une table, &quot;Liste de contacts&quot;, sur laquelle nous avons ajouté une `outputclass` avec la valeur de `custom-bookmark`.
+Ici, `bookmark-level` est un attribut et nombre `3` est la valeur qui indique le niveau dans la hiérarchie des signets où le signet est ajouté. Dans l&#39;exemple suivant, la rubrique de premier niveau &quot;Contacts&quot; comporte une table, &quot;Liste de contacts&quot;, sur laquelle nous avons ajouté un attribut `outputclass` avec la valeur `custom-bookmark`.
 
 
 <img src="./assets/custom-bookmark-attribute.png" width="500">
 
-La définition suivante de la variable `custom-bookmark` est ajoutée dans le fichier CSS :
+La définition suivante de la classe `custom-bookmark` est ajoutée dans le fichier CSS :
 
 ```css
 …
@@ -34,7 +34,7 @@ La définition suivante de la variable `custom-bookmark` est ajoutée dans le fi
 …
 ```
 
-Dans la sortie du PDF, la variable *Liste de contacts* est ajouté au deuxième niveau dans la liste des signets du PDF, comme illustré ci-dessous :
+Dans la sortie du PDF, la table *Liste de contacts* est ajoutée au 2e niveau dans la liste des signets du PDF, comme illustré ci-dessous :
 
 <img src="./assets/custom-bookmark-in-pdf-output.png" width="500">
 

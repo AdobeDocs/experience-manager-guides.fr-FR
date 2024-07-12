@@ -31,7 +31,7 @@ AEM Guides vous permet de créer des cartes et des rubriques personnalisées à 
 
 
 Vous pouvez créer des modèles de mappage et de rubrique de la manière suivante :
-1. Volet Modèles de [Panneau gauche](./web-editor-features.md#left-panel-id2051ea0m0hs)
+1. Volet Modèles du [panneau de gauche](./web-editor-features.md#left-panel-id2051ea0m0hs)
 1. [Modèles dans l’interface utilisateur d’Assets](#templates-assets-ui)
 1. [Menu Options](#templates-in-assets-ui)
 
@@ -41,14 +41,14 @@ Vous pouvez créer des modèles de mappage et de rubrique de la manière suivant
 
 Pour créer un modèle de rubrique, procédez comme suit :
 
-1. Dans le **Interface utilisateur des ressources**, accédez au dossier dita-templates .
+1. Dans l’ **interface utilisateur d’Assets**, accédez au dossier dita-templates .
 
    ![](images/dita-templates.png){width="800" align="left"}
 
-1. Cliquez sur **rubriques** pour l’ouvrir.Cliquez sur **Créer \> modèle DITA**.
-1. Sur la page Plan directeur, sélectionnez **Rubrique** puis cliquez sur **Suivant.**
-1. Sur la page Propriétés, spécifiez le modèle de rubrique. **Titre**.
-1. Spécification du fichier **Nom**
+1. Cliquez sur le dossier **topics** pour l’ouvrir. Cliquez sur **Créer \> modèle DITA**.
+1. Sur la page Plan directeur, sélectionnez **Topic**, puis cliquez sur **Suivant.**
+1. Sur la page Propriétés, spécifiez le modèle de rubrique **Titre**.
+1. Spécifiez le fichier **Name**
 
    >[!NOTE]
    >
@@ -61,15 +61,15 @@ Pour créer un modèle de rubrique, procédez comme suit :
 
 Effectuez les étapes suivantes pour créer un modèle de mappage :
 
-1. Dans le **Interface utilisateur des ressources**, accédez au dossier dita-templates .
-1. Cliquez sur **maps** pour l’ouvrir.
-1. Cliquez sur **Créez \> Modèle DITA.**
+1. Dans l’ **interface utilisateur d’Assets**, accédez au dossier dita-templates .
+1. Cliquez sur le dossier **maps** pour l’ouvrir.
+1. Cliquez sur **Créer \> Modèle DITA.**
 
    ![](images/create-dita-template.png){width="300" align="left"}
 
-1. Sur la page Plan directeur, sélectionnez **Carte** et cliquez sur **Suivant**.
-1. Sur la page Propriétés , spécifiez le modèle de mappage. **Titre**.
-1. Spécification du fichier **Nom**.
+1. Sur la page Plan directeur, sélectionnez **Map** et cliquez sur **Suivant**.
+1. Sur la page Propriétés, spécifiez le modèle de mappage **Titre**.
+1. Spécifiez le fichier **Name**.
 
    >[!NOTE]
    >
@@ -81,12 +81,12 @@ Effectuez les étapes suivantes pour créer un modèle de mappage :
 
 Pour créer un mappage ou un modèle de rubrique, procédez comme suit :
 
-1. Sélectionnez la variable **Carte** ou **Rubrique** dans le dossier des modèles actuels. Par exemple, le dossier `dita-templates`.
-1. Dans la **Options** menu, sélectionnez **Créer un modèle de carte** ou **Créer un modèle de rubrique**.
+1. Sélectionnez le dossier **Map** ou **Topic** dans le dossier des modèles actuels. Par exemple, le dossier `dita-templates`.
+1. Dans le menu **Options**, sélectionnez **Créer un modèle de carte** ou **Créer un modèle de thème**.
 
-   La variable **Créer un modèle de carte** ou le **Créer un modèle de rubrique** s’ouvre.
+   La boîte de dialogue **Créer un modèle de carte** ou **Créer un modèle de rubrique** s’ouvre.
 1. Saisissez le titre et le nom du nouveau modèle.
-1. Choisissez le type de modèle que vous souhaitez créer à partir du **Modèle** liste déroulante.
+1. Choisissez le type de modèle que vous souhaitez créer dans la liste déroulante **Modèle** .
 
 Le message relatif au modèle de carte créé s’affiche. Vous pouvez ajouter le modèle à votre profil global ou au niveau du dossier. Le nouveau modèle apparaît ensuite dans la rubrique ou le processus de création de mappage, et vous pouvez créer des mappages ou des rubriques à l’aide de celui-ci.
 
@@ -97,13 +97,13 @@ Selon votre configuration, apprenez à configurer le chemin d’accès au dossie
 <details>
     <summary> Services cloud </summary>
 
-Découvrez comment [configuration du chemin d’accès au dossier de modèle DITA personnalisé](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) dans le Guide d&#39;installation et de configuration de Cloud Service.
+Découvrez comment [configurer le chemin d’accès au dossier de modèle DITA personnalisé](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) dans le Guide d’installation et de configuration de Cloud Service.
 </details>
 
 <details>
     <summary> Logiciel On-Premise</summary>
 
-Découvrez comment [configuration du chemin d’accès au dossier de modèle DITA personnalisé](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) dans le Guide d&#39;installation et de configuration On-premise.
+Découvrez comment [configurer le chemin d’accès au dossier de modèle DITA personnalisé](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) dans le Guide d’installation et de configuration On-premise.
 </details>
 
 ## Transmettre le titre défini dans les modèles
@@ -157,15 +157,15 @@ Exemple
 
 >[!NOTE]
 >
-> Le modèle de carte doit être configuré et rendu disponible pour la création par votre administrateur. Pour plus d’informations, voir *Configuration de modèles de création* dans la section Installation et configuration de Adobe Experience Manager Guides as a Cloud Service.
+> Le modèle de carte doit être configuré et rendu disponible pour la création par votre administrateur. Pour plus d’informations, voir la section *Configuration des modèles de création* dans l’as a Cloud Service Installer et configurer Adobe Experience Manager Guides.
 
 Pour créer une carte à l’aide du modèle de carte personnalisé, procédez comme suit :
 
-1. Dans le **Interface utilisateur d’Assets,** accédez au dossier dans lequel vous souhaitez créer la carte.
+1. Dans l’ **interface utilisateur d’Assets,** accédez au dossier dans lequel vous souhaitez créer la carte.
 1. Cliquez sur **Créer \> Carte DITA**.
 1. Sur la page Plan directeur, sélectionnez le modèle de carte à utiliser, puis cliquez sur **Suivant**. Par exemple, si vous avez créé un modèle de mappage &quot;test-template&quot;, sélectionnez-le.
-1. Sur la page Propriétés, spécifiez la carte. **Titre**.
-1. Spécification du fichier **Nom**.
+1. Sur la page Propriétés, spécifiez la carte **Title**.
+1. Spécifiez le fichier **Name**.
 
    >[!NOTE]
    >
@@ -176,9 +176,9 @@ Pour créer une carte à l’aide du modèle de carte personnalisé, procédez c
 
 La carte génère toutes les ressources auxquelles il est fait référence dans le dossier de modèles. Certains types de ressources qui sont référencés dans une carte peuvent être les suivants :
 
-- Si le mappage contient la référence à un modèle de rubrique, une copie de celui-ci est créée dans le dossier, dans la même hiérarchie que dans le dossier de rubriques du `dita-templates` dossier.
-- Si le mappage contient la référence à un modèle de mappage, une copie de celui-ci est créée dans le dossier, dans la même hiérarchie que dans le dossier des mappages dans la variable `dita-templates` dossier.
-- Si la carte contient la référence générique à une rubrique ou à un mappage en dehors de la variable `dita-templates/topics` ou `dita-templates/maps` , il en est de même uniquement pour les références et aucune copie n’est créée.
+- Si le mappage contient la référence à un modèle de rubrique, une copie de celui-ci est créée dans le dossier, dans la même hiérarchie que dans le dossier de rubriques du dossier `dita-templates`.
+- Si le mappage contient la référence à un modèle de mappage, une copie de celui-ci est créée dans le dossier, dans la même hiérarchie que dans le dossier des mappages du dossier `dita-templates`.
+- Si la carte contient la référence générique à une rubrique ou à un mappage en dehors du dossier `dita-templates/topics` ou `dita-templates/maps`, la même référence est uniquement utilisée et aucune copie n’est créée.
 
   >[!NOTE]
   >

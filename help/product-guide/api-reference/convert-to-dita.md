@@ -20,28 +20,53 @@ Les API REST suivantes vous permettent de convertir des documents Word, HTML et 
 
 Méthode de GET qui convertit les documents Word au format DITA.
 
-**URL de la requête**: http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/conversion
+**Demander l’URL** :
+http://*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/fmdita/conversion
 
-**Paramètres**: |Nom|Type|Obligatoire|Description| |—|—|—|— |``operation``|String|Yes|Nom de l’opération en cours d’appel. La valeur de ce paramètre est ``word2dita``. <br> **Remarque :** La valeur n’est pas sensible à la casse. | |`inputFile`|Chaîne|Oui|Chemin absolu des fichiers Word source dans le référentiel AEM.| |`destPath`|String|Yes|Chemin absolu de l’emplacement de destination où les fichiers DITA convertis seront enregistrés.| |`createRev`|Booléen|Oui|Indiquez si une révision des fichiers est créée \( `true`\) à la destination spécifiée ou non \( `false`\). Cela n’est pris en compte que lorsque l’emplacement de destination contient une version existante des fichiers convertis.| |`style2tagMap`|Chaîne|Oui|Chemin absolu du fichier de mappage de style qui sera utilisé pour la conversion.|
+**Paramètres** :
+|Nom|Type|Obligatoire|Description|
+|—|—|—|—
+|``operation``|String|Yes|Nom de l’opération en cours d’appel. La valeur de ce paramètre est ``word2dita``. <br> **Remarque :** La valeur n’est pas sensible à la casse. |
+|`inputFile`|Chaîne|Oui|Chemin absolu des fichiers Word source dans le référentiel AEM.|
+|`destPath`|Chaîne|Oui|Chemin absolu de l’emplacement de destination où les fichiers DITA convertis seront enregistrés.|
+|`createRev`|Booléen|Oui|Indiquez si une révision des fichiers est créée \( `true`\) à la destination spécifiée ou non \( `false`\). Cela n’est pris en compte que lorsque l’emplacement de destination contient une version existante des fichiers convertis.|
+|`style2tagMap`|Chaîne|Oui|Chemin absolu du fichier de mappage de style qui sera utilisé pour la conversion.|
 
-**Valeurs de réponse**: renvoie une réponse HTTP 200 \(réussie\).
+**Valeurs de réponse** :
+Renvoie une réponse HTTP 200 \(Succès\).
 
-## Conversion de documents de HTML
+## Convertir des documents d’HTML
 
-Méthode de GET qui convertit les documents de HTML au format DITA.
+Méthode de GET qui convertit les documents HTMLS au format DITA.
 
-**URL de la requête**: http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/conversion
+**Demander l’URL** :
+http://*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/fmdita/conversion
 
-**Paramètres**: |Nom|Type|Obligatoire|Description| |—|—|—|— |`operation`|String|Yes|Nom de l’opération en cours d’appel. La valeur de ce paramètre est ``html2dita``. <br> **Remarque :** La valeur n’est pas sensible à la casse.| |`inputFile`|String|Yes|Chemin absolu des fichiers de HTML source dans le référentiel AEM.| |`destPath`|String|Yes|Chemin absolu de l’emplacement de destination où les fichiers DITA convertis seront enregistrés.| |`createRev`|Booléen|Oui|Indiquez si une révision des fichiers est créée \( `true`\) à la destination spécifiée ou non \( `false`\). Ceci est pris en compte uniquement lorsque l’emplacement de destination contient une version existante des fichiers convertis.|
+**Paramètres** :
+|Nom|Type|Obligatoire|Description|
+|—|—|—|—
+|`operation`|String|Yes|Nom de l’opération en cours d’appel. La valeur de ce paramètre est ``html2dita``. <br> **Remarque :** La valeur n’est pas sensible à la casse.|
+|`inputFile`|Chaîne|Oui|Chemin absolu des fichiers d’HTML source dans le référentiel AEM.|
+|`destPath`|Chaîne|Oui|Chemin absolu de l’emplacement de destination où les fichiers DITA convertis seront enregistrés.|
+|`createRev`|Booléen|Oui|Indiquez si une révision des fichiers est créée \( `true`\) à la destination spécifiée ou non \( `false`\). Ceci est pris en compte uniquement lorsque l’emplacement de destination contient une version existante des fichiers convertis.|
 
-**Valeurs de réponse**: renvoie une réponse HTTP 200 \(réussie\).
+**Valeurs de réponse** :
+Renvoie une réponse HTTP 200 \(Succès\).
 
 ## Convertir des documents d’InDesign
 
 Méthode de GET qui convertit les documents InDesigns au format DITA.
 
-**URL de la requête**: http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/conversion
+**Demander l’URL** :
+http://*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/fmdita/conversion
 
-**Paramètres**: |Nom|Type|Obligatoire|Description| |—|—|—|— |``operation``|String|Yes|Nom de l’opération en cours d’appel. La valeur de ce paramètre est ``idml2dita``. <br> **Remarque :** La valeur n’est pas sensible à la casse.| |`inputFile`|String|Yes|Chemin absolu des fichiers d’InDesign source dans le référentiel AEM.| |`destPath`|String|Yes|Chemin absolu de l’emplacement de destination où les fichiers DITA convertis seront enregistrés.| |`createRev`|Booléen|Oui|Indiquez si une révision des fichiers est créée \( `true`\) à la destination spécifiée ou non \( `false`\). Ceci est pris en compte uniquement lorsque l’emplacement de destination contient une version existante des fichiers convertis.|
+**Paramètres** :
+|Nom|Type|Obligatoire|Description|
+|—|—|—|—
+|``operation``|String|Yes|Nom de l’opération en cours d’appel. La valeur de ce paramètre est ``idml2dita``. <br> **Remarque :** La valeur n’est pas sensible à la casse.|
+|`inputFile`|Chaîne|Oui|Chemin absolu des fichiers d’InDesign source dans le référentiel AEM.|
+|`destPath`|Chaîne|Oui|Chemin absolu de l’emplacement de destination où les fichiers DITA convertis seront enregistrés.|
+|`createRev`|Booléen|Oui|Indiquez si une révision des fichiers est créée \( `true`\) à la destination spécifiée ou non \( `false`\). Ceci est pris en compte uniquement lorsque l’emplacement de destination contient une version existante des fichiers convertis.|
 
-**Valeurs de réponse**: renvoie une réponse HTTP 200 \(réussie\).
+**Valeurs de réponse** :
+Renvoie une réponse HTTP 200 \(Succès\).

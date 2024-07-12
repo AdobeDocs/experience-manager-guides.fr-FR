@@ -1,6 +1,6 @@
 ---
 title: Configuration du contenu et des modèles
-description: Découvrez toutes les considérations à prendre en compte pour configurer le contenu et les modèles dans AEM Guides.
+description: Découvrez tous les aspects à prendre en compte pour configurer du contenu et des modèles dans AEM Guides.
 exl-id: f125bad9-33a2-4de5-b43f-d6368d61879b
 feature: Template Configuration
 role: User, Admin
@@ -51,25 +51,25 @@ Au cours de cette session, vous avez appris les éléments suivants :
 
 ## Ressources connexes
 
-- **Vidéos de présentation** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
+- **Vidéos de démonstration** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
 
-- **Guide de l’utilisateur** - [Création de contenu](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
+- **Guide de l’utilisateur** - [Contenu de l’auteur](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **Forum communautaire** - Pour les interactions de communauté spécifiques à une session sur Experience League, rendez-vous sur la page  [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Forum de la communauté** - Pour des interactions de la communauté spécifiques à une session sur Experience League, rendez-vous sur le [forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> Les fonctionnalités affichées dans cette session sont disponibles dans les versions suivantes des AEM Guides :
+> Les fonctionnalités affichées dans cette session sont disponibles dans les versions suivantes d’AEM Guides :
 > - On-premise : 4.2 ou version ultérieure
 > - Cloud Service : 2303 ou version ultérieure
 
 
 ## Prochaine session d&#39;experts
 
-- **Rubrique** - Publication de PDF natifs - Formation par exemple (partie 1)
-- **Planifié le** - 1er juin 2023
+- **Rubrique** - Publication de PDF natifs - Apprentissage par exemple (partie 1)
+- **Planifié le** - 1 juin 2023
 
 
 ## Contactez-nous
 
-Pour toute demande, envoyez-nous un email à l’adresse <techcomm@adobe.com>
+Pour toute requête, envoyez-nous un email à l’adresse <techcomm@adobe.com>

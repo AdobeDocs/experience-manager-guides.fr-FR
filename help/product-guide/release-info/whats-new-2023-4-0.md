@@ -1,6 +1,6 @@
 ---
 title: Notes de mise à jour | Adobe Experience Manager Guides as a Cloud Service, version d’avril 2023
-description: Version d’avril 2023 des Guides Adobe Experience Manager as a Cloud Service
+description: Version d’avril 2023 d’Adobe Experience Manager Guides as a Cloud Service
 exl-id: 269e3a13-584d-4cff-a18a-d4fa89646a5a
 feature: Release Notes
 role: Leader
@@ -11,11 +11,11 @@ ht-degree: 0%
 
 ---
 
-# Nouveautés de la version d’avril 2023 des Guides Adobe Experience Manager as a Cloud Service
+# Nouveautés de la version d’avril 2023 d’Adobe Experience Manager Guides as a Cloud Service
 
-Cet article couvre les nouvelles fonctionnalités et les fonctionnalités améliorées de la version d’avril 2023 des Guides Adobe Experience Manager (ultérieurement appelée *AEM Guides as a Cloud Service*).
+Cet article couvre les nouvelles fonctionnalités et les fonctionnalités améliorées de la version d’avril 2023 d’Adobe Experience Manager Guides (appelée ultérieurement *AEM Guides as a Cloud Service*).
 
-Pour plus d’informations sur les instructions de mise à niveau, la matrice de compatibilité et les problèmes résolus dans cette version, voir la section [Notes de mise à jour](release-notes-2023-4-0.md) article.
+Pour plus d’informations sur les instructions de mise à niveau, la matrice de compatibilité et les problèmes résolus dans cette version, consultez l’article [Notes de mise à jour](release-notes-2023-4-0.md) .
 
 ## Prise en charge avancée des métadonnées dans la publication dans PDF
 
@@ -23,25 +23,25 @@ AEM Guides fournit désormais une prise en charge avancée des métadonnées map
 
 <img src="assets/pdf-metadata.png" alt=" métadonnées pdf natives">
 
-Vous pouvez importer un fichier XMP et AEM Guides peuvent sélectionner les informations du fichier. Vous avez également la possibilité de fournir les noms et valeurs des métadonnées à l’aide de la liste déroulante. Vous pouvez également ajouter des métadonnées personnalisées en saisissant directement dans le champ du nom.
+Vous pouvez importer un fichier XMP et AEM Guides peut sélectionner les informations du fichier. Vous avez également la possibilité de fournir les noms et valeurs des métadonnées à l’aide de la liste déroulante. Vous pouvez également ajouter des métadonnées personnalisées en saisissant directement dans le champ du nom.
 
 
 ## Panneau Aperçu amélioré
 
-AEM Guides fournit un panneau d’affichage en ligne amélioré dans lequel vous obtenez une vue hiérarchique des éléments utilisés dans le document.
+AEM Guides fournit un panneau d’affichage des contours amélioré dans lequel vous obtenez une vue hiérarchique des éléments utilisés dans le document.
 
 <img src="assets/select-element-content-outline-view_cs.png" alt=" métadonnées pdf natives">
 
 La vue Plan comprend les améliorations suivantes :
 
-* La liste déroulante Options d’affichage s’affiche en haut du panneau Vue synchrone. Si un élément comporte un identifiant, un attribut et du texte, vous pouvez les sélectionner dans la liste déroulante pour les afficher avec l’élément . Les attributs qui peuvent s’afficher dans le panneau Vue synchrone sont déterminés par les paramètres Attributs d’affichage configurés par votre administrateur dans la variable **Paramètres de l’éditeur**.
+* La liste déroulante Options d’affichage s’affiche en haut du panneau Vue synchrone. Si un élément comporte un identifiant, un attribut et du texte, vous pouvez les sélectionner dans la liste déroulante pour les afficher avec l’élément . Les attributs qui peuvent être affichés dans le panneau Vue synchrone sont déterminés par les paramètres d’affichage des attributs configurés par votre administrateur dans les **paramètres de l’éditeur**.
 
 * La fonction de recherche vous permet de rechercher un élément par son nom, son identifiant, son texte ou sa valeur d’attribut.
 
 
 ## Publication basée sur un microservice pour AEM Guides as a Cloud Service
 
-AEM Guides as a Cloud Service permet d’exécuter des charges de travail de publication volumineuses simultanément avec la publication basée sur un microservice et d’exploiter la plate-forme sans serveur Adobe I/O Runtime de pointe.
+AEM Guides as a Cloud Service permet d’exécuter des charges de travail de publication volumineuses simultanément avec la publication basée sur un microservice et d’exploiter la plate-forme Adobe I/O Runtime sans serveur de pointe.
 
 Dans la version d’avril, vous pouvez désormais exécuter plusieurs demandes de publication simultanément et générer des sorties de PDF en masse très efficacement à l’aide de la publication de PDF natif basée sur un microservice.
-Pour plus d’informations, voir [Configuration de la nouvelle publication basée sur un microservice pour AEM Guides as a Cloud Service](../knowledge-base/publishing/configure-microservices.md).
+Pour plus d’informations, voir [Configuration de la publication basée sur un nouveau microservice pour AEM Guides as a Cloud Service](../knowledge-base/publishing/configure-microservices.md).

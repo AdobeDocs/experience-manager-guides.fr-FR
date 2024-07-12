@@ -1,13 +1,13 @@
 ---
-title: Fonction de publication native d’un PDF | Ajouter un code à barres
+title: Fonctionnalité Publish du PDF natif | Ajouter un code à barres
 description: Découvrez comment ajouter des codes à barres.
-source-git-commit: a766353908829ab433173f8fd003ecad0c9d1bf1
+exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
+source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 1%
 
 ---
-
 
 # Ajout d’un code à barres à la sortie PDF
 
@@ -24,7 +24,7 @@ Pour générer un code-barres, procédez comme suit :
 
 ### Mettre à jour le CSS du modèle pour générer une valeur de code à barres
 
-Modifiez la variable `layout.css` pour générer un code à barres pendant la génération du PDF. Divers types de codes à barres tels que &quot;qrcode&quot; et &quot;pdf417&quot; sont pris en charge.  Pour plus d’informations, voir [Types de codes à barres](#barcode-types).
+Modifiez le fichier `layout.css` pour effectuer le rendu d’un code à barres lors de la génération du PDF. Divers types de codes à barres tels que &quot;qrcode&quot; et &quot;pdf417&quot; sont pris en charge.  Pour plus d’informations, voir [Barcode types](#barcode-types).
 
 
 
@@ -50,7 +50,7 @@ Vous pouvez générer le code à barres de différentes manières. Voici quelque
 
 Ajoutez un espace réservé de code-barres dans l’en-tête du modèle et appliquez le style :
 
-1. Modifier **Modèles** > **Disposition de page**
+1. Modifier **les modèles** > **les mises en page**
 1. Sélectionnez une mise en page. Par exemple, vous pouvez sélectionner la mise en page de la page BackCover, qui contient l’en-tête ou le pied de page.
 1. Ajoutez l’étendue suivante à l’emplacement où vous souhaitez insérer le code à barres.
 
@@ -58,9 +58,9 @@ Ajoutez un espace réservé de code-barres dans l’en-tête du modèle et appli
 
    >[!NOTE]
    >
-   > Utilisez le même nom de classe que celui défini dans la variable `layout.css`.
+   > Utilisez le même nom de classe que celui que vous avez défini dans le `layout.css`.
 
-1. Remplacer `<Sample barcode>` avec la valeur que vous souhaitez que le scanner de code-barres lise.
+1. Remplacez `<Sample barcode>` par la valeur que vous souhaitez que le scanner de code-barres lise.
 
 Vous pouvez afficher le code à barres lors de la génération du PDF de sortie à l’aide du modèle, qui inclut la mise en page. Une fois que vous avez effectué les étapes précédentes, vous pouvez générer la sortie du PDF avec un code à barres.
 
@@ -70,7 +70,7 @@ La capture d’écran suivante affiche un exemple de code-barres dans une sortie
 
 **Exemple 2**
 
-Modifiez la variable `Common.plt` dans le fichier **De base** pour ajouter un code à barres après le titre du projet.
+Modifiez le fichier `Common.plt` dans le modèle **De base** pour ajouter un code à barres après le titre du projet.
 
 Pour créer un code-barres pour un numéro ISBN, ajoutez un numéro ISBN. Utilisez ensuite le numéro ISBN pour générer le code-barres.
 
@@ -89,7 +89,7 @@ Pour créer un code-barres pour un numéro ISBN, ajoutez un numéro ISBN. Utilis
 
 Pour créer un code à barres à l’aide des métadonnées de mappage :
 
-Utilisez les métadonnées figurant dans la variable `<topicmeta>` élément d’un mappage DITA à afficher en tant que code à barres. Assurez-vous d’utiliser le XPath correct. Par exemple, vous pouvez ajouter une `<resourceid>` dans le `<topicmeta>` d’un mappage DITA.
+Utilisez toutes les métadonnées présentes dans l’élément `<topicmeta>` d’un mappage DITA pour les afficher sous forme de code à barres. Assurez-vous d’utiliser le XPath correct. Par exemple, vous pouvez ajouter un `<resourceid>` dans le `<topicmeta>` d’un mappage DITA.
 
 Dans l’exemple suivant, l’ID de ressource sert d’entrée principale pour générer le code à barres.
 
@@ -156,6 +156,3 @@ Voici quelques-uns des codes à barres les plus couramment utilisés :
 | Code Aztec | aztec-code | Symbologie du code-barres Aztec Selon ISO/IEC 24778:2008. |                            |
 | DataMatrix | matrice de données | Symbologie de code-barres ECC 200 Data Matrix selon la norme ISO/IEC 16022:2006. |
 | Code 1 | code-one |                            |
-
-
-

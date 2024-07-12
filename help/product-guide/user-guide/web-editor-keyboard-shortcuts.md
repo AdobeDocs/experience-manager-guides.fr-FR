@@ -1,6 +1,6 @@
 ---
 title: Raccourcis clavier dans l’éditeur web
-description: Découvrez les raccourcis clavier permettant d’économiser du temps dans l’éditeur web des Guides d’AEM.
+description: Découvrez les raccourcis clavier permettant d’économiser du temps dans l’éditeur web d’AEM Guides.
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
 feature: Authoring, Features of Web Editor
 role: User
@@ -29,25 +29,25 @@ Il existe de nombreuses opérations dans l’éditeur Web que vous pouvez effect
 | Mise au point sur le panneau de gauche | **Ctrl***+**Maj**+***1*** | ***Commande***+**Maj**+***1*** |
 | Concentrez-vous sur le panneau de droite | **Ctrl***+**Maj**+***2*** | ***Commande***+**Maj**+***2*** |
 | Concentrez-vous sur l’éditeur actuel | **Ctrl***+**Maj**+***0*** | ***Commande***+**Maj**+***0*** |
-| Enregistrer le document en mode Auteur ou Source | ***Ctrl***+**Maj**+***s*** | ***Commande***+**Maj**+***s*** |
-| Enregistrer tous les documents ouverts en mode Auteur ou Source | ***Ctrl***+***s*** | ***Commande***+***s*** |
+| Enregistrer le document dans la vue Auteur ou Source | ***Ctrl***+**Maj**+***S*** | ***Commande***+**Maj**+***S*** |
+| Enregistrer tous les documents ouverts dans la vue Auteur ou Source | ***Ctrl***+***S*** | ***Commande***+***S*** |
 | Boîte de dialogue Insérer un élément | ***Alt***+***Entrée*** | ***Option***+***Entrée*** |
 | Afficher la boîte de dialogue Insérer un élément pour insérer un élément avant l’élément sélectionné | ***Alt***+***Maj***+***Entrée*** | ***Option***+***Maj***+***Entrée*** |
 | Déplacez le curseur d’un mot vers la gauche. | ***Ctrl***+***Flèche gauche*** | ***Option***+***Flèche gauche*** |
-| Déplacez le curseur d’un mot vers la droite. | ***Ctrl***+***Flèche vers la droite*** | ***Option***+***Flèche vers la droite*** |
+| Déplacez le curseur d’un mot vers la droite. | ***Ctrl***+***Flèche droite*** | ***Option***+***Flèche vers la droite*** |
 | Déplacez le curseur au début de la ligne actuelle. | ***Accueil*** | ***Commande***+***Flèche gauche*** |
 | Déplacez le curseur à la fin de la ligne actuelle. | **Fin** | ***Commande***+***Flèche vers la droite*** |
 | Déplacez le curseur au début de l’élément suivant. | ***Onglet*** | ***Onglet*** |
 | Retrait de l’élément de liste au niveau suivant. | ***Onglet*** | ***Onglet*** |
-| Déplacez le curseur à la fin de l’élément précédent. | ***Maj***+***Onglet*** | ***Maj***+***Onglet*** |
-| Retrait l’élément de liste au niveau précédent. | ***Maj***+***Onglet*** | ***Maj***+***Onglet*** |
-| Retrait automatique du code XML en mode Source | ***Ctrl***+***Alt***+***L*** | ***Commande***+***Option***+***L*** |
-| Fractionner l’élément actif | ***Entrée*** | ***Retour*** |
+| Déplacez le curseur à la fin de l’élément précédent. | ***Shift***+***Tab*** | ***Shift***+***Tab*** |
+| Retrait l’élément de liste au niveau précédent. | ***Shift***+***Tab*** | ***Shift***+***Tab*** |
+| Mise en retrait automatique du code XML dans la vue Source | ***Ctrl***+***Alt***+***L*** | ***Commande***+***Option***+***L*** |
+| Fractionner l’élément actif | ***Entrer*** | ***Retour*** |
 | Copier le texte sélectionné | ***Ctrl***+**C** | ***Commande***+**C** |
 | Coller | ***Ctrl***+**V** | ***Commande***+**V** |
 | Formatage des collages et correspondances | ***Ctrl***+***Maj***+**V** | ***Commande***+***Maj***+**V** |
 | Ouvrir la boîte de dialogue Imprimer | ***Ctrl***+**P** | ***Commande***+**P** |
-| Annuler la dernière action | ***Ctrl***+**z** | ***Commande***+**z** |
+| Annuler la dernière action | ***Ctrl***+**Z** | ***Commande***+**Z** |
 | Rétablir la dernière action | ***Ctrl***+**Y** | ***Commande***+**Y** |
 | Insérer un espace insécable `(&nbsp;)` | ***Alt***+**Espace** | ***Option***+**Espace** |
 

@@ -25,27 +25,27 @@ AEM Guides prend en charge plusieurs styles de citations, comme Modern Language 
 
 >[!NOTE]
 >
->Actuellement, AEM Guides ne prend en charge que les PDF natifs pour les citations.
+>Actuellement, AEM Guides ne prend en charge que le PDF natif pour les citations.
 
 
 ## Ajouter des citations
 
 Pour ajouter des citations, procédez comme suit :
 
-1. Sélectionnez la variable **Citations** ![icône citations](images/citations-icon.svg) dans le panneau de gauche.
-La variable **Citations** s’ouvre.
+1. Sélectionnez l&#39;icône **Citations** ![ icône de citations](images/citations-icon.svg) dans le panneau de gauche.
+Le panneau **Citations** s’ouvre.
 
    ![](images/citation-panel.png){width="300" align="left"}
 
-1. Dans le **Citations** panneau, sélectionnez ![Icône Ajouter](images/Add_icon.svg). Dans la liste déroulante, vous pouvez choisir d’ajouter une nouvelle citation ou d’importer une citation.
+1. Dans le panneau **Citations**, sélectionnez ![Icône Ajouter](images/Add_icon.svg). Dans la liste déroulante, vous pouvez choisir d’ajouter une nouvelle citation ou d’importer une citation.
 
-1. Sélectionner **Nouvelle citation** pour ajouter une nouvelle citation.
-La variable **Ajouter une citation** s’ouvre.
+1. Sélectionnez **Nouvelle citation** pour ajouter une nouvelle citation.
+La boîte de dialogue **Ajouter une citation** s’ouvre.
 
    ![panneau de citation dans l’éditeur web](images/citation-add.png) {width="300" align="left"}
 
 
-1. Renseignez les champs du **Ajouter une citation** de la boîte de dialogue
+1. Renseignez les champs de la boîte de dialogue **Ajouter une citation** .
 
    >[!NOTE]
    >
@@ -53,19 +53,19 @@ La variable **Ajouter une citation** s’ouvre.
 
    | Livre | Site Web | Journal |
    | --- | ---|---|
-   | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation en tant que Livre. | **Source**<br> Dans la liste déroulante, sélectionnez la source de la citation en tant que site web. | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation en tant que Journal. |
-   | **Rechercher par** <br> Sélectionner **ISBN** ou **DOI** dans la liste déroulante pour rechercher l’ID numérique associé à la citation.  <br> DOI : identifiant d’objet numérique <br> ISBN : identificateur unique de livre numérique | **Rechercher par** <br> Sélectionner **DOI** dans la liste déroulante pour rechercher l’ID numérique associé à la citation. | **Rechercher par** <br> Sélectionner **DOI** ou PubMed ID dans la liste déroulante pour rechercher l’ID numérique associé à la citation. <br>  <br> |
-   | **Auteur** <br> Ajoutez le prénom et le nom de l’auteur de la citation. Sélectionner ![](images/Add_icon.svg) pour ajouter d’autres noms. | **Auteur** <br> Ajoutez le prénom et le nom de l’auteur de la citation. Sélectionner ![](images/Add_icon.svg)  pour ajouter d’autres noms. | **Auteur** <br> Ajoutez le prénom et le nom de l’auteur de la citation. Sélectionner ![](images/Add_icon.svg)pour ajouter d’autres noms. |
+   | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation en tant que Livre. | **Source**<br> Dans la liste déroulante, sélectionnez la source de la citation en tant que site Web. | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation en tant que Journal. |
+   | **Rechercher par** <br> Sélectionnez **ISBN** ou **DOI** dans la liste déroulante pour rechercher l’ID numérique associé à la citation.  <br> DOI : identifiant d’objet numérique <br> ISBN : identifiant unique de livre numérique | **Rechercher par** <br> Sélectionnez **DOI** dans la liste déroulante pour rechercher l’ID numérique associé à la citation. | **Effectuer une recherche par** <br> Sélectionnez **DOI** ou PubMed ID dans la liste déroulante pour rechercher l’ID numérique associé à la citation. <br>  <br> |
+   | **Auteur** <br> Ajoutez le prénom et le nom de l’auteur de la citation. Sélectionnez ![](images/Add_icon.svg) pour ajouter d’autres noms. | **Auteur** <br> Ajoutez le prénom et le nom de l’auteur de la citation. Sélectionnez ![](images/Add_icon.svg) pour ajouter d’autres noms. | **Auteur** <br> Ajoutez le prénom et le nom de l’auteur de la citation. Sélectionnez ![](images/Add_icon.svg) pour ajouter d’autres noms. |
    | **Titre** <br> Ajoutez le titre du livre. | **Titre** <br> Ajoutez le titre de la page web. | **Titre** <br> Ajoutez le titre de l’article. |
-   | **Éditeur** <br> Ajoutez l&#39;éditeur du livre. | **Nom du site Web** <br> Ajoutez le nom du site web. | **Titre du journal** <br> Ajoutez le titre du travail dans lequel se trouve l’article. |
-   | **Edition** <br> Ajoutez l&#39;édition du livre. | **URL** <br> Ajoutez le lien web du site web pour parcourir le contenu. | **Année** <br> Ajoutez l’année de publication de l’article. |
-   | **Ville** <br> Ajoutez la ville de la publication. | **Date d’accès**<br> Ajoutez la date d&#39;accès au contenu du site web. | **Volume** <br> Ajoutez le volume du travail dans la série. |
-   | **Éditeur** <br> Ajoutez le nom de l’éditeur du livre. | **Date de publication** <br> Ajoutez la date de publication du contenu du site web. | **Nombre** <br> Ajoutez le numéro du volume dans la série. |
-   | **Année** <br> Ajoutez l&#39;année de publication du livre. | **Date de mise à jour** <br> Ajoutez la date à laquelle le contenu du site web est mis à jour. | **Pages** <br> Ajoutez le numéro de page ou la plage de pages dans laquelle se trouve l’article. |
-   | **Version** <br> Ajoutez la version du livre. | **Identifiant unique** <br> Ajoutez un identifiant unique pour la citation. Un identifiant unique est l’identifiant unique de cette citation. | **URL** <br>Ajoutez le lien Web au journal. |
-   | **Série** <br>Ajoutez la série du livre. |  | **Identifiant unique** <br> Ajoutez un identifiant unique pour la citation. Un identifiant unique est un identifiant unique pour cette citation. |
-   | **URL**  <br>  Ajoutez le lien Web au livre. |
-   | **Identifiant unique** <br> Ajoutez un identifiant unique pour la citation. Un identifiant unique est l’identifiant unique de cette citation. |
+   | **Editor** <br> Ajoutez l’éditeur du livre. | **Nom du site Web** <br> Ajoutez le nom du site Web. | **Titre du journal** <br> Ajoutez le titre du travail dans lequel l’article est trouvé. |
+   | **Edition** <br> Ajoutez l’édition du livre. | **URL** <br> Ajoutez le lien Web du site Web pour parcourir le contenu. | **Year** <br> Ajoutez l’année de publication de l’article. |
+   | **Ville** <br> Ajoutez la ville de la publication. | **Date d’accès**<br> Ajoutez la date d’accès au contenu du site web. | **Volume** <br> Ajoutez le volume du travail dans la série. |
+   | **Publisher** <br> Ajoutez le nom de l’éditeur du livre. | **Date de publication** <br> Ajoutez la date de publication du contenu du site web. | **Number** <br> Ajoutez le numéro du volume dans la série. |
+   | **Year** <br> Ajoutez l&#39;année de publication du livre. | **Date de mise à jour** <br> Ajoutez la date à laquelle le contenu du site web est mis à jour. | **Pages** <br> Ajoutez le numéro ou la plage de pages dans laquelle l’article se trouve. |
+   | **Version** <br> Ajoutez la version du livre. | **ID unique** <br> Ajoutez un ID unique pour la citation. Un identifiant unique est l’identifiant unique de cette citation. | **URL** <br>Ajoutez le lien Web au journal. |
+   | **Series** <br>Ajoutez la série du livre. |  | **Identifiant unique** <br> Ajoutez un identifiant unique pour la citation. Un identifiant unique est un identifiant unique pour cette citation. |
+   | **URL** <br> Ajoutez le lien Web au livre. |
+   | **ID unique** <br> Ajoutez un ID unique pour la citation. Un identifiant unique est l’identifiant unique de cette citation. |
 
 
 
@@ -83,11 +83,11 @@ La variable **Ajouter une citation** s’ouvre.
 
 Pour importer des citations, procédez comme suit :
 
-1. Dans le panneau de gauche, sélectionnez **Citations** ![icône citations](images/citations-icon.svg).
+1. Dans le panneau de gauche, sélectionnez **Citations** ![icône de citations](images/citations-icon.svg).
 
-   La variable **Citations** s’ouvre.
+   Le panneau **Citations** s’ouvre.
 
-1. Dans le **Citations** panneau, sélectionnez ![Icône Ajouter](images/Add_icon.svg), puis sélectionnez **Importer** dans la liste déroulante.
+1. Dans le panneau **Citations**, sélectionnez ![Icône Ajouter](images/Add_icon.svg), puis sélectionnez **Importer** dans la liste déroulante.
 1. Parcourez un fichier .bib depuis votre système et importez-le .
 
    >[!TIP]
@@ -98,7 +98,7 @@ Pour importer des citations, procédez comme suit :
 
    >[!NOTE]
    > <ol><li> AEM Guides importe uniquement les citations uniques qui ne sont pas déjà présentes.
-    &gt; <li> AEM Guides peuvent importer des citations à partir d’un livre, d’un journal ou d’un site Web. Actuellement, il ne prend pas en charge les citations d’autres sources.
+    &gt; <li> AEM Guides peut importer des citations à partir d’un livre, d’un journal ou d’un site web. Actuellement, il ne prend pas en charge les citations d’autres sources.
 
 ## Gestion des citations
 
@@ -106,49 +106,49 @@ Les citations sont triées par ordre alphabétique dans le panneau de gauche. Re
 
 ### Filtrer
 
-Sélectionnez la variable **Filtrer** ![](images/filter-search-icon.svg) en regard de la barre de recherche et sélectionnez les options de la source dans la liste déroulante pour filtrer la liste de citations. Il permet des sélections simples et multiples.
+Sélectionnez l’icône **Filtrer** ![](images/filter-search-icon.svg) en regard de la barre de recherche et sélectionnez les options source dans la liste déroulante pour filtrer la liste de citations. Il permet des sélections simples et multiples.
 
-* **Sources toutes**: affiche une liste complète des citations, y compris toutes les sources.
+* **Toutes les sources** : affiche une liste complète des citations, y compris toutes les sources.
 
-* **Livre**: affiche la liste des citations provenant de livres.
+* **Livre** : il affiche la liste des citations provenant de livres.
 
-* **Site Web**: affiche la liste des citations provenant de sites web.
+* **Site Web** : affiche la liste des citations provenant de sites Web.
 
-* **Journal**: affiche la liste des citations provenant des journaux.
+* **Journal** : il affiche la liste des citations provenant de journaux.
 
 ### Recherche
 
 Recherchez votre contenu dans la citation.
 
 1. Dans le panneau de gauche, sélectionnez Citations.
-La variable **Citations** s’ouvre.
+Le panneau **Citations** s’ouvre.
 
 1. Utilisez la barre de recherche pour rechercher la citation appropriée dans une liste longue.
 
 ### Changer le style de citation {#change-citation-style}
 
-Votre administrateur système peut modifier le style des citations à partir de la fonction **Citations**  dans la liste déroulante **Paramètres généraux** dans le **Paramètres de l’éditeur**.
+L’administrateur système peut modifier le style des citations à partir de la liste déroulante **Citations** de l’onglet **Paramètres généraux** dans les **** paramètres de l’éditeur.
 Ces styles déterminent la manière dont les citations apparaissent dans le volet d’aperçu ou dans la sortie du PDF natif.
 
 Les options suivantes sont disponibles dans la liste déroulante :
 
 | MLA | APA | Chicago | IEEE | AHA |
 |---|---|---|---|---|
-| Style d&#39;association de langues modernes <br> | Le style de l&#39;association psychologique américaine | Manuel de style de Chicago | Style de l&#39;Institut pour les ingénieurs électriques et électroniques | American Heartbeat Association Style |
-| Exemple :<br> Crawford, Claire, et al. *Contenu émotionnel des souvenirs sombres*.Edité par Memory, vol 16, 2010, Amsterdam. | Exemple : <br> Crawford, C., J., &amp;, C. (2010). *Contenu émotionnel des souvenirs sombres* (505-16 éd.). 10.1080/09658210902067289 | Exemple : <br> Crawford, Claire, et al. *Contenu émotionnel des souvenirs sombres*. 505-16, 2010. | Exemple : <br> C. Crawford, J. et C. , *Contenu émotionnel des souvenirs sombres*. Amsterdam, 2010. | Exemple : <br> C. Crawford, J. et C. , *Contenu émotionnel des souvenirs sombres*. Amsterdam, 2010. |
+| Style d’association de langue moderne <br> | Le style de l&#39;association psychologique américaine | Manuel de style de Chicago | Style de l&#39;Institut pour les ingénieurs électriques et électroniques | American Heartbeat Association Style |
+| Exemple :<br> Crawford, Claire, et al. *Contenu émotionnel de souvenirs sombres*.Modifié par Memory, vol 16, 2010, Amsterdam. | Exemple : <br> Crawford, C., J., &amp; , C. (2010). *Contenu émotionnel de souvenirs sombres* (505-16 ed.) 10.1080/09658210902067289 | Exemple : <br> Crawford, Claire, et al. *Contenu émotionnel de souvenirs sombres*. 505-16, 2010. | Exemple : <br> C. Crawford, J. et C. , *Contenu émotionnel de souvenirs sombres*. Amsterdam, 2010. | Exemple : <br> C. Crawford, J. et C. , *Contenu émotionnel de souvenirs sombres*. Amsterdam, 2010. |
 
 
 ## Modifier une citation
 
 Pour éditer la citation, procédez comme suit :
 
-1. Pointez sur le nom de la citation de la liste. Sélectionner  ![](images/options.svg) la valeur **Options** Icône
+1. Pointez sur le nom de la citation de la liste. Sélectionnez ![](images/options.svg) l&#39;icône **Options** .
 
-1. Sélectionner  **Modifier**.
+1. Sélectionnez **Edit**.
 
-La variable **Modifier la citation** s’ouvre.
+La boîte de dialogue **Modifier la citation** s’ouvre.
 
-1. Effectuez les modifications nécessaires. Sélectionner **Terminé**.
+1. Effectuez les modifications nécessaires. Sélectionnez **Done**.
 La citation sélectionnée est éditée.
 
 >[!NOTE]
@@ -159,14 +159,14 @@ La citation sélectionnée est éditée.
 
 Pour prévisualiser une citation, procédez comme suit :
 
-Pointez sur le nom de la citation de la liste. Sélectionner     ![](images/options.svg) **Options** Icône
+Pointez sur le nom de la citation de la liste. Sélectionner     Icône ![](images/options.svg) **Options** .
 
-1. Sélectionner **Aperçu**.
+1. Sélectionnez **Aperçu**.
 Vous pouvez prévisualiser le contenu et le format de la citation dans le volet d’aperçu.
 
    >[!NOTE]
    >
-   >L’aperçu est basé sur le style de citation que votre administrateur a sélectionné dans le **Paramètres de l’éditeur**.
+   >L’aperçu est basé sur le style de citation que votre administrateur a sélectionné dans les **Paramètres de l’éditeur**.
 
 1. Cliquez n’importe où sur l’écran pour fermer la zone d’aperçu.
 
@@ -188,10 +188,10 @@ Vous pouvez insérer des citations dans la rubrique à partir de la barre d’ou
 
 ### Dans la barre d’outils principale
 
-1. Sélectionnez la variable **Citations** ![icône citations ](images/citations-icon.svg) dans la barre d’outils principale.
-1. Dans le **Citations** , sélectionnez la citation. Vous pouvez également sélectionner plusieurs citations.
+1. Sélectionnez l&#39;icône **Citations** ![ de l&#39;icône ](images/citations-icon.svg) dans la barre d&#39;outils principale.
+1. Dans la boîte de dialogue **Citations**, sélectionnez la citation. Vous pouvez également sélectionner plusieurs citations.
    ![boîte de dialogue de citation](images/citation-dialog-main-toolbar.png){width="300" align="left"}
-1. Vous pouvez filtrer les citations en saisissant les premiers alphabets dans le panneau de recherche du **Citation** de la boîte de dialogue
+1. Vous pouvez filtrer les citations en saisissant les premiers alphabets dans le panneau de recherche de la boîte de dialogue **Citation**.
 
 1. Cliquez sur **Terminé**.
 La citation sélectionnée est ajoutée à l’emplacement du curseur dans votre rubrique.
@@ -201,17 +201,17 @@ La citation sélectionnée est ajoutée à l’emplacement du curseur dans votre
 
 >[!NOTE]
 > 
->Pour afficher la variable **Citations** dans le panneau de gauche, votre administrateur système doit sélectionner la variable **Citations** dans le **Panneaux** dans **Paramètres de l’éditeur**.
+>Pour afficher l’icône **Citations** dans le panneau de gauche, votre administrateur système doit sélectionner l’option **Citations** dans l’onglet **Panneaux** de **Paramètres de l’éditeur**.
 
-1. Sélectionner **Citations** ![icône citations ](images/citations-icon.svg) dans le panneau de gauche.
-1. Faites glisser la citation depuis le **Citations** et déposez-le à l’emplacement approprié dans la rubrique.
+1. Sélectionnez l&#39;icône **Citations** ![ icône ](images/citations-icon.svg) dans le panneau de gauche.
+1. Faites glisser la citation depuis le panneau **Citations** et déposez-la à l’emplacement approprié dans la rubrique.
 
-   Vous pouvez également sélectionner **Insérer** de  ![](images/options.svg) **Options** pour insérer une citation.
+   Vous pouvez également sélectionner **Insérer** depuis ![](images/options.svg) **Options** pour insérer une citation.
 
    ![insérer des citations](images/citation-panel-insert.png)
 1. Pour sélectionner plusieurs citations, cliquez avec le bouton droit sur une citation dans la rubrique et sélectionnez **Modifier la citation** dans le menu contextuel.
-1. Sélectionnez les citations à insérer dans le **Citation** boîte de dialogue.
-1. Sélectionner **Terminé** pour les ajouter à la rubrique.
+1. Sélectionnez les citations à insérer dans la boîte de dialogue **Citation**.
+1. Sélectionnez **Terminé** pour les ajouter à la rubrique.
 
 Une fois que vous avez inséré des citations dans la rubrique, vous pouvez les prévisualiser dans l’éditeur web. Vous pouvez également publier du contenu avec des citations à l’aide du PDF natif.
 
@@ -226,10 +226,10 @@ Vous pouvez supprimer des citations à partir du panneau Destinations ou d’une
 Pour supprimer une citation du panneau Citations, procédez comme suit :
 
 1. Pointez sur le nom de la citation de la liste.
-1. Sélectionnez la variable ![](images/options.svg) **Options** Icône
+1. Sélectionnez l&#39;icône ![](images/options.svg) **Options** .
 1. Sélectionnez la variable   **Supprimer** ![](images/Delete_icon.svg).
 La boîte de dialogue de confirmation s’ouvre.
-1. Sélectionner **Oui**.
+1. Sélectionnez **Oui**.
 La citation sélectionnée est supprimée du panneau des citations.
 
 
@@ -258,10 +258,10 @@ Une fois que vous avez inséré des citations dans la rubrique, vous pouvez publ
 
 Dans la sortie du PDF natif, les citations apparaissent dans le contenu dans lequel vous les avez insérées. Vous pouvez également créer une page de bibliographie. Lorsque vous cliquez sur une citation, vous êtes redirigé vers la page de bibliographie.
 
-Créez un **Citations** mise en page dans les modèles de PDF et incluez-la dans votre document. Toutes les citations utilisées dans le livre sont répertoriées sur une page qui apparaît dans la sortie du PDF. Pour en savoir plus sur la création d’une mise en page, voir [Création d’une mise en page](../native-pdf/components-pdf-template.md#create-page-layout).
+Créez une mise en page **Citations** dans les modèles de PDF et incluez-la dans votre document. Toutes les citations utilisées dans le livre sont répertoriées sur une page qui apparaît dans la sortie du PDF. Pour en savoir plus sur la création d’une mise en page, consultez la page [Créer une mise en page](../native-pdf/components-pdf-template.md#create-page-layout).
 
 
-Pour modifier l’affichage et l’aspect de la page de référence, voir [Personnalisation des modèles de PDF](../native-pdf/pdf-template.md).
+Pour modifier l’affichage et l’aspect de la page de citation, consultez la page [Personnaliser les modèles de PDF](../native-pdf/pdf-template.md).
 
 
 
@@ -269,8 +269,8 @@ Pour modifier l’affichage et l’aspect de la page de référence, voir [Perso
 
 Appliquez la mise en forme à la citation lorsqu’elle est ajoutée à la rubrique.
 
-1. Sélectionner **Feuilles de style** dans le **Modèles** d’un paramètre prédéfini de sortie du PDF natif.   Elle ouvre la fenêtre **STYLES** qui contient toutes les options de style.
+1. Sélectionnez **Feuilles de style** dans le panneau **Modèles** d’un paramètre prédéfini de sortie de PDF natif.   Il ouvre le panneau **STYLES** qui contient toutes les options de style.
 
 1. Dans le panneau Rechercher, recherchez `<cite>`.
 
-Pour en savoir plus sur les styles, voir [Utilisation des styles de contenu communs](../native-pdf/stylesheet.md).
+Pour en savoir plus sur les styles, consultez [Utilisation des styles de contenu communs](../native-pdf/stylesheet.md).

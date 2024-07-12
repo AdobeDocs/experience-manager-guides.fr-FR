@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Configuration du modèle de mappage DITA personnalisé {#id1774F04F05Z}
 
-AEM Guides est fourni avec deux modèles de mappage prêts à l’emploi — carte DITA et carte des livres. Vous pouvez créer des cartes à partir de ces modèles ou définir vos propres modèles de carte qui pourront ensuite être utilisés pour créer de nouvelles cartes.
+AEM Guides est fourni avec deux modèles de mappage prêts à l’emploi : carte DITA et carte des livres. Vous pouvez créer des cartes à partir de ces modèles ou définir vos propres modèles de carte qui pourront ensuite être utilisés pour créer de nouvelles cartes.
 
 Effectuez les étapes suivantes pour ajouter vos modèles de mappage personnalisés :
 
@@ -24,7 +24,7 @@ Effectuez les étapes suivantes pour ajouter vos modèles de mappage personnalis
 
    >[!NOTE]
    >
-   > Pour configurer un emplacement personnalisé pour stocker des modèles de rubrique ou de mappage, voir [Configuration du chemin d’accès au dossier de modèle DITA personnalisé](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)
+   > Pour configurer un emplacement personnalisé pour stocker des modèles de rubrique ou de mappage, voir [ Configuration du chemin d’accès au dossier de modèle DITA personnalisé](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)
 
 1. Cliquez sur **Créer** \> **Modèle DITA**.
 
@@ -36,7 +36,7 @@ Effectuez les étapes suivantes pour ajouter vos modèles de mappage personnalis
 
 1. Cliquez sur **Suivant**.
 
-1. Sur la nouvelle page Propriétés du modèle, saisissez une **Titre** et **Nom** pour le modèle.
+1. Sur la nouvelle page Propriétés du modèle, saisissez un **Titre** et un **Nom** pour le modèle.
 
    >[!NOTE]
    >
@@ -49,10 +49,10 @@ Effectuez les étapes suivantes pour ajouter vos modèles de mappage personnalis
    Vous pouvez choisir d’ouvrir le modèle à modifier dans l’éditeur de mappage ou d’enregistrer le fichier de modèle à l’emplacement de la boutique de modèles. Une fois le modèle créé, vous pouvez utiliser l’éditeur de cartes pour le personnaliser selon vos besoins de création. Une fois qu’un modèle est en place, veillez à l’associer à un profil global ou de niveau dossier.
 
 
-La prochaine fois que vous créerez une carte, votre modèle s’affichera dans la page Plan directeur. Pour plus d’informations sur la création d’un mappage DITA, voir *Utilisation des guides Adobe Experience Manager*.
+La prochaine fois que vous créerez une carte, votre modèle s’affichera dans la page Plan directeur. Pour plus d’informations sur la création d’un mappage DITA, voir la section *Utilisation d’Adobe Experience Manager Guides*.
 
 >[!TIP]
 >
-> Voir *Modèles personnalisés* section du guide Bonnes pratiques pour connaître les bonnes pratiques relatives à l’utilisation de modèles de mappage personnalisés.
+> Consultez la section *Modèles personnalisés* du guide Bonnes pratiques pour connaître les bonnes pratiques relatives à l’utilisation de modèles de mappage personnalisés.
 
-**Rubrique parente :** [Configuration des modèles de rubrique et de mappage](conf-template-tags.md)
+**Rubrique parente :** [Configuration de modèles de rubrique et de mappage](conf-template-tags.md)

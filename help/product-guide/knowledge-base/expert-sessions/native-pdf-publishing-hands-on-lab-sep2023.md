@@ -40,7 +40,7 @@ Au cours de cette session, vous avez appris ce qui suit pour la publication d’
 - Références croisées à des tableaux, des chiffres, des en-têtes et des paragraphes.
 - Utilisation de variables pour configurer des objets DITA pour une sortie localisée.
 - Options de mise en forme, de style, de filigranes conditionnels, etc.
-- Comment résoudre les problèmes liés à l’utilisation du HTML intermédiaire.
+- Comment résoudre les problèmes liés à l’utilisation de l’HTML intermédiaire.
 - Migration vers le moteur de PDF natif.
 - Options/fonctionnalités pour les manuels de voitures.
 - Les développements récents tels que les variables de langue, l’éditeur CSS repensé, etc.
@@ -48,25 +48,25 @@ Au cours de cette session, vous avez appris ce qui suit pour la publication d’
 
 ## Ressources connexes
 
-- **Procédure de configuration du PDF natif** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
+- **Étapes de configuration du PDF natif** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
 
-- **Présentation fonctionnelle de la publication d’PDF natifs** - [sur Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
+- **Présentation fonctionnelle de la publication de PDF natif** - [sur Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **Cas d’utilisation courants documentés** - [sur Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
+- **Cas d’utilisation courants documentés** - [ sur Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
-- **Forum communautaire** - Pour les interactions de communauté spécifiques à une session sur Experience League, rendez-vous sur la page  [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Forum de la communauté** - Pour des interactions de la communauté spécifiques à une session sur Experience League, rendez-vous sur le [forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> Les fonctionnalités affichées dans cette session sont disponibles dans les versions suivantes des AEM Guides :
+> Les fonctionnalités affichées dans cette session sont disponibles dans les versions suivantes d’AEM Guides :
 > - On-premise 4.2 ou version ultérieure
 > - Cloud Service 2309 et versions ultérieures
 
 ## Prochaine session d&#39;experts
 
-- **Rubrique** - Guides Extension Framework
+- **Topic** - Guides Extension Framework
 - **Planifié le** - 02 novembre 2023
 
 ## Contactez-nous
 
-Pour toute demande, envoyez-nous un email à l’adresse <techcomm@adobe.com>
+Pour toute requête, envoyez-nous un email à l’adresse <techcomm@adobe.com>

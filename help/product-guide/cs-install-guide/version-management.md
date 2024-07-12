@@ -26,15 +26,15 @@ Dans un environnement à plusieurs utilisations, il est également important de 
 >
 > Cette configuration s’applique uniquement lors du téléchargement de fichiers.
 
-Pour activer la variable **Créer une version pour le fichier téléchargé** effectuez les étapes suivantes :
+Pour activer l’option **Créer une version pour le fichier téléchargé**, procédez comme suit :
 
 1. Suivez les instructions de la section [Remplacements de configuration](download-install-additional-config-override.md#) pour créer le fichier de configuration.
-1. Dans le fichier de configuration, fournissez les détails \(propriété\) suivants pour configurer la variable **Créer une version pour le fichier téléchargé** option :
+1. Dans le fichier de configuration, fournissez les détails \(propriété\) suivants pour configurer l’option **Créer une version pour le fichier téléchargé** :
 
 
    | PID | Clé de propriété | Valeur de la propriété |
    |---|------------|--------------|
-   | `com.adobe.fmdita.confi g.ConfigManager` | `create.ver.new.content` | Booléen \(true/false\).<br> **Valeur par défaut**: `true` |
+   | `com.adobe.fmdita.confi g.ConfigManager` | `create.ver.new.content` | Booléen \(true/false\).<br> **Valeur par défaut** : `true` |
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Pour activer la variable **Créer une version pour le fichier téléchargé** ef
 
 ## Configuration des paramètres pour permettre la modification des fichiers extraits
 
-AEM Guides Web Editor vous permet de créer et de mettre à jour des rubriques DITA. Vous pouvez configurer l’éditeur Web pour autoriser la modification des documents qui ont été extraits du référentiel uniquement. Cela permet qu’aucun autre auteur ne remplace accidentellement un sujet ouvert pour modification par un autre auteur. Une fois qu’une rubrique est ouverte pour modification, un auteur peut archiver le fichier au moment de la fermeture du fichier.
+L’éditeur web AEM Guides vous permet de créer et de mettre à jour des rubriques DITA. Vous pouvez configurer l’éditeur Web pour autoriser la modification des documents qui ont été extraits du référentiel uniquement. Cela permet qu’aucun autre auteur ne remplace accidentellement un sujet ouvert pour modification par un autre auteur. Une fois qu’une rubrique est ouverte pour modification, un auteur peut archiver le fichier au moment de la fermeture du fichier.
 
 Une autre règle importante consiste à s’assurer que les fichiers qui ont été extraits sont réarchivés dans le système. Cela empêche les utilisateurs de fermer accidentellement les fichiers sans les réarchiver.
 
@@ -50,13 +50,13 @@ Suivez les instructions de la section [Remplacements de configuration](download-
 
 | PID | Clé de propriété | Valeur de la propriété |
 |---|------------|--------------|
-| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.autocheckout` | Booléen \(true/false\).<br> **Valeur par défaut**: `false` |
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.autocheckout` | Booléen \(true/false\).<br> **Valeur par défaut** : `false` |
 
 En outre, vous pouvez également configurer pour afficher un message d’avertissement chaque fois qu’un fichier extrait est fermé sans l’enregistrer ni le réarchiver dans le référentiel.
 
 | PID | Clé de propriété | Valeur de la propriété |
 |---|------------|--------------|
-| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.checkin` | Booléen \(true/false\).<br> **Valeur par défaut**: `false` |
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.checkin` | Booléen \(true/false\).<br> **Valeur par défaut** : `false` |
 
 >[!NOTE]
 >
@@ -71,12 +71,12 @@ En outre, vous pouvez également configurer pour afficher un message d’avertis
 Pour permettre aux utilisateurs de remplacer le fichier qu’ils ont extrait lors du téléchargement par un autre utilisateur ou un autre, procédez comme suit :
 
 1. Suivez les instructions de la section [Remplacements de configuration](download-install-additional-config-override.md#) pour créer le fichier de configuration.
-1. Dans le fichier de configuration, fournissez les détails \(propriété\) suivants pour configurer la variable **Remplacer le fichier extrait lors du téléchargement** option :
+1. Dans le fichier de configuration, fournissez les détails \(propriété\) suivants pour configurer l’option **Remplacer le fichier extrait lors du téléchargement** :
 
 
 | PID | Clé de propriété | Valeur de la propriété |
 |---|------------|--------------|
-| `com.adobe.fmdita.confi g.ConfigManager` | `overwrite.checkout.onupload` | Booléen \(true/false\).<br> **Valeur par défaut**: `false` |
+| `com.adobe.fmdita.confi g.ConfigManager` | `overwrite.checkout.onupload` | Booléen \(true/false\).<br> **Valeur par défaut** : `false` |
 
 >[!NOTE]
 >
@@ -88,7 +88,7 @@ Suivez les instructions de la section [Remplacements de configuration](download-
 
 | PID | Clé de propriété | Valeur de la propriété |
 |---|------------|--------------|
-| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.preventcheckedoutcontentdeletion` | Booléen \(true/false\). <br> **Valeur par défaut**: `true` |
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.preventcheckedoutcontentdeletion` | Booléen \(true/false\). <br> **Valeur par défaut** : `true` |
 
 ## Empêcher la suppression des fichiers référencés
 
@@ -105,7 +105,7 @@ Suivez les instructions de la section [Remplacements de configuration](download-
 
 | PID | Clé de propriété | Valeur de la propriété |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | Les valeurs possibles sont les suivantes : <br> - allow\_unsafe\_delete\_for\_all <br> - allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Valeur par défaut**: `allow_unsafe_delete_for_delete_assets_group` <br> Les détails de ces constantes sont présentés ci-dessous. |
+| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | Les valeurs possibles sont : <br> - allow\_unsafe\_delete\_for\_all <br> -   allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Valeur par défaut** : `allow_unsafe_delete_for_delete_assets_group` <br> Les détails de ces constantes sont présentés ci-dessous. |
 
 Selon qui vous souhaitez accorder l’accès à la suppression, spécifiez l’une des constantes suivantes :
 
@@ -113,7 +113,7 @@ Selon qui vous souhaitez accorder l’accès à la suppression, spécifiez l’u
 
   ![](assets/allow_unsafe_delete-force-delete.PNG)
 
-- allow\_unsafe\_delete\_for\_delete\_assets\_group : un administrateur ou un utilisateur appartenant à la variable *delete-assets* Le groupe est autorisé à supprimer des fichiers. Si un autre utilisateur tente de supprimer des fichiers contenant des références, il n’est pas autorisé à les supprimer tant que toutes les références ne sont pas supprimées. La capture d’écran suivante s’affiche lorsqu’un utilisateur, qui ne dispose pas d’autorisations, tente de supprimer des fichiers.
+- allow\_unsafe\_delete\_for\_delete\_assets\_group : un administrateur ou un utilisateur appartenant au groupe *delete-assets* est autorisé à supprimer des fichiers. Si un autre utilisateur tente de supprimer des fichiers contenant des références, il n’est pas autorisé à les supprimer tant que toutes les références ne sont pas supprimées. La capture d’écran suivante s’affiche lorsqu’un utilisateur, qui ne dispose pas d’autorisations, tente de supprimer des fichiers.
 
   ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG)
 
@@ -143,15 +143,15 @@ Pour purger les anciennes versions, procédez comme suit :
    ![](assets/preview-purge-report.png)
 
 1. 
-   - **Nombre de versions à conserver à partir de la dernière version**: entrez le nombre de versions qui doivent être conservées et non purgées. Par exemple, si nous saisissons 5 , les 5 dernières versions sont conservées, et les versions antérieures à peuvent être purgées si d’autres conditions de purge sont remplies.
-- **Conserver Les Versions Créées Dans La Période \(En Jours\)**: saisissez la page maximale d’une version en jours. Les versions antérieures au nombre de jours donné peuvent être purgées si d’autres conditions de purge sont remplies. Par exemple, si nous entrez 100, toutes les versions créées avant 100 jours sont éligibles pour être purgées si d’autres conditions de purge sont remplies.
-- **Chemin**: sélectionnez le chemin d’accès du fichier ou du dossier dont vous souhaitez purger les fichiers.
+   - **Nombre de versions à conserver à partir de la dernière version** : entrez le nombre de versions qui doivent être conservées et non purgées. Par exemple, si nous saisissons 5 , les 5 dernières versions sont conservées, et les versions antérieures à peuvent être purgées si d’autres conditions de purge sont remplies.
+- **Conserver les versions créées pendant la période \(En jours\)** : saisissez la page maximale d’une version en jours. Les versions antérieures au nombre de jours donné peuvent être purgées si d’autres conditions de purge sont remplies. Par exemple, si nous entrez 100, toutes les versions créées avant 100 jours sont éligibles pour être purgées si d’autres conditions de purge sont remplies.
+- **Chemin** : sélectionnez le chemin d’accès du fichier ou du dossier dont vous souhaitez purger les fichiers.
 
   >[!NOTE]
   >
   > Vous pouvez uniquement purger les fichiers DITA.
 
-1. Cliquez sur **Aperçu du rapport Purge**.
+1. Cliquez sur **Aperçu du rapport de purge**.
 
    >[!NOTE]
    >
@@ -160,7 +160,7 @@ Pour purger les anciennes versions, procédez comme suit :
    Le rapport de purge de version est généré.
 
 1. Téléchargez le rapport Purge de version et vérifiez les fichiers et les versions qui seront purgés.
-1. Vous pouvez choisir de **Annuler la purge** ou **Commencer la purge**.
+1. Vous pouvez choisir de **Annuler la purge** ou **Démarrer la purge**.
 
    ![](assets/download-purge-report.png)
 

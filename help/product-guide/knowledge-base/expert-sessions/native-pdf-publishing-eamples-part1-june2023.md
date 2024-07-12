@@ -1,6 +1,6 @@
 ---
 title: Publication de PDF natifs - Apprentissage par exemples (partie 1)
-description: Avec le moteur de publication Native PDF, vous pouvez contrôler la mise en page du contenu du document tout en manipulant les sections souhaitées selon les besoins à l’aide de CSS, de HTML et de JavaScript faciles à mettre à jour.
+description: Avec le moteur de publication Native PDF, vous pouvez contrôler la mise en page du contenu du document tout en manipulant les sections souhaitées selon les besoins à l’aide de CSS, d’HTML et de JavaScript faciles à mettre à jour.
 exl-id: ddaf4e83-9958-42c5-b172-4c9f8e923910
 feature: Native PDF Output
 role: User, Admin
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Publication de PDF natifs - Apprentissage par des exemples - 01
 
-Avec le moteur de publication Native PDF, vous pouvez contrôler la mise en page du contenu du document tout en manipulant les sections souhaitées selon les besoins à l’aide d’un code CSS, de HTML et de JavaScript facile à mettre à jour.
+Avec le moteur de publication Native PDF, vous pouvez contrôler la mise en page du contenu du document tout en manipulant les sections souhaitées selon les besoins à l’aide de CSS, d’HTML et de JavaScript faciles à mettre à jour.
 
 ## Présentation de la session
 
@@ -37,22 +37,22 @@ Au cours de cette session, vous avez appris ce qui suit pour la publication d’
 - Utilisation de polices personnalisées
 - Utilisation de métadonnées provenant de DITA XML dans la sortie du PDF
 - Création d’une sortie pdf à plusieurs colonnes et modification de la taille des pages en sortie PDF (pour impression)
-- Modifier l&#39;ordre de rendu de certains éléments (via JavaScript)
+- Modification de l’ordre de rendu de certains éléments (via JavaScript)
 
 
 ## Ressources connexes
 
-- **Procédure de configuration du PDF natif** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
+- **Étapes de configuration du PDF natif** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
 
-- **Présentation fonctionnelle de la publication d’PDF natifs** - [sur Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
+- **Présentation fonctionnelle de la publication de PDF natif** - [sur Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **Cas d’utilisation courants documentés** - [sur Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
+- **Cas d’utilisation courants documentés** - [ sur Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
-- **Forum communautaire** - Pour les interactions de communauté spécifiques à une session sur Experience League, rendez-vous sur la page  [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Forum de la communauté** - Pour des interactions de la communauté spécifiques à une session sur Experience League, rendez-vous sur le [forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> Les fonctionnalités affichées dans cette session sont disponibles dans les versions suivantes des AEM Guides :
+> Les fonctionnalités affichées dans cette session sont disponibles dans les versions suivantes d’AEM Guides :
 > - On-premise 4.2 ou version ultérieure
 > - Cloud Service 2303 et versions ultérieures
 
@@ -63,4 +63,4 @@ Au cours de cette session, vous avez appris ce qui suit pour la publication d’
 
 ## Contactez-nous
 
-Pour toute demande, envoyez-nous un email à l’adresse <techcomm@adobe.com>
+Pour toute requête, envoyez-nous un email à l’adresse <techcomm@adobe.com>

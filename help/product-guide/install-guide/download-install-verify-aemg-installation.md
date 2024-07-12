@@ -1,6 +1,6 @@
 ---
-title: Vérification de l’installation AEM Guides
-description: Découvrez comment vérifier l’installation des AEM Guides
+title: Vérification de l’installation d’AEM Guides
+description: Découvrez comment vérifier l’installation d’AEM Guides
 exl-id: 8e0afe18-5675-4c7e-b216-6de1a752bd01
 feature: Installation
 role: Admin
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Vérification de l’installation AEM Guides {#id213BD030FBE}
+# Vérification de l’installation d’AEM Guides {#id213BD030FBE}
 
-Une fois que vous avez installé AEM Guides, vous devez vérifier si l’installation a réussi ou non. Effectuez les étapes suivantes pour vérifier le processus d’installation :
+Une fois AEM Guides installé, vous devez vérifier si l’installation a réussi ou non. Effectuez les étapes suivantes pour vérifier le processus d’installation :
 
 1. Connectez-vous à votre instance AEM et accédez à la page AEM Web Console Bundles. L’URL par défaut pour accéder à la page des lots est la suivante :
 
@@ -24,11 +24,11 @@ Une fois que vous avez installé AEM Guides, vous devez vérifier si l’install
 
    Une liste de lots s’affiche.
 
-1. Filtrez la liste des lots en saisissant fmdita dans la zone de texte de filtrage, puis appuyez sur **Entrée**.
+1. Filtrez la liste des lots en saisissant fmdita dans la zone de texte de filtrage et appuyez sur **Entrée**.
 
-   La liste des lots est filtrée pour afficher les lots installés par AEM Guides. Si l’installation a réussi, tous les lots installés auront une **État** de **Actif**.
+   La liste des lots est filtrée pour afficher les lots installés par AEM Guides. Si l’installation a réussi, tous les lots installés auront un **Status** de **Active**.
 
-   Si l’un des lots n’a pas de **Actif** , puis vérifiez les journaux d’AEM pour résoudre le problème d’installation.
+   Si l’un des lots n’a pas l’état **Active** , vérifiez les journaux d’AEM pour résoudre le problème d’installation.
 
 
 >[!IMPORTANT]

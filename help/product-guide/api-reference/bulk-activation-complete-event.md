@@ -4,7 +4,8 @@ description: En savoir plus sur le gestionnaire d’événement complet d’acti
 feature: Bulk Activation Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+exl-id: 08b153d7-3d13-4804-9e3e-38790dbea1f3
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 2%
@@ -13,22 +14,31 @@ ht-degree: 2%
 
 # Gestionnaire d’événements complete d’activation en bloc
 
-Exposition de guides du Experience Manager `com/adobe/fmdita/replication/complete` qui est utilisé pour effectuer toute opération après la fin d’un processus d’activation en bloc. Cet événement est déclenché chaque fois qu’un processus d’activation en bloc est terminé. Par exemple, si vous exécutez l’activation en bloc d’un paramètre prédéfini de site AEM d’une carte, cet événement est appelé une fois le processus d’activation terminé.
+Experience Manager Guides expose l’événement `com/adobe/fmdita/replication/complete` utilisé pour effectuer toutes les opérations après la fin d’un processus d’activation en bloc. Cet événement est déclenché chaque fois qu’un processus d’activation en bloc est terminé. Par exemple, si vous exécutez l’activation en bloc d’un paramètre prédéfini de site AEM d’une carte, cet événement est appelé une fois le processus d’activation terminé.
 
 Vous devez créer un gestionnaire d’événements AEM pour lire les propriétés disponibles dans cet événement et effectuer un traitement ultérieur.
 
 Les détails de l’événement sont expliqués ci-dessous :
 
-**Nom de l’événement**:
+**Nom de l’événement** :
 
 ```
 com/adobe/fmdita/replication/complete 
 ```
 
-**Paramètres**: |Nom|Type|Description| |—|—|—| |`path`|String|Le chemin d’accès du fichier qui a déclenché cet événement. <br> Par exemple, `/content/output/sites/ditamap1-ditamap`. <br> Il s’agit d’une liste de chemins sérialisés en tant que tableau JSON.| |`messageType`|Chaîne|Type d’un message. <br>Option possible : `REPLICATION`| |`action`|String|Il s’agit de l’action effectuée. <br>Option possible : `BulkReplicate`| |`user`|String|L’utilisateur qui a démarré l’opération.| |`result`|Chaîne|Résultat de l’activation en bloc. Il s’agit d’un objet JSON sérialisé : <br>`{"success":boolean,"code":integer,"message":"" }`| |`agentId`|String|L’agentId utilisé dans la réplication. Par exemple, `"publish"`.| |`importMode`|Chaîne|Mode d’importation utilisé dans Activation. Les options possibles sont les suivantes : <br>`REPLACE, MERGE, UPDATE`.
+**Paramètres** :
+|Nom|Type|Description|
+|—|—|—|
+|`path`|Chaîne|Le chemin d’accès du fichier qui a déclenché cet événement. <br> Par exemple, `/content/output/sites/ditamap1-ditamap`. <br> Il s’agit d’une liste de chemins sérialisés en tableau JSON.|
+|`messageType`|Chaîne|Type d’un message. <br>Option possible : `REPLICATION`|
+|`action`|String|Il s’agit de l’action effectuée. <br>Option possible : `BulkReplicate`|
+|`user`|Chaîne|L’utilisateur qui a démarré l’opération.|
+|`result`|Chaîne|Résultat de l’activation en masse. Il s’agit d’un objet JSON sérialisé : <br>`{"success":boolean,"code":integer,"message":"" }`|
+|`agentId`|String|L’agentId utilisé dans la réplication. Par exemple, `"publish"`.|
+|`importMode`|Chaîne|Mode d’importation utilisé dans Activation. Les options possibles sont : <br>`REPLACE, MERGE, UPDATE`.|
 
 
-**Écouteur d’événements d’exemple**:
+**Écouteur d’événement d’exemple** :
 
 ```XML
 @Component(service = EventHandler.class,

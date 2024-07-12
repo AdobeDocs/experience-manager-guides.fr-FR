@@ -20,12 +20,12 @@ Procédez comme suit pour ajouter vos options de filtrage de fichier personnalis
 
 1. Pour télécharger le fichier de configuration de l’interface utilisateur, connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 
-1. Cliquez sur le lien Adobe Experience Manager en haut de l’écran et choisissez **Outils**.
-1. Sélectionner **Guides** dans la liste des outils, puis cliquez sur l’icône **Profils de dossier**.
-1. Cliquez sur le bouton **Profil global** mosaïque.
-1. Sélectionnez la variable **Configuration de l’éditeur XML** et cliquez sur **Modifier** icône en haut
-1. Cliquez sur le bouton **Télécharger** pour télécharger le fichier ui\_config.json sur votre système local. Vous pouvez ensuite apporter des modifications au fichier, puis charger le même fichier.
-1. Dans le `ui_config.json` ajoutez la définition des filtres que vous souhaitez ajouter.
+1. Cliquez sur le lien Adobe Experience Manager en haut de l’écran et sélectionnez **Outils**.
+1. Sélectionnez **Guides** dans la liste des outils et cliquez sur le bouton **Profils de dossier**.
+1. Cliquez sur la mosaïque **Profil global** .
+1. Sélectionnez l’onglet **Configuration de l’éditeur XML** et cliquez sur l’icône **Modifier** en haut
+1. Cliquez sur l’icône **Télécharger** pour télécharger le fichier ui\_config.json sur votre système local. Vous pouvez ensuite apporter des modifications au fichier, puis charger le même fichier.
+1. Dans le fichier `ui_config.json`, ajoutez la définition des filtres que vous souhaitez ajouter.
 
    Le fragment de code suivant montre comment ajouter deux options de filtrage : Fichiers DITA et Fichiers image.
 
@@ -50,19 +50,22 @@ Procédez comme suit pour ajouter vos options de filtrage de fichier personnalis
 
    Dans le fragment de code ci-dessus, le premier filtre concerne les fichiers DITA. La définition de filtre utilise les paramètres suivants :
 
-   title : nom d’affichage du filtre. Ce titre apparaît comme option de filtrage dans la boîte de dialogue de navigation des fichiers.
+   title
+:   Nom d’affichage du filtre. Ce titre apparaît comme option de filtrage dans la boîte de dialogue de navigation des fichiers.
 
-   property : propriété à faire correspondre dans les métadonnées du fichier. Par exemple, pour n’autoriser que les fichiers qui ont la variable `dita_class` métadonnées dans leur propriété, le filtre de propriété utilise &quot; `jcr:content/metadata/dita_class`&quot; comme valeur.
+   property
+:   Propriété à faire correspondre dans les métadonnées du fichier. Par exemple, pour n’autoriser que les fichiers dont la propriété contient les métadonnées `dita_class`, le filtre de propriété prend &quot; `jcr:content/metadata/dita_class`&quot; comme valeur.
 
-   operation : spécifiez &quot; `exists`&quot; pour correspondre à l’existence de la valeur spécifiée dans le paramètre de propriété.
+   operation
+:   Spécifiez &quot; `exists`&quot; pour correspondre à l’existence de la valeur spécifiée dans le paramètre de propriété.
 
-   Le second filtre concerne les fichiers image. Les paramètres sont similaires au premier filtre, à l’exception du filtre `value` . La variable `value` prend comme valeur un tableau de types d’image. Tous les types de fichiers spécifiés dans le paramètre de valeur sont recherchés et affichés dans la boîte de dialogue de navigation des fichiers ; tous les autres types de fichiers sont ignorés.
+   Le second filtre concerne les fichiers image. Les paramètres sont similaires au premier filtre, à l’exception du paramètre `value` . Le paramètre `value` utilise un tableau de types d’image comme valeur. Tous les types de fichiers spécifiés dans le paramètre de valeur sont recherchés et affichés dans la boîte de dialogue de navigation des fichiers ; tous les autres types de fichiers sont ignorés.
 
-1. Enregistrez le *ui\_config.json* et téléchargez le même fichier. Ensuite, rechargez l’éditeur Web.
+1. Enregistrez le fichier *ui\_config.json* et téléchargez-le. Ensuite, rechargez l’éditeur Web.
 
    Lorsque vous lancez la boîte de dialogue de navigation des fichiers, les options de filtrage configurées dans le fichier ui\_config.json s’affichent.
 
    ![](assets/file-browse-custom-filters.png)
 
 
-**Rubrique parente :**[ Personnalisation de l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)

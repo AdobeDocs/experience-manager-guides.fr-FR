@@ -27,15 +27,15 @@ Lorsque vous vous connectez à AEM, la page Navigation s’affiche :
 
 ![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
-Cliquez sur le bouton **Guides** permet d’accéder directement à l’éditeur Web.
+Cliquez sur le lien **Guides** pour accéder directement à l’éditeur Web.
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
 Comme vous avez lancé l’éditeur Web sans sélectionner de fichier, un écran d’éditeur Web vierge s’affiche. Vous pouvez ouvrir un fichier pour le modifier à partir du référentiel AEM ou de votre collection Favoris.
 
-- Cliquez sur le bouton **Guides** icône (![](images/aem-guides-icon.png) ), pour revenir à la page de navigation AEM.
+- Cliquez sur l’icône **Guides** (![](images/aem-guides-icon.png) ) pour revenir à la page de navigation AEM.
 
-- La variable **Fermer** permet d’accéder à une destination en fonction de votre configuration :
+- Le bouton **Fermer** permet d’accéder à une destination en fonction de votre configuration :
 
 
 
@@ -50,7 +50,7 @@ Comme vous avez lancé l’éditeur Web sans sélectionner de fichier, un écran
 
   <summary> Logiciel On-Premise</summary>
 
-  Si vous utilisez AEM Guides du logiciel On-premise (4.2.1 et versions ultérieures), cliquez sur le bouton **Fermer** sur la droite pour revenir au chemin d’accès au fichier actif dans l’interface utilisateur d’Assets.
+  Si vous utilisez le logiciel AEM Guides On-premise (4.2.1 et versions ultérieures), cliquez sur le bouton **Fermer** situé à droite pour revenir à votre chemin d’accès au fichier actuel dans l’interface utilisateur d’Assets.
 
   </details>
 
@@ -72,11 +72,11 @@ L’interface utilisateur d’AEM Assets vous permet également de lancer l’é
    >
    > Assurez-vous que vous disposez des autorisations de lecture et d’écriture sur le dossier contenant la rubrique que vous souhaitez modifier.
 
-1. Pour obtenir un verrouillage exclusif sur la rubrique, sélectionnez la rubrique et cliquez sur **Extraire**.
+1. Pour obtenir un verrou exclusif sur la rubrique, sélectionnez la rubrique et cliquez sur **Extraire**.
 
    >[!IMPORTANT]
    >
-   > Si votre administrateur a configuré la variable **Désactiver la modification sans extraction** , vous devez extraire le fichier avant de le modifier. Si vous n’extrayez pas le fichier, vous ne pourrez pas voir l’option de modification.
+   > Si votre administrateur a configuré l’option **Désactiver la modification sans extraction**, vous devez extraire le fichier avant de le modifier. Si vous n’extrayez pas le fichier, vous ne pourrez pas voir l’option de modification.
 
 1. Fermez le mode de sélection de la ressource et cliquez sur la rubrique à modifier.
 
@@ -107,7 +107,7 @@ Pour ouvrir l’éditeur web à partir de la console de mappage DITA, procédez 
 
    La console de mappage DITA s’affiche.
 
-1. Cliquez sur **Sujets**.
+1. Cliquez sur **Rubriques**.
 
    Une liste des rubriques du fichier de mappage s’affiche. L’UUID des rubriques s’affiche sous le titre de la rubrique.
 
@@ -121,7 +121,7 @@ Pour ouvrir l’éditeur web à partir de la console de mappage DITA, procédez 
 
    >[!IMPORTANT]
    >
-   > Si votre administrateur a configuré la variable **Désactiver la modification sans extraction** , vous devez extraire le fichier avant de le modifier. Si vous n’extrayez pas le fichier, le document s’ouvre dans l’éditeur en mode lecture seule.
+   > Si votre administrateur a configuré l’option **Désactiver la modification sans extraction**, vous devez extraire le fichier avant de le modifier. Si vous n’extrayez pas le fichier, le document s’ouvre dans l’éditeur en mode lecture seule.
 
 
 **Rubrique parente :**[ Utilisation de l’éditeur web](web-editor.md)

@@ -1,6 +1,6 @@
 ---
-title: Notes de mise à jour | Adobe Experience Manager Guides version 4.1
-description: Dernière version des guides Adobe Experience Manager
+title: Notes de mise à jour | Version 4.1 d’Adobe Experience Manager Guides
+description: Dernière version d’Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 feature: Release Notes
 role: Leader
@@ -11,13 +11,13 @@ ht-degree: 1%
 
 ---
 
-# Version 4.1.x des guides Adobe Experience Manager
+# Version 4.1.x d’Adobe Experience Manager Guides
 
-Les notes de mise à jour de cette version portent sur les instructions de mise à niveau, les nouvelles fonctionnalités et les améliorations de la version 4.1.x des Guides Adobe Experience Manager (ultérieurement appelés *Guides d’AEM*).
+Les notes de mise à jour suivantes portent sur les instructions de mise à niveau, les nouvelles fonctionnalités et les améliorations de la version 4.1.x d’Adobe Experience Manager Guides (appelée ultérieurement *AEM Guides*).
 
 ## Mise à niveau vers la dernière version
 
-Vous pouvez facilement mettre à niveau votre version actuelle des AEM Guides vers la version 4.1.3. Avant de procéder à la mise à niveau vers la version 4.1.3 des AEM Guides, vous devez tenir compte des points suivants :
+Vous pouvez facilement mettre à niveau votre version actuelle d’AEM Guides vers la version 4.1.3. Avant de procéder à la mise à niveau vers la version 4.1.3 d’AEM Guides, vous devez tenir compte des points suivants :
 * Si vous utilisez la version 4.1 ou 4.1.x, vous pouvez directement effectuer la mise à niveau vers la version 4.1.3.
 * Si vous utilisez la version 4.0.x, vous devez effectuer la mise à niveau vers la version 4.1 ou 4.1.x avant de passer à la version 4.1.3.
 * Si vous utilisez la version 3.8.5, vous devez effectuer la mise à niveau vers la version 4.0.x avant de passer à la version 4.1.
@@ -29,17 +29,17 @@ Pour plus d’informations, voir [Instructions de mise à niveau](assets/Adobe-E
 
 ## Matrice de compatibilité
 
-Cette section répertorie le tableau de compatibilité des applications logicielles prises en charge par AEM Guides 4.1.3.
+Cette section répertorie la matrice de compatibilité des applications logicielles prises en charge par la version 4.1.3 d’AEM Guides.
 
 ### ADOBE EXPERIENCE MANAGER
 
-**Non UUID**
+**Non-UUID**
 Version 6.5 Service Pack 13, 12, 11 ou 10
 
-**UUID**
+**UID**
 Version 6.5 Service Pack 13, 12, 11 ou 10
 
-Pour plus d’informations, voir la section Exigences techniques du guide Installation et configuration de Adobe Experience Manager Guides .
+Pour plus d’informations, voir la section Exigences techniques du guide Installation et configuration d’Adobe Experience Manager Guides .
 
 
 ### FrameMaker et FrameMaker Publishing Server
@@ -72,17 +72,17 @@ Le bogue corrigé est répertorié ci-dessous :
 
 ## Matrice de compatibilité
 
-Cette section répertorie le tableau de compatibilité des applications logicielles prises en charge par AEM Guides 4.1.2.
+Cette section répertorie la matrice de compatibilité des applications logicielles prises en charge par la version 4.1.2 d’AEM Guides.
 
 ### ADOBE EXPERIENCE MANAGER
 
-**Non UUID**
+**Non-UUID**
 Version 6.5 Service Pack 13, 12, 11 ou 10
 
-**UUID**
+**UID**
 Version 6.5 Service Pack 13, 12, 11 ou 10
 
-Pour plus d’informations, voir la section Exigences techniques du guide Installation et configuration de Adobe Experience Manager Guides .
+Pour plus d’informations, voir la section Exigences techniques du guide Installation et configuration d’Adobe Experience Manager Guides .
 
 
 ### FrameMaker et FrameMaker Publishing Server
@@ -110,7 +110,7 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 
 * Lors de la sélection de tous les profils de dossier, un profil de dossier invisible (incorrect) s’affiche. 10393)
 * La création de ligne de base ne sélectionne pas la dernière version lorsque le fuseau horaire de l’utilisateur est différent du fuseau horaire du serveur. 10336
-* Le raccourci Ctrl+F n’ouvre pas le modal de recherche du navigateur sur la console Ressources après l’installation des AEM Guides 4.1. (10339)
+* Le raccourci Ctrl+F n’ouvre pas le modal de recherche du navigateur sur la console Assets après l’installation d’AEM Guides 4.1. (10339)
 * Une erreur de création de ligne de base se produit pour la rubrique qui contient la référence à un dossier. 10383
 * L’onglet Paramètres prédéfinis de sortie affiche par intermittence un écran vide et, dans certains cas, des paramètres prédéfinis non modifiables s’affichent. (10390)
 * La gestion de l’espace de clés génère des exceptions et des erreurs. 10449)
@@ -119,25 +119,25 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 
 * La ligne de base exportée lors de la traduction ne se charge pas dans l’onglet de ligne de base de l’éditeur.
 
-  **Solution**: utilisez l’onglet de ligne de base du tableau de bord de mappage DITA.
+  **Solution** : utilisez l’onglet de ligne de base du tableau de bord de mappage DITA.
 
 ## 4.1 | Notes de mise à jour
 
-Les notes de mise à jour de cette version portent sur les instructions de mise à niveau, les nouvelles fonctionnalités et les améliorations de la version 4.1.x des Guides Adobe Experience Manager (ultérieurement appelés *Guides d’AEM*).
+Les notes de mise à jour suivantes portent sur les instructions de mise à niveau, les nouvelles fonctionnalités et les améliorations de la version 4.1.x d’Adobe Experience Manager Guides (appelée ultérieurement *AEM Guides*).
 
 ## Matrice de compatibilité
 
-Cette section répertorie le tableau de compatibilité des applications logicielles prises en charge par AEM Guides 4.1.
+Cette section répertorie la matrice de compatibilité des applications logicielles prises en charge par la version 4.1 d’AEM Guides.
 
 ### ADOBE EXPERIENCE MANAGER
 
-**Non UUID**
+**Non-UUID**
 Version 6.5 Service Pack 13, 12, 10 ou 11
 
-**UUID**
+**UID**
 Version 6.5 Service Pack 13, 12, 10 ou 11
 
-Pour plus d’informations, voir la section Exigences techniques du guide Installation et configuration de Adobe Experience Manager Guides .
+Pour plus d’informations, voir la section Exigences techniques du guide Installation et configuration d’Adobe Experience Manager Guides .
 
 
 
@@ -167,11 +167,11 @@ AEM Guides contient de nombreuses améliorations et nouvelles fonctionnalités d
 
 ### Publication PDF native
 
-La prise en charge de la création d’un PDF natif a également été ajoutée dans la version 4.1 des AEM Guides. Un nouveau moteur de publication a été introduit avec les fonctionnalités suivantes :
+La prise en charge de la création d’un PDF natif a également été ajoutée dans la version 4.1 d’AEM Guides. Un nouveau moteur de publication a été introduit avec les fonctionnalités suivantes :
 * Création d’un modèle CSS
 * Créer différents modèles de page
 * Modèles de PDF de conception comprenant des modèles CSS et de page
-* Publier le mappage et le contenu de rubrique au format PDF
+* Mappage Publish et contenu de rubrique au format PDF
 
 ### Prise en charge du chemin du site de la base de connaissances dans la publication basée sur les articles
 
@@ -179,7 +179,7 @@ AEM Guides fournit la fonction de publication basée sur des articles pour gén�
 
 ### Éditeur web amélioré
 
-* **Amélioration de la résolution des clés**
+* **Résolution de clé améliorée**
 
 Une référence de clé de contenu DITA insère une partie du contenu d’une rubrique dans une autre. Elle utilise une clé pour localiser le contenu. Les références clés associées à une rubrique DITA doivent être résolues. La carte racine sélectionnée a la priorité la plus élevée pour résoudre les références clés.
 
@@ -191,15 +191,15 @@ Désormais, les références clés sont résolues sur la base de la carte racine
 1. Panneau Vue Carte
 1. Profil de dossier
 
-Pour plus d’informations, voir *Résoudre les références de clés* dans le guide d’utilisation des guides Adobe Experience Manager.
+Pour plus d’informations, voir la section *Résoudre les références de clé* dans le guide Utilisation d’Adobe Experience Manager Guides.
 
 * **Ajouter un panneau personnalisé dans le panneau de gauche**
 
-Vous pouvez maintenant ajouter un panneau personnalisé dans le panneau de gauche de l’éditeur Web. Vous pouvez utiliser un panneau personnalisé à diverses fins, par exemple pour fournir de l’aide ou effectuer les tests pour un projet. Si un panneau personnalisé a été configuré, il apparaît également dans la liste des panneaux de la variable **Paramètres de l’éditeur**. Vous pouvez activer ou désactiver le commutateur pour afficher ou masquer le panneau personnalisé.
+Vous pouvez maintenant ajouter un panneau personnalisé dans le panneau de gauche de l’éditeur Web. Vous pouvez utiliser un panneau personnalisé à diverses fins, par exemple pour fournir de l’aide ou effectuer les tests pour un projet. Si un panneau personnalisé a été configuré, il apparaît également dans la liste des panneaux dans les **Paramètres de l’éditeur**. Vous pouvez activer ou désactiver le commutateur pour afficher ou masquer le panneau personnalisé.
 
-* **Possibilité de modifier l’état du document des rubriques dans un mappage DITA**
+* **Possibilité de modifier l’état du document des rubriques dans une carte DITA**
 
-Vous pouvez désormais facilement modifier l’état du document des rubriques sélectionnées dans un mappage DITA. Vous pouvez également ouvrir et modifier les propriétés des rubriques sélectionnées dans un mappage DITA à partir du **Plus d’options** au bas du panneau Vue Carte.
+Vous pouvez désormais facilement modifier l’état du document des rubriques sélectionnées dans un mappage DITA. Vous pouvez également ouvrir et modifier les propriétés des rubriques sélectionnées dans un mappage DITA à partir du menu **Plus d’options** au bas du panneau Vue de carte.
 
 ![propriétés de rubrique sélectionnées](assets/map-view-properties.png)
 
@@ -214,17 +214,19 @@ L’éditeur web vous aide à gérer vos versions. Vous pouvez désormais égale
 
 Les améliorations suivantes sont désormais disponibles avec l’opération d’actualisation du navigateur dans l’éditeur web :
 
-* Vous obtenez maintenant la prise en charge de l’actualisation du navigateur lorsque vous modifiez votre contenu dans l’éditeur web. Si vous appuyez sur l’icône d’actualisation du navigateur alors qu’un ou plusieurs fichiers contenant des modifications non enregistrées sont ouverts pour modification, vous êtes invité à enregistrer vos fichiers ou à annuler l’action d’actualisation.
+* Vous obtenez maintenant la prise en charge d’actualiser le navigateur pendant que vous modifiez votre
+contenu dans l’éditeur Web. Si vous appuyez sur l’icône d’actualisation du navigateur pendant qu’un ou plusieurs fichiers contiennent
+les modifications non enregistrées sont ouvertes pour modification. vous êtes invité à enregistrer vos fichiers ou à annuler l’action d’actualisation.
 
 * Même lors de l’actualisation du navigateur, les vues du panneau de gauche et du panneau de droite sont conservées.
 
 * La rubrique active ou le mappage DITA est rouvert dans la zone de modification du contenu.
 
-* **Création de cartes à partir de modèles personnalisés**
+* **Créez des cartes à partir de modèles personnalisés**
 
 Vous disposez désormais de la puissante fonctionnalité permettant de créer des modèles de carte personnalisés. Vous pouvez les utiliser pour créer des mappages DITA avec les modèles de rubrique et de mappage référencés dans le modèle de mappage.
 
-![modèles dita](assets/dita-templates.png)
+![Modèles dita](assets/dita-templates.png)
 
 Vous pouvez également vous référer à d’autres modèles de mappage et de rubriques à partir du modèle de mappage personnalisé. Les modèles de mappage référencés peuvent faire référence à divers modèles de mappage, modèles de rubrique, rubriques, cartes, images, vidéos et autres ressources.
 
@@ -237,45 +239,45 @@ Le modèle de carte personnalisé peut vous aider à répliquer très facilement
 
 ![valider le schéma](assets/schematron-validate.png)
 
-* **Amélioration de la boîte de dialogue de fermeture de fichier**
+* **Boîte de dialogue améliorée lors de la fermeture du fichier**
 
-AEM Guides vous invite à enregistrer vos modifications et à déverrouiller vos fichiers verrouillés lorsque vous essayez de fermer un fichier ouvert dans l’éditeur web. Les invites s’affichent en fonction de la variable **Demander l’archivage à la fermeture** et **Demander la nouvelle version à fermeture** paramètres configurés par votre administrateur.
+AEM Guides vous invite à enregistrer vos modifications et à déverrouiller vos fichiers verrouillés lorsque vous essayez de fermer un fichier ouvert dans l’éditeur Web. Les invites sont affichées en fonction des paramètres **Demander l’archivage à la fermeture** et **Demander une nouvelle version à la fermeture** configurés par votre administrateur.
 
 En fonction de la configuration, vous avez la possibilité d’enregistrer les modifications et de créer une nouvelle version de votre document. Vous pouvez également archiver le fichier et enregistrer les modifications apportées à la version actuelle.
 
 ![Fermeture du fichier](assets/file-close-save-changes-unlock.png)
 
-Pour plus d’informations, voir *Fermeture du fichier et enregistrement des scénarios* dans le guide d’utilisation des guides Adobe Experience Manager.* Le **Insérer un mot-clé** fonctionnalité a été améliorée. Vous pouvez désormais trouver plus facilement un Mot-clé à insérer lorsque les mots-clés sont répertoriés par ordre alphabétique. Vous pouvez également rechercher des mots-clés en saisissant une chaîne de recherche dans la zone Rechercher.
+Pour plus d’informations, reportez-vous à la section *Fermeture de fichier et scénarios d’enregistrement* du guide Utilisation d’Adobe Experience Manager Guides.* La fonction **Insérer un mot-clé** a été améliorée. Vous pouvez désormais trouver plus facilement un Mot-clé à insérer lorsque les mots-clés sont répertoriés par ordre alphabétique. Vous pouvez également rechercher des mots-clés en saisissant une chaîne de recherche dans la zone Rechercher.
 
-![mot-clé d&#39;insertion](assets/insert-keyword.png)
+![insert keyword](assets/insert-keyword.png)
 
 * **Prise en charge des documents Markdown**
-Markdown est un langage de balisage léger qui peut vous aider à ajouter des éléments de formatage aux documents en texte brut. L’éditeur web vous permet d’utiliser des documents Markdown (.md) avec vos documents DITA. Vous pouvez facilement créer et prévisualiser un document Markdown dans l’éditeur web et également l’ajouter à votre fichier de mappage via l’éditeur de mappage DITA.  Pour plus d’informations, voir *Création de documents Markdown à partir de l’éditeur web* dans le guide d’utilisation des guides Adobe Experience Manager.
+Markdown est un langage de balisage léger qui peut vous aider à ajouter des éléments de formatage aux documents en texte brut. L’éditeur web vous permet d’utiliser des documents Markdown (.md) avec vos documents DITA. Vous pouvez facilement créer et prévisualiser un document Markdown dans l’éditeur web et également l’ajouter à votre fichier de mappage via l’éditeur de mappage DITA.  Pour plus d’informations, reportez-vous à la section *Création de documents Markdown à partir de l’éditeur web* du guide Utilisation d’Adobe Experience Manager Guides.
 
 ![markdown de support](assets/create-markdown-dita-topic.png)
 
 * **Possibilité de configurer une vue de balises par défaut**
 Si un utilisateur active la vue Balises à partir de l’éditeur web, elle reste activée même au cours des sessions.  Cela signifie que vous n’avez pas besoin d’activer à nouveau la vue Balises pour y accéder ultérieurement. Votre administrateur peut configurer l’état par défaut de la vue Balises dans l’éditeur web. La valeur par défaut de la vue Balises pour la session d’un nouvel utilisateur est déterminée par la propriété tagsView dans le fichier ui_config.json.
 
-* Désormais, les fichiers en mode Référentiel sont chargés par lots. Tous les fichiers présents dans la balise principale ou `/content/dam folder` sont répertoriées. Mais à partir du niveau suivant ou du dossier secondaire, 75 fichiers sont chargés à la fois. Ce chargement par lots est efficace et vous pouvez accéder aux fichiers plus rapidement par rapport au chargement de tous les fichiers existants dans un dossier.
+* Désormais, les fichiers en mode Référentiel sont chargés par lots. Tous les fichiers présents dans la principale ou `/content/dam folder` sont répertoriés. Mais à partir du niveau suivant ou du dossier secondaire, 75 fichiers sont chargés à la fois. Ce chargement par lots est efficace et vous pouvez accéder aux fichiers plus rapidement par rapport au chargement de tous les fichiers existants dans un dossier.
 
-![charger plus de fichiers](assets/load-more-files.png)
+![Charger d’autres fichiers](assets/load-more-files.png)
 
 ### Nouveau tableau de bord de ligne de base
 
 La version 4.1 d’AEM Guides fournit la fonctionnalité de ligne de base intégrée à l’éditeur web. Vous pouvez désormais créer des lignes de base à partir de l’éditeur Web et les utiliser pour publier ou traduire des rubriques de différentes versions.
 
-**Remarque**: pour le système mis à niveau, mettez à jour la dernière version **ui_config.json** pour le profil de dossier.
+**Remarque** : Pour le système mis à niveau, mettez à jour la dernière **ui_config.json** pour le profil de dossier.
 
 Utilisez cette fonction pour créer une ligne de base avec une version spécifique des rubriques disponibles à une date et une heure spécifiques. En outre, vous obtenez la prise en charge de l’API pour créer ou mettre à jour une ligne de base avec un libellé défini pour une version de rubriques.
 
-![onglet de gestion des lignes de base](assets/baseline-manage.png)
+![Onglet de gestion de ligne de base](assets/baseline-manage.png)
 
 Vous pouvez rechercher les fichiers en fonction de leur nom ou de leur emplacement. Vous pouvez également filtrer les rubriques à afficher dans la fenêtre d&#39;édition de ligne de base et les trier selon des colonnes spécifiques.
 
-![onglet de gestion des lignes de base](assets/baseline-filter.png)
+![Onglet de gestion de ligne de base](assets/baseline-filter.png)
 
-Les performances du processus de création de ligne de base ont été améliorées. Le processus de création des lignes de base est asynchrone. Vous pouvez donc continuer à modifier d’autres fichiers dans l’éditeur web pendant la création de la ligne de base. Pour plus d’informations, voir *Création et gestion des lignes de base à partir de l’éditeur web* dans le guide Utilisation des guides Adobe Experience Manager .
+Les performances du processus de création de ligne de base ont été améliorées. Le processus de création des lignes de base est asynchrone. Vous pouvez donc continuer à modifier d’autres fichiers dans l’éditeur web pendant la création de la ligne de base. Pour plus d’informations, voir *Création et gestion de lignes de base à partir de l’éditeur web* dans le guide Utilisation d’Adobe Experience Manager Guides.
 
 Remarque : l’onglet Ligne de base du tableau de bord de carte est masqué par défaut. Votre administrateur peut activer l’onglet Ligne de base dans le tableau de bord de mappage.
 
@@ -284,28 +286,28 @@ Remarque : l’onglet Ligne de base du tableau de bord de carte est masqué par 
 ### Processus de traduction amélioré
 
 * **Possibilité de créer un projet de traduction de portée**
-Si vous devez créer uniquement la portée d’un projet à traduire, vous pouvez sélectionner **Création d’un projet de traduction d’étendue**. Cela n’enverra pas les copies à traduire et l’état de traduction d’origine des fichiers est conservé.
+Si vous devez créer uniquement la portée d’un projet à traduire, vous pouvez sélectionner **Créer un nouveau projet de traduction de définition de la portée**. Cela n’enverra pas les copies à traduire et l’état de traduction d’origine des fichiers est conservé.
 
-![projet de traduction de portée](assets/scoping-translation-project.png)
+![Projet de traduction de portée](assets/scoping-translation-project.png)
 
-* La variable **Langues** La liste affiche les dossiers de langue ainsi que leurs codes de langue. Par exemple, Français (fr) et Allemand (de).
+* La liste **Langues** affiche les dossiers de langues ainsi que leurs codes de langue. Par exemple, Français (fr) et Allemand (de).
 
 ![langue de traduction](assets/translation-languages.png)
 
-Pour plus d’informations sur la traduction, voir *Traduire des documents à partir de l’éditeur Web* dans le guide d’utilisation des guides Adobe Experience Manager.
+Pour plus d’informations sur la traduction, voir la section *Traduire des documents à partir de l’éditeur web* du guide Utilisation d’Adobe Experience Manager Guides.
 
 
 ### Publication améliorée
 
-* Vous pouvez également accéder au **Publier le tableau de bord** dans l’onglet Sorties lorsque vous générez une sortie à partir du tableau de bord de mappage. Une liste de toutes les tâches de publication actives est disponible dans le tableau de bord de publication.
+* Vous pouvez également accéder au **tableau de bord Publish** à partir de l’onglet Sorties pendant que vous générez la sortie à partir du tableau de bord de la carte. Une liste de toutes les tâches de publication actives est disponible dans le tableau de bord Publish.
 
-![sorties en file d’attente](assets/queued-output.png)
+![Sorties en file d’attente](assets/queued-output.png)
 
 * Dans le tableau de bord de mappage, vous pouvez sélectionner plusieurs fichiers DITAVAL pour générer du contenu conditionnel. Vous pouvez conserver l’ordre des fichiers en ajoutant ou en supprimant des fichiers. Vous pouvez également survoler le nom du fichier avec la souris pour voir le chemin d’accès dans le référentiel AEM où le fichier est stocké.
 
 * Les lignes de base ont été respectées pour les métadonnées de la sortie AEM site. Vous pouvez également traiter les propriétés d’une version de ligne de base en tant que métadonnées. Si aucune ligne de base n’est définie, les propriétés de la dernière version sont traitées comme des métadonnées.
 
-* La variable **Nom du fichier** et **Arguments de ligne de commande DITA-OT** Des options ont été ajoutées pour les paramètres prédéfinis de sortie HTML5, EPUB et Personnalisé. Vous pouvez maintenant spécifier le nom de fichier avec lequel vous souhaitez enregistrer la sortie. Vous pouvez également spécifier les arguments supplémentaires que DITA-OT doit traiter lors de la génération de la sortie.
+* Les options **Nom de fichier** et **Arguments de ligne de commande DITA-OT** ont été ajoutées pour les paramètres prédéfinis de sortie personnalisés, HTML5 et EPUB. Vous pouvez maintenant spécifier le nom de fichier avec lequel vous souhaitez enregistrer la sortie. Vous pouvez également spécifier les arguments supplémentaires que DITA-OT doit traiter lors de la génération de la sortie.
 
 ### Tableau de bord des cartes
 
@@ -335,7 +337,7 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 * L&#39;authentification web ne fonctionne pas dans Oxygen. (9296)
 * La rechargement échoue dans Oxygen lorsque le ou les fichiers existent déjà dans AEM au même emplacement. (9328)
 * Option non disponible pour synchroniser avec force le contenu entre AEM et le système local. (9439)
-* L’ID n’est pas généré automatiquement pour l’élément ajouté à l’aide de **Insérer du contenu réutilisable** de la barre d’outils secondaire. (5826)
+* L’ID n’est pas généré automatiquement pour l’élément ajouté à l’aide de la boîte de dialogue **Insérer du contenu réutilisable** de la barre d’outils secondaire. (5826)
 * Aucune boîte de dialogue de confirmation ne s’affiche lors du téléchargement d’une image portant le même nom qu’un fichier existant, via l’éditeur. (6011)
 * Espace insécable non disponible dans la palette des caractères. (7523)
 * La liste des éléments (Alt+Entrée) apparaît en grisé dans le thème Sombre/Plus sombre. (7913)
@@ -358,7 +360,7 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 * La description de la tâche de révision n’apparaît pas dans la notification électronique envoyée lorsqu’une nouvelle tâche de révision est affectée. (8507)
 * API de mappage de téléchargement | Les dossiers temporaires ne sont pas nettoyés en cas d’erreur du processus de téléchargement. (8523)
 * `columnpreview.jsp` dépend de SP.  (8543)
-* Les tâches de sortie avec le statut &quot;En attente&quot; ou &quot;En cours&quot; ne sont pas nettoyées dans le tableau de bord de publication.  (8569)
+* Les tâches de sortie avec le statut &quot;En attente&quot; ou &quot;En cours&quot; ne sont pas nettoyées dans le tableau de bord Publish.  (8569)
 * Icône par défaut sélectionnée lors de la génération d’un rapport à l’aide du bouton Générer , même lorsque la propriété de l’icône est définie. (8573)
 * Des problèmes se produisent lors du processus de révision lors de la mise à niveau de la version 3.8.X vers la version 4.0. (8788)
 * Dans le panneau Révision de l’éditeur web, si un nom d’utilisateur est long, les icônes à accepter/rejeter ne s’affichent pas clairement. (8793)
@@ -373,12 +375,12 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 * Références UUID incorrectes attribuées lors du téléchargement de plusieurs fichiers à partir du connecteur FrameMaker/Oxygen. (8269)
 * La notification électronique n’est pas envoyée lorsqu’une tâche de révision est réaffectée dans la boîte de réception. (8376)
 * Le deuxième utilisateur administrateur ne peut pas être ajouté en tant que premier utilisateur administrateur à un dossier. (8430)
-* **Appliquer les étiquettes** dans l’onglet Ligne de base , les libellés ne s’affichent pas dans la liste déroulante. (8455)
+* La boîte de dialogue **Appliquer les étiquettes** de l’onglet Ligne de base n’affiche pas les étiquettes dans la liste déroulante. (8455)
 * Lors de l’utilisation de la publication de ligne de base avec l’image comme référence dans la rubrique, l’image n’est pas publiée dans la sortie. (8564)
 * La fonction de purge de sortie échoue si un grand nombre de noeuds d’historique de sortie restants sont présents. (8568)
 * Dans le panneau Historique des versions, la section de version actuelle affiche un horodatage incorrect et modifié par informations. (8765)
 * Ligne de base non mise à jour en fonction du libellé défini. (8799)
-* Une erreur se produit lorsque des fichiers dont le dossier parent contient des caractères spéciaux dans le nom du fichier sont ouverts dans Oxygen (à l’aide de la fonction **Modifier dans Oxygen** ). (8918)
+* Une erreur se produit lorsque des fichiers dont le dossier parent contient des caractères spéciaux dans le nom du fichier sont ouverts dans Oxygen (à l’aide du bouton **Modifier dans Oxygen** ). (8918)
 * Le téléchargement des fichiers d’Oxygen vers AEM échoue. (9157)
 * Le mappage de téléchargement avec la ligne de base ne fonctionne pas si le contenu est déplacé vers un autre dossier. (9331)
 * Oxygen extrait une version incorrecte d’une rubrique après le rétablissement d’une version dans AEM. (9411)
@@ -388,7 +390,7 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 * Les fichiers sont extraits automatiquement lors du rétablissement d’une version. (9482)
 * L’icône représentant un cadenas s’affiche dans la vue du référentiel même lorsque le fichier est archivé à partir de l’éditeur.  (5756)
 * Impossible d’ajouter de la matière frontale, des éléments de fond dans un plan de navigation à l’aide de la vue Auteur de l’éditeur web. (7652)
-* Le mode Aperçu ne prend pas en charge `deliveryTarget` attribut de traitement conditionnel dans DITA. (7685)
+* Le mode Aperçu ne prend pas en charge l’attribut de traitement conditionnel `deliveryTarget` dans DITA. (7685)
 * À l’ouverture d’une rubrique de glossaire dans l’éditeur XML, AEM force l’enregistrer même si elle n’a pas été modifiée. (8105)
 * La boîte de dialogue Insérer des références s’ouvre lors de l’ajout d’un objet à un mappage à l’aide de l’interface utilisateur. (8212)
 * La réutilisation du panneau de contenu se bloque lors de la recherche de caractères spéciaux `[` ou `*` .(8279)

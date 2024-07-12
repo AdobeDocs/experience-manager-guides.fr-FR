@@ -17,13 +17,14 @@ Dans un scénario réel, vos auteurs auraient accès à l’instance de créatio
 
 >[!NOTE]
 >
-> Pour plus d’informations sur la configuration de l’instance de création et de publication dans AEM, voir [Présentation de l’architecture de création et de publication](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
+> Pour plus d’informations sur la configuration de l’instance de création et de publication dans AEM, voir [Présentation de l’architecture de création et de Publish](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
 
-Grâce à la fonctionnalité d’activation en bloc des Guides d’AEM, vous pouvez activer rapidement et facilement votre contenu de la création à l’instance de publication. La fonction d’activation en bloc vous offre la possibilité de :
+Grâce à la fonctionnalité d’activation en bloc d’AEM Guides, vous pouvez activer rapidement et facilement votre contenu de la création à l’instance de publication. La fonction d’activation en bloc vous offre la possibilité de :
 
 - Ajouter une ou plusieurs mappages \(à une collection de mappages\) à une seule tâche d’activation
 
-- Sélectionnez un ou plusieurs paramètres prédéfinis de sortie que vous souhaitez publier. Vous pouvez ajouter AEM paramètres prédéfinis de sortie Site, PDF, PDF natif, HTML5, Personnalisé et JSON.
+- Sélectionnez un ou plusieurs paramètres prédéfinis de sortie que vous souhaitez publier. Vous pouvez ajouter AEM site, PDF, PDF natif, HTML5, personnalisé et
+Paramètres prédéfinis de sortie JSON.
 
 
 - Définir les paramètres régionaux dans lesquels la sortie doit être activée
@@ -31,13 +32,13 @@ Grâce à la fonctionnalité d’activation en bloc des Guides d’AEM, vous pou
 - Accédez aux journaux d’audit pour vérifier si votre tâche d’activation s’est terminée avec succès ou si des problèmes sont survenus.
 
 
-- **[Création d’une collection de cartes d’activation en bloc](conf-bulk-activation-create-map-collection.md)**
+- **[Créer une collection de cartes d’activation en bloc](conf-bulk-activation-create-map-collection.md)**
 
 - **[Activer la sortie](conf-bulk-activation-publish-map-collection.md)**
 
 - **[Modification d’une collection de cartes d’activation en bloc](conf-bulk-activation-edit-map-collection.md)**
 
-- **[Suppression d’une collection de cartes d’activation en bloc](conf-bulk-activation-delete-map-collection.md)**
+- **[Supprimer une collection de cartes d’activation en bloc](conf-bulk-activation-delete-map-collection.md)**
 
 
 **Rubrique parente :**[ Génération de sortie](generate-output.md)

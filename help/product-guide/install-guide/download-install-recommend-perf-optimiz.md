@@ -16,8 +16,8 @@ ht-degree: 0%
 
 ## Configurer l’entrepôt de données \(obligatoire\)
 
-**Quel est le changement ?**
-Définissez la variable `minRecordLength` à une valeur de `100` sous la configuration `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` Pour plus d’informations sur le magasin de dates de fichiers et le magasin de données S3, voir [Configuration des entrepôts de noeuds et de données dans AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html) article.
+**Quelle est la modification ?**
+Définissez la propriété `minRecordLength` sur une valeur `100` sous la configuration `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` Pour plus d’informations sur le magasin de dates de fichier et le magasin de données S3, consultez l’article [Configuration des magasins de noeuds et des entrepôts de données dans AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html) .
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Les fichiers DITA sont enregistrés dans l’entrepôt de données plutôt que d
 
 ## Mise à jour de l’index Lucene \(obligatoire\)
 
-**Quel est le changement ?**
+**Quelle est la modification ?**
 Excluez /var/dxml de oak:index/lucene.
 
 >[!NOTE]
@@ -39,19 +39,19 @@ Excluez /var/dxml de oak:index/lucene.
 > AEM Guides n’utilise jamais les index Lucene pour rechercher du contenu dans le noeud /var/dxml .
 
 **Quand configurer ?**
-Si vous effectuez cette modification sur un nouveau système avant de migrer le contenu, seule la mise à jour oak:index/lucene est requise. Dans le cas contraire, sur un système existant où le contenu est déjà migré, après avoir apporté la modification à oak:index/lucene, recréez les index pour Lucene \(*qui peut prendre quelques heures.*\).
+Si vous effectuez cette modification sur un nouveau système avant de migrer le contenu, seule la mise à jour oak:index/lucene est requise. Dans le cas contraire, sur un système existant où le contenu est déjà migré, après avoir apporté la modification dans oak:index/lucene, reconstruisez les index pour Lucene \(*qui peuvent prendre quelques heures pour se terminer*\).
 
 **Résultat de cette modification**
 Cette modification empêche le noeud /var/dxml d’être indexé et stocké dans le magasin de segments.
 
 ## Optimisation de la mémoire Java \(Obligatoire\)
 
-**Quel est le changement ?**
+**Quelle est la modification ?**
 Les paramètres de démarrage de la JVM doivent être soigneusement réglés en fonction de l’infrastructure et de la taille du disque. Il est recommandé de consulter le support Adobe pour obtenir de l’aide afin d’accéder à la configuration idéale. Vous pouvez toutefois essayer vous-même les configurations suivantes :
 
-- Définissez la taille du tas JVM sur un minimum de 1/4 de la quantité totale de mémoire disponible. Utilisation du paramètre `-Xmx<size>` pour définir la taille de mémoire du tas. Définissez la valeur de -`Xms` est égal à `-Xmx`.
+- Définissez la taille du tas JVM sur un minimum de 1/4 de la quantité totale de mémoire disponible. Utilisez le paramètre `-Xmx<size>` pour définir la taille de la mémoire du tas. Définissez la valeur de -`Xms` égale à `-Xmx`.
 
-- Activer `-XX:+HeapDumpOnOutOfMemoryError` et définissez le chemin d’accès pour `-XX:HeapDumpPath=</path/to/folder``>`.
+- Activez `-XX:+HeapDumpOnOutOfMemoryError` et définissez le chemin pour `-XX:HeapDumpPath=</path/to/folder``>`.
 
 - Activez le journal GC Java en tant que :
 
@@ -67,9 +67,9 @@ Les paramètres de démarrage de la JVM doivent être soigneusement réglés en 
 
 - En général, pour Java 11, utilisez G1GC \(`-XX:+UseG1GC`\) et pour Java 8, utilisez CMS \(-`XX:+UseConcMarkSweepGC`\).
 
-- Utilisation `-XX:NewRatio` pour contrôler la taille de la taille de la mémoire de la jeune génération. La valeur par défaut est 2, ce qui signifie que 1/3 de la mémoire est utilisée pour la jeune génération. Comme de nombreux objets sont rapidement créés et détruits, l’utilisation d’une valeur de 1 allouera 1/2 de la mémoire à la jeune génération.
+- Utilisez `-XX:NewRatio` pour contrôler la taille de la taille de la mémoire de la jeune génération. La valeur par défaut est 2, ce qui signifie que 1/3 de la mémoire est utilisée pour la jeune génération. Comme de nombreux objets sont rapidement créés et détruits, l’utilisation d’une valeur de 1 allouera 1/2 de la mémoire à la jeune génération.
 
-- Contrôle du nombre d’objets convertis en objets de la génération précédente à l’aide de `-XX:MaxTenuringThreshold`. Utilisez la valeur 15 \(default\) pour retarder la conversion d’objets en objets de l’ancienne génération.
+- Contrôlez le nombre d’objets convertis en anciennes générations à l’aide de `-XX:MaxTenuringThreshold`. Utilisez la valeur 15 \(default\) pour retarder la conversion d’objets en objets de l’ancienne génération.
 
 **Quand configurer ?**
 Si vous effectuez cette modification sur un système existant, vous devez redémarrer le système. Dans le cas d’une nouvelle installation, cette modification doit être effectuée dans le fichier de script de démarrage \(.bat ou .sh\) avant le démarrage du système.
@@ -79,8 +79,8 @@ Cela se traduit par une taille de tas optimale et une exécution réglementée d
 
 ## Minimisation de la bibliothèque cliente sur l’instance d’auteur \(facultatif\)
 
-**Quel est le changement ?**
-Les bibliothèques clientes doivent être définies pour être réduites dans les instances de création. Cela permet de s’assurer qu’il y a moins d’octets à télécharger lorsqu’un utilisateur navigue sur le système à partir de différents emplacements. Pour effectuer cette modification, définissez la configuration dans **Gestionnaire de bibliothèques de HTMLs** à partir de la console Felix.
+**Quelle est la modification ?**
+Les bibliothèques clientes doivent être définies pour être réduites dans les instances de création. Cela permet de s’assurer qu’il y a moins d’octets à télécharger lorsqu’un utilisateur navigue sur le système à partir de différents emplacements. Pour effectuer cette modification, définissez la configuration dans **HTML Library Manager** à partir de la console Felix.
 
 **Quand configurer ?**
 Cela peut être effectué au moment de l’exécution via la console Felix ou via le déploiement du code.
@@ -90,10 +90,10 @@ Cette modification améliore le temps de chargement des pages sur l’instance d
 
 ## Configuration de threads de publication simultanés \(obligatoire, selon le cas d’utilisation\)
 
-**Quel est le changement ?**
+**Quelle est la modification ?**
 Cette modification est requise si vous utilisez DITA-OT pour publier la sortie et qu’un certain nombre de threads de publication simultanés sont également définis.
 
-Par défaut, AEM Guides définit les threads de publication sur le nombre de processeurs+1. Cependant, il est recommandé de définir cette valeur sur la moitié \(1/2\) ou un tiers \(1/3\) du nombre total d’unités centrales. Pour ce faire, définissez la variable **Taille du pool de génération** sous la configuration `com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` selon les recommandations.
+Par défaut, AEM Guides définit les threads de publication sur le nombre de processeurs+1. Cependant, il est recommandé de définir cette valeur sur la moitié \(1/2\) ou un tiers \(1/3\) du nombre total d’unités centrales. Pour ce faire, définissez la propriété **Generation Pool Size** sous la configuration `com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` conformément aux recommandations.
 
 **Quand configurer ?**
 Cela peut être effectué au moment de l’exécution via la console Felix ou via le déploiement du code.
@@ -103,23 +103,23 @@ Cette modification permet de s’assurer que toutes les ressources ne sont pas a
 
 ## Configuration de la taille de lot des noeuds pour AEM génération de sortie de site \(obligatoire, selon le cas d’utilisation\)
 
-**quel est le changement ?**
+**Quelle est la modification ?**
 Cette modification est requise si vous générez une sortie AEM Sites.
 
-Définissez la variable **Limiter AEM pages du site dans le tas** propriété sous `com.adobe.fmdita.config.ConfigManager` à un nombre basé sur la configuration de votre système. Cette propriété définit la taille de lot des noeuds à valider lors de la génération des pages du site. Par exemple, sur un système avec un plus grand nombre d’unités centrales et une taille de tas, vous pouvez augmenter la valeur par défaut de `500` à un nombre plus grand. Vous devez tester l’exécution avec la valeur modifiée pour obtenir une valeur optimale pour cette propriété.
+Définissez la propriété **Limiter les pages AEM du site dans le tas** sous `com.adobe.fmdita.config.ConfigManager` sur un nombre en fonction de la configuration de votre système. Cette propriété définit la taille de lot des noeuds à valider lors de la génération des pages du site. Par exemple, sur un système avec un plus grand nombre de processeurs et une taille de tas plus importante, vous pouvez augmenter la valeur par défaut de `500` à un plus grand nombre. Vous devez tester l’exécution avec la valeur modifiée pour obtenir une valeur optimale pour cette propriété.
 
 **Quand configurer ?**
 Cela peut être effectué au moment de l’exécution via la console Felix ou via le déploiement du code.
 
 **Résultat de cette modification**
-Une augmentation du nombre de **Limiter AEM pages du site dans le tas** optimise le processus AEM génération de sortie de site.
+Un nombre accru de la propriété **Limiter les pages du site AEM dans Heap** optimise le processus de génération de sortie AEM site.
 
 ## Optimiser le nombre de threads de post-traitement \(obligatoire, selon le cas d’utilisation\)
 
-**Quel est le changement ?**
+**Quelle est la modification ?**
 Cette modification est requise si vous téléchargez du contenu DITA en masse.
 
-Définissez la variable **Post-traitement Threads** propriété sous `com.adobe.fmdita.config.ConfigManager` to `1`.
+Définissez la propriété **Post Process Threads** sous `com.adobe.fmdita.config.ConfigManager` sur `1`.
 
 **Quand configurer ?**
 Cela peut être effectué au moment de l’exécution.

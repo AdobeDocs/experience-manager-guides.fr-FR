@@ -1,23 +1,23 @@
 ---
 title: Masquez l’option Créer DitaMap dans les options du menu contextuel Dossier pour des utilisateurs ou des groupes spécifiques.
 description: Découvrez comment personnaliser l’éditeur de weets en masquant l’option "DitaMap" dans le menu contextuel du dossier pour des utilisateurs/groupes spécifiques.
-source-git-commit: ea8fb646287f68676b6530b4cc5f56e7ba2d9b0c
+exl-id: 796bfe3a-3950-4ade-9215-c33534791055
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
 
 ---
 
-
 # Afficher/masquer &quot;Créer DitaMAP&quot; à partir du menu contextuel du dossier dans l’éditeur de texte web
 
 Dans cet article, nous allons apprendre à personnaliser l’éditeur Web de guides afin de masquer ou d’afficher l’option &quot;Créer une carte dynamique&quot; dans le menu contextuel du dossier en fonction des autorisations de l’utilisateur/du groupe.
 Dans ce cas d’utilisation, cette option sera masquée pour tous les utilisateurs non-auteurs.
 
-## Prérequis
+## Conditions préalables
 
 Nous utiliserons le package d’extension AEM Guides qui vous permet de personnaliser l’interface utilisateur de votre application selon vos besoins.
-Veuillez passer en revue ceci [documentation](https://github.com/adobe/guides-extension/tree/main) pour obtenir plus d’informations sur le fonctionnement de Guides Extension Framework.
+Veuillez consulter cette [documentation](https://github.com/adobe/guides-extension/tree/main) pour plus d’informations sur le fonctionnement de Guides Extension Framework.
 
 Commençons maintenant et apprenons à personnaliser le menu contextuel du dossier afin de masquer cette option pour tous les utilisateurs non-auteurs.
 
@@ -31,7 +31,7 @@ Voyons maintenant comment masquer cette option à l’aide de Guides Extension F
 
 L’implémentation est divisée en plusieurs parties :
 
-- **Changements dans le contrôleur Folder_options**
+- **Modifications dans Folder_options controller**
 
   Un identifiant de contrôleur est associé à chaque menu contextuel. Ce contrôleur gère la fonctionnalité sur événement pour les différentes options de menu contextuel.
 
@@ -60,7 +60,7 @@ const folderOptions = {
 };
 ```
 
-- **Création d’un widget pour gérer la logique**
+- **Création d’un nouveau widget pour gérer la logique**
 
   Une nouvelle création de widgets (customoptions.ts) est nécessaire pour écrire la logique afin de masquer cette option pour les utilisateurs non-auteurs uniquement. Pour ce faire, nous avons utilisé la clé &quot;show&quot; qui agit comme une bascule dans notre structure JSON.
 
@@ -128,9 +128,9 @@ Ce cas pratique a été ajouté à GIT. Veuillez trouver les ressources connexes
 
 - **Référentiel de base de la structure d’extension** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
-- **Documentation** - [sur Experience League](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+- **Documentation** - [ sur Experience League](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **Cas d’utilisation courants documentés** - [sur Experience League](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
+- **Cas d’utilisation courants documentés** - [ sur Experience League](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
 - **Référentiel public avec exemples** - [sur GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Reportez-vous à la branche sc-expert-session
 

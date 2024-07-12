@@ -18,11 +18,11 @@ Vous pouvez afficher l’état de traduction et les copies de langue traduites p
 Effectuez les étapes suivantes pour afficher l’état de traduction d’un mappage DITA :
 
 1. Accédez au fichier de mappage DITA de la copie de langue source.
-1. Cliquez sur le bouton **Traduction** .
-1. Dans le **Filtrer** sur la gauche, sélectionnez l’option **Traduire les langues** pour lequel vous souhaitez vérifier l’état, puis cliquez sur **Terminé**.
+1. Cliquez sur l’onglet **Traduction** .
+1. Dans le panneau **Filter** à gauche, sélectionnez le **Traduire les langues** dont vous souhaitez vérifier l’état, puis cliquez sur **Terminé**.
 
    >[!NOTE]
    >
-   > Vous pouvez filtrer davantage le contenu en fonction de leur état de traduction \(en tant que Copie manquante de synchronisation, En cours ou Synchronisé\), Type source \(en tant que Tous, DITA, Carte DITA ou Ressource\), date de modification. Vous pouvez également entrer des mots-clés pour rechercher des rubriques spécifiques.
+   > Vous pouvez filtrer davantage le contenu en fonction de leur état de traduction \(en tant que Copie manquante de synchronisation, En cours ou Synchronisé\), Type Source \(en tant que Tous, DITA, Carte DITA ou Ressource\), date de modification. Vous pouvez également entrer des mots-clés pour rechercher des rubriques spécifiques.
 
 **Rubrique parente :**[ Traduire le contenu](translation.md)

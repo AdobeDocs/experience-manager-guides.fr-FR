@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Configurer un connecteur de source de données à partir de l’interface utilisateur
 
-Les guides du Experience Manager sont fournis avec la variable **Sources de données** qui vous aide à configurer des connecteurs prêts à l’emploi pour les sources de données. Vous pouvez configurer des connecteurs pour JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce et des bases de données Elasticsearch.
+Experience Manager Guides est fourni avec l’outil **Sources de données** qui vous aide à configurer des connecteurs prêts à l’emploi pour les sources de données. Vous pouvez configurer des connecteurs pour JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce et des bases de données Elasticsearch.
 
 Pour configurer un connecteur, procédez comme suit :
 
-1. Sélectionnez la variable **Adobe Experience Manager** Cliquez sur Lien dans la partie supérieure et sélectionnez Outils.
-1. Sélectionner **Guides** dans la liste des outils.
-1. Sélectionnez la variable **Sources de données** mosaïque. La variable **Sources de données** s’affiche. Vous pouvez afficher les sources de données connectées.
+1. Sélectionnez le lien **Adobe Experience Manager** en haut et choisissez Outils.
+1. Sélectionnez **Guides** dans la liste des outils.
+1. Sélectionnez la mosaïque **Sources de données** . La page **Sources de données** s’affiche. Vous pouvez afficher les sources de données connectées.
 
-   Vous pouvez basculer entre les **Mode Liste** ou **Mosaïque** pour afficher les différentes sources de données connectées sous forme de liste ou de mosaïques.
+   Vous pouvez basculer entre le **mode Liste** ou le **mode Mosaïque** pour afficher les différentes sources de données connectées sous forme de liste ou de mosaïques.
 
    <img src="./assets/data-sources-create-window.png" alt= "sources de données répertoriées dans la page sources de données" width="800">
 
@@ -40,40 +40,40 @@ Pour configurer un connecteur, procédez comme suit :
    >* Survol <img src="./assets/info-details.svg" alt= "icône info" width="25"> près du champ pour en afficher plus de détails.
    > * Les champs avec * sont obligatoires. Par exemple, vous pouvez saisir les détails suivants pour le connecteur Elasticsearch.
 
-   * **Nom**: saisissez le nom de la source de données.
+   * **Nom** : saisissez le nom de la source de données.
    * Type d’authentification : sélectionnez le type d’authentification dans la liste déroulante. Par exemple, authentification de base nom d’utilisateur-mot de passe
-   * **Nom d’utilisateur**: saisissez votre nom d’utilisateur.
-   * **Password**: saisissez votre nom d’utilisateur et votre mot de passe.
-   * **URL**: ajoutez l’URL de l’API.
+   * **Nom d’utilisateur** : saisissez votre nom d’utilisateur.
+   * **Mot de passe** : saisissez votre nom d’utilisateur et votre mot de passe.
+   * **URL** : ajoutez l’URL de l’API.
 
-1. Sélectionner **Tester la connexion**. Vous pouvez afficher la **Tester la connexion** activée uniquement une fois que vous avez ajouté les détails requis. Affichez un message de réussite si les détails de la connexion sont corrects. Sinon, vous pouvez afficher un message d’erreur.
+1. Sélectionnez **Tester la connexion**. Vous pouvez afficher le bouton **Tester la connexion** activé uniquement après avoir ajouté les détails requis. Affichez un message de réussite si les détails de la connexion sont corrects. Sinon, vous pouvez afficher un message d’erreur.
 
 
 
-1. Sélectionner **Enregistrer** en haut pour enregistrer le connecteur.     Afficher la variable **Enregistrer** activée une fois que vous avez renseigné tous les détails et que la connexion a réussi.
+1. Sélectionnez **Enregistrer** en haut pour enregistrer le connecteur.     Affichez le bouton **Enregistrer** activé une fois que vous avez rempli tous les détails et que la connexion a réussi.
 
 
    Si le connecteur est enregistré correctement, vous pouvez afficher la source de données connectée sur la page.
 
 ## Fonctionnalités disponibles pour un connecteur
 
-* Basculer entre les **Mode Liste** ou **Mosaïque**  pour afficher les différentes sources de données connectées sous forme de liste ou de mosaïques.
-* Cochez la case correspondant à un seul connecteur. Cliquez sur **Tout sélectionner** pour sélectionner tous les connecteurs. Cliquez sur **Tout désélectionner** lorsque tous les connecteurs sont sélectionnés.
+* Basculez entre le **mode Liste** ou le **mode Mosaïque** pour afficher les diverses sources de données connectées sous forme de liste ou de mosaïques.
+* Cochez la case correspondant à un seul connecteur. Cliquez sur **Sélectionner tout** pour sélectionner tous les connecteurs. Vous pouvez cliquer sur **Tout désélectionner** lorsque tous les connecteurs sont sélectionnés.
 
 <img src="./assets/data-sources-features.png" alt= "fonctions des sources de données sur la page sources de données" width="800">
 
-*Modification, reconnexion, duplication ou suppression d’un connecteur de source de données.*
+*Modifier, reconnecter, dupliquer ou supprimer un connecteur de source de données.*
 
-Vous pouvez utiliser les fonctionnalités suivantes pour le connecteur sur la **Sources de données** page :
+Vous pouvez utiliser les fonctionnalités suivantes pour le connecteur sur la page **Sources de données** :
 
-* **Modifier**: modifiez les détails de configuration du connecteur sélectionné.
+* **Modifier** : modifiez les détails de configuration pour le connecteur sélectionné.
 
-* **Reconnecter**: reconnectez-vous à un connecteur déconnecté.
+* **Reconnecter** : reconnectez-vous à un connecteur déconnecté.
 
-* **Dupliquer**: créez un nouveau connecteur en double à l’aide du connecteur actuel en tant que base. Le connecteur en double est créé avec un suffixe (tel que connectorname_1) par défaut. Par exemple, sample-élastique-search_1.
+* **Dupliquer** : créez un nouveau connecteur en double à l’aide du connecteur actuel comme base. Le connecteur en double est créé avec un suffixe (tel que connectorname_1) par défaut. Par exemple, sample-élastique-search_1.
 Vous affichez une erreur si le connecteur portant le même nom existe.
 
-* **Supprimer**: supprimez le connecteur sélectionné.
+* **Supprimer** : supprimez le connecteur sélectionné.
 
 
-Une fois que vous avez configuré la source de données, le connecteur est répertorié sous le **Panneau Sources de données** dans l’éditeur Web. Vous pouvez ensuite vous connecter à la source de données et insérer un fragment de contenu dans vos rubriques. Pour plus d’informations, voir [Insertion d’un fragment de contenu à partir de votre source de données](../user-guide/web-editor-content-snippet.md).
+Une fois que vous avez configuré la source de données, le connecteur est répertorié sous le **panneau Sources de données** dans l’éditeur web. Vous pouvez ensuite vous connecter à la source de données et insérer un fragment de contenu dans vos rubriques. Pour plus d’informations, voir [Insertion d’un fragment de contenu à partir de votre source de données](../user-guide/web-editor-content-snippet.md).

@@ -22,7 +22,7 @@ Détails du lot :
 
 - ID d’artefact : **api**
 
-- Version : **3,2**
+- Version : **3.2**
 
 - Package : **com.adobe.fmdita.api.maps**
 
@@ -37,7 +37,7 @@ Détails du lot :
 
 ## Téléchargement du mappage DITA avec des dépendances
 
-La variable `zipMapWithDependents` crée un fichier .zip contenant un mappage DITA avec tous ses fichiers dépendants tels que les rubriques référencées, les sous-cartes, les images et les DTD. Le fichier .zip pour le mappage DITA est créé en fonction d’une ligne de base donnée.
+La méthode `zipMapWithDependents` crée un fichier .zip contenant un mappage DITA avec toutes ses dépendances telles que les rubriques référencées, les sous-cartes, les images et les DTD. Le fichier .zip pour le mappage DITA est créé en fonction d’une ligne de base donnée.
 
 Il vous permet également de conserver la même structure \(dossiers parents et enfants\) ou de créer une structure de fichiers plate dans un seul dossier pour tous les fichiers dépendants.
 
@@ -56,17 +56,26 @@ public static void zipMapWithDependents(Session session,
                      throws RepositoryException, IOException
 ```
 
-**Paramètres**: |Nom|Type|Description| |—|—|—| |`session`|javax.jcr.Session|Une session JCR valide.| |`sourcePath`|String|Path \(dans le référentiel AEM\) du fichier de mappage DITA qui doit être téléchargé.| |`outputStream`|java.io.OutputStream|Flux vers lequel écrire le fichier ZIP.| |`baseline`|String|Titre de la ligne de base utilisée pour récupérer le contenu versionné. <br> **Remarque :** La valeur est sensible à la casse.| |platFS|Boolean|\(Facultatif\) Si cette valeur est définie sur true, une structure plate des fichiers est renvoyée dans le fichier ZIP. Par exemple, si votre mappage DITA fait référence au contenu de plusieurs dossiers, tous les fichiers référencés sont extraits dans un seul dossier. S’il existe des fichiers portant le même nom, ces fichiers sont renommés en ajoutant un suffixe numérique. Toutes les références \(dans le mappage DITA et les rubriques\) sont gérées automatiquement, car elles sont mises à jour en fonction du nouvel emplacement des fichiers dans la structure de dossiers plate. S’il est défini sur false, la structure de dossiers est conservée telle quelle dans le fichier ZIP. Si le mappage DITA fait référence à des fichiers provenant de plusieurs emplacements, tous ces emplacements sont également créés dans le fichier ZIP. Lorsque vous restaurez le fichier ZIP, la structure exacte des dossiers est créée à l’emplacement de destination. <br> La valeur par défaut de ce paramètre est false.|
+**Paramètres** :
+|Nom|Type|Description|
+|—|—|—|
+|`session`|javax.jcr.Session|Une session JCR valide.|
+|`sourcePath`|Chaîne|Chemin \(dans le référentiel AEM\) du fichier de mappage DITA qui doit être téléchargé.|
+|`outputStream`|java.io.OutputStream|Flux vers lequel écrire le fichier ZIP.|
+|`baseline`|Chaîne|Titre de la ligne de base utilisée pour récupérer le contenu versionné. <br> **Remarque :** La valeur est sensible à la casse.|
+|platFS|Boolean|\(Facultatif\) Si cette valeur est définie sur true, une structure plate des fichiers est renvoyée dans le fichier ZIP. Par exemple, si votre mappage DITA fait référence au contenu de plusieurs dossiers, tous les fichiers référencés sont extraits dans un seul dossier. S’il existe des fichiers portant le même nom, ces fichiers sont renommés en ajoutant un suffixe numérique. Toutes les références \(dans le mappage DITA et les rubriques\) sont gérées automatiquement, car elles sont mises à jour en fonction du nouvel emplacement des fichiers dans la structure de dossiers plate. S’il est défini sur false, la structure de dossiers est conservée telle quelle dans le fichier ZIP. Si le mappage DITA fait référence à des fichiers provenant de plusieurs emplacements, tous ces emplacements sont également créés dans le fichier ZIP. Lorsque vous restaurez le fichier ZIP, la structure exacte des dossiers est créée à l’emplacement de destination. <br> La valeur par défaut de ce paramètre est false.|
 
-**Renvoie**: le contenu du fichier ZIP est écrit dans la variable `outputStream`.
+**Renvoie** :
+Le contenu du fichier ZIP est écrit sur le `outputStream`.
 
-**Exception**: renvoie ``javax.jcr.RepositoryException``, `java.io.IOException`.
+**Exception** :
+Lance ``javax.jcr.RepositoryException``, `java.io.IOException`.
 
 ## Télécharger le mappage DITA avec les dépendances \(Asynchrone\)
 
 Vous pouvez également télécharger le mappage DITA avec les dépendances en mode asynchrone. Cette approche est plus utile pour les mappages DITA plus volumineux.
 
-La variable `zipMapWithDependents` crée un fichier .zip contenant un mappage DITA avec tous ses fichiers dépendants tels que les rubriques référencées, les sous-cartes, les images et les DTD. Le fichier .zip pour le mappage DITA est créé en fonction d’une ligne de base donnée.
+La méthode `zipMapWithDependents` crée un fichier .zip contenant un mappage DITA avec toutes ses dépendances telles que les rubriques référencées, les sous-cartes, les images et les DTD. Le fichier .zip pour le mappage DITA est créé en fonction d’une ligne de base donnée.
 
 Il vous permet également de conserver la même structure \(dossiers parents et enfants\) ou de créer une structure de fichiers plate dans un seul dossier pour tous les fichiers dépendants.
 
@@ -83,13 +92,20 @@ public static CompletableFuture<Node> zipMapWithDependencies(Session session,
                      boolean flatFS) 
 ```
 
-**Paramètres**: |Nom|Type|Description| |—|—|—| |`session`|javax.jcr.Session|Une session JCR valide.| |`sourcePath`|String|Path \(dans le référentiel AEM\) du fichier de mappage DITA qui doit être téléchargé.| |`baseline`|String|Titre de la ligne de base utilisée pour récupérer le contenu versionné. <br> **Remarque :** La valeur est sensible à la casse.| |platFS|Boolean|\(Facultatif\) Si cette valeur est définie sur true, une structure plate des fichiers est renvoyée dans le fichier ZIP. Par exemple, si votre mappage DITA fait référence au contenu de plusieurs dossiers, tous les fichiers référencés sont extraits dans un seul dossier. S’il existe des fichiers portant le même nom, ces fichiers sont renommés en ajoutant un suffixe numérique. Toutes les références \(dans le mappage DITA et les rubriques\) sont gérées automatiquement, car elles sont mises à jour en fonction du nouvel emplacement des fichiers dans la structure de dossiers plate. S’il est défini sur false, la structure de dossiers est conservée telle quelle dans le fichier ZIP. Si le mappage DITA fait référence à des fichiers provenant de plusieurs emplacements, tous ces emplacements sont également créés dans le fichier ZIP. Lorsque vous restaurez le fichier ZIP, la structure exacte des dossiers est créée à l’emplacement de destination.<br> La valeur par défaut de ce paramètre est false.|
+**Paramètres** :
+|Nom|Type|Description|
+|—|—|—|
+|`session`|javax.jcr.Session|Une session JCR valide.|
+|`sourcePath`|Chaîne|Chemin \(dans le référentiel AEM\) du fichier de mappage DITA qui doit être téléchargé.|
+|`baseline`|Chaîne|Titre de la ligne de base utilisée pour récupérer le contenu versionné. <br> **Remarque :** La valeur est sensible à la casse.|
+|platFS|Boolean|\(Facultatif\) Si cette valeur est définie sur true, une structure plate des fichiers est renvoyée dans le fichier ZIP. Par exemple, si votre mappage DITA fait référence au contenu de plusieurs dossiers, tous les fichiers référencés sont extraits dans un seul dossier. S’il existe des fichiers portant le même nom, ces fichiers sont renommés en ajoutant un suffixe numérique. Toutes les références \(dans le mappage DITA et les rubriques\) sont gérées automatiquement, car elles sont mises à jour en fonction du nouvel emplacement des fichiers dans la structure de dossiers plate. S’il est défini sur false, la structure de dossiers est conservée telle quelle dans le fichier ZIP. Si le mappage DITA fait référence à des fichiers provenant de plusieurs emplacements, tous ces emplacements sont également créés dans le fichier ZIP. Lorsque vous restaurez le fichier ZIP, la structure exacte des dossiers est créée à l’emplacement de destination.<br> La valeur par défaut de ce paramètre est false.|
 
-**Renvoie**: le noeud du fichier zip est encapsulé dans la variable `CompletableFuture`classe . L’utilisateur peut continuer à le gérer de manière asynchrone et utiliser `.get()`pour bloquer le thread lorsque le noeud est nécessaire. La valeur renvoyée peut également se terminer par une erreur, qui peut être traitée avec `.exceptionally()` .
+**Renvoie** :
+Le noeud du fichier zip est encapsulé dans la classe `CompletableFuture`. L’utilisateur peut continuer à le gérer de manière asynchrone et utiliser la méthode `.get()`future pour bloquer le thread lorsque le noeud est nécessaire. La valeur renvoyée peut également se terminer par une erreur et elle peut être traitée avec la méthode `.exceptionally()`.
 
 ## Obtention d’une liste des lignes de base
 
-La variable ``getBaselineList`` récupère une liste de toutes les lignes de base qui existent pour un mappage DITA donné.
+La méthode ``getBaselineList`` récupère une liste de toutes les lignes de base qui existent pour un mappage DITA donné.
 
 **Syntaxe**:
 
@@ -100,15 +116,21 @@ public static List<HashMap<String,String>> getBaselineList(
                   throws javax.jcr.RepositoryException
 ```
 
-**Paramètres**: |Nom|Type|Description| |—|—|—| |`session`|javax.jcr.Session|Une session JCR valide.| |`sourcePath`|Chaîne|Chemin \(dans le référentiel AEM\) du fichier de mappage DITA pour lequel les informations de base doivent être récupérées.|
+**Paramètres** :
+|Nom|Type|Description|
+|—|—|—|
+|`session`|javax.jcr.Session|Une session JCR valide.|
+|`sourcePath`|Chaîne|Chemin \(dans le référentiel AEM\) du fichier de mappage DITA pour lequel les informations de base doivent être récupérées.|
 
-**Renvoie**: une liste de `HashMap` objets. Chaque `HashMap` représente une ligne de base et contient le nom et le titre de la ligne de base.
+**Renvoie** :
+Liste d’objets `HashMap`. Chaque objet `HashMap` représente une ligne de base et contient le nom et le titre de la ligne de base.
 
-**Exception**: renvoie ``javax.jcr.RepositoryException``.
+**Exception** :
+Lance ``javax.jcr.RepositoryException``.
 
 ## Obtenir la liste des paramètres prédéfinis conditionnels
 
-La variable ``getConditionalPresetList`` récupère une liste de tous les paramètres prédéfinis conditionnels qui existent pour un mappage DITA donné.
+La méthode ``getConditionalPresetList`` récupère une liste de tous les paramètres prédéfinis conditionnels qui existent pour un mappage DITA donné.
 
 **Syntaxe**:
 
@@ -119,15 +141,21 @@ public static List<HashMap<String,String>> getConditionalPresetList (
                   throws javax.jcr.RepositoryException
 ```
 
-**Paramètres**: |Nom|Type|Description| |—|—|—| |`session`|javax.jcr.Session|Une session JCR valide.| |`sourcePath`|Chaîne|Chemin \(dans le référentiel AEM\) du fichier de mappage DITA pour lequel les informations de paramètre prédéfini conditionnel doivent être récupérées.|
+**Paramètres** :
+|Nom|Type|Description|
+|—|—|—|
+|`session`|javax.jcr.Session|Une session JCR valide.|
+|`sourcePath`|Chaîne|Chemin \(dans le référentiel AEM\) du fichier de mappage DITA pour lequel les informations de paramètre prédéfini conditionnel doivent être récupérées.|
 
-**Renvoie**: une liste de `HashMap` objets. Chaque `HashMap` représente un paramètre prédéfini conditionnel et contient le nom et le titre du paramètre prédéfini conditionnel.
+**Renvoie** :
+Liste d’objets `HashMap`. Chaque objet `HashMap` représente un paramètre prédéfini conditionnel et contient le nom et le titre du paramètre prédéfini conditionnel.
 
-**Exception**: renvoie ``javax.jcr.RepositoryException``.
+**Exception** :
+Lance ``javax.jcr.RepositoryException``.
 
 ## Obtention des informations du fichier DITAVAL pour un paramètre prédéfini conditionnel
 
-La variable ``getDitavalFromConditionalPreset`` récupère le chemin d’accès du fichier DITAVAL correspondant à un paramètre prédéfini conditionnel pour un mappage DITA donné.
+La méthode ``getDitavalFromConditionalPreset`` récupère le chemin d’accès du fichier DITAVAL correspondant à un paramètre prédéfini conditionnel pour un mappage DITA donné.
 
 **Syntaxe**:
 
@@ -138,13 +166,19 @@ public static String getDitavalFromConditionalPreset
     String cpName) throws RepositoryException
 ```
 
-**Paramètres**: |Nom|Type|Description| |—|—|—| |`session`|javax.jcr.Session|Une session JCR valide.| |`sourcePath`|String|Path \(dans le référentiel AEM\) du fichier de mappage DITA pour lequel le fichier DITAVAL doit être récupéré.| |`cpName`|Chaîne|Nom du paramètre prédéfini conditionnel dans la carte DITA pour laquelle le fichier DITAVAL doit être récupéré.|
+**Paramètres** :
+|Nom|Type|Description|
+|—|—|—|
+|`session`|javax.jcr.Session|Une session JCR valide.|
+|`sourcePath`|String|Path \(dans le référentiel AEM\) du fichier de mappage DITA pour lequel le fichier DITAVAL doit être récupéré.|
+|`cpName`|Chaîne|Nom du paramètre prédéfini conditionnel dans la carte DITA pour laquelle le fichier DITAVAL doit être récupéré.|
 
-**Renvoie**: chemin d’accès du fichier DITAVAL correspondant au paramètre prédéfini conditionnel défini dans le fichier de mappage DITA.
+**Renvoie** :
+Chemin d’accès du fichier DITAVAL correspondant au paramètre prédéfini conditionnel défini dans le fichier de mappage DITA.
 
 ## Obtention de toutes les dépendances d’un noeud
 
-La variable ``getAllDependencies`` renvoie toutes les dépendances d’un noeud donné.
+La méthode ``getAllDependencies`` renvoie toutes les dépendances d’un noeud donné.
 
 **Syntaxe**:
 
@@ -154,6 +188,10 @@ public static List
 (Node rootNode) throws GuidesApiException
 ```
 
-**Paramètres**: |Nom|Type|Description| |—|—|—| |`rootNode`|javax.jcr.Node|Le noeud racine pour lequel toutes les dépendances doivent être récupérées.|
+**Paramètres** :
+|Nom|Type|Description|
+|—|—|—|
+|`rootNode`|javax.jcr.Node|Le noeud racine pour lequel toutes les dépendances doivent être récupérées.|
 
-**Renvoie**: liste de noeuds contenant toutes les dépendances du noeud racine.
+**Renvoie** :
+Liste de noeuds contenant toutes les dépendances du noeud racine.

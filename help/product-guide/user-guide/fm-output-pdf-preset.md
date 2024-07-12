@@ -1,6 +1,6 @@
 ---
 title: PDF
-description: Générez et configurez la sortie PDF pour les documents de FrameMaker dans AEM Guides.
+description: Générez et configurez la sortie du PDF pour les documents de FrameMaker dans AEM Guides.
 exl-id: df3d3cd8-2aa1-4d82-8756-c3f5555cb904
 feature: Publishing FrameMaker Documents
 role: User
@@ -17,12 +17,12 @@ Les options suivantes sont disponibles pour PDF Output :
 
 >[!NOTE]
 >
-> Pour ouvrir les paramètres prédéfinis de sortie pour PDF, cliquez sur un FrameMaker \(`.fm` ou `.book`\), puis cliquez sur Paramètres prédéfinis de sortie, puis sur l’option Sortie du PDF.
+> Pour ouvrir les paramètres prédéfinis de sortie pour PDF, cliquez sur un fichier de FrameMaker \(`.fm` ou `.book`\), puis sur Paramètres prédéfinis de sortie et cliquez sur l’option Sortie de PDF.
 
 | Options de PDF | Description |
 |-----------|-----------|
 | Type de sortie | Type de sortie à générer. Pour générer une sortie de PDF, sélectionnez l’option de PDF. |
-| Nom du paramètre | Donnez un nom explicite aux paramètres de sortie du PDF que vous créez. Par exemple, vous pouvez spécifier *Sortie de clients internes* ou *sortie utilisateurs finaux*. |
+| Nom du paramètre | Donnez un nom explicite aux paramètres de sortie du PDF que vous créez. Par exemple, vous pouvez spécifier *Sortie de clients internes* ou *Sortie d’utilisateurs finaux*. |
 | **Paramètres de tâche** |
 | Options | Sélectionnez le paramètre prédéfini du PDF à utiliser pour générer la sortie du PDF. |
 | Générer un PDF balisé | Sélectionnez cette option pour générer des PDF balisés qui contiendront des informations sur le contenu et la structure du document. Ces informations sont utilisées par les lecteurs à l’écran. |
@@ -38,6 +38,6 @@ Les options suivantes sont disponibles pour PDF Output :
 | Convertir CYMK en RGB | Sélectionnez cette option pour convertir les couleurs CYMK en RGB dans le PDF généré. |
 | Génération de signets de PDF | Créez un PDF accessible qui contient des signets. |
 | Chemin de destination | Chemin d’accès dans votre référentiel AEM où est stockée la sortie du PDF. |
-| Exécuter le processus de génération de publication | Lorsque vous sélectionnez cette option, une nouvelle liste déroulante Processus de génération de publication s’affiche, contenant tous les workflows configurés dans AEM. Vous devez sélectionner un workflow à exécuter une fois le workflow de génération de sortie terminé. |
+| Exécuter le processus de génération de Post | Lorsque vous sélectionnez cette option, une nouvelle liste déroulante de workflow Génération Post s’affiche, contenant tous les workflows configurés dans AEM. Vous devez sélectionner un workflow à exécuter une fois le workflow de génération de sortie terminé. |
 
-**Rubrique parente :**[ Générer une sortie de documents de FrameMaker](fm-output-generatation.md)
+**Rubrique parente :**[ Générer la sortie des documents de FrameMaker](fm-output-generatation.md)

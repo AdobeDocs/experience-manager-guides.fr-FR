@@ -16,16 +16,16 @@ ht-degree: 0%
 
 AEM Guides est un plug-in qui s’installe sur Adobe Experience Manager. L’installation d’AEM nécessite une compréhension de certains concepts AEM de base et des scénarios de déploiement recommandés. Les liens suivants vous aideront à commencer AEM installation :
 
-- [Concepts AEM de base](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
+- [Concepts d’AEM de base](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
 
 - [Déploiements d’AEM recommandés](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
 
 
 >[!IMPORTANT]
 >
-> Si vous utilisez Java 11 avec AEM 6.5.x, vous pouvez rencontrer un problème : *Causes JDK 11`NoClassDefFoundError`*. Voir [Le JDK 11 provoque NoClassDefFoundError \| AEM 6.5](https://helpx.adobe.com/experience-manager/kb/jdk-11-causes-noclassdeffounderror---aem-6-5.html) pour résoudre ce problème.
+> Si vous utilisez Java 11 avec AEM 6.5.x, vous pouvez rencontrer un problème : *JDK 11 provoque`NoClassDefFoundError`*. Reportez-vous à la section [JDK 11 provoque NoClassDefFoundError \| AEM article 6.5](https://helpx.adobe.com/experience-manager/kb/jdk-11-causes-noclassdeffounderror---aem-6-5.html) pour résoudre ce problème.
 
-Une fois que vous avez identifié la stratégie de déploiement la mieux adaptée à votre entreprise, effectuez le processus d’installation comme décrit dans la section *[Prise en main](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/deploy.html?lang=frl#GettingStarted)* dans la documentation d’AEM.
+Une fois que vous avez identifié la stratégie de déploiement qui fonctionne le mieux pour votre organisation, effectuez le processus d’installation comme décrit dans la section *[Prise en main](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/deploy.html?lang=frl#GettingStarted)* de la documentation d’AEM.
 
 Si vous prévoyez de mettre à niveau votre instance AEM, vous devez suivre l’ordre indiqué :
 

@@ -1,6 +1,6 @@
 ---
-title: Gestionnaire d’événements de post-traitement
-description: En savoir plus sur le gestionnaire d’événements de post-traitement
+title: Gestionnaire d’événements de traitement Post
+description: En savoir plus sur le gestionnaire d’événements de traitement Post
 exl-id: 3b105ff5-02d4-40e3-a713-206a7fcf18b2
 feature: Post-Processing Event Handler
 role: Developer
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 ---
 
-# Gestionnaire d’événements de post-traitement {#id175UB30E05Z}
+# Gestionnaire d’événements de traitement Post {#id175UB30E05Z}
 
 AEM Guides expose l’événement com/adobe/fmdita/postprocess/complete utilisé pour effectuer toutes les opérations de post-traitement. Cet événement est déclenché chaque fois qu’une opération est effectuée sur un fichier DITA. Les opérations suivantes sur un fichier DITA déclenchent cet événement :
 
@@ -29,10 +29,16 @@ Vous devez créer un gestionnaire d’événements AEM pour lire les propriété
 
 Les détails de l’événement sont expliqués ci-dessous :
 
-**Nom de l’événement**:
+**Nom de l’événement** :
 
 ```
 com/adobe/fmdita/postprocess/complete 
 ```
 
-**Paramètres**: |Nom|Type|Description| |—|—|—| |`path`|String|Le chemin d’accès du fichier qui a déclenché cet événement. En règle générale, il s’agit du fichier sur lequel une opération a été effectuée.| |`status`|String|L’état de retour de l’opération effectuée. Les options possibles sont : - <br>- SUCCESS : l’opération de post-traitement s’est terminée avec succès. <br>- TERMINÉ AVEC DES ERREURS : l’opération de post-traitement s’est terminée, mais avec certaines erreurs. <br>- FAILED : l’opération de post-traitement a échoué en raison d’une erreur fatale.| |`message`|String|Si l’état est TERMINÉ AVEC DES ERREURS ou ÉCHEC, ce paramètre contient les détails sur l’erreur ou la raison de l’échec.| |`operation`|String|L’opération de post-traitement effectuée sur le fichier. Les options possibles sont les suivantes :<br>- Ajout <br>- Mise à niveau <br>- Suppression|
+**Paramètres** :
+|Nom|Type|Description|
+|—|—|—|
+|`path`|Chaîne|Le chemin d’accès du fichier qui a déclenché cet événement. En règle générale, il s’agit du fichier sur lequel une opération a été effectuée.|
+|`status`|Chaîne|L’état de retour de l’opération effectuée. Les options possibles sont : - <br>- SUCCESS : l’opération de post-traitement s’est terminée avec succès. <br> - TERMINÉ AVEC DES ERREURS : l’opération de post-traitement s’est terminée, mais avec certaines erreurs. <br> - ÉCHEC : l’opération de post-traitement a échoué en raison d’une erreur fatale.|
+|`message`|Chaîne|Si l’état est TERMINÉ AVEC DES ERREURS ou ÉCHEC, ce paramètre contient les détails sur l’erreur ou la raison de l’échec.|
+|`operation`|Chaîne|L’opération de post-traitement effectuée sur le fichier. Les options possibles sont :<br>- Ajout <br>- Mise à jour <br>- Suppression|

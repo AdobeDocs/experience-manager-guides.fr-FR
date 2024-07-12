@@ -11,47 +11,47 @@ ht-degree: 0%
 
 # Configuration de l’assistant de guides optimisé par l’IA pour rechercher du contenu
 
-En tant qu’administrateur, vous pouvez configurer la fonction de l’assistant de Guides pour les auteurs. Le service d’assistant de guides est sécurisé par l’authentification basée sur l’authentification Adobe IMS. Intégrez votre environnement aux processus d’authentification sécurisés par jeton d’Adobe et commencez à utiliser la nouvelle fonctionnalité de l’assistant de guides. Les configurations suivantes vous permettent d’ajouter la variable **Configuration de l’IA** à un profil de dossier. Une fois l’ajout effectué, vous pouvez utiliser la fonction de l’assistant de Guides dans l’éditeur web.
+En tant qu’administrateur, vous pouvez configurer la fonction de l’assistant de Guides pour les auteurs. Le service d’assistant de guides est sécurisé par l’authentification basée sur l’authentification Adobe IMS. Intégrez votre environnement aux processus d’authentification sécurisés par jeton d’Adobe et commencez à utiliser la nouvelle fonctionnalité de l’assistant de guides. Les configurations suivantes vous aident à ajouter l’onglet **Configuration de l’IA** à un profil de dossier. Une fois l’ajout effectué, vous pouvez utiliser la fonction de l’assistant de Guides dans l’éditeur web.
 
-## Création de configurations IMS dans la console Adobe Developer
+## Création de configurations IMS dans Adobe Developer Console
 
-Effectuez les étapes suivantes pour créer des configurations IMS dans la console Adobe Developer :
+Effectuez les étapes suivantes pour créer des configurations IMS dans Adobe Developer Console :
 
 >[!NOTE]
 >
 >Si vous avez déjà créé un projet OAuth pour configurer la fonction de suggestions intelligentes ou la publication basée sur un microservice, vous pouvez ignorer les étapes suivantes pour créer le projet.
 
-1. Launch [Console Adobe Developer](https://developer.adobe.com/console).
-1. Une fois connecté à Developer Console, vous verrez le **Accueil** écran. La variable **Accueil** vous permet de trouver facilement des informations et des liens rapides, y compris des liens de navigation supérieure vers Projets et téléchargements.
-1. Pour créer un projet vide, sélectionnez **Créer un projet** de la **Démarrage rapide** liens.
+1. Lancez [Adobe Developer Console](https://developer.adobe.com/console).
+1. Après vous être connecté à Developer Console, vous verrez l’écran **Accueil**. L’écran **Accueil** vous permet de trouver facilement des informations et des liens rapides, y compris des liens de navigation supérieure vers Projets et téléchargements.
+1. Pour créer un projet vide, sélectionnez **Créer un projet** à partir des liens **Démarrage rapide**.
    ![Liens de démarrage rapide](assets/conf-ss-quick-start.png) {width="550" align="left"}
    *Créez un projet.*
 
-1. Sélectionner **Ajouter une API** de la **Projets** écran.  La variable **Ajout d’une API** s’affiche. Cet écran affiche toutes les API, événements et services disponibles pour les produits et technologies d’Adobe avec lesquels vous pouvez développer des applications.
+1. Sélectionnez **Ajouter une API** dans l’écran **Projets** .  L’écran **Ajouter une API** s’affiche. Cet écran affiche toutes les API, événements et services disponibles pour les produits et technologies d’Adobe avec lesquels vous pouvez développer des applications.
 
-1. Sélectionnez la variable **API de gestion I/O** pour l’ajouter à votre projet.
-   ![API IO Management](assets/confi-ss-io-management.png)
+1. Sélectionnez l’ **API de gestion I/O** pour l’ajouter à votre projet.
+   ![API de gestion des E/S](assets/confi-ss-io-management.png)
    *Ajoutez l’API de gestion I/O à votre projet.*
 
-1. Créer **Informations d’identification OAuth** et enregistrez-le.
-   ![Mosaïque Informations d’identification OAuth dans la configuration de l’API](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
+1. Créez un nouveau **OAuth credential** et enregistrez-le.
+   ![Mosaïque d’informations d’identification OAuth dans la configuration de l’API](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
    *Configurez les informations d’identification OAuth sur votre API.*
 
-1. Dans le  **Projets** , choisissez la variable **Serveur OAuth vers serveur** puis sélectionnez les informations d’identification nouvellement créées.
+1. Dans l’onglet **Projects** , sélectionnez l’option **OAuth Server to Server** , puis sélectionnez les informations d’identification nouvellement créées.
 
-1. Sélectionnez la variable **OAuth serveur à serveur** lien pour afficher les informations d’identification de votre projet.
+1. Sélectionnez le lien **OAuth Server-to-Server** pour afficher les informations d’identification de votre projet.
 
-   ![identifiants connectés](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
+   ![informations d’identification connectées](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
 
    *Connectez-vous au projet pour afficher les informations d’identification.*
 
-1. Revenez au **Projets** et sélectionnez **Présentation du projet** sur la gauche.
+1. Revenez à l’onglet **Projets** et sélectionnez **Aperçu du projet** sur la gauche.
 
    <img src="assets/project-overview.png" alt="présentation du projet" width="500">
 
    *Commencez le nouveau projet.*
 
-1. Cliquez sur le bouton **Télécharger** sur la partie supérieure pour télécharger le service JSON.
+1. Cliquez sur le bouton **Télécharger** en haut pour télécharger le service JSON.
 
    <img src="assets/download-json.png" alt="télécharger json" width="500">
 
@@ -63,21 +63,21 @@ Vous avez configuré les détails de l’authentification OAuth et téléchargé
 
 Effectuez les étapes suivantes pour ajouter la configuration IMS à l’environnement :
 
-1. Ouvrez Experience Manager, puis sélectionnez votre programme, qui contient l’environnement que vous souhaitez configurer.
-1. Basculez vers le **Environnements** .
-1. Sélectionnez le nom de l&#39;environnement que vous souhaitez configurer. Cela devrait vous permettre d’accéder au **Informations sur l’environnement** page.
-1. Basculez vers le **Configuration** .
+1. Ouvrez l’Experience Manager, puis sélectionnez votre programme, qui contient l’environnement que vous souhaitez configurer.
+1. Passez à l’onglet **Environnements** .
+1. Sélectionnez le nom de l&#39;environnement que vous souhaitez configurer. Cela devrait vous permettre d’accéder à la page **Environment Information**.
+1. Passez à l’onglet **Configuration** .
 1. Mettez à jour le champ JSON SERVICE_ACCOUNT_DETAILS . Assurez-vous d’utiliser le même nom et la même configuration que ceux indiqués dans la capture d’écran suivante.
 
-![configuration du compte de service ims](assets/ims-service-account-config.png){width="800" align="left"}
+![Configuration du compte de service ims](assets/ims-service-account-config.png){width="800" align="left"}
 
 
-*Ajoutez les détails de configuration de l’environnement.*
+*Ajoutez les détails de configuration de l&#39;environnement.*
 
 
 
 
-Une fois que vous avez ajouté la configuration IMS à l’environnement, procédez comme suit pour lier ces propriétés à AEM Guides à l’aide d’OSGi :
+Une fois la configuration IMS ajoutée à l’environnement, procédez comme suit pour lier ces propriétés à AEM Guides à l’aide d’OSGi :
 
 1. Dans le code de votre projet Git Cloud Manager, ajoutez les deux fichiers ci-dessous (pour le contenu du fichier, consultez [Annexe](#appendix)).
 
@@ -87,16 +87,16 @@ Une fois que vous avez ajouté la configuration IMS à l’environnement, procé
 1. Validez et poussez vos modifications Git.
 1. Exécutez le pipeline pour appliquer les modifications à l’environnement.
 
-Une fois cette opération effectuée, vous devriez pouvoir utiliser la variable **Assistant de guides** fonction .
+Une fois cette opération terminée, vous devriez pouvoir utiliser la fonctionnalité **Guides Assistant**.
 
 
 
 ## Annexe {#appendix}
 
-**Fichier**:
+**Fichier** :
 `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
 
-**Contenu**:
+**Contenu** :
 
 ```
 {
@@ -105,5 +105,5 @@ Une fois cette opération effectuée, vous devriez pouvoir utiliser la variable 
 ```
 
 
-Une fois que vous avez configuré la variable **Assistant de guides** ![Assistant de guides](assets/guides-assistant-icon.svg) s’affiche dans le panneau de droite de l’éditeur Web. Sélectionnez l’icône pour afficher le **Assistant de guides** du panneau.
-Pour plus d’informations, voir la [Assistant de guides optimisé par l’IA pour la recherche de contenu](../user-guide/ai-based-guides-assistant.md) dans le Guide de l’utilisateur de Experience Manager.
+Une fois que vous avez configuré l’icône **Assistant de guides** ![Assistant de guides](assets/guides-assistant-icon.svg) s’affiche dans le panneau droit de l’éditeur Web. Sélectionnez l’icône pour afficher le panneau **Guides Assistant**.
+Pour plus d’informations, consultez la section [Assistant de guides optimisé par l’IA pour rechercher du contenu](../user-guide/ai-based-guides-assistant.md) du Guide de l’utilisateur Experience Manager.

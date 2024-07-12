@@ -21,17 +21,17 @@ Le rapport Réutilisation du contenu est un autre rapport utile que vous pouvez 
 
 Effectuez les étapes suivantes pour afficher le rapport Réutilisation du contenu :
 
-1. Cliquez sur le lien Adobe Experience Manager en haut de l’écran et choisissez **Outils**.
+1. Cliquez sur le lien Adobe Experience Manager en haut de l’écran et sélectionnez **Outils**.
 
-1. Sélectionner **Guides** dans la liste des outils.
+1. Sélectionnez **Guides** dans la liste des outils.
 
-1. Cliquez sur le bouton **Rapport Réutilisation du contenu** mosaïque.
+1. Cliquez sur la mosaïque **Rapport de réutilisation de contenu** .
 
 1. Cliquez sur **Parcourir** pour choisir un chemin où se trouvent vos rubriques ou saisissez le chemin manuellement.
 
    Le rapport est généré en analysant le contenu dans les dossiers parents et tous les dossiers enfants.
 
-1. Cliquez sur **Générer un rapport** pour obtenir le rapport Réutilisation du contenu .
+1. Cliquez sur **Générer le rapport** pour obtenir le rapport Réutilisation du contenu.
 
    ![](images/content-reuse-uuid.png){width="800" align="left"}
 
@@ -45,17 +45,17 @@ Effectuez les étapes suivantes pour afficher le rapport Réutilisation du conte
 
      La section Détails contient les colonnes suivantes :
 
-      - **Titre**: titre de la rubrique. Cliquez sur le lien de titre de la rubrique pour ouvrir l’aperçu de la rubrique.
+      - **Titre** : titre de la rubrique. Cliquez sur le lien de titre de la rubrique pour ouvrir l’aperçu de la rubrique.
 
-      - **UUID**: identifiant unique universelle \(UUID\) du fichier.
+      - **UID** : identifiant unique universelle \(UUID\) du fichier.
 
-      - **Taille**: taille des fichiers en octets.
+      - **Size** : taille des fichiers en octets.
 
-      - **État**: état actuel du document (brouillon, en révision ou révision).
+      - **Status** : état actuel du document - Version préliminaire, En révision ou révision.
 
-      - **Nombre de fois réutilisées**: nombre de fois où la rubrique correspondante a été réutilisée. Ce calcul correspond à la somme des entrées dans les colonnes Référencé par moins 1.
+      - **Nombre de fois réutilisées** : nombre de fois où la rubrique correspondante a été réutilisée. Ce calcul correspond à la somme des entrées dans les colonnes Référencé par moins 1.
 
-      - **Référencé par**: rubriques dans lesquelles la rubrique correspondante a été référencée. Ici, seules les références directes \(premier niveau\) sont prises en compte. Plusieurs rubriques sont séparées par une virgule. L’UUID du fichier référencé est également mentionné entre crochets. Cliquez sur le lien de titre de la rubrique pour ouvrir l’aperçu de la rubrique.
+      - **Référencé par** : rubriques dans lesquelles la rubrique correspondante a été référencée. Ici, seules les références directes \(premier niveau\) sont prises en compte. Plusieurs rubriques sont séparées par une virgule. L’UUID du fichier référencé est également mentionné entre crochets. Cliquez sur le lien de titre de la rubrique pour ouvrir l’aperçu de la rubrique.
 
 
 >[!NOTE]

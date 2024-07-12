@@ -17,7 +17,7 @@ Cet article partage les informations sur l’architecture et les performances du
 
 >[!NOTE]
 >
-> La publication basée sur les microservices dans AEM Guides prend en charge les types de paramètres prédéfinis de sortie PDF (natifs et basés sur DITA-OT), HTML5, JSON et PERSONNALISÉS.
+> La publication basée sur les microservices dans AEM Guides prend en charge les types de paramètres prédéfinis de sortie PDF (natif et basé sur DITA-OT), HTML5, JSON et PERSONNALISÉS.
 
 ## Problèmes liés aux workflows de publication existants sur le cloud
 
@@ -29,7 +29,7 @@ Cette contrainte de ressources était la principale motivation pour proposer un 
 
 ## Présentation de la nouvelle architecture
 
-Le service utilise les solutions cloud de pointe d’Adobe telles que App Builder, IO Eventing, IMS pour créer une offre sans serveur. Ces services sont eux-mêmes basés sur les standards largement acceptés de l&#39;industrie comme Kubernetes et Docker.
+Le service utilise les solutions de cloud de pointe d’Adobe telles qu’App Builder, IO Eventing, IMS pour créer une offre sans serveur. Ces services sont eux-mêmes basés sur les standards largement acceptés de l&#39;industrie comme Kubernetes et Docker.
 
 Chaque requête au nouveau microservice de publication est exécutée dans un conteneur Docker isolé qui exécute une seule requête de publication à la fois. Plusieurs nouveaux conteneurs sont automatiquement créés en cas de nouvelle demande de publication. Cette configuration de conteneur unique par requête permet au microservice de fournir les meilleures performances aux clients sans introduire de risques de sécurité. Ces conteneurs sont ignorés une fois la publication terminée, libérant ainsi toutes les ressources inutilisées.
 
@@ -78,6 +78,6 @@ Si vous publiez une carte volumineuse sur le site, vous devrez peut-être ajuste
 
 ## Avantages supplémentaires
 
-Une partie de chaque requête de publication doit s’exécuter sur l’instance AEM pour récupérer le contenu de publication correct à envoyer au microservice. La nouvelle architecture cloud utilise AEM tâches au lieu de processus AEM, comme c’était le cas dans l’ancienne architecture. Cette modification permet aux administrateurs d’AEM Guides de configurer individuellement les paramètres de la file d’attente de publication dans le cloud sans affecter d’autres tâches AEM ou configurations de workflow.
+Une partie de chaque requête de publication doit s’exécuter sur l’instance AEM pour récupérer le contenu de publication correct à envoyer au microservice. La nouvelle architecture cloud utilise AEM tâches au lieu de processus AEM, comme c’était le cas dans l’ancienne architecture. Cette modification permet aux administrateurs AEM Guides de configurer individuellement les paramètres de la file d’attente de publication dans le cloud sans affecter d’autres tâches AEM ou configurations de workflow.
 
-Vous trouverez des informations détaillées sur la configuration du nouveau microservice de publication ici : [Configuration de Microservice](configure-microservices.md)
+Vous trouverez des détails sur la configuration du nouveau microservice de publication ici : [Configurer le microservice](configure-microservices.md)

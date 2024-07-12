@@ -25,20 +25,20 @@ Effectuez les étapes suivantes pour générer la sortie pour un mappage DITA :
 
    >[!NOTE]
    >
-   > Si vous générez la sortie Site AEM, le processus de publication utilise la structure définie dans la variable `.ditamap` pour créer AEM structure du site.
+   > Si vous générez la sortie Site AEM, le processus de publication utilise la structure définie dans le fichier `.ditamap` pour créer AEM structure Site.
 
 1. Cliquez sur l&#39;icône Générer pour lancer le processus de génération de sortie.
 
 
-Vous pouvez afficher l’état actuel de la requête de génération de sortie en cliquant sur Sorties. Pour plus d’informations, voir [Afficher l&#39;état de la tâche de génération de sortie](#viewing_output_history)
+Vous pouvez afficher l’état actuel de la requête de génération de sortie en cliquant sur Sorties. Pour plus d’informations, voir [Affichage de l’état de la tâche de génération de sortie](#viewing_output_history)
 
 >[!IMPORTANT]
 >
 > Si un processus de génération de sortie pour un paramètre prédéfini se trouve dans la file d’attente ou est en cours, vous ne pouvez pas lancer une autre tâche de génération de sortie pour le même paramètre prédéfini.
 
-Vous pouvez générer la sortie du PDF pour un ou plusieurs paramètres prédéfinis de sortie créés pour un mappage DITA à partir de l’éditeur web. Pour plus d’informations, voir [Utilisez le panneau Génération rapide pour générer et afficher la sortie des paramètres prédéfinis.](web-editor-quick-generate-panel.md#).
+Vous pouvez générer la sortie du PDF pour un ou plusieurs paramètres prédéfinis de sortie créés pour un mappage DITA à partir de l’éditeur web. Pour plus d’informations, voir [Utilisation du panneau Génération rapide pour générer et afficher la sortie pour les paramètres prédéfinis](web-editor-quick-generate-panel.md#).
 
-Vous pouvez également générer la sortie AEM Site pour une ou plusieurs rubriques, ou l’ensemble du mappage DITA à partir de l’éditeur web. Pour plus d’informations, voir [Publication basée sur des articles à partir de l’éditeur web](web-editor-article-publishing.md#id218CK0U019I).
+Vous pouvez également générer la sortie AEM Site pour une ou plusieurs rubriques, ou l’ensemble du mappage DITA à partir de l’éditeur web. Pour plus d’informations, voir [Publication basée sur un article à partir de l’éditeur web](web-editor-article-publishing.md#id218CK0U019I).
 
 ## Génération incrémentielle de sortie {#generating_standalone_topic}
 
@@ -56,11 +56,11 @@ Effectuez les étapes suivantes pour générer à nouveau une sortie pour une ru
 >
 > Lorsque vous régénérez la sortie Site AEM, la sortie est créée à l’aide de la version actuelle des fichiers et non de la ligne de base jointe.
 
-1. Dans l’interface utilisateur d’Assets, accédez à et cliquez sur le fichier de mappage DITA.
+1. Dans l’interface utilisateur d’Assets, accédez au fichier de mappage DITA et cliquez dessus.
 
    La console de mappage DITA s’affiche avec la liste des paramètres prédéfinis de sortie disponibles pour générer la sortie.
 
-1. Sélectionnez la variable **Sujets** .
+1. Sélectionnez l’onglet **Sujets** .
 
    Une liste des rubriques disponibles dans le mappage DITA s’affiche.
 
@@ -85,11 +85,11 @@ Effectuez les étapes suivantes pour générer à nouveau une sortie pour une ru
 >
 > Si vous renommez un titre de rubrique et régénérez la rubrique, le titre de rubrique mis à jour ne se reflète pas dans la table des matières du mappage DITA. Pour mettre à jour le titre de la rubrique dans la table des matières, vous devez générer le mappage DITA entier.
 
-Vous pouvez afficher l’état actuel de la requête de génération de sortie en cliquant sur Sorties. Pour plus d’informations, voir [Afficher l&#39;état de la tâche de génération de sortie](#viewing_output_history).
+Vous pouvez afficher l’état actuel de la requête de génération de sortie en cliquant sur Sorties. Pour plus d’informations, voir [Affichage de l’état de la tâche de génération de sortie](#viewing_output_history).
 
 ## Afficher l&#39;état de la tâche de génération de sortie {#viewing_output_history}
 
-Une fois que vous avez lancé la tâche de génération de sortie pour une carte ou que vous avez régénéré les rubriques sélectionnées, AEM Guides envoie cette tâche à la file d’attente de génération de sortie. Cette file d’attente est mise à jour en temps réel, indiquant l’état de chaque tâche de génération de sortie dans la file d’attente.
+Une fois que vous avez lancé la tâche de génération de sortie pour une carte ou régénérer les rubriques sélectionnées, AEM Guides envoie cette tâche à la file d’attente de génération de sortie. Cette file d’attente est mise à jour en temps réel, indiquant l’état de chaque tâche de génération de sortie dans la file d’attente.
 
 Effectuez les étapes suivantes pour afficher la file d’attente de génération de sortie :
 
@@ -105,7 +105,7 @@ Effectuez les étapes suivantes pour afficher la file d’attente de génératio
 
      Répertorie les sorties en attente de génération ou en cours de processus de génération. Les tâches en file d’attente ou en cours s’affichent avec une icône de couleur bleue devant le nom du paramètre prédéfini. Vous pouvez également trouver le paramètre de génération de sortie ou le paramètre prédéfini utilisé pour la tâche en file d’attente, le type, l’utilisateur qui a lancé la tâche, le temps écoulé depuis que la tâche est en file d’attente et l’état actuel.
 
-     Cliquez sur le lien pour accéder au **Publier le tableau de bord** et afficher l’état actuel de l’exécution. Une liste de toutes les tâches de publication actives est disponible dans le tableau de bord de publication. La variable **Sorties en file d’attente** et la variable **Publier le tableau de bord** ne s’affichent que lorsqu’il existe des sorties en attente de génération ou en cours de processus de génération. Elles n’apparaissent pas une fois les tâches de sortie terminées. Pour plus d’informations sur le tableau de bord de publication, voir [Gestion des tâches de publication à l’aide du tableau de bord de publication](generate-output-publish-dashboard.md#).
+     Cliquez sur le lien pour accéder au **tableau de bord Publish** et afficher l’état d’exécution actuel. Une liste de toutes les tâches de publication actives est disponible dans le tableau de bord Publish. Les **Sorties en file d’attente** et le lien **Tableau de bord Publish** s’affichent uniquement lorsque des sorties attendent d’être générées ou sont en cours de génération. Elles n’apparaissent pas une fois les tâches de sortie terminées. Pour plus d’informations sur le tableau de bord Publish, voir [Gérer les tâches de publication à l’aide du tableau de bord Publish](generate-output-publish-dashboard.md#).
 
    - **Sorties générées**
 
@@ -113,7 +113,7 @@ Effectuez les étapes suivantes pour afficher la file d’attente de génératio
 
      Dans cette liste, vous pouvez avoir des tâches qui ont été exécutées avec succès, des tâches qui ont été exécutées avec un message ou des tâches qui ont échoué. Les tâches réussies sont affichées avec une icône en couleur verte, les tâches avec un message ont une icône en couleur orange et les tâches ayant échoué sont affichées avec une icône en couleur rouge.
 
-     Pour toutes les tâches, le processus de publication crée un fichier journal \(logs.txt\) accessible en cliquant sur le lien dans la colonne Généré à. Pour les tâches ayant échoué ou comportant des messages, vous pouvez vérifier le fichier journal, qui est expliqué dans la section . [Afficher et vérifier le fichier journal](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
+     Pour toutes les tâches, le processus de publication crée un fichier journal \(logs.txt\) accessible en cliquant sur le lien dans la colonne Généré à. Pour les tâches ayant échoué ou comportant des messages, vous pouvez vérifier le fichier journal, qui est expliqué dans la section [Afficher et vérifier le fichier journal](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
 
      >[!NOTE]
      >
@@ -122,7 +122,7 @@ Effectuez les étapes suivantes pour afficher la file d’attente de génératio
 
 ## Annulation d’une tâche de génération de sortie {#id2061H100T5Z}
 
-AEM Guides offre aux éditeurs un moyen simple et facile d’annuler toute tâche de publication en cours. En tant qu’éditeur, vous pouvez annuler une tâche de publication en cours à partir de la console de mappage DITA ou de la [Publier le tableau de bord](generate-output-publish-dashboard.md#).
+AEM Guides offre aux éditeurs un moyen simple et facile d’annuler toute tâche de publication en cours. En tant qu’éditeur, vous pouvez annuler une tâche de publication en cours à partir de la console de mappage DITA ou du [tableau de bord Publish](generate-output-publish-dashboard.md#).
 
 Pour annuler une tâche de génération de sortie à partir de la console de mappage DITA, procédez comme suit :
 
@@ -132,7 +132,7 @@ Pour annuler une tâche de génération de sortie à partir de la console de map
 
 1. Dans la liste Sorties en file d’attente, placez le pointeur de la souris sur une tâche que vous souhaitez annuler.
 
-1. Cliquez sur le bouton *Annuler Cette Tâche* Icône
+1. Cliquez sur l’icône *Annuler cette tâche* .
 
    ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
 
@@ -142,14 +142,14 @@ Pour annuler une tâche de génération de sortie à partir de la console de map
 
    Si la tâche n’a pas encore commencé, la commande d’annulation est exécutée sur la tâche. Pour une tâche en cours d’annulation, l’état est défini sur Annuler.
 
-   Une fois la tâche annulée, elle est déplacée vers la **Sorties générées** avec une liste **Annulé** statut. Lorsque vous passez la souris sur la tâche annulée, le nom de l’utilisateur qui a annulé la tâche s’affiche. Dans la capture d’écran suivante, la variable *HTML5* la tâche est annulée.
+   Une fois la tâche annulée, elle est déplacée vers la liste **Sorties générées** avec le statut **Annulée**. Lorsque vous passez la souris sur la tâche annulée, le nom de l’utilisateur qui a annulé la tâche s’affiche. Dans la capture d’écran suivante, la tâche *HTML5* est annulée.
 
    ![](images/cancelled-output-task.png){width="800" align="left"}
 
 
 ## Suppression d’une tâche de sortie de la console de mappage DITA
 
-Lorsque vous générez plusieurs sorties pour un mappage DITA, la liste des sorties générées d’un tel mappage devient très longue sur une période donnée. En tant qu’éditeur, vous pouvez effacer l’historique de sortie d’un fichier de mappage en supprimant les tâches obsolètes du *Sorties générées* liste. Notez que la sortie n’est pas supprimée du système, seule l’entrée de la sortie générée est supprimée de la variable *Sorties générées* liste.
+Lorsque vous générez plusieurs sorties pour un mappage DITA, la liste des sorties générées d’un tel mappage devient très longue sur une période donnée. En tant qu’éditeur, vous pouvez nettoyer l’historique de sortie de tout fichier de mappage en supprimant les tâches obsolètes de la liste *Sorties générées*. Notez que la sortie n’est pas supprimée du système, seule l’entrée de la sortie générée est supprimée de la liste *Sorties générées*.
 
 Effectuez les étapes suivantes pour supprimer une tâche de sortie de la liste Sortie générée :
 

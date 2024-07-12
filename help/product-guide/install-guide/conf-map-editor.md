@@ -28,8 +28,8 @@ Effectuez les étapes suivantes pour faire de l’éditeur de mappage avancé l�
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Recherchez et cliquez sur le bouton **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** du lot.
+1. Recherchez et cliquez sur le lot **com.adobe.fmdita.xmleditor.config.XmlEditorConfig**.
 
-1. Sélectionnez la variable **Masquer l’éditeur de carte de base** .
+1. Sélectionnez l’option **Masquer l’éditeur de cartes de base** .
 
    Lorsque cette option est sélectionnée, le lien Éditeur de carte de base n’apparaît plus dans l’interface utilisateur. Par défaut, les fichiers de mappage s’ouvrent dans l’éditeur de mappage avancé.

@@ -24,18 +24,18 @@ Dans certains workflows, lorsque vous cliquez sur un lien d’une rubrique ou d�
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Recherchez et cliquez sur le bouton **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** du lot.
+1. Recherchez et cliquez sur le lot **com.adobe.fmdita.xmleditor.config.XmlEditorConfig**.
 
-1. Sélectionnez la variable **Ouvrir la rubrique/carte DITA dans le même onglet** .
+1. Sélectionnez l’option **Ouvrir la rubrique/carte DITA dans le même onglet** .
 
 1. Cliquez sur **Enregistrer**.
 
 
 Ce paramètre a un impact sur les emplacements suivants d’où vous pouvez accéder aux fichiers de rubrique ou de mappage :
 
-- Créez une rubrique DITA \(à la fin du processus, lorsque vous cliquez sur l’icône **Ouvrir la rubrique** button\)
+- Créez une rubrique DITA \(à la fin du processus, lorsque vous cliquez sur le bouton **Ouvrir la rubrique**\)
 
-- Créez une carte DITA \(à la fin du processus, lorsque vous cliquez sur la **Open Map** button\)
+- Créez la carte DITA \(à la fin du processus, lorsque vous cliquez sur le bouton **Ouvrir la carte**\)
 
 - Onglet Sujets dans la console de mappage DITA
 
@@ -44,4 +44,4 @@ Ce paramètre a un impact sur les emplacements suivants d’où vous pouvez acc�
 - Onglet Rapports dans la console de mappage DITA
 
 
-**Rubrique parente :**[ Personnalisation de l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)

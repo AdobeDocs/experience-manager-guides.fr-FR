@@ -2,7 +2,8 @@
 title: Liste
 description: Liste
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 333b5e24-efba-4a51-8f68-83b5d1d7daec
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 5%
@@ -38,4 +39,4 @@ En règle générale, itemConfig est un `widget`. Pour en savoir plus sur les wi
 
 La liste rendue se présente comme suit :
 
-![list](./imgs/list.png "Liste")
+![list](./imgs/list.png "List")

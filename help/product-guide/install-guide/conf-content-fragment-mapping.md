@@ -16,12 +16,12 @@ ht-degree: 0%
 
 AEM Guides fournit la fonctionnalité permettant de créer un mappage JSON entre une rubrique et un modèle de fragment de contenu. Vous pouvez utiliser ce mappage pour publier du contenu présent dans certains éléments ou tous les éléments d’une rubrique sur un fragment de contenu.
 
-1. Pour télécharger le *contentFragmentMapping.json*, connectez-vous à Adobe Experience Manager en tant qu’administrateur.
-1. Sélectionnez le lien Adobe Experience Manager dans la partie supérieure et choisissez **Outils**.
-1. Sélectionnez Guides dans la liste des outils, puis sélectionnez l’option **Profils de dossier**.
-1. Sélectionnez la variable **Profil global** mosaïque.
-1. Sélectionnez la variable **Configuration de l’éditeur XML** et sélectionnez l’option **Modifier** en haut.
-1. Sélectionnez la variable **Télécharger** pour télécharger l’icône *contentFragmentMapping.json*  sur votre système local. Vous pouvez ensuite apporter des modifications au fichier, puis charger le même fichier.
+1. Pour télécharger le fichier *contentFragmentMapping.json*, connectez-vous à Adobe Experience Manager en tant qu’administrateur.
+1. Sélectionnez le lien Adobe Experience Manager en haut et choisissez **Outils**.
+1. Sélectionnez Guides dans la liste des outils et sélectionnez le **Profil de dossier**.
+1. Sélectionnez la mosaïque **Profil global** .
+1. Sélectionnez l’onglet **Configuration de l’éditeur XML** et sélectionnez l’icône **Modifier** en haut.
+1. Sélectionnez l’icône **Télécharger** pour télécharger le fichier *contentFragmentMapping.json* sur votre système local. Vous pouvez ensuite apporter des modifications au fichier, puis charger le même fichier.
 
 1. Vous devez suivre les validations suivantes :
 
@@ -94,4 +94,4 @@ Exemple de fichier :
 ]
 ```
 
-Vous pouvez publier la rubrique entière avec le mappage par défaut. Sélectionnez la variable `Full Topic` mappage à partir de la liste déroulante dans la variable **Publier en tant que fragment de contenu** et disposer du champ &quot;topicData&quot; dans le modèle de fragment de contenu.
+Vous pouvez publier la rubrique entière avec le mappage par défaut. Sélectionnez le mappage `Full Topic` dans la liste déroulante de la boîte de dialogue **Publish as Content Fragment** et indiquez que le champ &quot;topicData&quot; se trouve dans le modèle de fragment de contenu.

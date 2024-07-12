@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # Configuration du Dispatcher {#id213BCM0M05U}
 
-Si vous prévoyez d’utiliser un Dispatcher sur l’instance d’auteur AEM avec AEM Guides, vous devez effectuer les configurations supplémentaires suivantes pour terminer la configuration :
+Si vous prévoyez d’utiliser une instance Dispatcher sur l’instance d’auteur AEM avec AEM Guides, vous devez effectuer les configurations supplémentaires suivantes pour terminer la configuration :
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Les URL avec des barres obliques codées ne sont pas activées par défaut dans 
 
 ## Configuration du fichier mime.types pour DITA
 
-Lors de l’utilisation d’un Dispatcher avec AEM Guides, vous devez vous assurer que le mappage DITA et les fichiers de rubrique sont rendus en HTML pour que les auteurs puissent afficher le contenu comme ils le souhaitent \(au lieu du format de texte brut\).
+Lors de l’utilisation d’un Dispatcher avec AEM Guides, vous devez vous assurer que le mappage DITA et les fichiers de rubrique sont rendus comme HTML pour que les auteurs puissent afficher le contenu comme ils le souhaitent \(au lieu du format de texte brut\).
 
 Effectuez les étapes suivantes pour mettre à jour le fichier mime.types :
 
@@ -60,13 +60,13 @@ Effectuez les étapes suivantes pour mettre à jour le fichier mime.types :
 1. Enregistrez et fermez le fichier.
 
 
-Cette mise à jour de la configuration garantit que le mappage DITA et les fichiers de rubrique générés par Dispatcher sont affichés par HTML dans l’interface utilisateur d’Assets.
+Cette mise à jour de la configuration garantit que le mappage DITA et les fichiers de rubrique rendus par Dispatcher sont affichés comme HTML dans l’interface utilisateur d’Assets.
 
 ## Autoriser l’URL de requête des préférences utilisateur
 
-Lors de l’utilisation d’un Dispatcher avec AEM Guides, si votre instance d’auteur dispose d’un Dispatcher au premier plan, effectuez les deux modifications suivantes :
+Lors de l’utilisation d’un Dispatcher avec AEM Guides, si votre instance d’auteur dispose d’un dispatcher au premier plan, effectuez les deux modifications suivantes :
 
-- Placez l’URL de demande du POST sur liste blanche. Exemple &quot; `/filters`&quot; est donnée ci-dessous - Ajoutez cette règle au fichier de configurations du Dispatcher :
+- Placez l’URL de demande du POST sur liste blanche. Un exemple de règle &quot; `/filters`&quot; est donné ci-dessous - Ajoutez cette règle au fichier de configurations du Dispatcher :
 
 ```json
 /xxxx {/type "allow" /method "POST" /url "/home/users/*/preferences"}

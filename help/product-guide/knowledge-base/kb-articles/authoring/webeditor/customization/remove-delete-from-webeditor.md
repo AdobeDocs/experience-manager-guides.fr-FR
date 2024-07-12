@@ -1,21 +1,21 @@
 ---
 title: Supprimer l’option "Supprimer" du menu contextuel du fichier dans l’éditeur de texte web pour des utilisateurs spécifiques
 description: Découvrez comment personnaliser l’éditeur web en supprimant l’option "Supprimer" du menu contextuel du fichier pour des utilisateurs/groupes spécifiques
-source-git-commit: aacc04e2fb6ca061825e5e219ad6e03bf711b3d0
+exl-id: 31b4dd53-3938-42e1-bbc6-64806d668696
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
-
 # Supprimer l’option &quot;Supprimer&quot; du menu contextuel du fichier dans l’éditeur de webeiter
 
-Dans cet article, nous allons découvrir comment masquer l’option &quot;Supprimer&quot; du menu contextuel du fichier dans AEM Guides Web Editor pour des utilisateurs ou des groupes spécifiques. Pour d’autres personnalisations des options de menu contextuel du fichier, consultez la structure de l’extension Guides . Plus de détails sont disponibles [here](https://github.com/adobe/guides-extension/tree/main).
+Dans cet article, nous allons découvrir comment masquer l’option &quot;Supprimer&quot; du menu contextuel du fichier dans l’éditeur web AEM Guides pour des utilisateurs ou des groupes spécifiques. Pour d’autres personnalisations des options de menu contextuel du fichier, consultez la structure de l’extension Guides . Vous trouverez plus de détails [ici](https://github.com/adobe/guides-extension/tree/main).
 
 Comme vous pouvez le voir sous l’extrait de code, le menu contextuel du fichier comporte l’option &quot;Supprimer&quot; disponible pour cet utilisateur spécifique.
 
-![Menu contextuel du fichier avec suppression](../../../assets/authoring/file-contextmenu-Delete.png)
+![ Fichier contextmenu avec suppression](../../../assets/authoring/file-contextmenu-Delete.png)
 
 Maintenant, voyons comment masquer l’option &quot;Supprimer&quot; pour cet utilisateur.
 
@@ -28,7 +28,7 @@ Maintenant, voyons comment masquer l’option &quot;Supprimer&quot; pour cet uti
 - Incluez les privilèges &quot;jcr:removeChildNodes&quot; et &quot;jcr:removeNode&quot;.
 - Sélectionnez &quot;Type d’autorisation&quot; comme &quot;refus&quot; et cliquez sur &quot;Ajouter&quot; comme illustré ci-dessous.
 
-![Refuser l’autorisation des utilisateurs ACE](../../../assets/authoring/permission-ACE-Delete.png)
+![Refuser l’autorisation utilisateur ACE](../../../assets/authoring/permission-ACE-Delete.png)
 
 ![Liste de contrôle d’accès dans les autorisations](../../../assets/authoring/delete-acl.png)
 
@@ -42,7 +42,7 @@ Maintenant, voyons comment masquer l’option &quot;Supprimer&quot; pour cet uti
 
 Le menu contextuel du fichier se présente désormais comme suit :
 
-![Menu contextuel du fichier sans suppression](../../../assets/authoring/file-contextmenu-Delete-removed.png)
+![Menu contextuel de fichier sans suppression](../../../assets/authoring/file-contextmenu-Delete-removed.png)
 
 ```
 Please note that these steps would also remove 'move' and 'rename' options from the Web Editor as they are also tied to delete process at the backend.

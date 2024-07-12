@@ -19,7 +19,7 @@ Vous pouvez migrer votre contenu non UUID vers UUID.
 
 >[!IMPORTANT]
 >
-> Avant de migrer le contenu vers le serveur UUID, vérifiez que vous disposez d’un serveur non UUID avec la version d’AEM Guides compatible installée sur celui-ci.
+> Avant de migrer le contenu vers le serveur UUID, vérifiez que vous disposez d’un serveur non UUID sur lequel est installée la version AEM Guides compatible.
 
 
 

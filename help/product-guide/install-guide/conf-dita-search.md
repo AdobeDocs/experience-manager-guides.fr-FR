@@ -21,12 +21,12 @@ Par défaut, AEM ne reconnaît pas le contenu DITA, il ne fournit donc aucun mé
 La configuration de la recherche de contenu DITA implique les tâches suivantes :
 
 1. [Ajout d’un composant de recherche d’éléments DITA dans l’interface utilisateur d’Assets](#id192SF0F50HS)
-1. [Ajout d’un composant de recherche basé sur l’UUID dans l’interface utilisateur Assets](#id2034F04K05Z)
+1. [Ajout d’un composant de recherche UUID dans l’interface utilisateur d’Assets](#id2034F04K05Z)
 1. [Octroi d’autorisations aux utilisateurs](#id192SF0G0RUI)
 1. [Ajout d’éléments ou d’attributs personnalisés dans la recherche](#id192SF0G10YK)
 1. [Extraction des métadonnées du contenu existant](#id192SF0GA0HT)
 
-Outre la fonctionnalité de recherche, vous pouvez configurer les dossiers qui ne doivent pas être inclus dans la recherche. Pour plus d’informations, voir [Exclure les fichiers temporaires des résultats de recherche](#id197AHI0035Z).
+Outre la fonctionnalité de recherche, vous pouvez configurer les dossiers qui ne doivent pas être inclus dans la recherche. Pour plus d’informations, voir [Exclusion de fichiers temporaires des résultats de recherche](#id197AHI0035Z).
 
 ## Ajout d’un composant de recherche d’éléments DITA dans l’interface utilisateur d’Assets {#id192SF0F50HS}
 
@@ -34,16 +34,16 @@ Procédez comme suit pour ajouter le composant de recherche de contenu DITA dans
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 
-1. Cliquez sur le bouton **Adobe Experience Manager** lien dans la partie supérieure et choisissez **Outils**.
+1. Cliquez sur le lien **Adobe Experience Manager** dans la partie supérieure et sélectionnez **Outils**.
 
-1. Sélectionner **Général** dans la liste des outils, puis cliquez sur le **Rechercher dans Forms** mosaïque.
+1. Sélectionnez **Général** dans la liste des outils et cliquez sur la mosaïque **Rechercher dans le Forms**.
 
-1. Dans le **Rechercher dans Forms** , sélectionnez la variable **Rail de recherche d’administrateurs de ressources**.
+1. Dans la liste **Rechercher dans Forms**, sélectionnez le **rail de recherche d’administrateurs Assets**.
 
 1. Cliquez sur **Modifier**.
-1. Dans le **Sélectionner un prédicat** , faites défiler jusqu’à la fin de la liste.
+1. Dans l’onglet **Select Predicate**, faites défiler la liste jusqu’à la fin de la liste.
 
-1. Glisser-déposer **Prédicat d’élément DITA** à l’emplacement requis dans le formulaire de recherche.
+1. Faites glisser **Prédicat d’élément DITA** à l’emplacement requis dans le formulaire de recherche.
 
    ![](assets/drag-search-predicate.png){width="650" align="left"}
 
@@ -54,28 +54,28 @@ Procédez comme suit pour ajouter le composant de recherche de contenu DITA dans
    ![](assets/search-filter-asset-console.png){width="350" align="left"}
 
 
-## Ajout d’un composant de recherche basé sur l’UUID dans l’interface utilisateur Assets {#id2034F04K05Z}
+## Ajout d’un composant de recherche UUID dans l’interface utilisateur d’Assets {#id2034F04K05Z}
 
 Procédez comme suit pour ajouter un composant de recherche basé sur l’UUID dans l’interface utilisateur d’AEM Assets :
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 
-1. Cliquez sur le bouton **Adobe Experience Manager** lien dans la partie supérieure et choisissez **Outils**.
+1. Cliquez sur le lien **Adobe Experience Manager** dans la partie supérieure et sélectionnez **Outils**.
 
-1. Sélectionner **Général** dans la liste des outils, puis cliquez sur le **Rechercher dans Forms** mosaïque.
+1. Sélectionnez **Général** dans la liste des outils et cliquez sur la mosaïque **Rechercher dans le Forms**.
 
-1. Dans le **Rechercher dans Forms** , sélectionnez la variable **Rail de recherche d’administrateurs de ressources**.
+1. Dans la liste **Rechercher dans Forms**, sélectionnez le **rail de recherche d’administrateurs Assets**.
 
 1. Cliquez sur **Modifier**.
-1. Dans le **Sélectionner un prédicat** , choisissez **Prédicat de propriété** et faites-le glisser à l’emplacement requis dans le formulaire de recherche.
+1. Dans l’onglet **Sélectionner le prédicat**, choisissez **prédicat de propriété** et faites-le glisser à l’emplacement requis dans le formulaire de recherche.
 
-1. Dans le **Paramètres** , fournissez les détails suivants pour la **Prédicat de propriété** component :
+1. Dans l’onglet **Settings** , fournissez les détails suivants pour le nouveau composant **Property Predicate** ajouté :
 
-   - **Libellé du champ**: UUID
-   - **Nom de la propriété**: jcr:content/fmUuid
+   - **Libellé du champ** : UUID
+   - **Nom de la propriété** : jcr:content/fmUuid
 1. Cliquez sur **Terminé** pour enregistrer vos modifications.
 
-   Lorsque vous accédez à l’option Filtres dans l’interface utilisateur d’Assets, vous obtenez l’option Filtrage de la recherche basé sur l’UUIS.
+   Lorsque vous accédez à l’option Filtres de l’interface utilisateur d’Assets, vous obtenez l’option Filtrage de la recherche basé sur l’UUIS.
 
 
 ## Octroi d’autorisations aux utilisateurs {#id192SF0G0RUI}
@@ -88,19 +88,19 @@ Effectuez les étapes suivantes pour accorder l’accès à la fonction de reche
 
    `http://<server name>:<port>/useradmin.html`
 
-1. Recherchez le groupe d’utilisateurs ou un utilisateur individuel auquel vous souhaitez accorder l’accès. Par exemple, pour donner accès à tous les utilisateurs du groupe d’auteurs, saisissez les auteurs dans la variable **Requête de filtre** champ et appuyez sur **Entrée**.
+1. Recherchez le groupe d’utilisateurs ou un utilisateur individuel auquel vous souhaitez accorder l’accès. Par exemple, pour donner accès à tous les utilisateurs du groupe d’auteurs, saisissez les auteurs dans le champ **Filtrer la requête** et appuyez sur **Entrée**.
 
    ![](assets/authors-group-permission.png){width="350" align="left"}
 
-1. Sélectionnez la variable **authors** groupe.
+1. Sélectionnez le groupe **authors** .
 
-1. Dans le volet de droite, sélectionnez la variable **Autorisations** .
+1. Dans le volet de droite, sélectionnez l’onglet **Autorisations** .
 
 1. Accédez à l’emplacement de dossier suivant :
 
    /conf/global/settings/dam/search
 
-1. Donnez à **Lecture** autorisation sur le dossier de recherche.
+1. Donnez l’autorisation **Lecture** sur le dossier de recherche.
 
    ![](assets/read-permission-authors.png){width="650" align="left"}
 
@@ -111,15 +111,15 @@ L’utilisateur ou le groupe d’utilisateurs sélectionné aura désormais acc�
 
 ## Ajout d’éléments ou d’attributs personnalisés dans la recherche {#id192SF0G10YK}
 
-Pour que la recherche DITA fonctionne, un certain prétraitement du contenu DITA est requis. Cette étape de prétraitement extrait le contenu sélectif des différents mappages et rubriques DITA afin qu’il puisse être indexé pour une recherche plus rapide. En interne, ce processus est appelé *Sérialisation*. La sérialisation des fichiers DITA a lieu pendant le chargement du contenu ou peut également être exécutée à la demande. Il utilise un fichier de configuration pour déterminer la quantité de contenu de chaque fichier DITA à indexer. L’emplacement par défaut du fichier de sérialisation est le suivant :
+Pour que la recherche DITA fonctionne, un certain prétraitement du contenu DITA est requis. Cette étape de prétraitement extrait le contenu sélectif des différents mappages et rubriques DITA afin qu’il puisse être indexé pour une recherche plus rapide. En interne, ce processus est appelé *sérialisation*. La sérialisation des fichiers DITA a lieu pendant le chargement du contenu ou peut également être exécutée à la demande. Il utilise un fichier de configuration pour déterminer la quantité de contenu de chaque fichier DITA à indexer. L’emplacement par défaut du fichier de sérialisation est le suivant :
 
 /libs/fmdita/config/serializationconfig.xml
 
-La configuration de recherche par défaut vous permet de rechercher tous les éléments et attributs dans le DITA. `prolog` élément . Si vous souhaitez effectuer une recherche en fonction d’autres éléments ou attributs, vous devez configurer le fichier de sérialisation de la recherche.
+La configuration de recherche par défaut vous permet de rechercher tous les éléments et attributs dans l’élément DITA `prolog` . Si vous souhaitez effectuer une recherche en fonction d’autres éléments ou attributs, vous devez configurer le fichier de sérialisation de la recherche.
 
 >[!NOTE]
 >
-> Si vous souhaitez utiliser la configuration de recherche par défaut dans la variable `prolog` , vous pouvez ensuite ignorer ce processus.
+> Si vous souhaitez utiliser la configuration de recherche par défaut dans l’élément `prolog`, vous pouvez ignorer ce processus.
 
 Ce fichier contient deux sections principales : jeu d’attributs et jeu de règles. Vous trouverez ci-dessous un extrait de la section du jeu de règles :
 
@@ -136,9 +136,10 @@ Dans la section du jeu de règles, vous pouvez spécifier :
 
 Une règle se compose des éléments suivants :
 
-xpath : il s’agit de la requête XPath qui récupère les éléments ou les attributs des fichiers DITA. La configuration par défaut de la règle d’élément récupère toutes les `prolog` éléments . Et la configuration par défaut de la règle d’attribut récupère tous les attributs de `prolog` éléments . Vous pouvez spécifier une requête XPath pour sérialiser les éléments ou attributs que vous souhaitez rechercher.
+xpath
+:   Il s’agit de la requête XPath qui récupère les éléments ou les attributs des fichiers DITA. La configuration par défaut de la règle d’élément récupère tous les éléments `prolog`. Et la configuration par défaut de la règle d’attribut récupère tous les attributs des éléments `prolog`. Vous pouvez spécifier une requête XPath pour sérialiser les éléments ou attributs que vous souhaitez rechercher.
 
-La requête XPath contient le nom de classe du type de document. La variable `topic/topic` est utilisée pour les documents DITA de type rubrique. Si vous souhaitez créer une règle pour d’autres documents DITA, vous devez utiliser les noms de classe suivants :
+La requête XPath contient le nom de classe du type de document. La classe `topic/topic` est utilisée pour les documents DITA de type de rubrique. Si vous souhaitez créer une règle pour d’autres documents DITA, vous devez utiliser les noms de classe suivants :
 
 | Type de document | Nom de la classe |
 |-------------|----------|
@@ -148,15 +149,19 @@ La requête XPath contient le nom de classe du type de document. La variable `to
 | Référence | - référence/référence de rubrique |
 | Map | - map/map |
 
-text : si vous souhaitez rechercher le texte dans l’élément spécifié, indiquez la valeur oui. Si vous spécifiez non comme valeur, seuls les attributs de l’élément sont sérialisés. Les attributs que vous souhaitez rechercher doivent être spécifiés dans la section du jeu d’attributs .
+text
+:   Si vous souhaitez rechercher le texte dans l’élément spécifié, indiquez la valeur oui. Si vous spécifiez non comme valeur, seuls les attributs de l’élément sont sérialisés. Les attributs que vous souhaitez rechercher doivent être spécifiés dans la section du jeu d’attributs .
 
-attributeset : spécifiez l’identifiant du jeu d’attributs que vous souhaitez associer à cette règle. La valeur all-attrs est un cas spécial pour indiquer que tous les attributs de cette règle doivent être sérialisés.
+attribut teset
+:   Indiquez l’identifiant du jeu d’attributs à associer à cette règle. La valeur all-attrs est un cas spécial pour indiquer que tous les attributs de cette règle doivent être sérialisés.
 
 Un jeu d’attributs contient une liste d’attributs que vous souhaitez rechercher dans le contenu DITA. Le jeu d’attributs contient les éléments suivants :
 
-id : identifiant unique du jeu d’attributs. Cet identifiant est spécifié dans le paramètre attributeset d’un jeu de règles.
+id
+:   Identifiant unique du jeu d’attributs. Cet identifiant est spécifié dans le paramètre attributeset d’un jeu de règles.
 
-attribute : liste des attributs que vous souhaitez rechercher. Pour chaque attribut, vous devez créer une entrée individuelle dans la variable `attribute` élément .
+attribute
+:   Liste des attributs que vous souhaitez rechercher. Pour chaque attribut, vous devez créer une entrée individuelle dans l’élément `attribute`.
 
 Effectuez les étapes suivantes pour ajouter des éléments ou des attributs DITA personnalisés dans le fichier de sérialisation de recherche :
 
@@ -166,9 +171,9 @@ Effectuez les étapes suivantes pour ajouter des éléments ou des attributs DIT
 
    /libs/fmdita/config/serializationconfig.xml
 
-1. Créez un noeud de recouvrement du `config` dans le dossier `apps` noeud .
+1. Créez un noeud de recouvrement du dossier `config` dans le noeud `apps`.
 
-1. Accédez au fichier de configuration disponible dans le `apps` node:
+1. Accédez au fichier de configuration disponible dans le noeud `apps` :
 
    `/apps/fmdita/config/serializationconfig.xml`
 
@@ -178,9 +183,9 @@ Effectuez les étapes suivantes pour ajouter des éléments ou des attributs DIT
 
 1. Ouvrez la page de configuration de la console web Adobe Experience Manager . L&#39;URL par défaut pour accéder à la page de configuration est :
 
-   http://&lt;server name=&quot;&quot;>:&lt;port>/system/console/configMgr
+   http://&lt;nom du serveur\>:&lt;port\>/system/console/configMgr
 
-1. Recherchez et cliquez sur le bouton *com.adobe.config.ConfigManager* du lot.
+1. Recherchez et cliquez sur le lot *com.adobe.fmdita.config.ConfigManager*.
 
 1. Cliquez sur **Enregistrer**.
 
@@ -189,7 +194,7 @@ Les nouvelles informations de sérialisation sont stockées et activées pour la
 
 ## Extraction des métadonnées du contenu existant {#id192SF0GA0HT}
 
-Une fois que vous avez apporté des modifications au fichier de sérialisation de recherche par défaut, vous devez activer l’option Extraction des métadonnées DITA dans la variable *com.adobe.config.ConfigManager* regroupez et exécutez ensuite le workflow pour extraire les métadonnées. Cette opération extrait les métadonnées requises des fichiers DITA existants, puis les rend disponibles pour la recherche.
+Une fois que vous avez apporté des modifications au fichier de sérialisation de recherche par défaut, vous devez activer l’option Extraction des métadonnées DITA dans le lot *com.adobe.fmdita.config.ConfigManager* , puis exécuter le workflow pour extraire les métadonnées. Cette opération extrait les métadonnées requises des fichiers DITA existants, puis les rend disponibles pour la recherche.
 
 Si vous créez des fichiers ou modifiez un fichier après la mise à jour du fichier de sérialisation, les métadonnées sont automatiquement extraites de ces fichiers. Le processus d’extraction des métadonnées n’est nécessaire que pour les fichiers qui existent déjà dans le référentiel AEM.
 
@@ -202,11 +207,11 @@ Effectuez les étapes suivantes pour activer l’option d’extraction des méta
 
 1. Ouvrez la page de configuration de la console web Adobe Experience Manager . L&#39;URL par défaut pour accéder à la page de configuration est :
 
-   http://&lt;server name=&quot;&quot;>:&lt;port>/system/console/configMgr
+   http://&lt;nom du serveur\>:&lt;port\>/system/console/configMgr
 
-1. Recherchez et cliquez sur le bouton *com.adobe.config.ConfigManager* du lot.
+1. Recherchez et cliquez sur le lot *com.adobe.fmdita.config.ConfigManager*.
 
-1. Sélectionnez la variable **Activation de l’extraction de métadonnées DITA** .
+1. Sélectionnez l’option **Activer l’extraction de métadonnées DITA** .
 
 1. Cliquez sur **Enregistrer**.
 
@@ -215,13 +220,13 @@ Effectuez les étapes suivantes pour exécuter le workflow d’extraction de mé
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 
-1. Cliquez sur le bouton **Adobe Experience Manager** lien dans la partie supérieure et choisissez **Outils**.
+1. Cliquez sur le lien **Adobe Experience Manager** dans la partie supérieure et sélectionnez **Outils**.
 
-1. Sélectionner **Guides** dans la liste des outils, puis cliquez sur l’icône **Extraction de métadonnées DITA** mosaïque.
+1. Sélectionnez **Guides** dans la liste des outils et cliquez sur la mosaïque **Extraction de métadonnées DITA** .
 
-1. Si vous souhaitez extraire les métadonnées d’un seul fichier et de ses dépendances, cliquez sur le bouton **Sélectionner un fichier** et recherchez un fichier.
+1. Si vous souhaitez extraire les métadonnées d’un seul fichier et de ses dépendances, cliquez sur le lien **Sélectionner un fichier** et recherchez un fichier.
 
-1. Si vous souhaitez extraire des métadonnées de plusieurs fichiers dans un dossier, cliquez sur le bouton **Sélectionnez Dossier\(s\)** , recherchez et sélectionnez le dossier requis. Cliquez sur le bouton **Ajouter** pour ajouter le dossier à la liste des tâches de sérialisation.
+1. Si vous souhaitez extraire des métadonnées de plusieurs fichiers dans un dossier, cliquez sur le lien **Sélectionner un dossier\(s\)**, recherchez et sélectionnez le dossier requis. Cliquez sur le bouton **Ajouter** pour ajouter le dossier à la liste des tâches de sérialisation.
 
    >[!NOTE]
    >
@@ -236,7 +241,7 @@ Effectuez les étapes suivantes pour exécuter le workflow d’extraction de mé
 
 Par défaut, la recherche est effectuée sur l’ensemble du référentiel d’AEM. Il peut y avoir certains emplacements que vous souhaitez exclure de la recherche. Par exemple, lorsque vous lancez le processus de traduction de contenu, les fichiers non approuvés restent dans un emplacement de dossier temporaire. Lorsque vous effectuez la recherche, les fichiers de cet emplacement temporaire sont également renvoyés dans les résultats de la recherche.
 
-Pour empêcher AEM Guides de rechercher l’emplacement du dossier de traduction temporaire, vous devez ajouter un emplacement de dossier temporaire dans la liste d’exclusion.
+Pour empêcher AEM Guides de rechercher l’emplacement du dossier de traduction temporaire, vous devez ajouter l’emplacement du dossier temporaire dans la liste d’exclusion.
 
 Pour exclure le dossier de traduction temporaire de la recherche, procédez comme suit :
 

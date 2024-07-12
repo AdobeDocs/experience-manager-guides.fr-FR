@@ -1,5 +1,5 @@
 ---
-title: Fonction de publication native d’un PDF | Utilisation de JavaScript pour utiliser du contenu ou du style
+title: Fonctionnalité Publish du PDF natif | Utilisation de JavaScript pour utiliser du contenu ou du style
 description: Découvrez comment créer des feuilles de style et créer des styles pour votre contenu.
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
 feature: Output Generation
@@ -14,12 +14,12 @@ ht-degree: 1%
 
 # Utilisation de JavaScript pour utiliser du contenu ou du style
 
-La fonction Publication de PDF natif vous permet d’exécuter JavaScript pour manipuler le contenu ou le style appliqué au contenu avant la génération du PDF final. Cette fonctionnalité vous permet de contrôler entièrement la manière dont votre sortie finale est générée. Par exemple, vous pouvez ajouter des informations d’avis juridique à la sortie du PDF, qui réside dans un autre PDF. En utilisant JavaScript, vous pouvez ajouter les informations de notification légale une fois le PDF créé pour le contenu de base, mais avant la génération du PDF final.\
-Pour prendre en charge l’exécution JavaScript, la fonction Publication de PDF natif vous donne les fonctions de rappel suivantes :
+La fonction Publication de PDF natif vous permet d’exécuter JavaScript pour manipuler le contenu ou le style appliqué au contenu avant la génération du PDF final. Cette fonctionnalité vous permet de contrôler entièrement la manière dont votre sortie finale est générée. Par exemple, vous pouvez ajouter des informations d’avis juridique à la sortie du PDF, qui réside dans un autre PDF. JavaScript vous permet d’ajouter les informations d’avis juridique une fois le PDF créé pour le contenu de base, mais avant la génération du PDF final.\
+Pour prendre en charge l’exécution de JavaScript, la fonction Publication de PDF natif vous donne les fonctions de rappel suivantes :
 
-* `window.pdfLayout.onBeforeCreateTOC(callback)`: cette fonction de rappel est exécutée avant la génération de la table des matières.
-* `window.pdfLayout.onBeforePagination(callback)`: cette fonction de rappel est exécutée après la génération de la table des matières, mais avant l’ajout de sauts de page dans le PDF.
-* `window.pdfLayout.onAfterPagination(callback)`: cette fonction de rappel est exécutée après l’ajout de la table des matières et des sauts de page dans le PDF.
+* `window.pdfLayout.onBeforeCreateTOC(callback)` : Cette fonction de rappel est exécutée avant la génération de la table des matières.
+* `window.pdfLayout.onBeforePagination(callback)` : Cette fonction de rappel est exécutée après la génération de la table des matières, mais avant l’ajout de sauts de page dans le PDF.
+* `window.pdfLayout.onAfterPagination(callback)` : Cette fonction de rappel est exécutée après la table des matières et les sauts de page ajoutés dans le PDF.
 
 >[!NOTE]
 >
@@ -30,8 +30,8 @@ En fonction du type de contenu ou de modification de style que vous souhaitez ef
 Dans l&#39;exemple suivant, la position des titres des illustrations est changée de au-dessus des images en dessous des images. Pour cela, vous devez activer l’option Exécution JavaScript dans le paramètre prédéfini. Pour ce faire, procédez comme suit :
 
 1. Ouvrez le paramètre prédéfini à modifier.
-1. Accédez au **Avancé** .
-1. Sélectionnez la variable **Activer JavaScript** .
+1. Accédez à l’onglet **Avancé** .
+1. Sélectionnez l’option **Activer JavaScript** .
 1. Enregistrez le paramètre prédéfini et fermez-le.
 
 Créez ensuite un fichier JavaScript avec le code suivant et enregistrez-le dans le dossier Ressources de votre modèle :
@@ -63,9 +63,9 @@ window.addEventListener('DOMContentLoaded', function () {
 
 >[!NOTE]
 >
->La variable `window.addEventListener('DOMContentLoaded', function ()` doit être appelée avant l’utilisation des fonctions de rappel.
+>La fonction `window.addEventListener('DOMContentLoaded', function ()` doit être appelée avant l’utilisation des fonctions de rappel.
 
-Ensuite, ce script doit être appelé à partir d’un fichier de modèle utilisé pour générer la sortie du PDF. Dans notre exemple, nous l’ajouterons dans le modèle de table des matières. Assurez-vous que la variable `<script>` est ajoutée dans une balise prédéfinie `<div>` dans la balise `<body>` balise . Si vous l’ajoutez dans la variable `<head>` ou en dehors de la balise `<body>` , le script ne s’exécutera pas.
+Ensuite, ce script doit être appelé à partir d’un fichier de modèle utilisé pour générer la sortie du PDF. Dans notre exemple, nous l’ajouterons dans le modèle de table des matières. Assurez-vous que la balise `<script>` est ajoutée dans une balise `<div>` prédéfinie à l’intérieur de la balise `<body>`. Si vous l’ajoutez dans la balise `<head>` ou en dehors de la balise `<body>`, le script ne s’exécutera pas.
 
 <img src="./assets/js-added-resources-template.png" width="500">
 
@@ -101,6 +101,6 @@ window.addEventListener('DOMContentLoaded', function () {
 ...
 ```
 
-La sortie du PDF générée à l’aide de ce code affiche un filigrane. *Version préliminaire* sur la page de garde de votre document :
+La sortie du PDF générée à l’aide de ce code affiche un filigrane *Draft* sur la page de garde de votre document :
 
 <img src="./assets/draft-watermark.png" width="500">

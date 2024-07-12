@@ -1,6 +1,6 @@
 ---
-title: Notes de mise à jour | Instructions de mise à niveau et problèmes résolus dans la version 4.2.1 des guides Adobe Experience Manager
-description: Découvrez les correctifs et comment mettre à niveau vers les versions 4.2.1 des Guides Adobe Experience Manager.
+title: Notes de mise à jour | Instructions de mise à niveau et problèmes résolus dans la version 4.2.1 d’Adobe Experience Manager Guides
+description: Découvrez les correctifs et comment mettre à niveau vers les versions 4.2.1 d’Adobe Experience Manager Guides
 exl-id: a75ec83f-564b-4243-b5c5-341049521adb
 feature: Release Notes
 role: Leader
@@ -11,40 +11,41 @@ ht-degree: 1%
 
 ---
 
-# Version 4.2.1 des guides Adobe Experience Manager (mai 2023)
+# Version 4.2.1 d’Adobe Experience Manager Guides (mai 2023)
 
-Cette note de mise à jour traite des instructions de mise à niveau, de la matrice de compatibilité et des problèmes résolus dans la version 4.2.1 des Guides Adobe Experience Manager (appelée ultérieurement *Guides d’AEM*).
+Cette note de mise à jour traite des instructions de mise à niveau, de la matrice de compatibilité et des problèmes résolus dans la version 4.2.1 d’Adobe Experience Manager Guides (appelée ultérieurement *AEM Guides*).
 
-Pour plus d’informations sur les nouvelles fonctionnalités et améliorations, voir [Nouveautés de la version 4.2.1 des guides Adobe Experience Manager](whats-new-4-2-1-release.md).
+Pour plus d’informations sur les nouvelles fonctionnalités et améliorations, voir [Nouveautés de la version 4.2.1 d’Adobe Experience Manager Guides](whats-new-4-2-1-release.md).
 
-## Mise à niveau vers la version 4.2.1 des Guides AEM
+## Mise à niveau vers la version 4.2.1 d’AEM Guides
 
 
-Vous pouvez facilement mettre à niveau votre version actuelle des AEM Guides vers la version 4.2.1. Avant de procéder à la mise à niveau vers la version 4.2.1 des AEM Guides, vous devez tenir compte des points suivants : Vous pouvez mettre à niveau votre version actuelle d’Guides vers la version 4.2.1.
+Vous pouvez facilement mettre à niveau votre version actuelle d’AEM Guides vers la version 4.2.1. Avant de procéder à la mise à niveau vers la version 4.2.1 d’AEM Guides, vous devez tenir compte des points suivants :
+Vous pouvez mettre à niveau votre version actuelle d’AEM Guides vers la version 4.2.1.
 * Si vous utilisez la version 4.1, 4.1.x ou 4.2, vous pouvez directement effectuer la mise à niveau vers la version 4.2.1.
 * Si vous utilisez la version 4.0, vous devez effectuer la mise à niveau vers la version 4.2 avant de passer à la version 4.2.1.
 * Si vous utilisez la version 3.8.5, vous devez effectuer la mise à niveau vers la version 4.0 avant de passer à la version 4.2.
-* Si vous utilisez une version antérieure à 3.8.5, reportez-vous à la section Guides d’AEM de mise à niveau du guide d’installation spécifique au produit.
+* Si vous utilisez une version antérieure à 3.8.5, reportez-vous à la section Mise à niveau d’AEM Guides du guide d’installation spécifique au produit.
 
 >[!NOTE]
 >
->Vous devez installer AEM Service Pack avant de mettre à niveau AEM version de Guides.
+>Vous devez installer AEM Service Pack avant de mettre à niveau la version d’AEM Guides.
 
 Pour plus d’informations, voir [Instructions de mise à niveau](../install-guide/upgrade-xml-documentation.md).
 
 ## Matrice de compatibilité
 
-Cette section répertorie le tableau de compatibilité des applications logicielles prises en charge par AEM Guides 4.2. Version 1.
+Cette section répertorie la matrice de compatibilité des applications logicielles prises en charge par AEM Guides 4.2. Version 1.
 
 ### Adobe Experience Manager
 
-**Non UUID**
+**Non-UUID**
 Version 6.5 Service Pack 15, 14, 13 ou 12
 
-**UUID**
+**UID**
 Version 6.5 Service Pack 15, 14, 13 ou 12
 
-Pour plus d’informations, voir *Exigences techniques* dans le guide d’installation et de configuration de Adobe Experience Manager Guides.
+Pour plus d’informations, voir la section *Exigences techniques* du guide Installation et configuration d’Adobe Experience Manager Guides.
 
 ### FrameMaker et FrameMaker Publishing Server
 
@@ -82,7 +83,7 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 * Le navigateur (éditeur web) se bloque lors du chargement de contenu avec un schéma personnalisé. (11211)
 * PDF natif | Lors de la création d’un paramètre prédéfini de sortie avec l’option &quot;Ajouter au profil de dossier&quot;, la génération du PDF échoue avec une exception de pointeur de valeur NULL. (10950)
 * PDF natif | La balise d’image ajoute un attribut display-inline à toutes les images. 10653)
-* L’insertion pour les fichiers multimédia audio et vidéo échoue au format YouTube sous le **Insérer du contenu multimédia** Icône (11320)
+* L’insertion des fichiers multimédia audio et vidéo échoue au format YouTube sous l’icône **Insérer le multimédia** . (11320)
 * Une erreur de validation se produit lorsqu’une map est créée à l’aide du modèle qui comporte un élément de titre spécialisé. (11212)
 * Éditeur web | Un espace insécable est ajouté dans l’éditeur XML lors de la modification d’une rubrique. (11786)
 
@@ -96,14 +97,14 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 ### Publication
 
 * PDF natif | La publication de contenu comportant une classe de sortie avec crochets () entraîne un gel de publication. (11936)
-* Sortie JSON | Mappage des métadonnées dont la valeur de propriété est `"value in spaces and double quotes"` génère une erreur de publication. (11933)
+* Sortie JSON | Les métadonnées de mappage dont la valeur de propriété est `"value in spaces and double quotes"` entraînent une erreur de publication. (11933)
 * Le problème se produit dans AEM recherche de site (ne fonctionne pas au-delà des noeuds de 2 à 3 niveaux). (11352)
 * Éditeur web | Le chemin de sortie et le modèle ne peuvent pas être sélectionnés dans le paramètre prédéfini AEM. (11530)
 * Lors de la mise à niveau de la version 4.1.x vers la version 4.2, le moteur de PDF natif ne fonctionne pas et renvoie NullPointerException même pour le système d’exploitation pris en charge.(11526)
 * Le processus du PDF de téléchargement ne fonctionne pas correctement dans l’éditeur web. (11496)
 * PDF natif | Les commentaires en version préliminaire sont masqués par défaut dans la sortie générée. (10560)
 * PDF natif | navtitle n’est pas honoré pour topichead. 10509)
-* PDF natif | Ajouter `xref` à une image n’effectue pas le rendu de l’image sur le PDF généré. (11346)
+* PDF natif | L’ajout de `xref` à une image n’effectue pas le rendu de l’image sur le PDF généré. (11346)
 * PDF natif | la note de bas de page présente dans l’en-tête du tableau pour afficher le texte en gras aligné au centre dans le pied de page correspondant dans la sortie du PDF. (10610)
 
 ### Traduction

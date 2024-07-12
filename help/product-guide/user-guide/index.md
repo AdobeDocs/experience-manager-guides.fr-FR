@@ -5,12 +5,12 @@ source-wordcount: '409'
 ht-degree: 4%
 
 ---
-# Utilisation des guides Adobe Experience Manager as a Cloud Service
+# Utilisation d’Adobe Experience Manager Guides as a Cloud Service
 
 - [Clause de non-responsabilité](rebranding-disclaimer.md)
-- [À propos des guides Adobe Experience Manager as a Cloud Service](intro.md)
-   - [Fonctionnement des AEM Guides](intro-how-dxml-works.md)
-   - [Principales fonctionnalités des AEM Guides](intro-dxml-features.md)
+- [A propos d’Adobe Experience Manager Guides as a Cloud Service](intro.md)
+   - [Fonctionnement d’AEM Guides](intro-how-dxml-works.md)
+   - [Principales fonctionnalités d’AEM Guides](intro-dxml-features.md)
 - [Gestion du contenu](authoring.md)
    - [Charger des fichiers](authoring-upload-existing-files.md)
    - [Gestion des fichiers et des dossiers](authoring-file-management.md)
@@ -19,7 +19,7 @@ ht-degree: 4%
    - [Création et prévisualisation des rubriques](create-preview-topics.md)
       - [Création de rubriques](web-editor-create-topics.md)
       - [Aperçu d’une rubrique](web-editor-preview-topics.md)
-   - [Création de contenu à l’aide des AEM Guides](authoring-content-xml-doc.md)
+   - [Création de contenu à l’aide d’AEM Guides](authoring-content-xml-doc.md)
       - [Utilisation de l’éditeur web](web-editor.md)
          - [Lancement de l’éditeur web](web-editor-launch-editor.md)
          - [Modification des rubriques dans l’éditeur web](web-editor-edit-topics.md)
@@ -78,7 +78,7 @@ ht-degree: 4%
    - [Utilisation de la ligne de base](generate-output-use-baseline-for-publishing.md)
    - [Générer la sortie d’un mappage DITA à partir de la console de mappage](generate-output-for-a-dita-map.md)
    - [Utilisation de la collecte des cartes pour la génération de la sortie](generate-output-use-map-collection-output-generation.md)
-   - [Gestion des tâches de publication à l’aide du tableau de bord de publication](generate-output-publish-dashboard.md)
+   - [Gestion des tâches de publication à l’aide du tableau de bord Publish](generate-output-publish-dashboard.md)
    - [Résolution des problèmes de base](generate-output-basic-troubleshooting.md)
    - [Activation en masse de contenu publié](conf-bulk-activation.md)
       - [Création d’une collection de cartes d’activation en bloc](conf-bulk-activation-create-map-collection.md)

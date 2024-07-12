@@ -5,8 +5,8 @@ source-wordcount: '15'
 ht-degree: 6%
 
 ---
-# Module externe Oxygen pour les guides Adobe Experience Manager
+# Module externe Oxygen pour Adobe Experience Manager Guides
 
 - [Clause de non-responsabilité](rebranding-disclaimer.md)
-- [Module externe Oxygen pour les guides Adobe Experience Manager](use-aem-connector.md)
+- [Module externe Oxygen pour Adobe Experience Manager Guides](use-aem-connector.md)
 

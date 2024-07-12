@@ -45,7 +45,7 @@ Dans notre application, chaque vue est définie à l’aide d’un JSON. Les fic
 
 Le contrôleur est utilisé pour gérer les événements et traiter les données. Le contrôleur est utilisé pour récupérer et envoyer des données à partir du serveur. Il s’agit de l’interface entre ce qui s’affiche sur l’interface utilisateur et ce qui est stocké sur le serveur principal.
 
-- Pour définir des valeurs lors de l’initialisation, nous utilisons la variable `init` de la fonction
+- Pour définir des valeurs lors de l’initialisation, nous utilisons la fonction `init` .
 - Pour ajouter une méthode au contrôleur, nous utilisons la syntaxe suivante :
 
 ```typescript
@@ -54,7 +54,7 @@ methodName: function(args){
 }
 ```
 
-La variable `methodName` ici sert de `key` pour référencer la méthode dans le JSON (vue) ou dans d’autres fonctions
+`methodName` sert ici de `key` pour référencer la méthode dans le JSON (vue) ou dans d’autres fonctions.
 
 - Pour appeler une méthode dans le contrôleur, nous utilisons la syntaxe
 
@@ -69,7 +69,7 @@ Nous ajouterons un bouton qui change sa valeur de libellé en un clic
 
 ### Exemple d’affichage
 
-Nous définissons ci-dessous le code JSON d’un bouton qui affiche un texte dynamique stocké dans le modèle sous le nom de variable. `buttonLabel`.
+Nous définissons ci-dessous le JSON d’un bouton qui affiche un texte dynamique stocké dans le modèle sous le nom de variable `buttonLabel`.
 Dans cet exemple, cliquer sur le bouton modifie son libellé.
 
 ```JSON
@@ -83,7 +83,7 @@ Dans cet exemple, cliquer sur le bouton modifie son libellé.
 
 ### Exemple de modèle
 
-dans ce cas, `extraProps.buttonLabel` contient le libellé du bouton ;
+dans ce cas, `extraProps.buttonLabel` contient le libellé du bouton.
 
 ### Exemple de contrôleur
 
@@ -101,4 +101,4 @@ dans ce cas, `extraProps.buttonLabel` contient le libellé du bouton ;
 ```
 
 Le GIF ci-dessous affiche le code ci-dessus en action.
-![basic_customization](imgs/basic_customisation.gif "Bouton de personnalisation de base")
+![basic_customisation](imgs/basic_customisation.gif "Bouton de personnalisation de base")

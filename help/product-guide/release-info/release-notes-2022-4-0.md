@@ -1,6 +1,6 @@
 ---
 title: Notes de mise à jour | Adobe Experience Manager Guides as a Cloud Service, version d’avril 2022
-description: Version d’avril des guides Adobe Experience Manager as a Cloud Service
+description: Version d’avril d’Adobe Experience Manager Guides as a Cloud Service
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
 feature: Release Notes
 role: Leader
@@ -11,18 +11,18 @@ ht-degree: 0%
 
 ---
 
-# Version d’avril des guides Adobe Experience Manager as a Cloud Service
+# Version d’avril d’Adobe Experience Manager Guides as a Cloud Service
 
 ## Mise à niveau vers la version d’avril
 
-Mettre à niveau votre [!DNL Adobe Experience Manager Guides] as a Cloud Service (plus tard appelé *[!DNL AEM Guides]as a Cloud Service*) en procédant comme suit :
+Mettez à niveau votre configuration actuelle [!DNL Adobe Experience Manager Guides] as a Cloud Service (plus tard appelée *[!DNL AEM Guides]as a Cloud Service*) en procédant comme suit :
 1. Extrayez le code Git des Cloud Service et passez à la branche configurée dans le pipeline Cloud Service correspondant à l’environnement que vous souhaitez mettre à niveau.
-1. Mettre à jour `<dox.version>` dans `/dox/dox.installer/pom.xml` du code Git Cloud Service vers la version 2022.4.133.
+1. Mettez à jour la propriété `<dox.version>` du fichier `/dox/dox.installer/pom.xml` de votre code Git Cloud Service vers la version 2022.4.133.
 1. Validez les modifications et exécutez le pipeline Cloud Service pour effectuer la mise à niveau vers la version d’avril de [!DNL AEM Guides] as a Cloud Service.
 
 ## Matrice de compatibilité
 
-Cette section répertorie la matrice de compatibilité des applications logicielles prises en charge par [!DNL AEM Guides] Version as a Cloud Service d’avril 2022.
+Cette section répertorie la matrice de compatibilité des applications logicielles prises en charge par la version as a Cloud Service de [!DNL AEM Guides] d’avril 2022.
 
 ### FrameMaker et FrameMaker Publishing Server
 
@@ -34,7 +34,7 @@ Cette section répertorie la matrice de compatibilité des applications logiciel
 
 ### Connecteur Oxygen
 
-| Version d’AEM Guides Cloud | Fenêtres du connecteur Oxygen | Mac du connecteur Oxygen |
+| Version AEM Guides Cloud | Fenêtres du connecteur Oxygen | Mac du connecteur Oxygen |
 | --- | --- | --- |
 | 2022.4.0 | 2.5.6 | 2.5.6 |
 |  |  |  |
@@ -57,15 +57,15 @@ Désormais, les références clés sont résolues sur la base de la carte racine
 1. Panneau Vue Carte
 1. Profil de dossier
 
-Pour plus d’informations, voir *Résoudre les références de clés* dans le guide de l’utilisateur.
+Pour plus d’informations, voir la section *Résoudre les références de clé* dans le guide de l’utilisateur.
 
 ### Ajouter un panneau personnalisé dans le panneau de gauche
 
-Vous pouvez maintenant ajouter un panneau personnalisé dans le panneau de gauche de l’éditeur Web. Vous pouvez utiliser un panneau personnalisé à diverses fins, par exemple pour fournir de l’aide ou effectuer les tests pour un projet. Si un panneau personnalisé a été configuré, il apparaît également dans la liste des panneaux de la variable **Paramètres de l’éditeur**. Vous pouvez activer ou désactiver le commutateur pour afficher ou masquer le panneau personnalisé.
+Vous pouvez maintenant ajouter un panneau personnalisé dans le panneau de gauche de l’éditeur Web. Vous pouvez utiliser un panneau personnalisé à diverses fins, par exemple pour fournir de l’aide ou effectuer les tests pour un projet. Si un panneau personnalisé a été configuré, il apparaît également dans la liste des panneaux dans les **Paramètres de l’éditeur**. Vous pouvez activer ou désactiver le commutateur pour afficher ou masquer le panneau personnalisé.
 
 ### Possibilité de modifier l’état du document des rubriques dans un mappage DITA
 
-Vous pouvez désormais facilement modifier l’état du document des rubriques sélectionnées dans un mappage DITA. Vous pouvez également ouvrir et modifier les propriétés des rubriques sélectionnées dans un mappage DITA à partir du **Plus d’options** au bas du panneau Vue Carte.
+Vous pouvez désormais facilement modifier l’état du document des rubriques sélectionnées dans un mappage DITA. Vous pouvez également ouvrir et modifier les propriétés des rubriques sélectionnées dans un mappage DITA à partir du menu **Plus d’options** au bas du panneau Vue de carte.
 
 ![propriétés de rubrique sélectionnées](assets/map-view-properties.png)
 
@@ -87,7 +87,7 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 * Des problèmes se produisent lorsqu’un mot-clé est utilisé dans le titre de l’onglet . (9318)
 * La ligne de base échoue lors de l’ajout d’un libellé avec des espaces. (9362)
 * AEM sortie du site n’affiche pas correctement l’élément glossusages . (8936)
-* L’erreur de la console se produit lors de l’ouverture de **Sortie** dans l’éditeur Web. (8715)
+* Une erreur de console se produit lors de l’ouverture de l’onglet **Output** dans l’éditeur web. (8715)
 * Le message d’erreur affiché lors de la publication d’un type d’enregistrement manuel via Salesforce n’est pas intuitif. (8952)
 * Le paramètre Valider avec des attributs de condition n’est pas ouvert immédiatement. À la place, l’utilisateur doit rouvrir le fichier pour afficher les validations. (9300)
 * Les métadonnées ne peuvent pas être supprimées une fois qu’un mappage DITA est publié avec des métadonnées.  (9178)
@@ -100,7 +100,7 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 
 ## Problèmes connus
 
-Adobe a identifié le problème connu suivant dans la variable [!DNL AEM Guides] Version as a Cloud Service d’avril.
+Adobe a identifié le problème connu suivant dans la version d’avril as a Cloud Service de [!DNL AEM Guides].
 
 * L’éditeur web ne signale pas d’erreur lorsque plusieurs lignes de base sont créées avec le même nom, mais qu’elles présentent des différences d’espace ou de casse. Par exemple, &quot;adobe&quot; et &quot;Adobe&quot; ou &quot;Adobe&quot;.
 * Le connecteur Oxygen se bloque par intermittence lors d’une connexion ou d’une déconnexion fréquentes ou d’un changement entre différents types d’authentification.

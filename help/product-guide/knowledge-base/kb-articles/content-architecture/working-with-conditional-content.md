@@ -24,21 +24,25 @@ ht-degree: 5%
 
 **Étape 1**
 
-Définissez les conditions relatives à la documentation dans [!UICONTROL Profils de dossier]: voir la section **Configuration d’attributs conditionnels pour les profils globaux ou au niveau du dossier** in [Page 69 du Guide d&#39;installation et de configuration](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
+Définissez les conditions relatives à la documentation dans les [!UICONTROL profils de dossier] :
+Reportez-vous à la section **Configuration d’attributs conditionnels pour les profils globaux ou au niveau du dossier** dans la [page 69 du Guide d’installation et de configuration](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
 
 ![Configuration de conditions dans les profils de dossier](assets/conditions-in-profiles.png)
 
 **Étape 2**
 
-Sélectionnez la variable **[!UICONTROL Profil de dossier]** défini à l’étape 1 de la section **Préférences utilisateur** dans XML Editor : voir la section **Préférences utilisateur** in [Page 41 du Guide de l’utilisateur](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+Sélectionnez le **[!UICONTROL profil de dossier]** défini à l’étape 1 dans **Préférences utilisateur** dans l’éditeur XML :
+Reportez-vous à la section **Préférences utilisateur** dans la [page 41 du Guide de l’utilisateur](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
 
 
 **Étape 3**
 
-Utiliser les conditions pour conditionnaliser les sections de contenu : voir la section **Conditions** in [Page 90 du guide de l’utilisateur](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+Utilisez les conditions pour conditionner les sections de contenu :
+Reportez-vous à la section **Conditions** de la [page 90 du Guide de l’utilisateur](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
 
 ![Conditions d’utilisation dans l’éditeur web](assets/conditions-in-web-editor.png)
 
 **Étape 4**
 
-Définissez des paramètres prédéfinis de condition au niveau du mappage pour choisir les conditions à activer dans la sortie : voir la section **Utilisation des paramètres de condition prédéfinis** in [Page 249 du Guide de l’utilisateur](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+Définissez des paramètres prédéfinis de condition au niveau du mappage pour choisir les conditions à activer dans la sortie :
+Reportez-vous à la section **Utiliser des paramètres prédéfinis de condition** dans la [page 249 du Guide de l’utilisateur](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)

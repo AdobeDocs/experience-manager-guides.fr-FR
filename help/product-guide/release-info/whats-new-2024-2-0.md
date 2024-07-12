@@ -1,22 +1,22 @@
 ---
-title: Notes de mise à jour | Nouveautés des Guides de Adobe Experience Manager, version 2024.2.0
-description: Découvrez les nouvelles fonctionnalités et les fonctionnalités améliorées de la version 2024.2.0 de Adobe Experience Manager Guides as a Cloud Service.
+title: Notes de mise à jour | Nouveautés de la version 2024.2.0 d’Adobe Experience Manager Guides
+description: Découvrez les nouvelles fonctionnalités et les fonctionnalités améliorées de la version 2024.2.0 d’Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 234d430a-d775-484a-aea8-6e422b0a01eb
 source-git-commit: b1bb2b9da71bf0551fe40c84ac382df0e78e007b
 workflow-type: tm+mt
 source-wordcount: '1066'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 # Nouveautés de la version 2024.2.0
 
-Cet article couvre les nouvelles fonctionnalités et les fonctionnalités améliorées de la version 2024.2.0 des Guides Adobe Experience Manager.
+Cet article couvre les nouvelles fonctionnalités et les fonctionnalités améliorées de la version 2024.2.0 d’Adobe Experience Manager Guides.
 
-Pour connaître la liste des problèmes résolus dans cette version, consultez [Correction de problèmes dans la version 2024.2.0](fixed-issues-2024-2-0.md).
+Pour connaître la liste des problèmes résolus dans cette version, voir la section [Problèmes résolus dans la version 2024.2.0](fixed-issues-2024-2-0.md).
 
 
-En savoir plus [instructions de mise à niveau pour la version 2024.2.0](upgrade-instructions-2024-2-0.md).
+Découvrez les [instructions de mise à niveau pour la version 2024.2.0](upgrade-instructions-2024-2-0.md).
 
 
 
@@ -36,59 +36,60 @@ Vous pouvez également comparer le contenu actuel au contenu similaire dans les 
 
 L’utilisation de cette fonctionnalité intelligente réduit l’effort manuel de recherche de contenu associé et vous aide à vous concentrer sur la création de contenu.  Il permet également de maintenir la cohérence et de faciliter une meilleure collaboration entre les équipes.
 
-En savoir plus sur [Suggestions intelligentes optimisées par l’IA pour créer du contenu](../user-guide/authoring-ai-based-smart-suggestions.md).
+En savoir plus sur les [suggestions intelligentes optimisées par l’IA pour créer du contenu](../user-guide/authoring-ai-based-smart-suggestions.md).
 
 ## Fonctionnalité d’historique des versions restructurée de l’éditeur web
 
-Désormais, Experience Manager Guides fournit une fonctionnalité d’historique des versions améliorée qui vous permet de comparer les modifications apportées à un document au fil du temps. Dans la nouvelle vue côte à côte, vous pouvez facilement comparer le contenu et les métadonnées de la version actuelle à n’importe quelle version précédente du même document. Vous pouvez également afficher les libellés et les commentaires pour les versions comparées. En tant qu’administrateur, vous pouvez contrôler les métadonnées de version de la rubrique et leurs valeurs à afficher dans le **Historique des versions** de la boîte de dialogue
+Experience Manager Guides propose désormais une fonctionnalité d’historique des versions améliorée qui permet de comparer les modifications apportées à un document au fil du temps. Dans la nouvelle vue côte à côte, vous pouvez facilement comparer le contenu et les métadonnées de la version actuelle à n’importe quelle version précédente du même document. Vous pouvez également afficher les libellés et les commentaires pour les versions comparées. En tant qu’administrateur, vous pouvez contrôler les métadonnées de version de la rubrique et leurs valeurs à afficher dans la boîte de dialogue **Historique de version**.
 
-![Boîte de dialogue Historique des versions](assets/version-history-dialog-web-editor.png){width="800" align="left"}
+![Boîte de dialogue Historique de version](assets/version-history-dialog-web-editor.png){width="800" align="left"}
 *Prévisualisez les modifications dans les différentes versions d’une rubrique.*
 
 
-En savoir plus sur les **Historique des versions** description des fonctionnalités dans la section [Panneau gauche](../user-guide/web-editor-features.md#id2051EA0M0HS) .
+Pour en savoir plus sur la description de la fonctionnalité **Version History** dans la section [Panneau de gauche](../user-guide/web-editor-features.md#id2051EA0M0HS) .
 
 ## Amélioration de l’expérience utilisateur dans le panneau Traduction
 
-La variable **Traduction** a été amélioré.  Vous pouvez afficher la **Langues disponibles** répertoriez et sélectionnez rapidement les paramètres régionaux dans lesquels vous souhaitez traduire votre projet. Avec une sélection unique, vous pouvez également choisir **Tout sélectionner** pour traduire votre projet dans toutes les langues disponibles.
+Le panneau **Traduction** a été amélioré.  Vous pouvez afficher la liste **Langues disponibles** et sélectionner rapidement les paramètres régionaux dans lesquels vous souhaitez traduire votre projet. Avec une sélection unique, vous pouvez également choisir **Sélectionner tout** pour traduire votre projet dans toutes les langues disponibles.
 
-![panneau de traduction](assets/translation-languages-4.4.png){width="300" align="left"}
+![Panneau de traduction](assets/translation-languages-4.4.png){width="300" align="left"}
 
-*Sélectionnez les paramètres régionaux dans lesquels vous souhaitez traduire votre projet. Choisissez la version par défaut, la ligne de base ou la dernière version des fichiers à traduire.*
+*Sélectionnez les paramètres régionaux dans lesquels vous souhaitez traduire votre projet. Sélectionnez la version par défaut, la ligne de base ou la dernière version des fichiers à traduire.*
 
-En savoir plus sur la manière de procéder [traduire le contenu](../user-guide/translation.md).
+Découvrez comment [traduire le contenu](../user-guide/translation.md).
 
 
 ## Amélioration de la logique de recherche dans la boîte de dialogue Insérer l’élément
 
 Vous pouvez désormais facilement trouver les éléments dans la boîte de dialogue Insérer un élément .  Vous pouvez saisir une chaîne dans la zone de recherche et obtenir la liste de tous les éléments valides qui commencent par la chaîne saisie.
 
-Par exemple, lors de la modification d’un paragraphe que vous souhaitez insérer, vous pouvez rechercher un caractère &quot;t&quot; pour obtenir tous les éléments valides commençant par &quot;t&quot;.
+Par exemple, lors de la modification d’un paragraphe que vous souhaitez insérer, vous pouvez rechercher un caractère &quot;t&quot; pour obtenir
+tous les éléments valides commençant par &quot;t&quot;.
 
 
-![Boîte de dialogue Insérer](assets/insert-element.png){width="300" align="left"}
+![Boîte de dialogue d’insertion](assets/insert-element.png){width="300" align="left"}
 
 *Saisissez un caractère pour rechercher tous les éléments valides commençant par le caractère.*
 
 
-Pour plus d’informations, voir la **Insérer un élément** description des fonctionnalités dans la section [Panneau gauche](../user-guide/web-editor-features.md#id2051EA0M0HS) .
+Pour plus d’informations, consultez la description de la fonctionnalité **Insérer l’élément** dans la section [Panneau de gauche](../user-guide/web-editor-features.md#id2051EA0M0HS) .
 
 
 ## Possibilité de fractionner la liste actuelle et de commencer avec un nouvel élément de liste au même niveau
 
-Vous pouvez désormais facilement fractionner votre liste dans l’éditeur Web. Sélectionnez la variable **Diviser la liste** dans le menu contextuel d’un élément de liste pour fractionner la liste active. Une nouvelle liste est créée au même niveau, en commençant par l’élément de liste que vous avez sélectionné pour le partage.
+Vous pouvez désormais facilement fractionner votre liste dans l’éditeur Web. Sélectionnez l’option **Diviser la liste** dans le menu contextuel d’un élément de liste pour fractionner la liste actuelle. Une nouvelle liste est créée au même niveau, en commençant par l’élément de liste que vous avez sélectionné pour le partage.
 
-![panneau de traduction](assets/context-menu-split-list.png){width="300" align="left"}
+![Panneau de traduction](assets/context-menu-split-list.png){width="300" align="left"}
 
-*Sélectionnez l’option pour fractionner la liste active.*
+*Sélectionnez l’option pour fractionner la liste actuelle.*
 
-Pour plus d’informations, voir la **Insérer une liste** description des fonctionnalités dans la section [Panneau gauche](../user-guide/web-editor-features.md#id2051EA0M0HS) .
+Pour plus d’informations, consultez la description de la fonctionnalité **Insérer la liste** dans la section [Panneau de gauche](../user-guide/web-editor-features.md#id2051EA0M0HS) .
 
 ## Accès aux propriétés de fichier dans le mode source de création
 
-Vous pouvez maintenant accéder au **Propriétés du fichier** dans les quatre modes ou modes : Disposition, Auteur, Source et Aperçu.  Vous pouvez ainsi afficher les propriétés de votre fichier même lorsque vous passez d’un mode à l’autre.
+Vous pouvez désormais accéder à la fonction **Propriétés du fichier** du panneau de droite dans les quatre modes ou vues : Disposition, Auteur, Source et Aperçu.  Vous pouvez ainsi afficher les propriétés de votre fichier même lorsque vous passez d’un mode à l’autre.
 
-Pour plus d’informations, voir la **Propriétés du fichier** description des fonctionnalités dans la section [Panneau droit](../user-guide/web-editor-features.md#id2051EB003YK) .
+Pour plus d’informations, consultez la description de la fonctionnalité **Propriétés du fichier** dans la section [Panneau de droite](../user-guide/web-editor-features.md#id2051EB003YK) .
 
 ## Possibilité de publier plusieurs paramètres prédéfinis de sortie avec des lignes de base dynamiques en parallèle
 
@@ -106,18 +107,18 @@ Dans le paramètre prédéfini de sortie du PDF natif, vous pouvez choisir les m
 
 Cette fonctionnalité est pratique, car elle vous permet de préserver la cohérence de vos propriétés de ressources telles que l’auteur, la date de création ou le titre du document. Cela facilite l’organisation, la recherche et la catégorisation de vos documents.
 
-Pour plus d’informations, voir la **Avancé** dans le [Sortie du PDF de publication](../web-editor/native-pdf-web-editor.md).
+Pour plus d’informations, consultez les paramètres **Avancé** dans la [sortie du PDF Publish](../web-editor/native-pdf-web-editor.md).
 
 
-### Utilisation des métadonnées ajoutées dans la variable `topicmeta` élément pour la sortie du PDF
+### Utilisez les métadonnées ajoutées dans l’élément `topicmeta` pour la sortie du PDF.
 
 La fonction de métadonnées de la publication en PDF natif permet de gérer le contenu et de rechercher des fichiers sur Internet.
 <img src="assets/pdf-metadata-4-4.png" alt="onglet de métadonnées" width="800">
 
 *Sélectionnez une option pour ajouter et personnaliser des options de métadonnées.*
 
-Les guides Maintenant Experience Manager permettent d’utiliser les métadonnées que vous avez ajoutées dans la `topicmeta` élément du mappage DITA pour renseigner les champs de métadonnées de la sortie du PDF. Cette option est sélectionnée par défaut.
+Désormais, Experience Manager Guides offre la possibilité d’utiliser les métadonnées que vous avez ajoutées dans l’élément `topicmeta` de la carte DITA pour remplir les champs de métadonnées de la sortie du PDF. Cette option est sélectionnée par défaut.
 
 Cette fonctionnalité permet une meilleure gestion des documents, garantit la cohérence et rend vos documents consultables.
 
-Pour en savoir plus, consultez la **Métadonnées** dans le [Sortie du PDF de publication](../web-editor/native-pdf-web-editor.md).
+Pour en savoir plus, consultez l’onglet **Métadonnées** dans la [sortie du PDF Publish](../web-editor/native-pdf-web-editor.md).

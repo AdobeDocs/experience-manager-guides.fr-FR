@@ -17,12 +17,12 @@ ht-degree: 0%
 AEM Guides vous permet de configurer le titre des icônes d’archivage et d’extraction dans l’éditeur web. Effectuez les étapes suivantes pour configurer le titre des icônes d’archivage et d’extraction :
 
 1. Téléchargez le fichier de configuration de l’interface utilisateur en vous connectant à Adobe Experience Manager en tant qu’administrateur.
-1. Cliquez sur le lien Adobe Experience Manager en haut de l’écran et choisissez **Outils**.
-1. Sélectionner **Guides** dans la liste des outils, puis cliquez sur l’icône **Profils de dossier**.
-1. Cliquez sur le bouton **Profil global** mosaïque.
-1. Sélectionnez la variable **Configuration de l’éditeur XML** et cliquez sur l’onglet **Modifier** en haut.
-1. Dans le **Configuration de l’interface utilisateur de l’éditeur XML** , cliquez sur le bouton **Télécharger** pour télécharger l’icône `ui_config.json` sur votre système local.
-1. Dans le `ui_config.json` , modifiez le titre dans la section &quot;topbar&quot;. Vous pouvez modifier les valeurs suivantes :
+1. Cliquez sur le lien Adobe Experience Manager en haut de l’écran et sélectionnez **Outils**.
+1. Sélectionnez **Guides** dans la liste des outils et cliquez sur le bouton **Profils de dossier**.
+1. Cliquez sur la mosaïque **Profil global** .
+1. Sélectionnez l’onglet **Configuration de l’éditeur XML** et cliquez sur l’icône **Modifier** en haut.
+1. Dans la section **Configuration de l’interface utilisateur de l’éditeur XML**, cliquez sur l’icône **Télécharger** pour télécharger le fichier `ui_config.json` sur votre système local.
+1. Dans le fichier `ui_config.json`, modifiez le titre dans la section &quot;topbar&quot;. Vous pouvez modifier les valeurs suivantes :
 
    ```json
    //Change title to "Check out" instead of "Lock"

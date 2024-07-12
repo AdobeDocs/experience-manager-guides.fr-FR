@@ -24,19 +24,19 @@ AEM Guides est fourni avec un puissant éditeur web qui permet aux auteurs de cr
 - [Configuration des filtres pour la boîte de dialogue de navigation dans les fichiers](conf-custom-file-filters.md#)
 - [Configuration de l’affichage des liens basés sur l’UUID](conf-uuid-based-links.md#)
 
-- **[Barre d’outils Personnaliser](conf-web-editor-customize-toolbar.md)**
+- **[Personnaliser la barre d’outils](conf-web-editor-customize-toolbar.md)**
 
 - **[Configuration de la valeur par défaut pour la vue Balises](configure-default-value-tags-view.md)**
 
 - **[Configuration de l’affichage des liens basés sur l’UUID](conf-uuid-based-links.md)**
 
-- **[Ouvrir les fichiers de rubrique ou de mappage DITA dans le même onglet](open-dita-files-same-tab.md)**
+- **[Ouvrir une rubrique DITA ou des fichiers de mappage dans le même onglet](open-dita-files-same-tab.md)**
 
-- **[Configurer un panneau personnalisé dans le panneau de gauche](configure-custom-panel.md)**
+- **[Configuration d’un panneau personnalisé dans le panneau de gauche](configure-custom-panel.md)**
 
-- **[Configuration de l’enregistrement automatique du fichier dans l’éditeur web](auto-save-in-editor.md)**
+- **[Configurer l’enregistrement automatique du fichier dans l’éditeur web](auto-save-in-editor.md)**
 
-- **[Configuration d’une invite pour l’enregistrement en tant que nouvelle version à la fermeture](conf-save-as-new-version-close.md)**
+- **[Configuration d’une invite pour enregistrer en tant que nouvelle version à la fermeture](conf-save-as-new-version-close.md)**
 
 - **[Configuration d’une invite pour archiver un fichier à la fermeture](conf-checkin-file-close.md)**
 
@@ -44,18 +44,18 @@ AEM Guides est fourni avec un puissant éditeur web qui permet aux auteurs de cr
 
 - **[Génération automatique des identifiants d’élément](auto-generate-ids.md)**
 
-- **[Personnalisation AEM dictionnaire par défaut](customize-aem-custom-dictionary.md)**
+- **[Personnaliser AEM dictionnaire par défaut](customize-aem-custom-dictionary.md)**
 
-- **[Configuration des filtres de texte](config-text-filters.md)**
+- **[Configurer des filtres de texte](config-text-filters.md)**
 
-- **[Configuration des filtres pour la boîte de dialogue de navigation dans les fichiers](conf-custom-file-filters.md)**
+- **[Configuration de filtres pour la boîte de dialogue de navigation dans les fichiers](conf-custom-file-filters.md)**
 
 - **[Installation de packages pour la publication basée sur un article](configure-article-based-publishing.md)**
 
 - **[Configuration de la génération d’un PDF de rubrique unique](conf-pdf-generation-dita-ot.md)**
 
-- **[Configuration de la fonction de traduction dans l’éditeur web](conf-translation-web-editor.md)**
+- **[Configurer la fonction de traduction dans l’éditeur web](conf-translation-web-editor.md)**
 
-- **[Définir l’éditeur de mappage avancé comme valeur par défaut](conf-map-editor.md)**
+- **[Définissez l’éditeur de carte avancé comme valeur par défaut](conf-map-editor.md)**
 
-- **[Inclure l’attribut @navtitle par défaut](auto-add-navtitle.md)**
+- **[Attribut @navtitle par défaut](auto-add-navtitle.md)**

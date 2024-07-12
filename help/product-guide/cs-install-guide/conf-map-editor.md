@@ -22,10 +22,10 @@ Suivez les instructions de la section [Remplacements de configuration](download-
 
 | PID | Clé de propriété | Valeur de la propriété |
 |---|------------|--------------|
-| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | ``fmdita.hide.oldmapeditor`` | Booléen \(true/false\). Si vous souhaitez utiliser l’éditeur de mappage avancé par défaut, définissez cette propriété sur true.<br> **Valeur par défaut**: false |
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | ``fmdita.hide.oldmapeditor`` | Booléen \(true/false\). Si vous souhaitez utiliser l’éditeur de mappage avancé par défaut, définissez cette propriété sur true.<br> **Valeur par défaut** : false |
 
 >[!NOTE]
 >
 > Par défaut, lorsqu’un auteur crée un fichier de mappage et choisit de l’ouvrir pour le modifier, l’éditeur de mappage de base est lancé. Lorsque l’option Modifier est sélectionnée pour un fichier de mappage dans l’interface utilisateur d’Assets, elle est également ouverte dans l’éditeur de mappage de base.
 
-**Rubrique parente :**[ Personnalisation de l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)

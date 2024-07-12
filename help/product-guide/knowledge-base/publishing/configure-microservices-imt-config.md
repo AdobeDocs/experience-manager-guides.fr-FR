@@ -26,33 +26,33 @@ Comme le service de publication dans le cloud est sécurisé par l’authentific
 
 ## Création de configurations IMS dans Adobe Developer Console
 
-**Rôle requis pour créer les configurations**: administrateur système
+**Rôle requis pour créer les configurations** : administrateur système
 
-Effectuez les étapes suivantes pour créer des configurations IMS dans **Adobe Developer Console**:
+Effectuez les étapes suivantes pour créer des configurations IMS dans **Adobe Developer Console** :
 
 >[!NOTE]
 >
 >Si vous avez déjà créé un projet OAuth pour configurer les suggestions intelligentes optimisées par l’IA pour la création, vous pouvez ignorer les étapes suivantes pour créer le projet.
 
-1. Ouvrir **Developer Console**: `https://developer.adobe.com/console`.
+1. Ouvrez **Developer Console**: `https://developer.adobe.com/console`.
 
-1. Basculez vers le **Projets** dans la partie supérieure.
+1. Passez à l’onglet **Projets** depuis le haut.
 
    <img src="assets/projects-tab.png" alt="onglet projets" width="500">
 
-   *Sélectionnez la variable **Projets**sur l’**Adobe Developer Console***
+   *Sélectionnez l’onglet **Projets**sur **Adobe Developer Console***
 
-1. Pour créer un projet vide, sélectionnez **Projet vide** de la **Créer un projet** menu déroulant.
+1. Pour créer un projet vide, sélectionnez **Projet vide** dans la liste déroulante **Créer un projet** .
 
    <img src="assets/create-new-project.png" alt="créer un projet" width="500">
 
    *Créez un projet vide.*
 
-1. Sélectionner **API** de la **Ajouter au projet** pour ajouter l’API de gestion des E/S à votre projet.
+1. Sélectionnez **API** dans la liste déroulante **Ajouter au projet** pour ajouter l’API IO Management à votre projet.
 
    <img src="assets/add-project.png" alt="ajouter un projet" width="300">
 
-   *Sélectionnez un projet API dans la liste déroulante.*
+   *Sélectionnez un projet d’API dans la liste déroulante.*
 
    <img src="assets/io-management-api.png" alt="Gestion des io" width="500">
 
@@ -65,13 +65,13 @@ Effectuez les étapes suivantes pour créer des configurations IMS dans **Adobe 
    *Configurez les informations d’identification OAuth sur votre API.*
 
 
-1. Revenez au **Projets** et sélectionnez **Présentation du projet** sur la gauche.
+1. Revenez à l’onglet **Projets** et sélectionnez **Aperçu du projet** sur la gauche.
 
    <img src="assets/project-overview.png" alt="présentation du projet" width="500">
 
    *Commencez le nouveau projet.*
 
-1. Cliquez sur le bouton **Télécharger** sur la partie supérieure pour télécharger le service JSON.
+1. Cliquez sur le bouton **Télécharger** en haut pour télécharger le service JSON.
 
    <img src="assets/download-json.png" alt="télécharger json" width="500">
 
@@ -86,16 +86,16 @@ Vous avez configuré les détails de l’authentification OAuth et téléchargé
 >
 >Si vous avez déjà créé un projet OAuth pour les suggestions intelligentes, vous pouvez réutiliser le même projet pour les microservices et ignorer les étapes suivantes pour ajouter la configuration IMS à l’environnement.
 
-### Mise à jour de la configuration existante (décalage JWT vers OAuth )
+### Mise à jour de la configuration existante (JWT   vers OAuth shift )
 
 Si vous utilisez déjà un microservice pour la publication à l’aide de JWT (obsolète), effectuez les étapes suivantes pour mettre à jour les configurations :
 
 
 
-1. Ouvrir **Experience Manager** et sélectionnez le programme contenant l&#39;environnement que vous souhaitez configurer.
-1. Basculez vers le **Environnements** .
-1. Sélectionnez le nom de l’environnement que vous souhaitez configurer. Cela devrait vous permettre d’accéder au **Informations sur l’environnement** page.
-1. Basculez vers le **Configuration** .
+1. Ouvrez **Experience Manager** et sélectionnez le programme contenant l&#39;environnement que vous souhaitez configurer.
+1. Passez à l’onglet **Environnements** .
+1. Sélectionnez le nom de l’environnement que vous souhaitez configurer. Cela devrait vous permettre d’accéder à la page **Environment Information**.
+1. Passez à l’onglet **Configuration** .
 
 1. Mettez à jour le champ JSON SERVICE_ACCOUNT_DETAILS avec le nouveau fichier JSON OAuth que vous avez téléchargé.
 1. Supprimez le champ PRIVATE_KEY .
@@ -109,17 +109,17 @@ Si vous utilisez déjà un microservice pour la publication à l’aide de JWT (
 ### Première configuration
 
 Pour utiliser un microservice de publication pour la première fois, mettez à jour les paramétrages selon les étapes suivantes :
-1. Ouvrir **Experience Manager** et sélectionnez le programme contenant l&#39;environnement que vous souhaitez configurer.
-1. Basculez vers le **Environnements** .
-1. Sélectionnez le nom de l’environnement que vous souhaitez configurer. Cela devrait vous permettre d’accéder au **Informations sur l’environnement** page.
-1. Basculez vers le **Configuration** .
+1. Ouvrez **Experience Manager** et sélectionnez le programme contenant l&#39;environnement que vous souhaitez configurer.
+1. Passez à l’onglet **Environnements** .
+1. Sélectionnez le nom de l’environnement que vous souhaitez configurer. Cela devrait vous permettre d’accéder à la page **Environment Information**.
+1. Passez à l’onglet **Configuration** .
 
 1. Créez une configuration nommée SERVICE_ACCOUNT_DETAILS. Dans la valeur , ajoutez le contenu du fichier JSON OAuth que vous avez téléchargé à partir de la console de développement .
 
 
 <img src="assets/jws-service-account-config.png" alt="configuration du compte de service ims" width="500">
 
-*Configurez l’environnement pour la première fois.*
+*Configurez l&#39;environnement pour la première fois.*
 
 
 ### Modifications du code pour la première fois pour l’activation de publication basée sur un microservice
@@ -130,7 +130,7 @@ Pour utiliser un microservice de publication pour la première fois, mettez à j
 
 Une fois la configuration IMS ajoutée à l’environnement, procédez comme suit pour lier ces propriétés à Experience Manager Guides à l’aide d’OSGi :
 
-1. Dans le code de votre projet Git Cloud Manager, ajoutez les deux fichiers suivants dans `/apps/fmditaCustom/config` (pour le contenu du fichier, afficher [Annexe](#appendix)).
+1. Dans le code de votre projet Git Cloud Manager, ajoutez les deux fichiers suivants dans `/apps/fmditaCustom/config` (pour le contenu des fichiers, consultez [Annexe](#appendix)).
 
    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
    * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
@@ -144,17 +144,17 @@ Une fois cette opération effectuée, vous pouvez utiliser la publication cloud 
 
 
 1. Si les configurations OSGi pour utiliser le microservice sont activées, le processus de publication fonctionnera-t-il sur le serveur Experience Manager local avec la même base de code ?
-   * Non, si l’indicateur `dxml.use.publish.microservice` est défini sur `true`, il recherche toujours les configurations de microservice. Définir `dxml.use.publish.microservice` to `false` pour que la publication fonctionne sur votre serveur local.
+   * Non, si l’indicateur `dxml.use.publish.microservice` est défini sur `true`, il recherche toujours des configurations de microservice. Définissez `dxml.use.publish.microservice` sur `false` pour que la publication fonctionne sur votre serveur local.
 1. Quelle quantité de mémoire est allouée au processus DITA lors de l’utilisation de la publication basée sur un microservice ? Est-ce piloté par le profil et les paramètres DITA ?
    * Avec la publication basée sur un microservice, l’allocation de mémoire n’est pas pilotée par le profil et les paramètres DITA. La mémoire totale disponible sur le conteneur de services est de 8 Go, dont 6 Go sont attribués au processus DITA-OT.
 
 
 ## Annexe {#appendix}
 
-**Fichier**:
+**Fichier** :
 `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
 
-**Contenu**:
+**Contenu** :
 
 ```
 {
@@ -162,11 +162,11 @@ Une fois cette opération effectuée, vous pouvez utiliser la publication cloud 
 }
 ```
 
-**Fichier**: `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
+**Fichier** : `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 
-**Contenu**:
-* `dxml.use.publish.microservice`: basculez pour activer la publication basée sur un microservice à l’aide de DITA-OT
-* `dxml.use.publish.microservice.native.pdf`: basculez pour activer la publication de PDF natifs en fonction du microservice.
+**Contenu** :
+* `dxml.use.publish.microservice` : basculez pour activer la publication sur microservice à l’aide de DITA-OT
+* `dxml.use.publish.microservice.native.pdf` : basculez pour activer la publication de PDF natifs en fonction du microservice.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

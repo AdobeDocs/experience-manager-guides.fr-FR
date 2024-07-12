@@ -24,24 +24,24 @@ Pour plus d’informations sur les workflows dans AEM, voir :
 
 - Création de modèles de workflows et extension de la fonctionnalité de workflow : [Développement et extension des workflows](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
 
-- Amélioration des performances des workflows qui utilisent des ressources de serveur importantes : [Traitement de workflow simultané](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
+- Amélioration des performances des workflows qui utilisent des ressources de serveur importantes : [Traitement de workflows simultanés](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
 
-Les sections de cette rubrique vous guident tout au long des différentes personnalisations que vous pouvez effectuer dans les workflows par défaut fournis dans les Guides d’AEM.
+Les sections de cette rubrique vous guideront tout au long des différentes personnalisations que vous pouvez effectuer dans les workflows par défaut fournis dans AEM Guides.
 
 ## Personnalisation du processus de révision {#id176NE0C00HS}
 
-L’équipe de création de contenu de chaque entreprise travaille de manière spécifique pour répondre aux besoins de son entreprise. Dans certaines organisations, il existe un éditeur dédié, tandis que d’autres pourraient avoir mis en place un système automatisé d’examen éditorial. Par exemple, dans une organisation, un processus de création et de publication type peut inclure des tâches comme : chaque fois qu’un auteur a terminé la création de contenu, il est automatiquement envoyé aux réviseurs, et lorsque la révision est terminée, il est envoyé à l’éditeur pour générer la sortie finale. Dans AEM, les activités que vous effectuez sur votre contenu et vos ressources peuvent être combinées sous la forme d’un processus et mappées à un workflow AEM. Pour plus d’informations sur les workflows dans AEM, voir [Administration des workflows](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html) dans la documentation AEM.
+L’équipe de création de contenu de chaque entreprise travaille de manière spécifique pour répondre aux besoins de son entreprise. Dans certaines organisations, il existe un éditeur dédié, tandis que d’autres pourraient avoir mis en place un système automatisé d’examen éditorial. Par exemple, dans une organisation, un processus de création et de publication type peut inclure des tâches comme : chaque fois qu’un auteur a terminé la création de contenu, il est automatiquement envoyé aux réviseurs, et lorsque la révision est terminée, il est envoyé à l’éditeur pour générer la sortie finale. Dans AEM, les activités que vous effectuez sur votre contenu et vos ressources peuvent être combinées sous la forme d’un processus et mappées à un workflow AEM. Pour plus d’informations sur les workflows dans AEM, voir [Administration des workflows](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html) dans AEM documentation.
 
 AEM Guides vous permet de personnaliser le processus de révision par défaut. Vous pouvez utiliser les quatre processus personnalisés suivants liés à la révision avec vos autres processus de création ou de publication.
 
-- **Créer une révision**: ce processus prépare les métadonnées requises pour créer une tâche de révision. Par exemple, il attribuera des autorisations de révision aux réviseurs, définira le statut des rubriques à réviser, définira les chronologies de révision, etc. Sur les quatre processus, il s’agit du seul processus obligatoire qui doit être inclus dans votre workflow personnalisé. Dans votre workflow, vous pouvez choisir d&#39;inclure ou d&#39;exclure les trois autres processus.
+- **Créer une révision** : ce processus prépare les métadonnées requises pour créer une tâche de révision. Par exemple, il attribuera des autorisations de révision aux réviseurs, définira le statut des rubriques à réviser, définira les chronologies de révision, etc. Sur les quatre processus, il s’agit du seul processus obligatoire qui doit être inclus dans votre workflow personnalisé. Dans votre workflow, vous pouvez choisir d&#39;inclure ou d&#39;exclure les trois autres processus.
 
-- **Affecter une tâche de révision**: ce processus crée la tâche de révision et envoie la notification de la tâche à l&#39;initiateur et aux réviseurs.
+- **Assign Review Task** : ce processus crée la tâche de révision et envoie la notification de tâche à l’initiateur et aux réviseurs.
 
-- **Envoyer un courrier électronique de révision**: ce processus envoie le courrier électronique de révision à l’initiateur et aux réviseurs.
+- **Envoyer un courrier électronique de révision** : ce processus envoie le courrier électronique de révision à l’initiateur et aux réviseurs.
 
-- **Planifier la tâche pour fermer la révision**: ce processus permet de s’assurer que le processus de révision se termine lorsque le délai est écoulé.
+- **Planifier la tâche pour fermer la révision** : ce processus garantit que le processus de révision se termine une fois l’échéance atteinte.
 
 
 Lorsque vous créez un processus de révision personnalisé, la première tâche consiste à définir les métadonnées requises par le processus de création de révision. Pour ce faire, vous pouvez créer un script ECMA. Vous trouverez ci-dessous un exemple de script ECMA qui affecte les métadonnées :
@@ -61,20 +61,20 @@ workflowdata.getMetaDataMap().put("projectPath","/content/projects/review");
 workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
 ```
 
-Vous pouvez créer ce script dans la variable `/etc/workflows/scripts` noeud . Le tableau suivant décrit les propriétés affectées par ce script ECMA :
+Vous pouvez créer ce script dans le noeud `/etc/workflows/scripts` . Le tableau suivant décrit les propriétés affectées par ce script ECMA :
 
 | Propriété | Type | Description |
 |--------|----|-----------|
 | `initiator` | Chaîne | ID utilisateur de l’utilisateur qui lance la tâche de révision. |
 | `operation` | Chaîne | Une valeur statique définie comme `AEM_REVIEW`. |
 | `orgTopics` | Chaîne | Chemin d’accès des rubriques partagées en vue de la révision. Spécifiez plusieurs rubriques séparées par une virgule. |
-| `payloadJson` | Objet JSON | Spécifiez les valeurs suivantes :<br> - `base`: chemin d’accès du dossier parent contenant la rubrique envoyée pour révision.<br>- `asset`: chemin d’accès de la rubrique envoyée pour révision. <br>- `referrer`: laissez le champ vide. |
-| `deadline` | Chaîne | Définition de l’heure `yyyy-MM-dd'T'HH:mm:ss.SSSXXX` format. |
+| `payloadJson` | Objet JSON | Spécifiez les valeurs suivantes :<br> - `base` : chemin du dossier parent contenant la rubrique envoyée pour révision.<br> - `asset` : chemin d’accès de la rubrique envoyée pour révision. <br> - `referrer` : laissez ce champ vide. |
+| `deadline` | Chaîne | Spécifiez l’heure au format `yyyy-MM-dd'T'HH:mm:ss.SSSXXX`. |
 | `title` | Chaîne | Saisissez un titre pour la tâche de révision. |
 | `description` | Chaîne | Saisissez une description pour la tâche de révision. |
 | `assignee` | Chaîne | Identifiant utilisateur des utilisateurs auxquels vous souhaitez envoyer la rubrique\(s\) à des fins de révision. |
 | `status` | Entier | Valeur statique définie sur 1. |
-| `startTime` | Long | Utilisez la variable `System.currentTimeMillis()` pour obtenir l’heure actuelle du système. |
+| `startTime` | Long | Utilisez la fonction `System.currentTimeMillis()` pour obtenir l’heure actuelle du système. |
 
 Une fois que vous avez créé le script, appelez-le avant d’appeler le processus Créer une révision dans votre workflow. Ensuite, en fonction de vos besoins, vous pouvez appeler les autres processus de workflow de révision.
 
@@ -82,20 +82,20 @@ Une fois que vous avez créé le script, appelez-le avant d’appeler le process
 
 Pour améliorer les performances du moteur de workflow, vous pouvez régulièrement purger les instances de workflow terminées du référentiel AEM. Si vous utilisez les configurations d’AEM par défaut, toutes les instances de workflow terminées sont nettoyées après une période spécifique. Cela entraîne également la purge de tous les workflows de révision du référentiel AEM.
 
-Vous pouvez empêcher la purge automatique des workflows de révision en supprimant le modèle de workflow de révision \(information\) de la configuration de purge automatique. Vous devez utiliser la variable **Configuration de la purge du workflow Adobe Granite** pour supprimer les modèles de workflow de révision de la liste de purge automatique.
+Vous pouvez empêcher la purge automatique des workflows de révision en supprimant le modèle de workflow de révision \(information\) de la configuration de purge automatique. Vous devez utiliser la **configuration de purge de workflow Granite Adobe** pour supprimer les modèles de workflow de révision de la liste de purge automatique.
 
-Dans le **Configuration de la purge du workflow Adobe Granite**, veillez à répertorier au moins un workflow que vous pouvez purger en toute sécurité. Par exemple, vous pouvez utiliser l’un des workflows suivants créés par AEM Guides :
+Dans la **configuration de purge de workflow Granite Adobe**, assurez-vous de répertorier au moins un workflow que vous pouvez purger en toute sécurité. Par exemple, vous pouvez utiliser l’un des workflows suivants créés par AEM Guides :
 
 - /etc/workflow/models/publishditamap/jcr:content/model
 - /etc/workflow/models/post-dita-project-creating-tasks/ jcr:content/model
 
-Ajouter un workflow dans la **Configuration de la purge du workflow Adobe Granite** s’assure qu’AEM purge uniquement les workflows répertoriés dans la configuration. Cela empêche AEM de purger les informations du workflow de révision.
+L’ajout d’un workflow dans la **configuration de purge de workflow Granite Adobe** garantit que AEM purge uniquement les workflows répertoriés dans la configuration. Cela empêche AEM de purger les informations du workflow de révision.
 
-Pour plus d’informations sur la configuration de la variable **Configuration de la purge du workflow Adobe Granite**, voir *Administration des instances de workflow* dans la documentation AEM.
+Pour plus d’informations sur la configuration de la **configuration de purge de workflow Granite Adobe**, voir *Administration des instances de workflow* dans la documentation AEM.
 
 ### Personnalisation des modèles de courrier électronique
 
-Un certain nombre de processus AEM Guides utilisent des notifications par e-mail. Par exemple, si vous lancez une tâche de révision, un email de notification est envoyé aux réviseurs. Toutefois, pour vous assurer que l’email de notification est envoyé, vous devez activer cette fonctionnalité dans AEM. Pour activer la notification électronique dans AEM, reportez-vous à l’article [Configuration des notifications par e-mail](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=fr) dans la documentation AEM.
+Un certain nombre de workflows AEM Guides utilisent des notifications électroniques. Par exemple, si vous lancez une tâche de révision, un email de notification est envoyé aux réviseurs. Toutefois, pour vous assurer que l’email de notification est envoyé, vous devez activer cette fonctionnalité dans AEM. Pour activer la notification électronique dans AEM, reportez-vous à l’article [Configuration de la notification électronique](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=fr) dans la documentation AEM.
 
 AEM Guides contient un ensemble de modèles de courrier électronique que vous pouvez personnaliser. Effectuez les étapes suivantes pour personnaliser ces modèles :
 
@@ -107,7 +107,7 @@ AEM Guides contient un ensemble de modèles de courrier électronique que vous p
 
    >[!NOTE]
    >
-   > Ne pas mettre à disposition des personnalisations dans les fichiers de configuration par défaut dans le ``libs`` noeud . Vous devez créer une superposition de la variable ``libs`` dans le noeud ``apps`` et mettez à jour les fichiers requis dans le ``apps`` uniquement.
+   > Ne rendez aucune personnalisation dans les fichiers de configuration par défaut disponible dans le noeud ``libs``. Vous devez créer une superposition du noeud ``libs`` dans le noeud ``apps`` et mettre à jour les fichiers requis dans le noeud ``apps`` uniquement.
 
 1. Le dossier de courrier contient les modèles personnalisables suivants :
 
@@ -120,7 +120,7 @@ AEM Guides contient un ensemble de modèles de courrier électronique que vous p
 
 ## Personnaliser le workflow de génération après la sortie {#id17A6GI004Y4}
 
-AEM Guides vous offre la possibilité de spécifier un workflow de génération de post-sortie. Vous pouvez effectuer certaines tâches de post-traitement sur la sortie générée à l’aide des AEM Guides. Par exemple, vous pouvez appliquer certaines balises CQ à la sortie Site AEM générée ou définir certaines propriétés sur la sortie PDF, ou envoyer un courrier électronique à un ensemble d’utilisateurs une fois la sortie générée.
+AEM Guides vous offre la possibilité de spécifier un workflow de génération après sortie. Vous pouvez effectuer certaines tâches de post-traitement sur la sortie générée à l’aide d’AEM Guides. Par exemple, vous pouvez appliquer certaines balises CQ à la sortie Site AEM générée ou définir certaines propriétés sur la sortie PDF, ou envoyer un courrier électronique à un ensemble d’utilisateurs une fois la sortie générée.
 
 Vous pouvez créer un modèle de workflow à utiliser comme workflow de génération après sortie. Lorsqu’un workflow de génération de sortie est déclenché, le workflow de génération de sortie partage des informations contextuelles par le biais de la carte des métadonnées de workflow, que vous pouvez utiliser pour effectuer le traitement sur la sortie générée. Le tableau suivant décrit les informations contextuelles partagées en tant que métadonnées :
 
@@ -140,7 +140,7 @@ Pour utiliser les métadonnées de génération de sortie, vous pouvez créer un
 
 >[!NOTE]
 >
-> Vous pouvez créer ce script dans la variable ``/etc/workflows/scripts`` noeud .
+> Vous pouvez créer ce script dans le noeud ``/etc/workflows/scripts`` .
 
 ```json
 var session = workflowSession.getSession(); // Obtain session object to read/write the repository.
@@ -163,15 +163,15 @@ generatedPath;
 */
 ```
 
-Une fois que vous avez créé le script, appelez le script personnalisé dans votre workflow. Ensuite, en fonction de vos besoins, vous pouvez appeler les autres processus du workflow. Une fois que vous avez conçu votre workflow personnalisé, appelez la fonction *Finalisation de la génération de publication* comme dernière étape de votre processus de workflow. La variable *Finalisation de la génération de publication* l’étape permet de s’assurer que l’état de la tâche de génération de sortie est mis à jour vers *Terminé* une fois le processus de génération de sortie terminé. Après avoir créé un workflow personnalisé de génération de sortie, vous pouvez le configurer avec l’un de vos paramètres prédéfinis de génération de sortie. Sélectionnez le workflow requis dans la *Exécuter le processus de génération de publication* du paramètre prédéfini requis. Lorsque vous exécutez une tâche de génération de sortie à l’aide du paramètre prédéfini de sortie configuré, l’état de la tâche \(dans l’onglet Sortie\) passe à *Post-traitement*.
+Une fois que vous avez créé le script, appelez le script personnalisé dans votre workflow. Ensuite, en fonction de vos besoins, vous pouvez appeler les autres processus du workflow. Une fois que vous avez conçu votre workflow personnalisé, appelez la *Finalize Post Generation* (Finaliser la génération) comme dernière étape de votre processus de workflow. L’étape *Finalize Post Generation* garantit que l’état de la tâche de génération de sortie est mis à jour vers *Terminé* à la fin du processus de génération de sortie. Après avoir créé un workflow personnalisé de génération de sortie, vous pouvez le configurer avec l’un de vos paramètres prédéfinis de génération de sortie. Sélectionnez le workflow requis dans la propriété *Exécuter le processus de génération de Post* du paramètre prédéfini requis. Lorsque vous exécutez une tâche de génération de sortie à l’aide du paramètre prédéfini de sortie configuré, l’état de la tâche \(dans l’onglet Sortie\) passe à *Post-Processing*.
 
 ## Personnalisation du processus de mise à jour des ressources {#id18C3D0I0B5Z}
 
-Par défaut, la variable *Ressource de mise à jour de gestion des actifs numériques* se déclenche chaque fois que vous créez ou mettez à jour une ressource AEM \(XML ou non XML\). Par exemple, lorsque vous créez une rubrique ou la mettez à jour, la variable *Ressource de mise à jour de gestion des actifs numériques* le workflow est exécuté. La variable *Ressource de mise à jour de gestion des actifs numériques* workflow tente d’extraire les métadonnées appropriées à partir des ressources. La clé en main *Workflow de mise à jour des ressources* ne comprend aucune procédure pour extraire les métadonnées appropriées d’un fichier DITA et de la variable *Ressource de mise à jour de gestion des actifs numériques* workflow génère beaucoup de logs au moment de l’exécution. Si vous souhaitez éviter les logs supplémentaires, vous pouvez configurer le workflow pour qu’il ignore tous les fichiers XML du traitement.
+Par défaut, le workflow *Ressource de mise à jour de gestion des actifs numériques* se déclenche lorsque vous créez ou mettez à jour une ressource AEM \(XML ou non XML\). Par exemple, lorsque vous créez une rubrique ou la mettez à jour, le workflow *Ressource de mise à jour de gestion des actifs numériques* est exécuté. Le workflow *Ressource de mise à jour de gestion des actifs numériques* tente d’extraire les métadonnées pertinentes d’Assets. Le *workflow de mise à jour de ressource* prêt à l’emploi ne comprend aucune étape pour extraire les métadonnées appropriées d’un fichier DITA et le workflow *Ressource de mise à jour de gestion des actifs numériques* génère de nombreux journaux au moment de l’exécution. Si vous souhaitez éviter les logs supplémentaires, vous pouvez configurer le workflow pour qu’il ignore tous les fichiers XML du traitement.
 
-Effectuez les étapes suivantes pour personnaliser le *Ressource de mise à jour de gestion des actifs numériques* workflow :
+Effectuez les étapes suivantes pour personnaliser le workflow *Ressource de mise à jour de gestion des actifs numériques* :
 
-1. ouvrez le **Lanceurs de workflow** page.
+1. ouvrez la page **Lanceurs de workflow** .
 
    L’URL par défaut pour accéder à la page des lanceurs de workflow est la suivante :
 
@@ -179,7 +179,7 @@ Effectuez les étapes suivantes pour personnaliser le *Ressource de mise à jour
    http://<server name>:<port>/libs/cq/workflow/admin/console/content/launchers.html
    ```
 
-1. Dans la liste des lanceurs de workflow, ouvrez les propriétés de la variable **Ressource de mise à jour de gestion des actifs numériques** workflow.
+1. Dans la liste des lanceurs de workflow, ouvrez les propriétés du workflow **Ressource de mise à jour de gestion des actifs numériques**.
 
 1. Ajoutez une condition avec l’expression suivante :
 
@@ -192,19 +192,19 @@ Effectuez les étapes suivantes pour personnaliser le *Ressource de mise à jour
 
 ## Configuration du workflow XML de post-traitement {#id18CJB03J0Y4}
 
-AEM Guides crée un ensemble de processus qui vous permettent de travailler avec du contenu DITA dans AEM. Par exemple, certains workflows sont exécutés lorsque vous chargez du contenu DITA ou mettez à jour du contenu existant. Ces processus analysent les documents DITA et effectuent diverses tâches, telles que la définition des métadonnées, l’ajout de paramètres prédéfinis de sortie par défaut à de nouvelles cartes DITA et d’autres tâches associées.
+AEM Guides crée un ensemble de workflows qui vous permettent de travailler avec du contenu DITA dans AEM. Par exemple, certains workflows sont exécutés lorsque vous chargez du contenu DITA ou mettez à jour du contenu existant. Ces processus analysent les documents DITA et effectuent diverses tâches, telles que la définition des métadonnées, l’ajout de paramètres prédéfinis de sortie par défaut à de nouvelles cartes DITA et d’autres tâches associées.
 
 >[!NOTE]
 >
-> Pour personnaliser ou étendre les workflows de post-traitement par défaut, vous pouvez utiliser le gestionnaire d’événements de post-traitement décrit dans la section *Référence d’API pour les guides Adobe Experience Manager*.
+> Pour personnaliser ou étendre les workflows de post-traitement par défaut, vous pouvez utiliser le gestionnaire d’événements de post-traitement décrit dans la *référence d’API pour Adobe Experience Manager Guides*.
 
-Les propriétés suivantes régissent la manière dont AEM Guides exécute les workflows de post-traitement :
+Les propriétés suivantes régissent l’exécution des workflows de post-traitement par AEM Guides :
 
 >[!NOTE]
 >
-> Les propriétés suivantes sont accessibles par le biais de la console web : http://&lt;server name=&quot;&quot;>:&lt;port>/system/console/configMgr
+> Les propriétés suivantes sont accessibles par le biais de la console web : http://&lt;nom du serveur\>:&lt;port\>/system/console/configMgr.
 
 | Propriété | Nom du lot | Description |
 |--------|-----------|-----------|
 | Sorties dynamiques | `com.adobe.fmdita.postprocess.PostProcessObservation` | Pour tous les fichiers pour lesquels le post-traitement n’a pas été effectué, il récupère les références sortantes en analysant les fichiers de rubrique. Il est recommandé de ne pas désactiver cette option, car elle peut surcharger le système si le nombre de fichiers à traiter est important. |
-| Post-traitement Threads | `com.adobe.fmdita.config.ConfigManager` | Définit le nombre de threads de post-traitement à utiliser pour le workflow de post-traitement. <br>La valeur par défaut est 1. |
+| Post Process Threads | `com.adobe.fmdita.config.ConfigManager` | Définit le nombre de threads de post-traitement à utiliser pour le workflow de post-traitement. <br>La valeur par défaut est 1. |

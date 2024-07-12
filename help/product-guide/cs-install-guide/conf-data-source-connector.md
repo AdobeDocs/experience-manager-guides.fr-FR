@@ -40,7 +40,7 @@ Exemple de fichier de configuration pour l’authentification de base de Jira av
 }
 ```
 
-Par exemple, enregistrez sous `jira.json`.
+Par exemple, enregistrez en tant que `jira.json`.
 
 Exemple de fichier de configuration pour l’authentification de base de Jira avec jeton :
 
@@ -59,7 +59,7 @@ Exemple de fichier de configuration pour l’authentification de base de Jira av
 }
 ```
 
-Par exemple, enregistrez sous `jira.json`.
+Par exemple, enregistrez en tant que `jira.json`.
 
 Exemple de fichier de configuration pour l’authentification de base de Jira avec le jeton qui contient le mot-clé &quot;De base&quot; :
 
@@ -78,7 +78,7 @@ Exemple de fichier de configuration pour l’authentification de base de Jira av
 }
 ```
 
-Par exemple, enregistrez sous `jira.json`.
+Par exemple, enregistrez en tant que `jira.json`.
 
 Exemple de fichier de configuration pour l’authentification de base de MySql :
 
@@ -99,7 +99,7 @@ Exemple de fichier de configuration pour l’authentification de base de MySql :
 }
 ```
 
-Par exemple, enregistrez sous `mysql.json`.
+Par exemple, enregistrez en tant que `mysql.json`.
 
 Exemple de fichier de configuration pour l&#39;authentification de base de PostgreSQL :
 
@@ -120,7 +120,7 @@ Exemple de fichier de configuration pour l&#39;authentification de base de Postg
 }
 ```
 
-Par exemple, enregistrez sous `postgres.json`.
+Par exemple, enregistrez en tant que `postgres.json`.
 
 Exemple de fichier de configuration pour l’authentification de base de Microsoft SQL Server :
 
@@ -141,7 +141,7 @@ Exemple de fichier de configuration pour l’authentification de base de Microso
 }
 ```
 
-Par exemple, enregistrez sous `mssqlserver.json`.
+Par exemple, enregistrez en tant que `mssqlserver.json`.
 
 Exemple de fichier de configuration pour l’authentification de base de SQLite :
 
@@ -162,7 +162,7 @@ Exemple de fichier de configuration pour l’authentification de base de SQLite 
 }
 ```
 
-Par exemple, enregistrez sous `sqqlite.json`.
+Par exemple, enregistrez en tant que `sqqlite.json`.
 
 
 
@@ -185,7 +185,7 @@ Exemple de fichier de configuration pour H2DB :
 }
 ```
 
-Par exemple, enregistrez sous `sqqlite.json`.
+Par exemple, enregistrez en tant que `sqqlite.json`.
 
 
 
@@ -208,7 +208,7 @@ Exemple de fichier de configuration pour l’authentification de base de MariaDb
 }
 ```
 
-Par exemple, enregistrez sous `mariadb.json`.
+Par exemple, enregistrez en tant que `mariadb.json`.
 
 
 Exemple de fichier de configuration pour l’authentification de base de l’Elasticsearch :
@@ -228,7 +228,7 @@ Exemple de fichier de configuration pour l’authentification de base de l’Ela
 }
 ```
 
-Par exemple, enregistrez sous `ES.json`.
+Par exemple, enregistrez en tant que `ES.json`.
 
 La requête pour la recherche adaptative doit inclure l’index et la requête :
 
@@ -260,11 +260,11 @@ Exemple de fichier de configuration pour AdobeCommerce NoAuth :
 }
 ```
 
-Par exemple, enregistrez sous `commerce.json`.
+Par exemple, enregistrez en tant que `commerce.json`.
 
 ### Personnalisation de la configuration d’un connecteur
 
-AEM Guides vous permet de personnaliser certaines valeurs du fichier de configuration en fonction des besoins de l’utilisateur.
+AEM Guides vous permet de personnaliser certaines valeurs du fichier de configuration pour répondre aux besoins de l’utilisateur.
 
 | Nom de la propriété | Description |
 |---|---|
@@ -277,10 +277,10 @@ Les autres champs sont personnalisés en fonction de la classe de configuration 
 
 Téléchargez le fichier vers un emplacement spécifique dans AEM Assets.
 
-Par exemple :  `/content/dam/jira.json`
+Par exemple, `/content/dam/jira.json`
 
 ## Créer une configuration à l’aide de l’API REST
 
-Vous pouvez enregistrer la configuration à l’aide de l’API REST. Pour plus d’informations, voir la *API REST pour enregistrer un connecteur de source de données* dans la section Référence d’API pour les guides Adobe Experience Manager.
+Vous pouvez enregistrer la configuration à l’aide de l’API REST. Pour plus d’informations, consultez la section *API REST pour enregistrer un connecteur de source de données* dans la référence d’API pour Adobe Experience Manager Guides.
 
 Une fois la source de données configurée, le connecteur est répertorié sous le panneau Sources de données dans l’éditeur web. Vous pouvez ensuite vous connecter à la source de données et insérer un fragment de contenu dans vos rubriques. Pour plus d’informations, voir [Insertion d’un fragment de contenu à partir de votre source de données](../user-guide/web-editor-content-snippet.md).

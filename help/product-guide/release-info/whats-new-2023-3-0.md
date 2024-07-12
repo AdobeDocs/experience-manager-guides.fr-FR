@@ -1,6 +1,6 @@
 ---
 title: Notes de mise à jour | Adobe Experience Manager Guides as a Cloud Service, version de mars 2023
-description: Version de mars des guides Adobe Experience Manager as a Cloud Service
+description: Version de mars d’Adobe Experience Manager Guides as a Cloud Service
 exl-id: b3fe7cc8-1654-467a-ab18-6e6912855ecc
 feature: Release Notes
 role: Leader
@@ -12,16 +12,16 @@ ht-degree: 0%
 ---
 
 
-# Nouveautés de la version de mars 2023 des Guides Adobe Experience Manager as a Cloud Service
+# Nouveautés de la version de mars 2023 d’Adobe Experience Manager Guides as a Cloud Service
 
-Cet article couvre les nouvelles fonctionnalités et les fonctionnalités améliorées de la version de mars 2023 des Guides Adobe Experience Manager (ultérieurement appelée *AEM Guides as a Cloud Service*).
+Cet article couvre les nouvelles fonctionnalités améliorées de la version de mars 2023 d’Adobe Experience Manager Guides (appelée ultérieurement *AEM Guides as a Cloud Service*).
 
-Pour plus d’informations sur les instructions de mise à niveau, la matrice de compatibilité et les problèmes résolus dans cette version, voir la section [Notes de mise à jour](release-notes-2023-3-0.md) article.
+Pour plus d’informations sur les instructions de mise à niveau, la matrice de compatibilité et les problèmes résolus dans cette version, consultez l’article [Notes de mise à jour](release-notes-2023-3-0.md) .
 
 
 ## Ouverture et lecture de fichiers vidéo ou audio dans l’éditeur web
 
-AEM Guides fournit désormais la fonctionnalité permettant d’ouvrir et de lire les fichiers audio ou vidéo dans l’éditeur web. Vous pouvez modifier le volume ou l’affichage de la vidéo. Dans le menu contextuel, vous avez également la possibilité de **Télécharger**, modifier **Lecture de la vitesse** ou afficher **Image dans l’image**.
+AEM Guides fournit désormais la fonctionnalité permettant d’ouvrir et de lire les fichiers audio ou vidéo dans l’éditeur web. Vous pouvez modifier le volume ou l’affichage de la vidéo. Dans le menu contextuel, vous avez également les options **Télécharger**, modifier la **vitesse de lecture arrière** ou afficher **Image dans l&#39;Image**.
 
 <img src="assets/video-web-editor.png" alt="vidéo de lecture" width="600">
 

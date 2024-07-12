@@ -17,7 +17,7 @@ Voici quelques fonctions courantes des éditeurs de mappage de base et avancé :
 
 ## Résoudre les références de clés {#id176GD01H05Z}
 
-une référence de clé de contenu DITA, ou `conkeyref` est un mécanisme permettant d’insérer une partie du contenu d’une rubrique dans une autre. Ce mécanisme utilise la clé pour localiser le contenu à réutiliser plutôt que le mécanisme de référencement direct du contenu. Pour plus d’informations sur le référencement direct et indirect dans DITA, voir *adressage DITA* dans la spécification du langage OASIS DITA.
+Une référence de clé de contenu DITA, ou `conkeyref`, est un mécanisme permettant d’insérer une partie du contenu d’une rubrique dans une autre. Ce mécanisme utilise la clé pour localiser le contenu à réutiliser plutôt que le mécanisme de référencement direct du contenu. Pour plus d’informations sur le référencement direct et indirect dans DITA, voir *Adressage DITA* dans Spécification du langage OASIS DITA.
 
 Si la rubrique DITA comporte des références clés associées, elles doivent être résolues avant de prévisualiser, modifier ou revoir une rubrique.
 
@@ -33,12 +33,12 @@ Les références de clé peuvent être stockées dans un fichier de mappage DITA
 
 Il existe plusieurs façons de résoudre les références clés dans une rubrique DITA en définissant le mappage DITA à utiliser aux emplacements suivants :
 
-**Propriétés du projet** - Vous pouvez définir une carte racine pour résoudre les références clés lors de la création d’un projet dans la section Propriétés du projet .
+**Propriétés du projet** - Vous pouvez définir une carte racine pour résoudre les références clés lors de la création d’un projet dans la section Propriétés du projet.
 
 Ce mappage racine s’applique à toutes les ressources \(dossiers et sous-dossiers\) associées à ce projet. Pour le contenu référencé dans plusieurs projets, une liste alphabétique des projets est conservée et la carte racine par défaut associée au premier projet est utilisée. Vous pouvez également choisir le mappage DITA à utiliser dans la liste pour résoudre les références clés.
 
 **Aperçu de la rubrique** - En mode d’aperçu de la rubrique, cliquez sur l’icône Résolution de la clé dans la barre d’outils et sélectionnez le fichier DITA à utiliser pour les références de clé.
 
-**Mode d’édition des rubriques** - Cliquez sur l’icône Résolution de la clé lors de la modification d’une rubrique DITA et sélectionnez le fichier DITA à utiliser pour résoudre les références de clé.
+**Vue de modification de la rubrique** - Cliquez sur l’icône Résolution de la clé lors de la modification d’une rubrique DITA et sélectionnez le fichier DITA à utiliser pour résoudre les références de clé.
 
 **Rubrique parente :**[ Utilisation de l’éditeur de cartes](map-editor.md)

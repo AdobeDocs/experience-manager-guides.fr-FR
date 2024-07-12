@@ -5,14 +5,14 @@ source-wordcount: '227'
 ht-degree: 2%
 
 ---
-# Installation et configuration des guides Adobe Experience Manager as a Cloud Service
+# Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service
 
 - [Clause de non-responsabilité](rebranding-disclaimer.md)
 - [À propos de ce guide](introduction.md)
 - [Télécharger et installer](download-install.md)
    - [Déploiement du module AEM Guides](download-install-dxml-first-time.md)
    - [Configuration du Dispatcher](download-install-configure-dispatcher.md)
-   - [Vérification de l’installation AEM Guides](download-install-verify-dxml-installation.md)
+   - [Vérification de l’installation d’AEM Guides](download-install-verify-dxml-installation.md)
    - [Remplacements de configuration](download-install-additional-config-override.md)
    - [Recommendations pour l’optimisation des performances](download-install-recommend-perf-optimiz.md)
 - [Administration et sécurité des utilisateurs](user-admin-sec.md)

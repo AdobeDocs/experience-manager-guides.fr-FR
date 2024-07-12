@@ -1,5 +1,5 @@
 ---
-title: Fonction de publication native d’un PDF | Application d’un style personnalisé aux entrées de la table des matières et au contenu de la rubrique
+title: Fonctionnalité Publish du PDF natif | Application d’un style personnalisé aux entrées de la table des matières et au contenu de la rubrique
 description: Découvrez comment créer des feuilles de style et créer des styles pour votre contenu.
 exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 feature: Output Generation
@@ -14,20 +14,20 @@ ht-degree: 0%
 
 # Application d’un style personnalisé aux entrées de la table des matières et au contenu de la rubrique
 
-Parfois, vous pouvez appliquer un style personnalisé aux entrées de la table des matières ou à une rubrique particulière. Pour ce faire, vous pouvez associer une `outputclass` avec l’attribut `<topicref>` dans votre mappage DITA. En outre, si vous souhaitez appliquer un format personnalisé à une rubrique entière, cela peut également être réalisé en étendant la définition de style de l’attribut dans le CSS.
+Parfois, vous pouvez appliquer un style personnalisé aux entrées de la table des matières ou à une rubrique particulière. Pour ce faire, vous pouvez associer un attribut `outputclass` à l’élément `<topicref>` de votre carte DITA. En outre, si vous souhaitez appliquer un format personnalisé à une rubrique entière, cela peut également être réalisé en étendant la définition de style de l’attribut dans le CSS.
 
-Prenons un exemple d’une nouvelle rubrique que vous souhaitez envoyer pour révision. Pour identifier facilement la rubrique mise à jour, vous devez ajouter une `outputclass` à l’attribut `<topicref>` dans votre mappage DITA, puis définissez un style personnalisé pour le même dans le CSS.
+Prenons un exemple d’une nouvelle rubrique que vous souhaitez envoyer pour révision. Pour identifier facilement la rubrique mise à jour, vous devez ajouter un attribut `outputclass` à l’élément `<topicref>` de votre mappage DITA, puis définir un style personnalisé pour le même élément dans le CSS.
 
-Dans l’exemple suivant, la variable *Histoire des vols* une rubrique a été affectée à une `outputclass` avec la valeur de `new-topic`.
+Dans l’exemple suivant, la rubrique *Historique des vols* a reçu un attribut `outputclass` avec la valeur `new-topic`.
 
 <img src="./assets/new-topic-attribute-in-map.png" width="500">
 
-La définition de classe de la variable `new-topic` dans une page CSS peut vous permettre de définir le style des éléments suivants :
+La définition de classe de l’élément `new-topic` dans un CSS peut vous permettre de définir le style des éléments suivants :
 * Entrée principale dans la table des matières ou la mini-table des matières
 * Titre de la rubrique dans le contenu principal
 * Contenu complet de la rubrique, y compris le titre
 
-Voyons comment chacun de ces scénarios peut être défini dans le CSS. Dans la définition CSS suivante de la variable `new-topic` , la couleur du texte a été modifiée.
+Voyons comment chacun de ces scénarios peut être défini dans le CSS. Dans la définition CSS suivante de la classe `new-topic`, la couleur du texte a été modifiée.
 
 ```css
 …
@@ -61,7 +61,7 @@ Si vous souhaitez que l’entrée de la table des matières et le titre du sujet
 ...
 ```
 
-Enfin, vous pouvez également appliquer des styles à l’ensemble du contenu de la rubrique. Pour ce faire, vous devez ajouter un suffixe &quot;`-content`&quot; au nom de la classe. Dans l’exemple suivant, une barre de modification a été ajoutée sur l’ensemble du contenu de la rubrique :
+Enfin, vous pouvez également appliquer des styles à l’ensemble du contenu de la rubrique. Pour ce faire, vous devez ajouter le suffixe &quot;`-content`&quot; au nom de la classe. Dans l’exemple suivant, une barre de modification a été ajoutée sur l’ensemble du contenu de la rubrique :
 
 ```css
 ...
@@ -72,6 +72,6 @@ Enfin, vous pouvez également appliquer des styles à l’ensemble du contenu de
 ...
 ```
 
-À l’aide des attributs de style ci-dessus, une barre de modification est ajoutée à gauche du *Histoire du vol* , comme illustré ci-dessous :
+À l’aide des attributs de style ci-dessus, une barre de modification est ajoutée à gauche de la rubrique *Historique du vol*, comme illustré ci-dessous :
 
 <img src="./assets/pdf-output-topic-content.jpg" width="500">

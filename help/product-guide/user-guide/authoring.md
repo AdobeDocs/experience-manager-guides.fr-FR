@@ -13,7 +13,7 @@ ht-degree: 10%
 
 # Gestion du contenu {#id164JBG0M0T1}
 
-Avant de commencer la création du contenu, vous devez vous familiariser avec certains concepts de base de la gestion de contenu dans les Guides d’AEM. Commencez ensuite par créer différents groupes d’utilisateurs et organiser vos ressources.
+Avant de commencer la création proprement dite du contenu, vous devez vous familiariser avec certains concepts de base de la gestion de contenu dans AEM Guides. Commencez ensuite par créer différents groupes d’utilisateurs et organiser vos ressources.
 
 ## Principaux concepts
 
@@ -21,7 +21,7 @@ Voici quelques concepts clés de la gestion de contenu dans AEM :
 
 **Gestion des ressources**
 
-AEM Guides utilise AEM gestion des ressources numériques \(DAM\) pour gérer vos fichiers DITA. Les fichiers que vous chargez ou archivez dans la gestion des ressources numériques sont stockés en tant que ressources numériques. Vous pouvez gérer et modifier vos ressources dans AEM Assets. Pour plus d’informations sur la gestion des ressources, voir [Gestion des ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=fr).
+AEM Guides utilise la gestion des actifs numériques (DAM)  pour gérer vos fichiers DITA. Les fichiers que vous chargez ou archivez dans la gestion des ressources numériques sont stockés en tant que ressources numériques. Vous pouvez gérer et modifier vos ressources dans AEM Assets. Pour plus d’informations sur la gestion des ressources, voir [Gestion des ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=fr).
 
 **Gestion des liens**
 
@@ -31,19 +31,19 @@ Déplacez ou renommez des fichiers ou modifiez la structure de dossiers dans le 
 
 AEM Guides permet de gérer les versions de vos ressources numériques. Vous pouvez facilement activer cette fonctionnalité depuis une application de création DITA de votre choix. Permet à vos auteurs d’exécuter les fonctions de contrôle de version standard telles que l’archivage et l’extraction.
 
-Pour plus d’informations sur la création de versions ou le rétablissement d’une version spécifique, voir [Branchement, restauration et contrôle de version ultérieur](web-editor-preview-topics.md#id193PG0Y051X).
+Pour plus d’informations sur la création de versions ou le rétablissement d’une version spécifique, voir [Branche, restauration et contrôle de version ultérieur](web-editor-preview-topics.md#id193PG0Y051X).
 
-**Gestion native DITA**
+**Gestion native de DITA**
 
-Bien qu’AEM Guides conserve la structure de vos fichiers DITA, il permet également à AEM de gérer en mode natif le DITA à l’aide du mappage d’éléments pour mapper les éléments DITA à des composants AEM. La gestion native du DITA est utilisée dans des fonctionnalités telles que l’aperçu de rubrique, la publication AEM Sites et les workflows de révision.
+Bien qu’AEM Guides conserve la structure de vos fichiers DITA, il permet également à AEM de gérer de manière native le DITA à l’aide du mappage d’éléments pour mapper les éléments DITA aux composants AEM. La gestion native du DITA est utilisée dans des fonctionnalités telles que l’aperçu de rubrique, la publication AEM Sites et les workflows de révision.
 
 ## Identification de votre rôle et de vos autorisations {#id181TF0K0MHT}
 
-AEM Guides fournit trois groupes prêts à l’emploi. Ces groupes sont les suivants : *Auteurs*, *Réviseurs*, et *Éditeurs*. Selon le groupe auquel vous êtes associé, vous disposez des autorisations nécessaires pour effectuer des tâches spécifiques, comme indiqué dans le tableau ci-dessous. Par exemple, la tâche de publication peut être effectuée uniquement par un éditeur, mais pas par un auteur ou un réviseur. De même, un auteur peut créer une rubrique et un réviseur ne peut consulter qu’une rubrique.
+AEM Guides fournit trois groupes prêts à l’emploi. Ces groupes sont les suivants : *Auteurs*, *Réviseurs* et *Éditeurs*. Selon le groupe auquel vous êtes associé, vous disposez des autorisations nécessaires pour effectuer des tâches spécifiques, comme indiqué dans le tableau ci-dessous. Par exemple, la tâche de publication peut être effectuée uniquement par un éditeur, mais pas par un auteur ou un réviseur. De même, un auteur peut créer une rubrique et un réviseur ne peut consulter qu’une rubrique.
 
 >[!TIP]
 >
-> Voir *Autorisations* section du guide Bonnes pratiques pour connaître les bonnes pratiques relatives à la définition des autorisations d’utilisateur.
+> Consultez la section *Autorisations* du guide Bonnes pratiques pour connaître les bonnes pratiques relatives à la définition des autorisations d’utilisateur.
 
 Le tableau suivant répertorie les différentes tâches et les groupes pouvant effectuer ces tâches :
 
@@ -65,29 +65,29 @@ Le tableau suivant répertorie les différentes tâches et les groupes pouvant e
 | **État du document** |
 | Création/modification d’un profil d’état de document |   |   | Oui |
 | Modifier l’état du document[2](#fntarg_2) | Oui | Oui | Oui |
-| **Fonctions disponibles dans la console de mappage DITA \(onglet Paramètres prédéfinis de sortie\)** |
+| **Fonctionnalités disponibles dans la console de mappage DITA \(onglet Paramètres prédéfinis de sortie\)** |
 | Générer |   |   | Oui |
 | Modifier |   |   | Oui |
 | Dupliquer |   |   | Oui |
 | Créer |   |   | Oui |
 | Supprimer le paramètre prédéfini |   |   | Oui |
-| **Fonctionnalités disponibles dans la console de mappage DITA \(onglet Sorties\)** |
+| **Fonctionnalités disponibles dans la console de mappage DITA \(onglet Sorties\){1** |
 | Afficher la sortie générée | Oui |   | Oui |
-| **Fonctions disponibles dans la console de mappage DITA \(onglet Rubriques\)** |
+| **Fonctionnalités disponibles dans la console de mappage DITA \(onglet Rubriques\){1** |
 | Créer une tâche de révision | Oui |   | Oui |
 | Modifier | Oui |   | Oui |
-| **Fonctionnalités disponibles dans la console de mappage DITA \(onglet Lignes de base\)** |
+| **Fonctionnalités disponibles dans la console de mappage DITA \(onglet Lignes de base\){1** |
 | Créer |   |   | Oui |
 | Modifier |   |   | Oui |
 | Dupliquer |   |   | Oui |
 | Supprimez |   |   | Oui |
 | Console de mappage DITA \(onglet Rapports\) | Oui |   | Oui |
-| **Fonctions disponibles dans la console de mappage DITA \(Paramètres prédéfinis de condition\)** |
+| **Fonctionnalités disponibles dans la console de mappage DITA \(Paramètres prédéfinis de condition\)** |
 | Créer/modifier un paramètre prédéfini de condition |   |   | Oui |
 
-[1](#fnsrc_1) If *Auteurs* et *Éditeurs* sont invités à une révision.
+[1](#fnsrc_1) Si *Auteurs* et *Éditeurs* sont invités pour une révision.
 
-[2](#fnsrc_2) En fonction des droits accordés à l’utilisateur dans le profil d’état du document.
+[2](#fnsrc_2) Selon les droits accordés à l’utilisateur dans le profil d’état du document.
 
 ## Conditions préalables à la création de contenu
 
@@ -99,4 +99,4 @@ AEM Guides vous permet de configurer la création de modèles \(rubrique ou mapp
 
 Vous pouvez également déléguer les configurations spécifiques aux dossiers à un service ou à des administrateurs de produit pour décentraliser l’administration.
 
-Pour plus d’informations sur la configuration des profils globaux et au niveau du dossier, voir *Configuration de profils globaux ou au niveau du dossier* dans Installation et configuration de Adobe Experience Manager Guides as a Cloud Service.
+Pour plus d’informations sur la configuration des profils globaux et au niveau du dossier, voir *Configuration des profils globaux ou au niveau du dossier* dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.

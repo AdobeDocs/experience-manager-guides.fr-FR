@@ -23,38 +23,38 @@ AEM Guides vous permet de créer et d’associer facilement des attributs condit
 
 Pour définir des attributs conditionnels, procédez comme suit :
 
-1. Cliquez sur le lien Adobe Experience Manager en haut de l’écran et choisissez **Outils**.
+1. Cliquez sur le lien Adobe Experience Manager en haut de l’écran et sélectionnez **Outils**.
 
-1. Sélectionner **Guides** dans la liste des outils.
+1. Sélectionnez **Guides** dans la liste des outils.
 
-1. Cliquez sur le bouton **Profils de dossier** et sélectionnez un profil de dossier.
+1. Cliquez sur la mosaïque **Profils de dossier** et sélectionnez un profil de dossier.
 
    >[!NOTE]
    >
    > Vous ne pouvez pas modifier le profil global.
 
-1. Cliquez sur le bouton **Attributs conditionnels** et cliquez sur **Modifier**.
+1. Cliquez sur l’onglet **Attributs conditionnels** et cliquez sur **Modifier**.
 
    Le tableau Attributs conditionnels s’affiche.
 
 1. Cliquez sur **Ajouter**.
 
-1. Saisissez le **Nom**, **Valeur**, et a **Libellé** pour l’attribut .
+1. Saisissez le **Nom**, la **Valeur** et un **Libellé** pour l’attribut.
 
    Vous pouvez enregistrer un profil avec uniquement le nom de l’attribut. Cependant, un attribut ne peut être utilisé que s’il a une valeur qui lui est spécifiée. Si vous spécifiez à la fois la valeur et le libellé d’un attribut, l’éditeur Web n’affichera que la valeur de l’attribut. Le libellé s’affiche pour l’administrateur de publication au moment de la création d’un paramètre prédéfini conditionnel.
 
-   La capture d’écran suivante montre la définition de la variable `platform` avec la valeur de `unix` et un libellé de `Red Hat Linux`.
+   La capture d’écran suivante montre la définition de l’attribut `platform` avec la valeur `unix` et un libellé `Red Hat Linux`.
 
    ![](images/add-profile.png){width="800" align="left"}
 
-1. Si vous souhaitez ajouter d’autres valeurs pour le même attribut, cliquez sur le bouton **+** et saisissez une valeur et un libellé supplémentaires.
+1. Si vous souhaitez ajouter d’autres valeurs pour le même attribut, cliquez sur l’icône **+** et saisissez une valeur et un libellé supplémentaires.
 
-1. Pour ajouter d’autres attributs, cliquez sur **Ajouter**.
+1. Si vous souhaitez ajouter d’autres attributs, cliquez sur **Ajouter**.
 
 1. Cliquez sur **Enregistrer** pour enregistrer les modifications.
 
 
-La variable `platform` est stocké dans le système. Lorsqu’un auteur décide d’utiliser la variable `platform` dans une rubrique DITA dans un dossier, les valeurs s’affichent dans l’onglet Propriétés de l’éditeur web.
+L’attribut `platform` est stocké dans le système. Chaque fois qu’un auteur décide d’utiliser l’attribut `platform` dans une rubrique DITA dans un dossier, il voit les valeurs dans l’onglet Propriétés de l’éditeur web.
 
 ![](images/properties-tab.png){width="350" align="left"}
 

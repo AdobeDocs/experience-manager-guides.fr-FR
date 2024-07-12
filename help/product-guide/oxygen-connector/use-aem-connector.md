@@ -1,6 +1,6 @@
 ---
-title: Module externe Oxygen pour les guides Adobe Experience Manager
-description: Découvrez comment utiliser le module externe Oxygen pour les guides Adobe Experience Manager pour créer et gérer votre contenu.
+title: Module externe Oxygen pour Adobe Experience Manager Guides
+description: Découvrez comment utiliser le module externe Oxygen pour Adobe Experience Manager Guides pour créer et gérer votre contenu.
 hide: true
 hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
@@ -13,25 +13,25 @@ ht-degree: 0%
 
 ---
 
-# Module externe Oxygen pour les guides Adobe Experience Manager {#id1645H6010Q5}
+# Module externe Oxygen pour Adobe Experience Manager Guides {#id1645H6010Q5}
 
-Le module externe Oxygen pour les guides Adobe Experience Manager \(appelé ultérieurement module externe Oxygen pour les guides d’AEM dans le guide\) vous permet de connecter l’auteur XML Oxygen au référentiel Adobe Experience Manager \(AEM\) pour la création et la gestion de contenu. Vous pouvez utiliser le module externe pour parcourir, rechercher et ouvrir des fichiers ; extraire et archiver des fichiers ; charger des dossiers et des fichiers sur le référentiel AEM. Le panneau AEM Guides de l’application de bureau vous permet de marquer les dossiers de votre choix \(du référentiel AEM\) vers la liste des dossiers favoris pour un accès rapide. De plus, vous pouvez installer un package dans AEM interface web et ouvrir vos fichiers DITA dans Auteur XML Oxygen directement à partir de l’interface web AEM.
+Le module externe Oxygen pour Adobe Experience Manager Guides \(plus tard appelé module externe Oxygen pour AEM Guides dans le guide\) vous permet de connecter l’auteur XML Oxygen au référentiel Adobe Experience Manager \(AEM\) pour la création et la gestion de contenu. Vous pouvez utiliser le module externe pour parcourir, rechercher et ouvrir des fichiers ; extraire et archiver des fichiers ; charger des dossiers et des fichiers sur le référentiel AEM. Le panneau AEM Guides de l’application de bureau vous permet de marquer les dossiers de votre choix \(du référentiel d’AEM\) dans la liste des dossiers favoris pour un accès rapide. De plus, vous pouvez installer un package dans AEM interface web et ouvrir vos fichiers DITA dans Auteur XML Oxygen directement à partir de l’interface web AEM.
 
 ## Télécharger et installer {#id1826M0L0PUI}
 
-Le module externe Oxygen pour AEM Guides est disponible via votre portail de distribution de logiciels Adobe. Recherchez &quot;oxygène&quot; dans l’onglet du Experience Manager, puis téléchargez le programme d’installation du module externe depuis votre [Portail de distribution de logiciels Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
+Le module externe Oxygen pour AEM Guides est disponible via votre portail de distribution de logiciels Adobe. Recherchez &quot;oxygène&quot; dans l’onglet Experience Manager, puis téléchargez le programme d’installation du module externe à partir de votre [portail de distribution de logiciels Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
 
 >[!NOTE]
 >
->Vérifiez la compatibilité de la version du connecteur Oxygen dans les notes de mise à jour des Guides Adobe Experience Manager spécifiques.
+>Vérifiez la compatibilité de la version du connecteur Oxygen dans les notes de mise à jour pour Adobe Experience Manager Guides spécifique.
 
-Une fois que vous avez installé le programme d’installation, installez-le sur votre ordinateur local sur lequel Oxygen XML Author est installé. Avant de commencer le processus d’installation, vous devez vous assurer que votre système répond aux exigences techniques d’installation du module externe Oxygen pour les AEM Guides.
+Une fois que vous avez installé le programme d’installation, installez-le sur votre ordinateur local sur lequel Oxygen XML Author est installé. Avant de commencer le processus d’installation, vous devez vous assurer que votre système répond aux exigences techniques d’installation du module externe Oxygen pour AEM Guides.
 
 ### Exigences techniques
 
 - Oxygen XML Author version 25.1
 
-- Guides Adobe Experience Manager version 4.3 ou ultérieure
+- Adobe Experience Manager Guides version 4.3 ou ultérieure
 
 - Adobe Experience Manager version 6.5 avec Service Pack 14, 15, 16 et 17
 
@@ -44,17 +44,17 @@ Une fois que vous avez installé le programme d’installation, installez-le sur
 
 >[!IMPORTANT]
 >
->Si une ancienne version du module externe est installée sur votre système, assurez-vous de la désinstaller avant de lancer le processus d’installation. Voir **Désinstallation des modules** dans la section [Utilisation de modules](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) article pour les instructions de désinstallation.
+>Si une ancienne version du module externe est installée sur votre système, assurez-vous de la désinstaller avant de lancer le processus d’installation. Pour obtenir des instructions de désinstallation, reportez-vous à la section **Désinstallation de packages** de l’article [Comment travailler avec des packages](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) .
 
 Effectuez les étapes suivantes sur le système où Oxygen XML Author est installé :
 
-1. Lancez le programme d’installation `.exe` fichier .
+1. Lancez le fichier `.exe` du programme d’installation.
 
    L’écran de bienvenue de l’assistant d’installation s’affiche.
 
-1. Cliquez sur **Suivant** et accédez à l’emplacement où le fichier .exe de l’auteur XML Oxygen est disponible.
+1. Cliquez sur **Next** et accédez à l’emplacement où le fichier .exe de l’auteur XML Oxygen est disponible.
 
-1. Sélectionnez le fichier, puis cliquez sur **Ouvrir**.
+1. Sélectionnez le fichier et cliquez sur **Ouvrir**.
 
    L’emplacement du fichier sélectionné est ajouté dans l’assistant d’installation.
 
@@ -65,20 +65,20 @@ Effectuez les étapes suivantes sur le système où Oxygen XML Author est instal
 1. Cliquez sur **Terminer** pour fermer l&#39;assistant d&#39;installation.
 1. Lancez Auteur XML Oxygen.
 
-   Le panneau Guides d’AEM s’affiche dans l’auteur XML Oxygen.
+   Le panneau AEM Guides s’affiche dans l’auteur XML Oxygen.
 
-   ![Connecteur AEM](images/oxygen-aem-connector.png){width="800" align="left"}
+   ![AEM connecteur](images/oxygen-aem-connector.png){width="800" align="left"}
 
    >[!NOTE]
    >
-   >Si vous ne voyez pas le panneau AEM Guides, reportez-vous aux solutions de contournement dans la section de dépannage—[Panneau Guides AEM manquants](#id192BH200ZAX).
+   >Si vous ne voyez pas le panneau AEM Guides, reportez-vous aux solutions de contournement dans la section de dépannage—[Panneau AEM Guides manquant](#id192BH200ZAX).
 
 
 ### Installation du module externe sur Mac
 
 >[!IMPORTANT]
 >
->Si une ancienne version du module externe est installée sur votre système, assurez-vous de la désinstaller avant de lancer le processus d’installation. Voir **Désinstallation des modules** dans la section [Utilisation de modules](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) instructions de désinstallation de l’article.
+>Si une ancienne version du module externe est installée sur votre système, assurez-vous de la désinstaller avant de lancer le processus d’installation. Reportez-vous à la section **Désinstallation de packages** dans les instructions de désinstallation de l’article [Comment travailler avec des packages](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) .
 
 Effectuez les étapes suivantes sur le système où Oxygen XML Author est installé :
 
@@ -97,13 +97,13 @@ Effectuez les étapes suivantes sur le système où Oxygen XML Author est instal
 
 1. Lancez Auteur XML Oxygen.
 
-   Le panneau Guides d’AEM s’affiche dans l’auteur XML Oxygen.
+   Le panneau AEM Guides s’affiche dans l’auteur XML Oxygen.
 
-   ![Mac du connecteur AEM](images/oxygen-aem-connector-mac.png) {width="800" align="left"}
+   ![Mac du connecteur d’AEM](images/oxygen-aem-connector-mac.png) {width="800" align="left"}
 
    >[!NOTE]
    >
-   >Si vous ne voyez pas le panneau AEM Guides, reportez-vous aux solutions de contournement dans la section de dépannage—[Panneau Guides AEM manquants](#id192BH200ZAX).
+   >Si vous ne voyez pas le panneau AEM Guides, reportez-vous aux solutions de contournement dans la section de dépannage—[Panneau AEM Guides manquant](#id192BH200ZAX).
 
 
 ### Installez le package pour activer la fonction d’édition de documents à partir de l’interface web d’AEM {#id182CE0Q0TY4}
@@ -119,9 +119,9 @@ En tant qu’administrateur AEM, procédez comme suit pour installer le package 
 
    Le gestionnaire de modules gère les modules de votre installation AEM locale. Pour plus d’informations sur l’utilisation du gestionnaire de modules, voir [Utilisation de modules](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) dans la documentation AEM.
 
-   ![Gestionnaire de modules](images/package-manager.png) {width="650" align="left"}
+   ![ ](images/package-manager.png) {width="650" align="left"}
 
-1. Pour charger le package Oxygen, cliquez sur **Télécharger le module**.
+1. Pour charger le package Oxygen, cliquez sur **Télécharger le package**.
 1. Dans la boîte de dialogue Télécharger le package , accédez au fichier de package Oxygen que vous avez téléchargé à l’étape 1, puis cliquez sur OK.
 
    Le package est téléchargé sur votre instance AEM.
@@ -131,23 +131,23 @@ En tant qu’administrateur AEM, procédez comme suit pour installer le package 
    ![Package Oxygen](images/oxygen-package.png){width="650" align="left"}
 
 1. Dans la boîte de dialogue Installer le package, cliquez sur **Installer**.
-1. Une fois l’installation terminée, cliquez sur le bouton Accueil dans le coin supérieur gauche de CRX Package Manager.
+1. Une fois l’installation terminée, cliquez sur le bouton Accueil dans le coin supérieur gauche du Gestionnaire de modules CRX.
 1. Sélectionnez un fichier DITA dans votre dossier de ressources.
 
-   **Modifier dans Oxygen** est disponible dans la barre d’outils. Pour plus d’informations sur l’utilisation de cette option, voir [Ouvrir la rubrique DITA dans l’auteur XML Oxygen à partir de l’interface web AEM](#id182CE0I905Z).
+   L’option **Modifier dans Oxygen** est disponible dans la barre d’outils. Pour plus d’informations sur l’utilisation de cette option, voir [Ouvrir la rubrique DITA dans Auteur XML Oxygen à partir de l’interface web d’AEM](#id182CE0I905Z).
 
    >[!NOTE]
    >
-   >La variable **Modifier dans Oxygen** est visible lorsque vous sélectionnez une rubrique DITA. Si vous sélectionnez plusieurs rubriques, l’option ne sera pas visible.
+   >L’option **Modifier dans Oxygen** est visible lorsque vous sélectionnez une rubrique DITA. Si vous sélectionnez plusieurs rubriques, l’option ne sera pas visible.
 
 
 ## Configuration du module externe Oxygen pour AEM Guides {#id1826KF00AHS}
 
 Après avoir téléchargé et installé le module externe, vous devez configurer les éléments suivants pour qu’ils fonctionnent avec le module externe :
 
-- **Paramètres d&#39;authentification web**: paramètres pour l’authentification SSO dans le module externe pour les Guides d’AEM.
-- **Paramètres généraux**: paramètres de connexion du module externe, tels que l’URL du serveur d’AEM, les détails de connexion, etc.
-- **Préférences pour la personnalisation des attributs de profilage et les noms de fichier dans les références croisées**: cette configuration est requise pour les schémas d’attributs de profilage pour les jeux de documentation.
+- **Paramètres d’authentification web** : paramètres de l’authentification SSO dans le module externe pour AEM Guides.
+- **Paramètres généraux** : paramètres de connexion du module externe, tels que l’URL du serveur d’AEM, les détails de connexion, etc.
+- **Préférence pour la personnalisation des attributs de profilage et les noms de fichier dans les références croisées** : cette configuration est requise pour les schémas d’attributs de profilage pour les jeux de documentation.
 
 ### Paramètres d&#39;authentification web
 
@@ -205,14 +205,14 @@ Ajoutez les lignes suivantes dans le fichier oxygèneAuthor.bat.
 
 ### Paramètres généraux
 
-Effectuez les étapes suivantes pour configurer les paramètres de connexion dans les guides du module externe Oxygen pour Adobe Experience Manager :
+Effectuez les étapes suivantes pour configurer les paramètres de connexion dans le module externe Oxygen pour Adobe Experience Manager Guides :
 
-1. Dans le panneau Guides d’AEM, cliquez sur l’icône de paramètres, puis sélectionnez **Paramètres**.
+1. Dans le panneau AEM Guides, cliquez sur l’icône des paramètres, puis sélectionnez **Paramètres**.
 
-   ![Paramètres de connexion ](images/settings.png){width="800" align="left"}
+   ![ Paramètres de connexion ](images/settings.png){width="800" align="left"}
 
 1. Indiquez les informations suivantes :
-   - **URL du serveur**: URL du serveur AEM, par exemple :
+   - **URL du serveur** : URL du serveur AEM, par exemple :
 
      ```http
      http[s]://<host>:<port>
@@ -224,17 +224,17 @@ Effectuez les étapes suivantes pour configurer les paramètres de connexion dan
      >
      >Si votre serveur AEM est déployé sur le port 80 ou 443, vous n’avez pas besoin de le spécifier dans l’URL.
 
-   - **Authentification :** Choisir parmi **De base \(Nom d’utilisateur/Mot de passe\)** ou **Authentification web**. Si vous sélectionnez **De base** l’authentification que vous devez renseigner dans la variable **Nom d’utilisateur** et **Password** dans la boîte de dialogue Préférences.
+   - **Authentification :** Choisissez parmi **Basic \(Username/Password\)** ou **Web Authentication**. Si vous sélectionnez l’authentification **De base**, vous devez saisir le **nom d’utilisateur** et le **mot de passe** dans la boîte de dialogue Préférences.
 
-     Si vous sélectionnez Authentification Web, l’écran AEM connexion s’affiche. Saisissez vos informations de connexion et cliquez sur le bouton **Se connecter** bouton . Une fois la connexion établie, l’écran AEM connexion se ferme et le panneau AEM Guides affiche la liste des fichiers du serveur AEM.
+     Si vous sélectionnez Authentification Web, l’écran AEM connexion s’affiche. Saisissez vos informations de connexion et cliquez sur le bouton **Se connecter** . Une fois la connexion établie, l’écran AEM connexion se ferme et le panneau AEM Guides affiche la liste des fichiers du serveur AEM.
 
-   - **Délai de connexion**: spécifiez le temps d’attente, en secondes, d’une réponse du client par rapport au serveur AEM. Si aucune réponse du serveur n’est reçue dans le délai spécifié, la requête est arrêtée. La valeur par défaut est de 20 secondes.
+   - **Délai de connexion** : spécifiez le temps en secondes pendant lequel le client attend une réponse du serveur AEM. Si aucune réponse du serveur n’est reçue dans le délai spécifié, la requête est arrêtée. La valeur par défaut est de 20 secondes.
 
-   - **Dossier local**: emplacement sur votre ordinateur local où les fichiers du référentiel AEM sont stockés après extraction. Si vous spécifiez un emplacement qui n’existe pas sur le lecteur, le module externe crée cet emplacement.
-   - **Ouvrir le fichier lors de l’extraction**: s’il est sélectionné, ouvre les fichiers lors de l’extraction.
-   - **Fermer le fichier lors de l’archivage**: si cette option est sélectionnée, les fichiers sont fermés lors de l’archivage. Avant de fermer le fichier, une fenêtre contextuelle s’affiche, dans laquelle vous pouvez spécifier les commentaires de version.
-   - **Afficher la boîte de dialogue d’archivage lors de la fermeture du fichier**: s’il est sélectionné, une fenêtre contextuelle s’affiche lors de la fermeture d’un fichier. Dans la fenêtre contextuelle, vous pouvez choisir d’archiver le fichier ou de le fermer sans archiver.
-   - **Extraction automatique du fichier lorsqu’il est ouvert**: si cette option est sélectionnée, un double-clic sur un fichier l’extrait automatiquement et l’ouvre pour modification. Si le fichier est déjà extrait, il est simplement ouvert pour modification. Si cette option n’est pas sélectionnée, l’ouverture d’un fichier sur lequel vous n’avez pas de verrouillage l’ouvre en mode lecture seule.
+   - **Dossier local** : emplacement sur votre ordinateur local où les fichiers du référentiel AEM sont stockés après extraction. Si vous spécifiez un emplacement qui n’existe pas sur le lecteur, le module externe crée cet emplacement.
+   - **Ouvrir le fichier lors de l’extraction** : si cette option est sélectionnée, les fichiers s’ouvrent lors de l’extraction.
+   - **Fermer le fichier lors de l’archivage** : si cette option est sélectionnée, les fichiers sont fermés lors de l’archivage. Avant de fermer le fichier, une fenêtre contextuelle s’affiche, dans laquelle vous pouvez spécifier les commentaires de version.
+   - **Afficher la boîte de dialogue d’archivage lors de la fermeture d’un fichier** : si cette option est sélectionnée, une fenêtre contextuelle s’affiche lors de la fermeture d’un fichier. Dans la fenêtre contextuelle, vous pouvez choisir d’archiver le fichier ou de le fermer sans archiver.
+   - **Fichier d’extraction automatique lors de l’ouverture** : si cette option est sélectionnée, un double-clic sur un fichier l’extrait et l’ouvre automatiquement pour modification. Si le fichier est déjà extrait, il est simplement ouvert pour modification. Si cette option n’est pas sélectionnée, l’ouverture d’un fichier sur lequel vous n’avez pas de verrouillage l’ouvre en mode lecture seule.
 1. Cliquez sur **OK**.
 
 ### Préférences pour la personnalisation des attributs de profilage et les noms de fichier dans les références croisées {#id1827K0D0OHT}
@@ -243,25 +243,25 @@ Vous devez configurer les préférences dans Oxygen XML Author pour utiliser l�
 
 Effectuez les étapes suivantes pour configurer les attributs de profilage et les références croisées :
 
-1. Dans Auteur XML Oxygen, cliquez sur **Options** \> **Préférences**.
-1. Dans le **Association du type de document** onglet, sélectionnez **DITA**, puis cliquez sur **Étendre**.
+1. Dans Oxygen XML Author, cliquez sur **Options** \> **Préférences**.
+1. Dans l’onglet **Document Type Association**, sélectionnez **DITA**, puis cliquez sur **Extend**.
 
    ![association de type de document](images/document_type_association.png){width="650" align="left"}
 
-1. Dans le **Classpath** onglet, sélectionnez `com.adobe.o2.connector` dans le **Utilisation du module externe de chargement de classe parent avec identifiant** menu déroulant.
+1. Dans l’onglet **Classpath**, sélectionnez `com.adobe.o2.connector` dans la liste déroulante **Utiliser le chargeur de classe parent à partir du module externe avec ID** .
 
    ![Onglet Chemin de classe](images/dita-extension.png){width="650" align="left"}
 
-1. Dans le **Extensions** effectuez les modifications suivantes :
+1. Dans l’onglet **Extensions** , apportez les modifications suivantes :
 
-   - Cliquez sur **Choisir** en regard de **Groupe d’extensions** et sélectionnez   `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` dans le **Classe** liste. Cliquez sur **OK**.
+   - Cliquez sur **Choose** en regard du **lot Extensions** et sélectionnez   `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` dans la liste **Class**. Cliquez sur **OK**.
      ![Extension configurée pour les rubriques DITA](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
-   - Cliquez sur **Choisir** en regard de **Écouteur d’état de l’extension de création** under **Extensions individuelles** et sélectionnez `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` dans le **Classe** liste. Cliquez sur **OK**.
-   - Cliquez sur **Choisir** en regard de **Éditeur de valeur d’attribut personnalisé de création** under **Extensions individuelles** et sélectionnez `CustomValueEditor - com.adobe.o2.framework.extn` dans le **Classe** liste. Cliquez sur **OK**.
-   - Cliquez sur **Choisir** en regard de **Créateur du gestionnaire d’insertion d’objets externes** under **Extensions individuelles** et sélectionnez `CustomURLInsertionHandler - com.adobe.o2.ui ` dans le **Classe** liste. Cliquez sur **OK**.
+   - Cliquez sur **Choisir** en regard de l’ **Auteur d’écouteur d’état d’extension** sous **Extensions individuelles** et sélectionnez `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` dans la liste **Classe**. Cliquez sur **OK**.
+   - Cliquez sur **Choisir** en regard de l’ **Éditeur de valeur d’attribut personnalisé d’auteur** sous **Extensions individuelles** et sélectionnez `CustomValueEditor - com.adobe.o2.framework.extn` dans la liste **Classe**. Cliquez sur **OK**.
+   - Cliquez sur **Choose** en regard du **gestionnaire d’insertion d’objets externes d’auteur** sous **Extensions individuelles** et sélectionnez `CustomURLInsertionHandler - com.adobe.o2.ui ` dans la liste **Classe**. Cliquez sur **OK**.
 
 
-   La capture d’écran suivante montre le **Extension** pour les rubriques DITA :
+   La capture d’écran suivante montre l’onglet **Extension** configuré pour les rubriques DITA :
    <img src="images/dita-topic-extension-tab.png" alt="Extension configurée pour les rubriques DITA" width="650" border="2px">
 1. Cliquez sur **OK** dans toutes les boîtes de dialogue pour enregistrer vos modifications.
 
@@ -271,31 +271,31 @@ La configuration de l’extension de mappage DITA est requise pour permettre l�
 
 Effectuez les étapes suivantes pour configurer l’extension de mappage DITA :
 
-1. Dans Auteur XML Oxygen, cliquez sur **Options** \> **Préférences**.
-1. Dans le **Association du type de document** onglet, sélectionnez **Carte DITA**, puis cliquez sur **Étendre**.
-1. Dans le **Classpath** sélectionnez com.adobe.o2.connector dans l’onglet **Utilisation du module externe de chargement de classe parent avec identifiant** menu déroulant.
-1. Dans le **Extensions** effectuez les modifications suivantes :
-   - Cliquez sur **Choisir** en regard de **Groupe d’extensions** et sélectionnez   `com.adobe.o2.framework.extn.LinkResolverDITAMapExtensionBundle` dans le **Classe** liste. Cliquez sur **OK**.
+1. Dans Oxygen XML Author, cliquez sur **Options** \> **Préférences**.
+1. Dans l’onglet **Association de type de document**, sélectionnez **Carte DITA**, puis cliquez sur **Étendre**.
+1. Dans l’onglet **Classpath**, sélectionnez com.adobe.o2.connector dans la liste déroulante **Utiliser le chargeur de classe parent à partir du module externe avec l’ID** .
+1. Dans l’onglet **Extensions** , apportez les modifications suivantes :
+   - Cliquez sur **Choose** en regard du **lot Extensions** et sélectionnez   `com.adobe.o2.framework.extn.LinkResolverDITAMapExtensionBundle` dans la liste **Class**. Cliquez sur **OK**.
 
-   - Cliquez sur **Choisir** en regard de **Écouteur d’état de l’extension de création** under **Extensions individuelles** et sélectionnez `CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn` dans le **Classe** liste. Cliquez sur **OK**.
+   - Cliquez sur **Choisir** en regard de l’ **Auteur d’écouteur d’état d’extension** sous **Extensions individuelles** et sélectionnez `CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn` dans la liste **Classe**. Cliquez sur **OK**.
 
-   - Cliquez sur **Choisir** en regard de **Créateur du gestionnaire d’insertion d’objets externes** under **Extensions individuelles** et sélectionnez `CustomURLInsertionHandler - com.adobe.o2.ui ` dans le **Classe** liste. Cliquez sur **OK**.
+   - Cliquez sur **Choose** en regard du **gestionnaire d’insertion d’objets externes d’auteur** sous **Extensions individuelles** et sélectionnez `CustomURLInsertionHandler - com.adobe.o2.ui ` dans la liste **Classe**. Cliquez sur **OK**.
 
-   - Cliquez sur **Choisir** en regard de **Éditeur de valeur d’attribut personnalisé de création** under **Extensions individuelles** et sélectionnez `CustomValueEditor - com.adobe.o2.framework.extn` dans le **Classe** liste. Cliquez sur **OK**.
+   - Cliquez sur **Choisir** en regard de l’ **Éditeur de valeur d’attribut personnalisé d’auteur** sous **Extensions individuelles** et sélectionnez `CustomValueEditor - com.adobe.o2.framework.extn` dans la liste **Classe**. Cliquez sur **OK**.
 
-   - Cliquez sur **Choisir** en regard de **Résolveur de références** under **Extensions individuelles** et sélectionnez `CustomDITAMapReferenceResolver - com.adobe.o2` dans le **Classe** liste. Cliquez sur **OK**.
+   - Cliquez sur **Choisir** en regard du **Résolveur de références** sous **Extensions individuelles** et sélectionnez `CustomDITAMapReferenceResolver - com.adobe.o2` dans la liste **Classe**. Cliquez sur **OK**.
    - *\(Facultatif\)* Si vous ne souhaitez pas résoudre les références lors de l’ouverture d’un fichier map, vous devez effectuer la configuration supplémentaire suivante :
 
-   La capture d’écran suivante montre le **Extension** tab :
+   La capture d’écran suivante montre l’onglet **Extension** configuré :
    <img src="images/dita-map-extension-tab.png" alt="Extension configurée pour le mappage DITA" width="650" border="2px">
 
 1. Cliquez sur **OK** dans toutes les boîtes de dialogue pour enregistrer vos modifications.
 
 ## Utilisation du module externe Oxygen pour AEM Guides {#id1826JG00WY4}
 
-### Panneau Guides d’AEM
+### Panneau AEM Guides
 
-L’écran suivant affiche le panneau Guides d’AEM.
+L’écran suivant affiche le panneau AEM Guides.
 
 ![panneau connecteur](images/connector-panel.png){width="550" align="left"}
 
@@ -305,57 +305,57 @@ L’écran suivant affiche le panneau Guides d’AEM.
 
 **C**\) Le dossier DAM affiche le référentiel AEM. Vous pouvez développer et réduire l’affichage du dossier.
 
-**D**\) L’icône Paramètres \(engrenage\) avec les options suivantes :
+**D**\) Icône Paramètres \(engrenage\) avec les options suivantes :
 
-- **Connexion**: sélectionnez cette option pour vous connecter au serveur AEM. L’option est désactivée lorsque l’auteur XML Oxygen est connecté au serveur AEM.
-- **Actualiser**: sélectionnez cette option pour obtenir le dernier état des fichiers et du dossier à partir du référentiel AEM.
+- **Connect** : sélectionnez cette option pour vous connecter au serveur AEM. L’option est désactivée lorsque l’auteur XML Oxygen est connecté au serveur AEM.
+- **Actualiser** : sélectionnez cette option pour obtenir le dernier état des fichiers et du dossier à partir du référentiel AEM.
 
   >[!NOTE]
   >
-  >Assurez-vous d’enregistrer vos fichiers avant de les actualiser. Lorsque vous sélectionnez **Actualiser** , vous recevez un avertissement pour enregistrer vos fichiers avant de les actualiser. Si vous n’avez pas enregistré vos fichiers, vous pouvez cliquer sur **Annuler** et les sauver.
+  >Assurez-vous d’enregistrer vos fichiers avant de les actualiser. Lorsque vous sélectionnez l’option **Actualiser** , un avertissement s’affiche pour vous permettre d’enregistrer vos fichiers avant de les actualiser. Si vous n&#39;avez pas encore enregistré vos fichiers, vous pouvez cliquer sur **Annuler** et les enregistrer.
 
-- **Paramètres**: vous pouvez utiliser cette option pour ouvrir la boîte de dialogue de préférences générales du module externe.
-- **Déconnexion**: sélectionnez cette option pour fermer la connexion AEM serveur. Cette option est disponible uniquement si vous utilisez le mode Authentification Web .
+- **Paramètres** : vous pouvez utiliser cette option pour ouvrir la boîte de dialogue de préférences générales du module externe.
+- **Déconnexion** : sélectionnez cette option pour fermer la connexion AEM serveur. Cette option est disponible uniquement si vous utilisez le mode Authentification Web .
 
 ### Fonctions de menu contextuel
 
-Les fonctions du module externe Oxygen pour AEM Guides sont disponibles lorsque vous cliquez avec le bouton droit de la souris sur un dossier ou un fichier dans le référentiel AEM. Les fonctions disponibles pour les dossiers sont différentes des fichiers. Voici une liste complète des fonctions du module externe Oxygen pour le menu contextuel AEM Guides :
+Les fonctions du module externe Oxygen pour AEM Guides sont disponibles lorsque vous cliquez avec le bouton droit de la souris sur un dossier ou un fichier dans le référentiel AEM. Les fonctions disponibles pour les dossiers sont différentes des fichiers. Voici une liste complète des fonctions du menu contextuel du module externe Oxygen pour AEM Guides :
 
-- **Ouvrir**: ouvre le fichier sélectionné ou développe le dossier sélectionné.
-- **Ouvrir dans**: vous pouvez choisir d’ouvrir le fichier sélectionné dans l’éditeur web ou le tableau de bord des cartes d’AEM Guides ou dans l’éditeur de cartes. Pour plus d’informations sur ces options, voir [Ouvrir le fichier dans l’éditeur AEM Guides](#id195GH0V30KX).
-- **Extraction**: extrait un fichier du référentiel AEM. Pour plus d’informations, voir [Extraction de fichiers](#id195HC020TS4).
-- **Extraction avec dépendances**: extrait un fichier avec ses références directes. Pour plus d’informations, voir [Extraction de fichiers](#id195HC020TS4).
-- **Extraction avec dépendances en lecture seule**: extrait le fichier sélectionné avec ses fichiers dépendants. Vous ne pouvez pas apporter de modifications aux fichiers dépendants. Pour plus d’informations, voir [Extraction de fichiers](#id195HC020TS4).
-- **Annuler l’extraction**: annule le fichier extrait, ferme le fichier à partir de l’éditeur et rétablit les modifications sur la dernière version du fichier enregistré sur le serveur.
-- **Actualiser**: dans le cas d’un fichier, récupère la dernière copie du fichier du référentiel AEM. Pour un dossier, il récupère la structure de dossiers et l’état du fichier. Cela signifie qu’un fichier est ajouté, puis qu’il s’affiche dans la vue AEM Guides. En outre, si un fichier est extrait sur AEM serveur, l’opération Actualiser dans l’auteur Oxygen affiche le fichier comme extrait. Toutefois, cela ne met pas à jour la liste des fichiers dans la variable *Fichiers extraits dans AEM Guides* Afficher.
-- **Actualisation des fichiers extraits**: actualise la liste des fichiers extraits dans le *Fichiers extraits dans AEM Guides* Afficher. Si un fichier est extrait sur AEM serveur, l’opération d’actualisation met à jour la liste des fichiers extraits dans la variable *Fichiers extraits dans AEM Guides* Afficher. Cependant, si un nouveau fichier a été ajouté ou que l’état d’un fichier a changé, il ne le met pas à jour dans l’arborescence des Guides d’AEM. Pour mettre à jour l’état des fichiers sur AEM, vous devez effectuer une opération d’actualisation.
-- **Archivage**: extrait les fichiers que vous avez extraits. Pour plus d’informations, voir [Archivage d’un fichier](#id182CF0J0FHS).
-- **Archivage avec les dépendances**: si vous avez extrait des fichiers avec des dépendances, cette option archive le fichier principal avec ses dépendances. Pour plus d’informations, voir [Archivage d’un fichier](#id182CF0J0FHS).
-- **Créer un dossier**: crée un dossier dans le référentiel AEM. Cette option est disponible uniquement au niveau du dossier.
-- **Télécharger le fichier\(s\)**: télécharge un ou plusieurs fichiers. Pour plus d’informations, voir [Chargement de fichiers et de dossiers](#id195HC03F03J).
-- **Chargement avec des dépendances**: charge les fichiers DITA \(XML, DITA, Cartographie du livre ou Carte DITA\) avec ses fichiers dépendants. Pour plus d’informations, voir [Chargement de fichiers et de dossiers](#id195HC03F03J).
-- **Dossier de chargement**: télécharge un dossier sur le référentiel AEM. Pour plus d’informations, voir [Chargement de fichiers et de dossiers](#id195HC03F03J).
-- **Ajouter aux Favoris**: ajoute un dossier au dossier *Favoris* dans le panneau Guides d’AEM. Il est recommandé d’ajouter ici votre dossier de travail, ce qui facilite la synchronisation des fichiers et de l’état du fichier à partir d’AEM.
-- **Supprimer des favoris**: supprime un dossier de *Favoris*. Pour plus d’informations, voir [Ajouter ou supprimer des Favoris](#id195HC04405P).
-- **Afficher les métadonnées**: affiche les métadonnées telles que la classe DITA, le titre, le type, l’UUID du document et d’autres informations associées à un fichier. Pour plus d’informations, voir [Affichage des métadonnées d’un fichier](#id195GHN0H05C).
-- **Affichage des versions**: affiche l’historique des versions d’un fichier. Pour plus d’informations, voir [Affichage de l’historique des versions d’un fichier](#id195GI000D5Q).
+- **Ouvrir** : ouvre le fichier sélectionné ou développe le dossier sélectionné.
+- **Ouvrir dans** : vous pouvez choisir d’ouvrir le fichier sélectionné dans l’éditeur web d’AEM Guides, dans le tableau de bord des cartes ou dans l’éditeur de cartes. Pour plus d’informations sur ces options, voir [Ouvrir le fichier dans l’éditeur d’AEM Guides](#id195GH0V30KX).
+- **Extraction** : extrait un fichier du référentiel AEM. Pour plus d’informations, voir [Extraction de fichiers](#id195HC020TS4).
+- **Extraction avec dépendances** : extrait un fichier avec ses références directes. Pour plus d’informations, voir [Extraction de fichiers](#id195HC020TS4).
+- **Extraction avec dépendances en lecture seule** : extrait le fichier sélectionné avec ses dépendances. Vous ne pouvez pas apporter de modifications aux fichiers dépendants. Pour plus d’informations, voir [Extraction de fichiers](#id195HC020TS4).
+- **Annuler l’extraction** : annule le fichier extrait, ferme le fichier de l’éditeur et rétablit les modifications sur la dernière version du fichier enregistré sur le serveur.
+- **Actualiser** : dans le cas d’un fichier, récupère la dernière copie du fichier du référentiel AEM. Pour un dossier, il récupère la structure de dossiers et l’état du fichier. Cela signifie qu’un fichier est ajouté, puis affiché dans la vue AEM Guides. En outre, si un fichier est extrait sur AEM serveur, l’opération Actualiser dans l’auteur Oxygen affiche le fichier comme extrait. Toutefois, cela ne met pas à jour la liste des fichiers dans la vue *Fichiers extraits dans AEM Guides*.
+- **Actualiser les fichiers extraits** : actualise la liste des fichiers extraits dans la vue *Fichiers extraits dans AEM Guides*. Si un fichier est extrait sur AEM serveur, l’opération d’actualisation met à jour la liste des fichiers extraits dans la vue *Fichiers extraits dans AEM Guides*. Cependant, si un nouveau fichier a été ajouté ou que l’état d’un fichier a changé, il ne le met pas à jour dans l’arborescence AEM Guides. Pour mettre à jour l’état des fichiers sur AEM, vous devez effectuer une opération d’actualisation.
+- **Archivage** : archive les fichiers que vous avez extraits. Pour plus d’informations, voir [Archivage d’un fichier](#id182CF0J0FHS).
+- **Archivage avec dépendances** : si vous avez extrait des fichiers avec des dépendances, cette option archive le fichier principal avec ses dépendances. Pour plus d’informations, voir [Archivage d’un fichier](#id182CF0J0FHS).
+- **Créer un dossier** : crée un dossier dans le référentiel AEM. Cette option est disponible uniquement au niveau du dossier.
+- **Télécharger le fichier\(s\)** : télécharge un ou plusieurs fichiers. Pour plus d’informations, voir [Téléchargement de fichiers et de dossiers](#id195HC03F03J).
+- **Télécharger avec dépendances** : télécharge des fichiers DITA \(XML, DITA, Book map ou DITA map\) avec ses dépendances. Pour plus d’informations, voir [Téléchargement de fichiers et de dossiers](#id195HC03F03J).
+- **Télécharger le dossier** : télécharge un dossier sur le référentiel AEM. Pour plus d’informations, voir [Téléchargement de fichiers et de dossiers](#id195HC03F03J).
+- **Ajouter aux favoris** : ajoute un dossier au dossier *Favoris* dans le panneau AEM Guides. Il est recommandé d’ajouter ici votre dossier de travail, ce qui facilite la synchronisation des fichiers et de l’état du fichier à partir d’AEM.
+- **Supprimer des Favoris** : supprime un dossier de *Favoris*. Pour plus d’informations, voir [Ajout ou suppression de favoris](#id195HC04405P).
+- **Afficher les métadonnées** : affiche les métadonnées telles que la classe DITA, le titre, le type, l’UUID du document et d’autres informations associées à un fichier. Pour plus d’informations, voir [Affichage des métadonnées d’un fichier](#id195GHN0H05C).
+- **Afficher les versions** : affiche l’historique des versions d’un fichier. Pour plus d’informations, voir [Affichage de l’historique des versions d’un fichier](#id195GI000D5Q).
 
 ### Ouvrir un fichier dans l’auteur XML Oxygen {#id195GHJ0A0UB}
 
 Une fois que vous êtes connecté au référentiel AEM, vous pouvez ouvrir des fichiers pour les modifier dans l’auteur XML Oxygen. Effectuez les étapes suivantes pour ouvrir un fichier en vue de le modifier dans l’auteur XML Oxygen :
 
-1. Cliquez avec le bouton droit de la souris sur un fichier du panneau Guides d’AEM que vous souhaitez ouvrir pour le modifier.
+1. Cliquez avec le bouton droit sur un fichier du panneau AEM Guides que vous souhaitez ouvrir pour le modifier.
 
-1. Sélectionner **Ouvrir** dans le menu contextuel.
+1. Sélectionnez **Ouvrir** dans le menu contextuel.
 
    Le fichier est ouvert dans l’éditeur de l’auteur XML Oxygen.
 
-   ![Guides dans l’onglet de fichier](images/guid-in-file-tab.png) {width="800" align="left"}
+   ![Guid dans l’onglet du fichier](images/guid-in-file-tab.png) {width="800" align="left"}
 
    Lorsque vous placez le pointeur de la souris sur l’onglet d’un fichier, le chemin du serveur s’affiche avec son UUID. Dans la capture d’écran ci-dessus, l’UUID du document est mis en surbrillance.
 
 
-Si vous avez sélectionné la variable **Extraction automatique du fichier lorsqu’il est ouvert** Option \(dans la boîte de dialogue Préférences\), puis à l’ouverture d’un fichier, le fichier est automatiquement extrait et peut être modifié. Pour ouvrir un fichier, vous pouvez cliquer deux fois sur le nom d’un fichier ou cliquer avec le bouton droit sur celui-ci et choisir **Ouvrir** dans le menu contextuel. Si cette option n’est pas sélectionnée, le fichier est ouvert en mode lecture seule.
+Si vous avez sélectionné l’option **Fichier d’extraction automatique lors de l’ouverture** \(dans la boîte de dialogue Préférences\), lors de l’ouverture d’un fichier, le fichier est automatiquement extrait et peut être modifié. Pour ouvrir un fichier, vous pouvez double-cliquer sur un nom de fichier ou cliquer avec le bouton droit de la souris sur celui-ci et choisir **Ouvrir** dans le menu contextuel. Si cette option n’est pas sélectionnée, le fichier est ouvert en mode lecture seule.
 
 >[!NOTE]
 >
@@ -363,17 +363,17 @@ Si vous avez sélectionné la variable **Extraction automatique du fichier lorsq
 
 ### Ouvrir le fichier dans l’éditeur AEM Guides {#id195GH0V30KX}
 
-Si vous souhaitez utiliser les éditeurs disponibles dans AEM Guides, vous pouvez le faire en sélectionnant l’option requise dans le menu contextuel. Effectuez les étapes suivantes pour utiliser l’éditeur AEM Guides à la place de l’éditeur Oxygen XML Author :
+Si vous souhaitez utiliser les éditeurs disponibles dans AEM Guides, vous pouvez le faire en sélectionnant l’option requise dans le menu contextuel. Effectuez les étapes suivantes pour utiliser l’éditeur d’AEM Guides à la place de l’éditeur d’Oxygen XML Author :
 
-1. Cliquez avec le bouton droit de la souris sur un fichier du panneau Guides d’AEM que vous souhaitez ouvrir pour le modifier.
+1. Cliquez avec le bouton droit sur un fichier du panneau AEM Guides que vous souhaitez ouvrir pour le modifier.
 
-1. Sélectionner **Ouvrir dans** dans le menu contextuel, sélectionnez l’une des options suivantes :
+1. Sélectionnez **Ouvrir dans** dans le menu contextuel et choisissez l’une des options suivantes :
 
-   - **Éditeur de rubrique web**: si le fichier que vous ouvrez est un fichier .xml ou .dita, vous pouvez l’ouvrir pour le modifier dans l’éditeur web. Choisissez la **Éditeur de rubrique web** pour ouvrir le fichier sélectionné à modifier dans l’éditeur Web.
+   - **Éditeur de rubrique Web** : si le fichier que vous ouvrez est un fichier .xml ou .dita, vous pouvez l’ouvrir pour le modifier dans l’éditeur Web. Sélectionnez l’option **Éditeur de rubriques Web** pour ouvrir le fichier sélectionné en vue de le modifier dans l’éditeur Web.
 
-   - **Tableau de bord des cartes**: vous pouvez choisir de modifier un fichier .ditamap dans le tableau de bord de mappage, dans lequel vous pouvez effectuer diverses opérations sur le fichier de mappage. Ces opérations dépendent du rôle/groupe auquel vous appartenez.
+   - **Tableau de bord des cartes** : vous pouvez choisir de modifier un fichier .ditamap dans le tableau de bord des cartes, dans lequel vous pouvez effectuer diverses opérations sur le fichier de carte. Ces opérations dépendent du rôle/groupe auquel vous appartenez.
 
-   - **Éditeur de mappage Web DITA**: si vous souhaitez ouvrir le fichier .ditamap en vue de le modifier dans l’éditeur de cartes, sélectionnez cette option. À l’aide de l’option Éditeur de mappage DITA, vous pouvez ajouter ou supprimer des rubriques, ajouter des tableaux de relation et effectuer d’autres opérations sur votre carte.
+   - **Éditeur de cartes Web DITA** : si vous souhaitez ouvrir le fichier .ditamap en vue de le modifier dans l’éditeur de cartes, sélectionnez cette option. À l’aide de l’option Éditeur de mappage DITA, vous pouvez ajouter ou supprimer des rubriques, ajouter des tableaux de relation et effectuer d’autres opérations sur votre carte.
 
 
 ### Extraction de fichiers {#id195HC020TS4}
@@ -381,23 +381,23 @@ Si vous souhaitez utiliser les éditeurs disponibles dans AEM Guides, vous pouve
 Lorsque vous extrayez un fichier, il est stocké localement sur votre système et verrouillé pour modification dans le référentiel AEM. Effectuez les étapes suivantes pour extraire un fichier :
 
 1. Vous pouvez extraire vos fichiers de l’une des manières suivantes :
-   - Cliquez avec le bouton droit de la souris sur un fichier dans le panneau AEM Guides.
+   - Cliquez avec le bouton droit sur un fichier dans le panneau AEM Guides.
    - Cliquez avec le bouton droit sur l’onglet de mappage dans le panneau Gestionnaire de mappages DITA .
    - Cliquez avec le bouton droit de la souris sur un fichier dans le panneau Gestionnaire de cartes DITA .
    - Cliquez avec le bouton droit sur l’onglet Fichier lorsque vous ouvrez une carte ou une rubrique dans l’éditeur.
 
 1. Sélectionnez l’une des options suivantes :
-   - **Extraction :** Extrait un fichier du référentiel AEM et le rend disponible pour modification.
-   - **Extraction avec dépendances**: extrait un fichier avec ses références directes. Vous pouvez apporter des modifications aux pages parents et enfants à l’aide de cette option. Le module externe Oxygen pour AEM Guides prend en charge l’extraction d’un niveau de dépendances. Par exemple, la carte A fait référence à la rubrique A et la rubrique A à la rubrique B. L’extraction de la carte A entraîne l’extraction de la rubrique A, quel que soit son niveau dans la hiérarchie de la table des matières. Cependant, il n’extrait pas la rubrique B, car elle n’est pas directement liée à partir de la carte A.
-   - **Extraction avec dépendances en lecture seule**: extrait un fichier et télécharge ses dépendances sur votre ordinateur local en tant que copies en lecture seule. Vous ne pouvez pas apporter de modifications aux fichiers dépendants.
+   - **Extraction :** extrait un fichier du référentiel AEM et le rend disponible pour modification.
+   - **Extraction avec dépendances** : extrait un fichier avec ses références directes. Vous pouvez apporter des modifications aux pages parents et enfants à l’aide de cette option. Le module externe Oxygen pour AEM Guides prend en charge l’extraction d’un niveau de dépendances. Par exemple, la carte A fait référence à la rubrique A et la rubrique A à la rubrique B. L’extraction de la carte A entraîne l’extraction de la rubrique A, quel que soit son niveau dans la hiérarchie de la table des matières. Cependant, il n’extrait pas la rubrique B, car elle n’est pas directement liée à partir de la carte A.
+   - **Extraction avec dépendances en lecture seule** : extrait un fichier et télécharge ses dépendances sur votre ordinateur local en tant que copies en lecture seule. Vous ne pouvez pas apporter de modifications aux fichiers dépendants.
 
-Si vous avez sélectionné la variable **Ouvrir les fichiers lors de l’extraction** Option \(dans la boîte de dialogue Préférences\), puis lors de l’extraction d’un fichier, le fichier est automatiquement ouvert pour modification.
+Si vous avez sélectionné l’option **Ouvrir les fichiers lors de l’extraction** \(dans la boîte de dialogue Préférences\), lors de l’extraction d’un fichier, le fichier est automatiquement ouvert pour modification.
 
-Si vous avez sélectionné la variable **Extraction automatique du fichier lorsqu’il est ouvert** Option \(dans la boîte de dialogue Préférences\), puis à l’ouverture du fichier, le fichier est automatiquement extrait et mis à disposition pour modification. Pour ouvrir un fichier, vous pouvez cliquer deux fois sur le nom d’un fichier ou cliquer avec le bouton droit sur celui-ci et choisir **Ouvrir** dans le menu contextuel.
+Si vous avez sélectionné l’option **Fichier d’extraction automatique lors de l’ouverture** \(dans la boîte de dialogue Préférences\), lors de l’ouverture du fichier, le fichier est automatiquement extrait et mis à disposition pour modification. Pour ouvrir un fichier, vous pouvez double-cliquer sur un nom de fichier ou cliquer avec le bouton droit de la souris sur celui-ci et choisir **Ouvrir** dans le menu contextuel.
 
 Lorsqu’un fichier est extrait, l’icône du fichier change pour afficher son état verrouillé.
 
-![Extraction d’un fichier](images/check-out-file.png){width="650" align="left"}
+![Extraire un fichier](images/check-out-file.png){width="650" align="left"}
 
 Dans la capture d’écran ci-dessus, un fichier extrait par un autre utilisateur s’affiche avec une icône de verrouillage de couleur noire \(A\). Le fichier extrait par l’utilisateur actuel s’affiche avec un verrou de couleur verte \(B\).
 
@@ -412,19 +412,19 @@ Lorsque vous archivez un fichier, la copie locale du système est stockée dans 
 1. Enregistrez votre fichier en cliquant sur **Fichier** \> **Enregistrer**.
 
 1. Cliquez avec le bouton droit sur un fichier extrait ou mappez-le dans l’un des emplacements suivants :
-   - Panneau Guides d’AEM
+   - Panneau AEM Guides
    - Panneau Gestionnaire des mappages DITA
    - Onglet Fichier lorsque vous ouvrez une carte ou une rubrique dans l’éditeur.
    - Onglet de mappage dans le panneau Gestionnaire de mappages DITA .
 
 1. Choisissez l’une des deux options suivantes :
 
-   - **Archivage**: archive le fichier sélectionné de votre système local dans AEM référentiel.
-   - **Archivage avec les personnes à charge :** Si vous avez extrait un fichier avec ses fichiers dépendants, utilisez cette option pour archiver tous les fichiers dépendants en une seule opération. Lorsque vous sélectionnez cette option, la boîte de dialogue d’archivage s’affiche avec tous les fichiers dépendants. Cliquez sur OK pour archiver tous les fichiers en même temps.
+   - **Archivage** : archive le fichier sélectionné de votre système local dans le référentiel AEM.
+   - **Archivage avec dépendances :** Si vous avez extrait un fichier avec ses dépendances, utilisez cette option pour archiver tous les fichiers dépendants en une seule opération. Lorsque vous sélectionnez cette option, la boîte de dialogue d’archivage s’affiche avec tous les fichiers dépendants. Cliquez sur OK pour archiver tous les fichiers en même temps.
 
    Si vous n’avez pas extrait les fichiers dépendants, puis que vous sélectionnez cette option, seuls les fichiers dépendants que vous avez \(séparément\) extraits seront archivés. La liste des fichiers n’ayant pas pu être archivés s’affiche :
 
-   ![vérifier les erreurs](images/check-in-error.png){width="800" align="left"}
+   ![archiver des erreurs](images/check-in-error.png){width="800" align="left"}
 
    Il est vivement recommandé de ne pas déplacer un fichier extrait. Cependant, si un fichier extrait est déplacé vers un autre emplacement, vous devez annuler l’extraction sur ce fichier. Si vous souhaitez apporter des mises à jour à ce fichier, extrayez-le à nouveau, apportez des modifications, puis réarchivez-le. Si vous essayez d’archiver un fichier qui a été déplacé à partir de son emplacement d’origine, une erreur s’affiche.
 
@@ -432,19 +432,19 @@ Lorsque vous archivez un fichier, la copie locale du système est stockée dans 
 
    De même, si vous avez archivé un fichier dépendant via AEM, la liste de fichiers n’est pas actualisée dans l’auteur Oxygen tant que vous n’avez pas effectué l’opération Actualiser et actualiser les fichiers extraits. Si vous effectuez une Archivage avec des personnes à charge avec certains fichiers archivés par le biais d’AEM, une erreur répertoriant les fichiers qui n’ont pas pu être archivés s’affiche.
 
-1. \(Facultatif\) Dans la variable **Archivage** ou le **Archivage avec des personnes à charge** boîte de dialogue, ajouter un commentaire dans **Commentaires sur la version** zone de texte.
+1. \(Facultatif\) Dans la boîte de dialogue **Check-In** ou **Check-in with Dependents**, ajoutez un commentaire dans la zone de texte **Version Comments**.
 
    >[!NOTE]
    >
    >Ce commentaire s’affiche dans l’historique AEM version du fichier.
 
-1. Ajoutez un ou plusieurs libellés dans le **Libellé** de la zone de texte **Archivage** ou le **Archivage avec des personnes à charge** dialog . Saisissez un libellé et appuyez sur Entrée. Par exemple : *Version 2307*.
+1. Ajoutez un ou plusieurs libellés dans la zone de texte **Libellé** dans la boîte de dialogue **Archivage** ou **Archivage avec des personnes à charge** . Saisissez un libellé et appuyez sur Entrée. Par exemple, *2307 Release*.
 
-   Si votre administrateur a prédéfini une liste d’étiquettes et les a chargées dans la variable `label.json` puis ces libellés s’affichent sous la forme d’une liste déroulante. Vous pouvez choisir une ou plusieurs étiquettes dans la liste déroulante.
+   Si votre administrateur a prédéfini une liste d’étiquettes et les a chargées dans le fichier `label.json`, ces étiquettes s’affichent sous forme de liste déroulante. Vous pouvez choisir une ou plusieurs étiquettes dans la liste déroulante.
 
    ![Boîte de dialogue d’archivage](images/checkin-dropdown-labels.png){width="550" align="left"}
 
-   Vous pouvez ajouter plusieurs libellés (séparés par des virgules) à la même version d’une rubrique.  Par exemple : *Adobe*, *AEM*, *Guides*.
+   Vous pouvez ajouter plusieurs libellés (séparés par des virgules) à la même version d’une rubrique.  Par exemple, *Adobe*, *AEM*, *Guides*.
 Cependant, vous ne pouvez pas ajouter le même libellé aux différentes versions d’une rubrique. Si vous ajoutez un libellé que vous avez déjà ajouté à une version antérieure, il est ajouté à la dernière version et supprimé de la version précédente.
 
    >[!NOTE]
@@ -458,15 +458,15 @@ Cependant, vous ne pouvez pas ajouter le même libellé aux différentes version
 >
 >Si le fichier extrait est supprimé ou déplacé dans un autre dossier d’AEM, un message d’erreur s’affiche lorsque vous archivez le fichier. Assurez-vous que le fichier extrait n’est pas déplacé ni supprimé à l’aide de l’interface web d’AEM.
 
-### Fichiers extraits en mode AEM Guides
+### Fichiers extraits dans la vue AEM Guides
 
 Lorsque vous disposez de plusieurs dossiers, il n’est pas facile de déterminer le nombre de fichiers extraits dans une vue. AEM Guides fournit des fichiers extraits dans la vue AEM Guides qui fournit un instantané complet des fichiers extraits actuellement. Grâce à cette vue, vous pouvez facilement identifier les fichiers qui ont été vérifiés par vous dans AEM référentiel à l’aide d’AEM Guides. Effectuez les étapes suivantes pour accéder à cette vue et l’utiliser :
 
-1. Cliquez sur **Fenêtre** \> **Afficher la vue** \> **Fichiers extraits dans AEM Guides**.
+1. Cliquez sur **Window** \> **Show View** \> **Files Checked-Out in AEM Guides**.
 
    La vue Fichiers extraits dans AEM Guides s’affiche.
 
-   ![extraction de fichiers](images/files-checkedout-view.png){width="550" align="left"}
+   ![Fichiers extraits](images/files-checkedout-view.png){width="550" align="left"}
 
 1. Cliquez avec le bouton droit sur un fichier dans cette vue pour obtenir les options suivantes :
 
@@ -478,11 +478,11 @@ Lorsque vous disposez de plusieurs dossiers, il n’est pas facile de détermine
    - [Afficher les métadonnées](#id195GHN0H05C)
    - [Affichage des versions](#id195GI000D5Q)
 
-**Remarques sur les fichiers extraits dans la vue AEM Guides :**
+**Notes sur les fichiers extraits dans la vue AEM Guides :**
 
-- La variable *Fichiers extraits dans AEM Guides* La vue conserve les sessions de l’utilisateur. Cela signifie que les fichiers extraits par l’utilisateur actuel sont stockés et conservés dans l’affichage au cours des sessions \(ou cache\) du même utilisateur.
+- La vue *Fichiers extraits dans AEM Guides* conserve les sessions de l’utilisateur. Cela signifie que les fichiers extraits par l’utilisateur actuel sont stockés et conservés dans l’affichage au cours des sessions \(ou cache\) du même utilisateur.
 
-- Si l’utilisateur modifie les informations de connexion du serveur AEM, les données du fichier extrait \(ou cache\) dans la vue sont réinitialisées. L’utilisateur doit exécuter manuellement une *Actualisation des fichiers extraits* sur chaque dossier à partir duquel les fichiers ont été extraits précédemment. Pour simplifier, il est recommandé d’ajouter vos dossiers de travail à la section *Favoris* à partir de laquelle vous pouvez rapidement actualiser un dossier.
+- Si l’utilisateur modifie les informations de connexion du serveur AEM, les données du fichier extrait \(ou cache\) dans la vue sont réinitialisées. L’utilisateur doit exécuter manuellement une commande *Actualiser les fichiers extraits* sur chaque dossier à partir duquel les fichiers ont été extraits précédemment. Pour simplifier, il est recommandé d’ajouter vos dossiers de travail à *Favoris* à partir desquels vous pouvez rapidement actualiser un dossier.
 
 - Vous pouvez trier la liste des fichiers en fonction de leur nom de fichier, de leur titre ou de leur chemin d’accès. Si un nouveau fichier est extrait, le fichier s’affiche dans l’ordre de tri dans la vue.
 
@@ -491,17 +491,17 @@ Lorsque vous disposez de plusieurs dossiers, il n’est pas facile de détermine
 
 Effectuez les étapes suivantes pour charger des fichiers ou des dossiers :
 
-1. Cliquez avec le bouton droit de la souris sur un dossier dans le panneau AEM Guides.
+1. Cliquez avec le bouton droit sur un dossier dans le panneau AEM Guides.
 1. Sélectionnez l’une des options suivantes :
-   - **Télécharger le fichier\(s\)**: sélectionnez cette option pour charger un ou plusieurs fichiers dans le dossier sélectionné du référentiel AEM. Dans la boîte de dialogue Sélectionner les fichiers à charger, sélectionnez les fichiers et cliquez sur **Ouvrir**.
-   - **Chargement avec des dépendances**: sélectionnez cette option pour charger un fichier DITA avec ses dépendances. Dans la boîte de dialogue Select file to upload, sélectionnez les fichiers, puis cliquez sur **Ouvrir**.
-   - **Dossier de chargement**: sélectionnez cette option pour charger un dossier dans le référentiel AEM. Dans la boîte de dialogue Choisir, sélectionnez le dossier et cliquez sur **Choisir**.
+   - **Télécharger le fichier\(s\)** : sélectionnez cette option pour télécharger un ou plusieurs fichiers dans le dossier sélectionné dans le référentiel AEM. Dans la boîte de dialogue Sélectionner les fichiers \(s\) à charger, sélectionnez les fichiers et cliquez sur **Ouvrir**.
+   - **Télécharger avec les dépendances** : sélectionnez cette option pour télécharger un fichier DITA avec ses dépendances. Dans la boîte de dialogue Select file to upload (Sélectionner le fichier à charger), sélectionnez les fichiers et cliquez sur **Open**.
+   - **Télécharger le dossier** : sélectionnez cette option pour charger un dossier dans le référentiel AEM. Dans la boîte de dialogue Choisir, sélectionnez le dossier et cliquez sur **Choisir**.
 
-**Remarques supplémentaires sur l’utilisation de fichiers UUID**:
+**Remarques supplémentaires sur l’utilisation de fichiers UUID** :
 
 Les points suivants doivent être pris en compte lors du déplacement ou de la copie de contenu de votre système local vers le référentiel AEM :
 
-- Lors du téléchargement d’un ou de plusieurs fichiers, un nouvel UUID est généré pour les fichiers ne disposant d’aucun UID. Cet UUID est ajouté dans la variable `topic id` d’un fichier DITA.
+- Lors du téléchargement d’un ou de plusieurs fichiers, un nouvel UUID est généré pour les fichiers ne disposant d’aucun UID. Cet UUID est ajouté dans le `topic id` d’un fichier DITA.
 
 - Lors de la copie d’un dossier, les références aux fichiers \(dans le dossier\) sont automatiquement mises à jour dans toutes les cartes DITA référençant les fichiers de ce dossier.
 
@@ -519,20 +519,20 @@ Les points suivants doivent être pris en compte lors du déplacement ou de la c
 
 ### Ajouter ou supprimer des Favoris {#id195HC04405P}
 
-Effectuez les étapes suivantes pour ajouter ou supprimer un dossier dans le dossier Favoris du panneau Guides d’AEM :
+Effectuez les étapes suivantes pour ajouter ou supprimer un dossier dans le dossier Favoris du panneau AEM Guides :
 
-- Cliquez avec le bouton droit de la souris sur un dossier et sélectionnez **Ajouter aux Favoris**. Vous pouvez ajouter un dossier aux favoris s’il ne figure pas dans Favoris.
+- Cliquez avec le bouton droit de la souris sur un dossier et sélectionnez **Ajouter aux favoris**. Vous pouvez ajouter un dossier aux favoris s’il ne figure pas dans Favoris.
 - Vous pouvez supprimer un dossier des favoris comme suit :
-   - Cliquez avec le bouton droit de la souris sur un dossier de la **Favoris** et sélectionnez **Supprimer des favoris**.
-   - Cliquez avec le bouton droit sur un dossier dans le référentiel AEM sous **DAM** dossier déjà ajouté en tant que favori et sélectionné **Supprimer des favoris**.
+   - Cliquez avec le bouton droit de la souris sur un dossier dans le dossier **Favoris** et sélectionnez **Supprimer des Favoris**.
+   - Cliquez avec le bouton droit sur un dossier du référentiel AEM sous le dossier **DAM** qui est déjà ajouté comme favori et sélectionnez **Supprimer des favoris**.
 
 ### Affichage de l’historique des versions d’un fichier {#id195GI000D5Q}
 
 Pour afficher l’historique des versions d’un fichier, procédez comme suit :
 
-1. Cliquez avec le bouton droit de la souris sur un fichier dans le panneau AEM Guides.
+1. Cliquez avec le bouton droit sur un fichier dans le panneau AEM Guides.
 
-1. Sélectionner **Affichage des versions** dans le menu contextuel.
+1. Sélectionnez **Afficher les versions** dans le menu contextuel.
 
    L’historique des versions du fichier s’affiche dans la boîte de dialogue Versions.
 
@@ -543,13 +543,13 @@ Pour afficher l’historique des versions d’un fichier, procédez comme suit :
 
 Pour afficher les métadonnées d’un fichier, procédez comme suit :
 
-1. Cliquez avec le bouton droit de la souris sur un fichier dans le panneau AEM Guides.
+1. Cliquez avec le bouton droit sur un fichier dans le panneau AEM Guides.
 
-1. Sélectionner **Afficher les métadonnées** dans le menu contextuel.
+1. Sélectionnez **Afficher les métadonnées** dans le menu contextuel.
 
    Les métadonnées du fichier, telles que la classe DITA, l’état du document, la date de modification, la taille, le titre et l’UUID, s’affichent dans la boîte de dialogue Métadonnées.
 
-   ![Affichage des métadonnées](images/metadata.png){width="550" align="left"}
+   ![Afficher les métadonnées](images/metadata.png){width="550" align="left"}
 
 
 ## Recherche d’une rubrique dans le référentiel AEM {#id1826J20405Z}
@@ -562,47 +562,47 @@ Effectuez les étapes suivantes pour rechercher des rubriques :
 1. Saisissez la requête de recherche \(par exemple, `introduction`\) dans la barre de recherche du module externe Oxygen pour AEM Guides.
 1. Cliquez sur le bouton de recherche ou appuyez sur Entrée.
 
-   Le résultat s’affiche dans l’onglet Résultats de la recherche sous la forme d’une liste avec le chemin d’accès au fichier. Si aucun résultat correspondant n’est trouvé pour votre requête, aucun résultat n’est trouvé dans &lt;path of=&quot;&quot; the=&quot;&quot; selected=&quot;&quot; folder=&quot;&quot;> s’affiche.
+   Le résultat s’affiche dans l’onglet Résultats de la recherche sous la forme d’une liste avec le chemin d’accès au fichier. S’il n’existe aucun résultat correspondant pour votre requête de recherche, le message Aucun résultat trouvé dans &lt;chemin du dossier sélectionné\> s’affiche.
 
    ![Résultats de la recherche](images/search.png){width="550" align="left"}
 
 1. \(Facultatif\) Double-cliquez sur un fichier dans le résultat de recherche pour l’ouvrir dans l’auteur XML Oxygen.
 1. Pour revenir à la vue Repository d’AEM, effectuez l’une des opérations suivantes :
-   - Pour afficher la vue Référentiel AEM sans effacer les résultats de la recherche, cliquez sur **Parcourir** .
+   - Pour afficher la vue Référentiel AEM sans effacer les résultats de la recherche, cliquez sur l’onglet **Parcourir** .
    - Pour effacer les résultats de la recherche et afficher le référentiel d’AEM, cliquez sur l’icône Supprimer la recherche .
 
 ## Ouvrir la rubrique DITA dans l’auteur XML Oxygen à partir de l’interface web AEM {#id182CE0I905Z}
 
-Vous pouvez ouvrir et modifier votre rubrique DITA dans Auteur XML Oxygen à partir de l’interface web d’AEM. Vous devez installer un package dans AEM pour activer cette option. Pour plus d’informations sur l’installation des packages, voir [Installez le package pour activer la fonction d’édition de documents à partir de l’interface web d’AEM](#id182CE0Q0TY4).
+Vous pouvez ouvrir et modifier votre rubrique DITA dans Auteur XML Oxygen à partir de l’interface web d’AEM. Vous devez installer un package dans AEM pour activer cette option. Pour plus d’informations sur l’installation du package, voir [Installation du package pour activer la fonction d’édition de documents à partir de l’interface web d’AEM](#id182CE0Q0TY4).
 
 >[!NOTE]
 >
->La variable **Modifier dans Oxygen** est accessible à partir de différents emplacements dans AEM : lorsqu’une rubrique est sélectionnée, lorsqu’une rubrique est prévisualisée ou à partir de l’onglet Sujets et rapports de la console de mappage DITA. Si vous sélectionnez plusieurs rubriques, l’option n’est pas visible dans la barre d’outils.
+>L’option **Modifier dans Oxygen** est accessible à différents endroits dans AEM : lorsqu’une rubrique est sélectionnée, lorsqu’une rubrique est prévisualisée ou à partir de l’onglet Sujets et rapports de la console de mappage DITA. Si vous sélectionnez plusieurs rubriques, l’option n’est pas visible dans la barre d’outils.
 
 **Ouvrir une rubrique DITA**
 
 Effectuez les étapes suivantes pour ouvrir une rubrique DITA dans l’auteur XML Oxygen :
 
-1. Sélectionnez une rubrique dans vos ressources, puis cliquez sur **Modifier dans Oxygen** dans la barre d’outils.
+1. Sélectionnez une rubrique dans vos ressources et cliquez sur l’option **Modifier dans Oxygen** de la barre d’outils.
 
    >[!NOTE]
    >
    >Si la rubrique n’est pas extraite, elle est d’abord extraite, puis ouverte dans Oxygen en mode d’édition.
 
-1. Sélectionnez Auteur XML Oxygen . *&lt;version>* dans le **Lancer l’application** message. Vous pouvez sélectionner **Mémoriser mon choix pour les liens AEM** pour enregistrer vos préférences.
+1. Sélectionnez Oxygen XML Author *&lt;version\>* dans la zone de message **Launch Application** . Vous pouvez sélectionner l&#39;option **Mémoriser mon choix pour AEM liens** pour enregistrer vos préférences.
 
 **Modification d’une rubrique DITA**
 
 Effectuez les étapes suivantes pour modifier une rubrique DITA dans Oxygen XML Author :
 
 1. Sélectionnez et extrayez une rubrique dans vos ressources.
-1. Cliquez sur **Modifier dans Oxygen** dans la barre d’outils.
+1. Cliquez sur l’option **Modifier dans Oxygen** dans la barre d’outils.
 
    >[!NOTE]
    >
    >Si la rubrique n’est pas extraite, elle est d’abord extraite, puis ouverte dans Oxygen en mode d’édition.
 
-1. Sélectionnez Auteur XML Oxygen . *&lt;version>* dans le **Lancer l’application** message. Vous pouvez sélectionner **Mémoriser mon choix pour les liens AEM** pour enregistrer vos préférences.
+1. Sélectionnez Oxygen XML Author *&lt;version\>* dans la zone de message **Launch Application** . Vous pouvez sélectionner l&#39;option **Mémoriser mon choix pour AEM liens** pour enregistrer vos préférences.
 1. Modifiez la rubrique dans l’auteur XML Oxygen.
 1. Archivez la rubrique à partir du module externe Oxygen pour AEM Guides.
 
@@ -612,7 +612,7 @@ Effectuez les étapes suivantes pour modifier une rubrique DITA dans Oxygen XML 
    >
    >Assurez-vous d’archiver la rubrique à l’aide du module externe Oxygen pour AEM Guides. Si vous archivez à partir de l’interface web d’AEM, les modifications que vous apportez dans l’auteur XML Oxygen ne sont pas enregistrées dans la version archivée de la rubrique.
 
-**Insertion d’une référence à une rubrique à partir du référentiel des guides du Experience Manager**
+**Insérer une référence à une rubrique à partir du référentiel Experience Manager Guides**
 
 Vous pouvez également faire glisser et déposer une rubrique pour insérer la référence dans une rubrique ou un mappage DITA.
 >[!NOTE]
@@ -622,32 +622,32 @@ Vous pouvez également faire glisser et déposer une rubrique pour insérer la r
 Les éléments suivants sont ajoutés en fonction du type de références :
 
 Si vous déposez dans l’éditeur avec une rubrique ouverte :
-- Une référence est ajoutée avec `<image>` pour les images.
+- Une référence est ajoutée avec l’élément `<image>` pour les images.
 - Un élément d’objet est ajouté pour un contenu vidéo ou audio.
-- La variable `<xref>`  est ajouté pour toutes les autres références telles que topic, map, DITAVAL, PDF, ZIP et XML.
+- L’élément `<xref>` est ajouté pour toutes les autres références telles que topic, map, DITAVAL, PDF, ZIP et XML.
 
 Si vous déposez dans le Gestionnaire de mappages de l’éditeur ou de la DITA avec une carte ouverte :
-- La variable `<mapref>` est ajouté pour les références de mappage, qui incluent un mappage DITA, un bookmap ou un schéma d’objet.
-- La variable `<topicref>` est ajouté pour toutes les autres références telles que topic, map, DITAVAL, PDF, ZIP et XML.
+- L’élément `<mapref>` est ajouté pour les références de mappage, qui incluent un mappage DITA, un bookmap ou un schéma d’objet.
+- L’élément `<topicref>` est ajouté pour toutes les autres références telles que topic, map, DITAVAL, PDF, ZIP et XML.
 
 
 ## Utilisation des profils d’attribut {#id1827JA002YK}
 
-AEM Guides vous permet de créer et d’associer facilement des attributs conditionnels à l’aide des attributs DITA appropriés. Vous pouvez définir des attributs conditionnels au niveau global ou au niveau du dossier. Les conditions définies globalement sont visibles pour tous les projets et les conditions au niveau du dossier ne sont visibles que dans les projets créés dans le dossier spécifié. Les auteurs de contenu peuvent utiliser ces attributs conditionnels pour conditionner le contenu de leurs rubriques ou mappages DITA qu’ils créent ou utilisent. Pour en savoir plus sur la création d’attributs conditionnels dans AEM à l’aide des AEM Guides, voir *Configuration d’attributs conditionnels pour les profils globaux ou au niveau du dossier* dans les guides d’installation et de configuration de Adobe Experience Manager.
+AEM Guides vous permet de créer et d’associer facilement des attributs conditionnels à l’aide des attributs DITA appropriés. Vous pouvez définir des attributs conditionnels au niveau global ou au niveau du dossier. Les conditions définies globalement sont visibles pour tous les projets et les conditions au niveau du dossier ne sont visibles que dans les projets créés dans le dossier spécifié. Les auteurs de contenu peuvent utiliser ces attributs conditionnels pour conditionner le contenu de leurs rubriques ou mappages DITA qu’ils créent ou utilisent. Pour plus d’informations sur la création d’attributs conditionnels dans AEM à l’aide d’AEM Guides, voir la section *Configuration d’attributs conditionnels pour les profils globaux ou au niveau du dossier* dans Installation et configuration d’Adobe Experience Manager Guides.
 
 >[!NOTE]
 >
->Assurez-vous que vous avez ajouté les attributs conditionnels dans AEM et que vous avez défini [Préférences pour la personnalisation des attributs de profilage](#id1827K0D0OHT) avant d’ajouter des attributs conditionnels à votre contenu.
+>Assurez-vous d’avoir ajouté les attributs conditionnels dans AEM et d’avoir défini [Préférence pour la personnalisation des attributs de profilage](#id1827K0D0OHT) avant d’ajouter des attributs conditionnels à votre contenu.
 
 Effectuez les étapes suivantes pour ajouter des attributs conditionnels à votre contenu dans l’auteur XML Oxygen :
 
-1. Extraction et ouverture d’une rubrique à partir du *Module externe Oxygen pour AEM Guides*.
+1. Extrayez et ouvrez une rubrique à partir du *module externe Oxygen pour AEM Guides*.
 1. Sélectionnez la partie du contenu dans laquelle vous souhaitez appliquer les attributs conditionnels.
 1. Double-cliquez sur l’attribut conditionnel dans le panneau Attributs de l’auteur XML Oxygen.
 
-   ![panneau Attributs](images/attribute-panel.png){width="300" align="left"}
+   ![panneau attributs](images/attribute-panel.png){width="300" align="left"}
 
-1. Dans le **Disponible** dans la boîte de dialogue Modifier l’attribut, sélectionnez l’attribut\(s\), puis cliquez sur **Ajouter**.
+1. Dans la colonne **Available** de la boîte de dialogue Edit Attribute, sélectionnez l’attribut\(s\) et cliquez sur **Add**.
 
    L’écran suivant affiche `audience` attributs.
 
@@ -662,32 +662,32 @@ Effectuez les étapes suivantes pour ajouter des attributs conditionnels à votr
 
 Cette rubrique aborde certains des problèmes les plus courants auxquels vous pourriez être confronté lorsque vous utilisez le module externe, ainsi que leurs solutions.
 
-### Panneau Guides AEM manquants {#id192BH200ZAX}
+### Panneau AEM Guides manquant {#id192BH200ZAX}
 
-**Problème** - Si vous ne voyez pas le panneau Guides d’AEM dans l’auteur XML Oxygen, essayez les solutions suivantes :
+**Problème** - Si vous ne voyez pas le panneau AEM Guides dans l’auteur XML Oxygen, essayez les solutions suivantes :
 
 Solution 1 :
 
 1. Dans Oxygen XML Author, activez le module externe.
 
-   Cliquez sur **Options** \> **Préférences** \> **Modules externes** et sélectionnez **Module externe Oxygen pour les guides Adobe Experience Manager.**
+   Cliquez sur **Options** \> **Préférences** \> **Plugins** et sélectionnez **Module externe Oxygen pour Adobe Experience Manager Guides.**
 
 1. Relancez Oxygen XML Author.
 
 
 Solution 2 :
 
-1. Si vous ne voyez toujours pas le panneau Guides AEM, activez AEM fenêtre Guides .
+1. Si le panneau AEM Guides ne s’affiche toujours pas, activez la fenêtre AEM Guides.
 
-   Dans Oxygen XML Author, cliquez sur **Fenêtre** \> **Afficher la vue** \> **Guides d’AEM**.
+   Dans Oxygen XML Author, Cliquez Sur **Window** \> **Show View** \> **AEM Guides**.
 
 Solution 3 :
 
-1. Désinstallez et réinstallez le module externe Oxygen pour les guides Adobe Experience Manager.
+1. Désinstallez et réinstallez le module externe Oxygen pour Adobe Experience Manager Guides.
 
-   - Sous Windows, désinstallez le module externe de **Ajout ou suppression de programmes** liste. Ensuite, réinstallez le module externe.
+   - Sous Windows, désinstallez le module externe de la liste **Ajout ou suppression de programmes**. Ensuite, réinstallez le module externe.
 
-   - Sur Mac, accédez au dossier aem-connector-x.x dans le dossier plugins de l’auteur XML Oxygen, puis déplacez-le vers **Corbeille**. Ensuite, videz la variable **Corbeille** dossier.
+   - Sur Mac, accédez au dossier aem-connector-x.x dans le dossier plugins de Oxygen XML Author, puis déplacez-le vers **Corbeille**. Ensuite, videz le dossier **Corbeille**.
 
 
 ### Configuration du port pour la transformation DITA-OT
@@ -707,9 +707,9 @@ Effectuez les étapes suivantes pour modifier le port par défaut du serveur pro
 1. Redémarrez l’auteur XML Oxygen et exécutez la transformation DITA-OT.
 
 
-### AEM panneau Guides ne navigue pas vers l’emplacement du fichier ouvert
+### Le panneau AEM Guides ne navigue pas vers l’emplacement du fichier ouvert
 
-Problème : lorsque vous choisissez d’ouvrir un fichier en vue de le modifier dans Oxygen XML Author à partir du serveur AEM, le fichier est ouvert pour modification dans Oxygen XML Author. Toutefois, le panneau Guides d’AEM n’affiche pas l’emplacement du fichier dans l’arborescence de navigation.
+Problème : lorsque vous choisissez d’ouvrir un fichier en vue de le modifier dans Oxygen XML Author à partir du serveur AEM, le fichier est ouvert pour modification dans Oxygen XML Author. Toutefois, le panneau AEM Guides n’affiche pas l’emplacement du fichier dans l’arborescence de navigation.
 
 Solution : ce problème a été observé dans les scénarios où le chemin d’accès au fichier contient deux fois /content/dam. Par défaut, toutes les ressources d’AEM sont stockées sous le dossier /content/dam . Si vous chargez ou créez une structure de dossiers qui contient également /content/dam, ce problème est observé. Vous pouvez effectuer toutes les opérations normales sur ces fichiers, mais leur emplacement dans l’arborescence de navigation n’est pas affiché par défaut. Pour accéder à ce fichier dans l’arborescence de navigation, vous devez parcourir manuellement l’emplacement du fichier. Notez que dans l’arborescence de navigation, le chemin /content/dam dupliqué est remplacé par /content/assets.
 
@@ -746,12 +746,12 @@ Solution : procédez comme suit pour configurer les enregistreurs pour oXygen et
    </configuration>   
    ```
 
-1. Enregistrez le fichier dans le `Oxygen Author 25` répertoire . (Par exemple, le chemin serait : `C:\Program Files\Oxygen XML Author 25\logback.xml`)
+1. Enregistrez le fichier dans le répertoire `Oxygen Author 25`. (Par exemple, le chemin serait : `C:\Program Files\Oxygen XML Author 25\logback.xml`)
 
-1. Fermez le fichier. Cela permet d’activer les journaux Xygen, qui seront disponibles à l’emplacement suivant : `${user.home}/Desktop/oxygenLog/oxygen.log`
-1. Ouvrez le `oxygenAuthor.bat` dans un éditeur de texte.
+1. Fermez le fichier. Cela permettra d’activer les journaux oXygen, qui seront disponibles au chemin d’accès : `${user.home}/Desktop/oxygenLog/oxygen.log`
+1. Ouvrez le fichier `oxygenAuthor.bat` dans un éditeur de texte.
 1. Configuration des journaux liés au navigateur JxBrowser en ajoutant le paramètre
-   `-Denable.aem.jx.log=true`. Cela active les journaux liés à JxBrowser, que vous pouvez afficher à l’emplacement suivant : `${user.home}\AppData\Local\Temp\Oxygen_Plugin_Javax_Log.log`:
+   `-Denable.aem.jx.log=true`. Cela active les journaux liés à JxBrowser, que vous pouvez afficher au chemin d’accès : `${user.home}\AppData\Local\Temp\Oxygen_Plugin_Javax_Log.log` :
 
 
 

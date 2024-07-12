@@ -1,8 +1,9 @@
 ---
-title: Intégration de source de données externe pour les guides AEM
-description: Intégration de sources de données de contenu avec AEM Guides .
+title: Intégration de source de données externe pour AEM Guides
+description: Intégration de sources de données de contenu à AEM Guides .
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 02a6c2ea-a550-49d5-ae54-1cc24ef35287
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 1%
@@ -12,7 +13,7 @@ ht-degree: 1%
 # Intégration de source de données externe pour AEM Guides : comment cela fonctionne-t-il ?
 
 De nombreux clients d’entreprise disposent de données réparties dans plusieurs bases de données, mais il est souvent nécessaire d’intégrer les données dans les guides d’AEM en tant que source unique à partir de laquelle les données peuvent être traitées.
-Les guides Adobe Experience Manager incluent désormais des connecteurs prêts à l’emploi à des sources de données externes, notamment JIRA, PIM, SQL Data Bases et PLM, ce qui en fait un véritable centre de contenu.
+Adobe Experience Manager Guides inclut désormais des connecteurs prêts à l’emploi à des sources de données externes, notamment JIRA, PIM, SQL Data Bases et PLM, ce qui en fait un vrai Content Hub.
 
 
 ## Enregistrement de session
@@ -43,17 +44,17 @@ Au cours de cette session, vous avez appris ce qui suit :
 
 ## Ressources connexes
 
-- **Configuration du connecteur de source de données** - [sur Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=en)
+- **Configurer le connecteur de source de données** - [ sur Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=en)
 
-- **Documentation** - [sur Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html)
+- **Documentation** - [ sur Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html)
 
-- **Utilisation des outils de vitesse pour les modèles** - [sur Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=en#use-velocity-tools)
+- **Utilisation des outils de vitesse pour les modèles** - [ sur Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=en#use-velocity-tools)
 
 
 
 >[!NOTE]
 >
-> Les fonctionnalités affichées dans cette session sont disponibles sur les versions suivantes des Guides AEM :
+> Les fonctionnalités affichées dans cette session sont disponibles sur les versions suivantes d’AEM Guides :
 > - Décembre 2023 (pour le cloud)
 > - 4.3.1 (pour les activités non cloud)
 
@@ -61,4 +62,4 @@ Au cours de cette session, vous avez appris ce qui suit :
 
 ## Contactez-nous
 
-Pour toute demande, envoyez-nous un email à l’adresse <techcomm@adobe.com>
+Pour toute requête, envoyez-nous un email à l’adresse <techcomm@adobe.com>

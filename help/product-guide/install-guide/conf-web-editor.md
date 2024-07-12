@@ -22,13 +22,13 @@ AEM Guides est fourni avec un puissant éditeur web qui permet aux auteurs de cr
 
 - [Configuration de l’affichage des liens basés sur l’UUID](conf-uuid-based-links.md)
 
-- [Ouvrir les fichiers de rubrique ou de mappage DITA dans le même onglet](open-dita-files-same-tab.md)
+- [Ouvrir une rubrique DITA ou des fichiers de mappage dans le même onglet](open-dita-files-same-tab.md)
 
-- [Configurer un panneau personnalisé dans le panneau de gauche](configure-custom-panel.md)
+- [Configuration d’un panneau personnalisé dans le panneau de gauche](configure-custom-panel.md)
 
 - [Configuration de l’enregistrement automatique du fichier dans l’éditeur web](auto-save-in-editor.md)
 
-- [Configuration d’une invite pour l’enregistrement en tant que nouvelle version à la fermeture](conf-save-as-new-version-close.md)
+- [Configuration d’une invite pour enregistrer en tant que nouvelle version à la fermeture](conf-save-as-new-version-close.md)
 
 - [Configuration d’une invite pour archiver un fichier à la fermeture](conf-checkin-file-close.md)
 
@@ -36,9 +36,9 @@ AEM Guides est fourni avec un puissant éditeur web qui permet aux auteurs de cr
 
 - [Génération automatique des identifiants d’élément](auto-generate-ids.md)
 
-- [Personnalisation AEM dictionnaire par défaut](customize-aem-custom-dictionary.md)
+- [Personnaliser AEM dictionnaire par défaut ](customize-aem-custom-dictionary.md)
 
-- [Configuration des filtres de texte](config-text-filters.md)
+- [Configurer des filtres de texte](config-text-filters.md)
 
 - [Configuration du nombre de LimitReads pour une requête](conf-query-limitreads.md)
 

@@ -2,7 +2,8 @@
 title: Icône
 description: Icône
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 5ba41c77-7329-49fc-bce5-02682261ea8e
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 6%
@@ -12,9 +13,9 @@ ht-degree: 6%
 # Icône
 
 Pour afficher une icône, nous utilisons le composant, l’icône .
-Le composant de zone de texte dans l’interface utilisateur JSON représente un code HTML. `<icon/>`.
+Le composant de zone de texte dans l’interface utilisateur de JUI représente un fichier HTML `<icon/>`.
 
-Icônes disponibles à l’adresse [Icônes de spectre d’Adobe](https://spectrum.adobe.com/page/icons/) sont compatibles avec notre application.
+Les icônes disponibles dans les [icônes de spectre d’Adobe](https://spectrum.adobe.com/page/icons/) sont compatibles avec notre application.
 
 ```js title="icon.js"
 const iconJSON =  {

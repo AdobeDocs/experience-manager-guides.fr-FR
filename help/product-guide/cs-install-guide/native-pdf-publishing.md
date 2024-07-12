@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Publication de PDF natifs
 
-Avec AEM Guides, vous pouvez générer des PDF de rubriques individuelles ou un fichier de mappage à l’aide de la fonctionnalité de génération de sortie de PDF natif. Vous pouvez personnaliser et utiliser des modèles de PDF lors de la génération de la sortie du PDF. Vous pouvez créer et concevoir des mises en page afin de présenter les différentes sections dans la sortie du PDF selon vos besoins.
+Avec AEM Guides, vous pouvez générer des PDF de rubriques individuelles ou d’un fichier de mappage à l’aide de la fonction de génération de sortie du PDF natif. Vous pouvez personnaliser et utiliser des modèles de PDF lors de la génération de la sortie du PDF. Vous pouvez créer et concevoir des mises en page afin de présenter les différentes sections dans la sortie du PDF selon vos besoins.
 
-En outre, AEM Guides prennent également en charge les variables de langue pour vous aider à définir des chaînes localisées. Il vous permet également de définir des styles pour divers éléments présents dans la sortie de votre PDF. Si vous êtes un utilisateur avancé, vous pouvez également travailler avec CSS directement pour créer des mises en page avancées.
+AEM Guides prend également en charge les variables de langue pour vous aider à définir des chaînes localisées. Il vous permet également de définir des styles pour divers éléments présents dans la sortie de votre PDF. Si vous êtes un utilisateur avancé, vous pouvez également travailler avec CSS directement pour créer des mises en page avancées.
 
 
 Pour plus d’informations, consultez les informations suivantes :

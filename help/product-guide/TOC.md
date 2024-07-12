@@ -70,7 +70,7 @@ ht-degree: 7%
             - [Notes de mise à jour de mars](./release-info/release-notes-2022-3-0.md)
             - [Notes de mise à jour de février](./release-info/release-notes-2022-2-0.md)
             - [Notes de mise à jour de janvier](./release-info/release-notes-2022-1-0.md)
-      - On-premise/Managed Services {#on-prem-release-notes}
+      - On-prem/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides] versions](./release-info/latest-release-info.md)
          - Version 4.4.0 {#440-release}
             - [Nouveautés](./release-info/whats-new-4-4.md)
@@ -95,20 +95,20 @@ ht-degree: 7%
                - [Notes de mise à jour 4.2](./release-info/release-notes-4-2.md)
          - [Notes de mise à jour 4.1.x](./release-info/release-notes-4-1.md)
          - [Notes de mise à jour 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notes de mise à jour de la version 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Notes de mise à jour 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guide de l’utilisateur {#user-guide}
 
    - Présentation {#about-aem-guide}
-      - [A propos [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
-      - [!DNL AEM Guides] fonctions clés et de travail {#aemg-works-features}
-         - [Comment [!DNL AEM Guides] work](./user-guide/intro-how-dxml-works.md)
-         - [Clé [!DNL AEM Guides] features](./user-guide/intro-dxml-features.md)
+      - [À propos de [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
+      - [!DNL AEM Guides] Fonctionnement et fonctionnalités clés {#aemg-works-features}
+         - [Fonctionnement de  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+         - [Key [!DNL AEM Guides] features](./user-guide/intro-dxml-features.md)
    - Gestion du contenu {#manage-content}
       - [Concepts, rôles et autorisations clés, et conditions préalables](./user-guide/authoring.md)
       - [Charger des fichiers](./user-guide/authoring-upload-existing-files.md)
       - [Gestion des fichiers et des dossiers](./user-guide/authoring-file-management.md)
       - [Téléchargement de fichiers](./user-guide/authoring-download-assets.md)
-   - Création de contenu {#author-content}
+   - Contenu de création {#author-content}
 
       - [Présentation de la création](./user-guide/authoring-content.md)
       - Création et aperçu de rubrique {#create-preview-topics}
@@ -135,7 +135,7 @@ ht-degree: 7%
                - [Ajout de citations à votre contenu](./user-guide/web-editor-apply-citations.md)
                - [Utiliser les données de vos sources de données](./user-guide/web-editor-content-snippet.md)
                - [Gestion des paramètres prédéfinis de sortie de profil global et de dossier](./user-guide/web-editor-manage-output-presets.md)
-               - Publication basée sur des articles {#article-based-pub}
+               - Publication basée sur un article {#article-based-pub}
                   - [Publication basée sur des articles à partir de l’éditeur web](./user-guide/web-editor-article-publishing.md)
                   - [Création de paramètres prédéfinis de sortie à partir de l’éditeur web](./user-guide/web-editor-article-publishing-presets.md)
                   - [Générer une sortie à partir du panneau Référentiel ou du panneau Vue Carte](./user-guide/web-editor-article-publishing-output.md)
@@ -199,7 +199,7 @@ ht-degree: 7%
       - [Utilisation de la ligne de base](./user-guide/generate-output-use-baseline-for-publishing.md)
       - [Générer la sortie d’un mappage DITA à partir de la console de mappage](./user-guide/generate-output-for-a-dita-map.md)
       - [Utilisation de la collecte des cartes pour la génération de la sortie](./user-guide/generate-output-use-map-collection-output-generation.md)
-      - Utilisation de la fonction de publication de PDF native {#web-editor}
+      - Utilisation de la fonction de publication native de PDF {#web-editor}
          - [Sortie Publish PDF](./web-editor/native-pdf-web-editor.md)
          - [Configuration de caractères spéciaux supplémentaires](./web-editor/configure-additional-special-characters.md)
       - [Gestion des tâches de publication à l’aide du tableau de bord Publish](./user-guide/generate-output-publish-dashboard.md)
@@ -212,7 +212,7 @@ ht-degree: 7%
          - [Activer la sortie](./user-guide/conf-bulk-activation-publish-map-collection.md)
          - [Modification d’une collection de cartes d’activation en bloc](./user-guide/conf-bulk-activation-edit-map-collection.md)
          - [Suppression d’une collection de cartes d’activation en bloc](./user-guide/conf-bulk-activation-delete-map-collection.md)
-   - Génération de sorties de documents de FrameMaker {#generate-fm-output}
+   - Génération de sortie de documents de FrameMaker {#generate-fm-output}
       - [Générer une sortie de documents de FrameMaker](./user-guide/fm-output-generatation.md)
       - Paramètres prédéfinis pris en charge {#fm-docs-generating-presets}
          - [Paramètres prédéfinis pour la génération de documents de FrameMaker](./user-guide/fm-output-understand-presets.md)
@@ -230,9 +230,9 @@ ht-degree: 7%
       - [Rapport Historique des versions des fichiers restaurés](./user-guide/reports-reverted-file-version-history.md)
 
 - Installation et configuration {#install-guide}
-   - On-premise {#on-prem-ig}
+   - {#on-prem-ig} On-premise
       - [Principes de base On-premise](./install-guide/introduction.md)
-      - Téléchargement, installation et mise à niveau {#download-install-upgrade-aemg}
+      - Télécharger, installer et mettre à niveau {#download-install-upgrade-aemg}
          - [Présentation du téléchargement et de l’installation](./install-guide/download-install.md)
          - [Exigences techniques](./install-guide/download-install-technical-requirements.md)
          - [Installer Adobe Experience Manager](./install-guide/download-install-aem.md)
@@ -242,9 +242,9 @@ ht-degree: 7%
          - [Mettre à niveau AEM Guides](./install-guide/upgrade-xml-documentation.md)
          - [Désinstallation d’AEM Guides](./install-guide/download-install-unistall-aemg.md)
          - [Recommendations pour l’optimisation des performances](./install-guide/download-install-recommend-perf-optimiz.md)
-      - Utilisation des groupes d’utilisateurs et sécurité {#user-group-sec}
+      - Utilisation des groupes d&#39;utilisateurs et sécurité {#user-group-sec}
          - [Administration et sécurité des utilisateurs](./install-guide/user-admin-sec.md)
-      - Migration du contenu {#content-migration}
+      - Migration de contenu {#content-migration}
          - [Migration du contenu non UUID vers UUID](./install-guide/migrate-uuid-non-uuid.md)
          - Processus de migration {#migration-process}
             - [Migration de contenu non UUID avec des versions](./install-guide/migrate-non-uuid-uuid-with-versions.md)
@@ -260,11 +260,11 @@ ht-degree: 7%
       - [Configuration des noms de fichier automatique en fonction de l’UUID](./install-guide/conf-auto-uuid-filenames.md)
       - [Configuration de Regx pour les caractères de nom de fichier valides](./install-guide/conf-file-names-valid-regx.md)
       - [Configuration de noms de fichier valides pour AEM sortie Site](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
-      - Utilisation de modèles de rubrique et de mappage {#topic-map-template}
+      - Utilisation des modèles de rubrique et de mappage {#topic-map-template}
          - [Configuration des modèles de rubrique et de mappage](./install-guide/conf-template-tags.md)
          - [Configuration du modèle de rubrique DITA personnalisé](./install-guide/conf-template-tags-custom-dita-topic-template.md)
          - [Configuration du modèle de mappage DITA personnalisé](./install-guide/conf-template-tags-custom-dita-map-templates.md)
-      - Utilisation des états du document {#doc-state}
+      - Utilisation des états de document {#doc-state}
          - [Configuration des états du document](./install-guide/customize-doc-state.md)
       - Utilisation des configurations de l’éditeur web {#web-editor-configs}
          - [Personnalisation de l’éditeur web](./install-guide/conf-web-editor.md)
@@ -289,15 +289,15 @@ ht-degree: 7%
          - [Définir l’éditeur de mappage avancé comme valeur par défaut](./install-guide/conf-map-editor.md)
          - [Inclure l’attribut @navtitle par défaut](./install-guide/auto-add-navtitle.md)
          - [Configuration de l’option à modifier dans Oxygen](./cs-install-guide/conf-edit-in-oxygen.md)
-      - Utilisation de profils globaux et au niveau des dossiers {#global-folder-profiles}
+      - Utilisation des profils globaux et au niveau du dossier {#global-folder-profiles}
          - [Configuration de profils globaux ou au niveau du dossier](./install-guide/conf-folder-level.md)
-      - Configuration des versions {#version-mgt}
+      - Configurer des versions {#version-mgt}
          - [Gestion des versions](./install-guide/version-management.md)
       - Utilisation d’éditeurs XML de bureau {#desktop-xml-editor}
          - [Intégration d’éditeurs XML de bureau](./install-guide/integrate-desktop-editors.md)
       - Utilisation des paramètres de génération de sortie {#output-gen-config}
          - [Configuration des paramètres de génération de sortie](./install-guide/conf-output-generation.md)
-         - Publication de PDF natifs {#config-native-pdf-publish}
+         - Publication de PDF natif {#config-native-pdf-publish}
             - [Modèle de PDF](./native-pdf/pdf-template.md)
             - [Composants d’un modèle de PDF](./native-pdf/components-pdf-template.md)
             - [Concevoir une mise en page](./native-pdf/design-page-layout.md)
@@ -329,7 +329,7 @@ ht-degree: 7%
          - [Mettre à niveau AEM Guides](./cs-install-guide/download-install-upgrade-dxml.md)
          - [Remplacements de configuration](./cs-install-guide/download-install-additional-config-override.md)
          - [Recommendations pour l’optimisation des performances](./cs-install-guide/download-install-recommend-perf-optimiz.md)
-      - Utilisation des groupes d’utilisateurs et sécurité {#user-group-sec-cs}
+      - Utilisation des groupes d&#39;utilisateurs et sécurité {#user-group-sec-cs}
          - [Administration et sécurité des utilisateurs](./cs-install-guide/user-admin-sec.md)
       - Migration de contenu {#migrate-con-cs}
          - [Migration de contenu existant](./cs-install-guide/migrate-content.md)
@@ -343,11 +343,11 @@ ht-degree: 7%
          - [Configuration des noms de fichier automatique en fonction de l’UUID](./cs-install-guide/conf-auto-uuid-filenames.md)
          - [Configuration de Regx pour les caractères de nom de fichier valides](./cs-install-guide/conf-file-names-valid-regx.md)
          - [Configuration de noms de fichier valides pour AEM sortie Site](./cs-install-guide/conf-file-names-valid-regx-aem-site-output.md)
-      - Utilisation de modèles de rubrique et de mappage {#topic-map-template-cs}
+      - Utilisation des modèles de rubrique et de mappage {#topic-map-template-cs}
          - [Configuration des modèles de rubrique et de mappage](./cs-install-guide/conf-template-tags.md)
          - [Configuration du modèle de rubrique DITA personnalisé](./cs-install-guide/conf-template-tags-custom-dita-topic-template.md)
          - [Configuration du modèle de mappage DITA personnalisé](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
-      - Utilisation des états du document {#doc-state-cs}
+      - Utilisation des états de document {#doc-state-cs}
          - [Configuration des états du document](./cs-install-guide/customize-doc-state.md)
       - Utilisation des configurations de l’éditeur web {#web-editor-configs-cs}
          - [Personnalisation de l’éditeur web](./cs-install-guide/conf-web-editor.md)
@@ -372,9 +372,9 @@ ht-degree: 7%
          - [Configurer un connecteur de source de données à partir de l’interface utilisateur](./cs-install-guide/conf-data-source-connector-tools.md)
          - [Définir l’éditeur de mappage avancé comme valeur par défaut](./cs-install-guide/conf-map-editor.md)
          - [Inclure l’attribut @navtitle par défaut](./cs-install-guide/auto-add-navtitle.md)
-      - Utilisation de profils globaux et au niveau des dossiers {#global-folder-profiles-cs}
+      - Utilisation des profils globaux et au niveau du dossier {#global-folder-profiles-cs}
          - [Configuration de profils globaux ou au niveau du dossier](./cs-install-guide/conf-folder-level.md)
-      - Configuration des versions {#version-mgt-cs}
+      - Configurer des versions {#version-mgt-cs}
          - [Gestion des versions](./cs-install-guide/version-management.md)
       - Utilisation des paramètres de génération de sortie {#output-gen-config-cs}
          - [Configuration des paramètres de génération de sortie](./cs-install-guide/conf-output-generation.md)
@@ -428,7 +428,7 @@ ht-degree: 7%
       - Création {#authoring}
          - Éditeur web {#webeditor}
             - [Réutilisation du contenu dans AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
-            - Personnalisation {#customizing}
+            - Personnalisation de {#customizing}
                - [Ajout d’un bouton personnalisé à la barre d’outils](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
                - [Ajout de styles personnalisés à l’éditeur web](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
                - [Personnalisation du menu contextuel du dossier](./knowledge-base/kb-articles/authoring/webeditor/customization/hide-create-ditamap-webeditor.md)
@@ -438,7 +438,7 @@ ht-degree: 7%
          - Rapports {#reports}
             - [Gestion des métadonnées du contenu DITA](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
          - [Icône Définir pour les types DITA personnalisés](./knowledge-base/kb-articles/authoring/define-icon-for-custom-ditatypes.md)
-      - Structure de l’extension Guides {#extention-framework}
+      - Guides Extension Framework {#extention-framework}
          - Structure Aem Guides {#aem-guides-framework}
             - [Personnalisations de base](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
             - [Structure JUI](./guides-ui-extensions/aem_guides_framework/jui-framework.md)
@@ -459,7 +459,7 @@ ht-degree: 7%
             - [Personnalisation simple](./guides-ui-extensions/customisations/add-button.md)
             - [Personnalisation des menus contextuels](./guides-ui-extensions/customisations/context-menus.md)
             - [Personnalisation de la barre d’outils et de la barre de rubriques](./guides-ui-extensions/customisations/toolbar-topbar.md)
-            - Réviser{#review-app-customisations}
+            - Révision{#review-app-customisations}
                - [Composants](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [Personnalisation](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
       - Publication {#publishing}

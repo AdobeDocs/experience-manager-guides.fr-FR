@@ -1,5 +1,5 @@
 ---
-title: Fonction de publication native d’un PDF | Utilisation des styles de barres de modification personnalisés
+title: Fonctionnalité Publish du PDF natif | Utilisation des styles de barres de modification personnalisés
 description: Découvrez comment appliquer des styles aux barres de modification.
 exl-id: a81ec56c-ccbb-4599-a696-8edef7a73cdd
 feature: Output Generation
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Une barre de modification est une ligne verticale qui identifie visuellement le contenu nouveau ou révisé. AEM Guides vous permet d’afficher une barre de modification à gauche du contenu modifié dans les rubriques, ainsi que les rubriques modifiées dans la table des matières de la sortie du PDF.
 
-Pour plus d’informations sur l’affichage de la barre de modifications, voir *Création d’un PDF avec une barre de modification entre les versions publiées* définition dans [Publier la sortie du PDF](../web-editor/native-pdf-web-editor.md).
+Pour plus d’informations sur l’affichage de la barre de modification, voir le paramètre *Créer un PDF avec la barre de modification entre les versions publiées* dans [Publish PDF Output](../web-editor/native-pdf-web-editor.md).
 
 ## Modification du contenu dans les rubriques
 
@@ -27,9 +27,9 @@ Vous pouvez modifier les styles suivants pour afficher le contenu modifié et pa
 
 >[!NOTE]
 >
->Ces styles font partie des `layout.css` et vous pouvez les modifier selon vos besoins.
+>Ces styles font partie du fichier `layout.css` et vous pouvez les modifier selon vos besoins.
 
-Par exemple, vous pouvez utiliser l’attribut de couleur dans la variable `.inserted-block` style pour définir la manière dont le contenu inséré s’affiche dans la sortie du PDF publiée.
+Par exemple, vous pouvez utiliser l’attribut de couleur dans le style `.inserted-block` pour définir la manière dont le contenu inséré s’affiche dans la sortie du PDF publiée.
 
 
 ```css
@@ -46,7 +46,7 @@ Par exemple, vous pouvez utiliser l’attribut de couleur dans la variable `.ins
 ...
 ```
 
-De même, vous pouvez utiliser la variable `.deleted-block` style pour définir la manière dont votre contenu supprimé apparaît dans la sortie du PDF publiée.
+De même, vous pouvez utiliser le style `.deleted-block` pour définir la manière dont votre contenu supprimé apparaît dans la sortie du PDF publiée.
 
 ```css
 ...
@@ -63,9 +63,9 @@ De même, vous pouvez utiliser la variable `.deleted-block` style pour définir 
 ...
 ```
 
-Vous pouvez utiliser `.inserted-change-bar` et `.deleted-change-bar` style pour modifier l’aspect des barres de modification qui apparaissent à gauche du contenu mis à jour.
+Vous pouvez utiliser les styles `.inserted-change-bar` et `.deleted-change-bar` pour modifier l’aspect des barres de modification qui apparaissent à gauche du contenu mis à jour.
 
-Par exemple, vous pouvez utiliser `-ro-change-bar-color` dans `.inserted-change-bar` style pour afficher la barre de modification insérée en vert. Vous pouvez également utiliser `-ro-change-bar-color` dans `.deleted-change-bar` style pour afficher la barre de modification supprimée en rouge.
+Par exemple, vous pouvez utiliser l’attribut `-ro-change-bar-color` dans le style `.inserted-change-bar` pour afficher la barre de modification insérée en vert. Vous pouvez également utiliser l’attribut `-ro-change-bar-color` dans le style `.deleted-change-bar` pour afficher la barre de modification supprimée en rouge.
 
 ```css
 ...
@@ -83,7 +83,7 @@ Par exemple, vous pouvez utiliser `-ro-change-bar-color` dans `.inserted-change-
 
 ## Modification de la rubrique dans la table des matières (table des matières)
 
-Vous pouvez également ajouter une barre de modification à gauche des rubriques modifiées dans la table des matières de la sortie du PDF. Vous pouvez utiliser `-ro-change-bar-color` dans la variable `.changed-topic` style pour ajouter une barre de modification dans la couleur de votre choix pour les rubriques mises à jour dans la liste de la table des matières.
+Vous pouvez également ajouter une barre de modification à gauche des rubriques modifiées dans la table des matières de la sortie du PDF. Vous pouvez utiliser l’attribut `-ro-change-bar-color` dans le style `.changed-topic` pour ajouter une barre de modification dans la couleur de votre choix pour les rubriques mises à jour dans la liste de la table des matières.
 
 Par exemple, vous pouvez ajouter une barre de modification de couleur verte.
 

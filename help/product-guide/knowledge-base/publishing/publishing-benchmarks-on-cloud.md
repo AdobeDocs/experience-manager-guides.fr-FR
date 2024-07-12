@@ -11,23 +11,23 @@ ht-degree: 8%
 
 ---
 
-# AEM Guides de publication Benchmarks sur AEMaaCS
+# Benchmarks de publication AEM Guides sur AEMaaCS
 
-Actuellement, le service cloud de Guides AEM certaines limites sur les tailles des cartes de publication que l’équipe de Guides s’efforce activement de résoudre.
+Actuellement, le service cloud AEM Guides a certaines limites sur les tailles des cartes de publication que l’équipe de Guides s’efforce activement de résoudre.
 
-L’équipe Guides a mis en place un microservice de publication évolutif pour prendre en charge les cartes volumineuses et plusieurs publications simultanées. Pour en savoir plus sur le nouveau microservice de publication, consultez [publication de l’architecture du microservice](publish-microservice-architecture-and-performance.md)
+L’équipe Guides a mis en place un microservice de publication évolutif pour prendre en charge les cartes volumineuses et plusieurs publications simultanées. Pour en savoir plus sur le nouveau microservice de publication, reportez-vous à la section [ Architecture du microservice de publication ](publish-microservice-architecture-and-performance.md)
 
-Pour configurer le nouveau service de publication dans n’importe quel environnement cloud AEM voir [configuration de la nouvelle publication basée sur un microservice](configure-microservices.md)
+Pour configurer le nouveau service de publication pour tout environnement cloud d’AEM, reportez-vous à la section [configuration de la publication basée sur un nouveau microservice](configure-microservices.md)
 
 
 ## Environnement d’exécution
 
     Version d’AEM : 2023.5.11983.20230511T173830Z
     Guide Add On Release : 2023.6.0
-    Modèle de site AEM : modèle AEM Guides prêts à l’emploi
-    Version de DITA-OT : 3.5.4
-    Type de processus de publication : processus de publication partagé
-    Sortie prise en charge par le microservice : PDF natif, PDF (Dita-OT)
+    Modèle de site d’AEM : modèle AEM Guides OOOTB
+    Version DITA-OT : 3.5.4
+    Type de workflow Publish : Split Publish Workflow
+    Sortie prise en charge par microservice : PDF, PDF (Dita-OT)
 
 ## Numéros de génération de sortie
 

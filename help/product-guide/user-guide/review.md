@@ -1,6 +1,6 @@
 ---
 title: Révision de rubriques ou de mappages
-description: Consultez efficacement les rubriques ou les mappages dans les Guides d’AEM pour une évaluation du contenu fluide. Découvrez les fonctionnalités destinées aux auteurs et aux réviseurs dans AEM Guides.
+description: Révisez efficacement les rubriques ou les mappages dans AEM Guides pour une évaluation du contenu fluide. Découvrez les fonctionnalités destinées aux auteurs et aux réviseurs dans AEM Guides.
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Presque tous les documents techniques doivent faire l’objet de multiples révisions. Dans la plupart des cas, un cycle de révision implique plusieurs réviseurs. Répondre aux commentaires de plusieurs réviseurs est toujours un défi pour les auteurs. En outre, dans un scénario de plusieurs réviseurs, il est utile qu’un réviseur puisse également voir les commentaires effectués par d’autres réviseurs.
 
-Certaines des principales fonctionnalités offertes par AEM Guides au *initiateurs \(ou auteurs\)* sont :
+Certaines des principales fonctionnalités offertes par AEM Guides aux *initiateurs \(ou auteurs\)* sont les suivantes :
 
 - Créez un projet DITA pour le processus de révision.
 - Envoyez une ou plusieurs rubriques à réviser dans une seule tâche de révision.
@@ -35,7 +35,7 @@ Certaines des principales fonctionnalités offertes par AEM Guides au *initiateu
 - Importez automatiquement les commentaires \(supprimés ou insérés\) dans la version de la rubrique qui a été partagée pour révision.
 
 
-Fonctionnalités disponibles pour *validants*:
+Fonctionnalités disponibles pour les *réviseurs* :
 
 - Obtenez une vue composite des rubriques partagées pour révision.
 - Basculez entre l’affichage composite et l’affichage de rubrique individuelle.
@@ -51,16 +51,16 @@ Fonctionnalités disponibles pour *validants*:
 
 >[!NOTE]
 >
-> Voir *Réviser* section du guide Bonnes pratiques pour connaître les bonnes pratiques relatives à la création d’une tâche de révision.
+> Consultez la section *Révision* du guide Bonnes pratiques pour connaître les bonnes pratiques relatives à la création d’une tâche de révision.
 
-- **[Création d’un projet DITA](authoring-create-dita-project.md)**
+- **[Créer un projet DITA](authoring-create-dita-project.md)**
 
-- **[Envoi de rubriques en révision](review-send-topics-for-review.md)**
+- **[Envoi de rubriques pour révision](review-send-topics-for-review.md)**
 
-- **[Réaffecter la tâche de révision à l’aide d’une notification](reassign-review-using-notification.md)**
+- **[Réaffecter la tâche de révision à l’aide de la notification](reassign-review-using-notification.md)**
 
 - **[Rubriques de révision](review-topics.md)**
 
 - **[Commentaires sur la révision des adresses](review-address-review-comments.md)**
 
-- **[Gestion des tâches de révision à l’aide du tableau de bord de révision](review-manage-tasks-review-dashboard.md)**
+- **[Gérer les tâches de révision à l’aide du tableau de bord de révision](review-manage-tasks-review-dashboard.md)**

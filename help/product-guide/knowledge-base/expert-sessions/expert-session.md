@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# Rejoignez nos sessions mensuelles d’experts et découvrez le plein potentiel des Guides AEM !
+# Rejoignez nos sessions mensuelles d’experts et découvrez le plein potentiel d’AEM Guides !
 
-Nos sessions mensuelles d’experts sont conçues pour aider nos clients et nos partenaires à obtenir des informations précieuses sur les Guides d’AEM. Chaque session se concentre sur les fonctionnalités ou mises à jour importantes dans AEM Guides, où notre équipe d’experts vous guidera tout au long des étapes.
+Nos sessions d’experts mensuelles sont conçues pour aider nos clients et nos partenaires à obtenir des informations précieuses sur AEM Guides. Chaque session se concentre sur les fonctionnalités ou mises à jour importantes d’AEM Guides, pour lesquelles notre équipe d’experts vous guidera tout au long des étapes.
 
-Au cours de ces sessions, nos experts discuteront des fonctionnalités détaillées et des avantages de notre produit, et partageront des conseils pratiques et des bonnes pratiques qui vous aideront à en tirer le meilleur parti. Que vous soyez un nouvel utilisateur ou un professionnel chevronné, ces sessions vous fourniront les informations dont vous avez besoin pour optimiser votre utilisation des Guides AEM.
+Au cours de ces sessions, nos experts discuteront des fonctionnalités détaillées et des avantages de notre produit, et partageront des conseils pratiques et des bonnes pratiques qui vous aideront à en tirer le meilleur parti. Que vous soyez un nouvel utilisateur ou un professionnel chevronné, ces sessions vous fourniront les informations dont vous avez besoin pour optimiser votre utilisation d’AEM Guides.
 
-Nous comprenons que votre temps est précieux, et c’est pourquoi nous avons rendu ces sessions d’experts faciles et accessibles pour vous. Vous pouvez vous inscrire à la session à venir en visitant notre [forum communautaire](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) ou par le biais de l’e-mail qui vous a été envoyé.
+Nous comprenons que votre temps est précieux, et c’est pourquoi nous avons rendu ces sessions d’experts faciles et accessibles pour vous. Vous pouvez vous inscrire à la session à venir en visitant notre [forum de la communauté](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) ou par le biais de l’e-mail qui vous a été envoyé.
 
 Si vous avez manqué l’une des sessions précédentes, vous pouvez accéder aux enregistrements de cette section.
 

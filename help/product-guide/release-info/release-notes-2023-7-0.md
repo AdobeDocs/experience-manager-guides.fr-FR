@@ -1,6 +1,6 @@
 ---
-title: Notes de mise à jour | Instructions de mise à niveau et problèmes résolus dans les guides Adobe Experience Manager, version de juillet 2023
-description: Découvrez les correctifs de bogues et comment mettre à niveau vers la version de juillet 2023 de Adobe Experience Manager Guides as a Cloud Service
+title: Notes de mise à jour | Instructions de mise à niveau et problèmes résolus dans Adobe Experience Manager Guides, version de juillet 2023
+description: Découvrez les correctifs et comment mettre à niveau vers la version de juillet 2023 d’Adobe Experience Manager Guides as a Cloud Service
 exl-id: f1765c6a-cb8e-4a06-a6f4-f5c225b6bc88
 feature: Release Notes
 role: Leader
@@ -11,18 +11,18 @@ ht-degree: 1%
 
 ---
 
-# Version de juillet 2023 des Guides Adobe Experience Manager as a Cloud Service
+# Version de juillet 2023 d’Adobe Experience Manager Guides as a Cloud Service
 
-Cette note de mise à jour traite des instructions de mise à niveau, de la matrice de compatibilité et des problèmes résolus dans la version de juillet 2023 des Guides Adobe Experience Manager (ultérieurement appelée *AEM Guides as a Cloud Service*).
+Cette note de mise à jour traite des instructions de mise à niveau, de la matrice de compatibilité et des problèmes résolus dans la version de juillet 2023 d’Adobe Experience Manager Guides (plus tard appelée *AEM Guides as a Cloud Service*).
 
-Pour plus d’informations sur les nouvelles fonctionnalités et améliorations, voir [Nouveautés de la version de juillet 2023 d’AEM Guides as a Cloud Service](whats-new-2023-7-0.md).
+Pour plus d’informations sur les nouvelles fonctionnalités et améliorations, voir [Nouveautés de juillet 2023 de la version AEM Guides as a Cloud Service](whats-new-2023-7-0.md).
 
 ## Mise à niveau vers la version de juillet 2023
 
-Mettez à niveau votre configuration as a Cloud Service actuelle AEM Guides en procédant comme suit :
+Mettez à niveau votre configuration AEM Guides as a Cloud Service actuelle en procédant comme suit :
 
 1. Extrayez le code Git des Cloud Service et passez à la branche configurée dans le pipeline Cloud Service correspondant à l’environnement que vous souhaitez mettre à niveau.
-2. Mettre à jour `<dox.version>` dans `/dox/dox.installer/pom.xml` du code Git Cloud Service vers la version 2023.7.0.314.
+2. Mettez à jour la propriété `<dox.version>` du fichier `/dox/dox.installer/pom.xml` de votre code Git Cloud Service vers la version 2023.7.0.314.
 3. Validez les modifications et exécutez le pipeline Cloud Service pour effectuer la mise à niveau vers la version de juillet 2023 d’AEM Guides as a Cloud Service.
 
 ## Procédure d’activation du déclencheur d’un script via un servlet
@@ -66,9 +66,10 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 Effectuez les étapes suivantes pour le post-traitement du contenu existant et l’utilisation du nouveau rapport de lien rompu :
 
-1. (Facultatif) Si le système contient plus de 100 000 fichiers dita, mettez à jour la variable `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` à une valeur plus élevée (toute valeur supérieure au nombre de ressources présentes, par exemple 200 000), puis redéployez.
+1. (Facultatif) S’il existe plus de 100 000 fichiers dita dans le système, mettez à jour la valeur `queryLimitReads` sous `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` vers une valeur plus grande (toute valeur supérieure au nombre de ressources présentes, par exemple 200 000), puis redéployez.
 
-   - Suivez les instructions de la section *Remplacements de configuration* dans la section Installation et configuration de Adobe Experience Manager Guides as a Cloud Service pour créer le fichier de configuration.
+   - Suivez les instructions de la section *Remplacements de configuration* dans Installer et configurer Adobe Experience Manager Guides
+as a Cloud Service, pour créer le fichier de configuration.
    - Dans le fichier de configuration, fournissez les détails (propriété) suivants pour configurer l’option queryLimitReads :
 
      | PID | Clé de propriété | Valeur de la propriété |
@@ -77,12 +78,12 @@ Effectuez les étapes suivantes pour le post-traitement du contenu existant et l
 
 1. Exécutez une requête de POST sur le serveur (avec l’authentification correcte) - `http://<server:port>//bin/guides/reports/upgrade`.
 
-1. L’API renvoie un jobId. Pour vérifier l’état de la tâche, vous pouvez envoyer une demande de GET avec l’ID de la tâche au même point de terminaison : `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. L’API renvoie un jobId. Pour vérifier l’état de la tâche, vous pouvez envoyer une demande de GET avec l’ID de la tâche au même point de terminaison - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
 (Par exemple : `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 1. Une fois la tâche terminée, la requête de GET précédente répond avec succès. Si la tâche échoue pour une raison quelconque, l’échec peut être visible à partir des journaux du serveur.
 
-1. Revenir à la valeur par défaut ou à la valeur existante précédente de `queryLimitReads` si vous l’avez modifié à l’étape 1.
+1. Revenez à la valeur par défaut ou à la valeur existante précédente de `queryLimitReads` si vous l’avez modifiée à l’étape 1.
 
 ## Étapes pour indexer le contenu existant afin d’utiliser la nouvelle liste de rubrique et de recherche sous l’onglet Rapports :
 
@@ -94,18 +95,18 @@ Effectuez les étapes suivantes pour indexer le contenu existant et utilisez le 
 
 1. Vous pouvez également transmettre un dossier racine pour indexer les mappages DITA d’un dossier spécifique (et de ses sous-dossiers). Par exemple, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Notez que si les paramètres paths et root sont transmis, seul le paramètre paths est pris en compte.
 
-1. L’API renvoie un jobId. Pour vérifier l’état de la tâche, vous pouvez envoyer une demande de GET avec l’ID de la tâche au même point de terminaison : `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Par exemple : `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+1. L’API renvoie un jobId. Pour vérifier l’état de la tâche, vous pouvez envoyer une demande de GET avec l’ID de la tâche au même point de terminaison - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Par exemple : `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 
 1. Une fois la tâche terminée, la requête de GET précédente répond avec succès et indique si une correspondance a échoué. Les mappages indexés avec succès peuvent être confirmés à partir des journaux du serveur.
 
 ## Matrice de compatibilité
 
-Cette section répertorie le tableau de compatibilité des applications logicielles prises en charge par AEM Guides as a Cloud Service de juillet 2023.
+Cette section répertorie le tableau de compatibilité des applications logicielles prises en charge par la version as a Cloud Service d’AEM Guides de juillet 2023.
 
 ### FrameMaker et FrameMaker Publishing Server
 
-| AEM Guides as a Cloud | FMPS | FrameMaker |
+| Version AEM Guides as a Cloud | FMPS | FrameMaker |
 | --- | --- | --- |
 | 2023.07.0 | Non compatible | 2022 ou version ultérieure |
 | | | |
@@ -113,7 +114,7 @@ Cette section répertorie le tableau de compatibilité des applications logiciel
 
 ### Connecteur Oxygen
 
-| AEM Guides as a Cloud | Fenêtres du connecteur Oxygen | Mac du connecteur Oxygen | Modifier sous Windows Oxygen | Modifier dans Oxygen Mac |
+| Version AEM Guides as a Cloud | Fenêtres du connecteur Oxygen | Mac du connecteur Oxygen | Modifier sous Windows Oxygen | Modifier dans Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2023.07.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2,3 | 2,3 |
 |  |  |  |  |
@@ -130,7 +131,7 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 - La publication de mappage DITA est très lente avec un modèle modifiable. (12075)
 - La configuration de l’interface utilisateur du profil global ne correspond pas au profil du dossier. (1970)
 - Les références au contenu sont rompues lorsque les fichiers DITA sont copiés et collés. (1959)
-- Impossible de modifier le fragment de contenu en mode Colonne avec les AEM Guides installés. (7342)
+- Impossible de modifier le fragment de contenu en mode Colonnes avec AEM Guides installé. (7342)
 - Le contenu est perdu lorsqu’un xref non encapsulé se trouve sous des balises de sous-élément. 12532
 
 ### Publication

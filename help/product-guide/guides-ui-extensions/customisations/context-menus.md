@@ -17,15 +17,15 @@ Les menus contextuels suivants peuvent être personnalisés :
 - `file_options`
 contrôleurs :
    - Vue Carte : `ditamap_viewer_controller`
-   - Repository Panel : `repository_panel_controller`
+   - Panneau Référentiel : `repository_panel_controller`
    - Panneau Favoris : `collection_tree_controller`
-   - Liens de référence des propriétés du fichier : `file_references_links_controller`
+   - Liens de référence de propriétés de fichier : `file_references_links_controller`
    - Panneau de recherche du référentiel : `repository_search_controller`
    - Objet Schéma Panneau : `subject_scheme_tree_controller`
 
 - `folder_options`
 contrôleurs :
-   - Repository Panel : `repository_panel_controller`
+   - Panneau Référentiel : `repository_panel_controller`
    - Panneau Favoris : `collection_tree_controller`
 
 - `collection_options`
@@ -46,7 +46,7 @@ contrôleurs :
 
 Vous pouvez également créer votre propre menu contextuel en définissant un nouvel identifiant unique.
 
-Désormais, chaque menu contextuel comporte une `controller id` qui lui est associée. Ce contrôleur gère la variable `on-event` fonctionnalité des différentes options du menu contextuel
+Désormais, un `controller id` est associé à chaque menu contextuel. Ce contrôleur gère la fonctionnalité `on-event` pour les différentes options de menu contextuel.
 
 Prenons un exemple pour comprendre
 
@@ -119,6 +119,6 @@ const fileOptions = {
 Maintenant, comprenons ce que ce code fait.
 
 1. `id` est utilisé pour identifier le menu contextuel que nous voulons personnaliser.
-2. `contextMenuWidget` est utilisé pour définir la variable `widget id` ou le `component` qui appelle le menu contextuel et gère l’événement `events`.
+2. `contextMenuWidget` est utilisé pour définir le `widget id` ou le `component` qui appelle le menu contextuel et gère le `events`.
 
-Le reste reste est le même, où `view` est utilisé pour définir les éléments, `target` identifie où remplacer, ajouter ou ajouter en préfixe l’option et l’ `contextMenuWidget` Le contrôleur gère les `on-click` événements .
+Le reste reste identique, où `view` est utilisé pour définir les éléments, `target` identifie l’emplacement où remplacer, ajouter ou ajouter en préfixe l’option et le contrôleur `contextMenuWidget` gère les événements `on-click`.

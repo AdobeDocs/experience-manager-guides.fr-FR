@@ -1,6 +1,6 @@
 ---
-title: Notes de mise à jour d’ [!DNL AEM Guides], version de janvier 2022
-description: Version de janvier [!DNL Adobe Experience Manager Guides] as a Cloud Service
+title: Notes de mise à jour de  [!DNL AEM Guides], version de janvier 2022
+description: Version de janvier de [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 feature: Release Notes
 role: Leader
@@ -11,18 +11,18 @@ ht-degree: 0%
 
 ---
 
-# Version de janvier [!DNL Adobe Experience Manager Guides] as a Cloud Service
+# Version de janvier de [!DNL Adobe Experience Manager Guides] as a Cloud Service
 
 ## Mise à niveau vers la version de janvier
 
-Mettre à niveau votre [!DNL Adobe Experience Manager Guides] as a Cloud Service (plus tard appelé [!DNL AEM Guides] as a Cloud Service) en procédant comme suit :
+Mettez à niveau votre configuration actuelle [!DNL Adobe Experience Manager Guides] as a Cloud Service (plus tard appelée [!DNL AEM Guides] as a Cloud Service) en procédant comme suit :
 1. Extrayez le code Git des Cloud Service et passez à la branche configurée dans le pipeline Cloud Service correspondant à l’environnement que vous souhaitez mettre à niveau.
-1. Mettre à jour `<dox.version>` dans `/dox/dox.installer/pom.xml` du code Git Cloud Service vers la version 2022.1.78.
-1. Validez les modifications et exécutez le pipeline Cloud Service pour effectuer la mise à niveau vers la version de janvier de [!DNL AEM Guides] as a Cloud Service.
+1. Mettez à jour la propriété `<dox.version>` du fichier `/dox/dox.installer/pom.xml` de votre code Git Cloud Service vers la version 2022.1.78.
+1. Validez les modifications et exécutez le pipeline Cloud Service pour effectuer la mise à niveau vers la version de janvier de l’as a Cloud Service [!DNL AEM Guides].
 
 ## Matrice de compatibilité
 
-Cette section répertorie la matrice de compatibilité des applications logicielles prises en charge par [!DNL AEM Guides] Version as a Cloud Service de janvier 2022.
+Cette section répertorie la matrice de compatibilité des applications logicielles prises en charge par la version as a Cloud Service de [!DNL AEM Guides] de janvier 2022.
 
 ### FrameMaker et FrameMaker Publishing Server
 
@@ -55,7 +55,7 @@ Vous pouvez également filtrer les articles en fonction de leur état de documen
 
 Cette publication continue basée sur les besoins vous permet non seulement de contrôler entièrement votre publication de contenu, mais elle réduit également le temps global de publication de votre contenu mis à jour.
 Lorsque vous publiez vos articles à l’aide de ce modèle, il peut également transmettre les métadonnées aux pages que vous avez publiées.
-Pour plus d’informations, voir *Publication basée sur des articles à partir de l’éditeur web* dans le Guide de l’utilisateur.
+Pour plus d’informations, reportez-vous à la section *Publication basée sur un article à partir de l’éditeur web* du Guide de l’utilisateur.
 
 ### Amélioration de l’éditeur web
 
@@ -63,7 +63,7 @@ De nombreuses améliorations et nouvelles fonctionnalités sont introduites dans
 
 * La prise en charge du schéma d’objet a également été ajoutée dans l’éditeur web. Vous pouvez désormais créer et utiliser un schéma d’objet à l’aide du panneau Schéma d’objet . Avec l’ajout d’un schéma d’objet, vous pouvez désormais utiliser vos propres métadonnées et taxonomie d’entreprise.
 
-![Modèle d’objet](assets/subject-scheme-panel.png)
+![Schéma d’objet](assets/subject-scheme-panel.png)
 
 * Un nouvel outil de zone réactive de glossaire a été introduit dans cette version pour gérer les glossaires en bloc. Grâce à cet outil, vous pouvez rapidement convertir du texte en glossaire et en termes en bloc pour une carte ou des rubriques ouvertes sélectionnées.
 
@@ -85,7 +85,7 @@ De nombreuses améliorations et nouvelles fonctionnalités sont introduites dans
 Vous pouvez maintenant créer et publier vos documents dans FrameMaker. FrameMaker est livré avec un connecteur d’usine vers Adobe Experience Manager. Dans FrameMaker, vous disposez d’une interface conviviale qui vous permet de gérer des versions de vos documents dans un environnement collaboratif et distribué.
 
 Une fois votre contenu créé, FrameMaker vous permet de publier vos documents dans différents formats (PDF, HTML5, EPUB et DITA). Vous pouvez également effectuer diverses opérations de gestion de fichiers, telles que l’extraction, l’extraction avec dépendances, l’archivage, l’actualisation, etc.
-Pour créer avec FrameMaker dans [!DNL AEM Guides] FrameMaker d’utilisation as a Cloud Service version 2020.4 et ultérieure.
+Pour créer avec FrameMaker dans [!DNL AEM Guides], utilisez la version 2020.4 et ultérieure du FrameMaker as a Cloud Service.
 
 ### Nouveau tableau de bord de traduction
 
@@ -97,15 +97,15 @@ Un nouveau tableau de bord de traduction a été introduit dans l’éditeur web
 * Ajout d’un mécanisme de traduction multilingue afin d’éviter de créer plusieurs projets pour chaque langue lorsque la demande de traduction est lancée pour plusieurs langues.
 * Introduction d’une configuration pour masquer l’onglet de traduction dans le tableau de bord de carte. Par défaut, il est visible. Vous pouvez choisir de traduire le contenu à l’aide du tableau de bord de mappage ou de l’éditeur web.
 
-![Tableau de bord des traductions](assets/translation-from-web-editor.png)
+![Tableau de bord de traduction](assets/translation-from-web-editor.png)
 
 ### Publication améliorée
 
 * Les auteurs peuvent désormais transmettre des métadonnées au niveau du mappage et du sujet à la publication DITA-OT. Cela s’avère utile lorsque les modèles de PDF personnalisés sont conçus pour utiliser des propriétés de métadonnées de fichier telles que les balises, l’auteur, l’état du document, etc.
 
-![métadonnées DITA-OT](assets/custom-meta-data-output-preset.png)
+![Métadonnées DITA-OT](assets/custom-meta-data-output-preset.png)
 
-* Une nouvelle configuration a été ajoutée pour permettre aux utilisateurs de conserver ou de supprimer les versions des rubriques supprimées lors de la **Suppression et création** est utilisée dans la génération de sortie de site AEM.
+* Une nouvelle configuration a été ajoutée pour permettre aux utilisateurs de conserver ou de supprimer les versions des rubriques en cours de suppression lorsque l’option **Supprimer et créer** est utilisée dans la génération de sortie AEM site.
 
 ### Amélioration de la gestion des fichiers
 
@@ -117,15 +117,15 @@ Les améliorations suivantes sont désormais visibles lors de l’utilisation de
 * Possibilité de créer une version du fichier téléchargé avec la possibilité d’empêcher le remplacement d’un fichier extrait.
 * Vous pouvez désormais voir un aperçu des images directement à partir de la vue Historique des versions. En outre, pour les fichiers DITA et non DITA, l’historique de version affiche les informations de version actuelles séparément.
 
-![Miniature de l’historique de version](assets/version-history-preview-image.png)
+![Miniature de l’historique de versions](assets/version-history-preview-image.png)
 
 * Chaque fois que l’utilisateur crée un fichier DITA, le nom de fichier par défaut s’affiche en petite casse pour être intégré au scénario de création de dossier d’AEM natif.
 
 ### Nouvelle fonctionnalité d’exportation de rapports
 
-Les rapports sont très utiles pour identifier l’intégrité de votre contenu. [!DNL AEM Guides] as a Cloud Service fournit divers rapports pour contrôler votre contenu. Désormais, vous pouvez non seulement afficher les rapports, mais également exporter les données du rapport dans un fichier CSV pour les afficher et les partager avec votre équipe élargie. Les données des rapports peuvent vous donner un aperçu rapide des liens rompus ou des images manquantes.
+Les rapports sont très utiles pour identifier l’intégrité de votre contenu. [!DNL AEM Guides] L’as a Cloud Service fournit divers rapports pour prendre le contrôle de votre contenu. Désormais, vous pouvez non seulement afficher les rapports, mais également exporter les données du rapport dans un fichier CSV pour les afficher et les partager avec votre équipe élargie. Les données des rapports peuvent vous donner un aperçu rapide des liens rompus ou des images manquantes.
 
-![Exportation de rapports](assets/export-report.png)
+![Export de rapport](assets/export-report.png)
 
 ### Amélioration de l’expérience d’actualisation de la gestion des actifs numériques Oxygen
 
@@ -134,8 +134,8 @@ Lorsque vous actualisez des fichiers du serveur AEM dans Oxygen, un message d’
 
 ### Autres améliorations des fonctionnalités
 
-* Vous pouvez maintenant créer une **Projet Dita** sous le **/apps/projects/templates** chemin.
-* Téléchargez maintenant la valeur par défaut **ui_config.json** à partir de vos profils de dossier. Vous pouvez l’utiliser pour fusionner des modifications personnalisées à partir des **ui_config.json** lors de la mise à niveau.
+* Vous pouvez désormais créer un modèle **Dita Project** sous le chemin **/apps/projects/templates**.
+* Téléchargez maintenant le fichier par défaut **ui_config.json** à partir de vos profils de dossier. Vous pouvez l’utiliser pour fusionner des modifications personnalisées du fichier **ui_config.json** existant lors de la mise à niveau.
 * Vous n’avez pas besoin d’effacer le cache du navigateur même en présence de nouvelles versions des fichiers JS.
 
 ## Problèmes résolus
@@ -159,17 +159,17 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 * L’enregistrement d’une rubrique après le formatage des équations MathML entraîne une erreur. (7954)
 * keydef avec (tm) n’est pas rendu correctement dans l’éditeur et la sortie du site AEM contenait des symboles de gestion dynamique des balises en double. (7859)
 * Le glissement et le dépôt d’un fragment de code ne fonctionnent pas selon les DTD. (7758)
-* HTML ignore les dimensions définies personnalisées pour les graphiques. (7718)
+* HTML ignore les dimensions définies par les personnalisations pour les graphiques. (7718)
 * l’attribut conrefend ne se met pas à jour lors du déplacement du fichier source. (7698)
 * L’utilisation de documents de type Référence entraîne plusieurs problèmes d’interface utilisateur. (7656)
 * Les fichiers DITAVAL ne s’affichent pas lorsque l’auteur ajoute ditavalref dans une carte. (7594)
-* Un espace inattendu est présent dans chaque espace vide. `<entry>` élément lorsque l’attribut outputclass est ajouté à `<tgroup>` élément . (7532)
-* Le bouton Source ne fonctionne pas pour les rubriques ouvertes via le tableau de bord de carte. (7465)
+* Un espace inattendu est trouvé dans chaque élément `<entry>` vide lorsque l’attribut outputclass est ajouté à l’élément `<tgroup>`. (7532)
+* Le bouton Source ne fonctionne pas pour les rubriques ouvertes via le tableau de bord de mappage. (7465)
 * Une impression correcte insère des lignes vides et des espaces visibles lorsque le fichier est ouvert dans FrameMaker ou Oxygen. (7408)
 * Les mappages avec href=&quot;/&quot; dans l’une des rubriques ne sont pas publiés sur AEM sites. (7405)
 * Problèmes de performances détectés dans l’éditeur lorsque la carte racine contient un grand nombre de clés de base. (7400)
 * L’état du document pour une carte avec modèle personnalisé n’est pas hérité de son profil d’états correspondant. (7359)
-* `<tm>` élément rendu incorrectement en tant qu’élément block . (7286)
+* L’élément `<tm>` est incorrectement rendu en tant qu’élément de bloc. (7286)
 * Les modèles en double s’affichent dans le panneau des modèles de l’éditeur lors de la création d’un modèle. (5814)
 * Les modèles définis dans ui_config pour les images permettant de définir des attributs supplémentaires ne s’appliquent pas aux cas de glisser-déposer. (5713)
 * Aspect par défaut incorrect de l’uicontrol dans le ménucascade. (5483)
@@ -209,14 +209,14 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 * Le caractère d’espace blanc est automatiquement ajouté après une balise &quot;tm;&quot; dans la sortie AEM site. (7964)
 * Impossible d’afficher les vidéos YouTube dans AEM sortie Site. (7401)
 * Le filtrage par libellé échoue pour le contenu référencé une fois que l’utilisateur a cliqué sur parcourir toutes les rubriques dans l’onglet de ligne de base du tableau de bord de carte. (7388)
-* Publication d’une rubrique avec élément `<tm>` La valeur de propriété SM ou reg s’affiche incorrectement dans la sortie générée. (7239)
+* La rubrique de publication avec l’élément `<tm>` dont la valeur de propriété SM ou reg s’affiche incorrectement dans la sortie générée. (7239)
 * La publication de ligne de base avec l’image ne sélectionne pas la dernière version de l’image dans la sortie publiée. (7231)
 * Les rubriques référencées relatives s’affichent dans l’onglet Ligne de base . (5424)
 * La publication incrémentielle pour une rubrique dont le titre contient conkeyref ne fonctionne pas comme prévu. (4474)
 * Le titre de la page n’est pas utilisé pour la génération de l’URL de sortie, même si ce paramètre est coché. (8257)
 * Publication de ligne de base : sélectionnez la version actuelle des images au lieu du noeud figé. Vous pouvez également vérifier si le nom du fichier contient un espace ou des caractères spéciaux pour une image. (8274, 8322)
 * La publication incrémentielle échoue pour le mappage DITA avec le schéma d’objet de type mapref. (8218)
-* La valeur null est ajoutée chaque fois qu’une carte est ajoutée au tableau de bord de publication en bloc. (8695)
+* La valeur null est ajoutée chaque fois qu’une carte est ajoutée au tableau de bord Publish en bloc. (8695)
 * Lors de l’utilisation de la publication de ligne de base avec l’image comme référence dans la rubrique, l’image n’est pas publiée dans la sortie. (8564)
 * La publication échoue avec une exception si la ligne de base utilisée dans AEM publication de site est supprimée. (8572)
 * La régénération de rubrique ne fonctionne pas. (8091)
@@ -228,7 +228,7 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 * La fonction de recherche enregistrée (collection dynamique) se brise si le prédicat DITA est ajouté aux filtres de recherche. (8048)
 * La restauration d’une image vers une ancienne version ne fonctionne pas. (DXML-7903)
 * L’option Supprimer est également visible pour les auteurs qui ne disposent pas d’une autorisation de suppression. (7322)
-* La superposition CCMS pour l’éditeur de ressources interrompt le rendu de l’option de suppression. (8093)
+* La superposition CCMS pour l’éditeur Assets interrompt le rendu de l’option Supprimer. (8093)
 * Le profil du document n’est pas supprimé. (8604)
 * Les références s’interrompent lors de l’exécution de &quot;Select All&quot; et du déplacement du fichier multimédia/Dita_Content vers un autre dossier. (8621)
 * Des références incorrectes se produisent dans la source lors du déplacement des ressources. (8627)
@@ -236,14 +236,14 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 
 ### Importation de contenu
 
-* Conversion HTML vers DITA | La table avec &quot;tr&quot; avec des entrées &quot;td&quot; vides entraîne des lignes supplémentaires dans la sortie. (8132)
-* Conversion HTML vers DITA | Le HTML comportant un tableau avec plusieurs corps échoue avec exception. (7940)
-* Conversion HTML vers DITA | s’affiche si le HTML source comporte des commentaires. (7937)
+* HTML à la conversion DITA | La table avec &quot;tr&quot; avec des entrées &quot;td&quot; vides entraîne des lignes supplémentaires dans la sortie. (8132)
+* HTML à la conversion DITA | L’HTML comportant un tableau avec plusieurs corps échoue avec exception. (7940)
+* HTML à la conversion DITA | des erreurs si l’HTML source comporte des commentaires. (7937)
 * L’importation de fichiers DITA 1.3 DITA entraîne la transformation de href en liens mal formés. (8019)
 
 ## Problèmes connus
 
-Adobe a identifié les problèmes connus suivants pour : [!DNL AEM Guides] Version as a Cloud Service de janvier 2022.
+Adobe a identifié les problèmes connus suivants pour la version as a Cloud Service de janvier 2022 de [!DNL AEM Guides].
 
 
 ### Problèmes connus liés à la solution
@@ -251,19 +251,19 @@ Adobe a identifié les problèmes connus suivants pour : [!DNL AEM Guides] Versi
 Utilisez la solution donnée pour les problèmes connus suivants :
 
 * L’authentification web ne fonctionne pas pour le connecteur Oxygen sur Mac.
-  **Solution**: utilisez le connecteur Oxygen sous Windows pour l’instant.
+  **Solution** : utilisez pour l’instant le connecteur Oxygen sous Windows.
 
 * Dans le navigateur Firefox, les commentaires de révision ne peuvent pas être importés sans ouvrir la vue côte à côte.
-  **Solution**: utilisez le navigateur Chrome pour l’instant.
+  **Solution** : utilisez le navigateur Chrome pour l’instant.
 
 * Les références s’interrompent lors du déplacement des images ou des fichiers multimédia dont le nom contient un ou plusieurs espaces.
-  **Solution**: renommez le fichier et supprimez les espaces du nom de fichier avant de les déplacer.
+  **Solution** : renommez le fichier et supprimez les espaces du nom du fichier avant de les déplacer.
 
-* Le tableau de bord de la carte ne se charge pas par intermittence dans la dernière version du navigateur Chrome.
-  **Solution**: actualisez la page du tableau de bord de la carte.
+* Le tableau de bord de mappage ne se charge pas par intermittence dans la dernière version du navigateur Chrome.
+  **Solution** : actualisez la page du tableau de bord de la carte.
 
 ### Autres problèmes connus
 
-* Si Oxygen est connecté à [!DNL AEM Guides] solution utilisant l’authentification web, puis la déconnexion échoue.
+* Si Oxygen est connecté à la solution [!DNL AEM Guides] à l’aide de l’authentification web, la déconnexion échoue.
 * Les tâches de révision ne peuvent pas être réaffectées aux utilisateurs.
-* Des problèmes sont présents dans l’interface utilisateur de la collecte de cartes, comme si le texte était déformé et **Tout sélectionner** ne fonctionne pas correctement.
+* Des problèmes sont présents dans l’interface utilisateur de la collection de cartes, comme si le texte était déformé et la fonctionnalité **Sélectionner tout** ne fonctionne pas correctement.

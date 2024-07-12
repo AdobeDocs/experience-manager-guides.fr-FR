@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Pour effectuer toute mise à jour de configuration, l’approche générique suivante doit être utilisée :
 
-1. Accédez au référentiel Git de Cloud Manager.
+1. Accédez à votre référentiel Git Cloud Manager.
 
 1. Créez un fichier JSON à l’emplacement suivant :
 

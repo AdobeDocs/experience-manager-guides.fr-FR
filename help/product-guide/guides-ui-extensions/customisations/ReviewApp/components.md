@@ -2,24 +2,24 @@
 title: Composants
 description: Vérification des composants d’application
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 78d626f9-9f96-4748-a268-39fa57aef495
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
 
 ---
 
-
 # Composants de l’application de révision
 
 Voici les principaux composants de l’application de révision :
 
-- Panneau de révision intégré : `id: inline_review_panel`
+- Panneau de révision en ligne : `id: inline_review_panel`
    - Panneau de droite dans lequel les commentaires de révision sont rendus du côté de l’éditeur XML.
 
 ![Capture d’écran du panneau de révision intégré](./imgs/inline_review.png)
 
-- Aperçu des sujets : `id: topic_reviews`
+- Révisions de rubrique : `id: topic_reviews`
    - Panneau de droite dans lequel les commentaires sont rendus sur l’application de révision.
 
 ![Capture d’écran du panneau de révision de rubrique](./imgs/topic_reviews.png)
@@ -33,14 +33,14 @@ Commentaire de révision sur l’application de révision :
 Révisez le commentaire du côté de l’éditeur xml :
 ![Capture d’écran du commentaire de révision](./imgs/review_comment_xmleditor.png)
 
-- Révision de la réponse aux commentaires : `id: comment_reply`
+- Réviser la réponse des commentaires : `id: comment_reply`
    - Le widget de chaque réponse de commentaire de révision.
-     ![Capture d’écran de réponse aux commentaires de révision](./imgs/reply.png)
+     ![Réviser une capture d’écran de réponse de commentaire](./imgs/reply.png)
 
 - Nouvelle réponse aux commentaires de révision : `id: comment_new_reply`
    - Le widget pour la nouvelle réponse de commentaire de révision.
-     ![Nouvelle capture d’écran de réponse aux commentaires de révision](./imgs/new_reply.png)
+     ![Nouvelle capture d’écran de réponse de commentaire de révision](./imgs/new_reply.png)
 
-- Annotation Toolbox : `id: annotation_toolbox`
+- Boîte à outils d’annotation : `id: annotation_toolbox`
    - Barre d’outils supérieure droite de l’application de révision.
-     ![Capture d’écran de la boîte d’outils d’annotation](./imgs/annotation_toolbox.png)
+     ![Capture d’écran de la boîte à outils d’annotation](./imgs/annotation_toolbox.png)

@@ -16,6 +16,6 @@ ht-degree: 0%
 
 AEM Guides est fourni avec des modèles de rubrique et de mappage DITA. Vous pouvez créer votre propre modèle personnalisé et le partager avec vos auteurs. Cette rubrique décrit le processus d’utilisation de modèles de rubrique et de mappage personnalisés.
 
-- **[Configuration du modèle de rubrique DITA personnalisé](conf-template-tags-custom-dita-topic-template.md)**
+- **[Configurer le modèle de rubrique DITA personnalisé](conf-template-tags-custom-dita-topic-template.md)**
 
-- **[Configuration du modèle de mappage DITA personnalisé](conf-template-tags-custom-dita-map-templates.md)**
+- **[Configurer le modèle de mappage DITA personnalisé](conf-template-tags-custom-dita-map-templates.md)**

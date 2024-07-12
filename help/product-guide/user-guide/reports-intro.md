@@ -17,15 +17,15 @@ Dans une configuration organisationnelle, vous souhaitez vérifier l’exhaustiv
 
 Vous pouvez créer des rapports de mappage DITA de deux manières :
 
-- **À partir de l’éditeur Web**: vous permet de générer la liste de rubriques et le rapport de métadonnées pour le mappage DITA actuel à partir de l’éditeur web. Vous pouvez trier les rubriques ou les filtrer selon votre sélection. Vous avez également la possibilité de mettre à jour les métadonnées des rubriques sélectionnées en masse.
-- **Depuis le tableau de bord de la carte**: vous permet de générer le rapport de mappage DITA et fournit des informations détaillées au niveau du mappage et au niveau du sujet.
+- **À partir de l’éditeur web** : vous permet de générer la liste de rubriques et le rapport de métadonnées pour le mappage DITA actuel à partir de l’éditeur web. Vous pouvez trier les rubriques ou les filtrer selon votre sélection. Vous avez également la possibilité de mettre à jour les métadonnées des rubriques sélectionnées en masse.
+- **Depuis le tableau de bord de la carte** : vous permet de générer le rapport de mappage DITA et fournit des informations détaillées au niveau de la carte et au niveau du sujet.
 
-- **[Rapport de mappage DITA à partir de l’éditeur web](reports-web-editor.md)**
+- **[Rapport de mappage DITA de l’éditeur web](reports-web-editor.md)**
 
 - **[Rapport de mappage DITA à partir du tableau de bord de mappage](reports-ditamap.md)**
 
-- **[Rapport Réutilisation du contenu](reports-content-reuse.md)**
+- **[Rapport Réutilisation de contenu](reports-content-reuse.md)**
 
 - **[Rapport d’état de conversion](reports-convertion-status.md)**
 
-- **[Rapport Historique des versions des fichiers restaurés](reports-reverted-file-version-history.md)**
+- **[Rapport Historique des versions de fichiers restaurés](reports-reverted-file-version-history.md)**

@@ -2,7 +2,8 @@
 title: Libellé
 description: Libellé
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: aceefb08-3198-4c3a-90ec-ac1cdde28582
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 6%
@@ -12,7 +13,7 @@ ht-degree: 6%
 # Libellé
 
 Pour afficher n’importe quel texte ou chaîne, nous utilisons le composant, son libellé.
-Le composant de libellé de l’interface utilisateur JSON représente un code HTML. `<label/>`.
+Le composant de libellé dans l’interface utilisateur JUI représente un fichier HTML `<label/>`.
 
 Vous trouverez ci-dessous un exemple d’ajout d’une étiquette statique.
 
@@ -34,4 +35,4 @@ const labelJSON =  {
 
 Le libellé rendu ressemblera à ceci :
 
-![label](./imgs/label.png "Libellé")
+![label](./imgs/label.png "Label")

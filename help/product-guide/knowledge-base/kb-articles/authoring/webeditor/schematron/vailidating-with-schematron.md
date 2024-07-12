@@ -13,12 +13,12 @@ ht-degree: 0%
 
 # Contrôle de la qualité du contenu dans l’éditeur web
 
-Cet article donne un aperçu des possibilités de validation dans l’éditeur web des Guides d’AEM.
+Cet article présente les possibilités de validation au sein de l’éditeur web d’AEM Guides.
 Par défaut, l’éditeur web de conception exploite la configuration du schéma DITA dans le système pour obliger les utilisateurs à créer du contenu compatible DITA. Ainsi, tout le contenu stocké dans le système est du contenu DITA structuré, réutilisable et valide.
 
-Outre la prise en charge des règles DITA, l’éditeur web prend également en charge la validation du contenu basé sur &quot;*Schéma*&quot;.
+Outre la prise en charge des règles DITA, l’éditeur web prend également en charge la validation du contenu basé sur les règles &quot;*Schematron*&quot;.
 
-&quot;*Schéma*&quot; fait référence à un langage de validation basé sur des règles utilisé pour définir des tests pour un fichier XML. Vous pouvez importer les fichiers de schéma et les modifier dans l’éditeur web. À l’aide d’un fichier &quot;Schéma&quot;, vous pouvez définir certaines règles, puis les valider pour une rubrique DITA ou un mappage. Les règles de schéma peuvent assurer la cohérence de la structure XML en imposant des restrictions définies comme règles. Ces restrictions sont motivées par les PME qui détiennent la qualité et la cohérence du contenu.
+&quot;*Schematron*&quot; fait référence à un langage de validation basé sur des règles utilisé pour définir des tests pour un fichier XML. Vous pouvez importer les fichiers de schéma et les modifier dans l’éditeur web. À l’aide d’un fichier &quot;Schéma&quot;, vous pouvez définir certaines règles, puis les valider pour une rubrique DITA ou un mappage. Les règles de schéma peuvent assurer la cohérence de la structure XML en imposant des restrictions définies comme règles. Ces restrictions sont motivées par les PME qui détiennent la qualité et la cohérence du contenu.
 
     REMARQUE : l’éditeur web prend en charge le schéma ISO.
 
@@ -27,12 +27,12 @@ Outre la prise en charge des règles DITA, l’éditeur web prend également en 
 
 ### Configuration des règles de schéma
 
-Reportez-vous à la section &quot;Prise en charge des fichiers de schéma&quot; dans [Guide de l’utilisateur](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148)
+Consultez la section &quot;Prise en charge des fichiers de schéma&quot; dans le [Guide de l’utilisateur](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148)
 
 
 ### Application des règles de validation à l’enregistrement du fichier
 
-Les paramètres de l’éditeur Web permettent aux utilisateurs expérimentés de configurer des règles/fichiers de schéma qui seront exécutés chaque fois qu’un utilisateur met à jour le contenu. Pour plus d’informations, reportez-vous à la section &quot;Validation&quot; dans [Guide de l’utilisateur](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
+Les paramètres de l’éditeur Web permettent aux utilisateurs expérimentés de configurer des règles/fichiers de schéma qui seront exécutés chaque fois qu’un utilisateur met à jour le contenu. Pour plus d’informations, reportez-vous à la section Validation dans le [Guide de l’utilisateur](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
 
 ![Définition de règles à partir des paramètres de l’éditeur web](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
 
@@ -41,7 +41,7 @@ Les paramètres de l’éditeur Web permettent aux utilisateurs expérimentés d
 
 Oui, en tant qu’auteur/utilisateur lors de la création de contenu, vous pouvez utiliser le panneau Schéma de l’éditeur de texte web pour charger un fichier de schéma et exécuter des validations sur le fichier ouvert dans l’éditeur.
 
-    Pour que cela fonctionne, l’administrateur de profil de dossier doit permettre à tous les utilisateurs d’ajouter des fichiers de schéma dans le panneau Validation. Voir Paramètres de l’éditeur (capture d’écran ci-dessus)
+    Pour que cela fonctionne, l’administrateur de profil de dossier doit autoriser tous les utilisateurs à ajouter des fichiers de schéma dans le panneau Validation. Voir Paramètres de l’éditeur (capture d’écran donnée ci-dessus)
 
 ![Choisir le fichier de schéma](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
 ![Exécuter la validation](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)
@@ -49,7 +49,8 @@ Oui, en tant qu’auteur/utilisateur lors de la création de contenu, vous pouve
 
 ### Règles prises en charge
 
-La version actuelle des Guides d’AEM prend en charge la validation à l’aide de règles basées sur l’affirmation uniquement. (voir [ressource/rapport](https://schematron.com/document/205.html)) Les règles basées sur &quot;Rapports&quot; ne sont pas encore prises en charge.
+La version actuelle d’AEM Guides prend en charge la validation en utilisant uniquement les règles basées sur l’affirmation. (voir [ ressource/rapport](https://schematron.com/document/205.html))
+Les règles basées sur les &quot;rapports&quot; ne sont pas encore prises en charge.
 
 
 ### Exemples et plus d’aide sur les règles de schéma
@@ -100,6 +101,6 @@ La version actuelle des Guides d’AEM prend en charge la validation à l’aide
 
 #### Ressources
 
-- Compréhension  [Principes de base des schémas](https://da2022.xatapult.com/#what-is-schematron)
-- En savoir plus sur [Règles d’assertion dans le schéma](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
+- Compréhension des [bases des schémas](https://da2022.xatapult.com/#what-is-schematron)
+- En savoir plus sur les [règles d’assertion dans le schéma](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
 - [Exemple de fichier de schéma](../../../assets/authoring/sample_schematron.sch)

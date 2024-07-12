@@ -16,7 +16,8 @@ ht-degree: 0%
 
 ## Configuration de votre carte d’utilisateur
 
-Inclure la variable `<toc>`  élément : dans la bibliothèque `<frontmatter>`, recherchez l’élément `<booklists>` élément .  Imbriquer une `<toc>` element inside `<booklists>` comme ceci :
+Incluez l’élément `<toc>` :
+Recherchez l’élément `<frontmatter>` de votre carte de navigation dans l’élément `<booklists>`.  Imbriquez un élément `<toc>` dans `<booklists>` comme suit :
 
 ```
 <frontmatter>
@@ -27,7 +28,7 @@ Inclure la variable `<toc>`  élément : dans la bibliothèque `<frontmatter>`, 
 </frontmatter>
 ```
 
-La spécification DITA permet de placer la table des matières et les listes de signets dans `<backmatter>` également.
+La spécification DITA permet également de placer la table des matières et les listes de signets dans la section `<backmatter>`.
 
 
 ```
@@ -93,12 +94,12 @@ Si vous publiez Ditamap, alors Native PDF offre la fonctionnalité de générati
 ## Ressources supplémentaires :
 
 - [Documentation sur la mise en page de la page de conception de PDF native](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [Session d’experts pré-enregistrée sur l’essentiel pour les PDF natifs](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [ Session d’experts pré-enregistrée des PDF natifs ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>
 
-Publication sur la communauté AEM Guides [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) pour toutes les requêtes.
+Post sur le [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) de la communauté AEM Guides pour toutes les requêtes.
 
 
 

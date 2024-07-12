@@ -1,6 +1,6 @@
 ---
-title: Gestion des balises des fichiers DITA dans les Guides d’AEM
-description: Article bref à fournir sur la gestion des balises cq:tags dans AEM Guides
+title: Gestion des balises des fichiers DITA dans AEM Guides
+description: Article bref à fournir sur la gestion des cq:tags dans AEM Guides
 exl-id: 2d805c26-df9b-405a-81ca-7aa84c6f86c8
 feature: Metadata Management
 role: User, Admin
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Les balises s’avèrent utiles pour classer votre contenu. Si le contenu est correctement balisé, il peut vous aider à localiser les rubriques exactes dans votre fichier ditamap et l’utilisateur final trouve le contenu approprié plus rapidement sur la sortie publiée.
 
-> **_REMARQUE :_**  L’article suivant concerne AEM Guides Build 4.2 (on-prem) /Feb 2023 (version cloud ) ou les versions ultérieures
+> **_REMARQUE :_** L’article suivant concerne AEM Guides Build 4.2 (on-prem) /Feb 2023 (version cloud ) ou versions ultérieures
 
 
 ## Créer des balises
@@ -25,9 +25,9 @@ Le balisage est une fonctionnalité d’AEM native et votre administrateur AEM p
 
 ## Ajout, suppression et gestion des balises dans votre contenu DITA
 
-**Toutes les balises créées dans AEM cq: peuvent être ajoutées, supprimées et gérées pour le contenu DITA.**
+**Toutes les balises créées dans AEM cq : les balises peuvent être ajoutées, supprimées et gérées pour votre contenu DITA**
 
-Il existe plusieurs façons d’ajouter des balises à votre contenu DITA, mais cet article se concentrera sur l’interface utilisateur de l’éditeur web de Guides d’AEM.
+Il existe plusieurs façons d’ajouter des balises dans votre contenu DITA, mais cet article se concentrera sur l’interface utilisateur de l’éditeur web AEM Guides.
 
 ### Étapes :
 
@@ -39,7 +39,7 @@ Il existe plusieurs façons d’ajouter des balises à votre contenu DITA, mais 
 6. Sélectionnez un ou plusieurs fichiers et cliquez sur l’icône &quot;gérer&quot;. Vous pouvez y ajouter des balises aux fichiers sélectionnés.
 Vous pouvez également supprimer les balises existantes qui sont communes aux fichiers sélectionnés.
 
-<img title="Gestion des balises dans les guides AEM " alt="Gestion des balises dans DITA " src="ManageTags.jpg">
+<img title="Gestion des balises dans AEM Guides " alt="Gestion des balises dans DITA " src="ManageTags.jpg">
 
 ## Résolution des problèmes et FAQ
 
@@ -56,9 +56,9 @@ Vous pouvez également supprimer les balises existantes qui sont communes aux fi
 
 ## Autres ressources utiles
 
-- [Balisage en masse à l’aide du tableau de bord des cartes (interface utilisateur des ressources)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
+- [Balisage en masse à l’aide du tableau de bord des cartes (interface utilisateur d’Assets)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
 - [Rapports Ditamap dans l’éditeur web](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
 - [Balisage dans AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
 
 
-**Contactez votre CSM respectif pour toute autre requête.**
+**Contactez votre CSM respectif pour toute autre requête**

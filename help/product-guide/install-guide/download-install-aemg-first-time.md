@@ -32,7 +32,7 @@ Pour télécharger et installer AEM Guides pour la première fois sur un ordinat
 
    ![](assets/package-manager.png){width="650" align="left"}
 
-1. Pour charger le module AEM Guides, cliquez sur **Télécharger le module**.
+1. Pour télécharger le package AEM Guides, cliquez sur **Télécharger le package**.
 
 1. Dans la boîte de dialogue Télécharger le package, accédez au fichier AEM Guides que vous avez téléchargé à l’étape 1, puis cliquez sur **OK**.
 
@@ -44,7 +44,7 @@ Pour télécharger et installer AEM Guides pour la première fois sur un ordinat
 
 1. Dans la boîte de dialogue Installer le package, cliquez sur **Installer**.
 
-1. Pour commencer à utiliser les AEM Guides, cliquez sur le bouton Accueil . ![](assets/home-button.png) dans le coin supérieur gauche du gestionnaire de modules CRX.
+1. Pour commencer à utiliser AEM Guides, cliquez sur le bouton Accueil ![](assets/home-button.png) dans le coin supérieur gauche de CRX Package Manager.
 
 
 >[!NOTE]

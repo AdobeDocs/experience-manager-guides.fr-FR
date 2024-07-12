@@ -18,8 +18,8 @@ AEM Guides vous permet de convertir divers documents structurés et non structur
 
 >[!TIP]
 >
-> Voir *Migration et chargement de contenu* section [Annexe.md](appendix.md) dans le guide Bonnes pratiques pour connaître les bonnes pratiques relatives à l’utilisation de la migration et du chargement de contenu existant.
+> Voir la section *Migration et chargement de contenu* [Annexe.md](appendix.md) du guide Bonnes pratiques pour connaître les bonnes pratiques relatives à l’utilisation de la migration et du chargement de contenu existant.
 
-- **[Chargement de contenu DITA existant](migrate-content-upload-existing-dita-content.md)**
+- **[Télécharger le contenu DITA existant](migrate-content-upload-existing-dita-content.md)**
 
-- **[Migration de contenu non DITA](migrate-content-non-dita.md)**
+- **[Migrer le contenu non DITA](migrate-content-non-dita.md)**

@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Pour optimiser les performances, tenez compte des points suivants :
 
-- Pour optimiser le contenu et l’indexation, voir [Optimisation de la recherche et de l’indexation de contenu](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=fr) dans la documentation AEM.
+- Pour optimiser le contenu et l’indexation, voir [Optimisation de la recherche et de l’indexation de contenu](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=fr) dans la documentation d’AEM.
 
 - Correction de Xerces Jar lors de l’utilisation de DITA-OT personnalisé pour la publication. Cette configuration est obligatoire, selon votre cas d’utilisation. Cette modification n’est requise que si vous utilisez le code DITA-OT personnalisé pour la publication de la sortie.
 
-  *Configuration requise*: remplacez le fichier Xerces Jar dans votre package DITA-OT personnalisé par celui fourni en standard. Le fichier OOTB par défaut xercesImpl-2.11.0.jar est disponible dans le fichier /libs/fmdita/dita\_resources/DITA-OT.zip . Veillez à renommer le fichier xercesImpl-2.11.0.jar pour qu’il corresponde à l’ancien fichier Xerces Jar qui a été remplacé. Cela peut être effectué au moment de l’exécution.
+  *Configuration requise* : remplacez le fichier Xerces Jar dans votre package DITA-OT personnalisé par celui fourni en standard. Le fichier OOTB par défaut xercesImpl-2.11.0.jar est disponible dans le fichier /libs/fmdita/dita\_resources/DITA-OT.zip . Veillez à renommer le fichier xercesImpl-2.11.0.jar pour qu’il corresponde à l’ancien fichier Xerces Jar qui a été remplacé. Cela peut être effectué au moment de l’exécution.
 
   Cette modification réduit le temps de publication et l’utilisation de la mémoire lors de la publication de mappages DITA avec un grand nombre de rubriques.
 

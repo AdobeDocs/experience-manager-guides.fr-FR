@@ -1,6 +1,6 @@
 ---
-title: Notes de mise à jour | Guides Adobe Experience Manager as a Cloud Service, version de mai 2022
-description: Version de mai des guides Adobe Experience Manager as a Cloud Service
+title: Notes de mise à jour | Adobe Experience Manager Guides as a Cloud Service, version de mai 2022
+description: Version de mai d’Adobe Experience Manager Guides as a Cloud Service
 exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
 feature: Release Notes
 role: Leader
@@ -11,18 +11,18 @@ ht-degree: 0%
 
 ---
 
-# Version de mai des guides Adobe Experience Manager as a Cloud Service
+# Version de mai d’Adobe Experience Manager Guides as a Cloud Service
 
 ## Mise à niveau vers la version de mai
 
-Mettez à niveau vos guides Adobe Experience Manager actuels as a Cloud Service (plus tard appelés *AEM Guides as a Cloud Service*) en procédant comme suit :
+Mettez à niveau votre configuration Adobe Experience Manager Guides as a Cloud Service actuelle (appelée plus tard *AEM Guides as a Cloud Service*) en procédant comme suit :
 1. Extrayez le code Git des Cloud Service et passez à la branche configurée dans le pipeline Cloud Service correspondant à l’environnement que vous souhaitez mettre à niveau.
-1. Mettre à jour `<dox.version>` dans `/dox/dox.installer/pom.xml` du code Git Cloud Service vers la version 2022.5.144.
-1. Validez les modifications et exécutez le pipeline Cloud Service pour effectuer la mise à niveau vers la version de mai d’AEM Guides as a Cloud Service.
+1. Mettez à jour la propriété `<dox.version>` du fichier `/dox/dox.installer/pom.xml` de votre code Git Cloud Service vers la version 2022.5.144.
+1. Validez les modifications et exécutez le pipeline Cloud Service pour effectuer la mise à niveau vers la version de mai de l’as a Cloud Service AEM Guides.
 
 ## Matrice de compatibilité
 
-Cette section répertorie le tableau de compatibilité des applications logicielles prises en charge par AEM Guides as a Cloud Service de mai 2022.
+Cette section répertorie le tableau de compatibilité des applications logicielles prises en charge par la version as a Cloud Service d’AEM Guides de mai 2022.
 
 ### FrameMaker et FrameMaker Publishing Server
 
@@ -35,7 +35,7 @@ Cette section répertorie le tableau de compatibilité des applications logiciel
 
 ### Connecteur Oxygen
 
-| AEM Guides as a Cloud | Fenêtres du connecteur Oxygen | Mac du connecteur Oxygen |
+| Version AEM Guides as a Cloud | Fenêtres du connecteur Oxygen | Mac du connecteur Oxygen |
 | --- | --- | --- |
 | 2022.5.0 | 2.6.9 | 2.6.9 |
 |  |  |  |
@@ -43,15 +43,15 @@ Cette section répertorie le tableau de compatibilité des applications logiciel
 
 ## Nouvelles fonctionnalités et améliorations
 
-AEM Guides as a Cloud Service comporte de nombreuses améliorations et nouvelles fonctionnalités dans la version de mai :
+AEM Guides as a Cloud Service contient de nombreuses améliorations et nouvelles fonctionnalités dans la version de mai :
 
 ### Éditeur web amélioré
 
-* **Création de cartes à partir de modèles personnalisés**
+* **Créez des cartes à partir de modèles personnalisés**
 
 Vous disposez désormais de la puissante fonctionnalité permettant de créer des modèles de carte personnalisés. Vous pouvez les utiliser pour créer des mappages DITA avec les modèles de rubrique et de mappage référencés dans le modèle de mappage.
 
-![modèles dita](assets/dita-templates.png)
+![Modèles dita](assets/dita-templates.png)
 
 Vous pouvez également vous référer à d’autres modèles de mappage et de rubriques à partir du modèle de mappage personnalisé. Les modèles de mappage référencés peuvent faire référence à divers modèles de mappage, modèles de rubrique, rubriques, cartes, images, vidéos et autres ressources.
 
@@ -59,13 +59,13 @@ Vous pouvez également vous référer à d’autres modèles de mappage et de ru
 
 Le modèle de carte personnalisé peut vous aider à répliquer très facilement les modèles de carte et la structure de dossiers référencée entière. Ces modèles personnalisés sont particulièrement utiles pour créer et recréer plusieurs cartes qui comportent des structures et des références récursives.
 
-* La variable **Insérer un mot-clé** fonctionnalité a été améliorée. Vous pouvez désormais trouver plus facilement un Mot-clé à insérer lorsque les mots-clés sont répertoriés par ordre alphabétique. Vous pouvez également rechercher des mots-clés en saisissant une chaîne de recherche dans la zone Rechercher.
+* La fonctionnalité **Insérer un mot-clé** a été améliorée. Vous pouvez désormais trouver plus facilement un Mot-clé à insérer lorsque les mots-clés sont répertoriés par ordre alphabétique. Vous pouvez également rechercher des mots-clés en saisissant une chaîne de recherche dans la zone Rechercher.
 
-![mot-clé d&#39;insertion](assets/insert-keyword.png)
+![insert keyword](assets/insert-keyword.png)
 
 * Désormais, les fichiers en mode Référentiel sont chargés par lots. 75 fichiers sont chargés à la fois. Ce chargement par lots est efficace et vous pouvez accéder aux fichiers plus rapidement par rapport au chargement de tous les fichiers existants dans un dossier.
 
-![charger plus de fichiers](assets/load-more-files.png)
+![Charger d’autres fichiers](assets/load-more-files.png)
 
 * Vous pouvez effectuer le rendu d’images SVG qui incluent des données ou des liens incorporés dans tous les écrans de l’éditeur XML, y compris, mais sans s’y limiter, la vue Aperçu et création.
 
@@ -74,13 +74,13 @@ Le modèle de carte personnalisé peut vous aider à répliquer très facilement
 ### Processus de traduction amélioré
 
 * **Possibilité de créer un projet de traduction de portée**
-Si vous devez créer uniquement la portée d’un projet à traduire, vous pouvez sélectionner **Création d’un projet de traduction d’étendue**. Cela n’enverra pas les copies à traduire et l’état de traduction d’origine des fichiers est conservé.
+Si vous devez créer uniquement la portée d’un projet à traduire, vous pouvez sélectionner **Créer un nouveau projet de traduction de définition de la portée**. Cela n’enverra pas les copies à traduire et l’état de traduction d’origine des fichiers est conservé.
 
-![projet de traduction de portée](assets/scoping-translation-project.png)
+![Projet de traduction de portée](assets/scoping-translation-project.png)
 
 * Si vous refusez la traduction d’une ou de plusieurs rubriques d’une tâche de traduction, l’état de traduction En cours de toutes les rubriques rejetées revient à leur état d’origine.
 
-* La variable **Langues** La liste affiche les dossiers de langue ainsi que leurs codes de langue. Par exemple, Français (fr) et Allemand (de).
+* La liste **Langues** affiche les dossiers de langues ainsi que leurs codes de langue. Par exemple, Français (fr) et Allemand (de).
 
 * La fonctionnalité de traduction prend désormais en charge le code de langue qui inclut le pays et la langue. Par exemple, `fr-fr`, `en-us`.
 
@@ -88,14 +88,14 @@ Si vous devez créer uniquement la portée d’un projet à traduire, vous pouve
 
 * Lors du chargement d’un mappage DITA en dehors du dossier de langue, aucune exception n’est consignée au serveur principal.
 
-Pour plus d’informations sur la traduction, voir *Traduire des documents à partir de l’éditeur Web* dans Utilisation des guides Adobe Experience Manager as a Cloud Service.
+Pour plus d’informations sur la traduction, voir la section *Traduire des documents à partir de l’éditeur web* dans Utilisation d’Adobe Experience Manager Guides as a Cloud Service.
 
 
 ### Publication améliorée
 
-* Vous pouvez également accéder au **Publier le tableau de bord** dans l’onglet Sorties lorsque vous générez une sortie à partir du tableau de bord de mappage. Une liste de toutes les tâches de publication actives est disponible dans le tableau de bord de publication.
+* Vous pouvez également accéder au **tableau de bord Publish** à partir de l’onglet Sorties pendant que vous générez la sortie à partir du tableau de bord de la carte. Une liste de toutes les tâches de publication actives est disponible dans le tableau de bord Publish.
 
-![sorties en file d’attente](assets/queued-output.png)
+![Sorties en file d’attente](assets/queued-output.png)
 
 * Dans le tableau de bord de mappage, vous pouvez sélectionner plusieurs fichiers DITAVAL pour générer du contenu conditionnel. Vous pouvez conserver l’ordre des fichiers en ajoutant ou en supprimant des fichiers. Vous pouvez également survoler le nom du fichier avec la souris pour voir le chemin d’accès dans le référentiel AEM où le fichier est stocké.
 
@@ -108,7 +108,7 @@ XML Editor permet de mapper plusieurs catégories de produits à un article lors
 
 ### Autres améliorations de fonctionnalités
 
-* Le mode Aperçu prend également en charge `deliveryTarget` attribut de traitement conditionnel dans DITA. Elle est disponible sous la forme d’une option dans le filtre déroulant, ainsi que **audience**, **platform**, **product**, props, **Autres props**.
+* Le mode Aperçu prend également en charge l’attribut de traitement conditionnel `deliveryTarget` dans DITA. Il est disponible en tant qu’option dans le filtre déroulant avec **audience**, **platform**, **product**, props, **otherprops**.
 * Une option a été fournie pour une synchronisation forcée entre le serveur AEM dans Oxygen et le système local.
 
 ## Problèmes résolus
@@ -117,14 +117,14 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 
 * Dans le panneau de révision de l’éditeur Web, l’utilisateur ne peut pas répondre aux commentaires de révision. (9667)
 * L’application est vide lorsque vous cliquez sur un dossier vide après l’avoir actualisée via le menu Options. (9639)
-* Une nouvelle version est créée lorsque nous **Enregistrer et fermer** le fichier archivé. (9638)
-* Le bouton Fermer n’est pas affiché lorsque **Enregistrer comme nouvelle version** est activée. (9637)
+* Une nouvelle version est créée lorsque nous **enregistrons et fermons** le fichier archivé. (9638)
+* Le bouton Fermer n’est pas affiché lorsque la case à cocher **Enregistrer comme nouvelle version** est activée. (9637)
 * Le bon PDF n’est pas publié s’il est d’abord publié via un PDF distinct pour chaque chapitre, puis un seul fichier de PDF (la case Créer des fichiers de PDF distincts n’est pas cochée). (9632)
 * Le tableau de bord des cartes génère un problème de métadonnées pour les utilisateurs non-administrateurs. (9620)
 * Une fois une ligne de base créée, l’état est défini sur échec sur l’interface utilisateur (l’appel de l’état échoue) si le serveur contient plus de 10 000 fichiers. (9608)
 * Le stockage de données volumineuses dans les propriétés entraîne une erreur de publication, car le processus de publication partagé échoue. (9586)
-* L’état des filtres d’attributs conditionnels n’est pas conservé lors du passage de l’aperçu à la source, puis au mode Aperçu. (9553)
-* Le nom du signet est vide dans la vue Repository au cas où aucun nom n’est donné via la variable `mainbooktitle` balise . (9538)
+* L’état des filtres d’attributs conditionnels n’est pas conservé lors du passage de l’aperçu au mode Source, puis de nouveau au mode Aperçu. (9553)
+* Le nom de la carte d’applet est vide dans la vue Repository au cas où aucun nom n’est donné par le biais de la balise `mainbooktitle`. (9538)
 * Une erreur HTTP 400 se produit lors de l’ouverture d’un fichier téléchargé à l’aide d’Oxygen. (9535)
 * Les paramètres prédéfinis d’une carte précédemment ouverte restent visibles dans l’onglet Sortie lors de l’ouverture d’une carte sans paramètre prédéfini. (9523)
 * La fonctionnalité de recherche des balises et des attributs ne fonctionne pas dans le panneau Contour . (9506)
@@ -144,12 +144,12 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 * L’erreur est toujours consignée lors de la création d’un nouveau contenu. (9388)
 * Les ressources DITA nouvellement créées sont toujours extraites par un autre utilisateur. (9387)
 * L’élément Renommer ne fonctionne pas correctement lors de la conversion de topicref en glossref. (9380)
-* Le libellé de version ne figure pas dans la liste déroulante **Enregistrer comme nouvelle version** boîte de dialogue. (9379)
-* Les conditions ne sont pas appliquées lors du changement entre différentes versions de **Afficher l’écart** menu déroulant. (9366)
+* Le libellé de version ne figure pas dans la liste déroulante de la boîte de dialogue **Enregistrer comme nouvelle version**. (9379)
+* Les conditions ne sont pas appliquées lors du changement entre différentes versions à partir de la liste déroulante **Afficher l’écart**. (9366)
 * Plusieurs problèmes se produisent lors de l’utilisation des filtres d’aperçu. (9365)
 * Impossible d’insérer des ressources non DITA et DITAVAL dans topicref. (9363)
 * La traduction approuvée ne s’intègre pas à la langue cible lorsque le code de langue cible contient cinq caractères tels que `fr_ca`. (9357)
-* Impossible de rechercher des fichiers à l’aide de **Recherche de fichiers dans le dossier** de la **Plus d’options** et l’application ne répond plus. (9337)
+* Impossible de rechercher des fichiers à l’aide de l’option **Rechercher des fichiers dans le dossier** du menu **Plus d’options** et l’application ne répond plus. (9337)
 * La boîte de dialogue de navigation se bloque si un grand nombre de clés sont présentes. (9332)
 * Les fichiers DITAVAL ne fonctionnent pas lors de la publication basée sur un article. (9330)
 * L’ordre des notes de bas de page est incorrect dans la sortie AEM Site. (9327)
@@ -165,16 +165,16 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 * Des problèmes d’expérience ou de fonctionnalité se produisent lors du rechargement du profil du dossier. (9103)
 * La suppression de l’éditeur de mise en page ne le ferme pas dans le panneau central de la vue Auteur. (9087)
 * Une erreur de validation se produit dans l’éditeur Web lors de la suppression d’une image, puis lors de l’enregistrement de la nouvelle version du document. (8985)
-* Impossible d’afficher toutes les `glossrefs` dans le panneau Glossaire (spécifique au contenu). (8886)
+* Impossible d’afficher tous les `glossrefs` dans le panneau Glossaire (spécifique au contenu). (8886)
 * `xref` sans texte n’est pas affiché dans la sortie de publication basée sur un article. (8764)
 * Les références s’interrompent lors du déplacement d’images ou de fichiers multimédia dont le nom de fichier contient un espace. (8624)
-* Saut des références lors du choix `Select All` et déplacer les fichiers multimédias ou le contenu DITA vers un autre dossier. (8622)
-* Les tâches de sortie avec le statut &quot;En attente&quot; ou &quot;En cours&quot; ne sont pas nettoyées dans le tableau de bord de publication.  (8569)
+* Les références s’interrompent lors du choix de `Select All` et du déplacement des fichiers multimédia ou du contenu DITA vers un autre dossier. (8622)
+* Les tâches de sortie avec le statut &quot;En attente&quot; ou &quot;En cours&quot; ne sont pas nettoyées dans le tableau de bord Publish.  (8569)
 * La fonction de purge de sortie échoue si un grand nombre de noeuds d’historique de sortie restants sont présents. (8568)
 * Le module complémentaire DITA empêche la détection des ressources en double de la gestion des actifs numériques. (8417)
 * Bouton Créer une tâche de révision activé pour les fichiers non DITA. (8401)
 * La boîte de dialogue Insérer des références s’ouvre lors de l’ajout d’un objet à un mappage à l’aide de l’interface utilisateur. (8212)
-* Espace inattendu trouvé dans chaque espace vide `entry` élément lorsque l’attribut outputclass est ajouté à `tgroup` élément . (7532)
+* Espace inattendu trouvé dans chaque élément `entry` vide lorsque l’attribut outputclass est ajouté à l’élément `tgroup`. (7532)
 * Le panneau Référentiel n’affiche pas les icônes de verrouillage de fichier archivées ou extraites dès que l’action est terminée. (5817)
 * L’icône représentant un cadenas s’affiche dans la vue du référentiel même lorsque le fichier est archivé à partir de l’éditeur.  (5756)
 * Sites manquants dans AEM paramètres prédéfinis sous l’onglet Sortie. (9567)

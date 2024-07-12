@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Configuration de l’enregistrement automatique du fichier dans l’éditeur web {#id199CC0J0M5Z}
 
-L’une des fonctionnalités les plus courantes de l’éditeur basé sur un navigateur est la possibilité d’enregistrer les données après une période spécifique. L’éditeur web des Guides d’AEM prend également en charge l’enregistrement automatique des fichiers de rubrique et de mappage dans l’intervalle de temps spécifié. Lorsque cette fonction est déclenchée, la copie de travail de la rubrique ou du mappage est enregistrée. Une nouvelle version de la rubrique ou du mappage n’est pas créée. Pour créer une version, vous devez cliquer sur l’icône Enregistrer la révision dans la barre d’outils de l’éditeur web.
+L’une des fonctionnalités les plus courantes de l’éditeur basé sur un navigateur est la possibilité d’enregistrer les données après une période spécifique. L’éditeur web d’AEM Guides prend également en charge l’enregistrement automatique des fichiers de rubrique et de mappage dans l’intervalle de temps spécifié. Lorsque cette fonction est déclenchée, la copie de travail de la rubrique ou du mappage est enregistrée. Une nouvelle version de la rubrique ou du mappage n’est pas créée. Pour créer une version, vous devez cliquer sur l’icône Enregistrer la révision dans la barre d’outils de l’éditeur web.
 
 La fonction d’enregistrement automatique n’est pas activée par défaut et vous devez l’activer à partir de configMgr. Effectuez les étapes suivantes pour activer la fonction d’enregistrement automatique dans l’éditeur web :
 
@@ -26,13 +26,13 @@ La fonction d’enregistrement automatique n’est pas activée par défaut et v
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Recherchez et cliquez sur le bouton **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** du lot.
+1. Recherchez et cliquez sur le lot **com.adobe.fmdita.xmleditor.config.XmlEditorConfig**.
 
-1. Dans le *XmlEditorConfig* , sélectionnez la variable **Enregistrement automatique** .
+1. Dans les paramètres *XmlEditorConfig*, sélectionnez l’option **Enregistrement automatique** .
 
-1. Dans le **Intervalle d’enregistrement automatique** , spécifiez l’intervalle en secondes pour déclencher la fonction d’enregistrement automatique.
+1. Dans le champ **Intervalle d’enregistrement automatique**, spécifiez l’intervalle en secondes pour déclencher la fonction d’enregistrement automatique.
 
 1. Cliquez sur **Enregistrer**.
 
 
-**Rubrique parente :**[ Personnalisation de l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)

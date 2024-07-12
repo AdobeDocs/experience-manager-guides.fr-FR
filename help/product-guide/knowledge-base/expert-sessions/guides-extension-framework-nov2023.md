@@ -1,6 +1,6 @@
 ---
-title: Structure d’extension des AEM Guides - Personnalisation de l’éditeur web et de l’interface utilisateur de révision
-description: Avec la structure d’extension Guides, vous pouvez personnaliser les sections souhaitées de l’interface utilisateur de révision ou de l’éditeur Web à l’aide d’un code JSON, CSS et JavaScript facile à mettre à jour.
+title: Structure d’extension d’AEM Guides - Personnalisation de l’éditeur web et de l’interface utilisateur de révision
+description: Avec la structure d’extension Guides, vous pouvez personnaliser les sections souhaitées de l’interface utilisateur de révision ou de l’éditeur Web à l’aide de JSON, CSS et JavaScript faciles à mettre à jour.
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
 feature: Web Editor, Troubleshooting
 role: User, Admin
@@ -11,11 +11,11 @@ ht-degree: 1%
 
 ---
 
-# Structure d’extension des AEM Guides : personnalisation de l’éditeur web et de l’interface utilisateur de révision
+# Structure d’extension d’AEM Guides : personnalisation de l’éditeur web et de l’interface utilisateur de révision
 
-Lorsque vous travaillez dans un système, il est assez courant que l’entreprise ou les utilisateurs souhaitent des boutons personnalisés, des actions ou des informations pour répondre à leurs opérations et améliorer leur productivité. Extension Framework permet de créer des packages personnalisés au-dessus des Guides d’AEM afin d’étendre l’interface utilisateur et son comportement. Ces packages personnalisés sont utiles aux développeurs et aux consultants pour leur donner une extensibilité aux composants de l’interface utilisateur de l’éditeur/de la révision. Ils peuvent cibler des boutons, des boîtes de dialogue et des listes déroulantes, et ajouter du code JavaScript personnalisé qui peut facilement interagir avec l’interface utilisateur d’AEM Guides.
+Lorsque vous travaillez dans un système, il est assez courant que l’entreprise ou les utilisateurs souhaitent des boutons personnalisés, des actions ou des informations pour répondre à leurs opérations et améliorer leur productivité. Extension Framework permet de créer des packages personnalisés sur AEM Guides afin d’étendre l’interface utilisateur et son comportement. Ces packages personnalisés sont utiles aux développeurs et aux consultants pour leur donner une extensibilité aux composants de l’interface utilisateur de l’éditeur/de la révision. Ils peuvent cibler des boutons, des boîtes de dialogue et des listes déroulantes, et ajouter des JavaScript personnalisées qui peuvent facilement interagir avec l’interface utilisateur d’AEM Guides.
 
-Au cours de cette session, avec l’aide de scénarios pratiques, vous apprendrez à personnaliser ou à étendre l’interface utilisateur de l’éditeur de révisions et web des Guides d’AEM.
+Au cours de cette session, vous apprendrez à personnaliser ou à étendre l’interface utilisateur de révision et de l’éditeur web d’AEM Guides à l’aide de scénarios pratiques.
 
 ## Enregistrement de session
 
@@ -47,16 +47,16 @@ Au cours de cette session, vous avez appris ce qui suit :
 
 - **Référentiel de base de la structure d’extension** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
-- **Documentation** - [sur Experience League](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+- **Documentation** - [ sur Experience League](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **Cas d’utilisation courants documentés** - [sur Experience League](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
+- **Cas d’utilisation courants documentés** - [ sur Experience League](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
 - **Référentiel public avec exemples** - [sur GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Reportez-vous à la branche sc-expert-session
 
 
 >[!NOTE]
 >
-> Les fonctionnalités affichées dans cette session sont disponibles sur les versions suivantes des Guides AEM :
+> Les fonctionnalités affichées dans cette session sont disponibles sur les versions suivantes d’AEM Guides :
 > - Octobre 2023 (pour le cloud)
 > - 4.3.x (pour les environnements non cloud)
 
@@ -64,4 +64,4 @@ Au cours de cette session, vous avez appris ce qui suit :
 
 ## Contactez-nous
 
-Pour toute demande, envoyez-nous un email à l’adresse <techcomm@adobe.com>
+Pour toute requête, envoyez-nous un email à l’adresse <techcomm@adobe.com>

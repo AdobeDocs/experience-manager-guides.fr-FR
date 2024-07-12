@@ -1,6 +1,6 @@
 ---
-title: Notes de mise à jour | Guides Adobe Experience Manager as a Cloud Service, version de février 2023
-description: Version de février des guides Adobe Experience Manager as a Cloud Service
+title: Notes de mise à jour | Adobe Experience Manager Guides as a Cloud Service, version de février 2023
+description: Version de février d’Adobe Experience Manager Guides as a Cloud Service
 exl-id: 090eaf94-fe3a-47e9-9937-f84f8434550d
 feature: Release Notes
 role: Leader
@@ -11,20 +11,20 @@ ht-degree: 0%
 
 ---
 
-# Nouveautés de la version de février 2023 des Guides Adobe Experience Manager as a Cloud Service
+# Nouveautés de la version de février 2023 d’Adobe Experience Manager Guides as a Cloud Service
 
-Cet article décrit les nouvelles fonctionnalités et les fonctionnalités améliorées de la version de février 2023 des Guides Adobe Experience Manager (ultérieurement appelée *AEM Guides as a Cloud Service*).
+Cet article couvre les nouvelles fonctionnalités et les fonctionnalités améliorées de la version de février 2023 d’Adobe Experience Manager Guides (appelée ultérieurement *AEM Guides as a Cloud Service*).
 
-Pour plus d’informations sur les instructions de mise à niveau, la matrice de compatibilité et les problèmes résolus dans cette version, voir la section [Notes de mise à jour](release-notes-2023-2-0.md) article.
+Pour plus d’informations sur les instructions de mise à niveau, la matrice de compatibilité et les problèmes résolus dans cette version, consultez l’article [Notes de mise à jour](release-notes-2023-2-0.md) .
 
 
 ## Génération de rapports à partir de l’éditeur Web
 
-AEM Guides s’accompagne d’une fonctionnalité de l’éditeur web qui vous permet de vérifier l’exhaustivité globale de vos documents techniques et de générer des rapports à leur sujet.
+AEM Guides s’accompagne d’une fonctionnalité de l’éditeur Web qui vous permet de vérifier l’exhaustivité globale de vos documents techniques et de générer des rapports à leur sujet.
 Vous pouvez afficher la liste des rubriques, gérer les métadonnées et afficher le contenu multimédia utilisé dans toutes les références pour la carte actuelle à partir de la
-**Rapports** dans l’éditeur Web.
+Onglet **Rapports** dans l’éditeur web.
 
-**Génération de la vue Liste des rubriques**
+**Générer la vue Liste des rubriques**
 
 Vous pouvez générer la liste des rubriques qui fournit des informations détaillées sur vos rubriques, telles que le type de référence, l’état du document et l’auteur. Vous pouvez également générer le fichier CSV pour télécharger l’instantané actuel des rubriques dans la carte DITA.
 
@@ -34,7 +34,7 @@ Vous pouvez appliquer des balises sur une rubrique individuelle ou utiliser la f
 
 <img src="assets/web-editor-metadata-panel.png" alt="gestion des métadonnées" width="600">
 
-**Génération du rapport Multimédia**
+**Générer le rapport multimédia**
 
 Vous pouvez générer le rapport multimédia qui contient des informations détaillées sur le multimédia utilisé dans vos références dans la carte actuelle. Vous avez la possibilité de filtrer et de trier les fichiers multimédia répertoriés dans le rapport.
 Vous pouvez également générer le fichier CSV pour télécharger l’instantané actuel du fichier multimédia utilisé dans la carte DITA.
@@ -54,7 +54,8 @@ Désormais, AEM guides fournit un UX amélioré qui vous aide à passer en revue
 * Barre d’outils contextuelle qui permet de mettre rapidement le texte en surbrillance ou barré
 * Menu Options pour modifier ou supprimer vos propres commentaires
 * Pour les commentaires obsolètes, vous avez accès à une vue côte à côte qui vous aide à comparer la version précédente de la rubrique à la version de révision actuelle.
-* Lorsque vous utilisez les filtres, les commentaires sur le panneau de droite sont filtrés en fonction de la sélection et le nombre de commentaires dans le panneau de gauche est mis à jour en conséquence.
+* Lors de l’utilisation des filtres, les commentaires sur le panneau de droite sont filtrés en fonction de la sélection, et la variable
+Le nombre de commentaires dans le panneau de gauche est mis à jour en conséquence.
 
 
   <img alt="tâche de révision" src="assets/comment-pop-up-panel.png" width="600">
@@ -65,9 +66,9 @@ Désormais, AEM guides fournit un UX amélioré qui vous aide à passer en revue
 
 Le tableau de bord Traduction contient désormais plus d’améliorations conviviales qui vous permettent de traduire facilement vos documents à partir de l’éditeur Web.
 
-**Transmettre le libellé de la version à la version cible**
+**Transmettez l’étiquette de version à la version cible**
 
-AEM Guides vous permet de transmettre le libellé du fichier source au fichier cible. Vous pouvez ainsi identifier facilement la version source du fichier traduit.
+AEM Guides permet de transmettre le libellé du fichier source au fichier cible. Vous pouvez ainsi identifier facilement la version source du fichier traduit.
 
 <img alt="libellés de traduction" src="assets/translation-pass-source-label.png" width="600">
 
@@ -75,31 +76,33 @@ Par exemple, si vous avez des fichiers source auxquels est appliqué le libellé
 
 **Forcer la synchronisation pour les ressources désynchronisées**
 
-Si vous apportez des modifications à certaines ressources, AEM Guides les signale comme étant désynchronisés. Vous pouvez soit retraduire les ressources modifiées, soit choisir d’ignorer l’état Désynchronisé . Par exemple, si vous avez apporté des modifications mineures qui n’ont vraiment pas besoin de traduction, vous pouvez marquer leur état comme étant Synchronisé.
+Si vous apportez des modifications à certaines ressources, AEM Guides les signale comme étant hors synchronisation. Vous pouvez soit retraduire les ressources modifiées, soit choisir d’ignorer l’état Désynchronisé . Par exemple, si vous avez apporté des modifications mineures qui n’ont vraiment pas besoin de traduction, vous pouvez marquer leur état comme étant Synchronisé.
 
 <img src="assets/translation-version-diff.png" alt="forum de traduction" width="600">
 
-**Projets de traduction Afficher en cours pour une rubrique ou une carte**
+**Afficher les projets de traduction en cours pour une rubrique ou une carte**
 
 Certaines des références de votre tableau de bord de traduction peuvent être en cours. Désormais, AEM Guides fournit une fonctionnalité qui vous aide à afficher la liste de tous les projets de traduction en cours (ainsi que la langue cible) qui contiennent la référence sélectionnée.
 
 
 ## Générer une sortie dans divers formats à partir de l’éditeur web
 
-Vous pouvez désormais facilement générer la sortie pour vos rubriques ou mappage DITA à partir de l’éditeur web. Vous pouvez configurer divers paramètres prédéfinis de sortie tels qu’AEM Site, PDF, HTML5, JSON (format de sortie sans interface) et une sortie personnalisée. Vous pouvez ensuite les utiliser pour générer les sorties respectives.
+Vous pouvez désormais facilement générer la sortie pour vos rubriques ou mappage DITA à partir de l’éditeur web. Vous pouvez configurer divers paramètres prédéfinis de sortie, tels que AEM Site, PDF, HTML5,
+JSON (format de sortie sans affichage) et sortie personnalisée. Vous pouvez ensuite les utiliser pour générer les sorties respectives.
 
 Vous pouvez définir des attributs dans vos rubriques DITA, puis utiliser le paramètre prédéfini de condition pour appliquer une condition lors de la publication de la sortie. Vous pouvez également utiliser la fonction de publication de ligne de base pour publier sélectivement une version spécifique de votre mappage ou de votre rubrique DITA.
 
 
 ## Rechercher et remplacer le texte au niveau de la carte
 
-AEM Guides vous permet de rechercher des fichiers dans une carte contenant du texte spécifique. Le texte recherché est mis en surbrillance dans les fichiers. Vous pouvez désormais également remplacer le mot ou l’expression recherché par un autre mot ou expression dans tous les fichiers. Vous pouvez sélectionner **Tout remplacer** à droite en haut de la liste pour remplacer toutes les occurrences du terme recherché dans tous les fichiers.
+AEM Guides vous permet de rechercher des fichiers dans une carte qui contient du texte spécifique. Le texte recherché est mis en surbrillance dans les fichiers. Vous pouvez désormais également remplacer le mot ou l’expression recherché par un autre mot ou expression dans tous les fichiers. Vous pouvez sélectionner l’icône **Tout remplacer** à droite en haut de la liste pour remplacer toutes les occurrences du terme recherché dans tous les fichiers.
 
 <img src="assets/map-find-replace.png" alt="map find replace" width="600">
 
 ## Suppression et duplication de fichiers à partir du panneau du référentiel
 
-Vous pouvez désormais facilement créer un doublon ou une copie d’un fichier à partir du **Options** du fichier sélectionné dans le panneau du référentiel. Par défaut, le fichier est créé avec un suffixe (comme `filename_1.extension`).
+Vous pouvez désormais facilement créer un doublon ou une copie d’un fichier à partir du menu **Options** du fichier sélectionné dans le panneau du référentiel. Par défaut, le fichier est créé avec
+un suffixe (comme `filename_1.extension`).
 
 <img src="assets/options-menu-repo-view-file-level.png" alt="menu des options de fichier " width="500">
 
@@ -115,15 +118,15 @@ Vous pouvez désormais facilement créer un doublon ou une copie d’un fichier 
 
 ## Afficher le titre à la place de l’UUID dans l’éditeur Oxygen
 
-Maintenant AEM Guides vous permet de choisir **Utilisation du titre dans l’éditeur et le gestionnaire de cartes** dans Paramètres. Si vous sélectionnez cette option, le titre du fichier s’affiche dans l’onglet du fichier lorsqu’il est ouvert dans l’éditeur ou dans le Gestionnaire de mappages DITA. Si vous ne sélectionnez pas cette option, l’UUID du fichier est affiché dans l’onglet du fichier.
+Maintenant AEM Guides vous permet de choisir l’option **Utiliser le titre dans l’éditeur et le gestionnaire de cartes** dans Paramètres. Si vous sélectionnez cette option, le titre du fichier s’affiche dans l’onglet du fichier lorsqu’il est ouvert dans l’éditeur ou dans le Gestionnaire de mappages DITA. Si vous ne sélectionnez pas cette option, l’UUID du fichier est affiché dans l’onglet du fichier.
 
 ## Publication basée sur un microservice pour AEM Guides as a Cloud Service
 
 Le nouveau microservice de publication vous permet d’exécuter simultanément des charges de travail de publication volumineuses sur AEM Guides as a Cloud Service et d’exploiter la plate-forme Adobe I/O Runtime sans serveur de pointe.
 
-Pour chaque demande de publication AEM Guides as a Cloud Service exécute un conteneur distinct qui se met à l’échelle horizontalement en fonction des demandes de l’utilisateur. Cela vous permet d’exécuter plusieurs requêtes de publication et d’obtenir des performances améliorées.
+Pour chaque demande de publication, AEM Guides as a Cloud Service exécute un conteneur distinct qui se met à l’échelle horizontalement en fonction des demandes de l’utilisateur. Cela vous permet d’exécuter plusieurs requêtes de publication et d’obtenir des performances améliorées.
 
-Pour plus d’informations, voir [Configuration de la nouvelle publication basée sur un microservice pour AEM Guides as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md).
+Pour plus d’informations, voir [Configuration de la publication basée sur un nouveau microservice pour AEM Guides as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md).
 
 ## PDF natif | Ajout d’un signet personnalisé dans la sortie PDF
 

@@ -1,5 +1,5 @@
 ---
-title: Fonction de publication native d’un PDF | Utilisation de styles personnalisés dans les notes de bas de page
+title: Fonctionnalité Publish du PDF natif | Utilisation de styles personnalisés dans les notes de bas de page
 description: Découvrez comment appliquer un style aux numéros dans les notes de bas de page.
 exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 feature: Output Generation
@@ -27,12 +27,12 @@ Chaque note de bas de page comporte un marqueur de note de bas de page, qui est 
 Vous pouvez modifier les styles des appels de notes de bas de page et des marqueurs et gérer leur aspect dans la sortie du PDF. Ces styles vous permettent d’identifier rapidement les notes de bas de page dans le document.
 
 
-**Exemple 1**:
+**Exemple 1** :
 
 Utilisez l’exemple donné pour ajouter un crochet avant et après l’appel de note de bas de page et le marqueur :
 
-* Ajoutez le préfixe &quot;(&quot; et le suffixe &quot;)&quot; en utilisant l’attribut content dans la variable `footnote-call` style, qui ajoute les crochets autour du numéro de note de bas de page dans le contenu de la rubrique.
-* Ajoutez le préfixe &quot;(&quot; et le suffixe &quot;)&quot; en utilisant l’attribut content dans la variable `footnote-marker` style, qui ajoute les crochets autour du numéro de la note de bas de page.
+* Ajoutez le préfixe &quot;(&quot; et le suffixe &quot;)&quot; à l’aide de l’attribut content dans le style `footnote-call` , qui ajoute les crochets autour du numéro de note de bas de page dans le contenu du sujet.
+* Ajoutez le préfixe &quot;(&quot; et le suffixe &quot;)&quot; à l’aide de l’attribut content dans le style `footnote-marker` , qui ajoute les crochets autour du numéro de note de bas de page.
 
 ```css
 ...
@@ -53,7 +53,7 @@ content: "(" counter(footnote, decimal) ")";
 
 *Ajoutez des crochets autour de l’appel de note de bas de page et du marqueur de note de bas de page.*
 
-**Exemple 2**:
+**Exemple 2** :
 
 Vous pouvez également marquer l’appel de note de bas de page et le marqueur avec un astérisque ou un caractère grec inférieur au lieu d’un nombre.
 
@@ -75,7 +75,8 @@ Dans la sortie, vous pouvez afficher quelque chose comme :
 
 ## Masquer un appel de note de bas de page
 
-Vous pouvez également appliquer un style aux appels de note de bas de page avec des attributs spécifiques. Par exemple, utilisez le style suivant pour masquer une note de bas de page avec les identifiants : l’appel de note de bas de page est masqué dans le contenu principal, mais le marqueur de note de bas de page apparaît au bas de la page.
+Vous pouvez également appliquer un style aux appels de note de bas de page avec des attributs spécifiques. Par exemple, utilisez le style suivant pour masquer une note de bas de page avec les identifiants :
+L’appel de note de bas de page est masqué dans le contenu principal, mais le marqueur de note de bas de page apparaît au bas de la page.
 
 ```css
 .fn[id]::footnote-call {
@@ -92,7 +93,7 @@ La zone de bas de page est l’endroit où toutes les notes de bas de page sont 
 
 Vous pouvez utiliser les propriétés de page pour les mises en page afin de mettre en forme la zone de note de bas de page dans les différentes sections d’un document PDF. Par exemple, vous pouvez spécifier les propriétés de marge et de marge intérieure de la zone de note de bas de page d’un chapitre. Vous pouvez également modifier le côté de la bordure, le style, la couleur, la largeur et le rayon.
 
-Découvrez comment [Utilisation des propriétés de page d’une mise en page](./design-page-layout.md#page-props-page-layout).
+Découvrez comment [utiliser les propriétés de page d’une mise en page](./design-page-layout.md#page-props-page-layout).
 
 ### Styles CSS
 
@@ -115,7 +116,7 @@ Par défaut, les notes de bas de page sont numérotées en continu dans un docum
 
 ### Dispositions de pages
 
-Vous pouvez spécifier un numéro dans les mises en page pour redémarrer la numérotation des notes de bas de page dans les différentes sections d’un document PDF. Par exemple, sélectionnez un nombre dans la variable **Redémarrez la numérotation à partir de** dans le panneau Propriétés de la page afin de redémarrer la numérotation des notes de bas de page pour chaque chapitre.
+Vous pouvez spécifier un numéro dans les mises en page pour redémarrer la numérotation des notes de bas de page dans les différentes sections d’un document PDF. Par exemple, sélectionnez un numéro dans le champ **Redémarrer la numérotation à partir de** du panneau Propriétés de la page pour redémarrer la numérotation des notes de bas de page pour chaque chapitre.
 
 ### Styles CSS
 

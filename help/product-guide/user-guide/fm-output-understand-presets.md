@@ -1,6 +1,6 @@
 ---
 title: Présentation des paramètres prédéfinis de sortie
-description: Publiez des documents FrameMaker dans AEM Guides. Découvrez comment générer une sortie pour les documents de FrameMaker aux formats PDF, HTML5 et EPUB.
+description: Documents Publish FrameMaker dans AEM Guides. Découvrez comment générer une sortie pour les documents de FrameMaker aux formats PDF, HTML5 et EPUB.
 exl-id: fa682007-68d6-415b-b9c2-acd5d9fc1aae
 feature: Publishing FrameMaker Documents
 role: User
@@ -17,4 +17,4 @@ AEM Guides prend en charge la création d’une sortie pour les documents de Fra
 
 Les sections suivantes décrivent les options disponibles pour les formats de sortie pris en charge.
 
-**Rubrique parente :**[ Générer une sortie de documents de FrameMaker](fm-output-generatation.md)
+**Rubrique parente :**[ Générer la sortie des documents de FrameMaker](fm-output-generatation.md)

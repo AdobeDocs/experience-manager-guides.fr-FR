@@ -1,6 +1,6 @@
 ---
 title: Publication basée sur des articles à partir de l’éditeur web
-description: Découvrez comment publier un ou plusieurs articles à partir de l’éditeur web. Générez une sortie pour une ou plusieurs rubriques dans un mappage DITA dans AEM Guides.
+description: Découvrez comment publier un ou plusieurs articles à partir de l’éditeur web. Générer une sortie pour une ou plusieurs rubriques dans un mappage DITA dans AEM Guides.
 exl-id: d89ce69d-8d4c-4265-bfca-60763f561afd
 feature: Authoring, Features of Web Editor, Publishing
 role: User
@@ -29,7 +29,7 @@ Vous pouvez également utiliser les paramètres prédéfinis de sortie créés p
 
 - **[Création de paramètres prédéfinis de sortie à partir de l’éditeur web](web-editor-article-publishing-presets.md)**
 
-- **[Générer une sortie à partir du panneau Référentiel ou du panneau Vue Carte](web-editor-article-publishing-output.md)**
+- **[Générer la sortie à partir du panneau Référentiel ou du panneau Vue Carte](web-editor-article-publishing-output.md)**
 
 
 **Rubrique parente :**[ Utilisation de l’éditeur web](web-editor.md)

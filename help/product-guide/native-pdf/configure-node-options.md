@@ -16,8 +16,8 @@ ht-degree: 1%
 
 La publication d’un PDF natif lance un processus NodeJs distinct pour convertir les fichiers générés dans le processus de publication en PDF final. Vous devrez peut-être ajuster les configurations de ce processus Node exécutant la publication de PDF natif pour prendre en charge différents scénarios. Par exemple, pour exécuter des charges de travail plus volumineuses, vous devez augmenter la taille maximale du tas disponible pour le processus NodeJs généré.
 
-Suivez les instructions de la section [Remplacements de configuration](../cs-install-guide/download-install-additional-config-override.md) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails (propriété) suivants :
+Suivez les instructions de la section [Remplacements de configuration](../cs-install-guide/download-install-additional-config-override.md) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails (de propriété) suivants :
 
 | PID | Clé de propriété | Valeur de la propriété |
 |---|---|---|
-| `com.adobe.fmdita.config.ConfigManager` | `native.pdf.node.opts` | Valeur de chaîne à définir comme standard `NODE_OPTIONS`.<BR> Valeur par défaut : &quot;&quot; |
+| `com.adobe.fmdita.config.ConfigManager` | `native.pdf.node.opts` | Valeur de chaîne pour définir toute valeur `NODE_OPTIONS` standard.<BR> Valeur par défaut : &quot;&quot; |

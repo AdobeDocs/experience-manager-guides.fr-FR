@@ -1,6 +1,6 @@
 ---
-title: Notes de mise à jour | Nouveautés de la version 4.2 des guides Adobe Experience Manager
-description: Découvrez les nouvelles fonctionnalités et les fonctionnalités améliorées des versions 4.2 des Guides Adobe Experience Manager
+title: Notes de mise à jour | Nouveautés de la version 4.2 d’Adobe Experience Manager Guides
+description: Découvrez les fonctionnalités nouvelles et améliorées des versions 4.2 d’Adobe Experience Manager Guides
 exl-id: 46367ccf-58ff-4889-8314-cdd5bf5d0f1d
 feature: What's New
 role: Leader
@@ -11,19 +11,19 @@ ht-degree: 0%
 
 ---
 
-# Nouveautés de la version 4.2 des guides Adobe Experience Manager (février 2023)
+# Nouveautés de la version 4.2 d’Adobe Experience Manager Guides (février 2023)
 
-Cet article couvre les nouvelles fonctionnalités et les fonctionnalités améliorées de la version 4.2 des Guides Adobe Experience Manager (ultérieurement appelées *Guides d’AEM*).
+Cet article couvre les nouvelles fonctionnalités et les fonctionnalités améliorées de la version 4.2 d’Adobe Experience Manager Guides (plus tard appelée *AEM Guides*).
 
-Pour plus d’informations sur les instructions de mise à niveau, la matrice de compatibilité et les problèmes résolus dans cette version, voir la section [Notes de mise à jour](release-notes-4-2.md) article.
+Pour plus d’informations sur les instructions de mise à niveau, la matrice de compatibilité et les problèmes résolus dans cette version, consultez l’article [Notes de mise à jour](release-notes-4-2.md) .
 
 ## Génération de rapports à partir de l’éditeur Web
 
-AEM Guides s’accompagne d’une fonctionnalité de l’éditeur web qui vous permet de vérifier l’exhaustivité globale de vos documents techniques et de générer des rapports à leur sujet.
+AEM Guides s’accompagne d’une fonctionnalité de l’éditeur Web qui vous permet de vérifier l’exhaustivité globale de vos documents techniques et de générer des rapports à leur sujet.
 Vous pouvez afficher la liste des rubriques et gérer les métadonnées de toutes les références pour la carte actuelle à partir de la
-**Rapports** dans l’éditeur Web.
+Onglet **Rapports** dans l’éditeur web.
 
-**Génération de la vue Liste des rubriques**
+**Générer la vue Liste des rubriques**
 
 Vous pouvez générer la liste des rubriques qui fournit des informations détaillées sur vos rubriques, telles que le type de référence, l’état du document et l’auteur. Vous pouvez également générer le fichier CSV pour télécharger l’instantané actuel des rubriques dans la carte DITA.
 
@@ -46,13 +46,14 @@ Désormais, AEM guides fournit un UX amélioré qui vous aide à passer en revue
 * Barre d’outils contextuelle qui permet de mettre rapidement le texte en surbrillance ou barré.
 * Menu Options pour modifier ou supprimer vos propres commentaires.
 * Pour les commentaires obsolètes, vous avez accès à une vue côte à côte qui vous aide à comparer la version précédente de la rubrique à la version de révision actuelle.
-* Lorsque vous utilisez les filtres, les commentaires sur le panneau de droite sont filtrés en fonction de la sélection et le nombre de commentaires dans le panneau de gauche est mis à jour en conséquence.
+* Lors de l’utilisation des filtres, les commentaires sur le panneau de droite sont filtrés en fonction de la sélection, et la variable
+Le nombre de commentaires dans le panneau de gauche est mis à jour en conséquence.
 
 
 <img alt="tâche de révision" src="assets/comment-pop-up-panel.png" width="600">
 
 
-Pour plus d’informations, reportez-vous au *Révision de rubriques ou de mappages* dans le guide d’utilisation des guides Adobe Experience Manager.
+Pour plus d’informations, reportez-vous à la section *Révision de rubriques ou de cartes* du guide Utilisation d’Adobe Experience Manager Guides.
 
 ## Améliorations de la traduction
 
@@ -65,15 +66,15 @@ Dans le tableau de bord de traduction, vous pouvez également voir la colonne Li
 
 **Afficher la différence de version des fichiers désynchronisés depuis le tableau de bord de traduction**
 
-Vous pouvez maintenant vérifier les différences entre la version sélectionnée et la dernière version source traduite des rubriques. Vous pouvez également choisir de traduire le **Désynchronisé** en fonction des modifications apportées entre les deux versions d’une rubrique.
+Vous pouvez maintenant vérifier les différences entre la version sélectionnée et la dernière version source traduite des rubriques. Vous pouvez également choisir de traduire les fichiers **désynchronisés** en fonction des modifications apportées entre les deux versions d’une rubrique.
 
 <img src="assets/translation-version-diff.png" alt="forum de traduction" width="600">
 
 
 
-**Transmettre le libellé de la version à la version cible**
+**Transmettez l’étiquette de version à la version cible**
 
-AEM Guides vous permet de transmettre le libellé du fichier source au fichier cible. Vous pouvez ainsi identifier facilement la version source du fichier traduit.
+AEM Guides permet de transmettre le libellé du fichier source au fichier cible. Vous pouvez ainsi identifier facilement la version source du fichier traduit.
 
 <img alt="libellés de traduction" src="assets/translation-pass-source-label.png" width="600">
 
@@ -81,26 +82,27 @@ Par exemple, si vous avez des fichiers source auxquels est appliqué le libellé
 
 **Forcer la synchronisation pour les ressources désynchronisées**
 
-Si vous apportez des modifications à certaines ressources, AEM Guides les signale comme étant désynchronisés. Vous pouvez soit retraduire les ressources modifiées, soit choisir d’ignorer l’état Désynchronisé . Par exemple, si vous avez apporté des modifications mineures qui n’ont vraiment pas besoin de traduction, vous pouvez marquer leur état comme étant Synchronisé.
+Si vous apportez des modifications à certaines ressources, AEM Guides les signale comme étant hors synchronisation. Vous pouvez soit retraduire les ressources modifiées, soit choisir d’ignorer l’état Désynchronisé . Par exemple, si vous avez apporté des modifications mineures qui n’ont vraiment pas besoin de traduction, vous pouvez marquer leur état comme étant Synchronisé.
 
-**Projets de traduction Afficher en cours pour une rubrique ou une carte**
+**Afficher les projets de traduction en cours pour une rubrique ou une carte**
 
 Certaines des références de votre tableau de bord de traduction peuvent être en cours. Désormais, AEM Guides fournit une fonctionnalité qui vous aide à afficher la liste de tous les projets de traduction en cours (ainsi que la langue cible) qui contiennent la référence sélectionnée.
 
-Pour plus d’informations, reportez-vous au *Traduire des documents à partir de l’éditeur Web* dans le guide d’utilisation des guides Adobe Experience Manager.
+Pour plus d&#39;informations, reportez-vous à la section *Traduire des documents à partir de l&#39;éditeur web* du guide Utilisation d&#39;Adobe Experience Manager Guides.
 
 ## Générer une sortie dans divers formats à partir de l’éditeur web
 
-Vous pouvez désormais facilement générer la sortie pour vos rubriques ou mappage DITA à partir de l’éditeur web. Vous pouvez configurer divers paramètres prédéfinis de sortie tels qu’AEM Site, PDF, HTML5, JSON (format de sortie sans interface) et une sortie personnalisée. Utilisez-les pour générer les sorties respectives. Vous pouvez définir des attributs dans vos rubriques DITA, puis utiliser le paramètre prédéfini de condition pour appliquer une condition lors de la publication de la sortie. Vous pouvez également utiliser la fonction de publication de ligne de base pour publier sélectivement une version spécifique de votre mappage ou de votre rubrique DITA.
+Vous pouvez désormais facilement générer la sortie pour vos rubriques ou mappage DITA à partir de l’éditeur web. Vous pouvez configurer divers paramètres prédéfinis de sortie, tels que AEM Site, PDF, HTML5,
+JSON (format de sortie sans affichage) et sortie personnalisée. Utilisez-les pour générer les sorties respectives. Vous pouvez définir des attributs dans vos rubriques DITA, puis utiliser le paramètre prédéfini de condition pour appliquer une condition lors de la publication de la sortie. Vous pouvez également utiliser la fonction de publication de ligne de base pour publier sélectivement une version spécifique de votre mappage ou de votre rubrique DITA.
 
-**Gestion des paramètres prédéfinis de sortie de profil global et de dossier**
+**Gérer les paramètres prédéfinis de sortie globaux et de profil de dossier**
 
-AEM Guides vous fournit la fonction permettant de créer et de gérer des paramètres prédéfinis de sortie pour les profils globaux et de dossiers. Vous pouvez ensuite facilement utiliser ces paramètres prédéfinis de sortie pour générer une sortie pour toutes les cartes liées à ce profil Global ou Dossier.
+AEM Guides vous fournit la fonction permettant de créer et de gérer des paramètres prédéfinis de sortie pour les profils globaux et de dossier. Vous pouvez ensuite facilement utiliser ces paramètres prédéfinis de sortie pour générer une sortie pour toutes les cartes liées à ce profil Global ou Dossier.
 
 <img alt="ajouter un paramètre prédéfini" src="assets/add-global-output-preset.png" width="400">
 
 
-Ces paramètres prédéfinis globaux apparaissent sous **Sortie** de toutes les cartes associées. Vous pouvez les utiliser pour générer la sortie pour toutes les cartes associées. Vous pouvez sélectionner le paramètre prédéfini comme paramètre prédéfini de PDF par défaut pour générer la sortie du PDF. Vous pouvez également **Modifier**, **Renommer**, **Dupliquer**, ou **Supprimer** un paramètre prédéfini de sortie existant à partir du **Options** .
+Ces paramètres prédéfinis globaux apparaissent sous l’onglet **Output** de toutes les cartes associées. Vous pouvez les utiliser pour générer la sortie pour toutes les cartes associées. Vous pouvez sélectionner le paramètre prédéfini comme paramètre prédéfini de PDF par défaut pour générer la sortie du PDF. Vous pouvez également **Modifier**, **Renommer**, **Dupliquer** ou **Supprimer** un paramètre prédéfini de sortie existant à partir du menu **Options**.
 
 >[!NOTE]
 >
@@ -108,12 +110,12 @@ Ces paramètres prédéfinis globaux apparaissent sous **Sortie** de toutes les 
 
 ## Rechercher et remplacer le texte au niveau de la carte
 
-Vous pouvez désormais rechercher des fichiers dans une carte qui contient du texte spécifique. Le texte recherché est mis en surbrillance dans les fichiers. Vous pouvez également remplacer le mot ou l’expression recherché par un autre mot ou expression dans les fichiers. Sélectionnez la variable **Remplacer une occurrence unique** pour remplacer l’occurrence actuelle et la variable **Remplacer tout dans le fichier** pour remplacer toutes les occurrences dans le fichier sélectionné. Vous pouvez sélectionner **Tout remplacer** pour remplacer toutes les occurrences du terme recherché dans tous les fichiers.
+Vous pouvez désormais rechercher des fichiers dans une carte qui contient du texte spécifique. Le texte recherché est mis en surbrillance dans les fichiers. Vous pouvez également remplacer le mot ou l’expression recherché par un autre mot ou expression dans les fichiers. Sélectionnez l’icône **Remplacer une occurrence unique** pour remplacer l’occurrence actuelle et l’icône **Tout remplacer dans le fichier** pour remplacer toutes les occurrences dans le fichier sélectionné. Vous pouvez sélectionner l’icône **Remplacer tout** pour remplacer toutes les occurrences du terme recherché dans tous les fichiers.
 
 <img src="assets/map-find-replace.png" alt="map find replace" width="600">
 
 
-Par défaut, les options **Extraction de fichier avant remplacement** et **Créer une version après remplacement** étant sélectionnés, un fichier est extrait avant de remplacer le texte et une nouvelle version est créée après le remplacement du texte. Vous pouvez également rechercher la chaîne dans les références indirectes dans le mappage DITA. Par défaut, cette option est désactivée. La recherche n’est donc effectuée que sur les références directes.
+Par défaut, les options **Extraction de fichier avant remplacement** et **Créer une version après remplacement** sont sélectionnées. Par conséquent, un fichier est extrait avant que vous ne remplaciez le texte et une nouvelle version est créée après le remplacement du texte. Vous pouvez également rechercher la chaîne dans les références indirectes dans le mappage DITA. Par défaut, cette option est désactivée. La recherche n’est donc effectuée que sur les références directes.
 
 ## Mode Mise en page dans l’éditeur de mappage
 
@@ -126,17 +128,17 @@ La vue Disposition contient une barre d’outils distincte qui vous permet d’e
 Vous pouvez insérer des références de rubrique, un groupe de rubriques, des définitions de clés dans un mappage. Vous pouvez réorganiser les rubriques présentes dans une carte en les déplaçant vers le haut, le bas, la gauche ou la droite. Vous pouvez également faire glisser et déposer les rubriques pour les déplacer dans une carte. L’éditeur de mappage fournit également les icônes permettant de verrouiller ou de déverrouiller des fichiers, de vérifier l’historique des versions et d’effectuer une gestion des libellés de version.
 
 
-La vue Disposition fournit également le **Options d’affichage** pour afficher ou masquer le numéro de ligne, afficher ou masquer une case à cocher ou afficher le nom ou le titre du fichier pour les rubriques dans une carte.
+La vue Disposition fournit également les **options d’affichage** permettant d’afficher ou de masquer le numéro de ligne, d’afficher ou de masquer la case à cocher, ou d’afficher le nom ou le titre du fichier pour les rubriques dans une carte.
 Vous pouvez également afficher les rubriques en fonction des filtres conditionnels qui leur sont appliqués.
 
-Outre l’organisation des rubriques dans le fichier de mappage, vous pouvez également ajouter, déplacer, copier, coller ou supprimer des références à l’aide de la variable **Options** pour un élément en mode Mise en page.
+Outre l’organisation des rubriques dans le fichier de mappage, vous pouvez également ajouter, déplacer, copier, coller ou supprimer des références à l’aide du menu **Options** disponible pour un élément dans la vue Disposition.
 
 <img src="assets/layout-inline-attributes.png" alt=" Attributs de mise en page du mappage" width="600">
 
 
 Le panneau de droite affiche les propriétés du contenu et les propriétés de mappage dans la vue Disposition de l’éditeur de cartes. Vous pouvez désormais également définir les informations de métadonnées pour les rubriques ou la carte. Vous pouvez définir le titre de navigation, le texte du lien, la description courte et les mots-clés pour la rubrique ou le mappage sélectionné.
 
-Pour plus d’informations, voir *Mode Mise en page* dans le guide d’utilisation des guides Adobe Experience Manager.
+Pour plus d’informations, reportez-vous à la section *Vue de la mise en page* du guide Utilisation d’Adobe Experience Manager Guides.
 
 ## Panneau Génération rapide
 
@@ -144,21 +146,22 @@ Désormais, AEM Guides fournit le panneau de génération rapide qui vous permet
 
 <img src="assets/quick-generate-map-view.png" alt=" panneau de génération rapide" width="600">
 
-Dans le **Génération rapide** vous pouvez voir la liste de tous les paramètres prédéfinis de sortie créés pour votre mappage DITA. Vous pouvez également afficher rapidement la sortie générée pour les paramètres prédéfinis. Un message de réussite ou d’échec s’affiche à la fin de la génération de sortie. Vous pouvez également afficher le journal des erreurs qui contient les détails de l’erreur survenue dans le processus de génération.
+Dans le panneau **Quick Generate** , vous pouvez voir la liste de tous les paramètres prédéfinis de sortie créés pour votre mappage DITA. Vous pouvez également afficher rapidement la sortie générée pour les paramètres prédéfinis. Un message de réussite ou d’échec s’affiche à la fin de la génération de sortie. Vous pouvez également afficher le journal des erreurs qui contient les détails de l’erreur survenue dans le processus de génération.
 
 ## Création d’une ligne de base dynamique basée sur des libellés
 
-Désormais, AEM Guides vous offre la fonctionnalité de création de lignes de base dynamiques basées sur des libellés. Si vous générez une ligne de base, téléchargez une ligne de base ou créez un projet de traduction à l’aide d’une ligne de base, les fichiers sont sélectionnés dynamiquement en fonction des étiquettes mises à jour. Cette fonctionnalité est pratique, car vous n’avez pas à modifier la ligne de base lors de la mise à jour des libellés.
+AEM Guides vous offre désormais la possibilité de créer des lignes de base dynamiques basées sur des libellés. Si vous générez une ligne de base, téléchargez une ligne de base ou créez un projet de traduction à l’aide d’une ligne de base, les fichiers sont sélectionnés dynamiquement en fonction des étiquettes mises à jour. Cette fonctionnalité est pratique, car vous n’avez pas à modifier la ligne de base lors de la mise à jour des libellés.
 
 <img src="assets/dynamic-baseline.png" alt=" ligne de base dynamique" width="400">
 
 ## Suppression et duplication de fichiers à partir du panneau du référentiel
 
-Vous pouvez désormais facilement supprimer des fichiers (un seul fichier à la fois) du **Options** du fichier sélectionné dans le panneau du référentiel. Une invite de confirmation s’affiche avant de supprimer le fichier. Si le fichier n’est référencé dans aucun autre fichier, il est supprimé et un message de réussite s’affiche.
+Vous pouvez désormais facilement supprimer des fichiers (un seul fichier à la fois) du menu **Options** du fichier sélectionné dans le panneau du référentiel. Une invite de confirmation s’affiche avant de supprimer le fichier. Si le fichier n’est référencé dans aucun autre fichier, il est supprimé et un message de réussite s’affiche.
 
 <img src="assets/options-menu-repo-view-file-level.png" alt="menu des options de fichier " width="500">
 
-Vous pouvez également créer un doublon ou une copie du fichier sélectionné. Par défaut, le fichier est créé avec un suffixe (comme filename_1.extension).
+Vous pouvez également créer un doublon ou une copie du fichier sélectionné. Par défaut, le fichier est créé avec
+un suffixe (comme filename_1.extension).
 
 
 ## Autres améliorations apportées à l’éditeur web
@@ -171,7 +174,7 @@ Vous pouvez également créer un doublon ou une copie du fichier sélectionné. 
 
 ## Purge des versions sélectionnées des fichiers
 
-Lorsque vous créez et conservez votre contenu, de nombreuses versions peuvent être créées pour vos fichiers DITA dans votre référentiel. AEM Guides vous permet de purger les anciennes versions de vos fichiers DITA du référentiel et de libérer de l’espace disque.
+Lorsque vous créez et conservez votre contenu, de nombreuses versions peuvent être créées pour vos fichiers DITA dans votre référentiel. AEM Guides vous permet de purger les anciennes versions des fichiers DITA du référentiel et de libérer de l’espace disque.
 
 <img src="assets/preview-purge-report.png" alt="Aperçu du rapport de purge" width="500">
 
@@ -185,7 +188,7 @@ Une fois l’opération de purge terminée, vous pouvez vérifier le rapport de 
 
 ## Afficher le titre à la place de l’UUID dans l’éditeur Oxygen
 
-Maintenant AEM Guides vous permet de choisir **Utilisation du titre dans l’éditeur et le gestionnaire de cartes** dans Paramètres. Si vous sélectionnez cette option, le titre du fichier s’affiche dans l’onglet du fichier lorsqu’il est ouvert dans l’éditeur ou dans le Gestionnaire de mappages DITA. Si vous ne sélectionnez pas cette option, l’UUID du fichier est affiché dans l’onglet du fichier.
+Maintenant AEM Guides vous permet de choisir l’option **Utiliser le titre dans l’éditeur et le gestionnaire de cartes** dans Paramètres. Si vous sélectionnez cette option, le titre du fichier s’affiche dans l’onglet du fichier lorsqu’il est ouvert dans l’éditeur ou dans le Gestionnaire de mappages DITA. Si vous ne sélectionnez pas cette option, l’UUID du fichier est affiché dans l’onglet du fichier.
 
 ## Interface utilisateur des métadonnées disponible pour les paramètres prédéfinis de PDF
 

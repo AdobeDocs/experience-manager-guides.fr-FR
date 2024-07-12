@@ -20,11 +20,15 @@ L’API REST suivante vous permet d’ajouter des attributs conditionnels dans u
 
 Méthode de POST qui ajoute des attributs conditionnels à un profil donné au niveau du dossier.
 
-**URL de la requête**:\
-http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/folder profiles
+**Demander l’URL** :\
+http://*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/fmdita/folderprofiles
 
-**Paramètres**:\
-|Nom|Type|Obligatoire|Description| |—|—|—|— |`:operation`|String|Yes|Nom de l’opération en cours d’appel. La valeur de ce paramètre est ``ADDATTRIBUTEPROFILES``. <br> **Remarque :** La valeur n’est pas sensible à la casse.| |`profilename`|String|Yes|Nom d’affichage du profil au niveau du dossier dans lequel les attributs conditionnels doivent être ajoutés.| |`conditionalprofiles`|Tableau JSON|Oui|Un tableau JSON constitué du nom et des valeurs de l’attribut conditionnel. L’exemple de fragment de code suivant affiche le tableau JSON avec deux attributs - `platform` et `product` avec plusieurs valeurs qui leur sont affectées.|
+**Paramètres** :\
+|Nom|Type|Obligatoire|Description|
+|—|—|—|—
+|`:operation`|String|Yes|Nom de l’opération en cours d’appel. La valeur de ce paramètre est ``ADDATTRIBUTEPROFILES``. <br> **Remarque :** La valeur n’est pas sensible à la casse.|
+|`profilename`|String|Yes|Nom d’affichage du profil au niveau du dossier dans lequel les attributs conditionnels doivent être ajoutés.|
+|`conditionalprofiles`|Tableau JSON|Oui|Un tableau JSON constitué du nom et des valeurs de l’attribut conditionnel. L’exemple de fragment de code suivant montre le tableau JSON avec deux attributs : `platform` et `product` avec plusieurs valeurs qui leur sont affectées.|
 
 ```JSON
 [  {    name: "platform",    
@@ -41,5 +45,5 @@ http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/folder profiles
                 }]
 ```
 
-**Valeurs de réponse**:\
+**Valeurs de réponse** :\
 Renvoie une réponse HTTP 200 \(Succès\).

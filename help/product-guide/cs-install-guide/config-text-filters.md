@@ -25,12 +25,12 @@ Par défaut, vous pouvez utiliser des filtres améliorés pour rechercher les fi
 Effectuez les étapes suivantes pour configurer les filtres de texte :
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur.
-1. Cliquez sur le lien Adobe Experience Manager en haut de l’écran et choisissez **Outils**.
-1. Sélectionner **Guides** dans la liste des outils, puis cliquez sur l’icône **Profils de dossier**.
-1. Cliquez sur le bouton **Profil global** mosaïque.
+1. Cliquez sur le lien Adobe Experience Manager en haut de l’écran et sélectionnez **Outils**.
+1. Sélectionnez **Guides** dans la liste des outils et cliquez sur le bouton **Profils de dossier**.
+1. Cliquez sur la mosaïque **Profil global** .
 1. Cliquez sur **Configuration de l’éditeur XML**.
-1. Cliquez sur **Modifier** en haut.
-1. Cliquez sur le bouton **Télécharger** pour télécharger le fichier ui\_config.json sur votre système local. Vous pouvez ensuite apporter des modifications au fichier, puis charger le même fichier.
+1. Cliquez sur l’icône **Modifier** en haut de l’écran.
+1. Cliquez sur l’icône **Télécharger** pour télécharger le fichier ui\_config.json sur votre système local. Vous pouvez ensuite apporter des modifications au fichier, puis charger le même fichier.
    1. Configurez les filtres dans le fichier . Vous pouvez également ajouter des filtres personnalisés comme illustré dans l’exemple ci-dessous :
 
       Le fragment de code suivant montre comment ajouter des options de filtrage Fichiers DITA, Non DITA, Éléments DITA et Extraits par fichiers. Il contient également un filtre personnalisé -Balises.
@@ -70,14 +70,14 @@ Effectuez les étapes suivantes pour configurer les filtres de texte :
 
       Dans le fragment de code ci-dessus, le premier filtre concerne les fichiers DITA. La définition de filtre utilise les paramètres suivants :
 
-      ****Titre****: nom d’affichage du filtre. Ce titre apparaît comme option de filtrage dans la boîte de dialogue de navigation des fichiers.
+      ****Titre**** : nom d’affichage du filtre. Ce titre apparaît comme option de filtrage dans la boîte de dialogue de navigation des fichiers.
 
-      ****Propriété****: propriété à faire correspondre dans les métadonnées du fichier. Par exemple, pour n’autoriser que les fichiers dont la propriété contient des métadonnées de classe dita\, le filtre de propriété prend comme valeur &quot;jcr:content/metadata/dita\_class&quot;.
+      ****Propriété**** : propriété à associer aux métadonnées du fichier. Par exemple, pour n’autoriser que les fichiers dont la propriété contient des métadonnées de classe dita\, le filtre de propriété prend comme valeur &quot;jcr:content/metadata/dita\_class&quot;.
 
-      ****Opération **:**Indiquez &quot;exists&quot; pour correspondre à l’existence de la valeur spécifiée dans le paramètre de propriété.
+      ****Operation **:**Spécifiez &quot;exists&quot; pour correspondre à l’existence de la valeur spécifiée dans le paramètre de propriété.
 
 1. Téléchargez le fichier ui\_config.json mis à jour qui contient les filtres ajoutés.
 
 Les filtres configurés sont disponibles dans le panneau Filtres .
 
-**Rubrique parente :**[ Personnalisation de l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)

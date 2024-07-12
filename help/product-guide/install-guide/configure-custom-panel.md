@@ -16,8 +16,8 @@ ht-degree: 0%
 
 Pour ajouter un panneau personnalisé dans le panneau de gauche de l’éditeur Web, procédez comme suit :
 
-1. Créez un *clientlib* et ajoutez votre fichier JavaScript et CSS à ce dossier.
-1. Mettez à jour la propriété categories du *clientlib* en lui attribuant la valeur de *apps.dita.xml\_editor.page\_overrides*.
+1. Créez un dossier *clientlib* et ajoutez vos fichiers JavaScript et CSS dans ce dossier.
+1. Mettez à jour la propriété categories du dossier *clientlib* en lui affectant la valeur *apps.fmdita.xml\_editor.page\_overrides*.
 
 Exemple de code pour configurer un panneau personnalisé :
 
@@ -58,4 +58,4 @@ tcx.ready(function () { //Ready will call the callback after editor code is set 
 });
 ```
 
-**Rubrique parente :**[ Personnalisation de l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)

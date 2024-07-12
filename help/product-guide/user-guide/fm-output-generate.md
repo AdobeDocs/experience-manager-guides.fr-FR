@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Effectuez les étapes suivantes pour générer une sortie pour des documents de FrameMaker :
 
-1. Dans l’interface utilisateur d’Assets, accédez à et cliquez sur le `.book` ou `.fm` fichier que vous souhaitez publier.
+1. Dans l’interface utilisateur d’Assets, accédez au fichier `.book` ou `.fm` à publier, puis cliquez dessus.
 
    La console de mappage DITA apparaît et affiche la liste des paramètres prédéfinis de sortie disponibles pour générer la sortie.
 
@@ -28,6 +28,6 @@ Effectuez les étapes suivantes pour générer une sortie pour des documents de 
 
 >[!NOTE]
 >
-> Vous pouvez afficher l’état actuel de la requête de génération de sortie en cliquant sur Sorties. Pour plus d’informations, voir [Afficher l&#39;état de la tâche de génération de sortie](fm-output-view-status.md).
+> Vous pouvez afficher l’état actuel de la requête de génération de sortie en cliquant sur Sorties. Pour plus d’informations, voir [Affichage de l’état de la tâche de génération de sortie](fm-output-view-status.md).
 
-**Rubrique parente :**[ Générer une sortie de documents de FrameMaker](fm-output-generatation.md)
+**Rubrique parente :**[ Générer la sortie des documents de FrameMaker](fm-output-generatation.md)

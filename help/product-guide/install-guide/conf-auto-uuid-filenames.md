@@ -26,9 +26,9 @@ Effectuez les étapes suivantes pour attribuer automatiquement le nom de fichier
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Recherchez et cliquez sur le bouton *com.adobe.fmdita.xmleditor.config.XmlEditorConfig* du lot.
+1. Recherchez et cliquez sur le lot *com.adobe.fmdita.xmleditor.config.XmlEditorConfig*.
 
-1. Sélectionnez la variable **Utilisation de noms de fichier système UUID** .
+1. Sélectionnez l’option **Utiliser des noms de fichiers système basés sur UUID** .
 
 1. Cliquez sur **Enregistrer**.
 
@@ -37,4 +37,4 @@ Effectuez les étapes suivantes pour attribuer automatiquement le nom de fichier
 >
 > Par défaut, cette option est désactivée. Lorsque cette option est activée, les auteurs ne voient pas l’option permettant de spécifier le nom de fichier lors de la création d’un fichier de rubrique ou de mappage. Un nouveau fichier de rubrique ou de mappage peut être créé à partir de l’interface utilisateur d’Assets et de l’éditeur web.
 
-**Rubrique parente :**[ Configuration des noms de fichier](conf-file-names.md)
+**Rubrique parente :**[ Configurer les noms de fichier](conf-file-names.md)

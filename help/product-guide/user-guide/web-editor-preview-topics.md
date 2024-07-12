@@ -36,23 +36,23 @@ Pour prévisualiser une rubrique, procédez comme suit :
 
 Vous pouvez effectuer les opérations suivantes à partir de la barre d’outils en mode aperçu :
 
-**Propriétés.**
+**Propriétés**
 
 Afficher les propriétés de la rubrique sélectionnée. En fonction de votre version d’AEM, vous pouvez voir des propriétés telles que les métadonnées, l’activation de la planification \(de\), les références, l’état du document, etc.
 
 >[!NOTE]
 >
-> La propriété de titre d’une rubrique est automatiquement renseignée à partir de la propriété `title` balise de la rubrique ou du mappage DITA. Si vous apportez une modification au titre à l’aide de la fenêtre des propriétés, cette modification est perdue. Si vous souhaitez mettre à jour la propriété de titre, vous devez le faire à l’aide de l’éditeur web.
+> La propriété de titre d’une rubrique est automatiquement renseignée à partir de la balise `title` de la rubrique ou du mappage DITA. Si vous apportez une modification au titre à l’aide de la fenêtre des propriétés, cette modification est perdue. Si vous souhaitez mettre à jour la propriété de titre, vous devez le faire à l’aide de l’éditeur web.
 
-La page Propriétés contient des informations utiles sur les références, telles que l’endroit où une carte ou une rubrique est utilisée ou les références contenues dans un document. La page Propriétés répertorie deux types de références pour un document : **Utilisé dans** et **Références sortantes**.
+La page Propriétés contient des informations utiles sur les références, telles que l’endroit où une carte ou une rubrique est utilisée ou les références contenues dans un document. La page Propriétés répertorie deux types de références pour un document : **Utilisé(e) dans** et **Références sortantes**.
 
-La variable **Utilisé dans** Les références répertorient les documents dans lesquels le fichier actif est référencé ou utilisé. La variable **Références sortantes** répertorie les documents qui sont référencés dans le document actif.
+Les références **Utilisé(e) dans** répertorient les documents dans lesquels le fichier actif est référencé ou utilisé. Les **Références sortantes** répertorient les documents référencés dans le document actif.
 
-L’icône \(+\) dans la variable **Utilisé dans** la section références vous permet de naviguer plus haut pour trouver où cette rubrique est utilisée ou référencée.
+L’icône \(+\) de la section de références **Utilisé(e) dans** vous permet de naviguer plus haut pour trouver l’emplacement où cette rubrique est utilisée ou référencée.
 
 ![](images/used-in-dialog_cs.png){width="800" align="left"}
 
-Cliquez sur le bouton ![](images/right-arrow-used-in-dialog.svg)l’icône en regard d’un document affiche la carte ou les fichiers de rubrique dans lesquels ce document est référencé.
+Cliquez sur l’icône ![](images/right-arrow-used-in-dialog.svg) en regard d’un document pour afficher les fichiers de mappage ou de rubrique où ce document est référencé.
 
 **Filtrage conditionnel \(A/B\)**
 
@@ -66,31 +66,31 @@ Si votre rubrique comporte du contenu conditionnel, l’icône A/B s’affiche d
 
 **Modifier**
 
-- Ouvrez la rubrique à modifier dans l’éditeur Web. La variable **Modifier** ne sera pas disponible si votre administrateur a activé la variable **Désactiver la modification sans extraction** . Lorsque l’option est activée, le **Modifier** n’est disponible qu’après extraction d’un fichier de rubrique.
+- Ouvrez la rubrique à modifier dans l’éditeur Web. L’option **Modifier** ne sera pas disponible si votre administrateur a activé l’option **Désactiver la modification sans extraction**. Lorsque l’option est activée, l’option **Modifier** s’affiche uniquement après l’extraction d’un fichier de rubrique.
 
-**Résolution des clés**
+**Résolution de clé**
 
 - Si vous souhaitez utiliser un fichier d’espace de clés pour la rubrique, cliquez sur l’icône Résolution des clés . Vous pouvez ensuite choisir un espace clé dans la fenêtre contextuelle Résolution de la clé .
 
 **Source**
 
-- Ouvrez le code source XML d’un fichier. Vous pouvez afficher le code XML sous-jacent d’un fichier map, topic ou DITAVAL en ouvrant le fichier en mode Aperçu et en cliquant sur l’icône Source . La fenêtre contextuelle Source XML affiche le code source XML. Vous pouvez sélectionner un code spécifique dans le fichier ou appuyer sur la touche `Ctrl`+`a` pour sélectionner l’intégralité du contenu.
+- Ouvrez le code source XML d’un fichier. Vous pouvez afficher le code XML sous-jacent d’un fichier map, topic ou DITAVAL en ouvrant le fichier en mode Aperçu et en cliquant sur l’icône Source . La fenêtre contextuelle Source XML affiche le code source XML. Vous pouvez sélectionner un code spécifique dans le fichier ou appuyer sur `Ctrl`+`a` pour sélectionner tout le contenu.
 
   >[!NOTE]
   >
-  > Pour obtenir l’affichage du code source d’un fichier de mappage DITA, sélectionnez le fichier dans l’interface utilisateur Assets et cliquez sur Source.
+  > Pour obtenir l’affichage du code source d’un fichier de mappage DITA, sélectionnez le fichier dans l’interface utilisateur d’Assets, puis cliquez sur Source.
 
   ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
 
-**Partager le lien UUID**
+**Partager le lien UID**
 
-- AEM Guides vous permet de partager les liens UUID pour les mappages DITA, les rubriques et les fichiers image à partir des emplacements suivants :
+- AEM Guides vous permet de partager les liens basés sur l’UUID pour les mappages DITA, les rubriques et les fichiers image à partir des emplacements suivants :
 
-   - Interface utilisateur des ressources
+   - Interface utilisateur d’Assets
    - Console de la carte DITA
    - Aperçu de la rubrique ou de l’image
 
-Nouvelle option **Partager le lien UUID** s’affiche dans la barre d’outils des zones mentionnées ci-dessus. La capture d’écran suivante montre la variable **Partager le lien UUID** en mode Aperçu d’une rubrique :
+Une nouvelle option **Partager le lien UUID** s’affiche dans la barre d’outils des zones mentionnées ci-dessus. La capture d’écran suivante montre l’option **Partager le lien UUID** en mode Aperçu d’une rubrique :
 
 ![](images/share-uuid-link_cs.png){width="800" align="left"}
 
@@ -104,7 +104,7 @@ Si vous partagez le lien à partir de la console de mappage DITA ou du mode d’
 >
 > Le lien ne peut pas être utilisé comme lien de référence dans une autre rubrique, il donne uniquement un accès direct au fichier dans le référentiel. En outre, le lien reste valide tant que le fichier est disponible dans le référentiel. Même si le fichier est déplacé vers un autre emplacement du référentiel, le lien reste valide. Le lien échoue uniquement lorsque le fichier est supprimé du référentiel.
 
-**Extraction/archivage**
+**Extraire/Archiver**
 
 - Active/désactive les fonctionnalités d’extraction et d’archivage. Lorsqu’un fichier est extrait, l’utilisateur actuel obtient une autorisation d’écriture exclusive sur le fichier. Un fichier extrait peut être ouvert dans l’éditeur web pour modification. Une fois que vous avez apporté les modifications requises, cliquez sur l’icône Archiver pour enregistrer le fichier dans DAM.
 
@@ -118,7 +118,7 @@ Extrait du fichier en mode Liste :
 
 ![](images/checkout-list-62.png){width="550" align="left"}
 
-Si la colonne Extraits n’est pas visible, sélectionnez **Paramètres d’affichage** under **Mode Liste** et sélectionnez la variable **Extraits** dans le **Configuration des colonnes** boîte de dialogue.
+Si la colonne Extrait n’est pas visible, sélectionnez **Paramètres d’affichage** sous **Mode Liste** et sélectionnez l’état **Extraits** dans la boîte de dialogue **Configurer les colonnes**.
 
 ![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
 
@@ -136,13 +136,13 @@ Si la colonne Extraits n’est pas visible, sélectionnez **Paramètres d’affi
 
    1. Ouvrez la rubrique en mode Aperçu .
 
-   1. Dans le rail de gauche, cliquez sur **Historique des versions** et sélectionnez une version.
+   1. Dans le rail de gauche, cliquez sur **Historique de version** et sélectionnez une version.
 
       ![](images/timeline-versions62_cs.png){width="800" align="left"}
 
-   1. Dans la liste des versions, sélectionnez celle que vous souhaitez utiliser comme version de base, puis cliquez sur **Aperçu de la version**. L’aperçu de la version sélectionnée s’affiche dans la fenêtre Aperçu de la version .
+   1. Dans les versions répertoriées, sélectionnez celle que vous souhaitez utiliser comme version de base et cliquez sur **Aperçu de la version**. L’aperçu de la version sélectionnée s’affiche dans la fenêtre Aperçu de la version .
 
-   1. Dans la **Afficher l’écart** sélectionnez la version avec laquelle comparer la version de base.
+   1. Dans la liste **Afficher l&#39;écart**, sélectionnez la version avec laquelle vous souhaitez comparer la version de base.
 
       ![](images/show-diff-list-cropped.png){width="800" align="left"}
 
@@ -153,7 +153,7 @@ Si la colonne Extraits n’est pas visible, sélectionnez **Paramètres d’affi
 
 ### Branchement, restauration et contrôle de version ultérieur {#id193PG0Y051X}
 
-- Dans un environnement de création classique, vous devez créer une nouvelle branche d’une rubrique pour prendre en charge une version spécifique. Comme tout autre système de gestion de version, AEM Guides vous permet de créer une branche à partir d’une version existante d’une rubrique ou de revenir à une ancienne version d’une rubrique. Grâce aux fonctions de gestion des versions proposées par AEM Guides, vous pouvez effectuer les tâches suivantes :
+- Dans un environnement de création classique, vous devez créer une nouvelle branche d’une rubrique pour prendre en charge une version spécifique. Comme tout autre système de gestion de version, AEM Guides vous permet de créer une branche à partir d’une version existante d’une rubrique ou de revenir à une ancienne version d’une rubrique. Grâce aux fonctionnalités de gestion des versions proposées par AEM Guides, vous pouvez effectuer les tâches suivantes :
 
    - Création d’une branche à partir d’une version existante d’une rubrique
    - Création de versions ultérieures dans une nouvelle branche
@@ -165,7 +165,7 @@ Si la colonne Extraits n’est pas visible, sélectionnez **Paramètres d’affi
 
   Pour toute nouvelle rubrique, la première version est numérotée 1.0. Par la suite, chaque nouvelle version de la rubrique est enregistrée avec un numéro incrémentiel tel que 1.1, 1.2, etc. Une fois que vous avez créé une branche d’une rubrique, une nouvelle branche prend le numéro de version à partir duquel la branche est créée et ajoute un 0 à la fin de la version. Comme le montre l’illustration, une nouvelle branche est créée à partir de la version 1.1 d’une rubrique. La nouvelle branche a la version 1.1.0. Par la suite, chaque fois que vous enregistrez une nouvelle version de la rubrique dans cette branche, elle obtient un numéro de version incrémentielle tel que 1.1.1, 1.1.2, etc.
 
-  Comme pour l’embranchement, vous pouvez rétablir votre version actuelle ou opérationnelle sur n’importe quelle version du référentiel. Pour revenir à une version, sélectionnez simplement la version souhaitée de la rubrique et cliquez sur **Revenir à cette version** dans le **Historique des versions** du panneau.
+  Comme pour l’embranchement, vous pouvez rétablir votre version actuelle ou opérationnelle sur n’importe quelle version du référentiel. Pour revenir à une version, sélectionnez simplement la version souhaitée de la rubrique et cliquez sur **Revenir à cette version** dans le panneau **Historique de version** .
 
   Pour créer une branche, revenir à une version et conserver les versions suivantes d’une rubrique, procédez comme suit :
 
@@ -181,11 +181,11 @@ Si la colonne Extraits n’est pas visible, sélectionnez **Paramètres d’affi
 
    1. Sélectionnez la rubrique pour laquelle vous souhaitez créer une branche.
 
-   1. Dans le rail de gauche, cliquez sur **Historique des versions**.
+   1. Dans le rail de gauche, cliquez sur **Historique de version**.
 
       >[!NOTE]
       >
-      > Une liste des versions disponibles pour la rubrique sélectionnée s’affiche. Chaque version contient l’horodatage, le nom d’utilisateur, le commentaire de version et [label](web-editor-use-label.md#) informations.
+      > Une liste des versions disponibles pour la rubrique sélectionnée s’affiche. Chaque version contient l’horodatage, le nom d’utilisateur, le commentaire de version et les informations [label](web-editor-use-label.md#).
 
    1. Sélectionnez une version à partir de laquelle vous souhaitez créer une branche. Dans la capture d’écran suivante, la version 1.2 est sélectionnée pour la création d’une branche.
 
@@ -199,7 +199,7 @@ Si la colonne Extraits n’est pas visible, sélectionnez **Paramètres d’affi
 
       Un message s’affiche vous demandant de confirmer la création d’une nouvelle branche.
 
-   1. *\(Facultatif\)* Dans l’invite de message, vous avez la possibilité de sélectionner la variable **Enregistrer La Copie De Travail Actuelle Comme Nouvelle Version**. Les deux actions suivantes sont possibles en fonction de la sélection de cette option :
+   1. *\(Facultatif\)* Dans l’invite de message, vous avez la possibilité de sélectionner l’option **Enregistrer la copie de travail active comme nouvelle version**. Les deux actions suivantes sont possibles en fonction de la sélection de cette option :
 
       - Si vous sélectionnez cette option, une branche est créée à partir de la version 1.1. De plus, une nouvelle version de la rubrique est également créée à partir de la copie de travail actuelle de la rubrique et enregistrée comme version suivante - 1.4.
 
@@ -218,4 +218,4 @@ Si la colonne Extraits n’est pas visible, sélectionnez **Paramètres d’affi
 
   Une nouvelle branche est créée à partir de la version sélectionnée de la rubrique. Le processus ci-dessus s’applique également pour revenir à une version spécifique d’une rubrique. Techniquement, la restauration d’une version spécifique signifie que vous créez une branche à partir de la version sélectionnée et que vous faites de cette version la copie de travail actuelle de la rubrique. Vous pouvez également afficher l’historique des fichiers qui ont été restaurés dans le rapport Historique de rétablissement de version . Pour plus d’informations sur ce rapport, voir [Rapport Historique des versions des fichiers restaurés](reports-reverted-file-version-history.md#).
 
-**Rubrique parente :**[ Création et prévisualisation des rubriques](create-preview-topics.md)
+**Rubrique parente :**[ Créer et prévisualiser des rubriques](create-preview-topics.md)

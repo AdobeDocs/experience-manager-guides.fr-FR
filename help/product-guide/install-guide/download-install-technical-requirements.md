@@ -1,6 +1,6 @@
 ---
 title: Exigences techniques
-description: Découvrez les exigences techniques relatives à l’utilisation des guides Adobe Experience Manager
+description: Découvrez les exigences techniques pour travailler avec Adobe Experience Manager Guides
 exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
@@ -22,7 +22,7 @@ Avant d’installer AEM Guides 4.4, assurez-vous que votre système respecte les
 
 >[!IMPORTANT]
 >
-> Pour AEM génération de sortie de site, votre instance de publication AEM doit disposer du Service Pack 20, 19, 18 ou 17 .
+> Pour AEM génération de sortie de site, votre instance de publication AEM doit comporter le Service Pack 20, 19, 18 ou 17 .
 
 **Systèmes d’exploitation**
 
@@ -38,7 +38,7 @@ Avant d’installer AEM Guides 4.4, assurez-vous que votre système respecte les
 - Oracle SE 8 JRE 1.8.x
 
 
-**Navigateur web**
+**Navigateur Web**
 
 - Google Chrome
 
