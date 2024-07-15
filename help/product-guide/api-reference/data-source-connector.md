@@ -25,8 +25,8 @@ Méthode de GET qui enregistre un connecteur de source de données.
 
 **Paramètre** :
 |Nom|Type|Obligatoire|Description|
-|—|—|—|—
-|`path`|String|Yes|Une chaîne qui pointe vers un chemin d’accès dans le référentiel AEM. Il peut s’agir d’un chemin d’accès dans le `/content/dam or /var/dxml`.|
+|----|----|--------|-----------|
+|`path`|String|Yes|A string which points to a path in the AEM repository. It can be a path in the `/content/dam or /var/dxml`.|
 
 **Exemple** :\
 `http://host:4502/bin/guides/v1/konnect/config/register?path=/var/dxml/konnect/jira.json`
