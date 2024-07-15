@@ -27,8 +27,9 @@ com/adobe/fmdita/replication/complete
 ```
 
 **Paramètres** :
+
 |Nom|Type|Description|
-|—|—|—|
+|---|---|---|
 |`path`|Chaîne|Le chemin d’accès du fichier qui a déclenché cet événement. <br> Par exemple, `/content/output/sites/ditamap1-ditamap`. <br> Il s’agit d’une liste de chemins sérialisés en tableau JSON.|
 |`messageType`|Chaîne|Type d’un message. <br>Option possible : `REPLICATION`|
 |`action`|String|Il s’agit de l’action effectuée. <br>Option possible : `BulkReplicate`|
