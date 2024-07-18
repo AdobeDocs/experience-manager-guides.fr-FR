@@ -5,10 +5,10 @@ exl-id: 0e2ba1bb-f5bf-44da-848a-a55385460c83
 feature: Java-Based API Baseline
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 1860525120edc4df33b898841b9073311d3031c5
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -54,14 +54,15 @@ throws GuidesApiException
 ```
 
 **Paramètres** :
-|Nom|Type|Description|
-|—|—|—|
-|`session`|javax.jcr.Session|Une session JCR valide. La session utilisateur doit disposer d’autorisations de lecture et d’écriture pour le mappage DITA et d’autorisations de lecture pour tous les fichiers de référence inclus dans la ligne de base.|
-|`sourcePath`|Chaîne|Chemin absolu du fichier de mappage DITA dans AEM référentiel.|
-|`baselineTitle`|Chaîne|Titre unique de la ligne de base.|
-|`label`|Chaîne|Sélectionnez la version d’une rubrique pour laquelle le libellé donné est appliqué.|
-|`directContext`|LinkedHashMap&lt;String, Object\>|Les configurations sur la base desquelles la rubrique directement référencée \(content\) est sélectionnée, l’ordre mentionné dans la carte est suivi pour résoudre une version. <br> Si, après une itération sur toutes les clés de la carte, aucune version n’est trouvée, le processus de création de ligne de base échoue. <br> Si HashMap est vide \(envoyez une carte vide et non nulle pour la valeur par défaut\), par défaut, elle est renseignée comme suit : <br>`directContext.put("label", label);` <br> `directContext.put("latest", true);` <br> Si vous souhaitez que la création de la ligne de base ne sélectionne que la version d’une étiquette donnée et échoue en l’absence d’une telle version, placez la clé `label` et le libellé sur lequel vous souhaitez créer la ligne de base.|
-|`indirectContext`|LinkedHashMap&lt;String, Object\>|Les configurations sur la base desquelles la rubrique référencée indirectement \(contenu référencé\) est sélectionnée, l’ordre mentionné dans la carte est suivi pour résoudre une version. <br> Si, après une itération sur toutes les clés de la carte, aucune version n’est trouvée, le processus de création de ligne de base échoue. <br> Si HashMap est vide \(envoyez un mappage vide et non nul par défaut\), il est renseigné par défaut comme suit : <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br> Si vous souhaitez qu’il s’agisse de la dernière version au lieu de récupérer automatiquement une version, puis remplacez : <br>`indirectContext.put("pickAutomatically", null);` <br> _avec :_ <br>`indirectContext.put("latest", true)`|
+
+| Nom | Type | Description |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Session JCR valide. La session utilisateur doit disposer d’autorisations de lecture et d’écriture pour le mappage DITA et d’autorisations de lecture pour tous les fichiers de référence inclus dans la ligne de base. |
+| `sourcePath` | Chaîne | Chemin d’accès absolu au fichier de mappage DITA dans AEM référentiel. |
+| `baselineTitle` | Chaîne | Titre unique de la ligne de base. |
+| `label` | Chaîne | Sélectionnez la version d’une rubrique à laquelle est appliqué le libellé donné. |
+| `directContext` | LinkedHashMap&lt;String, Object\> | Les configurations sur la base desquelles la rubrique \(contenu\) directement référencée est sélectionnée, l’ordre mentionné dans la carte est suivi pour résoudre une version. <br> Si, après une itération sur toutes les clés de la carte, aucune version n’est trouvée, le processus de création de ligne de base échoue. <br> Si HashMap est vide \(envoyez une carte vide et non nulle pour la valeur par défaut\), par défaut, elle est renseignée comme suit : <br>`directContext.put("label", label);` <br> `directContext.put("latest", true);` <br> Si vous souhaitez que la création de la ligne de base ne sélectionne que la version d’une étiquette donnée et échoue en l’absence d’une telle version, placez la clé `label` et le libellé sur lequel vous souhaitez créer la ligne de base. |
+| `indirectContext` | LinkedHashMap&lt;String, Object\> | Les configurations sur la base desquelles la rubrique référencée indirectement \(contenu référencé\) est sélectionnée, l’ordre mentionné dans la carte est suivi pour résoudre une version. <br> Si, après une itération sur toutes les clés de la carte, aucune version n’est trouvée, le processus de création de ligne de base échoue. <br> Si HashMap est vide \(envoyez un mappage vide et non nul par défaut\), il est renseigné par défaut comme suit : <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br> Si vous souhaitez qu’il s’agisse de la dernière version au lieu de récupérer automatiquement une version, puis remplacez : <br>`indirectContext.put("pickAutomatically", null);` <br> _avec :_ <br>`indirectContext.put("latest", true)` |
 
 **Renvoie** :
 Nom de la ligne de base, qui est le nom de noeud de la ligne de base dans le référentiel JCR. Le titre de la ligne de base nouvellement créée s’affiche pour l’utilisateur sur la page Ligne de base pour le mappage DITA.
@@ -80,12 +81,13 @@ Date versionDate) throws GuidesApiException
 ```
 
 **Paramètres** :
-|Nom|Type|Description|
-|—|—|—|
-|`session`|javax.jcr.Session|Une session JCR valide. La session utilisateur doit disposer d’autorisations de lecture et d’écriture pour le mappage DITA et d’autorisations de lecture pour tous les fichiers de référence inclus dans la ligne de base.|
-|``sourcePath``|Chaîne|Chemin absolu du fichier de mappage DITA dans AEM référentiel.|
-|`baselineTitle`|Chaîne|Titre unique de la ligne de base.|
-|`versionDate`|Date|La ligne de base est créée à l’aide des versions des rubriques\(directement référencée à partir de la carte DITA\) telles que à cette date. Indiquez la date au format `d-MM-yyyy H:mm`.|
+
+| Nom | Type | Description |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Session JCR valide. La session utilisateur doit disposer d’autorisations de lecture et d’écriture pour le mappage DITA et d’autorisations de lecture pour tous les fichiers de référence inclus dans la ligne de base. |
+| ``sourcePath`` | Chaîne | Chemin d’accès absolu au fichier de mappage DITA dans AEM référentiel. |
+| `baselineTitle` | Chaîne | Titre unique de la ligne de base. |
+| `versionDate` | Date | La ligne de base est créée à l’aide des versions des rubriques\ (directement référencées à partir du mappage DITA\) telles que à cette date. Spécifiez la date au format `d-MM-yyyy H:mm`. |
 
 **Renvoie** :
 Nom de la ligne de base, qui est le nom de noeud de la ligne de base dans le référentiel JCR. Le titre de la ligne de base nouvellement créée s’affiche pour l’utilisateur sur la page Ligne de base pour le mappage DITA.
@@ -108,12 +110,13 @@ public static void applyLabel(Session session,
 ```
 
 **Paramètres** :
-|Nom|Type|Description|
-|—|—|—|
-|`session`|javax.jcr.Session|Une session JCR valide.|
-|`sourcePath`|Chaîne|Chemin absolu du fichier de mappage DITA dans AEM référentiel.|
-|``baselineName``|Chaîne|Nom du noeud de ligne de base sur lequel le libellé doit être appliqué. Pour obtenir le nom du noeud de ligne de base, vous pouvez utiliser la méthode [\#id185NFF0085Z](#id185NFF0085Z) ou vérifier le noeud de lignes de base du mappage DITA dans CRXDE.<br> **Remarque :** Le libellé est appliqué à la version des fichiers directement référencés à partir du fichier map dans la ligne de base.|
-|`label`|Chaîne|Une étiquette appliquée aux fichiers de la ligne de base. Assurez-vous que le libellé ne contient pas les caractères suivants : &amp;sol; &amp;virgua; &amp;deux; &amp;virgule; &amp;loc; &amp;virgule; &amp;joker; &amp;virgule; &amp;virgule; &amp;vert; &amp;virgule; &amp;ast; <br> Si vous souhaitez définir plusieurs libellés, séparez-les par une virgule, par exemple, Libellé2.|
+
+| Nom | Type | Description |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Session JCR valide. |
+| `sourcePath` | Chaîne | Chemin d’accès absolu au fichier de mappage DITA dans AEM référentiel. |
+| ``baselineName`` | Chaîne | Nom du noeud de ligne de base sur lequel le libellé doit être appliqué. Pour obtenir le nom du noeud de ligne de base, vous pouvez utiliser la méthode [\#id185NFF0085Z](#id185NFF0085Z) ou vérifier le noeud de lignes de base du mappage DITA dans CRXDE.<br> **Remarque :** Le libellé est appliqué à la version des fichiers directement référencés à partir du fichier map dans la ligne de base. |
+| `label` | Chaîne | Libellé appliqué aux fichiers de la ligne de base. Assurez-vous que le libellé ne contient pas les caractères suivants : &amp;sol; &amp;virgua; &amp;deux; &amp;virgule; &amp;loc; &amp;virgule; &amp;joker; &amp;virgule; &amp;virgule; &amp;vert; &amp;virgule; &amp;ast; <br> Si vous souhaitez définir plusieurs libellés, séparez-les par une virgule, par exemple, Libellé2. |
 
 **Exception** :
 Lance `RepositoryException`.
@@ -133,12 +136,13 @@ String label) throws GuidesApiException
 ```
 
 **Paramètres** :
-|Nom|Type|Description|
-|—|—|—|
-|`session`|javax.jcr.Session|Une session JCR valide.|
-|`sourcePath`|Chaîne|Chemin absolu du fichier de mappage DITA dans AEM référentiel.|
-|`baselineName`|Chaîne|Nom de la ligne de base à partir de laquelle le libellé doit être supprimé. <br> **Remarque :** Le libellé est supprimé de la version des fichiers qui sont directement référencés à partir du fichier map dans la ligne de base.|
-|`label`|Chaîne|Une étiquette à supprimer des fichiers de la ligne de base. <br> Si vous souhaitez supprimer plusieurs étiquettes, séparez-les par une virgule ; par exemple, Libellé1, Étiquette2.|
+
+| Nom | Type | Description |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Session JCR valide. |
+| `sourcePath` | Chaîne | Chemin d’accès absolu au fichier de mappage DITA dans AEM référentiel. |
+| `baselineName` | Chaîne | Nom de la ligne de base à partir de laquelle le libellé doit être supprimé. <br> **Remarque :** Le libellé est supprimé de la version des fichiers qui sont directement référencés à partir du fichier map dans la ligne de base. |
+| `label` | Chaîne | Libellé à supprimer des fichiers de la ligne de base. <br> Si vous souhaitez supprimer plusieurs étiquettes, séparez-les par une virgule ; par exemple, Libellé1, Libellé2. |
 
 **Renvoie** :
 La carte avec la paire *key:value* de `path:deletedlabels` pour tous les fichiers de la ligne de base.
