@@ -5,10 +5,10 @@ exl-id: f091782e-ab54-4db4-9018-9bcbff9da7b2
 feature: Rest API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: bda1af0da134fce53b4a4118278fa1ef2fe34c69
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -24,13 +24,14 @@ Méthode de GET qui convertit les documents Word au format DITA.
 http://*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/fmdita/conversion
 
 **Paramètres** :
-|Nom|Type|Obligatoire|Description|
-|—|—|—|—
-|``operation``|String|Yes|Nom de l’opération en cours d’appel. La valeur de ce paramètre est ``word2dita``. <br> **Remarque :** La valeur n’est pas sensible à la casse. |
-|`inputFile`|Chaîne|Oui|Chemin absolu des fichiers Word source dans le référentiel AEM.|
-|`destPath`|Chaîne|Oui|Chemin absolu de l’emplacement de destination où les fichiers DITA convertis seront enregistrés.|
-|`createRev`|Booléen|Oui|Indiquez si une révision des fichiers est créée \( `true`\) à la destination spécifiée ou non \( `false`\). Cela n’est pris en compte que lorsque l’emplacement de destination contient une version existante des fichiers convertis.|
-|`style2tagMap`|Chaîne|Oui|Chemin absolu du fichier de mappage de style qui sera utilisé pour la conversion.|
+
+| Nom | Type | Requis | Description |
+|----|----|--------|-----------|
+| ``operation`` | Chaîne | Oui | Nom de l’opération en cours d’appel. La valeur de ce paramètre est ``word2dita``. <br> **Remarque :** La valeur n’est pas sensible à la casse. |
+| `inputFile` | Chaîne | Oui | Chemin d’accès absolu aux fichiers Word source dans AEM référentiel. |
+| `destPath` | Chaîne | Oui | Chemin absolu de l’emplacement de destination où les fichiers DITA convertis seront enregistrés. |
+| `createRev` | Booléen | Oui | Indiquez si une révision des fichiers est créée \( `true`\) à la destination spécifiée ou non \( `false`\). Cela n’est pris en compte que lorsque l’emplacement de destination contient une version existante des fichiers convertis. |
+| `style2tagMap` | Chaîne | Oui | Chemin d’accès absolu au fichier de mappage de style qui sera utilisé pour la conversion. |
 
 **Valeurs de réponse** :
 Renvoie une réponse HTTP 200 \(Succès\).

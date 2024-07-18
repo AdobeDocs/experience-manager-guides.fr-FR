@@ -5,10 +5,10 @@ exl-id: 1f0e023a-422c-47b9-917f-b0d80090471c
 feature: Rest API Conditional Attributes
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6184bb98c9897e980a6fba2f97476570228188af
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -23,12 +23,13 @@ Méthode de POST qui ajoute des attributs conditionnels à un profil donné au n
 **Demander l’URL** :\
 http://*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/fmdita/folderprofiles
 
-**Paramètres** :\
-|Nom|Type|Obligatoire|Description|
-|—|—|—|—
-|`:operation`|String|Yes|Nom de l’opération en cours d’appel. La valeur de ce paramètre est ``ADDATTRIBUTEPROFILES``. <br> **Remarque :** La valeur n’est pas sensible à la casse.|
-|`profilename`|String|Yes|Nom d’affichage du profil au niveau du dossier dans lequel les attributs conditionnels doivent être ajoutés.|
-|`conditionalprofiles`|Tableau JSON|Oui|Un tableau JSON constitué du nom et des valeurs de l’attribut conditionnel. L’exemple de fragment de code suivant montre le tableau JSON avec deux attributs : `platform` et `product` avec plusieurs valeurs qui leur sont affectées.|
+**Paramètres** :
+
+| Nom | Type | Requis | Description |
+|----|----|--------|-----------|
+| `:operation` | Chaîne | Oui | Nom de l’opération en cours d’appel. La valeur de ce paramètre est ``ADDATTRIBUTEPROFILES``. <br> **Remarque :** La valeur n’est pas sensible à la casse. |
+| `profilename` | Chaîne | Oui | Nom d’affichage du profil au niveau du dossier dans lequel les attributs conditionnels doivent être ajoutés. |
+| `conditionalprofiles` | Tableau JSON | Oui | Tableau JSON constitué du nom et des valeurs de l’attribut conditionnel. L’exemple de fragment de code suivant montre le tableau JSON avec deux attributs : `platform` et `product` avec plusieurs valeurs qui leur sont affectées. |
 
 ```JSON
 [  {    name: "platform",    
