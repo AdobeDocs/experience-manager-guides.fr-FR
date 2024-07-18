@@ -1,8 +1,9 @@
 ---
-sidebar_position: 8
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+title: Exemples
+description: Liste d'exemples de personnalisation
+source-git-commit: 7770bc791ae87748cfe191cfaff3f929f77b4533
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -12,33 +13,33 @@ ht-degree: 0%
 
 Dans ce package, nous avons également fourni quelques exemples de personnalisation (disponibles sur `guides_extension/src`) . Vous trouverez ci-dessous une brève description de chacun d&#39;entre eux.
 
-1. [Menu contextuel](./../../src/file_options.ts)
+1. [Menu contextuel](./examples/file_options.ts)
 Dans cet exemple, nous avons personnalisé le menu contextuel `file_options` pour supprimer les options `Delete` et `Edit` et remplacer l’option `Duplicate` par une option `Download`.
 
-2. [Panneau de gauche](../../src/left_panel_container.ts)
+2. [Panneau de gauche](./examples/left_panel_container.ts)
 Dans cet exemple, nous avons personnalisé le `left tab panel` pour qu’il y ait un autre `tab` intitulé &quot;EXTENSION TEST&quot;, et un `tab panel` correspondant qui possède un libellé : `Test Tab Panel`
 
-3. [Panneau de droite](../../src/right_panel_container.ts)
+3. [Panneau de droite](./examples/right_panel_container.ts)
 Dans cet exemple, nous avons personnalisé le `right tab panel` pour qu’il y ait un autre `tab` intitulé &quot;EXTENSION TEST&quot;, et un `tab panel` correspondant qui a une étiquette : `New Tab Panel`
 
-4. [Panneau Référentiel](../../src/repository_panel.ts)
+4. [Panneau Référentiel](./examples/repository_panel.ts)
 
-5. [Barre d’outils](../../src/toolbar.ts)
+5. [Barre d’outils](./examples/toolbar.ts)
 Dans cet exemple, nous avons remplacé les boutons `Insert Element`, `Insert Paragraph`, `Insert Numbered List` et `Insert Bulleted List` par un seul bouton `More Insert Options` contenant tous ces boutons.
 
 [Vérifier les exemples d’applications]
 
-1. [Annotation Toolbox](../../src/review_app_examples/annotation_extension.ts)
+1. [Annotation Toolbox](./examples/review_app_examples/annotation_extension.ts)
 Dans cet exemple, nous avons ajouté un autre bouton à la boîte à outils d’annotation qui ouvre la rubrique de révision actuelle dans AEM.
 
-2. [Commentaire de révision](../../src/review_app_examples/review_comment.ts)
+2. [Commentaire de révision](./examples/review_app_examples/review_comment.ts)
 Dans cet exemple, nous avons ajouté le nom d’utilisateur aux informations sur l’utilisateur (qui comprennent le nom complet et le titre du commentateur), ajouté un identifiant de commentaire unique, une icône mailTo et ajouté des champs de saisie pour mentionner la gravité et la logique des commentaires.
 Nous avons également ajouté un bouton `accept with modification` sur les commentaires du côté XMLEditor qui ouvre une boîte de dialogue.
 
-3. [Réponse du commentaire](../../src/review_app_examples/comment_reply.ts)
+3. [Réponse du commentaire](./examples/review_app_examples/comment_reply.ts)
 Dans cet exemple, nous avons ajouté le nom d’utilisateur aux informations sur l’utilisateur (qui comprennent le nom complet et le titre du commentateur) et ajouté une icône mailTo dans l’en-tête du commentaire.
 
-4. [Panneau de révision intégré](../../src/review_app_examples/inline_review_panel.ts)
+4. [Panneau de révision intégré](./examples/review_app_examples/inline_review_panel.ts)
 Dans ce fichier, nous calculons et affectons l’identifiant de commentaire unique, mentionné dans les exemples `Review Comment` et `Comment Reply` .
    - La méthode `setCommentId` définit l’identifiant de commentaire unique sur chaque commentaire en fonction du nombre de commentaires.
 
@@ -48,9 +49,9 @@ Dans ce fichier, nous calculons et affectons l’identifiant de commentaire uniq
 
    - La fonction `updatedProcessComments` s’exécute pour chaque nouvel événement de commentaire et s’assure que `setCommentId` est appelé si nous obtenons un nouvel événement de commentaire.
 
-5. [Panneau des révisions des rubriques](../../src/review_app_examples/topic_reviews.ts) : ce fichier étend le [panneau de révision en ligne](../../src/review_app_examples/inline_review_panel.ts) de sorte que les personnalisations ajoutées fonctionnent également du côté de l’application de révision.
+5. [Panneau des révisions des rubriques](./examples/review_app_examples/topic_reviews.ts) : ce fichier étend le [panneau de révision en ligne](./examples/review_app_examples/inline_review_panel.ts) de sorte que les personnalisations ajoutées fonctionnent également du côté de l’application de révision.
 
-6. [Boîte de dialogue Accepter avec modification](../../src/review_app_examples/accept_with_modification_dialog.ts)
+6. [Boîte de dialogue Accepter avec modification](./examples/review_app_examples/accept_with_modification_dialog.ts)
 Il s’agit d’un exemple d’ajout de nouveaux widgets à l’application. Ici, nous avons créé une nouvelle boîte de dialogue, qui comporte deux champs de texte de saisie : `Revised Text` et `Adjudicator Comment Rationale`
 
 ![Boîte De Dialogue Accepter Avec Modification](./imgs/accept_with_modification_dialogue.png)

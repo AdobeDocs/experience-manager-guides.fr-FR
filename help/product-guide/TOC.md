@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: 05a21c8b18d5eb79447423d48e1d65b4d6b44242
+source-git-commit: d16d9915b826a754f834ad82f413e860c2da12d2
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1824'
 ht-degree: 7%
 
 ---
@@ -403,7 +403,7 @@ ht-degree: 7%
    - [API Java à utiliser avec les lignes de base et les libellés](./api-reference/create-baseline-label-java.md)
    - [API Java pour travailler avec des profils de dossier](./api-reference/folder-profile-java.md)
    - [API Java pour la création et l’activation de packages](./api-reference/create-activate-package-java.md)
-   - [Gestionnaire d’événements de traitement Post](./api-reference/post-process-event.md)
+   - [Gestionnaire d’événements de post-traitement](./api-reference/post-process-event.md)
    - [Gestionnaire d’événements complete d’activation en bloc](./api-reference/bulk-activation-complete-event.md)
    - [Gestionnaire d’événements de processus de conversion](./api-reference/conversion-complete-event.md)
 - Base de connaissances {#knowledge-base}
@@ -459,9 +459,12 @@ ht-degree: 7%
             - [Personnalisation simple](./guides-ui-extensions/customisations/add-button.md)
             - [Personnalisation des menus contextuels](./guides-ui-extensions/customisations/context-menus.md)
             - [Personnalisation de la barre d’outils et de la barre de rubriques](./guides-ui-extensions/customisations/toolbar-topbar.md)
+            - [Exemples](./guides-ui-extensions/examples.md)
+            - [Jours personnalisables](./guides-ui-extensions/JSONs.md)
             - Révision{#review-app-customisations}
                - [Composants](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [Personnalisation](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
+               - [Boîte de dialogue personnalisée](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
       - Publication {#publishing}
 
          - [Configuration de l’environnement AEM pour la publication avec des PDF natifs](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
@@ -477,7 +480,7 @@ ht-degree: 7%
          - [Configuration d’un DITA-OT personnalisé](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
 
       - Workflows {#workflows}
-         - [Processus de génération de Post](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+         - [Processus de génération de publication](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - Traduction {#translation}
          - [Exclure les paragraphes de la traduction](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
       - Cas d’utilisation {#use-cases}
