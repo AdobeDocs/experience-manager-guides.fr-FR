@@ -1,9 +1,9 @@
 ---
 title: Exemples
 description: Liste d'exemples de personnalisation
-source-git-commit: 7770bc791ae87748cfe191cfaff3f929f77b4533
+source-git-commit: fc0b19ac44ca9cbc1e9c5cf046f9a0a24f2a1794
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,9 @@ Dans ce fichier, nous calculons et affectons l’identifiant de commentaire uniq
 
 6. [Boîte de dialogue Accepter avec modification](./examples/review_app_examples/accept_with_modification_dialog.ts)
 Il s’agit d’un exemple d’ajout de nouveaux widgets à l’application. Ici, nous avons créé une nouvelle boîte de dialogue, qui comporte deux champs de texte de saisie : `Revised Text` et `Adjudicator Comment Rationale`
+
+7. [Enregistrer la révision](./examples/save_revision.ts)
+Voici un exemple de mise à jour d’une boîte de dialogue existante. Nous y ajoutons un bouton pour la publication. Nous autorisons la modification du contenu de la boîte de dialogue. Reportez-vous à son json ici : [`save_revision`](./jsons/dialogs/save_revision.json)
 
 ![Boîte De Dialogue Accepter Avec Modification](./imgs/accept_with_modification_dialogue.png)
 
