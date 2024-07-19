@@ -5,10 +5,10 @@ exl-id: 6277e52d-1b05-4dd7-8d2b-4b94f329e2d7
 feature: Rest API DITA Map
 role: Developer
 level: Experienced
-source-git-commit: d0196ffbe5a779445d627871c2940f7eea40f1ce
+source-git-commit: 65ad1dcd69e120ff96aabdeb3e31baa9669299a8
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -41,19 +41,21 @@ Méthode de POST qui initie une exportation pour un mappage DITA avec toutes ses
 http:*//&lt;aem-guides-server\>: &lt;port-number\>/bin/dxml/async-export*
 
 **Paramètres** :
-|Nom|Type|Obligatoire|Description|
-|—|—|—|—
-|`ditamap`|Chaîne|Oui|Chemin absolu du fichier de mappage DITA dans le référentiel AEM.|
-|`baseline`|Chaîne|Non|Titre de la ligne de base utilisée pour récupérer le contenu versionné. <br> **Remarque :** La valeur est sensible à la casse.|
-|`flatFS`|Booléen|Non|\(Facultatif\) Si cette valeur est définie sur true, une structure plate des fichiers est renvoyée dans le fichier ZIP. Par exemple, si votre mappage DITA fait référence au contenu de plusieurs dossiers, tous les fichiers référencés sont extraits dans un seul dossier. S’il existe des fichiers portant le même nom, ces fichiers sont renommés en ajoutant un suffixe numérique. Toutes les références \(dans le mappage DITA et les rubriques\) sont gérées automatiquement, car elles sont mises à jour en fonction du nouvel emplacement des fichiers dans la structure de dossiers plate. S’il est défini sur false, la structure de dossiers est conservée telle quelle dans le fichier ZIP. Si le mappage DITA fait référence à des fichiers provenant de plusieurs emplacements, tous ces emplacements sont également créés dans le fichier ZIP. Lorsque vous restaurez le fichier ZIP, la structure exacte des dossiers est créée à l’emplacement de destination. <br> La valeur par défaut de ce paramètre est false.|
+
+| Nom | Type | Requis | Description |
+|----|----|--------|-----------|
+| `ditamap` | Chaîne | Oui | Chemin d’accès absolu au fichier de mappage DITA dans AEM référentiel. |
+| `baseline` | Chaîne | Non | Titre de la ligne de base utilisée pour récupérer le contenu versionné. <br> **Remarque :** La valeur est sensible à la casse. |
+| `flatFS` | Booléen | Non | \(Facultatif\) Si la valeur est définie sur true, une structure plate des fichiers est renvoyée dans le fichier ZIP. Par exemple, si votre mappage DITA fait référence au contenu de plusieurs dossiers, tous les fichiers référencés sont extraits dans un seul dossier. S’il existe des fichiers portant le même nom, ces fichiers sont renommés en ajoutant un suffixe numérique. Toutes les références \(dans le mappage DITA et les rubriques\) sont gérées automatiquement, car elles sont mises à jour en fonction du nouvel emplacement des fichiers dans la structure de dossiers plate. S’il est défini sur false, la structure de dossiers est conservée telle quelle dans le fichier ZIP. Si le mappage DITA fait référence à des fichiers provenant de plusieurs emplacements, tous ces emplacements sont également créés dans le fichier ZIP. Lorsque vous restaurez le fichier ZIP, la structure exacte des dossiers est créée à l’emplacement de destination. <br> La valeur par défaut de ce paramètre est false. |
 
 **Valeurs de réponse** :
-|Elément|Description|
-|—|—|
-|`status`|L’état de retour de l’opération effectuée. Les options possibles sont : DÉMARRÉ, ÉCHEC, INPROGRESSION, SUCCÈS, MANQUANT, SUPPRIMÉ|
-|`jobId`|L’identifiant unique de la tâche. Peut être utilisé ultérieurement pour interroger l’état.|
-|errorMessage|Message d’erreur de la tâche en cas d’échec \(si l’état est EN ÉCHEC, MANQUANT ou SUPPRIMÉ\).|
-|`filePath`|Le chemin d’accès au fichier du fichier ZIP. Il est présent uniquement lorsque la tâche est terminée et que l’état est SUCCEED. Vous pouvez l’utiliser pour télécharger le fichier ZIP.|
+
+| Elément | Description |
+|-------|-----------|
+| `status` | État de retour de l’opération effectuée. Les options possibles sont : DÉMARRER, ÉCHEC, INPROGRESSER, SUCCÈS, MANQUANT, SUPPRIMÉ. |
+| `jobId` | Identifiant unique de la tâche. Peut être utilisé ultérieurement pour interroger l’état. |
+| errorMessage | Message d’erreur de la tâche en cas d’échec \(si l’état est EN ÉCHEC, MANQUANT ou SUPPRIMÉ\). |
+| `filePath` | Chemin d’accès au fichier du fichier ZIP. Il est présent uniquement lorsque la tâche est terminée et que l’état est SUCCEED. Vous pouvez l’utiliser pour télécharger le fichier ZIP. |
 
 ## Statut du mappage DITA d’export de requête
 
@@ -63,14 +65,16 @@ Méthode de GET qui récupère l’état de l’exportation pour un mappage DITA
 http:*//&lt;aem-guides-server\>: &lt;port-number\>/bin/dxml/async-export*
 
 **Paramètres**
-|Nom|Type|Obligatoire|Description|
-|—|—|—|—
-|`jobId`|Chaîne|Oui|L’ID de tâche récupéré lorsque la tâche d’exportation est lancée.|
+
+| Nom | Type | Requis | Description |
+|----|----|--------|-----------|
+| `jobId` | Chaîne | Oui | Identifiant de tâche récupéré lors du lancement de la tâche d’exportation. |
 
 **Valeurs de réponse** :
-|Elément|Description|
-|—|—|
-|`status`|État de la tâche d’exportation. Les options possibles sont : DÉMARRÉ, ÉCHEC, INPROGRESSION, SUCCÈS, MANQUANT, SUPPRIMÉ|
-|`jobId`|L’identifiant unique de la tâche. Peut être utilisé ultérieurement pour interroger l’état.|
-|`errorMessage`|Message d’erreur de la tâche en cas d’échec \(si l’état est ÉCHEC, MANQUANT ou SUPPRIMÉ\).|
-|`filePath`|Le chemin d’accès au fichier du fichier ZIP. Il est présent uniquement lorsque la tâche est terminée et que l’état est SUCCEED. Vous pouvez l’utiliser pour télécharger le fichier ZIP.|
+
+| Elément | Description |
+|-------|-----------|
+| `status` | État de la tâche d’exportation. Les options possibles sont : DÉMARRER, ÉCHEC, INPROGRESSER, SUCCÈS, MANQUANT, SUPPRIMÉ. |
+| `jobId` | Identifiant unique de la tâche. Peut être utilisé ultérieurement pour interroger l’état. |
+| `errorMessage` | Message d’erreur de la tâche en cas d’échec \(si l’état est EN ÉCHEC, MANQUANT ou SUPPRIMÉ\). |
+| `filePath` | Chemin d’accès au fichier du fichier ZIP. Il est présent uniquement lorsque la tâche est terminée et que l’état est SUCCEED. Vous pouvez l’utiliser pour télécharger le fichier ZIP. |
