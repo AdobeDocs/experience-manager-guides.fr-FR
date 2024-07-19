@@ -5,10 +5,10 @@ exl-id: f091782e-ab54-4db4-9018-9bcbff9da7b2
 feature: Rest API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: add4730e396fe7384a20fb2c6c04730c20a83e71
+source-git-commit: e979823b7947b561165fde92023ae9c440182e94
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -63,12 +63,13 @@ Méthode de GET qui convertit les documents InDesigns au format DITA.
 http://*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/fmdita/conversion
 
 **Paramètres** :
-|Nom|Type|Obligatoire|Description|
-|—|—|—|—
-|``operation``|String|Yes|Nom de l’opération en cours d’appel. La valeur de ce paramètre est ``idml2dita``. <br> **Remarque :** La valeur n’est pas sensible à la casse.|
-|`inputFile`|Chaîne|Oui|Chemin absolu des fichiers d’InDesign source dans le référentiel AEM.|
-|`destPath`|Chaîne|Oui|Chemin absolu de l’emplacement de destination où les fichiers DITA convertis seront enregistrés.|
-|`createRev`|Booléen|Oui|Indiquez si une révision des fichiers est créée \( `true`\) à la destination spécifiée ou non \( `false`\). Ceci est pris en compte uniquement lorsque l’emplacement de destination contient une version existante des fichiers convertis.|
+
+| Nom | Type | Requis | Description |
+|----|----|--------|-----------|
+| ``operation`` | Chaîne | Oui | Nom de l’opération en cours d’appel. La valeur de ce paramètre est ``idml2dita``. <br> **Remarque :** La valeur n’est pas sensible à la casse. |
+| `inputFile` | Chaîne | Oui | Chemin d’accès absolu aux fichiers d’InDesign source dans le référentiel AEM. |
+| `destPath` | Chaîne | Oui | Chemin absolu de l’emplacement de destination où les fichiers DITA convertis seront enregistrés. |
+| `createRev` | Booléen | Oui | Indiquez si une révision des fichiers est créée \( `true`\) à la destination spécifiée ou non \( `false`\). Cela n’est pris en compte que lorsque l’emplacement de destination contient une version existante des fichiers convertis. |
 
 **Valeurs de réponse** :
 Renvoie une réponse HTTP 200 \(Succès\).
