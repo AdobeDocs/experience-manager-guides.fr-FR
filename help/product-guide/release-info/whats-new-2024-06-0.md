@@ -2,7 +2,7 @@
 title: Notes de mise à jour | Nouveautés de la version 2024.06.0 d’Adobe Experience Manager Guides
 description: Découvrez les nouvelles fonctionnalités et les fonctionnalités améliorées de la version 2024.06.0 d’Adobe Experience Manager Guides as a Cloud Service.
 exl-id: c885b8ba-5230-4d51-8f38-311b3a33fe0a
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+source-git-commit: 2455307ef747b2f2574666ee773d931b302f58ca
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 2%
@@ -36,7 +36,6 @@ Pour plus d’informations, voir [Fragments d’expérience Publish](../user-gui
 Experience Manager Guides fournit également quelques améliorations utiles dans les fragments de contenu :
 
 - Vous pouvez facilement filtrer le contenu avec des conditions lors de la publication sur un fragment de contenu, à l’aide d’un fichier DITAVAL ou d’attributs conditionnels.
-
 - Vous pouvez également publier et afficher les fragments de contenu d’une rubrique à partir de la section **Sorties** dans les **Propriétés du fichier**.
 
 ![ Onglet Options des propriétés de fichier ](./assets/file-properties-outputs-tab.png){width="300" align="left"}

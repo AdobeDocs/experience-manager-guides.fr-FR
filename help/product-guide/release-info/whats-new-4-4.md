@@ -3,9 +3,9 @@ title: Notes de mise à jour | Nouveautés de la version 4.4.0 d’Adobe Experie
 description: Découvrez les nouvelles fonctionnalités et les fonctionnalités améliorées de la version 4.4.0 d’Adobe Experience Manager Guides
 role: Leader
 exl-id: 63a2e93b-b4cf-4423-88e4-b01c6a52a532
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2308'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,7 @@ Experience Manager Guides propose désormais une fonctionnalité d’historique 
 ![Boîte de dialogue Historique de version](assets/version-history-dialog-web-editor.png){width="800" align="left"}
 *Prévisualisez les modifications dans les différentes versions d’une rubrique.*
 
-
-Pour en savoir plus sur la description de la fonctionnalité **Version History** dans la section [Panneau de gauche](../user-guide/web-editor-features.md#id2051EA0M0HS) .
+Pour en savoir plus sur la description de la fonctionnalité **Historique de version** dans la section [Panneau de gauche (hérité)](/help/legacy-product-guide/user-guide/web-editor-features.md#id2051EA0M0HS) .
 
 ## Gestion des paramètres de condition prédéfinis
 

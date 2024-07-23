@@ -4,7 +4,7 @@ description: Dernière version d’Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
 workflow-type: tm+mt
 source-wordcount: '3644'
 ht-degree: 1%
@@ -18,6 +18,7 @@ Les notes de mise à jour suivantes portent sur les instructions de mise à nive
 ## Mise à niveau vers la dernière version
 
 Vous pouvez facilement mettre à niveau votre version actuelle d’AEM Guides vers la version 4.1.3. Avant de procéder à la mise à niveau vers la version 4.1.3 d’AEM Guides, vous devez tenir compte des points suivants :
+
 * Si vous utilisez la version 4.1 ou 4.1.x, vous pouvez directement effectuer la mise à niveau vers la version 4.1.3.
 * Si vous utilisez la version 4.0.x, vous devez effectuer la mise à niveau vers la version 4.1 ou 4.1.x avant de passer à la version 4.1.3.
 * Si vous utilisez la version 3.8.5, vous devez effectuer la mise à niveau vers la version 4.0.x avant de passer à la version 4.1.
@@ -360,7 +361,7 @@ Les bogues résolus dans différentes zones sont répertoriés ci-dessous :
 * La description de la tâche de révision n’apparaît pas dans la notification électronique envoyée lorsqu’une nouvelle tâche de révision est affectée. (8507)
 * API de mappage de téléchargement | Les dossiers temporaires ne sont pas nettoyés en cas d’erreur du processus de téléchargement. (8523)
 * `columnpreview.jsp` dépend de SP.  (8543)
-* Les tâches de sortie avec le statut &quot;En attente&quot; ou &quot;En cours&quot; ne sont pas nettoyées dans le tableau de bord Publish.  (8569)
+* Les tâches de sortie avec le statut &quot;En attente&quot; ou &quot;En cours d’exécution&quot; ne sont pas nettoyées dans le tableau de bord Publish.  (8569)
 * Icône par défaut sélectionnée lors de la génération d’un rapport à l’aide du bouton Générer , même lorsque la propriété de l’icône est définie. (8573)
 * Des problèmes se produisent lors du processus de révision lors de la mise à niveau de la version 3.8.X vers la version 4.0. (8788)
 * Dans le panneau Révision de l’éditeur web, si un nom d’utilisateur est long, les icônes à accepter/rejeter ne s’affichent pas clairement. (8793)
