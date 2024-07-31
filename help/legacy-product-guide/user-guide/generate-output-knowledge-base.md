@@ -3,7 +3,8 @@ title: Base de connaissances
 description: Découvrez comment créer un paramètre prédéfini de la base de connaissances à partir de l’éditeur web et du tableau de bord de mappage. Configurez le paramètre prédéfini de sortie de la base de connaissances dans AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+exl-id: 5fc81de9-9ae0-4cd4-a7ef-b52eed2479f7
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 1%
@@ -51,12 +52,13 @@ Dans l&#39;éditeur Web, les configurations suivantes ont été organisées sous
 | Catégories | Sélectionnez une catégorie dans la liste déroulante pour publier les rubriques de la table des matières de cette catégorie sur le site Salesforce. |
 
 Vous pouvez également afficher les options suivantes dans les paramètres prédéfinis Salesforce et ServiceNow :
+
 | Options | Description |
-| — | — |
-|Supprimez l’en-tête de rubrique du corps de l’article.|Sélectionnez cette option pour supprimer l’en-tête de rubrique de l’article dans la sortie publiée. |
-|Télécharger en tant que brouillon | Sélectionnez cette option pour charger la rubrique à partager en tant que brouillon avant de la mettre à la disposition des utilisateurs.|
-|Télécharger les images| Sélectionnez cette option si vous souhaitez que les images des rubriques soient incluses dans la sortie publiée.|
-|Télécharger les documents liés| Sélectionnez cette option pour inclure les documents liés dans les rubriques de la sortie publiée.|
+| --- | --- |
+| Supprimez l’en-tête de rubrique du corps de l’article. | Sélectionnez cette option pour supprimer l’en-tête de rubrique de l’article dans la sortie publiée. |
+| Télécharger en tant que brouillon | Sélectionnez cette option pour charger la rubrique à partager en tant que brouillon avant de la mettre à la disposition des utilisateurs. |
+| Chargement d’images | Sélectionnez cette option si vous souhaitez que les images des rubriques soient incluses dans la sortie publiée. |
+| Chargement des documents liés | Sélectionnez cette option pour inclure les documents liés dans les rubriques de la sortie publiée. |
 
 
 ### Adobe Experience Manager
@@ -73,6 +75,7 @@ Vous pouvez également afficher les options suivantes dans les paramètres préd
 | Catégorie | Sélectionnez une catégorie dans la liste déroulante pour publier les rubriques de la table des matières dans cette catégorie sur le site Adobe Experience Manager. |
 | Modèle de section et modèle d’article | Il s’agit des composants structurels utilisés pour organiser le contenu de votre sortie. Elles sont prédéfinies dans le modèle Site Adobe Experience Manager . |
 | Processus de génération de publication | Lorsque vous sélectionnez cette option, une nouvelle liste déroulante Processus de génération de publication contenant tous les workflows configurés dans Adobe Experience Manager s’affiche. Vous devez sélectionner un workflow à exécuter une fois le workflow de génération de sortie terminé.<br>Découvrez comment [personnaliser le workflow de génération post-sortie](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4) dans le Guide d’installation et de configuration. |
+
 >[!TIP]
 > 
 >Sélectionnez **Actualiser** ![ icône d’actualisation](images/navtitle-refresh-icon.svg) pour renseigner les modèles respectifs dans les champs conformément au modèle de la base de connaissances que vous avez sélectionné.

@@ -5,10 +5,10 @@ exl-id: 388ae654-c4f9-4bb7-ba98-370b8919e3a6
 feature: Java-Based API Folder Profiles
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -54,13 +54,14 @@ Session session) throws GuidesApiException
 ```
 
 **Paramètres** :
-|Nom|Type|Description|
-|—|—|—|
-|``attributeNames``|Chaîne|Une liste de noms d’attributs.|
-|``values``|Chaîne|Une liste de valeurs pour les attributs donnés.|
-|`labels`|Chaîne|Une liste d’étiquettes pour les paires `attribute`- `value`. [1](#fntarg_1)|
-|`profileName`|Chaîne|Nom du profil au niveau du dossier auquel ces attributs, valeurs et libellés doivent être appliqués. **Important :** Tous les attributs-valeurs-libellés existants définis dans le profil sont écrasés.|
-|`session`|javax.jcr.Session|Une session JCR valide.|
+
+| Nom | Type | Description |
+|----|----|-----------|
+| ``attributeNames`` | Chaîne | Liste de noms d’attributs. |
+| ``values`` | Chaîne | Liste de valeurs pour les attributs donnés. |
+| `labels` | Chaîne | Liste des libellés pour les paires `attribute`- `value`. [1](#fntarg_1) |
+| `profileName` | Chaîne | Nom du profil au niveau du dossier auquel ces attributs, valeurs et libellés doivent être appliqués. **Important :** Tous les attributs-valeurs-libellés existants définis dans le profil sont écrasés. |
+| `session` | javax.jcr.Session | Session JCR valide. |
 
 **Renvoie** :
 `true` pour succès. En cas d’échec, il renvoie une exception.
