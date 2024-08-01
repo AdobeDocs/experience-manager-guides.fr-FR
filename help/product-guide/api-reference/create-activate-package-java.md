@@ -5,10 +5,10 @@ exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
 feature: Java-Based API Packages
 role: Developer
 level: Experienced
-source-git-commit: 4ce78061ddb193d3c16241ff32fa87060c9c7bd6
+source-git-commit: 1bb422427822e7f369e0c1be7de6b12ec012075e
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -71,12 +71,13 @@ throws GuidesApiException
 ```
 
 **Paramètres** :
-|Nom|Type|Description|
-|—|—|—|
-|`json`|Chaîne|JSON qui détermine le package CRX à créer. Utilisez le format suivant pour créer la chaîne JSON : <br>- `activate` : est de type booléen \(`true`/`false`\). Détermine si le package CRX créé dans l’instance d’auteur est répliqué vers l’instance de publication. <br> - `rules` : est de type JSON Array. Tableau de règles JSON, qui sont traitées de manière séquentielle pour créer le module CRX. <br> - `rootPath` : est de type Chaîne. Chemin d’accès de base sur lequel les requêtes de noeud/propriété sont exécutées. Si aucune requête de noeud/propriété n’est présente, le chemin d’accès racine et tous les noeuds présents sous le chemin d’accès racine sont inclus dans le package CRX. <br> - `nodeQueries` : est de type Regex Array. Tableau d’expressions régulières utilisées pour inclure des fichiers spécifiques sous le chemin racine. <br> - `propertyQueries` : est de type JSON Array. Tableau d’objets JSON comportant chaque objet JSON constitué d’une requête XPath à exécuter sur le chemin racine et le nom d’une propriété présente dans chaque noeud JCR après l’exécution de la requête. La valeur de la propriété dans chaque noeud JCR doit être un chemin d’accès ou un tableau de chemins d’accès. Les chemins d’accès présents dans cette propriété sont ajoutés au package CRX.|
-|`outputstream`|java.io.OutputStream|Il est utilisé pour écrire le résultat de diverses étapes, telles que l’exécution de requêtes, l’inclusion de fichiers, la création de packages CRX ou l’activation. Toute erreur rencontrée lors de la création ou du processus d&#39;activation est écrite dans le `outputstream`. Cela s’avère utile pour le débogage.|
-|`session`|String|Une session JCR valide avec autorisation d’activation.|
-|`activationTarget`|Chaîne|(*Facultatif*) `preview` ou `publish` pour Cloud Service et `publish` pour le logiciel On-premise <br> - Pour Cloud Service, si le paramètre contient une valeur non valide, l’activation du module échoue. <br> - Pour le logiciel On-Premise, si le paramètre contient une valeur non valide, l’erreur est consignée et la publication est effectuée à l’aide de la valeur par défaut, `publish`. |
+
+| Nom | Type | Description |
+|----|----|-----------|
+| `json` | Chaîne | Chaîne JSON qui détermine le package CRX à créer. Utilisez le format suivant pour créer la chaîne JSON : <br>- `activate` : est de type booléen \(`true`/`false`\). Détermine si le package CRX créé dans l’instance d’auteur est répliqué vers l’instance de publication. <br> - `rules` : est de type JSON Array. Tableau de règles JSON, qui sont traitées de manière séquentielle pour créer le module CRX. <br> - `rootPath` : est de type Chaîne. Chemin d’accès de base sur lequel les requêtes de noeud/propriété sont exécutées. Si aucune requête de noeud/propriété n’est présente, le chemin d’accès racine et tous les noeuds présents sous le chemin d’accès racine sont inclus dans le package CRX. <br> - `nodeQueries` : est de type Regex Array. Tableau d’expressions régulières utilisées pour inclure des fichiers spécifiques sous le chemin racine. <br> - `propertyQueries` : est de type JSON Array. Tableau d’objets JSON comportant chaque objet JSON constitué d’une requête XPath à exécuter sur le chemin racine et le nom d’une propriété présente dans chaque noeud JCR après l’exécution de la requête. La valeur de la propriété dans chaque noeud JCR doit être un chemin d’accès ou un tableau de chemins d’accès. Les chemins d’accès présents dans cette propriété sont ajoutés au package CRX. |
+| `outputstream` | java.io.OutputStream | Il est utilisé pour écrire le résultat de différentes étapes, telles que l’exécution de requêtes, l’inclusion de fichiers, la création de packages CRX ou l’activation. Toute erreur rencontrée lors de la création ou du processus d&#39;activation est écrite dans le `outputstream`. Cela s’avère utile pour le débogage. |
+| `session` | Chaîne | Session JCR valide avec autorisation d’activation. |
+| `activationTarget` | Chaîne | (*Facultatif*) `preview` ou `publish` pour Cloud Service et `publish` pour le logiciel On-premise <br> - Pour Cloud Service, si le paramètre contient une valeur non valide, l’activation du module échoue. <br> - Pour le logiciel On-Premise, si le paramètre contient une valeur non valide, l’erreur est consignée et la publication est effectuée à l’aide de la valeur par défaut, `publish`. |
 
 **Exception** :
 
