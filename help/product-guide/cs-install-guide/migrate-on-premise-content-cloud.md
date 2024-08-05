@@ -4,7 +4,7 @@ description: Découvrez comment migrer le contenu du logiciel On-premise vers le
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0c29d3cffa9f9a741ba5f7bd6150d234fbe8341e
+source-git-commit: af7b3595c10793a8faf72310083547f90b6568f0
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 5%
@@ -74,8 +74,7 @@ Effectuez les étapes suivantes pour migrer votre contenu Experience Manager Gui
 1. Après la création, sélectionnez les trois points et sélectionnez **Copier la clé d’extraction**.
 
 
-1. Cliquez sur **Copier dans le Presse-papiers**.
-Créez votre premier projet.
+1. Cliquez sur **Copier dans le Presse-papiers**. Créez votre premier projet.
    ![clé d&#39;extraction](./assets/migration-copy-to-clipboard.png)
 
 1. Sélectionnez **Adobe Experience Manager** dans la partie supérieure, puis sélectionnez la mosaïque **Distribution logicielle**.
@@ -125,17 +124,14 @@ ou
 1. Sélectionnez le **jeu de migration**, puis **Extract** en haut.
    ![extraction de jeu de migration ](./assets/migration-extract.png)
 
-1. Vérifiez les détails dans la fenêtre contextuelle **Migration Set Extraction** pour les chemins et les configurations que vous avez sélectionnés, puis cliquez sur **Extract**.
-L’extraction prendra des minutes et vous verrez l’état tel que mis à jour.
+1. Vérifiez les détails dans la fenêtre contextuelle **Migration Set Extraction** pour les chemins et les configurations que vous avez sélectionnés, puis cliquez sur **Extract**. L’extraction prendra des minutes et vous verrez l’état tel que mis à jour.
    ![Extraction du jeu de migration](./assets/migration-set-extraction.png)
 
 1. Une fois l’extraction terminée et indiquée par l’état `finished`, accédez à Cloud Acceleration Manager et sélectionnez le projet que vous avez créé à l’étape 18.
 Pour plus d’informations, sélectionnez les trois points, puis **Afficher les détails**.
 
 
-1. Dans la fenêtre contextuelle Détails du jeu de migration , vérifiez la configuration du jeu de migration et fermez la fenêtre contextuelle.
-
-   Vous pouvez afficher les chemins et les autres paramètres, comme illustré dans la capture d’écran suivante :
+1. Dans la fenêtre contextuelle Détails du jeu de migration , vérifiez la configuration du jeu de migration et fermez la fenêtre contextuelle. Vous pouvez afficher les chemins et les autres paramètres, comme illustré dans la capture d’écran suivante :
    ![migration-details](./assets/migration-details.png)
 
 
@@ -146,8 +142,6 @@ Pour plus d’informations, sélectionnez les trois points, puis **Afficher les 
 1. Sélectionnez le jeu de migration, sélectionnez le serveur requis de votre environnement, puis cliquez sur **Ingest**.
 
    ![nouvelle ingestion](./assets/migration-new-ingestion.png)
-
-
 
 ## Exécution de l’outil de transfert de contenu sur une instance Publish
 
