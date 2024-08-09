@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: f2c99e59e7352279135169796221faba74fe45c7
+source-git-commit: 3c861e42bb01255f19cb2c901a3bca94d7949b76
 workflow-type: tm+mt
-source-wordcount: '1836'
+source-wordcount: '1842'
 ht-degree: 7%
 
 ---
@@ -423,7 +423,8 @@ ht-degree: 7%
       - [Intégration de source de données externe](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
       - [Traduire le contenu dans les guides - partie 2](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
       - [Définition, gestion et utilisation des métadonnées](./knowledge-base/expert-sessions/metadata-define-manage-utilize-may2024.md)
-      - [Variations de sortie du site AEM](./knowledge-base/expert-sessions/aem-site-output-variations-jun2024.md)
+      - [Variations de sortie AEM Sites](./knowledge-base/expert-sessions/aem-site-output-variations-jun2024.md)
+      - [Options de déploiement et migration vers Cloud](./knowledge-base/expert-sessions/migration-uuid-onprem-to-cloud.md)
    - Articles {#kb-articles}
 
       - Création {#authoring}
