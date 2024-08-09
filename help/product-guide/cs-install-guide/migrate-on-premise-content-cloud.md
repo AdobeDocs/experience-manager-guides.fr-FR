@@ -4,7 +4,7 @@ description: Découvrez comment migrer le contenu du logiciel On-premise vers le
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: f1c21c6a2683c99d2fcf91b6e5bd4626b3de653b
+source-git-commit: 645d9983b66c740444f24e2283806b5ec4a4ee79
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 4%
@@ -21,7 +21,7 @@ Cet article fournit un processus détaillé et détaillé pour la migration de v
 ## Prérequis
 
 * Adobe Experience Manager 6.4 ou versions ultérieures
-* Experience Manager Guides doit se trouver sur la version UID. Si vous utilisez une version non UUID d’Adobe Experience Manager Guides, migrez d’abord vers UUID en suivant les étapes de la section [Migration du contenu non DITA](./migrate-content-non-dita.md).
+* Experience Manager Guides doit se trouver sur la version UID. Si vous utilisez une version non UUID d’Adobe Experience Manager Guides, migrez d’abord vers UUID en suivant les étapes de la section [Migration du contenu non DITA](../install-guide/migrate-uuid-non-uuid.md).
 * Accès à **Cloud Acceleration Manager** pour l’instance cloud sur laquelle vous souhaitez migrer le contenu.
 * La taille de référentiel de 20 To maximum est prise en charge
 * Taille totale de l’index Lucene de 25 Go
