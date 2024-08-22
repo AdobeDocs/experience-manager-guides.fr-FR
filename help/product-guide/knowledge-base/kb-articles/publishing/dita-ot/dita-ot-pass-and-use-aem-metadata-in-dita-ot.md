@@ -1,9 +1,7 @@
 ---
 title: Propagation des métadonnées AEM Assets vers la sortie générée par le module externe DITA-OT
 description: Configuration du module externe et du contenu DITA-OT dans AEM pour pousser les métadonnées vers la sortie générée
-role: Developer
-feature: DITA-OT publishing
-source-git-commit: ed35fa94d9c3cec70a4959d7efe69678b066a2e0
+source-git-commit: 5a427e14f13ba6e7344f48a9edb3f153a4958ba2
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 0%

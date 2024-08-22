@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: 3c861e42bb01255f19cb2c901a3bca94d7949b76
+source-git-commit: 135f78ae723f3d77a3e7448f5af79b2261b89b1e
 workflow-type: tm+mt
-source-wordcount: '1842'
+source-wordcount: '1848'
 ht-degree: 7%
 
 ---
@@ -84,14 +84,14 @@ ht-degree: 7%
                - [4.3.1 Nouveautés](./release-info/whats-new-4-3-1-release.md)
                - [4.3.0 Nouveautés](./release-info/whats-new-4-3-release.md)
             - Notes de mise à jour {#43-release-notes}
-               - [Notes de mise à jour 4.3.1](./release-info/release-notes-4-3-1.md)
-               - [Notes de mise à jour 4.3.0](./release-info/release-notes-4-3.md)
+               - [Notes de mise à jour de la version 4.3.1](./release-info/release-notes-4-3-1.md)
+               - [Notes de mise à jour de la version 4.3.0](./release-info/release-notes-4-3.md)
          - Version 4.2 {#42-release}
             - Nouveautés {#42-whats-new}
                - [4.2.1 Nouveautés](./release-info/whats-new-4-2-1-release.md)
                - [4.2 Nouveautés](./release-info/whats-new-4-2-release.md)
             - Notes de mise à jour {#42-release-notes}
-               - [Notes de mise à jour 4.2.1](./release-info/release-notes-4-2-1.md)
+               - [Notes de mise à jour de la version 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notes de mise à jour 4.2](./release-info/release-notes-4-2.md)
          - [Notes de mise à jour 4.1.x](./release-info/release-notes-4-1.md)
          - [Notes de mise à jour 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
@@ -469,16 +469,14 @@ ht-degree: 7%
                - [Personnalisation](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
                - [Boîte de dialogue personnalisée](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
       - Publication {#publishing}
-
+         - DITA-OT {#dita-ot}
+            - [Utilisation des métadonnées AEM dans le module externe](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
          - [Configuration de l’environnement AEM pour la publication avec des PDF natifs](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-
          - [Générer la table des matières du plan de bookmap dans la publication du PDF natif](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
-
          - [FMPS et guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [Architecture et performances des microservices](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [Configuration de la publication sur microservice avec authentification JWT](./knowledge-base/publishing/configure-microservices.md)
          - [Configuration de la publication sur microservice avec authentification OAuth](./knowledge-base/publishing/configure-microservices-imt-config.md)
-
          - [Publication de références sur AEM cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
          - [Configuration d’un DITA-OT personnalisé](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
 
