@@ -1,7 +1,7 @@
 ---
 title: Propagation des métadonnées AEM Assets vers la sortie générée par le module externe DITA-OT
 description: Configuration du module externe et du contenu DITA-OT dans AEM pour pousser les métadonnées vers la sortie générée
-source-git-commit: 5a427e14f13ba6e7344f48a9edb3f153a4958ba2
+source-git-commit: d1694535e27b0b605111f71f1f11c47ddb30536e
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Dans cet article, nous expliquerons comment mettre en oeuvre les modifications a
 ## Contexte
 
 Avec AEM Guides, vous pouvez utiliser des modules externes DITA-OT pour publier dans les formats de sortie de votre choix à l’aide des modules externes configurés, et
-vous pouvez également transmettre des métadonnées des ressources gérées dans AEM DAM au processus DITA-OT pour les utiliser dans la sortie générée. consultez la documentation sur [la configuration de ditamap/rubriques pour transmettre des métadonnées par le biais de paramètres prédéfinis de sortie](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
+vous pouvez également transmettre des métadonnées des ressources gérées dans AEM DAM au processus DITA-OT pour les utiliser dans la sortie générée. consultez la documentation sur [la configuration de ditamap/rubriques pour transmettre des métadonnées par le biais du paramètre prédéfini de sortie](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
 
 
 ## Hypothèses
