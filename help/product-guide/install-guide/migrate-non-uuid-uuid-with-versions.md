@@ -5,14 +5,19 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 8f3a89fc-7d18-453d-909d-6dff5e275cab
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: b0c7b944b66c4a4167beece4f827f3d5789531b5
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '788'
 ht-degree: 1%
 
 ---
 
 # Migration de contenu versionné
+
+>[!NOTE]
+>
+> Vous pouvez migrer votre contenu non UUID vers le contenu UID dans Experience Manager Guides. Cet article sera archivé en novembre 2024.
+>Affichez la [**migration de contenu non UUID vers UUID**](./migrate-non-uuid-uuid-new.md) pour obtenir la documentation la plus récente et détaillée.
 
 Effectuez les étapes suivantes pour migrer votre contenu versionné non UUID vers le contenu UID.
 
@@ -87,7 +92,7 @@ Effectuez les vérifications suivantes sur la version non UUID (4.1 non UUID ou 
 
 1. Assurez-vous que l’espace disponible est au moins dix fois supérieur à l’espace utilisé par AEM (répertoire crx-quickstart) pendant la migration. Une fois la migration terminée, vous pouvez récupérer la plus grande partie de l’espace disque en exécutant la compression (voir [Nettoyage des révisions](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=fr)).
 
-1. Activez *Activer les lanceurs de processus de traitement Post* dans `com.adobe.fmdita.config.ConfigManager` et *Activer le posttraitement de version* dans `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
+1. Activez *Activer les lanceurs de workflow de post-traitement* dans `com.adobe.fmdita.config.ConfigManager` et *Activer le post-traitement de version* dans `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
 
 1. Installez la version UID de la version prise en charge sur la version non UUID. Par exemple, si vous utilisez une version 4.1 non UUID, vous devez installer UID version 4.1 et exécuter la migration.
 
@@ -98,7 +103,7 @@ Effectuez les vérifications suivantes sur la version non UUID (4.1 non UUID ou 
    * Workflow Ressource de mise à jour de la gestion des DAM
    * Workflow d’écriture différée des métadonnées de gestion des actifs numériques
 
-1. Désactivez *Activer les lanceurs de processus de traitement Post* dans `com.adobe.fmdita.config.ConfigManager` et désactivez *Activer le posttraitement de version* dans `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
+1. Désactivez *Activer les lanceurs de workflow de post-traitement* dans `com.adobe.fmdita.config.ConfigManager` et désactivez *Activer le post-traitement de version* dans `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
 
 1. Désactivez la propriété Activer la validation (`validation.enabled`) dans le service de balisage Day CQ.
 
