@@ -3,9 +3,9 @@ title: Réutilisation du contenu DITA dans AEM Guides
 description: Ce bref article explique comment AEM Guides et DITA vous permettent de gagner du temps et des efforts lors de l’utilisation de la réutilisation du contenu.
 role: User, Admin
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
-source-git-commit: 4160c990bafe41611714ef66ee361aba0ef47c0a
+source-git-commit: 12d7f9c3479d2fa8e8f0adad7cb89993cd17dec0
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe AEM Guides tire parti des avantages de DITA pour offrir une interface conviviale pour la réutilisation du contenu.
 
-Dans cet article, nous parlerons de :
+Cet article abordera :
 
 1. [Réutilisation à l’aide de la référence de rubrique (](#reusability-using-topic-referencestopicref)
 2. [Réutilisation à l’aide de la référence de contenu (](#reusability-using-content-reference-conref--conkeyref)
@@ -79,7 +79,7 @@ Vous souhaitez réutiliser un fragment de code de visite individuel pour les rub
 
 `conref=kyc_procedures.dita#indvidual_kyc` kyc_processes.dita est l&#39;identifiant du fichier et #individual_kyc est l&#39;identifiant du fragment.
 
-Kyc_process.dita reste la seule source d&#39;information. S’il existe des modifications au processus de création de parcours, comme l’exigent les réglementations, vous devez simplement mettre à jour un sujet. Ces modifications sont automatiquement répercutées dans toutes les rubriques qui y font référence.
+Kyc_process.dita reste la seule source d&#39;information. Si les modifications réglementaires nécessitent des mises à jour du processus de création de parcours, mettez à jour le chemin du sujet avec le nouveau. Les modifications seront automatiquement répercutées dans toutes les rubriques qui y font référence.
 
 Avec AEM Guides, ses deux clics
 
@@ -91,7 +91,7 @@ Etape 1 : cliquez sur Insérer du contenu réutilisable
 Étape 2 : sélectionnez le fichier et le fragment qui doivent être réutilisés.
 ![conref](../../assets/publishing/content-reusability_image2.png)
 
-Tout comme &quot;conref&quot;, vous pouvez également utiliser &quot;conkeyref&quot; où, au lieu de donner un chemin d’accès au contenu, vous pouvez référencer le contenu par le biais de clés.
+Tout comme &quot;conref&quot;, vous pouvez utiliser &quot;conkeyref&quot; où, au lieu de donner un chemin de contenu, vous référencez le contenu par clé
 
 Exemple de code :
 
@@ -111,7 +111,7 @@ La définition de clé se présente comme suit :
 </map>
 ```
 
-Clé : &quot;Kyc_process&quot; restera la seule source d’informations. S’il existe des modifications au processus de création de rapports d’expérience (KYC) requises par les réglementations, vous devez simplement mettre à jour un chemin de rubrique avec un nouveau chemin de rubrique. Ces modifications seront automatiquement répercutées dans toutes les rubriques qui y font référence.
+Clé : &quot;Kyc_process&quot; reste la source unique d’informations. S’il existe des modifications au processus de création de rapports d’expérience (KYC) requises par les réglementations, vous devez simplement mettre à jour un chemin de rubrique avec un nouveau chemin de rubrique. Ces modifications sont automatiquement répercutées dans toutes les rubriques qui y font référence.
 
 ```
 <map id="ABC_manual">
@@ -133,7 +133,7 @@ Etape 1 : cliquez sur Insérer du contenu réutilisable
 Étape 2 : sélectionnez le mappage racine (facultatif), la clé et le fragment qui doivent être réutilisés.
 ![conkeyref](../../assets/publishing/content-reusability_image3.png)
 
-Ici, la carte racine a été automatiquement sélectionnée, car elle était déjà ouverte dans la vue map.
+Ici, la carte racine a été sélectionnée automatiquement, car elle était déjà ouverte dans la vue map.
 
 
 ## Réutilisation de contenu en un seul clic dans AEM Guides
@@ -154,14 +154,16 @@ AEM Guides offre une fonctionnalité &quot;Contenu réutilisable&quot; pour ajou
 
 - ### Tout le contenu ne s’affiche pas après la sélection d’un fichier/d’une clé dans la boîte de dialogue Réutiliser le contenu .
 
-Vous devez attribuer des identifiants aux fragments (éléments Dita ) que vous souhaitez réutiliser dans d’autres rubriques.
+Attribuer des identifiants aux fragments (éléments Dita) que vous souhaitez réutiliser dans d’autres rubriques
 
 - ## Les clés ne s’affichent pas dans la boîte de dialogue Réutiliser le contenu
 
-Assurez-vous d’avoir ouvert le mappage racine/parent dans map-view qui comporte une définition de clé ou ajoutez le chemin de mappage racine manuellement dans la même boîte de dialogue.
+  Assurez-vous d’avoir ouvert la carte racine/la carte parent dans map-view, qui comporte une définition de clé ou ajoutez le chemin de la carte racine manuellement dans la même boîte de dialogue.
 
 
 <br>
+<br>
+<br>
 
 
-Post sur le [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) de la communauté AEM Guides pour toutes les requêtes.
+Publiez sur le [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) de la communauté AEM Guides pour toutes les requêtes.
