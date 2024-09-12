@@ -6,9 +6,9 @@ hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6c89275df6bdcd031c45956aeb06b6c3e5753208
 workflow-type: tm+mt
-source-wordcount: '6294'
+source-wordcount: '6293'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ Une fois que vous avez installé le programme d’installation, installez-le sur
 
 ### Exigences techniques
 
-- Oxygen XML Author version 25.1
+- Oxygen XML Author version 26.1
 
-- Adobe Experience Manager Guides version 4.3 ou ultérieure
+- Adobe Experience Manager Guides version 4.6 ou ultérieure
 
-- Adobe Experience Manager version 6.5 avec Service Pack 14, 15, 16 et 17
+- Adobe Experience Manager version 6.5 avec Service Pack 21, 20 et 19
 
-- Système d’exploitation pris en charge par Oxygen XML Author version 25.1
+- Système d’exploitation pris en charge par Oxygen XML Author version 26.1
 
 - Java Development Kit
    - Oracle SE 8 JRE 1.8
@@ -159,7 +159,7 @@ Mettez à jour les fichiers donnés pour configurer les paramètres d’authenti
 >
 >Effectuez une sauvegarde du fichier avant de le mettre à jour.
 
-**Pour Mac et Oxygen 25.1**
+**Pour Mac et Oxygen 26.1**
 
 Ajoutez les lignes suivantes dans env.sh.
 
@@ -185,7 +185,7 @@ Ajoutez les lignes suivantes dans le fichier oxygèneAuthor.sh :
 -Djdk.module.illegalAccess=permit\-Djava.ipc.external=true\
 ```
 
-**Pour Windows et Oxygen 25.1**
+**Pour Windows et Oxygen 26.1**
 
 Ajoutez les lignes suivantes dans env.bat.
 
@@ -746,7 +746,7 @@ Solution : procédez comme suit pour configurer les enregistreurs pour oXygen et
    </configuration>   
    ```
 
-1. Enregistrez le fichier dans le répertoire `Oxygen Author 25`. (Par exemple, le chemin serait : `C:\Program Files\Oxygen XML Author 25\logback.xml`)
+1. Enregistrez le fichier dans le répertoire `Oxygen Author 26`. (Par exemple, le chemin serait : `C:\Program Files\Oxygen XML Author 26\logback.xml`)
 
 1. Fermez le fichier. Cela permettra d’activer les journaux oXygen, qui seront disponibles au chemin d’accès : `${user.home}/Desktop/oxygenLog/oxygen.log`
 1. Ouvrez le fichier `oxygenAuthor.bat` dans un éditeur de texte.

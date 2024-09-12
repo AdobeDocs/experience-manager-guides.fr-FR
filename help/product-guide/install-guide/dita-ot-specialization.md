@@ -5,9 +5,9 @@ exl-id: ddc1393b-b269-40e5-9627-96dad82b42e9
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: b04f20af6e1f85746e13dad464513bf60b039378
 workflow-type: tm+mt
-source-wordcount: '2093'
+source-wordcount: '2122'
 ht-degree: 0%
 
 ---
@@ -171,6 +171,8 @@ Effectuez les étapes suivantes pour créer un nouveau profil et le configurer a
    >
    > Les informations Profil par défaut s’affichent sur la page Profils . Si vous avez mis à niveau AEM Guides de la version 2.2 vers la version 2.5.1 ou 2.6, toutes les modifications effectuées via le gestionnaire de configuration sont automatiquement sélectionnées et stockées dans le profil par défaut.
 
+
+
 1. Vous pouvez choisir de modifier le profil par défaut, de créer un nouveau profil ou de dupliquer les paramètres du profil par défaut pour créer un nouveau profil.
 
    >[!NOTE]
@@ -178,6 +180,12 @@ Effectuez les étapes suivantes pour créer un nouveau profil et le configurer a
    > Vous ne pouvez pas supprimer le profil par défaut. Cependant, tous les nouveaux profils que vous créez peuvent être modifiés et supprimés.
 
 1. Dans les paramètres **Schema** \> **Catalog** , spécifiez le chemin des fichiers personnalisés DTD et XSD `catalog.xml` dans votre référentiel AEM.
+
+   >[!NOTE]
+   >
+   > Si vous utilisez le schéma personnalisé, vous devez définir le chemin d’accès des fichiers DTD et XSD catalog.xml dans le référentiel AEM dans l’option **Intégrer les catalogues** .
+
+
 
 1. Sélectionnez l’option **Ajouter le catalogue d’identifiants système** .
 

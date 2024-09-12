@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 98fec02367c7e3f33f2511e51675d9e02e41170a
+source-git-commit: 5e02c3bdecda68dfcaac225626a2a47e4af5f30f
 workflow-type: tm+mt
-source-wordcount: '5940'
+source-wordcount: '6943'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,14 @@ ht-degree: 0%
 >
 > Suivez les instructions de mise à niveau spécifiques à la version sous licence de votre produit.
 
-Vous pouvez mettre à niveau votre version actuelle de Experience Manager Guides vers la version 4.4.0 :
+Vous pouvez mettre à niveau votre version actuelle de Experience Manager Guides vers la version 4.6.0 :
 
-- Si vous utilisez les versions 4.3.1.5, 4.3.1, 4.3.0 ou 4.2.1 (correctif 4.2.1.3), vous pouvez directement effectuer la mise à niveau vers la version 4.4.0.
-- Si vous utilisez les versions 4.2, 4.1 ou 4.1.x, vous devez effectuer la mise à niveau vers les versions 4.3.1, 4.3.0 ou 4.2.1 (correctif 4.2.1.3) avant de passer à la version 4.4.0.
+
+- Si vous utilisez la version 4.4, 4.3.1 ou 4.3.0 , vous pouvez directement effectuer la mise à niveau vers la version 4.6.0.
+- Si vous utilisez les versions 4.2, 4.2.1 (correctif 4.2.1.3), 4.1 ou 4.1.x, vous devez effectuer la mise à niveau vers la version 4.4 avant de passer à la version 4.6.0.
 - Si vous utilisez la version 4.0, vous devez effectuer la mise à niveau vers la version 4.2 avant de passer à la version 4.3.x.
 - Si vous utilisez la version 3.8.5, vous devez effectuer la mise à niveau vers la version 4.0 avant de passer à la version 4.2.
-- Si vous utilisez une version antérieure à 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides du guide d’installation spécifique au produit.
+- Si vous utilisez une version antérieure à 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur l’ [archive du PDF d’aide Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 >[!NOTE]
@@ -40,6 +41,8 @@ Pour plus de détails, consultez les procédures suivantes :
 - [Mise à niveau vers la version 4.3.1](#upgrade-version-4-3-1)
 - [Mise à niveau vers la version 4.3.1.5](#upgrade-version-4-3-1-5)
 - [Mise à niveau vers la version 4.4.0](#upgrade-version-4-4-0)
+- [Mise à niveau vers la version 4.6.0](#upgrade-version-4-6-0)
+
 
 
 >[!IMPORTANT]
@@ -99,7 +102,7 @@ Cette API est conçue pour migrer les données système comme mentionné dans la
 
 **Mappage de migration** : l’API ci-dessus migre toutes les données sous l’emplacement source vers l’emplacement cible.
 
-| Source | Target |
+| Source | Cible |
 |------|------|
 | /content/fmdita | /var/dxml |
 | /content/dxml | /var/dxml |
@@ -174,7 +177,7 @@ Une fois Experience Manager Guides installé, vous pouvez fusionner les différe
 >
 > Le modèle dam-update-asset peut être personnalisé. Ainsi, si des personnalisations ont été effectuées, nous devons synchroniser les personnalisations et Experience Manager Guides dans la copie de travail du modèle.
 
-1. **Workflow de mise à jour de gestion des actifs numériques \(changements de traitement Post\) :**
+1. **Workflow de mise à jour de gestion des actifs numériques \(Modifications de post-traitement\) :**
 
 1. URL d’ouverture :
 
@@ -192,7 +195,7 @@ Une fois Experience Manager Guides installé, vous pouvez fusionner les différe
 
    **Onglet commun**
 
-   **Titre :** Initiateur du processus DXML Post
+   **Titre :** Initiateur du post-processus DXML
 
    **Description** : étape de l’initiateur de post-processus DXML qui déclenche une tâche Sling pour le post-traitement DXML de la ressource modifiée/créée
 
@@ -391,7 +394,7 @@ Une fois Experience Manager Guides installé, vous pouvez fusionner les différe
 >
 > Le modèle dam-update-asset peut être personnalisé. Ainsi, si des personnalisations ont été effectuées, nous devons synchroniser les personnalisations et Experience Manager Guides dans la copie de travail du modèle.
 
-1. **Workflow de mise à jour de gestion des actifs numériques \(changements de traitement Post\) :**
+1. **Workflow de mise à jour de gestion des actifs numériques \(Modifications de post-traitement\) :**
 
 1. URL d’ouverture :
 
@@ -409,7 +412,7 @@ Une fois Experience Manager Guides installé, vous pouvez fusionner les différe
 
    **Onglet commun**
 
-   **Titre :** Initiateur du processus DXML Post
+   **Titre :** Initiateur du post-processus DXML
 
    **Description** : étape de l’initiateur de post-processus DXML qui déclenche une tâche Sling pour le post-traitement DXML de la ressource modifiée/créée
 
@@ -619,7 +622,7 @@ Une fois Experience Manager Guides installé, vous pouvez fusionner les différe
 >
 > Le modèle dam-update-asset peut être personnalisé. Ainsi, si des personnalisations ont été effectuées, nous devons synchroniser les personnalisations et Experience Manager Guides dans la copie de travail du modèle.
 
-1. **Workflow de mise à jour de gestion des actifs numériques \(changements de traitement Post\) :**
+1. **Workflow de mise à jour de gestion des actifs numériques \(Modifications de post-traitement\) :**
 
 1. URL d’ouverture :
 
@@ -637,7 +640,7 @@ Une fois Experience Manager Guides installé, vous pouvez fusionner les différe
 
    **Onglet commun**
 
-   **Titre :** Initiateur du processus DXML Post
+   **Titre :** Initiateur du post-processus DXML
 
    **Description** : étape de l’initiateur de post-processus DXML qui déclenche une tâche Sling pour le post-traitement DXML de la ressource modifiée/créée
 
@@ -822,7 +825,7 @@ Une fois Experience Manager Guides installé, vous pouvez fusionner les différe
 >
 > Le modèle dam-update-asset peut être personnalisé. Ainsi, si des personnalisations ont été effectuées, nous devons synchroniser les personnalisations et Experience Manager Guides dans la copie de travail du modèle.
 
-1. **Workflow de mise à jour de gestion des actifs numériques \(changements de traitement Post\) :**
+1. **Workflow de mise à jour de gestion des actifs numériques \(Modifications de post-traitement\) :**
 
 1. URL d’ouverture :
 
@@ -840,7 +843,7 @@ Une fois Experience Manager Guides installé, vous pouvez fusionner les différe
 
    **Onglet commun**
 
-   **Titre :** Initiateur du processus DXML Post
+   **Titre :** Initiateur du post-processus DXML
 
    **Description** : étape de l’initiateur de post-processus DXML qui déclenche une tâche Sling pour le post-traitement DXML de la ressource modifiée/créée
 
@@ -977,3 +980,163 @@ Pendant cette mise à niveau, puisque la valeur `'order'` est passée de 1000 à
 
 
 **Rubrique parente :**[ Télécharger et installer](download-install.md)
+
+
+## Mise à niveau vers la version 4.6.0 {#upgrade-version-4-6-0}
+
+La mise à niveau vers la version 4.6.0 dépend de la version actuelle de Experience Manager Guides. Si vous utilisez les versions 4.4.0, 4.3.1, 4.3.0, 4.2 ou 4.2.1 (correctif 4.2.1.3), vous pouvez directement effectuer la mise à niveau vers la version 4.6.0.
+
+>[!NOTE]
+>
+>Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de lancer le processus de mise à niveau aux heures creuses.
+
+****Conditions préalables****
+
+Avant de démarrer le processus de mise à niveau vers Experience Manager Guides 4.6.0, vérifiez que vous disposez des éléments suivants :
+
+1. Mise à niveau vers la version 4.3.1, 4.3.0 ou 4.2.1 de Experience Manager Guides (correctif 4.2.1.3) et terminé leurs étapes d’installation respectives.
+1. (Facultatif) Fermez toutes les tâches de traduction.
+1. Le niveau de journal a été remplacé par **INFO** pour la classe `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` et ajoutez ces journaux dans un nouveau fichier journal, par exemple `logs/translation_upgrade.log`.
+
+
+## Installation de la version 4.6.0
+
+1. Téléchargez le package de version 4.6.0 à partir du [portail de distribution de logiciels Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html).
+1. Installez le package version 4.6.0.
+1. Vous pouvez choisir d’ACCÉDER au déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, voir [Activation du déclencheur de script via un servlet](#enable-trigger-serverlet-4-6-0).
+
+1. Une fois l’installation du package terminée, attendez le ou les messages\(s\) suivants dans les journaux :
+
+   `Completed the post deployment setup script`
+
+   Le message ci-dessus indique que toutes les étapes de l’installation sont terminées.
+
+   Si vous rencontrez l’un des préfixes ERROR suivants, signalez-les à votre équipe de réussite client :
+
+   - Erreur dans le script de configuration après le déploiement
+   - Exception lors de la génération de la traduction MAP
+   - Impossible de transférer le mappage de traduction de la version 1 à la version 2 pour la propriété
+1. Mettre à niveau le module externe du connecteur Oxygen publié avec la version 4.6.0 \(si nécessaire\).
+1. Effacez le cache du navigateur après l’installation du package.
+
+## Après avoir installé la version 4.6.0
+
+Une fois Experience Manager Guides installé, vous pouvez fusionner les différentes configurations applicables de la version nouvellement installée à votre configuration.
+
+>[!NOTE]
+>
+> Le modèle dam-update-asset peut être personnalisé. Ainsi, si des personnalisations ont été effectuées, nous devons synchroniser les personnalisations et Experience Manager Guides dans la copie de travail du modèle.
+
+1. **Workflow de mise à jour de gestion des actifs numériques \(Modifications de post-traitement\) :**
+
+1. URL d’ouverture :
+
+   ```
+   http://localhost:4502/libs/cq/workflow/admin/console/content/models.html 
+   ```
+
+1. Sélectionnez **Workflow de mise à jour des ressources de gestion des actifs numériques**.
+1. Cliquez sur **Modifier**.
+1. Si le composant **DXML Post Process Initiator** est présent, assurez-vous que les personnalisations sont synchronisées.
+1. Si le composant **DXML Post Process Initiator** est absent, procédez comme suit pour l’insérer :
+
+1. Cliquez sur **Insérer le composant** \(Responsable du post-traitement Experience Manager Guides comme dernière étape du processus\).
+1. Configurez l’ **étape du processus** avec les détails suivants :
+
+   **Onglet commun**
+
+   **Titre :** Initiateur du post-processus DXML
+
+   **Description** : étape de l’initiateur de post-processus DXML qui déclenche une tâche Sling pour le post-traitement DXML de la ressource modifiée/créée
+
+   **Onglet Processus**
+
+   - Sélectionnez **DXML Post Process Initiator** dans la liste déroulante **Process**
+
+   - Sélectionnez **Avance du gestionnaire**
+
+   - Sélectionnez **Done**
+
+1. Cliquez sur **Synchroniser** en haut à droite après avoir terminé les modifications. Vous recevrez une notification de succès.
+
+   >[!NOTE]
+   >
+   > Actualisez et vérifiez que les modifications personnalisées et l’étape de post-traitement de Experience Manager Guides sont présentes dans le modèle de workflow final.
+
+1. Une fois que le **workflow Ressource de mise à jour de gestion des actifs numériques** est validé, vérifiez les configurations de lanceur correspondantes. Pour ce faire, accédez à AEM interface de workflow et ouvrez les lanceurs.
+
+   ```http
+   http://localhost:4502/libs/cq/workflow/content/console.html
+   ```
+
+   Recherchez et apportez des modifications \(si nécessaire\) aux deux lanceurs suivants \(qui doivent être actifs\) correspondant au **workflow Ressource de mise à jour de gestion des actifs numériques** :
+
+1. Lanceur pour &quot;*Noeud créé*&quot; pour **Workflow de ressource de mise à jour de gestion des actifs numériques**- pour la condition `"jcr:content/jcr:mimeType!=video"`, la valeur &quot;Globbing&quot; doit être :
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - &#39;excludeList&#39; doit avoir `"event-user-data:changedByWorkflowProcess"`.
+   - Lanceur pour &quot;*Node Modified*&quot; pour **Workflow de ressource de mise à jour de gestion des actifs numériques -** pour la condition &quot;`jcr:content/jcr:mimeType!=video`&quot;, la valeur &quot;Globbing&quot; doit être :
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - `excludeList` doit avoir `"event-user-data:changedByWorkflowProcess"`.
+
+1. Une fois la mise à niveau terminée, vérifiez que toutes les personnalisations/superpositions sont validées et mises à jour pour correspondre au nouveau code de l’application. Voici quelques exemples :
+   - Tous les composants superposés à partir de/libs/mditator/libs doivent être comparés au nouveau code de produit et les mises à jour doivent être effectuées dans les fichiers superposés sous/apps.
+   - Toutes les catégories clientlib utilisées à partir du produit doivent être examinées pour les modifications. Toutes les configurations remplacées \(exemples ci-dessous\) doivent être comparées aux configurations les plus récentes afin d’obtenir les dernières fonctionnalités :
+   - elementmapping.xml
+   - ui\_config.json\(peut avoir été défini dans les profils de dossier\)
+   - `com.adobe.fmdita.config.ConfigManager` modifié
+
+1. Si vous avez ajouté des personnalisations dans damAssetLucene, vous devrez peut-être les appliquer à nouveau. Après avoir apporté ces modifications, définissez la réindexation sur true. Cela réindexera tous les noeuds existants avec les personnalisations. Une fois l’opération terminée, l’indicateur de réindexation est à nouveau défini sur false. Cette opération peut prendre quelques heures en fonction du nombre de ressources dans le système.
+
+## Procédure de réindexation des index Experience Manager Guides
+
+1. Ouvrez `crx/de` et accédez au chemin de l’index : `/oak:index/guidesAssetProperties`
+2. Définissez la propriété reindex sur `true` (`false` par défaut) et cliquez sur **Enregistrer tout**.
+3. Une fois la réindexation terminée, la propriété reindex est de nouveau définie sur `false` et le nombre de réindex est incrémenté de 1.
+
+   >[!NOTE]
+   >
+   > Cette opération peut prendre quelques minutes, selon la quantité de données présentes.
+4. Suivez les mêmes étapes pour d’autres index ajoutés ou modifiés : `guidesBulkActivation`, `guidesPeerLinkIndex` et `guidesKonnectTemplateIndex`.
+
+## Étapes d’indexation du contenu existant
+
+
+
+Effectuez les étapes suivantes pour indexer le contenu existant :
+
+- Exécutez une requête de POST sur le serveur \(avec l’authentification correcte\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facultatif : vous pouvez transmettre des chemins spécifiques des cartes pour les indexer ; par défaut, toutes les cartes seront indexées. || Exemple : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+
+- L’API renvoie un jobId. Pour vérifier l’état de la tâche, vous pouvez envoyer une demande de GET avec l’ID de la tâche au même point de terminaison - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(par exemple : ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+
+- Une fois la tâche terminée, la requête de GET ci-dessus répond avec succès et indique si une correspondance a échoué. Les mappages indexés avec succès peuvent être confirmés à partir des journaux du serveur.
+
+
+>[!NOTE]
+>
+> Si vous utilisez le schéma personnalisé, vous devez définir le chemin d’accès des fichiers DTD et XSD catalog.xml dans le référentiel AEM dans l’option **Intégrer les catalogues** .
+
+
+
+
+## Procédure de gestion du conflit `'fmdita rewriter'`
+
+Experience Manager Guides dispose d’un module [**de réécriture sling personnalisée**](../cs-install-guide/conf-output-generation.md#custom-rewriter) pour gérer les liens générés en cas de mappage croisé (liens entre les rubriques de deux cartes différentes).
+
+Si votre code base comporte un autre module de réécriture sling personnalisé, utilisez une valeur `'order'` supérieure à 50, car Experience Manager Guides sling rewriter utilise `'order'` 50.  Pour le remplacer, vous devez disposer d’une valeur supérieure à 50. Pour plus d’informations, voir [ Pipelines de réécriture de sortie](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+
+Pendant cette mise à niveau, puisque la valeur `'order'` est passée de 1000 à 50, vous devez fusionner le module de réécriture personnalisé existant, le cas échéant, avec `'fmdita-rewriter'`.
+
+
+
+
+
+
+**Rubrique parente :** [Télécharger et installer](download-install.md)

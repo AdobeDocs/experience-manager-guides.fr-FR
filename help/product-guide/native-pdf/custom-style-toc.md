@@ -5,9 +5,9 @@ exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: db4c823e592e249e1d828a7071fc0848a5e68c0f
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -75,3 +75,17 @@ Enfin, vous pouvez également appliquer des styles à l’ensemble du contenu de
 À l’aide des attributs de style ci-dessus, une barre de modification est ajoutée à gauche de la rubrique *Historique du vol*, comme illustré ci-dessous :
 
 <img src="./assets/pdf-output-topic-content.jpg" width="500">
+
+## Supprimer les lignes vides de la table des matières
+
+Si vous n’avez défini le titre d’aucune rubrique, des lignes vides s’affichent dans la table des matières pour ces rubriques.
+
+Pour supprimer les lignes vides de la table des matières et de la mini table des matières, ajoutez le style suivant dans le `layout.css` :
+
+```css
+.toc-body a:empty,
+.chaptoc-body a:empty {
+    display: none;
+} 
+```
+

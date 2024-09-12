@@ -4,7 +4,7 @@ description: Recherchez des tutoriels vidéo pour Experience Manager Guides (anc
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
 feature: AEM Guides Tutorials
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: fb4b5fa72cc0643810e4c299dd827803687f0bc4
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 3%
@@ -36,7 +36,6 @@ Avec la solution [!DNL AEM Guides], les entreprises peuvent offrir des expérien
 * **[Génération de sortie avec [!DNL AEM Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target="blank"}**
 
   _Découvrez comment générer une sortie à l’aide de [!DNL Adobe Experience Manager Guides]. Découvrez les différentes fonctionnalités disponibles pour la génération de sortie : rapports, lignes de base, conditions, dépannage, publication en masse et activation._
-
 
 <!--
 
@@ -90,9 +89,9 @@ Dummy links cause validation to fail
 
 -->
 
-
 ## Ressources supplémentaires
 
 * [[!DNL AEM Guides] Guide de l’utilisateur en ligne](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
 * [[!DNL AEM Guides] Guides du PDF](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
 * [Experience League - Explorer AEM](https://experienceleague.adobe.com/?lang=fr#recommended/solutions/experience-manager)
+

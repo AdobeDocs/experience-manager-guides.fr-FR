@@ -5,14 +5,20 @@ exl-id: 0e2ba1bb-f5bf-44da-848a-a55385460c83
 feature: Java-Based API Baseline
 role: Developer
 level: Experienced
-source-git-commit: 1860525120edc4df33b898841b9073311d3031c5
+source-git-commit: 8c80a4da8e61909aab0f2db81ef97149774b36c4
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '931'
 ht-degree: 2%
 
 ---
 
 # API Java à utiliser avec les lignes de base et les libellés {#id175UB30E05Z}
+
+>[!NOTE]
+>
+> Vous pouvez utiliser des API Java disponibles dans Experience Manager Guides pour créer des modules externes personnalisés et étendre les processus prêts à l’emploi. Cet article sera archivé en novembre 2024.
+> Affichez [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) pour obtenir la documentation la plus récente et détaillée sur l’utilisation de l’API Java.
+
 
 Les API Java suivantes vous permettent de créer une ligne de base et d’ajouter des libellés aux fichiers d’une ligne de base. Ces API sont disponibles sous la forme d’un lot. Vous devez inclure ce lot dans votre code pour utiliser ces API.
 

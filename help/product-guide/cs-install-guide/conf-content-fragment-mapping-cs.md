@@ -5,16 +5,24 @@ exl-id: 438e2964-b9c7-462a-a68c-8031bd97911c
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: f8c71e18f5e2e5dbc5a2abdbb92c72fdad3bb233
+source-git-commit: 97d7776c81e7776d0248d6711ae5d05c46c44239
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
 
 # Créer un mappage entre une rubrique et un fragment de contenu
 
-AEM Guides fournit la fonctionnalité permettant de créer un mappage JSON entre une rubrique et un modèle de fragment de contenu. Vous pouvez utiliser ce mappage pour publier du contenu présent dans certains éléments ou tous les éléments d’une rubrique sur un fragment de contenu.
+
+
+Adobe Experience Manager Guides vous permet de créer un mappage JSON entre une rubrique et un modèle de fragment de contenu. Vous pouvez utiliser le mappage basé sur JSON pour publier du contenu présent dans certains éléments ou tous les éléments d’une rubrique sur un fragment de contenu.
+
+>[!NOTE]
+> 
+> Si vous utilisez des versions 4.6 ou ultérieures, vous n’avez pas besoin de créer ce mappage, vous pouvez faire glisser les éléments de rubrique vers les champs présents dans le modèle de fragment de contenu.
+> Découvrez comment [publier des fragments de contenu](../user-guide/publish-content-fragment.md).
+
 
 1. Pour télécharger le fichier *contentFragmentMapping.json*, connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 1. Sélectionnez le lien Adobe Experience Manager en haut et choisissez **Outils**.

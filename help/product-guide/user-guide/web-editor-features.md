@@ -4,9 +4,9 @@ description: Découvrez les fonctionnalités de l’éditeur web dans AEM Guides
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 1b338bb702267640bc3f5b5de4b00051979b562f
+source-git-commit: 2e474dec4f55ccf54a415b1969f7e7f79c4d0226
 workflow-type: tm+mt
-source-wordcount: '18678'
+source-wordcount: '18802'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ Dans la capture d’écran suivante, seuls 3 éléments configurés sur 4 de la 
 
 - **Profil Publish** : contient les profils Publish qui peuvent être utilisés pour publier la sortie de la **base de connaissances**. Vous pouvez créer un nouveau profil pour une base de connaissances cible. Par exemple, Salesforce ou ServiceNow.
 
-   - **Création d’un profil Salesforce Publish**
+   - **Création d’un profil Publish Salesforce**
 
      **Conditions préalables**
 
@@ -172,12 +172,12 @@ Dans la capture d’écran suivante, seuls 3 éléments configurés sur 4 de la 
   Ils peuvent être utilisés pour créer le profil Publish Salesforce.
 
 
-   - Pour créer un profil Salesforce Publish, sélectionnez la base de connaissances **Salesforce** dans la liste déroulante **Type de serveur**. Saisissez un nom de profil. Dans l’ **URL du site**, entrez le site du client que vous utiliseriez pour publier la sortie, puis ajoutez les **Clé du client** et le **Secret du client** fournis par le site du consommateur Salesforce. Ensuite, **Validez** et **Enregistrez** le profil nouvellement créé.
+   - Pour créer un profil Publish Salesforce, sélectionnez la base de connaissances **Salesforce** dans la liste déroulante **Type de serveur**. Saisissez un nom de profil. Dans l’ **URL du site**, entrez le site du client que vous utiliseriez pour publier la sortie, puis ajoutez les **Clé du client** et le **Secret du client** fournis par le site du client Salesforce. Ensuite, **Validez** et **Enregistrez** le profil nouvellement créé.
      ![profil de publication salesforce dans les paramètres de l’éditeur](./images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
      >
-     >Pour configurer un proxy pour Salesforce dans Experience Manager Guides, utilisez Apache HTTP Components Proxy Configuration dans AEM. Découvrez comment [configurer le proxy pour le vérificateur de lien d’AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+     >Pour configurer un proxy pour Salesforce dans Experience Manager Guides, utilisez la configuration du proxy des composants HTTP Apache dans AEM. Découvrez comment [configurer le proxy pour le vérificateur de lien d’AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
    - **Création d’un profil Publish ServiceNow**
@@ -1508,7 +1508,22 @@ Pour ajouter ou définir une condition, cliquez sur l’icône + en regard du pa
 
 ![](images/conditional-panel-create-cond.png){width="400" align="left"}
 
-Dans la liste Attribut , sélectionnez l’attribut conditionnel que vous souhaitez définir, saisissez une valeur pour la condition, puis spécifiez le libellé affiché dans le panneau Conditions . Vous pouvez également définir une couleur pour la condition. Cette couleur est définie comme couleur d’arrière-plan du contenu auquel la condition est appliquée.
+Dans la liste Attribut , sélectionnez l’attribut conditionnel que vous souhaitez définir, saisissez une valeur pour la condition, puis spécifiez le libellé affiché dans le panneau Conditions . Définissez un groupe pour la condition. Vous pouvez ajouter plusieurs conditions à un groupe. Vous pouvez également définir une couleur pour la condition. Cette couleur est définie comme couleur d’arrière-plan du contenu auquel la condition est appliquée.
+
+Vous pouvez regrouper les conditions et les structurer dans des dossiers imbriqués. Les groupes vous aident à créer des conditions à plusieurs niveaux et à les organiser mieux pour une utilisation dans le contenu.
+
+Par exemple, vous pouvez créer des groupes de conditions de produits tels que *Acrobat* et *AEM Guides*. Vous pouvez sélectionner les attributs conditionnels pour les deux groupes. Sous chaque groupe, vous pouvez avoir des valeurs spécifiques telles que *User*, *Admin*, *Reviewer* et *Author*.
+
+>[!NOTE]
+>
+> Saisissez pour créer un groupe ou sélectionnez un groupe existant pour un attribut particulier.
+
+Vous pouvez utiliser `/` et définir des sous-groupes pour définir des sous-groupes comme `AEM Guides/Cloud Service`.
+
+
+
+![conditions organisées dans une hiérarchie imbriquée](images/conditions-nested-hierarchy.png){width="300" align="left"}
+
 
 Pour modifier une condition, sélectionnez **Modifier** dans le menu Options. La boîte de dialogue Modifier la condition s’affiche :
 
@@ -1806,7 +1821,7 @@ Pour afficher les commentaires de révision dans les tâches de révision active
    - Sélectionnez ![](images/filter-search-icon.svg) pour ouvrir la boîte de dialogue **Filtre**. Vous pouvez sélectionner tous les projets ou uniquement des projets spécifiques. Les projets sélectionnés sont répertoriés dans le panneau **Révision**.
      ![](images/active-review-select-project.png){width="300" align="left"}
 
-     L’option **Tâches initiées par moi** est activée par défaut. Il vous permet de n’afficher que les tâches que vous avez initiées.
+     L’option **Tâches initiées par moi** est activée par défaut. Il vous permet de n’afficher que les tâches que vous avez initiées. L’état de bascule de cette option est conservé même après l’actualisation de la page.
 
 1. Par défaut, dans votre projet de révision, vous affichez une liste plate des rubriques auxquelles des commentaires sont associés. Appliquez les filtres requis depuis le rail de gauche pour filtrer les rubriques en fonction des commentaires de révision qu’elles contiennent :
 

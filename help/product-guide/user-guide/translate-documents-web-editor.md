@@ -4,9 +4,9 @@ description: Traduisez votre contenu dans plusieurs langues à partir de l’éd
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: ce7619538b229625277a552071bed8800e67f677
+source-git-commit: 8b031dde7a91e47937395286dbc20300b76835d3
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2343'
 ht-degree: 1%
 
 ---
@@ -112,11 +112,15 @@ Dans un projet XLIFF, le contenu est exporté au format XLIFF standard du secteu
    - Vous pouvez sélectionner **Créer un projet de traduction multilingue** qui inclura des tâches de traduction pour toutes les langues que vous avez sélectionnées pour traduction. Par exemple, si vous avez sélectionné le français, l’allemand et l’espagnol, un projet contenant des tâches de traduction pour les trois langues sera créé.
    - Si vous disposez déjà d’un projet de traduction, vous pouvez ajouter des rubriques à ce projet. Sélectionnez Ajouter à **Projet de traduction existant** dans la liste Projet et choisissez un projet dans la liste Projet de traduction existant. Vous pouvez trier ces projets par ordre croissant ou décroissant le plus récent.
 
-     >[!NOTE]
-     >
-     > Si votre projet existant est un projet de définition de la portée, &quot;\(Portée\)&quot; est ajouté dans son nom.
+- Si vous sélectionnez **Projet de traduction existant**, cette opération met à jour l’entrée de ressource existante dans le projet si la ressource est déjà ajoutée et que l’état de la tâche de traduction associée est à l’état *Brouillon*.
+   - Si la langue de destination n’est pas présente dans le projet, un nouveau projet est créé pour le projet de traduction en une seule langue et une nouvelle tâche est créée pour le projet de traduction multilingue.
+   - Si la tâche est déjà présente pour la langue de destination et que l’état de la tâche n’est pas à l’état *Brouillon* , une nouvelle tâche est créée dans le même projet pour ajouter les ressources à traduire.
 
-   - Si vous devez créer la portée d’un projet à traduire, vous pouvez sélectionner **Créer un nouveau projet de traduction de définition de la portée**. Cela n’enverra pas les copies à traduire et l’état de traduction d’origine des fichiers est conservé. Il n’y a aucun impact sur la copie de langue de destination des rubriques référencées qui sont envoyées pour la définition de la portée.
+  >[!NOTE]
+  >
+  > Si votre projet existant est un projet de définition de la portée, &quot;\(Portée\)&quot; est ajouté dans son nom.
+
+- Si vous devez créer la portée d’un projet à traduire, vous pouvez sélectionner **Créer un nouveau projet de traduction de définition de la portée**. Cela n’enverra pas les copies à traduire et l’état de traduction d’origine des fichiers est conservé. Il n’y a aucun impact sur la copie de langue de destination des rubriques référencées qui sont envoyées pour la définition de la portée.
 1. Dans le champ **Titre du projet**, saisissez un titre pour le projet.
 1. Cliquez sur **Créer** pour créer un projet de traduction.
 
