@@ -2,9 +2,9 @@
 title: Notes de mise à jour | Correction de problèmes dans la version Adobe Experience Manager Guides 4.6.0
 description: Découvrez les correctifs de la version 4.6.0 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 5a30d427fa579e37a18b0fca65dea96dc486c594
+source-git-commit: 17c3d945cb2a2faab1e361385a95e1de5a790a96
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '1970'
 ht-degree: 0%
 
 ---
@@ -161,6 +161,8 @@ Adobe a identifié les problèmes connus suivants pour la version 4.6.0 :
 - La référence de la rubrique apparaît rompue dans l’interface utilisateur lorsqu’elle est insérée à partir de la barre d’outils supérieure du mappage DITA.
 - La génération d’un PDF natif échoue pour un mappage DITA s’il manque des références.
 - Une fois que l’état du document d’une rubrique est mis à jour sur **Terminé**, l’icône **Démarrer une nouvelle version** n’est disponible que dans le mode **Aperçu** de la rubrique.
+- Lors de la sélection d’un fichier DITA dans l’interface utilisateur d’Assets, l’option **Ouvrir dans le FrameMaker** s’affiche, même si elle est désactivée dans les paramètres de configuration.
+
 
 
 
