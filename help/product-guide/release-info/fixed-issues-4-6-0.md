@@ -2,9 +2,9 @@
 title: Notes de mise à jour | Correction de problèmes dans la version Adobe Experience Manager Guides 4.6.0
 description: Découvrez les correctifs de la version 4.6.0 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 17c3d945cb2a2faab1e361385a95e1de5a790a96
+source-git-commit: 6bff0a9c8770418c4486b65feb1c11792b893ca8
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1985'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,7 @@ Découvrez les [instructions de mise à niveau pour la version 4.6.0](../release
 - Le comportement du bouton Fermer est incohérent lors de l’utilisation de la fonctionnalité d’enregistrement automatique. (10996)
 - Des problèmes de validation se produisent dans les éléments MathML lors de l’insertion d’un nouvel élément ou de la modification d’équations. 10624
 - La fonctionnalité de suivi des modifications ne fonctionne pas avec le texte qui commence par des caractères coréens. 14538
-
-
+- Les images liées des rubriques ne s’affichent pas dans la ligne de base après la création de la version. 16931
 
 ## Publication
 
