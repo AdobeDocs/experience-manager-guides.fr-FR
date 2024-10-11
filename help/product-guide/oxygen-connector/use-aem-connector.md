@@ -6,9 +6,9 @@ hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: 6c89275df6bdcd031c45956aeb06b6c3e5753208
+source-git-commit: b2b26a85236245f989866ab8ee801a930ed8a8c4
 workflow-type: tm+mt
-source-wordcount: '6293'
+source-wordcount: '6347'
 ht-degree: 0%
 
 ---
@@ -346,7 +346,7 @@ Une fois que vous êtes connecté au référentiel AEM, vous pouvez ouvrir des f
 
 1. Cliquez avec le bouton droit sur un fichier du panneau AEM Guides que vous souhaitez ouvrir pour le modifier.
 
-1. Sélectionnez **Ouvrir** dans le menu contextuel.
+1. Sélectionnez **Ouvrir** dans le menu contextuel. Vous pouvez également double-cliquer sur le fichier pour l’ouvrir.
 
    Le fichier est ouvert dans l’éditeur de l’auteur XML Oxygen.
 
@@ -354,12 +354,14 @@ Une fois que vous êtes connecté au référentiel AEM, vous pouvez ouvrir des f
 
    Lorsque vous placez le pointeur de la souris sur l’onglet d’un fichier, le chemin du serveur s’affiche avec son UUID. Dans la capture d’écran ci-dessus, l’UUID du document est mis en surbrillance.
 
+>[!NOTE]
+>
+>Pointez sur les images ou les vidéos d’une rubrique dans l’éditeur de l’auteur XML Oxygen pour afficher uniquement l’UUID de l’élément sélectionné. Pour le localiser dans le référentiel, cliquez avec le bouton droit de la souris sur l’image affichée ou la balise d’objet (uniquement dans le cas de vidéos, d’audiences et d’autres fichiers multimédia) et sélectionnez **Afficher dans le référentiel**.
+
+
 
 Si vous avez sélectionné l’option **Fichier d’extraction automatique lors de l’ouverture** \(dans la boîte de dialogue Préférences\), lors de l’ouverture d’un fichier, le fichier est automatiquement extrait et peut être modifié. Pour ouvrir un fichier, vous pouvez double-cliquer sur un nom de fichier ou cliquer avec le bouton droit de la souris sur celui-ci et choisir **Ouvrir** dans le menu contextuel. Si cette option n’est pas sélectionnée, le fichier est ouvert en mode lecture seule.
 
->[!NOTE]
->
->Vous pouvez également double-cliquer sur un fichier pour l’ouvrir.
 
 ### Ouvrir le fichier dans l’éditeur AEM Guides {#id195GH0V30KX}
 

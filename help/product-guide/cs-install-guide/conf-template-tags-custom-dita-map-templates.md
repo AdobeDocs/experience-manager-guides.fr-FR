@@ -5,9 +5,9 @@ exl-id: a0eeb43c-06e4-4922-a005-704e8929063f
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 83971ee35a19cf0146ddd034b1ae7a345f587663
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '489'
 ht-degree: 1%
 
 ---
@@ -55,4 +55,20 @@ La prochaine fois que vous créerez une carte, votre modèle s’affichera dans 
 >
 > Voir la section *Modèles personnalisés* du guide Bonnes pratiques pour connaître les bonnes pratiques relatives à l’utilisation de modèles de mappage personnalisés.
 
-**Rubrique parente :**[ Configuration de modèles de rubrique et de mappage](conf-template-tags.md)
+
+## Personnalisation du nombre de références dans un mappage DITA
+
+Vous pouvez configurer le seuil du traitement asynchrone en fonction du nombre de références dans la carte DITA. Par défaut, les cartes avec plus de 5 références seront créées par le biais d’opérations asynchrones, tandis que les cartes avec moins de références continueront à utiliser des opérations synchrones.
+
+
+Suivez les instructions de la section [Remplacements de configuration](download-install-additional-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails (propriété) suivants pour spécifier le nombre de références dans le modèle de mappage DITA pour que le processus reste synchrone :
+
+| PID | Clé de propriété | Valeur de la propriété |
+|---|------------|--------------|
+| com.adobe.fmdita.xmleditor.config.XmlEditorConfig | xmleditor.asyncmapcreation | > 0 <br> **Valeur par défaut** : 5 |
+
+Lors de la création d’un mappage DITA avec des références de rubrique volumineuses à l’aide d’un modèle personnalisé, la création du mappage échoue sur le serveur cloud si le temps de traitement total dépasse 60 secondes.
+
+Pour éviter cela, configurez la **création asynchrone de mappage dita** dans XmlEditorConfig qui permet aux tâches de s’exécuter en parallèle et de réduire les temps de traitement pour les mappages DITA plus volumineux.
+
+**Rubrique parente :** [Configuration de modèles de rubrique et de mappage](conf-template-tags.md)

@@ -5,9 +5,9 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: cddbd7a19d4dfaa3f6549ed1bd511eeeb02acbb2
 workflow-type: tm+mt
-source-wordcount: '2889'
+source-wordcount: '2940'
 ht-degree: 0%
 
 ---
@@ -137,12 +137,29 @@ Effectuez les étapes suivantes pour convertir vos documents InDesign existants 
 1. Accédez au fichier de configuration par défaut disponible à l’emplacement suivant :
 
    `/libs/fmdita/config/idml2dita_io.xml`
+1. Pour créer une configuration personnalisée en fonction de vos besoins, créez un noeud de recouvrement du dossier `config` dans le noeud `apps`.
 
-1. Créez un noeud de recouvrement du dossier `config` dans le noeud `apps`.
+1. Copiez les fichiers ou dossiers suivants du dossier `libs` vers le dossier des applications :
+
+   - `/fmdita/config/idml2dita_io.xml`
+   - `/fmdita/idml2dita/config`
+   - `/fmdita/idml2dita/xsl`
 
 1. Accédez au fichier de configuration disponible dans le noeud `apps` :
 
    `/apps/fmdita/config/idml2dita_io.xml`
+
+1. Ajoutez le mappage des configurations présentes dans le dossier `idml12dita` du fichier `idml2dita_io.xml`.
+1. Ajoutez les propriétés suivantes dans le fichier `idml2dita_io.xml` :
+
+   ```
+   <entry          key="idml2DitaConfig">/apps/fmdita/idml2dita/config</entry>
+   
+   <entry key="idml2DitaXsl">/apps/fmdita/idml2dita/xsl</entry>
+   ```
+
+1. Créez un noeud de recouvrement du dossier `config` dans le noeud `apps`.
+
 
    Configurez les paramètres suivants dans le fichier `idml2dita_io.xml` :
 
