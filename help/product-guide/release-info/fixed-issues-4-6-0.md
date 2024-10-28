@@ -2,9 +2,9 @@
 title: Notes de mise à jour | Correction de problèmes dans la version Adobe Experience Manager Guides 4.6.0
 description: Découvrez les correctifs de la version 4.6.0 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 6bff0a9c8770418c4486b65feb1c11792b893ca8
+source-git-commit: 9ffe068bbcdc0fe32e3dbf56a48171d241825e5a
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '1996'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,7 @@ Découvrez les [instructions de mise à niveau pour la version 4.6.0](../release
 - La régénération de la rubrique échoue en raison de l’échec de l’API de publication incrémentielle ou de la rubrique de regénération prête à l’emploi. 18452
 - Le paramètre prédéfini de condition ne récupère pas les attributs mis à jour après la mise à niveau de Experience Manager Guides. (18174)
 - Les références de contenu ne sont pas correctement résolues pour la sortie du PDF natif si le fichier contenant des définitions de clé ne se trouve pas dans le même dossier que le mappage DITA. 15062)
+- L’activation en bloc du contenu publié ne fonctionne pas pour les cartes localisées. (17638)
 
 
 ## Gestion
