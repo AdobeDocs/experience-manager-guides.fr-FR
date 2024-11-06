@@ -5,10 +5,10 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: bc2348ae3342addf9ab05a3e3898fa485dba9bcf
+source-git-commit: f7ce1dc72edfcec939e5bd25bbf82c2e3907a326
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 14%
+source-wordcount: '836'
+ht-degree: 12%
 
 ---
 
@@ -92,6 +92,40 @@ Selon le processus de traduction utilisé dans votre configuration, l’option d
 
 1. Cliquez sur **Enregistrer**.
 
+>[!IMPORTANT]
+>
+> Après avoir configuré les configurations de traduction, assurez-vous de configurer la configuration cloud appropriée sur les dossiers de langue.
+
+## Configuration du processus de traduction hérité
+
+>[!IMPORTANT]
+> 
+> Il est recommandé d’utiliser le dernier workflow de traduction, qui offre des performances améliorées. Toutefois, si des personnalisations sont activées dans votre processus de traduction actuel, pensez à utiliser le processus de traduction hérité.
+
+Par défaut, l’option de workflow de traduction héritée est désactivée. Vous pouvez configurer cette option en procédant comme suit :
+
+1. Ouvrez la page de configuration de la console web Adobe Experience Manager .
+
+   L&#39;URL par défaut pour accéder à la page de configuration est :
+
+   ```http
+   http://<server name>:<port>/system/console/configMgr
+   ```
+
+1. Recherchez et cliquez sur le lot **com.adobe.fmdita.config.ConfigManager**.
+
+1. Configurez l’option de processus de traduction hérité selon votre configuration :
+
+   - (*Par défaut*) Si vous souhaitez utiliser le dernier processus de traduction, désactivez l’option **Exécuter le processus de traduction hérité**.
+   - Si vous souhaitez utiliser le processus de traduction hérité, activez l’option **Exécuter le processus de traduction hérité** .
+
+1. Cliquez sur **Enregistrer**.
+
+
+
+
+
+
 <!---
 
 This was added for 2406 CS IG
@@ -125,9 +159,7 @@ Based on the translation workflow used in your setup, provide the following (pro
 
 
 --->
->[!IMPORTANT]
->
-> Après avoir configuré les configurations de traduction, assurez-vous de configurer la configuration cloud appropriée sur les dossiers de langue.
+
 
 ## Configuration du post-traitement des copies de langue temporaires
 
@@ -145,10 +177,10 @@ Par défaut, l’option de post-traitement des fichiers temporaires est désacti
 
 1. Recherchez et cliquez sur le lot **com.adobe.fmdita.config.ConfigManager**.
 
-1. Configurez l’option **Copies de langue de processus Post** en fonction de votre configuration :
+1. Configurez l’option **Post-traitement des copies de langue** en fonction de votre configuration :
 
-   - \(*Par défaut*\) Si vous ne souhaitez pas exécuter l’opération de post-traitement sur les fichiers temporaires, *Désactivez* l’option **Copies de langue de processus Post**.
+   - \(*Par défaut*\) Si vous ne souhaitez pas exécuter l’opération de post-traitement sur les fichiers temporaires, *Désactivez* l’option **Copies de langue de post-traitement**.
 
-   - Si vous souhaitez exécuter l’opération de post-traitement sur les fichiers temporaires, alors *Activez* l’option **Copies de langue de processus Post** .
+   - Si vous souhaitez exécuter l’opération de post-traitement sur les fichiers temporaires, alors *Activez* l’option **Post-traitement des copies de langue** .
 
 1. Cliquez sur **Enregistrer**.

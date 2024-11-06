@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: f74362c78532ddd7721faf66789281a8c0704194
+source-git-commit: 2362870e0e3e6c08df03e8c547bb77de7faa0a02
 workflow-type: tm+mt
-source-wordcount: '6995'
+source-wordcount: '7008'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 >
 > Suivez les instructions de mise à niveau spécifiques à la version sous licence de votre produit.
 
-Vous pouvez mettre à niveau votre version actuelle de Experience Manager Guides vers la version 4.6.1 :
+Vous pouvez mettre à niveau votre version actuelle de Experience Manager Guides vers la version 4.6.0 Service Pack 1 :
 
 
-- Si vous utilisez la version 4.6.0, vous pouvez directement effectuer la mise à niveau vers la version 4.6.1.
-- Si vous utilisez la version 4.4, 4.3.1 ou 4.3.0 , vous devez effectuer la mise à niveau vers la version 4.6.0 avant de passer à la version 4.6.1.
+- Si vous utilisez la version 4.6.0, vous pouvez directement effectuer la mise à niveau vers le Service Pack 1 4.6.0.
+- Si vous utilisez la version 4.4, 4.3.1 ou 4.3.0 , vous devez effectuer la mise à niveau vers la version 4.6.0 avant de passer à la version 4.6.0 Service Pack 1.
 - Si vous utilisez les versions 4.2, 4.2.1 (correctif 4.2.1.3), 4.1 ou 4.1.x, vous devez effectuer la mise à niveau vers la version 4.4 avant de passer à la version 4.6.0.
 - Si vous utilisez la version 4.0, vous devez effectuer la mise à niveau vers la version 4.2 avant de passer à la version 4.3.x.
 - Si vous utilisez la version 3.8.5, vous devez effectuer la mise à niveau vers la version 4.0 avant de passer à la version 4.2.
@@ -987,7 +987,7 @@ Pendant cette mise à niveau, puisque la valeur `'order'` est passée de 1000 à
 
 >[!TIP]
 >
-> Il est recommandé d’installer Hotfix 4.6.1 sur la version 4.6.0. Le processus de mise à niveau de la version 4.6.1 suit les mêmes étapes que la version 4.6.0.
+> Il est recommandé d’installer le Service Pack 1 4.6.0 sur la version 4.6.0. Le processus de mise à niveau de la version 4.6.0 Service Pack 1 suit les mêmes étapes que la version 4.6.0.
 
 La mise à niveau vers la version 4.6.0 dépend de la version actuelle de Experience Manager Guides. Si vous utilisez les versions 4.4.0, 4.3.1, 4.3.0, 4.2 ou 4.2.1 (correctif 4.2.1.3), vous pouvez directement mettre à niveau vers la version 4.6.0.
 
