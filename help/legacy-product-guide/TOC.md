@@ -4,9 +4,9 @@ user-guide-description: Consultez la documentation du produit Adobe Experience�
 breadcrumb-title: Documentation d’AEM Guides
 hide: true
 badgeAll: label="Guide hérité - Plus d’informations" type="Informative" url="/help/legacy-product-guide/legacy.md" tooltip="Guide hérité"
-source-git-commit: 62c69ba7765f89b03381a5526e616a9118426fb9
+source-git-commit: 328f74790de401c0595bcc4009110bc36f5104bf
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '543'
 ht-degree: 6%
 
 ---
@@ -107,6 +107,8 @@ ht-degree: 6%
       - [Présentation des paramètres prédéfinis de sortie](./user-guide/generate-output-understand-presets.md)
       - Paramètres prédéfinis de sortie dans AEM Guides {#output-presets-aemg}
          - [AEM site](./user-guide/generate-output-aem-site.md)
+         - [Paramètres prédéfinis AEM Sites dans le tableau de bord de mappage](./user-guide/generate-output-aem-site-map-dashboard.md)
+         - [Paramètres prédéfinis AEM Sites dans l’éditeur web](./user-guide/generate-output-aem-site-web-editor.md)
          - [PDF](./user-guide/generate-output-pdf.md)
          - [Base de connaissances](./user-guide/generate-output-knowledge-base.md)
          - [HTML5](./user-guide/generate-output-html5.md)
