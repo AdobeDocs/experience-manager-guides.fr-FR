@@ -3,7 +3,7 @@ title: Affichages de l’éditeur web
 description: Affichez des documents en mode création, source et aperçu. Découvrez comment afficher le contenu en fonction de filtres conditionnels, afficher les balises de suivi des modifications et exporter une rubrique en tant que PDF dans AEM Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%

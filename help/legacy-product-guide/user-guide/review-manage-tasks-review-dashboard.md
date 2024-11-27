@@ -3,7 +3,7 @@ title: Gestion des tâches de révision à l’aide du tableau de bord de révis
 description: Gérez les tâches de révision à partir du tableau de bord de révision dans AEM Guides. Découvrez les actions à effectuer sous l'onglet Tâche, Contenu, Réviseurs et vérifiez l'état d'une tâche de révision.
 feature: Reviewing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 0%

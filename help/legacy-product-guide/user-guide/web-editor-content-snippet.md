@@ -3,7 +3,7 @@ title: Insertion d’un fragment de contenu à partir de votre source de donnée
 description: Utilisez les données de votre source de données dans AEM Guides. Découvrez comment insérer un fragment de contenu de votre source de données. Créez une rubrique à l’aide du générateur de rubriques.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -26,18 +26,18 @@ Selon votre configuration, votre administrateur peut configurer un connecteur de
 <summary> Services cloud </summary>
 
 
-- Si vous utilisez la version d’octobre 2023 ou une version ultérieure, apprenez à [configurer un connecteur de source de données à partir de l’interface utilisateur](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) dans le Guide d’installation et de configuration de Cloud Service.
+- Si vous utilisez la version d’octobre 2023 ou une version ultérieure, apprenez à [configurer un connecteur de source de données à partir de l’interface utilisateur](../cs-install-guide/conf-data-source-connector-tools.md) dans le Guide d’installation et de configuration de Cloud Service.
 
-- Si vous utilisez la version de juillet 2023 ou de septembre 2023, apprenez à [configurer un connecteur de source de données](/help/product-guide/cs-install-guide/conf-data-source-connector.md) dans le Guide d’installation et de configuration de Cloud Service.
+- Si vous utilisez la version de juillet 2023 ou de septembre 2023, apprenez à [configurer un connecteur de source de données](../cs-install-guide/conf-data-source-connector.md) dans le Guide d’installation et de configuration de Cloud Service.
 
 </details>
 
 <details>    
 <summary>  Logiciel On-Premise </summary>
 
-- Si vous utilisez la version 4.3.1 ou ultérieure, apprenez à [configurer un connecteur de source de données à partir de l’interface utilisateur](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) dans le Guide d’installation et de configuration On-premise.
+- Si vous utilisez la version 4.3.1 ou ultérieure, apprenez à [configurer un connecteur de source de données à partir de l’interface utilisateur](../cs-install-guide/conf-data-source-connector-tools.md) dans le Guide d’installation et de configuration On-premise.
 
-- Si vous utilisez la version 4.3, apprenez à [configurer un connecteur de source de données](/help/product-guide/cs-install-guide/conf-data-source-connector.md) dans le Guide d’installation et de configuration On-premise.
+- Si vous utilisez la version 4.3, apprenez à [configurer un connecteur de source de données](../cs-install-guide/conf-data-source-connector.md) dans le Guide d’installation et de configuration On-premise.
 </details>
 
 
@@ -103,7 +103,7 @@ Les modèles d’usine de la source de données sélectionnée s’affichent dan
 
    >[!NOTE]
    >  
-   > Si votre administrateur a configuré des modèles personnalisés, ces modèles s’affichent également dans la liste déroulante (en fonction des configurations de chemin d’accès au modèle effectuées par votre administrateur).
+   > Si votre administrateur a configuré des modèles personnalisés, ils s’affichent également dans la liste déroulante (en fonction des configurations de chemin d’accès au modèle effectuées par votre administrateur).
    >   
    >Vous pouvez également utiliser les outils Velocity dans les modèles. Découvrez comment [utiliser les outils Velocity](#use-velocity-tools).
 
@@ -119,7 +119,7 @@ Les modèles d’usine de la source de données sélectionnée s’affichent dan
 
    1. L&#39;aperçu montre comment les données seront affichées lorsqu&#39;elles seront insérées dans le contenu. L&#39;aperçu affiche une petite fraction des données au format du modèle sélectionné.
 Par exemple :
-      - Si vous avez sélectionné le modèle sql-table, vous pouvez visualiser les données SQL sous forme tabulaire.
+      - Si vous avez sélectionné le modèle sql-table, vous pouvez visualiser les données SQL dans un format tabulaire.
       - Si vous avez sélectionné le modèle de liste jira, vous pouvez afficher une liste classée pour les problèmes Jira.
 
    1. La vue source affiche les données dans la vue source DITA.
@@ -205,7 +205,7 @@ Effectuez les étapes suivantes pour créer une rubrique à l’aide du généra
       >
       > Si votre administrateur a configuré des modèles personnalisés, ils s’affichent également dans la liste déroulante (en fonction des configurations de chemin d’accès au modèle effectuées par votre administrateur). Vous pouvez par exemple créer un modèle de rubrique contenant une liste classée, des tableaux, des paragraphes ou d’autres éléments DITA.
 
-   1. Saisissez le **noeud racine**. Il s’agit du noeud sur lequel vous souhaitez accéder à vos données. Le générateur de rubrique crée ensuite chaque rubrique au niveau défini dans le noeud racine. Par exemple, vous pouvez ajouter &quot;issues&quot; comme noeud racine dans Jira. Ainsi, si une requête renvoie 13 problèmes, vous obtiendrez 13 rubriques, une rubrique pour chaque problème.
+   1. Saisissez le **noeud racine**. Il s’agit du noeud sur lequel vous souhaitez accéder à vos données. Le générateur de rubrique crée ensuite chaque rubrique au niveau défini dans le noeud racine. Par exemple, vous pouvez ajouter &quot;issues&quot; en tant que noeud racine dans Jira. Ainsi, si une requête renvoie 13 problèmes, vous obtiendrez 13 rubriques, une rubrique pour chaque problème.
 
    1. Cliquez sur **Récupérer** pour récupérer les données de la source de données et appliquer le modèle aux données qui résultent de la requête SQL. L’aperçu affiche une petite fraction de l’affichage de la rubrique au format du modèle sélectionné. Par exemple, vous pouvez afficher un seul problème Jira avec tous les champs qui résultent de la requête.
    1. Saisissez le nom du générateur de rubriques.

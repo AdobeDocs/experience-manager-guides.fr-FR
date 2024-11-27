@@ -3,7 +3,7 @@ title: Révision de rubriques ou de mappages
 description: Révisez efficacement les rubriques ou les mappages dans AEM Guides pour une évaluation du contenu fluide. Découvrez les fonctionnalités destinées aux auteurs et aux réviseurs dans AEM Guides.
 feature: Reviewing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%

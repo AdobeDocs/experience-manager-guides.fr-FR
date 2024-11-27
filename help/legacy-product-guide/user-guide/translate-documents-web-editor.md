@@ -3,9 +3,9 @@ title: Traduire des documents à partir de l’éditeur Web
 description: Traduisez votre contenu dans plusieurs langues à partir de l’éditeur web. Découvrez comment créer un projet de traduction, ajouter des règles, afficher les versions et ignorer les fichiers désynchronisés dans AEM Guides.
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2343'
 ht-degree: 1%
 
 ---
@@ -111,11 +111,15 @@ Dans un projet XLIFF, le contenu est exporté au format XLIFF standard du secteu
    - Vous pouvez sélectionner **Créer un projet de traduction multilingue** qui inclura des tâches de traduction pour toutes les langues que vous avez sélectionnées pour traduction. Par exemple, si vous avez sélectionné le français, l’allemand et l’espagnol, un projet contenant des tâches de traduction pour les trois langues sera créé.
    - Si vous disposez déjà d’un projet de traduction, vous pouvez ajouter des rubriques à ce projet. Sélectionnez Ajouter à **Projet de traduction existant** dans la liste Projet et choisissez un projet dans la liste Projet de traduction existant. Vous pouvez trier ces projets par ordre croissant ou décroissant le plus récent.
 
-     >[!NOTE]
-     >
-     > Si votre projet existant est un projet de définition de la portée, &quot;\(Portée\)&quot; est ajouté dans son nom.
+- Si vous sélectionnez **Projet de traduction existant**, cette opération met à jour l’entrée de ressource existante dans le projet si la ressource est déjà ajoutée et que l’état de la tâche de traduction associée est à l’état *Brouillon*.
+   - Si la langue de destination n’est pas présente dans le projet, un nouveau projet est créé pour le projet de traduction en une seule langue et une nouvelle tâche est créée pour le projet de traduction multilingue.
+   - Si la tâche est déjà présente pour la langue de destination et que l’état de la tâche n’est pas à l’état *Brouillon* , une nouvelle tâche est créée dans le même projet pour ajouter les ressources à traduire.
 
-   - Si vous devez créer la portée d’un projet à traduire, vous pouvez sélectionner **Créer un nouveau projet de traduction de définition de la portée**. Cela n’enverra pas les copies à traduire et l’état de traduction d’origine des fichiers est conservé. Il n’y a aucun impact sur la copie de langue de destination des rubriques référencées qui sont envoyées pour la définition de la portée.
+  >[!NOTE]
+  >
+  > Si votre projet existant est un projet de définition de la portée, &quot;\(Portée\)&quot; est ajouté dans son nom.
+
+- Si vous devez créer la portée d’un projet à traduire, vous pouvez sélectionner **Créer un nouveau projet de traduction de définition de la portée**. Cela n’enverra pas les copies à traduire et l’état de traduction d’origine des fichiers est conservé. Il n’y a aucun impact sur la copie de langue de destination des rubriques référencées qui sont envoyées pour la définition de la portée.
 1. Dans le champ **Titre du projet**, saisissez un titre pour le projet.
 1. Cliquez sur **Créer** pour créer un projet de traduction.
 
@@ -218,7 +222,7 @@ Votre administrateur peut configurer l’option **Nettoyage du projet de traduct
 
 Pour la gestion des documents, Experience Manager Guides permet de supprimer les projets de traduction une fois la traduction terminée.
 
-Vous pouvez également désactiver les projets de traduction si vous souhaitez les utiliser ultérieurement. La suppression d’un projet supprime tous les fichiers et dossiers présents dans le projet. La désactivation d’un projet ne le supprime pas, mais le conserve dans le référentiel. Vous ne pouvez toutefois pas mettre à jour ou modifier un projet désactivé.  La suppression ou la désactivation d’un projet n’a aucune incidence sur l’état de traduction des références.
+Vous pouvez également désactiver les projets de traduction si vous souhaitez les utiliser ultérieurement. La suppression d’un projet supprime tous les fichiers et dossiers présents dans le projet. La désactivation d’un projet ne le supprime pas, mais le conserve dans le référentiel. Mais vous ne pouvez pas mettre à jour ou modifier un projet désactivé.  La suppression ou la désactivation d’un projet n’a aucune incidence sur l’état de traduction des références.
 
 
 **Rubrique parente :**[ Utilisation de l’éditeur web](web-editor.md)

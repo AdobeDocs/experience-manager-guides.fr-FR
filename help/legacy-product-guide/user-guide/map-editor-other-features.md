@@ -3,7 +3,7 @@ title: Autres fonctionnalités des éditeurs de carte
 description: Découvrez certaines fonctionnalités courantes des éditeurs de mappage de base et avancé. Découvrez comment résoudre les références clés dans l’éditeur de cartes.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%

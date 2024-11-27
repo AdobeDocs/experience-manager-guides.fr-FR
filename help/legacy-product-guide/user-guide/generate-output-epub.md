@@ -3,7 +3,7 @@ title: EPUB prédéfini
 description: Découvrez comment créer un paramètre prédéfini d’EPUB à partir du tableau de bord de mappage. Configurez le paramètre prédéfini de sortie EPUB dans AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 1%

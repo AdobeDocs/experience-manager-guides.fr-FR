@@ -3,7 +3,7 @@ title: Commentaires sur la révision des adresses
 description: Découvrez comment traiter les commentaires de révision en tant qu’auteur dans AEM Guides. Découvrez comment un auteur peut modifier, filtrer, accepter ou rejeter des commentaires dans un document.
 feature: Reviewing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 # Commentaires sur la révision des adresses {#id2056B0X0KBI}
 
 
-En tant qu’auteur, vous pouvez traiter des commentaires dans une rubrique à l’aide de l’éditeur web. Les commentaires sont chargés en fonction de la tâche de révision sélectionnée dans le panneau Révision. Pour plus d’informations, consultez la description de la fonctionnalité **Panneau de révision** ![](images/active-review-tasklist-icon.svg) dans la section [Panneau de gauche](/help/product-guide/user-guide/web-editor-features.md#id2051EA0M0HS) .
+En tant qu’auteur, vous pouvez traiter des commentaires dans une rubrique à l’aide de l’éditeur web. Les commentaires sont chargés en fonction de la tâche de révision sélectionnée dans le panneau Révision. Pour plus d’informations, consultez la description de la fonctionnalité **Panneau de révision** ![](images/active-review-tasklist-icon.svg) dans la section [Panneau de gauche](../user-guide/web-editor-features.md#id2051EA0M0HS) .
 
 Les sections suivantes décrivent les méthodes de modification des commentaires dans l’éditeur web.
 

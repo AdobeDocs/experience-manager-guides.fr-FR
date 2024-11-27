@@ -1,11 +1,11 @@
 ---
-title: Generate PDF
+title: Générer des PDF
 description: Découvrez comment créer un paramètre prédéfini de PDF à partir de l’éditeur web et du tableau de bord de mappage. Configurez le paramètre prédéfini de sortie PDF dans AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1032'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ L&#39;onglet **Général** contient les configurations suivantes :
 L&#39;onglet Avancé contient les paramétrages suivants :
 
 - Activation des versions
-- Téléchargement de fichiers temporaires
+- Conserver les fichiers temporaires
 
 Pour plus d&#39;informations, reportez-vous à la section [Configuration du PDF](#id231KIM004X1).
 
@@ -62,7 +62,7 @@ Les options suivantes sont disponibles pour PDF Output :
 | Nom de la transformation | Indiquez le type de sortie à générer. Cela est nécessaire si vous souhaitez générer une sortie à l’aide de votre propre module externe personnalisé, qui est intégré au module externe DITA-OT. Par exemple, si vous souhaitez générer une sortie XHTML, spécifiez `xhtml`. Pour obtenir la liste des transformations disponibles dans DITA-OT, voir [Conversions DITA-OT (formats de sortie)](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.html) dans le Guide de l’utilisateur OASIS DITA-OT. |
 | Nom du fichier | Indiquez le nom de fichier avec lequel vous souhaitez enregistrer le PDF.<br><br>Vous pouvez également utiliser des variables lors de la définition du nom de fichier du PDF. Pour plus d’informations sur l’utilisation des variables, voir [Utilisation de variables pour définir le chemin de destination, le nom du site ou les options de nom de fichier](generate-output-use-variables.md#id18BUG70K05Z).<br><br>**Remarque** : si vous ne fournissez pas de nom de fichier, le titre de la carte DITA est utilisé pour générer le nom de fichier du PDF final. Si le mappage ne comporte pas de titre, le nom de fichier du mappage DITA est utilisé pour nommer le PDF final. Le nom de fichier est assaini à l’aide des règles configurées dans le système pour gérer tout caractère non valide. |
 | Chemin de destination | Chemin d’accès dans votre référentiel AEM où le PDF est stocké.<br><br>Vous pouvez également utiliser des variables lors de la définition du chemin de destination. Pour plus d’informations sur l’utilisation des variables, voir [Utilisation de variables pour définir le chemin de destination, le nom du site ou les options de nom de fichier](generate-output-use-variables.md#id18BUG70K05Z). |
-| Téléchargement de fichiers temporaires | Sélectionnez cette option pour télécharger les fichiers temporaires générés par DITA-OT. L’emplacement où DITA-OT stocke les fichiers temporaires se trouve dans le journal de génération de sortie. Si vous rencontrez des erreurs lors de la génération de la sortie via DITA-OT, sélectionnez cette option pour conserver les fichiers temporaires. Vous pouvez ensuite utiliser ces fichiers pour résoudre les erreurs de génération de sortie.<br> <br> Après avoir généré la sortie, sélectionnez l’icône **Télécharger les fichiers temporaires** ![ ](images/download-temp-files-icon.png) pour télécharger le dossier ZIP contenant les fichiers temporaires. <br><br> **Remarque** : si vous sélectionnez des propriétés de fichier, puis téléchargez les fichiers temporaires, vous obtenez également le fichier *metadata.xml* dans le dossier ZIP. |
+| Conserver les fichiers temporaires | Sélectionnez cette option pour conserver les fichiers temporaires générés par DITA-OT. Si vous rencontrez des erreurs lors de la génération de la sortie via DITA-OT, sélectionnez cette option pour conserver les fichiers temporaires. Vous pouvez ensuite utiliser ces fichiers pour résoudre les erreurs de génération de sortie.<br> <br> Après avoir généré la sortie, sélectionnez l’icône **Télécharger les fichiers temporaires** ![ ](images/download-temp-files-icon.png) pour télécharger le dossier ZIP contenant les fichiers temporaires. <br><br> **Remarque** : Si des propriétés de fichier sont ajoutées pendant la génération, les fichiers temporaires de sortie incluent également un fichier *metadata.xml* contenant ces propriétés. |
 | Utilisation de la ligne de base | Si vous avez créé une ligne de base pour le mappage DITA sélectionné, sélectionnez cette option pour spécifier la version que vous souhaitez publier.<br><br>Voir [Utilisation de la ligne de base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) pour plus de détails. |
 | Propriétés du fichier | Sélectionnez les propriétés que vous souhaitez traiter en tant que métadonnées. Ces propriétés sont définies à partir de la page Propriétés du mappage DITA ou du fichier bookmap. Les propriétés que vous sélectionnez dans la liste déroulante apparaissent sous le champ **Propriétés du fichier**. Sélectionnez l’icône croisée en regard de la propriété pour la supprimer. <br><br>Remarque : vous pouvez également transmettre les métadonnées à la sortie à l’aide de la publication DITA-OT. Pour plus d’informations, voir [Transmission des métadonnées à la sortie à l’aide de DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 

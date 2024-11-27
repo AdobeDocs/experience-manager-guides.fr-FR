@@ -3,7 +3,7 @@ title: Utilisation du panneau Génération rapide
 description: Utilisez le panneau de génération rapide dans AEM Guides. Découvrez comment générer et afficher la sortie à partir du panneau de génération rapide.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%

@@ -3,7 +3,7 @@ title: Autres fonctionnalités de l’éditeur web
 description: Découvrez d’autres fonctionnalités de l’éditeur web dans AEM Guides. Découvrez comment utiliser ces fonctionnalités pour améliorer la création dans AEM Guides.
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 0%
@@ -158,7 +158,7 @@ Les options suivantes peuvent s’afficher selon que le fichier est verrouillé/
 
 **Insérer des équations MathML**
 
-- Experience Manager Guides offre une prise en charge prête à l’emploi pour l’insertion d’équations MathML par intégration à l’application [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) . Pour insérer une équation MathML, sélectionnez l’icône **Insérer l’élément** et saisissez mathml. Lorsque vous sélectionnez un élément mathml dans la liste, la boîte de dialogue **Insérer MathML** s’affiche :
+- Experience Manager Guides offre une prise en charge prête à l’emploi pour l’insertion d’équations MathML par intégration à l’application [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) . Pour insérer une équation MathML, sélectionnez l’icône **Insérer l’élément** et saisissez html. Lorsque vous sélectionnez un élément mathml dans la liste, la boîte de dialogue **Insérer MathML** s’affiche :
 
 ![insérer une équation mathml dans l’éditeur mathml](images/insert-mathml-equation.png){width="550" align="left"}
 

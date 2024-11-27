@@ -3,9 +3,9 @@ title: Modification des rubriques dans l’éditeur web
 description: Découvrez comment modifier des rubriques dans l’éditeur web. Découvrez les différentes fonctions d’édition permettant de modifier vos fichiers de rubrique dans AEM Guides.
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,13 @@ L’éditeur web s’accompagne d’un éventail de fonctions d’édition qui v
 ## Sélection partielle de contenu entre les éléments
 
 Experience Manager Guides vous permet également de sélectionner du contenu sur plusieurs éléments. Après avoir sélectionné le contenu, vous pouvez effectuer les opérations suivantes :
+
 - Mise en forme et suppression : mettez le contenu sélectionné en gras, en italique, en souligné ou supprimez-le. Le contenu des balises ouvertes valides est ensuite fusionné et apparaît sous un seul élément. Vous pouvez par exemple sélectionner le contenu d’un paragraphe et étendre la sélection à un autre paragraphe. Ensuite, si vous mettez le contenu sélectionné en gras, tout le contenu en gras des balises ouvertes est fusionné et s’affiche sous un seul élément de paragraphe.
 
 De même, si vous supprimez le contenu sélectionné, le contenu restant après la suppression dans les balises ouvertes est fusionné.
 
 - Entourez le contenu d’un élément valide : procédez comme suit pour encapsuler le contenu avec un élément valide :
+
    - Sélectionnez le contenu dans un élément.
    - Sélectionnez l’icône ![add](images/Add_icon.svg) dans la barre d’outils secondaire supérieure pour afficher la boîte de dialogue **Surround with Element**. La boîte de dialogue répertorie les éléments valides pour le contenu sélectionné.
      >[!NOTE]
@@ -73,7 +75,27 @@ AEM Guides indique également si la dernière copie enregistrée \(en cours\) du
 ![Indicateur de mise à jour de version](images/version-update-indicator.png){width="550" align="left"}
 
 
+## Ouvrir les fichiers verrouillés en mode Auteur et Source
 
+Lorsqu’un fichier DITA ou Markdown est verrouillé ou extrait par un autre utilisateur, la modification ou la modification du contenu n’est pas possible. Cependant, vous pouvez toujours afficher le fichier dans un format en lecture seule en modes **Auteur** et **Source** , en plus du mode **Aperçu** .
+
+En mode lecture seule, vous avez la possibilité d’afficher le contenu, les balises et les attributs dans les modes **Auteur** ou **Source** . Vous pouvez également modifier les propriétés du fichier.
+
+La barre d’outils affiche les icônes suivantes pour un accès en lecture seule :
+
+- Activer/désactiver la vue Balises
+- Historique des versions
+- Libellé de version
+
+Experience Manager Guides affiche également un indicateur **Lecture seule** près du numéro de version.
+
+![afficher le fichier en lecture seule en mode création](images/locked-file-editor.png)
+
+Vous pouvez accéder à la vue **Disposition** pour les mappages DITA en lecture seule. Cette vue vous permet d’afficher le mappage DITA et ses propriétés, mais empêche les modifications.
+
+>[!NOTE]
+>
+> Les utilisateurs administratifs au niveau du dossier doivent mettre à jour *ui_config.json* afin que vous puissiez accéder harmonieusement aux fichiers en lecture seule dans les modes Auteur, Source et Mise en page.
 
 ## Recherche d’un fichier ouvert en mode Référentiel
 

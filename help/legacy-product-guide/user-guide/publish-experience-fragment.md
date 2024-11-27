@@ -3,7 +3,7 @@ title: Publish d’une rubrique dans un fragment d’expérience
 description: Publish d’une rubrique ou des éléments d’une rubrique dans un fragment d’expérience dans AEM Guides.  Découvrez comment afficher les fragments d’expérience présents pour une rubrique et les republier.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%
@@ -60,7 +60,7 @@ Par exemple :
 
 
 
-     Votre administrateur peut ajouter les mappages dans le fichier *experienceFragmentMapping.json*.  Découvrez comment [créer un mappage entre une rubrique et un fragment d’expérience](/help/product-guide/cs-install-guide/conf-experience-fragment-mapping-cs.md) dans le Guide d’installation et de configuration.
+     Votre administrateur peut ajouter les mappages dans le fichier *experienceFragmentMapping.json*.  Découvrez comment [créer un mappage entre une rubrique et un fragment d’expérience](../cs-install-guide/conf-experience-fragment-mapping-cs.md) dans le Guide d’installation et de configuration.
 
    * Vous pouvez également sélectionner différentes conditions pour publier le contenu.  Sélectionnez l’une des options suivantes :
 

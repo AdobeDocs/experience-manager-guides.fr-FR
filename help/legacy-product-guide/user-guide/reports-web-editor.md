@@ -3,7 +3,7 @@ title: Rapport de mappage DITA à partir de l’éditeur web
 description: Générez des rapports de mappage DITA à partir de l’éditeur web dans AEM Guides. Découvrez comment générer un fichier CSV pour une liste de rubriques, un fichier multimédia, des métadonnées et des rapports sur les liens rompus.
 feature: Report Generation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2366'
 ht-degree: 0%

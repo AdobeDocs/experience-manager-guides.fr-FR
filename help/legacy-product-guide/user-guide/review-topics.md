@@ -3,7 +3,7 @@ title: Rubriques de révision
 description: Découvrez comment passer en revue des rubriques et utiliser les fonctionnalités comme réviseur, vue de document, vue de rubrique, barre d’outils contextuelle, mode Aperçu, ajouter des pièces jointes aux commentaires et panneau Conditions dans AEM Guides.
 feature: Reviewing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2351'
 ht-degree: 0%

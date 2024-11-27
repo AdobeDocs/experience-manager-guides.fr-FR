@@ -3,7 +3,7 @@ title: Création de contenu à l’aide d’AEM Guides
 description: Créez efficacement du contenu à l’aide d’AEM Guides. Découvrez comment créer, modifier et publier vos documents dans AEM Guides.
 feature: Authoring
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 0%

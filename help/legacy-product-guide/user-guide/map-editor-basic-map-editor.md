@@ -3,14 +3,19 @@ title: Utilisation de l’éditeur de cartes de base
 description: Découvrez comment utiliser l’éditeur de cartes de base dans AEM Guides. Découvrez les fonctionnalités de l’éditeur de mappage de base au niveau de la carte et de la rubrique. Créez et modifiez des tableaux de relation dans un mappage DITA.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
 
 # Utilisation de l’éditeur de cartes de base {#id1942CM005Y4}
+
+>[!NOTE]
+>
+> L’éditeur de cartes de base, auparavant disponible dans Experience Manager Guides, a été abandonné à partir des versions 4.3 et 2307. Vous ne pouvez pas accéder à l’éditeur de cartes de base pour créer et gérer des mappages DITA.
+>Il est recommandé d’utiliser l’éditeur de mappage avancé. L’éditeur de carte avancé offre des fonctionnalités améliorées et de meilleures options de personnalisation. Découvrez comment travailler avec l’ [éditeur de carte avancé](../user-guide/map-editor-advanced-map-editor.md).
 
 L’éditeur de mappage de base (Basic Map Editor) offre une fonctionnalité de glisser-déposer simple pour ajouter des rubriques à partir de votre référentiel AEM afin de créer le mappage ou le signet DITA. Vous pouvez ajouter des rubriques imbriquées, des tables de relations \(reltable\), des informations d’attributs et de métadonnées, et également valider le mappage pour vérifier son exactitude.
 

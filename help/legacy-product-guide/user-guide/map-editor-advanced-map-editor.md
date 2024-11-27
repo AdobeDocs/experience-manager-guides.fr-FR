@@ -3,7 +3,7 @@ title: Utilisation de l’éditeur de mappage avancé
 description: Découvrez comment utiliser l’éditeur de mappage avancé dans AEM Guides. Découvrez les fonctionnalités de l’éditeur de cartes avancé. Modifiez les rubriques par le biais d’un mappage DITA et utilisez les modes de mise en page, de création et d’aperçu.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '3788'
 ht-degree: 0%

@@ -3,7 +3,7 @@ title: Création de cartes à partir de modèles personnalisés
 description: Découvrez comment créer un modèle personnalisé, les utiliser pour créer des fichiers de mappage et transmettre le titre défini à un mappage DITA dans AEM Guides.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -93,18 +93,17 @@ Le message relatif au modèle de carte créé s’affiche. Vous pouvez ajouter l
 Votre administrateur peut également créer un dossier et le configurer pour qu’il soit le dossier dans lequel vous pouvez créer et enregistrer les modèles.
 
 Selon votre configuration, apprenez à configurer le chemin d’accès au dossier de modèle DITA personnalisé :
+<details>
+    <summary> Services cloud </summary>
 
-+++ Services cloud
+Découvrez comment [configurer le chemin d’accès au dossier de modèle DITA personnalisé](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) dans le Guide d’installation et de configuration de Cloud Service.
+</details>
 
-Découvrez comment [configurer le chemin d’accès au dossier de modèle DITA personnalisé](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z){target="_blank"} dans le Guide d’installation et de configuration de Cloud Service.
+<details>
+    <summary> Logiciel On-Premise</summary>
 
-+++
-
-+++ Logiciel On-Premise
-
-Découvrez comment [configurer le chemin d’accès au dossier de modèle DITA personnalisé](/help/product-guide/cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) dans le Guide d’installation et de configuration On-premise.
-
-+++
+Découvrez comment [configurer le chemin d’accès au dossier de modèle DITA personnalisé](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) dans le Guide d’installation et de configuration On-premise.
+</details>
 
 ## Transmettre le titre défini dans les modèles
 

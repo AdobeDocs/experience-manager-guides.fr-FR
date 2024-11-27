@@ -3,7 +3,7 @@ title: Charger des fichiers
 description: Découvrez comment charger vos fichiers dans le référentiel AEM et gérer les erreurs. Découvrez l’interface utilisateur de la console de ressources, AEM l’appli de bureau, l’outil d’assimilation en masse de ressources et utilisez le FrameMaker pour le chargement en masse.
 feature: Content Management
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 1%

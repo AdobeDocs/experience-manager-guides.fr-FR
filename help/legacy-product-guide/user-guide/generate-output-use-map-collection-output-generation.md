@@ -3,7 +3,7 @@ title: Utilisation de la collecte des cartes pour la génération de la sortie
 description: Découvrez comment créer et supprimer une collection de mappages et ajouter ou supprimer un mappage DITA. Configurez, générez et annulez une tâche de génération de sortie à partir d’une collection de mappages dans AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 0%

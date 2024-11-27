@@ -3,7 +3,7 @@ title: Création de contenu à l’aide d’outils de bureau
 description: Créez du contenu à l’aide des outils de bureau dans AEM Guides. Découvrez comment travailler avec Adobe FrameMaker et Oxygen XML Editor pour créer et publier du contenu DITA.
 feature: Authoring, Desktop Tools
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 0%

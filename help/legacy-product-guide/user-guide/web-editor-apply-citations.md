@@ -3,7 +3,7 @@ title: Ajouter et gérer des citations dans votre contenu
 description: Ajoutez et gérez des citations dans AEM Guides. Découvrez comment appliquer, importer, filtrer, rechercher, modifier le style de la citation, modifier, prévisualiser, insérer, supprimer et générer une sortie de contenu avec des citations.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -48,12 +48,12 @@ La boîte de dialogue **Ajouter une citation** s’ouvre.
 
    >[!NOTE]
    >
-   >Vous pouvez également ajouter l&#39;ISBN, le DOI ou le PubMed ID. AEM Guides renseigne automatiquement les autres champs.
+   >Vous pouvez également ajouter l’identifiant ISBN, DOI ou PubMed. AEM Guides renseigne automatiquement les autres champs.
 
    | Livre | Site Web | Journal |
    | --- | ---|---|
    | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation en tant que Livre. | **Source**<br> Dans la liste déroulante, sélectionnez la source de la citation en tant que site Web. | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation en tant que Journal. |
-   | **Rechercher par** <br> Sélectionnez **ISBN** ou **DOI** dans la liste déroulante pour rechercher l’ID numérique associé à la citation.  <br> DOI : identifiant d’objet numérique <br> ISBN : identifiant unique de livre numérique | **Rechercher par** <br> Sélectionnez **DOI** dans la liste déroulante pour rechercher l’ID numérique associé à la citation. | **Effectuer une recherche par** <br> Sélectionnez **DOI** ou PubMed ID dans la liste déroulante pour rechercher l’ID numérique associé à la citation. <br>  <br> |
+   | **Effectuer une recherche par** <br> Sélectionnez **ISBN** ou **DOI** dans la liste déroulante pour rechercher l’ID numérique associé à la citation.  <br> DOI : identifiant d’objet numérique <br> ISBN : identifiant de livre numérique unique | **Rechercher par** <br> Sélectionnez **DOI** dans la liste déroulante pour rechercher l’ID numérique associé à la citation. | **Effectuer une recherche par** <br> Sélectionnez **DOI** ou PubMed ID dans la liste déroulante pour rechercher l’ID numérique associé à la citation. <br>  <br> |
    | **Auteur** <br> Ajoutez le prénom et le nom de l’auteur de la citation. Sélectionnez ![](images/Add_icon.svg) pour ajouter d’autres noms. | **Auteur** <br> Ajoutez le prénom et le nom de l’auteur de la citation. Sélectionnez ![](images/Add_icon.svg) pour ajouter d’autres noms. | **Auteur** <br> Ajoutez le prénom et le nom de l’auteur de la citation. Sélectionnez ![](images/Add_icon.svg) pour ajouter d’autres noms. |
    | **Titre** <br> Ajoutez le titre du livre. | **Titre** <br> Ajoutez le titre de la page web. | **Titre** <br> Ajoutez le titre de l’article. |
    | **Editor** <br> Ajoutez l’éditeur du livre. | **Nom du site Web** <br> Ajoutez le nom du site Web. | **Titre du journal** <br> Ajoutez le titre du travail dans lequel l’article est trouvé. |
@@ -257,10 +257,10 @@ Une fois que vous avez inséré des citations dans la rubrique, vous pouvez publ
 
 Dans la sortie du PDF natif, les citations apparaissent dans le contenu dans lequel vous les avez insérées. Vous pouvez également créer une page de bibliographie. Lorsque vous cliquez sur une citation, vous êtes redirigé vers la page de bibliographie.
 
-Créez une mise en page **Citations** dans les modèles de PDF et incluez-la dans votre document. Toutes les citations utilisées dans le livre sont répertoriées sur une page qui apparaît dans la sortie du PDF. Pour en savoir plus sur la création d’une mise en page, consultez la page [Créer une mise en page](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
+Créez une mise en page **Citations** dans les modèles de PDF et incluez-la dans votre document. Toutes les citations utilisées dans le livre sont répertoriées sur une page qui apparaît dans la sortie du PDF. Pour en savoir plus sur la création d’une mise en page, consultez la page [Créer une mise en page](../native-pdf/components-pdf-template.md#create-page-layout).
 
 
-Pour modifier l’affichage et l’aspect de la page de citation, consultez la page [Personnaliser les modèles de PDF](/help/product-guide/native-pdf/pdf-template.md).
+Pour modifier l’affichage et l’aspect de la page de citation, consultez la page [Personnaliser les modèles de PDF](../native-pdf/pdf-template.md).
 
 
 
@@ -272,4 +272,4 @@ Appliquez la mise en forme à la citation lorsqu’elle est ajoutée à la rubri
 
 1. Dans le panneau Rechercher, recherchez `<cite>`.
 
-Pour en savoir plus sur les styles, consultez [Utilisation des styles de contenu communs](/help/product-guide/native-pdf/stylesheet.md).
+Pour en savoir plus sur les styles, consultez [Utilisation des styles de contenu communs](../native-pdf/stylesheet.md).

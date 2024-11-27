@@ -3,7 +3,7 @@ title: Clause de non-responsabilité
 description: Il s’agit d’une clause exonératoire de responsabilité concernant le changement de nom de produit de XML Documentation pour Adobe Experience Manager en AEM Guides.
 feature: Disclaimer
 role: User, Leader, Admin, Developer
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 3%

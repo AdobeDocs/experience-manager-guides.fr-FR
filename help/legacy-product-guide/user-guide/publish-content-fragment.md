@@ -3,10 +3,10 @@ title: Publish d’une rubrique sur un fragment de contenu
 description: Publish d’une rubrique ou des éléments d’une rubrique dans un fragment de contenu dans AEM Guides.  Découvrez comment afficher les fragments de contenu présents pour une rubrique et les republier.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 1%
+source-wordcount: '1031'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,11 @@ ht-degree: 1%
 
 Les fragments de contenu sont des éléments de contenu distincts dans Adobe Experience Manager. Il s’agit de contenu structuré basé sur un modèle de contenu. Les fragments de contenu sont du contenu pur sans informations de conception ou de mise en page. Ils peuvent être créés et gérés indépendamment des canaux pris en charge par Adobe Experience Manager. Les fragments de contenu sont modulaires, où le contenu est ventilé en composants plus petits.
 
-Adobe Experience Manager Guides vous permet de publier une rubrique ou les éléments d’une rubrique sur un fragment de contenu. Vous pouvez créer un mappage basé sur JSON entre une rubrique et un modèle de fragment de contenu. Utilisez ce mappage pour publier une rubrique ou les éléments d’une rubrique sur un fragment de contenu. Vous pouvez ensuite utiliser des fragments de contenu sur n’importe quel site Adobe Experience Manager ou extraire les détails via des API prises en charge par les fragments de contenu.
+Experience Manager Guides vous permet de publier une rubrique ou ses éléments dans un fragment de contenu.
+
+>[!NOTE]
+>
+>Vous pouvez choisir uniquement les éléments d’une rubrique dont l’attribut id est défini.
 
 
 Pour créer un fragment de contenu, procédez comme suit :
@@ -28,41 +32,50 @@ Par exemple, ajoutez `/conf/we-retail` dans la configuration cloud. Cette config
 
 1. Pour générer un fragment de contenu, sélectionnez **Nouvelle sortie** ![nouvelle icône de sortie](./images/Add_icon.svg) dans la section **Sorties** de la rubrique **Propriétés du fichier**.
 1. Sélectionnez **Fragment de contenu**.\
-   ![ Onglet Options des propriétés de fichier ](./images/file-properties-outputs-tab.png){width="300" align="left"}
+   ![ Onglet Options des propriétés de fichier ](./images/file-properties-outputs-tab.png) {width="300" align="left"}
 
    *Ajoutez un nouveau fragment de contenu à partir des propriétés de fichier d’une rubrique*.
 
-1. Dans la boîte de dialogue **Générer un fragment de contenu**, renseignez les détails suivants :
-   ![Ajoutez le modèle de fragment et les détails de mappage dans la boîte de dialogue Publish en tant que fragment de contenu](images/content-fragment-publish.png){width="500" align="left"}
-   *Ajoutez les détails du chemin, du modèle et du mappage pour publier une rubrique ou ses éléments en tant que fragment de contenu. Vous pouvez remplacer un fragment de contenu existant.*
+1. Dans la boîte de dialogue **Générer un fragment de contenu**, renseignez les détails suivants sous les onglets **Général** et **Mapping** .
 
-   >[!NOTE]
-   >
-   >Vous pouvez également publier un fragment de contenu à partir de la **vue du référentiel**. Sélectionnez la rubrique que vous souhaitez publier en tant que fragment de contenu. Ensuite, dans le menu **Options**, sélectionnez **Publish As** > **Fragment de contenu**.
+   Onglet **Général**
+   ![Ajoutez le modèle de fragment et les détails de mappage dans la boîte de dialogue Publish en tant que fragment de contenu](images/generate-content-fragment.png)
+   *Ajoutez le chemin, le nom, le titre et le filtrage de condition pour publier une rubrique ou ses éléments en tant que fragment de contenu.*
+
 
    * **Chemin** : recherchez et sélectionnez le chemin d’accès du dossier dans lequel vous souhaitez publier le fragment de contenu. Si vous sélectionnez un fragment de contenu existant, il remplace le contenu des champs mappés.
    * **Titre** : saisissez le titre du fragment de contenu. Par défaut, le titre est renseigné avec le titre de la rubrique. Vous pouvez le modifier. Ce titre est utilisé pour générer le nom du fragment de contenu.
    * **Nom** : saisissez le nom du fragment de contenu. Par défaut, le nom est renseigné avec le titre de la rubrique et les espaces sont remplacés par &quot;_&quot;. Par exemple, *sample_content_fragment*. Vous pouvez le modifier.  Ce nom est utilisé pour générer l’URL du fragment de contenu.
-   * **Modèle** : sélectionnez le modèle de fragment de contenu que vous souhaitez utiliser pour créer votre fragment de contenu. Les modèles sont sélectionnés dans le dossier que vous avez configuré dans les services cloud.
-   * **Mapping** : sélectionnez un mappage dans la liste déroulante. Il sélectionne les mappages à partir du fichier *contentFragmentMapping.json*.
 
-
-
-     Votre administrateur peut ajouter les mappages dans le fichier *contentFragmentMapping.json*. Découvrez comment [créer un mappage entre une rubrique et un fragment de contenu](/help/product-guide/cs-install-guide/conf-content-fragment-mapping-cs.md) dans le Guide d’installation et de configuration.
-
-   * Vous pouvez également sélectionner différentes conditions pour publier le contenu.  Sélectionnez l’une des options suivantes :
-
-
-      * **Aucun** : sélectionnez cette option si vous ne souhaitez appliquer aucune condition sur la sortie publiée.
-      * **Utilisation de DITAVAL** : sélectionnez le fichier DITAVAL pour générer la sortie, qui inclut du contenu spécifique. Vous pouvez sélectionner le fichier DITAVAL à l’aide de la boîte de dialogue de navigation ou en saisissant le chemin du fichier.
-      * **Utilisation d’attributs** : vous pouvez définir des attributs de condition dans vos rubriques DITA. Sélectionnez ensuite l’attribut de condition pour publier le contenu correspondant.
+   * Vous pouvez sélectionner différentes conditions pour créer des variantes de fragments de contenu. Sélectionnez l’une des options suivantes :
      >[!NOTE]
      > 
-     >Les conditions ne sont activées que si les attributs de condition sont définis dans la rubrique.
+     > Les conditions ne sont activées que si les attributs de condition sont définis dans la rubrique.
+
+      * **Aucun** : sélectionnez cette option si vous ne souhaitez appliquer aucune condition sur la sortie publiée.
+      * **Utilisation de DITAVAL** : sélectionnez le fichier DITAVAL pour inclure ou exclure du contenu spécifique dans la sortie générée. Vous pouvez sélectionner le fichier DITAVAL à l’aide de la boîte de dialogue de navigation ou en saisissant le chemin du fichier.
+      * **Utilisation d’attributs** : vous pouvez définir des attributs de condition dans vos rubriques DITA. Sélectionnez ensuite l’attribut de condition pour publier le contenu correspondant.
 
 
 
-   * Sélectionnez **Remplacer le contenu existant** si votre fragment de contenu existe déjà et que vous souhaitez le remplacer. Experience Manager Guides affiche une erreur si vous ne cochez pas la case et que votre fragment de contenu existe déjà.
+
+
+
+   Onglet **Mapping**
+
+   ![Ajoutez le modèle de fragment et les détails de mappage dans la boîte de dialogue Publish en tant que fragment de contenu](images/content-fragment-mapping.png)
+
+   *Sélectionnez le modèle de fragment de contenu et ajoutez les détails du mappage pour publier une rubrique ou ses éléments en tant que fragment de contenu.*
+
+   * **Modèle** : sélectionnez le modèle de fragment de contenu que vous souhaitez utiliser pour créer votre fragment de contenu. Les modèles sont sélectionnés dans le dossier que vous avez configuré sur le serveur Experience Manager Guides.
+   * **Mapping** : vous pouvez afficher les éléments de rubrique auxquels un attribut id est appliqué. Faites glisser les éléments de la rubrique vers les champs présents dans le modèle de fragment de contenu.
+Le côté droit est renseigné avec le contenu du fragment de contenu publié dans le cas d’un fragment de contenu existant. Ils peuvent être remplacés par le contenu de la rubrique, si nécessaire. Vous pouvez également sélectionner **Annuler** pour annuler les modifications de mappage.
+
+
+     >[!NOTE]
+     >
+     > Si vous utilisez des versions 4.4 ou antérieures, sélectionnez un mappage dans la liste déroulante. Il sélectionne les mappages à partir du fichier *contentFragmentMapping.json*.  Votre administrateur peut ajouter les mappages dans le fichier *contentFragmentMapping.json*. Découvrez comment [créer un mappage entre une rubrique et un fragment de contenu](../cs-install-guide/conf-content-fragment-mapping-cs.md) dans le Guide d’installation et de configuration.
+
 1. Cliquez sur **Générer** pour publier le fragment de contenu.
 
 1. Vous pouvez afficher les fragments de contenu pour une rubrique sous la section **Sorties** dans les **propriétés du fichier**.
@@ -81,9 +94,9 @@ Une fois que vous avez publié les fragments de contenu, vous pouvez également 
 
 Vous pouvez également effectuer les actions suivantes pour un fragment de contenu à partir du menu **Options** :
 
-* **Générer** : republiez le fragment de contenu pour le mettre à jour avec le contenu le plus récent de la rubrique DITA. Lorsque vous régénérez la sortie, vous ne pouvez pas modifier le chemin, le nom, le titre, le modèle et le mappage du fragment de contenu. Vous pouvez toutefois sélectionner différentes conditions lors de la régénération de la sortie.
+* **Générer** : republiez le fragment de contenu pour le mettre à jour avec le contenu le plus récent de la rubrique DITA. Lorsque vous régénérez la sortie, vous pouvez modifier le chemin, le nom, le titre, le modèle et le mappage du fragment de contenu. Vous pouvez également sélectionner différentes conditions lors de la régénération de la sortie.
 
-* **Dupliquer** : dupliquez un fragment de contenu. Vous pouvez modifier le chemin, le nom, le titre, le modèle et le mappage. Vous pouvez également sélectionner différentes conditions lorsque vous dupliquez un fragment de contenu.
+* **Dupliquer** : dupliquez un fragment de contenu. Vous pouvez modifier le chemin, le nom, le titre, le modèle et le mappage. Vous pouvez également sélectionner différentes conditions lorsque vous dupliquez un fragment de contenu pour créer une variante de fragment de contenu.
 
 * **Supprimer** : supprimez un fragment de contenu de la liste des sorties. Une invite de confirmation s’affiche. Une fois que vous avez confirmé, le fragment de contenu est supprimé de la liste **Sorties**.
 
@@ -93,4 +106,8 @@ Vous pouvez également effectuer les actions suivantes pour un fragment de conte
 
 * **Afficher** : affichez l’éditeur de fragment de contenu. Vous pouvez également apporter des modifications et les enregistrer.
 
+## Amélioration de la migration du contenu non UUID vers UUID
 
+Le nouveau script de migration de contenu UID a été considérablement optimisé, ce qui rend la migration de contenu d’un UUID à un UUID 30 fois plus rapide que le script précédent. Il comprend des fonctionnalités telles que la reprise à partir des points de contrôle, des informations en direct, une estimation du temps d’achèvement et des rapports détaillés, ce qui garantit un processus de migration harmonieux. En particulier, le processus de migration conserve les métadonnées des ressources sans aucune modification. Le script a été testé et vérifié sur un grand jeu de données de 3 millions de ressources, confirmant son efficacité et sa fiabilité pour les migrations à grande échelle.
+
+En savoir plus sur la [migration de contenu non UUID vers UUID](../install-guide/migrate-non-uuid-uuid.md).
