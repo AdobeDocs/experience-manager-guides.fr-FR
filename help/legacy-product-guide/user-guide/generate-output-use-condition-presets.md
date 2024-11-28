@@ -3,7 +3,7 @@ title: Utilisation des paramètres de condition prédéfinis
 description: Découvrez l’utilisation des paramètres prédéfinis de condition dans AEM Guides. Découvrez comment créer, modifier, copier et supprimer des paramètres prédéfinis de condition dans AEM.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: f8f1116efbf0c7c26f6ebacf6234dcc2fee636c1
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 2%
@@ -71,7 +71,7 @@ Utilisez l’une des méthodes suivantes :
    >
    > Un avertissement s’affiche si vous sélectionnez un autre paramètre prédéfini ou fermez-le sans l’enregistrer.
 
-Une fois que vous avez créé un paramètre prédéfini de condition, il apparaît sous la liste déroulante **Paramètres prédéfinis de condition** des paramètres prédéfinis de sortie. En savoir plus sur la [sortie Publish PDF](../web-editor/native-pdf-web-editor.md).
+Une fois que vous avez créé un paramètre prédéfini de condition, il apparaît sous la liste déroulante **Paramètres prédéfinis de condition** des paramètres prédéfinis de sortie. En savoir plus sur la [sortie Publish PDF](/help/product-guide/web-editor/native-pdf-web-editor.md).
 
 ### Renommer un paramètre prédéfini de condition
 
