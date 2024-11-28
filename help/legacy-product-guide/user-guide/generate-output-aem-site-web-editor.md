@@ -3,7 +3,7 @@ title: AEM Sites
 description: Créez et configurez le paramètre prédéfini AEM Sites dans l’éditeur web et générez une sortie AEM Sites pour le mappage DITA, les rubriques sélectionnées et les rubriques liées.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '2732'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 Vous pouvez créer des paramètres prédéfinis AEM Sites à partir de l’éditeur web et les configurer pour générer la sortie AEM Sites. La sortie AEM Sites est basée sur le mappage des composants composites avec `guides-components`, ce qui facilite la création et la gestion de contenu efficaces.
 
 Experience Manager Guides fournit des modèles prédéfinis pour la création d’AEM Sites. Ces paramètres prédéfinis vous aident à assurer la cohérence de la disposition et de la structure du contenu.
-- [Créez des pages d’accueil](../cs-install-guide/download-install-aem-sites-templates-cs.md#create-a-home-page-using-the-template) en fonction de ces modèles prédéfinis.
-- Vous pouvez [modifier les modèles de rubrique](../cs-install-guide/download-install-aem-sites-templates-cs.md#package-installation) et appliquer des styles en fonction de vos besoins.
-- Vous pouvez également [personnaliser les modèles AEM Sites existants](../cs-install-guide/download-install-aem-sites-templates-cs.md#customize-existing-aem-sites-templates).
+- [Créez des pages d’accueil](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#create-a-home-page-using-the-template) en fonction de ces modèles prédéfinis.
+- Vous pouvez [modifier les modèles de rubrique](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#package-installation) et appliquer des styles en fonction de vos besoins.
+- Vous pouvez également [personnaliser les modèles AEM Sites existants](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#customize-existing-aem-sites-templates).
 
 
 
@@ -40,8 +40,8 @@ Pour créer les paramètres prédéfinis AEM Sites à partir de l’éditeur web
 >[!NOTE]
 >
 >Avant de configurer les paramètres prédéfinis AEM Sites pour Experience Manager Guides, votre administrateur doit créer une structure AEM Sites à l’aide des modèles.
-- **Logiciel on-premise** : découvrez comment [télécharger et installer des modèles AEM Sites](../install-guide/download-install-aem-sites-templates.md) pour le logiciel on-premise.
-- **Cloud Service** : découvrez comment [télécharger et installer des modèles AEM Sites](../cs-install-guide/download-install-aem-sites-templates-cs.md) pour Cloud Service.
+- **Logiciel on-premise** : découvrez comment [télécharger et installer des modèles AEM Sites](/help/product-guide/install-guide/download-install-aem-sites-templates.md) pour le logiciel on-premise.
+- **Cloud Service** : découvrez comment [télécharger et installer des modèles AEM Sites](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) pour Cloud Service.
 
 
 
@@ -140,7 +140,7 @@ Les options suivantes sont disponibles pour la sortie AEM Sites :
 Experience Manager Guides vous permet d’utiliser les modèles prêts à l’emploi ou d’ajouter vos propres modèles AEM Sites.
 
 Avant de configurer les paramètres prédéfinis AEM Sites, veillez à créer une structure AEM Sites à l’aide des modèles.\
-Pour plus d’informations, voir [Télécharger et installer des modèles AEM Sites](../install-guide/download-install-aem-sites-templates.md).
+Pour plus d’informations, voir [Télécharger et installer des modèles AEM Sites](/help/product-guide/install-guide/download-install-aem-sites-templates.md).
 
 
 

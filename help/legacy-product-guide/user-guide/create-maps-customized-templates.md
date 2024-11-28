@@ -3,7 +3,7 @@ title: Création de cartes à partir de modèles personnalisés
 description: Découvrez comment créer un modèle personnalisé, les utiliser pour créer des fichiers de mappage et transmettre le titre défini à un mappage DITA dans AEM Guides.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -96,13 +96,13 @@ Selon votre configuration, apprenez à configurer le chemin d’accès au dossie
 <details>
     <summary> Services cloud </summary>
 
-Découvrez comment [configurer le chemin d’accès au dossier de modèle DITA personnalisé](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) dans le Guide d’installation et de configuration de Cloud Service.
+Découvrez comment [configurer le chemin d’accès au dossier de modèle DITA personnalisé](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) dans le Guide d’installation et de configuration de Cloud Service.
 </details>
 
 <details>
     <summary> Logiciel On-Premise</summary>
 
-Découvrez comment [configurer le chemin d’accès au dossier de modèle DITA personnalisé](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) dans le Guide d’installation et de configuration On-premise.
+Découvrez comment [configurer le chemin d’accès au dossier de modèle DITA personnalisé](/help/product-guide/cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) dans le Guide d’installation et de configuration On-premise.
 </details>
 
 ## Transmettre le titre défini dans les modèles

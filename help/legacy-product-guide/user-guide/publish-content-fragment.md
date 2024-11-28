@@ -3,7 +3,7 @@ title: Publish d’une rubrique sur un fragment de contenu
 description: Publish d’une rubrique ou des éléments d’une rubrique dans un fragment de contenu dans AEM Guides.  Découvrez comment afficher les fragments de contenu présents pour une rubrique et les republier.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Le côté droit est renseigné avec le contenu du fragment de contenu publié da
 
      >[!NOTE]
      >
-     > Si vous utilisez des versions 4.4 ou antérieures, sélectionnez un mappage dans la liste déroulante. Il sélectionne les mappages à partir du fichier *contentFragmentMapping.json*.  Votre administrateur peut ajouter les mappages dans le fichier *contentFragmentMapping.json*. Découvrez comment [créer un mappage entre une rubrique et un fragment de contenu](../cs-install-guide/conf-content-fragment-mapping-cs.md) dans le Guide d’installation et de configuration.
+     > Si vous utilisez des versions 4.4 ou antérieures, sélectionnez un mappage dans la liste déroulante. Il sélectionne les mappages à partir du fichier *contentFragmentMapping.json*.  Votre administrateur peut ajouter les mappages dans le fichier *contentFragmentMapping.json*. Découvrez comment [créer un mappage entre une rubrique et un fragment de contenu](/help/product-guide/cs-install-guide/conf-content-fragment-mapping-cs.md) dans le Guide d’installation et de configuration.
 
 1. Cliquez sur **Générer** pour publier le fragment de contenu.
 
@@ -110,4 +110,4 @@ Vous pouvez également effectuer les actions suivantes pour un fragment de conte
 
 Le nouveau script de migration de contenu UID a été considérablement optimisé, ce qui rend la migration de contenu d’un UUID à un UUID 30 fois plus rapide que le script précédent. Il comprend des fonctionnalités telles que la reprise à partir des points de contrôle, des informations en direct, une estimation du temps d’achèvement et des rapports détaillés, ce qui garantit un processus de migration harmonieux. En particulier, le processus de migration conserve les métadonnées des ressources sans aucune modification. Le script a été testé et vérifié sur un grand jeu de données de 3 millions de ressources, confirmant son efficacité et sa fiabilité pour les migrations à grande échelle.
 
-En savoir plus sur la [migration de contenu non UUID vers UUID](../install-guide/migrate-non-uuid-uuid.md).
+En savoir plus sur la [migration de contenu non UUID vers UUID](/help/product-guide/install-guide/migrate-non-uuid-uuid.md).

@@ -3,7 +3,7 @@ title: Insertion d’un fragment de contenu à partir de votre source de donnée
 description: Utilisez les données de votre source de données dans AEM Guides. Découvrez comment insérer un fragment de contenu de votre source de données. Créez une rubrique à l’aide du générateur de rubriques.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -26,18 +26,18 @@ Selon votre configuration, votre administrateur peut configurer un connecteur de
 <summary> Services cloud </summary>
 
 
-- Si vous utilisez la version d’octobre 2023 ou une version ultérieure, apprenez à [configurer un connecteur de source de données à partir de l’interface utilisateur](../cs-install-guide/conf-data-source-connector-tools.md) dans le Guide d’installation et de configuration de Cloud Service.
+- Si vous utilisez la version d’octobre 2023 ou une version ultérieure, apprenez à [configurer un connecteur de source de données à partir de l’interface utilisateur](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) dans le Guide d’installation et de configuration de Cloud Service.
 
-- Si vous utilisez la version de juillet 2023 ou de septembre 2023, apprenez à [configurer un connecteur de source de données](../cs-install-guide/conf-data-source-connector.md) dans le Guide d’installation et de configuration de Cloud Service.
+- Si vous utilisez la version de juillet 2023 ou de septembre 2023, apprenez à [configurer un connecteur de source de données](/help/product-guide/cs-install-guide/conf-data-source-connector.md) dans le Guide d’installation et de configuration de Cloud Service.
 
 </details>
 
 <details>    
 <summary>  Logiciel On-Premise </summary>
 
-- Si vous utilisez la version 4.3.1 ou ultérieure, apprenez à [configurer un connecteur de source de données à partir de l’interface utilisateur](../cs-install-guide/conf-data-source-connector-tools.md) dans le Guide d’installation et de configuration On-premise.
+- Si vous utilisez la version 4.3.1 ou ultérieure, apprenez à [configurer un connecteur de source de données à partir de l’interface utilisateur](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) dans le Guide d’installation et de configuration On-premise.
 
-- Si vous utilisez la version 4.3, apprenez à [configurer un connecteur de source de données](../cs-install-guide/conf-data-source-connector.md) dans le Guide d’installation et de configuration On-premise.
+- Si vous utilisez la version 4.3, apprenez à [configurer un connecteur de source de données](/help/product-guide/cs-install-guide/conf-data-source-connector.md) dans le Guide d’installation et de configuration On-premise.
 </details>
 
 

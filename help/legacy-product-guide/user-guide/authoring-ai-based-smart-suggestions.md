@@ -1,7 +1,7 @@
 ---
 title: Suggestions intelligentes optimisées par l’IA pour créer du contenu
 description: Découvrez comment afficher et utiliser les suggestions intelligentes optimisées par l’IA dans l’éditeur web.
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Lorsque vous créez du contenu, la fonction **Suggest reutilisable content** de 
 Vous pouvez ainsi réutiliser du contenu existant de votre référentiel de documentation et créer un contenu cohérent. Par exemple, vous créez un document contenant des informations sur **Adobe Firefly**, y compris un paragraphe sur **Adobe**. Dans ce cas, vous pouvez rapidement afficher et ajouter la référence de contenu d’une autre rubrique, telle que **Adobe Photoshop**, qui inclut le même paragraphe.
 >[!NOTE]
 >
-> Dans les [ profils globaux ou de niveau dossier ](../cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions), votre administrateur doit définir les fichiers ou les dossiers à indexer pour les suggestions intelligentes, le nombre minimum de caractères à saisir pour afficher les suggestions et le nombre maximum de suggestions que vous pouvez afficher dans la liste.
+> Dans les [ profils globaux ou de niveau dossier ](/help/product-guide/cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions), votre administrateur doit définir les fichiers ou les dossiers à indexer pour les suggestions intelligentes, le nombre minimum de caractères à saisir pour afficher les suggestions et le nombre maximum de suggestions que vous pouvez afficher dans la liste.
 
 Effectuez les étapes suivantes pour afficher les suggestions intelligentes pour ajouter des références de contenu appropriées à votre rubrique :
 

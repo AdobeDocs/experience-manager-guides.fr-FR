@@ -3,7 +3,7 @@ title: Présentation des fonctionnalités de l’éditeur web
 description: Découvrez les fonctionnalités de l’éditeur web dans AEM Guides. Découvrez l’interface de l’éditeur web, notamment la barre d’outils principale, la barre d’outils secondaire, le panneau de gauche, la zone d’édition de contenu et le panneau de droite.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '18802'
 ht-degree: 0%
@@ -605,7 +605,7 @@ Si vous vous trouvez dans la vue Carte et que vous développez la carte parent, 
 
 L’info-bulle d’archivage/extraction est déterminée par la propriété title dans le fichier `ui_config.json`.
 
-Pour plus d&#39;informations, voir [Configuration du titre des icônes d&#39;archivage et d&#39;extraction](../install-guide/conf-checkin-checkout-title.md) dans le Guide d&#39;installation et de configuration On-premise.
+Pour plus d&#39;informations, voir [Configuration du titre des icônes d&#39;archivage et d&#39;extraction](/help/product-guide/install-guide/conf-checkin-checkout-title.md) dans le Guide d&#39;installation et de configuration On-premise.
 
 
 **Activer/désactiver la vue Balises** - ![](images/Label_icon.svg)
@@ -1142,7 +1142,7 @@ Les différentes options du menu Options sont expliquées ci-dessous :
 
   >[!NOTE]
   >
-  >Contactez votre équipe de réussite client pour que cette fonctionnalité soit activée dans l’environnement. Cette fonctionnalité n’est pas activée dans le cadre de la prise en charge prête à l’emploi. Pour plus d’informations, consultez la section [Configuration de l’option à modifier dans Oxygen](../cs-install-guide/conf-edit-in-oxygen.md) du Guide d’installation et de configuration.
+  >Contactez votre équipe de réussite client pour que cette fonctionnalité soit activée dans l’environnement. Cette fonctionnalité n’est pas activée dans le cadre de la prise en charge prête à l’emploi. Pour plus d’informations, consultez la section [Configuration de l’option à modifier dans Oxygen](/help/product-guide/cs-install-guide/conf-edit-in-oxygen.md) du Guide d’installation et de configuration.
 
 
 - **Afficher dans l’interface utilisateur d’Assets** : utilisez cette option pour afficher un aperçu d’un fichier .dita/.xml dans l’interface utilisateur d’Assets. Dans le cas d’un fichier .ditamap/.bookmap, tous les fichiers de rubrique du mappage sont affichés dans une seule vue page par page unifiée.
