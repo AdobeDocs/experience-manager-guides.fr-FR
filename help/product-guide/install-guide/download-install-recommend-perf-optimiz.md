@@ -1,59 +1,59 @@
 ---
 title: Recommendations pour l’optimisation des performances
-description: Découvrez Recommendations pour l’optimisation des performances
+description: Découvrir le Recommendations pour l’optimisation des performances
 exl-id: b2a836a0-de82-4d89-aae3-43276997da74
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: b28b7d96cce69f677b0bcf891b94d7ac84eb1eb0
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
 
 # Recommendations pour l’optimisation des performances {#id213BD0JG0XA}
 
-## Configurer l’entrepôt de données \(obligatoire\)
+## Configuration du magasin de données \(Obligatoire\)
 
-**Quelle est la modification ?**
-Définissez la propriété `minRecordLength` sur une valeur `100` sous la configuration `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` Pour plus d’informations sur le magasin de dates de fichier et le magasin de données S3, consultez l’article [Configuration des magasins de noeuds et des entrepôts de données dans AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html) .
+**Quel est le changement ?**
+Définissez la propriété `minRecordLength` sur une valeur de `100` sous le `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` de configuration. Pour plus d’informations sur le magasin de dates de fichiers et le magasin de données S3, consultez l’article [Configuration des magasins de nœuds et de données dans AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html) .
 
 >[!NOTE]
 >
-> Pour l’entrepôt de données S3, le coût de maintenance du contenu dans l’entrepôt de données dépend également du nombre de requêtes. Par conséquent, lors de l’exécution de ce paramètre avec S3, le coût de configuration par requête et la taille du cache doivent également être pris en compte.
+> Pour le magasin de données S3, le coût de maintenance du contenu du magasin de données dépend également du nombre de requêtes. Par conséquent, lorsque vous définissez ce paramètre avec S3, le coût de configuration par requête et la taille du cache doivent également être pris en compte.
 
 **Quand configurer ?**
-Après la configuration initiale, mais avant la migration de tout contenu. Vous devez effectuer cette modification même sur un système existant, qui garantit que tout nouveau contenu est stocké dans l’entrepôt de données au lieu de l’entrepôt de segments.
+Après la configuration initiale, mais avant la migration d’un contenu. Vous devez effectuer cette modification même sur un système existant, ce qui garantit que tout nouveau contenu est stocké dans l’entrepôt de données plutôt que dans l’entrepôt de segments.
 
 **Résultat de cette modification**
-Les fichiers DITA sont enregistrés dans l’entrepôt de données plutôt que dans l’entrepôt de segments. Cela permet de maintenir la taille de la banque de segments sous les limites recommandées, ce qui améliore la réactivité du système.
+Les fichiers DITA sont enregistrés dans l&#39;entrepôt de données plutôt que dans l&#39;entrepôt de segments. Cela permet de maintenir la taille de la banque de segments sous les limites recommandées, ce qui améliore la réactivité du système.
 
-## Mise à jour de l’index Lucene \(obligatoire\)
+## Mettre à jour l’index Lucene \(Obligatoire\)
 
-**Quelle est la modification ?**
+**Quel est le changement ?**
 Excluez /var/dxml de oak:index/lucene.
 
 >[!NOTE]
 >
-> AEM Guides n’utilise jamais les index Lucene pour rechercher du contenu dans le noeud /var/dxml .
+> AEM Guides n’utilise jamais les index Lucene pour rechercher du contenu dans le nœud /var/dxml.
 
 **Quand configurer ?**
-Si vous effectuez cette modification sur un nouveau système avant de migrer le contenu, seule la mise à jour oak:index/lucene est requise. Dans le cas contraire, sur un système existant où le contenu est déjà migré, après avoir apporté la modification dans oak:index/lucene, reconstruisez les index pour Lucene \(*qui peuvent prendre quelques heures pour se terminer*\).
+Si vous apportez cette modification à un nouveau système avant de migrer le contenu, seule la mise à jour de oak:index/lucene est requise. Sinon, sur un système existant où le contenu est déjà migré, après avoir effectué la modification dans oak:index/lucene, recréez les index pour Lucene \(*ce qui peut prendre quelques heures*\).
 
 **Résultat de cette modification**
-Cette modification empêche le noeud /var/dxml d’être indexé et stocké dans le magasin de segments.
+Cette modification empêche le nœud /var/dxml d’être indexé et stocké dans le magasin de segments.
 
 ## Optimisation de la mémoire Java \(Obligatoire\)
 
-**Quelle est la modification ?**
-Les paramètres de démarrage de la JVM doivent être soigneusement réglés en fonction de l’infrastructure et de la taille du disque. Il est recommandé de consulter le support Adobe pour obtenir de l’aide afin d’accéder à la configuration idéale. Vous pouvez toutefois essayer vous-même les configurations suivantes :
+**Quel est le changement ?**
+Les paramètres de démarrage de la JVM doivent être soigneusement réglés en fonction de l’infrastructure et de la taille du disque. Il est recommandé de consulter le support technique d’Adobe pour obtenir de l’aide afin d’accéder à la configuration idéale. Vous pouvez toutefois essayer les configurations suivantes vous-même :
 
-- Définissez la taille du tas JVM sur un minimum de 1/4 de la quantité totale de mémoire disponible. Utilisez le paramètre `-Xmx<size>` pour définir la taille de la mémoire du tas. Définissez la valeur de -`Xms` égale à `-Xmx`.
+- Définissez la taille du tas JVM sur un minimum de 1/4 de la mémoire totale disponible. Utilisez le paramètre `-Xmx<size>` pour définir la taille de la mémoire de tas. Définissez la valeur de -`Xms` est égale à `-Xmx`.
 
-- Activez `-XX:+HeapDumpOnOutOfMemoryError` et définissez le chemin pour `-XX:HeapDumpPath=</path/to/folder``>`.
+- Activez `-XX:+HeapDumpOnOutOfMemoryError` et définissez le chemin d’accès pour `-XX:HeapDumpPath=</path/to/folder``>`.
 
-- Activez le journal GC Java en tant que :
+- Activez le journal Java GC en tant que :
 
 `* -XX:+PrintGCDateStamps`
 
@@ -67,64 +67,52 @@ Les paramètres de démarrage de la JVM doivent être soigneusement réglés en 
 
 - En général, pour Java 11, utilisez G1GC \(`-XX:+UseG1GC`\) et pour Java 8, utilisez CMS \(-`XX:+UseConcMarkSweepGC`\).
 
-- Utilisez `-XX:NewRatio` pour contrôler la taille de la taille de la mémoire de la jeune génération. La valeur par défaut est 2, ce qui signifie que 1/3 de la mémoire est utilisée pour la jeune génération. Comme de nombreux objets sont rapidement créés et détruits, l’utilisation d’une valeur de 1 allouera 1/2 de la mémoire à la jeune génération.
+- Utilisez `-XX:NewRatio` pour contrôler la taille de la mémoire de la jeune génération. La valeur par défaut est 2, ce qui signifie que 1/3 de la mémoire est utilisé pour la jeune génération. Comme de nombreux objets sont créés et détruits rapidement, l’utilisation d’une valeur de 1 allouera 1/2 de la mémoire à la jeune génération.
 
-- Contrôlez le nombre d’objets convertis en anciennes générations à l’aide de `-XX:MaxTenuringThreshold`. Utilisez la valeur 15 \(default\) pour retarder la conversion d’objets en objets de l’ancienne génération.
+- Contrôlez le nombre d’objets promus vers l’ancienne génération à l’aide de `-XX:MaxTenuringThreshold`. Utilisez la valeur 15 \(default\) pour retarder le passage des objets à l&#39;ancienne génération.
 
 **Quand configurer ?**
-Si vous effectuez cette modification sur un système existant, vous devez redémarrer le système. Dans le cas d’une nouvelle installation, cette modification doit être effectuée dans le fichier de script de démarrage \(.bat ou .sh\) avant le démarrage du système.
+Si vous apportez cette modification à un système existant, vous devez redémarrer le système. Dans le cas d’une nouvelle installation, cette modification doit être effectuée dans le fichier de script de démarrage \(.bat ou .sh\) avant le démarrage du système.
 
 **Résultat de cette modification**
-Cela se traduit par une taille de tas optimale et une exécution réglementée du GC.
+Cela permet d’obtenir une taille de tas optimale et une exécution régulée du GC.
 
-## Minimisation de la bibliothèque cliente sur l’instance d’auteur \(facultatif\)
+## Minimisation de la bibliothèque cliente sur l’instance d’auteur \(Facultatif\)
 
-**Quelle est la modification ?**
-Les bibliothèques clientes doivent être définies pour être réduites dans les instances de création. Cela permet de s’assurer qu’il y a moins d’octets à télécharger lorsqu’un utilisateur navigue sur le système à partir de différents emplacements. Pour effectuer cette modification, définissez la configuration dans **HTML Library Manager** à partir de la console Felix.
+**Quel est le changement ?**
+Les bibliothèques clientes doivent être définies pour être réduites dans les instances de création. Cela permet de s’assurer qu’il y a moins d’octets à télécharger lorsqu’un utilisateur ou une utilisatrice parcourt le système à partir de différents emplacements. Pour effectuer cette modification, définissez la configuration dans **HTML Library Manager** à partir de la console Felix.
 
 **Quand configurer ?**
 Cela peut être effectué au moment de l’exécution via la console Felix ou via le déploiement du code.
 
 **Résultat de cette modification**
-Cette modification améliore le temps de chargement des pages sur l’instance d’auteur, car moins d’octets sont transférés pour le chargement des bibliothèques clientes.
+Cette modification réduit le temps de chargement des pages sur l’instance d’auteur, car moins d’octets sont transférés pour charger les bibliothèques clientes.
 
-## Configuration de threads de publication simultanés \(obligatoire, selon le cas d’utilisation\)
+## Configuration des threads de publication simultanée \(obligatoire, selon le cas d’utilisation\)
 
-**Quelle est la modification ?**
+**Quel est le changement ?**
 Cette modification est requise si vous utilisez DITA-OT pour publier la sortie et qu’un certain nombre de threads de publication simultanés sont également définis.
 
-Par défaut, AEM Guides définit les threads de publication sur le nombre de processeurs+1. Cependant, il est recommandé de définir cette valeur sur la moitié \(1/2\) ou un tiers \(1/3\) du nombre total d’unités centrales. Pour ce faire, définissez la propriété **Generation Pool Size** sous la configuration `com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` conformément aux recommandations.
+Par défaut, AEM Guides définit les threads de publication sur le nombre de processeurs+1. Cependant, il est recommandé de définir cette valeur sur la moitié \(1/2\) ou sur le tiers \(1/3\) du nombre total de processeurs. Pour ce faire, définissez la propriété **Taille du pool de génération** sous le `com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` de configuration en fonction des recommandations.
 
 **Quand configurer ?**
 Cela peut être effectué au moment de l’exécution via la console Felix ou via le déploiement du code.
 
 **Résultat de cette modification**
-Cette modification permet de s’assurer que toutes les ressources ne sont pas allouées pour les opérations de publication sur une instance d’auteur en cours d’exécution. Cela permet de conserver les ressources système disponibles pour les auteurs, ce qui se traduit par une meilleure expérience utilisateur.
+Cette modification garantit que sur une instance de création en cours d’exécution, toutes les ressources ne sont pas allouées pour les opérations de publication. Cela permet aux auteurs et autrices de disposer des ressources système, ce qui se traduit par une meilleure expérience utilisateur.
 
-## Configuration de la taille de lot des noeuds pour AEM génération de sortie de site \(obligatoire, selon le cas d’utilisation\)
+## Configurez la taille de lot des nœuds pour la génération de sortie AEM Site \(Obligatoire, selon le cas d’utilisation\)
 
-**Quelle est la modification ?**
+**quel est le changement ?**
 Cette modification est requise si vous générez une sortie AEM Sites.
 
-Définissez la propriété **Limiter les pages AEM du site dans le tas** sous `com.adobe.fmdita.config.ConfigManager` sur un nombre en fonction de la configuration de votre système. Cette propriété définit la taille de lot des noeuds à valider lors de la génération des pages du site. Par exemple, sur un système avec un plus grand nombre de processeurs et une taille de tas plus importante, vous pouvez augmenter la valeur par défaut de `500` à un plus grand nombre. Vous devez tester l’exécution avec la valeur modifiée pour obtenir une valeur optimale pour cette propriété.
+Définissez la propriété **Limiter les pages du site AEM dans le tas** sous `com.adobe.fmdita.config.ConfigManager` sur un nombre en fonction de la configuration de votre système. Cette propriété définit la taille du lot des nœuds à valider lors de la génération des pages du site. Par exemple, sur un système avec un plus grand nombre de processeurs et une taille de tas plus importante, vous pouvez augmenter la valeur par défaut de `500` à un plus grand nombre. Vous devez tester l’exécution avec la valeur modifiée pour obtenir une valeur optimale pour cette propriété.
 
 **Quand configurer ?**
 Cela peut être effectué au moment de l’exécution via la console Felix ou via le déploiement du code.
 
 **Résultat de cette modification**
-Un nombre accru de la propriété **Limiter les pages du site AEM dans Heap** optimise le processus de génération de sortie AEM site.
+Un nombre accru de la propriété **Limiter les pages du site AEM dans le tas** optimise le processus de génération de sortie du site AEM.
 
-## Optimiser le nombre de threads de post-traitement \(obligatoire, selon le cas d’utilisation\)
-
-**Quelle est la modification ?**
-Cette modification est requise si vous téléchargez du contenu DITA en masse.
-
-Définissez la propriété **Post Process Threads** sous `com.adobe.fmdita.config.ConfigManager` sur `1`.
-
-**Quand configurer ?**
-Cela peut être effectué au moment de l’exécution.
-
-**Résultat de cette modification**
-Cette modification réduit le temps de post-traitement lors du téléchargement massif de fichiers DITA.
 
 **Rubrique parente :**[ Télécharger et installer](download-install.md)
