@@ -1,9 +1,10 @@
 ---
 title: Notes de mise à jour | Correction de problèmes dans la version 2024.12.0 d’Adobe Experience Manager Guides
 description: Découvrez les correctifs de bugs de la version 2024.12.0 d’Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: f643a4a22151af2ff14288ab3885c1a6657a80ca
+exl-id: 04a57e1a-6e74-46f6-acde-5045d3dcacdc
+source-git-commit: dd404c42863f0b4a5f31b54f770c0bf296d68ab9
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '408'
 ht-degree: 1%
 
 ---
@@ -40,3 +41,30 @@ Découvrez les [instructions de mise à niveau pour la version 2024.12.0](./upgr
 ## Traduction
 
 - La traduction des cartes à l’aide de la ligne de base devient lente et ne parvient finalement pas à charger la liste de toutes les rubriques et de tous les fichiers de cartes associés. (19733)
+
+## Problèmes connus liés à la solution de contournement
+
+Adobe a identifié les problèmes connus suivants dans la version 2024.12.0 d’Adobe Experience Manager Guides as a Cloud Service.
+
+**La création du projet échoue lors du traitement de la traduction du contenu**
+
+Lors de l’envoi de contenu pour traduction, la création du projet échoue avec les erreurs de journal suivantes :
+
+`com.adobe.cq.wcm.translation.impl.TranslationPrepareResource` erreur lors du traitement du projet de traduction
+
+`com.adobe.cq.projects.api.ProjectException` : impossible de créer le projet
+
+Cause : `org.apache.jackrabbit.oak.api.CommitFailedException` : `OakAccess0000` : accès refusé
+
+
+**Solution de contournement** : pour résoudre ce problème, effectuez les étapes de contournement suivantes :
+
+1. Ajoutez un fichier repoinit . Si le fichier n’existe pas, créez-le en suivant les étapes [création d’un exemple de configuration repoinit](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854).
+2. Ajoutez la ligne suivante dans le fichier et déployez le code :
+
+   ```
+   { "scripts": [ "set principal ACL for translation-job-service\n allow jcr:all on /home/users/system/cq:services/internal/translation\nend" ] }
+   ```
+
+3. Testez la traduction après le déploiement.
+
