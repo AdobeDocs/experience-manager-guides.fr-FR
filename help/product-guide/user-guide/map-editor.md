@@ -1,39 +1,41 @@
 ---
 title: Utilisation de l’éditeur de cartes
-description: Utilisation de l’éditeur de cartes dans AEM Guides. Découvrez comment créer et modifier un fichier map dans AEM éditeur de mappage.
+description: Utiliser l’éditeur de cartes dans AEM Guides Découvrez comment créer et modifier un fichier de carte dans l’éditeur de cartes d’AEM.
 exl-id: 1c780ae2-6917-474f-8222-cb93807426e2
 feature: Authoring, Map Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
-# Utilisation de l’éditeur de cartes {#id181OF0M30Y4}
+# Présentation de l’éditeur de cartes {#id181OF0M30Y4}
 
-L’éditeur de cartes d’AEM Guides vous permet de créer et de modifier des fichiers de mappage. À l’aide de l’éditeur de cartes, vous pouvez modifier deux types de fichiers : le mappage DITA et le signet. Vous pouvez créer ces fichiers à l’aide du workflow **Créer** \> **Carte DITA** . Vous pouvez également créer vos propres modèles de carte et créer des cartes en fonction de votre modèle personnalisé. Ces modèles doivent être ajoutés au profil de dossier pour s’afficher dans le plan directeur de sélection du modèle et dans l’éditeur web.
+L’éditeur de carte d’Adobe Experience Manager Guides vous permet de créer et de modifier des fichiers de carte. L&#39;éditeur de carte vous permet de modifier deux types de fichiers : DITA map et bookmap. Vous pouvez créer ces fichiers à l&#39;aide du workflow **Créer** \> **DITA Map**. Vous pouvez également créer vos propres modèles de carte et créer des cartes basées sur votre modèle personnalisé. Ces modèles doivent être ajoutés au profil du dossier pour s’afficher dans le plan directeur de sélection de modèles et dans l’éditeur.
 
-Notez que la configuration Global et Profil de dossier n’est disponible que pour les utilisateurs administratifs au niveau du dossier. Pour plus d’informations sur la configuration des profils globaux et de niveau dossier, voir *Configuration des modèles de création* dans Installation et configuration d’Adobe Experience Manager Guides pour votre configuration.
+Notez que la configuration globale et de profil de dossier n’est disponible que pour les utilisateurs administratifs au niveau du dossier. Pour plus d’informations sur la configuration des profils globaux et au niveau du dossier, consultez *Configuration des modèles de création* dans Installation et configuration d’Adobe Experience Manager Guides pour votre configuration.
 
-L’éditeur de cartes est disponible en deux modes : l’éditeur de cartes de base et l’éditeur de cartes avancé. L’éditeur de cartes de base est disponible uniquement par le biais de la configuration . Si votre administrateur l’a activé, seul l’éditeur de carte de base est disponible. Par défaut, toutes les nouvelles cartes sont ouvertes pour modification dans l’éditeur de cartes avancé. L’éditeur de mappage avancé est disponible dans l’éditeur web lui-même, qui est utilisé pour modifier les fichiers de rubrique DITA.
+<!------------------------------------
 
-Cette rubrique vous guide tout au long du processus de création d’un mappage DITA, puis de l’utilisation de l’éditeur de mappage avancé et de l’éditeur de mappage de base pour modifier les fichiers de mappage.
+The Map Editor comes in two modes — the Basic Map Editor and the Advanced Map Editor. The Basic Map Editor is available only through configuration. If your administrator has enabled it, then only the Basic Map Editor will be available for use. By default, all new maps are opened for editing in the Advanced Map Editor. The Advanced Map Editor is available within the Editor itself, which is used for editing DITA topic files.
+
+-------->
+
+Cette rubrique vous guide tout au long du processus de création d&#39;un plan DITA, puis d&#39;utilisation de l&#39;éditeur de plans pour modifier les fichiers de plan.
 
 >[!TIP]
 >
-> Consultez la section *Éditeur de cartes* du guide Bonnes pratiques pour connaître les bonnes pratiques relatives à l’utilisation de l’éditeur de cartes.
+> Consultez la section *Éditeur de carte* dans le guide des bonnes pratiques pour connaître les bonnes pratiques relatives à l’utilisation de l’éditeur de carte.
 
 - **[Créer une carte](map-editor-create-map.md)**
 
-- **[Créez des cartes à partir de modèles personnalisés](create-maps-customized-templates.md)**
+- **[Création de mappages à partir de modèles personnalisés](create-maps-customized-templates.md)**
 
-- **[Utilisation de l’éditeur de carte avancé](map-editor-advanced-map-editor.md)**
+- **[Fonctionnalités de l’éditeur de cartes](map-editor-advanced-map-editor.md)**
 
-- **[Utilisation de l’éditeur de cartes de base](map-editor-basic-map-editor.md)**
-
-- **[Autres fonctionnalités des éditeurs de carte](map-editor-other-features.md)**
+- **[Fonctionnalités supplémentaires de l’éditeur de cartes](map-editor-other-features.md)**
 
 
-**Rubrique parente :**[ Créez du contenu à l’aide d’AEM Guides](authoring-content-xml-doc.md)
+**Rubrique parente :**[ créer du contenu à l’aide d’AEM Guides](authoring-content-xml-doc.md)

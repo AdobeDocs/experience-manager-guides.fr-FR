@@ -1,99 +1,99 @@
 ---
-title: Configuration des paramètres de génération de sortie
+title: Configurer les paramètres de génération de sortie
 description: Découvrez comment configurer les paramètres de génération de sortie
 exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: a2e52572edf0915c1701a384d396a32de2429f53
 workflow-type: tm+mt
-source-wordcount: '5470'
+source-wordcount: '5620'
 ht-degree: 1%
 
 ---
 
-# Configuration des paramètres de génération de sortie {#id181AI0B0E30}
+# Configurer les paramètres de génération de sortie {#id181AI0B0E30}
 
-AEM Guides propose de nombreuses options de configuration pour personnaliser le processus de génération de sortie. Cette rubrique couvre toutes les configurations et personnalisations qui vous aideront à configurer votre processus de génération de sortie.
+AEM Guides s’accompagne de nombreuses options de configuration vous permettant de personnaliser le processus de génération de sortie. Cette rubrique couvre toutes les configurations et personnalisations qui vous aideraient à configurer votre processus de génération de sortie.
 
-## Configuration de l’onglet Ligne de base dans le tableau de bord de la carte DITA {#id223MD0D0YRM}
+## Configurer l&#39;onglet Ligne de base dans le tableau de bord du plan DITA {#id223MD0D0YRM}
 
-Pour masquer l’onglet Ligne de base dans le tableau de bord de la carte DITA, procédez comme suit :
+Pour masquer l&#39;onglet Ligne de base dans le tableau de bord du plan DITA, procédez comme suit :
 
-1. Suivez les instructions de la section [Remplacements de configuration](download-install-additional-config-override.md#) pour créer le fichier de configuration.
-1. Dans le fichier de configuration, fournissez les détails \(propriété\) suivants pour configurer l’onglet de ligne de base sur le tableau de bord de carte.
+1. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-additional-config-override.md#) pour créer le fichier de configuration.
+1. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer l’onglet de ligne de base sur le tableau de bord de mappage.
 
-| PID | Clé de propriété | Valeur de la propriété |
+| PID | Clé de la propriété | Valeur de la propriété |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.baseline` | Booléen\(`true/false`\).**Valeur par défaut** : `true` |
 
 >[!NOTE]
 >
-> Cette configuration est activée par défaut et l’onglet Ligne de base n’est pas disponible dans le tableau de bord de la carte.
+> Cette configuration est activée par défaut et l’onglet Ligne de base n’est pas disponible sur le tableau de bord des cartes.
 
 ## Configuration de la publication mixte dans un site AEM existant {#id1691I0V0MGR}
 
-Si vous disposez d’un site AEM qui contient du contenu DITA, vous pouvez configurer la sortie AEM site pour publier du contenu DITA vers un emplacement prédéfini de votre site. Par exemple, dans la capture d’écran suivante d’une page AEM Site, le noeud `ditacontent` est réservé au stockage du contenu DITA :
+Si vous disposez d&#39;un site AEM contenant du contenu DITA, vous pouvez configurer la sortie de votre site AEM pour publier du contenu DITA vers un emplacement prédéfini de votre site. Par exemple, dans la capture d&#39;écran ci-dessous d&#39;une page de site AEM, le nœud `ditacontent` est réservé au stockage du contenu DITA :
 
 ![](assets/publish-in-aem-site.png)
 
-Les autres noeuds de la page sont créés directement à partir de l’éditeur de site AEM. La configuration du paramètre de publication pour publier du contenu DITA vers un emplacement prédéfini garantit qu’aucun de vos contenus non DITA existants n’est modifié par le processus de publication AEM Guides.
+Les nœuds restants dans la page sont créés directement à partir de l’éditeur de site AEM. La configuration du paramètre de publication pour publier du contenu DITA à un emplacement prédéfini garantit qu&#39;aucun de vos contenus non DITA existants ne sera modifié par le processus de publication AEM Guides.
 
-Vous devez effectuer les configurations suivantes sur votre site existant pour permettre la publication de contenu DITA sur un noeud prédéfini :
+Vous devez effectuer les configurations suivantes sur votre site existant pour autoriser la publication de contenu DITA sur un nœud prédéfini :
 
-- Configuration des propriétés de modèle de votre site
+- Configurer les propriétés du modèle de votre site
 
-- Ajout de noeuds sur votre site pour publier du contenu DITA
+- Ajouter des nœuds dans votre site pour publier du contenu DITA
 
 
-Effectuez les étapes suivantes pour configurer les propriétés de modèle de votre site existant :
+Pour configurer les propriétés de modèle de votre site existant, procédez comme suit :
 
-1. Utilisez le gestionnaire de modules pour télécharger le fichier /libs/fmdita/config/templates/default .
+1. Utilisez le gestionnaire de packages pour télécharger le fichier /libs/fmdita/config/templates/default.
 
    >[!NOTE]
    >
-   > Ne rendez aucune personnalisation dans les fichiers de configuration par défaut disponible dans le noeud `libs`. Vous devez créer une superposition du noeud `libs` dans le noeud `apps` et mettre à jour les fichiers requis dans le noeud `apps` uniquement.
+   > Ne rendez aucune personnalisation dans les fichiers de configuration par défaut disponibles dans le nœud `libs`. Vous devez créer un recouvrement du nœud `libs` dans le nœud `apps` et mettre à jour les fichiers requis dans le nœud `apps` uniquement.
 
 1. Ajoutez les propriétés suivantes :
 
    | Nom de la propriété | Type | Valeur |
    |-------------|----|-----|
-   | `topicContentNode` | Chaîne | Indiquez le nom du noeud dans lequel vous souhaitez publier le contenu DITA. Par exemple, le noeud par défaut où AEM Guides publie le contenu DITA est : <br> `jcr:content/contentnode` |
-   | `topicHeadNode` | Chaîne | Indiquez le nom du noeud dans lequel vous souhaitez stocker les informations de métadonnées de votre contenu DITA. Par exemple, le noeud par défaut où AEM Guides stocke les informations de métadonnées est : <br> `jcr:content/headnode` |
+   | `topicContentNode` | Chaîne | Indiquez le nom du nœud dans lequel vous souhaitez publier le contenu DITA. Par exemple, le nœud par défaut dans lequel AEM Guides publie le contenu DITA est : <br> `jcr:content/contentnode` |
+   | `topicHeadNode` | Chaîne | Indiquez le nom du nœud dans lequel vous souhaitez stocker les informations de métadonnées de votre contenu DITA. Par exemple, le nœud par défaut où AEM Guides stocke les informations de métadonnées est : <br> `jcr:content/headnode` |
 
 
-La prochaine fois que vous publierez du contenu DITA à l’aide des configurations de modèle de votre site, le contenu sera publié dans les noeuds spécifiés dans les propriétés `topicContentNode` et `topicHeadNode`.
+La prochaine fois que vous publierez du contenu DITA à l&#39;aide des configurations de modèle de votre site, le contenu sera publié dans les nœuds spécifiés dans les propriétés `topicContentNode` et `topicHeadNode`.
 
-## Personnalisation de la sortie AEM site {#id166TG0B30WR}
+## Personnaliser la sortie du site AEM {#id166TG0B30WR}
 
 AEM Guides prend en charge la création de sorties dans les formats suivants :
 
-- AEM site
+- Site AEM
 - PDF
 - HTML5
 - EPUB
 - Sortie personnalisée via DITA-OT
 
-Pour la sortie Site AEM, vous pouvez affecter différents modèles de conception avec différentes tâches de sortie. Ces modèles de conception peuvent rendre le contenu DITA dans différentes mises en page. Par exemple, vous pouvez spécifier différents modèles de conception pour les audiences internes et externes.
+Pour la sortie du site AEM, vous pouvez affecter différents modèles de conception avec différentes tâches de sortie. Ces modèles de conception peuvent effectuer le rendu du contenu DITA dans différentes dispositions. Par exemple, vous pouvez spécifier différents modèles de conception pour les audiences internes et externes.
 
-Vous pouvez également utiliser les modules externes Open Toolkit DITA personnalisés \(DITA-OT\) avec AEM Guides. Vous pouvez charger ces modules externes DITA-OT personnalisés pour générer une sortie PDF d’une manière spécifique.
+Vous pouvez également utiliser des modules externes DITA Open Toolkit \(DITA-OT\) personnalisés avec AEM Guides. Vous pouvez charger ces plug-ins DITA-OT personnalisés pour générer une sortie PDF d’une manière spécifique.
 
 >[!TIP]
 >
-> Consultez la section *Publication AEM site* du guide Bonnes pratiques pour connaître les bonnes pratiques en matière de création d’AEM sortie de site.
+> Consultez la section *Publication sur le site AEM* dans le guide des bonnes pratiques pour connaître les bonnes pratiques concernant la création d’une sortie de site AEM.
 
 
 ### Personnaliser le modèle de conception pour générer la sortie {#customize_xml-add-on}
 
-AEM Guides utilise un ensemble de modèles de conception prédéfinis pour générer AEM sortie Site. Vous pouvez personnaliser les modèles de conception AEM Guides pour générer la sortie conforme à la valorisation de marque de votre entreprise. Un modèle de conception est un ensemble de différents styles \(CSS\), scripts \(côté serveur et côté client\), ressources \(images, logos et autres ressources\) et noeuds JCR qui lient toutes ces ressources. Un modèle de conception peut être aussi simple qu’un seul script côté serveur avec quelques noeuds JCR ou une combinaison complexe de styles, de ressources et de noeuds JCR. Les modèles de conception sont utilisés par le sous-système de publication AEM Guides lors de la génération de la sortie AEM Site et ils contrôlent la structure, l’aspect de la sortie générée.
+AEM Guides utilise un ensemble de modèles de conception prédéfinis pour générer une sortie de site AEM. Vous pouvez personnaliser les modèles de conception AEM Guides pour générer une sortie conforme à la valorisation de marque de votre entreprise. Un modèle de conception est un ensemble de différents styles \(CSS\), scripts \(côté serveur et côté client\), ressources \(images, logos et autres ressources\) et nœuds JCR qui lient toutes ces ressources. Un modèle de conception peut être aussi simple qu’un script côté serveur unique avec seulement quelques nœuds JCR ou une combinaison complexe de styles, de ressources et de nœuds JCR. Les modèles de conception sont utilisés par le sous-système de publication d’AEM Guides lors de la génération de la sortie du site AEM et contrôlent la structure, l’aspect et la fonctionnalité de la sortie générée.
 
-Il n’y a aucune restriction quant à l’emplacement des ressources du modèle de conception sur le serveur, mais elles sont généralement logiquement organisées selon leur fonction. Par exemple, tous les fichiers JavaScript et CSS du modèle par défaut sont stockés dans le dossier `/etc/designs/fmdita/clientlibs/siteoutput/default`. Où que ces fichiers soient situés, ils sont liés ensemble par une collection de noeuds JCR. Ensemble, ces noeuds JCR et les fichiers constituent l’ensemble du modèle de conception.
+Il n’existe aucune restriction quant à l’emplacement des ressources du modèle de conception sur le serveur, mais elles sont généralement organisées de manière logique en fonction de leur fonction. Par exemple, tous les fichiers JavaScript et CSS du modèle par défaut sont stockés dans `/etc/designs/fmdita/clientlibs/siteoutput/default` dossier . Où que se trouvent ces fichiers, ils sont liés entre eux par un ensemble de nœuds JCR. Ensemble, ces nœuds JCR et les fichiers constituent l’ensemble du modèle de conception.
 
-Le modèle de conception par défaut fourni avec AEM Guides vous permet de personnaliser les composants de page d’entrée, de rubrique et de recherche. Vous pouvez faire une copie de la conception par défaut et des modèles de référence correspondants et spécifier différents composants pour générer la sortie souhaitée.
+Le modèle de conception par défaut fourni avec AEM Guides vous permet de personnaliser les composants des pages de destination, de rubrique et de recherche. Vous pouvez faire une copie de la conception par défaut et des modèles de référence correspondants et spécifier différents composants pour générer la sortie souhaitée.
 
-Effectuez les étapes suivantes pour spécifier votre propre modèle de conception à utiliser pour AEM génération de sortie de site :
+Effectuez les étapes suivantes pour spécifier votre propre modèle de conception à utiliser pour la génération de sortie du site AEM :
 
-1. Utilisez le gestionnaire de modules pour télécharger le modèle de conception par défaut à partir de l’emplacement suivant :
+1. Utilisez le gestionnaire de packages pour télécharger le modèle de conception par défaut à partir de l’emplacement suivant :
 
    /libs/fmdita/config/templates
 
@@ -101,111 +101,115 @@ Effectuez les étapes suivantes pour spécifier votre propre modèle de concepti
 
    /apps/fmdita/config/templates
 
-1. Vous devez également télécharger et copier les modèles référencés à partir du noeud de modèle par défaut. Les modèles référencés sont placés sous :
+1. Vous devez également télécharger et copier les modèles référencés à partir du nœud de modèle par défaut. Les modèles référencés sont placés sous :
 
    /libs/fmdita/templates/default/cqtemplates
 
-   Les propriétés du modèle de conception AEM Guides sont décrites dans le tableau suivant.
+   Les propriétés du modèle de conception AEM Guides sont décrites dans le tableau ci-après.
 
    | Propriété | Description |
    |--------|-----------|
-   | `landingPageTemplate`, `searchPageTemplate`, `topicPageTemplate`, `shadowPageTemplate` | Spécifiez le noeud `cq:Template` pour ces pages correspondantes \(entrée, recherche et rubrique\). Par défaut, le noeud `cq:Template` de ces pages se trouve dans le noeud `/libs/fmdita/templates/default/cqtemplates` . Ce noeud définit la structure et les propriétés des pages d’entrée, de recherche et de rubrique.<br> `shadowPageTemplate` est utilisé pour optimiser le contenu tronqué. Vous devez définir la valeur de cette propriété sur : `fmdita/templates/default/cqtemplates/shadowpage` <br> **Remarque :** Vous devez spécifier une valeur pour `topicPageTemplate`. `landingPageTemplate` et `searchPageTemplate` sont des propriétés facultatives. Si vous ne souhaitez pas que la recherche et les landing pages soient générées, ne spécifiez pas ces propriétés. |
+   | `landingPageTemplate`, `searchPageTemplate`, `topicPageTemplate`, `shadowPageTemplate` | Spécifiez le nœud `cq:Template` pour ces pages correspondantes \(destination, recherche et rubrique\). Par défaut, le nœud `cq:Template` de ces pages se trouve dans `/libs/fmdita/templates/default/cqtemplates` nœud . Ce nœud définit la structure et les propriétés des pages de destination, de recherche et de rubrique.<br> Le `shadowPageTemplate` est utilisé pour optimiser le contenu segmenté. Vous devez définir la valeur de cette propriété sur : `fmdita/templates/default/cqtemplates/shadowpage` <br> **Remarque :** vous devez spécifier une valeur pour le `topicPageTemplate`. Les propriétés `landingPageTemplate` et `searchPageTemplate` sont facultatives. Si vous ne souhaitez pas que les pages de recherche et de destination soient générées, ne spécifiez pas ces propriétés. |
    | `title` | Nom descriptif de votre modèle de conception. |
-   | `topicContentNode` | Emplacement du noeud qui contiendra le contenu DITA dans une page de rubrique. Le chemin d’accès est relatif à la page de rubrique. |
-   | `topicHeadNode` | L’emplacement du noeud qui contiendra les valeurs d’en-tête \(ou metadata\) dérivées du contenu DITA. Le chemin d’accès est relatif à la page de rubrique. |
-   | `tocNode` | Emplacement du noeud qui contiendra la table des matières. Le chemin d’accès est relatif à la page d’entrée ou au chemin de destination. |
-   | `basePathProp` | Nom de la propriété pour stocker le chemin d’accès de la racine du site publié. |
-   | `indexPathProp` | Nom de la propriété pour le stockage du chemin d’accès à la page d’entrée/d’index du site publié. |
-   | `pdfPathProp` | Nom de propriété pour le stockage du chemin du PDF de rubrique, si la génération du PDF de rubrique est activée. |
-   | `pdfTypeProp` | Nom de la propriété pour le stockage du type de génération de PDF. Actuellement, cette propriété contient toujours &quot;Topic&quot;. |
-   | `searchPathProp` | Nom de la propriété pour stocker le chemin d’accès à la page de recherche, si le modèle inclut une page de recherche. |
-   | `siteTitleProp` | Nom de la propriété pour stocker le titre du site en cours de publication. Ce titre est généralement identique au titre de la carte en cours de publication. |
-   | `sourcePathProp` | Nom de la propriété pour le stockage du chemin d’accès de la rubrique DITA source pour la page active. |
-   | `tocPathProp` | Nom de la propriété pour stocker le chemin d’accès de la racine de la table des matières du site publié. |
+   | `topicContentNode` | Emplacement du nœud qui contiendra le contenu DITA dans une page de rubrique. Le chemin d’accès est relatif à la page du topic. |
+   | `topicHeadNode` | Emplacement du nœud qui contiendra les valeurs head \(ou metadata\) dérivées du contenu DITA. Le chemin d’accès est relatif à la page du topic. |
+   | `tocNode` | Emplacement du nœud qui contiendra la table des matières. Le chemin est relatif à la page de destination ou au chemin de destination. |
+   | `basePathProp` | Nom de la propriété servant à stocker le chemin d’accès de la racine du site publié. |
+   | `indexPathProp` | Nom de la propriété servant à stocker le chemin d’accès de la page de destination/d’index du site publié. |
+   | `pdfPathProp` | Nom de la propriété permettant de stocker le chemin d’accès au PDF de rubrique, si la génération du PDF de rubrique est activée. |
+   | `pdfTypeProp` | Nom de la propriété permettant de stocker le type de génération PDF. Actuellement, cette propriété contient toujours « Topic ». |
+   | `searchPathProp` | Nom de la propriété servant à stocker le chemin d’accès à la page de recherche, si le modèle inclut une page de recherche. |
+   | `siteTitleProp` | Nom de la propriété servant à stocker le titre du site en cours de publication. Ce titre est généralement identique au titre de la carte en cours de publication. |
+   | `sourcePathProp` | Nom de la propriété servant à stocker le chemin d&#39;accès de la rubrique DITA source pour la page active. |
+   | `tocPathProp` | Nom de la propriété servant à stocker le chemin d’accès de la racine de la table des matières pour le site publié. |
 
 
 >[!NOTE]
 >
-> Après avoir créé un noeud de modèle de conception personnalisé, vous devez mettre à jour l’option Conception dans les paramètres prédéfinis de sortie AEM Site pour utiliser le noeud de modèle de conception personnalisé.
+> Après avoir créé un nœud de modèle de conception personnalisé, vous devez mettre à jour l’option Conception dans les paramètres prédéfinis de sortie du site AEM pour utiliser le nœud du modèle de conception personnalisé.
 
-Pour plus d’informations, voir [Création de votre premier site web Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=fr) et [Principes de base](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) du développement de votre propre site web sur AEM.
+Pour plus d’informations, consultez les sections [Création de votre premier site web Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=fr) et [Principes de base](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) du développement de votre propre site web sur AEM.
 
-### Utiliser le titre du document pour générer AEM sortie du site
+### Utiliser le titre du document pour générer la sortie du site AEM
 
-Lors de la génération de la sortie AEM site, la manière dont les URL sont générées joue un rôle important dans la découverte de votre contenu. Si vous utilisez des noms de fichier UUID, la génération d’URL basées sur l’UUID de vos fichiers ne serait pas compatible avec la recherche. En tant qu’administrateur ou éditeur, vous avez le contrôle sur la manière dont vous souhaitez générer les URL pour votre sortie de site AEM. AEM Guides vous donne une configuration par laquelle vous pouvez choisir de générer les URL de sortie d’AEM site à l’aide du titre du fichier plutôt que des noms de fichier basés sur l’UUID. Par défaut, pour les systèmes de fichiers UUID, cette option est activée. Cela impliquait que lorsque vous générez AEM sortie Site pour les systèmes de fichiers UUID, les titres du fichier sont utilisés pour générer les URL et non les UUID des fichiers.
+Lors de la génération de la sortie du site AEM, la manière dont les URL sont générées joue un rôle important dans la capacité de découverte de votre contenu. Si vous utilisez des noms de fichiers basés sur l’UUID, la génération d’URL basées sur l’UUID de vos fichiers ne sera pas adaptée à la recherche. En tant qu’administrateur ou éditeur, vous avez le contrôle sur la manière dont vous souhaitez générer les URL pour la sortie de votre site AEM. AEM Guides vous offre une configuration qui vous permet de générer les URL de sortie du site AEM à l’aide du titre du fichier plutôt que des noms de fichier basés sur l’UUID. Par défaut, pour les systèmes de fichiers basés sur UUID, cette option est activée. Cela signifie que lorsque vous générez une sortie AEM Site pour des systèmes de fichiers basés sur l’UUID, les titres des fichiers sont utilisés pour générer les URL et non les UUID des fichiers.
 
 >[!NOTE]
 >
-> Vous pouvez configurer des règles supplémentaires pour n’autoriser qu’un jeu de caractères dans les URL d’une sortie de site AEM. Pour plus d’informations, voir [Configuration des règles d’assainissement du nom de fichier pour la création de rubriques et la publication AEM sortie du site](#id2164D0KD0XA).
+> Vous pouvez continuer à configurer des règles pour n’autoriser qu’un ensemble de caractères dans les URL d’une sortie de site AEM. Pour plus d’informations, consultez [Configuration des règles d’assainissement de nom de fichier pour créer des rubriques et publier la sortie du site AEM](#id2164D0KD0XA).
 
-Suivez les instructions de la section [Remplacements de configuration](download-install-additional-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(propriété\) suivants pour configurer la génération des URL dans AEM sortie Site :
+Suivez les instructions fournies dans [Remplacements de la configuration](download-install-additional-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer la génération des URL dans la sortie du site AEM :
 
-| PID | Clé de propriété | Valeur de la propriété |
+| PID | Clé de la propriété | Valeur de la propriété |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | Booléen \(true/false\). Si vous souhaitez générer une sortie à l’aide du titre de la page, définissez cette propriété sur true. Par défaut, il est défini pour utiliser le nom de fichier.<br> **Valeur par défaut** : false |
+| `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | Booléen \(true/false\). Si vous souhaitez générer une sortie à l’aide du titre de la page, définissez cette propriété sur true. Par défaut, il est défini pour utiliser le nom de fichier <br>. **Valeur par défaut** : false |
 
-### Configurez l’URL de la sortie Site AEM pour utiliser le titre du document.
+### Configurez l’URL de sortie du site AEM pour utiliser le titre du document
 
-Vous pouvez utiliser les titres des documents dans l’URL de la sortie AEM Site. Si le nom de fichier n’existe pas ou contient tous les caractères spéciaux, vous pouvez configurer le système pour remplacer les caractères spéciaux par un séparateur dans l’URL de la sortie Site AEM. Vous pouvez également le configurer pour les remplacer par le nom de la première rubrique enfant.
+Vous pouvez utiliser les titres du document dans l’URL de la sortie Site AEM. Si le nom de fichier n’existe pas ou contient tous les caractères spéciaux, vous pouvez configurer le système pour remplacer ces caractères par un séparateur dans l’URL de la sortie du site AEM. Vous pouvez également le configurer pour les remplacer par le nom de la première rubrique enfant.
 
 
 Pour configurer les noms de page, procédez comme suit :
 
-1. Suivez les instructions de la section [Remplacements de configuration](download-install-additional-config-override.md#) pour créer le fichier de configuration.
-1. Dans le fichier de configuration, fournissez les détails (propriété) suivants pour configurer les noms de page des rubriques.
+1. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-additional-config-override.md#) pour créer le fichier de configuration.
+1. Dans le fichier de configuration, fournissez les détails (propriété) suivants pour configurer les noms de page pour les rubriques.
 
-| PID | Clé de propriété | Valeur de la propriété |
+| PID | Clé de la propriété | Valeur de la propriété |
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeName` | `nodename.systemDefinedPageName` | Booléen (`true/false`). **Valeur par défaut** : `false` |
 
-Par exemple, si le *@navtitle* dans `<topichead>` comporte tous les caractères spéciaux et que vous définissez la propriété `aemsite.pagetitle` sur true, alors par défaut, il utilise un séparateur. Si vous définissez la propriété `nodename.systemDefinedPageName` sur true, le nom de la première rubrique enfant s’affiche.
+Par exemple, si le caractère *@navtitle* dans `<topichead>` contient tous les caractères spéciaux et que vous définissez la propriété `aemsite.pagetitle` sur true, alors, par défaut, il utilise un séparateur. Si vous définissez la propriété `nodename.systemDefinedPageName` sur true, elle affiche le nom de la première rubrique enfant.
 
 
-### Configuration des règles d’assainissement des noms de fichier pour la création de rubriques et la publication AEM sortie du site {#id2164D0KD0XA}
+### Configurez les règles d’assainissement de nom de fichier pour créer des rubriques et publier la sortie dans AEM Sites et d’autres formats {#id2164D0KD0XA}
 
-En tant qu’administrateur, vous pouvez définir une liste de caractères spéciaux valides autorisés dans les noms de fichier, qui forment éventuellement l’URL d’une sortie Site AEM. Dans les versions antérieures, les utilisateurs étaient autorisés à définir des noms de fichier contenant des caractères spéciaux tels que `@`, `$`, `>`, etc. Ces caractères spéciaux entraînaient l’encodage d’URL lors de la génération de pages de site AEM.
+En tant qu’administrateur, vous pouvez définir une liste de caractères spéciaux valides autorisés dans les noms de fichier, qui constituent à terme l’URL d’une sortie de site AEM. Dans les versions antérieures, les utilisateurs étaient autorisés à définir des noms de fichier contenant des caractères spéciaux tels que `@`, `$`, `>`, etc. Ces caractères spéciaux entraînaient un encodage de l’URL lors de la génération des pages du site AEM.
 
-À compter de la version 3.8, des configurations ont été ajoutées pour définir une liste de caractères spéciaux autorisés dans les noms de fichier. Par défaut, la configuration de nom de fichier valide contient &quot;`a-z A-Z 0-9 - _`&quot;. Cela signifie que lors de la création d’un fichier, vous pouvez avoir n’importe quel caractère spécial dans le titre du fichier, mais qu’en interne, il sera remplacé par un trait d’union \(`-`\) dans le nom du fichier. Par exemple, le titre du fichier peut être Introduction 1 ou Introduction@1, le nom de fichier correspondant généré pour ces deux cas serait Introduction-1.
+À partir de la version 3.8, des configurations ont été ajoutées pour définir une liste de caractères spéciaux autorisés dans les noms de fichier. Par défaut, la configuration de nom de fichier valide contient « `a-z A-Z 0-9 - _` ». Cela signifie que lors de la création d’un fichier, vous pouvez avoir n’importe quel caractère spécial dans le titre du fichier, mais qu’en interne, il sera remplacé par un trait d’union \(`-`\) dans le nom du fichier. Par exemple, si le titre du fichier est Introduction 1 ou Introduction@1, le nom de fichier correspondant généré pour ces deux cas serait Introduction-1.
 
-Lorsque vous définissez une liste de caractères valides, n’oubliez pas que ces caractères &quot;`*/:[\]|#%{}?&<>"/+`&quot; et `a space` seront toujours remplacés par un trait d’union \(`-`\).
+Lorsque vous définissez une liste de caractères valides, n&#39;oubliez pas que ces caractères « `*/:[\]|#%{}?&<>"/+` » et `a space` seront toujours remplacés par un trait d&#39;union \(`-`\).
 
 >[!NOTE]
 >
-> Si vous ne configurez pas la liste des caractères spéciaux valides, le processus de création de fichier peut vous donner des résultats inattendus.
+> Si vous ne configurez pas la liste de caractères spéciaux valide, le processus de création de fichier peut vous donner des résultats inattendus.
 
-Suivez les instructions de la section [Remplacements de configuration](download-install-additional-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(propriété\) suivants pour configurer les caractères spéciaux valides dans les noms de fichier et AEM sortie Site :
+Suivez les instructions fournies dans [Remplacements de la configuration](download-install-additional-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer les caractères spéciaux valides dans les noms de fichier et la sortie de site AEM :
 
-| PID | Clé de propriété | Valeur de la propriété |
+| PID | Clé de la propriété | Valeur de la propriété |
 |---|------------|--------------|
-| `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | Assurez-vous que la propriété est définie sur ``'<>`@$``. Vous pouvez ajouter des caractères spéciaux à cette liste. |
+| `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | Assurez-vous que la propriété est définie sur ``'<>`@$``. Vous pouvez ajouter d’autres caractères spéciaux à cette liste. |
 
-Vous pouvez également configurer d’autres propriétés, telles que l’utilisation de minuscules dans les noms de fichier, le séparateur pour gérer les caractères non valides et le nombre maximal de caractères autorisés dans les noms de fichier. Pour configurer ces propriétés, ajoutez les paires clé-valeur suivantes dans le fichier de configuration :
+>[!NOTE]
+> 
+> La configuration ci-dessus s’applique à tous les formats de sortie. Cela signifie que lors de la génération d’une sortie PDF, HTML ou personnalisée, la sortie finale suivra les règles d’assainissement de nom de fichier configurées.
 
-| Clé de propriété | Valeur de la propriété |
+Vous pouvez également configurer d’autres propriétés, telles que l’utilisation de minuscules dans les noms de fichier, un séparateur pour gérer les caractères non valides et le nombre maximal de caractères autorisés dans les noms de fichier. Pour configurer ces propriétés, ajoutez les paires clé-valeur suivantes dans le fichier de configuration :
+
+| Clé de la propriété | Valeur de la propriété |
 |------------|--------------|
 | `nodename.uselower` | Booléen \(true/false\).<br> **Valeur par défaut** : true |
-| `nodename.separator` | N&#39;importe quel caractère. <br> **Valeur par défaut** : \_ *\(trait de soulignement\)* |
+| `nodename.separator` | N’importe quel caractère. <br> **Valeur par défaut** : \_ *\(trait de soulignement\)* |
 | `nodename.maxlength` | Valeur entière.<br> **Valeur par défaut** : 50 |
 
-### Configuration de l’aplatissement de AEM structure de noeuds Site
+### Configuration de l’aplatissement de la structure du nœud de site AEM
 
-Lorsque vous générez AEM sortie Site, un noeud pour chaque élément des rubriques est créé en interne. Pour un mappage DITA contenant des milliers de rubriques, cette structure de noeud peut devenir trop profonde. Ce type de structure de noeuds profondément imbriqués peut présenter des problèmes de performances pour les sites plus volumineux. L’instantané suivant affiche la structure de noeuds profondément imbriqués pour une sortie AEM Site :
+Lorsque vous générez une sortie de site AEM, un nœud pour chaque élément des rubriques est créé en interne. Pour un plan DITA comportant des milliers de rubriques, cette structure de nœud peut devenir trop profonde. Ce type de structure de nœud profondément imbriquée peut présenter des problèmes de performances pour les sites de plus grande taille. L’instantané suivant affiche la structure de nœud profondément imbriquée pour une sortie de site AEM :
 
 ![](assets/deep-nested-aem-site-node-structure.png)
 
-Dans l’instantané ci-dessus, notez qu’un noeud est créé pour chaque élément `p` et ses sous-éléments suivants, et qu’une structure similaire est créée pour chaque autre élément utilisé dans la rubrique.
+Dans l’instantané ci-dessus, notez qu’un nœud est créé pour chaque élément `p` et ses sous-éléments suivants et qu’une structure similaire est créée pour tous les autres éléments utilisés dans la rubrique.
 
-AEM Guides vous permet de configurer la création en interne de la structure de noeud de AEM sortie de site. Vous pouvez aplatir la structure du noeud au niveau des éléments spécifiés, ce qui signifie que vous pouvez définir un élément qui sera considéré comme l’élément principal et tous les sous-éléments qu’il contient seront fusionnés avec l’élément principal. Par exemple, si vous décidez d’aplatir l’élément `p`, tout élément apparaissant dans l’élément `p` sera fusionné avec l’élément principal `p`. Une note distincte ne serait créée pour aucun sous-élément dans l’élément `p`. L’instantané suivant affiche la structure de noeud aplatie à l’élément `p` :
+AEM Guides vous permet de configurer la manière dont la structure de nœud de sortie du site AEM est créée en interne. Vous pouvez aplatir la structure du nœud sur des éléments spécifiés, ce qui signifie que vous pouvez définir un élément qui sera considéré comme l’élément principal et tous les sous-éléments qu’il contient seront fusionnés avec l’élément principal. Par exemple, si vous décidez d’aplatir l’élément `p`, tout élément apparaissant dans l’élément `p` sera fusionné avec l’élément `p` principal. Aucune note distincte ne serait créée pour un sous-élément dans l’élément `p`. L’instantané suivant affiche la structure du nœud aplatie au niveau de `p` élément :
 
 ![](assets/flattened-aem-site-node-structure.png)
 
-Pour aplatir AEM structure de noeuds de site, procédez comme suit :
+Pour aplatir la structure du nœud du site AEM, procédez comme suit :
 
-1. Identifiez l’élément\(s\) sur lequel vous souhaitez aplatir la structure de noeud :
+1. Identifiez le ou les éléments auxquels vous souhaitez aplatir la structure de nœud :
 
-1. Superposition du noeud `libs` dans le noeud `apps` et ouvrez le fichier elementmapping.xml .
+1. Recouvrez le nœud `libs` dans le nœud `apps` et ouvrez le fichier elementmapping.xml .
 
-1. Ajoutez la propriété `<flatten>true</flatten>` dans la définition de l’élément sur lequel vous souhaitez aplatir la structure de noeud. Par exemple, si vous souhaitez aplatir la structure de noeud à l’élément `p` , ajoutez l’attribut flatten dans la définition de l’élément `p` comme illustré ci-dessous :
+1. Ajoutez la propriété `<flatten>true</flatten>` dans la définition de l’élément au niveau duquel vous souhaitez aplatir la structure de nœud. Par exemple, si vous souhaitez aplatir la structure du nœud au niveau de l’élément `p`, ajoutez l’attribut flatten dans la définition de `p`’élément comme illustré ci-dessous :
 
    ```XML
    <ditaelement>
@@ -221,173 +225,173 @@ Pour aplatir AEM structure de noeuds de site, procédez comme suit :
 
    >[!NOTE]
    >
-   > Par défaut, la propriété de noeud d’aplatissement a été configurée sur l’élément `p` .
+   > Par défaut, la propriété de nœud flatten a été configurée au niveau de l’élément `p`.
 
-1. Suivez les instructions de la section [Remplacements de configuration](download-install-additional-config-override.md#) pour créer le fichier de configuration.
-1. Dans le fichier de configuration, fournissez les détails \(propriété\) suivants :
+1. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-additional-config-override.md#) pour créer le fichier de configuration.
+1. Dans le fichier de configuration, fournissez les détails \(property\) suivants :
 
-   | PID | Clé de propriété | Valeur de la propriété |
+   | PID | Clé de la propriété | Valeur de la propriété |
    |---|------------|--------------|
    | `com.adobe.dxml.flattening.FlatteningConfigurationService` | `flattening.enabled` | Booléen \(true/false\).<br> **Valeur par défaut** : `false` |
 
 
-Désormais, lorsque vous générez la sortie Site AEM, les noeuds de l’élément `p` sont aplatis et stockés dans l’élément `p` lui-même. Vous trouverez les nouvelles propriétés d’aplatissement de l’élément `p` dans CRXDE.
+Désormais, lorsque vous générez la sortie du site AEM, les nœuds de l’élément `p` sont aplatis et stockés dans l’élément `p` lui-même. Vous trouverez les nouvelles propriétés d’aplatissement de l’élément `p` dans CRXDE.
 
 ![](assets/flatten-aem-site-note-props-crxde.png)
 
-**Recherchez une chaîne dans le contenu de la sortie AEM site**
+**Rechercher une chaîne dans le contenu dans la sortie du site AEM**
 
-Par défaut, vous pouvez rechercher une chaîne dans les titres uniquement dans la sortie AEM Site. Vous pouvez configurer le système pour rechercher une chaîne à la fois dans les titres et dans le contenu ou le corps de la sortie AEM Site.
+Par défaut, vous pouvez rechercher une chaîne dans les titres uniquement dans la sortie du site AEM. Vous pouvez configurer le système pour rechercher une chaîne à la fois dans les titres et dans le contenu ou le corps de la sortie du site AEM.
 
 >[!NOTE]
 >
-> Il arrive que votre recherche fonctionne pour certains éléments du contenu, mais vous pouvez la configurer pour qu’elle fonctionne pour l’ensemble du contenu.
+> Parfois, votre recherche peut fonctionner pour certains éléments du contenu, mais vous pouvez la configurer pour qu’elle fonctionne pour l’ensemble du contenu.
 
 ![](assets/flatten-aem-site-note-props-crxde-search.png)
 
-Pour activer la recherche, vous devez configurer l’aplatissement de AEM structure de noeuds Site.
+Pour activer la recherche, vous devez configurer l’aplatissement de la structure de nœud du site AEM.
 
 ATTENTION :
 
-Vous pouvez rechercher jusqu’à 1 Mo de contenu aplati. Par exemple, dans la capture d’écran précédente, vous pouvez rechercher si le contenu sous la balise &lt;p\> est &lt;= 1Mo.
+Vous pouvez rechercher jusqu’à 1 Mo de contenu aplati. Par exemple, dans la capture d’écran précédente, vous pouvez rechercher si le contenu situé sous la balise &lt;p\> est &lt;= 1 Mo.
 
 >[!NOTE]
 >
-> La recherche ne fonctionne sur les éléments que si l&#39;attribut `<flatten>`est défini sur true. Par défaut, l’attribut `<flatten>` d’AEM Guides est défini sur true pour les éléments de texte couramment utilisés tels que &lt;p\> &lt;ul\> &lt;lI\>. Cependant, si vous avez créé certains éléments personnalisés, vous devez définir l’attribut `<flatten>` sur true dans le fichier elementmapping.xml .
+> La recherche fonctionne sur les éléments uniquement si l’attribut `<flatten>` est défini sur true. Par défaut, l’attribut `<flatten>` d’AEM Guides est défini sur true pour les éléments de texte couramment utilisés, tels que &lt;p\> &lt;ul\> &lt;lI\>. Cependant, si vous avez créé des éléments personnalisés, vous devez définir l’attribut `<flatten>` sur true dans le fichier elementmapping.xml.
 
-**Empêcher l’aplatissement de AEM structure de noeuds de site**
+**Empêcher l’aplatissement de la structure du nœud du site AEM**
 
-Tout comme pour spécifier le noeud à aplatir dans AEM sortie Site, vous pouvez également spécifier un élément que vous souhaitez exclure de cette configuration. Par exemple, si vous souhaitez aplatir des noeuds à l’élément `body`, mais que vous ne souhaitez pas qu’un élément `table` dans `body` s’aplatisse, vous pouvez ajouter la propriété exclude dans la définition de l’élément `table`.
+Tout comme pour la spécification du nœud à aplatir dans la sortie du site AEM, vous pouvez également spécifier un élément que vous souhaitez exclure de cette configuration. Par exemple, si vous souhaitez aplatir les nœuds au niveau de `body` élément, mais que vous ne souhaitez pas aplatir les éléments `table` dans `body`, vous pouvez ajouter la propriété exclude dans la définition de l’élément `table`.
 
 Pour exclure l’élément `table` de l’aplatissement, ajoutez la propriété suivante à la définition de l’élément `table` :
 
 `<preventancestorflattening>true|false</preventancestorflattening>`
 
-### Configuration du contrôle de version pour les pages supprimées dans AEM sortie Site
+### Configurer le contrôle de version des pages supprimées dans la sortie du site AEM
 
-Lorsque vous générez AEM sortie Site avec l’option **Supprimer et** Créer ****sélectionnée pour le paramètre Pages de sortie existantes, une version est créée pour la ou les pages\) en cours de suppression. Vous pouvez configurer le système pour arrêter la création d’une version avant la suppression.
+Lorsque vous générez une sortie de site AEM avec les options **Supprimer et** Créer ****sélectionnées pour le paramètre Pages de sortie existantes , une version est créée pour la ou les pages en cours de suppression. Vous pouvez configurer le système pour arrêter la création d’une version avant la suppression.
 
-Effectuez les étapes suivantes pour arrêter la création d’une version de la page\(s\) supprimée :
+Effectuez les étapes suivantes pour arrêter la création d’une version pour la ou les pages en cours de suppression :
 
-1. Suivez les instructions de la section [Remplacements de configuration](download-install-additional-config-override.md#) pour créer le fichier de configuration.
-1. Dans le fichier de configuration, fournissez les détails \(propriété\) suivants pour configurer l’option **Ne pas créer de version pour les pages supprimées** :
+1. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-additional-config-override.md#) pour créer le fichier de configuration.
+1. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer l’option **Ne pas créer de version pour les pages supprimées** :
 
-   | PID | Clé de propriété | Valeur de la propriété |
+   | PID | Clé de la propriété | Valeur de la propriété |
    |---|------------|--------------|
    | `com.adobe.fmdita.confi g.ConfigManager` | `no.version.creation.on.deletion` | Booléen \(true/false\).<br> **Valeur par défaut** : `true` |
 
    >[!NOTE]
    >
-   > Lorsque cette option est sélectionnée, les utilisateurs peuvent supprimer directement n’importe quelle page sans créer de version pour eux. Si cette option n’est pas sélectionnée, une version est créée avant la suppression de la ou des pages\.
+   > Lorsque cette option est sélectionnée, les utilisateurs peuvent supprimer directement une ou plusieurs pages sans créer de version pour eux. Si l’option n’est pas sélectionnée, une version est créée avant la suppression de la ou des pages .
 
-### Configuration d’un module de réécriture personnalisé avec Experience Manager Guides {#custom-rewriter}
+### Configuration d’une réécriture personnalisée avec Experience Manager Guides {#custom-rewriter}
 
-Experience Manager Guides dispose d’un module de [**rewriter**](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) personnalisé pour gérer les liens générés en cas de mappage croisé (liens entre les rubriques de deux cartes différentes). Cette configuration de réécriture est installée à l’emplacement suivant : <br> `/apps/fmdita/config/rewriter/fmdita-crossmap-link-patcher`.
+Experience Manager Guides dispose d’un module sling [**rewriter**](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) personnalisé destiné à gérer les liens générés en cas de mappages croisés (liens entre les rubriques de deux mappages différents). Cette configuration de réécriture est installée au chemin suivant : <br> `/apps/fmdita/config/rewriter/fmdita-crossmap-link-patcher`.
 
-Si votre code base comporte un autre module de réécriture sling personnalisé, utilisez une valeur `'order'` supérieure à 50, car Experience Manager Guides sling rewriter utilise `'order'` 50.  Pour le remplacer, vous devez disposer d’une valeur supérieure à 50 . Pour plus d’informations, voir [ Pipelines de réécriture de sortie](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+Si votre base de code contient un autre module de réécriture Sling personnalisé, utilisez une valeur de `'order'` supérieure à 50, car le module de réécriture Sling de Experience Manager Guides utilise `'order'` 50.  Pour remplacer ce paramètre, vous avez besoin d’une valeur > 50 . Pour plus d’informations, consultez la section [Pipelines de réécriture de sortie](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
 
-## Utilisation de métadonnées pour publier une sortie via DITA-OT {#id191LF0U0TY4}
+## Utilisation des métadonnées dans la publication d’une sortie via DITA-OT {#id191LF0U0TY4}
 
 AEM Guides permet de transmettre des métadonnées personnalisées lors de la publication d’une sortie à l’aide de DITA-OT. En tant qu’administrateur et éditeur, vous devez effectuer les tâches suivantes pour configurer et utiliser des métadonnées personnalisées dans la sortie publiée :
 
-- En tant qu’administrateur, ajoutez les métadonnées requises dans le système afin qu’elles soient disponibles sur la page Propriétés du mappage DITA.
+- En tant qu&#39;administrateur, ajoutez les métadonnées requises dans le système afin qu&#39;elles soient disponibles dans la page Propriétés du plan DITA.
 
-- En tant qu’administrateur, ajoutez les métadonnées personnalisées dans la liste des métadonnées afin qu’elles s’affichent dans la console de mappage DITA.
+- En tant qu&#39;administrateur, ajoutez les métadonnées personnalisées dans la liste de métadonnées afin qu&#39;elles s&#39;affichent dans la console de mappage DITA.
 
-- En tant qu’éditeur, configurez et ajoutez les métadonnées personnalisées avec le mappage DITA et générez la sortie requise.
+- En tant qu&#39;éditeur, configurez et ajoutez les métadonnées personnalisées avec le plan DITA et générez la sortie requise.
 
 
 Pour ajouter les métadonnées requises dans le système, procédez comme suit :
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 
-1. Cliquez sur le lien Adobe Experience Manager en haut de l’écran et sélectionnez **Outils**.
+1. Cliquez sur le lien Adobe Experience Manager en haut et choisissez **Outils**.
 
 1. Sélectionnez **Assets** dans la liste des outils.
 
-1. Cliquez sur la mosaïque **Schémas de métadonnées** .
+1. Cliquez sur la mosaïque **Schémas de métadonnées**.
 
-   La page Forms de schéma de métadonnées s’affiche.
+   La page Forms du schéma de métadonnées s’affiche.
 
-1. Sélectionnez le formulaire **default** dans la liste.
+1. Sélectionnez le formulaire **par défaut** dans la liste.
 
    >[!NOTE]
    >
-   > Les propriétés affichées sur la page Propriétés d’un mappage DITA proviennent de ce formulaire.
+   > Les propriétés affichées sur la page Propriétés d&#39;un plan DITA sont extraites de ce formulaire.
 
 1. Cliquez sur **Modifier**.
 
-1. Ajoutez les métadonnées personnalisées que vous souhaitez utiliser dans les sorties publiées. Par exemple, nous allons ajouter des métadonnées d’audience en procédant comme suit :
+1. Ajoutez les métadonnées personnalisées que vous souhaitez utiliser dans les sorties publiées. Par exemple, nous ajouterons des métadonnées d’audience en procédant comme suit :
 
-   1. Dans la liste des composants **Créer le formulaire** , faites glisser le composant **Texte ligne unique** sur le formulaire.
+   1. Dans la liste des composants **Créer le formulaire**, faites glisser et déposez le composant **Une seule ligne de texte** sur le formulaire.
 
-   2. Sélectionnez le nouveau champ pour ouvrir les **Paramètres** du champ.
+   2. Sélectionnez le nouveau champ pour ouvrir la **Paramètres** du champ.
 
-   3. Dans le **libellé du champ**, saisissez le nom des métadonnées : Audience.
+   3. Dans le **Libellé du champ**, saisissez le nom des métadonnées : Audience.
 
-   4. Dans le paramètre **Associer à la propriété** , spécifiez ./jcr:content/metadata/&lt;nom des métadonnées\>. Dans notre exemple, nous allons le définir sur ./jcr:content/metadata/audience
+   4. Dans le paramètre **Mapper à la propriété**, spécifiez ./jcr:content/metadata/&lt;nom des métadonnées\>. Dans notre exemple, nous la définirons sur ./jcr:content/metadata/audience.
 
-   À l’aide de ces étapes, ajoutez tous les paramètres de métadonnées requis.
+   En procédant comme suit, ajoutez tous les paramètres de métadonnées requis.
 
 1. Cliquez sur **Enregistrer**.
 
 
-Le nouveau paramètre s’affiche désormais sur la page Propriétés pour tous les mappages DITA.
+Le nouveau paramètre apparaît désormais dans la page Propriétés de tous les mappages DITA.
 
 ![](assets/properties-page-custom-metadata.PNG)
 
-Ensuite, vous devez rendre les métadonnées personnalisées disponibles dans la console de mappage DITA. Effectuez les étapes suivantes pour rendre les métadonnées personnalisées disponibles sur le tableau de bord de mappage DITA :
+Vous devez ensuite rendre les métadonnées personnalisées disponibles dans la console de plan DITA. Effectuez les étapes suivantes pour rendre les métadonnées personnalisées disponibles sur le tableau de bord du plan DITA :
 
-1. Utilisez le gestionnaire de packages pour accéder au fichier metadataList disponible à l’emplacement suivant dans votre référentiel Git Cloud Manager :
+1. Utilisez le gestionnaire de packages pour accéder au fichier metadataList disponible à l’emplacement suivant de votre référentiel Git Cloud Manager :
 
    /libs/fmdita/config/metadataList
 
    >[!NOTE]
    >
-   > Le fichier metadataList contient une liste de propriétés qui s’affichent dans la liste déroulante **Propriétés** d’une carte DITA dans le tableau de bord de la carte. Par défaut, quatre propriétés sont répertoriées dans ce fichier : docstate, dc:language, dc:description et dc:title.
+   > Le fichier metadataList contient une liste des propriétés affichées dans la liste déroulante **Propriétés** d&#39;un plan DITA dans le tableau de bord du plan. Par défaut, ce fichier contient quatre propriétés : docstate, dc:language, dc:description et dc:title.
 
-1. Ajoutez les métadonnées personnalisées que vous avez ajoutées à la page Forms du schéma de métadonnées . Dans notre exemple, ajoutez le paramètre audience à la fin de la liste par défaut.
+1. Ajoutez les métadonnées personnalisées que vous avez ajoutées à la page Forms de schéma de métadonnées . Dans notre exemple, ajoutez le paramètre audience à la fin de la liste par défaut.
 
 
-Désormais, les métadonnées personnalisées s’affichent dans la liste déroulante **Propriétés** de la console de mappage DITA.
+Désormais, les métadonnées personnalisées s&#39;affichent dans la liste déroulante **Propriétés** de la console Plan DITA.
 
 Enfin, en tant qu’éditeur, vous devez inclure les métadonnées personnalisées dans la sortie publiée. Pour traiter les métadonnées personnalisées lors de la génération de la sortie, procédez comme suit :
 
-1. Dans l’interface utilisateur d’Assets, accédez au mappage DITA que vous souhaitez publier.
+1. Dans l’interface utilisateur d’Assets, accédez au plan DITA à publier.
 
 1. Sélectionnez le fichier de mappage DITA et ouvrez sa page de propriétés.
 
-1. Sur la page Propriétés , spécifiez la valeur des métadonnées personnalisées. Dans notre exemple, nous avons spécifié une valeur Externe pour le paramètre d’audience .
+1. Sur la page Propriétés , spécifiez la valeur des métadonnées personnalisées. Dans notre exemple, nous avons spécifié une valeur externe pour le paramètre d’audience.
 
    ![](assets/properties-page-custom-metadata-value.png)
 
 1. Cliquez sur **Enregistrer et fermer**.
 
-1. Cliquez sur le fichier de mappage DITA pour ouvrir la console de mappage DITA.
+1. Cliquez sur le fichier de plan DITA pour ouvrir la console de plan DITA.
 
-1. Dans l’onglet **Paramètres prédéfinis de sortie**, sélectionnez le paramètre prédéfini de sortie à utiliser pour générer la sortie.
+1. Dans l’onglet **Paramètres prédéfinis de sortie**, sélectionnez le paramètre prédéfini de sortie que vous souhaitez utiliser pour générer la sortie.
 
 1. Cliquez sur **Modifier**.
 
-1. Dans la liste déroulante **Propriétés** , sélectionnez les propriétés à transmettre au processus de publication.
+1. Dans la liste déroulante **Propriétés**, sélectionnez les propriétés que vous souhaitez transmettre au processus de publication.
 
    ![](assets/props-in-publish-output.PNG)
 
 
-Les propriétés/métadonnées sélectionnées sont transmises au processus de publication et mises à disposition dans la sortie finale.
+Les propriétés/métadonnées sélectionnées sont transmises au processus de publication et sont mises à disposition dans la sortie finale.
 
-### Validation des métadonnées transmises à DITA-OT pour traitement
+### Validation des métadonnées transmises au DITA-OT pour traitement
 
-Pour valider les valeurs de métadonnées transmises à DITA-OT, vous pouvez utiliser un environnement local à l’aide d’un jar prêt pour le cloud. Comme nous ne pouvons pas accéder au système de fichiers local sur le cloud, seul le fichier de métadonnées peut être validé au moyen d’un fichier JAR prêt pour le cloud.
+Pour valider les valeurs de métadonnées transmises à DITA-OT, vous pouvez utiliser un environnement local à l’aide d’un fichier jar prêt pour le cloud. Comme nous ne pouvons pas accéder au système de fichiers local sur le cloud, la seule façon de valider le fichier de métadonnées est via le fichier jar prêt pour le cloud.
 
-- Nom du fichier : metadata.xml
+- Nom de fichier : metadata.xml
 - Emplacement du fichier : crx-quickstart/profiles/ditamaps/&lt;ditamap-1234\>
 
-  Pour accéder à metadata.xml :
+  Pour accéder au fichier metadata.xml :
 
    - Connectez-vous à l’emplacement du serveur sur lequel l’instance AEM est en cours d’exécution.
-   - Migrez vers crx-quickstart/profiles/ditamaps/&lt;nom-répertoire-nouvellement créé\>/metadata.xml.
+   - Migrez vers crx-quickstart/profiles/ditamaps/&lt;newly-created-directory-name\>/metadata.xml.
 - Exemple de format de fichier :
 
   **metadata.xml**
@@ -413,28 +417,44 @@ Pour valider les valeurs de métadonnées transmises à DITA-OT, vous pouvez uti
   ```
 
 
-- isArray : attribut booléen qui définit si les métadonnées sont à plusieurs valeurs \(Array\) ou non. Les valeurs sont délimitées par un point-virgule.
+- isArray : attribut booléen qui définit si les métadonnées sont une propriété \(Array\) à plusieurs valeurs ou non. Les valeurs sont délimitées par un point-virgule.
 - ID de chemin d’accès : chemin d’accès absolu au fichier stocké dans le répertoire temporaire.
 
 >[!NOTE]
 >
-> Si des métadonnées spécifiques ne sont pas présentes pour le fichier, la balise &lt;meta\> avec la clé n’apparaît pas comme propriété pour ce fichier dans le fichier metadata.xml.
+> Si des métadonnées particulières ne sont pas présentes pour le fichier, la balise &lt;meta\> avec la clé n’apparaîtra pas comme propriété pour ce fichier dans le fichier metadata.xml.
 
-## Personnalisation du mappage des éléments DITA avec les composants AEM {#id1679J600HEL}
+## Configurez le champ d&#39;argument de ligne de commande DITA-OT pour accepter les métadonnées de carte racine
 
-Les éléments DITA dans AEM Guides sont mappés à leurs composants AEM correspondants. AEM Guides utilise ce mappage dans les workflows tels que la publication et la révision pour convertir l’élément DITA en composant AEM correspondant. Le mappage est défini dans le fichier `elementmapping.xml`, accessible à l’aide du gestionnaire de packages.
+Pour utiliser le champ d&#39;argument de ligne de commande DITA-OT afin de transmettre des métadonnées de carte racine, procédez comme suit :
+
+1. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-additional-config-override.md#) pour créer le fichier de configuration.
+1. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer le champ d’argument de ligne de commande DITA-OT dans le préréglage :
+
+| PID | Clé de la propriété | Valeur de la propriété |
+|---|------------|--------------|
+| `com.adobe.fmdita.config.ConfigManager` | `pass.metadata.args.cmd.line` | Booléen\(`true/false`\).**Valeur par défaut** : `true` |
+
+- La définition de la valeur de la propriété sur **true** active la fonctionnalité de ligne de commande DITA-OT, ce qui vous permet de transmettre les métadonnées via la ligne de commande DITA-OT.
+- Définir la valeur de la propriété sur **false** désactive la fonctionnalité de ligne de commande DITA-OT. Vous pouvez ensuite utiliser le champ Propriété dans le paramètre prédéfini pour transmettre les métadonnées.
+
+
+
+## Personnaliser le mappage d&#39;éléments DITA avec des composants AEM {#id1679J600HEL}
+
+Les éléments DITA dans AEM Guides sont mappés à leurs composants AEM correspondants. AEM Guides utilise ce mappage dans des workflows tels que la publication et la révision pour convertir un élément DITA en composant AEM correspondant. Le mappage est défini dans le fichier `elementmapping.xml`, accessible à l’aide du gestionnaire de packages.
 
 >[!NOTE]
 >
-> Ne rendez aucune personnalisation dans les fichiers de configuration par défaut disponible dans le noeud ``libs``. Vous devez créer une superposition du noeud ``libs`` dans le noeud ``apps`` et mettre à jour les fichiers requis dans le noeud ``apps`` uniquement.
+> Ne rendez aucune personnalisation dans les fichiers de configuration par défaut disponibles dans le nœud ``libs``. Vous devez créer un recouvrement du nœud ``libs`` dans le nœud ``apps`` et mettre à jour les fichiers requis dans le nœud ``apps`` uniquement.
 
-Vous pouvez utiliser les mappages d’éléments DITA prédéfinis ou vous pouvez mapper des éléments DITA à vos composants d’AEM personnalisés. Pour utiliser vos composants d’AEM personnalisés, vous devez comprendre la structure du fichier `elementmapping.xml`.
+Vous pouvez utiliser les mappages d&#39;éléments DITA prédéfinis ou mapper des éléments DITA à vos composants AEM personnalisés. Pour utiliser vos composants AEM personnalisés, vous devez connaître la structure du fichier `elementmapping.xml`.
 
 ### structure elementmapping.xml
 
-Un aperçu général de la structure `elementmapping.xml` est expliqué ci-dessous :
+Vous trouverez ci-dessous un aperçu général de la structure `elementmapping.xml` :
 
-1. Chaque élément DITA est d’abord recherché dans un mappage de composant correspondant en fonction du nom de l’élément. Par exemple :
+1. Chaque élément DITA est d&#39;abord recherché pour un mappage de composant correspondant en fonction du nom de l&#39;élément. Par exemple :
 
    ```XML
    <ditaelement>     
@@ -446,9 +466,9 @@ Un aperçu général de la structure `elementmapping.xml` est expliqué ci-desso
    </ditaelement>
    ```
 
-   Dans l’exemple ci-dessus, tous les éléments DITA `substeps` sont rendus à l’aide du composant `dita/components/ditaolist`.
+   Dans l&#39;exemple ci-dessus, tous les éléments DITA `substeps` sont rendus à l&#39;aide du composant `dita/components/ditaolist`.
 
-1. Si un élément DITA ne trouve pas de correspondance basée sur le nom, alors une correspondance basée sur le `class` est effectuée. Par exemple :
+1. Si un élément DITA ne trouve pas de correspondance basée sur le nom, une correspondance basée sur le `class` est effectuée. Par exemple :
 
    ```XML
    <ditaelement>  
@@ -463,9 +483,9 @@ Un aperçu général de la structure `elementmapping.xml` est expliqué ci-desso
    </ditaelement>
    ```
 
-   Dans l’exemple ci-dessus, si aucun mappage n’est défini pour l’élément `task`, l’élément `task` est mappé sur le composant ci-dessus car `task` est hérité du composant `topic`.
+   Dans l’exemple ci-dessus, si aucun mappage n’est défini pour l’élément `task`, l’élément `task` est mappé au composant ci-dessus, car `task` est hérité du composant `topic`.
 
-1. Lorsqu’un élément possède un mappage de composant correspondant, le traitement supplémentaire de ses éléments enfants est déterminé par `type`. Par exemple :
+1. Lorsqu’un élément possède un mappage de composant correspondant, le traitement ultérieur de ses éléments enfants est déterminé par `type`. Par exemple :
 
    ```XML
    <ditaelement>  
@@ -478,22 +498,22 @@ Un aperçu général de la structure `elementmapping.xml` est expliqué ci-desso
    </ditaelement>
    ```
 
-   `type` utilise les valeurs suivantes :
+   `type` prend les valeurs suivantes :
 
-   - COMPOSITE : le mappage de l’élément au composant *se poursuit également pour les éléments enfants*.
+   - COMPOSITE : le mappage élément à composant *continue pour les éléments enfants* également.
 
-   - STANDALONE : les éléments enfants de l’élément actuel ne sont *pas mappés plus*.
+   - AUTONOME : les éléments enfants de l’élément actif ne sont *plus mappés*.
 
-   Dans l’exemple ci-dessus, si l’élément `<title>` comporte des éléments enfants, ils ne seront mappés à aucun autre composant. Le composant de l’élément `<title>` est responsable du rendu de tous les éléments enfants à l’intérieur de l’élément `<title>`.
+   Dans l’exemple ci-dessus, si l’élément `<title>` comporte des éléments enfants, ils ne seront mappés à aucun autre composant. Le composant de `<title>`’élément est responsable du rendu de tous les éléments enfants dans l’élément `<title>`.
 
-1. S’il existe plusieurs composants mappés à un seul élément DITA, la meilleure correspondance pour l’élément est sélectionnée. Pour sélectionner le meilleur composant de correspondance, la spécialisation du domaine et de la structure des éléments DITA est prise en compte.
+1. S&#39;il existe plusieurs composants mappés à un seul élément DITA, la meilleure correspondance pour l&#39;élément est sélectionnée. Pour sélectionner le composant qui correspond le mieux, une spécialisation de domaine et de structure des éléments DITA est prise en compte.
 
-   S’il existe des éléments DITA avec spécialisation de domaine et qu’un composant est mappé pour la spécialisation de domaine, ce composant reçoit une priorité élevée.
+   S’il existe des éléments DITA avec une spécialisation de domaine et qu’un composant est mappé pour la spécialisation de domaine, la priorité élevée est accordée à ce composant.
 
-   De même, s’il existe des éléments DITA avec une spécialisation structurelle et qu’un composant est mappé pour la spécialisation structurelle, ce composant reçoit une priorité élevée.
+   De même, si des éléments DITA sont dotés d&#39;une spécialisation structurelle et qu&#39;un composant est mappé pour la spécialisation structurelle, la priorité est accordée à ce composant.
 
-1. Vous pouvez utiliser `<attributemap>` dans le mappage des éléments pour mapper les valeurs d’attribut aux propriétés de noeud correspondantes.
-1. `textprop` peut être utilisé pour sérialiser le contenu texte d’un élément DITA vers une propriété de noeud. En outre, il peut être utilisé plusieurs fois dans une balise d’élément pour sérialiser le contenu du texte à plusieurs emplacements dans la hiérarchie publiée. Vous pouvez également personnaliser l’emplacement et le nom de la propriété cible. Par exemple :
+1. Vous pouvez utiliser des `<attributemap>` dans le mappage d’éléments pour mapper des valeurs d’attribut aux propriétés de nœud correspondantes.
+1. `textprop` peut être utilisé pour sérialiser le contenu texte d&#39;un élément DITA en une propriété de nœud. En outre, elle peut être utilisée plusieurs fois dans une balise d’élément pour sérialiser le contenu du texte à plusieurs emplacements dans la hiérarchie publiée. Vous pouvez également personnaliser l’emplacement et le nom de la propriété cible. Par exemple :
 
    ```XML
    <ditaelement>
@@ -505,9 +525,9 @@ Un aperçu général de la structure `elementmapping.xml` est expliqué ci-desso
    </ditaelement>
    ```
 
-   Le mappage d’élément ci-dessus indique que le contenu textuel de l’élément `<title>` sera enregistré comme valeur d’une propriété nommée `jcr:title` sur le noeud de sortie.
+   Le mappage de l’élément ci-dessus indique que le contenu textuel de `<title>`’élément sera enregistré en tant que valeur d’une propriété nommée `jcr:title` sur le nœud de sortie.
 
-1. `xmlprop` peut être utilisé pour sérialiser le XML entier pour un élément donné vers une propriété de noeud. Le composant peut ensuite lire cette propriété de noeud et effectuer un rendu personnalisé. Par exemple :
+1. `xmlprop` peut être utilisé pour sérialiser l’intégralité du code XML d’un élément donné en une propriété de nœud. Le composant peut ensuite lire cette propriété de nœud et effectuer un rendu personnalisé. Par exemple :
 
    ```XML
    <ditaelement>
@@ -520,9 +540,9 @@ Un aperçu général de la structure `elementmapping.xml` est expliqué ci-desso
    </ditaelement>
    ```
 
-   Le mappage d’élément ci-dessus indique que l’ensemble du balisage XML pour l’élément `<svg-container>` sera enregistré comme valeur d’une propriété nommée `data` sur le noeud de sortie.
+   Le mappage d’éléments ci-dessus indique que l’intégralité du balisage XML pour l’élément `<svg-container>` sera enregistrée en tant que valeur d’une propriété nommée `data` sur le nœud de sortie.
 
-1. Il existe un mappage d’attributs spécial pour gérer la résolution du chemin dans le processus de génération de sortie. Par exemple :
+1. Il existe un mappage d’attributs spécial pour gérer la résolution de chemin dans le processus de génération de sortie. Par exemple :
 
    ```XML
    <attributemap>
@@ -532,20 +552,20 @@ Un aperçu général de la structure `elementmapping.xml` est expliqué ci-desso
    </attributemap>
    ```
 
-   Pour les `attributemap` ci-dessus, l’attribut `href` de votre élément DITA sera mappé à une propriété de noeud nommée `fileReference`. Maintenant que `ispath` est défini sur `true`, le processus de génération de sortie résout ce chemin et le définit dans la propriété de noeud `fileReference`.
+   Pour l&#39;`attributemap` ci-dessus, l&#39;attribut `href` dans votre élément DITA sera mappé à une propriété de nœud nommée `fileReference`. Maintenant que `ispath` est défini sur `true`, le processus de génération de sortie résout ce chemin d’accès, puis le définit dans `fileReference` propriété de nœud .
 
-   La manière dont cette résolution se produit est déterminée sur la base de la valeur de l’attribut `rel` dans le mappage des attributs.
+   Le mode de résolution est déterminé en fonction de la valeur de l’attribut `rel` dans le mappage des attributs.
 
-   - Si `rel=source`, la valeur de `href` est résolue par rapport au fichier source DITA en cours de traitement. La valeur de `href` est résolue et placée dans la valeur de la propriété `fileReference`.
+   - Si `rel=source`, la valeur de `href` est résolue par rapport au fichier source DITA en cours de traitement. La valeur de `href` est résolue et placée dans la valeur de `fileReference` propriété .
 
-   - Si `rel=target`, la valeur de `href` est résolue par rapport à l’emplacement de publication racine. La valeur de `href` est résolue et placée dans la valeur de la propriété `fileReference`.
+   - Si `rel=target`, la valeur de `href` est résolue par rapport à l’emplacement de publication racine. La valeur de `href` est résolue et placée dans la valeur de `fileReference` propriété .
 
-   Si vous ne souhaitez pas qu’un prétraitement ou une résolution se produise sur les attributs de chemin d’accès, vous n’avez pas besoin de spécifier l’attribut `ispath`. La valeur est copiée telle quelle et le composant peut effectuer la résolution requise.
+   Si vous ne souhaitez pas qu’un prétraitement ou une résolution se produise sur les attributs de chemin, vous n’avez pas besoin de spécifier l’attribut `ispath`. La valeur est copiée telle quelle et le composant peut effectuer la résolution requise.
 
 
-### Schéma d’élément DITA
+### Schéma de l&#39;élément DITA
 
-Voici un exemple du schéma d’élément DITA dans le fichier `elementmapping.xml` :
+Voici un exemple du schéma d&#39;élément DITA dans `elementmapping.xml` fichier :
 
 ```XML
 <ditaelement>        
@@ -567,56 +587,56 @@ Voici un exemple du schéma d’élément DITA dans le fichier `elementmapping.x
 </ditaelement>
 ```
 
-Le tableau suivant décrit les éléments du schéma d’élément DITA :
+Le tableau suivant décrit les éléments du schéma d&#39;élément DITA :
 
 | Elément | Description |
 |-------|-----------|
-| `<ditaelement>` | Noeud de niveau supérieur pour chaque élément de mappage. |
-| `<class>` | L’attribut de classe de l’élément DITA cible pour lequel vous écrivez le composant.<br> Par exemple, l’attribut de classe pour la rubrique DITA est : <br> `- topic/topic` |
-| `<componentpath>` | Chemin d’accès CRXDE du composant AEM mappé. |
-| `<type>` | Valeurs possibles :<br> -   **COMPOSITE** : traitez également les éléments enfants <br> -   **STANDALONE** : ignore le traitement des éléments enfants |
-| `<attributeprop>` | Utilisé pour mapper les attributs et valeurs DITA sérialisés sur les noeuds AEM en tant que propriété. Par exemple, si vous disposez de l’élément `<note type="Caution">` et que le composant mappé pour cet élément comporte `<attributeprop>attr_t</ attributeprop>`, l’attribut et la valeur du noeud sont sérialisés en propriété `attr_t` du noeud d’AEM correspondant \( `attr_t->type="caution"`\). |
-| `<textprop>propname_t</textprop>` | Enregistrez la sortie `getTextContent()` sur la propriété définie par `propname_t.` <br> **Remarque :** Il s’agit d’une propriété optimisée. |
-| `<xmlprop>propname_x </xmlprop>` | Enregistrez le XML sérialisé de ce noeud dans la propriété définie par `propname_x.<br> `**Remarque :** Il s’agit d’une propriété optimisée. |
-| `<xpath>` | Si l’élément XPath est fourni dans le mappage d’élément, alors avec le nom de l’élément et la classe, la condition XPath doit également être satisfaite pour que le mappage de composant soit utilisé. |
-| `<target>` | Placez l’élément DITA dans le référentiel crx à l’emplacement spécifié.<br> Valeurs possibles : <br> - **head** : Sous le noeud head <br> - **text** : Sous le noeud paragraph |
-| `<wrapelement>` | L’élément HTML dans lequel placer le contenu. |
-| `<wrapclass>` | La valeur de l’élément à la propriété `wrapclass.` |
-| `<attributemap>` | Noeud conteneur contenant un ou plusieurs noeuds `<attribute>`. |
-| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | Mappe les attributs DITA aux propriétés AEM : <br> -   **`from`** : nom de l’attribut DITA <br> -   **`to`** : AEM nom de propriété du composant <br> -   **`ispath`** : si l’attribut est une valeur de chemin \(par exemple : *image*\) <br> -   **`rel`** : si le chemin est la source ou la cible <br> **Remarque :** Si `attrname` commence par `%`, mappez `attrname minus '%'` sur la prop &#39; `propname`&#39;. |
+| `<ditaelement>` | Nœud de niveau supérieur pour chaque élément de mappage. |
+| `<class>` | Attribut class de l&#39;élément DITA cible pour lequel vous créez le composant.<br> Par exemple, l&#39;attribut class pour la rubrique DITA est : <br> `- topic/topic` |
+| `<componentpath>` | Chemin CRXDE du composant AEM mappé. |
+| `<type>` | Valeurs possibles : <br> -   **COMPOSITE** : traitez également les éléments enfants <br> -   **AUTONOME** : ignore le traitement des éléments enfants |
+| `<attributeprop>` | Utilisé pour mapper des attributs et des valeurs DITA sérialisés aux nœuds AEM en tant que propriété. Par exemple, si vous disposez d’`<note type="Caution">` élément et que le composant mappé pour cet élément a `<attributeprop>attr_t</ attributeprop>`, l’attribut et la valeur du nœud sont sérialisés sur `attr_t` propriété du nœud AEM correspondant \( `attr_t->type="caution"`\). |
+| `<textprop>propname_t</textprop>` | Enregistrez la sortie `getTextContent()` dans la propriété définie par `propname_t.` <br> **Remarque :** il s’agit d’une propriété optimisée. |
+| `<xmlprop>propname_x </xmlprop>` | Enregistrez le code XML sérialisé de ce nœud dans la propriété définie par `propname_x.<br> `**Remarque :** il s’agit d’une propriété optimisée. |
+| `<xpath>` | Si l’élément XPath est fourni dans le mappage d’éléments, alors, avec le nom et la classe de l’élément, la condition XPath doit également être remplie pour le mappage de composants à utiliser. |
+| `<target>` | Placez l&#39;élément DITA dans le référentiel crx à l&#39;emplacement spécifié.<br> Valeurs possibles : <br> - **head** : sous le nœud head <br> - **text** : sous le nœud paragraph |
+| `<wrapelement>` | Élément HTML dans lequel encapsuler le contenu. |
+| `<wrapclass>` | La valeur de l’élément dans la propriété `wrapclass.` |
+| `<attributemap>` | Nœud conteneur contenant un ou plusieurs nœuds `<attribute>`. |
+| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | Mappe les attributs DITA aux propriétés AEM : <br> -   **`from`** : nom d&#39;attribut DITA <br> -   **`to`** : nom de propriété du composant AEM <br> -   **`ispath`** : si l’attribut est une valeur de chemin \(par exemple : *image*\) <br> -   **`rel`** : si le chemin d’accès est le <br> source ou cible **Remarque :** si `attrname` commence par `%`, mappez `attrname minus '%'` à la prop &#39; `propname`&#39;. |
 
-**Remarques supplémentaires**
+**Remarques complémentaires**
 
-- Si vous prévoyez de remplacer le mappage d’élément par défaut, il est recommandé de ne pas apporter les modifications au fichier par défaut `elementmapping.xml`. Vous devez créer un fichier XML de mappage et le placer à un autre emplacement, de préférence dans le dossier d’applications personnalisées que vous créez.
+- Si vous prévoyez de remplacer le mappage d’élément par défaut, il est recommandé de ne pas apporter les modifications dans le fichier `elementmapping.xml` par défaut. Créez un fichier XML de mappage et placez-le à un autre emplacement, de préférence dans le dossier d’applications personnalisées que vous créez.
 
-- Dans le fichier `elementmapping.xml`, il existe de nombreuses entrées de mappage faisant référence au composant fmdita/components/dita/wrapper. Wrapper est un composant générique qui effectue le rendu de constructions DITA relativement simples à l’aide de propriétés sur leur noeud de site pour générer un HTML pertinent. Il utilise la propriété `wrapelement` pour générer des balises englobantes et délègue le rendu enfant aux composants correspondants. Cela s’avère utile lorsque vous souhaitez uniquement un composant de conteneur. Au lieu de créer un composant qui effectue le rendu d’une balise conteneur spécifique telle que `div` ou `p`, vous pouvez utiliser le composant Wrapper avec les propriétés `wrapelement` et `wrapclass` pour obtenir le même effet.
+- Dans le fichier `elementmapping.xml`, il existe de nombreuses entrées de mappage faisant référence au composant fmdita/components/dita/wrapper. Wrapper est un composant générique qui effectue le rendu de constructions DITA relativement simples à l’aide de propriétés sur le nœud de leur site pour générer des HTML pertinentes. Elle utilise la propriété `wrapelement` pour générer des balises englobantes et délègue le rendu enfant aux composants correspondants. Cela s’avère utile dans les cas où vous ne souhaitez qu’un composant de conteneur. Au lieu de créer un composant qui effectue le rendu d’une balise conteneur spécifique telle que `div` ou `p`, vous pouvez utiliser le composant Wrapper avec les propriétés `wrapelement` et `wrapclass` pour obtenir le même effet.
 
-- Il n’est pas recommandé d’enregistrer de grandes quantités de texte dans les propriétés JCR de chaîne. Le calcul du type de propriété optimisé dans la génération de sortie garantit que le contenu texte volumineux n’est pas enregistré comme type de chaîne. Au lieu de cela, lorsque le contenu supérieur à un certain seuil doit être enregistré, le type de la propriété est remplacé par binaire. Par défaut, ce seuil est configuré à 512 octets, mais peut être modifié dans Configuration Manager \(*com.adobe.fmdita.config.ConfigManager*\) en modifiant le paramètre **Enregistrer comme seuil binaire**.
+- Il n’est pas recommandé d’enregistrer de grandes quantités de texte dans les propriétés String JCR. Le calcul du type de propriété optimisé dans la génération de sortie garantit que le contenu de texte volumineux n’est pas enregistré en tant que type de chaîne. Au lieu de cela, lorsque du contenu supérieur à un certain seuil doit être enregistré, le type de la propriété est remplacé par binaire. Par défaut, ce seuil est configuré sur 512 octets, mais peut être modifié dans Configuration Manager \(*com.adobe.fmdita.config.ConfigManager*\) en modifiant le paramètre **Enregistrer en tant que seuil binaire**.
 
-- Si vous envisagez de remplacer certains \(et pas tous\) des mappages d’éléments, vous n’avez pas à répliquer l’intégralité du fichier `elementmapping.xml`. Vous devez créer un nouveau fichier de mappage XML et définir uniquement les éléments que vous remplacez.
+- Si vous prévoyez de remplacer certains \(et pas tous\) des mappages d’éléments, vous n’avez pas à répliquer le fichier `elementmapping.xml` entier. Vous devez créer un nouveau fichier de mapping XML et définir uniquement les éléments que vous remplacez.
 
 - Après avoir créé le fichier XML à l’emplacement personnalisé, mettez à jour le paramètre `Override Element Mapping` dans le lot `com.adobe.fmdita.config.ConfigManager`.
 
 
-## Personnalisation de la console de mappage DITA {#id188HC08M0CZ}
+## Personnaliser la console de plan DITA {#id188HC08M0CZ}
 
-AEM Guides vous offre la possibilité d’étendre les fonctionnalités de la console de mappage DITA. Si, par exemple, vous disposez d’un ensemble de rapports différent de celui disponible dans AEM Guides, vous pouvez ajouter ces rapports à la console de mappage. Pour personnaliser la console de mappage, vous devez créer une AEM bibliothèque cliente \(ou ClientLib\) qui contiendra le code pour exécuter les fonctionnalités dont vous avez besoin.
-
->[!NOTE]
->
-> La modification directe aux composants de page n’est pas recommandée, car elle sera écrasée par les nouvelles versions du produit.
-
-AEM Guides fournit la catégorie `apps.fmdita.dashboard-extn` pour personnaliser la console de mappage. Chaque fois que la console de mappage est chargée, la fonctionnalité créée sous la catégorie `apps.fmdita.dashboard-extn` est exécutée et chargée.
+AEM Guides vous offre la possibilité d&#39;étendre les fonctionnalités de la console de plan DITA. Par exemple, si vous disposez d’un ensemble de rapports différent de celui disponible dans AEM Guides, vous pouvez ajouter ces rapports à la console Carte. Pour personnaliser la console de mappage, vous devez créer une bibliothèque cliente AEM \(ou ClientLib\) qui contiendra le code permettant d’exécuter les fonctionnalités dont vous avez besoin.
 
 >[!NOTE]
 >
-> Pour plus d’informations sur la création AEM bibliothèque cliente, voir [Utilisation de bibliothèques côté client](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
+> Il n’est pas recommandé de modifier directement les composants de page, car ils seront remplacés par de nouvelles versions du produit.
 
-## Gérer le rendu d’image lors de la génération de la sortie {#id177BF0G0VY4}
+AEM Guides fournit la catégorie `apps.fmdita.dashboard-extn` pour la personnalisation de Map Console. Chaque fois que la console de mappage est chargée, la fonctionnalité créée sous la catégorie `apps.fmdita.dashboard-extn` est exécutée et chargée.
 
-AEM est fourni avec un ensemble de workflows et de gestionnaires de médias par défaut pour traiter les ressources. Dans AEM, il existe des workflows prédéfinis pour gérer le traitement des ressources pour les types MIME les plus courants. En règle générale, pour chaque image que vous téléchargez, AEM crée plusieurs rendus du même format binaire. Ces rendus peuvent être de taille différente, avec une résolution différente, avec un filigrane ajouté ou d’autres caractéristiques modifiées. Pour plus d’informations sur la manière dont AEM gère les ressources, voir [Traitement d’Assets à l’aide de gestionnaires et de workflows de médias](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) dans AEM documentation.
+>[!NOTE]
+>
+> Pour plus d’informations sur la création de la bibliothèque cliente AEM, voir [ Utilisation de bibliothèques côté client ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
 
-AEM Guides vous permet de configurer le rendu d’image à utiliser lors de la génération de la sortie pour vos documents. Par exemple, vous pouvez choisir parmi l’un des rendus d’image par défaut ou en créer un et l’utiliser pour publier vos documents. Le mappage de rendu d’image pour la publication de vos documents est stocké dans le fichier `/libs/fmdita/config/ **renditionmap.xml**`. Voici un extrait de fichier `renditionmap.xml` :
+## Gérer le rendu des images pendant la génération de la sortie {#id177BF0G0VY4}
+
+AEM s’accompagne d’un ensemble de workflows et de descripteurs de médias par défaut destinés au traitement des ressources. Dans AEM, il existe des workflows prédéfinis pour gérer le traitement des ressources pour les types MIME les plus courants. En règle générale, pour chaque image chargée, AEM crée plusieurs rendus de la même image au format binaire. Ces rendus peuvent être de tailles différentes, avec une résolution différente, avec un filigrane ajouté ou une autre caractéristique modifiée. Pour plus d’informations sur la façon dont AEM gère les ressources, voir [Traitement d’Assets à l’aide de gestionnaires de médias et de workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) dans la documentation d’AEM.
+
+AEM Guides vous permet de configurer le rendu d’image à utiliser au moment de la génération de la sortie de vos documents. Par exemple, vous pouvez choisir l’un des rendus d’image par défaut ou en créer un et l’utiliser pour publier vos documents. Le mappage de rendu d’image pour la publication de vos documents est stocké dans le fichier `/libs/fmdita/config/ **renditionmap.xml**`. Un extrait de fichier `renditionmap.xml` est le suivant :
 
 >[!NOTE]
 >
@@ -636,49 +656,50 @@ AEM Guides vous permet de configurer le rendu d’image à utiliser lors de la g
 </renditionmap>
 ```
 
-L’élément `mimetype` spécifie le type MIME du format de fichier. L’élément `rendition output` spécifie le type de format de sortie et le nom du rendu \(par exemple, `cq5dam.web.1280.1280.jpeg`\) qui doit être utilisé pour publier la sortie spécifiée. Vous pouvez spécifier les rendus d’image à utiliser pour tous les formats de sortie pris en charge : AEMSITE, PDF, HTML5, EPUB et PERSONNALISÉ.
+L’élément `mimetype` spécifie le type MIME du format de fichier. L’élément `rendition output` spécifie le type de format de sortie et le nom du rendu \(par exemple, `cq5dam.web.1280.1280.jpeg`\) qui doit être utilisé pour publier la sortie spécifiée. Vous pouvez spécifier les rendus d’image à utiliser pour tous les formats de sortie pris en charge (AEMSITE, PDF, HTML5, EPUB et CUSTOM).
 
-Si le rendu spécifié n’est pas présent, le processus de publication AEM Guides commence par rechercher le rendu web de l’image donnée. Si même le rendu web est introuvable, le rendu d’origine de l’image est utilisé.
+Si le rendu spécifié n’est pas présent, le processus de publication AEM Guides recherche d’abord le rendu web de l’image donnée. Si le rendu web est introuvable, le rendu original de l’image est utilisé.
 
 >[!NOTE]
 >
-> Ces rendus d’image contrôlent uniquement la génération de sortie. Le rendu web d’une image est utilisé lorsque vous ouvrez un document à des fins d’aperçu ou de révision.
+> Ces rendus d’image contrôlent uniquement la génération de sortie. Le rendu web d’une image est utilisé lorsque vous ouvrez un document pour le prévisualiser ou le réviser.
 
-## Configuration de la période de purge automatique pour l’historique de sortie {#id19AAI070V8Q}
+## Configurer la période de purge automatique pour l’historique de sortie {#id19AAI070V8Q}
 
-Lorsque vous générez une sortie, la sortie est créée avec les logs de sortie. Pour les mappages DITA volumineux, ces journaux peuvent prendre beaucoup d’espace dans votre référentiel. Par défaut, les journaux sont stockés à l’emplacement suivant dans le référentiel :
+Lorsque vous générez une sortie, celle-ci est créée avec les journaux de sortie. Pour les plans DITA volumineux, ces journaux peuvent occuper une grande quantité d&#39;espace dans votre référentiel. Par défaut, les journaux sont stockés à l’emplacement suivant dans le référentiel :
 
 `/var/dxml/metadata/outputHistory`
 
-Sur une certaine période, la taille collective de tous les fichiers journaux peut atteindre 1 Go. AEM Guides vous permet de configurer une période pour conserver ces fichiers journaux dans le référentiel. Après la période spécifiée, les journaux ainsi que l’historique de génération de sortie sont supprimés du référentiel.
+Sur une période de temps, la taille collective de tous les fichiers journaux pouvait atteindre Go. AEM Guides vous permet de configurer une période pour conserver ces fichiers journaux dans le référentiel. Au bout de la période spécifiée, les journaux ainsi que l’historique de génération de sortie sont supprimés du référentiel.
 
 >[!NOTE]
 >
-> L&#39;historique de génération de sortie est l&#39;entrée de journal dans la liste Sorties générées de l&#39;onglet Sorties .
+> L’historique de génération des sorties est l’entrée du journal dans la liste Sorties générées de l’onglet Sorties .
 
-La configuration de la fonction de purge de l’historique a un impact sur la génération de sortie pour tous les mappages DITA dans le référentiel. Dans l’onglet Sorties d’un mappage DITA, l’historique est purgé après le nombre de jours spécifié et à l’heure spécifiée dans le paramètre .
+La configuration de la fonction de purge de l&#39;historique a un impact sur la génération de sortie pour tous les plans DITA du référentiel. Dans l&#39;onglet Sorties d&#39;un plan DITA, l&#39;historique est purgé après le nombre de jours spécifié et à l&#39;heure spécifiée dans le paramètre.
 
 >[!NOTE]
 >
 > La suppression des fichiers journaux et de l’historique de génération de sortie n’a aucun impact sur la sortie générée.
 
-Suivez les instructions de la section [Remplacements de configuration](download-install-additional-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(propriété\) suivants pour définir un jour et une heure pour purger l’historique de sortie et les journaux :
+Suivez les instructions fournies dans [Remplacements de la configuration](download-install-additional-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour définir le jour et l’heure de la purge de l’historique et des journaux de sortie :
 
-| PID | Clé de propriété | Valeur de la propriété |
+| PID | Clé de la propriété | Valeur de la propriété |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgeperiod` | Indiquez le nombre de jours après lesquels l’historique de sortie avec les journaux de sortie est purgé. Si vous souhaitez désactiver cette fonction, définissez cette propriété sur 0. Chaque jour, au moment spécifié, le processus de purge est exécuté sur les sorties générées avant le nombre de jours spécifié dans cette propriété. <br> **Valeur par défaut** : 5 |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgeperiod` | Spécifiez le nombre de jours après lesquels l’historique de sortie et les journaux de sortie sont purgés. Si vous souhaitez désactiver cette fonctionnalité, définissez cette propriété sur 0.Everyday à l’heure spécifiée pour l’exécution du processus de purge sur les sorties générées avant le nombre de jours spécifié dans cette propriété. <br> **Valeur par défaut** : 5 |
 | `output.history.purgetime` | Spécifiez l’heure à laquelle le processus de purge est lancé. <br> **Valeur par défaut** : 0:00 \(ou 12:00 minuit\) |
 
-## Modification de la limite de la liste des sorties récemment générées {#id1679JH0H0O2}
+## Modifier la limite de la liste de sorties récemment générée {#id1679JH0H0O2}
 
-Vous pouvez modifier le nombre maximal de sorties générées qui s’affichent dans l’onglet Sorties pour un mappage DITA.
+Vous pouvez modifier le nombre maximal de sorties générées affichées dans l&#39;onglet Sorties d&#39;un plan DITA.
 
-Suivez les instructions de la section [Remplacements de configuration](download-install-additional-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(propriété\) suivants pour modifier le nombre de sorties à afficher dans la liste :
+Suivez les instructions fournies dans [Remplacements de la configuration](download-install-additional-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour modifier le nombre de sorties à afficher dans la liste :
 
-| PID | Clé de propriété | Valeur de la propriété |
+| PID | Clé de la propriété | Valeur de la propriété |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `output.historylimit` | Valeur entière.<br> **Valeur par défaut** : 25 |
 
 >[!TIP]
 >
-> Consultez la section *Historique de sortie* du guide Bonnes pratiques pour connaître les bonnes pratiques relatives à l’utilisation de l’historique de sortie.
+> Voir la section *Historique de sortie* dans le guide des bonnes pratiques pour connaître les bonnes pratiques relatives à l’utilisation de l’historique de sortie.
+

@@ -1,49 +1,37 @@
 ---
-title: Utilisation de l’éditeur web
-description: Créez et modifiez des documents structurés à l’aide de l’éditeur web. Découvrez comment travailler avec l’éditeur web en suivant les normes DITA dans AEM Guides.
+title: Présentation de l’éditeur
+description: Créez et modifiez des documents structurés à l’aide de l’éditeur. Découvrez comment utiliser l’éditeur en respectant les normes DITA dans Adobe Experience Manager Guides.
 exl-id: 285d3ad3-fb4e-4cdd-ab83-493ffce891d6
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
 
-# Utilisation de l’éditeur web {#id181OD0QE05Z}
+# Présentation de l’éditeur {#id181OD0QE05Z}
 
-AEM Guides s’accompagne d’un éditeur web convivial pour la création et la modification de documents structurés. L’éditeur masque toutes les complexités de la structure DITA à l’auteur. L’éditeur fournit une liste des éléments DITA qu’un utilisateur doit généralement utiliser dans un document.
+Experience Manager Guides est fourni avec un éditeur convivial destiné à la création et à la modification de documents structurés. L’éditeur masque au rédacteur toutes les complexités de la structure DITA. L&#39;éditeur fournit une liste d&#39;éléments DITA qu&#39;un utilisateur doit généralement utiliser dans un document.
 
-En outre, l’éditeur web est compatible avec DITA et prend en charge les normes DITA 1.3, 1.2, la DITA légère et également la DITA spécialisée. Cela signifie qu’il ne vous permettra pas de placer des éléments à des emplacements qui ne sont pas conformes aux normes DITA. L’éditeur web vous permet également d’utiliser les éléments bloqués et en ligne les plus couramment utilisés.
+En outre, l&#39;éditeur est compatible DITA et prend en charge les normes DITA 1.3 et 1.2, la norme DITA légère et la norme DITA spécialisée. Cela signifie qu&#39;il ne vous permettra pas de placer des éléments à des emplacements non conformes aux normes DITA. L’éditeur vous permet également d’utiliser le bloc et les éléments en ligne les plus couramment utilisés.
 
-- **[Lancement de l’éditeur Web](web-editor-launch-editor.md)**
+- **[Lancer l’éditeur](web-editor-launch-editor.md)**
 
-- **[Modification de rubriques dans l’éditeur web](web-editor-edit-topics.md)**
+- **[Créer et prévisualiser des rubriques](create-preview-topics.md)**
 
-- **[Connaître les fonctionnalités de l’éditeur Web](web-editor-features.md)**
+- **[Connaître les fonctionnalités de l’éditeur](web-editor-features.md)**
 
-- **[Raccourcis clavier dans l’éditeur web](web-editor-keyboard-shortcuts.md)**
+- **[Fonctionnalités supplémentaires de l’éditeur](web-editor-other-features.md)**
 
-- **[Autres fonctionnalités de l’éditeur web](web-editor-other-features.md)**
+- **[Vues de l’éditeur](web-editor-views.md)**
 
-- **[Affichages de l’éditeur web](web-editor-views.md)**
-
-- **[Création de documents Markdown à partir de l’éditeur web](web-editor-markdown-topic.md)**
-
-- **[Gérer les paramètres prédéfinis de sortie globaux et de profil de dossier](web-editor-manage-output-presets.md)**
-
-- **[Publication basée sur des articles à partir de l’éditeur web](web-editor-article-publishing.md)**
-
-- **[Utilisez le panneau Génération rapide pour générer et afficher la sortie](web-editor-quick-generate-panel.md)**
-
-- **[Traduire des documents à partir de l’éditeur Web](translate-documents-web-editor.md)**
-
-- **[Créer et gérer des lignes de base à partir de l’éditeur web](web-editor-baseline.md)**
+- **[Créer des documents Markdown à partir de l’éditeur](web-editor-markdown-topic.md)**
 
 - **[État du document](web-editor-document-states.md)**
 
-- **[Utiliser des étiquettes](web-editor-use-label.md)**
+- **[Utiliser des libellés](web-editor-use-label.md)**
 
 
-**Rubrique parente :**[ Créez du contenu à l’aide d’AEM Guides](authoring-content-xml-doc.md)
+**Rubrique parente :**[ créer du contenu à l’aide de Experience Manager Guides](authoring-content-xml-doc.md)

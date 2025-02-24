@@ -1,38 +1,38 @@
 ---
 title: À propos d’Adobe Experience Manager Guides
-description: Découvrez Adobe Experience Manager Guides, une solution de gestion de contenu par composant DITA destinée aux entreprises. Découvrez les avantages d’AEM Guides.
+description: Découvrez Adobe Experience Manager Guides, une solution de gestion de contenu par composant DITA destinée aux entreprises. Découvrez les avantages de Experience Manager Guides.
 exl-id: 474e7eab-3474-4362-9f1d-17cc98e53184
 feature: Introduction
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: afa77e42eec4ea900efff14f1ae5f79464591505
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 7%
+source-wordcount: '263'
+ht-degree: 4%
 
 ---
 
 # À propos d’Adobe Experience Manager Guides {#id1645E0A50MY}
 
-Adobe Experience Manager Guides \(appelé *AEM Guides* ultérieurement dans ce guide\) est une puissante solution de gestion de contenu de composant de niveau entreprise \(CCMS\). Il est disponible en deux versions : on-prem et cloud service. Il active la prise en charge native de DITA dans Adobe Experience Manager, ce qui permet à AEM de gérer la création et la diffusion de contenu basé sur DITA. Il permet aux auteurs de créer du contenu à l’aide d’un éditeur web intégré convivial.
+Adobe Experience Manager Guides est une solution performante de gestion de contenu par composant \(CCMS\) de qualité professionnelle. Il existe deux versions : on-premise et cloud service. Il active la prise en charge native de DITA dans Adobe Experience Manager, ce qui permet à AEM de gérer la création et la diffusion de contenu basé sur DITA. Il permet aux auteurs de créer du contenu à l’aide d’un éditeur web intégré facile à utiliser.
 
-AEM Guides fournit toutes les fonctions principales de la gestion de contenu (CCMS), telles que la création, la collaboration, la révision, la traduction, la recherche, les rapports et la gestion des métadonnées pour le contenu DITA, ce qui permet aux auteurs de faire plus en moins rapidement grâce à une réutilisation efficace du contenu et à de puissants workflows. En outre, les utilisateurs peuvent tirer parti de sa fonctionnalité de publication en un clic de la meilleure qualité pour générer une sortie basée sur DITA pour les formats les plus populaires : Adobe Experience Manager Sites, PDF, HTML5, EPUB et sortie personnalisée via DITA-OT.
+Experience Manager Guides fournit toutes les fonctions de base du système de gestion de contenu par composant (CCMS), telles que la création, la collaboration, la révision, la traduction, la recherche, les rapports et la gestion des métadonnées pour le contenu DITA, ce qui permet aux créateurs et créatrices de faire plus en moins de temps grâce à une réutilisation efficace du contenu et à des workflows puissants. De plus, les utilisateurs peuvent tirer parti de sa fonctionnalité de publication en un seul clic, la plus performante de sa catégorie, pour générer une sortie basée sur DITA pour les formats les plus populaires : Adobe Experience Manager Sites, PDF, HTML5, EPUB et une sortie personnalisée via DITA-OT.
 
-Avec AEM Guides, les entreprises peuvent proposer des expériences homogènes et personnalisées aux utilisateurs finaux et garantir la cohérence et l’uniformité du contenu avant et après-vente. Un contrôle complet de l’intégrité du contenu peut être réalisé facilement. De plus, le temps et les coûts de localisation diminuent également considérablement.
+Avec Experience Manager Guides, les entreprises peuvent offrir des expériences transparentes et personnalisées aux utilisateurs finaux et assurer la cohérence et l’uniformité du contenu avant et après-vente. Le contrôle total de l’intégrité du contenu est facile à réaliser. De plus, le temps et les coûts de localisation diminuent considérablement.
 
-## Avantages d’un seul coup d’oeil
+## Avantages en un coup d’œil
 
-- Expérience de contenu avant et après achat uniforme pour les utilisateurs finaux
+- Expérience de contenu uniforme avant et après l’achat pour les utilisateurs finaux
 
-- Publication d’une expérience omnicanal sur Experience Manager Sites, PDF, HTML5, EPUB et sortie personnalisée via DITA-OT
+- Expérience de publication omnicanal sur Experience Manager Sites, PDF, HTML5, EPUB, JSON et sortie personnalisée via DITA-OT
 
-- Familiarisez-vous avec les outils/systèmes d’Adobe existants et la possibilité de vous consolider avec un seul partenaire
+- Connaissance des outils/systèmes Adobe existants et de l’opportunité de consolidation avec un seul partenaire
 
-- CMS unique pour la gestion de contenu marketing et technique de bout en bout
+- CMS unique pour gérer le contenu marketing et technique de bout en bout
 
-- Mise sur le marché plus rapide avec une réutilisation efficace du contenu
+- Mise sur le marché plus rapide avec réutilisation efficace du contenu
 
-- Processus puissants de révision, de collaboration et de traduction
+- Processus performants de révision, de collaboration et de traduction
 
 - Réduction du temps et des coûts de localisation
 
-- Moins de frais de maintenance
+- Réduction des frais de maintenance

@@ -1,44 +1,44 @@
 ---
 title: Résolution des problèmes de base
-description: Résolvez les problèmes liés au dépannage de base dans AEM Guides. Découvrez comment afficher, copier et vérifier le fichier journal dans un éditeur de texte et résoudre les erreurs de compilation JSP.
+description: Résolvez les problèmes grâce au dépannage de base dans AEM Guides. Découvrez comment afficher, copier et vérifier le fichier journal dans un éditeur de texte et résoudre les erreurs de compilation JSP.
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: ff75aca9ddd7b405501a62e055fb99bd5ea2291c
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
 
 # Résolution des problèmes de base {#id1821I0Y0G0A}
 
-Lorsque vous utilisez AEM Guides, vous pouvez rencontrer des erreurs lors de la publication ou de l’ouverture de votre document. Ces erreurs peuvent se trouver dans le mappage DITA, la rubrique ou dans le processus AEM Guides lui-même. Cette section fournit des informations sur la manière d’accéder aux informations et de les analyser dans le fichier journal de génération de sortie. En outre, si votre rubrique DITA est trop volumineuse, l’erreur de compilation JSP peut s’afficher. Cette section fournit également des informations sur la manière de résoudre l’erreur de compilation JSP.
+Lorsque vous utilisez Adobe Experience Manager Guides, vous pouvez rencontrer des erreurs lors de la publication ou de l’ouverture de votre document. Ces erreurs peuvent se trouver dans le plan DITA, la rubrique ou dans le processus Experience Manager Guides lui-même. Cette section fournit des informations sur la manière d’accéder aux informations et de les analyser dans le fichier journal de génération de sortie. En outre, si votre rubrique DITA est trop volumineuse, vous risquez de voir l&#39;erreur de compilation JSP. Cette section fournit également des informations sur la façon de résoudre l’erreur de compilation JSP.
 
 ## Afficher et vérifier le fichier journal {#id1822G0P0CHS}
 
-Effectuez les étapes suivantes pour afficher et vérifier le fichier journal de génération de sortie :
+Pour afficher et vérifier le fichier journal de génération de sortie, procédez comme suit :
 
-1. Une fois que vous avez lancé le processus de génération de sortie, cliquez sur **Sorties** dans la console de mappage DITA.
+1. Une fois que vous avez lancé le processus de génération de sortie, sélectionnez **Sorties** dans la console de mappage DITA.
 
-   La colonne **Général** de la colonne **Sorties générées** affiche les icônes pour donner un indice visuel sur la réussite ou l’échec de la génération de sortie.
+   La colonne **Général** des **Sorties générées** affiche les icônes pour donner un indice visuel sur le succès ou l’échec de la génération de la sortie.
 
    ![](images/output-general-settings.png){width="300" align="left"}
 
-   Dans la capture d’écran ci-dessus, les première et troisième icônes affichent la génération de sortie ayant échoué. La seconde icône affiche une génération de sortie réussie, mais avec des messages. La dernière est une génération de sortie réussie sans message.
+   Dans la capture d’écran ci-dessus, les première et troisième icônes indiquent l’échec de la génération de sortie. La deuxième icône affiche une génération de sortie réussie, mais avec des messages. La dernière est une génération de sortie réussie sans aucun message.
 
-1. Cliquez sur le lien de la colonne **Généré à** une fois la tâche terminée.
+1. Sélectionnez le lien dans la colonne **Date de génération** une fois la tâche terminée.
 
    Le fichier journal s’ouvre dans un nouvel onglet.
 
    ![](images/log-file.png){width="800" align="left"}
 
-1. Appliquez les filtres suivants pour mettre le texte en surbrillance dans le fichier journal :
-   - Fatal : met en évidence les erreurs fatales dans le fichier journal avec une couleur rose.
-   - Erreur : met en surbrillance les erreurs dans le fichier journal avec une couleur orange.
-   - Avertissement : met en surbrillance les avertissements dans le fichier journal avec une couleur violette.
-   - Informations : met en surbrillance les messages d’informations du fichier journal avec la couleur bleue.
-   - Exception : met en évidence les exceptions dans le fichier journal avec la couleur jaune.
+1. Appliquez les filtres suivants pour mettre en surbrillance le texte dans le fichier journal :
+   - Fatal : met en évidence les erreurs fatales dans le fichier journal avec la couleur rose.
+   - Erreur : met en surbrillance les erreurs dans le fichier journal avec la couleur orange.
+   - Avertissement : met en surbrillance les avertissements dans le fichier journal avec la couleur violette.
+   - Infos : met en surbrillance les messages d’information dans le fichier journal avec la couleur bleue.
+   - Exception : met en surbrillance les exceptions dans le fichier journal, en jaune.
 1. Utilisez les boutons de navigation vers le haut et vers le bas pour accéder au texte en surbrillance dans le fichier journal.
 
    Vous pouvez également faire défiler le fichier journal et vérifier les messages.
@@ -48,43 +48,43 @@ Effectuez les étapes suivantes pour afficher et vérifier le fichier journal de
 
 Effectuez les étapes suivantes pour copier et vérifier le fichier journal de génération de sortie dans un éditeur de texte :
 
-1. Une fois que vous avez lancé le processus de génération de sortie, cliquez sur **Sorties** dans la console de mappage DITA.
+1. Une fois que vous avez lancé le processus de génération de sortie, sélectionnez **Sorties** dans la console de mappage DITA.
 
-1. Cliquez sur le lien de la colonne **Généré à** une fois la tâche terminée.
+1. Sélectionnez le lien dans la colonne **Date de génération** une fois la tâche terminée.
 
    Le fichier journal s’ouvre dans un nouvel onglet.
 
-1. Cliquez sur le bouton **Copier le journal** . Le fichier journal est copié dans le Presse-papiers.
+1. Sélectionnez le bouton **Copier le journal**. Le fichier journal est copié dans le presse-papiers.
 1. Ouvrez un éditeur de texte et collez le fichier journal dans l’éditeur.
 
-1. Faites défiler le fichier journal et recherchez les messages.
+1. Parcourez le fichier journal et recherchez des messages.
 
-   Les informations suivantes vous aideront à déterminer si une erreur s’est produite dans le fichier DITA ou dans le processus AEM Guides :
+   Les informations suivantes vous aideront à déterminer s&#39;il y a une erreur dans le fichier DITA ou dans le processus Experience Manager Guides :
 
-   - *Erreur liée au fichier de mappage DITA* : en cas d’erreur trouvée dans le fichier de mappage DITA ou dans tout autre fichier contenu dans le mappage DITA, le fichier journal contiendra une chaîne &quot;BUILD FAILED&quot;. Vous pouvez vérifier les informations données dans le fichier journal pour localiser le fichier en erreur et corriger le problème.
+   - *Erreur liée au fichier de plan DITA* : si une erreur est trouvée dans le fichier de plan DITA ou dans tout autre fichier contenu dans le plan DITA, le fichier journal contiendra une chaîne « BUILD FAILED ». Vous pouvez vérifier les informations fournies dans le fichier journal pour localiser le fichier erroné et résoudre le problème.
 
-   Dans l’exemple de fragment de code de fichier journal suivant, vous pouvez voir le message `BUILD FAILED` avec la raison de l’erreur.
+   Dans l’exemple de fragment de code suivant de fichier journal, vous pouvez afficher le message `BUILD FAILED` ainsi que la raison de l’erreur.
 
    ![](images/dita-error-in-log-file.png){width="650" align="left"}
 
-   - *Erreur liée à AEM Guides* : l’autre type d’erreur que vous pouvez identifier dans le fichier journal est lié au processus AEM Guides lui-même. Dans ce cas, le fichier de mappage DITA est analysé avec succès, mais le processus de génération de sortie échoue en raison d’une erreur interne dans AEM Guides. Pour ce type d&#39;erreurs, vous devez demander de l&#39;aide auprès de l&#39;équipe d&#39;assistance technique.
+   - *Erreur liée à Experience Manager Guides* : l&#39;autre type d&#39;erreur que vous pouvez identifier dans le fichier journal est lié au processus Experience Manager Guides lui-même. Dans ce cas, le fichier de mappage DITA est analysé avec succès, mais le processus de génération de sortie échoue en raison d&#39;une erreur interne dans Experience Manager Guides. Pour ce type d’erreur, vous devez demander de l’aide à l’équipe d’assistance technique.
 
-   Dans l’exemple de fragment de code de fichier journal suivant, vous pouvez voir le message `BUILD SUCCESSFUL` suivi d’une autre erreur technique.
+   Dans l’exemple d’extrait de fichier journal suivant, vous pouvez afficher le message `BUILD SUCCESSFUL`, suivi d’une autre erreur technique.
 
    ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
-## Résolution de l’erreur de compilation JSP
+## Résoudre l’erreur de compilation JSP
 
-Si votre rubrique DITA est trop volumineuse, l’erreur de compilation JSP \(`org.apache.sling.api.request.TooManyCallsException`\) peut s’afficher dans votre navigateur. Cette erreur peut s’afficher lorsque vous ouvrez une rubrique à des fins de modification, de révision ou de publication.
+Si votre rubrique DITA est trop volumineuse, il se peut que l&#39;erreur de compilation JSP \(`org.apache.sling.api.request.TooManyCallsException`\) s&#39;affiche dans votre navigateur. Cette erreur peut apparaître lorsque vous ouvrez une rubrique pour la modifier, la réviser ou la publier.
 
 Pour résoudre ce problème, procédez comme suit :
 
-1. Dans la navigation globale, sélectionnez Outils, puis Opérations > Console web.
+1. Dans la navigation globale, sélectionnez Outils et choisissez Opérations \> Console web.
 
    La page de configuration de la console web Adobe Experience Manager s’affiche.
 
-1. Recherchez et cliquez sur le composant *Apache Sling Main Servlet*.
+1. Recherchez et sélectionnez le composant *Servlet principal Apache Sling*.
 
    Les options configurables pour le servlet principal Apache Sling s’affichent.
 

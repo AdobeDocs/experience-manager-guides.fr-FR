@@ -4,60 +4,66 @@ description: Créez des paramètres prédéfinis de sortie à partir de l’édi
 exl-id: cd38b039-ef91-45c9-a226-433e57b09873
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 5011481c25b4888a3e72b0e2238b10d8e2fbc191
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
-# Création de paramètres prédéfinis de sortie à partir de l’éditeur web {#id218CL400JW3}
+# Création de paramètres prédéfinis de sortie pour la base de connaissances à partir de l’éditeur {#id218CL400JW3}
 
-Effectuez les étapes suivantes pour créer des paramètres prédéfinis de sortie pour votre mappage DITA :
+Pour créer des paramètres prédéfinis de sortie pour votre plan DITA, procédez comme suit :
 
 1. Dans l’interface utilisateur d’Assets, accédez au fichier de mappage à modifier.
 
-1. Pour obtenir un verrou exclusif sur le fichier map, sélectionnez le fichier map et cliquez sur **Check Out**.
+1. Pour obtenir un verrouillage exclusif sur le fichier de mappage, sélectionnez le fichier de mappage et sélectionnez **Extraire**.
 
 1. Sélectionnez l’option **Modifier les rubriques** dans le menu d’actions du fichier de mappage.
 
-   Le fichier de mappage est ouvert pour modification dans l’éditeur web.
+   Le fichier de mappage est ouvert pour modification dans l’éditeur.
 
    >[!NOTE]
    >
-   > Vous pouvez ajouter ou supprimer une rubrique du mappage à l’aide de l’éditeur de mappage avancé. Pour plus d’informations, voir [Utilisation de l’éditeur de mappage avancé](map-editor-advanced-map-editor.md#).
+   > Vous pouvez ajouter ou supprimer n’importe quelle rubrique de la carte à l’aide de l’éditeur de cartes avancé. Pour plus d’informations, consultez la section [Utilisation de l’éditeur de carte avancé](map-editor-advanced-map-editor.md#).
 
-1. Dans l’onglet **Output**, sélectionnez l’icône + pour créer un paramètre prédéfini de sortie pour votre mappage DITA.
+1. Sélectionnez l’icône **Ouvrir dans la console de mappage**. La carte s’ouvre dans la console de carte.
 
-   ![](images/output-tab-preset_cs.png){width="350" align="left"}
+1. Accédez à l&#39;onglet **Paramètres prédéfinis de sortie** et sélectionnez l&#39;icône + pour créer un paramètre prédéfini de sortie pour votre plan DITA.
 
-1. Saisissez le nom du paramètre prédéfini dans la boîte de dialogue Ajouter un paramètre prédéfini , puis cliquez sur **Ajouter**.
+1. Sélectionnez **Base de connaissances** dans la liste déroulante **Type**, saisissez un nom, puis sélectionnez **Adobe Experience Manager** dans la boîte de dialogue **Nouveau paramètre prédéfini de sortie**.
+1. Sélectionnez l’option **Ajouter au profil du dossier actuel** pour créer un paramètre prédéfini de sortie pour le profil du dossier actuel. ![icône de profil de dossier](images/global-preset-icon.svg) l’icône indique un paramètre prédéfini de niveau de profil de dossier.
 
-1. Saisissez les détails de configuration suivants.
+   En savoir plus sur la [Gestion des paramètres prédéfinis de sortie de profil global et de dossier](./web-editor-manage-output-presets.md).
 
-   1. Sélectionnez les options requises dans l’onglet **Général** . Vous pouvez choisir de créer un paramètre prédéfini de sortie avec ou sans conditions. Vous pouvez également utiliser un fichier DITVAL. AEM Guides vous permet également de sélectionner une ligne de base pour publier une version spécifique de votre mappage DITA.
-   1. Saisissez les détails AEM du site dans l’onglet **AEM** . **Site** affiche la liste des AEM Sites disponibles dans votre référentiel AEM. **Catégorie**, **Modèle de section** et **Modèle d’article** sont les composants structurels utilisés pour organiser l’aspect de votre sortie. Elles sont prédéfinies dans le modèle Site AEM.
+1. Sélectionnez **Ajouter**.
 
-      >[!NOTE]
-      >
-      > Actualisez chaque liste déroulante pour obtenir la classification supplémentaire dans la liste déroulante suivante.
+   Le paramètre prédéfini de la base de connaissances est créé.
 
-   1. Dans l&#39;onglet **Articles** , sélectionnez les rubriques pour lesquelles vous souhaitez générer la sortie.
-1. Sélectionnez l’icône **Générer un paramètre prédéfini** en haut pour générer la sortie.
+
+   ![Nouveau ](images/knowledge-base-preset-dialog-box.png){width="800" align="left"}
+
+Une fois le paramètre prédéfini créé, vous pouvez générer la sortie pour des articles spécifiques de la base de connaissances. Pour ce faire, accédez à l’onglet **Articles** et sélectionnez les rubriques pour lesquelles vous souhaitez générer la sortie.
+1. Sélectionnez **Générer la sortie** en haut pour générer la sortie.
 
    ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
 
-1. Vous verrez l’état du processus de génération de sortie. La colonne **Sujets** répertorie les rubriques pour lesquelles une sortie est générée tandis que la colonne **État** affiche l’état de publication de chaque rubrique.
+1. Dans l’invite **Confirmer les fichiers à publier**, sélectionnez les fichiers à publier et confirmez en sélectionnant **Publier**.
 
-   Pour afficher la sortie, placez le pointeur de la souris sur la rubrique et cliquez sur Afficher la sortie.
+   ![Nouveau ](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
 
-   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+Vous verrez l’état du processus de génération de sortie. La colonne **Rubriques** répertorie les rubriques pour lesquelles une sortie est générée tandis que la colonne **Statut** affiche le statut de publication de chaque rubrique.
+
+
+![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+
+Pour afficher la sortie, fermez la boîte de dialogue Sortie générée et sélectionnez **Afficher la sortie** sur la page du paramètre prédéfini.
 
 
 >[!NOTE]
 >
-> Vous pouvez également modifier, renommer, dupliquer ou supprimer un paramètre prédéfini de sortie existant dans le menu Options.
+> Vous pouvez également Renommer, Dupliquer ou Supprimer un paramètre prédéfini de sortie existant à partir du menu Options.
 
-![](images/edit-preset_cs.png){width="550" align="left"}
 
-**Rubrique parente :**[ Publication basée sur un article à partir de l’éditeur web](web-editor-article-publishing.md)
+
+**Rubrique parente :**[ Publication basée sur des articles à partir de l’éditeur](web-editor-article-publishing.md)

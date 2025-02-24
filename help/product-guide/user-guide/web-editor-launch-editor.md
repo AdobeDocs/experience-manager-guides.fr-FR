@@ -1,127 +1,136 @@
 ---
-title: Lancement de l’éditeur web
-description: Découvrez comment lancer l’éditeur web à partir de la page de navigation d’AEM, de l’interface utilisateur d’AEM Assets et de la console de mappage DITA dans AEM Guides.
+title: Lancement de l’éditeur
+description: Découvrez comment lancer l’éditeur à partir de la page de navigation d’AEM, de l’interface utilisateur d’AEM Assets et de la console de cartes dans Adobe Experience Manager Guides.
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
-# Lancement de l’éditeur web {#id2056B0140HS}
+# Lancement de l’éditeur {#id2056B0140HS}
 
-Vous pouvez lancer l’éditeur Web à partir des emplacements suivants :
+Vous pouvez lancer l’éditeur à partir des emplacements suivants :
 
-- [Page de navigation AEM](#id2056BG00RZJ)
-- [Interface utilisateur d’AEM Assets](#id2056BG0307U)
-- [Console de mappage DITA](#id2056BG090BF)
+- [Page de navigation de Adobe Experience Manager](#adobe-experience-manager-navigation-page)
+- [Interface utilisateur d’Adobe Experience Manager Assets](#adobe-experience-manager-assets-ui)
+- [Console Carte](#map-console)
 
-Les sections suivantes présentent les détails de la manière dont vous pouvez accéder à l’éditeur Web et le lancer à partir de différents emplacements.
+Les sections suivantes décrivent en détail comment accéder à l’éditeur et le lancer à partir de différents emplacements.
 
-## Page de navigation AEM {#id2056BG00RZJ}
+## Page de navigation de Adobe Experience Manager
 
-Lorsque vous vous connectez à AEM, la page Navigation s’affiche :
+Lorsque vous vous connectez à Experience Manager, la page Navigation s’affiche :
 
 ![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
-Cliquez sur le lien **Guides** pour accéder directement à l’éditeur Web.
+Le fait de sélectionner le lien **Guides** vous mène à la page d’accueil [Adobe Experience Manager Guides](./intro-home-page.md).
+
+![](images/aem-home-page.png){width="800" align="left"}
+
+Pour lancer l’éditeur, accédez à la barre de navigation, puis sélectionnez **Éditeur** dans la liste déroulante. La page d’accueil est sélectionnée par défaut.
+
+![](images/editor-home-page-dropdown.png){width="350" align="left"}
+
+Lorsque vous lancez l’éditeur sans sélectionner de fichier, un écran d’éditeur vierge s’affiche. Vous pouvez ouvrir un fichier pour le modifier à partir d’Experience Manager **référentiel** ou de vos **collections**.
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
-Comme vous avez lancé l’éditeur Web sans sélectionner de fichier, un écran d’éditeur Web vierge s’affiche. Vous pouvez ouvrir un fichier pour le modifier à partir du référentiel AEM ou de votre collection Favoris.
-
-- Cliquez sur l’icône **Guides** (![](images/aem-guides-icon.png) ) pour revenir à la page de navigation AEM.
-
-- Le bouton **Fermer** permet d’accéder à une destination en fonction de votre configuration :
+Vous pouvez également lancer l’éditeur en ouvrant les fichiers existants présents dans les widgets **Fichiers récents** et **Collections** de [Expérience de la page d’accueil d’Adobe Experience Manager Guides](./intro-home-page.md).
 
 
+Pour revenir à la page de navigation d’Experience Manager, sélectionnez le logo Adobe Experience Manager situé dans le coin supérieur gauche de l’en-tête supérieur.
 
-  <details>
 
-  <summary> Services cloud </summary>
+## Interface utilisateur d’Adobe Experience Manager Assets
 
-  Si vous utilisez des Cloud Service, cliquez sur le bouton **Fermer** pour revenir à la page de navigation AEM.
-  </details>
+L’interface utilisateur de Experience Manager Assets est un autre emplacement à partir duquel vous pouvez lancer l’éditeur. Vous pouvez sélectionner une ou plusieurs rubriques et les ouvrir directement dans l’éditeur.
 
-  <details>
+Pour ouvrir une rubrique dans l’éditeur, procédez comme suit :
 
-  <summary> Logiciel On-Premise</summary>
-
-  Si vous utilisez le logiciel AEM Guides On-premise (4.2.1 et versions ultérieures), cliquez sur le bouton **Fermer** situé à droite pour revenir à votre chemin d’accès au fichier actuel dans l’interface utilisateur d’Assets.
-
-  </details>
-
-## Interface utilisateur d’AEM Assets {#id2056BG0307U}
-
-L’interface utilisateur d’AEM Assets vous permet également de lancer l’éditeur web. Vous pouvez sélectionner une ou plusieurs rubriques et les ouvrir directement dans l’éditeur web. Pour ouvrir une rubrique dans l’éditeur web, procédez comme suit :
-
-1. Dans l’interface utilisateur d’Assets, accédez à la rubrique que vous souhaitez modifier.
+1. Dans l’interface utilisateur d’Assets, accédez à la rubrique à modifier.
 
    >[!NOTE]
    >
-   > Vous pouvez également voir l’UUID de la rubrique.
-
-   .
+   > Vous pouvez également afficher l’UUID de la rubrique.
 
    ![](images/assets_ui_with_uuid_cs.png){width="800" align="left"}
 
    >[!IMPORTANT]
    >
-   > Assurez-vous que vous disposez des autorisations de lecture et d’écriture sur le dossier contenant la rubrique que vous souhaitez modifier.
+   > Assurez-vous de disposer des autorisations de lecture et d’écriture sur le dossier contenant la rubrique à modifier.
 
-1. Pour obtenir un verrou exclusif sur la rubrique, sélectionnez la rubrique et cliquez sur **Extraire**.
+1. Pour obtenir un verrou exclusif sur la rubrique, sélectionnez la rubrique et sélectionnez **Extraire**.
 
    >[!IMPORTANT]
    >
-   > Si votre administrateur a configuré l’option **Désactiver la modification sans extraction**, vous devez extraire le fichier avant de le modifier. Si vous n’extrayez pas le fichier, vous ne pourrez pas voir l’option de modification.
+   > Si votre administrateur a configuré l’option **Désactiver la modification sans verrouiller le fichier**, vous devez extraire le fichier avant de le modifier. Si vous n&#39;extrayez pas le fichier, vous ne pourrez pas afficher l&#39;option d&#39;édition.
 
-1. Fermez le mode de sélection de la ressource et cliquez sur la rubrique à modifier.
+1. Fermez le mode de sélection des ressources et sélectionnez la rubrique à modifier.
 
    L’aperçu de la rubrique s’affiche.
 
-   Vous pouvez ouvrir l’éditeur Web en mode Liste, Carte et Aperçu.
+   Vous pouvez ouvrir l’éditeur en mode Liste , Carte et Aperçu .
 
    >[!IMPORTANT]
    >
-   > Si vous souhaitez ouvrir plusieurs rubriques en vue de les modifier, sélectionnez-les dans l’interface utilisateur d’Assets, puis cliquez sur Modifier. Assurez-vous que le bloqueur de fenêtres contextuelles n’est pas activé dans votre navigateur. Sinon, seule la première rubrique de la liste sélectionnée est ouverte pour modification.
+   > Si vous souhaitez ouvrir plusieurs rubriques pour les modifier, sélectionnez-les dans l’interface utilisateur d’Assets et sélectionnez **Modifier**. Assurez-vous que votre navigateur n’a pas de bloqueur de pop-up activé, sinon seule la première rubrique de la liste sélectionnée est ouverte pour modification.
 
    ![](images/edit-from-preview_cs.png){width="800" align="left"}
 
-   Si vous ne souhaitez pas prévisualiser une rubrique et que vous souhaitez l’ouvrir directement dans l’éditeur web, cliquez sur l’icône Modifier du menu d’actions rapides en mode Carte :
+   Si vous ne souhaitez pas prévisualiser une rubrique et que vous souhaitez l’ouvrir directement dans l’éditeur, sélectionnez l’icône **Modifier** dans le menu d’action rapide en mode Carte :
 
    ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
 
-1. Cliquez sur **Modifier** pour ouvrir la rubrique dans l’éditeur web.
+   La rubrique s’ouvre dans l’éditeur.
 
    ![](images/edit-mode.png){width="800" align="left"}
 
+Vous pouvez également ouvrir un fichier de mappage dans l’interface utilisateur d’Assets et lancer l’éditeur pour modifier les rubriques du fichier de mappage.
 
-## Console de mappage DITA {#id2056BG090BF}
+Pour ouvrir une carte dans l’éditeur, procédez comme suit :
 
-Pour ouvrir l’éditeur web à partir de la console de mappage DITA, procédez comme suit :
-
-1. Dans l’interface utilisateur d’Assets, accédez au fichier de mappage DITA contenant la rubrique à modifier, puis cliquez dessus.
-
-   La console de mappage DITA s’affiche.
-
-1. Cliquez sur **Rubriques**.
-
-   Une liste des rubriques du fichier de mappage s’affiche. L’UUID des rubriques s’affiche sous le titre de la rubrique.
-
+1. Dans l’interface utilisateur d’Assets, accédez au fichier de mappage contenant la rubrique à modifier et sélectionnez-le.
+1. Dans la console de plan DITA, accédez à l&#39;onglet **Rubriques**. Une liste de rubriques dans le fichier de mappage s’affiche.
 1. Sélectionnez le fichier de rubrique à modifier.
-
-1. Cliquez sur **Modifier la rubrique**.
+1. Sélectionnez **Modifier rubrique**.
 
    ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
 
-1. La rubrique s’ouvre dans l’éditeur Web.
+1. La rubrique s’ouvre dans l’éditeur.
 
    >[!IMPORTANT]
    >
-   > Si votre administrateur a configuré l’option **Désactiver la modification sans extraction**, vous devez extraire le fichier avant de le modifier. Si vous n’extrayez pas le fichier, le document s’ouvre dans l’éditeur en mode lecture seule.
+   > Si votre administrateur a configuré l’option **Désactiver la modification sans verrouiller le fichier**, vous devez extraire le fichier avant de le modifier. Si vous ne récupérez pas le fichier, le document s’ouvre dans l’éditeur en mode lecture seule.
+
+## Console Carte
+
+Pour ouvrir l’éditeur à partir de la console Carte, procédez comme suit :
+
+1. Ouvrez la page d’accueil et lancez la console Carte.
+
+   ![](images/editor-map-console-dropdown.png){width="350" align="left"}
+
+   Comme vous avez lancé la console Map sans sélectionner de fichier map, un écran de console Map vierge s’affiche. Vous pouvez également ouvrir un fichier de mappage à partir d’Experience Manager **Référentiel** ou de vos **Collections**.
+
+   ![](images/launch-map-console.png){width="500" align="left"}
+
+1. Choisissez **Sélectionner un mappage** pour ouvrir un fichier de mappage contenant les rubriques à modifier dans l’éditeur.
+1. Sélectionnez le chemin d’accès où se trouve votre fichier de mappage. Le fichier de mappage sélectionné est ajouté à la console Mappage.
+1. Accédez au fichier de mappage et sélectionnez **Ouvrir dans l’éditeur** dans la liste déroulante.
+
+   ![](images/map-console-open-in-editor.png){width="800" align="left"}
+
+   Le fichier de mappage contenant les rubriques est ouvert pour modification dans l’éditeur.
+
+   ![](images/map-console-edit-topics.png){width="800" align="left"}
 
 
-**Rubrique parente :**[ Utilisation de l’éditeur web](web-editor.md)
+
+
+
+
+**Rubrique parente** : [Présentation de l’éditeur](web-editor.md)

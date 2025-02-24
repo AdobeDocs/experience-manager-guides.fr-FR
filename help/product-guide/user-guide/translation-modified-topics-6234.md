@@ -4,72 +4,72 @@ description: Découvrez comment retraduire une rubrique modifiée dans AEM Guide
 exl-id: b3228ea9-24a8-44aa-8ba4-e8f44754ffe4
 feature: Translation
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
 
 # Traduire les rubriques modifiées {#id16A5A0B6072}
 
-Si vous apportez des modifications à certaines rubriques, ces rubriques doivent être retraduites. Vous pouvez effectuer le suivi des rubriques modifiées à partir du mappage DITA. Dans le dossier de copie de langue source, cliquez sur le fichier de mappage DITA et cliquez sur l’onglet Traduction . Vous pouvez voir l’état de chaque rubrique, qu’elle nécessite une retraduction ou non.
+Si vous apportez des modifications à certains sujets, alors ces sujets doivent être retraduits. Vous pouvez suivre les rubriques modifiées à partir du plan DITA. Dans le dossier de copie de la langue source, sélectionnez le fichier de mappage DITA dans la console de mappage et sélectionnez l&#39;onglet Traduction . Vous pouvez afficher le statut de chaque rubrique, qu’elle nécessite une retraduction ou non.
 
-Effectuez les étapes suivantes pour envoyer une rubrique modifiée à retraduire :
+Effectuez les étapes suivantes pour envoyer une rubrique modifiée pour retraduction :
 
-1. Cliquez sur le fichier de mappage DITA dans le dossier de copie de langue source.
+1. Sélectionnez le fichier de mappage DITA dans le dossier de copie de la langue source de la **Console de mappage** dans l&#39;éditeur.
 
-1. Cliquez sur l’onglet **Traduction** .
+1. Sélectionnez l’onglet **Traduction** .
 
-1. Dans le panneau **Filter** à gauche, sélectionnez le **Traduire les langues** dont vous souhaitez vérifier l’état, puis cliquez sur **Terminé**.
+1. Dans le panneau **Traduction** sur la gauche, sélectionnez les **Langues disponibles** dont vous souhaitez vérifier le statut et sélectionnez **Appliquer**.
 
-   Vous pouvez afficher l’état de traduction de chaque rubrique. Les rubriques pour lesquelles une autre révision de la rubrique est disponible que celle qui a été envoyée pour traduction affichent l’état **Out of Date** (Date d’expiration).
-
-   >[!NOTE]
-   >
-   > Le processus de traduction compare la dernière révision enregistrée du fichier de rubrique dans le dossier de langue source avec la version traduite.
-
-   Cliquez sur la flèche pour afficher plus de détails. vous pouvez voir la copie de langue spécifique qui est obsolète.
-
-   ![](images/out-of-sync-uuid.png){width="800" align="left"}
-
-1. Cochez la case pour sélectionner les rubriques que vous souhaitez envoyer pour retraduction.
-
-   Lorsque vous sélectionnez une date désynchronisée, l’option **Créer/mettre à jour des copies de langue** apparaît dans le panneau Références et le bouton **Ignorer l’état de désynchronisation** situé au-dessus de l’icône **Filtrer**.
-
-   Vous pouvez utiliser le bouton **Ignorer la désynchronisation** pour remplacer l’état &quot;obsolète&quot; pour les rubriques du mappage DITA. Par exemple, si vous avez apporté des modifications à la version en anglais de la rubrique qui n’a pas besoin d’être traduite, vous pouvez utiliser ce bouton et modifier l’état &quot;À jour&quot; de la rubrique sélectionnée.
+   Vous pouvez afficher le statut de la traduction pour chaque rubrique. Les rubriques pour lesquelles une autre révision de la rubrique est disponible que celle envoyée pour traduction affichent un statut **Désynchronisé**.
 
    >[!NOTE]
    >
-   > Si vous cliquez sur le bouton **Ignorer l’état de désynchronisation**, l’état de la rubrique est mis à jour pour les rubriques d’obsolescence sélectionnées.
+   > Le workflow de traduction compare la dernière révision enregistrée du fichier de rubrique dans le dossier de langue source avec la version traduite.
 
-1. Cliquez sur **Mettre à jour les copies de langue** et configurez la tâche de traduction.
+   Si vous sélectionnez la flèche pour afficher plus de détails, vous pouvez afficher la copie de langue spécifique qui n’est pas synchronisée.
 
-1. Vous pouvez créer un projet de traduction ou ajouter des rubriques à un projet de traduction existant. Indiquez les informations requises pour configurer le projet de traduction.
+   ![](images/out-of-sync-uuid-new.png){width="800" align="left"}
 
-1. Cliquez sur **Démarrer**.
+1. Cochez la case pour sélectionner les rubriques à envoyer pour une nouvelle traduction.
 
-   Un message de confirmation s’affiche, indiquant que la rubrique a été envoyée pour traduction.
+   Lorsque vous sélectionnez une rubrique désynchronisée, le bouton **Marquer comme synchronisé** s’affiche au-dessus de la barre de titre.
 
-1. Accédez au projet de traduction dans la console Projet. Une nouvelle carte de tâche de traduction est créée dans le dossier . Cliquez sur les points de suspension pour afficher les ressources du dossier.
-
-   ![](images/incremental-job.PNG){width="300" align="left"}
-
-1. Pour commencer la traduction, cliquez sur la flèche sur la carte de la tâche de traduction et sélectionnez **Démarrer** dans la liste. Un message indique que la tâche a commencé.
-
-   Vous pouvez également afficher l’état de la rubrique en cours de traduction lorsque vous cliquez sur les points de suspension en bas de la carte de la tâche de traduction.
+   Vous pouvez utiliser le bouton **Marquer comme synchronisé** pour remplacer le statut Désynchronisé pour les rubriques dans le plan DITA.  Par exemple, si vous avez apporté des modifications très mineures qui n’ont pas vraiment besoin d’être traduites, vous pouvez marquer leur statut sur Synchronisé.
 
    >[!NOTE]
    >
-   > Si vous utilisez le service de traduction humaine, vous devez exporter le contenu en vue de la traduction. Une fois que vous avez le contenu traduit, vous devez le réimporter dans le projet de traduction.
+   > Si vous sélectionnez le bouton **Marquer comme synchronisé**, il définit le statut de la rubrique sur Synchronisé pour les rubriques désynchronisées sélectionnées.
 
-1. Une fois la traduction terminée, l’état passe à **Ready to Review**. Cliquez sur les points de suspension pour afficher les détails de la rubrique et effectuez l’une des opérations suivantes dans la barre d’outils :
+1. Vous pouvez sélectionner le bouton **Envoyer pour traduction**.
 
-   - Cliquez sur **Afficher dans Assets** pour afficher et vérifier la traduction.
+1. Vous pouvez choisir de créer un projet de traduction ou d’ajouter des rubriques à un projet de traduction existant. Fournissez les détails requis pour configurer le projet de traduction.
 
-   - Cliquez sur **Accepter la traduction** si vous pensez que les modifications ont été correctement traduites. Un message de confirmation s’affiche.
+1. Sélectionnez **Envoyer**.
 
-   - Cliquez sur **Rejeter la traduction** si vous pensez que la tâche doit être refaite. Un message de rejet s’affiche.
+   Un message de confirmation s’affiche indiquant que la rubrique a été envoyée pour traduction.
+
+1. Accédez au projet de traduction dans la console Projet. Une nouvelle carte de tâche de traduction est créée dans le dossier . Sélectionnez les points de suspension pour afficher les ressources du dossier.
+
+   ![](images/incremental-job-new.png){width="300" align="left"}
+
+1. Pour commencer la traduction, cliquez sur la flèche sur la carte Tâche de traduction et sélectionnez **Démarrer** dans la liste. Un message indique que le traitement a commencé.
+
+   Vous pouvez également consulter le statut de la rubrique traduite en sélectionnant les points de suspension en bas de la carte Tâche de traduction .
+
+   >[!NOTE]
+   >
+   > Si vous utilisez le service de traduction humaine, vous devez exporter le contenu pour le traduire. Une fois que vous disposez du contenu traduit, vous devez le réimporter dans le projet de traduction.
+
+1. Une fois la traduction terminée, le statut passe à **Prêt pour la révision**. Sélectionnez les points de suspension pour afficher les détails de la rubrique et effectuez l’une des opérations suivantes dans la barre d’outils :
+
+   - Sélectionnez **Afficher dans Assets** pour afficher et vérifier la traduction.
+
+   - Sélectionnez **Accepter la traduction** si vous pensez que les modifications ont été correctement traduites. Un message de confirmation s’affiche.
+
+   - Sélectionnez **Rejeter la traduction** si vous pensez que la tâche doit être refaite. Un message de rejet s’affiche.
 
    >[!NOTE]
    >
@@ -78,4 +78,4 @@ Effectuez les étapes suivantes pour envoyer une rubrique modifiée à retraduir
 1. Revenez au fichier de mappage DITA dans le dossier de langue source dans l’interface utilisateur d’Assets. Les rubriques retraduites sont désormais synchronisées.
 
 
-**Rubrique parente :**[ Traduire le contenu](translation.md)
+**Rubrique parente :**[ Présentation de la traduction de contenu](translation.md)

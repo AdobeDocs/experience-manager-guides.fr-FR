@@ -1,20 +1,87 @@
 ---
-title: Gestionnaire d’événements de post-traitement
+title: Gestionnaire d'événements de post-traitement
 description: En savoir plus sur le gestionnaire d’événements de post-traitement
 exl-id: 3b105ff5-02d4-40e3-a713-206a7fcf18b2
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
+source-git-commit: 8c992afc1cc56052e6c07ac3cea6e7d3412259b2
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '373'
 ht-degree: 5%
 
 ---
 
-# Gestionnaire d’événements de post-traitement {#id175UB30E05Z}
+# Gestionnaire d&#39;événements de post-traitement {#id175UB30E05Z}
 
-AEM Guides expose l’événement com/adobe/fmdita/postprocess/complete utilisé pour effectuer toutes les opérations de post-traitement. Cet événement est déclenché chaque fois qu’une opération est effectuée sur un fichier DITA. Les opérations suivantes sur un fichier DITA déclenchent cet événement :
+## UUID et Cloud Service
+
+Adobe Experience Manager Guides expose `com/adobe/guides/postprocess/complete` événement utilisé pour effectuer toute opération de post-traitement. Cet événement est déclenché chaque fois qu&#39;une opération est effectuée sur un fichier DITA. Les opérations suivantes sur un fichier DITA déclenchent cet événement :
+
+- Chargement
+- Créer
+- Modification
+
+
+Vous devez créer un gestionnaire d’événements Adobe Experience Manager pour lire les propriétés disponibles dans cet événement et effectuer un traitement ultérieur.
+
+Les détails des événements sont expliqués ci-dessous :
+
+**Nom de l’événement** :
+
+```
+com/adobe/guides/postprocess/complete 
+```
+
+**Paramètres** :
+
+| Nom | Type | Description |
+|----|----|-----------|
+| `path` | Chaîne | Chemin d’accès au fichier qui a déclenché cet événement. En règle générale, il s’agit du fichier sur lequel une opération a été effectuée. |
+| `eventType` | Chaîne | Type d’événement, c’est-à-dire CRÉER ou MODIFIER. |
+| `status` | Chaîne | Statut de retour de l’opération effectuée. Les options possibles sont les suivantes : - <br>- SUCCÈS : l’opération de post-traitement s’est terminée avec succès. <br>- ÉCHEC : l’opération de post-traitement a échoué en raison d’une erreur. |
+| `errorMsg` | Chaîne | Message d’erreur en cas d’échec de l’opération de post-traitement. |
+| `uuid` | Chaîne | UUID du fichier qui a déclenché cet événement. En règle générale, il s’agit du fichier sur lequel une opération a été effectuée. |
+
+**Exemple d’écouteur d’événement**
+
+
+```
+@Component(service = EventHandler.class,
+        immediate = true,
+        property = {
+                EventConstants.EVENT_TOPIC + "=" + "com/adobe/guides/postprocess/complete",
+        })
+public class PostProcessCompleteEventHandler implements EventHandler {
+
+    protected final Logger log = LoggerFactory.getLogger(this.getClass());
+
+    @Override
+    public void handleEvent(final Event event) {
+        Set<String> propertyNames = new HashSet<>(Arrays.asList(event.getPropertyNames()));
+        Map<String, String> properties = new HashMap<>();
+        properties.put("path", (String) event.getProperty("path"));
+        properties.put("eventType", (String) event.getProperty("eventType"));
+        properties.put("status", (String) event.getProperty("status"));
+        if(propertyNames.contains("errorMsg")) {
+            properties.put("errorMsg", (String) event.getProperty("errorMsg"));
+        }
+        if (propertyNames.contains("uuid")) {
+            properties.put("uuid", (String) event.getProperty("uuid"));
+        }
+        String eventTopic = event.getTopic();
+        log.debug("eventTopic {}", eventTopic);
+        for(Map.Entry entry:properties.entrySet()) {
+            log.debug(entry.getKey() + " : " + entry.getValue());
+        }
+    }
+}
+```
+
+## Non UUID
+
+
+Adobe Experience Manager Guides expose l’événement com/adobe/fmdita/postprocess/complete utilisé pour effectuer toute opération de post-traitement. Cet événement est déclenché chaque fois qu&#39;une opération est effectuée sur un fichier DITA. Les opérations suivantes sur un fichier DITA déclenchent cet événement :
 
 >[!NOTE]
 >
@@ -25,9 +92,9 @@ AEM Guides expose l’événement com/adobe/fmdita/postprocess/complete utilisé
 - Modification
 - Suppression
 
-Vous devez créer un gestionnaire d’événements AEM pour lire les propriétés disponibles dans cet événement et effectuer un traitement ultérieur.
+Vous devez créer un gestionnaire d’événements Adobe Experience Manager pour lire les propriétés disponibles dans cet événement et effectuer un traitement ultérieur.
 
-Les détails de l’événement sont expliqués ci-dessous :
+Les détails des événements sont expliqués ci-dessous :
 
 **Nom de l’événement** :
 
@@ -39,7 +106,7 @@ com/adobe/fmdita/postprocess/complete
 
 | Nom | Type | Description |
 |----|----|-----------|
-| `path` | Chaîne | Chemin d’accès du fichier qui a déclenché cet événement. En règle générale, il s’agit du fichier sur lequel une opération a été effectuée. |
-| `status` | Chaîne | État de retour de l’opération effectuée. Les options possibles sont : - <br>- SUCCESS : l’opération de post-traitement s’est terminée avec succès. <br> - TERMINÉ AVEC DES ERREURS : l’opération de post-traitement s’est terminée, mais avec certaines erreurs. <br> - ÉCHEC : l’opération de post-traitement a échoué en raison d’une erreur fatale. |
-| `message` | Chaîne | Si l’état est TERMINÉ AVEC DES ERREURS ou ÉCHEC, ce paramètre contient les détails sur l’erreur ou la raison de l’échec. |
-| `operation` | Chaîne | L’opération de post-traitement effectuée sur le fichier. Les options possibles sont :<br>- Ajout <br>- Mise à jour <br>- Suppression |
+| `path` | Chaîne | Chemin d’accès au fichier qui a déclenché cet événement. En règle générale, il s’agit du fichier sur lequel une opération a été effectuée. |
+| `status` | Chaîne | Statut de retour de l’opération effectuée. Les options possibles sont les suivantes : - <br>- SUCCÈS : l’opération de post-traitement s’est terminée avec succès. <br>- TERMINÉ AVEC DES ERREURS : l’opération de post-traitement s’est terminée, mais avec des erreurs. <br>- ÉCHEC : l’opération de post-traitement a échoué en raison d’une erreur. |
+| `message` | Chaîne | Si l’état est TERMINÉ AVEC DES ERREURS ou EN ÉCHEC, ce paramètre contient les détails sur l’erreur ou la raison de l’échec. |
+| `operation` | Chaîne | Opération de post-traitement effectuée sur le fichier. Les options possibles sont les suivantes : <br>- Ajout <br>- Mise à jour <br>- Suppression |

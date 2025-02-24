@@ -1,23 +1,23 @@
 ---
-title: Création et prévisualisation des rubriques
-description: Découvrez comment créer et prévisualiser des rubriques DITA à partir de l’interface utilisateur Assets dans AEM Guides.
+title: Créer et prévisualiser des rubriques
+description: Découvrez comment créer et prévisualiser des rubriques DITA dans Adobe Experience Manager Guides.
 exl-id: 17db1827-f5e6-48a9-8989-5e24c3671e55
 feature: Authoring
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
 
-# Création et prévisualisation des rubriques {#id21BQE0RJ042}
+# Créer et prévisualiser des rubriques {#id21BQE0RJ042}
 
-AEM Guides s’accompagne d’une puissante fonctionnalité permettant de créer des rubriques DITA à partir de l’interface utilisateur d’Assets. Vous pouvez ensuite prévisualiser les rubriques à partir de l’interface utilisateur d’Assets. Le mode Aperçu fournit également de nombreuses fonctionnalités puissantes pour vous aider à effectuer des opérations clés telles que l’affichage des métadonnées, la modification de la rubrique dans l’éditeur web, l’ouverture de la source et la recherche de la différence de version web.
+Adobe Experience Manager Guides s&#39;accompagne d&#39;une puissante fonctionnalité de création et de prévisualisation de rubriques DITA. Le mode Aperçu fournit également de nombreuses fonctionnalités puissantes pour vous aider à effectuer des opérations clés telles que l’affichage des métadonnées, la modification de la rubrique dans l’éditeur, l’ouverture de la source et la recherche de la différence de version web.
 
 - **[Créer des rubriques](web-editor-create-topics.md)**
 
-- **[Aperçu d’une rubrique](web-editor-preview-topics.md)**
+- **[Prévisualiser une rubrique](web-editor-preview-topics.md)**
 
 
-**Rubrique parente :**[ Contenu de création](authoring-content.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

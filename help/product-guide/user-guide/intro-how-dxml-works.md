@@ -1,19 +1,19 @@
 ---
-title: Fonctionnement d’AEM Guides
-description: Découvrez comment AEM Guides fonctionne avec AEM et d’autres éditeurs DITA pour permettre la gestion de contenu, la réutilisation, la traduction et la révision dans un scénario d’entreprise.
+title: Fonctionnement d’Adobe Experience Manager Guides
+description: Découvrez comment Experience Manager Guides fonctionne avec AEM et d’autres éditeurs DITA pour permettre la gestion, la réutilisation, la traduction et la révision de contenu dans un scénario d’entreprise.
 exl-id: 7c76fa01-63dc-4017-af15-c1e62b1849d1
 feature: Introduction
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: afa77e42eec4ea900efff14f1ae5f79464591505
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
 
-# Fonctionnement d’AEM Guides {#id167G9A00DO4}
+# Fonctionnement d’Adobe Experience Manager Guides {#id167G9A00DO4}
 
-Le diagramme suivant illustre le fonctionnement d’AEM Guides avec AEM et tout éditeur DITA pour activer la gestion de contenu, la réutilisation, la traduction et la révision dans un scénario d’entreprise.
+Le diagramme suivant illustre le fonctionnement de Experience Manager Guides avec AEM et tout éditeur DITA pour permettre la gestion, la réutilisation, la traduction et la révision de contenu dans un scénario d’entreprise.
 
 ![](images/xml-add-on-how-it-works.png){width="800" align="center"}
 

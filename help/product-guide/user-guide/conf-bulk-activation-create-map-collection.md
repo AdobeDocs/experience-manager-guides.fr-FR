@@ -1,108 +1,111 @@
 ---
-title: Création d’une collection de cartes d’activation en bloc
-description: Découvrez comment créer une collection de cartes d’activation en bloc dans AEM guides.
+title: Créer une collection de mappages d’activation en bloc
+description: Découvrez comment créer une collection de mappages d’activation en bloc dans les guides AEM.
 exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 1be8cddcbf58696a53bfccf887a04e5807f2198e
+source-git-commit: a00674a98e4ba87dbc5ddac3412cedca15a205bd
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
 
-# Création d’une collection de cartes d’activation en bloc {#id214GG0E90EV}
+# Créer une collection de mappages d’activation en bloc {#id214GG0E90EV}
 
 Pour créer une collection de mappages d’activation en bloc, procédez comme suit :
 
-1. Sélectionnez **Guides** dans la liste des outils.
+1. Sélectionnez le logo Adobe Experience Manager en haut et choisissez **Outils**.
 
-1. Sélectionnez le lien Adobe Experience Manager en haut et choisissez **Outils**.
+1. Dans le panneau **Outils**, sélectionnez **Guides**.
 
-1. Sélectionnez la mosaïque **Tableau de bord Publish en bloc** .
+1. Sélectionnez la mosaïque **Tableau de bord de publication en bloc**.
 
-   Pour la première fois, une page de collections vierge s’affiche. Si vous avez déjà créé des collections d’activation en bloc, elles s’affichent sur cette page.
+   Le tableau de bord de publication en bloc s’affiche. Vous pouvez également accéder à ce tableau de bord à partir du panneau de gauche de la page d’accueil d’Adobe Experience Manager Guides [](intro-home-page.md).
 
-1. Cliquez sur **Créer**.
+   Pour la première fois, une page de collections vierge s’affiche. Si vous avez créé précédemment des collections d’activation en bloc, elles s’affichent sur cette page.
 
-1. Saisissez un titre pour votre collection de cartes d’activation en bloc et cliquez sur **Créer**.
 
-   Un message de réussite s’affiche lors de la création de la collection de cartes d’activation en bloc.
+1. Sélectionnez **Créer**.
 
-1. Cliquez sur **Ouvrir** dans le message de succès.
+1. Saisissez un titre pour votre collection de mappages d’activation en bloc et sélectionnez **Créer**.
 
-1. Sélectionnez **Edit** (Modifier), puis **Add Maps** (Ajouter des cartes).
+   Un message de réussite s’affiche lors de la création de la collection de mappages d’activation en bloc.
 
-1. Recherchez et ajoutez les mappages DITA à ajouter à la collection de mappages d’activation en bloc.
+1. Sélectionnez **Ouvrir** dans le message de réussite.
+
+1. Sélectionnez **Modifier** puis sélectionnez **Ajouter des mappages**.
+
+1. Recherchez et ajoutez les mappages DITA à ajouter à la collection de mappages d&#39;activation en bloc.
 
    Par défaut, tous les paramètres prédéfinis et les paramètres régionaux associés à la carte sont ajoutés automatiquement.
 
 1. Sélectionnez la sortie souhaitée en activant ou en désactivant le bouton coulissant.
 
-   Vous pouvez choisir plusieurs paramètres prédéfinis de sortie pour toutes les langues disponibles.
+   Vous pouvez choisir plusieurs paramètres prédéfinis de sortie dans les paramètres régionaux disponibles.
 
-1. Cliquez sur **Terminé**.
+1. Sélectionnez **Terminé**.
 
-Les fichiers de mappage DITA sont ajoutés à votre collecte de mappage d’activation en bloc.
+Les fichiers de mappage DITA sont ajoutés à votre collection de mappages d&#39;activation en bloc.
 
-![ collection d’activation en bloc créée](images/bulk-activation-collection-created.png){width="800" align="left"}
+![ a créé une collection d’activation en bloc](images/bulk-activation-collection-created.png){width="800" align="left"}
 
 ## Onglet Mappages et paramètres prédéfinis
 
-L’onglet **Cartes et paramètres prédéfinis** présente des informations dans les colonnes suivantes :
+L’onglet **Mappages et paramètres prédéfinis** affiche des informations dans les colonnes suivantes :
 
-- **Map** : affiche le titre du fichier de mappage DITA.
-- **Chemin d’accès aux cartes** : affiche le chemin d’accès complet du fichier de mappage DITA.
+- **Map** : affiche le titre du fichier de plan DITA.
+- **Chemin de mappage** : affiche le chemin d&#39;accès complet du fichier de mappage DITA.
 
-- **UID** : affiche l’identifiant unique associé au fichier.
+- **UUID** : affiche l&#39;identifiant unique associé au fichier.
 
-- **Langue** : affiche le code de langue du mappage DITA.
-- **Paramètre prédéfini** : affiche le titre du paramètre prédéfini de sortie configuré dans le fichier de mappage. Il affiche également l’icône en fonction du type de paramètre prédéfini de sortie.
+- **Langue** : affiche le code de langue du plan DITA.
+- **Paramètre prédéfini** : affiche le titre du paramètre prédéfini de sortie configuré sur le fichier map. Elle affiche également l’icône en fonction du type de paramètre prédéfini de sortie.
 
   >[!NOTE]
   >
-  > La petite icône ![](images/global-preset-icon.svg) indique un paramètre prédéfini de niveau profil de dossier.
+  > La petite icône ![](images/global-preset-icon.svg) indique un paramètre prédéfini de niveau de profil de dossier.
 
-- **Modifié** : indique si le mappage DITA est mis à jour après la dernière publication. En fonction de ces informations, vous pouvez décider si vous souhaitez activer ou non la sortie pour ce mappage DITA.
+- **Modifié** : indique si le plan DITA est mis à jour après la dernière publication. En fonction de ces informations, vous pouvez décider d&#39;activer ou non la sortie de ce plan DITA.
 - **Généré** : affiche la date et l’heure de la dernière sortie générée.
-- **Publié** : affiche la date et l’heure de la dernière sortie publiée (ou activée). Si vous sélectionnez le lien, la page **Résultats de l’activation** s’affiche, qui contient les journaux avec des informations sur le chemin racine où le contenu est activé.
+- **Publié** : affiche la date et l’heure de la dernière sortie publiée (ou activée). Si vous sélectionnez le lien, la page **Résultats de l’activation** s’affiche. Elle contient les journaux avec des informations sur le chemin racine où le contenu est activé.
 
-## Onglet Historique des audits
+## Onglet Historique d’audit
 
-L’onglet **Historique d’audit** présente des informations sur les sorties de mappage activées dans les colonnes suivantes :
-- **Map** : affiche le titre du fichier de mappage DITA.
-- **Chemin d’accès aux cartes** : affiche le chemin d’accès complet du fichier de mappage DITA.
-- **UID** : affiche l’identifiant unique associé au fichier.
-- **Langue** : affiche le code de langue du mappage DITA.
-- **Paramètre prédéfini** : affiche le titre du paramètre prédéfini de sortie configuré dans le fichier de mappage. Il affiche également l’icône en fonction du type de paramètre prédéfini de sortie.
-- **État** : indique que l’état de l’activation a réussi ou a échoué.
-- **Destination** : si vous générez la sortie as a Cloud Service Experience Manager Guides, vous pouvez afficher la destination de la sortie sous la forme Publish ou Preview.
+L’onglet **Historique des contrôles** présente des informations sur les sorties de mappage activées dans les colonnes suivantes :
+- **Map** : affiche le titre du fichier de plan DITA.
+- **Chemin de mappage** : affiche le chemin d&#39;accès complet du fichier de mappage DITA.
+- **UUID** : affiche l&#39;identifiant unique associé au fichier.
+- **Langue** : affiche le code de langue du plan DITA.
+- **Paramètre prédéfini** : affiche le titre du paramètre prédéfini de sortie configuré sur le fichier map. Elle affiche également l’icône en fonction du type de paramètre prédéfini de sortie.
+- **Statut** : affiche le statut de l’activation comme étant « réussi » ou « non réussi ».
+- **Destination** : si vous générez la sortie sur Experience Manager Guides as a Cloud Service, vous pouvez afficher la destination de la sortie en tant que Publication ou Aperçu.
 
   >[!NOTE]
   >
-  > La petite icône ![](images/global-preset-icon.svg) indique un paramètre prédéfini de niveau profil de dossier.
+  > La petite icône ![](images/global-preset-icon.svg) indique un paramètre prédéfini de niveau de profil de dossier.
 
-- **Modifié** : indique si le mappage DITA a été mis à jour après la dernière publication. En fonction de ces informations, vous pouvez décider d’activer ou non la sortie pour ce mappage DITA.
-- **Publié** : affiche la date et l’heure de la dernière sortie publiée (ou activée). Si vous sélectionnez le lien, la page Résultats de l’activation s’affiche. Elle contient les journaux avec des informations sur le chemin racine où le contenu est activé.
-  ![ onglet historique d’audit de collection d’activation en bloc créé](images/bulk-collection-audit-history.png){width="800" align="left"}
+- **Modifié** : indique si le plan DITA a été mis à jour après la dernière publication. En fonction de ces informations, vous pouvez décider d&#39;activer ou non la sortie de ce plan DITA.
+- **Publié** : affiche la date et l’heure de la dernière sortie publiée (ou activée). Si vous sélectionnez le lien, la page Résultats de l’activation s’affiche, qui contient les journaux avec des informations sur le chemin racine où le contenu est activé.
+  ![ l’onglet historique d’audit de la collecte d’activation en bloc créé](images/bulk-collection-audit-history.png){width="800" align="left"}
 
   *Affichez les informations sur les sorties de mappage activées dans l’onglet **Historique d’audit**.*
 
 
   >[!NOTE]
   >
-  > Les sorties de l’onglet **Historique d’audit** sont triées en fonction de la colonne **Publié**.
+  > Les sorties de l’onglet **Historique des contrôles** sont triées en fonction de la colonne **Publié**.
 
 
 
-## Panneau gauche
+## Panneau de gauche
 
 Les options de filtrage disponibles dans le panneau de gauche sont les suivantes :
 
-- **Modifié** : vous pouvez sélectionner Oui ou Non. Si vous sélectionnez oui, seules les cartes DITA modifiées s’affichent. Une carte modifiée est une carte générée depuis sa dernière publication.
-- **Paramètre prédéfini** : sélectionnez un paramètre prédéfini pour lequel vous souhaitez filtrer les fichiers de mappage. Cette colonne affiche le titre du paramètre prédéfini de sortie configuré dans le fichier de mappage. Par exemple, si vous choisissez le paramètre prédéfini *AEM Site*, seules les cartes dont le paramètre prédéfini de sortie *AEM Site* est configuré s’affichent.
-- **Langue** : vous pouvez sélectionner n’importe quel code de langue disponible et afficher uniquement la langue sélectionnée dans l’onglet Cartes et paramètres prédéfinis .
+- **Modifié** : vous pouvez sélectionner Oui ou Non. Si vous sélectionnez Oui, seuls les plans DITA modifiés s&#39;affichent. Un mappage modifié est un mappage qui a été généré depuis sa dernière publication.
+- **Paramètre prédéfini** : sélectionnez un paramètre prédéfini pour lequel vous souhaitez filtrer les fichiers de mappage. Cette colonne affiche le titre du paramètre prédéfini de sortie configuré sur le fichier map. Par exemple, si vous choisissez le paramètre prédéfini *Site AEM*, seuls les mappages sur lesquels le paramètre prédéfini de sortie *Site AEM* est configuré s’affichent.
+- **Langue** : vous pouvez sélectionner l’un des codes de langue disponibles et afficher uniquement la langue sélectionnée dans l’onglet Cartes et paramètres prédéfinis.
 
-Les filtres sont mis à jour lorsque vous passez de l’onglet **Cartes et paramètres prédéfinis** à l’onglet **Historique d’audit** et vice versa.
+Les filtres sont mis à jour lorsque vous passez de l’onglet **Mappages et paramètres prédéfinis** à l’onglet **Historique des contrôles** et vice versa.
 
-**Rubrique parente : **[Activation en masse du contenu publié](conf-bulk-activation.md)
+**Rubrique parente : **[Activation en bloc du contenu publié](conf-bulk-activation.md)

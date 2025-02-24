@@ -1,31 +1,32 @@
 ---
-title: Rapports
-description: Découvrez comment créer des rapports de mappage DITA dans AEM Guides.
+title: Présentation des rapports
+description: Découvrez comment afficher des rapports DITA map dans AEM Guides.
 exl-id: 1f8a33ba-d6e5-448f-b40b-646b9fdc0b19
 feature: Report Generation
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 38ea2eb35ebd75c1202c86d598ad953db3894d40
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 1%
+source-wordcount: '223'
+ht-degree: 0%
 
 ---
 
-# Rapports {#id1645H9007MZ}
+# Présentation des rapports {#id1645H9007MZ}
 
-Dans une configuration organisationnelle, vous souhaitez vérifier l’exhaustivité globale de votre documentation technique avant de commencer à l’utiliser ou de publier les documents. Un tel besoin devient encore plus essentiel dans les environnements multi-utilisateurs et à grande échelle. AEM Guides fournit quelques rapports qui fournissent des informations utiles sur l’intégrité globale du contenu dans votre référentiel et sur la manière dont le contenu est utilisé dans le processus de documentation.
+Dans une configuration organisationnelle, vous souhaitez vérifier l’exhaustivité globale de votre documentation technique avant de commencer à travailler dessus ou à publier les documents en direct. Un tel besoin devient encore plus essentiel dans les environnements multi-utilisateurs et à grande échelle. Adobe Experience Manager Guides fournit quelques rapports qui donnent des informations utiles sur l’intégrité globale du contenu dans votre référentiel et sur la manière dont le contenu est utilisé dans le processus de documentation.
 
-Vous pouvez créer des rapports de mappage DITA de deux manières :
+Vous pouvez accéder aux rapports DITA map de deux manières :
 
-- **À partir de l’éditeur web** : vous permet de générer la liste de rubriques et le rapport de métadonnées pour le mappage DITA actuel à partir de l’éditeur web. Vous pouvez trier les rubriques ou les filtrer selon votre sélection. Vous avez également la possibilité de mettre à jour les métadonnées des rubriques sélectionnées en masse.
-- **Depuis le tableau de bord de la carte** : vous permet de générer le rapport de mappage DITA et fournit des informations détaillées au niveau de la carte et au niveau du sujet.
+- **À partir de la console Carte** : vous permet de générer une liste de rubriques, de gérer les métadonnées de toutes les références, d&#39;afficher la liste multimédia et de corriger tous les liens rompus pour le plan DITA actuel à partir de la console Carte. Vous pouvez trier les rubriques ou les filtrer en fonction de votre sélection. Vous pouvez également mettre à jour en bloc les métadonnées des rubriques sélectionnées. Tous les rapports sont paginés. Vous pouvez simplement faire défiler l’écran vers le bas pour que le nouveau jeu d’enregistrements continue à se charger.
 
-- **[Rapport de mappage DITA de l’éditeur web](reports-web-editor.md)**
+- **À partir du tableau de bord des cartes** : permet de générer le rapport de carte DITA et fournit des informations détaillées au niveau de la carte et de la rubrique.
+
+- **[Rapport de mappage DITA à partir de la console de mappage](reports-web-editor.md)**
 
 - **[Rapport de mappage DITA à partir du tableau de bord de mappage](reports-ditamap.md)**
 
-- **[Rapport Réutilisation de contenu](reports-content-reuse.md)**
+- **[Rapport de réutilisation du contenu](reports-content-reuse.md)**
 
-- **[Rapport d’état de conversion](reports-convertion-status.md)**
+- **[Rapport du statut de conversion](reports-convertion-status.md)**
 
-- **[Rapport Historique des versions de fichiers restaurés](reports-reverted-file-version-history.md)**
+- **[Rapport Historique des versions des fichiers rétablis](reports-reverted-file-version-history.md)**

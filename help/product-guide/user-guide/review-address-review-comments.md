@@ -1,76 +1,76 @@
 ---
-title: Commentaires sur la révision des adresses
+title: Commentaires de révision d’adresse
 description: Découvrez comment traiter les commentaires de révision en tant qu’auteur dans AEM Guides. Découvrez comment un auteur peut modifier, filtrer, accepter ou rejeter des commentaires dans un document.
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1024'
 ht-degree: 0%
 
 ---
 
-# Commentaires sur la révision des adresses {#id2056B0X0KBI}
+# Commentaires de révision d’adresse {#id2056B0X0KBI}
 
 
-En tant qu’auteur, vous pouvez traiter des commentaires dans une rubrique à l’aide de l’éditeur web. Les commentaires sont chargés en fonction de la tâche de révision sélectionnée dans le panneau Révision. Pour plus d’informations, consultez la description de la fonctionnalité **Panneau de révision** ![](images/active-review-tasklist-icon.svg) dans la section [Panneau de gauche](../user-guide/web-editor-features.md#id2051EA0M0HS) .
+En tant qu’auteur, vous pouvez ajouter des commentaires dans une rubrique à l’aide de l’éditeur web. Les commentaires sont chargés en fonction de la tâche de révision sélectionnée dans le panneau de révision. Pour plus d’informations, consultez la description des fonctionnalités du panneau **Révision** ![](images/active-review-tasklist-icon.svg) dans la section [Panneau de gauche](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
-Les sections suivantes décrivent les méthodes de modification des commentaires dans l’éditeur web.
+Les sections suivantes décrivent les méthodes d’ajout de commentaires dans l’éditeur web.
 
-Un auteur peut adresser des commentaires dans un document à partir de l’éditeur Web. Des indicateurs visuels sont fournis pour indiquer si les commentaires insérés \(texte\), supprimés ou mis en surbrillance. Le type de commentaire est également mentionné en haut de chaque entrée de commentaire.
+Un auteur peut adresser des commentaires dans un document à partir de l’éditeur web. Des indicateurs visuels sont fournis pour indiquer si les commentaires insérés \(text\), supprimés ou mis en surbrillance. En outre, le type de commentaire est mentionné en haut de chaque entrée de commentaire.
 
 >[!NOTE]
 >
-> Lors de l’examen des commentaires de révision \(pour un document de révision actif\), assurez-vous que vous n’ouvrez pas la rubrique de révision dans plusieurs onglets avec l’affichage complet des balises activé, ne permutez pas entre les modes Auteur et Source.
+> Lorsque vous traitez des commentaires de révision \(pour un document de révision actif\), assurez-vous de ne pas ouvrir la rubrique de révision dans plusieurs onglets avec la vue complète des balises activée et de ne pas basculer entre les modes d’affichage Auteur et Source.
 
-![](images/comments-page-web-editor_cs.png){width="800" align="left"}
+![](images/comments-page-web-editor_cs-new.png){width="800" align="left"}
 
-En mode Éditeur Web, le panneau de droite contient les icônes Révision et modifications suivies . Le panneau Révision affiche tous les commentaires effectués dans votre document par les réviseurs. Le panneau **Modifications suivies** affiche l’état de tous les commentaires insérés et supprimés dans votre document.
+En mode Éditeur web, le panneau de droite contient les icônes Révision et Suivi des modifications . Le panneau Révision affiche tous les commentaires formulés par les réviseurs dans votre document. Le panneau **Suivi des modifications** affiche le statut de tous les commentaires insérés et supprimés dans votre document.
 
-- **A** : sélectionnez une tâche de révision pour afficher les commentaires de révision. Si votre rubrique a été partagée pour révision dans plusieurs tâches de révision, ces tâches sont répertoriées dans cette liste déroulante.
+- **A** : sélectionnez une tâche de révision pour afficher les commentaires de révision. Si votre rubrique a été partagée pour révision dans plusieurs tâches de révision, vous verrez ces tâches répertoriées dans cette liste déroulante.
 
-  Lorsque vous sélectionnez une tâche de révision dans la liste, vous pouvez voir les commentaires effectués par les réviseurs dans cette tâche. Vous pouvez traiter les commentaires de révision indépendamment dans les tâches, ce qui signifie que toute mise à jour d’un commentaire n’est visible que par les réviseurs de cette tâche respective.
+  Lorsque vous sélectionnez une tâche de révision dans la liste, vous avez la possibilité d’afficher les commentaires formulés par les réviseurs et réviseuses au cours de cette tâche. Vous pouvez traiter les commentaires de révision indépendamment dans les tâches, ce qui signifie que toute mise à jour d’un commentaire n’est visible que par les réviseurs et réviseuses de cette tâche respective.
 
-- **B :** Sélectionnez **Détails de la révision** ![](images/active-review-info-icon.svg) dans le panneau **Commentaires** pour afficher plus d’informations sur la tâche de révision :
+- **B :** sélectionnez **Détails de la révision** ![](images/active-review-info-icon.svg) dans le panneau **Commentaires** pour afficher plus d’informations sur la tâche de révision :
 
    - **Nom** : nom de la tâche de révision .
-   - **Réviser la version** : affiche la version associée à la tâche de révision sélectionnée. Cela vous permet de conserver un suivi de la version que vous avez partagée pour révision.
-   - **État** : état actuel de la tâche de révision.
+   - **Version de révision** : affiche la version associée à la tâche de révision sélectionnée. Cela vous permet de conserver une trace de la version que vous avez partagée pour révision
+   - **Statut** : statut actuel de la tâche de révision.
 
   >[!NOTE]
   >
-  > Si le mappage racine de votre tâche de révision est différent du mappage racine de création, il affiche les informations le concernant pour indiquer que la création et le mappage racine de révision ne correspondent pas.
+  > Si la carte racine de votre tâche de révision est différente de la carte racine de création, elle affiche les informations s’y rapportant pour indiquer que la carte racine de création et la carte racine de révision ne correspondent pas.
 
-- **C** : si vous avez mis à jour votre rubrique après avoir initié la révision, cliquez sur l’icône Rétablir la rubrique pour réviser pour rétablir votre copie de travail sur la version qui a été partagée pour révision. Cela vous permet d’incorporer plus facilement les commentaires de révision directement dans la version qui a été partagée pour révision. Après avoir incorporé le commentaire, vous pouvez enregistrer les modifications dans la version rétablie ou créer une nouvelle révision de votre rubrique. Si vous choisissez de créer une révision de votre rubrique, une nouvelle branche est créée à partir de la version de la rubrique qui a été partagée pour révision. Par exemple, si vous avez partagé la version `1.2` d’une rubrique à des fins de révision alors que la version de création actuelle est `1.3`, vous pouvez utiliser cette icône pour revenir à la version `1.2` afin d’incorporer des commentaires de révision. Si vous choisissez de créer une révision après avoir incorporé des modifications à la version `1.2`, une nouvelle branche avec la version `1.2.0` est créée pour la rubrique.
+- **C** : si vous avez mis à jour votre rubrique après avoir lancé la révision, le fait de sélectionner l’icône Rétablir la rubrique en version de révision rétablit la version de travail de votre copie de travail qui a été partagée pour la révision. Il vous est ainsi plus facile d’incorporer les commentaires de révision directement dans la version qui a été partagée pour la révision. Après avoir incorporé les commentaires, vous pouvez enregistrer les modifications dans la version rétablie ou créer une nouvelle révision de votre rubrique. Si vous choisissez de créer une nouvelle révision de votre rubrique, une nouvelle branche est créée à partir de la version de rubrique qui a été partagée pour révision. Par exemple, si vous avez partagé la version `1.2` d’une rubrique pour révision alors que la version de création actuelle est `1.3`, vous pouvez utiliser cette icône pour revenir à la version `1.2` pour incorporer les commentaires de révision. Si vous choisissez de créer une révision après avoir incorporé des modifications dans la version `1.2`, une nouvelle branche avec la version `1.2.0` est créée pour la rubrique.
 
-  En règle générale, après avoir intégré les commentaires de révision, vous souhaitez fusionner les modifications de la dernière version de la rubrique. Pour ce faire, utilisez la fonction [Fusionner](web-editor-features.md#id205DF04E0HS) pour obtenir toutes les mises à jour effectuées après le partage de la rubrique en vue de la révision.
+  En règle générale, après avoir incorporé les commentaires de révision, vous souhaitez fusionner les modifications de la dernière version de la rubrique. Pour ce faire, utilisez la fonctionnalité [Fusion](web-editor-features.md#id205DF04E0HS) pour que toutes les mises à jour soient effectuées après le partage de la rubrique pour révision.
 
-- **D** : ouvrez la vue côte à côte pour afficher la version commentée de la rubrique. Comme le montre la capture d’écran ci-dessus, la section la plus à gauche est la dernière version de la rubrique dans laquelle vous pouvez apporter des modifications. La section suivante est la version commentée de la rubrique. Lorsque vous naviguez entre les commentaires de la rubrique, le mode latéral change et affiche cette version de la rubrique sur laquelle le commentaire a été effectué. Chaque commentaire du panneau des commentaires est lié au texte correspondant dans cette section. Il permet d’identifier le texte commenté. Les commentaires sont affichés dans l’ordre du texte commenté dans le document.
+- **D** : ouvrez la vue côte à côte pour afficher la version commentée de la rubrique. Comme illustré dans la capture d’écran ci-dessus, la section la plus à gauche est la dernière version de la rubrique dans laquelle vous pouvez apporter des modifications. La section suivante est la version commentée de la rubrique. Lorsque vous naviguez entre les commentaires dans la rubrique, la vue latérale change et affiche cette version de la rubrique sur laquelle le commentaire a été fait. Chaque commentaire du panneau de commentaires est lié au texte correspondant dans cette section. Cela vous permet d’identifier le texte commenté. Les commentaires s’affichent dans l’ordre du texte commenté dans le document.
 
-  Vous pouvez voir le numéro de version en haut de la vue latérale. Cliquez de nouveau sur cette icône pour masquer la version commentée de la rubrique.
+  Vous pouvez afficher le numéro de version en haut de la vue latérale. Si vous sélectionnez à nouveau cette icône, la version commentée de la rubrique est masquée.
 
-- E : Importez directement les commentaires \(ou Barré\) insérés et supprimés dans la rubrique. Après avoir cliqué sur l’icône Importer , toutes les insertions et suppressions de texte s’affichent dans la copie de travail de la rubrique. Maintenant, il y a deux façons d&#39;accepter ou de rejeter les commentaires.
+- E : importez directement les commentaires \(ou Barré\) insérés et supprimés dans la rubrique. Après avoir sélectionné l’icône Importer , toutes les insertions et suppressions de texte sont affichées dans la copie de travail de la rubrique. Il existe désormais deux manières d’accepter ou de rejeter des commentaires.
 
-  Si vous souhaitez incorporer la modification suggérée \(insertion ou suppression\) une par une, il vous suffit de cliquer avec le bouton droit sur le commentaire dans le contenu et de sélectionner Accepter la modification ou Rejeter la modification. Selon votre choix, le commentaire est accepté ou rejeté. En cas de commentaire accepté, le contenu est ajouté dans le contenu ; en cas de rejet, il est supprimé du contenu. En outre, l’état du commentaire est modifié dans le panneau Révision.
+  Si vous souhaitez incorporer la modification suggérée \(insertion ou suppression\) une par une, il vous suffit de cliquer avec le bouton droit de la souris sur le commentaire dans le contenu et de sélectionner Accepter la modification ou Rejeter la modification. Selon votre sélection, le commentaire est accepté ou rejeté. En cas de commentaire accepté, le contenu est ajouté au contenu ; et en cas de rejet, il est supprimé du contenu. En outre, le statut du commentaire est modifié dans le panneau de révision.
 
-  ![](images/import-comment-accept-web-editor_cs.png){width="800" align="left"}
+  ![](images/import-comment-accept-web-editor_cs-new.png){width="800" align="left"}
 
-  Vous pouvez également utiliser la fonction de révision dans le panneau de droite pour accepter ou refuser des commentaires. Le fait de cliquer sur un commentaire met en surbrillance ce commentaire dans le document.
+  Vous pouvez également utiliser le panneau Suivi des modifications pour accepter ou rejeter des commentaires. La sélection d’un commentaire le met en surbrillance dans le document.
 
-  ![](images/changes-tab_cs.png){width="800" align="left"}
+  ![](images/changes-tab_cs-new.png){width="800" align="left"}
 
   >[!IMPORTANT]
   >
-  > La fonction d’importation des commentaires fonctionne uniquement sur les documents qui n’ont pas été modifiés depuis qu’ils ont été partagés pour révision. Si vous avez apporté des modifications après l’envoi du document pour révision, vous recevrez une alerte pour les commentaires **Forcer l’importation** dans votre document. Toutefois, cela entraînera la perte de toutes les mises à jour que vous avez effectuées dans votre document. L’alerte **Forcer l’importation** s’affiche également si le document est créé à l’extérieur, puis partagé en vue de la révision. Vous pouvez ajouter les commentaires.
+  > La fonction Importer les commentaires fonctionne uniquement sur les documents qui n’ont pas été modifiés depuis qu’ils ont été partagés pour révision. Si vous avez apporté une modification après l’envoi du document pour révision, vous recevrez une alerte pour **Forcer l’importation** des commentaires dans votre document. Toutefois, cela entraînera la perte de toutes les mises à jour que vous avez apportées à votre document. L’alerte **Forcer l’importation** s’affiche également si le document est créé en dehors d’puis partagé pour révision. Vous pouvez continuer et importer les commentaires.
 
-  Lorsque vous acceptez ou rejetez un commentaire, il est supprimé de la liste Modifications suivies . Cela permet également d’indiquer le nombre de commentaires à prendre en compte dans le document.
+  Lorsque vous acceptez ou refusez un commentaire, il est supprimé de la liste des modifications suivies. Cela sert également d’indicateur du nombre de commentaires à prendre en compte dans le document.
 
 - **F** : dans le menu Plus d’options, téléchargez toutes les pièces jointes disponibles dans la rubrique de révision.
-- **G** : recherchez un texte dans les commentaires.
+- **G** : recherche un texte dans les commentaires.
 - **H** : accepter ou refuser un commentaire.
 
-- **I** : appliquez un filtre sur les commentaires. Vous pouvez filtrer les commentaires pour les afficher en fonction du type de révision \(tous, mis en surbrillance, supprimé, inséré ou pense-bête\), du statut de la révision \(tous, acceptés, rejetés ou aucun\), des réviseurs \(tous ou certains réviseurs\(s\)\) ou des versions de la rubrique.
+- **I** : appliquer un filtre sur les commentaires. Vous pouvez filtrer les commentaires selon le type de révision \(tous, mis en surbrillance, supprimé, inséré ou pense-bête\), le statut de révision \(tous, acceptés, rejetés ou aucun\), les réviseurs \(tous ou certains réviseurs\(s\)\) ou les versions de rubrique.
 
 
-**Rubrique parente :**[ Réviser des rubriques ou des cartes](review.md)
+**Rubrique parente :**[ Présentation de la révision](review.md)

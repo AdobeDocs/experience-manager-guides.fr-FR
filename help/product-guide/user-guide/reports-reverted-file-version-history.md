@@ -1,60 +1,60 @@
 ---
-title: Rapport Historique des versions des fichiers restaurés
-description: Affichez les rapports Historique des versions de fichiers restaurés dans AEM Guides. Découvrez comment accéder aux journaux de version rétablie à partir de l’interface utilisateur d’Assets, de l’aperçu de la rubrique et de la sélection des outils d’AEM.
+title: Rapport Historique des versions des fichiers rétablis
+description: Affichez les rapports de l’historique des versions des fichiers rétablis dans AEM Guides. Découvrez comment accéder aux journaux des versions inversées à partir de l’interface utilisateur d’Assets, de l’aperçu de la rubrique et de la sélection des outils AEM.
 exl-id: 74bef625-acd6-49a6-b983-881a782f68d6
 feature: Report Generation
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
-# Rapport Historique des versions des fichiers restaurés {#id205BBC00PRK}
+# Rapport Historique des versions des fichiers rétablis {#id205BBC00PRK}
 
-Lorsque vous travaillez sur plusieurs versions simultanées avec plusieurs auteurs, votre contenu est lié à plusieurs versions. Il peut y avoir des informations communes sur plusieurs versions, que différents auteurs peuvent utiliser dans leur projet. Pour gérer ces affectations de travail, les auteurs peuvent obtenir plusieurs versions de fichiers. Ces versions peuvent simplement être une version plus récente d’un fichier ou un retour à une version antérieure. Il est complexe d’identifier le moment où un fichier a été restauré et pourquoi.
+Lorsque vous travaillez sur plusieurs versions simultanées avec plusieurs auteurs, votre contenu est lié à plusieurs versions. Il peut y avoir des informations communes dans plusieurs versions, que différents auteurs peuvent utiliser dans leur projet. Pour gérer de telles affectations de travail, les auteurs et autrices peuvent se retrouver avec plusieurs versions de fichiers. Ces versions peuvent simplement être une version plus récente d’un fichier ou un retour à une version antérieure. Il est difficile d’identifier quand et pourquoi un fichier a été restauré.
 
-AEM Guides vous permet de générer un rapport d’historique des versions pour un fichier individuel ou tous les fichiers d’un dossier. Cet historique des versions vous donne une vue consolidée de toutes les versions d’un fichier qui ont été restaurées et qui a créé ces versions, ainsi que la raison de leur création.
+Adobe Experience Manager Guides vous permet de générer un rapport d’historique de version pour un fichier individuel ou pour tous les fichiers d’un dossier. Cet historique des versions vous donne une vue consolidée de toutes les versions d’un fichier qui ont été rétablies et de ceux qui les ont créées, ainsi que la raison de leur création.
 
 Vous pouvez accéder à ce rapport à partir des emplacements suivants :
 
-- **Interface utilisateur d’Assets** : en sélectionnant un fichier et en ouvrant l’ **historique de version** dans le rail de gauche. La vue **Historique de version** contient le lien **Rétablir les journaux de version** au bas du panneau. Lorsque vous cliquez sur ce lien, l’historique des versions rétablies du fichier sélectionné s’affiche.
+- **Interface utilisateur d’Assets** : en sélectionnant un fichier et en ouvrant l’**Historique des versions** dans le rail de gauche. La vue **Historique des versions** contient le lien **Rétablir les journaux de version** au bas du panneau. Lorsque vous sélectionnez ce lien, l’historique des versions rétablies du fichier sélectionné s’affiche.
 
   ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
 
-- **Aperçu de la rubrique** : lorsque vous prévisualisez une rubrique, vous pouvez également afficher le panneau **Historique de version** à partir du rail de gauche. Vous obtiendrez un panneau similaire à l’interface utilisateur d’Assets à partir duquel vous pouvez cliquer sur le lien **Rétablir les journaux de version** pour accéder à l’historique de version rétabli du document actif.
+- **Aperçu de la rubrique** : lorsque vous prévisualisez une rubrique, vous pouvez également afficher le panneau **Historique des versions** dans le rail de gauche. Vous obtiendrez un panneau similaire à l’interface utilisateur d’Assets à partir duquel vous pourrez sélectionner le lien **Rétablir les journaux de version** pour accéder à l’historique des versions rétablies du document actif.
 
-- **Section Outils d’AEM** : vous pouvez également accéder à ce rapport à partir de la section Outils d’AEM. La procédure suivante explique comment accéder à l’historique des versions restaurées à partir de la section Outils AEM.
+- **Section Outils Adobe Experience Manager** : vous pouvez également accéder à ce rapport à partir de la section Outils Experience Manager. La procédure suivante explique comment accéder à l’historique des versions rétablies à partir de la section Outils Experience Manager .
 
 
-Effectuez les étapes suivantes pour accéder au rapport Rétablir l’historique :
+Pour accéder au rapport Rétablir l’historique, procédez comme suit :
 
-1. Cliquez sur le lien Adobe Experience Manager en haut de l’écran et sélectionnez **Outils**.
+1. Sélectionnez le logo Adobe Experience Manager en haut et choisissez **Outils**.
 
 1. Sélectionnez **Guides** dans la liste des outils.
 
-1. Cliquez sur la mosaïque **Historique de rétablissement de version** .
+1. Sélectionnez la mosaïque **Historique de rétablissement de version**.
 
-   Une page Rétablir l’historique de version vierge s’affiche, dans laquelle vous devez rechercher et sélectionner un fichier ou un dossier pour générer le rapport.
+   Une page Historique des versions vierge s’affiche. Vous devez alors rechercher et sélectionner un fichier ou un dossier pour générer le rapport.
 
-1. Cliquez sur **Afficher les journaux** pour générer le rapport pour le fichier ou le dossier sélectionné.
+1. Sélectionnez **Afficher les journaux** pour générer le rapport pour le fichier ou le dossier sélectionné.
 
    ![](images/revert-version-history-report.png){width="800" align="left"}
 
    Le rapport contient les détails suivants :
 
-   - **Nom de fichier** : titre de la rubrique. Cliquez sur le lien de titre de la rubrique pour ouvrir l’aperçu de la rubrique.
+   - **Nom de fichier** : titre de la rubrique. En sélectionnant le lien de titre de la rubrique, vous ouvrez l’aperçu de la rubrique.
 
-   - **Horodatage** : date et heure auxquelles la rubrique a été rétablie sur une version antérieure.
+   - **Horodatage** : date et heure auxquelles la rubrique a été rétablie dans une version antérieure.
 
-   - **User** : nom de l’utilisateur qui a restauré une version antérieure.
+   - **Utilisateur** : nom de l’utilisateur qui a rétabli une version antérieure.
 
-   - **Rétablir à partir de** : numéro de version d’origine du fichier à partir duquel il a été restauré.
+   - **Restaurer à partir de** : numéro de version d’origine du fichier à partir duquel il a été restauré.
 
-   - **Revenir à** : version vers laquelle le fichier a été restauré.
+   - **Rétablir** : la version vers laquelle le fichier a été rétabli.
 
-   - **Commentaire** : tout commentaire fourni par l’utilisateur qui a restauré le fichier.
+   - **Commentaire** : tout commentaire fourni par l’utilisateur qui a annulé le fichier.
 
 
-**Rubrique parente :**[ Rapports](reports-intro.md)
+**Rubrique parente :**[ Présentation des rapports](reports-intro.md)

@@ -1,11 +1,11 @@
 ---
 title: Présentation
-description: Présentation du guide de référence des API pour AEM Guides
+description: Présentation du Guide de référence des API pour AEM Guides
 exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: 9024b552fd470344ba7b0068a147c37084ae0d13
+source-git-commit: 00a926e82f7d848e0c8041de758f20e79758b01b
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 0%
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 # Présentation {#id1761C0007W7}
 
-Adobe Experience Manager Guides \(plus tard appelé *AEM Guides*\) est une solution d’entreprise de bout en bout qui permet à Adobe Experience Manager \(AEM\) d’avoir des fonctionnalités de solution de gestion de contenu de composant \(CCMS\) pour la création et la diffusion de contenu basées sur DITA. Les clients peuvent accéder aux workflows AEM Guides par programmation à l’aide des API AEM Guides pour les intégrer à d’autres applications d’entreprise. Ces API peuvent également être utilisées par les partenaires d’Adobe pour améliorer la proposition de valeur d’AEM Guides en étendant ses fonctionnalités ou en l’intégrant à d’autres applications ou services.
+Adobe Experience Manager Guides \(ultérieurement appelé *AEM Guides*\) est une solution d’entreprise de bout en bout qui permet à Adobe Experience Manager \(AEM\) de disposer de fonctionnalités de solution de gestion de contenu de composant \(CCMS\) pour la création et la diffusion de contenu basé sur DITA. Les clients peuvent accéder aux workflows d’AEM Guides par programmation à l’aide des API d’AEM Guides pour les intégrer à d’autres applications d’entreprise. Ces API peuvent également être utilisées par les partenaires d’Adobe pour améliorer la proposition de valeur d’AEM Guides en étendant ses fonctionnalités ou en l’intégrant à d’autres applications ou services.
 
 ## API AEM GUIDES
 
-Les API AEM Guides sont disponibles dans deux formats : HTTP et Java. Ces API exposent les fonctions clés d’AEM Guides aux développeurs d’applications. Grâce à ces fonctions, les développeurs peuvent créer leurs propres plug-ins pour étendre les workflows prêts à l’emploi. Les API sont disponibles pour la gestion des sorties pour le contenu DITA, l’utilisation de mappages DITA, l’ajout d’attributs conditionnels aux profils au niveau du dossier et la conversion de documents HTML et Words au format DITA.
+Les API d’AEM Guides sont disponibles dans deux formats : HTTP et Java. Ces API présentent les fonctions essentielles d’AEM Guides aux développeurs d’applications. Grâce à ces fonctions, les développeurs et développeuses peuvent créer leurs propres plug-ins pour étendre les workflows prêts à l’emploi. Les API sont disponibles pour gérer les sorties de contenu DITA, utiliser les plans DITA, ajouter des attributs conditionnels aux profils au niveau du dossier et convertir des documents HTML et Words au format DITA.
 
 ## Installation des fichiers JAR sur votre référentiel Apache Maven local {#install-jar-local}
 
-Pour pouvoir utiliser les fichiers JAR exposés par AEM Guides, vous devez les installer sur votre référentiel Apache Maven local. Pour installer les fichiers JAR sur votre référentiel Maven d’emplacement, procédez comme suit :
+Pour pouvoir utiliser les fichiers JAR exposés par AEM Guides, vous devez les installer sur votre référentiel Apache Maven local. Pour installer les fichiers JAR sur le référentiel Maven de votre emplacement, procédez comme suit :
 
-1. Extrayez le contenu du fichier de package AEM Guides \(.zip\) sur votre système local.
+1. Extrayez le contenu du fichier du package AEM Guides \(.zip\) sur votre système local.
 
 2. Dans l’invite de commande, accédez au dossier suivant dans le chemin d’accès au contenu extrait :
 
@@ -32,7 +32,7 @@ Pour pouvoir utiliser les fichiers JAR exposés par AEM Guides, vous devez les i
    \jcr_root\libs\fmdita\osgi-bundles\install
    ```
 
-3. Exécutez la commande suivante pour installer le lot API dans votre référentiel Maven local :
+3. Exécutez la commande suivante pour installer le lot d’API dans votre référentiel Maven local :
 
    ```
    mvn install:install-file -Dfile=api-X.x.jar -DgroupId=com.adobe.fmdita -DartifactId=api -Dversion=X.x -Dpackaging=jar**
@@ -42,13 +42,13 @@ Pour pouvoir utiliser les fichiers JAR exposés par AEM Guides, vous devez les i
    >
    > Dans la commande ci-dessus, X.x doit être remplacé par le numéro de version réel dans les paramètres Dfile et Dversion.
 
-4. \(*Facultatif*\) Installez la dépendance dans le référentiel de votre projet Maven local. Pour ce faire, créez un dossier dans votre projet Maven, puis exécutez la commande `mvn install` fournie à l’étape précédente avec le paramètre supplémentaire suivant :
+4. \(*Facultatif*\) Installez une dépendance dans le référentiel de votre projet Maven local. Pour ce faire, créez un dossier dans votre projet Maven, puis exécutez la commande `mvn install` donnée à l’étape précédente avec le paramètre supplémentaire suivant :
 
    ```
    -DlocalRepositoryPath=<path_to_project_repository>
    ```
 
-   Ensuite, pour exposer le dossier du référentiel local du projet au processus de création Maven, ajoutez un élément `repository` dans le fichier pom.xml parent, comme illustré ci-dessous :
+   Ensuite, pour exposer le dossier de référentiel local du projet au processus de création Maven, ajoutez un élément `repository` dans le fichier pom.xml parent, comme illustré ci-dessous :
 
    ```XML
    <repositories>
@@ -60,13 +60,13 @@ Pour pouvoir utiliser les fichiers JAR exposés par AEM Guides, vous devez les i
    ```
 
 
-Ce processus installe les fichiers JAR de l’API dans le référentiel Maven local.
+Ce processus installe les fichiers JAR d’API dans le référentiel Maven local.
 
 ## Utilisation du fichier JAR de l’API de service dans un projet Maven
 
-Après avoir installé les fichiers JAR d’API dans votre référentiel Maven local, procédez comme suit pour utiliser le fichier JAR dans vos projets :
+Après avoir installé les fichiers JAR de l’API dans votre référentiel Maven local, procédez comme suit pour utiliser le fichier JAR dans vos projets :
 
-1. Ajoutez le fichier JAR à votre base de code et validez-le dans le référentiel de base de code sous un dossier, tel que &quot;dependencies&quot;. Notez que le nom du dossier dépend de votre hiérarchie de base de code.
+1. Ajoutez le fichier JAR à votre base de code et validez-le dans le référentiel de base de code sous un dossier, tel que « dependencies ». Notez que le nom du dossier dépend de votre hiérarchie de base de code.
 
 2. Configurez les fichiers pom.xml du projet comme suit :
 
@@ -74,7 +74,7 @@ Après avoir installé les fichiers JAR d’API dans votre référentiel Maven l
 
    >[!IMPORTANT]
    >
-   > Dans le fragment de code suivant, X.x doit être remplacé par le numéro de version réel et le nom de fichier JAR de l’API. Ces informations seront les mêmes que celles données à l’étape 3 du [processus d’installation](#install-jar-local).
+   > Dans le fragment de code suivant, X.x doit être remplacé par le numéro de version réel et le nom de fichier du fichier JAR de l’API. Ces informations sont identiques à celles fournies à l’étape 3 du [processus d’installation](#install-jar-local).
 
    ```XML
    <plugin>
@@ -121,7 +121,7 @@ Après avoir installé les fichiers JAR d’API dans votre référentiel Maven l
    </plugin>
    ```
 
-   Fichier pom.xml du module Enfant :
+   Fichier pom.xml du module enfant :
 
    ```XML
    <plugin>
@@ -167,9 +167,9 @@ Après avoir installé les fichiers JAR d’API dans votre référentiel Maven l
    ```
 
 
-## Configuration et utilisation du JAR de l’API de service à partir du référentiel Maven public
+## Configurer et utiliser le JAR de l’API de service à partir du référentiel Maven public
 
-Effectuez les étapes suivantes pour configurer et utiliser les fichiers JAR de l’API de service du référentiel Maven public dans vos projets :
+Suivez les étapes suivantes pour configurer et utiliser les fichiers JAR de l’API de service à partir du référentiel Maven public dans vos projets :
 
 1. Pour utiliser le fichier JAR de l’API de service dans un projet, configurez le référentiel Maven public AEM Guides dans votre fichier pom.xml.
 2. Configurez le référentiel Maven public dans le fichier settings.xml de Maven comme suit :
@@ -186,7 +186,7 @@ Effectuez les étapes suivantes pour configurer et utiliser les fichiers JAR de 
 
    >[!NOTE]
    >
-   > Utilisez la même version du fichier JAR d’API que le package AEM Guides que vous avez installé sur le serveur.
+   > Utilisez la même version du fichier JAR de l’API que le package AEM Guides que vous avez installé sur le serveur.
 
 4. Configurez la dépendance Maven comme illustré ci-dessous :
 
@@ -201,39 +201,39 @@ Effectuez les étapes suivantes pour configurer et utiliser les fichiers JAR de 
 
 Une fois que le fichier JAR de l’API de service est ajouté en tant que dépendance de projet dans le fichier pom.xml du projet, vous pouvez créer et utiliser des API Java AEM Guides dans votre projet.
 
-## Utilisation du fichier JAR d’API du référentiel central Maven pour AEM Guides
+## Utilisation du fichier JAR de l’API à partir du référentiel central Maven pour AEM Guides as a Cloud Service
 
-Pour AEM Guides as a Cloud Service, le fichier JAR de l’API a été déployé dans Maven Central. Vous pouvez utiliser le fichier JAR de l’API sans configuration.
+Pour AEM Guides as a Cloud Service, le fichier JAR de l’API a été déployé sur Maven Central. Vous pouvez utiliser le fichier JAR de l’API sans aucune configuration.
 
 >[!NOTE]
 >
-> La convention d’affectation des noms du fichier JAR de l’API a été mise à jour conformément à la convention d’affectation des noms des modules complémentaires de cloud.
+> La convention d’affectation des noms du fichier JAR de l’API a été mise à jour conformément à la convention d’affectation des noms des modules complémentaires cloud.
 
 Pour utiliser le fichier JAR de l’API, vous devez ajouter la dépendance au fichier pom.xml de votre projet, comme illustré ci-dessous :
 
 ```XML
 <dependency>
    <groupId>com.adobe.aem</groupId>
-   <artifactId>aem-guides-sdk-api</artifactId>
-   <version>2022.5</version>
+   <artifactId>aem-dox-sdk-api</artifactId>
+   <version>${RELEASE}</version>
 </dependency>
 ```
 
 >[!NOTE]
 >
-> Comme les packages à l’intérieur du fichier JAR de l’API sont toujours identiques, aucun changement de code n’est nécessaire pour utiliser ce fichier JAR de l’API dans les projets cloud existants.
+> Comme les packages dans le fichier JAR de l’API sont toujours identiques, aucune modification de code n’est nécessaire pour utiliser ce fichier JAR de l’API dans les projets cloud existants.
 
 ### API Java
 
-Vous pouvez utiliser des API Java disponibles dans Experience Manager Guides pour créer des modules externes personnalisés et étendre les processus prêts à l’emploi. Affichez [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) pour obtenir la documentation la plus récente et détaillée sur l’utilisation de l’API Java.
+Vous pouvez utiliser les API Java disponibles dans Experience Manager Guides pour créer des modules externes personnalisés et étendre les workflows prêts à l’emploi. Consultez [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) pour obtenir la documentation la plus récente et détaillée sur l’utilisation de l’API Java.
 
 
 
 ## Ressources supplémentaires
 
-Vous trouverez ci-dessous une liste d’autres ressources utiles d’AEM Guides, disponibles sur la page [Formation et assistance](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) :
+Voici une liste d’autres ressources utiles d’AEM Guides, disponibles sur la page [En savoir plus et assistance](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) :
 
 - Guide de l’utilisateur
-- Guide d&#39;installation et de configuration
+- Guide d’installation et de configuration
 - Guide de démarrage rapide
-- [Aide à l’archivage de la page](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(accéder à la documentation sur les anciennes versions\)
+- [Page d’archivage de l’aide](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(accédez à l’ancienne version\)

@@ -1,88 +1,92 @@
 ---
-title: Générer une sortie à partir du panneau Repository
-description: Générez la sortie à partir du panneau du référentiel ou du panneau Vue Carte dans AEM Guides. Découvrez comment publier une rubrique utilisée sur un ou plusieurs mappages DITA ou générer une sortie pour plusieurs rubriques.
+title: Générer une sortie à partir du panneau Référentiel
+description: Générez une sortie à partir du panneau Référentiel ou du panneau Vue Carte dans AEM Guides. Découvrez comment publier une rubrique utilisée dans un ou plusieurs plans DITA ou générer une sortie pour plusieurs rubriques.
 exl-id: f7a4be54-9c51-44e6-96bb-f25e3a6155da
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
 
-# Générer une sortie à partir du panneau Référentiel ou du panneau Vue Carte {#id218CL6010AE}
+# Générez une sortie à partir du panneau Référentiel ou du panneau Vue Carte . {#id218CL6010AE}
 
-Vous pouvez également utiliser les paramètres prédéfinis de sortie créés pour votre mappage DITA pour générer une sortie à partir du panneau Référentiel ou du panneau Vue Carte.
+>[!NOTE]
+>
+> Le panneau Génération rapide, auparavant disponible dans Adobe Experience Manager Guides, est obsolète à partir des versions 4.0 et 2502. Vous ne pouvez pas accéder au panneau Génération rapide pour générer une sortie à partir du panneau Référentiel ou du panneau Vue Carte .
 
-- Utilisez la fonction **Quick Generate** du panneau Référentiel ou du panneau Vue Carte pour générer une sortie pour la rubrique unique sélectionnée ou l’ensemble du mappage DITA.
+Vous pouvez également utiliser les paramètres prédéfinis de sortie créés pour votre plan DITA afin de générer une sortie à partir du panneau Référentiel ou du panneau Vue du plan.
+
+- Utilisez la fonction **Génération rapide** du panneau Référentiel ou du panneau Vue Carte pour générer une sortie pour la rubrique unique sélectionnée ou l&#39;ensemble du plan DITA.
 
   >[!NOTE]
   >
-  > Vous pouvez également accéder à la fonction **Quick Generate** à partir du panneau Favoris ou du panneau Rechercher.
+  > Vous pouvez également accéder à la fonction **Génération rapide** à partir du panneau Favoris ou du panneau de recherche.
 
-- Utilisez la fonction **Générer la sortie** du panneau Vue Carte pour générer la sortie pour les rubriques multiples sélectionnées.
+- Utilisez la fonction **Générer la sortie** du panneau Vue Carte pour générer la sortie des différentes rubriques sélectionnées.
 
-## Publish d’une rubrique utilisée sur un ou plusieurs mappages DITA
+## Publication d&#39;une rubrique utilisée dans un ou plusieurs plans DITA
 
-Effectuez les étapes suivantes pour générer une sortie pour une ou plusieurs rubriques dans votre mappage DITA :
+Effectuez les étapes suivantes pour générer une sortie pour une ou plusieurs rubriques de votre plan DITA :
 
-1. Dans l’onglet **Auteur**, sélectionnez la rubrique dans votre mappage DITA que vous souhaitez publier.
+1. Dans l&#39;onglet **Auteur**, sélectionnez la rubrique de votre plan DITA que vous souhaitez publier.
 
-1. Sélectionnez **Quick Generate** dans le menu Options de la rubrique sélectionnée.
+1. Sélectionnez **Génération rapide** dans le menu Options de la rubrique sélectionnée.
    ![](images/select-topic-options-menu_cs.png){width="650" align="left"}
 
-1. Pour publier une rubrique utilisée dans un mappage DITA unique, sélectionnez les paramètres prédéfinis de sortie de votre mappage que vous souhaitez utiliser pour la publication, puis cliquez sur **Générer**.
+1. Pour publier une rubrique utilisée dans un seul plan DITA, sélectionnez les paramètres prédéfinis de sortie du plan que vous souhaitez utiliser pour publier, puis cliquez sur **Générer**.
    ![](images/select-preset_cs.png){width="350" align="left"}
 
-1. Vous verrez l’état du processus de génération de sortie. Pour afficher la sortie, placez le pointeur de la souris sur la rubrique et cliquez sur Afficher la sortie.
+1. Vous verrez le statut du processus de génération de sortie. Pour afficher la sortie, placez le pointeur de la souris sur la rubrique et cliquez sur Afficher la sortie.
 
-1. Si vous avez une rubrique commune qui est utilisée sur plusieurs rubriques, sélectionnez les différentes cartes DITA ainsi que les paramètres prédéfinis de sortie que vous souhaitez utiliser pour la publication, puis cliquez sur **Générer.**
+1. Si une rubrique commune est utilisée dans plusieurs rubriques, sélectionnez les différents plans DITA ainsi que les paramètres prédéfinis de sortie à utiliser pour la publication, puis cliquez sur **Générer.**
 
    ![](images/select-preset-multiple-maps_cs.png){width="350" align="left"}
 
-1. Vous verrez l’état du processus de génération de sortie.
+1. Vous verrez le statut du processus de génération de sortie.
 
-   - **Sujets** : répertorie les rubriques sélectionnées pour lesquelles une sortie est générée.
+   - **Rubriques** : répertorie les rubriques sélectionnées pour lesquelles une sortie est générée.
    - **Paramètre prédéfini** : affiche les paramètres prédéfinis de sortie qui contiennent les rubriques sélectionnées.
-   - **Mappage** : répertorie les mappages DITA qui contiennent la rubrique sélectionnée.
-   - **État** : affiche l’état de publication de chaque rubrique.
+   - **Map** : répertorie les plans DITA contenant la rubrique sélectionnée.
+   - **Statut** : affiche le statut de publication de chaque rubrique.
 Pour afficher la sortie, placez le pointeur de la souris sur la rubrique et cliquez sur Afficher la sortie.
      ![](images/output-multiple-maps_cs.png){width="800" align="left"}
 
 
-## Générer la sortie d’un mappage DITA à partir de l’éditeur web
+## Générer la sortie d&#39;un plan DITA à partir de l&#39;éditeur Web
 
-Effectuez les étapes suivantes pour générer une sortie pour l’ensemble du mappage DITA :
+Effectuez les étapes suivantes pour générer une sortie pour l&#39;ensemble du plan DITA :
 
-1. Dans l’onglet **Auteur**, sélectionnez le mappage DITA que vous souhaitez publier.
+1. Dans l&#39;onglet **Auteur**, sélectionnez le plan DITA que vous souhaitez publier.
 
-1. Sélectionnez **Quick Generate** dans le menu Options de votre mappage DITA.
+1. Sélectionnez **Génération rapide** dans le menu Options de votre plan DITA.
 
    ![](images/select-map-options-menu_cs.png){width="650" align="left"}
 
-1. Sélectionnez les paramètres prédéfinis de sortie de votre mappage DITA que vous souhaitez utiliser pour la publication, puis cliquez sur **Générer.**
+1. Sélectionnez les paramètres prédéfinis de sortie de votre plan DITA que vous souhaitez utiliser pour publier, puis cliquez sur **Générer.**
 
-1. Vous verrez l’état du processus de génération de sortie. Pour afficher la sortie, placez le pointeur de la souris sur la rubrique et cliquez sur Afficher la sortie.
+1. Vous verrez le statut du processus de génération de sortie. Pour afficher la sortie, placez le pointeur de la souris sur la rubrique et cliquez sur Afficher la sortie.
 
 
 ## Générer une sortie pour plusieurs rubriques
 
-Effectuez les étapes suivantes pour générer la sortie pour plusieurs rubriques dans votre mappage DITA à partir du panneau Vue des cartes :
+Effectuez les étapes suivantes pour générer une sortie pour plusieurs rubriques de votre plan DITA à partir du panneau Vue Carte :
 
 1. Dans l’onglet **Auteur**, sélectionnez les rubriques que vous souhaitez publier.
 
-1. Sélectionnez **Générer la sortie** dans le menu Options situé en bas.
+1. Sélectionnez **Générer la sortie** dans le menu Options en bas.
 
-1. Sélectionnez le paramètre prédéfini de sortie de votre mappage DITA que vous souhaitez utiliser pour la publication.
+1. Sélectionnez le paramètre prédéfini de sortie du plan DITA que vous souhaitez utiliser pour publier.
 
    >[!NOTE]
    >
-   > Vous ne verrez que les paramètres prédéfinis de sortie du mappage DITA actuel qui contiennent toutes les rubriques sélectionnées.
+   > Seuls les paramètres prédéfinis de sortie du plan DITA actuel contenant toutes les rubriques sélectionnées s&#39;affichent.
 
    ![](images/generate-output-multiple-topics_cs.png){width="650" align="left"}
 
-1. Vous verrez l’état du processus de génération de sortie. Pour afficher la sortie, placez le pointeur de la souris sur la rubrique et cliquez sur Afficher la sortie.
+1. Vous verrez le statut du processus de génération de sortie. Pour afficher la sortie, placez le pointeur de la souris sur la rubrique et cliquez sur Afficher la sortie.
 
 
-**Rubrique parente :**[ Publication basée sur un article à partir de l’éditeur web](web-editor-article-publishing.md)
+**Rubrique parente :**[ Publication basée sur des articles dans l’éditeur web](web-editor-article-publishing.md)
