@@ -1,33 +1,35 @@
 ---
-title: Réaffecter la tâche de révision à l’aide d’une notification
-description: Réaffectez une tâche de révision à l’aide de notifications dans AEM Guides. Découvrez comment réaffecter une tâche de réviseur à partir de la notification de boîte de réception.
+title: Réaffecter une tâche de révision à l’aide d’une notification
+description: Réaffectez une tâche de révision à l’aide des notifications dans AEM Guides. Savoir comment réaffecter une tâche de réviseur à partir de la notification de boîte de réception.
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 3e43206b-c1a3-43ba-a4e5-c45c68c8b941
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
 
 ---
 
-# Réaffecter la tâche de révision à l’aide d’une notification {#id21BNH03M0KS}
+# Réaffecter une tâche de révision à l’aide d’une notification {#id21BNH03M0KS}
 
-Vous pouvez réaffecter une tâche de révision à un autre utilisateur qui a été ajouté au même projet de révision. La réaffectation de la tâche de révision peut être facilement effectuée à partir de la notification de révision fournie dans votre boîte de réception. Cependant, en tant que réviseur, vous pouvez réaffecter une tâche de révision uniquement aux utilisateurs individuels et non aux groupes d’utilisateurs à l’aide de la notification.
+Vous pouvez réaffecter une tâche de révision qui vous a été assignée à un autre utilisateur qui a été ajouté au même projet de révision. La réaffectation de la tâche de révision peut être facilement effectuée à partir de la notification de révision diffusée dans votre boîte de réception. Cependant, en tant que réviseur ou réviseuse, vous pouvez réaffecter une tâche de révision uniquement à des utilisateurs individuels et non à des groupes d’utilisateurs ou utilisatrices à l’aide de la notification.
 
-Notez que la réaffectation ne peut être effectuée que pour les tâches de réviseur et non pour les tâches du propriétaire.
+Notez que la réaffectation ne peut être effectuée que pour les tâches de réviseur et non pour les tâches de propriétaire.
 
-1. **Tâche de réviseur** : toute tâche affectée à un réviseur pour une révision.
-1. **Tâche du propriétaire** : tâche créée uniquement pour le propriétaire. Lorsque vous créez et affectez une tâche de révision à un réviseur, le propriétaire reçoit également une tâche du propriétaire avec le nom Fermer &lt; nom de la tâche de révision\> \(Par exemple, fermer-réviser la tâche1\), mais cette tâche du propriétaire ne peut être réaffectée à personne.
+1. **Tâche du réviseur** : toute tâche affectée à un réviseur pour une révision.
+1. **Tâche du propriétaire** : tâche créée uniquement pour le propriétaire. Lorsque vous créez et affectez une tâche de révision à un réviseur, le propriétaire reçoit également une tâche de propriétaire portant le nom Fermer &lt; nom de la tâche de révision\> \(par exemple close-reviewtask1\), mais cette tâche de propriétaire ne peut être réaffectée à personne.
 
 Effectuez les étapes suivantes pour réaffecter une tâche de révision à partir de la notification de boîte de réception :
 
 1. Sélectionnez la notification de la tâche de révision dans la boîte de réception.
-1. Sélectionnez l&#39;icône **Réaffecter** en haut.
+1. Sélectionnez l’icône **Réaffecter** en haut.
 1. Sélectionnez le nom d’utilisateur auquel vous souhaitez réaffecter la tâche.
 
    >[!IMPORTANT]
    >
-   > Le réviseur doit disposer des autorisations nécessaires pour réaffecter et doit faire partie du groupe utilisateur-administrateur.
+   > Le réviseur ou la réviseuse doit disposer des autorisations de réaffectation et doit faire partie du groupe utilisateur-administrateur.
 
    ![](images/reassign-user-inbox.png){width="800" align="left"}
 
@@ -37,4 +39,4 @@ Une fois la tâche de révision réaffectée, la colonne Assignation affiche le 
 
 Le réviseur affecté reçoit une notification dans la boîte de réception pour la tâche de révision réaffectée.
 
-**Rubrique parente :**[ Réviser des rubriques ou des cartes](review.md)
+**Rubrique parente :**[ consulter des rubriques ou des cartes](review.md)

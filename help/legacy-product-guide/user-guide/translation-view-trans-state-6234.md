@@ -1,27 +1,29 @@
 ---
-title: Afficher le statut de traduction
-description: Découvrez comment afficher l’état de traduction et les copies de langue traduites pour chaque rubrique dans un mappage DITA dans AEM Guides.
+title: Afficher le statut de la traduction
+description: Découvrez comment afficher le statut de traduction et les copies de langue traduites pour chaque rubrique dans un plan DITA dans AEM Guides.
 feature: Translation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 261c24f2-be9e-4a6b-9b1f-0850d960d49e
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
 
 ---
 
-# Afficher le statut de traduction {#id169SEK00KOW}
+# Afficher le statut de la traduction {#id169SEK00KOW}
 
-Vous pouvez afficher l’état de traduction et les copies de langue traduites pour chaque rubrique dans un mappage DITA.
+Vous pouvez afficher le statut de traduction et les copies de langue traduites pour chaque rubrique dans un plan DITA.
 
-Effectuez les étapes suivantes pour afficher l’état de traduction d’un mappage DITA :
+Pour afficher le statut de traduction d&#39;un plan DITA, procédez comme suit :
 
 1. Accédez au fichier de mappage DITA de la copie de langue source.
-1. Cliquez sur l’onglet **Traduction** .
-1. Dans le panneau **Filter** à gauche, sélectionnez le **Traduire les langues** dont vous souhaitez vérifier l’état, puis cliquez sur **Terminé**.
+1. Cliquez sur l’onglet **Traduction**.
+1. Dans le panneau **Filtre** à gauche, sélectionnez les **Traduire les langues** dont vous souhaitez vérifier le statut, puis cliquez sur **Terminé**.
 
    >[!NOTE]
    >
-   > Vous pouvez filtrer davantage le contenu en fonction de leur état de traduction \(en tant que Copie manquante de synchronisation, En cours ou Synchronisé\), Type Source \(en tant que Tous, DITA, Carte DITA ou Ressource\), date de modification. Vous pouvez également entrer des mots-clés pour rechercher des rubriques spécifiques.
+   > Vous pouvez filtrer davantage le contenu en fonction de son statut de traduction \(comme Copie manquante non synchronisée, En cours, ou Synchronisé\), de son type de Source \(comme Tous, DITA, plan DITA ou Ressource\), de sa date de modification. Vous pouvez également saisir des mots-clés pour rechercher des rubriques spécifiques.
 
 **Rubrique parente :**[ Traduire le contenu](translation.md)

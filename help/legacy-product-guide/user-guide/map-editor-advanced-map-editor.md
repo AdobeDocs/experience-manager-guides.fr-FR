@@ -3,8 +3,9 @@ title: Utilisation de l’éditeur de cartes avancé
 description: Découvrez comment utiliser l’éditeur de carte avancé dans AEM Guides. connaître les fonctionnalités de l’éditeur de cartes avancé ; Modifiez des rubriques à l'aide d'un plan DITA et utilisez le mode Disposition, Création et Aperçu.
 feature: Authoring, Map Editor
 role: User
+hide: true
 exl-id: b63d7c0f-9c29-4fb4-b8fe-9790b16f8726
-source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '3788'
 ht-degree: 0%

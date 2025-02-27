@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
-source-wordcount: '4755'
+source-wordcount: '4756'
 ht-degree: 0%
 
 ---
@@ -508,7 +508,7 @@ Par défaut, l&#39;éditeur XML est fourni avec de nombreuses fonctions pour aid
 
 Ce paramètre vous permet de créer des extensions JSON qui reflètent les modifications apportées au fichier `ui_config.json`. Vous pouvez charger ces extensions indépendamment au niveau du profil du dossier, offrant ainsi une flexibilité et une personnalisation améliorées. Par exemple, lorsque vous apportez des modifications à la configuration de l’éditeur **XML**, comme la mise à jour d’un bouton, le système identifie automatiquement les différences. En chargeant ces modifications dans la **Configuration de l’interface utilisateur de l’éditeur XML** et en les convertissant en extensions JSON à l’aide du bouton **Convertir la configuration de l’interface utilisateur en JSON**, le système génère une extension qui incorpore la nouvelle fonctionnalité.
 
-En savoir plus sur **la personnalisation des configurations JSON et la conversion des configurations de l’interface utilisateur pour le nouvel éditeur AEM Guides**.
+En savoir plus sur [la personnalisation des configurations JSON et la conversion des configurations de l’interface utilisateur pour le nouvel éditeur AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 **Mise en page de l’éditeur XML**
 

@@ -1,64 +1,66 @@
 ---
-title: Rapport Réutilisation du contenu
-description: Découvrez comment afficher le rapport de réutilisation du contenu dans AEM Guides. Générez le rapport pour connaître le pourcentage de réutilisation du contenu.
+title: Rapport sur la réutilisation du contenu
+description: Découvrez comment afficher le rapport de réutilisation du contenu dans AEM Guides. Générez le rapport pour trouver le pourcentage de réutilisation du contenu.
 feature: Report Generation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
 
 ---
 
-# Rapport Réutilisation du contenu {#id205BB900OQD}
+# Rapport sur la réutilisation du contenu {#id205BB900OQD}
 
-Le rapport Réutilisation du contenu est un autre rapport utile que vous pouvez générer. Ce rapport calcule le pourcentage moyen d’utilisation du contenu, ce qui est très utile pour les chefs de projet et les chefs d’entreprise afin de déterminer la quantité de contenu réutilisé.
+Le rapport de réutilisation du contenu est un autre rapport utile que vous pouvez générer. Ce rapport calcule le pourcentage moyen d’utilisation du contenu, ce qui est très utile pour les chefs de projet et les propriétaires d’entreprise qui souhaitent voir la quantité de contenu réutilisée.
 
 >[!TIP]
 >
-> Pour garantir le bon fonctionnement du rapport Réutilisation du contenu, vous devez activer le workflow de post-traitement. Contactez votre administrateur système pour activer les workflows de post-traitement.
+> Pour garantir le bon fonctionnement du rapport de réutilisation du contenu, vous devez activer le workflow de post-traitement. Contactez votre administrateur système pour activer les workflows de post-traitement.
 
-Effectuez les étapes suivantes pour afficher le rapport Réutilisation du contenu :
+Pour afficher le rapport de réutilisation du contenu, procédez comme suit :
 
-1. Cliquez sur le lien Adobe Experience Manager en haut de l’écran et sélectionnez **Outils**.
+1. Cliquez sur le lien Adobe Experience Manager en haut et choisissez **Outils**.
 
 1. Sélectionnez **Guides** dans la liste des outils.
 
-1. Cliquez sur la mosaïque **Rapport de réutilisation de contenu** .
+1. Cliquez sur la mosaïque **Rapport de réutilisation du contenu**.
 
-1. Cliquez sur **Parcourir** pour choisir un chemin où se trouvent vos rubriques ou saisissez le chemin manuellement.
+1. Cliquez sur **Parcourir** pour choisir un chemin d’accès où se trouvent vos rubriques ou saisissez manuellement le chemin d’accès.
 
-   Le rapport est généré en analysant le contenu dans les dossiers parents et tous les dossiers enfants.
+   Le rapport est généré en analysant le contenu dans le dossier parent et tous les dossiers enfants.
 
-1. Cliquez sur **Générer le rapport** pour obtenir le rapport Réutilisation du contenu.
+1. Cliquez sur **Générer le rapport** pour obtenir le rapport de réutilisation du contenu.
 
    ![](images/content-reuse-uuid.png){width="800" align="left"}
 
-   La page du rapport se divise en deux parties :
+   La page du rapport est divisée en deux parties :
 
    - **Résumé du rapport :**
 
-     Répertorie la Réutilisation moyenne du contenu, qui est calculée en tant qu’ Instances/Nombre total de rubriques de la réutilisation du contenu. Ce rapport prend en compte toutes les références de contenu direct de premier niveau et les références de rubrique pour le calcul. Les instances de réutilisation du contenu sont calculées comme la somme totale des valeurs du champ Nombre de fois réutilisées . Le sujet qui est le plus réutilisé est également répertorié dans le résumé du rapport. Cliquez sur le lien de la rubrique dans la rubrique la plus sollicitée pour ouvrir l’aperçu de la rubrique.
+     Répertorie la réutilisation moyenne du contenu, calculée en tant qu’instances de réutilisation de contenu/nombre total de rubriques. Ce rapport prend en compte toutes les références de contenu direct de premier niveau et les références de rubrique pour le calcul. Les instances de réutilisation de contenu sont calculées comme la somme totale des valeurs du champ Nombre de fois réutilisées . La rubrique la plus largement réutilisée est également répertoriée dans le résumé du rapport. Cliquez sur le lien de la rubrique dans la rubrique la plus réutilisée pour ouvrir l’aperçu de la rubrique.
 
-   - **Détails :**
+   - **Détails:**
 
      La section Détails contient les colonnes suivantes :
 
-      - **Titre** : titre de la rubrique. Cliquez sur le lien de titre de la rubrique pour ouvrir l’aperçu de la rubrique.
+      - **Titre** : titre de la rubrique. Cliquez sur le lien du titre de la rubrique pour ouvrir l’aperçu de la rubrique.
 
-      - **UID** : identifiant unique universelle \(UUID\) du fichier.
+      - **UUID** : identifiant universel unique \(UUID\) du fichier.
 
       - **Size** : taille des fichiers en octets.
 
-      - **Status** : état actuel du document - Version préliminaire, En révision ou révision.
+      - **Statut** : statut actuel du document (brouillon, en cours de révision ou révisé).
 
-      - **Nombre de fois réutilisées** : nombre de fois où la rubrique correspondante a été réutilisée. Ce calcul correspond à la somme des entrées dans les colonnes Référencé par moins 1.
+      - **Nombre de réutilisations** : nombre de fois où la rubrique correspondante a été réutilisée. Il s’agit de la somme des entrées des colonnes Référencé par moins 1.
 
-      - **Référencé par** : rubriques dans lesquelles la rubrique correspondante a été référencée. Ici, seules les références directes \(premier niveau\) sont prises en compte. Plusieurs rubriques sont séparées par une virgule. L’UUID du fichier référencé est également mentionné entre crochets. Cliquez sur le lien de titre de la rubrique pour ouvrir l’aperçu de la rubrique.
+      - **Référencé par** : les rubriques dans lesquelles la rubrique correspondante a été référencée. Ici, seules les références directes \(premier niveau\) sont prises en compte. Plusieurs rubriques sont séparées par des virgules. L’UUID du fichier référencé est également mentionné entre crochets. Cliquez sur le lien du titre de la rubrique pour ouvrir l’aperçu de la rubrique.
 
 
 >[!NOTE]
 >
-> Vous pouvez également exporter le rapport Réutilisation du contenu au format CSV. Pour ce faire, cliquez sur le lien Exporter au format CSV dans le coin supérieur gauche de l’écran et choisissez l’emplacement d’enregistrement du fichier CSV. Vous pouvez ensuite ouvrir ce fichier CSV dans n’importe quel éditeur CSV.
+> Vous pouvez également exporter le rapport de réutilisation du contenu au format CSV. Pour ce faire, cliquez sur le lien Exporter au format CSV dans le coin supérieur gauche de l’écran et choisissez un emplacement pour enregistrer le fichier CSV. Vous pouvez ensuite ouvrir ce fichier CSV dans n’importe quel éditeur CSV.
 
 **Rubrique parente :**[ Rapports](reports-intro.md)

@@ -1,9 +1,11 @@
 ---
-title: Découvrez comment traduire du contenu
+title: Découvrir comment traduire le contenu
 description: Traduisez votre contenu dans plusieurs langues dans AEM Guides. Découvrez les workflows de traduction humaine et automatique.
 feature: Translation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: ca9c6150-adc5-4c0c-94c1-802d59db9079
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 1%
@@ -14,17 +16,17 @@ ht-degree: 1%
 
 AEM Guides s’accompagne de puissantes fonctionnalités qui vous permettent de traduire votre contenu dans plusieurs langues. Les workflows de traduction humaine et automatique sont pris en charge par AEM Guides.
 
-- **Traduction humaine** - Les Assets sont envoyées à votre fournisseur de traduction et traduites par des traducteurs professionnels. Une fois l’opération terminée, les ressources traduites sont renvoyées et elles sont ensuite réimportées dans AEM.
+- **Traduction humaine** - Assets est envoyé à votre fournisseur de traduction et traduit par des traducteurs professionnels. Une fois l’opération terminée, les ressources traduites sont renvoyées, puis elles sont réimportées dans AEM.
 
-- **Traduction automatique** - Il s’agit du service par défaut dans AEM où le contenu est traduit immédiatement à l’aide de la traduction automatique en temps réel. AEM d’usine permet de se connecter à Microsoft Translator.
+- **Traduction automatique** - Il s’agit du service par défaut d’AEM où le contenu est immédiatement traduit à l’aide de la traduction automatique en temps réel. AEM prêt à l’emploi permet de se connecter à Microsoft Translator.
 
   >[!NOTE]
   >
-  > Microsoft Translator est disponible uniquement sous la forme d’une licence d’évaluation.
+  > Microsoft Translator est disponible uniquement en tant que licence d’évaluation.
 
 
-- **[Bonnes pratiques pour la traduction de contenu](translation-first-time.md)**
+- **[Bonnes pratiques relatives à la traduction de contenu](translation-first-time.md)**
 
-- **[Afficher l’état de traduction](translation-view-trans-state-6234.md)**
+- **[Afficher le statut de la traduction](translation-view-trans-state-6234.md)**
 
 - **[Traduire les rubriques modifiées](translation-modified-topics-6234.md)**

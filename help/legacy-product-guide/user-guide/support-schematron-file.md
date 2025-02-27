@@ -1,68 +1,70 @@
 ---
-title: Prise en charge des fichiers de schéma
-description: Découvrez comment importer et valider une rubrique DITA, utiliser l’insertion d’instructions de rapport pour rechercher des règles, utiliser des expressions regex et définir des modèles abstraits dans les fichiers de schéma d’AEM Guides.
+title: Prise en charge des fichiers Schematron
+description: Découvrez comment importer et valider une rubrique DITA, utiliser des instructions de rapport d'assertion pour vérifier des règles, utiliser des expressions regex et définir des modèles abstraits dans les fichiers Schematron d'AEM Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: c743baac-b6c1-4684-bbd1-8f9834ab272a
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
 
 ---
 
-# Prise en charge des fichiers de schéma
+# Prise en charge des fichiers Schematron
 
-&quot;Schéma&quot; fait référence à un langage de validation basé sur des règles utilisé pour définir des tests pour un fichier XML. L’éditeur web prend en charge les fichiers de schéma. Vous pouvez importer les fichiers de schéma et les modifier dans l’éditeur web. À l’aide d’un fichier de schéma, vous pouvez définir certaines règles, puis les valider pour une rubrique DITA ou un mappage.
+« Schéma » fait référence à un langage de validation basé sur des règles utilisé pour définir des tests pour un fichier XML. L’éditeur web prend en charge les fichiers Schematron. Vous pouvez importer les fichiers Schematron et les modifier également dans l&#39;éditeur Web. À l&#39;aide d&#39;un fichier Schematron, vous pouvez définir certaines règles, puis les valider pour une rubrique DITA ou une carte.
 
 >[!NOTE]
 >
 > L’éditeur web prend en charge le schéma ISO.
 
 
-## Importation des fichiers de schéma
+## Importer des fichiers Schematron
 
-Effectuez les étapes suivantes pour importer les fichiers de schéma :
+Pour importer les fichiers Schematron, procédez comme suit :
 
 ![](images/scematron-panel-add.png){width="300" align="left"}
 
-1. Accédez au dossier requis (où vous souhaitez charger les fichiers) dans *Repository View*.
-1. Cliquez sur l’icône **Options** pour ouvrir le menu contextuel et sélectionnez **Télécharger Assets**.
+1. Accédez au dossier requis (dans lequel vous souhaitez charger les fichiers) dans *Vue du référentiel*.
+1. Cliquez sur l’icône **Options** pour afficher le menu contextuel et choisissez **Télécharger Assets**.
 1. Dans la boîte de dialogue **Télécharger Assets**, vous pouvez modifier le dossier de destination dans le champ **Sélectionner le dossier de ressources**.
-1. Cliquez sur **Choose Files** (Choisir les fichiers) et accédez aux fichiers de schéma pour les sélectionner. Vous pouvez sélectionner un ou plusieurs fichiers de schéma, puis cliquer sur **Télécharger**.
+1. Cliquez sur **Choisir des fichiers** et recherchez les fichiers Schematron. Vous pouvez sélectionner un ou plusieurs fichiers Schematron, puis cliquer sur **Télécharger**.
 
-## Validation d’une rubrique ou d’un mappage DITA avec Schematron
+## Validation d&#39;une rubrique ou d&#39;un mappage DITA avec Schematron
 
-Après avoir importé des fichiers de schéma, vous pouvez les modifier dans l’éditeur web. Vous pouvez utiliser les fichiers de schéma pour valider les rubriques ou un mappage DITA. Par exemple, vous pouvez créer les règles suivantes pour un mappage ou une rubrique DITA :
+Après avoir importé les fichiers Schematron, vous pouvez les modifier dans l&#39;éditeur Web. Vous pouvez utiliser les fichiers Schematron pour valider les rubriques ou un plan DITA. Par exemple, vous pouvez créer les règles suivantes pour un plan ou une rubrique DITA :
 
-* Un titre est défini pour un mappage DITA.
-* Une brève description d’une certaine longueur a été ajoutée.
-* Il doit y avoir au moins une référence de topicref dans la carte.
+* Un titre est défini pour un plan DITA.
+* Ajout d&#39;une brève description d&#39;une certaine longueur.
+* Il doit y avoir au moins une rubrique dans la carte.
 
-Lorsque vous ouvrez une rubrique dans l’éditeur web, un panneau Validation de schéma s’affiche à droite. Effectuez les étapes suivantes pour ajouter et valider une rubrique ou un mappage avec un fichier de schéma :
+Lorsque vous ouvrez une rubrique dans l’éditeur web, un panneau Validation du schéma s’affiche à droite. Effectuez les étapes suivantes pour ajouter et valider une rubrique ou un mappage avec un fichier Schematron :
 ![](images/schematron-validate.png){width="300" align="left"}
 
 1. Cliquez sur l’icône Schéma () pour ouvrir le panneau Schéma .
-1. Utilisez Ajouter un fichier de schéma pour ajouter des fichiers de schéma.
-1. Si le fichier de schéma ne comporte aucune erreur, il est ajouté et répertorié dans le panneau Validation. Un message d’erreur s’affiche pour le fichier de schéma contenant des erreurs.
+1. Utilisez Ajouter un fichier Schematron pour ajouter des fichiers Schematron.
+1. Si le fichier Schematron ne comporte aucune erreur, il est ajouté et répertorié dans le panneau Validation . Un message d’erreur s’affiche pour le fichier Schematron contenant les erreurs.
    >[!NOTE]
    >
-   >Vous pouvez utiliser l’icône croisée près du nom du fichier de schéma pour le supprimer.
-1. Cliquez sur Valider avec le schéma pour valider la rubrique.
+   >Vous pouvez utiliser l’icône en forme de croix près du nom du fichier Schematron pour le supprimer.
+1. Cliquez sur Valider avec Schematron pour valider la rubrique.
 
-   * Si la rubrique ne enfreint aucune règle, le message de réussite de la validation s’affiche pour le fichier.
-   * Si la rubrique rompt une règle, par exemple si elle ne contient pas de titre et est validée pour le schéma donné ci-dessus, elle affiche une erreur de validation.
+   * Si la rubrique n’enfreint aucune règle, le message de réussite de la validation s’affiche pour le fichier.
+   * Si la rubrique enfreint une règle, par exemple, si elle ne contient pas de titre et est validée pour le schéma donné ci-dessus, une erreur de validation s’affiche.
 
 1. Cliquez sur le message d’erreur pour mettre en surbrillance l’élément contenant l’erreur dans la rubrique/le mappage ouvert.
 
-La prise en charge des schémas dans l’éditeur web vous aide à valider les fichiers par rapport à un ensemble de règles et à maintenir la cohérence et l’exactitude dans les rubriques.
+La prise en charge de Schematron dans l’éditeur web vous permet de valider les fichiers par rapport à un ensemble de règles, tout en préservant la cohérence et l’exactitude des rubriques.
 
-## Utilisez des instructions d’insertion et de rapport pour rechercher des règles.{#schematron-assert-report}
+## Utilisez des instructions d’assertion et de rapport pour rechercher des règles{#schematron-assert-report}
 
-AEM Guides prend également en charge les instructions d’insertion et de rapport dans le schéma. Ces instructions vous aident à valider vos rubriques DITA.
+AEM Guides prend également en charge les instructions d’assertion et de rapport dans Schematron. Ces instructions vous aident à valider vos rubriques DITA.
 
-### Instruction d’affirmation
+### Instruction Assert
 
-Une instruction sert génère un message lorsqu’une instruction test est évaluée comme false. Par exemple, si vous souhaitez que votre titre soit en gras, vous pouvez définir une instruction d’assertion pour celui-ci.
+Une instruction d’assertion génère un message lorsqu’une instruction de test est évaluée sur false. Par exemple, si vous souhaitez que votre titre apparaisse en gras, vous pouvez définir une instruction d’assertion pour celui-ci.
 
 ```XML
 <sch:rule context="title"> 
@@ -70,12 +72,12 @@ Une instruction sert génère un message lorsqu’une instruction test est éval
   </sch:rule>
 ```
 
-Lorsque vous validez vos rubriques DITA avec le schéma, vous obtenez un message pour les rubriques dans lesquelles le titre n’est pas en gras.
+Lorsque vous validez vos rubriques DITA avec le Schematron, vous obtenez un message pour les rubriques dont le titre n&#39;est pas en gras.
 
-### Instruction de rapport
+### Instruction du rapport
 
-Une instruction de rapport génère un message lorsqu’une instruction de test est évaluée comme vraie. Par exemple, si vous souhaitez que la brève description soit inférieure ou égale à 150 caractères, vous pouvez définir une instruction de rapport afin de vérifier les rubriques dont la brève description comporte plus de 150 caractères.
-Lorsque vous validez vos rubriques DITA avec le schéma, vous obtenez un rapport complet des règles dans lesquelles l’instruction de rapport est vraie. Ainsi, vous obtenez un message pour les rubriques dont la brève description comporte plus de 150 caractères.
+Une instruction de rapport génère un message lorsqu’une instruction de test est évaluée comme vraie. Par exemple, si vous souhaitez que la description courte comporte moins de 150 caractères ou qu’elle soit égale à 1, vous pouvez définir une instruction de rapport pour vérifier les rubriques dont la description courte comporte plus de 150 caractères.
+Lorsque vous validez vos rubriques DITA avec le schéma, vous obtenez un rapport complet des règles où l&#39;instruction du rapport est vraie. Ainsi, vous obtenez un message pour les sujets dont la description courte dépasse 150 caractères.
 
 
 ```XML
@@ -89,13 +91,13 @@ Lorsque vous validez vos rubriques DITA avec le schéma, vous obtenez un rapport
 
 >[!NOTE]
 >
-> Utilisez uniquement les expressions Xpath 2.0 lors de l’écriture des règles de schéma.
+> Utilisez uniquement des expressions Xpath 2.0 lors de l’écriture des règles Schematron.
 
 ## Utilisation d’expressions Regex{#schematron-regex-espressions}
 
-Vous pouvez également utiliser des expressions Regex pour définir une règle avec la fonction matches(), puis effectuer la validation à l’aide du fichier de schéma.
+Vous pouvez également utiliser des expressions Regex pour définir une règle avec la fonction matches() , puis effectuer la validation à l’aide du fichier Schematron.
 
-Par exemple, vous pouvez l’utiliser pour afficher un message si le titre contient un seul mot.
+Par exemple, vous pouvez l’utiliser pour afficher un message si le titre ne contient qu’un seul mot.
 
 ```XML
 <assert test="not(matches(.,'^\w+$'))"> 
@@ -106,13 +108,13 @@ No one word titles.
 
 ## Définition de modèles abstraits{#schematron-abstract-patterns}
 
-AEM Guides prend également en charge les modèles abstraits dans Schematron. Vous pouvez définir des modèles abstraits génériques qui réutilisent ces modèles abstraits.  Vous pouvez créer des paramètres d’espace réservé qui spécifient le modèle réel.
+AEM Guides prend également en charge les modèles abstraits dans Schematron. Vous pouvez définir des modèles abstraits génériques et les réutiliser.  Vous pouvez créer des paramètres d’espace réservé qui spécifient le modèle réel.
 
 
-L’utilisation de modèles abstraits peut simplifier votre schéma de schéma en réduisant la duplication des règles et en facilitant la gestion et la mise à jour de votre logique de validation. Cela peut également faciliter la compréhension de votre schéma, car vous pouvez définir une logique de validation complexe dans un modèle abstrait unique qui peut être réutilisé dans l’ensemble du schéma.
+L’utilisation de modèles abstraits peut simplifier votre schéma Schematron en réduisant la duplication des règles et en facilitant la gestion et la mise à jour de votre logique de validation. Cela peut également faciliter la compréhension de votre schéma, dans la mesure où vous pouvez définir une logique de validation complexe dans un modèle abstrait unique qui peut être réutilisé dans l’ensemble du schéma.
 
 
-Par exemple, le code XML suivant crée un modèle abstrait, auquel le modèle réel fait référence à l’aide de l’identifiant.
+Par exemple, le code XML suivant crée un modèle abstrait, puis le modèle réel y fait référence à l’aide de l’identifiant .
 
 ```XML
 <sch:pattern abstract="true" id="LimitNoOfWords"> 

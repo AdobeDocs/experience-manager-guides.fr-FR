@@ -1,48 +1,50 @@
 ---
-title: Utilisation de l’éditeur web
-description: Créez et modifiez des documents structurés à l’aide de l’éditeur web. Découvrez comment travailler avec l’éditeur web en suivant les normes DITA dans AEM Guides.
+title: Utiliser l’éditeur web
+description: Créez et modifiez des documents structurés à l’aide de l’éditeur web. Découvrez comment utiliser l’éditeur web en respectant les normes DITA dans AEM Guides.
 feature: Authoring, Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a5b0d107-4e17-4d0c-99dd-0228189e2449
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
 
 ---
 
-# Utilisation de l’éditeur web {#id181OD0QE05Z}
+# Utiliser l’éditeur web {#id181OD0QE05Z}
 
-AEM Guides s’accompagne d’un éditeur web convivial pour la création et la modification de documents structurés. L’éditeur masque toutes les complexités de la structure DITA à l’auteur. L’éditeur fournit une liste des éléments DITA qu’un utilisateur doit généralement utiliser dans un document.
+AEM Guides est fourni avec un éditeur web convivial destiné à la création et à la modification de documents structurés. L’éditeur masque au rédacteur toutes les complexités de la structure DITA. L&#39;éditeur fournit une liste d&#39;éléments DITA qu&#39;un utilisateur doit généralement utiliser dans un document.
 
-En outre, l’éditeur web est compatible avec DITA et prend en charge les normes DITA 1.3, 1.2, la DITA légère et également la DITA spécialisée. Cela signifie qu’il ne vous permettra pas de placer des éléments à des emplacements qui ne sont pas conformes aux normes DITA. L’éditeur web vous permet également d’utiliser les éléments bloqués et en ligne les plus couramment utilisés.
+En outre, l’éditeur web est compatible DITA et prend en charge les normes DITA 1.3 et 1.2, la norme DITA légère ainsi que la norme DITA spécialisée. Cela signifie qu&#39;il ne vous permettra pas de placer des éléments à des emplacements non conformes aux normes DITA. L’éditeur web vous permet également d’utiliser le bloc et les éléments en ligne les plus couramment utilisés.
 
-- **[Lancement de l’éditeur Web](web-editor-launch-editor.md)**
+- **[Lancer l’éditeur web](web-editor-launch-editor.md)**
 
 - **[Modification de rubriques dans l’éditeur web](web-editor-edit-topics.md)**
 
-- **[Connaître les fonctionnalités de l’éditeur Web](web-editor-features.md)**
+- **[Connaître les fonctionnalités de Web Editor](web-editor-features.md)**
 
 - **[Raccourcis clavier dans l’éditeur web](web-editor-keyboard-shortcuts.md)**
 
 - **[Autres fonctionnalités de l’éditeur web](web-editor-other-features.md)**
 
-- **[Affichages de l’éditeur web](web-editor-views.md)**
+- **[Vues de l’éditeur web](web-editor-views.md)**
 
-- **[Création de documents Markdown à partir de l’éditeur web](web-editor-markdown-topic.md)**
+- **[Créer des documents Markdown à partir de l’éditeur web](web-editor-markdown-topic.md)**
 
-- **[Gérer les paramètres prédéfinis de sortie globaux et de profil de dossier](web-editor-manage-output-presets.md)**
+- **[Gestion des paramètres prédéfinis de sortie de profil global et de dossier](web-editor-manage-output-presets.md)**
 
-- **[Publication basée sur des articles à partir de l’éditeur web](web-editor-article-publishing.md)**
+- **[Publication d’articles à partir de l’éditeur web](web-editor-article-publishing.md)**
 
 - **[Utilisez le panneau Génération rapide pour générer et afficher la sortie](web-editor-quick-generate-panel.md)**
 
-- **[Traduire des documents à partir de l’éditeur Web](translate-documents-web-editor.md)**
+- **[Traduire des documents à partir de l’éditeur web](translate-documents-web-editor.md)**
 
-- **[Créer et gérer des lignes de base à partir de l’éditeur web](web-editor-baseline.md)**
+- **[Créer et gérer des lignes de base à partir de l&#39;éditeur Web](web-editor-baseline.md)**
 
 - **[État du document](web-editor-document-states.md)**
 
-- **[Utiliser des étiquettes](web-editor-use-label.md)**
+- **[Utiliser des libellés](web-editor-use-label.md)**
 
 
-**Rubrique parente :**[ Créez du contenu à l’aide d’AEM Guides](authoring-content-xml-doc.md)
+**Rubrique parente :**[ créer du contenu à l’aide d’AEM Guides](authoring-content-xml-doc.md)

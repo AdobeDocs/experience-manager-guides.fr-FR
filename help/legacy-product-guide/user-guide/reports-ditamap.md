@@ -1,26 +1,28 @@
 ---
-title: Rapport de mappage DITA à partir du tableau de bord de mappage
-description: Générez des rapports de mappage DITA à partir du tableau de bord de mappage dans AEM Guides. Découvrez comment générer le fichier CSV d’un rapport de mappage DITA.
+title: Rapport DITA map à partir du tableau de bord du mappage
+description: Générez des rapports de mappage DITA à partir du tableau de bord de mappage dans AEM Guides. Découvrez comment générer le fichier CSV d'un rapport DITA map.
 feature: Report Generation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 044fb5df-166d-44a2-9ed6-6db47e4f125e
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 0%
 
 ---
 
-# Rapport de mappage DITA à partir du tableau de bord de mappage {#id205BB800EEN}
+# Rapport DITA map à partir du tableau de bord du mappage {#id205BB800EEN}
 
-AEM Guides fournit à vos administrateurs des fonctionnalités de reporting pour vérifier l’intégrité globale de la documentation avant qu’elle ne soit publiée ou mise à la disposition des utilisateurs finaux. Le rapport de mappage DITA du tableau de bord de mappage dans AEM Guides fournit des informations précieuses telles que les rubriques manquantes, les rubriques avec des éléments manquants, l’UUID des rubriques et des fichiers multimédias référencés et l’état de révision de chaque rubrique. Un rapport détaillé individuel au niveau de la rubrique fournit également des informations relatives au contenu DITA telles que des références de contenu et des images manquantes ou des références croisées.
+AEM Guides fournit à vos administrateurs les fonctionnalités de création de rapports nécessaires pour vérifier l’intégrité globale de la documentation avant qu’elle ne soit mise en ligne ou mise à la disposition des utilisateurs finaux. Le rapport DITA map du tableau de bord des cartes d&#39;AEM Guides fournit des informations précieuses telles que les rubriques manquantes, les rubriques comportant des éléments manquants, l&#39;UUID des rubriques référencées et des fichiers multimédias, ainsi que l&#39;état de révision de chaque rubrique. Un rapport détaillé individuel au niveau de la rubrique fournit également des informations relatives au contenu DITA, telles que des références de contenu, des images manquantes ou des références croisées.
 
 >[!NOTE]
 >
-> AEM Guides actualise ce rapport à chaque événement qui entraîne un changement dans votre fichier de mappage ou lorsque toute référence dans votre fichier de rubrique est mise à jour.
+> AEM Guides actualise ce rapport à chaque événement entraînant une modification de votre fichier de mappage ou lorsqu’une référence de votre fichier de rubrique est mise à jour.
 
-Effectuez les étapes suivantes pour afficher le rapport de mappage DITA :
+Pour afficher le rapport DITA Map, procédez comme suit :
 
-1. Dans l’interface utilisateur d’Assets, accédez au fichier de mappage DITA pour lequel vous souhaitez afficher le rapport, puis cliquez dessus.
+1. Dans l’interface utilisateur d’Assets, accédez au fichier de plan DITA pour lequel vous souhaitez afficher le rapport, puis cliquez dessus.
 
 1. Cliquez sur **Rapports**.
 
@@ -28,70 +30,70 @@ Effectuez les étapes suivantes pour afficher le rapport de mappage DITA :
 
    La page Rapports est divisée en deux parties :
 
-   - **Résumé de la rubrique :**
+   - **Résumé du sujet :**
 
-     Répertorie le résumé global du fichier de mappage sélectionné. En regardant le résumé, vous pouvez rapidement connaître le nombre total de rubriques dans la carte, les rubriques manquantes, le nombre de rubriques comportant des éléments manquants, l’état des rubriques — En version préliminaire, En révision ou En révision.
+     Répertorie le résumé général du fichier de mappage sélectionné. En regardant le Résumé, vous pouvez rapidement connaître le nombre total de sujets dans la carte, les sujets manquants, le nombre de sujets qui ont des éléments manquants, l&#39;état des sujets — En version préliminaire, En révision ou Révisé.
 
-   - **Détails :**
+   - **Détails:**
 
-     Lorsque vous cliquez sur une rubrique, un rapport détaillé de la rubrique sélectionnée s’affiche.
+     Lorsque vous cliquez sur une rubrique, un rapport détaillé de la rubrique sélectionnée s&#39;affiche.
 
      ![](images/detailed-report-uuid.png){width="800" align="left"}
 
-     Les éléments surlignés sous **A**, **B**, **C** et **D** sont décrits ci-dessous :
+     Les éléments mis en évidence sous **A**, **B**, **C** et **D** sont décrits ci-dessous :
 
-      - **Rubrique** : titre de la rubrique spécifiée dans le mappage DITA. Placez le pointeur de la souris sur le titre de la rubrique pour afficher le chemin d’accès complet de la rubrique. S’il existe des problèmes dans la rubrique, tels que des références ou des images manquantes, un point rouge s’affiche avant le titre de la rubrique.
+      - **Rubrique** : titre de la rubrique spécifiée dans le plan DITA. Placez le pointeur de la souris sur le titre de la rubrique pour afficher le chemin d&#39;accès complet de la rubrique. En cas de problèmes dans la rubrique, tels que des références ou des images manquantes, un point rouge s&#39;affiche avant le titre de la rubrique.
 
       - **Nom de fichier** : nom du fichier.
 
-      - **UID** : identifiant unique universelle \(UUID\) du fichier.
+      - **UUID** : identifiant universel unique \(UUID\) du fichier.
 
-      - **Auteur** : utilisateur qui a travaillé en dernier sur cette rubrique.
+      - **Auteur** : dernier utilisateur à avoir travaillé sur ce sujet.
 
-      - **État du document** : état actuel du document - Version préliminaire, En révision ou Révisé.
+      - **État du document** : état actuel du document (brouillon, en cours de révision ou révisé).
 
-      - **Rubriques manquantes \(B\)** : S’il existe des rubriques avec des références rompues, ces rubriques sont répertoriées sous la liste Rubriques manquantes.
+      - **Rubriques manquantes \(B\)** : s’il existe des rubriques dont les références sont rompues, elles sont répertoriées sous la liste Rubriques manquantes .
 
-      - **Éléments manquants** : répertorie le nombre d’images manquantes ou de références croisées rompues, le cas échéant.
+      - **Éléments manquants** : indique le nombre d’images manquantes ou de références croisées rompues, le cas échéant.
 
-      - **Ouvrir dans l’éditeur \(D\)** : cliquer sur cette icône ouvre la rubrique dans l’éditeur web.
+      - **Ouvrir dans l’éditeur \(D\)** : cliquez sur cette icône pour ouvrir la rubrique dans l’éditeur web.
 
 
-   Les éléments surlignés sous **E** sont décrits ci-dessous :
+   Les éléments mis en surbrillance sous **E** sont décrits ci-dessous :
 
-   - **Multimédia** : le chemin des images utilisées dans la rubrique est affiché avec son UUID. Si vous cliquez sur le chemin de l’image, l’image correspondante est ouverte dans une fenêtre contextuelle. Les liens d’image rompus sont répertoriés en rouge.
+   - **Multimédia** : le chemin des images utilisées dans la rubrique s’affiche avec son UUID. Si vous cliquez sur le chemin de l’image, l’image correspondante s’ouvre dans une fenêtre pop-up. Les liens d’image rompus sont répertoriés en rouge.
 
-   - **Références du contenu** : le chemin du contenu référencé dans la rubrique est affiché avec son UUID. Si vous cliquez sur le titre du contenu référencé, la rubrique correspondante est ouverte en mode Aperçu.
+   - **Références de contenu** : le chemin d’accès du contenu référencé dans la rubrique s’affiche avec son UUID. Si vous cliquez sur le titre du contenu référencé, la rubrique correspondante est ouverte en mode Aperçu.
 
-   - **Cross Reference** : le chemin d’accès au contenu référencé croisé s’affiche avec son UUID. Si vous cliquez sur le titre du contenu référencé, la rubrique correspondante est ouverte en mode Aperçu. Les références croisées rompues sont répertoriées en rouge.
+   - **Référence croisée** : le chemin d’accès du contenu référencé s’affiche avec son UUID. Si vous cliquez sur le titre du contenu référencé, la rubrique correspondante est ouverte en mode Aperçu. Les références croisées rompues sont répertoriées en rouge.
 
-   - **Révision** : affiche l’état de la tâche de révision de la rubrique. Vous pouvez voir l’état \(ouverture ou fermeture\), la date d’échéance et la personne désignée pour la rubrique en cours de révision. Si vous cliquez sur le lien de la rubrique, elle s’ouvre en mode de révision.
+   - **Révision** : affiche le statut de la tâche de révision de la rubrique. Vous pouvez voir le statut \(ouvert ou fermé\), la date d’échéance et la personne désignée pour la rubrique en cours de révision. Si vous cliquez sur le lien de la rubrique, celle-ci s’ouvre en mode Révision.
 
-   - **Utilisé dans** : affiche une liste d’autres rubriques ou mappages où la rubrique est utilisée. L’UUID de toutes ces rubriques et cartes est également répertorié.
+   - **Utilisé dans** : affiche une liste d’autres rubriques ou mappages dans lesquels la rubrique est utilisée. L&#39;UUID de toutes ces rubriques et cartes est également répertorié.
 
-Outre le rapport pour chaque rubrique, les administrateurs ont également accès à des informations telles que l’historique de publication d’un mappage DITA. Pour plus d’informations sur l’historique des sorties générées, voir [Affichage de l’état de la tâche de génération de sortie](generate-output-for-a-dita-map.md#viewing_output_history).
+Outre le rapport de chaque rubrique, les administrateurs ont également accès à des informations telles que l&#39;historique de publication d&#39;un plan DITA. Pour plus d&#39;informations sur l&#39;historique des sorties générées, voir [Afficher l&#39;état de la tâche de génération des sorties](generate-output-for-a-dita-map.md#viewing_output_history).
 
-## Génération du fichier CSV du rapport de mappage DITA
+## Générer le CSV du rapport de plan DITA
 
-Vous pouvez télécharger et exporter le fichier CSV d’un rapport de mappage DITA. Le fichier CSV contient le rapport de mappage DITA détaillé.
+Vous pouvez télécharger et exporter le fichier CSV d&#39;un rapport DITA map. Le fichier CSV contient le rapport détaillé de plan DITA.
 
-Effectuez les étapes suivantes pour générer le fichier CSV d’un rapport de mappage DITA :
+Effectuez les étapes suivantes pour générer le fichier CSV d&#39;un rapport DITA map :
 
-1. Cliquez sur **Générer le rapport** en haut à gauche pour générer le rapport de mappage DITA.
+1. Cliquez sur **Générer le rapport** en haut à gauche pour générer le rapport DITA map.
 
    ![](images/generate-DITA-map-report.png){width="800" align="left"}
 
-1. Une fois le rapport prêt à être téléchargé, vous recevrez une notification. Cliquez sur **Télécharger** pour télécharger le fichier CSV du rapport généré.
+1. Vous recevrez une notification une fois que le rapport sera prêt à être téléchargé. Cliquez sur **Télécharger** pour télécharger le fichier CSV du rapport généré.
 
    ![](images/download-report-dialog.png){width="550" align="left"}
 
 
-   Vous pouvez également télécharger le fichier CSV du rapport généré ultérieurement à partir de la boîte de réception de notification AEM.
+   Vous pouvez également télécharger ultérieurement le fichier CSV du rapport généré à partir de la boîte de réception de notifications d’AEM.
 
-   Cliquez sur le rapport généré dans la boîte de réception pour télécharger le rapport.
+   Cliquez sur le rapport généré dans la boîte de réception pour le télécharger.
 
    ![](images/report-inbox--notification.png){width="300" align="left"}
 
-Une fois le rapport téléchargé dans la boîte de réception, vous pouvez également le sélectionner et utiliser l’icône Ouvrir dans la partie supérieure pour ouvrir le rapport sélectionné.
+Une fois le rapport téléchargé dans la boîte de réception, vous pouvez également sélectionner le rapport et utiliser l’icône Ouvrir en haut pour ouvrir le rapport sélectionné.
 
 **Rubrique parente :**[ Rapports](reports-intro.md)

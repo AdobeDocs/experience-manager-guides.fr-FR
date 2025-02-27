@@ -3,8 +3,9 @@ title: Tutoriels pour Experience Manager Guides
 description: Recherchez des tutoriels vidéo pour Experience Manager Guides (anciennement XML Documentation for Adobe Experience Manager). Découvrez la prise en charge native de DITA et la création structurée dans Experience Manager.
 feature: AEM Guides Tutorials
 role: User
+hide: true
 exl-id: de7bda03-371b-4414-846b-86787f98fda8
-source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 2%

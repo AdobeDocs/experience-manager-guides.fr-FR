@@ -4,9 +4,9 @@ user-guide-description: Lisez la documentation du produit pour Adobe Experience 
 breadcrumb-title: Documentation d’AEM Guides
 hide: true
 badgeAll: label="Ancien guide de l’interface utilisateur - Plus d’informations" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Ancien guide de l’interface utilisateur"
-source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '573'
 ht-degree: 4%
 
 ---
@@ -46,6 +46,8 @@ ht-degree: 4%
                - [Vues de l’éditeur web](./user-guide/web-editor-views.md)
                - [Prise en charge des fichiers Schematron](./user-guide/support-schematron-file.md)
                - [Suggestions intelligentes optimisées par l’IA pour créer du contenu](./user-guide/authoring-ai-based-smart-suggestions.md)
+               - [Aide intelligente optimisée par l’IA pour rechercher du contenu](./user-guide/ai-based-smart-help.md)
+               - [Assistant d’IA pour créer des documents avec une efficacité intelligente](./user-guide/ai-assistant-right-panel.md)
                - [Créer des documents Markdown à partir de l’éditeur web](./user-guide/web-editor-markdown-topic.md)
                - [Ajouter des citations à votre contenu](./user-guide/web-editor-apply-citations.md)
                - [Utiliser des données provenant de vos sources de données](./user-guide/web-editor-content-snippet.md)
@@ -117,6 +119,7 @@ ht-degree: 4%
       - [Résolution des problèmes de base](./user-guide/generate-output-basic-troubleshooting.md)
       - [Publier des fragments de contenu](./user-guide/publish-content-fragment.md)
       - [Publier des fragments d’expérience](./user-guide/publish-experience-fragment.md)
+      - [Publication de pages AEM Sites](./user-guide/publish-aem-sites.md)
       - Activation en masse des {#bulk-activation} de contenu
          - [Activation en bloc du contenu publié](./user-guide/conf-bulk-activation.md)
          - [Créer une collection de mappages d’activation en bloc](./user-guide/conf-bulk-activation-create-map-collection.md)
