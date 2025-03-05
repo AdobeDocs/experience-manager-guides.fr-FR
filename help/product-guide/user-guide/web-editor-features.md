@@ -4,9 +4,9 @@ description: Découvrez les fonctionnalités de l’éditeur dans Adobe Experien
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: 236947dc7dd01d4f232058a98dcd2db99031c267
 workflow-type: tm+mt
-source-wordcount: '18656'
+source-wordcount: '18661'
 ht-degree: 0%
 
 ---
@@ -1253,7 +1253,7 @@ Lorsque vous ouvrez une carte dans la vue Carte, le titre de la carte en cours e
 
 Lorsque vous définissez des attributs de clé pour les références de rubrique ou de mappage, vous pouvez afficher le titre, l’icône correspondante et la clé dans le panneau de gauche. La clé s’affiche sous la forme `keys=<key-name>`.
 
-![clés en vue carte](images/view-key-title-map-view.png){width="300" align="left"}
+![Clés en mode Carte](images/view-key-title-map-view.png){width="300" align="left"}
 
 Si vous disposez de droits de modification sur les fichiers de carte, vous pourrez également modifier les fichiers. Pour plus d&#39;informations sur l&#39;ouverture et la modification d&#39;une rubrique via un plan DITA, consultez la section [Modifier des rubriques via un plan DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
@@ -1265,7 +1265,7 @@ Les options suivantes sont disponibles pour un fichier de mappage dans la vue Ca
 
 Vous pouvez effectuer les actions suivantes à l’aide du menu Options du fichier de mappage :
 
-![](images/options-menu-map-view_cs.png){width="800" align="left"}
+![Menu Options en vue Carte](images/options-menu-map-view_cs.png){width="800" align="left"}
 
 - **Modifier** : ouvrez le fichier de mappage pour le modifier dans l’éditeur de mappages.
 
