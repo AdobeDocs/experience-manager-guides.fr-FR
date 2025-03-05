@@ -4,9 +4,9 @@ description: Découvrez les fonctionnalités de l’éditeur dans Adobe Experien
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 236947dc7dd01d4f232058a98dcd2db99031c267
+source-git-commit: 52b94c662f04499644f2806255521b3e68da1910
 workflow-type: tm+mt
-source-wordcount: '18661'
+source-wordcount: '18660'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Un outil puissant et piloté par l’IA conçu pour améliorer votre productivit
 
 >[!NOTE]
 >
-> La fonctionnalité Assistant AI est actuellement disponible pour Adobe Experience Manager Guides as a Cloud Service.
+>La fonctionnalité Assistant AI est actuellement disponible pour Adobe Experience Manager Guides as a Cloud Service.
 
 **Développer la vue** : permet de développer la page vue à l’aide de l’icône **Développer**. Dans cet affichage, la barre d’en-tête contenant le logo Adobe Experience Manager est masquée. L’espace de contenu à modifier est ainsi optimisé. Pour revenir à la vue standard, utilisez l’icône **Quitter la vue développée**.
 
@@ -190,6 +190,7 @@ Dans la capture d’écran suivante, seuls 3 des 4 éléments configurés de la 
       - Sélectionnez **Enregistrer**.
 
      Une fois que vous avez configuré l’application, créez le profil **ServiceNow**.
+
    - Pour créer un profil, sélectionnez la base de connaissances ServiceNow dans le menu déroulant **Type de serveur**. Saisissez un profil **Nom**. Dans l’URL **ServiceNow**, saisissez le site client que vous utiliseriez pour publier la sortie, puis ajoutez les **Nom d’utilisateur** et **Mot de passe** fournis par le site client ServiceNow. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
 
      ![Profil de publication ServiceNow ](./images/service-now-publish-profile.png){width="550" align="left"}
@@ -204,6 +205,7 @@ Dans la capture d’écran suivante, seuls 3 des 4 éléments configurés de la 
    - **Exécuter la vérification de validation avant d’enregistrer le fichier** : sélectionnez cette option pour exécuter les validations Schematron à l’aide du ou des fichiers Schematron sélectionnés avant toute opération d’enregistrement. Vous pouvez ajouter un fichier de schéma en sélectionnant l’icône + . Le ou les fichiers Schematron sélectionnés sont répertoriés.
 
      >[!NOTE]
+     >
      >Le ou les fichiers de schéma sélectionnés seront conservés pour le profil de dossier sélectionné.
 
      ![Validation dans les paramètres de l’éditeur](./images/editor-setting-validation.png){width="550" align="left"}
@@ -223,18 +225,21 @@ Dans la capture d’écran suivante, seuls 3 des 4 éléments configurés de la 
 
   ![](images/editor-setting-translation.png){width="550" align="left"}
 
-   - **Groupes de langues** : en tant qu’administrateur, vous pouvez créer un groupe de langues et les utiliser comme un ensemble pour traduire le contenu.\
+   - **Groupes de langues** : en tant qu’administrateur, vous pouvez créer un groupe de langues et les utiliser comme un ensemble pour traduire le contenu.
+
      Pour créer un groupe de langues, procédez comme suit :
+
       1. Sélectionnez **Ajouter**.
       1. Saisissez le nom du groupe linguistique. Chaque langue doit avoir un nom unique. Vous pouvez voir une erreur si le champ du nom est vide ou si le nom n’est pas unique.
       1. Sélectionnez les langues dans la liste déroulante. Vous pouvez sélectionner plusieurs langues.
 
-     Saisissez les premiers caractères de la langue ou le code de langue pour filtrer les langues souhaitées. Par exemple, saisissez « en » pour filtrer toutes les langues qui contiennent « en » au début de leur nom ou de leur code.
+         Saisissez les premiers caractères de la langue ou le code de langue pour filtrer les langues souhaitées. Par exemple, saisissez « en » pour filtrer toutes les langues qui contiennent « en » au début de leur nom ou de leur code.
+
       1. Sélectionnez l’icône Terminé pour ajouter les langues sélectionnées au groupe. Les langues s’affichent. Lorsque vous ajoutez trois langues ou plus, l’option **Afficher plus** s’affiche. Vous pouvez sélectionner **Afficher plus** pour afficher toutes les langues présentes dans le groupe.
 
          >[!TIP]
          >
-         > Activez le bouton (bascule) **Afficher plus** pour **Afficher moins** et afficher uniquement quelques langues.
+         >Activez le bouton (bascule) **Afficher plus** pour **Afficher moins** et afficher uniquement quelques langues.
 
       1. Pointez sur les langues d’un groupe pour modifier ![icône de modification](images/edit_pencil_icon.svg) ou supprimer ![supprimer](images/Delete_icon.svg) les groupes de langues.
       1. Enregistrez le **Paramètres**.
@@ -296,7 +301,7 @@ La fonction **Rechercher et remplacer** est disponible dans les modes d’affich
 
 ![](images/find-replace-bar.png){width="800" align="left"}
 
-À l’aide de l’icône de paramètres \(![](images/settings-find-replace-icon.svg)\), vous pouvez activer ou désactiver les options de recherche **Ignorer la casse** et **Mot entier uniquement**. Pour effectuer une recherche qui ne respecte pas la casse, activez l’option **Ignorer la casse** en \(ou sélectionnez\). Sinon, si vous souhaitez effectuer une recherche sensible à la casse, désactivez l’option **Ignorer la casse**. Vous pouvez également choisir de rechercher un mot entier.
+À l’aide de l’icône de paramètres \(![](images/settings-find-replace-icon.svg)\), vous pouvez activer ou désactiver les options de recherche **Ignorer la casse** et **Mot entier uniquement**. Pour effectuer une recherche qui ne respecte pas la casse, activez (ou sélectionnez) l’option **Ignorer la casse**. Sinon, si vous souhaitez effectuer une recherche sensible à la casse, désactivez (ou désélectionnez) l’option **Ignorer la casse**. Vous pouvez également choisir de rechercher un mot entier.
 
 La recherche est instantanée, ce qui signifie que lorsque vous saisissez l’expression ou le mot à rechercher dans le champ **Rechercher**, le terme est immédiatement recherché et sélectionné dans le sujet. De même, pour remplacer un texte dans votre rubrique, saisissez le terme de recherche et son remplacement dans les champs respectifs et sélectionnez le bouton **Remplacer** ou **Tout remplacer**.
 
@@ -364,7 +369,7 @@ Pour accéder à l’historique des versions et revenir à une version spécifiq
 
 **Libellés de version**
 
-Les libellés vous permettent d’identifier l’étape à laquelle une rubrique spécifique se trouve dans le DDLC \(cycle de vie du développement de document\). Par exemple, lorsque vous travaillez sur une rubrique, vous pouvez définir le libellé comme « Approuvé ». Une fois qu’une rubrique est publiée et mise à la disposition des clients, vous pouvez lui attribuer le libellé « Publié ».
+Les libellés vous permettent d’identifier l’étape à laquelle une rubrique spécifique se trouve dans le cycle de vie du développement de documents (DDLC). Par exemple, lorsque vous travaillez sur une rubrique, vous pouvez définir le libellé comme « Approuvé ». Une fois qu’une rubrique est publiée et mise à la disposition des clients, vous pouvez lui attribuer le libellé « Publié ».
 
 Experience Manager Guides vous permet de spécifier des libellés dans un format de texte libre ou d’utiliser un ensemble de libellés prédéfinis. Le libellé personnalisé permet à tout auteur ou autrice du système de spécifier un libellé en fonction de son choix. Cela donne de la flexibilité ; cependant, cela introduit des libellés incohérents dans le système. Pour résoudre ce problème, les administrateurs et administratrices peuvent configurer un ensemble de libellés prédéfinis. Pour plus d’informations sur la configuration des libellés prédéfinis, consultez *Configuration et personnalisation de l’éditeur web XML* dans la section Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
 
@@ -1865,9 +1870,9 @@ Pour effectuer la recherche globale et le remplacement, procédez comme suit :
 
 Pour activer l’icône **Tout remplacer**, votre administrateur système doit sélectionner l’option **Activer tout remplacer** sous l’onglet **Général** dans **Paramètres**.
 
-    >[!REMARQUE]
-    >
-    > Survolez un fichier de la liste des résultats de recherche pour afficher l’icône Tout remplacer dans le fichier située à droite. Vous obtenez également l’icône Ignorer le fichier pour supprimer le fichier des résultats de recherche. Les fichiers que vous ignorez sont supprimés de la liste et le terme recherché n’y est pas remplacé.
+>[!NOTE]
+>
+> Passez la souris sur un fichier de la liste des résultats de recherche pour afficher l’icône Tout remplacer dans le fichier située à droite. Vous obtenez également l’icône Ignorer le fichier pour supprimer le fichier des résultats de recherche. Les fichiers que vous ignorez sont supprimés de la liste et le terme recherché n’y est pas remplacé.
 
 Une seule opération de remplacement complet peut être effectuée à la fois dans l&#39;ensemble du système, et tant que l&#39;opération n&#39;est pas exécutée, vous verrez l&#39;état « Remplacer tout en cours ». Vous pouvez également abandonner l’opération de remplacement de tous les éléments entre les deux ou consulter le rapport de journal. Si vous abandonnez l’opération, vous recevrez une notification à ce sujet dans votre boîte de réception. Une notification de succès s’affichera après le remplacement de toutes les occurrences dans le fichier sélectionné.
 
