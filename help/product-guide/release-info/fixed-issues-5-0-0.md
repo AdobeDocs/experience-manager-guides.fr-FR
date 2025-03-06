@@ -1,21 +1,21 @@
 ---
-title: Notes de mise à jour | Correction de problèmes dans Adobe Experience Manager Guides, version 2025.02.0
-description: Découvrez les correctifs de bugs de la version 2025.02.0 d’Adobe Experience Manager Guides as a Cloud Service.
-exl-id: e7dec4a2-e11a-4b78-8111-a331d20ce73d
-source-git-commit: 09283ab7c76eca669b30ec92923456c11d53a10b
+title: Notes de mise à jour | Correction de problèmes dans Adobe Experience Manager Guides version 5.0.0
+description: Découvrez les correctifs de la version 5.0.0 d’Adobe Experience Manager Guides.
+source-git-commit: 5ae05935d254b03ad99221bd5f65dbb6a3580c5f
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1246'
 ht-degree: 1%
 
 ---
 
-# Correction de problèmes dans la version 2025.02.0
+# Correction de problèmes dans la version 5.0.0 (mars 2025)
 
-Cet article couvre les bugs corrigés dans différentes zones de la version 2025.02.0 d’Adobe Experience Manager Guides as a Cloud Service.
+Cet article couvre les bugs corrigés dans différentes zones de la version 5.0.0 d’Adobe Experience Manager Guides.
 
-Pour plus d’informations sur les nouvelles fonctionnalités et améliorations, voir la section [Nouveautés de la version 2025.02.0](whats-new-2025-02-0.md).
 
-Découvrez les [instructions de mise à niveau pour la version 2025.02.0](upgrade-instructions-2025-02-0.md).
+Pour plus d’informations sur les nouvelles fonctionnalités et améliorations, voir la section [Nouveautés de la version 5.0.0](whats-new-5-0-0.md).
+
+Découvrez les instructions de mise à niveau de la version [.0.0](upgrade-instructions-5-0-0.md).
 
 
 ## Création
@@ -62,16 +62,13 @@ Découvrez les [instructions de mise à niveau pour la version 2025.02.0](upgrad
 
 ## Gestion
 
-- Des fuites de ressources se produisent en raison d’erreurs Unclosed **ResourceResolver** dans les journaux. (18488)
 - Le titre et l’icône de la boîte de dialogue **Forcer la suppression** sont mal alignés dans l’interface utilisateur d’Assets. (21933)
 - Lorsqu’un fichier JSON est mis à jour dans le profil de dossier pour la configuration de l’éditeur XML, l’opération d’enregistrement interrompt la configuration de l’éditeur XML. (22414)
 - Lors de la duplication d’un profil de dossier, sa liste d’utilisateurs administrateurs est également copiée à partir du profil de dossier d’origine. (19067)
 - Lors du déplacement de dossiers volumineux (contenant un grand volume de contenu DITA, jusqu’à 200 000 éléments) à partir de l’interface utilisateur d’Assets, une erreur se produit. (20107)
-- Lorsque vous utilisez le titre dynamique avec `<conkeyref>`, il n’est pas résolu correctement dans la liste **Guides Report Topic**. (20144)
 - La modification du profil **Dossier** avec Unified Shell activé entraîne l’affichage d’une interface utilisateur vide. (22212)
 - Lors de la suppression de dossiers contenant un grand nombre de fichiers, l’opération échoue. (17107)
 - Lorsque vous annulez/supprimez la tâche de traduction ou supprimez le projet, le tableau de bord de traduction affiche le statut **En cours**. (18417)
-- Lorsque vous activez unified shell pour une instance cloud, l’aperçu de la rubrique ne s’ouvre pas depuis le tableau de bord de carte. (18826)
 - Lorsque vous envoyez simultanément deux versions d’une rubrique non traduite à l’aide d’une traduction non héritée et que vous approuvez la seconde version avant la première, le projet de traduction avec la première version est rompu. (22200)
 
 
@@ -87,18 +84,20 @@ Découvrez les [instructions de mise à niveau pour la version 2025.02.0](upgrad
 
 ## Problèmes connus
 
-Adobe a identifié les problèmes connus suivants pour la version 2025.02.0 :
+Adobe a identifié les problèmes connus suivants pour la version 5.0.0 :
 
+- Dans certains cas, la fonctionnalité de verrouillage des fichiers CSS ne fonctionne pas comme prévu, ce qui permet à d’autres utilisateurs de modifier et d’enregistrer les fichiers même s’ils sont verrouillés par un autre utilisateur.
+- Impossible de quitter la vue de la console Mappage lorsque la ligne de base est incorrecte avec l’enregistrement automatique activé.
+- L’application de modifications de paramètres prédéfinis ne se répercute pas sur les paramètres prédéfinis déjà créés dans la carte si le nom du paramètre prédéfini comporte des caractères majuscules.
+- La position de la couleur d’arrière-plan est mal alignée dans l’interface utilisateur du panneau de **Condition**.
+- Lorsque vous utilisez une image comme `<keyref>`, le **Type de référence** de l’image n’est pas affiché dans le **Rapport multimédia**.
 - Lorsque vous utilisez des images en tant que variables dans le modèle PDF, elles ne sont pas résolues dans la sortie.
-- La fonctionnalité **Localiser dans le référentiel** ne fonctionne pas lors de la première ouverture de l’éditeur de guides, mais commence à fonctionner comme prévu après l’actualisation du navigateur.
 - Dans les rapports **Liste des rubriques**, le tri par titre échoue pour les ressources dont le titre contient `<conref>` ou `<conkeyref>`, ce qui fait que ces entrées apparaissent toujours en haut.
 - Le changement de profil de dossier ne reflète pas immédiatement les modifications apportées à l’interface utilisateur sans actualiser le navigateur.
-- Les personnalisations de la structure d’extension effectuées avant la version Guides 2025.02.x.x peuvent ne pas fonctionner comme prévu.
+- Les personnalisations de la structure d’extension effectuées avant Guides 5.0.0 peuvent ne pas fonctionner comme prévu.
 - La table des matières complète de la carte n’est pas mise à jour lors de la publication sélective de rubriques de la carte.
 - La publication d’un mappage contenant un fichier Markdown avec des références d’image internes échoue sur les serveurs Windows.
 - La conversion de la liste à puces en liste numérotée en Markdown échoue.
 - La publication sur un site AEM natif échoue lorsque les fichiers Markdown sont référencés dans une carte.
-- La position de la couleur d’arrière-plan est mal alignée dans l’interface utilisateur du panneau de **Condition**.
-- Lorsque vous utilisez une image comme `<keyref>`, le **Type de référence** de l’image n’est pas affiché dans le **Rapport multimédia**.
-- Dans certains cas, la fonctionnalité de verrouillage des fichiers CSS ne fonctionne pas comme prévu, ce qui permet à d’autres utilisateurs de modifier et d’enregistrer les fichiers même s’ils sont verrouillés par un autre utilisateur.
-- L’application de modifications de paramètres prédéfinis ne se répercute pas sur les paramètres prédéfinis déjà créés dans la carte si le nom du paramètre prédéfini comporte des caractères majuscules.
+
+

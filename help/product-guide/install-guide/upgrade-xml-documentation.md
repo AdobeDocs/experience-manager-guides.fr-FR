@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: d63a5983409467bc036d6f17677df51019d1f39c
+source-git-commit: de79a2d63328fc6142b475a776dafd7e6d12f911
 workflow-type: tm+mt
-source-wordcount: '7012'
+source-wordcount: '8018'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,14 @@ ht-degree: 0%
 >
 > Suivez les instructions de mise à niveau spécifiques à la version sous licence de votre produit.
 
-Vous pouvez mettre à niveau votre version actuelle de Experience Manager Guides vers la version 4.6.0 Service Pack 3 :
+Vous pouvez mettre à niveau votre version actuelle de Experience Manager Guides vers la version 5.0.0 :
 
 
-- Si vous utilisez la version 4.6.0 ou 4.6.0 Service Pack 1, vous pouvez directement mettre à niveau vers 4.6.0 Service Pack 3.
-- Si vous utilisez la version 4.4, 4.3.1 ou 4.3.0 , vous devez effectuer une mise à niveau vers la version 4.6.0.
-- Si vous utilisez la version 4.2, 4.2.1 (correctif 4.2.1.3), 4.1 ou 4.1.x, vous devez effectuer la mise à niveau vers la version 4.4 avant la mise à niveau vers la version 4.6.0.
+- Si vous utilisez la version 4.6.3, 4.6.1, 4.6 ou 4.4, vous pouvez directement effectuer la mise à niveau vers la version 5.0.0.
+- Si vous utilisez la version 4.3.x, 4.2, 4.2.1 (correctif 4.2.1.3), 4.1 ou 4.1.x, vous devez effectuer la mise à niveau vers la version 4.4 avant d’effectuer la mise à niveau vers la version 5.0.0.
 - Si vous utilisez la version 4.0, vous devez effectuer la mise à niveau vers la version 4.2 avant d’effectuer la mise à niveau vers la version 4.3.x.
 - Si vous utilisez la version 3.8.5, vous devez effectuer la mise à niveau vers la version 4.0 avant de passer à la version 4.2.
-- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive du PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 >[!NOTE]
@@ -35,14 +34,15 @@ Vous pouvez mettre à niveau votre version actuelle de Experience Manager Guides
 
 Pour plus d’informations, reportez-vous aux procédures suivantes :
 
-- [Mise à niveau de 3.8.5 vers la version 4.0](#id2256DK003E1)
-- [Mise à niveau vers la version 4.2](#id22A3F500SXA)
-- [Mise à niveau vers la version 4.2.1](#upgrade-version-4-2-1)
-- [Mise à niveau vers la version 4.3.0](#upgrade-version-4-3)
-- [Mise à niveau vers la version 4.3.1](#upgrade-version-4-3-1)
-- [Mettre à niveau vers la version 4.3.1.5](#upgrade-version-4-3-1-5)
-- [Mise à niveau vers la version 4.4.0](#upgrade-version-4-4-0)
-- [Mise à niveau vers la version 4.6.0](#upgrade-version-4-6-0)
+- [Mise à niveau de 3.8.5 vers la version 4.0](#upgrade-from-version-385-to-version-40)
+- [Mise à niveau vers la version 4.2](#upgrade-to-version-42)
+- [Mise à niveau vers la version 4.2.1](#upgrade-to-version-421)
+- [Mise à niveau vers la version 4.3.0](#upgrade-to-version-430)
+- [Mise à niveau vers la version 4.3.1](#upgrade-to-version-431)
+- [Mettre à niveau vers la version 4.3.1.5](#upgrade-to-version-4315)
+- [Mise à niveau vers la version 4.4.0](#upgrade-to-version-440)
+- [Mise à niveau vers la version 4.6.0](#upgrade-to-version-460)
+- [Mise à niveau vers la version 5.0.0](#upgrade-to-version-500)
 
 
 
@@ -50,7 +50,7 @@ Pour plus d’informations, reportez-vous aux procédures suivantes :
 >
 > Avant de commencer la mise à niveau, effectuez une sauvegarde complète du système pour éviter toute perte de données.
 
-## Mise à niveau de la version 3.8.5 vers la version 4.0 {#id2256DK003E1}
+## Mise à niveau de la version 3.8.5 vers la version 4.0
 
 Si vous utilisez Experience Manager Guides version 3.8.5, vous pouvez effectuer une mise à niveau vers la version 4.0 de Experience Manager Guides. Avec la fonction de mise à niveau, vous n’avez pas à désinstaller la version précédente de Experience Manager Guides.
 
@@ -58,7 +58,7 @@ Avant d’exécuter le processus, vous devez effectuer certaines tâches. Les so
 
 >[!NOTE]
 >
-> Ce processus de mise à niveau s’applique uniquement de la version 3.8.5 à la version 4.0. Pour le processus de mise à niveau de la version 3.4 ou ultérieure vers la version 3.8.5, reportez-vous à la section *Mettre à niveau Experience Manager Guides* du guide d’installation spécifique au produit disponible dans l’archive du PDF d’aide d’Adobe Experience Manager Guides [](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+> Ce processus de mise à niveau s’applique uniquement de la version 3.8.5 à la version 4.0. Pour le processus de mise à niveau de la version 3.4 ou ultérieure vers la version 3.8.5, reportez-vous à la section *Mettre à niveau Experience Manager Guides* du guide d’installation spécifique au produit disponible sur [l’archive PDF de l’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 
@@ -76,8 +76,8 @@ Avant de commencer le processus de mise à niveau de Experience Manager Guides, 
 Avant d’installer la version 4.0, procédez comme suit :
 
 1. Assurez-vous à ce stade que Experience Manager Guides est sur la version 3.8.5.
-1. Téléchargez le package de script de mise à niveau. Pour ce faire, recherchez « Package de mise à niveau de la solution XML Documentation 4.0 » sur le portail de distribution de logiciels d’Adobe [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) qui téléchargera un fichier zip.
-1. Téléchargez ce package vers AEM via le gestionnaire de packages et installez-le.
+1. Téléchargez le package de script de mise à niveau. Pour ce faire, recherchez « Package de mise à niveau de la solution XML Documentation 4.0 » sur [le portail de distribution de logiciels Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) qui téléchargera un fichier zip.
+1. Téléchargez ce package dans AEM via le gestionnaire de packages et installez-le.
 1. Une fois le package de mise à niveau installé, exécutez les scripts donnés ci-dessous dans le même ordre et suivez les instructions données :
 
 **Vérifier l’API de compatibilité de mise à niveau**
@@ -98,7 +98,7 @@ Cette API est conçue pour migrer les données système comme indiqué dans la s
 
 | Point d’entrée | /bin/dxml/upgrade/3xto4x |
 | --- | --- |
-| Type de demande | **POST** ce script est une demande de POST et doit donc être exécuté via des agents tels que Postman. |
+| Type de demande | **POST** Ce script est une requête POST et doit donc être exécuté par des agents tels que Postman. |
 | Réponse attendue | -   Une fois la migration réussie, vous pouvez installer la solution XML Documentation version 4.0.<br>-   En cas d’erreur, restaurez le dernier point de contrôle et partagez les journaux d’erreurs ainsi que la sortie de l’API avec votre équipe du succès client. |
 
 **Mappage de migration** : l’API ci-dessus migre toutes les données de l’emplacement source vers l’emplacement cible.
@@ -112,10 +112,10 @@ Cette API est conçue pour migrer les données système comme indiqué dans la s
 ## Installation version 4.0 {#id23598G006XA}
 
 1. Installez la version 4.0 uniquement si les étapes de mise à niveau ont réussi.
-1. Téléchargez le package de la version 4.0 à partir du portail de distribution de logiciels d’Adobe [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) :
+1. Téléchargez le package de la version 4.0 à partir du portail de distribution logicielle [Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) :
 
    - Si vous utilisez la version UUID du logiciel, recherchez « Version UUID 4.0 pour la solution XML Documentation pour AEM 6.5 ».
-   - Si vous utilisez une version non-UUID du logiciel, recherchez « Version 4.0 non-UUID pour XML Documentation solution for AEM 6.5 ».
+   - Si vous utilisez une version non UUID du logiciel, recherchez « Version 4.0 non UUID pour XML Documentation solution for AEM 6.5 ».
 Téléchargez le package sur la ou les instances de serveur AEM existantes à l’aide du gestionnaire de packages CRX et installez-le.
 
    >[!NOTE]
@@ -129,7 +129,7 @@ Téléchargez le package sur la ou les instances de serveur AEM existantes à l�
    - Le modèle d’URL /libs/cq/security/userinfo.json n’est pas mis en cache.
 1. Effacez le cache du Dispatcher \(pour effacer tout `clientlibs` mis en cache\).
 
-## Mise à niveau vers la version 4.2 {#id22A3F500SXA}
+## Mise à niveau vers la version 4.2
 
 La mise à niveau vers la version 4.2 dépend de la version actuelle de Experience Manager Guides.
 
@@ -149,7 +149,7 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 
 ## Installer la version 4.2 {#id2245IK0E0EV}
 
-1. Téléchargez le package de la version 4.2 à partir du portail de distribution de logiciels d’Adobe [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 4.2 à partir du portail de distribution logicielle [Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de la version 4.2.
 1. Une fois l’installation du package terminée, attendez le(s) message(s) suivant(s) dans les journaux :
 
@@ -250,13 +250,13 @@ Après avoir installé Experience Manager Guides, vous pouvez fusionner les diff
 
 Effectuez les étapes suivantes pour indexer le contenu existant et utiliser le nouveau texte de recherche et de remplacement au niveau du mappage :
 
-- Exécutez une demande de POST sur le serveur \(avec l’authentification correcte\) - `http://<server:port\>/bin/guides/map-find/indexing`. \(Facultatif) Vous pouvez transmettre des chemins spécifiques des mappages pour les indexer. Par défaut, tous les mappages sont indexés \|\| Par exemple : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
+- Exécutez une requête POST au serveur \(avec l’authentification correcte\) - `http://<server:port\>/bin/guides/map-find/indexing`. \(Facultatif) Vous pouvez transmettre des chemins spécifiques des mappages pour les indexer. Par défaut, tous les mappages sont indexés \|\| Par exemple : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
 
-- L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une demande de GET avec l’ID de tâche au même point d’entrée -
+- L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée -
 
 `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Par exemple : `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
-- Une fois la tâche terminée, la requête de GET ci-dessus répond avec succès et mentionne si des mappages ont échoué. Les mappages indexés avec succès peuvent être confirmés à partir des journaux du serveur.
+- Une fois la tâche terminée, la requête GET ci-dessus répond avec succès et mentionne si des mappages ont échoué. Les mappages indexés avec succès peuvent être confirmés à partir des journaux du serveur.
 
 Si la tâche de mise à niveau échoue et que le journal des erreurs affiche l’erreur suivante :
 
@@ -299,7 +299,7 @@ et attendez qu’il soit à nouveau `false` (cela indique que la réindexation e
 1. Exécutez à nouveau le script d’indexation en suivant les étapes précédentes.
 
 
-## Mise à niveau vers la version 4.2.1 {#upgrade-version-4-2-1}
+## Mise à niveau vers la version 4.2.1
 
 >[!TIP]
 >
@@ -325,9 +325,9 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 
 ## Installation de la version 4.2.1
 
-1. Téléchargez le package de la version 4.2.1 à partir du portail de distribution de logiciels d’Adobe [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 4.2.1 à partir du portail de distribution logicielle [Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de la version 4.2.1.
-1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-serverlet).
+1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet-for-421).
 
 
 1. Une fois l’installation du package terminée, attendez le(s) message(s) suivant(s) dans les journaux :
@@ -345,9 +345,9 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 1. Effacez la mémoire cache du navigateur après l’installation du package.
 1. Continuez la mise à niveau des personnalisations comme décrit dans la section suivante.
 
-### Activer le déclencheur de script via une servlet{#enable-trigger-serverlet}
+### Activer le déclenchement du script via une servlet (pour la version 4.2.1)
 
-POST :
+PUBLICATION :
 
 ```
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
@@ -470,17 +470,17 @@ Effectuez les étapes suivantes pour indexer le contenu existant et utiliser le 
 - Vérifiez que l’indexation `damAssetLucene` est terminée. Cela peut prendre jusqu’à quelques heures, selon la quantité de données présentes sur le serveur. Vous pouvez confirmer que la réindexation est terminée en vérifiant que le champ de réindexation est défini sur false dans .
   `http://<server:port>/oak:index/damAssetLucene`.  En outre, si vous avez ajouté des personnalisations dans `damAssetLucene`, vous devrez peut-être les appliquer à nouveau.
 
-- Exécutez une demande de POST sur le serveur \(avec l’authentification correcte\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facultatif : vous pouvez transmettre des chemins spécifiques des mappages pour les indexer. Par défaut, tous les mappages sont indexés \|\| Par exemple : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- Exécutez une requête POST au serveur \(avec l’authentification correcte\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facultatif : vous pouvez transmettre des chemins spécifiques des mappages pour les indexer. Par défaut, tous les mappages sont indexés \|\| Par exemple : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - Vous pouvez également transmettre un dossier racine pour indexer les plans DITA d&#39;un dossier spécifique (et de ses sous-dossiers). Par exemple, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Notez que si le paramètre de chemins d’accès et le paramètre racine sont transmis, seul le paramètre de chemins d’accès est pris en compte.
 
-- L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une demande de GET avec l’ID de tâche au même point d’entrée : `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(par exemple : `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\).
+- L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée : `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(par exemple : `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\).
 
 
-- Une fois la tâche terminée, la requête de GET ci-dessus répond avec succès et mentionne si des mappages ont échoué. Les mappages indexés avec succès peuvent être confirmés à partir des journaux du serveur.
+- Une fois la tâche terminée, la requête GET ci-dessus répond avec succès et mentionne si des mappages ont échoué. Les mappages indexés avec succès peuvent être confirmés à partir des journaux du serveur.
 
 
-## Mise à niveau vers la version 4.3.0 {#upgrade-version-4-3}
+## Mise à niveau vers la version 4.3.0
 
 La mise à niveau vers la version 4.3.0 dépend de la version actuelle de Experience Manager Guides. Si vous utilisez la version 4.2 ou 4.2.x, vous pouvez directement effectuer la mise à niveau vers la version 4.3.0.
 
@@ -499,7 +499,7 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 
 ## Installation de la version 4.3.0
 
-1. Téléchargez le package de la version 4.3.0 à partir du portail de distribution de logiciels d’Adobe [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 4.3.0 à partir du portail de distribution logicielle [Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de la version 4.3.0.
 1. Effacez la mémoire cache du navigateur après l’installation du package.
 1. Mettez à niveau le fichier `ui_config.json` à partir de l’onglet **Configuration de l’éditeur XML** dans le profil de dossier.
@@ -524,21 +524,21 @@ Effectuez les étapes suivantes pour post-traiter le contenu existant et utilise
 
    | Point d’entrée | /bin/guides/reports/upgrade |
    |---|---|
-   | Type de demande | **POST** ce script est une demande de POST et doit donc être exécuté via des agents tels que Postman. |
-   | Réponse attendue | L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une demande de GET avec l’ID de tâche au même point d’entrée.<br> Exemple d&#39;URL : `http://<server:port>/bin/guides/reports/upgrade` |
+   | Type de demande | **POST** Ce script est une requête POST et doit donc être exécuté par des agents tels que Postman. |
+   | Réponse attendue | L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée.<br> Exemple d&#39;URL : `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Point d’entrée | /bin/guides/reports/upgrade |
    |---|---|
    | Type de demande | **GET** |
    | Param | jobId : transmettez le jobId reçu de la demande de publication précédente. |
-   | Réponse attendue | - Une fois le traitement terminé, la requête de GET répond avec succès. <br> - En cas d’erreur, partagez les journaux d’erreurs ainsi que la sortie de l’API avec votre équipe chargée du succès client.  <br>Exemple d’URL : `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | Réponse attendue | - Une fois le traitement terminé, la requête GET répond avec succès. <br> - En cas d’erreur, partagez les journaux d’erreurs ainsi que la sortie de l’API avec votre équipe chargée du succès client.  <br>Exemple d’URL : `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 
 1. Revenez à la valeur par défaut ou à la valeur existante précédente de `queryLimitReads` si vous l’avez modifiée à l’étape 1.
 
 
 
-## Mise à niveau vers la version 4.3.1 {#upgrade-version-4-3-1}
+## Mise à niveau vers la version 4.3.1
 
 La mise à niveau vers la version 4.3.1 dépend de la version actuelle de Experience Manager Guides. Si vous utilisez la version 4.3.0, 4.2 ou 4.2.1, vous pouvez directement effectuer la mise à niveau vers la version 4.3.1.
 
@@ -557,9 +557,9 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 
 ## Installation de la version 4.3.1
 
-1. Téléchargez le package de la version 4.3.1 à partir du portail de distribution de logiciels d’Adobe [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 4.3.1 à partir du portail de distribution logicielle [Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de la version 4.3.1.
-1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-serverlet-4-3-1).
+1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet-for-431).
 
 
 1. Une fois l’installation du package terminée, attendez le(s) message(s) suivant(s) dans les journaux :
@@ -577,9 +577,9 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 1. Effacez la mémoire cache du navigateur après l’installation du package.
 1. Continuez la mise à niveau des personnalisations comme décrit dans la section suivante.
 
-### Activer le déclencheur de script via une servlet{#enable-trigger-serverlet-4-3-1}
+### Activer le déclenchement du script via une servlet (pour la version 4.3.1)
 
-POST :
+PUBLICATION :
 
 ```
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
@@ -699,13 +699,13 @@ Après avoir installé Experience Manager Guides, vous pouvez fusionner les diff
 Effectuez les étapes suivantes pour indexer le contenu existant et utiliser le nouveau texte de recherche et de remplacement au niveau du mappage :
 
 
-- Exécutez une demande de POST sur le serveur \(avec l’authentification correcte\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facultatif : vous pouvez transmettre des chemins spécifiques des mappages pour les indexer. Par défaut, tous les mappages sont indexés \|\| Par exemple : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- Exécutez une requête POST au serveur \(avec l’authentification correcte\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facultatif : vous pouvez transmettre des chemins spécifiques des mappages pour les indexer. Par défaut, tous les mappages sont indexés \|\| Par exemple : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 
-- L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une demande de GET avec l’ID de tâche au même point d’entrée : `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(par exemple : `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\).
+- L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée : `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(par exemple : `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\).
 
 
-- Une fois la tâche terminée, la requête de GET ci-dessus répond avec succès et mentionne si des mappages ont échoué. Les mappages indexés avec succès peuvent être confirmés à partir des journaux du serveur.
+- Une fois la tâche terminée, la requête GET ci-dessus répond avec succès et mentionne si des mappages ont échoué. Les mappages indexés avec succès peuvent être confirmés à partir des journaux du serveur.
 
 ## Étapes de post-traitement du contenu existant pour utiliser le rapport de lien rompu
 
@@ -725,21 +725,21 @@ Effectuez les étapes suivantes pour post-traiter le contenu existant et utilise
 
    | Point d’entrée | /bin/guides/reports/upgrade |
    |---|---|
-   | Type de demande | **POST** ce script est une demande de POST et doit donc être exécuté via des agents tels que Postman. |
-   | Réponse attendue | L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une demande de GET avec l’ID de tâche au même point d’entrée.<br> Exemple d&#39;URL : `http://<server:port>/bin/guides/reports/upgrade` |
+   | Type de demande | **POST** Ce script est une requête POST et doit donc être exécuté par des agents tels que Postman. |
+   | Réponse attendue | L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée.<br> Exemple d&#39;URL : `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Point d’entrée | /bin/guides/reports/upgrade |
    |---|---|
    | Type de demande | **GET** |
    | Param | jobId : transmettez le jobId reçu de la demande de publication précédente. |
-   | Réponse attendue | - Une fois le traitement terminé, la requête de GET répond avec succès. <br> - En cas d’erreur, partagez les journaux d’erreurs ainsi que la sortie de l’API avec votre équipe chargée du succès client.  <br>Exemple d’URL : `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | Réponse attendue | - Une fois le traitement terminé, la requête GET répond avec succès. <br> - En cas d’erreur, partagez les journaux d’erreurs ainsi que la sortie de l’API avec votre équipe chargée du succès client.  <br>Exemple d’URL : `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 
 1. Revenez à la valeur par défaut ou à la valeur existante précédente de `queryLimitReads` si vous l’avez modifiée à l’étape 1.
 
 
 
-## Mettre à niveau vers la version 4.3.1.5 {#upgrade-version-4-3-1-5}
+## Mettre à niveau vers la version 4.3.1.5
 
 La mise à niveau vers la version 4.3.1.5 dépend de la version actuelle de Experience Manager Guides. Si vous utilisez la version 4.3.1, vous pouvez directement effectuer la mise à niveau vers la version 4.3.1.5.
 
@@ -747,7 +747,7 @@ La mise à niveau vers la version 4.3.1.5 dépend de la version actuelle de Expe
 
 ## Installer la version 4.3.1.5
 
-1. Téléchargez le package de la version 4.3.1.5 à partir du portail de distribution de logiciels d’Adobe [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez 4.3.1.5 package de version à partir du portail de distribution logicielle [Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de la version 4.3.1.5.
 
 1. Attendez que le processus d’installation soit terminé.
@@ -779,7 +779,7 @@ La mise à niveau vers la version 4.3.1.5 dépend de la version actuelle de Expe
 
 
 
-## Mise à niveau vers la version 4.4.0 {#upgrade-version-4-4-0}
+## Mise à niveau vers la version 4.4.0
 
 La mise à niveau vers la version 4.4.0 dépend de la version actuelle de Experience Manager Guides. Si vous utilisez la version 4.3.1, 4.3.0, 4.2 ou 4.2.1 (correctif 4.2.1.3), vous pouvez directement effectuer la mise à niveau vers la version 4.4.0
 
@@ -798,9 +798,9 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 
 ## Installation de la version 4.4.0
 
-1. Téléchargez le package de la version 4.4.0 à partir du portail de distribution de logiciels d’Adobe [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 4.4.0 à partir du portail de distribution logicielle [Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de la version 4.4.0.
-1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-serverlet-4-4-0).
+1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
 
 1. Une fois l’installation du package terminée, attendez le(s) message(s) suivant(s) dans les journaux :
 
@@ -902,11 +902,11 @@ Après avoir installé Experience Manager Guides, vous pouvez fusionner les diff
 
 Effectuez les étapes suivantes pour indexer le contenu existant et utiliser le nouveau texte de recherche et de remplacement au niveau du mappage :
 
-- Exécutez une demande de POST sur le serveur \(avec l’authentification correcte\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facultatif : vous pouvez transmettre des chemins spécifiques des mappages pour les indexer. Par défaut, tous les mappages sont indexés \|\| Par exemple : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- Exécutez une requête POST au serveur \(avec l’authentification correcte\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facultatif : vous pouvez transmettre des chemins spécifiques des mappages pour les indexer. Par défaut, tous les mappages sont indexés \|\| Par exemple : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une demande de GET avec l’ID de tâche au même point d’entrée : `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(par exemple : `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\).
+- L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée : `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(par exemple : `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\).
 
-- Une fois la tâche terminée, la requête de GET ci-dessus répond avec succès et mentionne si des mappages ont échoué. Les mappages indexés avec succès peuvent être confirmés à partir des journaux du serveur.
+- Une fois la tâche terminée, la requête GET ci-dessus répond avec succès et mentionne si des mappages ont échoué. Les mappages indexés avec succès peuvent être confirmés à partir des journaux du serveur.
 
 ## Étapes de post-traitement du contenu existant pour utiliser le rapport de lien rompu
 
@@ -926,24 +926,24 @@ Effectuez les étapes suivantes pour post-traiter le contenu existant et utilise
 
    | Point d’entrée | /bin/guides/reports/upgrade |
    |---|---|
-   | Type de demande | **POST** ce script est une demande de POST et doit donc être exécuté via des agents tels que Postman. |
-   | Réponse attendue | L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une demande de GET avec l’ID de tâche au même point d’entrée.<br> Exemple d&#39;URL : `http://<server:port>/bin/guides/reports/upgrade` |
+   | Type de demande | **POST** Ce script est une requête POST et doit donc être exécuté par des agents tels que Postman. |
+   | Réponse attendue | L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée.<br> Exemple d&#39;URL : `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Point d’entrée | /bin/guides/reports/upgrade |
    |---|---|
    | Type de demande | **GET** |
    | Param | jobId : transmettez le jobId reçu de la demande de publication précédente. |
-   | Réponse attendue | - Une fois le traitement terminé, la requête de GET répond avec succès. <br> - En cas d’erreur, partagez les journaux d’erreurs ainsi que la sortie de l’API avec votre équipe chargée du succès client.  <br>Exemple d’URL : `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | Réponse attendue | - Une fois le traitement terminé, la requête GET répond avec succès. <br> - En cas d’erreur, partagez les journaux d’erreurs ainsi que la sortie de l’API avec votre équipe chargée du succès client.  <br>Exemple d’URL : `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 1. Revenez à la valeur par défaut ou à la valeur existante précédente de `queryLimitReads` si vous l’avez modifiée à l’étape 1.
 
-### Activer le déclencheur de script via une servlet{#enable-trigger-serverlet-4-4-0}
+### Activer le déclencheur de script via une servlet
 
 >[!NOTE]
 >
 > Vous n’avez pas besoin d’effectuer ces étapes si vous effectuez une mise à niveau à partir de la version 4.3.0 ou 4.3.1.
 
-POST :
+PUBLICATION :
 
 ```
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
@@ -983,7 +983,7 @@ Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000
 **Rubrique parente :**[ Télécharger et installer](download-install.md)
 
 
-## Mise à niveau vers la version 4.6.0 {#upgrade-version-4-6-0}
+## Mise à niveau vers la version 4.6.0
 
 >[!TIP]
 >
@@ -1006,9 +1006,9 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 
 ## Installation de la version 4.6.0
 
-1. Téléchargez le package de la version 4.6.0 à partir du portail de distribution de logiciels d’Adobe [](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html).
+1. Téléchargez le package de la version 4.6.0 à partir du portail de distribution logicielle [Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html).
 1. Installez le package de la version 4.6.0.
-1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-serverlet-4-6-0).
+1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
 
 1. Une fois l’installation du package terminée, attendez le(s) message(s) suivant(s) dans les journaux :
 
@@ -1117,11 +1117,166 @@ Après avoir installé Experience Manager Guides, vous pouvez fusionner les diff
 
 Effectuez les étapes suivantes pour indexer le contenu existant :
 
-- Exécutez une demande de POST sur le serveur \(avec l’authentification correcte\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facultatif) Vous pouvez transmettre des chemins spécifiques des mappages pour les indexer. Par défaut, tous les mappages sont indexés || Exemple : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- Exécutez une requête POST au serveur \(avec l’authentification correcte\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facultatif) Vous pouvez transmettre des chemins spécifiques des mappages pour les indexer. Par défaut, tous les mappages sont indexés || Exemple : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une demande de GET avec l’ID de tâche au même point d’entrée - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(par exemple : ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+- L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée : `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(par exemple : ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`).
 
-- Une fois la tâche terminée, la requête de GET ci-dessus répond avec succès et mentionne si des mappages ont échoué. Les mappages indexés avec succès peuvent être confirmés à partir des journaux du serveur.
+- Une fois la tâche terminée, la requête GET ci-dessus répond avec succès et mentionne si des mappages ont échoué. Les mappages indexés avec succès peuvent être confirmés à partir des journaux du serveur.
+
+
+>[!NOTE]
+>
+> Si vous utilisez le schéma personnalisé, vous devez définir le chemin d’accès des fichiers DTD et XSD catalog.xml personnalisés dans le référentiel AEM dans l’option **Intégrer les catalogues**.
+
+
+
+
+## Procédure à suivre pour gérer le conflit de `'fmdita rewriter'`
+
+Experience Manager Guides dispose d’un module [**custom sling rewriter**](../cs-install-guide/conf-output-generation.md#custom-rewriter) qui gère les liens générés en cas de mappages croisés (liens entre les rubriques de deux mappages différents).
+
+Si votre base de code contient un autre module de réécriture Sling personnalisé, utilisez une valeur de `'order'` supérieure à 50, car le module de réécriture Sling de Experience Manager Guides utilise `'order'` 50.  Pour remplacer cela, vous avez besoin d’une valeur >50. Pour plus d’informations, consultez la section [Pipelines de réécriture de sortie](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+
+Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000 à 50, vous devez fusionner le module de réécriture personnalisé existant, le cas échéant, avec `'fmdita-rewriter'`.
+
+
+## Mise à niveau vers la version 5.0.0
+
+>[!TIP]
+>
+> La mise à niveau vers la version 5.0.0 dépend de la version actuelle de Experience Manager Guides. Si vous utilisez la version 4.6.3, 4.6.1, 4.6.0 ou 4.4, vous pouvez directement effectuer la mise à niveau vers la version 5.0.0.
+
+>[!NOTE]
+>
+> Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
+
+****Conditions préalables****
+
+Avant de lancer le processus de mise à niveau vers Experience Manager Guides 5.0.0, vérifiez que vous disposez des éléments suivants :
+
+1. Mise à niveau vers Experience Manager Guides version 4.6.3, 4.6.1, 4.6.0 ou 4.4 et achèvement des étapes d’installation respectives.
+1. (Facultatif) A fermé toutes les tâches de traduction.
+1. Modification du niveau de journal en **INFO** pour `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` classe et ajout de ces journaux dans un nouveau fichier journal, par exemple, `logs/translation_upgrade.log`.
+
+
+## Installation version 5.0.0
+
+1. Téléchargez le package de la version 5.0.0 à partir du portail de distribution logicielle [Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html).
+1. Installez le package de la version 5.0.0.
+1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
+
+1. Une fois l’installation du package terminée, attendez le(s) message(s) suivant(s) dans les journaux :
+
+   `Completed the post deployment setup script`
+
+   Le message ci-dessus indique que toutes les étapes d’installation sont terminées.
+
+   Si vous rencontrez l’un des préfixes d’ERREUR suivants, signalez-le à votre équipe du succès client :
+
+   - Erreur dans le script de configuration de post-déploiement
+   - Exception lors du portage du MAP de traduction
+   - Impossible de transférer la carte de traduction de v1 vers v2 pour la propriété
+1. Mise à niveau du plug-in Oxygen connector avec la version 5.0.0 \(si nécessaire\).
+1. Effacez la mémoire cache du navigateur après l’installation du package.
+
+## Après avoir installé la version 5.0.0
+
+Après avoir installé Experience Manager Guides, vous pouvez fusionner les différentes configurations applicables de la version nouvellement installée avec votre configuration.
+
+>[!NOTE]
+>
+> Le modèle dam-update-asset peut être personnalisé. Ainsi, si des personnalisations ont été effectuées, nous devons les synchroniser avec Experience Manager Guides dans la copie de travail du modèle.
+
+1. **Workflow Ressource de mise à jour de la gestion des ressources numériques \(Modifications de post-traitement\):**
+
+1. Ouvrir l’URL :
+
+   ```
+   http://localhost:4502/libs/cq/workflow/admin/console/content/models.html 
+   ```
+
+1. Sélectionnez **workflow Ressource de mise à jour de la gestion des ressources numériques**.
+1. Cliquez sur **Modifier**.
+1. Si le composant **DXML Post Process Initiator** est présent, assurez-vous que les personnalisations sont synchronisées.
+1. En l’absence du composant **DXML Post Process Initiator**, procédez comme suit pour l’insérer :
+
+1. Cliquez sur **Insérer le composant** \(Responsable du post-traitement Experience Manager Guides en tant qu’étape finale du processus\).
+1. Configurez l’**étape du processus** avec les détails suivants :
+
+   **Onglet courant**
+
+   **Title :** initiateur de post-processus DXML
+
+   **Description** : étape d’initialisation de post-traitement DXML qui déclenchera une tâche sling pour le post-traitement DXML de la ressource modifiée/créée
+
+   **Onglet Processus**
+
+   - Sélectionnez **DXML Post Process Initiator** dans le menu déroulant **Process**
+
+   - Sélectionnez **Avance du gestionnaire**
+
+   - Sélectionnez **Terminé**
+
+1. Cliquez sur **Synchronisation** en haut à droite après avoir effectué les modifications. Vous recevrez une notification de succès.
+
+   >[!NOTE]
+   >
+   > Actualisez et vérifiez que les modifications personnalisées et l’étape de post-traitement Experience Manager Guides sont présentes dans le modèle de workflow final.
+
+1. Une fois que le **workflow Ressource de mise à jour de gestion des ressources numériques** est validé, vérifiez les configurations de lanceur correspondantes. Pour ce faire, accédez à l’interface de workflow d’AEM et ouvrez les lanceurs.
+
+   ```http
+   http://localhost:4502/libs/cq/workflow/content/console.html
+   ```
+
+   Recherchez les deux lanceurs suivants \(qui doivent être actifs\) correspondant au workflow **Ressource de mise à jour de la gestion des ressources numériques et apportez-y des modifications**(si nécessaire\) :
+
+1. Lanceur de « *Node créé* » pour le **workflow Ressource de mise à jour de la gestion des ressources numériques**- pour la condition `"jcr:content/jcr:mimeType!=video"`, la valeur « Globbing » doit être :
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - &#39;excludeList&#39; doit avoir des `"event-user-data:changedByWorkflowProcess"`.
+   - Lanceur pour « *Node modifié* » pour **workflow Ressource de mise à jour de la gestion des ressources numériques -** pour la condition « `jcr:content/jcr:mimeType!=video` », la valeur « Globbing » doit être :
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - `excludeList` aurait dû être `"event-user-data:changedByWorkflowProcess"`.
+
+1. Une fois la mise à niveau terminée, assurez-vous que toutes les personnalisations/superpositions sont validées et mises à jour pour correspondre au nouveau code de l’application. Voici quelques exemples :
+   - Tous les composants superposés depuis /libs/editor/libs doivent être comparés au nouveau code de produit et les mises à jour doivent être effectuées dans les fichiers superposés sous /apps.
+   - Toutes les catégories de bibliothèques clientes utilisées à partir du produit doivent être examinées pour les modifications. Toutes les configurations remplacées \(exemples ci-dessous\) doivent être comparées aux dernières afin d’obtenir les dernières fonctionnalités :
+   - elementmapping.xml
+   - ui\_config.json\(peut avoir été défini dans profils de dossier\)
+   - `com.adobe.fmdita.config.ConfigManager` modifié
+
+1. Si vous avez ajouté des personnalisations dans damAssetLucene, vous devrez peut-être les appliquer à nouveau. Après avoir effectué ces modifications, définissez la réindexation sur true. Cela réindexera tous les nœuds existants avec les personnalisations. Une fois l’opération terminée, l’indicateur de réindexation est de nouveau défini sur false. Cette opération peut prendre quelques heures en fonction du nombre de ressources dans le système.
+
+## Procédure de réindexation des index Experience Manager Guides
+
+1. Ouvrez `crx/de` et accédez au chemin d’accès de l’index : `/oak:index/guidesAssetProperties`
+2. Définissez la propriété reindex sur `true` (`false` par défaut) et cliquez sur **Enregistrer tout**.
+3. Une fois la réindexation terminée, la propriété Reindex est définie sur `false` et le nombre de réindex est incrémenté de 1.
+
+   >[!NOTE]
+   >
+   > Cela peut prendre quelques minutes, selon la quantité de données présentes.
+4. Suivez les mêmes étapes pour d’autres index ajoutés ou modifiés : `guidesBulkActivation`, `guidesPeerLinkIndex` et `guidesKonnectTemplateIndex`.
+
+## Procédure d’indexation du contenu existant
+
+
+
+Effectuez les étapes suivantes pour indexer le contenu existant :
+
+- Exécutez une requête POST au serveur \(avec l’authentification correcte\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facultatif) Vous pouvez transmettre des chemins spécifiques des mappages pour les indexer. Par défaut, tous les mappages sont indexés || Exemple : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+
+- L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée : `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(par exemple : ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`).
+
+- Une fois la tâche terminée, la requête GET ci-dessus répond avec succès et mentionne si des mappages ont échoué. Les mappages indexés avec succès peuvent être confirmés à partir des journaux du serveur.
 
 
 >[!NOTE]
@@ -1141,7 +1296,13 @@ Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000
 
 
 
+## Procédure de réindexation de damAssetLucene
 
+La définition d’index est mise à jour pour damAssetLucene avec des guides. Consultez https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460 pour réindexer damAssetLucene après la mise à niveau vers la version 5.0.0.
+
+>[!NOTE]
+>
+> Tout en suivant la documentation, assurez-vous que les deux propriétés (reindex=true et reindex-async=true pour /oak:index/damAssetLucene) sont mises à jour simultanément via l’opération d’enregistrement.
 
 
 **Rubrique parente :** [Télécharger et installer](download-install.md)
