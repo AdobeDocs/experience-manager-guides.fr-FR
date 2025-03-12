@@ -1,26 +1,26 @@
 ---
 title: Administration et sécurité des utilisateurs
-description: Découvrez le fonctionnement de l’administration et de la sécurité des utilisateurs
+description: Découvrez comment fonctionnent l’administration et la sécurité des utilisateurs et utilisatrices
 exl-id: 1269a652-5261-413d-9ea0-b4f75003e9d8
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: 9b657b0530db8fafe3bb6d30a9002791acf8f226
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '710'
 ht-degree: 10%
 
 ---
 
 # Administration et sécurité des utilisateurs {#id181AED00G5Z}
 
-Pour accéder aux fonctionnalités et les configurer dans AEM Guides, vous devez créer des utilisateurs. Ces utilisateurs peuvent alors se voir attribuer des autorisations d’accès à toutes les fonctionnalités d’AEM Guides ou à certaines d’entre elles. Découvrez comment configurer et gérer l’autorisation utilisateur et comprendre également la théorie sous-jacente au fonctionnement de l’authentification et de l’autorisation dans AEM.
+Pour accéder aux fonctionnalités d’AEM Guides et les configurer, vous devez créer des utilisateurs. Ces utilisateurs peuvent ensuite se voir attribuer des autorisations pour accéder à toutes les fonctionnalités d’AEM Guides ou à certaines d’entre elles. Découvrez comment configurer et gérer l’autorisation utilisateur, mais aussi la théorie du fonctionnement de l’authentification et de l’autorisation dans AEM.
 
-Les rubriques suivantes de la documentation d’AEM vous aideront à comprendre les concepts et fonctionnalités relatifs à l’administration des utilisateurs et à la sécurité :
+Les rubriques suivantes de la documentation d’AEM vous aideront à mieux comprendre les concepts et fonctionnalités liés à l’administration des utilisateurs et à la sécurité :
 
 - [Utilisateurs et groupes dans AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
 
-- [Autorisations dans AEM](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
+- [ Autorisations dans AEM ](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
 
 - [Gestion des utilisateurs et des groupes](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
 
@@ -29,48 +29,48 @@ Les rubriques suivantes de la documentation d’AEM vous aideront à comprendre 
 
 ## Groupes d’utilisateurs créés par AEM Guides {#id181TF0K0MHT}
 
-AEM Guides fournit trois groupes prêts à l’emploi pour gérer différentes tâches dans un projet DITA. Ces groupes sont les suivants : *Auteurs*, *Réviseurs* et *Éditeurs*. Selon le groupe auquel un utilisateur est associé, il est autorisé à effectuer des tâches spécifiques. Par exemple, la tâche de publication peut être effectuée uniquement par un éditeur, mais pas par un auteur ou un réviseur. De même, un auteur peut créer une rubrique et un réviseur ne peut consulter qu’une rubrique.
+AEM Guides fournit trois groupes prêts à l’emploi. Ces groupes sont les suivants : *Auteurs*, *Réviseurs* et *Éditeurs*. Selon le groupe auquel un utilisateur est associé, il est autorisé à effectuer des tâches spécifiques. Par exemple, une tâche de publication ne peut être effectuée que par un éditeur, mais pas par un auteur ou un réviseur. De même, un auteur peut créer une rubrique et un réviseur peut uniquement réviser une rubrique.
 
 >[!TIP]
 >
-> Consultez la section *Autorisations* du guide Bonnes pratiques pour connaître les bonnes pratiques relatives à la définition des autorisations d’utilisateur.
+> Voir la section *Autorisations* dans le guide des bonnes pratiques pour connaître les bonnes pratiques relatives à la définition des autorisations utilisateur.
 
-Le tableau suivant répertorie les différentes tâches et les groupes pouvant effectuer ces tâches :
+Le tableau suivant répertorie les différentes tâches et les groupes qui peuvent les effectuer :
 
-| Tâche | Auteurs | Réviseurs | Éditeurs |
+| Tâche | Auteurs | Réviseurs | Editeurs |
 |----|-------|---------|----------|
-| Création d’une rubrique DITA | Oui |   | Oui |
-| Création d’une carte DITA | Oui |   | Oui |
-| Mappage de collections | Oui |   | Oui |
+| Créer une rubrique DITA | Oui |   | Oui |
+| Créer un plan DITA | Oui |   | Oui |
+| Mapper les collections | Oui |   | Oui |
 | Créer une tâche de révision | Oui |   | Oui |
-| Rubrique de révision[1](#fntarg_1) | Oui | Oui | Oui |
-| Résolution des clés | Oui |   | Oui |
-| Ouvrir dans le FrameMaker | Oui |   | Oui |
-| Extraction/archivage | Oui |   | Oui |
+| Rubrique [ révision 1](#fntarg_1) | Oui | Oui | Oui |
+| Résolution de la clé | Oui |   | Oui |
+| Ouvrir dans FrameMaker | Oui |   | Oui |
+| Extraction/enregistrement | Oui |   | Oui |
 | Modifier le sujet | Oui |   | Oui |
-| Déplacer la rubrique | Oui |   | Oui |
-| Modification des propriétés de rubrique | Oui |   | Oui |
+| Déplacer rubrique | Oui |   | Oui |
+| Modifier les propriétés de rubrique | Oui |   | Oui |
 | Copier | Oui |   | Oui |
 | Supprimer | Oui |   | Oui |
 | Partager | Oui |   | Oui |
 | **État du document** |
-| Création/modification d’un profil d’état de document |   |   | Oui |
-| Modifier l’état du document[2](#fntarg_2) | Oui | Oui | Oui |
+| Créer/modifier un profil d’état de document |   |   | Oui |
+| Modifier l’état du document [2](#fntarg_2) | Oui | Oui | Oui |
 | **Fonctionnalités disponibles dans la console de mappage DITA \(onglet Paramètres prédéfinis de sortie\)** |
 | Générer |   |   | Oui |
 | Modifier |   |   | Oui |
-| Dupliquer |   |   | Oui |
+| Doublon |   |   | Oui |
 | Créer |   |   | Oui |
 | Supprimer le paramètre prédéfini |   |   | Oui |
-| **Fonctionnalités disponibles dans la console de mappage DITA \(onglet Sorties\){1** |
+| **Fonctionnalités disponibles dans la console de mappage DITA \(onglet Sorties\)** |
 | Afficher la sortie générée | Oui |   | Oui |
-| **Fonctionnalités disponibles dans la console de mappage DITA \(onglet Rubriques\){1** |
+| **Fonctionnalités disponibles dans la console de mappage DITA \(Onglet Rubriques\)** |
 | Créer une tâche de révision | Oui |   | Oui |
 | Modifier | Oui |   | Oui |
-| **Fonctionnalités disponibles dans la console de mappage DITA \(onglet Lignes de base\){1** |
+| **Fonctionnalités disponibles dans la console de plan DITA \(onglet Lignes de base\)** |
 | Créer |   |   | Oui |
 | Modifier |   |   | Oui |
-| Dupliquer |   |   | Oui |
+| Doublon |   |   | Oui |
 | Supprimez |   |   | Oui |
 | Console de mappage DITA \(onglet Rapports\) | Oui |   | Oui |
 | **Fonctionnalités disponibles dans la console de mappage DITA \(Paramètres prédéfinis de condition\)** |
@@ -78,15 +78,15 @@ Le tableau suivant répertorie les différentes tâches et les groupes pouvant e
 
 ## Remarques supplémentaires sur les groupes d’utilisateurs
 
-La liste suivante contient des recommandations et des points relatifs aux groupes d’utilisateurs et aux autorisations correspondantes :
+La liste suivante contient des recommandations et des points liés aux groupes d’utilisateurs et aux autorisations correspondantes :
 
-- Si vous souhaitez qu’un utilisateur démarre le processus de traduction ou de révision, assurez-vous qu’il est membre du *groupe d’éditeurs* et du *groupe projects-administrateurs*.
+- Si vous souhaitez qu’un utilisateur lance le workflow de traduction ou de révision, assurez-vous qu’il est membre du groupe *Éditeurs* et *projets-administrateurs*.
 
-- Les utilisateurs doivent disposer des autorisations de lecture, de création, de suppression et de modification disponibles dans les dossiers de langue source et cible sur lesquels ils doivent travailler.
+- Les utilisateurs doivent disposer des autorisations de lecture, de création, de suppression et de modification disponibles sur les dossiers de langue source et cible sur lesquels ils doivent travailler.
 
-- Si vous créez un projet, vous êtes le propriétaire du projet avec les autorisations *Publishers*. Pour que les autres utilisateurs d’un projet puissent voir les membres de leur équipe, créer des tâches ou créer des workflows, ils doivent disposer d’un accès en lecture aux noeuds `/home/users` et `/home/groups`. Une façon de donner un accès en lecture aux noeuds `/home/users` et `/home/groups` est de donner un accès en lecture au groupe `projects-users`.
+- Si vous créez un projet, vous en êtes le propriétaire disposant des autorisations *Éditeurs*. Pour que d’autres utilisateurs d’un projet puissent voir les membres de leur équipe, créer des tâches ou créer des workflows, ils doivent disposer d’un accès en lecture sur les nœuds `/home/users` et `/home/groups`. Une façon de donner un accès en lecture sur des nœuds `/home/users` et `/home/groups` consiste à donner un accès en lecture au groupe `projects-users` .
 
-- *Les réviseurs* peuvent accéder et ajouter des commentaires de révision sur une rubrique en cours de révision à partir de la console Projet ou à partir du lien de notification de boîte de réception. En outre, cet accès n’est disponible que jusqu’à l’ouverture de la tâche de révision.
+- *Les réviseurs* peuvent accéder à un sujet en cours de révision et y ajouter des commentaires à partir de la console Projet ou à partir du lien de notification de la boîte de réception. En outre, cet accès n’est disponible que lorsque la tâche de révision est ouverte.
 
 - Par défaut, les *éditeurs* se voient accorder l’accès et les autorisations sur les dossiers suivants dans la gestion des ressources numériques :
 
@@ -96,16 +96,16 @@ La liste suivante contient des recommandations et des points relatifs aux groupe
 
    - `/content/output/sites` -\> Lecture et écriture
 
-  Vous devez accorder des autorisations de lecture et d’écriture explicites à votre éditeur si vous utilisez un autre emplacement que les emplacements de publication par défaut mentionnés ci-dessus.
+  Vous devez accorder des autorisations explicites en lecture et écriture à votre éditeur si vous utilisez un autre emplacement que les emplacements de publication par défaut mentionnés ci-dessus.
 
-- Tous les utilisateurs des groupes *Auteurs*, *Réviseurs* et *Éditeurs* ont un accès en lecture à tout le contenu dans la gestion des ressources numériques.
+- Tous les utilisateurs appartenant aux groupes *Auteurs*, *Réviseurs* et *Éditeurs* ont un accès en lecture à tout le contenu de la gestion des ressources numériques.
 
-- Les autorisations au niveau du dossier doivent être attribuées aux utilisateurs via la page d’administration des utilisateurs.
+- Les autorisations au niveau des dossiers doivent être attribuées aux utilisateurs via la page d’administration des utilisateurs.
 
-- Si vous souhaitez que vos utilisateurs puissent effectuer des opérations de recherche sur DAM, faites de vos utilisateurs un membre du groupe *dam-users*.
+- Si vous souhaitez que vos utilisateurs puissent effectuer des opérations de recherche sur la gestion des ressources numériques, faites de vos utilisateurs des membres du groupe *dam-users*.
 
-- Si vous souhaitez accorder des droits d’administrateur à n’importe quel utilisateur, vous pouvez le faire en lui donnant accès par le biais AEM groupes standard tels que *administrateurs*, *projects-administrateurs* ou la configuration OSGI \(console Felix\).
+- Si vous souhaitez accorder des droits d’administrateur à n’importe quel utilisateur, vous pouvez le faire en lui donnant accès par le biais de groupes standard d’AEM tels que *administrateurs*, *projets-administrateurs* ou configuration OSGI \(console Felix\).
 
-- Pour accorder à un utilisateur les droits de modifier l’état d’un document, veillez à ajouter l’utilisateur dans la section de transition d’état du profil d’état du document.
+- Pour donner à un utilisateur les droits de modifier l’état d’un document, veillez à l’ajouter dans la section Transition d’état du profil d’état du document.
 
-[1](#fnsrc_1) Si *Auteurs* et *Éditeurs* sont invités pour une révision.[2](#fnsrc_2) Selon les droits accordés à l’utilisateur dans le profil d’état du document.
+[1](#fnsrc_1) Si *Auteurs* et *Éditeurs* sont invités pour une révision.[2](#fnsrc_2) selon les droits accordés à l’utilisateur dans le profil d’état du document.
