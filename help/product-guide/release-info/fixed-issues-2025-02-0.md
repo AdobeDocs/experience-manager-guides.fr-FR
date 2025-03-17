@@ -2,9 +2,9 @@
 title: Notes de mise à jour | Correction de problèmes dans Adobe Experience Manager Guides, version 2025.02.0
 description: Découvrez les correctifs de bugs de la version 2025.02.0 d’Adobe Experience Manager Guides as a Cloud Service.
 exl-id: e7dec4a2-e11a-4b78-8111-a331d20ce73d
-source-git-commit: 09283ab7c76eca669b30ec92923456c11d53a10b
+source-git-commit: 71971c25094b842cb7a0bd1f5bd2acbca4212a66
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1325'
 ht-degree: 1%
 
 ---
@@ -102,3 +102,4 @@ Adobe a identifié les problèmes connus suivants pour la version 2025.02.0 :
 - Lorsque vous utilisez une image comme `<keyref>`, le **Type de référence** de l’image n’est pas affiché dans le **Rapport multimédia**.
 - Dans certains cas, la fonctionnalité de verrouillage des fichiers CSS ne fonctionne pas comme prévu, ce qui permet à d’autres utilisateurs de modifier et d’enregistrer les fichiers même s’ils sont verrouillés par un autre utilisateur.
 - L’application de modifications de paramètres prédéfinis ne se répercute pas sur les paramètres prédéfinis déjà créés dans la carte si le nom du paramètre prédéfini comporte des caractères majuscules.
+- Lors de l&#39;ouverture d&#39;un plan DITA avec Unified Shell activé, l&#39;éditeur s&#39;actualise par intermittence.

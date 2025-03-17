@@ -1,37 +1,41 @@
 ---
-title: Barre d’outils Personnaliser
+title: Personnaliser la barre d’outils
 description: Découvrez comment personnaliser la barre d’outils
 exl-id: 14a82c7e-5c07-43a8-bd9e-b221d80f6d05
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 5778ed2855287d1010728e689abbe6020ad56574
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
 
-# Barre d’outils Personnaliser {#id172FB00L0V6}
+# Personnaliser la barre d’outils {#id172FB00L0V6}
 
-Par défaut, l’éditeur web est fourni avec les fonctionnalités éditoriales les plus courantes requises par n’importe quel éditeur DITA. Des fonctionnalités telles que l’insertion d’éléments de type liste \(numérotée ou à puces\), référence croisée, référence de contenu, tableau, paragraphe et mise en forme des caractères sont disponibles dans l’éditeur. Outre ces éléments de base, vous pouvez personnaliser l’éditeur Web pour insérer les éléments utilisés dans votre environnement de création.
+Par défaut, Web Editor est fourni avec les fonctions éditoriales les plus courantes requises par un éditeur DITA. Des fonctionnalités telles que l’insertion d’éléments de type liste \(numérotée ou à puces\), référence croisée, référence de contenu, tableau, paragraphe et mise en forme de caractères sont disponibles dans l’éditeur. Outre ces éléments de base, vous pouvez personnaliser l’éditeur web afin d’insérer des éléments utilisés dans votre environnement de création.
 
-La barre d’outils de l’éditeur Web peut être personnalisée de deux façons :
+>[!NOTE]
+>
+> Lors de la migration de l’ancienne interface utilisateur vers la nouvelle interface utilisateur d’AEM Guides (applicable à partir des versions 2502 et 5.0 d’AEM Guides), les mises à jour apportées à `ui_config` doivent être converties en configurations d’interface utilisateur plus flexibles et modulaires. Ce framework permet d’adopter facilement des modifications dans editor_toolbar et d’autres widgets cibles, le cas échéant. Pour plus d’informations, consultez [Présentation de la configuration de l’interface utilisateur de conversion](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+
+Vous pouvez personnaliser la barre d’outils de l’éditeur web de deux manières différentes :
 
 - Ajouter une nouvelle fonctionnalité à la barre d’outils
 
-- Supprimer toutes les fonctionnalités existantes de la barre d’outils
+- Supprimez toute fonctionnalité existante de la barre d’outils
 
 
-## Ajouter une fonction dans la barre d’outils
+## Ajout d’une fonctionnalité dans la barre d’outils
 
-L’ajout d’une fonctionnalité à l’éditeur Web implique deux tâches principales : l’ajout d’une icône pour la fonctionnalité dans le fichier *ui\_config.json* et l’ajout de la fonctionnalité d’arrière-plan dans JavaScript.
+L’ajout d’une fonctionnalité à l’éditeur web implique deux tâches principales : l’ajout d’une icône pour la fonctionnalité dans le fichier *ui\_config.json* et l’ajout de la fonctionnalité en arrière-plan dans JavaScript.
 
 **Ajouter une icône dans la barre d’outils**
 
-Pour ajouter une fonction à la barre d’outils de l’éditeur web, procédez comme suit :
+Pour ajouter une fonctionnalité à la barre d’outils de l’éditeur web, procédez comme suit :
 
-1. Connectez-vous à AEM et ouvrez le mode CRXDE Lite.
+1. Connectez-vous à AEM et ouvrez le mode CRXDE Lite .
 
 1. Accédez au fichier de configuration par défaut disponible à l’emplacement suivant :
 
@@ -41,15 +45,15 @@ Pour ajouter une fonction à la barre d’outils de l’éditeur web, procédez 
 
    `/apps/fmdita/xmleditor/ui_config.json`
 
-1. Accédez au fichier `ui_config.json` et ouvrez-le dans le noeud `apps` pour le modifier.
+1. Accédez au fichier `ui_config.json` et ouvrez-le dans le nœud `apps` pour le modifier.
 
-1. Dans le fichier `ui_config.json`, ajoutez la définition de la nouvelle fonctionnalité dans la section des barres d’outils. En règle générale, vous pouvez créer un groupe de boutons de barre d’outils et y ajouter un ou plusieurs boutons. Vous pouvez également ajouter un nouveau bouton de barre d’outils dans un groupe existant. Les détails suivants sont requis pour créer un groupe de barres d’outils :
+1. Dans le fichier `ui_config.json`, ajoutez la définition de la nouvelle fonctionnalité dans la section des barres d’outils. En règle générale, vous pouvez créer un groupe de boutons de la barre d’outils et y ajouter un ou plusieurs boutons. Vous pouvez également ajouter un nouveau bouton de barre d’outils à un groupe de barres d’outils existant. Les informations suivantes sont requises pour créer un groupe de barre d’outils :
 
-   - **type :**Spécifiez `blockGroup` comme valeur `type`. Cette valeur indique que vous créez un groupe de blocs qui contiendra un ou plusieurs groupes de barres d’outils.
+   - **type:**Spécifiez `blockGroup` comme valeur `type`. Cette valeur indique que vous créez un groupe de blocs qui contiendrait un ou plusieurs groupes de barres d’outils.
 
-   - **extraclass :** Nom de la ou des classes séparées par un espace.
+   - **extraclass:** Nom de la ou des classes séparées par un espace.
 
-   - **items:** Spécifiez la définition de tous les groupes dans la barre d’outils. Chaque groupe peut contenir une ou plusieurs icônes de barre d’outils. Pour définir des icônes dans un groupe de barres d’outils, vous devez définir à nouveau l’attribut `type` dans le `items`, puis définir sa valeur sur `buttonGroup`. Spécifiez un ou plusieurs noms de classe dans la propriété `extraclass`. Indiquez le nom de la fonctionnalité dans la propriété `label`. Le fragment de code suivant du fichier `ui_config.json` affiche la définition du bloc de barre d’outils principal, suivie de la définition `buttonGroup` :
+   - **items :** spécifiez la définition de tous les groupes dans la barre d’outils. Chaque groupe peut contenir une ou plusieurs icônes de barre d’outils. Pour définir des icônes dans un groupe de barres d’outils, vous devez définir à nouveau l’attribut `type` dans le `items` et définir sa valeur sur `buttonGroup`. Spécifiez un ou plusieurs noms de classe dans la propriété `extraclass`. Spécifiez le nom de la fonction dans la propriété `label`. L’extrait de code suivant du fichier `ui_config.json` affiche la définition du bloc de barre d’outils principal, suivie de la définition du `buttonGroup` :
 
      ```json
      "toolbar": {    
@@ -65,36 +69,36 @@ Pour ajouter une fonction à la barre d’outils de l’éditeur web, procédez 
      ```
 
      Dans la collection `items`, vous devez spécifier la définition d’une ou de plusieurs icônes de barre d’outils.
-Pour ajouter une icône de barre d’outils, vous devez définir les propriétés suivantes :
+Vous devez définir les propriétés suivantes pour ajouter une icône de barre d’outils :
 
-   - **type :** Spécifiez `button` comme valeur `type`. Cette valeur indique que vous ajoutez un bouton de barre d’outils.
+   - **type :** spécifiez `button` comme valeur `type`. Cette valeur indique que vous ajoutez un bouton de barre d’outils.
 
-   - **icon :** Spécifiez le nom de l’icône Coral que vous souhaitez utiliser dans la barre d’outils.
+   - **icon :** spécifiez le nom de l’icône Coral que vous souhaitez utiliser dans la barre d’outils.
 
-   - **variant :** Spécifiez `quiet` comme valeur `variant`.
+   - **variante :** spécifiez `quiet` comme valeur `variant`.
 
-   - **title:** Spécifiez l’info-bulle de l’icône.
+   - **titre :** spécifiez l’info-bulle de l’icône.
 
-   - **en-cliquant sur :** Spécifiez le nom de commande défini pour la fonctionnalité dans le fichier JavaScript. Si votre commande nécessite des paramètres d’entrée, indiquez le nom de la commande comme suit :
+   - **en cas de clic :** spécifiez le nom de commande défini pour la fonction dans le fichier JavaScript. Si votre commande nécessite des paramètres d’entrée, indiquez le nom de la commande comme suit :
 
      ```JavaScript
      "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
      ```
 
-   - **afficher ou masquer :** Si vous définissez la propriété `show`, spécifiez les modes d&#39;affichage de l&#39;icône. Les valeurs possibles sont : `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(affichage dans tous les modes\) ou `false` \(masquage dans tous les modes\).
+   - **afficher ou masquer :** si vous définissez la propriété `show`, indiquez les modes d’affichage de l’icône. Les valeurs possibles sont les suivantes : `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(affichage dans tous les modes\) ou `false` \(masquage dans tous les modes\).
 
-   Au lieu de `show`, vous pouvez également définir la propriété `hide`. Les valeurs possibles sont identiques à celles de la propriété `show` avec la seule différence que l’icône ne s’affiche pas pour le mode spécifié.
+   À la place de `show`, vous pouvez également définir la propriété `hide` . Les valeurs possibles sont identiques à celles de `show` propriété , à la différence que l’icône n’est pas affichée pour le mode spécifié.
 
-1. Créez un dossier *clientlib* et ajoutez votre JavaScript dans ce dossier.
+1. Créez un dossier *clientlib* et ajoutez-y votre JavaScript.
 
 1. Mettez à jour la propriété categories du dossier *clientlib* en lui affectant la valeur *apps.fmdita.xml\_editor.page\_overrides*.
 
-1. Enregistrez le fichier *ui\_config.json* et rechargez l’éditeur Web.
+1. Enregistrez le fichier *ui\_config.json* et rechargez l’éditeur web.
 
 
-**Exemples de code JavaScript**
+**exemples de code JavaScript**
 
-Cette section fournit deux exemples de code JavaScript qui vous aideront à commencer à ajouter des fonctionnalités personnalisées. L’exemple suivant illustre le numéro de version d’AEM Guides lorsqu’un utilisateur clique sur l’icône Afficher la version de la barre d’outils.
+Cette section fournit deux exemples de code JavaScript qui vous aideront à commencer à ajouter des fonctionnalités personnalisées. L’exemple ci-dessous montre le numéro de version d’AEM Guides lorsqu’un utilisateur clique sur l’icône Afficher la version de la barre d’outils.
 
 Ajoutez le code suivant à un fichier JavaScript :
 
@@ -138,7 +142,7 @@ Ajoutez la fonction dans le fichier ui\_config.json en tant que :
   } 
 ```
 
-L’exemple suivant montre comment modifier l’état d’un fichier actif d’un document en &quot;In-Review&quot;.
+L&#39;exemple suivant montre comment modifier l&#39;état d&#39;un document d&#39;un fichier actif en « En révision ».
 
 ```JavaScript
 /**
@@ -202,15 +206,15 @@ Ajoutez la fonction dans le fichier ui\_config.json en tant que :
     } 
 ```
 
-## Suppression d’une fonction de la barre d’outils
+## Supprimer une fonctionnalité de la barre d’outils
 
-Parfois, vous pouvez ne pas proposer toutes les fonctionnalités actuellement disponibles dans l’éditeur web. Dans ce cas, vous pouvez supprimer la fonction indésirable de la barre d’outils de l’éditeur web.
+Parfois, vous pouvez ne pas vouloir donner toutes les fonctionnalités actuellement disponibles dans l&#39;éditeur Web, dans ce cas, vous pouvez supprimer la fonctionnalité indésirable de la barre d&#39;outils de l&#39;éditeur Web.
 
-Pour supprimer toute fonction indésirable de la barre d’outils, procédez comme suit :
+Effectuez les étapes suivantes pour supprimer toute fonctionnalité indésirable de la barre d’outils :
 
-1. Connectez-vous à AEM et ouvrez le mode CRXDE Lite.
+1. Connectez-vous à AEM et ouvrez le mode CRXDE Lite .
 
-1. Accédez au fichier de configuration par défaut disponible à l’emplacement suivant : .
+1. Accédez au fichier de configuration par défaut disponible à l’emplacement suivant :.
 
    `/libs/fmdita/clientlibs/clientlibs/xmleditor/ui_config.json`
 
@@ -218,22 +222,22 @@ Pour supprimer toute fonction indésirable de la barre d’outils, procédez com
 
    `/apps/fmdita/xmleditor/ui_config.json`
 
-1. Accédez au fichier `ui_config.json` et ouvrez-le dans le noeud `apps` pour le modifier.
+1. Accédez au fichier `ui_config.json` et ouvrez-le dans le nœud `apps` pour le modifier.
 Le fichier `ui_config.json` comporte trois sections :
 
-- **barres d’outils :**   Cette section contient la définition de toutes les fonctionnalités disponibles dans la barre d’outils de l’éditeur, telles que Insérer/Supprimer la liste numérotée, \(fichier\) Fermer, Enregistrer, Commentaires, etc.
+- **toolbars:**   Cette section contient la définition de toutes les fonctionnalités disponibles dans la barre d’outils de l’éditeur, telles que Insérer/Supprimer une liste numérotée, \(fichier\) Fermer, Enregistrer, Commentaires, etc.
 
-- **raccourcis :**   Cette section contient la définition des raccourcis clavier affectés à une fonction particulière de l’éditeur.
+- **raccourcis:**   Cette section contient la définition des raccourcis clavier affectés à une fonctionnalité particulière de l’éditeur.
 
-- **templates:**   Cette section contient la structure prédéfinie des éléments DITA que vous pouvez utiliser dans votre document. Par défaut, la section Modèles contient des définitions de modèle pour un paragraphe, un tableau simple, un tableau et des éléments de corps. Vous pouvez créer une définition de modèle pour n’importe quel élément en ajoutant une structure XML valide pour l’élément souhaité. Par exemple, si vous souhaitez ajouter un élément `p` avec chaque nouvel élément `li` dans une liste, vous pouvez ajouter le code suivant à la fin de la section des modèles pour obtenir ce résultat :
+- **templates:**   Cette section contient la structure prédéfinie des éléments DITA que vous pouvez utiliser dans votre document. Par défaut, la section Modèles contient des définitions de modèle pour un paragraphe, un tableau simple, un tableau et des éléments de corps. Vous pouvez créer une définition de modèle pour n’importe quel élément en ajoutant une structure XML valide pour l’élément souhaité. Par exemple, si vous souhaitez ajouter un élément `p` avec chaque nouvel élément `li` dans une liste, vous pouvez ajouter le code suivant à la fin de la section modèles pour obtenir ce résultat :
 
 ```HTML
 "li": "<li><p></p></li>"
 ```
 
-1. Dans la section des barres d’outils, supprimez l’entrée de la fonction que vous ne souhaitez pas afficher à vos utilisateurs.
+1. Dans la section des barres d’outils, supprimez l’entrée de la fonction que vous ne souhaitez pas présenter à vos utilisateurs.
 
-1. Enregistrez le fichier *ui\_config.json* et rechargez l’éditeur Web.
+1. Enregistrez le fichier *ui\_config.json* et rechargez l’éditeur web.
 
 
 **Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)
