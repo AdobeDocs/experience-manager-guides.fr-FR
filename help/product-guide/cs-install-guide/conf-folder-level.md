@@ -5,7 +5,7 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
 workflow-type: tm+mt
 source-wordcount: '4756'
 ht-degree: 0%
@@ -548,17 +548,13 @@ Enregistrez ce fichier et chargez-le dans la section Disposition du modèle CSS.
 
 Les informations suivantes sont requises pour créer un fragment de code :
 
-snippetID
-:   Identifiant unique du fragment de code. Elle peut prendre une valeur alphanumérique.
+**snippetID** : ID unique du fragment de code. Elle peut prendre une valeur alphanumérique.
 
-nom
-:   Nom descriptif permettant d’identifier le fragment de code. Ce nom s’affiche dans le panneau Fragments de code.
+**name** - Nom descriptif pour identifier le fragment de code. Ce nom s’affiche dans le panneau Fragments de code.
 
-description
-:   Ajoutez une description du fragment de code.
+**description** - Ajoutez une description du fragment de code.
 
-valeur
-:   Indiquez le code XML du fragment de code.
+**value** - Indiquez le code XML du fragment de code.
 
 >[!NOTE]
 >
