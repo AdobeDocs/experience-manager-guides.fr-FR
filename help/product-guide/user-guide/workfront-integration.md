@@ -3,7 +3,8 @@ title: Intégration de Workfront
 description: Découvrez comment intégrer Workfront à Adobe Experience Manager Guides et commencer à créer des tâches pour les workflows de création, de publication, de révision et de traduction.
 feature: Authoring
 role: User
-source-git-commit: aa50c63588f18f2aabc03d8b81edca4281258876
+exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
+source-git-commit: dea9876cf0afa615f3719637c909bbda0d1d40b5
 workflow-type: tm+mt
 source-wordcount: '2436'
 ht-degree: 0%
@@ -40,7 +41,7 @@ Pour accéder aux tâches Adobe Workfront, procédez comme suit :
 
    La page **Tâches Workfront** s’affiche.
 
-   ![](./images/workfront-sign-in.png){width="800" align="left"}
+   ![](./images/workfront-sign-in.png){align="left"}
 3. Sélectionnez **Se connecter**.
 
    Vous êtes redirigé vers la page de connexion d’Adobe Workfront.
@@ -48,7 +49,7 @@ Pour accéder aux tâches Adobe Workfront, procédez comme suit :
 
    Vous êtes automatiquement redirigé vers la page **Tâches Workfront** sur Experience Manager Guides.
 
-   ![](./images/workfront-tasks-page.png){width="800" align="left"}
+   ![](./images/workfront-tasks-page.png){align="left"}
 
 ## Fonctionnalités disponibles sur la page des tâches de Workfront
 
@@ -72,7 +73,7 @@ Pour créer une tâche Adobe Workfront, procédez comme suit :
 
    La boîte de dialogue **Créer une tâche** s’affiche.
 
-   ![](./images/workfront-create-task.png){width="650" align="left"}
+   ![](./images/workfront-create-task.png){align="left"}
 2. Dans l&#39;onglet **Général**, renseignez les détails de la tâche :
 
    * **Type de tâche** : sélectionnez le type de tâche que vous souhaitez créer. Les options disponibles sont les suivantes : **Création**, **Révision**, **Publication** et **Traduction**.
@@ -83,20 +84,20 @@ Pour créer une tâche Adobe Workfront, procédez comme suit :
    * **Personne désignée** : sélectionnez une personne désignée pour la tâche.
 3. Dans l’onglet **Assets**, sélectionnez **Ajouter** pour ajouter une ressource à cette tâche.
 
-   ![](./images/workfront-create-tasks-asset.png){width="650" align="left"}
+   ![](./images/workfront-create-tasks-asset.png){align="left"}
 
    * Pour les tâches de création, de publication et de traduction, vous êtes invité à sélectionner l’emplacement du fichier requis dans la boîte de dialogue **Sélectionner le chemin**. Le fichier sélectionné (rubrique pour la création et le mappage pour la publication et la traduction) est ajouté à la tâche dès que le bouton **Créer** est sélectionné.
 
-     ![](./images/attach-asset.png){width="650" align="left"}
+     ![](./images/attach-asset.png){align="left"}
 
    * Pour les tâches de révision, vous êtes d’abord invité à sélectionner le type de ressource (Carte ou Rubriques), puis les fichiers sélectionnés s’affichent comme suit :
 
 
-     ![Ajout de mappages à une tâche de révision](./images/attach-asset-topics.png){width="650" align="left"}
+     ![Ajout de mappages à une tâche de révision](./images/attach-asset-topics.png){align="left"}
 
      *Ajout de rubriques à une tâche de révision*
 
-     ![Ajout de mappages à une tâche de révision](./images/attach-asset-maps.png){width="650" align="left"}
+     ![Ajout de mappages à une tâche de révision](./images/attach-asset-maps.png){align="left"}
 
      *Ajout de mappages à une tâche de révision*
 
@@ -125,7 +126,7 @@ Une nouvelle tâche est créée et répertoriée sous l’onglet **Créée par v
 
 Toutes les tâches que vous avez créées et qui sont toujours actives s’affichent dans l’onglet **Créées par vous** de la page des tâches de Workfront, vous donnant les détails clés de la tâche, tels que le nom du projet, les personnes désignées, la date de création de la tâche, la date d’achèvement de la tâche et le statut de la tâche.
 
-![](./images/workfront-tasks-created-by-you.png){width="800" align="left"}
+![](./images/workfront-tasks-created-by-you.png){align="left"}
 
 Les options suivantes sont disponibles lorsque vous pointez sur une tâche présente dans l’onglet Créé par vous :
 
@@ -147,7 +148,7 @@ Affiche les informations sur la tâche, y compris les détails saisis lors de la
 
 Toutes les tâches qui vous sont affectées et qui sont toujours actives sont affichées dans l’onglet **Affectées à vous** de la page des tâches de Workfront, vous donnant les détails clés de la tâche, tels que le nom du projet, les personnes désignées, la date d’échéance et le statut de la tâche.
 
-![](./images/workfront-tasks-assigned-to-you.png){width="800" align="left"}
+![](./images/workfront-tasks-assigned-to-you.png){align="left"}
 
 Les options suivantes sont disponibles lorsque vous pointez sur une tâche présente dans l’onglet Affecté à vous :
 
@@ -159,7 +160,7 @@ Permet d’ouvrir la tâche. Selon le type de la tâche, elle s’ouvre dans l�
 
 Affiche les informations sur la tâche, y compris les détails saisis lors de la création de la tâche, le statut de la tâche et les ressources ajoutées.
 
-![](images/task-details.png){width="800" align="left"}
+![](images/task-details.png){align="left"}
 
 #### Accès aux tâches affectées à partir de la section Aperçu
 
@@ -167,7 +168,7 @@ Vous pouvez également accéder aux tâches Adobe Workfront qui vous sont assign
 
 **Vos tâches** est l’un de ces widgets dans lequel la liste des tâches Adobe Workfront (qui vous sont affectées et qui sont toujours actives) s’affiche avec les détails clés de la tâche, y compris le nom de la tâche, le projet associé, la date d’échéance et le statut actuel.
 
-![](./images/workfront-your-tasks-widget.png){width="800" align="left"}
+![](./images/workfront-your-tasks-widget.png){align="left"}
 
 Tout comme l’onglet Qui vous est affecté, le widget Vos tâches fournit également des options pour **Ouvrir** et afficher **Détails de la tâche** lorsque vous passez la souris sur une tâche.
 
@@ -194,11 +195,11 @@ Effectuez les étapes suivantes pour travailler sur une tâche de création :
 
 1. Accédez à la tâche à partir de la section [Aperçu](#accessing-assigned-tasks-from-overview-section) ou de l’onglet [Affecté à vous](#managing-tasks-assigned-to-you).
 
-   ![Création de tâches dans l’onglet Affecté à vous](./images/authoring-task-access.png){width="650" align="left"}
+   ![Création de tâches dans l’onglet Affecté à vous](./images/authoring-task-access.png){align="left"}
 
    *Tâche de création dans l’onglet Affecté à vous*
 
-   ![ Création de tâches dans le widget Vos tâches ](./images/authoring-task-access-your-tasks.png){width="650" align="left"}
+   ![ Création de tâches dans le widget Vos tâches ](./images/authoring-task-access-your-tasks.png){align="left"}
 
    *Tâche de création dans le widget Vos tâches*
 2. Pointez sur la tâche sur laquelle vous souhaitez travailler et sélectionnez  ![](images/Smock_OpenIn_18_N.svg)  pour l&#39;ouvrir. Vous pouvez également ouvrir la tâche en la sélectionnant simplement.
@@ -206,7 +207,7 @@ Effectuez les étapes suivantes pour travailler sur une tâche de création :
    Toutes les tâches de création s’ouvrent dans l’éditeur.
 3. Passez en revue les détails de la tâche dans l’onglet **Détails** et sélectionnez le fichier **Ressource** pour l’ouvrir.
 
-   ![](./images/authoring-task-review-details-editor.png){width="650" align="left"}
+   ![](./images/authoring-task-review-details-editor.png){align="left"}
 
 4. Effectuez les modifications requises et sélectionnez **Marquer comme terminé**.
 5. Passez à l’onglet **Commentaires** pour ajouter un commentaire à cette tâche. Ces commentaires, ajoutés au niveau de la tâche, seront également répercutés sur le tableau de bord du projet Adobe Workfront.
@@ -223,18 +224,18 @@ Effectuez les étapes suivantes pour travailler sur une tâche de révision qui 
 
 1. Accédez à la tâche à partir de la section [Aperçu](#accessing-assigned-tasks-from-overview-section) ou de l’onglet [Affecté à vous](#managing-tasks-assigned-to-you).
 
-   ![Vérifier les tâches dans l’onglet Affectées à vous](./images/review-task-access.png){width="650" align="left"}
+   ![Vérifier les tâches dans l’onglet Affectées à vous](./images/review-task-access.png){align="left"}
 
    *Tâche de révision dans l’onglet Affecté à vous*
 
-   ![Vérifier les tâches dans le widget Vos tâches](./images/review-task-access-your-tasks.png){width="650" align="left"}
+   ![Vérifier les tâches dans le widget Vos tâches](./images/review-task-access-your-tasks.png){align="left"}
 
    *Tâche de création dans le widget Vos tâches*
 2. Pointez sur la tâche sur laquelle vous souhaitez travailler et sélectionnez  ![](images/Smock_OpenIn_18_N.svg)  pour l&#39;ouvrir. Vous pouvez également ouvrir la tâche en la sélectionnant simplement.
 
    Pour les réviseurs, la tâche de révision s’ouvre dans l’**interface utilisateur de révision**.
 
-   ![](./images/review-task-access-review-ui.png){width="650" align="left"}
+   ![](./images/review-task-access-review-ui.png){align="left"}
 
 3. Effectuez la révision requise. Pour plus d’informations sur la révision d’une rubrique, voir [réviser les rubriques](./review-topics.md).
 4. Une fois la révision terminée, sélectionnez **Marquer comme terminé**.
@@ -248,13 +249,13 @@ Le marquage de la tâche comme étant effectuée par le réviseur ou la réviseu
 
 Les tâches de révision réaffectées au créateur/aux auteurs pour l’incorporation de révision sont accessibles à partir de la section [Aperçu](#accessing-assigned-tasks-from-overview-section) ou de l’onglet [Affecté à vous](#managing-tasks-assigned-to-you).
 
-![Tâches de révision en mode Création](./images/review-task-author-mode.png){width="800" align="left"}
+![Tâches de révision en mode Création](./images/review-task-author-mode.png){align="left"}
 
 *Tâche de révision renvoyée aux auteurs*
 
 Pour ces tâches, l’état de la tâche de la personne désignée devient **Création** tandis que le type de tâche reste **Révision**. Ce changement d’état se produit lorsque la révision est terminée par tous les réviseurs.
 
-![](./images/review-tasks-with-authoring-doc-state.png){width="300" align="left"}
+![](./images/review-tasks-with-authoring-doc-state.png){align="left"}
 
 
 Si vous sélectionnez la tâche ou l’icône d’ouverture ![](images/Smock_OpenIn_18_N.svg) ouvre la tâche dans l’éditeur, où l’auteur peut [adresser les commentaires de révision](../user-guide/review-address-review-comments.md), modifier la tâche en mettant à jour la version des rubriques, puis réaffecter la tâche au réviseur ou à la réviseuse si nécessaire.
@@ -271,21 +272,21 @@ Effectuez les étapes suivantes pour travailler sur une tâche de traduction :
 
 1. Accédez à la tâche à partir de la section [Aperçu](#accessing-assigned-tasks-from-overview-section) ou de l’onglet [Affecté à vous](#managing-tasks-assigned-to-you).
 
-   ![Tâches de traduction dans l’onglet Affectées à vous ](./images/translation-tasks-access.png){width="650" align="left"}
+   ![Tâches de traduction dans l’onglet Affectées à vous ](./images/translation-tasks-access.png){align="left"}
 
    *Tâche de traduction dans l’onglet Affecté à vous*
 
-   ![ Tâches de traduction dans le widget Vos tâches ](./images/translation-tasks-access-your-tasks.png){width="650" align="left"}
+   ![ Tâches de traduction dans le widget Vos tâches ](./images/translation-tasks-access-your-tasks.png){align="left"}
 
    *Tâche de traduction dans le widget Vos tâches*
 
 2. Pointez sur la tâche sur laquelle vous souhaitez travailler et sélectionnez  ![](images/Smock_OpenIn_18_N.svg)  pour l’ouvrir dans la **console Mappage**. Vous pouvez également ouvrir la tâche en la sélectionnant simplement.
 3. Vérifiez les détails de la tâche et le fichier ajouté pour la traduction.
 
-   ![](./images/translation-tasks-review-details.png){width="650" align="left"}
+   ![](./images/translation-tasks-review-details.png){align="left"}
 4. Accédez à l’onglet **Traduction** pour les différentes options de traduction. Découvrez comment [traduire du contenu](../user-guide/translation.md) dans Experience Manager Guides.
 5. Effectuez la traduction requise et sélectionnez **Envoyer pour traduction**.
-   ![](./images/translation-tasks-send-translation.png){width="650" align="left"}
+   ![](./images/translation-tasks-send-translation.png){align="left"}
 6. Accédez à la section **Workfront** et sélectionnez **Marquer comme terminé** pour indiquer que la tâche est terminée.
 7. Passez à l’onglet **Commentaires** pour ajouter un commentaire à cette tâche. Ces commentaires, ajoutés au niveau de la tâche, seront reflétés dans le tableau de bord du projet Adobe Workfront.
 
@@ -301,17 +302,17 @@ Effectuez les étapes suivantes pour travailler sur une tâche de publication :
 
 1. Accédez à la tâche à partir de la section [Aperçu](#accessing-assigned-tasks-from-overview-section) ou de l’onglet [Affecté à vous](#managing-tasks-assigned-to-you).
 
-   ![Publication de tâches dans l’onglet Affectées à vous](./images/publishing-tasks-access.png){width="650" align="left"}
+   ![Publication de tâches dans l’onglet Affectées à vous](./images/publishing-tasks-access.png){align="left"}
 
    *Publication de la tâche dans l’onglet Affecté à vous*
 
-   ![ Publication de tâches dans le widget Vos tâches ](./images/publishing-tasks-access-your-tasks.png){width="650" align="left"}
+   ![ Publication de tâches dans le widget Vos tâches ](./images/publishing-tasks-access-your-tasks.png){align="left"}
 
    *Publication de la tâche dans le widget Vos tâches*
 2. Pointez sur la tâche sur laquelle vous souhaitez travailler et sélectionnez  ![](images/Smock_OpenIn_18_N.svg)  pour l’ouvrir dans la **console Mappage**. Vous pouvez également ouvrir la tâche en la sélectionnant simplement.
 3. Vérifiez les détails de la tâche et le fichier ajouté pour publication.
 
-   ![](./images/publishing-tasks-review-details.png){width="650" align="left"}
+   ![](./images/publishing-tasks-review-details.png){align="left"}
 4. Accédez aux **Paramètres prédéfinis de sortie** et effectuez les actions de publication requises pour publier la tâche. Pour plus d’informations, consultez la section [Présentation des paramètres prédéfinis de sortie](../user-guide/generate-output-understand-presets.md/).
 5. Une fois la publication terminée, accédez à la section **Workfront** et sélectionnez **Marquer comme terminé** pour indiquer que la tâche est terminée.
 6. Passez à l’onglet **Commentaires** pour ajouter un commentaire à cette tâche. Ces commentaires, ajoutés au niveau de la tâche, seront répercutés sur le tableau de bord du projet Workfront.
