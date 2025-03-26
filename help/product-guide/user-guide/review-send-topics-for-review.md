@@ -4,7 +4,7 @@ description: Découvrez comment créer une tâche de révision et envoyer des ru
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2793'
 ht-degree: 0%
@@ -95,7 +95,7 @@ Pour créer une tâche de révision et envoyer des rubriques à réviser, procé
 
    La page Contenu s’affiche.
 
-   ![](images/content_page_review.png){width="800" align="left"}
+   ![](images/content_page_review.png){align="left"}
 
 1. Sur la page Contenu, sélectionnez une version de la rubrique que vous souhaitez partager pour révision.
 
@@ -214,7 +214,7 @@ Pour envoyer une ou plusieurs rubriques avec le fichier de mappage pour révisio
 
    La page Contenu s’affiche avec toutes les rubriques référencées à partir du fichier de mappage. Si votre plan DITA contient des plans imbriqués, les rubriques des plans imbriqués sont également répertoriées ici.
 
-   ![](images/content-page-map-review.png){width="800" align="left"}
+   ![](images/content-page-map-review.png){align="left"}
 
 1. Sur la page Contenu, sélectionnez une version de la rubrique que vous souhaitez partager pour révision.
 

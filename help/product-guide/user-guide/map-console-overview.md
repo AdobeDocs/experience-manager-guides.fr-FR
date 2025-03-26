@@ -3,23 +3,23 @@ title: Console de mappage dans Adobe Experience Manager Guides
 description: Découvrez Map Console et les différentes fonctionnalités disponibles qui vous permettent de publier et de gérer des cartes dans Adobe Experience Manager Guides.
 feature: Publishing
 role: User
-source-git-commit: 4c13d0dab23c19fe2340128aaa05803bb711a486
+exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
 
 ---
 
-
 # Présentation de la console Carte
 
 Adobe Experience Manager Guides propose une console dédiée, appelée **console Map**, pour rationaliser toutes vos tâches de gestion et de publication de cartes. Cette interface centralisée améliore la productivité et la précision de vos activités liées aux cartes en vous offrant des options pour générer des sorties, traduire le contenu, accéder aux rapports, etc., le tout à un seul endroit.
 
-![onglet options des propriétés du fichier](./images/map-console-screen.png){width="800" align="left"}
+![onglet options des propriétés du fichier](./images/map-console-screen.png){align="left"}
 
 L’interface de Map Console est principalement divisée en deux sections : **Barre de navigation** et **Panneau de gauche**.
 
-![Nouveau](images/map-console-sections.png){width="800" align="left"}
+![Nouveau](images/map-console-sections.png){align="left"}
 
 - (**A**) **Barre de navigation** : la barre de navigation fait apparaître les outils permettant de changer de navigation, d’ajuster l’affichage de la page et d’afficher le nom du fichier de mappage sélectionné.
 

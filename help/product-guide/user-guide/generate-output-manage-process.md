@@ -3,7 +3,8 @@ title: Génération de sortie
 description: Gérez le processus de génération de sortie dans AEM Sites, PDF, HTML5, EPUB, personnalisé et JSON par le biais de plug-ins DITA-OT, de la publication Native PDF et de FMPS dans AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: b061bcbcefba1700665bed33f017a962e84a0433
+exl-id: 11bb3604-f45c-4df7-be74-588dbf8594af
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -26,7 +27,7 @@ Une fois que vous avez lancé la tâche de génération de sortie pour un mappag
 
 1. Sélectionnez **SORTIES**.
 
-   ![](images/output-queued.png){width="800" align="left"}
+   ![](images/output-queued.png){align="left"}
 
    La page Sorties est divisée en deux parties :
 
@@ -63,17 +64,17 @@ Effectuez les étapes suivantes pour annuler une tâche de génération de sorti
 
 1. Sélectionnez l’icône **Annuler ce traitement**.
 
-   ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
+   ![](images/cancel-publish-task-map-console.png){align="left"}
 
 1. Sélectionnez **Oui** dans l’invite de message **Confirmer l’annulation**.
 
-   ![](images/confirm-cancel-output-map-console.png){width="800" align="left"}
+   ![](images/confirm-cancel-output-map-console.png){align="left"}
 
    Si la tâche n&#39;est pas encore démarrée, la commande d&#39;annulation est exécutée sur la tâche. Pour une tâche en cours d&#39;annulation, le Statut est défini sur Annulation.
 
    Une fois la tâche annulée, elle est déplacée vers la liste **Sorties générées** avec un statut **Annulé**. Lorsque vous pointez sur la tâche annulée, le nom de l’utilisateur qui a annulé la tâche s’affiche. Dans la capture d’écran suivante, la tâche *HTML5* est annulée.
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){align="left"}
 
 
 ## Supprimer une tâche de sortie
@@ -90,9 +91,8 @@ Effectuez les étapes suivantes pour supprimer une tâche de sortie de la liste 
 
 1. Sélectionnez l’icône de suppression.
 
-   ![](images/delete-output-task.png){width="800" align="left"}
+   ![](images/delete-output-task.png){align="left"}
 
 1. Sélectionnez **Oui** dans l’invite de message **Confirmer la suppression**.
 
    La tâche est supprimée de la liste des Sorties générées .
-

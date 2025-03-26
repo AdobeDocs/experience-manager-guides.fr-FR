@@ -4,7 +4,7 @@ description: Créez et configurez le paramètre prédéfini AEM Sites dans la co
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '3533'
 ht-degree: 0%
@@ -122,7 +122,7 @@ L&#39;onglet **Contenu** contient les options de paramétrage suivantes :
 
 L&#39;onglet **Liste des rubriques** affiche la liste des rubriques présentes dans la copie de travail actuelle du plan DITA. Par défaut, toutes les rubriques sont incluses. Vous pouvez sélectionner des rubriques spécifiques et générer la sortie AEM Sites uniquement pour celles-ci. Par exemple, vous avez mis à jour certaines rubriques afin de ne publier que ces rubriques au lieu de publier l&#39;ensemble du plan DITA.
 
-![liste de rubriques aem sites](images/aem-presets-topic-list.png) {width="800" align="left"}
+![liste de rubriques aem sites](images/aem-presets-topic-list.png) {align="left"}
 
 
 >[!NOTE]

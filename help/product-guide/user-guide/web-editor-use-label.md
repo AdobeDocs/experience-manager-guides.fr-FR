@@ -4,7 +4,7 @@ description: Découvrez l’utilisation des libellés pour les différentes vers
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Pour ajouter un libellé à votre rubrique à partir de l’éditeur, procédez 
 
 Pour supprimer un libellé de version d’une rubrique, utilisez l’icône **Supprimer** associée à chaque libellé ajouté dans la boîte de dialogue Gestion des libellés de version.
 
-![](images/remove-version-label.png){width="800" align="left"}
+![](images/remove-version-label.png){align="left"}
 
 
 ## Utilisation des libellés de l’interface utilisateur d’Assets

@@ -4,7 +4,7 @@ description: Découvrez comment fonctionne la génération de sortie incrémenti
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: b061bcbcefba1700665bed33f017a962e84a0433
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Effectuez les étapes suivantes pour générer une sortie incrémentielle pour A
 1. Sélectionnez le paramètre prédéfini AEM Sites pour lequel vous souhaitez générer une sortie incrémentielle.
 1. Dans l’onglet **Rubriques**, sélectionnez les rubriques que vous souhaitez publier.
 
-   ![liste de rubriques aem sites](images/aem-presets-topic-list.png) {width="800" align="left"}
+   ![liste de rubriques aem sites](images/aem-presets-topic-list.png) {align="left"}
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ Effectuez les étapes suivantes pour générer une sortie incrémentielle pour A
    >
    > Si vous avez ajouté de nouvelles rubriques au plan DITA, vous ne pourrez pas générer ces nouvelles rubriques à partir d&#39;ici. Vous devez d&#39;abord publier les rubriques nouvellement ajoutées à l&#39;aide de la fonction de publication de plan DITA.
 
-   ![](images/regenerate-topics.png){width="800" align="left"}
+   ![](images/regenerate-topics.png){align="left"}
 
 1. Sélectionnez **Régénérer**.
 

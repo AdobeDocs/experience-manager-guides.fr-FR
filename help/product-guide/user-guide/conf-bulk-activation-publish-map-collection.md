@@ -4,7 +4,7 @@ description: Activez la sortie des plans DITA dans AEM Guides. Découvrez commen
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: a00674a98e4ba87dbc5ddac3412cedca15a205bd
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Une fois que vous avez créé une collection de mappages pour l’activation en 
 
 1. Sélectionnez la collection que vous souhaitez publier, puis sélectionnez **Ouvrir**.
 
-   ![](images/bulk-activation-collection-open.png){width="800" align="left"}
+   ![](images/bulk-activation-collection-open.png){align="left"}
 
 1. \(*Facultatif*\) Appliquez les filtres requis à partir du rail de gauche pour filtrer la carte en fonction de leur \(statut\), de leur paramètre prédéfini de sortie ou de leur langue modifié.
 
@@ -49,7 +49,7 @@ Vous pouvez activer la sortie sur les instances **Aperçu** ou **Publication**.
 * Pour activer la sortie de tous les plans DITA avec leurs paramètres prédéfinis configurés, cochez la case en regard de la colonne **Plan**, puis sélectionnez **Publier vers** > **Publier**.
 
 
-**Publication**
+**Publier**
 
 * Pour activer la sortie des mappages sélectionnés, sélectionnez la sortie de mappage prégénérée et sélectionnez **Publier vers** > **Publier**.
 

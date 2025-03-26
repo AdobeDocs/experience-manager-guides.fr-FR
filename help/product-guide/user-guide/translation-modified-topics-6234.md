@@ -4,7 +4,7 @@ description: Découvrez comment retraduire une rubrique modifiée dans AEM Guide
 exl-id: b3228ea9-24a8-44aa-8ba4-e8f44754ffe4
 feature: Translation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Effectuez les étapes suivantes pour envoyer une rubrique modifiée pour retradu
 
    Si vous sélectionnez la flèche pour afficher plus de détails, vous pouvez afficher la copie de langue spécifique qui n’est pas synchronisée.
 
-   ![](images/out-of-sync-uuid-new.png){width="800" align="left"}
+   ![](images/out-of-sync-uuid-new.png){align="left"}
 
 1. Cochez la case pour sélectionner les rubriques à envoyer pour une nouvelle traduction.
 

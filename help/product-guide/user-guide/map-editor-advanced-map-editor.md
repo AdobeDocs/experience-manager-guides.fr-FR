@@ -4,7 +4,7 @@ description: connaître les fonctionnalités de l’éditeur de cartes dans Adob
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2570'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Les options suivantes sont disponibles sur la barre d’outils en mode Mise en p
 
 Affiche la boîte de dialogue de recherche de rubrique. Accédez au fichier de rubrique/mappage à insérer et choisissez **Sélectionner** pour l’ajouter au mappage.
 
-![](images/insert-topic-reference-dialog.png){width="800" align="left"}
+![](images/insert-topic-reference-dialog.png){align="left"}
 
 
 **Groupe de sujets** - ![](images/topic-group.svg)
@@ -140,7 +140,7 @@ Si vous avez appliqué des conditions à une rubrique, une icône de filtre s’
 
 La vue **Auteur** vous permet de modifier votre plan DITA dans l&#39;éditeur. La vue WYSIWYG de l’éditeur de cartes s’affiche, et certaines des icônes affichées en mode Création sont identiques à la vue Mise en page.
 
-![](images/map-editor-author-view.png){width="800" align="left"}
+![](images/map-editor-author-view.png){align="left"}
 
 En outre, vous pouvez afficher les icônes suivantes et effectuer les tâches associées à partir de la vue Auteur :
 
@@ -243,7 +243,7 @@ Vous pouvez créer une tâche de révision de la rubrique active ou mapper le fi
 
 Cette vue vous permet de modifier le contenu dans son format brut, ce qui vous permet de contrôler entièrement la structure et la mise en forme.
 
-![](images/map-editor-source-view.png){width="800" align="left"}
+![](images/map-editor-source-view.png){align="left"}
 
 
 Dans cette vue, la barre d’outils fournit des options de base d’édition et d’insertion de contenu disponibles sous la liste déroulante **Menu**, notamment Couper, Copier, Annuler, Rétablir, Supprimer, Rechercher et remplacer, Libellé de version, Fusionner, Enregistrer comme nouvelle version, Verrouiller et Déverrouiller.
@@ -254,7 +254,7 @@ Le mode Prévisualisation rend le contenu tel qu’il apparaîtra dans la sortie
 
 En plus de pouvoir afficher la position de chaque fichier de rubrique dans une carte, il est souhaitable d’afficher le contenu de la carte dans un flux consécutif. La fonction Aperçu de la carte vous permet d&#39;afficher l&#39;intégralité du contenu du fichier de carte en un seul clic. Il n’est pas nécessaire de générer une sortie du fichier de mappage pour voir à quoi ressemblera l’ensemble du mappage une fois publié. Vous pouvez simplement accéder à l&#39;aperçu de la carte et tous les sujets et sous-cartes sont rendus sous la forme d&#39;un livre.
 
-![](images/map-editor-preview.png){width="800" align="left"}
+![](images/map-editor-preview.png){align="left"}
 
 >[!NOTE]
 >
@@ -315,7 +315,7 @@ Pour modifier des rubriques via un plan DITA, procédez comme suit :
 
    Vous pouvez ouvrir plusieurs rubriques dans l’éditeur et chaque rubrique est ouverte dans un nouvel onglet de l’éditeur. Même si votre plan DITA contient des sous-plans, les rubriques des sous-plans sont également ouvertes dans un nouvel onglet pour modification. Si vous souhaitez visualiser les rubriques sous une sous-carte, vous pouvez sélectionner et développer la sous-carte.
 
-   ![](images/web-editor-multiple-topics.png){width="800" align="left"}
+   ![](images/web-editor-multiple-topics.png){align="left"}
 
    Si vous sélectionnez un fichier de mappage, le mappage est ouvert dans un nouvel onglet de l’éditeur.
 

@@ -4,7 +4,7 @@ description: Découvrez comment afficher le statut de traduction et les copies d
 exl-id: 6ed30bc6-3030-40fd-987a-928fd5b06ee6
 feature: Translation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -26,6 +26,6 @@ Pour afficher le statut de traduction d&#39;un plan DITA, procédez comme suit :
    >
    > Vous pouvez filtrer davantage le contenu en fonction de son statut de traduction \(comme Copie manquante non synchronisée, En cours, ou Synchronisé\), de son type de Source \(comme Tous, DITA, plan DITA ou Ressource\) et de sa date de modification. De plus, vous pouvez saisir des mots-clés pour rechercher des sujets spécifiques. Vous pouvez utiliser **Actualiser** pour mettre à jour le statut si des modifications ont été apportées.
 
-   ![](images/translation-status-new.png){width="800" align="left"}
+   ![](images/translation-status-new.png){align="left"}
 
 **Rubrique parente :**[ Présentation de la traduction de contenu](translation.md)

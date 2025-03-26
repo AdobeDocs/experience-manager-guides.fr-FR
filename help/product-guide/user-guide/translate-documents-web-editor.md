@@ -4,7 +4,7 @@ description: Traduisez votre contenu dans plusieurs langues à partir de l’éd
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 6b4908e9780ec70f4d11a21680bba384c9636485
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2365'
 ht-degree: 1%
@@ -93,7 +93,7 @@ Avant d’effectuer les étapes de cette procédure, assurez-vous d’avoir cré
    - **Libellé cible** : libellé de la version sélectionnée du fichier cible
 1. Sélectionnez **Envoyer pour traduction** dans le coin supérieur droit.
 
-   ![](images/translation-send.png){width="800" align="left"}
+   ![](images/translation-send.png){align="left"}
 
 1. Dans la liste déroulante, sélectionnez **Créer un projet de traduction**.
 

@@ -4,7 +4,7 @@ description: Création d’une carte avec l’éditeur de cartes dans Experience
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Pour créer un mappage, procédez comme suit :
 
 1. Dans le panneau Référentiel, sélectionnez l’icône **Nouveau fichier** puis sélectionnez **DITA Map** dans le menu déroulant.
 
-   ![](images/create-map-options.png){width="800" align="left"}
+   ![](images/create-map-options.png){align="left"}
 
    Vous pouvez également accéder à cette option à partir de la page d&#39;accueil [Experience Manager Guides](./intro-home-page.md) et du menu d&#39;options d&#39;un dossier dans la vue Référentiel.
 
@@ -38,7 +38,7 @@ Pour créer un mappage, procédez comme suit :
 
 La carte est créée à l’emplacement spécifié. En outre, la carte est ouverte dans l’éditeur de cartes pour modification.
 
-![](images/map-file-in-map-editor.png){width="800" align="left"}
+![](images/map-file-in-map-editor.png){align="left"}
 
 ## Ajouter des rubriques à un fichier de mappage
 
@@ -53,7 +53,7 @@ Effectuez les étapes suivantes pour ajouter des rubriques à un fichier de mapp
 
 1. Le fichier de mappage s’ouvre dans l’éditeur de mappages. Si vous avez ouvert un nouveau fichier de mappage, seul le titre du mappage s’affiche dans l’éditeur.
 
-   ![](images/new-map-file-in-editor.png){width="800" align="left"}
+   ![](images/new-map-file-in-editor.png){align="left"}
 
 
    - **A** - \(*Barre d’onglets*\) : similaire à la barre d’onglets de l’éditeur. Afficher [barre d’onglets](./web-editor-features.md#tab-bar) dans l’éditeur pour plus d’informations.
@@ -76,7 +76,7 @@ Effectuez les étapes suivantes pour ajouter des rubriques à un fichier de mapp
 
    La rubrique est ajoutée dans la carte.
 
-   ![ajout d’une rubrique dans l’éditeur de mappages](images/map-editor-add-topic.png){width="800" align="left"}
+   ![ajout d’une rubrique dans l’éditeur de mappages](images/map-editor-add-topic.png){align="left"}
 
 1. Pour ajouter des rubriques suivantes ou une sous-carte, faites glisser et déposez la rubrique ou la sous-carte vers l’emplacement souhaité dans la carte.
 
@@ -84,7 +84,7 @@ Effectuez les étapes suivantes pour ajouter des rubriques à un fichier de mapp
 
    - Le fichier est ajouté à un emplacement où la barre rectangle en tirets apparaît dans la zone de modification de carte. Dans la capture d’écran suivante, la rubrique *Exemple de rubrique* est ajoutée entre les rubriques *Suggestion intelligente 1* et *Suggestion intelligente 2*.
 
-     ![](images/horizontal-line-in-adv-map-editor.png){width="800" align="left"}
+     ![](images/horizontal-line-in-adv-map-editor.png){align="left"}
 
    - Pour remplacer une rubrique, glissez-déposez la nouvelle rubrique en haut de la rubrique à remplacer. et le déposer indique qu’il sera remplacé par le topic qui y est déposé.
 
@@ -94,7 +94,7 @@ Effectuez les étapes suivantes pour ajouter des rubriques à un fichier de mapp
 
    - Pour modifier la position d’une rubrique, sélectionnez la rubrique \(en sélectionnant l’icône de rubrique\), puis faites-la glisser à l’emplacement souhaité dans le fichier de mappage. Dans la capture d’écran suivante, la rubrique *Suggestion intelligente 1* est déplacée après la rubrique *Exemple de rubrique*.
 
-     ![](images/move-topic-adv-map-editor.png){width="800" align="left"}
+     ![](images/move-topic-adv-map-editor.png){align="left"}
 
    - Pour vérifier les propriétés de votre fichier de carte, cliquez avec le bouton droit de la souris n&#39;importe où dans la zone d&#39;édition de la carte et choisissez **Propriétés** dans le menu contextuel. En fonction de votre version de Adobe Experience Manager, vous pouvez afficher des propriétés telles que les métadonnées, la planification de l’activation \(de\), les références, l’état du document, etc.
 
@@ -116,7 +116,7 @@ Pour créer un mappage à partir de l’interface utilisateur d’Assets, procé
    >
    > La manière dont les rubriques sont référencées dans un fichier de mappage dépend du modèle de mappage. Par exemple, si vous sélectionnez le modèle Mappage, les références de rubrique \(`topicref`\) sont utilisées pour faire référence aux rubriques. Dans le cas d&#39;un Bookmap, les références de rubrique sont créées à l&#39;aide de l&#39;élément `chapter` dans DITA.
 
-   ![](images/map-template.png){width="800" align="left"}
+   ![](images/map-template.png){align="left"}
 
 1. Sur la page Propriétés , spécifiez le mappage **Titre**.
 
@@ -132,7 +132,7 @@ Pour créer un mappage à partir de l’interface utilisateur d’Assets, procé
 
    Chaque nouveau fichier de mappage que vous créez à partir de l’interface utilisateur d’Assets ou de l’éditeur se voit attribuer un identifiant de mappage unique. En outre, la nouvelle carte est enregistrée comme dernière copie de travail dans la gestion des ressources numériques. Tant que vous n’avez pas enregistré une révision d’un mappage nouvellement créé, vous n’afficherez aucun numéro de version dans l’historique des versions. Si vous ouvrez la carte pour la modifier, les informations de version s’affichent dans le coin supérieur droit de l’onglet du fichier de carte :
 
-   ![](images/first-version-map-none.png){width="800" align="left"}
+   ![](images/first-version-map-none.png){align="left"}
 
    Les informations de version d’un mappage nouvellement créé s’affichent sous la forme *aucune*. Lorsque vous enregistrez une nouvelle version, un numéro de version 1.0 lui est attribué. Pour plus d’informations sur l’enregistrement d’une nouvelle version, voir [Enregistrer en tant que nouvelle version](web-editor-features.md#save-as-new-version).
 
@@ -160,11 +160,11 @@ Pour ajouter des rubriques à un fichier de mappage à partir de l’interface u
 
 1. Une fois le fichier de mappage sélectionné, sélectionnez **Modifier les rubriques**.
 
-   ![](images/edit-map-main-menu.png){width="800" align="left"}
+   ![](images/edit-map-main-menu.png){align="left"}
 
    Vous pouvez également sélectionner l’option **Modifier les rubriques** dans le menu d’actions du fichier de mappage :
 
-   ![](images/edit-map-action-menu.png){width="800" align="left"}
+   ![](images/edit-map-action-menu.png){align="left"}
 
    Le fichier de mappage est ouvert pour modification dans l’éditeur. Pour ajouter des rubriques au fichier de mappage, suivez les étapes (4-8) de la section [Ajouter des rubriques à un fichier de mappage](#add-topics-to-a-map-file).
 

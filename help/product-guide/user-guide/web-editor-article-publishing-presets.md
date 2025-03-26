@@ -4,7 +4,7 @@ description: Créez des paramètres prédéfinis de sortie à partir de l’édi
 exl-id: cd38b039-ef91-45c9-a226-433e57b09873
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 5011481c25b4888a3e72b0e2238b10d8e2fbc191
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -41,21 +41,21 @@ Pour créer des paramètres prédéfinis de sortie pour votre plan DITA, procéd
    Le paramètre prédéfini de la base de connaissances est créé.
 
 
-   ![Nouveau ](images/knowledge-base-preset-dialog-box.png){width="800" align="left"}
+   ![Nouveau ](images/knowledge-base-preset-dialog-box.png){align="left"}
 
 Une fois le paramètre prédéfini créé, vous pouvez générer la sortie pour des articles spécifiques de la base de connaissances. Pour ce faire, accédez à l’onglet **Articles** et sélectionnez les rubriques pour lesquelles vous souhaitez générer la sortie.
 1. Sélectionnez **Générer la sortie** en haut pour générer la sortie.
 
-   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
+   ![](images/add-preset-articles-tab_cs.png){align="left"}
 
 1. Dans l’invite **Confirmer les fichiers à publier**, sélectionnez les fichiers à publier et confirmez en sélectionnant **Publier**.
 
-   ![Nouveau ](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
+   ![Nouveau ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
 Vous verrez l’état du processus de génération de sortie. La colonne **Rubriques** répertorie les rubriques pour lesquelles une sortie est générée tandis que la colonne **Statut** affiche le statut de publication de chaque rubrique.
 
 
-![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+![](images/add-preset-output-generated_cs.png){align="left"}
 
 Pour afficher la sortie, fermez la boîte de dialogue Sortie générée et sélectionnez **Afficher la sortie** sur la page du paramètre prédéfini.
 

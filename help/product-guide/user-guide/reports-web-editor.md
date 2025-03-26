@@ -4,7 +4,7 @@ description: Générez des rapports DITA map à partir de la console Map dans AE
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2568'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Vous pouvez afficher la liste des rubriques, gérer les métadonnées de toutes 
 
 Vous pouvez localiser les quatre rapports à partir du panneau **Rapports**. Selon vos besoins, vous pouvez sélectionner l’un des rapports, comme illustré ici.
 
-![](images/reports-demo.png){width="800" align="left"}
+![](images/reports-demo.png){align="left"}
 
 Le panneau Rapports permet d’accéder à quatre types de rapports différents. Chaque rapport, ainsi que son accessibilité et ses fonctionnalités, sont expliqués en détail ci-dessous.
 
@@ -44,7 +44,7 @@ Vous pouvez afficher le rapport de liste de rubriques d’une carte en procédan
 
 1. Sélectionnez **Liste de rubriques** dans le panneau Rapports. La liste des rubriques présentes dans le plan DITA s&#39;affiche.
 
-   ![](images/web-editor-topiclist-panel-new.png){width="800" align="left"}
+   ![](images/web-editor-topiclist-panel-new.png){align="left"}
 
 1. Dans le panneau **Filtres** vous pouvez filtrer les rubriques en fonction du **Type de référence** \(direct ou indirect\), **État du document** \(par exemple, si vos rubriques sont à l’état Modifier, En cours de révision ou Révisé, elles sont répertoriées\) ou du **Auteur** de la rubrique.
 
@@ -78,7 +78,7 @@ Vous pouvez afficher le rapport de métadonnées d’une carte en procédant com
 1. Sélectionnez **Métadonnées** dans le panneau Rapports. La liste de toutes les références d’un mappage s’affiche avec ses métadonnées telles que les balises, l’état du document et les métadonnées personnalisées. Pour ajouter une nouvelle colonne de métadonnées personnalisée, reportez-vous à la section [Ajouter des colonnes de métadonnées personnalisées](#add-custom-metadata-columns).
 
 
-   ![](images/web-editor-metadata-panel-new.png){width="800" align="left"}
+   ![](images/web-editor-metadata-panel-new.png){align="left"}
 
 
 1. Dans le panneau **Filtres**, vous pouvez filtrer les rubriques en fonction de **État du document** \(par exemple, si vos rubriques sont à l’état Modifier, En cours de révision ou Révisé, elles sont répertoriées\), **Références** \(direct ou indirect\), **Type de fichier** \(Carte, Rubrique, Document, Image, Vidéo et autres\) de la référence.
@@ -127,7 +127,7 @@ Pour mettre à jour les métadonnées, procédez comme suit :
    >
    > Vous ne pouvez pas sélectionner de fichiers extraits. Une icône extraite s’affiche également à côté du titre d’un fichier extrait. Vous pouvez pointer sur l’icône pour afficher le nom de l’utilisateur.
 
-   ![](images/all-selection.png){width="800" align="left"}
+   ![](images/all-selection.png){align="left"}
 
 
 1. Sélectionnez **Gérer** dans la partie supérieure.
@@ -225,13 +225,13 @@ Vous pouvez afficher le rapport pour les liens rompus en procédant comme suit :
    - Lorsque vous triez par **Lien rompu**, les chemins d’accès des liens rompus sont affichés dans la première colonne, puis les noms de toutes les références dans lesquelles ils ont été utilisés sont affichés dans une autre colonne sur des lignes distinctes. Si le même lien rompu est utilisé dans plusieurs fichiers, ils sont affichés sur une ligne et présentés comme regroupés ou sous-lignes. Par exemple, la capture d’écran suivante montre deux liens rompus dans la première colonne et la référence dans laquelle ils sont utilisés, `m_ElectricalSpecs_900.ditamap` s’affiche dans la troisième colonne sur deux lignes distinctes.
 
 
-   ![](images/broken-link-report-new.png){width="800" align="left"}
+   ![](images/broken-link-report-new.png){align="left"}
 
 
    - Si vous triez par colonne **Utilisé dans**, vous verrez la vue transposée dans laquelle les noms des références dans lesquelles les liens rompus ont été utilisés sont répertoriés dans la première colonne tandis que les liens rompus sont répertoriés dans une autre colonne de la même ligne. Par exemple, la capture d’écran suivante montre la référence (dans laquelle le lien rompu est utilisé) `m_ElectricalSpecs_900.ditamap` dans la première colonne et les liens rompus sont affichés dans la troisième colonne de la même ligne.
 
 
-   ![](images/broken-link-filter-usedin-new.png){width="800" align="left"}
+   ![](images/broken-link-filter-usedin-new.png){align="left"}
 
 
 1. Vous pouvez filtrer les liens rompus en fonction du **Type de fichier** et du **Type de lien**. La liste des liens rompus s’affiche en fonction de votre sélection dans la liste déroulante. Par exemple, vous pouvez choisir d&#39;afficher uniquement les références de contenu dans votre plan DITA et un fichier affiche uniquement les références de contenu rompues qui y sont utilisées.

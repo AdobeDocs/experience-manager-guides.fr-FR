@@ -4,7 +4,7 @@ description: Découvrez comment transmettre les métadonnées à la sortie à l�
 exl-id: 70ca32dc-56c3-45ee-b6b9-0efb8cc79ea1
 feature: Publishing, Metadata Management
 role: User
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Effectuez les étapes suivantes pour transmettre les métadonnées à la sortie 
 1. Sélectionnez et ouvrez un paramètre prédéfini de sortie auquel vous souhaitez transmettre les champs de métadonnées. Par exemple, sélectionnez le paramètre prédéfini de sortie PDF. Assurez-vous qu’il est créé à l’aide de l’option **DITA-OT**.
 1. Dans la liste déroulante **Propriétés du fichier** sélectionnez les métadonnées que vous souhaitez transmettre à la publication DITA-OT.
 
-   ![](images/custom-metadata-output-preset-new.png){width="800" align="left"}
+   ![](images/custom-metadata-output-preset-new.png){align="left"}
 
    La liste déroulante Propriétés répertorie les propriétés personnalisées et par défaut. Par exemple, dans la capture d’écran ci-dessus, `dc:description`, `dc:language`, `dc:title` et `docstate` sont les propriétés par défaut.
 
@@ -61,7 +61,7 @@ Si vous travaillez sur l’**interface utilisateur d’Assets**, effectuez les �
 1. Sélectionnez et modifiez un paramètre prédéfini de sortie auquel vous souhaitez transmettre les champs de métadonnées. Par exemple, sélectionnez le paramètre prédéfini de sortie PDF.
 1. Sélectionnez l’option **DITA-OT** dans le paramètre prédéfini de sortie sélectionné.
 
-   ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
+   ![](images/custom-meta-data-output-preset.png){align="left"}
 
 1. Dans la liste déroulante Propriétés , sélectionnez les métadonnées que vous souhaitez transmettre à la publication DITA-OT.
 

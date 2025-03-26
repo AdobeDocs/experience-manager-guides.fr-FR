@@ -4,7 +4,7 @@ description: Découvrez comment créer un modèle personnalisé, les utiliser po
 exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Pour créer un mappage ou un modèle de rubrique à partir de l’interface util
 
 1. Dans l’**interface utilisateur d’Assets**, accédez au dossier dita-templates .
 
-   ![](images/dita-templates.png){width="800" align="left"}
+   ![](images/dita-templates.png){align="left"}
 
 1. Ouvrez le dossier **topics** pour créer un modèle **Topic**. Ouvrez le dossier **mappages** pour créer un modèle **Mappage**.
 1. Sélectionnez **Créer \> modèle DITA**.

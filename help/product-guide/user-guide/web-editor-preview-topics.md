@@ -4,7 +4,7 @@ description: Découvrez comment prévisualiser une rubrique dans Adobe Experienc
 exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
 feature: Authoring
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Pour prévisualiser une rubrique à partir de l’éditeur, procédez comme suit
 
    L’aperçu de la rubrique s’affiche.
 
-   ![](images/preview-pop-up.png){width="800" align="left"}
+   ![](images/preview-pop-up.png){align="left"}
 
 **Aperçu des rubriques en mode Aperçu**
 
@@ -61,7 +61,7 @@ Pour prévisualiser une rubrique, procédez comme suit :
 
 Les opérations suivantes sont disponibles dans la barre d’outils lors de l’utilisation de la fonction Aperçu de l’interface utilisateur d’Assets :
 
-![](images/preview-screen.png){width="800" align="left"}
+![](images/preview-screen.png){align="left"}
 
 
 **Propriétés**
@@ -78,7 +78,7 @@ Les références **Utilisé dans** répertorient les documents dans lesquels le 
 
 L’icône \(+\) de la section Références **Utilisé dans** vous permet de naviguer plus haut pour trouver où cette rubrique est utilisée ou référencée.
 
-![](images/used-in-dialog_cs.png){width="800" align="left"}
+![](images/used-in-dialog_cs.png){align="left"}
 
 Si vous sélectionnez l’icône ![](images/right-arrow-used-in-dialog.svg) en regard d’un document, les fichiers de carte ou de rubrique dans lesquels ce document est référencé s’affichent.
 
@@ -108,7 +108,7 @@ Si votre rubrique comporte du contenu conditionnel, l’icône A/B de la barre d
   >
   > Pour obtenir l&#39;affichage du code source d&#39;un fichier de plan DITA, sélectionnez le fichier dans l&#39;interface utilisateur d&#39;Assets et sélectionnez Source.
 
-  ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png){align="left"}
 
 **Partager un lien UUID**
 
@@ -120,7 +120,7 @@ Si votre rubrique comporte du contenu conditionnel, l’icône A/B de la barre d
 
 Une nouvelle option **Partager le lien UUID** s’affiche dans la barre d’outils des zones mentionnées ci-dessus. La capture d’écran suivante présente l’option **Partager le lien UUID** en mode Aperçu d’une rubrique :
 
-![](images/share-uuid-link_cs.png){width="800" align="left"}
+![](images/share-uuid-link_cs.png){align="left"}
 
 Dans l’interface utilisateur d’Assets, cette option est visible lorsque vous sélectionnez un fichier. En mode Aperçu , cette option est disponible par défaut dans la barre d’outils principale. Dans une console de plan DITA, cette option est visible dans la section Paramètres prédéfinis de sortie .
 
@@ -148,7 +148,7 @@ Fichier extrait dans la vue Liste :
 
 Si la colonne Extrait n’est pas visible, sélectionnez **Paramètres d’affichage** sous **Vue Liste** et sélectionnez le statut **Extrait** dans la boîte de dialogue **Configurer les colonnes**.
 
-![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
+![](images/list-view-settings-check-out_cs.png){align="left"}
 
 >[!TIP]
 >
@@ -166,17 +166,17 @@ Si la colonne Extrait n’est pas visible, sélectionnez **Paramètres d’affic
 
    1. Dans le rail de gauche, sélectionnez **Historique des versions** et sélectionnez une version.
 
-      ![](images/timeline-versions62_cs.png){width="800" align="left"}
+      ![](images/timeline-versions62_cs.png){align="left"}
 
    1. Dans la liste des versions, sélectionnez celle que vous souhaitez utiliser comme version de base et sélectionnez **Aperçu de la version**. La prévisualisation de la version sélectionnée s’affiche dans la fenêtre Aperçu de la version .
 
    1. Dans la liste **Afficher la différence**, sélectionnez la version avec laquelle vous souhaitez comparer la version de base.
 
-      ![](images/show-diff-list-cropped.png){width="800" align="left"}
+      ![](images/show-diff-list-cropped.png){align="left"}
 
       Le contenu modifié est mis en surbrillance dans l’aperçu de la rubrique. Le contenu surligné en vert signifie que le contenu qui vient d’être ajouté et le contenu en rouge est le contenu supprimé.
 
-      ![](images/version-difference.png){width="800" align="left"}
+      ![](images/version-difference.png){align="left"}
 
 
 ## Branche, rétablissement et contrôle de version ultérieur

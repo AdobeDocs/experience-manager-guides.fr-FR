@@ -4,7 +4,7 @@ description: Créez et configurez le paramètre prédéfini de sites AEM dans AE
 feature: Publishing
 role: User
 exl-id: 641c98ca-b815-4176-abf5-a12c31ff4496
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Il est très courant de disposer d&#39;un jeu volumineux de documentation répar
 
 Une autre façon de lier du contenu consiste à créer un lien à l’aide du `@scope` `peer`. Pour ce type de contenu, le lien est résolu au moment de l&#39;exécution en sélectionnant le titre du fichier et le contexte configuré pour la rubrique liée dans le contexte de publication du plan DITA. La capture d’écran suivante présente le panneau Propriétés d’un lien avec le `@scope` `peer` :
 
-![](images/peer-link-scope-link-new.png){width="800" align="left"}
+![](images/peer-link-scope-link-new.png){align="left"}
 
 Pour simplifier la publication de mappages complexes et de rubriques liées à d’autres rubriques dans d’autres mappages, Adobe Experience Manager Guides vous permet de définir le contexte de publication pour chaque paramètre prédéfini de sortie.
 
@@ -65,7 +65,7 @@ Pour spécifier le contexte de publication des fichiers liés, procédez comme s
 
    Vous obtenez les onglets Paramètres prédéfinis d’AEM et Contexte de publication .
 
-   ![](images/aem-site-publish-settings.png){width="800" align="left"}
+   ![](images/aem-site-publish-settings.png){align="left"}
 
 1. Ouvrez l’onglet **Contexte de publication**.
 
@@ -77,7 +77,7 @@ Pour spécifier le contexte de publication des fichiers liés, procédez comme s
 
    Par défaut, le dernier paramètre prédéfini de sortie et le dernier mappage sont sélectionnés pour toutes les rubriques liées.
 
-   ![](images/default-publish-context.png){width="800" align="left"}
+   ![](images/default-publish-context.png){align="left"}
 
 1. Pour modifier la sélection par défaut d&#39;un plan et d&#39;un paramètre prédéfini DITA, sélectionnez **Modifier** \(dans la barre d&#39;outils principale\).
 

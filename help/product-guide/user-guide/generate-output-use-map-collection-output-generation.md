@@ -4,7 +4,7 @@ description: Découvrez comment créer et supprimer une collection de cartes et 
 exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Pour créer une collection Map et ajouter des cartes DITA à la collection, proc
 
    Les fichiers map DITA sont ajoutés à votre collection Map.
 
-   ![tableau de bord de collection map](./images/map-collection-dashboard.png){width="800" align="left"}
+   ![tableau de bord de collection map](./images/map-collection-dashboard.png){align="left"}
 
 **Options de filtrage**
 
@@ -95,7 +95,7 @@ Pour configurer et générer la sortie à l’aide d’une collection Map, proc�
    - Activez **Tous les paramètres prédéfinis** pour un plan DITA afin de sélectionner tous les paramètres prédéfinis en une seule fois. Cette option est désactivée par défaut.
    - Activez **Paramètres prédéfinis de profil de dossier** pour un plan DITA afin de sélectionner tous les paramètres prédéfinis de profil de dossier pour ce plan. Cette option est désactivée par défaut.
 
-![modifier une collection map sur cloud services](images/edit-map-collection-cs.png){width="800" align="left"}
+![modifier une collection map sur cloud services](images/edit-map-collection-cs.png){align="left"}
 
 
 
@@ -112,7 +112,7 @@ Pour configurer et générer la sortie à l’aide d’une collection Map, proc�
 
 Dans la collection de cartes, vous pouvez configurer les propriétés de métadonnées en bloc pour les cartes DITA. Sélectionnez **Configurer les métadonnées** pour ouvrir la page **Métadonnées de ressource**. Sur la page **Métadonnées de ressource**, tous les mappages présents dans la collection sont répertoriés à gauche.
 
-![configuration des métadonnées](images/map-collection-asset-metadata.png){width="800" align="left"}
+![configuration des métadonnées](images/map-collection-asset-metadata.png){align="left"}
 
 Pour configurer les propriétés de métadonnées, procédez comme suit :
 
@@ -147,6 +147,6 @@ Cela supprimera également tous les paramètres prédéfinis ou les paramètres 
 
 De la même manière que vous pouvez annuler une tâche de génération de sortie à partir de la [console de mappage DITA](generate-output-for-a-dita-map.md#id2061H100T5Z) ou du [tableau de bord de publication](generate-output-publish-dashboard.md#), vous pouvez annuler une tâche de génération de sortie à partir d&#39;une collection de mappages. Accédez à l’onglet Sorties d’une collection Map, accédez à la tâche de publication que vous souhaitez annuler, puis sélectionnez l’icône **Annuler cette tâche** pour annuler la tâche de publication.
 
-![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
+![](images/cancel-publish-task-map-collection.png){align="left"}
 
 **Rubrique parente :**[ Génération de sortie](generate-output.md)

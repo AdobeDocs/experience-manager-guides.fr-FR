@@ -4,7 +4,7 @@ description: Découvrez comment publier un ou plusieurs articles à partir de la
 exl-id: d89ce69d-8d4c-4265-bfca-60763f561afd
 feature: Publishing
 role: User
-source-git-commit: 4fbc9c8e28f2b68af0307255eb842065e93fbc83
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -27,16 +27,16 @@ Effectuez les étapes suivantes pour générer une sortie basée sur un article 
 1. Accédez à l’onglet **Articles** et sélectionnez les rubriques pour lesquelles vous souhaitez générer la sortie.
 1. Sélectionnez **Générer la sortie** en haut pour générer la sortie.
 
-   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
+   ![](images/add-preset-articles-tab_cs.png){align="left"}
 
 1. Dans l’invite **Confirmer les fichiers à publier**, sélectionnez les fichiers à publier et confirmez en sélectionnant **Publier**.
 
-   ![Nouveau ](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
+   ![Nouveau ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
    Vous verrez l’état du processus de génération de sortie. La colonne **Rubriques** répertorie les rubriques pour lesquelles une sortie est générée tandis que la colonne **Statut** affiche le statut de publication de chaque rubrique.
 
 
-   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+   ![](images/add-preset-output-generated_cs.png){align="left"}
 
    Pour afficher la sortie, fermez la boîte de dialogue **Sortie générée** et sélectionnez **Afficher la sortie** sur la page du paramètre prédéfini.
 

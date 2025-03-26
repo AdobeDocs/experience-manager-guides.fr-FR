@@ -4,7 +4,7 @@ description: Découvrez comment afficher le rapport de réutilisation du contenu
 exl-id: ccae4303-75b1-4077-829a-7ef6a14fd8ad
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Pour afficher le rapport de réutilisation du contenu, procédez comme suit :
 
 1. Sélectionnez **Générer le rapport** pour obtenir le rapport de réutilisation du contenu.
 
-   ![](images/content-reuse-uuid.png){width="800" align="left"}
+   ![](images/content-reuse-uuid.png){align="left"}
 
    La page du rapport est divisée en deux parties :
 

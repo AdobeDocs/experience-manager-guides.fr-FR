@@ -4,7 +4,7 @@ description: Découvrez comment créer des attributs conditionnels dans AEM Guid
 exl-id: 5ec7666e-df6b-4b0d-b6c2-cdc395fcccc5
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Pour définir des attributs conditionnels, procédez comme suit :
 
    La capture d’écran suivante montre la définition de l’attribut `platform` avec la valeur `unix` et un libellé `Red Hat Linux`.
 
-   ![](images/add-profile-new.png){width="800" align="left"}
+   ![](images/add-profile-new.png){align="left"}
 
 1. Si vous souhaitez ajouter d’autres valeurs pour le même attribut, sélectionnez l’icône **+** et saisissez une valeur et un libellé supplémentaires.
 

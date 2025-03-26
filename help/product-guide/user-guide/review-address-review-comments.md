@@ -4,7 +4,7 @@ description: Découvrez comment traiter les commentaires de révision en tant qu
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Un auteur peut adresser des commentaires dans un document à partir de l’édit
 >
 > Lorsque vous traitez des commentaires de révision \(pour un document de révision actif\), assurez-vous de ne pas ouvrir la rubrique de révision dans plusieurs onglets avec la vue complète des balises activée et de ne pas basculer entre les modes d’affichage Auteur et Source.
 
-![](images/comments-page-web-editor_cs-new.png){width="800" align="left"}
+![](images/comments-page-web-editor_cs-new.png){align="left"}
 
 En mode Éditeur web, le panneau de droite contient les icônes Révision et Suivi des modifications . Le panneau Révision affiche tous les commentaires formulés par les réviseurs dans votre document. Le panneau **Suivi des modifications** affiche le statut de tous les commentaires insérés et supprimés dans votre document.
 
@@ -54,11 +54,11 @@ En mode Éditeur web, le panneau de droite contient les icônes Révision et Sui
 
   Si vous souhaitez incorporer la modification suggérée \(insertion ou suppression\) une par une, il vous suffit de cliquer avec le bouton droit de la souris sur le commentaire dans le contenu et de sélectionner Accepter la modification ou Rejeter la modification. Selon votre sélection, le commentaire est accepté ou rejeté. En cas de commentaire accepté, le contenu est ajouté au contenu ; et en cas de rejet, il est supprimé du contenu. En outre, le statut du commentaire est modifié dans le panneau de révision.
 
-  ![](images/import-comment-accept-web-editor_cs-new.png){width="800" align="left"}
+  ![](images/import-comment-accept-web-editor_cs-new.png){align="left"}
 
   Vous pouvez également utiliser le panneau Suivi des modifications pour accepter ou rejeter des commentaires. La sélection d’un commentaire le met en surbrillance dans le document.
 
-  ![](images/changes-tab_cs-new.png){width="800" align="left"}
+  ![](images/changes-tab_cs-new.png){align="left"}
 
   >[!IMPORTANT]
   >

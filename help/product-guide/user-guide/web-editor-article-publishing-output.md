@@ -4,7 +4,7 @@ description: Générez une sortie à partir du panneau Référentiel ou du panne
 exl-id: f7a4be54-9c51-44e6-96bb-f25e3a6155da
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Effectuez les étapes suivantes pour générer une sortie pour une ou plusieurs 
    - **Map** : répertorie les plans DITA contenant la rubrique sélectionnée.
    - **Statut** : affiche le statut de publication de chaque rubrique.
 Pour afficher la sortie, placez le pointeur de la souris sur la rubrique et cliquez sur Afficher la sortie.
-     ![](images/output-multiple-maps_cs.png){width="800" align="left"}
+     ![](images/output-multiple-maps_cs.png){align="left"}
 
 
 ## Générer la sortie d&#39;un plan DITA à partir de l&#39;éditeur Web

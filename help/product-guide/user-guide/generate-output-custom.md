@@ -4,7 +4,7 @@ description: Découvrez comment créer un paramètre prédéfini personnalisé �
 exl-id: 1bb14411-ec94-4960-92ba-3b2ff7a29932
 feature: Publishing
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Pour créer le paramètre prédéfini personnalisé à partir de la console Mapp
 
 Dans la console Carte, les options de configuration des paramètres prédéfinis sont organisées sous les onglets **Général** et **Avancé**.
 
-![](images/custom-preset-config.png){width="800" align="left"}
+![](images/custom-preset-config.png){align="left"}
 
 L&#39;onglet **Général** contient les options de paramétrage suivantes :
 

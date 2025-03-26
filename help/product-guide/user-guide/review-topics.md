@@ -4,7 +4,7 @@ description: Découvrez comment passer en revue les rubriques et utiliser les fo
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Pour passer en revue une rubrique, procédez comme suit :
 
    L&#39;écran suivant s&#39;affiche lorsqu&#39;un plan DITA est utilisé pour lancer le processus de révision :
 
-   ![](images/multiple-topics-review.png){width="800" align="left"}
+   ![](images/multiple-topics-review.png){align="left"}
 
    Les options suivantes sont disponibles sur cet écran :
 
@@ -63,13 +63,13 @@ Pour passer en revue une rubrique, procédez comme suit :
 
    Toutes les rubriques de la carte s’affichent sous la forme d’un document composite unique. Les rubriques que le réviseur est autorisé à examiner s’affichent normalement. Les rubriques que la révision n’est pas autorisée à réviser ne s’affichent pas.
 
-   ![](images/review-read-only.png){width="800" align="left"}
+   ![](images/review-read-only.png){align="left"}
 
    Dans la capture d’écran ci-dessus, la rubrique Description générale est partagée pour révision avec le réviseur actuel, ce qui s’affiche normalement. Cependant, la rubrique suivante, Historique du contenu des vols, n’est pas partagée pour révision et s’affiche en mode lecture seule. Le sujet actuellement en discussion est également mis en évidence dans la table des matières.
 
    L’écran suivant s’affiche lorsqu’une ou plusieurs rubriques sont sélectionnées et partagées pour la révision :
 
-   ![](images/review-composite-view.png){width="800" align="left"}
+   ![](images/review-composite-view.png){align="left"}
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ La zone de commentaire prend en charge les entrées multiligne et permet aux uti
 
 Lorsque vous affichez une seule rubrique, vous disposez d&#39;une option supplémentaire pour revenir à la vue de document. Dans la capture d’écran suivante, une rubrique spécifique d’un fichier de mappage est ouverte pour révision. L&#39;option en surbrillance — **Afficher le mode Document** permet à l&#39;utilisateur de revenir au mode Document du fichier de mappage.
 
-![](images/switch-document-view.png){width="800" align="left"}
+![](images/switch-document-view.png){align="left"}
 
 **Utilisation de différents types d’outils de commentaires** - Vous pouvez ajouter des commentaires intégrés en mettant le texte en surbrillance, en barrant le texte, en insérant du texte ou en ajoutant une note de commentaire. Les différents types d’outils de commentaires fournis dans la barre d’outils Commentaires sont décrits ci-dessous :
 
@@ -159,7 +159,7 @@ La capture d’écran suivante montre le contenu en mode *Aperçu* :
 
 Lorsque vous insérez l’un des commentaires, le pop-up de commentaire s’affiche. Après avoir fourni des commentaires ou des informations supplémentaires dans le pop-up, vous l’envoyez en appuyant sur Entrée. Une fois le commentaire ajouté, vous avez la possibilité d’ajouter une pièce jointe à ce commentaire.
 
-![](images/comment-pop-up-panel.png){width="800" align="left"}
+![](images/comment-pop-up-panel.png){align="left"}
 
 Dans la capture d’écran ci-dessus, le document contient le pop-up du commentaire mis en surbrillance et le commentaire est également ajouté dans le panneau Commentaires . L’icône de pièce jointe ![](images/file-attach-review.svg)est disponible avec le commentaire aux deux emplacements.
 
@@ -227,7 +227,7 @@ En mode d’aperçu, le contenu non conditionné et le contenu conditionné qui 
 
 - Sélectionnez l’icône Commentaire obsolète \(![](images/outdated-comment-icon.svg)\) pour afficher les différences entre la dernière version et la version commentée du document. Les numéros de version \(des versions comparées\) s’affichent en haut des documents.
 
-  ![](images/comments-page-review-mode.png){width="800" align="left"}
+  ![](images/comments-page-review-mode.png){align="left"}
 
   >[!NOTE]
   >

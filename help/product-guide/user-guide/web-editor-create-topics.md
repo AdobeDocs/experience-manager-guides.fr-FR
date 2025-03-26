@@ -4,7 +4,7 @@ description: Découvrez comment créer des types de rubriques DITA à l'aide de 
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Pour créer une rubrique à partir de l’éditeur, procédez comme suit :
 
 La rubrique est créée au chemin d’accès spécifié. En outre, la rubrique est ouverte dans l’éditeur pour modification.
 
-![](images/new-topic-editor.png){width="800" align="left"}
+![](images/new-topic-editor.png){align="left"}
 
 ## Créer des rubriques à partir de l’interface utilisateur d’Assets
 
@@ -61,7 +61,7 @@ Pour créer une rubrique à partir de l’interface utilisateur d’Assets, proc
 
 1. Sur la page Plan directeur, sélectionnez le type de document DITA à créer, puis sélectionnez **Suivant**.
 
-   ![](images/create_dita_topic.png){width="800" align="left"}
+   ![](images/create_dita_topic.png){align="left"}
 
    Par défaut, Experience Manager Guides fournit les modèles de rubriques DITA les plus couramment utilisés. Vous pouvez configurer d’autres modèles de rubrique en fonction des exigences de votre organisation, afficher *Configurer des modèles de création* dans Installer et configurer Adobe Experience Manager Guides pour votre configuration.
 

@@ -4,7 +4,7 @@ description: Connaître l’utilisation des références dans AEM Guides. Décou
 exl-id: 0554947f-3038-4fd2-8a62-ac0d4b858e94
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1790'
 ht-degree: 0%
@@ -81,7 +81,7 @@ Pour modifier une ligne de base existante, procédez comme suit :
 1. Effectuez les modifications requises dans la ligne de base. Vous pouvez modifier le nom et la version de la rubrique ou du contenu référencé.
 1. Si vous souhaitez utiliser une version différente pour une ou plusieurs rubriques, vous pouvez le faire en sélectionnant manuellement ces rubriques. Sélectionnez **Parcourir la rubrique**, puis sélectionnez la rubrique pour laquelle vous souhaitez utiliser une autre version. Dans la liste déroulante Sélectionner une version de la rubrique sélectionnée, sélectionnez une version de la rubrique à utiliser dans la ligne de base et sélectionnez **OK**.
 
-   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
+   ![](images/baseline-select-version-drop-down.png){align="left"}
 
    Les informations sur la rubrique et sa version sélectionnée sont stockées dans le serveur principal. Vous pouvez répéter cette étape pour modifier la version sélectionnée pour plusieurs rubriques.
 
@@ -128,7 +128,7 @@ Effectuez les étapes suivantes pour ajouter un libellé à plusieurs rubriques 
 
 1. Sélectionnez **Ajouter des libellés**.
 
-   ![](images/add-label-baseline-uuid.png){width="800" align="left"}
+   ![](images/add-label-baseline-uuid.png){align="left"}
 
 1. Dans la boîte de dialogue **Ajouter un libellé**, spécifiez un libellé unique à associer à cette ligne de base.
 
@@ -158,7 +158,7 @@ Effectuez les étapes suivantes pour exporter une ligne de base traduite :
 
 1. Dans l’onglet **Traduction**, développez l’option **Ligne de base** disponible dans le rail de gauche.
 
-   ![](images/export-baseline-new.png){width="800" align="left"}
+   ![](images/export-baseline-new.png){align="left"}
 
 1. Sélectionnez l&#39;option **Utiliser niveau de référence** et choisissez le niveau de référence à exporter.
 
