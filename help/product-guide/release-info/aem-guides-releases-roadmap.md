@@ -3,7 +3,7 @@ title: Feuille de route des versions d’Adobe Experience Manager Guides 2024
 description: Obtenez des informations sur les versions actives et à venir d’Adobe Experience Manager Guides On-Prem et d’Adobe Experience Manager Guides as a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 18f15390fa26229f5d14552835a3c7e645b3e81d
+source-git-commit: c87f343fd8010c375d46ca8c8f50d81f6a0a2c53
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 32%
@@ -53,7 +53,7 @@ Les mises à jour des produits en termes de nouvelles fonctionnalités, d’amé
 
 | Version | Événement | Planification | Nouveautés | Instructions de mise à niveau | Statut |
 |---|---|---|---|---|---|
-| Adobe Experience Manager Guides 4.6.0 | Service Pack 4 | samedi 4 avril 2025 |  |  | Cible |
+| Adobe Experience Manager Guides 4.6.0 | Service Pack 4 | samedi 11 avril 2025 |  |  | Cible |
 | Adobe Experience Manager Guides 5.1.0 | Version | ~ Août 2025 |  |  | Cible |
 
 ### Versions en direct
