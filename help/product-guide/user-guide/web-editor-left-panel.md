@@ -3,9 +3,10 @@ title: Panneau de gauche de l’éditeur
 description: Découvrez le panneau de gauche dans l’éditeur. Découvrez l’interface et les fonctionnalités de l’éditeur dans Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 74f3e6933b711f855e5a07bb7909678da4254207
+exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
-source-wordcount: '9325'
+source-wordcount: '9323'
 ht-degree: 0%
 
 ---
@@ -47,7 +48,7 @@ Pour plus d’informations, consultez Intégration de [Workfront](./workfront-in
 
 >[!NOTE]
 >
-> Les fonctionnalités disponibles dans le panneau de gauche sont gérées par votre administrateur, ce qui leur permet d’activer ou de désactiver les fonctionnalités individuelles présentes dans le panneau de gauche. Seules les fonctionnalités activées s’affichent dans le panneau de gauche. Pour plus d’informations, consultez la section **Panneaux** de la [barre d’onglets](#tab-bar).
+> Les fonctionnalités disponibles dans le panneau de gauche sont gérées par votre administrateur, ce qui leur permet d’activer ou de désactiver les fonctionnalités individuelles présentes dans le panneau de gauche. Seules les fonctionnalités activées s’affichent dans le panneau de gauche. Pour plus d’informations, consultez la section **Panneaux** de la [barre d’onglets](./web-editor-tab-bar.md).
 
 L’explication détaillée des fonctionnalités du panneau de gauche est la suivante :
 
@@ -89,7 +90,7 @@ Pour ajouter un fichier aux collections, utilisez l’une des méthodes suivante
 
 - Cliquez avec le bouton droit de la souris sur l’onglet d’un fichier dans l’éditeur pour ouvrir le menu contextuel. Choisissez **Ajouter à** > **Collections** pour ajouter le fichier à votre liste de favoris.
 
-  ![](images/favorite-add-from-file-context-menu_cs.png){width="800" align="left"}
+  ![](images/favorite-add-from-file-context-menu_cs.png){align="left"}
 
 
 >[!NOTE]
@@ -131,7 +132,7 @@ Vous pouvez également sélectionner et lire un fichier audio ou vidéo dans l�
 la vue de la vidéo. Dans le menu contextuel, vous avez également les options de téléchargement et de modification de la lecture
 vitesse ou afficher l&#39;image en image.
 
-Sélectionnez une carte et appuyez sur Entrée ou double-cliquez pour l’ouvrir dans la **vue Carte**. Pour plus d’informations, consultez la description de la fonctionnalité **Vue Carte** dans la section [Panneau de gauche](#left-panel). Sélectionnez une rubrique et appuyez sur Entrée ou double-cliquez pour l&#39;ouvrir dans la zone [Modification du contenu](#content-editing-area). La possibilité de naviguer et d’ouvrir un fichier directement depuis l’éditeur permet de gagner du temps et d’augmenter la productivité.
+Sélectionnez une carte et appuyez sur Entrée ou double-cliquez pour l’ouvrir dans la **vue Carte**. Pour plus d’informations, consultez la description de la fonction **Vue Carte** dans le panneau de gauche. Sélectionnez une rubrique et appuyez sur Entrée ou double-cliquez pour l&#39;ouvrir dans la zone [Modification du contenu](./web-editor-content-editing-area.md). La possibilité de naviguer et d’ouvrir un fichier directement depuis l’éditeur permet de gagner du temps et d’augmenter la productivité.
 
 **Filtrer la recherche dans le référentiel**
 
@@ -154,7 +155,7 @@ Vous disposez des options suivantes pour filtrer les fichiers et affiner votre r
 - **Fichiers DITA** : vous pouvez rechercher toutes les **rubriques DITA** et **cartes DITA** présentes sur le chemin d&#39;accès sélectionné. Ils sont sélectionnés par défaut.
 - **Fichiers non-DITA** : vous pouvez rechercher **Fichiers Ditaval**, **Fichiers image**, **Multimédia**, **Documents** et **JSON** dans le chemin d’accès sélectionné.
 
-  ![filtre de recherche rapide ](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![Filtre de recherche rapide](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *Utilisez les filtres rapides pour rechercher des fichiers DITA et non DITA.*
 
@@ -164,7 +165,7 @@ Sélectionnez l’icône **Filtrage avancé** ![icône de filtre avancé](images
 
 Vous pouvez afficher les options suivantes sous les onglets **Général** et **Avancé**.
 
-![boîte de dialogue filtre avancé](images/repository-filter-search-advanced.png) {width="650" align="left"}
+![ boîte de dialogue filtre avancé ](images/repository-filter-search-advanced.png) {width="650" align="left"}
 
 
 **Général**
@@ -220,7 +221,6 @@ Procédure à suivre pour créer une rubrique :
    - Modèle sur lequel la rubrique sera basée. Par exemple, pour une configuration prête à l’emploi, vous pouvez choisir parmi les modèles Vierge, Concept, DITAVAL, Référence, Tâche, Rubrique, Markdown, Glossaire et Dépannage. Si un profil de dossier est configuré sur votre dossier, seuls les modèles de rubrique configurés sur le profil de dossier sont affichés.
 
    - Chemin d’accès où enregistrer le fichier de rubrique. Par défaut, le chemin du dossier actuellement sélectionné dans le référentiel s’affiche dans le champ Chemin .
-
 4. Sélectionnez **Créer**. La rubrique est créée au chemin d’accès spécifié. En outre, la rubrique est ouverte dans l’éditeur pour modification.
 
 </details>
@@ -269,7 +269,7 @@ Procédure à suivre pour créer un dossier :
 
   Si votre administrateur a activé l’option UUIDs dans *XMLEditorConfig*, l’UUID de l’image chargée s’affiche dans la propriété **Source**.
 
-  ![](images/uuid-in-source-upload-image_cs.png){width="800" align="left"}
+  ![](images/uuid-in-source-upload-image_cs.png){align="left"}
 
 - **Rechercher des fichiers dans le dossier** : déplace le focus vers la recherche de référentiel dans laquelle vous pouvez saisir le terme de recherche. La recherche s’effectue sous le dossier sélectionné dans le référentiel. Vous pouvez également appliquer un filtre pour renvoyer les fichiers DITA, les fichiers image ou les deux.
 
@@ -321,7 +321,7 @@ Les différentes options du menu Options sont expliquées ci-dessous :
 
 - **Aperçu** : obtenez un aperçu rapide du fichier (.dita, .xml, audio, vidéo ou image) sans l’ouvrir. Vous pouvez redimensionner le volet d’aperçu. Si le contenu contient des `<xref>` ou des `<conref>`, vous pouvez les sélectionner pour les ouvrir dans un nouvel onglet. Le titre du fichier s’affiche dans la fenêtre. Si aucun titre n’est présent, le nom du fichier s’affiche. Pour fermer le panneau **Aperçu**, vous pouvez sélectionner l’icône de fermeture ou sélectionner un emplacement en dehors du panneau.
 
-  ![](images/quick-preview_cs.png){width="800" align="left"}
+  ![](images/quick-preview_cs.png){align="left"}
 
 - **Renommer** : utilisez cette option pour renommer le fichier sélectionné. Saisissez le nom du nouveau fichier dans la boîte de dialogue **Renommer la ressource**.
    - Vous pouvez renommer un fichier de n’importe quel type.
@@ -441,7 +441,7 @@ Les options suivantes sont disponibles pour un fichier de mappage dans la vue Ca
 
 Vous pouvez effectuer les actions suivantes à l’aide du menu Options du fichier de mappage :
 
-![](images/options-menu-map-view_cs.png){width="800" align="left"}
+![](images/options-menu-map-view_cs.png){align="left"}
 
 - **Modifier** : ouvrez le fichier de mappage pour le modifier dans l’éditeur de mappages.
 
@@ -497,7 +497,7 @@ Vous pouvez effectuer les actions suivantes à l’aide du menu Options du fichi
 
 La capture d’écran suivante présente le menu Options d’un fichier en mode Carte :
 
-![](images/options-menu-file_cs.PNG){width="800" align="left"}
+![](images/options-menu-file_cs.PNG){align="left"}
 
 Vous pouvez effectuer les actions suivantes à l’aide du menu Options :
 
@@ -607,11 +607,11 @@ Le mode Plan offre les fonctionnalités suivantes :
 
 - Faites glisser et déposez des éléments. Vous pouvez facilement remplacer un élément en y déposant un autre élément. Si vous glissez-déposez un élément sur un autre élément et que vous affichez une zone rectangle en tirets autour de l’élément, cela indique que l’élément sera remplacé. Il remplace l’élément sur lequel l’élément est déposé.
 
-  ![](images/replace-element-outline-view_cs.png){width="800" align="left"}
+  ![](images/replace-element-outline-view_cs.png){align="left"}
 
   Si vous faites glisser et déposez un élément, un rectangle en tirets indique que l’élément peut être placé à l’emplacement actuel. Si le glisser-déposer n’est pas valide, un message d’erreur s’affiche pour indiquer que l’opération n’est pas autorisée.
 
-  ![](images/drop-element-outline-view_cs.png){width="800" align="left"}
+  ![](images/drop-element-outline-view_cs.png){align="left"}
 
 - Le menu **Options** de la vue *Plan* vous permet d&#39;effectuer des opérations génériques telles que Couper, Copier, Supprimer, Générer un identifiant, Insérer un élément avant ou après l&#39;élément actif, Renommer ou remplacer un élément, Enrouler un élément, Déplier un élément et créer un fragment de code à partir de l&#39;élément sélectionné.
 
@@ -634,7 +634,7 @@ Si un élément de bloc possède son propre texte, il est affiché avec cet él�
 Si votre administrateur a créé un profil pour les attributs, vous obtiendrez ces attributs ainsi que leurs valeurs configurées. Vous pouvez également attribuer les attributs d’affichage configurés par votre administrateur sous l’onglet **Attributs d’affichage** dans le **Paramètres**. Les attributs définis pour un élément sont affichés en mode Mise en page et Plan.
 
 
-Pour plus d’informations, reportez-vous à la description de la fonctionnalité *Attributs d’affichage* dans la section *Paramètres* du [panneau de gauche](#left-panel).
+Pour plus d’informations, reportez-vous à la description de la fonctionnalité *Attributs d’affichage* dans le panneau de gauche *Paramètres*.
 
 **Fonction de recherche**
 
@@ -698,7 +698,7 @@ Le panneau Conditions affiche les attributs conditionnels définis par l’admin
 
 Vous pouvez également appliquer plusieurs conditions à un élément en faisant glisser et en déposant plusieurs conditions sur un élément. Lorsque vous appliquez plusieurs conditions à un élément, le panneau Propriétés affiche les conditions appliquées séparées par une virgule.
 
-![](images/multiple-conditions-applied_cs.png){width="800" align="left"}
+![](images/multiple-conditions-applied_cs.png){align="left"}
 
 Toutefois, en mode Code, les conditions sont séparées à l’aide d’un délimiteur d’espace. Lorsque vous ajoutez ou modifiez une condition en mode Code, assurez-vous que plusieurs conditions sont séparées à l’aide d’un espace.
 
@@ -706,7 +706,7 @@ Toutefois, en mode Code, les conditions sont séparées à l’aide d’un déli
 >
 > La capture d’écran suivante représente un utilisateur disposant de droits d’administration. En tant qu’utilisateur disposant de droits d’administrateur, vous pouvez ajouter, modifier et supprimer des conditions. Sinon, en tant qu’auteur normal, vous n’aurez la possibilité d’appliquer que des conditions.
 
-![](images/conditional-content-through-panel_cs.png){width="800" align="left"}
+![](images/conditional-content-through-panel_cs.png){align="left"}
 
 Pour ajouter ou définir une condition, sélectionnez l’icône + en regard du panneau Conditions pour afficher la boîte de dialogue Définir une condition :
 
@@ -929,7 +929,7 @@ Vous pouvez également modifier les valeurs à partir de la liste déroulante de
 
 Vous pouvez également afficher et appliquer le schéma d&#39;objet à partir du panneau Conditions.
 
-Pour afficher le schéma d&#39;objet à partir du panneau Conditions, votre administrateur système doit sélectionner l&#39;option **Afficher le schéma d&#39;objet dans le panneau Conditions** sous l&#39;onglet Général dans Paramètres. Pour plus d’informations, consultez la section **Paramètres** dans la [barre d’onglets](#tab-bar).
+Pour afficher le schéma d&#39;objet à partir du panneau Conditions, votre administrateur système doit sélectionner l&#39;option **Afficher le schéma d&#39;objet dans le panneau Conditions** sous l&#39;onglet Général dans Paramètres. Pour plus d’informations, consultez la section **Paramètres** dans la [barre d’onglets](./web-editor-tab-bar.md).
 
 Le panneau Conditions affiche la structure verticale plate des définitions d&#39;objet dans le schéma d&#39;objet.
 
@@ -943,7 +943,7 @@ Les fragments de code sont de petits fragments de contenu qui peuvent être réu
 >
 > La capture d’écran suivante représente un utilisateur disposant de droits d’administration. En tant qu’utilisateur disposant de droits d’administrateur, vous pouvez ajouter, modifier et supprimer des fragments de code. Sinon, en tant qu’auteur normal, vous n’obtiendrez que les options de prévisualisation et d’insertion d’un fragment de code.
 
-![](images/snippets-panel_cs.png){width="800" align="left"}
+![](images/snippets-panel_cs.png){align="left"}
 
 Pour ajouter un fragment de code, utilisez l’une des méthodes suivantes :
 
@@ -1008,7 +1008,7 @@ Experience Manager Guides vous permet de créer et de gérer des variables pour 
 
 L’icône Rechercher et remplacer se trouve au bas du panneau de gauche. Le panneau Rechercher et remplacer vous permet de rechercher et de remplacer du texte dans les fichiers d’un mappage ou d’un dossier de votre référentiel. Vous pouvez trouver et remplacer dans toutes les rubriques d&#39;une carte ainsi que les rubriques présentes dans les sous-cartes de la carte.
 
-![](images/map-find-replace.png){width="800" align="left"}
+![](images/map-find-replace.png){align="left"}
 
 Par défaut, vous pouvez afficher les fichiers par titres. Pointez sur un fichier pour afficher le titre du fichier et son chemin d’accès sous forme d’info-bulle.
 
@@ -1111,7 +1111,7 @@ Pour afficher les commentaires de révision dans les tâches de révision active
 1. Vous pouvez également saisir le terme ou le texte à rechercher dans le titre ou le chemin d’accès au fichier du sujet. Les rubriques qui contiennent le terme dans le titre ou le chemin du fichier sont répertoriées.
 1. Double-cliquez sur une rubrique pour l’ouvrir en mode création. Vous pouvez afficher les commentaires dans le panneau **Commentaires**.
 
-   ![](images/active-review-task-comments.png){width="800" align="left"}
+   ![](images/active-review-task-comments.png){align="left"}
 
    >[!NOTE]
    > 

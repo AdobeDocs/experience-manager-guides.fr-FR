@@ -3,7 +3,8 @@ title: Barre d’outils dans l’éditeur
 description: Découvrez la barre d’outils dans l’éditeur. Découvrez l’interface et les fonctionnalités de l’éditeur dans Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 74f3e6933b711f855e5a07bb7909678da4254207
+exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
 source-wordcount: '5909'
 ht-degree: 0%
@@ -38,7 +39,7 @@ Lorsque vous modifiez une rubrique dans l’éditeur, accédez aux différentes 
 
 La fonction **Rechercher et remplacer** est disponible dans les modes d’affichage Auteur et Source. Lorsqu’elle est activée, la barre de texte Rechercher et remplacer s’affiche au bas de la zone d’édition de la rubrique. Vous pouvez utiliser les touches de raccourci **Ctrl**+**F** pour appeler la barre de recherche et de remplacement.
 
-![](images/find-replace-bar.png){width="800" align="left"}
+![](images/find-replace-bar.png){align="left"}
 
 À l’aide de l’icône de paramètres \(![](images/settings-find-replace-icon.svg)\), vous pouvez activer ou désactiver les options de recherche **Ignorer la casse** et **Mot entier uniquement**. Pour effectuer une recherche qui ne respecte pas la casse, activez l’option **Ignorer la casse** en \(ou sélectionnez\). Sinon, si vous souhaitez effectuer une recherche sensible à la casse, désactivez l’option **Ignorer la casse**. Vous pouvez également choisir de rechercher un mot entier.
 
@@ -107,7 +108,7 @@ La fonction **Historique des versions** de l&#39;éditeur vous permet de vérifi
 
    Lorsque vous revenez à une version antérieure, un indice visuel s’affiche indiquant que la version sur laquelle vous travaillez actuellement n’est pas la dernière version.
 
-   ![](images/older-version-visual-cue.png){width="800" align="left"}
+   ![](images/older-version-visual-cue.png){align="left"}
 
 </details>
 
@@ -295,7 +296,7 @@ Vous pouvez également saisir un caractère ou une chaîne dans la zone de reche
 
 Si vous travaillez dans un élément de bloc tel qu&#39;un `note`, utilisez l&#39;icône Insérer un élément pour insérer un nouvel élément après l&#39;élément de `note`. Dans la capture d’écran suivante, un élément note a été inséré dans l’élément p \(paragraph\) :
 
-![Insérer un élément dans un élément de bloc](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+![Insérer un élément dans un élément de bloc](images/note-in-para-insert-element_cs.png){align="left"}
 
 Si vous appuyez sur Entrée dans l’élément de note, un nouveau paragraphe est créé dans l’élément de note lui-même. Pour insérer un nouvel élément en dehors d’une note, sélectionnez l’élément p \(mis en surbrillance dans la capture d’écran\) dans le chemin de navigation des éléments, puis sélectionnez l’icône Élément ou appuyez sur ***Alt***+***Entrée*** pour ouvrir la boîte de dialogue Insérer un élément . Sélectionnez ensuite l’élément souhaité et appuyez sur Entrée pour insérer l’élément sélectionné après l’élément de note.
 
@@ -366,7 +367,7 @@ Vous pouvez également définir des attributs sur plusieurs cellules, une ligne 
 1. Dans la liste déroulante Valeur , sélectionnez l’alignement du texte à appliquer aux cellules de tableau sélectionnées.
 1. Sélectionnez **Ajouter.**
 
-![](images/align-table-cell_cs.png){width="800" align="left"}
+![](images/align-table-cell_cs.png){align="left"}
 
 </details>
 
@@ -379,11 +380,11 @@ Insère une image à l’emplacement valide actuel ou suivant. Sélectionnez l�
 > Vous pouvez également ajouter une image en la faisant glisser de votre système local vers votre article. Dans ce cas, le fichier image est ajouté à l’aide du workflow **Télécharger Assets**.  Pour plus d’informations, consultez le workflow **Charger Assets** dans la section [Panneau de gauche](#left-panel).
 
 
-![](images/insert-image.png){width="650" align="left"}
+![](images/insert-image.png){width="300" align="left"}
 
 Vous pouvez ajouter un titre d’image/d’illustration et un texte secondaire pour l’image dans la boîte de dialogue Insérer une image .
 
->
+>[!NOTE]
 >
 > Lorsque vous insérez une image et spécifiez un texte secondaire pour celle-ci, il est ajouté dans l&#39;élément `<alt>` conformément aux dernières normes DITA. L&#39;utilisation de l&#39;attribut `@alt` pour le texte secondaire est obsolète, mais il reste pris en charge dans les versions précédentes de DITA.
 
@@ -391,7 +392,7 @@ Vous pouvez ajouter un titre d’image/d’illustration et un texte secondaire p
 
 Une fois que vous avez inséré une image, vous pouvez modifier sa hauteur, sa largeur, son emplacement et ses attributs à partir du panneau Propriétés du contenu . Sélectionnez le fichier image, puis apportez des modifications dans le panneau Propriétés du contenu du panneau de droite.
 
-![](images/image-properties.png){width="800" align="left"}
+![](images/image-properties.png){align="left"}
 
 Le champ Source affiche l’UUID du fichier image inséré. Vous pouvez obtenir le chemin d’accès complet au fichier image inséré en plaçant le pointeur de la souris sur le champ Source. Le chemin d’accès s’affiche dans l’info-bulle.
 
@@ -468,7 +469,7 @@ Vous pouvez également effectuer une recherche à l’aide de l’UUID du fichie
 
 Si votre administrateur a activé l’option UUIDs dans *XMLEditorConfig*, l’UUID du contenu référencé s’affiche dans la propriété **Link**.
 
-![](images/ref-link-uuid_cs.png){width="800" align="left"}
+![](images/ref-link-uuid_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -523,7 +524,7 @@ Insère des caractères spéciaux dans votre rubrique. Sélectionnez l’icône 
 >
 > Experience Manager Guides fournit des boîtes de dialogue mobiles et redimensionnables. Les boîtes de dialogue comportant deux lignes croisées dans le coin inférieur droit peuvent être redimensionnées. Les lignes croisées de la boîte de dialogue Caractère spécial sont affichées ci-dessous.
 
-![](images/insert-special-char.png){width="550" align="left"}
+![](images/insert-special-char.png){width="350" align="left"}
 
 Dans la boîte de dialogue Insérer un caractère spécial, vous pouvez rechercher un caractère spécial en utilisant son nom. Tous les caractères spéciaux sont stockés dans différentes catégories. Utilisez la liste déroulante Sélectionner une catégorie et sélectionnez une catégorie. Les caractères spéciaux disponibles dans la catégorie sélectionnée s’affichent. Vous pouvez parcourir la liste des caractères spéciaux à l’aide des touches fléchées ou sélectionner le caractère que vous souhaitez insérer. Le nom et le code hexadécimal du caractère spécial sélectionné s’affichent sous la liste. Sélectionnez **Insérer** pour insérer le caractère sélectionné dans votre document.
 
@@ -543,7 +544,7 @@ Vous pouvez modifier les attributs du mot-clé ou ajouter un nouvel attribut au 
 
 **Fragments de code** - ![](images/insert-snippet-icon.svg)
 
-Insérez un fragment de code à l’emplacement valide actuel ou suivant. Pour que cette fonctionnalité fonctionne, des fragments de code doivent être définis dans votre système. Pour plus d’informations sur l’ajout d’un extrait de code, consultez la description de la fonctionnalité **Extrait de code** dans la section [Panneau de gauche](web-editor-features.md#left-panel).
+Insérez un fragment de code à l’emplacement valide actuel ou suivant. Pour que cette fonctionnalité fonctionne, des fragments de code doivent être définis dans votre système. Pour plus d’informations sur l’ajout d’un extrait de code, consultez la description de la fonctionnalité **Extrait de code** dans la section [Panneau de gauche](./web-editor-left-panel.md).
 
 Lorsque vous sélectionnez l’option Fragments de code, le catalogue Insérer un fragment de code s’affiche. Le catalogue est contextuel, ce qui indique qu’il n’affichera les fragments de code que s’ils sont autorisés à l’emplacement actuel.
 
@@ -571,12 +572,12 @@ La fonctionnalité **Informations sur la version et Enregistrer en tant que nouv
 
   Le numéro de version change à chaque nouvelle version créée pour le fichier de rubrique ou de mappage. Si vous travaillez sur un document nouvellement créé, les informations de version apparaissent sous la forme **aucune**.
 
-  ![](images/version-information.png){width="800" align="left"}
+  ![](images/version-information.png){align="left"}
 
 
 - **Enregistrer en tant que nouvelle version** est un bouton qui enregistre les modifications que vous avez apportées à votre rubrique et crée également une nouvelle version de votre rubrique.
 
-  ![](images/save-as-new-version.png){width="800" align="left"}
+  ![](images/save-as-new-version.png){align="left"}
 
 
 Lorsque vous choisissez d’enregistrer une rubrique ou un mappage à l’aide de **Enregistrer en tant que nouvelle version**, la boîte de dialogue suivante s’affiche :
@@ -597,7 +598,7 @@ Si votre rubrique est en cours de révision, vos réviseurs et réviseuses reço
 
 Lorsque vous placez le pointeur de la souris sur le titre d&#39;une rubrique, le titre du fichier, le chemin d&#39;accès au fichier et le numéro de version s&#39;affichent.
 
-![](images/mouse-hover-on-title_cs.png){width="800" align="left"}
+![](images/mouse-hover-on-title_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -607,7 +608,7 @@ Lorsque vous placez le pointeur de la souris sur le titre d&#39;une rubrique, le
 
 Verrouille ou déverrouille le fichier courant. Le verrouillage d’un fichier vous donne un accès exclusif en écriture au fichier. Cela empêche d’autres utilisateurs de modifier le fichier. Déverrouillez le fichier si vous souhaitez que d’autres utilisateurs aient un accès en modification. Lorsque le fichier est déverrouillé, les modifications sont enregistrées dans la version actuelle du fichier.
 
-![](images/web-editor-lock-button.png){width="800" align="left"}
+![](images/web-editor-lock-button.png){align="left"}
 
 Si vous êtes dans la vue Carte et que vous développez la carte parente, vous pouvez verrouiller tous les fichiers de la carte d&#39;un seul clic. Développez simplement le fichier de mappage parent et sélectionnez le fichier parent, ce qui entraîne la sélection de tous les fichiers dans le mappage. Ensuite, vous pouvez sélectionner **Verrouiller** ![](images/LockClosed_icon.svg) pour obtenir le verrouillage sur tous les fichiers de la carte.
 

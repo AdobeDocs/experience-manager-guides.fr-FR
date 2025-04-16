@@ -1,18 +1,19 @@
 ---
-title: Vues de l’éditeur pour les rubriques
-description: Affichez les rubriques en mode création, source et aperçu. Découvrez comment afficher du contenu en fonction de filtres conditionnels, afficher les balises de suivi des modifications et exporter une rubrique en tant que PDF dans AEM Guides.
-Sfeature: Authoring, Features of Web Editor
+title: Paramètres de l’éditeur dans Experience Manager Guides
+description: Découvrez les différents paramètres disponibles dans l’interface de l’éditeur de Experience Manager Guides.
+feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 0fb079d08c31688046acf0e5a1e2ce7997d24cd6
+exl-id: fad2874f-dab5-4538-8502-f7112c51d941
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '1975'
 ht-degree: 0%
 
 ---
 
 # Paramètres de l’éditeur
 
-L’option **Paramètres** présente dans la barre d’onglets [Tabulation] de l’éditeur est disponible uniquement pour les administrateurs et les administrateurs de profil de dossiers et permet de configurer les paramètres suivants :
+L’option **Paramètres** présente dans la barre d’onglets [Tabulation](./web-editor-tab-bar.md) de l’éditeur est disponible uniquement pour les administrateurs et les administrateurs de profil de dossiers et permet de configurer les paramètres suivants :
 
 - [Général](#general)
 - [Panneaux](#panels)
