@@ -4,7 +4,7 @@ description: Découvrez comment télécharger des fichiers à partir de la conso
 exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
 feature: Content Management
 role: User
-source-git-commit: f3858b1694837c7a3fa7bb222ed8ff31ce7103f8
+source-git-commit: 632b253a36822b4b5b93766153f0fc3a1116b616
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -36,7 +36,10 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA avec 
 1. Sélectionnez **Télécharger**. Dans la boîte de dialogue Télécharger la carte , vous pouvez choisir les options suivantes :
 
    - **Utiliser niveau de référence** : sélectionnez cette option pour obtenir la liste des niveaux de référence créés pour le plan DITA. Pour télécharger le fichier de mappage et son contenu en fonction d&#39;une ligne de base spécifique, sélectionnez la ligne de base dans la liste déroulante. Pour plus d&#39;informations sur l&#39;utilisation des lignes de base, voir [Utilisation des lignes de base](generate-output-use-baseline-for-publishing.md#).
+
    - **Aplatir la hiérarchie de fichiers** : sélectionnez cette option pour enregistrer toutes les rubriques et tous les fichiers multimédias référencés dans un seul dossier.
+
+
    >[!NOTE]
    >
    > Vous pouvez également télécharger le fichier de mappage sans sélectionner d’option. Dans ce cas, la dernière version conservée des rubriques et fichiers multimédias référencés est téléchargée.

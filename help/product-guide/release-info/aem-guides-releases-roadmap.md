@@ -3,10 +3,10 @@ title: Feuille de route des versions d’Adobe Experience Manager Guides 2024
 description: Obtenez des informations sur les versions actives et à venir d’Adobe Experience Manager Guides On-Prem et d’Adobe Experience Manager Guides as a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 6ae6bb6e6056ba477b8138162c21f1201e277b91
+source-git-commit: 106a29bf3a3c0a45d6ce82a9453a93bb0b5f6abf
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 32%
+source-wordcount: '378'
+ht-degree: 31%
 
 ---
 
@@ -27,12 +27,13 @@ Les versions de Experience Manager Guides as a Cloud Service sont prévues de la
 
 | Version | Événement | Planification | Nouveautés | Instructions de mise à niveau | Problèmes résolus | Statut |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2025.04.0 | Mise à jour automatique | 05-07 mai 2025 |  |  |  | Cible |
+| Adobe Experience Manager Guides 2025.06.0 | Mise à jour automatique | ~ Juin 2025 |  |  |  | Cible |
 
 ### Versions en direct
 
 | Version | Événement | Planification | Nouveautés | Instructions de mise à niveau | Problèmes résolus | Statut |
 |---|---|---|---|---|---|---|
+| Adobe Experience Manager Guides 2025.4.0 | Mise à jour automatique | mercredi 29 avril 2025 | [Ici](whats-new-2025-04-0.md) | [Ici](upgrade-instructions-2025-04-0.md) | [Ici](fixed-issues-2025-04-0.md) | Mis à jour |
 | Adobe Experience Manager Guides 2025.2.0 | Mise à jour automatique | 10-12 mars 2025 | [Ici](whats-new-2025-02-0.md) | [Ici](upgrade-instructions-2025-02-0.md) | [Ici](fixed-issues-2025-02-0.md) | Mis à jour |
 | Adobe Experience Manager Guides 2024.12.0 | Mise à jour automatique | 13-15 janvier 2025 | - | [Ici](upgrade-instructions-2024-12-0.md) | [Ici](fixed-issues-2024-12-0.md) | Mis à jour |
 | Adobe Experience Manager Guides 2024.10.0 | Service Pack 1 | mercredi 29 octobre 2024 | - | - | [Ici](fixed-issues-2024-10-0-sp1.md) | Mis à jour |

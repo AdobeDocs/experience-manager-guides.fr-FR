@@ -4,9 +4,9 @@ description: Créez et gérez des lignes de base à partir de la console de mapp
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: 154d4cb2c4c51581590048e1d368f4c744402847
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '1831'
 ht-degree: 0%
 
 ---
@@ -137,7 +137,7 @@ Vous pouvez dupliquer une ligne de base et la modifier en fonction de vos besoin
   > Le processus d’ajout ou de suppression des libellés se produit de manière asynchrone, de sorte que vous pouvez continuer à travailler sur d’autres fichiers. Une fois le libellé ajouté ou supprimé, un message pop-up s’affiche pour confirmer que le libellé a été ajouté ou supprimé. Vous recevez également une notification de boîte de réception pour le même.
 
 - **Modifier les propriétés** d&#39;une ligne de base statique existante que vous avez définie lors de la création de la ligne de base.
-- Exportez l’instantané d’une ligne de base dans un fichier Microsoft Excel avec l’option **Exporter la ligne de base**.
+- L’option **Exporter la ligne de base** exporte un instantané de la ligne de base dans un fichier Microsoft Excel, y compris tous les détails essentiels tels que le titre, le nom de fichier, le type de fichier, le numéro de version, l’état du document et d’autres informations pertinentes.
 
 
 ### Liste des libellés {#labels-list}

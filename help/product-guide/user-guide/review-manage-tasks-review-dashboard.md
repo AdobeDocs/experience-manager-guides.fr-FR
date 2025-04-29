@@ -4,9 +4,9 @@ description: Gérez les tâches de révision à partir du tableau de bord de ré
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ Vous pouvez effectuer les actions suivantes sous l’onglet **Tâche** :
 - Modifiez la **Date d’échéance**. Vous pouvez retarder ou reporter l’échéance pour l’achèvement de la tâche.
 - Sélectionnez cette option pour empêcher les utilisateurs de consulter uniquement les rubriques qui leur sont affectées.
 - Sélectionnez **Mettre à jour** pour mettre à jour les détails modifiés.
+
+  Un message toast s’affiche pour confirmer si la mise à jour est réussie ou non.
 - Sélectionnez **Terminé** pour marquer la tâche de révision comme terminée avant la date d’échéance. Lorsque la tâche d&#39;une rubrique est marquée comme Terminée, la révision de la rubrique sélectionnée est fermée. Toutefois, dans le cas de rubriques partagées pour révision via un plan DITA, le marquage de la tâche de plan DITA comme Terminé ferme la révision de toutes les rubriques du plan qui ont été partagées pour révision.
 - Sélectionnez **Dupliquer** pour créer une copie de la tâche de révision. Le processus de création d’une tâche de révision en double est similaire à la création d’une tâche de révision. Une fois que vous avez lancé le workflow de tâche en double, la page Créer une tâche de révision s’affiche. Vous devez fournir les détails de la nouvelle tâche, comme expliqué dans la section [ Envoyer les rubriques pour révision ](review-send-topics-for-review.md#).
 

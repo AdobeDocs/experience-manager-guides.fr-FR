@@ -1,12 +1,12 @@
 ---
 title: HTML5
-description: Générez et configurez la sortie HTML5 pour les documents de FrameMaker dans AEM Guides.
+description: Générer et configurer une sortie HTML5 pour les documents FrameMaker dans AEM Guides.
 exl-id: 0889e394-cfb1-4006-ae57-2dfa81123bc2
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: b78a34430476c15cadacb23d65bd978b3c25bd23
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '172'
 ht-degree: 5%
 
 ---
@@ -17,14 +17,14 @@ Les options suivantes sont disponibles pour la sortie HTML5 :
 
 >[!NOTE]
 >
-> Pour ouvrir les paramètres prédéfinis de sortie pour HTML5, cliquez sur un fichier de FrameMaker \(`.fm` ou `.book`\), puis sur Paramètres prédéfinis de sortie, et cliquez sur l’option HTML5.
+> Pour ouvrir les paramètres prédéfinis de sortie pour HTML5, sélectionnez un fichier FrameMaker \(`.fm` ou `.book`\), puis sélectionnez les paramètres prédéfinis de sortie et choisissez l’option HTML5.
 
-| Option HTML5 | Description |
+| option HTML5 | Description |
 |------------|-----------|
-| Type de sortie | Type de sortie à générer. Pour générer la sortie HTML5, choisissez l&#39;option HTML5. |
-| Nom du paramètre | Donnez un nom explicite aux paramètres de sortie HTML5 que vous créez. Par exemple, vous pouvez spécifier *Sortie de clients internes* ou *Sortie d’utilisateurs finaux*. |
+| Type de sortie | Type de sortie que vous souhaitez générer. Pour générer une sortie HTML5, choisissez l’option HTML5 . |
+| Nom du paramètre | Attribuez un nom explicite aux paramètres de sortie HTML5 que vous êtes en train de créer. Par exemple, vous pouvez spécifier *sortie des clients internes* ou *sortie des utilisateurs finaux*. |
 | Fichier de paramètres | Spécifiez l’emplacement du fichier de paramètres \(.sts\) dans votre référentiel AEM qui doit être utilisé pour générer la sortie HTML5. |
 | Chemin de destination | Chemin d’accès dans votre référentiel AEM où est stockée la sortie HTML5. |
-| Exécuter le processus de génération de Post | Lorsque vous sélectionnez cette option, une nouvelle liste déroulante de workflow Génération Post s’affiche, contenant tous les workflows configurés dans AEM. Vous devez sélectionner un workflow à exécuter une fois le workflow de génération de sortie terminé. |
+| Exécuter le workflow de post-génération | Lorsque vous sélectionnez cette option, une nouvelle liste déroulante Workflow de post-génération s’affiche, contenant tous les workflows configurés dans AEM. Vous devez sélectionner un workflow à exécuter une fois le workflow de génération de sortie terminé. |
 
-**Rubrique parente :**[ Générer la sortie des documents de FrameMaker](fm-output-generatation.md)
+**Rubrique parente :**[ générer la sortie des documents FrameMaker](fm-output-generatation.md)

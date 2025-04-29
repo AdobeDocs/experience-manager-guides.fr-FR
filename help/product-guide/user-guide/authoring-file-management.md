@@ -4,9 +4,9 @@ description: Découvrez comment gérer les fichiers et les dossiers dans AEM Gui
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
 workflow-type: tm+mt
-source-wordcount: '3131'
+source-wordcount: '3201'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Pour déplacer des fichiers en bloc, procédez comme suit :
 
    - **Chemin d’accès Source\(s\)** : indiquez l’emplacement des dossiers à déplacer.
 
-      - Sélectionnez **Parcourir le dossier**  <img src="images/browse-folder-icon.svg" width="25">    pour ouvrir la boîte de dialogue parcourir le fichier . Sélectionnez les dossiers à déplacer et choisissez **Sélectionner** pour terminer le processus.
+      - Sélectionnez **Parcourir le dossier**  <img src="images/browse-folder-icon.svg" width="25">    pour ouvrir la boîte de dialogue **Sélectionner le chemin d’accès**. Sélectionnez les dossiers à déplacer et choisissez **Sélectionner** pour terminer le processus. Vous pouvez sélectionner plusieurs dossiers placés à différents emplacements dans l’explorateur de chemins d’accès. Le chemin d’accès aux dossiers sélectionnés est conservé, ce qui vous permet de les consulter ou de les modifier facilement lorsque vous rouvrez la boîte de dialogue.
 
       - Vous pouvez également saisir ou copier et coller l’emplacement source. Appuyez sur Entrée pour ajouter le dossier à la liste.
 
@@ -195,7 +195,7 @@ Pour déplacer des fichiers en bloc, procédez comme suit :
 
    - **Chemin d’accès Source\(s\)** : indiquez l’emplacement des dossiers à déplacer.
 
-      - Sélectionnez **Parcourir le dossier**  <img src="images/browse-folder-icon.svg" width="25">    pour ouvrir la boîte de dialogue parcourir le fichier . Sélectionnez les dossiers à déplacer et choisissez **Sélectionner** pour terminer le processus.
+      - Sélectionnez **Parcourir le dossier**  <img src="images/browse-folder-icon.svg" width="25">    pour ouvrir la boîte de dialogue **Sélectionner le chemin d’accès**. Sélectionnez les dossiers à déplacer et choisissez **Sélectionner** pour terminer le processus. Vous pouvez sélectionner plusieurs dossiers placés à différents emplacements dans l’explorateur de chemins d’accès. Le chemin d’accès aux dossiers sélectionnés est conservé, ce qui vous permet de les consulter ou de les modifier facilement lorsque vous rouvrez la boîte de dialogue.
 
       - Vous pouvez également saisir ou copier et coller l’emplacement source. Appuyez sur Entrée pour ajouter le dossier à la liste.
 

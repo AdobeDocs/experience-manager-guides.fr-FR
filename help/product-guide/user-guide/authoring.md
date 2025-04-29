@@ -4,10 +4,10 @@ description: Gérer le contenu et identifier vos rôles et autorisations dans AE
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
 feature: Content Management
 role: User
-source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
+source-git-commit: 461692ce786f914dd196f289efef726e42bf9660
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 10%
+source-wordcount: '584'
+ht-degree: 13%
 
 ---
 
@@ -88,15 +88,3 @@ Le tableau suivant répertorie les différentes tâches et les groupes qui peuve
 [1](#fnsrc_1) Si *Auteurs* et *Éditeurs* sont invités pour une révision.
 
 [2](#fnsrc_2) selon les droits accordés à l’utilisateur dans le profil d’état du document.
-
-## Conditions préalables à la création de contenu
-
-**Utilisation de profils globaux ou de niveau dossier**
-
-Dans une entreprise, différents groupes ou produits peuvent utiliser différents modèles de création, modèles de sortie, profils d’attributs conditionnels \(ou schémas d’objet\) et configurations de l’éditeur web. Leur configuration uniquement au niveau de l’entreprise \(ou global\) peut rendre l’expérience difficile pour les auteurs, car ils afficheront des modèles ou des profils qui ne les concernent pas.
-
-Experience Manager Guides vous permet de configurer les modèles de création \(rubrique ou mappage\), les modèles de sortie, les attributs conditionnels et les configurations de l’éditeur web au niveau de l’entreprise \(global\) ainsi qu’au niveau des dossiers. Vous pouvez ainsi séparer les configurations pour différents services ou produits de votre entreprise.
-
-Vous pouvez également déléguer les configurations spécifiques aux dossiers à un service ou à des administrateurs de produit afin de décentraliser l’administration.
-
-Pour plus d’informations sur la configuration des profils globaux et au niveau du dossier, consultez *Configuration de profils globaux ou au niveau du dossier* dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.

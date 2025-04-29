@@ -4,9 +4,9 @@ description: Découvrez d’autres fonctionnalités de l’éditeur dans Adobe E
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
+source-git-commit: c8ea6eae180ce7045a0364713604711aae2bb6bd
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2556'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 L’éditeur comporte d’autres fonctionnalités utiles que vous pouvez utiliser :
 
-**Fonctions du menu contextuel dans l’onglet d’un fichier**
+## Fonctions du menu contextuel dans l’onglet d’un fichier
 
 Lorsque vous ouvrez un fichier dans l’éditeur, vous pouvez effectuer différentes actions à partir du menu contextuel. Vous pouvez afficher différentes options selon que vous ouvrez un fichier multimédia, un fichier DITA unique ou plusieurs fichiers.
 
@@ -142,19 +142,21 @@ L’éditeur fournit une boîte de dialogue de navigation dynamique dans les fic
 >
 > Dans le cas d’un fichier image, audio ou vidéo, la boîte de dialogue de recherche de fichier correspond par défaut à l’emplacement du fichier et non au dernier emplacement utilisé.
 
-**Prise en charge de la publication d’articles**
+## Prise en charge de la publication d’articles
 
 Dans l&#39;éditeur, vous pouvez générer la sortie pour une ou plusieurs rubriques ou l&#39;ensemble du plan DITA. Vous devez créer des paramètres prédéfinis de sortie pour votre plan DITA, puis vous pouvez facilement générer la sortie pour une ou plusieurs rubriques. Si vous avez mis à jour quelques rubriques dans votre carte, vous pouvez également générer la sortie uniquement pour ces rubriques à partir de l’éditeur. Pour plus d’informations, consultez la section [Publication basée sur des articles](web-editor-article-publishing.md#id218CK0U019I).
 
-**Prise en charge des documents Markdown**
+## Prise en charge des documents Markdown
 
 L&#39;éditeur vous permet d&#39;utiliser les documents Markdown \(.md\) avec vos documents DITA. Vous pouvez facilement créer et prévisualiser un document Markdown dans l&#39;éditeur et l&#39;ajouter dans votre fichier map via l&#39;éditeur de map DITA. Pour plus d’informations, consultez [Créer des documents Markdown à partir de l’éditeur](web-editor-markdown-topic.md#).
 
-**Prise en charge du terme de glossaire DITA**
+## Prise en charge du terme de glossaire DITA
 
 L&#39;éditeur prend en charge les termes du glossaire DITA que vous pouvez insérer en ajoutant des éléments `term` ou `abbreviated-form`.
 
-**Insérer des équations MathML**
+## Utiliser les équations de MathML
+
+### Insérer des équations MathML
 
 Experience Manager Guides vous offre une prise en charge prête à l’emploi pour insérer des équations MathML par intégration à l’application [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro). Pour insérer une équation MathML, sélectionnez l’icône **Élément** et saisissez mathml. Lorsque vous sélectionnez l’élément mathml dans la liste, la boîte de dialogue **Insérer un MathML** s’affiche :
 
@@ -164,22 +166,22 @@ Experience Manager Guides vous offre une prise en charge prête à l’emploi po
 
 Vous pouvez à tout moment mettre à jour une équation en cliquant avec le bouton droit de la souris sur une équation existante et en sélectionnant **Modifier MathML** dans le menu contextuel.
 
-- **Validation des équations dans l&#39;éditeur MathML**
+### Validation des équations dans l’éditeur de MathML
 
-  Experience Manager Guides valide les équations de MathML lorsque vous enregistrez une rubrique qui les contient.
+Experience Manager Guides valide les équations de MathML lorsque vous enregistrez une rubrique qui les contient.
 Lorsque vous insérez une équation à l’aide de l’éditeur MathML, Experience Manager Guides met l’équation en surbrillance rouge en cas de problèmes de syntaxe. Vous pouvez le corriger avant de l’insérer. Si vous n&#39;apportez aucune modification, mais que vous sélectionnez **Insérer**, un avertissement s&#39;affiche.
 
-  ![valider l’équation mathml](images/validate-mathml-equation.png){width="400" align="left"}
+![valider l’équation mathml](images/validate-mathml-equation.png){width="400" align="left"}
 
-  Si vous insérez l&#39;équation MathML qui contient une erreur de syntaxe, une erreur de validation se produit lorsque vous essayez d&#39;enregistrer la rubrique.
+Si vous insérez l&#39;équation MathML qui contient une erreur de syntaxe, une erreur de validation se produit lorsque vous essayez d&#39;enregistrer la rubrique.
 
 
-**Insérer des notes de bas de page**
+## Insérer des notes de bas de page
 
 Insérez une note de bas de page dans votre contenu à l’aide de l’élément `fn`. En mode création, la valeur de la note de bas de page s’affiche en ligne avec le contenu. Cependant, lorsque vous basculez en mode Aperçu ou que vous publiez votre document, la note de bas de page s’affiche à la fin de la rubrique.
 
 
-**Renommer ou remplacer un élément**
+## Renommer ou remplacer un élément
 
 L’éditeur affiche le chemin de navigation de l’élément en bas à gauche de la rubrique. Si vous souhaitez permuter ou remplacer un élément par un autre élément, vous pouvez le faire à partir du menu contextuel du chemin de navigation. Par exemple, vous pouvez permuter `p` élément avec `note` ou tout autre élément valide au niveau du contexte.
 
@@ -195,9 +197,9 @@ Outre le menu contextuel du chemin de navigation, la boîte de dialogue Renommer
 
 - Vous pouvez accéder à la boîte de dialogue Renommer l’élément en appelant le menu Options d’un élément dans le panneau Plan.
 
+## Habillage et débrouillage d’un élément
 
-
-**Enrouler un élément**
+### Développer un élément
 
 - Envelopper un élément permet d’ajouter une balise d’élément au texte sélectionné. Vous pouvez renvoyer le texte à la ligne sur n&#39;importe quel élément enfant en respectant les normes DITA. Par exemple, si vous avez du texte sous un élément `note`, vous pouvez encapsuler le texte dans un élément `p`.
 
@@ -205,11 +207,11 @@ Outre le menu contextuel du chemin de navigation, la boîte de dialogue Renommer
 
 - Vous pouvez également sélectionner le texte ou l’élément dans le contenu, puis sélectionner l’option **Enrouler l’élément** dans le menu contextuel.
 
-**Déplier un élément**
+### Déplier un élément
 
 Déplier un élément vous permet de supprimer la balise d’élément du texte sélectionné et de le fusionner avec son élément parent. Par exemple, si vous disposez d’un élément `p` dans un élément `note`, vous pouvez déplier l’élément `p` pour fusionner le texte directement dans l’élément `note`. L’option **Déplier l’élément** est disponible dans le menu contextuel du chemin de navigation de la rubrique. Pour déplier un élément, cliquez avec le bouton droit de la souris sur l’élément pour ouvrir le menu contextuel, puis sélectionnez **Déplier l’élément** pour supprimer l’élément et fusionner le texte de l’élément avec son élément parent.
 
-**Gestion des espaces pour les éléments DITA**
+## Gestion des espaces pour les éléments DITA
 
 Dans le langage XML, les espaces comprennent les espaces, les tabulations, les retours à la ligne et les lignes vides. Experience Manager Guides convertit plusieurs espaces blancs conséquents en un seul espace. Cela permet de conserver la vue WYSIWYG de l’éditeur.
 
@@ -218,7 +220,7 @@ Dans le langage XML, les espaces comprennent les espaces, les tabulations, les r
 > Dans certains éléments où les espaces blancs doivent être conservés conformément aux règles DITA, les multiples espaces blancs qui en résultent sont conservés. Par exemple, les éléments `<pre>` et `<codeblock>`.
 
 
-**Conserver les sauts de ligne et la mise en retrait**
+## Conserver les sauts de ligne et la mise en retrait
 
 Les éléments DITA contenant des sauts de ligne et des espaces sont pris en charge et rendus conformément à leur définition dans les modes Auteur, Source ou Aperçu, ainsi que dans la sortie publiée finale. La capture d’écran suivante montre le contenu de l’élément `msgblock` dans lequel les sauts de ligne et les espaces \(retrait\) ont été conservés :
 
@@ -226,7 +228,7 @@ Les éléments DITA contenant des sauts de ligne et des espaces sont pris en cha
 
 
 
-**Gestion des espaces insécables dans l’éditeur**
+## Gestion des espaces insécables dans l’éditeur
 
 - Vous pouvez insérer des espaces insécables dans votre document à l&#39;aide de l&#39;icône de ![](images/symbol-icon.svg) **Symobol** ou des touches de raccourci **Alt** + **Space**.  Ces espaces insécables s’affichent en tant qu’indicateurs lorsque vous modifiez une rubrique dans l’éditeur. Vous pouvez désactiver l’affichage des espaces insécables à l’aide de l’option **Afficher l’espace insécable en mode création** de l’onglet **Apparence** des [Préférences utilisateur](./intro-home-page.md#user-preferences).
 
@@ -234,7 +236,7 @@ Les éléments DITA contenant des sauts de ligne et des espaces sont pris en cha
 Cependant, si vous copiez et collez du contenu avec un espace insécable à partir de la vue **Auteur**, il est conservé.
 
 
-**Générer automatiquement l’identifiant de l’élément**
+## Générer automatiquement l’identifiant de l’élément
 
 Vous pouvez générer automatiquement des identifiants pour les éléments de votre rubrique DITA. Ces identifiants sont uniques dans une rubrique DITA. Par exemple, si vous générez des identifiants pour un élément de paragraphe, les identifiants seront p\_1, p2, p\_3, etc. Vous pouvez sélectionner plusieurs éléments et générer des identifiants pour chaque élément sélectionné.
 
@@ -246,5 +248,24 @@ Procédez comme suit pour générer automatiquement un identifiant pour un ou pl
 
    Vous pouvez également cliquer avec le bouton droit dans le chemin de navigation et sélectionner **Générer des identifiants**.
 
+
+
+## Gestion des fichiers volumineux dans l’éditeur
+
+Les principales fonctionnalités visant à améliorer la gestion des fichiers volumineux sont mentionnées comme suit :
+
+- Pour améliorer les performances, certaines fonctionnalités telles que Annuler, Rétablir, le panneau de contour et la marque d’intégrité sont désactivées. Il est recommandé de diviser les rubriques en rubriques plus petites pour une expérience optimale.
+
+- Un message d’alerte s’affiche en haut pour les fichiers volumineux, comme illustré dans le fragment de code ci-dessous. Cette alerte met en surbrillance le nombre d’éléments en fonction de la valeur spécifiée dans le paramètre **largeFileTagCount** du fichier uiconfig.json. Par défaut, la valeur de **largeFileTagCount** est 2 500.
+
+![](images/add-toast-notification.png){width="600" align="left"}
+
+
+- En outre, le nombre de balises s’affiche dans la barre inférieure de l’interface. Lorsque vous passez la souris sur cette valeur de nombre de balises, une info-bulle s’affiche. Sélectionnez l’onglet **En savoir plus** pour plus d’informations sur la gestion des fichiers volumineux.
+
+![](images/add-toast-tag-count.png){width="600" align="left"}
+
+
+- Le message d&#39;alerte est disponible uniquement pour les fichiers DITA et est visible dans tous les modes : Auteur, Source et Disposition.
 
 **Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)
