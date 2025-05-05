@@ -2,7 +2,7 @@
 title: Configurer l’assistant AI pour l’aide et la création intelligentes
 description: Découvrez comment configurer l’assistant AI dans Experience Manager Guides
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: 7b217cfd52dbf716b626e66373fffcc1b9eff695
+source-git-commit: 018bd7c7bc3bb9161e5bedd42d50a5c501ca2919
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Pour créer des configurations IMS dans Adobe Developer Console, procédez comme
 
 1. Cliquez sur le lien **OAuth de serveur à serveur** pour afficher les informations d’identification de votre projet.
 
-   ![informations d’identification connectées](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
+   ![ informations d’identification connectées ](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
 
    *Connectez-vous au projet pour afficher les informations d’identification.*
 
@@ -84,7 +84,7 @@ Pour ajouter la configuration IMS à l’environnement, procédez comme suit :
 
 ## Activer l’indicateur d’IA dans l’environnement
 
-Pour activer la fonctionnalité Assistant d’IA dans l’interface utilisateur de Experience Manager Guides, ajoutez l’indicateur `ENABLES_GUIDES_AI` dans l’environnement.
+Pour activer la fonctionnalité Assistant d’IA dans l’interface utilisateur de Experience Manager Guides, ajoutez l’indicateur `ENABLE_GUIDES_AI` dans l’environnement.
 
 Assurez-vous d’utiliser le même nom et la même configuration que ceux fournis dans la capture d’écran suivante.
 
