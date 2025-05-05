@@ -459,11 +459,11 @@ Par exemple, vous pouvez ajouter une variable de langue « reference-label » et
 Lorsque vous ajoutez des `${lng:<variable name>}` à la section Paragraphe, les références croisées dans les paragraphes de la sortie contiennent le texte localisé et le numéro de page.\
 Par exemple, les captures d’écran ci-dessous montrent les références croisées « View on page 1 » en anglais et « Einzelheiten finden Sie auf der Seite 1 » en allemand.
 
-<img src="./assets/english-output-corss-reference.png" alt="Sortie en anglais d&apos;une référence croisée dans un pragrah" width ="800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="Sortie en anglais d&apos;une référence croisée dans un pragrah&quot; width =&quot;800" border="2px">
 
 *Référence croisée dans un paragraphe lorsqu’il est publié en langue anglaise.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Sortie allemande d&apos;une référence croisée dans un pragrah" width ="800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="Sortie allemande d&apos;une référence croisée dans un pragrah&quot; width =&quot;800" border="2px">
 
 
 *Référence croisée dans un paragraphe lorsqu’il est publié en allemand.*

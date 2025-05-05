@@ -142,7 +142,7 @@ Pour purger les anciennes versions, procédez comme suit :
 
    ![](assets/preview-purge-report.png)
 
-1. 
+1. &#x200B;
    - **Nombre de versions à conserver à partir de la dernière version** : entrez le nombre de versions qui doivent être conservées et non purgées. Par exemple, si nous saisissons 5 , les 5 dernières versions sont conservées, et les versions antérieures à peuvent être purgées si d’autres conditions de purge sont remplies.
 - **Conserver les versions créées pendant la période \(En jours\)** : saisissez la page maximale d’une version en jours. Les versions antérieures au nombre de jours donné peuvent être purgées si d’autres conditions de purge sont remplies. Par exemple, si nous entrez 100, toutes les versions créées avant 100 jours sont éligibles pour être purgées si d’autres conditions de purge sont remplies.
 - **Chemin** : sélectionnez le chemin d’accès du fichier ou du dossier dont vous souhaitez purger les fichiers.

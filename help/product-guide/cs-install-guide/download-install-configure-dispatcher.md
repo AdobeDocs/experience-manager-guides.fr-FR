@@ -23,4 +23,4 @@ Dispatcher est l’outil de mise en cache et/ou d’équilibrage de charge d’A
 >
 > AEM as a cloud service ne prend pas en charge Dispatcher pour l’instance d’auteur.
 
-**Rubrique parente :**[ Télécharger et installer](download-install.md)
+**Rubrique parente :**&#x200B;[ Télécharger et installer](download-install.md)

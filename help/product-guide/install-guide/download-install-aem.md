@@ -37,4 +37,4 @@ Si vous prévoyez de mettre à niveau votre instance AEM, vous devez suivre l’
 >
 > Il existe un certain nombre de recommandations d’optimisation des performances que vous pouvez prendre en compte pour améliorer les performances de votre système. Voir [Recommendations pour l’optimisation des performances](download-install-recommend-perf-optimiz.md#) pour plus d’informations.
 
-**Rubrique parente :**[ Télécharger et installer](download-install.md)
+**Rubrique parente :**&#x200B;[ Télécharger et installer](download-install.md)

@@ -21,4 +21,4 @@ Pour activer la publication basée sur des articles, téléchargez et installez 
 - Modèle de base de connaissances pour la publication basée sur un article
 - Package de composants pour la publication basée sur les articles
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[ Personnaliser l’éditeur web](conf-web-editor.md)

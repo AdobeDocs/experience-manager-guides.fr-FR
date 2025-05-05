@@ -178,4 +178,4 @@ Les fonctionnalités Experience Manager Guides suivantes ne s’appliquent actue
 > La fonction **Rechercher et remplacer** ne traite pas les fichiers Markdown au niveau du référentiel. Cela inclut la recherche d’un fichier Markdown dans un mappage ou un dossier. Cependant, elle peut toujours être utilisée dans l’éditeur Markdown. En outre, les options **Rechercher** et **Filtrer** de la vue Référentiel ne traitent pas les fichiers Markdown.
 
 
-**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**&#x200B;[ Présentation de l’éditeur](web-editor.md)

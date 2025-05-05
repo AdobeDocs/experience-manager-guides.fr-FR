@@ -47,7 +47,7 @@ Le panneau de gauche du tableau de bord de publication propose les options de fi
 
 ## Accès au tableau de bord de publication
 
-Vous pouvez accéder au tableau de bord **Publication** directement à partir de la page d’accueil de Experience Manager Guides [](./intro-home-page.md). Ouvrez la page d’accueil et sélectionnez l’option **File d’attente de publication** dans le panneau de gauche.
+Vous pouvez accéder au tableau de bord **Publication** directement à partir de la page d’accueil de Experience Manager Guides [&#128279;](./intro-home-page.md). Ouvrez la page d’accueil et sélectionnez l’option **File d’attente de publication** dans le panneau de gauche.
 
 >[!NOTE]
 >
@@ -89,4 +89,4 @@ Pour annuler une tâche de génération de sortie à partir du tableau de bord d
    ![](images/cancelled-output-task.png){align="left"}
 
 
-**Rubrique parente :**[ Génération de sortie](generate-output.md)
+**Rubrique parente :**&#x200B;[ Génération de sortie](generate-output.md)

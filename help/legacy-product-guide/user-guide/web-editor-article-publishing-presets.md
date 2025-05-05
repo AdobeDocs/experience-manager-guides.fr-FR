@@ -61,4 +61,4 @@ Pour créer des paramètres prédéfinis de sortie pour votre plan DITA, procéd
 
 ![](images/edit-preset_cs.png){width="550" align="left"}
 
-**Rubrique parente :**[ Publication basée sur des articles dans l’éditeur web](web-editor-article-publishing.md)
+**Rubrique parente :**&#x200B;[ Publication basée sur des articles dans l’éditeur web](web-editor-article-publishing.md)

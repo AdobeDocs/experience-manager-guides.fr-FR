@@ -159,7 +159,7 @@ Dans l’exemple suivant, nous allons créer un style de casquette de dépôt :
 
    >[!NOTE]
    >
-   Voir la section [Personnaliser un style prédéfini ou nouveau](components-pdf-template.md#customize-style) pour ouvrir une feuille de style à des fins de personnalisation ou de modification.
+   >Voir la section [Personnaliser un style prédéfini ou nouveau](components-pdf-template.md#customize-style) pour ouvrir une feuille de style à des fins de personnalisation ou de modification.
 
 1. Dans la liste **Styles**, développez les **Styles de paragraphe**.
 
@@ -195,7 +195,7 @@ Dans l’exemple suivant, nous allons créer un style de caractères intégré :
 
    >[!NOTE]
    >
-   Voir la section [Personnaliser un style prédéfini ou nouveau](components-pdf-template.md#customize-style) pour ouvrir une feuille de style à des fins de personnalisation ou de modification.
+   >Voir la section [Personnaliser un style prédéfini ou nouveau](components-pdf-template.md#customize-style) pour ouvrir une feuille de style à des fins de personnalisation ou de modification.
 
 1. Dans la liste **Styles**, développez les **Styles de caractères**.
 
@@ -215,7 +215,7 @@ Dans l’exemple suivant, nous allons créer un style de caractères intégré :
 
      >[!NOTE]
      >
-     Vous pouvez également ajouter des polices à votre modèle, qui sont stockées dans la section Ressources de votre modèle. Pour plus d’informations sur l’ajout de polices et l’utilisation des ressources, voir [Utilisation de ressources](components-pdf-template.md#work-with-resources).
+     >Vous pouvez également ajouter des polices à votre modèle, qui sont stockées dans la section Ressources de votre modèle. Pour plus d’informations sur l’ajout de polices et l’utilisation des ressources, voir [Utilisation de ressources](components-pdf-template.md#work-with-resources).
 
    * **Mise en page** : vous pouvez définir les propriétés liées à la mise en page telles que Hauteur et Largeur, Marge, Marge intérieure, Alignement, etc.
 
@@ -239,7 +239,7 @@ Dans l’exemple suivant, nous allons personnaliser le style de liste numéroté
 
    >[!NOTE]
    >
-   Voir la section [Personnaliser un style prédéfini ou nouveau](components-pdf-template.md#customize-style) pour ouvrir une feuille de style à des fins de personnalisation ou de modification.
+   >Voir la section [Personnaliser un style prédéfini ou nouveau](components-pdf-template.md#customize-style) pour ouvrir une feuille de style à des fins de personnalisation ou de modification.
 
 1. Dans la liste **Styles**, développez les **Styles de liste**.
 
@@ -277,7 +277,7 @@ Dans l’exemple suivant, nous allons personnaliser le style de liste numéroté
 
      >[!NOTE]
      >
-     Vous pouvez saisir la valeur en px (pixels), pt (points), rem, em, % (pourcentage) ou en unités (pouces).
+     >Vous pouvez saisir la valeur en px (pixels), pt (points), rem, em, % (pourcentage) ou en unités (pouces).
 
    * **Largeur du préfixe** : il s’agit de la zone occupée par le format numérique. Il est automatiquement défini sur une taille pouvant facilement s’adapter au format sélectionné. Si vous souhaitez augmenter la taille, vous pouvez remplacer la valeur par défaut.
 
@@ -299,7 +299,7 @@ Dans l’exemple suivant, nous voyons comment créer un style de tableau et les 
 
    >[!NOTE]
    >
-   Voir la section [Personnaliser un style prédéfini ou nouveau](components-pdf-template.md#customize-style) pour ouvrir une feuille de style à des fins de personnalisation ou de modification.
+   >Voir la section [Personnaliser un style prédéfini ou nouveau](components-pdf-template.md#customize-style) pour ouvrir une feuille de style à des fins de personnalisation ou de modification.
 
 1. Dans la liste **Styles**, cliquez avec le bouton droit de la souris sur le **Style de tableau** et choisissez **Nouveau style**.
 
@@ -315,7 +315,7 @@ Dans l’exemple suivant, nous voyons comment créer un style de tableau et les 
 
      >[!NOTE]
      >
-     Les paramètres suivants sont disponibles sous la section **Général** lorsque **Appliquer le formatage à** est défini sur **Table entière**.
+     >Les paramètres suivants sont disponibles sous la section **Général** lorsque **Appliquer le formatage à** est défini sur **Table entière**.
 
    * **Habillage de texte** : choisissez comment placer du texte autour du tableau. Cela s’avère utile lorsque le tableau se trouve dans un autre élément de niveau bloc et qu’il doit être rendu avec d’autres contenus dans l’élément de bloc. Les options d’encapsulage sont *left* ou *right* alignées, ou *none*.
 
@@ -329,7 +329,7 @@ Dans l’exemple suivant, nous voyons comment créer un style de tableau et les 
 
      >[!NOTE]
      >
-     Les paramètres suivants sont disponibles sous la section **Cell** lorsque l’option **Appliquer le formatage à** est définie sur **Table entière**.
+     >Les paramètres suivants sont disponibles sous la section **Cell** lorsque l’option **Appliquer le formatage à** est définie sur **Table entière**.
 
    * **Marge intérieure** : spécifiez la marge intérieure entre les cellules du tableau. Vous pouvez spécifier différentes valeurs de remplissage pour les côtés supérieur, inférieur, gauche et droit.
 
@@ -355,7 +355,7 @@ Dans l’exemple suivant, nous allons créer un style de titre de fenêtre (`win
 
    >[!NOTE]
    >
-   Voir la section [Personnaliser un style prédéfini ou nouveau](components-pdf-template.md#customize-style) pour ouvrir une feuille de style à des fins de personnalisation ou de modification.
+   >Voir la section [Personnaliser un style prédéfini ou nouveau](components-pdf-template.md#customize-style) pour ouvrir une feuille de style à des fins de personnalisation ou de modification.
 
 1. Dans la liste **Styles**, développez **Autres styles**.
 
@@ -406,7 +406,7 @@ Par exemple, vous pouvez définir les styles suivants pour définir la taille de
 
 >[!NOTE]
 >
-Dans l’exemple précédent, &quot;Front&quot; et &quot;Back&quot; sont les exemples de noms des fichiers de mise en page que vous pouvez utiliser dans les modèles.
+>Dans l’exemple précédent, &quot;Front&quot; et &quot;Back&quot; sont les exemples de noms des fichiers de mise en page que vous pouvez utiliser dans les modèles.
 
 
 ## Définition d’un style CSS personnalisé pour le contenu de préfixe et de suffixe

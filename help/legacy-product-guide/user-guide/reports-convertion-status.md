@@ -57,4 +57,4 @@ Pour afficher le rapport Statut de la conversion, procédez comme suit :
       - **Output** : chemin d’accès du document converti. Cliquez sur le lien Sortie pour accéder à l’emplacement d’enregistrement de la sortie.
 
 
-**Rubrique parente :**[ Rapports](reports-intro.md)
+**Rubrique parente :**&#x200B;[ Rapports](reports-intro.md)

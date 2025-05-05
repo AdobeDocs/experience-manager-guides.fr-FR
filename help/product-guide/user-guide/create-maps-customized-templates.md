@@ -230,4 +230,4 @@ La carte génère toutes les ressources qui sont référencées à l’intérieu
 
 - Si un autre mappage ou une autre rubrique est créé au même niveau dans le dossier, les noms des ressources nouvellement créées sont ajoutés avec 0,1,2, etc. Vous pouvez choisir d’ouvrir le mappage pour le modifier ou d’enregistrer le fichier de mappage dans le référentiel.
 
-**Rubrique parente :**[ Présentation de l’éditeur de cartes](map-editor.md)
+**Rubrique parente :**&#x200B;[ Présentation de l’éditeur de cartes](map-editor.md)

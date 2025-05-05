@@ -39,4 +39,4 @@ Une fois la tâche de révision réaffectée, la colonne Assignation affiche le 
 
 Le réviseur affecté reçoit une notification dans la boîte de réception pour la tâche de révision réaffectée.
 
-**Rubrique parente :**[ consulter des rubriques ou des cartes](review.md)
+**Rubrique parente :**&#x200B;[ consulter des rubriques ou des cartes](review.md)

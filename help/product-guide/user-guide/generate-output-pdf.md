@@ -41,4 +41,4 @@ Pour plus d’informations sur la création de paramètres prédéfinis de PDF n
 
 
 
-**Rubrique parente :**[ Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)
+**Rubrique parente :**&#x200B;[ Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)

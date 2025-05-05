@@ -47,4 +47,4 @@ Pour plus d’informations sur le fonctionnement des différents scénarios de c
 
 Si vous utilisez un outil tel que l’application de bureau Adobe Experience Manager ou l’outil d’ingestion de ressources en bloc, l’action à effectuer sur un fichier en double est contrôlée par un paramètre dans le serveur Adobe Experience Manager. Contactez votre administrateur système pour en savoir plus sur cette configuration.
 
-**Rubrique parente :**[ Gérer le contenu](authoring.md)
+**Rubrique parente :**&#x200B;[ Gérer le contenu](authoring.md)

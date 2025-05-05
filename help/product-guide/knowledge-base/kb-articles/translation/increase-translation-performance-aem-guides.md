@@ -24,10 +24,12 @@ Chaque projet de traduction génère plusieurs groupes d’utilisateurs auxquels
 
 - Marquez tous les projets comme &quot;inactifs&quot; une fois la traduction terminée et approuvée. Le projet reste disponible pour révision et est simplement marqué comme inactif.
    - Suivez ces étapes pour maintenir les performances globales de traduction en bonne santé.
+
      ![Projet de traduction inactif ](../assets/translation/translation-project-image1.png)
 
 - Pour les dossiers de projets plus anciens, qui est marqué comme inactif, approuvé et révisé, doit être supprimé.
    - Suivez ces étapes pour maintenir les performances globales de traduction en bon état de fonctionnement en nettoyant les fichiers de traduction temporaires et les groupes d’utilisateurs associés à ce dossier de projet.
+
      ![ Supprimer le projet et le dossier de traduction ](../assets/translation/translation-project-image2.png)
 
 

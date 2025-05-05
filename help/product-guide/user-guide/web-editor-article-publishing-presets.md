@@ -66,4 +66,4 @@ Pour afficher la sortie, fermez la boîte de dialogue Sortie générée et séle
 
 
 
-**Rubrique parente :**[ Publication basée sur des articles à partir de l’éditeur](web-editor-article-publishing.md)
+**Rubrique parente :**&#x200B;[ Publication basée sur des articles à partir de l’éditeur](web-editor-article-publishing.md)

@@ -40,7 +40,7 @@ Effectuez les étapes suivantes pour créer des configurations IMS dans **Adobe 
 
    <img src="assets/projects-tab.png" alt="onglet projets" width="500">
 
-   *Sélectionnez l’onglet **Projets**sur **Adobe Developer Console***
+   *Sélectionnez l’onglet **Projets**&#x200B;sur **Adobe Developer Console***
 
 1. Pour créer un projet vide, sélectionnez **Projet vide** dans la liste déroulante **Créer un projet** .
 

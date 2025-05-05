@@ -46,4 +46,4 @@ Effectuez les étapes suivantes pour générer une sortie basée sur un article 
    > Vous pouvez également Renommer, Dupliquer ou Supprimer un paramètre prédéfini de sortie existant à partir du menu Options.
 
 
-**Rubrique parente :**[ Utiliser l’éditeur](web-editor.md)
+**Rubrique parente :**&#x200B;[ Utiliser l’éditeur](web-editor.md)

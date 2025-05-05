@@ -114,8 +114,10 @@ Vous avez besoin des deux types de modèles suivants :
   ![modèle de page de section](assets/customize-existing-aem-templates-section.png)
    - Page de détails ou modèle de page de rubrique : utilisez ce modèle pour le contenu des rubriques d’une carte. Toutes les pages Sites de contenu DITA/XML sont créées à l’aide de modèles de page de rubrique. Pour créer ces modèles, deux conditions préalables sont nécessaires :
       - Ajoutez un composant de texte au modèle, contenu dans un composant de conteneur, avec une propriété obligatoire. `text="$topic.content$"`.
+
         ![modèle de page de conteneur](assets/customize-existing-aem-templates-container.png)
       - Reflétez le même conteneur et composant de texte dans la structure du même modèle, comme illustré dans la capture d’écran suivante :
+
         ![structure du modèle de conteneur](assets/customize-existing-aem-templates-structure.png)
 
 ### Balisage d’une page de catégorie en tant que conteneur de documentation

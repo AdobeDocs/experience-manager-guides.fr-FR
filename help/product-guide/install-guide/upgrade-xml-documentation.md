@@ -62,7 +62,7 @@ Avant d’exécuter le processus, vous devez effectuer certaines tâches. Les so
 
 
 
-****Conditions préalables****
+**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
 
 Avant de commencer le processus de mise à niveau de Experience Manager Guides, vérifiez que vous disposez des éléments suivants :
 
@@ -135,7 +135,7 @@ La mise à niveau vers la version 4.2 dépend de la version actuelle de Experien
 
 Si vous utilisez la version 4.0, 4.1 ou 4.1.x, vous pouvez directement effectuer la mise à niveau vers la version 4.2.
 
-****Conditions préalables****
+**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
 
 Avant de commencer le processus de mise à niveau d’Experience Manager Guides 4.2, vérifiez que vous avez :
 
@@ -311,7 +311,7 @@ La mise à niveau vers la version 4.2.1 dépend de la version actuelle de Experi
 >
 >Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-****Conditions préalables****
+**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.2.1, vérifiez que vous disposez des éléments suivants :
 
@@ -488,7 +488,7 @@ La mise à niveau vers la version 4.3.0 dépend de la version actuelle de Experi
 >
 >Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-****Conditions préalables****
+**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.3.0, vérifiez que vous disposez des éléments suivants :
 
@@ -499,7 +499,7 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 
 ## Installation de la version 4.3.0
 
-1. Téléchargez le package de la version 4.3.0 à partir de Adobe portail](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) de distribution de [logiciels.
+1. Téléchargez le package de la version 4.3.0 à partir de Adobe portail[&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) de distribution de logiciels.
 1. Installez le package version 4.3.0.
 1. Effacez la mémoire cache du navigateur après l’installation du package.
 1. Mettez à niveau le `ui_config.json` fichier à partir de l’onglet Configuration **de l’éditeur** XML dans le profil de dossier.
@@ -546,7 +546,7 @@ La mise à niveau vers la version 4.3.1 dépend de la version actuelle de Experi
 >
 >Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-****Conditions préalables****
+**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.3.1, vérifiez que vous disposez des éléments suivants :
 
@@ -787,7 +787,7 @@ La mise à niveau vers la version 4.4.0 dépend de la version actuelle de Experi
 >
 >Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-****Conditions préalables****
+**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.4.0, vérifiez que vous disposez des éléments suivants :
 
@@ -980,7 +980,7 @@ Si votre base de code contient un autre module de réécriture Sling personnalis
 Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000 à 50, vous devez fusionner le module de réécriture personnalisé existant, le cas échéant, avec `'fmdita-rewriter'`.
 
 
-**Rubrique parente :**[ Télécharger et installer](download-install.md)
+**Rubrique parente :**&#x200B;[ Télécharger et installer](download-install.md)
 
 
 ## Mise à niveau vers la version 4.6.0
@@ -995,7 +995,7 @@ La mise à niveau vers la version 4.6.0 dépend de la version actuelle de Experi
 >
 > Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-****Conditions préalables****
+**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.6.0, vérifiez que vous disposez des éléments suivants :
 
@@ -1150,7 +1150,7 @@ Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000
 >
 > Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-****Conditions préalables****
+**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 5.0.0, vérifiez que vous disposez des éléments suivants :
 

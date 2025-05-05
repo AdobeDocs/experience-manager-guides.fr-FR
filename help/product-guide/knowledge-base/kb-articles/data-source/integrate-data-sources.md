@@ -53,6 +53,7 @@ Effectuez les étapes suivantes pour intégrer le contenu dans Experience Manage
 1. **Configuration du connecteur de source de données**
    - Le connecteur de source de données sert d’interface pour établir la connectivité avec les sources de données externes. Vous devez configurer le connecteur pour établir la connexion et inclure les méthodes d’authentification, telles que `Basic Auth` ou `API key Auth`. Tous les détails de configuration, y compris les informations chiffrées, sont stockés en toute sécurité dans Adobe Experience Manager.
    - La couche de connecteur est conçue pour être extensible, ce qui vous permet de créer vos implémentations pour vous connecter à différents systèmes qui ne sont pas fournis prêts à l’emploi par Experience Manager Guides.
+
      ![Couche de connecteur](assets/data-source-connector-layer.jpg)
    >[!NOTE]
    >
@@ -98,8 +99,10 @@ Effectuez les étapes suivantes pour intégrer le contenu dans Experience Manage
         ```
 
       - Modèles
+
         ![Moteur de modèle](assets/data-source-TemplatingEngine.png){width="800" align="left"}
       - Données générées à partir d’une même source de données mais de modèles différents
+
         ![Données générées](assets/data-source-templates-topics.png){width="800" align="left"}
 
 1. **Générer du contenu à l’aide des modèles**

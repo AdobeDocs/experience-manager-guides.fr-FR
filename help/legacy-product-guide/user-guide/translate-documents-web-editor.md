@@ -227,4 +227,4 @@ Pour effectuer la gestion des documents, Experience Manager Guides permet de sup
 Vous pouvez également désactiver les projets de traduction si vous souhaitez les utiliser ultérieurement. La suppression d’un projet supprime tous les fichiers et dossiers présents dans le projet. La désactivation d’un projet ne le supprime pas, mais le conserve dans le référentiel. Cependant, vous ne pouvez pas mettre à jour ni modifier un projet désactivé.  La suppression ou la désactivation d’un projet n’aura aucune incidence sur le statut de traduction des références.
 
 
-**Rubrique parente :**[ Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**&#x200B;[ Utiliser l’éditeur web](web-editor.md)

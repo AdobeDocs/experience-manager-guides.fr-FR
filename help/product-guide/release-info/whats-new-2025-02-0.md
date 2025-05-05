@@ -21,7 +21,7 @@ Les principaux points forts sont les suivants :
 
 - **Présentation de la page d’accueil** : Experience Manager Guides dispose désormais d’une page d’accueil qui offre une expérience d’écran de bienvenue intuitive, y compris un aperçu rapide des fichiers auxquels vous avez récemment accédé, des collections, etc.
 
-  Pour plus d’informations, consultez l’expérience de la page d’accueil d’Adobe Experience Manager Guides [](../user-guide/intro-home-page.md).
+  Pour plus d’informations, consultez l’expérience de la page d’accueil d’Adobe Experience Manager Guides [&#128279;](../user-guide/intro-home-page.md).
 
   ![](assets/aem-home-page.png){width="800" align="left"}
 

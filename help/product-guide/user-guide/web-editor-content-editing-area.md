@@ -24,4 +24,4 @@ Pour en savoir plus sur les vues Éditeur disponibles pour un fichier de rubriqu
 >
 > Si vous travaillez sur un fichier de mappage, différentes options ou vues s’affichent dans la zone d’édition du contenu , y compris une vue **Disposition** pour le fichier de mappage. Pour plus d’informations, consultez [Fonctionnalités de l’éditeur de cartes](./map-editor-advanced-map-editor.md).
 
-**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**&#x200B;[ Présentation de l’éditeur](web-editor.md)

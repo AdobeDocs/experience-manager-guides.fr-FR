@@ -174,6 +174,7 @@ Dans la capture d’écran suivante, seuls 3 des 4 éléments configurés de la 
 
 
    - Pour créer un profil de publication Salesforce, sélectionnez la base de connaissances **Salesforce** dans le menu déroulant **Type de serveur**. Saisissez un nom de profil. Dans l’**URL du site**, saisissez le site client que vous utiliserez pour publier la sortie, puis ajoutez les **Clé du client** et **Secret du client** fournis par le site client Salesforce. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
+
      ![profil de publication salesforce dans les paramètres de l’éditeur](./images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
@@ -1714,7 +1715,7 @@ Effectuez les étapes suivantes pour modifier la valeur :
 
 Vous pouvez également appliquer des valeurs à un attribut en sélectionnant plusieurs valeurs dans la liste déroulante.
 
-Vue Source ****
+Vue Source **&#x200B;**
 
 Vous pouvez également modifier les valeurs à partir de la liste déroulante de l’attribut dans la vue Source. La vue Source vous empêche également d’ajouter une valeur incorrecte.
 
@@ -1820,6 +1821,7 @@ Pour afficher les commentaires de révision dans les tâches de révision active
    - Saisissez le terme ou le texte à rechercher dans le titre du projet. Appuyez ensuite sur Entrée pour effectuer la recherche. Par exemple, vous pouvez rechercher tous les projets dont le titre contient le terme « espace ».
 
    - Sélectionnez ![](images/filter-search-icon.svg) pour ouvrir la boîte de dialogue **Filtre**. Vous pouvez sélectionner tous les projets ou uniquement des projets spécifiques. Les projets sélectionnés sont répertoriés dans le panneau **Révision**.
+
      ![](images/active-review-select-project.png){width="300" align="left"}
 
      L’option **Tâches que j’ai lancées** est activée par défaut. Il vous permet de n’afficher que les tâches que vous avez lancées. Le statut de basculement de cette option est conservé même après l’actualisation de la page.
@@ -2047,4 +2049,4 @@ La fonction Modifications suivies du panneau de droite vous permet d’afficher 
 >
 > La fonction Suivi des modifications affiche toutes les mises à jour qui ont été suivies à l’aide de la fonction Activer/désactiver le suivi des modifications de la barre d’outils principale. Pour plus d’informations, voir [Activation/désactivation du suivi des modifications](#id205DF0203Y4).
 
-**Rubrique parente :**[ Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**&#x200B;[ Utiliser l’éditeur web](web-editor.md)

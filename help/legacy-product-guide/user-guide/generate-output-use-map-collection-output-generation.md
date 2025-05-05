@@ -89,6 +89,7 @@ Pour configurer et générer la sortie à l’aide d’une collection Map, proc�
    - Activez n’importe quel paramètre prédéfini.
    - Activez **Tous les paramètres prédéfinis** pour un plan DITA afin de sélectionner tous les paramètres prédéfinis en une seule fois. Cette option est désactivée par défaut.
    - Activez **Paramètres prédéfinis de profil de dossier** pour un plan DITA afin de sélectionner tous les paramètres prédéfinis de profil de dossier pour ce plan. Cette option est désactivée par défaut.
+
      ![modifier une collection map sur cloud services](images/edit-map-collection-cs.png){width="800" align="left"}
 
 
@@ -143,4 +144,4 @@ De la même manière que vous pouvez annuler une tâche de génération de sorti
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 
-**Rubrique parente :**[ Génération de sortie](generate-output.md)
+**Rubrique parente :**&#x200B;[ Génération de sortie](generate-output.md)

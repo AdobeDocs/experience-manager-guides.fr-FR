@@ -58,4 +58,4 @@ Pour supprimer un libellé, procédez comme suit :
    ![](images/delete-labels.png){width="300" align="left"}
 
 
-**Rubrique parente :**[ Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**&#x200B;[ Utiliser l’éditeur web](web-editor.md)

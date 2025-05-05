@@ -164,5 +164,5 @@ Les libellés répertoriés dans la liste déroulante sont basés sur les critè
 
 Une fois la ligne de base modifiée, sélectionnez **Enregistrer** pour enregistrer les modifications. Vous pouvez sélectionner **Réinitialiser** si vous ne souhaitez pas enregistrer la modification et réinitialiser la ligne de base. Lorsque vous sélectionnez **Réinitialiser**, un avertissement s’affiche indiquant que les modifications non enregistrées seraient perdues.
 
-**Rubrique parente :**[ Génération de sortie](generate-output.md)
+**Rubrique parente :**&#x200B;[ Génération de sortie](generate-output.md)
 

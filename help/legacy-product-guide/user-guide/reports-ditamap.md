@@ -96,4 +96,4 @@ Effectuez les étapes suivantes pour générer le fichier CSV d&#39;un rapport D
 
 Une fois le rapport téléchargé dans la boîte de réception, vous pouvez également sélectionner le rapport et utiliser l’icône Ouvrir en haut pour ouvrir le rapport sélectionné.
 
-**Rubrique parente :**[ Rapports](reports-intro.md)
+**Rubrique parente :**&#x200B;[ Rapports](reports-intro.md)

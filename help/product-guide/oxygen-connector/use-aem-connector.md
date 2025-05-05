@@ -255,6 +255,7 @@ Effectuez les étapes suivantes pour configurer les attributs de profilage et le
 1. Dans l’onglet **Extensions** , apportez les modifications suivantes :
 
    - Cliquez sur **Choose** en regard du **lot Extensions** et sélectionnez   `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` dans la liste **Class**. Cliquez sur **OK**.
+
      ![Extension configurée pour les rubriques DITA](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
    - Cliquez sur **Choisir** en regard de l’ **Auteur d’écouteur d’état d’extension** sous **Extensions individuelles** et sélectionnez `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` dans la liste **Classe**. Cliquez sur **OK**.
    - Cliquez sur **Choisir** en regard de l’ **Éditeur de valeur d’attribut personnalisé d’auteur** sous **Extensions individuelles** et sélectionnez `CustomValueEditor - com.adobe.o2.framework.extn` dans la liste **Classe**. Cliquez sur **OK**.

@@ -49,6 +49,7 @@ De même, si vous supprimez le contenu sélectionné, le contenu restant après 
 
    - Sélectionnez le contenu dans un élément.
    - Sélectionnez l’icône ![ajouter](images/Add_icon.svg) dans la barre d’outils secondaire supérieure pour afficher la boîte de dialogue **Entourer avec l’élément**. La boîte de dialogue répertorie les éléments valides pour le contenu sélectionné.
+
      >[!NOTE]
      >
      > Vous pouvez également afficher la boîte de dialogue Entourer avec un élément en sélectionnant le menu contextuel du contenu sélectionné.
@@ -106,4 +107,4 @@ Lorsque vous ouvrez un fichier dans l’éditeur web, Experience Manager Guides 
 Vous pouvez désactiver la fonction de localisation du fichier à l’aide de l’option **Toujours localiser les fichiers dans le référentiel** de l’onglet **Apparence** des **Préférences utilisateur**.
 
 
-**Rubrique parente :**[ Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**&#x200B;[ Utiliser l’éditeur web](web-editor.md)

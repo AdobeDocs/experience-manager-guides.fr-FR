@@ -63,6 +63,7 @@ Vous pouvez afficher le rapport de liste de rubriques d’une carte en procédan
    - **État du document** État du topic.
    - **Auteur** Dernier utilisateur à avoir travaillé sur le sujet.
    - **Mappage parent** liste de tous les mappages où la rubrique est directement référencée.
+
    >[!NOTE]
    >
    > Sélectionnez **Actualiser** pour obtenir une nouvelle liste des rubriques et afficher les modifications apportées à votre fichier de mappage ou si une référence de votre fichier de rubrique est mise à jour.
@@ -206,6 +207,7 @@ Le rapport **Multimédia** fournit des informations détaillées sur le contenu 
    - **Type multimédia** \(sélectionné par défaut\) Type du fichier multimédia. Les options disponibles sont Audio, Vidéo ou Image.
    - **Utilisé dans** \(sélectionné par défaut\) Références dans lesquelles le contenu multimédia a été utilisé. Vous pouvez sélectionner la référence pour la modifier.
    - **Type de référence** \(sélectionné par défaut\) Le type de référence - direct ou indirect.
+
    >[!NOTE]
    >
    > Sélectionnez **Actualiser** pour obtenir une nouvelle liste des fichiers multimédias et afficher les modifications apportées à votre fichier de carte ou si des fichiers multimédias de votre carte DITA sont mis à jour.
@@ -266,4 +268,4 @@ Vous pouvez afficher le rapport pour les liens rompus en procédant comme suit :
 1. Sélectionnez **Télécharger** pour télécharger l&#39;instantané de tous les liens rompus dans le plan DITA. Le fichier Excel contient les colonnes sélectionnées et les liens rompus filtrés dans la vue Liens rompus.
 
 
-**Rubrique parente :**[ Présentation des rapports](reports-intro.md)
+**Rubrique parente :**&#x200B;[ Présentation des rapports](reports-intro.md)

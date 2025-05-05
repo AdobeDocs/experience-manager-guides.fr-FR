@@ -122,7 +122,7 @@ Les variables avec le même ID sont importées une fois le fichier importé. Les
 >[!NOTE]
 > 
 ><ul><li>Si le fichier n’est pas un fichier XML ou s’il contient un format incorrect qui ne correspond pas aux variables de langue, une erreur s’affiche indiquant qu’il existe un problème avec le fichier XML. 
-&gt;<li>Si le fichier ne contient aucune variable portant le même ID, un avertissement s’affiche indiquant qu’aucune variable de langue correspondante n’a été trouvée dans le fichier importé.
+>&gt;<li>Si le fichier ne contient aucune variable portant le même ID, un avertissement s’affiche indiquant qu’aucune variable de langue correspondante n’a été trouvée dans le fichier importé.
 
 ### Options d’une variable de langue
 
@@ -130,7 +130,7 @@ Pointez sur la variable pour afficher le menu **Options** correspondant.
 
 <img width="550" alt="menu options des variables de langue" src="./assets/language-variable-user-options.png">
 
-*Utilisez le menu **Options**pour supprimer, prévisualiser ou dupliquer une variable de langue.*
+*Utilisez le menu **Options**&#x200B;pour supprimer, prévisualiser ou dupliquer une variable de langue.*
 
 Vous pouvez prévisualiser les variables d’application et d’utilisateur. Pour afficher la valeur de la variable dans la sortie, sélectionnez **Aperçu** dans le menu **Options** de la variable sélectionnée.
 Vous pouvez également choisir de **Supprimer** ou **Dupliquer** les variables utilisateur. La suppression d’une variable d’une langue la supprime automatiquement de toutes les langues.

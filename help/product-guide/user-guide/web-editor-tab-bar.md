@@ -52,4 +52,4 @@ Un outil puissant et piloté par l’IA conçu pour améliorer votre productivit
    - **Logiciel On-premise** : si vous utilisez Adobe Experience Manager Guides (4.2.1 et versions ultérieures), la sélection de l’option **Assets** vous conduit au chemin d’accès actuel au fichier dans l’interface utilisateur d’Assets.
 - **Paramètres** : permet d’accéder à la boîte de dialogue Paramètres de l’éditeur. Pour plus d’informations, voir [Utilisation des paramètres de l’éditeur](./web-editor-settings.md).
 
-**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**&#x200B;[ Présentation de l’éditeur](web-editor.md)

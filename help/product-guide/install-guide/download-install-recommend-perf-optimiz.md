@@ -51,7 +51,7 @@ Les paramètres de démarrage de la JVM doivent être soigneusement réglés en 
 
 - Définissez la taille du tas JVM sur un minimum de 1/4 de la mémoire totale disponible. Utilisez le paramètre `-Xmx<size>` pour définir la taille de la mémoire de tas. Définissez la valeur de -`Xms` est égale à `-Xmx`.
 
-- Activez `-XX:+HeapDumpOnOutOfMemoryError` et définissez le chemin d’accès pour `-XX:HeapDumpPath=</path/to/folder``>`.
+- Activez `-XX:+HeapDumpOnOutOfMemoryError` et définissez le chemin d’accès pour `-XX:HeapDumpPath=</path/to/folder` `>`.
 
 - Activez le journal Java GC en tant que :
 
@@ -115,4 +115,4 @@ Cela peut être effectué au moment de l’exécution via la console Felix ou vi
 Un nombre accru de la propriété **Limiter les pages du site AEM dans le tas** optimise le processus de génération de sortie du site AEM.
 
 
-**Rubrique parente :**[ Télécharger et installer](download-install.md)
+**Rubrique parente :**&#x200B;[ Télécharger et installer](download-install.md)

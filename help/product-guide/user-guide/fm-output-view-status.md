@@ -36,4 +36,4 @@ Pour afficher la file d’attente de génération de sortie, procédez comme sui
      Dans cette liste, il peut y avoir des tâches exécutées avec succès ou des tâches ayant échoué. Pour les tâches terminées avec succès, le processus de publication crée un fichier journal \(logs.txt\) accessible en sélectionnant le lien dans la colonne Généré à .
 
 
-**Rubrique parente :**[ générer la sortie des documents FrameMaker](fm-output-generatation.md)
+**Rubrique parente :**&#x200B;[ générer la sortie des documents FrameMaker](fm-output-generatation.md)

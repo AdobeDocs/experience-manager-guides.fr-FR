@@ -39,4 +39,4 @@ Pour créer des balises intelligentes, procédez comme suit :
 
 *Contactez votre équipe du succès client pour que cette fonctionnalité soit activée dans l’environnement. Cette fonctionnalité n’est pas activée dans le cadre de la prise en charge prête à l’emploi.*
 
-**Rubrique parente :**[ Gérer les métadonnées](manage-metadata.md)
+**Rubrique parente :**&#x200B;[ Gérer les métadonnées](manage-metadata.md)

@@ -253,4 +253,4 @@ Procédez comme suit pour générer automatiquement un identifiant pour un ou pl
    Vous pouvez également cliquer avec le bouton droit dans le chemin de navigation et sélectionner **Générer des identifiants**.
 
 
-**Rubrique parente :**[ Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**&#x200B;[ Utiliser l’éditeur web](web-editor.md)

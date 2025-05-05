@@ -219,4 +219,4 @@ Si la colonne Extrait n’est pas visible, sélectionnez **Paramètres d’affic
 
   Une nouvelle branche est créée à partir de la version sélectionnée de la rubrique. Le processus ci-dessus s’applique également pour revenir à une version spécifique d’une rubrique. Le retour à une version spécifique signifie techniquement que vous créez une branche à partir de la version sélectionnée et que vous faites de cette version la copie de travail actuelle de la rubrique. Vous pouvez également afficher l’historique des fichiers qui ont été rétablis dans le rapport Historique de rétablissement de version. Pour plus d’informations sur ce rapport, voir [Rapport Historique des versions de fichiers rétablis](reports-reverted-file-version-history.md#).
 
-**Rubrique parente :**[ Créer et prévisualiser des rubriques](create-preview-topics.md)
+**Rubrique parente :**&#x200B;[ Créer et prévisualiser des rubriques](create-preview-topics.md)

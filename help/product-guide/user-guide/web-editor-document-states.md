@@ -114,4 +114,4 @@ Une fois qu’un document est marqué comme approuvé, il n’est plus disponibl
    Le document passe à l’état Brouillon et est ouvert dans l’éditeur en mode d’édition.
 
 
-**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**&#x200B;[ Présentation de l’éditeur](web-editor.md)

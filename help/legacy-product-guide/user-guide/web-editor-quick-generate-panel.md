@@ -30,4 +30,4 @@ Effectuez les étapes suivantes pour générer la sortie à partir du panneau **
 1. Cliquez sur **Générer** pour générer la sortie des paramètres prédéfinis sélectionnés. Un message de réussite s’affiche lors de la génération de la sortie. Un message d’erreur s’affiche en cas d’échec de la génération. Vous pouvez également consulter le journal des erreurs pour afficher les détails de l’erreur qui s’est produite dans le processus de génération.
 1. Cliquez sur l’icône **Afficher la sortie** \( ![](images/view-output-icon.svg)\) d’un paramètre prédéfini spécifique pour afficher la sortie générée pour le paramètre prédéfini.
 
-**Rubrique parente :**[ Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**&#x200B;[ Utiliser l’éditeur web](web-editor.md)

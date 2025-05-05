@@ -17,4 +17,4 @@ Adobe Experience Manager Assets vous offre la possibilité de créer des ressour
 
 Pour plus d’informations sur la gestion des métadonnées dans Adobe Experience Manager, consultez [ Gestion des métadonnées de vos ressources numériques ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/metadata.html?lang=fr).
 
-**Rubrique parente :**[ Gérer les métadonnées](manage-metadata.md)
+**Rubrique parente :**&#x200B;[ Gérer les métadonnées](manage-metadata.md)

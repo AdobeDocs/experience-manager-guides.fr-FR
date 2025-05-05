@@ -125,6 +125,7 @@ Par exemple :
       - Si vous avez sélectionné le modèle de liste ordonnée Jira, vous pouvez afficher une liste ordonnée des problèmes Jira.
 
    1. La vue source affiche les données dans la vue source DITA.
+
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
       *Ajoutez un générateur de fragments de code de contenu. Affichez les données en mode source ou aperçu.*
 

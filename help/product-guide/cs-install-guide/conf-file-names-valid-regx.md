@@ -32,4 +32,4 @@ Suivez les instructions de la section [Remplacements de configuration](download-
 >
 > Tout comme la liste des caractères de nom de fichier valides, vous pouvez également spécifier une liste de caractères de nom de fichier valides pour AEM sortie Site. Pour plus d’informations, voir [Configuration de noms de fichier valides pour AEM sortie du site](conf-file-names-valid-regx-aem-site-output.md#).
 
-**Rubrique parente :**[ Configurer les noms de fichier](conf-file-names.md)
+**Rubrique parente :**&#x200B;[ Configurer les noms de fichier](conf-file-names.md)

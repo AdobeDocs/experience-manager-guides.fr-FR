@@ -154,4 +154,4 @@ Les libellés répertoriés dans la liste déroulante sont basés sur les critè
 
 Une fois la ligne de base modifiée, cliquez sur le bouton **Enregistrer** en haut pour enregistrer les modifications. Vous pouvez cliquer sur le bouton **Réinitialiser** si vous ne souhaitez pas enregistrer la modification et réinitialiser la ligne de base. Lorsque vous cliquez sur le bouton **Réinitialiser**, un avertissement s’affiche indiquant que vos modifications non enregistrées seraient perdues.
 
-**Rubrique parente :**[ Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**&#x200B;[ Utiliser l’éditeur web](web-editor.md)

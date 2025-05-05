@@ -247,6 +247,7 @@ Pour envoyer une ou plusieurs rubriques avec le fichier de mappage pour révisio
    - **Réaffecter** : affiche la boîte de dialogue Réaffecter les réviseurs. Vous pouvez saisir le nom d’un réviseur ou d’un rôle d’utilisateur \(ou d’un groupe\) auquel vous souhaitez affecter la tâche de révision. Cette action supprime tous les réviseurs existants des rubriques sélectionnées et affecte les nouveaux réviseurs à ces rubriques.
    - **Exporter** : permet d’exporter les détails de la tâche de révision dans un fichier CSV. Le fichier contient des détails tels que le chemin et le titre de la rubrique, le nom du réviseur et la version des rubriques envoyées pour révision.
    - **Modifier les réviseurs** : cliquez sur l’icône ![](images/edit_pencil_icon.svg)dans la liste de rubriques pour afficher la boîte de dialogue Modifier les réviseurs. Vous pouvez ajouter ou supprimer des réviseurs et réviseuses pour la rubrique sélectionnée à partir de cette boîte de dialogue.
+
    >[!IMPORTANT]
    >
    > Vous devez affecter au moins un réviseur/une réviseuse pour créer la tâche de révision.
@@ -266,4 +267,4 @@ Pour envoyer une ou plusieurs rubriques avec le fichier de mappage pour révisio
 
 Un e-mail est envoyé à tous les réviseurs et réviseuses, les informant que des rubriques leur ont été affectées pour la révision. L’e-mail contient un lien direct sur lequel ils peuvent cliquer et accéder à la rubrique dans une fenêtre de navigateur. Les rubriques ainsi que le plan DITA sont ouvertes en mode de révision.
 
-**Rubrique parente :**[ consulter des rubriques ou des cartes](review.md)
+**Rubrique parente :**&#x200B;[ consulter des rubriques ou des cartes](review.md)

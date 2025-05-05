@@ -77,4 +77,4 @@ Pour créer un projet DITA, procédez comme suit :
 1. Cliquez sur **Ouvrir** pour ouvrir la page de votre projet.
 
 
-**Rubrique parente :**[ consulter des rubriques ou des cartes](review.md)
+**Rubrique parente :**&#x200B;[ consulter des rubriques ou des cartes](review.md)

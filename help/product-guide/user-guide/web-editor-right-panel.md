@@ -141,4 +141,4 @@ Découvrez comment utiliser les fichiers Schematron dans Experience Manager Guid
 
 
 
-**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**&#x200B;[ Présentation de l’éditeur](web-editor.md)

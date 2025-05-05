@@ -60,4 +60,4 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA avec 
 
 Une fois la carte téléchargée, vous pouvez sélectionner la carte et utiliser l’icône Ouvrir en haut pour ouvrir le rapport sélectionné.
 
-**Rubrique parente :**[ Gérer le contenu](authoring.md)
+**Rubrique parente :**&#x200B;[ Gérer le contenu](authoring.md)

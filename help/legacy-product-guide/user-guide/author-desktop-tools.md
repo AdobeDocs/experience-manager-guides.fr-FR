@@ -19,4 +19,4 @@ AEM Guides prend également en charge la création à l’aide d’outils de bur
 - **[Utilisation de l’oxygène](author-desktop-oxygen.md)**
 
 
-**Rubrique parente :**[ Contenu de création](authoring-content.md)
+**Rubrique parente :**&#x200B;[ Contenu de création](authoring-content.md)

@@ -141,4 +141,4 @@ Une fois la traduction terminée, le statut de la tâche de traduction passe à 
 >
 > Si vous rejetez la traduction d’une ou de plusieurs rubriques dans une tâche de traduction, le statut de traduction **En cours** de toutes les rubriques rejetées revient à son statut d’origine. Le statut des rubriques référencées est vérifié et rétabli en fonction du dernier état de traduction. En outre, les fichiers de traduction créés dans le projet de destination ne sont pas supprimés, même si la traduction est rejetée pour eux.
 
-**Rubrique parente :**[ Traduire le contenu](translation.md)
+**Rubrique parente :**&#x200B;[ Traduire le contenu](translation.md)

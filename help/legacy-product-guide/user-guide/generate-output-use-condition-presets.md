@@ -168,4 +168,4 @@ Vous pouvez supprimer un ou plusieurs paramètres prédéfinis de condition dans
 1. Cliquez sur le bouton **Supprimer**.
 1. Cliquez sur **Supprimer** pour confirmer l’action.
 
-**Rubrique parente :**[ Génération de sortie](generate-output.md)
+**Rubrique parente :**&#x200B;[ Génération de sortie](generate-output.md)

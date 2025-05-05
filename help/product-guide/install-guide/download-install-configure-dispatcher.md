@@ -81,4 +81,4 @@ Lors de l’utilisation d’un Dispatcher avec AEM Guides, si votre instance d�
                 }
 ```
 
-**Rubrique parente :**[ Télécharger et installer](download-install.md)
+**Rubrique parente :**&#x200B;[ Télécharger et installer](download-install.md)

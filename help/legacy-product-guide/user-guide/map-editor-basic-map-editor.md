@@ -196,4 +196,4 @@ Si vous souhaitez supprimer une rubrique de votre tableau, cliquez sur l’icôn
 
 Si vous souhaitez supprimer la table de relation, cliquez n&#39;importe où en dehors de la table de relation et cliquez sur Supprimer.
 
-**Rubrique parente :**[ Utilisation de l’éditeur de cartes](map-editor.md)
+**Rubrique parente :**&#x200B;[ Utilisation de l’éditeur de cartes](map-editor.md)

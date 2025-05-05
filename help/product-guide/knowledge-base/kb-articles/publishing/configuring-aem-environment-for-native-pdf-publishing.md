@@ -105,7 +105,7 @@ Le moteur de publication de PDF natif a besoin d’un JDK d’Oracle pour géné
 
 10. Si la commande unzip n’est pas installée/reconnue, elle peut être installée à l’aide de la commande suivante :
 
-   **yum install unzip**
+    **yum install unzip**
 
 11. Installez le package fontconfig.
 Commande : yum install fontconfig
@@ -165,7 +165,7 @@ Vous trouverez ci-dessous les erreurs courantes qui peuvent se produire pendant 
 
 ### Exception de pointeur nul sous Windows/Mac OS
 
-![ {null pointer exception](../assets/publishing/null-pointer-exception.png)
+![ &lbrace;null pointer exception](../assets/publishing/null-pointer-exception.png)
 
 Si le problème persiste même après la correction des paramètres de l’environnement Java, veuillez revalider les éléments suivants :
 

@@ -33,4 +33,4 @@ Pour augmenter le nombre de noeuds qu’une requête peut lire à la fois, proc�
 
 Lorsque vous augmentez cette valeur d’attribut, vous pouvez générer le rapport pour les mappages DITA plus volumineux.
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[ Personnaliser l’éditeur web](conf-web-editor.md)

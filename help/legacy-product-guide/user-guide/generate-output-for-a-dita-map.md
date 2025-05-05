@@ -169,4 +169,4 @@ Effectuez les étapes suivantes pour supprimer une tâche de sortie de la liste 
    La tâche est supprimée de la liste des Sorties générées .
 
 
-**Rubrique parente :**[ Génération de sortie](generate-output.md)
+**Rubrique parente :**&#x200B;[ Génération de sortie](generate-output.md)

@@ -55,4 +55,4 @@ Pour créer un fichier de mappage, procédez comme suit :
    > Pour utiliser l’éditeur de mappages avancé, accédez au fichier de mappage dans l’éditeur web. Si votre administrateur a configuré l’éditeur de carte avancé comme éditeur par défaut dans les fichiers de carte, le fichier de carte est ouvert directement dans l’éditeur de carte avancé pour être modifié. Consultez la section *Définition de l’éditeur de carte avancé par défaut* dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
 
 
-**Rubrique parente :**[ Utilisation de l’éditeur de cartes](map-editor.md)
+**Rubrique parente :**&#x200B;[ Utilisation de l’éditeur de cartes](map-editor.md)

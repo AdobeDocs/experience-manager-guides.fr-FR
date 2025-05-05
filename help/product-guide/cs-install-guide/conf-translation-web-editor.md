@@ -48,4 +48,4 @@ Pour masquer l’onglet **Gérer** dans l’éditeur web, procédez comme suit :
 
 Notez que le filtre **Gérer** n’est plus disponible.
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[ Personnaliser l’éditeur web](conf-web-editor.md)

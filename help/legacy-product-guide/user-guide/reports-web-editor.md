@@ -42,6 +42,7 @@ Vous pouvez créer un rapport des rubriques en procédant comme suit :
    - **État du document** État actuel de la rubrique.
    - **Auteur** Dernier utilisateur à avoir travaillé sur le sujet.
    - **Mappage parent** liste de tous les mappages où la rubrique est directement référencée.
+
    >[!NOTE]
    >
    > Cliquez sur **Actualiser** pour obtenir une nouvelle liste des rubriques et afficher les modifications apportées à votre fichier de mappage ou si une référence de votre fichier de rubrique est mise à jour.
@@ -115,7 +116,7 @@ Le rapport **Multimédia** fournit des informations détaillées sur le contenu 
 1. Double-cliquez sur **Multimédia** à gauche. La liste des fichiers multimédias présents dans le plan DITA s&#39;affiche.
 1. Dans le panneau **Filtres**, vous pouvez classer la liste par multimédia ou par les noms des éléments utilisés dans les références.
 
-   - Lorsque vous triez par **Multimédia**, le nom **** multimédia est affiché dans la première colonne, puis les noms de toutes les références dans lesquelles ils ont été utilisés sont affichés dans une autre colonne de la même ligne. Par exemple, la capture d’écran suivante montre le fichier multimédia WarmCoolForC.gif dans la première colonne et trois références dans lesquelles il est utilisé sont affichées dans la troisième colonne de la même ligne.
+   - Lorsque vous triez par **Multimédia**, le nom **&#x200B;**&#x200B;multimédia est affiché dans la première colonne, puis les noms de toutes les références dans lesquelles ils ont été utilisés sont affichés dans une autre colonne de la même ligne. Par exemple, la capture d’écran suivante montre le fichier multimédia WarmCoolForC.gif dans la première colonne et trois références dans lesquelles il est utilisé sont affichées dans la troisième colonne de la même ligne.
 
      ![](images/multimedia-report-file-order.png){width="650" align="left"}
 
@@ -137,6 +138,7 @@ Le rapport **Multimédia** fournit des informations détaillées sur le contenu 
    - **Type multimédia** \(sélectionné par défaut\) Type du fichier multimédia. Les options disponibles sont Audio, Vidéo ou Image.
    - **Utilisé dans** \(sélectionné par défaut\) Références dans lesquelles le contenu multimédia a été utilisé. Vous pouvez cliquer sur la référence pour la modifier.
    - **Type de référence** \(sélectionné par défaut\) Le type de référence - direct ou indirect.
+
    >[!NOTE]
    >
    > Cliquez sur **Actualiser** pour obtenir une nouvelle liste des fichiers multimédias et afficher les modifications apportées à votre fichier de carte ou les fichiers multimédias de votre carte DITA mis à jour.
@@ -159,9 +161,11 @@ Vous pouvez afficher le rapport pour les liens rompus en procédant comme suit :
 1. Dans le panneau **Filtres** vous pouvez classer la liste par liens ou par noms d’utilisateurs dans les références.
 
    - Lorsque vous triez par **Lien rompu**, les chemins d’accès des liens rompus sont affichés dans la première colonne, puis les noms de toutes les références dans lesquelles ils ont été utilisés sont affichés dans une autre colonne sur des lignes distinctes. Si le même lien rompu est utilisé dans plusieurs fichiers, ils sont affichés sur une ligne et présentés comme regroupés ou sous-lignes. Par exemple, la capture d’écran suivante montre trois liens rompus dans la première colonne et la référence dans laquelle ils sont utilisés, `TestMap.ditamap` s’affiche dans la troisième colonne sur trois lignes distinctes.
+
    ![](images/broken-link-report.png){width="800" align="left"}
 
    - Si vous triez par colonne **Utilisé dans**, vous verrez la vue transposée dans laquelle les noms des références dans lesquelles les liens rompus ont été utilisés sont répertoriés dans la première colonne tandis que les liens rompus sont répertoriés dans une autre colonne de la même ligne. Par exemple, la capture d’écran suivante montre la référence (dans laquelle le lien rompu est utilisé) `TestMap.ditamap` dans la première colonne et les liens rompus sont affichés dans la troisième colonne de la même ligne.
+
    ![](images/broken-link-filter-usedin.png){width="800" align="left"}
 1. Vous pouvez filtrer les liens rompus en fonction du **Type de fichier** et du **Type de lien**. La liste des liens rompus s’affiche en fonction de votre sélection dans la liste déroulante. Par exemple, vous pouvez choisir d&#39;afficher uniquement les références de contenu dans votre plan DITA et un fichier affiche uniquement les références de contenu utilisées.
 
@@ -194,4 +198,4 @@ Cliquez sur **Actualiser** pour obtenir une nouvelle liste des liens rompus et a
 1. Cliquez sur **Télécharger CSV** pour télécharger l&#39;instantané actuel des liens rompus dans le plan DITA. Le fichier CSV contient les colonnes sélectionnées et les liens rompus filtrés dans la vue Liens rompus . Vous pouvez ensuite ouvrir et afficher ce fichier CSV dans n’importe quel éditeur de fichiers CSV.
 
 
-**Rubrique parente :**[ Rapports](reports-intro.md)
+**Rubrique parente :**&#x200B;[ Rapports](reports-intro.md)

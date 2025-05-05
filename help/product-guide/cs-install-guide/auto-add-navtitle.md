@@ -54,4 +54,4 @@ Pour inclure l’attribut `@navtitle` par défaut dans les propriétés des fich
 
 Avec cette configuration, chaque fichier de référence que vous ajoutez à un mappage contient l’attribut `@navtitle` par défaut.
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[ Personnaliser l’éditeur web](conf-web-editor.md)

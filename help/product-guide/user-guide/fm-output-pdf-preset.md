@@ -40,4 +40,4 @@ Les options suivantes sont disponibles pour la sortie PDF :
 | Chemin de destination | Chemin d’accès dans votre référentiel AEM où est stockée la sortie PDF. |
 | Exécuter le workflow de post-génération | Lorsque vous sélectionnez cette option, une nouvelle liste déroulante Workflow de post-génération s’affiche, contenant tous les workflows configurés dans AEM. Vous devez sélectionner un workflow à exécuter une fois le workflow de génération de sortie terminé. |
 
-**Rubrique parente :**[ générer la sortie des documents FrameMaker](fm-output-generatation.md)
+**Rubrique parente :**&#x200B;[ générer la sortie des documents FrameMaker](fm-output-generatation.md)

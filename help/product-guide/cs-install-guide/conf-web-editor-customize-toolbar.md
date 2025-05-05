@@ -51,16 +51,16 @@ Pour ajouter une fonctionnalité à la barre d’outils de l’éditeur web, pro
    **items** :   Spécifiez la définition de tous les groupes dans la barre d’outils. Chaque groupe peut contenir une ou plusieurs icônes de barre d’outils. Pour définir des icônes dans un groupe de barres d’outils, vous devez définir à nouveau l’attribut `type` dans le `items` et définir sa valeur sur `buttonGroup`. Spécifiez un ou plusieurs noms de classe dans la propriété `extraclass`. Spécifiez le nom de la fonction dans la propriété `label`. L’extrait de code suivant du fichier `ui_config.json` affiche la définition du bloc de barre d’outils principal, suivie de la définition du `buttonGroup` :
 
        « 
-       « toolbar » : {
+       « toolbar » : &lbrace;
        « type »: « blockGroup »,
        « extraclass »:
         « opérations de la barre d’outils »,
-       « items » : [
-       {
+       « items » : &lbrack;
+       &lbrace;
        « type »: « buttonGroup »,
        « extraclass »: « left-controls »,
        « label »: « Contrôles de gauche »,
-       « items » : [
+       « items » : &lbrack;
        « 
    
    Dans la collection `items`, vous devez spécifier la définition d’une ou de plusieurs icônes de barre d’outils.
@@ -145,4 +145,4 @@ Effectuez les étapes suivantes pour supprimer toute fonctionnalité indésirabl
 1. Enregistrez le fichier *ui\_config.json* et rechargez l’éditeur web.
 
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[ Personnaliser l’éditeur web](conf-web-editor.md)

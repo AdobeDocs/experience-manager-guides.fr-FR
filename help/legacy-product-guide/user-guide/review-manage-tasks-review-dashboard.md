@@ -125,4 +125,4 @@ Le rapport de statut de la tâche de révision contient les détails suivants :
 - Nombre total de commentaires sur tous les sujets. Si plusieurs sujets sont en cours de révision, le nombre de commentaires pour chaque sujet est mentionné \(entre parenthèses\) en regard du nom du sujet.
 - Date du dernier accès à une rubrique par le réviseur ou la réviseuse.
 
-**Rubrique parente :**[ consulter des rubriques ou des cartes](review.md)
+**Rubrique parente :**&#x200B;[ consulter des rubriques ou des cartes](review.md)

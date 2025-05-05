@@ -35,4 +35,4 @@ Effectuez les étapes suivantes pour créer votre liste de mots personnalisés, 
 
 Les auteurs doivent redémarrer leur session Web Editor pour que la liste des mots personnalisés soit mise à jour dans AEM dictionnaire.
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[ Personnaliser l’éditeur web](conf-web-editor.md)

@@ -18,4 +18,4 @@ Le diagramme suivant illustre le fonctionnement de Experience Manager Guides ave
 ![](images/xml-add-on-how-it-works.png){align="center"}
 
 
-**Rubrique parente :**[&#x200B;À propos d’Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**Rubrique parente :**&#x200B;[&#x200B;À propos d’Adobe Experience Manager Guides as a Cloud Service](intro.md)

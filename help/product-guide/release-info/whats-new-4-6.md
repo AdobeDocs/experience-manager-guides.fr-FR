@@ -30,7 +30,7 @@ Un fragment d’expérience est une unité de contenu modulaire au sein de Adobe
 
 ![ Onglet Options des propriétés de fichier ](./assets/file-properties-outputs-4-6.png) {width="300" align="left"}
 
-*Publish et afficher les fragments d’expérience d’une rubrique à partir de la section **Sorties**dans les **Propriétés du fichier**.*
+*Publish et afficher les fragments d’expérience d’une rubrique à partir de la section **Sorties**&#x200B;dans les **Propriétés du fichier**.*
 
 Experience Manager Guides vous permet désormais de publier une rubrique ou ses éléments dans un fragment d’expérience. Vous pouvez créer un mappage JSON entre une rubrique ou ses éléments et un modèle de fragment d’expérience. Vous pouvez également créer des variations de fragments d’expérience à l’aide des filtres de condition.
 
@@ -81,7 +81,7 @@ Si la même rubrique est référencée plusieurs fois dans un fichier, vous pouv
 
 ![Paramètre prédéfini AEM Sites hérité](assets/aem-sites-legacy.png)
 
-*Spécifiez le contexte de publication pour les rubriques liées à partir de l’onglet **Références croisées**du paramètre prédéfini **AEM Sites**.*
+*Spécifiez le contexte de publication pour les rubriques liées à partir de l’onglet **Références croisées**&#x200B;du paramètre prédéfini **AEM Sites**.*
 
 
 

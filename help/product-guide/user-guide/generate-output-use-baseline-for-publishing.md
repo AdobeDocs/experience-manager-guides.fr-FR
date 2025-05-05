@@ -171,4 +171,4 @@ Effectuez les étapes suivantes pour exporter une ligne de base traduite :
 1. \(Facultatif\) Pour exporter une ligne de base déjà exportée, sélectionnez **Remplacer la ligne de base existante** puis **Exporter la ligne de base**.
 
 
-**Rubrique parente :**[ Génération de sortie](generate-output.md)
+**Rubrique parente :**&#x200B;[ Génération de sortie](generate-output.md)

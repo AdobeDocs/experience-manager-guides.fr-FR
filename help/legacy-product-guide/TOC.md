@@ -23,20 +23,20 @@ ht-degree: 4%
       - [!DNL AEM Guides] de travail et fonctionnalités clés {#aemg-works-features}
          - [Fonctionnement  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
          - [Fonctionnalités [!DNL AEM Guides] clés](./user-guide/intro-dxml-features.md)
-   - Gérer les {#manage-content} de contenu
+   - Gérer les de contenu {#manage-content}
       - [Concepts clés, rôles et autorisations, et conditions préalables](./user-guide/authoring.md)
       - [Charger des fichiers](./user-guide/authoring-upload-existing-files.md)
       - [Gestion des fichiers et des dossiers](./user-guide/authoring-file-management.md)
       - [Télécharger les fichiers](./user-guide/authoring-download-assets.md)
-   - Créer des {#author-content} de contenu
+   - Créer des de contenu {#author-content}
       - [Présentation de la création](./user-guide/authoring-content.md)
-      - Création de rubrique et {#create-preview-topics} de prévisualisation
+      - Création de rubrique et de prévisualisation {#create-preview-topics}
          - [Créer et prévisualiser des rubriques](./user-guide/create-preview-topics.md)
          - [Créer des rubriques](./user-guide/web-editor-create-topics.md)
          - [Prévisualiser une rubrique](./user-guide/web-editor-preview-topics.md)
-         - Créer des {#author-content-aem-guides} de contenu
+         - Créer des de contenu {#author-content-aem-guides}
             - [Méthode de création de contenu à l’aide d’AEM Guides](./user-guide/authoring-content-xml-doc.md)
-            - {#work-with-web-editor} de l’éditeur web
+            - de l’éditeur web{#work-with-web-editor}
                - [Utiliser l’éditeur web](./user-guide/web-editor.md)
                - [Lancement de l’éditeur web](./user-guide/web-editor-launch-editor.md)
                - [Modification de rubriques dans l’éditeur web](./user-guide/web-editor-edit-topics.md)
@@ -52,7 +52,7 @@ ht-degree: 4%
                - [Ajouter des citations à votre contenu](./user-guide/web-editor-apply-citations.md)
                - [Utiliser des données provenant de vos sources de données](./user-guide/web-editor-content-snippet.md)
                - [Gestion des paramètres prédéfinis de sortie de profil global et de dossier](./user-guide/web-editor-manage-output-presets.md)
-               - {#article-based-pub} de publication basée sur des articles
+               - de publication basée sur des articles{#article-based-pub}
                   - [Publication d’articles à partir de l’éditeur web](./user-guide/web-editor-article-publishing.md)
                   - [Création de paramètres prédéfinis de sortie à partir de l’éditeur web](./user-guide/web-editor-article-publishing-presets.md)
                   - [Générez une sortie à partir du panneau Référentiel ou du panneau Vue Carte .](./user-guide/web-editor-article-publishing-output.md)
@@ -61,25 +61,25 @@ ht-degree: 4%
                - [Créer et gérer des lignes de base à partir de l&#39;éditeur Web](./user-guide/web-editor-baseline.md)
                - [Etat du document](./user-guide/web-editor-document-states.md)
                - [Utiliser des libellés](./user-guide/web-editor-use-label.md)
-            - {#work-with-map-editor} de l’éditeur de cartes
+            - de l’éditeur de cartes{#work-with-map-editor}
                - [Utilisation de l’éditeur de cartes](./user-guide/map-editor.md)
                - [Créer un mappage](./user-guide/map-editor-create-map.md)
                - [Création de mappages à partir de modèles personnalisés](./user-guide/create-maps-customized-templates.md)
                - [Utilisation de l’éditeur de cartes avancé](./user-guide/map-editor-advanced-map-editor.md)
                - [Utilisation de l’éditeur de cartes de base](./user-guide/map-editor-basic-map-editor.md)
                - [Autres fonctionnalités dans les éditeurs de carte](./user-guide/map-editor-other-features.md)
-            - {#ditaval-editor} de l’éditeur DITAVAL
+            - de l’éditeur DITAVAL{#ditaval-editor}
                - [Utiliser l&#39;éditeur DITAVAL](./user-guide/ditaval-editor.md)
-         - Outils de bureau pour la création de {#author-using-desktop-tools} de contenu
+         - Outils de bureau pour la création de de contenu {#author-using-desktop-tools}
             - [Créer du contenu à l’aide d’outils de bureau](./user-guide/author-desktop-tools.md)
             - [Utilisation de FrameMaker](./user-guide/author-desktop-framemaker.md)
             - [Utiliser l&#39;oxygène](./user-guide/author-desktop-oxygen.md)
-   - Vérifier les {#review-topic-maps} de contenu
+   - Vérifier les de contenu {#review-topic-maps}
       - [Consulter les rubriques ou les cartes](./user-guide/review.md)
       - [Créer un projet DITA](./user-guide/authoring-create-dita-project.md)
       - [Envoyer les rubriques à réviser](./user-guide/review-send-topics-for-review.md)
       - [Réaffecter une tâche de révision à l’aide d’une notification](./user-guide/reassign-review-using-notification.md)
-      - {#review-topics} de révision de rubrique
+      - de révision de rubrique{#review-topics}
          - [Rubriques de révision](./user-guide/review-topics.md)
          - [Commentaires de révision d’adresse](./user-guide/review-address-review-comments.md)
       - [Gérer les tâches de révision à l’aide du tableau de bord de révision](./user-guide/review-manage-tasks-review-dashboard.md)
@@ -89,12 +89,12 @@ ht-degree: 4%
       - [Utilisation des métadonnées dans AEM](./user-guide/metadata-dita.md)
       - [Balisage intelligent](./user-guide/web-editor-smart-tagging.md)
       - [Balisage en bloc du contenu DITA](./user-guide/map-editor-bulk-tagging.md)
-   - {#translate-content} de traduction de contenu
+   - de traduction de contenu{#translate-content}
       - [Traduction du contenu](./user-guide/translation.md)
       - [Bonnes pratiques relatives à la traduction de contenu](./user-guide/translation-first-time.md)
       - [Afficher le statut de la traduction](./user-guide/translation-view-trans-state-6234.md)
       - [Traduire les rubriques modifiées](./user-guide/translation-modified-topics-6234.md)
-   - {#output-gen} de génération de sortie
+   - de génération de sortie{#output-gen}
       - [Notions de base sur la génération de sortie](./user-guide/generate-output.md)
       - [Présentation des paramètres prédéfinis de sortie](./user-guide/generate-output-understand-presets.md)
       - Paramètres prédéfinis de sortie dans AEM Guides {#output-presets-aemg}
@@ -120,7 +120,7 @@ ht-degree: 4%
       - [Publier des fragments de contenu](./user-guide/publish-content-fragment.md)
       - [Publier des fragments d’expérience](./user-guide/publish-experience-fragment.md)
       - [Publication de pages AEM Sites](./user-guide/publish-aem-sites.md)
-      - Activation en masse des {#bulk-activation} de contenu
+      - Activation en masse des de contenu {#bulk-activation}
          - [Activation en bloc du contenu publié](./user-guide/conf-bulk-activation.md)
          - [Créer une collection de mappages d’activation en bloc](./user-guide/conf-bulk-activation-create-map-collection.md)
          - [Activer la sortie](./user-guide/conf-bulk-activation-publish-map-collection.md)
@@ -128,7 +128,7 @@ ht-degree: 4%
          - [Supprimer une collection de mappages d’activation en bloc](./user-guide/conf-bulk-activation-delete-map-collection.md)
    - Génération en sortie de documents FrameMaker {#generate-fm-output}
       - [Générer la sortie des documents FrameMaker](./user-guide/fm-output-generatation.md)
-      - {#fm-docs-generating-presets} de paramètres prédéfinis pris en charge
+      - de paramètres prédéfinis pris en charge{#fm-docs-generating-presets}
          - [Paramètres prédéfinis pour la génération de documents FrameMaker](./user-guide/fm-output-understand-presets.md)
          - [PDF](./user-guide/fm-output-pdf-preset.md)
          - [HTML5](./user-guide/fm-output-html5-preset.md)

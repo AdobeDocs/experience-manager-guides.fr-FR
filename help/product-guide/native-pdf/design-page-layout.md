@@ -34,7 +34,7 @@ Un document PDF contient généralement les sections suivantes :
 * Index
 * Page précédente
 
-Ces sections auraient besoin d’une mise en page correspondante pour présenter les informations dans un format spécifique. En outre, vous pouvez également utiliser une page vierge comme remplissage pour commencer un nouveau chapitre à partir d’une page paire ou impaire. Dans ce cas, vous pouvez utiliser la mise en page par défaut ou créer une mise en page pour une page vierge. Pour plus d’informations](components-pdf-template.md#create-page-layout) voir [Créer une mise en page.
+Ces sections auraient besoin d’une mise en page correspondante pour présenter les informations dans un format spécifique. En outre, vous pouvez également utiliser une page vierge comme remplissage pour commencer un nouveau chapitre à partir d’une page paire ou impaire. Dans ce cas, vous pouvez utiliser la mise en page par défaut ou créer une mise en page pour une page vierge. Pour plus d’informations[&#128279;](components-pdf-template.md#create-page-layout) voir Créer une mise en page.
 
 Les paramètres des mises en page de la section **Modèle>Paramètres** vous permettent de définir la mise en page à utiliser pour les différentes sections de votre PDF. Chaque mise en page peut en outre comporter différentes variantes de première, de droite ou de gauche.
 
@@ -165,6 +165,7 @@ Effectuez les étapes suivantes pour réaliser les tâches ci-dessus :
 1. Modifiez la propriété Afficher la rotation pour effectuer le rendu du contenu à 90° dans le sens des aiguilles d’une montre.
 
    1. Sélectionnez **90°** dans le sens des aiguilles d&#39;une montre dans la liste déroulante Rotation de la vue.
+
    <img src="./assets/view-rotation-page-props.png" width="300">
 
    1. Cliquez sur **Tout enregistrer** pour enregistrer les propriétés de mise en page mises à jour.
@@ -179,9 +180,11 @@ Effectuez les étapes suivantes pour réaliser les tâches ci-dessus :
       La feuille de style de disposition est ouverte pour modification.
 
    1. Cliquez avec le bouton droit sur **Autres styles** et choisissez **Nouveau style**.
+
       <img src="./assets/stylesheet-other-new-style.png" width="300">
 
    1. Dans la fenêtre contextuelle Ajouter un style, saisissez **paysage-style** dans le **nom de la classe**.
+
       <img src="./assets/stylesheet-new-landscape-style.png" width="400">
 
    1. Cliquez sur **Terminé**.
@@ -437,6 +440,7 @@ Dans l&#39;exemple suivant, nous allons insérer un numéro de page et un titre 
    1. Dans le panneau de droite, cliquez sur **Propriétés du contenu** (<img src="./assets/content-properties-icon.png" width="25">).
 
    1. Développez la section des propriétés **Disposition** et définissez la valeur de la propriété **Float** sur **right**.
+
       <img src="./assets/float-prop-html-content.png" width="400">
 
       Le champ Titre du chapitre est aligné sur le côté droit du pied de page.

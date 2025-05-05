@@ -30,4 +30,4 @@ Le tableau suivant répertorie les variables prises en charge par défaut :
 | `${system_time}` | Utilise l’heure actuelle du serveur pour créer le chemin de destination. | **Nom du fichier de mappage DITA :** <br>`SampleDita.ditamap` <br> <br> **Chemin du fichier de mappage DITA :** <br>`/content/dam/projects/AEM-Guides/en/user-guide/` <br><Br>**Chemin de destination** configuré comme suit : <br> `/content/output/sites/${system_time}`<br><br>**Emplacement de sortie final :**<br>`/content/output/sites/055612/SampleDita.html` |
 
 En outre, vous pouvez également utiliser les métadonnées définies pour le mappage DITA ou le fichier bookmap comme variables. Les métadonnées se trouvent sous le noeud `/jcr:content/metadata` du mappage DITA ou du fichier bookmap. Par exemple, l’une des propriétés de métadonnées définies dans le noeud `/jcr:content/metadata` est `dc:title`. Vous pouvez spécifier `${dc:title}` et la valeur de titre est utilisée dans la sortie finale.
-**Rubrique parente :**[ Génération de sortie](generate-output.md)
+**Rubrique parente :**&#x200B;[ Génération de sortie](generate-output.md)

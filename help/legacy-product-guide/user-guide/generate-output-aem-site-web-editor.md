@@ -42,8 +42,8 @@ Pour créer les paramètres prédéfinis AEM Sites à partir de l’éditeur web
 >[!NOTE]
 >
 >Avant de configurer les paramètres prédéfinis AEM Sites pour Experience Manager Guides, votre administrateur ou administratrice doit créer une structure AEM Sites à l’aide des modèles.
-- **Logiciel On-premise** : découvrez comment [télécharger et installer des modèles AEM Sites](/help/product-guide/install-guide/download-install-aem-sites-templates.md) pour les logiciels On-premise.
-- **Cloud Service** : en savoir plus sur la [téléchargement et installation de modèles AEM Sites](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) pour Cloud Service.
+>- **Logiciel On-premise** : découvrez comment [télécharger et installer des modèles AEM Sites](/help/product-guide/install-guide/download-install-aem-sites-templates.md) pour les logiciels On-premise.
+>- **Cloud Service** : en savoir plus sur la [téléchargement et installation de modèles AEM Sites](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) pour Cloud Service.
 
 
 
@@ -96,7 +96,7 @@ L&#39;onglet **Contenu** contient les paramétrages suivants :
    - Utilisation des propriétés de mappage comme solution de secours
 
 
-Pour plus d’informations, consultez la configuration d’AEM Sites [](#aem_sites_config).
+Pour plus d’informations, consultez la configuration d’AEM Sites [&#128279;](#aem_sites_config).
 
 **Liste de sujets**
 

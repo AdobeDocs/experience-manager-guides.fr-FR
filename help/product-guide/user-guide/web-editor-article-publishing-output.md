@@ -89,4 +89,4 @@ Effectuez les étapes suivantes pour générer une sortie pour plusieurs rubriqu
 1. Vous verrez le statut du processus de génération de sortie. Pour afficher la sortie, placez le pointeur de la souris sur la rubrique et cliquez sur Afficher la sortie.
 
 
-**Rubrique parente :**[ Publication basée sur des articles dans l’éditeur web](web-editor-article-publishing.md)
+**Rubrique parente :**&#x200B;[ Publication basée sur des articles dans l’éditeur web](web-editor-article-publishing.md)

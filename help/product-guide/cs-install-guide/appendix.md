@@ -34,7 +34,7 @@ Effectuez les étapes suivantes pour vérifier les références, à l’aide du 
 1. Exécutez le script de validation \[`/bin/fmdita/validatebtree?operation=validate`\] pour vérifier s’il existe de nouvelles références rompues.
 1. Si le script de validation signale des erreurs, vous pouvez le corriger à l’aide du script de correctif.
 1. Enregistrez les détails ci-dessous et, si nécessaire, partagez-les avec votre équipe de réussite client :
-1. 
+1. &#x200B;
    - Logs imprimés par le script de validation
 - Package de &quot;`/content/fmdita/references`&quot;
 - Tout autre détail requis en fonction du scénario signalé
@@ -50,7 +50,7 @@ Effectuez les étapes suivantes pour corriger les références rompues à l’ai
 > Il est recommandé de copier et d’enregistrer les journaux à des fins de référence.
 
 1. Une fois le script de correctif exécuté avec succès, vous pouvez effectuer les vérifications suivantes :
-1. 
+1. &#x200B;
    - Vérifiez qu’un nouveau noeud &quot;`references_backup_<timestamp>"` a été créé sous `/content/fmdita`
 - Vérifier que les références ont été corrigées
 
@@ -344,7 +344,7 @@ L’exemple suivant montre comment déplacer un `title` dans un `table` :
 
 Les éléments `paragraphStyleRule` sont décrits ci-dessous :
 
-** `paraRule` élément**
+**&#x200B; `paraRule` élément**
 
 L’élément `paraRule` est obligatoire. Cela permet de spécifier les règles de mappage pour tous les styles de paragraphe. Dans un document d’InDesign, tout le texte est contenu dans la sous-structure des styles de paragraphe, même les paragraphes sans style sont nommés `\[No paragraph style\]`. Les crochets indiquent un nom de style d’InDesign intégré.
 

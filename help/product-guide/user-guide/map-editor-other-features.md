@@ -41,4 +41,4 @@ Cette carte racine s’appliquera à toutes les ressources \(dossiers et sous-do
 
 **Vue d&#39;édition de rubrique** - Sélectionnez l&#39;icône Résolution de clé lors de la modification d&#39;une rubrique DITA et sélectionnez le fichier DITA à utiliser pour résoudre les références de clé.
 
-**Rubrique parente :**[ Présentation de l’éditeur de cartes](map-editor.md)
+**Rubrique parente :**&#x200B;[ Présentation de l’éditeur de cartes](map-editor.md)

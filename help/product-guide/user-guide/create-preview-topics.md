@@ -20,4 +20,4 @@ Adobe Experience Manager Guides s&#39;accompagne d&#39;une puissante fonctionnal
 - **[Prévisualiser une rubrique](web-editor-preview-topics.md)**
 
 
-**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**&#x200B;[ Présentation de l’éditeur](web-editor.md)

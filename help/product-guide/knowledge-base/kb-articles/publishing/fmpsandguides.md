@@ -41,7 +41,7 @@ FrameMaker Publishing Server (FMPS) peut être utilisé pour générer votre con
 
 Pour ouvrir la console web, accédez à l’URL http://\&lt;nom du serveur\>:\&lt;port\>/system/console/configMgr.
 
-**Propriétés de configuration et leur description** [ {4.1 installation et configuration](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf#page=89)
+**Propriétés de configuration et leur description** [ &lbrace;4.1 installation et configuration](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf#page=89)
 
 ## Exécution du test :
 
@@ -86,8 +86,7 @@ Vous pouvez publier vos lignes de base déjà créées avec FMPS2020.0.2 ou une 
 
 >FMPS2020.0.2 ou versions ultérieures sont compatibles avec la publication de base.
 >Assurez-vous que votre ligne de base a été correctement créée. Pour la vérifier, accédez au tableau de bord des cartes - Rubriques - Télécharger  Faites correspondre et sélectionnez &quot;Utiliser la ligne de base&quot;.
-- ### Les tâches Publish de FMPS prennent plus de temps que les autres moteurs
-
+>- ### Les tâches Publish de FMPS prennent plus de temps que les autres moteurs
 >Lors de la publication à partir de FMPS, le temps d’en-tête fixe idéal est d’environ 3 à 4 minutes. Si vous pensez que c’est plus long, contactez votre administrateur FMPS ou contactez l’assistance Adobe.
 
 ## Autres ressources :

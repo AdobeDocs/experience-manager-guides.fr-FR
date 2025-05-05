@@ -250,4 +250,4 @@ Sélectionnez une ou plusieurs des options de filtrage suivantes dans la boîte 
 
 Pour supprimer le filtre et afficher tous les commentaires, désélectionnez tous les filtres de la boîte de dialogue **Type de filtre** et cliquez sur **Appliquer**.
 
-**Rubrique parente :**[ consulter des rubriques ou des cartes](review.md)
+**Rubrique parente :**&#x200B;[ consulter des rubriques ou des cartes](review.md)

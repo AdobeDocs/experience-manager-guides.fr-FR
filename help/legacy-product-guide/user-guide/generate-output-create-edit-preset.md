@@ -78,4 +78,4 @@ Pour supprimer un paramètre prédéfini de sortie existant, procédez comme sui
    Le paramètre prédéfini est supprimé de la liste Paramètres prédéfinis de sortie .
 
 
-**Rubrique parente :**[ Génération de sortie](generate-output.md)
+**Rubrique parente :**&#x200B;[ Génération de sortie](generate-output.md)

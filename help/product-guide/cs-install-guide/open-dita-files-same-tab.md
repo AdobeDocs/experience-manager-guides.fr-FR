@@ -35,4 +35,4 @@ Ce paramètre a un impact sur les emplacements suivants d’où vous pouvez acc�
 - Onglet Rapports dans la console de mappage DITA
 
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[ Personnaliser l’éditeur web](conf-web-editor.md)

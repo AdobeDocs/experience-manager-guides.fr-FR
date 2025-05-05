@@ -77,6 +77,6 @@ Dans la console Mappage , vous avez accès à toutes les options requises pour c
 
 La fonction Workfront est également présente dans la console Carte, ce qui permet d’utiliser les tâches Adobe Workfront directement depuis Experience Manager Guides.
 
-En savoir plus sur l’intégration d’Adobe Workfront à Experience Manager Guides](./workfront-integration.md).[
+En savoir plus sur l’intégration d’Adobe Workfront à Experience Manager Guides[&#128279;](./workfront-integration.md).
 
 Vous ne pouvez accéder à cette fonctionnalité que si votre administrateur a configuré l’intégration d’**Adobe Workfront** dans votre instance Experience Manager Guides.

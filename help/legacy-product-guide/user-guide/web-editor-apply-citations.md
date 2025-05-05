@@ -99,7 +99,7 @@ Pour importer des citations, procédez comme suit :
 
    >[!NOTE]
    > <ol><li> AEM Guides importe uniquement les citations uniques qui ne sont pas déjà présentes.
-    &gt; <li> AEM Guides peut importer des citations provenant d’un livre, d’un journal ou d’un site web. Actuellement, il ne prend pas en charge les citations provenant d’autres sources.
+   > &gt; <li> AEM Guides peut importer des citations provenant d’un livre, d’un journal ou d’un site web. Actuellement, il ne prend pas en charge les citations provenant d’autres sources.
 
 ## Gérer les citations
 
@@ -189,7 +189,7 @@ Vous pouvez insérer des citations sur le sujet à partir de la barre d’outils
 
 ### Dans la barre d’outils principale
 
-1. Sélectionnez l’icône ](images/citations-icon.svg) **Citations** ![citations dans la barre d’outils principale.
+1. Sélectionnez l’icône ![&#128279;](images/citations-icon.svg) **Citations** citations dans la barre d’outils principale.
 1. Dans la boîte de dialogue **Citations**, choisissez la citation. Vous pouvez également sélectionner plusieurs citations.
    ![boîte de dialogue de citation](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. Vous pouvez filtrer les citations en tapant les premiers caractères alphabétiques dans le panneau de recherche de la boîte de dialogue **Citation**.

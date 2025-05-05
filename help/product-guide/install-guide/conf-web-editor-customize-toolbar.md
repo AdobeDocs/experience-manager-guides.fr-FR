@@ -49,7 +49,7 @@ Pour ajouter une fonctionnalité à la barre d’outils de l’éditeur web, pro
 
 1. Dans le fichier `ui_config.json`, ajoutez la définition de la nouvelle fonctionnalité dans la section des barres d’outils. En règle générale, vous pouvez créer un groupe de boutons de la barre d’outils et y ajouter un ou plusieurs boutons. Vous pouvez également ajouter un nouveau bouton de barre d’outils à un groupe de barres d’outils existant. Les informations suivantes sont requises pour créer un groupe de barre d’outils :
 
-   - **type:**Spécifiez `blockGroup` comme valeur `type`. Cette valeur indique que vous créez un groupe de blocs qui contiendrait un ou plusieurs groupes de barres d’outils.
+   - **type:**&#x200B;Spécifiez `blockGroup` comme valeur `type`. Cette valeur indique que vous créez un groupe de blocs qui contiendrait un ou plusieurs groupes de barres d’outils.
 
    - **extraclass:** Nom de la ou des classes séparées par un espace.
 
@@ -240,4 +240,4 @@ Le fichier `ui_config.json` comporte trois sections :
 1. Enregistrez le fichier *ui\_config.json* et rechargez l’éditeur web.
 
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[ Personnaliser l’éditeur web](conf-web-editor.md)

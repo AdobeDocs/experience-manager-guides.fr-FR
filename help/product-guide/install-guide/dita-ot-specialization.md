@@ -65,6 +65,7 @@ Effectuez les étapes suivantes pour charger le module externe DITA-OT personnal
    - Exécutez l’intégrateur \(pour installer le module externe personnalisé\) sur un système d’exploitation Mac/Linux afin d’éviter des problèmes de séparateurs de fichiers. Comme Windows et Linux OS ont des séparateurs de fichiers différents, le module externe intégré à Mac/Linux OS est compatible avec la configuration de Windows et Linux.
    - Assurez-vous que le fichier `DITA-OT.ZIP` contient un dossier nommé &quot;DITA-OT&quot; qui contient tous les modules externes et fichiers appropriés.
    - Vérifiez que le fichier `DITA-OT.ZIP` que vous créez est de type mime : &quot;nt:file&quot; \(il correspond au type principal du fichier ZIP lors de son téléchargement vers AEM\). Utilisez un outil WebDAV ou un déploiement de code pour télécharger ce fichier ZIP vers le chemin d’accès souhaité dans AEM. \(N’utilisez pas AEM gestionnaire de packages pour déployer ce fichier ZIP, car ce fichier ZIP n’est pas un module de contenu AEM mais simplement un fichier d’archive.\)
+
    >[!NOTE]
    >
    > Il est recommandé de ne pas remplacer le package DITA-OT par défaut. Vous devez charger votre package DITA-OT personnalisé contenant votre plug-in à un autre emplacement sous le dossier `apps`.

@@ -21,7 +21,7 @@ Pour créer une collection de mappages d’activation en bloc, procédez comme s
 
 1. Sélectionnez la mosaïque **Tableau de bord de publication en bloc**.
 
-   Le tableau de bord de publication en bloc s’affiche. Vous pouvez également accéder à ce tableau de bord à partir du panneau de gauche de la page d’accueil d’Adobe Experience Manager Guides [](intro-home-page.md).
+   Le tableau de bord de publication en bloc s’affiche. Vous pouvez également accéder à ce tableau de bord à partir du panneau de gauche de la page d’accueil d’Adobe Experience Manager Guides [&#128279;](intro-home-page.md).
 
    Pour la première fois, une page de collections vierge s’affiche. Si vous avez créé précédemment des collections d’activation en bloc, elles s’affichent sur cette page.
 
@@ -108,4 +108,4 @@ Les options de filtrage disponibles dans le panneau de gauche sont les suivantes
 
 Les filtres sont mis à jour lorsque vous passez de l’onglet **Mappages et paramètres prédéfinis** à l’onglet **Historique des contrôles** et vice versa.
 
-**Rubrique parente : **[Activation en bloc du contenu publié](conf-bulk-activation.md)
+**Rubrique parente : &#x200B;** [Activation en bloc du contenu publié](conf-bulk-activation.md)

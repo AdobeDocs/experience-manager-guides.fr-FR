@@ -81,4 +81,4 @@ Spécifiez les paramètres suivants pour ajouter des informations de métadonné
 - `<metadata node path>` : chemin d’accès complet au dossier incluant le nom du fichier et son noeud de métadonnées. Par exemple, si vous spécifiez le chemin d’accès `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`, les informations de métadonnées spécifiées sont définies sur le fichier `intro.xml`.
 
 
-**Rubrique parente :**[ Migrer le contenu existant](migrate-content.md)
+**Rubrique parente :**&#x200B;[ Migrer le contenu existant](migrate-content.md)

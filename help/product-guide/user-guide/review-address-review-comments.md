@@ -73,4 +73,4 @@ En mode Éditeur web, le panneau de droite contient les icônes Révision et Sui
 - **I** : appliquer un filtre sur les commentaires. Vous pouvez filtrer les commentaires selon le type de révision \(tous, mis en surbrillance, supprimé, inséré ou pense-bête\), le statut de révision \(tous, acceptés, rejetés ou aucun\), les réviseurs \(tous ou certains réviseurs\(s\)\) ou les versions de rubrique.
 
 
-**Rubrique parente :**[ Présentation de la révision](review.md)
+**Rubrique parente :**&#x200B;[ Présentation de la révision](review.md)

@@ -269,7 +269,7 @@ Pour exclure l’élément `table` de l’aplatissement, ajoutez la propriété 
 
 ### Configurer le contrôle de version des pages supprimées dans la sortie du site AEM
 
-Lorsque vous générez une sortie de site AEM avec les options **Supprimer et** Créer ****sélectionnées pour le paramètre Pages de sortie existantes , une version est créée pour la ou les pages en cours de suppression. Vous pouvez configurer le système pour arrêter la création d’une version avant la suppression.
+Lorsque vous générez une sortie de site AEM avec les options **Supprimer et** Créer **&#x200B;**&#x200B;sélectionnées pour le paramètre Pages de sortie existantes , une version est créée pour la ou les pages en cours de suppression. Vous pouvez configurer le système pour arrêter la création d’une version avant la suppression.
 
 Effectuez les étapes suivantes pour arrêter la création d’une version pour la ou les pages en cours de suppression :
 

@@ -76,4 +76,4 @@ Pour créer un projet DITA, procédez comme suit :
 1. Sélectionnez **Ouvrir** pour ouvrir la page de votre projet.
 
 
-**Rubrique parente :**[ Présentation de la révision](review.md)
+**Rubrique parente :**&#x200B;[ Présentation de la révision](review.md)

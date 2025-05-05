@@ -35,7 +35,7 @@ Vous pouvez utiliser l’un de ces modèles pour créer des modèles de rubrique
 
 Pour personnaliser le modèle de rubrique DITA et l’utiliser pour la création, vous devez effectuer les trois tâches principales suivantes :
 
-1. *\(Facultatif\)* [ ](#id191LCF0095Z) Configuration du chemin d’accès au dossier de modèle DITA personnalisé
+1. *\(Facultatif\)* [&#128279;](#id191LCF0095Z) Configuration du chemin d’accès au dossier de modèle DITA personnalisé
 
 1. [Créer un modèle de création personnalisé](conf-folder-level.md#id1917D0EG0HJ)
 
@@ -64,4 +64,4 @@ Suivez les instructions de la section [Remplacements de configuration](download-
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | Indiquez un emplacement où stocker les modèles personnalisés.<br> Si l’emplacement spécifié existe dans DAM, tous les modèles de mappage et de rubrique par défaut sont copiés dans ce dossier. Si l’emplacement n’existe pas, le dossier est créé avec tous les modèles de mappage et de rubrique par défaut. |
 
-**Rubrique parente :**[ Configuration de modèles de rubrique et de mappage](conf-template-tags.md)
+**Rubrique parente :**&#x200B;[ Configuration de modèles de rubrique et de mappage](conf-template-tags.md)

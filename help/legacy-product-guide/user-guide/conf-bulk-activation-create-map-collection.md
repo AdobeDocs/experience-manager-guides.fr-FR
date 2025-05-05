@@ -106,4 +106,4 @@ Les options de filtrage disponibles dans le panneau de gauche sont les suivantes
 
 Les filtres sont mis à jour lorsque vous passez de l’onglet **Mappages et paramètres prédéfinis** à l’onglet **Historique des contrôles** et vice versa.
 
-**Rubrique parente : **[Activation en bloc du contenu publié](conf-bulk-activation.md)
+**Rubrique parente : &#x200B;** [Activation en bloc du contenu publié](conf-bulk-activation.md)

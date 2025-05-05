@@ -76,7 +76,7 @@ Si la même rubrique est référencée plusieurs fois dans un fichier, vous pouv
 
 ![Paramètre prédéfini AEM Sites hérité](assets/aem-sites-legacy.png)
 
-*Spécifiez le contexte de publication pour les rubriques liées à partir de l’onglet **Références croisées**du paramètre prédéfini **AEM Sites**.*
+*Spécifiez le contexte de publication pour les rubriques liées à partir de l’onglet **Références croisées**&#x200B;du paramètre prédéfini **AEM Sites**.*
 
 En savoir plus sur les [paramètres prédéfinis AEM Sites](../user-guide/generate-output-aem-site.md).
 

@@ -47,4 +47,4 @@ En outre, l’éditeur web est compatible DITA et prend en charge les normes DIT
 - **[Utiliser des libellés](web-editor-use-label.md)**
 
 
-**Rubrique parente :**[ créer du contenu à l’aide d’AEM Guides](authoring-content-xml-doc.md)
+**Rubrique parente :**&#x200B;[ créer du contenu à l’aide d’AEM Guides](authoring-content-xml-doc.md)

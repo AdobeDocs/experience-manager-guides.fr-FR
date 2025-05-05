@@ -59,4 +59,4 @@ Pour activer l’ancienne génération de PDF via DITA-OT à partir du mode d’
 
 Après avoir effectué les étapes ci-dessus, si vous choisissez le même profil de dossier dans Préférences utilisateur dans l’éditeur web, l’option de génération de PDF s’affiche en mode d’aperçu d’une rubrique.
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[ Personnaliser l’éditeur web](conf-web-editor.md)

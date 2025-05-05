@@ -33,4 +33,4 @@ Vous pouvez modifier, dupliquer et supprimer un paramètre prédéfini de sortie
 
 
 
-**Rubrique parente :**[ Génération de sortie](generate-output.md)
+**Rubrique parente :**&#x200B;[ Génération de sortie](generate-output.md)

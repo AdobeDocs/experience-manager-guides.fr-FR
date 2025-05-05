@@ -55,6 +55,6 @@ L’exemple suivant illustre l’appel API à l’aide de la commande curl avec 
 
     &quot;XML
     
-    curl -u &lt;*nom d’utilisateur*>:&lt;*mot de passe*> -H &quot;Type de contenu : application/json; charset=UTF-8&quot; -k -X POST -d &quot;{[chaîne de règles JSON](create-activate-package-java.md#example-create-activate-package-id198JH0B9055000500000000)}&quot; http://&lt;*aem-guides-server*>:&lt;*port-number*>/bin/fmdita/activate?activationTarget=&lt;validActivationTargetValue>`
+    curl -u &lt;*nom d’utilisateur*>:&lt;*mot de passe*> -H &quot;Type de contenu : application/json; charset=UTF-8&quot; -k -X POST -d &quot;{[chaîne de règles JSON](create-activate-package-java.md#example-create-activate-package-id198JH0B9055000500000000)}&quot; http://&lt;*aem-guides-server*>:&lt;*port-number*>/bin/fmdita/activate?activationTarget=&lt;validActivationTargetValue>&grave;
     &quot;
 &quot;

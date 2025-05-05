@@ -74,7 +74,7 @@ Pour plus d’informations, voir la section *Vue de la mise en page* dans Utilis
 
 ### Attributs intégrés dans les paramètres de l’éditeur
 
-AEM Guides permet désormais la configuration des **attributs intégrés** par votre administrateur à partir des **** paramètres de l’éditeur. Vous pouvez également ajouter de nouveaux attributs intégrés ou supprimer les attributs existants de l’onglet **Attributs intégrés** des paramètres de l’éditeur.
+AEM Guides permet désormais la configuration des **attributs intégrés** par votre administrateur à partir des **&#x200B;**&#x200B;paramètres de l’éditeur. Vous pouvez également ajouter de nouveaux attributs intégrés ou supprimer les attributs existants de l’onglet **Attributs intégrés** des paramètres de l’éditeur.
 Les attributs intégrés configurés définis pour une rubrique sont affichés par rapport à la rubrique dans la vue Disposition.
 
 ![Paramètres de l’éditeur](assets/editor-settings-inline-attributes.png)

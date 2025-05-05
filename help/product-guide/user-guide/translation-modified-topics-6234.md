@@ -78,4 +78,4 @@ Effectuez les étapes suivantes pour envoyer une rubrique modifiée pour retradu
 1. Revenez au fichier de mappage DITA dans le dossier de langue source dans l’interface utilisateur d’Assets. Les rubriques retraduites sont désormais synchronisées.
 
 
-**Rubrique parente :**[ Présentation de la traduction de contenu](translation.md)
+**Rubrique parente :**&#x200B;[ Présentation de la traduction de contenu](translation.md)

@@ -37,6 +37,7 @@ Par exemple :
 
      Si vous ne définissez pas de modèle autorisé pour un dossier, les modèles sont sélectionnés à partir du dossier parent ou du dossier de modèles par défaut.
    * **Classable** : permet de modifier l’ordre des ressources dans un dossier.
+
      ![ajoutez les détails de la configuration cloud dans les propriétés du dossier](images/experience-fragment-folder-properties.png){width="650" align="left"}
      *Ajoutez la configuration cloud dans les propriétés du dossier pour la connecter aux modèles de fragment.*
 1. Pour générer un fragment d’expérience, sélectionnez **Nouvelle sortie** ![nouvelle icône de sortie](./images/Add_icon.svg) dans la section **Sorties** de la **Propriétés du fichier** d’une rubrique.
