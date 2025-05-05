@@ -18,20 +18,20 @@ Les workflows vous permettent d’automatiser les activités Adobe Experience Ma
 
 Pour plus d’informations sur les workflows dans AEM, voir :
 
-- [Administration des workflows](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
+- [Administration des workflows](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- Demande de workflow et participation à des workflows : [Utilisation des workflows](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
+- Demande de workflow et participation à des workflows : [Utilisation des workflows](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/workflows.html).
 
-- Création de modèles de workflows et extension de la fonctionnalité de workflow : [Développement et extension des workflows](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
+- Création de modèles de workflows et extension de la fonctionnalité de workflow : [Développement et extension des workflows](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/workflows.html).
 
-- Amélioration des performances des workflows qui utilisent des ressources de serveur importantes : [Traitement de workflows simultanés](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
+- Amélioration des performances des workflows qui utilisent des ressources de serveur importantes : [Traitement de workflows simultanés](https://helpx.adobe.com/fr/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
 
 Les sections de cette rubrique vous guideront tout au long des différentes personnalisations que vous pouvez effectuer dans les workflows par défaut fournis dans AEM Guides.
 
 ## Personnalisation du processus de révision {#id176NE0C00HS}
 
-L’équipe de création de contenu de chaque entreprise travaille de manière spécifique pour répondre aux besoins de son entreprise. Dans certaines organisations, il existe un éditeur dédié, tandis que d’autres pourraient avoir mis en place un système automatisé d’examen éditorial. Par exemple, dans une organisation, un processus de création et de publication type peut inclure des tâches comme : chaque fois qu’un auteur a terminé la création de contenu, il est automatiquement envoyé aux réviseurs, et lorsque la révision est terminée, il est envoyé à l’éditeur pour générer la sortie finale. Dans AEM, les activités que vous effectuez sur votre contenu et vos ressources peuvent être combinées sous la forme d’un processus et mappées à un workflow AEM. Pour plus d’informations sur les workflows dans AEM, voir [Administration des workflows](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html) dans AEM documentation.
+L’équipe de création de contenu de chaque entreprise travaille de manière spécifique pour répondre aux besoins de son entreprise. Dans certaines organisations, il existe un éditeur dédié, tandis que d’autres pourraient avoir mis en place un système automatisé d’examen éditorial. Par exemple, dans une organisation, un processus de création et de publication type peut inclure des tâches comme : chaque fois qu’un auteur a terminé la création de contenu, il est automatiquement envoyé aux réviseurs, et lorsque la révision est terminée, il est envoyé à l’éditeur pour générer la sortie finale. Dans AEM, les activités que vous effectuez sur votre contenu et vos ressources peuvent être combinées sous la forme d’un processus et mappées à un workflow AEM. Pour plus d’informations sur les workflows dans AEM, voir [Administration des workflows](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/workflows.html) dans AEM documentation.
 
 AEM Guides vous permet de personnaliser le processus de révision par défaut. Vous pouvez utiliser les quatre processus personnalisés suivants liés à la révision avec vos autres processus de création ou de publication.
 

@@ -143,4 +143,4 @@ Mappages :
 
 
 
-En savoir plus sur les bonnes pratiques de [Security](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security).
+En savoir plus sur les bonnes pratiques de [Security](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/introduction/security).

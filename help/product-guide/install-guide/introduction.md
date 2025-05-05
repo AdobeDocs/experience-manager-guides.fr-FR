@@ -68,9 +68,9 @@ Les informations contenues dans ce guide sont organisées comme suit :
 
 ## Ressources supplémentaires
 
-Vous trouverez ci-dessous une liste d’autres ressources utiles d’AEM Guides, disponibles sur la page [Formation et assistance](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) :
+Vous trouverez ci-dessous une liste d’autres ressources utiles d’AEM Guides, disponibles sur la page [Formation et assistance](https://helpx.adobe.com/fr/support/xml-documentation-for-experience-manager.html) :
 
 - Guide de l’utilisateur
 - Guide de référence d’API
 - Guide de démarrage rapide
-- [Aide à l’archivage de la page](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(accéder à la documentation sur les anciennes versions\)
+- [Aide à l’archivage de la page](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html) \(accéder à la documentation sur les anciennes versions\)

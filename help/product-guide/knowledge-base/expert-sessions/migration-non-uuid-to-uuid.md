@@ -46,14 +46,14 @@ Au cours de cette session, nous avons donné un aperçu des éléments suivants 
 
 ### Documentation
 
-- [Migration de contenu d&#39;un UUID non utilisé vers un UUID](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
+- [Migration de contenu d&#39;un UUID non utilisé vers un UUID](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
 - [AEM Guides : déplacez le contenu UID d’on-premise/AMS vers le cloud](../../cs-install-guide/migrate-on-premise-content-cloud.md)
-- [ Déplacement vers AEM Cloud](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
+- [ Déplacement vers AEM Cloud](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides : migration de contenu non uuid vers le cloud](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### Forum communautaire
 
-- Pour obtenir des interactions de communauté spécifiques à une session sur Experience League, consultez le [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- Pour obtenir des interactions de communauté spécifiques à une session sur Experience League, consultez le [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=fr).
 
 
 >[!NOTE]

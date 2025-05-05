@@ -125,5 +125,5 @@ Une fois la migration terminée, sélectionnez **Valider la mise à niveau du sy
 ![Valider l’onglet de mise à niveau du système dans la migration](assets/migration-validate-system-upgrade.png){width="800" align="left"}
 
 
-1. Une fois la migration terminée, la plus grande partie de l&#39;espace disque peut être récupérée en exécutant la compression (voir `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
+1. Une fois la migration terminée, la plus grande partie de l&#39;espace disque peut être récupérée en exécutant la compression (voir `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=fr`).
 

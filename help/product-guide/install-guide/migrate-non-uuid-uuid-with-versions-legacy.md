@@ -154,4 +154,4 @@ Une fois la migration du serveur réussie, activez le post-traitement, le balisa
    ![Valider l’onglet de mise à niveau du système dans la migration](assets/migration-validate-system-upgrade.png){width="800" align="left"}
 
 
-1. Une fois la validation terminée, la plupart de l’espace disque peut être récupéré en exécutant la compression (voir `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
+1. Une fois la validation terminée, la plupart de l’espace disque peut être récupéré en exécutant la compression (voir `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=fr`).

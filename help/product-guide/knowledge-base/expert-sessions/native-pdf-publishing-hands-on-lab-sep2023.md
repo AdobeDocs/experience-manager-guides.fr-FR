@@ -50,11 +50,11 @@ Au cours de cette session, vous avez appris ce qui suit pour la publication d’
 
 - **Étapes de configuration du PDF natif** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
 
-- **Présentation fonctionnelle de la publication de PDF natif** - [sur Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
+- **Présentation fonctionnelle de la publication de PDF natif** - [sur Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=fr)
 
-- **Cas d’utilisation courants documentés** - [ sur Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
+- **Cas d’utilisation courants documentés** - [ sur Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=fr)
 
-- **Forum de la communauté** - Pour des interactions de la communauté spécifiques à une session sur Experience League, rendez-vous sur le [forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Forum de la communauté** - Pour des interactions de la communauté spécifiques à une session sur Experience League, rendez-vous sur le [forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=fr).
 
 >[!NOTE]
 >

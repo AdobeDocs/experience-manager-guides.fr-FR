@@ -167,4 +167,4 @@ Attribuer des identifiants aux fragments (éléments Dita) que vous souhaitez r�
 <br>
 
 
-Publiez sur le [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) de la communauté AEM Guides pour toutes les requêtes.
+Publiez sur le [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=fr) de la communauté AEM Guides pour toutes les requêtes.

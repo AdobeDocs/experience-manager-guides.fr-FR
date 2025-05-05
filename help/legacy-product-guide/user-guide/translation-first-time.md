@@ -50,7 +50,7 @@ Effectuez les étapes suivantes pour configurer le service de traduction humaine
 
    >[!NOTE]
    >
-   > Consultez [ Configuration de la structure d’intégration de traduction ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) dans la documentation d’AEM pour plus d’informations sur l’intégration à des services de traduction tiers.
+   > Consultez [ Configuration de la structure d’intégration de traduction ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=fr) dans la documentation d’AEM pour plus d’informations sur l’intégration à des services de traduction tiers.
 
 1. Cliquez sur **Enregistrer et fermer** pour enregistrer les propriétés du dossier mis à jour.
 

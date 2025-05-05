@@ -185,7 +185,7 @@ Effectuez les étapes suivantes pour spécifier votre propre modèle de concepti
 >
 > Après avoir créé un noeud de modèle de conception personnalisé, vous devez mettre à jour l’option Conception dans les paramètres prédéfinis de sortie AEM Site pour utiliser le noeud de modèle de conception personnalisé.
 
-Pour plus d’informations, voir [Création de votre premier site web Adobe Experience Manager 6.3](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) et [Principes de base](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/the-basics.html) du développement de votre propre site web sur AEM.
+Pour plus d’informations, voir [Création de votre premier site web Adobe Experience Manager 6.3](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) et [Principes de base](https://helpx.adobe.com/fr/experience-manager/6-3/sites/developing/using/the-basics.html) du développement de votre propre site web sur AEM.
 
 ### Utiliser le titre du document pour générer AEM sortie du site
 
@@ -642,11 +642,11 @@ AEM Guides fournit la catégorie `apps.fmdita.dashboard-extn` pour personnaliser
 
 >[!NOTE]
 >
-> Pour plus d’informations sur la création AEM bibliothèque cliente, voir [Utilisation de bibliothèques côté client](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html).
+> Pour plus d’informations sur la création AEM bibliothèque cliente, voir [Utilisation de bibliothèques côté client](https://helpx.adobe.com/fr/experience-manager/6-4/sites/developing/using/clientlibs.html).
 
 ## Gérer le rendu d’image lors de la génération de la sortie {#id177BF0G0VY4}
 
-AEM est fourni avec un ensemble de workflows et de gestionnaires de médias par défaut pour traiter les ressources. Dans AEM, il existe des workflows prédéfinis pour gérer le traitement des ressources pour les types MIME les plus courants. En règle générale, pour chaque image que vous téléchargez, AEM crée plusieurs rendus du même format binaire. Ces rendus peuvent être de taille différente, avec une résolution différente, avec un filigrane ajouté ou d’autres caractéristiques modifiées. Pour plus d’informations sur la manière dont AEM gère les ressources, voir [Traitement d’Assets à l’aide de gestionnaires et de workflows de médias](https://helpx.adobe.com/experience-manager/6-5/assets/using/media-handlers.html) dans AEM documentation.
+AEM est fourni avec un ensemble de workflows et de gestionnaires de médias par défaut pour traiter les ressources. Dans AEM, il existe des workflows prédéfinis pour gérer le traitement des ressources pour les types MIME les plus courants. En règle générale, pour chaque image que vous téléchargez, AEM crée plusieurs rendus du même format binaire. Ces rendus peuvent être de taille différente, avec une résolution différente, avec un filigrane ajouté ou d’autres caractéristiques modifiées. Pour plus d’informations sur la manière dont AEM gère les ressources, voir [Traitement d’Assets à l’aide de gestionnaires et de workflows de médias](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/media-handlers.html) dans AEM documentation.
 
 AEM Guides vous permet de configurer le rendu d’image à utiliser lors de la génération de la sortie pour vos documents. Par exemple, vous pouvez choisir parmi l’un des rendus d’image par défaut ou en créer un et l’utiliser pour publier vos documents. Le mappage de rendu d’image pour la publication de vos documents est stocké dans le fichier `/libs/fmdita/config/ **renditionmap.xml**`. Voici un extrait de fichier `renditionmap.xml` :
 

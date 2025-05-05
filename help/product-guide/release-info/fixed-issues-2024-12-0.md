@@ -59,7 +59,7 @@ Cause : `org.apache.jackrabbit.oak.api.CommitFailedException` : `OakAccess0000` 
 
 **Solution de contournement** : pour résoudre ce problème, effectuez les étapes de contournement suivantes :
 
-1. Ajoutez un fichier repoinit . Si le fichier n’existe pas, créez-le en suivant les étapes [création d’un exemple de configuration repoinit](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854).
+1. Ajoutez un fichier repoinit . Si le fichier n’existe pas, créez-le en suivant les étapes [création d’un exemple de configuration repoinit](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854?profile.language=fr).
 2. Ajoutez la ligne suivante dans le fichier et déployez le code :
 
    ```

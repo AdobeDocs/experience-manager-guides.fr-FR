@@ -46,7 +46,7 @@ Au cours de cette session, vous allez découvrir les informations suivantes :
 
 - [AEM de modèles](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
 
-- **Forum de la communauté** - Pour des interactions de la communauté spécifiques à une session sur Experience League, rendez-vous sur le [forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Forum de la communauté** - Pour des interactions de la communauté spécifiques à une session sur Experience League, rendez-vous sur le [forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=fr).
 
 >[!NOTE]
 >

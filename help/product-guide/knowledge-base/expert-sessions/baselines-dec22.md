@@ -40,11 +40,11 @@ Au cours de cette session, vous découvrirez les éléments suivants :
 
 ## Ressources connexes
 
-- **Vidéos de démonstration** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **Vidéos de démonstration** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=fr)
 
 - **Guide de l’utilisateur** - [Utilisation de la ligne de base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
 
-- **Forum de la communauté** - Pour des interactions de la communauté spécifiques à une session sur Experience League, rendez-vous sur le [forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Forum de la communauté** - Pour des interactions de la communauté spécifiques à une session sur Experience League, rendez-vous sur le [forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=fr).
 
 >[!NOTE]
 >

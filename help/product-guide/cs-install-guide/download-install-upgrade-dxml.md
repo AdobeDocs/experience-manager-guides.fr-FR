@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Pour plus d’informations sur l’utilisation du pipeline CI/CD, voir [Utilisation du pipeline CI/CD dans Adobe Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html).
+> Pour plus d’informations sur l’utilisation du pipeline CI/CD, voir [Utilisation du pipeline CI/CD dans Adobe Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html?lang=fr).
 
 ## Effacer le cache du navigateur
 

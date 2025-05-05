@@ -22,7 +22,7 @@ Une fois AEM Guides installé, vous devez vérifier si l’installation a réuss
 
 1. Accédez à la liste des lots OSGi dans AEM.
 
-   Pour plus d’informations sur l’accès aux lots, voir [Bundles](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles) dans AEM documentation.
+   Pour plus d’informations sur l’accès aux lots, voir [Bundles](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=fr#bundles) dans AEM documentation.
 
 1. Recherchez fmdita dans la liste des lots et vérifiez son état.
 

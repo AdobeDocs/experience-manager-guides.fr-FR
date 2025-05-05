@@ -52,7 +52,7 @@ Une fois les packages installés, un site nommé **AEMG** est créé dans l’in
 
 
 **AEMG** contient les composants suivants.
-- Un dossier pour la langue anglaise (en) est présent dans le dossier **AEMG**. Vous pouvez créer des copies de langue similaires en fonction de vos besoins. Par exemple, un site web multilingue comprend des copies de langue anglaise (en), allemande (de) et française (fr).  Découvrez comment créer une copie de langue à l’aide de l’ [assistant Copie de langue](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard).
+- Un dossier pour la langue anglaise (en) est présent dans le dossier **AEMG**. Vous pouvez créer des copies de langue similaires en fonction de vos besoins. Par exemple, un site web multilingue comprend des copies de langue anglaise (en), allemande (de) et française (fr).  Découvrez comment créer une copie de langue à l’aide de l’ [assistant Copie de langue](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard).
 - Dans le dossier English(en) language, Experience Manager Guides fournit de nombreuses pages d’exemple prêtes à l’emploi telles que **Search**, **Sign in**, **Docs** et **Support**.
 
 - **Docs** est l’exemple de page d’accueil de la documentation. Il sert d’emplacement central pour toute la documentation relative aux produits.
@@ -97,7 +97,7 @@ Pour modifier les modèles de rubrique, procédez comme suit :
 1. Sélectionnez le modèle que vous souhaitez modifier.
 1. Sélectionnez l&#39;icône **Modifier** en haut.
 
-L’éditeur de modèles d’AEM s’ouvre. Vous pouvez modifier le modèle de rubrique. En savoir plus sur la [création de modèles de page](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author).
+L’éditeur de modèles d’AEM s’ouvre. Vous pouvez modifier le modèle de rubrique. En savoir plus sur la [création de modèles de page](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author).
 
 
 ## Personnalisation des modèles AEM Sites existants

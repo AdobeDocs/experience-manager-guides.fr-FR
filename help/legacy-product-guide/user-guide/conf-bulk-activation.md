@@ -18,7 +18,7 @@ Dans un scénario réel, vos auteurs auraient accès à l’instance de créatio
 
 >[!NOTE]
 >
-> Pour plus d’informations sur la configuration de l’instance de création et de publication dans AEM, voir [Présentation de l’architecture de création et de publication](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
+> Pour plus d’informations sur la configuration de l’instance de création et de publication dans AEM, voir [Présentation de l’architecture de création et de publication](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=fr#prerequisites).
 
 Grâce à la fonction d’activation en bloc d’AEM Guides, vous pouvez activer rapidement et facilement votre contenu, de la création à la publication. La fonctionnalité d’activation en bloc vous offre la possibilité d’effectuer les opérations suivantes :
 

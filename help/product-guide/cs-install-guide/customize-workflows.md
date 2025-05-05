@@ -20,7 +20,7 @@ Pour plus d’informations sur les workflows dans AEM, voir :
 
 - [Administration des instances de workflow](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=fr)
 
-- Application et participation aux workflows : [Utilisation des workflows de projet](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html).
+- Application et participation aux workflows : [Utilisation des workflows de projet](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html?lang=fr).
 
 
 Les sections de cette rubrique vous guident dans les différentes personnalisations que vous pouvez effectuer dans les workflows par défaut fournis dans AEM Guides.
