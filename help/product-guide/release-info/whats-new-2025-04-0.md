@@ -2,9 +2,10 @@
 title: Notes de mise à jour | Nouveautés de la version Adobe Experience Manager Guides 2025.04.0
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 2025.04.0 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 2d0be1a3b3d4b625333e5b8c93e6b01f38e00b39
+exl-id: 5d28119b-641f-402b-833c-6f7554e7c273
+source-git-commit: f4ed3c8b70c47beb1f97c6703ade4d4f49fa814e
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '569'
 ht-degree: 2%
 
 ---
@@ -51,6 +52,6 @@ Experience Manager Guides offre une expérience de recherche améliorée dans le
 Pour plus d’informations, consultez la section [Contenu réutilisable](../user-guide/web-editor-features.md#reusable-content).
 
 
-## Mise à jour de la version de l&#39;outil DITA pour les conteneurs de microservice
+## Mise à niveau de la version Java des conteneurs de microservice
 
 Pour les environnements cloud activés pour les microservices, nous passerons à l’utilisation de Java 21, en veillant à ce que les processus de génération DITA-OT et PDF natifs existants ne soient pas affectés. Le workflow existant de DITA-OT 3 continuera à fonctionner de manière transparente avec Java 21.  En outre, DITA-OT 4 sera entièrement opérationnel, ce qui permettra aux utilisateurs de générer des fichiers PDF à l’aide de DITA-OT et de PDF natifs, ainsi que de produire des sorties pour les sites AEM natifs et d’autres formats.

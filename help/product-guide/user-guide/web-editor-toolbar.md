@@ -4,7 +4,7 @@ description: Découvrez la barre d’outils dans l’éditeur. Découvrez l’in
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: e49fde64cbbb2544afe23b820af6477ed1e900fc
 workflow-type: tm+mt
 source-wordcount: '5909'
 ht-degree: 0%
@@ -32,7 +32,7 @@ L’explication détaillée de ces fonctionnalités est la suivante :
 
 **Modification des actions**
 
-Lorsque vous modifiez une rubrique dans l’éditeur, accédez aux différentes actions d’édition telles que **Couper** ou ***Ctrl***+***X*** , **Copier** ou ***Ctrl***+***C*** , **Undo** ou ***Ctrl***+***Z*** ou **Ctrl**+***Y*** et ***Delete*** **&#x200B;**&#x200B;présentes dans la liste déroulante Menu .
+Lorsque vous modifiez une rubrique dans l’éditeur, accédez aux différentes actions d’édition telles que **Couper** ou ***Ctrl***+***X*** , **Copier** ou ***Ctrl***+***C*** , **Undo** ou ***Ctrl***+***Z*** ou **Ctrl**+***Y*** et ***Delete*** **** présentes dans la liste déroulante Menu .
 
 
 **Rechercher et remplacer**
@@ -88,7 +88,7 @@ La fonction **Historique des versions** de l&#39;éditeur vous permet de vérifi
 
    >[!NOTE]
    >
-   > Votre administrateur système peut modifier les métadonnées à afficher à partir de l’onglet Métadonnées dans le **Paramètres**. Pour plus d’informations, reportez-vous à la section **Autres actions** de la [barre d’onglets](#tab-bar).
+   > Votre administrateur système peut modifier les métadonnées à afficher à partir de l’onglet Métadonnées dans le **Paramètres**. Pour plus d’informations, reportez-vous à la section **Autres actions** de la [barre d’onglets](./web-editor-tab-bar.md).
 
    Vous pouvez également afficher les détails de l’utilisateur et de l’heure de la version actuelle et de la version comparée.
 
@@ -132,7 +132,7 @@ Il existe différentes méthodes d’application des libellés à vos rubriques 
 
    La boîte de dialogue Gestion des libellés de version s’affiche.
 
-   ![](images/version-label-management-dialog.png){width="650" align="left"}
+   ![](images/version-label-management-dialog.png){width="350" align="left"}
 
    La boîte de dialogue Gestion des libellés de version est divisée en deux parties : le panneau de gauche contient une liste des versions disponibles pour la rubrique, une liste déroulante de libellés \(ou une zone de texte pour saisir un libellé\) et le panneau de droite avec un aperçu de la rubrique.
 
@@ -249,7 +249,7 @@ Pour accepter ou rejeter toutes les modifications en un seul clic, sélectionnez
 
 >[!NOTE]
 >
-> Le mode Aperçu vous permet d’afficher le document avec ou sans les balises du contenu modifié. Pour plus d’informations, consultez le mode [Aperçu](web-editor-views.md#preview-mode-id19AAGL00163).
+> Le mode Aperçu vous permet d’afficher le document avec ou sans les balises du contenu modifié. Pour plus d’informations, consultez le mode [Aperçu](web-editor-views.md#preview-mode).
 
 **Balises**
 
@@ -377,7 +377,7 @@ Insère une image à l’emplacement valide actuel ou suivant. Sélectionnez l�
 
 >[!NOTE]
 >
-> Vous pouvez également ajouter une image en la faisant glisser de votre système local vers votre article. Dans ce cas, le fichier image est ajouté à l’aide du workflow **Télécharger Assets**.  Pour plus d’informations, consultez le workflow **Charger Assets** dans la section [Panneau de gauche](#left-panel).
+> Vous pouvez également ajouter une image en la faisant glisser de votre système local vers votre article. Dans ce cas, le fichier image est ajouté à l’aide du workflow **Télécharger Assets**.  Pour plus d’informations, consultez le workflow **Charger Assets** dans la section [Panneau de gauche](./web-editor-left-panel.md).
 
 
 ![](images/insert-image.png){width="300" align="left"}
@@ -621,4 +621,4 @@ Si un fichier est verrouillé par un autre utilisateur, le fait de pointer sur l
 En tant qu’administrateur, vous avez également accès à la fonctionnalité **Forcer le déverrouillage** qui vous permet de déverrouiller le fichier verrouillé par d’autres utilisateurs. Utilisez cette fonctionnalité pour accéder aux droits de modification d&#39;un fichier verrouillé par d&#39;autres utilisateurs.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Rubrique parente :**&#x200B;[ Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)
