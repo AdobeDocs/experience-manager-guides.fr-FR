@@ -3,10 +3,10 @@ title: Notes de mise à jour | Nouveautés de la version Adobe Experience Manage
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 2025.04.0 d’Adobe Experience Manager Guides
 role: Leader
 exl-id: 5d28119b-641f-402b-833c-6f7554e7c273
-source-git-commit: f4ed3c8b70c47beb1f97c6703ade4d4f49fa814e
+source-git-commit: fe7d81f1826fe4ee0c716df36daabe3c5efd8994
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 2%
+source-wordcount: '436'
+ht-degree: 3%
 
 ---
 
@@ -27,17 +27,6 @@ Adobe Experience Manager Guides ajoute désormais un attribut **format** pour le
 - Pour les fichiers contenant un fichier **.dita** ou **.ditamap**, le format est défini sur **dita**
 
 En outre, le format des fichiers dotés de l’extension **.xml** est également défini sur **dita**. Pour les fichiers sans extension, le format reste vide. En outre, pour les liens de référence dont la portée est définie sur **externe**, le format est défini sur **html** quelle que soit l’extension de fichier dans les liens de référence.
-
-
-## Communication précise pour les fichiers volumineux dans l’éditeur
-
-Experience Manager Guides vous informe désormais qu’un fichier est classé comme fichier volumineux et que certaines fonctionnalités, telles que l’annulation, la restauration, le panneau hiérarchique et la marque de modification, peuvent ne pas fonctionner comme prévu. Un message d’alerte s’affiche en haut de l’interface pour les fichiers volumineux, comme illustré dans le fragment de code ci-dessous, indiquant le nombre d’éléments en fonction du paramètre **largeFileTagCount** dans le fichier **uiconfig.json**.
-
-De plus, le nombre de balises s’affiche dans la barre inférieure et une info-bulle s’affiche lorsque vous pointez dessus. Sélectionnez l’onglet **En savoir plus** pour obtenir des informations détaillées sur la gestion des fichiers volumineux. Cette alerte est disponible uniquement pour les fichiers DITA et est visible dans tous les modes : Auteur, Source et Disposition.
-
-Pour plus d’informations, consultez la section [Gestion des fichiers volumineux dans l’éditeur](../user-guide/web-editor-other-features.md#handling-large-files-in-the-editor).
-
-![](assets/add-toast-tag-count.png){width="800" align="left"}
 
 ## La ligne de base exportée inclut désormais l’état du document
 
