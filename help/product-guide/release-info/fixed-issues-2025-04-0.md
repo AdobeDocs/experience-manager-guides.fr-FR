@@ -1,9 +1,10 @@
 ---
 title: Notes de mise à jour | Correction de problèmes dans Adobe Experience Manager Guides, version 2025.04.0
 description: Découvrez les correctifs de bugs de la version 2025.04.0 d’Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 9a943a26a22b64035b61c72c47268a0de2c23b7f
+exl-id: ad3e95b5-4903-4387-8e4d-c4b9ba77fee2
+source-git-commit: 70078864379eedd82ae21da70614055c60f0b114
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '771'
 ht-degree: 3%
 
 ---
@@ -60,12 +61,10 @@ Adobe a identifié les problèmes connus suivants pour la version 2025.04.0 :
 - Une ligne vide est automatiquement insérée lors du collage d’un nouveau contenu dans une nouvelle ligne au sein d’un élément de `codeblock`.(27842)
 - Le fait de basculer entre des paramètres prédéfinis qui utilisent la même ligne de base désactive le bouton **Enregistrer** du paramètre prédéfini actuel. (28025)
 - Une rubrique dans un plan DITA ne parvient pas à publier dans la sortie AEM Sites lorsqu&#39;elle est utilisée à la fois comme `keydef` et comme `topicref` dans ses sous-plans. (22269)
-- Dans la sortie AEM Sites, les images s’interrompent lorsque la ligne de base n’est pas appliquée lors de la publication. (28043)
 - Une erreur d’application se produit lorsque plusieurs rubriques d’un mappage sont modifiées, puis fermées à l’aide de l’option **Tout fermer**, avec le paramètre **Demander lors de l’enregistrement de la version à la fermeture** activé.(27931)
 
+Adobe a identifié le problème connu suivant lié à une solution :
 
-
-
-
-
-
++++Dans la sortie AEM Sites, les images s’interrompent lorsque la ligne de base n’est pas appliquée lors de la publication. (28043)
+***Solution :*** vous pouvez publier ces ressources à partir de l’**interface utilisateur d’Assets**, après quoi le lien devient opérationnel.
++++
