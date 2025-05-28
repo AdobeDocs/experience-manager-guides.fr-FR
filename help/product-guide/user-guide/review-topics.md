@@ -4,9 +4,9 @@ description: Découvrez comment passer en revue les rubriques et utiliser les fo
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 9197cb757e3b883d81eee8a72c797b74cf06e570
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2476'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,7 @@ Pour passer en revue une rubrique, procédez comme suit :
 
    - **G** : Nombre de commentaires reçus sur un sujet. Ce nombre change en fonction du filtre appliqué.
 
+
    Toutes les rubriques de la carte s’affichent sous la forme d’un document composite unique. Les rubriques que le réviseur est autorisé à examiner s’affichent normalement. Les rubriques que la révision n’est pas autorisée à réviser ne s’affichent pas.
 
    ![](images/review-read-only.png){align="left"}
@@ -91,6 +92,12 @@ La zone de commentaire prend en charge les entrées multiligne et permet aux uti
 **Vue Document et vue Rubrique** - Par défaut, si plusieurs rubriques sont partagées pour la révision, une vue de document composite des rubriques est présentée aux réviseurs. Dans le cas d&#39;une révision de carte DITA, toutes les rubriques de la carte sont présentées sous la forme d&#39;un document unique, ressemblant à une vue de livre. Si vous le souhaitez, vous pouvez également sélectionner une rubrique spécifique. Seule cette rubrique est alors affichée sur l’écran de révision.
 
 Lorsque vous affichez une seule rubrique, vous disposez d&#39;une option supplémentaire pour revenir à la vue de document. Dans la capture d’écran suivante, une rubrique spécifique d’un fichier de mappage est ouverte pour révision. L&#39;option en surbrillance — **Afficher le mode Document** permet à l&#39;utilisateur de revenir au mode Document du fichier de mappage.
+
+>[!NOTE]
+>
+> Toute résolution d’écran supérieure à 1 600 px est compatible avec les largeurs de panneau par défaut (gauche et droite), ce qui garantit qu’aucune barre de défilement horizontale ne s’affiche et que le contenu reste correctement aligné dans la vue du document. Vous pouvez également toujours redimensionner l’écran pour conserver la vue de document appropriée dans l’interface utilisateur de révision.
+
+
 
 ![](images/switch-document-view.png){align="left"}
 
@@ -250,4 +257,4 @@ Sélectionnez une ou plusieurs des options de filtrage suivantes dans la boîte 
 
 Pour supprimer le filtre et afficher tous les commentaires, désélectionnez tous les filtres de la boîte de dialogue **Type de filtre** et sélectionnez **Appliquer**.
 
-**Rubrique parente :**&#x200B;[ Présentation de la révision](review.md)
+**Rubrique parente :**[ Présentation de la révision](review.md)

@@ -3,10 +3,10 @@ title: Feuille de route des versions d’Adobe Experience Manager Guides 2024
 description: Obtenez des informations sur les versions actives et à venir d’Adobe Experience Manager Guides On-Prem et d’Adobe Experience Manager Guides as a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 1a3e9734119db9fe6a2657cc0c18aae9da3bbcdf
+source-git-commit: 7fbdb110dfc4c88352199f7a76891c2611238e34
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 33%
+source-wordcount: '410'
+ht-degree: 32%
 
 ---
 
@@ -27,13 +27,13 @@ Les versions de Experience Manager Guides as a Cloud Service sont prévues de la
 
 | Version | Événement | Planification | Nouveautés | Instructions de mise à niveau | Problèmes résolus | Statut |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2025.06.0 | Mise à jour automatique | 02-04 juin 2025 |  |  |  | Cible |
 | Adobe Experience Manager Guides 2025.07.0 | Mise à jour automatique | 15-17 juillet 2025 |  |  |  | Cible |
 
 ### Versions en direct
 
 | Version | Événement | Planification | Nouveautés | Instructions de mise à niveau | Problèmes résolus | Statut |
 |---|---|---|---|---|---|---|
+| Adobe Experience Manager Guides 2025.6.0 | Mise à jour automatique | 02-04 juin 2025 | [Ici](whats-new-2025-06-0.md) | [Ici](upgrade-instructions-2025-06-0.md) | [Ici](fixed-issues-2025-06-0.md) | Mis à jour |
 | Adobe Experience Manager Guides 2025.4.0 | Mise à jour automatique | 05-07 mai 2025 | [Ici](whats-new-2025-04-0.md) | [Ici](upgrade-instructions-2025-04-0.md) | [Ici](fixed-issues-2025-04-0.md) | Mis à jour |
 | Adobe Experience Manager Guides 2025.2.0 | Mise à jour automatique | 10-12 mars 2025 | [Ici](whats-new-2025-02-0.md) | [Ici](upgrade-instructions-2025-02-0.md) | [Ici](fixed-issues-2025-02-0.md) | Mis à jour |
 | Adobe Experience Manager Guides 2024.12.0 | Mise à jour automatique | 13-15 janvier 2025 | - | [Ici](upgrade-instructions-2024-12-0.md) | [Ici](fixed-issues-2024-12-0.md) | Mis à jour |

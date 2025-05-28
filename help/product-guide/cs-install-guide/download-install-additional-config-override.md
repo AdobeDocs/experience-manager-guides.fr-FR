@@ -5,9 +5,9 @@ exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: dae38cf948b99c8b89c61472938ce97b571f9366
+source-git-commit: e4b213b5f0efda18fb24f100f3ee8237947890bf
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Pour garantir une transition fluide et minimiser les perturbations, Experience M
 
 >[!IMPORTANT]
 >
-> Cette option de configuration permettant de basculer entre la nouvelle et l’ancienne interface utilisateur sera disponible jusqu’à la version 2025.4.0. Ensuite, la nouvelle interface utilisateur devient la valeur par défaut et l’option permettant de revenir à l’interface utilisateur précédente n’est plus prise en charge.
+> Cette option de configuration permettant de basculer entre la nouvelle et l’ancienne interface utilisateur était prise en charge jusqu’à la version 2025.4.0. Avec la version 2025.6.0, ce paramètre est obsolète et ne peut plus être utilisé pour revenir à l’ancienne interface utilisateur.
 
 Effectuez les étapes suivantes pour configurer l’interface utilisateur de Experience Manager Guides :
 
@@ -65,4 +65,4 @@ Effectuez les étapes suivantes pour configurer l’interface utilisateur de Exp
 
 
 
-**Rubrique parente :**&#x200B;[ Télécharger et installer](download-install.md)
+**Rubrique parente :**[ Télécharger et installer](download-install.md)

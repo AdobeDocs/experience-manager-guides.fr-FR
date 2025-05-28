@@ -4,9 +4,9 @@ description: Créez et gérez des lignes de base à partir de la console de mapp
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 154d4cb2c4c51581590048e1d368f4c744402847
+source-git-commit: c7e76de14a3dd63eff794ecca16ebbccb3cb2d8a
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1881'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,10 @@ Dans **Sélectionner la version en fonction de** sélectionnez l’une des optio
 
 - **Date** : sélectionne la version des rubriques à la date et à l’heure spécifiées.
 - **Libellé** : sélectionnez cette option pour sélectionner les rubriques en fonction du libellé qui leur est appliqué. Si des libellés sont spécifiés pour les rubriques, les libellés sont répertoriés dans la liste déroulante. Vous pouvez choisir un libellé dans la liste. Vous pouvez également ajouter un libellé dans la zone de texte.
+
+  >[!NOTE]
+  >
+  > Lors du choix des libellés, le chargeur de libellés reste visible jusqu’à ce que tous les libellés aient été récupérés et complètement chargés. Une fois chargés, les libellés s’affichent dans un ordre alphabétique insensible à la casse. Ils sont récupérés par lots de 20, avec le défilement infini activé dans la liste déroulante pour charger des lots supplémentaires au fur et à mesure que vous faites défiler l’écran.
 
   Pour les références directes dans les lignes de base statiques, les libellés sont extraits de la dernière version enregistrée de la carte. Par exemple, si vous avez créé les libellés `Label Release 1.0` et `Label Release 1.1` pour les versions 1.0 et 1.1 de la rubrique A, puis ajoutez la rubrique A à la carte enregistrée en tant que version 1.0. Dans ce cas, vous pouvez afficher les libellés `Label Release 1.0` et `Label Release 1.1` dans la liste déroulante pour les libellés de ligne de base statiques.
 
@@ -164,5 +168,5 @@ Les libellés répertoriés dans la liste déroulante sont basés sur les critè
 
 Une fois la ligne de base modifiée, sélectionnez **Enregistrer** pour enregistrer les modifications. Vous pouvez sélectionner **Réinitialiser** si vous ne souhaitez pas enregistrer la modification et réinitialiser la ligne de base. Lorsque vous sélectionnez **Réinitialiser**, un avertissement s’affiche indiquant que les modifications non enregistrées seraient perdues.
 
-**Rubrique parente :**&#x200B;[ Génération de sortie](generate-output.md)
+**Rubrique parente :**[ Génération de sortie](generate-output.md)
 
