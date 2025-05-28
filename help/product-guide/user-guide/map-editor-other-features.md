@@ -72,4 +72,4 @@ Une référence de navigation du fichier de mappage sélectionné est ajoutée �
 *Mode Mise en page*
 
 
-**Rubrique parente :**[ Présentation de l’éditeur de cartes](map-editor.md)
+**Rubrique parente :**&#x200B;[ Présentation de l’éditeur de cartes](map-editor.md)
