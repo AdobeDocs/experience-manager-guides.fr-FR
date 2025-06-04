@@ -4,7 +4,8 @@ description: Découvrez comment traiter des ressources.
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: b0e744baeb6867bfc9e7d212ec53e581812d8f63
+exl-id: 27786098-119c-4b7a-8275-8a89d435294f
+source-git-commit: 851dafc1f17864bf6a295de7be12ffe513c3af57
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -27,7 +28,7 @@ Suivez les étapes mentionnées ci-dessous pour traiter ou retraiter les ressour
 1. Dans le panneau **Outils**, sélectionnez **Guides**.
 1. Sélectionnez la mosaïque **Processeur de ressources**.
 
-   ![flow-asset-processor](images/flow-asset-processor.png){width="550" align="left"}
+   ![flow-asset-processor](images/flow-asset-processor.png){align="left"}
 
 1. La fenêtre Guides Asset Processor s’ouvre avec les détails affichés ci-dessous. En outre, seules les informations relatives aux cinq dernières migrations s’affichent dans cette fenêtre.
 
@@ -43,7 +44,7 @@ Suivez les étapes mentionnées ci-dessous pour traiter ou retraiter les ressour
 
    - **Statut** : indique le statut du retraitement, à savoir En cours, Terminé ou Annulé.
 
-   ![Guides-asset-processor](images/guides-asset-processor.png){width="550" align="left"}
+   ![Guides-asset-processor](images/guides-asset-processor.png){align="left"}
 
 1. Sélectionnez l’onglet **Nouveau processus** dans le coin supérieur droit de la fenêtre pour démarrer une nouvelle tâche de traitement.
 
@@ -66,20 +67,16 @@ D’autres options sont disponibles pour la tâche de traitement une fois qu’e
 
 - **Redémarrer** : redémarre la tâche de traitement des ressources ayant réussi précédemment.
 
-  ![restart-asset-processor](images/restart-asset-processor.png){width="550" align="left"}
+  ![restart-asset-processor](images/restart-asset-processor.png){align="left"}
 
 - **Reprendre** : reprend la tâche de traitement des ressources précédemment annulée ou ayant échoué.
 
-  ![resume-asset-processor](images/resume-asset-processor.png){width="550" align="left"}
+  ![resume-asset-processor](images/resume-asset-processor.png){align="left"}
 
 - **Annuler** : annule la tâche de traitement des ressources en cours.
 
-  ![annuler-le-processeur-de-ressources](images/cancel-asset-processor.png){width="550" align="left"}
+  ![annuler-le-processeur-de-ressources](images/cancel-asset-processor.png){align="left"}
 
 - **Afficher les journaux** : affiche les journaux de la tâche de traitement des ressources. Pour les tâches en cours, le journal affiche des informations détaillées sur le traitement, notamment le temps restant estimé et le statut de la ressource. Cette liste de journaux affiche jusqu’aux 500 dernières entrées. Le journal complet peut être téléchargé.
 
-  ![logs-asset-processor](images/logs-asset-processor.png){width="550" align="left"}
-
-
-
-
+  ![logs-asset-processor](images/logs-asset-processor.png){align="left"}

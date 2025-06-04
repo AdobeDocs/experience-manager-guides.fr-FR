@@ -1,7 +1,8 @@
 ---
 title: Notes de mise à jour | Correction de problèmes dans la version 2025.06.0 d’Adobe Experience Manager Guides
 description: Découvrez les correctifs de bugs de la version 2025.06.0 d’Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 78d8896982ff73e954de6d6daa9832faf30ed3b3
+exl-id: 0f362ab3-0fae-4eba-bbd6-0b64ae1f2599
+source-git-commit: 83be0a1e051bfc524ff2448397d87349f30b4301
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 4%
@@ -18,7 +19,6 @@ Découvrez les [instructions de mise à niveau pour la version 2025.06.0](upgrad
 
 ## Création
 
-- Lors de l&#39;ouverture d&#39;un plan DITA avec Unified Shell activé, l&#39;éditeur s&#39;actualise par intermittence. (GUIDES-26919)
 - Si vous ne fermez pas les connexions de session JCR lors de la mise à jour ou de la création de rubriques, des fuites de mémoire et des temps d’arrêt du service surviennent. (GUIDES-26282)
 - Faire glisser les colonnes modifie leur largeur de pourcentage en valeurs en pixels, ce qui entraîne des distorsions ou des incohérences dans les tableaux.(GUIDES-23128)
 - Lorsque du contenu est collé dans une `code block` ou lorsque des espaces sont ajoutés dans la `code block` et que la vue est changée, l’espacement est perdu. (GUIDES-27478)
@@ -47,6 +47,8 @@ Découvrez les [instructions de mise à niveau pour la version 2025.06.0](upgrad
 Adobe a identifié le problème connu suivant pour la version 2025.06.0 :
 
 - Lors de l’utilisation de l’option Rechercher et remplacer , après l’application de l’opération Remplacer une seule occurrence sur un fichier, aucune autre action ne peut être effectuée dans le panneau Rechercher et remplacer . (GUIDES-28930)
+
+- Lors de l&#39;ouverture d&#39;un plan DITA avec Unified Shell activé, l&#39;éditeur s&#39;actualise par intermittence. (GUIDES-26919)
 
 - Dans un profil de dossier, lorsqu’une ressource déjà indexée est supprimée de l’interface utilisateur, le chemin d’accès indexé correspondant n’est pas supprimé et une tentative de réindexation échoue avec un message d’erreur. (GUIDES-29147) <br>**Solution :** vous devez supprimer le chemin obsolète qui n’existe plus avant de lancer la réindexation.
 
