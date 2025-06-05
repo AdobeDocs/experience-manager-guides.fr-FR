@@ -2,9 +2,9 @@
 title: Notes de mise à jour | Correction de problèmes dans la version 2025.06.0 d’Adobe Experience Manager Guides
 description: Découvrez les correctifs de bugs de la version 2025.06.0 d’Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 0f362ab3-0fae-4eba-bbd6-0b64ae1f2599
-source-git-commit: 83be0a1e051bfc524ff2448397d87349f30b4301
+source-git-commit: c137f18d3cb85ed47547d5523c4dea08c22f9560
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '516'
 ht-degree: 4%
 
 ---
@@ -50,6 +50,6 @@ Adobe a identifié le problème connu suivant pour la version 2025.06.0 :
 
 - Lors de l&#39;ouverture d&#39;un plan DITA avec Unified Shell activé, l&#39;éditeur s&#39;actualise par intermittence. (GUIDES-26919)
 
-- Dans un profil de dossier, lorsqu’une ressource déjà indexée est supprimée de l’interface utilisateur, le chemin d’accès indexé correspondant n’est pas supprimé et une tentative de réindexation échoue avec un message d’erreur. (GUIDES-29147) <br>**Solution :** vous devez supprimer le chemin obsolète qui n’existe plus avant de lancer la réindexation.
+- Pour la configuration de l’IA sous le profil de dossier, lorsqu’une ressource déjà indexée est supprimée de l’interface utilisateur, le chemin d’accès indexé correspondant n’est pas supprimé et une tentative de réindexation échoue avec un message d’erreur. (GUIDES-29147) <br>**Solution :** vous devez supprimer le chemin obsolète qui n’existe plus avant de lancer la réindexation.
 
-- Si une carte contient des dépendances cycliques et que vous ouvrez l’aperçu de la carte, les vues Source, Auteur et Disposition deviennent inaccessibles jusqu’à ce que la page soit actualisée. (GUIDES-28334) <br>**Solution :** vous devez actualiser la page pour rétablir l’accès à ces vues.
+- Si une carte contient des dépendances cycliques et que vous ouvrez l’aperçu de la carte, les vues Source, Auteur et Disposition deviennent inaccessibles jusqu’à ce que le navigateur soit actualisé. (GUIDES-28334) <br>**Solution :** vous devez actualiser le navigateur pour restaurer l’accès à ces vues.
