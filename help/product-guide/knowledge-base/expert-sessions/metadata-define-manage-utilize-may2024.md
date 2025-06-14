@@ -45,7 +45,7 @@ Au cours de cette session, vous avez appris les éléments suivants :
 - [Gestion des métadonnées dans les ressources DITA](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/knowledge-base/kb-articles/authoring/reports/manage-metadata)
 - [Extraire les métadonnées DITA en tant que métadonnées](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/install-guide/cs-ig/aem-asset-search-cs/conf-dita-search#id192SF0G10YK)
 - [Utilisation de métadonnées dans la sortie DITA-OT](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/conf-output-generation#id191LF0U0TY4)
-- [Utilisation de métadonnées dans le PDF natif](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/web-editor/native-pdf-web-editor#native-pdf-publishing)
+- [Utilisation de métadonnées dans le PDF natif](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/user-guide/output-gen/web-editor/native-pdf-web-editor#native-pdf-publishing)
 
 
 ### Forum communautaire

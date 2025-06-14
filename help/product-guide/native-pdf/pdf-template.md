@@ -93,7 +93,7 @@ Sélectionnez cette option pour afficher le modèle dans l’interface utilisate
 
 Une fois que vous avez créé le modèle personnalisé, vous pouvez le choisir parmi les dispositions de page dans le paramètre prédéfini de sortie du PDF.
 
-Découvrez comment [publier une sortie de PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
+Découvrez comment [publier une sortie de PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=fr).
 
 >[!NOTE]
 >

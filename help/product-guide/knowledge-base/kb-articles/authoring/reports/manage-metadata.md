@@ -57,8 +57,8 @@ Vous pouvez également supprimer les balises existantes qui sont communes aux fi
 
 ## Autres ressources utiles
 
-- [Balisage en masse à l’aide du tableau de bord des cartes (interface utilisateur d’Assets)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
-- [Rapports Ditamap dans l’éditeur web](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
+- [Balisage en masse à l’aide du tableau de bord des cartes (interface utilisateur d’Assets)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=fr)
+- [Rapports Ditamap dans l’éditeur web](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=fr)
 - [Balisage dans AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=fr)
 
 

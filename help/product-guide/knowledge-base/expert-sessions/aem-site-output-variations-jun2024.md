@@ -40,9 +40,9 @@ Au cours de cette session, vous allez découvrir les informations suivantes :
 ## Ressources connexes
 
 
-- [AEM Publication de sortie de site](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save.)
+- [AEM Publication de sortie de site](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save.)
 
-- [Publication de sortie de base de connaissances](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
+- [Publication de sortie de base de connaissances](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
 
 - [AEM de modèles](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
 
