@@ -4,9 +4,9 @@ description: Découvrez comment créer et modifier des fichiers DIVATAL à l’a
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: a49234698e040c7441ea0f82265f4b7936a95dfc
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1501'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Les fichiers DITAVAL sont utilisés pour générer une sortie conditionnelle. Dans une seule rubrique, vous pouvez ajouter des conditions à l’aide d’attributs d’élément pour conditionner le contenu. Ensuite, vous créez un fichier DITAVAL dans lequel vous spécifiez les conditions qui doivent être sélectionnées pour générer du contenu et quelle condition doit être exclue de la sortie finale.
 
-Adobe Experience Manager Guides vous permet de créer et modifier facilement des fichiers DITAVAL à l&#39;aide de l&#39;éditeur DITAVAL. L’éditeur DITAVAL récupère les attributs \(ou balises\) définis dans votre système et vous pouvez les utiliser pour créer ou modifier des fichiers DITAVAL. Pour plus d’informations sur la création et la gestion des balises dans Adobe Experience Manager, consultez la section [Administration des balises](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=fr) de la documentation de Adobe Experience Manager.
+Adobe Experience Manager Guides vous permet de créer et modifier facilement des fichiers DITAVAL à l&#39;aide de l&#39;éditeur DITAVAL. L&#39;éditeur DITAVAL récupère les attributs (qui peuvent être utilisés comme conditions) définis dans votre système et vous pouvez les utiliser pour créer ou modifier des fichiers DITAVAL. Pour plus d’informations sur la création et la gestion des conditions dans Adobe Experience Manager, consultez la section [Administration des balises](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) de la documentation de Adobe Experience Manager.
 
 Les sections suivantes présentent les options disponibles pour un fichier DITAVAL dans Experience Manager Guides.
 
@@ -30,7 +30,7 @@ Pour créer un fichier DITAVAL, procédez comme suit :
 
 1. Dans le panneau Référentiel, sélectionnez l’icône **Nouveau fichier** puis sélectionnez **Rubrique** dans le menu déroulant.
 
-   ![](images/new-file-option.png){align="left"}
+   ![](images/new-file-option.png){width="300" align="left"}
 
    Vous pouvez également accéder à cette option à partir de la page d&#39;accueil [Experience Manager Guides](./intro-home-page.md) et du menu d&#39;options d&#39;un dossier dans la vue Référentiel.
 
@@ -55,37 +55,109 @@ La rubrique est créée au chemin d’accès spécifié. En outre, la rubrique e
 
 Lorsque vous créez une rubrique DITAVAL, elle s’ouvre dans l’éditeur pour être modifiée. Pour modifier une rubrique DITAVAL existante, accédez au dossier ou à la carte où se trouve la rubrique DITAVAL, puis sélectionnez **Modifier** dans le menu **Options**.
 
-L&#39;éditeur DITAVAL permet d&#39;effectuer les tâches suivantes :
+L&#39;éditeur DITAVAL vous permet d&#39;effectuer plusieurs tâches répertoriées ci-dessous à l&#39;aide des options de la barre d&#39;outils de l&#39;éditeur.
 
-- Activer/désactiver le panneau de gauche
+### Options de la barre d’outils de l’éditeur
 
-  Activez/désactivez la vue du panneau de gauche. Si vous avez ouvert le fichier DITAVAL via un plan DITA, le plan et le référentiel sont affichés dans ce panneau. Pour plus d&#39;informations sur l&#39;ouverture d&#39;un fichier via un plan DITA, consultez [Modifier les rubriques via un plan DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+#### Menu déroulant
 
-- enregistrez ;
+La liste déroulante Menu permet d’accéder aux actions de modification, Rechercher et remplacer, Historique des versions, Libellé de version, Fusionner, Créer une tâche de révision, Suivi des modifications et Balises.
+Pour plus d’informations, voir [Options de menu déroulant](./web-editor-toolbar.md#menu-dropdown)
 
-  Enregistre les modifications effectuées dans le fichier. Toutes vos modifications sont enregistrées dans la version actuelle de votre fichier.
+#### Ajouter une prop
 
-- Ajouter une prop
+Ajoutez une seule propriété dans votre fichier DITAVAL.
 
-  Ajoutez une seule propriété dans votre fichier DITAVAL.
+![](images/ditaval-editor-props-new.png){width="650" align="left"}
 
-  ![](images/ditaval-editor-props-new.png)
+La première liste déroulante répertorie les attributs DITA autorisés que vous pouvez utiliser dans le fichier DITAVAL.
 
-  La première liste déroulante répertorie les attributs DITA autorisés que vous pouvez utiliser dans le fichier DITAVAL. Cinq attributs sont pris en charge : `audience`, `platform`, `product`, `props` et `otherprops`.
+La deuxième liste déroulante affiche les valeurs configurées pour l’attribut sélectionné. Ensuite, la liste déroulante suivante affiche les actions que vous pouvez configurer sur l’attribut sélectionné. Les valeurs autorisées dans le menu déroulant de l’action sont les suivantes : `include`, `exclude`, `passthrough` et `flag`. Pour plus d&#39;informations sur ces valeurs, consultez la définition de l&#39;élément [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) dans la documentation OASIS DITA. Pour plus d’informations sur l’action des propriétés ajoutées dans les attributs, consultez [Actions de la propriété](#actions-for-property).
 
-  La deuxième liste déroulante affiche les valeurs configurées pour l’attribut sélectionné. Ensuite, la liste déroulante suivante affiche les actions que vous pouvez configurer sur l’attribut sélectionné. Les valeurs autorisées dans le menu déroulant de l’action sont les suivantes : `include`, `exclude`, `passthrough` et `flag`. Pour plus d&#39;informations sur ces valeurs, consultez la définition de l&#39;élément [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) dans la documentation OASIS DITA
+#### Ajouter une Rev Prop
 
-- Ajouter toutes les propriétés
+Pour ajouter un numéro de révision spécifique à une balise au format XML, vous pouvez utiliser l’option Ajouter une prop rev . Un attribut rev est ainsi ajouté à la balise, avec la valeur définie dans le champ Valeur ainsi que l’action sélectionnée pour la propriété. Cet attribut de révision peut être utilisé ultérieurement pour filtrer le contenu XML approprié en fonction du numéro de révision spécifié lors de la génération de la sortie.
 
-  Si vous souhaitez ajouter d’un seul clic toutes les propriétés ou tous les attributs conditionnels définis dans votre système, utilisez la fonction Ajouter toutes les propriétés .
+![](images/ditaval-rev-props.png){width="650" align="left"}
 
-  >[!NOTE]
-  >
-  > Si toutes les propriétés conditionnelles définies existent déjà dans le fichier DITAVAL, vous ne pouvez pas ajouter d’autres propriétés. Un message d’erreur s’affiche dans ce scénario.
+#### Ajouter toutes les props
 
-  ![](images/ditaval-all-props-new.png)
+Si vous souhaitez ajouter d’un seul clic toutes les propriétés ou tous les attributs conditionnels définis dans votre système, utilisez la fonction Ajouter toutes les props . Les valeurs autorisées dans le menu déroulant de l’action sont les suivantes : `include`, `exclude`, `passthrough` et `flag` . Les détails de ces actions sont mentionnés ci-dessous.
 
-Une fois le fichier DITAVAL modifié, sélectionnez **Enregistrer**.
+>[!NOTE]
+>
+> Si toutes les propriétés conditionnelles définies existent déjà dans le fichier DITAVAL, vous ne pouvez pas ajouter d’autres propriétés. Un message d’erreur s’affiche dans ce scénario.
+
+
+![](images/ditaval-all-props-new.png){width="650" align="left"}
+
+
+
+##### Actions pour la propriété
+
+Il existe principalement quatre actions disponibles pour une propriété donnée qui peuvent être utilisées. Elles sont répertoriées comme suit :
+
+**Inclure :** permet d’inclure le contenu dans la sortie. Il s’agit du comportement par défaut, sauf indication contraire.
+
+**Exclure :** permet d’exclure le contenu de la sortie (si toutes les valeurs de l’attribut particulier sont exclues).
+
+**Passthrough :** permet d’inclure le contenu dans la sortie et de conserver la valeur d’attribut dans le flux de sortie pour un traitement ultérieur par un moteur d’exécution, par exemple le filtrage d’exécution en fonction des paramètres utilisateur individuels.
+
+**Ajouter des indicateurs :** pour marquer le contenu dans la sortie, vous pouvez définir l’indicateur comme action pour l’attribut souhaité dans le fichier. Vous pouvez également appliquer différents styles d’indicateur à l’aide de la liste déroulante **Style d’indicateur**, comme illustré dans le fragment de code ci-dessous.
+
+
+![](images/ditaval-flag-style.png){width="650" align="left"}
+
+
+- **Couleur d’arrière-plan** : sélectionnez la teinte, la saturation et le contraste dans la couleur d’arrière-plan. La valeur HEX correspondante sera automatiquement mise à jour en fonction de votre sélection. Vous pouvez également changer le format de l’espace colorimétrique à l’aide de la liste déroulante pour choisir entre HEX, RGB et HSB.
+
+
+![](images/ditaval-background-color.png){width="650" align="left"}
+
+
+
+- **Couleur du texte** : sélectionnez la teinte, la saturation et le contraste de la couleur du texte. La valeur HEX correspondante sera automatiquement mise à jour en fonction de votre sélection. Vous pouvez également changer le format de l’espace colorimétrique à l’aide de la liste déroulante pour choisir entre HEX, RGB et HSB.
+
+
+![](images/ditaval-text-color.png){width="650" align="left"}
+
+
+
+- **Options de style** : vous pouvez ajouter certaines options de style, telles que Gras, Italique, Souligné, Surligné, Double soulignement.
+
+
+![](images/ditaval-styling-option.png){width="650" align="left"}
+
+
+
+- **Indicateurs de début et de fin** : vous pouvez insérer des images en tant qu’indicateurs de début et de fin à l’aide du bouton **Ajouter un indicateur**. Pour sélectionner des images, utilisez **Parcourir Assets** pour effectuer une sélection dans le référentiel Guides ou **Ajouter un fichier** pour les charger à partir de votre système local. De plus, vous pouvez spécifier un texte secondaire pour les images.
+
+
+![](images/ditaval-start-end-flags.png){width="650" align="left"}
+
+
+
+- **Conflit de style** : résout les conflits qui se produisent lorsqu’un seul élément contient plusieurs propriétés avec différents styles d’indicateur. Dans ce cas, la valeur définie dans les propriétés de conflit de style est sélectionnée, agissant efficacement comme sélecteur de valeur par défaut pour les couleurs d’arrière-plan et de texte.
+
+
+![](images/ditaval-style-conflict.png){width="650" align="left"}
+
+
+#### Informations sur la version et Enregistrer comme nouvelle version
+
+La fonctionnalité Informations sur la version et Enregistrer en tant que nouvelle version combine le suivi des versions et l’enregistrement du contenu dans une seule fonctionnalité.
+Pour plus d’informations, voir [Enregistrer en tant que nouvelle version](./web-editor-toolbar.md#version-information-and-save-as-new-version)
+
+
+#### Verrouiller/déverrouiller
+
+Verrouille ou déverrouille le fichier courant. Le verrouillage d’un fichier vous donne un accès exclusif en écriture au fichier.
+Pour plus d’informations, voir [Verrouiller et déverrouiller le fichier](./web-editor-toolbar.md#lockunlock)
+
+
+### Enregistrer le contenu
+
+Une fois le fichier DITAVAL modifié, sélectionnez **Enregistrer** dans la barre d&#39;onglets.
 
 >[!NOTE]
 >

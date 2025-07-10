@@ -4,9 +4,9 @@ description: Créez et configurez le paramètre prédéfini AEM Sites dans la co
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 8f2658bd3a724ff375d6d1a9b4474a5cdd8ce270
 workflow-type: tm+mt
-source-wordcount: '3533'
+source-wordcount: '3534'
 ht-degree: 0%
 
 ---
@@ -97,8 +97,8 @@ L&#39;onglet **Général** contient les options de paramétrage suivantes :
 | Options d’AEM Sites | Description |
 | --- | --- |
 | Utiliser le chemin du site | Utilisez cette option pour publier votre contenu sur un site Experience Manager. |
-| Chemin du site | **Cette option s’affiche si vous sélectionnez l’option** Utiliser le chemin du site **&#x200B;**. Parcourez le chemin d’accès prédéfini au site Experience Manager ou spécifiez un chemin d’accès personnalisé dans lequel vous souhaitez que la sortie soit publiée. L’option **Utiliser les sites** permet de spécifier le chemin de publication entier, même si le chemin spécifié n’a pas été précréé dans la structure AEM Sites. Dans ce cas, le système crée la structure nécessaire pendant le processus de publication en utilisant le modèle de page d’accueil de mappage sélectionné. |
-| Modèle de page de carte | **Cette option s’affiche si vous sélectionnez l’option** Utiliser le chemin du site **&#x200B;**. Sélectionnez le modèle à appliquer aux pages d&#39;accueil de carte. |
+| Chemin du site | **Cette option s’affiche si vous sélectionnez l’option** Utiliser le chemin du site ****. Parcourez le chemin d’accès prédéfini au site Experience Manager ou spécifiez un chemin d’accès personnalisé dans lequel vous souhaitez que la sortie soit publiée. L’option **Utiliser les sites** permet de spécifier le chemin de publication entier, même si le chemin spécifié n’a pas été précréé dans la structure AEM Sites. Dans ce cas, le système crée la structure nécessaire pendant le processus de publication en utilisant le modèle de page d’accueil de mappage sélectionné. |
+| Modèle de page de carte | **Cette option s’affiche si vous sélectionnez l’option** Utiliser le chemin du site ****. Sélectionnez le modèle à appliquer aux pages d&#39;accueil de carte. |
 | Site | Nom du Experience Manager Sites sur lequel vous souhaitez publier votre contenu. Les options de la liste déroulante sont renseignées en fonction de la liste des sites disponibles dans AEM Sites. <br>Sélectionnez **Actualiser** ![icône d’actualisation](images/navtitle-refresh-icon.svg) pour récupérer une nouvelle liste d’options et refléter les données mises à jour. |
 | Chemin de publication | Chemin d’accès dans votre référentiel AEM où la sortie est stockée. Le chemin de publication est renseigné avec tous les chemins qui contiennent les pages créées à partir du modèle Page d’accueil . La sortie AEM Sites du plan DITA est générée sous ce chemin d&#39;accès.  Par exemple, si vous spécifiez le site en tant que `AEMG-Docs` et le chemin de publication en tant que `aemg-docs-en/docs/product-abc.`, la sortie AEM Sites est générée sous le nœud `aemg-docs-en/docs/product-abc/` dans `crx/de`. |
 | Modèle de page de rubrique | Sélectionnez le modèle à appliquer à toutes les rubriques de sortie. |
@@ -131,7 +131,7 @@ L&#39;onglet **Liste des rubriques** affiche la liste des rubriques présentes d
 
 **Références de mappage croisé**
 
-Cette liste contient des rubriques contenant des références croisées avec `scope =”peer”`. Vous pouvez spécifier le contexte de publication d&#39;une liste de références croisées avec des `scope=”peer”` aux rubriques disponibles dans d&#39;autres plans DITA. Cet onglet s’affiche si vous utilisez la version Experience Manager Guides (UUID).
+Cette liste contient des rubriques contenant des références croisées avec `scope ="peer"`. Vous pouvez spécifier le contexte de publication d&#39;une liste de références croisées avec des `scope="peer"` aux rubriques disponibles dans d&#39;autres plans DITA. Cet onglet s’affiche si vous utilisez la version Experience Manager Guides (UUID).
 
 Pour plus d&#39;informations, reportez-vous à la section [Utilisation de rubriques connexes](#working-with-linked-topics) ci-dessous.
 
@@ -171,18 +171,20 @@ L&#39;onglet **Général** contient les options de paramétrage suivantes :
 
 **Contenu**
 
+![Nouveau ](images/aem-sites-content-tab.png){width="650" align="left"}
+
 L&#39;onglet **Contenu** contient les options de paramétrage suivantes :
 
 | Options d’AEM Sites | Description |
 | --- | --- |
-| Utiliser niveau de référence | Si vous avez créé une ligne de base pour le plan DITA sélectionné, sélectionnez cette option pour spécifier la version que vous souhaitez publier.<br><br>Affichage [Utilisation de la ligne de base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) pour plus d’informations. |
+| Utiliser niveau de référence | Si vous avez créé une ligne de base pour le plan DITA sélectionné, sélectionnez cette option pour spécifier la version que vous souhaitez publier.<br><br>Affichage [Utilisation de la ligne de base](./web-editor-baseline.md) pour plus d’informations. |
 | Filtrage conditionnel | Sélectionnez l’une des options suivantes :<br><br>**Aucune** : sélectionnez cette option si vous ne souhaitez appliquer aucune condition sur la sortie publiée.<br>**Utilisation de DITAVAL** : Sélectionnez le ou les fichiers DITAVAL pour générer du contenu conditionné. Vous pouvez sélectionner plusieurs fichiers DITAVal à l’aide de la boîte de dialogue de navigation ou en saisissant le chemin du fichier. Utilisez la croix près du nom du fichier pour le supprimer. Les fichiers DITAVal sont évalués dans l&#39;ordre spécifié. De ce fait, les conditions spécifiées dans le premier fichier sont prioritaires sur les conditions correspondantes spécifiées dans les fichiers ultérieurs. Vous pouvez conserver l’ordre des fichiers en ajoutant ou en supprimant des fichiers. Si le fichier DITAVal est déplacé vers un autre emplacement ou est supprimé, il n&#39;est pas automatiquement supprimé du tableau de bord de mappage. Vous devez mettre à jour l’emplacement au cas où les fichiers seraient déplacés ou supprimés. Vous pouvez pointer sur le nom du fichier pour afficher le chemin d’accès dans le référentiel AEM où le fichier est stocké. Vous ne pouvez sélectionner que les fichiers DITAVal et une erreur s&#39;affiche si vous sélectionnez un autre type de fichier.<br>**Paramètre prédéfini de condition** : sélectionnez un paramètre prédéfini de condition dans la liste déroulante pour appliquer une condition lors de la publication de la sortie. Cette option est visible si vous avez ajouté une condition pour le fichier de plan DITA. Les paramètres conditionnels sont disponibles dans l&#39;onglet Paramètres prédéfinis de condition de la console Plan DITA. Pour en savoir plus sur les paramètres prédéfinis de condition, consultez [Utilisation des paramètres prédéfinis de condition](generate-output-use-condition-presets.md#id1825FL004PN). |
 | Métadonnées <br> Propriétés <br>Fichier (Assets) | Sélectionnez les propriétés à traiter en tant que métadonnées. Ces propriétés sont définies à partir de la page Propriétés du fichier DITA map ou bookmap. Les propriétés que vous sélectionnez dans la liste déroulante s’affichent sous le champ **Propriétés du fichier**. Sélectionnez l’icône croisée en regard de la propriété pour la supprimer. <br><br>**Remarque** : les propriétés de métadonnées sont sensibles à la casse.<br><br>*Si vous avez sélectionné une ligne de base, les valeurs des propriétés sont basées sur la version de la ligne de base sélectionnée.<br>* Si vous n&#39;avez pas sélectionné de ligne de base, les valeurs des propriétés sont basées sur la dernière version.<br><br>Vous pouvez également transmettre les métadonnées à la sortie à l’aide de la publication DITA-OT. Pour plus de détails, [Transmettez les métadonnées à la sortie à l’aide de DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Remarque** : si vous n&#39;avez pas défini le `cq:tags` dans l&#39;option Propriétés, les valeurs de `cq:tags` sont sélectionnées à partir de la copie de travail en cours, même si vous avez sélectionné une ligne de base pour la publication. |
 | Métadonnées <br> <br>Utilisation des propriétés de mappage comme solution de secours | Si cette option est sélectionnée, les propriétés définies pour le fichier de mappage sont également copiées dans les rubriques où ces propriétés ne sont pas définies. Tenez compte des points suivants lors de l’utilisation de cette option :<br><br>*seules les propriétés de type Chaîne, Date ou Long (à une et plusieurs valeurs) peuvent être transmises aux pages du site AEM.<br>* Les valeurs de métadonnées d’une propriété de type Chaîne ne prennent pas en charge les caractères spéciaux (`@, #, " "`, par exemple).<br>* Cette option doit être utilisée avec l’option `Properties`. |
 
 **Références de mappage croisé**
 
-Cette liste contient des rubriques contenant des références croisées avec `scope =”peer”`. Vous pouvez spécifier le contexte de publication d&#39;une liste de références croisées avec des `scope=”peer”` aux rubriques disponibles dans d&#39;autres plans DITA. Cet onglet s’affiche si vous utilisez la version Experience Manager Guides (UUID).
+Cette liste contient des rubriques contenant des références croisées avec `scope ="peer"`. Vous pouvez spécifier le contexte de publication d&#39;une liste de références croisées avec des `scope="peer"` aux rubriques disponibles dans d&#39;autres plans DITA. Cet onglet s’affiche si vous utilisez la version Experience Manager Guides (UUID).
 
 Pour plus d&#39;informations, reportez-vous à la section [Utilisation de rubriques connexes](#working-with-linked-topics) ci-dessous.
 
@@ -208,7 +210,7 @@ Pour spécifier le contexte de publication des fichiers liés, procédez comme s
 
    >[!NOTE]
    >
-   >L’onglet **Références de mappage croisé** affiche les rubriques liées à l’aide de l’`scope=”peer”` uniquement. Pour les liens avec `scope=”local”`, il n’est pas nécessaire de spécifier le contexte de publication.
+   >L’onglet **Références de mappage croisé** affiche les rubriques liées à l’aide de l’`scope="peer"` uniquement. Pour les liens avec `scope="local"`, il n’est pas nécessaire de spécifier le contexte de publication.
 
    Toutes les rubriques liées ont leur dernier paramètre prédéfini de sortie et leur dernier mappage sélectionnés par défaut. Par défaut, le contexte de publication de toutes les rubriques liées est défini sur `<Most recently generated>` mappage .
 
@@ -222,7 +224,7 @@ La sélection d’un fichier de mappage affiche l’UUID du mappage dans la colo
 
 1. Si la même rubrique est référencée plusieurs fois dans un fichier, vous pouvez ajouter un contexte de publication différent pour chaque instance. Vous bénéficiez ainsi d’une plus grande flexibilité et d’un meilleur contrôle sur leur contenu. Par exemple, la rubrique 3 est présente à la fois dans la carte B et dans la carte C. La rubrique 1 contient deux références à la rubrique 3. Vous pouvez choisir Mappage B comme mappage parent pour le premier lien et Mappage C comme parent pour le deuxième lien.
 
-1. Dans la liste déroulante Paramètre prédéfini de la carte parente , sélectionnez le paramètre prédéfini de sortie avec lequel vous souhaitez lier la sortie de la carte actuelle.
+1. Dans la liste déroulante Paramètre prédéfini du mappage parent , sélectionnez le paramètre prédéfini de sortie avec lequel vous souhaitez lier la sortie du mappage actuel.
    >[!NOTE]
    >
    > Les différents paramètres prédéfinis AEM Sites de la carte actuelle apparaissent dans la liste déroulante. Si vous ne sélectionnez pas de paramètre prédéfini, une icône d’avertissement s’affiche et la génération de la sortie échoue.

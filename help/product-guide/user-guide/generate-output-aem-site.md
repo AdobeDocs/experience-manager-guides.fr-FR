@@ -4,9 +4,9 @@ description: Découvrez comment fonctionne la génération de sortie incrémenti
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 05d3246bd8b1e1b1d870b494aa09f6acff8a0f1d
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,7 @@ Si votre mappage est segmenté et que vous avez mis à jour une seule rubrique d
 
 Effectuez les étapes suivantes pour régénérer la sortie d’une rubrique spécifique ou d’un groupe de rubriques :
 
->[!IMPORTANT]
->
-> Lorsque vous régénérez la sortie AEM Sites, elle est créée à l’aide de la version actuelle des fichiers et non de la ligne de base jointe.
-
-## Générer une sortie incrémentielle à partir de la console Map
+## Générer une sortie incrémentielle à partir de la console Map (pour les sites AEM utilisant le mappage des composants composites)
 
 Effectuez les étapes suivantes pour générer une sortie incrémentielle pour AEM Sites à l’aide de la console Map :
 
@@ -36,17 +32,24 @@ Effectuez les étapes suivantes pour générer une sortie incrémentielle pour A
 1. Sélectionnez le paramètre prédéfini AEM Sites pour lequel vous souhaitez générer une sortie incrémentielle.
 1. Dans l’onglet **Rubriques**, sélectionnez les rubriques que vous souhaitez publier.
 
-   ![liste de rubriques aem sites](images/aem-presets-topic-list.png) {align="left"}
+   - Sans ligne de base
+
+     ![liste de rubriques aem sites](images/aem-presets-topic-list.png) {align="left"}
+
+   - Avec la ligne de base
+
+     ![liste de rubriques aem sites avec ligne de base](images/aem-presets-topic-list-new.png) {align="left"}
 
    >[!NOTE]
    >
    > Lorsqu&#39;une ligne de base est sélectionnée dans l&#39;onglet **Contenu**, la liste des rubriques affiche les rubriques et leurs versions à partir de la ligne de base jointe<br><br>
    > La publication incrémentielle à partir de la liste Rubriques ne doit être utilisée que lorsqu’il n’y a aucune modification de la structure du mappage. Si la structure de la carte/table des matières est modifiée, la carte entière doit être publiée une seule fois pour mettre à jour la table des matières.
+
 1. Sélectionnez **Enregistrer** pour enregistrer les modifications.
 1. Sélectionnez **Générer la sortie** pour générer la sortie.
 
 
-## Générer une sortie incrémentielle à partir du tableau de bord de mappage
+## Générer une sortie incrémentielle à partir du tableau de bord des cartes (pour les sites AEM utilisant le mappage des composants hérités)
 
 Effectuez les étapes suivantes pour générer une sortie incrémentielle pour AEM Sites à l’aide du tableau de bord de mappage :
 
@@ -71,6 +74,9 @@ Effectuez les étapes suivantes pour générer une sortie incrémentielle pour A
    La page **Régénérer les rubriques sélectionnées** s&#39;affiche.
 
 1. Sélectionnez le paramètre prédéfini de sortie à utiliser pour générer de nouveau les rubriques sélectionnées.
+
+   Pour le paramètre prédéfini de sortie AEM Sites utilisant le mappage des composants hérités, si une ligne de base est sélectionnée, les versions de rubrique incluses dans la ligne de base sélectionnée sont utilisées pour la génération de la sortie. En outre, la publication incrémentielle à partir de la liste Rubriques ne doit être utilisée que lorsqu’il n’y a aucune modification à la structure de la carte. Si la structure de la carte/table des matières est modifiée, la carte entière doit être publiée une seule fois pour mettre à jour la table des matières. Pour plus d’informations sur l’utilisation des paramètres prédéfinis de site AEM, consultez [Paramètres prédéfinis AEM Sites dans le tableau de bord des cartes](./generate-output-aem-site-map-dashboard.md).
+
 
 1. Sélectionnez **Régénérer** pour lancer le processus de génération de sortie.
 
