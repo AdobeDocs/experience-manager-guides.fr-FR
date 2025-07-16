@@ -3,7 +3,8 @@ title: Gérer un cours sur le contenu d’apprentissage et de formation
 description: Découvrez les différentes fonctionnalités de Experience Manager Guides qui vous permettent de gérer efficacement vos cours.
 feature: Authoring
 role: User
-source-git-commit: 5f42540a32da6e85a5c8aa0831582ce871c9088a
+exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
+source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -26,7 +27,7 @@ Pour ajouter du contenu à votre cours, procédez comme suit :
    - **Résumé d’apprentissage** : révision rapide à la fin d’un chapitre du cours qui rappelle aux élèves les points clés qu’ils viennent d’apprendre.
    - **Quiz** : ensemble de questions utilisées pour vérifier si une personne comprend bien ce qu’elle a appris. Pour plus d’informations, consultez [Créer et gérer un quiz](./create-quiz.md).
    - **Banque de questions** : pool partagé de questions réutilisables pouvant être utilisées pour créer des quiz de manière rapide et cohérente. Pour plus de détails, voir [Banque de questions](./create-qb.md).
-   - **Groupe d’apprentissage** : un groupe d’apprentissage permet d’organiser les contenus d’apprentissage associés, tels que les chapitres, les sujets et les autres modules, dans un ordre logique, en établissant une hiérarchie claire qui facilite la gestion et la réutilisation des supports de formation.
+   - **Groupe d’apprentissage** : un groupe d’apprentissage permet d’organiser les contenus d’apprentissage associés, tels que les chapitres, les sujets et les autres modules, dans un ordre logique, ce qui crée une hiérarchie claire qui facilite la gestion et la réutilisation des supports de formation.
 3. Sélectionnez **Créer**.
 Le contenu sélectionné est créé et ajouté au cours.
 
@@ -36,24 +37,24 @@ Vous pouvez ajouter du contenu existant de votre référentiel de contenu à vot
 
 1. Sélectionnez le menu **Options** > **Ajouter un existant**.
 2. Sélectionnez le type de contenu de cours que vous souhaitez créer.
-3. Dans la boîte de dialogue Sélectionner le chemin d’accès , accédez à l’emplacement du contenu et sélectionnez le contenu d’apprentissage souhaité.
+3. Dans la boîte de dialogue **Sélectionner le chemin d’accès**, accédez à l’emplacement du contenu et sélectionnez le contenu d’apprentissage souhaité.
 
    ![](assets/add-existing-learning-content.png)
 4. Choisissez **Sélectionner**.
 
-Le contenu de formation sélectionné est ajouté au cours à partir du référentiel.
+Le contenu du cours sélectionné est ajouté au cours à partir du référentiel.
 
 ## Supprimer le contenu
 
 Vous pouvez supprimer n’importe quel sujet du cours en sélectionnant le menu **Options** correspondant à ce sujet spécifique, puis en sélectionnant **Supprimer** comme illustré ci-dessous.
 
-![](assets/remove-learning-content.png){width="350" align="left"}
+![](assets/remove-learning-content.png)
 
 ## Créer des versions de cours
 
 Vous pouvez contrôler le contrôle de version de votre cours en sélectionnant le menu **Options** > **Contrôle de version**.
 
-![](assets/course-versioning.png){width="650" align="left"}
+![](assets/course-versioning.png)
 
 Vous obtenez les options suivantes pour le contrôle de version d’un cours :
 
@@ -70,7 +71,3 @@ L’option **Afficher** détermine l’affichage des rubriques. Vous pouvez choi
 > Ces paramètres d’affichage s’appliquent uniquement au gestionnaire de cours et n’ont aucun impact sur la sortie publiée.
 
 ![](assets/course-display-settings.png)
-
-
-
-
