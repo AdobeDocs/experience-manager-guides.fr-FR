@@ -3,7 +3,7 @@ title: Exploration de l’interface et des conditions préalables
 description: Explorez l’interface et les conditions préalables lorsque vous utilisez le contenu d’apprentissage et de formation dans Adobe Experience Manager Guides.
 feature: Authoring
 role: User
-source-git-commit: 200aae4c5d05531da5413c80a1cf254d2c0f0ec3
+source-git-commit: eda6c57d80359b1c70266708dc444f4880e1bf6c
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -26,9 +26,9 @@ Pour accéder à l’interface utilisateur d’, procédez comme suit :
    - **Éditeur** : éditeur convivial qui vous permet de créer du contenu de cours dans Experience Manager Guides.
    - **Console de cartes** : elle vous fournit un espace de travail dédié pour gérer tous les aspects de la publication des cours.
 
-   Pour plus d’informations, consultez l’expérience de la page d’accueil d’Adobe Experience Manager Guides [&#128279;](../user-guide/intro-home-page.md).
+   Pour plus d’informations, consultez l’expérience de la page d’accueil d’Adobe Experience Manager Guides [](../user-guide/intro-home-page.md).
 
-   ![](assets/aem-navigation-switcher.png){width="300" align="left"}
+   ![](assets/aem-navigation-switcher.png){width="350" align="left"}
 
 ## Prérequis
 
