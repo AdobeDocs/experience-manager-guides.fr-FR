@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: cc57af80f2556a9be9a7cc610ae0efa50e0e086b
+source-git-commit: 200aae4c5d05531da5413c80a1cf254d2c0f0ec3
 workflow-type: tm+mt
-source-wordcount: '2283'
+source-wordcount: '2282'
 ht-degree: 9%
 
 ---
@@ -140,8 +140,8 @@ ht-degree: 9%
                - [Notes de mise à jour de la version 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notes de mise à jour 4.2](./release-info/release-notes-4-2.md)
          - [Notes de mise à jour 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notes de mise à jour d’4.0.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notes de mise à jour d’3.8.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - Notes de mise à jour d’[4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - Notes de mise à jour d’[3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guide de l’utilisateur (nouvelle interface utilisateur) {#user-guide}
    - Présentation {#about-aemg}
       - [À propos  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -285,10 +285,10 @@ ht-degree: 9%
    - Gérer le contenu de formation {#learning-training-content}
       - Guide de prise en main {#get-started}
          - Présentation {#intro-lc}
-            - [Présentation du contenu d’apprentissage et de formation](./learning-content/intro.md)
-            - [Accéder à l’interface du contenu d’apprentissage et de formation](./learning-content/access-lc-interface.md)
+            - [Présentation du contenu de formation](./learning-content/intro.md)
          - Configurer votre cours {#setup-course}
             - [Présentation du cours](./learning-content/course-overview.md)
+            - [Exploration de l’interface et des conditions préalables](./learning-content/access-lc-interface-preq.md)
             - [Créer votre premier cours](./learning-content/create-first-course.md)
             - [Comprendre les bases du gestionnaire de cours](./learning-content/course-manager-basics.md)
             - [Gérer votre cours](./learning-content/manage-course.md)
@@ -335,7 +335,7 @@ ht-degree: 9%
       - Résolution des problèmes {#troubleshooting}
          - [Timeout de session](./user-guide/session-timeout-prompt.md)
 - Guide de l’utilisateur (ancienne interface utilisateur) {#user-guide-old-ui}
-   - [Présentation d’AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Présentation d’AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation et configuration {#install-guide}
    - On-Premise {#on-prem-ig}
       - [Notions de base sur site](./install-guide/introduction.md)
