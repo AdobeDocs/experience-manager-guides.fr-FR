@@ -1,9 +1,10 @@
 ---
 title: Notes de mise à jour | Correction de problèmes dans la version 2025.07.0 d’Adobe Experience Manager Guides
 description: Découvrez les correctifs de la version 2025.07.0 d’Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: bf8b295444a1e21fc19bfbc04efaa20fe78f71bb
+exl-id: 0744e821-5aee-432b-a6c8-7ed6538935db
+source-git-commit: c4d3cdd2a0a98b7c9c937c66c5c3130bf4c5c164
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '527'
 ht-degree: 4%
 
 ---
@@ -50,6 +51,6 @@ Découvrez les [instructions de mise à niveau pour la version 2025.07.0](upgrad
 Adobe a identifié les problèmes connus suivants pour la version 2025.07.0 :
 
 - Lorsque vous travaillez avec des rubriques Markdown, un bouton **Référence de rubrique** s’affiche dans la barre d’outils de l’éditeur, mais il ne fonctionne pas. (GUIDES-31038)
-- Lorsque des dossiers dont les noms sont en majuscules sont chargés à l’aide de l’application de bureau Adobe Experience Manager, la casse n’est pas conservée et les noms apparaissent en minuscules dans l’éditeur. (GUIDES-30909)
+- Les noms de nœud de dossier ne s’affichent pas correctement à la place des titres de dossier dans l’éditeur. (GUIDES-30909)
 - Dans la boîte de dialogue **Fusionner**, la liste déroulante s’affiche incorrectement **Contenu principal** au lieu d’afficher les versions disponibles de la rubrique sélectionnée. (GUIDES-30820)
 - Lors de l&#39;ouverture d&#39;un plan DITA avec Unified Shell activé, l&#39;éditeur s&#39;actualise par intermittence.(GUIDES-26919)
