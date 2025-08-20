@@ -4,9 +4,9 @@ description: Générez la sortie d'un plan DITA à partir de la console de plans
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 358d38ca761661eaee7aeac2cc7d46c53105c543
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,15 @@ Vous pouvez consulter le statut actuel de la demande de génération de sortie d
 
 Vous pouvez également générer la sortie AEM Sites pour une ou plusieurs rubriques, ou l&#39;ensemble du plan DITA à partir de la console de mappage. Pour plus d’informations, consultez [Générer la sortie de la base de connaissances](web-editor-article-publishing.md#id218CK0U019I).
 
+## Fusion de différentes rubriques dans un plan DITA à l&#39;aide de l&#39;attribut `chunk`
+
+Un plan DITA peut inclure différents types de rubriques tels que des références, des concepts et des tâches. L’attribut `chunk=to-content` vous permet de fusionner ces rubriques pour générer une sortie d’une seule page sur AEM Sites. Toutefois, pour publier correctement la rubrique fusionnée, vérifiez que votre administrateur a configuré le catalogue XML approprié dans les profils DITA.
+
+Le système requiert un ID public avec le mot-clé `composite` dans le catalogue XML pour identifier et appliquer correctement la règle DTD appropriée.
+Cette configuration est incluse par défaut dans le catalogue XML standard. Cependant, si vous utilisez un catalogue XML personnalisé, assurez-vous que votre administrateur a ajouté cet ID public à la configuration. Sans cela, la rubrique fusionnée risque de ne pas être publiée correctement.
+
+Pour plus d&#39;informations sur l&#39;utilisation de l&#39;ID public et de l&#39;ID système dans vos DTD/XSD personnalisés, consultez [Intégration de la spécialisation DITA](../cs-install-guide/dita-ot-specialization.md#integrate-dita-specialization-id211mb0e00xa).
 
 
 
-**Rubrique parente :**&#x200B;[ Génération de sortie](generate-output.md)
+**Rubrique parente :**[ Génération de sortie](generate-output.md)

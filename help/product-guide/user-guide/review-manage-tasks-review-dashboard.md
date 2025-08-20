@@ -4,9 +4,9 @@ description: Gérez les tâches de révision à partir du tableau de bord de ré
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
+source-git-commit: 19e521ed790a7ac25afab88e8878250f943d9bff
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,10 @@ Pour accéder au tableau de bord de révision et l’utiliser, procédez comme s
    Un panneau Projet avec des mosaïques de tâches s’affiche.
 
    ![](images/review-management.png){align="left"}
+
+   >[!NOTE]
+   >
+   > Vous pouvez également accéder directement au tableau de bord du projet à partir du panneau de gauche de l’éditeur. Ouvrez le [Panneau de révision](./web-editor-left-panel.md#review) et utilisez l’icône **Ouvrir le tableau de bord du projet** placée en regard de chaque projet de révision répertorié dans le panneau de révision.
 
 1. Sélectionnez les trois points de la mosaïque **Révisions**.
 
@@ -126,4 +130,4 @@ Le rapport de statut de la tâche de révision contient les détails suivants :
 - Nombre total de commentaires sur tous les sujets. Si plusieurs sujets sont en cours de révision, le nombre de commentaires pour chaque sujet est mentionné \(entre parenthèses\) en regard du nom du sujet.
 - Date du dernier accès à une rubrique par le réviseur ou la réviseuse.
 
-**Rubrique parente :**&#x200B;[ Présentation de la révision](review.md)
+**Rubrique parente :**[ Présentation de la révision](review.md)

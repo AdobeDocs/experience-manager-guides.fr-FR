@@ -4,21 +4,20 @@ description: Découvrez comment traiter les commentaires de révision en tant qu
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: f8320d0e0b5982d932c9df46f8ccf35d5f44dbac
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
 
 # Commentaires de révision d’adresse {#id2056B0X0KBI}
 
+En tant qu’auteur, vous pouvez ajouter des commentaires dans une rubrique à l’aide de l’éditeur. Les commentaires sont chargés en fonction de la tâche de révision sélectionnée dans le panneau de révision. Pour plus d’informations, consultez la description des fonctionnalités du panneau **Révision** ![](images/active-review-tasklist-icon.svg) dans la section [Panneau de gauche](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
-En tant qu’auteur, vous pouvez ajouter des commentaires dans une rubrique à l’aide de l’éditeur web. Les commentaires sont chargés en fonction de la tâche de révision sélectionnée dans le panneau de révision. Pour plus d’informations, consultez la description des fonctionnalités du panneau **Révision** ![](images/active-review-tasklist-icon.svg) dans la section [Panneau de gauche](../user-guide/web-editor-features.md#id2051EA0M0HS).
+Les sections suivantes décrivent les méthodes d’ajout de commentaires dans l’éditeur.
 
-Les sections suivantes décrivent les méthodes d’ajout de commentaires dans l’éditeur web.
-
-Un auteur peut adresser des commentaires dans un document à partir de l’éditeur web. Des indicateurs visuels sont fournis pour indiquer si les commentaires insérés \(text\), supprimés ou mis en surbrillance. En outre, le type de commentaire est mentionné en haut de chaque entrée de commentaire.
+Un auteur peut adresser des commentaires dans un document à partir de l’éditeur. Des indicateurs visuels sont fournis pour indiquer si les commentaires insérés \(text\), supprimés ou mis en surbrillance. En outre, le type de commentaire est mentionné en haut de chaque entrée de commentaire.
 
 >[!NOTE]
 >
@@ -26,7 +25,7 @@ Un auteur peut adresser des commentaires dans un document à partir de l’édit
 
 ![](images/comments-page-web-editor_cs-new.png){align="left"}
 
-En mode Éditeur web, le panneau de droite contient les icônes Révision et Suivi des modifications . Le panneau Révision affiche tous les commentaires formulés par les réviseurs dans votre document. Le panneau **Suivi des modifications** affiche le statut de tous les commentaires insérés et supprimés dans votre document.
+Dans l’éditeur, le panneau de droite contient les icônes Vérifier et Suivre les modifications . Le panneau Révision affiche tous les commentaires formulés par les réviseurs dans votre document. Le panneau **Suivi des modifications** affiche le statut de tous les commentaires insérés et supprimés dans votre document.
 
 - **A** : sélectionnez une tâche de révision pour afficher les commentaires de révision. Si votre rubrique a été partagée pour révision dans plusieurs tâches de révision, vous verrez ces tâches répertoriées dans cette liste déroulante.
 
@@ -42,7 +41,7 @@ En mode Éditeur web, le panneau de droite contient les icônes Révision et Sui
   >
   > Si la carte racine de votre tâche de révision est différente de la carte racine de création, elle affiche les informations s’y rapportant pour indiquer que la carte racine de création et la carte racine de révision ne correspondent pas.
 
-- **C** : si vous avez mis à jour votre rubrique après avoir lancé la révision, le fait de sélectionner l’icône Rétablir la rubrique en version de révision rétablit la version de travail de votre copie de travail qui a été partagée pour la révision. Il vous est ainsi plus facile d’incorporer les commentaires de révision directement dans la version qui a été partagée pour la révision. Après avoir incorporé les commentaires, vous pouvez enregistrer les modifications dans la version rétablie ou créer une nouvelle révision de votre rubrique. Si vous choisissez de créer une nouvelle révision de votre rubrique, une nouvelle branche est créée à partir de la version de rubrique qui a été partagée pour révision. Par exemple, si vous avez partagé la version `1.2` d’une rubrique pour révision alors que la version de création actuelle est `1.3`, vous pouvez utiliser cette icône pour revenir à la version `1.2` pour incorporer les commentaires de révision. Si vous choisissez de créer une révision après avoir incorporé des modifications dans la version `1.2`, une nouvelle branche avec la version `1.2.0` est créée pour la rubrique.
+- **C** : si vous avez mis à jour votre rubrique après avoir lancé la révision, le fait de sélectionner l’icône **Rétablir la rubrique en version de révision** rétablit la version de travail de votre copie de travail qui a été partagée pour la révision. Il vous est ainsi plus facile d’incorporer les commentaires de révision directement dans la version qui a été partagée pour la révision. Après avoir incorporé les commentaires, vous pouvez enregistrer les modifications dans la version rétablie ou créer une nouvelle révision de votre rubrique. Si vous choisissez de créer une nouvelle révision de votre rubrique, une nouvelle branche est créée à partir de la version de rubrique qui a été partagée pour révision. Par exemple, si vous avez partagé la version `1.2` d’une rubrique pour révision alors que la version de création actuelle est `1.3`, vous pouvez utiliser cette icône pour revenir à la version `1.2` pour incorporer les commentaires de révision. Si vous choisissez de créer une révision après avoir incorporé des modifications dans la version `1.2`, une nouvelle branche avec la version `1.2.0` est créée pour la rubrique.
 
   En règle générale, après avoir incorporé les commentaires de révision, vous souhaitez fusionner les modifications de la dernière version de la rubrique. Pour ce faire, utilisez la fonctionnalité [Fusion](web-editor-features.md#id205DF04E0HS) pour que toutes les mises à jour soient effectuées après le partage de la rubrique pour révision.
 
@@ -72,5 +71,23 @@ En mode Éditeur web, le panneau de droite contient les icônes Révision et Sui
 
 - **I** : appliquer un filtre sur les commentaires. Vous pouvez filtrer les commentaires selon le type de révision \(tous, mis en surbrillance, supprimé, inséré ou pense-bête\), le statut de révision \(tous, acceptés, rejetés ou aucun\), les réviseurs \(tous ou certains réviseurs\(s\)\) ou les versions de rubrique.
 
+**Répondre à un commentaire en identifiant d’autres utilisateurs**
 
-**Rubrique parente :**&#x200B;[ Présentation de la révision](review.md)
+En tant qu’auteur et initiateur de la tâche de révision, vous pouvez répondre aux commentaires de révision et baliser les autres utilisateurs impliqués dans la même tâche de révision pour diriger leur attention ou attribuer des suivis. Cette fonctionnalité est disponible uniquement pour les tâches de révision actives.
+
+>[!NOTE]
+>
+> Pour afficher la liste des utilisateurs affectés à une tâche de révision et les baliser dans un commentaire, vous devez disposer d’un accès en *lecture* sur les nœuds `/home/users and /home/groups`. Pour plus d’informations, consultez [Administration et sécurité des utilisateurs](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> Si le balisage n’est toujours pas disponible après avoir confirmé l’accès, votre administrateur peut avoir besoin d’attribuer une licence `user-admin` pour activer cette fonctionnalité.
+
+![](images/tag-users-review.png){width="350" align="left"}
+*Légende:Tag utilisateurs en tant qu’initiateur/auteur*
+
+Les utilisateurs identifiés reçoivent à la fois un e-mail et une notification AEM, pour être rapidement informés. Pour plus d’informations sur le déclenchement des notifications de révision, voir [Présentation des notifications de révision](./review-understanding-review-notifications.md).
+
+**Accéder aux commentaires de révision à l’aide de l’interface utilisateur de révision**
+
+Si vous êtes l’initiateur ou l’auteur d’une tâche de révision et que vous l’ouvrez à partir de la console **Projets**, la rubrique se lance dans l’interface utilisateur de révision. Comme cette tâche ne vous est pas affectée, vous pouvez afficher les commentaires et y répondre, mais vous ne pouvez effectuer aucune action de révision. La barre d’outils des commentaires reste désactivée pour les utilisateurs qui ne sont pas affectés à la tâche.
+
+![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
+
+**Rubrique parente :**[ Présentation de la révision](review.md)

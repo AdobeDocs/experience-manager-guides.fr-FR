@@ -4,10 +4,10 @@ description: Créez des documents Markdown à partir de l’éditeur. Découvrez
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 779be011c078fb3c2fae4fc6a92e3e2d734672b0
 workflow-type: tm+mt
-source-wordcount: '1254'
-ht-degree: 2%
+source-wordcount: '1197'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ Markdown est un langage de balisage léger qui peut vous aider à ajouter des é
 Pour créer une rubrique Markdown à partir de l’éditeur, procédez comme suit :
 
 1. Dans le panneau Référentiel, sélectionnez ![](images/Add_icon.svg), puis sélectionnez **Rubrique** dans la liste déroulante.
-1. Dans la boîte de dialogue **Nouvelle rubrique**, fournissez les détails suivants :
+2. Dans la boîte de dialogue **Nouvelle rubrique**, fournissez les détails suivants :
 
    ![](images/create-markdown-dialog.png){width="300" align="left"}
 
@@ -29,10 +29,10 @@ Pour créer une rubrique Markdown à partir de l’éditeur, procédez comme sui
    * **Modèle** : sélectionnez **Markdown** dans la liste déroulante. Le modèle **Rubrique** est sélectionné par défaut.
    * **Chemin** : recherchez le chemin d’accès où vous souhaitez enregistrer le fichier de rubrique. Par défaut, le chemin du dossier actuellement sélectionné dans le référentiel s’affiche dans le champ Chemin .
 
-   >
+   >[!NOTE]
    >
    > En cas de mise à niveau, vous devez ajouter le modèle Markdown dans le profil de dossier actuel utilisé. Vous pouvez [créer un modèle Markdown à partir de l’éditeur](./web-editor-features.md#templates) ou utiliser un modèle existant pour la création Markdown. Pour plus d’informations sur l’ajout de modèles de création dans Experience Manager Guides, consultez [Configuration de profils globaux ou au niveau du dossier](../cs-install-guide/conf-folder-level.md).
-1. Sélectionnez **Créer**.
+3. Sélectionnez **Créer**.
 
    La rubrique Markdown est créée au niveau du chemin d’accès sélectionné et est ouverte pour modification.
 
@@ -127,7 +127,7 @@ Ce mode divise l’éditeur en deux panneaux :
 
 Utilisez cette vue pour afficher la sortie rendue en temps réel lorsque vous modifiez des rubriques Markdown.
 
-**Aperçu**
+**Prévisualisation**
 
 L’ouverture d’une rubrique Markdown en mode Prévisualisation permet de voir comment une rubrique sera affichée lorsqu’elle est consultée par un utilisateur dans son navigateur. Dans cette vue, toutes les fonctions de modification sont supprimées de la barre d’outils. Cependant, vous pouvez toujours accéder aux fonctions **Enregistrer en tant que nouvelles versions**, **Verrouiller/déverrouiller** de la barre d’outils, ainsi qu’à la fonction **Propriétés du fichier** dans le panneau de droite.
 
@@ -158,7 +158,7 @@ La section Références vous donne accès aux fonctionnalités suivantes :
 * **Utilisé dans** : le champ Utilisé dans les références répertorie les documents dans lesquels le fichier actuel est référencé ou utilisé.
 * **Liens sortants** : les liens sortants répertorient les documents auxquels il est fait référence dans le document actif.
 
->
+>[!NOTE]
 >
 > Toutes les références de liens utilisés dans et sortants renvoient vers les documents sous forme d’un lien hypertexte. Vous pouvez facilement ouvrir et modifier les documents liés.
 
@@ -170,12 +170,9 @@ Les fonctionnalités Experience Manager Guides suivantes ne s’appliquent actue
 2. Fusionner
 3. Assistant IA
 4. Suivi des modifications
-5. Rechercher et remplacer
-6. Rechercher et filtrer
-
->[!NOTE]
->
-> La fonction **Rechercher et remplacer** ne traite pas les fichiers Markdown au niveau du référentiel. Cela inclut la recherche d’un fichier Markdown dans un mappage ou un dossier. Cependant, elle peut toujours être utilisée dans l’éditeur Markdown. En outre, les options **Rechercher** et **Filtrer** de la vue Référentiel ne traitent pas les fichiers Markdown.
 
 
-**Rubrique parente :**&#x200B;[ Présentation de l’éditeur](web-editor.md)
+
+
+
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

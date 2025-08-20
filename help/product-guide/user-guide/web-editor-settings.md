@@ -4,9 +4,9 @@ description: Découvrez les différents paramètres disponibles dans l’interfa
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: fad2874f-dab5-4538-8502-f7112c51d941
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: 84cc3db0e14217a7ba92143cb63b94329d5c26e1
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '2112'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,34 @@ L’option **Paramètres** présente dans la barre d’onglets [Tabulation](./we
 
 ## Général
 
-Les paramètres Général vous permettent de configurer le dictionnaire à utiliser avec l’éditeur. Cet onglet contient quatre sections : **Vérification orthographique**, **Condition**, **Création** et **Citations** .
+Les paramètres Général vous permettent de configurer les paramètres pour utiliser l’éditeur. Cet onglet contient cinq sections : **Assistant IA**, **Création**, **Citations**, **Condition** et **Vérification orthographique**.
 
-![](images/editor-setting-general.png){width="650" align="left"}
+![](images/editor-setting-general-new.png){width="350" align="left"}
 
-- **Vérification orthographique** : il existe deux options : **Vérification orthographique AEM** et **Vérification orthographique du navigateur**. Par défaut, l’éditeur utilise la fonction de vérification orthographique du navigateur , où la vérification orthographique est effectuée à l’aide du dictionnaire intégré du navigateur. Vous pouvez passer à la vérification orthographique d’AEM pour utiliser le dictionnaire Adobe Experience Manager, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section [ Personnaliser le dictionnaire par défaut d’AEM ](../cs-install-guide/customize-aem-custom-dictionary.md) dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
+- **Assistant IA**
+Sélectionnez cette option pour activer la fonctionnalité [Assistant IA](./ai-assistant.md) dans Experience Manager Guides. Désélectionnez cette option pour désactiver la fonction.
+
+  Après avoir activé le bouton (bascule) **Assistant IA**, vous pouvez configurer les options qui s’affichent sous l’onglet **Création** pour les auteurs à l’aide du menu **Actions rapides de création** comme illustré ci-dessous.\
+  Ces modifications s’appliquent au profil de dossier spécifique que vous utilisez. Si vous créez un profil de dossier, il héritera des paramètres d’éditeur définis dans le profil de dossier **global** par défaut. Vous pouvez modifier ces paramètres selon vos besoins à l’aide des **paramètres de l’éditeur** et enregistrer la configuration mise à jour.\
+  Pour obtenir un aperçu détaillé des options disponibles pour la création à l’aide de l’assistant AI, consultez la page [Créer des documents de manière intelligente avec l’assistant AI](./ai-assistant-right-panel.md).
+
+  Le menu **Création d’actions rapides** vous permet d’effectuer les opérations suivantes :
+
+   - utilisez les boutons (bascules) pour activer ou désactiver des options spécifiques auxquelles les auteurs peuvent accéder lorsqu’ils utilisent l’assistant AI.
+
+   - modifiez l’ordre dans lequel les options s’affichent, faites-les glisser et déposez-les selon vos besoins.
+
+  ![](images/authoring-quick-actions.png){width="350" align="left"}
+
+
+
+- **Création**
+
+   - **Activer tout remplacer** : sélectionnez cette option pour afficher l’icône **Tout remplacer** dans le panneau **Rechercher et remplacer**.
+
+- **Citations**
+
+  Modifier le style des citations. Choisissez le style de citation dans la liste déroulante que vous souhaitez utiliser dans votre projet. Pour plus d’informations, voir [Modifier les styles de citation](./web-editor-apply-citations.md#change-citation-style).
 
 - **Condition**
 
@@ -51,16 +74,8 @@ Les paramètres Général vous permettent de configurer le dictionnaire à utili
 
    - **Afficher le schéma d’objet dans le panneau Conditions** : sélectionnez cette option pour afficher un schéma d’objet dans le panneau Conditions. Si vous désélectionnez cette option, les conditions définies s’affichent dans le panneau Conditions .
 
-- **Création**
-
-   - **Activer tout remplacer** : sélectionnez cette option pour afficher l’icône **Tout remplacer** dans le panneau **Rechercher et remplacer**.
-
-- **Citations**
-
-  Modifier le style des citations. Choisissez le style de citation dans la liste déroulante que vous souhaitez utiliser dans votre projet. Pour plus d’informations, voir [Modifier les styles de citation](./web-editor-apply-citations.md#change-citation-style).
-
-- **Assistant IA**
-Sélectionnez cette option pour activer la fonctionnalité [Assistant IA](./ai-assistant.md) dans Experience Manager Guides. Désélectionnez cette option pour désactiver la fonction.
+- **Vérification orthographique**
+Il existe deux options : **Vérification orthographique AEM** et **Vérification orthographique du navigateur**. Par défaut, l’éditeur utilise la fonction de vérification orthographique du navigateur , où la vérification orthographique est effectuée à l’aide du dictionnaire intégré du navigateur. Vous pouvez passer à la vérification orthographique d’AEM pour utiliser le dictionnaire Adobe Experience Manager, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section [ Personnaliser le dictionnaire par défaut d’AEM ](../cs-install-guide/customize-aem-custom-dictionary.md) dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
 
 
 ## Panneaux
@@ -116,7 +131,7 @@ Contient les profils qui peuvent être utilisés pour publier la sortie **Base d
 
 **Conditions préalables**
 
-- Créez une application connectée pour Salesforce. Pour plus d’informations, voir [Activer les paramètres OAuth pour l’intégration de l’API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
+- Créez une application connectée pour Salesforce. Pour plus d’informations, voir [Activer les paramètres OAuth pour l’intégration de l’API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5).
 
 - Lors de la configuration de l’application connectée, assurez-vous des points suivants :
 
@@ -244,4 +259,4 @@ Une erreur s’affiche si le chemin d’accès aux métadonnées est vide. Si vo
 Vous pouvez également définir l’ordre d’affichage de ces balises de métadonnées. Pour modifier l’ordre par défaut de ces balises, sélectionnez les barres pointillées pour faire glisser et déposer les balises à l’emplacement souhaité.
 Les libellés de métadonnées apparaissent dans la même séquence dans la boîte de dialogue **Historique des versions** de l’éditeur.
 
-**Rubrique parente :**&#x200B;[ Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

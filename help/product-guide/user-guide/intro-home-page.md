@@ -4,9 +4,9 @@ description: Découvrez la page d’accueil d’Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 03f117381bda7d31b50085b83f309e24f9a75210
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1824'
 ht-degree: 0%
 
 ---
@@ -159,22 +159,22 @@ Les préférences utilisateur sont disponibles pour tous les auteurs. À l’aid
 
 - **Général** : l&#39;onglet Général permet de paramétrer les éléments suivants :
 
-  ![](images/user_preference_editor.PNG){align="left"}
+  ![](images/user_preference_editor-new.png){align="left"}
 
    - **Profil de dossier** : le profil de dossier contrôle diverses configurations liées aux attributs conditionnels, aux modèles de création, aux paramètres prédéfinis de sortie et aux configurations de l’éditeur. Le profil global s’affiche par défaut. En outre, si votre administrateur a configuré des profils de dossier dans le système, ces profils de dossier s’affichent également dans la liste Profils de dossier .
    - **Chemin d’accès de base** : par défaut, lorsque vous accédez au référentiel Experience Manager Guides à partir de l’éditeur, les ressources s’affichent à partir de l’emplacement /content/dam. Votre dossier de travail serait probablement constitué de quelques dossiers à l’intérieur du dossier /content/dam/. Vous pouvez définir le Chemin d’accès de base à votre dossier de travail, puis la vue du référentiel vous montre le contenu de cet emplacement au premier plan. Cela réduit le temps d’accès à votre dossier de travail. En outre, lorsque vous insérez un fichier de référence ou de média dans votre rubrique, l’emplacement de recherche de fichier commence par le dossier défini dans le chemin d’accès de base.
-      - **Sélectionner la carte racine** : sélectionnez un fichier de carte DITA pour résoudre les références clés ou les entrées du glossaire. La carte racine sélectionnée a la priorité la plus élevée pour résoudre les références clés. Pour plus d’informations, voir [Résoudre les références clés](./map-editor-other-features.md).
-      - **Nombre maximum de fichiers récents** : utilisez ce champ pour définir une limite maximale pour les fichiers qui s’affichent dans le widget Fichiers récents.
-      - **Définir le comportement d&#39;ouverture de mappage par défaut** : vous pouvez sélectionner un comportement par défaut que le système appliquera lors de l&#39;ouverture d&#39;un fichier de mappage DITA.
+   - **Sélectionner la carte racine** : sélectionnez un fichier de carte DITA pour résoudre les références clés ou les entrées du glossaire. La carte racine sélectionnée a la priorité la plus élevée pour résoudre les références clés. Pour plus d’informations, voir [Résoudre les références clés](./map-editor-other-features.md).
+   - **Nombre maximum de fichiers récents** : utilisez ce champ pour définir une limite maximale pour les fichiers qui s’affichent dans le widget Fichiers récents.
+   - **Préférences d&#39;ouverture pour les cartes** : vous pouvez sélectionner ici un comportement par défaut que le système appliquera lors de l&#39;ouverture d&#39;un fichier de carte DITA.
 
 - **Apparence** : l’onglet Apparence vous propose les options de sélection des thèmes de l’application et de la vue source de la zone d’édition du contenu. Utilisez cet onglet pour configurer les paramètres suivants :
 
-  ![](images/user_preference_editor_appearance.png){align="left"}
+  ![](images/user_preference_editor_appearance-new.png){align="left"}
 
-   - **Configuration de l’affichage des fichiers de l’éditeur** : sélectionnez la manière par défaut d’afficher les fichiers dans l’éditeur. Vous pouvez afficher la liste des fichiers en fonction des titres ou des noms de fichier à partir des différents panneaux dans la vue de création. Par défaut, les fichiers sont affichés par titre dans l’éditeur.
    - **Thème d’application et vue Source** : vous pouvez choisir parmi les thèmes Clair ou Sombre de l’application et de la vue source. Dans le cas du thème Clair , les barres d’outils et les panneaux utilisent un arrière-plan gris clair. Dans le cas du thème Sombre, les barres d’outils et les panneaux utilisent un arrière-plan noir. Sélectionnez **Utiliser l’appareil** le thème pour permettre à Experience Manager Guides de sélectionner les thèmes clairs et sombres en fonction du thème de votre appareil.
 
      Dans tous les thèmes, la zone de modification du contenu s’affiche en arrière-plan blanc en mode Création.
 
+   - **Configuration de l’affichage des fichiers de l’éditeur** : sélectionnez la manière par défaut d’afficher les fichiers dans l’éditeur. Vous pouvez afficher la liste des fichiers en fonction des titres ou des noms de fichier à partir des différents panneaux dans la vue de création. Par défaut, les fichiers sont affichés par titre dans l’éditeur.
+
    - **Toujours localiser les fichiers dans le référentiel** : sélectionnez cette option pour afficher l’emplacement d’un fichier dans le référentiel lors de sa modification dans l’éditeur.
-   - **Afficher l’indicateur d’espace insécable en mode création** : sélectionnez cette option pour afficher un indicateur pour les espaces insécables lors de leur modification dans l’éditeur. Elle est activée par défaut.

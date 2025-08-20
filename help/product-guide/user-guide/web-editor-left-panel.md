@@ -4,9 +4,9 @@ description: Découvrez le panneau de gauche dans l’éditeur. Découvrez l’i
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: 97e80f9115f84291a7190cf4c4cf25426b3a83bb
 workflow-type: tm+mt
-source-wordcount: '9323'
+source-wordcount: '9390'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Vous pouvez également effectuer de nombreuses actions à l’aide du menu Optio
 
 >[!NOTE]
 >
-> Vous pouvez également actualiser la liste à l’aide de l’icône Actualiser située en haut.
+> Vous pouvez actualiser la liste à l’aide de l’icône **Actualiser** située en haut. En outre, l’actualisation de la liste recharge les collections et, par conséquent, toutes les collections développées dans le panneau sont réduites.
 
 
 ## Référentiel
@@ -158,6 +158,10 @@ Vous disposez des options suivantes pour filtrer les fichiers et affiner votre r
   ![Filtre de recherche rapide](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *Utilisez les filtres rapides pour rechercher des fichiers DITA et non DITA.*
+
+>[!NOTE]
+>
+> Vous pouvez également utiliser le filtre **Rubrique DITA** pour rechercher du contenu spécifique aux fichiers Markdown dans le référentiel, y compris des titres, du contenu de rubrique et des propriétés. Actuellement, cette fonctionnalité s’applique uniquement aux fichiers Markdown nouvellement créés.
 
 **Filtrage avancé**
 
@@ -919,7 +923,7 @@ Effectuez les étapes suivantes pour modifier la valeur :
 
 Vous pouvez également appliquer des valeurs à un attribut en sélectionnant plusieurs valeurs dans la liste déroulante.
 
-Vue Source **&#x200B;**
+Vue Source ****
 
 Vous pouvez également modifier les valeurs à partir de la liste déroulante de l’attribut dans la vue Source. La vue Source vous empêche également d’ajouter une valeur incorrecte.
 
@@ -1006,7 +1010,7 @@ Experience Manager Guides vous permet de créer et de gérer des variables pour 
 
 ## Rechercher et remplacer
 
-L’icône Rechercher et remplacer se trouve au bas du panneau de gauche. Le panneau Rechercher et remplacer vous permet de rechercher et de remplacer du texte dans les fichiers d’un mappage ou d’un dossier de votre référentiel. Vous pouvez trouver et remplacer dans toutes les rubriques d&#39;une carte ainsi que les rubriques présentes dans les sous-cartes de la carte.
+L’icône Rechercher et remplacer se trouve au bas du panneau de gauche. Le panneau Rechercher et remplacer vous permet de rechercher et de remplacer du texte dans les fichiers d’un mappage ou d’un dossier de votre référentiel. Vous pouvez effectuer des opérations de recherche et de remplacement sur toutes les rubriques d&#39;un mappage, y compris les rubriques des sous-mappages et des fichiers Markdown.
 
 ![](images/map-find-replace.png){align="left"}
 
@@ -1054,7 +1058,7 @@ Pour effectuer la recherche globale et le remplacement, procédez comme suit :
 
 Pour activer l’icône **Tout remplacer**, votre administrateur système doit sélectionner l’option **Activer tout remplacer** sous l’onglet **Général** dans **Paramètres**.
 
-    >[ !REMARQUE]
+    >[!REMARQUE]
     >
     > Survolez un fichier de la liste des résultats de recherche pour afficher l’icône Tout remplacer dans le fichier située à droite. Vous obtenez également l’icône Ignorer le fichier pour supprimer le fichier des résultats de recherche. Les fichiers que vous ignorez sont supprimés de la liste et le terme recherché n’y est pas remplacé.
 
@@ -1094,6 +1098,10 @@ Pour afficher les commentaires de révision dans les tâches de révision active
 
    ![](images/web-editor-review-panel.png){width="300" align="left"}
 1. Sélectionnez un projet de révision, puis sélectionnez une tâche de révision dans la liste pour l’ouvrir.
+1. Vous pouvez sélectionner l’icône **Ouvrir le tableau de bord du projet** pour ouvrir le projet dans la console **Projets**.
+
+   ![](images/web-editor-project-dashboard.png){width="300" align="left"}
+
 1. Vous pouvez également filtrer vos projets des manières suivantes :
 
    - Saisissez le terme ou le texte à rechercher dans le titre du projet. Appuyez ensuite sur Entrée pour effectuer la recherche. Par exemple, vous pouvez rechercher tous les projets dont le titre contient le terme « espace ».
@@ -1122,4 +1130,4 @@ Pour afficher les commentaires de révision dans les tâches de révision active
 
 </details>
 
-**Rubrique parente :**&#x200B;[ Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

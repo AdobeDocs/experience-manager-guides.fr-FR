@@ -3,10 +3,10 @@ title: Notes de mise à jour | Nouveautés de la version Adobe Experience Manage
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 2025.06.0 d’Adobe Experience Manager Guides
 role: Leader
 exl-id: 48f27aa6-d870-4228-8e62-db81699a25f7
-source-git-commit: 158c2a99ac43fd70726bedf30f4de1a970a48864
+source-git-commit: d418ffb254b11430509609b91e0174690815cf73
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 3%
+source-wordcount: '409'
+ht-degree: 4%
 
 ---
 
@@ -17,14 +17,6 @@ Cet article présente les nouvelles fonctionnalités améliorées introduites da
 Pour connaître la liste des problèmes résolus dans cette version, voir la section [Problèmes résolus dans la version 2025.06.0](fixed-issues-2025-06-0.md).
 
 Découvrez les [instructions de mise à niveau pour la version 2025.06.0](../release-info/upgrade-instructions-2025-06-0.md).
-
-## Les fichiers temporaires pour la sortie publiée incluent désormais les URL de création et de publication dans un nouveau fichier de configuration
-
-Les dernières améliorations de publication apportées à Experience Manager Guides ajoutent désormais un nouveau fichier `system_config.json` aux fichiers temporaires générés lors de la publication des sorties HTML, PDF et JSON à l’aide de DITA-OT, ainsi que la sortie Native PDF. Ce fichier est automatiquement inclus dans la tâche de publication et également accessible par le biais de fichiers temporaires lorsque vous activez l’option **Conserver les fichiers temporaires** pour les paramètres prédéfinis et que vous générez la sortie.
-
-Le fichier `system_config.json` contient des détails clés sur l’instance, notamment l’URL de création, l’URL locale et l’URL de publication, qui fournissent un contexte plus clair et améliorent la traçabilité des URL téléchargées.
-
-Pour plus d’informations, consultez la section [Présentation des paramètres prédéfinis de sortie](../user-guide/generate-output-understand-presets.md).
 
 ## Invite de temporisation de session pour éviter la perte accidentelle de contenu
 

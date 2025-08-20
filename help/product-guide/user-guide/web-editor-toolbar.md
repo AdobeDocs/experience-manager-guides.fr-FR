@@ -4,9 +4,9 @@ description: Découvrez la barre d’outils dans l’éditeur. Découvrez l’in
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
+source-git-commit: 3dee9b2c90515ff7681770247f215996dc2c8325
 workflow-type: tm+mt
-source-wordcount: '5909'
+source-wordcount: '5962'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,15 @@ La barre d’outils s’affiche lorsque vous ouvrez une rubrique ou un mappage �
 
 ## Menu déroulant
 
-La liste déroulante Menu permet d’accéder aux actions de modification, Rechercher et remplacer, Historique des versions, Libellé de version, Fusionner, Créer une tâche de révision, Suivi des modifications et Balises.
+La liste déroulante Menu permet d’accéder aux actions de modification, Rechercher et remplacer, Historique des versions, Libellé de version, Fusionner, Créer une tâche de révision et Afficher le menu (qui inclut le Suivi des modifications, les Balises, un espace insécable).
 
-L’explication détaillée de ces fonctionnalités est la suivante :
+![Menu déroulant de la barre d’outils de l’éditeur](images/editor-toolbar-menu-dropdown-new.png){width="350" align="left"}
+
+Ces fonctionnalités sont expliquées en détail comme suit :
 
 **Modification des actions**
 
-Lorsque vous modifiez une rubrique dans l’éditeur, accédez aux différentes actions d’édition telles que **Couper** ou ***Ctrl***+***X*** , **Copier** ou ***Ctrl***+***C*** , **Undo** ou ***Ctrl***+***Z*** ou **Ctrl**+***Y*** et ***Delete*** **&#x200B;**&#x200B;présentes dans la liste déroulante Menu .
+Lorsque vous modifiez une rubrique dans l’éditeur, accédez aux différentes actions d’édition telles que **Couper** ou ***Ctrl***+***X*** , **Copier** ou ***Ctrl***+***C*** , **Undo** ou ***Ctrl***+***Z*** ou **Ctrl**+***Y*** et ***Delete*** **** présentes dans la liste déroulante Menu .
 
 
 **Rechercher et remplacer**
@@ -227,52 +229,52 @@ Pour fusionner les modifications dans un fichier de mappage, procédez comme sui
 
 Vous pouvez [créer une tâche de révision](./review-send-topics-for-review.md) de la rubrique active ou mapper le fichier directement à partir de l&#39;éditeur. Ouvrez le fichier pour lequel vous souhaitez créer la tâche de révision et sélectionnez **Créer une tâche de révision** dans la liste déroulante du menu pour lancer le processus de création de révision.
 
-**Suivi des modifications**
+**Afficher le menu**
 
-Vous pouvez conserver une trace de toutes les mises à jour apportées à un document en activant le mode Suivi des modifications . Une fois le suivi des modifications activé, toutes les insertions et suppressions sont capturées dans le document. Tout le contenu supprimé est mis en surbrillance avec des caractères barrés et toutes les insertions sont mises en surbrillance en vert. En outre, vous obtenez également les barres de modification à la périphérie de la page de rubrique. Une nouvelle fois, une barre rouge s’affiche pour le contenu supprimé et une barre verte pour le contenu ajouté. S’il y a un ajout et une suppression sur la même ligne, des barres vertes et rouges s’affichent.
+Le menu Afficher comprend les fonctionnalités suivantes :
 
+- **Suivi des modifications :** vous pouvez conserver une trace de toutes les mises à jour apportées à un document en activant le mode Suivi des modifications. Une fois le suivi des modifications activé, toutes les insertions et suppressions sont capturées dans le document. Tout le contenu supprimé est mis en surbrillance avec des caractères barrés et toutes les insertions sont mises en surbrillance en vert. En outre, vous obtenez également les barres de modification à la périphérie de la page de rubrique. Une nouvelle fois, une barre rouge s’affiche pour le contenu supprimé et une barre verte pour le contenu ajouté. S’il y a un ajout et une suppression sur la même ligne, des barres vertes et rouges s’affichent.
 La capture d’écran suivante met en surbrillance le contenu supprimé et inséré ainsi que les barres de modification :
+  ![](images/track-changes-content.png){width="650" align="left"}
 
-![](images/track-changes-content.png){width="650" align="left"}
+  Un cas d’utilisation type pour le suivi des modifications dans un document peut être la réalisation d’une révision par les pairs. Vous pouvez activer le suivi des modifications et partager votre document pour révision, puis le réviseur ou la réviseuse apporte des modifications avec le suivi des modifications ACTIVÉ. Lorsque vous recevez le document, vous devez disposer d’un mécanisme pour afficher les mises à jour suggérées, ainsi que d’un moyen pratique d’accepter ou de rejeter les modifications.
 
-Un cas d’utilisation type pour le suivi des modifications dans un document peut être la réalisation d’une révision par les pairs. Vous pouvez activer le suivi des modifications et partager votre document pour révision, puis le réviseur ou la réviseuse apporte des modifications avec le suivi des modifications ACTIVÉ. Lorsque vous recevez le document, vous devez disposer d’un mécanisme pour afficher les mises à jour suggérées, ainsi que d’un moyen pratique d’accepter ou de rejeter les modifications.
+  Experience Manager Guides propose la fonction Modifications suivies qui contient des informations sur les mises à jour effectuées dans le document. La fonction Modifications suivies fournit des informations sur les mises à jour effectuées, leur auteur et l’heure. Grâce à la fonction Modifications suivies, vous pouvez également accepter ou refuser facilement les mises à jour suggérées dans le document.
 
-Experience Manager Guides propose la fonction Modifications suivies qui contient des informations sur les mises à jour effectuées dans le document. La fonction Modifications suivies fournit des informations sur les mises à jour effectuées, leur auteur et l’heure. Grâce à la fonction Modifications suivies, vous pouvez également accepter ou refuser facilement les mises à jour suggérées dans le document.
+  Pour accéder à la fonctionnalité, sélectionnez l’icône **Suivi des modifications** dans le panneau de droite.
 
-Pour accéder à la fonctionnalité, sélectionnez l’icône **Suivi des modifications** dans le panneau de droite.
+  ![](images/changes-panel_cs.png){width="300" align="left"}
 
-![](images/changes-panel_cs.png){width="300" align="left"}
+  La sélection d’une modification suivie sélectionne le contenu modifié dans le document. Vous pouvez accepter une modification en sélectionnant l&#39;icône Accepter la modification ou la rejeter en sélectionnant Rejeter la modification.
 
-La sélection d’une modification suivie sélectionne le contenu modifié dans le document. Vous pouvez accepter une modification en sélectionnant l&#39;icône Accepter la modification ou la rejeter en sélectionnant Rejeter la modification.
+  Pour accepter ou rejeter toutes les modifications en un seul clic, sélectionnez **Accepter toutes les modifications** ou **Rejeter toutes les modifications**.
 
-Pour accepter ou rejeter toutes les modifications en un seul clic, sélectionnez **Accepter toutes les modifications** ou **Rejeter toutes les modifications**.
+  >[!NOTE]
+  >
+  > Le mode Aperçu vous permet d’afficher le document avec ou sans les balises du contenu modifié. Pour plus d’informations, consultez le mode [Aperçu](web-editor-views.md#preview-mode).
 
->[!NOTE]
->
-> Le mode Aperçu vous permet d’afficher le document avec ou sans les balises du contenu modifié. Pour plus d’informations, consultez le mode [Aperçu](web-editor-views.md#preview-mode).
+- **Balises :** la fonction **Balises** de l’éditeur est un bouton bascule qui contrôle la visibilité des éléments DITA. Lorsqu&#39;elle est activée, elle affiche des balises structurelles dans le contenu, ce qui vous permet d&#39;afficher et de gérer plus efficacement les éléments DITA sous-jacents. Lorsqu’il est désactivé, l’éditeur masque ces balises, offrant ainsi un environnement de création plus propre et plus ciblé.
 
-**Balises**
+  La capture d’écran suivante présente un document dans lequel la vue Balises est activée :
 
-La fonction **Balises** de l&#39;éditeur est un bouton bascule qui contrôle la visibilité des éléments DITA. Lorsqu&#39;elle est activée, elle affiche des balises structurelles dans le contenu, ce qui vous permet d&#39;afficher et de gérer plus efficacement les éléments DITA sous-jacents. Lorsqu’il est désactivé, l’éditeur masque ces balises, offrant ainsi un environnement de création plus propre et plus ciblé.
+  ![](images/tags-view.png){width="650" align="left"}
 
-La capture d’écran suivante présente un document dans lequel la vue Balises est activée :
+  Les opérations suivantes peuvent être effectuées dans un document avec des balises :
 
-![](images/tags-view.png){width="650" align="left"}
+   - **Sélectionner un élément** : sélectionnez la balise d’ouverture ou de fermeture d’un élément pour sélectionner son contenu.
 
-Les opérations suivantes peuvent être effectuées dans un document avec des balises :
+   - **Développer ou réduire des balises** : sélectionnez la balise + ou - pour la développer ou la réduire.
 
-- **Sélectionner un élément** : sélectionnez la balise d’ouverture ou de fermeture d’un élément pour sélectionner son contenu.
+   - **Utiliser le menu contextuel** : le menu contextuel propose des options permettant de couper, copier ou coller l’élément sélectionné. Vous pouvez également insérer un élément avant ou après l’élément sélectionné. Les autres options vous permettent de Générer un identifiant ou d’ouvrir le panneau Propriétés pour l’élément sélectionné.
 
-- **Développer ou réduire des balises** : sélectionnez la balise + ou - pour la développer ou la réduire.
-
-- **Utiliser le menu contextuel** : le menu contextuel propose des options permettant de couper, copier ou coller l’élément sélectionné. Vous pouvez également insérer un élément avant ou après l’élément sélectionné. Les autres options vous permettent de Générer un identifiant ou d’ouvrir le panneau Propriétés pour l’élément sélectionné.
-
-- **Glisser-déposer des éléments** : sélectionnez la balise d’un élément et glissez-déposez-la facilement dans votre document. Si l’emplacement de dépôt est un emplacement valide où l’élément est autorisé, l’élément est placé à l’emplacement déposé.
+   - **Glisser-déposer des éléments** : sélectionnez la balise d’un élément et glissez-déposez-la facilement dans votre document. Si l’emplacement de dépôt est un emplacement valide où l’élément est autorisé, l’élément est placé à l’emplacement déposé.
 
 
->[!NOTE]
->
-> Si un utilisateur ou une utilisatrice active la vue Balises à partir de l’éditeur, elle reste activée même entre les sessions. Cela signifie que vous n’avez pas besoin d’activer à nouveau la vue Balises pour y accéder ultérieurement. La valeur par défaut de la vue Balises pour la session d’un nouvel utilisateur est déterminée par la propriété `tagsView` dans le fichier `ui\_config.json`. Pour plus d’informations, consultez la section [Configurer la valeur par défaut de la vue Balises](../cs-install-guide/configure-default-value-tags-view.md) dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
+  >[!NOTE]
+  >
+  > Si un utilisateur ou une utilisatrice active la vue Balises à partir de l’éditeur, elle reste activée même entre les sessions. Cela signifie que vous n’avez pas besoin d’activer à nouveau la vue Balises pour y accéder ultérieurement. La valeur par défaut de la vue Balises pour la session d’un nouvel utilisateur est déterminée par la propriété `tagsView` dans le fichier `ui\_config.json`. Pour plus d’informations, consultez la section [Configurer la valeur par défaut de la vue Balises](../cs-install-guide/configure-default-value-tags-view.md) dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
+
+- **Espace insécable :** activez cette option pour afficher un indicateur pour les espaces insécables lors de leur modification dans l’éditeur. Il est visible uniquement dans la vue **Auteur** pour les plans DITA et de rubrique DITA.
 
 ## Options d&#39;insertion de contenu
 
@@ -621,4 +623,4 @@ Si un fichier est verrouillé par un autre utilisateur, le fait de pointer sur l
 En tant qu’administrateur, vous avez également accès à la fonctionnalité **Forcer le déverrouillage** qui vous permet de déverrouiller le fichier verrouillé par d’autres utilisateurs. Utilisez cette fonctionnalité pour accéder aux droits de modification d&#39;un fichier verrouillé par d&#39;autres utilisateurs.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Rubrique parente :**&#x200B;[ Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

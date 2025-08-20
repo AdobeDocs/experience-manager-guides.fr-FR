@@ -4,9 +4,9 @@ description: Découvrez comment passer en revue les rubriques et utiliser les fo
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: 9197cb757e3b883d81eee8a72c797b74cf06e570
+source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
 workflow-type: tm+mt
-source-wordcount: '2476'
+source-wordcount: '2655'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # Rubriques de révision {#id2056B0W0FBI}
 
 Si vous êtes réviseur, vous recevez un e-mail de demande de révision contenant un lien vers les rubriques de révision. Ce lien vous permet d’accéder à la page de révision dans laquelle vous pouvez ajouter vos commentaires sur les sujets partagés.
+
+>[!NOTE]
+>
+> Lors de l’accès à la demande de révision à partir de la notification, vous pouvez choisir de la réaffecter à un autre utilisateur qui fait partie du même projet de révision. Pour plus d’informations, consultez [Réaffecter une tâche de révision à l’aide d’une notification](./reassign-review-using-notification.md).
 
 Pour passer en revue une rubrique, procédez comme suit :
 
@@ -34,8 +38,6 @@ Pour passer en revue une rubrique, procédez comme suit :
    > - Adobe Experience Manager Guides as a Cloud Service version de novembre 2022 ou antérieure
    > - Adobe Experience Manager Guides version 4.1 ou antérieure
 
-
-
    L&#39;écran suivant s&#39;affiche lorsqu&#39;un plan DITA est utilisé pour lancer le processus de révision :
 
    ![](images/multiple-topics-review.png){align="left"}
@@ -54,7 +56,7 @@ Pour passer en revue une rubrique, procédez comme suit :
 
      >[!NOTE]
      >
-     > Lors de l’application des filtres, seuls les commentaires correspondant aux filtres sélectionnés s’affichent dans le panneau des commentaires. Le nombre de commentaires filtrés s’affiche à gauche dans le panneau des rubriques.
+     > Lors de l’application des filtres, seuls les commentaires correspondant aux filtres sélectionnés s’affichent dans le panneau Commentaires . Le nombre de commentaires filtrés s’affiche à gauche dans le panneau des rubriques.
 
    - **E** : Un sujet assigné pour révision au réviseur actuel est affiché en noir et peut être sélectionné. Lorsque le réviseur ou la réviseuse sélectionne une rubrique, celle-ci est affichée en haut de l’écran.
    - **F** : une rubrique qui n’est pas disponible pour révision est grisée. La rubrique s’affiche en mode lecture seule et vous n’êtes pas autorisé à ajouter des commentaires de révision sur ces rubriques.
@@ -162,6 +164,21 @@ La capture d’écran suivante montre le contenu en mode *Aperçu* :
 
 ![](images/review-preview-mode.png){width="550" align="left"}
 
+
+**Balisage des utilisateurs de la tâche dans un commentaire**
+
+Lorsque vous collaborez à une tâche de révision avec plusieurs réviseurs ou réviseuses, vous pouvez améliorer la communication en identifiant des utilisateurs ou utilisatrices spécifiques dans les nouveaux commentaires et réponses. En tant que réviseur ou réviseuse, vous pouvez ajouter un commentaire ou répondre à un commentaire existant tout en taguant d’autres utilisateurs et utilisatrices impliqués dans la même tâche de révision afin d’attirer leur attention ou d’attribuer des suivis. Cette fonctionnalité est disponible uniquement pour les tâches de révision actives.
+
+>[!NOTE]
+>
+> Pour afficher la liste des utilisateurs affectés à une tâche de révision et les baliser dans un commentaire, vous devez disposer d’un accès en *lecture* sur les nœuds `/home/users and /home/groups`. Pour plus d’informations, consultez [Administration et sécurité des utilisateurs](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> Si le balisage n’est toujours pas disponible après avoir confirmé l’accès, votre administrateur peut avoir besoin d’attribuer une licence `user-admin` pour activer cette fonctionnalité.
+
+![](images/tag-users-review-ui.png){width="350" align="left"}
+
+Les utilisateurs identifiés reçoivent à la fois un e-mail et une notification AEM, pour être rapidement informés. Pour plus d’informations sur le déclenchement des notifications de révision, voir [Présentation des notifications de révision](./review-understanding-review-notifications.md).
+
+![](images/mentioned-in-tags-author.png){width="350" align="left"}
+
 **Ajouter des pièces jointes aux commentaires** -   Si vous souhaitez compléter votre commentaire en fournissant des informations supplémentaires qui sont disponibles dans un autre fichier, vous pouvez le faire en le joignant à votre commentaire. En tant que réviseur ou réviseuse, vous pouvez facilement ajouter un ou plusieurs fichiers de votre système local à votre commentaire. Vous pouvez ajouter un fichier à toutes les formes de commentaires prises en charge : surligné, barré, insertion de texte ou commentaire.
 
 Lorsque vous insérez l’un des commentaires, le pop-up de commentaire s’affiche. Après avoir fourni des commentaires ou des informations supplémentaires dans le pop-up, vous l’envoyez en appuyant sur Entrée. Une fois le commentaire ajouté, vous avez la possibilité d’ajouter une pièce jointe à ce commentaire.
@@ -257,4 +274,4 @@ Sélectionnez une ou plusieurs des options de filtrage suivantes dans la boîte 
 
 Pour supprimer le filtre et afficher tous les commentaires, désélectionnez tous les filtres de la boîte de dialogue **Type de filtre** et sélectionnez **Appliquer**.
 
-**Rubrique parente :**&#x200B;[ Présentation de la révision](review.md)
+**Rubrique parente :**[ Présentation de la révision](review.md)

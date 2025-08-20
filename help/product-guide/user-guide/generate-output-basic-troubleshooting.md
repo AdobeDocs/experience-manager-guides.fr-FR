@@ -4,9 +4,9 @@ description: Résolvez les problèmes grâce au dépannage de base dans AEM Guid
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 262edba89ab4bf65cb6e109bd7c5df177e2e56fe
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -21,24 +21,32 @@ Pour afficher et vérifier le fichier journal de génération de sortie, procéd
 
 1. Une fois que vous avez lancé le processus de génération de sortie, sélectionnez **Sorties** dans la console de mappage DITA.
 
-   La colonne **Général** des **Sorties générées** affiche les icônes pour donner un indice visuel sur le succès ou l’échec de la génération de la sortie.
+   La colonne **Paramètre de génération** des **Sorties générées** affiche la couleur pour fournir un indice visuel sur le succès ou l’échec de la génération de sortie pour différents paramètres prédéfinis de sortie.
 
-   ![](images/output-general-settings.png){width="300" align="left"}
+   ![](images/output-general-settings-new.png){width="300" align="left"}
 
-   Dans la capture d’écran ci-dessus, les première et troisième icônes indiquent l’échec de la génération de sortie. La deuxième icône affiche une génération de sortie réussie, mais avec des messages. La dernière est une génération de sortie réussie sans aucun message.
+   Dans la capture d’écran ci-dessus :
+
+   - Le rouge indique l’échec de la génération de sortie.
+   - Le vert indique une génération de sortie réussie.
+   - Le code orange indique une génération de sortie réussie avec des erreurs.
+
+   >[!NOTE]
+   >
+   > Les couleurs de l’onglet **Sortie**, qui indiquent le statut de divers résultats de sortie, sont différentes des couleurs utilisées pour classer les différents types d’erreurs dans les fichiers journaux.
 
 1. Sélectionnez le lien dans la colonne **Date de génération** une fois la tâche terminée.
 
    Le fichier journal s’ouvre dans un nouvel onglet.
 
-   ![](images/log-file.png){align="left"}
+   ![](images/log-file-new.png){align="left"}
 
 1. Appliquez les filtres suivants pour mettre en surbrillance le texte dans le fichier journal :
-   - Fatal : met en évidence les erreurs fatales dans le fichier journal avec la couleur rose.
-   - Erreur : met en surbrillance les erreurs dans le fichier journal avec la couleur orange.
-   - Avertissement : met en surbrillance les avertissements dans le fichier journal avec la couleur violette.
-   - Infos : met en surbrillance les messages d’information dans le fichier journal avec la couleur bleue.
-   - Exception : met en surbrillance les exceptions dans le fichier journal, en jaune.
+   - Fatal : met en surbrillance les erreurs fatales dans le fichier journal avec la couleur rouge foncé.
+   - Erreur : met en surbrillance les erreurs dans le fichier journal avec la couleur rouge. Les exceptions sont traitées comme des erreurs et sont mises en surbrillance de manière similaire en rouge.
+   - Avertissement : met en surbrillance les avertissements dans le fichier journal avec la couleur orange.
+   - Infos : met en surbrillance les messages d’information dans le fichier journal avec la couleur verte.
+
 1. Utilisez les boutons de navigation vers le haut et vers le bas pour accéder au texte en surbrillance dans le fichier journal.
 
    Vous pouvez également faire défiler le fichier journal et vérifier les messages.
@@ -91,4 +99,4 @@ Pour résoudre ce problème, procédez comme suit :
 1. Augmentez la valeur du paramètre *Nombre d’appels par requête* en fonction de vos besoins.
 
 
-**Rubrique parente :**&#x200B;[ Génération de sortie](generate-output.md)
+**Rubrique parente :**[ Génération de sortie](generate-output.md)

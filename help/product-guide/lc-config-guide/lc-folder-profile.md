@@ -4,9 +4,10 @@ description: Découvrez comment configurer des profils de dossier lors de l’ut
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: b114cbcc0f637a71a9d9b7458686a06070179983
+exl-id: dc26ae48-c953-492c-823a-5f65157b6902
+source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1451'
 ht-degree: 0%
 
 ---
@@ -17,12 +18,23 @@ Un profil de dossiers est nécessaire pour séparer les configurations pour diff
 
 Pour commencer à utiliser la configuration de profil de dossiers pour le contenu de formation, vous devez :
 
-1. [Créer un profil de dossier](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile).
-2. **Sélectionner le profil de dossier à configurer** : une fois le profil de dossier créé, vous devez sélectionner le profil de dossier sur la page [Préférences utilisateur](../user-guide/intro-home-page.md#user-preferences) pour vous assurer que les auteurs et les éditeurs ont accès aux modèles appropriés.
+1. **Créez différents dossiers pour gérer les modèles de création et de sortie** : vous pouvez créer des dossiers pour les auteurs et les éditeurs travaillant dans différents services ou produits de votre entreprise. Ces dossiers peuvent être associés à des profils de dossier spécifiques, chacun configuré avec différents modèles de création et de sortie pour prendre en charge la création de cours d’apprentissage spécifiques au service et une administration décentralisée.
+
+   Vous pouvez créer un dossier à partir du panneau Référentiel.
+
+   ![](assets/create-new-folder.png){width="350" align="left"}
+2. **Créer des dossiers de langue pour gérer la traduction** : si vous traduisez du contenu dans différentes langues, vous devez créer des dossiers correspondant à chaque langue. Chacun de ces dossiers de langue contient le contenu correspondant à cette langue.
+
+   Pour plus d’informations, consultez [Bonnes pratiques pour la traduction de contenu](../user-guide/translation-first-time.md).
+3. **Création d’un dossier pour gérer Assets** : comme pour les dossiers, vous pouvez également créer différents dossiers Assets pour répondre aux besoins des différents services. Ainsi, vous vous assurez également que les auteurs et les éditeurs ont accès au CSS correct configuré dans leurs modèles, images et autres ressources.
+
+   ![](assets/configure-assets-folder.png){width="350" align="left"}
+4. [Créez un profil de dossier](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile) pour mapper différents dossiers.
+5. **Sélectionner le profil de dossier à configurer** : une fois le profil de dossier créé, vous devez sélectionner le profil de dossier sur la page [Préférences utilisateur](../user-guide/intro-home-page.md#user-preferences) pour vous assurer que les auteurs et les éditeurs ont accès aux modèles appropriés.
 
    ![](assets/folder-profile.png){width="650" align="left"}
 
-3. **Configurer les paramètres de profil de dossier** : pour le contenu d’apprentissage et de formation, les paramètres suivants peuvent être configurés au niveau d’un dossier :
+6. **Configurer les paramètres de profil de dossier** : pour le contenu d’apprentissage et de formation, les paramètres suivants peuvent être configurés au niveau d’un dossier :
    - [Panneaux](#configure-panels)
    - [Modèles](#configure-templates)
    - [Paramètres prédéfinis de sortie](#configure-output-presets)

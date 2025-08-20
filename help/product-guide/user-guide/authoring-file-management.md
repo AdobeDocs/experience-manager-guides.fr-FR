@@ -4,9 +4,9 @@ description: Découvrez comment gérer les fichiers et les dossiers dans AEM Gui
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
+source-git-commit: 14bbb3a055d8b528b6ed657be797c5fa96dd3e7e
 workflow-type: tm+mt
-source-wordcount: '3201'
+source-wordcount: '3263'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,6 @@ Cette section explique comment Adobe Experience Manager Guides gère les opérat
 - *Si le fichier portant le même nom n’existe pas dans le dossier de destination* : une nouvelle copie du fichier est créée et un nouvel UUID lui est également affecté au nouvel emplacement. Ici, le nom de fichier est identique à l’UUID.
 - *Si le fichier portant le même nom existe déjà dans le dossier de destination* : une nouvelle copie du fichier est créée et un nouvel UUID lui est également attribué. Le nom du fichier est identique à l’UUID.
 
-
 ## Copie et collage de dossiers
 
 **Copiez et collez un dossier au même emplacement**
@@ -43,6 +42,16 @@ Cette section explique comment Adobe Experience Manager Guides gère les opérat
 - *Le dossier contient des fichiers dont les noms sont lisibles par l’utilisateur* : une nouvelle copie du dossier est créée et un nouvel UUID est également affecté à tous les fichiers du dossier au nouvel emplacement. Ici, les noms de dossier ou de fichier ne changent pas.
 
 - *Le dossier contient des fichiers dont les noms reposent sur un modèle UUID* : une nouvelle copie du dossier est créée avec le même nom que le dossier d’origine. Un nouvel UUID est également attribué à tous les fichiers du nouveau dossier. Les noms de fichiers sont également modifiés ; ils sont identiques au nouvel UUID.
+
+**Message de succès et notification**
+
+L’opération de copier-coller pour les dossiers de l’interface utilisateur d’Assets s’exécute de manière asynchrone en arrière-plan, ce qui vous permet de continuer à travailler pendant que le système traite la demande. Un message pop-up s’affiche pour indiquer que le processus a été lancé.
+
+![](images/copy-folders-success-popup.png){width="350" align="left"}
+
+Une fois l’opération terminée, une notification de succès ou d’échec est déclenchée pour indiquer si l’opération a réussi ou échoué.
+
+![](images/copy-folders-success-notification.png){width="650" align="left"}
 
 
 ## Glisser-déposer des fichiers
@@ -317,4 +326,4 @@ Si votre fichier multimédia a subi des modifications, vous pouvez rechercher et
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Rubrique parente :**&#x200B;[ Gérer le contenu](authoring.md)
+**Rubrique parente :**[ Gérer le contenu](authoring.md)

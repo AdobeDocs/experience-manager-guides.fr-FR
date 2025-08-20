@@ -4,9 +4,9 @@ description: connaître les fonctionnalités de l’éditeur de cartes dans Adob
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 02a149bbb40615c07d2744f0899a370c91eb83d2
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2578'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ En outre, vous pouvez afficher les icônes suivantes et effectuer les tâches as
 
 **Insérer avant/Insérer après** - ![](images/insert_element_before_icon.svg)/![](images/insert_element_after_icon.svg)
 
-Affiche la boîte de dialogue **Insérer un élément avant ou &#x200B;** Insérer un élément après. Sélectionnez l&#39;élément à insérer dans le mappage. Selon l&#39;opération, le nouvel élément est inséré avant ou après l&#39;élément courant dans la carte.
+Affiche la boîte de dialogue **Insérer un élément avant ou **Insérer un élément après. Sélectionnez l&#39;élément à insérer dans le mappage. Selon l&#39;opération, le nouvel élément est inséré avant ou après l&#39;élément courant dans la carte.
 
 **Element** - ![](images/Add_icon.svg)
 
@@ -219,13 +219,11 @@ Affiche la boîte de dialogue **Réutiliser le contenu**. Utilisez cette boîte 
 
 **Actualiser l’attribut du titre de navigation** - ![](images/refresh.svg)
 
-Synchronise l&#39;élément `title` d&#39;un fichier référencé dans un mapping avec la valeur spécifiée dans son attribut `@navtitle`. Vous pouvez ajouter différents types de fichiers de référence dans un mappage, par exemple des mappages de rubrique, de référence, de tâche, \(sub\), etc. La plupart de ces fichiers prennent en charge l’attribut `@navtitle`. Si un fichier contient l’attribut `@navtitle`, l’attribut `@navtitle` du même fichier dans le mappage est mis à jour. Si l’attribut `@navtitle` n’est pas présent, l’attribut `@navtitle` est ajouté à ce fichier de référence et son `title` est également mis à jour pour afficher le `@navtitle`.
+Permet de conserver la synchronisation entre l’attribut `@navtitle` et l’élément `title` d’un fichier référencé. Vous pouvez ajouter différents types de fichiers à un mappage, tels que des rubriques, des tâches, des références ou des sous-mappages. La plupart d’entre eux prennent en charge l’attribut `@navtitle`, qui contrôle la façon dont le nom de fichier apparaît sur la carte ou dans la table des matières. Si un fichier contient l’attribut `@navtitle`, l’attribut `@navtitle` du même fichier dans le mappage est mis à jour. Si l’attribut `@navtitle` n’est pas présent, l’attribut `@navtitle` est ajouté à ce fichier de référence et son `title` est également mis à jour pour afficher le `@navtitle`.
 
 >[!NOTE]
 >
-> Votre administrateur peut configurer l’ajout automatique de l’attribut `@navtitle` à chaque fichier de référence que vous ajoutez à une carte. Pour plus d’informations sur la configuration de l’attribut de `@navtitle` à ajout automatique, consultez *Inclure l’attribut de @navtitle par défaut* dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
-
-Sélectionnez l’icône Actualiser l’attribut de titre de navigation pour synchroniser les valeurs de l’élément de `title` et de l’attribut de `@navtitle`.
+> Votre administrateur peut choisir d’afficher ou de masquer ce bouton dans la barre d’outils de l’éditeur de cartes à l’aide d’une propriété de configuration. Ils peuvent également activer l’ajout automatique de l’attribut `@navtitle` lorsque des fichiers sont ajoutés à un mappage. Pour plus d’informations, consultez la section [Inclure l’attribut @navtitle par défaut](../cs-install-guide/auto-add-navtitle.md)* dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
 
 **Balises**
 

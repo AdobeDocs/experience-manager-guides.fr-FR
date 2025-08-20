@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: 200aae4c5d05531da5413c80a1cf254d2c0f0ec3
+source-git-commit: 3b306a873f3b71078256407d977e8bdd5af1180b
 workflow-type: tm+mt
-source-wordcount: '2282'
+source-wordcount: '2323'
 ht-degree: 9%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 9%
       - Services cloud {#cloud-release-notes}
          - [Instructions de déploiement](./release-info/deploy-xml-on-aemaacs.md)
          - Versions De 2025 {#2025-releases}
+            - Version 2025.08.0 {#2508-release}
+               - [Nouveautés](./release-info/whats-new-2025-08-0.md)
+               - [Problèmes résolus](./release-info/fixed-issues-2025-08-0.md)
+               - [Instructions de mise à niveau](./release-info/upgrade-instructions-2025-08-0.md)
             - Version 2025.07.0 {#2507-release}
                - [Nouveautés](./release-info/whats-new-2025-07-0.md)
                - [Problèmes résolus](./release-info/fixed-issues-2025-07-0.md)
@@ -140,8 +144,8 @@ ht-degree: 9%
                - [Notes de mise à jour de la version 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notes de mise à jour 4.2](./release-info/release-notes-4-2.md)
          - [Notes de mise à jour 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notes de mise à jour d’4.0.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notes de mise à jour d’3.8.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - Notes de mise à jour d’[4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - Notes de mise à jour d’[3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guide de l’utilisateur (nouvelle interface utilisateur) {#user-guide}
    - Présentation {#about-aemg}
       - [À propos  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -194,11 +198,14 @@ ht-degree: 9%
       - [Présentation de la révision](./user-guide/review.md)
       - [Créer un projet DITA](./user-guide/authoring-create-dita-project.md)
       - [Envoyer les rubriques à réviser](./user-guide/review-send-topics-for-review.md)
-      - [Réaffecter une tâche de révision à l’aide d’une notification](./user-guide/reassign-review-using-notification.md)
       - [Rubriques de révision](./user-guide/review-topics.md)
+      - [Réaffecter une tâche de révision à l’aide d’une notification](./user-guide/reassign-review-using-notification.md)
+      - [Terminer la tâche de révision en tant que réviseur](./user-guide/review-complete-review-tasks.md)
       - [Commentaires de révision d’adresse](./user-guide/review-address-review-comments.md)
+      - [Clore ou demander une révision pour une tâche de révision](./user-guide/review-close-review-task.md)
       - [Gérer les tâches de révision à l’aide du tableau de bord de révision](./user-guide/review-manage-tasks-review-dashboard.md)
       - [Afficher une tâche de révision terminée](./user-guide/review-view-completed-task.md)
+      - [Comprendre les notifications de révision](./user-guide/review-understanding-review-notifications.md)
    - Collaboration à l’aide d’Adobe Workfront {#workfront-integration}
       - [Intégration de Workfront à Experience Manager Guides](./user-guide/workfront-integration.md)
    - Métadonnées et balisage {#manage-metadata}
@@ -335,7 +342,7 @@ ht-degree: 9%
       - Résolution des problèmes {#troubleshooting}
          - [Timeout de session](./user-guide/session-timeout-prompt.md)
 - Guide de l’utilisateur (ancienne interface utilisateur) {#user-guide-old-ui}
-   - [Présentation d’AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Présentation d’AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation et configuration {#install-guide}
    - On-Premise {#on-prem-ig}
       - [Notions de base sur site](./install-guide/introduction.md)
@@ -344,7 +351,7 @@ ht-degree: 9%
          - [Exigences techniques](./install-guide/download-install-technical-requirements.md)
          - [Installation de Adobe Experience Manager](./install-guide/download-install-aem.md)
          - [Télécharger et installer AEM Guides pour la première fois](./install-guide/download-install-aemg-first-time.md)
-         - [Configuration du Dispatcher](./install-guide/download-install-configure-dispatcher.md)
+         - [Configurer Dispatcher](./install-guide/download-install-configure-dispatcher.md)
          - [Vérification de l’installation d’AEM Guides](./install-guide/download-install-verify-aemg-installation.md)
          - [Mettre à niveau AEM Guides](./install-guide/upgrade-xml-documentation.md)
          - [Désinstallation d’AEM Guides](./install-guide/download-install-unistall-aemg.md)
@@ -421,6 +428,7 @@ ht-degree: 9%
                - [Utilisation de JavaScript pour utiliser du contenu ou du style](./native-pdf/use-javascript-content-style.md)
                - [Application de styles aux notes de bas de page](./native-pdf/footnote-number-style.md)
          - [Configuration des indicateurs JVM pour la publication native PDF](./native-pdf/configure-jvm-flags.md)
+         - [Configurer l’emplacement de sortie de base pour la sortie de publication](./native-pdf/configure-base-output-location.md)
          - Utilisation de workflows personnalisés {#custom-workflow}
          - [Configuration et personnalisation de workflows](./install-guide/customize-workflows.md)
       - Utiliser les configurations de traduction {#translate-config}
@@ -433,7 +441,7 @@ ht-degree: 9%
       - Déployer et configurer AEM Guides as a Cloud Service {#deploy-conf-aemg-cs}
          - [Télécharger et installer](./cs-install-guide/download-install.md)
          - [Déploiement du module AEM Guides](./cs-install-guide/download-install-dxml-first-time.md)
-         - [Configuration du Dispatcher](./cs-install-guide/download-install-configure-dispatcher.md)
+         - [Configurer Dispatcher](./cs-install-guide/download-install-configure-dispatcher.md)
          - [Vérification de l’installation d’AEM Guides](./cs-install-guide/download-install-verify-dxml-installation.md)
          - [Mettre à niveau AEM Guides](./cs-install-guide/download-install-upgrade-dxml.md)
          - [Remplacements de configuration](./cs-install-guide/download-install-additional-config-override.md)
@@ -499,6 +507,7 @@ ht-degree: 9%
          - [Configuration du processus de nœud pour la publication native de PDF](./native-pdf/configure-node-options.md)
          - [Créer un mappage entre une rubrique et un fragment de contenu](./cs-install-guide/conf-content-fragment-mapping-cs.md)
          - [Créer un mappage entre une rubrique et un fragment d’expérience](./cs-install-guide/conf-experience-fragment-mapping-cs.md)
+         - [Configurer l’emplacement de sortie de base pour la sortie de publication](./native-pdf/configure-base-location-cs.md)
       - Utilisation de workflows personnalisés {#custom-workflow-cs}
          - [Configuration et personnalisation de workflows](./cs-install-guide/customize-workflows.md)
       - Utiliser les configurations de traduction {#translate-config-cs}

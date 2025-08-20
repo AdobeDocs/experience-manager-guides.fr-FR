@@ -5,9 +5,9 @@ exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 3f61aa6615a1b9765154d55249a33136443dfa33
+source-git-commit: 01efb1f17b39fcbc48d78dd1ae818ece167f4fe5
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1854'
 ht-degree: 4%
 
 ---
@@ -18,20 +18,20 @@ Les workflows vous permettent d’automatiser les activités Adobe Experience Ma
 
 Pour plus d’informations sur les workflows dans AEM, voir :
 
-- [Administration des workflows](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/workflows.html)
+- [Administration des workflows](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- Demande de workflow et participation à des workflows : [Utilisation des workflows](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/workflows.html).
+- Demande de workflow et participation à des workflows : [Utilisation des workflows](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
 
-- Création de modèles de workflows et extension de la fonctionnalité de workflow : [Développement et extension des workflows](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/workflows.html).
+- Création de modèles de workflows et extension de la fonctionnalité de workflow : [Développement et extension des workflows](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
 
-- Amélioration des performances des workflows qui utilisent des ressources de serveur importantes : [Traitement de workflows simultanés](https://helpx.adobe.com/fr/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
+- Amélioration des performances des workflows qui utilisent des ressources de serveur importantes : [Traitement de workflows simultanés](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
 
 Les sections de cette rubrique vous guideront à travers différentes personnalisations que vous pouvez effectuer dans les workflows par défaut fournis dans AEM Guides.
 
 ## Personnaliser le workflow de révision {#id176NE0C00HS}
 
-L’équipe de création de contenu de chaque organisation travaille d’une manière spécifique pour répondre aux besoins de son entreprise. Dans certaines organisations, il y a un éditeur spécialisé, tandis que dans d&#39;autres organisations, il pourrait y avoir un système automatisé de révision éditoriale. Par exemple, dans une organisation, un workflow de création et de publication standard peut inclure des tâches telles que : chaque fois qu’un auteur crée du contenu, il passe automatiquement aux réviseurs et, une fois la révision terminée, il passe à l’éditeur pour générer la sortie finale. Dans AEM, les activités que vous effectuez sur votre contenu et vos ressources peuvent être regroupées sous la forme d’un processus et mappées à un workflow AEM. Pour plus d’informations sur les workflows dans AEM, consultez la section [Administration des workflows](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/workflows.html) dans la documentation AEM.
+L’équipe de création de contenu de chaque organisation travaille d’une manière spécifique pour répondre aux besoins de son entreprise. Dans certaines organisations, il y a un éditeur spécialisé, tandis que dans d&#39;autres organisations, il pourrait y avoir un système automatisé de révision éditoriale. Par exemple, dans une organisation, un workflow de création et de publication standard peut inclure des tâches telles que : chaque fois qu’un auteur crée du contenu, il passe automatiquement aux réviseurs et, une fois la révision terminée, il passe à l’éditeur pour générer la sortie finale. Dans AEM, les activités que vous effectuez sur votre contenu et vos ressources peuvent être regroupées sous la forme d’un processus et mappées à un workflow AEM. Pour plus d’informations sur les workflows dans AEM, consultez la section [Administration des workflows](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html) dans la documentation AEM.
 
 AEM Guides vous permet de personnaliser le workflow de révision par défaut. Vous pouvez utiliser les quatre processus personnalisés suivants liés aux révisions avec vos autres workflows de création ou de publication.
 
@@ -108,7 +108,7 @@ Vous pouvez créer ce script dans le nœud `/etc/workflows/scripts` . Le tableau
 | `startTime` | Long | Utilisez la fonction `System.currentTimeMillis()` pour obtenir l’heure actuelle du système. |
 | `projectPath` | Chaîne | Chemin du projet de révision auquel la tâche de révision sera affectée, par exemple : /content/projects/samplereviewproject. |
 | `reviewType` | Chaîne | Valeur statique « AEM ». |
-| `versionJson` | Objet JSON | versionJson est une liste de rubriques allant dans la révision où chaque objet de rubrique possède la structure suivante { « path »: « /content/dam/1-topic.dita », « version »: « 1.1 », « review »: true, « reviewers »: [« projects-we_retail-editor »] } |
+| `versionJson` | Objet JSON | versionJson est une liste de rubriques allant dans la révision où chaque objet de rubrique possède la structure suivante [ { « path »: « /content/dam/1-topic.dita », « version »: « 1.1 », « review »: true, « reviewers »: [« projects-we_retail-editor »] } ] |
 | `isDitamap` | Booléen | false/true |
 | `ditamapHierarchy` | Objet JSON | Si la carte est envoyée pour révision, la valeur doit être la suivante :[ { « path »: « GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap », « items »: [ { « path »: « GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita », « title »: «  », « items »: [] } ] } ]. |
 | `ditamap` | Chaîne | Spécifiez le chemin d’accès du ditamap de la tâche de révision |
@@ -124,14 +124,14 @@ Pour améliorer les performances du moteur de workflow, vous pouvez purger régu
 
 Vous pouvez empêcher les workflows de révision de se purger automatiquement en supprimant le modèle de workflow de révision \(informations\) de la configuration de purge automatique. Vous devez utiliser la **configuration de la purge du workflow Adobe Granite** pour supprimer les modèles de workflow de révision de la liste de purge automatique.
 
-Dans la configuration de la purge du workflow Adobe Granite **&#x200B;**, veillez à répertorier au moins un workflow que vous pouvez purger en toute sécurité. Par exemple, vous pouvez utiliser l’un des workflows suivants créés par AEM Guides :
+Dans la configuration de la purge du workflow Adobe Granite ****, veillez à répertorier au moins un workflow que vous pouvez purger en toute sécurité. Par exemple, vous pouvez utiliser l’un des workflows suivants créés par AEM Guides :
 
 - /etc/workflow/models/publishditamap/jcr:content/model
-- /etc/workflow/models/post-data-project-creation-tasks/ jcr:content/model
+- /etc/workflow/models/post-dita-project-creation-tasks/ jcr:content/model
 
 L’ajout d’un workflow à la **Configuration de la purge du workflow Adobe Granite** garantit qu’AEM purge uniquement les workflows répertoriés dans la configuration. Cela empêche AEM de purger les informations du workflow de révision.
 
-Pour plus d’informations sur la configuration de la configuration de la purge du workflow Adobe Granite **&#x200B;**, voir *Administration d’instances de workflow* dans la documentation AEM.
+Pour plus d’informations sur la configuration de la configuration de la purge du workflow Adobe Granite ****, voir *Administration d’instances de workflow* dans la documentation AEM.
 
 ### Personnaliser les modèles d’e-mail
 

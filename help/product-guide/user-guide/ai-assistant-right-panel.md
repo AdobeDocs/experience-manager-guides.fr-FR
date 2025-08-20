@@ -2,9 +2,9 @@
 title: Utiliser l’assistant AI pour créer des documents de manière intelligente « »
 description: Découvrez comment utiliser l’assistant d’IA pour créer des documents avec une efficacité intelligente.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: 3d344a1d1b8d51ddadd618db5296531f549dc70b
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1058'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Adobe Experience Manager Guides fournit un outil d’assistant d’IA qui vous a
 
 >[!NOTE]
 >
-> Cette fonctionnalité de création est disponible uniquement pour les rubriques DITA et n&#39;est accessible qu&#39;à partir de l&#39;interface de l&#39;éditeur. Sur la page d’accueil et la console Carte, seul le panneau **Aide** s’affiche.
+> Cette fonctionnalité de création est disponible uniquement pour les rubriques DITA et n&#39;est accessible qu&#39;à partir de l&#39;interface de l&#39;éditeur. Sur la page d’accueil et la console Carte, seul le panneau **Aide** s’affiche. Les options disponibles dans la fonction Création sont configurées au niveau du profil du dossier par les administrateurs à l’aide des paramètres de l’éditeur.
 
 Après avoir sélectionné le texte d’une rubrique, vous pouvez choisir d’effectuer l’une des actions de l’assistant AI :
 

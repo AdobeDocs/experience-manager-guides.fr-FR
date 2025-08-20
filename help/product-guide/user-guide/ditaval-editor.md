@@ -4,7 +4,7 @@ description: Découvrez comment créer et modifier des fichiers DIVATAL à l’a
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: a49234698e040c7441ea0f82265f4b7936a95dfc
+source-git-commit: cbc9cd59e36dad63b25866b2d5c52a7380dc7d26
 workflow-type: tm+mt
 source-wordcount: '1501'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Les fichiers DITAVAL sont utilisés pour générer une sortie conditionnelle. Dans une seule rubrique, vous pouvez ajouter des conditions à l’aide d’attributs d’élément pour conditionner le contenu. Ensuite, vous créez un fichier DITAVAL dans lequel vous spécifiez les conditions qui doivent être sélectionnées pour générer du contenu et quelle condition doit être exclue de la sortie finale.
 
-Adobe Experience Manager Guides vous permet de créer et modifier facilement des fichiers DITAVAL à l&#39;aide de l&#39;éditeur DITAVAL. L&#39;éditeur DITAVAL récupère les attributs (qui peuvent être utilisés comme conditions) définis dans votre système et vous pouvez les utiliser pour créer ou modifier des fichiers DITAVAL. Pour plus d’informations sur la création et la gestion des conditions dans Adobe Experience Manager, consultez la section [Administration des balises](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=fr) de la documentation de Adobe Experience Manager.
+Adobe Experience Manager Guides vous permet de créer et modifier facilement des fichiers DITAVAL à l&#39;aide de l&#39;éditeur DITAVAL. L&#39;éditeur DITAVAL récupère les attributs (qui peuvent être utilisés comme conditions) définis dans votre système et vous pouvez les utiliser pour créer ou modifier des fichiers DITAVAL. Pour plus d’informations sur la création et la gestion des conditions dans Adobe Experience Manager, consultez la section [Administration des balises](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) de la documentation de Adobe Experience Manager.
 
 Les sections suivantes présentent les options disponibles pour un fichier DITAVAL dans Experience Manager Guides.
 
@@ -30,7 +30,7 @@ Pour créer un fichier DITAVAL, procédez comme suit :
 
 1. Dans le panneau Référentiel, sélectionnez l’icône **Nouveau fichier** puis sélectionnez **Rubrique** dans le menu déroulant.
 
-   ![](images/new-file-option.png){width="300" align="left"}
+   ![](images/new-file-option.png){width="350" align="left"}
 
    Vous pouvez également accéder à cette option à partir de la page d&#39;accueil [Experience Manager Guides](./intro-home-page.md) et du menu d&#39;options d&#39;un dossier dans la vue Référentiel.
 
@@ -42,7 +42,7 @@ Pour créer un fichier DITAVAL, procédez comme suit :
    - Modèle sur lequel la rubrique sera basée. Pour un fichier DITAVAL, sélectionnez **Ditaval** dans la liste déroulante.
    - Chemin d’accès où enregistrer le fichier de rubrique. Par défaut, le chemin du dossier actuellement sélectionné dans le référentiel s’affiche dans le champ Chemin .
 
-   ![](images/new-topic-dialog-ditaval.png){width="300" align="left"}
+   ![](images/new-topic-dialog-ditaval.png){width="350" align="left"}
 
 
 4. Sélectionnez **Créer**.
@@ -112,35 +112,35 @@ Il existe principalement quatre actions disponibles pour une propriété donnée
 - **Couleur d’arrière-plan** : sélectionnez la teinte, la saturation et le contraste dans la couleur d’arrière-plan. La valeur HEX correspondante sera automatiquement mise à jour en fonction de votre sélection. Vous pouvez également changer le format de l’espace colorimétrique à l’aide de la liste déroulante pour choisir entre HEX, RGB et HSB.
 
 
-![](images/ditaval-background-color.png){width="650" align="left"}
+  ![](images/ditaval-background-color.png){width="350" align="left"}
 
 
 
 - **Couleur du texte** : sélectionnez la teinte, la saturation et le contraste de la couleur du texte. La valeur HEX correspondante sera automatiquement mise à jour en fonction de votre sélection. Vous pouvez également changer le format de l’espace colorimétrique à l’aide de la liste déroulante pour choisir entre HEX, RGB et HSB.
 
 
-![](images/ditaval-text-color.png){width="650" align="left"}
+  ![](images/ditaval-text-color.png){width="350" align="left"}
 
 
 
 - **Options de style** : vous pouvez ajouter certaines options de style, telles que Gras, Italique, Souligné, Surligné, Double soulignement.
 
 
-![](images/ditaval-styling-option.png){width="650" align="left"}
+  ![](images/ditaval-styling-option.png){width="350" align="left"}
 
 
 
 - **Indicateurs de début et de fin** : vous pouvez insérer des images en tant qu’indicateurs de début et de fin à l’aide du bouton **Ajouter un indicateur**. Pour sélectionner des images, utilisez **Parcourir Assets** pour effectuer une sélection dans le référentiel Guides ou **Ajouter un fichier** pour les charger à partir de votre système local. De plus, vous pouvez spécifier un texte secondaire pour les images.
 
 
-![](images/ditaval-start-end-flags.png){width="650" align="left"}
+  ![](images/ditaval-start-end-flags.png){width="350" align="left"}
 
 
 
 - **Conflit de style** : résout les conflits qui se produisent lorsqu’un seul élément contient plusieurs propriétés avec différents styles d’indicateur. Dans ce cas, la valeur définie dans les propriétés de conflit de style est sélectionnée, agissant efficacement comme sélecteur de valeur par défaut pour les couleurs d’arrière-plan et de texte.
 
 
-![](images/ditaval-style-conflict.png){width="650" align="left"}
+  ![](images/ditaval-style-conflict.png){width="650" align="left"}
 
 
 #### Informations sur la version et Enregistrer comme nouvelle version

@@ -4,9 +4,9 @@ description: Consultez efficacement les rubriques ou les cartes dans AEM Guides 
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
-source-git-commit: 38ea2eb35ebd75c1202c86d598ad953db3894d40
+source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Voici quelques-unes des principales fonctionnalités offertes par Adobe Experien
 - Partagez une version mise à jour de la rubrique à réviser à partir du tableau de bord de révision.
 
 - Accéder aux commentaires partagés sur différentes versions de la rubrique.
-
+- Balisez facilement les utilisateurs d’une tâche de révision spécifique dans les commentaires ou les réponses pour une action et des suivis rapides. Les utilisateurs identifiés sont immédiatement avertis par AEM et par e-mail.
 - Regroupez et filtrez les commentaires en fonction de la version de la rubrique.
 
 - Afficher les différences côte à côte entre les différentes versions des rubriques partagées pour révision.
@@ -41,6 +41,7 @@ Fonctionnalités disponibles pour les *réviseurs* :
 - Basculez entre la vue composite et la vue rubrique individuelle.
 - Utilisez les outils de commentaires, tels que l’insertion de texte, la suppression, la mise en surbrillance et la note/le commentaire pour fournir leurs commentaires.
 - Joignez un ou plusieurs fichiers à un commentaire de révision.
+- Répondre à un commentaire en identifiant les utilisateurs impliqués dans la même tâche de révision.
 - Téléchargez les pièces jointes à partir d’un commentaire.
 - Utilisez le Panneau de révision pour ajouter des commentaires ou répondre aux commentaires d’autres utilisateurs.
 - Connaître facilement la version de la rubrique en cours de révision.
@@ -57,10 +58,18 @@ Fonctionnalités disponibles pour les *réviseurs* :
 
 - **[Envoyer les rubriques à réviser](review-send-topics-for-review.md)**
 
+- **[Rubriques de révision](review-topics.md)**
+
 - **[Réaffecter une tâche de révision à l’aide d’une notification](reassign-review-using-notification.md)**
 
-- **[Rubriques de révision](review-topics.md)**
+- **[Effectuez la tâche de révision en tant que réviseur](review-complete-review-tasks.md)**
 
 - **[Commentaires de révision d’adresse](review-address-review-comments.md)**
 
+- **[Clore ou demander une révision pour une tâche de révision](review-close-review-task.md)**
+
 - **[Gérer les tâches de révision à l’aide du tableau de bord de révision](review-manage-tasks-review-dashboard.md)**
+
+- **[Afficher une tâche de révision terminée](review-view-completed-task.md)**
+
+- **[Présentation des notifications de révision](review-understanding-review-notifications.md)**

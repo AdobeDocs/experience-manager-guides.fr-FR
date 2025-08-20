@@ -4,9 +4,10 @@ description: Découvrez comment configurer des dossiers, des dossiers de ressour
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: 5f42540a32da6e85a5c8aa0831582ce871c9088a
+exl-id: 15a0cd40-45be-4631-8d60-4a9474bc431c
+source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -15,18 +16,6 @@ ht-degree: 0%
 
 En tant qu’administrateur, vous pouvez également configurer les paramètres suivants pour les auteurs et éditeurs des cours de formation :
 
-- **Paramètres des dossiers**
-   - **Créer des dossiers différents** : vous pouvez créer des dossiers pour les auteurs et les éditeurs travaillant dans différents services ou produits de votre entreprise. Ces dossiers peuvent être associés à des profils de dossier spécifiques, chacun configuré avec différents modèles de création et de sortie pour prendre en charge la création de cours d’apprentissage spécifiques au service et une administration décentralisée.
-
-     Vous pouvez créer un dossier à partir du panneau Référentiel.
-
-     ![](assets/create-new-folder.png){width="350" align="left"}
-   - **Créer des dossiers de langue** : si vous traduisez du contenu dans différentes langues, vous devez créer des dossiers correspondant à chaque langue. Chacun de ces dossiers de langue contient le contenu correspondant à cette langue.
-
-     Pour plus d’informations, consultez [Bonnes pratiques pour la traduction de contenu](../user-guide/translation-first-time.md).
-   - **Gestion d’Assets** : comme pour les dossiers, vous pouvez également créer différents dossiers Assets pour répondre aux besoins de différents services. Ainsi, vous vous assurez également que les auteurs et les éditeurs ont accès au CSS correct configuré dans leurs modèles, images et autres ressources.
-
-     ![](assets/configure-assets-folder.png){width="350" align="left"}
 - **Fragments de code** : vous pouvez configurer les fragments de code au niveau du dossier pour vous assurer que les auteurs ont accès aux fragments de code appropriés. Seuls les administrateurs peuvent créer des fragments de code dans Experience Manager Guides, qui peuvent ensuite être utilisés par les auteurs dans l’éditeur.
 
   Vous pouvez accéder à Fragments de code à partir du panneau de gauche dans l’éditeur.
