@@ -90,4 +90,4 @@ Si vous êtes l’initiateur ou l’auteur d’une tâche de révision et que vo
 
 ![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
 
-**Rubrique parente :**[ Présentation de la révision](review.md)
+**Rubrique parente :**&#x200B;[ Présentation de la révision](review.md)
