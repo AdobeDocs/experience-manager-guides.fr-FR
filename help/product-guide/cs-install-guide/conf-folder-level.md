@@ -5,7 +5,7 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 10c0a105c09f5a20b5bf2ef9b3201e7747048a8a
+source-git-commit: 63e81b6213e293dd6b6e7e46b611b25d8cb6a815
 workflow-type: tm+mt
 source-wordcount: '4794'
 ht-degree: 0%
@@ -411,7 +411,7 @@ Si vous avez mis à jour un paramètre prédéfini de sortie existant ou si vous
 
 ## Configurer l’assistant AI pour l’aide et la création intelligentes
 
-Pour ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service .
+Pour Experience Manager Guides as a Cloud Service (![](assets/aem-cloud-icon.svg) cloud AEM).
 
 L’assistant AI d’Adobe Experience Manager Guides est un puissant outil piloté par l’IA conçu pour améliorer votre contenu grâce à des expériences de création et de réutilisation de contenu intelligentes. Il associe deux puissantes fonctionnalités d’IA (**Création** et **Aide**) à l’interface de Experience Manager Guides, ce qui vous permet de créer des documents et d’accéder aux informations plus rapidement et plus efficacement.
 
@@ -454,9 +454,9 @@ Découvrez comment afficher et ajouter des suggestions intelligentes [basées su
 
 **Personnaliser les questions par défaut pour l’aide dynamique**
 
-Pour ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
+Pour Experience Manager Guides as a Cloud Service (![](assets/aem-cloud-icon.svg) cloud AEM).
 
-Vous pouvez configurer l’aide intelligente optimisée par l’IA **Aide** pour aider les auteurs à poser des questions et à rechercher facilement le contenu requis dans la documentation de [Experience Manager Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/overview).
+Vous pouvez configurer l’aide intelligente optimisée par l’IA **Aide** pour aider les auteurs à poser des questions et à rechercher facilement le contenu requis dans la documentation de [Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 L’onglet **Configuration de l’éditeur XML** vous permet de configurer les questions par défaut du panneau **Aide**.
 
@@ -508,7 +508,7 @@ Par défaut, l&#39;éditeur XML est fourni avec de nombreuses fonctions pour aid
 
 Ce paramètre vous permet de créer des extensions JSON qui reflètent les modifications apportées au fichier `ui_config.json`. Vous pouvez charger ces extensions indépendamment au niveau du profil du dossier, offrant ainsi une flexibilité et une personnalisation améliorées. Par exemple, lorsque vous apportez des modifications à la configuration de l’éditeur **XML**, comme la mise à jour d’un bouton, le système identifie automatiquement les différences. En chargeant ces modifications dans la **Configuration de l’interface utilisateur de l’éditeur XML** et en les convertissant en extensions JSON à l’aide du bouton **Convertir la configuration de l’interface utilisateur en JSON**, le système génère une extension qui incorpore la nouvelle fonctionnalité.
 
-En savoir plus sur [la personnalisation des configurations JSON et la conversion des configurations de l’interface utilisateur pour le nouvel éditeur AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+En savoir plus sur [la personnalisation des configurations JSON et la conversion des configurations de l’interface utilisateur pour le nouvel éditeur AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >
