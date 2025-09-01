@@ -39,9 +39,9 @@ Au cours de cette session, nous avons abordé les sujets suivants :
 
 ## Ressources connexes
 
-- [Notions de base sur la génération de sortie] (https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output)
+- [Notions de base sur la génération de sortie] (https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output)
 
-- [Installer de nouveaux modèles AEM Sites](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/aem-site-templates/download-install-aem-sites-templates-cs-kb)
+- [Installer de nouveaux modèles AEM Sites](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/aem-site-templates/download-install-aem-sites-templates-cs-kb)
 
 - [Publication sur une seule rubrique](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output/single-topic-publishing/publish-content-fragment.html)
 
@@ -56,7 +56,7 @@ Au cours de cette session, nous avons abordé les sujets suivants :
 
 ### Forum de la communauté
 
-- Pour plus d’interactions de la communauté Experience League spécifiques à une session, rendez-vous sur [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- Pour plus d’interactions de la communauté Experience League spécifiques à une session, rendez-vous sur [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=fr).
 
 
 ## Nous contacter
