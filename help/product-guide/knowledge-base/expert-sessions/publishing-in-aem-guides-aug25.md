@@ -1,7 +1,7 @@
 ---
 title: Publication dans AEM Guides
 description: Explorez les formats de publication dans AEM Guides et apprenez à diffuser du contenu sur plusieurs canaux, y compris AEM Sites, les fichiers PDF, HTML5, Edge Delivery Services, JSON, etc.
-source-git-commit: ace32569321747c53829c58f9daca7e5c7753f99
+source-git-commit: 95404f56afdf4527de80f39ed1633ed3806e4b8a
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 1%
@@ -39,9 +39,9 @@ Au cours de cette session, nous avons abordé les sujets suivants :
 
 ## Ressources connexes
 
-- [Notions de base sur la génération de sortie] (https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output)
+- [Notions de base sur la génération de sortie](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output)
 
-- [Installer de nouveaux modèles AEM Sites](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/aem-site-templates/download-install-aem-sites-templates-cs-kb)
+- [Installer de nouveaux modèles AEM Sites](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/aem-site-templates/download-install-aem-sites-templates-cs-kb)
 
 - [Publication sur une seule rubrique](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output/single-topic-publishing/publish-content-fragment.html)
 
@@ -56,7 +56,7 @@ Au cours de cette session, nous avons abordé les sujets suivants :
 
 ### Forum de la communauté
 
-- Pour plus d’interactions de la communauté Experience League spécifiques à une session, rendez-vous sur [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=fr).
+- Pour plus d’interactions de la communauté Experience League spécifiques à une session, rendez-vous sur [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 
 ## Nous contacter
