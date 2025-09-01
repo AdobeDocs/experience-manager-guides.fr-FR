@@ -35,7 +35,7 @@ Avant de poursuivre la configuration, assurez-vous que les conditions préalable
 ## Installation de packages à l’aide du gestionnaire de packages CRX
 
 1. **Installez le package de composants :**
-   1. Accédez au [**Gestionnaire de packages CRX**](http://<your-aem-instance>/crx/packmgr).
+   1. Accédez au [**Gestionnaire de packages CRX**](http://&lt;your-aem-instance>/crx/packmgr).
    2. Téléchargez et installez le package on-prem-guides-components.all-1.x.0.zip .
 
 2. **Installation du package Sites :** téléchargez et installez le package aemg-docs.all-1.x.0.zip à l’aide du gestionnaire de packages CRX.
