@@ -133,4 +133,4 @@ Installez le **Package de composants (guides-components.all-1.x.x.zip)** puis ef
 
 >[!NOTE]
 >
-> Assurez-vous que toutes les configurations sont testées dans un environnement hors production avant le déploiement en production. <br><br> Pour plus d’informations, reportez-vous à la documentation officielle [Déploiement sur AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview).
+> Assurez-vous que toutes les configurations sont testées dans un environnement hors production avant le déploiement en production. <br><br> Pour plus d’informations, reportez-vous à la documentation officielle [Déploiement sur AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/deploying/overview).
