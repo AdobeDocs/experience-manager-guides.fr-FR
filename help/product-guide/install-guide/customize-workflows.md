@@ -18,20 +18,20 @@ Les workflows vous permettent d’automatiser les activités Adobe Experience Ma
 
 Pour plus d’informations sur les workflows dans AEM, voir :
 
-- [Administration des workflows](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
+- [Administration des workflows](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- Demande de workflow et participation à des workflows : [Utilisation des workflows](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
+- Demande de workflow et participation à des workflows : [Utilisation des workflows](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/workflows.html).
 
-- Création de modèles de workflows et extension de la fonctionnalité de workflow : [Développement et extension des workflows](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
+- Création de modèles de workflows et extension de la fonctionnalité de workflow : [Développement et extension des workflows](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/workflows.html).
 
-- Amélioration des performances des workflows qui utilisent des ressources de serveur importantes : [Traitement de workflows simultanés](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
+- Amélioration des performances des workflows qui utilisent des ressources de serveur importantes : [Traitement de workflows simultanés](https://helpx.adobe.com/fr/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
 
 Les sections de cette rubrique vous guideront à travers différentes personnalisations que vous pouvez effectuer dans les workflows par défaut fournis dans AEM Guides.
 
 ## Personnaliser le workflow de révision {#id176NE0C00HS}
 
-L’équipe de création de contenu de chaque organisation travaille d’une manière spécifique pour répondre aux besoins de son entreprise. Dans certaines organisations, il y a un éditeur spécialisé, tandis que dans d&#39;autres organisations, il pourrait y avoir un système automatisé de révision éditoriale. Par exemple, dans une organisation, un workflow de création et de publication standard peut inclure des tâches telles que : chaque fois qu’un auteur crée du contenu, il passe automatiquement aux réviseurs et, une fois la révision terminée, il passe à l’éditeur pour générer la sortie finale. Dans AEM, les activités que vous effectuez sur votre contenu et vos ressources peuvent être regroupées sous la forme d’un processus et mappées à un workflow AEM. Pour plus d’informations sur les workflows dans AEM, consultez la section [Administration des workflows](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html) dans la documentation AEM.
+L’équipe de création de contenu de chaque organisation travaille d’une manière spécifique pour répondre aux besoins de son entreprise. Dans certaines organisations, il y a un éditeur spécialisé, tandis que dans d&#39;autres organisations, il pourrait y avoir un système automatisé de révision éditoriale. Par exemple, dans une organisation, un workflow de création et de publication standard peut inclure des tâches telles que : chaque fois qu’un auteur crée du contenu, il passe automatiquement aux réviseurs et, une fois la révision terminée, il passe à l’éditeur pour générer la sortie finale. Dans AEM, les activités que vous effectuez sur votre contenu et vos ressources peuvent être regroupées sous la forme d’un processus et mappées à un workflow AEM. Pour plus d’informations sur les workflows dans AEM, consultez la section [Administration des workflows](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/workflows.html) dans la documentation AEM.
 
 AEM Guides vous permet de personnaliser le workflow de révision par défaut. Vous pouvez utiliser les quatre processus personnalisés suivants liés aux révisions avec vos autres workflows de création ou de publication.
 
