@@ -5,9 +5,9 @@ exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 01efb1f17b39fcbc48d78dd1ae818ece167f4fe5
+source-git-commit: 439be49e8f4c8cfacb16679257352f4197574365
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '2126'
 ht-degree: 4%
 
 ---
@@ -18,20 +18,20 @@ Les workflows vous permettent d’automatiser les activités Adobe Experience Ma
 
 Pour plus d’informations sur les workflows dans AEM, voir :
 
-- [Administration des workflows](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/workflows.html)
+- [Administration des workflows](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- Demande de workflow et participation à des workflows : [Utilisation des workflows](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/workflows.html).
+- Demande de workflow et participation à des workflows : [Utilisation des workflows](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
 
-- Création de modèles de workflows et extension de la fonctionnalité de workflow : [Développement et extension des workflows](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/workflows.html).
+- Création de modèles de workflows et extension de la fonctionnalité de workflow : [Développement et extension des workflows](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
 
-- Amélioration des performances des workflows qui utilisent des ressources de serveur importantes : [Traitement de workflows simultanés](https://helpx.adobe.com/fr/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
+- Amélioration des performances des workflows qui utilisent des ressources de serveur importantes : [Traitement de workflows simultanés](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
 
 Les sections de cette rubrique vous guideront à travers différentes personnalisations que vous pouvez effectuer dans les workflows par défaut fournis dans AEM Guides.
 
 ## Personnaliser le workflow de révision {#id176NE0C00HS}
 
-L’équipe de création de contenu de chaque organisation travaille d’une manière spécifique pour répondre aux besoins de son entreprise. Dans certaines organisations, il y a un éditeur spécialisé, tandis que dans d&#39;autres organisations, il pourrait y avoir un système automatisé de révision éditoriale. Par exemple, dans une organisation, un workflow de création et de publication standard peut inclure des tâches telles que : chaque fois qu’un auteur crée du contenu, il passe automatiquement aux réviseurs et, une fois la révision terminée, il passe à l’éditeur pour générer la sortie finale. Dans AEM, les activités que vous effectuez sur votre contenu et vos ressources peuvent être regroupées sous la forme d’un processus et mappées à un workflow AEM. Pour plus d’informations sur les workflows dans AEM, consultez la section [Administration des workflows](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/workflows.html) dans la documentation AEM.
+L’équipe de création de contenu de chaque organisation travaille d’une manière spécifique pour répondre aux besoins de son entreprise. Dans certaines organisations, il y a un éditeur spécialisé, tandis que dans d&#39;autres organisations, il pourrait y avoir un système automatisé de révision éditoriale. Par exemple, dans une organisation, un workflow de création et de publication standard peut inclure des tâches telles que : chaque fois qu’un auteur crée du contenu, il passe automatiquement aux réviseurs et, une fois la révision terminée, il passe à l’éditeur pour générer la sortie finale. Dans AEM, les activités que vous effectuez sur votre contenu et vos ressources peuvent être regroupées sous la forme d’un processus et mappées à un workflow AEM. Pour plus d’informations sur les workflows dans AEM, consultez la section [Administration des workflows](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html) dans la documentation AEM.
 
 AEM Guides vous permet de personnaliser le workflow de révision par défaut. Vous pouvez utiliser les quatre processus personnalisés suivants liés aux révisions avec vos autres workflows de création ou de publication.
 
@@ -64,6 +64,7 @@ workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
 workflowdata.getMetaDataMap().put("reviewType", "AEM");
 workflowdata.getMetaDataMap().put("versionJson", "[{\"path\":\"GUID-ca6ae229-889a-4d98-a1c6-60b08a820bb3.dita\",\"review\":true,\"version\":\"1.0\",\"reviewers\":[\"projects-samplereviewproject-owner\"]}]");
 workflowdata.getMetaDataMap().put("isDitamap","false");
+workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
 **Pour la carte**
@@ -90,6 +91,7 @@ workflowdata.getMetaDataMap().put("isDitamap", "true");
 workflowdata.getMetaDataMap().put("ditamap", "GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap");
 var ditamapHierarchy = "[{\"path\":\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\",\"items\":[{\"path\":\"GUID-db5787bb-5467-4dc3-b3e5-cfde562ee745.ditamap\",\"items\":[{\"path\":\"GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita\",\"items\":[],\"title\":\"\"},{\"path\":\"GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita\",\"items\":[],\"title\":\"\"}],\"title\":\"\"},{\"path\":\"GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita\",\"items\":[],\"title\":\"\"}]}]";
 workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
+workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
 Vous pouvez créer ce script dans le nœud `/etc/workflows/scripts` . Le tableau suivant décrit les propriétés affectées par ce script ECMA :
@@ -114,6 +116,7 @@ Vous pouvez créer ce script dans le nœud `/etc/workflows/scripts` . Le tableau
 | `ditamap` | Chaîne | Spécifiez le chemin d’accès du ditamap de la tâche de révision |
 | `allowAllReviewers` | Booléen | false/true |
 | `notifyViaEmail` | Booléen | false/true |
+| `reviewVersion` | Chaîne | Spécifie la version actuelle du workflow de révision. La valeur par défaut est définie sur `3.0` .<br> Pour activer les nouvelles fonctionnalités de workflow de révision pour [Auteurs](../user-guide/review-close-review-task.md) et [Réviseurs](../user-guide/review-complete-review-tasks.md), assurez-vous que la `reviewVersion` est définie sur `3.0`. |
 
 
 Une fois le script créé, appelez-le avant d’appeler le processus Créer une révision dans votre workflow. Ensuite, en fonction de vos besoins, vous pouvez appeler les autres processus de workflow de révision.
@@ -124,38 +127,67 @@ Pour améliorer les performances du moteur de workflow, vous pouvez purger régu
 
 Vous pouvez empêcher les workflows de révision de se purger automatiquement en supprimant le modèle de workflow de révision \(informations\) de la configuration de purge automatique. Vous devez utiliser la **configuration de la purge du workflow Adobe Granite** pour supprimer les modèles de workflow de révision de la liste de purge automatique.
 
-Dans la configuration de la purge du workflow Adobe Granite **&#x200B;**, veillez à répertorier au moins un workflow que vous pouvez purger en toute sécurité. Par exemple, vous pouvez utiliser l’un des workflows suivants créés par AEM Guides :
+Dans la configuration de la purge du workflow Adobe Granite ****, veillez à répertorier au moins un workflow que vous pouvez purger en toute sécurité. Par exemple, vous pouvez utiliser l’un des workflows suivants créés par AEM Guides :
 
 - /etc/workflow/models/publishditamap/jcr:content/model
 - /etc/workflow/models/post-dita-project-creation-tasks/ jcr:content/model
 
 L’ajout d’un workflow à la **Configuration de la purge du workflow Adobe Granite** garantit qu’AEM purge uniquement les workflows répertoriés dans la configuration. Cela empêche AEM de purger les informations du workflow de révision.
 
-Pour plus d’informations sur la configuration de la configuration de la purge du workflow Adobe Granite **&#x200B;**, voir *Administration d’instances de workflow* dans la documentation AEM.
+Pour plus d’informations sur la configuration de la configuration de la purge du workflow Adobe Granite ****, voir *Administration d’instances de workflow* dans la documentation AEM.
 
-### Personnaliser les modèles d’e-mail
+### Personnalisation des notifications par e-mail et AEM
 
 Un certain nombre de workflows AEM Guides utilisent les notifications par e-mail. Par exemple, si vous lancez une tâche de révision, une notification est envoyée par e-mail aux réviseurs. Cependant, pour vous assurer que la notification par e-mail est envoyée, vous devez activer cette fonctionnalité dans AEM. Pour activer les notifications par e-mail dans AEM, consultez l’article [Configuration des notifications par e-mail](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=fr) dans la documentation AEM.
 
-AEM Guides contient un ensemble de modèles d’e-mail que vous pouvez personnaliser. Pour personnaliser ces modèles, procédez comme suit :
+AEM Guides contient un ensemble d’e-mails et de notifications AEM que vous pouvez personnaliser. Pour personnaliser ces notifications, procédez comme suit :
 
-1. Connectez-vous à AEM et ouvrez le mode CRXDE Lite .
-
-1. Dans l’onglet Navigateur , accédez à l’emplacement suivant :
-
-   `/libs/fmdita/mail`
+1. Utilisez le gestionnaire de packages pour télécharger `/libs/fmdita/mail/review` dossier .
 
    >[!NOTE]
    >
    > Ne rendez aucune personnalisation dans les fichiers de configuration par défaut disponibles dans le nœud ``libs``. Vous devez créer un recouvrement du nœud ``libs`` dans le nœud ``apps`` et mettre à jour les fichiers requis dans le nœud ``apps`` uniquement.
 
-1. Le dossier d’e-mails contient les modèles personnalisables suivants :
+1. Le dossier `review` contient les sous-dossiers suivants :
 
-   | Nom de fichier du modèle | Description |
+   - `aem-notification`
+   - `CSS`
+   - `email-notification`
+
+   La description détaillée de ces sous-dossiers est expliquée ci-dessous :
+
+   | Consulter les sous-dossiers | Description |
    |-----------------|-----------|
-   | closereview.html | Ce modèle d’e-mail est utilisé lorsqu’une tâche de révision est fermée. |
-   | createreview.html | Ce modèle d’e-mail est utilisé lorsqu’une nouvelle tâche de révision est créée. |
-   | reviewapproval.css | Ce fichier CSS contient le style des modèles d’e-mail. |
+   | `aem-notification` | Contient différents types de notification AEM disponibles pour la personnalisation. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> Ces sous-dossiers contiennent les fichiers `primary.vm` et `secondary.vm` qui vous permettent de personnaliser respectivement le titre et la description de la notification AEM. |
+   | `CSS` | Contient le fichier `email-notification.css` permettant de personnaliser le style des notifications par e-mail. |
+   | `email-notification` | Contient différents types de notification par e-mail disponibles pour la personnalisation. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> Ces sous-dossiers contiennent des fichiers `primary.vm` et `secondary.vm` qui vous permettent de personnaliser respectivement l’objet et le corps des notifications par e-mail. |
+
+La définition de chaque type de notification est décrite ci-dessous :
+
+- `closed` : se déclenche lorsqu’une tâche de révision est fermée.
+- `content-updated` : se déclenche lorsqu’un auteur ou un initiateur met à jour le contenu.
+- `feedback-addressed` : se déclenche lorsque l’auteur ou l’initiateur adresse les commentaires et demande une révision au réviseur.
+- `feedback-provided` Déclenche lorsque le réviseur ou la réviseuse marque la tâche comme terminée en fournissant des commentaires au niveau de la tâche à l’auteur ou à l’initiateur de la tâche de révision.
+- `requested` : se déclenche lorsqu’un auteur ou un initiateur crée une tâche de révision.
+- `reviewer-removed` : se déclenche lorsque l’affectation d’un réviseur ou d’une réviseuse est annulée.
+- `tag-mention` : se déclenche lorsqu’un utilisateur est mentionné ou identifié dans les commentaires de révision.
+
+Lors de la personnalisation d’un e-mail ou d’une notification AEM, veillez à n’utiliser que l’ensemble prédéfini de variables suivant, utilisé dans les fichiers `primary.vm` et `secondary.vm`.
+
+
+| **Nom de la variable** | **Description** | **Type de données** |
+|-------------------------|---------------------------------------------------------------|---------------|
+| `projectPath` | Chemin d’accès au projet contenant la tâche de révision | Chaîne |
+| `reviewTitle` | Titre de la tâche de révision | Chaîne |
+| `projectName` | Nom du projet | Chaîne |
+| `commentator` | Nom de l’utilisateur qui a ajouté un commentaire | Chaîne |
+| `commentExcerpt` | Fragment de commentaire ajouté | Chaîne |
+| `taskLink` | Lien direct vers la tâche de révision | URL |
+| `authorName` | Nom de l’auteur qui a créé ou mis à jour la tâche de révision | Chaîne |
+| `dueDate` | Date d’échéance de la tâche de révision | Date |
+| `reviewerName` | Nom du validant assigné à la tâche | Chaîne |
+| `user` | Utilisateur ou utilisatrice impliqué(e) dans la tâche de révision, comme auteur, réviseur(e) ou même administrateur ou administratrice. | Chaîne |
+| `recipient` | Utilisateur spécifique recevant la notification | Chaîne |
 
 
 ## Personnalisation du workflow de génération après sortie {#id17A6GI004Y4}
@@ -227,7 +259,7 @@ Effectuez les étapes suivantes pour personnaliser le workflow *Ressource de mis
    jcr:content/metadata/dc:format!=application/xml
    ```
 
-1. Cliquez sur **Enregistrer et fermer**.
+1. Cliquer sur **Enregistrer et fermer**
 
 
 ## Configuration du workflow XML de post-traitement {#id18CJB03J0Y4}

@@ -3,9 +3,10 @@ title: Demander une révision ou fermer une tâche de révision en tant qu’aut
 description: Découvrez le processus de fermeture d’une tâche de révision ou de nouvelle demande de révision en tant qu’auteur dans Experience Manager Guides.
 feature: Reviewing
 role: User
-source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
+exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
+source-git-commit: 439be49e8f4c8cfacb16679257352f4197574365
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -45,13 +46,18 @@ Effectuez les étapes suivantes pour demander une révision ou fermer une tâche
 4. Sélectionnez **Mettre à jour la tâche** pour effectuer une action supplémentaire sur la tâche de révision sélectionnée.
 5. Dans la boîte de dialogue **Mettre à jour la tâche**, choisissez l’une des actions suivantes :
 
-   - **Demander un réexamen** : lance un autre cycle de révision. Vous pouvez sélectionner une autre version de la rubrique à réviser. Par défaut, la dernière version (ou la dernière version modifiée) du fichier de rubrique ou de mappage envoyé pour révision est sélectionnée. Les réviseurs et réviseuses qui ont terminé la révision précédente recevront une notification leur demandant de faire part de leurs commentaires sur la version mise à jour. Les autres réviseurs et réviseuses qui n’ont pas marqué la tâche de révision comme terminée sont avertis de la mise à jour de la rubrique.
+   - **Demander un réexamen** : lance un autre cycle de révision. Vous pouvez sélectionner une autre version de la rubrique à réviser. Par défaut, la dernière version (ou la dernière version modifiée) du fichier de rubrique ou de mappage envoyé pour révision est sélectionnée. Vous pouvez également utiliser l&#39;option **Modifier les versions** pour définir la version des rubriques sélectionnées sur **Dernière version**, **Version activée** et **Ligne de base** selon vos besoins.  Les réviseurs et réviseuses qui ont terminé la révision précédente recevront une notification leur demandant de faire part de leurs commentaires sur la version mise à jour. Les autres réviseurs et réviseuses qui n’ont pas marqué la tâche de révision comme terminée sont avertis de la mise à jour de la rubrique.
 
    - **Fermer la révision** : ferme la tâche de révision. Le bouton **Mettre à jour la tâche** présent au bas du panneau de révision devient **Fermé** et une notification est envoyée à tous les utilisateurs impliqués dans la tâche de révision pour indiquer sa fermeture.
 
    Pour plus d’informations sur le déclenchement des notifications de révision, voir [Présentation des notifications de révision](./review-understanding-review-notifications.md).
 
-   ![](images/update-task-dialog.png).
+   ![](images/update-task-dialog.png){width="350" align="left"}
+
+   >[!NOTE]
+   >
+   > La boîte de dialogue **Mettre à jour la tâche** comprend également une colonne **État du document** pour indiquer l’état actuel des rubriques de révision répertoriées lors de l’utilisation de Experience Manager Guides as a Cloud Services.
+
 
 6. Sélectionnez **Confirmer**.
 

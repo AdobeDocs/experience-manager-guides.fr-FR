@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: ace32569321747c53829c58f9daca7e5c7753f99
+source-git-commit: 45dba186e27762bae48f90f9d4edd790b9a940ce
 workflow-type: tm+mt
-source-wordcount: '2353'
+source-wordcount: '2363'
 ht-degree: 9%
 
 ---
@@ -102,6 +102,10 @@ ht-degree: 9%
             - [Notes de mise à jour de janvier](./release-info/release-notes-2022-1-0.md)
       - On-prem/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides] versions](./release-info/latest-release-info.md)
+         - Version 5.1.0 SP1 {#510-release}
+            - [Nouveautés](./release-info/whats-new-5-1-0.md)
+            - [Problèmes résolus](./release-info/fixed-issues-5-1-0.md)
+            - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-1-0.md)
          - Version 5.0.0 SP1 {#500-sp1-release}
             - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp1.md)
             - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0-sp1.md)
@@ -144,10 +148,10 @@ ht-degree: 9%
                - [Notes de mise à jour de la version 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notes de mise à jour 4.2](./release-info/release-notes-4-2.md)
          - [Notes de mise à jour 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notes de mise à jour d’4.0.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notes de mise à jour d’3.8.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - Notes de mise à jour d’[4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - Notes de mise à jour d’[3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guide de l’utilisateur (nouvelle interface utilisateur) {#user-guide}
-   - Présentation {#about-aemg}
+   - Introduction {#about-aemg}
       - [À propos  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - Fonctionnalités [!DNL AEM Guides] et clés {#aemg-works-features}
          - [Fonctionnement  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
@@ -291,7 +295,7 @@ ht-degree: 9%
       - [Questions fréquentes](./user-guide/ai-assistant-faq.md)
    - Gérer le contenu de formation {#learning-training-content}
       - Guide de prise en main {#get-started}
-         - Présentation {#intro-lc}
+         - Introduction {#intro-lc}
             - [Présentation du contenu de formation](./learning-content/intro.md)
          - Configurer votre cours {#setup-course}
             - [Présentation du cours](./learning-content/course-overview.md)
@@ -342,7 +346,7 @@ ht-degree: 9%
       - Résolution des problèmes {#troubleshooting}
          - [Timeout de session](./user-guide/session-timeout-prompt.md)
 - Guide de l’utilisateur (ancienne interface utilisateur) {#user-guide-old-ui}
-   - [Présentation d’AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Présentation d’AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation et configuration {#install-guide}
    - On-Premise {#on-prem-ig}
       - [Notions de base sur site](./install-guide/introduction.md)
@@ -516,7 +520,7 @@ ht-degree: 9%
          - [Configuration de la recherche de l’interface utilisateur d’AEM Assets](./cs-install-guide/conf-dita-search.md)
       - [Annexe](./cs-install-guide/appendix.md)
 - Référence d’API {#api-reference}
-   - [Présentation](./api-reference/introduction.md)
+   - [Introduction](./api-reference/introduction.md)
    - [API REST pour la gestion des sorties](./api-reference/output-management.md)
    - [API REST pour utiliser les plans DITA](./api-reference/dita-map-management.md)
    - [API REST pour enregistrer un connecteur de source de données](./api-reference/data-source-connector.md)
@@ -583,7 +587,7 @@ ht-degree: 9%
                - [Widgets de rendu](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                - [Widgets de base](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
          - Prise en main {#getting-started}
-            - [Présentation](./guides-ui-extensions/getting-started/introduction.md)
+            - [Introduction](./guides-ui-extensions/getting-started/introduction.md)
             - [Guide d’installation](./guides-ui-extensions/getting-started/integrating-customisations.md)
             - [Présentation du référentiel d’extension](./guides-ui-extensions/getting-started/extension-repo-intro.md)
          - Personnalisations {#customisations}
