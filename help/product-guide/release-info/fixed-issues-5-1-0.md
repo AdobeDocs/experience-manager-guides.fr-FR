@@ -1,9 +1,9 @@
 ---
 title: Notes de mise à jour | Correction de problèmes dans Adobe Experience Manager Guides version 5.1.0
 description: Découvrez les correctifs de la version 5.1.0 d’Adobe Experience Manager Guides.
-source-git-commit: 64df76f371867469d738f59a174e7931176e8591
+source-git-commit: 6c29d5540f48c850416db279b4392b6042c8ca2c
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: '1789'
 ht-degree: 1%
 
 ---
@@ -109,7 +109,6 @@ Adobe a identifié les problèmes connus suivants pour la version 5.1.0 :
 
 - Le commentaire au niveau de la tâche le plus récent s’affiche dans l’e-mail de notification envoyé à l’initiateur de la tâche si le réviseur ou la réviseuse termine la tâche sans ajouter de commentaire. (GUIDES-33590)
 - Dans la boîte de dialogue Fusionner , la liste déroulante affiche incorrectement le Contenu principal au lieu d’afficher les versions disponibles de la rubrique sélectionnée. (GUIDES-30820)
-qui rend la liaison opérationnelle. (GUIDES-30820)
 - Le fait de basculer entre des paramètres prédéfinis qui utilisent la même ligne de base désactive le bouton Enregistrer du paramètre prédéfini actuel. (GUIDES-28025)
 - Une ligne vide est automatiquement insérée lors du collage d’un nouveau contenu dans une nouvelle ligne au sein d’un élément de bloc de code.(GUIDES-27842)
 - Une rubrique dans un plan DITA ne parvient pas à publier dans la sortie AEM Sites lorsqu&#39;elle est utilisée à la fois en tant que keydef et topicref dans ses sous-plans. (GUIDES-22269)
