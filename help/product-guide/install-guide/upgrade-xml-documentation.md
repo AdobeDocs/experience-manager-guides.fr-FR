@@ -63,7 +63,7 @@ Avant d’exécuter le processus, vous devez effectuer certaines tâches. Les so
 
 
 
-****Conditions préalables****
+**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
 
 Avant de commencer le processus de mise à niveau de Experience Manager Guides, vérifiez que vous disposez des éléments suivants :
 
@@ -136,7 +136,7 @@ La mise à niveau vers la version 4.2 dépend de la version actuelle de Experien
 
 Si vous utilisez la version 4.0, 4.1 ou 4.1.x, vous pouvez directement effectuer la mise à niveau vers la version 4.2.
 
-****Conditions préalables****
+**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.2, vérifiez que vous disposez des éléments suivants :
 
@@ -312,7 +312,7 @@ La mise à niveau vers la version 4.2.1 dépend de la version actuelle de Experi
 >
 >Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-****Conditions préalables****
+**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.2.1, vérifiez que vous disposez des éléments suivants :
 
@@ -489,7 +489,7 @@ La mise à niveau vers la version 4.3.0 dépend de la version actuelle de Experi
 >
 >Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-****Conditions préalables****
+**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.3.0, vérifiez que vous disposez des éléments suivants :
 
@@ -547,7 +547,7 @@ La mise à niveau vers la version 4.3.1 dépend de la version actuelle de Experi
 >
 >Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-****Conditions préalables****
+**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.3.1, vérifiez que vous disposez des éléments suivants :
 
@@ -788,7 +788,7 @@ La mise à niveau vers la version 4.4.0 dépend de la version actuelle de Experi
 >
 >Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-****Conditions préalables****
+**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.4.0, vérifiez que vous disposez des éléments suivants :
 
@@ -981,7 +981,7 @@ Si votre base de code contient un autre module de réécriture Sling personnalis
 Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000 à 50, vous devez fusionner le module de réécriture personnalisé existant, le cas échéant, avec `'fmdita-rewriter'`.
 
 
-**Rubrique parente :**[ Télécharger et installer](download-install.md)
+**Rubrique parente :**&#x200B;[ Télécharger et installer](download-install.md)
 
 
 ## Mise à niveau vers la version 4.6.0
@@ -996,7 +996,7 @@ La mise à niveau vers la version 4.6.0 dépend de la version actuelle de Experi
 >
 > Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-****Conditions préalables****
+**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.6.0, vérifiez que vous disposez des éléments suivants :
 
@@ -1151,7 +1151,7 @@ Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000
 >
 > Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-****Conditions préalables****
+**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 5.0.0, vérifiez que vous disposez des éléments suivants :
 
@@ -1315,7 +1315,7 @@ La définition d’index est mise à jour pour damAssetLucene avec des guides. C
 >
 > Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-****Conditions préalables****
+**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 5.1.0, vérifiez que vous disposez des éléments suivants :
 
