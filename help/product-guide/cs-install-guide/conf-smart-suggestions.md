@@ -2,9 +2,9 @@
 title: Configurer l’assistant AI pour l’aide et la création intelligentes
 description: Découvrez comment configurer l’assistant AI dans Experience Manager Guides
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
+source-git-commit: b5b4c5484593a2f7d9121da1c7bfb28dd2c36a57
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Pour ajouter la configuration IMS à l’environnement, procédez comme suit :
 1. Passez à l’onglet **Environnements**.
 1. Sélectionnez le nom de l’environnement à configurer. Vous devriez y accéder à la page **Informations sur l’environnement**.
 1. Passez à l’onglet **Configuration**.
-1. Mettez à jour le champ JSON SERVICE_ACCOUNT_DETAILS . Assurez-vous que vous utilisez le même nom et la même configuration que dans la capture d’écran suivante.
+1. Mettez à jour le champ JSON - `SERVICE_ACCOUNT_DETAILS`. Assurez-vous que vous utilisez le même nom et la même configuration que dans la capture d’écran suivante.
 
    ![configuration du compte de service ims](assets/ims-service-account-config.png){width="800" align="left"}
 

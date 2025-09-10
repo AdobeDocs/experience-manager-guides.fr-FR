@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: c9ea64eb0445ec5767ba62ac6f9c1871dc3e98a3
+source-git-commit: 1ef7379c71adcb73757ddc6d1fe34dc2f33fdc22
 workflow-type: tm+mt
-source-wordcount: '9118'
+source-wordcount: '9119'
 ht-degree: 0%
 
 ---
@@ -20,12 +20,12 @@ ht-degree: 0%
 
 Vous pouvez mettre à niveau votre version actuelle de Experience Manager Guides vers la version 5.1.0 :
 
-- Si vous utilisez la version 4.6.3, 4.6.4, 5.0.0 ou 5.0.0 du Service Pack 1, vous pouvez directement effectuer la mise à niveau vers la version 5.1.0.
+- Si vous utilisez les versions 4.6.3, 4.6.4, 5.0.0, 5.0.0 Service Pack 1 ou 5.0.0 Service Pack 2, vous pouvez directement effectuer la mise à niveau vers la version 5.1.0.
 - Si vous utilisez la version 4.6.0 ou 4.6.1, vous devez effectuer la mise à niveau vers la version 4.6.3, 4.6.4 ou 5.0.0 avant d’effectuer la mise à niveau vers la version 5.1.0.
 - Si vous utilisez la version 4.3.x, 4.2, 4.2.1 (correctif 4.2.1.3), 4.1 ou 4.1.x, vous devez effectuer la mise à niveau vers la version 4.4 avant d’effectuer la mise à niveau vers la version 5.0.0.
 - Si vous utilisez la version 4.0, vous devez effectuer la mise à niveau vers la version 4.2 avant d’effectuer la mise à niveau vers la version 4.3.x.
 - Si vous utilisez la version 3.8.5, vous devez effectuer la mise à niveau vers la version 4.0 avant de passer à la version 4.2.
-- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html).
+- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 >[!NOTE]
@@ -59,11 +59,11 @@ Avant d’exécuter le processus, vous devez effectuer certaines tâches. Les so
 
 >[!NOTE]
 >
-> Ce processus de mise à niveau s’applique uniquement de la version 3.8.5 à la version 4.0. Pour le processus de mise à niveau de la version 3.4 ou ultérieure vers la version 3.8.5, reportez-vous à la section *Mettre à niveau Experience Manager Guides* du guide d’installation spécifique au produit disponible sur [l’archive PDF de l’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html).
+> Ce processus de mise à niveau s’applique uniquement de la version 3.8.5 à la version 4.0. Pour le processus de mise à niveau de la version 3.4 ou ultérieure vers la version 3.8.5, reportez-vous à la section *Mettre à niveau Experience Manager Guides* du guide d’installation spécifique au produit disponible sur [l’archive PDF de l’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 
-**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
+****Conditions préalables****
 
 Avant de commencer le processus de mise à niveau de Experience Manager Guides, vérifiez que vous disposez des éléments suivants :
 
@@ -136,7 +136,7 @@ La mise à niveau vers la version 4.2 dépend de la version actuelle de Experien
 
 Si vous utilisez la version 4.0, 4.1 ou 4.1.x, vous pouvez directement effectuer la mise à niveau vers la version 4.2.
 
-**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
+****Conditions préalables****
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.2, vérifiez que vous disposez des éléments suivants :
 
@@ -312,7 +312,7 @@ La mise à niveau vers la version 4.2.1 dépend de la version actuelle de Experi
 >
 >Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
+****Conditions préalables****
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.2.1, vérifiez que vous disposez des éléments suivants :
 
@@ -489,7 +489,7 @@ La mise à niveau vers la version 4.3.0 dépend de la version actuelle de Experi
 >
 >Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
+****Conditions préalables****
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.3.0, vérifiez que vous disposez des éléments suivants :
 
@@ -547,7 +547,7 @@ La mise à niveau vers la version 4.3.1 dépend de la version actuelle de Experi
 >
 >Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
+****Conditions préalables****
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.3.1, vérifiez que vous disposez des éléments suivants :
 
@@ -788,7 +788,7 @@ La mise à niveau vers la version 4.4.0 dépend de la version actuelle de Experi
 >
 >Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
+****Conditions préalables****
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.4.0, vérifiez que vous disposez des éléments suivants :
 
@@ -981,7 +981,7 @@ Si votre base de code contient un autre module de réécriture Sling personnalis
 Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000 à 50, vous devez fusionner le module de réécriture personnalisé existant, le cas échéant, avec `'fmdita-rewriter'`.
 
 
-**Rubrique parente :**&#x200B;[ Télécharger et installer](download-install.md)
+**Rubrique parente :**[ Télécharger et installer](download-install.md)
 
 
 ## Mise à niveau vers la version 4.6.0
@@ -996,7 +996,7 @@ La mise à niveau vers la version 4.6.0 dépend de la version actuelle de Experi
 >
 > Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
+****Conditions préalables****
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.6.0, vérifiez que vous disposez des éléments suivants :
 
@@ -1145,13 +1145,13 @@ Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000
 
 >[!TIP]
 >
-> La mise à niveau vers la version 5.0.0 du pack de services 1 dépend de la version actuelle de Experience Manager Guides. Si vous utilisez la version 5.0.0, 4.6.4, 4.6.3, 4.6.1, 4.6.0 ou 4.4, vous pouvez directement effectuer la mise à niveau vers la version 5.0.0 du Service Pack 1.
+> La mise à niveau vers la version 5.0.0 du pack de services 2 dépend de la version actuelle de Experience Manager Guides. Si vous utilisez la version 5.0.0 Service Pack 1 ou 5.0.0, vous pouvez directement effectuer la mise à niveau vers la version 5.0.0 Service Pack 2.
 
 >[!NOTE]
 >
 > Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
+****Conditions préalables****
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 5.0.0, vérifiez que vous disposez des éléments suivants :
 
@@ -1299,7 +1299,7 @@ Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000
 
 ## Procédure de réindexation de damAssetLucene
 
-La définition d’index est mise à jour pour damAssetLucene avec des guides. Consultez [cet article](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-16460) pour réindexer damAssetLucene après la mise à niveau vers la version 5.0.0.
+La définition d’index est mise à jour pour damAssetLucene avec des guides. Consultez [cet article](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) pour réindexer damAssetLucene après la mise à niveau vers la version 5.0.0.
 
 >[!NOTE]
 >
@@ -1315,7 +1315,7 @@ La définition d’index est mise à jour pour damAssetLucene avec des guides. C
 >
 > Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
+****Conditions préalables****
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 5.1.0, vérifiez que vous disposez des éléments suivants :
 
@@ -1463,7 +1463,7 @@ Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000
 
 ## Procédure de réindexation de damAssetLucene
 
-La définition d’index est mise à jour pour damAssetLucene avec des guides. Consultez [cet article](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-16460) pour réindexer damAssetLucene après la mise à niveau vers la version 5.1.0.
+La définition d’index est mise à jour pour damAssetLucene avec des guides. Consultez [cet article](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) pour réindexer damAssetLucene après la mise à niveau vers la version 5.1.0.
 
 >[!NOTE]
 >
