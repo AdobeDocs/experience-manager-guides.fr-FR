@@ -1,9 +1,10 @@
 ---
 title: Générer une sortie SCORM
-description: Découvrez comment générer une sortie SCORM dans le contenu d’apprentissage et de formation
+description: Découvrez comment générer une sortie SCORM dans la formation et l’apprentissage des produits
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 3de623d6-c547-42a5-9ce4-c3e09accb8b1
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -28,6 +29,3 @@ Effectuez les étapes suivantes pour générer une sortie SCORM :
    ![](assets/scorm-view-output.png){width="650" align="left"}
 
 Vous pouvez charger le fichier ZIP dans votre LMS pour rendre le cours disponible pour vos élèves.
-
-
-

@@ -4,9 +4,9 @@ description: Découvrez le workflow Auteur pour le contenu d’apprentissage et 
 feature: Authoring
 role: User
 exl-id: 18b7e018-287c-4e52-a05e-5472eedf1c54
-source-git-commit: 98a520a255c5587ac0de82685391c0fc153bc8d1
+source-git-commit: 2cb5d104c9a02feb2148018975ca51edda593634
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '461'
 ht-degree: 1%
 
 ---
@@ -21,8 +21,10 @@ Cette page fournit un accès rapide aux vidéos qui présentent les principaux p
 | Référentiel et gestion des collections | Cette section présente la navigation dans le référentiel et la gestion des collections dans AEM Guides, y compris les actions sur les fichiers, la recherche et l’organisation du contenu. | [Vidéo de Launch](https://video.tv.adobe.com/v/3469539/learning-content-aem-guides){target="_blank"} |
 | Création de cours dans AEM Guides | Montre comment créer et gérer des cours dans AEM Guides, y compris des modèles, une hiérarchie de contenu, des quiz, un contrôle de version et une structure de cours. | [Vidéo de Launch](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content){target="_blank"} |
 | Création et modification de contenu d’apprentissage | Une présentation pratique de la création de contenu structuré dans AEM Guides, couvrant les modèles, la mise en forme, les médias, les liens hypertexte, les tableaux et les propriétés de contenu. | [Vidéo de Launch](https://video.tv.adobe.com/v/3469535/learning-content-aem-guides){target="_blank"} |
-| Création et modification de quiz | Ce guide détaillé sur la création de quiz dans AEM Guides couvre les modèles, les types de questions, le contenu riche, les commentaires et les propriétés de quiz. | [Vidéo de Launch](https://video.tv.adobe.com/v/3469541/aem-guides-learning-content){target="_blank"} |
-| Utilisation des banques de questions | Présentation de la création et de la réutilisation des banques de questions dans AEM Guides, y compris l’insertion, le comportement de modification, la randomisation et les bonnes pratiques pour les identifiants uniques. | [Vidéo de Launch](https://video.tv.adobe.com/v/3469313/aem-guides-learning-content){target="_blank"} |
+| Ajouter une rubrique d&#39;apprentissage | Démonstration de l’ajout d’une nouvelle rubrique aux cours dans AEM Guides. | [Vidéo de Launch](https://video.tv.adobe.com/v/3475211/learning-content-aem-guides){target="_blank"} |
+| Suppression d&#39;une rubrique et exploration des paramètres d&#39;affichage | Présentation de la suppression d’un sujet d’un cours et de l’exploration de l’option Afficher les paramètres . | [Vidéo de Launch](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides){target="_blank"} |
+| Création et modification de quiz | Ce guide détaillé sur la création de quiz dans AEM Guides couvre les modèles, les types de questions, le contenu riche, les commentaires et les propriétés de quiz. | [Vidéo de Launch](https://video.tv.adobe.com/v/3475209/aem-guides-learning-content){target="_blank"} |
+| Utilisation des banques de questions | Présentation de la création et de la réutilisation des banques de questions dans AEM Guides, y compris l’insertion, le comportement de modification, la randomisation et les bonnes pratiques pour les identifiants uniques. | [Vidéo de Launch](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides){target="_blank"} |
 | Présentation des propriétés de fichier | Présentation des métadonnées au niveau du fichier dans AEM Guides, telles que l’état du document, les balises, les attributs de contenu d’apprentissage, les références et les propriétés de contenu. | [Vidéo de Launch](https://video.tv.adobe.com/v/3469538/learning-content-aem-guides){target="_blank"} |
 | Mettre en forme le contenu d’apprentissage et la gestion CSS | Montre comment appliquer des styles intégrés et basés sur des panneaux dans le contenu de formation, gérer les limitations de style de quiz et configurer des styles à l’aide de l’éditeur CSS. | [Vidéo de Launch](https://video.tv.adobe.com/v/3469533/aem-guides-learning-content){target="_blank"} |
 | Modification avancée de contenu | Indique comment insérer et configurer des éléments avancés dans AEM Guides, notamment des widgets (accordéon, carrousel, zone réactive), des fichiers multimédias, des iFrames, des blocs de code et des guillemets. | [Vidéo de Launch](https://video.tv.adobe.com/v/3469531/learning-content-aem-guides){target="_blank"} |

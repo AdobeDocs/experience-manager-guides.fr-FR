@@ -1,20 +1,27 @@
 ---
-title: Ajouter des blocs de création de base à votre contenu d’apprentissage
-description: Découvrez les blocs de création de base que vous pouvez ajouter à votre contenu d’apprentissage dans le contenu d’apprentissage et de formation
+title: Ajouter des blocs de création de base
+description: Découvrez les blocs de création de base que vous pouvez ajouter à votre rubrique ou contenu d’apprentissage dans la section Formation et apprentissage du produit
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
-# Ajouter des blocs de création de base à votre contenu d’apprentissage
+# Ajouter des blocs de création de base à votre rubrique
 
-Vous pouvez utiliser les fonctionnalités de modification de base disponibles sur la barre d’outils du contenu de formation, comme décrit ci-dessous :
+Pour mieux comprendre comment créer une rubrique d’apprentissage et y ajouter des éléments de base, la vidéo suivante présente un bref aperçu des fonctionnalités disponibles.
 
-- **Widgets** : ajoutez des widgets tels que l’accordéon, le carrousel, les zones réactives et plus encore à votre contenu d’apprentissage à l’aide du menu **Insérer** comme illustré ci-dessous. Pour plus d’informations sur les widgets interactifs, voir [Utilisation de widgets interactifs](./lc-widgets.md).
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469535/learning-content-aem-guides)
+
+
+Vous pouvez utiliser les fonctions de modification de base disponibles dans la barre d’outils de l’éditeur, comme décrit ci-dessous :
+
+- **Widgets** : ajoutez des widgets tels que l’accordéon, le carrousel, les zones réactives et plus encore à votre sujet ou contenu d’apprentissage à l’aide du menu **Insérer** comme illustré ci-dessous. Pour plus d’informations sur les widgets interactifs, voir [Utilisation de widgets interactifs](./lc-widgets.md).
 
   ![](assets/widgets-learning-content.png){width="650" align="left"}
 
@@ -50,5 +57,3 @@ Vous pouvez utiliser les fonctionnalités de modification de base disponibles su
 - **Hyperliens** : ajoute des liens hypertexte à l’emplacement requis dans votre contenu. Vous pouvez l’utiliser à partir du menu **Plus** de la barre d’outils. Il peut s’agir d’une référence de fichier, d’une URL web ou d’un lien de courrier électronique, comme illustré ci-dessous.
 
   ![](assets/hyperlink-learning-content.png){width="650" align="left"}
-
-

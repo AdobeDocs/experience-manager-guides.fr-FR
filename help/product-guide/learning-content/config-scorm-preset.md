@@ -1,9 +1,10 @@
 ---
 title: Configuration du préréglage SCORM
-description: Découvrez les différentes configurations de paramètres prédéfinis SCORM dans le contenu d’apprentissage et de formation
+description: Découvrez les différentes configurations de paramètres prédéfinis SCORM dans la section Formation et apprentissage du produit
 feature: Authoring
 role: User
-source-git-commit: 110082f38f170d277dfd745a4fce77ad030707c3
+exl-id: b3000708-6120-4725-bea1-0b8e58048948
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -27,5 +28,3 @@ Une fois le paramètre prédéfini créé, configurez-le. Les options de configu
   ![](assets/scorm-publish-tab.png){width="650" align="left"}
 
 Une fois toutes les modifications configurées, enregistrez-les pour le paramètre prédéfini SCORM à l’aide de l’option **Enregistrer** dans le coin droit de la barre d’outils de la page du paramètre prédéfini SCORM.
-
-

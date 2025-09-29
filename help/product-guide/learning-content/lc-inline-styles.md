@@ -1,12 +1,13 @@
 ---
 title: Utiliser des styles intégrés
-description: Découvrez comment utiliser divers styles intégrés lors de la création du contenu d’apprentissage dans le contenu d’apprentissage et de formation
+description: Découvrez comment utiliser divers styles intégrés lors de la création de contenu d’apprentissage dans le produit Formation et apprentissage
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 78b62eb3-bc61-4c39-96b2-c0511d659ebf
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 1%
+source-wordcount: '261'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +19,14 @@ Appliquez des styles intégrés pour personnaliser l’apparence d’un texte sp
 >
 > Ces options de style ne sont visibles que si elles sont activées par l’administrateur.
 
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469533/aem-guides-learning-content)
+
+
+Les options de style en ligne suivantes sont disponibles.
+
 ![](assets/content-properties-learning-content.png){width="350" align="left"}
 
-Les options suivantes sont disponibles :
 
 - **Police :** vous permet de personnaliser l’aspect du texte à l’aide de diverses options telles que la famille de polices, l’épaisseur de la police, la décoration du texte, la taille de la police, etc. Ces paramètres vous aident à appliquer un style à votre contenu, comme illustré dans l’exemple ci-dessous.
 

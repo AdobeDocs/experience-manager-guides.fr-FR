@@ -1,11 +1,12 @@
 ---
 title: Préréglages pris en charge
-description: Présente les paramètres prédéfinis pris en charge pour publier un cours dans le contenu d’apprentissage et de formation
+description: Présente les paramètres prédéfinis pris en charge pour la publication d’un cours dans la formation et l’apprentissage du produit
 feature: Authoring
 role: User
-source-git-commit: 54956963caf6384e129da97ed0f2100913893977
+exl-id: 32f30bba-4600-4d75-b0bb-1093490ec11e
+source-git-commit: 37eeecfa5683ce9de95f576b185e98bf180fab18
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -18,6 +19,4 @@ Lors de la publication d’un cours, vous pouvez choisir SCORM et PDF pour diffu
 
 - **PDF :** le paramètre prédéfini de sortie PDF vous permet de publier le contenu du cours dans un format professionnel prêt à être imprimé. Le format PDF le rend idéal pour partager du contenu à des fins de révision ou d’archivage.
 
-
-
-
+Pour une présentation vidéo sur la création, la configuration et la génération d’une sortie pour un paramètre prédéfini, consultez la section [Création et configuration de paramètres prédéfinis](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content).

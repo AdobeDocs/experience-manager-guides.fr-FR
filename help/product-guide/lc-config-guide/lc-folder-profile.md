@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
+source-git-commit: 64adc89966e60823f6b46fb062b7659ed150cfc3
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 # Configuration des profils de dossier
 
 Un profil de dossiers est nécessaire pour séparer les configurations pour différents services ou produits de votre entreprise. Pour le contenu de formation et d’apprentissage, vous pouvez créer et configurer un profil au niveau du dossier pour gérer la création de modèles, de modèles de sortie, de paramètres prédéfinis de sortie et d’autres paramètres au niveau du dossier.
+
+Découvrez les [bonnes pratiques pour configurer la structure de dossiers](best-practices-folder-structure.md).
 
 Pour commencer à utiliser la configuration de profil de dossiers pour le contenu de formation, vous devez :
 
@@ -25,7 +27,6 @@ Pour commencer à utiliser la configuration de profil de dossiers pour le conten
    ![](assets/create-new-folder.png){width="350" align="left"}
 2. **Créer des dossiers de langue pour gérer la traduction** : si vous traduisez du contenu dans différentes langues, vous devez créer des dossiers correspondant à chaque langue. Chacun de ces dossiers de langue contient le contenu correspondant à cette langue.
 
-   Pour plus d’informations, consultez [Bonnes pratiques pour la traduction de contenu](../user-guide/translation-first-time.md).
 3. **Création d’un dossier pour gérer Assets** : comme pour les dossiers, vous pouvez également créer différents dossiers Assets pour répondre aux besoins des différents services. Ainsi, vous vous assurez également que les auteurs et les éditeurs ont accès au CSS correct configuré dans leurs modèles, images et autres ressources.
 
    ![](assets/configure-assets-folder.png){width="350" align="left"}

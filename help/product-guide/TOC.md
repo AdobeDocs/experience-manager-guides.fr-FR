@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: a437256345b923bbcdbfb3fcdd79d1e0f67bc9f7
+source-git-commit: fc250384e887f28ab22248e787d1b003d1fa966c
 workflow-type: tm+mt
-source-wordcount: '2370'
+source-wordcount: '2373'
 ht-degree: 9%
 
 ---
@@ -151,8 +151,8 @@ ht-degree: 9%
                - [Notes de mise à jour de la version 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notes de mise à jour 4.2](./release-info/release-notes-4-2.md)
          - [Notes de mise à jour 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notes de mise à jour d’4.0.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notes de mise à jour d’3.8.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - Notes de mise à jour d’[4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - Notes de mise à jour d’[3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guide de l’utilisateur (nouvelle interface utilisateur) {#user-guide}
    - Présentation {#about-aemg}
       - [À propos  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -291,7 +291,7 @@ ht-degree: 9%
       - [Afficher le statut de la tâche de génération de sortie](./user-guide/fm-output-view-status.md)
    - Assistant AI dans AEM Guides {#ai-assistant-aem}
       - [Informations d’identification des utilisateurs et utilisatrices d’Adobe Generative AI](./user-guide/adobe-generative-ai-disclosures.md)
-      - [Présentation de l’assistant AI](./user-guide/ai-assistant.md)
+      - [Vue d’ensemble de l’Assistant IA](./user-guide/ai-assistant.md)
       - [Aide intelligente optimisée par l’IA pour rechercher du contenu](./user-guide/ai-based-smart-help.md)
       - [Assistant AI Création pour créer des documents intelligemment](./user-guide/ai-assistant-right-panel.md)
       - [Suggestions intelligentes optimisées par l’IA pour créer du contenu](./user-guide/authoring-ai-based-smart-suggestions.md)
@@ -307,9 +307,9 @@ ht-degree: 9%
             - [Comprendre les bases du gestionnaire de cours](./learning-content/course-manager-basics.md)
             - [Gérer votre cours](./learning-content/manage-course.md)
          - Création et personnalisation de contenu d’apprentissage {#customize-lc}
-            - [Présentation du contenu d’apprentissage](./learning-content/lc-overview.md)
-            - [Create Learning content](./learning-content/create-content.md)
-            - [Edit Learning content](./learning-content/edit-content.md)
+            - [Vue d’ensemble](./learning-content/lc-overview.md)
+            - [Créer une rubrique](./learning-content/create-content.md)
+            - [Modifier le sujet](./learning-content/edit-content.md)
             - [Ajouter des blocs de création de base](./learning-content/lc-basic-blocks.md)
             - [Utilisation de widgets interactifs](./learning-content/lc-widgets.md)
             - [Utiliser des styles intégrés](./learning-content/lc-inline-styles.md)
@@ -318,10 +318,10 @@ ht-degree: 9%
             - [Créer un quiz](./learning-content/create-quiz.md)
             - [Modifier le quiz](./learning-content/edit-quiz.md)
             - [Insérer des questions dans un quiz](./learning-content/quiz-insert-questions.md)
+            - [ Propriétés du quiz ](./learning-content/quiz-properties.md)
             - Banque de questions {#question-bank}
                - [Créer une banque de questions](./learning-content/create-qb.md)
-               - [Insérer des questions à partir de la banque de questions](./learning-content/insert-questions.md)
-            - [ Propriétés du quiz ](./learning-content/quiz-properties.md)
+               - [Insérer des questions depuis la banque de questions](./learning-content/insert-questions.md)
          - Publier votre cours {#publish-course}
             - [À propos de la publication de cours](./learning-content/publish-overview.md)
             - [Préréglages pris en charge](./learning-content/course-presets.md)
@@ -336,6 +336,7 @@ ht-degree: 9%
       - Guide de configuration {#config-lc}
          - [À propos de ce guide](./lc-config-guide/introduction.md)
          - [Configuration des profils de dossier](./lc-config-guide/lc-folder-profile.md)
+         - [Bonnes pratiques pour configurer la structure de dossiers](./lc-config-guide/best-practices-folder-structure.md)
          - [Configurer d’autres paramètres](./lc-config-guide/lc-other-settings.md)
       - Tutoriels vidéo {#lc-video}
          - [Workflow de création](./lc-video-tutorials/author-workflow.md)
@@ -349,7 +350,7 @@ ht-degree: 9%
       - Résolution des problèmes {#troubleshooting}
          - [Timeout de session](./user-guide/session-timeout-prompt.md)
 - Guide de l’utilisateur (ancienne interface utilisateur) {#user-guide-old-ui}
-   - [Présentation d’AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Présentation d’AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation et configuration {#install-guide}
    - On-Premise {#on-prem-ig}
       - [Notions de base sur site](./install-guide/introduction.md)

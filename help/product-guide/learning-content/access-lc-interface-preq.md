@@ -1,9 +1,10 @@
 ---
 title: Exploration de l’interface et des conditions préalables
-description: Explorez l’interface et les conditions préalables lorsque vous utilisez le contenu d’apprentissage et de formation dans Adobe Experience Manager Guides.
+description: Explorez l’interface et les conditions préalables lorsque vous utilisez la formation produit et l’apprentissage dans Adobe Experience Manager Guides.
 feature: Authoring
 role: User
-source-git-commit: eda6c57d80359b1c70266708dc444f4880e1bf6c
+exl-id: b55af490-ebd5-4aa0-a5f3-84d835175dc9
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -26,11 +27,11 @@ Pour accéder à l’interface utilisateur d’, procédez comme suit :
    - **Éditeur** : éditeur convivial qui vous permet de créer du contenu de cours dans Experience Manager Guides.
    - **Console de cartes** : elle vous fournit un espace de travail dédié pour gérer tous les aspects de la publication des cours.
 
-   Pour plus d’informations, consultez l’expérience de la page d’accueil d’Adobe Experience Manager Guides [&#128279;](../user-guide/intro-home-page.md).
+   Pour plus d’informations, consultez l’expérience de la page d’accueil d’Adobe Experience Manager Guides [](../user-guide/intro-home-page.md).
 
    ![](assets/aem-navigation-switcher.png){width="350" align="left"}
 
-## Prérequis
+## Conditions préalables
 
 Pour commencer à utiliser l’interface utilisateur, vous devez d’abord configurer les **Profil de dossier** et **Chemin d’accès de base** dans les **Préférences utilisateur** sur la page d’accueil de Experience Manager Guides.
 
@@ -44,13 +45,3 @@ La page Préférences utilisateur se compose de deux onglets :
 - **Apparence** : permet de sélectionner les thèmes de l’application et la vue source du contenu d’apprentissage.
 
 Pour plus d’informations, consultez [Préférences utilisateur](../user-guide/intro-home-page.md#user-preferences) dans Experience Manager Guides.
-
-
-
-
-
-
-
-
-
-
