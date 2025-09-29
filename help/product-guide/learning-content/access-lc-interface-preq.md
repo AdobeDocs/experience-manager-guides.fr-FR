@@ -27,7 +27,7 @@ Pour accéder à l’interface utilisateur d’, procédez comme suit :
    - **Éditeur** : éditeur convivial qui vous permet de créer du contenu de cours dans Experience Manager Guides.
    - **Console de cartes** : elle vous fournit un espace de travail dédié pour gérer tous les aspects de la publication des cours.
 
-   Pour plus d’informations, consultez l’expérience de la page d’accueil d’Adobe Experience Manager Guides [](../user-guide/intro-home-page.md).
+   Pour plus d’informations, consultez l’expérience de la page d’accueil d’Adobe Experience Manager Guides [&#128279;](../user-guide/intro-home-page.md).
 
    ![](assets/aem-navigation-switcher.png){width="350" align="left"}
 
