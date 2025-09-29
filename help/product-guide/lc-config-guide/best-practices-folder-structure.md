@@ -73,5 +73,5 @@ Pour attribuer des autorisations, accédez à **Outils** > **Sécurité** > **Au
 
 Ces autorisations permettent de s’assurer que les utilisateurs peuvent créer ou modifier du contenu uniquement dans les dossiers qu’ils ont désignés.
 
-Pour plus d’informations, voir [Autorisations dans AEM](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security#permissions-in-aem).
+Pour plus d’informations, voir [Autorisations dans AEM](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/security/security#permissions-in-aem).
 
