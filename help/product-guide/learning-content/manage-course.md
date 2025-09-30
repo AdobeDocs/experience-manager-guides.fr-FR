@@ -4,7 +4,7 @@ description: Découvrez les différentes fonctionnalités de Experience Manager 
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 0c3cb192391248adcca4b845b5e4237531fc0ab7
+source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 1%
@@ -48,7 +48,7 @@ Le contenu du cours sélectionné est ajouté au cours à partir du référentie
 
 >[!NOTE]
 >
->Vous pouvez également utiliser l’option **Ajouter un fichier existant**>**Fichier (fichier compressé de ressource uniquement)** pour inclure un fichier zip qui est décompressé et intégré à la structure de dossiers de la sortie SCORM finale. Cela permet de rationaliser le conditionnement des ressources lors de la publication du cours.
+>Vous pouvez également utiliser l’option **Ajouter un fichier existant** > **Fichier (fichier compressé de ressources uniquement)** pour inclure un fichier zip qui est décompressé et intégré à la structure de dossiers de la sortie SCORM finale. Cela permet de rationaliser le conditionnement des ressources lors de la publication du cours.
 
 Pour un aperçu vidéo, consultez la section [Ajouter du contenu existant au cours](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
 
