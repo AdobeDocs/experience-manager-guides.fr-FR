@@ -4,9 +4,9 @@ description: Consultez efficacement les rubriques ou les cartes dans AEM Guides 
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
-source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
+source-git-commit: 6f18b2e4b5cd095f5b446fa9a78badfcdbefc068
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -50,9 +50,6 @@ Fonctionnalités disponibles pour les *réviseurs* :
 - Affichez en temps réel les commentaires des autres réviseurs ou les réponses aux commentaires de l’auteur.
 - Accéder aux commentaires fournis sur l&#39;ancienne version de la rubrique.
 
->[!NOTE]
->
-> Consultez la section *Révision* du guide des bonnes pratiques pour connaître les bonnes pratiques relatives à la création d’une tâche de révision.
 
 - **[Créer un projet DITA](authoring-create-dita-project.md)**
 
