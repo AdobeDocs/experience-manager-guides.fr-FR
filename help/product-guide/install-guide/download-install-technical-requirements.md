@@ -5,20 +5,16 @@ exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 939991b48826df5bf760d3c59b365bfb9efa795f
+source-git-commit: a288462d4e17a2f5d1d1072d8e6a7221f1431884
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '474'
 ht-degree: 1%
 
 ---
 
 # Exigences techniques {#id213BCG003XA}
 
-Avant d’installer Adobe Experience Manager Guides, assurez-vous que votre système répond aux exigences techniques suivantes pour la version donnée :
-
->[!IMPORTANT]
->
-> Pour la génération de sortie de site AEM dans la version 5.1.0, votre instance de publication Adobe Experience Manager doit avoir les packs de services 23, 22 et 21.
+Avant d’installer Adobe Experience Manager Guides, assurez-vous que votre système répond à la configuration technique requise mentionnée ci-dessous pour la version donnée.
 
 **Navigateur pris en charge**
 
@@ -32,7 +28,7 @@ Avant d’installer Adobe Experience Manager Guides, assurez-vous que votre syst
 
 | Version [!DNL AEM Guides] | Spécifications techniques |
 |---|---|
-| **AEM Guides 5.1.0** | **UUID 5.1.0** <ul><li> AEM 6.5 SP23, SP22 ou SP21<br><br> <li>   Java : 11 ou 8 <br><br>   <li>Systèmes d’exploitation : <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 et 6</ul> |
+| **AEM Guides 5.1.0** | **UUID 5.1.0** <ul><li> AEM 6.5 LTS SP1<br><ul><li>Java : 17 ou 21</li></ul> <br> <li> AEM 6.5 SP23, SP22 ou SP21 <br> <ul><li>Java : 11 ou 8 </li></ul> <br> <li>Systèmes d’exploitation : <br> <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 et 6</ul> |
 | **AEM Guides 5.0.0** | **UUID 5.0.0** <ul><li> AEM 6.5 SP 22, SP21 ou SP20<br><br> <li>   Java : 11 ou 8 <br><br>   <li>Systèmes d’exploitation : <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 et 6</ul> |
 | **AEM Guides 4.6.0** | **Non-UUID et UUID 4.6.0** <ul><li> AEM 6.5 SP 21, SP20 ou SP19<br><br> <li>   Java : 11 ou 8 <br><br>   <li>Systèmes d’exploitation : <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 et 6</ul> |
 | **AEM Guides 4.4.0** | **Non-UUID et UUID 4.4.0** <ul><li> AEM 6.5 SP20, SP19, SP18 ou SP17 <br><br> <li>   Java : 11 ou 8 <br><br>   <li>Systèmes d’exploitation : <ul><li> Windows Server 2012 R2 <br> <li>Red Hat Linux 7 et 6</ul> |
