@@ -5,7 +5,7 @@ exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 339fc84c2c3232dbe9946c0063c13a8bbef131a5
+source-git-commit: 7964049ac3a614886630a6f0ca21d53eeecb47c5
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 1%
@@ -35,7 +35,7 @@ Avant d’installer Adobe Experience Manager Guides, assurez-vous que votre syst
 | **AEM Guides 4.2** | **Non-UUID et UUID 4.2.1**<br><br><ul> <li>AEM 6.5 SP15, SP14, SP13 ou SP12 <br><br><li>Java : 11 ou 8   <br><br><li> Systèmes d’exploitation : <ul><li>Windows Server 2012 R2  <li>Red Hat Linux 7 et 6</ul></ul> <br>**Non-UUID et UUID 4.2**<br><br><ul> <li>AEM 6.5 SP15, SP14, SP13 ou SP12 <br><br><li>Java : 11 ou 8<br><br> <li> Systèmes d’exploitation : <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 et 6</ul> |
 | **AEM Guides 4.1** | **Non-UUID et UUID 4.1.2**<br><br> <ul><li>AEM 6.5 SP13, SP12, SP11 ou SP10 <br><br> <li>Java : 11 ou 8<br><br> <li>Systèmes d’exploitation : <ul><li>Windows Server 2012 R2 <br><li> Red Hat Linux 7 et 6 </ul></ul><br><br> **Non-UUID et UUID 4.1**<br><br><ul> <li>AEM 6.5 SP13, SP12, SP11 ou SP10 <br><li>Java : 11 ou 8<li>Systèmes d’exploitation : <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7 et 6 |
 | **AEM Guides 4.0** | **Non-UUID et UUID 4.0.3**<br><br><ul><li> AEM 6.5 SP12, SP11, SP10 ou SP9 <br><li>Java : 11 ou 8 <br><br> <li>Systèmes d’exploitation : <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 et 6<br><br> </ul></ul>**Non-UUID et UUID 4.0.2** <br><br><ul><li> AEM 6.5 SP12, SP11, SP10 ou SP9 <br><li>Java : 11 ou 8 <br><br> <li>Systèmes d’exploitation : <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 et 6<br><br> </ul></ul>**Non-UUID et UUID 4.0**<br> <br> <ul><li>AEM 6.5 SP11, SP10 ou SP9 <br><li>Java : 11 ou 8<br><br><li> Systèmes d’exploitation : <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7 et 6 |
-| **AEM Guides 3.8.5** <br> 3.8.5 est une version SP qui complète la version 3.8. La version <br>3.8 ne doit pas être installée de manière autonome, car le SP 3.8.5 contient un correctif critique. <br>Les clients doivent d’abord installer 3.8, puis le SP 3.8.5. | **Non-UUID** <br> <ul><li>AEM 6.5 SP9 ou SP8 <br> AEM 6.4 SP8 <br> AEM 6.3 SP3   <br><br> <li>Systèmes d’exploitation : <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7 et 6</ul><br> **UUID** <br><li> AEM 6.5 SP9 ou SP8 <br><br> <li> Systèmes d’exploitation : <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 et 6 |
+| **AEM Guides 3.8.5** <br><br> 3.8.5 est une version SP qui complète la version 3.8.  <br> version 3.8 ne doit pas être installée <br> une version autonome, car le SP 3.8.5 contient <br> correctif critique. <br> clients doivent d’abord installer la version 3.8 <br>puis le SP 3.8.5). | **Non-UUID** <br> <ul><li>AEM 6.5 SP9 ou SP8 <br> AEM 6.4 SP8 <br> AEM 6.3 SP3   <br><br> <li>Systèmes d’exploitation : <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7 et 6</ul><br> **UUID** <br><li> AEM 6.5 SP9 ou SP8 <br><br> <li> Systèmes d’exploitation : <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 et 6 |
 
 
 **Rubrique parente :** [Télécharger et installer](download-install.md)
