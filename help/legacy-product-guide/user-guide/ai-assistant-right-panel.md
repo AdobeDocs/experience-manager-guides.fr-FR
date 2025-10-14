@@ -18,7 +18,7 @@ Experience Manager Guides fournit un outil d’assistant d’IA qui vous aide à
 >[!NOTE]
 >
 > Pour ajouter la fonction Assistant IA dans le panneau de droite, votre administrateur système doit sélectionner l’option **Assistant IA** sous l’onglet **Panneaux** dans l’icône des paramètres **Workspace** ![Workspace](./images/editor_settings_icon.svg).
-> > En outre, vous devez extraire votre document pour afficher l’icône de l’assistant d’IA.
+> &#x200B;> En outre, vous devez extraire votre document pour afficher l’icône de l’assistant d’IA.
 
 Cette fonctionnalité est disponible uniquement pour les rubriques DITA. Après avoir sélectionné le texte d’une rubrique, vous pouvez choisir d’effectuer l’une des actions de l’assistant AI :
 
@@ -29,7 +29,7 @@ Cette fonctionnalité est disponible uniquement pour les rubriques DITA. Après 
 ## Suggérer du contenu réutilisable
 
 
-Utilisez la fonction **Suggérer du contenu réutilisable** ![ai Suggérer une icône ](./images/ai-suggest-reusable-content-icon.svg) de contenu réutilisable pour créer du contenu de manière cohérente et précise. Vous pouvez sélectionner le contenu et Experience Manager Guides fournit des suggestions sur la manière de réutiliser le contenu existant dans votre référentiel.
+Utilisez la fonction **Suggérer du contenu réutilisable** ![ai Suggérer une icône &#x200B;](./images/ai-suggest-reusable-content-icon.svg) de contenu réutilisable pour créer du contenu de manière cohérente et précise. Vous pouvez sélectionner le contenu et Experience Manager Guides fournit des suggestions sur la manière de réutiliser le contenu existant dans votre référentiel.
 En savoir plus sur l’utilisation de suggestions intelligentes optimisées par [IA pour créer du contenu](authoring-ai-based-smart-suggestions.md).
 
 
