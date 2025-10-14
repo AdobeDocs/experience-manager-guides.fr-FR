@@ -2,7 +2,8 @@
 title: Notes de mise à jour | Nouveautés de la version Adobe Experience Manager Guides 2025.08.0
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 2025.08.0 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: d418ffb254b11430509609b91e0174690815cf73
+exl-id: c3461d0a-6394-4275-9d54-b2b1545d7c18
+source-git-commit: 1a44af3522060ebc531393d4d01b1cd00eb02c10
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 2%
@@ -39,7 +40,7 @@ La dernière mise à jour introduit une configuration améliorée pour les **act
 
 Une fois que le bouton (bascule) **Assistant IA** est activé, les administrateurs peuvent sélectionner de manière sélective les actions rapides visibles sous l’onglet **Création**, ce qui permet de rationaliser les interactions de création. Ces paramètres de visibilité sont spécifiques à chaque profil de dossier.
 
-En savoir plus sur l’assistant [AI dans les paramètres de l’éditeur](../user-guide/web-editor-settings.md#general) dans Experience Manager Guides.
+En savoir plus sur l’assistant [AI dans les paramètres de l’éditeur](../cs-install-guide/workspace-settings.md#general) dans Experience Manager Guides.
 
 ![](assets/authoring-quick-actions.png){width="350" align="left"}
 
@@ -93,9 +94,3 @@ Avec cette version, les paramètres des onglets **Préférences utilisateur** Pa
 En outre, dans la barre d’outils de l’éditeur, certains boutons d’accès rapide permettant d’activer ou de désactiver le suivi des modifications, des balises et des espaces insécables sont désormais regroupés sous l’option **Afficher** dans la liste déroulante Menu pour une meilleure utilisation.
 
 Pour plus d’informations, voir [Barre d’outils dans l’éditeur](../user-guide/web-editor-toolbar.md#menu-dropdown).
-
-
-
-
-
-

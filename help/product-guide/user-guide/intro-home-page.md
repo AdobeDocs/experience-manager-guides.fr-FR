@@ -4,9 +4,9 @@ description: Découvrez la page d’accueil d’Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: 03f117381bda7d31b50085b83f309e24f9a75210
+source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,18 @@ Les fonctionnalités disponibles dans la barre de navigation sont expliquées co
   La fonctionnalité [Assistant AI](./ai-assistant.md) n’est actuellement disponible que pour Adobe Experience Manager as a Cloud Service.
 - **Personnaliser la section de présentation** : permet de masquer ou d’afficher les widgets dans la section Widgets.
 - **Profil de dossier en cours d’utilisation** : affiche le profil de dossier actuellement utilisé.
+- **Autres actions** : permet d’accéder à des options supplémentaires. Si vous sélectionnez ce bouton, un menu s’ouvre avec les options suivantes :
+
+   - **Assets** : vous dirige vers une destination en fonction de votre configuration.
+      - **Services cloud** : si vous utilisez des services cloud, la sélection de l’option **Assets** vous conduit à la page de navigation d’AEM.
+
+      - **Logiciel On-premise** : si vous utilisez Adobe Experience Manager Guides (4.2.1 et versions ultérieures), la sélection de l’option **Assets** vous conduit au chemin d’accès actuel au fichier dans l’interface utilisateur d’Assets.
+   - **Paramètres Workspace** : vous conduit à la boîte de dialogue **Paramètres Workspace**. Pour plus d’informations, consultez [Configuration des paramètres de Workspace](../cs-install-guide/workspace-settings.md).
+
+     >[!NOTE]
+     >
+     > Sur la page d’accueil d’, l’option des paramètres de Workspace est disponible uniquement pour la configuration des services cloud. Dans une configuration On-Premise, l’option Autres actions n’est pas disponible sur la page d’accueil. Cependant, vous pouvez toujours accéder aux paramètres appropriés via l’interface de l’éditeur et la console Carte, en accédant à Plus d’options > Paramètres.
+
 - **Développer la vue** : permet de développer la page vue à l’aide de l’icône **Développer**. Dans cette vue, la barre d’en-tête est masquée, ce qui optimise l’espace du contenu. Pour revenir à la vue standard, utilisez l’icône **Quitter la vue développée**.
 
 ## Panneau de gauche
@@ -169,7 +181,7 @@ Les préférences utilisateur sont disponibles pour tous les auteurs. À l’aid
 
 - **Apparence** : l’onglet Apparence vous propose les options de sélection des thèmes de l’application et de la vue source de la zone d’édition du contenu. Utilisez cet onglet pour configurer les paramètres suivants :
 
-  ![](images/user_preference_editor_appearance-new.png){align="left"}
+  ![](images/user_preference_editor_appearance.png){align="left"}
 
    - **Thème d’application et vue Source** : vous pouvez choisir parmi les thèmes Clair ou Sombre de l’application et de la vue source. Dans le cas du thème Clair , les barres d’outils et les panneaux utilisent un arrière-plan gris clair. Dans le cas du thème Sombre, les barres d’outils et les panneaux utilisent un arrière-plan noir. Sélectionnez **Utiliser l’appareil** le thème pour permettre à Experience Manager Guides de sélectionner les thèmes clairs et sombres en fonction du thème de votre appareil.
 

@@ -4,9 +4,9 @@ description: Découvrez comment créer un paramètre prédéfini de la base de c
 feature: Publishing
 role: User
 exl-id: 31fdfd96-377c-406b-96ed-59a80bf6e03e
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1260'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Cet onglet affiche l&#39;arborescence ou la vue hiérarchique de la carte. Chois
 Les options de configuration changent en fonction de la cible que vous sélectionnez.
 
 
-**Adobe Experience Manager**
+**Adobe Experience Manager**
 
 Les options de configuration suivantes s&#39;affichent pour **Adobe Experience Manager** en tant que cible :
 
@@ -86,7 +86,7 @@ Les options de configuration suivantes s’affichent pour **ServiceNow** en tant
 
 | Options ServiceNow | Description |
 | --- | --- |
-| Profil de publication | Utilisez la liste déroulante pour sélectionner un profil de connexion ServiceNow configuré par votre administrateur. Pour en savoir plus sur la manière dont votre administrateur peut créer un profil de publication, consultez la description de la fonctionnalité **Paramètres de l’éditeur** dans la section [Panneau de gauche](./web-editor-features.md#id2051EA0M0HS). |
+| Profil de publication | Utilisez la liste déroulante pour sélectionner un profil de connexion ServiceNow configuré par votre administrateur. Pour en savoir plus sur la manière dont votre administrateur peut créer un profil de publication, consultez la description de la fonctionnalité **Paramètres Workspace** (apparaissant sous la forme **Paramètres** pour **On-Prem**) dans la section [Panneau de gauche](./web-editor-features.md#id2051EA0M0HS). |
 | Base de connaissances | Utilisez ce champ pour sélectionner la base de connaissances ServiceNow requise. Vous pouvez configurer les bases de connaissances sur le site ServiceNow pour stocker le contenu en fonction des autorisations. Les articles de ce plan DITA peuvent être publiés dans ces bases de connaissances. |
 | Catégorie et sous-catégorie | Les catégories sont comme des arborescences hiérarchiques utilisées pour rechercher et classer les articles de la base de connaissances ServiceNow. Ajoutez une catégorie et une sous-catégorie pour publier les rubriques et sous-rubriques de la table des matières dans cette catégorie et sous-catégorie sur le site ServiceNow. |
 
@@ -96,7 +96,7 @@ Les options de configuration suivantes s&#39;affichent pour **Salesforce** en ta
 
 | Options de Salesforce | Description |
 | --- | --- |
-| Profil de publication | Utilisez la liste déroulante pour effectuer une sélection parmi les profils de connexion Salesforce configurés par votre administrateur. Pour en savoir plus sur la manière dont votre administrateur peut créer un profil de publication, consultez la description de la fonctionnalité **Paramètres** dans la section [Barre d’onglets](./web-editor-features.md#tab-bar). |
+| Profil de publication | Utilisez la liste déroulante pour effectuer une sélection parmi les profils de connexion Salesforce configurés par votre administrateur. Pour en savoir plus sur la manière dont votre administrateur peut créer un profil de publication, consultez la description de la fonctionnalité **Paramètres Workspace** (apparaissant sous la forme **Paramètres** pour **On-Prem**) dans la section [Barre d’onglets](./web-editor-features.md#tab-bar). |
 | Type d’enregistrement | Utilisez la liste déroulante pour sélectionner parmi les types d’enregistrements configurés dans Salesforce en fonction des paramètres de visibilité basés sur votre profil utilisateur. Les types d’enregistrements Salesforce permettent de regrouper de nombreux enregistrements d’un type pour cet objet. Elles définissent l&#39;organisation de votre publication. Par exemple, vous pouvez sélectionner le type d’enregistrement FAQ et publier en fonction de la mise en page et des champs de la page FAQ. |
 | Champ de contenu d’article | Vous pouvez disposer de différents champs et d’une mise en page unique pour chaque modèle de type d’enregistrement. Utilisez ces champs pour saisir des informations spécifiques en fonction du type d’article. Par exemple, vous pouvez afficher le titre, la réponse et l’équation d’un article de FAQ. |
 | Catégories | Sélectionnez une catégorie dans la liste déroulante pour publier les rubriques de la table des matières de cette catégorie sur le site Salesforce. |

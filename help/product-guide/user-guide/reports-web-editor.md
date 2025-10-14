@@ -4,9 +4,9 @@ description: Générez des rapports DITA map à partir de la console Map dans AE
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '2614'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,8 @@ Vous pouvez afficher le rapport de liste de rubriques d’une carte en procédan
    - **Emplacement du fichier** Chemin d’accès complet de la rubrique.
    - **Type de référence** type de référence : directe ou indirecte.
    - **État du document** État du topic.
-   - **Auteur** Dernier utilisateur à avoir travaillé sur le sujet.
+   - **Auteur** Dernier utilisateur à avoir travaillé sur le sujet. La liste est paginée et se charge de manière asynchrone, affichant un ensemble limité d’utilisateurs à la fois et en récupérant d’autres au fur et à mesure que vous faites défiler ou naviguez. Cela améliore la vitesse de chargement et les performances globales, en particulier lorsque vous travaillez avec un grand nombre d’utilisateurs.
    - **Mappage parent** liste de tous les mappages où la rubrique est directement référencée.
-
    >[!NOTE]
    >
    > Sélectionnez **Actualiser** pour obtenir une nouvelle liste des rubriques et afficher les modifications apportées à votre fichier de mappage ou si une référence de votre fichier de rubrique est mise à jour.
@@ -149,7 +148,7 @@ Pour mettre à jour les métadonnées, procédez comme suit :
 
 Cette fonctionnalité vous permet d’ajouter des colonnes de métadonnées personnalisées en fonction des besoins, qui sont ensuite affichées dans les rapports de métadonnées. Elle offre également une meilleure flexibilité dans la création de rapports de métadonnées. Pour ajouter une nouvelle colonne de métadonnées personnalisée, procédez comme suit :
 
-1. Pour ajouter une colonne de métadonnées personnalisée, sélectionnez **Paramètres** dans les trois points situés dans le coin supérieur droit de la page des métadonnées.
+1. Pour ajouter une colonne de métadonnées personnalisée, sélectionnez **Paramètres Workspace** (sous la forme **Paramètres** pour **On-Prem**) à partir des trois points situés dans le coin supérieur droit de la page des métadonnées.
 
    ![](images/custom-metadata-setting.png){width="600" align="left"}
 
@@ -207,7 +206,6 @@ Le rapport **Multimédia** fournit des informations détaillées sur le contenu 
    - **Type multimédia** \(sélectionné par défaut\) Type du fichier multimédia. Les options disponibles sont Audio, Vidéo ou Image.
    - **Utilisé dans** \(sélectionné par défaut\) Références dans lesquelles le contenu multimédia a été utilisé. Vous pouvez sélectionner la référence pour la modifier.
    - **Type de référence** \(sélectionné par défaut\) Le type de référence - direct ou indirect.
-
    >[!NOTE]
    >
    > Sélectionnez **Actualiser** pour obtenir une nouvelle liste des fichiers multimédias et afficher les modifications apportées à votre fichier de carte ou si des fichiers multimédias de votre carte DITA sont mis à jour.
@@ -268,4 +266,4 @@ Vous pouvez afficher le rapport pour les liens rompus en procédant comme suit :
 1. Sélectionnez **Télécharger** pour télécharger l&#39;instantané de tous les liens rompus dans le plan DITA. Le fichier Excel contient les colonnes sélectionnées et les liens rompus filtrés dans la vue Liens rompus.
 
 
-**Rubrique parente :**&#x200B;[ Présentation des rapports](reports-intro.md)
+**Rubrique parente :**[ Présentation des rapports](reports-intro.md)

@@ -4,9 +4,9 @@ description: Découvrez Map Console et les différentes fonctionnalités disponi
 feature: Publishing
 role: User
 exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,12 @@ L’interface de Map Console est principalement divisée en deux sections : **Ba
 
    - **Sélecteur de navigation** : permet une navigation transparente vers d’autres pages - Éditeur ou Page d’accueil :
    - **Fichier de mappage sélectionné** : affiche le nom du fichier de mappage actuellement sélectionné. Vous pouvez l’ouvrir dans l’éditeur ou choisir un autre fichier de mappage pour la console Mappage.
-   - **Autres actions** : fournit des options pour accéder à l’**interface utilisateur d’Assets** et aux **paramètres**. Pour plus d’informations, reportez-vous à la section **Autres actions** du document [Connaître les fonctionnalités de l’éditeur](./web-editor-features.md#tab-bar).
+   - **Autres actions** : fournit des options pour accéder aux paramètres de l’**interface utilisateur d’Assets** et de **Workspace**. Pour plus d’informations, consultez la [barre d’onglets](./web-editor-tab-bar.md).
+
+  >[!NOTE]
+  >
+  > Si vous utilisez Adobe Experience Manager Guides dans une configuration On-Premise , l’option des paramètres de Workspace continue à apparaître sous la forme **Paramètres** sous le menu Plus d’actions .
+
    - **Développer la vue** : permet de développer la page vue à l’aide de l’icône **Développer**. Dans cette vue, la barre d’en-tête est masquée, ce qui optimise l’espace du contenu. Pour revenir à la vue standard, utilisez l’icône **Quitter la vue développée**.
 
   >[!NOTE]
@@ -50,7 +55,7 @@ Pour plus d’informations, voir [Génération de sortie](./generate-output.md).
 
 **Création et gestion de rapports**
 
-Dans une configuration organisationnelle, vous souhaitez vérifier l’exhaustivité globale de votre documentation technique avant de commencer à travailler dessus ou à publier les documents en direct. Un tel besoin devient encore plus essentiel dans les environnements multi-utilisateurs et à grande échelle. Avec Map Console, vous avez accès aux rapports Experience Manager Guides qui donnent des informations utiles sur l’intégrité globale du contenu dans votre référentiel et sur la manière dont le contenu est utilisé dans le processus de documentation.
+Dans une configuration organisationnelle, vous souhaitez vérifier l’exhaustivité globale de votre documentation technique avant de commencer à travailler dessus ou à publier les documents en direct. Un tel besoin devient encore plus essentiel dans les environnements multi-utilisateurs et à grande échelle. Avec Map Console, vous avez accès aux rapports Experience Manager Guides qui donnent une insight utile sur l’intégrité globale du contenu dans votre référentiel et sur la manière dont le contenu est utilisé dans le processus de documentation.
 
 Pour plus d’informations, voir [Rapports dans Experience Manager Guides](./reports-intro.md).
 
@@ -77,6 +82,6 @@ Dans la console Mappage , vous avez accès à toutes les options requises pour c
 
 La fonction Workfront est également présente dans la console Carte, ce qui permet d’utiliser les tâches Adobe Workfront directement depuis Experience Manager Guides.
 
-En savoir plus sur l’intégration d’Adobe Workfront à Experience Manager Guides[&#128279;](./workfront-integration.md).
+En savoir plus sur l’intégration d’Adobe Workfront à Experience Manager Guides[.](./workfront-integration.md)
 
 Vous ne pouvez accéder à cette fonctionnalité que si votre administrateur a configuré l’intégration d’**Adobe Workfront** dans votre instance Experience Manager Guides.

@@ -4,9 +4,9 @@ description: Traduisez votre contenu dans plusieurs langues à partir de l’éd
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
 workflow-type: tm+mt
-source-wordcount: '2365'
+source-wordcount: '2376'
 ht-degree: 1%
 
 ---
@@ -157,7 +157,7 @@ Pour plus d’informations sur la configuration des profils globaux et au niveau
 
 Experience Manager Guides permet de transmettre le libellé du fichier source au fichier cible. Cela vous aidera à identifier facilement la version source du fichier traduit.
 
-Pour ajouter le libellé de la version source dans la copie cible, votre administrateur système doit activer l’option **Propager les libellés de la version source à la version cible** dans l’onglet **Traduction** de **Paramètres**.
+Pour ajouter le libellé de version source dans la copie cible, votre administrateur système doit activer l’option **Propager les libellés de version source à la version cible** dans l’onglet **Traduction** des paramètres **Workspace** (apparaissant sous la forme **Paramètres** pour **On-Prem**).
 
 Par exemple, si vous avez des fichiers source auxquels est appliqué le libellé de version `Release 1.0`, vous pouvez également transmettre le libellé source \(`Release 1.0`\) au fichier traduit.
 
@@ -219,11 +219,11 @@ Sélectionnez le nom de la référence dans la boîte de dialogue pour l’ouvri
 > 
 >Cette fonctionnalité est disponible pour les nouveaux projets de traduction que vous créez à l’aide de la version Experience Manager Guides 2404 ou ultérieure.  Cela n’aura aucune incidence sur les projets existants.
 
-Votre administrateur peut configurer l’option **Nettoyage du projet de traduction après l’achèvement** sous l’onglet **Traduction** dans **Paramètres de l’éditeur** pour désactiver ou supprimer automatiquement les projets de traduction.
+Votre administrateur peut configurer l’option **Nettoyage du projet de traduction après l’achèvement** sous l’onglet **Traduction** dans les paramètres de **Workspace** (apparaissant sous la forme **Paramètres** pour **On-Prem**) pour désactiver ou supprimer automatiquement les projets de traduction.
 
 Pour effectuer la gestion des documents, Experience Manager Guides permet de supprimer les projets de traduction une fois que vous avez terminé la traduction.
 
 Vous pouvez également désactiver les projets de traduction si vous souhaitez les utiliser ultérieurement. La suppression d’un projet supprime tous les fichiers et dossiers présents dans le projet. La désactivation d’un projet ne le supprime pas, mais le conserve dans le référentiel. Cependant, vous ne pouvez pas mettre à jour ni modifier un projet désactivé.  La suppression ou la désactivation d’un projet n’aura aucune incidence sur le statut de traduction des références.
 
 
-**Rubrique parente :**&#x200B;[ Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

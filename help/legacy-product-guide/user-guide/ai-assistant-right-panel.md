@@ -2,7 +2,8 @@
 title: Utiliser l’assistant AI pour créer des documents de manière intelligente « »
 description: Découvrez comment utiliser l’assistant d’IA pour créer des documents avec une efficacité intelligente dans l’éditeur web.
 hide: true
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+exl-id: c7d37da8-e838-47a2-b469-287bcd841933
+source-git-commit: 8659035c57ce2b6f760b342fa9d88d656fcabf23
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%
@@ -16,8 +17,8 @@ Experience Manager Guides fournit un outil d’assistant d’IA qui vous aide à
 
 >[!NOTE]
 >
-> Pour ajouter la fonction Assistant AI dans le panneau de droite, votre administrateur système doit sélectionner l’option **Assistant AI** sous l’onglet **Panneaux** dans l’icône **Paramètres de l’éditeur** ![Paramètres de l’éditeur](./images/editor_settings_icon.svg).
-> En outre, vous devez extraire votre document pour afficher l’icône de l’assistant d’IA.
+> Pour ajouter la fonction Assistant IA dans le panneau de droite, votre administrateur système doit sélectionner l’option **Assistant IA** sous l’onglet **Panneaux** dans l’icône des paramètres **Workspace** ![Workspace](./images/editor_settings_icon.svg).
+> > En outre, vous devez extraire votre document pour afficher l’icône de l’assistant d’IA.
 
 Cette fonctionnalité est disponible uniquement pour les rubriques DITA. Après avoir sélectionné le texte d’une rubrique, vous pouvez choisir d’effectuer l’une des actions de l’assistant AI :
 

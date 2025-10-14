@@ -4,9 +4,9 @@ description: Découvrez d’autres fonctionnalités de l’éditeur dans Adobe E
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: c8ea6eae180ce7045a0364713604711aae2bb6bd
+source-git-commit: b00f8ba0e27cc26c48e1b058e25c05c4b6e9dffd
 workflow-type: tm+mt
-source-wordcount: '2556'
+source-wordcount: '2652'
 ht-degree: 0%
 
 ---
@@ -230,7 +230,7 @@ Les éléments DITA contenant des sauts de ligne et des espaces sont pris en cha
 
 ## Gestion des espaces insécables dans l’éditeur
 
-- Vous pouvez insérer des espaces insécables dans votre document à l&#39;aide de l&#39;icône de ![](images/symbol-icon.svg) **Symobol** ou des touches de raccourci **Alt** + **Space**.  Ces espaces insécables s’affichent en tant qu’indicateurs lorsque vous modifiez une rubrique dans l’éditeur. Vous pouvez désactiver l’affichage des espaces insécables à l’aide de l’option **Afficher l’espace insécable en mode création** de l’onglet **Apparence** des [Préférences utilisateur](./intro-home-page.md#user-preferences).
+- Vous pouvez insérer des espaces insécables dans votre document à l&#39;aide de l&#39;icône de **** Symobol![](images/symbol-icon.svg) ou des touches de raccourci **Alt** + **Space**.  Ces espaces insécables s’affichent en tant qu’indicateurs lorsque vous modifiez une rubrique dans l’éditeur. Vous pouvez désactiver l’affichage des espaces insécables à l’aide de l’option **Afficher l’espace insécable en mode création** de l’onglet **Apparence** des [Préférences utilisateur](./intro-home-page.md#user-preferences).
 
 - Si vous copiez et collez du contenu avec un espace insécable à partir de sources externes dans la vue **Auteur**, l’espace insécable est converti en espace.
 Cependant, si vous copiez et collez du contenu avec un espace insécable à partir de la vue **Auteur**, il est conservé.
@@ -246,8 +246,19 @@ Procédez comme suit pour générer automatiquement un identifiant pour un ou pl
 1. Sélectionnez le contenu auquel vous souhaitez attribuer des identifiants.
 1. Cliquez avec le bouton droit et sélectionnez **Générer des identifiants** dans le menu contextuel.
 
-   Vous pouvez également cliquer avec le bouton droit dans le chemin de navigation et sélectionner **Générer des identifiants**.
+Vous pouvez également cliquer avec le bouton droit dans le chemin de navigation et sélectionner **Générer des identifiants**.
 
+## Identification des ID en double pour les éléments d’une carte ou d’une rubrique dans la vue de création
+
+Si une rubrique ou un mappage donné contient des éléments avec des identifiants en double, un bouton **Dupliquer les identifiants** s’affiche dans le coin inférieur droit de la zone de modification de contenu à côté des vues de l’éditeur.
+
+![](images/duplicate-element-IDs.png){width="350" align="left"}
+
+La sélection de **ID en double** ouvre une fenêtre contextuelle répertoriant tous les ID en double. Vous pouvez sélectionner l’identifiant affiché dans la fenêtre contextuelle pour accéder à l’élément correspondant et le mettre à jour avec un identifiant unique.
+
+>[!NOTE]
+>
+> Le bouton **Dupliquer les identifiants** est disponible uniquement dans la vue **Auteur** et des identifiants d’élément similaires sont autorisés pour différentes rubriques imbriquées.
 
 
 ## Gestion des fichiers volumineux dans l’éditeur
@@ -268,4 +279,4 @@ Les principales fonctionnalités visant à améliorer la gestion des fichiers vo
 
 - Le message d&#39;alerte est disponible uniquement pour les fichiers DITA et est visible dans tous les modes : Auteur, Source et Disposition.
 
-**Rubrique parente :**&#x200B;[ Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

@@ -4,9 +4,9 @@ description: connaître les fonctionnalités de l’éditeur de cartes dans Adob
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 02a149bbb40615c07d2744f0899a370c91eb83d2
+source-git-commit: 6235af9bf85b2d0e2007bd2279d8ac018f82ffc1
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2563'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ En outre, vous pouvez afficher les icônes suivantes et effectuer les tâches as
 
 **Insérer avant/Insérer après** - ![](images/insert_element_before_icon.svg)/![](images/insert_element_after_icon.svg)
 
-Affiche la boîte de dialogue **Insérer un élément avant ou &#x200B;** Insérer un élément après. Sélectionnez l&#39;élément à insérer dans le mappage. Selon l&#39;opération, le nouvel élément est inséré avant ou après l&#39;élément courant dans la carte.
+Affiche la boîte de dialogue **Insérer un élément avant ou **Insérer un élément après. Sélectionnez l&#39;élément à insérer dans le mappage. Selon l&#39;opération, le nouvel élément est inséré avant ou après l&#39;élément courant dans la carte.
 
 **Element** - ![](images/Add_icon.svg)
 
@@ -343,12 +343,12 @@ Le panneau de droite affiche les propriétés de contenu et les propriétés de 
 
 Le panneau Propriétés du contenu contient des informations sur le type de rubrique actuellement sélectionnée dans la carte, son URL de lien et ses attributs. Pour plus d’informations, consultez la section [Propriétés du contenu](web-editor-features.md#right-panel) dans l’éditeur.
 
-- **Autres attributs** Si votre administrateur a créé un profil pour les attributs, vous obtiendrez ces attributs ainsi que leurs valeurs configurées. À l’aide du panneau Propriétés du contenu , vous pouvez choisir ces attributs et les affecter au contenu approprié dans votre rubrique. Vous pouvez également affecter des attributs configurés par votre administrateur sous l’onglet **Afficher les attributs** dans les paramètres de l’éditeur. Les attributs définis pour un élément sont affichés en mode Mise en page et Plan. Cela vous permet d’avoir un aperçu rapide de toutes les rubriques d’un mappage pour lequel un attribut particulier est défini. Par exemple, toutes les rubriques qui possèdent l’attribut `audience` sont définies comme `US`.
+- **Autres attributs** Si votre administrateur a créé un profil pour les attributs, vous obtiendrez ces attributs ainsi que leurs valeurs configurées. À l’aide du panneau Propriétés du contenu , vous pouvez choisir ces attributs et les affecter au contenu approprié dans votre rubrique. Vous pouvez également affecter des attributs configurés par votre administrateur sous **Attributs d’affichage**. Les attributs définis pour un élément sont affichés en mode Mise en page et Plan. Cela vous permet d’avoir un aperçu rapide de toutes les rubriques d’un mappage pour lequel un attribut particulier est défini. Par exemple, toutes les rubriques qui possèdent l’attribut `audience` sont définies comme `US`.
 
   ![mode mise en page](images/layout-inline-attributes.png){width="650" align="left"}
 
 
-  Pour plus d’informations, consultez la section *Attributs d’affichage* dans la description de la fonctionnalité *Paramètres* dans l’[Éditeur](web-editor-features.md#main-toolbar).
+  Pour plus d’informations, consultez la section [Afficher les attributs](../cs-install-guide/workspace-settings.md#display-attributes).
 
 - **Métadonnées** à l’aide des métadonnées , vous pouvez définir les informations de métadonnées. Vous pouvez définir le titre de navigation, le texte du lien, la description courte et les mots-clés.
 

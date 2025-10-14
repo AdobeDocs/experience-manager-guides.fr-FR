@@ -4,9 +4,9 @@ description: Découvrez le panneau de gauche dans l’éditeur. Découvrez l’i
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 97e80f9115f84291a7190cf4c4cf25426b3a83bb
+source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
 workflow-type: tm+mt
-source-wordcount: '9390'
+source-wordcount: '9542'
 ht-degree: 0%
 
 ---
@@ -179,6 +179,15 @@ Vous pouvez afficher les options suivantes sous les onglets **Général** et **A
 Cette opération est synchronisée avec la zone de recherche de la fenêtre du référentiel. Par exemple, si vous saisissez `general purpose` dans la zone de recherche du panneau Référentiel, elle apparaît également dans la boîte de dialogue **Filtre avancé** et vice versa.
 
 - **Rechercher dans** : sélectionnez le chemin d’accès où vous souhaitez rechercher les fichiers présents dans le référentiel Adobe Experience Manager.
+- **Fichiers DITA** : vous pouvez rechercher toutes les **rubriques DITA** et **cartes DITA** présentes sur le chemin d&#39;accès sélectionné. Ils sont sélectionnés par défaut.
+- **Fichiers non-DITA** : vous pouvez rechercher **Fichiers Ditaval**, **Fichiers image**, **Multimédia**, **Documents** et **JSON** dans le chemin d’accès sélectionné.
+- **Verrouillé par** : affiche une liste d’utilisateurs. La liste est paginée et se charge de manière asynchrone, affichant un ensemble limité d’utilisateurs à la fois et en récupérant d’autres au fur et à mesure que vous faites défiler ou naviguez. Cela améliore la vitesse de chargement et les performances globales, en particulier lorsque vous travaillez avec un grand nombre d’utilisateurs.
+- **Modifié après** / **Modifié avant** : filtrez le contenu en fonction de la date de modification. Sélectionnez une période dans le calendrier ou choisissez l’une des options de période suivantes :
+   - Au cours des deux dernières heures
+   - La semaine dernière
+   - Le mois dernier
+   - L&#39;année dernière
+- **Balises** : filtrez le contenu en fonction des balises.
 
 **Avancé**
 
@@ -635,10 +644,8 @@ Si un élément de bloc possède son propre texte, il est affiché avec cet él�
 
 ![](images/outline-view-block-element.png){width="550" align="left"}
 
-Si votre administrateur a créé un profil pour les attributs, vous obtiendrez ces attributs ainsi que leurs valeurs configurées. Vous pouvez également attribuer les attributs d’affichage configurés par votre administrateur sous l’onglet **Attributs d’affichage** dans le **Paramètres**. Les attributs définis pour un élément sont affichés en mode Mise en page et Plan.
+Si votre administrateur a créé un profil pour les attributs, vous obtiendrez ces attributs ainsi que leurs valeurs configurées. Vous pouvez également attribuer les attributs d’affichage configurés par votre administrateur sous l’onglet **Attributs d’affichage** dans les paramètres de **Workspace** (apparaissant sous la forme **Paramètres** pour **On-Prem**). Les attributs définis pour un élément sont affichés en mode Mise en page et Plan.
 
-
-Pour plus d’informations, reportez-vous à la description de la fonctionnalité *Attributs d’affichage* dans le panneau de gauche *Paramètres*.
 
 **Fonction de recherche**
 
@@ -923,7 +930,7 @@ Effectuez les étapes suivantes pour modifier la valeur :
 
 Vous pouvez également appliquer des valeurs à un attribut en sélectionnant plusieurs valeurs dans la liste déroulante.
 
-Vue Source **&#x200B;**
+Vue Source ****
 
 Vous pouvez également modifier les valeurs à partir de la liste déroulante de l’attribut dans la vue Source. La vue Source vous empêche également d’ajouter une valeur incorrecte.
 
@@ -933,7 +940,7 @@ Vous pouvez également modifier les valeurs à partir de la liste déroulante de
 
 Vous pouvez également afficher et appliquer le schéma d&#39;objet à partir du panneau Conditions.
 
-Pour afficher le schéma d&#39;objet à partir du panneau Conditions, votre administrateur système doit sélectionner l&#39;option **Afficher le schéma d&#39;objet dans le panneau Conditions** sous l&#39;onglet Général dans Paramètres. Pour plus d’informations, consultez la section **Paramètres** dans la [barre d’onglets](./web-editor-tab-bar.md).
+Pour afficher le schéma d&#39;objet à partir du panneau Conditions, votre administrateur système doit sélectionner l&#39;option **Afficher le schéma d&#39;objet dans le panneau Conditions** sous l&#39;onglet Général dans les paramètres **Workspace** (apparaissant sous la forme **Paramètres** pour **On-Prem**). Pour plus d’informations, voir la [barre d’onglets](./web-editor-tab-bar.md).
 
 Le panneau Conditions affiche la structure verticale plate des définitions d&#39;objet dans le schéma d&#39;objet.
 
@@ -1056,9 +1063,9 @@ Pour effectuer la recherche globale et le remplacement, procédez comme suit :
 1. Sélectionnez **Remplacer une seule occurrence** \( ![](images/replace-icon.svg)\) pour remplacer le terme de recherche actuellement mis en surbrillance dans la rubrique ou sélectionnez Correspondance suivante ![](images/next-match-in-search.png) ou ![](images/previous-match-in-search.png) Correspondance précédente pour passer à l’occurrence suivante ou précédente du texte.
 1. Sélectionnez **Remplacer tout** \( ![](images/replace-all-in-file-icon.svg)\) pour remplacer toutes les occurrences du terme recherché dans un seul fichier par le terme de remplacement en un seul clic. Une notification vous sera présentée après le remplacement de toutes les occurrences dans le fichier sélectionné.
 
-Pour activer l’icône **Tout remplacer**, votre administrateur système doit sélectionner l’option **Activer tout remplacer** sous l’onglet **Général** dans **Paramètres**.
+Pour activer l’icône **Tout remplacer**, votre administrateur système doit sélectionner l’option **Activer tout remplacer** sous l’onglet **Général** dans les paramètres **Workspace** (qui apparaissent sous la forme **Paramètres** pour **Sur site**).
 
-    >[ !REMARQUE]
+    >[!REMARQUE]
     >
     > Survolez un fichier de la liste des résultats de recherche pour afficher l’icône Tout remplacer dans le fichier située à droite. Vous obtenez également l’icône Ignorer le fichier pour supprimer le fichier des résultats de recherche. Les fichiers que vous ignorez sont supprimés de la liste et le terme recherché n’y est pas remplacé.
 
@@ -1110,7 +1117,12 @@ Pour afficher les commentaires de révision dans les tâches de révision active
 
      ![](images/active-review-select-project.png){width="300" align="left"}
 
-     Activez l’option **Tâches que j’ai lancées** pour afficher uniquement les tâches que vous avez lancées. Le statut de basculement de cette option est conservé même après l’actualisation de la page. Activez l’option **Afficher uniquement les tâches actives** pour filtrer la liste des projets et afficher les tâches actuellement actives.
+     La boîte de dialogue **Filtre** comprend également les options suivantes, qui peuvent être activées ou désactivées à l’aide du bouton (bascule) :
+
+      - **Tâches que j’ai lancées** : lorsqu’elle est activée, affiche uniquement les tâches que vous avez lancées.
+      - **Afficher uniquement les tâches actives** : lorsqu’elle est activée, cette option filtre la liste des projets afin d’afficher uniquement les tâches actuellement actives.
+
+     Par défaut, les deux options sont désactivées. En outre, l’état de basculement sélectionné est conservé même après l’actualisation de la page.
 
 1. Par défaut, dans votre projet de révision, vous verrez une liste plate de sujets associés à des commentaires. Appliquez les filtres requis à partir du rail de gauche pour filtrer les rubriques en fonction des commentaires de révision qu’elles contiennent :
 
@@ -1130,4 +1142,4 @@ Pour afficher les commentaires de révision dans les tâches de révision active
 
 </details>
 
-**Rubrique parente :**&#x200B;[ Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

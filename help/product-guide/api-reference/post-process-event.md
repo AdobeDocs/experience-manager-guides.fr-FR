@@ -5,9 +5,9 @@ exl-id: 3b105ff5-02d4-40e3-a713-206a7fcf18b2
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 8c992afc1cc56052e6c07ac3cea6e7d3412259b2
+source-git-commit: 8e57d4048f4aa13d7f77f25082d4e7aa329ee355
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '414'
 ht-degree: 5%
 
 ---
@@ -22,6 +22,9 @@ Adobe Experience Manager Guides expose `com/adobe/guides/postprocess/complete` �
 - Créer
 - Modification
 
+>[!NOTE]
+>
+> L’événement de post-traitement est déclenché en activant l’indicateur de `fire.processing.events` qui est un paramètre de configuration dans le `fmdita config manager` . Lorsque la valeur est définie sur true, elle déclenche des événements (com/adobe/guides/postprocess/complete) pour effectuer le suivi de l’achèvement du post-traitement. Par défaut, elle est définie sur false (désactivée).
 
 Vous devez créer un gestionnaire d’événements Adobe Experience Manager pour lire les propriétés disponibles dans cet événement et effectuer un traitement ultérieur.
 

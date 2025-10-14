@@ -4,9 +4,9 @@ description: Découvrez comment traiter les commentaires de révision en tant qu
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: f8320d0e0b5982d932c9df46f8ccf35d5f44dbac
+source-git-commit: 35480e842f6c05811333a14e80c0e9b6431e9176
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1228'
 ht-degree: 0%
 
 ---
@@ -69,9 +69,10 @@ Dans l’éditeur, le panneau de droite contient les icônes Vérifier et Suivre
 - **G** : recherche un texte dans les commentaires.
 - **H** : accepter ou refuser un commentaire.
 
-- **I** : appliquer un filtre sur les commentaires. Vous pouvez filtrer les commentaires selon le type de révision \(tous, mis en surbrillance, supprimé, inséré ou pense-bête\), le statut de révision \(tous, acceptés, rejetés ou aucun\), les réviseurs \(tous ou certains réviseurs\(s\)\) ou les versions de rubrique.
+- **I** : appliquer un filtre sur les commentaires. Vous pouvez filtrer les commentaires selon le type de révision \(tous, mis en surbrillance, supprimé, inséré ou pense-bête\), le statut de révision \(tous, acceptés, rejetés ou aucun\), les réviseurs \(tous ou certains réviseurs\(s\)\) ou les versions de rubrique. Par défaut, aucun filtre n’est sélectionné.
 
-**Répondre à un commentaire en identifiant d’autres utilisateurs**
+  ![](images/review-comments-author-filter.png){width="350" align="left"}
+  **Répondre à un commentaire en identifiant d’autres utilisateurs**
 
 En tant qu’auteur et initiateur de la tâche de révision, vous pouvez répondre aux commentaires de révision et baliser les autres utilisateurs impliqués dans la même tâche de révision pour diriger leur attention ou attribuer des suivis. Cette fonctionnalité est disponible uniquement pour les tâches de révision actives.
 
@@ -90,4 +91,4 @@ Si vous êtes l’initiateur ou l’auteur d’une tâche de révision et que vo
 
 ![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
 
-**Rubrique parente :**&#x200B;[ Présentation de la révision](review.md)
+**Rubrique parente :**[ Présentation de la révision](review.md)

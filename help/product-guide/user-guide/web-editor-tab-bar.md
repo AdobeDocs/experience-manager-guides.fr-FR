@@ -3,9 +3,10 @@ title: Barre de tabulations dans l’éditeur
 description: Découvrez la barre d’onglets dans l’éditeur. Découvrez l’interface et les fonctionnalités de l’éditeur dans Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b3597cac602cf5a22aff9d8db108e3652591d662
+exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
+source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -50,6 +51,10 @@ Un outil puissant et piloté par l’IA conçu pour améliorer votre productivit
    - **Services cloud** : si vous utilisez des services cloud, la sélection de l’option **Assets** vous conduit à la page de navigation d’AEM.
 
    - **Logiciel On-premise** : si vous utilisez Adobe Experience Manager Guides (4.2.1 et versions ultérieures), la sélection de l’option **Assets** vous conduit au chemin d’accès actuel au fichier dans l’interface utilisateur d’Assets.
-- **Paramètres** : permet d’accéder à la boîte de dialogue Paramètres de l’éditeur. Pour plus d’informations, voir [Utilisation des paramètres de l’éditeur](./web-editor-settings.md).
+- **Paramètres de Workspace** : vous permet d’accéder à la boîte de dialogue des paramètres de Workspace. Pour plus d’informations, consultez [Configuration des paramètres de Workspace](../cs-install-guide/workspace-settings.md).
 
-**Rubrique parente :**&#x200B;[ Présentation de l’éditeur](web-editor.md)
+>[!NOTE]
+>
+> Si vous utilisez Adobe Experience Manager Guides dans une configuration On-Premise , l’option des paramètres de Workspace continue à apparaître sous la forme **Paramètres** sous le menu Plus d’actions .
+
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

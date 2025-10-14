@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: fc250384e887f28ab22248e787d1b003d1fa966c
+source-git-commit: fc262885e33f7874dd4a9a09cf3c90d3e6b805d5
 workflow-type: tm+mt
-source-wordcount: '2373'
+source-wordcount: '2401'
 ht-degree: 9%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 9%
       - Services cloud {#cloud-release-notes}
          - [Instructions de déploiement](./release-info/deploy-xml-on-aemaacs.md)
          - Versions De 2025 {#2025-releases}
+            - Version 2025.10.0 {#2510-release}
+               - [Nouveautés](./release-info/whats-new-2025-10-0.md)
+               - [Problèmes résolus](./release-info/fixed-issues-2025-10-0.md)
+               - [Instructions de mise à niveau](./release-info/upgrade-instructions-2025-10-0.md)
             - Version 2025.08.0 {#2508-release}
                - [Nouveautés](./release-info/whats-new-2025-08-0.md)
                - [Problèmes résolus](./release-info/fixed-issues-2025-08-0.md)
@@ -151,8 +155,8 @@ ht-degree: 9%
                - [Notes de mise à jour de la version 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notes de mise à jour 4.2](./release-info/release-notes-4-2.md)
          - [Notes de mise à jour 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notes de mise à jour d’4.0.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notes de mise à jour d’3.8.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - Notes de mise à jour d’[4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - Notes de mise à jour d’[3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guide de l’utilisateur (nouvelle interface utilisateur) {#user-guide}
    - Présentation {#about-aemg}
       - [À propos  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -181,7 +185,6 @@ ht-degree: 9%
             - [Zone d&#39;édition du contenu](./user-guide/web-editor-content-editing-area.md)
             - [Panneau de droite](./user-guide/web-editor-right-panel.md)
          - [Fonctionnalités supplémentaires de l’éditeur](./user-guide/web-editor-other-features.md)
-         - [Utilisation des paramètres de l’éditeur](./user-guide/web-editor-settings.md)
          - [Raccourcis clavier dans l’éditeur](./user-guide/web-editor-keyboard-shortcuts.md)
          - [Vues de l’éditeur](./user-guide/web-editor-views.md)
          - [Prise en charge des fichiers Schematron](./user-guide/support-schematron-file.md)
@@ -350,7 +353,7 @@ ht-degree: 9%
       - Résolution des problèmes {#troubleshooting}
          - [Timeout de session](./user-guide/session-timeout-prompt.md)
 - Guide de l’utilisateur (ancienne interface utilisateur) {#user-guide-old-ui}
-   - [Présentation d’AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Présentation d’AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation et configuration {#install-guide}
    - On-Premise {#on-prem-ig}
       - [Notions de base sur site](./install-guide/introduction.md)
@@ -369,8 +372,8 @@ ht-degree: 9%
       - Migration du contenu {#content-migration}
          - [Migration de contenu non UUID vers UUID](./install-guide/migrate-uuid-non-uuid.md)
          - Processus de migration {#migration-process}
-            - [Migrer du contenu non UUID avec les versions](./install-guide/migrate-non-uuid-uuid.md)
-            - [Migration de contenu non UUID avec des versions (héritées)](./install-guide/migrate-non-uuid-uuid-with-versions-legacy.md)
+            - [4.3.1 migration de contenu non UUID vers 4.3.2 UUID](./install-guide/migrate-non-uuid-4-3.md)
+            - [migration de contenu non UUID vers 4.6.1 UUID](./install-guide/migrate-non-uuid-uuid-4-6.md)
          - [Migration du contenu existant](./install-guide/migrate-content.md)
          - [Charger le contenu DITA existant](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [Migration de contenu non DITA](./install-guide/migrate-content-non-dita.md)
@@ -475,6 +478,8 @@ ht-degree: 9%
          - [Configurer un modèle de plan DITA personnalisé](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
       - Utilisation des états du document {#doc-state-cs}
          - [Configurer les états du document](./cs-install-guide/customize-doc-state.md)
+      - Configuration des paramètres de Workspace {#workspace-configs}
+         - [Paramètres Workspace](./cs-install-guide/workspace-settings.md)
       - Utiliser les configurations de l’éditeur web {#web-editor-configs-cs}
          - [Personnaliser l’éditeur web](./cs-install-guide/conf-web-editor.md)
          - [Personnaliser la barre d’outils](./cs-install-guide/conf-web-editor-customize-toolbar.md)
@@ -538,6 +543,7 @@ ht-degree: 9%
    - [API Java pour l’utilisation des profils de dossier](./api-reference/folder-profile-java.md)
    - [API Java pour la création et l’activation de packages](./api-reference/create-activate-package-java.md)
    - [Gestionnaire d&#39;événements de post-traitement](./api-reference/post-process-event.md)
+   - [API pour effectuer le suivi de l’état de post-traitement d’un dossier ou d’une ressource](./api-reference/track-post-processing-status.md)
    - [Gestionnaire d’événements d’activation en bloc terminée](./api-reference/bulk-activation-complete-event.md)
    - [Gestionnaire d&#39;événements de processus de conversion](./api-reference/conversion-complete-event.md)
 - Base de connaissances {#knowledge-base}

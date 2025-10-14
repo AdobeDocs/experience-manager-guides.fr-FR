@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -50,7 +50,6 @@ Par exemple, ajoutez `/conf/we-retail` dans la configuration cloud. Cette config
    * **Nom** : saisissez le nom du fragment de contenu. Par défaut, le nom est renseigné avec le titre du topic et les espaces sont remplacés par « _ ». Par exemple, *sample_content_fragment*. Vous pouvez le modifier.  Ce nom est utilisé pour générer l’URL du fragment de contenu.
 
    * Vous pouvez sélectionner différentes conditions pour créer des variantes de fragment de contenu. Sélectionnez l’une des options suivantes :
-
      >[!NOTE]
      > 
      > Les conditions ne sont activées que si les attributs de condition sont définis dans la rubrique.
@@ -113,4 +112,4 @@ Vous pouvez également effectuer les actions suivantes pour un fragment de conte
 
 Le nouveau script de migration de contenu UUID a été considérablement optimisé, ce qui rend la migration de contenu de Non-UUID vers UUID 30 fois plus rapide que le script précédent. Il comprend des fonctionnalités telles que la reprise à partir des points de contrôle, des informations en direct, un délai d’achèvement estimé et des rapports détaillés, afin d’assurer un processus de migration harmonieux. Le processus de migration préserve notamment les métadonnées des ressources sans modification. Le script a été testé et vérifié sur un jeu de données volumineux de 3 millions de ressources, confirmant son efficacité et sa fiabilité pour les migrations à grande échelle.
 
-En savoir plus sur [Migration de contenu non-UUID vers UUID](/help/product-guide/install-guide/migrate-non-uuid-uuid.md).
+En savoir plus sur [Migration de contenu non-UUID vers UUID](/help/product-guide/install-guide/migrate-non-uuid-4-3.md).

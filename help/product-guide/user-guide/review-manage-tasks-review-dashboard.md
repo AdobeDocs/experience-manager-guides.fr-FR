@@ -1,12 +1,12 @@
 ---
 title: Gérer les tâches de révision à l’aide du tableau de bord de révision
-description: Gérez les tâches de révision à partir du tableau de bord de révision dans AEM Guides. Découvrez comment effectuer des actions sous l’onglet Tâche, Contenu, Réviseurs et réviseuses et vérifier le statut d’une tâche de révision.
+description: Gérez les tâches de révision à partir du tableau de bord de révision dans AEM Guides. Découvrez comment effectuer des actions sous l’onglet Tâche, Contenu, Réviseurs et vérifier le statut d’une tâche de révision.
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: 19e521ed790a7ac25afab88e8878250f943d9bff
+source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,10 @@ Pour accéder au tableau de bord de révision et l’utiliser, procédez comme s
 
    Le tableau de bord de révision affiche les détails de la tâche de révision, tels que le nom de la tâche, l’auteur de la révision, la date de début de la révision, la date d’échéance, le statut, le nombre de nouveaux commentaires qui n’ont pas été acceptés ou rejetés par l’auteur et le nom des réviseurs. Les tâches sont répertoriées dans l’ordre des tâches nouvellement créées par rapport aux tâches plus anciennes.
 
+   Dans le tableau de bord Révision, le champ **Statut** peut afficher l’une des valeurs suivantes :
+   - **En cours** : cela indique que la révision est toujours en cours.
+   - **Fermé** : indique que la tâche de révision est terminée.
+
    >[!NOTE]
    >
    > Si vous sélectionnez le lien Tâche de révision , le fichier de rubrique ou de mappage envoyé pour révision est ouvert.
@@ -59,7 +63,7 @@ Pour accéder au tableau de bord de révision et l’utiliser, procédez comme s
 Vous pouvez effectuer les actions suivantes sous l’onglet **Tâche** :
 
 - Modifiez le titre de la tâche dans le champ **Titre**.
-- Ajoutez des personnes désignées par défaut dans la liste déroulante **Affecter à**. Les réviseurs et réviseuses que vous ajoutez ici ont accès à la révision de toutes les rubriques qui font partie de cette tâche de révision. Vous pouvez choisir de supprimer ou d’ajouter de manière sélective d’autres réviseurs ou réviseuses à des rubriques spécifiques à partir de l’onglet [Réviseurs ou réviseuses](#reviewer-tab-id199RF0N0MUI).
+- Ajoutez des personnes désignées par défaut dans la liste déroulante **Affecter à**. Les réviseurs et réviseuses que vous ajoutez ici ont accès à la révision de toutes les rubriques qui font partie de cette tâche de révision. Vous pouvez choisir de supprimer ou d’ajouter de manière sélective d’autres réviseurs ou réviseuses à des rubriques spécifiques à partir de l’onglet [Réviseurs ou réviseuses](#Reviewer-tab-id199RF0N0MUI).
 - Mettez à jour la description de la tâche dans le champ **Description**.
 - Modifiez la **Date d’échéance**. Vous pouvez retarder ou reporter l’échéance pour l’achèvement de la tâche.
 - Sélectionnez cette option pour empêcher les utilisateurs de consulter uniquement les rubriques qui leur sont affectées.
@@ -71,7 +75,7 @@ Vous pouvez effectuer les actions suivantes sous l’onglet **Tâche** :
 
   Si vous avez sélectionné une tâche de révision créée à partir d&#39;un plan DITA, les rubriques qui font partie du plan vous sont présentées. Vous pouvez ensuite choisir les rubriques que vous souhaitez inclure dans la nouvelle tâche de révision.
 
-  Dans le cas d’une tâche de révision dupliquée à partir d’une ou de plusieurs révisions de rubriques, seules ces rubriques sont affichées dans la liste des tâches de révision. Vous pouvez choisir de partager ces rubriques pour révision avec un ensemble différent de réviseurs.
+  Dans le cas d’une tâche de révision dupliquée à partir d’une ou de plusieurs révisions de rubriques, seules ces rubriques sont affichées dans la liste des tâches de révision. Vous pouvez choisir de partager ces rubriques pour révision avec un autre ensemble de réviseurs.
 
 - Sélectionnez **Fermer** pour accéder à la page Boîte de réception.
 
@@ -94,7 +98,7 @@ Vous pouvez effectuer les actions suivantes sous l’onglet **Contenu** :
 - Sélectionnez **Dupliquer** pour créer une tâche de révision en utilisant la tâche en cours comme base.
 
 
-## Onglet Réviseurs {#reviewer-tab-id199RF0N0MUI}
+## Onglet Réviseurs {#Reviewer-tab-id199RF0N0MUI}
 
 ![](images/reviewers-tab.png){align="left"}
 
@@ -109,25 +113,31 @@ Vous pouvez effectuer les actions suivantes sous l’onglet **Réviseurs** :
 
 - **Ajouter** : affiche la boîte de dialogue Ajouter des réviseurs. Vous pouvez saisir le nom d’un réviseur ou d’un rôle utilisateur \(ou groupe\) que vous souhaitez ajouter en tant que réviseur aux rubriques sélectionnées.
 - **Supprimer** : permet d’afficher la boîte de dialogue Supprimer les réviseurs. Vous pouvez saisir le nom d’un réviseur ou d’un rôle d’utilisateur \(ou d’un groupe\) que vous souhaitez supprimer des rubriques sélectionnées en tant que réviseur.
-- **Réaffecter** : affiche la boîte de dialogue Réaffecter les réviseurs. Vous pouvez saisir le nom d’un réviseur ou d’un rôle d’utilisateur \(ou d’un groupe\) auquel vous souhaitez affecter la tâche de révision. Cette action supprime tous les réviseurs existants des rubriques sélectionnées et affecte les nouveaux réviseurs à ces rubriques.
+- **Réaffecter** : affiche la boîte de dialogue Réaffecter les réviseurs. Vous pouvez saisir le nom d’un réviseur ou d’un rôle utilisateur \(ou d’un groupe\) auquel vous souhaitez affecter la tâche de révision. Cette action supprime tous les réviseurs existants des rubriques sélectionnées et affecte les nouveaux réviseurs à ces rubriques.
 - **Exporter** : permet d’exporter les détails de la tâche de révision dans un fichier CSV. Le fichier contient des détails tels que le chemin et le titre de la rubrique, le nom du réviseur et la version des rubriques envoyées pour révision.
 - **Modifier les validants** : si vous sélectionnez l’icône ![](images/edit_pencil_icon.svg) dans la liste de rubriques, la boîte de dialogue Modifier les validants s’affiche. Vous pouvez ajouter ou supprimer des réviseurs et réviseuses pour la rubrique sélectionnée à partir de cette boîte de dialogue.
 
 ## Vérifier le statut d’une tâche de révision {#check-review-status-id199RF0A0UHS}
 
-Sur la page principale Tableau de bord de révision, si vous sélectionnez une tâche de révision et choisissez **Statut**, le rapport de statut de la tâche de révision s’affiche.
+Dans Experience Manager Guides, chaque tâche de révision possède un statut qui reflète son statut actuel. Depuis le tableau de bord de révision, vous pouvez accéder à ces informations en sélectionnant une tâche et en choisissant l’option **Statut**.
 
-![](images/review-status-report.png){align="left"}
+![](images/review-dashboard-select-option.png){width="650" align="left"}
+
+Un rapport de statut de la tâche de révision s’ouvre, comme illustré ci-dessous :
+
+![](images/check-review-status-dashboard.png){width="650" align="left"}
+
+Vous pouvez également accéder au rapport d’état directement à partir du [panneau de révision](./web-editor-left-panel.md#review) dans l’éditeur. Ouvrez une tâche de révision active à partir du panneau de révision, sélectionnez **Mettre à jour la tâche** et choisissez **Vérifier le statut de révision**.
 
 Le rapport de statut de la tâche de révision contient les détails suivants :
 
 - Nom\(s) du réviseur ou de la réviseuse auquel la tâche de révision est affectée.
 - La colonne Statut indique le statut de révision. Le statut peut être l’un des suivants :
-   - **Non démarré** : le réviseur ou la réviseuse n’a pas encore ouvert le lien de révision.
-   - **En cours** : le réviseur ou la réviseuse a ouvert le lien de révision et est en train de réviser la rubrique.
-   - **Terminé** : le réviseur ou la réviseuse a terminé la révision en effectuant la tâche de révision qui lui a été assignée. La tâche de révision se trouve dans la boîte de réception de notifications AEM de chaque réviseur.
+   - **Non démarrée** : le réviseur n’a pas encore ouvert la tâche de révision.
+   - **En cours** : le réviseur a ouvert la tâche de révision et est en train de réviser la rubrique.
+   - **Terminé** : le réviseur ou la réviseuse a terminé la révision et a marqué la tâche comme terminée dans l’interface utilisateur de révision. La tâche de révision se trouve dans la boîte de réception de notifications AEM pour chaque réviseur.
 - Lorsqu’un réviseur ouvre un lien de révision et accède à une rubrique spécifique, celle-ci est ajoutée à la liste Rubriques révisées . Cela permet aux auteurs et aux autrices de déterminer si les réviseurs et réviseuses ont ouvert leurs sections respectives ou non. Si des commentaires sont formulés, ils sont indiqués entre parenthèses.
 - Nombre total de commentaires sur tous les sujets. Si plusieurs sujets sont en cours de révision, le nombre de commentaires pour chaque sujet est mentionné \(entre parenthèses\) en regard du nom du sujet.
-- Date du dernier accès à une rubrique par le réviseur ou la réviseuse.
+- Date du dernier accès à une rubrique par le réviseur.
 
-**Rubrique parente :**&#x200B;[ Présentation de la révision](review.md)
+**Rubrique parente :**[ Présentation de la révision](review.md)
