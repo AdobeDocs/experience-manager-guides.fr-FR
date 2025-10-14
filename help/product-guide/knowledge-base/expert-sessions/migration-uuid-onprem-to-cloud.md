@@ -50,7 +50,7 @@ Procédure de déplacement des guides (uuid) vers le cloud :
 
 ### Documentation
 
-- [ Déplacement vers AEM Cloud](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
+- [&#x200B; Déplacement vers AEM Cloud](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides : déplacez le contenu UID d’on-premise/AMS vers le cloud](../../cs-install-guide/migrate-on-premise-content-cloud.md)
 - [Outil de transfert de contenu : FAQ](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/content-migration/faq)
 - [AEM Guides : migration de contenu non uuid vers le cloud](../../install-guide/migrate-uuid-non-uuid.md)

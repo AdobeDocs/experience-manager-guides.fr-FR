@@ -49,4 +49,4 @@ Pour nettoyer les fichiers résiduels après la désinstallation, procédez comm
 1. Cliquez sur **Invalider le cache**.
 1. Nettoyez le cache du navigateur.
 
-**Rubrique parente :**&#x200B;[ Télécharger et installer](download-install.md)
+**Rubrique parente :**&#x200B;[&#x200B; Télécharger et installer](download-install.md)

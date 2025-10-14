@@ -34,4 +34,4 @@ En outre, l&#39;éditeur est compatible DITA et prend en charge les normes DITA 
 - **[Utiliser des libellés](web-editor-use-label.md)**
 
 
-**Rubrique parente :**&#x200B;[ créer du contenu à l’aide de Experience Manager Guides](authoring-content-xml-doc.md)
+**Rubrique parente :**&#x200B;[&#x200B; créer du contenu à l’aide de Experience Manager Guides](authoring-content-xml-doc.md)

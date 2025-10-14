@@ -396,4 +396,4 @@ Pour convertir vos documents structurés existants au format DITA, procédez com
 
 En utilisant le bloc `<config> </config>`, vous pouvez définir un ou plusieurs blocs de configurations pour la conversion. Le workflow de conversion est exécuté et la sortie finale sous la forme d’une rubrique DITA est enregistrée à l’emplacement spécifié dans l’élément `outputDir` .
 
-**Rubrique parente :**&#x200B;[ Migrer le contenu existant](migrate-content.md)
+**Rubrique parente :**&#x200B;[&#x200B; Migrer le contenu existant](migrate-content.md)

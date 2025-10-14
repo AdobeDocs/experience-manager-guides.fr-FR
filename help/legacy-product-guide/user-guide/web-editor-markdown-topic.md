@@ -62,4 +62,4 @@ Pour créer une rubrique Markdown à partir de l’éditeur web, procédez comme
 >
 > Si vous n’avez pas enregistré les modifications, une fenêtre contextuelle s’affiche et vous êtes invité à enregistrer votre rubrique avant de la fermer.
 
-**Rubrique parente :**&#x200B;[ Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur web](web-editor.md)

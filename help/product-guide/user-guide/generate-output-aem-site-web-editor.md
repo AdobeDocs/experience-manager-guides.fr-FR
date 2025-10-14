@@ -49,7 +49,7 @@ Pour créer le paramètre prédéfini AEM Sites à l’aide du mappage de compos
    Le paramètre prédéfini d’AEM Sites est créé.
 
 
-   ![Nouveau ](images/new-aem-sites-dialog-box.png){width="300" align="left"}
+   ![Nouveau &#x200B;](images/new-aem-sites-dialog-box.png){width="300" align="left"}
 
 <!-----------------------
 ### Generate the AEM Sites output using the templates
@@ -88,7 +88,7 @@ Dans la console Mappage , les options de configuration des paramètres prédéfi
 - Liste de sujets
 - Références de mappage croisé
 
-![Nouveau ](images/aem-sites-new-config.png){width="650" align="left"}
+![Nouveau &#x200B;](images/aem-sites-new-config.png){width="650" align="left"}
 
 **Général**
 
@@ -153,7 +153,7 @@ Dans la console Mappage , les options de configuration des paramètres prédéfi
 - Contenu
 - Références de mappage croisé
 
-![Nouveau ](images/aem-sites-preset-legacy-config.png){width="500" align="left"}
+![Nouveau &#x200B;](images/aem-sites-preset-legacy-config.png){width="500" align="left"}
 
 **Général**
 
@@ -171,7 +171,7 @@ L&#39;onglet **Général** contient les options de paramétrage suivantes :
 
 **Contenu**
 
-![Nouveau ](images/aem-sites-content-tab.png){width="650" align="left"}
+![Nouveau &#x200B;](images/aem-sites-content-tab.png){width="650" align="left"}
 
 L&#39;onglet **Contenu** contient les options de paramétrage suivantes :
 

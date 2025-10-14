@@ -45,7 +45,7 @@ Pour créer des configurations IMS dans Adobe Developer Console, procédez comme
 
 1. Créez des informations d’identification **OAuth** et enregistrez-les.
 
-   ![ Mosaïque d’informations d’identification OAuth dans la configuration de l’API ](assets/conf-ss-OAuth-credential.png)
+   ![&#x200B; Mosaïque d’informations d’identification OAuth dans la configuration de l’API &#x200B;](assets/conf-ss-OAuth-credential.png)
 
    *Configurer les informations d’identification OAuth dans votre API.*
 
@@ -53,7 +53,7 @@ Pour créer des configurations IMS dans Adobe Developer Console, procédez comme
 
 1. Cliquez sur le lien **OAuth de serveur à serveur** pour afficher les informations d’identification de votre projet.
 
-   ![ informations d’identification connectées ](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
+   ![&#x200B; informations d’identification connectées &#x200B;](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
 
    *Connectez-vous au projet pour afficher les informations d’identification.*
 

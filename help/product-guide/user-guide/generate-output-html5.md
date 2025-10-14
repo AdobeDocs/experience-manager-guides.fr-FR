@@ -108,4 +108,4 @@ Par exemple, **Chemin de sortie/Chemin de destination** - Ici, **Chemin de sorti
 
 
 
-**Rubrique parente :**&#x200B;[ Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)
+**Rubrique parente :**&#x200B;[&#x200B; Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)

@@ -17,4 +17,4 @@ Adobe Experience Manager Guides prend en charge la création de sortie pour les 
 
 Les sections suivantes décrivent les options disponibles pour les formats de sortie pris en charge.
 
-**Rubrique parente :**&#x200B;[ générer la sortie des documents FrameMaker](fm-output-generatation.md)
+**Rubrique parente :**&#x200B;[&#x200B; générer la sortie des documents FrameMaker](fm-output-generatation.md)

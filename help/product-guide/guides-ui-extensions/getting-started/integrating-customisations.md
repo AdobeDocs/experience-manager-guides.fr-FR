@@ -61,7 +61,7 @@ Valeur : `apps.fmdita.review_overrides`, `apps.fmdita.xml_editor.page_overrides`
 > Pour l’avant-dernière interface utilisateur, les valeurs sont les suivantes : `apps.fmdita.penultimate.xml_editor.page_overrides` et `apps.fmdita.review_overrides`
 
 
-![ Propriétés du dossier ](./../imgs/crxde_folder_properties.png)
+![&#x200B; Propriétés du dossier &#x200B;](./../imgs/crxde_folder_properties.png)
 
 - Pour ajouter les fichiers js créés, créez un fichier, par exemple, `tcx1.js` dans le nœud créé ci-dessus. Ici, ajoutez le code provenant de l’adresse `dist/guides-extension.umd.cjs` ou `dist/guides-extension.js`. Créez maintenant un nouveau fichier `js.txt`, ici nous ajoutons le nom de notre fichier js, qui dans ce cas serait :
 

@@ -54,7 +54,7 @@ Désormais, AEM Guides permet de publier une rubrique ou les éléments d’une 
 
 Capitalisez la puissance d’AEM Guides et des fragments de contenu et utilisez des fragments de contenu dans n’importe quel site AEM. Vous pouvez également extraire les détails via des API prises en charge par les fragments de contenu.
 
-![ option pour publier un fragment de contenu](assets/content-fragment-publish.png){width="550" align="left"}
+![&#x200B; option pour publier un fragment de contenu](assets/content-fragment-publish.png){width="550" align="left"}
 
 
 ## Améliorations des révisions
@@ -261,7 +261,7 @@ Une collection de cartes vous permet d’organiser plusieurs mappages et de les 
 * Vous pouvez désormais ajouter des paramètres prédéfinis de sortie du PDF natif à une collection de mappages et les utiliser pour générer la sortie du PDF.
 * Vous pouvez afficher les paramètres prédéfinis de profil global et de dossier créés par votre administrateur et les utiliser pour générer la sortie du PDF.
 * Désormais, vous pouvez non seulement sélectionner un paramètre prédéfini individuel, mais également activer tous les paramètres prédéfinis de profil de dossier pour un mappage DITA en une seule fois.
-  ![ Modifier une collection de cartes](assets/edit-map-collection.png){width="800" align="left"}
+  ![&#x200B; Modifier une collection de cartes](assets/edit-map-collection.png){width="800" align="left"}
 
 Pour plus d’informations, voir [Utiliser la collection de cartes pour la génération de sortie](../user-guide/generate-output-use-map-collection-output-generation.md).
 

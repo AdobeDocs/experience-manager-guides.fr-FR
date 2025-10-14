@@ -630,7 +630,7 @@ AEM Guides fournit la catégorie `apps.fmdita.dashboard-extn` pour la personnali
 
 >[!NOTE]
 >
-> Pour plus d’informations sur la création de la bibliothèque cliente AEM, voir [ Utilisation de bibliothèques côté client ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=fr).
+> Pour plus d’informations sur la création de la bibliothèque cliente AEM, voir [&#x200B; Utilisation de bibliothèques côté client &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=fr).
 
 ## Gérer le rendu des images pendant la génération de la sortie {#id177BF0G0VY4}
 

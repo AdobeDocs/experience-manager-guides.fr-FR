@@ -20,7 +20,7 @@ Les rubriques suivantes de la documentation d’AEM vous aideront à mieux compr
 
 - [Utilisateurs et groupes dans AEM](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
 
-- [ Autorisations dans AEM ](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
+- [&#x200B; Autorisations dans AEM &#x200B;](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
 
 - [Gestion des utilisateurs et des groupes](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
 
@@ -43,7 +43,7 @@ Le tableau suivant répertorie les différentes tâches et les groupes qui peuve
 | Créer un plan DITA | Oui |   | Oui |
 | Mapper les collections | Oui |   | Oui |
 | Créer une tâche de révision | Oui |   | Oui |
-| Rubrique [ révision 1](#fntarg_1) | Oui | Oui | Oui |
+| Rubrique [&#x200B; révision 1](#fntarg_1) | Oui | Oui | Oui |
 | Résolution de la clé | Oui |   | Oui |
 | Ouvrir dans FrameMaker | Oui |   | Oui |
 | Extraction/enregistrement | Oui |   | Oui |

@@ -38,4 +38,4 @@ Cette rubrique vous guide tout au long du processus de création d&#39;un plan D
 - **[Fonctionnalités supplémentaires de l’éditeur de cartes](map-editor-other-features.md)**
 
 
-**Rubrique parente :**&#x200B;[ créer du contenu à l’aide d’AEM Guides](authoring-content-xml-doc.md)
+**Rubrique parente :**&#x200B;[&#x200B; créer du contenu à l’aide d’AEM Guides](authoring-content-xml-doc.md)

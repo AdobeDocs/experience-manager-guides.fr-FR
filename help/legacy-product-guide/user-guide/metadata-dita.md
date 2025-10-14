@@ -16,6 +16,6 @@ ht-degree: 1%
 
 Adobe Experience Manager Assets vous offre la possibilité de créer des ressources et d’y ajouter des métadonnées. Vous pouvez conserver des métadonnées pour chaque ressource. Vous pouvez gérer les métadonnées avec vos ressources et également organiser et traiter automatiquement les ressources en fonction de leurs métadonnées.
 
-Pour plus d’informations sur la gestion des métadonnées dans AEM, consultez [ Gestion des métadonnées de vos ressources numériques ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/metadata.html?lang=fr).
+Pour plus d’informations sur la gestion des métadonnées dans AEM, consultez [&#x200B; Gestion des métadonnées de vos ressources numériques &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/metadata.html?lang=fr).
 
-**Rubrique parente :**&#x200B;[ Gérer les métadonnées](manage-metadata.md)
+**Rubrique parente :**&#x200B;[&#x200B; Gérer les métadonnées](manage-metadata.md)

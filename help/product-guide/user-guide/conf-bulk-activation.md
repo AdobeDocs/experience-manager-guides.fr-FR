@@ -41,4 +41,4 @@ Paramètres prédéfinis de sortie JSON.
 - **[Supprimer une collection de mappages d’activation en bloc](conf-bulk-activation-delete-map-collection.md)**
 
 
-**Rubrique parente :**&#x200B;[ Génération de sortie](generate-output.md)
+**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)

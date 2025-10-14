@@ -19,4 +19,4 @@ Vous pouvez produire des sorties dans des formats PDF, ePub, HTML et de nombreux
 
 *Contactez votre équipe de succès client pour que cette fonctionnalité soit activée dans l’environnement. Cette fonctionnalité n’est pas activée dans le cadre de la prise en charge prête à l’emploi.*
 
-**Rubrique parente :**&#x200B;[ Création de contenu à l’aide des outils de bureau](author-desktop-tools.md)
+**Rubrique parente :**&#x200B;[&#x200B; Création de contenu à l’aide des outils de bureau](author-desktop-tools.md)

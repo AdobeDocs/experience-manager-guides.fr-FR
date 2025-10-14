@@ -35,4 +35,4 @@ Effectuez les étapes suivantes pour afficher le chemin relatif ou l’UUID du c
 1. Cliquez sur **Enregistrer**.
 
 
-**Rubrique parente :**&#x200B;[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)

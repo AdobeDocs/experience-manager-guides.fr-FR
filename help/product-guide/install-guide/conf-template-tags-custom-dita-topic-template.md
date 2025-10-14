@@ -77,4 +77,4 @@ Pour configurer un dossier pour vos modèles de rubrique DITA personnalisés, pr
 
 Si l’emplacement spécifié existe dans la gestion des ressources numériques, tous les modèles de mappage et de rubrique par défaut sont copiés dans ce dossier. Si l’emplacement n’existe pas, le dossier est créé avec tous les modèles de mappage et de rubrique par défaut.
 
-**Rubrique parente :**&#x200B;[ Configuration de modèles de rubrique et de mappage](conf-template-tags.md)
+**Rubrique parente :**&#x200B;[&#x200B; Configuration de modèles de rubrique et de mappage](conf-template-tags.md)

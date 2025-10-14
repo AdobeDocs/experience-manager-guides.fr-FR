@@ -165,7 +165,7 @@ Vous trouverez ci-dessous les erreurs courantes qui peuvent se produire pendant 
 
 ### Exception de pointeur nul sous Windows/Mac OS
 
-![ &lbrace;null pointer exception](../assets/publishing/null-pointer-exception.png)
+![&#x200B; &lbrace;null pointer exception](../assets/publishing/null-pointer-exception.png)
 
 Si le problème persiste même après la correction des paramètres de l’environnement Java, veuillez revalider les éléments suivants :
 
@@ -175,7 +175,7 @@ Si le problème persiste même après la correction des paramètres de l’envir
 
 ### Bibliothèques manquantes dans RHEL 7 Linux OS
 
-![ bibliothèques manquantes](../assets/publishing/missing-libraries.png)
+![&#x200B; bibliothèques manquantes](../assets/publishing/missing-libraries.png)
 
 ### Délai d’expiration du processus Publish. Le processus ne s’est pas terminé pendant une période donnée de 0 ms
 

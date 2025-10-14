@@ -26,15 +26,15 @@ Ce processus comprend 3 étapes :
 
 ## Étape 1 : téléchargement de la police personnalisée vers le dossier de ressources de votre modèle
 
-![Chargement et importation de polices personnalisées ](../assets/publishing/custom-font1.png)
+![Chargement et importation de polices personnalisées &#x200B;](../assets/publishing/custom-font1.png)
 
 ## Étape 2 : apportez les modifications nécessaires à la feuille de style des modèles PDF
 
-![Police face dans la feuille de style du modèle du PDF ](../assets/publishing/custom-font2.png)
+![Police face dans la feuille de style du modèle du PDF &#x200B;](../assets/publishing/custom-font2.png)
 
 ## Étape 3 (facultative) : incorporation de la police utilisée dans PDF
 
-![Intégration de polices personnalisées dans le PDF DITA ](../assets/publishing/custom-font3.png)
+![Intégration de polices personnalisées dans le PDF DITA &#x200B;](../assets/publishing/custom-font3.png)
 
 ## Questions fréquentes
 
@@ -46,7 +46,7 @@ Ce processus comprend 3 étapes :
 >
 > Collez votre contenu CSS et apportez les modifications souhaitées dans votre fichier CSS.
 
-![ Utilisation de la police adobe dans le PDF DITA](../assets/publishing/custom-font4.png)
+![&#x200B; Utilisation de la police adobe dans le PDF DITA](../assets/publishing/custom-font4.png)
 
 
 - ### Ma police ne s’affiche pas en PDF

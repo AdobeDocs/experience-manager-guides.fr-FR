@@ -28,4 +28,4 @@ Pour afficher le statut de traduction d&#39;un plan DITA, procédez comme suit :
 
    ![](images/translation-status-new.png){align="left"}
 
-**Rubrique parente :**&#x200B;[ Présentation de la traduction de contenu](translation.md)
+**Rubrique parente :**&#x200B;[&#x200B; Présentation de la traduction de contenu](translation.md)

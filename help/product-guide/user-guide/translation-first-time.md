@@ -79,4 +79,4 @@ Une fois la traduction terminée, le statut de la tâche de traduction passe à 
 >- Si vous rejetez, supprimez ou annulez la tâche de traduction pour une rubrique présente dans plusieurs projets (pour l’un des projets), le statut de traduction **En cours** de la rubrique n’est pas rétabli, mais ce projet est supprimé de la liste de projets **En cours** pour cette ressource donnée.
 >- En outre, si vous annulez ou supprimez la tâche de traduction ou supprimez l’ensemble du projet, le statut de traduction **En cours** revient à son statut d’origine.
 
-**Rubrique parente :**&#x200B;[ Présentation de la traduction de contenu](translation.md)
+**Rubrique parente :**&#x200B;[&#x200B; Présentation de la traduction de contenu](translation.md)

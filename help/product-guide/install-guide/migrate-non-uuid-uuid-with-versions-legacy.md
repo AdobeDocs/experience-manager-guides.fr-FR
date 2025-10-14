@@ -76,12 +76,12 @@ Effectuez les vérifications suivantes sur la version non UUID (4.1 non UUID ou 
    * Durée estimée de la migration
    * Nombre de fichiers en erreur
 
-   ![ Onglet d&#39;évaluation de la compatibilité dans la migration](assets/migration-compatibility-assessment.png){width="800" align="left"}
+   ![&#x200B; Onglet d&#39;évaluation de la compatibilité dans la migration](assets/migration-compatibility-assessment.png){width="800" align="left"}
 
 
 1. Sélectionnez **Configurer les validations** dans le panneau de gauche. Ensuite, **Sélectionner la carte** et **Sélectionner le paramètre prédéfini** de la carte pour les configurer. La liste de validation de sortie actuelle affiche les fichiers de sortie présents avant la migration et peut être validée par rapport aux fichiers de sortie générés après la migration.
 
-   ![ Onglet Configurer les validations dans la migration](assets/migration-configure-validation.png){width="800" align="left"}
+   ![&#x200B; Onglet Configurer les validations dans la migration](assets/migration-configure-validation.png){width="800" align="left"}
 
 
 

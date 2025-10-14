@@ -26,7 +26,7 @@ Pour créer des paramètres prédéfinis de sortie pour votre plan DITA, procéd
 
    >[!NOTE]
    >
-   > Vous pouvez ajouter ou supprimer n’importe quelle rubrique de la carte à l’aide de l’éditeur de cartes avancé. Pour plus d’informations, voir [ Utilisation de l’éditeur de cartes avancé ](map-editor-advanced-map-editor.md#).
+   > Vous pouvez ajouter ou supprimer n’importe quelle rubrique de la carte à l’aide de l’éditeur de cartes avancé. Pour plus d’informations, voir [&#x200B; Utilisation de l’éditeur de cartes avancé &#x200B;](map-editor-advanced-map-editor.md#).
 
 1. Dans l&#39;onglet **Sortie**, sélectionnez l&#39;icône + pour créer un paramètre prédéfini de sortie pour votre plan DITA.
 
@@ -61,4 +61,4 @@ Pour créer des paramètres prédéfinis de sortie pour votre plan DITA, procéd
 
 ![](images/edit-preset_cs.png){width="550" align="left"}
 
-**Rubrique parente :**&#x200B;[ Publication basée sur des articles dans l’éditeur web](web-editor-article-publishing.md)
+**Rubrique parente :**&#x200B;[&#x200B; Publication basée sur des articles dans l’éditeur web](web-editor-article-publishing.md)

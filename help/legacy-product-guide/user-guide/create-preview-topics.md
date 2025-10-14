@@ -21,4 +21,4 @@ AEM Guides s&#39;accompagne d&#39;une puissante fonctionnalité de création de 
 - **[Prévisualiser une rubrique](web-editor-preview-topics.md)**
 
 
-**Rubrique parente :**&#x200B;[ Créer du contenu](authoring-content.md)
+**Rubrique parente :**&#x200B;[&#x200B; Créer du contenu](authoring-content.md)

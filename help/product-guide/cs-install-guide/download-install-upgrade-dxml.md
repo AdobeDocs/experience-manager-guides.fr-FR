@@ -31,4 +31,4 @@ ht-degree: 0%
 
 Une fois la mise à niveau terminée, tous les utilisateurs doivent vider le cache du navigateur avant d’utiliser la version mise à niveau d’AEM Guides.
 
-**Rubrique parente :**&#x200B;[ Télécharger et installer](download-install.md)
+**Rubrique parente :**&#x200B;[&#x200B; Télécharger et installer](download-install.md)

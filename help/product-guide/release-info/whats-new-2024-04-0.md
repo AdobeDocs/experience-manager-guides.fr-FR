@@ -68,7 +68,7 @@ Désormais, en plus d’activer la sortie de votre collection d’activation en 
 Cette fonctionnalité vous permet d’activer votre contenu vers une instance d’aperçu, ce qui vous permet de vérifier son aspect et son fonctionnement avant de l’activer vers l’instance **Publish**.
 
 
-![ onglet historique d’audit de collection d’activation en bloc créé](assets/bulk-collection-audit-history.png){width="800" align="left"}
+![&#x200B; onglet historique d’audit de collection d’activation en bloc créé](assets/bulk-collection-audit-history.png){width="800" align="left"}
 
 *Affichez les informations sur les sorties de mappage activées dans l’onglet **Historique d’audit**.*
 
@@ -160,7 +160,7 @@ Le filtrage des fichiers est maintenant amélioré. La redéfinition de la fonct
 
 Profitez d’avantages tels qu’un accès plus rapide aux fichiers importants et une interface utilisateur plus intuitive. Votre expérience de recherche devient plus fluide et plus efficace.
 
-![ ](assets/repository-filter-search-quick.png) {width="300" align="left"} filtre de recherche rapide
+![&#x200B; &#x200B;](assets/repository-filter-search-quick.png) {width="300" align="left"} filtre de recherche rapide
 
 *Utilisez les filtres rapides pour rechercher des fichiers DITA et non DITA.*
 

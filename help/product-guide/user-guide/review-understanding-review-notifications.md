@@ -59,4 +59,4 @@ Pour obtenir une liste complète des variables prédéfinies et consulter la per
 
 
 
-**Rubrique parente :**&#x200B;[ Présentation de la révision](review.md)
+**Rubrique parente :**&#x200B;[&#x200B; Présentation de la révision](review.md)

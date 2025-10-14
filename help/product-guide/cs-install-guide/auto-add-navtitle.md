@@ -57,4 +57,4 @@ Avec cette configuration, chaque fichier de référence que vous ajoutez à une 
 
 
 
-**Rubrique parente :**&#x200B;[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)

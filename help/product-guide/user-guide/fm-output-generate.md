@@ -30,4 +30,4 @@ Effectuez les étapes suivantes pour générer une sortie pour les documents Fra
 >
 > Vous pouvez afficher le statut actuel de la demande de génération de sortie en sélectionnant Sorties. Pour plus d’informations, voir [Afficher l’état de la tâche de génération de sortie](fm-output-view-status.md).
 
-**Rubrique parente :**&#x200B;[ générer la sortie des documents FrameMaker](fm-output-generatation.md)
+**Rubrique parente :**&#x200B;[&#x200B; générer la sortie des documents FrameMaker](fm-output-generatation.md)

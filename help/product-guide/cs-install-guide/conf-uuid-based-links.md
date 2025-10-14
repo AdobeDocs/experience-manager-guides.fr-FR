@@ -22,4 +22,4 @@ Suivez les instructions de la section [Remplacements de configuration](download-
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.uuid` | Booléen \(true/false\). Si vous souhaitez afficher le chemin relatif du contenu lié, définissez cette propriété sur false. <br> **Valeur par défaut** : true |
 
-**Rubrique parente :**&#x200B;[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)

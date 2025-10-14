@@ -33,7 +33,7 @@ Pour créer les paramètres prédéfinis AEM Sites à partir de l’éditeur web
 1. Sélectionnez **AEM Sites** dans la liste déroulante **Type** de la boîte de dialogue **Nouveau paramètre prédéfini de sortie**.
 1. Désélectionnez l’option **Utiliser le mappage de composant hérité** dans la boîte de dialogue **Nouveau paramètre prédéfini de sortie**.
 
-![Nouveau ](images/new-aem-sites-dialog-box.png)
+![Nouveau &#x200B;](images/new-aem-sites-dialog-box.png)
 
 
 
@@ -64,7 +64,7 @@ Certaines options peuvent différer pour les paramètres prédéfinis qui utilis
 
 Les configurations sont organisées sous les onglets **Général**, **Contenu**, **Liste de rubriques** et **Références de mappage croisé**.
 
-![ paramètres prédéfinis d’aem sites ](images/aem-sites-new-config.png)
+![&#x200B; paramètres prédéfinis d’aem sites &#x200B;](images/aem-sites-new-config.png)
 **Général**
 
 L’onglet **Général** contient les paramétrages suivants relatifs à la génération des sorties :

@@ -37,7 +37,7 @@ Vous connaissez déjà le fonctionnement de DITA-OT et sa structure de répertoi
 
 Avec le schéma de métadonnées AEM Assets, vous pouvez créer des champs de propriété personnalisés pour Assets dans AEM, et les utilisateurs peuvent affecter des métadonnées aux ressources. Prenons l’exemple d’une ressource _topic_ où une métadonnée nommée _customprop_ peut être définie pour un exemple. Consultez la capture d’écran ci-dessous :
 
-![ Définition des propriétés dans l’éditeur de métadonnées d’une ressource](../../assets/publishing/assets-metadata-properties-ui-customprop.png)
+![&#x200B; Définition des propriétés dans l’éditeur de métadonnées d’une ressource](../../assets/publishing/assets-metadata-properties-ui-customprop.png)
 
 
 ### Configuration des métadonnées sur le paramètre prédéfini de sortie ditamap à transmettre à DITA-OT
@@ -52,7 +52,7 @@ Voir la capture d’écran ci-dessous pour comprendre comment configurer le para
 5. Téléchargez le fichier temporaire à l’aide du bouton affiché sur le paramètre prédéfini
 
 Reportez-vous à la capture d’écran ci-dessous pour comprendre les étapes ci-dessus :
-![ Configuration d’un paramètre prédéfini de sortie pour une carte afin de transmettre des métadonnées](../../assets/publishing/map-outputpreset-html5-customprop.png)
+![&#x200B; Configuration d’un paramètre prédéfini de sortie pour une carte afin de transmettre des métadonnées](../../assets/publishing/map-outputpreset-html5-customprop.png)
 
 
 ### Mise en oeuvre du module externe DITA-OT
@@ -134,7 +134,7 @@ Consultez le code ci-dessous :
 ```
 
 Reportez-vous à la capture d’écran ci-dessous pour mettre en évidence les étapes ci-dessus
-![ étapes pour mettre en oeuvre le module externe dita-ot](../../assets/publishing/publishing-metadata-dita-ot-plugin-implementation.png)
+![&#x200B; étapes pour mettre en oeuvre le module externe dita-ot](../../assets/publishing/publishing-metadata-dita-ot-plugin-implementation.png)
 
 
 ### Test de l’implémentation du module externe

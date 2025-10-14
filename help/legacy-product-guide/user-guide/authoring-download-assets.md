@@ -36,7 +36,7 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA avec 
 
 1. Cliquez sur **Télécharger**. Dans la boîte de dialogue Télécharger la carte , vous pouvez choisir les options suivantes :
 
-   - **Utiliser niveau de référence** : sélectionnez cette option pour obtenir la liste des niveaux de référence créés pour le plan DITA. Pour télécharger le fichier de mappage et son contenu en fonction d&#39;une ligne de base spécifique, sélectionnez la ligne de base dans la liste déroulante. Pour plus d&#39;informations sur l&#39;utilisation des lignes de base, voir [ Utilisation des lignes de base ](generate-output-use-baseline-for-publishing.md#).
+   - **Utiliser niveau de référence** : sélectionnez cette option pour obtenir la liste des niveaux de référence créés pour le plan DITA. Pour télécharger le fichier de mappage et son contenu en fonction d&#39;une ligne de base spécifique, sélectionnez la ligne de base dans la liste déroulante. Pour plus d&#39;informations sur l&#39;utilisation des lignes de base, voir [&#x200B; Utilisation des lignes de base &#x200B;](generate-output-use-baseline-for-publishing.md#).
    - **Aplatir la hiérarchie de fichiers** : sélectionnez cette option pour enregistrer toutes les rubriques et tous les fichiers multimédias référencés dans un seul dossier.
 
    >[!NOTE]
@@ -59,4 +59,4 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA avec 
 
 Une fois la carte téléchargée, vous pouvez sélectionner la carte et utiliser l’icône Ouvrir en haut pour ouvrir le rapport sélectionné.
 
-**Rubrique parente :**&#x200B;[ Gérer le contenu](authoring.md)
+**Rubrique parente :**&#x200B;[&#x200B; Gérer le contenu](authoring.md)

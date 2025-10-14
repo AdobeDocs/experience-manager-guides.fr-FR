@@ -198,4 +198,4 @@ Cliquez sur **Actualiser** pour obtenir une nouvelle liste des liens rompus et a
 1. Cliquez sur **Télécharger CSV** pour télécharger l&#39;instantané actuel des liens rompus dans le plan DITA. Le fichier CSV contient les colonnes sélectionnées et les liens rompus filtrés dans la vue Liens rompus . Vous pouvez ensuite ouvrir et afficher ce fichier CSV dans n’importe quel éditeur de fichiers CSV.
 
 
-**Rubrique parente :**&#x200B;[ Rapports](reports-intro.md)
+**Rubrique parente :**&#x200B;[&#x200B; Rapports](reports-intro.md)

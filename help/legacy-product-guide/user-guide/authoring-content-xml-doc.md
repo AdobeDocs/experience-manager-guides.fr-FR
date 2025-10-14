@@ -27,4 +27,4 @@ AEM Guides est fourni avec les trois éditeurs prêts à l’emploi. vous pouvez
 - **[éditeur DITAVAL](ditaval-editor.md)**
 
 
-**Rubrique parente :**&#x200B;[ Créer du contenu](authoring-content.md)
+**Rubrique parente :**&#x200B;[&#x200B; Créer du contenu](authoring-content.md)

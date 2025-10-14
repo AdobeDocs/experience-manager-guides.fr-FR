@@ -42,4 +42,4 @@ Les options de paramètre prédéfini suivantes sont disponibles pour les format
 
 En tant qu’administrateur, Experience Manager Guides vous permet de créer et de gérer des paramètres prédéfinis de sortie pour les profils globaux et de dossiers. Pour plus d’informations, consultez [Gestion des paramètres prédéfinis de sortie de profil global et de dossier](./web-editor-manage-output-presets.md).
 
-**Rubrique parente :**&#x200B;[ Génération de sortie](generate-output.md)
+**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)

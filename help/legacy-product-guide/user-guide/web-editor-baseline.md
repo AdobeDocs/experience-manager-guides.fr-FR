@@ -114,11 +114,11 @@ Vous pouvez dupliquer une ligne de base et la modifier en fonction de vos besoin
    Dans **Sélectionner la version en fonction de**, vous pouvez choisir l’option **Copie exacte** ou l’option **Libellé** :
 
    - **Copie exacte** : Experience Manager Guides sélectionne la même version de toutes les rubriques et crée une copie exacte de la ligne de base dupliquée.
-   - **Libellé** : dans la liste déroulante, vous pouvez choisir l’un des [ libellés répertoriés](#labels-list). Experience Manager Guides sélectionne les versions des rubriques pour lesquelles le libellé sélectionné est défini, tandis que pour les autres rubriques, il sélectionne la version à partir de la ligne de base dupliquée. Par exemple, vous sélectionnez le libellé `Release 1.0` dans la liste déroulante, puis le service sélectionne les versions des rubriques pour lesquelles vous avez défini ce libellé. Pour toutes les autres rubriques, il sélectionne la version de la ligne de base dupliquée.
+   - **Libellé** : dans la liste déroulante, vous pouvez choisir l’un des [&#x200B; libellés répertoriés](#labels-list). Experience Manager Guides sélectionne les versions des rubriques pour lesquelles le libellé sélectionné est défini, tandis que pour les autres rubriques, il sélectionne la version à partir de la ligne de base dupliquée. Par exemple, vous sélectionnez le libellé `Release 1.0` dans la liste déroulante, puis le service sélectionne les versions des rubriques pour lesquelles vous avez défini ce libellé. Pour toutes les autres rubriques, il sélectionne la version de la ligne de base dupliquée.
 1. Cliquez sur **Dupliquer**.
 
 - **Renommer** ou **Supprimer** une ligne de base existante.
-- Ajoutez, supprimez ou modifiez des libellés existants à partir de l’option **Gérer les libellés** pour les lignes de base statiques. Si votre administrateur a configuré des libellés prédéfinis, ces libellés s’affichent dans la liste déroulante Ajouter un libellé . Pour plus d’informations sur l’ajout de libellés, voir [ Utiliser des libellés ](web-editor-use-label.md#).
+- Ajoutez, supprimez ou modifiez des libellés existants à partir de l’option **Gérer les libellés** pour les lignes de base statiques. Si votre administrateur a configuré des libellés prédéfinis, ces libellés s’affichent dans la liste déroulante Ajouter un libellé . Pour plus d’informations sur l’ajout de libellés, voir [&#x200B; Utiliser des libellés &#x200B;](web-editor-use-label.md#).
 
   >[!NOTE]
   >
@@ -154,4 +154,4 @@ Les libellés répertoriés dans la liste déroulante sont basés sur les critè
 
 Une fois la ligne de base modifiée, cliquez sur le bouton **Enregistrer** en haut pour enregistrer les modifications. Vous pouvez cliquer sur le bouton **Réinitialiser** si vous ne souhaitez pas enregistrer la modification et réinitialiser la ligne de base. Lorsque vous cliquez sur le bouton **Réinitialiser**, un avertissement s’affiche indiquant que vos modifications non enregistrées seraient perdues.
 
-**Rubrique parente :**&#x200B;[ Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur web](web-editor.md)

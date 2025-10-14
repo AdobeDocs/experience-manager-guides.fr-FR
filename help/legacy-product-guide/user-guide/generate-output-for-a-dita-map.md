@@ -39,7 +39,7 @@ Vous pouvez afficher le statut actuel de la demande de génération de sortie en
 
 Vous pouvez générer la sortie PDF pour un ou plusieurs paramètres prédéfinis de sortie créés pour un plan DITA à partir de l&#39;éditeur web. Pour plus d’informations, consultez [Utilisation du panneau Génération rapide pour générer et afficher la sortie des paramètres prédéfinis](web-editor-quick-generate-panel.md#).
 
-Vous pouvez également générer la sortie du site AEM pour une ou plusieurs rubriques, ou l&#39;ensemble du plan DITA à partir de l&#39;éditeur web. Pour plus d’informations, consultez la section [ Publication basée sur des articles à partir de l’éditeur web ](web-editor-article-publishing.md#id218CK0U019I).
+Vous pouvez également générer la sortie du site AEM pour une ou plusieurs rubriques, ou l&#39;ensemble du plan DITA à partir de l&#39;éditeur web. Pour plus d’informations, consultez la section [&#x200B; Publication basée sur des articles à partir de l’éditeur web &#x200B;](web-editor-article-publishing.md#id218CK0U019I).
 
 ## Génération incrémentielle de la sortie {#generating_standalone_topic}
 
@@ -106,7 +106,7 @@ Pour afficher la file d’attente de génération de sortie, procédez comme sui
 
      Répertorie les sorties qui sont en attente de génération ou qui sont en cours de génération. Les tâches en file d’attente ou en cours s’affichent avec une icône de couleur bleue devant le nom du paramètre prédéfini. Vous pouvez également trouver le paramètre ou le préréglage de génération de sortie utilisé pour la tâche mise en file d’attente, le type, l’utilisateur qui a initié la tâche, la durée écoulée depuis la mise en file d’attente de la tâche et le statut actuel.
 
-     Cliquez sur le lien pour accéder au tableau de bord **Publication** et afficher le statut d’exécution actuel. Une liste de toutes les tâches de publication actives est disponible dans le tableau de bord de publication. Les liens **Sorties mises en file d’attente** et **Tableau de bord de publication** ne s’affichent que lorsque des sorties sont en attente de génération ou en cours de génération. Elles n’apparaissent pas une fois les tâches de sortie terminées. Pour plus d’informations sur le tableau de bord de publication, voir [ Gérer les tâches de publication à l’aide du tableau de bord de publication ](generate-output-publish-dashboard.md#).
+     Cliquez sur le lien pour accéder au tableau de bord **Publication** et afficher le statut d’exécution actuel. Une liste de toutes les tâches de publication actives est disponible dans le tableau de bord de publication. Les liens **Sorties mises en file d’attente** et **Tableau de bord de publication** ne s’affichent que lorsque des sorties sont en attente de génération ou en cours de génération. Elles n’apparaissent pas une fois les tâches de sortie terminées. Pour plus d’informations sur le tableau de bord de publication, voir [&#x200B; Gérer les tâches de publication à l’aide du tableau de bord de publication &#x200B;](generate-output-publish-dashboard.md#).
 
    - **Sorties générées**
 
@@ -169,4 +169,4 @@ Effectuez les étapes suivantes pour supprimer une tâche de sortie de la liste 
    La tâche est supprimée de la liste des Sorties générées .
 
 
-**Rubrique parente :**&#x200B;[ Génération de sortie](generate-output.md)
+**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)

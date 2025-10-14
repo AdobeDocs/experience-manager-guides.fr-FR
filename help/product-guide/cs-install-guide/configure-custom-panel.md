@@ -58,4 +58,4 @@ tcx.ready(function () { //Ready will call the callback after editor code is set 
 });
 ```
 
-**Rubrique parente :**&#x200B;[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)

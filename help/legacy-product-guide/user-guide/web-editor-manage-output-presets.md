@@ -54,4 +54,4 @@ Vous pouvez également effectuer les opérations suivantes sur le paramètre pr�
 >
 > Lorsqu’un paramètre prédéfini de sortie dans les profils globaux et de dossier est supprimé, il est répercuté dans tous les mappages associés et n’apparaît pas sous l’onglet **Sortie**.
 
-**Rubrique parente :**&#x200B;[ Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur web](web-editor.md)

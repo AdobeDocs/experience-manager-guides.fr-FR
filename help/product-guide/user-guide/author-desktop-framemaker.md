@@ -15,4 +15,4 @@ ht-degree: 0%
 
 FrameMaker prend en charge la création et la publication de contenu dans AEM Guides. FrameMaker est livré avec un connecteur d’usine vers Adobe Experience Manager. FrameMaker vous offre également une interface conviviale qui vous permet de gérer des versions de vos documents dans un environnement collaboratif et distribué. Vous pouvez créer votre contenu dans FrameMaker et le publier dans différents formats (PDF, HTML5, EPUB et DITA). Vous pouvez également effectuer diverses opérations de gestion de fichiers, telles que l’extraction, l’extraction avec dépendances, l’archivage, l’actualisation, etc. Pour plus d’informations, voir [Aide sur les FrameMakers](https://help.adobe.com/en_US/framemaker/using/index.html).
 
-**Rubrique parente :**&#x200B;[ Création de contenu à l’aide des outils de bureau](author-desktop-tools.md)
+**Rubrique parente :**&#x200B;[&#x200B; Création de contenu à l’aide des outils de bureau](author-desktop-tools.md)

@@ -31,7 +31,7 @@ Effectuez les étapes suivantes pour générer une sortie basée sur un article 
 
 1. Dans l’invite **Confirmer les fichiers à publier**, sélectionnez les fichiers à publier et confirmez en sélectionnant **Publier**.
 
-   ![Nouveau ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
+   ![Nouveau &#x200B;](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
    Vous verrez l’état du processus de génération de sortie. La colonne **Rubriques** répertorie les rubriques pour lesquelles une sortie est générée tandis que la colonne **Statut** affiche le statut de publication de chaque rubrique.
 
@@ -46,4 +46,4 @@ Effectuez les étapes suivantes pour générer une sortie basée sur un article 
    > Vous pouvez également Renommer, Dupliquer ou Supprimer un paramètre prédéfini de sortie existant à partir du menu Options.
 
 
-**Rubrique parente :**&#x200B;[ Utiliser l’éditeur](web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur](web-editor.md)

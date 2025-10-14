@@ -38,7 +38,7 @@ Experience Manager Guides fournit également quelques améliorations utiles dans
 - Vous pouvez facilement filtrer le contenu avec des conditions lors de la publication sur un fragment de contenu, à l’aide d’un fichier DITAVAL ou d’attributs conditionnels.
 - Vous pouvez également publier et afficher les fragments de contenu d’une rubrique à partir de la section **Sorties** dans les **Propriétés du fichier**.
 
-![ Onglet Options des propriétés de fichier ](./assets/file-properties-outputs-tab.png){width="300" align="left"}
+![&#x200B; Onglet Options des propriétés de fichier &#x200B;](./assets/file-properties-outputs-tab.png){width="300" align="left"}
 
 Pour plus d’informations, voir [Fragments de contenu Publish](../user-guide/publish-content-fragment.md).
 
@@ -64,7 +64,7 @@ Vous pouvez également sélectionner du contenu partiel sur plusieurs éléments
 
 Globalement, ces améliorations offrent une meilleure expérience et vous aident à améliorer votre efficacité lors de la modification de vos documents.
 
-Pour plus d’informations, voir [Sélection partielle de contenu sur l’élément ](../user-guide/web-editor-edit-topics.md#partial-selection-of-content-across-elements).
+Pour plus d’informations, voir [Sélection partielle de contenu sur l’élément &#x200B;](../user-guide/web-editor-edit-topics.md#partial-selection-of-content-across-elements).
 
 ## Prise en charge des documents Markdown dans la publication en PDF natif
 

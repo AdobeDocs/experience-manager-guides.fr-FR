@@ -119,7 +119,7 @@ En tant qu’administrateur AEM, procédez comme suit pour installer le package 
 
    Le gestionnaire de modules gère les modules de votre installation AEM locale. Pour plus d’informations sur l’utilisation du gestionnaire de modules, voir [Utilisation de modules](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=fr) dans la documentation AEM.
 
-   ![ ](images/package-manager.png) {width="650" align="left"}
+   ![&#x200B; &#x200B;](images/package-manager.png) {width="650" align="left"}
 
 1. Pour charger le package Oxygen, cliquez sur **Télécharger le package**.
 1. Dans la boîte de dialogue Télécharger le package , accédez au fichier de package Oxygen que vous avez téléchargé à l’étape 1, puis cliquez sur OK.
@@ -209,7 +209,7 @@ Effectuez les étapes suivantes pour configurer les paramètres de connexion dan
 
 1. Dans le panneau AEM Guides, cliquez sur l’icône des paramètres, puis sélectionnez **Paramètres**.
 
-   ![ Paramètres de connexion ](images/settings.png){width="800" align="left"}
+   ![&#x200B; Paramètres de connexion &#x200B;](images/settings.png){width="800" align="left"}
 
 1. Indiquez les informations suivantes :
    - **URL du serveur** : URL du serveur AEM, par exemple :

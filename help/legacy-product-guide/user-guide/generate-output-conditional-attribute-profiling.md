@@ -59,4 +59,4 @@ L’attribut `platform` est stocké dans le système. Chaque fois qu’un auteur
 
 ![](images/properties-tab.png){width="350" align="left"}
 
-**Rubrique parente :**&#x200B;[ Génération de sortie](generate-output.md)
+**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)

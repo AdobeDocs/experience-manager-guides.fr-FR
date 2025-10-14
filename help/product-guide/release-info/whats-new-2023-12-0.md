@@ -124,7 +124,7 @@ Experience Manager Guides offre désormais une expérience utilisateur amélior�
 Il permet également de dupliquer une ligne de base en fonction du libellé. La version de référence est sélectionnée en fonction du libellé donné (s’il existe) lors de la duplication ou sélectionne la version à partir de la ligne de base dupliquée.
 
 
-![dupliquer une ligne de base ](assets/duplicate-baseline.png) {width="300" align="left"}
+![dupliquer une ligne de base &#x200B;](assets/duplicate-baseline.png) {width="300" align="left"}
 
 *Dupliquez une ligne de base à partir d&#39;un libellé ou créez une copie exacte.*
 

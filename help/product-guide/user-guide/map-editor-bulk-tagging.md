@@ -107,4 +107,4 @@ Pour supprimer toutes les balises d’une ou de plusieurs rubriques, procédez c
 
 Si une longue liste de balises est appliquée à vos rubriques, la navigation peut s’avérer un peu fastidieuse. Vous pouvez facilement masquer les balises dans dans la vue de la console Plan DITA en sélectionnant l&#39;icône Masquer les balises . De même, lorsque les balises ne sont pas visibles, si vous sélectionnez Afficher les balises , toutes les balises sont affichées.
 
-**Rubrique parente :**&#x200B;[ Gérer les métadonnées](manage-metadata.md)
+**Rubrique parente :**&#x200B;[&#x200B; Gérer les métadonnées](manage-metadata.md)

@@ -24,7 +24,7 @@ Effectuez les étapes suivantes pour ajouter vos modèles de mappage personnalis
 
    >[!NOTE]
    >
-   > Pour configurer un emplacement personnalisé pour stocker des modèles de rubrique ou de mappage, voir [ Configuration du chemin d’accès au dossier de modèle DITA personnalisé](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)
+   > Pour configurer un emplacement personnalisé pour stocker des modèles de rubrique ou de mappage, voir [&#x200B; Configuration du chemin d’accès au dossier de modèle DITA personnalisé](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)
 
 1. Cliquez sur **Créer** \> **Modèle DITA**.
 

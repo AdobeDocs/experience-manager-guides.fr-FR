@@ -129,7 +129,7 @@ ou
 
 1. Cliquez sur **Enregistrer**
 1. Sélectionnez le **jeu de migration**, puis **Extract** en haut.
-   ![extraction de jeu de migration ](./assets/migration-extract.png)
+   ![extraction de jeu de migration &#x200B;](./assets/migration-extract.png)
 
 1. Vérifiez les détails dans la fenêtre contextuelle **Migration Set Extraction** pour les chemins et les configurations que vous avez sélectionnés, puis cliquez sur **Extract**. L’extraction prendra des minutes et vous verrez l’état tel que mis à jour.
    ![Extraction du jeu de migration](./assets/migration-set-extraction.png)

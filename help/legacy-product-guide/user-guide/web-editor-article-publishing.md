@@ -33,4 +33,4 @@ Vous pouvez également utiliser les paramètres prédéfinis de sortie créés p
 - **[Générez une sortie à partir du panneau Référentiel ou du panneau Vue Carte](web-editor-article-publishing-output.md)**
 
 
-**Rubrique parente :**&#x200B;[ Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur web](web-editor.md)

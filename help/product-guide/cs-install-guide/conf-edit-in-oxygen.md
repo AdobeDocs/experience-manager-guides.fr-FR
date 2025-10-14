@@ -28,4 +28,4 @@ Suivez les instructions de la section [Remplacements de configuration](download-
 >
 > Cette configuration est désactivée par défaut et l’option n’est pas disponible dans l’éditeur web.
 
-**Rubrique parente :**&#x200B;[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)

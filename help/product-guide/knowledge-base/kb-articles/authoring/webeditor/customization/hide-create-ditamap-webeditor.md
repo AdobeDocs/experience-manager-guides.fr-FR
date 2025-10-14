@@ -128,9 +128,9 @@ Ce cas pratique a été ajouté à GIT. Veuillez trouver les ressources connexes
 
 - **Référentiel de base de la structure d’extension** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
-- **Documentation** - [ sur Experience League](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+- **Documentation** - [&#x200B; sur Experience League](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **Cas d’utilisation courants documentés** - [ sur Experience League](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
+- **Cas d’utilisation courants documentés** - [&#x200B; sur Experience League](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
 - **Référentiel public avec exemples** - [sur GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Reportez-vous à la branche sc-expert-session
 

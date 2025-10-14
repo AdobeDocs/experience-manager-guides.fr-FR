@@ -27,7 +27,7 @@ Vous pouvez désormais améliorer votre parcours de création avec des suggestio
 
 Pour que votre contenu reste correct et cohérent, la recherche et les suggestions sont limitées au contenu appartenant à votre organisation et correspondent étroitement aux mots-clés que vous recherchez.
 
-![Panneau de suggestions dynamiques dans l’éditeur web ](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
+![Panneau de suggestions dynamiques dans l’éditeur web &#x200B;](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
 
 
 *Afficher des suggestions intelligentes pour rechercher et ajouter des références de contenu correspondantes à partir de votre référentiel de contenu.*

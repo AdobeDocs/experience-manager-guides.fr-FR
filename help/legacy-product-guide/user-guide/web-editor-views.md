@@ -152,4 +152,4 @@ Pour exporter une rubrique en tant que PDF, procédez comme suit :
    Le PDF est généré et ouvert dans un nouvel onglet ou une boîte de dialogue s’affiche pour vous permettre d’enregistrer le PDF sur votre système local.
 
 
-**Rubrique parente :**&#x200B;[ Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur web](web-editor.md)

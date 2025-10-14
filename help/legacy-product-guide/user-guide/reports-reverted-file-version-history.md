@@ -58,4 +58,4 @@ Pour accéder au rapport Rétablir l’historique, procédez comme suit :
    - **Commentaire** : tout commentaire fourni par l’utilisateur qui a annulé le fichier.
 
 
-**Rubrique parente :**&#x200B;[ Rapports](reports-intro.md)
+**Rubrique parente :**&#x200B;[&#x200B; Rapports](reports-intro.md)

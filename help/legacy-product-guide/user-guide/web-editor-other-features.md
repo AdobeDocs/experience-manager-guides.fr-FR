@@ -89,7 +89,7 @@ Par défaut, l’éditeur web vous permet d’afficher une rubrique à la fois. 
 
 ***Génération rapide***
 
-Générer la sortie pour le fichier sélectionné. La sortie ne peut être générée que pour les fichiers qui font partie d’un paramètre prédéfini de sortie. Pour plus d’informations, consultez la section [ Publication basée sur des articles à partir de l’éditeur web ](web-editor-article-publishing.md#id218CK0U019I).
+Générer la sortie pour le fichier sélectionné. La sortie ne peut être générée que pour les fichiers qui font partie d’un paramètre prédéfini de sortie. Pour plus d’informations, consultez la section [&#x200B; Publication basée sur des articles à partir de l’éditeur web &#x200B;](web-editor-article-publishing.md#id218CK0U019I).
 
 ***Fermer*** : vous pouvez choisir parmi les options suivantes :
 
@@ -148,7 +148,7 @@ Selon que le fichier est verrouillé/déverrouillé et que des modifications ont
 
 **Prise en charge de la publication d’articles**
 
-- Dans l&#39;éditeur Web, vous pouvez générer la sortie pour une ou plusieurs rubriques ou l&#39;ensemble du plan DITA. Vous devez créer des paramètres prédéfinis de sortie pour votre plan DITA, puis vous pouvez facilement générer la sortie pour une ou plusieurs rubriques. Si vous avez mis à jour quelques rubriques dans votre carte, vous pouvez également générer la sortie uniquement pour ces rubriques à partir de l’éditeur web. Pour plus d’informations, consultez la section [ Publication basée sur des articles à partir de l’éditeur web ](web-editor-article-publishing.md#id218CK0U019I).
+- Dans l&#39;éditeur Web, vous pouvez générer la sortie pour une ou plusieurs rubriques ou l&#39;ensemble du plan DITA. Vous devez créer des paramètres prédéfinis de sortie pour votre plan DITA, puis vous pouvez facilement générer la sortie pour une ou plusieurs rubriques. Si vous avez mis à jour quelques rubriques dans votre carte, vous pouvez également générer la sortie uniquement pour ces rubriques à partir de l’éditeur web. Pour plus d’informations, consultez la section [&#x200B; Publication basée sur des articles à partir de l’éditeur web &#x200B;](web-editor-article-publishing.md#id218CK0U019I).
 
 **Prise en charge des documents Markdown**
 
@@ -253,4 +253,4 @@ Procédez comme suit pour générer automatiquement un identifiant pour un ou pl
    Vous pouvez également cliquer avec le bouton droit dans le chemin de navigation et sélectionner **Générer des identifiants**.
 
 
-**Rubrique parente :**&#x200B;[ Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur web](web-editor.md)

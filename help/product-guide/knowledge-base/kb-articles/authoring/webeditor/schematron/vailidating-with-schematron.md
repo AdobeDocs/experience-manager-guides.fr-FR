@@ -49,7 +49,7 @@ Oui, en tant qu’auteur/utilisateur lors de la création de contenu, vous pouve
 
 ### Règles prises en charge
 
-La version actuelle d’AEM Guides prend en charge la validation en utilisant uniquement les règles basées sur l’affirmation. (voir [ ressource/rapport](https://schematron.com/document/205.html))
+La version actuelle d’AEM Guides prend en charge la validation en utilisant uniquement les règles basées sur l’affirmation. (voir [&#x200B; ressource/rapport](https://schematron.com/document/205.html))
 Les règles basées sur les &quot;rapports&quot; ne sont pas encore prises en charge.
 
 

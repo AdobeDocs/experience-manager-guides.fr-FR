@@ -93,4 +93,4 @@ Pour créer une rubrique à partir de l’interface utilisateur d’Assets, proc
 
 4. Une fois que vous avez créé votre rubrique DITA, continuez à enregistrer les modifications apportées à votre copie de travail et créez une nouvelle version une fois que vous avez terminé les mises à jour de votre rubrique.
 
-**Rubrique parente :**&#x200B;[ Créer et prévisualiser des rubriques](create-preview-topics.md)
+**Rubrique parente :**&#x200B;[&#x200B; Créer et prévisualiser des rubriques](create-preview-topics.md)

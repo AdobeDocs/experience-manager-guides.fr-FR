@@ -100,11 +100,11 @@ Effectuez les étapes suivantes pour configurer le profil global :
 
 1. Cliquez sur la mosaïque **Profil global** .
 
-1. Pour configurer les **attributs conditionnels**, voir [ Configuration des attributs conditionnels pour les profils globaux ou au niveau du dossier](#id1889D0I305Z).
+1. Pour configurer les **attributs conditionnels**, voir [&#x200B; Configuration des attributs conditionnels pour les profils globaux ou au niveau du dossier](#id1889D0I305Z).
 
 1. Pour configurer le **modèle de création**, voir [Configuration de modèles de création](#id1889D0IL0Y4).
 
-1. Pour configurer les **paramètres prédéfinis de sortie**, voir [ Configuration des paramètres prédéfinis de sortie](#id18AGD0IH0Y4).
+1. Pour configurer les **paramètres prédéfinis de sortie**, voir [&#x200B; Configuration des paramètres prédéfinis de sortie](#id18AGD0IH0Y4).
 
 1. Pour configurer la configuration de l’éditeur XML, voir [Configuration et personnalisation de l’éditeur Web XML](#id2065G300O5Z).
 
@@ -246,7 +246,7 @@ Si vous utilisez un attribut personnalisé, il doit s’agir d’un attribut DIT
 
 AEM Guides est fourni avec 7 modèles de création prêts à l’emploi et 2 modèles de mappage DITA. Vous pouvez choisir de n’avoir que quelques modèles disponibles pour vos auteurs. Si vous utilisez un modèle personnalisé, celui-ci peut être configuré et rendu disponible pour la création. Vous utilisez l’onglet Modèle de création dans la configuration Profils de dossier pour ajouter ou supprimer des modèles de rubrique ou de mappage de profils globaux ou de niveau dossier.
 
-Avant même de configurer la rubrique ou les modèles de mappage au niveau global ou au niveau du dossier, vous pouvez également définir un emplacement pour stocker vos modèles de création personnalisés. Pour configurer un emplacement personnalisé pour stocker des modèles de création, voir [ Configuration du chemin d’accès au dossier de modèle DITA personnalisé](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
+Avant même de configurer la rubrique ou les modèles de mappage au niveau global ou au niveau du dossier, vous pouvez également définir un emplacement pour stocker vos modèles de création personnalisés. Pour configurer un emplacement personnalisé pour stocker des modèles de création, voir [&#x200B; Configuration du chemin d’accès au dossier de modèle DITA personnalisé](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
 
 Effectuez les étapes suivantes pour ajouter la rubrique ou mapper des modèles dans un profil de dossier :
 
@@ -310,7 +310,7 @@ Pour créer un modèle de création personnalisé, procédez comme suit :
 
    >[!NOTE]
    >
-   > Pour configurer un emplacement personnalisé pour stocker des modèles de rubrique ou de mappage, voir [ Configuration du chemin d’accès au dossier de modèle DITA personnalisé](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)
+   > Pour configurer un emplacement personnalisé pour stocker des modèles de rubrique ou de mappage, voir [&#x200B; Configuration du chemin d’accès au dossier de modèle DITA personnalisé](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)
 
 1. Cliquez sur **Créer** \> **Modèle DITA**.
 

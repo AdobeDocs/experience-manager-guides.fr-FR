@@ -33,7 +33,7 @@ Pour en savoir plus sur la description de la fonctionnalité **Historique de ver
 
 Vous pouvez définir des attributs de condition dans vos rubriques DITA. Ensuite, utilisez les attributs de condition dans le paramètre prédéfini de condition pour publier le contenu dans un mappage DITA. Experience Manager Guides offre désormais également une expérience enrichie dans l’éditeur web, qui vous permet de créer et de gérer plus efficacement les paramètres prédéfinis de condition. Vous pouvez également facilement les modifier, les dupliquer ou les supprimer.
 
-![Paramètres prédéfinis de condition de l’onglet Gérer de l’éditeur web ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
+![Paramètres prédéfinis de condition de l’onglet Gérer de l’éditeur web &#x200B;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
 
 Pour plus d’informations, voir [Utiliser les paramètres prédéfinis de condition](../user-guide/generate-output-use-condition-presets.md).
 
@@ -80,7 +80,7 @@ Les options **Mise à jour manuelle** et **Mise à jour automatique** sont plus 
 Il permet également de dupliquer une ligne de base en fonction du libellé. La version de référence est sélectionnée en fonction du libellé donné (s’il existe) lors de la duplication ou sélectionne la version à partir de la ligne de base dupliquée.
 
 
-![dupliquer une ligne de base ](assets/duplicate-baseline.png) {width="300" align="left"}
+![dupliquer une ligne de base &#x200B;](assets/duplicate-baseline.png) {width="300" align="left"}
 
 *Dupliquez une ligne de base à partir d&#39;un libellé ou créez une copie exacte.*
 

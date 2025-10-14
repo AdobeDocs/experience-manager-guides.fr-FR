@@ -15,7 +15,7 @@ Dans cet article, nous allons découvrir comment masquer l’option &quot;Suppri
 
 Comme vous pouvez le voir sous l’extrait de code, le menu contextuel du fichier comporte l’option &quot;Supprimer&quot; disponible pour cet utilisateur spécifique.
 
-![ Fichier contextmenu avec suppression](../../../assets/authoring/file-contextmenu-Delete.png)
+![&#x200B; Fichier contextmenu avec suppression](../../../assets/authoring/file-contextmenu-Delete.png)
 
 Maintenant, voyons comment masquer l’option &quot;Supprimer&quot; pour cet utilisateur.
 

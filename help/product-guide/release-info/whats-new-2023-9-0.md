@@ -56,7 +56,7 @@ Désormais, AEM Guides permet de publier une rubrique ou les éléments d’une 
 
 Capitalisez la puissance d’AEM Guides et des fragments de contenu et utilisez des fragments de contenu dans n’importe quel site AEM. Vous pouvez également extraire les détails via des API prises en charge par les fragments de contenu.
 
-![ option pour publier un fragment de contenu](assets/content-fragment-publish.png){width="550" align="left"}
+![&#x200B; option pour publier un fragment de contenu](assets/content-fragment-publish.png){width="550" align="left"}
 
 *Publish d’une rubrique sur un fragment de contenu.*
 
@@ -172,7 +172,7 @@ Pour plus d’informations sur la gestion des définitions hiérarchiques des d�
 ## Sélectionner tous les paramètres prédéfinis d’une collection de cartes
 
 Vous pouvez non seulement activer un paramètre prédéfini individuel et tous les paramètres prédéfinis de profil de dossier, mais également activer tous les paramètres prédéfinis pour un mappage DITA en une seule fois.
-![ Modifier une collection de cartes](assets/edit-map-collection-cs.png){width="800" align="left"}\
+![&#x200B; Modifier une collection de cartes](assets/edit-map-collection-cs.png){width="800" align="left"}\
 *Sélectionnez tous les paramètres prédéfinis d’une collection de cartes.*
 
 Pour plus d’informations, voir [Utiliser la collection de cartes pour la génération de sortie](../user-guide/generate-output-use-map-collection-output-generation.md).
@@ -196,7 +196,7 @@ Pour plus d’informations, voir [Déplacer des fichiers en masse](../user-guide
 
 Utilisez le menu contextuel pour prévisualiser rapidement le fichier (fichier .dita, .xml, audio, vidéo ou image) sans l’ouvrir. Vous pouvez désormais redimensionner le volet d’aperçu. Si le contenu contient un lien de référence, vous pouvez le sélectionner pour l’ouvrir dans un nouvel onglet.
 
-![Volet Aperçu ](assets/quick-preview_cs.png){width="800" align="left"}
+![Volet Aperçu &#x200B;](assets/quick-preview_cs.png){width="800" align="left"}
 
 *Prévisualisez le fichier dans le volet.*
 

@@ -194,7 +194,7 @@ Effectuez les étapes suivantes pour créer un nouveau profil et le configurer a
    >
    > Sélectionnez cette option uniquement s’il manque des entrées d’ID public dans le catalogue ou si les fichiers DITA utilisent uniquement les ID système relatifs au chemin d’accès au fichier local à partir duquel ils sont chargés.
 
-   Pour plus d’informations sur d’autres propriétés sur la page Profils, consultez le tableau des propriétés de l’ [étape 6](#id17A9F0D075Z) de la section [ Utilisation des modules externes DITA-OT personnalisés](#id181NH1020L7) .
+   Pour plus d’informations sur d’autres propriétés sur la page Profils, consultez le tableau des propriétés de l’ [étape 6](#id17A9F0D075Z) de la section [&#x200B; Utilisation des modules externes DITA-OT personnalisés](#id181NH1020L7) .
 
 1. Cliquez sur **Terminé** pour enregistrer le profil.
 

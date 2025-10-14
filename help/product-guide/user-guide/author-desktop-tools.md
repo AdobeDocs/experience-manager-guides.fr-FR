@@ -27,4 +27,4 @@ Vous pouvez produire des sorties dans PDF, ePub, HTML et de nombreux autres form
 
 *Contactez votre équipe du succès client pour que cette fonctionnalité soit activée dans l’environnement. Cette fonctionnalité n’est pas activée dans le cadre de la prise en charge prête à l’emploi.*
 
-**Rubrique parente :**&#x200B;[ Créer du contenu](authoring-content.md)
+**Rubrique parente :**&#x200B;[&#x200B; Créer du contenu](authoring-content.md)

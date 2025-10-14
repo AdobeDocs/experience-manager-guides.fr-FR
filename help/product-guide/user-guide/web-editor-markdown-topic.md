@@ -175,4 +175,4 @@ Les fonctionnalités Experience Manager Guides suivantes ne s’appliquent actue
 
 
 
-**Rubrique parente :**&#x200B;[ Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)

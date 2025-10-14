@@ -115,4 +115,4 @@ Cela peut être effectué au moment de l’exécution via la console Felix ou vi
 Un nombre accru de la propriété **Limiter les pages du site AEM dans le tas** optimise le processus de génération de sortie du site AEM.
 
 
-**Rubrique parente :**&#x200B;[ Télécharger et installer](download-install.md)
+**Rubrique parente :**&#x200B;[&#x200B; Télécharger et installer](download-install.md)

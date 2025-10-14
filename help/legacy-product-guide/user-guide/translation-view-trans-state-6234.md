@@ -26,4 +26,4 @@ Pour afficher le statut de traduction d&#39;un plan DITA, procédez comme suit :
    >
    > Vous pouvez filtrer davantage le contenu en fonction de son statut de traduction \(comme Copie manquante non synchronisée, En cours, ou Synchronisé\), de son type de Source \(comme Tous, DITA, plan DITA ou Ressource\), de sa date de modification. Vous pouvez également saisir des mots-clés pour rechercher des rubriques spécifiques.
 
-**Rubrique parente :**&#x200B;[ Traduire le contenu](translation.md)
+**Rubrique parente :**&#x200B;[&#x200B; Traduire le contenu](translation.md)

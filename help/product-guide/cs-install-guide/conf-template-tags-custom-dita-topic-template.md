@@ -64,4 +64,4 @@ Suivez les instructions de la section [Remplacements de configuration](download-
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | Indiquez un emplacement où stocker les modèles personnalisés.<br> Si l’emplacement spécifié existe dans DAM, tous les modèles de mappage et de rubrique par défaut sont copiés dans ce dossier. Si l’emplacement n’existe pas, le dossier est créé avec tous les modèles de mappage et de rubrique par défaut. |
 
-**Rubrique parente :**&#x200B;[ Configuration de modèles de rubrique et de mappage](conf-template-tags.md)
+**Rubrique parente :**&#x200B;[&#x200B; Configuration de modèles de rubrique et de mappage](conf-template-tags.md)

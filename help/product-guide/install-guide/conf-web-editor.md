@@ -36,7 +36,7 @@ AEM Guides est fourni avec un puissant éditeur web qui permet aux auteurs de cr
 
 - [Génération automatique des identifiants d’élément](auto-generate-ids.md)
 
-- [Personnaliser AEM dictionnaire par défaut ](customize-aem-custom-dictionary.md)
+- [Personnaliser AEM dictionnaire par défaut &#x200B;](customize-aem-custom-dictionary.md)
 
 - [Configurer des filtres de texte](config-text-filters.md)
 

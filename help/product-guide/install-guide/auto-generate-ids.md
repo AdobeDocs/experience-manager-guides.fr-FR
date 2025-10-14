@@ -45,4 +45,4 @@ Effectuez les étapes suivantes pour configurer les éléments avec un identifia
 1. Cliquez sur **Enregistrer**.
 
 
-**Rubrique parente :**&#x200B;[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)

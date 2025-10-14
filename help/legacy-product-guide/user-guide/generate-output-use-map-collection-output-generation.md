@@ -144,4 +144,4 @@ De la même manière que vous pouvez annuler une tâche de génération de sorti
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 
-**Rubrique parente :**&#x200B;[ Génération de sortie](generate-output.md)
+**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)

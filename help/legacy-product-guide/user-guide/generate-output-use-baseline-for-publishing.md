@@ -18,7 +18,7 @@ La fonction Ligne de base vous permet de créer une version de vos rubriques et 
 
 La sélection d&#39;une ligne de base est facultative pour les paramètres prédéfinis de sortie et un plan DITA peut avoir plusieurs lignes de base. Cependant, chaque paramètre prédéfini de sortie dans un plan DITA ne peut être associé qu&#39;à une seule ligne de base. Si aucune ligne de base n’est spécifiée au moment de la publication, la sortie est publiée à l’aide de la dernière version du contenu.
 
-De même, la sélection d’une ligne de base pour traduire le contenu est facultative. Cependant, si vous choisissez de traduire le contenu à l’aide d’une ligne de base, le contenu de cette dernière est également enregistré avec les copies traduites. Vous pouvez ensuite utiliser la ligne de base traduite pour effectuer d’autres opérations, telles que le partager avec des éditeurs externes ou l’archiver. Pour plus d&#39;informations sur l&#39;exportation d&#39;une ligne de base traduite, voir [ Exporter la ligne de base traduite ](#id196SE600GHS).
+De même, la sélection d’une ligne de base pour traduire le contenu est facultative. Cependant, si vous choisissez de traduire le contenu à l’aide d’une ligne de base, le contenu de cette dernière est également enregistré avec les copies traduites. Vous pouvez ensuite utiliser la ligne de base traduite pour effectuer d’autres opérations, telles que le partager avec des éditeurs externes ou l’archiver. Pour plus d&#39;informations sur l&#39;exportation d&#39;une ligne de base traduite, voir [&#x200B; Exporter la ligne de base traduite &#x200B;](#id196SE600GHS).
 
 >[!TIP]
 >
@@ -51,7 +51,7 @@ Pour créer une ligne de base, procédez comme suit :
 
    - **Libellé** : sélectionnez cette option pour sélectionner les rubriques en fonction du libellé qui leur est appliqué. Saisissez un libellé pour filtrer la liste en fonction de la chaîne saisie. Dans la liste filtrée, vous pouvez choisir un libellé pour sélectionner les rubriques et les autres ressources portant le libellé spécifié.
 
-   Lorsque vous sélectionnez **Libellé**, vous avez également la possibilité d&#39;utiliser la dernière version des rubriques sur lesquelles le libellé spécifié n&#39;est pas appliqué. Si vous ne sélectionnez pas cette option et qu&#39;un sujet ou un fichier multimédia ne porte pas le libellé spécifié, le processus de création de la ligne de base échouera. Pour plus d’informations sur l’ajout de libellés, voir [ Utiliser des libellés ](web-editor-use-label.md#).
+   Lorsque vous sélectionnez **Libellé**, vous avez également la possibilité d&#39;utiliser la dernière version des rubriques sur lesquelles le libellé spécifié n&#39;est pas appliqué. Si vous ne sélectionnez pas cette option et qu&#39;un sujet ou un fichier multimédia ne porte pas le libellé spécifié, le processus de création de la ligne de base échouera. Pour plus d’informations sur l’ajout de libellés, voir [&#x200B; Utiliser des libellés &#x200B;](web-editor-use-label.md#).
 
    - **Version sur** &lt;*horodatage*\> : sélectionne la version des rubriques à la date et à l’heure spécifiées. Notez que l’heure que vous indiquez ici correspond au fuseau horaire de votre serveur AEM. Si votre serveur se trouve dans un fuseau horaire différent, les rubriques sont sélectionnées en fonction du fuseau horaire de votre serveur et non de votre fuseau horaire local.
 
@@ -183,4 +183,4 @@ Effectuez les étapes suivantes pour exporter une ligne de base traduite :
 1. \(Facultatif\) Pour exporter une ligne de base déjà exportée, sélectionnez **Remplacer la ligne de base existante** puis cliquez sur **Exporter la ligne de base**.
 
 
-**Rubrique parente :**&#x200B;[ Génération de sortie](generate-output.md)
+**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)

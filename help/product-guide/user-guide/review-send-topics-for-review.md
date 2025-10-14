@@ -270,4 +270,4 @@ Pour envoyer une ou plusieurs rubriques avec le fichier de mappage pour révisio
 
 Un e-mail est envoyé à tous les réviseurs et réviseuses, les informant que des rubriques leur ont été affectées pour la révision. L’e-mail contient un lien direct qu’ils peuvent utiliser pour accéder à la rubrique dans une fenêtre de navigateur. Les rubriques ainsi que le plan DITA sont ouvertes en mode de révision.
 
-**Rubrique parente :**&#x200B;[ Présentation de la révision](review.md)
+**Rubrique parente :**&#x200B;[&#x200B; Présentation de la révision](review.md)

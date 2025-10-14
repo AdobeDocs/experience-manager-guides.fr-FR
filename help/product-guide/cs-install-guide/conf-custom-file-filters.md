@@ -68,4 +68,4 @@ Procédez comme suit pour ajouter vos options de filtrage de fichier personnalis
    ![](assets/file-browse-custom-filters.png)
 
 
-**Rubrique parente :**&#x200B;[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)

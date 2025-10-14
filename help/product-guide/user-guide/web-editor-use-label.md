@@ -81,4 +81,4 @@ Pour supprimer un libellé de version d’une rubrique, utilisez le bouton **Sup
 ![](images/delete-labels.png){width="300" align="left"}
 
 
-**Rubrique parente :**&#x200B;[ Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)

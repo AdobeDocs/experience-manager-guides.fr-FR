@@ -37,4 +37,4 @@ Pour insérer des questions issues de la banque de questions dans le quiz, proc�
 
    ![](assets/inserted-question.png){width="650" align="left"}
 
-Pour un aperçu rapide de la vidéo, reportez-vous à la section [ Utilisation de la banque de questions ](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides).
+Pour un aperçu rapide de la vidéo, reportez-vous à la section [&#x200B; Utilisation de la banque de questions &#x200B;](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides).

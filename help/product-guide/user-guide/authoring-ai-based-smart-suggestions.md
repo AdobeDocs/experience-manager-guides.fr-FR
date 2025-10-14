@@ -24,18 +24,18 @@ Pour afficher les suggestions intelligentes permettant d’ajouter des référen
 
 
 1. Sélectionnez le contenu de la rubrique pour afficher les suggestions associées. Assurez-vous que la longueur de caractères du contenu dépasse ce que votre administrateur a défini dans le profil de dossier pour que les suggestions de contenu s’affichent.
-1. Dans le **panneau de création** de l’assistant AI, sélectionnez **Suggérer du contenu réutilisable** ![ai suggérer une icône de contenu réutilisable ](./images/ai-suggest-reusable-content-icon.svg).
+1. Dans le **panneau de création** de l’assistant AI, sélectionnez **Suggérer du contenu réutilisable** ![ai suggérer une icône de contenu réutilisable &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
 
 1. Sélectionnez une balise pour afficher les suggestions de création pour la balise active .  Les suggestions d’affichage et d’ajout de références de contenu à partir des fichiers indexés s’affichent en fonction du contenu de la balise active. Vous pouvez également sélectionner plusieurs balises.
 
 
-1. Sélectionnez toutes les balises pour afficher les suggestions en fonction du contenu présent dans le document complet.  L’icône **Suggérer du contenu réutilisable** ![ai suggérer un contenu réutilisable ](./images/ai-suggest-reusable-content-icon.svg) s’affiche en regard du contenu pour lequel une correspondance appropriée a été trouvée.
+1. Sélectionnez toutes les balises pour afficher les suggestions en fonction du contenu présent dans le document complet.  L’icône **Suggérer du contenu réutilisable** ![ai suggérer un contenu réutilisable &#x200B;](./images/ai-suggest-reusable-content-icon.svg) s’affiche en regard du contenu pour lequel une correspondance appropriée a été trouvée.
 
 
 
    >[!NOTE]
    >
-   > Vous pouvez uniquement afficher les suggestions de la fenêtre d’affichage actuelle (le contenu visible à l’écran). Pour afficher des suggestions pour tout autre contenu du document, faites défiler la page vers le haut ou vers le bas pour l’afficher dans la fenêtre d’affichage, puis sélectionnez **Suggérer du contenu réutilisable** ![ai Suggérer l’icône de contenu réutilisable ](./images/ai-suggest-reusable-content-icon.svg).
+   > Vous pouvez uniquement afficher les suggestions de la fenêtre d’affichage actuelle (le contenu visible à l’écran). Pour afficher des suggestions pour tout autre contenu du document, faites défiler la page vers le haut ou vers le bas pour l’afficher dans la fenêtre d’affichage, puis sélectionnez **Suggérer du contenu réutilisable** ![ai Suggérer l’icône de contenu réutilisable &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
 
 
 1. Vous pouvez afficher les suggestions intelligentes dans le panneau de suggestions.  Experience Manager Guides fournit des suggestions dont le contenu est contextuellement similaire ou a la même signification. Par exemple, vous pouvez rechercher la rubrique qui contient le numéro de version exact, comme « version 2023.03.12 ». Vous pouvez également rechercher « Adobe a son siège à San Jose, en Californie » et trouver du contenu similaire comme « San Jose a les quartiers de nombreuses sociétés de logiciels comme Adobe ».

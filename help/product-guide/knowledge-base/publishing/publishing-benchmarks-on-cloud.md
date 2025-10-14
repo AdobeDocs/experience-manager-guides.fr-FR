@@ -15,7 +15,7 @@ ht-degree: 8%
 
 Actuellement, le service cloud AEM Guides a certaines limites sur les tailles des cartes de publication que l’équipe de Guides s’efforce activement de résoudre.
 
-L’équipe Guides a mis en place un microservice de publication évolutif pour prendre en charge les cartes volumineuses et plusieurs publications simultanées. Pour en savoir plus sur le nouveau microservice de publication, reportez-vous à la section [ Architecture du microservice de publication ](publish-microservice-architecture-and-performance.md)
+L’équipe Guides a mis en place un microservice de publication évolutif pour prendre en charge les cartes volumineuses et plusieurs publications simultanées. Pour en savoir plus sur le nouveau microservice de publication, reportez-vous à la section [&#x200B; Architecture du microservice de publication &#x200B;](publish-microservice-architecture-and-performance.md)
 
 Pour configurer le nouveau service de publication pour tout environnement cloud d’AEM, reportez-vous à la section [configuration de la publication basée sur un nouveau microservice](configure-microservices.md)
 

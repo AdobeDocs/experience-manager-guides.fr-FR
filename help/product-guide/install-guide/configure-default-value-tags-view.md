@@ -37,4 +37,4 @@ AEM Guides vous permet de configurer l’état par défaut de la vue Balises dan
 >
 > La préférence de l’utilisateur dans l’éditeur web pour activer/désactiver la vue Balises est prioritaire sur cette valeur par défaut. Ainsi, si un utilisateur active la vue Balises à partir de l’éditeur web, elle reste activée même au cours des sessions.
 
-**Rubrique parente :**&#x200B;[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)

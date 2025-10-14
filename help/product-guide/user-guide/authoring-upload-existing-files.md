@@ -23,7 +23,7 @@ Il est probable que vous disposiez d&#39;un référentiel de contenu DITA exista
 
 Pour [ajouter des ressources numériques à Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=fr#filename-handling?lang=fr#upload-assets) à l’aide de l’interface utilisateur de la console Assets, sélectionnez la ressource requise sur votre bureau et faites glisser l’interface utilisateur Adobe Experience Manager \(navigateur web\) vers le dossier de destination. Lors du chargement de ressources, veillez à ce que les noms de fichier ne contiennent aucun caractère non pris en charge ou interdit.
 
-Pour plus d’informations, consultez la section [ Gestion des noms de fichier et caractères interdits ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=fr#filename-handling) de la documentation Adobe Experience Manager.
+Pour plus d’informations, consultez la section [&#x200B; Gestion des noms de fichier et caractères interdits &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=fr#filename-handling) de la documentation Adobe Experience Manager.
 
 ## Appli de bureau Adobe Experience Manager
 
@@ -49,4 +49,4 @@ Pour plus d’informations sur le fonctionnement des différents scénarios de c
 
 Si vous utilisez un outil tel que l’application de bureau Adobe Experience Manager ou l’outil d’ingestion de ressources en bloc, l’action à effectuer sur un fichier en double est contrôlée par un paramètre dans le serveur Adobe Experience Manager. Contactez votre administrateur système pour en savoir plus sur cette configuration.
 
-**Rubrique parente :**&#x200B;[ Gérer le contenu](authoring.md)
+**Rubrique parente :**&#x200B;[&#x200B; Gérer le contenu](authoring.md)

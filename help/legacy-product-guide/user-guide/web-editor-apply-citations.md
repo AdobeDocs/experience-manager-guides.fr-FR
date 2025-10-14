@@ -204,7 +204,7 @@ La citation sélectionnée est ajoutée à l&#39;emplacement du curseur dans vot
 > 
 >Pour afficher l’icône **Citations** dans le panneau de gauche, votre administrateur système doit sélectionner l’option **Citations** dans l’onglet **Panneaux** dans **Paramètres de l’éditeur**.
 
-1. Sélectionnez **Citations** ![icône de ](images/citations-icon.svg) de citations dans le panneau de gauche.
+1. Sélectionnez **Citations** ![icône de &#x200B;](images/citations-icon.svg) de citations dans le panneau de gauche.
 1. Faites glisser la citation à partir du panneau **Citations** et déposez-la à l’emplacement approprié dans la rubrique.
 
    Vous pouvez également sélectionner **Insérer** dans ![](images/options.svg) **Options** pour insérer une citation.

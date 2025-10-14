@@ -37,4 +37,4 @@ Lorsque cette configuration est activée, la case à cocher **Déverrouiller le 
 
 Pour plus d’informations, reportez-vous à la section *Fermeture de fichier et scénarios d’enregistrement* du guide Utilisation de l’as a Cloud Service Adobe Experience Manager Guides.
 
-**Rubrique parente :**&#x200B;[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)

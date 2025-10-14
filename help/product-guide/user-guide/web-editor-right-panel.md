@@ -45,7 +45,7 @@ Vous pouvez accéder à la fonction **Propriétés du contenu** en sélectionnan
 
 1. Dans le panneau déroulant **Attribut**, sélectionnez l’attribut dans la liste déroulante et spécifiez une valeur d’attribut.  Sélectionnez ensuite **Ajouter**.
 
-   ![panneau attributs avec plusieurs attributs ](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![panneau attributs avec plusieurs attributs &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Pour modifier l’attribut, passez la souris dessus et sélectionnez **Modifier** ![icône-d’édition](images/edit_pencil_icon.svg).
 
@@ -141,4 +141,4 @@ Découvrez comment utiliser les fichiers Schematron dans Experience Manager Guid
 
 
 
-**Rubrique parente :**&#x200B;[ Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)

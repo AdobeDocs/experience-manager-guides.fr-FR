@@ -57,7 +57,7 @@ Utilisez les profils de dossier pour vérifier le fichier *ui_config.json* sous 
 }
 ```
 
-[ utilisez ce lien pour en savoir plus sur le profil de dossier et la configuration ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=fr)
+[&#x200B; utilisez ce lien pour en savoir plus sur le profil de dossier et la configuration ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=fr)
 
 
 ### Gérer l’événement &quot;onclick&quot; pour le nouveau bouton
@@ -66,7 +66,7 @@ Utilisez les profils de dossier pour vérifier le fichier *ui_config.json* sous 
 
 
 - Après avoir enregistré le profil de dossier, créez un &quot;cq:ClientLibraryFolder&quot; sous un répertoire de projet (qui peut se trouver sous */apps*) et ajoutez des propriétés comme illustré dans la capture d’écran ci-dessous :
-  ![ Paramètres de bibliothèque cliente pour webeditor](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
+  ![&#x200B; Paramètres de bibliothèque cliente pour webeditor](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
 
 ```
 This example uses "coralui3" library to show a dialog as it is used in the Javascript sample we presented.

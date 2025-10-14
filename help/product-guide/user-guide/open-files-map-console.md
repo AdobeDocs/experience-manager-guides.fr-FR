@@ -17,7 +17,7 @@ Effectuez les étapes suivantes pour ouvrir un fichier DITA map dans la console 
 
 1. Ouvrez la **console Map** à partir de la page d’accueil.
 
-   ![Nouveau ](images/map-console-home-page.png){width="800"align="left"}
+   ![Nouveau &#x200B;](images/map-console-home-page.png){width="800"align="left"}
 
 2. Puisqu’aucun fichier de mappage n’est sélectionné, vous êtes invité à sélectionner un fichier de mappage pour utiliser les fonctionnalités de gestion et de publication des mappages.
 
@@ -45,4 +45,4 @@ Vous pouvez également ouvrir un fichier de mappage existant dans la console Map
 
    Le fichier de mappage s’ouvre dans la console Mappage .
 
-   ![Nouveau ](images/map-console.png){align="left"}
+   ![Nouveau &#x200B;](images/map-console.png){align="left"}

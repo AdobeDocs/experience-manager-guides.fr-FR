@@ -48,7 +48,7 @@ Pour créer une collection de mappages d’activation en bloc, procédez comme s
 
 Les fichiers de mappage DITA sont ajoutés à votre collection de mappages d&#39;activation en bloc.
 
-![ a créé une collection d’activation en bloc](images/bulk-activation-collection-created.png){align="left"}
+![&#x200B; a créé une collection d’activation en bloc](images/bulk-activation-collection-created.png){align="left"}
 
 ## Onglet Mappages et paramètres prédéfinis
 
@@ -87,7 +87,7 @@ L’onglet **Historique des contrôles** présente des informations sur les sort
 
 - **Modifié** : indique si le plan DITA a été mis à jour après la dernière publication. En fonction de ces informations, vous pouvez décider d&#39;activer ou non la sortie de ce plan DITA.
 - **Publié** : affiche la date et l’heure de la dernière sortie publiée (ou activée). Si vous sélectionnez le lien, la page Résultats de l’activation s’affiche, qui contient les journaux avec des informations sur le chemin racine où le contenu est activé.
-  ![ l’onglet historique d’audit de la collecte d’activation en bloc créé](images/bulk-collection-audit-history.png){align="left"}
+  ![&#x200B; l’onglet historique d’audit de la collecte d’activation en bloc créé](images/bulk-collection-audit-history.png){align="left"}
 
   *Affichez les informations sur les sorties de mappage activées dans l’onglet **Historique d’audit**.*
 

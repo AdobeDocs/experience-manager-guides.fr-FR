@@ -145,4 +145,4 @@ Effectuez les étapes suivantes pour supprimer toute fonctionnalité indésirabl
 1. Enregistrez le fichier *ui\_config.json* et rechargez l’éditeur web.
 
 
-**Rubrique parente :**&#x200B;[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)

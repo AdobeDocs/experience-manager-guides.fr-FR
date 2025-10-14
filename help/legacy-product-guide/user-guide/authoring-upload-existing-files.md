@@ -48,4 +48,4 @@ Pour plus d&#39;informations sur les différents scénarios de chargement de fic
 
 Si vous utilisez un outil tel que l’application de bureau AEM ou l’outil d’ingestion de ressources en bloc, l’action à effectuer sur un fichier en double est contrôlée par un paramètre dans le serveur AEM. Contactez votre administrateur système pour en savoir plus sur cette configuration.
 
-**Rubrique parente :**&#x200B;[ Gérer le contenu](authoring.md)
+**Rubrique parente :**&#x200B;[&#x200B; Gérer le contenu](authoring.md)

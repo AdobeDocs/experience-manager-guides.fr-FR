@@ -318,4 +318,4 @@ Si votre fichier multimédia a subi des modifications, vous pouvez rechercher et
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Rubrique parente :**&#x200B;[ Gérer le contenu](authoring.md)
+**Rubrique parente :**&#x200B;[&#x200B; Gérer le contenu](authoring.md)

@@ -24,7 +24,7 @@ Pour télécharger et installer AEM Guides pour la première fois sur un ordinat
 
    >[!NOTE]
    >
-   >Avant d’installer Experience Manager Guides, assurez-vous que votre système répond aux [ exigences techniques](../install-guide/download-install-technical-requirements.md).
+   >Avant d’installer Experience Manager Guides, assurez-vous que votre système répond aux [&#x200B; exigences techniques](../install-guide/download-install-technical-requirements.md).
 
 1. Connectez-vous à votre instance AEM et accédez au gestionnaire de modules CRX. L’URL par défaut pour accéder au gestionnaire de packages est la suivante :
 
@@ -55,4 +55,4 @@ Pour télécharger et installer AEM Guides pour la première fois sur un ordinat
 >
 > Exécutez la procédure d’installation sur toutes les instances des serveurs AEM de votre configuration.
 
-**Rubrique parente :**&#x200B;[ Télécharger et installer](download-install.md)
+**Rubrique parente :**&#x200B;[&#x200B; Télécharger et installer](download-install.md)

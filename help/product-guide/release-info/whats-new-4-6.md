@@ -28,7 +28,7 @@ Les améliorations suivantes ont été apportées à la publication de contenu d
 
 Un fragment d’expérience est une unité de contenu modulaire au sein de Adobe Experience Manager qui intègre le contenu et la mise en page. Les fragments d’expérience jouent un rôle essentiel dans la création d’expériences cohérentes et attrayantes, qui peuvent être réutilisées sur plusieurs canaux. Vous pouvez, par exemple, créer des fragments d’expérience pour les en-têtes ou pieds de page avec des éléments de marque, des bannières promotionnelles, des témoignages de clients et des promotions d’événement.
 
-![ Onglet Options des propriétés de fichier ](./assets/file-properties-outputs-4-6.png) {width="300" align="left"}
+![&#x200B; Onglet Options des propriétés de fichier &#x200B;](./assets/file-properties-outputs-4-6.png) {width="300" align="left"}
 
 *Publish et afficher les fragments d’expérience d’une rubrique à partir de la section **Sorties**&#x200B;dans les **Propriétés du fichier**.*
 
@@ -155,7 +155,7 @@ Experience Manager Guides améliore votre expérience de sélection du contenu d
 Cette fonctionnalité vous permet d’appliquer ou de supprimer facilement la mise en forme d’un contenu partiellement sélectionné. Vous pouvez également supprimer rapidement le contenu que vous avez sélectionné dans plusieurs éléments. Une fois le contenu supprimé, au besoin, le contenu restant est automatiquement fusionné sous un seul élément valide. Vous pouvez également sélectionner du contenu partiel sur plusieurs éléments, puis entourer le contenu sous un élément DITA valide.
 
 Globalement, ces améliorations offrent une meilleure expérience et vous aident à améliorer votre efficacité lors de la modification de vos documents.
-Pour plus d’informations, voir [Sélection partielle de contenu sur l’élément ](../user-guide/web-editor-edit-topics.md#partial-selection-of-content-across-elements).
+Pour plus d’informations, voir [Sélection partielle de contenu sur l’élément &#x200B;](../user-guide/web-editor-edit-topics.md#partial-selection-of-content-across-elements).
 
 
 
@@ -187,7 +187,7 @@ Le filtrage des fichiers est maintenant amélioré. La redéfinition de la fonct
 
 Profitez d’avantages tels qu’un accès plus rapide aux fichiers importants et une interface utilisateur plus intuitive. Votre expérience de recherche devient plus fluide et plus efficace.
 
-![ ](assets/repository-filter-search-quick.png) {width="300" align="left"} filtre de recherche rapide
+![&#x200B; &#x200B;](assets/repository-filter-search-quick.png) {width="300" align="left"} filtre de recherche rapide
 
 *Utilisez les filtres rapides pour rechercher des fichiers DITA et non DITA.*
 

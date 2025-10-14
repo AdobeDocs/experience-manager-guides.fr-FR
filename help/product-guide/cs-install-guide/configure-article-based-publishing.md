@@ -42,4 +42,4 @@ Pour créer un site AEM pour publier une sortie basée sur un article, procédez
 
 Vous pouvez utiliser le site AEM pour publier votre article à l’aide des paramètres prédéfinis de sortie de l’éditeur web.
 
-**Rubrique parente :**&#x200B;[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)

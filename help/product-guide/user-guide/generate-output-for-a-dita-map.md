@@ -78,4 +78,4 @@ Pour plus d&#39;informations sur l&#39;utilisation de l&#39;ID public et de l&#3
 
 
 
-**Rubrique parente :**&#x200B;[ Génération de sortie](generate-output.md)
+**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)

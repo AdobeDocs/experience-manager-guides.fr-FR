@@ -19,8 +19,8 @@ Cet article vous aide à configurer et à exécuter FMPS avec AEM Guides.
 
 ## Compatibilité de FMPS avec AEM Guides
 
-- Compatibilité avec AEM Guides 4.1 : [ matrice de compatibilité 4.1](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=fr/#compatibility-matrix)
-- Compatibilité avec la version 4.0 d’AEM Guides : [ matrice de compatibilité 4.0](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
+- Compatibilité avec AEM Guides 4.1 : [&#x200B; matrice de compatibilité 4.1](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=fr/#compatibility-matrix)
+- Compatibilité avec la version 4.0 d’AEM Guides : [&#x200B; matrice de compatibilité 4.0](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
 - Dernière version : [Dernières informations de mise à jour](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=fr)
 
 ## Installation
@@ -33,7 +33,7 @@ Installation et configuration se rapportent à : [4.1 installation &amp; configu
 
 ### FMPS
 
-Pour l&#39;installation FMPS, vous pouvez vous référer à [Lien YouTube](https://www.youtube.com/watch?v=2deelyM5VA8&amp;t) ou [Installation et configuration FMPS](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&amp;rhtocid=_2)
+Pour l&#39;installation FMPS, vous pouvez vous référer à [Lien YouTube](https://www.youtube.com/watch?v=2deelyM5VA8&t) ou [Installation et configuration FMPS](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&amp;rhtocid=_2)
 
 ## Configurations requises
 
@@ -41,7 +41,7 @@ FrameMaker Publishing Server (FMPS) peut être utilisé pour générer votre con
 
 Pour ouvrir la console web, accédez à l’URL http://\&lt;nom du serveur\>:\&lt;port\>/system/console/configMgr.
 
-**Propriétés de configuration et leur description** [ &lbrace;4.1 installation et configuration](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf#page=89)
+**Propriétés de configuration et leur description** [&#x200B; &lbrace;4.1 installation et configuration](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf#page=89)
 
 ## Exécution du test :
 
@@ -95,6 +95,6 @@ Vous pouvez publier vos lignes de base déjà créées avec FMPS2020.0.2 ou une 
 
 [Formation et assistance AEM Guides](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
-[Communauté FrameMaker et FMPS](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all)
+[Communauté FrameMaker et FMPS](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&sort=latest_replies&lang=all&tabid=all)
 
 [Communauté AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=fr)

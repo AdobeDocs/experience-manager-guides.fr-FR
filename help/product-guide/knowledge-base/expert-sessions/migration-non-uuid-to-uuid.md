@@ -48,7 +48,7 @@ Au cours de cette session, nous avons donné un aperçu des éléments suivants 
 
 - [Migration de contenu d&#39;un UUID non utilisé vers un UUID](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
 - [AEM Guides : déplacez le contenu UID d’on-premise/AMS vers le cloud](../../cs-install-guide/migrate-on-premise-content-cloud.md)
-- [ Déplacement vers AEM Cloud](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
+- [&#x200B; Déplacement vers AEM Cloud](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides : migration de contenu non uuid vers le cloud](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### Forum communautaire

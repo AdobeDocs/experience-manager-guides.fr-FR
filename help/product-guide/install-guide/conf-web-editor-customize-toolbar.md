@@ -240,4 +240,4 @@ Le fichier `ui_config.json` comporte trois sections :
 1. Enregistrez le fichier *ui\_config.json* et rechargez l’éditeur web.
 
 
-**Rubrique parente :**&#x200B;[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)

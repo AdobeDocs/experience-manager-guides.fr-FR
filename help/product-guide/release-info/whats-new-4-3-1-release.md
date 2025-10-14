@@ -37,7 +37,7 @@ Pour plus d’informations, voir [Utiliser les données de votre source de donn�
 
 Experience Manager Guides fournit désormais également un outil **Sources de données** qui vous aide à configurer des connecteurs prêts à l’emploi pour les sources de données. Vous pouvez facilement créer les connecteurs pour JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce et les bases de données Elasticsearch.
 
-Vous pouvez également facilement modifier, reconnecter, dupliquer ou supprimer un connecteur de source de données. Découvrez comment [ configurer facilement un connecteur de source de données à partir de l’interface utilisateur ](../install-guide/conf-data-source-connector-tools.md).
+Vous pouvez également facilement modifier, reconnecter, dupliquer ou supprimer un connecteur de source de données. Découvrez comment [&#x200B; configurer facilement un connecteur de source de données à partir de l’interface utilisateur &#x200B;](../install-guide/conf-data-source-connector-tools.md).
 
 ![Connecteurs de source de données répertoriés dans le panneau des sources de données](assets/data-sources-create-window.png){width="550" align="left"}
 
@@ -94,7 +94,7 @@ Pour plus d’informations sur la gestion des définitions hiérarchiques des d�
 
 Utilisez le menu contextuel pour prévisualiser rapidement le fichier (fichier .dita, .xml, audio, vidéo ou image) sans l’ouvrir. Vous pouvez désormais redimensionner le volet d’aperçu. Si le contenu contient un lien de référence, vous pouvez le sélectionner pour l’ouvrir dans un nouvel onglet.
 
-![Volet Aperçu ](assets/quick-preview_cs.png){width="800" align="left"}
+![Volet Aperçu &#x200B;](assets/quick-preview_cs.png){width="800" align="left"}
 
 *Prévisualisez le fichier dans le volet.*
 

@@ -74,7 +74,7 @@ Vous pouvez ajouter ou utiliser plusieurs ressources en fonction de différentes
 
 Pour créer une ressource, procédez comme suit :
 
-1. Sélectionnez ![ icône d&#39;ajout ](assets/Add_icon.svg) dans la **section de ressource d&#39;URL** pour ajouter une ressource pour chaque URL.
+1. Sélectionnez ![&#x200B; icône d&#39;ajout &#x200B;](assets/Add_icon.svg) dans la **section de ressource d&#39;URL** pour ajouter une ressource pour chaque URL.
 1. Configurez tous les détails dans la boîte de dialogue **Ajouter une ressource**.
 1. Cliquez sur **Ajouter**.
 1. Vous pouvez modifier ![l&#39;icône de modification](assets/edit_pencil_icon.svg) ou supprimer ![supprimer](assets/Delete_icon.svg) la ressource de la liste des ressources d&#39;URL.

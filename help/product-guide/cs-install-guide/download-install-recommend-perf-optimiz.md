@@ -25,4 +25,4 @@ Pour optimiser les performances, tenez compte des points suivants :
   Cette modification réduit le temps de publication et l’utilisation de la mémoire lors de la publication de mappages DITA avec un grand nombre de rubriques.
 
 
-**Rubrique parente :**&#x200B;[ Télécharger et installer](download-install.md)
+**Rubrique parente :**&#x200B;[&#x200B; Télécharger et installer](download-install.md)

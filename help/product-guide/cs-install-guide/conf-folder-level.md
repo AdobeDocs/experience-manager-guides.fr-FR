@@ -415,7 +415,7 @@ Pour Experience Manager Guides as a Cloud Service (![](assets/aem-cloud-icon.svg
 
 L’assistant AI d’Adobe Experience Manager Guides est un puissant outil piloté par l’IA conçu pour améliorer votre contenu grâce à des expériences de création et de réutilisation de contenu intelligentes. Il associe deux puissantes fonctionnalités d’IA (**Création** et **Aide**) à l’interface de Experience Manager Guides, ce qui vous permet de créer des documents et d’accéder aux informations plus rapidement et plus efficacement.
 
-Pour plus d’informations sur la configuration, voir [ Configuration de l’assistant AI ](./conf-smart-suggestions.md).
+Pour plus d’informations sur la configuration, voir [&#x200B; Configuration de l’assistant AI &#x200B;](./conf-smart-suggestions.md).
 
 **Configurer des suggestions intelligentes optimisées par l’IA**
 

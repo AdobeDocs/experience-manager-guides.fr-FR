@@ -80,4 +80,4 @@ Effectuez les étapes suivantes pour configurer les filtres de texte :
 
 Les filtres configurés sont disponibles dans le panneau Filtres .
 
-**Rubrique parente :**&#x200B;[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)

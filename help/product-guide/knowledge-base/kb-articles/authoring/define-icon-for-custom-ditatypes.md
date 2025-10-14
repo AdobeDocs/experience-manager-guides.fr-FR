@@ -33,7 +33,7 @@ _Étape 1 :_ Déterminez le type de dictionnaire personnel pour la rubrique/appl
 - Ouvrez l’affichage du référentiel dans l’éditeur web > ouvrez la console du développeur dans le navigateur.
 - Inspect : espace de l’icône en regard de la rubrique/du mappage répertorié
 - Vérification de la classe affectée à la rubrique personnalisée
-- Voir la capture d’écran ci-dessous pour plus de détails ![Voir la capture d’écran ](../assets/authoring/custom-ditatype-icon-knowditatype.png)
+- Voir la capture d’écran ci-dessous pour plus de détails ![Voir la capture d’écran &#x200B;](../assets/authoring/custom-ditatype-icon-knowditatype.png)
 - Nous utiliserons cette classe pour attribuer une icône et écrire des CSS pour cette classe.
 
 _Étape 2 :_ Créez un CSS et affectez une icône à ce type de DIA
@@ -82,4 +82,4 @@ _Étape 2 :_ Créez un script JavaScript pour définir les icônes à charger po
 Pour plus d’informations, reportez-vous à la capture d’écran ci-dessous.
   ![Reportez-vous à la capture d’écran](../assets/authoring/custom-ditatype-icon-define-assetsui-styles.png)
 
-Et la sortie finale apparaîtra comme illustré dans la capture d’écran ![illustrée dans la capture d’écran ](../assets/authoring/custom-ditatype-icon-assetsui-showstyles.png)
+Et la sortie finale apparaîtra comme illustré dans la capture d’écran ![illustrée dans la capture d’écran &#x200B;](../assets/authoring/custom-ditatype-icon-assetsui-showstyles.png)

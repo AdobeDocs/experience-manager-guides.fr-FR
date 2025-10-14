@@ -25,12 +25,12 @@ Chaque projet de traduction génère plusieurs groupes d’utilisateurs auxquels
 - Marquez tous les projets comme &quot;inactifs&quot; une fois la traduction terminée et approuvée. Le projet reste disponible pour révision et est simplement marqué comme inactif.
    - Suivez ces étapes pour maintenir les performances globales de traduction en bonne santé.
 
-     ![Projet de traduction inactif ](../assets/translation/translation-project-image1.png)
+     ![Projet de traduction inactif &#x200B;](../assets/translation/translation-project-image1.png)
 
 - Pour les dossiers de projets plus anciens, qui est marqué comme inactif, approuvé et révisé, doit être supprimé.
    - Suivez ces étapes pour maintenir les performances globales de traduction en bon état de fonctionnement en nettoyant les fichiers de traduction temporaires et les groupes d’utilisateurs associés à ce dossier de projet.
 
-     ![ Supprimer le projet et le dossier de traduction ](../assets/translation/translation-project-image2.png)
+     ![&#x200B; Supprimer le projet et le dossier de traduction &#x200B;](../assets/translation/translation-project-image2.png)
 
 
 ## Si vous utilisez , créez la version 4.6 ou 2404 ou ultérieure :
@@ -39,4 +39,4 @@ Vous pouvez continuer à suivre les mêmes étapes que celles mentionnées ci-de
 
 Voir : [Supprimer ou désactiver automatiquement un projet de traduction terminé](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/translate-documents-web-editor#automatically-delete-or-disable-a-completed-translation-project)
 
-![ Paramètres automatisés pour supprimer et désactiver le projet de traduction dans AEM Guides ](../assets/translation/translation-project-image3.png)
+![&#x200B; Paramètres automatisés pour supprimer et désactiver le projet de traduction dans AEM Guides &#x200B;](../assets/translation/translation-project-image3.png)

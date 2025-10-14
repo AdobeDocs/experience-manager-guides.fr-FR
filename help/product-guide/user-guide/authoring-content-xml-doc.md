@@ -21,4 +21,4 @@ Experience Manager Guides est fourni avec les trois éditeurs prêts à l’empl
 
 
 
-**Rubrique parente :**&#x200B;[ Créer du contenu](authoring-content.md)
+**Rubrique parente :**&#x200B;[&#x200B; Créer du contenu](authoring-content.md)

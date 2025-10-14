@@ -65,4 +65,4 @@ Effectuez les étapes suivantes pour configurer l’interface utilisateur de Exp
 
 
 
-**Rubrique parente :**&#x200B;[ Télécharger et installer](download-install.md)
+**Rubrique parente :**&#x200B;[&#x200B; Télécharger et installer](download-install.md)

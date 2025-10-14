@@ -66,7 +66,7 @@ Vous pouvez désormais choisir la méthode par défaut pour afficher les fichier
 
 Vous pouvez définir des attributs de condition dans vos rubriques DITA. Ensuite, utilisez les attributs de condition dans le paramètre prédéfini de condition pour publier le contenu dans un mappage DITA. Experience Manager Guides vous permet désormais de créer et de gérer des paramètres prédéfinis de condition à partir de l’éditeur web. Vous pouvez également facilement les modifier, les dupliquer ou les supprimer.
 
-![Paramètres prédéfinis de condition de l’onglet Gérer de l’éditeur web ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
+![Paramètres prédéfinis de condition de l’onglet Gérer de l’éditeur web &#x200B;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
 
 Pour plus d’informations, voir [Utiliser les paramètres prédéfinis de condition](../user-guide/generate-output-use-condition-presets.md).
 

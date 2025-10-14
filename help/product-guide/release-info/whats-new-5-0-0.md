@@ -136,14 +136,14 @@ Les améliorations de publication suivantes ont été apportées dans le cadre d
 
 - Possibilité d’inclure les métadonnées de l’élément de `prolog` d’une rubrique, telles que les droits d’auteur, l’auteur et d’autres détails, dans les mises en page lors de la génération de la sortie Native PDF. Cela permet de s’assurer que les fichiers PDF générés sont plus détaillés et fournissent un contexte essentiel, ce qui les rend plus informatifs pour le lecteur.
 
-  Pour plus d’informations, consultez la section [ Ajouter des champs et des métadonnées dans la mise en page ](../native-pdf/design-page-layout.md#add-fields-and-metadata-add-fields-metadata).
+  Pour plus d’informations, consultez la section [&#x200B; Ajouter des champs et des métadonnées dans la mise en page &#x200B;](../native-pdf/design-page-layout.md#add-fields-and-metadata-add-fields-metadata).
 
   ![](assets/metadata-topic-content.png){width="300" align="left"}
 
 
 - Ajout d’une option permettant d’activer ou de désactiver le prétraitement DITA-OT pour la sortie native de PDF. Activez cette option si votre contenu nécessite une normalisation basée sur DITA-OT ou des modules externes DITA-OT personnalisés pendant le traitement. Vous pouvez ainsi mieux contrôler le traitement du contenu pour la génération PDF. Par défaut, le paramètre est défini sur **Activé**.
 
-  Pour plus d’informations, consultez la section [ Utilisation du paramètre prédéfini de sortie PDF ](../user-guide/generate-output-pdf.md)
+  Pour plus d’informations, consultez la section [&#x200B; Utilisation du paramètre prédéfini de sortie PDF &#x200B;](../user-guide/generate-output-pdf.md)
 
   ![](assets/ditaot-setting-enabled.png){width="500" align="left"}
 
@@ -153,7 +153,7 @@ Les améliorations de publication suivantes ont été apportées dans le cadre d
 
 - Possibilité d’ajouter un signet pour la page de la table des matières dans la sortie native de PDF pour une navigation transparente sur les pages, en particulier dans les PDF longs.
 
-  Pour plus d’informations, consultez la section [ Ajouter un signet personnalisé dans la sortie PDF ](../native-pdf/add-custom-bookmark.md).
+  Pour plus d’informations, consultez la section [&#x200B; Ajouter un signet personnalisé dans la sortie PDF &#x200B;](../native-pdf/add-custom-bookmark.md).
 
 ## Améliorations de la gestion de contenu
 

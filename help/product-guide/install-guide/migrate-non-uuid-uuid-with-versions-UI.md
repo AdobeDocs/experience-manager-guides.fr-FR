@@ -49,12 +49,12 @@ Si vous utilisez la version 4.3.x ou ultérieure, procédez comme suit pour migr
 
 
 
-![ Onglet d&#39;évaluation de la compatibilité dans la migration](assets/migration-compatibility-assessment.png){width="800" align="left"}
+![&#x200B; Onglet d&#39;évaluation de la compatibilité dans la migration](assets/migration-compatibility-assessment.png){width="800" align="left"}
 
 
 1. Sélectionnez **Configurer les validations** dans le panneau de gauche. Ensuite, **Sélectionnez map** et **sélectionnez preset** de la carte pour les configurer. La liste de validation de sortie actuelle affiche les fichiers de sortie présents avant la migration et peut être validée par rapport aux fichiers de sortie générés après la migration.
 
-![ Onglet Configurer les validations dans la migration](assets/migration-configure-validation.png){width="800" align="left"}
+![&#x200B; Onglet Configurer les validations dans la migration](assets/migration-configure-validation.png){width="800" align="left"}
 
 
 
