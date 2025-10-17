@@ -19,4 +19,4 @@ Lors de la publication d’un cours, vous pouvez choisir SCORM et PDF pour diffu
 
 - **PDF :** le paramètre prédéfini de sortie PDF vous permet de publier le contenu du cours dans un format professionnel prêt à être imprimé. Le format PDF le rend idéal pour partager du contenu à des fins de révision ou d’archivage.
 
-Pour une présentation vidéo sur la création, la configuration et la génération d’une sortie pour un paramètre prédéfini, reportez-vous à la [ ](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content)Paramètres prédéfinis pris en charge![](assets/Smock_VideoCheckedOut_18_N.svg).
+Pour une présentation vidéo sur la création, la configuration et la génération d’une sortie pour un paramètre prédéfini, reportez-vous à la [&#x200B; &#x200B;](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content)Paramètres prédéfinis pris en charge![](assets/Smock_VideoCheckedOut_18_N.svg).
