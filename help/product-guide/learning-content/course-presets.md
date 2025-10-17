@@ -4,9 +4,9 @@ description: Présente les paramètres prédéfinis pris en charge pour la publi
 feature: Authoring
 role: User
 exl-id: 32f30bba-4600-4d75-b0bb-1093490ec11e
-source-git-commit: 40ce03adef1b9a50afd6698de49c09b65e565b3e
+source-git-commit: 26fe86ea790432dfef40ca404ff497722164b593
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ Lors de la publication d’un cours, vous pouvez choisir SCORM et PDF pour diffu
 
 - **PDF :** le paramètre prédéfini de sortie PDF vous permet de publier le contenu du cours dans un format professionnel prêt à être imprimé. Le format PDF le rend idéal pour partager du contenu à des fins de révision ou d’archivage.
 
-Pour une présentation vidéo sur la création, la configuration et la génération d’une sortie pour un paramètre prédéfini, consultez la [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content).
+Pour une présentation vidéo sur la création, la configuration et la génération d’une sortie pour un paramètre prédéfini, reportez-vous à la [ ](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content)Paramètres prédéfinis pris en charge![](assets/Smock_VideoCheckedOut_18_N.svg).
