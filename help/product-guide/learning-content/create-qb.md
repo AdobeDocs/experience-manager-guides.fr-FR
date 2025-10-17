@@ -4,9 +4,9 @@ description: Découvrez comment créer une banque de questions dans la formation
 feature: Authoring
 role: User
 exl-id: c658af49-b0e6-4188-b3ba-8f3223b12632
-source-git-commit: 6f0643ca4b43f88ead42bbeade4e3e7252263f32
+source-git-commit: b914c69f9d29884382ce43f163a8f766567b10bf
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ Avant d’aborder le processus étape par étape, voici une courte vidéo qui ex
 
 >[!VIDEO](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides)
 
-Pour créer une banque de questions, procédez comme suit :
+**Procédure pour créer une banque de questions**
 
->[!VIDEO](https://video.tv.adobe.com/v/3469321)
+Pour créer une banque de questions, procédez comme suit :
 
 1. Ouvrez un cours dans le **Gestionnaire de cours** et sélectionnez **Ajouter** dans le menu **Options**.
 1. Sélectionnez **Banque de questions**.
