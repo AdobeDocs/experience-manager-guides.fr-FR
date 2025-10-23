@@ -4,7 +4,7 @@ description: Affichez les rubriques en mode création, source et aperçu. Décou
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
@@ -49,7 +49,7 @@ La vue Source affiche le code XML sous-jacent qui constitue la rubrique. Si vous
   Dans la capture d’écran ci-dessus, une mise en surbrillance croisée est utilisée pour pointer la ligne contenant un XML erroné.
 
 * La fonction Rechercher et remplacer vous permet de rechercher du texte, un élément ou un attribut dans la vue Source.
-Pour plus d’informations, reportez-vous à la description de la fonctionnalité **Rechercher et remplacer** dans la section [Barre d’onglets](web-editor-features.md#tab-bar).
+Pour plus d’informations, reportez-vous à la description de la fonctionnalité **Rechercher et remplacer** dans la section [Barre d’onglets](web-editor-tab-bar.md).
 
 * La vue Source propose de nombreux raccourcis pour vous aider à parcourir et à travailler rapidement sur un document. Le tableau suivant répertorie les actions prises en charge et leurs touches de raccourci :
 
@@ -149,4 +149,4 @@ Pour exporter une rubrique en tant que PDF, procédez comme suit :
    Le PDF est généré et ouvert dans un nouvel onglet ou une boîte de dialogue s’affiche pour vous permettre d’enregistrer le PDF sur votre système local.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

@@ -4,7 +4,7 @@ description: Découvrez comment créer un modèle personnalisé, les utiliser po
 exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Vous pouvez créer des modèles de carte et de rubrique des manières suivantes 
 
 ### Création de modèles personnalisés à partir de l’éditeur
 
-La fonctionnalité **Modèles** est présente dans le panneau [Gauche de l’interface de l’éditeur](./web-editor-features.md#left-panel) et n’est disponible que pour les administrateurs et administratrices. Grâce à ce panneau, l’administrateur peut facilement créer et gérer des modèles qui peuvent ensuite être utilisés par les auteurs. Par défaut, les modèles sont classés sous des modèles de type *map* et *topic*.
+La fonctionnalité **Modèles** est présente dans le panneau [Gauche de l’interface de l’éditeur](./web-editor-left-panel.md) et n’est disponible que pour les administrateurs et administratrices. Grâce à ce panneau, l’administrateur peut facilement créer et gérer des modèles qui peuvent ensuite être utilisés par les auteurs. Par défaut, les modèles sont classés sous des modèles de type *map* et *topic*.
 
 ![](images/templates-panel_cs.png){width="300" align="left"}
 
@@ -230,4 +230,4 @@ La carte génère toutes les ressources qui sont référencées à l’intérieu
 
 - Si un autre mappage ou une autre rubrique est créé au même niveau dans le dossier, les noms des ressources nouvellement créées sont ajoutés avec 0,1,2, etc. Vous pouvez choisir d’ouvrir le mappage pour le modifier ou d’enregistrer le fichier de mappage dans le référentiel.
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur de cartes](map-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur de cartes](map-editor.md)

@@ -4,7 +4,7 @@ description: Création d’une carte avec l’éditeur de cartes dans Experience
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 0%
@@ -56,17 +56,17 @@ Effectuez les étapes suivantes pour ajouter des rubriques à un fichier de mapp
    ![](images/new-map-file-in-editor.png){align="left"}
 
 
-   - **A** - \(*Barre d’onglets*\) : similaire à la barre d’onglets de l’éditeur. Afficher [barre d’onglets](./web-editor-features.md#tab-bar) dans l’éditeur pour plus d’informations.
+   - **A** - \(*Barre d’onglets*\) : similaire à la barre d’onglets de l’éditeur. Afficher [barre d’onglets](./web-editor-tab-bar.md) dans l’éditeur pour plus d’informations.
 
    - **B** - \(*Toolbar*\) Il s’agit de la barre d’outils qui vous permet d’utiliser des fichiers de mappage. Pour plus d’informations sur les fonctionnalités disponibles via la barre d’outils, consultez la section [Fonctionnalités disponibles dans la barre d’outils de l’éditeur de cartes](#features-available-in-the-map-editors-toolbar).
 
    - **C** - \(*Vues des cartes*\) : permet de basculer l’éditeur de cartes entre les options Disposition, Auteur, Source et Aperçu. La vue **Disposition** permet d&#39;organiser les rubriques dans un plan DITA. Cela donne l’arborescence ou la vue hiérarchique de la carte. La vue **Auteur** vous permet de modifier les rubriques dans l’éditeur de cartes. Cela donne également la vue WYSIWYG du fichier de mappage. La vue **Source** vous permet d&#39;utiliser le code XML sous-jacent du fichier de mappage. L’aperçu vous donne une vue consolidée de toutes les rubriques et sous-cartes dans le fichier de mappage.
 
-   - **D** - \(*Panneau de gauche*\) : donne accès au panneau de gauche, qui permet d’accéder aux collections, au référentiel, à la carte, au plan et à d’autres fonctionnalités. Vous pouvez le développer ou le réduire en sélectionnant l’icône Développer/Réduire . Pour plus d’informations sur les fonctionnalités disponibles dans le panneau de gauche, consultez la section [Panneau de gauche](./web-editor-features.md#left-panel) dans l’éditeur.
+   - **D** - \(*Panneau de gauche*\) : donne accès au panneau de gauche, qui permet d’accéder aux collections, au référentiel, à la carte, au plan et à d’autres fonctionnalités. Vous pouvez le développer ou le réduire en sélectionnant l’icône Développer/Réduire . Pour plus d’informations sur les fonctionnalités disponibles dans le panneau de gauche, consultez la section [Panneau de gauche](./web-editor-left-panel.md) dans l’éditeur.
 
    - **E** - \(*Zone centrale*\) : zone d’édition du contenu de la carte.
 
-   - **F** - \(*Panneau de droite*\) : permet d’accéder au panneau Propriétés. Vous pouvez afficher les propriétés de contenu et les propriétés de mappage de la rubrique ou du mappage sélectionné. Pour plus d’informations sur les fonctionnalités disponibles dans ce panneau, consultez le [panneau de droite](web-editor-features.md#right-panel) dans l’éditeur.
+   - **F** - \(*Panneau de droite*\) : permet d’accéder au panneau Propriétés. Vous pouvez afficher les propriétés de contenu et les propriétés de mappage de la rubrique ou du mappage sélectionné. Pour plus d’informations sur les fonctionnalités disponibles dans ce panneau, consultez le [panneau de droite](web-editor-right-panel.md) dans l’éditeur.
 
 1. Dans le panneau de gauche, passez à la vue **Référentiel**.
 

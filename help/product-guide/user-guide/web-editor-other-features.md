@@ -4,7 +4,7 @@ description: Découvrez d’autres fonctionnalités de l’éditeur dans Adobe E
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: b00f8ba0e27cc26c48e1b058e25c05c4b6e9dffd
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '2652'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Les différentes options du menu contextuel sont expliquées ci-dessous :
 
 ***Enregistrer Comme Nouvelle Version***
 
-Pour créer une nouvelle version du fichier, sélectionnez **Enregistrer comme nouvelle version**. Pour plus d’informations sur **Enregistrer** et **Enregistrer en tant que nouvelle version**, consultez la section [Connaître les fonctionnalités de l’éditeur](web-editor-features.md#).
+Pour créer une nouvelle version du fichier, sélectionnez **Enregistrer comme nouvelle version**. Pour plus d’informations sur **Enregistrer** et **Enregistrer en tant que nouvelle version**, consultez la section [Barre d’outils dans l’éditeur](web-editor-toolbar.md).
 
 ***Copier*** : vous pouvez choisir parmi les options suivantes :
 
@@ -66,9 +66,9 @@ Pour créer une nouvelle version du fichier, sélectionnez **Enregistrer comme n
 
 ***Ajouter à*** : vous pouvez choisir parmi les options suivantes :
 
-- **Collections** : pour ajouter le fichier sélectionné aux collections, sélectionnez **Ajouter aux \> collections**. Pour plus d’informations, consultez la description de la fonctionnalité **Collections** dans la section [Panneau de gauche](web-editor-features.md#left-panel).
+- **Collections** : pour ajouter le fichier sélectionné aux collections, sélectionnez **Ajouter aux \> collections**. Pour plus d’informations, consultez la description de la fonctionnalité **Collections** dans la section [Panneau de gauche](web-editor-left-panel.md).
 
-- **Contenu réutilisable** : pour copier le fichier sélectionné dans la liste de contenu réutilisable, sélectionnez **Ajouter à \> Contenu réutilisable**. Pour plus d’informations, consultez la description de la fonctionnalité **Contenu réutilisable** dans la section [Panneau de gauche](web-editor-features.md#left-panel).
+- **Contenu réutilisable** : pour copier le fichier sélectionné dans la liste de contenu réutilisable, sélectionnez **Ajouter à \> Contenu réutilisable**. Pour plus d’informations, consultez la description de la fonctionnalité **Contenu réutilisable** dans la section [Panneau de gauche](web-editor-left-panel.md).
 
 ***Propriétés***
 
@@ -114,7 +114,7 @@ Votre expérience d’enregistrement de fichier dépend des trois scénarios sui
 Vous pouvez afficher les options suivantes selon que le fichier est verrouillé/déverrouillé et qu’il contient des modifications enregistrées ou non :
 
 - **Déverrouiller et fermer** : le verrouillage du fichier est désactivé et le fichier est fermé.
-- **Enregistrer en tant que nouvelle version** : les modifications que vous avez apportées à votre contenu seront enregistrées et une nouvelle version de votre fichier sera créée. Vous pouvez également ajouter des libellés et des commentaires pour la version nouvellement enregistrée. Pour plus d’informations sur l’enregistrement d’une nouvelle version, voir [Enregistrer en tant que nouvelle version](web-editor-features.md#save-as-new-version).
+- **Enregistrer en tant que nouvelle version** : les modifications que vous avez apportées à votre contenu seront enregistrées et une nouvelle version de votre fichier sera créée. Vous pouvez également ajouter des libellés et des commentaires pour la version nouvellement enregistrée. Pour plus d’informations sur l’enregistrement d’une nouvelle version, voir [Enregistrer en tant que nouvelle version](web-editor-toolbar.md#version-information-and-save-as-new-version).
 
 - **Déverrouiller le fichier** : si vous choisissez de déverrouiller un fichier, le verrouillage sera relâché et les modifications seront enregistrées dans la version actuelle du fichier.
 
@@ -230,7 +230,7 @@ Les éléments DITA contenant des sauts de ligne et des espaces sont pris en cha
 
 ## Gestion des espaces insécables dans l’éditeur
 
-- Vous pouvez insérer des espaces insécables dans votre document à l&#39;aide de l&#39;icône de **&#x200B;**&#x200B;Symobol![](images/symbol-icon.svg) ou des touches de raccourci **Alt** + **Space**.  Ces espaces insécables s’affichent en tant qu’indicateurs lorsque vous modifiez une rubrique dans l’éditeur. Vous pouvez désactiver l’affichage des espaces insécables à l’aide de l’option **Afficher l’espace insécable en mode création** de l’onglet **Apparence** des [Préférences utilisateur](./intro-home-page.md#user-preferences).
+- Vous pouvez insérer des espaces insécables dans votre document à l&#39;aide de l&#39;icône de **** Symobol![](images/symbol-icon.svg) ou des touches de raccourci **Alt** + **Space**.  Ces espaces insécables s’affichent en tant qu’indicateurs lorsque vous modifiez une rubrique dans l’éditeur. Vous pouvez désactiver l’affichage des espaces insécables à l’aide de l’option **Afficher l’espace insécable en mode création** de l’onglet **Apparence** des [Préférences utilisateur](./intro-home-page.md#user-preferences).
 
 - Si vous copiez et collez du contenu avec un espace insécable à partir de sources externes dans la vue **Auteur**, l’espace insécable est converti en espace.
 Cependant, si vous copiez et collez du contenu avec un espace insécable à partir de la vue **Auteur**, il est conservé.
@@ -279,4 +279,4 @@ Les principales fonctionnalités visant à améliorer la gestion des fichiers vo
 
 - Le message d&#39;alerte est disponible uniquement pour les fichiers DITA et est visible dans tous les modes : Auteur, Source et Disposition.
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

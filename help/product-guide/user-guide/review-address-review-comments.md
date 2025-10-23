@@ -4,7 +4,7 @@ description: Découvrez comment traiter les commentaires de révision en tant qu
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: 35480e842f6c05811333a14e80c0e9b6431e9176
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1228'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Commentaires de révision d’adresse {#id2056B0X0KBI}
 
-En tant qu’auteur, vous pouvez ajouter des commentaires dans une rubrique à l’aide de l’éditeur. Les commentaires sont chargés en fonction de la tâche de révision sélectionnée dans le panneau de révision. Pour plus d’informations, consultez la description des fonctionnalités du panneau **Révision** ![](images/active-review-tasklist-icon.svg) dans la section [Panneau de gauche](../user-guide/web-editor-features.md#id2051EA0M0HS).
+En tant qu’auteur, vous pouvez ajouter des commentaires dans une rubrique à l’aide de l’éditeur. Les commentaires sont chargés en fonction de la tâche de révision sélectionnée dans le panneau de révision. Pour plus d’informations, consultez la description des fonctionnalités du panneau **Révision** ![](images/active-review-tasklist-icon.svg) dans la section [Panneau de gauche](../user-guide/web-editor-left-panel.md).
 
 Les sections suivantes décrivent les méthodes d’ajout de commentaires dans l’éditeur.
 
@@ -91,4 +91,4 @@ Si vous êtes l’initiateur ou l’auteur d’une tâche de révision et que vo
 
 ![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de la révision](review.md)
+**Rubrique parente :**[ Présentation de la révision](review.md)
