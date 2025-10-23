@@ -4,7 +4,7 @@ description: connaître les fonctionnalités de l’éditeur de cartes dans Adob
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 6235af9bf85b2d0e2007bd2279d8ac018f82ffc1
+source-git-commit: 4cb5934fab1897bd36de33f2192ae2c4392c07eb
 workflow-type: tm+mt
 source-wordcount: '2563'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Fonctionnalités de l’éditeur de cartes {#id1942D0S0IHS}
 
-La barre d’outils de l’éditeur de cartes est similaire à celle de l’éditeur de rubriques. Les opérations de base telles que le basculement du panneau de gauche, l’enregistrement du mappage, la création d’une nouvelle version du mappage, l’annulation/la restauration de la dernière opération et la suppression des éléments sélectionnés sont communes aux deux éditeurs. Pour plus d’informations sur le fonctionnement de ces opérations, consultez la section [Connaître les fonctionnalités de l’éditeur](web-editor-features.md#).
+La barre d’outils de l’éditeur de cartes est similaire à celle de l’éditeur de rubriques. Les opérations de base telles que le basculement du panneau de gauche, l’enregistrement du mappage, la création d’une nouvelle version du mappage, l’annulation/la restauration de la dernière opération et la suppression des éléments sélectionnés sont communes aux deux éditeurs. Pour plus d’informations sur le fonctionnement de ces opérations, consultez la section [Barre d’outils de l’éditeur](web-editor-toolbar.md#).
 
 Les options affichées dans la barre d’outils de l’éditeur sont basées sur la vue Éditeur de cartes . Quatre vues sont disponibles dans l’éditeur de cartes :
 
@@ -146,7 +146,7 @@ En outre, vous pouvez afficher les icônes suivantes et effectuer les tâches as
 
 **Insérer avant/Insérer après** - ![](images/insert_element_before_icon.svg)/![](images/insert_element_after_icon.svg)
 
-Affiche la boîte de dialogue **Insérer un élément avant ou &#x200B;** Insérer un élément après. Sélectionnez l&#39;élément à insérer dans le mappage. Selon l&#39;opération, le nouvel élément est inséré avant ou après l&#39;élément courant dans la carte.
+Affiche la boîte de dialogue **Insérer un élément avant ou **Insérer un élément après. Sélectionnez l&#39;élément à insérer dans le mappage. Selon l&#39;opération, le nouvel élément est inséré avant ou après l&#39;élément courant dans la carte.
 
 **Element** - ![](images/Add_icon.svg)
 
