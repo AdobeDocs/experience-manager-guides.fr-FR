@@ -2,9 +2,9 @@
 title: Notes de mise à jour | Nouveautés de la version Adobe Experience Manager Guides 2025.10.0
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 2025.10.0 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
+source-git-commit: bf08a48cd00170bdbe8cde312aac9776f871dbf9
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '521'
 ht-degree: 3%
 
 ---
@@ -53,5 +53,10 @@ Pour plus d’informations, consultez [Demander une révision ou fermer une tâc
 
 Une nouvelle API est désormais disponible pour effectuer le suivi du statut de post-traitement des ressources et dossiers individuels. Cela s’avère particulièrement utile pour les équipes qui utilisent des workflows automatisés, où la publication ne doit se produire qu’une fois le contenu entièrement traité. L’API offre un moyen fiable de confirmer la préparation, ce qui réduit le risque d’échecs de publication causés par un traitement incomplet.
 
-Pour plus d’informations, consultez [API pour suivre le statut de post-traitement des dossiers ou des ressources](../api-reference/track-post-processing-status.md).
+En outre, grâce à l’introduction de cette API, les événements de post-traitement des ressources ne se déclenchent pas automatiquement. Au lieu de cela, les administrateurs peuvent désormais activer cet événement par le biais d’un paramètre dans `fmdita config manager`.
+
+Pour plus d’informations, consultez :
+
+- [API pour suivre l’état de post-traitement de ressources et de dossiers individuels](../api-reference/track-post-processing-status.md)
+- [Paramètre du gestionnaire d’événements de post-traitement dans le gestionnaire de configuration fmdita](../api-reference/post-process-event.md)
 
