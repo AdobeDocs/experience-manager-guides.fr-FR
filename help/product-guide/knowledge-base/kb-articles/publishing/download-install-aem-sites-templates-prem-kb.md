@@ -36,7 +36,7 @@ Avant de poursuivre la configuration, assurez-vous que les conditions préalable
 ## Installation de packages à l’aide du gestionnaire de packages CRX
 
 1. **Installez le package de composants :**
-   1. Accédez au [**Gestionnaire de packages CRX**](http://<your-aem-instance>/crx/packmgr).
+   1. Accédez au [**Gestionnaire de packages CRX**](http://&lt;your-aem-instance>/crx/packmgr).
    2. Téléchargez et installez le package on-prem-guides-components.all-1.x.0.zip .
 
 2. **Installation du package Sites :** téléchargez et installez le package aemg-docs.all-1.x.0.zip à l’aide du gestionnaire de packages CRX.
@@ -52,7 +52,7 @@ Avant de poursuivre la configuration, assurez-vous que les conditions préalable
    5. Décochez le paramètre **Utiliser le mappage des composants hérités**.
    6. Sélectionnez **Ajouter** pour créer le paramètre prédéfini.
 
-      ![ Boîte de dialogue Nouveau paramètre prédéfini de sortie ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350" align="left"}
+      ![&#x200B; Boîte de dialogue Nouveau paramètre prédéfini de sortie &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350" align="left"}
 
 
 2. **Configurer le paramètre prédéfini de site AEM :** il existe deux options pour configurer le site prêt à l’emploi :
@@ -86,7 +86,7 @@ Avant de poursuivre la configuration, assurez-vous que les conditions préalable
    2. Créez une page produit sous la structure de site prête à l’emploi.
    3. Accédez à **Documents AEMG** > **Français** > **Documents**.
 
-      ![Création d’une page dans la structure de site AEM ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
+      ![Création d’une page dans la structure de site AEM &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
 
    4. Sélectionnez la mosaïque **Page d’accueil** puis sélectionnez **Suivant**.
 
