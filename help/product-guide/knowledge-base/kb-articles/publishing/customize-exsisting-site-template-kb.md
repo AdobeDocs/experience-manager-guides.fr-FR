@@ -4,9 +4,10 @@ description: Découvrez comment personnaliser les modèles de site AEM existants
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 1cec8975e8aad56184793a023d066aa467d8cec5
+exl-id: d48709b8-f5b2-4545-ac65-838c5d8b1bae
+source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '919'
 ht-degree: 1%
 
 ---
@@ -18,7 +19,7 @@ Ce guide fournit des instructions détaillées pour personnaliser les modèles d
 Si vous utilisez le modèle prêt à l’emploi AEM Guides (AEMG Docs) , les configurations et les composants sont déjà en place et peuvent être utilisés en l’état pour publier votre contenu AEM Guides. Cependant, si vous souhaitez utiliser vos modèles AEM Sites existants avec une valorisation de marque personnalisée pour publier du contenu AEM Guides, suivez les étapes ci-dessous pour aligner vos modèles de sites sur les exigences de rendu AEM Guides.
 
 
-## Prérequis
+## Conditions préalables
 
 - Vous disposez des autorisations appropriées et de l’accès aux modèles AEM.
 - Vous comprenez les modèles modifiables AEM et la structure du site AEM.
@@ -32,9 +33,9 @@ Si vous utilisez le modèle prêt à l’emploi AEM Guides (AEMG Docs) , les con
 
 Les noms des modèles varient en fonction de la configuration du projet. Par exemple, dans la configuration des documents AEM prêts à l’emploi :
 
-- Page du conteneur de documentation : /conf/AEMG-Docs-Site/settings/wcm/templates/kb-content
+- Page Conteneur de documentation : `/conf/AEMG-Docs-Site/settings/wcm/templates/kb-content`
 
-- Page de rubrique : /conf/AEMG-Docs-Site/settings/wcm/templates/topic-content
+- Page de sujet : `/conf/AEMG-Docs-Site/settings/wcm/templates/topic-content`
 
 **Personnalisation :** le processus de personnalisation comprend deux étapes principales :
 
@@ -85,7 +86,7 @@ Si vous disposez d&#39;une rubrique DITA sur les « Instructions d&#39;installat
 
 >[!NOTE]
 >
-> Assurez-vous que les composants qui utilisent sling:resourceType sous wcm/foundation/components sont migrés vers les core/wcm/components correspondants.
+> Assurez-vous que les composants qui utilisent sling:resourceType sous `wcm/foundation/components` sont migrés vers les `core/wcm/components` correspondants.
 
 Ajoutez le même (composant de conteneur et de texte) dans la structure du même modèle :
 
@@ -139,4 +140,4 @@ Par défaut, les bibliothèques clientes (clientlibs) fournies dans le package d
 
 >[!NOTE]
 >
-> Assurez-vous que les modèles sont testés dans un environnement hors production avant le déploiement en production.<br><br>Pour plus d’informations[&#x200B; consultez la documentation officielle de &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/overview)AEM Guides et [AEM Sites](https://experienceleague.adobe.com/fr/docs/experience-manager-core-components/using/get-started/authoring).
+> Assurez-vous que les modèles sont testés dans un environnement hors production avant le déploiement en production.<br><br>Pour plus d’informations[ consultez la documentation officielle de ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)AEM Guides et [AEM Sites](https://experienceleague.adobe.com/fr/docs/experience-manager-core-components/using/get-started/authoring).

@@ -5,16 +5,16 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 63e81b6213e293dd6b6e7e46b611b25d8cb6a815
+source-git-commit: 1ea27a0ca99e61049d08f89a0cf5e0584b38edae
 workflow-type: tm+mt
-source-wordcount: '4794'
+source-wordcount: '5127'
 ht-degree: 0%
 
 ---
 
 # Configuration de profils globaux ou au niveau du dossier {#id181AH2003PF}
 
-Dans une entreprise, différents groupes ou produits peuvent utiliser différents modèles de création, modèles de sortie, profils d’attributs conditionnels \(ou schémas d’objet\) et configurations de l’éditeur web. Leur configuration uniquement au niveau de l’entreprise \(ou global\) peut rendre l’expérience difficile pour les auteurs, car ils verront des modèles ou des profils qui ne les concernent pas.
+Dans une entreprise, différents groupes ou produits peuvent utiliser différents modèles de création, modèles de sortie, profils d’attributs conditionnels \(ou schémas d’objet\) et configurations de l’éditeur web. Leur configuration uniquement au niveau de l’entreprise \(ou global\) peut rendre l’expérience des auteurs difficile, car ils verront des modèles ou des profils qui ne les concernent pas.
 
 AEM Guides vous permet de configurer les modèles de création \(rubrique ou mappage\), les modèles de sortie, les attributs conditionnels et les configurations de l’éditeur web au niveau de l’entreprise \(global\) ainsi qu’au niveau des dossiers. Vous pouvez ainsi séparer les configurations pour différents services ou produits de votre entreprise.
 
@@ -94,7 +94,7 @@ Pour configurer le profil global, procédez comme suit :
 
 1. Cliquez sur le lien Adobe Experience Manager en haut et choisissez **Outils**.
 
-1. Sélectionnez **Guides** dans la liste des outils, puis cliquez sur le **Profils de dossier**.
+1. Sélectionnez **Guides** dans la liste des outils, puis cliquez sur la mosaïque **Profils de dossier**.
 
    Pour la première fois, la page Profils de dossier s’affiche avec uniquement la mosaïque Profil global .
 
@@ -170,7 +170,7 @@ Vous êtes maintenant prêt à configurer les attributs conditionnels, les modè
 
 >[!IMPORTANT]
 >
-> Lorsque vous créez un profil de dossier, il ne contient par défaut aucun modèle. Vous devez ajouter les modèles requis dans le profil de dossier pour les mettre à la disposition des auteurs.
+> Lorsque vous créez un profil de dossier, il ne contient par défaut aucun modèle. Vous devez ajouter les modèles requis dans le profil de dossier pour les rendre disponibles pour vos auteurs.
 
 ## Configurer des attributs conditionnels pour les profils globaux ou au niveau du dossier {#id1889D0I305Z}
 
@@ -232,7 +232,7 @@ Si vous utilisez un attribut personnalisé, il doit s&#39;agir d&#39;un attribut
 
 ## Configurer des modèles {#id1889D0IL0Y4}
 
-AEM Guides est fourni avec 7 modèles de rubrique prêts à l&#39;emploi, 2 modèles de plan DITA et 3 modèles PDF. Vous pouvez choisir de ne laisser que quelques modèles à la disposition des auteurs et des éditeurs. Si vous utilisez un modèle personnalisé, celui-ci peut être configuré et mis à disposition pour la création et la publication. Utilisez l’onglet **Modèles** dans la configuration des profils de dossier pour ajouter ou supprimer des modèles de rubrique, de mappage ou de PDF des profils globaux ou au niveau du dossier.
+AEM Guides est fourni avec 7 modèles de rubrique prêts à l&#39;emploi, 2 modèles de plan DITA et 3 modèles PDF. Vous pouvez choisir de ne laisser que quelques modèles à la disposition de vos auteurs et éditeurs. Si vous utilisez un modèle personnalisé, celui-ci peut être configuré et mis à disposition pour la création et la publication. Utilisez l’onglet **Modèles** dans la configuration des profils de dossier pour ajouter ou supprimer des modèles de rubrique, de mappage ou de PDF des profils globaux ou au niveau du dossier.
 
 Avant même de configurer les modèles de rubrique, de mappage ou de PDF au niveau global ou du dossier, vous pouvez également définir un emplacement pour stocker vos modèles personnalisés. Pour configurer un emplacement personnalisé afin de stocker les modèles, voir [Configurer le chemin d&#39;accès au dossier de modèles DITA personnalisés](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
 
@@ -415,11 +415,11 @@ Pour Experience Manager Guides as a Cloud Service (![](assets/aem-cloud-icon.svg
 
 L’assistant AI d’Adobe Experience Manager Guides est un puissant outil piloté par l’IA conçu pour améliorer votre contenu grâce à des expériences de création et de réutilisation de contenu intelligentes. Il associe deux puissantes fonctionnalités d’IA (**Création** et **Aide**) à l’interface de Experience Manager Guides, ce qui vous permet de créer des documents et d’accéder aux informations plus rapidement et plus efficacement.
 
-Pour plus d’informations sur la configuration, voir [&#x200B; Configuration de l’assistant AI &#x200B;](./conf-smart-suggestions.md).
+Pour plus d’informations sur la configuration, voir [ Configuration de l’assistant AI ](./conf-smart-suggestions.md).
 
 **Configurer des suggestions intelligentes optimisées par l’IA**
 
-Vous pouvez configurer les suggestions intelligentes optimisées par l’IA et aider les auteurs à réutiliser le contenu existant et à créer facilement des références de contenu correctes et cohérentes. L’onglet **Configuration de l’IA** vous permet de contrôler les paramètres de **Suggérer du contenu réutilisable** à partir du panneau de l’assistant d’IA dans l’éditeur web.
+Vous pouvez configurer les suggestions intelligentes optimisées par l’IA et aider les auteurs à réutiliser le contenu existant et à créer facilement des références de contenu correctes et cohérentes. L’onglet **Configuration de l’IA** vous permet de contrôler les paramètres de **Suggérer du contenu réutilisable** à partir du panneau de l’assistant d’IA dans l’éditeur.
 
 Effectuez les étapes suivantes pour configurer la configuration d’IA standard au niveau du profil global ou du dossier :
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur ou utilisateur disposant de droits d’administration sur un profil au niveau du dossier.
@@ -438,25 +438,68 @@ Effectuez les étapes suivantes pour configurer la configuration d’IA standard
 1. Sélectionnez **Modifier**.
 1. En tant qu’administrateur, vous pouvez configurer les paramètres suivants :
 
-   **Nombre minimum de caractères** : saisissez le nombre minimum de caractères que les auteurs doivent saisir pour obtenir des suggestions. Par exemple, si ce nombre est de 7, l’auteur doit ajouter au moins 7 caractères pour afficher une suggestion dynamique.
+   **Nombre minimum de caractères** : saisissez le nombre minimum de caractères que les auteurs doivent sélectionner pour obtenir les suggestions. Par exemple, si ce nombre est de 40, l’auteur doit sélectionner au moins 40 caractères pour afficher une suggestion dynamique.
+
+   Pour les sélections qui ne répondent pas aux exigences minimales en termes de caractères, le message suivant s’affiche dans le panneau de l’assistant d’IA :
+
+   ![](assets/smart-suggestions-character-limit.png)
+
+   Toutefois, pour les sélections générales où aucune suggestion n’est disponible, le message suivant s’affiche :
+
+   ![](assets/smart-suggestions-select-another-text-message.png)
+
+   Cela permet aux auteurs de comprendre si les suggestions sont indisponibles en raison d’une sélection de caractères insuffisante ou de l’absence réelle de contenu correspondant.
 
    **Nombre maximal de suggestions** : saisissez le nombre maximal de suggestions que les auteurs peuvent obtenir lors de la création du contenu. Par exemple, si ce nombre est de 5, l’auteur peut afficher cinq suggestions intelligentes ou moins.
 
-   **Fichiers et dossiers** : sélectionnez les fichiers ou dossiers à partir desquels afficher les suggestions intelligentes. *Par souci de cohérence du contenu, il est recommandé qu’aucune entrée de la liste ne comporte de fichiers communs*. Une fois les fichiers et les dossiers sélectionnés, ils sont répertoriés.
+   **Fichiers et dossiers** : sélectionnez les dossiers à partir desquels afficher les suggestions intelligentes. Seuls les dossiers enfants du chemin de dossier spécifié dans un profil de dossier peuvent être sélectionnés. Pour plus d’informations, consultez la section [Restrictions du profil de dossier](#folder-profile-restrictions).
+
+   *Pour maintenir la cohérence du contenu, il est recommandé qu’aucune entrée de la liste ne comporte de fichiers communs*. Une fois les fichiers et les dossiers sélectionnés, ils sont répertoriés.
 
 1. Cliquez sur **Enregistrer**.
 
    >[!NOTE]
    >
-   > Les détails du dernier statut indexé s’affichent en haut après l’enregistrement du fichier.
+   > Le dernier statut indexé du profil de dossier s’affiche en haut après l’enregistrement du fichier.
 
 Découvrez comment afficher et ajouter des suggestions intelligentes [basées sur l’IA](../user-guide/authoring-ai-based-smart-suggestions.md) pour ajouter des références de contenu lors de la création dans l’éditeur web.
+
+### Restrictions du profil de dossier
+
+Pour que les suggestions intelligentes fonctionnent efficacement, tenez compte des points suivants lors de l’indexation des dossiers :
+
+1. Le contenu doit être indexé via des profils de dossier pour que l’assistant d’IA puisse fournir des suggestions intelligentes aux auteurs.
+2. Lors de la spécification d’un dossier pour l’indexation, seuls les dossiers situés sous le profil de dossier actif peuvent être ajoutés. Toute tentative d’ajout de dossiers en dehors de ce profil de dossier déclenche un avertissement.
+
+   ![](assets/warning-message-indexing.png)
+
+   Cette restriction s’applique uniquement aux profils au niveau du dossier. Le profil global n’applique pas les limites de chemin d’accès et peut indexer des dossiers qui ne se trouvent sous aucun autre profil de dossier.
+3. Si un dossier parent est ajouté pour l’indexation, tous les dossiers enfants déjà répertoriés sont automatiquement supprimés afin d’éviter la duplication. L’ajout d’un dossier enfant d’un parent déjà indexé déclenche également un avertissement.
+
+   ![](assets/parent-child-warning-message-indexing.png)
+4. Toute mise à jour, déplacement ou suppression de fichiers dans les dossiers indexés déclenche une réindexation ou une suppression automatique de l’index.
+5. Pour chaque tentative d’indexation, les statuts d’indexation suivants s’affichent :
+
+   - En cours : indique que l’indexation est en cours.
+   - Indexation terminée : indique que l’indexation s’est terminée avec succès.
+   - Échec de l’indexation : indique que l’indexation a échoué.
+   - Pas synchronisé : indique que l’indexation n’est pas synchronisée, généralement observée après une mise à niveau ou une migration, lorsque le statut d’indexation actuel n’a pas pu être vérifié. Vous pouvez réessayer d’indexer pour actualiser et mettre à jour le statut.
+
+   Lorsque l’indexation échoue, les options **Afficher les journaux d’erreurs** et **Réessayer l’indexation** vous sont fournies pour résoudre le problème.
+
+   ![](assets/indexing-failed-options.png)
+
+   Les journaux d’erreurs s’affichent comme illustré ci-dessous :
+
+   ![Texte de remplacement](index-error-log.png)
+
+6. Un horodatage de la dernière heure d’index s’affiche pour chaque profil de dossier.
 
 **Personnaliser les questions par défaut pour l’aide dynamique**
 
 Pour Experience Manager Guides as a Cloud Service (![](assets/aem-cloud-icon.svg) cloud AEM).
 
-Vous pouvez configurer l’aide intelligente optimisée par l’IA **Aide** pour aider les auteurs à poser des questions et à rechercher facilement le contenu requis dans la documentation de [Experience Manager Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/overview).
+Vous pouvez configurer l’aide intelligente optimisée par l’IA **Aide** pour aider les auteurs à poser des questions et à rechercher facilement le contenu requis à partir de la documentation de [Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 L’onglet **Configuration de l’éditeur XML** vous permet de configurer les questions par défaut du panneau **Aide**.
 
@@ -508,7 +551,7 @@ Par défaut, l&#39;éditeur XML est fourni avec de nombreuses fonctions pour aid
 
 Ce paramètre vous permet de créer des extensions JSON qui reflètent les modifications apportées au fichier `ui_config.json`. Vous pouvez charger ces extensions indépendamment au niveau du profil du dossier, offrant ainsi une flexibilité et une personnalisation améliorées. Par exemple, lorsque vous apportez des modifications à la configuration de l’éditeur **XML**, comme la mise à jour d’un bouton, le système identifie automatiquement les différences. En chargeant ces modifications dans la **Configuration de l’interface utilisateur de l’éditeur XML** et en les convertissant en extensions JSON à l’aide du bouton **Convertir la configuration de l’interface utilisateur en JSON**, le système génère une extension qui incorpore la nouvelle fonctionnalité.
 
-En savoir plus sur [la personnalisation des configurations JSON et la conversion des configurations de l’interface utilisateur pour le nouvel éditeur AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+En savoir plus sur [la personnalisation des configurations JSON et la conversion des configurations de l’interface utilisateur pour le nouvel éditeur AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >
@@ -538,7 +581,7 @@ Enregistrez ce fichier et chargez-le dans la section Disposition du modèle CSS.
 
 **Fragments de code de l’éditeur XML**
 
-À l’aide du fichier de configuration de cette section, vous pouvez créer des fragments de code par défaut et les partager avec vos auteurs. La structure par défaut du fichier est présentée ci-dessous :
+À l’aide du fichier de configuration de cette section, vous pouvez créer des fragments de code par défaut et les partager avec les auteurs. La structure par défaut du fichier est présentée ci-dessous :
 
 ```
 {
@@ -566,7 +609,7 @@ Les informations suivantes sont requises pour créer un fragment de code :
 
 **Libellés de version du contenu XML**
 
-Par défaut, les auteurs sont autorisés à créer les libellés de leur choix et à les associer à leurs fichiers de rubrique. Cependant, cela peut entraîner de nombreuses variations d’un même libellé, par exemple des libellés « Version 1.0 », « Version 1.0 », « Version 1 » pour identifier la même étape d’une rubrique. Pour éviter une telle incohérence dans les libellés du système, vous pouvez créer une liste prédéfinie de libellés parmi lesquels les créateurs et créatrices seraient ensuite autorisés à choisir. L’étiquetage cohérent permet une meilleure gestion des fichiers dans votre système.
+Par défaut, les auteurs sont autorisés à créer les libellés de leur choix et à les associer à leurs fichiers de rubrique. Cependant, cela peut entraîner de nombreuses variations d’un même libellé, par exemple des libellés « Version 1.0 », « Version 1.0 », « Version 1 » pour identifier la même étape d’une rubrique. Pour éviter une telle incohérence dans les libellés du système, vous pouvez créer une liste prédéfinie de libellés parmi lesquels les créateurs et créatrices seront ensuite autorisés à choisir. L’étiquetage cohérent permet une meilleure gestion des fichiers dans votre système.
 
 La configuration des libellés de version vous permet de charger une liste de libellés valides pour votre organisation. Téléchargez le fichier label.json par défaut et modifiez-le comme illustré ci-dessous :
 
@@ -581,7 +624,7 @@ La configuration des libellés de version vous permet de charger une liste de li
 }
 ```
 
-Dans l’exemple ci-dessus, « label1 » est l’identifiant de la séquence de libellés et il est ajouté par le libellé affiché pour les auteurs où un libellé est requis. Enregistrez ce fichier et chargez-le dans la section Libellés de version du contenu XML .
+Dans l’exemple ci-dessus, « label1 » est l’identifiant de la séquence de libellés et il est ajouté par le libellé affiché pour les auteurs lorsqu’un libellé est requis. Enregistrez ce fichier et chargez-le dans la section Libellés de version du contenu XML .
 
 >[!IMPORTANT]
 >

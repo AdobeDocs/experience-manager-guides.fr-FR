@@ -4,24 +4,28 @@ description: Création d’une carte avec l’éditeur de cartes dans Experience
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: 21c45ac9ad32d8590f6ed180816853c24a4fa3dc
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1578'
 ht-degree: 0%
 
 ---
 
 # Créer un mappage {#id176FEN0D05Z}
 
+>[!INFO]
+>
+>À partir de la version 2025.11.0, **Référentiel** est renommé **Explorateur**. Pour la configuration On-Premise, elle reste disponible en tant que référentiel jusqu’à la version 5.1 de Experience Manager Guides.
+
 Adobe Experience Manager Guides fournit deux modèles de carte prêts à l&#39;emploi : un plan DITA et un plan de signets. Vous pouvez également créer vos propres modèles de carte et les partager avec vos auteurs pour créer des fichiers de carte.
 
 Pour créer un mappage, procédez comme suit :
 
-1. Dans le panneau Référentiel, sélectionnez l’icône **Nouveau fichier** puis sélectionnez **DITA Map** dans le menu déroulant.
+1. Dans le panneau Explorateur, sélectionnez l&#39;icône **Nouveau fichier** puis sélectionnez **DITA Map** dans le menu déroulant.
 
    ![](images/create-map-options.png){align="left"}
 
-   Vous pouvez également accéder à cette option à partir de la page d&#39;accueil [Experience Manager Guides](./intro-home-page.md) et du menu d&#39;options d&#39;un dossier dans la vue Référentiel.
+   Vous pouvez également accéder à cette option à partir de la page d&#39;accueil de [Experience Manager Guides](./intro-home-page.md) et du menu d&#39;options d&#39;un dossier dans la vue Explorateur.
 
 2. La boîte de dialogue **Nouvelle carte** s’affiche.
 
@@ -29,7 +33,7 @@ Pour créer un mappage, procédez comme suit :
    - Titre de la carte.
    - \(Facultatif\)* Nom de fichier du mappage. Le nom du fichier est suggéré automatiquement en fonction du titre de la rubrique. Si votre administrateur a activé les noms de fichiers automatiques en fonction du paramètre UUID, vous ne verrez pas le champ Nom .
    - Modèle sur lequel la rubrique sera basée. Pour un fichier de mappage, les options disponibles sont **Bookmap**, **Map** et **Subject schema**.
-   - Chemin où enregistrer le fichier de mappage. Par défaut, le chemin du dossier actuellement sélectionné dans le référentiel s’affiche dans le champ Chemin .
+   - Chemin où enregistrer le fichier de mappage. Par défaut, le chemin du dossier actuellement sélectionné dans l’Explorateur s’affiche dans le champ Chemin .
 
    ![](images/new-map-dialog.png){width="300" align="left"}
 
@@ -46,7 +50,7 @@ En plus de modifier les fichiers de mappage directement à partir de l’éditeu
 
 Effectuez les étapes suivantes pour ajouter des rubriques à un fichier de mappage à partir de la console Mappage :
 
-1. Dans la vue Référentiel, accédez au fichier de mappage à modifier et ouvrez-le.
+1. Dans la vue Explorateur, accédez au fichier de mappage à modifier et ouvrez-le.
 1. Sélectionnez l’icône **Modifier**.
 
    ![](images/edit-map-icon.png){width="450" align="left"}
@@ -62,17 +66,17 @@ Effectuez les étapes suivantes pour ajouter des rubriques à un fichier de mapp
 
    - **C** - \(*Vues des cartes*\) : permet de basculer l’éditeur de cartes entre les options Disposition, Auteur, Source et Aperçu. La vue **Disposition** permet d&#39;organiser les rubriques dans un plan DITA. Cela donne l’arborescence ou la vue hiérarchique de la carte. La vue **Auteur** vous permet de modifier les rubriques dans l’éditeur de cartes. Cela donne également la vue WYSIWYG du fichier de mappage. La vue **Source** vous permet d&#39;utiliser le code XML sous-jacent du fichier de mappage. L’aperçu vous donne une vue consolidée de toutes les rubriques et sous-cartes dans le fichier de mappage.
 
-   - **D** - \(*Panneau de gauche*\) : donne accès au panneau de gauche, qui permet d’accéder aux collections, au référentiel, à la carte, au plan et à d’autres fonctionnalités. Vous pouvez le développer ou le réduire en sélectionnant l’icône Développer/Réduire . Pour plus d’informations sur les fonctionnalités disponibles dans le panneau de gauche, consultez la section [Panneau de gauche](./web-editor-left-panel.md) dans l’éditeur.
+   - **D** - \(*Panneau de gauche*\) : donne accès au panneau de gauche, qui permet d’accéder aux collections, à l’explorateur, à la carte, au plan et à d’autres fonctionnalités. Vous pouvez le développer ou le réduire en sélectionnant l’icône Développer/Réduire . Pour plus d’informations sur les fonctionnalités disponibles dans le panneau de gauche, consultez la section [Panneau de gauche](./web-editor-left-panel.md) dans l’éditeur.
 
    - **E** - \(*Zone centrale*\) : zone d’édition du contenu de la carte.
 
    - **F** - \(*Panneau de droite*\) : permet d’accéder au panneau Propriétés. Vous pouvez afficher les propriétés de contenu et les propriétés de mappage de la rubrique ou du mappage sélectionné. Pour plus d’informations sur les fonctionnalités disponibles dans ce panneau, consultez le [panneau de droite](web-editor-right-panel.md) dans l’éditeur.
 
-1. Dans le panneau de gauche, passez à la vue **Référentiel**.
+1. Dans le panneau de gauche, passez à la vue **Explorateur**.
 
-1. Dans le référentiel Adobe Experience Manager, accédez au dossier contenant les rubriques ou les sous-mappages à ajouter.
+1. Dans l’Explorateur Adobe Experience Manager, accédez au dossier contenant les rubriques ou les sous-mappages à ajouter.
 
-1. Sélectionnez le fichier de rubrique ou de mappage dans la vue **Référentiel** et faites-le glisser dans la zone d’édition du contenu du mappage \(middle\).
+1. Sélectionnez le fichier de rubrique ou de carte dans la vue **Explorateur** et faites-le glisser dans la zone d&#39;édition du contenu de la carte \(au milieu\).
 
    La rubrique est ajoutée dans la carte.
 
@@ -136,7 +140,7 @@ Pour créer un mappage à partir de l’interface utilisateur d’Assets, procé
 
    Les informations de version d’un mappage nouvellement créé s’affichent sous la forme *aucune*. Lorsque vous enregistrez une nouvelle version, un numéro de version 1.0 lui est attribué. Pour plus d’informations sur l’enregistrement d’une nouvelle version, voir [Enregistrer en tant que nouvelle version](web-editor-features.md#save-as-new-version).
 
-   Vous pouvez choisir d’ouvrir le mappage pour le modifier dans l’éditeur de mappages configuré ou d’enregistrer le fichier de mappage dans le référentiel Adobe Experience Manager.
+   Vous pouvez choisir d’ouvrir la carte pour la modifier dans l’éditeur de cartes configuré ou d’enregistrer le fichier de carte dans l’Explorateur.
 
    >[!NOTE]
    >

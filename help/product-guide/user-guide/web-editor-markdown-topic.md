@@ -4,7 +4,7 @@ description: Créez des documents Markdown à partir de l’éditeur. Découvrez
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 779be011c078fb3c2fae4fc6a92e3e2d734672b0
+source-git-commit: 639cd235778f31b139889d615f93bde3334e4988
 workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Markdown est un langage de balisage léger qui peut vous aider à ajouter des é
 Pour créer une rubrique Markdown à partir de l’éditeur, procédez comme suit :
 
 1. Dans le panneau Référentiel, sélectionnez ![](images/Add_icon.svg), puis sélectionnez **Rubrique** dans la liste déroulante.
-2. Dans la boîte de dialogue **Nouvelle rubrique**, fournissez les détails suivants :
+1. Dans la boîte de dialogue **Nouvelle rubrique**, fournissez les détails suivants :
 
    ![](images/create-markdown-dialog.png){width="300" align="left"}
 
@@ -32,7 +32,7 @@ Pour créer une rubrique Markdown à partir de l’éditeur, procédez comme sui
    >[!NOTE]
    >
    > En cas de mise à niveau, vous devez ajouter le modèle Markdown dans le profil de dossier actuel utilisé. Vous pouvez [créer un modèle Markdown à partir de l’éditeur](./web-editor-features.md#templates) ou utiliser un modèle existant pour la création Markdown. Pour plus d’informations sur l’ajout de modèles de création dans Experience Manager Guides, consultez [Configuration de profils globaux ou au niveau du dossier](../cs-install-guide/conf-folder-level.md).
-3. Sélectionnez **Créer**.
+1. Sélectionnez **Créer**.
 
    La rubrique Markdown est créée au niveau du chemin d’accès sélectionné et est ouverte pour modification.
 
@@ -83,7 +83,7 @@ La barre d’outils se trouve juste en dessous de la barre d’onglets. Les fonc
 
 ![](images/markdown-main-toolbar.png){align="left"}
 
-| Fonctions | Description |
+| Fonctionnalités | Description |
 |----------------|----------------|
 | Modifier les actions | Permet d&#39;accéder à diverses fonctions d&#39;édition de documents, y compris **Couper**  ![](images/S_Cut_18_N.svg), **Annuler**  ![](images/S_Undo_18_N.svg), **Rétablir**  ![](images/S_Redo_18_N.svg), **Copier**  ![](images/S_Copy_18_N.svg), **Supprimer**  ![](images/S_Delete_18_N.svg) et **Rechercher et remplacer**  ![](images/S_FindAndReplace_18_N.svg). Vous pouvez accéder aux options disponibles à partir du menu déroulant **Menu**. |
 | Options de formatage du texte | Permet d’accéder à diverses options de formatage de texte, y compris **Titres**  ![](images/S_DisplayHeading_18_N.svg), **Gras**  ![](images/S_TextBold_18_N.svg), **Italique**  ![](images/S_TextItalic_18_N.svg), **Barré**  ![](images/S_TextStrikethrough_18_N.svg), **Code**  ![](images/S_Code_18_N.svg) et **Citation en bloc**  ![](images/S_BlockQuoteMultipleLines_18_N.svg). |
@@ -175,4 +175,4 @@ Les fonctionnalités Experience Manager Guides suivantes ne s’appliquent actue
 
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

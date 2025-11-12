@@ -5,7 +5,7 @@ exl-id: 3b105ff5-02d4-40e3-a713-206a7fcf18b2
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 8e57d4048f4aa13d7f77f25082d4e7aa329ee355
+source-git-commit: 6f212862855e5ce1125137f462b88c933d23ed26
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 5%
@@ -42,7 +42,7 @@ com/adobe/guides/postprocess/complete
 |----|----|-----------|
 | `path` | Chaîne | Chemin d’accès au fichier qui a déclenché cet événement. En règle générale, il s’agit du fichier sur lequel une opération a été effectuée. |
 | `eventType` | Chaîne | Type d’événement, c’est-à-dire CRÉER ou MODIFIER. |
-| `status` | Chaîne | Statut de retour de l’opération effectuée. Les options possibles sont les suivantes : - <br>- SUCCÈS : l’opération de post-traitement s’est terminée avec succès. <br>- ÉCHEC : l’opération de post-traitement a échoué en raison d’une erreur. |
+| `status` | Chaîne | Statut de retour de l’opération effectuée. Les options possibles sont les suivantes : <br>- SUCCÈS : L’opération de post-traitement s’est terminée avec succès. <br>- ÉCHEC : l’opération de post-traitement a échoué en raison d’une erreur. |
 | `errorMsg` | Chaîne | Message d’erreur en cas d’échec de l’opération de post-traitement. |
 | `uuid` | Chaîne | UUID du fichier qui a déclenché cet événement. En règle générale, il s’agit du fichier sur lequel une opération a été effectuée. |
 
@@ -110,6 +110,6 @@ com/adobe/fmdita/postprocess/complete
 | Nom | Type | Description |
 |----|----|-----------|
 | `path` | Chaîne | Chemin d’accès au fichier qui a déclenché cet événement. En règle générale, il s’agit du fichier sur lequel une opération a été effectuée. |
-| `status` | Chaîne | Statut de retour de l’opération effectuée. Les options possibles sont les suivantes : - <br>- SUCCÈS : l’opération de post-traitement s’est terminée avec succès. <br>- TERMINÉ AVEC DES ERREURS : l’opération de post-traitement s’est terminée, mais avec des erreurs. <br>- ÉCHEC : l’opération de post-traitement a échoué en raison d’une erreur. |
+| `status` | Chaîne | Statut de retour de l’opération effectuée. Les options possibles sont les suivantes : <br>- SUCCÈS : L’opération de post-traitement s’est terminée avec succès. <br>- TERMINÉ AVEC DES ERREURS : l’opération de post-traitement s’est terminée, mais avec des erreurs. <br>- ÉCHEC : l’opération de post-traitement a échoué en raison d’une erreur. |
 | `message` | Chaîne | Si l’état est TERMINÉ AVEC DES ERREURS ou EN ÉCHEC, ce paramètre contient les détails sur l’erreur ou la raison de l’échec. |
 | `operation` | Chaîne | Opération de post-traitement effectuée sur le fichier. Les options possibles sont les suivantes : <br>- Ajout <br>- Mise à jour <br>- Suppression |

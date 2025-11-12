@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: c0a75668d283458049d9b4a3bbc23335117ea660
+source-git-commit: e1b332b100cc8e3937557e4617d66352c1a0dc3c
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 9%
+source-wordcount: '2428'
+ht-degree: 10%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 9%
       - Services cloud {#cloud-release-notes}
          - [Instructions de déploiement](./release-info/deploy-xml-on-aemaacs.md)
          - Versions De 2025 {#2025-releases}
+            - Version 2025.11.0 {#2511-release}
+               - [Nouveautés](./release-info/whats-new-2025-11-0.md)
+               - [Problèmes résolus](./release-info/fixed-issues-2025-11-0.md)
+               - [Instructions de mise à niveau](./release-info/upgrade-instructions-2025-11-0.md)
             - Version 2025.10.0 {#2510-release}
                - [Nouveautés](./release-info/whats-new-2025-10-0.md)
                - [Problèmes résolus](./release-info/fixed-issues-2025-10-0.md)
@@ -131,7 +135,7 @@ ht-degree: 9%
             - [Instructions de mise à niveau](./release-info/upgrade-instructions-4-6-0-sp2.md)
          - Version 4.6.0 SP1 {#460-sp1-release}
             - [Correction de problèmes](./release-info/fixed-issues-4-6-0-sp1.md)
-            - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-4-6-0-sp1.md)
+            - [ Instructions de mise à niveau ](./release-info/upgrade-instructions-4-6-0-sp1.md)
          - Version 4.6.0 {#460-release}
             - [Nouveautés](./release-info/whats-new-4-6.md)
             - [Correction de problèmes](./release-info/fixed-issues-4-6-0.md)
@@ -158,16 +162,17 @@ ht-degree: 9%
                - [Notes de mise à jour de la version 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notes de mise à jour 4.2](./release-info/release-notes-4-2.md)
          - [Notes de mise à jour 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notes de mise à jour d’4.0.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notes de mise à jour d’3.8.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - Notes de mise à jour d’[4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - Notes de mise à jour d’[3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guide de l’utilisateur (nouvelle interface utilisateur) {#user-guide}
    - Présentation {#about-aemg}
       - [À propos  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - Fonctionnalités [!DNL AEM Guides] et clés {#aemg-works-features}
-         - [Fonctionnement  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+         - [Fonctionnement  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
          - [Fonctionnalités [!DNL AEM Guides] clés](./user-guide/intro-dxml-features.md)
    - Page d’accueil {#home-page}
       - [Expérience de la page d’accueil [!DNL AEM Guides]](./user-guide/intro-home-page.md)
+      - [Interface du référentiel](./user-guide/home-page-repository-view.md)
    - et créer du contenu. {#author-content}
       - [Présentation de la création](./user-guide/authoring-content.md)
       - [Méthodes de création de contenu à l’aide d’AEM Guides](./user-guide/authoring-content-xml-doc.md)
@@ -181,12 +186,14 @@ ht-degree: 9%
             - [Prévisualiser une rubrique](./user-guide/web-editor-preview-topics.md)
          - [Connaître les fonctionnalités de l’éditeur](./user-guide/web-editor-features.md)
          - Connaître l’interface et les fonctionnalités de l’éditeur {#editor-interface-features}
+            - [Vue d’ensemble](./user-guide/intro-editor-interface.md)
             - [Barre d’en-tête](./user-guide/web-editor-header-bar.md)
             - [Barre de tabulation](./user-guide/web-editor-tab-bar.md)
             - [Barre d’outils](./user-guide/web-editor-toolbar.md)
             - [Panneau de gauche](./user-guide/web-editor-left-panel.md)
             - [Zone d&#39;édition du contenu](./user-guide/web-editor-content-editing-area.md)
             - [Panneau de droite](./user-guide/web-editor-right-panel.md)
+            - [Panneau de recherche](./user-guide/search-panel-explorer.md)
          - [Fonctionnalités supplémentaires de l’éditeur](./user-guide/web-editor-other-features.md)
          - [Raccourcis clavier dans l’éditeur](./user-guide/web-editor-keyboard-shortcuts.md)
          - [Vues de l’éditeur](./user-guide/web-editor-views.md)
@@ -280,6 +287,7 @@ ht-degree: 9%
          - [Gérer le processus de génération de sortie](./user-guide/generate-output-manage-process.md)
          - [Gérer les tâches de publication à l’aide du tableau de bord de publication](./user-guide/generate-output-publish-dashboard.md)
          - [Résolution des problèmes de base](./user-guide/generate-output-basic-troubleshooting.md)
+         - [Questions fréquentes sur le workflow de publication et l’évolutivité](./user-guide/publishing-scalability-faq.md)
       - Activation en masse de contenu {#bulk-activation}
          - [Activation en bloc du contenu publié](./user-guide/conf-bulk-activation.md)
          - [Créer une collection de mappages d’activation en bloc](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -324,7 +332,7 @@ ht-degree: 9%
             - [Créer un quiz](./learning-content/create-quiz.md)
             - [Modifier le quiz](./learning-content/edit-quiz.md)
             - [Insérer des questions dans un quiz](./learning-content/quiz-insert-questions.md)
-            - [&#x200B; Propriétés du quiz &#x200B;](./learning-content/quiz-properties.md)
+            - [ Propriétés du quiz ](./learning-content/quiz-properties.md)
             - Banque de questions {#question-bank}
                - [Créer une banque de questions](./learning-content/create-qb.md)
                - [Insérer des questions depuis la banque de questions](./learning-content/insert-questions.md)
@@ -352,11 +360,11 @@ ht-degree: 9%
          - [Concepts clés, rôles et autorisations, et conditions préalables](./user-guide/authoring.md)
          - [Charger des fichiers](./user-guide/authoring-upload-existing-files.md)
          - [Gestion des fichiers et des dossiers](./user-guide/authoring-file-management.md)
-         - [Traitement ou retraitement des ressources](./user-guide/asset-processor.md)
+         - [Traitement des ressources](./user-guide/asset-processor.md)
       - Résolution des problèmes {#troubleshooting}
          - [Timeout de session](./user-guide/session-timeout-prompt.md)
 - Guide de l’utilisateur (ancienne interface utilisateur) {#user-guide-old-ui}
-   - [Présentation d’AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Présentation d’AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation et configuration {#install-guide}
    - On-Premise {#on-prem-ig}
       - [Notions de base sur site](./install-guide/introduction.md)
@@ -451,6 +459,10 @@ ht-degree: 9%
          - [Traduction du contenu](./install-guide/translation.md)
       - Utilisation de la recherche AEM Assets {#aem-asset-search}
          - [Configuration de la recherche de l’interface utilisateur d’AEM Assets](./install-guide/conf-dita-search.md)
+      - Utilisation du traitement des ressources {#asset-processing-on-prem}
+         - [Configuration de la fonctionnalité de traitement des ressources](./install-guide/configure-asset-processing.md)
+      - Utilisation du nettoyage de l’arborescence B{#btree-cleanup}
+         - [Configurer le nettoyage de l’arborescence B](./install-guide/configure-btree-clean-up-job.md)
       - [Annexe](./install-guide/appendix.md)
    - Services cloud {#cs-ig}
       - [À propos de ce guide](./cs-install-guide/introduction.md)
@@ -532,6 +544,10 @@ ht-degree: 9%
          - [Traduction du contenu](./cs-install-guide/translation.md)
       - Utilisation de la recherche AEM Assets {#aem-asset-search-cs}
          - [Configuration de la recherche de l’interface utilisateur d’AEM Assets](./cs-install-guide/conf-dita-search.md)
+      - Utilisation du traitement des ressources {#asset-processing-cloud}
+         - [Configuration de la fonctionnalité de traitement des ressources](./cs-install-guide/configure-asset-processing-cs.md)
+      - Utilisation du nettoyage de l’arborescence B{#btree-cleanup-cs}
+         - [Configurer le nettoyage de l’arborescence B](./cs-install-guide/configure-btree-cleanup-cs.md)
       - [Annexe](./cs-install-guide/appendix.md)
 - Référence d’API {#api-reference}
    - [Présentation](./api-reference/introduction.md)
@@ -541,14 +557,9 @@ ht-degree: 9%
    - [API REST pour utiliser des attributs conditionnels](./api-reference/conditional-attribute.md)
    - [API REST pour le workflow de conversion](./api-reference/convert-to-dita.md)
    - [API REST pour créer et activer des packages](./api-reference/create-activate-package.md)
-   - [API Java pour travailler avec la génération de sortie](./api-reference/generate-output.md)
-   - [API Java pour utiliser les plans DITA](./api-reference/dita-map-management-java.md)
-   - [API Java pour le workflow de conversion](./api-reference/convert-to-dita-java.md)
-   - [API Java pour utiliser la ligne de base et les libellés](./api-reference/create-baseline-label-java.md)
-   - [API Java pour l’utilisation des profils de dossier](./api-reference/folder-profile-java.md)
-   - [API Java pour la création et l’activation de packages](./api-reference/create-activate-package-java.md)
    - [Gestionnaire d&#39;événements de post-traitement](./api-reference/post-process-event.md)
    - [API pour effectuer le suivi de l’état de post-traitement d’un dossier ou d’une ressource](./api-reference/track-post-processing-status.md)
+   - [API pour démarrer le traitement en bloc des ressources](./api-reference/bulk-assets-processing.md)
    - [Gestionnaire d’événements d’activation en bloc terminée](./api-reference/bulk-activation-complete-event.md)
    - [Gestionnaire d&#39;événements de processus de conversion](./api-reference/conversion-complete-event.md)
 - Base de connaissances {#knowledge-base}

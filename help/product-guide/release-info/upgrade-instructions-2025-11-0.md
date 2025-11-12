@@ -1,37 +1,37 @@
 ---
-title: Notes de mise à jour | Instructions de mise à niveau et problèmes résolus dans Adobe Experience Manager Guides version 2025.10.0
-description: Découvrez la matrice de compatibilité et comment effectuer une mise à niveau vers la version 2025.10.0 d’Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 25bfa20f469930b3b683e4753812227abdf36f24
+title: Notes de mise à jour | Instructions de mise à niveau et problèmes résolus dans Adobe Experience Manager Guides version 2025.11.0
+description: Découvrez la matrice de compatibilité et comment effectuer une mise à niveau vers la version 2025.11.0 d’Adobe Experience Manager Guides as a Cloud Service.
+source-git-commit: b33f9385cd0364009a70c1a5fddcc1a5c118b08b
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1039'
 ht-degree: 3%
 
 ---
 
-# Instructions de mise à niveau pour la version 2025.10.0
+# Instructions de mise à niveau pour la version 2025.11.0
 
-Cet article couvre les instructions de mise à niveau et la matrice de compatibilité pour la version 2025.10.0 d’Adobe Experience Manager Guides as a Cloud Service.
+Cet article couvre les instructions de mise à niveau et la matrice de compatibilité pour la version 2025.11.0 d’Adobe Experience Manager Guides as a Cloud Service.
 
-Pour plus d’informations sur les nouvelles fonctionnalités et améliorations, voir la section [Nouveautés de la version 2025.10.0](whats-new-2025-10-0.md).
+Pour plus d’informations sur les nouvelles fonctionnalités et améliorations, voir la section [Nouveautés de la version 2025.11.0](whats-new-2025-11-0.md).
 
-Pour connaître la liste des problèmes résolus dans cette version, voir la section [Problèmes résolus dans la version 2025.10.0](fixed-issues-2025-10-0.md).
+Pour connaître la liste des problèmes résolus dans cette version, voir la section [Problèmes résolus dans la version 2025.11.0](fixed-issues-2025-11-0.md).
 
 ## Matrice de compatibilité
 
-Cette section présente la matrice de compatibilité pour les applications logicielles prises en charge par la version 2025.10.0 de Experience Manager Guides as a Cloud Service.
+Cette section présente la matrice de compatibilité pour les applications logicielles prises en charge par la version 2025.11.0 de Experience Manager Guides as a Cloud Service.
 
 ### FrameMaker et FrameMaker Publishing Server
 
 | Version de Experience Manager Guides as a Cloud | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2025.10.0 | Non compatible | 2022 ou version ultérieure |
+| 2025.11.0 | Non compatible | 2022 ou version ultérieure |
 
 
 ### Connecteur D&#39;Oxygène
 
 | Version de Experience Manager Guides as a Cloud | Fenêtres du connecteur d&#39;oxygène | Mac du connecteur d&#39;oxygène | Modifier dans Oxygen Windows | Modifier dans Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2025.10.0 | 3.8 -uuid 1 | 3.8 -uuid 1 | 2,3 | 2,3 |
+| 2025.11.0 | 3.8 -uuid 1 | 3.8 -uuid 1 | 2,3 | 2,3 |
 
 
 ### Version du modèle de la base de connaissances
@@ -48,13 +48,9 @@ Cette section présente la matrice de compatibilité pour les applications logic
 | guides-components.all-1.4.0 | aemg-sites-template-1.3.0 |
 
 
-## Mise à niveau vers la version 2025.10.0
+## Mise à niveau vers la version 2025.11.0
 
 Experience Manager Guides est automatiquement mis à niveau lors de la mise à niveau vers la dernière version d’Experience Manager as a Cloud Service.
-
->[!NOTE]
->
-> Cette version comprend des mises à jour des paramètres du profil de dossier (ui_config.json). Si vous utilisez des paramètres personnalisés, veillez à les sauvegarder avant de procéder à la mise à niveau. Après la mise à jour, vérifiez et ajustez vos paramètres pour vous aligner sur les modifications introduites dans la dernière version.
 
 Effectuez les étapes suivantes pour Experience Manager Guides as a Cloud Service si vous ne l’avez pas déjà fait pour votre version existante :
 
@@ -175,9 +171,9 @@ GET :
 http://<aem_domain>/var/dxml/executor-locks/cf-reference-store-btree-migration/1683190032886.json
 ```
 
-### Étapes d’application de filtres de recherche sur les fichiers DITAVAL pour tous les paramètres prédéfinis de sortie
+### Étapes d’application des filtres de recherche sur les fichiers DITAVAL pour tous les paramètres prédéfinis de sortie
 
-Pour garantir le bon fonctionnement des filtres de recherche pour les fichiers DITAVAL, modifiez le fichier `ui_config.json` en appliquant les mises à jour suivantes sous le champ **browseFilters** dans la section **Fichiers non DITA** :
+Pour garantir le bon fonctionnement des filtres, mettez à jour le fichier ui_config.json. Modifiez les propriétés répertoriées sous **browseFilters** > **Fichiers non-DITA** > **Fichiers Ditaval** comme illustré ci-dessous :
 
 ```
 {

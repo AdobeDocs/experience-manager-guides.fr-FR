@@ -4,9 +4,9 @@ description: Découvrez le panneau de gauche dans l’éditeur. Découvrez l’i
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
+source-git-commit: 565f7b9b8139bfa3e21c91c4b60b6c9757b67429
 workflow-type: tm+mt
-source-wordcount: '9542'
+source-wordcount: '9769'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,13 @@ Le panneau de gauche vous donne un accès rapide aux collections, à la vue du r
 
 >[!NOTE]
 >
-> Le panneau de gauche est redimensionnable. Pour redimensionner le panneau, placez le curseur sur la limite du panneau, le curseur se transforme en flèche à deux pointes, sélectionnez et faites glisser pour redimensionner la largeur du panneau.
+>Le panneau de gauche est redimensionnable. Pour redimensionner le panneau, placez le curseur sur la limite du panneau, le curseur se transforme en flèche à deux pointes, sélectionnez et faites glisser pour redimensionner la largeur du panneau.
 
 Le panneau de gauche vous donne accès aux fonctionnalités suivantes :
 
 - [Collections](#collections)
 - [Référentiel](#repository)
+- [Explorateur](#explorer)
 - [Map](#map)
 - [Contenu réutilisable](#reusable-content)
 - [Esquisse](#outline)
@@ -118,6 +119,10 @@ Vous pouvez également effectuer de nombreuses actions à l’aide du menu Optio
 
 ## Référentiel
 
+>[!NOTE]
+>
+> À compter de la version 2025.11.0, le **Référentiel** dans l’éditeur sera obsolète et remplacé par le **Explorateur** pour la configuration **Cloud Service**. Pour la configuration **On-Premise**, vous continuerez à afficher et à utiliser le référentiel via l’interface de l’éditeur jusqu’à la version 5.1 de Experience Manager Guides.
+
 Lorsque vous sélectionnez l’icône Référentiel , vous obtenez une liste de fichiers et de dossiers disponibles dans la gestion des ressources numériques (DAM). Par défaut, vous pouvez afficher les fichiers par titres. Pointez sur un fichier pour afficher le titre et le nom du fichier sous forme d’info-bulle.
 
 >[!NOTE]
@@ -134,7 +139,7 @@ vitesse ou afficher l&#39;image en image.
 
 Sélectionnez une carte et appuyez sur Entrée ou double-cliquez pour l’ouvrir dans la **vue Carte**. Pour plus d’informations, consultez la description de la fonction **Vue Carte** dans le panneau de gauche. Sélectionnez une rubrique et appuyez sur Entrée ou double-cliquez pour l&#39;ouvrir dans la zone [Modification du contenu](./web-editor-content-editing-area.md). La possibilité de naviguer et d’ouvrir un fichier directement depuis l’éditeur permet de gagner du temps et d’augmenter la productivité.
 
-**Filtrer la recherche dans le référentiel**
+## Filtrer la recherche dans le référentiel
 
 L’éditeur fournit des filtres améliorés pour la recherche de texte. Vous pouvez rechercher et filtrer du texte dans les fichiers présents sur le chemin d’accès sélectionné du référentiel Adobe Experience Manager. Elle effectue une recherche dans le titre, le nom de fichier et le contenu des fichiers.
 
@@ -169,7 +174,7 @@ Sélectionnez l’icône **Filtrage avancé** ![icône de filtre avancé](images
 
 Vous pouvez afficher les options suivantes sous les onglets **Général** et **Avancé**.
 
-![&#x200B; boîte de dialogue filtre avancé &#x200B;](images/repository-filter-search-advanced.png) {width="650" align="left"}
+![ boîte de dialogue filtre avancé ](images/repository-filter-search-advanced.png) {width="650" align="left"}
 
 
 **Général**
@@ -206,7 +211,7 @@ Cette opération est synchronisée avec la zone de recherche de la fenêtre du r
   >
   >La liste des fichiers filtrés contenant le texte recherché s’affiche. Par exemple, les fichiers contenant le texte `personal spaceship` sont répertoriés dans la capture d’écran précédente. Vous pouvez sélectionner plusieurs fichiers dans la liste filtrée pour les faire glisser et les déposer dans une carte ouverte pour modification.
 
-**Menu Options**
+### Menu Options
 
 Outre l’ouverture de fichiers à partir du panneau de gauche, vous pouvez également effectuer de nombreuses actions à l’aide du menu Options disponible dans la vue Référentiel. Différentes options s’affichent, selon que vous choisissez un dossier, un fichier de rubrique ou un fichier multimédia.
 
@@ -427,6 +432,23 @@ Les différentes options du menu Options sont expliquées ci-dessous :
 
 - **Générer** : utilisez cette option pour publier une carte ou des rubriques d’une carte sur une page Sites, un fragment de contenu ou un fragment d’expérience.
 
+## Explorateur
+
+>[!NOTE]
+>
+> À compter de la version 2025.11.0, le terme Référentiel dans l’éditeur sera remplacé par **Explorer** pour la configuration du service cloud. La configuration On-Premise continue à voir et à accéder au référentiel dans l’éditeur.
+
+L’Explorateur fournit la plupart des fonctionnalités précédemment disponibles dans le référentiel, notamment :
+
+- Navigation dans les fichiers et dossiers
+- Menu Options des fichiers et des dossiers
+
+Elle offre toutefois une expérience de recherche et de filtrage améliorée, conçue pour améliorer la convivialité et l’efficacité.
+
+Pour plus d&#39;informations sur le menu contextuel des fichiers et des dossiers, voir [menu Options](#options-menu).
+
+Pour plus d’informations sur l’expérience de recherche, consultez [Panneau de recherche](./search-panel-explorer.md).
+
 ## Map
 
 Lorsque vous sélectionnez l’icône Vue Carte , la vue Carte s’affiche avec une liste de rubriques dans le fichier de carte. Si vous n’avez ouvert aucun fichier de mappage, la vue Carte apparaît vide. Double-cliquez sur un fichier de mappage pour ouvrir le fichier de mappage dans cette vue. Vous pouvez double-cliquer sur n’importe quel fichier de la carte pour l’ouvrir dans l’éditeur.
@@ -474,7 +496,7 @@ Vous pouvez effectuer les actions suivantes à l’aide du menu Options du fichi
    - **Copier l’UUID** : copiez l’UUID du fichier de mappage dans le Presse-papiers.
    - **Copier le chemin** : copiez le chemin d’accès complet du fichier de mappage dans le Presse-papiers.
 
-- **Localiser dans le référentiel** : affiche l’emplacement du fichier de mappage dans le référentiel \(ou DAM\).
+- **Localiser dans l’explorateur** : affiche l’emplacement du fichier de mappage dans l’explorateur\(ou la gestion des ressources numériques\).
 
 - **Ajouter à** : vous pouvez choisir parmi les options suivantes :
    - **Collections** : ajoute le fichier de mappage aux collections. Vous pouvez choisir de l’ajouter à une collection existante ou nouvelle.
@@ -531,7 +553,7 @@ Vous pouvez effectuer les actions suivantes à l’aide du menu Options :
    - **Copier le chemin d’accès** : copiez le chemin d’accès complet du fichier sélectionné dans le Presse-papiers.
 
 
-- **Localiser dans le référentiel** : affiche l’emplacement du fichier sélectionné dans le référentiel \(ou DAM\).
+- **Localiser dans l’explorateur** : affiche l’emplacement du fichier sélectionné dans l’explorateur \(ou DAM\).
 - **Développer tout** : permet de développer toutes les rubriques des fichiers de mappage.
 
 - **Tout réduire** : réduisez toutes les rubriques faisant partie du fichier de mappage actuel.
@@ -930,7 +952,7 @@ Effectuez les étapes suivantes pour modifier la valeur :
 
 Vous pouvez également appliquer des valeurs à un attribut en sélectionnant plusieurs valeurs dans la liste déroulante.
 
-Vue Source **&#x200B;**
+Vue Source ****
 
 Vous pouvez également modifier les valeurs à partir de la liste déroulante de l’attribut dans la vue Source. La vue Source vous empêche également d’ajouter une valeur incorrecte.
 
@@ -956,26 +978,32 @@ Les fragments de code sont de petits fragments de contenu qui peuvent être réu
 
 ![](images/snippets-panel_cs.png){align="left"}
 
+**Créer un fragment de code**
+
 Pour ajouter un fragment de code, utilisez l’une des méthodes suivantes :
 
-- Sélectionnez l’icône **+** en regard de Fragments de code pour ouvrir la boîte de dialogue **Nouveau fragment de code**.
+1. Sélectionnez l’icône **+** en regard de Fragments de code pour ouvrir la boîte de dialogue **Nouveau fragment de code**.
 
-  ![](images/snippet-new-dialog.png){width="300" align="left"}
+   ![](images/snippet-new-dialog.png){width="300" align="left"}
 
-  Dans la boîte de dialogue Nouveau fragment de code, fournissez un titre qui s’affiche dans le panneau Fragments de code, une description et le code XML du contenu du fragment de code que vous souhaitez créer. Sélectionnez **Créer** pour enregistrer et créer le fragment de code.
+   Dans la boîte de dialogue Nouveau fragment de code, fournissez un Titre qui s’affiche dans le panneau Fragments de code, une Description, sélectionnez un Format (DITA ou HTML) pour votre contenu et fournissez un code du contenu du fragment de code que vous souhaitez créer. Sélectionnez **Créer** pour enregistrer et créer le fragment de code.
 
-- Dans la zone de modification du contenu, cliquez avec le bouton droit de la souris sur le chemin de navigation de l’élément à utiliser comme fragment de code et choisissez **Créer un fragment de code** dans le menu contextuel. La boîte de dialogue Nouveau fragment de code s’affiche avec le code XML de l’élément sélectionné renseigné dans le champ **Contenu**. Saisissez les **Titre** et **Description** pour le fragment de code, puis sélectionnez **Créer** pour enregistrer le fragment de code.
+2. Dans la zone de modification du contenu, cliquez avec le bouton droit de la souris sur le chemin de navigation de l’élément à utiliser comme fragment de code et choisissez **Créer un fragment de code** dans le menu contextuel. La boîte de dialogue Nouveau fragment de code s’affiche avec le code XML de l’élément sélectionné renseigné dans le champ **Contenu**. Saisissez les **Titre** et **Description** pour le fragment de code, puis sélectionnez **Créer** pour enregistrer le fragment de code.
 
-- Dans la zone de modification du contenu, cliquez avec le bouton droit de la souris n’importe où sur le contenu à utiliser comme fragment de code et choisissez **Créer un fragment de code** dans le menu contextuel. La boîte de dialogue Nouveau fragment de code s’affiche avec le code XML de l’élément sélectionné renseigné dans le champ **Contenu**. Saisissez les **Titre** et **Description** pour le fragment de code, puis sélectionnez **Créer** pour enregistrer le fragment de code.
+3. Dans la zone de modification du contenu, cliquez avec le bouton droit de la souris n’importe où sur le contenu à utiliser comme fragment de code et choisissez **Créer un fragment de code** dans le menu contextuel. La boîte de dialogue Nouveau fragment de code s’affiche avec le code XML de l’élément sélectionné renseigné dans le champ **Contenu**. Saisissez les **Titre** et **Description** pour le fragment de code, puis sélectionnez **Créer** pour enregistrer le fragment de code.
 
-  La capture d’écran suivante met en évidence le chemin de navigation et la zone de contenu à partir desquels vous pouvez appeler le menu contextuel.
+   La capture d’écran suivante met en évidence le chemin de navigation et la zone de contenu à partir desquels vous pouvez appeler le menu contextuel.
 
-  ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
+   ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
 
+**Insérer un fragment de code**
 
 Pour insérer un fragment de code, utilisez l’une des méthodes suivantes :
 
-- Sélectionnez un fragment de code dans le panneau Fragments de code et faites-le glisser et déposez-le à l’emplacement souhaité dans votre rubrique.
+- Sélectionnez un fragment de code dans le panneau Fragments de code et faites-le glisser et déposez-le à l’emplacement souhaité dans votre rubrique. Vous pouvez également utiliser les options de filtre en haut du panneau Fragments de code pour affiner votre vue :
+
+   - **Afficher tous les extraits** : répertorie tous les extraits disponibles, y compris les formats DITA et HTML.
+   - **Afficher uniquement les fragments de code applicables** : filtre la liste afin d’afficher uniquement les fragments de code pertinents pour la rubrique ou le contexte en cours. Par exemple, si vous travaillez sur une rubrique DITA, les fragments de code HTML seront exclus de la liste pour garantir la précision du contexte.
 
 - Placez le point d&#39;insertion à l&#39;endroit où vous souhaitez insérer le fragment de code. Dans le menu Options du fragment de code requis, choisissez Insérer un fragment de code.
 
@@ -1002,7 +1030,7 @@ Pour savoir comment créer des modèles personnalisés, consultez la section [Cr
 
 Dans Experience Manager Guides, vous pouvez ajouter et importer des citations et les appliquer à votre contenu. Vous pouvez ajouter ces citations à partir de n’importe quelle source de livres, de sites web et de revues.
 
-Pour plus d’informations, consultez la section [&#x200B; Ajouter et gérer des citations dans votre contenu &#x200B;](./web-editor-apply-citations.md).
+Pour plus d’informations, consultez la section [ Ajouter et gérer des citations dans votre contenu ](./web-editor-apply-citations.md).
 
 ## Variables de langue
 
@@ -1065,7 +1093,7 @@ Pour effectuer la recherche globale et le remplacement, procédez comme suit :
 
 Pour activer l’icône **Tout remplacer**, votre administrateur système doit sélectionner l’option **Activer tout remplacer** sous l’onglet **Général** dans les paramètres **Workspace** (qui apparaissent sous la forme **Paramètres** pour **Sur site**).
 
-    >[ !REMARQUE]
+    >[!REMARQUE]
     >
     > Survolez un fichier de la liste des résultats de recherche pour afficher l’icône Tout remplacer dans le fichier située à droite. Vous obtenez également l’icône Ignorer le fichier pour supprimer le fichier des résultats de recherche. Les fichiers que vous ignorez sont supprimés de la liste et le terme recherché n’y est pas remplacé.
 
@@ -1142,4 +1170,4 @@ Pour afficher les commentaires de révision dans les tâches de révision active
 
 </details>
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

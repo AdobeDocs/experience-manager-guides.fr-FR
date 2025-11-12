@@ -4,9 +4,9 @@ description: Découvrez d’autres fonctionnalités de l’éditeur dans Adobe E
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: c84a95b4d0b5df5b29d16efa7478bbfdc953bc5b
 workflow-type: tm+mt
-source-wordcount: '2652'
+source-wordcount: '2678'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,11 @@ Pour créer une nouvelle version du fichier, sélectionnez **Enregistrer comme n
 
 - **Mappage** : si vous avez ouvert un plan DITA volumineux et que vous souhaitez trouver l&#39;emplacement exact d&#39;un fichier dans le plan, sélectionnez **Localiser dans \> Mappage**. Lorsque vous sélectionnez l’option Localiser dans le mappage , le fichier \(d’où l’option est appelée\) est situé et mis en surbrillance dans la hiérarchie du mappage. Pour pouvoir utiliser cette fonctionnalité, vous devez ouvrir le fichier de mappage dans l’éditeur. Si la vue de carte est masquée, l’appel de cette fonction affiche la vue de carte et le fichier est mis en surbrillance dans la hiérarchie de carte.
 
-- **Référentiel** : tout comme Localiser dans Map, **Localiser dans \> référentiel** indique l’emplacement du fichier dans le référentiel \(ou DAM\). La vue du référentiel est ouverte et le fichier sélectionné est mis en surbrillance dans le référentiel. Si le fichier se trouve dans un dossier, ce dossier est développé pour afficher l’emplacement du fichier sélectionné dans le référentiel.
+- **Explorateur** : tout comme Localiser dans Map, le **Localiser dans l’explorateur \>** indique l’emplacement du fichier dans l’explorateur \(ou DAM\). La vue Explorateur s’ouvre et le fichier sélectionné est mis en surbrillance dans l’Explorateur. Si le fichier se trouve dans un dossier, ce dossier est développé pour afficher l’emplacement du fichier sélectionné dans l’Explorateur.
 
+  >[!NOTE]
+  >
+  >À partir de la version 2025.11.0, **Référentiel** est renommé **Explorateur**. Pour la configuration On-Premise, elle reste disponible en tant que référentiel jusqu’à la version 5.1 de Experience Manager Guides.
 
 ***Ajouter à*** : vous pouvez choisir parmi les options suivantes :
 
@@ -230,7 +233,7 @@ Les éléments DITA contenant des sauts de ligne et des espaces sont pris en cha
 
 ## Gestion des espaces insécables dans l’éditeur
 
-- Vous pouvez insérer des espaces insécables dans votre document à l&#39;aide de l&#39;icône de **&#x200B;**&#x200B;Symobol![](images/symbol-icon.svg) ou des touches de raccourci **Alt** + **Space**.  Ces espaces insécables s’affichent en tant qu’indicateurs lorsque vous modifiez une rubrique dans l’éditeur. Vous pouvez désactiver l’affichage des espaces insécables à l’aide de l’option **Afficher l’espace insécable en mode création** de l’onglet **Apparence** des [Préférences utilisateur](./intro-home-page.md#user-preferences).
+- Vous pouvez insérer des espaces insécables dans votre document à l&#39;aide de l&#39;icône de **** Symobol![](images/symbol-icon.svg) ou des touches de raccourci **Alt** + **Space**.  Ces espaces insécables s’affichent en tant qu’indicateurs lorsque vous modifiez une rubrique dans l’éditeur. Vous pouvez désactiver l’affichage des espaces insécables à l’aide de l’option **Afficher l’espace insécable en mode création** de l’onglet **Apparence** des [Préférences utilisateur](./intro-home-page.md#user-preferences).
 
 - Si vous copiez et collez du contenu avec un espace insécable à partir de sources externes dans la vue **Auteur**, l’espace insécable est converti en espace.
 Cependant, si vous copiez et collez du contenu avec un espace insécable à partir de la vue **Auteur**, il est conservé.
@@ -279,4 +282,4 @@ Les principales fonctionnalités visant à améliorer la gestion des fichiers vo
 
 - Le message d&#39;alerte est disponible uniquement pour les fichiers DITA et est visible dans tous les modes : Auteur, Source et Disposition.
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

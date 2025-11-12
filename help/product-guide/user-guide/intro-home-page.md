@@ -4,9 +4,9 @@ description: Découvrez la page d’accueil d’Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
+source-git-commit: c2dbf53040abc3e5873fd81050ed7e59c4faaaf0
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '2099'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 La page d’accueil est le premier écran que vous affichez lorsque vous vous connectez à Experience Manager Guides. Il vous offre une expérience d’écran de bienvenue unifiée et intuitive, qui inclut un aperçu rapide des fichiers auxquels vous avez récemment accédé, des collections, etc.
 
-![](images/aem-home-page.png){align="left"}
+![](images/aem-home-page-new.png){align="left"}
 
 La page d’accueil de Experience Manager Guides se compose des sections suivantes :
 
@@ -60,15 +60,19 @@ Les fonctionnalités disponibles dans la barre de navigation sont expliquées co
 
      >[!NOTE]
      >
-     > Sur la page d’accueil d’, l’option des paramètres de Workspace est disponible uniquement pour la configuration des services cloud. Dans une configuration On-Premise, l’option Autres actions n’est pas disponible sur la page d’accueil. Cependant, vous pouvez toujours accéder aux paramètres appropriés via l’interface de l’éditeur et la console Carte, en accédant à Plus d’options > Paramètres.
+     > Sur la page d’accueil, l’option des paramètres de Workspace est disponible uniquement pour la configuration des services cloud. Dans une configuration On-Premise, l’option Autres actions n’est pas disponible sur la page d’accueil. Cependant, vous pouvez toujours accéder aux paramètres appropriés via l’interface de l’éditeur et la console Carte, en accédant à Plus d’options > Paramètres.
 
 - **Développer la vue** : permet de développer la page vue à l’aide de l’icône **Développer**. Dans cette vue, la barre d’en-tête est masquée, ce qui optimise l’espace du contenu. Pour revenir à la vue standard, utilisez l’icône **Quitter la vue développée**.
 
 ## Panneau de gauche
 
-Le panneau de gauche vous donne un accès rapide aux fonctionnalités Aperçu, Mapper des collections, Publication en bloc, File d’attente de publication et Préférences utilisateur. Vous pouvez développer le panneau en sélectionnant l’icône **Développer** placée dans le coin inférieur gauche de l’interface. Une fois développé, utilisez l’icône **Réduire** pour réduire le panneau.
+>[!NOTE]
+>
+> Le référentiel est disponible dans le panneau de gauche uniquement pour la configuration du service cloud à partir de la version 2025.11.0. Pour la configuration On-Premise, le référentiel est toujours accessible à partir de l’interface de l’éditeur.
 
-![](images/aem-home-left-panel.png){width="300" align="left"}
+Le panneau de gauche vous donne un accès rapide aux fonctionnalités Présentation, Référentiel, Collections de cartes, Publication en bloc, File d’attente de publication et Préférences utilisateur. Vous pouvez développer le panneau en sélectionnant l’icône **Développer** placée dans le coin inférieur gauche de l’interface. Une fois développé, utilisez l’icône **Réduire** pour réduire le panneau.
+
+![](images/home-with-repository.png){width="300" align="left"}
 
 Ce que vous voyez dans ce panneau dépend de votre rôle d’utilisateur. Le tableau suivant répertorie les rôles et les sections respectives affichées dans le panneau de gauche.
 
@@ -80,6 +84,7 @@ Ce que vous voyez dans ce panneau dépend de votre rôle d’utilisateur. Le tab
 Les fonctionnalités disponibles dans le panneau de gauche sont expliquées comme suit :
 
 - [Vue d’ensemble](#overview)
+- [Référentiel](#repository)
 - [Mapper des collections](#map-collections)
 - [Publier en masse](#bulk-publish)
 - [File d’attente de publication](#publish-queue)
@@ -151,6 +156,10 @@ Les widgets suivants sont présents dans la section Widgets :
 >
 > En outre, si votre administrateur a configuré l’intégration d’Adobe Workfront dans le système, le widget **Vos tâches** s’affiche également dans la section Widgets . En savoir plus sur l’[intégration d’Adobe Workfront](./workfront-integration.md#working-with-the-your-tasks-widget) dans Experience Manager Guides.
 
+### Référentiel
+
+Le référentiel sert de hub centralisé pour découvrir facilement les dossiers et les fichiers. Il fournit une vue tabulaire complète de tous les fichiers et dossiers, ainsi que de leurs détails contextuels. Grâce à cette interface unifiée, vous pouvez parcourir en toute simplicité les fichiers et effectuer des recherches avec des options de filtrage robustes, assurant ainsi une efficacité et une expérience améliorées. En savoir plus sur le [référentiel](./home-page-repository-view.md).
+
 ### Mappage des collections
 
 Experience Manager Guides vous permet d’organiser votre contenu pour publication à l’aide d’un tableau de bord appelé **Collections de cartes**. Pour utiliser cette fonctionnalité, sélectionnez **Mapper des collections** dans le panneau de gauche. Elle vous mène à la page Mapper les collections dans l’interface utilisateur **Assets** où vous pouvez [utiliser la collection de mappages pour la génération de sortie.](./generate-output-use-map-collection-output-generation.md)
@@ -189,4 +198,8 @@ Les préférences utilisateur sont disponibles pour tous les auteurs. À l’aid
 
    - **Configuration de l’affichage des fichiers de l’éditeur** : sélectionnez la manière par défaut d’afficher les fichiers dans l’éditeur. Vous pouvez afficher la liste des fichiers en fonction des titres ou des noms de fichier à partir des différents panneaux dans la vue de création. Par défaut, les fichiers sont affichés par titre dans l’éditeur.
 
-   - **Toujours localiser les fichiers dans le référentiel** : sélectionnez cette option pour afficher l’emplacement d’un fichier dans le référentiel lors de sa modification dans l’éditeur.
+   - **Toujours localiser les fichiers dans l’explorateur** : sélectionnez cette option pour afficher l’emplacement d’un fichier dans le référentiel lors de sa modification dans l’éditeur.
+
+  >[!NOTE]
+  >
+  >À partir de la version 2025.11.0, le paramètre **Toujours localiser les fichiers dans le référentiel** est renommé **Toujours localiser les fichiers dans l’explorateur**. Pour la configuration On-Premise, elle reste disponible comme Toujours localiser les fichiers dans le référentiel jusqu’à la version 5.1 de Experience Manager Guides.

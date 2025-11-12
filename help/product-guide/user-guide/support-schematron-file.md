@@ -4,9 +4,9 @@ description: Découvrez comment importer et valider une rubrique DITA, utiliser 
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ee784edcbaef0641784cd1eb18748fc12a4f90bb
+source-git-commit: 64d2f0027c35396a549d11a0186e218dd513b22a
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -45,10 +45,19 @@ Lorsque vous ouvrez une rubrique dans l’éditeur, un panneau Validation du sch
 
 1. Sélectionnez l’icône Schéma () pour ouvrir le panneau Schéma .
 1. Utilisez **Ajouter un fichier Schematron** pour ajouter des fichiers Schematron.
+
+   >[!NOTE]
+   >
+   > Lorsqu’un fichier de schéma non valide est ajouté, un message d’erreur s’affiche dans le panneau Validation .
+
+   ![](images/schematron-panel-error.png){width="300" align="left"}
+
 1. Si le fichier Schematron ne comporte aucune erreur, il est ajouté et répertorié dans le panneau Validation . Un message d’erreur s’affiche pour le fichier Schematron contenant les erreurs.
+
    >[!NOTE]
    >
    >Vous pouvez utiliser l’icône en forme de croix près du nom du fichier Schematron pour le supprimer.
+
 1. Sélectionnez **Valider avec Schematron** pour valider la rubrique.
 
    * Si la rubrique n’enfreint aucune règle, le message de réussite de la validation s’affiche pour le fichier.

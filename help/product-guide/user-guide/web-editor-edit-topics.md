@@ -4,9 +4,9 @@ description: Découvrez comment modifier des rubriques dans l’éditeur. Conna�
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: d203ca0e1a5ca90f30f33e25e425552141674fe5
+source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,6 @@ De même, si vous supprimez le contenu sélectionné, le contenu restant après 
 
    - Sélectionnez le contenu dans un élément.
    - Sélectionnez l’icône ![ajouter](images/Add_icon.svg) dans la barre d’outils supérieure pour afficher la boîte de dialogue **Insérer un élément**. La boîte de dialogue répertorie les éléments valides pour le contenu sélectionné.
-
      >[!NOTE]
      >
      > Vous pouvez également afficher la boîte de dialogue Insérer un élément en sélectionnant le menu contextuel du contenu sélectionné.
@@ -71,11 +70,11 @@ Le panneau de droite est également rouvert et affiche la même vue qu’avant l
 
 Experience Manager Guides fournit l’indicateur de copie de travail qui indique si la \(copie de travail\) actuelle du fichier est synchronisée avec la version enregistrée ou non. Si vous avez apporté des modifications à votre copie actuelle et que vous n&#39;avez pas enregistré votre fichier, une marque \* apparaît avec le titre dans l&#39;onglet Fichier de la rubrique. Cet indicateur sert de rappel pour enregistrer vos modifications et disparaît lorsque vous enregistrez votre fichier.
 
-![&#x200B; indicateur de copie de travail &#x200B;](images/working-copy-text-update-indicator.png){width="550" align="left"}
+![ indicateur de copie de travail ](images/working-copy-text-update-indicator.png){width="550" align="left"}
 
 Experience Manager Guides indique également si la dernière copie \(working\) enregistrée du fichier est synchronisée avec la version enregistrée ou non. Si des modifications n&#39;ont pas été enregistrées entre la copie de travail et la dernière version enregistrée, une marque \* apparaît avec les informations de version affichées dans le coin supérieur droit de l&#39;onglet Fichier de la rubrique. Cet indicateur sert de rappel pour enregistrer et créer une version de votre copie \(working\) actuelle du fichier.
 
-![&#x200B; Indicateur de mise à jour de version &#x200B;](images/version-update-indicator.png){width="550" align="left"}
+![ Indicateur de mise à jour de version ](images/version-update-indicator.png){width="550" align="left"}
 
 
 ## Accès aux fichiers verrouillés en modes Création et Source
@@ -108,11 +107,14 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 
  -->
 
-## Recherchez un fichier ouvert dans la vue Repository
+## Rechercher un fichier ouvert dans l’Explorateur
 
-Lorsque vous ouvrez un fichier dans l’éditeur, Experience Manager Guides permet de le localiser dans la vue Référentiel. Par exemple, il localise la rubrique active pendant que vous la modifiez.
+Lorsque vous ouvrez un fichier dans l’éditeur, Experience Manager Guides permet de le localiser dans l’Explorateur. Par exemple, il localise la rubrique active pendant que vous la modifiez.
 
-Vous pouvez désactiver la fonction de localisation du fichier à l’aide de l’option **Toujours localiser les fichiers dans le référentiel** de l’onglet **Apparence** des **Préférences utilisateur**.
+Vous pouvez désactiver la fonction de recherche du fichier à l’aide de l’option **Toujours rechercher les fichiers dans l’Explorateur** dans l’onglet **Apparence** des **Préférences utilisateur**.
 
+>[!NOTE]
+>
+>À partir de la version 2025.11.0, le paramètre **Toujours localiser les fichiers dans le référentiel** est renommé **Toujours localiser les fichiers dans l’explorateur**. Pour la configuration On-Premise, elle reste disponible comme Toujours localiser les fichiers dans le référentiel jusqu’à la version 5.1 de Experience Manager Guides.
 
-**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur](web-editor.md)
+**Rubrique parente :**[ Utiliser l’éditeur](web-editor.md)

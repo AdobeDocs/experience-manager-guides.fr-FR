@@ -4,9 +4,10 @@ description: Découvrez comment télécharger et installer des modèles AEM Site
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 1cec8975e8aad56184793a023d066aa467d8cec5
+exl-id: 67f7ff26-fbc7-426c-aa7d-9bf4debf05d8
+source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '671'
 ht-degree: 1%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 1%
 
 Ce guide fournit des instructions détaillées pour installer et configurer le dernier modèle AEM Guides pour générer des pages AEM Sites dans un environnement cloud. Pour installer les packages requis, créer et configurer des paramètres prédéfinis et générer AEM Sites, procédez comme suit.
 
-## Prérequis
+## Conditions préalables
 
 Avant de poursuivre la configuration, assurez-vous que les conditions préalables suivantes sont remplies :
 
@@ -45,7 +46,7 @@ Installez le **Package de composants (guides-components.all-1.x.x.zip)** puis ef
    3. Clonez le référentiel sur votre système local à l’aide du nom d’utilisateur et du mot de passe fournis (générez un mot de passe si nécessaire).
 2. **Ajouter un package au lot Maven :**
    1. Dans votre référentiel cloné localement, créez un lot Maven ou ajoutez-le à un lot existant.
-   2. Assurez-vous que la structure /jcr_root/apps/fmdita/install existe dans le projet Maven.
+   2. Assurez-vous que la structure `/jcr_root/apps/fmdita/` installer existe dans le projet Maven.
 
       ![Structure dans un projet Maven](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650" align="left"}
 
@@ -55,7 +56,7 @@ Installez le **Package de composants (guides-components.all-1.x.x.zip)** puis ef
 3. **Mettre à jour filters.xml:**
 
    1. Ouvrez le fichier filters.xml situé dans le dossier META-INF du répertoire de contenu parent.
-   2. Ajoutez le filtre suivant : filter root=« /apps/fmdita » mode=« merge »/
+   2. Ajoutez le filtre suivant : racine du filtre=`/apps/fmdita` mode=`merge`/
 
 
       ![Ajouter un filtre](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650" align="left"}
@@ -98,14 +99,14 @@ Installez le **Package de composants (guides-components.all-1.x.x.zip)** puis ef
 
    1. Sélectionnez **Site** comme celui créé ci-dessus (par exemple, Site de documents AEMG).
    2. Vérifiez que les modèles **Chemin de publication** et **Page de rubrique** sont automatiquement définis sur :
-      - Chemin de publication : /content/AEMG-Docs-Site/en/docs/product
+      - Chemin de publication : `/content/AEMG-Docs-Site/en/docs/product`
       - Modèle de page de rubrique : Page de rubrique
 
       ![Utilisez la liste déroulante Site pour configurer le site AEM](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350" align="left"}
 
    **Option 2 : utiliser le chemin du site**
 
-   1. Définissez manuellement le **chemin d’accès au site** sous la forme /content/AEMG-Docs-Site/en/docs/product.
+   1. Définissez manuellement le **chemin d’accès au site** comme `/content/AEMG-Docs-Site/en/docs/product`.
    2. Vérifiez que le modèle **Page de rubrique** est automatiquement défini sur Page de rubrique.
 
       ![Utilisez le chemin du site pour configurer le site AEM](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
@@ -116,7 +117,7 @@ Installez le **Package de composants (guides-components.all-1.x.x.zip)** puis ef
 
 1. **Générer le site :**
    1. Une fois le paramètre prédéfini configuré, générez le site AEM pour le plan DITA correspondant.
-   2. Le site généré est disponible au chemin suivant : /content/AEMG-Docs-Site/en/docs/product.
+   2. Le site généré sera disponible au chemin d’accès suivant : `/content/AEMG-Docs-Site/en/docs/product`.
 2. **Modifier le chemin de génération par défaut (facultatif) :** si vous souhaitez modifier le chemin par défaut pour la génération du site, procédez comme suit :
    1. Accédez à **AEM Sites**.
    2. Créez une page produit sous la structure de site prête à l’emploi.
@@ -133,4 +134,4 @@ Installez le **Package de composants (guides-components.all-1.x.x.zip)** puis ef
 
 >[!NOTE]
 >
-> Assurez-vous que toutes les configurations sont testées dans un environnement hors production avant le déploiement en production. <br><br> Pour plus d’informations, reportez-vous à la documentation officielle [Déploiement sur AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/deploying/overview).
+> Assurez-vous que toutes les configurations sont testées dans un environnement hors production avant le déploiement en production. <br><br> Pour plus d’informations, reportez-vous à la documentation officielle [Déploiement sur AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview).
