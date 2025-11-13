@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
-source-git-commit: b511f12dab6c4980091aabe57446cbbd84d79080
+source-git-commit: 67c4458180ff7e5690bc1ee51fe9e46bce57c9d5
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -17,6 +17,8 @@ ht-degree: 0%
 Lorsque vous travaillez sur plusieurs versions simultanées avec plusieurs auteurs, votre contenu est lié à plusieurs versions. Il peut y avoir des informations communes dans plusieurs versions, que différents auteurs peuvent utiliser dans leur projet. Pour gérer de telles affectations de travail, les auteurs et autrices peuvent se retrouver avec plusieurs versions de fichiers. Ces versions peuvent simplement être une version plus récente d’un fichier ou un retour à une version antérieure. Il est difficile d’identifier quand et pourquoi un fichier a été restauré.
 
 AEM Guides vous permet de générer un rapport d’historique de version pour un fichier individuel ou pour tous les fichiers d’un dossier. Cet historique des versions vous donne une vue consolidée de toutes les versions d’un fichier qui ont été rétablies et de ceux qui les ont créées, ainsi que la raison de leur création.
+
+{{$include /help/_includes/overview.md}}
 
 Vous pouvez accéder à ce rapport à partir des emplacements suivants :
 
@@ -57,6 +59,6 @@ Pour accéder au rapport Rétablir l’historique, procédez comme suit :
 
    - **Commentaire** : tout commentaire fourni par l’utilisateur qui a annulé le fichier.
 
-{{$include /help/_includes/overview.md}}
 
-**Rubrique parente :**&#x200B;[&#x200B; Rapports](reports-intro.md)
+
+**Rubrique parente :**[ Rapports](reports-intro.md)
