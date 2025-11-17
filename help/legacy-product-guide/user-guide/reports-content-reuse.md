@@ -63,4 +63,4 @@ Pour afficher le rapport de réutilisation du contenu, procédez comme suit :
 >
 > Vous pouvez également exporter le rapport de réutilisation du contenu au format CSV. Pour ce faire, cliquez sur le lien Exporter au format CSV dans le coin supérieur gauche de l’écran et choisissez un emplacement pour enregistrer le fichier CSV. Vous pouvez ensuite ouvrir ce fichier CSV dans n’importe quel éditeur CSV.
 
-**Rubrique parente :**[ Rapports](reports-intro.md)
+**Rubrique parente :**&#x200B;[&#x200B; Rapports](reports-intro.md)
