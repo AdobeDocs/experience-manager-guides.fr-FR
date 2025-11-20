@@ -61,4 +61,4 @@ Pour accéder au rapport Rétablir l’historique, procédez comme suit :
 
 
 
-**Rubrique parente :**[ Rapports](reports-intro.md)
+**Rubrique parente :**&#x200B;[&#x200B; Rapports](reports-intro.md)
