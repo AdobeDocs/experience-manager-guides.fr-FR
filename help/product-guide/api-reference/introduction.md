@@ -5,9 +5,9 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: 67e844faece8b6bb8988bb0e67f357cda1db9a4d
+source-git-commit: bf7838690d7632cd74fef0db3aaf7bdc48a50a2c
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Vous pouvez utiliser les API Java disponibles dans Experience Manager Guides pou
 
 >[!INFO]
 >
->Consultez [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-dox-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) pour obtenir la documentation la plus récente et détaillée sur l’utilisation de l’API Java pour Experience Manager Guides as a Cloud Service.
+>Consultez [![javadoc](./images/javadoc-cs-icon.svg)](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) pour obtenir la documentation la plus récente et détaillée sur l’utilisation de l’API Java pour Experience Manager Guides as a Cloud Service.
 
 Pour configurer et utiliser les fichiers JAR de l’API de service du référentiel Maven dans vos projets, ajoutez l’API SDK en tant que dépendance de projet dans le fichier `pom.xml` de votre projet, comme illustré ci-dessous.
 
@@ -122,9 +122,9 @@ Pour plus d’informations sur l’utilisation de l’API, les paramètres et le
 
 ## Ressources supplémentaires
 
-Voici une liste d’autres ressources utiles d’AEM Guides, disponibles sur la page [En savoir plus et assistance](https://helpx.adobe.com/fr/support/xml-documentation-for-experience-manager.html) :
+Voici une liste d’autres ressources utiles d’AEM Guides, disponibles sur la page [En savoir plus et assistance](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) :
 
 - Guide de l’utilisateur
 - Guide d’installation et de configuration
 - Guide de démarrage rapide
-- [Page d’archivage de l’aide](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html) \(accédez à l’ancienne version\)
+- [Page d’archivage de l’aide](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(accédez à l’ancienne version\)
