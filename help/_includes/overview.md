@@ -4,9 +4,9 @@ description: Recherchez des tutoriels vidéo pour Experience Manager Guides (a
 feature: AEM Guides Tutorials
 role: User
 hide: true
-source-git-commit: 67c4458180ff7e5690bc1ee51fe9e46bce57c9d5
+source-git-commit: 5081aa032c13ca684c6882149448b05c77028a90
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '306'
 ht-degree: 11%
 
 ---
@@ -22,4 +22,27 @@ Grâce à [!DNL AEM Guides] solution, les entreprises peuvent offrir des expéri
 >[!NOTE]
 > 
 > Adobe Experience Manager Guides était auparavant marqué comme _XML Documentation pour Adobe Experience Manager_. Veuillez noter que certaines références contenues dans la documentation peuvent toujours faire référence à une image de marque antérieure, mais s’appliquent toujours à l’offre actuelle.
+
+## Nouveautés
+
+- **[[!DNL Experience Manager Guides] Cours de prise en main](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target="blank"}**
+
+  _Découvrez comment créer, organiser, créer et publier du contenu avec [!DNL Adobe Experience Manager Guides]._
+
+- **[[!DNL Experience Manager Guides] Création dans l’éditeur intégré](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target="blank"}**
+
+  _Découvrez comment créer du contenu à l’aide de l’éditeur web natif dans [!DNL Adobe Experience Manager Guides]. Comprendre pleinement les préférences utilisateur, les paramètres de l’éditeur, la configuration, les barres d’outils, etc._
+
+- **[Génération de sortie avec [!DNL Experience Manager Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target="blank"}**
+
+  _Découvrez comment générer une sortie à l’aide de [!DNL Adobe Experience Manager Guides]. Découvrez les différentes fonctionnalités disponibles pour la génération de sortie : rapports, lignes de base, conditions, dépannage, publication en masse et activation._
+
+
+## Ressources supplémentaires
+
+- [[!DNL Experience Manager Guides] Guide de l’utilisateur (ancienne interface utilisateur)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+- [[!DNL AEM Guides] Formation et assistance](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
+- [Experience League - Explorer AEM](https://business.adobe.com/fr/products/experience-manager/adobe-experience-manager.html)
+
+
 
