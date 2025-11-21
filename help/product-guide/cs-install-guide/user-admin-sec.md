@@ -18,7 +18,7 @@ Pour accéder aux fonctionnalités d’AEM Guides et les configurer, vous devez 
 
 Les rubriques suivantes de la documentation d’AEM vous aideront à mieux comprendre les concepts et fonctionnalités liés à l’administration des utilisateurs et à la sécurité :
 
-- [utilisateurs, groupes et autorisations AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)
+- [utilisateurs, groupes et autorisations AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=fr)
 
 - [&#x200B; Administration et sécurité des utilisateurs &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=fr)
 

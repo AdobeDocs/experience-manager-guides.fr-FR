@@ -57,7 +57,7 @@ Utilisez les profils de dossier pour vérifier le fichier *ui_config.json* sous 
 }
 ```
 
-[utilisez ce lien pour en savoir plus sur le profil de dossier et la configuration du fichier ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
+[utilisez ce lien pour en savoir plus sur le profil de dossier et la configuration du fichier ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=fr)
 
 
 ### Gérer l’événement on-click pour le nouveau bouton
