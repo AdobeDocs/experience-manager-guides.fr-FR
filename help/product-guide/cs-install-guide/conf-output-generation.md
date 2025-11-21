@@ -5,9 +5,9 @@ exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: a2e52572edf0915c1701a384d396a32de2429f53
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '5620'
+source-wordcount: '5615'
 ht-degree: 1%
 
 ---
@@ -128,7 +128,7 @@ Effectuez les étapes suivantes pour spécifier votre propre modèle de concepti
 >
 > Après avoir créé un nœud de modèle de conception personnalisé, vous devez mettre à jour l’option Conception dans les paramètres prédéfinis de sortie du site AEM pour utiliser le nœud du modèle de conception personnalisé.
 
-Pour plus d’informations, consultez les sections [Création de votre premier site web Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=fr) et [Principes de base](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=fr) du développement de votre propre site web sur AEM.
+Pour plus d’informations, consultez les sections [Création de votre premier site web Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=fr) et [Principes de base](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) du développement de votre propre site web sur AEM.
 
 ### Utiliser le titre du document pour générer la sortie du site AEM
 
@@ -146,7 +146,7 @@ Suivez les instructions fournies dans [Remplacements de la configuration](downlo
 
 ### Configurez l’URL de sortie du site AEM pour utiliser le titre du document
 
-Vous pouvez utiliser les titres du document dans l’URL de la sortie Site AEM. Si le nom de fichier n’existe pas ou contient tous les caractères spéciaux, vous pouvez configurer le système pour remplacer ces caractères par un séparateur dans l’URL de la sortie du site AEM. Vous pouvez également le configurer pour les remplacer par le nom de la première rubrique enfant.
+Vous pouvez utiliser les titres du document dans l’URL de la sortie Site AEM. Si le nom de fichier n’existe pas ou contient tous les caractères spéciaux, vous pouvez configurer le système pour remplacer les caractères spéciaux par un séparateur dans l’URL de la sortie du site AEM. Vous pouvez également le configurer pour les remplacer par le nom de la première rubrique enfant.
 
 
 Pour configurer les noms de page, procédez comme suit :
@@ -269,7 +269,7 @@ Pour exclure l’élément `table` de l’aplatissement, ajoutez la propriété 
 
 ### Configurer le contrôle de version des pages supprimées dans la sortie du site AEM
 
-Lorsque vous générez une sortie de site AEM avec les options **Supprimer et** Créer **&#x200B;**&#x200B;sélectionnées pour le paramètre Pages de sortie existantes , une version est créée pour la ou les pages en cours de suppression. Vous pouvez configurer le système pour arrêter la création d’une version avant la suppression.
+Lorsque vous générez une sortie de site AEM avec les options **Supprimer et** Créer ****sélectionnées pour le paramètre Pages de sortie existantes , une version est créée pour la ou les pages en cours de suppression. Vous pouvez configurer le système pour arrêter la création d’une version avant la suppression.
 
 Effectuez les étapes suivantes pour arrêter la création d’une version pour la ou les pages en cours de suppression :
 
@@ -349,7 +349,7 @@ Vous devez ensuite rendre les métadonnées personnalisées disponibles dans la 
 
    >[!NOTE]
    >
-   > Le fichier metadataList contient une liste des propriétés affichées dans la liste déroulante **Propriétés** d&#39;un plan DITA dans le tableau de bord du plan. Par défaut, ce fichier contient quatre propriétés : docstate, dc:language, dc:description et dc:title.
+   > Le fichier metadataList contient une liste des propriétés affichées dans la liste déroulante **Propriétés** d&#39;un plan DITA dans le tableau de bord du plan. Par défaut, ce fichier répertorie quatre propriétés : docstate:language dc:description, dc et dc:title.
 
 1. Ajoutez les métadonnées personnalisées que vous avez ajoutées à la page Forms de schéma de métadonnées . Dans notre exemple, ajoutez le paramètre audience à la fin de la liste par défaut.
 
@@ -603,7 +603,7 @@ Le tableau suivant décrit les éléments du schéma d&#39;élément DITA :
 | `<wrapelement>` | Élément HTML dans lequel encapsuler le contenu. |
 | `<wrapclass>` | La valeur de l’élément dans la propriété `wrapclass.` |
 | `<attributemap>` | Nœud conteneur contenant un ou plusieurs nœuds `<attribute>`. |
-| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | Mappe les attributs DITA aux propriétés AEM : <br> -   **`from`** : nom d&#39;attribut DITA <br> -   **`to`** : nom de propriété du composant AEM <br> -   **`ispath`** : si l’attribut est une valeur de chemin \(par exemple : *image*\) <br> -   **`rel`** : si le chemin d’accès est le <br> source ou cible **Remarque :** si `attrname` commence par `%`, mappez `attrname minus '%'` à la prop &#39; `propname`&#39;. |
+| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | Mappe les attributs DITA aux propriétés AEM : <br> -   **`from`** : nom d&#39;attribut DITA <br> -   **`to`** : nom de propriété du composant AEM <br> -   **`ispath`** : si l’attribut est une valeur de chemin \(par exemple : *image*\) <br> -   **`rel`** : si le chemin d’accès est le <br> source ou cible **Remarque :** si `attrname` commence par `%`, mappez `attrname minus '%'` à la prop &#39; `propname`&#39;. |
 
 **Remarques complémentaires**
 
@@ -630,11 +630,11 @@ AEM Guides fournit la catégorie `apps.fmdita.dashboard-extn` pour la personnali
 
 >[!NOTE]
 >
-> Pour plus d’informations sur la création de la bibliothèque cliente AEM, voir [&#x200B; Utilisation de bibliothèques côté client &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=fr).
+> Pour plus d’informations sur la création de la bibliothèque cliente AEM, voir [ Utilisation de bibliothèques côté client ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
 
 ## Gérer le rendu des images pendant la génération de la sortie {#id177BF0G0VY4}
 
-AEM s’accompagne d’un ensemble de workflows et de descripteurs de médias par défaut destinés au traitement des ressources. Dans AEM, il existe des workflows prédéfinis pour gérer le traitement des ressources pour les types MIME les plus courants. En règle générale, pour chaque image chargée, AEM crée plusieurs rendus de la même image au format binaire. Ces rendus peuvent être de tailles différentes, avec une résolution différente, avec un filigrane ajouté ou une autre caractéristique modifiée. Pour plus d’informations sur la façon dont AEM gère les ressources, voir [Traitement d’Assets à l’aide de gestionnaires de médias et de workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=fr) dans la documentation d’AEM.
+AEM s’accompagne d’un ensemble de workflows et de descripteurs de médias par défaut destinés au traitement des ressources. Dans AEM, il existe des workflows prédéfinis pour gérer le traitement des ressources pour les types MIME les plus courants. En règle générale, pour chaque image chargée, AEM crée plusieurs rendus de la même image au format binaire. Ces rendus peuvent être de tailles différentes, avec une résolution différente, avec un filigrane ajouté ou une autre caractéristique modifiée. Pour plus d’informations sur la façon dont AEM gère les ressources, voir [Traitement d’Assets à l’aide de gestionnaires de médias et de workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) dans la documentation d’AEM.
 
 AEM Guides vous permet de configurer le rendu d’image à utiliser au moment de la génération de la sortie de vos documents. Par exemple, vous pouvez choisir l’un des rendus d’image par défaut ou en créer un et l’utiliser pour publier vos documents. Le mappage de rendu d’image pour la publication de vos documents est stocké dans le fichier `/libs/fmdita/config/ **renditionmap.xml**`. Un extrait de fichier `renditionmap.xml` est le suivant :
 
@@ -686,8 +686,8 @@ Suivez les instructions fournies dans [Remplacements de la configuration](downlo
 
 | PID | Clé de la propriété | Valeur de la propriété |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgeperiod` | Spécifiez le nombre de jours après lesquels l’historique de sortie et les journaux de sortie sont purgés. Si vous souhaitez désactiver cette fonctionnalité, définissez cette propriété sur 0.Everyday à l’heure spécifiée pour l’exécution du processus de purge sur les sorties générées avant le nombre de jours spécifié dans cette propriété. <br> **Valeur par défaut** : 5 |
-| `output.history.purgetime` | Spécifiez l’heure à laquelle le processus de purge est lancé. <br> **Valeur par défaut** : 0:00 \(ou 12:00 minuit\) |
+| `com.adobe.fmdita.config.ConfigManager\|output.history.purgeperiod` | Spécifiez le nombre de jours après lesquels l’historique de sortie et les journaux de sortie sont purgés. Si vous souhaitez désactiver cette fonctionnalité, définissez cette propriété sur 0.Everyday à l’heure spécifiée pour l’exécution du processus de purge sur les sorties générées avant le nombre de jours spécifié dans cette propriété. | **Valeur par défaut** : 5 |
+| `output.history.purgetime` | Spécifiez l’heure à laquelle le processus de purge est lancé. | **Valeur par défaut** : 0:00 \(ou 12:00 minuit\) |
 
 ## Modifier la limite de la liste de sorties récemment générée {#id1679JH0H0O2}
 

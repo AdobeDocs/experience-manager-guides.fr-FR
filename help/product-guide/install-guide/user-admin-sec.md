@@ -5,7 +5,7 @@ exl-id: 1269a652-5261-413d-9ea0-b4f75003e9d8
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 9b657b0530db8fafe3bb6d30a9002791acf8f226
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 10%
@@ -18,13 +18,13 @@ Pour accéder aux fonctionnalités d’AEM Guides et les configurer, vous devez 
 
 Les rubriques suivantes de la documentation d’AEM vous aideront à mieux comprendre les concepts et fonctionnalités liés à l’administration des utilisateurs et à la sécurité :
 
-- [Utilisateurs et groupes dans AEM](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
+- [Utilisateurs et groupes dans AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
 
-- [&#x200B; Autorisations dans AEM &#x200B;](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
+- [ Autorisations dans AEM ](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
 
-- [Gestion des utilisateurs et des groupes](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
+- [Gestion des utilisateurs et des groupes](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
 
-- [Gestion des autorisations](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
+- [Gestion des autorisations](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
 
 
 ## Groupes d’utilisateurs créés par AEM Guides {#id181TF0K0MHT}
@@ -43,7 +43,7 @@ Le tableau suivant répertorie les différentes tâches et les groupes qui peuve
 | Créer un plan DITA | Oui |   | Oui |
 | Mapper les collections | Oui |   | Oui |
 | Créer une tâche de révision | Oui |   | Oui |
-| Rubrique [&#x200B; révision 1](#fntarg_1) | Oui | Oui | Oui |
+| Rubrique [ révision 1](#fntarg_1) | Oui | Oui | Oui |
 | Résolution de la clé | Oui |   | Oui |
 | Ouvrir dans FrameMaker | Oui |   | Oui |
 | Extraction/enregistrement | Oui |   | Oui |
@@ -53,27 +53,27 @@ Le tableau suivant répertorie les différentes tâches et les groupes qui peuve
 | Copier | Oui |   | Oui |
 | Supprimer | Oui |   | Oui |
 | Partager | Oui |   | Oui |
-| **État du document** |
+| **État du document** |  |  |  |
 | Créer/modifier un profil d’état de document |   |   | Oui |
 | Modifier l’état du document [2](#fntarg_2) | Oui | Oui | Oui |
-| **Fonctionnalités disponibles dans la console de mappage DITA \(onglet Paramètres prédéfinis de sortie\)** |
+| **Fonctionnalités disponibles dans la console de mappage DITA \(onglet Paramètres prédéfinis de sortie\)** |  |  |  |
 | Générer |   |   | Oui |
 | Modifier |   |   | Oui |
 | Doublon |   |   | Oui |
 | Créer |   |   | Oui |
 | Supprimer le paramètre prédéfini |   |   | Oui |
-| **Fonctionnalités disponibles dans la console de mappage DITA \(onglet Sorties\)** |
+| **Fonctionnalités disponibles dans la console de mappage DITA \(onglet Sorties\)** |  |  |  |
 | Afficher la sortie générée | Oui |   | Oui |
-| **Fonctionnalités disponibles dans la console de mappage DITA \(Onglet Rubriques\)** |
+| **Fonctionnalités disponibles dans la console de mappage DITA \(Onglet Rubriques\)** |  |  |  |
 | Créer une tâche de révision | Oui |   | Oui |
 | Modifier | Oui |   | Oui |
-| **Fonctionnalités disponibles dans la console de plan DITA \(onglet Lignes de base\)** |
+| **Fonctionnalités disponibles dans la console de plan DITA \(onglet Lignes de base\)** |  |  |  |
 | Créer |   |   | Oui |
 | Modifier |   |   | Oui |
 | Doublon |   |   | Oui |
-| Supprimez |   |   | Oui |
+| Supprimer |   |   | Oui |
 | Console de mappage DITA \(onglet Rapports\) | Oui |   | Oui |
-| **Fonctionnalités disponibles dans la console de mappage DITA \(Paramètres prédéfinis de condition\)** |
+| **Fonctionnalités disponibles dans la console de mappage DITA \(Paramètres prédéfinis de condition\)** |  |  |  |
 | Créer/modifier un paramètre prédéfini de condition |   |   | Oui |
 
 ## Remarques supplémentaires sur les groupes d’utilisateurs

@@ -1,7 +1,8 @@
 ---
 title: Notes de mise à jour | Instructions de mise à niveau et problèmes résolus dans Adobe Experience Manager Guides version 2024.12.0
 description: Découvrez la matrice de compatibilité et comment effectuer une mise à niveau vers la version 2024.12.0 d’Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: f643a4a22151af2ff14288ab3885c1a6657a80ca
+exl-id: 44d95f8d-0323-4c81-913c-626038a22827
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 2%
@@ -31,7 +32,7 @@ Cette section répertorie la matrice de compatibilité pour les applications log
 | Version de Experience Manager Guides as a Cloud | Fenêtres du connecteur d&#39;oxygène | Mac du connecteur d&#39;oxygène | Modifier dans Oxygen Windows | Modifier dans Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2024.12.0 | 3.7-uuid 2 | 3.7-uuid 2 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ### Version du modèle de la base de connaissances
@@ -48,7 +49,7 @@ Cette section répertorie la matrice de compatibilité pour les applications log
 
 ## Mise à niveau vers la version 2024.12.0
 
-Experience Manager Guides est mis à niveau automatiquement lors de la mise à niveau de la version actuelle (la plus récente) d’Experience Manager as a Cloud Service.
+Experience Manager Guides est automatiquement mis à niveau lors de la mise à niveau de la version actuelle (la plus récente) d’Experience Manager as a Cloud Service.
 
 >[!NOTE]
 >
@@ -56,7 +57,7 @@ Experience Manager Guides est mis à niveau automatiquement lors de la mise à n
 >- ui_config.json (peut avoir été défini dans les profils de dossier)
 
 
-Pour Experience Manager Guides as a Cloud Service, procédez comme suit si vous ne l’avez pas déjà fait pour votre version existante :
+Effectuez les étapes suivantes pour Experience Manager Guides as a Cloud Service si vous ne l’avez pas déjà fait pour votre version existante :
 
 ### Procédure d’activation du déclenchement d’un script via une servlet
 
@@ -64,7 +65,7 @@ Pour Experience Manager Guides as a Cloud Service, procédez comme suit si vous 
 
 Une fois l’installation terminée, vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de traduction :
 
-POST :
+PUBLICATION :
 
 ```
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
@@ -109,12 +110,12 @@ Effectuez les étapes suivantes pour post-traiter le contenu existant et utilise
      | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Valeur : 200000 Valeur par défaut : 100000 |
      | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitInMemory | Valeur : 200000 Valeur par défaut : 100000 |
 
-1. Exécutez une requête de POST au serveur (avec l’authentification correcte) - `http://<server>//bin/guides/reports/upgrade`.
+1. Exécutez une requête POST au serveur (avec l’authentification correcte) - `http://<server>//bin/guides/reports/upgrade`.
 
-1. L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une demande de GET avec l’ID de tâche au même point d’entrée : `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée : `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 (Par exemple : `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Une fois le traitement terminé, la requête de GET précédente répond avec succès. Si la tâche échoue pour une raison quelconque, l’échec est visible dans les journaux du serveur.
+1. Une fois le traitement terminé, la requête GET précédente répond avec succès. Si la tâche échoue pour une raison quelconque, l’échec est visible dans les journaux du serveur.
 
 1. Revenez à la valeur par défaut ou à la valeur existante précédente de `queryLimitReads` si vous l’avez modifiée à l’étape 1.
 
@@ -124,13 +125,13 @@ Effectuez les étapes suivantes pour post-traiter le contenu existant et utilise
 
 Effectuez les étapes suivantes pour indexer le contenu existant et utiliser le nouveau texte rechercher et remplacer au niveau du mappage et de la liste de rubriques sous l’onglet rapports :
 
-1. Exécutez une requête de POST au serveur (avec l’authentification correcte) - `http://<server:port>/bin/guides/map-find/indexing`. (Facultatif : vous pouvez transmettre des chemins spécifiques des mappages pour les indexer. Par défaut, tous les mappages sont indexés.|| Exemple : `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
+1. Exécutez une requête POST au serveur (avec l’authentification correcte) - `http://<server:port>/bin/guides/map-find/indexing`. (Facultatif : vous pouvez transmettre des chemins spécifiques des mappages pour les indexer. Par défaut, tous les mappages sont indexés.|| Exemple : `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
 
 1. Vous pouvez également transmettre un dossier racine pour indexer les plans DITA d&#39;un dossier spécifique (et de ses sous-dossiers). Par exemple, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Notez que si le paramètre de chemins d’accès et le paramètre racine sont transmis, seul le paramètre de chemins d’accès est pris en compte.
 
-1. L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une demande de GET avec l’ID de tâche au même point d’entrée, `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}` (par exemple : `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`).
+1. L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée, `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}` (par exemple : `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`).
 
-1. Une fois la tâche terminée, la requête de GET précédente répond avec succès et mentionne si des mappages ont échoué. Les mappages correctement indexés peuvent être confirmés à partir des journaux du serveur.
+1. Une fois la tâche terminée, la requête GET précédente répond avec succès et mentionne si des mappages ont échoué. Les mappages correctement indexés peuvent être confirmés à partir des journaux du serveur.
 
 ### Procédure à suivre pour gérer le conflit de `'fmdita rewriter'`
 
@@ -144,7 +145,7 @@ Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000
 
 Si les références ne s’affichent pas pour les fragments de contenu, vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de migration :
 
-POST :
+PUBLICATION :
 
 ```
 http://localhost:4503/bin/guides/script/start?jobType=cf-reference-store-btree-migration

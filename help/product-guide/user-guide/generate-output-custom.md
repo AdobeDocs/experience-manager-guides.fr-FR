@@ -4,7 +4,7 @@ description: Découvrez comment créer un paramètre prédéfini personnalisé �
 exl-id: 1bb14411-ec94-4960-92ba-3b2ff7a29932
 feature: Publishing
 role: User
-source-git-commit: a953de289530457b257259bda3d9af2b68790592
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1267'
 ht-degree: 0%
@@ -103,5 +103,5 @@ Par exemple, **Chemin de sortie/Chemin de destination** - Ici, **Chemin de sorti
 | Utiliser niveau de référence | Si vous avez créé une ligne de base pour le plan DITA sélectionné, sélectionnez cette option pour spécifier la version que vous souhaitez publier.<br><br> Affichage [Travailler avec la ligne de base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) pour plus de détails. |
 | Propriétés du fichier | Sélectionnez les propriétés à traiter en tant que métadonnées. Ces propriétés sont définies à partir de la page Propriétés du fichier DITA map ou bookmap. Les propriétés que vous sélectionnez dans la liste déroulante s’affichent sous le champ **Propriétés du fichier**. Sélectionnez l’icône croisée en regard de la propriété pour la supprimer. <br><br>**Remarque** : vous pouvez également transmettre les métadonnées à la sortie à l’aide de la publication DITA-OT. Pour plus de détails, [Transmettez les métadonnées à la sortie à l’aide de DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)
+**Rubrique parente :**[ Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)
 

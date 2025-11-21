@@ -5,7 +5,7 @@ exl-id: a5742082-cc0b-49d9-9921-d0da1b272ea5
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 01efb1f17b39fcbc48d78dd1ae818ece167f4fe5
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1762'
 ht-degree: 2%
@@ -20,7 +20,7 @@ Pour plus d’informations sur les workflows dans AEM, voir :
 
 - [Administration d’instances de workflow](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=fr)
 
-- Demande de processus et participation à des processus : [Utilisation des processus de projet](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html?lang=fr).
+- Demande de processus et participation à des processus : [Utilisation des processus de projet](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html).
 
 
 Les sections de cette rubrique vous guideront à travers différentes personnalisations que vous pouvez effectuer dans les workflows par défaut fournis dans AEM Guides.
@@ -123,14 +123,14 @@ Pour améliorer les performances du moteur de workflow, vous pouvez purger régu
 
 Vous pouvez empêcher les workflows de révision de se purger automatiquement en supprimant le modèle de workflow de révision \(informations\) de la configuration de purge automatique. Vous devez utiliser la **configuration de la purge du workflow Adobe Granite** pour supprimer les modèles de workflow de révision de la liste de purge automatique.
 
-Dans la configuration de la purge du workflow Adobe Granite **&#x200B;**, veillez à répertorier au moins un workflow que vous pouvez purger en toute sécurité. Par exemple, vous pouvez utiliser l’un des workflows suivants créés par AEM Guides :
+Dans la configuration de la purge du workflow Adobe Granite ****, veillez à répertorier au moins un workflow que vous pouvez purger en toute sécurité. Par exemple, vous pouvez utiliser l’un des workflows suivants créés par AEM Guides :
 
 - /etc/workflow/models/publishditamap/jcr:content/model
 - /etc/workflow/models/post-dita-project-creation-tasks/ jcr:content/model
 
 L’ajout d’un workflow à la **Configuration de la purge du workflow Adobe Granite** garantit qu’AEM purge uniquement les workflows répertoriés dans la configuration. Cela empêche AEM de purger les informations du workflow de révision.
 
-Pour plus d’informations sur la configuration de la configuration de la purge du workflow Adobe Granite **&#x200B;**, voir *Administration d’instances de workflow* dans la documentation AEM.
+Pour plus d’informations sur la configuration de la configuration de la purge du workflow Adobe Granite ****, voir *Administration d’instances de workflow* dans la documentation AEM.
 
 ### Personnalisation des notifications par e-mail et AEM
 

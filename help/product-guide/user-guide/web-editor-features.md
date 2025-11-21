@@ -6,7 +6,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hidefromtoc: true
 hide: true
-source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '18659'
 ht-degree: 0%
@@ -88,7 +88,7 @@ L’option **Paramètres** est disponible uniquement pour les administrateurs et
 
   ![](images/editor-setting-general.png){width="650" align="left"}
 
-   - **Vérification orthographique** : il existe deux options : **Vérification orthographique AEM** et **Vérification orthographique du navigateur**. Par défaut, l’éditeur utilise la fonction de vérification orthographique du navigateur , où la vérification orthographique est effectuée à l’aide du dictionnaire intégré du navigateur. Vous pouvez passer à la vérification orthographique d’AEM pour utiliser le dictionnaire Adobe Experience Manager, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section [&#x200B; Personnaliser le dictionnaire par défaut d’AEM &#x200B;](../cs-install-guide/customize-aem-custom-dictionary.md) dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
+   - **Vérification orthographique** : il existe deux options : **Vérification orthographique AEM** et **Vérification orthographique du navigateur**. Par défaut, l’éditeur utilise la fonction de vérification orthographique du navigateur , où la vérification orthographique est effectuée à l’aide du dictionnaire intégré du navigateur. Vous pouvez passer à la vérification orthographique d’AEM pour utiliser le dictionnaire Adobe Experience Manager, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section [ Personnaliser le dictionnaire par défaut d’AEM ](../cs-install-guide/customize-aem-custom-dictionary.md) dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
 
    - **Condition**
 
@@ -195,7 +195,7 @@ Dans la capture d’écran suivante, seuls 3 des 4 éléments configurés de la 
 
    - Pour créer un profil, sélectionnez la base de connaissances ServiceNow dans le menu déroulant **Type de serveur**. Saisissez un profil **Nom**. Dans l’URL **ServiceNow**, saisissez le site client que vous utiliseriez pour publier la sortie, puis ajoutez les **Nom d’utilisateur** et **Mot de passe** fournis par le site client ServiceNow. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
 
-     ![Profil de publication ServiceNow &#x200B;](./images/service-now-publish-profile.png){width="550" align="left"}
+     ![Profil de publication ServiceNow ](./images/service-now-publish-profile.png){width="550" align="left"}
 
   Après la validation, vous pouvez sélectionner le profil de publication dans les paramètres prédéfinis de sortie d&#39;un plan DITA et l&#39;utiliser pour générer la sortie vers le serveur **Salesforce** ou **ServiceNow** que vous avez choisi.
 
@@ -294,7 +294,7 @@ L’explication détaillée de ces fonctionnalités est la suivante :
 
 **Modification des actions**
 
-Lorsque vous modifiez une rubrique dans l’éditeur, accédez aux différentes actions d’édition telles que **Couper** ou ***Ctrl***+***X*** , **Copier** ou ***Ctrl***+***C*** , **Undo** ou ***Ctrl***+***Z*** ou **Ctrl**+***Y*** et ***Delete*** **&#x200B;**&#x200B;présentes dans la liste déroulante Menu .
+Lorsque vous modifiez une rubrique dans l’éditeur, accédez aux différentes actions d’édition telles que **Couper** ou ***Ctrl***+***X*** , **Copier** ou ***Ctrl***+***C*** , **Undo** ou ***Ctrl***+***Z*** ou **Ctrl**+***Y*** et ***Delete*** **** présentes dans la liste déroulante Menu .
 
 
 **Rechercher et remplacer**
@@ -324,7 +324,7 @@ Pour accéder à l’historique des versions et revenir à une version spécifiq
 
    La boîte de dialogue **Historique des versions** s’affiche.
 
-   ![&#x200B; Boîte de dialogue Historique des versions &#x200B;](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   ![ Boîte de dialogue Historique des versions ](images/version-history-dialog-web-editor.png){width="550" align="left"}
 
    *Prévisualiser les modifications dans les différentes versions d&#39;une rubrique.*
 
@@ -341,7 +341,7 @@ Pour accéder à l’historique des versions et revenir à une version spécifiq
 
    Onglet **Métadonnées** : les métadonnées nouvellement ajoutées sont dans la police verte et les métadonnées supprimées sont dans la police rouge.
 
-   ![Différence de métadonnées pour les versions &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
+   ![Différence de métadonnées pour les versions ](images/metadata-version-diff.png){width="550" align="left"}
 
    *Comparez les métadonnées de différentes versions dans l’historique des versions.*
 
@@ -630,7 +630,7 @@ Insère une image à l’emplacement valide actuel ou suivant. Sélectionnez l�
 
 Vous pouvez ajouter un titre d’image/d’illustration et un texte secondaire pour l’image dans la boîte de dialogue Insérer une image .
 
->
+>[!NOTE]
 >
 > Lorsque vous insérez une image et spécifiez un texte secondaire pour celle-ci, il est ajouté dans l&#39;élément `<alt>` conformément aux dernières normes DITA. L&#39;utilisation de l&#39;attribut `@alt` pour le texte secondaire est obsolète, mais il reste pris en charge dans les versions précédentes de DITA.
 
@@ -1000,7 +1000,7 @@ Vous disposez des options suivantes pour filtrer les fichiers et affiner votre r
 - **Fichiers DITA** : vous pouvez rechercher toutes les **rubriques DITA** et **cartes DITA** présentes sur le chemin d&#39;accès sélectionné. Ils sont sélectionnés par défaut.
 - **Fichiers non-DITA** : vous pouvez rechercher **Fichiers Ditaval**, **Fichiers image**, **Multimédia**, **Documents** et **JSON** dans le chemin d’accès sélectionné.
 
-  ![filtre de recherche rapide &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![Filtre de recherche rapide](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *Utilisez les filtres rapides pour rechercher des fichiers DITA et non DITA.*
 
@@ -1010,7 +1010,7 @@ Sélectionnez l’icône **Filtrage avancé** ![icône de filtre avancé](images
 
 Vous pouvez afficher les options suivantes sous les onglets **Général** et **Avancé**.
 
-![boîte de dialogue filtre avancé](images/repository-filter-search-advanced.png) {width="650" align="left"}
+![ boîte de dialogue filtre avancé ](images/repository-filter-search-advanced.png) {width="650" align="left"}
 
 
 **Général**
@@ -1739,7 +1739,7 @@ Effectuez les étapes suivantes pour modifier la valeur :
 
 Vous pouvez également appliquer des valeurs à un attribut en sélectionnant plusieurs valeurs dans la liste déroulante.
 
-Vue Source **&#x200B;**
+Vue Source ****
 
 Vous pouvez également modifier les valeurs à partir de la liste déroulante de l’attribut dans la vue Source. La vue Source vous empêche également d’ajouter une valeur incorrecte.
 
@@ -1811,7 +1811,7 @@ Pour savoir comment créer des modèles personnalisés, consultez la section [Cr
 
 Dans Experience Manager Guides, vous pouvez ajouter et importer des citations et les appliquer à votre contenu. Vous pouvez ajouter ces citations à partir de n’importe quelle source de livres, de sites web et de revues.
 
-Pour plus d’informations, consultez la section [&#x200B; Ajouter et gérer des citations dans votre contenu &#x200B;](./web-editor-apply-citations.md).
+Pour plus d’informations, consultez la section [ Ajouter et gérer des citations dans votre contenu ](./web-editor-apply-citations.md).
 
 ### Variables de langue
 
@@ -1975,7 +1975,7 @@ Vous pouvez accéder à la fonction **Propriétés du contenu** en sélectionnan
 
 1. Dans le panneau déroulant **Attribut**, sélectionnez l’attribut dans la liste déroulante et spécifiez une valeur d’attribut.  Sélectionnez ensuite **Ajouter**.
 
-   ![panneau attributs avec plusieurs attributs &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![panneau attributs avec plusieurs attributs ](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Pour modifier l’attribut, passez la souris dessus et sélectionnez **Modifier** ![icône-d’édition](images/edit_pencil_icon.svg).
 

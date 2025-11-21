@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 5fc81de9-9ae0-4cd4-a7ef-b52eed2479f7
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 1%
@@ -61,12 +61,11 @@ Vous pouvez également afficher les options suivantes dans les paramètres préd
 | Chargement des images | Sélectionnez cette option si vous souhaitez que des images des rubriques soient incluses dans la sortie publiée. |
 | Charger les documents liés | Sélectionnez cette option pour inclure les documents liés dans les rubriques dans la sortie publiée. |
 
-
 ### Adobe Experience Manager
 
 >[!NOTE]
 >
->Vous pouvez utiliser le paramètre prédéfini de la base de connaissances Adobe Experience Manager si votre administrateur l’a configuré. Pour plus d’informations, consultez la section [&#x200B; Publication basée sur des articles dans l’éditeur web &#x200B;](/help/product-guide/install-guide/configure-article-based-publishing.md) du guide d’installation et de configuration.
+>Vous pouvez utiliser le paramètre prédéfini de la base de connaissances Adobe Experience Manager si votre administrateur l’a configuré. Pour plus d’informations, consultez la section [ Publication basée sur des articles dans l’éditeur web ](/help/product-guide/install-guide/configure-article-based-publishing.md) du guide d’installation et de configuration.
 
 | Options de Adobe Experience Manager | Description |
 | --- | --- |

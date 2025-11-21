@@ -4,7 +4,7 @@ description: Découvrez comment migrer du contenu non-UUID vers UUID
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 2%
@@ -22,7 +22,7 @@ Effectuez les étapes suivantes pour migrer votre contenu de la version 4.6.0 Se
 >   1. Fermeture de tous les avis actifs.
 >   1. A fermé toutes les tâches de traduction.
 > * Avant de migrer le contenu vers le serveur UUID, assurez-vous de disposer d’un serveur non UUID sur lequel est installé une version d’AEM Guides compatible.
-> * Si vous utilisez une version antérieure au pack de services 4.6.0, vous devez d’abord effectuer la mise à niveau vers le pack de services 4.6.0. Suivez les [&#x200B; instructions de mise à niveau](./upgrade-xml-documentation.md) spécifiques à la version sous licence de votre produit.
+> * Si vous utilisez une version antérieure au pack de services 4.6.0, vous devez d’abord effectuer la mise à niveau vers le pack de services 4.6.0. Suivez les [ instructions de mise à niveau](./upgrade-xml-documentation.md) spécifiques à la version sous licence de votre produit.
 > * Si vous utilisez un pack de services spécifique publié après le pack de services 4.6.0, vous devez désinstaller ce pack de services et revenir au pack de services 4.6.0.
 
 ## Installation du package
@@ -178,9 +178,9 @@ De plus, une liste des **Fichiers mis à niveau avec des erreurs** et des **Fich
 
 | Résumé à l’issue du processus | Comment interpréter ? | Action |
 |---|---|---|
-| Nombre total de fichiers : 288 | Nombre de plans DITA avec au moins 1 ligne de base. |
-| Nombre de fichiers migrés : 13 | Nombre de plans DITA mis à niveau avec toutes les lignes de base. |
-| Nombre de fichiers ignorés : 275 | Nombre de plans DITA sans ligne de base |
+| Nombre total de fichiers : 288 | Nombre de plans DITA avec au moins 1 ligne de base. |  |
+| Nombre de fichiers migrés : 13 | Nombre de plans DITA mis à niveau avec toutes les lignes de base. |  |
+| Nombre de fichiers ignorés : 275 | Nombre de plans DITA sans ligne de base |  |
 | Nombre de fichiers n&#39;ayant pas pu être mis à niveau : 0 | Le nombre d&#39;objets de référence qui n&#39;étaient pas valides (ils étaient vides) est répertorié dans le rapport (Excel). | Vérifier s&#39;il y a d&#39;autres erreurs que : `baselineObj not found on` |
 
 De plus, une liste des **Fichiers mis à niveau avec des erreurs** et des **Fichiers ayant échoué** pendant le processus de migration est accessible dans le tableau de synthèse du rapport.
@@ -219,5 +219,5 @@ De plus, une liste des **Fichiers mis à niveau avec des erreurs** et des **Fich
    > Si, avant la migration, la propriété **Utiliser le titre pour les noms de page du site AEM** dans `com.adobe.fmdita.config.ConfigManager`, définie sur *False*, après la migration, cette propriété doit être mise à jour.
 
 
-1. Une fois la validation terminée, la majeure partie de l’espace disque peut être récupérée en exécutant la compression (voir la section `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=fr`).
+1. Une fois la validation terminée, la majeure partie de l’espace disque peut être récupérée en exécutant la compression (voir la section `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
 

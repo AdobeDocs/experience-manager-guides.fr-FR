@@ -1,7 +1,7 @@
 ---
 title: Notes de mise à jour | Instructions de mise à niveau pour la version 5.0.0 d’Adobe Experience Manager Guides
 description: Découvrez la matrice de compatibilité et comment effectuer une mise à niveau vers la version 5.0.0 d’Adobe Experience Manager Guides.
-source-git-commit: 410d7c059ff1219b73f2dc6199690c77d1ba0e48
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 6%
@@ -62,7 +62,7 @@ Vous pouvez facilement mettre à niveau votre version actuelle de Guides vers la
 - Si vous utilisez la version 4.2, 4.2.1 (correctif 4.2.1.3), 4.1 ou 4.1.x, vous devez effectuer la mise à niveau vers la version 4.4 avant la mise à niveau vers la version 5.0.0.
 - Si vous utilisez la version 4.0, vous devez effectuer la mise à niveau vers la version 4.2 avant d’effectuer la mise à niveau vers la version 4.3.x.
 - Si vous utilisez la version 3.8.5, vous devez effectuer la mise à niveau vers la version 4.0 avant de passer à la version 4.2.
-- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html).
+- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 >[!NOTE]
 >

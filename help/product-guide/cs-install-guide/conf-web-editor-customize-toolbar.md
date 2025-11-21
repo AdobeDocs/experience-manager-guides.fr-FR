@@ -5,9 +5,9 @@ exl-id: ba82af48-9357-4f29-90ce-6793366ab432
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 5778ed2855287d1010728e689abbe6020ad56574
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -18,12 +18,11 @@ Par défaut, Web Editor est fourni avec les fonctions éditoriales les plus cour
 
 >[!NOTE]
 >
-> Lors de la migration de l’ancienne interface utilisateur vers la nouvelle interface utilisateur d’AEM Guides (applicable à partir des versions 2502 et 5.0 d’AEM Guides), les mises à jour apportées à `ui_config` doivent être converties en configurations d’interface utilisateur plus flexibles et modulaires. Ce framework permet d’adopter facilement des modifications dans editor_toolbar et d’autres widgets cibles, le cas échéant. Pour plus d’informations, consultez [Présentation de la configuration de l’interface utilisateur de conversion](https://experienceleague.adobe.com/fr/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> Lors de la migration de l’ancienne interface utilisateur vers la nouvelle interface utilisateur d’AEM Guides (applicable à partir des versions 2502 et 5.0 d’AEM Guides), les mises à jour apportées à `ui_config` doivent être converties en configurations d’interface utilisateur plus flexibles et modulaires. Ce framework permet d’adopter facilement des modifications dans editor_toolbar et d’autres widgets cibles, le cas échéant. Pour plus d’informations, consultez [Présentation de la configuration de l’interface utilisateur de conversion](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Vous pouvez personnaliser la barre d’outils de l’éditeur web de deux manières différentes :
 
 - Ajouter une nouvelle fonctionnalité à la barre d’outils
-
 - Supprimez toute fonctionnalité existante de la barre d’outils
 
 
@@ -50,19 +49,19 @@ Pour ajouter une fonctionnalité à la barre d’outils de l’éditeur web, pro
 
    **items** :   Spécifiez la définition de tous les groupes dans la barre d’outils. Chaque groupe peut contenir une ou plusieurs icônes de barre d’outils. Pour définir des icônes dans un groupe de barres d’outils, vous devez définir à nouveau l’attribut `type` dans le `items` et définir sa valeur sur `buttonGroup`. Spécifiez un ou plusieurs noms de classe dans la propriété `extraclass`. Spécifiez le nom de la fonction dans la propriété `label`. L’extrait de code suivant du fichier `ui_config.json` affiche la définition du bloc de barre d’outils principal, suivie de la définition du `buttonGroup` :
 
-       « 
-       « toolbar » : &lbrace;
-       « type »: « blockGroup »,
-       « extraclass »:
-        « opérations de la barre d’outils »,
-       « items » : &lbrack;
-       &lbrace;
-       « type »: « buttonGroup »,
-       « extraclass »: « left-controls »,
-       « label »: « Contrôles de gauche »,
-       « items » : &lbrack;
-       « 
-   
+   ```
+   "toolbar": {    
+   "type": "blockGroup",    
+   "extraclass": 
+   "toolbar operations",    
+   "items": [      
+   {        
+       "type": "buttonGroup",        
+       "extraclass": "left-controls",        
+       "label": "Left Controls",        
+       "items": [
+   ```
+
    Dans la collection `items`, vous devez spécifier la définition d’une ou de plusieurs icônes de barre d’outils.
 
    Vous devez définir les propriétés suivantes pour ajouter une icône de barre d’outils :
@@ -77,10 +76,10 @@ Pour ajouter une fonctionnalité à la barre d’outils de l’éditeur web, pro
 
    **en cas de clic** :   Indiquez le nom de commande défini pour la fonction dans le fichier JavaScript. Si votre commande nécessite des paramètres d’entrée, indiquez le nom de la commande comme suit :
 
-       « Javascript 
-       « on-click »: {« name »: « AUTHOR_INSERT_ELEMENT », « args »: « simpletable »}
-       « 
-   
+   ```Javascript
+   "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
+   ```
+
    **afficher ou masquer** :   Si vous définissez la propriété `show` , spécifiez les modes dans lesquels l’icône s’affiche. Les valeurs possibles sont les suivantes : `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(affichage dans tous les modes\) ou `false` \(masquage dans tous les modes\).
 
    À la place de `show`, vous pouvez également définir la propriété `hide` . Les valeurs possibles sont identiques à celles de `show` propriété , à la différence que l’icône n’est pas affichée pour le mode spécifié.
@@ -145,4 +144,4 @@ Effectuez les étapes suivantes pour supprimer toute fonctionnalité indésirabl
 1. Enregistrez le fichier *ui\_config.json* et rechargez l’éditeur web.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)

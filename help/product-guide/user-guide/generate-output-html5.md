@@ -4,7 +4,7 @@ description: Découvrez comment créer un paramètre prédéfini HTML5 à partir
 exl-id: b54bf3a0-7a13-41a0-ae72-cdf2caf8d974
 feature: Publishing
 role: User
-source-git-commit: a953de289530457b257259bda3d9af2b68790592
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1516'
 ht-degree: 0%
@@ -108,4 +108,4 @@ Par exemple, **Chemin de sortie/Chemin de destination** - Ici, **Chemin de sorti
 
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)
+**Rubrique parente :**[ Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)

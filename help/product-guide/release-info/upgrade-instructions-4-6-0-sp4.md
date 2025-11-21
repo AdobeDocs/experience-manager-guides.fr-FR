@@ -2,7 +2,8 @@
 title: Notes de mise à jour | Instructions de mise à niveau vers Adobe Experience Manager Guides 4.6.0 Service Pack 4
 description: Découvrez comment effectuer une mise à niveau vers la version 4.6.0 Service Pack 4 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: f6d5b1abb9e9a50d2564e8199b04129e3bc0f256
+exl-id: d0914e8a-7c7f-47da-9655-697f95f7d4ff
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 1%
@@ -35,7 +36,7 @@ Pour plus d&#39;informations, consultez la section [Exigences techniques](../ins
 | --- | --- | --- | --- | --- |
 | 4.6.0 Service Pack 4 (non-UUID) | 2022 ou version ultérieure | 2020.2 ou version ultérieure* | 2022 ou version ultérieure | 2020.3 ou version ultérieure |
 | 4.6.0 Service Pack 4 (UUID) | 2022 ou version ultérieure | 2020.2 ou version ultérieure* | 2022 ou version ultérieure | 2020.4 ou version ultérieure |
-| | | | |
+| | | | | |
 
 *La ligne de base et les conditions créées dans AEM sont prises en charge dans les versions FMPS à compter de 2020.2.
 
@@ -45,7 +46,7 @@ Pour plus d&#39;informations, consultez la section [Exigences techniques](../ins
 | --- | --- | --- |--- |--- |
 | 4.6.0 Service Pack 4 (non-UUID) | 2.8-normal-10 | 2.8-normal-10 | 1,6 | 1,6 |
 | 4.6.0 Service Pack 4 (UUID) | 3.6-uuid.9 | 3.6-uuid.9 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 ### Version du modèle de la base de connaissances
 
@@ -68,7 +69,7 @@ Vous pouvez facilement mettre à niveau votre version actuelle de Guides vers le
 - Si vous utilisez la version 4.2, 4.2.1 (correctif 4.2.1.3), 4.1 ou 4.1.x, vous devez effectuer la mise à niveau vers la version 4.4 avant la mise à niveau vers la version 4.6.0.
 - Si vous utilisez la version 4.0, vous devez effectuer la mise à niveau vers la version 4.2 avant d’effectuer la mise à niveau vers la version 4.3.x.
 - Si vous utilisez la version 3.8.5, vous devez effectuer la mise à niveau vers la version 4.0 avant de passer à la version 4.2.
-- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html).
+- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 >[!NOTE]
 >

@@ -4,7 +4,7 @@ description: Découvrez comment créer un paramètre prédéfini PDF à l’aide
 feature: Publishing
 role: User
 exl-id: 6ac82dad-34af-4f9e-8b52-4e4f2eb982a4
-source-git-commit: 47927187ec0d9eb4f2f78e3cf6062f1992ad0615
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
@@ -62,7 +62,7 @@ L’onglet **Avancé** contient les options de configuration suivantes :
 - Conserver les fichiers temporaires
 - Propriétés du fichier
 
-Pour plus d’informations sur les options de configuration des paramètres prédéfinis, consultez la section Configuration des paramètres prédéfinis de PDF [&#128279;](#pdf-preset-configuration).
+Pour plus d’informations sur les options de configuration des paramètres prédéfinis, consultez la section Configuration des paramètres prédéfinis de PDF [](#pdf-preset-configuration).
 
 
 ## Création du paramètre prédéfini PDF DITA-OT à partir du tableau de bord de carte
@@ -102,4 +102,4 @@ Par exemple, **Chemin de sortie/Chemin de destination** - Ici, **Chemin de sorti
 | Propriétés du fichier | Sélectionnez les propriétés à traiter en tant que métadonnées. Ces propriétés sont définies à partir de la page Propriétés du fichier DITA map ou bookmap. Les propriétés que vous sélectionnez dans la liste déroulante s’affichent sous le champ **Propriétés du fichier**. Sélectionnez l’icône croisée en regard de la propriété pour la supprimer. <br><br>Remarque : vous pouvez également transmettre les métadonnées à la sortie à l&#39;aide de la publication DITA-OT. Pour plus de détails, [Transmettez les métadonnées à la sortie à l’aide de DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)
+**Rubrique parente :**[ Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)

@@ -2,7 +2,7 @@
 title: Notes de mise à jour | Instructions de mise à niveau pour la version 5.1.0 d’Adobe Experience Manager Guides
 description: Découvrez la matrice de compatibilité et comment effectuer une mise à niveau vers la version 5.1.0 d’Adobe Experience Manager Guides.
 exl-id: 4b7b6756-d260-4baf-a9cb-d99fc02f020f
-source-git-commit: 6bcfed792036a51aa0c11498e4cb489199280a56
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 7%
@@ -60,7 +60,7 @@ Vous pouvez facilement mettre à niveau votre version actuelle de Experience Man
 
 >[!NOTE]
 >
-> Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, veillez à effectuer d’abord la mise à niveau d’AEM avant de poursuivre la mise à niveau vers Experience Manager Guides 5.1.0. Pour plus d’informations, consultez la section [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/fr/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, veillez à effectuer d’abord la mise à niveau d’AEM avant de poursuivre la mise à niveau vers Experience Manager Guides 5.1.0. Pour plus d’informations, consultez la section [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 Avant de procéder à la mise à niveau vers la version 5.1.0 de Experience Manager Guides, vous devez tenir compte des points suivants :
 
@@ -69,7 +69,7 @@ Avant de procéder à la mise à niveau vers la version 5.1.0 de Experience Mana
 - Si vous utilisez la version 4.3.x, 4.2, 4.2.1 (correctif 4.2.1.3), 4.1 ou 4.1.x, vous devez effectuer la mise à niveau vers la version 4.4 avant d’effectuer la mise à niveau vers la version 5.1.0.
 - Si vous utilisez la version 4.0, vous devez effectuer la mise à niveau vers la version 4.2 avant d’effectuer la mise à niveau vers la version 4.3.x.
 - Si vous utilisez la version 3.8.5, vous devez effectuer la mise à niveau vers la version 4.0 avant de passer à la version 4.2.
-- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html).
+- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 >[!NOTE]
 >

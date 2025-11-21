@@ -5,9 +5,9 @@ exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 47a6819654877e9a4e3e542fa6e5e360b3f3938f
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '4716'
+source-wordcount: '4702'
 ht-degree: 0%
 
 ---
@@ -198,7 +198,7 @@ Le fichier sélectionné est importé et répertorié sous le dossier Ressources
 Utilisez la section Paramètres pour configurer les paramètres avancés de la mise en page du PDF, en commençant par la page paire ou impaire de PDF, les formats des références croisées et en activant les repères d’impression dans le PDF final généré
 à l’aide du modèle.
 
->
+>[!NOTE]
 >
 > À compter de la version Experience Manager Guides 5.0/2025.02.0, la section **Imprimer** dans les Paramètres avancés de PDF a été déplacée vers le panneau **Paramètres prédéfinis de sortie**. Pour configurer les paramètres d’impression, consultez [Publication d’une sortie PDF](../web-editor/native-pdf-web-editor.md#print).
 
@@ -420,7 +420,7 @@ AEM Guides fournit les variables prêtes à l’emploi suivantes :
 * {chapter} : ajoute une référence croisée aux numéros de chapitres. Par exemple, reportez-vous au chapitre 1.
 * {bookmarkText} : crée une référence croisée au texte marqué d’un signet. Par exemple, voir mots_vides page 5.
 * {captionText} : crée une référence croisée avec la légende de la figure ou du tableau de votre rubrique. Par exemple, reportez-vous à la section Circulation d’air à la page 2.
-* {figure} : ajoute une référence croisée au numéro de la figure. Sélectionne le numéro de figure parmi les styles de numéros automatiques que vous avez définis pour la légende.  Par exemple, vous pouvez utiliser « Voir {figure} sur la page {page} ». La référence croisée dans la sortie contient le numéro de figure généré automatiquement et son numéro de page, « Voir Figure 1 à la page 5 ».
+* {figure} : ajoute une référence croisée au numéro de la figure. Sélectionne le numéro de figure parmi les styles de numéros automatiques que vous avez définis pour la légende.  Par exemple, vous pouvez utiliser « Voir {figure} sur la page {page} ». La référence croisée dans la sortie contient le numéro de la figure générée automatiquement et son numéro de page, « Voir la figure 1 à la page 5 ».
 * {table} : ajoute une référence croisée au numéro de la table. Sélectionne le numéro du tableau à partir des styles de numéros automatiques que vous avez définis pour la légende. Par exemple, vous pouvez utiliser « Voir {table} sur la page {page} ». La référence croisée dans la sortie contient le numéro de tableau généré automatiquement et son numéro de page, « Voir le tableau 1 à la page 5 ».
 
 
@@ -453,17 +453,17 @@ Vous pouvez également utiliser des variables de langue pour définir des réfé
 Par exemple, vous pouvez ajouter une variable de langue « reference-label » et définir les valeurs en anglais et en allemand.
 
 * Anglais - « View on page {page} »
-* Allemand - «Einzelheiten finden Sie auf der Seite {page}»
+* Allemand - « Einzelheiten finden Sie auf der Seite {page} »
 
 
 Lorsque vous ajoutez des `${lng:<variable name>}` à la section Paragraphe, les références croisées dans les paragraphes de la sortie contiennent le texte localisé et le numéro de page.\
-Par exemple, les captures d’écran ci-dessous montrent les références croisées « View on page 1 » en anglais et « Einzelheiten finden Sie auf der Seite 1 » en allemand.
+Par exemple, les captures d’écran ci-dessous montrent les références croisées « Afficher sur la page 1 » en anglais et « Einzelheiten finden Sie auf der Seite 1 » en allemand.
 
-<img src="./assets/english-output-corss-reference.png" alt="Sortie en anglais d&apos;une référence croisée dans un pragrah&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="Sortie en anglais d&apos;une référence croisée dans un pragrah" width ="800" border="2px">
 
 *Référence croisée dans un paragraphe lorsqu’il est publié en langue anglaise.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Sortie allemande d&apos;une référence croisée dans un pragrah&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="Sortie allemande d&apos;une référence croisée dans un pragrah" width ="800" border="2px">
 
 
 *Référence croisée dans un paragraphe lorsqu’il est publié en allemand.*

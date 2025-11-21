@@ -5,9 +5,9 @@ exl-id: 4d3e0fc1-b684-44f9-ab0d-411033024019
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: 3119ef32a753afac9405af31a241ae508f922ea7
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
@@ -64,12 +64,12 @@ Pour charger le plug-in DITA-OT personnalisé dans le référentiel AEM, procéd
 
    | Nom de la propriété | Description |
    |-------------|-----------|
-   | **Propriétés du profil** |
+   | **Propriétés du profil** |  |
    | Nom du profil | Attribuez un nom unique à ce profil. |
    | Réutiliser la sortie | *\(Facultatif\)* Si votre profil est basé sur un profil existant, sélectionnez cette option. La sélection de cette option garantit qu&#39;AEM Guides n&#39;extrait pas à nouveau le contenu du package DITA-OT et réutilise le package DITA-OT existant. |
    | Chemin d’extraction du profil | *\(Facultatif\)* spécifiez le chemin d’accès où DITA-OT est conservé sur le disque. Par défaut, AEM Guides regroupe un package DITA-OT dans son référentiel et il est extrait sur le disque à cet emplacement. <br> **REMARQUE** vous pouvez définir ce chemin à l’aide de n’importe quelle variable ou propriété système existante. Pour plus d’informations, voir la description de la propriété [Variables d’environnement DITA-OT](#id181NH0YN0AX). |
    | Chemin affecté | \(*Facultatif*\) Spécifiez le chemin d’accès dans votre référentiel de contenu auquel ce profil s’applique. Vous pouvez spécifier plusieurs emplacements. |
-   | **Propriétés DITA-OT** |
+   | **Propriétés DITA-OT** |  |
    | Délai DITA-OT | \(*Facultatif*\) Spécifiez la durée \(en secondes\) pendant laquelle AEM Guides attend une réponse du plug-in DITA-OT. Si aucune réponse n’est reçue dans le délai spécifié, AEM Guides met fin à la tâche de publication et celle-ci est marquée comme ayant échoué. En outre, les journaux d’échec sont disponibles dans le fichier journal de génération de sortie. <br> Valeur par défaut : 300 secondes \(5 minutes\) |
    | Arguments PDF DITA-OT | Spécifiez les arguments de ligne de commande qui sont traités par le plug-in DITA-OT personnalisé pour générer la sortie PDF. Pour tous les profils DITA-OT personnalisés, spécifiez l&#39;argument de ligne de commande suivant :`-lib plugins/org.dita.pdf2.fop/lib/` |
    | Arguments AEM DITA-OT | \(*Facultatif*\) Spécifiez les arguments de ligne de commande personnalisés qui sont traités par le plug-in DITA-OT personnalisé pour générer la sortie du site AEM. |

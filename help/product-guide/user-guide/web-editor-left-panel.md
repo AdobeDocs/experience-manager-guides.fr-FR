@@ -4,9 +4,9 @@ description: Découvrez le panneau de gauche dans l’éditeur. Découvrez l’i
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 565f7b9b8139bfa3e21c91c4b60b6c9757b67429
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '9769'
+source-wordcount: '9768'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,7 @@ Sélectionnez l’icône **Filtrage avancé** ![icône de filtre avancé](images
 
 Vous pouvez afficher les options suivantes sous les onglets **Général** et **Avancé**.
 
-![&#x200B; boîte de dialogue filtre avancé &#x200B;](images/repository-filter-search-advanced.png) {width="650" align="left"}
+![ boîte de dialogue filtre avancé ](images/repository-filter-search-advanced.png) {width="650" align="left"}
 
 
 **Général**
@@ -952,7 +952,7 @@ Effectuez les étapes suivantes pour modifier la valeur :
 
 Vous pouvez également appliquer des valeurs à un attribut en sélectionnant plusieurs valeurs dans la liste déroulante.
 
-Vue Source **&#x200B;**
+Vue Source ****
 
 Vous pouvez également modifier les valeurs à partir de la liste déroulante de l’attribut dans la vue Source. La vue Source vous empêche également d’ajouter une valeur incorrecte.
 
@@ -1030,7 +1030,7 @@ Pour savoir comment créer des modèles personnalisés, consultez la section [Cr
 
 Dans Experience Manager Guides, vous pouvez ajouter et importer des citations et les appliquer à votre contenu. Vous pouvez ajouter ces citations à partir de n’importe quelle source de livres, de sites web et de revues.
 
-Pour plus d’informations, consultez la section [&#x200B; Ajouter et gérer des citations dans votre contenu &#x200B;](./web-editor-apply-citations.md).
+Pour plus d’informations, consultez la section [ Ajouter et gérer des citations dans votre contenu ](./web-editor-apply-citations.md).
 
 ## Variables de langue
 
@@ -1093,9 +1093,9 @@ Pour effectuer la recherche globale et le remplacement, procédez comme suit :
 
 Pour activer l’icône **Tout remplacer**, votre administrateur système doit sélectionner l’option **Activer tout remplacer** sous l’onglet **Général** dans les paramètres **Workspace** (qui apparaissent sous la forme **Paramètres** pour **Sur site**).
 
-    >[ !REMARQUE]
-    >
-    > Survolez un fichier de la liste des résultats de recherche pour afficher l’icône Tout remplacer dans le fichier située à droite. Vous obtenez également l’icône Ignorer le fichier pour supprimer le fichier des résultats de recherche. Les fichiers que vous ignorez sont supprimés de la liste et le terme recherché n’y est pas remplacé.
+>[!NOTE]
+>
+> Passez la souris sur un fichier de la liste des résultats de recherche pour afficher l’icône Tout remplacer dans le fichier située à droite. Vous obtenez également l’icône Ignorer le fichier pour supprimer le fichier des résultats de recherche. Les fichiers que vous ignorez sont supprimés de la liste et le terme recherché n’y est pas remplacé.
 
 Une seule opération de remplacement complet peut être effectuée à la fois dans l&#39;ensemble du système, et tant que l&#39;opération n&#39;est pas exécutée, vous verrez l&#39;état « Remplacer tout en cours ». Vous pouvez également abandonner l’opération de remplacement de tous les éléments entre les deux ou consulter le rapport de journal. Si vous abandonnez l’opération, vous recevrez une notification à ce sujet dans votre boîte de réception. Une notification de succès s’affichera après le remplacement de toutes les occurrences dans le fichier sélectionné.
 
@@ -1170,4 +1170,4 @@ Pour afficher les commentaires de révision dans les tâches de révision active
 
 </details>
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

@@ -5,7 +5,7 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: 1f72642c-e694-47cd-9182-f4f4aaf69655
-source-git-commit: 4ac91ae3be8a7eda99389288c4a70a2047456071
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 3%
@@ -18,12 +18,12 @@ Adobe Workfront est une solution de gestion du travail cloud qui aide les équip
 
 En savoir plus sur l’[intégration d’Adobe Workfront](../user-guide/workfront-integration.md) dans Experience Manager Guides.
 
-## Prérequis
+## Conditions préalables
 
 Avant de commencer, assurez-vous des points suivants :
 
 1. Vous disposez d’un accès standard à Adobe Workfront et d’un accès administrateur à Experience Manager Guides.
-2. Vous [créez un formulaire personnalisé dans Adobe Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) requis pour Experience Manager Guides en utilisant spécifiquement les champs suivants :
+2. Vous [créez un formulaire personnalisé dans Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) requis pour Experience Manager Guides en utilisant spécifiquement les champs suivants :
 
    | Type de champ | Libellé | Nom | Choix (Afficher les valeurs activées) |
    |------------|------|------|-------------------------------|
@@ -57,7 +57,7 @@ Pour configurer Adobe Workfront dans Experience Manager Guides, procédez comme 
 
    Pour accéder à la clé **ID client** et **Secret client** configurée dans votre configuration Adobe Workfront, accédez à `Setup >> Systems>> oAuth2 Applications`.
 
-   Pour plus d’informations sur la configuration de votre domaine Adobe Workfront, consultez la section Flux de code d’autorisation dans [Création d’applications OAuth2 pour les intégrations Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow).
+   Pour plus d’informations sur la configuration de votre domaine Adobe Workfront, consultez la section Flux de code d’autorisation dans [Création d’applications OAuth2 pour les intégrations Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow).
 
 4. Sélectionnez **Connexion et vérification**.
 
@@ -69,4 +69,4 @@ Pour configurer Adobe Workfront dans Experience Manager Guides, procédez comme 
 6. Dans la liste déroulante des formulaires personnalisés, sélectionnez le formulaire personnalisé Adobe Workfront que vous avez créé pour Experience Manager Guides. Afficher [Conditions préalables](#prerequisites).
 7. Sélectionnez **Enregistrer et fermer** pour appliquer et enregistrer les modifications apportées à la configuration de Workfront.
 
-Une fois la configuration effectuée, [ajoutez des utilisateurs à Adobe Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) en utilisant les mêmes adresses e-mail que celles de Experience Manager Guides.
+Une fois la configuration effectuée, [ajoutez des utilisateurs à Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) en utilisant les mêmes adresses e-mail que celles de Experience Manager Guides.

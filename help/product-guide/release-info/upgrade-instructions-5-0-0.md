@@ -2,7 +2,7 @@
 title: Notes de mise à jour | Instructions de mise à niveau pour la version 5.0.0 d’Adobe Experience Manager Guides
 description: Découvrez la matrice de compatibilité et comment effectuer une mise à niveau vers la version 5.0.0 d’Adobe Experience Manager Guides.
 exl-id: 763db247-133e-40c0-807a-2f965b1ddb2f
-source-git-commit: ef8de789f8d6cf0cabc55f4d12c72b164619231c
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 6%
@@ -27,7 +27,7 @@ Cette section répertorie la matrice de compatibilité pour les applications log
 
 Version 6.5 Service Pack 22, Service Pack 21 et Service Pack 20
 
-Pour plus d&#39;informations, consultez la section [Exigences techniques](../install-guide/download-install-technical-requirements.md) dans le Guide d&#39;installation et de configuration On-Premise.
+Pour plus d&#39;informations, consultez la section [Exigences techniques](/help/product-guide/install-guide/download-install-technical-requirements.md) dans le Guide d&#39;installation et de configuration On-Premise.
 
 ### FrameMaker et FrameMaker Publishing Server
 
@@ -63,7 +63,7 @@ Vous pouvez facilement mettre à niveau votre version actuelle de Guides vers la
 - Si vous utilisez la version 4.3.x, 4.2, 4.2.1 (correctif 4.2.1.3), 4.1 ou 4.1.x, vous devez effectuer la mise à niveau vers la version 4.4 avant d’effectuer la mise à niveau vers la version 5.0.0.
 - Si vous utilisez la version 4.0, vous devez effectuer la mise à niveau vers la version 4.2 avant d’effectuer la mise à niveau vers la version 4.3.x.
 - Si vous utilisez la version 3.8.5, vous devez effectuer la mise à niveau vers la version 4.0 avant de passer à la version 4.2.
-- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html).
+- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 >[!NOTE]
 >
