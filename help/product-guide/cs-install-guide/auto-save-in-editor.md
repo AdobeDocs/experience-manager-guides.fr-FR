@@ -25,4 +25,4 @@ Suivez les instructions fournies dans [Remplacements de la configuration](downlo
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.autosave` | Booléen \(true/false\).<br> **Valeur par défaut** : false |
 | `xmleditor.autosaveinterval` | Spécifiez l’intervalle en secondes pour déclencher la fonction d’enregistrement automatique. |  |
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)

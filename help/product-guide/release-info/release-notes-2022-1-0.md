@@ -72,7 +72,7 @@ De nombreuses améliorations et nouvelles fonctionnalités ont été introduites
 * Ajout d’une fonctionnalité d’actualisation dans le panneau Contenu réutilisable qui vous permet d’actualiser rapidement le contenu réutilisable dans les fichiers de référence.
 * Le nouvel indicateur de copie de travail vous indique si votre copie de travail actuelle du fichier est synchronisée avec la version enregistrée ou non.
 
-![ Indicateur de version ](assets/version-update-indicator.png)
+![&#x200B; Indicateur de version &#x200B;](assets/version-update-indicator.png)
 
 * Le filtre de recherche dans le panneau Référentiel et la boîte de dialogue de navigation des fichiers a été amélioré pour offrir davantage d’options de filtrage, qui peuvent être davantage personnalisées.
 
@@ -97,7 +97,7 @@ Un nouveau tableau de bord de traduction a été introduit dans l’éditeur web
 * Ajout d’un mécanisme de traduction multilingue pour éviter de créer plusieurs projets pour chaque langue lorsque la demande de traduction est lancée pour plusieurs langues.
 * Ajout d’une configuration pour masquer l’onglet Traduction dans le tableau de bord de mappage. Par défaut, il est visible. Vous pouvez choisir de traduire le contenu à l’aide du tableau de bord des cartes ou de l’éditeur web.
 
-![ Tableau de bord de traduction ](assets/translation-from-web-editor.png)
+![&#x200B; Tableau de bord de traduction &#x200B;](assets/translation-from-web-editor.png)
 
 ### Publication améliorée
 

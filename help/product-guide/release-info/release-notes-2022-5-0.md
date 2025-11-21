@@ -76,7 +76,7 @@ Le modèle de mappage personnalisé peut vous aider à répliquer très facileme
 * **Possibilité de créer un projet de traduction de portée**
 Si vous devez créer uniquement la portée d’un projet à traduire, vous pouvez sélectionner **Créer un nouveau projet de traduction de la portée**. Les copies ne seront pas envoyées pour traduction et l’état de traduction original des fichiers sera conservé.
 
-![ définition de la portée du projet de traduction ](assets/scoping-translation-project.png)
+![&#x200B; définition de la portée du projet de traduction &#x200B;](assets/scoping-translation-project.png)
 
 * Si vous rejetez la traduction d’une ou plusieurs rubriques dans une tâche de traduction, le statut Traduction en cours de toutes les rubriques rejetées revient à son statut d’origine.
 

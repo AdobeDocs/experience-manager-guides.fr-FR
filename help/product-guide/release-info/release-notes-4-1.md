@@ -290,7 +290,7 @@ Remarque : l&#39;onglet Ligne de base du tableau de bord des cartes est masqué 
 * **Possibilité de créer un projet de traduction de portée**
 Si vous devez créer uniquement la portée d’un projet à traduire, vous pouvez sélectionner **Créer un nouveau projet de traduction de la portée**. Les copies ne seront pas envoyées pour traduction et l’état de traduction original des fichiers sera conservé.
 
-![ définition de la portée du projet de traduction ](assets/scoping-translation-project.png)
+![&#x200B; définition de la portée du projet de traduction &#x200B;](assets/scoping-translation-project.png)
 
 * La liste **Langues** affiche les dossiers de langue ainsi que leurs codes de langue. Par exemple, le français (fr) et l’allemand (de).
 

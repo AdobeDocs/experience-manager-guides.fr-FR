@@ -22,7 +22,7 @@ Effectuez les étapes suivantes pour migrer votre contenu de la version 4.6.0 Se
 >   1. Fermeture de tous les avis actifs.
 >   1. A fermé toutes les tâches de traduction.
 > * Avant de migrer le contenu vers le serveur UUID, assurez-vous de disposer d’un serveur non UUID sur lequel est installé une version d’AEM Guides compatible.
-> * Si vous utilisez une version antérieure au pack de services 4.6.0, vous devez d’abord effectuer la mise à niveau vers le pack de services 4.6.0. Suivez les [ instructions de mise à niveau](./upgrade-xml-documentation.md) spécifiques à la version sous licence de votre produit.
+> * Si vous utilisez une version antérieure au pack de services 4.6.0, vous devez d’abord effectuer la mise à niveau vers le pack de services 4.6.0. Suivez les [&#x200B; instructions de mise à niveau](./upgrade-xml-documentation.md) spécifiques à la version sous licence de votre produit.
 > * Si vous utilisez un pack de services spécifique publié après le pack de services 4.6.0, vous devez désinstaller ce pack de services et revenir au pack de services 4.6.0.
 
 ## Installation du package

@@ -75,10 +75,10 @@ Par défaut, les options **Extraction du fichier avant remplacement** et **Créa
 ### Afficher la différence de version pour les fichiers désynchronisés à partir du tableau de bord de traduction
 
 Vous pouvez désormais choisir de traduire les fichiers **Désynchronisés** en fonction des modifications effectuées entre les deux versions d’une rubrique.\
-![ Tableau de bord de traduction ](assets/translation-version-diff.png)
+![&#x200B; Tableau de bord de traduction &#x200B;](assets/translation-version-diff.png)
 Dans le tableau de bord de traduction, vous pouvez facilement voir les différences entre la dernière version traduite et la version actuelle du fichier sélectionné.
 
-![ boîte de dialogue différence de version ](assets/version-diff.png)
+![&#x200B; boîte de dialogue différence de version &#x200B;](assets/version-diff.png)
 
 En fonction des différences, vous pouvez décider de traduire une rubrique ou non.
 

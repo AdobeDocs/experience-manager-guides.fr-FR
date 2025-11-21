@@ -332,7 +332,7 @@ Pour exclure l’élément `table` de l’aplatissement, ajoutez la propriété 
 
 ### Configurer le contrôle de version des pages supprimées dans la sortie du site AEM
 
-Lorsque vous générez une sortie de site AEM avec les options **Supprimer et** Créer ****sélectionnées pour le paramètre Pages de sortie existantes , une version est créée pour la ou les pages en cours de suppression. Vous pouvez configurer le système pour arrêter la création d’une version avant la suppression.
+Lorsque vous générez une sortie de site AEM avec les options **Supprimer et** Créer **&#x200B;**&#x200B;sélectionnées pour le paramètre Pages de sortie existantes , une version est créée pour la ou les pages en cours de suppression. Vous pouvez configurer le système pour arrêter la création d’une version avant la suppression.
 
 Effectuez les étapes suivantes pour arrêter la création d’une version pour la ou les pages en cours de suppression :
 
@@ -642,7 +642,7 @@ AEM Guides fournit la catégorie `apps.fmdita.dashboard-extn` pour la personnali
 
 >[!NOTE]
 >
-> Pour plus d’informations sur la création de la bibliothèque cliente AEM, voir [ Utilisation de bibliothèques côté client ](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html).
+> Pour plus d’informations sur la création de la bibliothèque cliente AEM, voir [&#x200B; Utilisation de bibliothèques côté client &#x200B;](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html).
 
 ## Gérer le rendu des images pendant la génération de la sortie {#id177BF0G0VY4}
 

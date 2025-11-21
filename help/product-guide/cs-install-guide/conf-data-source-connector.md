@@ -283,4 +283,4 @@ Par exemple, `/content/dam/jira.json`
 
 Vous pouvez enregistrer la configuration en utilisant l’API REST. Pour plus d’informations, consultez la section *API REST pour enregistrer un connecteur de source de données* dans la référence d’API pour Adobe Experience Manager Guides.
 
-Une fois la source de données configurée, le connecteur est répertorié sous le panneau Sources de données dans l’éditeur web. Vous pouvez ensuite vous connecter à la source de données et insérer un fragment de contenu dans vos rubriques. Pour plus d’informations, consultez la section [ Insérer un fragment de contenu à partir de votre source de données ](../user-guide/web-editor-content-snippet.md).
+Une fois la source de données configurée, le connecteur est répertorié sous le panneau Sources de données dans l’éditeur web. Vous pouvez ensuite vous connecter à la source de données et insérer un fragment de contenu dans vos rubriques. Pour plus d’informations, consultez la section [&#x200B; Insérer un fragment de contenu à partir de votre source de données &#x200B;](../user-guide/web-editor-content-snippet.md).

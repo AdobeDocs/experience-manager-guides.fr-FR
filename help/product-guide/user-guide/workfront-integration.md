@@ -56,7 +56,7 @@ Pour accéder aux tâches Adobe Workfront, procédez comme suit :
 Les fonctionnalités suivantes sont disponibles sur la page des tâches de Workfront :
 
 * [Nouvelle tâche](#create-workfront-tasks) : permet de créer des tâches Adobe Workfront directement depuis l&#39;interface de Experience Manager Guides.
-* [Affecté(e) à vous ](#managing-tasks-assigned-to-you) : répertorie toutes les tâches qui vous sont affectées et qui sont toujours actives.
+* [Affecté(e) à vous &#x200B;](#managing-tasks-assigned-to-you) : répertorie toutes les tâches qui vous sont affectées et qui sont toujours actives.
 * [Créé par vous](#managing-tasks-created-by-you) : répertorie toutes les tâches que vous avez créées et qui sont toujours actives.
 
 La page Tâches de Workfront comprend également une ![](./images/Smock_LinkOut_18_N.svg) d’icône de lien vers l’extérieur qui, lorsqu’elle est sélectionnée, vous mène à la page du projet Adobe Workfront. Ici, vous pouvez afficher les détails de la tâche, afficher des commentaires, ajouter des commentaires et accéder à d’autres fonctionnalités en fonction des autorisations mappées avec votre compte Adobe Workfront.
@@ -201,7 +201,7 @@ Effectuez les étapes suivantes pour travailler sur une tâche de création :
 
    *Tâche de création dans l’onglet Affecté à vous*
 
-   ![ Création de tâches dans le widget Vos tâches ](./images/authoring-task-access-your-tasks.png){align="left"}
+   ![&#x200B; Création de tâches dans le widget Vos tâches &#x200B;](./images/authoring-task-access-your-tasks.png){align="left"}
 
    *Tâche de création dans le widget Vos tâches*
 2. Pointez sur la tâche sur laquelle vous souhaitez travailler et sélectionnez  ![](images/Smock_OpenIn_18_N.svg)  pour l&#39;ouvrir. Vous pouvez également ouvrir la tâche en la sélectionnant simplement.
@@ -274,11 +274,11 @@ Effectuez les étapes suivantes pour travailler sur une tâche de traduction :
 
 1. Accédez à la tâche à partir de la section [Aperçu](#accessing-assigned-tasks-from-overview-section) ou de l’onglet [Affecté à vous](#managing-tasks-assigned-to-you).
 
-   ![Tâches de traduction dans l’onglet Affectées à vous ](./images/translation-tasks-access.png){align="left"}
+   ![Tâches de traduction dans l’onglet Affectées à vous &#x200B;](./images/translation-tasks-access.png){align="left"}
 
    *Tâche de traduction dans l’onglet Affecté à vous*
 
-   ![ Tâches de traduction dans le widget Vos tâches ](./images/translation-tasks-access-your-tasks.png){align="left"}
+   ![&#x200B; Tâches de traduction dans le widget Vos tâches &#x200B;](./images/translation-tasks-access-your-tasks.png){align="left"}
 
    *Tâche de traduction dans le widget Vos tâches*
 
@@ -308,7 +308,7 @@ Effectuez les étapes suivantes pour travailler sur une tâche de publication :
 
    *Publication de la tâche dans l’onglet Affecté à vous*
 
-   ![ Publication de tâches dans le widget Vos tâches ](./images/publishing-tasks-access-your-tasks.png){align="left"}
+   ![&#x200B; Publication de tâches dans le widget Vos tâches &#x200B;](./images/publishing-tasks-access-your-tasks.png){align="left"}
 
    *Publication de la tâche dans le widget Vos tâches*
 2. Pointez sur la tâche sur laquelle vous souhaitez travailler et sélectionnez  ![](images/Smock_OpenIn_18_N.svg)  pour l’ouvrir dans la **console Mappage**. Vous pouvez également ouvrir la tâche en la sélectionnant simplement.

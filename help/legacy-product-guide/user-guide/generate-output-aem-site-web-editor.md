@@ -33,7 +33,7 @@ Pour créer les paramètres prédéfinis AEM Sites à partir de l’éditeur web
 1. Sélectionnez **AEM Sites** dans la liste déroulante **Type** de la boîte de dialogue **Nouveau paramètre prédéfini de sortie**.
 1. Désélectionnez l’option **Utiliser le mappage de composant hérité** dans la boîte de dialogue **Nouveau paramètre prédéfini de sortie**.
 
-![Nouveau ](images/new-aem-sites-dialog-box.png)
+![Nouveau &#x200B;](images/new-aem-sites-dialog-box.png)
 
 
 
@@ -42,8 +42,8 @@ Pour créer les paramètres prédéfinis AEM Sites à partir de l’éditeur web
 >[!NOTE]
 >
 >Avant de configurer les paramètres prédéfinis AEM Sites pour Experience Manager Guides, votre administrateur ou administratrice doit créer une structure AEM Sites à l’aide des modèles.
-- **Logiciel On-premise** : découvrez comment [télécharger et installer des modèles AEM Sites](/help/product-guide/install-guide/download-install-aem-sites-templates.md) pour les logiciels On-premise.
-- **Cloud Service** : en savoir plus sur la [téléchargement et installation de modèles AEM Sites](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) pour Cloud Service.
+>- **Logiciel On-premise** : découvrez comment [télécharger et installer des modèles AEM Sites](/help/product-guide/install-guide/download-install-aem-sites-templates.md) pour les logiciels On-premise.
+>- **Cloud Service** : en savoir plus sur la [téléchargement et installation de modèles AEM Sites](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) pour Cloud Service.
 
 
 
@@ -64,7 +64,7 @@ Certaines options peuvent différer pour les paramètres prédéfinis qui utilis
 
 Les configurations sont organisées sous les onglets **Général**, **Contenu**, **Liste de rubriques** et **Références de mappage croisé**.
 
-![ paramètres prédéfinis d’aem sites ](images/aem-sites-new-config.png)
+![&#x200B; paramètres prédéfinis d’aem sites &#x200B;](images/aem-sites-new-config.png)
 **Général**
 
 L’onglet **Général** contient les paramétrages suivants relatifs à la génération des sorties :
@@ -96,7 +96,7 @@ L&#39;onglet **Contenu** contient les paramétrages suivants :
    - Utilisation des propriétés de mappage comme solution de secours
 
 
-Pour plus d’informations, consultez la configuration d’AEM Sites [](#aem_sites_config).
+Pour plus d’informations, consultez la configuration d’AEM Sites [&#128279;](#aem_sites_config).
 
 **Liste de sujets**
 

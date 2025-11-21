@@ -154,7 +154,7 @@ Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 - PDF natif | Xref imprime le contenu du titre de la rubrique href au lieu du libellé Xref. (11322)
 - PDF natif | Impossible d’enregistrer les paramètres du modèle PDF. (10751)
 - PDF natif | Le texte s’étend au-delà de la largeur de colonne en incluant plusieurs xréfs. (10876)
-- PDF natif | `<note>``</note>`’élément ne génère pas de titre d’étendue supplémentaire de son type. (10549)
+- PDF natif | `<note>` `</note>`’élément ne génère pas de titre d’étendue supplémentaire de son type. (10549)
 - PDF natif | Les métadonnées de langue ne peuvent pas être définies dans le PDF généré pour se conformer au WCAG 2.0. (12296)
 
 

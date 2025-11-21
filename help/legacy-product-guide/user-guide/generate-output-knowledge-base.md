@@ -65,7 +65,7 @@ Vous pouvez également afficher les options suivantes dans les paramètres préd
 
 >[!NOTE]
 >
->Vous pouvez utiliser le paramètre prédéfini de la base de connaissances Adobe Experience Manager si votre administrateur l’a configuré. Pour plus d’informations, consultez la section [ Publication basée sur des articles dans l’éditeur web ](/help/product-guide/install-guide/configure-article-based-publishing.md) du guide d’installation et de configuration.
+>Vous pouvez utiliser le paramètre prédéfini de la base de connaissances Adobe Experience Manager si votre administrateur l’a configuré. Pour plus d’informations, consultez la section [&#x200B; Publication basée sur des articles dans l’éditeur web &#x200B;](/help/product-guide/install-guide/configure-article-based-publishing.md) du guide d’installation et de configuration.
 
 | Options de Adobe Experience Manager | Description |
 | --- | --- |
