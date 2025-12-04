@@ -4,10 +4,10 @@ description: Découvrez les différentes fonctionnalités de Experience Manager 
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 17d71e65e2f4f79a764d822f6f1ada136a7379d7
+source-git-commit: 0171f7b798686a0a16942e98133001a4c05bb76b
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 1%
+source-wordcount: '708'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Pour ajouter du contenu à votre cours, procédez comme suit :
    - **Groupe** : un groupe d’apprentissage permet d’organiser les rubriques connexes telles que les chapitres, les rubriques et d’autres modules dans un ordre logique, ce qui permet de créer une hiérarchie claire qui facilite la gestion et la réutilisation des ressources de formation.
 3. Sélectionnez **Créer**.
 
-Le contenu sélectionné est créé et ajouté au cours. Pour une présentation vidéo, reportez-vous à la [&#x200B; &#x200B;](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)Ajouter du nouveau contenu à un cours![](assets/Smock_VideoCheckedOut_18_N.svg).
+Le contenu sélectionné est créé et ajouté au cours. Pour une présentation vidéo, reportez-vous à la [ ](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)Ajouter du nouveau contenu à un cours![](assets/Smock_VideoCheckedOut_18_N.svg).
 
 ## Ajouter du contenu existant
 
@@ -50,7 +50,7 @@ Le contenu du cours sélectionné est ajouté au cours à partir du référentie
 >
 >Vous pouvez également utiliser l’option **Ajouter un fichier existant** > **Fichier (fichier compressé de ressources uniquement)** pour inclure un fichier zip qui est décompressé et intégré à la structure de dossiers de la sortie SCORM finale. Cela permet de rationaliser le conditionnement des ressources lors de la publication du cours.
 
-Pour obtenir un aperçu vidéo, consultez la [&#x200B; &#x200B;](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)Ajouter du contenu existant à un cours![](assets/Smock_VideoCheckedOut_18_N.svg) .
+Pour obtenir un aperçu vidéo, consultez la [ ](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)Ajouter du contenu existant à un cours![](assets/Smock_VideoCheckedOut_18_N.svg) .
 
 ## Supprimer le contenu
 
@@ -58,7 +58,7 @@ Vous pouvez supprimer n’importe quel sujet du cours en sélectionnant le menu 
 
 ![](assets/remove-learning-content.png)
 
-Pour une présentation vidéo, reportez-vous à la [&#x200B; &#x200B;](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)Supprimer le contenu du cours![](assets/Smock_VideoCheckedOut_18_N.svg) .
+Pour une présentation vidéo, reportez-vous à la [ ](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)Supprimer le contenu du cours![](assets/Smock_VideoCheckedOut_18_N.svg) .
 
 
 ## Créer des versions de cours
@@ -83,4 +83,16 @@ L’option **Afficher** détermine l’affichage des rubriques. Vous pouvez choi
 
 ![](assets/course-display-settings.png)
 
-Pour une présentation vidéo, reportez-vous à la [&#x200B; &#x200B;](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)Afficher les paramètres![](assets/Smock_VideoCheckedOut_18_N.svg).
+Pour une présentation vidéo, reportez-vous à la [ ](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)Afficher les paramètres![](assets/Smock_VideoCheckedOut_18_N.svg).
+
+## Créer une tâche de révision
+
+En tant qu’auteur ou administratrice d’un cours de formation, vous pouvez créer une tâche de révision pour le cours et l’affecter à un réviseur ou une réviseuse pour recueillir ses commentaires. Commencez par ouvrir votre cours dans le panneau **Responsable de cours**, puis sélectionnez **Créer une tâche de révision** dans le menu **Options** comme illustré ci-dessous :
+
+![](assets/create-review-task-lc.png)
+
+Vous accédez à la page **Créer une tâche de révision**, où vous devez ajouter des détails sur la tâche, tels que le titre de la tâche de révision, spécifier le projet DITA dont elle fait partie, définir la chronologie des tâches, affecter des réviseurs, etc. Une fois cette opération terminée, le ou les réviseurs et réviseuses recevront une notification pour cette tâche. Les rubriques de cours sélectionnées s’ouvrent dans l’interface utilisateur de révision, où le ou les réviseurs peuvent ajouter des commentaires et renvoyer les rubriques pour mises à jour.
+
+Pour comprendre le workflow de révision dans Experience Manager Guides, affichez [Envoyer des rubriques pour révision](../user-guide/review-send-topics-for-review.md).
+
+

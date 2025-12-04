@@ -4,9 +4,9 @@ description: Découvrez les blocs de création de base que vous pouvez ajouter �
 feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ Pour mieux comprendre comment créer une rubrique d’apprentissage et y ajouter
 
 Vous pouvez utiliser les fonctions de modification de base disponibles dans la barre d’outils de l’éditeur, comme décrit ci-dessous :
 
-- **Widgets** : ajoutez des widgets tels que l’accordéon, le carrousel, les zones réactives et plus encore à votre sujet ou contenu d’apprentissage à l’aide du menu **Insérer** comme illustré ci-dessous. Pour plus d’informations sur les widgets interactifs, voir [Utilisation de widgets interactifs](./lc-widgets.md).
+- **Insérer des options** : fournit des options permettant d’ajouter [ajouter des widgets interactifs](./lc-widgets.md) tels que l’accordéon, le carrousel, la zone réactive, les onglets, les cartes retournées et l’option Cliquer pour afficher, ainsi que des [éléments structurels](./lc-other-insert-options.md) tels que l’iframe, les guillemets, le bloc de code, etc. Utilisez ce menu pour ajouter des fonctionnalités et de la variété à votre contenu d’apprentissage, ce qui le rend attrayant et bien structuré.
 
-  ![](assets/widgets-learning-content.png){width="650" align="left"}
+  ![](assets/insert-menu-options-lc.png){width="650" align="left"}
 
 - **Composants Texte** : ajoute un en-tête/des titres, un paragraphe, une citation intégrée, un exposant, un indice et une citation à votre contenu.
 
@@ -45,15 +45,33 @@ Vous pouvez utiliser les fonctions de modification de base disponibles dans la b
 
   ![](assets/image-learning-content.png){width="650" align="left"}
 
-- **Multimédia** : ajoute de la vidéo et de l’audio au contenu du menu **Plus** de la barre d’outils. Vous pouvez personnaliser leurs propriétés à l’aide du panneau **Propriétés du contenu**.
+- **Multimédia** : ajoute des données vidéo et audio au contenu. Vous pouvez personnaliser leurs propriétés à l’aide du panneau **Propriétés du contenu**.
 
   ![](assets/video-learning-content.png){width="650" align="left"}
 
-- **Symboles** : ajoute les symboles de votre choix au contenu d’une liste, comme illustré ci-dessous. Vous pouvez l’utiliser à partir du menu **Plus** de la barre d’outils.
+- **Contenu réutilisable** : permet d’incorporer du contenu existant issu de vos ressources ou de votre référentiel pour le réutiliser. Pour insérer un contenu réutilisable, procédez comme suit :
+
+   1. Sélectionnez **Contenu réutilisable** dans la barre d’outils.
+La boîte de dialogue **Réutiliser le contenu** s’ouvre.
+   2. Accédez au sujet souhaité et sélectionnez-le pour inclure son contenu dans le cours actuel.
+   3. Sélectionnez l’identifiant du contenu que vous souhaitez ajouter ; un aperçu sera affiché à côté de pour référence.
+
+      ![](assets/reuse-content-dialog.png){width="650" align="left"}
+
+   4. Choisissez **Sélectionner**.
+
+  Le contenu est inséré. Par exemple, la section sur la structure du véhicule est un élément de contenu qui est réutilisé et ajouté au sujet du cours. Le type s’affiche sous la forme **Référence** et son **ID** est reflété dans le panneau **Propriétés du contenu**.
+
+  ![](assets/reusable-content.png){width="650" align="left"}
+
+
+- **Symboles** : ajoute les symboles de votre choix au contenu d’une liste, comme illustré ci-dessous.
 
   ![](assets/symbol-learning-content.png){width="350" align="left"}
 
 
-- **Hyperliens** : ajoute des liens hypertexte à l’emplacement requis dans votre contenu. Vous pouvez l’utiliser à partir du menu **Plus** de la barre d’outils. Il peut s’agir d’une référence de fichier, d’une URL web ou d’un lien de courrier électronique, comme illustré ci-dessous.
+- **Hyperliens** : ajoute des liens hypertexte à l’emplacement requis dans votre contenu. Il peut s’agir d’une référence de fichier, d’une URL web ou d’un lien de courrier électronique, comme illustré ci-dessous.
 
   ![](assets/hyperlink-learning-content.png){width="650" align="left"}
+
+De plus, la liste déroulante **Menu** permet d’accéder aux actions d’édition (Couper, Copier, Supprimer), Rechercher et remplacer et au libellé Version.

@@ -4,9 +4,9 @@ description: Découvrez les widgets interactifs que vous pouvez utiliser dans le
 feature: Authoring
 role: User
 exl-id: e7ca2df1-9d15-4718-9698-8a0f059a86d7
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: d4fd08c70c590496fef7a047745d4403546664fe
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -28,33 +28,22 @@ Les widgets disponibles conçus pour améliorer l’expérience utilisateur et r
 
   ![](assets/carousal-learning-content.png){width="650" align="left"}
 
-- **Zones réactives :** permet d’ajouter des zones réactives à une image sélectionnée. Commencez par choisir une image, puis accédez à **Insérer > Zone réactive**. La boîte de dialogue Zone réactive s’ouvre. Vous pouvez y configurer différentes options, telles que la définition de différentes tailles de zone réactive, l’ajout de liens correspondants et l’ajustement du calque en avançant ou en reculant des zones.
+- **Zone réactive :** ajoute une zone réactive à une image sélectionnée. Commencez par choisir une image, puis accédez à **Insérer > Zone réactive**. La boîte de dialogue Zone réactive s’ouvre. Vous pouvez y configurer différentes options, telles que la définition de différentes tailles de zone réactive, l’ajout de liens correspondants et l’ajustement du calque en avançant ou en reculant des zones.
 
   ![](assets/hotspot-learning-content.png){width="650" align="left"}
 
-- **Guillemets simples :** permet d’ajouter des guillemets simples ainsi que des citations à votre contenu.
+- **Tab :** permet d’organiser le contenu en sections interactives.  Chaque onglet peut représenter une rubrique ou une catégorie distincte. Les élèves peuvent cliquer ou appuyer sur les onglets pour afficher le contenu correspondant. Placez le curseur à l’endroit où vous souhaitez que le widget Onglet apparaisse dans le contenu, puis accédez à **Insérer > Widget > Onglet**. Un conteneur d’onglets est ainsi ajouté à votre contenu. Commencez maintenant à ajouter du contenu à l’onglet qui comprend un titre d’onglet et son contenu correspondant.
 
-  ![](assets/block-quote-learning-content.png){width="650" align="left"}
+  ![](assets/insert-tab-lc.png)
 
-- **Blocs de code :** ajoute un bloc de code à votre contenu.
+  Pour ajouter, supprimer et changer la disposition des onglets (onglets verticaux ou onglets horizontaux), utilisez la section **Propriétés du contenu** dans le panneau de droite.
+- **Retourner la carte :** ajoute une carte interactive à votre contenu qui se retourne pour afficher des informations supplémentaires. Chaque carte comporte deux côtés : avant et arrière, ce qui permet aux élèves d’explorer les informations de manière attrayante.  Pour insérer une carte Flip, placez votre curseur à l&#39;emplacement souhaité et accédez à **Insérer > Widget > Carte Flip**, qui ajoute un conteneur Carte Flip à votre contenu. Vous pouvez ensuite ajouter un titre et une image facultative au recto et saisir le contenu correspondant au verso.
 
-  ![](assets/code-block-learning-content.png){width="650" align="left"}
+  ![](assets/insert-flip-card-lc.png)
 
-- **Iframes :** insérez un iframe dans le contenu pour incorporer des pages web externes ou des ressources interactives. Vous pouvez configurer les propriétés de l’iframe à l’aide du panneau **Propriétés du contenu**, notamment l’URL source, la largeur, la hauteur, l’alignement et le titre. Vous pouvez afficher le contenu ajouté à l’iframe en passant en mode **Aperçu** comme illustré ci-dessous.
+  Pour ajouter ou supprimer des cartes, ou modifier leur disposition, utilisez la section **Propriétés du contenu** dans le panneau de droite.
+- **Cliquer pour afficher :** insère dans votre contenu un widget interactif qui masque le contenu jusqu’à ce que les élèves cliquent pour l’afficher. Cela permet de réduire l’encombrement et d’encourager l’exploration. Insérez le widget en plaçant le curseur à l’emplacement souhaité, puis en sélectionnant **Insérer > Widget > Cliquer pour afficher**. Une fois inséré, indiquez le titre de l’en-tête du widget et définissez le contenu masqué qui s’affiche lorsque les élèves interagissent.
 
-  Vue **Auteur** :
+  ![](assets/insert-click-to-reveal-lc.png)
 
-  ![](assets/iframe-learning-content.png){width="650" align="left"}
-
-
-  Mode **Aperçu** :
-
-  ![](assets/iframe-learning-content-preview.png){width="650" align="left"}
-
-- **Champ de saisie :** ajoutez un champ de saisie de texte ainsi qu’un bouton à votre contenu. Vous pouvez utiliser cette combinaison pour capturer les entrées utilisateur et déclencher des actions spécifiques. Un bouton de lecture est ajouté au contenu, comme illustré ci-dessous.
-
-  ![](assets/button-learning-content.png){width="650" align="left"}
-
-- **Plus d’options :** vous disposez d’options supplémentaires pour améliorer votre contenu d’apprentissage, notamment l’insertion d’une ligne horizontale, d’un saut de ligne, d’une zone de texte, d’une zone de texte positionnée et d’HTML incorporées.
-
-  ![](assets/more-options-learning-content.png){width="650" align="left"}
+  Pour ajouter ou supprimer le widget, ou gérer l’orientation du widget, utilisez la section **Propriétés du contenu** dans le panneau de droite.

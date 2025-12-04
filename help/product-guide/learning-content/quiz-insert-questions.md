@@ -4,9 +4,9 @@ description: Découvrez comment insérer des questions dans un quiz dans la form
 feature: Authoring
 role: User
 exl-id: dff38476-c078-4970-b967-05a902430015
-source-git-commit: 40c12185223cdc35c069d44ceb66a38cecacf84f
+source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Pour insérer des questions dans un quiz, procédez comme suit :
 
-1. Sélectionnez le type de question souhaité dans le menu déroulant **Questions** de la barre d’outils. Selon vos besoins, vous pouvez ajouter des questions à l’aide de l’un des trois formats disponibles : Vrai ou Faux, Correction simple et Correction multiple, comme illustré ci-dessous.
+1. Sélectionnez le type de question souhaité dans le menu déroulant **Questions** de la barre d’outils. Selon vos besoins, vous pouvez ajouter des questions en utilisant l’un des quatre formats disponibles : Vrai ou Faux, Correction simple, Correction multiple et Correspondance comme illustré ci-dessous. Pour plus d’informations, consultez la section [Types de questions](#question-types).
 
    ![](assets/question-types.png){width="650" align="left"}
 
@@ -48,3 +48,28 @@ Pour supprimer une question ou une option spécifique d’un quiz, procédez com
 1. Dans le menu contextuel, sélectionnez **Supprimer la question** (pour supprimer la question entière) ou **Supprimer option** (pour supprimer uniquement l’option sélectionnée).
 
 ![](assets/delete-options-lc.png){width="650" align="left"}
+
+## Types de questions
+
+Les types de questions suivants sont pris en charge dans un quiz :
+
+- **Correction unique** : question avec plusieurs options pour laquelle une seule réponse est correcte.
+
+  ![](assets/single-correct.png){width="650" align="left"}
+
+- **Vrai/Faux** : question basée sur des instructions où les élèves choisissent s’il s’agit de Vrai ou Faux.
+
+  ![](assets/true-false.png){width="650" align="left"}
+
+
+- **Correction multiple** : question avec plusieurs options pour laquelle plusieurs réponses peuvent être correctes.
+
+  ![](assets/multi-correct.png){width="650" align="left"}
+
+- **Correspondre aux éléments suivants** : permet aux élèves de faire correspondre des éléments de deux listes afin de former des paires correctes. Vous pouvez ajouter de nouveaux ensembles d’options à partir du panneau **Propriétés du contenu**. Pour augmenter la complexité, vous pouvez supprimer une option de la première liste et inclure une correspondance supplémentaire dans la colonne Correspondance . Cela crée un élément de difficulté en exigeant des élèves qu’ils réfléchissent de manière critique à l’option qui n’a pas de paire directe.
+
+  ![](assets/match-the-following.png){width="650" align="left"}
+
+  Dans la sortie publiée, la question **Faire correspondre le suivant** s’affiche avec un menu déroulant pour chaque élément, ce qui vous permet de sélectionner la correspondance appropriée parmi les options disponibles.
+
+  ![](assets/question-type-publishing.png){width="650" align="left"}

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 42a7ba69d192815a4d21e6687bed8950d3bf8c7d
 workflow-type: tm+mt
-source-wordcount: '2418'
+source-wordcount: '2427'
 ht-degree: 10%
 
 ---
@@ -135,7 +135,7 @@ ht-degree: 10%
             - [Instructions de mise à niveau](./release-info/upgrade-instructions-4-6-0-sp2.md)
          - Version 4.6.0 SP1 {#460-sp1-release}
             - [Correction de problèmes](./release-info/fixed-issues-4-6-0-sp1.md)
-            - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-4-6-0-sp1.md)
+            - [ Instructions de mise à niveau ](./release-info/upgrade-instructions-4-6-0-sp1.md)
          - Version 4.6.0 {#460-release}
             - [Nouveautés](./release-info/whats-new-4-6.md)
             - [Correction de problèmes](./release-info/fixed-issues-4-6-0.md)
@@ -162,13 +162,13 @@ ht-degree: 10%
                - [Notes de mise à jour de la version 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notes de mise à jour 4.2](./release-info/release-notes-4-2.md)
          - [Notes de mise à jour 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notes de mise à jour d’4.0.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notes de mise à jour d’3.8.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - Notes de mise à jour d’[4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - Notes de mise à jour d’[3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guide de l’utilisateur (nouvelle interface utilisateur) {#user-guide}
    - Présentation {#about-aemg}
       - [À propos  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - Fonctionnalités [!DNL AEM Guides] et clés {#aemg-works-features}
-         - [Fonctionnement  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+         - [Fonctionnement  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
          - [Fonctionnalités [!DNL AEM Guides] clés](./user-guide/intro-dxml-features.md)
    - Page d’accueil {#home-page}
       - [Expérience de la page d’accueil [!DNL AEM Guides]](./user-guide/intro-home-page.md)
@@ -326,13 +326,14 @@ ht-degree: 10%
             - [Modifier le sujet](./learning-content/edit-content.md)
             - [Ajouter des blocs de création de base](./learning-content/lc-basic-blocks.md)
             - [Utilisation de widgets interactifs](./learning-content/lc-widgets.md)
+            - [Autres options du menu Insertion](./learning-content/lc-other-insert-options.md)
             - [Utiliser des styles intégrés](./learning-content/lc-inline-styles.md)
          - Créer et gérer un quiz {#quiz}
             - [Quiz overview](./learning-content/quiz-overview.md)
             - [Créer un quiz](./learning-content/create-quiz.md)
             - [Modifier le quiz](./learning-content/edit-quiz.md)
             - [Insérer des questions dans un quiz](./learning-content/quiz-insert-questions.md)
-            - [&#x200B; Propriétés du quiz &#x200B;](./learning-content/quiz-properties.md)
+            - [ Propriétés du quiz ](./learning-content/quiz-properties.md)
             - Banque de questions {#question-bank}
                - [Créer une banque de questions](./learning-content/create-qb.md)
                - [Insérer des questions depuis la banque de questions](./learning-content/insert-questions.md)
@@ -352,6 +353,7 @@ ht-degree: 10%
          - [Configuration des profils de dossier](./lc-config-guide/lc-folder-profile.md)
          - [Bonnes pratiques pour configurer la structure de dossiers](./lc-config-guide/best-practices-folder-structure.md)
          - [Configurer d’autres paramètres](./lc-config-guide/lc-other-settings.md)
+         - [Mesures clés SCORM](./lc-config-guide/learning-course-parameters.md)
       - Tutoriels vidéo {#lc-video}
          - [Workflow de création](./lc-video-tutorials/author-workflow.md)
          - [Workflow de l’administrateur](./lc-video-tutorials/admin-workflow.md)
@@ -364,7 +366,7 @@ ht-degree: 10%
       - Résolution des problèmes {#troubleshooting}
          - [Timeout de session](./user-guide/session-timeout-prompt.md)
 - Guide de l’utilisateur (ancienne interface utilisateur) {#user-guide-old-ui}
-   - [Présentation d’AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Présentation d’AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation et configuration {#install-guide}
    - On-Premise {#on-prem-ig}
       - [Notions de base sur site](./install-guide/introduction.md)
