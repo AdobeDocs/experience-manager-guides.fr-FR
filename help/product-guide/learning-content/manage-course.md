@@ -31,7 +31,7 @@ Pour ajouter du contenu à votre cours, procédez comme suit :
    - **Groupe** : un groupe d’apprentissage permet d’organiser les rubriques connexes telles que les chapitres, les rubriques et d’autres modules dans un ordre logique, ce qui permet de créer une hiérarchie claire qui facilite la gestion et la réutilisation des ressources de formation.
 3. Sélectionnez **Créer**.
 
-Le contenu sélectionné est créé et ajouté au cours. Pour une présentation vidéo, reportez-vous à la [ ](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)Ajouter du nouveau contenu à un cours![](assets/Smock_VideoCheckedOut_18_N.svg).
+Le contenu sélectionné est créé et ajouté au cours. Pour une présentation vidéo, reportez-vous à la [&#x200B; &#x200B;](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)Ajouter du nouveau contenu à un cours![](assets/Smock_VideoCheckedOut_18_N.svg).
 
 ## Ajouter du contenu existant
 
@@ -50,7 +50,7 @@ Le contenu du cours sélectionné est ajouté au cours à partir du référentie
 >
 >Vous pouvez également utiliser l’option **Ajouter un fichier existant** > **Fichier (fichier compressé de ressources uniquement)** pour inclure un fichier zip qui est décompressé et intégré à la structure de dossiers de la sortie SCORM finale. Cela permet de rationaliser le conditionnement des ressources lors de la publication du cours.
 
-Pour obtenir un aperçu vidéo, consultez la [ ](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)Ajouter du contenu existant à un cours![](assets/Smock_VideoCheckedOut_18_N.svg) .
+Pour obtenir un aperçu vidéo, consultez la [&#x200B; &#x200B;](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)Ajouter du contenu existant à un cours![](assets/Smock_VideoCheckedOut_18_N.svg) .
 
 ## Supprimer le contenu
 
@@ -58,7 +58,7 @@ Vous pouvez supprimer n’importe quel sujet du cours en sélectionnant le menu 
 
 ![](assets/remove-learning-content.png)
 
-Pour une présentation vidéo, reportez-vous à la [ ](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)Supprimer le contenu du cours![](assets/Smock_VideoCheckedOut_18_N.svg) .
+Pour une présentation vidéo, reportez-vous à la [&#x200B; &#x200B;](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)Supprimer le contenu du cours![](assets/Smock_VideoCheckedOut_18_N.svg) .
 
 
 ## Créer des versions de cours
@@ -83,7 +83,7 @@ L’option **Afficher** détermine l’affichage des rubriques. Vous pouvez choi
 
 ![](assets/course-display-settings.png)
 
-Pour une présentation vidéo, reportez-vous à la [ ](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)Afficher les paramètres![](assets/Smock_VideoCheckedOut_18_N.svg).
+Pour une présentation vidéo, reportez-vous à la [&#x200B; &#x200B;](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)Afficher les paramètres![](assets/Smock_VideoCheckedOut_18_N.svg).
 
 ## Créer une tâche de révision
 
