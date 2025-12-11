@@ -3,9 +3,9 @@ title: Autres options du menu Insertion
 description: Découvrez les options du menu d’insertion que vous pouvez utiliser dans le contenu de formation.
 feature: Authoring
 role: User
-source-git-commit: 1fe46636a82b87b65fb5b29e7282636e7dec2358
+source-git-commit: e31f7744d4c01a2924a710f547375b1b497163ee
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -48,13 +48,13 @@ Les autres options disponibles dans le menu Insertion de la barre d&#39;outils d
   > La modification ou la création de contenu H5P n’est pas prise en charge dans Adobe Experience Manager Guides. Préparez votre package H5P en externe avant le chargement.
 
 
-- **Équation mathématique :** insère des équations MathML dans votre contenu. Vous pouvez créer une équation MathML et sélectionner **Insérer** pour l&#39;ajouter à votre document.
+- **Équation MathML :** insère des équations MathML dans votre contenu. Vous pouvez créer une équation MathML et sélectionner **Insérer** pour l&#39;ajouter à votre document.
 
   ![](./assets/insert-mathml.png){width="350" align="left"}
 
-  L&#39;équation est insérée avec un arrière-plan gris clair. Vous pouvez à tout moment mettre à jour une équation en cliquant avec le bouton droit de la souris sur une équation existante et en sélectionnant **Modifier l’équation mathématique** dans le menu contextuel. Pour plus d’informations sur la validation des équations de MathML dans Experience Manager Guides, consultez la section [&#x200B; Validation des équations dans l’éditeur de MathML](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor).
+  L&#39;équation est insérée avec un arrière-plan gris clair. Vous pouvez à tout moment mettre à jour une équation en cliquant avec le bouton droit de la souris sur une équation existante et en sélectionnant **Modifier l’équation mathématique** dans le menu contextuel. Pour plus d’informations sur la validation des équations de MathML dans Experience Manager Guides, consultez la section [ Validation des équations dans l’éditeur de MathML](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor).
 
-- **Vérification des connaissances :** vous permet d’ajouter des questions dans les formats disponibles (Correction unique, Correction multiple, Vrai/Faux, Correspondance des éléments suivants ou insertion à partir de la banque de questions) à votre sujet pour révision et pour confirmer la compréhension sans notation ni compte rendu des performances. Ces questions reflètent les formats standard et excluent la notation, ce qui les rend idéales pour l’auto-évaluation et adaptées dans le cadre du contenu du cours ou d’un sujet avant un quiz ou une évaluation ultérieure, selon les besoins.
+- **Vérification des connaissances :** vous permet d’ajouter des questions dans les formats disponibles (Correction unique, Correction multiple, Vrai/Faux, Correspondance des éléments suivants ou insertion à partir de la banque de questions) à votre sujet pour révision et pour confirmer la compréhension sans notation. Ces questions reflètent les formats standard et excluent la notation, ce qui les rend idéales pour l’auto-évaluation et adaptées dans le cadre du contenu du cours ou d’un sujet avant un quiz ou une évaluation ultérieure, le cas échéant.
 
   ![](assets/knowledge-check-topic.png){width="650" align="left"}
 
