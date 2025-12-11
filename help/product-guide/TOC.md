@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: 42a7ba69d192815a4d21e6687bed8950d3bf8c7d
+source-git-commit: ad91c8f082fd3efbbd75d7df73f0bdce686bfc2a
 workflow-type: tm+mt
-source-wordcount: '2427'
+source-wordcount: '2429'
 ht-degree: 10%
 
 ---
@@ -135,7 +135,7 @@ ht-degree: 10%
             - [Instructions de mise à niveau](./release-info/upgrade-instructions-4-6-0-sp2.md)
          - Version 4.6.0 SP1 {#460-sp1-release}
             - [Correction de problèmes](./release-info/fixed-issues-4-6-0-sp1.md)
-            - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-4-6-0-sp1.md)
+            - [ Instructions de mise à niveau ](./release-info/upgrade-instructions-4-6-0-sp1.md)
          - Version 4.6.0 {#460-release}
             - [Nouveautés](./release-info/whats-new-4-6.md)
             - [Correction de problèmes](./release-info/fixed-issues-4-6-0.md)
@@ -162,13 +162,13 @@ ht-degree: 10%
                - [Notes de mise à jour de la version 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notes de mise à jour 4.2](./release-info/release-notes-4-2.md)
          - [Notes de mise à jour 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notes de mise à jour d’4.0.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notes de mise à jour d’3.8.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - Notes de mise à jour d’[4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - Notes de mise à jour d’[3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guide de l’utilisateur (nouvelle interface utilisateur) {#user-guide}
    - Présentation {#about-aemg}
       - [À propos  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - Fonctionnalités [!DNL AEM Guides] et clés {#aemg-works-features}
-         - [Fonctionnement  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+         - [Fonctionnement  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
          - [Fonctionnalités [!DNL AEM Guides] clés](./user-guide/intro-dxml-features.md)
    - Page d’accueil {#home-page}
       - [Expérience de la page d’accueil [!DNL AEM Guides]](./user-guide/intro-home-page.md)
@@ -313,6 +313,7 @@ ht-degree: 10%
    - Gérer le contenu de formation {#learning-training-content}
       - Guide de prise en main {#get-started}
          - Présentation {#intro-lc}
+            - [Notes de mise à jour](./release-info-lt/release-notes-lt-2025-12-v2.md)
             - [Présentation du contenu de formation](./learning-content/intro.md)
          - Configurer votre cours {#setup-course}
             - [Présentation du cours](./learning-content/course-overview.md)
@@ -333,7 +334,7 @@ ht-degree: 10%
             - [Créer un quiz](./learning-content/create-quiz.md)
             - [Modifier le quiz](./learning-content/edit-quiz.md)
             - [Insérer des questions dans un quiz](./learning-content/quiz-insert-questions.md)
-            - [&#x200B; Propriétés du quiz &#x200B;](./learning-content/quiz-properties.md)
+            - [ Propriétés du quiz ](./learning-content/quiz-properties.md)
             - Banque de questions {#question-bank}
                - [Créer une banque de questions](./learning-content/create-qb.md)
                - [Insérer des questions depuis la banque de questions](./learning-content/insert-questions.md)
@@ -366,7 +367,7 @@ ht-degree: 10%
       - Résolution des problèmes {#troubleshooting}
          - [Timeout de session](./user-guide/session-timeout-prompt.md)
 - Guide de l’utilisateur (ancienne interface utilisateur) {#user-guide-old-ui}
-   - [Présentation d’AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Présentation d’AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation et configuration {#install-guide}
    - On-Premise {#on-prem-ig}
       - [Notions de base sur site](./install-guide/introduction.md)
