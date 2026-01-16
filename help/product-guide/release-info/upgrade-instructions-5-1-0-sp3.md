@@ -1,10 +1,10 @@
 ---
 title: Notes de mise à jour | Instructions de mise à niveau vers Adobe Experience Manager Guides 5.1.0 Service Pack 3
 description: Découvrez la matrice de compatibilité et comment effectuer une mise à niveau vers la version 5.1.0 Service Pack 3 d’Adobe Experience Manager Guides.
-source-git-commit: 172599c2bd99f1779b04255aac5e7d505614b463
+source-git-commit: 7ffaa292f2323a9d4b166ab20d20c986752c1c1d
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 1%
+source-wordcount: '587'
+ht-degree: 3%
 
 ---
 
@@ -16,13 +16,12 @@ Pour obtenir la liste des problèmes qui ont été résolus dans cette version, 
 
 ## Matrice de compatibilité
 
-Cette section répertorie la matrice de compatibilité pour les applications logicielles prises en charge par Experience Manager Guides version 5.1.0.
+Cette section répertorie la matrice de compatibilité pour les applications logicielles prises en charge par Experience Manager Guides 5.1.0 Service Pack 3.
 
-### Adobe Experience Manager
-
-**5.1.0 Service Pack 3 UUID**
-
-Version 6.5 Service Pack 23, Service Pack 22 et Service Pack 21
+| AEM Guides | Version d’AEM | Pack de services |
+| --- | --- | --- |
+| 5.1.0 Service Pack 3 (UUID) | 6.5 LTS | 1 |
+| 5.1.0 Service Pack 3 (UUID) | 6.5 | 23, 22, 21 |
 
 Pour plus d&#39;informations, consultez la section [Exigences techniques](../install-guide/download-install-technical-requirements.md) dans le Guide d&#39;installation et de configuration On-Premise.
 
@@ -46,10 +45,11 @@ Pour plus d&#39;informations, consultez la section [Exigences techniques](../ins
 
 ### Nouvelle version du modèle de site AEM
 
+| AEM Guides | Version d’AEM | Version des composants | Version du site |
+|---|---|---| ---|
+| 5.1.0 Service Pack 3 UUID | 6.5 LTS | guides-components.all-1.4.1 | aemg-docs.all-1.2.0 |
+| 5.1.0 Service Pack 3 UUID | 6.5 | guides-components.all-1.4.0 | aemg-docs.all-1.2.0 |
 
-| Version des composants | Version du site |
-|---|---|
-| guides-components.all-1.4.0 | aemg-docs.all-1.2.0 |
 
 ## Conditions préalables
 
@@ -57,7 +57,13 @@ Conformément au comportement standard de DITA, l&#39;attribut scope=`external` 
 
 ## Mise à niveau vers la version 5.1.0 Service Pack 3 de Experience Manager Guides
 
-Vous pouvez facilement mettre à niveau votre version actuelle de Guides vers la version 5.1.0 du Service Pack 3. Avant de procéder à la mise à niveau vers la version 5.1.0 Service Pack 3 de Experience Manager Guides, vous devez tenir compte des points suivants :
+Vous pouvez facilement mettre à niveau votre version actuelle de Experience Manager Guides vers la version 5.1.0 du Service Pack 3 sur **AEM 6.5** ou **AEM 6.5 LTS**.
+
+>[!NOTE]
+>
+> Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, consultez la page [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+
+Avant de procéder à la mise à niveau vers la version 5.1.0 Service Pack 3 de Experience Manager Guides, vous devez tenir compte des points suivants :
 
 - Si vous utilisez la version 5.1.0 ou 5.1.x , vous pouvez directement effectuer la mise à niveau vers la version 5.1.0 du pack de services 3.
 - Si vous utilisez la version 4.6.0, 4.6.x, 5.0.0 ou 5.0.x, vous devez effectuer la mise à niveau vers la version 5.1.0.
@@ -65,7 +71,7 @@ Vous pouvez facilement mettre à niveau votre version actuelle de Guides vers la
 - Si vous utilisez la version 4.3.x, 4.2, 4.2.1 (correctif 4.2.1.3), 4.1 ou 4.1.x, vous devez effectuer la mise à niveau vers la version 4.4 avant d’effectuer la mise à niveau vers la version 5.0.0.
 - Si vous utilisez la version 4.0, vous devez effectuer la mise à niveau vers la version 4.2 avant d’effectuer la mise à niveau vers la version 4.3.x.
 - Si vous utilisez la version 3.8.5, vous devez effectuer la mise à niveau vers la version 4.0 avant de passer à la version 4.2.
-- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html).
+- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 >[!NOTE]
 >

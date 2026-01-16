@@ -2,10 +2,10 @@
 title: Notes de mise à jour | Correction de problèmes dans Adobe Experience Manager Guides 5.1.0 Service Pack 3
 description: Découvrez les correctifs de bugs dans la version 5.1.0 Service Pack 3 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 64d7e4f8028ade36c4fee9bb3407e70b10da6869
+source-git-commit: 82eb0e18eb285006c66b1fe2b6ecc3ca86fefe61
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 2%
+source-wordcount: '302'
+ht-degree: 1%
 
 ---
 
@@ -40,6 +40,12 @@ Découvrez les [instructions de mise à niveau pour la version 5.1.0 du pack de 
 ## Plateforme
 
 - L’utilisation de `scope="external"` pour une référence au contenu de gestion des ressources numériques dans une rubrique ou un mappage entraîne la substitution du chemin relatif de la ressource par un GUID. (GUIDES-35605)
+
+## Problème connu
+
+Adobe a identifié le problème connu suivant pour la version 5.1.0 du pack de services 3 :
+
+- Lorsque vous marquez une tâche de révision comme terminée à partir de la page Détails de la tâche, la tâche est terminée et fermée ; cependant, son statut continue de s’afficher comme **En cours** dans le tableau de bord de révision. (GUIDES-39375)
 
 
 
