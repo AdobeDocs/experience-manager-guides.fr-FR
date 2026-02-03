@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Dans ce package, nous avons également fourni quelques exemples de personnalisation (disponibles à l’adresse `guides_extension/src`) . Vous trouverez ci-dessous une brève description de chacun d’eux.
 
-1. [ Menu contextuel ](./examples/file_options.ts)
+1. [&#x200B; Menu contextuel &#x200B;](./examples/file_options.ts)
 Dans cet exemple, nous avons personnalisé le menu contextuel `file_options` afin de supprimer les options `Delete` et `Edit`, puis de remplacer l’option `Duplicate` par une option `Download`.
 
 2. [Panneau de gauche](./examples/left_panel_container.ts)

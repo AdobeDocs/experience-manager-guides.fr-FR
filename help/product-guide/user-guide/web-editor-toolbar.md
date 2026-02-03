@@ -34,7 +34,7 @@ Ces fonctionnalités sont expliquées en détail comme suit :
 
 **Modification des actions**
 
-Lorsque vous modifiez une rubrique dans l’éditeur, accédez aux différentes actions d’édition telles que **Couper** ou ***Ctrl***+***X*** , **Copier** ou ***Ctrl***+***C*** , **Undo** ou ***Ctrl***+***Z*** ou **Ctrl**+***Y*** et ***Delete*** **** présentes dans la liste déroulante Menu .
+Lorsque vous modifiez une rubrique dans l’éditeur, accédez aux différentes actions d’édition telles que **Couper** ou ***Ctrl***+***X*** , **Copier** ou ***Ctrl***+***C*** , **Undo** ou ***Ctrl***+***Z*** ou **Ctrl**+***Y*** et ***Delete*** **&#x200B;**&#x200B;présentes dans la liste déroulante Menu .
 
 
 **Rechercher et remplacer**
@@ -67,7 +67,7 @@ La fonction **Historique des versions** de l&#39;éditeur vous permet de vérifi
 
    La boîte de dialogue **Historique des versions** s’affiche.
 
-   ![ Boîte de dialogue Historique des versions ](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   ![&#x200B; Boîte de dialogue Historique des versions &#x200B;](images/version-history-dialog-web-editor.png){width="550" align="left"}
 
    *Prévisualiser les modifications dans les différentes versions d&#39;une rubrique.*
 
@@ -84,7 +84,7 @@ La fonction **Historique des versions** de l&#39;éditeur vous permet de vérifi
 
    Onglet **Métadonnées** : les métadonnées nouvellement ajoutées sont dans la police verte et les métadonnées supprimées sont dans la police rouge.
 
-   ![Différence de métadonnées pour les versions ](images/metadata-version-diff.png){width="550" align="left"}
+   ![Différence de métadonnées pour les versions &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
 
    *Comparez les métadonnées de différentes versions dans l’historique des versions.*
 
@@ -659,4 +659,4 @@ Si un fichier est verrouillé par un autre utilisateur, le fait de pointer sur l
 En tant qu’administrateur, vous avez également accès à la fonctionnalité **Forcer le déverrouillage** qui vous permet de déverrouiller le fichier verrouillé par d’autres utilisateurs. Utilisez cette fonctionnalité pour accéder aux droits de modification d&#39;un fichier verrouillé par d&#39;autres utilisateurs.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)

@@ -266,4 +266,4 @@ Vous pouvez afficher le rapport pour les liens rompus en procédant comme suit :
 1. Sélectionnez **Télécharger** pour télécharger l&#39;instantané de tous les liens rompus dans le plan DITA. Le fichier Excel contient les colonnes sélectionnées et les liens rompus filtrés dans la vue Liens rompus.
 
 
-**Rubrique parente :**[ Présentation des rapports](reports-intro.md)
+**Rubrique parente :**&#x200B;[&#x200B; Présentation des rapports](reports-intro.md)

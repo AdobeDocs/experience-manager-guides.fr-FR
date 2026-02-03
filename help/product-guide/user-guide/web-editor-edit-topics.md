@@ -70,7 +70,7 @@ Le panneau de droite est également rouvert et affiche la même vue qu’avant l
 
 Experience Manager Guides fournit l’indicateur de copie de travail qui indique si la \(copie de travail\) actuelle du fichier est synchronisée avec la version enregistrée ou non. Si vous avez apporté des modifications à votre copie actuelle et que vous n&#39;avez pas enregistré votre fichier, une marque \* apparaît avec le titre dans l&#39;onglet Fichier de la rubrique. Cet indicateur sert de rappel pour enregistrer vos modifications et disparaît lorsque vous enregistrez votre fichier.
 
-![ indicateur de copie de travail ](images/working-copy-text-update-indicator.png){width="550" align="left"}
+![&#x200B; indicateur de copie de travail &#x200B;](images/working-copy-text-update-indicator.png){width="550" align="left"}
 
 Experience Manager Guides indique également si la dernière copie \(working\) enregistrée du fichier est synchronisée avec la version enregistrée ou non. Si des modifications n&#39;ont pas été enregistrées entre la copie de travail et la dernière version enregistrée, une marque \* apparaît avec les informations de version affichées dans le coin supérieur droit de l&#39;onglet Fichier de la rubrique. Cet indicateur sert de rappel pour enregistrer et créer une version de votre copie \(working\) actuelle du fichier.
 
@@ -78,7 +78,7 @@ Experience Manager Guides indique également si la dernière copie \(working\) e
 >
 > Toute modification apportée aux champs de métadonnées disponibles sous [Propriétés du fichier](./web-editor-right-panel.md#file-properties) déclenche également l’indicateur de copie de travail dans la version du document.
 
-![ Indicateur de mise à jour de version ](images/version-update-indicator.png){width="550" align="left"}
+![&#x200B; Indicateur de mise à jour de version &#x200B;](images/version-update-indicator.png){width="550" align="left"}
 
 ## Accès aux fichiers verrouillés en modes Création et Source
 
@@ -120,4 +120,4 @@ Vous pouvez désactiver la fonction de recherche du fichier à l’aide de l’o
 >
 >À partir de la version 2025.11.0, le paramètre **Toujours localiser les fichiers dans le référentiel** est renommé **Toujours localiser les fichiers dans l’explorateur**. Pour la configuration On-Premise, elle reste disponible comme Toujours localiser les fichiers dans le référentiel jusqu’à la version 5.1 de Experience Manager Guides.
 
-**Rubrique parente :**[ Utiliser l’éditeur](web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur](web-editor.md)

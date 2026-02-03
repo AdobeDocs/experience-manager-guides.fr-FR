@@ -306,4 +306,4 @@ Une fois la tâche de révision mise à jour, les réviseurs et réviseuses reç
 Pour plus d’informations, voir [Présentation des notifications de révision](./review-understanding-review-notifications.md).
 
 
-**Rubrique parente :**[ Présentation de la révision](review.md)
+**Rubrique parente :**&#x200B;[&#x200B; Présentation de la révision](review.md)
