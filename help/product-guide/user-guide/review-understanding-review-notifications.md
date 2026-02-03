@@ -3,9 +3,10 @@ title: Comprendre les notifications de révision
 description: Découvrez les différents types de notifications de révision et leur déclenchement lors des différentes phases du workflow de révision dans Experience Manager Guides.
 feature: Reviewing
 role: User
-source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
+exl-id: dc452e7d-a317-4168-8015-9fa4a06666ea
+source-git-commit: 16688221c35e0b24c51cbff27953a93892cd0944
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,7 @@ Le tableau ci-dessous présente un aperçu des différents types de notification
 | Réviseur non affecté | Affectation annulée de la tâche de révision **Révision de la page d’accueil** | Non affecté par **auteur** | Affectation annulée de la tâche de révision **Révision de la page d’accueil** | L’affectation de vous a été annulée pour la tâche de révision **Révision de la page d’accueil** dans le projet **Réorganisation des WebDocs** par **Auteur**. | **Réviseur** |
 | Mention de balise | Mentionné dans le commentaire de tâche de révision pour **Révision de page d’accueil** | Mentionné par **auteur** | Mentionné dans le commentaire de tâche de révision pour **Révision de page d’accueil** | Vous avez été mentionné dans un commentaire sur la tâche **Révision de la page d’accueil** sous **Réorganisation des WebDocs** par **Auteur**. **Extrait de commentaire :** *« Veuillez mettre à jour la structure d’en-tête pour respecter les directives d’accessibilité. »* | **Utilisateur mentionné** |
 | Contenu mis à jour lors de la révision | Rubrique mise à jour dans la tâche de révision **Révision de la page d’accueil** | Mise à jour par **auteur** | Rubrique mise à jour dans la tâche de révision **Révision de la page d’accueil** | **Auteur** a mis à jour les versions de rubrique pour la tâche de révision **Révision de la page d’accueil**. Veuillez vérifier bien avant la date d’échéance **15 août 2025**. | **Réviseur** |
+| Rubriques ajoutées ou supprimées ou version mise à jour lorsqu’une tâche de révision est en cours avec un ou plusieurs réviseurs | Rubriques mises à jour dans la tâche de révision **Révision de la page d’accueil** | Mise à jour par **auteur** | Rubriques mises à jour dans la tâche de révision **Révision de la page d’accueil** | **Auteur** a mis à jour les versions de rubrique pour la tâche de révision **Révision de la page d’accueil**. Veuillez vérifier bien avant la date d’échéance **15 août 2025**. | **Réviseur** |
 
 
 Dans le tableau ci-dessus, le **texte en gras** représente des exemples de valeurs et est piloté par des variables prédéfinies qui peuvent être utilisées dans les notifications.
@@ -59,4 +61,4 @@ Pour obtenir une liste complète des variables prédéfinies et consulter la per
 
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de la révision](review.md)
+**Rubrique parente :**[ Présentation de la révision](review.md)

@@ -4,9 +4,9 @@ description: Découvrez le processus de fermeture d’une tâche de révision ou
 feature: Reviewing
 role: User
 exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 6f9265b341b4122e7f13a429cc2fecacb14ae39c
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Effectuez les étapes suivantes pour demander une révision ou fermer une tâche
 
    >[!NOTE]
    >
-   > Vous pouvez également ouvrir la tâche dans le tableau de bord de la tâche pour obtenir une vue plus complète. Pour ce faire, sélectionnez **Ouvrir dans le tableau de bord de la tâche** dans le menu Options d’une tâche de révision active. Les détails de la tâche s’ouvrent alors dans la console Projets.
+   > Vous pouvez accéder à la page **Détails de la tâche** pour gérer la tâche de révision. Pour ce faire, sélectionnez **Ouvrir les détails de la tâche** dans le menu Options d’une tâche de révision active. Cette action ouvre les détails de la tâche dans la console Projets.
 
-   ![](images/task-dashboard-selection-author-view.png)
+   ![](images/task-details-selection-author-view.png)
 3. Sélectionnez l’icône **Commentaires de la tâche** pour accéder aux commentaires au niveau de la tâche ajoutés par le réviseur ou la réviseuse et les réviser.
 
    ![](images/task-comments-selection-author-view.png).

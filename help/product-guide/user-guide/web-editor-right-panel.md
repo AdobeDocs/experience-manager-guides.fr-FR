@@ -4,10 +4,10 @@ description: Découvrez le panneau Droit dans l’éditeur. Découvrez l’inter
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: 05a44af6982a9a23e6bbddeaac52b0700e2e2170
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 1%
+source-wordcount: '1095'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ Vous pouvez accéder à la fonction **Propriétés du contenu** en sélectionnan
 
 1. Dans le panneau déroulant **Attribut**, sélectionnez l’attribut dans la liste déroulante et spécifiez une valeur d’attribut.  Sélectionnez ensuite **Ajouter**.
 
-   ![panneau attributs avec plusieurs attributs &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![panneau attributs avec plusieurs attributs ](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Pour modifier l’attribut, passez la souris dessus et sélectionnez **Modifier** ![icône-d’édition](images/edit_pencil_icon.svg).
 
@@ -76,8 +76,20 @@ La section Général vous donne accès aux fonctionnalités suivantes :
 
 - **Nom de fichier** : affiche le nom de fichier de la rubrique sélectionnée. Le nom du fichier est lié par un lien hypertexte à la page des propriétés du fichier sélectionné.
 - **ID** : affiche l’ID de la rubrique sélectionnée.
+- **Nombre de mots** : affiche le nombre total de mots dans la rubrique DITA correspondante. Les mots séparés par des espaces sont comptabilisés comme des mots individuels. Le décompte est actualisé chaque fois que vous enregistrez des modifications apportées à la rubrique. Pour les références croisées, seul le texte affiché est inclus dans le nombre, tandis que les clés sont exclues.
+
+  >[!NOTE]
+  >
+  > La fonctionnalité **Nombre de mots** a été introduite dans la version 2026.01.0 de Experience Manager Guides as a Cloud Service. Toute nouvelle rubrique DITA créée après la mise à niveau vers cette version contiendra automatiquement le nombre de mots calculé dans le panneau de droite. Pour les rubriques existantes, le [retraitement des ressources](./asset-processor.md) est requis.
+
 - **Balises** : il s’agit des balises de métadonnées de la rubrique. Elles sont définies dans le champ de balises de la page de propriétés. Vous pouvez les saisir ou les sélectionner dans la liste déroulante.  Les balises s’affichent sous la liste déroulante. Pour supprimer une balise, sélectionnez l’icône en forme de croix en regard de la balise.
-- **Modifier plus de propriétés** : vous pouvez modifier d’autres propriétés à partir de la page des propriétés du fichier.
+- **Modifier plus de propriétés** : vous pouvez modifier d’autres propriétés ( pour les fichiers qui ne sont pas en mode **Lecture seule**) à partir de la page Propriétés du fichier .
+
+  >[!NOTE]
+  >
+  > Tout ajout, suppression ou modification des propriétés de métadonnées (par défaut ou personnalisées) déclenche l’indicateur [copie de travail](./web-editor-edit-topics.md#working-copy-indicator) dans la version du document.
+
+
 - **Langue** : affiche la langue de la rubrique. Elle est définie à partir du champ langue de la page des propriétés.
 - **Créé le** : affiche la date et l’heure de création de la rubrique.
 - **Modifié le** : affiche la date et l’heure de modification de la rubrique.
@@ -141,4 +153,4 @@ Découvrez comment utiliser les fichiers Schematron dans Experience Manager Guid
 
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

@@ -5,10 +5,10 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
-source-git-commit: 32ed6c47f8193f955df8a60fc8cdc931b28fa7a4
+source-git-commit: 62221031e445ccdbf1f2567f38fa888ff52017d4
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 1%
+source-wordcount: '651'
+ht-degree: 0%
 
 ---
 
@@ -53,20 +53,29 @@ Suivez les étapes mentionnées ci-dessous pour traiter les ressources :
 
 1. Sélectionnez l’onglet **Nouveau processus** dans le coin supérieur droit de la fenêtre pour démarrer une nouvelle tâche de traitement.
 
+   La boîte de dialogue **Nouveau processus** s’ouvre.
+
    ![Nouveau-processeur-de-ressource-processus](images/new-asset-processor.png){width="350" align="left"}
 
-1. Sélectionnez le dossier que vous souhaitez traiter. Vous pouvez également sélectionner les dossiers (dans le dossier parent sélectionné) que vous souhaitez exclure ou ignorer.
+1. Fournissez les détails suivants dans la boîte de dialogue :
+
+   1. **Type de fonction** : sélectionnez **Traitement des ressources** dans la liste déroulante.
+   1. **Sélectionner des dossiers et des fichiers** : parcourez l’arborescence et sélectionnez un ou plusieurs dossiers et fichiers à traiter.
+   1. **Sélectionner les dossiers à ignorer** : si vous le souhaitez, sélectionnez les sous-dossiers dans le dossier parent sélectionné à exclure du traitement.
+   1. **Type de ressource** : dans la liste déroulante, sélectionnez le type de ressource spécifique à traiter (par exemple, rubrique DITA, plan DITA, Markdown, HTML/CSS, DITAVAL ou d’autres fichiers). Seul le type de ressource sélectionné est traité à partir du ou des dossiers que vous avez spécifiés précédemment.
+Exemple : la sélection d&#39;une rubrique DITA traite uniquement les rubriques DITA du dossier sélectionné et active le filtrage ciblé.
+   1. **Créé après/Créé avant** : appliquez des filtres de date pour traiter les ressources créées dans le délai spécifié.
 
    >[!NOTE]
    >
-   >Un seul dossier peut être sélectionné à la fois pour le traitement. Pour des opérations spécifiques, vous pouvez exclure plusieurs dossiers.
+   > Si un processus est déjà en cours d’exécution pour un dossier, vous ne pouvez pas démarrer un nouveau processus pour le même dossier tant que la tâche en cours n’est pas terminée.
 
-1. Sélectionnez **Créer**. Une fenêtre pop-up s’affiche **Succès et le Processus a été déclenché avec succès** comme illustré dans le fragment de code. La même chose se reflète dans la liste. Vous pouvez voir le statut de la tâche de traitement sur la fenêtre.
+1. Sélectionnez **Créer**. Une fenêtre pop-up s’affiche **Succès et le Processus a été déclenché avec succès**. Vous pouvez voir le statut de la tâche de traitement sur la fenêtre.
 
    ![Message-asset-processor](images/message-asset-processor.png){width="350" align="left"}
 
 
-## Options supplémentaires pour les tâches de traitement
+## Options supplémentaires pour les tâches de traitement des ressources
 
 D’autres options sont disponibles pour la tâche de traitement une fois qu’elle a été lancée. Vous pouvez accéder à ces options en pointant la souris sur l’ID d’exécution de la tâche. Vous trouverez ci-dessous des informations détaillées sur ces options :
 

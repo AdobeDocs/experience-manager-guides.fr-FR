@@ -4,7 +4,7 @@ description: Découvrez comment gérer les fichiers et les dossiers dans AEM Gui
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 14bbb3a055d8b528b6ed657be797c5fa96dd3e7e
+source-git-commit: 9e4fc7d482b6a37552d31ba2b07fae53018b4dc6
 workflow-type: tm+mt
 source-wordcount: '3263'
 ht-degree: 0%
@@ -104,7 +104,6 @@ Si vous sélectionnez l’option **Remplacer le ou les fichiers existants\(s\)**
 Si vous sélectionnez l’option **Déplacer le(s) fichier(s) vers un nouvel emplacement**, le fichier existant est déplacé vers l’emplacement actuel, puis il est remplacé par le fichier en cours de chargement. Le déplacement d’un fichier vers le nouvel emplacement n’interrompt aucune référence existante vers le fichier ou à partir de ce dernier.
 
 Avec remplacer ou déplacer les fichiers, si vous choisissez l&#39;option de création d&#39;une version à partir de la copie existante, une nouvelle version de la copie de travail du document est créée ; le nouveau fichier est remplacé à l&#39;emplacement existant ou déplacé vers le nouvel emplacement.
-
 
 ## Déplacer des fichiers en bloc {#move-files-bulk}
 
@@ -326,4 +325,4 @@ Si votre fichier multimédia a subi des modifications, vous pouvez rechercher et
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Gérer le contenu](authoring.md)
+**Rubrique parente :**[ Gérer le contenu](authoring.md)

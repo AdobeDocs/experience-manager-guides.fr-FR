@@ -4,9 +4,9 @@ description: Découvrez comment intégrer Workfront à Adobe Experience Manager 
 feature: Authoring
 role: User
 exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: a487c81c5a49ec2b8ec780ffd73cc38fcb693acc
 workflow-type: tm+mt
-source-wordcount: '2482'
+source-wordcount: '2481'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,10 @@ Grâce à l’intégration de Experience Manager Guides et d’Adobe Workfront, 
 
 * Planifiez, attribuez et suivez l’avancement de tâches et de projets individuels sans recourir à de multiples outils non intégrés.
 * Gérez tous les workflows Experience Manager Guides, notamment la création, la révision, la publication et la traduction de contenu plus efficacement.
-* Recevez des notifications par e-mail d’Adobe Workfront chaque fois que de nouvelles tâches sont affectées. Pour plus d’informations, consultez [Présentation des notifications](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/use-notifications/wf-notifications).
+* Recevez des notifications par e-mail d’Adobe Workfront chaque fois que de nouvelles tâches sont affectées. Pour plus d’informations, consultez [Présentation des notifications](https://experienceleague.adobe.com/en/docs/workfront/using/basics/use-notifications/wf-notifications).
 * Surveillez l’intégrité du projet à l’aide du tableau de bord intuitif d’Adobe Workfront qui offre des informations en temps réel sur les performances du projet.
 
-  Pour en savoir plus sur les puissantes fonctionnalités de gestion de projet d’Adobe Workfront activées pour les chefs de projet dans Experience Manager Guides, consultez la section [Planifier un projet](https://experienceleague.adobe.com/fr/docs/workfront/using/manage-work/projects/plan-a-project/plan-project).
+  Pour en savoir plus sur les puissantes fonctionnalités de gestion de projet d’Adobe Workfront activées pour les chefs de projet dans Experience Manager Guides, consultez la section [Planifier un projet](https://experienceleague.adobe.com/en/docs/workfront/using/manage-work/projects/plan-a-project/plan-project).
 
 ## Commencer
 
@@ -56,12 +56,12 @@ Pour accéder aux tâches Adobe Workfront, procédez comme suit :
 Les fonctionnalités suivantes sont disponibles sur la page des tâches de Workfront :
 
 * [Nouvelle tâche](#create-workfront-tasks) : permet de créer des tâches Adobe Workfront directement depuis l&#39;interface de Experience Manager Guides.
-* [Affecté(e) à vous &#x200B;](#managing-tasks-assigned-to-you) : répertorie toutes les tâches qui vous sont affectées et qui sont toujours actives.
+* [Affecté(e) à vous ](#managing-tasks-assigned-to-you) : répertorie toutes les tâches qui vous sont affectées et qui sont toujours actives.
 * [Créé par vous](#managing-tasks-created-by-you) : répertorie toutes les tâches que vous avez créées et qui sont toujours actives.
 
 La page Tâches de Workfront comprend également une ![](./images/Smock_LinkOut_18_N.svg) d’icône de lien vers l’extérieur qui, lorsqu’elle est sélectionnée, vous mène à la page du projet Adobe Workfront. Ici, vous pouvez afficher les détails de la tâche, afficher des commentaires, ajouter des commentaires et accéder à d’autres fonctionnalités en fonction des autorisations mappées avec votre compte Adobe Workfront.
 
-Pour plus d’informations, consultez [Aperçu des dates de projet, de tâche et d’événement dans Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/navigate/definitions-pti-dates).
+Pour plus d’informations, consultez [Aperçu des dates de projet, de tâche et d’événement dans Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/definitions-pti-dates).
 
 ### Création de tâches Workfront
 
@@ -88,7 +88,7 @@ Pour créer une tâche Adobe Workfront, procédez comme suit :
 
    La boîte de dialogue **Sélectionner le chemin** s’affiche. Sélectionnez un chemin d’accès à la ressource requise. Vous pouvez ajouter plusieurs ressources en sélectionnant les chemins d’accès valides dans l’explorateur de chemins d’accès. Les chemins sélectionnés seront conservés, ce qui vous permettra de les examiner ou de les modifier facilement lorsque vous rouvrez la boîte de dialogue.
 
-   * Pour les tâches de création, de publication et de traduction, vous êtes invité à sélectionner l’emplacement du fichier requis dans la boîte de dialogue **Sélectionner le chemin**. Le fichier sélectionné (rubrique pour la création et le mappage pour la publication et la traduction) est ajouté à la tâche dès que le bouton **Créer** est sélectionné.
+   * Pour les tâches de création, de publication et de traduction, vous êtes invité à sélectionner l’emplacement du fichier requis dans la boîte de dialogue **Sélectionner un fichier**. Le fichier sélectionné (rubrique pour la création et le mappage pour la publication et la traduction) est ajouté à la tâche dès que le bouton **Créer** est sélectionné.
 
      ![](./images/attach-asset.png){align="left"}
 
@@ -122,7 +122,7 @@ Une nouvelle tâche est créée et répertoriée sous l’onglet **Créée par v
 
 >[!NOTE]
 >
-> En tant que chef de projet, vous pouvez afficher cette nouvelle tâche dans votre tableau de bord Adobe Workfront, ainsi que d’autres détails importants sur la tâche. Pour plus d’informations, voir [Présentation des tableaux de bord](https://experienceleague.adobe.com/fr/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
+> En tant que chef de projet, vous pouvez afficher cette nouvelle tâche dans votre tableau de bord Adobe Workfront, ainsi que d’autres détails importants sur la tâche. Pour plus d’informations, voir [Présentation des tableaux de bord](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
 
 ### Gestion des tâches que vous avez créées
 
@@ -201,7 +201,7 @@ Effectuez les étapes suivantes pour travailler sur une tâche de création :
 
    *Tâche de création dans l’onglet Affecté à vous*
 
-   ![&#x200B; Création de tâches dans le widget Vos tâches &#x200B;](./images/authoring-task-access-your-tasks.png){align="left"}
+   ![ Création de tâches dans le widget Vos tâches ](./images/authoring-task-access-your-tasks.png){align="left"}
 
    *Tâche de création dans le widget Vos tâches*
 2. Pointez sur la tâche sur laquelle vous souhaitez travailler et sélectionnez  ![](images/Smock_OpenIn_18_N.svg)  pour l&#39;ouvrir. Vous pouvez également ouvrir la tâche en la sélectionnant simplement.
@@ -274,11 +274,11 @@ Effectuez les étapes suivantes pour travailler sur une tâche de traduction :
 
 1. Accédez à la tâche à partir de la section [Aperçu](#accessing-assigned-tasks-from-overview-section) ou de l’onglet [Affecté à vous](#managing-tasks-assigned-to-you).
 
-   ![Tâches de traduction dans l’onglet Affectées à vous &#x200B;](./images/translation-tasks-access.png){align="left"}
+   ![Tâches de traduction dans l’onglet Affectées à vous ](./images/translation-tasks-access.png){align="left"}
 
    *Tâche de traduction dans l’onglet Affecté à vous*
 
-   ![&#x200B; Tâches de traduction dans le widget Vos tâches &#x200B;](./images/translation-tasks-access-your-tasks.png){align="left"}
+   ![ Tâches de traduction dans le widget Vos tâches ](./images/translation-tasks-access-your-tasks.png){align="left"}
 
    *Tâche de traduction dans le widget Vos tâches*
 
@@ -308,7 +308,7 @@ Effectuez les étapes suivantes pour travailler sur une tâche de publication :
 
    *Publication de la tâche dans l’onglet Affecté à vous*
 
-   ![&#x200B; Publication de tâches dans le widget Vos tâches &#x200B;](./images/publishing-tasks-access-your-tasks.png){align="left"}
+   ![ Publication de tâches dans le widget Vos tâches ](./images/publishing-tasks-access-your-tasks.png){align="left"}
 
    *Publication de la tâche dans le widget Vos tâches*
 2. Pointez sur la tâche sur laquelle vous souhaitez travailler et sélectionnez  ![](images/Smock_OpenIn_18_N.svg)  pour l’ouvrir dans la **console Mappage**. Vous pouvez également ouvrir la tâche en la sélectionnant simplement.

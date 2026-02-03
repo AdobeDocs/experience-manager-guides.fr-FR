@@ -4,9 +4,9 @@ description: Traduisez votre contenu dans plusieurs langues à partir de l’éd
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
+source-git-commit: 4165535976082c1e8f28bf15f16999b6bfe5bf9a
 workflow-type: tm+mt
-source-wordcount: '2376'
+source-wordcount: '2446'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,7 @@ Avant d’effectuer les étapes de cette procédure, assurez-vous d’avoir cré
 
    **Aucun** sélectionnez cette option pour traduire les versions par défaut des fichiers. Cette option est sélectionnée par défaut.
 
-   **Utiliser la ligne de base :** vous pouvez sélectionner une ligne de base pour traduire votre projet. Sélectionnez **Utiliser la ligne de base** et choisissez une ligne de base créée sur la carte. Tous les fichiers faisant partie de la ligne de base sélectionnée sont affichés sur la page Traduction . Une fois votre contenu traduit, vous pouvez exporter la ligne de base traduite. Pour plus d&#39;informations sur l&#39;exportation de la ligne de base traduite, voir [&#x200B; Exporter la ligne de base traduite &#x200B;](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
+   **Utiliser la ligne de base :** vous pouvez sélectionner une ligne de base pour traduire votre projet. Sélectionnez **Utiliser la ligne de base** et choisissez une ligne de base créée sur la carte. Tous les fichiers faisant partie de la ligne de base sélectionnée sont affichés sur la page Traduction . Une fois votre contenu traduit, vous pouvez exporter la ligne de base traduite. Pour plus d&#39;informations sur l&#39;exportation de la ligne de base traduite, voir [ Exporter la ligne de base traduite ](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 
    **Utiliser la dernière version comme activée** : choisissez de filtrer la version des rubriques en fonction de leur date et heure de création. Lorsque vous sélectionnez une date et une heure, seules la dernière version des fichiers créés le ou avant la date et l’heure sélectionnées s’affichent.
 
@@ -84,7 +84,15 @@ Avant d’effectuer les étapes de cette procédure, assurez-vous d’avoir cré
    - **Nom de fichier** : nom du fichier source
    - **Type de fichier** : type du fichier source. Les options disponibles sont Carte, Rubrique et Image.
    - **Type de référence** : références directes ou indirectes.
-   - **Version** : numéro de version du fichier source
+   - **Version** : numéro de version du fichier source.
+
+     Si un fichier contient des modifications qui n’ont pas encore de version (c’est-à-dire qui ne sont pas enregistrées en tant que nouvelle version dans votre mappage), une icône d’information s’affiche en regard du fichier, indiquant la présence de modifications sans version.
+
+     ![](images/unversioned-changes-translation.png){width="650" align="left"}
+
+     >
+     >
+     > Pour afficher uniquement les fichiers contenant des modifications sans version, activez le paramètre **Afficher uniquement les ressources contenant des modifications sans version** dans le panneau Filtres. En outre, l’indicateur sans version n’est visible que lors de la traduction de fichiers en fonction de leur dernière version.
    - **Libellé de la version** : libellé de la version sélectionnée du fichier source
    - **Version cible** : numéro de version du fichier cible
    - **Document State** : état du fichier source. Les options disponibles sont Brouillon, En cours de révision et Révisé.
@@ -226,4 +234,4 @@ Pour effectuer la gestion des documents, Experience Manager Guides permet de sup
 Vous pouvez également désactiver les projets de traduction si vous souhaitez les utiliser ultérieurement. La suppression d’un projet supprime tous les fichiers et dossiers présents dans le projet. La désactivation d’un projet ne le supprime pas, mais le conserve dans le référentiel. Cependant, vous ne pouvez pas mettre à jour ni modifier un projet désactivé.  La suppression ou la désactivation d’un projet n’aura aucune incidence sur le statut de traduction des références.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

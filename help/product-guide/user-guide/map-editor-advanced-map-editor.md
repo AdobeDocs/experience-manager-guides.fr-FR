@@ -4,9 +4,9 @@ description: connaître les fonctionnalités de l’éditeur de cartes dans Adob
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 4cb5934fab1897bd36de33f2192ae2c4392c07eb
+source-git-commit: a487c81c5a49ec2b8ec780ffd73cc38fcb693acc
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2671'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Les options suivantes sont disponibles sur la barre d’outils en mode Mise en p
 
 **Référence de rubrique** - ![](images/topic-reference.svg)
 
-Affiche la boîte de dialogue de recherche de rubrique. Accédez au fichier de rubrique/mappage à insérer et choisissez **Sélectionner** pour l’ajouter au mappage.
+Affiche la boîte de dialogue Sélectionner un fichier. Accédez au fichier de rubrique/mappage à insérer et choisissez **Sélectionner** pour l’ajouter au mappage.
 
 ![](images/insert-topic-reference-dialog.png){align="left"}
 
@@ -146,7 +146,7 @@ En outre, vous pouvez afficher les icônes suivantes et effectuer les tâches as
 
 **Insérer avant/Insérer après** - ![](images/insert_element_before_icon.svg)/![](images/insert_element_after_icon.svg)
 
-Affiche la boîte de dialogue **Insérer un élément avant ou &#x200B;** Insérer un élément après. Sélectionnez l&#39;élément à insérer dans le mappage. Selon l&#39;opération, le nouvel élément est inséré avant ou après l&#39;élément courant dans la carte.
+Affiche la boîte de dialogue **Insérer un élément avant ou **Insérer un élément après. Sélectionnez l&#39;élément à insérer dans le mappage. Selon l&#39;opération, le nouvel élément est inséré avant ou après l&#39;élément courant dans la carte.
 
 **Element** - ![](images/Add_icon.svg)
 
@@ -260,15 +260,31 @@ En plus de pouvoir afficher la position de chaque fichier de rubrique dans une c
 
 Vous pouvez effectuer les tâches supplémentaires suivantes en mode Aperçu :
 
+**Ouvrir les rubriques pour modification**
+
 - Cliquez avec le bouton droit de la souris sur une rubrique, puis sélectionnez **Modifier** pour ouvrir la rubrique afin de la modifier dans un nouvel onglet.
 
   >[!NOTE]
   >
   > Si vous ne disposez pas de droits de modification, la rubrique s’ouvre en mode lecture seule.
 
+  ![](images/edit-topic-preview-mode.png){width="650" align="left"}
+
 - Accédez à la rubrique souhaitée en sélectionnant le titre de la rubrique dans l’arborescence de carte \(dans le panneau de gauche\).
 
 - La rubrique actuelle dans la prévisualisation de la carte est également mise en surbrillance dans l&#39;arborescence de la carte.
+
+**Actualiser les rubriques ou la carte**
+
+Lorsqu’une carte est ouverte en mode Aperçu et que vous revenez sur celle-ci à partir d’un autre onglet de l’éditeur, l’aperçu ne s’actualise pas automatiquement. Pour recharger l’aperçu du mappage, une actualisation manuelle est nécessaire.
+
+Vous pouvez utiliser la fonctionnalité Actualiser , disponible en mode Prévisualisation de la carte, de deux manières :
+
+- **Actualisation au niveau des cartes** : en cliquant sur le bouton **Actualiser**, vous actualisez l’aperçu de l’ensemble de la carte (y compris toutes les rubriques) et accédez à la première position de défilement pour une vue claire.
+  ![](images/refresh-map.png){width="650" align="left"}
+
+- **Actualisation au niveau du topic** : en sélectionnant **Actualiser le topic** dans le menu contextuel, vous actualisez ce topic spécifique tout en conservant la position de défilement inchangée.
+  ![](images/refresh-topic.png){width="650" align="left"}
 
 **Autres méthodes pour prévisualiser un fichier de mappage**
 

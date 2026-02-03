@@ -4,9 +4,9 @@ description: Découvrez le panneau de gauche dans l’éditeur. Découvrez l’i
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: f0ba8dce38a6eef5dedc8a81107c8e31ea6b26b3
 workflow-type: tm+mt
-source-wordcount: '9768'
+source-wordcount: '10929'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,7 @@ Sélectionnez l’icône **Filtrage avancé** ![icône de filtre avancé](images
 
 Vous pouvez afficher les options suivantes sous les onglets **Général** et **Avancé**.
 
-![&#x200B; boîte de dialogue filtre avancé &#x200B;](images/repository-filter-search-advanced.png) {width="650" align="left"}
+![ boîte de dialogue filtre avancé ](images/repository-filter-search-advanced.png) {width="650" align="left"}
 
 
 **Général**
@@ -228,18 +228,19 @@ Vous pouvez effectuer les actions suivantes à l’aide du menu Options disponib
     <summary> Procédure de création d’une rubrique </summary>
 
 Procédure à suivre pour créer une rubrique :
+
 1. Sélectionnez **Nouveau** > **Sujet**.
-2. La boîte de dialogue **Nouvelle rubrique** s&#39;affiche.
+1. La boîte de dialogue **Nouvelle rubrique** s&#39;affiche.
 
    ![](images/create-topic-dialog.png){width="300" align="left"}
 
-3. Dans la boîte de dialogue **Nouvelle rubrique**, fournissez les détails suivants :
+1. Dans la boîte de dialogue **Nouvelle rubrique**, fournissez les détails suivants :
    - Titre de la rubrique.
    - \(Facultatif\)* Nom de fichier de la rubrique. Le nom du fichier est suggéré automatiquement en fonction du titre de la rubrique. Si votre administrateur a activé les noms de fichiers automatiques en fonction du paramètre UUID, vous ne verrez pas le champ Nom .
    - Modèle sur lequel la rubrique sera basée. Par exemple, pour une configuration prête à l’emploi, vous pouvez choisir parmi les modèles Vierge, Concept, DITAVAL, Référence, Tâche, Rubrique, Markdown, Glossaire et Dépannage. Si un profil de dossier est configuré sur votre dossier, seuls les modèles de rubrique configurés sur le profil de dossier sont affichés.
 
    - Chemin d’accès où enregistrer le fichier de rubrique. Par défaut, le chemin du dossier actuellement sélectionné dans le référentiel s’affiche dans le champ Chemin .
-4. Sélectionnez **Créer**. La rubrique est créée au chemin d’accès spécifié. En outre, la rubrique est ouverte dans l’éditeur pour modification.
+1. Sélectionnez **Créer**. La rubrique est créée au chemin d’accès spécifié. En outre, la rubrique est ouverte dans l’éditeur pour modification.
 
 </details>
 
@@ -279,7 +280,7 @@ Procédure à suivre pour créer un dossier :
 
 </details>
 
-- **Télécharger Assets** : chargez un fichier depuis votre système local vers le dossier sélectionné dans le référentiel Adobe Experience Manager. Vous pouvez également glisser-déposer des fichiers de votre système local sur votre rubrique de travail actuelle. Ceci est très utile si vous souhaitez insérer des images de votre système local dans votre rubrique.
+- **Charger des ressources** : chargez un fichier depuis votre système local vers le dossier sélectionné dans le référentiel Adobe Experience Manager. Vous pouvez également glisser-déposer des fichiers de votre système local sur votre rubrique de travail actuelle. Ceci est très utile si vous souhaitez insérer des images de votre système local dans votre rubrique.
 
   ![](images/upload-assets.png){width="300" align="left"}
 
@@ -289,6 +290,35 @@ Procédure à suivre pour créer un dossier :
 
   ![](images/uuid-in-source-upload-image_cs.png){align="left"}
 
+  Une fois le chargement terminé, la boîte de dialogue de confirmation suivante s’affiche :
+
+  ![](images/upload-successful.png)
+
+  <details>
+
+  <summary>Gestion des caractères non valides dans les noms de fichier</summary>
+
+  Si le nom de fichier de la ressource en cours de chargement contient des caractères non valides (par exemple * / : [\] | # % { } ?), les scénarios suivants peuvent se produire :
+
+   - **Chargement partiel** : indique qu’une ou plusieurs ressources chargées contiennent des caractères non valides dans leur nom de fichier.
+
+     ![](images/partial-asset-upload.png)
+
+   - **Échec du chargement** : indique que le nom de toutes les ressources en cours de chargement contient des caractères non valides.
+
+     ![](images/upload-asset-failed.png)
+
+  Pour résoudre ces conflits, supprimez tous les caractères non valides des noms de fichier des ressources, puis chargez-les à nouveau dans le référentiel.
+
+  </details>
+
+- **Actualiser** : obtenez une nouvelle liste de fichiers et de dossiers du référentiel.
+- **Réduire** : réduisez le dossier sélectionné dans le référentiel.
+
+  >[!NOTE]
+  >
+  > Utilisez l’icône **\>** en regard d’un dossier pour le développer.
+
 - **Rechercher des fichiers dans le dossier** : déplace le focus vers la recherche de référentiel dans laquelle vous pouvez saisir le terme de recherche. La recherche s’effectue sous le dossier sélectionné dans le référentiel. Vous pouvez également appliquer un filtre pour renvoyer les fichiers DITA, les fichiers image ou les deux.
 
   ![](images/find-files-in-folders-repo-view_cs.png){width="300" align="left"}
@@ -297,15 +327,9 @@ Procédure à suivre pour créer un dossier :
 
   ![](images/uuid-repo-search-image-topic-file_cs.png){width="300" align="left"}
 
-- **Réduire** : réduisez le dossier sélectionné dans le référentiel.
-
-  >[!NOTE]
-  >
-  > Utilisez l’icône **\>** en regard d’un dossier pour le développer.
-
 - **Ajouter aux collections** : ajoute le dossier sélectionné aux favoris. Vous pouvez choisir de l’ajouter à une collection existante ou nouvelle.
 
-- **Actualiser** : obtenez une nouvelle liste de fichiers et de dossiers du référentiel.
+- **Retraiter les ressources** : déclenche le traitement de toutes les ressources du dossier.
 - **Afficher dans l’interface utilisateur d’Assets** : afficher le contenu du dossier dans l’interface utilisateur d’Assets.
 
 **Options d’un fichier**
@@ -324,6 +348,7 @@ Accédez aux différentes options du menu Options selon que vous sélectionnez u
 - Télécharger en tant que PDF
 - Ajouter à
 - Copier
+- Retraiter la ressource
 - Afficher dans l’interface utilisateur d’Assets
 - Propriétés
 
@@ -334,17 +359,24 @@ Les différentes options du menu Options sont expliquées ci-dessous :
 
 - **Modifier** : ouvrez le fichier pour le modifier. Dans le cas d’un fichier .ditamap/.bookmap, il est ouvert pour modification dans l’[Éditeur de carte](map-editor-advanced-map-editor.md#).
 
-- **Dupliquer** : utilisez cette option pour créer un doublon ou une copie du fichier sélectionné. Vous avez également la possibilité de renommer le fichier en double dans l’invite de ressources en double. Par défaut, le fichier est créé avec un suffixe \(comme nom_fichier\_1.extension\). Le titre du fichier reste identique au fichier source et le nouveau fichier commence par la version 1.0. Toutes les références, balises et métadonnées sont copiées alors que les lignes de base ne sont pas copiées dans le fichier en double.
+- **Modifier dans Oxygen** : sélectionnez cette option pour modifier le fichier sélectionné dans le plug-in Oxygen Connector. Le fichier est ouvert pour modification.
+
+  >[!NOTE]
+  >
+  >Contactez votre équipe du succès client pour que cette fonctionnalité soit activée dans l’environnement. Cette fonctionnalité n’est pas activée dans le cadre de la prise en charge prête à l’emploi. Pour plus d&#39;informations, consultez la section [Configurer l&#39;option à modifier dans Oxygen](../cs-install-guide/conf-edit-in-oxygen.md) du Guide d&#39;installation et de configuration.
+
+- **Ouvrir dans le tableau de bord des cartes** : si le fichier sélectionné est un plan DITA, cette option ouvre le tableau de bord des cartes.
+
+- **Ouvrir dans la console de mappage** : si le fichier sélectionné est un mappage DITA, cette option ouvre la console de mappage.
+
 - **Verrouiller** : verrouillez le fichier sélectionné pour le modifier. Si le fichier est verrouillé, le fait de placer le pointeur de la souris sur l’icône de verrouillage indique **Verrouillé par vous** si vous l’avez verrouillé, ou **Verrouillé par [nom d’utilisateur]** si un autre utilisateur l’a verrouillé.
 
 - **Aperçu** : obtenez un aperçu rapide du fichier (.dita, .xml, audio, vidéo ou image) sans l’ouvrir. Vous pouvez redimensionner le volet d’aperçu. Si le contenu contient des `<xref>` ou des `<conref>`, vous pouvez les sélectionner pour les ouvrir dans un nouvel onglet. Le titre du fichier s’affiche dans la fenêtre. Si aucun titre n’est présent, le nom du fichier s’affiche. Pour fermer le panneau **Aperçu**, vous pouvez sélectionner l’icône de fermeture ou sélectionner un emplacement en dehors du panneau.
 
   ![](images/quick-preview_cs.png){align="left"}
 
-- **Renommer** : utilisez cette option pour renommer le fichier sélectionné. Saisissez le nom du nouveau fichier dans la boîte de dialogue **Renommer la ressource**.
-   - Vous pouvez renommer un fichier de n’importe quel type.
-   - Vous ne pouvez pas modifier l’extension d’un fichier.
-   - Deux fichiers ne peuvent pas porter le même nom. Par conséquent, vous ne pouvez pas renommer un fichier avec un nom qui existe déjà. Une erreur s’affiche.
+
+- **Dupliquer** : utilisez cette option pour créer un doublon ou une copie du fichier sélectionné. Vous avez également la possibilité de renommer le fichier en double dans l’invite de ressources en double. Par défaut, le fichier est créé avec un suffixe \(comme nom_fichier\_1.extension\). Le titre du fichier reste identique au fichier source et le nouveau fichier commence par la version 1.0. Toutes les références, balises et métadonnées sont copiées alors que les lignes de base ne sont pas copiées dans le fichier en double.
 
 - **Déplacer vers** : utilisez cette option pour déplacer le fichier sélectionné vers un autre dossier.
    - Vous pouvez saisir le nom du dossier de destination ou choisir **Sélectionner le chemin** pour sélectionner le dossier de destination.
@@ -377,6 +409,11 @@ Les différentes options du menu Options sont expliquées ci-dessous :
   Le changement de nom ou le déplacement d’un fichier n’interrompt pas les références existantes à partir du fichier ou vers le fichier, car chaque fichier a un UUID unique.
   </details>
 
+- **Renommer** : utilisez cette option pour renommer le fichier sélectionné. Saisissez le nom du nouveau fichier dans la boîte de dialogue **Renommer la ressource**.
+   - Vous pouvez renommer un fichier de n’importe quel type.
+   - Vous ne pouvez pas modifier l’extension d’un fichier.
+   - Deux fichiers ne peuvent pas porter le même nom. Par conséquent, vous ne pouvez pas renommer un fichier avec un nom qui existe déjà. Une erreur s’affiche.
+
 - **Supprimer** : utilisez cette option pour supprimer le fichier sélectionné. Une invite de confirmation s’affiche avant la suppression du fichier.
 
    - Une invite de confirmation s’affiche avant la suppression du fichier.
@@ -402,35 +439,30 @@ Les différentes options du menu Options sont expliquées ci-dessous :
   >
   > Vous pouvez également supprimer le fichier sélectionné de la même manière à l’aide de la touche Supprimer du clavier.
 
-- **Copier** : vous pouvez choisir parmi les options suivantes :
-
-   - **Copier l’UUID** : copiez l’UUID du fichier sélectionné dans le presse-papiers.
-
-   - **Copier le chemin d’accès** : copiez le chemin d’accès complet du fichier sélectionné dans le Presse-papiers.
+- **Générer** : utilisez cette option pour publier une carte ou des rubriques d’une carte sur une page Sites, un fragment de contenu ou un fragment d’expérience.
 
 - **Ajouter à** : vous pouvez choisir parmi les options suivantes :
    - **Collections** : ajoute le fichier sélectionné aux collections. Vous pouvez choisir de l’ajouter à une collection existante ou nouvelle.
 
    - **Contenu réutilisable** : ajoute le fichier sélectionné à la liste Contenu réutilisable dans le panneau de gauche.
 
-- **Propriétés** : utilisez cette option pour ouvrir la page des propriétés du fichier sélectionné. Cette page de propriétés est également accessible à partir de l’interface utilisateur d’Assets en sélectionnant un fichier, puis en sélectionnant Icône Propriétés dans la barre d’outils.
+- **Copier** : vous pouvez choisir parmi les options suivantes :
 
-- **Ouvrir dans le tableau de bord des cartes** : si le fichier sélectionné est un plan DITA, cette option ouvre le tableau de bord des cartes.
+   - **Copier l’UUID** : copiez l’UUID du fichier sélectionné dans le presse-papiers.
 
-- **Ouvrir dans la console de mappage** : si le fichier sélectionné est un mappage DITA, cette option ouvre la console de mappage.
+   - **Copier le chemin d’accès** : copiez le chemin d’accès complet du fichier sélectionné dans le Presse-papiers.
 
-- **Modifier dans Oxygen** : sélectionnez cette option pour modifier le fichier sélectionné dans le plug-in Oxygen Connector. Le fichier est ouvert pour modification.
-
-  >[!NOTE]
-  >
-  >Contactez votre équipe du succès client pour que cette fonctionnalité soit activée dans l’environnement. Cette fonctionnalité n’est pas activée dans le cadre de la prise en charge prête à l’emploi. Pour plus d&#39;informations, consultez la section [Configurer l&#39;option à modifier dans Oxygen](../cs-install-guide/conf-edit-in-oxygen.md) du Guide d&#39;installation et de configuration.
-
+- **Retraiter la ressource** : déclenche le traitement de la ressource sélectionnée.
 
 - **Afficher dans l’interface utilisateur d’Assets** : utilisez cette option pour afficher un aperçu d’un fichier .dita/.xml dans l’interface utilisateur d’Assets. Dans le cas d’un fichier .ditamap/.bookmap, tous les fichiers de rubrique de la carte sont affichés dans une seule vue page par page unifiée.
 
-- **Télécharger sous forme de PDF** : utilisez cette option pour générer la sortie PDF et la télécharger.
+- **Propriétés** : utilisez cette option pour ouvrir la page des propriétés du fichier sélectionné.
 
-- **Générer** : utilisez cette option pour publier une carte ou des rubriques d’une carte sur une page Sites, un fragment de contenu ou un fragment d’expérience.
+  Tout ajout, suppression ou modification des propriétés de métadonnées sur cette page (par défaut ou personnalisée) déclenche l’indicateur [copie de travail](./web-editor-edit-topics.md#working-copy-indicator) dans la version du document.
+
+  Vous pouvez également accéder à la page Propriétés à partir de l’interface utilisateur d’Assets en sélectionnant un fichier, puis en sélectionnant Icône Propriétés dans la barre d’outils.
+
+- **Télécharger sous forme de PDF** : utilisez cette option pour générer la sortie PDF et la télécharger.
 
 ## Explorateur
 
@@ -587,12 +619,19 @@ Par défaut, vous pouvez afficher les fichiers par titres. Pointez sur un fichie
 
 Pour ajouter un fichier DITA à votre panneau Contenu réutilisable, utilisez l&#39;une des méthodes suivantes :
 
-- Sélectionnez l’icône **+** en regard de Contenu réutilisable pour ouvrir la boîte de dialogue Parcourir le fichier . Sélectionnez le fichier à ajouter, puis sélectionnez **Ajouter** pour terminer le processus.
+- Sélectionnez l’icône **+** en regard de Contenu réutilisable pour ouvrir la boîte de dialogue **Sélectionner un fichier**.
+- Sélectionnez le fichier à ajouter, puis choisissez **Sélectionner**. Vous pouvez également rechercher des fichiers spécifiques à l’aide de l’option de recherche par filtre . Pour plus d’informations, consultez la section [Autres fonctionnalités de l’éditeur](./web-editor-other-features.md).
 
+
+
+  ![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
+
+  Vous pouvez également utiliser l’icône **Supprimer** pour désélectionner certains fichiers de l’aperçu.
+
+  ![](images/resusable-content-remove-preview.png){width="650" align="left"}
 - Dans la vue Référentiel, sélectionnez l’icône **Options** du fichier souhaité, puis choisissez **Ajouter à** > **Contenu réutilisable** dans le menu contextuel.
 
 - Cliquez avec le bouton droit de la souris sur l’onglet d’un fichier dans l’éditeur pour ouvrir le menu contextuel et sélectionnez **Ajouter à** > **Contenu réutilisable**.
-
 
 Une fois le fichier ajouté, vous pouvez afficher tous les éléments de contenu réutilisables du fichier dans le panneau Contenu réutilisable . Le contenu réutilisable s’affiche avec leur identifiant et leur nom d’élément.
 
@@ -952,7 +991,7 @@ Effectuez les étapes suivantes pour modifier la valeur :
 
 Vous pouvez également appliquer des valeurs à un attribut en sélectionnant plusieurs valeurs dans la liste déroulante.
 
-Vue Source **&#x200B;**
+Vue Source ****
 
 Vous pouvez également modifier les valeurs à partir de la liste déroulante de l’attribut dans la vue Source. La vue Source vous empêche également d’ajouter une valeur incorrecte.
 
@@ -1030,7 +1069,7 @@ Pour savoir comment créer des modèles personnalisés, consultez la section [Cr
 
 Dans Experience Manager Guides, vous pouvez ajouter et importer des citations et les appliquer à votre contenu. Vous pouvez ajouter ces citations à partir de n’importe quelle source de livres, de sites web et de revues.
 
-Pour plus d’informations, consultez la section [&#x200B; Ajouter et gérer des citations dans votre contenu &#x200B;](./web-editor-apply-citations.md).
+Pour plus d’informations, consultez la section [ Ajouter et gérer des citations dans votre contenu ](./web-editor-apply-citations.md).
 
 ## Variables de langue
 
@@ -1047,63 +1086,177 @@ Experience Manager Guides vous permet de créer et de gérer des variables pour 
 
 L’icône Rechercher et remplacer se trouve au bas du panneau de gauche. Le panneau Rechercher et remplacer vous permet de rechercher et de remplacer du texte dans les fichiers d’un mappage ou d’un dossier de votre référentiel. Vous pouvez effectuer des opérations de recherche et de remplacement sur toutes les rubriques d&#39;un mappage, y compris les rubriques des sous-mappages et des fichiers Markdown.
 
-![](images/map-find-replace.png){align="left"}
-
 Par défaut, vous pouvez afficher les fichiers par titres. Pointez sur un fichier pour afficher le titre du fichier et son chemin d’accès sous forme d’info-bulle.
 
 >[!NOTE]
 >
 > En tant qu’administrateur, vous pouvez également choisir d’afficher la liste des noms de fichier dans l’éditeur. Sélectionnez l’option **Nom de fichier** de la section **Configuration de l’affichage des fichiers de l’éditeur** dans **Préférences utilisateur**.
 
+La fonction Rechercher et remplacer peut être utilisée dans deux modes distincts, en fonction de vos besoins :
+
+- **En mode Source :** la recherche analyse non seulement le contenu visible, mais également le contenu source sous-jacent (structure XML, y compris les éléments, les balises et les valeurs d’attribut) de la chaîne recherchée. Ce mode permet d’assurer une recherche complète sur l’ensemble du contenu. Pour utiliser cette fonctionnalité, vous devez activer l’option **Utiliser le mode source** disponible dans le panneau Rechercher et remplacer .
+
+  >[!NOTE]
+  >
+  > La fonctionnalité **Utiliser le mode source** est disponible dans Experience Manager Guides as a Cloud Service version 2026.01.0 et pour la configuration On-Premise avec version 5.2. Pour utiliser cette fonctionnalité, vous devez d’abord indexer votre contenu en fonction de la configuration que vous utilisez.
+  > - **Pour les services cloud** : un déploiement d’index personnalisé doit être effectué. Pour plus d’informations, consultez [Déploiement d’un index personnalisé](/help/product-guide/cs-install-guide/custom-indexing.md). Une fois l’opération terminée, contactez votre équipe du succès client pour activer cette fonctionnalité.
+  > - **Pour On-Premise** : la réindexation du contenu existant est nécessaire avant que la fonctionnalité puisse être utilisée. Pour plus d’informations, consultez la section [Réindexation du contenu](/help/product-guide/install-guide/custom-indexing-prem.md). Une fois l’opération terminée, contactez votre équipe du succès client pour activer cette fonctionnalité.
+
+  ![](images/map-find-replace-with-source-mode.png){align="left"}
+
+<br>
+
 <details>
-    <summary> Effectuer une recherche globale et remplacer </summary>
+    <summary> Effectuer une recherche globale et remplacer par le mode Source</summary>
 
-
-Pour effectuer la recherche globale et le remplacement, procédez comme suit :
+Pour effectuer la recherche globale et remplacer par le mode Source, procédez comme suit :
 
 1. Ouvrez le panneau global **Rechercher et remplacer**.
-1. Sélectionnez la liste déroulante **Rechercher dans** et sélectionnez l’une des options suivantes pour effectuer la recherche.
-
-   - **Carte actuelle** : pour effectuer une recherche dans la carte actuellement ouverte.
-
-     >[!NOTE]
-     >
-     > Cette option s’affiche si vous avez déjà ouvert une carte à modifier.
+1. Activez l’option **Utiliser le mode source**.
+1. Sélectionnez la liste déroulante **Chemin d’accès** et sélectionnez l’une des options suivantes pour effectuer la recherche.
 
    - **Chemin** : pour effectuer une recherche sur le chemin sélectionné
-   - **Sélectionner une carte** : pour effectuer une recherche dans la carte sélectionnée
+   - **Map** : pour effectuer une recherche dans un mappage spécifique à partir du référentiel ou des collections.
+   - **Mappage actuel** : pour effectuer une recherche dans le mappage actuellement ouvert
 
-1. Vous pouvez utiliser la liste déroulante **Options** et choisir parmi les options suivantes :
+   ![](images/path-dropdown-source-mode.png){width="350" align="left"}
 
-   - **Verrouiller le fichier avant le remplacement** : sélectionnez cette option si vous souhaitez verrouiller automatiquement un fichier avant de remplacer le terme de recherche. Ce paramètre est plus pertinent si votre administrateur a activé la configuration pour verrouiller un fichier avant de le modifier. Lorsque le paramètre principal est activé, vous devez sélectionner cette option. Cela empêche la boîte de dialogue de verrouillage de fichier de vous inviter à verrouiller chaque fichier avant d’apporter une modification. Si vous ne sélectionnez pas cette option, une invite s’affiche avant l’ouverture d’un fichier en vue de le modifier.
+
+1. Saisissez la chaîne de recherche dans le champ **Rechercher**. Pour réduire les résultats, sélectionnez l’icône **Filtrer** à côté du champ Rechercher et sélectionnez les filtres suivants :
+
+   ![](images/find-filters-source-mode.png){width="350" align="left"}
+
+   - **Type de fichier** : sélectionnez le type de fichier ; **Rubriques** et **Cartes** où vous souhaitez effectuer une recherche dans le texte
+   - **État du document** : vous pouvez sélectionner un état de document dans les options disponibles. Les options d’état du document affichées sont dérivées des profils de dossier. Ils représentent l’ensemble combiné de tous les états de document possibles dans ces profils. Les états par défaut sont En cours de révision, Terminé, Brouillon, Approuvé, Modifier et Révisé.
+   - **Dernière modification** : filtrez le contenu en fonction de la date de modification. Sélectionnez une période dans le calendrier ou choisissez l’une des options de période suivantes :
+
+      - Au cours des 2 dernières heures
+      - La semaine dernière
+      - Le mois dernier
+      - L&#39;année dernière
+   - **Autres** : vous pouvez configurer les éléments suivants :
+      - **Balises** : filtrez le contenu en fonction des balises.
+      - **Recherche sensible à la casse** : permet de rechercher en s’assurant que les résultats correspondent à la casse exacte spécifiée.
+      - **Répertorier les fichiers verrouillés par d’autres utilisateurs** : affiche les fichiers actuellement verrouillés par d’autres utilisateurs et utilisatrices, empêchant les modifications tant que le verrouillage n’est pas désactivé.
+
+1. Appuyez sur la touche Entrée ou sélectionnez l’icône **Rechercher** pour effectuer la recherche.
+
+   ![](images/search-icon.png){width="350" align="left"}
+
+1. Sélectionnez un fichier dans la liste des résultats de la recherche. Le fichier s’ouvre dans la vue Source avec le terme recherché en surbrillance dans le contenu.
+
+1. Saisissez le terme à utiliser en remplacement dans le champ **Remplacer par**. Pour personnaliser la manière dont les remplacements sont appliqués, cliquez sur l’icône **Paramètres** en regard du champ et sélectionnez l’une des options disponibles.
+
+   - **Remplacer les fichiers déverrouillés** : sélectionnez cette option pour autoriser le remplacement dans les fichiers déverrouillés.
+
+   - **Créer une version après le remplacement** : sélectionnez cette option si vous souhaitez créer une nouvelle version de la rubrique dans laquelle vous choisissez de remplacer le texte. Vous pouvez également fournir des commentaires sur la version qui seront ajoutés avec chaque fichier mis à jour. Si vous ne sélectionnez pas cette option, les modifications sont enregistrées dans la version actuelle de la rubrique et aucune nouvelle version n&#39;est créée.
+
+   ![](images/replace-settings-source-mode.png){width="350" align="left"}
+
+
+1. Sélectionnez **Remplacer l’occurrence** pour remplacer la chaîne de recherche actuellement mise en surbrillance dans la rubrique ou sélectionnez les flèches supérieure et inférieure pour passer à l’occurrence suivante ou précédente du texte.
+
+   ![](images/replace-occurrence.png){width="350" align="left"}
+
+1. Sélectionnez **Tout remplacer** pour remplacer toutes les occurrences de la chaîne recherchée dans tous les fichiers recherchés par la chaîne de remplacement spécifiée en une seule fois. Une notification vous sera présentée une fois toutes les occurrences remplacées.
+
+   ![](images/replace-all.png){width="350" align="left"}
+
+   >[!NOTE]
+   >
+   >Pour activer le bouton **Tout remplacer**, l’administrateur de profils de dossiers ou l’administrateur système doit sélectionner l’option **Activer tout remplacer** sous l’onglet **Général** dans les paramètres de **Workspace** (apparaissant sous la forme **Paramètres** pour **Sur site**).
+
+1. Vous pouvez également pointer sur un fichier de la liste des résultats de recherche pour afficher l’icône **Tout remplacer dans le fichier** située à droite, qui vous permet de remplacer toutes les occurrences du terme dans un seul fichier.
+
+   >[!NOTE]
+   >
+   > L’icône **Supprimer** s’affiche également pour supprimer le fichier des résultats de la recherche. Les fichiers que vous supprimez sont retirés de la liste et le terme recherché n’y est pas remplacé.
+
+   ![](images/replace-all-in-file.png){width="350" align="left"}
+
+1. Une fois l’opération Remplacer tout terminée, un rapport CSV téléchargeable est généré, fournissant un instantané de toutes les actions de remplacement effectuées. Vous pouvez télécharger le rapport pour afficher des informations détaillées sur les opérations de remplacement, y compris le nombre d’occurrences remplacées avec succès, ainsi que des détails sur chacune d’elles, ainsi que les échecs et les raisons correspondantes. L’opération peut échouer pour certaines raisons spécifiques, telles que le verrouillage d’un fichier par un autre utilisateur, des erreurs de validation causées par des modifications apportées au fichier au cours de l’opération ou d’autres problèmes similaires.
+
+   ![](images/snapshot-replace-all.png){width="350" align="left"}
+
+Une seule opération de remplacement complet peut être effectuée à la fois dans l&#39;ensemble du système, et tant que l&#39;opération n&#39;est pas exécutée, vous verrez l&#39;état « Remplacer tout en cours ». Vous pouvez également abandonner l’opération de remplacement de tous les éléments entre les deux. Si vous abandonnez l’opération, vous recevrez une notification à ce sujet dans votre boîte de réception.
+
+![](images/replace-all-in-progress-source-mode.png){width="350" align="left"}
+
+</details>
+
+<br>
+
+- **Sans mode Source :** la recherche est limitée au texte affiché dans la vue Auteur et se concentre uniquement sur le contenu visible sans tenir compte du contenu source comme les éléments ou attributs XML. Ce mode est idéal pour des recherches rapides et axées uniquement sur le contenu.
+
+  ![](images/map-find-replace-without-source-mode.png){align="left"}
+
+<br>
+<details>
+    <summary> Exécution d’une recherche globale et remplacement sans mode Source</summary>
+
+
+Pour effectuer la recherche et le remplacement globaux sans le mode Source, procédez comme suit :
+
+1. Ouvrez le panneau global **Rechercher et remplacer**.
+1. Sélectionnez la liste déroulante **Chemin d’accès** et choisissez l’une des options suivantes pour effectuer la recherche.
+
+   - **Chemin** : pour effectuer une recherche sur le chemin sélectionné
+   - **Map** : pour effectuer une recherche dans un mappage spécifique à partir du référentiel ou des collections.
+   - **Mappage actuel** : pour effectuer une recherche dans le mappage actuellement ouvert
+
+   ![](images/path-dropdown.png){width="350" align="left"}
+
+1. Saisissez la chaîne de recherche dans le champ **Rechercher**. Pour réduire les résultats, sélectionnez l’icône **Filtrer** à côté du champ Rechercher et sélectionnez les filtres suivants :
+
+
    - **Mots entiers uniquement** : sélectionnez cette option si vous souhaitez rechercher toute la chaîne de recherche. Par exemple, si vous saisissez « over » dans la chaîne de recherche, le résultat de la recherche renvoie tous les fichiers contenant des mots tels que over et overview. Si vous souhaitez restreindre votre recherche pour renvoyer le terme exact saisi, sélectionnez cette option.
-   - **Créer une version après le remplacement** : sélectionnez cette option si vous souhaitez créer une nouvelle version de la rubrique dans laquelle vous choisissez de remplacer le texte. Vous pouvez également fournir des commentaires sur la version qui seront ajoutés avec chaque fichier mis à jour.
-
-     Si vous ne sélectionnez pas cette option, les modifications sont enregistrées dans la version actuelle de la rubrique et aucune nouvelle version n&#39;est créée.
 
    - **Inclure les références indirectes** : sélectionnez cette option si vous souhaitez rechercher la chaîne dans les références indirectes également dans le plan DITA. Par défaut, cette option est désactivée afin que la recherche soit effectuée uniquement sur les références directes.
 
-1. Saisissez le terme ou le texte à rechercher.
-1. Saisissez le texte avec lequel vous souhaitez remplacer le terme de recherche.
-1. Appuyez sur Entrée ou sélectionnez l’icône **Rechercher** \( ![](images/search-icon.svg)\) pour effectuer la recherche.
-1. Sélectionnez un fichier dans la liste des résultats de la recherche. Le fichier s’ouvre dans la zone d’édition du contenu avec le terme recherché en surbrillance dans le contenu.
+   ![](images/find-filters.png){width="350" align="left"}
 
-1. Sélectionnez **Remplacer une seule occurrence** \( ![](images/replace-icon.svg)\) pour remplacer le terme de recherche actuellement mis en surbrillance dans la rubrique ou sélectionnez Correspondance suivante ![](images/next-match-in-search.png) ou ![](images/previous-match-in-search.png) Correspondance précédente pour passer à l’occurrence suivante ou précédente du texte.
-1. Sélectionnez **Remplacer tout** \( ![](images/replace-all-in-file-icon.svg)\) pour remplacer toutes les occurrences du terme recherché dans un seul fichier par le terme de remplacement en un seul clic. Une notification vous sera présentée après le remplacement de toutes les occurrences dans le fichier sélectionné.
+1. Appuyez sur la touche Entrée ou sélectionnez l’icône **Rechercher** pour effectuer la recherche.
 
-Pour activer l’icône **Tout remplacer**, votre administrateur système doit sélectionner l’option **Activer tout remplacer** sous l’onglet **Général** dans les paramètres **Workspace** (qui apparaissent sous la forme **Paramètres** pour **Sur site**).
+   ![](images/search-icon.png){width="350" align="left"}
 
->[!NOTE]
->
-> Passez la souris sur un fichier de la liste des résultats de recherche pour afficher l’icône Tout remplacer dans le fichier située à droite. Vous obtenez également l’icône Ignorer le fichier pour supprimer le fichier des résultats de recherche. Les fichiers que vous ignorez sont supprimés de la liste et le terme recherché n’y est pas remplacé.
+1. Sélectionnez un fichier dans la liste des résultats de la recherche. Le fichier s’ouvre dans la vue Auteur de la zone d’édition du contenu avec le terme recherché en surbrillance dans le contenu.
+
+1. Saisissez le terme à utiliser en remplacement dans le champ **Remplacer par**. Pour personnaliser la manière dont les remplacements sont appliqués, cliquez sur l’icône **Paramètres** en regard du champ et sélectionnez l’une des options disponibles.
+
+   - **Verrouiller le fichier avant de le remplacer** : sélectionnez cette option si vous souhaitez verrouiller automatiquement un fichier avant de remplacer la chaîne de recherche. Ce paramètre est plus pertinent si votre administrateur a activé la configuration pour verrouiller un fichier avant de le modifier. Lorsque le paramètre principal est activé, vous devez sélectionner cette option. Cela empêche la boîte de dialogue de verrouillage de fichier de vous inviter à verrouiller chaque fichier avant d’apporter une modification. Si vous ne sélectionnez pas cette option, une invite s’affiche avant l’ouverture d’un fichier en vue de le modifier.
+
+   - **Créer une version après le remplacement** : sélectionnez cette option si vous souhaitez créer une nouvelle version de la rubrique dans laquelle vous choisissez de remplacer le texte. Vous pouvez également fournir des commentaires sur la version qui seront ajoutés avec chaque fichier mis à jour. Si vous ne sélectionnez pas cette option, les modifications sont enregistrées dans la version actuelle de la rubrique et aucune nouvelle version n&#39;est créée.
+
+   ![](images/replace-settings.png){width="350" align="left"}
+
+
+1. Sélectionnez **Remplacer l’occurrence** pour remplacer la chaîne de recherche actuellement mise en surbrillance dans la rubrique ou sélectionnez les flèches supérieure et inférieure pour passer à l’occurrence suivante ou précédente du texte
+
+   ![](images/replace-occurrence.png){width="350" align="left"}
+
+1. Sélectionnez **Tout remplacer** pour remplacer toutes les occurrences du terme recherché dans un seul fichier par le terme à remplacer en une seule fois. Une notification vous sera présentée après le remplacement de toutes les occurrences dans le fichier sélectionné.
+
+   >[!NOTE]
+   >
+   > Pour activer l’icône Then **Replace all**, l’administrateur de profil de dossier ou l’administrateur système doit sélectionner l’option **Activer tout remplacer** sous l’onglet **Général** dans les paramètres de **Workspace** (apparaissant sous la forme **Paramètres** pour **On-Prem**). Si des erreurs se produisent lors de l&#39;opération de remplacement, ces fichiers seront ignorés en raison de problèmes d&#39;analyse XML ou d&#39;erreurs liées à DITA.
+
+   ![](images/replace-all.png){width="350" align="left"}
+
+1. Vous pouvez également pointer sur un fichier de la liste des résultats de recherche pour afficher l’icône **Tout remplacer dans le fichier** située à droite, qui vous permet de remplacer toutes les occurrences du terme dans un seul fichier.
+
+   >[!NOTE]
+   >
+   > L’icône **Supprimer** s’affiche également pour supprimer le fichier des résultats de la recherche. Les fichiers que vous supprimez sont retirés de la liste et le terme recherché n’y est pas remplacé.
+
+   ![](images/replace-all-in-file-no-source.png){width="350" align="left"}
 
 Une seule opération de remplacement complet peut être effectuée à la fois dans l&#39;ensemble du système, et tant que l&#39;opération n&#39;est pas exécutée, vous verrez l&#39;état « Remplacer tout en cours ». Vous pouvez également abandonner l’opération de remplacement de tous les éléments entre les deux ou consulter le rapport de journal. Si vous abandonnez l’opération, vous recevrez une notification à ce sujet dans votre boîte de réception. Une notification de succès s’affichera après le remplacement de toutes les occurrences dans le fichier sélectionné.
 
-![](images/replace-all-in-progress.png){width="300" align="left"}
+![](images/replace-all-in-progress.png){width="350" align="left"}
 
 Vous pouvez également utiliser l&#39;option **Rechercher dans la carte** du menu **Options** d&#39;une carte pour rechercher et remplacer du texte dans une carte. Cette option s’affiche pour un mappage ouvert dans le panneau Référentiel ou dans la vue de mappage.
 
-![](images/map-options-menu.png){width="550" align="left"}
+![](images/map-options-menu.png){width="650" align="left"}
 
 </details>
 
@@ -1170,4 +1323,4 @@ Pour afficher les commentaires de révision dans les tâches de révision active
 
 </details>
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

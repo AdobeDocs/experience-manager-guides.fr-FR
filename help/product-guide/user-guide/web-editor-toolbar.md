@@ -4,9 +4,9 @@ description: Découvrez la barre d’outils dans l’éditeur. Découvrez l’in
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: 172599c2bd99f1779b04255aac5e7d505614b463
+source-git-commit: a17f9c5d5143de2ca8836ef6282a796abb766d78
 workflow-type: tm+mt
-source-wordcount: '6011'
+source-wordcount: '6173'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Ces fonctionnalités sont expliquées en détail comme suit :
 
 **Modification des actions**
 
-Lorsque vous modifiez une rubrique dans l’éditeur, accédez aux différentes actions d’édition telles que **Couper** ou ***Ctrl***+***X*** , **Copier** ou ***Ctrl***+***C*** , **Undo** ou ***Ctrl***+***Z*** ou **Ctrl**+***Y*** et ***Delete*** **&#x200B;**&#x200B;présentes dans la liste déroulante Menu .
+Lorsque vous modifiez une rubrique dans l’éditeur, accédez aux différentes actions d’édition telles que **Couper** ou ***Ctrl***+***X*** , **Copier** ou ***Ctrl***+***C*** , **Undo** ou ***Ctrl***+***Z*** ou **Ctrl**+***Y*** et ***Delete*** **** présentes dans la liste déroulante Menu .
 
 
 **Rechercher et remplacer**
@@ -67,7 +67,7 @@ La fonction **Historique des versions** de l&#39;éditeur vous permet de vérifi
 
    La boîte de dialogue **Historique des versions** s’affiche.
 
-   ![&#x200B; Boîte de dialogue Historique des versions &#x200B;](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   ![ Boîte de dialogue Historique des versions ](images/version-history-dialog-web-editor.png){width="550" align="left"}
 
    *Prévisualiser les modifications dans les différentes versions d&#39;une rubrique.*
 
@@ -84,7 +84,7 @@ La fonction **Historique des versions** de l&#39;éditeur vous permet de vérifi
 
    Onglet **Métadonnées** : les métadonnées nouvellement ajoutées sont dans la police verte et les métadonnées supprimées sont dans la police rouge.
 
-   ![Différence de métadonnées pour les versions &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
+   ![Différence de métadonnées pour les versions ](images/metadata-version-diff.png){width="550" align="left"}
 
    *Comparez les métadonnées de différentes versions dans l’historique des versions.*
 
@@ -384,13 +384,30 @@ Insère une image à l’emplacement valide actuel ou suivant. Sélectionnez l�
 
 ![](images/insert-image-new-dialog.png){width="300" align="left"}
 
-Vous pouvez ajouter un titre d’image/d’illustration et un texte secondaire pour l’image dans la boîte de dialogue Insérer une image .
+
+Dans la boîte de dialogue **Sélectionner un fichier**, vous pouvez parcourir le fichier image requis à partir de **Référentiel** ou **Collections**.
+
+>[!NOTE]
+>
+> L’explorateur de chemins d’accès aux fichiers et aux dossiers a été intégré à une nouvelle interface utilisateur dans la version 2601 de Experience Manager Guides as a Cloud Service. La nouvelle interface est activée par défaut. Si vous préférez continuer à utiliser l’interface utilisateur existante sans ces mises à jour, contactez votre équipe du succès client pour que cette nouvelle amélioration soit désactivée.
+
+![](images/select-file-browser-images.png)
+
+Utilisez les chemins de navigation en haut et le panneau de navigation des dossiers à gauche pour parcourir facilement les dossiers.
+
+![](images/select-file-browser-file-navigation.png)
+
+Vous pouvez rechercher le fichier image requis par son nom, son titre et son contenu. Vous pouvez également filtrer les résultats de la recherche par Chemin \(dans lequel effectuer la recherche\), État du document, Verrouillé par, Dernière modification et Balises. Le filtre Type de fichier est pré-appliqué à **Images** et reste désactivé pour les autres types de fichiers afin de permettre des sélections de fichiers valides. Pour plus d’informations sur l’utilisation des filtres sur ce navigateur de chemins d’accès, consultez la section [Autres fonctionnalités de l’éditeur](./web-editor-other-features.md).
+
+![](images/select-file-dialog-image-filter.png)
+
+Une fois que vous avez trouvé le fichier image requis, sélectionnez-le et choisissez **Sélectionner** pour insérer l’image dans votre document. Vous pouvez insérer différents formats de fichiers image, tels que `.png`, `.svg`, `.gif`, `.jpg`, `.eps`, `.ai`, `.psd`, etc.
+
+Vous pouvez également ajouter un titre d’image/de figure et un texte secondaire pour l’image dans la boîte de dialogue Insérer une image .
 
 >[!NOTE]
 >
 > Lorsque vous insérez une image et spécifiez un texte secondaire pour celle-ci, il est ajouté dans l&#39;élément `<alt>` conformément aux dernières normes DITA. L&#39;utilisation de l&#39;attribut `@alt` pour le texte secondaire est obsolète, mais il reste pris en charge dans les versions précédentes de DITA.
-
-À l’aide de l’option **Sélectionner un fichier**, vous pouvez rechercher le fichier image requis par nom de fichier. Vous pouvez également filtrer les résultats de la recherche par Chemin \(pour rechercher dans\), Collections, Type de fichier et Balises. Une fois que vous avez trouvé le fichier image requis, sélectionnez-le et choisissez **Sélectionner** pour insérer l’image dans votre document. Vous pouvez insérer différents formats de fichiers image, tels que `.png`, `.svg`, `.gif`, `.jpg`, `.eps`, `.ai`, `.psd`, etc.
 
 Une fois que vous avez inséré une image, vous pouvez modifier sa hauteur, sa largeur, son emplacement et ses attributs à partir du panneau Propriétés du contenu . Sélectionnez le fichier image, puis apportez des modifications dans le panneau Propriétés du contenu du panneau de droite.
 
@@ -426,7 +443,7 @@ Sélectionnez une image dans la rubrique active, puis sélectionnez l’icône I
 
 Choisissez la forme préférée ![](images/imagemap-rectangle-toolbar.png) de rectangle, Cercle ![](images/imagemap-circle-toolbar.png) ou Polygone ![](images/imagemap-polygon-toolbr.png) pour définir une zone sur une image que vous voulez utiliser comme lien. Une fois la zone définie, la boîte de dialogue Référence s’affiche. Vous devez alors spécifier le lien vers le contenu interne ou externe :
 
-![](images/reference-dialog.png){width="650" align="left"}
+![](images/reference-dialog.png){width="350" align="left"}
 
 Si des zones se chevauchent, vous pouvez avancer ou reculer la forme en cliquant sur l&#39;icône correspondante dans la barre d&#39;outils. Vous pouvez également supprimer une zone en la sélectionnant et en cliquant sur l’icône Supprimer . Double-cliquez sur une zone pour ouvrir la boîte de dialogue Référence dans laquelle vous pouvez modifier le lien de destination. Une fois que vous avez marqué les zones requises sur votre image, enregistrez les modifications en sélectionnant **Terminé**.
 
@@ -440,13 +457,19 @@ Insère différents types de fichiers multimédias. Sélectionnez l’icône dé
 - YouTube
 - Vimeo
 
-Lorsque vous sélectionnez l’option Fichier audio ou vidéo , la vue du référentiel s’affiche et vous permet de rechercher et de sélectionner le fichier souhaité. Si vous choisissez YouTube ou Vimeo, la boîte de dialogue Insérer un fichier multimédia s’affiche. Collez le lien du fichier vidéo dans le champ Lien web et sélectionnez Insérer pour ajouter la vidéo à l’emplacement valide actuel ou suivant dans votre document.
+Lorsque vous sélectionnez l’option Fichier audio ou vidéo , la boîte de dialogue **Sélectionner un fichier** s’affiche et vous permet de rechercher et de sélectionner le fichier souhaité dans le Référentiel ou les Collections.
+
+![](images/select-file-dialog-multimedia.png){width="650" align="left"}
+
+Si vous choisissez YouTube ou Vimeo, la boîte de dialogue **Insérer un fichier multimédia** s’affiche. Collez le lien du fichier vidéo dans le champ Lien web et sélectionnez Insérer pour ajouter la vidéo à l’emplacement valide actuel ou suivant dans votre document.
+
+![](images/insert-multimedia-dialog.png){width="350" align="left"}
 
 >[!NOTE]
 >
 > Lors de l’ajout d’un lien vidéo YouTube, vous devez remplacer la chaîne `watch?v=` par `embed` dans l’URL. Par exemple, pour ajouter un lien vidéo YouTube : `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, vous devez l’ajouter en tant que : `https://www.youtube.com/**embed/**WlIKQOrmZcs`. Cette modification permet de s’assurer que la vidéo est incorporée dans la sortie AEM Site et PDF.
 
-Vous pouvez également ajouter le fichier audio ou vidéo à partir de la boîte de dialogue Insérer un fichier multimédia. Sélectionnez l’option Fichier audio/vidéo , puis sélectionnez l’icône de navigation pour lancer la vue du référentiel. Sélectionnez le fichier audio ou vidéo dans le référentiel, puis sélectionnez **Sélectionner** pour ajouter le lien du fichier dans le champ Fichier audio/vidéo . Si vous choisissez un fichier vidéo, un aperçu du fichier s’affiche également dans la zone Aperçu . Vous pouvez lire le fichier vidéo pour en afficher l’aperçu.
+Vous pouvez également ajouter le fichier audio ou vidéo à partir de la boîte de dialogue **Insérer un fichier multimédia**. Sélectionnez l’option Fichier audio/vidéo , puis sélectionnez l’icône de navigation pour lancer la vue du référentiel. Sélectionnez le fichier audio ou vidéo dans le référentiel, puis sélectionnez **Sélectionner** pour ajouter le lien du fichier dans le champ Fichier audio/vidéo . Si vous choisissez un fichier vidéo, un aperçu du fichier s’affiche également dans la zone Aperçu . Vous pouvez lire le fichier vidéo pour en afficher l’aperçu.
 
 ![](images/insert-multimedia.png){width="650" align="left"}
 
@@ -489,20 +512,29 @@ Si votre administrateur a activé l’option UUIDs dans *XMLEditorConfig*, l’U
 >
 > Consultez la section Références du guide des bonnes pratiques pour connaître les bonnes pratiques relatives au référencement de contenu.
 
-**Filtrer la recherche**
+**Filtrer la recherche dans la vue Référentiel**
 
-Vous pouvez rechercher du texte dans les fichiers présents sur le chemin d’accès sélectionné du référentiel AEM. Par exemple, la recherche « général » est effectuée dans la capture d’écran ci-dessous. Vous pouvez également affiner votre recherche à l’aide de filtres améliorés. Vous pouvez rechercher tous les fichiers DITA tels que les rubriques DITA et les plans DITA présents sur le chemin d&#39;accès sélectionné.
+Dans la boîte de dialogue **Sélectionner un fichier**, vous pouvez rechercher du texte dans les fichiers présents sur le chemin d’accès sélectionné du **Référentiel**. Par exemple, la recherche *freinage* est effectuée dans la capture d’écran ci-dessous.
 
-Vous pouvez rechercher des fichiers non-DITA tels que des fichiers image, des fichiers multimédias et des documents dans le chemin d&#39;accès sélectionné. Vous pouvez également rechercher des valeurs spécifiques dans les attributs des éléments DITA. Vous pouvez également rechercher les fichiers qui sont extraits par l’utilisateur spécifié.
+>[!NOTE]
+>
+> L’explorateur de fichiers et de chemins d’accès est introduit avec une interface utilisateur repensée dans la version 2601 de Experience Manager Guides as a Cloud Service. La nouvelle interface est activée par défaut. Si vous préférez continuer à utiliser l’interface utilisateur existante sans ces mises à jour, contactez votre équipe du succès client pour que cette nouvelle amélioration soit désactivée.
 
 ![](images/reference-search-filters.png){width="650" align="left"}
+
+Vous pouvez utiliser les chemins de navigation en haut et le panneau de navigation des dossiers à gauche pour parcourir facilement les dossiers.
+
+![](images/select-file-browser-file-navigation.png)
+
+Vous pouvez rechercher le fichier requis par son nom, son titre et son contenu. Vous pouvez également affiner votre recherche à l’aide de filtres améliorés dans le panneau de droite. Pour plus d’informations, consultez la section [Autres fonctionnalités de l’éditeur](./web-editor-other-features.md).
+
+![](images/select-file-dialog-image-filter.png)
+
+La liste des fichiers filtrés contenant le texte recherché s’affiche. Vous pouvez également prévisualiser le contenu du fichier.
 
 >[!NOTE]
 >
 > Votre administrateur système peut également configurer les filtres de texte et afficher ou masquer d’autres filtres. Pour plus d’informations, consultez la section *Configurer les filtres de texte* dans la section Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
-
-La liste des fichiers filtrés contenant le texte recherché s’affiche. Par exemple, dans la capture d’écran ci-dessus, les fichiers contenant le texte « général » sont répertoriés. Vous pouvez également prévisualiser le contenu du fichier.
-
 
 **Contenu réutilisable** - ![](images/reusable-content.svg)
 
@@ -542,7 +574,7 @@ Insérer un mot-clé défini dans votre plan DITA. Sélectionnez l’option Mot-
 
 Les mots-clés sont répertoriés dans l’ordre alphabétique et vous pouvez également rechercher le(s) mot(s)-clé(s) en saisissant une chaîne de recherche dans la zone Rechercher . Le résultat de la recherche renvoie les mots-clés contenant la chaîne dans l’ID ou la Valeur. Les mots-clés définis dans votre plan DITA sont répertoriés dans cette boîte de dialogue. Choisissez le mot-clé à insérer et sélectionnez **Insérer**.
 
-Vous pouvez également modifier les attributs du mot-clé inséré en cliquant avec le bouton droit sur le mot-clé et en sélectionnant l’option Attributs . La boîte de dialogue **Attributs pour le mot-clé) s’ouvre :
+Vous pouvez également modifier les attributs du mot-clé inséré en cliquant avec le bouton droit sur le mot-clé et en sélectionnant l’option Attributs . La boîte de dialogue **Attributs pour le mot-clé** s’ouvre :
 
 ![](images/attributes-for-keyword.png){width="550" align="left"}
 
@@ -627,4 +659,4 @@ Si un fichier est verrouillé par un autre utilisateur, le fait de pointer sur l
 En tant qu’administrateur, vous avez également accès à la fonctionnalité **Forcer le déverrouillage** qui vous permet de déverrouiller le fichier verrouillé par d’autres utilisateurs. Utilisez cette fonctionnalité pour accéder aux droits de modification d&#39;un fichier verrouillé par d&#39;autres utilisateurs.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

@@ -4,9 +4,9 @@ description: Résolvez les problèmes grâce au dépannage de base dans AEM Guid
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: 262edba89ab4bf65cb6e109bd7c5df177e2e56fe
+source-git-commit: e049cb1f3d091c701285dbe89194058b93d5e2e4
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,17 @@ Pour afficher et vérifier le fichier journal de génération de sortie, procéd
    ![](images/log-file-new.png){align="left"}
 
 1. Appliquez les filtres suivants pour mettre en surbrillance le texte dans le fichier journal :
-   - Fatal : met en surbrillance les erreurs fatales dans le fichier journal avec la couleur rouge foncé.
-   - Erreur : met en surbrillance les erreurs dans le fichier journal avec la couleur rouge. Les exceptions sont traitées comme des erreurs et sont mises en surbrillance de manière similaire en rouge.
-   - Avertissement : met en surbrillance les avertissements dans le fichier journal avec la couleur orange.
-   - Infos : met en surbrillance les messages d’information dans le fichier journal avec la couleur verte.
+   - **Fatal** : met en surbrillance les erreurs fatales dans le fichier journal avec la couleur rouge foncé.
+   - **Erreur** : met en surbrillance les erreurs dans le fichier journal avec la couleur rouge. Les exceptions sont traitées comme des erreurs et sont mises en surbrillance de manière similaire en rouge.
+   - **Avertissement** : met en surbrillance les avertissements dans le fichier journal avec la couleur orange.
+   - **Info** : met en surbrillance les messages d’information dans le fichier journal avec la couleur verte.
 
-1. Utilisez les boutons de navigation vers le haut et vers le bas pour accéder au texte en surbrillance dans le fichier journal.
+1. Utilisez les boutons de navigation vers le haut et vers le bas pour accéder au texte en surbrillance dans le fichier journal. Vous pouvez également faire défiler le fichier journal et vérifier les messages.
 
-   Vous pouvez également faire défiler le fichier journal et vérifier les messages.
+1. Vous pouvez effectuer les actions suivantes sur le fichier journal :
 
+   - **Télécharger le journal** : si la liste des journaux est volumineuse, sélectionnez **Télécharger le journal** pour télécharger le fichier journal sur votre appareil afin de faciliter l’accès et la révision.
+   - **Copier le journal** : copie la liste des journaux dans le presse-papiers, ce qui vous permet de la coller rapidement dans un éditeur de texte.
 
 ## Copier et vérifier le fichier journal dans un éditeur de texte
 
@@ -82,6 +84,9 @@ Effectuez les étapes suivantes pour copier et vérifier le fichier journal de g
    ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
+
+
+
 ## Résoudre l’erreur de compilation JSP
 
 Si votre rubrique DITA est trop volumineuse, il se peut que l&#39;erreur de compilation JSP \(`org.apache.sling.api.request.TooManyCallsException`\) s&#39;affiche dans votre navigateur. Cette erreur peut apparaître lorsque vous ouvrez une rubrique pour la modifier, la réviser ou la publier.
@@ -99,4 +104,4 @@ Pour résoudre ce problème, procédez comme suit :
 1. Augmentez la valeur du paramètre *Nombre d’appels par requête* en fonction de vos besoins.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)
+**Rubrique parente :**[ Génération de sortie](generate-output.md)

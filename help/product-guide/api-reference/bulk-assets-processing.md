@@ -4,10 +4,10 @@ description: En savoir plus sur l’API permettant de démarrer le traitement en
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: e2eca63a5dd56e358aeea047b37f4b0f88dc720b
+source-git-commit: 8671a26bfee2d9e3b4e70a8f2615568c08c0a370
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 11%
+source-wordcount: '587'
+ht-degree: 12%
 
 ---
 
@@ -26,6 +26,15 @@ Méthode POST qui lance le traitement des ressources en bloc pour un chemin d’
 | `path` | Chaîne | Oui | Chemin d’accès absolu du dossier ou de la ressource dans le référentiel AEM à traiter. |
 | `excludedPaths` | Chaîne | Non | Liste des chemins à exclure du traitement |
 | `type` | Chaîne | Oui | Type de traitement à effectuer. Par exemple : ASSET_PROCESSING. |
+| `filter` | Objet | Non | Filtres appliqués aux ressources sélectionnées |
+
+**Filtrer les champs d’objet**
+
+| Nom | Type | Description |
+|----|----|-----------|
+| fileTypes | Chaîne | Types de ressources à traiter. Valeurs autorisées : DITATOPIC, DITAMAP, MARKDOWN, HTML/CSS, DITAVAL, AUTRES. |
+| heure de début | Entier | Limite inférieure pour l’heure de création de la ressource |
+| heure de fin | Entier | Limite supérieure pour l’heure de création de la ressource |
 
 **Exemple de requête**
 
@@ -35,7 +44,12 @@ Méthode POST qui lance le traitement des ressources en bloc pour un chemin d’
   "excludedPaths": [
     "content/dam/status-fetch1/excluded-folder"
   ],
-  "type": "ASSET_PROCESSING"
+  "type": "ASSET_PROCESSING",
+  "filter": {
+        "fileTypes": ["DITAMAP", "DITATOPIC"],
+        "startTime": 1758876933000
+        "endTime": 1764932039000
+    }
 }
 ```
 

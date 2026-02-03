@@ -4,9 +4,9 @@ description: Découvrez comment créer une tâche de révision et envoyer des ru
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: cd536b9e27b3c422fc723e9f13b12ac432fa3fc9
 workflow-type: tm+mt
-source-wordcount: '2793'
+source-wordcount: '3055'
 ht-degree: 0%
 
 ---
@@ -269,4 +269,41 @@ Pour envoyer une ou plusieurs rubriques avec le fichier de mappage pour révisio
 
 Un e-mail est envoyé à tous les réviseurs et réviseuses, les informant que des rubriques leur ont été affectées pour la révision. L’e-mail contient un lien direct qu’ils peuvent utiliser pour accéder à la rubrique dans une fenêtre de navigateur. Les rubriques ainsi que le plan DITA sont ouvertes en mode de révision.
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de la révision](review.md)
+## Ajouter ou supprimer des rubriques d’une tâche de révision en cours
+
+En tant qu’auteur ou initiateur d’une tâche de révision, vous pouvez ajouter de nouvelles rubriques à une tâche de révision en cours (si elles n’ont pas été précédemment envoyées pour révision) ou supprimer des rubriques d’une tâche de révision en cours sans affecter le workflow de révision.
+
+Effectuez les étapes suivantes pour ajouter ou supprimer des rubriques d’une tâche de révision en cours :
+
+1. Dans le panneau Révision, accédez à la tâche de révision à modifier et sélectionnez **Ouvrir les détails de la tâche** dans le menu contextuel.
+
+   La page **Détails de la tâche** s’affiche.
+
+1. Sélectionnez l’onglet **CONTENU** pour afficher les rubriques actuellement incluses dans la tâche de révision.
+1. Passez en revue la liste des rubriques et modifiez la sélection selon les besoins.
+
+   - Sélectionnez les nouvelles rubriques qui n&#39;ont pas été précédemment envoyées pour révision.
+   - Désélectionnez les rubriques à supprimer de la tâche de révision.
+
+   >[!NOTE]
+   >
+   > Au moins une rubrique doit rester sélectionnée pour mettre à jour une tâche de révision en cours.
+
+   ![](images/modify-review-topics.png)
+
+1. Une fois que vous avez modifié la liste de rubriques, les mises à jour correspondantes sont automatiquement propagées à l’onglet **RÉVISEURS** de la page Détails de la tâche.
+
+   ![](images/modify-reviewers.png)
+
+   Consultez la liste des rubriques mise à jour dans l’onglet Réviseurs . Pour toute nouvelle rubrique ajoutée, vous devez affecter des réviseurs ou des réviseuses, sauf si le paramètre **Autoriser les personnes désignées à réviser une rubrique** est activé pour votre tâche de révision.
+1. Sélectionner **Mettre à jour**.
+
+Une fois la tâche de révision mise à jour, les réviseurs et réviseuses reçoivent des notifications (à la fois par AEM et par e-mail) en fonction de leur statut de révision :
+
+- **En cours** : les réviseurs et réviseuses qui travaillent toujours sur la tâche sont avertis que la tâche a été mise à jour.
+- **Terminé** : les réviseurs qui ont terminé leur révision reçoivent une notification leur demandant de la réviser.
+
+Pour plus d’informations, voir [Présentation des notifications de révision](./review-understanding-review-notifications.md).
+
+
+**Rubrique parente :**[ Présentation de la révision](review.md)

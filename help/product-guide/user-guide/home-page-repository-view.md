@@ -3,9 +3,9 @@ title: Référentiel sur la page d’accueil
 description: Découvrez le référentiel sur la page d’accueil d’. Découvrez l’interface et les fonctionnalités du référentiel dans Adobe Experience Manager Guides sur la page d’accueil.
 feature: Authoring
 role: User
-source-git-commit: 1919e622b1b148d16bcdb85f79e2a1cd706fe33e
+source-git-commit: e45343812a67c6755c76f1b31b68c7201cdd8772
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
@@ -76,11 +76,11 @@ Le Référentiel sert d’espace central et fournit une liste tabulaire de tous 
    - **Nouveau** : créez une rubrique DITA, un plan DITA ou un dossier.
    - **Télécharger Assets** : chargez un fichier depuis votre système local vers le dossier sélectionné dans le référentiel.
    - **Ajouter aux collections** : ajoute le dossier sélectionné aux favoris. Vous pouvez choisir de l’ajouter à une collection existante ou nouvelle.
-   - **Retraiter les ressources** : déclenche le traitement de toutes les ressources nouvellement créées et non traitées.
+   - **Retraiter les ressources** : déclenche le traitement de toutes les ressources du dossier.
 
 - **Menu Options des fichiers** : vous pouvez effectuer les actions suivantes à l’aide du menu **Options** d’un fichier :
 
-  ![](images/options-file-repo.png){width="350" align="left"}
+  ![](images/options-file-repo-new.png){width="350" align="left"}
 
    - **Modifier** : ouvrez le fichier pour le modifier.
    - **Modifier dans Oxygen** : sélectionnez cette option pour modifier le fichier sélectionné dans le plug-in Oxygen Connector.
@@ -99,6 +99,7 @@ Le Référentiel sert d’espace central et fournit une liste tabulaire de tous 
    - **Supprimer** : utilisez cette option pour supprimer le fichier sélectionné.
    - **Ajouter à** : choisissez d’ajouter aux collections ou au contenu réutilisable.
    - **Copier** : copie l’UUID ou le chemin d’accès complet du fichier.
+   - **Retraiter la ressource** : déclenche le traitement de la ressource sélectionnée.
    - **Propriétés** : utilisez cette option pour ouvrir la page Propriétés du fichier sélectionné.
    - **Télécharger sous forme de PDF** : utilisez cette option pour générer la sortie PDF et la télécharger.
 
@@ -116,7 +117,16 @@ Vous disposez des options suivantes pour filtrer les fichiers et affiner votre r
 
 - **Rechercher dans** : sélectionnez le chemin d’accès où vous souhaitez rechercher les fichiers présents dans le référentiel.
 
-- **Type de fichier** : vous pouvez rechercher toutes les **rubriques DITA**, **cartes DITA**, **fichiers DITAVAL**, **fichiers image**, **Multimedia**, **Documents** et **JSON**.
+- **Type de fichier** : filtrez votre recherche en fonction d’un type de fichier spécifique. Les options disponibles sont les suivantes : **Rubrique**, **Carte**, **DITAVAL**, **Image**, **Multimédia**, **Document** et **Autres**.
+
+- **État du document** : vous pouvez filtrer votre recherche en fonction de l’état actuel du document des fichiers. Les valeurs de filtre disponibles sont définies dans le champ `repositoryFilters` de la `ui_config.json file` et sont associées au profil de dossier que vous utilisez actuellement.
+
+  Cela signifie ce qui suit :
+
+   - Si vous utilisez le profil global, les valeurs des filtres configurées dans le profil global sont appliquées.
+   - Si vous sélectionnez un profil de dossier spécifique, les valeurs des filtres définies dans ce profil sont récupérées.
+
+  Les valeurs de filtre par défaut disponibles pour l’état du document sont les suivantes : Brouillon, Modifier, En cours de révision, Approuvé, Révisé et Terminé. Pour plus d’informations sur la personnalisation des valeurs de filtre pour les états du document, voir [Configurer des filtres d’état du document](../cs-install-guide/config-doc-state-filters.md).
 
 - **Verrouillé par** : affiche une liste d’utilisateurs. La liste est paginée et se charge de manière asynchrone, affichant un ensemble limité d’utilisateurs à la fois et en récupérant d’autres au fur et à mesure que vous faites défiler ou naviguez. Cela améliore la vitesse de chargement et les performances globales, en particulier lorsque vous travaillez avec un grand nombre d’utilisateurs.
 
@@ -127,7 +137,7 @@ Vous disposez des options suivantes pour filtrer les fichiers et affiner votre r
 
 - **Balises** : filtrez le contenu en fonction des balises.
 
-- **Élément DITA** : filtrez le contenu en fonction de divers éléments DITA.
+- **Éléments DITA** : filtrez le contenu en fonction de divers éléments DITA.
 
 Après avoir appliqué tous les filtres requis, sélectionnez **Appliquer** dans le coin inférieur droit du panneau Filtres.
 

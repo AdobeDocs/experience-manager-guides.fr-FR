@@ -4,9 +4,9 @@ description: Générez des rapports DITA map à partir de la console Map dans AE
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
+source-git-commit: 11b0082b160a35fee0fc9d6478f5fe896de80d31
 workflow-type: tm+mt
-source-wordcount: '2614'
+source-wordcount: '2645'
 ht-degree: 0%
 
 ---
@@ -121,11 +121,13 @@ Vous pouvez appliquer des balises sur une rubrique individuelle ou utiliser la f
 
 Pour mettre à jour les métadonnées, procédez comme suit :
 
-1. Pour mettre à jour les métadonnées, sélectionnez les fichiers à mettre à jour. Vous pouvez sélectionner les fichiers qui s’affichent dans le panneau Métadonnées en cochant la case située en regard de **Titre**. Si vous souhaitez sélectionner tous les enregistrements, utilisez l&#39;onglet **Tout sélectionner** au-dessus de la barre de titre comme illustré ci-dessous.
+1. Pour mettre à jour les métadonnées, sélectionnez le ou les fichiers à mettre à jour. Vous pouvez sélectionner les fichiers qui s’affichent dans le panneau Métadonnées en cochant la case située en regard de **Titre**.
+
+   Pour sélectionner tous les enregistrements, utilisez l’onglet **Tout sélectionner** au-dessus de la barre de titre. Les enregistrements se chargeant progressivement au fur et à mesure que vous faites défiler la liste, veillez à faire défiler la page jusqu’à la fin avant d’utiliser **Tout sélectionner**. Cela permet de s’assurer que les autorisations de modification et le statut de verrouillage sont évalués pour tous les fichiers, et pas seulement pour les enregistrements actuellement visibles.
 
    >[!NOTE]
    >
-   > Vous ne pouvez pas sélectionner de fichiers extraits. Une icône extraite s’affiche également à côté du titre d’un fichier extrait. Vous pouvez pointer sur l’icône pour afficher le nom de l’utilisateur.
+   > Si un fichier est verrouillé par un autre utilisateur, il ne peut pas être sélectionné pour la mise à jour des métadonnées. Une icône de cadenas apparaît également près du titre d’un fichier verrouillé. Vous pouvez pointer sur l’icône pour afficher le nom de l’utilisateur.
 
    ![](images/all-selection.png){align="left"}
 
@@ -136,9 +138,7 @@ Pour mettre à jour les métadonnées, procédez comme suit :
 
 1. Si vous souhaitez ajouter de nouvelles balises, sélectionnez-les dans la liste déroulante pour les appliquer à toutes les rubriques sélectionnées. Vous pouvez également supprimer n’importe quelle balise en sélectionnant la croix située à proximité de la balise.
 
-   >[!NOTE]
-   >
-   > Les balises courantes appliquées à toutes les rubriques sélectionnées sont répertoriées.
+
 
 1. Sélectionnez un nouvel état de document si vous souhaitez modifier l&#39;état de document de toutes les références sélectionnées. La liste déroulante affiche l’état commun possible pour toutes les rubriques sélectionnées. Par exemple, si l’état actuel de vos rubriques est En cours de révision, vous pouvez afficher l’état Brouillon, Approuvé ou Révisé.
 1. Sélectionnez **Mise à jour** pour mettre à jour les métadonnées. Un message de confirmation s’affiche pour les métadonnées, indiquant si elles ont été mises à jour avec succès ou si des mises à jour ont échoué. Vous pouvez également sélectionner **Télécharger le rapport** pour télécharger l’instantané du rapport. Cet instantané contient les détails du statut mis à jour pour les références sélectionnées.
@@ -236,16 +236,16 @@ Vous pouvez afficher le rapport pour les liens rompus en procédant comme suit :
 
 1. Vous pouvez filtrer les liens rompus en fonction du **Type de fichier** et du **Type de lien**. La liste des liens rompus s’affiche en fonction de votre sélection dans la liste déroulante. Par exemple, vous pouvez choisir d&#39;afficher uniquement les références de contenu dans votre plan DITA et un fichier affiche uniquement les références de contenu rompues qui y sont utilisées.
 
-   La rubrique DITA, le plan DITA, la référence de fichier, la référence de clé, la référence de contenu, la référence de clé de contenu, la référence d&#39;image, la référence de fichier multimédia et la référence de clé multimédia sont des valeurs disponibles pour la liste déroulante **Type de lien** et la rubrique DITA, le plan DITA, le document, l&#39;image, la vidéo, l&#39;audio et autres sont des valeurs disponibles pour la liste déroulante **Type de fichier**.
+   Rubrique DITA, Mappage DITA, Référence de fichier, Référence de clé, Référence de contenu, Référence de clé de contenu, Référence d&#39;image, Référence de fichier multimédia et Référence de clé multimédia sont des valeurs disponibles pour la liste déroulante **Type de lien** et Rubrique, Mappage, Document, Image, Vidéo, Audio et Autres sont des valeurs disponibles pour la liste déroulante **Type de fichier**.
 1. Vous pouvez également utiliser les options de filtrage suivantes pour choisir d&#39;afficher les colonnes suivantes dans la liste :
 
    - **Lien rompu** (sélectionné par défaut) Le chemin d&#39;accès du lien rompu est spécifié dans le plan DITA.
 
-   - **Type de lien** (sélectionné par défaut) Type des liens. Les options disponibles sont Rubrique DITA, Plan DITA, Référence de fichier, Référence de clé, Référence de contenu, Référence de clé de contenu, Référence d&#39;image, Référence de fichier multimédia et Référence de clé multimédia.
+   - **Type de lien** (sélectionné par défaut) Type des liens. Les options disponibles sont les suivantes : Rubrique, Mappage, Référence de fichier, Référence de clé, Référence de contenu, Référence de clé de contenu, Référence d’image, Référence de fichier multimédia et Référence de clé multimédia.
 
    - **Utilisé dans** (sélectionné par défaut) Références dans lesquelles le lien rompu a été utilisé. Vous pouvez sélectionner la référence pour l’afficher en mode création.
 
-   - **Type de fichier** (sélectionné par défaut) Type de référence - Rubrique DITA, Plan DITA, Document, Image, Vidéo, Audio et Autres.
+   - **Type de fichier** (sélectionné par défaut) Type de référence - Rubrique, Carte, Document, Image, Vidéo, Audio, Etc.
 
    Sélectionnez **Actualiser** pour obtenir une nouvelle liste des liens rompus et afficher les modifications apportées au fichier de mappage ou si des liens rompus dans votre mappage DITA sont mis à jour.
 1. Vous pouvez sélectionner l’icône **Corriger le lien** (![](images/fix-broken-link.svg)) pour réparer le lien rompu.
@@ -266,4 +266,4 @@ Vous pouvez afficher le rapport pour les liens rompus en procédant comme suit :
 1. Sélectionnez **Télécharger** pour télécharger l&#39;instantané de tous les liens rompus dans le plan DITA. Le fichier Excel contient les colonnes sélectionnées et les liens rompus filtrés dans la vue Liens rompus.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation des rapports](reports-intro.md)
+**Rubrique parente :**[ Présentation des rapports](reports-intro.md)
