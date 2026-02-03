@@ -25,10 +25,10 @@ Grâce à l’intégration de Experience Manager Guides et d’Adobe Workfront, 
 
 * Planifiez, attribuez et suivez l’avancement de tâches et de projets individuels sans recourir à de multiples outils non intégrés.
 * Gérez tous les workflows Experience Manager Guides, notamment la création, la révision, la publication et la traduction de contenu plus efficacement.
-* Recevez des notifications par e-mail d’Adobe Workfront chaque fois que de nouvelles tâches sont affectées. Pour plus d’informations, consultez [Présentation des notifications](https://experienceleague.adobe.com/en/docs/workfront/using/basics/use-notifications/wf-notifications).
+* Recevez des notifications par e-mail d’Adobe Workfront chaque fois que de nouvelles tâches sont affectées. Pour plus d’informations, consultez [Présentation des notifications](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/use-notifications/wf-notifications).
 * Surveillez l’intégrité du projet à l’aide du tableau de bord intuitif d’Adobe Workfront qui offre des informations en temps réel sur les performances du projet.
 
-  Pour en savoir plus sur les puissantes fonctionnalités de gestion de projet d’Adobe Workfront activées pour les chefs de projet dans Experience Manager Guides, consultez la section [Planifier un projet](https://experienceleague.adobe.com/en/docs/workfront/using/manage-work/projects/plan-a-project/plan-project).
+  Pour en savoir plus sur les puissantes fonctionnalités de gestion de projet d’Adobe Workfront activées pour les chefs de projet dans Experience Manager Guides, consultez la section [Planifier un projet](https://experienceleague.adobe.com/fr/docs/workfront/using/manage-work/projects/plan-a-project/plan-project).
 
 ## Commencer
 
@@ -61,7 +61,7 @@ Les fonctionnalités suivantes sont disponibles sur la page des tâches de Workf
 
 La page Tâches de Workfront comprend également une ![](./images/Smock_LinkOut_18_N.svg) d’icône de lien vers l’extérieur qui, lorsqu’elle est sélectionnée, vous mène à la page du projet Adobe Workfront. Ici, vous pouvez afficher les détails de la tâche, afficher des commentaires, ajouter des commentaires et accéder à d’autres fonctionnalités en fonction des autorisations mappées avec votre compte Adobe Workfront.
 
-Pour plus d’informations, consultez [Aperçu des dates de projet, de tâche et d’événement dans Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/definitions-pti-dates).
+Pour plus d’informations, consultez [Aperçu des dates de projet, de tâche et d’événement dans Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/navigate/definitions-pti-dates).
 
 ### Création de tâches Workfront
 
@@ -122,7 +122,7 @@ Une nouvelle tâche est créée et répertoriée sous l’onglet **Créée par v
 
 >[!NOTE]
 >
-> En tant que chef de projet, vous pouvez afficher cette nouvelle tâche dans votre tableau de bord Adobe Workfront, ainsi que d’autres détails importants sur la tâche. Pour plus d’informations, voir [Présentation des tableaux de bord](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
+> En tant que chef de projet, vous pouvez afficher cette nouvelle tâche dans votre tableau de bord Adobe Workfront, ainsi que d’autres détails importants sur la tâche. Pour plus d’informations, voir [Présentation des tableaux de bord](https://experienceleague.adobe.com/fr/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
 
 ### Gestion des tâches que vous avez créées
 
