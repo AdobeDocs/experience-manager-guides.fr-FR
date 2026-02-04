@@ -2,9 +2,9 @@
 title: Notes de mise à jour | Nouveautés de la version Adobe Experience Manager Guides 2026.01.0
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 2026.01.0 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: f0ba8dce38a6eef5dedc8a81107c8e31ea6b26b3
+source-git-commit: cb3b06e18391fdfc53eb5abd4096553781eab0b8
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1551'
 ht-degree: 1%
 
 ---
@@ -156,6 +156,8 @@ Pour plus d’informations sur la configuration du paramètre prédéfini de sor
 ### Prise en charge du mappage de composants au niveau des éléments dans la publication de New AEM Sites (à l’aide du mappage de composants composites)
 
 Experience Manager Guides prend désormais en charge le mappage de composants au niveau des éléments dans la sortie AEM Sites (à l’aide du mappage de composants composites), ce qui permet aux équipes de contrôler précisément la manière dont les éléments DITA s’affichent à l’aide de `componentmapping.json`. En mappant des `topicref`, des titres, des images, des tableaux et plus encore aux composants principaux d’AEM appropriés, vous obtenez une structure plus épurée au lieu de tout ce qui est par défaut le composant de texte. Cela se traduit par de meilleures performances et des expériences Sites plus riches et plus modernes.
+
+Pour plus d’informations, consultez la section [Mappage des composants dans AEM Sites](../cs-install-guide/component-mapping.md).
 
 ## Améliorations du traitement des ressources
 
