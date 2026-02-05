@@ -4,7 +4,7 @@ description: Découvrez comment créer un contenu d’index personnalisé
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 7d2d0c21001cd53244588f6b700db184a73ffa77
+source-git-commit: 9a4f0391c464d69ea65ecfdaac6ecdcb17d1a3da
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 3%
@@ -52,9 +52,6 @@ Créez la définition d’index suivante dans votre projet sur :
           compatVersion="{Long}2"
           evaluatePathRestrictions="{Boolean}true"
           includedPaths="[/content/dam]"
-          reindex="{Boolean}false"
-          reindexCount="{Long}1"
-          seed="{Long}958982603885135223"
           selectionPolicy="tag"
           tags="[ditaSearch]"
           type="lucene">
@@ -212,6 +209,6 @@ La vérification principale consiste à tester la fonctionnalité :
 ## Ressources supplémentaires
 
 - [Documentation sur l’indexation AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/operations/indexing)
-- [&#x200B; Guide d’indexation Apache Jackrabbit Oak &#x200B;](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [Documentation AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides)
+- [ Guide d’indexation Apache Jackrabbit Oak ](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
+- [Documentation AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
 - [Documentation Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)
