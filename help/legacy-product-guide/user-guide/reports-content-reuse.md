@@ -20,7 +20,7 @@ ht-degree: 0%
 
 | Application | Experience Manager Guides Cloud Service, <br> Experience Manager Guides On-Premise |
 | -------- | ---------------------------- |
-| **Version** | 4,6 **** |
+| **Version** | 4,6 **&#x200B;**&#x200B;|
 
 Le rapport de réutilisation du contenu est un autre rapport utile que vous pouvez générer. Ce rapport calcule le pourcentage moyen d’utilisation du contenu, ce qui est très utile pour les chefs de projet et les propriétaires d’entreprise qui souhaitent voir la quantité de contenu réutilisée.
 
@@ -71,4 +71,4 @@ Pour afficher le rapport de réutilisation du contenu, procédez comme suit :
 >
 > Vous pouvez également exporter le rapport de réutilisation du contenu au format CSV. Pour ce faire, cliquez sur le lien Exporter au format CSV dans le coin supérieur gauche de l’écran et choisissez un emplacement pour enregistrer le fichier CSV. Vous pouvez ensuite ouvrir ce fichier CSV dans n’importe quel éditeur CSV.
 
-**Rubrique parente :**[ Rapports](reports-intro.md)
+**Rubrique parente :**&#x200B;[&#x200B; Rapports](reports-intro.md)
