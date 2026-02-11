@@ -128,7 +128,7 @@ Le processus de conversion implique les actions suivantes sur le serveur princip
 - Création et validation de rubriques DITA et de fichiers map DITA individuels.
 - Suppression des fichiers temporaires.
 
-D&#39;une manière générale, le processus de conversion nécessite que vous [Préparez les fichiers InDesign pour la conversion](appendix.md#id195DBF0045Z)[appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) et [Préparez le fichier de mappage pour la migration d&#39;InDesign vers DITA](appendix.md#id194AF0003HT)[appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT), vous devez ensuite suivre la procédure donnée d&#39;exécution du processus de conversion.
+D&#39;une manière générale, le processus de conversion nécessite que vous [Préparez les fichiers InDesign pour la conversion](appendix.md#id195DBF0045Z) [appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) et [Préparez le fichier de mappage pour la migration d&#39;InDesign vers DITA](appendix.md#id194AF0003HT) [appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT), vous devez ensuite suivre la procédure donnée d&#39;exécution du processus de conversion.
 
 Effectuez les étapes suivantes pour convertir vos documents InDesign existants en document de type rubrique DITA :
 
@@ -401,4 +401,4 @@ Pour convertir vos documents structurés existants au format DITA, procédez com
 
 Le bloc `<config> </config>` vous permet de définir un ou plusieurs blocs de configurations pour la conversion. Le workflow de conversion est exécuté et la sortie finale, sous la forme d&#39;une rubrique DITA, est enregistrée à l&#39;emplacement spécifié dans l&#39;élément `outputDir`.
 
-**Rubrique parente :**[ Migrer le contenu existant](migrate-content.md)
+**Rubrique parente :**&#x200B;[&#x200B; Migrer le contenu existant](migrate-content.md)
