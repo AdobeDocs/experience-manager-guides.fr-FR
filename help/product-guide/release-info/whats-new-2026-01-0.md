@@ -2,9 +2,10 @@
 title: Notes de mise à jour | Nouveautés de la version Adobe Experience Manager Guides 2026.01.0
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 2026.01.0 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: cb3b06e18391fdfc53eb5abd4096553781eab0b8
+exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
+source-git-commit: 2c20191ba998ad7da98587f1832e1fe8499d023c
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1591'
 ht-degree: 1%
 
 ---
@@ -106,9 +107,18 @@ Vous pouvez désormais suivre le nombre de mots présents dans un mappage ou un 
 
 Pour plus d’informations, consultez [Panneau de droite dans l’éditeur](../user-guide/web-editor-right-panel.md#file-properties).
 
-### Amélioration de la gestion des fichiers en lecture seule
+### Les propriétés de métadonnées ne peuvent plus être modifiées pour les fichiers en lecture seule
 
-La modification des propriétés de fichier est désormais limitée aux fichiers qui sont en mode **Lecture seule**. Si un fichier est verrouillé par un autre utilisateur (disponible en mode Lecture seule), vous ne pouvez pas modifier une propriété de métadonnées, que ce soit à partir du panneau [Droite](../user-guide/web-editor-right-panel.md#file-properties), de l’option **Propriétés** du menu [contextuel d’un fichier](../user-guide/web-editor-other-features.md#context-menu-functions-on-a-files-tab) ou du [Rapport de métadonnées](../user-guide/reports-web-editor.md#metadata-report). Cela permet d’éviter les modifications accidentelles des fichiers en lecture seule.
+Avec cette version, lorsque le paramètre `Disable Edit Without Checkout` est activé, les propriétés du fichier ne peuvent plus être modifiées si un fichier est en mode **Lecture seule**.
+
+Cette restriction s’applique à tous les points d’entrée où les propriétés peuvent être modifiées, notamment :
+
+- Le **panneau de droite** de l’interface de l’éditeur
+- Option **Propriétés** dans le menu contextuel du fichier
+- Rapport de métadonnées d’une carte
+- Interface utilisateur d’Assets
+
+Si un fichier est en lecture seule, vous devez d&#39;abord extraire le fichier avant d&#39;apporter des modifications à ses propriétés. Cette modification applique des contrôles d’autorisation plus stricts et garantit que les mises à jour des propriétés suivent les mêmes règles d’extraction et de verrouillage que les modifications de contenu.
 
 ## Améliorations de la révision
 
@@ -176,19 +186,3 @@ Les améliorations d’API suivantes ont été apportées dans le cadre de cette
 
 - De nouvelles API sont introduites pour créer un projet de traduction et suivre leur statut. Ces API permettent d’automatiser le processus de traduction, de réduire les efforts manuels et d’améliorer l’efficacité. Pour plus d’informations, consultez [Créer un projet de traduction](../api-reference/translation-project.md)
 - Amélioration des API de traitement des ressources avec une meilleure capacité de filtrage des fichiers et des dossiers. Pour plus d’informations, consultez [Traitement des ressources](../api-reference/bulk-assets-processing.md).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
