@@ -38,11 +38,11 @@ Au cours de cette session, nous avons abordé les sujets suivants :
 
 ## Ressources connexes
 
-- [Consultez la documentation des workflows](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/review/review)
+- [Consultez la documentation des workflows](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/user-guide/review/review)
 
-- [Intégration d’AEM Guides à Workfront](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
+- [Intégration d’AEM Guides à Workfront](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
 
-- [Personnalisation de l’interface utilisateur de révision](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
+- [Personnalisation de l’interface utilisateur de révision](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
 
 
 
@@ -55,7 +55,7 @@ Au cours de cette session, nous avons abordé les sujets suivants :
 
 ### Forum de la communauté
 
-- Pour plus d’interactions de la communauté Experience League spécifiques à une session, rendez-vous sur [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- Pour plus d’interactions de la communauté Experience League spécifiques à une session, rendez-vous sur [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=fr).
 
 
 ## Nous contacter
