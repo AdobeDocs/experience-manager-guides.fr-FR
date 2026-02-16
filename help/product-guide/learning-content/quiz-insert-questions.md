@@ -4,9 +4,9 @@ description: Découvrez comment insérer des questions dans un quiz dans la form
 feature: Authoring
 role: User
 exl-id: dff38476-c078-4970-b967-05a902430015
-source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
+source-git-commit: 1df47cf35590f10bdfe7fdbc3501d7c47137ed56
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Pour insérer des questions dans un quiz, procédez comme suit :
 
-1. Sélectionnez le type de question souhaité dans le menu déroulant **Questions** de la barre d’outils. Selon vos besoins, vous pouvez ajouter des questions en utilisant l’un des quatre formats disponibles : Vrai ou Faux, Correction simple, Correction multiple et Correspondance comme illustré ci-dessous. Pour plus d’informations, consultez la section [Types de questions](#question-types).
+1. Sélectionnez le type de question souhaité dans le menu déroulant **Questions** de la barre d’outils. Selon vos besoins, vous pouvez ajouter des questions à l’aide de l’un des quatre formats disponibles : Vrai ou Faux, Correction simple, Correction multiple, Correspondance des éléments suivants et Réponse courte comme illustré ci-dessous. Pour plus d’informations, consultez la section [Types de questions](#question-types).
 
    ![](assets/question-types.png){width="650" align="left"}
 
@@ -25,11 +25,28 @@ Pour insérer des questions dans un quiz, procédez comme suit :
 
 1. Une question est insérée dans le format sélectionné. Vous pouvez ensuite modifier la question en fonction de vos besoins.
 
-1. Vous pouvez sélectionner n’importe quelle question et configurer ses propriétés à l’aide du panneau **Propriétés du contenu**. Par exemple, vous pouvez spécifier la bonne réponse, définir les notes à attribuer et définir toute pénalité en cas de réponses incorrectes.
+1. Vous pouvez sélectionner n’importe quelle question et configurer ses propriétés à l’aide du panneau **Propriétés du contenu**.
 
    ![](assets/question-properties.png){width="650" align="left"}
 
 1. Enregistrez toutes les modifications apportées au quiz.
+
+
+## Propriétés de la question
+
+Vous pouvez configurer les questions à l’aide des propriétés de question suivantes dans le panneau **Propriétés du contenu** :
+
+![](assets/question-properties-new.png){width="350" align="left"}
+
+- **Options** : indiquez la bonne réponse à la question
+- **Question Id** : indique l’ID de question pour chaque question. Si un ID de question n’est pas présent, il est recommandé de toujours l’ajouter.
+- **Points pour la bonne réponse** : indiquez les points à attribuer pour la bonne réponse.
+- **Sanction en cas de réponse incorrecte** : indiquez les points à déduire en cas de réponse incorrecte.
+- **Libellé de question** : permet d&#39;ajouter un libellé de question.
+- **Commentaires** : activez cette option pour fournir des commentaires en cas de réponse correcte ou incorrecte.
+- **Épingler l’option à la position** : lorsqu’une option spécifique pour une question est épinglée, elle reste fixe à la position spécifiée dans la liste des options, même si **Randomiser les choix de réponse pour chaque tentative** est activé dans la configuration des paramètres prédéfinis SCORM, ce qui redistribuerait autrement les options disponibles. Vous pouvez pointer sur l’option souhaitée d’une question dans le panneau Propriétés du contenu et l’épingler.
+
+  ![](assets/pin-question.png){width="350" align="left"}
 
 ## Insérer un paragraphe dans le quiz
 
@@ -62,7 +79,7 @@ Les types de questions suivants sont pris en charge dans un quiz :
   ![](assets/true-false.png){width="650" align="left"}
 
 
-- **Correction multiple** : question avec plusieurs options pour laquelle plusieurs réponses peuvent être correctes.
+- **Plusieurs corrects** : question avec plusieurs options pour laquelle plusieurs réponses peuvent être correctes.
 
   ![](assets/multi-correct.png){width="650" align="left"}
 
@@ -73,3 +90,8 @@ Les types de questions suivants sont pris en charge dans un quiz :
   Dans la sortie publiée, la question **Faire correspondre le suivant** s’affiche avec un menu déroulant pour chaque élément, ce qui vous permet de sélectionner la correspondance appropriée parmi les options disponibles.
 
   ![](assets/question-type-publishing.png){width="650" align="left"}
+
+
+- **Réponse courte** : permet aux élèves de répondre à l’aide d’une brève entrée de texte. Il accepte les réponses alphanumériques, applique une distinction majuscules/minuscules aux réponses et fournit une barre de défilement horizontale pour les réponses très longues.
+
+  ![](assets/short-answer.png){width="650" align="left"}
