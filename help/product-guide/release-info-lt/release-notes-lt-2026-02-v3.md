@@ -3,9 +3,9 @@ title: Notes de mise à jour | Nouveautés de la version de février 2026 du con
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version de février 2026 des contenus de formation et d’apprentissage du produit
 role: Leader
 hidefromtoc: true
-source-git-commit: 5ba7ba00cbc9209aad9f17f0793d621f1f1838e2
+source-git-commit: 16e7f12ddc9e72e4344bf98e65718c0f3681b348
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
@@ -30,12 +30,14 @@ Les fonctionnalités suivantes ont été introduites dans la version de février
 
   ![](assets/negative-scores-lc.png)
 
-- **Supprimer les widgets par un clic droit** : en plus de supprimer les questions du quiz, vous pouvez désormais supprimer des widgets tels que les accordéons, les cartes retournées et les onglets avec **Clic droit > Supprimer l’élément**. Cette amélioration étend la fonctionnalité existante *Supprimer la question* aux widgets, ce qui vous permet de les supprimer avec moins de clics et une navigation minimale.
+- **Supprimer les widgets par un clic droit** : en plus de supprimer les questions du quiz, vous pouvez désormais supprimer des widgets tels que les accordéons, les cartes retournées et d’autres widgets avec **Clic droit > Supprimer l’élément**. Cette amélioration étend la fonctionnalité existante *Supprimer la question* aux widgets, ce qui vous permet de les supprimer avec moins de clics et une navigation minimale.
 
   En savoir plus sur [Utilisation de widgets interactifs](../learning-content/lc-widgets.md).
 
   ![](assets/delete-widget-items.png)
 - **Épingler les choix de réponses** : vous pouvez désormais épingler des choix de réponses spécifiques afin que leur position reste inchangée, même lorsque les réponses sont randomisées pendant la génération de la sortie SCORM. Cela s’avère particulièrement utile pour les options telles que *Tout ce qui précède* ou *Aucun ce qui précède*.
+
+  En savoir plus sur les [Propriétés de la question](../learning-content/quiz-insert-questions.md#question-properties).
 
   ![](assets/pin-question.png)
 - **Type de réponse courte** : le type de question à réponse courte permet aux élèves de répondre à l’aide de réponses alphanumériques brèves et descriptives au lieu de sélectionner des options prédéfinies. Ce type de question encourage les élèves à se rappeler et à articuler activement leur compréhension dans leurs propres mots, rendant les évaluations plus attrayantes pour les élèves.
@@ -64,5 +66,5 @@ Les problèmes suivants ont été corrigés dans la version de février 2026 du 
 - Lors de l’utilisation de Experience Manager Guides sur Mozilla Firefox, la carte Retourner affiche le texte au recto et au verso après le retournement. (GUIDES-39983)
 - Lorsque vous cliquez sur la Table des matières (table des matières) dans le volet de gauche du cours, le cours continue d’afficher l’état d’achèvement même si le quiz a échoué. (GUIDES-40398)
 - Si vous tentez de faire correspondre le type de question suivant dans un quiz de manière incorrecte dans ALM, les options sélectionnées n’apparaissent pas dans le rapport. (GUIDES-38640)
-- Lors de la génération de la sortie PDF, les styles de création appliqués ne sont pas conservés, ce qui entraîne des incohérences dans la conception.(GUIDES-38642)
+- Lors de la génération de la sortie PDF, les styles de création appliqués ne sont pas conservés, ce qui entraîne des incohérences dans la conception. (GUIDES-38642)
 

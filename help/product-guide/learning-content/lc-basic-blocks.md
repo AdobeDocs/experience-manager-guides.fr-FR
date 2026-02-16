@@ -4,7 +4,7 @@ description: Découvrez les blocs de création de base que vous pouvez ajouter �
 feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
-source-git-commit: 338213dd1e6f093a82bbf7d3283f81c3fdb96431
+source-git-commit: 16e7f12ddc9e72e4344bf98e65718c0f3681b348
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -94,6 +94,7 @@ Pour inclure un titre et un sous-titre dans votre contenu d’apprentissage, pro
    >[!NOTE]
    >
    > Si vous ne souhaitez pas utiliser l’en-tête existant comme titre, insérez d’abord un en-tête à l’aide du composant Texte dans la barre d’outils de l’éditeur, puis sélectionnez **Ajouter un titre**. Un exemple **Titre** est ainsi ajouté au contenu, que vous pouvez modifier selon vos besoins.
+
 1. Dans Propriétés du fichier, sélectionnez **Ajouter un sous-titre**.
 Un exemple **Sous-titre** est ajouté au contenu.
 
