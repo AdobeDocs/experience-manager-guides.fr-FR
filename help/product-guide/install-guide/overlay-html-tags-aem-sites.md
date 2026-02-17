@@ -5,7 +5,7 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 726420e0-fe52-4334-b72a-8eb8bcae4d6c
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: e0b0df19b7ec691a894130eb42df827921b4890c
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Effectuez les étapes suivantes pour recouvrir et mettre à jour le fichier `con
 
 1. Accédez au fichier de configuration disponible à l’emplacement suivant :
 
-   `/libs/fmdita/cq/xssprotection/config.xml`
+   `/libs/cq/xssprotection/config.xml`
 
 1. Créez un nœud de recouvrement du dossier `xssprotection` dans le nœud des applications.
 
@@ -143,4 +143,4 @@ Zones cliquables :
 
 
 
-En savoir plus sur les bonnes pratiques relatives à la [sécurité](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/introduction/security).
+En savoir plus sur les bonnes pratiques relatives à la [sécurité](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security).
