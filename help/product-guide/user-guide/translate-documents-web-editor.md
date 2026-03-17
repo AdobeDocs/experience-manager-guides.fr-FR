@@ -4,9 +4,9 @@ description: Traduisez votre contenu dans plusieurs langues à partir de l’éd
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 4165535976082c1e8f28bf15f16999b6bfe5bf9a
+source-git-commit: c619c518a3ae1629897eb90f5f15aa4742be5ef2
 workflow-type: tm+mt
-source-wordcount: '2446'
+source-wordcount: '2519'
 ht-degree: 1%
 
 ---
@@ -73,11 +73,16 @@ Avant d’effectuer les étapes de cette procédure, assurez-vous d’avoir cré
 
    **Aucun** sélectionnez cette option pour traduire les versions par défaut des fichiers. Cette option est sélectionnée par défaut.
 
-   **Utiliser la ligne de base :** vous pouvez sélectionner une ligne de base pour traduire votre projet. Sélectionnez **Utiliser la ligne de base** et choisissez une ligne de base créée sur la carte. Tous les fichiers faisant partie de la ligne de base sélectionnée sont affichés sur la page Traduction . Une fois votre contenu traduit, vous pouvez exporter la ligne de base traduite. Pour plus d&#39;informations sur l&#39;exportation de la ligne de base traduite, voir [&#x200B; Exporter la ligne de base traduite &#x200B;](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
+   **Utiliser la ligne de base :** vous pouvez sélectionner une ligne de base pour traduire votre projet. Sélectionnez **Utiliser la ligne de base** et choisissez une ligne de base créée sur la carte. Tous les fichiers faisant partie de la ligne de base sélectionnée sont affichés sur la page Traduction . Une fois votre contenu traduit, vous pouvez exporter la ligne de base traduite. Pour plus d&#39;informations sur l&#39;exportation de la ligne de base traduite, voir [ Exporter la ligne de base traduite ](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 
    **Utiliser la dernière version comme activée** : choisissez de filtrer la version des rubriques en fonction de leur date et heure de création. Lorsque vous sélectionnez une date et une heure, seules la dernière version des fichiers créés le ou avant la date et l’heure sélectionnées s’affichent.
 
 1. Sélectionnez **Appliquer**. Une liste comportant des détails sur les rubriques et les ressources associées s’affiche.
+
+   >[!NOTE]
+   >
+   > Lors de la traduction de mappages avec des références de fichier DITAVAL et Markdown, et lorsque la traduction est basée sur la copie de travail, des références telles que des images et d’autres ressources liées sont incluses à condition qu’elles existent dans le dossier de langue source. Ces références apparaissent dans la liste de références du tableau de bord de traduction, ce qui vous permet de les sélectionner explicitement pour la traduction. Lors de la traduction, les ressources référencées sont copiées dans le dossier de langue cible et gérées de manière cohérente avec le comportement de traduction d’image standard.
+
 1. Sélectionnez les rubriques à envoyer pour traduction. Vous pouvez également utiliser les options de filtrage par rubrique pour les colonnes suivantes :
 
    - **Title** : titre du fichier source.  Passez la souris sur le titre du fichier source pour afficher le titre du fichier cible ou traduit.
@@ -234,4 +239,4 @@ Pour effectuer la gestion des documents, Experience Manager Guides permet de sup
 Vous pouvez également désactiver les projets de traduction si vous souhaitez les utiliser ultérieurement. La suppression d’un projet supprime tous les fichiers et dossiers présents dans le projet. La désactivation d’un projet ne le supprime pas, mais le conserve dans le référentiel. Cependant, vous ne pouvez pas mettre à jour ni modifier un projet désactivé.  La suppression ou la désactivation d’un projet n’aura aucune incidence sur le statut de traduction des références.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

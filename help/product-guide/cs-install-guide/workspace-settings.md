@@ -3,9 +3,10 @@ title: Paramètres de Workspace dans Experience Manager Guides
 description: Découvrez les différents paramètres disponibles dans l’interface de l’éditeur de Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: d838a7d6e576e0f9317ebe8c7a811c3efebe9f72
+exl-id: 3c3880af-8d32-4d8a-9dca-8be12e9a5fd5
+source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
 workflow-type: tm+mt
-source-wordcount: '2151'
+source-wordcount: '2440'
 ht-degree: 0%
 
 ---
@@ -33,9 +34,9 @@ L’option **Paramètres Workspace** présente dans la barre d’onglets [de l�
 
 ## Général
 
-Les paramètres Général vous permettent de configurer les paramètres pour utiliser l’éditeur. Cet onglet contient cinq sections : **Assistant IA**, **Création**, **Citations**, **Condition** et **Vérification orthographique**.
+Les paramètres Général vous permettent de configurer les paramètres pour utiliser l’éditeur. Cet onglet contient sept sections : **Assistant IA**, **Création**, **Citations**, **Condition**, **Éditeur HTML**, **Contenu d’apprentissage** et **Vérification orthographique**.
 
-![](../user-guide/images/editor-setting-general.png){width="350" align="left"}
+![](assets/workspace-settings.png){width="350" align="left"}
 
 - **Assistant IA**
 Sélectionnez cette option pour activer la fonctionnalité [Assistant IA](../user-guide/ai-assistant.md) dans Experience Manager Guides. Désélectionnez cette option pour désactiver la fonction.
@@ -75,8 +76,28 @@ Sélectionnez cette option pour activer la fonctionnalité [Assistant IA](../use
    - **Afficher le schéma d’objet dans le panneau Conditions** : sélectionnez cette option pour afficher un schéma d’objet dans le panneau Conditions. Si vous désélectionnez cette option, les conditions définies s’affichent dans le panneau Conditions .
 
 - **Vérification orthographique**
-Il existe deux options : **Vérification orthographique AEM** et **Vérification orthographique du navigateur**. Par défaut, l’éditeur utilise la fonction de vérification orthographique du navigateur , où la vérification orthographique est effectuée à l’aide du dictionnaire intégré du navigateur. Vous pouvez passer à la vérification orthographique d’AEM pour utiliser le dictionnaire Adobe Experience Manager, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section [&#x200B; Personnaliser le dictionnaire par défaut d’AEM &#x200B;](../cs-install-guide/customize-aem-custom-dictionary.md) dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
+Il existe deux options : **Vérification orthographique AEM** et **Vérification orthographique du navigateur**. Par défaut, l’éditeur utilise la fonction de vérification orthographique du navigateur , où la vérification orthographique est effectuée à l’aide du dictionnaire intégré du navigateur. Vous pouvez passer à la vérification orthographique d’AEM pour utiliser le dictionnaire Adobe Experience Manager, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section [ Personnaliser le dictionnaire par défaut d’AEM ](../cs-install-guide/customize-aem-custom-dictionary.md) dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
 
+- **Contenu d’apprentissage** : ce paramètre vous permet d’activer ou de désactiver la fonctionnalité de contenu de formation et d’apprentissage du produit pour votre instance Experience Manager Guides. Utilisez le bouton (bascule) **Activer le contenu d’apprentissage** pour activer ou désactiver la fonctionnalité au niveau du profil du dossier. Par défaut, cette fonctionnalité reste désactivée pour toutes les instances.
+
+  En savoir plus sur la fonctionnalité [Formation et contenu d’apprentissage du produit](../learning-content/intro.md).
+
+  Les fonctionnalités/options suivantes ne sont disponibles que lorsque le paramètre Contenu de formation est activé :
+
+   - **Création de cours** : permet d’activer des options de création et de gestion de cours à partir de l’éditeur et de la page d’accueil.
+   - **Modèles SCORM** : permet d’activer l’option de création de modèles SCORM sous *Modèles de sortie* dans l’éditeur.
+   - **Modèles de contenu et paramètres prédéfinis de sortie** : active les options de configuration Modèles de contenu et Paramètres prédéfinis de sortie dans la boîte de dialogue Paramètres Workspace.
+
+Lorsque le contenu d’apprentissage est désactivé, toutes les options ci-dessus ne sont plus disponibles dans l’interface de Experience Manager Guides.
+
+Pour plus d’informations, consultez [Configuration des profils de dossier](../lc-config-guide/lc-folder-profile.md).
+
+- **Éditeur HTML** : pour le contenu d’apprentissage, ce paramètre vous permet de configurer l’éditeur pour la création basée sur HTML. Les principales options de configuration de ce paramètre sont les suivantes :
+
+   - **Masquer le style intégré** : activez cette option pour empêcher les auteurs d’appliquer un formatage en ligne au contenu du cours. Lorsqu’elles sont activées, toutes les options de style intégrées telles que Polices, Bordure, Disposition, Arrière-plan et Colonnes présentes dans le panneau de droite de l’éditeur restent masquées pour les auteurs. Cependant, les créateurs peuvent toujours utiliser les options de style globales basées sur les classes disponibles dans le panneau **Styles**. Cela permet de maintenir la cohérence avec les directives de style de votre organisation.
+   - **Masquer la vue Source pour les auteurs** : activez cette option pour restreindre l’accès au code source HTML. Cela s’avère utile si vous souhaitez simplifier l’expérience de modification ou éviter des modifications accidentelles du code sous-jacent.
+
+  Pour plus d’informations, consultez [création et personnalisation de contenu d’apprentissage](../learning-content/lc-overview.md).
 
 ## Panneaux
 
@@ -173,7 +194,7 @@ Configurez le serveur ServiceNow pour charger les ressources.
 
 - Pour créer un profil, sélectionnez la base de connaissances ServiceNow dans le menu déroulant **Type de serveur**. Saisissez un profil **Nom**. Dans l’URL **ServiceNow**, saisissez le site client que vous utiliseriez pour publier la sortie, puis ajoutez les **Nom d’utilisateur** et **Mot de passe** fournis par le site client ServiceNow. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
 
-  ![Profil de publication ServiceNow &#x200B;](../user-guide/images/service-now-publish-profile.png){width="550" align="left"}
+  ![Profil de publication ServiceNow ](../user-guide/images/service-now-publish-profile.png){width="550" align="left"}
 
   Après la validation, vous pouvez sélectionner le profil de publication dans les paramètres prédéfinis de sortie d&#39;un plan DITA et l&#39;utiliser pour générer la sortie vers le serveur **Salesforce** ou **ServiceNow** que vous avez choisi.
 
@@ -261,5 +282,3 @@ Une erreur s’affiche si le chemin d’accès aux métadonnées est vide. Si vo
 
 Vous pouvez également définir l’ordre d’affichage de ces balises de métadonnées. Pour modifier l’ordre par défaut de ces balises, sélectionnez les barres pointillées pour faire glisser et déposer les balises à l’emplacement souhaité.
 Les libellés de métadonnées apparaissent dans la même séquence dans la boîte de dialogue **Historique des versions** de l’éditeur.
-
-

@@ -4,9 +4,9 @@ description: Découvrez comment créer une tâche de révision et envoyer des ru
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: cd536b9e27b3c422fc723e9f13b12ac432fa3fc9
+source-git-commit: c36dbb3861f904bda1aee176fc5f4c0dd69b97dc
 workflow-type: tm+mt
-source-wordcount: '3055'
+source-wordcount: '3135'
 ht-degree: 0%
 
 ---
@@ -53,19 +53,20 @@ Pour créer une tâche de révision et envoyer des rubriques à réviser, procé
    >
    > Vous ne pouvez créer une tâche de révision que pour les rubriques comportant une révision. Si la rubrique sélectionnée n&#39;a pas de révision, une invite s&#39;affiche.
 
-   ![](images/create-review-task-023.png){width="650" align="left"}
-
+   ![](images/create-review-task-023.png)
 1. Saisissez un **Titre** pour la tâche et sélectionnez un projet DITA.
 
 1. Dans le champ déroulant **Projet**, sélectionnez un projet DITA pour cette tâche de révision. Vous pouvez également saisir le nom du projet pour le localiser rapidement dans la liste déroulante.
 
-1. Dans le champ déroulant **Affecter à**, sélectionnez les réviseurs auxquels vous souhaitez envoyer les rubriques pour révision.
+1. Dans le champ déroulant **Affecter à**, sélectionnez les réviseurs auxquels vous souhaitez envoyer les rubriques pour révision. Vous pouvez également effectuer une recherche par nom de membre ou nom de rôle dans le projet sélectionné lorsque vous saisissez du texte.
 
-   Vous pouvez affecter une tâche de révision à des utilisateurs individuels du projet ou à des groupes d’utilisateurs. Notez que vous ne pouvez affecter une tâche de révision à des utilisateurs individuels que lorsque vous faites partie du groupe d’administrateurs du projet. Sinon, vous ne pourrez afficher que les groupes d’utilisateurs dans le champ Affecter à .
+   Le champ *Affecter à* n’est activé qu’après avoir sélectionné un projet actif dans le champ *Projet*. La liste des membres ou des rôles est récupérée en fonction du projet sélectionné. Si aucun projet n’est sélectionné, le champ *Affecter à* reste désactivé.
+
+   Vous pouvez affecter une tâche de révision à des utilisateurs individuels du projet ou à des groupes d’utilisateurs. Notez que vous ne pouvez affecter une tâche de révision à des utilisateurs individuels que lorsque vous faites partie du groupe d’administrateurs du projet. Sinon, vous ne pourrez afficher que les groupes d’utilisateurs dans le champ *Affecter à*.
 
    >[!NOTE]
    >
-   > Le workflow de révision est spécifique au projet. Lorsque vous créez des projets, vous ajoutez les membres de l’équipe au projet et les affectez à des groupes. Ainsi, lorsque vous sélectionnez le projet ici, vous pouvez choisir les membres qui font partie de ce projet. Pour plus d&#39;informations sur les projets, voir [Créer un projet DITA](authoring-create-dita-project.md#).
+   > Le workflow de révision est spécifique au projet. Lorsque vous créez des projets, vous ajoutez les membres de l’équipe au projet et les affectez à des groupes. Ainsi, lorsque vous sélectionnez le projet ici, vous avez la possibilité de choisir les membres qui font partie de ce projet. Pour plus d&#39;informations sur les projets, voir [Créer un projet DITA](authoring-create-dita-project.md#).
 
 1. Saisissez une **Description** pour la tâche.
 
@@ -92,6 +93,10 @@ Pour créer une tâche de révision et envoyer des rubriques à réviser, procé
    Si vous ne sélectionnez pas cette option, les réviseurs ajoutés dans le champ **Affecter à** auront accès à la révision uniquement des rubriques qui leur sont affectées.
 
 1. Sélectionnez **Suivant**.
+
+   >[!NOTE]
+   >
+   > Le bouton **Suivant** n’est activé qu’après avoir fourni des détails sur tous les champs obligatoires, y compris *Titre*, *Projet*, *Affecter à* et *Date d’échéance*.
 
    La page Contenu s’affiche.
 
@@ -306,4 +311,4 @@ Une fois la tâche de révision mise à jour, les réviseurs et réviseuses reç
 Pour plus d’informations, voir [Présentation des notifications de révision](./review-understanding-review-notifications.md).
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de la révision](review.md)
+**Rubrique parente :**[ Présentation de la révision](review.md)

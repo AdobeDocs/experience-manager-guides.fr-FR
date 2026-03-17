@@ -4,16 +4,16 @@ description: Découvrez comment télécharger des fichiers à partir de la conso
 exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
 feature: Content Management
 role: User
-source-git-commit: e413a49a8ec5e2e129b86b50bc5750f41c101e5d
+source-git-commit: 5deb4411c82f07aa82e52b4608a71a78136c128d
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
 
 # Télécharger les fichiers {#id216MC0H0BE8}
 
-Vous pouvez télécharger des ressources, y compris des fichiers DITA et non DITA. Vous pouvez télécharger des ressources de plusieurs façons. Certaines méthodes sont natives à Adobe Experience Manager et d’autres sont prises en charge par Adobe Experience Manager Guides. Pour obtenir des informations sur le téléchargement des ressources natives de Adobe Experience Manager, consultez [Télécharger des ressources depuis Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=fr) dans la documentation de Adobe Experience Manager. La section suivante explique le mécanisme de téléchargement des fichiers dans Experience Manager Guides.
+Vous pouvez télécharger des ressources, y compris des fichiers DITA et non DITA. Vous pouvez télécharger des ressources de plusieurs façons. Certaines méthodes sont natives à Adobe Experience Manager et d’autres sont prises en charge par Adobe Experience Manager Guides. Pour obtenir des informations sur le téléchargement des ressources natives de Adobe Experience Manager, consultez [Télécharger des ressources depuis Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) dans la documentation de Adobe Experience Manager. La section suivante explique le mécanisme de téléchargement des fichiers dans Experience Manager Guides.
 
 ## Télécharger un fichier de plan DITA à partir de l&#39;éditeur
 
@@ -37,18 +37,17 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA à pa
    - **Options de hiérarchie de fichiers** : vous pouvez également utiliser la liste déroulante de hiérarchie de fichiers pour choisir comment la structure de dossiers est gérée pour vos fichiers de mappage téléchargés. Les options disponibles sont les suivantes :
 
       - **Conserver la hiérarchie de fichiers** : sélectionnez cette option dans la liste déroulante pour conserver la structure de dossiers existante pour les fichiers téléchargés.
+      - **Aplatir la hiérarchie de fichiers** : sélectionnez cette option dans la liste déroulante pour télécharger toutes les rubriques et tous les fichiers multimédias référencés dans un seul dossier.
 
-        Les options disponibles dans le cadre de cette méthode sont les suivantes :
+     Pour chaque option, vous pouvez spécifier davantage la manière dont les noms de fichier sont gérés pour les fichiers téléchargés. Les options de nom de fichier suivantes sont disponibles :
 
-         - **Utiliser le nom de fichier GUID** : télécharge le fichier de mappage avec GUID comme nom de fichier.
-
-         - **Utiliser le nom de fichier réel** : télécharge le fichier de mappage avec son nom de fichier d’origine.
-
-      - **Aplatir la hiérarchie de fichiers** : sélectionnez cette option dans la liste déroulante pour télécharger toutes les rubriques et tous les fichiers multimédias référencés dans un seul dossier. Seule l’option **Utiliser le nom de fichier GUID** est disponible pour les fichiers de mappage lors de l’utilisation de cette méthode.
+      - **Utiliser le nom de fichier GUID** : télécharge le fichier map avec GUID comme nom de fichier.
+      - **Utiliser le nom de fichier réel** : télécharge le fichier de mappage avec son nom de fichier d’origine. Lorsque cette option est utilisée avec la hiérarchie de fichiers d&#39;aplatissement, tous les noms de fichiers en double dans la carte sont automatiquement résolus en ajoutant des suffixes numériques (_2, _3, etc.) pour garantir des noms de fichiers uniques.
 
    >[!NOTE]
    >
    > Vous pouvez également télécharger le fichier de mappage sans sélectionner d’option. Dans ce cas, la dernière version conservée des rubriques et fichiers multimédias référencés est téléchargée.
+
 
 1. Sélectionnez **Télécharger**.
 
@@ -65,6 +64,8 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA à pa
    >[!NOTE]
    >
    > Par défaut, les cartes téléchargées restent pendant cinq jours dans la boîte de réception de notifications de Adobe Experience Manager.
+
+Une fois la carte téléchargée, vous pouvez sélectionner la carte et utiliser l’icône Ouvrir en haut pour ouvrir le contenu téléchargé. Pour afficher les métadonnées associées à la carte téléchargée, ouvrez le fichier `metdata.json` inclus dans le contenu téléchargé. Ce fichier est disponible pour les deux options *Hiérarchie des fichiers* - Aplatir la hiérarchie des fichiers et Conserver la hiérarchie des fichiers.
 
 ## Télécharger un fichier de mappage DITA à partir du tableau de bord de mappage
 
@@ -109,6 +110,6 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA avec 
 
 ![](images/download-map-inbox.png){width="300" align="left"}
 
-Une fois la carte téléchargée, vous pouvez sélectionner la carte et utiliser l’icône Ouvrir en haut pour ouvrir le rapport sélectionné.
+Une fois la carte téléchargée, vous pouvez sélectionner la carte et utiliser l’icône Ouvrir en haut pour ouvrir le contenu téléchargé.
 
-**Rubrique parente :**&#x200B;[&#x200B; Gérer le contenu](authoring.md)
+**Rubrique parente :**[ Gérer le contenu](authoring.md)

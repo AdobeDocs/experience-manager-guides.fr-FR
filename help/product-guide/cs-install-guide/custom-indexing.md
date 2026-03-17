@@ -4,9 +4,10 @@ description: Découvrez comment créer un contenu d’index personnalisé
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 9a4f0391c464d69ea65ecfdaac6ecdcb17d1a3da
+exl-id: 682d58df-7404-4e84-9b5f-ab40c46bef84
+source-git-commit: 1bffdade37658bd44128cac9226a349f828abd45
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '439'
 ht-degree: 3%
 
 ---
@@ -34,6 +35,10 @@ Pour activer la fonction Rechercher et remplacer (vue Source), vous devez déplo
 ```
 guidesAssetLucene-1-custom-1
 ```
+
+>[!NOTE]
+>
+> Incrémentez le numéro d’index si un index personnalisé portant le même nom existe déjà.
 
 ### Définition d’index (.content.xml)
 
@@ -153,6 +158,11 @@ Créez la définition d’index suivante dans votre projet sur :
                         jcr:primaryType="nt:unstructured"
                         mappedType="text/markdown+source"/>
             </text>
+            <text jcr:primaryType="nt:unstructured">
+   <html
+        jcr:primaryType="nt:unstructured"
+        mappedType="text/html+source"/>
+</text>
         </mimeTypes>
     </tika>
 </jcr:root>
@@ -209,6 +219,6 @@ La vérification principale consiste à tester la fonctionnalité :
 ## Ressources supplémentaires
 
 - [Documentation sur l’indexation AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/operations/indexing)
-- [&#x200B; Guide d’indexation Apache Jackrabbit Oak &#x200B;](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [Documentation AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides)
+- [ Guide d’indexation Apache Jackrabbit Oak ](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
+- [Documentation AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
 - [Documentation Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)

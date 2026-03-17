@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: c034a95570c4e580bd4811684daaefc191e5ca84
+source-git-commit: a4cb2e65813a0ee31d5f5a7a267be73dd0212534
 workflow-type: tm+mt
-source-wordcount: '2509'
+source-wordcount: '2559'
 ht-degree: 10%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 10%
       - Services cloud {#cloud-release-notes}
          - [Instructions de déploiement](./release-info/deploy-xml-on-aemaacs.md)
          - Versions De 2026 {#2026-releases}
+            - Version 2026.03.0 {#2603-release}
+               - [Nouveautés](./release-info/whats-new-2026-03-0.md)
+               - [Problèmes résolus](./release-info/fixed-issues-2026-03-0.md)
+               - [Instructions de mise à niveau](./release-info/upgrade-instructions-2026-03-0.md)
             - Version 2026.01.0 {#2601-release}
                - [Nouveautés](./release-info/whats-new-2026-01-0.md)
                - [Problèmes résolus](./release-info/fixed-issues-2026-01-0.md)
@@ -128,7 +132,7 @@ ht-degree: 10%
             - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-1-0.md)
          - Version 5.0.0 SP3 {#500-sp3-release}
             - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp3.md)
-            - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-5-0-0-sp3.md)
+            - [ Instructions de mise à niveau ](./release-info/upgrade-instructions-5-0-0-sp3.md)
          - Version 5.0.0 SP2 {#500-sp2-release}
             - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp2.md)
             - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0-sp2.md)
@@ -147,7 +151,7 @@ ht-degree: 10%
             - [Instructions de mise à niveau](./release-info/upgrade-instructions-4-6-0-sp2.md)
          - Version 4.6.0 SP1 {#460-sp1-release}
             - [Correction de problèmes](./release-info/fixed-issues-4-6-0-sp1.md)
-            - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-4-6-0-sp1.md)
+            - [ Instructions de mise à niveau ](./release-info/upgrade-instructions-4-6-0-sp1.md)
          - Version 4.6.0 {#460-release}
             - [Nouveautés](./release-info/whats-new-4-6.md)
             - [Correction de problèmes](./release-info/fixed-issues-4-6-0.md)
@@ -174,13 +178,13 @@ ht-degree: 10%
                - [Notes de mise à jour de la version 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notes de mise à jour 4.2](./release-info/release-notes-4-2.md)
          - [Notes de mise à jour 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notes de mise à jour d’4.0.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notes de mise à jour d’3.8.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - Notes de mise à jour d’[4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - Notes de mise à jour d’[3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guide de l’utilisateur (nouvelle interface utilisateur) {#user-guide}
    - Présentation {#about-aemg}
       - [À propos  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - Fonctionnalités [!DNL AEM Guides] et clés {#aemg-works-features}
-         - [Fonctionnement  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+         - [Fonctionnement  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
          - [Fonctionnalités [!DNL AEM Guides] clés](./user-guide/intro-dxml-features.md)
    - Page d’accueil {#home-page}
       - [Expérience de la page d’accueil [!DNL AEM Guides]](./user-guide/intro-home-page.md)
@@ -284,6 +288,7 @@ ht-degree: 10%
          - Utiliser niveau de référence {#work-with-baseline}
             - [Créer et gérer des niveaux de référence à partir de la console Map](./user-guide/web-editor-baseline.md)
             - [Créer et gérer des niveaux de référence à partir du tableau de bord Mappage](./user-guide/generate-output-use-baseline-for-publishing.md)
+            - [Créer et gérer de nouvelles lignes de base à partir de la console Carte](./user-guide/web-editor-baseline-v2.md)
          - [Gestion des paramètres prédéfinis de sortie de profil global et de dossier](./user-guide/web-editor-manage-output-presets.md)
          - [Utilisez des variables pour définir les options Chemin de destination, Nom du site ou Nom de fichier](./user-guide/generate-output-use-variables.md)
          - [Transmettre les métadonnées à la sortie à l’aide de DITA-OT](./user-guide/pass-metadata-dita-ot.md)
@@ -306,6 +311,7 @@ ht-degree: 10%
          - [Activer la sortie](./user-guide/conf-bulk-activation-publish-map-collection.md)
          - [Modification d’une collection de mappages d’activation en bloc](./user-guide/conf-bulk-activation-edit-map-collection.md)
          - [Supprimer une collection de mappages d’activation en bloc](./user-guide/conf-bulk-activation-delete-map-collection.md)
+         - [Gestion de la réplication des ressources sources DITA](./user-guide/dita-assets-replication-aem-sites.md)
    - Génération en sortie de documents FrameMaker {#generate-fm-output}
       - [Principes de base de la génération de sortie FrameMaker](./user-guide/fm-output-generatation.md)
       - Préréglages pris en charge {#fm-docs-generating-presets}
@@ -347,7 +353,7 @@ ht-degree: 10%
             - [Créer un quiz](./learning-content/create-quiz.md)
             - [Modifier le quiz](./learning-content/edit-quiz.md)
             - [Insérer des questions dans un quiz](./learning-content/quiz-insert-questions.md)
-            - [&#x200B; Propriétés du quiz &#x200B;](./learning-content/quiz-properties.md)
+            - [ Propriétés du quiz ](./learning-content/quiz-properties.md)
             - Banque de questions {#question-bank}
                - [Créer une banque de questions](./learning-content/create-qb.md)
                - [Insérer des questions depuis la banque de questions](./learning-content/insert-questions.md)
@@ -380,7 +386,7 @@ ht-degree: 10%
       - Résolution des problèmes {#troubleshooting}
          - [Timeout de session](./user-guide/session-timeout-prompt.md)
 - Guide de l’utilisateur (ancienne interface utilisateur) {#user-guide-old-ui}
-   - [Présentation d’AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Présentation d’AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation et configuration {#install-guide}
    - On-Premise {#on-prem-ig}
       - [Notions de base sur site](./install-guide/introduction.md)
@@ -480,6 +486,8 @@ ht-degree: 10%
          - [Configurer le nettoyage de l’arborescence B](./install-guide/configure-btree-clean-up-job.md)
       - Indexation personnalisée{#custom-indexing}
          - [Déploiement d’un index personnalisé pour la recherche et le remplacement (vue Source)](./install-guide/custom-indexing-prem.md)
+      - Utilisation de la réplication des ressources DITA{#dita-assets-replication}
+         - [Configuration de la réplication des ressources DITA](./install-guide/configure-dita-asset-replication.md)
       - [Annexe](./install-guide/appendix.md)
    - Services cloud {#cs-ig}
       - [À propos de ce guide](./cs-install-guide/introduction.md)
@@ -489,6 +497,7 @@ ht-degree: 10%
          - [Configurer Dispatcher](./cs-install-guide/download-install-configure-dispatcher.md)
          - [Vérification de l’installation d’AEM Guides](./cs-install-guide/download-install-verify-dxml-installation.md)
          - [Mettre à niveau AEM Guides](./cs-install-guide/download-install-upgrade-dxml.md)
+         - [Configuration supplémentaire pour la mise à niveau d’AEM Guides as a Cloud Service](./cs-install-guide/additional-config-for-cloud-service.md)
          - [Remplacements de configuration](./cs-install-guide/download-install-additional-config-override.md)
          - [Recommandations pour l’optimisation des performances](./cs-install-guide/download-install-recommend-perf-optimiz.md)
       - Utilisation des groupes d’utilisateurs et de la sécurité {#user-group-sec-cs}
@@ -569,6 +578,8 @@ ht-degree: 10%
          - [Configurer le nettoyage de l’arborescence B](./cs-install-guide/configure-btree-cleanup-cs.md)
       - Indexation personnalisée{#custom-indexing-cs}
          - [Déploiement d’un index personnalisé pour la recherche et le remplacement (vue Source)](./cs-install-guide/custom-indexing.md)
+      - Utilisation de la réplication des ressources DITA{#dita-assets-replication-cs}
+         - [Configuration de la réplication des ressources DITA](./cs-install-guide/configure-dita-assets-replication.md)
       - [Annexe](./cs-install-guide/appendix.md)
 - Référence d’API {#api-reference}
    - [Présentation](./api-reference/introduction.md)

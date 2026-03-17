@@ -4,9 +4,9 @@ description: Découvrez comment importer et valider une rubrique DITA, utiliser 
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 64d2f0027c35396a549d11a0186e218dd513b22a
+source-git-commit: dd058ef30707716054279f16527adb286a9deb8d
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '982'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,6 @@ ht-degree: 0%
 
 Pour importer les fichiers Schematron, procédez comme suit :
 
-![](images/schematron-panel.png){width="300" align="left"}
-
 1. Accédez au dossier requis (dans lequel vous souhaitez charger les fichiers) dans *Référentiel*.
 1. Sélectionnez l’icône **Options** pour ouvrir le menu contextuel et choisissez **Charger des ressources**.
 1. Dans la boîte de dialogue **Charger des ressources**, vous pouvez modifier le dossier de destination dans le champ **Sélectionner le dossier de ressources**.
@@ -41,16 +39,16 @@ Après avoir importé les fichiers Schematron, vous pouvez les modifier dans l&#
 
 Lorsque vous ouvrez une rubrique dans l’éditeur, un panneau Validation du schéma s’affiche à droite. Effectuez les étapes suivantes pour ajouter et valider une rubrique ou un mappage avec un fichier Schematron :
 
-![](images/schematron-panel-file-validated.png){width="500" align="left"}
+![](images/schematron-panel.png){width="350" align="left"}
 
-1. Sélectionnez l’icône Schéma () pour ouvrir le panneau Schéma .
+1. Sélectionnez l’icône Schéma pour ouvrir le panneau Schéma .
 1. Utilisez **Ajouter un fichier Schematron** pour ajouter des fichiers Schematron.
 
    >[!NOTE]
    >
    > Lorsqu’un fichier de schéma non valide est ajouté, un message d’erreur s’affiche dans le panneau Validation .
 
-   ![](images/schematron-panel-error.png){width="300" align="left"}
+   ![](images/schematron-panel-error.png){width="350" align="left"}
 
 1. Si le fichier Schematron ne comporte aucune erreur, il est ajouté et répertorié dans le panneau Validation . Un message d’erreur s’affiche pour le fichier Schematron contenant les erreurs.
 
@@ -58,14 +56,42 @@ Lorsque vous ouvrez une rubrique dans l’éditeur, un panneau Validation du sch
    >
    >Vous pouvez utiliser l’icône en forme de croix près du nom du fichier Schematron pour le supprimer.
 
-1. Sélectionnez **Valider avec Schematron** pour valider la rubrique.
+1. Sélectionnez **Valider** pour valider la rubrique avec les fichiers Schematron ajoutés.
 
    * Si la rubrique n’enfreint aucune règle, le message de réussite de la validation s’affiche pour le fichier.
    * Si la rubrique enfreint une règle, par exemple, si elle ne contient pas de titre et est validée pour le schéma donné ci-dessus, une erreur de validation s’affiche.
 
+   >[!NOTE]
+   >
+   > Les résultats de la validation s’affichent en fonction de l’attribut de rôle défini dans le fichier Schematron. Pour plus d’informations, consultez la section [Présentation des résultats de validation et des niveaux de gravité](#understanding-validation-results-and-serverity-levels).
+
 1. Sélectionnez le message d’erreur pour mettre en surbrillance l’élément contenant l’erreur dans la rubrique/le mappage ouvert.
 
 La prise en charge de Schematron dans l’éditeur vous aide à valider les fichiers par rapport à un ensemble de règles, tout en préservant la cohérence et l’exactitude des rubriques.
+
+## Présentation des résultats de validation et des niveaux de gravité
+
+Les résultats de la validation s’affichent en fonction de l’attribut de rôle défini dans le fichier Schematron. Les événements sont classés en `Fatal`, `Error`, `Warn` ou `Info`, avec un nombre visible pour chaque catégorie dans le panneau Validation.
+
+![](images/schematron-validation-errors.png){width="350" align="left"}
+
+Pour déterminer la gravité d’un problème, la valeur _sensible à la casse_ de l’attribut de rôle défini dans le fichier Schematron correspondant est évaluée.
+
+Le fragment suivant présente les valeurs d’attribut de rôle prises en charge définies dans une règle de schéma :
+
+* `<sch:assert role="error" test="@id">Element must have an ID.</sch:assert>`
+* `<sch:report role="info" test="not(@alt)">Image should have an alt attribute.</sch:report>`
+* `<sch:assert role= "fatal" test="b"> Bold must be there in <sch:name/> element</sch:assert>`
+* `<sch:assert role= "warn" test="b"> Recommended formatting is missing in <sch:name/> element</sch:assert>`
+
+Si l’attribut de rôle n’est pas spécifié ou si une valeur non prise en charge est utilisée, le problème est classé comme `Error` dans le panneau Validation . Ce comportement s’applique également aux fichiers Schematron existants qui ne définissent pas d’attribut de rôle. Dans ce cas, tous les problèmes sont regroupés sous `Error`.
+
+**Scénarios d’enregistrement de fichier**
+
+L’enregistrement d’un fichier dépend du paramètre **Exécuter la vérification de validation avant d’enregistrer le fichier** dans les paramètres [Workspace](../cs-install-guide/workspace-settings.md#validation) :
+
+* Lorsqu’il est activé, vous n’êtes pas autorisé à enregistrer le fichier tant que les problèmes de niveau `Fatal` ou `Error` ne sont pas résolus.
+* Lorsque cette option est désactivée, les contrôles de validation ne sont pas effectués et les fichiers peuvent être enregistrés même en présence de problèmes de niveau `Fatal` ou `Error`.
 
 ## Utilisez des instructions d’assertion et de rapport pour rechercher des règles{#schematron-assert-report}
 

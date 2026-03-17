@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-source-git-commit: 64adc89966e60823f6b46fb062b7659ed150cfc3
+source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1657'
 ht-degree: 0%
 
 ---
@@ -36,15 +36,28 @@ Pour commencer à utiliser la configuration de profil de dossiers pour le conten
    ![](assets/folder-profile.png){width="650" align="left"}
 
 6. **Configurer les paramètres de profil de dossier** : pour le contenu d’apprentissage et de formation, les paramètres suivants peuvent être configurés au niveau d’un dossier :
+   - [Général](#general)
    - [Panneaux](#configure-panels)
-   - [Modèles](#configure-templates)
+   - [Modèles de contenu](#configure-content-templates)
    - [Paramètres prédéfinis de sortie](#configure-output-presets)
    - [éditeur HTML](#html-editor-settings)
    - [Publication de profils](#manage-publish-profiles)
 
-Pour accéder à ces paramètres, basculez vers la vue Éditeur et sélectionnez **Paramètres** dans le menu **Options** comme illustré ci-dessous :
+Pour accéder à ces paramètres, basculez vers la vue Éditeur et sélectionnez **Paramètres Workspace** dans le menu **Options** comme illustré ci-dessous :
 
 ![](assets/access-editor-settings.png)
+
+## Général
+
+Dans l’onglet Général , vous pouvez configurer les paramètres suivants qui sont spécifiques à la fonctionnalité de contenu Formation et apprentissage du produit :
+
+![](assets/lc-config-settings-general.png){width="350" align="left"}
+
+- **Contenu d’apprentissage** : utilisez le bouton (bascule) **Activer le contenu d’apprentissage** pour activer ou désactiver la fonctionnalité au niveau du profil du dossier.
+- **Éditeur HTML** : ce paramètre vous permet de configurer l’éditeur pour la création basée sur HTML. Les principales options de configuration de ce paramètre sont les suivantes :
+
+   - **Masquer le style intégré** : activez cette option pour empêcher les auteurs d’appliquer un formatage en ligne au contenu du cours. Lorsqu’elles sont activées, toutes les options de style intégrées telles que Polices, Bordure, Disposition, Arrière-plan et Colonnes présentes dans le panneau de droite de l’éditeur restent masquées pour les auteurs. Cependant, les créateurs peuvent toujours utiliser les options de style globales basées sur les classes disponibles dans le panneau **Styles**. Cela permet de maintenir la cohérence avec les directives de style de votre organisation.
+   - **Masquer la vue Source pour les auteurs** : activez cette option pour restreindre l’accès au code source HTML. Cela s’avère utile si vous souhaitez simplifier l’expérience de modification ou éviter des modifications accidentelles du code sous-jacent.
 
 ## Configuration des panneaux
 
@@ -60,15 +73,24 @@ Pour le contenu de formation théorique et pratique, assurez-vous que seules les
 **Panneau de gauche**
 
 - **Collections** : permet d’organiser et d’enregistrer les fichiers fréquemment utilisés ou d’accéder rapidement aux fichiers partagés.
-- **Référentiel** : permet d’afficher toutes vos cartes, rubriques, images et autres ressources stockées dans le référentiel de contenu, et d’y accéder.
+- **Explorateur** : permet d’afficher toutes les cartes, rubriques, images et autres ressources stockées dans le référentiel de contenu, et d’y accéder.
 - **Responsable de cours** : fournit un espace de travail dédié à la création et à la gestion des cours.
+- **Map** : fournit une vue cartographique du fichier de mappage actuellement ouvert.
+- **Plan** : affiche la hiérarchie structurelle de la rubrique ou de la carte actuellement ouverte, ce qui permet une navigation rapide et un accès au niveau de l’élément.
+- **Workfront** : permet d’accéder à des fonctionnalités de gestion de projet fiables en plus des fonctionnalités de base du système de gestion de contenu par composant (CCMS) de Experience Manager Guides.
+- **Contenu réutilisable** : permet de gérer et d’insérer des éléments ou des rubriques réutilisables pour garantir la cohérence et réduire la duplication du contenu.
+- **Glossaire** : permet de créer et de gérer des termes de glossaire et de les inclure dans les rubriques afin de conserver une terminologie cohérente.
 - **Fragments de code** : permet de créer et de réutiliser de petits fragments de contenu dans divers sujets de vos cours.
 - **Conditions** : permet de configurer des attributs conditionnels au niveau global et du dossier.
+- **Modèles** : permet de créer et de gérer des modèles de cours.
+- **Citations** : permet d’ajouter et de gérer des citations dans le contenu à l’aide des styles de citations pris en charge.
+- **Variables de langue** : permet de définir des variables de langue pour la sortie publiée.
 - **Variables** : permet de créer et de gérer des variables à utiliser dans votre contenu de formation.
-- **Variables de langue** : permet de définir des chaînes localisées pour la sortie publiée ou du texte statique dans les modèles.
-- **Modèles** : permet de créer et de gérer des modèles à l’intention des auteurs.
 - **Modèles de sortie** : permet de créer et de gérer des modèles de sortie pour générer une sortie dans différents formats.
 - **Rechercher et remplacer** : propose des options permettant de rechercher et de remplacer du texte dans les fichiers d’un mappage ou d’un dossier du référentiel. 
+- **Sources de données** : permet de connecter des sources de données externes et de réutiliser des données dans votre contenu.
+- **Révision** : permet de créer et de gérer des workflows de révision dans Experience Manager Guides.
+- **Rapports système** : permet de créer et de gérer des rapports.
 
 **Panneau droit**
 
@@ -90,7 +112,11 @@ Pour le contenu de formation théorique et pratique, assurez-vous que seules les
 
 - **Filtres** : permet d’utiliser des filtres lors de l’utilisation de rapports et de la traduction.
 
-## Configurer les modèles
+## Configurer des modèles de contenu
+
+>[!NOTE]
+>
+> Ce paramètre est disponible uniquement lorsque la fonction de contenu de formation est activée dans les paramètres **Workspace** > **Général**.
 
 Ce paramètre vous permet de gérer les modèles de création et de publication présents dans le panneau [Gauche) de l’éditeur](../user-guide/web-editor-left-panel.md). Vous pouvez ajouter, supprimer ou réorganiser des modèles de création et de sortie, qui seront ensuite accessibles aux auteurs et aux éditeurs.
 
@@ -180,6 +206,10 @@ Vous pouvez également définir l’ordre d’affichage des modèles présents d
 
 ## Configuration des paramètres prédéfinis de sortie
 
+>[!NOTE]
+>
+> Ce paramètre est disponible uniquement lorsque la fonction de contenu de formation est activée dans les paramètres **Workspace** > **Général**.
+
 L’onglet Paramètres prédéfinis de sortie vous permet de définir les formats de sortie disponibles pour publier un cours. Il contient deux sections : **Types de paramètres prédéfinis de sortie autorisés** et **Paramètres prédéfinis de sortie courants**.
 
 ![](assets/configure-course-output-presets.png){width="350" align="left"}
@@ -191,15 +221,6 @@ L’onglet Paramètres prédéfinis de sortie vous permet de définir les format
 - **Paramètres prédéfinis de sortie courants** : cette section affiche les paramètres prédéfinis de sortie généralement créés et ajoutés par les éditeurs à un profil de dossier spécifique. Vous pouvez également supprimer tout paramètre prédéfini qui n’est plus nécessaire.
 
   ![](assets/common-output-presets.png){width="350" align="left"}
-
-## Paramètres de l’éditeur HTML
-
-Ce paramètre vous permet de configurer l’éditeur pour la création basée sur HTML. Les principales options de configuration de ce paramètre sont les suivantes :
-
-![](assets/configure-html-editor-setting.png){width="350" align="left"}
-
-- **Masquer le style intégré** : activez cette option pour empêcher les auteurs d’appliquer un formatage en ligne au contenu du cours. Lorsqu’elles sont activées, toutes les options de style intégrées telles que Polices, Bordure, Disposition, Arrière-plan et Colonnes présentes dans le panneau de droite de l’éditeur restent masquées pour les auteurs. Cependant, les créateurs peuvent toujours utiliser les options de style globales basées sur les classes disponibles dans le panneau **Styles**. Cela permet de maintenir la cohérence avec les directives de style de votre organisation.
-- **Masquer la vue Source pour les auteurs** : activez cette option pour restreindre l’accès au code source HTML. Cela s’avère utile si vous souhaitez simplifier l’expérience de modification ou éviter des modifications accidentelles du code sous-jacent.
 
 ## Gestion des profils de publication
 
