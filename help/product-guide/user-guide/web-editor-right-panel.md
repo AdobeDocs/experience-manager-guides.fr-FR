@@ -4,9 +4,9 @@ description: Découvrez le panneau Droit dans l’éditeur. Découvrez l’inter
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: 05a44af6982a9a23e6bbddeaac52b0700e2e2170
+source-git-commit: ddf28ee20b15ea8bb50c555d1196532ee00d34a5
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Vous pouvez accéder à la fonction **Propriétés du contenu** en sélectionnan
 
 1. Dans le panneau déroulant **Attribut**, sélectionnez l’attribut dans la liste déroulante et spécifiez une valeur d’attribut.  Sélectionnez ensuite **Ajouter**.
 
-   ![panneau attributs avec plusieurs attributs &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![panneau attributs avec plusieurs attributs ](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Pour modifier l’attribut, passez la souris dessus et sélectionnez **Modifier** ![icône-d’édition](images/edit_pencil_icon.svg).
 
@@ -121,6 +121,22 @@ Par défaut, vous pouvez afficher les fichiers par titres. Pointez sur un fichie
 
 Outre l’ouverture de fichiers, vous pouvez également effectuer de nombreuses actions à l’aide du menu **Options** dans la section Références . Vous pouvez effectuer entre autres les actions suivantes : Modifier, Prévisualiser, Copier l’UUID, Copier le chemin d’accès, Ajouter aux collections et Propriétés.
 
+**Des traductions**
+
+Cette section répertorie toutes les copies de langue disponibles pour la ressource actuellement ouverte dans l’éditeur, par ordre alphabétique. Les informations sont présentées sous la forme d’un tableau, avec chaque code de langue et le *titre du fichier* (ou *nom du fichier* correspondant si le *titre du fichier* n’est pas disponible) correspondant.
+
+>[!INFO]
+>
+> Les copies de langue sont créées lorsqu’une ressource est envoyée pour traduction. L’anglais (`en`) agit comme langue source et les copies traduites sont générées dans leurs dossiers de langue cible respectifs (par exemple, `de` pour l’allemand ou `fr` pour le français). Si une ressource n’existe que dans le dossier `en`, aucune copie de langue supplémentaire n’est affichée tant que la traduction n’a pas commencé et n’est pas terminée pour les langues cibles. Si la ressource ne figure dans aucun dossier de langue, la mention **Aucune traduction disponible** s’affiche. Pour plus d’informations, consultez [Bonnes pratiques pour la traduction de contenu](./translation-first-time.md).
+
+![](images/translations-right-panel.png){width="300" align="left"}
+
+Pour chaque copie de langue, vous pouvez pointer sur le fichier pour localiser son chemin d’accès dans le référentiel ou simplement le sélectionner pour l’ouvrir dans l’éditeur. Outre l’ouverture de fichiers, vous pouvez également effectuer de nombreuses actions à l’aide du menu **Options** de la section Traductions . Vous pouvez effectuer entre autres les actions suivantes : Modifier, Prévisualiser, Copier l’UUID, Copier le chemin d’accès, Ajouter aux collections et Propriétés.
+
+![](images/translations-right-panel-options-menu.png){width="300" align="left"}
+
+
+
 ## Révision
 
 Lorsque vous sélectionnez l’icône Réviser , vous ouvrez le panneau de révision dans lequel vous pouvez sélectionner une tâche de révision pour le document actuellement ouvert et afficher les commentaires.
@@ -153,4 +169,4 @@ Découvrez comment utiliser les fichiers Schematron dans Experience Manager Guid
 
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)
