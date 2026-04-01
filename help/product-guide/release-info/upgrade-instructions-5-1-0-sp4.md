@@ -1,0 +1,80 @@
+---
+title: Notes de mise à jour | Instructions de mise à niveau pour Adobe Experience Manager Guides 5.1.0 Service Pack 4
+description: Découvrez la matrice de compatibilité et comment effectuer une mise à niveau vers la version 5.1.0 Service Pack 4 d’Adobe Experience Manager Guides.
+source-git-commit: acc063d149f52a457d4ce2447c8eafaff6296dac
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 3%
+
+---
+
+# Instructions de mise à niveau vers la version 5.1.0 Service Pack 4 (avril 2026)
+
+Cet article contient les instructions de mise à niveau et la matrice de compatibilité pour la version 5.1.0 du Service Pack 4 d’Adobe Experience Manager Guides.
+
+Pour obtenir la liste des problèmes qui ont été résolus dans cette version, voir [Problèmes résolus dans le pack de services 4 d’ 5.1.0](../release-info/fixed-issues-5-1-0-sp4.md).
+
+## Matrice de compatibilité
+
+Cette section répertorie la matrice de compatibilité pour les applications logicielles prises en charge par Experience Manager Guides 5.1.0 Service Pack 4.
+
+| AEM Guides | Version d’AEM | Pack de services |
+| --- | --- | --- |
+| 5.1.0 Service Pack 4 (UUID) | 6.5 LTS | 1 |
+| 5.1.0 Service Pack 4 (UUID) | 6.5 | 23, 22, 21 |
+
+Pour plus d&#39;informations, consultez la section [Exigences techniques](../install-guide/download-install-technical-requirements.md) dans le Guide d&#39;installation et de configuration On-Premise.
+
+### FrameMaker et FrameMaker Publishing Server
+
+| Version | FMPS | FM |
+| --- | --- | --- |
+| 5.1.0 Service Pack 4 (UUID) | Pris en charge | 2022 ou version ultérieure |
+
+### Connecteur D&#39;Oxygène
+
+| Version | Fenêtres du connecteur d&#39;oxygène | Mac du connecteur d&#39;oxygène | Modifier dans Oxygen Windows | Modifier dans Oxygen Mac |
+| --- | --- | --- |--- |--- |
+| 5.1.0 Service Pack 4 (UUID) | 3.8-uuid.1 | 3.8-uuid.1 | 2,3 | 2,3 |
+
+### Version du modèle de la base de connaissances
+
+| Nom du package de composants | Version des composants | Version du modèle |
+|---|---|---|
+| Package de contenu de composants Experience Manager Guides pour Cloud Service | dxml-components.all-1.3.0 | aem-site-template-dxml.all-1.0.4 |
+
+### Nouvelle version du modèle de site AEM
+
+| AEM Guides | Version d’AEM | Version des composants | Version du site |
+|---|---|---| ---|
+| 5.1.0 Service Pack 4 UUID | 6.5 LTS | guides-components.all-1.4.1 | aemg-docs.all-1.2.0 |
+| 5.1.0 Service Pack 4 UUID | 6.5 | guides-components.all-1.4.0 | aemg-docs.all-1.2.0 |
+
+
+## Conditions préalables
+
+Conformément au comportement standard de DITA, l&#39;attribut scope=`external` ne doit pas être appliqué aux liens internes, car il est destiné uniquement aux références à des ressources externes. L’application de cet attribut aux liens internes peut perturber les workflows. Pour le contenu géré dans Experience Manager Guides, utilisez plutôt l’étendue par défaut=`local` ou les références basées sur les clés .
+
+## Mise à niveau vers la version 5.1.0 Service Pack 4 de Experience Manager Guides
+
+Vous pouvez facilement mettre à niveau votre version actuelle de Experience Manager Guides vers la version 5.1.0 du Service Pack 4 sur **AEM 6.5** ou **AEM 6.5 LTS**.
+
+>[!NOTE]
+>
+> Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, consultez la page [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+
+Avant de procéder à la mise à niveau vers la version 5.1.0 Service Pack 4 de Experience Manager Guides, vous devez tenir compte des points suivants :
+
+- Si vous utilisez la version 5.1.0 ou 5.1.x, vous pouvez directement effectuer la mise à niveau vers la version 5.1.0 du Service Pack 4.
+- Si vous utilisez la version 4.6.0, 4.6.x, 5.0.0 ou 5.0.x, vous devez effectuer la mise à niveau vers la version 5.1.0.
+- Si vous utilisez la version 4.6.3, 4.6.1, 4.6 ou 4.4, vous devez effectuer la mise à niveau vers la version 5.0.0.
+- Si vous utilisez la version 4.3.x, 4.2, 4.2.1 (correctif 4.2.1.3), 4.1 ou 4.1.x, vous devez effectuer la mise à niveau vers la version 4.4 avant d’effectuer la mise à niveau vers la version 5.0.0.
+- Si vous utilisez la version 4.0, vous devez effectuer la mise à niveau vers la version 4.2 avant d’effectuer la mise à niveau vers la version 4.3.x.
+- Si vous utilisez la version 3.8.5, vous devez effectuer la mise à niveau vers la version 4.0 avant de passer à la version 4.2.
+- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+
+>[!NOTE]
+>
+> Vous devez installer le pack de services AEM avant de mettre à niveau la version de Experience Manager Guides.
+
+Pour plus d’informations, consultez les [instructions de mise à niveau pour les versions On-premise](../install-guide/upgrade-xml-documentation.md) de Experience Manager Guides.

@@ -5,7 +5,7 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 98413b516865c77ad750bdf6f34874f5e37fb13a
+source-git-commit: acc063d149f52a457d4ce2447c8eafaff6296dac
 workflow-type: tm+mt
 source-wordcount: '9148'
 ht-degree: 0%
@@ -18,15 +18,15 @@ ht-degree: 0%
 >
 > Suivez les instructions de mise à niveau spécifiques à la version sous licence de votre produit.
 
-Vous pouvez mettre à niveau votre version actuelle de Experience Manager Guides vers la version 5.1.0 Service Pack 3 :
+Vous pouvez mettre à niveau votre version actuelle de Experience Manager Guides vers la version 5.1.0 Service Pack 4 :
 
-- Si vous utilisez la version 5.1.0 ou 5.1.x , vous pouvez directement effectuer la mise à niveau vers la version 5.1.0 du pack de services 3.
+- Si vous utilisez la version 5.1.0 ou 5.1.x , vous pouvez directement effectuer la mise à niveau vers la version 5.1.0 du pack de services 4.
 - Si vous utilisez la version 4.6.0, 4.6.x, 5.0.0 ou 5.0.x, vous devez effectuer la mise à niveau vers la version 5.1.0.
 - Si vous utilisez la version 4.6.3, 4.6.1, 4.6 ou 4.4, vous devez effectuer la mise à niveau vers la version 5.0.0.
 - Si vous utilisez la version 4.3.x, 4.2, 4.2.1 (correctif 4.2.1.3), 4.1 ou 4.1.x, vous devez effectuer la mise à niveau vers la version 4.4 avant d’effectuer la mise à niveau vers la version 5.0.0.
 - Si vous utilisez la version 4.0, vous devez effectuer la mise à niveau vers la version 4.2 avant d’effectuer la mise à niveau vers la version 4.3.x.
 - Si vous utilisez la version 3.8.5, vous devez effectuer la mise à niveau vers la version 4.0 avant de passer à la version 4.2.
-- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html).
+- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 >[!NOTE]
@@ -59,11 +59,11 @@ Avant d’exécuter le processus, vous devez effectuer certaines tâches. Les so
 
 >[!NOTE]
 >
-> Ce processus de mise à niveau s’applique uniquement de la version 3.8.5 à la version 4.0. Pour le processus de mise à niveau de la version 3.4 ou ultérieure vers la version 3.8.5, reportez-vous à la section *Mettre à niveau Experience Manager Guides* du guide d’installation spécifique au produit disponible sur [l’archive PDF de l’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html).
+> Ce processus de mise à niveau s’applique uniquement de la version 3.8.5 à la version 4.0. Pour le processus de mise à niveau de la version 3.4 ou ultérieure vers la version 3.8.5, reportez-vous à la section *Mettre à niveau Experience Manager Guides* du guide d’installation spécifique au produit disponible sur [l’archive PDF de l’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 
-**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
+****Conditions préalables****
 
 Avant de commencer le processus de mise à niveau de Experience Manager Guides, vérifiez que vous disposez des éléments suivants :
 
@@ -113,7 +113,7 @@ Cette API est conçue pour migrer les données système comme indiqué dans la s
 ## Installation version 4.0 {#id23598G006XA}
 
 1. Installez la version 4.0 uniquement si les étapes de mise à niveau ont réussi.
-1. Téléchargez le package de la version 4.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) :
+1. Téléchargez le package de la version 4.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) :
 
    - Si vous utilisez la version UUID du logiciel, recherchez « Version UUID 4.0 pour la solution XML Documentation pour AEM 6.5 ».
    - Si vous utilisez une version non UUID du logiciel, recherchez « Version 4.0 non UUID pour XML Documentation solution for AEM 6.5 ».
@@ -136,7 +136,7 @@ La mise à niveau vers la version 4.2 dépend de la version actuelle de Experien
 
 Si vous utilisez la version 4.0, 4.1 ou 4.1.x, vous pouvez directement effectuer la mise à niveau vers la version 4.2.
 
-**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
+****Conditions préalables****
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.2, vérifiez que vous disposez des éléments suivants :
 
@@ -150,7 +150,7 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 
 ## Installer la version 4.2 {#id2245IK0E0EV}
 
-1. Téléchargez le package de la version 4.2 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 4.2 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de la version 4.2.
 1. Une fois l’installation du package terminée, attendez le(s) message(s) suivant(s) dans les journaux :
 
@@ -312,7 +312,7 @@ La mise à niveau vers la version 4.2.1 dépend de la version actuelle de Experi
 >
 >Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
+****Conditions préalables****
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.2.1, vérifiez que vous disposez des éléments suivants :
 
@@ -326,9 +326,9 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 
 ## Installation de la version 4.2.1
 
-1. Téléchargez le package de la version 4.2.1 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 4.2.1 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de la version 4.2.1.
-1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [&#x200B; Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet-for-421).
+1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet-for-421).
 
 
 1. Une fois l’installation du package terminée, attendez le(s) message(s) suivant(s) dans les journaux :
@@ -489,7 +489,7 @@ La mise à niveau vers la version 4.3.0 dépend de la version actuelle de Experi
 >
 >Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
+****Conditions préalables****
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.3.0, vérifiez que vous disposez des éléments suivants :
 
@@ -500,7 +500,7 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 
 ## Installation de la version 4.3.0
 
-1. Téléchargez le package de la version 4.3.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 4.3.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de la version 4.3.0.
 1. Effacez la mémoire cache du navigateur après l’installation du package.
 1. Mettez à niveau le fichier `ui_config.json` à partir de l’onglet **Configuration de l’éditeur XML** dans le profil de dossier.
@@ -530,7 +530,7 @@ Effectuez les étapes suivantes pour post-traiter le contenu existant et utilise
 
    | Point d’entrée | /bin/guides/reports/upgrade |
    |---|---|
-   | Type de demande | **&#x200B;**&#x200B;|
+   | Type de demande | **** |
    | Param | jobId : transmettez le jobId reçu de la demande de publication précédente. |
    | Réponse attendue | - Une fois le traitement terminé, la requête GET répond avec succès. <br> - En cas d’erreur, partagez les journaux d’erreurs ainsi que la sortie de l’API avec votre équipe chargée du succès client.  <br>Exemple d’URL : `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
@@ -547,7 +547,7 @@ La mise à niveau vers la version 4.3.1 dépend de la version actuelle de Experi
 >
 >Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
+****Conditions préalables****
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.3.1, vérifiez que vous disposez des éléments suivants :
 
@@ -558,9 +558,9 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 
 ## Installation de la version 4.3.1
 
-1. Téléchargez le package de la version 4.3.1 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 4.3.1 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de la version 4.3.1.
-1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [&#x200B; Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet-for-431).
+1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet-for-431).
 
 
 1. Une fois l’installation du package terminée, attendez le(s) message(s) suivant(s) dans les journaux :
@@ -731,7 +731,7 @@ Effectuez les étapes suivantes pour post-traiter le contenu existant et utilise
 
    | Point d’entrée | /bin/guides/reports/upgrade |
    |---|---|
-   | Type de demande | **&#x200B;**&#x200B;|
+   | Type de demande | **** |
    | Param | jobId : transmettez le jobId reçu de la demande de publication précédente. |
    | Réponse attendue | - Une fois le traitement terminé, la requête GET répond avec succès. <br> - En cas d’erreur, partagez les journaux d’erreurs ainsi que la sortie de l’API avec votre équipe chargée du succès client.  <br>Exemple d’URL : `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
@@ -788,7 +788,7 @@ La mise à niveau vers la version 4.4.0 dépend de la version actuelle de Experi
 >
 >Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
+****Conditions préalables****
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.4.0, vérifiez que vous disposez des éléments suivants :
 
@@ -799,9 +799,9 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 
 ## Installation de la version 4.4.0
 
-1. Téléchargez le package de la version 4.4.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 4.4.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de la version 4.4.0.
-1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [&#x200B; Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
+1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
 
 1. Une fois l’installation du package terminée, attendez le(s) message(s) suivant(s) dans les journaux :
 
@@ -932,7 +932,7 @@ Effectuez les étapes suivantes pour post-traiter le contenu existant et utilise
 
    | Point d’entrée | /bin/guides/reports/upgrade |
    |---|---|
-   | Type de demande | **&#x200B;**&#x200B;|
+   | Type de demande | **** |
    | Param | jobId : transmettez le jobId reçu de la demande de publication précédente. |
    | Réponse attendue | - Une fois le traitement terminé, la requête GET répond avec succès. <br> - En cas d’erreur, partagez les journaux d’erreurs ainsi que la sortie de l’API avec votre équipe chargée du succès client.  <br>Exemple d’URL : `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
@@ -981,7 +981,7 @@ Si votre base de code contient un autre module de réécriture Sling personnalis
 Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000 à 50, vous devez fusionner le module de réécriture personnalisé existant, le cas échéant, avec `'fmdita-rewriter'`.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Télécharger et installer](download-install.md)
+**Rubrique parente :**[ Télécharger et installer](download-install.md)
 
 
 ## Mise à niveau vers la version 4.6.0
@@ -996,7 +996,7 @@ La mise à niveau vers la version 4.6.0 dépend de la version actuelle de Experi
 >
 > Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
+****Conditions préalables****
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.6.0, vérifiez que vous disposez des éléments suivants :
 
@@ -1007,9 +1007,9 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 
 ## Installation de la version 4.6.0
 
-1. Téléchargez le package de la version 4.6.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 4.6.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de la version 4.6.0.
-1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [&#x200B; Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
+1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
 
 1. Une fois l’installation du package terminée, attendez le(s) message(s) suivant(s) dans les journaux :
 
@@ -1151,7 +1151,7 @@ Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000
 >
 > Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
+****Conditions préalables****
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 5.0.0, vérifiez que vous disposez des éléments suivants :
 
@@ -1162,9 +1162,9 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 5.
 
 ## Installation version 5.0.0
 
-1. Téléchargez le package de la version 5.0.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 5.0.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de la version 5.0.0.
-1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [&#x200B; Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
+1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
 
 1. Une fois l’installation du package terminée, attendez le(s) message(s) suivant(s) dans les journaux :
 
@@ -1299,7 +1299,7 @@ Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000
 
 ## Procédure de réindexation de damAssetLucene
 
-La définition d’index est mise à jour pour damAssetLucene avec des guides. Consultez [cet article](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-16460) pour réindexer damAssetLucene après la mise à niveau vers la version 5.0.0.
+La définition d’index est mise à jour pour damAssetLucene avec des guides. Consultez [cet article](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) pour réindexer damAssetLucene après la mise à niveau vers la version 5.0.0.
 
 >[!NOTE]
 >
@@ -1309,13 +1309,13 @@ La définition d’index est mise à jour pour damAssetLucene avec des guides. C
 
 >[!IMPORTANT]
 >
-> Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, veillez à effectuer d’abord la mise à niveau d’AEM avant de poursuivre la mise à niveau vers Experience Manager Guides 5.1.0. Pour plus d’informations, consultez la section [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/fr/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, veillez à effectuer d’abord la mise à niveau d’AEM avant de poursuivre la mise à niveau vers Experience Manager Guides 5.1.0. Pour plus d’informations, consultez la section [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 **Conditions préalables**
 
 >[!NOTE]
 >
->Si vous effectuez une mise à niveau vers le pack de services 3 d’ 5.1.0, vous devez utiliser la version 5.1.0 ou 5.1.x de Experience Manager Guides.
+>Si vous effectuez une mise à niveau vers le pack de services 4 d’ 5.1.0, vous devez utiliser la version 5.1.0 ou 5.1.x de Experience Manager Guides.
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 5.1.0, vérifiez que vous disposez des éléments suivants :
 
@@ -1329,9 +1329,9 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 5.
 
 ## Installer la version 5.1.0
 
-1. Téléchargez le package de la version 5.1.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 5.1.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de la version 5.1.0.
-1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [&#x200B; Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
+1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
 
 1. Une fois l’installation du package terminée, attendez le(s) message(s) suivant(s) dans les journaux :
 
@@ -1466,7 +1466,7 @@ Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000
 
 ## Procédure de réindexation de damAssetLucene
 
-La définition d’index est mise à jour pour damAssetLucene avec des guides. Consultez [cet article](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-16460) pour réindexer damAssetLucene après la mise à niveau vers la version 5.1.0.
+La définition d’index est mise à jour pour damAssetLucene avec des guides. Consultez [cet article](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) pour réindexer damAssetLucene après la mise à niveau vers la version 5.1.0.
 
 >[!NOTE]
 >
