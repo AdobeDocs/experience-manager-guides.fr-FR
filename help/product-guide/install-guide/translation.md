@@ -5,10 +5,10 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: ea3083542e955a56c27cd833600370a7962c6b8d
+source-git-commit: bbdf4763e8202891eec0259a5f08a7efa9afc668
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 12%
+source-wordcount: '985'
+ht-degree: 10%
 
 ---
 
@@ -23,17 +23,17 @@ Automatisez la traduction du contenu des pages, des ressources et du contenu cr�
 
 La traduction du contenu implique les étapes suivantes :
 
-1. Connectez AEM à votre [fournisseur de services de traduction](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) et créez [&#x200B; configurations de structure d’intégration de traduction](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
+1. Connectez AEM à votre [fournisseur de services de traduction](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) et créez des [configurations de structure d’intégration de traduction](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
 
-1. Associez les pages de votre gabarit de langue au [service de traduction et aux configurations de structure](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
+1. Associez les pages de votre gabarit de langue au [service de traduction et aux configurations de structure](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
 
 1. Identifiez le type de [contenu à traduire](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-rules.html?lang=fr).
 
-1. [Préparez le contenu à traduire](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/tc-prep.html) en créant le gabarit de langue et les pages racine des copies de langue.
+1. [Préparez le contenu à traduire](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html) en créant le gabarit de langue et les pages racine des copies de langue.
 
 1. Créez des [projets de traduction](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=fr) pour collecter le contenu à traduire et préparer le processus de traduction.
 
-1. Utilisez les projets de traduction pour [gérer le processus de traduction &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=fr) contenu.
+1. Utilisez les projets de traduction pour [gérer le processus de traduction ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=fr) contenu.
 
 
 Lorsque votre fournisseur de services de traduction ne fournit pas de connecteur pour l’intégration à AEM, AEM prend en charge l’exportation et l’importation manuelles du contenu traduit au format XML.
@@ -88,7 +88,7 @@ En fonction du workflow de traduction utilisé dans votre configuration, l’opt
 
    >[!NOTE]
    >
-   > Si vous utilisez le connecteur de traduction, vérifiez que vous avez configuré le connecteur comme décrit dans la rubrique *[Configuration de la structure d’intégration de traduction &#x200B;](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/tc-tic.html)* de la documentation AEM.
+   > Si vous utilisez le connecteur de traduction, assurez-vous d’avoir configuré le connecteur comme décrit dans la rubrique *[Configuration de la structure d’intégration de traduction ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* de la documentation AEM.
 
 1. Cliquez sur **Enregistrer**.
 
@@ -123,6 +123,30 @@ Par défaut, l’option de workflow de traduction héritée est désactivée. Vo
 
 1. Cliquez sur **Enregistrer**.
 
+## Configuration du comportement de traduction pour la première fois
+
+Par défaut, lorsque vous effectuez une traduction pour la première fois, des fichiers XML vides sont créés pour la langue de destination. Ces fichiers ne sont traduits qu&#39;après validation. Pour contrôler ce comportement, vous pouvez activer le paramètre `Initialize destination language copy with source content` en procédant comme suit :
+
+>[!NOTE]
+>
+> Ce paramètre s’applique uniquement lorsque le workflow de traduction hérité est désactivé.
+
+1. Ouvrez la page de configuration de la console web Adobe Experience Manager .
+
+   L’URL par défaut pour accéder à la page de configuration est :
+
+   ```http
+   http://<server name>:<port>/system/console/configMgr
+   ```
+
+1. Recherchez et cliquez sur le lot **com.adobe.fmdita.config.ConfigManager**.
+
+1. Sélectionnez le paramètre `Initialize destination language copy with source content` .
+
+   - Lorsque cette option est activée, une copie non versionnée contenant le contenu source est créée à partir de la copie de travail au lieu de générer des fichiers XML vides lors de la première traduction.
+   - (*Par défaut*) Lorsque cette option est désactivée, le comportement par défaut s’applique et des fichiers XML vides sont créés pour la langue de destination lors de la première traduction.
+
+1. Cliquez sur **Enregistrer**.
 
 
 
