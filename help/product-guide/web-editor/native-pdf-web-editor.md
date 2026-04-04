@@ -82,7 +82,7 @@ Dans les paramètres prédéfinis de sortie, sélectionnez **PDF** > **Native-PD
 
 * **Fournir un fichier XMP**
 
-  Vous pouvez également remplir directement les champs de métadonnées en important le fichier [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform). Vous pouvez télécharger un exemple de fichier XMP ici.
+  Vous pouvez également remplir directement les champs de métadonnées en important le fichier [XMP](https://www.adobe.com/fr/products/xmp.html) (Extensible Metadata Platform). Vous pouvez télécharger un exemple de fichier XMP ici.
 
 [Téléchargement](assets/SampleXMP.xmp)
 
