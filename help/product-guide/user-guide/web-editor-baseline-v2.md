@@ -4,9 +4,9 @@ description: Créez et gérez une nouvelle ligne de base (Beta) à partir de la 
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: ddf28ee20b15ea8bb50c555d1196532ee00d34a5
+source-git-commit: d7e5af83e88de18cd8ac2e849c9d6e1807988099
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Cet article s’applique à la nouvelle ligne de base , actuellement disponible en tant que fonctionnalité *Beta*, qui offre des performances améliorées et une stabilité disponible avec la version Experience Manager Guides 2026.03.0. Pour activer la nouvelle fonctionnalité de base dans votre configuration, contactez l’équipe du succès client.
+> Cet article s’applique à la nouvelle ligne de base , actuellement disponible en tant que fonctionnalité **, qui offre des performances améliorées et une stabilité disponible avec la version Experience Manager Guides 2026.03.0. Pour activer la nouvelle fonctionnalité de base dans votre configuration, contactez l’équipe du succès client.
 
-La nouvelle fonctionnalité de base résout les problèmes critiques de fiabilité et de performances associés aux cartes volumineuses et complexes. Il s’accompagne d’une architecture de base repensée qui offre une expérience de base plus rapide, plus stable et plus cohérente.
+La nouvelle fonctionnalité de base résout les problèmes critiques de fiabilité et de performances associés aux cartes volumineuses et complexes. Il s’accompagne d’une architecture de base repensée qui offre une expérience de base plus rapide, plus stable et plus cohérente. Avant d’entrer dans les détails, voici une courte vidéo de présentation qui décrit les fonctionnalités de la nouvelle fonctionnalité de base.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483154/aem-guides)
 
 Le nouveau modèle de ligne de base renforce la gestion des lignes de base en abordant les points faibles courants :
 
@@ -42,7 +44,7 @@ La nouvelle ligne de base introduit des améliorations importantes qui rendent l
 - **Filtrage, tri et navigation :** les lignes de base prennent en charge le filtrage complet sur plusieurs attributs, notamment l’état du document, les libellés, le type de fichier, le type de référence et la recherche basée sur un GUID sur l’ensemble de la ligne de base. La pagination est prise en charge pour les lignes de base volumineuses, avec une option permettant d’inclure des fichiers sans libellés.
 - **Visibilité claire de l’impact sur les dépendances :** l’impact sur les dépendances (pour les dépendances ajoutées ou supprimées) s’affiche en tant qu’aperçu avant l’application des modifications de version, ce qui vous permet de vérifier les modifications avant de les appliquer.
 - **Gestion des libellés plus flexible :** les libellés peuvent être déplacés entre les versions d’une ligne de base, ce qui offre une plus grande flexibilité lors de la gestion des libellés dans différentes versions de rubrique.
-- **&#x200B;**&#x200B;Comportement de modification et d’enregistrement déterministe : les modifications de ligne de base prennent en charge les mises à jour au niveau des lignes, chargent les données gourmandes en ressources (telles que les arborescences de versions et les différences de dépendance) uniquement lors des mises à jour de version et terminent les opérations d’enregistrement de manière déterministe en une seule étape, ce qui réduit les échecs d’enregistrement inattendus et les mises à jour partielles.
+- **Comportement de modification et d’enregistrement déterministe : les modifications de ligne de base prennent en charge les mises à jour au niveau des lignes, chargent les données gourmandes en ressources (telles que les arborescences de versions et les différences de dépendance) uniquement lors des mises à jour de version et terminent les opérations d’enregistrement de manière déterministe en une seule étape, ce qui réduit les échecs d’enregistrement inattendus et les mises à jour partielles.**
 - **Création de lignes de base plus fiable :** les lignes de base sont créées à l’aide de données de référence stockées plutôt que d’une analyse d’exécution, avec les informations de version requises validées au préalable pour éviter les lignes de base incomplètes ou non valides.
 - **Prise en charge des API et de l’automatisation :** le nouveau modèle de référence est entièrement pris en charge par le biais des API REST et de Java SDK, ce qui permet l’automatisation et l’intégration avec des workflows externes.
 
