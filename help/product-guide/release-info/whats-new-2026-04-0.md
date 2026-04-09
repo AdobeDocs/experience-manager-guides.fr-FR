@@ -77,7 +77,7 @@ Pour plus d’informations, consultez [Panneau de droite dans l’éditeur](../u
 
 Désormais, vous pouvez rechercher des citations dans tous les champs du Journal, par exemple *Titre*, *Titre du Journal*, *Auteur*, *Année*, *Volume*, *Number* et *Pages*, à l’aide de l’option **Any field** dans la boîte de dialogue **Ajouter une citation**. La recherche renvoie la citation correspondante la plus proche en fonction du texte saisi.
 
-Pour plus d’informations sur l’ajout de citations dans Experience Manager Guides, consultez la section [ Ajouter et gérer des citations dans votre contenu ](../user-guide/web-editor-apply-citations.md).
+Pour plus d’informations sur l’ajout de citations dans Experience Manager Guides, consultez la section [&#x200B; Ajouter et gérer des citations dans votre contenu &#x200B;](../user-guide/web-editor-apply-citations.md).
 
 ![](assets/add-citations.png){width="350" align="left"}
 
