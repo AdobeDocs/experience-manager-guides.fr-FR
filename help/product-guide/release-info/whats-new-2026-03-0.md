@@ -2,7 +2,9 @@
 title: Notes de mise à jour | Nouveautés de la version Adobe Experience Manager Guides 2026.03.0
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 2026.03.0 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
+exl-id: ae26dd14-983e-4116-ac8d-729c1f4fad20
+hidefromtoc: true
+source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 2%
@@ -27,7 +29,7 @@ Grâce à la création basée sur des modèles, aux composants interactifs du co
 
 >[!NOTE]
 > 
-> La fonctionnalité de contenu de formation et d’apprentissage du produit reste désactivée par défaut pour toutes les instances de Experience Manager Guides as a Cloud Service. Les administrateurs peuvent activer cette fonctionnalité au niveau du profil de dossier depuis **Paramètres Workspace** > **Général**.
+> La fonctionnalité de contenu de formation et d’apprentissage du produit reste désactivée par défaut pour toutes les instances de Experience Manager Guides as a Cloud Service. Les administrateurs peuvent activer cette fonctionnalité au niveau du profil de dossier depuis **Paramètres** > **Général**.
 
 Les principales fonctionnalités sont les suivantes :
 
@@ -77,7 +79,7 @@ Pour plus d’informations, consultez [Panneau de droite dans l’éditeur](../u
 
 Désormais, vous pouvez rechercher des citations dans tous les champs du Journal, par exemple *Titre*, *Titre du Journal*, *Auteur*, *Année*, *Volume*, *Number* et *Pages*, à l’aide de l’option **Any field** dans la boîte de dialogue **Ajouter une citation**. La recherche renvoie la citation correspondante la plus proche en fonction du texte saisi.
 
-Pour plus d’informations sur l’ajout de citations dans Experience Manager Guides, consultez la section [&#x200B; Ajouter et gérer des citations dans votre contenu &#x200B;](../user-guide/web-editor-apply-citations.md).
+Pour plus d’informations sur l’ajout de citations dans Experience Manager Guides, consultez la section [ Ajouter et gérer des citations dans votre contenu ](../user-guide/web-editor-apply-citations.md).
 
 ![](assets/add-citations.png){width="350" align="left"}
 
@@ -112,7 +114,3 @@ Pour plus d’informations sur le téléchargement de fichiers dans Experience M
 Vous pouvez désormais utiliser une expression régulière pour activer ou désactiver le post-traitement pour les dossiers. Cette amélioration permet aux administrateurs de définir des règles de post-traitement qui s’appliquent à plusieurs dossiers ou à des hiérarchies de dossiers entières à l’aide d’une seule configuration, au lieu de spécifier des chemins d’accès aux dossiers individuels.
 
 Pour plus d’informations, consultez [Utilisation d’une expression régulière pour activer ou désactiver le post-traitement](../cs-install-guide/conf-folder-post-processing.md#use-regex-to-enable-or-disable-post-processing).
-
-
-
-

@@ -1,7 +1,9 @@
 ---
 title: Notes de mise à jour | Correction de problèmes dans Adobe Experience Manager Guides, version 2026.03.0
 description: Découvrez les correctifs de bugs de la version 2026.03.0 d’Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 764f6cc0b061020b78cd2808e08a5d05bd183c81
+exl-id: 6eca85f5-d7d3-4486-8b32-8af3a6cce4ee
+hidefromtoc: true
+source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 3%
@@ -60,13 +62,3 @@ Adobe a identifié les problèmes connus suivants pour la version 2026.03.0 :
 - Dans l’interface utilisateur d’Assets, le bouton **Déplacer** n’est pas activé à la première tentative lorsque plus de 2 fichiers ou dossiers sont sélectionnés. (GUIDES-42721) <br> **Solution** : après avoir sélectionné plus de deux fichiers ou dossiers, patientez quelques secondes avant de sélectionner le dossier de destination.
 - Lorsque vous accédez à **Préférences utilisateur** à partir de l’éditeur et mettez à jour la carte racine lorsque le mode Aperçu est ouvert dans l’éditeur, l’aperçu de la carte se charge sous la forme d’un écran vide lorsque vous revenez à l’éditeur. (GUIDES-42412) <br> **Solution** : Actualiser l’aperçu à l’aide de l’icône **Actualiser** disponible en mode Aperçu résout le problème.
 - Le fait de renommer un modèle existant ne met pas à jour le nom dans le panneau **Modèles de sortie** tant que la page n’est pas actualisée manuellement. (GUIDES-42528)<br> **Solution** : actualisez le navigateur pour afficher le nom du modèle mis à jour dans le panneau Modèles Output.
-
-
-
-
-
-
-
-
-
-
