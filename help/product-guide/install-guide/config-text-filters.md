@@ -26,7 +26,7 @@ Par défaut, vous pouvez utiliser certains filtres améliorés pour rechercher l
 Pour configurer les filtres de texte, procédez comme suit :
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur.
-1. Cliquez sur le lien **** en haut et choisissez **Outils**.
+1. Cliquez sur le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
 1. Sélectionnez **Guides** dans la liste des outils, puis cliquez sur le **Profils de dossier**.
 1. Cliquez sur la mosaïque **Profil global**.
 1. Cliquez sur **Configuration de l’éditeur XML**.
@@ -103,4 +103,4 @@ Pour configurer les filtres de texte, procédez comme suit :
 
 Les filtres configurés sont disponibles dans le panneau Filtres .
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)

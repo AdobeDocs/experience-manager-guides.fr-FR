@@ -23,7 +23,7 @@ Pour télécharger et installer AEM Guides pour la première fois, procédez com
 
    >[!NOTE]
    >
-   >Avant d’installer Experience Manager Guides, assurez-vous que votre système répond aux [ exigences techniques ](../install-conf-guide/aemg-technical-requirements.md).
+   >Avant d’installer Experience Manager Guides, assurez-vous que votre système répond aux [&#x200B; exigences techniques &#x200B;](../install-conf-guide/aemg-technical-requirements.md).
 
 1. Connectez-vous à votre instance AEM et accédez au gestionnaire de packages CRX. L’URL par défaut pour accéder au gestionnaire de packages est :
 
@@ -31,7 +31,7 @@ Pour télécharger et installer AEM Guides pour la première fois, procédez com
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   Le gestionnaire de packages gère les packages sur votre installation AEM locale. Pour plus d’informations sur l’utilisation du gestionnaire de packages, consultez [ Utilisation des packages ](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/package-manager.html) dans la documentation d’AEM.
+   Le gestionnaire de packages gère les packages sur votre installation AEM locale. Pour plus d’informations sur l’utilisation du gestionnaire de packages, consultez [&#x200B; Utilisation des packages &#x200B;](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/package-manager.html) dans la documentation d’AEM.
 
    ![](assets/package-manager.png){width="650" align="left"}
 

@@ -32,4 +32,4 @@ ht-degree: 3%
 
 Une fois le processus de mise à niveau terminé, tous les utilisateurs doivent vider la mémoire cache du navigateur avant d’utiliser la version mise à niveau d’AEM Guides.
 
-**Rubrique parente :**[ Télécharger et installer](download-install.md)
+**Rubrique parente :**&#x200B;[&#x200B; Télécharger et installer](download-install.md)

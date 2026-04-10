@@ -50,11 +50,11 @@ Pour configurer Adobe Workfront dans Experience Manager Guides, procédez comme 
 1. Ouvrez le panneau **Outils** et sélectionnez **Guides**.
 2. Sélectionnez **Configurer Workfront**.
 
-   La page de configuration **** s’affiche.
+   La page de configuration **&#x200B;**&#x200B;s’affiche.
 
    ![](assets/configure-workfront-page.png)
 
-3. Sur la page de configuration ****, saisissez l’URL complète du domaine Workfront de votre organisation, l’ID client et la clé secrète client.
+3. Sur la page de configuration **&#x200B;**, saisissez l’URL complète du domaine Workfront de votre organisation, l’ID client et la clé secrète client.
 
    Pour accéder à la clé **ID client** et **Secret client** configurée dans votre configuration Adobe Workfront, accédez à `Setup >> Systems>> oAuth2 Applications`.
 

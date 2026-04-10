@@ -24,9 +24,9 @@ Les onglets suivants fournissent des instructions pour configurer un connecteur 
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
-1. Sélectionnez le lien **** en haut et choisissez Outils.
+1. Sélectionnez le lien **&#x200B;**&#x200B;en haut et choisissez Outils.
 1. Sélectionnez **Guides** dans la liste des outils.
 1. Sélectionnez la mosaïque **Sources de données**. La page **Sources de données** s’affiche. Vous pouvez afficher les sources de données connectées.
 
@@ -115,7 +115,7 @@ Le connecteur est installé dans votre environnement.
 
 >[!TAB  On-Premise ]
 
-1. Sélectionnez le lien **** en haut et choisissez Outils.
+1. Sélectionnez le lien **&#x200B;**&#x200B;en haut et choisissez Outils.
 1. Sélectionnez **Guides** dans la liste des outils.
 1. Sélectionnez la mosaïque **Sources de données**. La page **Sources de données** s’affiche. Vous pouvez afficher les sources de données connectées.
 
@@ -173,6 +173,6 @@ Une erreur s’affiche si le connecteur portant le même nom existe.
 * **Supprimer** : supprimez le connecteur sélectionné.
 
 
-Une fois la source de données configurée, le connecteur est répertorié sous le panneau **Sources de données** dans l’éditeur web. Vous pouvez ensuite vous connecter à la source de données et insérer un fragment de contenu dans vos rubriques. Pour plus d’informations, consultez la section [ Insérer un fragment de contenu à partir de votre source de données ](../user-guide/web-editor-content-snippet.md).
+Une fois la source de données configurée, le connecteur est répertorié sous le panneau **Sources de données** dans l’éditeur web. Vous pouvez ensuite vous connecter à la source de données et insérer un fragment de contenu dans vos rubriques. Pour plus d’informations, consultez la section [&#x200B; Insérer un fragment de contenu à partir de votre source de données &#x200B;](../user-guide/web-editor-content-snippet.md).
 
-Pour la configuration On-Premise uniquement, vous pouvez également créer des connecteurs personnalisés et les utiliser avec les différentes sources de données. Découvrez comment [ configurer des connecteurs personnalisés ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector).
+Pour la configuration On-Premise uniquement, vous pouvez également créer des connecteurs personnalisés et les utiliser avec les différentes sources de données. Découvrez comment [&#x200B; configurer des connecteurs personnalisés &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector).

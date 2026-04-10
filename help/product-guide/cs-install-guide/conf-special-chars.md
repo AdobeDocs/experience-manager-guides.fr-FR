@@ -47,4 +47,4 @@ La structure du fichier `symbols.json` est expliquée ci-dessous :
   Vous pouvez définir plusieurs définitions de caractères spéciaux au sein d’une catégorie.
 
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)

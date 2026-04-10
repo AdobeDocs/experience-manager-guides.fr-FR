@@ -26,7 +26,7 @@ Les onglets ci-dessous indiquent la procédure à suivre pour ajouter ce bouton 
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour ajouter ce bouton à la barre d’outils d’AEM :
 

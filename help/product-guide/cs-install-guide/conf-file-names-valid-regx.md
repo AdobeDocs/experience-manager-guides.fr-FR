@@ -33,4 +33,4 @@ Suivez les instructions fournies dans [Remplacements de la configuration](downlo
 >
 > Tout comme la liste des caractères de nom de fichier valides, vous pouvez également spécifier une liste de caractères de nom de fichier valide pour la sortie du site AEM. Pour plus d’informations, voir [Configurer des noms de fichier valides pour la sortie de site AEM](conf-file-names-valid-regx-aem-site-output.md#).
 
-**Rubrique parente :**[ Configurer les noms de fichier](conf-file-names.md)
+**Rubrique parente :**&#x200B;[&#x200B; Configurer les noms de fichier](conf-file-names.md)

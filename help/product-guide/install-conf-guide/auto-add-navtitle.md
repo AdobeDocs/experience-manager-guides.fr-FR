@@ -21,7 +21,7 @@ Les onglets suivants fournissent des instructions pour inclure `@navtitle` attri
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 1. Pour télécharger le fichier de configuration de l’interface utilisateur, connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 1. Cliquez sur le lien Adobe Experience Manager en haut et choisissez **Outils**.
@@ -90,4 +90,4 @@ Avec cette configuration, chaque fichier de référence que vous ajoutez à une 
 
 >[!ENDTABS]
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](customize-overview.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](customize-overview.md)

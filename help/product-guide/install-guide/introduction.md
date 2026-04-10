@@ -30,7 +30,7 @@ Ce guide est destiné aux types d’audiences suivants :
 
 Les informations contenues dans ce guide sont organisées comme suit :
 
-- [À propos de ce guide ](#id175MC0P0S5Z) : cette rubrique présente ce guide, l’audience ciblée et la manière dont les informations sont organisées dans ce guide.
+- [À propos de ce guide &#x200B;](#id175MC0P0S5Z) : cette rubrique présente ce guide, l’audience ciblée et la manière dont les informations sont organisées dans ce guide.
 
 - [Télécharger et installer](download-install.md#) : cette rubrique décrit comment télécharger, installer ou mettre à niveau AEM Guides.
 

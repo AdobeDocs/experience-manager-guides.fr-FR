@@ -26,4 +26,4 @@ Pour l’optimisation des performances, tenez compte des points suivants :
   Cette modification réduit le temps de publication et l&#39;utilisation de la mémoire lors de la publication de plans DITA comportant un grand nombre de rubriques.
 
 
-**Rubrique parente :**[ Télécharger et installer](download-install.md)
+**Rubrique parente :**&#x200B;[&#x200B; Télécharger et installer](download-install.md)

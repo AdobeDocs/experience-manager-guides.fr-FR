@@ -19,9 +19,9 @@ Les onglets suivants fournissent des instructions pour créer un site AEM afin d
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
-1. Téléchargez le package de contenu de composants XML Documentation **pour Cloud Service** à partir de votre portail de distribution de logiciels Adobe [](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
+1. Téléchargez le package de contenu de composants XML Documentation **pour Cloud Service** à partir de votre portail de distribution de logiciels Adobe [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
 1. Ouvrez le gestionnaire de packages AEM. L’URL par défaut pour accéder au gestionnaire de packages est : `https://<hostname>/crx/packmgr/index.jsp`
 1. Téléchargez le package de contenu des composants XML Documentation pour Cloud Service, puis installez-le.
 1. Téléchargez le fichier `Knowledge-base-template-for-article-based-publishing-for-cloud-service.zip` à partir du portail de distribution logicielle [Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
@@ -55,4 +55,4 @@ Pour activer la publication basée sur des articles, téléchargez et installez 
 >[!ENDTABS]
 
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](customize-overview.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](customize-overview.md)

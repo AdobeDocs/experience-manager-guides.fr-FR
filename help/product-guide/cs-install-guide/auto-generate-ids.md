@@ -31,4 +31,4 @@ Pour configurer un modèle pour un identifiant généré automatiquement, créez
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.pattern` | La valeur par défaut de ce champ est définie sur `${elementName}_${id}`. La valeur `${elementName}` est remplacée par le nom de l’élément. La variable `${id}` génère un numéro séquentiel pour l’élément. Par exemple, si vous attribuez à l’élément de paragraphe des identifiants générés automatiquement, le premier paragraphe de la rubrique ou du document obtient un identifiant du type p\_1, le paragraphe suivant obtient p\_2, etc. Cependant, dans un autre document, le processus de génération des identifiants redémarre. Cela signifie que dans un autre document, des identifiants tels que p\_1 et p\_2 peuvent être affectés aux éléments de paragraphe. **Valeur par défaut** : ``${elementName}_${id}`` |
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)

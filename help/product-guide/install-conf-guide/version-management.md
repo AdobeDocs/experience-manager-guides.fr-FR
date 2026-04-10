@@ -29,7 +29,7 @@ Les onglets suivants fournissent des instructions pour activer l’option **Cré
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 1. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration.
 1. Dans le fichier de configuration, fournissez les détails \(propriété\) suivants pour configurer l’option **Créer une nouvelle version pour le fichier chargé** :
@@ -81,7 +81,7 @@ Les onglets suivants fournissent des instructions pour configurer les paramètre
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer la modification des fichiers extraits :
 
@@ -137,7 +137,7 @@ Les onglets suivants fournissent des instructions permettant aux utilisateurs de
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 1. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration.
 1. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer l’option **Remplacer le fichier extrait lors du chargement** :
@@ -178,7 +178,7 @@ Les onglets suivants fournissent des instructions pour empêcher les utilisateur
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour empêcher les utilisateurs de supprimer accidentellement des fichiers extraits :
 
@@ -241,7 +241,7 @@ Les onglets suivants fournissent des instructions pour définir qui peut supprim
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les informations \(property\) suivantes pour définir qui peut supprimer un fichier contenant des références ou référencé par d’autres fichiers :
 
@@ -313,7 +313,7 @@ Pour purger les anciennes versions, procédez comme suit :
 
    ![](assets/preview-purge-report.png)
 
-1. 
+1. &#x200B;
    - **Nombre de versions à conserver à partir de la dernière version** : saisissez le nombre de versions à conserver et à ne pas purger. Par exemple, si nous entrons 5 , les 5 dernières versions sont conservées, et les versions antérieures sont qualifiées pour être purgées si d’autres conditions de purge sont remplies.
    - **Conserver les versions créées dans la période \(En jours\)** : saisissez l’âge maximal d’une version en jours. Les versions antérieures au nombre de jours donné peuvent être purgées si d’autres conditions de purge sont remplies. Par exemple, si nous entrons 100, toutes les versions créées avant 100 jours peuvent être purgées si d’autres conditions de purge sont remplies.
    - **Chemin d’accès** : sélectionnez le chemin d’accès du fichier ou du dossier dont vous souhaitez purger les fichiers.

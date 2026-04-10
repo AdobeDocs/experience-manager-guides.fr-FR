@@ -30,7 +30,7 @@ Ce guide est destiné aux types d’audiences suivants :
 
 Les informations contenues dans ce guide sont organisées comme suit :
 
-- [À propos de ce guide ](#id175MC0P0S5Z) : cette rubrique présente ce guide, l’audience ciblée et la manière dont les informations sont organisées dans ce guide.
+- [À propos de ce guide &#x200B;](#id175MC0P0S5Z) : cette rubrique présente ce guide, l’audience ciblée et la manière dont les informations sont organisées dans ce guide.
 
 - [Télécharger et installer](download-install.md#) : cette rubrique décrit comment télécharger, installer ou mettre à niveau AEM Guides.
 
@@ -72,7 +72,7 @@ Les informations contenues dans ce guide sont organisées comme suit :
 - [Commencer l’intégration à Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=enhttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
 - [Implémentation d’applications pour AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=fr)
 - [Déploiement sur AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=fr)
-- [Guide d’Assets as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=fr)
+- [Guide d’Assets as a Cloud Service &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=fr)
 
 ## Ressources supplémentaires
 

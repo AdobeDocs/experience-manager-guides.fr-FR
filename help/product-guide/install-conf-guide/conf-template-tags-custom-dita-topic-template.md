@@ -38,7 +38,7 @@ Pour personnaliser un modèle de rubrique DITA et l&#39;utiliser pour la créati
 
 1. [Créer un modèle de création personnalisé](conf-profiles.md#id1917D0EG0HJ)
 
-1. Ajoutez un modèle personnalisé dans le profil global ou au niveau du dossier, comme expliqué dans la section [ Configurer les modèles de création ](conf-profiles.md#id1889D0IL0Y4)
+1. Ajoutez un modèle personnalisé dans le profil global ou au niveau du dossier, comme expliqué dans la section [&#x200B; Configurer les modèles de création &#x200B;](conf-profiles.md#id1889D0IL0Y4)
 
 
 ## Configurer le chemin d&#39;accès au dossier du modèle DITA personnalisé {#id191LCF0095Z}
@@ -58,7 +58,7 @@ Les onglets suivants fournissent des instructions pour configurer le chemin d&#3
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer un dossier pour vos modèles de rubrique DITA personnalisés :
 
@@ -99,4 +99,4 @@ Si l’emplacement spécifié existe dans la gestion des ressources numériques,
 >[!ENDTABS]
 
 
-**Rubrique parente :**[ Configurer la rubrique et les modèles de mappage](conf-template-tags.md)
+**Rubrique parente :**&#x200B;[&#x200B; Configurer la rubrique et les modèles de mappage](conf-template-tags.md)

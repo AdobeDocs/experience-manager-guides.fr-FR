@@ -213,7 +213,7 @@ Si vous utilisez un attribut personnalisé, il doit s&#39;agir d&#39;un attribut
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 1. Ajoutez l’attribut personnalisé au fichier DTD. Par exemple, si votre fichier DTD est commonElements.mod, vous devez localiser ce fichier dans le répertoire DTD. Le chemin d&#39;accès par défaut du fichier DTD système est :
 
@@ -274,7 +274,7 @@ Les onglets suivants fournissent des instructions pour configurer les modèles d
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 AEM Guides est fourni avec 7 modèles de rubrique prêts à l&#39;emploi, 2 modèles de plan DITA et 3 modèles PDF. Vous pouvez choisir de ne laisser que quelques modèles à la disposition des auteurs et des éditeurs. Si vous utilisez un modèle personnalisé, celui-ci peut être configuré et mis à disposition pour la création et la publication. Utilisez l’onglet **Modèles** dans la configuration des profils de dossier pour ajouter ou supprimer des modèles de rubrique, de mappage ou de PDF des profils globaux ou au niveau du dossier.
 
@@ -518,7 +518,7 @@ Pour Experience Manager Guides as a Cloud Service (![](assets/aem-cloud-icon.svg
 
 L’assistant AI d’Adobe Experience Manager Guides est un puissant outil piloté par l’IA conçu pour améliorer votre contenu grâce à des expériences de création et de réutilisation de contenu intelligentes. Il associe deux puissantes fonctionnalités d’IA (**Création** et **Aide**) à l’interface de Experience Manager Guides, ce qui vous permet de créer des documents et d’accéder aux informations plus rapidement et plus efficacement.
 
-Pour plus d’informations sur la configuration, voir [ Configuration de l’assistant AI ](./conf-smart-suggestions.md).
+Pour plus d’informations sur la configuration, voir [&#x200B; Configuration de l’assistant AI &#x200B;](./conf-smart-suggestions.md).
 
 **Configurer des suggestions intelligentes optimisées par l’IA**
 
@@ -526,7 +526,7 @@ Vous pouvez configurer les suggestions intelligentes optimisées par l’IA et a
 
 Effectuez les étapes suivantes pour configurer la configuration d’IA standard au niveau du profil global ou du dossier :
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur ou utilisateur disposant de droits d’administration sur un profil au niveau du dossier.
-1. Sélectionnez le lien **** en haut et choisissez **Outils**.
+1. Sélectionnez le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
 1. Sélectionnez **Guides** dans la liste des outils, puis sélectionnez la mosaïque **Profils de dossier**.
 1. Sélectionnez la mosaïque de profil à configurer.
 
@@ -613,7 +613,7 @@ L’onglet **Configuration de l’éditeur XML** vous permet de configurer les q
 Pour configurer les questions par défaut, procédez comme suit :
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur ou utilisateur disposant de droits d’administration sur un profil au niveau du dossier.
-1. Sélectionnez le lien **** en haut et choisissez **Outils**.
+1. Sélectionnez le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
 1. Sélectionnez **Guides** dans la liste des outils, puis sélectionnez la mosaïque **Profils de dossier**.
 1. Sélectionnez la mosaïque de profil à configurer.
 
@@ -655,7 +655,7 @@ Les onglets suivants fournissent des informations en fonction de la configuratio
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Ce paramètre vous permet de créer des extensions JSON qui reflètent les modifications apportées au fichier `ui_config.json`. Vous pouvez charger ces extensions indépendamment au niveau du profil du dossier, offrant ainsi une flexibilité et une personnalisation améliorées. Par exemple, lorsque vous apportez des modifications à la configuration de l’éditeur **XML**, comme la mise à jour d’un bouton, le système identifie automatiquement les différences. En chargeant ces modifications dans la **Configuration de l’interface utilisateur de l’éditeur XML** et en les convertissant en extensions JSON à l’aide du bouton **Convertir la configuration de l’interface utilisateur en JSON**, le système génère une extension qui incorpore la nouvelle fonctionnalité.
 

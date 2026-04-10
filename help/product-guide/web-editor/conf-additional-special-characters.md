@@ -60,4 +60,4 @@ Vous ajouterez ainsi une autre catégorie dans la boîte de dialogue des caract�
 
 >[!MORELIKETHIS]
 >
->+ [ Guide d’installation et de configuration ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)
+>+ [&#x200B; Guide d’installation et de configuration &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)

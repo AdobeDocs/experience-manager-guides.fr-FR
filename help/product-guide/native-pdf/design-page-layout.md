@@ -35,7 +35,7 @@ Un document PDF contient généralement les sections suivantes :
 * Index
 * Page précédente
 
-Ces sections auraient besoin d’une mise en page correspondante pour présenter les informations dans un format spécifique. En outre, vous pouvez également utiliser une page vierge comme remplissage pour commencer un nouveau chapitre à partir d’une page paire ou impaire. Dans ce cas, vous pouvez utiliser la mise en page par défaut ou créer une mise en page pour une page vierge. Pour plus d’informations[ voir ](components-pdf-template.md#create-page-layout)Créer une mise en page.
+Ces sections auraient besoin d’une mise en page correspondante pour présenter les informations dans un format spécifique. En outre, vous pouvez également utiliser une page vierge comme remplissage pour commencer un nouveau chapitre à partir d’une page paire ou impaire. Dans ce cas, vous pouvez utiliser la mise en page par défaut ou créer une mise en page pour une page vierge. Pour plus d’informations[&#x200B; voir &#x200B;](components-pdf-template.md#create-page-layout)Créer une mise en page.
 
 Les paramètres des mises en page de la section **Modèle>Paramètres** vous permettent de définir la mise en page à utiliser pour les différentes sections de votre PDF. Chaque mise en page peut en outre comporter différentes variantes de première, de droite ou de gauche.
 

@@ -65,7 +65,7 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 5.
 
 **Installer la version 5.1.0**
 
-Téléchargez le package de la version 5.1.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) et suivez les instructions fournies dans [Workflow de mise à niveau de l’installation et de la post-installation](#installation-and-post-installation-upgrade-workflow) pour terminer la mise à niveau.
+Téléchargez le package de la version 5.1.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) et suivez les instructions fournies dans [Workflow de mise à niveau de l’installation et de la post-installation](#installation-and-post-installation-upgrade-workflow) pour terminer la mise à niveau.
 
 
 ## Mise à niveau vers la version 5.0.0
@@ -89,7 +89,7 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 5.
 
 **Installer la version 5.0.0**
 
-Téléchargez le package de la version 5.0.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) et suivez les instructions fournies dans [Workflow de mise à niveau de l’installation et de la post-installation](#installation-and-post-installation-upgrade-workflow) pour terminer la mise à niveau.
+Téléchargez le package de la version 5.0.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) et suivez les instructions fournies dans [Workflow de mise à niveau de l’installation et de la post-installation](#installation-and-post-installation-upgrade-workflow) pour terminer la mise à niveau.
 
 ## Mise à niveau vers la version 4.6.0
 
@@ -113,7 +113,7 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 
 **Installer la version 4.6.0**
 
-Téléchargez le package de la version 4.6.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) et suivez les instructions fournies dans [Workflow de mise à niveau de l’installation et de la post-installation](#installation-and-post-installation-upgrade-workflow) pour terminer la mise à niveau.
+Téléchargez le package de la version 4.6.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) et suivez les instructions fournies dans [Workflow de mise à niveau de l’installation et de la post-installation](#installation-and-post-installation-upgrade-workflow) pour terminer la mise à niveau.
 
 ## Workflow de mise à niveau de l’installation et post-installation
 
@@ -122,7 +122,7 @@ Téléchargez le package de la version 4.6.0 à partir du portail de distributio
 Pour installer le package de version, procédez comme suit :
 
 1. Installez le package de version sur lequel vous souhaitez effectuer la mise à niveau.
-1. Vous pouvez choisir d’appuyer sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
+1. Vous pouvez choisir d’appuyer sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [&#x200B; Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
 
 1. Une fois l’installation du package terminée, attendez le message suivant dans les journaux :
 

@@ -54,7 +54,7 @@ Pour supprimer le titre du contenu des signets, procédez étape par étape comm
 1. Ouvrez le modèle PDF que vous utilisez pour la sortie PDF.
 2. Ouvrez la **page de la table des matières** dans **mises en page**.
 La page Table des matières s’affiche à droite.
-3. Passez en mode **** et modifiez l&#39;élément dans lequel se trouve le contenu de `<h1>` en `<p>`.
+3. Passez en mode **&#x200B;**&#x200B;et modifiez l&#39;élément dans lequel se trouve le contenu de `<h1>` en `<p>`.
 
 Avant la modification :
 

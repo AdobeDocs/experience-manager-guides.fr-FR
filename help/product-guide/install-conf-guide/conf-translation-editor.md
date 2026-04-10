@@ -19,8 +19,8 @@ Vous pouvez utiliser l’onglet **Gérer** dans l’éditeur web pour traduire v
 
 Pour masquer l’onglet **Gérer** dans l’éditeur web, procédez comme suit :
 
-1. Connectez-vous à **** en tant qu&#39;administrateur.
-1. Cliquez sur le lien **** en haut et choisissez **Outils**.
+1. Connectez-vous à **&#x200B;**&#x200B;en tant qu&#39;administrateur.
+1. Cliquez sur le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
 1. Sélectionnez **Guides** dans la liste des outils, puis cliquez sur le **Profils de dossier**.
 1. Cliquez sur la mosaïque **Profil global**.
 1. Cliquez sur **Configuration de l’éditeur XML**.
@@ -47,4 +47,4 @@ Pour masquer l’onglet **Gérer** dans l’éditeur web, procédez comme suit :
 
 Notez que le filtre **Gérer** n’est plus disponible.
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](customize-overview.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](customize-overview.md)

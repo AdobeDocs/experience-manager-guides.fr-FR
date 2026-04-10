@@ -63,7 +63,7 @@ Les onglets suivants fournissent des instructions pour convertir vos documents W
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Effectuez les étapes suivantes pour convertir vos documents Word existants en document de type rubrique DITA :
 
@@ -305,7 +305,7 @@ Les onglets suivants fournissent des instructions pour convertir votre document 
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Pour convertir votre document XHTML existant en rubrique DITA, procédez comme suit :
 
@@ -424,7 +424,7 @@ Les onglets suivants fournissent des instructions pour migrer tout autre documen
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Pour convertir vos documents structurés existants au format DITA, procédez comme suit :
 
@@ -500,4 +500,4 @@ Le bloc `<config> </config>` vous permet de définir un ou plusieurs blocs de co
 
 >[!ENDTABS]
 
-**Rubrique parente :**[ Migrer le contenu existant](migrate-content.md)
+**Rubrique parente :**&#x200B;[&#x200B; Migrer le contenu existant](migrate-content.md)

@@ -94,7 +94,7 @@ Sélectionnez cette option pour afficher le modèle dans l’interface utilisate
 
 Une fois le modèle personnalisé créé, vous pouvez le choisir parmi les Mises en page du paramètre prédéfini de sortie PDF.
 
-Découvrez comment [ publier une sortie PDF ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
+Découvrez comment [&#x200B; publier une sortie PDF &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
 >
@@ -155,7 +155,7 @@ Vous pouvez également utiliser les ressources présentes à tout autre emplacem
    * Paramètres : configurez les paramètres de sortie pour générer un PDF à l’aide du modèle. Cette section vous permet de définir le mappage de modèles pour diverses pages d’un PDF, une page de départ de chapitre, des marqueurs d’impression, des citations, etc.
 
    Vous pouvez également organiser l’ordre dans lequel ils doivent apparaître dans votre sortie PDF finale.
-Pour plus d’informations sur l’application des paramètres, voir [ Paramètres PDF avancés ](components-pdf-template.md#advanced-pdf-settings).
+Pour plus d’informations sur l’application des paramètres, voir [&#x200B; Paramètres PDF avancés &#x200B;](components-pdf-template.md#advanced-pdf-settings).
 
 
 1. Pour personnaliser un composant de modèle, double-cliquez sur un composant de modèle ou sélectionnez l’icône > juste avant.

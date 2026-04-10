@@ -22,7 +22,7 @@ Pour créer des configurations IMS dans Adobe Developer Console, procédez comme
 >
 >Si vous avez déjà créé un projet OAuth pour configurer la fonctionnalité de suggestions intelligentes ou la publication basée sur un microservice, vous pouvez ignorer les étapes suivantes pour créer le projet. Vous pouvez commencer par l’étape 8.
 
-1. Lancer [](https://developer.adobe.com/console).
+1. Lancer [&#128279;](https://developer.adobe.com/console).
 1. Une fois la connexion à Developer Console établie, l’écran **Accueil** s’affiche. L’écran **Accueil** vous permet de trouver facilement des informations et des liens rapides, y compris des liens de navigation supérieure vers les projets et les téléchargements.
 1. Pour créer un projet vide, sélectionnez **Créer un projet** parmi les liens **Démarrage rapide**.
    ![Liens de démarrage rapide](assets/conf-ss-quick-start.png) {width="550" align="left"}
@@ -35,14 +35,14 @@ Pour créer des configurations IMS dans Adobe Developer Console, procédez comme
    *Ajoutez l’API I/O Management à votre projet.*
 
 1. Créez des informations d’identification **OAuth** et enregistrez-les.
-   ![ Mosaïque d’informations d’identification OAuth dans la configuration de l’API ](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
+   ![&#x200B; Mosaïque d’informations d’identification OAuth dans la configuration de l’API &#x200B;](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
    *Configurer les informations d’identification OAuth dans votre API.*
 
 1. Dans l’onglet **Projets**, choisissez l’option **OAuth de serveur à serveur** puis sélectionnez les informations d’identification nouvellement créées.
 
 1. Cliquez sur le lien **OAuth de serveur à serveur** pour afficher les informations d’identification de votre projet.
 
-   ![ informations d’identification connectées ](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
+   ![&#x200B; informations d’identification connectées &#x200B;](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
 
    *Connectez-vous au projet pour afficher les informations d’identification.*
 

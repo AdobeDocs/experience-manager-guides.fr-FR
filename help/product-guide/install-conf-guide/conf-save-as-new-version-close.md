@@ -19,7 +19,7 @@ Les onglets suivants fournissent des instructions en fonction de la configuratio
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer une invite d’enregistrement en tant que nouvelle version à la fermeture :
 

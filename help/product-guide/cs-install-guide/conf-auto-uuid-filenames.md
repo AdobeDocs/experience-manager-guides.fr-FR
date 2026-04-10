@@ -27,4 +27,4 @@ Suivez les instructions fournies dans [Remplacements de la configuration](downlo
 >
 > Lorsque cette option est activée, les auteurs ne voient pas l’option permettant de spécifier le nom du fichier lors de la création d’une rubrique ou d’un fichier de mappage. Vous pouvez créer une nouvelle rubrique ou un fichier de mappage à partir de l’interface utilisateur d’Assets et de l’éditeur web.
 
-**Rubrique parente :**[ Configurer les noms de fichier](conf-file-names.md)
+**Rubrique parente :**&#x200B;[&#x200B; Configurer les noms de fichier](conf-file-names.md)

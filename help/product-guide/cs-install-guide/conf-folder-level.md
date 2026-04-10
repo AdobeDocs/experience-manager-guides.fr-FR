@@ -416,7 +416,7 @@ Pour Experience Manager Guides as a Cloud Service (![](assets/aem-cloud-icon.svg
 
 L’assistant AI d’Adobe Experience Manager Guides est un puissant outil piloté par l’IA conçu pour améliorer votre contenu grâce à des expériences de création et de réutilisation de contenu intelligentes. Il associe deux puissantes fonctionnalités d’IA (**Création** et **Aide**) à l’interface de Experience Manager Guides, ce qui vous permet de créer des documents et d’accéder aux informations plus rapidement et plus efficacement.
 
-Pour plus d’informations sur la configuration, voir [ Configuration de l’assistant AI ](./conf-smart-suggestions.md).
+Pour plus d’informations sur la configuration, voir [&#x200B; Configuration de l’assistant AI &#x200B;](./conf-smart-suggestions.md).
 
 **Configurer des suggestions intelligentes optimisées par l’IA**
 
@@ -424,7 +424,7 @@ Vous pouvez configurer les suggestions intelligentes optimisées par l’IA et a
 
 Effectuez les étapes suivantes pour configurer la configuration d’IA standard au niveau du profil global ou du dossier :
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur ou utilisateur disposant de droits d’administration sur un profil au niveau du dossier.
-1. Sélectionnez le lien **** en haut et choisissez **Outils**.
+1. Sélectionnez le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
 1. Sélectionnez **Guides** dans la liste des outils, puis sélectionnez la mosaïque **Profils de dossier**.
 1. Sélectionnez la mosaïque de profil à configurer.
 
@@ -511,7 +511,7 @@ L’onglet **Configuration de l’éditeur XML** vous permet de configurer les q
 Pour configurer les questions par défaut, procédez comme suit :
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur ou utilisateur disposant de droits d’administration sur un profil au niveau du dossier.
-1. Sélectionnez le lien **** en haut et choisissez **Outils**.
+1. Sélectionnez le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
 1. Sélectionnez **Guides** dans la liste des outils, puis sélectionnez la mosaïque **Profils de dossier**.
 1. Sélectionnez la mosaïque de profil à configurer.
 

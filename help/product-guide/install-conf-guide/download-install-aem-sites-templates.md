@@ -21,13 +21,13 @@ Les onglets suivants fournissent les prérequis nécessaires en fonction de votr
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 - **Adobe Experience Manager (AEM) Cloud** : instance en cours d’exécution de **AEM as a Cloud Service** avec **AEM Guides 2502 ou versions ultérieures**.
 
 - **Autorisations requises** : vous devez disposer des autorisations suivantes :
 
-   - Accès à **** pour déployer des packages.
+   - Accès à **&#x200B;**&#x200B;pour déployer des packages.
    - Accès au **référentiel Git** associé à votre environnement.
    - Les autorisations de création et de modification des paramètres prédéfinis dans AEM Guides.
 
@@ -60,7 +60,7 @@ Les onglets suivants fournissent des instructions pour l’installation du packa
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Installez le **Package de composants (guides-components.all-1.x.x.zip)** puis effectuez les étapes suivantes
 
@@ -98,7 +98,7 @@ Installez le **Package de composants (guides-components.all-1.x.x.zip)** puis ef
 >[!TAB  On-Premise ]
 
 1. **Installez le package de composants :**
-   1. Accédez au [**Gestionnaire de packages**](http://<your-aem-instance>/crx/packmgr).
+   1. Accédez au [**Gestionnaire de packages**](http://&lt;your-aem-instance>/crx/packmgr).
    2. Téléchargez et installez le package on-prem-guides-components.all-1.x.0.zip .
 
 2. **Installation du package Sites :** téléchargez et installez le package aemg-docs.all-1.x.0.zip à l’aide du gestionnaire de packages CRX.
@@ -123,7 +123,7 @@ Installez le **Package de composants (guides-components.all-1.x.x.zip)** puis ef
 1. **Créer un nouveau paramètre prédéfini :**
    1. Ouvrez un plan DITA dans AEM Guides et accédez au panneau **Sortie**.
    2. Sélectionnez **Créer un paramètre prédéfini**.
-   3. Sélectionnez le type comme ****.
+   3. Sélectionnez le type comme **&#x200B;**.
    4. Saisissez le nom du paramètre prédéfini.
    5. Décochez le paramètre **Utiliser le mappage des composants hérités**.
    6. Sélectionnez **Ajouter** pour créer le paramètre prédéfini.
@@ -163,7 +163,7 @@ Installez le **Package de composants (guides-components.all-1.x.x.zip)** puis ef
    1. Une fois le paramètre prédéfini configuré, générez le site AEM pour le plan DITA correspondant.
    2. Le site généré sera disponible à l’emplacement suivant : `/content/AEMG-Docs-Site/en/docs/product` pour Cloud Service et `/content/aemg-docs/en/docs/product1` pour On-Premise.
 2. **Modifier le chemin de génération par défaut (facultatif) :** si vous souhaitez modifier le chemin par défaut pour la génération du site, procédez comme suit :
-   1. Accédez à ****.
+   1. Accédez à **&#x200B;**.
    2. Créez une page produit sous la structure de site prête à l’emploi.
    3. Accédez à **Documents AEMG** > **Français** > **Documents**.
 

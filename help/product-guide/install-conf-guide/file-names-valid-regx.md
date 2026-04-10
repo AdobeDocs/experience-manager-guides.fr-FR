@@ -26,7 +26,7 @@ Les onglets suivants fournissent des instructions pour configurer Regx pour les 
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer une expression régulière pour les caractères de nom de fichier valides :
 

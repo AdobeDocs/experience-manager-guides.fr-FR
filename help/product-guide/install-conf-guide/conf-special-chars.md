@@ -19,7 +19,7 @@ Les onglets suivants fournissent des instructions pour remplacer la liste par d�
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 1. Créez `symbols.json` fichier à l’emplacement suivant dans votre référentiel Git Cloud Manager :
 
@@ -81,4 +81,4 @@ Vous pouvez définir plusieurs définitions de caractères spéciaux au sein d�
 
 >[!ENDTABS]
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](customize-overview.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](customize-overview.md)

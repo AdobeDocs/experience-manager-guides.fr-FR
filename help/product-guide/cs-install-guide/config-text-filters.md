@@ -71,14 +71,14 @@ Pour configurer les filtres de texte, procédez comme suit :
 
       Dans le fragment de code ci-dessus, le premier filtre concerne les fichiers DITA. La définition du filtre utilise les paramètres suivants :
 
-      ****Titre**** : nom d’affichage du filtre. Ce titre apparaît comme option de filtrage dans la boîte de dialogue de navigation des fichiers.
+      **&#x200B;**&#x200B;Titre&#x200B;**&#x200B;** : nom d’affichage du filtre. Ce titre apparaît comme option de filtrage dans la boîte de dialogue de navigation des fichiers.
 
-      ****Property**** : propriété à faire correspondre dans les métadonnées du fichier. Par exemple, pour autoriser uniquement les fichiers dont la propriété contient les métadonnées dita\_class, le filtre de propriété prend la valeur « jcr:content/metadata/dita\_class ».
+      **&#x200B;**&#x200B;Property&#x200B;**&#x200B;** : propriété à faire correspondre dans les métadonnées du fichier. Par exemple, pour autoriser uniquement les fichiers dont la propriété contient les métadonnées dita\_class, le filtre de propriété prend la valeur « jcr:content/metadata/dita\_class ».
 
-      ****Opération **:**spécifiez « exists » pour correspondre à l’existence de la valeur spécifiée dans le paramètre de propriété
+      **&#x200B;**&#x200B;Opération **:**&#x200B;spécifiez « exists » pour correspondre à l’existence de la valeur spécifiée dans le paramètre de propriété
 
 1. Chargez le fichier ui\_config.json mis à jour contenant les filtres ajoutés.
 
 Les filtres configurés sont disponibles dans le panneau Filtres .
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)

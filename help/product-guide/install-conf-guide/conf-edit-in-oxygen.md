@@ -27,4 +27,4 @@ Suivez les instructions fournies dans [Remplacements de la configuration](downlo
 >
 > Cette configuration est désactivée par défaut et l’option n’est pas disponible dans l’éditeur web.
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](customize-overview.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](customize-overview.md)

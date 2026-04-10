@@ -19,7 +19,7 @@ Les onglets suivants fournissent des instructions pour configurer des noms de fi
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour définir des caractères valides dans la sortie du site AEM :
 

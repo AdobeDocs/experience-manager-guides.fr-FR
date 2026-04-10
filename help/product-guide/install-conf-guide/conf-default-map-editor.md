@@ -27,7 +27,7 @@ Les onglets suivants fournissent des instructions pour faire de l’Éditeur de 
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour activer l’éditeur de carte de base :
 
@@ -57,4 +57,4 @@ Suivez les instructions fournies dans [Remplacements de la configuration](downlo
 
 >[!ENDTABS]
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](customize-overview.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](customize-overview.md)

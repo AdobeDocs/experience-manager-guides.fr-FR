@@ -30,4 +30,4 @@ Une fois que vous avez installé AEM Guides, vous devez vérifier si l’install
    Le statut doit afficher *Actif* pour les lots déployés avec succès. Si l’un des lots n’a pas le statut Actif , vérifiez les journaux AEM pour résoudre le problème d’installation.
 
 
-**Rubrique parente :**[ Télécharger et installer](download-install.md)
+**Rubrique parente :**&#x200B;[&#x200B; Télécharger et installer](download-install.md)

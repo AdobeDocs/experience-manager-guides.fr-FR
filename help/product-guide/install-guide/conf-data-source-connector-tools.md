@@ -19,7 +19,7 @@ Experience Manager Guides est fourni avec l’outil **Sources de données** qui 
 
 Pour configurer un connecteur, procédez comme suit :
 
-1. Sélectionnez le lien **** en haut et choisissez Outils.
+1. Sélectionnez le lien **&#x200B;**&#x200B;en haut et choisissez Outils.
 1. Sélectionnez **Guides** dans la liste des outils.
 1. Sélectionnez la mosaïque **Sources de données**. La page **Sources de données** s’affiche. Vous pouvez afficher les sources de données connectées.
 
@@ -81,4 +81,4 @@ Une fois la source de données configurée, le connecteur est répertorié sous 
 
 >[!NOTE]
 >
->Vous pouvez également créer des connecteurs personnalisés et les utiliser avec les différentes sources de données. Découvrez comment [ configurer des connecteurs personnalisés ](../knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md).
+>Vous pouvez également créer des connecteurs personnalisés et les utiliser avec les différentes sources de données. Découvrez comment [&#x200B; configurer des connecteurs personnalisés &#x200B;](../knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md).

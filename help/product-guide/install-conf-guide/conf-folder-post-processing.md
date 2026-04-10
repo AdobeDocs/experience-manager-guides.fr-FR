@@ -21,9 +21,9 @@ Les onglets suivants fournissent des instructions pour désactiver le post-trait
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
-Suivez les instructions de la section [ Remplacements de la configuration ](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails (propriété) suivants pour désactiver le post-traitement sur un chemin donné ou ignorer le post-traitement pour un dossier :
+Suivez les instructions de la section [&#x200B; Remplacements de la configuration &#x200B;](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails (propriété) suivants pour désactiver le post-traitement sur un chemin donné ou ignorer le post-traitement pour un dossier :
 
 | PID | Clé de la propriété | Valeur de la propriété |
 |---|------------|--------------|

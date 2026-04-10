@@ -19,7 +19,7 @@ Les onglets suivants fournissent des instructions pour afficher le chemin d’ac
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour afficher le chemin d’accès relatif ou l’UUID du contenu référencé dans l’éditeur.
 
@@ -48,4 +48,4 @@ Suivez les instructions fournies dans [Remplacements de la configuration](downlo
 
 >[!ENDTABS]
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](customize-overview.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](customize-overview.md)

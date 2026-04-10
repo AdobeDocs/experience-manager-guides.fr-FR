@@ -21,7 +21,7 @@ Les onglets suivants fournissent des instructions pour masquer l&#39;onglet Lign
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 1. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration.
 1. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer l’onglet de ligne de base sur le tableau de bord de mappage.
@@ -76,7 +76,7 @@ Les onglets suivants fournissent des instructions pour configurer les propriét�
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 1. Utilisez le gestionnaire de packages pour télécharger le fichier /libs/fmdita/config/templates/default.
 
@@ -138,7 +138,7 @@ Les onglets suivants fournissent des instructions pour configurer l’emplacemen
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 1. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md) pour créer le fichier de configuration.
 
@@ -183,7 +183,7 @@ Pour ajouter les métadonnées requises dans le système, procédez comme suit :
 
 1. Cliquez sur le lien Adobe Experience Manager en haut et choisissez **Outils**.
 
-1. Sélectionnez **** dans la liste des outils.
+1. Sélectionnez **&#x200B;**&#x200B;dans la liste des outils.
 
 1. Cliquez sur la mosaïque **Schémas de métadonnées**.
 
@@ -220,7 +220,7 @@ Vous devez ensuite rendre les métadonnées personnalisées disponibles dans la 
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 1. Utilisez le gestionnaire de packages pour accéder au fichier metadataList disponible à l’emplacement suivant de votre référentiel Git Cloud Manager :
 
@@ -346,7 +346,7 @@ AEM Guides fournit la catégorie `apps.fmdita.dashboard-extn` pour la personnali
 
 >[!NOTE]
 >
-> Pour plus d’informations sur la création de la bibliothèque cliente AEM, voir [ Utilisation de bibliothèques côté client ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
+> Pour plus d’informations sur la création de la bibliothèque cliente AEM, voir [&#x200B; Utilisation de bibliothèques côté client &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
 
 ## Gérer le rendu des images pendant la génération de la sortie {#id177BF0G0VY4}
 
@@ -423,7 +423,7 @@ Les onglets suivants fournissent des instructions pour définir un jour et une h
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour définir le jour et l’heure de la purge de l’historique et des journaux de sortie :
 
@@ -462,7 +462,7 @@ Vous pouvez modifier le nombre maximal de sorties générées affichées dans l&
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour modifier le nombre de sorties à afficher dans la liste :
 

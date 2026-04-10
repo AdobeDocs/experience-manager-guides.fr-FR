@@ -30,7 +30,7 @@ Pour créer des configurations IMS dans Adobe Developer Console, procédez comme
 >
 >Si vous avez déjà créé un projet OAuth pour configurer la publication basée sur un microservice, vous pouvez ignorer les étapes suivantes pour créer le projet.
 
-1. Lancer [](https://developer.adobe.com/console).
+1. Lancer [&#128279;](https://developer.adobe.com/console).
 1. Une fois la connexion à Developer Console établie, l’écran **Accueil** s’affiche. L’écran **Accueil** vous permet de trouver facilement des informations et des liens rapides, y compris des liens de navigation supérieure vers les projets et les téléchargements.
 1. Pour créer un projet vide, sélectionnez **Créer un projet** parmi les liens **Démarrage rapide**.
    ![Liens de démarrage rapide](assets/conf-ss-quick-start.png) {width="550" align="left"}
@@ -44,7 +44,7 @@ Pour créer des configurations IMS dans Adobe Developer Console, procédez comme
 
 1. Créez des informations d’identification **OAuth** et enregistrez-les.
 
-   ![ Mosaïque d’informations d’identification OAuth dans la configuration de l’API ](assets/conf-ss-OAuth-credential.png)
+   ![&#x200B; Mosaïque d’informations d’identification OAuth dans la configuration de l’API &#x200B;](assets/conf-ss-OAuth-credential.png)
 
    *Configurer les informations d’identification OAuth dans votre API.*
 
@@ -52,7 +52,7 @@ Pour créer des configurations IMS dans Adobe Developer Console, procédez comme
 
 1. Cliquez sur le lien **OAuth de serveur à serveur** pour afficher les informations d’identification de votre projet.
 
-   ![ informations d’identification connectées ](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
+   ![&#x200B; informations d’identification connectées &#x200B;](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
 
    *Connectez-vous au projet pour afficher les informations d’identification.*
 
@@ -161,8 +161,8 @@ Pour plus d’informations, voir [Configuration des suggestions intelligentes da
 |---|---|---|---|
 | conref.inline.threshold | Seuil qui contrôle la précision/le rappel des suggestions récupérées pour la balise que l’utilisateur saisit actuellement. | Toute valeur comprise entre -1.0 et 1.0. | 0,6 |
 | conref.block.threshold | Seuil qui contrôle la précision/le rappel des suggestions récupérées pour les balises dans l’ensemble du fichier. | Toute valeur comprise entre -1.0 et 1.0. | 0,7 |
-| emerald.url | Point d’entrée de la base de données vectorielle de suggestions intelligentes | [](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) | [](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) |
-| chat.url | Point d’entrée du service d’assistant d’IA | [](https://aem-guides-ai-v2.adobe.io) | [](https://aem-guides-ai-v2.adobe.io) |
+| emerald.url | Point d’entrée de la base de données vectorielle de suggestions intelligentes | [&#128279;](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) | [&#128279;](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) |
+| chat.url | Point d’entrée du service d’assistant d’IA | [&#128279;](https://aem-guides-ai-v2.adobe.io) | [&#128279;](https://aem-guides-ai-v2.adobe.io) |
 | instance.type | Type de l’instance AEM. Assurez-vous qu’il est unique pour chaque instance AEM sur laquelle les suggestions intelligentes sont configurées. Un cas d’utilisation consisterait à tester la fonctionnalité dans un environnement d’évaluation avec « instance.type » = « stage », tandis qu’en même temps, la fonctionnalité serait également configurée sur « prod ». | Toute clé unique identifiant l’environnement. Seules les valeurs *alphanumériques* sont autorisées. « dev »/« stage »/« prod »/« test1 »/« stage2 » | « prod » |
 
 Une fois que vous avez configuré, l’icône de l’assistant AI s’affiche sur la page d’accueil et dans l’éditeur du Experience Manager Guides. Pour plus d’informations, consultez la section [Assistant AI](../user-guide/ai-assistant.md) dans le Guide de l’utilisateur d’Experience Manager.

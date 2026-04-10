@@ -21,7 +21,7 @@ Les onglets suivants fournissent des instructions pour activer la fonction d’e
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(propriété\) suivants pour configurer l’enregistrement automatique du fichier et l’intervalle de temps d’enregistrement automatique :
 

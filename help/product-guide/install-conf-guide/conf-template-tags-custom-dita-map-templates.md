@@ -20,7 +20,7 @@ Les onglets suivants fournissent des instructions pour configurer un modèle de 
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Pour ajouter vos modèles de carte personnalisés, procédez comme suit :
 

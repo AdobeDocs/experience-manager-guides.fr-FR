@@ -19,7 +19,7 @@ Les onglets suivants fournissent des instructions pour ajouter vos options de fi
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 1. Pour télécharger le fichier de configuration de l’interface utilisateur, connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 
@@ -126,4 +126,4 @@ Les onglets suivants fournissent des instructions pour ajouter vos options de fi
 >[!ENDTABS]
 
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](customize-overview.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](customize-overview.md)

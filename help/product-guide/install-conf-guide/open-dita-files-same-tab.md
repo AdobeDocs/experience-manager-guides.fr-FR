@@ -19,7 +19,7 @@ Les onglets suivants fournissent des instructions pour ouvrir la rubrique DITA o
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour ouvrir une rubrique ou mapper un fichier dans un nouvel onglet :
 
@@ -57,4 +57,4 @@ Ce paramètre affecte les emplacements suivants à partir desquels vous pouvez a
 
 - Onglet Rapports dans la console de mappage DITA
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](customize-overview.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](customize-overview.md)

@@ -19,7 +19,7 @@ Par défaut, toutes les ressources chargées sont traitées à l’aide du workf
 
 Lors du chargement de vos fichiers et dossiers sur le serveur **, vous pouvez également désactiver le post-traitement et la génération des UUID.
 
-Suivez les instructions de la section [ Remplacements de la configuration ](download-install-additional-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails (propriété) suivants pour désactiver le post-traitement sur un chemin donné ou ignorer le post-traitement pour un dossier :
+Suivez les instructions de la section [&#x200B; Remplacements de la configuration &#x200B;](download-install-additional-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails (propriété) suivants pour désactiver le post-traitement sur un chemin donné ou ignorer le post-traitement pour un dossier :
 
 >[!NOTE]
 >

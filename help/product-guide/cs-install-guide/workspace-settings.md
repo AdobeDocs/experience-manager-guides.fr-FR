@@ -43,7 +43,7 @@ Les paramètres Général vous permettent de configurer les paramètres pour uti
 Sélectionnez cette option pour activer la fonctionnalité [Assistant IA](../user-guide/ai-assistant.md) dans Experience Manager Guides. Désélectionnez cette option pour désactiver la fonction.
 
   Après avoir activé le bouton (bascule) **Assistant IA**, vous pouvez configurer les options qui s’affichent sous l’onglet **Création** pour les auteurs à l’aide du menu **Actions rapides de création** comme illustré ci-dessous.\
-  Ces modifications s’appliquent au profil de dossier spécifique que vous utilisez. Si vous créez un profil de dossier, il héritera des paramètres Workspace définis dans le profil de dossier **global** par défaut. Vous pouvez modifier ces paramètres selon vos besoins à l&#39;aide des paramètres **** et enregistrer la configuration mise à jour.\
+  Ces modifications s’appliquent au profil de dossier spécifique que vous utilisez. Si vous créez un profil de dossier, il héritera des paramètres Workspace définis dans le profil de dossier **global** par défaut. Vous pouvez modifier ces paramètres selon vos besoins à l&#39;aide des paramètres **&#x200B;**&#x200B;et enregistrer la configuration mise à jour.\
   Pour obtenir un aperçu détaillé des options disponibles pour la création à l’aide de l’assistant AI, consultez la page [Créer des documents de manière intelligente avec l’assistant AI](../user-guide/ai-assistant-right-panel.md).
 
   Le menu **Création d’actions rapides** vous permet d’effectuer les opérations suivantes :
@@ -77,7 +77,7 @@ Sélectionnez cette option pour activer la fonctionnalité [Assistant IA](../use
    - **Afficher le schéma d’objet dans le panneau Conditions** : sélectionnez cette option pour afficher un schéma d’objet dans le panneau Conditions. Si vous désélectionnez cette option, les conditions définies s’affichent dans le panneau Conditions .
 
 - **Vérification orthographique**
-Il existe deux options : **Vérification orthographique** et **Vérification orthographique du navigateur**. Par défaut, l’éditeur utilise la fonction de vérification orthographique du navigateur , où la vérification orthographique est effectuée à l’aide du dictionnaire intégré du navigateur. Vous pouvez passer à la vérification orthographique d’AEM pour utiliser le dictionnaire Adobe Experience Manager, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section [ Personnaliser le dictionnaire par défaut d’AEM ](../cs-install-guide/customize-aem-custom-dictionary.md) dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
+Il existe deux options : **Vérification orthographique** et **Vérification orthographique du navigateur**. Par défaut, l’éditeur utilise la fonction de vérification orthographique du navigateur , où la vérification orthographique est effectuée à l’aide du dictionnaire intégré du navigateur. Vous pouvez passer à la vérification orthographique d’AEM pour utiliser le dictionnaire Adobe Experience Manager, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section [&#x200B; Personnaliser le dictionnaire par défaut d’AEM &#x200B;](../cs-install-guide/customize-aem-custom-dictionary.md) dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
 
 - **Contenu d’apprentissage** : ce paramètre vous permet d’activer ou de désactiver la fonctionnalité de contenu de formation et d’apprentissage du produit pour votre instance Experience Manager Guides. Utilisez le bouton (bascule) **Activer le contenu d’apprentissage** pour activer ou désactiver la fonctionnalité au niveau du profil du dossier. Par défaut, cette fonctionnalité reste désactivée pour toutes les instances.
 
@@ -195,9 +195,9 @@ Configurez le serveur ServiceNow pour charger les ressources.
 
 - Pour créer un profil, sélectionnez la base de connaissances ServiceNow dans le menu déroulant **Type de serveur**. Saisissez un profil **Nom**. Dans l’URL **ServiceNow**, saisissez le site client que vous utiliseriez pour publier la sortie, puis ajoutez les **Nom d’utilisateur** et **Mot de passe** fournis par le site client ServiceNow. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
 
-  ![Profil de publication ServiceNow ](../user-guide/images/service-now-publish-profile.png){width="550" align="left"}
+  ![Profil de publication ServiceNow &#x200B;](../user-guide/images/service-now-publish-profile.png){width="550" align="left"}
 
-  Après la validation, vous pouvez sélectionner le profil de publication dans les paramètres prédéfinis de sortie d&#39;un plan DITA et l&#39;utiliser pour générer la sortie vers le serveur **** ou **ServiceNow** que vous avez choisi.
+  Après la validation, vous pouvez sélectionner le profil de publication dans les paramètres prédéfinis de sortie d&#39;un plan DITA et l&#39;utiliser pour générer la sortie vers le serveur **&#x200B;**&#x200B;ou **ServiceNow** que vous avez choisi.
 
   En savoir plus sur le paramètre prédéfini de sortie [Base de connaissances](../user-guide/generate-output-knowledge-base.md).
 

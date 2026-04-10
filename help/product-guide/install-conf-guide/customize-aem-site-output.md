@@ -43,7 +43,7 @@ Les onglets suivants fournissent des instructions pour spécifier votre propre m
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 1. Utilisez le gestionnaire de packages pour télécharger le modèle de conception par défaut à partir de l’emplacement suivant :
 
@@ -114,7 +114,7 @@ Les onglets suivants fournissent des instructions pour configurer la génératio
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer la génération des URL dans la sortie du site AEM :
 
@@ -178,7 +178,7 @@ Les onglets suivants fournissent des instructions pour configurer les caractère
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer les caractères spéciaux valides dans les noms de fichier et la sortie de site AEM :
 
@@ -246,7 +246,7 @@ Les onglets suivants fournissent des instructions pour aplatir la structure du n
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 1. Identifiez le ou les éléments auxquels vous souhaitez aplatir la structure de nœud :
 
@@ -363,13 +363,13 @@ Pour exclure l’élément `table` de l’aplatissement, ajoutez la propriété 
 
 ## Configurer le contrôle de version des pages supprimées dans la sortie du site AEM
 
-Lorsque vous générez une sortie de site AEM avec les options **Supprimer et** Créer ****sélectionnées pour le paramètre Pages de sortie existantes , une version est créée pour la ou les pages en cours de suppression. Vous pouvez configurer le système pour arrêter la création d’une version avant la suppression.
+Lorsque vous générez une sortie de site AEM avec les options **Supprimer et** Créer **&#x200B;**&#x200B;sélectionnées pour le paramètre Pages de sortie existantes , une version est créée pour la ou les pages en cours de suppression. Vous pouvez configurer le système pour arrêter la création d’une version avant la suppression.
 
 Les onglets suivants fournissent des instructions pour arrêter la création d’une version pour la ou les pages supprimées en fonction de votre configuration Experience Manager Guides : Cloud Service ou On-Premise.
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 1. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration.
 1. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer l’option **Ne pas créer de version pour les pages supprimées** :

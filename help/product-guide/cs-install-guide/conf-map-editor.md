@@ -34,4 +34,4 @@ Suivez les instructions fournies dans [Remplacements de la configuration](downlo
 >
 > Par défaut, lorsqu’un auteur crée un fichier de mappage et choisit de l’ouvrir pour le modifier, l’éditeur de mappage de base est lancé. Lorsque l’option Modifier est sélectionnée pour un fichier de mappage dans l’interface utilisateur d’Assets, elle est également ouverte dans l’éditeur de mappage de base.
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)

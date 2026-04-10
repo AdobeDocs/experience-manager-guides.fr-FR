@@ -23,4 +23,4 @@ Suivez les instructions fournies dans [Remplacements de la configuration](downlo
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | Ajoutez les caractères que vous souhaitez remplacer par un trait de soulignement dans les noms de fichier de sortie du site AEM. <br> **Valeur par défaut** : ``'<\>\`@$`` |
 
-**Rubrique parente :**[ Configurer les noms de fichier](conf-file-names.md)
+**Rubrique parente :**&#x200B;[&#x200B; Configurer les noms de fichier](conf-file-names.md)

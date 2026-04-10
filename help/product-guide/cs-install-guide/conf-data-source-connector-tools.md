@@ -27,7 +27,7 @@ Vous pouvez également vous connecter à des fichiers de données JSON à l’ai
 
 Pour configurer un connecteur, procédez comme suit :
 
-1. Sélectionnez le lien **** en haut et choisissez Outils.
+1. Sélectionnez le lien **&#x200B;**&#x200B;en haut et choisissez Outils.
 1. Sélectionnez **Guides** dans la liste des outils.
 1. Sélectionnez la mosaïque **Sources de données**. La page **Sources de données** s’affiche. Vous pouvez afficher les sources de données connectées.
 
@@ -134,5 +134,5 @@ Une erreur s’affiche si le connecteur portant le même nom existe.
 * **Supprimer** : supprimez le connecteur sélectionné.
 
 
-Une fois la source de données configurée, le connecteur est répertorié sous le panneau **Sources de données** dans l’éditeur web. Vous pouvez ensuite vous connecter à la source de données et insérer un fragment de contenu dans vos rubriques. Pour plus d’informations, consultez la section [ Insérer un fragment de contenu à partir de votre source de données ](../user-guide/web-editor-content-snippet.md).
+Une fois la source de données configurée, le connecteur est répertorié sous le panneau **Sources de données** dans l’éditeur web. Vous pouvez ensuite vous connecter à la source de données et insérer un fragment de contenu dans vos rubriques. Pour plus d’informations, consultez la section [&#x200B; Insérer un fragment de contenu à partir de votre source de données &#x200B;](../user-guide/web-editor-content-snippet.md).
 
