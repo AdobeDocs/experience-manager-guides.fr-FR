@@ -15,9 +15,9 @@ ht-degree: 19%
 
 # Configurer Dispatcher {#id213BCM0M05U}
 
-Dispatcher est l’outil de mise en cache et/ou d’équilibrage de charge d’Adobe Experience Manager. Pour plus d&#39;informations, consultez la section [Dispatcher en mode cloud](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=en).
+Dispatcher est l’outil de mise en cache et/ou d’équilibrage de charge d’Adobe Experience Manager. Pour plus d&#39;informations, consultez la section [Dispatcher en mode cloud](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=fr).
 
-1. Pour migrer la configuration de Dispatcher d’AMS vers Cloud Service, voir [Migration de la configuration de Dispatcher d’AMS vers AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=en).
+1. Pour migrer la configuration de Dispatcher d’AMS vers Cloud Service, voir [Migration de la configuration de Dispatcher d’AMS vers AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=fr).
 1. Pour plus d’informations sur la configuration du Dispatcher, voir [Configuration de Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=fr).
 
 >[!NOTE]

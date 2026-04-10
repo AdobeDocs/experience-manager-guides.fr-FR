@@ -221,5 +221,5 @@ La vérification principale consiste à tester la fonctionnalité :
 
 - [Documentation sur l’indexation &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/operations/indexing)
 - [&#x200B; Guide d’indexation Apache Jackrabbit Oak &#x200B;](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [Documentation &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
+- [Documentation &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-manager-guides)
 - [Documentation Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)

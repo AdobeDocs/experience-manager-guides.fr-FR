@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Cet article fournit des instructions pour mettre à niveau les versions d’**&#x200B;** **antérieures à la version 4.6.0** **(jusqu’à la version 4.4.0 incluse**).
 
-Si vous utilisez une version **antérieure à la version 3.8.5**, reportez-vous à la section **Mettre à niveau Experience Manager Guides** du guide d’installation spécifique au produit disponible sur [l’archive PDF de l’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+Si vous utilisez une version **antérieure à la version 3.8.5**, reportez-vous à la section **Mettre à niveau Experience Manager Guides** du guide d’installation spécifique au produit disponible sur [l’archive PDF de l’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html).
 
 Pour obtenir des instructions de mise à niveau pour les versions plus récentes, reportez-vous à [Mise à niveau d’Adobe Experience Manager Guides vers les versions 4.6.0 et ultérieures](./upgrade-aemg-latest-version.md).
 
@@ -57,7 +57,7 @@ Certaines mises à niveau nécessitent également de définir le niveau de journ
 
 >[!NOTE]
 >
-> Ce processus de mise à niveau est applicable **uniquement** de la version **3.8.5** à la version **4.0**. Pour les mises à niveau de **3.4 ou version ultérieure** vers **3.8.5**, reportez-vous au guide d’installation spécifique au produit disponible sur [l’archive Adobe Experience Manager Guides Help PDF](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+> Ce processus de mise à niveau est applicable **uniquement** de la version **3.8.5** à la version **4.0**. Pour les mises à niveau de **3.4 ou version ultérieure** vers **3.8.5**, reportez-vous au guide d’installation spécifique au produit disponible sur [l’archive Adobe Experience Manager Guides Help PDF](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html).
 
 Si vous utilisez la version **3.8.5 de Experience Manager Guides** vous pouvez effectuer la mise à niveau vers la version **4.0** sans désinstaller la version précédente.
 

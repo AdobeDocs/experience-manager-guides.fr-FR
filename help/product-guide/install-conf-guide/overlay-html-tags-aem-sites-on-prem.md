@@ -142,4 +142,4 @@ Zones cliquables :
 
 
 
-En savoir plus sur les bonnes pratiques relatives à la [sécurité](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security).
+En savoir plus sur les bonnes pratiques relatives à la [sécurité](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/introduction/security).
