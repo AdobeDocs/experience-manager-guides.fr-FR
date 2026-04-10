@@ -1,13 +1,14 @@
 ---
-title: Fonctionnalité native de publication PDF | Conception d’une mise en page
+title: Fonctionnalité de publication native de PDF | Conception d’une mise en page
 description: Découvrez comment concevoir votre mise en page pour présenter des informations dans différentes sections de votre sortie PDF.
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: e8aecbdca448c321ac36804255416a4fb2561f79
+hidefromtoc: true
+source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
 workflow-type: tm+mt
-source-wordcount: '5017'
+source-wordcount: '5016'
 ht-degree: 0%
 
 ---
@@ -34,7 +35,7 @@ Un document PDF contient généralement les sections suivantes :
 * Index
 * Page précédente
 
-Ces sections auraient besoin d’une mise en page correspondante pour présenter les informations dans un format spécifique. En outre, vous pouvez également utiliser une page vierge comme remplissage pour commencer un nouveau chapitre à partir d’une page paire ou impaire. Dans ce cas, vous pouvez utiliser la mise en page par défaut ou créer une mise en page pour une page vierge. Pour plus d’informations[&#128279;](components-pdf-template.md#create-page-layout) voir Créer une mise en page.
+Ces sections auraient besoin d’une mise en page correspondante pour présenter les informations dans un format spécifique. En outre, vous pouvez également utiliser une page vierge comme remplissage pour commencer un nouveau chapitre à partir d’une page paire ou impaire. Dans ce cas, vous pouvez utiliser la mise en page par défaut ou créer une mise en page pour une page vierge. Pour plus d’informations[ voir ](components-pdf-template.md#create-page-layout)Créer une mise en page.
 
 Les paramètres des mises en page de la section **Modèle>Paramètres** vous permettent de définir la mise en page à utiliser pour les différentes sections de votre PDF. Chaque mise en page peut en outre comporter différentes variantes de première, de droite ou de gauche.
 
@@ -100,7 +101,7 @@ Lors de la conception d’une mise en page, il est essentiel de contrôler diver
 
 * **Afficher la rotation** : spécifiez le côté ou la direction dans lequel le côté supérieur d’origine est représenté après la rotation. Vous pouvez choisir entre 90 degrés dans le sens des aiguilles d&#39;une montre, 90 degrés dans le sens inverse des aiguilles d&#39;une montre ou 180 degrés. Cela s’avère très utile dans les cas où vous souhaitez utiliser une combinaison de dispositions Portrait et Paysage dans votre sortie. Par exemple, vous pouvez utiliser le format portrait comme mise en page générique et vous pouvez définir une mise en page paysage pour le rendu des tableaux larges. Dans ce cas, vous pouvez définir pour afficher le contenu du tableau dans le sens des aiguilles d’une montre à 90 degrés. Ainsi, la page sera orientée dans le paysage et le contenu fera l’objet d’une rotation de 90 degrés pour maintenir la continuité en vue. Nous verrons comment cela est réalisé à titre d’exemple plus loin dans cette section.
 
-* **Numérotation des pages** : par défaut, la numérotation des pages est continue dans un PDF. Par exemple, un PDF de 100 pages peut avoir des numéros de page continus compris entre 1 et 100. Vous pouvez également redémarrer la numérotation à partir d&#39;un numéro spécifique dans toutes les différentes sections ou la première occurrence d&#39;une section.
+* **Numérotation des pages** :The numérotation des pages est par défaut continue dans un PDF. Par exemple, un PDF de 100 pages peut avoir des numéros de page continus compris entre 1 et 100. Vous pouvez également redémarrer la numérotation à partir d&#39;un numéro spécifique dans toutes les différentes sections ou la première occurrence d&#39;une section.
    * **Redémarrer à partir de** : indiquez le numéro de page à partir duquel la numérotation de cette disposition commencera. Par exemple, vous pouvez définir le numéro de page à redémarrer pour chaque chapitre. Dans ce cas, vous devez définir le redémarrage à partir de la propriété sur 1 dans la variante Première page de la mise en page du chapitre. Par défaut, la numérotation des pages se poursuit à partir de la page précédente.
 
    * **Appliquer uniquement à la première occurrence** : vous pouvez également partir d’un nombre spécifique uniquement pour la première occurrence d’une section. Par exemple, vous pouvez commencer uniquement le premier chapitre à partir de 1 et continuer les numéros de page pour les autres chapitres.
@@ -165,7 +166,6 @@ Effectuez les étapes suivantes pour réaliser les tâches ci-dessus :
 1. Modifiez la propriété Afficher la rotation pour effectuer le rendu du contenu à 90° dans le sens des aiguilles d’une montre.
 
    1. Sélectionnez **90°** dans le sens des aiguilles d&#39;une montre dans la liste déroulante Rotation de la vue.
-
    <img src="./assets/view-rotation-page-props.png" width="300">
 
    1. Cliquez sur **Tout enregistrer** pour enregistrer les propriétés de mise en page mises à jour.
@@ -180,11 +180,9 @@ Effectuez les étapes suivantes pour réaliser les tâches ci-dessus :
       La feuille de style de disposition est ouverte pour modification.
 
    1. Cliquez avec le bouton droit sur **Autres styles** et choisissez **Nouveau style**.
-
       <img src="./assets/stylesheet-other-new-style.png" width="300">
 
    1. Dans la fenêtre contextuelle Ajouter un style, saisissez **paysage-style** dans le **nom de la classe**.
-
       <img src="./assets/stylesheet-new-landscape-style.png" width="400">
 
    1. Cliquez sur **Terminé**.
@@ -440,7 +438,6 @@ Dans l&#39;exemple suivant, nous allons insérer un numéro de page et un titre 
    1. Dans le panneau de droite, cliquez sur **Propriétés du contenu** (<img src="./assets/content-properties-icon.png" width="25">).
 
    1. Développez la section des propriétés **Disposition** et définissez la valeur de la propriété **Float** sur **right**.
-
       <img src="./assets/float-prop-html-content.png" width="400">
 
       Le champ Titre du chapitre est aligné sur le côté droit du pied de page.

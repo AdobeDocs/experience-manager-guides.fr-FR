@@ -5,7 +5,8 @@ exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 1524533c6ffcdfc8aed3cf53cf3467dcdd22369f
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '5703'
 ht-degree: 1%
@@ -80,7 +81,7 @@ Vous pouvez également utiliser des modules externes DITA Open Toolkit \(DITA-OT
 
 >[!TIP]
 >
-> Consultez la section *Publication sur le site AEM* dans le guide des bonnes pratiques pour connaître les bonnes pratiques concernant la création d’une sortie de site AEM.
+> Consultez la section *Publication sur le site* dans le guide des bonnes pratiques pour connaître les bonnes pratiques concernant la création d’une sortie de site AEM.
 
 
 ### Personnaliser le modèle de conception pour générer la sortie {#customize_xml-add-on}
@@ -128,7 +129,7 @@ Effectuez les étapes suivantes pour spécifier votre propre modèle de concepti
 >
 > Après avoir créé un nœud de modèle de conception personnalisé, vous devez mettre à jour l’option Conception dans les paramètres prédéfinis de sortie du site AEM pour utiliser le nœud du modèle de conception personnalisé.
 
-Pour plus d’informations, consultez les sections [Création de votre premier site web Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=fr) et [Principes de base](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=fr) du développement de votre propre site web sur AEM.
+Pour plus d’informations, consultez les sections [Création de votre premier site web Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=fr) et [Principes de base](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) du développement de votre propre site web sur AEM.
 
 ### Utiliser le titre du document pour générer la sortie du site AEM
 
@@ -158,7 +159,7 @@ Pour configurer les noms de page, procédez comme suit :
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeName` | `nodename.systemDefinedPageName` | Booléen (`true/false`). **Valeur par défaut** : `false` |
 
-Par exemple, si le caractère *@navtitle* dans `<topichead>` contient tous les caractères spéciaux et que vous définissez la propriété `aemsite.pagetitle` sur true, alors, par défaut, il utilise un séparateur. Si vous définissez la propriété `nodename.systemDefinedPageName` sur true, elle affiche le nom de la première rubrique enfant.
+Par exemple, si le caractère ** dans `<topichead>` contient tous les caractères spéciaux et que vous définissez la propriété `aemsite.pagetitle` sur true, alors, par défaut, il utilise un séparateur. Si vous définissez la propriété `nodename.systemDefinedPageName` sur true, elle affiche le nom de la première rubrique enfant.
 
 
 ### Configurez les règles d’assainissement de nom de fichier pour créer des rubriques et publier la sortie dans AEM Sites et d’autres formats {#id2164D0KD0XA}
@@ -269,7 +270,7 @@ Pour exclure l’élément `table` de l’aplatissement, ajoutez la propriété 
 
 ### Configurer le contrôle de version des pages supprimées dans la sortie du site AEM
 
-Lorsque vous générez une sortie de site AEM avec les options **Supprimer et** Créer **&#x200B;**&#x200B;sélectionnées pour le paramètre Pages de sortie existantes , une version est créée pour la ou les pages en cours de suppression. Vous pouvez configurer le système pour arrêter la création d’une version avant la suppression.
+Lorsque vous générez une sortie de site AEM avec les options **Supprimer et** Créer ****sélectionnées pour le paramètre Pages de sortie existantes , une version est créée pour la ou les pages en cours de suppression. Vous pouvez configurer le système pour arrêter la création d’une version avant la suppression.
 
 Effectuez les étapes suivantes pour arrêter la création d’une version pour la ou les pages en cours de suppression :
 
@@ -308,7 +309,7 @@ Pour ajouter les métadonnées requises dans le système, procédez comme suit :
 
 1. Cliquez sur le lien Adobe Experience Manager en haut et choisissez **Outils**.
 
-1. Sélectionnez **Assets** dans la liste des outils.
+1. Sélectionnez **** dans la liste des outils.
 
 1. Cliquez sur la mosaïque **Schémas de métadonnées**.
 
@@ -630,11 +631,11 @@ AEM Guides fournit la catégorie `apps.fmdita.dashboard-extn` pour la personnali
 
 >[!NOTE]
 >
-> Pour plus d’informations sur la création de la bibliothèque cliente AEM, voir [&#x200B; Utilisation de bibliothèques côté client &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=fr).
+> Pour plus d’informations sur la création de la bibliothèque cliente AEM, voir [ Utilisation de bibliothèques côté client ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
 
 ## Gérer le rendu des images pendant la génération de la sortie {#id177BF0G0VY4}
 
-AEM s’accompagne d’un ensemble de workflows et de descripteurs de médias par défaut destinés au traitement des ressources. Dans AEM, il existe des workflows prédéfinis pour gérer le traitement des ressources pour les types MIME les plus courants. En règle générale, pour chaque image chargée, AEM crée plusieurs rendus de la même image au format binaire. Ces rendus peuvent être de tailles différentes, avec une résolution différente, avec un filigrane ajouté ou une autre caractéristique modifiée. Pour plus d’informations sur la façon dont AEM gère les ressources, voir [Traitement d’Assets à l’aide de gestionnaires de médias et de workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=fr) dans la documentation d’AEM.
+AEM s’accompagne d’un ensemble de workflows et de descripteurs de médias par défaut destinés au traitement des ressources. Dans AEM, il existe des workflows prédéfinis pour gérer le traitement des ressources pour les types MIME les plus courants. En règle générale, pour chaque image chargée, AEM crée plusieurs rendus de la même image au format binaire. Ces rendus peuvent être de tailles différentes, avec une résolution différente, avec un filigrane ajouté ou une autre caractéristique modifiée. Pour plus d’informations sur la façon dont AEM gère les ressources, voir [Traitement d’Assets à l’aide de gestionnaires de médias et de workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) dans la documentation d’AEM.
 
 AEM Guides vous permet de configurer le rendu d’image à utiliser au moment de la génération de la sortie de vos documents. Par exemple, vous pouvez choisir l’un des rendus d’image par défaut ou en créer un et l’utiliser pour publier vos documents. Le mappage de rendu d’image pour la publication de vos documents est stocké dans le fichier `/libs/fmdita/config/ **renditionmap.xml**`. Un extrait de fichier `renditionmap.xml` est le suivant :
 

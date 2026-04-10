@@ -1,10 +1,12 @@
 ---
-title: Migration de contenu d'On-premise vers les Cloud Service
-description: Découvrez comment migrer le contenu du logiciel On-premise vers les Cloud Service
+title: Migration de contenu d’On-premise vers Cloud Services
+description: Découvrez comment migrer le contenu d’un logiciel On-premise vers les services cloud
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 645d9983b66c740444f24e2283806b5ec4a4ee79
+exl-id: da3a6f83-b21a-4b19-8b54-ee96f11e7c09
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 4%
@@ -13,35 +15,35 @@ ht-degree: 4%
 
 # Migration de contenu d’On-premise vers Cloud Service
 
-Experience Manager as a Cloud Service constitue une base technologique évolutive, sécurisée et agile pour Experience Manager Guides, Assets, Forms et Screens. Cela permet aux spécialistes du marketing et aux professionnels de l’informatique de se concentrer sur la diffusion à grande échelle d’expériences percutantes.
-Avec Experience Manager as a Cloud Service, vos équipes peuvent se concentrer sur l’innovation plutôt que sur la planification des mises à niveau de produits. Les nouvelles fonctionnalités du produit sont soigneusement testées et diffusées sans interruption à vos équipes afin qu’elles puissent toujours accéder à la dernière version de Adobe Experience Manager.
+Experience Manager as a Cloud Service fournit une base technologique évolutive, sécurisée et agile pour Experience Manager Guides, Assets, Forms et Screens. Cela permet aux professionnels du marketing et de l’informatique de se concentrer sur la création d’expériences percutantes à grande échelle.
+Avec Experience Manager as a Cloud Service, vos équipes peuvent se concentrer sur l’innovation plutôt que sur la planification des mises à niveau de produits. Les nouvelles fonctionnalités du produit sont soigneusement testées et mises en permanence à la disposition de vos équipes afin qu’elles puissent toujours accéder à la dernière version de Adobe Experience Manager.
 
-Cet article fournit un processus détaillé et détaillé pour la migration de votre contenu On-premise ou Managed Services Experience Manager Guides vers les Cloud Service, assurant une transition fluide vers la plateforme cloud.
+Cet article décrit un processus détaillé et détaillé pour migrer votre contenu On-premise ou Managed Services Experience Manager Guides vers les services cloud, afin d’assurer une transition en douceur vers la plateforme cloud.
 
-## Prérequis
+## Conditions préalables
 
 * Adobe Experience Manager 6.4 ou versions ultérieures
-* Experience Manager Guides doit se trouver sur la version UID. Si vous utilisez une version non UUID d’Adobe Experience Manager Guides, migrez d’abord vers UUID en suivant les étapes de la section [Migration du contenu non DITA](../install-guide/migrate-uuid-non-uuid.md).
-* Accès à **Cloud Acceleration Manager** pour l’instance cloud sur laquelle vous souhaitez migrer le contenu.
-* La taille de référentiel de 20 To maximum est prise en charge
+* Experience Manager Guides doit être sur la version de l’UUID. Si vous utilisez une version non-UUID d’Adobe Experience Manager Guides, migrez d’abord vers UUID en suivant les étapes décrites dans la section [Migrer du contenu non-DITA](../install-guide/migrate-uuid-non-uuid.md).
+* Accès à **** pour l&#39;instance cloud dans laquelle vous souhaitez migrer le contenu
+* La taille du référentiel prise en charge peut atteindre 20 To
 * Taille totale de l’index Lucene de 25 Go
-* La longueur d’un nom de noeud doit être inférieure à 150 octets
+* La longueur d’un nom de nœud doit être inférieure à 150 octets
 
 
 ## Processus de migration
 
-**Outil de transfert de contenu** est un outil développé par Adobe que vous pouvez utiliser pour lancer la migration de contenu existant d’une instance Adobe Experience Manager On-premise ou Managed Services source vers l’instance d’Experience Manager Cloud Service cible.
+Développé par **l’**outil de transfert de contenu est utilisé pour lancer la migration de contenu existant entre une instance source Adobe Experience Manager On-premise ou Managed Services et l’instance cible Experience Manager Cloud Service.
 Cet outil transfère également automatiquement les entités principales (utilisateurs, utilisatrices ou groupes).
 
-Vous pouvez télécharger l’**outil de transfert de contenu** sous la forme d’un fichier ZIP à partir du portail de **distribution de logiciels** :
+Vous pouvez télécharger l’**outil de transfert de contenu** sous la forme d’un fichier ZIP à partir du portail **Distribution logicielle** :
 
-1. Sélectionnez l’onglet **AEM as a Cloud Service** sur le portail **Distribution logicielle**.
+1. Sélectionnez l’onglet **** sur le portail **Distribution logicielle**.
 1. Recherchez **Outil de transfert de contenu**.
 1. Sélectionnez **Outil de transfert de contenu** dans la liste et téléchargez-le.
 
-![Télécharger l’outil de transfert de contenu](./assets/content-transfer-tool-software-portal.png)
-Installez ensuite le package via **Package Manager** sur votre instance Adobe Experience Manager source. Veillez à télécharger la dernière version.
-Pour plus d’informations sur la dernière version, consultez les [notes de mise à jour](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=fr).
+![télécharger l’outil de transfert de contenu](./assets/content-transfer-tool-software-portal.png)
+Installez ensuite le package via **Gestionnaire de packages** sur votre instance Adobe Experience Manager source. Veillez à télécharger la dernière version.
+Pour plus d’informations sur la dernière version, voir [Notes de mise à jour](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en).
 
 >[!NOTE]
 > 
@@ -51,22 +53,22 @@ Pour plus d’informations sur la dernière version, consultez les [notes de mis
 
 
 
-Effectuez les étapes suivantes pour migrer le contenu Experience Manager Guides vers Experience Manager as a Cloud Service.
+Pour migrer le contenu Experience Manager Guides vers Experience Manager as a cloud service, procédez comme suit.
 
 1. Connectez-vous à [experience.adobe.com](https://experience.adobe.com/) et sélectionnez **Experience Manager**.
 
-   ![experience manager](./assets/migration-experience-manager.png)
+   ![experience manager ](./assets/migration-experience-manager.png)
 
 
 1. Cliquez sur **Launch** sur la mosaïque **Cloud Acceleration Manager**.
-   ![gestionnaire d’accélération du cloud](./assets/migration-experience-manager-cloud.png)
+   ![ cloud acceleration manager ](./assets/migration-experience-manager-cloud.png)
 
 1. Créez votre premier projet.
    ![créer un projet](./assets/migration-cloud-create-project.png)
 
 1. Ajoutez le nom et la description, puis cliquez sur **Créer**. Votre projet est créé.
 1. Sélectionnez le projet créé et ouvrez l’écran du projet.
-1. Cliquez sur **Réviser** sur la mosaïque **Transfert de contenu** .
+1. Cliquez sur **Vérifier** dans la mosaïque **Transfert de contenu**.
 
    ![Vérifier le transfert de contenu](./assets/migration-content-transfer-review.png)
 
@@ -81,32 +83,32 @@ Effectuez les étapes suivantes pour migrer le contenu Experience Manager Guides
 1. Après la création, sélectionnez les trois points et sélectionnez **Copier la clé d’extraction**.
 
 
-1. Cliquez sur **Copier dans le Presse-papiers**. Créez votre premier projet.
-   ![clé d&#39;extraction](./assets/migration-copy-to-clipboard.png)
+1. Cliquez sur **Copier dans le presse-papiers**. Créez votre premier projet.
+   ![clé d’extraction](./assets/migration-copy-to-clipboard.png)
 
-1. Sélectionnez **Adobe Experience Manager** dans la partie supérieure, puis sélectionnez la mosaïque **Distribution logicielle**.
-   ![Portail de distribution de logiciels](./assets/migration-software-portal.png)
+1. Sélectionnez **** dans la partie supérieure, puis sélectionnez la mosaïque **Distribution logicielle**.
+   ![portail de distribution de logiciels](./assets/migration-software-portal.png)
 
 
-1. Sur le portail **Distribution logicielle**, sélectionnez **Adobe Experience Manager comme onglet Cloud Service**, recherchez &quot;outil de transfert de contenu&quot; et téléchargez le package de l’outil de transfert de contenu.
+1. Sur le portail **Distribution logicielle**, sélectionnez **Adobe Experience Manager comme onglet Cloud Service**, recherchez « outil de transfert de contenu » et téléchargez le package d’outil de transfert de contenu.
 
    >[!NOTE]
    >
    >  Veillez à télécharger la dernière version.
 
-1. Téléchargez et installez le package `content-transfer.all-3.0.10.zip` dans le **gestionnaire de modules** de votre instance On-premise.
-   ![Télécharger l’outil de transfert de contenu](./assets/content-transfer-tool-software-portal.png)
+1. Téléchargez et installez le `content-transfer.all-3.0.10.zip` de package dans le **Gestionnaire de packages** de votre instance On-premise.
+   ![télécharger l’outil de transfert de contenu](./assets/content-transfer-tool-software-portal.png)
 
 
 1. Sur l’instance On-premise, sélectionnez **Outils** > **Opérations** > **Migration de contenu** > **Transfert de contenu**.
 
 
-1. Sélectionnez **Content Transfer** (Transfert de contenu), créez un jeu de migration, puis collez la clé d’extraction copiée à partir du gestionnaire d’accélération du cloud. Cela établit un lien entre la source et la cible. Ensuite, il vérifie la clé et affiche la validité après avoir saisi la valeur.
+1. Sélectionnez **Transfert de contenu**, créez un jeu de migration et collez la clé d’extraction copiée à partir du gestionnaire d’accélération cloud. Cela établit une connexion entre la source et la cible. Ensuite, il vérifie la clé et affiche la validité après avoir saisi la valeur.
 
-1. Activez l’option **Inclure les versions** pour inclure les versions de fichiers.
+1. Activez l’option **Inclure des versions** pour inclure les versions de fichier.
    ![](./assets/migration-create-migration-set.png)
 
-1. Indiquez le chemin d’accès que vous souhaitez migrer et cliquez sur **Enregistrer**.
+1. Indiquez le chemin d’accès à migrer et cliquez sur **Enregistrer**.
 Par exemple, `/content/sites`
 ou
    `/content/dam/tech-docs`
@@ -116,7 +118,7 @@ ou
 
    >[!NOTE]
    >
-   > Vous devez migrer obligatoirement les chemins suivants pour le contenu **Experience Manager Guides**.
+   > Vous devez migrer les chemins d’accès suivants de manière obligatoire pour le contenu ****.
 
    * `/content/dam`
    * `/var/dxml`
@@ -125,58 +127,58 @@ ou
    * `/apps`
    * `/libs`
    * `/home`
-   * `/etc` Vous pouvez sélectionner certains `/etc` chemins dans CTT.
+   * `/etc` Vous êtes autorisé à sélectionner certains chemins `/etc` dans le CTT.
 
-1. Cliquez sur **Enregistrer**
-1. Sélectionnez le **jeu de migration**, puis **Extract** en haut.
-   ![extraction de jeu de migration &#x200B;](./assets/migration-extract.png)
+1. Cliquer sur **Enregistrer**
+1. Sélectionnez le **jeu de migration** puis sélectionnez **Extraire** dans la partie supérieure.
+   ![ d’extraction du jeu de migration](./assets/migration-extract.png)
 
-1. Vérifiez les détails dans la fenêtre contextuelle **Migration Set Extraction** pour les chemins et les configurations que vous avez sélectionnés, puis cliquez sur **Extract**. L’extraction prendra des minutes et vous verrez l’état tel que mis à jour.
-   ![Extraction du jeu de migration](./assets/migration-set-extraction.png)
+1. Vérifiez les détails des chemins et des configurations que vous avez sélectionnés dans la fenêtre contextuelle **Extraction du jeu de migration**, puis cliquez sur **Extraire**. L’extraction prendra minutes et vous verrez le statut comme mis à jour.
+   ![extraction du jeu de migration](./assets/migration-set-extraction.png)
 
-1. Une fois l’extraction terminée et indiquée par l’état `finished`, accédez à Cloud Acceleration Manager et sélectionnez le projet que vous avez créé à l’étape 18.
-Pour plus d’informations, sélectionnez les trois points, puis **Afficher les détails**.
+1. Une fois l’extraction terminée et indiquée par le `finished` d’état, accédez à Cloud Acceleration Manager et sélectionnez le projet que vous avez créé à l’étape 18.
+Pour plus d’informations, sélectionnez les trois points, puis sélectionnez **Afficher les détails**.
 
 
-1. Dans la fenêtre contextuelle Détails du jeu de migration , vérifiez la configuration du jeu de migration et fermez la fenêtre contextuelle. Vous pouvez afficher les chemins et les autres paramètres, comme illustré dans la capture d’écran suivante :
+1. Dans la fenêtre contextuelle Détails du jeu de migration , vérifiez la configuration du jeu de migration et fermez la fenêtre contextuelle. Vous pouvez afficher les chemins d’accès et d’autres paramètres comme illustré dans la capture d’écran suivante :
    ![migration-details](./assets/migration-details.png)
 
 
 1. Cliquez sur **Tâches d’ingestion** > **Nouvelle ingestion**.
-1. Acceptez les valeurs de coche requises, puis cliquez sur **Créer**.
-   ![accuser les vérifications de migration](./assets/migration-new-ingestion-acknowledge.png)
+1. Notez les valeurs de coche requises, puis cliquez sur **Créer**.
+   ![accuser réception des contrôles de migration](./assets/migration-new-ingestion-acknowledge.png)
 
-1. Sélectionnez le jeu de migration, sélectionnez le serveur requis de votre environnement, puis cliquez sur **Ingest**.
+1. Sélectionnez le jeu de migration, sélectionnez le serveur requis de votre environnement, puis cliquez sur **Ingérer**.
 
-   ![nouvelle ingestion](./assets/migration-new-ingestion.png)
+   ![nouvelle ingestion ](./assets/migration-new-ingestion.png)
 
-## Exécution de l’outil de transfert de contenu sur une instance Publish
+## Exécution de l’outil de transfert de contenu sur une instance de publication
 
-Installez l’outil de transfert de contenu sur l’instance Publish source pour déplacer le contenu vers l’instance Publish cible.
-L’outil de transfert de contenu ne fait pas la distinction entre le contenu publié et le contenu non publié lors de l’ingestion de contenu dans un environnement Publish. Le contenu spécifié dans le jeu de migration est ingéré dans l’instance cible choisie. L’utilisateur peut ingérer un jeu de migration dans une instance d’auteur, une instance Publish, ou les deux.
+Installez l’outil de transfert de contenu sur l’instance de publication source pour déplacer le contenu vers l’instance de publication cible.
+L’outil de transfert de contenu ne fait pas de distinction entre le contenu publié et le contenu dépublié lors de l’ingestion de contenu dans un environnement de publication. Le contenu spécifié dans le jeu de migration est ingéré dans l’instance cible choisie. L’utilisateur peut ingérer un jeu de migration dans une instance de création, une instance de publication ou les deux.
 
 ### Approche recommandée
 
 Tenez compte des recommandations suivantes :
 
-* Utilisez la même version de l’ **outil de transfert de contenu** utilisé sur l’instance d’auteur.
-* Lors de l’ingestion vers Publish, le niveau Publish ne sera pas réduit (contrairement à l’auteur).
-* Migrez un seul noeud Publish. Avant de commencer l&#39;extraction, supprimez-la de l&#39;équilibreur de charge.
+* Utilisez la même version de l’outil de transfert de contenu **Content Transfer Tool** qui a été utilisée sur l’instance de création.
+* Lors de l’ingestion vers la publication, le niveau de publication ne sera pas réduit (contrairement à l’auteur).
+* Migrez un seul nœud de publication. Avant de commencer l’extraction, supprimez-la de la répartition de charge.
 
 >[!NOTE]
 >
-> Par mesure de précaution, assurez-vous qu’aucune opération d’écriture ne se produit sur les instances Publish, y compris les actions initiées par l’utilisateur telles que :
+> Par mesure de précaution, assurez-vous qu’aucune opération d’écriture ne se produit sur les instances de publication, y compris les actions initiées par l’utilisateur telles que :
 > * La distribution de contenu de la création dans AEM as a Cloud Service à la publication dans cet environnement
-> * Synchronisation des utilisateurs entre les instances Publish
+> * Synchronisation des utilisateurs entre les instances de publication
 
 
 ## Résolution des problèmes
 
-Si l’extraction échoue en raison de l’erreur suivante, vous pouvez résoudre ce problème en important le certificat d’autorité de certification approprié :
+Si l’extraction échoue en raison de l’erreur suivante, vous pouvez la résoudre en important le certificat d’autorité de certification approprié :
 
 `javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target`
 
-**Raison** : le serveur Adobe Experience Manager possède des restrictions de pare-feu. Ajoutez donc le point de terminaison suivant à la liste autorisée.
+**Raison** : le serveur Adobe Experience Manager présente des restrictions de pare-feu. Ajoutez donc le point d’entrée suivant à la liste autorisée.
 
 `casstorageprod.blob.core.windows.net`
 
@@ -184,8 +186,4 @@ Si l’extraction échoue en raison de l’erreur suivante, vous pouvez résoudr
 ![journalisation ssl](./assets/migration-ssl-logging.png)
 
 
-*Activez la journalisation SSL.*
-
-
-
-
+*Activer la journalisation SSL.*

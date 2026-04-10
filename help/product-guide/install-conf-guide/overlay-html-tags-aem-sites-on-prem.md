@@ -1,0 +1,145 @@
+---
+title: Recouvrez les balises HTML dans une sortie AEM Sites non héritée
+description: Configurez les paramètres vidéo et d’image pour la sortie aem sites en fonction du mappage des composants principaux
+feature: Installation
+role: Admin
+level: Experienced
+source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+workflow-type: tm+mt
+source-wordcount: '158'
+ht-degree: 0%
+
+---
+
+# Recouvrez les balises HTML dans la sortie AEM Sites pour On-Premise.
+
+Vous pouvez ajouter et personnaliser des balises HTML dans la sortie AEM Sites générée à l’aide du paramètre prédéfini AEM Sites basé sur le mappage des composants principaux à partir de l’éditeur web. Pour personnaliser les balises HTML, vous pouvez incruster le fichier `config.xml`. Vous pouvez, par exemple, configurer les zones cliquables et vidéo dans la sortie AEM Sites.
+
+Effectuez les étapes suivantes pour recouvrir et mettre à jour le fichier `config.xml` :
+
+1. Connectez-vous à AEM et ouvrez le mode CRXDE Lite .
+
+1. Accédez au fichier de configuration disponible à l’emplacement suivant :
+
+   `/libs/fmdita/cq/xssprotection/config.xml`
+
+1. Créez un nœud de recouvrement du dossier `xssprotection` dans le nœud des applications.
+
+1. Accédez au fichier de configuration disponible dans le nœud `apps` :
+
+   `/apps/fmdita/config/config.xml`
+
+1. Mettez à jour les balises suivantes pour les vidéos et les images. Enregistrez ensuite le fichier.
+
+Vidéos :
+
+```XML
+    <tag name="video" action="validate">
+    <attribute name="src">
+      <regexp-list>
+        <regexp name="anything"/>
+      </regexp-list>
+    </attribute>
+    <attribute name="width">
+       <regexp-list>
+           <regexp name="anything"/>
+       </regexp-list>
+    </attribute>
+    <attribute name="height">
+       <regexp-list>
+          <regexp name="anything"/>
+       </regexp-list>
+     </attribute>
+     <attribute name="data">
+       <regexp-list>
+         <regexp name="anything"/>
+       </regexp-list>
+    </attribute>
+    <attribute name="class">
+       <regexp-list>
+           <regexp name="anything"/>
+       </regexp-list>
+    </attribute>
+    <attribute name="poster">
+      <regexp-list>
+        <regexp name="anything"/>
+        </regexp-list>
+    </attribute>
+    <attribute name="controls">
+        <regexp-list>
+            <regexp name="anything"/>
+        </regexp-list>
+    </attribute>
+    </tag>
+    <tag name="source" action="validate">
+      <attribute name="src">
+        <regexp-list>
+           <regexp name="anything"/>
+        </regexp-list>
+      </attribute>
+    </tag>
+```
+
+Zones cliquables :
+
+```XML
+        <tag name="map" action="validate">
+    <attribute    name="name">
+        <regexp-list>
+            <regexp name="anything"/>
+        </regexp-list>
+    </attribute>
+    </tag>
+    <!-- Image & image related tags -->
+    <tag name="img" action="validate">
+    <attribute name="src" onInvalid="removeTag">
+        <regexp-list>
+            <regexp name="onsiteURL"/>
+            <regexp name="offsiteURL"/>
+        </regexp-list>
+    </attribute>
+    <attribute name="name"/>
+    <attribute name="alt"/>
+    <attribute name="height"/>
+    <attribute name="width"/>
+    <attribute name="border"/>
+    <attribute name="align"/>
+    <attribute name="usemap">
+        <regexp-list>
+            <regexp name="anything"/>
+        </regexp-list>
+    </attribute>
+    <attribute name="hspace">
+        <regexp-list>
+            <regexp name="number"/>
+        </regexp-list>
+    </attribute>
+    <attribute name="vspace">
+        <regexp-list>
+            <regexp name="number"/>
+        </regexp-list>
+    </attribute>
+    </tag>
+    <tag name="area" action="validate">
+    <attribute name="shape">
+        <regexp-list>
+            <regexp name="anything"/>
+        </regexp-list>
+    </attribute>
+    <attribute name="coords">
+        <regexp-list>
+            <regexp name="anything"/>
+        </regexp-list>
+    </attribute>
+    <attribute name="href">
+        <regexp-list>
+            <regexp name="anything"/>
+        </regexp-list>
+    </attribute>
+   </tag>
+```
+
+
+
+
+En savoir plus sur les bonnes pratiques relatives à la [sécurité](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security).

@@ -5,7 +5,8 @@ exl-id: 2335a7d5-251b-4266-8bba-9c9935e7bbf4
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6e9c998aa5c36b7e0dbb9d594dbf223017164698
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1594'
 ht-degree: 0%
@@ -122,7 +123,7 @@ Les variables avec le même ID sont importées une fois le fichier importé. Les
 >[!NOTE]
 > 
 ><ul><li>Si le fichier n’est pas un fichier XML ou s’il contient un format incorrect qui ne correspond pas aux variables de langue, une erreur s’affiche indiquant qu’il existe un problème avec le fichier XML. 
->&gt;<li>Si le fichier ne contient aucune variable portant le même ID, un avertissement s’affiche indiquant qu’aucune variable de langue correspondante n’a été trouvée dans le fichier importé.
+&gt;<li>Si le fichier ne contient aucune variable portant le même ID, un avertissement s’affiche indiquant qu’aucune variable de langue correspondante n’a été trouvée dans le fichier importé.
 
 ### Options d’une variable de langue
 
@@ -130,7 +131,7 @@ Pointez sur la variable pour afficher le menu **Options** correspondant.
 
 <img width="550" alt="menu options des variables de langue" src="./assets/language-variable-user-options.png">
 
-*Utilisez le menu **Options**&#x200B;pour supprimer, prévisualiser ou dupliquer une variable de langue.*
+*Utilisez le menu **Options**pour supprimer, prévisualiser ou dupliquer une variable de langue.*
 
 Vous pouvez prévisualiser les variables d’application et d’utilisateur. Pour afficher la valeur de la variable dans la sortie, sélectionnez **Aperçu** dans le menu **Options** de la variable sélectionnée.
 Vous pouvez également choisir de **Supprimer** ou **Dupliquer** les variables utilisateur. La suppression d’une variable d’une langue la supprime automatiquement de toutes les langues.

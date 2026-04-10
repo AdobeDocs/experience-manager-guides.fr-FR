@@ -5,7 +5,8 @@ exl-id: 8e0afe18-5675-4c7e-b216-6de1a752bd01
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
@@ -14,9 +15,9 @@ ht-degree: 0%
 
 # Vérification de l’installation d’AEM Guides {#id213BD030FBE}
 
-Une fois AEM Guides installé, vous devez vérifier si l’installation a réussi ou non. Effectuez les étapes suivantes pour vérifier le processus d’installation :
+Une fois que vous avez installé AEM Guides, vous devez vérifier si l’installation a réussi ou non. Pour vérifier le processus d’installation, procédez comme suit :
 
-1. Connectez-vous à votre instance AEM et accédez à la page AEM Web Console Bundles. L’URL par défaut pour accéder à la page des lots est la suivante :
+1. Connectez-vous à votre instance AEM et accédez à la page Bundles de la console web AEM . L’URL par défaut pour accéder à la page des lots est :
 
    ```http
    http://<server name>:<port>/system/console/bundles
@@ -24,15 +25,15 @@ Une fois AEM Guides installé, vous devez vérifier si l’installation a réuss
 
    Une liste de lots s’affiche.
 
-1. Filtrez la liste des lots en saisissant fmdita dans la zone de texte de filtrage et appuyez sur **Entrée**.
+1. Filtrez la liste des lots en entrant fmdita dans la zone de texte de filtrage et appuyez sur **Entrée**.
 
-   La liste des lots est filtrée pour afficher les lots installés par AEM Guides. Si l’installation a réussi, tous les lots installés auront un **Status** de **Active**.
+   La liste des lots est filtrée afin d’afficher les lots installés par AEM Guides. Si l’installation a réussi, tous les lots installés auront un **Statut** de **Actif**.
 
-   Si l’un des lots n’a pas l’état **Active** , vérifiez les journaux d’AEM pour résoudre le problème d’installation.
+   Si l’un des lots n’a pas le statut **Actif**, vérifiez les journaux AEM pour résoudre le problème d’installation.
 
 
 >[!IMPORTANT]
 >
-> Il existe un certain nombre de recommandations d’optimisation des performances que vous pouvez prendre en compte pour améliorer les performances de votre système. Voir [Recommendations pour l’optimisation des performances](download-install-recommend-perf-optimiz.md#) pour plus d’informations.
+> Vous pouvez prendre en compte un certain nombre de recommandations d’optimisation des performances pour améliorer les performances de votre système. Pour plus d’informations, consultez [Recommandations pour l’optimisation des performances](download-install-recommend-perf-optimiz.md#).
 
-**Rubrique parente :**&#x200B;[&#x200B; Télécharger et installer](download-install.md)
+**Rubrique parente :**[ Télécharger et installer](download-install.md)

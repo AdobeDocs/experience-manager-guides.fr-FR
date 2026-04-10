@@ -5,7 +5,8 @@ exl-id: 10ab0f3c-97dc-4293-ab73-75b438c03d99
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 10%
@@ -18,9 +19,9 @@ Pour accéder aux fonctionnalités d’AEM Guides et les configurer, vous devez 
 
 Les rubriques suivantes de la documentation d’AEM vous aideront à mieux comprendre les concepts et fonctionnalités liés à l’administration des utilisateurs et à la sécurité :
 
-- [utilisateurs, groupes et autorisations AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=fr)
+- [utilisateurs, groupes et autorisations ](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)
 
-- [&#x200B; Administration et sécurité des utilisateurs &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=fr)
+- [ Administration et sécurité des utilisateurs ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=fr)
 
 
 ## Groupes d’utilisateurs créés par AEM Guides {#id181TF0K0MHT}
@@ -39,7 +40,7 @@ Le tableau suivant répertorie les différentes tâches et les groupes qui peuve
 | Créer un plan DITA | Oui |   | Oui |
 | Mapper les collections | Oui |   | Oui |
 | Créer une tâche de révision | Oui |   | Oui |
-| Rubrique [&#x200B; révision 1](#fntarg_1) | Oui | Oui | Oui |
+| Rubrique [ révision 1](#fntarg_1) | Oui | Oui | Oui |
 | Résolution de la clé | Oui |   | Oui |
 | Extraction/enregistrement | Oui |   | Oui |
 | Modifier le sujet | Oui |   | Oui |

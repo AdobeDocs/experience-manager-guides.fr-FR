@@ -1,23 +1,24 @@
 ---
-title: Recommendations pour l’optimisation des performances
-description: Découvrir le Recommendations pour l’optimisation des performances
+title: Recommandations pour l’optimisation des performances
+description: Découvrez les recommandations relatives à l’optimisation des performances
 exl-id: b2a836a0-de82-4d89-aae3-43276997da74
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: b28b7d96cce69f677b0bcf891b94d7ac84eb1eb0
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
 
-# Recommendations pour l’optimisation des performances {#id213BD0JG0XA}
+# Recommandations pour l’optimisation des performances {#id213BD0JG0XA}
 
 ## Configuration du magasin de données \(Obligatoire\)
 
 **Quel est le changement ?**
-Définissez la propriété `minRecordLength` sur une valeur de `100` sous le `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` de configuration. Pour plus d’informations sur le magasin de dates de fichiers et le magasin de données S3, consultez l’article [Configuration des magasins de nœuds et de données dans AEM 6](https://helpx.adobe.com/fr/experience-manager/6-5/sites/deploying/using/data-store-config.html) .
+Définissez la propriété `minRecordLength` sur une valeur de `100` sous le `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` de configuration. Pour plus d’informations sur le magasin de dates de fichiers et le magasin de données S3, consultez l’article [Configuration des magasins de nœuds et de données dans AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html) .
 
 >[!NOTE]
 >
@@ -32,14 +33,14 @@ Les fichiers DITA sont enregistrés dans l&#39;entrepôt de données plutôt que
 ## Mettre à jour l’index Lucene \(Obligatoire\)
 
 **Quel est le changement ?**
-Excluez /var/dxml de oak:index/lucene.
+Excluez /var/dxml d’oak:index/lucene.
 
 >[!NOTE]
 >
 > AEM Guides n’utilise jamais les index Lucene pour rechercher du contenu dans le nœud /var/dxml.
 
 **Quand configurer ?**
-Si vous apportez cette modification à un nouveau système avant de migrer le contenu, seule la mise à jour de oak:index/lucene est requise. Sinon, sur un système existant où le contenu est déjà migré, après avoir effectué la modification dans oak:index/lucene, recréez les index pour Lucene \(*ce qui peut prendre quelques heures*\).
+Si vous apportez cette modification à un nouveau système avant de migrer le contenu, seule la mise à jour d’oak:index/lucene est requise. Sinon, sur un système existant où le contenu est déjà migré, après avoir effectué la modification dans oak:index/lucene, recréez les index pour Lucene \(*ce qui peut prendre quelques heures*\).
 
 **Résultat de cette modification**
 Cette modification empêche le nœud /var/dxml d’être indexé et stocké dans le magasin de segments.
@@ -51,7 +52,7 @@ Les paramètres de démarrage de la JVM doivent être soigneusement réglés en 
 
 - Définissez la taille du tas JVM sur un minimum de 1/4 de la mémoire totale disponible. Utilisez le paramètre `-Xmx<size>` pour définir la taille de la mémoire de tas. Définissez la valeur de -`Xms` est égale à `-Xmx`.
 
-- Activez `-XX:+HeapDumpOnOutOfMemoryError` et définissez le chemin d’accès pour `-XX:HeapDumpPath=</path/to/folder` `>`.
+- Activez `-XX:+HeapDumpOnOutOfMemoryError` et définissez le chemin d’accès pour `-XX:HeapDumpPath=</path/to/folder``>`.
 
 - Activez le journal Java GC en tant que :
 
@@ -101,12 +102,12 @@ Cela peut être effectué au moment de l’exécution via la console Felix ou vi
 **Résultat de cette modification**
 Cette modification garantit que sur une instance de création en cours d’exécution, toutes les ressources ne sont pas allouées pour les opérations de publication. Cela permet aux auteurs et autrices de disposer des ressources système, ce qui se traduit par une meilleure expérience utilisateur.
 
-## Configurez la taille de lot des nœuds pour la génération de sortie AEM Site \(Obligatoire, selon le cas d’utilisation\)
+## Configurez la taille de lot des nœuds pour la génération de sortie du site AEM \(Obligatoire, selon le cas d’utilisation\)
 
 **quel est le changement ?**
 Cette modification est requise si vous générez une sortie AEM Sites.
 
-Définissez la propriété **Limiter les pages du site AEM dans le tas** sous `com.adobe.fmdita.config.ConfigManager` sur un nombre en fonction de la configuration de votre système. Cette propriété définit la taille du lot des nœuds à valider lors de la génération des pages du site. Par exemple, sur un système avec un plus grand nombre de processeurs et une taille de tas plus importante, vous pouvez augmenter la valeur par défaut de `500` à un plus grand nombre. Vous devez tester l’exécution avec la valeur modifiée pour obtenir une valeur optimale pour cette propriété.
+Définissez la propriété **Limiter les pages du site AEM au tas** sous `com.adobe.fmdita.config.ConfigManager` sur un nombre en fonction de la configuration de votre système. Cette propriété définit la taille du lot des nœuds à valider lors de la génération des pages du site. Par exemple, sur un système avec un plus grand nombre de processeurs et une taille de tas plus importante, vous pouvez augmenter la valeur par défaut de `500` à un plus grand nombre. Vous devez tester l’exécution avec la valeur modifiée pour obtenir une valeur optimale pour cette propriété.
 
 **Quand configurer ?**
 Cela peut être effectué au moment de l’exécution via la console Felix ou via le déploiement du code.
@@ -115,4 +116,4 @@ Cela peut être effectué au moment de l’exécution via la console Felix ou vi
 Un nombre accru de la propriété **Limiter les pages du site AEM dans le tas** optimise le processus de génération de sortie du site AEM.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Télécharger et installer](download-install.md)
+**Rubrique parente :**[ Télécharger et installer](download-install.md)

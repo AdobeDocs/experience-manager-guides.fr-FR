@@ -5,7 +5,8 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: c790d5edd1ab799564aebfa96f4a41288c977a6c
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -26,7 +27,7 @@ Vous pouvez également vous connecter à des fichiers de données JSON à l’ai
 
 Pour configurer un connecteur, procédez comme suit :
 
-1. Sélectionnez le lien **Adobe Experience Manager** en haut et choisissez Outils.
+1. Sélectionnez le lien **** en haut et choisissez Outils.
 1. Sélectionnez **Guides** dans la liste des outils.
 1. Sélectionnez la mosaïque **Sources de données**. La page **Sources de données** s’affiche. Vous pouvez afficher les sources de données connectées.
 
@@ -67,7 +68,7 @@ Pour configurer un connecteur, procédez comme suit :
 
 **Connexion à plusieurs ressources**
 
-Vous pouvez ajouter ou utiliser plusieurs ressources basées sur différentes URL pour certains connecteurs tels que le client REST générique, Salsify, Akeneo et les tableaux de développement Azure Microsoft (ADO). Ensuite, contactez-les pour créer des fragments de contenu ou des rubriques à l’aide des générateurs qui les concernent.
+Vous pouvez ajouter ou utiliser plusieurs ressources basées sur différentes URL pour certains connecteurs tels que le client REST générique, Salsify, Akeneo et les tableaux de développement Azure (ADO) Microsoft. Ensuite, contactez-les pour créer des fragments de contenu ou des rubriques à l’aide des générateurs qui les concernent.
 
 Pour créer une ressource, procédez comme suit :
 
@@ -85,7 +86,7 @@ Vous pouvez ainsi récupérer rapidement des données de n’importe quelle ress
 
 Pour publier une dépendance présente sur le [référentiel central Maven](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) dans les Cloud Services, vous devez inclure et incorporer la dépendance d’un connecteur open source.
 
-1. Ajoutez la dépendance dans `all/pom.xml` dans le code de projet Git de Cloud Manager. Par exemple, vous pouvez ajouter la dépendance suivante pour le connecteur source de données des tableaux de développement Azure Microsoft.
+1. Ajoutez la dépendance dans `all/pom.xml` dans le code de projet Git de Cloud Manager. Par exemple, vous pouvez ajouter la dépendance suivante pour le connecteur source de données des tableaux de bord Microsoft Azure DevOps.
 
 
    ```
@@ -133,5 +134,5 @@ Une erreur s’affiche si le connecteur portant le même nom existe.
 * **Supprimer** : supprimez le connecteur sélectionné.
 
 
-Une fois la source de données configurée, le connecteur est répertorié sous le panneau **Sources de données** dans l’éditeur web. Vous pouvez ensuite vous connecter à la source de données et insérer un fragment de contenu dans vos rubriques. Pour plus d’informations, consultez la section [&#x200B; Insérer un fragment de contenu à partir de votre source de données &#x200B;](../user-guide/web-editor-content-snippet.md).
+Une fois la source de données configurée, le connecteur est répertorié sous le panneau **Sources de données** dans l’éditeur web. Vous pouvez ensuite vous connecter à la source de données et insérer un fragment de contenu dans vos rubriques. Pour plus d’informations, consultez la section [ Insérer un fragment de contenu à partir de votre source de données ](../user-guide/web-editor-content-snippet.md).
 

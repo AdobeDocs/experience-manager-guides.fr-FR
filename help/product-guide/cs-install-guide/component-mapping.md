@@ -5,7 +5,8 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: f59e3ad5-bf9c-468d-aab7-144c8c2335ac
-source-git-commit: beb1ca15fdfb0e7ea30e6e685ac67a2a398cc064
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -175,7 +176,7 @@ Grâce à cette approche, vous pouvez créer d’autres composants personnalisé
 - **Cohérence** : les images de votre tableau se comportent de la même manière que les images ailleurs sur le site.
 - **Côté serveur** : les images sont rendues sur le serveur pour des raisons de performances, d’optimisation du moteur de recherche et d’accessibilité.
 
-### Prérequis
+### Conditions préalables
 
 - AEM SDK en cours d’exécution et ce projet a été extrait.
 - Composants principaux installés sur votre instance AEM.

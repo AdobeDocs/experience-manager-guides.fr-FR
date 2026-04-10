@@ -4,7 +4,9 @@ description: Découvrez comment configurer les filtres d’état du document
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 4942b914ff278ebcf09d00da32d6f9c7cc4d7ff9
+exl-id: 682c915b-bc42-4d2e-84a0-9e88734e278e
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
@@ -27,38 +29,38 @@ Effectuez les étapes suivantes pour configurer les filtres d’état du documen
 Dans le fichier `ui\_config.json` téléchargé, reportez-vous à la section suivante :
 
        « 
-       « repositoryFilters » : &lbrack;
-       &lbrace;
+       « repositoryFilters » : [
+       {
        « title »: « Document state »,
        « property »: « jcr:content/metadata/docstate »,
-       « children » : &lbrack;
-       &lbrace;
+       « children » : [
+       {
        « title »: « Draft »,
        « value »: « Draft »
-       &rbrace; 
-       &lbrace;
+       } 
+       {
        « title »: « Edit »,
        « value »: « Modifier »
-       &rbrace; 
-       &lbrace;
+       } 
+       {
        « title »: « In-Review »,
        « value »: « In-Review »
-       &rbrace; 
-       &lbrace;
+       } 
+       {
        « title »: « Approved »,
        « value » : « Approuvé »
-       &rbrace; 
-       &lbrace;
+       } 
+       {
        « title »: « Reviewed »,
        « value »: « Reviewed »
-       &rbrace; 
-       &lbrace;
+       } 
+       {
        « title »: « Done »,
        « value »: « Terminé »
-       &rbrace;
-       &rbrack;
-       &rbrace;
-       &rbrack;
+       }
+       ]
+       }
+       ]
        « 
    Ce fragment de code représente les filtres d’état de document par défaut disponibles dans Experience Manager Guides.
 
@@ -75,4 +77,4 @@ Dans le fichier `ui\_config.json` téléchargé, reportez-vous à la section sui
 
 Les filtres configurés s’affichent dans le panneau **Filtres** dans le référentiel de la page d’accueil.
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)

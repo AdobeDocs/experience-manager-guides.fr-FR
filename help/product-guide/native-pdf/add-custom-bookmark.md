@@ -1,11 +1,12 @@
 ---
-title: Fonctionnalité native de publication PDF | Ajout d’un signet personnalisé dans la sortie PDF
+title: Fonctionnalité de publication native de PDF | Ajout d’un signet personnalisé dans la sortie PDF
 description: Découvrez comment créer des feuilles de style utilisateur et créer des styles pour votre contenu.
 exl-id: 6e6dbba3-da41-4066-b7b2-735a3d92b70a
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 1c96f25c3b970d04d23e8faf94a8f39095f6bd2c
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -53,7 +54,7 @@ Pour supprimer le titre du contenu des signets, procédez étape par étape comm
 1. Ouvrez le modèle PDF que vous utilisez pour la sortie PDF.
 2. Ouvrez la **page de la table des matières** dans **mises en page**.
 La page Table des matières s’affiche à droite.
-3. Passez en mode **Source** et modifiez l&#39;élément dans lequel se trouve le contenu de `<h1>` en `<p>`.
+3. Passez en mode **** et modifiez l&#39;élément dans lequel se trouve le contenu de `<h1>` en `<p>`.
 
 Avant la modification :
 

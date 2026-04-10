@@ -3,29 +3,29 @@ title: Configuration de caractères spéciaux supplémentaires dans la barre d�
 description: Découvrez comment configurer des caractères spéciaux supplémentaires dans l’éditeur web d’AEM Guides.
 feature: Web Editor
 role: User
-exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
 
-# Configuration de caractères spéciaux supplémentaires dans la barre d’outils de l’éditeur web
+# Comment configurer des caractères spéciaux supplémentaires dans la barre d’outils de l’éditeur web pour On-Premise
 
 Il existe une option de raccourci dans la barre d’outils de l’éditeur web pour permettre à l’auteur d’insérer déjà les caractères spéciaux.
-On peut voir la même chose dans la capture d&#39;écran ci-dessous :
+Vous pouvez voir la même chose dans la capture d’écran ci-dessous :
 
 ![Caractères spéciaux](assets/special-chars.png)
 
 
-Cette liste de caractères est configurable ici. Si vous devez ajouter d’autres caractères, procédez comme suit :
+Cette liste de caractères peut être configurée ici. Si vous devez y ajouter d’autres caractères, procédez comme suit :
 
-+ Connectez-vous à AEM et ouvrez le mode CRXDE Lite.
++ Connectez-vous à AEM et ouvrez le mode CRXDE Lite .
 
-+ Créez le fichier Symboles.json à l’emplacement suivant : &#39;/apps/fmdita/xmleditor/&#39; (Vous pouvez copier la valeur par défaut à partir de l’emplacement &quot;/libs/fmdita/clientlibs/clientlibs/xmleditor/symbols.json&quot;).
++ Créez le fichier symbols.json à l’emplacement suivant : &#39;/apps/fmdita/xmleditor/&#39; (Vous pouvez copier le fichier par défaut depuis - &#39;/libs/fmdita/clientlibs/clientlibs/xmleditor/symbols.json&#39; location)
 
-+ Ajoutez la définition de caractère spécial dans le fichier symboles.json en tant que :
++ Ajoutez la définition de caractères spéciaux dans le fichier symbols.json en tant que :
 
 ```
 {
@@ -43,17 +43,17 @@ Cette liste de caractères est configurable ici. Si vous devez ajouter d’autre
 }
 ```
 
-La structure du fichier symboles.json est expliquée ci-dessous :
+La structure du fichier symbols.json est expliquée ci-dessous :
 
-+ &quot;label&quot;: &quot;Symboles logiques&quot;: permet de spécifier la catégorie des caractères spéciaux. Dans le fragment de code, une catégorie nommée &quot;Symbole logique&quot; est définie.
++ « label » : « Symboles logiques » : permet de spécifier la catégorie des caractères spéciaux. Dans le fragment de code, une catégorie portant le nom « Symbole logique » est définie.
 
-+ &quot;items&quot; : définit la collection de caractères spéciaux dans la catégorie.
++ « items » : définit l&#39;ensemble des caractères spéciaux de la catégorie.
 
-+ &quot;name&quot;: &quot;≥&quot;, &quot;title&quot;: &quot;Greater-Than or Equal To&quot;: c’est la définition du caractère spécial. Il commence par le libellé &quot;name&quot;, qui ne doit pas être modifié. Le nom est suivi du caractère spécial. Le &quot;titre&quot; est le nom ou le titre du caractère spécial qui apparaît comme info-bulle pour ce caractère spécial.
++ « name »: « ≥ », « title »: « Greater-Than or Equal To »: C&#39;est la définition du caractère spécial. Il commence par le libellé « nom », qui ne doit pas être modifié. Le nom est suivi du caractère spécial. Le « titre » est le nom ou le titre du caractère spécial qui s’affiche en tant qu’info-bulle pour ce caractère spécial.
 
-Vous pouvez définir plusieurs définitions de caractères spéciaux dans une catégorie.
+Vous pouvez définir plusieurs définitions de caractères spéciaux au sein d’une catégorie.
 
-Une autre catégorie est alors ajoutée dans la boîte de dialogue Caractères spéciaux :
+Vous ajouterez ainsi une autre catégorie dans la boîte de dialogue des caractères spéciaux :
 
 ![Catégorie de symbole spécial](assets/special-char-category.png)
 
@@ -61,4 +61,4 @@ Une autre catégorie est alors ajoutée dans la boîte de dialogue Caractères s
 
 >[!MORELIKETHIS]
 >
->+ [Guide d’installation et de configuration](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)
+>+ [ Guide d’installation et de configuration ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)

@@ -1,11 +1,12 @@
 ---
-title: Fonctionnalité native de publication PDF | Utiliser les styles de contenu courants
+title: Fonctionnalité de publication native de PDF | Utiliser les styles de contenu courants
 description: Découvrez comment créer des feuilles de style utilisateur et créer des styles pour votre contenu.
 exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '3778'
 ht-degree: 1%
@@ -214,7 +215,7 @@ Dans l’exemple suivant, nous allons créer un style de caractère intégré :
 
      >[!NOTE]
      >
-     >Vous pouvez également ajouter des polices à votre modèle, qui sont stockées dans la section Ressources de votre modèle. Pour plus d’informations sur l’ajout de polices et l’utilisation des ressources, voir [&#x200B; Utilisation des ressources &#x200B;](components-pdf-template.md#work-with-resources).
+     >Vous pouvez également ajouter des polices à votre modèle, qui sont stockées dans la section Ressources de votre modèle. Pour plus d’informations sur l’ajout de polices et l’utilisation des ressources, voir [ Utilisation des ressources ](components-pdf-template.md#work-with-resources).
 
    * **Disposition** : vous pouvez définir les propriétés liées à la disposition, telles que la hauteur et la largeur, la marge, le remplissage, l’alignement, etc.
 

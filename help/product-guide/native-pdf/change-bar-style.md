@@ -1,35 +1,36 @@
 ---
-title: Fonctionnalité Publish du PDF natif | Utilisation des styles de barres de modification personnalisés
+title: Fonctionnalité de publication native de PDF | Utiliser les styles de barres de modification personnalisés
 description: Découvrez comment appliquer des styles aux barres de modification.
 exl-id: a81ec56c-ccbb-4599-a696-8edef7a73cdd
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
-# Utilisation des styles de barres de modification personnalisés
+# Utiliser les styles de barres de modification personnalisés
 
-Une barre de modification est une ligne verticale qui identifie visuellement le contenu nouveau ou révisé. AEM Guides vous permet d’afficher une barre de modification à gauche du contenu modifié dans les rubriques, ainsi que les rubriques modifiées dans la table des matières de la sortie du PDF.
+Une barre de modification est une ligne verticale qui identifie visuellement le contenu nouveau ou révisé. AEM Guides vous permet d’afficher une barre de modification à gauche du contenu modifié dans les rubriques, ainsi que les rubriques modifiées dans la table des matières de la sortie PDF.
 
-Pour plus d’informations sur l’affichage de la barre de modification, voir le paramètre *Créer un PDF avec la barre de modification entre les versions publiées* dans [Publish PDF Output](../web-editor/native-pdf-web-editor.md).
+Pour plus d’informations sur l’affichage de la barre de modification, consultez le paramètre *Créer un PDF avec la barre de modification entre les versions publiées* dans [Publier la sortie PDF](../web-editor/native-pdf-web-editor.md).
 
-## Modification du contenu dans les rubriques
+## Contenu modifié dans les rubriques
 
-La barre de modification s’affiche à gauche du contenu dans les rubriques qui ont été insérées, modifiées ou supprimées.
+La barre de modification s’affiche à gauche du contenu des rubriques insérées, modifiées ou supprimées.
 
-Vous pouvez modifier les styles suivants pour afficher le contenu modifié et parmi les barres de modification.
+Vous pouvez modifier les styles suivants pour afficher le contenu modifié et, entre autres, les barres de modification.
 
 
 >[!NOTE]
 >
->Ces styles font partie du fichier `layout.css` et vous pouvez les modifier selon vos besoins.
+>Ces styles font partie `layout.css` fichier et vous pouvez les modifier selon vos besoins.
 
-Par exemple, vous pouvez utiliser l’attribut de couleur dans le style `.inserted-block` pour définir la manière dont le contenu inséré s’affiche dans la sortie du PDF publiée.
+Par exemple, vous pouvez utiliser l’attribut color dans le style `.inserted-block` pour définir la manière dont le contenu inséré apparaîtra dans la sortie PDF publiée.
 
 
 ```css
@@ -46,7 +47,7 @@ Par exemple, vous pouvez utiliser l’attribut de couleur dans le style `.insert
 ...
 ```
 
-De même, vous pouvez utiliser le style `.deleted-block` pour définir la manière dont votre contenu supprimé apparaît dans la sortie du PDF publiée.
+De même, vous pouvez utiliser le style `.deleted-block` pour définir la manière dont le contenu supprimé apparaîtra dans la sortie PDF publiée.
 
 ```css
 ...
@@ -63,9 +64,9 @@ De même, vous pouvez utiliser le style `.deleted-block` pour définir la maniè
 ...
 ```
 
-Vous pouvez utiliser les styles `.inserted-change-bar` et `.deleted-change-bar` pour modifier l’aspect des barres de modification qui apparaissent à gauche du contenu mis à jour.
+Vous pouvez utiliser les styles `.inserted-change-bar` et `.deleted-change-bar` pour modifier l’aspect des barres de modification qui s’affichent à gauche du contenu mis à jour.
 
-Par exemple, vous pouvez utiliser l’attribut `-ro-change-bar-color` dans le style `.inserted-change-bar` pour afficher la barre de modification insérée en vert. Vous pouvez également utiliser l’attribut `-ro-change-bar-color` dans le style `.deleted-change-bar` pour afficher la barre de modification supprimée en rouge.
+Par exemple, vous pouvez utiliser `-ro-change-bar-color` attribut dans `.inserted-change-bar` style pour afficher la barre de modification insérée en vert. Vous pouvez également utiliser `-ro-change-bar-color` attribut dans `.deleted-change-bar` style pour afficher la barre de modification supprimée en rouge.
 
 ```css
 ...
@@ -79,13 +80,13 @@ Par exemple, vous pouvez utiliser l’attribut `-ro-change-bar-color` dans le st
 ...
 ```
 
-<img src="./assets/changed-bar-content.png" alt="Modification du contenu des rubriques de la barre" width="500">
+<img src="./assets/changed-bar-content.png" alt="Contenu de rubrique de barre modifié" width="500">
 
 ## Modification de la rubrique dans la table des matières (table des matières)
 
-Vous pouvez également ajouter une barre de modification à gauche des rubriques modifiées dans la table des matières de la sortie du PDF. Vous pouvez utiliser l’attribut `-ro-change-bar-color` dans le style `.changed-topic` pour ajouter une barre de modification dans la couleur de votre choix pour les rubriques mises à jour dans la liste de la table des matières.
+Vous pouvez également ajouter une barre de modification à gauche des rubriques modifiées dans la table des matières de la sortie PDF. Vous pouvez utiliser `-ro-change-bar-color`’attribut dans le style de `.changed-topic` pour ajouter une barre de modification dans la couleur de votre choix pour les rubriques mises à jour de la liste des tables des matières.
 
-Par exemple, vous pouvez ajouter une barre de modification de couleur verte.
+Vous pouvez, par exemple, ajouter une barre de modification de couleur verte.
 
 ```css
 ...
@@ -96,6 +97,6 @@ Par exemple, vous pouvez ajouter une barre de modification de couleur verte.
 ```
 
 
-Cette option affiche une barre de modification verte par rapport à toutes les rubriques de la table des matières dans lesquelles certaines mises à jour ont été effectuées. Vous pouvez cliquer sur la rubrique modifiée dans la table des matières et afficher les modifications détaillées.
+Une barre de modification verte s’affiche pour toutes les rubriques de la table des matières où des mises à jour ont été effectuées. Vous pouvez cliquer sur la rubrique modifiée dans la table des matières et afficher les modifications détaillées.
 
 <img src="./assets/changed-bar-TOC.png" alt="Table des matières de la barre modifiée" width="500">

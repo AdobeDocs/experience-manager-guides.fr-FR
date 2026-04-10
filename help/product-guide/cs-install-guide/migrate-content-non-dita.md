@@ -5,7 +5,8 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 2c20191ba998ad7da98587f1832e1fe8499d023c
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '2521'
 ht-degree: 0%
@@ -128,7 +129,7 @@ Le processus de conversion implique les actions suivantes sur le serveur princip
 - Création et validation de rubriques DITA et de fichiers map DITA individuels.
 - Suppression des fichiers temporaires.
 
-D&#39;une manière générale, le processus de conversion nécessite que vous [Préparez les fichiers InDesign pour la conversion](appendix.md#id195DBF0045Z) [appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) et [Préparez le fichier de mappage pour la migration d&#39;InDesign vers DITA](appendix.md#id194AF0003HT) [appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT), vous devez ensuite suivre la procédure donnée d&#39;exécution du processus de conversion.
+D&#39;une manière générale, le processus de conversion nécessite que vous [Préparez les fichiers InDesign pour la conversion](appendix.md#id195DBF0045Z)[appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) et [Préparez le fichier de mappage pour la migration d&#39;InDesign vers DITA](appendix.md#id194AF0003HT)[appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT), vous devez ensuite suivre la procédure donnée d&#39;exécution du processus de conversion.
 
 Effectuez les étapes suivantes pour convertir vos documents InDesign existants en document de type rubrique DITA :
 
@@ -401,4 +402,4 @@ Pour convertir vos documents structurés existants au format DITA, procédez com
 
 Le bloc `<config> </config>` vous permet de définir un ou plusieurs blocs de configurations pour la conversion. Le workflow de conversion est exécuté et la sortie finale, sous la forme d&#39;une rubrique DITA, est enregistrée à l&#39;emplacement spécifié dans l&#39;élément `outputDir`.
 
-**Rubrique parente :**&#x200B;[&#x200B; Migrer le contenu existant](migrate-content.md)
+**Rubrique parente :**[ Migrer le contenu existant](migrate-content.md)

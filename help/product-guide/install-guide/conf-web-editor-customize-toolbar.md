@@ -5,7 +5,8 @@ exl-id: 14a82c7e-5c07-43a8-bd9e-b221d80f6d05
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 5778ed2855287d1010728e689abbe6020ad56574
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Par défaut, Web Editor est fourni avec les fonctions éditoriales les plus cour
 
 >[!NOTE]
 >
-> Lors de la migration de l’ancienne interface utilisateur vers la nouvelle interface utilisateur d’AEM Guides (applicable à partir des versions 2502 et 5.0 d’AEM Guides), les mises à jour apportées à `ui_config` doivent être converties en configurations d’interface utilisateur plus flexibles et modulaires. Ce framework permet d’adopter facilement des modifications dans editor_toolbar et d’autres widgets cibles, le cas échéant. Pour plus d’informations, consultez [Présentation de la configuration de l’interface utilisateur de conversion](https://experienceleague.adobe.com/fr/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> Lors de la migration de l’ancienne interface utilisateur vers la nouvelle interface utilisateur d’AEM Guides (applicable à partir des versions 2502 et 5.0 d’AEM Guides), les mises à jour apportées à `ui_config` doivent être converties en configurations d’interface utilisateur plus flexibles et modulaires. Ce framework permet d’adopter facilement des modifications dans editor_toolbar et d’autres widgets cibles, le cas échéant. Pour plus d’informations, consultez [Présentation de la configuration de l’interface utilisateur de conversion](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Vous pouvez personnaliser la barre d’outils de l’éditeur web de deux manières différentes :
 
@@ -49,7 +50,7 @@ Pour ajouter une fonctionnalité à la barre d’outils de l’éditeur web, pro
 
 1. Dans le fichier `ui_config.json`, ajoutez la définition de la nouvelle fonctionnalité dans la section des barres d’outils. En règle générale, vous pouvez créer un groupe de boutons de la barre d’outils et y ajouter un ou plusieurs boutons. Vous pouvez également ajouter un nouveau bouton de barre d’outils à un groupe de barres d’outils existant. Les informations suivantes sont requises pour créer un groupe de barre d’outils :
 
-   - **type:**&#x200B;Spécifiez `blockGroup` comme valeur `type`. Cette valeur indique que vous créez un groupe de blocs qui contiendrait un ou plusieurs groupes de barres d’outils.
+   - **type:**Spécifiez `blockGroup` comme valeur `type`. Cette valeur indique que vous créez un groupe de blocs qui contiendrait un ou plusieurs groupes de barres d’outils.
 
    - **extraclass:** Nom de la ou des classes séparées par un espace.
 
@@ -96,7 +97,7 @@ Vous devez définir les propriétés suivantes pour ajouter une icône de barre 
 1. Enregistrez le fichier *ui\_config.json* et rechargez l’éditeur web.
 
 
-**exemples de code JavaScript**
+**exemples de code**
 
 Cette section fournit deux exemples de code JavaScript qui vous aideront à commencer à ajouter des fonctionnalités personnalisées. L’exemple ci-dessous montre le numéro de version d’AEM Guides lorsqu’un utilisateur clique sur l’icône Afficher la version de la barre d’outils.
 
@@ -240,4 +241,4 @@ Le fichier `ui_config.json` comporte trois sections :
 1. Enregistrez le fichier *ui\_config.json* et rechargez l’éditeur web.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)

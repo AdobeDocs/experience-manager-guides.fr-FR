@@ -1,46 +1,47 @@
 ---
-title: Personnalisation de l’éditeur web
+title: Personnaliser l’éditeur web
 description: Découvrez comment personnaliser l’éditeur web
 exl-id: 6579812b-caa7-420f-a6e4-36fef7d63d34
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 2e52beedb5b3ce13acfae1ecba3b67e8de8e6614
+hidefromtoc: true
+source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
-# Personnalisation de l’éditeur web {#id181AI0003PN}
+# Personnaliser l’éditeur web {#id181AI0003PN}
 
-AEM Guides est fourni avec un puissant éditeur web qui permet aux auteurs de créer et de modifier des documents DITA. Vous pouvez personnaliser la barre d’outils de l’éditeur Web pour ajouter ou supprimer toute fonction accessible à partir de la barre d’outils. En outre, vous pouvez configurer l’enregistrement automatique des fichiers, générer des identifiants pour les éléments tels qu’ils sont insérés dans vos documents, et bien plus encore. Les sections suivantes présentent les fonctionnalités que vous pouvez personnaliser dans l’éditeur web :
+AEM Guides est fourni avec un puissant éditeur web qui permet aux auteurs de créer et de modifier des documents DITA. Vous pouvez personnaliser la barre d’outils de l’éditeur web pour ajouter ou supprimer toute fonctionnalité accessible depuis la barre d’outils. Vous pouvez également configurer l’enregistrement automatique des fichiers, générer des identifiants pour les éléments tels qu’ils sont insérés dans vos documents, et bien plus encore. Les sections suivantes couvrent les fonctionnalités que vous pouvez personnaliser dans l’éditeur web :
 
-- [Barre d’outils Personnaliser](conf-web-editor-customize-toolbar.md)
+- [Personnaliser la barre d’outils](conf-web-editor-customize-toolbar.md)
 
-- [Configuration de la valeur par défaut pour la vue Balises](configure-default-value-tags-view.md)
+- [Configurer la valeur par défaut de la vue Balises](configure-default-value-tags-view.md)
 
-- [Configuration de l’affichage des liens basés sur l’UUID](conf-uuid-based-links.md)
+- [Configurer l’affichage des liens basés sur l’UUID](conf-uuid-based-links.md)
 
-- [Ouvrir une rubrique DITA ou des fichiers de mappage dans le même onglet](open-dita-files-same-tab.md)
+- [Ouvrir la rubrique DITA ou mapper des fichiers dans le même onglet](open-dita-files-same-tab.md)
 
 - [Configuration d’un panneau personnalisé dans le panneau de gauche](configure-custom-panel.md)
 
-- [Configuration de l’enregistrement automatique du fichier dans l’éditeur web](auto-save-in-editor.md)
+- [Configuration de l’enregistrement automatique des fichiers dans l’éditeur web](auto-save-in-editor.md)
 
-- [Configuration d’une invite pour enregistrer en tant que nouvelle version à la fermeture](conf-save-as-new-version-close.md)
+- [Configurer l’invite pour qu’elle s’enregistre en tant que nouvelle version à la fermeture](conf-save-as-new-version-close.md)
 
-- [Configuration d’une invite pour archiver un fichier à la fermeture](conf-checkin-file-close.md)
+- [Configurer l&#39;invite pour archiver un fichier à la fermeture](conf-checkin-file-close.md)
 
-- [Configuration des caractères spéciaux autorisés](conf-special-chars.md)
+- [Configurer les caractères spéciaux autorisés](conf-special-chars.md)
 
-- [Génération automatique des identifiants d’élément](auto-generate-ids.md)
+- [générer automatiquement des identifiants d’élément](auto-generate-ids.md)
 
-- [Personnaliser AEM dictionnaire par défaut &#x200B;](customize-aem-custom-dictionary.md)
+- [Personnaliser le dictionnaire par défaut d’AEM](customize-aem-custom-dictionary.md)
 
 - [Configurer des filtres de texte](config-text-filters.md)
 
 - [Configuration du nombre de LimitReads pour une requête](conf-query-limitreads.md)
 
-- [Installation de packages pour la publication basée sur un article](configure-article-based-publishing.md)
+- [Installation de packages pour la publication basée sur des articles](configure-article-based-publishing.md)
 

@@ -4,7 +4,9 @@ description: Découvrez comment intégrer des éditeurs XML de bureau
 feature: Publishing FrameMaker Documents
 role: Admin
 level: Experienced
-source-git-commit: b3ae1c02d3055fe15257d5de0365d30e7af21afb
+exl-id: 86ba53fa-0e08-4791-9018-09fe974691da
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 1%
@@ -13,34 +15,31 @@ ht-degree: 1%
 
 # Intégration d’éditeurs XML de bureau
 
-Il y a beaucoup d&#39;éditeurs XML disponibles sur le marché, et vous pourriez déjà en utiliser un. Adobe FrameMaker est l’un des éditeurs XML les plus puissants, qui est fourni avec AEM connecteur. Grâce au connecteur d’AEM en FrameMaker, vous pouvez facilement vous connecter au référentiel AEM, extraire et archiver des fichiers et modifier des fichiers directement dans FrameMaker. Vous pouvez également configurer Experience Manager Guides pour lancer le FrameMaker à partir de l’éditeur web. Une fois le fichier ouvert dans FrameMaker, vous pouvez le modifier et le réarchiver dans le référentiel AEM.
+Il existe de nombreux éditeurs XML disponibles sur le marché, et vous pourriez en utiliser déjà un. Adobe FrameMaker est l’un des éditeurs XML les plus puissants, fourni avec le connecteur AEM. Grâce au connecteur AEM de FrameMaker, vous pouvez facilement vous connecter au référentiel AEM, extraire et archiver des fichiers et modifier des fichiers directement dans FrameMaker. Vous pouvez également configurer Experience Manager Guides pour lancer FrameMaker à partir de l’éditeur web. Une fois le fichier ouvert dans FrameMaker, vous pouvez le modifier et le archiver à nouveau dans le référentiel AEM.
 
-## Activation de l’édition de fichiers dans FrameMaker à partir de l’éditeur web
+## Activer l’édition de fichiers dans FrameMaker à partir de l’éditeur web
 
-Vous pouvez utiliser FrameMaker ou tout autre éditeur DITA pour créer et mettre à jour du contenu DITA. Cependant, si votre entreprise utilise FrameMaker comme éditeur DITA, vous pouvez donner à vos utilisateurs la possibilité d’ouvrir des documents DITA directement dans le FrameMaker à partir d’AEM.
-
-
-Par défaut, vos utilisateurs ne voient pas le bouton **Ouvrir dans le FrameMaker** sur la barre d’outils AEM. Procédez comme suit pour ajouter ce bouton dans la barre d’outils AEM :
-
-Suivez les instructions de la section [Remplacements de configuration](download-install-additional-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(propriété\) suivants pour ajouter ce bouton dans la barre d’outils AEM :
+Vous pouvez utiliser FrameMaker ou tout autre éditeur DITA pour créer et mettre à jour du contenu DITA. Cependant, si votre entreprise utilise FrameMaker en tant qu&#39;éditeur DITA, vous pouvez donner à vos utilisateurs la possibilité d&#39;ouvrir des documents DITA directement dans FrameMaker à partir d&#39;AEM.
 
 
-| PID | Clé de propriété | Valeur de la propriété |
+Par défaut, vos utilisateurs ne voient pas le bouton **Ouvrir dans FrameMaker** dans la barre d’outils AEM. Pour ajouter ce bouton à la barre d&#39;outils AEM, procédez comme suit :
+
+Suivez les instructions fournies dans [Remplacements de la configuration](download-install-additional-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour ajouter ce bouton à la barre d’outils d’AEM :
+
+
+| PID | Clé de la propriété | Valeur de la propriété |
 |---|------------|--------------|
-| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.openinframebuttonshow` | Booléen \(true/false\). Si vous souhaitez afficher le bouton **Ouvrir dans le FrameMaker**, définissez cette propriété sur true. <br> **Valeur par défaut** : false |
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.openinframebuttonshow` | Booléen \(true/false\). Si vous souhaitez afficher le bouton **Ouvrir dans FrameMaker**, définissez cette propriété sur true. <br> **Valeur par défaut** : false |
 
 
 
-Si vous utilisez les versions 2409 et 2022 de septembre - Mise à jour 3 de FrameMaker, vous devez activer la configuration **FrameMaker Version 2022 Update 3 ou version ultérieure** pour que vos utilisateurs puissent transmettre les détails du serveur Experience Manager Guides à FrameMaker.  Par défaut, elle est désactivée.
+Si vous utilisez la version 2409 et la version de septembre 2022 de FrameMaker - Mise à jour 3, vous devez activer la configuration **Mise à jour 3 de FrameMaker version 2022 ou ultérieure** pour que vos utilisateurs puissent transmettre les détails du serveur Experience Manager Guides à FrameMaker.  Par défaut, il est désactivé.
 
 
-| PID | Clé de propriété | Valeur de la propriété |
+| PID | Clé de la propriété | Valeur de la propriété |
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.openinframe2022above` | Booléen \(true/false\). Si vous utilisez la version de septembre 2022 de FrameMaker - Mise à jour 3 , définissez cette propriété sur true. <br> **Valeur par défaut** : false |
 
 
 
-Lorsque vous définissez la propriété *openinframebuttonshow* sur true, le bouton **Ouvrir dans le FrameMaker** s’affiche lorsque vous sélectionnez un fichier DITA dans le référentiel AEM. Lorsque cette propriété n’est pas définie sur *true*, le bouton **Ouvrir dans le FrameMaker** s’affiche uniquement lorsque vous sélectionnez un fichier .fm ou .book dans le référentiel.
-
-
-
+Lorsque vous définissez la propriété *openinframebuttonshow* sur true, le bouton **Ouvrir dans FrameMaker** s&#39;affiche lors de la sélection d&#39;un fichier DITA dans le référentiel AEM. Lorsque cette propriété n’est pas définie sur *true*, le bouton **Ouvrir dans FrameMaker** s’affiche uniquement lorsque vous sélectionnez un fichier .fm ou un fichier .book dans le référentiel.

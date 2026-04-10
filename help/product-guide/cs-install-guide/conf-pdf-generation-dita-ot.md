@@ -1,34 +1,35 @@
 ---
-title: Configuration de la génération d’un PDF de rubrique unique
-description: Découvrez comment configurer la génération d’un PDF de rubrique unique
+title: Configurer la génération PDF sur une seule rubrique
+description: Découvrez comment Configurer la génération PDF à rubrique unique.
 exl-id: 5b66fd3b-6450-49ce-b06e-d2d5bab37990
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
 
 ---
 
-# Configuration de la génération d’un PDF de rubrique unique {#id22ADC70M0XA}
+# Configurer la génération PDF sur une seule rubrique {#id22ADC70M0XA}
 
-Avec AEM Guides, vous pouvez générer le PDF de rubriques individuelles ou d’un fichier de mappage entier. Vous pouvez publier vos rubriques dans un format PDF à l’aide d’un PDF natif ou d’une méthode DITA-OT. Utilisez la méthode de PDF native pour générer une sortie de PDF riche en fonctionnalités basée sur les normes W3C CSS3 et CSS paged Media. Vous pouvez utiliser la méthode DITA-OT pour générer une sortie de PDF pour une carte à partir du tableau de bord de la carte.
+Avec AEM Guides, vous pouvez générer la PDF de rubriques individuelles ou un fichier de mappage entier. Vous pouvez publier vos rubriques au format PDF à l’aide de PDF natif ou de la méthode DITA-OT. Utilisez la méthode PDF native pour générer une sortie PDF riche en fonctionnalités basée sur les normes des médias paginés W3C, CSS3 et CSS. Vous pouvez utiliser la méthode DITA-OT pour générer une sortie PDF pour un mappage à partir du tableau de bord de mappage.
 
 >[!NOTE]
 >
 > Le PDF natif est la méthode par défaut pour générer un PDF dans la version actuelle d’AEM Guides.
 
-Pour activer l’ancienne génération de PDF via DITA-OT à partir du mode d’aperçu de rubrique, procédez comme suit :
+Pour activer l’ancienne génération PDF via le DITA-OT à partir du mode d’aperçu de rubrique, procédez comme suit :
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur et téléchargez le fichier de configuration de l’interface utilisateur.
 
-1. Pour ce faire, cliquez sur le lien Adobe Experience Manager en haut de l’écran et sélectionnez **Outils**.
-1. Sélectionnez **Guides** dans la liste des outils et cliquez sur le bouton **Profils de dossier**.
-1. Cliquez sur la mosaïque **Profil global** .
+1. Pour ce faire, cliquez sur le lien Adobe Experience Manager en haut et choisissez **Outils**.
+1. Sélectionnez **Guides** dans la liste des outils, puis cliquez sur le **Profils de dossier**.
+1. Cliquez sur la mosaïque **Profil global**.
 1. Sélectionnez l’onglet **Configuration de l’éditeur XML** et cliquez sur l’icône **Modifier** en haut
-1. Cliquez sur l’icône **Télécharger** pour télécharger le fichier ui\_config.json sur votre système local. Vous pouvez ensuite apporter des modifications au fichier, puis charger le même fichier.
+1. Cliquez sur l’icône **Télécharger** pour télécharger le fichier ui\_config.json sur votre système local. Vous pouvez ensuite apporter des modifications au fichier , puis le charger.
 1. Dans le fichier `ui_config.json`, recherchez la configuration suivante :
 
    ```
@@ -42,7 +43,7 @@ Pour activer l’ancienne génération de PDF via DITA-OT à partir du mode d’
                            }
    ```
 
-   et remplacez-le par
+   et remplacez-le par .
 
    ```
    {
@@ -55,8 +56,8 @@ Pour activer l’ancienne génération de PDF via DITA-OT à partir du mode d’
                            }
    ```
 
-1. Enregistrez le fichier et téléchargez-le.
+1. Enregistrez le fichier et chargez-le.
 
-Après avoir effectué les étapes ci-dessus, si vous choisissez le même profil de dossier dans Préférences utilisateur dans l’éditeur web, l’option de génération de PDF s’affiche en mode d’aperçu d’une rubrique.
+Après avoir effectué les étapes données ci-dessus, si vous choisissez le même profil de dossier dans les Préférences utilisateur dans l’éditeur web, vous verrez l’option de génération PDF dans le mode d’aperçu d’une rubrique.
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)

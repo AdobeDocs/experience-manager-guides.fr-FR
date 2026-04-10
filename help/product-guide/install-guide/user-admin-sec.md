@@ -5,7 +5,8 @@ exl-id: 1269a652-5261-413d-9ea0-b4f75003e9d8
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 10%
@@ -18,13 +19,13 @@ Pour accéder aux fonctionnalités d’AEM Guides et les configurer, vous devez 
 
 Les rubriques suivantes de la documentation d’AEM vous aideront à mieux comprendre les concepts et fonctionnalités liés à l’administration des utilisateurs et à la sécurité :
 
-- [Utilisateurs et groupes dans AEM](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
+- [Utilisateurs et groupes dans AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
 
-- [&#x200B; Autorisations dans AEM &#x200B;](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
+- [ Autorisations dans AEM ](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
 
-- [Gestion des utilisateurs et des groupes](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
+- [Gestion des utilisateurs et des groupes](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
 
-- [Gestion des autorisations](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
+- [Gestion des autorisations](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
 
 
 ## Groupes d’utilisateurs créés par AEM Guides {#id181TF0K0MHT}
@@ -43,7 +44,7 @@ Le tableau suivant répertorie les différentes tâches et les groupes qui peuve
 | Créer un plan DITA | Oui |   | Oui |
 | Mapper les collections | Oui |   | Oui |
 | Créer une tâche de révision | Oui |   | Oui |
-| Rubrique [&#x200B; révision 1](#fntarg_1) | Oui | Oui | Oui |
+| Rubrique [ révision 1](#fntarg_1) | Oui | Oui | Oui |
 | Résolution de la clé | Oui |   | Oui |
 | Ouvrir dans FrameMaker | Oui |   | Oui |
 | Extraction/enregistrement | Oui |   | Oui |

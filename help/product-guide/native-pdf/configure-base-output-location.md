@@ -4,7 +4,9 @@ description: Configurer l’emplacement de sortie de base pour la publication de
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: ab6f1f09de2ef758d7f05ba0a49194ac9f387dea
+exl-id: ae1d805a-7b79-4b76-8be2-a19c5552530c
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 1%
@@ -28,5 +30,3 @@ Pour configurer l’emplacement de sortie de base, procédez comme suit :
 1. Mettez à jour la propriété **Emplacement de sortie de base** pour spécifier le chemin par défaut dans le référentiel AEM où le PDF sera enregistré après publication. De plus, si un chemin non valide est saisi, il revient automatiquement au chemin par défaut : /content/dam/fmdita-output.
 
 1. Cliquez sur **Enregistrer**.
-
-

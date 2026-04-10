@@ -5,7 +5,8 @@ feature: Filename Configuration
 role: Admin
 level: Experienced
 exl-id: ff6e1322-9655-42aa-b353-199c70c9de49
-source-git-commit: e84a00237e61275c6cd1ddd312883ac4f66b65ff
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Par défaut, toutes les ressources chargées sont traitées à l’aide du workflow Ressource de mise à jour de la gestion des ressources numériques . Experience Manager Guides exécute un traitement supplémentaire, appelé post-traitement, dans le cadre de ce workflow. Cela permet également de générer les UUID.
 
-Lors du chargement de vos fichiers et dossiers sur le serveur *Adobe Experience Manager Assets*, vous pouvez également désactiver le post-traitement et la génération des UUID.
+Lors du chargement de vos fichiers et dossiers sur le serveur **, vous pouvez également désactiver le post-traitement et la génération des UUID.
 
 
 Effectuez les étapes suivantes pour désactiver le post-traitement sur un chemin donné ou ignorer le post-traitement pour un dossier :

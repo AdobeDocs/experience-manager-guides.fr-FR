@@ -1,20 +1,21 @@
 ---
 title: PDF natif | Utilisation de variables dans la sortie PDF
-description: Utilisation de variables dans les modèles de sortie et de sortie PDF
+description: Utiliser des variables dans la sortie PDF et les modèles de sortie
 feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
-source-git-commit: 594248c42b14c960d858a2e0e6994aa9bb4acd4e
+hidefromtoc: true
+source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 0%
 
 ---
 
-# Variables de la sortie PDF
+# Variables dans la sortie PDF
 
-Une variable est une paire de données nom-valeur qui sert d’information réutilisable. Cela rend votre contenu portable et facile à mettre à jour. Lorsque vous modifiez une variable ou sa valeur, chaque occurrence de cette variable ou valeur est mise à jour.
+Une variable est une paire de données nom-valeur qui sert d’information réutilisable. Votre contenu est ainsi portable et facile à mettre à jour. Lorsque vous modifiez une variable ou sa valeur, chaque occurrence de cette variable ou valeur est mise à jour.
 
 ## Création d’une variable
 
@@ -28,10 +29,10 @@ Pour créer une variable, procédez comme suit :
 1. Dans l’éditeur, accédez au panneau de gauche et sélectionnez **Variables** <img alt= "icône de variable" src="./assets/variables-icon.svg" width="25">. Cette option est disponible sous la section Plus .
 1. Sélectionnez **Modifier** <img alt= "Icône Modifier le crayon" src="./assets/edit_pencil_icon.svg" width="25"> d’ouvrir l’éditeur **Variables**.
 Les variables sont répertoriées par ordre alphabétique.
-1. Entrez le nom de la variable dans la **colonne Nom** et sa valeur dans la **colonne Valeur** .
+1. Saisissez le nom de la variable dans la colonne **Nom** et sa valeur dans la colonne **Valeur**.
    >[!TIP]
    >
-   >Vous pouvez utiliser n’importe quel contenu HTML comme valeur de variable pour afficher la valeur de variable dans une mise en forme spécifique. Par exemple, vous pouvez ajouter une balise `<b>` à la valeur de la variable pour afficher la valeur **Experience Manager Guides** en gras. Vous pouvez également ajouter des images du référentiel sous forme de valeurs.
+   >Vous pouvez utiliser n’importe quel contenu HTML comme valeur de variable pour afficher la valeur de la variable dans une mise en forme spécifique. Par exemple, vous pouvez ajouter une balise `<b>` à la valeur de la variable pour afficher la valeur **Experience Manager Guides** en gras. Vous pouvez également ajouter des images du référentiel sous forme de valeurs.
 
 1. Sélectionnez **Ajouter une variable** <img alt= "Icône Ajouter" src="./assets/add-icon.svg" width="25"> d’ajouter une nouvelle variable. Vous ne pouvez pas créer de variable portant le même nom qu’une variable existante. Une erreur s’affiche.
 
@@ -61,15 +62,15 @@ Vous pouvez modifier une variable de deux manières :
 1. Sélectionnez **Variables** <img alt= "icône de variable" src="./assets/variables-icon.svg" width="25"> dans le panneau de gauche.
 1. Sélectionnez **Modifier** <img alt= "Icône Modifier le crayon" src="./assets/edit_pencil_icon.svg" width="25"> d’ouvrir l’éditeur **Variables**.
 
-1. Dans l’éditeur **de variables** , vous pouvez modifier la valeur de la variable sélectionnée.
+1. Dans l’éditeur **Variables**, vous pouvez modifier la valeur de la variable sélectionnée.
 
-Vous devez enregistrer toutes les modifications que vous apportez à partir de l’éditeur **de variables** pour les afficher dans le **panneau Variables** sur le côté gauche.
+Vous devez enregistrer toutes les modifications que vous apportez à partir de l’éditeur **Variables** pour les afficher dans le panneau **Variables** sur le côté gauche.
 
 >[!NOTE]
 >
 > Si vous modifiez une valeur de variable, Adobe Experience Manager Guides met simultanément à jour toutes les références, le cas échéant.
 
-### Search et aperçu d’une variable
+### Rechercher et prévisualiser une variable
 
 Vous pouvez rechercher et prévisualiser la valeur d’une variable. Saisissez une chaîne dans la zone de recherche du panneau **Variables**. Elle effectue une recherche en fonction du nom de la variable et de sa valeur.
 Vous pouvez prévisualiser une variable de deux manières :
@@ -93,10 +94,10 @@ L’aperçu de la variable affiche la valeur par défaut. Par exemple, si vous a
 
 ### Dupliquer une variable
 
-Vous pouvez dupliquer une variable et la modifier selon vos besoins.
+Vous pouvez dupliquer une variable et modifier la valeur en fonction de vos besoins.
 
 
-1. Placez le pointeur de la souris sur la variable dans la liste pour afficher le **menu Options** .
+1. Pointez sur la variable dans la liste pour afficher le menu **Options**.
 1. Sélectionnez **Dupliquer**.
 
 Le nom par défaut de la variable est `<selected variable name>` (comme « exemple »). Vous pouvez modifier le nom en fonction de vos besoins.
@@ -119,7 +120,7 @@ La variable est supprimée de tous les jeux de variables.
 
 ## Jeux de variables pour les paramètres prédéfinis de sortie
 
-Adobe Experience Manager Guides prend également en charge les ensembles de variables, qui vous permettent d’affecter d’autres valeurs à vos variables. Par exemple, une entreprise peut vendre deux produits, A et B. Il a des spécifications différentes pour chacun d’eux. Ces spécifications peuvent inclure le nom du produit, le numéro de version et la date de publication. Il peut y avoir d’autres différences dans l’image de marque. Les jeux de variables vous permettent de définir un jeu de valeurs différent pour vos variables. Lorsque vous générez la sortie, vous choisissez le jeu de variables approprié et générez la sortie requise.
+Adobe Experience Manager Guides prend également en charge les ensembles de variables, qui vous permettent d’affecter vos variables à des valeurs alternatives. Par exemple, une entreprise peut vendre deux produits, A et B. Il a des spécifications différentes pour chacun d&#39;eux. Ces spécifications peuvent inclure le nom du produit, le numéro de version et la date de publication. Il peut y avoir d’autres différences d’image de marque. Les jeux de variables vous permettent de définir un jeu de valeurs différent pour vos variables. Lorsque vous générez la sortie, vous choisissez le jeu de variables approprié et générez la sortie requise.
 
 ### Configuration d’ensembles de variables
 
@@ -187,9 +188,9 @@ Pour insérer une variable telle que votre ProductName dans la zone d’en-tête
 
    **Dans le panneau Variables sur le côté gauche**
 
-   * Faites glisser une variable à partir du panneau Variables **et déposez-la dans la zone d’en-tête**.
+   * Faites glisser une variable à partir du panneau **Variables** et déposez-la dans la zone d’en-tête.
 
-   **À partir de la barre d’outils**
+   **Dans la barre d’outils**
 
    1. Sélectionnez **Insérer une variable/des champs** <img alt= "icône de variable" src="./assets/variables-icon.svg" width="25">.
    1. Dans la boîte de dialogue **Variable**, sélectionnez le nom de la variable pour l’insérer dans la zone d’en-tête.
@@ -203,7 +204,7 @@ Vous pouvez générer la sortie PDF avec les valeurs de différentes variables. 
 
 ![liste déroulante d’ensemble de variables](assets/output-preset-variable-dropdown.png){width="550" align="left"}
 
-*Sélectionnez un jeu de variables dans la liste déroulante du paramètre prédéfini de sortie que vous souhaitez utiliser pour générer la sortie PDF.*
+*Sélectionnez dans la liste déroulante du paramètre prédéfini de sortie un ensemble de variables que vous souhaitez utiliser pour générer la sortie PDF.*
 
 >[!NOTE]
 >
