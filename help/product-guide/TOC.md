@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: 2749c0df3bd5640c9491dce3ab6c96f707625969
+source-git-commit: 33f261cafedf505f6d67cdb32d7529d9bfdfe305
 workflow-type: tm+mt
-source-wordcount: '3232'
+source-wordcount: '3233'
 ht-degree: 9%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 9%
             - Version 2026.03.0 {#2603-release}
                - [Nouveautés](./release-info/whats-new-2026-03-0.md)
                - [Problèmes résolus](./release-info/fixed-issues-2026-03-0.md)
-               - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-2026-03-0.md)
+               - [ Instructions de mise à niveau ](./release-info/upgrade-instructions-2026-03-0.md)
             - Version 2026.01.0 {#2601-release}
                - [Nouveautés](./release-info/whats-new-2026-01-0.md)
                - [Problèmes résolus](./release-info/fixed-issues-2026-01-0.md)
@@ -142,7 +142,7 @@ ht-degree: 9%
             - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0-sp4.md)
          - Version 5.0.0 SP3 {#500-sp3-release}
             - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp3.md)
-            - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-5-0-0-sp3.md)
+            - [ Instructions de mise à niveau ](./release-info/upgrade-instructions-5-0-0-sp3.md)
          - Version 5.0.0 SP2 {#500-sp2-release}
             - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp2.md)
             - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0-sp2.md)
@@ -161,7 +161,7 @@ ht-degree: 9%
             - [Instructions de mise à niveau](./release-info/upgrade-instructions-4-6-0-sp2.md)
          - Version 4.6.0 SP1 {#460-sp1-release}
             - [Correction de problèmes](./release-info/fixed-issues-4-6-0-sp1.md)
-            - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-4-6-0-sp1.md)
+            - [ Instructions de mise à niveau ](./release-info/upgrade-instructions-4-6-0-sp1.md)
          - Version 4.6.0 {#460-release}
             - [Nouveautés](./release-info/whats-new-4-6.md)
             - [Correction de problèmes](./release-info/fixed-issues-4-6-0.md)
@@ -188,13 +188,13 @@ ht-degree: 9%
                - [Notes de mise à jour de la version 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notes de mise à jour 4.2](./release-info/release-notes-4-2.md)
          - [Notes de mise à jour 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notes de mise à jour d’4.0.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notes de mise à jour d’3.8.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - Notes de mise à jour d’[4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - Notes de mise à jour d’[3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guide de l’utilisateur (nouvelle interface utilisateur) {#user-guide}
    - Présentation {#about-aemg}
       - [À propos  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - Fonctionnalités [!DNL AEM Guides] et clés {#aemg-works-features}
-         - [Fonctionnement  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+         - [Fonctionnement  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
          - [Fonctionnalités [!DNL AEM Guides] clés](./user-guide/intro-dxml-features.md)
    - Page d’accueil {#home-page}
       - [Expérience de la page d’accueil [!DNL AEM Guides]](./user-guide/intro-home-page.md)
@@ -363,7 +363,7 @@ ht-degree: 9%
             - [Créer un quiz](./learning-content/create-quiz.md)
             - [Modifier le quiz](./learning-content/edit-quiz.md)
             - [Insérer des questions dans un quiz](./learning-content/quiz-insert-questions.md)
-            - [&#x200B; Propriétés du quiz &#x200B;](./learning-content/quiz-properties.md)
+            - [ Propriétés du quiz ](./learning-content/quiz-properties.md)
             - Banque de questions {#question-bank}
                - [Créer une banque de questions](./learning-content/create-qb.md)
                - [Insérer des questions depuis la banque de questions](./learning-content/insert-questions.md)
@@ -396,7 +396,7 @@ ht-degree: 9%
       - Résolution des problèmes {#troubleshooting}
          - [Timeout de session](./user-guide/session-timeout-prompt.md)
 - Guide de l’utilisateur (ancienne interface utilisateur) {#user-guide-old-ui}
-   - [Présentation d’](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Présentation d’](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation et configuration {#install-guide}
    - On-Premise {#on-prem-ig}
       - [Notions de base sur site](./install-guide/introduction.md)
@@ -533,7 +533,7 @@ ht-degree: 9%
          - [Configurer les états du document](./cs-install-guide/customize-doc-state.md)
          - [Configuration des filtres d’état du document](./cs-install-guide/config-doc-state-filters.md)
       - Configuration des paramètres de Workspace {#workspace-configs}
-         - [Paramètres &#x200B;](./cs-install-guide/workspace-settings.md)
+         - [Paramètres ](./cs-install-guide/workspace-settings.md)
       - Utiliser les configurations de l’éditeur web {#web-editor-configs-cs}
          - [Personnaliser l’éditeur web](./cs-install-guide/conf-web-editor.md)
          - [Personnaliser la barre d’outils](./cs-install-guide/conf-web-editor-customize-toolbar.md)
@@ -615,7 +615,7 @@ ht-degree: 9%
       - [Optimisation des performances pour On-Premise](./install-conf-guide/perf-optimization-on-prem.md)
    - Migration du contenu {#migrate-content-cs}
       - [Migration du contenu existant](./install-conf-guide/migrate-content.md)
-      - [Chargement de contenu DITA existant à l&#39;aide de Framemaker et de l&#39;outil WebDav (On-Prem)](./install-conf-guide/upload-dita-content.md)
+      - [Charger du contenu DITA existant à l&#39;aide de Framemaker et de l&#39;outil WebDav pour On-Premise](./install-conf-guide/upload-dita-content.md)
       - [Utiliser la commande Curl pour charger le contenu DITA](./install-conf-guide/use-curl-command.md)
       - [Configurer le modèle de fichier UUID](./install-conf-guide/conf-uuid-filename-pattern.md)
       - [Migration de contenu non DITA](./install-conf-guide/non-dita-content.md)
@@ -681,7 +681,7 @@ ht-degree: 9%
       - [Configurer les états du document](./install-conf-guide/customize-doc-state.md)
       - [Configurer des filtres d’état de document pour Cloud Service](./install-conf-guide/conf-doc-state-filters.md)
    - Configuration des paramètres de Workspace {#workspace-configs}
-      - [Paramètres &#x200B;](./install-conf-guide/workspace-settings.md)
+      - [Paramètres ](./install-conf-guide/workspace-settings.md)
    - Recherche AEM Assets {#aem-asset-search}
       - [Configuration de la recherche pour l’interface utilisateur d’AEM Assets](./install-conf-guide/conf-dita-search.md)
    - Paramètres de génération de sortie {#output-gen-config}
