@@ -4,7 +4,7 @@ description: Version de janvier de [!DNL Adobe Experience Manager Guides] as a C
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '2440'
 ht-degree: 0%
@@ -37,8 +37,6 @@ Cette section répertorie la matrice de compatibilité pour les applications log
 | Version d’[!DNL AEM Guides] Cloud | Fenêtres du connecteur d&#39;oxygène | Mac du connecteur d&#39;oxygène | Modifier dans Oxygen Windows | Modifier dans Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2022.1.0 | 2.4.0 | 2.4.0 | 2,2 | 2,2 |
-|  |  |  |  |  |  |
-
 
 ## Nouvelles fonctionnalités et améliorations
 
@@ -72,7 +70,7 @@ De nombreuses améliorations et nouvelles fonctionnalités ont été introduites
 * Ajout d’une fonctionnalité d’actualisation dans le panneau Contenu réutilisable qui vous permet d’actualiser rapidement le contenu réutilisable dans les fichiers de référence.
 * Le nouvel indicateur de copie de travail vous indique si votre copie de travail actuelle du fichier est synchronisée avec la version enregistrée ou non.
 
-![&#x200B; Indicateur de version &#x200B;](assets/version-update-indicator.png)
+![ Indicateur de version ](assets/version-update-indicator.png)
 
 * Le filtre de recherche dans le panneau Référentiel et la boîte de dialogue de navigation des fichiers a été amélioré pour offrir davantage d’options de filtrage, qui peuvent être davantage personnalisées.
 
@@ -97,7 +95,7 @@ Un nouveau tableau de bord de traduction a été introduit dans l’éditeur web
 * Ajout d’un mécanisme de traduction multilingue pour éviter de créer plusieurs projets pour chaque langue lorsque la demande de traduction est lancée pour plusieurs langues.
 * Ajout d’une configuration pour masquer l’onglet Traduction dans le tableau de bord de mappage. Par défaut, il est visible. Vous pouvez choisir de traduire le contenu à l’aide du tableau de bord des cartes ou de l’éditeur web.
 
-![&#x200B; Tableau de bord de traduction &#x200B;](assets/translation-from-web-editor.png)
+![ Tableau de bord de traduction ](assets/translation-from-web-editor.png)
 
 ### Publication améliorée
 
@@ -197,7 +195,7 @@ Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 ### Mapper le tableau de bord
 
 * Impossible d’afficher le contenu de la conférence dans le titre d’une rubrique dans l’onglet Rubriques ou rapports du tableau de bord de mappage. (8263)
-* Sortie AEM Sites | jcr:title de la page de site générée n&#39;est pas mis à jour lorsque le titre de rubrique DITA est mis à jour. (8131)
+* La sortie AEM Sites | jcr:title de la page de site générée n’est pas mise à jour lorsque le titre de la rubrique DITA est mis à jour. (8131)
 * Télécharger MAP ne télécharge pas les fichiers vidéo utilisés dans les rubriques. (8070)
 * Les fichiers multimédias ne sont pas téléchargés lorsque la balise d’objet est utilisée par le biais de l’API de carte des signets de téléchargement. (8057)
 * Un rapport incorrect s’affiche dans l’onglet Rapports si un sujet contient une conref dans un fichier dont le titre commence par conref. (4698)
@@ -236,9 +234,9 @@ Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 
 ### Import de contenu
 
-* Conversion d’HTML en DITA | La table avec &#39;tr&#39; ayant des entrées &#39;td&#39; vides provoque des lignes supplémentaires dans la sortie. (8132)
-* Conversion d’HTML en DITA | HTML ayant une table avec plusieurs tbody échoue avec une exception . (7940)
-* Conversion d’HTML en DITA | erreurs générées si la source HTML contient des commentaires. (7937)
+* Conversion HTML vers DITA | Le tableau avec &#39;tr&#39; ayant des entrées &#39;td&#39; vides provoque la création de lignes supplémentaires. (8132)
+* Conversion d’HTML en DITA | HTML ayant une table avec plusieurs corps échoue avec une exception. (7940)
+* Conversion d’HTML en DITA | Erreurs générées si la source HTML contient des commentaires. (7937)
 * L&#39;importation de fichiers DITA 1.3 entraîne la transformation de certains href en liens incorrects. (8019)
 
 ## Problèmes connus

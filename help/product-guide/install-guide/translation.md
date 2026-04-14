@@ -6,7 +6,7 @@ feature: Translation
 role: Admin
 level: Experienced
 hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 10%
@@ -24,17 +24,17 @@ Automatisez la traduction du contenu des pages, des ressources et du contenu cr�
 
 La traduction du contenu implique les étapes suivantes :
 
-1. Connectez AEM à votre [fournisseur de services de traduction](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) et créez des [configurations de structure d’intégration de traduction](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
+1. Connectez AEM à votre [fournisseur de services de traduction](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) et créez des [configurations de structure d’intégration de traduction](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
 
-1. Associez les pages de votre gabarit de langue au [service de traduction et aux configurations de structure](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
+1. Associez les pages de votre gabarit de langue au [service de traduction et aux configurations de structure](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
 
 1. Identifiez le type de [contenu à traduire](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-rules.html?lang=fr).
 
-1. [Préparez le contenu à traduire](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/tc-prep.html) en créant le gabarit de langue et les pages racine des copies de langue.
+1. [Préparez le contenu à traduire](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html) en créant le gabarit de langue et les pages racine des copies de langue.
 
 1. Créez des [projets de traduction](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=fr) pour collecter le contenu à traduire et préparer le processus de traduction.
 
-1. Utilisez les projets de traduction pour [gérer le processus de traduction &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=fr) contenu.
+1. Utilisez les projets de traduction pour [gérer le processus de traduction ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=fr) contenu.
 
 
 Lorsque votre fournisseur de services de traduction ne fournit pas de connecteur pour l’intégration à AEM, AEM prend en charge l’exportation et l’importation manuelles du contenu traduit au format XML.
@@ -89,7 +89,7 @@ En fonction du workflow de traduction utilisé dans votre configuration, l’opt
 
    >[!NOTE]
    >
-   > Si vous utilisez le connecteur de traduction, assurez-vous d’avoir configuré le connecteur comme décrit dans la rubrique *[Configuration de la structure d’intégration de traduction &#x200B;](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/tc-tic.html)* de la documentation AEM.
+   > Si vous utilisez le connecteur de traduction, assurez-vous d’avoir configuré le connecteur comme décrit dans la rubrique *[Configuration de la structure d’intégration de traduction ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* de la documentation AEM.
 
 1. Cliquez sur **Enregistrer**.
 
@@ -153,7 +153,7 @@ Par défaut, lorsque vous effectuez une traduction pour la première fois, des f
 
 
 
-<!---
+<!--
 
 This was added for 2406 CS IG
 
@@ -185,7 +185,7 @@ Based on the translation workflow used in your setup, provide the following (pro
 1.  Click **Save**.
 
 
---->
+-->
 
 
 ## Configuration du post-traitement des copies de langue temporaires

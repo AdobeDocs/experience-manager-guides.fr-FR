@@ -4,7 +4,7 @@ description: connaître les fonctionnalités de l’éditeur de cartes dans Adob
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: a487c81c5a49ec2b8ec780ffd73cc38fcb693acc
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '2671'
 ht-degree: 0%
@@ -146,7 +146,7 @@ En outre, vous pouvez afficher les icônes suivantes et effectuer les tâches as
 
 **Insérer avant/Insérer après** - ![](images/insert_element_before_icon.svg)/![](images/insert_element_after_icon.svg)
 
-Affiche la boîte de dialogue **Insérer un élément avant ou &#x200B;** Insérer un élément après. Sélectionnez l&#39;élément à insérer dans le mappage. Selon l&#39;opération, le nouvel élément est inséré avant ou après l&#39;élément courant dans la carte.
+Affiche la boîte de dialogue **Insérer un élément avant ou **Insérer un élément après. Sélectionnez l&#39;élément à insérer dans le mappage. Selon l&#39;opération, le nouvel élément est inséré avant ou après l&#39;élément courant dans la carte.
 
 **Element** - ![](images/Add_icon.svg)
 
@@ -155,7 +155,7 @@ Affiche la boîte de dialogue **Insérer un élément**. Sélectionnez l’élé
 
 
 
-<!-----------------------------------------------------------
+<!--
 
 **Relationship table** - ![](images/relationship_table_icon.svg)
 
@@ -211,7 +211,7 @@ If you want to delete a topic from your table, click the cross icon next to the 
 **Delete the relationship table**
 
 If you want to delete the relationship table, click anywhere outside the relationship table and click Delete. For details, view [Work with relationship tables in the Map Editor](map-editor-basic-map-editor.md).
------>
+-->
 
 **Contenu réutilisable** - ![](images/reusable-content.svg)
 

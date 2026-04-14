@@ -3,7 +3,7 @@ title: Fonctionnalité de publication native de PDF | Ajouter un code à barres
 description: Découvrez comment ajouter des codes à barres.
 exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
 hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 1%

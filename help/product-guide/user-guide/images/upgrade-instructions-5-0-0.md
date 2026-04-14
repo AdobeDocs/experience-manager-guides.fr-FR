@@ -1,7 +1,7 @@
 ---
-title: Notes de mise à jour | Instructions de mise à niveau pour la version 5.0.0 d’Adobe Experience Manager Guides
+title: Notes de mise à jour | Instructions de mise à niveau pour Adobe Experience Manager Guides version 5.0.0
 description: Découvrez la matrice de compatibilité et comment effectuer une mise à niveau vers la version 5.0.0 d’Adobe Experience Manager Guides.
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 6%
@@ -12,9 +12,9 @@ ht-degree: 6%
 
 Cet article couvre les instructions de mise à niveau et la matrice de compatibilité pour la version 5.0.0 d’Adobe Experience Manager Guides.
 
-Pour plus d’informations sur les nouvelles fonctionnalités et améliorations, voir la section [Nouveautés de la version 5.0.0](../release-info/whats-new-5-0.md).
+Pour plus d’informations sur les nouvelles fonctionnalités et améliorations, voir la section [Nouveautés de la version 5.0.0](/help/product-guide/release-info/whats-new-5-0-0.md).
 
-Pour obtenir la liste des problèmes qui ont été résolus dans cette version, voir [Problèmes résolus dans la version 5.0.0](../release-info/fixed-issues-5-0-0.md).
+Pour obtenir la liste des problèmes qui ont été résolus dans cette version, voir [Problèmes résolus dans la version 5.0.0](/help/product-guide/release-info/fixed-issues-5-0-0.md).
 
 ## Matrice de compatibilité
 
@@ -26,7 +26,7 @@ Cette section répertorie la matrice de compatibilité pour les applications log
 
 Version 6.5 Service Pack 22, Service Pack 21 et Service Pack 20
 
-Pour plus d&#39;informations, consultez la section [Exigences techniques](../install-guide/download-install-technical-requirements.md) dans le Guide d&#39;installation et de configuration On-Premise.
+Pour plus d&#39;informations, consultez la section [Exigences techniques](/help/product-guide/install-guide/download-install-technical-requirements.md) dans le Guide d&#39;installation et de configuration On-Premise.
 
 ### FrameMaker et FrameMaker Publishing Server
 
@@ -62,10 +62,10 @@ Vous pouvez facilement mettre à niveau votre version actuelle de Guides vers la
 - Si vous utilisez la version 4.2, 4.2.1 (correctif 4.2.1.3), 4.1 ou 4.1.x, vous devez effectuer la mise à niveau vers la version 4.4 avant la mise à niveau vers la version 5.0.0.
 - Si vous utilisez la version 4.0, vous devez effectuer la mise à niveau vers la version 4.2 avant d’effectuer la mise à niveau vers la version 4.3.x.
 - Si vous utilisez la version 3.8.5, vous devez effectuer la mise à niveau vers la version 4.0 avant de passer à la version 4.2.
-- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html).
+- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 >[!NOTE]
 >
 >Vous devez installer le pack de services AEM avant de mettre à niveau la version de Experience Manager Guides.
 
-Pour plus d’informations, consultez les [instructions de mise à niveau pour les versions On-premise](../install-guide/upgrade-xml-documentation.md) de Experience Manager Guides.
+Pour plus d’informations, consultez les [instructions de mise à niveau pour les versions On-premise](/help/product-guide/install-guide/upgrade-xml-documentation.md) de Experience Manager Guides.

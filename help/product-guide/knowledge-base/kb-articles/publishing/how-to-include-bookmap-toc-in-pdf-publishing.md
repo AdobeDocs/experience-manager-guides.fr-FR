@@ -1,23 +1,23 @@
 ---
 title: Publication de la table des matières à l’aide de NativePDF
-description: Publication de la table des matières et d’autres listes d’applet pour votre carte d’utilisateur dita à l’aide de NativePDF
+description: Publication de la table des matières et d’autres listes de vos signets dita à l’aide de NativePDF
 feature: Native PDF Output
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
 exl-id: c551f0a8-f973-4c5a-bd34-f52890a91342
-source-git-commit: 7638f3634ad45bbadda64ec6e3f706cbb65d696c
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
 
 ---
 
-# Générer la table des matières de Bookmap dans une publication PDF
+# Générer la table des matières de la liasse dans la publication PDF
 
-## Configuration de votre carte d’utilisateur
+## Configurer votre plan
 
 Incluez l’élément `<toc>` :
-Recherchez l’élément `<frontmatter>` de votre carte de navigation dans l’élément `<booklists>`.  Imbriquez un élément `<toc>` dans `<booklists>` comme suit :
+Dans l’élément `<frontmatter>` de votre carte, recherchez l’élément `<booklists>`.  Imbriquez un élément `<toc>` à l’intérieur de `<booklists>` comme suit :
 
 ```
 <frontmatter>
@@ -28,7 +28,7 @@ Recherchez l’élément `<frontmatter>` de votre carte de navigation dans l’�
 </frontmatter>
 ```
 
-La spécification DITA permet également de placer la table des matières et les listes de signets dans la section `<backmatter>`.
+La spécification DITA permet également de placer la table des matières et les listes de livres dans la section `<backmatter>`.
 
 
 ```
@@ -41,7 +41,7 @@ La spécification DITA permet également de placer la table des matières et les
   </backmatter>
 ```
 
-Exemple de structure de bookmap avec table des matières , liste-figure et liste-tableau en préface et liste-index en arrière-plan.
+Exemple de structure de bookmap avec TOC , figure-list et table-list dans frontend et index-list dans backMATTER.
 
 ```
 <bookmap>
@@ -66,40 +66,40 @@ Exemple de structure de bookmap avec table des matières , liste-figure et liste
 </bookmap>
 ```
 
-La table des matières et les listes de signets sont automatiquement générées en fonction de la structure définie dans votre carte de pages.
+La table des matières et les listes de livres sont automatiquement générées en fonction de la structure définie dans votre bookmap.
 
-Une fois votre carte d’utilisateur configurée, utilisez le PDF natif pour générer la sortie du PDF. Il traite la structure et les références du plan d’applet, y compris la table des matières et les listes de signets.
+Une fois votre bookmap configuré, utilisez le PDF natif pour générer la sortie PDF. Il traite la structure et les références de la carte, y compris la table des matières et les listes de livres.
 
-## Conception de la table des matières et son ordre dans PDF
+## Conception de la table des matières et ordre dans PDF
 
-La fonctionnalité de PDF natif offre une méthode pratique pour personnaliser la disposition et la conception de votre table des matières.
+La fonctionnalité native de PDF offre une méthode pratique pour personnaliser la mise en page et la conception de votre table des matières.
 
 Vous pouvez contrôler la conception via une mise en page distincte pour la table des matières et les styles via layout.css.
 
-L’ordre de la table des matières et des autres listes de signets en PDF est basé uniquement sur la structure de la carte des pages.
+La table des matières et l’ordre des autres listes de livres dans PDF reposent uniquement sur la structure de la carte des livres.
 
-![toc](../assets/publishing/toc.png)
+![table des matières](../assets/publishing/toc.png)
 
 
 ## Questions fréquentes
 
-- ### Comment inclure la table des matières d’un Ditamap dans un PDF
+### Comment inclure une table des matières Ditamap dans un PDF
 
-Les cartes numériques elles-mêmes n’ont pas directement une table des matières comme le fait une carte des pages. Toutefois, les graphiques numériques jouent un rôle essentiel dans la définition de la structure de votre contenu et contribuent indirectement au processus de génération de la table des matières.
+Les diamaps eux-mêmes n&#39;ont pas directement de table des matières (TOC) comme un bookmap. Cependant, les diamaps jouent un rôle essentiel dans la définition de la structure de votre contenu et contribuent indirectement au processus de génération de la table des matières.
 
-Si vous publiez Ditamap, alors Native PDF offre la fonctionnalité de génération automatique de la table des matières et de la liste des pages d’applet . Vous pouvez activer/désactiver la génération de la table des matières à ditamap à partir des paramètres Native PDF .
+Si vous publiez Ditamap, Native PDF offre la fonctionnalité de génération automatique de la table des matières et de la liste de livres . Vous pouvez activer/désactiver la génération de la table des matières à ditamap à partir des paramètres Native PDF.
 
 ![Activer Désactiver la table des matières](../assets/publishing/pageorder.png)
 
 ## Ressources supplémentaires :
 
-- [Documentation sur la mise en page de la page de conception de PDF native](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [&#x200B; Session d’experts pré-enregistrée des PDF natifs &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [Documentation de mise en page de la conception native de PDF](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
+- [Session d’expert préenregistrée pour Native PDF essentials](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>
 
-Post sur le [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=fr) de la communauté AEM Guides pour toutes les requêtes.
+Publiez sur le [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) de la communauté AEM Guides pour toute requête.
 
 
 

@@ -4,7 +4,8 @@ description: Découvrez comment fonctionnent l’administration et la sécurité
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: c5ac6537-d7e8-4408-b85d-b82d7c038591
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 10%
@@ -19,7 +20,7 @@ Les rubriques suivantes de la documentation Adobe Experience Manager vous aidero
 
 | Services cloud | Sur Site |
 |---|---|
-| [Utilisateurs, groupes et autorisations &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=fr)<br>[Administration et sécurité des utilisateurs](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=fr) | [Utilisateurs et groupes dans AEM](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)<br>[Autorisations dans AEM](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)<br>[Gestion des utilisateurs et des groupes](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)<br>[Gestion des autorisations](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
+| [Utilisateurs, groupes et autorisations ](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)<br>[Administration et sécurité des utilisateurs](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=fr) | [Utilisateurs et groupes dans AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)<br>[Autorisations dans AEM](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)<br>[Gestion des utilisateurs et des groupes](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)<br>[Gestion des autorisations](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
 
 
 ## Groupes d’utilisateurs créés par AEM Guides {#id181TF0K0MHT}
@@ -38,7 +39,7 @@ Le tableau suivant répertorie les différentes tâches et les groupes qui peuve
 | Créer un plan DITA | Oui |   | Oui |
 | Mapper les collections | Oui |   | Oui |
 | Créer une tâche de révision | Oui |   | Oui |
-| Rubrique [&#x200B; révision 1](#fntarg_1) | Oui | Oui | Oui |
+| Rubrique [ révision 1](#fntarg_1) | Oui | Oui | Oui |
 | Résolution de la clé | Oui |   | Oui |
 | Extraction/enregistrement | Oui |   | Oui |
 | Modifier le sujet | Oui |   | Oui |
@@ -47,27 +48,27 @@ Le tableau suivant répertorie les différentes tâches et les groupes qui peuve
 | Copier | Oui |   | Oui |
 | Supprimer | Oui |   | Oui |
 | Partager | Oui |   | Oui |
-| **État du document** |
+| **État du document** |  |  |  |
 | Créer/modifier un profil d’état de document |   |   | Oui |
 | Modifier l’état du document [2](#fntarg_2) | Oui | Oui | Oui |
-| **Fonctionnalités disponibles dans la console de mappage DITA \(onglet Paramètres prédéfinis de sortie\)** |
+| **Fonctionnalités disponibles dans la console de mappage DITA \(onglet Paramètres prédéfinis de sortie\)** |  |  |  |
 | Générer |   |   | Oui |
 | Modifier |   |   | Oui |
 | Doublon |   |   | Oui |
 | Créer |   |   | Oui |
 | Supprimer le paramètre prédéfini |   |   | Oui |
-| **Fonctionnalités disponibles dans la console de mappage DITA \(onglet Sorties\)** |
+| **Fonctionnalités disponibles dans la console de mappage DITA \(onglet Sorties\)** |  |  |  |
 | Afficher la sortie générée | Oui |   | Oui |
-| **Fonctionnalités disponibles dans la console de mappage DITA \(Onglet Rubriques\)** |
+| **Fonctionnalités disponibles dans la console de mappage DITA \(Onglet Rubriques\)** |  |  |  |
 | Créer une tâche de révision | Oui |   | Oui |
 | Modifier | Oui |   | Oui |
-| **Fonctionnalités disponibles dans la console de plan DITA \(onglet Lignes de base\)** |
+| **Fonctionnalités disponibles dans la console de plan DITA \(onglet Lignes de base\)** |  |  |  |
 | Créer |   |   | Oui |
 | Modifier |   |   | Oui |
 | Doublon |   |   | Oui |
 | Supprimer |   |   | Oui |
 | Console de mappage DITA \(onglet Rapports\) | Oui |   | Oui |
-| **Fonctionnalités disponibles dans la console de mappage DITA \(Paramètres prédéfinis de condition\)** |
+| **Fonctionnalités disponibles dans la console de mappage DITA \(Paramètres prédéfinis de condition\)** |  |  |  |
 | Créer/modifier un paramètre prédéfini de condition |   |   | Oui |
 
 ## Remarques supplémentaires sur les groupes d’utilisateurs
@@ -103,8 +104,3 @@ La liste suivante contient des recommandations et des points liés aux groupes d
 - Pour donner à un utilisateur les droits de modifier l’état d’un document, veillez à l’ajouter dans la section Transition d’état du profil d’état du document.
 
 [1](#fnsrc_1) Si *Auteurs* et *Éditeurs* sont invités pour une révision.[2](#fnsrc_2) selon les droits accordés à l’utilisateur dans le profil d’état du document.
-
-
-
-
-

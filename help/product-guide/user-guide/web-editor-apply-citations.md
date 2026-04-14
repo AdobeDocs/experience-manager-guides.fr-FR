@@ -4,7 +4,7 @@ description: Ajouter et gérer des citations dans AEM Guides. Découvrez comment
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: a90a461883cba0760990f8c86b3a0b9817f37ce2
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '1923'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Pour ajouter des citations, procédez comme suit :
 
    | Livre | Site Web | Journal |
    | --- | ---|---|
-   | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation sous forme de livre. | **Source**<br> Dans la liste déroulante, sélectionnez la source de la citation en tant que site Web. | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation en tant que Journal. |
+   | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation sous forme de livre. | ****<br> Dans la liste déroulante, sélectionnez la source de la citation en tant que site Web. | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation en tant que Journal. |
    | **Rechercher par** <br> Sélectionnez **ISBN** ou **DOI** dans la liste déroulante pour rechercher l’identifiant numérique associé à la citation.  <br> DOI : Identifiant d’objet numérique <br> ISBN : Identifiant de livre numérique unique | **Rechercher par** <br> Sélectionnez **DOI** dans la liste déroulante pour rechercher l’identifiant numérique associé à la citation. | **Rechercher par** <ul><li>Sélectionnez **DOI** ou **ID PubMed** dans la liste déroulante pour rechercher l’ID numérique associé à la citation.</li><li>Sélectionnez **N’importe quel champ** dans la liste déroulante pour effectuer une recherche dans tous les champs Journal, tels que *Titre*, *Titre du journal*, *Auteur*, *Année*, *Volume*, *Number* et *Pages*. <br> La recherche renvoie la citation correspondante la plus proche en fonction du texte saisi.</li> |
    | **Auteur** <br> ajoutez le prénom et le nom de l’auteur de la citation. Sélectionnez ![](images/Add_icon.svg) pour ajouter d’autres noms. | **Auteur** <br> ajoutez le prénom et le nom de l’auteur de la citation. Sélectionnez ![](images/Add_icon.svg) pour ajouter d’autres noms. | **Auteur** <br> ajoutez le prénom et le nom de l’auteur de la citation. Sélectionnez ![](images/Add_icon.svg) pour ajouter d’autres noms. |
    | **Titre** <br> ajoutez le titre du livre. | **Titre** <br> ajoutez le titre de la page web. | **Titre** <br> ajoutez le titre de l’article. |
@@ -65,7 +65,7 @@ Pour ajouter des citations, procédez comme suit :
    | **Éditeur** <br> Ajoutez le nom de l&#39;éditeur du livre. | **Date de publication** <br> ajoutez la date de publication du contenu du site web. | **Numéro** <br> ajoutez le numéro du volume dans la série. |
    | **Année** <br> Indiquez l&#39;année de publication de l&#39;ouvrage. | **Date de mise à jour** <br> ajoutez la date à laquelle le contenu du site web est mis à jour. | **Pages** <br> ajoutez le numéro de page ou la plage de pages où se trouve l’article. |
    | **Version** <br> Ajoutez la version du livre. | **ID unique** <br> ajoutez un ID unique pour la citation. Un ID unique est un identifiant unique pour cette citation. | **URL** <br>Ajoutez le lien web au journal. |
-   | **Série** <br>Ajoutez la série du livre. |  | **ID unique** <br> ajoutez un ID unique pour la citation. Un ID unique est un identifiant unique pour cette citation. |
+   | **Série** <br>Ajoutez la série du livre. | | **ID unique** <br> ajoutez un ID unique pour la citation. Un ID unique est un identifiant unique pour cette citation. |
    | **URL** <br> Ajoutez le lien web au livre. |  |  |
    | **ID unique** <br> ajoutez un ID unique pour la citation. Un ID unique est un identifiant unique pour cette citation. |  |  |
 
@@ -96,7 +96,7 @@ Pour importer des citations, procédez comme suit :
 
    >[!NOTE]
    > <ol><li> Experience Manager Guides importe uniquement les citations uniques qui ne sont pas déjà présentes.
-   > &gt; <li> Experience Manager Guides peut importer des citations d’un livre, d’un journal ou d’un site web. Actuellement, il ne prend pas en charge les citations provenant d’autres sources.
+    &gt; <li> Experience Manager Guides peut importer des citations d’un livre, d’un journal ou d’un site web. Actuellement, il ne prend pas en charge les citations provenant d’autres sources.
 
 ## Gérer les citations
 
@@ -104,7 +104,7 @@ Les citations sont triées par ordre alphabétique dans le panneau de gauche. Re
 
 ### Filtrer
 
-Sélectionnez l’icône **&#x200B;**&#x200B;Filtrer![](images/filter-search-icon.svg) à côté de la barre de recherche et sélectionnez les options sources dans la liste déroulante pour filtrer la liste de citations. Il permet des sélections uniques et multiples.
+Sélectionnez l’icône **** Filtrer![](images/filter-search-icon.svg) à côté de la barre de recherche et sélectionnez les options sources dans la liste déroulante pour filtrer la liste de citations. Il permet des sélections uniques et multiples.
 
 * **Toutes les sources** : affiche une liste complète des citations, y compris toutes les sources.
 
@@ -186,7 +186,7 @@ Vous pouvez insérer des citations sur le sujet à partir de la barre d’outils
 
 ### Dans la barre d’outils principale
 
-1. Sélectionnez l’icône **&#x200B;**&#x200B;Citations![&#x200B; &#x200B;](images/citations-icon.svg)citations dans la barre d’outils principale.
+1. Sélectionnez l’icône **** Citations![ ](images/citations-icon.svg)citations dans la barre d’outils principale.
 1. Dans la boîte de dialogue **Citations**, choisissez la citation. Vous pouvez également sélectionner plusieurs citations.
    ![boîte de dialogue de citation](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. Vous pouvez filtrer les citations en tapant les premiers caractères alphabétiques dans le panneau de recherche de la boîte de dialogue **Citation**.
@@ -201,7 +201,7 @@ La citation sélectionnée est ajoutée à l&#39;emplacement du curseur dans vot
 > 
 >Pour afficher l’icône **Citations** dans le panneau de gauche, votre administrateur système doit activer l’option **Citations** dans l’onglet **Panneaux** dans **Paramètres**.
 
-1. Sélectionnez **Citations** ![icône de &#x200B;](images/citations-icon.svg) de citations dans le panneau de gauche.
+1. Sélectionnez **Citations** ![icône de ](images/citations-icon.svg) de citations dans le panneau de gauche.
 1. Faites glisser la citation à partir du panneau **Citations** et déposez-la à l’emplacement approprié dans la rubrique.
 
    Vous pouvez également sélectionner **Insérer** dans ![](images/options.svg) **Options** pour insérer une citation.

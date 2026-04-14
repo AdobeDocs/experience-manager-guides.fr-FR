@@ -5,7 +5,7 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 142a588a-3d26-48ee-a3fe-23882922243c
-source-git-commit: 2749c0df3bd5640c9491dce3ab6c96f707625969
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 1%
@@ -22,14 +22,14 @@ Les onglets suivants fournissent des instructions pour activer la fonction d’e
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(propriété\) suivants pour configurer l’enregistrement automatique du fichier et l’intervalle de temps d’enregistrement automatique :
 
 | PID | Clé de la propriété | Valeur de la propriété |
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.autosave` | Booléen \(true/false\).<br> **Valeur par défaut** : false |
-| `xmleditor.autosaveinterval` | Spécifiez l’intervalle en secondes pour déclencher la fonction d’enregistrement automatique. |
+| `xmleditor.autosaveinterval` | Spécifiez l’intervalle en secondes pour déclencher la fonction d’enregistrement automatique. |  |
 
 >[!TAB  On-Premise ]
 

@@ -4,7 +4,7 @@ description: Découvrez d’autres fonctionnalités de l’éditeur dans Adobe E
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: f0ba8dce38a6eef5dedc8a81107c8e31ea6b26b3
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '3653'
 ht-degree: 0%
@@ -85,13 +85,13 @@ Par défaut, l’éditeur vous permet d’afficher une rubrique à la fois. Il p
 
 
 
-<!--------------------------------------------
+<!--
 
 ***Quick Generate***
 
 Generate the output for the selected file. Output can be generated only for files that are a part of an output preset. For more details, view [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
 
---->
+-->
 
 ***Fermer*** : vous pouvez choisir parmi les options suivantes :
 
@@ -359,7 +359,7 @@ Les éléments DITA contenant des sauts de ligne et des espaces sont pris en cha
 
 ## Gestion des espaces insécables dans l’éditeur
 
-- Vous pouvez insérer des espaces insécables dans votre document à l&#39;aide de l&#39;icône de **&#x200B;**&#x200B;Symobol![](images/symbol-icon.svg) ou des touches de raccourci **Alt** + **Space**.  Ces espaces insécables s’affichent en tant qu’indicateurs lorsque vous modifiez une rubrique dans l’éditeur. Vous pouvez désactiver l’affichage des espaces insécables à l’aide de l’option **Afficher l’espace insécable en mode création** de l’onglet **Apparence** des [Préférences utilisateur](./intro-home-page.md#user-preferences).
+- Vous pouvez insérer des espaces insécables dans votre document à l&#39;aide de l&#39;icône de **** Symobol![](images/symbol-icon.svg) ou des touches de raccourci **Alt** + **Space**.  Ces espaces insécables s’affichent en tant qu’indicateurs lorsque vous modifiez une rubrique dans l’éditeur. Vous pouvez désactiver l’affichage des espaces insécables à l’aide de l’option **Afficher l’espace insécable en mode création** de l’onglet **Apparence** des [Préférences utilisateur](./intro-home-page.md#user-preferences).
 
 - Si vous copiez et collez du contenu avec un espace insécable à partir de sources externes dans la vue **Auteur**, l’espace insécable est converti en espace.
 Cependant, si vous copiez et collez du contenu avec un espace insécable à partir de la vue **Auteur**, il est conservé.
@@ -408,4 +408,4 @@ Les principales fonctionnalités visant à améliorer la gestion des fichiers vo
 
 - Le message d&#39;alerte est disponible uniquement pour les fichiers DITA et est visible dans tous les modes : Auteur, Source et Disposition.
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

@@ -4,7 +4,8 @@ description: Découvrez comment utiliser la spécialisation DITA-OT et DITA pers
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: 5ea96ec21b5115b1509372ddc834e061c1c84be6
+exl-id: 4a5ba148-da31-4751-943d-624165c66429
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '3523'
 ht-degree: 0%
@@ -32,7 +33,7 @@ Les onglets suivants fournissent des instructions sur l’utilisation de modules
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Vous pouvez utiliser le plug-in DITA-OT personnalisé pour la publication en chargeant le plug-in DITA-OT personnalisé dans le référentiel AEM. Par défaut, AEM Guides s’accompagne d’un profil préconfiguré qui contient les configurations des modèles par défaut à utiliser pour la modification et la publication de contenu. Vous pouvez créer des profils personnalisés avec des modèles personnalisés à utiliser lors de l&#39;édition de documents et des plug-ins DITA-OT personnalisés pour publier du contenu.
 
@@ -70,12 +71,12 @@ Pour charger le plug-in DITA-OT personnalisé dans le référentiel AEM, procéd
 
    | Nom de la propriété | Description |
    |-------------|-----------|
-   | **Propriétés du profil** |
+   | **Propriétés du profil** | |
    | Nom du profil | Attribuez un nom unique à ce profil. |
    | Réutiliser la sortie | *\(Facultatif\)* Si votre profil est basé sur un profil existant, sélectionnez cette option. La sélection de cette option garantit qu&#39;AEM Guides n&#39;extrait pas à nouveau le contenu du package DITA-OT et réutilise le package DITA-OT existant. |
    | Chemin d’extraction du profil | *\(Facultatif\)* spécifiez le chemin d’accès où DITA-OT est conservé sur le disque. Par défaut, AEM Guides regroupe un package DITA-OT dans son référentiel et il est extrait sur le disque à cet emplacement. <br> **REMARQUE** vous pouvez définir ce chemin à l’aide de n’importe quelle variable ou propriété système existante. Pour plus d’informations, voir la description de la propriété [Variables d’environnement DITA-OT](#id181NH0YN0AX). |
    | Chemin affecté | \(*Facultatif*\) Spécifiez le chemin d’accès dans votre référentiel de contenu auquel ce profil s’applique. Vous pouvez spécifier plusieurs emplacements. |
-   | **Propriétés DITA-OT** |
+   | **Propriétés DITA-OT** |  |
    | Délai DITA-OT | \(*Facultatif*\) Spécifiez la durée \(en secondes\) pendant laquelle AEM Guides attend une réponse du plug-in DITA-OT. Si aucune réponse n’est reçue dans le délai spécifié, AEM Guides met fin à la tâche de publication et celle-ci est marquée comme ayant échoué. En outre, les journaux d’échec sont disponibles dans le fichier journal de génération de sortie. <br> Valeur par défaut : 300 secondes \(5 minutes\) |
    | Arguments PDF DITA-OT | Spécifiez les arguments de ligne de commande qui sont traités par le plug-in DITA-OT personnalisé pour générer la sortie PDF. Pour tous les profils DITA-OT personnalisés, spécifiez l&#39;argument de ligne de commande suivant :`-lib plugins/org.dita.pdf2.fop/lib/` |
    | Arguments AEM DITA-OT | \(*Facultatif*\) Spécifiez les arguments de ligne de commande personnalisés qui sont traités par le plug-in DITA-OT personnalisé pour générer la sortie du site AEM. |
@@ -171,12 +172,12 @@ Effectuez les étapes suivantes pour créer un profil et le configurer afin d&#3
 
    | Nom de la propriété | Description |
    |-------------|-----------|
-   | **Propriétés du profil** |
+   | **Propriétés du profil** |  |
    | Nom du profil | Attribuez un nom unique à ce profil. |
    | Réutiliser la sortie | *\(Facultatif\)* Si votre profil est basé sur un profil existant, sélectionnez cette option. La sélection de cette option garantit qu&#39;AEM Guides n&#39;extrait pas à nouveau le contenu du package DITA-OT et réutilise le package DITA-OT existant. |
    | Chemin d’extraction du profil | *\(Facultatif\)* spécifiez le chemin d’accès où DITA-OT est conservé sur le disque. Par défaut, AEM Guides regroupe un package DITA-OT dans son référentiel et il est extrait sur le disque à cet emplacement.<br>**Remarque** vous pouvez définir ce chemin d’accès à l’aide de toute variable ou propriété système existante. Pour plus d’informations, voir la description de la propriété [Variables d’environnement DITA-OT](#id181NH0YN0AX). |
    | Chemin affecté | \(*Facultatif*\) Spécifiez le chemin d’accès dans votre référentiel de contenu auquel ce profil s’applique. Vous pouvez spécifier plusieurs emplacements. |
-   | **Propriétés DITA-OT** |
+   | **Propriétés DITA-OT** |  |
    | Délai DITA-OT | \(*Facultatif*\) Spécifiez la durée \(en secondes\) pendant laquelle AEM Guides attend une réponse du plug-in DITA-OT. Si aucune réponse n’est reçue dans le délai spécifié, AEM Guides met fin à la tâche de publication et celle-ci est marquée comme ayant échoué. En outre, les journaux d’échec sont disponibles dans le fichier journal de génération de sortie. <br>Valeur par défaut : 300 secondes \(5 minutes\) |
    | Arguments PDF DITA-OT | Spécifiez les arguments de ligne de commande qui sont traités par le plug-in DITA-OT personnalisé pour générer la sortie PDF. Pour tous les profils DITA-OT personnalisés, spécifiez l&#39;argument de ligne de commande suivant :`-lib plugins/org.dita.pdf2.fop/lib/` |
    | Arguments AEM DITA-OT | \(*Facultatif*\) Spécifiez les arguments de ligne de commande personnalisés qui sont traités par le plug-in DITA-OT personnalisé pour générer la sortie du site AEM. |
@@ -215,7 +216,7 @@ Les onglets suivants fournissent des instructions pour intégrer la spécialisat
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Pour créer un profil et le configurer afin d’utiliser des DTD et des fichiers XSD spécialisés dans votre AEM Guides, procédez comme suit :
 

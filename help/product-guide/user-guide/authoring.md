@@ -4,7 +4,7 @@ description: Gérer le contenu et identifier vos rôles et autorisations dans AE
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
 feature: Content Management
 role: User
-source-git-commit: 461692ce786f914dd196f289efef726e42bf9660
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 13%
@@ -53,7 +53,7 @@ Le tableau suivant répertorie les différentes tâches et les groupes qui peuve
 | Créer un plan DITA | Oui |   | Oui |
 | Mapper les collections | Oui |   | Oui |
 | Créer une tâche de révision | Oui |   | Oui |
-| Rubrique [&#x200B; révision 1](#fntarg_1) | Oui | Oui | Oui |
+| Rubrique [ révision 1](#fntarg_1) | Oui | Oui | Oui |
 | Résolution de la clé | Oui |   | Oui |
 | Extraction/enregistrement | Oui |   | Oui |
 | Modifier le sujet | Oui |   | Oui |
@@ -62,27 +62,27 @@ Le tableau suivant répertorie les différentes tâches et les groupes qui peuve
 | Copier | Oui |   | Oui |
 | Supprimer | Oui |   | Oui |
 | Partager | Oui |   | Oui |
-| **État du document** |
+| **État du document** |  |  |  |
 | Créer/modifier un profil d’état de document |   |   | Oui |
 | Modifier l’état du document [2](#fntarg_2) | Oui | Oui | Oui |
-| **Fonctionnalités disponibles dans la console de mappage DITA \(onglet Paramètres prédéfinis de sortie\)** |
+| **Fonctionnalités disponibles dans la console de mappage DITA \(onglet Paramètres prédéfinis de sortie\)** |  |  |  |
 | Générer |   |   | Oui |
 | Modifier |   |   | Oui |
 | Doublon |   |   | Oui |
 | Créer |   |   | Oui |
 | Supprimer le paramètre prédéfini |   |   | Oui |
-| **Fonctionnalités disponibles dans la console de mappage DITA \(onglet Sorties\)** |
+| **Fonctionnalités disponibles dans la console de mappage DITA \(onglet Sorties\)** |  |  |  |
 | Afficher la sortie générée | Oui |   | Oui |
-| **Fonctionnalités disponibles dans la console de mappage DITA \(Onglet Rubriques\)** |
+| **Fonctionnalités disponibles dans la console de mappage DITA \(Onglet Rubriques\)** |  |  |  |
 | Créer une tâche de révision | Oui |   | Oui |
 | Modifier | Oui |   | Oui |
-| **Fonctionnalités disponibles dans la console de plan DITA \(onglet Lignes de base\)** |
+| **Fonctionnalités disponibles dans la console de plan DITA \(onglet Lignes de base\)** |  |  |  |
 | Créer |   |   | Oui |
 | Modifier |   |   | Oui |
 | Doublon |   |   | Oui |
-| Supprimez |   |   | Oui |
+| Supprimer |   |   | Oui |
 | Console de mappage DITA \(onglet Rapports\) | Oui |   | Oui |
-| **Fonctionnalités disponibles dans la console de mappage DITA \(Paramètres prédéfinis de condition\)** |
+| **Fonctionnalités disponibles dans la console de mappage DITA \(Paramètres prédéfinis de condition\)** |  |  |  |
 | Créer/modifier un paramètre prédéfini de condition |   |   | Oui |
 
 [1](#fnsrc_1) Si *Auteurs* et *Éditeurs* sont invités pour une révision.
