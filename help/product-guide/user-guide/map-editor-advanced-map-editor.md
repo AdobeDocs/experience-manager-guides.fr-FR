@@ -146,7 +146,7 @@ En outre, vous pouvez afficher les icônes suivantes et effectuer les tâches as
 
 **Insérer avant/Insérer après** - ![](images/insert_element_before_icon.svg)/![](images/insert_element_after_icon.svg)
 
-Affiche la boîte de dialogue **Insérer un élément avant ou **Insérer un élément après. Sélectionnez l&#39;élément à insérer dans le mappage. Selon l&#39;opération, le nouvel élément est inséré avant ou après l&#39;élément courant dans la carte.
+Affiche la boîte de dialogue **Insérer un élément avant ou &#x200B;** Insérer un élément après. Sélectionnez l&#39;élément à insérer dans le mappage. Selon l&#39;opération, le nouvel élément est inséré avant ou après l&#39;élément courant dans la carte.
 
 **Element** - ![](images/Add_icon.svg)
 

@@ -27,7 +27,7 @@ Ce processus comprend 3 étapes :
 
 ## Étape 1 : chargez la police personnalisée dans le dossier des ressources de votre modèle
 
-![Chargement et importation de polices ](../assets/publishing/custom-font1.png)
+![Chargement et importation de polices &#x200B;](../assets/publishing/custom-font1.png)
 
 ## Étape 2 : effectuez les modifications nécessaires dans la feuille de style des modèles PDF
 
@@ -35,7 +35,7 @@ Ce processus comprend 3 étapes :
 
 ## Étape 3 (facultatif) : incorporez la police utilisée dans PDF
 
-![Incorporation de polices personnalisées dans les ](../assets/publishing/custom-font3.png) DITA PDF
+![Incorporation de polices personnalisées dans les &#x200B;](../assets/publishing/custom-font3.png) DITA PDF
 
 ## Questions fréquentes
 

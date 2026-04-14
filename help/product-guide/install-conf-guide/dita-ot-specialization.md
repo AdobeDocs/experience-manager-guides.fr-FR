@@ -33,7 +33,7 @@ Les onglets suivants fournissent des instructions sur l’utilisation de modules
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Vous pouvez utiliser le plug-in DITA-OT personnalisé pour la publication en chargeant le plug-in DITA-OT personnalisé dans le référentiel AEM. Par défaut, AEM Guides s’accompagne d’un profil préconfiguré qui contient les configurations des modèles par défaut à utiliser pour la modification et la publication de contenu. Vous pouvez créer des profils personnalisés avec des modèles personnalisés à utiliser lors de l&#39;édition de documents et des plug-ins DITA-OT personnalisés pour publier du contenu.
 
@@ -216,7 +216,7 @@ Les onglets suivants fournissent des instructions pour intégrer la spécialisat
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Pour créer un profil et le configurer afin d’utiliser des DTD et des fichiers XSD spécialisés dans votre AEM Guides, procédez comme suit :
 

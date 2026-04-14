@@ -45,7 +45,7 @@ Pour ouvrir la console web, accédez à l’URL Accès http://\&lt;nom du serveu
 
 ## Exécution du test :
 
-En utilisant FMPS, vous pouvez publier automatiquement **** Responsive HTML5 et **Epub** pour vos Assets DITA et FM.
+En utilisant FMPS, vous pouvez publier automatiquement **&#x200B;**&#x200B;Responsive HTML5 et **Epub** pour vos Assets DITA et FM.
 
 Dans le menu « Générer PDF à l’aide de », choisissez FrameMaker Publishing Server.
 
@@ -95,8 +95,8 @@ Vous pouvez publier les lignes de base déjà créées avec la version FMPS2020.
 
 [Formation et assistance FMPS](https://helpx.adobe.com/support/framemaker-publishing-server.html)
 
-[Formation et assistance ](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
+[Formation et assistance &#x200B;](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
 [Communauté FrameMaker et FMPS](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&sort=latest_replies&lang=all&tabid=all)
 
-[Communauté ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)
+[Communauté &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)
