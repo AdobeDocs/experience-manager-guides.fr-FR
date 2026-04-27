@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: 33f261cafedf505f6d67cdb32d7529d9bfdfe305
+source-git-commit: d5dbd67ba44735cf1545291e9a03e3096acd8166
 workflow-type: tm+mt
-source-wordcount: '3233'
-ht-degree: 9%
+source-wordcount: '3316'
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 9%
             - Version 2026.03.0 {#2603-release}
                - [Nouveautés](./release-info/whats-new-2026-03-0.md)
                - [Problèmes résolus](./release-info/fixed-issues-2026-03-0.md)
-               - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-2026-03-0.md)
+               - [ Instructions de mise à niveau ](./release-info/upgrade-instructions-2026-03-0.md)
             - Version 2026.01.0 {#2601-release}
                - [Nouveautés](./release-info/whats-new-2026-01-0.md)
                - [Problèmes résolus](./release-info/fixed-issues-2026-01-0.md)
@@ -142,7 +142,7 @@ ht-degree: 9%
             - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0-sp4.md)
          - Version 5.0.0 SP3 {#500-sp3-release}
             - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp3.md)
-            - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-5-0-0-sp3.md)
+            - [ Instructions de mise à niveau ](./release-info/upgrade-instructions-5-0-0-sp3.md)
          - Version 5.0.0 SP2 {#500-sp2-release}
             - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp2.md)
             - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0-sp2.md)
@@ -161,7 +161,7 @@ ht-degree: 9%
             - [Instructions de mise à niveau](./release-info/upgrade-instructions-4-6-0-sp2.md)
          - Version 4.6.0 SP1 {#460-sp1-release}
             - [Correction de problèmes](./release-info/fixed-issues-4-6-0-sp1.md)
-            - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-4-6-0-sp1.md)
+            - [ Instructions de mise à niveau ](./release-info/upgrade-instructions-4-6-0-sp1.md)
          - Version 4.6.0 {#460-release}
             - [Nouveautés](./release-info/whats-new-4-6.md)
             - [Correction de problèmes](./release-info/fixed-issues-4-6-0.md)
@@ -188,13 +188,13 @@ ht-degree: 9%
                - [Notes de mise à jour de la version 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notes de mise à jour 4.2](./release-info/release-notes-4-2.md)
          - [Notes de mise à jour 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notes de mise à jour d’4.0.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notes de mise à jour d’3.8.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Notes de mise à jour 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Notes de mise à jour 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guide de l’utilisateur (nouvelle interface utilisateur) {#user-guide}
    - Présentation {#about-aemg}
       - [À propos  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - Fonctionnalités [!DNL AEM Guides] et clés {#aemg-works-features}
-         - [Fonctionnement  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+         - [Fonctionnement  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
          - [Fonctionnalités [!DNL AEM Guides] clés](./user-guide/intro-dxml-features.md)
    - Page d’accueil {#home-page}
       - [Expérience de la page d’accueil [!DNL AEM Guides]](./user-guide/intro-home-page.md)
@@ -286,7 +286,7 @@ ht-degree: 9%
                - [Présentation des paramètres prédéfinis de sortie PDF](./user-guide/generate-output-pdf.md)
                - [Paramètre prédéfini de sortie PDF DITA-OT](./user-guide/generate-output-pdf-dita-ot.md)
                - [Paramètre prédéfini de sortie PDF natif](./web-editor/native-pdf-web-editor.md)
-            - [Base de connaissances](./user-guide/generate-output-knowledge-base.md)
+            - [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
             - [HTML5](./user-guide/generate-output-html5.md)
             - [EPUB](./user-guide/generate-output-epub.md)
             - [Personnalisé](./user-guide/generate-output-custom.md)
@@ -363,7 +363,7 @@ ht-degree: 9%
             - [Créer un quiz](./learning-content/create-quiz.md)
             - [Modifier le quiz](./learning-content/edit-quiz.md)
             - [Insérer des questions dans un quiz](./learning-content/quiz-insert-questions.md)
-            - [&#x200B; Propriétés du quiz &#x200B;](./learning-content/quiz-properties.md)
+            - [ Propriétés du quiz ](./learning-content/quiz-properties.md)
             - Banque de questions {#question-bank}
                - [Créer une banque de questions](./learning-content/create-qb.md)
                - [Insérer des questions depuis la banque de questions](./learning-content/insert-questions.md)
@@ -396,7 +396,7 @@ ht-degree: 9%
       - Résolution des problèmes {#troubleshooting}
          - [Timeout de session](./user-guide/session-timeout-prompt.md)
 - Guide de l’utilisateur (ancienne interface utilisateur) {#user-guide-old-ui}
-   - [Présentation d’](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Présentation d’AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation et configuration {#install-guide}
    - On-Premise {#on-prem-ig}
       - [Notions de base sur site](./install-guide/introduction.md)
@@ -533,7 +533,7 @@ ht-degree: 9%
          - [Configurer les états du document](./cs-install-guide/customize-doc-state.md)
          - [Configuration des filtres d’état du document](./cs-install-guide/config-doc-state-filters.md)
       - Configuration des paramètres de Workspace {#workspace-configs}
-         - [Paramètres &#x200B;](./cs-install-guide/workspace-settings.md)
+         - [Paramètres Workspace](./cs-install-guide/workspace-settings.md)
       - Utiliser les configurations de l’éditeur web {#web-editor-configs-cs}
          - [Personnaliser l’éditeur web](./cs-install-guide/conf-web-editor.md)
          - [Personnaliser la barre d’outils](./cs-install-guide/conf-web-editor-customize-toolbar.md)
@@ -603,7 +603,7 @@ ht-degree: 9%
       - [Désinstallation d’AEM Guides](./install-conf-guide/uninstall-aemg.md)
    - [Vérification de l’installation d’AEM Guides](./install-conf-guide/verify-aemg-installation.md)
    - Mettre à niveau AEM Guides {#upgrade-aemg}
-      - Cloud Service {#cloud-service}
+      - Cloud Service {#cloud-service}
          - [Mettre à niveau AEM Guides Cloud Service](./install-conf-guide/download-install-upgrade-aemg.md)
          - [Configuration supplémentaire pour la mise à niveau d’AEM Guides as a Cloud Service](./install-conf-guide/additional-config-for-upgrade.md)
          - [Remplacements de configuration pour Cloud Service](./install-conf-guide/download-install-config-override.md)
@@ -627,7 +627,7 @@ ht-degree: 9%
    - DITA-OT personnalisé et spécialisation {#custom-dita-ot-cs}
       - [Utilisation de la spécialisation DITA-OT et DITA personnalisée](./install-conf-guide/dita-ot-specialization.md)
    - Groupes d’utilisateurs et sécurité {#user-group-sec-cs}
-      - [Gestion des utilisateurs](./install-conf-guide/user-admin-sec.md)
+      - [Gestion des utilisateurs et utilisatrices](./install-conf-guide/user-admin-sec.md)
    - Paramètres système {#aemg-system-settings}
       - Configurer des noms de fichier UUID et non basés sur UUID {#conf-filename}
          - [Configurer les noms de fichier](./install-conf-guide/conf-file-names-overview.md)
@@ -681,15 +681,15 @@ ht-degree: 9%
       - [Configurer les états du document](./install-conf-guide/customize-doc-state.md)
       - [Configurer des filtres d’état de document pour Cloud Service](./install-conf-guide/conf-doc-state-filters.md)
    - Configuration des paramètres de Workspace {#workspace-configs}
-      - [Paramètres &#x200B;](./install-conf-guide/workspace-settings.md)
+      - [Paramètres Workspace](./install-conf-guide/workspace-settings.md)
    - Recherche AEM Assets {#aem-asset-search}
       - [Configuration de la recherche pour l’interface utilisateur d’AEM Assets](./install-conf-guide/conf-dita-search.md)
    - Paramètres de génération de sortie {#output-gen-config}
       - [Configurer les paramètres de génération de sortie](./install-conf-guide/conf-output-generation.md)
       - Configurer les paramètres de sortie du site AEM {#conf-aem-sites-output}
          - [Téléchargement et installation de modèles AEM Sites](./install-conf-guide/download-install-aem-sites-templates.md)
-         - [Instructions générales pour personnaliser les modèles de site AEM existants](./install-conf-guide/customize-existing-site-template.md)
-         - [Personnaliser une nouvelle sortie de site AEM](./install-conf-guide/customize-aem-site-output.md)
+         - [Instructions générales pour personnaliser les nouveaux modèles de site AEM](./install-conf-guide/customize-existing-site-template.md)
+         - [Personnaliser une sortie de site AEM existante](./install-conf-guide/customize-aem-site-output.md)
          - [Personnaliser le mappage des éléments DITA avec les composants AEM pour la sortie héritée du site AEM](./install-conf-guide/customize-dita-element-mapping-aem-components.md)
          - [Recouvrez les balises HTML dans la sortie AEM Sites pour On-Premise.](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
          - [Configurer des noms de fichiers valides pour la sortie du site AEM](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
@@ -727,7 +727,7 @@ ht-degree: 9%
    - [Gestionnaire d’événements d’activation en bloc terminée](./api-reference/bulk-activation-complete-event.md)
    - [Gestionnaire d&#39;événements de processus de conversion](./api-reference/conversion-complete-event.md)
    - [Créer un projet de traduction](./api-reference/translation-project.md)
-- Base de connaissances {#knowledge-base}
+- Knowledge Base {#knowledge-base}
    - Session d’experts {#expert-session}
       - [Présentation de la session d’experts](./knowledge-base/expert-sessions/expert-session.md)
       - [Traduction du contenu](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
