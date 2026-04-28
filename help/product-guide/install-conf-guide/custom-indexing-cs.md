@@ -24,7 +24,7 @@ Avant de poursuivre le déploiement de l’index, vérifiez que vous disposez de
 
 - **Environnement** avec AEM Guides installé
 - **Accès à la base de code de votre projet** (référentiel Git)
-- Accès à **** avec autorisations de déploiement
+- Accès à **&#x200B;**&#x200B;avec autorisations de déploiement
 
 ## Définition de l’index
 
