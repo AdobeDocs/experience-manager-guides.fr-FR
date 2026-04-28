@@ -5,11 +5,10 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: f17a2e02-62de-4ed6-8d1f-4c72e7488437
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 2%
+source-wordcount: '1752'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +23,7 @@ Effectuez les étapes suivantes pour migrer votre contenu de la version 4.6.0 Se
 >   1. Fermeture de tous les avis actifs.
 >   1. A fermé toutes les tâches de traduction.
 > * Avant de migrer le contenu vers le serveur UUID, assurez-vous de disposer d’un serveur non UUID sur lequel est installé une version d’AEM Guides compatible.
-> * Si vous utilisez une version antérieure au pack de services 4.6.0, vous devez d’abord effectuer la mise à niveau vers le pack de services 4.6.0. Suivez les [&#x200B; instructions de mise à niveau](./upgrade-xml-documentation.md) spécifiques à la version sous licence de votre produit.
+> * Si vous utilisez une version antérieure au pack de services 4.6.0, vous devez d’abord effectuer la mise à niveau vers le pack de services 4.6.0. Suivez les [ instructions de mise à niveau](./upgrade-xml-documentation.md) spécifiques à la version sous licence de votre produit.
 > * Si vous utilisez un pack de services spécifique publié après le pack de services 4.6.0, vous devez désinstaller ce pack de services et revenir au pack de services 4.6.0.
 
 ## Installation du package
@@ -167,7 +166,7 @@ Pour plus d’informations, voir [purger les anciennes versions](../install-guid
 
 | Résumé à l’issue du processus | Comment interpréter ? | Action |
 |---|---|---|
-| Nombre total de fichiers : 488 | Nombre total de fichiers traités dans l’ensemble de dossiers donné. | N/A |
+| Nombre total de fichiers : 488 | Nombre total de fichiers traités dans l’ensemble de dossiers donné. | S/O |
 | Nombre de fichiers migrés : 488 | Nombre de fichiers migrés avec succès vers UUID. | S/O |
 | Nombre de fichiers ignorés : 0 | Certains fichiers du référentiel de gestion des ressources numériques peuvent comporter des sous-ressources, lesquelles sont ignorées car elles ne sont pas éligibles à la migration UUID. | S/O |
 | Nombre de fichiers n&#39;ayant pas pu être mis à niveau : 0 | Si le nombre n’est pas égal à 0, les journaux doivent être analysés pour détecter d’éventuels problèmes. | Vérifiez l’exception, vous devrez peut-être corriger l’erreur et réexécuter la migration. |
@@ -221,4 +220,4 @@ De plus, une liste des **Fichiers mis à niveau avec des erreurs** et des **Fich
    > Si, avant la migration, la propriété **Utiliser le titre pour les noms de page du site AEM** dans `com.adobe.fmdita.config.ConfigManager`, définie sur *False*, après la migration, cette propriété doit être mise à jour.
 
 
-1. Une fois la validation terminée, la majeure partie de l’espace disque peut être récupérée en exécutant la compression (voir la section `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=fr`).
+1. Une fois la validation terminée, la majeure partie de l’espace disque peut être récupérée en exécutant la compression (voir la section `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).

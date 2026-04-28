@@ -5,10 +5,9 @@ exl-id: 8d09ab89-4be5-49f1-9831-9f01c92dc472
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -46,4 +45,4 @@ Pour configurer les éléments avec un identifiant généré automatiquement, pr
 1. Cliquez sur **Enregistrer**.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)

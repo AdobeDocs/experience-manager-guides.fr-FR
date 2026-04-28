@@ -5,11 +5,10 @@ exl-id: d83fc1a9-0822-47f0-8099-22a74b9ced2a
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 0%
+source-wordcount: '374'
+ht-degree: 4%
 
 ---
 
@@ -19,7 +18,7 @@ AEM Guides offre une puissante fonctionnalité de publication d’articles inté
 
 Pour créer un site AEM en vue de publier une sortie basée sur des articles, procédez comme suit :
 
-1. Téléchargez le package de contenu de composants XML Documentation **pour Cloud Service** à partir de votre portail de distribution de logiciels Adobe [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
+1. Téléchargez le package de contenu de composants XML Documentation **pour Cloud Service** à partir de votre portail de distribution de logiciels Adobe [](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
 1. Ouvrez le gestionnaire de packages AEM. L’URL par défaut pour accéder au gestionnaire de packages est : `https://<hostname>/crx/packmgr/index.jsp`
 1. Téléchargez le package de contenu des composants XML Documentation pour Cloud Service, puis installez-le.
 1. Téléchargez le fichier `Knowledge-base-template-for-article-based-publishing-for-cloud-service.zip` à partir du portail de distribution logicielle [Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
@@ -43,4 +42,4 @@ Pour créer un site AEM en vue de publier une sortie basée sur des articles, pr
 
 Vous pouvez utiliser le site AEM pour publier votre article à l’aide des paramètres prédéfinis de sortie de l’éditeur web.
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)

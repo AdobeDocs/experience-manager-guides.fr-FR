@@ -5,10 +5,9 @@ exl-id: 1e69d6f8-7baf-4189-bbbd-34cd0fec6634
 feature: Filename Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -17,4 +16,4 @@ ht-degree: 0%
 
 Tout comme la liste des caractères de nom de fichier valides autorisés pour les rubriques DITA, vous pouvez également configurer une liste de caractères de nom de fichier valides pour la sortie du site AEM. Voici quelques caractères connus qui ne sont pas autorisés dans une URL : ```'<>`@$```. Ces caractères sont configurés pour être automatiquement convertis en trait de soulignement « _ » lorsqu’ils sont trouvés lors de la génération de noms de fichiers de sortie du site AEM. La configuration qui vous permet de définir des caractères valides dans la sortie du site AEM est présente dans le lot `com.adobe.fmdita.common.SanitizeNodeNameImpl`. **Définissez le jeu de caractères interdits pour la publication sur AEM Sites** pour inclure les caractères que vous souhaitez remplacer par un trait de soulignement dans les noms de fichier de sortie du site AEM.
 
-**Rubrique parente :**&#x200B;[&#x200B; Configurer les noms de fichier](conf-file-names.md)
+**Rubrique parente :**[ Configurer les noms de fichier](conf-file-names.md)

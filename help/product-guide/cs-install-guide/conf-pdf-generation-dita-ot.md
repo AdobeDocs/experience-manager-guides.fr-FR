@@ -5,10 +5,9 @@ exl-id: 5b66fd3b-6450-49ce-b06e-d2d5bab37990
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -60,4 +59,4 @@ Pour activer l’ancienne génération PDF via le DITA-OT à partir du mode d’
 
 Après avoir effectué les étapes données ci-dessus, si vous choisissez le même profil de dossier dans les Préférences utilisateur dans l’éditeur web, vous verrez l’option de génération PDF dans le mode d’aperçu d’une rubrique.
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)

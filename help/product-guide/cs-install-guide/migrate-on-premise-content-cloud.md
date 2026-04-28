@@ -5,11 +5,10 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: da3a6f83-b21a-4b19-8b54-ee96f11e7c09
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 4%
+source-wordcount: '1034'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +23,7 @@ Cet article décrit un processus détaillé et détaillé pour migrer votre cont
 
 * Adobe Experience Manager 6.4 ou versions ultérieures
 * Experience Manager Guides doit être sur la version de l’UUID. Si vous utilisez une version non-UUID d’Adobe Experience Manager Guides, migrez d’abord vers UUID en suivant les étapes décrites dans la section [Migrer du contenu non-DITA](../install-guide/migrate-uuid-non-uuid.md).
-* Accès à **&#x200B;**&#x200B;pour l&#39;instance cloud dans laquelle vous souhaitez migrer le contenu
+* Accès à **** pour l&#39;instance cloud dans laquelle vous souhaitez migrer le contenu
 * La taille du référentiel prise en charge peut atteindre 20 To
 * Taille totale de l’index Lucene de 25 Go
 * La longueur d’un nom de nœud doit être inférieure à 150 octets
@@ -32,18 +31,18 @@ Cet article décrit un processus détaillé et détaillé pour migrer votre cont
 
 ## Processus de migration
 
-Développé par **l’**&#x200B;outil de transfert de contenu est utilisé pour lancer la migration de contenu existant entre une instance source Adobe Experience Manager On-premise ou Managed Services et l’instance cible Experience Manager Cloud Service.
+Développé par **l’**outil de transfert de contenu est utilisé pour lancer la migration de contenu existant entre une instance source Adobe Experience Manager On-premise ou Managed Services et l’instance cible Experience Manager Cloud Service.
 Cet outil transfère également automatiquement les entités principales (utilisateurs, utilisatrices ou groupes).
 
 Vous pouvez télécharger l’**outil de transfert de contenu** sous la forme d’un fichier ZIP à partir du portail **Distribution logicielle** :
 
-1. Sélectionnez l’onglet **&#x200B;**&#x200B;sur le portail **Distribution logicielle**.
+1. Sélectionnez l’onglet **** sur le portail **Distribution logicielle**.
 1. Recherchez **Outil de transfert de contenu**.
 1. Sélectionnez **Outil de transfert de contenu** dans la liste et téléchargez-le.
 
-![télécharger l’outil de transfert de contenu](./assets/content-transfer-tool-software-portal.png)
+outil de transfert de contenu ![download)](./assets/content-transfer-tool-software-portal.png)
 Installez ensuite le package via **Gestionnaire de packages** sur votre instance Adobe Experience Manager source. Veillez à télécharger la dernière version.
-Pour plus d’informations sur la dernière version, voir [Notes de mise à jour](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=fr).
+Pour plus d’informations sur la dernière version, voir [Notes de mise à jour](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en).
 
 >[!NOTE]
 > 
@@ -57,11 +56,11 @@ Pour migrer le contenu Experience Manager Guides vers Experience Manager as a cl
 
 1. Connectez-vous à [experience.adobe.com](https://experience.adobe.com/) et sélectionnez **Experience Manager**.
 
-   ![experience manager &#x200B;](./assets/migration-experience-manager.png)
+   ![experience manager ](./assets/migration-experience-manager.png)
 
 
 1. Cliquez sur **Launch** sur la mosaïque **Cloud Acceleration Manager**.
-   ![&#x200B; cloud acceleration manager &#x200B;](./assets/migration-experience-manager-cloud.png)
+   ![ cloud acceleration manager ](./assets/migration-experience-manager-cloud.png)
 
 1. Créez votre premier projet.
    ![créer un projet](./assets/migration-cloud-create-project.png)
@@ -72,7 +71,7 @@ Pour migrer le contenu Experience Manager Guides vers Experience Manager as a cl
 
    ![Vérifier le transfert de contenu](./assets/migration-content-transfer-review.png)
 
-1. Cliquez sur **Créer un jeu de migration**.
+1. Cliquez sur **Créer un ensemble de migration**.
 
 1. Indiquez le nom et la description du jeu de migration.
 
@@ -86,7 +85,7 @@ Pour migrer le contenu Experience Manager Guides vers Experience Manager as a cl
 1. Cliquez sur **Copier dans le presse-papiers**. Créez votre premier projet.
    ![clé d’extraction](./assets/migration-copy-to-clipboard.png)
 
-1. Sélectionnez **&#x200B;**&#x200B;dans la partie supérieure, puis sélectionnez la mosaïque **Distribution logicielle**.
+1. Sélectionnez **** dans la partie supérieure, puis sélectionnez la mosaïque **Distribution logicielle**.
    ![portail de distribution de logiciels](./assets/migration-software-portal.png)
 
 
@@ -109,7 +108,7 @@ Pour migrer le contenu Experience Manager Guides vers Experience Manager as a cl
    ![](./assets/migration-create-migration-set.png)
 
 1. Indiquez le chemin d’accès à migrer et cliquez sur **Enregistrer**.
-Par exemple, `/content/sites`
+Par exemple :  `/content/sites`
 ou
    `/content/dam/tech-docs`
    ![chemins inclus](./assets/migration-included-paths.png)
@@ -118,7 +117,7 @@ ou
 
    >[!NOTE]
    >
-   > Vous devez migrer les chemins d’accès suivants de manière obligatoire pour le contenu **&#x200B;**.
+   > Vous devez migrer les chemins d’accès suivants de manière obligatoire pour le contenu ****.
 
    * `/content/dam`
    * `/var/dxml`
@@ -131,7 +130,7 @@ ou
 
 1. Cliquer sur **Enregistrer**
 1. Sélectionnez le **jeu de migration** puis sélectionnez **Extraire** dans la partie supérieure.
-   ![&#x200B; d’extraction du jeu de migration](./assets/migration-extract.png)
+   ](./assets/migration-extract.png) d’extraction du jeu de migration![
 
 1. Vérifiez les détails des chemins et des configurations que vous avez sélectionnés dans la fenêtre contextuelle **Extraction du jeu de migration**, puis cliquez sur **Extraire**. L’extraction prendra minutes et vous verrez le statut comme mis à jour.
    ![extraction du jeu de migration](./assets/migration-set-extraction.png)
@@ -150,7 +149,7 @@ Pour plus d’informations, sélectionnez les trois points, puis sélectionnez *
 
 1. Sélectionnez le jeu de migration, sélectionnez le serveur requis de votre environnement, puis cliquez sur **Ingérer**.
 
-   ![nouvelle ingestion &#x200B;](./assets/migration-new-ingestion.png)
+   ![nouvelle ingestion ](./assets/migration-new-ingestion.png)
 
 ## Exécution de l’outil de transfert de contenu sur une instance de publication
 

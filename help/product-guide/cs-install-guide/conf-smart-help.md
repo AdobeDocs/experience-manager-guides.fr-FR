@@ -2,10 +2,9 @@
 title: Configuration de l’aide dynamique pour rechercher du contenu
 description: Découvrez comment configurer l’aide dynamique pour rechercher du contenu.
 exl-id: b5836c02-027e-459a-a7f0-f7d631f999dc
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -22,27 +21,27 @@ Pour créer des configurations IMS dans Adobe Developer Console, procédez comme
 >
 >Si vous avez déjà créé un projet OAuth pour configurer la fonctionnalité de suggestions intelligentes ou la publication basée sur un microservice, vous pouvez ignorer les étapes suivantes pour créer le projet. Vous pouvez commencer par l’étape 8.
 
-1. Lancer [&#128279;](https://developer.adobe.com/console).
+1. Lancer [](https://developer.adobe.com/console).
 1. Une fois la connexion à Developer Console établie, l’écran **Accueil** s’affiche. L’écran **Accueil** vous permet de trouver facilement des informations et des liens rapides, y compris des liens de navigation supérieure vers les projets et les téléchargements.
 1. Pour créer un projet vide, sélectionnez **Créer un projet** parmi les liens **Démarrage rapide**.
-   ![Liens de démarrage rapide](assets/conf-ss-quick-start.png) {width="550" align="left"}
+   ![Liens de démarrage rapide ](assets/conf-ss-quick-start.png) {width="550" align="left"}
    *Créer un projet.*
 
 1. Sélectionnez **Ajouter une API** dans l’écran **Projets**.  L’écran **Ajouter une API** s’affiche. Cet écran affiche tous les API, événements et services disponibles pour les produits et technologies Adobe avec lesquels vous pouvez développer des applications.
 
 1. Sélectionnez l’**API I/O Management** pour l’ajouter à votre projet.
-   ![API IO Management](assets/confi-ss-io-management.png)
+   API ![IO Management](assets/confi-ss-io-management.png)
    *Ajoutez l’API I/O Management à votre projet.*
 
 1. Créez des informations d’identification **OAuth** et enregistrez-les.
-   ![&#x200B; Mosaïque d’informations d’identification OAuth dans la configuration de l’API &#x200B;](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
+   ![ Mosaïque d’informations d’identification OAuth dans la configuration de l’API ](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
    *Configurer les informations d’identification OAuth dans votre API.*
 
 1. Dans l’onglet **Projets**, choisissez l’option **OAuth de serveur à serveur** puis sélectionnez les informations d’identification nouvellement créées.
 
 1. Cliquez sur le lien **OAuth de serveur à serveur** pour afficher les informations d’identification de votre projet.
 
-   ![&#x200B; informations d’identification connectées &#x200B;](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
+   ![ informations d’identification connectées ](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
 
    *Connectez-vous au projet pour afficher les informations d’identification.*
 

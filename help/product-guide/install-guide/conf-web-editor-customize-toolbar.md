@@ -5,10 +5,9 @@ exl-id: 14a82c7e-5c07-43a8-bd9e-b221d80f6d05
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
@@ -19,7 +18,7 @@ Par défaut, Web Editor est fourni avec les fonctions éditoriales les plus cour
 
 >[!NOTE]
 >
-> Lors de la migration de l’ancienne interface utilisateur vers la nouvelle interface utilisateur d’AEM Guides (applicable à partir des versions 2502 et 5.0 d’AEM Guides), les mises à jour apportées à `ui_config` doivent être converties en configurations d’interface utilisateur plus flexibles et modulaires. Ce framework permet d’adopter facilement des modifications dans editor_toolbar et d’autres widgets cibles, le cas échéant. Pour plus d’informations, consultez [Présentation de la configuration de l’interface utilisateur de conversion](https://experienceleague.adobe.com/fr/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> Lors de la migration de l’ancienne interface utilisateur vers la nouvelle interface utilisateur d’AEM Guides (applicable à partir des versions 2502 et 5.0 d’AEM Guides), les mises à jour apportées à `ui_config` doivent être converties en configurations d’interface utilisateur plus flexibles et modulaires. Ce framework permet d’adopter facilement des modifications dans editor_toolbar et d’autres widgets cibles, le cas échéant. Pour plus d’informations, consultez [Présentation de la configuration de l’interface utilisateur de conversion](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Vous pouvez personnaliser la barre d’outils de l’éditeur web de deux manières différentes :
 
@@ -50,7 +49,7 @@ Pour ajouter une fonctionnalité à la barre d’outils de l’éditeur web, pro
 
 1. Dans le fichier `ui_config.json`, ajoutez la définition de la nouvelle fonctionnalité dans la section des barres d’outils. En règle générale, vous pouvez créer un groupe de boutons de la barre d’outils et y ajouter un ou plusieurs boutons. Vous pouvez également ajouter un nouveau bouton de barre d’outils à un groupe de barres d’outils existant. Les informations suivantes sont requises pour créer un groupe de barre d’outils :
 
-   - **type:**&#x200B;Spécifiez `blockGroup` comme valeur `type`. Cette valeur indique que vous créez un groupe de blocs qui contiendrait un ou plusieurs groupes de barres d’outils.
+   - **type:**Spécifiez `blockGroup` comme valeur `type`. Cette valeur indique que vous créez un groupe de blocs qui contiendrait un ou plusieurs groupes de barres d’outils.
 
    - **extraclass:** Nom de la ou des classes séparées par un espace.
 
@@ -226,11 +225,11 @@ Effectuez les étapes suivantes pour supprimer toute fonctionnalité indésirabl
 1. Accédez au fichier `ui_config.json` et ouvrez-le dans le nœud `apps` pour le modifier.
 Le fichier `ui_config.json` comporte trois sections :
 
-- **toolbars:**   Cette section contient la définition de toutes les fonctionnalités disponibles dans la barre d’outils de l’éditeur, telles que Insérer/Supprimer une liste numérotée, \(fichier\) Fermer, Enregistrer, Commentaires, etc.
+- **toolbars :** cette section contient la définition de toutes les fonctionnalités disponibles dans la barre d’outils de l’éditeur, telles que Insérer/Supprimer une liste numérotée, \(fichier\) Fermer, Enregistrer, Commentaires, etc.
 
-- **raccourcis:**   Cette section contient la définition des raccourcis clavier affectés à une fonctionnalité particulière de l’éditeur.
+- **raccourcis clavier :** cette section contient la définition des raccourcis clavier affectés à une fonctionnalité particulière de l’éditeur.
 
-- **templates:**   Cette section contient la structure prédéfinie des éléments DITA que vous pouvez utiliser dans votre document. Par défaut, la section Modèles contient des définitions de modèle pour un paragraphe, un tableau simple, un tableau et des éléments de corps. Vous pouvez créer une définition de modèle pour n’importe quel élément en ajoutant une structure XML valide pour l’élément souhaité. Par exemple, si vous souhaitez ajouter un élément `p` avec chaque nouvel élément `li` dans une liste, vous pouvez ajouter le code suivant à la fin de la section modèles pour obtenir ce résultat :
+- **modèles :** cette section contient la structure prédéfinie des éléments DITA que vous pouvez utiliser dans votre document. Par défaut, la section Modèles contient des définitions de modèle pour un paragraphe, un tableau simple, un tableau et des éléments de corps. Vous pouvez créer une définition de modèle pour n’importe quel élément en ajoutant une structure XML valide pour l’élément souhaité. Par exemple, si vous souhaitez ajouter un élément `p` avec chaque nouvel élément `li` dans une liste, vous pouvez ajouter le code suivant à la fin de la section modèles pour obtenir ce résultat :
 
 ```HTML
 "li": "<li><p></p></li>"
@@ -241,4 +240,4 @@ Le fichier `ui_config.json` comporte trois sections :
 1. Enregistrez le fichier *ui\_config.json* et rechargez l’éditeur web.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)

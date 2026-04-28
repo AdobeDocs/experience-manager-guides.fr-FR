@@ -4,9 +4,8 @@ description: Découvrez les fonctionnalités de l’éditeur dans Adobe Experien
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-hidefromtoc: true
 hide: true
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '18790'
 ht-degree: 0%
@@ -71,7 +70,7 @@ Un outil puissant et piloté par l’IA conçu pour améliorer votre productivit
 
 **Autres actions** : vous permet d’accéder à **Assets** et **Paramètres**.
 
-L’option **Assets** vous dirige vers une destination en fonction de votre configuration :
+L’option **** vous dirige vers une destination en fonction de votre configuration :
 
 - **Services cloud** : si vous utilisez des services cloud, la sélection de l’option **Assets** vous conduit à la page de navigation d’AEM.
 
@@ -88,40 +87,40 @@ L’option **Paramètres** est disponible uniquement pour les administrateurs et
 
   ![](images/editor-setting-general.png){width="650" align="left"}
 
-   - **Vérification orthographique** : il existe deux options : **Vérification orthographique AEM** et **Vérification orthographique du navigateur**. Par défaut, l’éditeur utilise la fonction de vérification orthographique du navigateur , où la vérification orthographique est effectuée à l’aide du dictionnaire intégré du navigateur. Vous pouvez passer à la vérification orthographique d’AEM pour utiliser le dictionnaire Adobe Experience Manager, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section [&#x200B; Personnaliser le dictionnaire par défaut d’AEM &#x200B;](../cs-install-guide/customize-aem-custom-dictionary.md) dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
+   - **Vérification orthographique** : il existe deux options : **Vérification orthographique AEM** et **Vérification orthographique du navigateur**. Par défaut, l’éditeur utilise la fonction de vérification orthographique du navigateur , où la vérification orthographique est effectuée à l’aide du dictionnaire intégré du navigateur. Vous pouvez passer à la vérification orthographique d’AEM pour utiliser le dictionnaire Adobe Experience Manager, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section [ Personnaliser le dictionnaire par défaut d’AEM ](../cs-install-guide/customize-aem-custom-dictionary.md) dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
 
    - **Condition**
 
-      - **Highlight conditional text in the Author view**: Select this to highlight the conditional text in the author view. Le contenu conditionnel est mis en surbrillance à l’aide de la couleur définie pour la condition.
+      - **Mettre en surbrillance le texte conditionnel en mode Création** : sélectionnez cette option pour mettre en surbrillance le texte conditionnel en mode Création. Le contenu conditionnel est mis en surbrillance à l’aide de la couleur définie pour la condition.
 
-      - **Validate with condition attributes**: Select this to allow the validation of the values defined for the attributes. Cela vous empêche d’ajouter une valeur incorrecte.
+      - **Valider avec des attributs de condition** : sélectionnez cette option pour permettre la validation des valeurs définies pour les attributs. Cela vous empêche d’ajouter une valeur incorrecte.
 
-      - **Show key with the title in the Subject Scheme panel**: Select this to show the keys along with titles in the subject scheme. Si vous ne sélectionnez pas cette option, seuls les titres s’affichent. Par exemple, les clés « os », « audience » et « other » sont également affichées avec les titres.
+      - **Afficher la clé avec le titre dans le panneau Schéma d’objet** : sélectionnez cette option pour afficher les clés ainsi que les titres dans le schéma d’objet. Si vous ne sélectionnez pas cette option, seuls les titres s’affichent. Par exemple, les clés « os », « audience » et « other » sont également affichées avec les titres.
 
         ![](images/subject-scheme-title.png){width="550" align="left"}
 
-      - **Show subject scheme in the Conditions panel**: Select this to view a subject scheme in the conditions panel. Si vous désélectionnez cette option, les conditions définies s’affichent dans le panneau Conditions .
+      - **Afficher le schéma d’objet dans le panneau Conditions** : sélectionnez cette option pour afficher un schéma d’objet dans le panneau Conditions. Si vous désélectionnez cette option, les conditions définies s’affichent dans le panneau Conditions .
 
    - **Création**
 
-      - **Enable Replace All**: Select this to view the **Replace All** icon in the **Find and replace** panel.
+      - **Activer tout remplacer** : sélectionnez cette option pour afficher l’icône **Tout remplacer** dans le panneau **Rechercher et remplacer**.
 
    - **Citations**
-Modifier le style des citations. Choisissez le style de citation dans la liste déroulante que vous souhaitez utiliser dans votre projet. For more details, view [Change citation styles](./web-editor-apply-citations.md#change-citation-style).
+Modifier le style des citations. Choisissez le style de citation dans la liste déroulante que vous souhaitez utiliser dans votre projet. Pour plus d’informations, voir [Modifier les styles de citation](./web-editor-apply-citations.md#change-citation-style).
 
-   - **AI Assistant**
-Select this to enable the [AI Assistant](./ai-assistant.md) feature in the Experience Manager Guides. Unselect to disable the feature.
+   - Assistant **AI**
+Sélectionnez cette option pour activer la fonctionnalité [Assistant IA](./ai-assistant.md) dans Experience Manager Guides. Désélectionnez cette option pour désactiver la fonction.
 
-**Panels**: This setting controls the panels that are shown in the left and right panels of the Editor and Map console. You can toggle the button to show or hide the desired panel.
+**Panneaux** : ce paramètre contrôle les panneaux affichés dans les panneaux gauche et droit de la console Éditeur et Carte. Vous pouvez activer/désactiver le bouton pour afficher ou masquer le panneau souhaité.
 
 ![](images/editor-setting-panel.png){width="650" align="left"}
 
-You can also define the order in which the features present in panels are displayed. To change the default order of the available features in the panels, select the dotted bars to drag and drop the feature tabs at the desired location. A feature can also be moved from the **More** section to the main section of a panel, and vice versa as per the requirement. Once re-ordered, the features appear in the same sequence in the respective right and left panel.
+Vous pouvez également définir l’ordre dans lequel les fonctionnalités présentes dans les panneaux sont affichées. Pour modifier l’ordre par défaut des fonctions disponibles dans les panneaux, sélectionnez les barres en pointillés afin de faire glisser et de déposer les onglets des fonctions à l’emplacement souhaité. Une fonction peut également être déplacée de la section **Plus** vers la section principale d’un panneau, et inversement, en fonction des besoins. Une fois réorganisées, les fonctions apparaissent dans la même séquence dans le panneau de droite et de gauche correspondant.
 
 ![](images/panels-screen.png){width="650" align="left"}
 
 
-A maximum of eight panels can be displayed at a time. Toutes les modifications apportées aux paramètres du panneau sont appliquées immédiatement.
+Vous pouvez afficher huit panneaux à la fois au maximum. Toutes les modifications apportées aux paramètres du panneau sont appliquées immédiatement.
 
 
 >[!NOTE]
@@ -166,10 +165,10 @@ Dans la capture d’écran suivante, seuls 3 des 4 éléments configurés de la 
             - Accès complet (complet)
             - Sélectionnez Gérer les données utilisateur via les API (api) .
 
-     Une fois l’application configurée, Salesforce fournit une **Clé du client** et **Secret du client**. These can be used to create the Salesforce profile.
+     Une fois l’application configurée, Salesforce fournit une **Clé du client** et **Secret du client**. Ils peuvent être utilisés pour créer le profil Salesforce.
 
 
-   - To create a Salesforce profile, select the **Salesforce** Knowledge Base from the **Server type** dropdown. Saisissez un nom de profil. Dans l’**URL du site**, saisissez le site client que vous utiliserez pour publier la sortie, puis ajoutez les **Clé du client** et **Secret du client** fournis par le site client Salesforce. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
+   - Pour créer un profil Salesforce, sélectionnez la base de connaissances **Salesforce** dans le menu déroulant **Type de serveur**. Saisissez un nom de profil. Dans l’**URL du site**, saisissez le site client que vous utiliserez pour publier la sortie, puis ajoutez les **Clé du client** et **Secret du client** fournis par le site client Salesforce. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
 
      ![profil de publication salesforce dans les paramètres de l’éditeur](./images/salesforce-publish-profile.png){width="550" align="left"}
 
@@ -178,7 +177,7 @@ Dans la capture d’écran suivante, seuls 3 des 4 éléments configurés de la 
      >Pour configurer un proxy pour Salesforce dans Experience Manager Guides, utilisez la configuration proxy de composants HTTP Apache dans AEM. Découvrez comment [configurer le proxy pour le Vérificateur de lien AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
-   - **Create a ServiceNow profile**
+   - **Créer un profil ServiceNow**
 
      **Conditions préalables**
 
@@ -191,13 +190,13 @@ Dans la capture d’écran suivante, seuls 3 des 4 éléments configurés de la 
 
       - Sélectionnez **Enregistrer**.
 
-     Once you have configured the app, create the **ServiceNow** profile.
+     Une fois que vous avez configuré l’application, créez le profil **ServiceNow**.
 
-   - To create a profile, select the ServiceNow Knowledge Base from the **Server type** dropdown. Saisissez un profil **Nom**. Dans l’URL **ServiceNow**, saisissez le site client que vous utiliseriez pour publier la sortie, puis ajoutez les **Nom d’utilisateur** et **Mot de passe** fournis par le site client ServiceNow. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
+   - Pour créer un profil, sélectionnez la base de connaissances ServiceNow dans le menu déroulant **Type de serveur**. Saisissez un profil **Nom**. Dans l’URL **ServiceNow**, saisissez le site client que vous utiliseriez pour publier la sortie, puis ajoutez les **Nom d’utilisateur** et **Mot de passe** fournis par le site client ServiceNow. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
 
-     ![Profil de publication ServiceNow &#x200B;](./images/service-now-publish-profile.png){width="550" align="left"}
+     ![Profil de publication ServiceNow ](./images/service-now-publish-profile.png){width="550" align="left"}
 
-  Après la validation, vous pouvez sélectionner le profil de publication dans les paramètres prédéfinis de sortie d&#39;un plan DITA et l&#39;utiliser pour générer la sortie vers le serveur **Salesforce** ou **ServiceNow** que vous avez choisi.
+  Après la validation, vous pouvez sélectionner le profil de publication dans les paramètres prédéfinis de sortie d&#39;un plan DITA et l&#39;utiliser pour générer la sortie vers le serveur **** ou **ServiceNow** que vous avez choisi.
 
   En savoir plus sur le paramètre prédéfini de sortie [Base de connaissances](../user-guide/generate-output-knowledge-base.md).
 
@@ -294,7 +293,7 @@ L’explication détaillée de ces fonctionnalités est la suivante :
 
 **Modification des actions**
 
-Lorsque vous modifiez une rubrique dans l’éditeur, accédez aux différentes actions d’édition telles que **Couper** ou ***Ctrl***+***X*** , **Copier** ou ***Ctrl***+***C*** , **Undo** ou ***Ctrl***+***Z*** ou **Ctrl**+***Y*** et ***Delete*** **&#x200B;**&#x200B;présentes dans la liste déroulante Menu .
+Lorsque vous modifiez une rubrique dans l’éditeur, accédez aux différentes actions d’édition telles que **Couper** ou ***Ctrl***+***X*** , **Copier** ou ***Ctrl***+***C*** , **Undo** ou ***Ctrl***+***Z*** ou **Ctrl**+***Y*** et ***Delete*** **** présentes dans la liste déroulante Menu .
 
 
 **Rechercher et remplacer**
@@ -324,7 +323,7 @@ Pour accéder à l’historique des versions et revenir à une version spécifiq
 
    La boîte de dialogue **Historique des versions** s’affiche.
 
-   ![&#x200B; Boîte de dialogue Historique des versions &#x200B;](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   ![ Boîte de dialogue Historique des versions ](images/version-history-dialog-web-editor.png){width="550" align="left"}
 
    *Prévisualiser les modifications dans les différentes versions d&#39;une rubrique.*
 
@@ -341,7 +340,7 @@ Pour accéder à l’historique des versions et revenir à une version spécifiq
 
    Onglet **Métadonnées** : les métadonnées nouvellement ajoutées sont dans la police verte et les métadonnées supprimées sont dans la police rouge.
 
-   ![Différence de métadonnées pour les versions &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
+   ![Différence de métadonnées pour les versions ](images/metadata-version-diff.png){width="550" align="left"}
 
    *Comparez les métadonnées de différentes versions dans l’historique des versions.*
 
@@ -899,9 +898,9 @@ Certaines des fonctionnalités du panneau de gauche sont disponibles dans la sec
 - [Révision](#review)
 
 
-Une option supplémentaire intitulée **Workfront** s’affiche également dans le panneau de gauche si Adobe Workfront est configuré.
+Une option supplémentaire intitulée **** s’affiche également dans le panneau de gauche si Adobe Workfront est configuré.
 
-Pour plus d’informations, consultez Intégration de [Workfront](./workfront-integration.md).
+Pour plus d’informations, consultez Intégration de [](./workfront-integration.md).
 
 >[!NOTE]
 >
@@ -969,26 +968,26 @@ Lorsque vous sélectionnez l’icône Référentiel , vous obtenez une liste de 
 >
 > En tant qu’administrateur, vous pouvez également choisir d’afficher la liste des fichiers par nom de fichier dans l’éditeur. Sélectionnez l’option **Nom de fichier** de la section **Configuration de l’affichage des fichiers de l’éditeur** dans **Préférences utilisateur**.
 
-75 fichiers sont chargés à la fois. Each time you select **Load more**… 75 files are loaded, and the button stops being displayed when all the files have been listed. Ce chargement par lots est efficace et vous pouvez accéder aux fichiers plus rapidement qu’avec le chargement de tous les fichiers existants dans un dossier.
+75 fichiers sont chargés à la fois. Chaque fois que vous sélectionnez **Charger plus**... 75 fichiers sont chargés et le bouton cesse d’être affiché lorsque tous les fichiers ont été répertoriés. Ce chargement par lots est efficace et vous pouvez accéder aux fichiers plus rapidement qu’avec le chargement de tous les fichiers existants dans un dossier.
 
-You can easily navigate to the required file within DAM and open it in the Editor. Si vous disposez de l’accès requis pour modifier le fichier, vous pouvez le faire.
+Vous pouvez facilement accéder au fichier requis dans la gestion des ressources numériques et l’ouvrir dans l’éditeur. Si vous disposez de l’accès requis pour modifier le fichier, vous pouvez le faire.
 
-You can also select and play an audio or video file in the Editor. Vous pouvez modifier le volume ou
+Vous pouvez également sélectionner et lire un fichier audio ou vidéo dans l’éditeur. Vous pouvez modifier le volume ou
 la vue de la vidéo. Dans le menu contextuel, vous avez également les options de téléchargement et de modification de la lecture
 vitesse ou afficher l&#39;image en image.
 
-Select a map and press Enter or double-click to open it in the **Map view**. For more details, view the **Map view** feature description in the [Left panel](#left-panel) section. Sélectionnez une rubrique et appuyez sur Entrée ou double-cliquez pour l&#39;ouvrir dans la zone [Modification du contenu](#content-editing-area). Being able to navigate and open a file directly from the Editor saves time and increases productivity.
+Sélectionnez une carte et appuyez sur Entrée ou double-cliquez pour l’ouvrir dans la **vue Carte**. Pour plus d’informations, consultez la description de la fonctionnalité **Vue Carte** dans la section [Panneau de gauche](#left-panel). Sélectionnez une rubrique et appuyez sur Entrée ou double-cliquez pour l&#39;ouvrir dans la zone [Modification du contenu](#content-editing-area). La possibilité de naviguer et d’ouvrir un fichier directement depuis l’éditeur permet de gagner du temps et d’augmenter la productivité.
 
-**Filter Search in Repository**
+**Filtrer la recherche dans le référentiel**
 
-The Editor provides enhanced filters for searching text. Vous pouvez rechercher et filtrer du texte dans les fichiers présents sur le chemin d’accès sélectionné du référentiel Adobe Experience Manager. Elle effectue une recherche dans le titre, le nom de fichier et le contenu des fichiers.
+L’éditeur fournit des filtres améliorés pour la recherche de texte. Vous pouvez rechercher et filtrer du texte dans les fichiers présents sur le chemin d’accès sélectionné du référentiel Adobe Experience Manager. Elle effectue une recherche dans le titre, le nom de fichier et le contenu des fichiers.
 
 
 ![Recherche de fichiers dans la vue du référentiel](images/repository-filter-search.png){width="300" align="left"}
 
 *Appliquez des filtres pour rechercher les fichiers contenant le`personal spaceship.`* de texte
 
-Select the **Filter Search** \(![Search filter icon](images/filter-search-icon.svg)\) icon to open the Filter pop-up.
+Sélectionnez l’icône **Filtrer la recherche** \(![Icône Filtrer la recherche](images/filter-search-icon.svg)\) pour ouvrir le pop-up Filtre .
 
 >[!NOTE]
 >
@@ -1010,7 +1009,7 @@ Sélectionnez l’icône **Filtrage avancé** ![icône de filtre avancé](images
 
 Vous pouvez afficher les options suivantes sous les onglets **Général** et **Avancé**.
 
-![&#x200B; boîte de dialogue filtre avancé &#x200B;](images/repository-filter-search-advanced.png) {width="650" align="left"}
+![ boîte de dialogue filtre avancé ](images/repository-filter-search-advanced.png) {width="650" align="left"}
 
 
 **Général**
@@ -1044,38 +1043,38 @@ Outre l’ouverture de fichiers à partir du panneau de gauche, vous pouvez éga
 
 **Options d’un dossier**
 
-You can perform the following actions using the Options menu available for a *folder* in the Repository view:
+Vous pouvez effectuer les actions suivantes à l’aide du menu Options disponible pour un *dossier* dans la vue Référentiel :
 
 ![](images/options-menu-folder_cs.PNG){width="550" align="left"}
 
 
-- **New**: Create a new DITA topic, DITA map, or a folder.
+- **Nouveau** : créez une rubrique DITA, un plan DITA ou un dossier.
 
-  Steps to create a new topic:
-   1. Select **New** > **Topic**.
-   2. The **New topic** dialog box is displayed.
+  Procédure à suivre pour créer une rubrique :
+   1. Sélectionnez **Nouveau** > **Sujet**.
+   2. La boîte de dialogue **Nouvelle rubrique** s&#39;affiche.
 
       ![](images/create-topic-dialog.png){width="300" align="left"}
 
-   3. In the **New topic** dialog box, provide the following details:
+   3. Dans la boîte de dialogue **Nouvelle rubrique**, fournissez les détails suivants :
       - Titre de la rubrique.
-      - \(Optional\)* The file name for the topic. Le nom du fichier est suggéré automatiquement en fonction du titre de la rubrique. In case your administrator has enabled automatic file names based on UUID setting, then you will not view the Name field.
-      - Modèle sur lequel la rubrique sera basée. For example, for an out-of-the-box setup, you can choose from the Blank, Concept, DITAVAL, Reference, Task, Topic, Markdown, Glossary, and Troubleshooting templates. If your folder has a Folder Profile configured on it, then you will view only those topic templates that are configured on the Folder profile.
+      - \(Facultatif\)* Nom de fichier de la rubrique. Le nom du fichier est suggéré automatiquement en fonction du titre de la rubrique. Si votre administrateur a activé les noms de fichiers automatiques en fonction du paramètre UUID, vous ne verrez pas le champ Nom .
+      - Modèle sur lequel la rubrique sera basée. Par exemple, pour une configuration prête à l’emploi, vous pouvez choisir parmi les modèles Vierge, Concept, DITAVAL, Référence, Tâche, Rubrique, Markdown, Glossaire et Dépannage. Si un profil de dossier est configuré sur votre dossier, seuls les modèles de rubrique configurés sur le profil de dossier sont affichés.
 
       - Chemin d’accès où enregistrer le fichier de rubrique. Par défaut, le chemin du dossier actuellement sélectionné dans le référentiel s’affiche dans le champ Chemin .
 
-   4. Sélectionnez **Créer**. The topic is created at the specified path. Also, the topic is opened in the Editor for editing.
+   4. Sélectionnez **Créer**. La rubrique est créée au chemin d’accès spécifié. En outre, la rubrique est ouverte dans l’éditeur pour modification.
 
-  Steps to create a new DITA map:
+  Procédure à suivre pour créer un plan DITA :
 
-   1. Select **New** > **DITA map**.
-   2. The **New map** dialog box is displayed.
+   1. Sélectionnez **Nouveau** > **Plan DITA**.
+   2. La boîte de dialogue **Nouvelle carte** s’affiche.
 
       ![](images/create-map-dialog.png){width="300" align="left"}
 
-   3. In the **New map** dialog box, provide the following details:
-      - A Title for the map.
-      - *\(Facultatif\)* Nom de fichier du mappage. The file name is auto-suggested based on the map title. Si votre administrateur a activé les noms de fichiers automatiques en fonction du paramètre UUID, vous ne verrez pas le champ Nom .
+   3. Dans la boîte de dialogue **Nouveau mappage**, fournissez les détails suivants :
+      - Titre de la carte.
+      - *\(Facultatif\)* Nom de fichier du mappage. Le nom du fichier est suggéré automatiquement en fonction du titre du mappage. Si votre administrateur a activé les noms de fichiers automatiques en fonction du paramètre UUID, vous ne verrez pas le champ Nom .
       - Un modèle sur lequel la carte sera basée. Par exemple, pour une configuration prête à l&#39;emploi, vous pouvez choisir parmi les modèles Bookmap ou DITA map.
       - Chemin où enregistrer le fichier de mappage. Par défaut, le chemin du dossier actuellement sélectionné dans le référentiel s’affiche dans le champ Chemin .
    4. Sélectionnez **Créer**. La carte est créée et ajoutée dans le dossier spécifié dans le champ Chemin d’accès . En outre, la carte est ouverte en mode Carte. Vous pouvez ouvrir le fichier de mappage dans l’éditeur de mappages et y ajouter une rubrique. Pour plus d’informations sur l’ajout de rubriques à un fichier de mappage, voir [Créer un mappage](map-editor-create-map.md#). Vous pouvez également sélectionner **Ouvrir dans la console de mappage** pour ouvrir la carte dans la console de mappage.
@@ -1543,7 +1542,7 @@ Dans la liste Attribut , sélectionnez l’attribut conditionnel à définir, sa
 
 Vous pouvez regrouper les conditions et les structurer dans des dossiers imbriqués. Les groupes vous aident à créer des conditions à plusieurs niveaux et à mieux les organiser pour les utiliser dans le contenu.
 
-Par exemple, vous pouvez créer des groupes de conditions de produits tels que *Acrobat* et *AEM Guides*. Vous pouvez sélectionner les attributs conditionnels pour les deux groupes. Sous chaque groupe, vous pouvez avoir des valeurs spécifiques telles que *Utilisateur*, *Administrateur*, *Réviseur* et *Auteur*.
+Par exemple, vous pouvez créer des groupes de conditions de produits tels que ** et *AEM Guides*. Vous pouvez sélectionner les attributs conditionnels pour les deux groupes. Sous chaque groupe, vous pouvez avoir des valeurs spécifiques telles que *Utilisateur*, *Administrateur*, *Réviseur* et *Auteur*.
 
 >[!NOTE]
 >
@@ -1572,7 +1571,7 @@ Experience Manager Guides prend également en charge les mappages de schéma d&#
 
 L&#39;exemple suivant montre comment utiliser le schéma d&#39;objet dans Experience Manager Guides.
 
-1. Create a subject scheme file in a tool of your choice. The following XML code creates subject scheme that binds values for the `platform` attribute.
+1. Créez un fichier de schéma d&#39;objet dans un outil de votre choix. Le code XML suivant crée un schéma d’objet qui lie les valeurs de l’attribut `platform`.
 
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -1605,30 +1604,30 @@ L&#39;exemple suivant montre comment utiliser le schéma d&#39;objet dans Experi
 
 ![](images/subject-scheme-panel-new.png){width="300" align="left"}
 
-1. Save the file with a.ditamap extension and upload it to any folder in DAM.
+1. Enregistrez le fichier avec l’extension a.ditamap et chargez-le dans n’importe quel dossier de la gestion des ressources numériques.
 
    >[!NOTE]
    >
-   > You can add a reference to the subject scheme file in the parent DITA map.
+   > Vous pouvez ajouter une référence au fichier de schéma d&#39;objet dans le plan DITA parent.
 
    ![](images/subject-scheme-root-map-new.png){width="550" align="left"}
 
-1. Set the parent map as the root map in the **User preferences**. Once this map is added as your root map, the subject scheme is then shown in the Subject scheme panel.
+1. Définissez le mappage parent comme mappage racine dans les **Préférences utilisateur**. Une fois que cette carte est ajoutée en tant que carte racine, le schéma d&#39;objet est affiché dans le panneau Schéma d&#39;objet .
 
    ![](images/subject-scheme-user-preferences-new.png){width="650" align="left"}
 
 
-1. In the Editor, open the file where you want to use the subject scheme definitions.
-1. Apply the subject scheme to your content by simply dragging and dropping the desired subject scheme onto your content. The content is then highlighted in the defined color.
+1. Dans l&#39;éditeur, ouvrez le fichier dans lequel vous souhaitez utiliser les définitions de schéma d&#39;objet.
+1. Appliquez le schéma d’objet à votre contenu en faisant simplement glisser et en déposant le schéma d’objet souhaité sur votre contenu. Le contenu est ensuite mis en surbrillance dans la couleur définie.
 
 
 
 
-**Handling hierarchical definitions of subject definitions and enumerations**
+**Gestion des définitions hiérarchiques des objets et des énumérations**
 
-Besides handling the enumerations and the subject definitions present in the same map, Experience Manager Guides also provides the feature to define enumerations and subject definitions in two separate maps. You can define one or more subject definitions in a map and the enumeration definitions in another map and then add the map reference. For example, the following XML code creates subject definitions and enumeration definitions in two separate maps.
+En plus de gérer les énumérations et les définitions d’objet présentes dans le même mappage, Experience Manager Guides offre également la possibilité de définir des énumérations et des définitions d’objet dans deux mappages distincts. Vous pouvez définir une ou plusieurs définitions d’objet dans un mappage et les définitions d’énumération dans un autre mappage, puis ajouter la référence de mappage. Par exemple, le code XML suivant crée des définitions d’objet et d’énumération dans deux mappages distincts.
 
-The subject definitions are defined in `subject_scheme_map_1.ditamap`
+Les définitions des objets sont définies dans `subject_scheme_map_1.ditamap`
 
 
 ```XML
@@ -1673,7 +1672,7 @@ The subject definitions are defined in `subject_scheme_map_1.ditamap`
     </subjectScheme>
 ```
 
-The enumeration definition is present in    subject_scheme_map_2.ditamap.
+La définition de l’énumération est présente dans subject_schema_map_2.ditamap.
 
 ```XML
 <?xml version="1.0" encoding="UTF-8"?> 
@@ -1693,7 +1692,7 @@ The enumeration definition is present in    subject_scheme_map_2.ditamap.
         </subjectScheme>
 ```
 
-Here subject definitions are defined in `subject_scheme_map_1.ditamap`  while the enumeration def is present in `subject_scheme_map_2.ditamap`. The reference to `subject_scheme_map_1.ditamap` is also added in `subject_scheme_map_2.ditamap`.
+Ici, les définitions d’objet sont définies dans `subject_scheme_map_1.ditamap` tandis que la définition d’énumération est présente dans `subject_scheme_map_2.ditamap`. La référence à `subject_scheme_map_1.ditamap` est également ajoutée dans `subject_scheme_map_2.ditamap`.
 
 >[!NOTE]
 >
@@ -1709,7 +1708,7 @@ Les références ne sont pas résolues si l’énumération n’est pas trouvée
 
 **Restreindre les valeurs à un élément spécifique**
 
-You can also restrict the conditions to some elements within a topic. Utilisez la balise `<elementdef>` pour définir l’élément et la balise `<attributedef>` pour définir la condition qui peut être appliquée à l’élément.  Si vous n’ajoutez pas la balise `<elementdef>`, vous pouvez appliquer les conditions à tous les éléments.
+Vous pouvez également limiter les conditions à certains éléments d’une rubrique. Utilisez la balise `<elementdef>` pour définir l’élément et la balise `<attributedef>` pour définir la condition qui peut être appliquée à l’élément.  Si vous n’ajoutez pas la balise `<elementdef>`, vous pouvez appliquer les conditions à tous les éléments.
 Par exemple, utilisez l’énumération suivante pour limiter l’attribut `@platform` à l’élément `<shortdesc>`.  Les autres conditions sont visibles pour tous les éléments.
 
 ```XML
@@ -1739,7 +1738,7 @@ Effectuez les étapes suivantes pour modifier la valeur :
 
 Vous pouvez également appliquer des valeurs à un attribut en sélectionnant plusieurs valeurs dans la liste déroulante.
 
-Vue Source **&#x200B;**
+Vue Source ****
 
 Vous pouvez également modifier les valeurs à partir de la liste déroulante de l’attribut dans la vue Source. La vue Source vous empêche également d’ajouter une valeur incorrecte.
 
@@ -1809,24 +1808,24 @@ Pour savoir comment créer des modèles personnalisés, consultez la section [Cr
 
 ### Citations
 
-In Experience Manager Guides, you can add and import citations and apply them to your content. Vous pouvez ajouter ces citations à partir de n’importe quelle source de livres, de sites web et de revues.
+Dans Experience Manager Guides, vous pouvez ajouter et importer des citations et les appliquer à votre contenu. Vous pouvez ajouter ces citations à partir de n’importe quelle source de livres, de sites web et de revues.
 
-For details, view [Add and manage citations in your content](./web-editor-apply-citations.md).
+Pour plus d’informations, consultez la section [ Ajouter et gérer des citations dans votre contenu ](./web-editor-apply-citations.md).
 
 ### Variables de langue
 
-Experience Manager Guides provides the feature to use language variables in the Native PDF output. You can use language variables to define localized strings in the PDF output or to localize any static text in the output templates. You can use CSS styles to localize the strings coming from a CSS.
+Experience Manager Guides permet d’utiliser des variables de langue dans la sortie Native PDF. Vous pouvez utiliser des variables de langue pour définir des chaînes localisées dans la sortie PDF ou pour localiser du texte statique dans les modèles de sortie. Vous pouvez utiliser des styles CSS pour localiser les chaînes provenant d’un fichier CSS.
 
-For details, view [Support for language variables](../native-pdf/native-pdf-language-variables.md).
+Pour plus d’informations, consultez la section [Prise en charge des variables de langue](../native-pdf/native-pdf-language-variables.md).
 
 ### Variables
 
-Experience Manager Guides allows you to create and manage variables for Native PDF publishing. For details, view [Variables in the PDF output](../native-pdf/native-pdf-variables.md).
+Experience Manager Guides vous permet de créer et de gérer des variables pour la publication native de PDF. Pour plus d’informations, consultez [Variables dans la sortie PDF](../native-pdf/native-pdf-variables.md).
 
 
 ### Rechercher et remplacer
 
-The Find and replace icon is located at the bottom of the left panel. The Find and replace panel allows you to search for and replace text across files in a map or a folder within your repository. Vous pouvez trouver et remplacer dans toutes les rubriques d&#39;une carte ainsi que les rubriques présentes dans les sous-cartes de la carte.
+L’icône Rechercher et remplacer se trouve au bas du panneau de gauche. Le panneau Rechercher et remplacer vous permet de rechercher et de remplacer du texte dans les fichiers d’un mappage ou d’un dossier de votre référentiel. Vous pouvez trouver et remplacer dans toutes les rubriques d&#39;une carte ainsi que les rubriques présentes dans les sous-cartes de la carte.
 
 ![](images/map-find-replace.png){align="left"}
 
@@ -1834,12 +1833,12 @@ Par défaut, vous pouvez afficher les fichiers par titres. Pointez sur un fichie
 
 >[!NOTE]
 >
-> As an administrator, you can also choose to view the list of filenames in the Editor. Sélectionnez l’option **Nom de fichier** de la section **Configuration de l’affichage des fichiers de l’éditeur** dans **Préférences utilisateur**.
+> En tant qu’administrateur, vous pouvez également choisir d’afficher la liste des noms de fichier dans l’éditeur. Sélectionnez l’option **Nom de fichier** de la section **Configuration de l’affichage des fichiers de l’éditeur** dans **Préférences utilisateur**.
 
 Pour effectuer la recherche globale et le remplacement, procédez comme suit :
 
-1. Open the global **Find and replace** panel.
-1. Select the **Look into** dropdown and select one of the following options to perform the search.
+1. Ouvrez le panneau global **Rechercher et remplacer**.
+1. Sélectionnez la liste déroulante **Rechercher dans** et sélectionnez l’une des options suivantes pour effectuer la recherche.
 
    - **Carte actuelle** : pour effectuer une recherche dans la carte actuellement ouverte.
 
@@ -1850,7 +1849,7 @@ Pour effectuer la recherche globale et le remplacement, procédez comme suit :
    - **Chemin** : pour effectuer une recherche sur le chemin sélectionné
    - **Sélectionner une carte** : pour effectuer une recherche dans la carte sélectionnée
 
-1. You can use the **Options** dropdown and choose from the following options:
+1. Vous pouvez utiliser la liste déroulante **Options** et choisir parmi les options suivantes :
 
    - **Verrouiller le fichier avant le remplacement** : sélectionnez cette option si vous souhaitez verrouiller automatiquement un fichier avant de remplacer le terme de recherche. Ce paramètre est plus pertinent si votre administrateur a activé la configuration pour verrouiller un fichier avant de le modifier. Lorsque le paramètre principal est activé, vous devez sélectionner cette option. Cela empêche la boîte de dialogue de verrouillage de fichier de vous inviter à verrouiller chaque fichier avant d’apporter une modification. Si vous ne sélectionnez pas cette option, une invite s’affiche avant l’ouverture d’un fichier en vue de le modifier.
    - **Mots entiers uniquement** : sélectionnez cette option si vous souhaitez rechercher toute la chaîne de recherche. Par exemple, si vous saisissez « over » dans la chaîne de recherche, le résultat de la recherche renvoie tous les fichiers contenant des mots tels que over et overview. Si vous souhaitez restreindre votre recherche pour renvoyer le terme exact saisi, sélectionnez cette option.
@@ -1884,7 +1883,7 @@ Vous pouvez également utiliser l&#39;option **Rechercher dans la carte** du men
 
 ### Modèles PDF
 
-Permet d’utiliser divers modèles PDF. Pour plus de détails, consultez [les modèles PDF](../native-pdf/pdf-template.md).
+Permet d’utiliser divers modèles PDF. Pour plus de détails, consultez [les modèles ](../native-pdf/pdf-template.md).
 
 ### Révision
 
@@ -1975,7 +1974,7 @@ Vous pouvez accéder à la fonction **Propriétés du contenu** en sélectionnan
 
 1. Dans le panneau déroulant **Attribut**, sélectionnez l’attribut dans la liste déroulante et spécifiez une valeur d’attribut.  Sélectionnez ensuite **Ajouter**.
 
-   ![panneau attributs avec plusieurs attributs &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![panneau attributs avec plusieurs attributs ](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Pour modifier l’attribut, passez la souris dessus et sélectionnez **Modifier** ![icône-d’édition](images/edit_pencil_icon.svg).
 
@@ -2061,10 +2060,10 @@ Grâce à la fonction Modifications suivies du panneau de droite, vous pouvez af
 
 ### Schematron
 
-« Schéma » fait référence à un langage de validation basé sur des règles utilisé pour définir des tests pour un fichier XML. The Editor supports Schematron files. You can import the Schematron files and also edit them in the Editor. À l&#39;aide d&#39;un fichier Schematron, vous pouvez définir certaines règles, puis les valider pour une rubrique DITA ou une carte.
+« Schéma » fait référence à un langage de validation basé sur des règles utilisé pour définir des tests pour un fichier XML. L’éditeur prend en charge les fichiers Schematron. Vous pouvez importer les fichiers Schematron et les modifier également dans l&#39;éditeur. À l&#39;aide d&#39;un fichier Schematron, vous pouvez définir certaines règles, puis les valider pour une rubrique DITA ou une carte.
 
-Learn how to work with Schematron files in Experience Manager Guides, refer to [Support for Schematron files](./support-schematron-file.md).
+Découvrez comment utiliser les fichiers Schematron dans Experience Manager Guides. Pour plus d&#39;informations, consultez la section [Prise en charge des fichiers Schematron](./support-schematron-file.md).
 
 
 
-**Parent topic**: [Introduction to the Editor](web-editor.md)
+**Rubrique parente** : [Présentation de l’éditeur](web-editor.md)

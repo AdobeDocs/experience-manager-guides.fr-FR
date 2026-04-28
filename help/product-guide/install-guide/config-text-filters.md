@@ -5,8 +5,7 @@ exl-id: 180e4ab5-5259-4a00-ac3c-bb1d6814ce0d
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%
@@ -26,7 +25,7 @@ Par défaut, vous pouvez utiliser certains filtres améliorés pour rechercher l
 Pour configurer les filtres de texte, procédez comme suit :
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur.
-1. Cliquez sur le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
+1. Cliquez sur le lien **** en haut et choisissez **Outils**.
 1. Sélectionnez **Guides** dans la liste des outils, puis cliquez sur le **Profils de dossier**.
 1. Cliquez sur la mosaïque **Profil global**.
 1. Cliquez sur **Configuration de l’éditeur XML**.
@@ -103,4 +102,4 @@ Pour configurer les filtres de texte, procédez comme suit :
 
 Les filtres configurés sont disponibles dans le panneau Filtres .
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)

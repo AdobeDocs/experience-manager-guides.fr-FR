@@ -5,10 +5,9 @@ exl-id: 8e0afe18-5675-4c7e-b216-6de1a752bd01
 feature: Installation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -36,4 +35,4 @@ Une fois que vous avez installé AEM Guides, vous devez vérifier si l’install
 >
 > Vous pouvez prendre en compte un certain nombre de recommandations d’optimisation des performances pour améliorer les performances de votre système. Pour plus d’informations, consultez [Recommandations pour l’optimisation des performances](download-install-recommend-perf-optimiz.md#).
 
-**Rubrique parente :**&#x200B;[&#x200B; Télécharger et installer](download-install.md)
+**Rubrique parente :**[ Télécharger et installer](download-install.md)

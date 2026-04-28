@@ -5,10 +5,9 @@ exl-id: 0963606c-010e-4a72-b7bf-850b86b34a84
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -71,14 +70,14 @@ Pour configurer les filtres de texte, procédez comme suit :
 
       Dans le fragment de code ci-dessus, le premier filtre concerne les fichiers DITA. La définition du filtre utilise les paramètres suivants :
 
-      **&#x200B;**&#x200B;Titre&#x200B;**&#x200B;** : nom d’affichage du filtre. Ce titre apparaît comme option de filtrage dans la boîte de dialogue de navigation des fichiers.
+      ****Titre**** : nom d’affichage du filtre. Ce titre apparaît comme option de filtrage dans la boîte de dialogue de navigation des fichiers.
 
-      **&#x200B;**&#x200B;Property&#x200B;**&#x200B;** : propriété à faire correspondre dans les métadonnées du fichier. Par exemple, pour autoriser uniquement les fichiers dont la propriété contient les métadonnées dita\_class, le filtre de propriété prend la valeur « jcr:content/metadata/dita\_class ».
+      ****Property**** : propriété à faire correspondre dans les métadonnées du fichier. Par exemple, pour autoriser uniquement les fichiers dont la propriété contient les métadonnées dita\_class, le filtre de propriété prend la valeur « jcr:content/metadata/dita\_class ».
 
-      **&#x200B;**&#x200B;Opération **:**&#x200B;spécifiez « exists » pour correspondre à l’existence de la valeur spécifiée dans le paramètre de propriété
+      ****Opération **:**spécifiez « exists » pour correspondre à l’existence de la valeur spécifiée dans le paramètre de propriété
 
 1. Chargez le fichier ui\_config.json mis à jour contenant les filtres ajoutés.
 
 Les filtres configurés sont disponibles dans le panneau Filtres .
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)

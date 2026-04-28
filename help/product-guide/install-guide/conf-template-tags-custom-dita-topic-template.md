@@ -5,8 +5,7 @@ exl-id: a9b2c479-7bf6-4c62-addd-fdfe74dc1f69
 feature: Template Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 2%
@@ -40,7 +39,7 @@ Pour personnaliser un modèle de rubrique DITA et l&#39;utiliser pour la créati
 
 1. [Créer un modèle de création personnalisé](conf-folder-level.md#id1917D0EG0HJ)
 
-1. Ajoutez un modèle personnalisé dans le profil global ou au niveau du dossier, comme expliqué dans la section [&#x200B; Configurer les modèles de création &#x200B;](conf-folder-level.md#id1889D0IL0Y4)
+1. Ajoutez un modèle personnalisé dans le profil global ou au niveau du dossier, comme expliqué dans la section [ Configurer les modèles de création ](conf-folder-level.md#id1889D0IL0Y4)
 
 
 ## Configurer le chemin d&#39;accès au dossier du modèle DITA personnalisé {#id191LCF0095Z}
@@ -78,4 +77,4 @@ Pour configurer un dossier pour vos modèles de rubrique DITA personnalisés, pr
 
 Si l’emplacement spécifié existe dans la gestion des ressources numériques, tous les modèles de carte et de rubrique par défaut sont copiés dans ce dossier. Si l’emplacement n’existe pas, le dossier est créé avec tous les modèles de mappage et de rubrique par défaut.
 
-**Rubrique parente :**&#x200B;[&#x200B; Configurer la rubrique et les modèles de mappage](conf-template-tags.md)
+**Rubrique parente :**[ Configurer la rubrique et les modèles de mappage](conf-template-tags.md)

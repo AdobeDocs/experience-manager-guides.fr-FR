@@ -5,10 +5,9 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -27,7 +26,7 @@ Vous pouvez également vous connecter à des fichiers de données JSON à l’ai
 
 Pour configurer un connecteur, procédez comme suit :
 
-1. Sélectionnez le lien **&#x200B;**&#x200B;en haut et choisissez Outils.
+1. Sélectionnez le lien **** en haut et choisissez Outils.
 1. Sélectionnez **Guides** dans la liste des outils.
 1. Sélectionnez la mosaïque **Sources de données**. La page **Sources de données** s’affiche. Vous pouvez afficher les sources de données connectées.
 
@@ -134,5 +133,5 @@ Une erreur s’affiche si le connecteur portant le même nom existe.
 * **Supprimer** : supprimez le connecteur sélectionné.
 
 
-Une fois la source de données configurée, le connecteur est répertorié sous le panneau **Sources de données** dans l’éditeur web. Vous pouvez ensuite vous connecter à la source de données et insérer un fragment de contenu dans vos rubriques. Pour plus d’informations, consultez la section [&#x200B; Insérer un fragment de contenu à partir de votre source de données &#x200B;](../user-guide/web-editor-content-snippet.md).
+Une fois la source de données configurée, le connecteur est répertorié sous le panneau **Sources de données** dans l’éditeur web. Vous pouvez ensuite vous connecter à la source de données et insérer un fragment de contenu dans vos rubriques. Pour plus d’informations, consultez la section [ Insérer un fragment de contenu à partir de votre source de données ](../user-guide/web-editor-content-snippet.md).
 

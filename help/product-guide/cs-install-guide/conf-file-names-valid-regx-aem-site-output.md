@@ -5,10 +5,9 @@ exl-id: 05215bec-653b-4563-83c6-a1bb16200469
 feature: Filename Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '145'
 ht-degree: 1%
 
 ---
@@ -23,4 +22,4 @@ Suivez les instructions fournies dans [Remplacements de la configuration](downlo
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | Ajoutez les caractères que vous souhaitez remplacer par un trait de soulignement dans les noms de fichier de sortie du site AEM. <br> **Valeur par défaut** : ``'<\>\`@$`` |
 
-**Rubrique parente :**&#x200B;[&#x200B; Configurer les noms de fichier](conf-file-names.md)
+**Rubrique parente :**[ Configurer les noms de fichier](conf-file-names.md)

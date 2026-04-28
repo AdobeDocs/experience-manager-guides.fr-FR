@@ -5,10 +5,9 @@ exl-id: 125d247f-1017-4450-9e3f-9ecc7188ca8f
 feature: Search Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1576'
+source-wordcount: '1596'
 ht-degree: 1%
 
 ---
@@ -33,7 +32,7 @@ Pour ajouter un composant de recherche de contenu DITA à l&#39;interface utilis
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 
-1. Cliquez sur le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
+1. Cliquez sur le lien **** en haut et choisissez **Outils**.
 
 1. Sélectionnez **Général** dans la liste des outils, puis cliquez sur la mosaïque **Rechercher dans Forms**.
 
@@ -59,7 +58,7 @@ Pour ajouter un composant de recherche basé sur l’UUID à l’interface utili
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 
-1. Cliquez sur le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
+1. Cliquez sur le lien **** en haut et choisissez **Outils**.
 
 1. Sélectionnez **Général** dans la liste des outils, puis cliquez sur la mosaïque **Rechercher dans Forms**.
 
@@ -193,7 +192,7 @@ Pour exécuter le workflow d’extraction des métadonnées, procédez comme sui
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 
-1. Cliquez sur le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
+1. Cliquez sur le lien **** en haut et choisissez **Outils**.
 
 1. Sélectionnez **Guides** dans la liste des outils, puis cliquez sur la mosaïque **Extraction des métadonnées DITA**.
 

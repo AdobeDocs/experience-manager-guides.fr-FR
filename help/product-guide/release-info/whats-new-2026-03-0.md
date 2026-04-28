@@ -3,11 +3,10 @@ title: Notes de mise à jour | Nouveautés de la version Adobe Experience Manage
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 2026.03.0 d’Adobe Experience Manager Guides
 role: Leader
 exl-id: ae26dd14-983e-4116-ac8d-729c1f4fad20
-hidefromtoc: true
-source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 2%
+source-wordcount: '833'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 2%
 
 Cet article présente les nouvelles fonctionnalités améliorées introduites dans la version 2026.03.0 d’Adobe Experience Manager Guides as a Cloud Service.
 
-Pour connaître la liste des problèmes résolus dans cette version, voir la section [Problèmes résolus dans la version 2026.03.0](fixed-issues-2026-03-0.md).
+Pour obtenir la liste des problèmes résolus dans cette version, voir [Problèmes résolus dans la version 2026.03.0](fixed-issues-2026-03-0.md).
 
 Découvrez les [instructions de mise à niveau pour la version 2026.03.0](../release-info/upgrade-instructions-2026-03-0.md).
 
@@ -79,7 +78,7 @@ Pour plus d’informations, consultez [Panneau de droite dans l’éditeur](../u
 
 Désormais, vous pouvez rechercher des citations dans tous les champs du Journal, par exemple *Titre*, *Titre du Journal*, *Auteur*, *Année*, *Volume*, *Number* et *Pages*, à l’aide de l’option **Any field** dans la boîte de dialogue **Ajouter une citation**. La recherche renvoie la citation correspondante la plus proche en fonction du texte saisi.
 
-Pour plus d’informations sur l’ajout de citations dans Experience Manager Guides, consultez la section [&#x200B; Ajouter et gérer des citations dans votre contenu &#x200B;](../user-guide/web-editor-apply-citations.md).
+Pour plus d’informations sur l’ajout de citations dans Experience Manager Guides, consultez la section [ Ajouter et gérer des citations dans votre contenu ](../user-guide/web-editor-apply-citations.md).
 
 ![](assets/add-citations.png){width="350" align="left"}
 

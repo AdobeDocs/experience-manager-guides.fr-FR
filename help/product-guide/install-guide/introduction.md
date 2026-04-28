@@ -5,10 +5,9 @@ exl-id: 90d5ad94-eb68-4d73-9b23-a1f3d4b802ba
 feature: Introduction
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
@@ -30,7 +29,7 @@ Ce guide est destiné aux types d’audiences suivants :
 
 Les informations contenues dans ce guide sont organisées comme suit :
 
-- [À propos de ce guide &#x200B;](#id175MC0P0S5Z) : cette rubrique présente ce guide, l’audience ciblée et la manière dont les informations sont organisées dans ce guide.
+- [À propos de ce guide ](#id175MC0P0S5Z) : cette rubrique présente ce guide, l’audience ciblée et la manière dont les informations sont organisées dans ce guide.
 
 - [Télécharger et installer](download-install.md#) : cette rubrique décrit comment télécharger, installer ou mettre à niveau AEM Guides.
 
@@ -69,9 +68,9 @@ Les informations contenues dans ce guide sont organisées comme suit :
 
 ## Ressources supplémentaires
 
-Voici une liste d’autres ressources utiles d’AEM Guides, disponibles sur la page [En savoir plus et assistance](https://helpx.adobe.com/fr/support/xml-documentation-for-experience-manager.html) :
+Voici une liste d’autres ressources utiles d’AEM Guides, disponibles sur la page [En savoir plus et assistance](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) :
 
 - Guide de l’utilisateur
 - Guide de référence des API
 - Guide de démarrage rapide
-- [Page d’archivage de l’aide](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html) \(accédez à l’ancienne version\)
+- [Page d’archivage de l’aide](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(accédez à l’ancienne version\)

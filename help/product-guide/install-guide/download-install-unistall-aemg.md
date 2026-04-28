@@ -5,10 +5,9 @@ exl-id: 6c6b9692-cdec-426f-bc3b-f09d0091da39
 feature: Installation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -50,4 +49,4 @@ Pour nettoyer les fichiers résiduels après la désinstallation, procédez comm
 1. Cliquez sur **Invalider le cache**.
 1. Nettoyez le cache du navigateur.
 
-**Rubrique parente :**&#x200B;[&#x200B; Télécharger et installer](download-install.md)
+**Rubrique parente :**[ Télécharger et installer](download-install.md)

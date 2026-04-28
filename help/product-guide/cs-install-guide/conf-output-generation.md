@@ -5,10 +5,9 @@ exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '5703'
+source-wordcount: '5820'
 ht-degree: 1%
 
 ---
@@ -26,7 +25,7 @@ Pour masquer l&#39;onglet Ligne de base dans le tableau de bord du plan DITA, pr
 
 | PID | Clé de la propriété | Valeur de la propriété |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.baseline` | Booléen\(`true/false`\).**Valeur par défaut** : `true` |
+| `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.baseline` | Boolean\(`true/false`\).**Valeur par défaut** : `true` |
 
 >[!NOTE]
 >
@@ -110,7 +109,7 @@ Effectuez les étapes suivantes pour spécifier votre propre modèle de concepti
 
    | Propriété | Description |
    |--------|-----------|
-   | `landingPageTemplate`, `searchPageTemplate`, `topicPageTemplate`, `shadowPageTemplate` | Spécifiez le nœud `cq:Template` pour ces pages correspondantes \(destination, recherche et rubrique\). Par défaut, le nœud `cq:Template` de ces pages se trouve dans `/libs/fmdita/templates/default/cqtemplates` nœud . Ce nœud définit la structure et les propriétés des pages de destination, de recherche et de rubrique.<br> Le `shadowPageTemplate` est utilisé pour optimiser le contenu segmenté. Vous devez définir la valeur de cette propriété sur : `fmdita/templates/default/cqtemplates/shadowpage` <br> **Remarque :** vous devez spécifier une valeur pour le `topicPageTemplate`. Les propriétés `landingPageTemplate` et `searchPageTemplate` sont facultatives. Si vous ne souhaitez pas que les pages de recherche et de destination soient générées, ne spécifiez pas ces propriétés. |
+   | `landingPageTemplate`, `searchPageTemplate`, `topicPageTemplate`, `shadowPageTemplate` | Spécifiez le nœud `cq:Template` pour ces pages correspondantes \(destination, recherche et rubrique\). Par défaut, le nœud `cq:Template` de ces pages se trouve dans `/libs/fmdita/templates/default/cqtemplates` nœud . Ce nœud définit la structure et les propriétés des pages de destination, de recherche et de rubrique<br> Le `shadowPageTemplate` est utilisé pour optimiser le contenu segmenté. Vous devez définir la valeur de cette propriété sur : `fmdita/templates/default/cqtemplates/shadowpage` <br> **Remarque :** vous devez spécifier une valeur pour le `topicPageTemplate`. Les propriétés `landingPageTemplate` et `searchPageTemplate` sont facultatives. Si vous ne souhaitez pas que les pages de recherche et de destination soient générées, ne spécifiez pas ces propriétés. |
    | `title` | Nom descriptif de votre modèle de conception. |
    | `topicContentNode` | Emplacement du nœud qui contiendra le contenu DITA dans une page de rubrique. Le chemin d’accès est relatif à la page du topic. |
    | `topicHeadNode` | Emplacement du nœud qui contiendra les valeurs head \(ou metadata\) dérivées du contenu DITA. Le chemin d’accès est relatif à la page du topic. |
@@ -129,7 +128,7 @@ Effectuez les étapes suivantes pour spécifier votre propre modèle de concepti
 >
 > Après avoir créé un nœud de modèle de conception personnalisé, vous devez mettre à jour l’option Conception dans les paramètres prédéfinis de sortie du site AEM pour utiliser le nœud du modèle de conception personnalisé.
 
-Pour plus d’informations, consultez les sections [Création de votre premier site web Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=fr) et [Principes de base](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=fr) du développement de votre propre site web sur AEM.
+Pour plus d’informations, consultez les sections [Création de votre premier site web Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=fr) et [Principes de base](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) du développement de votre propre site web sur AEM.
 
 ### Utiliser le titre du document pour générer la sortie du site AEM
 
@@ -270,7 +269,7 @@ Pour exclure l’élément `table` de l’aplatissement, ajoutez la propriété 
 
 ### Configurer le contrôle de version des pages supprimées dans la sortie du site AEM
 
-Lorsque vous générez une sortie de site AEM avec les options **Supprimer et** Créer **&#x200B;**&#x200B;sélectionnées pour le paramètre Pages de sortie existantes , une version est créée pour la ou les pages en cours de suppression. Vous pouvez configurer le système pour arrêter la création d’une version avant la suppression.
+Lorsque vous générez une sortie de site AEM avec les options **Supprimer et** Créer ****sélectionnées pour le paramètre Pages de sortie existantes , une version est créée pour la ou les pages en cours de suppression. Vous pouvez configurer le système pour arrêter la création d’une version avant la suppression.
 
 Effectuez les étapes suivantes pour arrêter la création d’une version pour la ou les pages en cours de suppression :
 
@@ -309,7 +308,7 @@ Pour ajouter les métadonnées requises dans le système, procédez comme suit :
 
 1. Cliquez sur le lien Adobe Experience Manager en haut et choisissez **Outils**.
 
-1. Sélectionnez **&#x200B;**&#x200B;dans la liste des outils.
+1. Sélectionnez **** dans la liste des outils.
 
 1. Cliquez sur la mosaïque **Schémas de métadonnées**.
 
@@ -331,7 +330,7 @@ Pour ajouter les métadonnées requises dans le système, procédez comme suit :
 
    3. Dans le **Libellé du champ**, saisissez le nom des métadonnées : Audience.
 
-   4. Dans le paramètre **Mapper à la propriété**, spécifiez ./jcr:content/metadata/&lt;nom des métadonnées\>. Dans notre exemple, nous la définirons sur ./jcr:content/metadata/audience.
+   4. Dans le paramètre **Mapper à la propriété**, spécifiez ./jcr:content/metadata/&lt;name of the metadata\>. Dans notre exemple, nous la définirons sur ./jcr:content/metadata/audience.
 
    En procédant comme suit, ajoutez tous les paramètres de métadonnées requis.
 
@@ -434,7 +433,7 @@ Pour utiliser le champ d&#39;argument de ligne de commande DITA-OT afin de trans
 
 | PID | Clé de la propriété | Valeur de la propriété |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `pass.metadata.args.cmd.line` | Booléen\(`true/false`\).**Valeur par défaut** : `true` |
+| `com.adobe.fmdita.config.ConfigManager` | `pass.metadata.args.cmd.line` | Boolean\(`true/false`\).**Valeur par défaut** : `true` |
 
 - La définition de la valeur de la propriété sur **true** active la fonctionnalité de ligne de commande DITA-OT, ce qui vous permet de transmettre les métadonnées via la ligne de commande DITA-OT.
 - Définir la valeur de la propriété sur **false** désactive la fonctionnalité de ligne de commande DITA-OT. Vous pouvez ensuite utiliser le champ Propriété dans le paramètre prédéfini pour transmettre les métadonnées.
@@ -595,7 +594,7 @@ Le tableau suivant décrit les éléments du schéma d&#39;élément DITA :
 | `<ditaelement>` | Nœud de niveau supérieur pour chaque élément de mappage. |
 | `<class>` | Attribut class de l&#39;élément DITA cible pour lequel vous créez le composant.<br> Par exemple, l&#39;attribut class pour la rubrique DITA est : <br> `- topic/topic` |
 | `<componentpath>` | Chemin CRXDE du composant AEM mappé. |
-| `<type>` | Valeurs possibles : <br> -   **COMPOSITE** : traitez également les éléments enfants <br> -   **AUTONOME** : ignore le traitement des éléments enfants |
+| `<type>` | Valeurs possibles :<br> - **COMPOSITE** : traiter également les éléments enfants <br> - **AUTONOME** : ignore le traitement des éléments enfants |
 | `<attributeprop>` | Utilisé pour mapper des attributs et des valeurs DITA sérialisés aux nœuds AEM en tant que propriété. Par exemple, si vous disposez d’`<note type="Caution">` élément et que le composant mappé pour cet élément a `<attributeprop>attr_t</ attributeprop>`, l’attribut et la valeur du nœud sont sérialisés sur `attr_t` propriété du nœud AEM correspondant \( `attr_t->type="caution"`\). |
 | `<textprop>propname_t</textprop>` | Enregistrez la sortie `getTextContent()` dans la propriété définie par `propname_t.` <br> **Remarque :** il s’agit d’une propriété optimisée. |
 | `<xmlprop>propname_x </xmlprop>` | Enregistrez le code XML sérialisé de ce nœud dans la propriété définie par `propname_x.<br> `**Remarque :** il s’agit d’une propriété optimisée. |
@@ -604,7 +603,7 @@ Le tableau suivant décrit les éléments du schéma d&#39;élément DITA :
 | `<wrapelement>` | Élément HTML dans lequel encapsuler le contenu. |
 | `<wrapclass>` | La valeur de l’élément dans la propriété `wrapclass.` |
 | `<attributemap>` | Nœud conteneur contenant un ou plusieurs nœuds `<attribute>`. |
-| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | Mappe les attributs DITA aux propriétés AEM : <br> -   **`from`** : nom d&#39;attribut DITA <br> -   **`to`** : nom de propriété du composant AEM <br> -   **`ispath`** : si l’attribut est une valeur de chemin \(par exemple : *image*\) <br> -   **`rel`** : si le chemin d’accès est le <br> source ou cible **Remarque :** si `attrname` commence par `%`, mappez `attrname minus '%'` à la prop &#39; `propname`&#39;. |
+| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | Mappe les attributs DITA aux propriétés AEM : <br> - **`from`** : nom d&#39;attribut DITA <br> - **`to`** : nom de propriété du composant AEM <br> - **`ispath`** : si l&#39;attribut est une valeur de chemin \(par exemple : *image*\) <br> - **`rel`** : si le chemin est la source ou la cible <br> **Remarque :** si `attrname` commence par `%`, mappez `attrname minus '%'` à la prop &#39; `propname`&#39;. |
 
 **Remarques complémentaires**
 
@@ -631,11 +630,11 @@ AEM Guides fournit la catégorie `apps.fmdita.dashboard-extn` pour la personnali
 
 >[!NOTE]
 >
-> Pour plus d’informations sur la création de la bibliothèque cliente AEM, voir [&#x200B; Utilisation de bibliothèques côté client &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=fr).
+> Pour plus d’informations sur la création de la bibliothèque cliente AEM, voir [ Utilisation de bibliothèques côté client ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
 
 ## Gérer le rendu des images pendant la génération de la sortie {#id177BF0G0VY4}
 
-AEM s’accompagne d’un ensemble de workflows et de descripteurs de médias par défaut destinés au traitement des ressources. Dans AEM, il existe des workflows prédéfinis pour gérer le traitement des ressources pour les types MIME les plus courants. En règle générale, pour chaque image chargée, AEM crée plusieurs rendus de la même image au format binaire. Ces rendus peuvent être de tailles différentes, avec une résolution différente, avec un filigrane ajouté ou une autre caractéristique modifiée. Pour plus d’informations sur la façon dont AEM gère les ressources, voir [Traitement d’Assets à l’aide de gestionnaires de médias et de workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=fr) dans la documentation d’AEM.
+AEM s’accompagne d’un ensemble de workflows et de descripteurs de médias par défaut destinés au traitement des ressources. Dans AEM, il existe des workflows prédéfinis pour gérer le traitement des ressources pour les types MIME les plus courants. En règle générale, pour chaque image chargée, AEM crée plusieurs rendus de la même image au format binaire. Ces rendus peuvent être de tailles différentes, avec une résolution différente, avec un filigrane ajouté ou une autre caractéristique modifiée. Pour plus d’informations sur la façon dont AEM gère les ressources, voir [Traitement d’Assets à l’aide de gestionnaires de médias et de workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) dans la documentation d’AEM.
 
 AEM Guides vous permet de configurer le rendu d’image à utiliser au moment de la génération de la sortie de vos documents. Par exemple, vous pouvez choisir l’un des rendus d’image par défaut ou en créer un et l’utiliser pour publier vos documents. Le mappage de rendu d’image pour la publication de vos documents est stocké dans le fichier `/libs/fmdita/config/ **renditionmap.xml**`. Un extrait de fichier `renditionmap.xml` est le suivant :
 

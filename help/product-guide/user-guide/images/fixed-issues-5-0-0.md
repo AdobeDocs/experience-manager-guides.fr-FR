@@ -1,10 +1,10 @@
 ---
 title: Notes de mise à jour | Correction de problèmes dans Adobe Experience Manager Guides version 5.0.0
 description: Découvrez les correctifs de la version 5.0.0 d’Adobe Experience Manager Guides.
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '1221'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 

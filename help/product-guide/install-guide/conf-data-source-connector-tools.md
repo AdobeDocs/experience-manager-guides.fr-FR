@@ -5,10 +5,9 @@ exl-id: 2a0ac0a0-b2a9-453e-851b-fb04c8903526
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -19,7 +18,7 @@ Experience Manager Guides est fourni avec l’outil **Sources de données** qui 
 
 Pour configurer un connecteur, procédez comme suit :
 
-1. Sélectionnez le lien **&#x200B;**&#x200B;en haut et choisissez Outils.
+1. Sélectionnez le lien **** en haut et choisissez Outils.
 1. Sélectionnez **Guides** dans la liste des outils.
 1. Sélectionnez la mosaïque **Sources de données**. La page **Sources de données** s’affiche. Vous pouvez afficher les sources de données connectées.
 
@@ -81,4 +80,4 @@ Une fois la source de données configurée, le connecteur est répertorié sous 
 
 >[!NOTE]
 >
->Vous pouvez également créer des connecteurs personnalisés et les utiliser avec les différentes sources de données. Découvrez comment [&#x200B; configurer des connecteurs personnalisés &#x200B;](../knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md).
+>Vous pouvez également créer des connecteurs personnalisés et les utiliser avec les différentes sources de données. Découvrez comment [ configurer des connecteurs personnalisés ](../knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md).

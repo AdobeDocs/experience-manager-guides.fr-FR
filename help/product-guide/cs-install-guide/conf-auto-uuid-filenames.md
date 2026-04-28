@@ -5,10 +5,9 @@ exl-id: bdbdf119-b928-4ed2-bab3-d99370da8aa9
 feature: Filename Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '197'
 ht-degree: 1%
 
 ---
@@ -27,4 +26,4 @@ Suivez les instructions fournies dans [Remplacements de la configuration](downlo
 >
 > Lorsque cette option est activée, les auteurs ne voient pas l’option permettant de spécifier le nom du fichier lors de la création d’une rubrique ou d’un fichier de mappage. Vous pouvez créer une nouvelle rubrique ou un fichier de mappage à partir de l’interface utilisateur d’Assets et de l’éditeur web.
 
-**Rubrique parente :**&#x200B;[&#x200B; Configurer les noms de fichier](conf-file-names.md)
+**Rubrique parente :**[ Configurer les noms de fichier](conf-file-names.md)

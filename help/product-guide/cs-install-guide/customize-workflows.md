@@ -5,11 +5,10 @@ exl-id: a5742082-cc0b-49d9-9921-d0da1b272ea5
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1762'
-ht-degree: 2%
+source-wordcount: '1833'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +20,7 @@ Pour plus d’informations sur les workflows dans AEM, voir :
 
 - [Administration d’instances de workflow](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=fr)
 
-- Demande de processus et participation à des processus : [Utilisation des processus de projet](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html?lang=fr).
+- Demande de processus et participation à des processus : [Utilisation des processus de projet](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html).
 
 
 Les sections de cette rubrique vous guideront à travers différentes personnalisations que vous pouvez effectuer dans les workflows par défaut fournis dans AEM Guides.
@@ -98,7 +97,7 @@ Vous pouvez créer ces scripts dans le nœud `/etc/workflows/scripts`. Le tablea
 | `initiator` | Chaîne | ID de l’utilisateur qui a lancé la tâche de révision. |
 | `operation` | Chaîne | Valeur statique définie comme `AEM_REVIEW`. |
 | `orgTopics` | Chaîne | Chemin d’accès aux rubriques partagées pour la révision. Spécifiez plusieurs rubriques séparées par des virgules. |
-| `payloadJson` | Objet JSON | Spécifiez les valeurs suivantes : -   `base` : chemin d’accès du dossier parent contenant la rubrique envoyée pour révision. <br> -   `asset` : chemin d’accès du topic envoyé pour révision. <br> -   `referrer` : laissez ce champ vide. |
+| `payloadJson` | Objet JSON | Spécifiez les valeurs suivantes : - `base` : chemin d’accès du dossier parent contenant la rubrique envoyée pour révision. <br> - `asset` : chemin d’accès du sujet envoyé pour révision. <br> - `referrer` : laissez ce champ vide. |
 | `deadline` | Chaîne | Spécifiez l’heure au format `yyyy-MM-dd'T'HH:mm:ss.SSSXXX`. |
 | `title` | Chaîne | Saisissez un titre pour la tâche de révision. |
 | `description` | Chaîne | Saisissez une description pour la tâche de révision. |
@@ -124,14 +123,14 @@ Pour améliorer les performances du moteur de workflow, vous pouvez purger régu
 
 Vous pouvez empêcher les workflows de révision de se purger automatiquement en supprimant le modèle de workflow de révision \(informations\) de la configuration de purge automatique. Vous devez utiliser la **configuration de la purge du workflow Adobe Granite** pour supprimer les modèles de workflow de révision de la liste de purge automatique.
 
-Dans la configuration de la purge du workflow Adobe Granite **&#x200B;**, veillez à répertorier au moins un workflow que vous pouvez purger en toute sécurité. Par exemple, vous pouvez utiliser l’un des workflows suivants créés par AEM Guides :
+Dans la configuration de la purge du workflow Adobe Granite ****, veillez à répertorier au moins un workflow que vous pouvez purger en toute sécurité. Par exemple, vous pouvez utiliser l’un des workflows suivants créés par AEM Guides :
 
 - /etc/workflow/models/publishditamap/jcr:content/model
 - /etc/workflow/models/post-dita-project-creation-tasks/ jcr:content/model
 
 L’ajout d’un workflow à la **Configuration de la purge du workflow Adobe Granite** garantit qu’AEM purge uniquement les workflows répertoriés dans la configuration. Cela empêche AEM de purger les informations du workflow de révision.
 
-Pour plus d’informations sur la configuration de la configuration de la purge du workflow Adobe Granite **&#x200B;**, voir *Administration d’instances de workflow* dans la documentation AEM.
+Pour plus d’informations sur la configuration de la configuration de la purge du workflow Adobe Granite ****, voir *Administration d’instances de workflow* dans la documentation AEM.
 
 ### Personnalisation des notifications par e-mail et AEM
 
