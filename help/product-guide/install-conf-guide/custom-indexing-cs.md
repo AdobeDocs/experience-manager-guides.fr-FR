@@ -211,6 +211,6 @@ La vérification principale consiste à tester la fonctionnalité :
 
 - [Documentation sur l’indexation AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Guide d’indexation Apache Jackrabbit Oak](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [Documentation d’AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
+- [Documentation d’AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides)
 - [Documentation de Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)
 
