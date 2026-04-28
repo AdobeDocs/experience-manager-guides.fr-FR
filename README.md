@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # ARCHIVÉ
 
-Ce référentiel a été migré vers <https://github.com/Adobe-Enterprise-Docs/experience-manager-guides.en>.
+Ce référentiel a été migré vers <https://github.com/Adobe-Enterprise-Docs/experience-manager-guides.fr-FR>.
