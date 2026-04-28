@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Tags allow you to group or classify content within your content repository and also in the published output. If you have applied tags on your content, you can easily find related topics within a DITA map that can help you to authoring content. With the published output, end users will be able to locate the right content faster with proper tags in place.
 
-AEM Guides allows you to tag DITA content in a few clicks. You can use the bulk tagging feature to apply multiple tags on multiple topics, a DITA map, or on a sub-map. Or, you can also apply tags on an individual topic. Tagging is the native feature in AEM, you can find more details about creating and managing tags in the [Administering Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) section in AEM documentation.
+AEM Guides allows you to tag DITA content in a few clicks. You can use the bulk tagging feature to apply multiple tags on multiple topics, a DITA map, or on a sub-map. Or, you can also apply tags on an individual topic. Tagging is the native feature in AEM, you can find more details about creating and managing tags in the [Administering Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=fr) section in AEM documentation.
 
 By default, AEM Guides does not grant read access to any user on the folder where all tags in the AEM repository are stored. To use tags defined in the AEM repository, you must ask your system administrator to grant access on the folder where the tags are stored.
 

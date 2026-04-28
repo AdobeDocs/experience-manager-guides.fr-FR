@@ -34,7 +34,7 @@ Effectuez les étapes suivantes pour transmettre les métadonnées à la sortie 
 
    Ce fichier peut être recouvert à l’adresse : `/apps/fmdita/config/metadataList`.
 
-   Pour transmettre une propriété personnalisée pour laquelle vous avez déjà défini les valeurs, reportez-vous à la section [Utilisation des métadonnées AEM dans la sortie PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
+   Pour transmettre une propriété personnalisée pour laquelle vous avez déjà défini les valeurs, reportez-vous à la section [Utilisation des métadonnées AEM dans la sortie PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=fr).
 
 1. Dans la liste déroulante **Propriétés**, sélectionnez les propriétés personnalisées et par défaut requises. Par exemple, sélectionnez `author`, `dc:title` et `dc:description`. Il s’agit des `metadata/properties` standard qui sont créées une fois que nous créons un fichier. Les propriétés sélectionnées sont répertoriées sous la liste déroulante.
 
