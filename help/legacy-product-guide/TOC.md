@@ -4,10 +4,10 @@ user-guide-description: Lisez la documentation du produit pour Adobe Experience 
 breadcrumb-title: Documentation d’AEM Guides
 hide: true
 badgeAll: label="Ancien guide de l’interface utilisateur - Plus d’informations" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Ancien guide de l’interface utilisateur"
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 4%
+source-wordcount: '599'
+ht-degree: 8%
 
 ---
 
@@ -16,27 +16,27 @@ ht-degree: 4%
 
 - [Clause de non-responsabilité](disclaimer.md)
 - [Présentation d’[!DNL AEM Guides]](overview.md)
-- [Informations de mise à jour](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
+- [Informations sur la version](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
 - Guide de l’utilisateur (ancienne interface utilisateur) {#user-guide}
    - Présentation {#about-aem-guide}
       - [À propos  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
-      - [!DNL AEM Guides] de travail et fonctionnalités clés {#aemg-works-features}
-         - [Fonctionnement  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+      - Fonctionnalités [!DNL AEM Guides] et clés {#aemg-works-features}
+         - [Fonctionnement  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
          - [Fonctionnalités [!DNL AEM Guides] clés](./user-guide/intro-dxml-features.md)
-   - Gérer les de contenu {#manage-content}
+   - Gérer le contenu {#manage-content}
       - [Concepts clés, rôles et autorisations, et conditions préalables](./user-guide/authoring.md)
       - [Charger des fichiers](./user-guide/authoring-upload-existing-files.md)
       - [Gestion des fichiers et des dossiers](./user-guide/authoring-file-management.md)
       - [Télécharger les fichiers](./user-guide/authoring-download-assets.md)
-   - Créer des de contenu {#author-content}
+   - Créer du contenu {#author-content}
       - [Présentation de la création](./user-guide/authoring-content.md)
-      - Création de rubrique et de prévisualisation {#create-preview-topics}
+      - Création et prévisualisation de rubrique {#create-preview-topics}
          - [Créer et prévisualiser des rubriques](./user-guide/create-preview-topics.md)
          - [Créer des rubriques](./user-guide/web-editor-create-topics.md)
          - [Prévisualiser une rubrique](./user-guide/web-editor-preview-topics.md)
-         - Créer des de contenu {#author-content-aem-guides}
+         - et créer du contenu. {#author-content-aem-guides}
             - [Méthode de création de contenu à l’aide d’AEM Guides](./user-guide/authoring-content-xml-doc.md)
-            - de l’éditeur web{#work-with-web-editor}
+            - Éditeur web {#work-with-web-editor}
                - [Utiliser l’éditeur web](./user-guide/web-editor.md)
                - [Lancement de l’éditeur web](./user-guide/web-editor-launch-editor.md)
                - [Modification de rubriques dans l’éditeur web](./user-guide/web-editor-edit-topics.md)
@@ -52,7 +52,7 @@ ht-degree: 4%
                - [Ajouter des citations à votre contenu](./user-guide/web-editor-apply-citations.md)
                - [Utiliser des données provenant de vos sources de données](./user-guide/web-editor-content-snippet.md)
                - [Gestion des paramètres prédéfinis de sortie de profil global et de dossier](./user-guide/web-editor-manage-output-presets.md)
-               - de publication basée sur des articles{#article-based-pub}
+               - Publication basée sur des articles {#article-based-pub}
                   - [Publication d’articles à partir de l’éditeur web](./user-guide/web-editor-article-publishing.md)
                   - [Création de paramètres prédéfinis de sortie à partir de l’éditeur web](./user-guide/web-editor-article-publishing-presets.md)
                   - [Générez une sortie à partir du panneau Référentiel ou du panneau Vue Carte .](./user-guide/web-editor-article-publishing-output.md)
@@ -61,25 +61,25 @@ ht-degree: 4%
                - [Créer et gérer des lignes de base à partir de l&#39;éditeur Web](./user-guide/web-editor-baseline.md)
                - [Etat du document](./user-guide/web-editor-document-states.md)
                - [Utiliser des libellés](./user-guide/web-editor-use-label.md)
-            - de l’éditeur de cartes{#work-with-map-editor}
+            - Éditeur de carte {#work-with-map-editor}
                - [Utilisation de l’éditeur de cartes](./user-guide/map-editor.md)
                - [Créer un mappage](./user-guide/map-editor-create-map.md)
                - [Création de mappages à partir de modèles personnalisés](./user-guide/create-maps-customized-templates.md)
                - [Utilisation de l’éditeur de cartes avancé](./user-guide/map-editor-advanced-map-editor.md)
                - [Utilisation de l’éditeur de cartes de base](./user-guide/map-editor-basic-map-editor.md)
                - [Autres fonctionnalités dans les éditeurs de carte](./user-guide/map-editor-other-features.md)
-            - de l’éditeur DITAVAL{#ditaval-editor}
+            - Éditeur DITAVAL {#ditaval-editor}
                - [Utiliser l&#39;éditeur DITAVAL](./user-guide/ditaval-editor.md)
-         - Outils de bureau pour la création de de contenu {#author-using-desktop-tools}
+         - Outils de bureau pour la création de contenu {#author-using-desktop-tools}
             - [Créer du contenu à l’aide d’outils de bureau](./user-guide/author-desktop-tools.md)
             - [Utilisation de FrameMaker](./user-guide/author-desktop-framemaker.md)
             - [Utiliser l&#39;oxygène](./user-guide/author-desktop-oxygen.md)
-   - Vérifier les de contenu {#review-topic-maps}
+   - Vérifier le contenu {#review-topic-maps}
       - [Consulter les rubriques ou les cartes](./user-guide/review.md)
       - [Créer un projet DITA](./user-guide/authoring-create-dita-project.md)
       - [Envoyer les rubriques à réviser](./user-guide/review-send-topics-for-review.md)
       - [Réaffecter une tâche de révision à l’aide d’une notification](./user-guide/reassign-review-using-notification.md)
-      - de révision de rubrique{#review-topics}
+      - Révision de rubrique {#review-topics}
          - [Rubriques de révision](./user-guide/review-topics.md)
          - [Commentaires de révision d’adresse](./user-guide/review-address-review-comments.md)
       - [Gérer les tâches de révision à l’aide du tableau de bord de révision](./user-guide/review-manage-tasks-review-dashboard.md)
@@ -89,12 +89,12 @@ ht-degree: 4%
       - [Utilisation des métadonnées dans AEM](./user-guide/metadata-dita.md)
       - [Balisage intelligent](./user-guide/web-editor-smart-tagging.md)
       - [Balisage en bloc du contenu DITA](./user-guide/map-editor-bulk-tagging.md)
-   - de traduction de contenu{#translate-content}
+   - Traduction de contenu {#translate-content}
       - [Traduction du contenu](./user-guide/translation.md)
       - [Bonnes pratiques relatives à la traduction de contenu](./user-guide/translation-first-time.md)
       - [Afficher le statut de la traduction](./user-guide/translation-view-trans-state-6234.md)
       - [Traduire les rubriques modifiées](./user-guide/translation-modified-topics-6234.md)
-   - de génération de sortie{#output-gen}
+   - Génération de sortie {#output-gen}
       - [Notions de base sur la génération de sortie](./user-guide/generate-output.md)
       - [Présentation des paramètres prédéfinis de sortie](./user-guide/generate-output-understand-presets.md)
       - Paramètres prédéfinis de sortie dans AEM Guides {#output-presets-aemg}
@@ -102,7 +102,7 @@ ht-degree: 4%
          - [Paramètres prédéfinis AEM Sites dans le tableau de bord de carte](./user-guide/generate-output-aem-site-map-dashboard.md)
          - [Paramètres prédéfinis AEM Sites dans l’éditeur web](./user-guide/generate-output-aem-site-web-editor.md)
          - [PDF](./user-guide/generate-output-pdf.md)
-         - [Base de connaissances](./user-guide/generate-output-knowledge-base.md)
+         - [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
          - [HTML5](./user-guide/generate-output-html5.md)
          - [EPUB](./user-guide/generate-output-epub.md)
          - [Personnalisé](./user-guide/generate-output-custom.md)
@@ -120,7 +120,7 @@ ht-degree: 4%
       - [Publier des fragments de contenu](./user-guide/publish-content-fragment.md)
       - [Publier des fragments d’expérience](./user-guide/publish-experience-fragment.md)
       - [Publication de pages AEM Sites](./user-guide/publish-aem-sites.md)
-      - Activation en masse des de contenu {#bulk-activation}
+      - Activation en masse de contenu {#bulk-activation}
          - [Activation en bloc du contenu publié](./user-guide/conf-bulk-activation.md)
          - [Créer une collection de mappages d’activation en bloc](./user-guide/conf-bulk-activation-create-map-collection.md)
          - [Activer la sortie](./user-guide/conf-bulk-activation-publish-map-collection.md)
@@ -128,7 +128,7 @@ ht-degree: 4%
          - [Supprimer une collection de mappages d’activation en bloc](./user-guide/conf-bulk-activation-delete-map-collection.md)
    - Génération en sortie de documents FrameMaker {#generate-fm-output}
       - [Générer la sortie des documents FrameMaker](./user-guide/fm-output-generatation.md)
-      - de paramètres prédéfinis pris en charge{#fm-docs-generating-presets}
+      - Préréglages pris en charge {#fm-docs-generating-presets}
          - [Paramètres prédéfinis pour la génération de documents FrameMaker](./user-guide/fm-output-understand-presets.md)
          - [PDF](./user-guide/fm-output-pdf-preset.md)
          - [HTML5](./user-guide/fm-output-html5-preset.md)
@@ -142,5 +142,5 @@ ht-degree: 4%
       - [Rapport sur la réutilisation du contenu](./user-guide/reports-content-reuse.md)
       - [Rapport sur le statut de la conversion](./user-guide/reports-convertion-status.md)
       - [Rapport Historique des versions des fichiers rétablis](./user-guide/reports-reverted-file-version-history.md)
-- [GUIDE DE L’UTILISATEUR (NOUVELLE INTERFACE UTILISATEUR)](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
+- [GUIDE DE L’UTILISATEUR (NOUVELLE INTERFACE UTILISATEUR)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
 

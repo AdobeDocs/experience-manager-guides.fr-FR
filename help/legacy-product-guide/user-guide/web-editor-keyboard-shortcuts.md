@@ -1,35 +1,35 @@
 ---
-title: Raccourcis clavier dans l’éditeur web
-description: Découvrez les raccourcis clavier qui vous permettent de gagner du temps dans l’éditeur web d’AEM Guides.
+title: Keyboard shortcuts in the Web Editor
+description: Discover time-saving keyboard shortcuts in the web editor of AEM Guides.
 feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 418412ab-cce6-4398-9f84-6f63285ffc6d
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 1%
+source-wordcount: '363'
+ht-degree: 2%
 
 ---
 
-# Raccourcis clavier dans l’éditeur web {#id2056B0A0WHT}
+# Keyboard shortcuts in the Web Editor {#id2056B0A0WHT}
 
-L’éditeur web comporte de nombreuses opérations que vous pouvez effectuer à l’aide des raccourcis clavier. Le tableau suivant répertorie les raccourcis clavier suivants :
+There are many operations in the Web Editor that you can perform using the keyboard shortcuts. The following table lists these keyboard shortcuts:
 
 >[!NOTE]
 >
-> Les touches de lettre du raccourci clavier ne respectent pas la casse.
+> The letter keys in the keyboard shortcut are case-insensitive.
 
-## Raccourcis clavier pour Windows et macOS
+## Keyboard shortcuts for Windows and macOS
 
-| Opération dans l’éditeur web | Windows | macOS |
+| Operation in Web Editor | Windows | macOS |
 |-----------------------|-----------------|-----------------|
-| Appliquer le format Gras au texte sélectionné | ***Ctrl***+***B*** | ***Commande***+***B*** |
-| Appliquer une mise en forme en italique au texte sélectionné | ***Ctrl***+***I*** | ***Commande***+***I*** |
-| Appliquer une mise en forme de soulignement au texte sélectionné | ***Ctrl***+***U*** | ***Commande***+***U*** |
-| Focus sur le panneau de gauche | **Ctrl***+**Maj**+***1*** | ***Commande***+**Maj**+***1*** |
-| Se concentrer sur le panneau de droite | **Ctrl***+**Maj**+***2*** | ***Commande***+**Maj**+***2*** |
-| Se concentrer sur l’éditeur actuel | **Ctrl***+**Maj**+***0*** | ***Commande***+**Maj**+***0*** |
+| Apply bold formatting on selected text | ***Ctrl***+***B*** | ***Command***+***B*** |
+| Apply Italics formatting on selected text | ***Ctrl***+***I*** | ***Command***+***I*** |
+| Apply underline formatting on selected text | ***Ctrl***+***U*** | ***Command***+***U*** |
+| Focus on the left panel | **Ctrl***+**Shift**+***1*** | ***Command***+**Shift**+***1*** |
+| Focus on the right panel | **Ctrl***+**Shift**+***2*** | ***Command***+**Shift**+***2*** |
+| Focus on the current editor | **Ctrl***+**Shift**+***0*** | ***Commande***+**Maj**+***0*** |
 | Enregistrer le document en mode Création ou Source | ***Ctrl***+**Maj**+***S*** | ***Commande***+**Maj**+***S*** |
 | Enregistrer tous les documents ouverts en mode Auteur ou Source | ***Ctrl***+***S*** | ***Commande***+***S*** |
 | Afficher la boîte de dialogue Insérer un élément | ***Alt***+***Entrée*** | ***Option***+***Entrée*** |
@@ -38,8 +38,8 @@ L’éditeur web comporte de nombreuses opérations que vous pouvez effectuer à
 | Déplacer le curseur d&#39;un mot vers la droite. | ***Ctrl***+***Flèche Droite*** | ***Option***+***Flèche Droite*** |
 | Déplace le curseur au début de la ligne active. | ***Accueil*** | ***Commande***+***Flèche Gauche*** |
 | Déplace le curseur à la fin de la ligne courante. | **Fin** | ***Commande***+***Flèche Droite*** |
-| Déplacez le curseur au début de l&#39;élément suivant. | ***Tabulation*** | ***Tabulation*** |
-| Mettez l’élément de liste en retrait au niveau suivant. | ***Tabulation*** | ***Tabulation*** |
+| Déplacez le curseur au début de l&#39;élément suivant. | ***Onglet*** | ***Onglet*** |
+| Mettez l’élément de liste en retrait au niveau suivant. | ***Onglet*** | ***Onglet*** |
 | Déplace le curseur à la fin de l&#39;élément précédent. | ***Maj***+***Tabulation*** | ***Maj***+***Tabulation*** |
 | Remettre l&#39;élément de liste au niveau précédent. | ***Maj***+***Tabulation*** | ***Maj***+***Tabulation*** |
 | Mise en retrait automatique du code XML en mode Source | ***Ctrl***+***Alt***+***L*** | ***Commande***+***Option***+***L*** |

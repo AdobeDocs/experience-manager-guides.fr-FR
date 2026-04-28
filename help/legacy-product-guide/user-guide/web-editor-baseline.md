@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: f43bc3ae-b7b6-4a8c-b42d-28ec02d0d1d6
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1707'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Vous pouvez gérer vos lignes de base existantes à l&#39;aide des différentes 
 ### Dupliquer une ligne de base
 
 Vous pouvez dupliquer une ligne de base et la modifier en fonction de vos besoins.
-![dupliquer une base](images/baseline-duplicate.png){width="300" align="left"}
+![dupliquer une ligne de base](images/baseline-duplicate.png){width="300" align="left"}
 *Dupliquez une ligne de base en fonction d’un libellé ou créez une copie exacte.*
 
 1. Sélectionnez **Dupliquer** dans le menu Options d&#39;une ligne de base. La boîte de dialogue **Dupliquer la ligne de base** s’ouvre.
@@ -113,45 +113,45 @@ Vous pouvez dupliquer une ligne de base et la modifier en fonction de vos besoin
 
    Dans **Sélectionner la version en fonction de**, vous pouvez choisir l’option **Copie exacte** ou l’option **Libellé** :
 
-   - **Copie exacte** : Experience Manager Guides sélectionne la même version de toutes les rubriques et crée une copie exacte de la ligne de base dupliquée.
-   - **Libellé** : dans la liste déroulante, vous pouvez choisir l’un des [&#x200B; libellés répertoriés](#labels-list). Experience Manager Guides sélectionne les versions des rubriques pour lesquelles le libellé sélectionné est défini, tandis que pour les autres rubriques, il sélectionne la version à partir de la ligne de base dupliquée. Par exemple, vous sélectionnez le libellé `Release 1.0` dans la liste déroulante, puis le service sélectionne les versions des rubriques pour lesquelles vous avez défini ce libellé. Pour toutes les autres rubriques, il sélectionne la version de la ligne de base dupliquée.
-1. Cliquez sur **Dupliquer**.
+   - **Exact copy**: Experience Manager Guides picks the same version of all the topics and creates an exact copy of the duplicated baseline.
+   - **Label**: Using the dropdown, you can choose one of the [listed labels](#labels-list). Experience Manager Guides picks those versions of the topics with the selected label defined for them, while for the remaining topics, it picks the version from the duplicated baseline. For example, you select the label `Release 1.0` from the dropdown, then it picks those versions of the topics for which you have defined this label. For all other topics, it picks the version from the duplicated baseline.
+1. Click **Duplicate**.
 
-- **Renommer** ou **Supprimer** une ligne de base existante.
-- Ajoutez, supprimez ou modifiez des libellés existants à partir de l’option **Gérer les libellés** pour les lignes de base statiques. Si votre administrateur a configuré des libellés prédéfinis, ces libellés s’affichent dans la liste déroulante Ajouter un libellé . Pour plus d’informations sur l’ajout de libellés, voir [&#x200B; Utiliser des libellés &#x200B;](web-editor-use-label.md#).
+- **Rename**, or **Delete** an existing baseline.
+- Add, remove, or make changes to existing labels from the **Manage Labels** option for static baselines. If your administrator has configured pre-defined labels, then you are shown those labels in the Add Label dropdown list. Pour plus d’informations sur l’ajout de libellés, voir [ Utiliser des libellés ](web-editor-use-label.md#).
 
   >[!NOTE]
   >
-  > Le processus d’ajout ou de suppression de libellés se produit de manière asynchrone, de sorte que vous pouvez continuer à travailler sur d’autres fichiers dans l’éditeur web. Une fois le libellé ajouté ou supprimé, un message pop-up s’affiche pour confirmer que le libellé a été ajouté ou supprimé. Vous recevez également une notification de boîte de réception pour le même.
+  > The process to add or remove labels happens asynchronously, so you can continue working on other files in the Web Editor. Once the label is added or removed, a pop-up message is displayed confirming that the label has been added or removed, and you also receive an Inbox notification for the same.
 
-- **Modifier les propriétés** d&#39;une ligne de base statique existante que vous avez définie lors de la création de la ligne de base.
-- Exportez l’instantané d’une ligne de base dans un fichier Microsoft Excel avec l’option **Exporter la ligne de base**.
-
-
-### Liste des libellés {#labels-list}
-
-Les libellés répertoriés dans la liste déroulante sont basés sur les critères suivants :
-- Les libellés doivent être ajoutés à l&#39;une des versions des rubriques du plan DITA (sur lequel la ligne de base est créée).
-- De plus, seules les références de premier niveau (rubriques ou sous-cartes) du plan DITA sont prises en compte pour le choix des libellés.
+- **Edit properties** of an existing static baseline that you have set while creating the baseline.
+- Export the snapshot of a baseline in a Microsoft Excel file with the **Export Baseline** option.
 
 
+### List of labels {#labels-list}
 
-## Filtres de ligne de base
+The labels listed in the dropdown are based on the following criteria:
+- The labels should be added to one of the versions of the topics in the DITA map (on which the baseline is created).
+- And only the first-level references (topics or sub-maps) of the DITA map are considered for picking the labels.
 
-À l&#39;aide de l&#39;icône Filtres du panneau **Filtres de ligne de base**, vous pouvez appliquer des filtres sur la ligne de base ouverte dans la fenêtre Modification de ligne de base :
 
-![filtres de base](images/baseline-filter.png){width="300" align="left"}
 
-- Filtrez les fichiers en fonction de leur nom ou de leur emplacement.
-- Filtrez les fichiers en fonction des valeurs des différentes colonnes telles que Type de fichier, Type de référence, etc.
-- Choisissez les colonnes à afficher dans la fenêtre de modification de ligne de base.
+## Baseline filters
+
+Using the Filters icon in the **Baseline Filters** panel you can apply filters on the baseline opened in the baseline editing window:
+
+![baseline filters](images/baseline-filter.png){width="300" align="left"}
+
+- Filter the files based on filenames, or file location.
+- Filter the files based on the values for different columns like File Type, Reference Type and so on.
+- Choose the columns to be displayed in the baseline editing window.
 
 >[!NOTE]
 >
-> Vous pouvez cliquer sur un en-tête de colonne et trier les fichiers en fonction des colonnes de la fenêtre de modification de ligne de base.
+> You can click a column heading and sort the files based on the columns in the baseline editing window.
 
 **Enregistrer ou réinitialiser une ligne de base**
 
 Une fois la ligne de base modifiée, cliquez sur le bouton **Enregistrer** en haut pour enregistrer les modifications. Vous pouvez cliquer sur le bouton **Réinitialiser** si vous ne souhaitez pas enregistrer la modification et réinitialiser la ligne de base. Lorsque vous cliquez sur le bouton **Réinitialiser**, un avertissement s’affiche indiquant que vos modifications non enregistrées seraient perdues.
 
-**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**[ Utiliser l’éditeur web](web-editor.md)

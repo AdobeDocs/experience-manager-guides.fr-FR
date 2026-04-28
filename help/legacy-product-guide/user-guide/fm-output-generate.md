@@ -5,9 +5,9 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: 9b5760bd-817c-4d8d-ab37-ab8699ac62fa
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -31,4 +31,4 @@ Effectuez les étapes suivantes pour générer une sortie pour les documents Fra
 >
 > Vous pouvez afficher le statut actuel de la demande de génération de sortie en cliquant sur Sorties. Pour plus d’informations, voir [Afficher l’état de la tâche de génération de sortie](fm-output-view-status.md).
 
-**Rubrique parente :**&#x200B;[&#x200B; générer la sortie des documents FrameMaker](fm-output-generatation.md)
+**Rubrique parente :**[ générer la sortie des documents FrameMaker](fm-output-generatation.md)

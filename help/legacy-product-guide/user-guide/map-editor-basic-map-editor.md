@@ -5,9 +5,9 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 194caf31-15ae-436d-bbd4-3ea4907c7877
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1508'
 ht-degree: 0%
 
 ---
@@ -173,27 +173,27 @@ Pour utiliser les tables de relation dans l’éditeur de mappage de base, proc�
 
    ![](images/create-reltable.png){width="550" align="left"}
 
-1. Pour ajouter un en-tête à votre tableau de relation, cliquez sur **Ajouter un nouvel en-tête**.
+1. To add a header to your relationship table, click **Add Relheader**.
 
-1. Pour ajouter une colonne à votre table de relation, cliquez sur **Ajouter une colonne**.
+1. To add a column to your relationship table, click **Add a Column**.
 
    ![](images/complete-reltable.png){width="550" align="left"}
 
 1. Cliquez sur **Enregistrer**.
 
 
-Vous pouvez également effectuer les actions suivantes à partir de l’éditeur de table de relation :
+You can also perform the following actions from the relationship table editor:
 
-**Supprimer lignes ou colonnes**
+**Delete rows or columns**
 
-Si vous souhaitez supprimer une colonne de votre tableau, cochez la case située dans l’en-tête de colonne et cliquez sur Supprimer. Si vous souhaitez supprimer une ligne du tableau, cochez la case située dans la première colonne de la ligne correspondante, puis cliquez sur Supprimer.
+If you want to delete a column from your table, select the checkbox in the column header and click Delete. If you want to remove a row from table, select the checkbox in the first column of the respective row and click Delete.
 
-**Supprimer une rubrique**
+**Delete a topic**
 
-Si vous souhaitez supprimer une rubrique de votre tableau, cliquez sur l’icône en forme de croix en regard de la rubrique.
+If you want to delete a topic from your table, click the cross icon next to the topic.
 
-**Supprimer la table de relation**
+**Delete the relationship table**
 
-Si vous souhaitez supprimer la table de relation, cliquez n&#39;importe où en dehors de la table de relation et cliquez sur Supprimer.
+If you want to delete the relationship table, click anywhere outside the relationship table and click Delete.
 
-**Rubrique parente :**&#x200B;[&#x200B; Utilisation de l’éditeur de cartes](map-editor.md)
+**Rubrique parente :**[ Utilisation de l’éditeur de cartes](map-editor.md)

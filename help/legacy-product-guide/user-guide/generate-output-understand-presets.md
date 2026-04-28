@@ -5,7 +5,7 @@ feature: Publishing
 hide: true
 role: User
 exl-id: 682ca543-86f3-46b0-9e05-7e011a4cf7b8
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -41,4 +41,4 @@ Les sections suivantes décrivent les options disponibles pour les formats de so
 
 En tant qu’administrateur, Experience Manager Guides vous permet de créer et de gérer des paramètres prédéfinis de sortie pour les profils globaux et de dossiers. Pour plus d’informations, consultez [Gestion des paramètres prédéfinis de sortie de profil global et de dossier](./web-editor-manage-output-presets.md).
 
-**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)
+**Rubrique parente :**[ Génération de sortie](generate-output.md)

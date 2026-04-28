@@ -5,9 +5,9 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: b8d16ae9-5cbd-4fa1-b231-f06307e8ee17
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '176'
 ht-degree: 5%
 
 ---
@@ -28,4 +28,4 @@ Les options suivantes sont disponibles pour la sortie EPUB :
 | Chemin de destination | Chemin d’accès dans votre référentiel AEM où est stockée la sortie EPUB. |
 | Exécuter le workflow de post-génération | Lorsque vous sélectionnez cette option, une nouvelle liste déroulante Workflow de post-génération s’affiche, contenant tous les workflows configurés dans AEM. Vous devez sélectionner un workflow à exécuter une fois le workflow de génération de sortie terminé. |
 
-**Rubrique parente :**&#x200B;[&#x200B; générer la sortie des documents FrameMaker](fm-output-generatation.md)
+**Rubrique parente :**[ générer la sortie des documents FrameMaker](fm-output-generatation.md)

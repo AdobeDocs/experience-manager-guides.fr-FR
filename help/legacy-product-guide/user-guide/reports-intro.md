@@ -5,16 +5,16 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 377664ec-b7e5-48b9-ae47-ddae8968736b
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '191'
 ht-degree: 1%
 
 ---
 
 # Rapports {#id1645H9007MZ}
 
-Dans une configuration organisationnelle, vous souhaitez vérifier l’exhaustivité globale de votre documentation technique avant de commencer à travailler dessus ou à publier les documents en direct. Un tel besoin devient encore plus essentiel dans les environnements multi-utilisateurs et à grande échelle. AEM Guides fournit quelques rapports qui donnent des informations utiles sur l’intégrité globale du contenu dans votre référentiel et sur la manière dont le contenu est utilisé dans le processus de documentation.
+Dans une configuration organisationnelle, vous souhaitez vérifier l’exhaustivité globale de votre documentation technique avant de commencer à travailler dessus ou à publier les documents en direct. Un tel besoin devient encore plus essentiel dans les environnements multi-utilisateurs et à grande échelle. AEM Guides fournit quelques rapports qui donnent une insight utile sur l’intégrité globale du contenu dans votre référentiel et sur la manière dont le contenu est utilisé dans le processus de documentation.
 
 Vous pouvez créer des rapports DITA map de deux manières :
 

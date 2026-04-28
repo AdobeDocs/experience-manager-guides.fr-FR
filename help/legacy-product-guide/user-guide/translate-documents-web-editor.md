@@ -1,55 +1,55 @@
 ---
-title: Traduire des documents à partir de l’éditeur web
-description: Traduisez votre contenu dans plusieurs langues à partir de l’éditeur web. Découvrez comment créer un projet de traduction, ajouter des règles, afficher des versions et ignorer les fichiers non synchronisés dans AEM Guides.
+title: Translate documents from the Web Editor
+description: Translate your content into multiple languages from the web editor. Learn how to create a translation project, add rules, view versions, and dismiss out-of-sync files in AEM Guides.
 feature: Authoring, Features of Web Editor, Translation
 role: User
 hide: true
 exl-id: a288a4d5-5c24-4021-8bfa-4b68cecf630f
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '2343'
+source-wordcount: '2358'
 ht-degree: 1%
 
 ---
 
-# Traduire des documents à partir de l’éditeur web {#id21BKF0Z0YZF}
+# Translate documents from the Web Editor {#id21BKF0Z0YZF}
 
 >[!TIP]
 >
-> Il est recommandé d’utiliser cette fonctionnalité de traduction à partir de l’éditeur web si vous avez effectué une mise à niveau vers AEM Guides as a Cloud Service version de février 2022 ou ultérieure.
+> It is recommended to use this Translation feature from the Web Editor if you have upgraded to AEM Guides as a Cloud Service February 2022 release or later.
 
-AEM Guides s’accompagne d’une puissante fonctionnalité dans l’éditeur web qui vous permet de traduire votre contenu dans plusieurs langues. Vous pouvez créer un projet de traduction et ajouter ultérieurement les tâches de traduction au projet de traduction existant. Vous pouvez également créer un projet de traduction multilingue qui comprend des tâches de traduction pour toutes les langues sélectionnées.
+AEM Guides comes with a powerful feature in the Web Editor that enables you to translate your content into multiple languages. You can create a new translation project and later add the translation jobs to the existing translation project. You can also create a multi-lingual translation project which includes translation jobs for all the selected languages.
 
 >[!NOTE]
 >
-> Votre administrateur peut configurer l’onglet Gérer \(utilisé pour la traduction\) dans l’éditeur web. Pour plus d’informations, consultez *Configuration de la fonction de traduction dans l’éditeur web* dans la section Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
+> Your administrator can configure the Manage tab \(used for translation\) in the Web Editor. For more details, see *Configure the translation feature in the Web Editor* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 ## Avant de commencer
 
-Avant d’effectuer les étapes de cette procédure, assurez-vous d’avoir créé les dossiers racine de langue et cible requis
+Before performing steps in this procedure, ensure that you have created the required language root and target folders
 
-1. Créez un dossier racine pour stocker votre contenu source. Le dossier racine doit être créé avec le nom de langue \(tel que l’anglais\) ou le code de langue \(en\).
-1. Créez les dossiers de destination vers lesquels vous souhaitez traduire votre contenu. Par exemple, pour traduire votre contenu en allemand ou en français, vous devez créer un dossier nommé -de \(pour l’allemand\) ou -fr \(pour le français\).
+1. Create a root folder to store your source content. The root folder must be created with the language name \(such as English\) or language code \(en\).
+1. Create the destination folders to which you want to translate your content. For example, if you want to translate your content into German or French, then you must create folder named as -de \(for German\) or -fr \(for French\).
 
 >[!NOTE]
 >
-> Le dossier racine et les dossiers de destination doivent être créés au même niveau.
+> The root folder and the destination folders must be created at the same level.
 
 ## Créer un projet de traduction
 
-1. Dans le panneau **Référentiel**, ouvrez le fichier DITA map en mode Carte.
-1. Cliquez sur l’onglet **Gérer**. Le **panneau Traduction** affiche les groupes de langues disponibles.
+1. In the **Repository** panel, open the DITA map file in map view.
+1. Cliquez sur l’onglet **Gérer**. The **Translation panel** displays the available language groups.
 
-1. En tant qu’utilisateur, vous pouvez afficher les groupes linguistiques configurés sur votre profil de dossier. Les groupes de langues affichent les dossiers de langue ainsi que leurs codes de langue. Par exemple, le groupe de langues G1 contient les dossiers de langues Italien \(it\), Allemand \(de\), Français \(fr\) et Anglais \(en\).
+1. En tant qu’utilisateur, vous pouvez afficher les groupes linguistiques configurés sur votre profil de dossier. The language groups display the language folders along with their language codes. For example, the language group named G1 contains Italian \(it\), German \(de\), French \(fr\), and English \(en\) language folders.
 
    ![Panneau de traduction](images/translation-languages.png){width="300" align="left"}
 
-   *Sélectionnez les groupes linguistiques ou les langues dans lesquelles vous souhaitez traduire vos documents.*
+   *Select the language groups or languages in which you want to translate your documents.*
 
 
    >[!IMPORTANT]
    >
-   > Vous pouvez uniquement sélectionner et traduire vers les langues pour lesquelles vous avez créé le dossier cible parallèlement à la langue source. Un dossier de langue créé à un autre niveau, par exemple un niveau vers le bas à partir du dossier de langue source, n’est pas affiché non plus. Veillez à créer tous vos dossiers de langue cible au même niveau que votre dossier de langue source.
+   > You can only select and translate to the languages for which you have created the target folder parallel to the source language. Un dossier de langue créé à un autre niveau, par exemple un niveau vers le bas à partir du dossier de langue source, n’est pas affiché non plus. Veillez à créer tous vos dossiers de langue cible au même niveau que votre dossier de langue source.
 
 
 
@@ -73,7 +73,7 @@ Avant d’effectuer les étapes de cette procédure, assurez-vous d’avoir cré
 
    **Aucun** sélectionnez cette option pour traduire les versions par défaut des fichiers. Cette option est sélectionnée par défaut.
 
-   **Utiliser la ligne de base :** vous pouvez sélectionner une ligne de base pour traduire votre projet. Cliquez sur Utiliser niveau de référence et choisissez une ligne de base créée sur la carte. Tous les fichiers faisant partie de la ligne de base sélectionnée sont affichés sur la page Traduction . Une fois votre contenu traduit, vous pouvez exporter la ligne de base traduite. Pour plus d&#39;informations sur l&#39;exportation de la ligne de base traduite, voir [&#x200B; Exporter la ligne de base traduite &#x200B;](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
+   **Utiliser la ligne de base :** vous pouvez sélectionner une ligne de base pour traduire votre projet. Cliquez sur Utiliser niveau de référence et choisissez une ligne de base créée sur la carte. Tous les fichiers faisant partie de la ligne de base sélectionnée sont affichés sur la page Traduction . Une fois votre contenu traduit, vous pouvez exporter la ligne de base traduite. Pour plus d&#39;informations sur l&#39;exportation de la ligne de base traduite, voir [ Exporter la ligne de base traduite ](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 
    **Utiliser la dernière version comme activée** : choisissez de filtrer la version des rubriques en fonction de leur date et heure de création. Lorsque vous sélectionnez une date et une heure, seules la dernière version des fichiers créés le ou avant la date et l’heure sélectionnées s’affichent.
 
@@ -111,80 +111,80 @@ Dans un projet XLIFF, le contenu est exporté au format XLIFF standard du secteu
      > L’exportation XLIFF ne fonctionne qu’avec la configuration de traduction humaine.
 
    - Vous pouvez sélectionner **Créer un projet de traduction multilingue** qui inclura les tâches de traduction pour toutes les langues que vous avez sélectionnées pour la traduction. Par exemple, si vous avez sélectionné le français, l’allemand et l’espagnol, un projet contenant des tâches de traduction pour les trois langues sera créé.
-   - Si vous disposez déjà d’un projet de traduction, vous pouvez y ajouter des rubriques. Sélectionnez l’option Ajouter à **Projet de traduction existant** dans la liste Projet et choisissez un projet dans la liste Projet de traduction existant . Vous pouvez trier ces projets par ordre le plus récent, croissant ou décroissant.
+   - Si vous disposez déjà d’un projet de traduction, vous pouvez y ajouter des rubriques. Select Add to **Existing Translation Project** option from the Project list and choose a project from the Existing Translation Project list. You can sort these projects by most recent, ascending, or descending order.
 
-- Si vous sélectionnez **Projet de traduction existant**, cette opération met à jour l’entrée de ressource existante dans le projet si la ressource est déjà ajoutée et que le statut de la tâche de traduction associée est à l’état *Brouillon*.
-   - Si la langue de destination n’est pas présente dans le projet, un nouveau projet est créé pour le projet de traduction unilingue et une nouvelle tâche est créée pour le projet de traduction multilingue.
-   - Si la tâche est déjà présente pour la langue de destination et que le statut de la tâche n’est pas à l’état *Brouillon*, une nouvelle tâche est créée dans le même projet pour ajouter les ressources à traduire.
+- If you select **Existing Translation Project**, this operation updates the existing asset entry in the project if the asset is already added and the related translation job state is in the *Draft* state.
+   - If the destination language is not present in the project, a new project is created for the single-language translation project, and a new job is created for multi-language translation project.
+   - If the job is already present for the destination language and the job status isn&#39;t in the *Draft* state, a new job is created within the same project to add the assets for translation.
 
   >[!NOTE]
   >
-  > Si votre projet existant est un projet de définition de la portée, son nom comporte le suffixe « \(Définition de la portée\) ».
+  > If your existing project is a scoping project, it has &#39;\(Scoping\)&#39; appended in its name.
 
-- Si vous devez créer la portée d’un projet à traduire, vous pouvez sélectionner **Créer un nouveau projet de traduction de la portée**. Les copies ne seront pas envoyées pour traduction et l’état de traduction original des fichiers sera conservé. Il n’y a aucun impact sur la copie de langue de destination des rubriques mentionnées envoyées pour la définition de la portée.
+- If you need to create the scope for a project to be translated, you can select **Create a new scoping translation project**. This will not send the copies for translation and the original translation status of the files is maintained. There is no impact on the destination language copy of the referred topics which are sent for scoping.
 1. Dans le champ **Titre du projet**, saisissez un titre pour le projet.
-1. Cliquez sur **Créer** pour créer un projet de traduction.
+1. Click **Create** to create a new translation project.
 
-   Un nouveau projet de traduction est créé avec la version sélectionnée des rubriques. À ce stade, un message pop-up s’affiche pour confirmer que le projet de traduction a été créé. Une fois que toutes les copies de langue cible sont disponibles dans le projet de traduction, vous recevez une notification dans la boîte de réception. Une fois que les copies de langue cible sont disponibles dans le projet de traduction, vous pouvez poursuivre et démarrer la tâche de traduction. Pour plus d’informations, reportez-vous à [Démarrage de la tâche de traduction](translation-first-time.md#id225IK030OE8).
+   Un nouveau projet de traduction est créé avec la version sélectionnée des rubriques. À ce stade, un message pop-up s’affiche pour confirmer que le projet de traduction a été créé. Une fois que toutes les copies de langue cible sont disponibles dans le projet de traduction, vous recevez une notification dans la boîte de réception. Once the target language copies are available in the translation project, you can then go ahead and start the translation job. For details see, [Start the translation job](translation-first-time.md#id225IK030OE8).
 
    >[!NOTE]
    >
    > Si vous rejetez la traduction d’une ou de plusieurs rubriques dans une tâche de traduction, le statut de traduction **En cours** de toutes les rubriques rejetées revient à son statut d’origine. Le statut des rubriques référencées est vérifié et rétabli en fonction du dernier état de traduction. En outre, les fichiers de traduction créés dans le projet de destination ne sont pas supprimés, même si la traduction est rejetée pour eux.
 
-## Ajouter les règles de traduction
+## Add the translation rules
 
-AEM Guides permet à vos administrateurs de configurer les règles de traduction. Le format SRX (Segmentation Rules eXchange) est une norme pour échanger des règles de segmentation entre différents utilisateurs et différents environnements de traduction. Vous pouvez créer un dossier et y ajouter vos fichiers SRX personnalisés.
+AEM Guides allows your administrators to configure the translation rules. The SRX (Segmentation Rules eXchange) format is a standard for exchanging segmentation rules between different users and different translation environments. You can create a folder and add your custom SRX files to it.
 
-Les fichiers SRX doivent être nommés comme `<language-code>.srx`. Par exemple, en-US ou ar-AE.
+SRX files should be named as `<language-code>.srx`. For example, en-US, or ar-AE.
 
 >[!NOTE]
->Le titre n’est pas sensible à la casse. Vous pouvez donc avoir « en-US », « en-us » ou « EN-us ». En outre, les guides AEM peuvent résoudre « - » (trait d’union) ou « _ » (trait de soulignement). Vous pouvez donc avoir « en-US » ou « en_US ».
+>The title is not case-sensitive, so you can have &#39;en-US&#39; or &#39;en-us&#39; or &#39;EN-us&#39;. Also, AEM guides can resolve &#39;-&#39; (hyphen) or &#39;_&#39; (underscore). So, you can have &#39;en-US&#39; or &#39;en_US&#39;.
 
-En outre, vous pouvez placer ces fichiers dans n’importe quel dossier sous la racine AEM Assets `./content/dam`.
-
-
-
-Une fois que vous avez créé le dossier contenant les fichiers SRX, vous pouvez ajouter le chemin du dossier dans la configuration de l’emplacement SRX de traduction au sein de votre profil de dossier.
-
-Pour de meilleures performances, il est recommandé de ne conserver que les fichiers SRX dans le dossier configuré dans le profil du dossier.
+Also, you can put these files inside any folder under AEM assets root that is `./content/dam`.
 
 
-AEM Guides sélectionne les règles SRX en fonction de la langue source du projet de traduction. Il recherche un fichier SRX personnalisé pour une langue, et si vous ne définissez pas de fichier SRX personnalisé, il sélectionne les règles selon les règles de traduction prêtes à l’emploi.
+
+Once you&#39;ve created the folder which contains the SRX files, you can add the folder path in the Translation SRX location configuration inside your folder profile.
+
+It is recommended that for a better performance you should keep only SRX files in the folder that is configured in the folder profile.
 
 
-Pour plus d’informations sur la configuration des profils globaux et au niveau du dossier, voir la section *Configurer les modèles de création* dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
+AEM Guides picks the SRX rules according to the source language of the translation project. It looks for a custom SRX file for a language, and if you do not define a custom SRX file, then it picks the rules as per the out of the box translation rules.
 
-## Transmettez le libellé de version à la version cible
 
-AEM Guides permet de transmettre le libellé du fichier source au fichier cible. Cela vous aidera à identifier facilement la version source du fichier traduit.
+For details on setting up global and folder-level profiles, see *Configure authoring templates* section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
-Pour ajouter le libellé de la version source dans la copie cible, votre administrateur système doit sélectionner l’option **Propager les libellés de la version source vers la version cible** sous l’onglet **Traduction** dans **Paramètres de l’éditeur**.
+## Pass the version label to the target version
 
-Par exemple, si vous avez des fichiers source auxquels est appliqué le libellé de version `Release 1.0`, vous pouvez également transmettre le libellé source \(`Release 1.0`\) au fichier traduit.
+AEM Guides allows you to pass the label of the source file to the target file. This will help you easily identify the source version for the translated file.
+
+To add the source version label in the target copy, your system administrator must select the option **Propagate source version labels to the target version** under the **Translation** tab in **Editor Settings**.
+
+For example, if you have some source files with the version label `Release 1.0` applied to them, then you can also pass on the source label \(`Release 1.0`\) to the translated file.
 
 ![](images/translation-pass-source-label.png){width="650" align="left"}
 
 >[!NOTE]
 >
-> Le libellé source n’est attaché qu’à une seule version cible. Si vous déplacez le libellé source vers une autre version, il est automatiquement répercuté dans le dernier libellé cible.
+> The source label is only attached to one target version. If you move the source label to another version, it is automatically reflected in the latest target label.
 
-## Afficher la différence de version pour les fichiers désynchronisés 
+## View version difference for Out of Sync files 
 
-AEM Guides permet de vérifier les différences entre la version sélectionnée et la dernière version source traduite des rubriques. Vous pouvez choisir de traduire les fichiers **Désynchronisés** en fonction des modifications apportées.
+AEM Guides provides the feature to check the differences between the selected version and the last translated source version of the topics. You can choose to translate the **Out of Sync** files based on the changes made.
 
 ![](images/translation-version-diff.png){width="650" align="left"}
 
-Sélectionnez l’icône **Afficher la différence** icône \(![](images/show-difference-icon.svg)\) d’une rubrique pour afficher les différences entre la dernière version traduite et la version actuelle du fichier sélectionné.
+Select the **Show difference** icon \(![](images/show-difference-icon.svg)\) for a topic to see the differences between the last translated version and the current version of the selected file.
 
 >[!NOTE]
 >
-> **Afficher la différence** l&#39;icône \(![](images/show-difference-icon.svg)\) s&#39;affiche uniquement pour les fichiers DITA dont le statut de traduction est **Désynchronisé**.
+> **Show difference** icon \(![](images/show-difference-icon.svg)\) appears only for DITA files that have the translation status as **Out of Sync**.
 
-La boîte de dialogue **Différence de version** s’affiche. Il affiche le numéro **Dernière version traduite** et le numéro **Version sélectionnée** sur la gauche. La fenêtre d&#39;aperçu affiche les différences entre la dernière version traduite et la version sélectionnée de la rubrique.
+The **Version Difference** dialog appears. It shows the **Last translated version** and the **Selected version** number on the left. The preview window displays the differences between the last translated version and the selected version of the topic.
 
 ![](images/version-diff.png){width="650" align="left"}
 
-## Ignorer les ressources désynchronisées
+## Dismiss out of sync assets
 
 Si vous apportez des modifications à certaines ressources, celles-ci ne sont plus synchronisées. Vous pouvez soit retraduire les ressources modifiées, soit ignorer le statut Désynchronisé . Par exemple, si vous avez apporté des modifications très mineures qui n’ont pas vraiment besoin d’être traduites, vous pouvez marquer leur statut sur Synchronisé.
 
@@ -227,4 +227,4 @@ Pour effectuer la gestion des documents, Experience Manager Guides permet de sup
 Vous pouvez également désactiver les projets de traduction si vous souhaitez les utiliser ultérieurement. La suppression d’un projet supprime tous les fichiers et dossiers présents dans le projet. La désactivation d’un projet ne le supprime pas, mais le conserve dans le référentiel. Cependant, vous ne pouvez pas mettre à jour ni modifier un projet désactivé.  La suppression ou la désactivation d’un projet n’aura aucune incidence sur le statut de traduction des références.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**[ Utiliser l’éditeur web](web-editor.md)

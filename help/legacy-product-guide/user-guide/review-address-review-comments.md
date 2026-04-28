@@ -5,9 +5,9 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: a9551eb0-ad30-424d-b1c8-c079125d8118
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -74,4 +74,4 @@ En mode Éditeur web, le panneau de droite contient les icônes Révision et Mod
 - **I** : appliquer un filtre sur les commentaires. Vous pouvez filtrer les commentaires selon le type de révision \(tous, mis en surbrillance, supprimé, inséré ou pense-bête\), le statut de révision \(tous, acceptés, rejetés ou aucun\), les réviseurs \(tous ou certains réviseurs\(s\)\) ou les versions de rubrique.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; consulter des rubriques ou des cartes](review.md)
+**Rubrique parente :**[ consulter des rubriques ou des cartes](review.md)

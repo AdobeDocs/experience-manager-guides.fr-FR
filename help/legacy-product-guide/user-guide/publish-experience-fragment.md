@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: c3c6c063-441c-413b-a63e-0acbd126ca6d
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%
@@ -37,33 +37,32 @@ Par exemple :
 
      Si vous ne définissez pas de modèle autorisé pour un dossier, les modèles sont sélectionnés à partir du dossier parent ou du dossier de modèles par défaut.
    * **Classable** : permet de modifier l’ordre des ressources dans un dossier.
-
      ![ajoutez les détails de la configuration cloud dans les propriétés du dossier](images/experience-fragment-folder-properties.png){width="650" align="left"}
      *Ajoutez la configuration cloud dans les propriétés du dossier pour la connecter aux modèles de fragment.*
-1. Pour générer un fragment d’expérience, sélectionnez **Nouvelle sortie** ![nouvelle icône de sortie](./images/Add_icon.svg) dans la section **Sorties** de la **Propriétés du fichier** d’une rubrique.
+1. To generate an Experience Fragment, select **New Output** ![new output icon](./images/Add_icon.svg) from the **Outputs** section in the **File Properties** of a topic.
 1. Sélectionnez **Fragment d’expérience**.\
-   ![onglet options des propriétés du fichier](./images/file-properties-outputs.png){width="300" align="left"}
+   ![file properties options tab](./images/file-properties-outputs.png){width="300" align="left"}
 
-   *Ajoutez un nouveau fragment d’expérience à partir des propriétés de fichier d’une rubrique*.
+   *Add a new Experience Fragment from the File Properties of a topic*.
 
    >[!NOTE]
    >
-   > Vous pouvez également publier un fragment d’expérience à partir de la vue **Repository**. Sélectionnez la rubrique à publier en tant que fragment d’expérience. Ensuite, dans le menu **Options**, sélectionnez **Publier sous** > **Fragment d’expérience**.
+   > You can also publish an Experience  Fragment from the **Repository View**. Select the topic that you want to publish as an Experience Fragment. Then, from the **Options** menu, select **Publish As** > **Experience Fragment**.
 
-1. Dans la boîte de dialogue **Générer un fragment d’expérience**, renseignez les informations suivantes :
-   ![Ajoutez le modèle de fragment et les détails de mappage dans la boîte de dialogue Publier en tant que fragment d’expérience](images/experience-fragment-generate.png){width="500" align="left"}
+1. In the **Generate Experience Fragment** dialog box, fill in the following details:
+   ![Add the fragment model and mapping details in the Publish as Experience Fragment dialog](images/experience-fragment-generate.png){width="500" align="left"}
 
-   *Ajoutez le chemin d’accès, le modèle et les détails de mappage pour publier une rubrique ou ses éléments en tant que fragment d’expérience. Vous pouvez remplacer un fragment d’expérience existant.*
+   *Add the path, template, and mapping details to publish a topic or its elements as an Experience Fragment. You can overwrite an existing Experience Fragment.*
 
-   * **Chemin d’accès** : recherchez et sélectionnez le chemin d’accès du dossier dans lequel vous souhaitez publier le fragment d’expérience. Vous pouvez également sélectionner un fragment d’expérience existant et le republier.
-   * **Titre** : saisissez le titre du fragment d’expérience. Par défaut, le titre est renseigné avec le titre de la rubrique. Vous pouvez le modifier. Ce titre est utilisé pour générer le nom du fragment d’expérience.
-   * **Nom** : saisissez le nom du fragment d’expérience. Par défaut, le nom est renseigné avec le titre du topic et les espaces sont remplacés par « _ ». Par exemple, *sample_experience_fragment*. Vous pouvez le modifier. Ce nom est utilisé pour générer l’URL du fragment d’expérience.
-   * **Modèle** : sélectionnez le modèle de fragment d’expérience à utiliser pour créer votre fragment d’expérience. Les modèles sont sélectionnés dans le dossier que vous avez configuré dans les propriétés.
-   * **Mapping** : il sélectionne le mapping du fichier *experienceFragmentMapping.json* et l’affiche.
+   * **Path**: Browse and select the path of the folder where you want to publish the Experience Fragment. You can also select an existing Experience Fragment and republish it.
+   * **Title**: Type the title of the Experience Fragment. By default, the title is populated with the title of the topic. You can edit it. This title is used to generate the name of the Experience Fragment.
+   * **Name**: Type the name of the Experience Fragment. By default, the name is populated with the title of the topic, and the spaces are replaced with &#39;_&#39;. For example, *sample_expereince_fragment*. You can edit it. This name is used to generate the URL for the Experience Fragment.
+   * **Template**: Select the Experience Fragment template that you want to use to create your Experience Fragment. The templates are picked from the folder that you have configured in the properties.
+   * **Mapping**: It picks the mapping from the *experienceFragmentMapping.json* file and displays it.
 
 
 
-     Votre administrateur peut ajouter les mappages dans le fichier *experienceFragmentMapping.json*.  Découvrez comment [créer un mappage entre une rubrique et un fragment d’expérience](/help/product-guide/cs-install-guide/conf-experience-fragment-mapping-cs.md) dans le Guide d’installation et de configuration.
+     Your administrator can add the mappings in the *experienceFragmentMapping.json* file.  Découvrez comment [créer un mappage entre une rubrique et un fragment d’expérience](/help/product-guide/cs-install-guide/conf-experience-fragment-mapping-cs.md) dans le Guide d’installation et de configuration.
 
    * Vous pouvez également sélectionner différentes conditions pour publier le contenu.  Sélectionnez l’une des options suivantes :
 
@@ -81,7 +80,7 @@ Par exemple :
 1. Cliquez sur **Générer** pour publier le fragment d’expérience.
 1. Vous pouvez afficher les fragments d’expérience d’une rubrique dans la section **Sorties** de la **Propriétés du fichier**. Les fragments d’expérience s’affichent en fonction de la date et de l’heure de leur publication, la plus récente étant la première.
 
-   ![Affichage des fragments d’expérience d’une rubrique](images/experience-fragment-outputs.png){width=300 align=« left »}
+   ![Affichage des fragments d’expérience d’une rubrique](images/experience-fragment-outputs.png){width=300 align="left"}
 
    *Afficher les fragments d’expérience présents pour une rubrique et les republier.*
 

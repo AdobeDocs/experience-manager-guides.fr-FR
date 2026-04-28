@@ -5,9 +5,9 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 5c2a8239-e6eb-482b-a11b-3732e667c880
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Vous pouvez afficher le statut actuel de la demande de génération de sortie en
 
 Vous pouvez générer la sortie PDF pour un ou plusieurs paramètres prédéfinis de sortie créés pour un plan DITA à partir de l&#39;éditeur web. Pour plus d’informations, consultez [Utilisation du panneau Génération rapide pour générer et afficher la sortie des paramètres prédéfinis](web-editor-quick-generate-panel.md#).
 
-Vous pouvez également générer la sortie du site AEM pour une ou plusieurs rubriques, ou l&#39;ensemble du plan DITA à partir de l&#39;éditeur web. Pour plus d’informations, consultez la section [&#x200B; Publication basée sur des articles à partir de l’éditeur web &#x200B;](web-editor-article-publishing.md#id218CK0U019I).
+Vous pouvez également générer la sortie du site AEM pour une ou plusieurs rubriques, ou l&#39;ensemble du plan DITA à partir de l&#39;éditeur web. Pour plus d’informations, consultez la section [ Publication basée sur des articles à partir de l’éditeur web ](web-editor-article-publishing.md#id218CK0U019I).
 
 ## Génération incrémentielle de la sortie {#generating_standalone_topic}
 
@@ -96,36 +96,36 @@ Pour afficher la file d’attente de génération de sortie, procédez comme sui
 
 1. Dans l’interface utilisateur d’Assets, accédez au fichier de mappage dont vous souhaitez vérifier le statut de génération de sortie, puis cliquez dessus.
 
-1. Cliquez sur **Sorties**.
+1. Click **Outputs**.
 
    ![](images/output-queued.png){width="800" align="left"}
 
-   La page Sorties est divisée en deux parties :
+   The Outputs page is divided into two parts:
 
-   - **Sorties mises en file d’attente :**
+   - **Queued Outputs:**
 
-     Répertorie les sorties qui sont en attente de génération ou qui sont en cours de génération. Les tâches en file d’attente ou en cours s’affichent avec une icône de couleur bleue devant le nom du paramètre prédéfini. Vous pouvez également trouver le paramètre ou le préréglage de génération de sortie utilisé pour la tâche mise en file d’attente, le type, l’utilisateur qui a initié la tâche, la durée écoulée depuis la mise en file d’attente de la tâche et le statut actuel.
+     Lists the outputs that are either waiting to be generated or are under generation process. The queued or in progress tasks are shown with a blue color icon before the preset name. You can also find the output generation setting or preset used for the queued task, the type, user who initiated the task, time since when the task is queued, and the current status.
 
-     Cliquez sur le lien pour accéder au tableau de bord **Publication** et afficher le statut d’exécution actuel. Une liste de toutes les tâches de publication actives est disponible dans le tableau de bord de publication. Les liens **Sorties mises en file d’attente** et **Tableau de bord de publication** ne s’affichent que lorsque des sorties sont en attente de génération ou en cours de génération. Elles n’apparaissent pas une fois les tâches de sortie terminées. Pour plus d’informations sur le tableau de bord de publication, voir [&#x200B; Gérer les tâches de publication à l’aide du tableau de bord de publication &#x200B;](generate-output-publish-dashboard.md#).
+     Click on the link to access the **Publish Dashboard** and view the current running status. A list of all active publishing tasks is available in the Publish Dashboard. The **Queued Outputs** and the **Publish Dashboard** link are displayed only when there are outputs that are either waiting to be generated or are under generation process. They don&#39;t appear when the output tasks have been completed.For more details on Publish Dashboard, see [Manage publish tasks using the Publish Dashboard](generate-output-publish-dashboard.md#).
 
-   - **Sorties générées**
+   - **Generated Outputs**
 
-     Répertorie les tâches de sortie qui ont été terminées. Là encore, les informations affichées ici sont similaires à la section Sorties mises en file d’attente avec quelques différences. Vous disposez d’un nouvel ensemble d’informations sous la forme d’une icône de résultat de sortie et de l’heure de génération de la sortie.
+     Lists the output tasks that have been completed. Again, the information shown here is similar to the Queued Outputs section with a few differences. You have new set of information in the form of output result icon and the output generation time.
 
-     Dans cette liste, vous pouvez avoir des tâches qui se sont exécutées avec succès, des tâches qui se sont exécutées avec un message ou des tâches ayant échoué. Les tâches réussies s’affichent avec une icône de couleur verte, les tâches comportant un message avec une icône de couleur orange et les tâches ayant échoué s’affichent avec une icône de couleur rouge.
+     In this list, you could have tasks that have executed successfully, tasks that have executed with message, or failed tasks. The successful tasks are shown with green color icon, the tasks with a message have an orange color icon, and the failed tasks are shown with red color icon.
 
-     Pour toutes les tâches, le processus de publication crée un fichier journal \(logs.txt\) accessible en cliquant sur le lien de la colonne Généré à . Pour les tâches ayant échoué ou contenant des messages, vous pouvez vérifier le fichier journal, comme expliqué dans la section [Afficher et vérifier le fichier journal](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
+     For all the tasks, the publishing process creates a log file \(logs.txt\) that can be accessed by clicking the link in the Generated At column. For tasks that have failed or have messages, you can check the log file, which is explained in the section [View and check the log file](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
 
      >[!NOTE]
      >
-     > Lorsque vous cliquez sur un lien de la sortie PDF générée, vous êtes invité à télécharger le PDF. Il s’agit du comportement par défaut dans AEM 6.5 et 6.4.
+     > When you click on a link of the generated PDF output, you are asked to download the PDF. This is the default behavior in AEM 6.5 and 6.4.
 
 
-## Annuler une tâche de génération de sortie {#id2061H100T5Z}
+## Cancel an output generation task {#id2061H100T5Z}
 
-AEM Guides offre aux éditeurs un moyen simple et facile d’annuler toute tâche de publication en cours. En tant qu&#39;éditeur, vous pouvez annuler une tâche de publication en cours à partir de la console de plan DITA ou du tableau de bord [Publication](generate-output-publish-dashboard.md#).
+AEM Guides gives publishers a simple and easy way to cancel any ongoing publishing task. As a publisher, you can cancel an ongoing publishing task from the DITA map console or the [Publish Dashboard](generate-output-publish-dashboard.md#).
 
-Effectuez les étapes suivantes pour annuler une tâche de génération de sortie à partir de la console de mappage DITA :
+Perform the following steps to cancel an output generation task from the DITA map console:
 
 1. Dans l’interface utilisateur d’Assets, accédez au fichier de mappage pour lequel vous souhaitez annuler une tâche de génération de sortie en cours, puis cliquez dessus.
 
@@ -169,4 +169,4 @@ Effectuez les étapes suivantes pour supprimer une tâche de sortie de la liste 
    La tâche est supprimée de la liste des Sorties générées .
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)
+**Rubrique parente :**[ Génération de sortie](generate-output.md)

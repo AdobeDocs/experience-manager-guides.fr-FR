@@ -5,10 +5,10 @@ feature: Content Management
 role: User
 hide: true
 exl-id: fcb2cc43-6a36-42f2-a695-7a50ae1031a0
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 1%
+source-wordcount: '451'
+ht-degree: 3%
 
 ---
 
@@ -18,11 +18,11 @@ Il est probable que vous disposiez d&#39;un référentiel de contenu DITA exista
 
 >[!IMPORTANT]
 >
-> Consultez [Ajout de ressources numériques à Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=fr) pour plus d’informations sur les méthodes de chargement de contenu prises en charge dans AEM.
+> Consultez [Ajout de ressources numériques à Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) pour plus d’informations sur les méthodes de chargement de contenu prises en charge dans AEM.
 
 ## Interface utilisateur de la console Assets
 
-Vous pouvez sélectionner du contenu sur votre bureau et le faire glisser sur l’interface utilisateur d’AEM \(navigateur web\) vers le dossier de destination. Pour plus d’informations, consultez [Chargement de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=fr#upload-assets) dans la documentation d’AEM.
+Vous pouvez sélectionner du contenu sur votre bureau et le faire glisser sur l’interface utilisateur d’AEM \(navigateur web\) vers le dossier de destination. Pour plus d’informations, consultez [Chargement de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets) dans la documentation d’AEM.
 
 ## Application de bureau AEM
 
@@ -30,7 +30,7 @@ Utilisez l’application de bureau AEM si vous êtes un professionnel de la cré
 
 ## Ingérant en bloc des ressources
 
-Si vous disposez de migrations à grande échelle et d’ingestions en bloc occasionnelles, utilisez l’outil d’ingestion en bloc des ressources pour charger votre contenu. À l’aide de cet outil, vous pouvez charger du contenu en bloc à partir de magasins de données pris en charge tels qu’Azure ou S3. Pour plus d’informations, voir [Asset bulk ingestor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=fr#asset-bulk-ingestor).
+Si vous disposez de migrations à grande échelle et d’ingestions en bloc occasionnelles, utilisez l’outil d’ingestion en bloc des ressources pour charger votre contenu. Grâce à cet outil, vous pouvez charger du contenu en bloc à partir des magasins de données pris en charge, tels qu’Azure ou S3. Pour plus d’informations, voir [Asset bulk ingestor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
 
 ## Utilisation de FrameMaker pour le chargement en masse
 
@@ -48,4 +48,4 @@ Pour plus d&#39;informations sur les différents scénarios de chargement de fic
 
 Si vous utilisez un outil tel que l’application de bureau AEM ou l’outil d’ingestion de ressources en bloc, l’action à effectuer sur un fichier en double est contrôlée par un paramètre dans le serveur AEM. Contactez votre administrateur système pour en savoir plus sur cette configuration.
 
-**Rubrique parente :**&#x200B;[&#x200B; Gérer le contenu](authoring.md)
+**Rubrique parente :**[ Gérer le contenu](authoring.md)

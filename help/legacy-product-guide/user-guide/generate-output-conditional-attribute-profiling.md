@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8397acf-acd3-4e68-adce-9adbbef55337
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 1%
@@ -42,21 +42,21 @@ Pour définir des attributs conditionnels, procédez comme suit :
 
 1. Saisissez les **Nom**, **Valeur** et un **Libellé** pour l’attribut.
 
-   Vous pouvez enregistrer un profil avec uniquement le nom d’attribut. Cependant, un attribut ne peut être utilisé que lorsqu’une valeur lui est spécifiée. Si vous spécifiez à la fois - valeur et libellé pour un attribut, l’éditeur web affiche toujours uniquement la valeur de l’attribut. Le libellé est présenté à l’administrateur de publication au moment de la création d’un paramètre prédéfini conditionnel.
+   You can save a profile with only the attribute name. However, an attribute can only be used when it has a value specified to it. If you specify both - value and label for an attribute, the Web Editor would still show only the value of the attribute. The label is shown to the publishing administrator at the time of creating conditional preset.
 
-   La capture d’écran suivante montre la définition de l’attribut `platform` avec la valeur `unix` et un libellé `Red Hat Linux`.
+   The following screenshot shows the definition for the `platform` attribute with value of `unix` and a label of `Red Hat Linux`.
 
    ![](images/add-profile.png){width="800" align="left"}
 
-1. Si vous souhaitez ajouter d’autres valeurs pour le même attribut, cliquez sur l’icône **+** et saisissez une valeur et un libellé supplémentaires.
+1. If you want to add more values for the same attribute, click the **+** icon and enter additional value and label.
 
-1. Si vous souhaitez ajouter d’autres attributs, cliquez sur **Ajouter**.
+1. If you want to add more attributes, click **Add**.
 
 1. Cliquez sur **Enregistrer** pour enregistrer les modifications.
 
 
-L’attribut `platform` est stocké dans le système. Chaque fois qu’un auteur décide d’utiliser l’attribut `platform` dans une rubrique DITA d’un dossier, les valeurs s’affichent dans l’onglet Propriétés de l’éditeur web.
+The `platform` attribute is stored in the system. Whenever an author decides to use the `platform` attribute in a DITA topic in a folder, they will see the values in the Properties tab in the Web Editor.
 
 ![](images/properties-tab.png){width="350" align="left"}
 
-**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)
+**Rubrique parente :**[ Génération de sortie](generate-output.md)

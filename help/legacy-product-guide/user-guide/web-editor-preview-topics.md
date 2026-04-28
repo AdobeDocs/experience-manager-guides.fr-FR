@@ -5,9 +5,9 @@ feature: Authoring
 role: User
 hide: true
 exl-id: c2c24b6f-08e8-47be-be33-b3e9fb50052e
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1859'
+source-wordcount: '1863'
 ht-degree: 0%
 
 ---
@@ -219,4 +219,4 @@ Si la colonne Extrait n’est pas visible, sélectionnez **Paramètres d’affic
 
   Une nouvelle branche est créée à partir de la version sélectionnée de la rubrique. Le processus ci-dessus s’applique également pour revenir à une version spécifique d’une rubrique. Le retour à une version spécifique signifie techniquement que vous créez une branche à partir de la version sélectionnée et que vous faites de cette version la copie de travail actuelle de la rubrique. Vous pouvez également afficher l’historique des fichiers qui ont été rétablis dans le rapport Historique de rétablissement de version. Pour plus d’informations sur ce rapport, voir [Rapport Historique des versions de fichiers rétablis](reports-reverted-file-version-history.md#).
 
-**Rubrique parente :**&#x200B;[&#x200B; Créer et prévisualiser des rubriques](create-preview-topics.md)
+**Rubrique parente :**[ Créer et prévisualiser des rubriques](create-preview-topics.md)

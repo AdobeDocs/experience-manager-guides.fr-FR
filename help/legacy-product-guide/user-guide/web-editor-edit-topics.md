@@ -5,9 +5,9 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 0341bdec-9635-4ced-b1c6-789b4e1aded8
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -47,64 +47,63 @@ De même, si vous supprimez le contenu sélectionné, le contenu restant après 
 
 - Entourer le contenu d’un élément valide : effectuez les étapes suivantes pour encapsuler le contenu avec un élément valide :
 
-   - Sélectionnez le contenu dans un élément.
-   - Sélectionnez l’icône ![ajouter](images/Add_icon.svg) dans la barre d’outils secondaire supérieure pour afficher la boîte de dialogue **Entourer avec l’élément**. La boîte de dialogue répertorie les éléments valides pour le contenu sélectionné.
-
+   - Select the content within an element.
+   - Select the ![add](images/Add_icon.svg) icon from the secondary toolbar on the top to view the **Surround with Element** dialog box. The dialog box lists the valid elements for the selected content.
      >[!NOTE]
      >
-     > Vous pouvez également afficher la boîte de dialogue Entourer avec un élément en sélectionnant le menu contextuel du contenu sélectionné.
+     > You can also view the Surround with element dialog box by selecting the context menu of the selected content.
 
-   - Sélectionnez un élément dans la boîte de dialogue. Le contenu sélectionné est encapsulé sous cet élément. Par exemple, si vous sélectionnez le contenu d’un paragraphe, puis choisissez l’élément `<note>` dans la boîte de dialogue **Entourer avec l’élément**, le contenu sélectionné s’affiche sous une note.\
-     ![boîte de dialogue entourer un élément](./images/surround-element.png) {width="300" align="left"}
+   - Select an element from the dialog box. The selected content is wrapped under that element. For example, if you select the content in a paragraph and then choose the `<note>` element from the **Surround with element** dialog box, the selected content appears under a note.\
+     ![surround element dialog box](./images/surround-element.png) {width="300" align="left"}
 
-## Actualiser le navigateur lors de la modification des fichiers
+## Refresh browser while editing the files
 
-Experience Manager Guides permet d’actualiser le navigateur lorsque vous modifiez votre contenu dans l’éditeur web. Cette fonctionnalité vous permet de continuer à modifier le contenu si vous rencontrez une erreur d’application pendant que vous travaillez. Si vous appuyez sur l’actualisation du navigateur alors qu’un ou plusieurs fichiers avec des modifications non enregistrées sont ouverts pour modification, vous êtes averti que les modifications non enregistrées risquent d’être perdues. Vous avez la possibilité d’annuler l’opération d’actualisation et d’enregistrer vos fichiers pour conserver vos modifications.
+Experience Manager Guides provides the support to refresh the browser while you edit your content in the Web Editor. This feature helps you continue editing content in case you encounter an application error while working. If you hit the browser refresh while one or more files with unsaved changes are opened for editing, you are warned that the unsaved changes may be lost. You are given an option to cancel the refresh operation and save your files to preserve your changes.
 
-Même lors de l’actualisation du navigateur, les vues des panneaux de gauche et de droite sont conservées dans l’éditeur web. Experience Manager Guides restaure le dernier état enregistré des fichiers ouverts dans l’éditeur web lorsque vous actualisez le navigateur. Par exemple, les fichiers ouverts dans le panneau Référentiel sont à nouveau ouverts. Le panneau de carte est conservé avec la carte précédemment ouverte.
+Even on refreshing the browser, the views of the left and the right panel are retained in the Web Editor. Experience Manager Guides restores the last saved state of the files opened in the Web Editor when you refresh the browser. For example, the files opened in the Repository panel are opened again. The map panel is retained along with the previously opened map.
 
-La rubrique active ou le plan DITA est rouverte dans la zone d&#39;édition du contenu.
+The active topic or DITA map is reopened in the content editing area.
 
-Le panneau de droite est également rouvert et affiche la même vue qu’avant l’actualisation.
+The right panel is also reopened and displays the same view as before the refresh.
 
-## Indicateur de copie de travail
+## Working copy indicator
 
-AEM Guides fournit l’indicateur de copie de travail qui indique si la \(copie de travail\) actuelle du fichier est synchronisée avec la version enregistrée ou non. Si vous avez apporté des modifications à votre copie actuelle et que vous n&#39;avez pas enregistré votre fichier, une marque \* apparaît avec le titre dans l&#39;onglet Fichier de la rubrique. Cet indicateur sert de rappel pour enregistrer vos modifications et disparaît lorsque vous enregistrez votre fichier.
+AEM Guides provides the working copy indicator which shows whether the current \(working copy\) of file is in sync with the saved version or not. If you have made any changes to your current copy and have not saved your file, a \* mark appears along with the title on the topic&#39;s file tab. This indicator acts as a reminder to save your changes and disappears when you save your file.
 
-![&#x200B; indicateur de copie de travail &#x200B;](images/working-copy-text-update-indicator.png){width="550" align="left"}
+![working copy indicator](images/working-copy-text-update-indicator.png){width="550" align="left"}
 
-AEM Guides indique également si la dernière copie \(working\) enregistrée du fichier est synchronisée avec la version enregistrée ou non. Si des modifications n&#39;ont pas été enregistrées entre la copie de travail et la dernière version enregistrée, une marque \* apparaît avec les informations de version affichées dans le coin supérieur droit de l&#39;onglet Fichier de la rubrique. Cet indicateur sert de rappel pour enregistrer et créer une version de votre copie \(working\) actuelle du fichier.
+AEM Guides also indicates if the last saved \(working\) copy of the file is in sync with the saved version or not. If you have some unsaved changes between the working copy and the last saved version, a \* mark appears along with the version information shown in the right top corner of the topic&#39;s file tab. This indicator acts as a reminder to save and create a version from your current \(working\) copy of the file.
 
-![&#x200B; Indicateur de mise à jour de version &#x200B;](images/version-update-indicator.png){width="550" align="left"}
+![Version update indicator](images/version-update-indicator.png){width="550" align="left"}
 
 
-## Ouvrir les fichiers verrouillés en modes Auteur et Source
+## Open locked files in Author and Source modes
 
-Lorsqu&#39;un fichier DITA ou Markdown est verrouillé ou extrait par un autre utilisateur, la modification du contenu n&#39;est pas possible. Cependant, vous pouvez toujours afficher le fichier en lecture seule dans les modes **Auteur** et **Source**, en plus du mode **Aperçu**.
+When a DITA or Markdown file is locked or checked out by another user, editing or modifying the content is not possible. However, you can still view the file in a read-only format in both the **Author** and **Source** modes, in addition to the **Preview** mode.
 
-En mode lecture seule, vous pouvez afficher le contenu, les balises et les attributs dans les modes **Auteur** ou **Source**. Vous pouvez également modifier les propriétés du fichier.
+In the read-only mode, you have the ability to view the content, tags, and attributes within the **Author** or **Source** modes. You can also modify the file properties.
 
-La barre d’outils affiche les icônes suivantes pour un accès en lecture seule :
+The toolbar displays the following icons for read-only access:
 
-- Activer/désactiver la vue Balises
+- Toggle Tags view
 - Historique des versions
 - Libellé de version
 
-Experience Manager Guides affiche également un indicateur **Accès en lecture seule** près du numéro de version.
+Experience Manager Guides also displays a **Read only access** indicator near the version number.
 
-![afficher le fichier en lecture seule en mode création](images/locked-file-editor.png)
+![view read only file in author mode](images/locked-file-editor.png)
 
-Vous pouvez accéder à la vue **Disposition** pour les plans DITA en lecture seule. Cette vue vous permet d&#39;afficher le plan DITA et ses propriétés, mais empêche les modifications.
+You can access the **Layout** view for read-only DITA maps. This view lets you see the DITA map and its properties but prevents edits.
 
 >[!NOTE]
 >
-> Vos utilisateurs administrateurs au niveau du dossier doivent mettre à jour *ui_config.json* afin que vous puissiez accéder harmonieusement aux fichiers en lecture seule en modes Auteur, Source et Disposition.
+> Your folder-level administrative users must update *ui_config.json* so that you can harmoniously access the read-only files in the  Author, Source, and Layout modes.
 
-## Recherchez un fichier ouvert dans la vue du référentiel.
+## Locate an open file in the Repository View
 
-Lorsque vous ouvrez un fichier dans l’éditeur web, Experience Manager Guides permet de le localiser dans la vue du référentiel. Par exemple, il localise la rubrique active pendant que vous la modifiez.
+While you open a file in the Web Editor, Experience Manager Guides provides the feature to locate the file in the Repository View. For example, it locates the current topic while you are editing it.
 
-Vous pouvez désactiver la fonction de localisation du fichier à l’aide de l’option **Toujours localiser les fichiers dans le référentiel** de l’onglet **Apparence** des **Préférences utilisateur**.
+You can turn off the feature to locate the file with the **Always locate files in repository** option from the **Appearance** tab of the **User preferences**.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**[ Utiliser l’éditeur web](web-editor.md)

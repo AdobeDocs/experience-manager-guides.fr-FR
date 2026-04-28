@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: ddd6da80-d179-4da3-bff2-915c17bb6e5a
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 AEM Guides s’accompagne d’une fonction de publication d’articles intégrée à l’éditeur web qui permet aux utilisateurs de publier une ou plusieurs rubriques simultanément.
 
-Ce moteur est également fourni avec un modèle de contenu prêt à l’emploi, qui repose sur les composants principaux d’AEM et permet aux utilisateurs de créer un référentiel de contenu technique basé sur les connaissances. Ce modèle peut être personnalisé en fonction des besoins des clients. Ce moteur permet aux utilisateurs de créer le plan DITA de manière additive et de publier des rubriques au fur et à mesure qu&#39;elles sont prêtes. Vous pouvez facilement créer les paramètres prédéfinis de sortie pour votre carte ouverte dans le panneau Vue Carte et générer rapidement la sortie pour une ou plusieurs rubriques de la même carte.
+Ce moteur est également fourni avec un modèle de contenu prêt à l’emploi, qui repose sur les composants principaux d’AEM et permet aux utilisateurs de créer un référentiel de contenu technique basé sur les connaissances. Ce modèle peut être personnalisé en fonction des besoins des clients.Ce moteur permet aux utilisateurs de créer le plan DITA de manière additive et de publier des rubriques au fur et à mesure qu&#39;elles sont prêtes. Vous pouvez facilement créer les paramètres prédéfinis de sortie pour votre carte ouverte dans le panneau Vue Carte et générer rapidement la sortie pour une ou plusieurs rubriques de la même carte.
 
 Si vous n&#39;avez mis à jour le contenu que pour quelques rubriques de votre plan DITA, il n&#39;est pas toujours nécessaire de publier le plan entier. Vous pouvez sélectionner et publier uniquement les rubriques mises à jour à partir de l’éditeur web.
 
@@ -33,4 +33,4 @@ Vous pouvez également utiliser les paramètres prédéfinis de sortie créés p
 - **[Générez une sortie à partir du panneau Référentiel ou du panneau Vue Carte](web-editor-article-publishing-output.md)**
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**[ Utiliser l’éditeur web](web-editor.md)

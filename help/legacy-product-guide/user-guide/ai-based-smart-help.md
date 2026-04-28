@@ -2,9 +2,10 @@
 title: Aide intelligente optimisée par l’IA pour rechercher du contenu
 description: Découvrez comment afficher et utiliser l’aide intelligente optimisée par l’IA dans l’éditeur web.
 hide: true
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+exl-id: cf08f6a9-bf92-47d9-9952-da0301ea7023
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 
 
-Experience Manager Guides fournit l’aide intelligente basée sur GenAI, une fonctionnalité de recherche conversationnelle qui vous aide à trouver le contenu approprié à partir de la [documentation Adobe Experience Manager Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/overview).
+Experience Manager Guides fournit l’aide intelligente basée sur GenAI, une fonctionnalité de recherche conversationnelle qui vous aide à trouver le contenu approprié à partir de la [documentation Adobe Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 Vous pouvez poser vos questions et obtenir des réponses d&#39;une manière informative. La réponse à votre requête est basée sur le contenu de la documentation du produit . Cette recherche est entièrement conversationnelle. Vous pouvez poser des questions, puis, en fonction de la réponse, vous pouvez poser d&#39;autres questions. La réponse inclut également des liens vers les documents sources, auxquels vous pouvez vous reporter pour plus de détails.
 
 Par exemple, vous pouvez créer une rubrique dans Experience Manager Guides pour votre documentation. Vous pouvez demander : *Comment créer une rubrique ?* Vous obtenez une réponse et les liens pour les articles associés. Ensuite, si vous souhaitez savoir comment générer la sortie PDF pour le document, vous pouvez poser des questions à son sujet. Par exemple, *Comment publier une rubrique dans un PDF ?* ou *Comment générer la sortie PDF pour une rubrique ?*

@@ -4,9 +4,10 @@ description: Publier une rubrique ou les éléments d’une rubrique dans une so
 feature: Publishing
 role: User
 hide: true
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+exl-id: 3e77747d-ff04-465c-9305-fd6f1c74df04
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -58,7 +59,7 @@ Pour générer une page Sites, procédez comme suit :
 1. Cliquez sur **Générer** pour publier la page Sites.
 1. Vous pouvez afficher la page Sites pour une rubrique sous la section **Sorties** dans la section **Propriétés du fichier**. Les pages Sites s’affichent en fonction de la date et de l’heure de leur publication, la plus récente étant la première.
 
-   ![Afficher la page Sites pour une rubrique](images/aem-sites-outputs.png){width=300 align=« left »}
+   ![Afficher la page Sites pour une rubrique](images/aem-sites-outputs.png){width=300 align="left"}
 
    *Affichez la page Sites présente pour une rubrique et republiez-la.*
 

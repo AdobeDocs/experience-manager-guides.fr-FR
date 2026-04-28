@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '2389'
+source-wordcount: '2408'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,6 @@ Par exemple :
       - Si vous avez sélectionné le modèle de liste ordonnée Jira, vous pouvez afficher une liste ordonnée des problèmes Jira.
 
    1. La vue source affiche les données dans la vue source DITA.
-
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
       *Ajoutez un générateur de fragments de code de contenu. Affichez les données en mode source ou aperçu.*
 
@@ -286,7 +285,7 @@ Les modèles Experience Manager prennent également en charge les outils Velocit
 
 Pour utiliser un outil Velocity dans un modèle, procédez comme suit :
 1. Modifiez un modèle Velocity dans l’éditeur Web.
-1. Ajoutez un outil et sa fonction au format `<tool.function>`. Par exemple :
+1. Add a tool and its function in the `<tool.function>` format. Par exemple :
    - Pour générer un nombre aléatoire à l’aide de l’outil mathématique, utilisez `$mathTool.random`.
    - Pour générer la somme des nombres à l’aide de l’outil mathématique, utilisez `$mathTool.add(num1, num2)`.
 1. Utilisez le modèle pour créer un fragment de code ou une rubrique de contenu.

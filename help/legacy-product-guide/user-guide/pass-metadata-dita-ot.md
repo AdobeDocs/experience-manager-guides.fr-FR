@@ -5,9 +5,9 @@ feature: Publishing, Metadata Management
 role: User
 hide: true
 exl-id: 55d70c6d-feb0-43f7-9f18-6d1ccdd1e728
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Effectuez les étapes suivantes pour transmettre les métadonnées à la sortie 
 
    Ce fichier peut être recouvert à l’adresse : `/apps/fmdita/config/metadataList`.
 
-   Pour transmettre une propriété personnalisée pour laquelle vous avez déjà défini les valeurs, reportez-vous à la section [Utilisation des métadonnées AEM dans la sortie PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=fr).
+   Pour transmettre une propriété personnalisée pour laquelle vous avez déjà défini les valeurs, reportez-vous à la section [Utilisation des métadonnées AEM dans la sortie PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
 
 1. Dans la liste déroulante **Propriétés**, sélectionnez les propriétés personnalisées et par défaut requises. Par exemple, sélectionnez `author`, `dc:title` et `dc:description`. Il s’agit des `metadata/properties` standard qui sont créées une fois que nous créons un fichier. Les propriétés sélectionnées sont répertoriées sous la liste déroulante.
 
@@ -43,6 +43,6 @@ Effectuez les étapes suivantes pour transmettre les métadonnées à la sortie 
 1. Cliquez sur **Terminé** en haut à gauche pour enregistrer les modifications.
 1. Générez la sortie.
 
-Les propriétés de métadonnées sélectionnées seront transmises à la sortie générée à l&#39;aide de DITA-OT.
+The selected metadata properties will be passed to the output generated using DITA-OT.
 
-**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)
+**Rubrique parente :**[ Génération de sortie](generate-output.md)

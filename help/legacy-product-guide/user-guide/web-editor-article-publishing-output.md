@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: ffdc2426-dc78-4deb-93cc-3292fd4fcbd8
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Effectuez les étapes suivantes pour générer une sortie pour plusieurs rubriqu
 
    ![](images/generate-output-multiple-topics_cs.png){width="650" align="left"}
 
-1. Vous verrez le statut du processus de génération de sortie. Pour afficher la sortie, placez le pointeur de la souris sur la rubrique et cliquez sur Afficher la sortie.
+1. Vous verrez le statut du processus de génération de sortie.Pour afficher la sortie, placez le pointeur de la souris sur la rubrique et cliquez sur Afficher la sortie.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Publication basée sur des articles dans l’éditeur web](web-editor-article-publishing.md)
+**Rubrique parente :**[ Publication basée sur des articles dans l’éditeur web](web-editor-article-publishing.md)

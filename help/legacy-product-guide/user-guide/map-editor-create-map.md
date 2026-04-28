@@ -5,9 +5,9 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 981ecaeb-9b1f-4c7a-8336-7746a739bedc
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,11 @@ Pour créer un fichier de mappage, procédez comme suit :
 
    Les informations de version d’un mappage nouvellement créé s’affichent sous la forme *aucune*. Lorsque vous enregistrez une nouvelle version, un numéro de version 1.0 lui est attribué. Pour plus d’informations sur l’enregistrement d’une nouvelle version, voir [Enregistrer comme nouvelle version](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
-   Vous pouvez choisir d’ouvrir le mappage pour le modifier dans l’éditeur de mappages configuré ou d’enregistrer le fichier de mappage dans le référentiel AEM.
+   You can choose to open the map for editing in the configured map editor, or save the map file in the AEM repository.
 
    >[!NOTE]
    >
-   > Pour utiliser l’éditeur de mappages avancé, accédez au fichier de mappage dans l’éditeur web. Si votre administrateur a configuré l’éditeur de carte avancé comme éditeur par défaut dans les fichiers de carte, le fichier de carte est ouvert directement dans l’éditeur de carte avancé pour être modifié. Consultez la section *Définition de l’éditeur de carte avancé par défaut* dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
+   > To use the Advanced Map Editor, access the map file in the Web Editor. In case your administrator has configured the Advanced Map Editor as the default editor in the map files, then the map file is opened directly in the Advanced Map Editor for editing. See *Set the Advanced Map Editor as default* section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Utilisation de l’éditeur de cartes](map-editor.md)
+**Parent topic:**[ Work with the Map Editor](map-editor.md)

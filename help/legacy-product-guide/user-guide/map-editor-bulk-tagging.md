@@ -1,111 +1,111 @@
 ---
 title: Balisage en bloc du contenu DITA
-description: Utilisez le balisage en masse du contenu dans AEM Guides pour améliorer la visibilité du contenu DITA. Découvrez comment appliquer, supprimer, afficher ou masquer des balises en bloc sur une ou plusieurs rubriques.
+description: Use bulk tagging of content in AEM Guides to improve DITA content discoverability. Learn how to apply, remove, show, or hide bulk tags on a single or multiple topics.
 feature: Metadata Management
 role: User
 hide: true
 exl-id: b320e34f-ee0a-4cc3-b4f6-d322fbb29844
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
 
 # Balisage en bloc du contenu DITA {#id179SG0TN05Z}
 
-Les balises vous permettent de regrouper ou de classer le contenu dans votre référentiel de contenu ainsi que dans la sortie publiée. Si vous avez appliqué des balises à votre contenu, vous pouvez facilement trouver des rubriques connexes dans un plan DITA afin de créer du contenu. Grâce à la sortie publiée, les utilisateurs finaux pourront localiser plus rapidement le contenu approprié avec les balises appropriées en place.
+Tags allow you to group or classify content within your content repository and also in the published output. If you have applied tags on your content, you can easily find related topics within a DITA map that can help you to authoring content. With the published output, end users will be able to locate the right content faster with proper tags in place.
 
-AEM Guides vous permet de baliser le contenu DITA en quelques clics. Vous pouvez utiliser la fonction de balisage en bloc pour appliquer plusieurs balises à plusieurs rubriques, à un plan DITA ou à un sous-plan. Vous pouvez également appliquer des balises à une rubrique spécifique. Le balisage est la fonctionnalité native d’AEM. Vous trouverez plus d’informations sur la création et la gestion des balises dans la section [Administration des balises](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=fr) de la documentation d’AEM.
+AEM Guides allows you to tag DITA content in a few clicks. You can use the bulk tagging feature to apply multiple tags on multiple topics, a DITA map, or on a sub-map. Or, you can also apply tags on an individual topic. Tagging is the native feature in AEM, you can find more details about creating and managing tags in the [Administering Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) section in AEM documentation.
 
-Par défaut, AEM Guides n’accorde pas l’accès en lecture à un utilisateur sur le dossier dans lequel toutes les balises du référentiel AEM sont stockées. Pour utiliser les balises définies dans le référentiel AEM, vous devez demander à votre administrateur système l’autorisation d’accès au dossier dans lequel les balises sont stockées.
+By default, AEM Guides does not grant read access to any user on the folder where all tags in the AEM repository are stored. To use tags defined in the AEM repository, you must ask your system administrator to grant access on the folder where the tags are stored.
 
-## Application de balises en bloc
+## Apply bulk tags
 
-Utilisez la fonction de balisage en bloc pour appliquer plusieurs balises à la fois. Pour appliquer des balises à vos rubriques dans un plan DITA, procédez comme suit :
+Use the bulk tagging feature to apply multiple tags at once. Perform the following steps to apply tags to your topics in a DITA map:
 
 1. Dans l’interface utilisateur d’Assets, accédez au fichier DITA map et cliquez dessus.
 
-   La console de mappage DITA s&#39;affiche, affichant la liste des paramètres prédéfinis de sortie disponibles pour générer la sortie.
+   The DITA map console appears showing the list of Output Presets available to generate output.
 
 1. Cliquez sur **Rubriques**.
 
-   Une liste des rubriques disponibles dans le plan DITA s&#39;affiche. Les UUID des rubriques sont affichés sous le titre de la rubrique.
+   A list of topics available in the DITA map are displayed. The UUIDs of topics&#39; is shown below the topic title.
 
-1. Sélectionnez les rubriques ou sous-cartes sur lesquelles vous souhaitez appliquer des balises.
+1. Select the topics or sub-map on which you want to apply tags.
 
    ![](images/apply-tags-uuid.png){width="650" align="left"}
 
 
    >[!NOTE]
    >
-   > La capture d’écran ci-dessus montre une sous-carte sélectionnée et développée. Lors de la sélection de la sous-carte, tous les sujets sous la sous-carte sont également sélectionnés.
+   > The above screenshot shows a sub-map selected and expanded. On selecting the sub-map, all the topics under the sub-map are also selected.
 
-1. Cliquez sur **Appliquer les balises**.
+1. Click **Apply Tags**.
 
-   La boîte de dialogue Sélectionner les balises s’affiche.
+   The Select Tags dialog appears.
 
-1. Sélectionnez une ou plusieurs balises à appliquer aux rubriques sélectionnées.
+1. Select one or more tags that you want to apply on the selected topics.
 
-1. Confirmez votre sélection.
+1. Confirm your selection.
 
-   Les balises sélectionnées sont appliquées aux rubriques et affichées en regard du titre de la rubrique.
+   The selected tags are applied on the topics and shown next to the topic title.
 
    >[!NOTE]
    >
-   > Après avoir ajouté des balises à vos rubriques, si vous déplacez ou supprimez une rubrique, les balises de ces rubriques sont également supprimées. Cependant, cette rubrique reste dans la carte jusqu’à ce que vous la supprimiez.
+   > After adding tags to your topics, if you move or delete a topic, then the tags for those topics are also removed. However, that topic remains in the map until you remove it.
 
 
-## Application de balises sur une rubrique individuelle
+## Apply tags on an individual topic
 
-Effectuez les étapes suivantes pour appliquer des balises à une rubrique individuelle :
+Perform the following steps to apply tags to an individual topic:
 
-1. Dans l’interface utilisateur d’Assets, accédez au fichier de rubrique sur lequel vous souhaitez appliquer des balises, puis sélectionnez-le.
+1. In the Assets UI, navigate to and select the topic file on which you want to apply tags.
 
-1. Dans la barre d’outils, cliquez sur **Propriétés**.
+1. In the toolbar, click **Properties**.
 
-   La page des propriétés de la rubrique s&#39;affiche.
+   The topic&#39;s properties page appears.
 
-1. Dans l’onglet De base , cliquez sur l’icône Parcourir en regard du champ **Balises**.
+1. In the Basic tab, click the Browse icon next the **Tags** field.
 
-1. Sélectionnez une ou plusieurs balises à appliquer à la rubrique sélectionnée.
+1. Select one or more tags that you want to apply on the selected topic.
 
-1. Confirmez votre sélection.
+1. Confirm your selection.
 
-1. Cliquez sur **Appliquer les balises**.
+1. Click **Apply Tags**.
 
-   Les balises sélectionnées sont appliquées à la rubrique et affichées dans le champ Balises .
+   The selected tags are applied on the topic and shown in the Tags field.
 
 1. Cliquez sur **Enregistrer et fermer**.
 
 
 ## Supprimer les balises
 
-En fonction des besoins de votre entreprise, vous pouvez modifier les informations de balisage pour n&#39;importe quelle rubrique DITA. Vous pouvez facilement supprimer toutes les balises en même temps ou supprimer uniquement les balises qui ne sont pas valides sur la rubrique.
+As per your business needs, you can change the tagging information for any DITA topic. You can easily remove all tags at once or remove only those tags that are no valid on the topic.
 
-Pour supprimer toutes les balises d’une ou de plusieurs rubriques, procédez comme suit :
+Perform the following steps to remove all tags from one or more topics:
 
 1. Dans l’interface utilisateur d’Assets, accédez au fichier DITA map et cliquez dessus.
 
-   La console de mappage DITA s&#39;affiche, affichant la liste des paramètres prédéfinis de sortie disponibles pour générer la sortie.
+   The DITA map console appears showing the list of Output Presets available to generate output.
 
 1. Cliquez sur **Rubriques**.
 
-   Une liste des rubriques disponibles dans le plan DITA s&#39;affiche.
+   A list of topics available in the DITA map are displayed.
 
-1. Sélectionnez les rubriques à partir desquelles vous souhaitez supprimer des balises.
+1. Select the topics from which you want to remove tags.
 
-1. Cliquez sur **Supprimer les balises**.
+1. Click **Remove Tags**.
 
    >[!NOTE]
    >
-   > Si l’icône Supprimer les balises n’est pas visible, assurez-vous que vous n’avez pas activé la fonction Masquer les balises.
+   > If the Delete Tags icon is not visible, ensure that you have not enabled the Hide Tags feature.
 
-1. Dans la boîte de dialogue Confirmer la suppression, cliquez sur **OK** pour supprimer les balises des rubriques sélectionnées.
+1. On the Confirm Delete dialog, click **OK** to remove tags from the selected topics.
 
 
-## Afficher ou masquer les balises
+## Show or hide tags
 
-Si une longue liste de balises est appliquée à vos rubriques, la navigation peut s’avérer un peu fastidieuse. Vous pouvez facilement masquer les balises dans dans la vue de la console Carte DITA en cliquant sur l&#39;icône Masquer les balises . De même, lorsque les balises ne sont pas visibles, si vous cliquez sur le bouton Afficher les balises , toutes les balises sont affichées.
+If you have a long list of tags applied on your topics, then you might find it a bit cumbersome to navigate. You can easily hide tags in from your DITA map console view by clicking on the Hide Tags icon. Similarly, when the tags are not visible, clicking on the Show Tags reveals all tags.
 
-**Rubrique parente :**&#x200B;[&#x200B; Gérer les métadonnées](manage-metadata.md)
+**Parent topic:**[ Manage metadata](manage-metadata.md)

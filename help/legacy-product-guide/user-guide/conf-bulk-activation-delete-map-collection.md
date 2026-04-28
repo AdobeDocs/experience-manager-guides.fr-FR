@@ -5,9 +5,9 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: 374f8265-9aa0-4a08-8afa-ae9ce0cb33e6
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -33,4 +33,4 @@ Vous pouvez supprimer une collection de mappages d’activation en bloc lorsqu�
    La collection de mappages d’activation en bloc est supprimée du système.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Activation en bloc du contenu publié](conf-bulk-activation.md)
+**Rubrique parente :**[ Activation en bloc du contenu publié](conf-bulk-activation.md)

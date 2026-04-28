@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: c743baac-b6c1-4684-bbd1-8f9834ab272a
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -106,15 +106,15 @@ No one word titles.
 ```
 
 
-## Définition de modèles abstraits{#schematron-abstract-patterns}
+## Define abstract patterns{#schematron-abstract-patterns}
 
-AEM Guides prend également en charge les modèles abstraits dans Schematron. Vous pouvez définir des modèles abstraits génériques et les réutiliser.  Vous pouvez créer des paramètres d’espace réservé qui spécifient le modèle réel.
-
-
-L’utilisation de modèles abstraits peut simplifier votre schéma Schematron en réduisant la duplication des règles et en facilitant la gestion et la mise à jour de votre logique de validation. Cela peut également faciliter la compréhension de votre schéma, dans la mesure où vous pouvez définir une logique de validation complexe dans un modèle abstrait unique qui peut être réutilisé dans l’ensemble du schéma.
+AEM Guides also supports abstract patterns in Schematron. You can define generic abstract patterns reuse these abstract patterns.  You can create placeholder parameters that specify the actual pattern.
 
 
-Par exemple, le code XML suivant crée un modèle abstrait, puis le modèle réel y fait référence à l’aide de l’identifiant .
+Using abstract patterns can simplify your Schematron schema by reducing the duplication of rules and making it easier to manage and update your validation logic. It can also make your schema easier to understand, as you can define complex validation logic in a single abstract pattern that can be reused throughout the schema.
+
+
+For example, the following XML code creates an abstract pattern and then the actual pattern refers to it using the id.
 
 ```XML
 <sch:pattern abstract="true" id="LimitNoOfWords"> 

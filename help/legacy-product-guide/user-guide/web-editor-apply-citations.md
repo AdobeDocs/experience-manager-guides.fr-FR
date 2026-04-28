@@ -5,10 +5,10 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1887'
-ht-degree: 0%
+source-wordcount: '1896'
+ht-degree: 1%
 
 ---
 
@@ -54,19 +54,19 @@ La boîte de dialogue **Ajouter une citation** s’ouvre.
 
    | Livre | Site Web | Journal |
    | --- | ---|---|
-   | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation sous forme de livre. | **&#x200B;**<br> Dans la liste déroulante, sélectionnez la source de la citation en tant que site Web. | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation en tant que Journal. |
-   | **Rechercher par** <br> Sélectionnez **ISBN** ou **DOI** dans la liste déroulante pour rechercher l’identifiant numérique associé à la citation.  <br> DOI : Identifiant d’objet numérique <br> ISBN : Identifiant de livre numérique unique | **Rechercher par** <br> Sélectionnez **DOI** dans la liste déroulante pour rechercher l’identifiant numérique associé à la citation. | **Rechercher par** <br> Sélectionnez **DOI** ou ID PubMed dans la liste déroulante pour rechercher l’ID numérique associé à la citation. <br>  <br> |
+   | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation sous forme de livre. | **Source**<br> Dans la liste déroulante, sélectionnez la source de la citation en tant que site Web. | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation en tant que Journal. |
+   | **Rechercher par** <br> Sélectionnez **ISBN** ou **DOI** dans la liste déroulante pour rechercher l’identifiant numérique associé à la citation.  <br> DOI : Identifiant d&#39;objet numérique <br> ISBN : Identifiant de livre numérique unique | **Rechercher par** <br> Sélectionnez **DOI** dans la liste déroulante pour rechercher l’identifiant numérique associé à la citation. | **Rechercher par** <br> Sélectionnez **DOI** ou ID PubMed dans la liste déroulante pour rechercher l’ID numérique associé à la citation. <br>  <br> |
    | **Auteur** <br> ajoutez le prénom et le nom de l’auteur de la citation. Sélectionnez ![](images/Add_icon.svg) pour ajouter d’autres noms. | **Auteur** <br> ajoutez le prénom et le nom de l’auteur de la citation. Sélectionnez ![](images/Add_icon.svg) pour ajouter d’autres noms. | **Auteur** <br> ajoutez le prénom et le nom de l’auteur de la citation. Sélectionnez ![](images/Add_icon.svg) pour ajouter d’autres noms. |
    | **Titre** <br> ajoutez le titre du livre. | **Titre** <br> ajoutez le titre de la page web. | **Titre** <br> ajoutez le titre de l’article. |
    | **Éditeur** <br> Ajoutez l&#39;éditeur du livre. | **Nom du site web** <br> ajoutez le nom du site web. | **Titre du journal** <br> ajoutez le titre de l’œuvre dans laquelle se trouve l’article. |
    | **Edition** <br> Ajoutez l&#39;édition du livre. | **URL** <br> Ajoutez le lien web du site web pour parcourir le contenu. | **Année** <br> ajoutez l’année de publication de l’article. |
-   | **Ville** <br> ajoutez la ville de la publication. | **Date d’accès**<br> Ajoutez la date d’accès au contenu du site Web. | **Volume** <br> ajoutez le volume du travail de la série. |
-   | **Éditeur** <br> Ajoutez le nom de l&#39;éditeur du livre. | **Date de publication** <br> ajoutez la date de publication du contenu du site web. | **Numéro** <br> ajoutez le numéro du volume dans la série. |
-   | **Année** <br> Indiquez l&#39;année de publication de l&#39;ouvrage. | **Date de mise à jour** <br> ajoutez la date à laquelle le contenu du site web est mis à jour. | **Pages** <br> ajoutez le numéro de page ou la plage de pages où se trouve l’article. |
-   | **Version** <br> Ajoutez la version du livre. | **ID unique** <br> ajoutez un ID unique pour la citation. Un ID unique est un identifiant unique pour cette citation. | **URL** <br>Ajoutez le lien web au journal. |
-   | **Série** <br>Ajoutez la série du livre. |  | **ID unique** <br> ajoutez un ID unique pour la citation. Un ID unique est un identifiant unique pour cette citation. |
-   | **URL** <br> Ajoutez le lien web au livre. |  |  |
-   | **ID unique** <br> ajoutez un ID unique pour la citation. Un ID unique est un identifiant unique pour cette citation. |  |  |
+   | **City** <br> Add the city of the publication. | **Accessed Date**<br> Add the date on which the content of the website is accessed. | **Volume** <br> Add the volume of the work in the series. |
+   | **Publisher** <br> Add the name of the publisher of the book. | **Published Date** <br> Add the date on which the content of the website is published. | **Number** <br> Add the number of the volume within the series. |
+   | **Year** <br> Add the year in which the book is published. | **Updated Date** <br> Add the date on which the content of the website is updated. | **Pages** <br> Add the page number or page range in which the article is found. |
+   | **Version** <br> Add the version of the book. | **Unique ID** <br> Add a unique ID for the citation. A Unique ID is a unique identifier for that citation. | **URL** <br>Add the web link to the journal. |
+   | **Series** <br>Add the series of the book. |  | **Unique ID** <br> Add a unique ID for the citation.A Unique ID is a unique identifier for that citation. |
+   | **URL**  <br>  Add the web link to the book. |  |  |
+   | **Unique ID** <br> Add a unique ID for the citation. A Unique ID is a unique identifier for that citation. |  |  |
 
 
 
@@ -74,17 +74,17 @@ La boîte de dialogue **Ajouter une citation** s’ouvre.
 
 1. Sélectionnez **Terminé**.
 
-   Une nouvelle citation est ajoutée au panneau Citation .
+   A new citation is added to the Citation panel.
 
 >[!NOTE]
 >
-> L’ajout d’un ID unique pour le champ de citation est obligatoire.  Vous ne pouvez pas modifier l’ID unique une fois la citation ajoutée.
+> Adding a Unique ID for the citation field is mandatory.  You cannot change the unique ID once the citation is added.
 
-## Importer les citations
+## Import citations
 
-Pour importer des citations, procédez comme suit :
+To import citations, follow these steps:
 
-1. Dans le panneau de gauche, sélectionnez **Citations** ![icône de citations](images/citations-icon.svg).
+1. In the left panel, select **Citations** ![citations icon](images/citations-icon.svg).
 
    Le panneau **Citations** s’ouvre.
 
@@ -99,7 +99,7 @@ Pour importer des citations, procédez comme suit :
 
    >[!NOTE]
    > <ol><li> AEM Guides importe uniquement les citations uniques qui ne sont pas déjà présentes.
-   > &gt; <li> AEM Guides peut importer des citations provenant d’un livre, d’un journal ou d’un site web. Actuellement, il ne prend pas en charge les citations provenant d’autres sources.
+    &gt; <li> AEM Guides peut importer des citations provenant d’un livre, d’un journal ou d’un site web. Actuellement, il ne prend pas en charge les citations provenant d’autres sources.
 
 ## Gérer les citations
 
@@ -107,7 +107,7 @@ Les citations sont triées par ordre alphabétique dans le panneau de gauche. Re
 
 ### Filtrer
 
-Sélectionnez l’icône **&#x200B;**&#x200B;Filtrer![](images/filter-search-icon.svg) à côté de la barre de recherche et sélectionnez les options sources dans la liste déroulante pour filtrer la liste de citations. Il permet des sélections uniques et multiples.
+Sélectionnez l’icône ![](images/filter-search-icon.svg) **Filtrer** à côté de la barre de recherche et sélectionnez les options sources dans la liste déroulante pour filtrer la liste de citations. Il permet des sélections uniques et multiples.
 
 * **Toutes les sources** : affiche une liste complète des citations, y compris toutes les sources.
 
@@ -189,7 +189,7 @@ Vous pouvez insérer des citations sur le sujet à partir de la barre d’outils
 
 ### Dans la barre d’outils principale
 
-1. Sélectionnez l’icône **&#x200B;**&#x200B;Citations![&#x200B; &#x200B;](images/citations-icon.svg)citations dans la barre d’outils principale.
+1. Sélectionnez l’icône ](images/citations-icon.svg) **Citations** ![citations dans la barre d’outils principale.
 1. Dans la boîte de dialogue **Citations**, choisissez la citation. Vous pouvez également sélectionner plusieurs citations.
    ![boîte de dialogue de citation](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. Vous pouvez filtrer les citations en tapant les premiers caractères alphabétiques dans le panneau de recherche de la boîte de dialogue **Citation**.
@@ -204,7 +204,7 @@ La citation sélectionnée est ajoutée à l&#39;emplacement du curseur dans vot
 > 
 >Pour afficher l’icône **Citations** dans le panneau de gauche, votre administrateur système doit sélectionner l’option **Citations** dans l’onglet **Panneaux** dans **Paramètres de l’éditeur**.
 
-1. Sélectionnez **Citations** ![icône de &#x200B;](images/citations-icon.svg) de citations dans le panneau de gauche.
+1. Sélectionnez **Citations** ![icône de ](images/citations-icon.svg) de citations dans le panneau de gauche.
 1. Faites glisser la citation à partir du panneau **Citations** et déposez-la à l’emplacement approprié dans la rubrique.
 
    Vous pouvez également sélectionner **Insérer** dans ![](images/options.svg) **Options** pour insérer une citation.

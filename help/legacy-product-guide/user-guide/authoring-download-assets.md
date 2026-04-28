@@ -5,16 +5,16 @@ feature: Content Management
 role: User
 hide: true
 exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
 
 # Télécharger les fichiers {#id216MC0H0BE8}
 
-Vous pouvez télécharger des ressources, y compris des fichiers DITA et non DITA. Vous pouvez télécharger des ressources de plusieurs façons. Certaines méthodes sont natives à AEM et d’autres sont prises en charge par AEM Guides. Pour obtenir des informations sur le téléchargement des ressources natives d’AEM, consultez [Téléchargement de ressources depuis Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=fr) dans la documentation d’AEM. La section suivante explique le mécanisme de téléchargement des fichiers via la console de plan DITA dans AEM Guides.
+Vous pouvez télécharger des ressources, y compris des fichiers DITA et non DITA. Vous pouvez télécharger des ressources de plusieurs façons. Certaines méthodes sont natives à AEM et d’autres sont prises en charge par AEM Guides. Pour obtenir des informations sur le téléchargement des ressources natives d’AEM, consultez [Téléchargement de ressources depuis Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) dans la documentation d’AEM. La section suivante explique le mécanisme de téléchargement des fichiers via la console de plan DITA dans AEM Guides.
 
 ## Exporter un fichier de mappage DITA
 
@@ -36,9 +36,8 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA avec 
 
 1. Cliquez sur **Télécharger**. Dans la boîte de dialogue Télécharger la carte , vous pouvez choisir les options suivantes :
 
-   - **Utiliser niveau de référence** : sélectionnez cette option pour obtenir la liste des niveaux de référence créés pour le plan DITA. Pour télécharger le fichier de mappage et son contenu en fonction d&#39;une ligne de base spécifique, sélectionnez la ligne de base dans la liste déroulante. Pour plus d&#39;informations sur l&#39;utilisation des lignes de base, voir [&#x200B; Utilisation des lignes de base &#x200B;](generate-output-use-baseline-for-publishing.md#).
+   - **Utiliser niveau de référence** : sélectionnez cette option pour obtenir la liste des niveaux de référence créés pour le plan DITA. Pour télécharger le fichier de mappage et son contenu en fonction d&#39;une ligne de base spécifique, sélectionnez la ligne de base dans la liste déroulante. Pour plus d&#39;informations sur l&#39;utilisation des lignes de base, voir [ Utilisation des lignes de base ](generate-output-use-baseline-for-publishing.md#).
    - **Aplatir la hiérarchie de fichiers** : sélectionnez cette option pour enregistrer toutes les rubriques et tous les fichiers multimédias référencés dans un seul dossier.
-
    >[!NOTE]
    >
    > Vous pouvez également télécharger le fichier de mappage sans sélectionner d’option. Dans ce cas, la dernière version conservée des rubriques et fichiers multimédias référencés est téléchargée.
@@ -59,4 +58,4 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA avec 
 
 Une fois la carte téléchargée, vous pouvez sélectionner la carte et utiliser l’icône Ouvrir en haut pour ouvrir le rapport sélectionné.
 
-**Rubrique parente :**&#x200B;[&#x200B; Gérer le contenu](authoring.md)
+**Rubrique parente :**[ Gérer le contenu](authoring.md)

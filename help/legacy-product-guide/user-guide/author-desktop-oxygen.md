@@ -1,23 +1,23 @@
 ---
-title: Utiliser l'oxygène
-description: Découvrez la prise en charge d’Oxygen XML Editor pour la création et la publication de contenu dans AEM Guides.
+title: Work with Oxygen
+description: Know about Oxygen XML Editor support for content authoring and publishing in AEM Guides.
 feature: Authoring, Desktop Tools
 role: User
 hide: true
 exl-id: c6395d35-b8fd-446e-a17a-df7f5a432053
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
 
-# Utiliser l&#39;oxygène {#id221BH0V0UE8}
+# Work with Oxygen {#id221BH0V0UE8}
 
-Oxygen XML Author est fourni avec des fonctionnalités de création conviviales et une interface facile à utiliser.
+Oxygen XML Author comes with user-friendly authoring features and provides an easy-to-use interface.
 
-Vous pouvez produire des sorties dans PDF, ePub, HTML et de nombreux autres formats, en utilisant la même source.
+You can produce outputs in PDF, ePUB, HTML, and many other formats, using the same source.
 
-*Contactez votre équipe du succès client pour que cette fonctionnalité soit activée dans l’environnement. Cette fonctionnalité n’est pas activée dans le cadre de la prise en charge prête à l’emploi.*
+*Contact your customer success team to get this feature enabled in the environment. This is not enabled as a part of the out-of-the-box support.*
 
-**Rubrique parente :**&#x200B;[&#x200B; créer du contenu à l’aide d’outils de bureau](author-desktop-tools.md)
+**Rubrique parente :**[ créer du contenu à l’aide d’outils de bureau](author-desktop-tools.md)

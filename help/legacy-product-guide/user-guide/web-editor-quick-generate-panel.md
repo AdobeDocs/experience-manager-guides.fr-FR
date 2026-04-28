@@ -1,33 +1,33 @@
 ---
-title: Utiliser le panneau Génération rapide
-description: Utilisez le panneau Génération rapide dans AEM Guides. Découvrez comment générer et afficher la sortie à partir du panneau de génération rapide.
+title: Use Quick Generate panel
+description: Use the quick generate panel in AEM Guides. Learn how to generate and view output from the quick generate panel.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: 8ba8eaa2-9ab0-4132-a751-48d2a527faf4
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
 
-# Utilisez le panneau Génération rapide pour générer et afficher la sortie {#id22AKE050F5L}
+# Use Quick Generate panel to generate and view output {#id22AKE050F5L}
 
-AEM Guides propose un panneau **Génération rapide** intégré à l’éditeur web. Ce panneau vous permet de générer simultanément la sortie des paramètres prédéfinis de sortie créés pour un plan DITA. Vous pouvez générer la sortie d&#39;un ou de plusieurs paramètres prédéfinis ou de tous les paramètres prédéfinis créés pour un plan DITA. Vous pouvez également utiliser le panneau **Génération rapide** pour afficher ultérieurement la sortie générée pour les paramètres prédéfinis.
+AEM Guides provides a **Quick Generate** panel integrated inside the Web Editor. This panel allows you to simultaneously generate the output for the output presets created for a DITA map. You can generate the output for one or more presets, or all presets created for a DITA map. You can also use the **Quick Generate** panel to later view the output generated for the presets.
 
 >[!NOTE]
 >
-> Le panneau **Génération rapide** s&#39;affiche pour le plan DITA ouvert dans le panneau Vue Carte.
+> The **Quick Generate** panel appears for the DITA map opened in the Map View panel.
 
 ![](images/quick-generate-map-view.png){width="800" align="left"}
 
-Effectuez les étapes suivantes pour générer la sortie à partir du panneau **Génération rapide** :
+Perform the following steps to generate the output from the **Quick Generate** panel:
 
-1. Ouvrez votre plan DITA en mode Carte. L’icône Génération rapide s’affiche. Elle apparaît dans les onglets **Créer** et **Gérer**.
-1. Cliquez sur l’icône **Génération rapide** \( ![](images/quick-generate-icon.svg)\) pour ouvrir le panneau **Génération rapide**. Dans le panneau **Génération rapide**, vous pouvez voir la liste de tous les paramètres prédéfinis de sortie créés pour votre plan DITA.
-1. Sélectionnez un ou plusieurs paramètres prédéfinis pour lesquels vous souhaitez générer la sortie.
-1. Cliquez sur **Générer** pour générer la sortie des paramètres prédéfinis sélectionnés. Un message de réussite s’affiche lors de la génération de la sortie. Un message d’erreur s’affiche en cas d’échec de la génération. Vous pouvez également consulter le journal des erreurs pour afficher les détails de l’erreur qui s’est produite dans le processus de génération.
-1. Cliquez sur l’icône **Afficher la sortie** \( ![](images/view-output-icon.svg)\) d’un paramètre prédéfini spécifique pour afficher la sortie générée pour le paramètre prédéfini.
+1. Open your DITA map in Map View. Quick Generate icon appears. It appears in **Author** and **Manage** tabs.
+1. Click the **Quick Generate** icon \( ![](images/quick-generate-icon.svg)\) to open the **Quick Generate** panel. In the **Quick Generate** panel, you can see the list of all the output presets created for your DITA map.
+1. Select one or more presets for which you want to generate the output.
+1. Click **Generate** to generate the output for the selected presets. A success message is displayed on the generation of the output. An error message is shown if the generation fails. You can also view the error log to see the details of the error that occurred in the generation process.
+1. Click **View Output** \( ![](images/view-output-icon.svg)\) icon of a specific preset to view the output generated for the preset.
 
-**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**[ Utiliser l’éditeur web](web-editor.md)

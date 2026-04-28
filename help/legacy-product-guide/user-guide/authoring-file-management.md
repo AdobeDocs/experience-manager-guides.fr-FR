@@ -5,9 +5,9 @@ feature: Content Management
 role: User
 hide: true
 exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '3109'
+source-wordcount: '3144'
 ht-degree: 0%
 
 ---
@@ -39,39 +39,39 @@ Cette section explique comment AEM Guides gère les opérations de base sur les 
 - *Le dossier contient des fichiers dont les noms sont basés sur un modèle UUID* : une nouvelle copie du dossier est créée avec un suffixe \(comme foldername0\). Un nouvel UUID est également attribué à tous les fichiers du nouveau dossier. Les noms de fichiers sont également modifiés ; ils sont identiques au nouvel UUID.
 
 
-**Copiez et collez un dossier à un autre emplacement**
+**Copy and paste folder at different location**
 
-- *Le dossier contient des fichiers dont les noms sont lisibles par l’utilisateur* : une nouvelle copie du dossier est créée et un nouvel UUID est également affecté à tous les fichiers du dossier au nouvel emplacement. Ici, les noms de dossier ou de fichier ne changent pas.
+- *The folder has files with human readable filenames*: A new copy of the folder is created and a new UUID is also assigned to all files within the folder at the new location. Here, there is no change in the folder or file names.
 
-- *Le dossier contient des fichiers dont les noms reposent sur un modèle UUID* : une nouvelle copie du dossier est créée avec le même nom que le dossier d’origine. Un nouvel UUID est également attribué à tous les fichiers du nouveau dossier. Les noms de fichiers sont également modifiés ; ils sont identiques au nouvel UUID.
+- *The folder has files with filenames based on a UUID pattern*: A new copy of the folder is created with the same name as the original folder. Un nouvel UUID est également attribué à tous les fichiers du nouveau dossier. Les noms de fichiers sont également modifiés ; ils sont identiques au nouvel UUID.
 
 
-## Glisser-déposer des fichiers
+## Drag-and-drop files
 
-**Glisser-déposer avec des noms de fichier lisibles**
+**Drag-and-drop with human readable filenames**
 
-- *Glisser-déposer au même emplacement* : les options suivantes vous sont proposées : **Remplacer le(s) fichier(s) existant(s)**, **Conserver le(s) fichier(s)\)** et une option vous permettant de créer une version de la copie de travail existante.
+- *Drag-and-drop at the same location*: You are given the options to **Overwrite Existing File\(s\)**, **Keep Both File\(s\)**, and an option to create a version of the existing working copy.
 
   ![](images/uuid-human-readable-drag-drop-same-location.PNG){width="650" align="center"}
 
-  Si vous sélectionnez l’option **Remplacer le ou les fichiers existants\(s\)**, le fichier en cours de chargement remplace la version de travail actuelle du fichier existant à l’emplacement d’origine. L&#39;UUID n&#39;est pas créé ni modifié.
+  If you choose the **Overwrite Existing File\(s\)** option, then the file that is being uploaded replaces the current working version of the existing file at the original location. The UUID is not created or changed.
 
-  Si vous choisissez l’option **Conserver les deux fichiers\(s\)**, une nouvelle copie du fichier est créée avec un suffixe \(comme nom_fichier0.extension\). Un nouvel UUID est également affecté au fichier nouvellement copié.
+  If you choose the **Keep Both File\(s\)** option, a new copy of the file is created with a suffix \(like filename0.extension\). A new UUID is also assigned to the newly copied file.
 
-  Avec l’option Remplacer le(s) fichier(s) existant(s) , si vous choisissez de créer une version à partir de la copie de travail existante, une nouvelle version de la copie de travail du document est également créée.
-
-  >[!NOTE]
-  >
-  > La fonction **Créer une version pour le fichier téléchargé** doit être activée par votre administrateur. Si cette fonctionnalité est activée, une nouvelle version du fichier chargé est créée. Si vous désélectionnez cette option, aucune version du fichier chargé n’est créée. Pour plus d’informations, consultez la section *Créer une nouvelle version du fichier téléchargé* dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
-
-  Si un fichier est déjà extrait pour des modifications par un autre utilisateur et que vous tentez de charger et de remplacer le fichier existant, il échoue et affiche une erreur.
+  With Overwrite existing file\(s\) option, if you choose the option to create a version from the existing working copy, then a new version from the working copy of the document is also created.
 
   >[!NOTE]
   >
-  >La fonction **Remplacer le fichier extrait au chargement** doit être désactivée par votre administrateur. Si cette fonctionnalité est activée, vous pouvez remplacer les fichiers extraits. Si la fonction n&#39;est pas activée, un fichier extrait ne peut pas être remplacé. Pour plus d’informations, consultez la section *Remplacer le fichier extrait lors du chargement* dans la section Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
+  > **Create new Version for Uploaded File** feature must be enabled by your administrator. If this feature is enabled, a new version for the uploaded file is created. If the option is deselected, then a version of the uploaded file is not created. For more details, see *Create New Version for Uploaded File* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+
+  If a file is already checked out for edits by another user, and you attempt to upload and overwrite the existing file, then it fails and displays an error.
+
+  >[!NOTE]
+  >
+  >The **Overwrite Checked out File on Upload** feature must be disabled by your administrator. If this feature is enabled, you can overwrite checked-out files. If the feature is not enabled, then a checked out file is prevented from being overwritten. For more details, see *Overwrite Checked out File on Upload* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 
-- *Glisser-déposer des fichiers à un autre emplacement* : une nouvelle copie du fichier est créée et un nouvel UUID lui est également affecté au nouvel emplacement. Ici, le nom de fichier est identique au nom de fichier d’origine.
+- *Drag-and-drop files at different location*: A new copy of the file is created and a new UUID is also assigned to it at the new location. Ici, le nom de fichier est identique au nom de fichier d’origine.
 
 
 **Glisser-déposer avec des noms de fichier basés sur un modèle UUID**
@@ -110,42 +110,42 @@ Voici quelques-unes des fonctionnalités fournies par l’outil de déplacement 
 
 - Vous pouvez ajuster le nombre de fichiers à traiter dans chaque lot. Cela peut nécessiter l’exécution de quelques tests avant d’atteindre un nombre optimal que votre système peut facilement gérer.
 - Les services de création et de publication s’exécutent correctement, sans interruption de l’opération de déplacement.
-- Contrôlez entièrement l’intervalle de temps entre les processus \(exécution de\) par lots suivants. Cet intervalle de temps garantit que l’opération de post-traitement est terminée avant de démarrer le lot de fichiers suivant.
+- Have compete control over the time interval in-between subsequent \(running of\) batch processes. This time interval ensures that the post-processing operation is completed before starting the next batch of files.
 
-- Gestion automatique des dossiers de même nom. Cette fonctionnalité permet de s’assurer que même si des dossiers portant le même nom sont déplacés, ils ne sont pas remplacés.
+- Auto-handling of folders with same name. This feature ensures that even if there are folders with same name being move, they are not overwritten.
 
-- Gestion automatique des références vers et depuis les fichiers en cours de déplacement.
-
-
-Vous devez tenir compte des points suivants avant d’exécuter le traitement par lots :
-
-- Si vous envisagez de déplacer des sujets en cours de révision, vous devez fermer le processus de révision pour tous ces sujets avant de les déplacer. Si vous ne fermez pas la tâche de révision, le processus de révision sera interrompu.
-- Vous ne devez exécuter qu’une seule opération de déplacement en bloc à tout moment sur le système. Cela permet de gérer correctement les références aux rubriques déplacées et à partir de celles-ci.
+- Auto-handling of references to and from the files being moved.
 
 
-Pour déplacer des fichiers en bloc, procédez comme suit :
+You must consider the following points before running the batch process:
+
+- If you plan to move topics that are currently under review, you must close the review process on all such topics before moving them. Not closing the review task will break the review process.
+- You must run only a single bulk move operation on the system at any time. This ensures proper handling of references to and from the topics being moved.
+
+
+To move files in bulk, perform the following steps:
 
 1. Cliquez sur le lien Adobe Experience Manager en haut et choisissez **Outils**.
 1. Sélectionnez **Guides** dans la liste des outils.
-1. Cliquez sur la mosaïque **Outil de déplacement en bloc**.
-1. La page Outil de déplacement en bloc s’affiche en fonction de votre configuration. Fournissez les informations suivantes sur la page **Outil de déplacement en bloc** :
+1. Click on the **Bulk Move Tool** tile.
+1. The Bulk Move Tool page is displayed based on your setup. Provide the following details on the **Bulk Move Tool** page:
 
    <details>
 
-   <summary> Services cloud et système de fichiers basé sur l’UUID On-Premise </summary>
+   <summary> Cloud Services and On-premise UUID-based file system </summary>
 
    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
    >[!TIP]
    >
-   > Sélectionner <img src="images/info-icon.svg" width="25">   près de n’importe quel champ pour en savoir plus.
+   > Sélectionner <img src="images/info-icon.svg" width="25">   near any field  to view more details about it.
 
 
-   - **Ajouter un suffixe aux dossiers en double** : si vous déplacez des dossiers portant le même nom, vous devez sélectionner cette option. Par exemple, dans la capture d’écran précédente, le chemin **Source** contient le nom des dossiers à déplacer. Le dossier nommé topic existe à deux emplacements différents : test-A et test-B. Lorsque vous sélectionnez cette option, les dossiers sont déplacés avec succès. Le premier dossier déplacé sera nommé topic tandis que le deuxième dossier sera nommé topic0. L’opération de déplacement ajoute un suffixe dans la série séquentielle \(0, 1, 2, etc.\) aux dossiers portant le même nom.
+   - **Add suffix to duplicate folders**: In case you are moving folders that have same name, then you must select this option. For example, in the previous screenshot, the **Source path** contains the name of folders to move. The folder named topic exists at two different locations — test-A and test-B. When you select this option, then the folders will move successfully. The first moved folder will be named topic whereas the second folder will be named topic0. The move operation adds a suffix in sequential series \(0, 1, 2, and so on\) to the folders with the same name.
 
-     Si vous déplacez des dossiers portant le même nom sans sélectionner cette option, l’opération est abandonnée avec un message.
+     If you are moving folders with the same name without selecting this option, then the operation will abort with a message.
 
-   - **Chemin d’accès Source\(s\)** : indiquez l’emplacement des dossiers à déplacer.
+   - **Source path\(s\)**: Specify the location of folders that you want to move.
 
       - Sélectionnez **Parcourir le dossier**  <img src="images/browse-folder-icon.svg" width="25">    pour ouvrir la boîte de dialogue parcourir le fichier . Sélectionnez les dossiers à déplacer, puis cliquez sur **Sélectionner** pour terminer le processus.
 
@@ -318,4 +318,4 @@ Si votre fichier multimédia a subi des modifications, vous pouvez rechercher et
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Gérer le contenu](authoring.md)
+**Rubrique parente :**[ Gérer le contenu](authoring.md)

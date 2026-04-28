@@ -1,13 +1,13 @@
 ---
 title: PDF
-description: Générez et configurez la sortie PDF pour les documents FrameMaker dans AEM Guides.
+description: Generate and configure PDF output for FrameMaker documents in AEM Guides.
 feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: 3a8cb163-94ac-48b1-ae6b-1309179f462a
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '384'
 ht-degree: 3%
 
 ---
@@ -18,22 +18,22 @@ Les options suivantes sont disponibles pour la sortie PDF :
 
 >[!NOTE]
 >
-> Pour ouvrir les paramètres prédéfinis de sortie pour PDF, cliquez sur un fichier FrameMaker \(`.fm` ou `.book`\), puis sur Paramètres prédéfinis de sortie et enfin sur l’option Sortie PDF .
+> To open output presets for PDF, click on a FrameMaker \(`.fm` or `.book`\) file, then click on Output Presets, and then click on the PDF Output option.
 
 | Options de PDF | Description |
 |-----------|-----------|
 | Type de sortie | Type de sortie que vous souhaitez générer. Pour générer une sortie PDF, choisissez l’option PDF . |
 | Nom du paramètre | Attribuez un nom explicite aux paramètres de sortie PDF que vous êtes en train de créer. Par exemple, vous pouvez spécifier *sortie des clients internes* ou *sortie des utilisateurs finaux*. |
-| **Paramètres de la tâche** |  |
-| Options | Choisissez le paramètre prédéfini PDF à utiliser pour générer la sortie PDF. |
-| Générer un PDF balisé | Sélectionnez cette option pour générer des fichiers PDF balisés qui contiendront des informations sur le contenu et la structure du document. Ces informations sont utilisées par les lecteurs à l’écran. |
-| Générer un PDF pour chaque fichier du livre | Si vous générez une sortie pour un fichier de livre, sélectionnez cette option pour générer un PDF distinct pour chaque fichier du livre. |
-| Générer le PDF pour révision uniquement | Sélectionnez cette option pour générer PDF avec la fonction de commentaire activée. |
-| Créer une destination nommée pour tous les éléments et paragraphes | Sélectionnez cette option pour créer des destinations nommées en fonction des éléments et des paragraphes. |
-| **Paramètres d’affichage** |  |
-| Ouvrir le document sur la page | Spécifiez le numéro de page à afficher à l’ouverture du PDF. |
-| Niveau de zoom initial | Choisissez le niveau de zoom du document. |
-| Marque D&#39;Enregistrement | Pour imprimer un document avec des traits de coupe et des repères de montage, choisissez une option dans la liste déroulante des repères de montage. |
+| **Job Settings** |  |
+| Options | Choose the PDF preset that you want to use for generating PDF output. |
+| Generate Tagged PDF | Select this option to generate tagged PDFs that will contain information on document&#39;s content and structure. This information is used by the on-screen readers. |
+| Generate PDF for Each File in Book | If you are generating output for a book file, select this option to generate a separate PDF for each file in the book. |
+| Generate PDF for review Only | Select this option to generate PDF with commenting feature enabled. |
+| Create Named Destination for all Elements and Paragraphs | Select this option to create named destinations based on elements and paragraphs. |
+| **Display Settings** |  |
+| Open Document on Page | Specify the page number that should be displayed on opening the PDF. |
+| Initial Zoom Level | Choose the document zoom level. |
+| Registration Mark | Pour imprimer un document avec des traits de coupe et des repères de montage, choisissez une option dans la liste déroulante des repères de montage. |
 | Largeur et hauteur de page | Spécifiez la largeur et la hauteur de la page. |
 | Plage de pages | Choisissez si vous souhaitez publier toutes les pages de la liasse ou une plage de pages. Si vous choisissez Plage, vous devez spécifier la plage de pages De et À. |
 | Convertir CYMK en RGB | Sélectionnez cette option pour convertir les couleurs CYMK en RGB dans le PDF généré. |
@@ -41,4 +41,4 @@ Les options suivantes sont disponibles pour la sortie PDF :
 | Chemin de destination | Chemin d’accès dans votre référentiel AEM où est stockée la sortie PDF. |
 | Exécuter le workflow de post-génération | Lorsque vous sélectionnez cette option, une nouvelle liste déroulante Workflow de post-génération s’affiche, contenant tous les workflows configurés dans AEM. Vous devez sélectionner un workflow à exécuter une fois le workflow de génération de sortie terminé. |
 
-**Rubrique parente :**&#x200B;[&#x200B; générer la sortie des documents FrameMaker](fm-output-generatation.md)
+**Rubrique parente :**[ générer la sortie des documents FrameMaker](fm-output-generatation.md)

@@ -1,60 +1,60 @@
 ---
-title: Créer des documents Markdown
-description: Créez des documents Markdown à partir de l’éditeur web. Découvrez comment créer, créer et prévisualiser une rubrique Markdown dans AEM Guides.
+title: Author Markdown documents
+description: Author markdown documents from the web editor. Learn how to create, author, and preview a Markdown topic in AEM Guides.
 feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: fe7b3b8d-a4bd-43d2-ad20-49fa6c258b7d
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
-# Créer des documents Markdown à partir de l’éditeur web {#id223MIE0B079}
+# Author Markdown documents from the Web Editor {#id223MIE0B079}
 
-Markdown est un langage de balisage léger qui peut vous aider à ajouter des éléments de mise en forme aux documents en texte brut. AEM Guides permet de créer et de prévisualiser une rubrique Markdown \(.md\) à partir de l’éditeur web. Vous pouvez également charger les documents Markdown existants et les modifier dans l’éditeur web.
+Markdown is a lightweight markup language that can help you add formatting elements to plain text documents. AEM Guides provides the feature to create, author, and preview a Markdown \(.md\) topic from the Web Editor. You can also upload the existing Markdown documents and edit them in the Web Editor.
 
-## Créer une rubrique Markdown
+## Create a Markdown topic
 
-Pour créer une rubrique Markdown à partir de l’éditeur web, procédez comme suit :
+Perform the following steps to create a Markdown topic from the Web Editor:
 
-1. Sélectionnez un dossier dans la vue Référentiel.
-1. Créez **rubrique Markdown** de l’une des manières suivantes :
-   1. Cliquez sur l&#39;icône **Créer un fichier DITA** dans le coin supérieur droit du panneau Référentiel, puis sélectionnez **Rubrique Markdown** dans la liste déroulante.
+1. Select a folder in the Repository View.
+1. Create **Markdown Topic** in one of the following ways:
+   1. Click **Create DITA File** icon on the top-right corner of the Repository Panel and then select **Markdown Topic** from the dropdown.
 
    ![](images/create-markdown-dita-topic.png){width="550" align="left"}
 
-   1. Sélectionnez **Créer** dans le menu Options du dossier sélectionné, puis sélectionnez **Rubrique Markdown** dans la liste déroulante.
+   1. Select **Create** from the Options menu of the selected folder and then select **Markdown Topic** from the dropdown.
 
    ![](images/create-markdown-options-menu.png){width="550" align="left"}
 
-1. Saisissez le nom et le chemin de la rubrique Markdown dans la boîte de dialogue **Créer une rubrique Markdown**.
+1. Enter the name and path of the Markdown topic in the **Create New Markdown Topic** dialog.
 
 ![](images/create-markdown-dialog.png){width="350" align="left"}
 
 1. Cliquez sur **Créer**.
 
-La rubrique Markdown est créée au niveau du chemin d’accès sélectionné et est ouverte pour modification.
+The Markdown topic is created at the selected path and is open for editing.
 
-## Créer et prévisualiser une rubrique Markdown
+## Author and Preview a Markdown topic
 
-Pour créer une rubrique Markdown à partir de l’éditeur web, procédez comme suit :
+Perform the following steps to author a Markdown topic from the Web Editor:
 
-1. Sélectionnez une rubrique Markdown existante\(.md\) dans la vue Référentiel.
-1. Double-cliquez sur la rubrique pour l&#39;ouvrir dans la fenêtre d&#39;édition.
+1. Select an existing Markdown topic\(.md\) in the Repository View.
+1. Double-click the topic to open it in the editing window.
 
-   La rubrique s’ouvre en mode Source.
+   The topic opens in Source mode.
 
-1. Mettez à jour le contenu dans la rubrique Markdown.
-1. Cliquez sur **Aperçu** dans le coin supérieur droit pour prévisualiser la rubrique.
+1. Update the content in the Markdown topic.
+1. Click **Preview** on the top-right to preview the topic.
 
    >[!NOTE]
    >
-   > Le mode Aperçu indique comment une rubrique s’affichera lorsqu’elle sera consultée par un utilisateur dans son navigateur.
+   > The Preview mode shows how a topic will be displayed when it is viewed by a user in their browser.
 
-1. Utilisez **Enregistrer en tant que nouvelle version** dans la barre d&#39;outils principale pour enregistrer les modifications que vous avez apportées à votre rubrique et créer une nouvelle version de votre rubrique. Vous pouvez également utiliser **Enregistrer tout** dans la barre d’outils principale pour enregistrer vos modifications dans toutes les rubriques ouvertes.
+1. Use **Save as a New Version** in the main toolbar to save the changes you have made in your topic and create a new version of your topic. You can also use **Save All** in the main toolbar to save your changes in all opened topics.
 
 1. Cliquez sur **Fermer** en haut à droite pour fermer la rubrique Markdown.
 
@@ -62,4 +62,4 @@ Pour créer une rubrique Markdown à partir de l’éditeur web, procédez comme
 >
 > Si vous n’avez pas enregistré les modifications, une fenêtre contextuelle s’affiche et vous êtes invité à enregistrer votre rubrique avant de la fermer.
 
-**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**[ Utiliser l’éditeur web](web-editor.md)

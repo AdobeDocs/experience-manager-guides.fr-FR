@@ -1,56 +1,56 @@
 ---
 title: Traduire les rubriques modifiées
-description: Découvrez comment retraduire une rubrique modifiée dans AEM Guides.
+description: Learn how to re-translate a modified topic in AEM Guides.
 feature: Translation
 role: User
 hide: true
 exl-id: b623b109-8695-40e5-9e28-78f78cf57ad6
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
 
 # Traduire les rubriques modifiées {#id16A5A0B6072}
 
-Si vous apportez des modifications à certains sujets, alors ces sujets doivent être retraduits. Vous pouvez suivre les rubriques modifiées à partir du plan DITA. Dans le dossier de copie de la langue source, cliquez sur le fichier de mappage DITA, puis sur l&#39;onglet Traduction . Vous pouvez voir le statut de chaque rubrique, qu’elle nécessite une retraduction ou non.
+If you make changes in some of the topics, then those topics require re-translation. You can keep track of modified topics from DITA map. From the source language copy folder, click the DITA map file and click the Translation tab. You can see the status of each topic whether it requires re-translation or not.
 
-Effectuez les étapes suivantes pour envoyer une rubrique modifiée pour retraduction :
+Perform the following steps to send a modified topic for re-translation:
 
-1. Cliquez sur le fichier de mappage DITA dans le dossier de copie de la langue source.
+1. Click the DITA map file from the source language copy folder.
 
 1. Cliquez sur l’onglet **Traduction**.
 
-1. Dans le panneau **Filtre** à gauche, sélectionnez les **Traduire les langues** dont vous souhaitez vérifier le statut, puis cliquez sur **Terminé**.
+1. In the **Filter** panel on the left, select the **Translate Languages** that you want to check the status for and click **Done**.
 
-   Vous pouvez voir le statut de la traduction pour chaque rubrique. Les rubriques pour lesquelles une autre révision de rubrique est disponible que celle envoyée pour traduction affichent le statut **Obsolète**.
+   You can see the translation status for each topic. The topics that have another revision of topic available than what was sent for translation, show an **Out of Date** status.
 
    >[!NOTE]
    >
-   > Le workflow de traduction compare la dernière révision enregistrée du fichier de rubrique dans le dossier de langue source avec la version traduite.
+   > The translation workflow compares the last saved revision of the topic file in the source language folder with the translated version.
 
-   Si vous cliquez sur la flèche pour afficher plus de détails. vous pouvez voir la copie de langue spécifique qui est obsolète.
+   If you click the arrow to see further details. you can see the particular language copy that is out of date.
 
    ![](images/out-of-sync-uuid.png){width="800" align="left"}
 
-1. Cochez la case pour sélectionner les rubriques à envoyer pour une nouvelle traduction.
+1. Click the check box to select the topics that you want to send for re-translation.
 
-   Lorsque vous sélectionnez une date désynchronisée, l’option **Créer/mettre à jour des copies de langue** s’affiche dans le panneau Références et le bouton **Ignorer le statut de désynchronisation** au-dessus de l’icône **Filtrer**.
+   When you select an out of sync date, the **Create/Update Language Copies** option appears in the References panel and the **Dismiss Out of Sync Status** button above the **Filter** icon.
 
-   Vous pouvez utiliser le bouton **Ignorer la désynchronisation** pour remplacer le statut Obsolète pour les rubriques du plan DITA. Par exemple, si vous avez apporté des modifications à la version anglaise de la rubrique qui n’ont pas besoin d’être traduites, vous pouvez utiliser ce bouton et modifier le statut Obsolète pour la rubrique sélectionnée.
+   You can use the **Dismiss Out of Sync** button to override the Out of Date status for the topics in the DITA map. For example, if you made some changes in the English version of the topic that does not need translation, you can use this button and change the Out of Date status for the selected topic.
 
    >[!NOTE]
    >
-   > Si vous cliquez sur le bouton **Ignorer le statut de désynchronisation**, il définit le statut de la rubrique sur À jour pour les rubriques obsolètes sélectionnées.
+   > If you click the **Dismiss Out of Sync Status** button, it sets the topic status to Up to Date for the selected Out of Date topics.
 
-1. Cliquez sur **Mettre à jour des copies de langue** et configurez la tâche de traduction.
+1. Click **Update Language Copies** and configure the translation job.
 
-1. Vous pouvez choisir de créer un projet de traduction ou d’ajouter des rubriques à un projet de traduction existant. Fournissez les détails requis pour configurer le projet de traduction.
+1. You can choose to create a new translation project or add topics to an existing translation project. Provide the required details to configure the translation project.
 
 1. Cliquez sur **Démarrer**.
 
-   Un message de confirmation s’affiche indiquant que la rubrique a été envoyée pour traduction.
+   A confirmation message is displayed showing that the topic has been sent for translation.
 
 1. Accédez au projet de traduction dans la console Projet. Une nouvelle carte de tâche de traduction est créée dans le dossier . Cliquez sur les points de suspension pour afficher les ressources du dossier.
 
@@ -79,4 +79,4 @@ Effectuez les étapes suivantes pour envoyer une rubrique modifiée pour retradu
 1. Revenez au fichier de mappage DITA dans le dossier de langue source dans l’interface utilisateur d’Assets. Les rubriques retraduites sont désormais synchronisées.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Traduire le contenu](translation.md)
+**Rubrique parente :**[ Traduire le contenu](translation.md)

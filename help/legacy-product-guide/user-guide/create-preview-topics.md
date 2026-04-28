@@ -5,7 +5,7 @@ feature: Authoring
 role: User
 hide: true
 exl-id: 71929e00-adda-4644-be4a-df9574cc8e46
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 0%
@@ -21,4 +21,4 @@ AEM Guides s&#39;accompagne d&#39;une puissante fonctionnalité de création de 
 - **[Prévisualiser une rubrique](web-editor-preview-topics.md)**
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Créer du contenu](authoring-content.md)
+**Rubrique parente :**[ Créer du contenu](authoring-content.md)

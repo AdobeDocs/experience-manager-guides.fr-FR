@@ -5,9 +5,9 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 4e47536a-ad78-4c97-9cea-a6af854f6e2f
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2775'
 ht-degree: 0%
 
 ---
@@ -48,43 +48,43 @@ Pour créer une tâche de révision et envoyer des rubriques à réviser, procé
 
    ![](images/select-asset-62.png){width="300" align="left"}
 
-1. Dans la barre d’outils, cliquez sur **Créer une tâche de révision**. La page de création de la tâche de révision s’affiche.
+1. In the toolbar, click **Create Review Task**. The review task creation page is displayed.
 
    >[!NOTE]
    >
-   > Vous ne pouvez créer une tâche de révision que pour les rubriques comportant une révision. Si la rubrique sélectionnée n&#39;a pas de révision, une invite s&#39;affiche.
+   > You can create a review task for only those topics that have a revision. In case the selected topic does not have a revision, you will be shown a prompt.
 
    ![](images/create-review-task-023.png){width="650" align="left"}
 
-1. Saisissez un **Titre** pour la tâche et sélectionnez un DITA **Projet** dans la liste déroulante.
+1. Enter a **Title** for the task and select a DITA **Project** from the drop-down list.
 
-1. Dans le champ déroulant **Affecter à**, sélectionnez les réviseurs auxquels vous souhaitez envoyer les rubriques pour révision.
+1. In the **Assign To** drop-down field, select the reviewers to whom you want to send the topics for review.
 
-   Vous pouvez affecter une tâche de révision à des utilisateurs individuels du projet ou à des groupes d’utilisateurs. Notez que vous ne pouvez affecter une tâche de révision à des utilisateurs individuels que si vous faites partie du groupe d’administrateurs du projet, sinon vous ne verrez que les groupes d’utilisateurs dans le champ Affecter à .
-
-   >[!NOTE]
-   >
-   > Le workflow de révision est spécifique au projet. Lorsque vous créez des projets, vous ajoutez les membres de l’équipe au projet et les affectez à des groupes. Ainsi, lorsque vous sélectionnez le projet ici, vous pouvez choisir les membres qui font partie de ce projet. Pour plus d&#39;informations sur les projets, voir [Créer un projet DITA](authoring-create-dita-project.md#).
-
-1. Saisissez une **Description** pour la tâche.
-
-   Cette description est utilisée comme corps de l’e-mail de notification envoyé aux réviseurs.
-
-1. Sélectionnez la **Date d’échéance** et l’heure pour indiquer l’échéance de la révision.
+   You can assign a review task to individual users of the project or to user groups. Note that you can assign a review task to individual users only when you are a part of the project&#39;s administrator group, else you will only see the user groups in the Assign To field.
 
    >[!NOTE]
    >
-   > Une fois l’échéance atteinte, un e-mail est envoyé à l’initiateur pour l’informer que la tâche de révision est terminée. L’initiateur ou l’initiatrice peut prolonger la date limite de la tâche de révision depuis le [Tableau de bord de révision](review-manage-tasks-review-dashboard.md#).
+   > Review workflow is project-specific. When you create projects, you add the team members to the project and assign them to groups. So when you select the project here, you get to choose the members who are a part of that project. Pour plus d&#39;informations sur les projets, voir [Créer un projet DITA](authoring-create-dita-project.md#).
 
-1. Sélectionnez la carte racine dans le **Chemin de la carte racine**. Cette feuille de route est utilisée pour résoudre toutes les références clés et tous les termes du glossaire utilisés dans le contenu de la révision. Si vous ne sélectionnez pas la feuille de route, les références clés ou les termes du glossaire associés à la rubrique DITA ne sont pas résolus avant l&#39;envoi de la rubrique pour révision.
+1. Enter a **Description** for the task.
 
-   Si vous créez la révision d&#39;un plan DITA, le chemin par défaut **Rootmap** est défini sur le chemin de ce plan. Si vous créez la révision d’une ou de plusieurs rubriques, le **Chemin de la feuille de route** est défini par défaut sur la feuille de route définie dans les Préférences utilisateur.
+   This description is used as the body of the notification email sent to the reviewers.
+
+1. Select the **Due Date** and time to mark the deadline for the review.
 
    >[!NOTE]
    >
-   > La carte racine sélectionnée a la priorité la plus élevée pour résoudre les références clés. Pour plus d’informations, voir [Résoudre les références clés](map-editor-other-features.md#id176GD01H05Z).
+   > On reaching the deadline, an email is sent to the initiator notifying that the review task has completed. The initiator can extend the deadline of the review task from the [Review Dashboard](review-manage-tasks-review-dashboard.md#).
 
-1. Comme vous pouvez affecter différents réviseurs à différentes rubriques, l&#39;option **Autoriser les personnes désignées à réviser n&#39;importe quelle rubrique** contrôle si les réviseurs peuvent réviser toutes les rubriques d&#39;une tâche de révision ou uniquement les rubriques qui leur sont affectées.
+1. Select the root map from the **Rootmap path**. This rootmap is used to resolve all the key references and glossary terms used in the review content. If you do not select the rootmap then the key references or glossary terms associated with the DITA topic, are not resolved before sending the topic for review.
+
+   If you are creating the review for a DITA map, then by default **Rootmap path** is set to that map&#39;s path. If you are creating the review for a single or multiple topics, then by default the **Rootmap path** is set to the map defined in the User Preferences.
+
+   >[!NOTE]
+   >
+   > The selected root map takes the highest precedence to resolve key references. For more details, see [Resolve key references](map-editor-other-features.md#id176GD01H05Z).
+
+1. As you can assign different reviewers to different topics, **Allow Assignees to Review Any Topic** option controls whether reviewers can review all topics in a review task or only those topics that they are assigned to review.
 
    Si vous souhaitez permettre à tous les réviseurs et réviseuses de réviser n’importe quelle rubrique de la tâche de révision, sélectionnez **Autoriser les personnes désignées à réviser n’importe quelle rubrique**.
 
@@ -155,51 +155,51 @@ Un plan DITA est une organisation logique de rubriques dans un livre. Lorsque vo
 
 AEM Guides vous permet d&#39;envoyer une ou plusieurs rubriques d&#39;un plan DITA pour révision en même temps. Le réviseur peut voir le fichier de mappage complet ainsi que les rubriques qui ont été partagées pour la révision. Cela permet au réviseur ou à la réviseuse d’obtenir plus facilement un contexte pour la rubrique dans le fichier de carte ou de livre.
 
-Vous pouvez partager le même plan DITA dans pour révision dans plusieurs tâches de révision. Par exemple, si dans un plan DITA, il existe des rubriques A, B, C, D et E. Dans une tâche de révision, vous pouvez partager A, B et C pour révision et dans une autre tâche de révision, vous pouvez envoyer les rubriques C, D et E pour révision. Le processus de révision permet de partager la même rubrique et de mapper le fichier dans plusieurs tâches de révision. Pour la rubrique commune à plusieurs tâches de révision, les commentaires fournis dans une tâche de révision ne remplacent pas ou ne fusionnent pas avec les commentaires des autres tâches de révision.
+Vous pouvez partager le même plan DITA dans pour révision dans plusieurs tâches de révision. Par exemple, si dans un plan DITA, il existe des rubriques A, B, C, D et E. Dans une tâche de révision, vous pouvez partager A, B et C pour révision et dans une autre tâche de révision, vous pouvez envoyer les rubriques C, D et E pour révision. Le processus de révision permet de partager la même rubrique et de mapper le fichier dans plusieurs tâches de révision. For the common topic in multiple review tasks, the comments given in one review task do not overwrite or merge with the comments in the other review tasks.
 
 >[!IMPORTANT]
 >
-> Si une rubrique d’un fichier de mappage a été partagée dans plusieurs tâches de révision, son statut indique En révision jusqu’à ce que toutes les tâches de révision soient terminées.
+> In case a topic of a map file has been shared in multiple review tasks, their status would show In-Review until all review tasks have completed.
 
-Pour envoyer une ou plusieurs rubriques avec le fichier de mappage pour révision, procédez comme suit :
+To send one or multiple topics along with the map file for review, perform the following steps:
 
 >[!IMPORTANT]
 >
-> Une fois que vous avez lancé une révision à l’aide d’un fichier de mappage, vous ne devez pas modifier la structure du fichier de mappage en ajoutant de nouvelles rubriques ou en supprimant des rubriques existantes.
+> Once you initiate a review through a map file, you must not change the structure of the map file by adding new topics or removing existing topics.
 
 1. Accédez au dossier requis dans l’interface utilisateur d’Assets.
 
    >[!NOTE]
    >
-   > Assurez-vous que la vue de la console est définie sur Carte ou Liste.
+   > Make sure the view of the console is set to either card view or list view.
 
-1. Sélectionnez la carte à partir de laquelle vous souhaitez envoyer les rubriques à réviser.
+1. Select the map from where you want to send the topics for review.
 
-1. Dans la barre d’outils, cliquez sur **Créer une tâche de révision**. La page de création de la tâche de révision s’affiche.
+1. In the toolbar, click **Create Review Task**. The review task creation page is displayed.
 
-1. Saisissez un **Titre** pour la tâche et sélectionnez un DITA **Projet** dans la liste déroulante.
-
-   >[!NOTE]
-   >
-   > Vous ne pouvez créer une tâche de révision que pour les rubriques comportant une révision. Si votre carte contient des rubriques qui n’ont pas de révision, une invite vous est présentée avec une liste de ces fichiers. Les fichiers sans révision sont exclus de la tâche de révision.
-
-1. Dans le champ déroulant **Affecter à**, sélectionnez les réviseurs auxquels vous souhaitez envoyer les rubriques pour révision.
-
-   Vous pouvez affecter une tâche de révision à des utilisateurs individuels du projet ou à des groupes d’utilisateurs. Notez que vous ne pouvez affecter une tâche de révision à des utilisateurs individuels que si vous faites partie du groupe d’administrateurs du projet, sinon vous ne verrez que les groupes d’utilisateurs dans le champ Affecter à .
+1. Enter a **Title** for the task and select a DITA **Project** from the drop-down list.
 
    >[!NOTE]
    >
-   > Le workflow de révision est spécifique au projet. Lorsque vous créez des projets, vous ajoutez les membres de l’équipe au projet et les affectez à des groupes. Ainsi, lorsque vous sélectionnez le projet ici, vous pouvez choisir les membres qui font partie de ce projet. Pour plus d&#39;informations sur les projets, voir [Créer un projet DITA](authoring-create-dita-project.md#).
+   > You can create a review task for only those topics that have a revision. In case your map contains topics that do not have a revision, then you are shown a prompt with a list of such files. Files without a revision are excluded from the review task.
 
-1. Saisissez une **Description** pour la tâche.
+1. In the **Assign To** drop-down field, select the reviewers to whom you want to send the topics for review.
 
-   Cette description est utilisée comme corps de l’e-mail de notification envoyé aux réviseurs.
-
-1. Sélectionnez la **Date d’échéance** et l’heure pour indiquer l’échéance de la révision.
+   You can assign a review task to individual users of the project or to user groups. Note that you can assign a review task to individual users only when you are a part of the project&#39;s administrator group, else you will only see the user groups in the Assign To field.
 
    >[!NOTE]
    >
-   > Une fois l’échéance atteinte, un e-mail est envoyé à l’initiateur pour l’informer que la tâche de révision est terminée. L’initiateur ou l’initiatrice peut prolonger la date limite de la tâche de révision depuis le [Tableau de bord de révision](review-manage-tasks-review-dashboard.md#).
+   > Review workflow is project specific. When you create projects, you add the team members to the project and assign them to groups. So when you select the project here, you get to choose the members who are a part of that project. Pour plus d&#39;informations sur les projets, voir [Créer un projet DITA](authoring-create-dita-project.md#).
+
+1. Enter a **Description** for the task.
+
+   This description is used as the body of the notification email sent to the reviewers.
+
+1. Select the **Due Date** and time to mark the deadline for the review.
+
+   >[!NOTE]
+   >
+   > On reaching the deadline, an email is sent to the initiator notifying that the review task has completed. The initiator can extend the deadline of the review task from the [Review Dashboard](review-manage-tasks-review-dashboard.md#).
 
 1. Comme vous pouvez affecter différents réviseurs à différentes rubriques, l&#39;option **Autoriser les personnes désignées à réviser n&#39;importe quelle rubrique** contrôle si les réviseurs peuvent réviser toutes les rubriques d&#39;une tâche de révision ou uniquement les rubriques qui leur sont affectées.
 
@@ -247,10 +247,9 @@ Pour envoyer une ou plusieurs rubriques avec le fichier de mappage pour révisio
    - **Réaffecter** : affiche la boîte de dialogue Réaffecter les réviseurs. Vous pouvez saisir le nom d’un réviseur ou d’un rôle d’utilisateur \(ou d’un groupe\) auquel vous souhaitez affecter la tâche de révision. Cette action supprime tous les réviseurs existants des rubriques sélectionnées et affecte les nouveaux réviseurs à ces rubriques.
    - **Exporter** : permet d’exporter les détails de la tâche de révision dans un fichier CSV. Le fichier contient des détails tels que le chemin et le titre de la rubrique, le nom du réviseur et la version des rubriques envoyées pour révision.
    - **Modifier les réviseurs** : cliquez sur l’icône ![](images/edit_pencil_icon.svg)dans la liste de rubriques pour afficher la boîte de dialogue Modifier les réviseurs. Vous pouvez ajouter ou supprimer des réviseurs et réviseuses pour la rubrique sélectionnée à partir de cette boîte de dialogue.
-
    >[!IMPORTANT]
    >
-   > Vous devez affecter au moins un réviseur/une réviseuse pour créer la tâche de révision.
+   > You must assign at least one reviewer to create the review task.
 
 1. Cliquez sur **Créer** pour créer la tâche de révision.
 
@@ -258,13 +257,13 @@ Pour envoyer une ou plusieurs rubriques avec le fichier de mappage pour révisio
 
    >[!NOTE]
    >
-   > Vous pouvez également cliquer sur le panneau Notifications en haut à droite de l’interface et confirmer que la tâche a été créée avec succès. Dans le panneau Notifications , vous trouverez une notification pour chaque révision ayant fait partie de la tâche de révision et une notification pour l’initiateur de la révision.
+   > You can also click Notifications panel at the top right of the interface and confirm that the task has been created successfully. In the Notifications panel, you will find one notification each for the reviews who were a part of the review task and one notification for the initiator of the review.
 
    >[!IMPORTANT]
    >
-   > Une fois que vous avez lancé une révision, vous ne devez pas déplacer ni supprimer le plan ou les rubriques DITA vers un autre emplacement. Cela entraînera une interruption du processus d&#39;examen.
+   > Once you have initiated a review, you must not move or delete the DITA map or topics to a different location. Doing so will result in a break in the review process.
 
 
-Un e-mail est envoyé à tous les réviseurs et réviseuses, les informant que des rubriques leur ont été affectées pour la révision. L’e-mail contient un lien direct sur lequel ils peuvent cliquer et accéder à la rubrique dans une fenêtre de navigateur. Les rubriques ainsi que le plan DITA sont ouvertes en mode de révision.
+An email is sent to all the reviewers, notifying that they have been assigned topics for review. L’e-mail contient un lien direct sur lequel ils peuvent cliquer et accéder à la rubrique dans une fenêtre de navigateur. The topics along with the DITA map are opened in the review mode.
 
-**Rubrique parente :**&#x200B;[&#x200B; consulter des rubriques ou des cartes](review.md)
+**Rubrique parente :**[ consulter des rubriques ou des cartes](review.md)

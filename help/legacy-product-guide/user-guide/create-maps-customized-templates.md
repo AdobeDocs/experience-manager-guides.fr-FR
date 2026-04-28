@@ -5,10 +5,10 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 0f86ac98-7ba4-4e15-8a1f-83456afa7570
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 0%
+source-wordcount: '1111'
+ht-degree: 1%
 
 ---
 
@@ -46,7 +46,7 @@ Pour créer un modèle de rubrique, procédez comme suit :
 
    ![](images/dita-templates.png){width="800" align="left"}
 
-1. Cliquez sur le dossier **topics** pour l&#39;ouvrir.Cliquez sur **Create \> DITA Template**.
+1. Cliquez sur le dossier **topics** pour l&#39;ouvrir.Cliquez sur **Créer \> Modèle DITA**.
 1. Sur la page Plan directeur, sélectionnez **Rubrique** puis cliquez sur **Suivant.**
 1. Sur la page Propriétés , spécifiez le modèle de rubrique **Titre**.
 1. Spécifiez le fichier **Nom**
@@ -76,7 +76,7 @@ Pour créer un modèle de mappage, procédez comme suit :
    >
    > Le nom du fichier doit avoir l’extension .ditamap.
 
-1. (Facultatif\) Ajoutez une description. Cliquez sur **Créer**. Le message de création du modèle de mappage s’affiche. Vous pouvez ensuite ouvrir le modèle de carte et le modifier. Vous pouvez ajouter les références des modèles de rubrique et de mappage, ainsi que d’autres ressources dans le modèle de mappage.
+1. (Facultatif\) Ajoutez une description.Cliquez sur **Créer**. Le message de création du modèle de mappage s’affiche. Vous pouvez ensuite ouvrir le modèle de carte et le modifier. Vous pouvez ajouter les références des modèles de rubrique et de mappage, ainsi que d’autres ressources dans le modèle de mappage.
 
 ### Menu Options {#options-menu}
 
@@ -190,4 +190,4 @@ La carte génère toutes les ressources qui sont référencées à l’intérieu
 
 - Si un autre mappage ou une autre rubrique est créé au même niveau dans le dossier, les noms des ressources nouvellement créées sont ajoutés avec 0,1,2, etc. Vous pouvez choisir d’ouvrir le mappage pour le modifier ou d’enregistrer le fichier de mappage dans le référentiel.
 
-**Rubrique parente :**&#x200B;[&#x200B; Utilisation de l’éditeur de cartes](map-editor.md)
+**Rubrique parente :**[ Utilisation de l’éditeur de cartes](map-editor.md)

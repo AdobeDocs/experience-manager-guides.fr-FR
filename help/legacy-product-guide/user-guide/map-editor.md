@@ -5,9 +5,9 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 1928364f-3ea9-4e53-9184-dad8fe40f58c
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -37,4 +37,4 @@ Cette rubrique vous guide tout au long du processus de création d&#39;un plan D
 - **[Autres fonctionnalités dans les éditeurs de carte](map-editor-other-features.md)**
 
 
-**Rubrique parente :**&#x200B;[&#x200B; créer du contenu à l’aide d’AEM Guides](authoring-content-xml-doc.md)
+**Rubrique parente :**[ créer du contenu à l’aide d’AEM Guides](authoring-content-xml-doc.md)

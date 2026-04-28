@@ -5,9 +5,9 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: b63d7c0f-9c29-4fb4-b8fe-9790b16f8726
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '3788'
+source-wordcount: '3838'
 ht-degree: 0%
 
 ---
@@ -185,46 +185,46 @@ Affiche ou masque le numéro de ligne pour chaque rubrique. Les numéros de lign
 
 - **Afficher la case à cocher**
 
-Affiche ou masque une case à cocher pour chaque rubrique. Vous pouvez utiliser la case à cocher pour sélectionner la ou les rubriques et effectuer diverses tâches à l’aide du menu Options. Pour plus d’informations, consultez le menu [Options](#id228ID8006H8).
+Affiche ou masque une case à cocher pour chaque rubrique. Vous pouvez utiliser la case à cocher pour sélectionner la ou les rubriques et effectuer diverses tâches à l’aide du menu Options. For more details, see the [Options](#id228ID8006H8) menu.
 
-- **Afficher le nom du fichier**
+- **Show File Name**
 
-Affiche le nom de fichier des titres des rubriques.
+Shows the filename of the titles of the topics.
 
 >[!NOTE]
 >
-> Lorsque vous placez le pointeur de la souris sur le titre d&#39;une rubrique, le chemin d&#39;accès au fichier s&#39;affiche.
+> When you hover your pointer over a topic&#39;s title, you are shown the file path.
 
 
-**Affichage des rubriques en fonction de filtres conditionnels** Si vous avez appliqué des conditions à une rubrique, une icône de filtre s’affiche à droite de la rubrique. Lorsque vous placez le pointeur sur une icône de filtre, la condition appliquée et sa valeur d’attribut s’affichent.
+**View topics based on conditional filters** If you have applied any conditions on a topic, a filter icon is displayed on the right of the topic. When you hover your pointer over a filter icon, you are shown the applied condition and its attribute value.
 
-**Menu Options en mode Mise en page**
+**Options menu in the Layout view**
 
-Outre l’organisation des rubriques dans le fichier de mappage, vous pouvez également effectuer les actions suivantes à l’aide du menu Options disponible pour un élément en mode Mise en page :
+In addition to organizing topics in the map file, you can also perform the following actions using the Options menu available for an element in the Layout view:
 
 ![](images/map-editor-options-menu.png){width="650" align="left"}
 
-- **Ajouter** : vous pouvez choisir d’ajouter une nouvelle rubrique ou une référence vide à partir de l’éditeur de cartes :
-   - **Référence vide** : cette option vous permet d&#39;ajouter une référence vide dans votre plan DITA. Vous pouvez double-cliquer ultérieurement sur la référence vide insérée et ajouter les détails de la rubrique. Pour plus d’informations, consultez la section [Créer une rubrique](web-editor-features.md#id228ICI0105U) dans l’éditeur web.
-   - **Nouvelle rubrique** : lorsque vous choisissez de créer une nouvelle rubrique à partir du menu, vous accédez à la boîte de dialogue Créer une rubrique. Dans la boîte de dialogue Créer une rubrique , fournissez les détails requis et cliquez sur Créer. Pour plus d’informations, consultez la section [Créer une rubrique](web-editor-features.md#id228ICI0105U) dans l’éditeur web.
-- **Déplacer** : permet de déplacer une rubrique vers le haut/bas/droite/gauche dans la hiérarchie. Vous pouvez également faire glisser une rubrique ou une carte du panneau Référentiel vers la carte ouverte dans l’éditeur de cartes.
-- **Annuler** : permet d’annuler la dernière opération en mode Mise en page.
-- **Rétablir** : permet de rétablir la dernière opération en mode Mise en page.
-- **Copier** : copie la référence sélectionnée du fichier de mappage.
+- **Add**: You can choose to add a new topic or an empty reference from the Map Editor:
+   - **Empty Reference**: This option allows you to add an empty reference in your DITA map. You can double-click the inserted empty reference later and add the Topic details. For more details, see the [Create a topic](web-editor-features.md#id228ICI0105U) in the Web Editor.
+   - **New Topic**: When you choose to create a new topic from the menu, you get the Create New Topic dialog. In the Create New Topic dialog, provide the required details and click Create. For more details, see the [Create a topic](web-editor-features.md#id228ICI0105U) in the Web Editor.
+- **Move**: You can choose to move a topic up/down/right/left in the hierarchy.You can also drag-and-drop a topic or a map from the repository panel to the map opened in the Map Editor.
+- **Undo**: Undo the last operation in the Layout view.
+- **Redo**: Redo the last operation in the Layout view.
+- **Copy**: Copy the selected reference from the map file.
 
   >[!NOTE]
   >
-  > Vous pouvez afficher et sélectionner les cases à cocher pour copier plusieurs références.
+  > You can show and then select the checkboxes to copy multiple references.
 
-- **Coller** : collez les références copiées à l’emplacement actuel dans la hiérarchie.
-- **Supprimer** : supprimez les références sélectionnées du fichier de mappage.
+- **Paste**: Paste the copied references at the current location in the hierarchy.
+- **Delete**: Delete the selected references from the map file.
 
   >[!NOTE]
   >
-  > Vous pouvez afficher et sélectionner les cases à cocher pour supprimer plusieurs références.
+  > You can show and then select the checkboxes to delete multiple references.
 
 
-## Panneau de droite dans l’éditeur de cartes
+## Right Panel in the Map Editor
 
 Le panneau de droite affiche les propriétés de contenu et les propriétés de carte en mode Mise en page de l’éditeur de cartes.
 

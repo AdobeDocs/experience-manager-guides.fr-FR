@@ -1,49 +1,49 @@
 ---
-title: Utiliser l’éditeur DITAVAL
-description: Découvrez comment créer et modifier des fichiers DIVATAL à l’aide de l’éditeur DIVATAL dans AEM Guides. Savoir comment l'éditeur DITAVAL prend en charge les fichiers DITAVAL dans les vues auteur et source.
+title: Use DITAVAL editor
+description: Understand how to create and edit DITAVAL files using the DIVATAL Editor in AEM Guides. Know how the DITAVAL editor supports DITAVAL files in author and source views.
 feature: Authoring, DITAVAL Editor
 role: User
 hide: true
 exl-id: 8eee347d-840e-4eaf-9441-c7c53a7c3aa0
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
 
 # Éditeur DITAVAL {#ditaval-editor}
 
-Les fichiers DITAVAL sont utilisés pour générer une sortie conditionnelle. Dans une seule rubrique, vous pouvez ajouter des conditions à l’aide d’attributs d’élément pour conditionner le contenu. Ensuite, vous créez un fichier DITAVAL dans lequel vous spécifiez les conditions qui doivent être sélectionnées pour générer du contenu et quelle condition doit être exclue de la sortie finale.
+DITAVAL files are used to generate conditional output. In a single topic, you can add conditions using element attributes to conditionalize content. Then, you create a DITAVAL file wherein you specify the conditions that should be picked up to generate content, and which condition should be left out from the final output.
 
-AEM Guides vous permet de créer et modifier facilement des fichiers DITAVAL à l&#39;aide de l&#39;éditeur DITAVAL. L’éditeur DITAVAL récupère les attributs \(ou balises\) définis dans votre système et vous pouvez les utiliser pour créer ou modifier des fichiers DITAVAL. Pour plus d’informations sur la création et la gestion des balises dans AEM, consultez la section [Administration des balises](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=fr) de la documentation AEM.
+AEM Guides allows you to easily create and edit DITAVAL files using the DITAVAL editor. The DITAVAL editor retrieves the attributes \(or tags\) defined in your system, and you can use them to create or edit DITAVAL files. For more details about creating and managing tags in AEM, see [Administering Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) section in AEM documentation.
 
-## Créer un fichier DITAVAL
+## Create DITAVAL file
 
-Pour créer un fichier DITAVAL, procédez comme suit :
+Perform the following steps to create a DITAVAL file:
 
-1. Dans l’interface utilisateur d’Assets, accédez à l’emplacement où vous souhaitez créer le fichier DITAVAL.
+1. In the Assets UI, navigate to the location where you want to create the DITAVAL file.
 
-1. Cliquez sur **Créer** \> **Rubrique DITA**.
+1. Click **Create** \> **DITA Topic**.
 
-1. Sur la page Plan directeur, sélectionnez le modèle de fichier DITAVAL et cliquez sur **Suivant**.
+1. On the Blueprint page, select DITAVAL file template and click **Next**.
 
-1. Sur la page Propriétés, spécifiez les **Titre** et **Nom** pour le fichier DITAVAL.
+1. On the Properties page, specify the **Title** and **Name** for the DITAVAL file.
 
    >[!NOTE]
    >
-   > Le nom est automatiquement suggéré en fonction du Titre de votre fichier. Si vous souhaitez spécifier manuellement le nom du fichier, assurez-vous que le Nom ne contient pas d&#39;espaces, d&#39;apostrophe ou de crochets et se termine par .ditaval.
+   > The name is automatically suggested based on the Title of your file. If you want to manually specify the file name, then ensure that the Name does not contain any spaces, apostrophe, or braces and ends with .ditaval.
 
 1. Cliquez sur **Créer**. Le message Rubrique créée s’affiche.
 
-   Vous pouvez choisir d&#39;ouvrir le fichier DITAVAL pour le modifier dans l&#39;éditeur DITAVAL ou d&#39;enregistrer le fichier de rubrique dans le référentiel AEM.
+   You can choose to open the DITAVAL file for editing in the DITAVAL editor, or the save the topic file in the AEM repository.
 
 
-## Modifier le fichier DITAVAL
+## Edit DITAVAL file
 
-Pour modifier un fichier DITAVAL, procédez comme suit :
+Perform the following steps to edit a DITAVAL file:
 
-1. Dans l’interface utilisateur d’Assets, accédez au fichier DITAVAL à modifier.
+1. In the Assets UI, navigate to the DITAVAL file that you want to edit.
 
 1. Pour obtenir un verrou exclusif sur le fichier, sélectionnez le fichier et cliquez sur **Extraire**.
 
