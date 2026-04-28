@@ -4,26 +4,27 @@ description: Découvrez comment créer un contenu d’index personnalisé
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 612f0be3-9f9d-4e30-ac57-65da227ea08f
+source-git-commit: 9dba92a79858ee8a182d833d09f9907ff895ec38
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 3%
+source-wordcount: '469'
+ht-degree: 8%
 
 ---
 
 # Déploiement de la fonctionnalité d’index personnalisé pour la recherche et le remplacement (vue Source) pour Cloud Service
 
-## Vue d’ensemble
+## Présentation
 
 Ce guide fournit des instructions détaillées sur le déploiement de l’index personnalisé `guidesAssetLucene‑1‑custom‑1` sur Adobe Experience Manager (AEM) as a Cloud Service. Bien que la fonction de recherche et de remplacement standard de la vue Auteur fonctionne sans cet index, l’index personnalisé est spécifiquement requis pour activer la fonction de recherche et de remplacement dans la vue Source. La fonction Rechercher et remplacer (vue Source) vous permet de rechercher non seulement le contenu créé visible, mais également la structure XML sous-jacente, y compris les éléments, les balises et les valeurs d’attribut.
 
-## Conditions préalables
+## Prérequis
 
 Avant de poursuivre le déploiement de l’index, vérifiez que vous disposez des éléments suivants :
 
 - **Environnement** avec AEM Guides installé
 - **Accès à la base de code de votre projet** (référentiel Git)
-- Accès à **&#x200B;**&#x200B;avec autorisations de déploiement
+- Accès à **** avec autorisations de déploiement
 
 ## Définition de l’index
 
@@ -208,7 +209,8 @@ La vérification principale consiste à tester la fonctionnalité :
 
 ## Ressources supplémentaires
 
-- [Documentation sur l’indexation &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/operations/indexing)
-- [&#x200B; Guide d’indexation Apache Jackrabbit Oak &#x200B;](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [Documentation &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-manager-guides)
-- [Documentation Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)
+- [Documentation sur l’indexation AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/operations/indexing)
+- [Guide d’indexation Apache Jackrabbit Oak](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
+- [Documentation d’AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
+- [Documentation de Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)
+
