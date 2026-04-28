@@ -43,7 +43,7 @@ Le tableau suivant répertorie les différentes tâches et les groupes qui peuve
 | Créer un plan DITA | Oui |   | Oui |
 | Mapper les collections | Oui |   | Oui |
 | Créer une tâche de révision | Oui |   | Oui |
-| Rubrique [ révision 1](#fntarg_1) | Oui | Oui | Oui |
+| Rubrique [&#x200B; révision 1](#fntarg_1) | Oui | Oui | Oui |
 | Résolution de la clé | Oui |   | Oui |
 | Ouvrir dans FrameMaker | Oui |   | Oui |
 | Extraction/enregistrement | Oui |   | Oui |

@@ -34,7 +34,7 @@ Pour ajouter un composant de recherche de contenu DITA à l&#39;interface utilis
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 
-1. Cliquez sur le lien **** en haut et choisissez **Outils**.
+1. Cliquez sur le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
 
 1. Sélectionnez **Général** dans la liste des outils, puis cliquez sur la mosaïque **Rechercher dans Forms**.
 
@@ -60,7 +60,7 @@ Pour ajouter un composant de recherche basé sur l’UUID à l’interface utili
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 
-1. Cliquez sur le lien **** en haut et choisissez **Outils**.
+1. Cliquez sur le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
 
 1. Sélectionnez **Général** dans la liste des outils, puis cliquez sur la mosaïque **Rechercher dans Forms**.
 
@@ -178,7 +178,7 @@ Procédez comme suit pour ajouter des éléments ou attributs DITA personnalisé
 
 1. Ouvrez la page de configuration de la console web Adobe Experience Manager . L’URL par défaut pour accéder à la page de configuration est :
 
-   http://<nom du serveur\>:<port\>/system/console/configMgr
+   http://&lt;nom du serveur\>:<port\>/system/console/configMgr
 
 1. Recherchez et cliquez sur le lot *com.adobe.fmdita.config.ConfigManager* et cliquez dessus.
 
@@ -202,7 +202,7 @@ Pour activer l’option d’extraction des métadonnées dans configMgr, procéd
 
 1. Ouvrez la page de configuration de la console web Adobe Experience Manager . L’URL par défaut pour accéder à la page de configuration est :
 
-   http://<nom du serveur\>:<port\>/system/console/configMgr
+   http://&lt;nom du serveur\>:<port\>/system/console/configMgr
 
 1. Recherchez et cliquez sur le lot *com.adobe.fmdita.config.ConfigManager* et cliquez dessus.
 
@@ -215,7 +215,7 @@ Pour exécuter le workflow d’extraction des métadonnées, procédez comme sui
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 
-1. Cliquez sur le lien **** en haut et choisissez **Outils**.
+1. Cliquez sur le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
 
 1. Sélectionnez **Guides** dans la liste des outils, puis cliquez sur la mosaïque **Extraction des métadonnées DITA**.
 

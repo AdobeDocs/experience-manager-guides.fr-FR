@@ -214,7 +214,7 @@ Dans l’exemple suivant, nous allons créer un style de caractère intégré :
 
      >[!NOTE]
      >
-     >Vous pouvez également ajouter des polices à votre modèle, qui sont stockées dans la section Ressources de votre modèle. Pour plus d’informations sur l’ajout de polices et l’utilisation des ressources, voir [ Utilisation des ressources ](components-pdf-template.md#work-with-resources).
+     >Vous pouvez également ajouter des polices à votre modèle, qui sont stockées dans la section Ressources de votre modèle. Pour plus d’informations sur l’ajout de polices et l’utilisation des ressources, voir [&#x200B; Utilisation des ressources &#x200B;](components-pdf-template.md#work-with-resources).
 
    * **Disposition** : vous pouvez définir les propriétés liées à la disposition, telles que la hauteur et la largeur, la marge, le remplissage, l’alignement, etc.
 

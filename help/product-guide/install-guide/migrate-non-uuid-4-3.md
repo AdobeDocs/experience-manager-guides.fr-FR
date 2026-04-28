@@ -24,7 +24,7 @@ Effectuez les étapes suivantes pour migrer votre contenu de la version 4.3.1 no
 >   1. Fermeture de tous les avis actifs.
 >   1. A fermé toutes les tâches de traduction.
 > * Avant de migrer le contenu vers le serveur UUID, assurez-vous de disposer d’un serveur non UUID sur lequel est installé une version d’AEM Guides compatible.
-> * Si vous utilisez une version antérieure à la version 4.3.1, effectuez une mise à niveau vers la version 4.3.1. Suivez les [ instructions de mise à niveau](./upgrade-xml-documentation.md) spécifiques à la version sous licence de votre produit.
+> * Si vous utilisez une version antérieure à la version 4.3.1, effectuez une mise à niveau vers la version 4.3.1. Suivez les [&#x200B; instructions de mise à niveau](./upgrade-xml-documentation.md) spécifiques à la version sous licence de votre produit.
 > * Actuellement, les versions ultérieures à la version 4.3.1 ne sont pas prises en charge pour la migration.
 
 
