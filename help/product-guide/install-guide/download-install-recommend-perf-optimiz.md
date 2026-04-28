@@ -17,7 +17,7 @@ ht-degree: 0%
 ## Configuration du magasin de données \(Obligatoire\)
 
 **Quel est le changement ?**
-Définissez la propriété `minRecordLength` sur une valeur de `100` sous le `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` de configuration. Pour plus d’informations sur le magasin de dates de fichiers et le magasin de données S3, consultez l’article [Configuration des magasins de nœuds et de données dans AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html) .
+Définissez la propriété `minRecordLength` sur une valeur de `100` sous le `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` de configuration. Pour plus d’informations sur le magasin de dates de fichiers et le magasin de données S3, consultez l’article [Configuration des magasins de nœuds et de données dans AEM 6](https://helpx.adobe.com/fr/experience-manager/6-5/sites/deploying/using/data-store-config.html) .
 
 >[!NOTE]
 >
