@@ -5,10 +5,9 @@ exl-id: f7638cb3-faca-4170-9a8c-f6362e174c18
 feature: Version Management
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1518'
 ht-degree: 0%
 
 ---
@@ -106,7 +105,7 @@ Suivez les instructions fournies dans [Remplacements de la configuration](downlo
 
 | PID | Clé de la propriété | Valeur de la propriété |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | Les valeurs possibles sont les suivantes : <br> - allow\_unsafe\_delete\_for\_all <br> -   allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Valeur par défaut** : `allow_unsafe_delete_for_delete_assets_group` <br> Les détails de ces constantes sont présentés ci-dessous. |
+| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | Les valeurs possibles sont les suivantes : <br> - allow\_unsafe\_delete\_for\_all <br> - allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Valeur par défaut** : `allow_unsafe_delete_for_delete_assets_group` <br> Les détails de ces constantes sont présentés ci-dessous. |
 
 Selon la personne à qui vous souhaitez accorder l’accès pour la suppression, spécifiez l’une des constantes suivantes :
 

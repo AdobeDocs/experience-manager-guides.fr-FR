@@ -5,10 +5,9 @@ exl-id: 24e44618-9c4e-4547-a00d-216ef3fb4854
 feature: Version Management
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1668'
 ht-degree: 0%
 
 ---
@@ -19,7 +18,7 @@ Le contrôle de version est un aspect important de tout système de gestion de c
 
 En tant qu’administrateur, vous pouvez appliquer des règles qui empêcheront les utilisateurs de modifier un fichier sans l’extraire. De même, vous pouvez vous assurer que tous les fichiers extraits sont archivés pour éviter toute perte de données.
 
-Dans un environnement à usages multiples, il est également important de s’assurer que les utilisateurs et utilisatrices ne suppriment pas de fichiers du système. Cette exigence est plus critique pour les fichiers extraits par d’autres utilisateurs. Vous pouvez autoriser ou empêcher les utilisateurs d’écraser les fichiers extraits par d’autres utilisateurs. Pour empêcher les utilisateurs de supprimer accidentellement des fichiers extraits du système, AEM Guides propose une configuration que vous pouvez utiliser. Outre les fichiers extraits, vous pouvez également contrôler la suppression de fichiers qui contiennent des références ou qui sont référencés à partir d’autres fichiers. En outre, vous pouvez également créer une nouvelle version pour le fichier chargé.
+Dans un environnement à usages multiples, il est également important de s’assurer que les utilisateurs et utilisatrices ne suppriment pas de fichiers du système. Cette exigence est plus critique pour les fichiers qui sont extraits par d’autres utilisateurs.Vous pouvez autoriser ou empêcher les utilisateurs d&#39;écraser les fichiers extraits par d&#39;autres utilisateurs. Pour empêcher les utilisateurs de supprimer accidentellement des fichiers extraits du système, AEM Guides propose une configuration que vous pouvez utiliser. Outre les fichiers extraits, vous pouvez également contrôler la suppression de fichiers qui contiennent des références ou qui sont référencés à partir d’autres fichiers. En outre, vous pouvez également créer une nouvelle version pour le fichier chargé.
 
 ## Créer une nouvelle version pour le fichier chargé
 

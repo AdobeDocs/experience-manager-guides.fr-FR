@@ -5,10 +5,9 @@ exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2228'
 ht-degree: 4%
 
 ---
@@ -102,7 +101,7 @@ Vous pouvez créer ce script dans le nœud `/etc/workflows/scripts` . Le tableau
 | `initiator` | Chaîne | ID de l’utilisateur qui a lancé la tâche de révision. |
 | `operation` | Chaîne | Valeur statique définie comme `AEM_REVIEW`. |
 | `orgTopics` | Chaîne | Chemin d’accès aux rubriques partagées pour la révision. Spécifiez plusieurs rubriques séparées par des virgules. |
-| `payloadJson` | Objet JSON | Spécifiez les valeurs suivantes : <br> - `base` : chemin d’accès du dossier parent contenant la rubrique envoyée pour révision.<br>- `asset` : chemin d’accès du sujet envoyé pour révision. <br>- `referrer` : laissez ce champ vide. |
+| `payloadJson` | Objet JSON | Spécifiez les valeurs suivantes :<br> - `base` : chemin d’accès du dossier parent contenant la rubrique envoyée pour révision.<br>- `asset` : chemin d’accès de la rubrique envoyée pour révision. <br>- `referrer` : laissez ce champ vide. |
 | `deadline` | Chaîne | Spécifiez l’heure au format `yyyy-MM-dd'T'HH:mm:ss.SSSXXX`. |
 | `title` | Chaîne | Saisissez un titre pour la tâche de révision. |
 | `description` | Chaîne | Saisissez une description pour la tâche de révision. |

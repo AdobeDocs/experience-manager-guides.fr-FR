@@ -5,10 +5,9 @@ exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '4702'
+source-wordcount: '4767'
 ht-degree: 0%
 
 ---
@@ -191,7 +190,7 @@ Pour ajouter un fichier de ressource au dossier Ressources , procédez comme sui
 
 1. Cliquez sur **Choisir les fichiers** pour parcourir le fichier de ressource à partir de votre ordinateur local
 
-1. Cliquez sur **Télécharger**.
+1. Cliquez sur **Charger**.
 Le fichier sélectionné est importé et répertorié sous le dossier Ressources .
 
 ## Paramètres PDF avancés {#advanced-pdf-settings}
@@ -290,7 +289,7 @@ Les paramètres suivants sont disponibles sous la section Mise en page :
 
   **Pages du sujet principal** est également utilisé comme disposition de secours pour les **table des matières**, **Liste des illustrations** et Liste des tableaux.  De même, la disposition **Pages du sujet arrière** est également utilisée comme disposition de secours pour les dispositions **Index** et **Glossaire**. Si vous n’avez pas sélectionné la disposition pour ces éléments, la disposition Pages du recto ou du verso est appliquée.  Si vous n’avez pas sélectionné la disposition Pages du recto ou du verso du sujet, la mise en page par défaut leur est appliquée.
 
-* **Mise en page pour les pages vides** :    Vous pouvez également définir la mise en page pour les pages vides. La mise en page sélectionnée sera appliquée à toutes les pages vides. Par exemple, si vous avez conçu une mise en page Page vierge pour toutes les pages vides, sélectionnez **Vide** dans la liste déroulante. Toutes les pages vides du document auront alors la mise en page Vierge.
+* **Mise en page pour les pages vides** : vous pouvez également définir la mise en page pour les pages vides. La mise en page sélectionnée sera appliquée à toutes les pages vides. Par exemple, si vous avez conçu une mise en page Page vierge pour toutes les pages vides, sélectionnez **Vide** dans la liste déroulante. Toutes les pages vides du document auront alors la mise en page Vierge.
 
 * **Page de garde et page de fond** : si vous avez conçu une disposition de page de garde, mappez-la à l’option **Page de garde**. De même, si vous disposez d’une mise en page de page d’arrière-plan, mappez-la à l’option **Page d’arrière-plan**. Si aucune disposition de page de garde ou de page arrière n’a été créée, la mise en page par défaut est appliquée.
 
@@ -332,7 +331,7 @@ Par défaut, toutes les sections commencent sur une nouvelle page. Sélectionnez
 
 >[!NOTE]
 >
-> Ce paramètre s’applique uniquement à la section et non à ses composants.  Par exemple, si vous sélectionnez l’option **Page précédente** pour **Chapitres et rubriques**, la section **Chapitres et rubriques** fusionne avec la page précédente. Les différents chapitres et sujets sont publiés conformément aux paramètres **Général**. Par exemple, si dans **Démarrer un nouveau chapitre à partir du paramètre**, vous sélectionnez **Page impaire**, une page vierge est insérée après un chapitre qui se termine sur une page impaire.
+> Ce paramètre s’applique uniquement à la section et non à ses composants.  Par exemple, si vous sélectionnez l’option **Page précédente** pour **Chapitres et rubriques**, la section **Chapitres et rubriques** fusionne avec la page précédente. Les différents chapitres et sujets sont publiés conformément aux paramètres **Général**.Par exemple, si dans **Démarrer un nouveau chapitre à partir de**, vous sélectionnez **Page impaire**, une page vierge est insérée après un chapitre qui se termine sur une page impaire.
 
 Lorsque vous fusionnez une section avec sa page précédente ou suivante, le contenu est fusionné et le style de la section cible dans laquelle le contenu est fusionné est appliqué.
 

@@ -5,10 +5,9 @@ exl-id: 6df31e3c-683c-4188-b917-9c1855d9b95b
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '5824'
+source-wordcount: '5886'
 ht-degree: 1%
 
 ---
@@ -58,7 +57,7 @@ Pour configurer AEM Guides afin d’utiliser FMPS, mettez à jour les propriét�
 
 | Propriété | Description |
 |--------|-----------|
-| Domaine de connexion FrameMaker Publishing Server | Indiquez le nom de domaine ou le nom du groupe de travail sur lequel le FrameMaker Publishing Server est hébergé. En fonction de la version FMPS, indiquez le nom de domaine comme suit :-   **FMPS 2020** : adresse IP en 192.168.1.101 <br>- **FMPS 2019 et versions antérieures** : adresse IP ou nom de domaine |
+| Domaine de connexion FrameMaker Publishing Server | Indiquez le nom de domaine ou le nom du groupe de travail sur lequel le FrameMaker Publishing Server est hébergé. En fonction de la version FMPS, indiquez le nom de domaine comme :- **FMPS 2020** : adresse IP au 192.168.1.101 <br>- **FMPS 2019 et versions antérieures** : adresse IP ou nom de domaine |
 | URL FRAMEMAKER PUBLISHING SERVER | Spécifiez l’URL du FrameMaker Publishing Server. En fonction de la version FMPS, indiquez l’URL FMPS comme suit : <br>- **FMPS 2020** : `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019 et versions antérieures** : `http://<fmps_ip>:<port>/fmserver/v1/` |
 | Version FMPS | Spécifiez le numéro de version du FrameMaker Publishing Server. En fonction de la version du FMPS, fournissez les informations de version comme suit : <br>- **FMPS 2020** : 2020 <br> - **FMPS 2019 et versions antérieures** : 2019 ou 2017. |
 | Nom d’utilisateur et mot de passe FrameMaker Publishing Server | Indiquez le nom d’utilisateur et le mot de passe pour accéder au FrameMaker Publishing Server. |
@@ -394,7 +393,7 @@ Pour ajouter les métadonnées requises dans le système, procédez comme suit :
 
    1. Dans le **Libellé du champ**, saisissez le nom des métadonnées : Audience.
 
-   1. Dans le paramètre **Mapper à la propriété**, spécifiez ./jcr:content/metadata/&lt;nom des métadonnées\>. Dans notre exemple, nous la définirons sur ./jcr:content/metadata/audience.
+   1. Dans le paramètre **Mapper à la propriété**, spécifiez ./jcr:content/metadata/&lt;name of the metadata\>. Dans notre exemple, nous la définirons sur ./jcr:content/metadata/audience.
 
    En procédant comme suit, ajoutez tous les paramètres de métadonnées requis.
 

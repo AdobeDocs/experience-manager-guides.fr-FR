@@ -2,11 +2,10 @@
 title: Plug-in Oxygen pour Adobe Experience Manager Guides
 description: Découvrez comment utiliser le plug-in Oxygen pour Adobe Experience Manager Guides afin de créer et de gérer votre contenu.
 hide: true
-hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '6522'
 ht-degree: 1%
@@ -67,7 +66,7 @@ Effectuez les étapes suivantes sur le système sur lequel Oxygen XML Author est
 
    Le panneau AEM Guides s’affiche dans l’instance de création XML Oxygen.
 
-   ![Connecteur AEM](images/oxygen-aem-connector.png){width="800" align="left"}
+   ![Connecteur &#x200B;](images/oxygen-aem-connector.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -224,37 +223,37 @@ Pour configurer les paramètres de connexion dans le plug-in Oxygen pour Adobe E
      >
      >Si votre serveur AEM est déployé sur le port 80 ou 443, il n’est pas nécessaire de le spécifier dans l’URL.
 
-   - **Authentification :** choisissez entre **Nom d’utilisateur/mot de passe de base\)** ou **Authentification web**. In case you select **Basic** authentication you need to enter the **Username** and **Password** in the Preferences dialog.
+   - **Authentification :** choisissez entre **Nom d’utilisateur/mot de passe de base\)** ou **Authentification web**. Si vous sélectionnez l’authentification **de base**, vous devez saisir le **nom d’utilisateur** et le **mot de passe** dans la boîte de dialogue Préférences.
 
-     If you select Web Authentication, then you are shown the AEM Login screen. Enter your login credentials and click the **Sign In** button. On successful login, the AEM Login screen closes and the AEM Guides panel displays the files list from the AEM server.
+     Si vous sélectionnez Authentification web, l’écran de connexion d’AEM s’affiche. Saisissez vos informations de connexion et cliquez sur le bouton **Se connecter**. Une fois la connexion établie, l’écran de connexion AEM se ferme et le panneau AEM Guides affiche la liste des fichiers du serveur AEM.
 
-   - **Connection Timeout**: Specify time in seconds that the client will wait for a response from the AEM server. In case no response from the server is received within the specified time, the request is terminated. La valeur par défaut est de 20 secondes.
+   - **Délai de connexion** : indiquez le délai, en secondes, pendant lequel le client attend une réponse du serveur AEM. Si aucune réponse du serveur n’est reçue dans le délai spécifié, la requête est interrompue. La valeur par défaut est de 20 secondes.
 
-   - **Local Folder**: Location on your local machine where the files from AEM repository are stored after checkout. If you specify a location that does not exist on the drive, then the plugin creates that location.
-   - **Open File when Checked out**: If selected, opens the files on checkout.
-   - **Close File when Checked in**: If selected, closes the files on check-in. Before closing the file, you are shown a pop-up wherein you can specify the version comments.
-   - **Show Checkin Dialog on Closing File**: If selected, you are shown a pop-up on closing a file. From the pop-up, you can choose to check in the file or close the file without checking in.
-   - **Auto-Checkout File when Opened**: If selected, double-clicking on a file automatically checks it out and opens it for editing. In case the file is already checked-out, then it is simply opened up for editing. If this option is not selected, then opening a file on which you don&#39;t have a lock opens it up in read-only mode.
+   - **Dossier local** : emplacement sur votre ordinateur local où les fichiers du référentiel AEM sont stockés après l’extraction. Si vous spécifiez un emplacement qui n’existe pas sur le lecteur, le plug-in crée cet emplacement.
+   - **Ouvrir le fichier lors de l’extraction** : si cette option est sélectionnée, ouvre les fichiers lors de l’extraction.
+   - **Fermer le fichier lors de l&#39;archivage** : si cette option est sélectionnée, les fichiers sont fermés lors de l&#39;archivage. Avant de fermer le fichier, un pop-up s’affiche et vous permet de spécifier les commentaires de version.
+   - **Afficher la boîte de dialogue Archiver lors de la fermeture d’un fichier** : si cette option est sélectionnée, un pop-up s’affiche lors de la fermeture d’un fichier. Dans le pop-up, vous pouvez choisir d’archiver le fichier ou de fermer le fichier sans l’archiver.
+   - **Extraction automatique du fichier à l’ouverture** : si cette option est sélectionnée, double-cliquer sur un fichier l’extrait automatiquement et l’ouvre pour le modifier. Si le fichier est déjà extrait, il est simplement ouvert pour être modifié. Si cette option n&#39;est pas sélectionnée, ouvrir un fichier sur lequel vous n&#39;avez pas de verrou l&#39;ouvre en mode lecture seule.
 1. Cliquez sur **OK**.
 
-### Preference for profiling attribute customization and filenames in cross references {#id1827K0D0OHT}
+### Préférence pour la personnalisation des attributs de profil et des noms de fichier dans les références croisées {#id1827K0D0OHT}
 
-You need to configure the preferences in Oxygen XML Author to use the profiling attribute associated with the DITA topics in the AEM repository. You also need to configure the preference to display filenames in place of GUIDs in the cross references.
+Vous devez configurer les préférences dans l’auteur XML Oxygen pour utiliser l’attribut de profilage associé aux rubriques DITA dans le référentiel AEM. Vous devez également configurer la préférence pour afficher les noms de fichier à la place des GUID dans les références croisées.
 
-Perform the following steps to configure profiling attributes and cross references:
+Pour configurer les attributs de profilage et les références croisées, procédez comme suit :
 
-1. In Oxygen XML Author, click **Options** \> **Preferences**.
-1. In the **Document Type Association** tab, select **DITA**, and then click **Extend**.
+1. Dans Oxygen XML Author, cliquez sur **Options** \> **Préférences**.
+1. Dans l&#39;onglet **Association de type de document**, sélectionnez **DITA**, puis cliquez sur **Étendre**.
 
-   ![document type association](images/document_type_association.png){width="650" align="left"}
+   ![association de type de document](images/document_type_association.png){width="650" align="left"}
 
-1. In the **Classpath** tab, select `com.adobe.o2.connector` in the **Use Parent Class Loader From Plugin with ID** drop-down.
+1. Dans l’onglet **Classpath**, sélectionnez `com.adobe.o2.connector` dans le menu déroulant **Utiliser le chargeur de classe parent à partir du plug-in avec ID**.
 
-   ![Class path tab](images/dita-extension.png){width="650" align="left"}
+   ![Onglet Chemin d’accès de la classe](images/dita-extension.png){width="650" align="left"}
 
 1. Dans l’onglet **Extensions**, effectuez les modifications suivantes :
 
-   - Cliquez sur **Choisir** en regard du lot **Extensions** et sélectionnez   `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` dans la liste **Class**. Cliquez sur **OK**.
+   - Cliquez sur **Choisir** en regard du lot **Extensions** et sélectionnez `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` dans la liste **Classe**. Cliquez sur **OK**.
      ![&#x200B; Extension configurée pour les rubriques DITA &#x200B;](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
    - Cliquez sur **Choisir** en regard de l’**Listener d’état de l’extension de création** sous **Extensions individuelles** et sélectionnez `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` dans la liste **Classe**. Cliquez sur **OK**.
    - Cliquez sur **Choisir** en regard de l’**Éditeur de valeur d’attribut personnalisé de création** sous **Extensions individuelles** et sélectionnez `CustomValueEditor - com.adobe.o2.framework.extn` dans la liste **Classe**. Cliquez sur **OK**.
@@ -275,7 +274,7 @@ Effectuez les étapes suivantes pour configurer l&#39;extension de plan DITA :
 1. Dans l&#39;onglet **Association de type de document**, sélectionnez **DITA Map**, puis cliquez sur **Étendre**.
 1. Dans l’onglet **Classpath**, sélectionnez com.adobe.o2.connector dans le menu déroulant **Utiliser le chargeur de classe parent à partir du plug-in avec ID**.
 1. Dans l’onglet **Extensions**, effectuez les modifications suivantes :
-   - Cliquez sur **Choisir** en regard du lot **Extensions** et sélectionnez   `com.adobe.o2.framework.extn.LinkResolverDITAMapExtensionBundle` dans la liste **Class**. Cliquez sur **OK**.
+   - Cliquez sur **Choisir** en regard du lot **Extensions** et sélectionnez `com.adobe.o2.framework.extn.LinkResolverDITAMapExtensionBundle` dans la liste **Classe**. Cliquez sur **OK**.
 
    - Cliquez sur **Choisir** en regard de l’**Listener d’état de l’extension de création** sous **Extensions individuelles** et sélectionnez `CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn` dans la liste **Classe**. Cliquez sur **OK**.
 
@@ -321,17 +320,17 @@ L’écran suivant présente le panneau AEM Guides.
 
 Les fonctions du module externe Oxygen pour AEM Guides sont disponibles en cliquant avec le bouton droit sur un dossier ou un fichier dans le référentiel AEM. Les fonctions disponibles pour les dossiers sont différentes des fichiers. Voici la liste complète des fonctions du menu contextuel Plug-in Oxygen pour AEM Guides :
 
-- **Open**: Opens the selected file or expands the selected folder.
-- **Open In**: You can choose to open the selected file in AEM Guides&#39; Web Editor or Map Dashboard, or Map Editor. For more information about these options, see [Open file in AEM Guides&#39; editor](#id195GH0V30KX).
-- **Check-out**: Checks out a file from AEM repository. For more details, see [Check-out files](#id195HC020TS4).
-- **Check-out with dependents**: Checks out a file with its direct references. For more details, see [Check-out files](#id195HC020TS4).
-- **Check-out with read-only dependents**: Checks out the selected file along with its dependents. You cannot make any changes in the dependent files. For more details, see [Check-out files](#id195HC020TS4).
-- **Cancel check-out**: Cancels the checked-out file, closes the file from the editor, and reverts the changes to the last version of the file saved on the server.
-- **Refresh**: In case of a file, fetches the latest copy of the file from the AEM repository. For a folder, it fetches the folder structure and file&#39;s status. This means that is a file is added, then it will be shown in the AEM Guides View. Also, if a file is checked out on AEM server, doing a Refresh in Oxygen Author will show the file as checked out. However, this does not update the files list in the *Files Checked-Out in AEM Guides* View.
-- **Refresh Checked-out Files**: Refreshes the list of checked out files in the *Files Checked-Out in AEM Guides* View. If a file is checked out on AEM server, then doing a Refresh will update the list of checked out files in the *Files Checked-Out in AEM Guides* View. However, if a new file has been added or the status of a file has changed, then it does not update it in the AEM Guides tree view. To update the status of files on AEM, you must do a Refresh.
-- **Check-in**: Checks in a files that you have checked out. For more details, see [Check in a file](#id182CF0J0FHS).
-- **Check-in with dependents**: If you have checked out files with dependents, then this option checks in the main file along with its dependents. For more details, see [Check in a file](#id182CF0J0FHS).
-- **Create Folder**: Creates a folder in the AEM repository. Cette option est disponible uniquement au niveau du dossier.
+- **Ouvrir** : ouvre le fichier sélectionné ou développe le dossier sélectionné.
+- **Ouvrir dans** : vous pouvez choisir d’ouvrir le fichier sélectionné dans l’éditeur web d’AEM Guides, dans le tableau de bord des cartes ou dans l’éditeur de cartes. Pour plus d’informations sur ces options, voir [&#x200B; Ouvrir un fichier dans l’éditeur d’AEM Guides &#x200B;](#id195GH0V30KX).
+- **Extraire** : extrait un fichier du référentiel AEM. Pour plus d’informations, voir [Extraction de fichiers](#id195HC020TS4).
+- **Extraction avec personnes à charge** : extrait un fichier avec ses références directes. Pour plus d’informations, voir [Extraction de fichiers](#id195HC020TS4).
+- **Extraire avec des personnes à charge en lecture seule** : extrait le fichier sélectionné avec ses personnes à charge. Vous ne pouvez pas apporter de modifications aux fichiers dépendants. Pour plus d’informations, voir [Extraction de fichiers](#id195HC020TS4).
+- **Annuler l’extraction** : annule le fichier extrait, ferme le fichier de l’éditeur et rétablit la dernière version du fichier enregistrée sur le serveur.
+- **Actualiser** : dans le cas d’un fichier, récupère la dernière copie du fichier à partir du référentiel AEM. Pour un dossier, il récupère la structure du dossier et le statut du fichier. Cela signifie qu’un fichier est ajouté, puis il s’affiche dans la vue AEM Guides. En outre, si un fichier est extrait sur le serveur AEM, une actualisation dans l’auteur Oxygen affichera le fichier comme extrait. Toutefois, cela ne met pas à jour la liste des fichiers dans la vue *Fichiers extraits dans AEM Guides*.
+- **Actualiser les fichiers extraits** : actualise la liste des fichiers extraits dans la vue *Fichiers extraits dans AEM Guides*. Si un fichier est extrait sur le serveur AEM, une actualisation met à jour la liste des fichiers extraits dans la vue *Fichiers extraits dans AEM Guides*. Cependant, si un nouveau fichier a été ajouté ou si l’état d’un fichier a changé, il ne le met pas à jour dans l’arborescence d’AEM Guides. Pour mettre à jour le statut des fichiers sur AEM, vous devez effectuer une actualisation.
+- **Archiver** : consigne les fichiers que vous avez extraits. Pour plus d’informations, voir [&#x200B; Archiver un fichier &#x200B;](#id182CF0J0FHS).
+- **Archivage avec personnes à charge** : si vous avez extrait des fichiers avec des personnes à charge, cette option intègre le fichier principal avec ses personnes à charge. Pour plus d’informations, voir [&#x200B; Archiver un fichier &#x200B;](#id182CF0J0FHS).
+- **Créer un dossier** : permet de créer un dossier dans le référentiel AEM. Cette option est disponible uniquement au niveau du dossier.
 - **Charger le(s) fichier(s)\)** : charge un ou plusieurs fichiers. Pour plus d’informations, voir [Charger des fichiers et des dossiers](#id195HC03F03J).
 - **Charger avec personnes à charge** : charge les fichiers DITA \(XML, DITA, Book Map ou DITA map\) avec ses personnes à charge. Pour plus d’informations, voir [Charger des fichiers et des dossiers](#id195HC03F03J).
 - **Charger le dossier** : charge un dossier sur le référentiel AEM. Pour plus d’informations, voir [Charger des fichiers et des dossiers](#id195HC03F03J).
@@ -390,63 +389,63 @@ Lorsque vous extrayez un fichier, il est stocké localement sur votre système e
 
 1. Sélectionnez l’une des options suivantes :
    - **Extraire :** extrait un fichier du référentiel AEM et le rend disponible pour modification.
-   - **Check-out with dependents**: Checks out a file with its direct references. You can make changes in parent and child pages using this option. Oxygen Plugin for AEM Guides supports checking out one level of dependents. For example, Map A references Topic A and Topic A references Topic B. Checking out Map A will checkout Topic A regardless of its level in the TOC hierarchy. However, it will not check out Topic B because it is not directly linked from Map A.
-   - **Check-out with read-only dependents**: Checks out a file and downloads its dependents to your local machine as read-only copies. You cannot make any changes in the dependent files.
+   - **Extraction avec personnes à charge** : extrait un fichier avec ses références directes. Cette option vous permet d’apporter des modifications aux pages parents et enfants. Le plug-in Oxygen pour AEM Guides prend en charge l’extraction d’un niveau de personnes à charge. Par exemple, Mappez A fait référence à la rubrique A et à la rubrique A fait référence à la rubrique B. La récupération de la carte A va récupérer la rubrique A, quel que soit son niveau dans la hiérarchie de la table des matières. Cependant, il ne va pas extraire le Topic B parce qu&#39;il n&#39;est pas directement lié à partir de la Map A.
+   - **Extraire avec des personnes à charge en lecture seule** : extrait un fichier et télécharge ses personnes à charge sur votre ordinateur local en tant que copies en lecture seule. Vous ne pouvez pas apporter de modifications aux fichiers dépendants.
 
-If you have selected the **Open Files on Checkout** option \(in the Preferences dialog\), then on checking out a file, the file is automatically opened for editing.
+Si vous avez sélectionné l’option **Ouvrir les fichiers lors de l’extraction** \(dans la boîte de dialogue Préférences\), lors de l’extraction d’un fichier, celui-ci est automatiquement ouvert pour modification.
 
-If you have selected the **Auto-Checkout File when Opened** option \(in the Preferences dialog\), then on opening the file, the file is automatically checked out and is made available for editing. Pour ouvrir un fichier, vous pouvez double-cliquer sur un nom de fichier ou cliquer avec le bouton droit de la souris sur le nom de fichier et choisir **Ouvrir** dans le menu contextuel.
+Si vous avez sélectionné l’option **Extraction automatique du fichier à l’ouverture** \(dans la boîte de dialogue Préférences\), le fichier est automatiquement extrait à l’ouverture et peut être modifié. Pour ouvrir un fichier, vous pouvez double-cliquer sur un nom de fichier ou cliquer avec le bouton droit de la souris sur le nom de fichier et choisir **Ouvrir** dans le menu contextuel.
 
-When a file is checked-out, the icon of the file changes to show its locked status.
+Lorsqu’un fichier est extrait, son icône change et affiche son statut de verrouillage.
 
-![Check out a file](images/check-out-file.png){width="650" align="left"}
+![Extraire un fichier](images/check-out-file.png){width="650" align="left"}
 
-In the above screenshot, a file checked out by other user is shown with a black colored lock icon \(A\). File checked out by the current user is shown with a green colored lock \(B\).
+Dans la capture d’écran ci-dessus, un fichier extrait par un autre utilisateur s’affiche avec une icône de cadenas noire \(A\). Le fichier extrait par l&#39;utilisateur actuel s&#39;affiche avec un cadenas vert \(B\).
 
 >[!NOTE]
 >
->If the checked-out file is deleted or moved to any other folder in AEM, you get an error message when you check-in the file. Make sure that the checked-out file is not moved or deleted using the AEM web interface.
+>Si le fichier extrait est supprimé ou déplacé vers un autre dossier d’AEM, un message d’erreur s’affiche lorsque vous archivez le fichier. Assurez-vous que le fichier extrait n’est pas déplacé ou supprimé à l’aide de l’interface web d’AEM.
 
-### Check in a file {#id182CF0J0FHS}
+### Archiver un fichier {#id182CF0J0FHS}
 
-When you check in a file, the local copy from your system is stored in the AEM repository, and the lock on the file is removed. Perform the following steps to check in a file:
+Lorsque vous archivez un fichier, la copie locale de votre système est stockée dans le référentiel AEM et le verrouillage du fichier est supprimé. Procédez comme suit pour archiver un fichier :
 
-1. Save your file by clicking **File** \> **Save**.
+1. Enregistrez votre fichier en cliquant sur **Fichier** \> **Enregistrer**.
 
-1. Right-click on a checked-out file or map in one of the following locations:
+1. Faites un clic droit sur un fichier extrait ou un mappage dans l’un des emplacements suivants :
    - Panneau AEM Guides
-   - DITA Maps Manager panel
-   - The file tab when you open a map or topic in the Editor.
-   - The map tab in the DITA Maps Manager panel.
+   - Panneau DITA Maps Manager
+   - Onglet Fichier lorsque vous ouvrez une carte ou une rubrique dans l’éditeur.
+   - Onglet Carte du panneau du gestionnaire de cartes DITA.
 
-1. Choose from the following two options:
+1. Choisissez l’une des deux options suivantes :
 
-   - **Check-In**: Checks-in the selected file from your local system into AEM repository.
-   - **Check-In with Dependents:** If you have checked-out a file along with its dependents, then use this option to check in all dependent files in one single operation. On selecting this option, you are shown the Check-In dialog with all dependent files. Click OK to check-in all files at once.
+   - **Archiver** : enregistre le fichier sélectionné dans le référentiel AEM à partir de votre système local.
+   - **Archivage avec personnes à charge :** si vous avez extrait un fichier avec ses personnes à charge, utilisez cette option pour archiver tous les fichiers dépendants en une seule opération. Lorsque vous sélectionnez cette option, la boîte de dialogue Archiver s&#39;affiche avec tous les fichiers dépendants. Cliquez sur OK pour archiver tous les fichiers à la fois.
 
-   If you have not checked out dependent files and then you choose this option, then only those dependent files that you have \(separately\) checked out will be checked in. You will be shown a list of files that could not be checked in:
+   Si vous n&#39;avez pas extrait les fichiers dépendants, puis que vous choisissez cette option, seuls les fichiers dépendants que vous avez extraits \(séparément\) seront archivés. Une liste des fichiers qui n’ont pas pu être archivés s’affiche :
 
-   ![check in errors](images/check-in-error.png){width="800" align="left"}
+   ![erreurs d’archivage](images/check-in-error.png){width="800" align="left"}
 
-   It is strongly recommended not to move a file that is checked out. However, if a checked out file is moved to a different location, then you must cancel the checkout on that file. If you want to make updates on that file, then check out the file again, make changes, and then check it back in. If you try to check in a file that has been moved from its original location, then you will get an error.
+   Il est vivement recommandé de ne pas déplacer un fichier extrait. Cependant, si un fichier extrait est déplacé vers un autre emplacement, vous devez annuler l’extraction de ce fichier. Si vous souhaitez effectuer des mises à jour sur ce fichier, extrayez à nouveau le fichier, apportez des modifications, puis réarchivez-le. Si vous essayez d’archiver un fichier qui a été déplacé depuis son emplacement d’origine, une erreur s’affiche.
 
-   If a dependent file is checked out in AEM, then Check-In with Dependents will not show the dependent file in the Check-In dialog. To get a list of dependent files that are checked out in AEM, you must do a folder Refresh.
+   Si un fichier dépendant est extrait dans AEM, l&#39;option Archiver avec les personnes à charge n&#39;affiche pas le fichier dépendant dans la boîte de dialogue Archiver. Pour obtenir la liste des fichiers dépendants qui sont extraits dans AEM, vous devez effectuer une actualisation du dossier.
 
-   Similarly, if you have checked-in a dependent file through AEM, the file list is not refreshed in Oxygen Author until you do a folder Refresh and Refresh Checked-Out Files. If you do a Check-in with Dependents with some files checked in through AEM, then you will get an error listing the files that could not be checked in.
+   De même, si vous avez archivé un fichier dépendant via AEM, la liste des fichiers n’est pas actualisée dans l’auteur Oxygen tant que vous n’avez pas effectué une actualisation des dossiers et des fichiers extraits. Si vous archivez avec des personnes à charge avec des fichiers archivés via AEM, une erreur s’affiche pour répertorier les fichiers qui n’ont pas pu être archivés.
 
-1. \(Optional\) In the **Check-In** or the **Check-in with Dependents** dialog, add a comment in **Version Comments** text box.
+1. \(Facultatif\) Dans la boîte de dialogue **Archiver** ou **Archiver avec personnes à charge**, ajoutez un commentaire dans la zone de texte **Commentaires de version**.
 
    >[!NOTE]
    >
-   >This comment is displayed in the AEM version history of the file.
+   >Ce commentaire s’affiche dans l’historique des versions AEM du fichier.
 
-1. Add label(s) in the **Label** text box in the **Check-In** or the **Check-in with Dependents** dialog . Enter a label and press Enter. For example, *2307 Release*.
+1. Ajoutez un ou plusieurs libellés dans la zone de texte **Libellé** de la boîte de dialogue **Archiver** ou **Archiver avec les personnes à charge** . Saisissez un libellé, puis appuyez sur Entrée. Par exemple, version *2307*.
 
-   If your administrator has predefined a list of labels and uploaded them in the `label.json` file, then those labels are displayed as a dropdown. You can choose one or more labels from the dropdown.
+   Si votre administrateur a prédéfini une liste de libellés et les a chargés dans le fichier `label.json`, ces libellés s’affichent sous forme de liste déroulante. Vous pouvez choisir un ou plusieurs libellés dans la liste déroulante.
 
-   ![Check in dialog](images/checkin-dropdown-labels.png){width="550" align="left"}
+   ![Boîte de dialogue Archiver](images/checkin-dropdown-labels.png){width="550" align="left"}
 
-   You can add multiple labels (separated by commas) to the same version of a topic.  Par exemple, *Adobe*, *AEM*, *Guides*.
+   Vous pouvez ajouter plusieurs libellés (séparés par des virgules) à la même version d’une rubrique.  Par exemple, **, *AEM*, *Guides*.
 Cependant, vous ne pouvez pas ajouter le même libellé aux différentes versions d’une rubrique. Si vous ajoutez une étiquette que vous avez déjà ajoutée à une version antérieure, elle est ajoutée à la dernière version et supprimée de la version antérieure.
 
    >[!NOTE]
@@ -484,38 +483,38 @@ Lorsque vous avez dans plusieurs dossiers, il n’est pas facile de déterminer 
 
 - La vue *Fichiers extraits dans AEM Guides* conserve les sessions des utilisateurs. Cela signifie que les fichiers extraits par l’utilisateur actuel sont stockés et conservés dans la vue sur toutes les sessions du même utilisateur \(ou cache\).
 
-- Si l’utilisateur modifie les informations d’identification de connexion du serveur AEM, les données du fichier extrait \(ou du cache\) dans la vue sont réinitialisées. The user must manually run a *Refresh Checked-Out Files* command on each folder from where the files were earlier checked out. To simplify this, it is recommended to add your working folders to *Favorites* from where you can quickly do a folder refresh.
+- Si l’utilisateur modifie les informations d’identification de connexion du serveur AEM, les données du fichier extrait \(ou du cache\) dans la vue sont réinitialisées. L’utilisateur doit exécuter manuellement une commande *Actualiser les fichiers extraits* sur chaque dossier à partir duquel les fichiers ont été extraits précédemment. Pour simplifier, il est recommandé d’ajouter vos dossiers de travail aux *Favoris* à partir desquels vous pouvez rapidement actualiser le dossier.
 
-- You can sort the files list on the basis of their File names, Title, or Path. If a new file is checked out, the file appears in sorted order in the view.
+- Vous pouvez trier la liste des fichiers en fonction de leur nom de fichier, de leur titre ou de leur chemin d’accès. Si un nouveau fichier est extrait, il apparaît dans l&#39;ordre de tri dans la vue.
 
 
-### Upload files and folders {#id195HC03F03J}
+### Chargement de fichiers et de dossiers {#id195HC03F03J}
 
-Perform the following steps to upload files or folders:
+Effectuez les étapes suivantes pour charger des fichiers ou des dossiers :
 
-1. Right-click a folder in the AEM Guides panel.
+1. Cliquez avec le bouton droit sur un dossier dans le panneau AEM Guides.
 1. Sélectionnez l’une des options suivantes :
-   - **Upload File\(s\)**: Select this option to upload single or multiple files to the selected folder in the AEM repository. In the Select files \(s\) to upload dialog, select the files and click **Open**.
-   - **Upload with dependents**: Select this option to upload a DITA file with its dependents. In the Select file to upload dialog, select the files and click **Open**.
-   - **Upload Folder**: Select this option to upload a folder in the AEM repository. In the Choose dialog, select the folder and click **Choose**.
+   - **Charger le(s) fichier(s)\)** : sélectionnez cette option pour charger un ou plusieurs fichiers dans le dossier sélectionné dans le référentiel AEM. Dans la boîte de dialogue Sélectionner les fichiers \(s\) à charger, sélectionnez les fichiers et cliquez sur **Ouvrir**.
+   - **Télécharger avec personnes à charge** : sélectionnez cette option pour télécharger un fichier DITA avec ses personnes à charge. Dans la boîte de dialogue Sélectionner le fichier à charger, sélectionnez les fichiers et cliquez sur **Ouvrir**.
+   - **Charger le dossier** : sélectionnez cette option pour charger un dossier dans le référentiel AEM. Dans la boîte de dialogue Choisir, sélectionnez le dossier et cliquez sur **Choisir**.
 
-**Additional notes on working with UUID-based files**:
+**Remarques supplémentaires sur l’utilisation des fichiers basés sur UUID** :
 
-The following points must be considered while moving or copying content from your local system to AEM repository:
+Lors du déplacement ou de la copie de contenu de votre système local vers le référentiel AEM, tenez compte des points suivants :
 
-- When uploading one or more files, a new UUID is generated for files not having any UUID. This UUID is added in the `topic id` of a DITA file.
+- Lors du chargement d&#39;un ou plusieurs fichiers, un nouvel UUID est généré pour les fichiers sans UUID. Cet UUID est ajouté dans le `topic id` d&#39;un fichier DITA.
 
-- When copying a folder, the references to the files \(within the folder\) are automatically updated in all DITA maps referencing files in that folder.
+- Lors de la copie d&#39;un dossier, les références aux fichiers \(dans le dossier\) sont automatiquement mises à jour dans tous les plans DITA référençant des fichiers dans ce dossier.
 
-- When copying a DITA map file, the UUID references within the map file are not changed.
+- Lors de la copie d&#39;un fichier de mappage DITA, les références UUID contenues dans le fichier de mappage ne sont pas modifiées.
 
-- If a file or a folder has a conflict or has a duplicate, then a unique filename is generated for the new file being copied or moved.
+- Si un fichier ou un dossier est en conflit ou en double, un nom de fichier unique est généré pour le nouveau fichier copié ou déplacé.
 
-- No two files can have the same UUID. A unique UUID is assigned to all new files.
+- Deux fichiers ne peuvent pas avoir le même UUID. Un UUID unique est affecté à tous les nouveaux fichiers.
 
-- If in case a file is being uploaded by two different users at the same time, then the file that is processed later overwrites the earlier file. However, such a practice should be avoided.
+- Si un fichier est chargé par deux utilisateurs différents en même temps, le fichier qui est traité ultérieurement remplace le fichier précédent. Toutefois, une telle pratique devrait être évitée.
 
-- When you checkout content from AEM repository and make changes on your local system, ensure that file name is not changed at the time of uploading the file.
+- Lorsque vous extrayez du contenu du référentiel AEM et que vous apportez des modifications à votre système local, assurez-vous que le nom du fichier n’est pas modifié au moment du chargement du fichier.
 
 - Lorsque vous insérez une référence dans le gestionnaire de plans DITA ou l&#39;éditeur, il affiche le titre du fichier et non l&#39;UUID. Si le titre n’est pas présent, il affiche le nom du fichier.
 
@@ -753,7 +752,7 @@ Solution : Effectuez les étapes suivantes pour configurer les enregistreurs pou
 1. Fermez le fichier . Cela activera les journaux oXygen, qui seront disponibles au chemin : `${user.home}/Desktop/oxygenLog/oxygen.log`
 1. Ouvrez le fichier `oxygenAuthor.bat` dans un éditeur de texte.
 1. Configurez les journaux liés à JxBrowser en ajoutant le paramètre .
-   `-Denable.aem.jx.log=true`. This enables JxBrowser-related logs, which you can view at path: `${user.home}\AppData\Local\Temp\Oxygen_Plugin_Javax_Log.log`:
+   `-Denable.aem.jx.log=true`. Cela active les journaux liés à JxBrowser, que vous pouvez afficher au chemin : `${user.home}\AppData\Local\Temp\Oxygen_Plugin_Javax_Log.log` :
 
 
 

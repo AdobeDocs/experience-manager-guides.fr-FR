@@ -2,10 +2,10 @@
 title: Notes de mise à jour | Nouveautés de la version de février 2026 du contenu Formation et apprentissage du produit
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version de février 2026 des contenus de formation et d’apprentissage du produit
 role: Leader
-hidefromtoc: true
-source-git-commit: 16e7f12ddc9e72e4344bf98e65718c0f3681b348
+exl-id: aef24b0c-0cb8-4646-9d8b-92d3460a7faa
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -67,4 +67,3 @@ Les problèmes suivants ont été corrigés dans la version de février 2026 du 
 - Lorsque vous cliquez sur la Table des matières (table des matières) dans le volet de gauche du cours, le cours continue d’afficher l’état d’achèvement même si le quiz a échoué. (GUIDES-40398)
 - Si vous tentez de faire correspondre le type de question suivant dans un quiz de manière incorrecte dans ALM, les options sélectionnées n’apparaissent pas dans le rapport. (GUIDES-38640)
 - Lors de la génération de la sortie PDF, les styles de création appliqués ne sont pas conservés, ce qui entraîne des incohérences dans la conception. (GUIDES-38642)
-

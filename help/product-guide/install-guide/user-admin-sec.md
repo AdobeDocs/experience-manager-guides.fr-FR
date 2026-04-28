@@ -5,11 +5,10 @@ exl-id: 1269a652-5261-413d-9ea0-b4f75003e9d8
 feature: User Management
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 10%
+source-wordcount: '758'
+ht-degree: 13%
 
 ---
 
@@ -19,9 +18,9 @@ Pour accéder aux fonctionnalités d’AEM Guides et les configurer, vous devez 
 
 Les rubriques suivantes de la documentation d’AEM vous aideront à mieux comprendre les concepts et fonctionnalités liés à l’administration des utilisateurs et à la sécurité :
 
-- [Utilisateurs et groupes dans AEM](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
+- [Utilisateurs, utilisatrices et groupes dans AEM](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
 
-- [&#x200B; Autorisations dans AEM &#x200B;](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
+- [Autorisations dans AEM](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
 
 - [Gestion des utilisateurs et des groupes](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
 
@@ -109,4 +108,4 @@ La liste suivante contient des recommandations et des points liés aux groupes d
 
 - Pour donner à un utilisateur les droits de modifier l’état d’un document, veillez à l’ajouter dans la section Transition d’état du profil d’état du document.
 
-[1](#fnsrc_1) Si *Auteurs* et *Éditeurs* sont invités pour une révision.[2](#fnsrc_2) selon les droits accordés à l’utilisateur dans le profil d’état du document.
+[1](#fnsrc_1) Si *Auteurs* et *Éditeurs* sont invités à effectuer une révision.[2](#fnsrc_2) En fonction des droits accordés à l’utilisateur dans le profil d’état du document.

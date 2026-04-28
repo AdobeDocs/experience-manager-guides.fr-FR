@@ -5,11 +5,10 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: da3a6f83-b21a-4b19-8b54-ee96f11e7c09
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 4%
+source-wordcount: '1034'
+ht-degree: 6%
 
 ---
 
@@ -41,7 +40,7 @@ Vous pouvez télécharger l’**outil de transfert de contenu** sous la forme d�
 1. Recherchez **Outil de transfert de contenu**.
 1. Sélectionnez **Outil de transfert de contenu** dans la liste et téléchargez-le.
 
-![télécharger l’outil de transfert de contenu](./assets/content-transfer-tool-software-portal.png)
+outil de transfert de contenu ![download)](./assets/content-transfer-tool-software-portal.png)
 Installez ensuite le package via **Gestionnaire de packages** sur votre instance Adobe Experience Manager source. Veillez à télécharger la dernière version.
 Pour plus d’informations sur la dernière version, voir [Notes de mise à jour](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=fr).
 
@@ -72,7 +71,7 @@ Pour migrer le contenu Experience Manager Guides vers Experience Manager as a cl
 
    ![Vérifier le transfert de contenu](./assets/migration-content-transfer-review.png)
 
-1. Cliquez sur **Créer un jeu de migration**.
+1. Cliquez sur **Créer un ensemble de migration**.
 
 1. Indiquez le nom et la description du jeu de migration.
 
@@ -109,7 +108,7 @@ Pour migrer le contenu Experience Manager Guides vers Experience Manager as a cl
    ![](./assets/migration-create-migration-set.png)
 
 1. Indiquez le chemin d’accès à migrer et cliquez sur **Enregistrer**.
-Par exemple, `/content/sites`
+Par exemple :  `/content/sites`
 ou
    `/content/dam/tech-docs`
    ![chemins inclus](./assets/migration-included-paths.png)
@@ -131,7 +130,7 @@ ou
 
 1. Cliquer sur **Enregistrer**
 1. Sélectionnez le **jeu de migration** puis sélectionnez **Extraire** dans la partie supérieure.
-   ![&#x200B; d’extraction du jeu de migration](./assets/migration-extract.png)
+   ![&#128279;](./assets/migration-extract.png) d’extraction du jeu de migration
 
 1. Vérifiez les détails des chemins et des configurations que vous avez sélectionnés dans la fenêtre contextuelle **Extraction du jeu de migration**, puis cliquez sur **Extraire**. L’extraction prendra minutes et vous verrez le statut comme mis à jour.
    ![extraction du jeu de migration](./assets/migration-set-extraction.png)

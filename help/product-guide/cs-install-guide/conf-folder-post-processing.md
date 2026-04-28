@@ -5,10 +5,9 @@ feature: Filename Configuration
 role: Admin
 level: Experienced
 exl-id: 42722c6f-1b1c-4a7e-89ef-a373623eb774
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -27,11 +26,11 @@ Suivez les instructions de la section [&#x200B; Remplacements de la configuratio
 
 | PID | Clé de la propriété | Valeur de la propriété |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `ignored.post.processing.paths` | Valeur de chaîne pour définir toute `/` NODE_OPTIONS standard (propriété à plusieurs valeurs, chaînes avec chemin d’accès qui omet les <br> à la fin ou l’expression régulière) **Valeur par défaut** : `/content/dam/projects/translation_output` |
+| `com.adobe.fmdita.config.ConfigManager` | `ignored.post.processing.paths` | Valeur de chaîne pour définir toute <br> NODE_OPTIONS standard (propriété à plusieurs valeurs, chaînes avec chemin d’accès qui omet les `/` à la fin ou l’expression régulière) **Valeur par défaut** : `/content/dam/projects/translation_output` |
 
 | PID | Clé de la propriété | Valeur de la propriété |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `enabled.post.processing.paths` | Valeur de chaîne pour définir toute `/` NODE_OPTIONS standard (propriété à plusieurs valeurs, chaînes avec chemin d’accès qui omet les <br> à la fin ou l’expression régulière) **Valeur par défaut** : `/content/dam` |
+| `com.adobe.fmdita.config.ConfigManager` | `enabled.post.processing.paths` | Valeur de chaîne pour définir toute <br> NODE_OPTIONS standard (propriété à plusieurs valeurs, chaînes avec chemin d’accès qui omet les `/` à la fin ou l’expression régulière) **Valeur par défaut** : `/content/dam` |
 
 ## Règles d’activation ou de désactivation du post-traitement
 

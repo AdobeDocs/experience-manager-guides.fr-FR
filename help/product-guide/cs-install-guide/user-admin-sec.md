@@ -5,11 +5,10 @@ exl-id: 10ab0f3c-97dc-4293-ab73-75b438c03d99
 feature: User Management
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 10%
+source-wordcount: '728'
+ht-degree: 12%
 
 ---
 
@@ -19,9 +18,9 @@ Pour accéder aux fonctionnalités d’AEM Guides et les configurer, vous devez 
 
 Les rubriques suivantes de la documentation d’AEM vous aideront à mieux comprendre les concepts et fonctionnalités liés à l’administration des utilisateurs et à la sécurité :
 
-- [utilisateurs, groupes et autorisations &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=fr)
+- [Utilisateurs et utilisatrices, groupes et autorisations AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=fr)
 
-- [&#x200B; Administration et sécurité des utilisateurs &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=fr)
+- [Administration et sécurité des utilisateurs](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=fr)
 
 
 ## Groupes d’utilisateurs créés par AEM Guides {#id181TF0K0MHT}
@@ -104,4 +103,4 @@ La liste suivante contient des recommandations et des points liés aux groupes d
 
 - Pour donner à un utilisateur les droits de modifier l’état d’un document, veillez à l’ajouter dans la section Transition d’état du profil d’état du document.
 
-[1](#fnsrc_1) Si *Auteurs* et *Éditeurs* sont invités pour une révision.[2](#fnsrc_2) selon les droits accordés à l’utilisateur dans le profil d’état du document.
+[1](#fnsrc_1) Si *Auteurs* et *Éditeurs* sont invités à effectuer une révision.[2](#fnsrc_2) En fonction des droits accordés à l’utilisateur dans le profil d’état du document.

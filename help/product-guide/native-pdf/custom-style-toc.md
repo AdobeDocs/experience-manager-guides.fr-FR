@@ -5,10 +5,9 @@ exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -19,7 +18,7 @@ Parfois, vous pouvez appliquer un style personnalisé aux entrées de la table d
 
 Prenons un exemple de nouveau sujet que vous souhaitez envoyer pour révision. Pour identifier facilement la rubrique mise à jour, vous devez ajouter un attribut `outputclass` à l&#39;élément `<topicref>` dans votre plan DITA, puis définir un style personnalisé pour celui-ci dans le CSS.
 
-Dans l’exemple suivant, un attribut *a été affecté à la rubrique* Historique des vols`outputclass` avec la valeur `new-topic`.
+Dans l’exemple suivant, un attribut `outputclass` a été affecté à la rubrique *Historique des vols* avec la valeur `new-topic`.
 
 <img src="./assets/new-topic-attribute-in-map.png" width="500">
 

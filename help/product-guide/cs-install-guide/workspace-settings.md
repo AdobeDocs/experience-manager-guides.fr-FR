@@ -4,11 +4,10 @@ description: Découvrez les différents paramètres disponibles dans l’interfa
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 3c3880af-8d32-4d8a-9dca-8be12e9a5fd5
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '2440'
-ht-degree: 0%
+source-wordcount: '2470'
+ht-degree: 1%
 
 ---
 
@@ -39,7 +38,7 @@ Les paramètres Général vous permettent de configurer les paramètres pour uti
 
 ![](assets/workspace-settings.png){width="350" align="left"}
 
-- **Assistant IA**
+- Assistant **AI**
 Sélectionnez cette option pour activer la fonctionnalité [Assistant IA](../user-guide/ai-assistant.md) dans Experience Manager Guides. Désélectionnez cette option pour désactiver la fonction.
 
   Après avoir activé le bouton (bascule) **Assistant IA**, vous pouvez configurer les options qui s’affichent sous l’onglet **Création** pour les auteurs à l’aide du menu **Actions rapides de création** comme illustré ci-dessous.\

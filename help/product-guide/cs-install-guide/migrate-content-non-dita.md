@@ -5,10 +5,9 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '2521'
+source-wordcount: '2581'
 ht-degree: 0%
 
 ---
@@ -235,7 +234,7 @@ Les points suivants doivent être pris en compte pour charger vos documents dans
   </html>
   ```
 
-  Notez que l’attribut `ul` doit être défini sur `class` pour chaque balise `book`. De même, chaque `li` de balise `class` doit être définie sur `topicref`.
+  Notez que l’attribut `class` doit être défini sur `book` pour chaque balise `ul`. De même, chaque `class` de balise `li` doit être définie sur `topicref`.
 
 - Si vous utilisez des styles intégrés, convertissez-les en classes de style basées sur CSS dans votre fichier XHTML. Utilisez ensuite le mappage style-attribute pour convertir ces styles basés sur des classes en attribut DITA `outputclass` dans le fichier DITA converti.
 

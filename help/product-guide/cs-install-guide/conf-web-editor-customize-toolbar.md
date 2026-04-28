@@ -5,10 +5,9 @@ exl-id: ba82af48-9357-4f29-90ce-6793366ab432
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---
@@ -44,11 +43,11 @@ Pour ajouter une fonctionnalité à la barre d’outils de l’éditeur web, pro
 
    En règle générale, vous pouvez créer un groupe de boutons de la barre d’outils et y ajouter un ou plusieurs boutons. Vous pouvez également ajouter un nouveau bouton de barre d’outils à un groupe de barres d’outils existant. Les informations suivantes sont requises pour créer un groupe de barre d’outils :
 
-   **type** :   Spécifiez `blockGroup` comme valeur `type`. Cette valeur indique que vous créez un groupe de blocs qui contiendrait un ou plusieurs groupes de barres d’outils.
+   **type** : spécifiez `blockGroup` comme valeur `type`. Cette valeur indique que vous créez un groupe de blocs qui contiendrait un ou plusieurs groupes de barres d’outils.
 
-   **extraclass** :   Nom de la ou des classes séparées par un espace.
+   **extraclass** : nom de la ou des classes séparées par un espace.
 
-   **items** :   Spécifiez la définition de tous les groupes dans la barre d’outils. Chaque groupe peut contenir une ou plusieurs icônes de barre d’outils. Pour définir des icônes dans un groupe de barres d’outils, vous devez définir à nouveau l’attribut `type` dans le `items` et définir sa valeur sur `buttonGroup`. Spécifiez un ou plusieurs noms de classe dans la propriété `extraclass`. Spécifiez le nom de la fonction dans la propriété `label`. L’extrait de code suivant du fichier `ui_config.json` affiche la définition du bloc de barre d’outils principal, suivie de la définition du `buttonGroup` :
+   **items** : spécifiez la définition de tous les groupes dans la barre d’outils. Chaque groupe peut contenir une ou plusieurs icônes de barre d’outils. Pour définir des icônes dans un groupe de barres d’outils, vous devez définir à nouveau l’attribut `type` dans le `items` et définir sa valeur sur `buttonGroup`. Spécifiez un ou plusieurs noms de classe dans la propriété `extraclass`. Spécifiez le nom de la fonction dans la propriété `label`. L’extrait de code suivant du fichier `ui_config.json` affiche la définition du bloc de barre d’outils principal, suivie de la définition du `buttonGroup` :
 
    ```
    "toolbar": {    
@@ -67,21 +66,21 @@ Pour ajouter une fonctionnalité à la barre d’outils de l’éditeur web, pro
 
    Vous devez définir les propriétés suivantes pour ajouter une icône de barre d’outils :
 
-   **type** :   Spécifiez `button` comme valeur `type`. Cette valeur indique que vous ajoutez un bouton de barre d’outils.
+   **type** : spécifiez `button` comme valeur `type`. Cette valeur indique que vous ajoutez un bouton de barre d’outils.
 
-   **icon** :   Indiquez le nom de l’icône Coral que vous souhaitez utiliser dans la barre d’outils.
+   **icon** : indiquez le nom de l’icône Coral que vous souhaitez utiliser dans la barre d’outils.
 
-   **variante** :   Spécifiez `quiet` comme valeur `variant`.
+   **variante** : spécifiez `quiet` comme valeur `variant`.
 
-   **title** :   Spécifiez l’info-bulle de l’icône.
+   **titre** : spécifiez l’info-bulle de l’icône.
 
-   **en cas de clic** :   Indiquez le nom de commande défini pour la fonction dans le fichier JavaScript. Si votre commande nécessite des paramètres d’entrée, indiquez le nom de la commande comme suit :
+   **en cas de clic** : spécifiez le nom de commande défini pour la fonction dans le fichier JavaScript. Si votre commande nécessite des paramètres d’entrée, indiquez le nom de la commande comme suit :
 
    ```Javascript
    "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
    ```
 
-   **afficher ou masquer** :   Si vous définissez la propriété `show` , spécifiez les modes dans lesquels l’icône s’affiche. Les valeurs possibles sont les suivantes : `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(affichage dans tous les modes\) ou `false` \(masquage dans tous les modes\).
+   **afficher ou masquer** : si vous définissez la propriété `show`, indiquez les modes d’affichage de l’icône. Les valeurs possibles sont les suivantes : `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(affichage dans tous les modes\) ou `false` \(masquage dans tous les modes\).
 
    À la place de `show`, vous pouvez également définir la propriété `hide` . Les valeurs possibles sont identiques à celles de `show` propriété , à la différence que l’icône n’est pas affichée pour le mode spécifié.
 
@@ -130,11 +129,11 @@ Effectuez les étapes suivantes pour supprimer toute fonctionnalité indésirabl
 
    Le fichier `ui_config.json` comporte trois sections :
 
-   1. **barres d’outils** :   Cette section contient la définition de toutes les fonctionnalités disponibles dans la barre d’outils de l’éditeur, telles que Insérer/Supprimer une liste numérotée, \(fichier\) Fermer, Enregistrer, Commentaires, etc.
+   1. **barres d’outils** : cette section contient la définition de toutes les fonctionnalités disponibles dans la barre d’outils de l’éditeur, telles que Insérer/Supprimer une liste numérotée, \(fichier\) Fermer, Enregistrer, Commentaires, etc.
 
-   1. **raccourcis** :   Cette section contient la définition des raccourcis clavier affectés à une fonctionnalité particulière de l’éditeur.
+   1. **raccourcis** : cette section contient la définition des raccourcis clavier attribués à une fonctionnalité particulière de l’éditeur.
 
-   1. **modèles** :   Cette section contient la structure prédéfinie des éléments DITA que vous pouvez utiliser dans votre document. Par défaut, la section Modèles contient des définitions de modèle pour un paragraphe, un tableau simple, un tableau et des éléments de corps. Vous pouvez créer une définition de modèle pour n’importe quel élément en ajoutant une structure XML valide pour l’élément souhaité. Par exemple, si vous souhaitez ajouter un élément `p` avec chaque nouvel élément `li` dans une liste, vous pouvez ajouter le code suivant à la fin de la section modèles pour obtenir ce résultat :
+   1. **modèles** : cette section contient la structure prédéfinie des éléments DITA que vous pouvez utiliser dans votre document. Par défaut, la section Modèles contient des définitions de modèle pour un paragraphe, un tableau simple, un tableau et des éléments de corps. Vous pouvez créer une définition de modèle pour n’importe quel élément en ajoutant une structure XML valide pour l’élément souhaité. Par exemple, si vous souhaitez ajouter un élément `p` avec chaque nouvel élément `li` dans une liste, vous pouvez ajouter le code suivant à la fin de la section modèles pour obtenir ce résultat :
 
    ```css
    "li": "<li><p></p></li>"

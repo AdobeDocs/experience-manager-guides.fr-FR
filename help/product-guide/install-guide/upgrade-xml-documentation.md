@@ -5,11 +5,10 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '9148'
-ht-degree: 0%
+source-wordcount: '9267'
+ht-degree: 1%
 
 ---
 
@@ -78,7 +77,7 @@ Avant de commencer le processus de mise à niveau de Experience Manager Guides, 
 Avant d’installer la version 4.0, procédez comme suit :
 
 1. Assurez-vous à ce stade que Experience Manager Guides est sur la version 3.8.5.
-1. Téléchargez le package de script de mise à niveau. Pour ce faire, recherchez « Package de mise à niveau de la solution XML Documentation 4.0 » sur [le portail de distribution de logiciels Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) qui téléchargera un fichier zip.
+1. Téléchargez le package de script de mise à niveau. Pour ce faire, recherchez « Package de mise à niveau de la solution XML Documentation 4.0 » sur [le portail de distribution de logiciels Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) qui téléchargera un fichier zip.
 1. Téléchargez ce package dans AEM via le gestionnaire de packages et installez-le.
 1. Une fois le package de mise à niveau installé, exécutez les scripts donnés ci-dessous dans le même ordre et suivez les instructions données :
 
@@ -89,7 +88,7 @@ Cette API est conçue pour évaluer l’état actuel du système et signaler si 
 | Point d’entrée | /bin/dxml/upgrade/3xto4x/report |
 | --- | --- |
 | Type de demande | **GET** Vous pouvez utiliser un navigateur web dans lequel vous êtes connecté à l&#39;instance AEM en tant qu&#39;administrateur. |
-| Réponse attendue | -   Si tous les nœuds requis peuvent être déplacés, la vérification sera réussie. <br>-   Si un nœud est présent à l’emplacement cible, vous obtiendrez une erreur pertinente. Nettoyez le référentiel \(supprimez le nœud /var/dxml\), réinstallez le package de mise à niveau, puis déclenchez à nouveau ce point d’entrée. <br>**Remarque :** il ne s’agit pas d’une erreur courante, car l’emplacement cible n’est pas utilisé auparavant par Experience Manager Guides 3.x. <br> -   Si ce script échoue, ne continuez pas et signalez-le à votre équipe de succès client. |
+| Réponse attendue | - Si tous les nœuds requis peuvent être déplacés, la vérification sera réussie. <br>- Si un nœud est présent à l’emplacement cible, vous obtiendrez une erreur pertinente. Nettoyez le référentiel \(supprimez le nœud /var/dxml\), réinstallez le package de mise à niveau, puis déclenchez à nouveau ce point d’entrée. <br>**Remarque :** il ne s’agit pas d’une erreur courante, car l’emplacement cible n’est pas utilisé auparavant par Experience Manager Guides 3.x. <br> - Si ce script échoue, ne continuez pas et signalez-le à votre équipe de succès client. |
 
 **API System data migration**
 
@@ -101,7 +100,7 @@ Cette API est conçue pour migrer les données système comme indiqué dans la s
 | Point d’entrée | /bin/dxml/upgrade/3xto4x |
 | --- | --- |
 | Type de demande | **POST** Ce script est une requête POST et doit donc être exécuté par des agents tels que Postman. |
-| Réponse attendue | -   Une fois la migration réussie, vous pouvez installer la solution XML Documentation version 4.0.<br>-   En cas d’erreur, restaurez le dernier point de contrôle et partagez les journaux d’erreurs ainsi que la sortie de l’API avec votre équipe du succès client. |
+| Réponse attendue | - Une fois la migration réussie, vous pouvez installer la solution XML Documentation version 4.0.<br> - En cas d’erreur, restaurez le dernier point de contrôle et partagez les journaux d’erreurs ainsi que la sortie de l’API avec votre équipe de succès client. |
 
 **Mappage de migration** : l’API ci-dessus migre toutes les données de l’emplacement source vers l’emplacement cible.
 
@@ -527,7 +526,7 @@ Effectuez les étapes suivantes pour post-traiter le contenu existant et utilise
    | Point d’entrée | /bin/guides/reports/upgrade |
    |---|---|
    | Type de demande | **POST** Ce script est une requête POST et doit donc être exécuté par des agents tels que Postman. |
-   | Réponse attendue | L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée.<br> Exemple d&#39;URL : `http://<server:port>/bin/guides/reports/upgrade` |
+   | Réponse attendue | L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée.<br> Exemple d’URL : `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Point d’entrée | /bin/guides/reports/upgrade |
    |---|---|
@@ -728,7 +727,7 @@ Effectuez les étapes suivantes pour post-traiter le contenu existant et utilise
    | Point d’entrée | /bin/guides/reports/upgrade |
    |---|---|
    | Type de demande | **POST** Ce script est une requête POST et doit donc être exécuté par des agents tels que Postman. |
-   | Réponse attendue | L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée.<br> Exemple d&#39;URL : `http://<server:port>/bin/guides/reports/upgrade` |
+   | Réponse attendue | L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée.<br> Exemple d’URL : `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Point d’entrée | /bin/guides/reports/upgrade |
    |---|---|
@@ -929,7 +928,7 @@ Effectuez les étapes suivantes pour post-traiter le contenu existant et utilise
    | Point d’entrée | /bin/guides/reports/upgrade |
    |---|---|
    | Type de demande | **POST** Ce script est une requête POST et doit donc être exécuté par des agents tels que Postman. |
-   | Réponse attendue | L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée.<br> Exemple d&#39;URL : `http://<server:port>/bin/guides/reports/upgrade` |
+   | Réponse attendue | L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée.<br> Exemple d’URL : `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Point d’entrée | /bin/guides/reports/upgrade |
    |---|---|

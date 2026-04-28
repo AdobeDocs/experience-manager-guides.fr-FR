@@ -2,10 +2,10 @@
 title: Notes de mise à jour | Nouveautés de la version de décembre 2025 du contenu Formation et apprentissage du produit
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version de décembre 2025 des contenus de formation et d’apprentissage du produit
 role: Leader
-hidefromtoc: true
-source-git-commit: a5a5202d652096ef4de1db78b8638e605e9d80f4
+exl-id: 72d4fd5c-194a-4671-bcec-35fc35ff3165
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '281'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,3 @@ Cette note de mise à jour couvre les nouvelles fonctionnalités améliorées in
   Pour plus d’informations, consultez la section [Ajouter des blocs de création de base](../learning-content/lc-basic-blocks.md).
 
   ![](assets/reusable-content.png){width="650" align="left"}
-
-
-
-
