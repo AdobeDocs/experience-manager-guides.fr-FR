@@ -30,4 +30,4 @@ Perform the following steps to generate the output from the **Quick Generate** p
 1. Click **Generate** to generate the output for the selected presets. A success message is displayed on the generation of the output. An error message is shown if the generation fails. You can also view the error log to see the details of the error that occurred in the generation process.
 1. Click **View Output** \( ![](images/view-output-icon.svg)\) icon of a specific preset to view the output generated for the preset.
 
-**Rubrique parente :**[ Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur web](web-editor.md)

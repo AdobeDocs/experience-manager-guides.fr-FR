@@ -59,4 +59,4 @@ The `platform` attribute is stored in the system. Whenever an author decides to 
 
 ![](images/properties-tab.png){width="350" align="left"}
 
-**Rubrique parente :**[ Génération de sortie](generate-output.md)
+**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)

@@ -106,4 +106,4 @@ While you open a file in the Web Editor, Experience Manager Guides provides the 
 You can turn off the feature to locate the file with the **Always locate files in repository** option from the **Appearance** tab of the **User preferences**.
 
 
-**Rubrique parente :**[ Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur web](web-editor.md)

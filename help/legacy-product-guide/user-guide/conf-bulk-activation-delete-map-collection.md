@@ -33,4 +33,4 @@ Vous pouvez supprimer une collection de mappages d’activation en bloc lorsqu�
    La collection de mappages d’activation en bloc est supprimée du système.
 
 
-**Rubrique parente :**[ Activation en bloc du contenu publié](conf-bulk-activation.md)
+**Rubrique parente :**&#x200B;[&#x200B; Activation en bloc du contenu publié](conf-bulk-activation.md)

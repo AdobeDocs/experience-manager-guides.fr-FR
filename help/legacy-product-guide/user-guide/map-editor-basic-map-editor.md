@@ -196,4 +196,4 @@ If you want to delete a topic from your table, click the cross icon next to the 
 
 If you want to delete the relationship table, click anywhere outside the relationship table and click Delete.
 
-**Rubrique parente :**[ Utilisation de l’éditeur de cartes](map-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Utilisation de l’éditeur de cartes](map-editor.md)

@@ -108,4 +108,4 @@ Perform the following steps to remove all tags from one or more topics:
 
 If you have a long list of tags applied on your topics, then you might find it a bit cumbersome to navigate. You can easily hide tags in from your DITA map console view by clicking on the Hide Tags icon. Similarly, when the tags are not visible, clicking on the Show Tags reveals all tags.
 
-**Parent topic:**[ Manage metadata](manage-metadata.md)
+**Parent topic:**&#x200B;[&#x200B; Manage metadata](manage-metadata.md)

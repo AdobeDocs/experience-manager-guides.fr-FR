@@ -45,4 +45,4 @@ Effectuez les étapes suivantes pour transmettre les métadonnées à la sortie 
 
 The selected metadata properties will be passed to the output generated using DITA-OT.
 
-**Rubrique parente :**[ Génération de sortie](generate-output.md)
+**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)

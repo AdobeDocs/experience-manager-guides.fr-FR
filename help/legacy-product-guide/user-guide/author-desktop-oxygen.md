@@ -20,4 +20,4 @@ You can produce outputs in PDF, ePUB, HTML, and many other formats, using the sa
 
 *Contact your customer success team to get this feature enabled in the environment. This is not enabled as a part of the out-of-the-box support.*
 
-**Rubrique parente :**[ créer du contenu à l’aide d’outils de bureau](author-desktop-tools.md)
+**Rubrique parente :**&#x200B;[&#x200B; créer du contenu à l’aide d’outils de bureau](author-desktop-tools.md)

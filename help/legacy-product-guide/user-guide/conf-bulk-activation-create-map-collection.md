@@ -46,7 +46,7 @@ To create a bulk activation map collection, perform the following steps:
 
 The DITA map files are added to your bulk activation map collection.
 
-![ created bulk activation collection](images/bulk-activation-collection-created.png){width="800" align="left"}
+![&#x200B; created bulk activation collection](images/bulk-activation-collection-created.png){width="800" align="left"}
 
 ## Maps and Presets tab
 
@@ -85,7 +85,7 @@ L’onglet **Historique des contrôles** présente des informations sur les sort
 
 - **Modifié** : indique si le plan DITA a été mis à jour après la dernière publication. En fonction de ces informations, vous pouvez décider d&#39;activer ou non la sortie de ce plan DITA.
 - **Publié** : affiche la date et l’heure de la dernière sortie publiée (ou activée). Si vous sélectionnez le lien, la page Résultats de l’activation s’affiche, qui contient les journaux avec des informations sur le chemin racine où le contenu est activé.
-  ![ l’onglet historique d’audit de la collecte d’activation en bloc créé](images/bulk-collection-audit-history.png){width="800" align="left"}
+  ![&#x200B; l’onglet historique d’audit de la collecte d’activation en bloc créé](images/bulk-collection-audit-history.png){width="800" align="left"}
 
   *Affichez les informations sur les sorties de mappage activées dans l’onglet **Historique d’audit**.*
 
@@ -106,4 +106,4 @@ Les options de filtrage disponibles dans le panneau de gauche sont les suivantes
 
 Les filtres sont mis à jour lorsque vous passez de l’onglet **Mappages et paramètres prédéfinis** à l’onglet **Historique des contrôles** et vice versa.
 
-**Rubrique parente : **[Activation en bloc du contenu publié](conf-bulk-activation.md)
+**Rubrique parente : &#x200B;** [Activation en bloc du contenu publié](conf-bulk-activation.md)

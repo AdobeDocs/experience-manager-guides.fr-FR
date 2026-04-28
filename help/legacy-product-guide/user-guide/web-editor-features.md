@@ -197,7 +197,7 @@ Dans la capture d’écran suivante, seuls 3 des 4 éléments configurés de la 
      Une fois que vous avez configuré l’application, créez le profil de publication **ServiceNow**.
    - Pour créer un profil de publication, sélectionnez la base de connaissances ServiceNow dans le menu déroulant **Type de serveur**. Saisissez un profil **Nom**. Dans l’URL **ServiceNow**, saisissez le site client que vous utiliseriez pour publier la sortie, puis ajoutez les **Nom d’utilisateur** et **Mot de passe** fournis par le site client ServiceNow. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
 
-     ![Profil de publication ServiceNow ](./images/service-now-publish-profile.png){width="550" align="left"}
+     ![Profil de publication ServiceNow &#x200B;](./images/service-now-publish-profile.png){width="550" align="left"}
 
   Après la validation, vous pouvez sélectionner le profil de publication dans les paramètres prédéfinis de sortie d&#39;un plan DITA et l&#39;utiliser pour générer la sortie vers le serveur **Salesforce** ou **ServiceNow** que vous avez choisi.
 
@@ -752,7 +752,7 @@ Pour accéder à l’historique des versions et revenir à une version spécifiq
    Onglet **Aperçu** : le contenu nouvellement ajouté est dans la police verte et le contenu supprimé est dans la police rouge.
 
    Onglet **Métadonnées** : les métadonnées nouvellement ajoutées sont dans la police verte et les métadonnées supprimées sont dans la police rouge.
-   ![Différence de métadonnées entre les versions ](images/metadata-version-diff.png){width="550" align="left"}
+   ![Différence de métadonnées entre les versions &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
    *Comparez les métadonnées de différentes versions dans l’historique des versions.*
 
    >[!NOTE]
@@ -946,7 +946,7 @@ Sélectionnez l’icône **Filtrage avancé** ![icône de filtre avancé](images
 
 Vous pouvez afficher les options suivantes sous les onglets **Général** et **Avancé**.
 
-![ boîte de dialogue filtre avancé ](images/repository-filter-search-advanced.png) {width="800" align="left"}
+![&#x200B; boîte de dialogue filtre avancé &#x200B;](images/repository-filter-search-advanced.png) {width="800" align="left"}
 
 
 **Général**
@@ -1153,7 +1153,7 @@ Les différentes options du menu Options sont expliquées ci-dessous :
 
 - **Publier en tant que** : utilisez cette option pour publier une rubrique ou les éléments d’une rubrique dans un fragment de contenu.
 
-- **Génération rapide** : générez la sortie du fichier sélectionné. La sortie ne peut être générée que pour les fichiers qui font partie d’un paramètre prédéfini de sortie. Pour plus d’informations, consultez la section [ Publication basée sur des articles à partir de l’éditeur web ](web-editor-article-publishing.md#id218CK0U019I).
+- **Génération rapide** : générez la sortie du fichier sélectionné. La sortie ne peut être générée que pour les fichiers qui font partie d’un paramètre prédéfini de sortie. Pour plus d’informations, consultez la section [&#x200B; Publication basée sur des articles à partir de l’éditeur web &#x200B;](web-editor-article-publishing.md#id218CK0U019I).
 
 
 **Création de rubriques à partir de la vue Référentiel**
@@ -1285,7 +1285,7 @@ Dans la boîte de dialogue **Télécharger la carte**, vous pouvez choisir les o
   >
   >  Par défaut, les cartes téléchargées restent pendant cinq jours dans la boîte de réception de notifications d’AEM.
 
-- **Générer la sortie** : permet de générer la sortie du fichier de mappage sélectionné. La sortie ne peut être générée que pour les fichiers qui font partie d’un paramètre prédéfini de sortie. Pour plus d’informations, consultez la section [ Publication basée sur des articles à partir de l’éditeur web ](web-editor-article-publishing.md#id218CK0U019I).
+- **Générer la sortie** : permet de générer la sortie du fichier de mappage sélectionné. La sortie ne peut être générée que pour les fichiers qui font partie d’un paramètre prédéfini de sortie. Pour plus d’informations, consultez la section [&#x200B; Publication basée sur des articles à partir de l’éditeur web &#x200B;](web-editor-article-publishing.md#id218CK0U019I).
 - **Fermer** : ferme le fichier de mappage.
 
 
@@ -1327,7 +1327,7 @@ Vous pouvez effectuer les actions suivantes à l’aide du menu Options :
 
 - **Afficher dans l’interface utilisateur d’Assets** : utilisez cette option pour afficher un aperçu d’un fichier .dita/.xml dans l’interface utilisateur d’Assets. Dans le cas d’un fichier .ditamap/.bookmap, tous les fichiers de rubrique de la carte sont affichés dans une seule vue page par page unifiée.
 
-- **Génération rapide** : générez la sortie du fichier sélectionné. La sortie ne peut être générée que pour les fichiers qui font partie d’un paramètre prédéfini de sortie. Pour plus d’informations, consultez la section [ Publication basée sur des articles à partir de l’éditeur web ](web-editor-article-publishing.md#id218CK0U019I).
+- **Génération rapide** : générez la sortie du fichier sélectionné. La sortie ne peut être générée que pour les fichiers qui font partie d’un paramètre prédéfini de sortie. Pour plus d’informations, consultez la section [&#x200B; Publication basée sur des articles à partir de l’éditeur web &#x200B;](web-editor-article-publishing.md#id218CK0U019I).
 
 >[!NOTE]
 >
@@ -1714,7 +1714,7 @@ Effectuez les étapes suivantes pour modifier la valeur :
 
 Vous pouvez également appliquer des valeurs à un attribut en sélectionnant plusieurs valeurs dans la liste déroulante.
 
-Vue Source ****
+Vue Source **&#x200B;**
 
 Vous pouvez également modifier les valeurs à partir de la liste déroulante de l’attribut dans la vue Source. La vue Source vous empêche également d’ajouter une valeur incorrecte.
 
@@ -1969,7 +1969,7 @@ You can access the **Content Properties** feature by selecting the **Content Pro
 
 1. Dans le panneau déroulant **Attribut**, sélectionnez l’attribut dans la liste déroulante et spécifiez une valeur d’attribut.  Cliquez ensuite sur **Ajouter**.
 
-   ![panneau attributs avec plusieurs attributs ](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![panneau attributs avec plusieurs attributs &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Pour modifier l’attribut, passez la souris dessus et sélectionnez **Modifier** ![icône-d’édition](images/edit_pencil_icon.svg).
    ![modifier les attributs](images/edit-attributes-content-properties.png){width="300" align="left"}
@@ -2004,7 +2004,7 @@ La section Général vous donne accès aux fonctionnalités suivantes :
 - **Langue** : affiche la langue de la rubrique. Elle est définie à partir du champ langue de la page des propriétés.
 - **Créé le** : affiche la date et l’heure de création de la rubrique.
 - **Extrait par** : affiche l’utilisateur qui a extrait la rubrique.
-- **État du document** : vous pouvez sélectionner et mettre à jour l’état du document de la rubrique actuellement ouverte. Pour plus d’informations, voir [État du document ](web-editor-document-states.md#)*.*
+- **État du document** : vous pouvez sélectionner et mettre à jour l’état du document de la rubrique actuellement ouverte. Pour plus d’informations, voir [État du document &#x200B;](web-editor-document-states.md#)*.*
 
 **Remarque :** vous pouvez copier dans le presse-papiers les valeurs d&#39;attribut des différents champs des propriétés du fichier.
 
@@ -2047,4 +2047,4 @@ La fonction Modifications suivies du panneau de droite vous permet d’afficher 
 >
 > La fonction Suivi des modifications affiche toutes les mises à jour qui ont été suivies à l’aide de la fonction Activer/désactiver le suivi des modifications de la barre d’outils principale. Pour plus d’informations, voir [Activation/désactivation du suivi des modifications](#id205DF0203Y4).
 
-**Rubrique parente :**[ Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur web](web-editor.md)

@@ -65,4 +65,4 @@ Pour afficher le rapport de réutilisation du contenu, procédez comme suit :
 >
 > You can also export the Content Reuse Report in CSV format. To do so, click the Export to CSV link at the top-left corner of the screen and choose a location to save the CSV file. You can then open this CSV file in any CSV editor.
 
-**Parent topic:**[ Reports](reports-intro.md)
+**Parent topic:**&#x200B;[&#x200B; Reports](reports-intro.md)

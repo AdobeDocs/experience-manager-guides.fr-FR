@@ -79,4 +79,4 @@ Perform the following steps to send a modified topic for re-translation:
 1. Revenez au fichier de mappage DITA dans le dossier de langue source dans l’interface utilisateur d’Assets. Les rubriques retraduites sont désormais synchronisées.
 
 
-**Rubrique parente :**[ Traduire le contenu](translation.md)
+**Rubrique parente :**&#x200B;[&#x200B; Traduire le contenu](translation.md)

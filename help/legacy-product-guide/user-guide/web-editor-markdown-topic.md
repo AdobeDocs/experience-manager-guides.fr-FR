@@ -62,4 +62,4 @@ Perform the following steps to author a Markdown topic from the Web Editor:
 >
 > Si vous n’avez pas enregistré les modifications, une fenêtre contextuelle s’affiche et vous êtes invité à enregistrer votre rubrique avant de la fermer.
 
-**Rubrique parente :**[ Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur web](web-editor.md)
