@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Télécharger les fichiers {#id216MC0H0BE8}
 
-Vous pouvez télécharger des ressources, y compris des fichiers DITA et non DITA. Vous pouvez télécharger des ressources de plusieurs façons. Certaines méthodes sont natives à Adobe Experience Manager et d’autres sont prises en charge par Adobe Experience Manager Guides. Pour obtenir des informations sur le téléchargement des ressources natives de Adobe Experience Manager, consultez [Télécharger des ressources depuis Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) dans la documentation de Adobe Experience Manager. La section suivante explique le mécanisme de téléchargement des fichiers dans Experience Manager Guides.
+Vous pouvez télécharger des ressources, y compris des fichiers DITA et non DITA. Vous pouvez télécharger des ressources de plusieurs façons. Certaines méthodes sont natives à Adobe Experience Manager et d’autres sont prises en charge par Adobe Experience Manager Guides. Pour obtenir des informations sur le téléchargement des ressources natives de Adobe Experience Manager, consultez [Télécharger des ressources depuis Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=fr) dans la documentation de Adobe Experience Manager. La section suivante explique le mécanisme de téléchargement des fichiers dans Experience Manager Guides.
 
 ## Télécharger un fichier de plan DITA à partir de l&#39;éditeur
 

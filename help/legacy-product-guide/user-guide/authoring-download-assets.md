@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Télécharger les fichiers {#id216MC0H0BE8}
 
-Vous pouvez télécharger des ressources, y compris des fichiers DITA et non DITA. Vous pouvez télécharger des ressources de plusieurs façons. Certaines méthodes sont natives à AEM et d’autres sont prises en charge par AEM Guides. Pour obtenir des informations sur le téléchargement des ressources natives d’AEM, consultez [Téléchargement de ressources depuis Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) dans la documentation d’AEM. La section suivante explique le mécanisme de téléchargement des fichiers via la console de plan DITA dans AEM Guides.
+Vous pouvez télécharger des ressources, y compris des fichiers DITA et non DITA. Vous pouvez télécharger des ressources de plusieurs façons. Certaines méthodes sont natives à AEM et d’autres sont prises en charge par AEM Guides. Pour obtenir des informations sur le téléchargement des ressources natives d’AEM, consultez [Téléchargement de ressources depuis Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=fr) dans la documentation d’AEM. La section suivante explique le mécanisme de téléchargement des fichiers via la console de plan DITA dans AEM Guides.
 
 ## Exporter un fichier de mappage DITA
 
