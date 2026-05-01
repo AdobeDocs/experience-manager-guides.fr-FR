@@ -2,9 +2,9 @@
 title: Utiliser l’assistant AI pour créer des documents de manière intelligente « »
 description: Découvrez comment utiliser l’assistant d’IA pour créer des documents avec une efficacité intelligente.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
-source-git-commit: 8659035c57ce2b6f760b342fa9d88d656fcabf23
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ Adobe Experience Manager Guides fournit un outil d’assistant d’IA qui vous a
 
 Après avoir sélectionné le texte d’une rubrique, vous pouvez choisir d’effectuer l’une des actions de l’assistant AI :
 
-![assistant ia](./images/ai-assistant-panel.png){width="300" align="left"}
+![assistant ia](./images/ai-assistant-panel.png){width="300"}
 
 ## Suggérer du contenu réutilisable
 
 
-Utilisez la fonction **Suggérer du contenu réutilisable** ![ai Suggérer une icône &#x200B;](./images/ai-suggest-reusable-content-icon.svg) de contenu réutilisable pour créer du contenu de manière cohérente et précise. Vous pouvez sélectionner le contenu et Experience Manager Guides fournit des suggestions sur la manière de réutiliser le contenu existant dans votre référentiel.
+Utilisez la fonction **Suggérer du contenu réutilisable** ![ai Suggérer une icône ](./images/ai-suggest-reusable-content-icon.svg) de contenu réutilisable pour créer du contenu de manière cohérente et précise. Vous pouvez sélectionner le contenu et Experience Manager Guides fournit des suggestions sur la manière de réutiliser le contenu existant dans votre référentiel.
 En savoir plus sur l’utilisation de suggestions intelligentes optimisées par [IA pour créer du contenu](authoring-ai-based-smart-suggestions.md).
 
 

@@ -5,7 +5,7 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: a15ee164-ec60-483e-8760-b1c290625415
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 2%
@@ -43,11 +43,11 @@ Vous pouvez afficher les différents types de paramètres prédéfinis de sortie
 
 1. Cliquez sur **Supprimer**.
 
-   ![](images/bulk-activation-delete-map.png){width="600" align="left"}
+   ![](images/bulk-activation-delete-map.png){width="600"}
 
    Le mappage sélectionné est supprimé de la collection de mappages d’activation en bloc.
 
 1. Cliquez sur **Terminé**.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Activation en bloc du contenu publié](conf-bulk-activation.md)
+**Rubrique parente :**[ Activation en bloc du contenu publié](conf-bulk-activation.md)

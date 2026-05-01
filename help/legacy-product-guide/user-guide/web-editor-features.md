@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 045cafac-393f-49e9-9432-6533a4c6dc01
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '18945'
 ht-degree: 0%
@@ -40,13 +40,13 @@ Enregistre les modifications que vous avez apportées à toutes les rubriques ou
 
 Enregistre les modifications apportées à votre rubrique et crée également une nouvelle version de votre rubrique. Si vous travaillez sur une rubrique nouvellement créée, les informations de version s’affichent sous la forme **aucune**.
 
-![](images/save-all-first-version-none_cs.png){width="800" align="left"}
+![](images/save-all-first-version-none_cs.png){width="800"}
 
 Le numéro de version change à chaque nouvelle version créée pour le fichier de rubrique ou de mappage.
 
 Lorsque vous choisissez d’enregistrer une rubrique ou un mappage à l’aide de **Enregistrer en tant que nouvelle version**, la boîte de dialogue suivante s’affiche :
 
-![](images/save-as-new-version-dialog.PNG){width="300" align="left"}
+![](images/save-as-new-version-dialog.PNG){width="300"}
 
 Saisissez les commentaires et les libellés de version pour identifier les modifications, puis cliquez sur **Enregistrer** pour créer une nouvelle version du fichier.
 
@@ -54,7 +54,7 @@ Lorsque vous choisissez la *Enregistrer comme nouvelle version*, la première ve
 
 Si votre administrateur dispose de libellés de version préconfigurés, ces libellés s’affichent dans une liste déroulante. Vous pouvez choisir un libellé dans la liste des libellés disponibles et enregistrer votre document.
 
-![](images/web-editor-pre-defined-labels.PNG){width="300" align="left"}
+![](images/web-editor-pre-defined-labels.PNG){width="300"}
 
 Au moment d’enregistrer une rubrique, vous pouvez ajouter un commentaire spécifiant les modifications que vous avez apportées à la rubrique. Ce commentaire s’affiche dans l’historique des versions de la rubrique.
 
@@ -62,7 +62,7 @@ Si votre rubrique est en cours de révision, vos réviseurs et réviseuses reço
 
 Lorsque vous placez le pointeur de la souris sur le titre d&#39;une rubrique, le chemin d&#39;accès au fichier et le numéro de version s&#39;affichent.
 
-![](images/mouse-hover-on-title_cs.png){width="800" align="left"}
+![](images/mouse-hover-on-title_cs.png){width="800"}
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ Supprime l&#39;élément sélectionné ou l&#39;élément sur lequel est placé 
 
 La fonction Rechercher et remplacer est disponible dans les modes d’affichage Auteur et Source. La barre de texte Rechercher et remplacer s&#39;affiche au bas de la zone d&#39;édition du sujet. Vous pouvez utiliser les touches de raccourci **Ctrl**+**F** pour appeler la barre Rechercher et remplacer.
 
-![](images/find-replace-bar.png){width="800" align="left"}
+![](images/find-replace-bar.png){width="800"}
 
 À l’aide de l’icône de paramètres \(![](images/settings-find-replace-icon.svg)\), vous pouvez activer ou désactiver les options de recherche **Ignorer la casse** et **Mot entier uniquement**. Pour effectuer une recherche qui ne respecte pas la casse, activez l’option **Ignorer la casse** en \(ou sélectionnez\). Sinon, si vous souhaitez effectuer une recherche sensible à la casse, désactivez l’option **Ignorer la casse**. Vous pouvez également choisir de rechercher un mot entier.
 
@@ -98,7 +98,7 @@ Les paramètres de l’éditeur ne sont disponibles que pour les utilisateurs ad
 
 - **Général** : les paramètres Général vous permettent de configurer le dictionnaire à utiliser avec l’éditeur web. Cet onglet contient trois sections : **Vérification orthographique**, **Condition** et **Création**.
 
-  ![](images/editor-setting-general.png){width="650" align="left"}
+  ![](images/editor-setting-general.png){width="650"}
 
    - **Vérification orthographique** : il existe deux options : **Vérification orthographique AEM** et **Vérification orthographique du navigateur**. Par défaut, l’éditeur utilise la fonction de vérification orthographique du navigateur , où la vérification orthographique est effectuée à l’aide du dictionnaire intégré au navigateur. Vous pouvez passer à la vérification orthographique AEM pour utiliser le dictionnaire AEM, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section *Personnaliser le dictionnaire par défaut d’AEM* dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
 
@@ -111,7 +111,7 @@ Les paramètres de l’éditeur ne sont disponibles que pour les utilisateurs ad
 
       - **Afficher la clé avec le titre dans le panneau Schéma d’objet** : sélectionnez cette option pour afficher les clés ainsi que les titres dans le schéma d’objet. Si vous ne sélectionnez pas cette option, seuls les titres s’affichent. Par exemple, les clés « os », « audience » et « other » sont également affichées avec les titres.
 
-        ![](images/subject-scheme-title.png){width="550" align="left"}
+        ![](images/subject-scheme-title.png){width="550"}
 
       - **Afficher le schéma d&#39;objet dans le panneau Conditions** : sélectionnez cette option pour afficher un schéma d&#39;objet dans le panneau Conditions. Si vous désélectionnez cette option, les conditions définies s’affichent dans le panneau Conditions .
 
@@ -126,7 +126,7 @@ Modifier le style des citations. Choisissez le style de citation dans la liste d
 
 **Panneaux** : ce paramètre contrôle les panneaux qui s’affichent dans le panneau de gauche de l’éditeur. Vous pouvez activer/désactiver le basculement pour afficher ou masquer le panneau souhaité.
 
-![](images/editor-setting-panel.png){width="650" align="left"}
+![](images/editor-setting-panel.png){width="650"}
 
 >[!NOTE]
 >
@@ -134,21 +134,21 @@ Modifier le style des citations. Choisissez le style de citation dans la liste d
 
 - **Liste d’éléments** : en tant qu’administrateur, vous pouvez contrôler la liste des éléments qu’un auteur peut insérer à l’aide du pop-up [Insérer un élément](#id204SG30105Z) et également définir le nom d’affichage de l’élément. Le paramètre Liste d&#39;éléments vous permet de spécifier le nom de l&#39;élément selon les spécifications DITA et un libellé que vous souhaitez utiliser à la place du nom d&#39;élément défini par DITA :
 
-  ![](images/editor-setting-element-list.png){width="650" align="left"}
+  ![](images/editor-setting-element-list.png){width="650"}
 
 Dans la capture d’écran ci-dessus, l’élément `b` a reçu le libellé Gras `codeblock` est associé à un libellé Bloc de code avec d’autres éléments. Si vous sélectionnez l’option **Utiliser uniquement les éléments au-dessus**, seuls les éléments valides \(au point d’insertion actuel\) de cette liste s’affichent dans le pop-up Insérer un élément.
 
 Dans la capture d’écran suivante, seuls 3 des 4 éléments configurés de la capture d’écran précédente sont affichés dans le contexte actuel :
 
-![](images/editor-setting-insert-element-list.PNG){width="300" align="left"}
+![](images/editor-setting-insert-element-list.PNG){width="300"}
 
 - **Liste des attributs** : tout comme la liste des éléments, vous pouvez contrôler la liste des attributs et leurs noms d’affichage à afficher dans la liste des attributs d’un élément. Dans la capture d’écran suivante, seuls 3 attributs ont été configurés pour être affichés dans la liste d’attributs d’un élément :
 
-  ![](images/editor-setting-attributes-list.png){width="650" align="left"}
+  ![](images/editor-setting-attributes-list.png){width="650"}
 
   Avec ce paramètre, lorsque vous essayez d’ajouter un attribut à un élément, seule la liste des attributs configurés dans la liste s’affiche.
 
-  ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
+  ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300"}
 
 - **Publier le profil** : contient les profils de publication qui peuvent être utilisés pour publier la sortie de la **Base de connaissances**. Vous pouvez créer un profil pour une base de connaissances cible. Par exemple, Salesforce ou ServiceNow.
 
@@ -174,7 +174,7 @@ Dans la capture d’écran suivante, seuls 3 des 4 éléments configurés de la 
 
 
    - Pour créer un profil de publication Salesforce, sélectionnez la base de connaissances **Salesforce** dans le menu déroulant **Type de serveur**. Saisissez un nom de profil. Dans l’**URL du site**, saisissez le site client que vous utiliserez pour publier la sortie, puis ajoutez les **Clé du client** et **Secret du client** fournis par le site client Salesforce. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
-     ![profil de publication salesforce dans les paramètres de l’éditeur](./images/salesforce-publish-profile.png){width="550" align="left"}
+     ![profil de publication salesforce dans les paramètres de l’éditeur](./images/salesforce-publish-profile.png){width="550"}
 
      >[!NOTE]
      >
@@ -197,9 +197,9 @@ Dans la capture d’écran suivante, seuls 3 des 4 éléments configurés de la 
      Une fois que vous avez configuré l’application, créez le profil de publication **ServiceNow**.
    - Pour créer un profil de publication, sélectionnez la base de connaissances ServiceNow dans le menu déroulant **Type de serveur**. Saisissez un profil **Nom**. Dans l’URL **ServiceNow**, saisissez le site client que vous utiliseriez pour publier la sortie, puis ajoutez les **Nom d’utilisateur** et **Mot de passe** fournis par le site client ServiceNow. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
 
-     ![Profil de publication ServiceNow &#x200B;](./images/service-now-publish-profile.png){width="550" align="left"}
+     ![Profil de publication ServiceNow ](./images/service-now-publish-profile.png){width="550"}
 
-  Après la validation, vous pouvez sélectionner le profil de publication dans les paramètres prédéfinis de sortie d&#39;un plan DITA et l&#39;utiliser pour générer la sortie vers le serveur **Salesforce** ou **ServiceNow** que vous avez choisi.
+  Après la validation, vous pouvez sélectionner le profil de publication dans les paramètres prédéfinis de sortie d&#39;un plan DITA et l&#39;utiliser pour générer la sortie vers le serveur **** ou **ServiceNow** que vous avez choisi.
 
   En savoir plus sur le paramètre prédéfini de sortie [Base de connaissances](../user-guide/generate-output-knowledge-base.md).
 
@@ -211,7 +211,7 @@ Dans la capture d’écran suivante, seuls 3 des 4 éléments configurés de la 
      >[!NOTE]
      >Le ou les fichiers de schéma sélectionnés seront conservés pour le profil de dossier sélectionné.
 
-     ![Validation dans les paramètres de l’éditeur](./images/editor-setting-validation.png){width="550" align="left"}
+     ![Validation dans les paramètres de l’éditeur](./images/editor-setting-validation.png){width="550"}
 Cela empêche les utilisateurs d’enregistrer tout fichier qui enfreint une règle définie dans le ou les fichiers de schéma sélectionnés. Si cette option n’est pas sélectionnée, le fichier ne sera pas validé avant d’enregistrer les modifications.
 
    - **Autoriser tous les utilisateurs à ajouter des fichiers Schematron dans le panneau de validation** : sélectionnez cette option pour autoriser les utilisateurs à ajouter n’importe quel fichier Schematron dans le panneau Validation de l’éditeur web. Cela permet aux utilisateurs d’ajouter des fichiers Schematron, puis de valider les rubriques par rapport au fichier Schematron. Si cette option n’est pas sélectionnée, le bouton **Ajouter un fichier de schéma** n’est pas disponible pour les utilisateurs dans le panneau **Validation** de l’éditeur web.
@@ -221,10 +221,10 @@ Cela empêche les utilisateurs d’enregistrer tout fichier qui enfreint une rè
 
   Les attributs définis pour un élément sont affichés en mode Mise en page et Plan.
 
-  ![](images/editor-settings-display-attributes.png){width="550" align="left"}
+  ![](images/editor-settings-display-attributes.png){width="550"}
 
 - **Traduction** : cet onglet contient les options permettant de créer des groupes de langues, de propager les libellés source vers la version cible et de nettoyer le projet de traduction.
-  ![](images/editor-setting-translation.png){width="550" align="left"}
+  ![](images/editor-setting-translation.png){width="550"}
 
    - **Groupes de langues** : en tant qu’administrateur, vous pouvez créer un groupe de langues et les utiliser comme un ensemble pour traduire le contenu.\
      Pour créer un groupe de langues, procédez comme suit :
@@ -262,7 +262,7 @@ Cela empêche les utilisateurs d’enregistrer tout fichier qui enfreint une rè
 
 
 
-  ![onglet métadonnées dans les paramètres de l’éditeur](images/editor-setting-metadata.png){width="550" align="left"}
+  ![onglet métadonnées dans les paramètres de l’éditeur](images/editor-setting-metadata.png){width="550"}
 
   *Configurer les métadonnées de la boîte de dialogue **Historique des versions**.*
 
@@ -282,7 +282,7 @@ Les préférences utilisateur sont disponibles pour tous les auteurs. À l’aid
 
 - **Général** : l&#39;onglet Général permet de paramétrer les éléments suivants :
 
-  ![Onglet Général des préférences utilisateur](images/user_preference_editor.PNG){width="550" align="left"}
+  ![Onglet Général des préférences utilisateur](images/user_preference_editor.PNG){width="550"}
 
    - **Profils de dossier** : le profil de dossier contrôle diverses configurations liées aux attributs conditionnels, aux modèles de création, aux paramètres prédéfinis de sortie et aux configurations de l’éditeur web. Le profil global s’affiche par défaut. En outre, si votre administrateur a configuré des profils de dossier dans le système, ces profils de dossier s’affichent également dans la liste Profils de dossier .
 
@@ -292,35 +292,35 @@ Les préférences utilisateur sont disponibles pour tous les auteurs. À l’aid
      >
      > Le nom du profil de dossier actuel est affiché comme libellé pour l’icône Préférences utilisateur dans la barre d’outils principale.
 
-   - **Chemin de base** : par défaut, lorsque vous accédez au référentiel AEM à partir de l’éditeur web, des ressources s’affichent à partir de l’emplacement /content/dam. Votre dossier de travail serait probablement constitué de quelques dossiers à l’intérieur du dossier /content/dam/. Il vous faudrait quelques clics pour atteindre le dossier de travail à chaque fois. Vous pouvez définir le Chemin d’accès de base sur votre dossier de travail, puis la Vue du référentiel vous montre le contenu de cet emplacement au premier plan. This reduces the time to access your working folder. Also, when you insert any reference or media file in your topic, the file browse location starts with the folder set in the Base Path.
+   - **Chemin de base** : par défaut, lorsque vous accédez au référentiel AEM à partir de l’éditeur web, des ressources s’affichent à partir de l’emplacement /content/dam. Votre dossier de travail serait probablement constitué de quelques dossiers à l’intérieur du dossier /content/dam/. Il vous faudrait quelques clics pour atteindre le dossier de travail à chaque fois. Vous pouvez définir le Chemin d’accès de base sur votre dossier de travail, puis la Vue du référentiel vous montre le contenu de cet emplacement au premier plan. Cela réduit le temps d’accès à votre dossier de travail. En outre, lorsque vous insérez un fichier de référence ou de média dans votre rubrique, l’emplacement de recherche de fichier commence par le dossier défini dans le chemin d’accès de base.
 
-   - **Select Root Map**: Select a DITA map file to resolve key references or glossary entries. The selected root map takes the highest precedence to resolve key references. For more details, see [Resolve key references](map-editor-other-features.md#id176GD01H05Z).
+   - **Sélectionner la carte racine** : sélectionnez un fichier de carte DITA pour résoudre les références clés ou les entrées du glossaire. La carte racine sélectionnée a la priorité la plus élevée pour résoudre les références clés. Pour plus d’informations, voir [Résoudre les références clés](map-editor-other-features.md#id176GD01H05Z).
 
      >[!NOTE]
      >    
-     > If you do not want to use any root map, then ensure that the **Select Root Map** field is blank.
+     > Si vous ne souhaitez utiliser aucune carte racine, assurez-vous que le champ **Sélectionner la carte racine** est vide.
 
-- **Appearance**: Select the themes for the Web Editor application and the source view of the content editing area.
+- **Apparence** : sélectionnez les thèmes de l&#39;application Web Editor et la vue source de la zone d&#39;édition du contenu.
 
-  ![appearance tab of user preferences](images/user_preference_editor_appearance.png){width="550" align="left"}
+  ![onglet apparence des préférences utilisateur](images/user_preference_editor_appearance.png){width="550"}
 
-   - **View files by**: Select the default way to view the files in the Web Editor. You can view the list of files by the titles or the filenames from the various panels in the **Author** view.
+   - **Afficher les fichiers par** : sélectionnez la méthode d’affichage par défaut des fichiers dans l’éditeur web. Vous pouvez afficher la liste des fichiers en fonction des titres ou des noms de fichier à partir des différents panneaux dans la vue **Auteur**.
 
      >[!NOTE]
      >
-     > By default, the files are displayed by title in the Web Editor.
+     > Par défaut, les fichiers sont affichés par titre dans l’éditeur web.
 
-   - **Application theme**: You can choose from the **Light** or **Dark** themes for the application. In the case of the **Light** theme, the toolbars and panels use a light gray color background. In the case of the **Dark** theme, the toolbars and panels use a black color background. Select **Use device theme** to allow Experience Manager Guides to select the light and dark themes based on the theme of your device.  In all themes, the content editing area is shown in white color background in the **Author** view.
+   - **Thème de l’application** : vous pouvez choisir parmi les thèmes **Clair** ou **Sombre** de l’application. Dans le cas du thème **Clair**, les barres d’outils et les panneaux utilisent un arrière-plan gris clair. Dans le cas du thème **Sombre**, les barres d’outils et les panneaux utilisent un arrière-plan noir. Sélectionnez **Utiliser le thème de l’appareil** pour permettre à Experience Manager Guides de sélectionner les thèmes clairs et sombres en fonction du thème de votre appareil.  Dans tous les thèmes, la zone de modification du contenu s’affiche en arrière-plan blanc dans la vue **Auteur**.
 
-   - **Source view theme**:  -  You can choose from the **Light** or **Dark** themes for the content editing area in source view. In the case of the **Light** theme, the content editing area uses a light gray color background for the source view while in the case of **Dark** theme, it uses a black color background. Select **Use device theme** to allow Experience Manager Guides to select the light and dark themes based on the theme of your device.
+   - **Thème d’affichage Source** : - Vous pouvez choisir parmi les thèmes **Clair** ou **Sombre** pour la zone d’édition du contenu dans l’affichage source. Dans le cas du thème **Clair**, la zone de modification du contenu utilise un arrière-plan gris clair pour la vue source, tandis que dans le cas du thème **Sombre**, il utilise un arrière-plan noir. Sélectionnez **Utiliser le thème de l’appareil** pour permettre à Experience Manager Guides de sélectionner les thèmes clairs et sombres en fonction du thème de votre appareil.
 
-   - **Always locate files in the repository**: Select this option to show the location of a file in the repository while editing it in the Web Editor.
+   - **Toujours localiser les fichiers dans le référentiel** : sélectionnez cette option pour afficher l’emplacement d’un fichier dans le référentiel lors de sa modification dans l’éditeur web.
 
-   - **Show non-breaking space indicator in the author mode**: Select this option to show an indicator for the non-breaking spaces while editing it in the Web Editor. It&#39;s enabled by default.
+   - **Afficher l’indicateur d’espace insécable en mode création** : sélectionnez cette option pour afficher un indicateur pour les espaces insécables lors de leur modification dans l’éditeur web. Il est activé par défaut.
 
-**Author, Source, and Preview modes**
+**Modes Auteur, Source et Aperçu**
 
-For details about the various authoring and document viewing modes, see [Web Editor views](web-editor-views.md#).
+Pour plus d’informations sur les différents modes d’affichage de documents et de création, voir [vues de l’éditeur web](web-editor-views.md#).
 
 ## Barre d’outils Secondaire {#id2051EA0J0Y4}
 
@@ -343,67 +343,67 @@ Par exemple, si vous vous trouvez dans l’élément de `<b>` intégré, vous po
 Vous pouvez également saisir un caractère ou une chaîne dans la zone de recherche et rechercher les éléments qui commencent par lui.
 
 
-![insérer un élément](images/insert-element.png){width="300" align="left"}
+![insérer un élément](images/insert-element.png){width="300"}
 
 *Saisissez &#39;t&#39; pour rechercher tous les éléments valides commençant par &#39;t&#39;.*
 
 Si vous travaillez dans un élément de bloc tel qu&#39;un `note`, utilisez l&#39;icône Insérer un élément pour insérer un nouvel élément après l&#39;élément de `note`. Dans la capture d’écran suivante, un élément note a été inséré dans l’élément p \(paragraph\) :
 
-![Insérer un élément dans un élément de bloc](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+![Insérer un élément dans un élément de bloc](images/note-in-para-insert-element_cs.png){width="800"}
 
 Si vous appuyez sur Entrée dans l’élément de note, un nouveau paragraphe est créé dans l’élément de note lui-même. Pour insérer un nouvel élément en dehors de la note, cliquez sur l’élément p \(mis en surbrillance dans la capture d’écran\) dans le chemin de navigation des éléments et cliquez sur l’icône Insérer un élément ou appuyez sur ***Alt***+***Entrée*** pour ouvrir le pop-up Insérer un élément . Sélectionnez ensuite l’élément souhaité et appuyez sur Entrée pour insérer l’élément sélectionné après l’élément de note.
 
 Vous pouvez également ajouter un élément entre deux éléments lorsqu’un curseur en forme de bloc clignotant s’affiche.
 
-![](images/Block-cursor.png){width="300" align="left"}
+![](images/Block-cursor.png){width="300"}
 
 Par exemple, si vous travaillez sur une rubrique DITA et que le curseur de bloc clignote entre la description courte et le corps, vous pouvez ajouter `prolog` élément , puis ajouter les détails copyright, auteur et autres.
 
-Le menu contextuel vous permet également de saisir un nouvel élément. Right-click at any place in your document to invoke the context menu. From this menu choose **Insert Element** to display the **Insert Element** dialog box and choose the element that you want to insert.
+Le menu contextuel vous permet également de saisir un nouvel élément. Effectuez un clic droit à n’importe quel emplacement de votre document pour appeler le menu contextuel. Dans ce menu, choisissez **Insérer un élément** pour afficher la boîte de dialogue **Insérer un élément** et choisissez l&#39;élément à insérer.
 
-![](images/insert-element-before-after.png){width="300" align="left"}
+![](images/insert-element-before-after.png){width="300"}
 
-**Insert Paragraph** - ![](images/Paragraph_icon.svg)
+**Insérer un paragraphe** - ![](images/Paragraph_icon.svg)
 
-Insert paragraph element at the current or next valid location.
+Insérer l’élément de paragraphe à l’emplacement valide actuel ou suivant.
 
-**Insert/Remove Numbered List** - ![](images/TextNumbered_icon.svg)
+**Insérer/Supprimer une liste numérotée** - ![](images/TextNumbered_icon.svg)
 
-Creates a numbered list at the current or next valid location. If you are on a numbered list and click this icon, the item is converted into a normal paragraph.
+Crée une liste numérotée à l’emplacement valide actuel ou suivant. Si vous êtes sur une liste numérotée et que vous cliquez sur cette icône, l’élément est converti en paragraphe normal.
 
-**Insert/Remove Bulleted List** - ![](images/BulletList_icon.svg)
+**Insérer/Supprimer Une Liste À Puces** - ![](images/BulletList_icon.svg)
 
-Creates a bulleted list at the current or next valid location. If you are on a bulleted list and click this icon, the item is converted into a normal paragraph.
+Crée une liste à puces à l’emplacement valide actuel ou suivant. Si vous vous trouvez dans une liste à puces et que vous cliquez sur cette icône, l’élément est converti en paragraphe normal.
 
 >[!NOTE]
 >
->You can also select the **Split List** option from the context menu of a list item to split the current list and begin a new list at the same level.
+>Vous pouvez également sélectionner l’option **Fractionner la liste** dans le menu contextuel d’un élément de liste pour fractionner la liste actuelle et commencer une nouvelle liste au même niveau.
 
-**Insert Table** - ![](images/Table_icon.svg)
+**Insérer un tableau** - ![](images/Table_icon.svg)
 
-Inserts a table at the current or next valid location. Click the Insert Table icon to open the insert Table dialog:
+Insère un tableau à l’emplacement valide actuel ou suivant. Cliquez sur l&#39;icône Insérer un tableau pour ouvrir la boîte de dialogue Insérer un tableau :
 
-![](images/table-properties.png){width="550" align="left"}
+![](images/table-properties.png){width="550"}
 
-You can specify the number of rows and columns required in the table. If you want to keep the first row as table header, select the Set First Row As Header option. To add a title to your table, enter it in the Title field.
+Vous pouvez indiquer le nombre de lignes et de colonnes requis dans le tableau. Si vous souhaitez conserver la première ligne comme en-tête de tableau, sélectionnez l’option Définir la première ligne comme en-tête. Pour ajouter un titre à votre tableau, saisissez-le dans le champ Titre .
 
-Once a table is inserted, you can modify table using the context menu.
+Une fois un tableau inséré, vous pouvez le modifier à l’aide du menu contextuel.
 
-![](images/table-context-menu_cs.png){width="550" align="left"}
+![](images/table-context-menu_cs.png){width="550"}
 
-Using the table&#39;s context menu, you can:
+À l’aide du menu contextuel du tableau, vous pouvez :
 
-- Insert cells, rows, or columns
+- Insérer des cellules, des lignes ou des colonnes
 
-- Merge cells in right and down directions
+- Fusionner les cellules dans les directions droite et vers le bas
 
-- Split cells horizontally or vertically
+- Fractionner les cellules horizontalement ou verticalement
 
-- Delete cells, rows, or columns
+- Supprimer des cellules, des lignes ou des colonnes
 
-- Create a snippet from the table
+- Créer un fragment de code à partir du tableau
 
-- Generate IDs
+- Générer des identifiants
 
 
 Vous pouvez également définir des attributs sur plusieurs cellules, une ligne entière ou une colonne d’un tableau. Par exemple, pour aligner une cellule de tableau, faites glisser et sélectionnez la cellule souhaitée. Dans le panneau Propriétés du contenu (à droite), la propriété **Type** devient **Entrée multiple**.
@@ -413,7 +413,7 @@ Vous pouvez également définir des attributs sur plusieurs cellules, une ligne 
 1. Dans la liste déroulante Valeur , sélectionnez l’alignement du texte à appliquer aux cellules de tableau sélectionnées.
 1. Cliquez sur **Ajouter.**
 
-![](images/align-table-cell_cs.png){width="800" align="left"}
+![](images/align-table-cell_cs.png){width="800"}
 
 **Insérer une image** - ![](images/Image_icon.svg)
 
@@ -424,7 +424,7 @@ Insère une image à l’emplacement valide actuel ou suivant. Cliquez sur l&#39
 > Vous pouvez également ajouter une image en la faisant glisser de votre système local vers votre article. Dans ce cas, le fichier image est ajouté à l’aide du workflow **Télécharger Assets**.  Pour plus d’informations, reportez-vous au workflow **Charger Assets** dans la section [Panneau de gauche](web-editor-features.md#id2051EA0M0HS).
 
 
-![](images/insert-image.png){width="650" align="left"}
+![](images/insert-image.png){width="650"}
 
 Vous pouvez ajouter un titre d’image/d’image et un texte secondaire pour l’image dans la boîte de dialogue Insérer une image .
 
@@ -432,7 +432,7 @@ Vous pouvez rechercher le fichier image requis en saisissant le nom de fichier d
 
 Une fois que vous avez inséré une image, vous pouvez modifier sa hauteur, sa largeur, son emplacement et ses attributs à partir du panneau Propriétés du contenu . Cliquez sur un fichier image, puis apportez des modifications dans le panneau Propriétés du contenu du rail de droite.
 
-![](images/image-properties.png){width="800" align="left"}
+![](images/image-properties.png){width="800"}
 
 Le champ Source affiche l’UUID du fichier image inséré. Vous pouvez obtenir le chemin d’accès complet au fichier image inséré en plaçant le pointeur de la souris sur le champ Source. Le chemin d’accès s’affiche dans l’info-bulle.
 
@@ -471,7 +471,7 @@ Lorsque vous sélectionnez l’option Fichier audio ou vidéo , la vue du réfé
 
 Vous pouvez également ajouter le fichier audio ou vidéo à partir de la boîte de dialogue Insérer un fichier multimédia. Sélectionnez l’option Fichier audio/vidéo et cliquez sur l’icône de navigation pour lancer la vue du référentiel. Sélectionnez le fichier audio ou vidéo dans le référentiel, puis cliquez sur Sélectionner pour ajouter le lien du fichier dans le champ Fichier audio/vidéo . Si vous choisissez un fichier vidéo, un aperçu du fichier s’affiche également dans la zone Aperçu . Vous pouvez lire le fichier vidéo pour afficher son aperçu.
 
-![](images/insert-multimedia.png){width="650" align="left"}
+![](images/insert-multimedia.png){width="650"}
 
 **Insérer une référence croisée** - ![](images/Reference_icon.svg)
 
@@ -479,7 +479,7 @@ Insérer des références de type Référence de contenu, Référence de clé de
 
 Cliquez sur l’icône **Sélectionner un fichier** \(pour la référence de contenu et la référence de fichier\) ou **Sélectionner Mapper** icône \(pour la référence de clé de contenu et la référence de clé\) et sélectionnez le fichier ou le contenu à lier.
 
-![](images/insert-references.png){width="650" align="left"}
+![](images/insert-references.png){width="650"}
 
 Un lien de la référence sélectionnée est ajouté dans le document. Le menu contextuel du lien vous donne les options suivantes :
 
@@ -491,11 +491,11 @@ Un lien de la référence sélectionnée est ajouté dans le document. Le menu c
 
 Vous pouvez également effectuer une recherche à l’aide de l’UUID du fichier que vous souhaitez référencer. Pour les liens Contenu et Référence de clé, saisissez l’UUID du fichier vers lequel vous souhaitez créer un lien afin que le fichier soit automatiquement recherché et affiché dans la section Aperçu . Lorsque vous spécifiez l’UUID du fichier, vous n’avez pas besoin de mentionner explicitement l’extension de fichier pour les fichiers .xml. L’extension .xml est ajoutée automatiquement à l’UUID.
 
-![](images/insert-content-using-uuid-search.png){width="650" align="left"}
+![](images/insert-content-using-uuid-search.png){width="650"}
 
 Si votre administrateur a activé l’option UUIDs dans *XMLEditorConfig*, l’UUID du contenu référencé s’affiche dans la propriété **Link**.
 
-![](images/ref-link-uuid_cs.png){width="800" align="left"}
+![](images/ref-link-uuid_cs.png){width="800"}
 
 >[!NOTE]
 >
@@ -515,7 +515,7 @@ Vous pouvez rechercher du texte dans les fichiers présents sur le chemin d’ac
 
 Vous pouvez rechercher des fichiers non-DITA tels que des fichiers image, des fichiers multimédias et des documents dans le chemin d&#39;accès sélectionné. Vous pouvez également rechercher des valeurs spécifiques dans les attributs des éléments DITA. Vous pouvez également rechercher les fichiers qui sont extraits par l’utilisateur spécifié.
 
-![](images/reference-search-filters.png){width="650" align="left"}
+![](images/reference-search-filters.png){width="650"}
 
 >[!NOTE]
 >
@@ -527,7 +527,7 @@ La liste des fichiers filtrés contenant le texte recherché s’affiche. Par ex
 
 Réutilisez le contenu existant dans tout autre document du projet. Vous pouvez insérer du contenu en établissant un lien direct vers le contenu d’un fichier ou en utilisant une référence de clé, voir [Résoudre les références de clé](map-editor-other-features.md#id176GD01H05Z). Lorsque vous cliquez sur l’icône Insérer du contenu réutilisable , la boîte de dialogue Réutiliser le contenu s’affiche :
 
-![](images/reuse-content-dialog.png){width="650" align="left"}
+![](images/reuse-content-dialog.png){width="650"}
 
 Dans la boîte de dialogue Réutiliser le contenu, sélectionnez le fichier DITA pour les références de fichier ou le fichier DITA map qui contient les références clés. Une fois la rubrique ou les références clés sélectionnées, elles s’affichent dans la boîte de dialogue. Vous pouvez sélectionner l’ID/la clé de la rubrique à insérer et cliquer sur Terminé pour insérer le contenu dans la rubrique.
 
@@ -549,7 +549,7 @@ Insère des caractères spéciaux dans votre rubrique. Cliquez sur l&#39;icône 
 >
 > AEM Guides fournit des boîtes de dialogue mobiles et redimensionnables. Les boîtes de dialogue comportant deux lignes croisées dans le coin inférieur droit peuvent être redimensionnées. Les lignes croisées de la boîte de dialogue Caractère spécial sont affichées ci-dessous.
 
-![](images/insert-special-char.png){width="550" align="left"}
+![](images/insert-special-char.png){width="550"}
 
 Dans la boîte de dialogue Insérer un caractère spécial, vous pouvez rechercher un caractère spécial en utilisant son nom. Tous les caractères spéciaux sont stockés dans différentes catégories. Utilisez la liste déroulante Sélectionner une catégorie et sélectionnez une catégorie. Les caractères spéciaux disponibles dans la catégorie sélectionnée s’affichent. Vous pouvez parcourir la liste des caractères spéciaux à l’aide des touches fléchées ou cliquer sur le caractère que vous souhaitez insérer. Le nom et le code hexadécimal du caractère spécial sélectionné s’affichent sous la liste. Cliquez sur Insérer pour insérer le caractère sélectionné dans votre document.
 
@@ -557,13 +557,13 @@ Dans la boîte de dialogue Insérer un caractère spécial, vous pouvez recherch
 
 Insérer un mot-clé défini dans votre plan DITA. Cliquez sur l’icône Insérer un mot-clé pour ouvrir la boîte de dialogue Référence de clé.
 
-![](images/insert-keyword.png){width="550" align="left"}
+![](images/insert-keyword.png){width="550"}
 
 Les mots-clés sont répertoriés dans l’ordre alphabétique et vous pouvez également rechercher le(s) mot(s)-clé(s) en saisissant une chaîne de recherche dans la zone Rechercher . Le résultat de la recherche renvoie les mots-clés contenant la chaîne dans l’ID ou la Valeur. Les mots-clés définis dans votre plan DITA sont répertoriés dans cette boîte de dialogue. Sélectionnez le mot-clé à insérer, puis cliquez sur **Insérer**.
 
 Vous pouvez également modifier les attributs du mot-clé inséré en cliquant avec le bouton droit sur le mot-clé et en sélectionnant l’option Attributs . La boîte de dialogue Attributs pour le mot-clé s’ouvre :
 
-![](images/attributes-for-keyword.png){width="550" align="left"}
+![](images/attributes-for-keyword.png){width="550"}
 
 Vous pouvez modifier les attributs du mot-clé ou ajouter un nouvel attribut au mot-clé.
 
@@ -575,11 +575,11 @@ Lorsque vous cliquez sur l’icône Insérer un fragment de code, le catalogue I
 
 L’exemple suivant illustre deux fragments de code préconfigurés, Avertissement et Erreur, qui peuvent être insérés à l’emplacement actuel du document.
 
-![](images/insert-snippet.png){width="300" align="left"}
+![](images/insert-snippet.png){width="300"}
 
 Lorsque vous choisissez un fragment de code dans la liste, il est inséré à l’emplacement valide actuel ou suivant dans le document. La capture d’écran suivante présente le fragment de code d’erreur inséré dans le document :
 
-![](images/error-snippet.png){width="400" align="left"}
+![](images/error-snippet.png){width="400"}
 
 **Insérer/Modifier une zone cliquable** - ![](images/imagemap-rectangle.svg)
 
@@ -587,11 +587,11 @@ Insère une zone cliquable sur l’image sélectionnée. Une image avec des zone
 
 Sélectionnez une image dans la rubrique active et cliquez sur l’icône Insérer/Modifier la zone cliquable pour ouvrir la boîte de dialogue Insérer une zone cliquable.
 
-![](images/insert-image-map.png){width="650" align="left"}
+![](images/insert-image-map.png){width="650"}
 
 Choisissez la forme préférée ![](images/imagemap-rectangle-toolbar.png) de rectangle, Cercle ![](images/imagemap-circle-toolbar.png) ou Polygone ![](images/imagemap-polygon-toolbr.png) pour définir une zone sur une image que vous voulez utiliser comme lien. Une fois la zone définie, la boîte de dialogue Référence s’affiche. Vous devez alors spécifier le lien vers le contenu interne ou externe :
 
-![](images/reference-dialog.png){width="650" align="left"}
+![](images/reference-dialog.png){width="650"}
 
 Si des zones se chevauchent, vous pouvez avancer ou reculer la forme en cliquant sur l&#39;icône correspondante dans la barre d&#39;outils. Vous pouvez également supprimer une zone en la sélectionnant et en cliquant sur l’icône Supprimer . Double-cliquez sur une zone pour ouvrir la boîte de dialogue Référence dans laquelle vous pouvez modifier le lien de destination. Une fois que vous avez marqué les zones requises sur votre image, enregistrez les modifications en cliquant sur Terminé.
 
@@ -616,7 +616,7 @@ Les balises sont des repères visuels indiquant les limites d’un élément. Un
 
 La capture d’écran suivante présente un document en mode Balises sur :
 
-![](images/tags-view.png){width="650" align="left"}
+![](images/tags-view.png){width="650"}
 
 Les opérations suivantes peuvent être effectuées dans un document en mode Balises sur :
 
@@ -639,7 +639,7 @@ Vous pouvez conserver une trace de toutes les mises à jour apportées à un doc
 
 La capture d’écran suivante met en surbrillance le contenu supprimé et inséré ainsi que les barres de modification :
 
-![](images/track-changes-content.png){width="650" align="left"}
+![](images/track-changes-content.png){width="650"}
 
 Un cas d’utilisation type pour le suivi des modifications dans un document peut être la réalisation d’une révision par les pairs. Vous pouvez activer le suivi des modifications et partager votre document pour révision, le réviseur ou la réviseuse apporte ensuite des modifications avec le suivi des modifications ACTIVÉ. Lorsque vous recevez le document, vous devez disposer d’un mécanisme pour afficher les mises à jour suggérées, ainsi que d’un moyen pratique d’accepter ou de rejeter les modifications.
 
@@ -647,7 +647,7 @@ AEM Guides propose la fonction Modifications suivies qui contient des informatio
 
 Pour accéder à la fonction, cliquez sur l’icône Modifications suivies dans le panneau de droite.
 
-![](images/changes-panel_cs.png){width="300" align="left"}
+![](images/changes-panel_cs.png){width="300"}
 
 Cliquez sur une modification pour sélectionner le contenu modifié dans le document. Vous pouvez accepter une modification en sélectionnant l&#39;icône Accepter la modification ou la rejeter en sélectionnant Rejeter la modification.
 
@@ -671,7 +671,7 @@ Pour fusionner les modifications dans une rubrique, procédez comme suit :
 
    La boîte de dialogue Fusionner s’affiche.
 
-   ![](images/merge-changes-in-topic.png){width="550" align="left"}
+   ![](images/merge-changes-in-topic.png){width="550"}
 
 1. *\(Facultatif\)* Vous pouvez également rechercher et sélectionner un nouveau fichier à partir d’un autre emplacement de votre référentiel.
 
@@ -700,7 +700,7 @@ Pour fusionner les modifications dans un fichier de mappage, procédez comme sui
 
    La boîte de dialogue Fusionner s’affiche.
 
-   ![](images/merge-changes-in-map.png){width="550" align="left"}
+   ![](images/merge-changes-in-map.png){width="550"}
 
 1. *\(Facultatif\)* Vous pouvez également rechercher et sélectionner un nouveau fichier à partir d’un autre emplacement de votre référentiel.
 
@@ -734,7 +734,7 @@ Pour accéder à l’historique des versions et revenir à une version spécifiq
 
    La boîte de dialogue **Historique des versions** s’affiche.
 
-   ![Boîte de dialogue Historique des versions](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   ![Boîte de dialogue Historique des versions](images/version-history-dialog-web-editor.png){width="550"}
    *Prévisualiser les modifications dans les différentes versions d&#39;une rubrique.*
 
 1. Sélectionnez la version de la rubrique que vous souhaitez comparer ou revenir à dans la liste déroulante **Comparer avec**.
@@ -752,7 +752,7 @@ Pour accéder à l’historique des versions et revenir à une version spécifiq
    Onglet **Aperçu** : le contenu nouvellement ajouté est dans la police verte et le contenu supprimé est dans la police rouge.
 
    Onglet **Métadonnées** : les métadonnées nouvellement ajoutées sont dans la police verte et les métadonnées supprimées sont dans la police rouge.
-   ![Différence de métadonnées entre les versions &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
+   ![Différence de métadonnées entre les versions ](images/metadata-version-diff.png){width="550"}
    *Comparez les métadonnées de différentes versions dans l’historique des versions.*
 
    >[!NOTE]
@@ -770,7 +770,7 @@ Pour accéder à l’historique des versions et revenir à une version spécifiq
 
    La boîte de dialogue Rétablir la version s’affiche.
 
-   ![](images/version-history-revert-dialog-save-working-copy.png){width="550" align="left"}
+   ![](images/version-history-revert-dialog-save-working-copy.png){width="550"}
 
 1. \(*Facultatif*\) Indiquez un motif pour revenir à une version antérieure. Vous pouvez également créer une nouvelle version de la copie de travail active de votre rubrique.
 
@@ -781,7 +781,7 @@ Pour accéder à l’historique des versions et revenir à une version spécifiq
 
 Lorsque vous revenez à une version antérieure, un indice visuel s’affiche indiquant que la version sur laquelle vous travaillez actuellement n’est pas la dernière version.
 
-![](images/older-version-visual-cue.png){width="800" align="left"}
+![](images/older-version-visual-cue.png){width="800"}
 
 **Gestion des libellés de version** - ![](images/version-label-icon.svg)
 
@@ -801,7 +801,7 @@ Pour ajouter des libellés à votre rubrique à partir de l&#39;éditeur Web, pr
 
    La boîte de dialogue Gestion des libellés de version s’affiche.
 
-   ![](images/version-label-management-dialog.png){width="650" align="left"}
+   ![](images/version-label-management-dialog.png){width="650"}
 
    La boîte de dialogue Gestion des libellés de version est divisée en deux parties : le panneau de gauche comporte une liste des versions disponibles pour la rubrique, une liste déroulante de libellés \(ou une zone de texte pour saisir un libellé\) et le panneau de droite avec un aperçu de la rubrique.
 
@@ -858,7 +858,7 @@ Par défaut, vous pouvez afficher les fichiers par titres. Pointez sur un fichie
 
 Pour créer une liste ou une collection de favoris, cliquez sur l’icône + en regard du panneau Favoris pour afficher la boîte de dialogue Nouvelle collection :
 
-![](images/favorite-new-collection.PNG){width="300" align="left"}
+![](images/favorite-new-collection.PNG){width="300"}
 
 Saisissez un titre et une description pour la collection préférée que vous souhaitez créer. Si vous sélectionnez **Public**, ce favori est également affiché aux autres utilisateurs.
 
@@ -866,11 +866,11 @@ Pour ajouter un fichier à votre collection préférée, utilisez l’une des m�
 
 - Accédez au fichier ou dossier requis dans la vue du référentiel, cliquez sur l’icône *Options* pour ouvrir le menu contextuel, puis choisissez **Ajouter aux favoris**. Dans la boîte de dialogue Ajouter aux favoris , vous pouvez choisir d’ajouter le fichier/dossier à un favori existant ou d’en créer un nouveau.
 
-  ![](images/favorite-add-file-folder.png){width="300" align="left"}
+  ![](images/favorite-add-file-folder.png){width="300"}
 
 - Cliquez avec le bouton droit de la souris sur l’onglet d’un fichier dans l’éditeur pour ouvrir le menu contextuel. Choisissez **Ajouter à** > **Favoris** pour ajouter le fichier à votre liste de favoris.
 
-  ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
+  ![](images/favorite-add-from-file-context-menu_cs.png){width="400"}
 
 >[!NOTE]
 >
@@ -882,7 +882,7 @@ Pour ajouter un fichier à votre collection préférée, utilisez l’une des m�
 **Menu Options de la collection Favoris**\
 Vous pouvez également effectuer de nombreuses actions à l’aide du menu Options disponible pour une collection Favoris :
 
-![](images/favorites-options.png){width="400" align="left"}
+![](images/favorites-options.png){width="400"}
 
 - **Renommer** : renommez la collection sélectionnée.
 - **Supprimer** : permet de supprimer la collection sélectionnée.
@@ -920,7 +920,7 @@ Sélectionnez une carte et appuyez sur Entrée ou double-cliquez pour l’ouvrir
 L’éditeur web fournit des filtres améliorés pour la recherche de texte. Vous pouvez rechercher et filtrer du texte dans les fichiers présents sur le chemin d’accès sélectionné du référentiel Adobe Experience Manager. Elle effectue une recherche dans le titre, le nom de fichier et le contenu des fichiers.
 
 
-![Recherche de fichiers dans la vue du référentiel](images/repository-filter-search.png){width="300" align="left"}
+![Recherche de fichiers dans la vue du référentiel](images/repository-filter-search.png){width="300"}
 
 *Appliquez des filtres pour rechercher les fichiers contenant le`general purpose.`* de texte
 
@@ -936,7 +936,7 @@ Vous disposez des options suivantes pour filtrer les fichiers et affiner votre r
 - **Fichiers DITA** : vous pouvez rechercher toutes les **rubriques DITA** et **cartes DITA** présentes sur le chemin d&#39;accès sélectionné. Ils sont sélectionnés par défaut.
 - **Fichiers non-DITA** : vous pouvez rechercher **Fichiers Ditaval**, **Fichiers image**, **Multimédia**, **Documents** et **Json** dans le chemin d’accès sélectionné.
 
-![Filtre de recherche rapide](images/repository-filter-search-quick.png) {width="300" align="left"}
+![Filtre de recherche rapide](images/repository-filter-search-quick.png) {width="300"}
 
 *Utilisez les filtres rapides pour rechercher des fichiers DITA et non DITA.*
 
@@ -946,7 +946,7 @@ Sélectionnez l’icône **Filtrage avancé** ![icône de filtre avancé](images
 
 Vous pouvez afficher les options suivantes sous les onglets **Général** et **Avancé**.
 
-![&#x200B; boîte de dialogue filtre avancé &#x200B;](images/repository-filter-search-advanced.png) {width="800" align="left"}
+![ boîte de dialogue filtre avancé ](images/repository-filter-search-advanced.png) {width="800"}
 
 
 **Général**
@@ -991,7 +991,7 @@ Outre l’ouverture de fichiers à partir du panneau de gauche, vous pouvez éga
 
 Vous pouvez effectuer les actions suivantes à l’aide du menu Options disponible pour un *dossier* dans la vue du référentiel :
 
-![](images/options-menu-folder_cs.PNG){width="550" align="left"}
+![](images/options-menu-folder_cs.PNG){width="550"}
 
 
 - **Créer** : créez une rubrique DITA, un plan DITA ou un dossier. Pour plus d’informations, reportez-vous à la procédure **Créer des rubriques à partir de la vue du référentiel** dans la section [Panneau de gauche](web-editor-features.md#id2051EA0M0HS).
@@ -1000,21 +1000,21 @@ Vous pouvez effectuer les actions suivantes à l’aide du menu Options disponib
 
 - **Télécharger Assets** : chargez un fichier depuis votre système local vers le dossier sélectionné dans le référentiel Adobe Experience Manager. Vous pouvez également glisser-déposer des fichiers de votre système local sur votre rubrique de travail actuelle. Ceci est très utile si vous souhaitez insérer des images de votre système local dans votre rubrique.
 
-  ![](images/upload-assets.png){width="550" align="left"}
+  ![](images/upload-assets.png){width="550"}
 
   Vous pouvez sélectionner le dossier dans lequel vous souhaitez charger le fichier. Un aperçu de l’image s’affiche également. Si vous souhaitez renommer le fichier, vous pouvez le faire dans la zone de texte Nom du fichier. Cliquez sur Charger pour terminer le processus de chargement du fichier. Si vous avez fait glisser et déposé un fichier image sur une rubrique, le fichier image est alors ajouté à l’article et il est également téléchargé.
 
   Si votre administrateur a activé l’option UUIDs dans *XMLEditorConfig*, l’UUID de l’image chargée s’affiche dans la propriété **Source**.
 
-  ![](images/uuid-in-source-upload-image_cs.png){width="800" align="left"}
+  ![](images/uuid-in-source-upload-image_cs.png){width="800"}
 
 - **Rechercher des fichiers dans le dossier** : permet de déplacer le focus vers la recherche de référentiel dans laquelle vous pouvez saisir le terme de recherche. La recherche s’effectue sous le dossier sélectionné dans le référentiel. Vous pouvez également appliquer un filtre pour renvoyer les fichiers DITA, les fichiers image ou les deux.
 
-  ![](images/find-files-in-folders-repo-view_cs.png){width="400" align="left"}
+  ![](images/find-files-in-folders-repo-view_cs.png){width="400"}
 
   Vous pouvez également effectuer une recherche à l’aide de l’UUID d’un fichier. Dans ce cas, les résultats de la recherche affichent le titre du fichier DITA/XML et, dans le cas où le fichier est un fichier image, l&#39;UUID du fichier s&#39;affiche. Dans l’exemple de recherche suivant, l’UUID d’un fichier image est recherché et les résultats de la recherche affichent l’UUID du fichier image d’origine et le titre de rubrique du fichier dans lequel cette image est référencée.
 
-  ![](images/uuid-repo-search-image-topic-file_cs.png){width="300" align="left"}
+  ![](images/uuid-repo-search-image-topic-file_cs.png){width="300"}
 
 - **Tout réduire** : réduisez tous les dossiers ouverts dans le référentiel et affichez uniquement les dossiers de niveau racine.
 
@@ -1043,7 +1043,7 @@ Différentes options s&#39;affichent dans le menu Options selon que vous sélect
 - Propriétés
 - Afficher dans l’interface utilisateur d’Assets
 
-![menu options d’un fichier dans la vue du référentiel](images/options-menu-repo-view-file-level.png){width="550" align="left"}
+![menu options d’un fichier dans la vue du référentiel](images/options-menu-repo-view-file-level.png){width="550"}
 
 Les différentes options du menu Options sont expliquées ci-dessous :
 
@@ -1059,7 +1059,7 @@ Les différentes options du menu Options sont expliquées ci-dessous :
 
 - **Aperçu** : obtenez un aperçu rapide du fichier (.dita, .xml, audio, vidéo ou image) sans l’ouvrir. Vous pouvez redimensionner le volet d’aperçu. Si le contenu contient des `<xref>` ou des `<conref>`, vous pouvez les sélectionner pour les ouvrir dans un nouvel onglet. Le titre du fichier s’affiche dans la fenêtre. Si aucun titre n’est présent, le nom du fichier s’affiche. Pour fermer le volet **Aperçu**, vous pouvez sélectionner l’icône de fermeture ou cliquer n’importe où en dehors du volet.
 
-  ![](images/quick-preview_cs.png){width="800" align="left"}
+  ![](images/quick-preview_cs.png){width="800"}
 
 - **Renommer** : utilisez cette option pour renommer le fichier sélectionné. Saisissez le nom du nouveau fichier dans la boîte de dialogue **Renommer la ressource**.
    - Vous pouvez renommer un fichier de n’importe quel type.
@@ -1073,7 +1073,7 @@ Les différentes options du menu Options sont expliquées ci-dessous :
 
   Si vous essayez de déplacer un fichier vers un dossier dans lequel un fichier portant le même nom existe mais avec un titre différent, la boîte de dialogue Renommer et déplacer le fichier s’affiche et vous devez renommer le fichier avant de le déplacer. Le fichier déplacé dans le dossier de destination porte le nouveau nom de fichier.
 
-  ![](images/rename-move-asset.png){width="550" align="left"}
+  ![](images/rename-move-asset.png){width="550"}
 
   >[!NOTE]
   >
@@ -1102,45 +1102,45 @@ Les différentes options du menu Options sont expliquées ci-dessous :
 - **Supprimer** : utilisez cette option pour supprimer le fichier sélectionné. Une invite de confirmation s’affiche avant la suppression du fichier.
 
    - Une invite de confirmation s’affiche avant la suppression du fichier.
-   - If the file is not referenced from any other file, it is deleted, and a success message is displayed.
-   - If the file is checked out, you cannot delete it, and an error message is displayed.
+   - Si le fichier n’est pas référencé à partir d’un autre fichier, il est supprimé et un message de réussite s’affiche.
+   - Si le fichier est extrait, vous ne pouvez pas le supprimer et un message d’erreur s’affiche.
 
      >[!NOTE]
      >
-     > If your administrator has prevented the deletion of checked out files, only then the error message is displayed. For more details, see *Prevent deletion of checked out files* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+     > Si votre administrateur a empêché la suppression des fichiers extraits, le message d’erreur s’affiche. Pour plus d’informations, consultez la section *Empêcher la suppression des fichiers extraits* dans la section Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
 
-   - If the file is added to a favorites collection, the **Force Delete** dialog is displayed, and you can forcefully delete it.
-   - If the file is referenced from any other file then **Force Delete** dialog with the confirmation message is displayed, and you can forcefully delete the file:
+   - Si le fichier est ajouté à une collection de favoris, la boîte de dialogue **Forcer la suppression** s’affiche et vous pouvez forcer sa suppression.
+   - Si le fichier est référencé à partir d’un autre fichier **la boîte de dialogue** Forcer la suppression s’affiche et vous pouvez forcer la suppression du fichier :
 
-     ![](images/options-menu-force-delete.png){width="550" align="left"}
+     ![](images/options-menu-force-delete.png){width="550"}
 
      >[!NOTE]
      >
-     > If your administrator has given the file delete permission, then **Force Delete** is enabled. Else, **Force Delete** is disabled and a message is displayed that you do not have permission to delete referenced files. For more details, see *Prevent deletion of referenced files* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+     > Si votre administrateur a autorisé la suppression du fichier, l’option **Forcer la suppression** est activée. Dans le cas contraire, la fonction **Forcer la suppression** est désactivée et un message s’affiche indiquant que vous n’êtes pas autorisé à supprimer les fichiers référencés. Pour plus d’informations, consultez la section *Empêcher la suppression des fichiers référencés* dans la section Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
 
-   - If you delete a referenced topic and you have opened the file containing references for edit, it will show the broken link for the referenced file.
+   - Si vous supprimez une rubrique référencée et que vous avez ouvert le fichier contenant les références pour le modifier, le lien rompu pour le fichier référencé s’affiche.
 
   >[!NOTE]
   >
-  > You can also delete the selected file similarly using the Delete key of the keyboard.
+  > Vous pouvez également supprimer le fichier sélectionné de la même manière à l’aide de la touche Supprimer du clavier.
 
-- **Copy**: You can choose from the following options:
+- **Copier** : vous pouvez choisir parmi les options suivantes :
 
-   - **Copy UUID**: Copy the UUID of the selected file to Clipboard.
+   - **Copier l’UUID** : copiez l’UUID du fichier sélectionné dans le presse-papiers.
 
-   - **Copy Path**: Copy complete path of the selected file to Clipboard.
+   - **Copier le chemin d’accès** : copiez le chemin d’accès complet du fichier sélectionné dans le Presse-papiers.
 
-- **Collapse All**: Collapse all files in the repository. Only the top-level folders in the repository are shown.
-- **Add To**: You can choose from the following options:
-   - **Favorites**: Adds the selected file to favorites. Vous pouvez choisir de l’ajouter à une collection de favoris existante ou nouvelle.
+- **Tout réduire** : réduisez tous les fichiers du référentiel. Seuls les dossiers de niveau supérieur du référentiel s’affichent.
+- **Ajouter à** : vous pouvez choisir parmi les options suivantes :
+   - **Favoris** : ajoute le fichier sélectionné aux favoris. Vous pouvez choisir de l’ajouter à une collection de favoris existante ou nouvelle.
 
-   - **Reusable Contents**: Adds the selected file to the Reusable Contents list in the left panel.
+   - **Contenu réutilisable** : ajoute le fichier sélectionné à la liste Contenu réutilisable dans le panneau de gauche.
 
-- **Properties**: Use this to open the properties page of the selected file. This properties page can also be accessed from the Assets UI by selecting a file and clicking on the Properties icon in the toolbar.
+- **Propriétés** : utilisez cette option pour ouvrir la page des propriétés du fichier sélectionné. Cette page de propriétés est également accessible à partir de l’interface utilisateur d’Assets en sélectionnant un fichier et en cliquant sur l’icône Propriétés de la barre d’outils.
 
-- **Open Map Dashboard**: In case the selected file is a DITA map, then this option opens the map dashboard.
+- **Ouvrir le tableau de bord des cartes** : si le fichier sélectionné est un plan DITA, cette option ouvre le tableau de bord des cartes.
 
-- **Edit in Oxygen**: Select this option to edit the selected file in the Oxygen connector plugin. The file is opened for editing.
+- **Modifier dans Oxygen** : sélectionnez cette option pour modifier le fichier sélectionné dans le plug-in Oxygen Connector. Le fichier est ouvert pour modification.
 
   >[!NOTE]
   >
@@ -1153,7 +1153,7 @@ Les différentes options du menu Options sont expliquées ci-dessous :
 
 - **Publier en tant que** : utilisez cette option pour publier une rubrique ou les éléments d’une rubrique dans un fragment de contenu.
 
-- **Génération rapide** : générez la sortie du fichier sélectionné. La sortie ne peut être générée que pour les fichiers qui font partie d’un paramètre prédéfini de sortie. Pour plus d’informations, consultez la section [&#x200B; Publication basée sur des articles à partir de l’éditeur web &#x200B;](web-editor-article-publishing.md#id218CK0U019I).
+- **Génération rapide** : générez la sortie du fichier sélectionné. La sortie ne peut être générée que pour les fichiers qui font partie d’un paramètre prédéfini de sortie. Pour plus d’informations, consultez la section [ Publication basée sur des articles à partir de l’éditeur web ](web-editor-article-publishing.md#id218CK0U019I).
 
 
 **Création de rubriques à partir de la vue Référentiel**
@@ -1164,7 +1164,7 @@ Vous pouvez choisir de créer une rubrique, un mappage ou un dossier à partir d
 
 Lorsque vous choisissez de *créer une rubrique* dans le menu, la boîte de dialogue suivante s’affiche :
 
-![](images/create-topic-dialog.png){width="300" align="left"}
+![](images/create-topic-dialog.png){width="300"}
 
 Dans la boîte de dialogue **Créer une rubrique**, fournissez les détails suivants :
 
@@ -1179,7 +1179,7 @@ Dans la boîte de dialogue **Créer une rubrique**, fournissez les détails suiv
 
   Si votre administrateur a activé les noms de fichiers automatiques en fonction du paramètre UUID, le champ Nom ne s’affiche pas comme illustré dans la capture d’écran suivante :
 
-  ![](images/new-topic-without-filename.PNG){width="300" align="left"}
+  ![](images/new-topic-without-filename.PNG){width="300"}
 
 
 Lorsque vous cliquez sur **Créer**, la rubrique est créée au chemin d’accès spécifié. En outre, la rubrique est ouverte dans l’éditeur web pour modification.
@@ -1188,7 +1188,7 @@ Lorsque vous cliquez sur **Créer**, la rubrique est créée au chemin d’accè
 
 Lorsque vous choisissez de *créer un plan DITA*, la boîte de dialogue suivante s&#39;affiche :
 
-![](images/create-map-dialog.png){width="300" align="left"}
+![](images/create-map-dialog.png){width="300"}
 
 Dans la boîte de dialogue **Créer une carte**, fournissez les détails suivants :
 
@@ -1208,7 +1208,7 @@ Lorsque vous cliquez sur **Créer**, la carte est créée et ajoutée dans le do
 
 Lorsque vous choisissez de *créer un dossier*, la boîte de dialogue **Créer un dossier** s’affiche :
 
-![](images/new-folder-dialog_cs.png){width="300" align="left"}
+![](images/new-folder-dialog_cs.png){width="300"}
 
 Saisissez un **Titre** pour le dossier, qui est automatiquement converti en nom de dossier. Chemin d’accès où vous souhaitez enregistrer le fichier de mappage. Par défaut, le chemin du dossier actuellement sélectionné dans le référentiel s’affiche dans le champ Chemin . Lorsque vous cliquez sur **Créer**, le dossier est créé et ajouté dans le dossier à partir duquel l’option de création de dossier a été exécutée.
 
@@ -1227,14 +1227,14 @@ Lorsque vous ouvrez une carte dans la vue Carte, le titre de la carte actuelle s
 
 Lorsque vous définissez des attributs de clé pour les références de rubrique ou de mappage, vous pouvez afficher le titre, l’icône correspondante et la clé dans le panneau de gauche. La clé s’affiche sous la forme `keys=<key-name>`.
 
-![clés en vue carte](images/view-key-title-map-view.png){width="300" align="left"}
+![clés en vue carte](images/view-key-title-map-view.png){width="300"}
 
 Si vous disposez de droits de modification sur les fichiers de carte, vous pourrez également modifier les fichiers. Pour plus d&#39;informations sur l&#39;ouverture et la modification d&#39;une rubrique via un plan DITA, voir [Modifier des rubriques via un plan DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
 
 Vous pouvez effectuer les actions suivantes à l’aide du menu Options du fichier de mappage :
 
-![](images/options-menu-map-view_cs.png){width="550" align="left"}
+![](images/options-menu-map-view_cs.png){width="550"}
 
 - **Modifier** : ouvrez le fichier de mappage pour le modifier dans l’éditeur de mappages avancé.
 
@@ -1285,14 +1285,14 @@ Dans la boîte de dialogue **Télécharger la carte**, vous pouvez choisir les o
   >
   >  Par défaut, les cartes téléchargées restent pendant cinq jours dans la boîte de réception de notifications d’AEM.
 
-- **Générer la sortie** : permet de générer la sortie du fichier de mappage sélectionné. La sortie ne peut être générée que pour les fichiers qui font partie d’un paramètre prédéfini de sortie. Pour plus d’informations, consultez la section [&#x200B; Publication basée sur des articles à partir de l’éditeur web &#x200B;](web-editor-article-publishing.md#id218CK0U019I).
+- **Générer la sortie** : permet de générer la sortie du fichier de mappage sélectionné. La sortie ne peut être générée que pour les fichiers qui font partie d’un paramètre prédéfini de sortie. Pour plus d’informations, consultez la section [ Publication basée sur des articles à partir de l’éditeur web ](web-editor-article-publishing.md#id218CK0U019I).
 - **Fermer** : ferme le fichier de mappage.
 
 
 
 La capture d&#39;écran suivante présente le menu Options d&#39;un fichier en mode Carte DITA :
 
-![](images/options-menu-file_cs.PNG){width="550" align="left"}
+![](images/options-menu-file_cs.PNG){width="550"}
 
 Vous pouvez effectuer les actions suivantes à l’aide du menu Options :
 
@@ -1327,7 +1327,7 @@ Vous pouvez effectuer les actions suivantes à l’aide du menu Options :
 
 - **Afficher dans l’interface utilisateur d’Assets** : utilisez cette option pour afficher un aperçu d’un fichier .dita/.xml dans l’interface utilisateur d’Assets. Dans le cas d’un fichier .ditamap/.bookmap, tous les fichiers de rubrique de la carte sont affichés dans une seule vue page par page unifiée.
 
-- **Génération rapide** : générez la sortie du fichier sélectionné. La sortie ne peut être générée que pour les fichiers qui font partie d’un paramètre prédéfini de sortie. Pour plus d’informations, consultez la section [&#x200B; Publication basée sur des articles à partir de l’éditeur web &#x200B;](web-editor-article-publishing.md#id218CK0U019I).
+- **Génération rapide** : générez la sortie du fichier sélectionné. La sortie ne peut être générée que pour les fichiers qui font partie d’un paramètre prédéfini de sortie. Pour plus d’informations, consultez la section [ Publication basée sur des articles à partir de l’éditeur web ](web-editor-article-publishing.md#id218CK0U019I).
 
 >[!NOTE]
 >
@@ -1337,7 +1337,7 @@ Vous pouvez effectuer les actions suivantes à l’aide du menu Options :
 
 Lorsque vous cliquez sur l&#39;icône Mode Plan, vous obtenez la vue hiérarchique des éléments utilisés dans le document.
 
-![](images/outline-view_cs.png){width="300" align="left"}
+![](images/outline-view_cs.png){width="300"}
 
 Le mode Plan offre les fonctionnalités suivantes :
 
@@ -1351,15 +1351,15 @@ Le mode Plan offre les fonctionnalités suivantes :
 
 - Cliquez sur un élément dans le mode Plan pour sélectionner le contenu de l’élément dans la vue Auteur ou Source.Le mode Plan reste synchronisé avec les vues Auteur et Source. Si vous apportez des modifications dans un mode quelconque, vous pouvez les voir dans le mode Plan. Par exemple, si vous ajoutez un paragraphe ou mettez à jour un élément en mode Création, il s’affiche en mode Plan.
 
-  ![](images/select-element-content-outline-view_cs.png){width="650" align="left"}
+  ![](images/select-element-content-outline-view_cs.png){width="650"}
 
 - Faites glisser et déposez des éléments. Vous pouvez facilement remplacer un élément en y déposant un autre élément. Si vous glissez-déposez un élément sur un autre élément et que vous voyez une zone carrée autour de l’élément, cela indique que l’élément sera remplacé. Il remplace l’élément sur lequel l’élément est déposé.
 
-  ![](images/replace-element-outline-view_cs.png){width="300" align="left"}
+  ![](images/replace-element-outline-view_cs.png){width="300"}
 
   Si vous faites glisser et déposez un élément, un rectangle en tirets indique que l’élément peut être placé à l’emplacement actuel. Si le glisser-déposer n’est pas valide, un message d’erreur s’affiche pour indiquer que l’opération n’est pas autorisée.
 
-  ![](images/drop-element-outline-view_cs.png){width="300" align="left"}
+  ![](images/drop-element-outline-view_cs.png){width="300"}
 
 - Le menu **Options** dans le *mode Plan* vous permet d&#39;effectuer des opérations génériques telles que Couper, Copier, Supprimer, Générer un identifiant, Insérer un élément avant ou après l&#39;élément actif, Renommer ou remplacer un élément, Enrouler un élément, Déplier un élément et créer un fragment de code à partir de l&#39;élément sélectionné.
 
@@ -1377,7 +1377,7 @@ Dans la liste déroulante Options d’affichage , vous pouvez choisir d’affich
 
 Si un élément de bloc possède son propre texte, il est affiché avec cet élément de bloc. S’il ne dispose pas de son propre texte, le texte du premier élément enfant est affiché avec cet élément de bloc.
 
-![](images/outline-view-block-element.png){width="550" align="left"}
+![](images/outline-view-block-element.png){width="550"}
 
 Si votre administrateur a créé un profil pour les attributs, vous obtiendrez ces attributs ainsi que leurs valeurs configurées. Vous pouvez également attribuer les attributs d’affichage configurés par votre administrateur sous l’onglet **Attributs d’affichage** dans les paramètres de l’éditeur. Les attributs définis pour un élément sont affichés en mode Mise en page et Plan.
 
@@ -1409,7 +1409,7 @@ Pour ajouter un fichier DITA à votre panneau Contenu réutilisable, utilisez l&
 
 - Cliquez sur l’icône + en regard de Contenu réutilisable pour ouvrir la boîte de dialogue Parcourir le fichier . Sélectionnez le fichier à ajouter et cliquez sur **Ajouter** pour terminer le processus.
 
-  ![](images/reuse-content-add-dita-file_cs.png){width="650" align="left"}
+  ![](images/reuse-content-add-dita-file_cs.png){width="650"}
 
 - Dans la vue Référentiel, cliquez sur l’icône Options du fichier souhaité, puis choisissez **Ajouter au contenu réutilisable** dans le menu contextuel.
 
@@ -1420,7 +1420,7 @@ Une fois le fichier ajouté, vous pouvez voir tous les éléments de contenu ré
 
 Lorsque vous ajoutez un fichier à la liste Contenu réutilisable , le titre du fichier s’affiche à la place de l’UUID du fichier. Pour vérifier l’UUID du fichier, pointez sur le titre du fichier avec la souris et l’UUID du fichier s’affiche dans l’info-bulle.
 
-![](images/uuid-reusable-content-file-title_cs.png){width="300" align="left"}
+![](images/uuid-reusable-content-file-title_cs.png){width="300"}
 
 >[!NOTE]
 >
@@ -1432,7 +1432,7 @@ Pour insérer du contenu à partir du panneau Contenu réutilisable, utilisez l�
 
 - Placez le pointeur de la souris sur un élément à insérer, cliquez sur l’icône Options, puis choisissez **Insérer du contenu réutilisable**.
 
-  ![](images/insert-reusable-content_cs.png){width="400" align="left"}
+  ![](images/insert-reusable-content_cs.png){width="400"}
 
   >[!NOTE]
   >
@@ -1448,7 +1448,7 @@ Pour insérer du contenu à partir du panneau Contenu réutilisable, utilisez l�
 
 AEM Guides vous permet de créer et d’utiliser facilement des documents de type glossaire. Vous pouvez créer des fichiers de rubrique de glossaire, puis les inclure dans une carte de glossaire commune. Une fois que cette carte est ajoutée en tant que carte racine, les entrées du glossaire s’affichent dans le panneau Glossaire.
 
-![](images/glossary-panel.png){width="650" align="left"}
+![](images/glossary-panel.png){width="650"}
 
 Pour insérer un terme dans le glossaire, il vous suffit de faire glisser l’entrée du panneau vers l’emplacement souhaité dans la rubrique. Le menu Options d’un terme de glossaire vous permet d’obtenir un **Aperçu** rapide du terme d’entrée, **Copier le chemin** du fichier de terme d’entrée ou de localiser le fichier de terme d’entrée dans le référentiel.
 
@@ -1458,11 +1458,11 @@ Effectuez les étapes suivantes pour rechercher des termes textuels et les rempl
 1. Sélectionnez le panneau du glossaire pour afficher les termes du glossaire présents dans le mappage racine. Vous pouvez faire glisser et déposer ces termes pour les ajouter à la rubrique ouverte.
 1. Sélectionnez l’outil **Zone réactive** \( ![](images/hotspot-icon.svg)\) dans le panneau Glossaire pour rechercher et convertir des termes de texte spécifiques en abréviations de glossaire liées. Vous pouvez également l’utiliser pour rechercher des abréviations de glossaires et les convertir en termes textuels.
 
-![](images/glossary-hotspot-tool.png){width="300" align="left"}
+![](images/glossary-hotspot-tool.png){width="300"}
 
 Vous pouvez configurer les paramètres suivants de l’outil Zone réactive :
 
-![](images/Glossary-search-keys.png){width="300" align="left"}
+![](images/Glossary-search-keys.png){width="300"}
 
 - **Clés de glossaire** : sélectionnez dans le plan DITA les clés de glossaire à utiliser pour la recherche dans la rubrique sélectionnée. Les clés sélectionnées s’affichent ci-dessous. Vous pouvez supprimer une clé sélectionnée en cliquant sur l’icône **Supprimer**.
 
@@ -1477,13 +1477,13 @@ Vous pouvez configurer les paramètres suivants de l’outil Zone réactive :
    - **Créer une version après la conversion** : une nouvelle version de la rubrique est créée une fois la conversion des termes terminée.
 - Le bouton **Suivant** apparaît si vous sélectionnez l’option **Manuellement pour chaque rubrique**. Cliquez sur **Suivant** pour convertir les termes de chaque rubrique en fonction des paramètres sélectionnés. Il demande la conversion des termes de chaque rubrique et passe au fichier suivant. Vous pouvez choisir de convertir un terme ou de l’ignorer et de passer au terme suivant.
 
-  ![](images/manual-convert-skip.png){width="300" align="left"}
+  ![](images/manual-convert-skip.png){width="300"}
 
 - Le bouton **Convertir** apparaît si vous sélectionnez l’option **Automatiquement pour toutes les rubriques**. Sélectionnez **Convertir** pour convertir tous les termes figurant dans le document en abréviations de glossaire liées.
 
 Une liste des **Rubriques mises à jour** avec les termes convertis et **Rubriques avec erreur** s’affiche. Passez la souris sur l’icône \( ![](images/info-icon.svg)\) près de Rubriques contenant une erreur pour afficher les détails de l’erreur.
 
-![](images/glossary-converted-terms-error.png){width="300" align="left"}
+![](images/glossary-converted-terms-error.png){width="300"}
 
 >[!NOTE]
 >
@@ -1495,7 +1495,7 @@ Le panneau Conditions affiche les attributs conditionnels définis par l’admin
 
 Vous pouvez également appliquer plusieurs conditions à un élément en faisant glisser et en déposant plusieurs conditions sur un élément. Lorsque vous appliquez plusieurs conditions à un élément, le panneau Propriétés affiche les conditions appliquées séparées par une virgule.
 
-![](images/multiple-conditions-applied_cs.png){width="800" align="left"}
+![](images/multiple-conditions-applied_cs.png){width="800"}
 
 Toutefois, en mode Code, les conditions sont séparées à l’aide d’un délimiteur d’espace. Lorsque vous ajoutez ou modifiez une condition en mode Code, assurez-vous que plusieurs conditions sont séparées à l’aide d’un espace.
 
@@ -1503,17 +1503,17 @@ Toutefois, en mode Code, les conditions sont séparées à l’aide d’un déli
 >
 > La capture d’écran suivante représente un utilisateur disposant de droits d’administration. En tant qu’utilisateur disposant de droits d’administrateur, vous pouvez ajouter, modifier et supprimer des conditions. Sinon, en tant qu’auteur normal, vous n’aurez la possibilité d’appliquer que des conditions.
 
-![](images/conditional-content-through-panel_cs.png){width="800" align="left"}
+![](images/conditional-content-through-panel_cs.png){width="800"}
 
 Pour ajouter ou définir une condition, cliquez sur l’icône + en regard du panneau Conditions pour afficher la boîte de dialogue Définir une condition :
 
-![](images/conditional-panel-create-cond.png){width="400" align="left"}
+![](images/conditional-panel-create-cond.png){width="400"}
 
 Dans la liste Attribut , sélectionnez l’attribut conditionnel à définir, saisissez une valeur pour la condition, puis spécifiez le libellé affiché dans le panneau Conditions . Définissez un groupe pour la condition. Vous pouvez ajouter plusieurs conditions à un groupe. Vous pouvez également définir une couleur pour la condition. Cette couleur est définie comme couleur d’arrière-plan du contenu auquel la condition est appliquée.
 
 Vous pouvez regrouper les conditions et les structurer dans des dossiers imbriqués. Les groupes vous aident à créer des conditions à plusieurs niveaux et à mieux les organiser pour les utiliser dans le contenu.
 
-Par exemple, vous pouvez créer des groupes de conditions de produits tels que *Acrobat* et *AEM Guides*. Vous pouvez sélectionner les attributs conditionnels pour les deux groupes. Sous chaque groupe, vous pouvez avoir des valeurs spécifiques telles que *Utilisateur*, *Administrateur*, *Réviseur* et *Auteur*.
+Par exemple, vous pouvez créer des groupes de conditions de produits tels que ** et *AEM Guides*. Vous pouvez sélectionner les attributs conditionnels pour les deux groupes. Sous chaque groupe, vous pouvez avoir des valeurs spécifiques telles que *Utilisateur*, *Administrateur*, *Réviseur* et *Auteur*.
 
 >[!NOTE]
 >
@@ -1523,26 +1523,26 @@ Vous pouvez utiliser des `/` et définir des sous-groupes définir des sous-grou
 
 
 
-![conditions organisées dans une hiérarchie imbriquée](images/conditions-nested-hierarchy.png){width="300" align="left"}
+![conditions organisées dans une hiérarchie imbriquée](images/conditions-nested-hierarchy.png){width="300"}
 
 
 Pour modifier une condition, choisissez **Modifier** dans le menu Options. La boîte de dialogue Modifier la condition s’affiche :
 
-![](images/conditional-panel-edit-cond.png){width="400" align="left"}
+![](images/conditional-panel-edit-cond.png){width="400"}
 
 Spécifiez les détails de la même manière que lors de la définition d’une nouvelle condition.
 
 **Objet du programme** - ![](images/subject_scheme_panel-icon.svg)
 
-Subject scheme maps are a specialized form of DITA maps that are used to define taxonomic subjects and controlled values. Depending upon your requirements, you can create a subject scheme map and reference it within your root map file. AEM Guides allows you to define the nested-level hierarchy of the subject definitions in your subject scheme.
+Les cartes de schéma d&#39;objets sont une forme spécialisée de cartes DITA utilisées pour définir des sujets taxonomiques et des valeurs contrôlées. Selon vos besoins, vous pouvez créer un mappage de schéma d&#39;objet et le référencer dans votre fichier de mappage racine. AEM Guides vous permet de définir la hiérarchie de niveau imbriqué des définitions d’objet dans votre schéma d’objet.
 
-You can easily create and then use the subject scheme in a subject scheme map. Once this map is added as your root map, the subject scheme is then shown in the Subject Scheme panel. The Subject Scheme panel displays the available subject scheme in a nested or hierarchical manner.
+Vous pouvez facilement créer et utiliser le schéma d&#39;objet dans une carte de schéma d&#39;objet. Une fois que cette carte est ajoutée en tant que carte racine, le schéma d&#39;objet est affiché dans le panneau Schéma d&#39;objet . Le panneau Schéma d’objet affiche le schéma d’objet disponible de manière imbriquée ou hiérarchique.
 
-AEM Guides also supports nested level subject scheme maps, and you can have multiple subject schemes defined under the root subject scheme map.
+AEM Guides prend également en charge les mappages de schéma d’objet au niveau imbriqué. Plusieurs schémas d’objet peuvent être définis sous le mappage de schéma d’objet racine.
 
-The following example shows how to use subject scheme in AEM Guides.
+L&#39;exemple suivant montre comment utiliser le schéma d&#39;objet dans AEM Guides.
 
-1. Create a subject scheme file in a tool of your choice. The following XML code creates subject scheme that binds values for the `platform` attribute.
+1. Créez un fichier de schéma d&#39;objet dans un outil de votre choix. Le code XML suivant crée un schéma d’objet qui lie les valeurs de l’attribut `platform`.
 
    ```XML
    <?xml version="1.0" encoding="UTF-8"?>
@@ -1573,30 +1573,30 @@ The following example shows how to use subject scheme in AEM Guides.
    </subjectScheme>
    ```
 
-   ![](images/subject-scheme-panel.png){width="300" align="left"}
+   ![](images/subject-scheme-panel.png){width="300"}
 
-1. Save the file with a.ditamap extension and upload it to any folder in DAM.
+1. Enregistrez le fichier avec l’extension a.ditamap et chargez-le dans n’importe quel dossier de la gestion des ressources numériques.
 
    >[!NOTE]
    >
-   > You can add a reference to the subject scheme file in the parent DITA map.
+   > Vous pouvez ajouter une référence au fichier de schéma d&#39;objet dans le plan DITA parent.
 
-   ![](images/subject-scheme-root-map.png){width="550" align="left"}
+   ![](images/subject-scheme-root-map.png){width="550"}
 
-1. Set the parent map as the root map in the **User preferences**. Once this map is added as your root map, the subject scheme is then shown in the Subject Scheme panel.
+1. Définissez le mappage parent comme mappage racine dans les **Préférences utilisateur**. Une fois que cette carte est ajoutée en tant que carte racine, le schéma d&#39;objet est affiché dans le panneau Schéma d&#39;objet .
 
-   ![](images/subject-scheme-user-preferences.png){width="400" align="left"}
+   ![](images/subject-scheme-user-preferences.png){width="400"}
 
-1. In the Web Editor, open the file where you want to use the subject scheme definitions.
-1. Apply the subject scheme to your content by simply dragging and dropping the desired subject scheme onto your content. The content is then highlighted in the defined color.
+1. Dans l&#39;éditeur Web, ouvrez le fichier dans lequel vous souhaitez utiliser les définitions de schéma d&#39;objet.
+1. Appliquez le schéma d’objet à votre contenu en faisant simplement glisser et en déposant le schéma d’objet souhaité sur votre contenu. Le contenu est ensuite mis en surbrillance dans la couleur définie.
 
-   ![](images/subject-scheme-apply.png){width="650" align="left"}
+   ![](images/subject-scheme-apply.png){width="650"}
 
-**Handling hierarchical definitions of subject definitions and enumerations**
+**Gestion des définitions hiérarchiques des objets et des énumérations**
 
-Besides handling the enumerations and the subject definitions present in the same map, AEM Guides also provides the feature to define enumerations and subject definitions in two separate maps. You can define one or more subject definitions in a map and the enumeration definitions in another map and then add the map reference. For example, the following XML code creates subject definitions and enumeration definitions in two separate maps.
+En plus de gérer les énumérations et les définitions d’objet présentes dans le même mappage, AEM Guides offre également la possibilité de définir des énumérations et des définitions d’objet dans deux mappages distincts. Vous pouvez définir une ou plusieurs définitions d’objet dans un mappage et les définitions d’énumération dans un autre mappage, puis ajouter la référence de mappage. Par exemple, le code XML suivant crée des définitions d’objet et d’énumération dans deux mappages distincts.
 
-The subject definitions are defined in `subject_scheme_map_1.ditamap`
+Les définitions des objets sont définies dans `subject_scheme_map_1.ditamap`
 
 
 ```XML
@@ -1641,7 +1641,7 @@ The subject definitions are defined in `subject_scheme_map_1.ditamap`
     </subjectScheme>
 ```
 
-The enumeration definition is present in    subject_scheme_map_2.ditamap.
+La définition de l’énumération est présente dans subject_schema_map_2.ditamap.
 
 ```XML
     ?xml version="1.0" encoding="UTF-8"?> 
@@ -1661,7 +1661,7 @@ The enumeration definition is present in    subject_scheme_map_2.ditamap.
         </subjectScheme>
 ```
 
-Here subject definitions are defined in `subject_scheme_map_1.ditamap`  while the enumeration def is present in `subject_scheme_map_2.ditamap`. The reference to `subject_scheme_map_1.ditamap` is also added in `subject_scheme_map_2.ditamap`.
+Ici, les définitions d’objet sont définies dans `subject_scheme_map_1.ditamap` tandis que la définition d’énumération est présente dans `subject_scheme_map_2.ditamap`. La référence à `subject_scheme_map_1.ditamap` est également ajoutée dans `subject_scheme_map_2.ditamap`.
 
 >[!NOTE]
 >
@@ -1702,7 +1702,7 @@ Par exemple, utilisez l’énumération suivante pour limiter l’attribut `@pla
 Liste déroulante **Attributs**
 
 Vous pouvez également modifier la valeur du schéma d’objet à l’aide de la liste déroulante **Attributs** du panneau **Propriétés du contenu** dans la vue **Auteur**.
-![](images/subject-scheme-attribute-dropdown.png){width="200" align="left"}
+![](images/subject-scheme-attribute-dropdown.png){width="200"}
 Effectuez les étapes suivantes pour modifier la valeur :
 
 1. Sélectionnez un attribut dans le menu déroulant **Attribut**.
@@ -1714,11 +1714,11 @@ Effectuez les étapes suivantes pour modifier la valeur :
 
 Vous pouvez également appliquer des valeurs à un attribut en sélectionnant plusieurs valeurs dans la liste déroulante.
 
-Vue Source **&#x200B;**
+Vue Source ****
 
 Vous pouvez également modifier les valeurs à partir de la liste déroulante de l’attribut dans la vue Source. La vue Source vous empêche également d’ajouter une valeur incorrecte.
 
-![](images/subject-scheme-code-error.png){width="550" align="left"}
+![](images/subject-scheme-code-error.png){width="550"}
 
 **Afficher et appliquer le schéma d&#39;objet à partir du panneau Conditions**
 
@@ -1728,7 +1728,7 @@ Pour afficher le schéma d&#39;objet à partir du panneau Conditions, votre admi
 
 Le panneau Conditions affiche la structure verticale plate des définitions d&#39;objet dans le schéma d&#39;objet.
 
-![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
+![](images/subject-scheme-condtions-panel.png){width="300"}
 
 Vous pouvez ajouter des conditions à votre contenu en faisant glisser et en déposant la condition souhaitée sur votre contenu. Le contenu conditionnel est mis en surbrillance à l’aide de la couleur définie pour la condition.
 
@@ -1740,13 +1740,13 @@ Les fragments de code sont de petits fragments de contenu qui peuvent être réu
 >
 > La capture d’écran suivante représente un utilisateur disposant de droits d’administration. En tant qu’utilisateur disposant de droits d’administrateur, vous pouvez ajouter, modifier et supprimer des fragments de code. Sinon, en tant qu’auteur normal, vous n’obtiendrez que les options de prévisualisation et d’insertion d’un fragment de code.
 
-![](images/snippets-panel_cs.png){width="400" align="left"}
+![](images/snippets-panel_cs.png){width="400"}
 
 Pour ajouter un fragment de code, utilisez l’une des méthodes suivantes :
 
 - Cliquez sur l’icône + en regard de Fragments de code pour ouvrir la boîte de dialogue Nouveau fragment de code .
 
-  ![](images/snippet-new-dialog.png){width="550" align="left"}
+  ![](images/snippet-new-dialog.png){width="550"}
 
   Dans la boîte de dialogue Nouveau fragment de code, fournissez un titre qui s’affiche dans le panneau Fragments de code, une description et le code XML du contenu du fragment de code que vous souhaitez créer. Cliquez sur **Créer** pour enregistrer et créer le fragment de code.
 
@@ -1756,7 +1756,7 @@ Pour ajouter un fragment de code, utilisez l’une des méthodes suivantes :
 
   La capture d’écran suivante met en évidence le chemin de navigation et la zone de contenu à partir desquels vous pouvez appeler le menu contextuel.
 
-  ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
+  ![](images/snippet-create-from-breadcrumb-content.png){width="350"}
 
 
 Pour insérer un fragment de code, utilisez l’une des méthodes suivantes :
@@ -1768,39 +1768,39 @@ Pour insérer un fragment de code, utilisez l’une des méthodes suivantes :
 
 >[!NOTE]
 >
-> From the context menu of a snippet entry, you can also choose to Edit, Delete, get a Preview, or Insert a Snippet.
+> Dans le menu contextuel d’un fragment de code, vous pouvez également choisir Modifier, Supprimer, Obtenir un aperçu ou Insérer un fragment de code.
 
-**Templates** -  ![](images/templates-icon.svg)
+**Modèles** - ![](images/templates-icon.svg)
 
-The Templates panel is available to only administrators. Using this panel, and administrator can easily create and manage templates that can then be used by the authors. By default, the templates are categorized under *Map* and *Topic* type templates.
+Le panneau Modèles n’est disponible que pour les administrateurs et administratrices. Grâce à ce panneau, l’administrateur peut facilement créer et gérer des modèles qui peuvent ensuite être utilisés par les auteurs. Par défaut, les modèles sont classés sous les modèles de type *Map* et *Topic*.
 
-![](images/templates-panel_cs.png){width="550" align="left"}
+![](images/templates-panel_cs.png){width="550"}
 
-Par défaut, vous pouvez afficher les fichiers par titres. As you hover over a template, you can view the file title and the file name as a tooltip.
+Par défaut, vous pouvez afficher les fichiers par titres. Pointez sur un modèle pour afficher le titre du fichier et le nom du fichier sous forme d’info-bulle.
 
 >[!NOTE]
 >
-> As an administrator, you can also choose to view the list of files in the Web Editor. Sélectionnez l&#39;option **Nom du fichier** de la section **Afficher les fichiers par** dans **Préférences utilisateur** ![](images/user_preference_editor_icon.svg).
+> En tant qu’administrateur, vous pouvez également choisir d’afficher la liste des fichiers dans l’éditeur web. Sélectionnez l&#39;option **Nom du fichier** de la section **Afficher les fichiers par** dans **Préférences utilisateur** ![](images/user_preference_editor_icon.svg).
 
-To create a template, Click the + icon next to Templates and choose a template that you want to create. If you select **Topic Template**, the Create New Topic Template dialog appears:
+Pour créer un modèle, cliquez sur l’icône + en regard de Modèles et sélectionnez le modèle à créer. Si vous sélectionnez **Modèle de rubrique**, la boîte de dialogue Créer un modèle de rubrique s&#39;affiche :
 
-![](images/create-new-topic-template.PNG){width="400" align="left"}
+![](images/create-new-topic-template.PNG){width="400"}
 
-Sélectionnez le type de modèle à créer dans la liste déroulante **Modèle**. Provide the **Title**, which appears in the Templates panel. The **Name** of the template is auto suggested based on the title, however, you can provide a different file name.
+Sélectionnez le type de modèle à créer dans la liste déroulante **Modèle**. Fournissez le **Titre** qui s’affiche dans le panneau Modèles . Le **Nom** du modèle est suggéré automatiquement en fonction du titre, mais vous pouvez fournir un nom de fichier différent.
 
 >[!NOTE]
 >
 > Si votre administrateur a activé les noms de fichiers automatiques en fonction du paramètre UUID, le champ Nom n’apparaît pas.
 
-Once the template is created, you need to add it to your global or folder-level profile. After the template is added, your authors will start seeing the new template in the topic/map creation process.
+Une fois le modèle créé, vous devez l’ajouter à votre profil global ou au niveau du dossier. Une fois le modèle ajouté, vos auteurs commenceront à voir le nouveau modèle dans le processus de création de rubrique/carte.
 
-Using the Options menu on an existing template, you can choose to **Edit** or **Duplicate** it. In case of duplication, the template&#39;s structure and type \(of document\) is retained and you can reuse it to create another template from it.
+À l’aide du menu Options d’un modèle existant, vous pouvez choisir de le **Modifier** ou **Dupliquer**. En cas de duplication, la structure et le type \(du document\) du modèle sont conservés et vous pouvez les réutiliser pour créer un autre modèle à partir de celui-ci.
 
-**Review** -  ![](images/active-review-tasklist-icon.svg)
+**Révision** - ![](images/active-review-tasklist-icon.svg)
 
-AEM Guides provides the feature to display all the review tasks in your projects. You can view all the review projects and the active review tasks within the review projects, that you&#39;re part of from the **Review** panel.  You can then open the review tasks to view the comments of the various reviewers.
+AEM Guides permet d’afficher toutes les tâches de révision dans vos projets. Vous pouvez afficher tous les projets de révision et les tâches de révision actives dans les projets de révision, dont vous faites partie à partir du panneau **Révision**.  Vous pouvez ensuite ouvrir les tâches de révision pour afficher les commentaires des différents réviseurs et réviseuses.
 
-The review panel displays the review tasks. Par défaut, vous pouvez afficher les fichiers par titres. Pointez sur un fichier pour afficher le titre du fichier et son chemin d’accès sous forme d’info-bulle.
+Le panneau de révision affiche les tâches de révision. Par défaut, vous pouvez afficher les fichiers par titres. Pointez sur un fichier pour afficher le titre du fichier et son chemin d’accès sous forme d’info-bulle.
 
 >[!NOTE]
 >
@@ -1811,16 +1811,16 @@ En tant qu’auteur, vous pouvez ajouter des commentaires dans une rubrique à l
 
 Pour afficher les commentaires de révision dans les tâches de révision actives présentes dans vos projets, procédez comme suit :
 
-1. Sélectionner un ![](images/active-review-tasklist-icon.svg) de révision   dans le panneau de gauche. Le panneau **Révision** s’ouvre.  Tous les projets de révision et les tâches de révision actives au sein des projets de révision dont vous faites partie s’affichent.
+1. Sélectionnez Vérifier le ![](images/active-review-tasklist-icon.svg) dans le panneau de gauche. Le panneau **Révision** s’ouvre.  Tous les projets de révision et les tâches de révision actives au sein des projets de révision dont vous faites partie s’affichent.
 
-   ![](images/web-editor-review-panel.png){width="300" align="left"}
+   ![](images/web-editor-review-panel.png){width="300"}
 1. Sélectionnez un projet de révision, puis sélectionnez une tâche de révision dans la liste pour l’ouvrir.
 1. Vous pouvez également filtrer vos projets des manières suivantes :
 
    - Saisissez le terme ou le texte à rechercher dans le titre du projet. Appuyez ensuite sur Entrée pour effectuer la recherche. Par exemple, vous pouvez rechercher tous les projets dont le titre contient le terme « espace ».
 
    - Sélectionnez ![](images/filter-search-icon.svg) pour ouvrir la boîte de dialogue **Filtre**. Vous pouvez sélectionner tous les projets ou uniquement des projets spécifiques. Les projets sélectionnés sont répertoriés dans le panneau **Révision**.
-     ![](images/active-review-select-project.png){width="300" align="left"}
+     ![](images/active-review-select-project.png){width="300"}
 
      L’option **Tâches que j’ai lancées** est activée par défaut. Il vous permet de n’afficher que les tâches que vous avez lancées. Le statut de basculement de cette option est conservé même après l’actualisation de la page.
 
@@ -1830,7 +1830,7 @@ Pour afficher les commentaires de révision dans les tâches de révision active
    - **Afficher les rubriques avec des commentaires** : répertoriez uniquement les rubriques contenant des commentaires de révision.
 1. Vous pouvez également saisir le terme ou le texte à rechercher dans le titre ou le chemin d’accès au fichier du sujet. Les rubriques qui contiennent le terme dans le titre ou le chemin du fichier sont répertoriées.
 1. Double-cliquez sur une rubrique pour l’ouvrir en mode création. Vous pouvez afficher les commentaires dans le panneau **Commentaires**.
-   ![](images/active-review-task-comments.png){width="800" align="left"}
+   ![](images/active-review-task-comments.png){width="800"}
 
 
    >[!NOTE]
@@ -1843,7 +1843,7 @@ Pour afficher les commentaires de révision dans les tâches de révision active
 
 L’icône Rechercher et remplacer se trouve au bas du panneau de gauche. Le panneau Rechercher et remplacer vous permet de rechercher et de remplacer du texte dans les fichiers d’un mappage ou d’un dossier de votre référentiel. Vous pouvez trouver et remplacer dans toutes les rubriques d&#39;une carte ainsi que les rubriques présentes dans les sous-cartes de la carte.
 
-![](images/map-find-replace.png){width="800" align="left"}
+![](images/map-find-replace.png){width="800"}
 
 Par défaut, vous pouvez afficher les fichiers par titres. Pointez sur un fichier pour afficher le titre du fichier et son chemin d’accès sous forme d’info-bulle.
 
@@ -1923,56 +1923,56 @@ Pour effectuer la recherche globale et le remplacement, procédez comme suit :
    > Pour activer l’icône **Tout remplacer**, votre administrateur système doit sélectionner l’option **Activer tout remplacer** sous l’onglet **Général** dans **Paramètres de l’éditeur**.
 
 
-Une seule opération de remplacement complet peut être effectuée à la fois dans l&#39;ensemble du système, et jusqu&#39;à ce que l&#39;opération de remplacement soit effectuée, vous verrez l&#39;état « Remplacer tout en cours ». Vous pouvez également abandonner l’opération de remplacement de tous les éléments entre les deux ou consulter le rapport du journal. Si vous abandonnez l’opération, vous recevrez une notification à ce sujet dans votre boîte de réception. You will be shown a success notification after replacing all the occurrences in the selected file.
+Une seule opération de remplacement complet peut être effectuée à la fois dans l&#39;ensemble du système, et jusqu&#39;à ce que l&#39;opération de remplacement soit effectuée, vous verrez l&#39;état « Remplacer tout en cours ». Vous pouvez également abandonner l’opération de remplacement de tous les éléments entre les deux ou consulter le rapport du journal. Si vous abandonnez l’opération, vous recevrez une notification à ce sujet dans votre boîte de réception. Une notification de succès s’affichera après le remplacement de toutes les occurrences dans le fichier sélectionné.
 
-![](images/replace-all-in-progress.png){width="400" align="left"}
+![](images/replace-all-in-progress.png){width="400"}
 
-You can also use the **Find in Map** option from the **Options** menu of a map to find and replace text in a map. This option appears for a map opened in the repository panel or in the map view.
+Vous pouvez également utiliser l’option **Rechercher dans la carte** du menu **Options** d’une carte pour rechercher et remplacer du texte dans une carte. Cette option s’affiche pour un mappage ouvert dans le panneau Référentiel ou dans la vue de mappage.
 
-![](images/map-options-menu.png){width="550" align="left"}
+![](images/map-options-menu.png){width="550"}
 
 ## Zone d&#39;édition du contenu {#id2051EB000UI}
 
-The content editing area is where the content of your topic or map is displayed. You make all content edits in this area. It gives a WYSIWYG view of the content you are editing. You can have multiple topics opened at the same time, which are displayed in their respective tabs.
+Le contenu de votre rubrique ou de votre carte s’affiche dans la zone d’édition du contenu. Vous apportez toutes les modifications au contenu dans cette zone. Il donne une vue WYSIWYG du contenu que vous modifiez. Plusieurs rubriques peuvent être ouvertes en même temps et s’afficher dans leurs onglets respectifs.
 
-By default, you can view the file titles in the tabs. Pointez sur un fichier pour afficher le titre du fichier et son chemin d’accès sous forme d’info-bulle.
+Par défaut, vous pouvez afficher les titres des fichiers dans les onglets. Pointez sur un fichier pour afficher le titre du fichier et son chemin d’accès sous forme d’info-bulle.
 
 >[!NOTE]
 >
-> As an administrator, you can also choose to view the list of files by filenames in the tabs. Sélectionnez l&#39;option **Nom du fichier** de la section **Afficher les fichiers par** dans **Préférences utilisateur** ![](images/user_preference_editor_icon.svg).
+> En tant qu’administrateur, vous pouvez également choisir d’afficher la liste des fichiers par nom de fichier dans les onglets. Sélectionnez l&#39;option **Nom du fichier** de la section **Afficher les fichiers par** dans **Préférences utilisateur** ![](images/user_preference_editor_icon.svg).
 
-Below the file&#39;s tab, you have the breadcrumb of the element at current cursor location. On the top-right corner of the content editing area, the version number of the current topic is displayed.
+Sous l’onglet du fichier, le chemin de navigation de l’élément se trouve à l’emplacement actuel du curseur. Dans le coin supérieur droit de la zone de modification du contenu, le numéro de version de la rubrique active s’affiche.
 
-![](images/content-editing-area.png){width="650" align="left"}
+![](images/content-editing-area.png){width="650"}
 
 ## Panneau de droite {#id2051EB003YK}
 
-The right panel is a persistent panel which contains information about the currently selected document.
+Le panneau de droite est un panneau persistant qui contient des informations sur le document actuellement sélectionné.
 
 >[!NOTE]
 >
-> The right panel is resizable. Pour redimensionner le panneau, placez le curseur sur la limite du panneau, le curseur se transforme en flèche à deux pointes, cliquez et faites glisser pour redimensionner la largeur du panneau.
+> Le panneau de droite est redimensionnable. Pour redimensionner le panneau, placez le curseur sur la limite du panneau, le curseur se transforme en flèche à deux pointes, cliquez et faites glisser pour redimensionner la largeur du panneau.
 
-The right panel gives you access to the following features:
+Le panneau de droite vous donne accès aux fonctionnalités suivantes :
 
-**Content Properties** -  ![content poperties](images/content-properties-icon.svg)
+**Propriétés du contenu** - ![Propriétés du contenu](images/content-properties-icon.svg)
 
-You can access the **Content Properties** feature by selecting the **Content Properties** icon in the right panel. The **Content Properties** panel contains information about the type of currently selected element in the document and its attributes.
+Vous pouvez accéder à la fonction **Propriétés du contenu** en sélectionnant l’icône **Propriétés du contenu** dans le panneau de droite. Le panneau **Propriétés du contenu** contient des informations sur le type d’élément actuellement sélectionné dans le document et ses attributs.
 
-**Type**: You can view and select the tags of the complete hierarchy for the current tag from the dropdown.
+**Type** : vous pouvez afficher et sélectionner les balises de la hiérarchie complète pour la balise active dans la liste déroulante.
 
-**Attributes**: The **Attributes** dropdown panel is available in Layout, Author, and Source views. You can easily add, edit, or delete the attributes.
+**Attributs** : le panneau déroulant **Attributs** est disponible en vues Disposition, Auteur et Source. Vous pouvez facilement ajouter, modifier ou supprimer les attributs.
 
-1. Click **+ Add**.
+1. Cliquez sur **+ Ajouter**.
 
-   ![attributs dans les propriétés du contenu](images/properties-tab-attributes_cs.png){width="300" align="left"}
+   ![attributs dans les propriétés du contenu](images/properties-tab-attributes_cs.png){width="300"}
 
 1. Dans le panneau déroulant **Attribut**, sélectionnez l’attribut dans la liste déroulante et spécifiez une valeur d’attribut.  Cliquez ensuite sur **Ajouter**.
 
-   ![panneau attributs avec plusieurs attributs &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![panneau attributs avec plusieurs attributs ](images/attributes-multiple-properties.png){width="300"}
 
 1. Pour modifier l’attribut, passez la souris dessus et sélectionnez **Modifier** ![icône-d’édition](images/edit_pencil_icon.svg).
-   ![modifier les attributs](images/edit-attributes-content-properties.png){width="300" align="left"}
+   ![modifier les attributs](images/edit-attributes-content-properties.png){width="300"}
 
 1. Pour supprimer l’attribut, passez la souris dessus et sélectionnez **Supprimer** ![icône-de-suppression](images/Delete_icon.svg).
 
@@ -1995,7 +1995,7 @@ Les propriétés du fichier comportent les deux sections suivantes :
 
 La section Général vous donne accès aux fonctionnalités suivantes :
 
-![file-properties](images/file-properties-general.png){width="300" align="left"}
+![file-properties](images/file-properties-general.png){width="300"}
 
 - **Nom** : affiche le nom de fichier de la rubrique sélectionnée. Le nom du fichier est lié par un lien hypertexte à la page des propriétés du fichier sélectionné.
 - **ID** : affiche l’ID de la rubrique sélectionnée.
@@ -2004,7 +2004,7 @@ La section Général vous donne accès aux fonctionnalités suivantes :
 - **Langue** : affiche la langue de la rubrique. Elle est définie à partir du champ langue de la page des propriétés.
 - **Créé le** : affiche la date et l’heure de création de la rubrique.
 - **Extrait par** : affiche l’utilisateur qui a extrait la rubrique.
-- **État du document** : vous pouvez sélectionner et mettre à jour l’état du document de la rubrique actuellement ouverte. Pour plus d’informations, voir [État du document &#x200B;](web-editor-document-states.md#)*.*
+- **État du document** : vous pouvez sélectionner et mettre à jour l’état du document de la rubrique actuellement ouverte. Pour plus d’informations, voir [État du document ](web-editor-document-states.md#)*.*
 
 **Remarque :** vous pouvez copier dans le presse-papiers les valeurs d&#39;attribut des différents champs des propriétés du fichier.
 
@@ -2012,7 +2012,7 @@ La section Général vous donne accès aux fonctionnalités suivantes :
 
 La section Références vous donne accès aux fonctionnalités suivantes :
 
-![](images/file-properties-references.png){width="300" align="left"}
+![](images/file-properties-references.png){width="300"}
 
 - **Utilisé dans** : les références Utilisé(e)s dans répertorient les documents dans lesquels le fichier actuel est référencé ou utilisé.
 - **Liens sortants :** les liens sortants répertorient les documents auxquels le document actif fait référence.
@@ -2031,7 +2031,7 @@ Outre l’ouverture de fichiers, vous pouvez également effectuer de nombreuses 
 
 Cliquez sur l’icône Réviser pour ouvrir le panneau de révision dans lequel vous pouvez créer une tâche de révision pour le document actuellement ouvert.
 
-![](images/review-panel-before-opening.png){width="300" align="left"}
+![](images/review-panel-before-opening.png){width="300"}
 
 Si vous avez créé plusieurs projets de révision, vous pouvez en sélectionner un dans la liste déroulante et accéder aux commentaires de révision.
 
@@ -2047,4 +2047,4 @@ La fonction Modifications suivies du panneau de droite vous permet d’afficher 
 >
 > La fonction Suivi des modifications affiche toutes les mises à jour qui ont été suivies à l’aide de la fonction Activer/désactiver le suivi des modifications de la barre d’outils principale. Pour plus d’informations, voir [Activation/désactivation du suivi des modifications](#id205DF0203Y4).
 
-**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**[ Utiliser l’éditeur web](web-editor.md)

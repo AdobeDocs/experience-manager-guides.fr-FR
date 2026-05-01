@@ -4,9 +4,9 @@ description: Découvrez comment afficher le rapport de réutilisation du contenu
 exl-id: ccae4303-75b1-4077-829a-7ef6a14fd8ad
 feature: Report Generation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Pour afficher le rapport de réutilisation du contenu, procédez comme suit :
 
 1. Sélectionnez **Générer le rapport** pour obtenir le rapport de réutilisation du contenu.
 
-   ![](images/content-reuse-uuid.png){align="left"}
+   ![](images/content-reuse-uuid.png)
 
    La page du rapport est divisée en deux parties :
 
@@ -55,11 +55,11 @@ Pour afficher le rapport de réutilisation du contenu, procédez comme suit :
 
       - **Nombre de réutilisations** : nombre de fois où la rubrique correspondante a été réutilisée. Il s’agit de la somme des entrées des colonnes Référencé par moins 1.
 
-      - **Référencé par** : les rubriques dans lesquelles la rubrique correspondante a été référencée. Ici, seules les références directes \(premier niveau\) sont prises en compte. Plusieurs rubriques sont séparées par des virgules. L’UUID du fichier référencé est également mentionné entre parenthèses. Si vous sélectionnez le lien du titre de la rubrique, vous accédez à l’aperçu de la rubrique.
+      - **Référencé par** : les rubriques dans lesquelles la rubrique correspondante a été référencée. Ici, seules les références directes \(premier niveau\) sont prises en compte. Plusieurs rubriques sont séparées par des virgules. L&#39;UUID du fichier référencé est également mentionné entre parenthèses.Si vous sélectionnez dans le lien du titre de la rubrique, l’aperçu de la rubrique s’ouvre.
 
 
 >[!NOTE]
 >
 > Vous pouvez également exporter le rapport de réutilisation du contenu au format CSV. Pour ce faire, sélectionnez Exporter au format CSV dans le coin supérieur gauche de l’écran et choisissez un emplacement pour enregistrer le fichier CSV. Vous pouvez ensuite ouvrir ce fichier CSV dans n’importe quel éditeur CSV.
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation des rapports](reports-intro.md)
+**Rubrique parente :**[ Présentation des rapports](reports-intro.md)

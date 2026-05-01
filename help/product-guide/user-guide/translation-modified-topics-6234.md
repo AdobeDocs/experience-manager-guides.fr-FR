@@ -4,9 +4,9 @@ description: Découvrez comment retraduire une rubrique modifiée dans AEM Guide
 exl-id: b3228ea9-24a8-44aa-8ba4-e8f44754ffe4
 feature: Translation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Effectuez les étapes suivantes pour envoyer une rubrique modifiée pour retradu
 
    Si vous sélectionnez la flèche pour afficher plus de détails, vous pouvez afficher la copie de langue spécifique qui n’est pas synchronisée.
 
-   ![](images/out-of-sync-uuid-new.png){align="left"}
+   ![](images/out-of-sync-uuid-new.png)
 
 1. Cochez la case pour sélectionner les rubriques à envoyer pour une nouvelle traduction.
 
@@ -53,7 +53,7 @@ Effectuez les étapes suivantes pour envoyer une rubrique modifiée pour retradu
 
 1. Accédez au projet de traduction dans la console Projet. Une nouvelle carte de tâche de traduction est créée dans le dossier . Sélectionnez les points de suspension pour afficher les ressources du dossier.
 
-   ![](images/incremental-job-new.png){width="300" align="left"}
+   ![](images/incremental-job-new.png){width="300"}
 
 1. Pour commencer la traduction, cliquez sur la flèche sur la carte Tâche de traduction et sélectionnez **Démarrer** dans la liste. Un message indique que le traitement a commencé.
 
@@ -78,4 +78,4 @@ Effectuez les étapes suivantes pour envoyer une rubrique modifiée pour retradu
 1. Revenez au fichier de mappage DITA dans le dossier de langue source dans l’interface utilisateur d’Assets. Les rubriques retraduites sont désormais synchronisées.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de la traduction de contenu](translation.md)
+**Rubrique parente :**[ Présentation de la traduction de contenu](translation.md)

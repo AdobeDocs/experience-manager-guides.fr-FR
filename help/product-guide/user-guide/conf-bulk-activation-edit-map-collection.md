@@ -4,7 +4,7 @@ description: Utilisez le tableau de bord de publication en masse dans AEM Guides
 exl-id: 5f897c52-5d6e-4614-a14f-1806e085c21c
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 1350304943e86f4f9c5270eaedd36eacb25a6b0f
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 2%
@@ -21,7 +21,7 @@ Vous pouvez modifier une collection de mappages d’activation en bloc en ajouta
 
 1. Sélectionnez la mosaïque **Tableau de bord de publication en bloc**.
 
-   Le tableau de bord de publication en bloc s’affiche avec une liste de collections de mappages d’activation en bloc. Vous pouvez également accéder à ce tableau de bord à partir du panneau de gauche de la page d’accueil d’Adobe Experience Manager Guides [&#128279;](intro-home-page.md).
+   Le tableau de bord de publication en bloc s’affiche avec une liste de collections de mappages d’activation en bloc. Vous pouvez également accéder à ce tableau de bord à partir du panneau de gauche de la page d’accueil d’Adobe Experience Manager Guides [](intro-home-page.md).
 
 1. Sélectionnez la collection à modifier, puis sélectionnez **Ouvrir**.
 
@@ -42,11 +42,11 @@ Vous pouvez afficher les différents types de paramètres prédéfinis de sortie
 
 1. Sélectionnez **Supprimer**.
 
-   ![](images/bulk-activation-delete-map.png){width="600" align="left"}
+   ![](images/bulk-activation-delete-map.png){width="600"}
 
    Le mappage sélectionné est supprimé de la collection de mappages d’activation en bloc.
 
 1. Sélectionnez **Terminé**.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Activation en bloc du contenu publié](conf-bulk-activation.md)
+**Rubrique parente :**[ Activation en bloc du contenu publié](conf-bulk-activation.md)

@@ -1,17 +1,17 @@
 ---
-title: Base de connaissances
+title: Knowledge Base
 description: Découvrez comment créer un paramètre prédéfini de la base de connaissances à partir de la console Carte. Configurez le paramètre prédéfini de sortie de la base de connaissances dans AEM Guides.
 feature: Publishing
 role: User
 exl-id: 31fdfd96-377c-406b-96ed-59a80bf6e03e
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1333'
 ht-degree: 1%
 
 ---
 
-# Base de connaissances {#knowledge-base}
+# Knowledge Base {#knowledge-base}
 
 Pour créer le préréglage **Base de connaissances** à partir de la console Carte, procédez comme suit :
 
@@ -20,9 +20,9 @@ Pour créer le préréglage **Base de connaissances** à partir de la console Ca
    Vous pouvez également accéder au fichier de mappage à partir du widget **Fichiers récents** dans la section [Aperçu](./intro-home-page.md#overview). Le fichier de mappage sélectionné s’ouvre dans la console Mappage .
 1. Dans l’onglet **Paramètres prédéfinis de sortie**, sélectionnez l’icône + pour créer un paramètre prédéfini de sortie.
 1. Sélectionnez **Base de connaissances** dans la liste déroulante Type de la boîte de dialogue **Nouveau paramètre prédéfini de sortie**.
-1. Dans le champ **Cible**, sélectionnez une cible pour la sortie générée. Les options disponibles sont les suivantes : **Adobe Experience Manager**, **Salesforce** et **ServiceNow**.
+1. Dans le champ **Cible**, sélectionnez une cible pour la sortie générée. Les options disponibles sont les suivantes : ****, **Salesforce** et **ServiceNow**.
 
-   ![](./images/knowledge-base-preset-dialog-box.png){width="350" align="left"}
+   ![](./images/knowledge-base-preset-dialog-box.png){width="350"}
 
 1. Sélectionnez l’option **Ajouter au profil du dossier actuel** pour créer un paramètre prédéfini de sortie dans le profil du dossier actuel. L’![icône de profil de dossier](images/global-preset-icon.svg) indique un paramètre prédéfini au niveau du profil de dossier.
 
@@ -37,7 +37,7 @@ Pour créer le préréglage **Base de connaissances** à partir de la console Ca
 
 Les options de configuration des paramètres prédéfinis de la base de connaissances sont organisées sous les onglets **Général**, **Articles** et cible sélectionnée (**AEM**/ **ServiceNow**/ **Salesforce**).
 
-![](./images/kb-aem-preset.png){width="550" align="left"}
+![](./images/kb-aem-preset.png){width="550"}
 
 ### Général
 
@@ -45,7 +45,7 @@ Les options de configuration suivantes sont disponibles sous l’onglet **Géné
 
 | Options de la base de connaissances | Description |
 | --- | --- |
-| Application de conditions à l’aide de | Sélectionnez l’une des options suivantes :<br><br>* **Aucune appliquée** : sélectionnez cette option si vous ne souhaitez appliquer aucune condition sur la sortie publiée.<br>* **Fichier DITAVAL** : Sélectionnez le ou les fichiers DITAVAL pour générer du contenu personnalisé. Vous pouvez sélectionner plusieurs fichiers DITAVAL à l’aide de la boîte de dialogue de navigation ou en saisissant le chemin d’accès au fichier. Utilisez la croix près du nom du fichier pour le supprimer. Les fichiers DITAVAL sont évalués dans l&#39;ordre spécifié. Les conditions spécifiées dans le premier fichier sont donc prioritaires sur les conditions correspondantes spécifiées dans les fichiers ultérieurs. Vous pouvez conserver l’ordre des fichiers en ajoutant ou en supprimant des fichiers. Si le fichier DITAVAL est déplacé vers un autre emplacement ou supprimé, il n’est pas automatiquement supprimé du paramètre prédéfini. Vous devez mettre à jour l’emplacement au cas où les fichiers seraient déplacés ou supprimés. Vous pouvez pointer sur le nom du fichier pour afficher le chemin d’accès dans le référentiel Adobe Experience Manager où le fichier est stocké. Vous pouvez uniquement sélectionner des fichiers DITAVAL, et une erreur s&#39;affiche si vous sélectionnez un autre type de fichier.<br><br> **Remarque** : tenez compte des points suivants lors de l’utilisation du filtrage DITAVAL pour la publication **Salesforce** : <br> - Seules les actions `Include` et `Exclude` sont prises en charge pour chaque propriété DITAVAL.<br> - L’indicateur pour marquer ou mettre en évidence visuellement du contenu conditionnel dans la sortie n’est pas pris en charge.<br> - Dans les paramètres prédéfinis de sortie, un seul fichier DITAVAL peut être sélectionné pour la publication ; plusieurs sélections de fichiers DITAVAL ne sont pas prises en charge pour la publication Salesforce. <br>- Les références `ditavalref` dans le contenu ne sont pas prises en charge. <br><br> **Paramètre prédéfini de condition** : sélectionnez un paramètre prédéfini de condition dans la liste déroulante pour appliquer une condition lors de la publication de la sortie. Cette option est visible si vous avez ajouté une condition présente dans l&#39;onglet Paramètres prédéfinis de condition de la console de mappage DITA. Pour en savoir plus sur les paramètres prédéfinis de condition, voir [Utilisation des paramètres prédéfinis de condition](generate-output-use-condition-presets.md#id1825FL004PN). |
+| Application de conditions à l’aide de | Sélectionnez l’une des options suivantes :<br><br>* **Aucune application** : sélectionnez cette option si vous ne souhaitez appliquer aucune condition sur la sortie publiée.<br>* **Fichier DITAVAL** : sélectionnez le ou les fichiers DITAVAL pour générer du contenu personnalisé. Vous pouvez sélectionner plusieurs fichiers DITAVAL à l’aide de la boîte de dialogue de navigation ou en saisissant le chemin d’accès au fichier. Utilisez la croix près du nom du fichier pour le supprimer. Les fichiers DITAVAL sont évalués dans l&#39;ordre spécifié. Les conditions spécifiées dans le premier fichier sont donc prioritaires sur les conditions correspondantes spécifiées dans les fichiers ultérieurs. Vous pouvez conserver l’ordre des fichiers en ajoutant ou en supprimant des fichiers. Si le fichier DITAVAL est déplacé vers un autre emplacement ou supprimé, il n’est pas automatiquement supprimé du paramètre prédéfini. Vous devez mettre à jour l’emplacement au cas où les fichiers seraient déplacés ou supprimés. Vous pouvez pointer sur le nom du fichier pour afficher le chemin d’accès dans le référentiel Adobe Experience Manager où le fichier est stocké. Vous pouvez uniquement sélectionner des fichiers DITAVAL, et une erreur s&#39;affiche si vous sélectionnez un autre type de fichier.<br><br> **Remarque** : tenez compte des points suivants lors de l’utilisation du filtrage DITAVAL pour la publication **Salesforce** : <br> - Seules les actions `Include` et `Exclude` sont prises en charge pour chaque propriété DITAVAL.<br> - Le marquage pour marquer ou mettre en évidence visuellement du contenu conditionnel dans la sortie n’est pas pris en charge.<br> - Dans les paramètres prédéfinis de sortie, un seul fichier DITAVAL peut être sélectionné pour la publication ; plusieurs sélections de fichiers DITAVAL ne sont pas prises en charge pour la publication Salesforce. <br>- Les références `ditavalref` dans le contenu ne sont pas prises en charge. <br><br> **Paramètre prédéfini de condition** : sélectionnez un paramètre prédéfini de condition dans la liste déroulante pour appliquer une condition lors de la publication de la sortie. Cette option est visible si vous avez ajouté une condition présente dans l&#39;onglet Paramètres prédéfinis de condition de la console de mappage DITA. Pour en savoir plus sur les paramètres prédéfinis de condition, voir [Utilisation des paramètres prédéfinis de condition](generate-output-use-condition-presets.md#id1825FL004PN). |
 | Utiliser niveau de référence | Si vous avez créé une ligne de base pour le plan DITA sélectionné, sélectionnez cette option pour spécifier la version que vous souhaitez publier.<br><br>Affichage [Utilisation de la ligne de base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) pour plus d’informations. |
 | Workflow de post-génération | Lorsque vous sélectionnez cette option, une nouvelle liste déroulante Workflow de post-génération contenant tous les workflows configurés dans Adobe Experience Manager s’affiche. Vous devez sélectionner un workflow à exécuter une fois la génération de sortie terminée.<br><br>**Remarque** : pour en savoir plus sur la [personnalisation du workflow de génération post-sortie](../cs-install-guide/customize-workflows.md#id17A6GI004Y4), consultez le Guide d’installation et de configuration des services cloud. |
 
@@ -60,7 +60,7 @@ Les options de configuration changent en fonction de la cible que vous sélectio
 
 **Adobe Experience Manager**
 
-Les options de configuration suivantes s&#39;affichent pour **Adobe Experience Manager** en tant que cible :
+Les options de configuration suivantes s&#39;affichent pour **** en tant que cible :
 
 
 >[!NOTE]
@@ -86,17 +86,17 @@ Les options de configuration suivantes s’affichent pour **ServiceNow** en tant
 
 | Options ServiceNow | Description |
 | --- | --- |
-| Profil de publication | Utilisez la liste déroulante pour sélectionner un profil de connexion ServiceNow configuré par votre administrateur. Pour en savoir plus sur la manière dont votre administrateur peut créer un profil de publication, consultez la description de la fonctionnalité **Paramètres Workspace** (apparaissant sous la forme **Paramètres** pour **On-Prem**) dans la section [Panneau de gauche](./web-editor-features.md#id2051EA0M0HS). |
-| Base de connaissances | Utilisez ce champ pour sélectionner la base de connaissances ServiceNow requise. Vous pouvez configurer les bases de connaissances sur le site ServiceNow pour stocker le contenu en fonction des autorisations. Les articles de ce plan DITA peuvent être publiés dans ces bases de connaissances. |
+| Profil de publication | Utilisez la liste déroulante pour sélectionner un profil de connexion ServiceNow configuré par votre administrateur. Pour en savoir plus sur la manière dont votre administrateur peut créer un profil de publication, consultez la description de la fonctionnalité **Paramètres** (apparaissant sous la forme **Paramètres** pour **On-Prem**) dans la section [Panneau de gauche](./web-editor-features.md#id2051EA0M0HS). |
+| Knowledge Base | Utilisez ce champ pour sélectionner la base de connaissances ServiceNow requise. Vous pouvez configurer les bases de connaissances sur le site ServiceNow pour stocker le contenu en fonction des autorisations. Les articles de ce plan DITA peuvent être publiés dans ces bases de connaissances. |
 | Catégorie et sous-catégorie | Les catégories sont comme des arborescences hiérarchiques utilisées pour rechercher et classer les articles de la base de connaissances ServiceNow. Ajoutez une catégorie et une sous-catégorie pour publier les rubriques et sous-rubriques de la table des matières dans cette catégorie et sous-catégorie sur le site ServiceNow. |
 
-**Salesforce**
+****
 
-Les options de configuration suivantes s&#39;affichent pour **Salesforce** en tant que cible :
+Les options de configuration suivantes s&#39;affichent pour **** en tant que cible :
 
 | Options de Salesforce | Description |
 | --- | --- |
-| Profil de publication | Utilisez la liste déroulante pour effectuer une sélection parmi les profils de connexion Salesforce configurés par votre administrateur. Pour en savoir plus sur la manière dont votre administrateur peut créer un profil de publication, consultez la description de la fonctionnalité **Paramètres Workspace** (apparaissant sous la forme **Paramètres** pour **On-Prem**) dans [Barre d’onglets](./web-editor-tab-bar.md). |
+| Profil de publication | Utilisez la liste déroulante pour effectuer une sélection parmi les profils de connexion Salesforce configurés par votre administrateur. Pour en savoir plus sur la manière dont votre administrateur peut créer un profil de publication, consultez la description de la fonctionnalité **Paramètres** (apparaissant sous la forme **Paramètres** pour **On-Prem**) dans [Barre d’onglets](./web-editor-tab-bar.md). |
 | Type d’enregistrement | Utilisez la liste déroulante pour sélectionner parmi les types d’enregistrements configurés dans Salesforce en fonction des paramètres de visibilité basés sur votre profil utilisateur. Les types d’enregistrements Salesforce permettent de regrouper de nombreux enregistrements d’un type pour cet objet. Elles définissent l&#39;organisation de votre publication. Par exemple, vous pouvez sélectionner le type d’enregistrement FAQ et publier en fonction de la mise en page et des champs de la page FAQ. |
 | Champ de contenu d’article | Vous pouvez disposer de différents champs et d’une mise en page unique pour chaque modèle de type d’enregistrement. Utilisez ces champs pour saisir des informations spécifiques en fonction du type d’article. Par exemple, vous pouvez afficher le titre, la réponse et l’équation d’un article de FAQ. |
 | Catégories | Sélectionnez une catégorie dans la liste déroulante pour publier les rubriques de la table des matières de cette catégorie sur le site Salesforce. |

@@ -4,7 +4,7 @@ description: Découvrez comment créer des attributs conditionnels dans AEM Guid
 exl-id: 5ec7666e-df6b-4b0d-b6c2-cdc395fcccc5
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Pour définir des attributs conditionnels, procédez comme suit :
 
    La capture d’écran suivante montre la définition de l’attribut `platform` avec la valeur `unix` et un libellé `Red Hat Linux`.
 
-   ![](images/add-profile-new.png){align="left"}
+   ![](images/add-profile-new.png)
 
 1. Si vous souhaitez ajouter d’autres valeurs pour le même attribut, sélectionnez l’icône **+** et saisissez une valeur et un libellé supplémentaires.
 
@@ -56,6 +56,6 @@ Pour définir des attributs conditionnels, procédez comme suit :
 
 L’attribut `platform` est stocké dans le système. Chaque fois qu’un auteur décide d’utiliser l’attribut `platform` dans une rubrique DITA d’un dossier, il peut afficher les valeurs dans l’onglet Propriétés de l’éditeur.
 
-![](images/properties-tab.png){width="350" align="left"}
+![](images/properties-tab.png){width="350"}
 
-**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)
+**Rubrique parente :**[ Génération de sortie](generate-output.md)

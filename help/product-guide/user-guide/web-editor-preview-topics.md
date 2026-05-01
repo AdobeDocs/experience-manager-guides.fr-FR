@@ -4,9 +4,9 @@ description: Découvrez comment prévisualiser une rubrique dans Adobe Experienc
 exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
 feature: Authoring
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1988'
+source-wordcount: '1991'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Pour prévisualiser une rubrique à partir de l’éditeur, procédez comme suit
 1. Dans le panneau Référentiel, accédez à la rubrique que vous souhaitez afficher.
 1. Pointez sur la rubrique à prévisualiser et sélectionnez **Aperçu** dans le menu Options.
 
-   ![](images/preview-topic.png){width="600" align="left"}
+   ![](images/preview-topic.png){width="600"}
 
    L’aperçu de la rubrique s’affiche.
 
-   ![](images/preview-pop-up.png){align="left"}
+   ![](images/preview-pop-up.png)
 
 **Aperçu des rubriques en mode Aperçu**
 
@@ -61,7 +61,7 @@ Pour prévisualiser une rubrique, procédez comme suit :
 
 Les opérations suivantes sont disponibles dans la barre d’outils lors de l’utilisation de la fonction Aperçu de l’interface utilisateur d’Assets :
 
-![](images/preview-screen.png){align="left"}
+![](images/preview-screen.png)
 
 
 **Propriétés**
@@ -78,7 +78,7 @@ Les références **Utilisé dans** répertorient les documents dans lesquels le 
 
 L’icône \(+\) de la section Références **Utilisé dans** vous permet de naviguer plus haut pour trouver où cette rubrique est utilisée ou référencée.
 
-![](images/used-in-dialog_cs.png){align="left"}
+![](images/used-in-dialog_cs.png)
 
 Si vous sélectionnez l’icône ![](images/right-arrow-used-in-dialog.svg) en regard d’un document, les fichiers de carte ou de rubrique dans lesquels ce document est référencé s’affichent.
 
@@ -90,7 +90,7 @@ Si votre rubrique comporte du contenu conditionnel, l’icône A/B de la barre d
 >
 > Le contenu conditionnel est mis en surbrillance à l’aide d’un arrière-plan clair dans l’éditeur.
 
-![](images/conditional-popup_cs.png){width="300" align="left"}
+![](images/conditional-popup_cs.png){width="300"}
 
 **Modifier**
 
@@ -108,7 +108,7 @@ Si votre rubrique comporte du contenu conditionnel, l’icône A/B de la barre d
   >
   > Pour obtenir l&#39;affichage du code source d&#39;un fichier de plan DITA, sélectionnez le fichier dans l&#39;interface utilisateur d&#39;Assets et sélectionnez Source.
 
-  ![](images/xml-source-code-view-from-preview_cs.png){align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png)
 
 **Partager un lien UUID**
 
@@ -120,7 +120,7 @@ Si votre rubrique comporte du contenu conditionnel, l’icône A/B de la barre d
 
 Une nouvelle option **Partager le lien UUID** s’affiche dans la barre d’outils des zones mentionnées ci-dessus. La capture d’écran suivante présente l’option **Partager le lien UUID** en mode Aperçu d’une rubrique :
 
-![](images/share-uuid-link_cs.png){align="left"}
+![](images/share-uuid-link_cs.png)
 
 Dans l’interface utilisateur d’Assets, cette option est visible lorsque vous sélectionnez un fichier. En mode Aperçu , cette option est disponible par défaut dans la barre d’outils principale. Dans une console de plan DITA, cette option est visible dans la section Paramètres prédéfinis de sortie .
 
@@ -140,15 +140,15 @@ Lorsque vous extrayez une rubrique, le statut du fichier s’affiche comme extra
 
 Fichier extrait en mode Carte :
 
-![](images/checkout-card-62.png){width="300" align="left"}
+![](images/checkout-card-62.png){width="300"}
 
 Fichier extrait dans la vue Liste :
 
-![](images/checkout-list-62.png){width="550" align="left"}
+![](images/checkout-list-62.png){width="550"}
 
 Si la colonne Extrait n’est pas visible, sélectionnez **Paramètres d’affichage** sous **Vue Liste** et sélectionnez le statut **Extrait** dans la boîte de dialogue **Configurer les colonnes**.
 
-![](images/list-view-settings-check-out_cs.png){align="left"}
+![](images/list-view-settings-check-out_cs.png)
 
 >[!TIP]
 >
@@ -166,17 +166,17 @@ Si la colonne Extrait n’est pas visible, sélectionnez **Paramètres d’affic
 
    1. Dans le rail de gauche, sélectionnez **Historique des versions** et sélectionnez une version.
 
-      ![](images/timeline-versions62_cs.png){align="left"}
+      ![](images/timeline-versions62_cs.png)
 
    1. Dans la liste des versions, sélectionnez celle que vous souhaitez utiliser comme version de base et sélectionnez **Aperçu de la version**. La prévisualisation de la version sélectionnée s’affiche dans la fenêtre Aperçu de la version .
 
    1. Dans la liste **Afficher la différence**, sélectionnez la version avec laquelle vous souhaitez comparer la version de base.
 
-      ![](images/show-diff-list-cropped.png){align="left"}
+      ![](images/show-diff-list-cropped.png)
 
       Le contenu modifié est mis en surbrillance dans l’aperçu de la rubrique. Le contenu surligné en vert signifie que le contenu qui vient d’être ajouté et le contenu en rouge est le contenu supprimé.
 
-      ![](images/version-difference.png){align="left"}
+      ![](images/version-difference.png)
 
 
 ## Branche, rétablissement et contrôle de version ultérieur
@@ -217,7 +217,7 @@ Si la colonne Extrait n’est pas visible, sélectionnez **Paramètres d’affic
 
    1. Sélectionnez une version à partir de laquelle vous souhaitez créer une branche. Dans la capture d’écran suivante, la version 1.2 est sélectionnée pour la création d’une branche.
 
-      ![](images/branching.png){width="300" align="left"}
+      ![](images/branching.png){width="300"}
 
       >[!NOTE]
       >
@@ -231,19 +231,19 @@ Si la colonne Extrait n’est pas visible, sélectionnez **Paramètres d’affic
 
       - Si vous sélectionnez cette option, une branche est créée à partir de la version 1.1. De plus, une nouvelle version de la rubrique est également créée à partir de la copie de travail actuelle de la rubrique et enregistrée comme version suivante : 1.4.
 
-        ![](images/next_version_created_over_working_copy.png){width="300" align="left"}
+        ![](images/next_version_created_over_working_copy.png){width="300"}
 
         La version 1.2 devient votre copie de travail actuelle de la rubrique. Toute version enregistrée après cela est créée dans la nouvelle branche de 1.1. Par exemple, la version suivante d’une nouvelle rubrique dans cette branche sera enregistrée en tant que 1.2.0.
 
-        ![](images/new_version_in_branch.png){width="300" align="left"}
+        ![](images/new_version_in_branch.png){width="300"}
 
       - Si vous ne sélectionnez pas cette option, aucune nouvelle version de la copie de travail actuelle de la rubrique n&#39;est créée. Une nouvelle branche est créée à partir de la version 1.2 de la rubrique. Toute version ultérieure de la rubrique est enregistrée sous la branche 1.2 en tant que 1.2.0, 1.2.1, etc.
 
-        ![](images/new_version_without_working_copy.png){width="300" align="left"}
+        ![](images/new_version_without_working_copy.png){width="300"}
 
    1. Sélectionnez **OK**.
 
 
   Une nouvelle branche est créée à partir de la version sélectionnée de la rubrique. Le processus ci-dessus s’applique également pour revenir à une version spécifique d’une rubrique. Le retour à une version spécifique signifie techniquement que vous créez une branche à partir de la version sélectionnée et que vous faites de cette version la copie de travail actuelle de la rubrique. Vous pouvez également afficher l’historique des fichiers qui ont été rétablis dans le rapport Historique de rétablissement de version. Pour plus d’informations sur ce rapport, consultez la section [Historique des versions des fichiers rétablis](reports-reverted-file-version-history.md#).
 
-**Rubrique parente :**&#x200B;[&#x200B; Créer et prévisualiser des rubriques](create-preview-topics.md)
+**Rubrique parente :**[ Créer et prévisualiser des rubriques](create-preview-topics.md)

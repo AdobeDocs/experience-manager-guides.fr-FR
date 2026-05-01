@@ -5,7 +5,7 @@ exl-id: 6e6dbba3-da41-4066-b7b2-735a3d92b70a
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
@@ -38,7 +38,7 @@ La définition suivante de la classe `custom-bookmark` est ajoutée dans le fich
 
 Dans la sortie PDF, le tableau *Liste de contacts* est ajouté au 2e niveau de la liste des signets PDF, comme dans l&#39;exemple ci-dessous :
 
-![](assets/custom-bookmark-in-pdf-output.png) {width="300" align="left"}
+![](assets/custom-bookmark-in-pdf-output.png) {width="300"}
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Pour supprimer le titre du contenu des signets, procédez étape par étape comm
 1. Ouvrez le modèle PDF que vous utilisez pour la sortie PDF.
 2. Ouvrez la **page de la table des matières** dans **mises en page**.
 La page Table des matières s’affiche à droite.
-3. Passez en mode **&#x200B;**&#x200B;et modifiez l&#39;élément dans lequel se trouve le contenu de `<h1>` en `<p>`.
+3. Passez en mode **** et modifiez l&#39;élément dans lequel se trouve le contenu de `<h1>` en `<p>`.
 
 Avant la modification :
 

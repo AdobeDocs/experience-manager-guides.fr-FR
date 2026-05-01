@@ -5,7 +5,7 @@ feature: Metadata Management
 role: User
 hide: true
 exl-id: dd5b2648-37e1-4737-bd9d-8618f735d11f
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -26,12 +26,12 @@ Pour créer des balises intelligentes, procédez comme suit :
 1. Ouvrez la rubrique en mode Aperçu et sélectionnez l’icône **Retraiter Assets** dans la barre d’outils principale.
 1. Sélectionnez Extraction de mots-clés XML pour extraire les mots-clés pertinents.
 
-   ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}
+   ![](images/smart-tag-reprocess-asset.png){width="300"}
 
 1. Sélectionnez l’option Exécuter le post-traitement . Un message s’affiche lorsque l’outil a été lancé avec succès.
 1. Les balises sont automatiquement extraites et sont visibles dans la page Propriétés de la rubrique sélectionnée.
 
-   ![](images/properties-smart-tags.png){width="800" align="left"}
+   ![](images/properties-smart-tags.png){width="800"}
 
    >[!NOTE]
    >
@@ -40,4 +40,4 @@ Pour créer des balises intelligentes, procédez comme suit :
 
 *Contactez votre équipe du succès client pour que cette fonctionnalité soit activée dans l’environnement. Cette fonctionnalité n’est pas activée dans le cadre de la prise en charge prête à l’emploi.*
 
-**Rubrique parente :**&#x200B;[&#x200B; Gérer les métadonnées](manage-metadata.md)
+**Rubrique parente :**[ Gérer les métadonnées](manage-metadata.md)

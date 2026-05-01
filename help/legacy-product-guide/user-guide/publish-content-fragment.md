@@ -1,11 +1,11 @@
 ---
-title: Publish a topic to a Content Fragment
-description: Publish a topic or the elements within a topic to a Content Fragment in AEM Guides.  Learn how to view the Content Fragments present for a topic and republish them.
+title: Publication d’une rubrique dans un fragment de contenu
+description: Publier une rubrique ou les éléments d’une rubrique dans un fragment de contenu dans AEM Guides.  Découvrez comment afficher les fragments de contenu présents pour une rubrique et les republier.
 feature: Publishing
 role: User
 hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 2%
@@ -14,34 +14,34 @@ ht-degree: 2%
 
 # Publier des fragments de contenu
 
-Content Fragments are discrete pieces of content in Adobe Experience Manager. They are structured content based on a content model. Content Fragments are pure content without design or layout information. They can be authored and managed independently of the channels that Adobe Experience Manager supports. Content Fragments are modular, where content is broken down into smaller components.
+Les fragments de contenu sont des éléments de contenu distincts dans Adobe Experience Manager. Il s’agit de contenu structuré basé sur un modèle de contenu. Les fragments de contenu sont du contenu pur sans informations de conception ou de disposition. Ils peuvent être créés et gérés indépendamment des canaux pris en charge par Adobe Experience Manager. Les fragments de contenu sont modulaires, où le contenu est divisé en composants plus petits.
 
-Experience Manager Guides allows you to publish a topic or its elements to a content fragment.
+Experience Manager Guides vous permet de publier une rubrique ou ses éléments dans un fragment de contenu.
 
 >[!NOTE]
 >
->You can choose only those elements in a topic that have an id attribute  defined.
+>Vous ne pouvez choisir que les éléments d&#39;une rubrique pour lesquels un attribut id est défini.
 
 
-To create a Content Fragment, perform the following steps:
+Pour créer un fragment de contenu, procédez comme suit :
 
-1. Create a [Content Fragment model](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=fr) in Adobe Experience Manager Assets.
-1. Create a folder where you want to save the Content Fragments that you create based on the Content Fragment model. For example, &quot;stock-content-fragments&quot;.
-1. Edit the folder&#39;s properties (for example, &quot;stock-content-fragments&quot;) and add the path of the folder, which contains the Content Fragment model in the cloud configuration.
-For example, add `/conf/we-retail` in the cloud configuration. This configuration connects all the Content Fragment models with the folder.\
-   ![ajoutez les détails de la configuration cloud dans les propriétés du dossier](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
-   *Add the cloud configuration in the folder properties to connect it with the fragment models.*
+1. Créez un [modèle de fragment de contenu](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=fr) dans Adobe Experience Manager Assets.
+1. Créez un dossier dans lequel vous souhaitez enregistrer les fragments de contenu que vous créez en fonction du modèle de fragment de contenu. Par exemple, « stock-content-fragments ».
+1. Modifiez les propriétés du dossier (par exemple, « stock-content-fragments ») et ajoutez le chemin du dossier, qui contient le modèle de fragment de contenu dans la configuration cloud.
+Par exemple, ajoutez `/conf/we-retail` dans la configuration cloud. Cette configuration connecte tous les modèles de fragment de contenu au dossier.\
+   ![ajoutez les détails de la configuration cloud dans les propriétés du dossier](images/fragment-folder-cloud-configuration.png){width="650"}
+   *Ajoutez la configuration cloud dans les propriétés du dossier pour la connecter aux modèles de fragment.*
 
-1. To generate a Content Fragment, select **New Output** ![new output icon](./images/Add_icon.svg) from the **Outputs** section in the **File Properties** of a topic.
-1. Select **Content Fragment**.\
-   ![file properties options tab](./images/file-properties-outputs-tab.png) {width="300" align="left"}
+1. Pour générer un fragment de contenu, sélectionnez **Nouvelle sortie** ![nouvelle icône de sortie](./images/Add_icon.svg) dans la section **Sorties** de la **Propriétés du fichier** d’une rubrique.
+1. Sélectionnez **Fragment de contenu**.\
+   ![onglet options des propriétés du fichier](./images/file-properties-outputs-tab.png) {width="300"}
 
-   *Add a new Content Fragment from the File Properties of a topic*.
+   *Ajoutez un nouveau fragment de contenu à partir des propriétés de fichier d’une rubrique*.
 
-1. In the **Generate Content Fragment** dialog box, fill in the following details under the **General** and **Mapping** tabs.
+1. Dans la boîte de dialogue **Générer le fragment de contenu**, renseignez les informations suivantes sous les onglets **Général** et **Mappage**.
 
-   **General** tab
-   ![&#x200B; Ajouter le modèle de fragment et les détails de mappage dans la boîte de dialogue Publier en tant que fragment de contenu .](images/generate-content-fragment.png)
+   Onglet **Général**
+   ![ Ajouter le modèle de fragment et les détails de mappage dans la boîte de dialogue Publier en tant que fragment de contenu .](images/generate-content-fragment.png)
    *Ajoutez le chemin, le nom, le titre et le filtrage des conditions pour publier une rubrique ou ses éléments en tant que fragment de contenu.*
 
 
@@ -82,7 +82,7 @@ Le contenu du fragment de contenu publié s’il existe un fragment de contenu e
 
 1. Vous pouvez afficher les fragments de contenu d’une rubrique dans la section **Sorties** de la **Propriétés du fichier**.
 
-   ![Affichage des fragments de contenu d’une rubrique](images/outputs-options-menu.png){width="300" align="left"}
+   ![Affichage des fragments de contenu d’une rubrique](images/outputs-options-menu.png){width="300"}
 
    *Afficher les fragments de contenu présents pour une rubrique et les republier.*
 

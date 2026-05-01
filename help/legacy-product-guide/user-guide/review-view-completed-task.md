@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: f74269fe-a7a9-4bb3-b476-f8214387ffd0
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -22,7 +22,7 @@ En tant que réviseur ou réviseuse, vous pouvez voir un indicateur dans le pann
 
 Vous pouvez toutefois rechercher ou filtrer des commentaires. Vous pouvez également choisir d’afficher ou de masquer des conditions et d’afficher du contenu conditionné en conséquence. Vous pouvez télécharger des pièces jointes, mais vous ne pouvez ni télécharger ni supprimer de pièces jointes pour les commentaires.
 
-![](images/complete-task-reviewer.png){width="800" align="left"}
+![](images/complete-task-reviewer.png){width="800"}
 
 
 ## En tant qu’auteur
@@ -31,6 +31,6 @@ En tant qu’auteur, vous pouvez voir le statut comme fermé dans le panneau de 
 
 Vous pouvez toutefois rechercher ou filtrer des commentaires. Vous pouvez télécharger des pièces jointes, mais vous ne pouvez ni télécharger ni supprimer de pièces jointes pour les commentaires.
 
-![](images/completed-task-author.png){width="800" align="left"}
+![](images/completed-task-author.png){width="800"}
 
 Ainsi, en tant que réviseur ou auteur, vous pouvez afficher le contenu révisé avec les commentaires, mais vous ne pouvez pas apporter de modifications à une tâche de révision terminée.

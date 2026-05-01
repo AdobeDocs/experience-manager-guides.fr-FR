@@ -1,10 +1,11 @@
 ---
 title: Configurer l’assistant AI pour l’aide et la création intelligentes
 description: Découvrez comment configurer l’assistant AI dans Experience Manager Guides
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 59da626d-8433-44c6-ba69-654c7796a264
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 0%
+source-wordcount: '992'
+ht-degree: 1%
 
 ---
 
@@ -30,21 +31,21 @@ Pour créer des configurations IMS dans Adobe Developer Console, procédez comme
 >
 >Si vous avez déjà créé un projet OAuth pour configurer la publication basée sur un microservice, vous pouvez ignorer les étapes suivantes pour créer le projet.
 
-1. Lancer [&#128279;](https://developer.adobe.com/console).
+1. Lancer [](https://developer.adobe.com/console).
 1. Une fois la connexion à Developer Console établie, l’écran **Accueil** s’affiche. L’écran **Accueil** vous permet de trouver facilement des informations et des liens rapides, y compris des liens de navigation supérieure vers les projets et les téléchargements.
 1. Pour créer un projet vide, sélectionnez **Créer un projet** parmi les liens **Démarrage rapide**.
-   ![Liens de démarrage rapide](assets/conf-ss-quick-start.png) {width="550" align="left"}
+   ![Liens de démarrage rapide ](assets/conf-ss-quick-start.png) {width="550"}
    *Créer un projet.*
 
 1. Sélectionnez **Ajouter une API** dans l’écran **Projets**.  L’écran **Ajouter une API** s’affiche. Cet écran affiche tous les API, événements et services disponibles pour les produits et technologies Adobe avec lesquels vous pouvez développer des applications.
 
 1. Sélectionnez l’**API I/O Management** pour l’ajouter à votre projet.
-   ![API IO Management](assets/confi-ss-io-management.png)
+   API ![IO Management](assets/confi-ss-io-management.png)
    *Ajoutez l’API I/O Management à votre projet.*
 
 1. Créez des informations d’identification **OAuth** et enregistrez-les.
 
-   ![&#x200B; Mosaïque d’informations d’identification OAuth dans la configuration de l’API &#x200B;](assets/conf-ss-OAuth-credential.png)
+   ![ Mosaïque d’informations d’identification OAuth dans la configuration de l’API ](assets/conf-ss-OAuth-credential.png)
 
    *Configurer les informations d’identification OAuth dans votre API.*
 
@@ -52,7 +53,7 @@ Pour créer des configurations IMS dans Adobe Developer Console, procédez comme
 
 1. Cliquez sur le lien **OAuth de serveur à serveur** pour afficher les informations d’identification de votre projet.
 
-   ![&#x200B; informations d’identification connectées &#x200B;](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
+   ![ informations d’identification connectées ](assets/conf-ss-connected-credentials.png) {width="800"}
 
    *Connectez-vous au projet pour afficher les informations d’identification.*
 
@@ -80,7 +81,7 @@ Pour ajouter la configuration IMS à l’environnement, procédez comme suit :
 1. Passez à l’onglet **Configuration**.
 1. Collez les détails du service JSON (téléchargés dans la section précédente) dans le champ **Valeur** correspondant à `SERVICE_ACCOUNT_DETAILS`. Veillez à utiliser le même nom et la même configuration que ceux fournis dans la capture d’écran suivante.
 
-   ![configuration du compte de service ims](assets/ims-service-account-config.png){width="800" align="left"}
+   ![configuration du compte de service ims](assets/ims-service-account-config.png){width="800"}
 
 ## Activer l’indicateur d’IA dans l’environnement
 
@@ -88,7 +89,7 @@ Pour activer la fonctionnalité Assistant d’IA dans l’interface utilisateur 
 
 Assurez-vous d’utiliser le même nom et la même configuration que ceux fournis dans la capture d’écran suivante.
 
-![](assets/conf-folder-ai-assistant-enable.png){width="800" align="left"}
+![](assets/conf-folder-ai-assistant-enable.png){width="800"}
 
 Définir l’indicateur sur **true** active la fonctionnalité, tandis que le définir sur **false** la désactive.
 
@@ -98,7 +99,7 @@ Ajoutez la variable `GUIDES_AI_SITE_ID` dans votre environnement (Cloud Manager)
 
 Assurez-vous d’utiliser le même nom et la même configuration que ceux fournis dans la capture d’écran suivante.
 
-![](assets/conf-folder-guides-site-id.png){width="800" align="left"}
+![](assets/conf-folder-guides-site-id.png){width="800"}
 
 ## Application des modifications à l’environnement
 
@@ -118,7 +119,7 @@ Une fois les modifications de configuration appliquées, activez la fonction Ass
 
 Pour plus d’informations, consultez la section [Connaître les fonctionnalités de l’éditeur](../user-guide/web-editor-features.md).
 
-![](assets/conf-folder-ai-assistant-enable-settings.png){width="300" align="left"}
+![](assets/conf-folder-ai-assistant-enable-settings.png){width="300"}
 
 ## Configuration des suggestions intelligentes dans le profil de dossier
 
@@ -161,8 +162,8 @@ Pour plus d’informations, voir [Configuration des suggestions intelligentes da
 |---|---|---|---|
 | conref.inline.threshold | Seuil qui contrôle la précision/le rappel des suggestions récupérées pour la balise que l’utilisateur saisit actuellement. | Toute valeur comprise entre -1.0 et 1.0. | 0,6 |
 | conref.block.threshold | Seuil qui contrôle la précision/le rappel des suggestions récupérées pour les balises dans l’ensemble du fichier. | Toute valeur comprise entre -1.0 et 1.0. | 0,7 |
-| emerald.url | Point d’entrée de la base de données vectorielle de suggestions intelligentes | [&#128279;](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) | [&#128279;](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) |
-| chat.url | Point d’entrée du service d’assistant d’IA | [&#128279;](https://aem-guides-ai-v2.adobe.io) | [&#128279;](https://aem-guides-ai-v2.adobe.io) |
+| emerald.url | Point d’entrée de la base de données vectorielle de suggestions intelligentes | [](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) | [](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) |
+| chat.url | Point d’entrée du service d’assistant d’IA | [](https://aem-guides-ai-v2.adobe.io) | [](https://aem-guides-ai-v2.adobe.io) |
 | instance.type | Type de l’instance AEM. Assurez-vous qu’il est unique pour chaque instance AEM sur laquelle les suggestions intelligentes sont configurées. Un cas d’utilisation consisterait à tester la fonctionnalité dans un environnement d’évaluation avec « instance.type » = « stage », tandis qu’en même temps, la fonctionnalité serait également configurée sur « prod ». | Toute clé unique identifiant l’environnement. Seules les valeurs *alphanumériques* sont autorisées. « dev »/« stage »/« prod »/« test1 »/« stage2 » | « prod » |
 
 Une fois que vous avez configuré, l’icône de l’assistant AI s’affiche sur la page d’accueil et dans l’éditeur du Experience Manager Guides. Pour plus d’informations, consultez la section [Assistant AI](../user-guide/ai-assistant.md) dans le Guide de l’utilisateur d’Experience Manager.

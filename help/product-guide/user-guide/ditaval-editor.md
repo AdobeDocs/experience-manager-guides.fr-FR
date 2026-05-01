@@ -4,9 +4,9 @@ description: Découvrez comment créer et modifier des fichiers DIVATAL à l’a
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: cbc9cd59e36dad63b25866b2d5c52a7380dc7d26
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1537'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Les fichiers DITAVAL sont utilisés pour générer une sortie conditionnelle. Dans une seule rubrique, vous pouvez ajouter des conditions à l’aide d’attributs d’élément pour conditionner le contenu. Ensuite, vous créez un fichier DITAVAL dans lequel vous spécifiez les conditions qui doivent être sélectionnées pour générer du contenu et quelle condition doit être exclue de la sortie finale.
 
-Adobe Experience Manager Guides vous permet de créer et modifier facilement des fichiers DITAVAL à l&#39;aide de l&#39;éditeur DITAVAL. L&#39;éditeur DITAVAL récupère les attributs (qui peuvent être utilisés comme conditions) définis dans votre système et vous pouvez les utiliser pour créer ou modifier des fichiers DITAVAL. Pour plus d’informations sur la création et la gestion des conditions dans Adobe Experience Manager, consultez la section [Administration des balises](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=fr) de la documentation de Adobe Experience Manager.
+Adobe Experience Manager Guides vous permet de créer et modifier facilement des fichiers DITAVAL à l&#39;aide de l&#39;éditeur DITAVAL. L&#39;éditeur DITAVAL récupère les attributs (qui peuvent être utilisés comme conditions) définis dans votre système et vous pouvez les utiliser pour créer ou modifier des fichiers DITAVAL. Pour plus d’informations sur la création et la gestion des conditions dans Adobe Experience Manager, consultez la section [Administration des balises](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) de la documentation de Adobe Experience Manager.
 
 Les sections suivantes présentent les options disponibles pour un fichier DITAVAL dans Experience Manager Guides.
 
@@ -30,9 +30,9 @@ Pour créer un fichier DITAVAL, procédez comme suit :
 
 1. Dans le panneau Référentiel, sélectionnez l’icône **Nouveau fichier** puis sélectionnez **Rubrique** dans le menu déroulant.
 
-   ![](images/new-file-option.png){width="350" align="left"}
+   ![](images/new-file-option.png){width="350"}
 
-   Vous pouvez également accéder à cette option à partir de la page d&#39;accueil [Experience Manager Guides](./intro-home-page.md) et du menu d&#39;options d&#39;un dossier dans la vue Référentiel.
+   Vous pouvez également accéder à cette option à partir de la page d&#39;accueil [](./intro-home-page.md) et du menu d&#39;options d&#39;un dossier dans la vue Référentiel.
 
 2. La boîte de dialogue **Nouvelle rubrique** s&#39;affiche.
 
@@ -42,14 +42,14 @@ Pour créer un fichier DITAVAL, procédez comme suit :
    - Modèle sur lequel la rubrique sera basée. Pour un fichier DITAVAL, sélectionnez **Ditaval** dans la liste déroulante.
    - Chemin d’accès où enregistrer le fichier de rubrique. Par défaut, le chemin du dossier actuellement sélectionné dans le référentiel s’affiche dans le champ Chemin .
 
-   ![](images/new-topic-dialog-ditaval.png){width="350" align="left"}
+   ![](images/new-topic-dialog-ditaval.png){width="350"}
 
 
 4. Sélectionnez **Créer**.
 
 La rubrique est créée au chemin d’accès spécifié. En outre, la rubrique est ouverte dans l’éditeur pour modification.
 
-![](images/ditaval-file-editor.png){align="left"}
+![](images/ditaval-file-editor.png)
 
 ## Modifier le fichier DITAVAL
 
@@ -68,7 +68,7 @@ Pour plus d’informations, voir [Options de menu déroulant](./web-editor-toolb
 
 Ajoutez une seule propriété dans votre fichier DITAVAL.
 
-![](images/ditaval-editor-props-new.png){width="650" align="left"}
+![](images/ditaval-editor-props-new.png){width="650"}
 
 La première liste déroulante répertorie les attributs DITA autorisés que vous pouvez utiliser dans le fichier DITAVAL.
 
@@ -78,7 +78,7 @@ La deuxième liste déroulante affiche les valeurs configurées pour l’attribu
 
 Pour ajouter un numéro de révision spécifique à une balise au format XML, vous pouvez utiliser l’option Ajouter une prop rev . Un attribut rev est ainsi ajouté à la balise, avec la valeur définie dans le champ Valeur ainsi que l’action sélectionnée pour la propriété. Cet attribut de révision peut être utilisé ultérieurement pour filtrer le contenu XML approprié en fonction du numéro de révision spécifié lors de la génération de la sortie.
 
-![](images/ditaval-rev-props.png){width="650" align="left"}
+![](images/ditaval-rev-props.png){width="650"}
 
 #### Ajouter toutes les props
 
@@ -89,7 +89,7 @@ Si vous souhaitez ajouter d’un seul clic toutes les propriétés ou tous les a
 > Si toutes les propriétés conditionnelles définies existent déjà dans le fichier DITAVAL, vous ne pouvez pas ajouter d’autres propriétés. Un message d’erreur s’affiche dans ce scénario.
 
 
-![](images/ditaval-all-props-new.png){width="650" align="left"}
+![](images/ditaval-all-props-new.png){width="650"}
 
 
 
@@ -106,41 +106,41 @@ Il existe principalement quatre actions disponibles pour une propriété donnée
 **Ajouter des indicateurs :** pour marquer le contenu dans la sortie, vous pouvez définir l’indicateur comme action pour l’attribut souhaité dans le fichier. Vous pouvez également appliquer différents styles d’indicateur à l’aide de la liste déroulante **Style d’indicateur**, comme illustré dans le fragment de code ci-dessous.
 
 
-![](images/ditaval-flag-style.png){width="650" align="left"}
+![](images/ditaval-flag-style.png){width="650"}
 
 
 - **Couleur d’arrière-plan** : sélectionnez la teinte, la saturation et le contraste dans la couleur d’arrière-plan. La valeur HEX correspondante sera automatiquement mise à jour en fonction de votre sélection. Vous pouvez également changer le format de l’espace colorimétrique à l’aide de la liste déroulante pour choisir entre HEX, RGB et HSB.
 
 
-  ![](images/ditaval-background-color.png){width="350" align="left"}
+  ![](images/ditaval-background-color.png){width="350"}
 
 
 
 - **Couleur du texte** : sélectionnez la teinte, la saturation et le contraste de la couleur du texte. La valeur HEX correspondante sera automatiquement mise à jour en fonction de votre sélection. Vous pouvez également changer le format de l’espace colorimétrique à l’aide de la liste déroulante pour choisir entre HEX, RGB et HSB.
 
 
-  ![](images/ditaval-text-color.png){width="350" align="left"}
+  ![](images/ditaval-text-color.png){width="350"}
 
 
 
 - **Options de style** : vous pouvez ajouter certaines options de style, telles que Gras, Italique, Souligné, Surligné, Double soulignement.
 
 
-  ![](images/ditaval-styling-option.png){width="350" align="left"}
+  ![](images/ditaval-styling-option.png){width="350"}
 
 
 
 - **Indicateurs de début et de fin** : vous pouvez insérer des images en tant qu’indicateurs de début et de fin à l’aide du bouton **Ajouter un indicateur**. Pour sélectionner des images, utilisez **Parcourir Assets** pour effectuer une sélection dans le référentiel Guides ou **Ajouter un fichier** pour les charger à partir de votre système local. De plus, vous pouvez spécifier un texte secondaire pour les images.
 
 
-  ![](images/ditaval-start-end-flags.png){width="350" align="left"}
+  ![](images/ditaval-start-end-flags.png){width="350"}
 
 
 
 - **Conflit de style** : résout les conflits qui se produisent lorsqu’un seul élément contient plusieurs propriétés avec différents styles d’indicateur. Dans ce cas, la valeur définie dans les propriétés de conflit de style est sélectionnée, agissant efficacement comme sélecteur de valeur par défaut pour les couleurs d’arrière-plan et de texte.
 
 
-  ![](images/ditaval-style-conflict.png){width="650" align="left"}
+  ![](images/ditaval-style-conflict.png){width="650"}
 
 
 #### Informations sur la version et Enregistrer comme nouvelle version
@@ -167,11 +167,11 @@ Une fois le fichier DITAVAL modifié, sélectionnez **Enregistrer** dans la barr
 
 L’éditeur DITAVAL d’Adobe Experience Manager Guides prend en charge l’affichage des fichiers DITAVAL dans deux modes ou vues différents :
 
-**Auteur** :   Voici une vue standard Ce que vous voyez est ce que vous obtenez \(WYSISYG\) de l’éditeur DITAVAL. Vous pouvez ajouter ou supprimer des propriétés à l’aide de l’interface utilisateur simple, qui présente les propriétés, ses valeurs et les actions dans une liste déroulante. Dans la vue Auteur, vous avez la possibilité d’insérer une propriété individuelle et d’insérer toutes les propriétés en un seul clic.
+**Auteur** : Voici un exemple type de la vue Ce que vous voyez est ce que vous obtenez \(WYSISYG\) de l’éditeur DITAVAL. Vous pouvez ajouter ou supprimer des propriétés à l’aide de l’interface utilisateur simple, qui présente les propriétés, ses valeurs et les actions dans une liste déroulante. Dans la vue Auteur, vous avez la possibilité d’insérer une propriété individuelle et d’insérer toutes les propriétés en un seul clic.
 
 Vous pouvez également trouver la version du fichier DITAVAL sur lequel vous travaillez actuellement en plaçant le pointeur de la souris sur le nom du fichier.
 
-**Source**:   La vue Source affiche le code XML sous-jacent qui constitue le fichier DITAVAL. Outre les modifications de texte standard effectuées dans cet affichage, un auteur peut également ajouter ou modifier des propriétés à l’aide du catalogue dynamique.
+**** : la vue Source affiche le code XML sous-jacent qui constitue le fichier DITAVAL. Outre les modifications de texte standard effectuées dans cet affichage, un auteur peut également ajouter ou modifier des propriétés à l’aide du catalogue dynamique.
 
 Pour appeler le catalogue dynamique, placez le curseur à la fin de toute définition de propriété et saisissez « &lt; ». L’éditeur affiche une liste de tous les éléments XML valides que vous pouvez insérer à cet emplacement.
 

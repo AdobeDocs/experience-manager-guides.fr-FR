@@ -1,11 +1,11 @@
 ---
 title: Créer une collection de mappages d’activation en bloc
-description: Learn how to create a bulk activation map collection in AEM guides.
+description: Découvrez comment créer une collection de mappages d’activation en bloc dans les guides AEM.
 feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: a242efde-2b29-4d2b-8a50-fd4ae7e8f239
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 0%
@@ -14,50 +14,50 @@ ht-degree: 0%
 
 # Créer une collection de mappages d’activation en bloc {#id214GG0E90EV}
 
-To create a bulk activation map collection, perform the following steps:
+Pour créer une collection de mappages d’activation en bloc, procédez comme suit :
 
 1. Sélectionnez **Guides** dans la liste des outils.
 
-1. Select the Adobe Experience Manager link at the top and choose **Tools**.
+1. Sélectionnez le lien Adobe Experience Manager en haut et choisissez **Outils**.
 
-1. Select the **Bulk Publish Dashboard** tile.
+1. Sélectionnez la mosaïque **Tableau de bord de publication en bloc**.
 
-   For the first time, a blank collections page is displayed. If you had created bulk activation collections earlier, then they are shown on this page.
+   Pour la première fois, une page de collections vierge s’affiche. Si vous avez créé précédemment des collections d’activation en bloc, elles s’affichent sur cette page.
 
 1. Cliquez sur **Créer**.
 
-1. Enter a title for your bulk activation map collection and click **Create**.
+1. Saisissez un titre pour votre collection de mappages d’activation en bloc et cliquez sur **Créer**.
 
-   A success message is displayed on creation of the bulk activation map collection.
+   Un message de réussite s’affiche lors de la création de la collection de mappages d’activation en bloc.
 
-1. Click **Open** on the success message.
+1. Cliquez sur **Ouvrir** dans le message de réussite.
 
-1. Select **Edit** and then select **Add Maps**.
+1. Sélectionnez **Modifier** puis sélectionnez **Ajouter des mappages**.
 
-1. Locate and add the DITA maps that you want to add to the bulk activation map collection.
+1. Recherchez et ajoutez les mappages DITA à ajouter à la collection de mappages d&#39;activation en bloc.
 
-   By default, all the presets and locales associated with the map are added automatically.
+   Par défaut, tous les paramètres prédéfinis et les paramètres régionaux associés à la carte sont ajoutés automatiquement.
 
-1. Select the desired output by turning the sliding button on or off.
+1. Sélectionnez la sortie souhaitée en activant ou en désactivant le bouton coulissant.
 
-   You can choose multiple output presets across available locales.
+   Vous pouvez choisir plusieurs paramètres prédéfinis de sortie dans les paramètres régionaux disponibles.
 
 1. Cliquez sur **Terminé**.
 
-The DITA map files are added to your bulk activation map collection.
+Les fichiers de mappage DITA sont ajoutés à votre collection de mappages d&#39;activation en bloc.
 
-![&#x200B; created bulk activation collection](images/bulk-activation-collection-created.png){width="800" align="left"}
+![ a créé une collection d’activation en bloc](images/bulk-activation-collection-created.png){width="800"}
 
-## Maps and Presets tab
+## Onglet Mappages et paramètres prédéfinis
 
-The **Maps and Presets** tab presents information in the following columns:
+L’onglet **Mappages et paramètres prédéfinis** affiche des informations dans les colonnes suivantes :
 
-- **Map**: Shows the title of the DITA map file.
-- **Map Path**: Shows the complete path of the DITA map file.
+- **Map** : affiche le titre du fichier de plan DITA.
+- **Chemin de mappage** : affiche le chemin d&#39;accès complet du fichier de mappage DITA.
 
-- **UUID**: Shows the unique identifier associated with the file.
+- **UUID** : affiche l&#39;identifiant unique associé au fichier.
 
-- **Language**: Shows the language code of the DITA map.
+- **Langue** : affiche le code de langue du plan DITA.
 - **Paramètre prédéfini** : affiche le titre du paramètre prédéfini de sortie configuré sur le fichier map. Elle affiche également l’icône en fonction du type de paramètre prédéfini de sortie.
 
   >[!NOTE]
@@ -85,7 +85,7 @@ L’onglet **Historique des contrôles** présente des informations sur les sort
 
 - **Modifié** : indique si le plan DITA a été mis à jour après la dernière publication. En fonction de ces informations, vous pouvez décider d&#39;activer ou non la sortie de ce plan DITA.
 - **Publié** : affiche la date et l’heure de la dernière sortie publiée (ou activée). Si vous sélectionnez le lien, la page Résultats de l’activation s’affiche, qui contient les journaux avec des informations sur le chemin racine où le contenu est activé.
-  ![&#x200B; l’onglet historique d’audit de la collecte d’activation en bloc créé](images/bulk-collection-audit-history.png){width="800" align="left"}
+  ![ l’onglet historique d’audit de la collecte d’activation en bloc créé](images/bulk-collection-audit-history.png){width="800"}
 
   *Affichez les informations sur les sorties de mappage activées dans l’onglet **Historique d’audit**.*
 
@@ -101,9 +101,9 @@ L’onglet **Historique des contrôles** présente des informations sur les sort
 Les options de filtrage disponibles dans le panneau de gauche sont les suivantes :
 
 - **Modifié** : vous pouvez sélectionner Oui ou Non. Si vous sélectionnez Oui, seuls les plans DITA modifiés s&#39;affichent. Un mappage modifié est un mappage qui a été généré depuis sa dernière publication.
-- **Paramètre prédéfini** : sélectionnez un paramètre prédéfini pour lequel vous souhaitez filtrer les fichiers de mappage. Cette colonne affiche le titre du paramètre prédéfini de sortie configuré sur le fichier map. Par exemple, si vous choisissez le paramètre prédéfini *Site AEM*, seuls les mappages sur lesquels le paramètre prédéfini de sortie *Site AEM* est configuré s’affichent.
+- **Paramètre prédéfini** : sélectionnez un paramètre prédéfini pour lequel vous souhaitez filtrer les fichiers de mappage. Cette colonne affiche le titre du paramètre prédéfini de sortie configuré sur le fichier map. Par exemple, si vous choisissez le paramètre prédéfini *Site*, seuls les mappages sur lesquels le paramètre prédéfini de sortie *Site AEM* est configuré s’affichent.
 - **Langue** : vous pouvez sélectionner l’un des codes de langue disponibles et afficher uniquement la langue sélectionnée dans l’onglet Cartes et paramètres prédéfinis.
 
 Les filtres sont mis à jour lorsque vous passez de l’onglet **Mappages et paramètres prédéfinis** à l’onglet **Historique des contrôles** et vice versa.
 
-**Rubrique parente : &#x200B;** [Activation en bloc du contenu publié](conf-bulk-activation.md)
+**Rubrique parente : **[Activation en bloc du contenu publié](conf-bulk-activation.md)

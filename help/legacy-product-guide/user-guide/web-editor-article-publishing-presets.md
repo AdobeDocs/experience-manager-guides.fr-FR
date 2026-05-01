@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: ce8e3614-907b-4172-a8f0-e81e4dc096df
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -26,11 +26,11 @@ Pour créer des paramètres prédéfinis de sortie pour votre plan DITA, procéd
 
    >[!NOTE]
    >
-   > Vous pouvez ajouter ou supprimer n’importe quelle rubrique de la carte à l’aide de l’éditeur de cartes avancé. Pour plus d’informations, voir [&#x200B; Utilisation de l’éditeur de cartes avancé &#x200B;](map-editor-advanced-map-editor.md#).
+   > Vous pouvez ajouter ou supprimer n’importe quelle rubrique de la carte à l’aide de l’éditeur de cartes avancé. Pour plus d’informations, voir [ Utilisation de l’éditeur de cartes avancé ](map-editor-advanced-map-editor.md#).
 
 1. Dans l&#39;onglet **Sortie**, sélectionnez l&#39;icône + pour créer un paramètre prédéfini de sortie pour votre plan DITA.
 
-   ![](images/output-tab-preset_cs.png){width="350" align="left"}
+   ![](images/output-tab-preset_cs.png){width="350"}
 
 1. Saisissez le nom du paramètre prédéfini dans la boîte de dialogue Ajouter un paramètre prédéfini , puis cliquez sur **Ajouter**.
 
@@ -46,19 +46,19 @@ Pour créer des paramètres prédéfinis de sortie pour votre plan DITA, procéd
    1. Dans l’onglet **Articles**, sélectionnez les rubriques pour lesquelles vous souhaitez générer la sortie.
 1. Sélectionnez l’icône **Générer le paramètre prédéfini** en haut pour générer la sortie.
 
-   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
+   ![](images/add-preset-articles-tab_cs.png){width="800"}
 
 1. Vous verrez le statut du processus de génération de sortie. La colonne **Rubriques** répertorie les rubriques pour lesquelles une sortie est générée tandis que la colonne **Statut** affiche le statut de publication de chaque rubrique.
 
    Pour afficher la sortie, placez le pointeur de la souris sur la rubrique et cliquez sur Afficher la sortie.
 
-   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+   ![](images/add-preset-output-generated_cs.png){width="800"}
 
 
 >[!NOTE]
 >
 > Vous pouvez également Modifier, Renommer, Dupliquer ou Supprimer un paramètre prédéfini de sortie existant à partir du menu Options.
 
-![](images/edit-preset_cs.png){width="550" align="left"}
+![](images/edit-preset_cs.png){width="550"}
 
-**Rubrique parente :**&#x200B;[&#x200B; Publication basée sur des articles dans l’éditeur web](web-editor-article-publishing.md)
+**Rubrique parente :**[ Publication basée sur des articles dans l’éditeur web](web-editor-article-publishing.md)

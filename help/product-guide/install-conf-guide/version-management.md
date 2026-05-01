@@ -4,9 +4,10 @@ description: Découvrez comment gérer les versions
 feature: Version Management
 role: Admin
 level: Experienced
-source-git-commit: b416334318a83e882c32318bc4769d24268cdd1c
+exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2309'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ Les onglets suivants fournissent des instructions pour activer l’option **Cré
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration.
 1. Dans le fichier de configuration, fournissez les détails \(propriété\) suivants pour configurer l’option **Créer une nouvelle version pour le fichier chargé** :
@@ -81,7 +82,7 @@ Les onglets suivants fournissent des instructions pour configurer les paramètre
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer la modification des fichiers extraits :
 
@@ -113,7 +114,7 @@ En outre, vous pouvez également configurer pour afficher un message d’avertis
 
 1. Sélectionnez l’option **Désactiver la modification sans passage en caisse**.
 
-   ![](assets/xml-editor-config.png){width="650" align="left"}
+   ![](assets/xml-editor-config.png){width="650"}
 
    Avec cette option, les utilisateurs ne verront pas l’option Modifier dans la barre d’outils tant qu’ils n’auront pas extrait un fichier.
 
@@ -137,7 +138,7 @@ Les onglets suivants fournissent des instructions permettant aux utilisateurs de
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration.
 1. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer l’option **Remplacer le fichier extrait lors du chargement** :
@@ -178,7 +179,7 @@ Les onglets suivants fournissent des instructions pour empêcher les utilisateur
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour empêcher les utilisateurs de supprimer accidentellement des fichiers extraits :
 
@@ -209,7 +210,7 @@ Pour prendre en charge cette fonctionnalité, une nouvelle `drivelock` de propri
 
 `/oak:index/damAssetLucene/indexRules/dam:Asset/properties/drivelock`
 
-![](assets/index-property-oak-index-drivelock.png){width="800" align="left"}
+![](assets/index-property-oak-index-drivelock.png){width="800"}
 
 Outre la nouvelle propriété d’index, assurez-vous que les propriétés suivantes sont définies sur `/oak:index/damAssetLucene` :
 
@@ -241,13 +242,13 @@ Les onglets suivants fournissent des instructions pour définir qui peut supprim
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les informations \(property\) suivantes pour définir qui peut supprimer un fichier contenant des références ou référencé par d’autres fichiers :
 
 | PID | Clé de la propriété | Valeur de la propriété |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | Les valeurs possibles sont les suivantes : <br> - allow\_unsafe\_delete\_for\_all <br> -   allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Valeur par défaut** : `allow_unsafe_delete_for_delete_assets_group` <br> Les détails de ces constantes sont présentés ci-dessous. |
+| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | Les valeurs possibles sont les suivantes : <br> - allow\_unsafe\_delete\_for\_all <br> - allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Valeur par défaut** : `allow_unsafe_delete_for_delete_assets_group` <br> Les détails de ces constantes sont présentés ci-dessous. |
 
 Selon la personne à qui vous souhaitez accorder l’accès pour la suppression, spécifiez l’une des constantes suivantes :
 
@@ -279,11 +280,11 @@ Selon la personne à qui vous souhaitez accorder l’accès pour la suppression,
 
    - allow\_unsafe\_delete\_for\_all : autorisez tous les utilisateurs à supprimer des fichiers. Dans ce cas, si le(s) fichier(s) contient(nt) des références ou est référencé(s) par d’autres fichiers, vous pouvez également supprimer de force ce(s) fichier(s). Avant de supprimer le fichier, une invite contenant les références s’affiche. Vous pouvez annuler l’opération de suppression, supprimer les références, puis supprimer définitivement le(s) fichier(s). Vous pouvez également supprimer de force le ou les fichiers sans supprimer les références.
 
-     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550"}
 
    - allow\_unsafe\_delete\_for\_delete\_assets\_group : un administrateur ou un utilisateur appartenant au groupe *delete-assets* est autorisé à supprimer des fichiers. Si un autre utilisateur tente de supprimer des fichiers avec des références, il ne sera pas autorisé à supprimer ces fichiers jusqu&#39;à ce que toutes les références soient supprimées. La capture d’écran suivante s’affiche lorsqu’un utilisateur, qui ne dispose pas des autorisations nécessaires, tente de supprimer des fichiers.
 
-     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550"}
 
    - block\_unsafe\_delete\_for\_all : interdire à tous les utilisateurs \(y compris aux administrateurs\) de supprimer des fichiers jusqu’à ce que les références à et depuis le ou les fichiers\\) soient supprimées.
 
@@ -313,7 +314,7 @@ Pour purger les anciennes versions, procédez comme suit :
 
    ![](assets/preview-purge-report.png)
 
-1. &#x200B;
+1. 
    - **Nombre de versions à conserver à partir de la dernière version** : saisissez le nombre de versions à conserver et à ne pas purger. Par exemple, si nous entrons 5 , les 5 dernières versions sont conservées, et les versions antérieures sont qualifiées pour être purgées si d’autres conditions de purge sont remplies.
    - **Conserver les versions créées dans la période \(En jours\)** : saisissez l’âge maximal d’une version en jours. Les versions antérieures au nombre de jours donné peuvent être purgées si d’autres conditions de purge sont remplies. Par exemple, si nous entrons 100, toutes les versions créées avant 100 jours peuvent être purgées si d’autres conditions de purge sont remplies.
    - **Chemin d’accès** : sélectionnez le chemin d’accès du fichier ou du dossier dont vous souhaitez purger les fichiers.

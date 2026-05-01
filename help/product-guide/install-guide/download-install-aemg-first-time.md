@@ -5,7 +5,7 @@ exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 7%
@@ -24,7 +24,7 @@ Pour télécharger et installer AEM Guides pour la première fois sur un ordinat
 
    >[!NOTE]
    >
-   >Avant d’installer Experience Manager Guides, assurez-vous que votre système répond aux [&#x200B; exigences techniques &#x200B;](../install-guide/download-install-technical-requirements.md).
+   >Avant d’installer Experience Manager Guides, assurez-vous que votre système répond aux [ exigences techniques ](../install-guide/download-install-technical-requirements.md).
 
 1. Connectez-vous à votre instance AEM et accédez au gestionnaire de packages CRX. L’URL par défaut pour accéder au gestionnaire de packages est :
 
@@ -32,9 +32,9 @@ Pour télécharger et installer AEM Guides pour la première fois sur un ordinat
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   Le gestionnaire de packages gère les packages sur votre installation AEM locale. Pour plus d’informations sur l’utilisation du gestionnaire de packages, consultez [&#x200B; Utilisation des packages &#x200B;](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/package-manager.html) dans la documentation d’AEM.
+   Le gestionnaire de packages gère les packages sur votre installation AEM locale. Pour plus d’informations sur l’utilisation du gestionnaire de packages, consultez [ Utilisation des packages ](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/package-manager.html) dans la documentation d’AEM.
 
-   ![](assets/package-manager.png){width="650" align="left"}
+   ![](assets/package-manager.png){width="650"}
 
 1. Pour télécharger le package AEM Guides, cliquez sur **Télécharger le package**.
 
@@ -44,7 +44,7 @@ Pour télécharger et installer AEM Guides pour la première fois sur un ordinat
 
 1. Pour installer le package, cliquez sur **Installer**.
 
-   ![](assets/install-package.png){width="650" align="left"}
+   ![](assets/install-package.png){width="650"}
 
 1. Dans la boîte de dialogue Installer le package , cliquez sur **Installer**.
 
@@ -55,4 +55,4 @@ Pour télécharger et installer AEM Guides pour la première fois sur un ordinat
 >
 > Effectuez la procédure d’installation sur toutes les instances des serveurs AEM de votre configuration.
 
-**Rubrique parente :**&#x200B;[&#x200B; Télécharger et installer](download-install.md)
+**Rubrique parente :**[ Télécharger et installer](download-install.md)

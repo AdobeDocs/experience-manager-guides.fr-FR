@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2408'
 ht-degree: 0%
@@ -56,13 +56,13 @@ Sélectionnez une source de données pour afficher les générateurs de fragment
 
 ### ![](images/data-sources-list-view-icon.svg) de la vue Liste
 
-![](images/data-sources-list-view.png){width="300" align="left"}
+![](images/data-sources-list-view.png){width="300"}
 
 *Liste des sources de données connectées.*
 
-### Mode Vignette   ![](images/data-sources-tile-view-icon.svg)
+### ![](images/data-sources-tile-view-icon.svg) du mode Mosaïque
 
-![](images/data-sources-tile-view.png){width="300" align="left"}
+![](images/data-sources-tile-view.png){width="300"}
 
 *Afficher les sources de données connectées sous forme de mosaïques.*
 
@@ -78,11 +78,11 @@ AEM Guides permet d’établir une connexion à votre source de données. Vous p
 
 Pour créer un fragment de contenu à l’aide du générateur de fragments de contenu et l’insérer dans votre rubrique, procédez comme suit :
 
-1. Sélectionnez **Sources de données** ![](images/data-source-icon.svg)   dans le panneau de gauche pour afficher les sources de données connectées.
+1. Sélectionnez **Sources de données** ![](images/data-source-icon.svg) dans le panneau de gauche pour afficher les sources de données connectées.
 
 1. Sélectionnez une source de données pour afficher les générateurs de fragments de code de contenu disponibles pour la source de données sélectionnée.
 
-   ![](images/code-snippet-generator.png){width="300" align="left"}
+   ![](images/code-snippet-generator.png){width="300"}
 
    *Le panneau Sources de données répertorie les générateurs de fragments de contenu disponibles.*
 
@@ -125,7 +125,7 @@ Par exemple :
       - Si vous avez sélectionné le modèle de liste ordonnée Jira, vous pouvez afficher une liste ordonnée des problèmes Jira.
 
    1. La vue source affiche les données dans la vue source DITA.
-      ![](images/add-content-snippet-generator.png){width="800" align="left"}
+      ![](images/add-content-snippet-generator.png){width="800"}
       *Ajoutez un générateur de fragments de code de contenu. Affichez les données en mode source ou aperçu.*
 
 1. Pour enregistrer les résultats de la requête, saisissez le nom du générateur, puis cliquez sur **AJOUTER**.   Un nouveau générateur de fragments de contenu est ajouté à la liste.
@@ -151,9 +151,9 @@ Cliquez avec le bouton droit de la souris sur un générateur de fragments de co
 
 ### Insérer un fragment de code de requête
 
-Vous pouvez également utiliser le ![](images/data-source-icon.svg) **Insérer un fragment de code de requête**   dans la barre d’outils principale pour insérer le fragment de données dans les rubriques.  Vous pouvez sélectionner un générateur dans la liste déroulante, modifier votre requête ou modifier le modèle et insérer les données dans votre rubrique.
+Vous pouvez également utiliser le ![](images/data-source-icon.svg) **Insérer un fragment de code de requête** de la barre d’outils principale pour insérer le fragment de code de données dans les rubriques.  Vous pouvez sélectionner un générateur dans la liste déroulante, modifier votre requête ou modifier le modèle et insérer les données dans votre rubrique.
 
-![](images/insert-content-snippet.png){width="800" align="left"}
+![](images/insert-content-snippet.png){width="800"}
 
 *Modifier et insérer un fragment de données.*
 
@@ -173,7 +173,7 @@ Pour créer une rubrique à l’aide du générateur de rubriques, procédez com
 
 1. Sélectionnez une source de données pour afficher les générateurs de fragments de contenu et les générateurs de rubriques disponibles pour la source de données sélectionnée.
 
-   ![](images/data-sources.png){width="300" align="left"}
+   ![](images/data-sources.png){width="300"}
 
    *Ajoutez un générateur de rubrique pour une source de données connectée.*
 
@@ -185,7 +185,7 @@ Pour créer une rubrique à l’aide du générateur de rubriques, procédez com
 
    **Récupérer la configuration**
 
-   ![](images/topic-generator-fetch-configuration.png){width="300" align="left"}
+   ![](images/topic-generator-fetch-configuration.png){width="300"}
 
    *Ajoutez les détails Requête de données, Modèle de mappage de données et Nœud racine pour le générateur de rubrique et attribuez-lui un nom unique dans le panneau Récupérer la configuration*.
 
@@ -218,7 +218,7 @@ Pour créer une rubrique à l’aide du générateur de rubriques, procédez com
 
    **Configuration de sortie**
 
-   ![](images/topic-generator-output-configuration.png){width="300" align="left"}
+   ![](images/topic-generator-output-configuration.png){width="300"}
 
    *Saisissez les détails du Chemin de sortie et de la convention de nommage des rubriques dans le panneau Configuration de sortie . Générez un plan DITA et nommez-le.*
 
@@ -237,7 +237,7 @@ Pour créer une rubrique à l’aide du générateur de rubriques, procédez com
 
    Par exemple, dans la capture d’écran suivante, `dc:description`, `dc:language`, `dc:title` et `docstate` sont les propriétés par défaut pour lesquelles vous pouvez définir les valeurs. Vous pouvez créer une propriété personnalisée telle que author et définir sa valeur.
 
-   ![](images/topic-generator-metadata.png){width="300" align="left"}
+   ![](images/topic-generator-metadata.png){width="300"}
 
    *Ajoutez les propriétés de métadonnées dans le panneau Métadonnées à transmettre aux rubriques.*
 
@@ -247,7 +247,7 @@ Pour créer une rubrique à l’aide du générateur de rubriques, procédez com
 
 
 
-   ![](images/edit-topic-generator.png){width="650" align="left"}
+   ![](images/edit-topic-generator.png){width="650"}
 
    *Générer de nouvelles rubriques à partir d’un générateur de rubriques existant.*
 
@@ -285,7 +285,7 @@ Les modèles Experience Manager prennent également en charge les outils Velocit
 
 Pour utiliser un outil Velocity dans un modèle, procédez comme suit :
 1. Modifiez un modèle Velocity dans l’éditeur Web.
-1. Add a tool and its function in the `<tool.function>` format. Par exemple :
+1. Ajoutez un outil et sa fonction au format `<tool.function>`. Par exemple :
    - Pour générer un nombre aléatoire à l’aide de l’outil mathématique, utilisez `$mathTool.random`.
    - Pour générer la somme des nombres à l’aide de l’outil mathématique, utilisez `$mathTool.add(num1, num2)`.
 1. Utilisez le modèle pour créer un fragment de code ou une rubrique de contenu.

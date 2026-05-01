@@ -4,9 +4,9 @@ description: Utilisez le panneau Génération rapide dans AEM Guides. Découvrez
 exl-id: 5de04980-91d7-4bbc-a4b7-9bfd60ccf3c7
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ AEM Guides propose un panneau **Génération rapide** intégré à l’éditeur 
 >
 > Le panneau **Génération rapide** s&#39;affiche pour le plan DITA ouvert dans le panneau Vue Carte.
 
-![](images/quick-generate-map-view.png){align="left"}
+![](images/quick-generate-map-view.png)
 
 Effectuez les étapes suivantes pour générer la sortie à partir du panneau **Génération rapide** :
 
@@ -34,4 +34,4 @@ Effectuez les étapes suivantes pour générer la sortie à partir du panneau **
 1. Cliquez sur **Générer** pour générer la sortie des paramètres prédéfinis sélectionnés. Un message de réussite s’affiche lors de la génération de la sortie. Un message d’erreur s’affiche en cas d’échec de la génération. Vous pouvez également consulter le journal des erreurs pour afficher les détails de l’erreur qui s’est produite dans le processus de génération.
 1. Cliquez sur l’icône **Afficher la sortie** \( ![](images/view-output-icon.svg)\) d’un paramètre prédéfini spécifique pour afficher la sortie générée pour le paramètre prédéfini.
 
-**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**[ Utiliser l’éditeur web](web-editor.md)

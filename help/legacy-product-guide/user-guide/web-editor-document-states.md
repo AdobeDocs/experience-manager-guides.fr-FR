@@ -1,11 +1,11 @@
 ---
 title: Etat du document
-description: Learn the types of document states in AEM Guides. Know how to change or view the document state and use the document state in DDLC.
+description: Découvrez les types d’états de document dans AEM Guides. Savoir comment modifier ou afficher l’état du document et l’utiliser dans DDLC.
 feature: Authoring, Features of Web Editor, Document State
 role: User
 hide: true
 exl-id: f8367f84-dd46-4140-8748-c3bda0cf933a
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 0%
@@ -14,27 +14,27 @@ ht-degree: 0%
 
 # Etat du document {#id1821HC00URO}
 
-To manage the readiness of the documents, AEM Guides provides document state property to indicate the current state of the document. Document states help you quickly find out whether a document is new, in review, or review completed state.
+Pour gérer le niveau de préparation des documents, AEM Guides fournit la propriété d’état du document pour indiquer l’état actuel du document. Les états du document vous permettent de déterminer rapidement si un document est nouveau, en cours de révision ou terminé.
 
-## Types of document states
+## Types d’états du document
 
-A document can have any of the document states defined in the Document State profile. For example, a document may have any one of the following Document States:
+Un document peut avoir n’importe quel état de document défini dans le profil État du document . Par exemple, un document peut avoir l’un des états de document suivants :
 
-- Draft - Indicates that the document is created and saved with new changes.
-- In-Review - Indicates that a review workflow has been initiated for the document.
-- Reviewed - Indicates that the document has been reviewed by the intended users.
+- Brouillon - Indique que le document est créé et enregistré avec de nouvelles modifications.
+- En cours - Indique qu’un workflow de révision a été lancé pour le document.
+- Révisé - Indique que le document a été révisé par les utilisateurs prévus.
 
-These states are set manually or automatically according to the Document States profile settings. For example, if the Document State profile is configured with start state as Draft, and In-Review state is defined for documents under review. Then, when you create a document, the document state is set to *Draft*. If you initiate a review task, then the state of the document is changed to In-Review.
+Ces états sont définis manuellement ou automatiquement en fonction des paramètres du profil États du document . Par exemple, si le profil d&#39;état du document est configuré avec l&#39;état de début Brouillon et que l&#39;état En révision est défini pour les documents en révision. Ensuite, lorsque vous créez un document, son état est défini sur *Brouillon*. Si vous lancez une tâche de révision, le document passe à l’état En cours de révision.
 
-You can also manually change the document state for a single or multiple documents. However, if you choose to change the document state for multiple documents, then the allowed state is determined by the common states that are allowed for the selected documents. For example, let&#39;s say you have defined the document states as Draft, In-Review, Reviewed, and Ready to Publish, in the same order. On document one.dita the state is set to *Draft* and on document two.dita, the state is set to Reviewed. When you select both—one.dita and two.dita, then the allowed document state will be *Ready to Publish*. As two.dita is in *Reviewed* state, the next possible state for two.dita is only *Ready to Publish*, which is shown when both documents are selected.
+Vous pouvez également modifier manuellement le statut d’un ou de plusieurs documents. Cependant, si vous choisissez de modifier l’état du document pour plusieurs documents, l’état autorisé est déterminé par les états communs autorisés pour les documents sélectionnés. Supposons, par exemple, que vous ayez défini les états du document comme Brouillon, En cours de révision, Révisé et Prêt à publier, dans le même ordre. Sur le document one.dita, l’état est défini sur *Draft* et sur le document two.dita, l’état est défini sur Reviewed. Lorsque vous sélectionnez les deux éléments : one.dita et two.dita, l’état autorisé du document est *Prêt pour publication*. Comme two.dita est à l’état *Reviewed*, l’état suivant possible pour two.dita est uniquement *Ready to Publish*, qui s’affiche lorsque les deux documents sont sélectionnés.
 
 >[!NOTE]
 >
-> A document can exist in only one state at a time.
+> Un document ne peut exister que dans un seul état à la fois.
 
-## Change document state
+## Modifier l’état du document
 
-To change the state of a document, perform the following steps:
+Pour modifier le statut d’un document, procédez comme suit :
 
 1. Dans l’interface utilisateur d’Assets, sélectionnez un ou plusieurs documents dont vous souhaitez modifier l’état.
 1. Dans la barre d’outils principale, cliquez sur **Propriétés**.
@@ -50,7 +50,7 @@ To change the state of a document, perform the following steps:
 
 Le mode Carte de l’interface utilisateur d’Assets affiche le statut actuel, ainsi que la date de création et la taille de la rubrique DITA ou du plan DITA correspondant.
 
-![](images/document_state.png){width="800" align="left"}
+![](images/document_state.png){width="800"}
 
 ## Utiliser les états de document dans DDLC
 
@@ -72,11 +72,11 @@ Pour utiliser la fonction d&#39;approbation de document, procédez comme suit :
 
 1. Si votre document est à l’état d’être marqué comme approuvé, la boîte de dialogue suivante s’affiche :
 
-   ![](images/mark-approved-correct-state.png){width="300" align="left"}
+   ![](images/mark-approved-correct-state.png){width="300"}
 
    Si votre document ne peut pas être marqué comme approuvé, le message suivant s’affiche :
 
-   ![](images/mark-approved-incorrect-state.png){width="300" align="left"}
+   ![](images/mark-approved-incorrect-state.png){width="300"}
 
 1. Si votre document est prêt à être marqué comme approuvé, sélectionnez un libellé dans la liste déroulante et cliquez sur **Approuver**.
 
@@ -86,7 +86,7 @@ Pour utiliser la fonction d&#39;approbation de document, procédez comme suit :
 
 1. Une fois le document marqué comme approuvé, un **Aperçu** du document s’affiche en mode lecture seule.
 
-   ![](images/approved-doc-read-only.png){width="650" align="left"}
+   ![](images/approved-doc-read-only.png){width="650"}
 
    >[!NOTE]
    >
@@ -104,4 +104,4 @@ Une fois qu’un document est marqué comme approuvé, il n’est plus disponibl
    Le document passe alors à l’état Brouillon et s’ouvre dans l’éditeur web en mode d’édition.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**[ Utiliser l’éditeur web](web-editor.md)

@@ -1,10 +1,11 @@
 ---
-title: Notes de mise à jour | Nouveautés de la version Adobe Experience Manager Guides 5.1.0
+title: Notes de mise à jour | Nouveautés de la version 5.1.0 d’Adobe Experience Manager Guides
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 5.1.0 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: f6617b727d385d31ba66d575ee48f29e77ac716f
+exl-id: 4f65cf99-3ea2-47aa-91fd-ce0c8d9eaa11
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
@@ -42,7 +43,7 @@ Les principaux points forts sont les suivants :
 - **Prise en charge améliorée des indicateurs dans la création de fichiers DITAVAL :** Experience Manager Guides offre de nouvelles fonctionnalités de personnalisation de la publication de contenu grâce à la prise en charge améliorée des indicateurs dans les fichiers DITAVAL. Vous pouvez désormais appliquer des indicateurs de début et de fin à un contenu spécifique, y compris des images, et enrichir les sections marquées avec des options de mise en forme telles que le gras, l’italique, etc. Pour gérer les chevauchements de conditions, le **conflit de style** peut être configuré, ce qui inclut la définition d’une couleur d’arrière-plan et de texte par défaut, afin de garantir la clarté et la cohérence de la sortie. Ces indicateurs sont entièrement pris en charge dans la génération du PDF natif et la sortie qui en résulte reflète précisément et entièrement tous les éléments de style appliqués.
 Pour plus de détails, voir [Utiliser l&#39;éditeur DITAVAL](../user-guide/ditaval-editor.md).
 
-  ![](assets/ditaval-flag-style-new.png){width="350" align="left"}
+  ![](assets/ditaval-flag-style-new.png){width="350"}
 
 - **Prise en charge de plusieurs fichiers DITAVAL pour Native PDF :** pour Native PDF, il est désormais possible d’ajouter plusieurs fichiers DITAVAL, chacun affiché en tant qu’entrée balisée pour une identification et une suppression faciles, offrant ainsi une plus grande flexibilité et un meilleur contrôle du contenu conditionnel dans les sorties PDF
 
@@ -60,7 +61,7 @@ Cette version apporte des améliorations à l’interface utilisateur de la fonc
 
 Pour plus d’informations, consultez la section [Dépannage de base](../user-guide/generate-output-basic-troubleshooting.md).
 
-![](./assets/log-file-new.png){align="left"}
+![](./assets/log-file-new.png)
 
 
 ### Les fichiers temporaires pour la sortie publiée incluent désormais les URL de création et de publication dans un nouveau fichier de configuration
@@ -103,7 +104,7 @@ Pour plus d’informations, consultez la section [Contenu réutilisable](../user
 
 ### Attribut &#39;Format&#39; ajouté pour les liens de référence
 
-Adobe Experience Manager Guides ajoute désormais un attribut **format** pour les liens de référence dans l’éditeur. Cet attribut s&#39;affiche dans la vue **Source** et indique clairement le type de fichier, par exemple :
+Adobe Experience Manager Guides ajoute désormais un attribut **format** pour les liens de référence dans l’éditeur. Cet attribut s&#39;affiche dans la vue **** et indique clairement le type de fichier, par exemple :
 
 - Pour les fichiers dotés de l’extension **.pdf**, le format est défini sur **pdf**
 - Pour les fichiers dotés de l’extension **.html**, le format est défini sur **html**
@@ -117,7 +118,7 @@ Experience Manager Guides introduit une nouvelle option **Utiliser les noms de f
 
 Pour plus d’informations, voir [Télécharger des fichiers](../user-guide/authoring-download-assets.md#download-a-dita-map-file-from-the-editor).
 
-![](assets/download-map-dialog-new.png){width="300" align="left"}
+![](assets/download-map-dialog-new.png){width="300"}
 
 ### Invite de temporisation de session pour éviter la perte accidentelle de contenu
 
@@ -141,10 +142,3 @@ Avec cette version, les paramètres des onglets **Préférences utilisateur** Pa
 En outre, dans la barre d’outils de l’éditeur, certains boutons d’accès rapide permettant d’activer ou de désactiver le suivi des modifications, des balises et des espaces insécables sont désormais regroupés sous l’option **Afficher** dans la liste déroulante Menu pour une meilleure utilisation.
 
 Pour plus d’informations, voir [Barre d’outils dans l’éditeur](../user-guide/web-editor-toolbar.md#menu-dropdown).
-
-
-
-
-
-
-

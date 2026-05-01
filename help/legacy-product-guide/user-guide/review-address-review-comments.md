@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: a9551eb0-ad30-424d-b1c8-c079125d8118
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Un auteur peut adresser des commentaires dans un document à partir de l’édit
 >
 > Lorsque vous traitez des commentaires de révision \(pour un document de révision actif\), assurez-vous de ne pas ouvrir la rubrique de révision dans plusieurs onglets avec la vue complète des balises activée et de ne pas basculer entre les modes d’affichage Auteur et Source.
 
-![](images/comments-page-web-editor_cs.png){width="800" align="left"}
+![](images/comments-page-web-editor_cs.png){width="800"}
 
 En mode Éditeur web, le panneau de droite contient les icônes Révision et Modifications suivies . Le panneau Révision affiche tous les commentaires formulés par les réviseurs dans votre document. Le panneau **Modifications suivies** affiche le statut de tous les commentaires insérés et supprimés dans votre document.
 
@@ -55,11 +55,11 @@ En mode Éditeur web, le panneau de droite contient les icônes Révision et Mod
 
   Si vous souhaitez incorporer la modification suggérée \(insertion ou suppression\) une par une, il vous suffit de cliquer avec le bouton droit de la souris sur le commentaire dans le contenu et de sélectionner Accepter la modification ou Rejeter la modification. Selon votre sélection, le commentaire est accepté ou rejeté. En cas de commentaire accepté, le contenu est ajouté au contenu ; et en cas de rejet, il est supprimé du contenu. En outre, le statut du commentaire est modifié dans le panneau de révision.
 
-  ![](images/import-comment-accept-web-editor_cs.png){width="800" align="left"}
+  ![](images/import-comment-accept-web-editor_cs.png){width="800"}
 
   Vous pouvez également utiliser la fonction de révision dans le panneau de droite pour accepter ou rejeter des commentaires. Cliquez sur un commentaire pour le mettre en surbrillance dans le document.
 
-  ![](images/changes-tab_cs.png){width="800" align="left"}
+  ![](images/changes-tab_cs.png){width="800"}
 
   >[!IMPORTANT]
   >
@@ -74,4 +74,4 @@ En mode Éditeur web, le panneau de droite contient les icônes Révision et Mod
 - **I** : appliquer un filtre sur les commentaires. Vous pouvez filtrer les commentaires selon le type de révision \(tous, mis en surbrillance, supprimé, inséré ou pense-bête\), le statut de révision \(tous, acceptés, rejetés ou aucun\), les réviseurs \(tous ou certains réviseurs\(s\)\) ou les versions de rubrique.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; consulter des rubriques ou des cartes](review.md)
+**Rubrique parente :**[ consulter des rubriques ou des cartes](review.md)

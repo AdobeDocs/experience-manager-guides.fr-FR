@@ -4,7 +4,7 @@ description: Découvrez comment ouvrir un fichier de mappage DITA dans l'interfa
 feature: Publishing
 role: User
 exl-id: 9443ffe8-77db-454a-b2cb-a135ada24d10
-source-git-commit: 1bde45c92d543f47a3a4482dad5aecfbf5753808
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Effectuez les étapes suivantes pour ouvrir un fichier DITA map dans la console 
 
 1. Ouvrez la **console Map** à partir de la page d’accueil.
 
-   ![Nouveau &#x200B;](images/map-console-home-page.png){width="800"align="left"}
+   ![Nouveau ](images/map-console-home-page.png){width="800"}
 
 2. Puisqu’aucun fichier de mappage n’est sélectionné, vous êtes invité à sélectionner un fichier de mappage pour utiliser les fonctionnalités de gestion et de publication des mappages.
 
@@ -27,7 +27,7 @@ Effectuez les étapes suivantes pour ouvrir un fichier DITA map dans la console 
 
    Le fichier de mappage s’ouvre dans la console Mappage . Par défaut, l’onglet **Paramètres prédéfinis de sortie** est sélectionné.
 
-   ![Nouveau](images/map-console-screen.png){width="800"align="left"}
+   ![Nouveau](images/map-console-screen.png){width="800"}
 
    >[!NOTE]
    >
@@ -45,4 +45,4 @@ Vous pouvez également ouvrir un fichier de mappage existant dans la console Map
 
    Le fichier de mappage s’ouvre dans la console Mappage .
 
-   ![Nouveau &#x200B;](images/map-console.png){align="left"}
+   ![Nouveau ](images/map-console.png)

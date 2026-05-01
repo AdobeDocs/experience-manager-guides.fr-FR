@@ -5,7 +5,7 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: eabaec57-e717-45a9-8321-4057b993d7fb
-source-git-commit: d5dbd67ba44735cf1545291e9a03e3096acd8166
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 2%
@@ -53,11 +53,11 @@ Le modèle de page Conteneur de documentation est utilisé pour créer la page C
 - Il sert de point d’entrée ou de page d’accueil pour un ensemble spécifique de documentation (par exemple, un manuel ou un guide du produit).
 - Ajoutez la propriété id=« category-page » au jcr:content du nœud initial du modèle. Cela permet de s’assurer que toutes les pages créées à partir de ce modèle sont automatiquement traitées comme des conteneurs de documentation par AEM Guides.
 
-  ![Ajout de id=« category-page »](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650" align="left"}
+  ![Ajout de id=« category-page »](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650"}
 
 - Ajoutez un composant Texte avec la propriété obligatoire : text=« $category.html$ ».
 
-  ![Ajout d’un composant de texte](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650" align="left"}
+  ![Ajout d’un composant de texte](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650"}
 
 - Inclut généralement des éléments de navigation, tels que des liens vers des sections ou des rubriques de la documentation.
 - Il peut être personnalisé pour inclure l’identité graphique, les en-têtes, les pieds de page et d’autres éléments de conception.
@@ -71,7 +71,7 @@ Si vous disposez d&#39;un plan DITA pour un manuel de produit, le modèle de pag
 - Chaque rubrique d&#39;un plan DITA est rendue en tant que page distincte à l&#39;aide de ce modèle.
 - Contient un **composant de texte** avec la propriété obligatoire : text=« $topic.content$ ».
 
-  ![Ajout d’un composant de texte avec la propriété mandatory](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650" align="left"}
+  ![Ajout d’un composant de texte avec la propriété mandatory](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650"}
 
 - Cet espace réservé est remplacé par le contenu réel de la rubrique DITA lors de la génération du site.
    - Le composant de texte est généralement placé à l’intérieur d’un **composant de conteneur** pour garantir une mise en page et un style appropriés.
@@ -82,7 +82,7 @@ Si vous disposez d&#39;une rubrique DITA sur les « Instructions d&#39;installat
 
 **Composant de conteneur :**
 
-![Ajouter un composant de conteneur](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650" align="left"}
+![Ajouter un composant de conteneur](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650"}
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ Si vous disposez d&#39;une rubrique DITA sur les « Instructions d&#39;installat
 
 Ajoutez le même (composant de conteneur et de texte) dans la structure du même modèle :
 
-![Ajout d’un composant de conteneur et de texte](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650" align="left"}
+![Ajout d’un composant de conteneur et de texte](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
 
 ## Composants des guides de rendu dans des modèles personnalisés
 
@@ -124,7 +124,7 @@ Par défaut, les bibliothèques clientes (clientlibs) fournies dans le package d
    1. Ouvrez la **page produit** en **mode Éditeur**.
    2. Sélectionnez **Modifier le modèle** (une URL telle que conf/settings/wcm/templates/structure.html s’ouvre alors).
 
-      ![Modifier le modèle](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650" align="left"}
+      ![Modifier le modèle](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650"}
 
 2. **Mettre à jour la politique de page :**
 
@@ -135,9 +135,9 @@ Par défaut, les bibliothèques clientes (clientlibs) fournies dans le package d
 
 3. **Enregistrer les modifications :** enregistrez le modèle après l’ajout des bibliothèques clientes requises.
 
-   ![Ajout de bibliothèques clientes](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650" align="left"}
+   ![Ajout de bibliothèques clientes](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650"}
 
 
 >[!NOTE]
 >
-> Assurez-vous que les modèles sont testés dans un environnement hors production avant le déploiement en production.<br><br>Pour plus d’informations[&#128279;](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/overview) consultez la documentation officielle de AEM Guides et [AEM Sites](https://experienceleague.adobe.com/fr/docs/experience-manager-core-components/using/get-started/authoring).
+> Assurez-vous que les modèles sont testés dans un environnement hors production avant le déploiement en production.<br><br>Pour plus d’informations](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) consultez la documentation officielle de [AEM Guides et [AEM Sites](https://experienceleague.adobe.com/fr/docs/experience-manager-core-components/using/get-started/authoring).

@@ -4,9 +4,10 @@ description: Configuration de la tâche de nettoyage B-tree pour les services cl
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 58f98313-fc91-43b3-9553-aa5ab4946925
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '248'
 ht-degree: 3%
 
 ---
@@ -21,7 +22,7 @@ Les onglets suivants fournissent des instructions pour configurer une tâche de 
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md) pour créer le fichier de configuration.
 
@@ -47,7 +48,7 @@ Les onglets suivants fournissent des instructions pour configurer une tâche de 
 
 1. Configurez le planificateur de nettoyage de l’arborescence B comme illustré ci-dessous.
 
-   ![](assets/btree-cleanup-config.png){align="left"}
+   ![](assets/btree-cleanup-config.png)
 
 1. Sélectionnez **Enregistrer**.
 
@@ -59,7 +60,7 @@ Les onglets suivants fournissent des instructions pour activer le paramètre en 
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md) pour créer le fichier de configuration.
 
@@ -82,7 +83,7 @@ Les onglets suivants fournissent des instructions pour activer le paramètre en 
 1. Recherchez et sélectionnez le lot *com.adobe.fmdita.config.ConfigManager*.
 1. Activez la `Guides btree deletion enabled` de paramètre.
 
-   ![](assets/btree-cleanup-setting.png){align="left"}
+   ![](assets/btree-cleanup-setting.png)
 
 1. Sélectionnez **Enregistrer**.
 

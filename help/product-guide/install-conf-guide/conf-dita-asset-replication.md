@@ -4,9 +4,10 @@ description: Découvrez comment configurer la réplication des ressources distan
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 8c551c37-2bfd-471b-bb72-514fabbc0bf2
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '111'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ Les onglets suivants fournissent des instructions pour configurer la fonction de
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Suivez les instructions fournies dans [Remplacements de la configuration](../install-conf-guide/download-install-config-override.md) pour créer le fichier de configuration.
 
@@ -42,7 +43,7 @@ Les onglets suivants fournissent des instructions pour configurer la fonction de
 1. Configurez les `Replicate DITA assets` de paramètres en fonction de vos besoins. Par défaut, le paramètre est activé.
 
 
-   ![](assets/dita-assets-replication.png){width="350" align="left"}
+   ![](assets/dita-assets-replication.png){width="350"}
 
 
 1. Sélectionnez **Enregistrer**.

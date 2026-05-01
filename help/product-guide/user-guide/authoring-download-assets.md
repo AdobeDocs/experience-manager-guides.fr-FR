@@ -4,16 +4,16 @@ description: Découvrez comment télécharger des fichiers à partir de la conso
 exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
 feature: Content Management
 role: User
-source-git-commit: 5deb4411c82f07aa82e52b4608a71a78136c128d
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
 
 # Télécharger les fichiers {#id216MC0H0BE8}
 
-Vous pouvez télécharger des ressources, y compris des fichiers DITA et non DITA. Vous pouvez télécharger des ressources de plusieurs façons. Certaines méthodes sont natives à Adobe Experience Manager et d’autres sont prises en charge par Adobe Experience Manager Guides. Pour obtenir des informations sur le téléchargement des ressources natives de Adobe Experience Manager, consultez [Télécharger des ressources depuis Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=fr) dans la documentation de Adobe Experience Manager. La section suivante explique le mécanisme de téléchargement des fichiers dans Experience Manager Guides.
+Vous pouvez télécharger des ressources, y compris des fichiers DITA et non DITA. Vous pouvez télécharger des ressources de plusieurs façons. Certaines méthodes sont natives à Adobe Experience Manager et d’autres sont prises en charge par Adobe Experience Manager Guides. Pour obtenir des informations sur le téléchargement des ressources natives de Adobe Experience Manager, consultez [Télécharger des ressources depuis Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) dans la documentation de Adobe Experience Manager. La section suivante explique le mécanisme de téléchargement des fichiers dans Experience Manager Guides.
 
 ## Télécharger un fichier de plan DITA à partir de l&#39;éditeur
 
@@ -28,7 +28,7 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA à pa
 
    La boîte de dialogue **Télécharger le mappage** s’affiche.
 
-   ![](images/download-map-dialog-new.png){width="300" align="left"}
+   ![](images/download-map-dialog-new.png){width="300"}
 
 1. Dans la boîte de dialogue Télécharger la carte , vous pouvez choisir les options suivantes :
 
@@ -57,7 +57,7 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA à pa
 
    Vous recevrez la notification suivante une fois que la carte sera prête à être téléchargée.
 
-   ![](images/download-map-success-message.png){width="550" align="left"}
+   ![](images/download-map-success-message.png){width="550"}
 
 1. Sélectionnez **Télécharger** pour télécharger le fichier de mappage au format `.zip`. Vous pouvez également le télécharger ultérieurement à partir de la boîte de réception AEM.
 
@@ -83,7 +83,7 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA avec 
 
    La boîte de dialogue Télécharger la carte s’affiche.
 
-   ![](images/download-map.png){width="300" align="left"}
+   ![](images/download-map.png){width="300"}
 
 1. Sélectionnez **Télécharger**. Dans la boîte de dialogue Télécharger la carte , vous pouvez choisir les options suivantes :
 
@@ -98,7 +98,7 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA avec 
 
 1. Après avoir sélectionné le bouton **Télécharger**, la demande de téléchargement de carte est mise en file d’attente. Vous recevrez la notification suivante une fois que la carte sera prête à être téléchargée.
 
-   ![](images/download-map-prompt.png){width="550" align="left"}
+   ![](images/download-map-prompt.png){width="550"}
 
    - Sélectionnez **Télécharger** pour télécharger le fichier de mappage au format .zip.
 
@@ -108,8 +108,8 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA avec 
    >
    > Par défaut, les cartes téléchargées restent pendant cinq jours dans la boîte de réception de notifications de Adobe Experience Manager.
 
-![](images/download-map-inbox.png){width="300" align="left"}
+![](images/download-map-inbox.png){width="300"}
 
 Une fois la carte téléchargée, vous pouvez sélectionner la carte et utiliser l’icône Ouvrir en haut pour ouvrir le contenu téléchargé.
 
-**Rubrique parente :**&#x200B;[&#x200B; Gérer le contenu](authoring.md)
+**Rubrique parente :**[ Gérer le contenu](authoring.md)

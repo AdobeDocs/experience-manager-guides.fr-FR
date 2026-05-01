@@ -1,56 +1,56 @@
 ---
-title: DITA map report from the map dashboard
-description: Generate DITA map reports from the map dashboard in AEM Guides. Learn how to generate the CSV of a DITA map report.
+title: Rapport DITA map à partir du tableau de bord du mappage
+description: Générez des rapports de mappage DITA à partir du tableau de bord de mappage dans AEM Guides. Découvrez comment générer le fichier CSV d'un rapport DITA map.
 feature: Report Generation
 role: User
 hide: true
 exl-id: 044fb5df-166d-44a2-9ed6-6db47e4f125e
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
 
 ---
 
-# DITA map report from the map dashboard {#id205BB800EEN}
+# Rapport DITA map à partir du tableau de bord du mappage {#id205BB800EEN}
 
-AEM Guides provides your administrators the reporting capabilities to check the overall integrity of the documentation before it is pushed live or made available to end users. DITA map report from the map dashboard in AEM Guides provides valuable information such as the missing topics, topics with missing elements, UUID of referenced topics and media files,and review status of each topic. A detailed individual topic-level report also provides DITA content-related information such as content references and missing images or cross-references.
+AEM Guides fournit à vos administrateurs les fonctionnalités de création de rapports nécessaires pour vérifier l’intégrité globale de la documentation avant qu’elle ne soit mise en ligne ou mise à la disposition des utilisateurs finaux. Le rapport DITA map du tableau de bord des cartes d&#39;AEM Guides fournit des informations précieuses telles que les rubriques manquantes, les rubriques comportant des éléments manquants, l&#39;UUID des rubriques référencées et des fichiers multimédias, ainsi que l&#39;état de révision de chaque rubrique. Un rapport détaillé individuel au niveau de la rubrique fournit également des informations relatives au contenu DITA, telles que des références de contenu, des images manquantes ou des références croisées.
 
 >[!NOTE]
 >
-> AEM Guides refreshes this report on every event that results in a change in your map file or when any reference within your topic file is updated.
+> AEM Guides actualise ce rapport à chaque événement entraînant une modification de votre fichier de mappage ou lorsqu’une référence de votre fichier de rubrique est mise à jour.
 
-Perform the following steps to view the DITA Map Report:
+Pour afficher le rapport DITA Map, procédez comme suit :
 
-1. In the Assets UI, navigate to and click on the DITA map file for which you want to view the report.
+1. Dans l’interface utilisateur d’Assets, accédez au fichier de plan DITA pour lequel vous souhaitez afficher le rapport, puis cliquez dessus.
 
-1. Click **Reports**.
+1. Cliquez sur **Rapports**.
 
-   ![](images/reports-page-uuid.png){width="800" align="left"}
+   ![](images/reports-page-uuid.png){width="800"}
 
-   The Reports page is divided into two parts:
+   La page Rapports est divisée en deux parties :
 
-   - **Topic Summary:**
+   - **Résumé du sujet :**
 
-     Lists the overall summary of the selected map file. By looking at the Summary, you can quickly know the total number of topics in the map, missing topics, number of topics that have missing elements, topics&#39; state — In Draft, In Review, or Reviewed state.
+     Répertorie le résumé général du fichier de mappage sélectionné. En regardant le Résumé, vous pouvez rapidement connaître le nombre total de sujets dans la carte, les sujets manquants, le nombre de sujets qui ont des éléments manquants, l&#39;état des sujets — En version préliminaire, En révision ou Révisé.
 
    - **Détails:**
 
-     When you click on a topic, a detailed report of the selected topic is displayed.
+     Lorsque vous cliquez sur une rubrique, un rapport détaillé de la rubrique sélectionnée s&#39;affiche.
 
-     ![](images/detailed-report-uuid.png){width="800" align="left"}
+     ![](images/detailed-report-uuid.png){width="800"}
 
-     Items highlighted under **A**, **B**, **C** and **D** are described below:
+     Les éléments mis en évidence sous **A**, **B**, **C** et **D** sont décrits ci-dessous :
 
-      - **Topic**: The title of the topic specified in the DITA map. Hovering the mouse pointer over the topic&#39;s title displays the complete path of the topic. If there are issues in the topic, like missing references or images, then a red dot is shown before the topic&#39;s title.
+      - **Rubrique** : titre de la rubrique spécifiée dans le plan DITA. Placez le pointeur de la souris sur le titre de la rubrique pour afficher le chemin d&#39;accès complet de la rubrique. En cas de problèmes dans la rubrique, tels que des références ou des images manquantes, un point rouge s&#39;affiche avant le titre de la rubrique.
 
-      - **File Name**: Name of the file.
+      - **Nom de fichier** : nom du fichier.
 
-      - **UUID**: The universally unique identifier \(UUID\) of the file.
+      - **UUID** : identifiant universel unique \(UUID\) du fichier.
 
-      - **Author**: User who worked last on this topic.
+      - **Auteur** : dernier utilisateur à avoir travaillé sur ce sujet.
 
-      - **Document State**: The current state of the document - Draft, In-Review or Reviewed.
+      - **État du document** : état actuel du document (brouillon, en cours de révision ou révisé).
 
       - **Rubriques manquantes \(B\)** : s’il existe des rubriques dont les références sont rompues, elles sont répertoriées sous la liste Rubriques manquantes .
 
@@ -81,19 +81,19 @@ Effectuez les étapes suivantes pour générer le fichier CSV d&#39;un rapport D
 
 1. Cliquez sur **Générer le rapport** en haut à gauche pour générer le rapport DITA map.
 
-   ![](images/generate-DITA-map-report.png){width="800" align="left"}
+   ![](images/generate-DITA-map-report.png){width="800"}
 
 1. Vous recevrez une notification une fois que le rapport sera prêt à être téléchargé. Cliquez sur **Télécharger** pour télécharger le fichier CSV du rapport généré.
 
-   ![](images/download-report-dialog.png){width="550" align="left"}
+   ![](images/download-report-dialog.png){width="550"}
 
 
    Vous pouvez également télécharger ultérieurement le fichier CSV du rapport généré à partir de la boîte de réception de notifications d’AEM.
 
    Cliquez sur le rapport généré dans la boîte de réception pour le télécharger.
 
-   ![](images/report-inbox--notification.png){width="300" align="left"}
+   ![](images/report-inbox--notification.png){width="300"}
 
 Une fois le rapport téléchargé dans la boîte de réception, vous pouvez également sélectionner le rapport et utiliser l’icône Ouvrir en haut pour ouvrir le rapport sélectionné.
 
-**Rubrique parente :**&#x200B;[&#x200B; Rapports](reports-intro.md)
+**Rubrique parente :**[ Rapports](reports-intro.md)

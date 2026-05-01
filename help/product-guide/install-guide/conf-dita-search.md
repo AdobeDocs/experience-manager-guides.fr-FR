@@ -5,7 +5,7 @@ exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
 feature: Search Configuration
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1704'
 ht-degree: 1%
@@ -34,7 +34,7 @@ Pour ajouter un composant de recherche de contenu DITA à l&#39;interface utilis
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 
-1. Cliquez sur le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
+1. Cliquez sur le lien **** en haut et choisissez **Outils**.
 
 1. Sélectionnez **Général** dans la liste des outils, puis cliquez sur la mosaïque **Rechercher dans Forms**.
 
@@ -45,13 +45,13 @@ Pour ajouter un composant de recherche de contenu DITA à l&#39;interface utilis
 
 1. Faites glisser et déposez **prédicat d’élément DITA** à l’emplacement requis dans le formulaire de recherche.
 
-   ![](assets/drag-search-predicate.png){width="650" align="left"}
+   ![](assets/drag-search-predicate.png){width="650"}
 
 1. Cliquez sur **Terminé** pour enregistrer vos modifications.
 
    Lorsque vous accédez à l’option Filtres dans l’interface utilisateur d’Assets, vous obtenez l’option Filtrage de recherche par élément DITA .
 
-   ![](assets/search-filter-asset-console.png){width="350" align="left"}
+   ![](assets/search-filter-asset-console.png){width="350"}
 
 
 ## Ajouter un composant de recherche basé sur l’UUID dans l’interface utilisateur d’Assets {#id2034F04K05Z}
@@ -60,7 +60,7 @@ Pour ajouter un composant de recherche basé sur l’UUID à l’interface utili
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 
-1. Cliquez sur le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
+1. Cliquez sur le lien **** en haut et choisissez **Outils**.
 
 1. Sélectionnez **Général** dans la liste des outils, puis cliquez sur la mosaïque **Rechercher dans Forms**.
 
@@ -90,7 +90,7 @@ Pour fournir l&#39;accès à la fonction de recherche DITA, procédez comme suit
 
 1. Recherchez le groupe d’utilisateurs ou un utilisateur individuel auquel vous souhaitez accorder l’accès. Par exemple, pour donner accès à tous les utilisateurs du groupe auteurs, saisissez auteurs dans le champ **Filtrer la requête** et appuyez sur **Entrée**.
 
-   ![](assets/authors-group-permission.png){width="350" align="left"}
+   ![](assets/authors-group-permission.png){width="350"}
 
 1. Sélectionnez le groupe **auteurs**.
 
@@ -102,7 +102,7 @@ Pour fournir l&#39;accès à la fonction de recherche DITA, procédez comme suit
 
 1. Donnez l’autorisation **Lecture** au dossier de recherche.
 
-   ![](assets/read-permission-authors.png){width="650" align="left"}
+   ![](assets/read-permission-authors.png){width="650"}
 
 1. Cliquez sur **Enregistrer**.
 
@@ -178,7 +178,7 @@ Procédez comme suit pour ajouter des éléments ou attributs DITA personnalisé
 
 1. Ouvrez la page de configuration de la console web Adobe Experience Manager . L’URL par défaut pour accéder à la page de configuration est :
 
-   http://&lt;nom du serveur\>:<port\>/system/console/configMgr
+   http://<nom du serveur\>:<port\>/system/console/configMgr
 
 1. Recherchez et cliquez sur le lot *com.adobe.fmdita.config.ConfigManager* et cliquez dessus.
 
@@ -202,7 +202,7 @@ Pour activer l’option d’extraction des métadonnées dans configMgr, procéd
 
 1. Ouvrez la page de configuration de la console web Adobe Experience Manager . L’URL par défaut pour accéder à la page de configuration est :
 
-   http://&lt;nom du serveur\>:<port\>/system/console/configMgr
+   http://<nom du serveur\>:<port\>/system/console/configMgr
 
 1. Recherchez et cliquez sur le lot *com.adobe.fmdita.config.ConfigManager* et cliquez dessus.
 
@@ -215,7 +215,7 @@ Pour exécuter le workflow d’extraction des métadonnées, procédez comme sui
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 
-1. Cliquez sur le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
+1. Cliquez sur le lien **** en haut et choisissez **Outils**.
 
 1. Sélectionnez **Guides** dans la liste des outils, puis cliquez sur la mosaïque **Extraction des métadonnées DITA**.
 

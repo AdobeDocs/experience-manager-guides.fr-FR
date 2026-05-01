@@ -5,7 +5,7 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: 15a0cd40-45be-4631-8d60-4a9474bc431c
-source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -20,12 +20,12 @@ En tant qu’administrateur, vous pouvez également configurer les paramètres s
 
   Vous pouvez accéder à Fragments de code à partir du panneau de gauche dans l’éditeur.
 
-  ![](assets/create-snippets.png){width="350" align="left"}
+  ![](assets/create-snippets.png){width="350"}
 - **Conditions** : en tant qu&#39;administrateur, vous pouvez configurer des attributs conditionnels standard pris en charge par DITA au niveau global ou au niveau du dossier. Les auteurs utilisent ensuite les conditions configurées en faisant simplement glisser et en déposant la condition souhaitée sur leur contenu.
 
   Vous pouvez accéder aux Conditions dans le panneau de gauche de l’éditeur.
 
-  ![](assets/create-conditions.png){width="350" align="left"}
+  ![](assets/create-conditions.png){width="350"}
 - **Variables** : vous pouvez définir des variables pour rendre votre contenu plus portable, cohérent et facile à mettre à jour. Lors de la génération de la sortie, les variables sont remplacées par les valeurs de l’ensemble de variables sélectionné, ce qui vous permet de produire efficacement des sorties personnalisées.
 
   Pour plus d’informations, consultez la section [Créer une variable](../native-pdf/native-pdf-variables.md#create-a-new-variable)

@@ -4,9 +4,9 @@ description: Affichez les rapports de l’historique des versions des fichiers r
 exl-id: 74bef625-acd6-49a6-b983-881a782f68d6
 feature: Report Generation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Vous pouvez accéder à ce rapport à partir des emplacements suivants :
 
 - **Interface utilisateur d’Assets** : en sélectionnant un fichier et en ouvrant l’**Historique des versions** dans le rail de gauche. La vue **Historique des versions** contient le lien **Rétablir les journaux de version** au bas du panneau. Lorsque vous sélectionnez ce lien, l’historique des versions rétablies du fichier sélectionné s’affiche.
 
-  ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
+  ![](images/revert-log-from-assets-ui.png){width="300"}
 
 - **Aperçu de la rubrique** : lorsque vous prévisualisez une rubrique, vous pouvez également afficher le panneau **Historique des versions** dans le rail de gauche. Vous obtiendrez un panneau similaire à l’interface utilisateur d’Assets à partir duquel vous pourrez sélectionner le lien **Rétablir les journaux de version** pour accéder à l’historique des versions rétablies du document actif.
 
@@ -40,7 +40,7 @@ Pour accéder au rapport Rétablir l’historique, procédez comme suit :
 
 1. Sélectionnez **Afficher les journaux** pour générer le rapport pour le fichier ou le dossier sélectionné.
 
-   ![](images/revert-version-history-report.png){align="left"}
+   ![](images/revert-version-history-report.png)
 
    Le rapport contient les détails suivants :
 
@@ -57,4 +57,4 @@ Pour accéder au rapport Rétablir l’historique, procédez comme suit :
    - **Commentaire** : tout commentaire fourni par l’utilisateur qui a annulé le fichier.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation des rapports](reports-intro.md)
+**Rubrique parente :**[ Présentation des rapports](reports-intro.md)

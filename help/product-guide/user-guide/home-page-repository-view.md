@@ -3,9 +3,10 @@ title: Référentiel sur la page d’accueil
 description: Découvrez le référentiel sur la page d’accueil d’. Découvrez l’interface et les fonctionnalités du référentiel dans Adobe Experience Manager Guides sur la page d’accueil.
 feature: Authoring
 role: User
-source-git-commit: e45343812a67c6755c76f1b31b68c7201cdd8772
+exl-id: 1466c263-d24b-4653-8361-098831002f4e
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ Le référentiel sert d’espace centralisé pour améliorer la visibilité des 
 
 Cette interface unifiée simplifie plusieurs fonctions, notamment la création de fichiers ou de dossiers, la modification de fichiers, le chargement de ressources et la recherche de fichiers avec des options de filtrage robustes, assurant ainsi l’efficacité et la facilité d’utilisation.
 
-![](images/repository-view-home.png){align="left"}
+![](images/repository-view-home.png)
 
 L’interface du référentiel est divisée en plusieurs sections :
 
@@ -27,23 +28,23 @@ L’interface du référentiel est divisée en plusieurs sections :
 
 La barre de navigation Référentiel, située en haut de l’interface du référentiel, permet d’accéder rapidement aux actions essentielles répertoriées.
 
-![](images/tab-bar-repository-view.png){align="left"}
+![](images/tab-bar-repository-view.png)
 
 
 - **Panneau de navigation Dossier** : affiche une arborescence hiérarchique de dossiers dans le référentiel pour une navigation transparente. Ce panneau affiche uniquement des informations au niveau du dossier. Lorsqu’un dossier est sélectionné à partir de là, son contenu, ses fichiers et ses sous-dossiers s’affichent dans la vue du référentiel. Vous pouvez afficher ou masquer ce panneau à l’aide de l’icône mise en surbrillance ci-dessous.
 
-  ![](images/folder-navigation-panel.png){align="left"}
+  ![](images/folder-navigation-panel.png)
 
 - **Chemin de navigation** : indique le chemin d’accès actuel dans le référentiel, indiquant la hiérarchie des dossiers menant à votre dossier actuel. Vous pouvez la sélectionner pour revenir à un dossier spécifique dans la hiérarchie.
 
-  ![](images/breadcrumbs.png){width="650" align="left"}
+  ![](images/breadcrumbs.png){width="650"}
 
 - **Actualiser** : met à jour le référentiel pour prendre en compte les dernières modifications.
 - **Télécharger Assets** : permet de charger des ressources directement dans le dossier actif, comme indiqué dans les chemins de navigation.
 - **Nouveau** : permet la création de nouvelles rubriques, cartes et dossiers dans le dossier actif, comme indiqué dans les chemins de navigation.
 - **Assistant IA** : puissant outil optimisé par l’IA, conçu pour améliorer votre productivité grâce à des fonctionnalités d’aide intelligentes. La fonctionnalité [Assistant AI](./ai-assistant.md) n’est actuellement disponible que pour Adobe Experience Manager as a Cloud Service.
 - **Autres actions** : permet d’accéder à des options supplémentaires. Si vous sélectionnez ce bouton, un menu s’ouvre avec les options suivantes :
-   - **Assets** : vous dirige vers une destination en fonction de votre configuration.
+   - **** : vous dirige vers une destination en fonction de votre configuration.
       - **Services cloud** : si vous utilisez des services cloud, la sélection de l’option **Assets** vous conduit à la page de navigation d’AEM.
       - **Logiciel On-premise** : si vous utilisez Adobe Experience Manager Guides (4.2.1 et versions ultérieures), la sélection de l’option **Assets** vous conduit au chemin d’accès actuel au fichier dans l’interface utilisateur d’Assets.
    - **Paramètres Workspace** : vous conduit à la boîte de dialogue **Paramètres Workspace**. Pour plus d’informations, consultez [Configuration des paramètres de Workspace](../cs-install-guide/workspace-settings.md).
@@ -55,7 +56,7 @@ Le Référentiel sert d’espace central et fournit une liste tabulaire de tous 
 
 - **Personnaliser** : vous pouvez modifier les colonnes affichées à l’aide de l’option **Personnaliser** située dans le coin supérieur droit de la vue Référentiel. Cette option vous permet d’afficher ou de masquer n’importe quelle colonne et de réorganiser les colonnes selon vos besoins. Les colonnes **Nom** ou **Titre** sont obligatoires et ne peuvent pas être désactivées ensemble. D’autres champs, tels que **Type de fichier**, **UUID**, **État du document**, **Verrouillé par**, **Créé le** et **Modifié le**, peuvent être activés ou désactivés si nécessaire. Vous pouvez les réorganiser en procédant simplement par glisser-déposer.
 
-  ![](images/customize-repo-view.png){width="350" align="left"}
+  ![](images/customize-repo-view.png){width="350"}
 
 - **Redimensionnement des colonnes** : les colonnes peuvent être redimensionnées en sélectionnant des options dans le menu déroulant des colonnes.
 
@@ -67,11 +68,11 @@ Le Référentiel sert d’espace central et fournit une liste tabulaire de tous 
    - Après avoir sélectionné les fichiers souhaités à l’aide de la case à cocher, l’option **Modifier** devient disponible dans le coin supérieur droit de la vue Référentiel.
    - Sélectionnez **Modifier** pour ouvrir le ou les fichiers sélectionnés dans l’interface de l’éditeur, où vous pouvez commencer à modifier le fichier.
 
-     ![](images/edit-repo-view.png){align="left"}
+     ![](images/edit-repo-view.png)
 
 - **Menu Options des dossiers** : vous pouvez effectuer les actions suivantes à l’aide du menu **Options** disponible pour un dossier :
 
-  ![](images/options-folder-repo.png){width="350" align="left"}
+  ![](images/options-folder-repo.png){width="350"}
 
    - **Nouveau** : créez une rubrique DITA, un plan DITA ou un dossier.
    - **Télécharger Assets** : chargez un fichier depuis votre système local vers le dossier sélectionné dans le référentiel.
@@ -80,7 +81,7 @@ Le Référentiel sert d’espace central et fournit une liste tabulaire de tous 
 
 - **Menu Options des fichiers** : vous pouvez effectuer les actions suivantes à l’aide du menu **Options** d’un fichier :
 
-  ![](images/options-file-repo-new.png){width="350" align="left"}
+  ![](images/options-file-repo-new.png){width="350"}
 
    - **Modifier** : ouvrez le fichier pour le modifier.
    - **Modifier dans Oxygen** : sélectionnez cette option pour modifier le fichier sélectionné dans le plug-in Oxygen Connector.
@@ -107,11 +108,11 @@ Le Référentiel sert d’espace central et fournit une liste tabulaire de tous 
 
 L’option **Rechercher** permet de rechercher les fichiers requis dans le référentiel principalement sur la base des **Titre du fichier**, **Nom du fichier** et **Contenu**. Vous pouvez utiliser n’importe quel critère de recherche, deux ou les trois. Si aucun des critères n’est sélectionné, les résultats incluront les critères communs aux trois critères.
 
-![](images/search-in-repository.png){align="left"}
+![](images/search-in-repository.png)
 
 Sélectionnez l’icône **Filtrer la recherche** \(![Icône Filtrer la recherche](images/filter-search-icon.svg)\) pour ouvrir le panneau Filtre à droite.
 
-![](images/Search-filters-repo.png){align="left"}
+![](images/Search-filters-repo.png)
 
 Vous disposez des options suivantes pour filtrer les fichiers et affiner votre recherche :
 
@@ -143,15 +144,14 @@ Après avoir appliqué tous les filtres requis, sélectionnez **Appliquer** dans
 
 Les résultats de recherche personnalisés en fonction du filtre sélectionné s’affichent sous la forme d’une **liste tabulaire de fichiers uniquement** (les dossiers ne s’affichent pas). Vous pouvez supprimer n’importe quel filtre individuellement ou plusieurs filtres en même temps et les résultats sont actualisés pour refléter la sélection mise à jour.
 
-![](images/search-results-with-filters.png){align="left"}
+![](images/search-results-with-filters.png)
 
 Une fois les résultats de la recherche affichés, vous pouvez sélectionner plusieurs fichiers et les ouvrir dans l’éditeur à l’aide de l’icône **Modifier** ou utiliser tous les résultats en envoyant les résultats de la recherche à l’éditeur via l’option **Afficher dans le panneau de recherche**.
 
-![](images/post-search-operation.png){align="left"}
+![](images/post-search-operation.png)
 
 **Afficher dans le panneau de recherche**
 
 L’option **Afficher dans le panneau de recherche** devient disponible après avoir effectué une recherche dans le référentiel. Cette fonctionnalité vous permet d’afficher tous les résultats recherchés dans le **panneau de recherche** dans l’éditeur. Pour plus d’informations, consultez [Panneau de recherche](./search-panel-explorer.md).
 
-![](images/search-panel-repo.png){align="left"}
-
+![](images/search-panel-repo.png)

@@ -3,7 +3,7 @@ title: Notes de mise à jour | Nouveautés de la version de décembre 2025 du co
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version de décembre 2025 des contenus de formation et d’apprentissage du produit
 role: Leader
 exl-id: 72d4fd5c-194a-4671-bcec-35fc35ff3165
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 1%
@@ -24,19 +24,19 @@ Cette note de mise à jour couvre les nouvelles fonctionnalités améliorées in
 
   Pour plus d&#39;informations, consultez [Autres options du menu Insertion](../learning-content/lc-other-insert-options.md).
 
-  ![](assets/knowledge-check-topic.png){width="650" align="left"}
+  ![](assets/knowledge-check-topic.png){width="650"}
 
 - **Nouveaux widgets interactifs** : vous pouvez impliquer les élèves avec de nouveaux widgets interactifs qui rendent le contenu plus immersif : **Cliquez pour afficher**, **Retourner la carte** et **Tabulation**.
 
   Pour plus d’informations, consultez la section [Utilisation de widgets interactifs](../learning-content/lc-widgets.md).
 
-  ![](assets/new-widgets-options.png){width="350" align="left"}
+  ![](assets/new-widgets-options.png){width="350"}
 
 - **Correspondre à ce qui suit** : un nouveau type de question, **Correspondre à ce qui suit**, est disponible pour les quiz. Les élèves peuvent associer des éléments de deux listes pour associer des idées connexes, encourageant la pensée critique.
 
   Pour plus d’informations, consultez [Types de questions du quiz](../learning-content/quiz-insert-questions.md#question-types).
 
-  ![](assets/question-types.png){width="650" align="left"}
+  ![](assets/question-types.png){width="650"}
 
 ## Révision
 
@@ -44,7 +44,7 @@ Cette note de mise à jour couvre les nouvelles fonctionnalités améliorées in
 
   Pour plus d’informations, voir [Créer une tâche de révision](../learning-content/manage-course.md#create-review-task).
 
-  ![](assets/create-review-task-lc.png){width="650" align="left"}
+  ![](assets/create-review-task-lc.png){width="650"}
 
 ## Gestion de contenu
 
@@ -52,4 +52,4 @@ Cette note de mise à jour couvre les nouvelles fonctionnalités améliorées in
 
   Pour plus d’informations, consultez la section [Ajouter des blocs de création de base](../learning-content/lc-basic-blocks.md).
 
-  ![](assets/reusable-content.png){width="650" align="left"}
+  ![](assets/reusable-content.png){width="650"}

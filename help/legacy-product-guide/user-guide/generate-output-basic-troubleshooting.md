@@ -5,7 +5,7 @@ feature: Publishing, Troubleshooting
 role: User
 hide: true
 exl-id: f85fee0f-30d1-453f-8700-781e0be8f616
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Pour afficher et vérifier le fichier journal de génération de sortie, procéd
 
    La colonne **Général** des **Sorties générées** affiche les icônes pour donner un indice visuel sur le succès ou l’échec de la génération de la sortie.
 
-   ![](images/output-general-settings.png){width="300" align="left"}
+   ![](images/output-general-settings.png){width="300"}
 
    Dans la capture d’écran ci-dessus, les première et troisième icônes indiquent l’échec de la génération de sortie. La deuxième icône affiche une génération de sortie réussie, mais avec des messages. La dernière est une génération de sortie réussie sans aucun message.
 
@@ -32,7 +32,7 @@ Pour afficher et vérifier le fichier journal de génération de sortie, procéd
 
    Le fichier journal s’ouvre dans un nouvel onglet.
 
-   ![](images/log-file.png){width="800" align="left"}
+   ![](images/log-file.png){width="800"}
 
 1. Appliquez les filtres suivants pour mettre en surbrillance le texte dans le fichier journal :
    - Fatal : met en évidence les erreurs fatales dans le fichier journal avec la couleur rose.
@@ -66,13 +66,13 @@ Effectuez les étapes suivantes pour copier et vérifier le fichier journal de g
 
    Dans l’exemple de fragment de code suivant de fichier journal, vous pouvez voir le message `BUILD FAILED` ainsi que la raison de l’erreur.
 
-   ![](images/dita-error-in-log-file.png){width="650" align="left"}
+   ![](images/dita-error-in-log-file.png){width="650"}
 
    - *Erreur liée à AEM Guides* : l&#39;autre type d&#39;erreur que vous pouvez identifier dans le fichier journal est lié au processus AEM Guides lui-même. Dans ce cas, le fichier de mappage DITA est analysé avec succès, mais le processus de génération de sortie échoue en raison d&#39;une erreur interne dans AEM Guides. Pour ce type d’erreur, vous devez demander de l’aide à l’équipe d’assistance technique.
 
    Dans l’exemple d’extrait de fichier journal suivant, le message `BUILD SUCCESSFUL` s’affiche, suivi d’une autre erreur technique.
 
-   ![](images/process-error-in-log-file.png){width="650" align="left"}
+   ![](images/process-error-in-log-file.png){width="650"}
 
 
 ## Résoudre l’erreur de compilation JSP
@@ -92,4 +92,4 @@ Pour résoudre ce problème, procédez comme suit :
 1. Augmentez la valeur du paramètre *Nombre d’appels par requête* en fonction de vos besoins.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)
+**Rubrique parente :**[ Génération de sortie](generate-output.md)

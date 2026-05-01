@@ -4,9 +4,9 @@ description: connaître les fonctionnalités de l’éditeur de cartes dans Adob
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2671'
+source-wordcount: '2703'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Les options suivantes sont disponibles sur la barre d’outils en mode Mise en p
 
 Affiche la boîte de dialogue Sélectionner un fichier. Accédez au fichier de rubrique/mappage à insérer et choisissez **Sélectionner** pour l’ajouter au mappage.
 
-![](images/insert-topic-reference-dialog.png){align="left"}
+![](images/insert-topic-reference-dialog.png)
 
 
 **Groupe de sujets** - ![](images/topic-group.svg)
@@ -49,7 +49,7 @@ Insérez l’élément `topicgroup`. Pour plus d&#39;informations sur le regroup
 
 Affiche la boîte de dialogue Insérer une clé. Utilisez cette boîte de dialogue pour définir toute définition de clé que vous souhaitez utiliser dans le mappage.
 
-![](images/insert-key-definition-dialog.png){width="300" align="left"}
+![](images/insert-key-definition-dialog.png){width="300"}
 
 **Insérer avant/insérer après** - ![](images/insert_element_before_icon.svg)/![](images/insert_element_after_icon.svg)
 
@@ -111,7 +111,7 @@ Affiche ou masque une case à cocher pour chaque rubrique. Vous pouvez utiliser 
 
 Outre l’organisation des rubriques dans le fichier de mappage, vous pouvez également effectuer les actions suivantes à l’aide du menu Options qui s’affiche lorsque vous pointez sur un fichier ou cliquez avec le bouton droit de la souris dans l’éditeur en mode Mise en page :
 
-![](images/map-editor-options-menu.png){width="650" align="left"}
+![](images/map-editor-options-menu.png){width="650"}
 
 - **Ajouter** : vous pouvez choisir d’ajouter une nouvelle rubrique ou une référence vide à partir de l’éditeur de cartes :
    - **Référence vide** : cette option vous permet d&#39;ajouter une référence vide dans votre plan DITA. Vous pouvez double-cliquer ultérieurement sur la référence vide insérée et ajouter les détails de la rubrique.
@@ -140,13 +140,13 @@ Si vous avez appliqué des conditions à une rubrique, une icône de filtre s’
 
 La vue **Auteur** vous permet de modifier votre plan DITA dans l&#39;éditeur. La vue WYSIWYG de l’éditeur de cartes s’affiche, et certaines des icônes affichées en mode Création sont identiques à la vue Mise en page.
 
-![](images/map-editor-author-view.png){align="left"}
+![](images/map-editor-author-view.png)
 
 En outre, vous pouvez afficher les icônes suivantes et effectuer les tâches associées à partir de la vue Auteur :
 
 **Insérer avant/Insérer après** - ![](images/insert_element_before_icon.svg)/![](images/insert_element_after_icon.svg)
 
-Affiche la boîte de dialogue **Insérer un élément avant ou &#x200B;** Insérer un élément après. Sélectionnez l&#39;élément à insérer dans le mappage. Selon l&#39;opération, le nouvel élément est inséré avant ou après l&#39;élément courant dans la carte.
+Affiche la boîte de dialogue **Insérer un élément avant ou **Insérer un élément après. Sélectionnez l&#39;élément à insérer dans le mappage. Selon l&#39;opération, le nouvel élément est inséré avant ou après l&#39;élément courant dans la carte.
 
 **Element** - ![](images/Add_icon.svg)
 
@@ -179,7 +179,7 @@ Perform the following steps to work with relationship tables in the Basic Map Ed
 
 1.  Select **Reltable** from the toolbar.
 
-    ![](images/reltable.png){width="650" align="left"}
+    ![](images/reltable.png){width="650"}
 
 1.  Drag-and-drop topics from the topic list to the Reltable editor.
 
@@ -187,13 +187,13 @@ Perform the following steps to work with relationship tables in the Basic Map Ed
     >
     > You can add topics from any folder in the References rail.
 
-    ![](images/create-reltable.png){width="550" align="left"}
+    ![](images/create-reltable.png){width="550"}
 
 1.  To add a header to your relationship table, click **Add Relheader**.
 
 1.  To add a column to your relationship table, click **Add a Column**.
 
-    ![](images/complete-reltable.png){width="550" align="left"}
+    ![](images/complete-reltable.png){width="550"}
 
 1.  Click **Save**.
 
@@ -241,7 +241,7 @@ Vous pouvez créer une tâche de révision de la rubrique active ou mapper le fi
 
 Cette vue vous permet de modifier le contenu dans son format brut, ce qui vous permet de contrôler entièrement la structure et la mise en forme.
 
-![](images/map-editor-source-view.png){align="left"}
+![](images/map-editor-source-view.png)
 
 
 Dans cette vue, la barre d’outils fournit des options de base d’édition et d’insertion de contenu disponibles sous la liste déroulante **Menu**, notamment Couper, Copier, Annuler, Rétablir, Supprimer, Rechercher et remplacer, Libellé de version, Fusionner, Enregistrer comme nouvelle version, Verrouiller et Déverrouiller.
@@ -252,7 +252,7 @@ Le mode Prévisualisation rend le contenu tel qu’il apparaîtra dans la sortie
 
 En plus de pouvoir afficher la position de chaque fichier de rubrique dans une carte, il est souhaitable d’afficher le contenu de la carte dans un flux consécutif. La fonction Aperçu de la carte vous permet d&#39;afficher l&#39;intégralité du contenu du fichier de carte en un seul clic. Il n’est pas nécessaire de générer une sortie du fichier de mappage pour voir à quoi ressemblera l’ensemble du mappage une fois publié. Vous pouvez simplement accéder à l&#39;aperçu de la carte et tous les sujets et sous-cartes sont rendus sous la forme d&#39;un livre.
 
-![](images/map-editor-preview.png){align="left"}
+![](images/map-editor-preview.png)
 
 >[!NOTE]
 >
@@ -268,7 +268,7 @@ Vous pouvez effectuer les tâches supplémentaires suivantes en mode Aperçu :
   >
   > Si vous ne disposez pas de droits de modification, la rubrique s’ouvre en mode lecture seule.
 
-  ![](images/edit-topic-preview-mode.png){width="650" align="left"}
+  ![](images/edit-topic-preview-mode.png){width="650"}
 
 - Accédez à la rubrique souhaitée en sélectionnant le titre de la rubrique dans l’arborescence de carte \(dans le panneau de gauche\).
 
@@ -281,10 +281,10 @@ Lorsqu’une carte est ouverte en mode Aperçu et que vous revenez sur celle-ci 
 Vous pouvez utiliser la fonctionnalité Actualiser , disponible en mode Prévisualisation de la carte, de deux manières :
 
 - **Actualisation au niveau des cartes** : en cliquant sur le bouton **Actualiser**, vous actualisez l’aperçu de l’ensemble de la carte (y compris toutes les rubriques) et accédez à la première position de défilement pour une vue claire.
-  ![](images/refresh-map.png){width="650" align="left"}
+  ![](images/refresh-map.png){width="650"}
 
 - **Actualisation au niveau du topic** : en sélectionnant **Actualiser le topic** dans le menu contextuel, vous actualisez ce topic spécifique tout en conservant la position de défilement inchangée.
-  ![](images/refresh-topic.png){width="650" align="left"}
+  ![](images/refresh-topic.png){width="650"}
 
 **Autres méthodes pour prévisualiser un fichier de mappage**
 
@@ -298,11 +298,11 @@ Vous pouvez accéder à l’aperçu d’une carte depuis :
 
 - **Éditeur de cartes** : dans l’éditeur de cartes, sélectionnez **Aperçu** dans le menu d’options pour afficher l’aperçu de la carte actuelle.
 
-  ![](images/map-preview-icon.png){width="650" align="left"}
+  ![](images/map-preview-icon.png){width="650"}
 
   L&#39;aperçu de la carte est affiché dans une boîte pop-up.
 
-  ![](images/map-editor-preview-pop-up.png){width="500" align="left"}
+  ![](images/map-editor-preview-pop-up.png){width="500"}
 
 **Propriétés du mappage**
 
@@ -329,7 +329,7 @@ Pour modifier des rubriques via un plan DITA, procédez comme suit :
 
    Vous pouvez ouvrir plusieurs rubriques dans l’éditeur et chaque rubrique est ouverte dans un nouvel onglet de l’éditeur. Même si votre plan DITA contient des sous-plans, les rubriques des sous-plans sont également ouvertes dans un nouvel onglet pour modification. Si vous souhaitez visualiser les rubriques sous une sous-carte, vous pouvez sélectionner et développer la sous-carte.
 
-   ![](images/web-editor-multiple-topics.png){align="left"}
+   ![](images/web-editor-multiple-topics.png)
 
    Si vous sélectionnez un fichier de mappage, le mappage est ouvert dans un nouvel onglet de l’éditeur.
 
@@ -337,7 +337,7 @@ Pour modifier des rubriques via un plan DITA, procédez comme suit :
 
    - Vous pouvez les enregistrer individuellement. Si vous fermez sans enregistrer vos rubriques, une boîte de dialogue vous invitant à enregistrer les rubriques non enregistrées s’affiche :
 
-     ![](images/save-multiple-topics-new.png){width="300" align="left"}
+     ![](images/save-multiple-topics-new.png){width="300"}
 
      Vous pouvez choisir d’enregistrer toutes les rubriques sélectionnées ou de désélectionner les rubriques que vous ne souhaitez pas enregistrer.
 
@@ -349,7 +349,7 @@ Pour modifier des rubriques via un plan DITA, procédez comme suit :
 
    - Si votre administrateur a activé l’option de déverrouillage des fichiers à la fermeture, une invite vous demandant d’enregistrer les fichiers verrouillés s’affiche à chaque fermeture des fichiers verrouillés. Lorsque cette option est activée, lorsque vous fermez l’éditeur avec les fichiers modifiés, la liste des fichiers verrouillés à enregistrer s’affiche. Les fichiers verrouillés s’affichent avec une icône de verrouillage :
 
-     ![](images/save-on-close-new.png){width="350" align="left"}
+     ![](images/save-on-close-new.png){width="350"}
 
 ## Panneau de droite dans l’éditeur de cartes
 
@@ -361,7 +361,7 @@ Le panneau Propriétés du contenu contient des informations sur le type de rubr
 
 - **Autres attributs** Si votre administrateur a créé un profil pour les attributs, vous obtiendrez ces attributs ainsi que leurs valeurs configurées. À l’aide du panneau Propriétés du contenu , vous pouvez choisir ces attributs et les affecter au contenu approprié dans votre rubrique. Vous pouvez également affecter des attributs configurés par votre administrateur sous **Attributs d’affichage**. Les attributs définis pour un élément sont affichés en mode Mise en page et Plan. Cela vous permet d’avoir un aperçu rapide de toutes les rubriques d’un mappage pour lequel un attribut particulier est défini. Par exemple, toutes les rubriques qui possèdent l’attribut `audience` sont définies comme `US`.
 
-  ![mode mise en page](images/layout-inline-attributes.png){width="650" align="left"}
+  ![mode mise en page](images/layout-inline-attributes.png){width="650"}
 
 
   Pour plus d’informations, consultez la section [Afficher les attributs](../cs-install-guide/workspace-settings.md#display-attributes).

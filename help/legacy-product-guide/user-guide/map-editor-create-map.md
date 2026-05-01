@@ -5,7 +5,7 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 981ecaeb-9b1f-4c7a-8336-7746a739bedc
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Pour créer un fichier de mappage, procédez comme suit :
    >
    > La manière dont les rubriques sont référencées dans un fichier de mappage dépend du modèle de mappage. Par exemple, si vous sélectionnez le modèle Mappage, les références de rubrique \(`topicref`\) sont utilisées pour faire référence aux rubriques. Dans le cas d&#39;un Bookmap, les références de rubrique sont créées à l&#39;aide de l&#39;élément `chapter` dans DITA.
 
-   ![](images/map-template.png){width="650" align="left"}
+   ![](images/map-template.png){width="650"}
 
 1. Sur la page Propriétés , spécifiez le mappage **Titre**.
 
@@ -44,15 +44,15 @@ Pour créer un fichier de mappage, procédez comme suit :
 
    Chaque nouveau fichier de mappage que vous créez à partir de l’interface utilisateur d’Assets **Créer** \> **Mappage DITA** ou de l’éditeur web se voit attribuer un identifiant de mappage unique. En outre, la nouvelle carte est enregistrée comme dernière copie de travail dans la gestion des ressources numériques. Tant que vous n’avez pas enregistré une révision d’un mappage nouvellement créé, vous ne verrez aucun numéro de version dans l’historique des versions. Si vous ouvrez la carte pour la modifier, les informations de version s’affichent dans le coin supérieur droit de l’onglet du fichier de carte :
 
-   ![](images/first-version-map-none.png){width="650" align="left"}
+   ![](images/first-version-map-none.png){width="650"}
 
    Les informations de version d’un mappage nouvellement créé s’affichent sous la forme *aucune*. Lorsque vous enregistrez une nouvelle version, un numéro de version 1.0 lui est attribué. Pour plus d’informations sur l’enregistrement d’une nouvelle version, voir [Enregistrer comme nouvelle version](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
-   You can choose to open the map for editing in the configured map editor, or save the map file in the AEM repository.
+   Vous pouvez choisir d’ouvrir le mappage pour le modifier dans l’éditeur de mappages configuré ou d’enregistrer le fichier de mappage dans le référentiel AEM.
 
    >[!NOTE]
    >
-   > To use the Advanced Map Editor, access the map file in the Web Editor. In case your administrator has configured the Advanced Map Editor as the default editor in the map files, then the map file is opened directly in the Advanced Map Editor for editing. See *Set the Advanced Map Editor as default* section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
+   > Pour utiliser l’éditeur de mappages avancé, accédez au fichier de mappage dans l’éditeur web. Si votre administrateur a configuré l’éditeur de carte avancé comme éditeur par défaut dans les fichiers de carte, le fichier de carte est ouvert directement dans l’éditeur de carte avancé pour être modifié. Consultez la section *Définition de l’éditeur de carte avancé par défaut* dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
 
 
-**Parent topic:**&#x200B;[&#x200B; Work with the Map Editor](map-editor.md)
+**Rubrique parente :**[ Utilisation de l’éditeur de cartes](map-editor.md)

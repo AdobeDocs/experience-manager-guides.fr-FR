@@ -4,9 +4,9 @@ description: Affichez les rubriques en mode création, source et aperçu. Décou
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
@@ -33,18 +33,18 @@ La vue Source affiche le code XML sous-jacent qui constitue la rubrique. Si vous
 
 * Pour appeler le catalogue dynamique, placez le curseur à la fin de toute balise d’élément où vous souhaitez insérer le nouvel élément et saisissez « &lt; ». L’éditeur affiche une liste de tous les éléments XML valides que vous pouvez insérer à cet emplacement. Utilisez les touches fléchées pour sélectionner l’élément à insérer et appuyez sur Entrée. Lorsque vous saisissez le crochet fermant « \>, la balise fermante de l’élément est automatiquement ajoutée.
 
-  ![](images/smart-catalog-elements.png){width="400" align="left"}
+  ![](images/smart-catalog-elements.png){width="400"}
 
 * Vous pouvez également modifier facilement un élément à partir de la vue Source. Par exemple, si vous modifiez la balise d’ouverture d’un élément de `p` en `note`, la balise de `p` de fermeture est automatiquement remplacée par `/note`. Si vous remplacez un élément par un élément incorrect, l’erreur de validation s’affiche immédiatement.
 
 * Si vous souhaitez ajouter un attribut à un élément, placez le curseur à l’intérieur de la balise de l’élément et appuyez sur la barre d’espace. Une liste d’attributs valides pour cet élément s’affiche dans le catalogue dynamique. Utilisez les touches fléchées pour sélectionner l’élément souhaité et appuyez sur Entrée pour insérer l’élément. Pour spécifier une valeur pour l’attribut, saisissez le signe égal \(=\) et l’éditeur saisit automatiquement les guillemets ouvrants et fermants «  » dans lesquels vous pouvez spécifier la valeur de l’attribut.
 
-  ![](images/smart-catalog-attribute.png){width="350" align="left"}
+  ![](images/smart-catalog-attribute.png){width="350"}
 
 * Dans la vue Source, il existe une option Retrait automatique qui réorganise le code XML dans un format présentable et facile à lire. En outre, si vous sélectionnez du texte et passez de la vue Auteur à Source ou de la vue Source à la vue Auteur, le texte sélectionné est également mis en surbrillance dans l’autre vue.
 * La validation XML de votre document est une autre fonctionnalité puissante de la vue Source. Si vous ouvrez un document contenant un XML non valide, il s’ouvre dans la vue Source avec les informations sur le XML non valide. Par exemple, dans la capture d’écran suivante, les informations exactes sur le code XML erroné sont données dans le pop-up Erreur d’analyse .
 
-  ![](images/invalid-topic-xml.png){width="650" align="left"}
+  ![](images/invalid-topic-xml.png){width="650"}
 
   Dans la capture d’écran ci-dessus, une mise en surbrillance croisée est utilisée pour pointer la ligne contenant un XML erroné.
 
@@ -104,13 +104,13 @@ Si vous avez utilisé des conditions dans votre rubrique ou mappage, celles-ci s
 
 L’image suivante présente une rubrique qui utilise deux conditions : `Audience` et `Product`. Le contenu conditionné est mis en surbrillance avec un arrière-plan jaune.
 
-![](images/preview-filters.png){align="left"}
+![](images/preview-filters.png)
 
 ### Afficher les balises de suivi des modifications {#id2114BJ00CE8}
 
 Si un document contient des marques de suivi des modifications \(ou des repères visuels\), vous pouvez également prévisualiser le document avec ou sans ces marques. Lors de la prévisualisation d’un document, le panneau de droite contient les options Filtres et Suivi .
 
-![](images/preview-tracking_cs.png){width="400" align="left"}
+![](images/preview-tracking_cs.png){width="400"}
 
 Vous pouvez choisir parmi trois options **Tracking** :
 
@@ -120,7 +120,7 @@ Vous pouvez choisir parmi trois options **Tracking** :
 
   L’image suivante présente l’aperçu d’un fichier de carte avec des balises :
 
-  ![](images/preview-map-with-track-changes.png){width="300" align="left"}
+  ![](images/preview-map-with-track-changes.png){width="300"}
 
 
 ### Exporter une rubrique en tant que PDF {#id2114BL00B5U}
@@ -149,4 +149,4 @@ Pour exporter une rubrique en tant que PDF, procédez comme suit :
    Le PDF est généré et ouvert dans un nouvel onglet ou une boîte de dialogue s’affiche pour vous permettre d’enregistrer le PDF sur votre système local.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: f6bf1033-9c2f-42c7-9ad5-e1060e2c9770
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Pour afficher le rapport Statut de la conversion, procédez comme suit :
 
    Le rapport Statut de la conversion s’affiche pour toutes les tâches de conversion exécutées sur le système.
 
-   ![](images/conversion-status-report.png){width="800" align="left"}
+   ![](images/conversion-status-report.png){width="800"}
 
 1. La page du rapport est divisée en deux parties :
 
@@ -36,7 +36,7 @@ Pour afficher le rapport Statut de la conversion, procédez comme suit :
 
      La capture d’écran suivante affiche les données du rapport pour les tâches de conversion dont le statut est En échec, Actif et En file d’attente.
 
-     ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
+     ![](images/conversion-report-failed-active-queued.png){width="800"}
 
    - **Données du rapport :**
 
@@ -57,4 +57,4 @@ Pour afficher le rapport Statut de la conversion, procédez comme suit :
       - **Output** : chemin d’accès du document converti. Cliquez sur le lien Sortie pour accéder à l’emplacement d’enregistrement de la sortie.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Rapports](reports-intro.md)
+**Rubrique parente :**[ Rapports](reports-intro.md)

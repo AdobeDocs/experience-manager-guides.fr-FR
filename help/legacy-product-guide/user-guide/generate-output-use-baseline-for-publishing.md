@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: d4892eca-2715-4bd6-8ac8-0a8edff2c4f8
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1972'
 ht-degree: 0%
@@ -18,7 +18,7 @@ La fonction Ligne de base vous permet de créer une version de vos rubriques et 
 
 La sélection d&#39;une ligne de base est facultative pour les paramètres prédéfinis de sortie et un plan DITA peut avoir plusieurs lignes de base. Cependant, chaque paramètre prédéfini de sortie dans un plan DITA ne peut être associé qu&#39;à une seule ligne de base. Si aucune ligne de base n’est spécifiée au moment de la publication, la sortie est publiée à l’aide de la dernière version du contenu.
 
-De même, la sélection d’une ligne de base pour traduire le contenu est facultative. Cependant, si vous choisissez de traduire le contenu à l’aide d’une ligne de base, le contenu de cette dernière est également enregistré avec les copies traduites. Vous pouvez ensuite utiliser la ligne de base traduite pour effectuer d’autres opérations, telles que le partager avec des éditeurs externes ou l’archiver. Pour plus d&#39;informations sur l&#39;exportation d&#39;une ligne de base traduite, voir [&#x200B; Exporter la ligne de base traduite &#x200B;](#id196SE600GHS).
+De même, la sélection d’une ligne de base pour traduire le contenu est facultative. Cependant, si vous choisissez de traduire le contenu à l’aide d’une ligne de base, le contenu de cette dernière est également enregistré avec les copies traduites. Vous pouvez ensuite utiliser la ligne de base traduite pour effectuer d’autres opérations, telles que le partager avec des éditeurs externes ou l’archiver. Pour plus d&#39;informations sur l&#39;exportation d&#39;une ligne de base traduite, voir [ Exporter la ligne de base traduite ](#id196SE600GHS).
 
 >[!TIP]
 >
@@ -46,12 +46,12 @@ Pour créer une ligne de base, procédez comme suit :
 
 1. Sur la page Lignes de base, cliquez sur **Créer**.
 1. Saisissez le nom de la ligne de base dans **Nom de la ligne de base**.
-   ![créer une ligne de base](images/create-baseline.png){width="800" align="left"}
+   ![créer une ligne de base](images/create-baseline.png){width="800"}
 1. Dans **Définir la version en fonction de**, sélectionnez l’une des options suivantes :
 
    - **Libellé** : sélectionnez cette option pour sélectionner les rubriques en fonction du libellé qui leur est appliqué. Saisissez un libellé pour filtrer la liste en fonction de la chaîne saisie. Dans la liste filtrée, vous pouvez choisir un libellé pour sélectionner les rubriques et les autres ressources portant le libellé spécifié.
 
-   Lorsque vous sélectionnez **Libellé**, vous avez également la possibilité d&#39;utiliser la dernière version des rubriques sur lesquelles le libellé spécifié n&#39;est pas appliqué. Si vous ne sélectionnez pas cette option et qu&#39;un sujet ou un fichier multimédia ne porte pas le libellé spécifié, le processus de création de la ligne de base échouera. Pour plus d’informations sur l’ajout de libellés, voir [&#x200B; Utiliser des libellés &#x200B;](web-editor-use-label.md#).
+   Lorsque vous sélectionnez **Libellé**, vous avez également la possibilité d&#39;utiliser la dernière version des rubriques sur lesquelles le libellé spécifié n&#39;est pas appliqué. Si vous ne sélectionnez pas cette option et qu&#39;un sujet ou un fichier multimédia ne porte pas le libellé spécifié, le processus de création de la ligne de base échouera. Pour plus d’informations sur l’ajout de libellés, voir [ Utiliser des libellés ](web-editor-use-label.md#).
 
    - **Version le** &lt;*horodatage*\> : sélectionne la version des rubriques à la date et à l’heure spécifiées. Notez que l’heure que vous indiquez ici correspond au fuseau horaire de votre serveur AEM. Si votre serveur se trouve dans un fuseau horaire différent, les rubriques sont sélectionnées en fonction du fuseau horaire de votre serveur et non de votre fuseau horaire local.
 
@@ -93,7 +93,7 @@ Pour modifier une ligne de base existante, procédez comme suit :
 1. Effectuez les modifications requises dans la ligne de base. Vous pouvez modifier le nom et la version de la rubrique ou du contenu référencé.
 1. Si vous souhaitez utiliser une version différente pour une ou plusieurs rubriques, vous pouvez le faire en sélectionnant manuellement ces rubriques. Cliquez sur **Parcourir la rubrique**, puis sélectionnez la rubrique pour laquelle vous souhaitez utiliser une autre version. Dans la liste déroulante Sélectionner une version de la rubrique sélectionnée, sélectionnez une version de la rubrique à utiliser dans la ligne de base et cliquez sur **OK**.
 
-   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
+   ![](images/baseline-select-version-drop-down.png){width="800"}
 
    Les informations sur la rubrique et sa version sélectionnée sont stockées dans le serveur principal. Vous pouvez répéter cette étape pour modifier la version sélectionnée pour plusieurs rubriques.
 
@@ -140,7 +140,7 @@ Effectuez les étapes suivantes pour ajouter un libellé à plusieurs rubriques 
 
 1. Cliquez sur **Ajouter des libellés**.
 
-   ![](images/add-label-baseline-uuid.png){width="800" align="left"}
+   ![](images/add-label-baseline-uuid.png){width="800"}
 
 1. Dans la boîte de dialogue **Ajouter un libellé**, spécifiez un libellé unique à associer à cette ligne de base.
 
@@ -151,7 +151,7 @@ Effectuez les étapes suivantes pour ajouter un libellé à plusieurs rubriques 
    - Cliquez sur **Ajouter**.
 Le libellé spécifié est ajouté au plan DITA ainsi qu&#39;aux rubriques et au contenu référencés.
 
-     ![](images/label-added-baseline-uuid.png){width="650" align="left"}
+     ![](images/label-added-baseline-uuid.png){width="650"}
 
 
 ## Exporter la ligne de base traduite {#id196SE600GHS}
@@ -170,7 +170,7 @@ Effectuez les étapes suivantes pour exporter une ligne de base traduite :
 
 1. Dans l’onglet **Traduction**, développez l’option **Ligne de base** disponible dans le rail de gauche.
 
-   ![](images/export-baseline.png){width="800" align="left"}
+   ![](images/export-baseline.png){width="800"}
 
 1. Sélectionnez l&#39;option **Utiliser niveau de référence** et choisissez le niveau de référence à exporter.
 
@@ -183,4 +183,4 @@ Effectuez les étapes suivantes pour exporter une ligne de base traduite :
 1. \(Facultatif\) Pour exporter une ligne de base déjà exportée, sélectionnez **Remplacer la ligne de base existante** puis cliquez sur **Exporter la ligne de base**.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)
+**Rubrique parente :**[ Génération de sortie](generate-output.md)

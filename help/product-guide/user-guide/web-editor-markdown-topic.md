@@ -4,9 +4,9 @@ description: Créez des documents Markdown à partir de l’éditeur. Découvrez
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1211'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Pour créer une rubrique Markdown à partir de l’éditeur, procédez comme sui
 1. Dans le panneau Référentiel, sélectionnez ![](images/Add_icon.svg), puis sélectionnez **Rubrique** dans la liste déroulante.
 1. Dans la boîte de dialogue **Nouvelle rubrique**, fournissez les détails suivants :
 
-   ![](images/create-markdown-dialog.png){width="300" align="left"}
+   ![](images/create-markdown-dialog.png){width="300"}
 
    * **Titre** : indiquez un titre pour la rubrique.
    * **Name** : le nom du fichier est suggéré automatiquement en fonction du titre du topic. Si votre administrateur a activé les noms de fichiers automatiques en fonction du paramètre UUID, le champ Nom ne s’affiche pas.
@@ -36,7 +36,7 @@ Pour créer une rubrique Markdown à partir de l’éditeur, procédez comme sui
 
    La rubrique Markdown est créée au niveau du chemin d’accès sélectionné et est ouverte pour modification.
 
-   ![](images/markdown-topic-author.png){width="650" align="left"}
+   ![](images/markdown-topic-author.png){width="650"}
 
 
 >[!NOTE]
@@ -60,7 +60,7 @@ The tab bar features the file tabs of the topics or maps that are currently open
 
 Features available in the tab bar are explained as follows:
 
- ![](images/markdown-header.png){width="550" align="left"}
+ ![](images/markdown-header.png){width="550"}
 
 
 
@@ -81,13 +81,13 @@ Features available in the tab bar are explained as follows:
 
 La barre d’outils se trouve juste en dessous de la barre d’onglets. Les fonctionnalités disponibles dans la barre d’outils sont expliquées comme suit :
 
-![](images/markdown-main-toolbar.png){align="left"}
+![](images/markdown-main-toolbar.png)
 
 | Fonctionnalités | Description |
 |----------------|----------------|
-| Modifier les actions | Permet d&#39;accéder à diverses fonctions d&#39;édition de documents, y compris **Couper**  ![](images/S_Cut_18_N.svg), **Annuler**  ![](images/S_Undo_18_N.svg), **Rétablir**  ![](images/S_Redo_18_N.svg), **Copier**  ![](images/S_Copy_18_N.svg), **Supprimer**  ![](images/S_Delete_18_N.svg) et **Rechercher et remplacer**  ![](images/S_FindAndReplace_18_N.svg). Vous pouvez accéder aux options disponibles à partir du menu déroulant **Menu**. |
-| Options de formatage du texte | Permet d’accéder à diverses options de formatage de texte, y compris **Titres**  ![](images/S_DisplayHeading_18_N.svg), **Gras**  ![](images/S_TextBold_18_N.svg), **Italique**  ![](images/S_TextItalic_18_N.svg), **Barré**  ![](images/S_TextStrikethrough_18_N.svg), **Code**  ![](images/S_Code_18_N.svg) et **Citation en bloc**  ![](images/S_BlockQuoteMultipleLines_18_N.svg). |
-| Options d&#39;insertion de contenu | Fournit des options pour insérer une **liste numérotée**  ![](images/S_TextNumbered_18_N.svg), **Liste ordonnée**  ![](images/S_TextBulleted_18_N.svg), **Tableau**  ![](images/tableAdd.svg), **Image** ![](images/S_ImageAdd_18_N.svg), **Référence croisée**  ![](images/S_LinkGlobe_18_N.svg) et **symbole**  ![](images/S_SpecialCharacter_18_N.svg) dans un document.<br><br> **Remarque** : vous pouvez également faire glisser et déposer des images et d’autres fichiers dans l’éditeur Markdown. Les fichiers sont ajoutés en tant que liens de référence croisée, tandis que les images sont affichées en tant qu’éléments d’image standard. |
+| Modifier les actions | Permet d&#39;accéder à diverses fonctions d&#39;édition de documents, notamment **Couper** ![](images/S_Cut_18_N.svg), **Annuler** ![](images/S_Undo_18_N.svg), **Rétablir** ![](images/S_Redo_18_N.svg), **Copier**, ![](images/S_Copy_18_N.svg)Supprimer **et** Rechercher et remplacer![](images/S_Delete_18_N.svg) **** ![](images/S_FindAndReplace_18_N.svg). Vous pouvez accéder aux options disponibles à partir du menu déroulant **Menu**. |
+| Options de formatage du texte | Permet d’accéder à diverses options de formatage de texte, notamment **Titres** ![](images/S_DisplayHeading_18_N.svg), **Gras** ![](images/S_TextBold_18_N.svg), **Italique** ![](images/S_TextItalic_18_N.svg), **Barré**, ![](images/S_TextStrikethrough_18_N.svg)Code **et** Block quote![](images/S_Code_18_N.svg) **** ![](images/S_BlockQuoteMultipleLines_18_N.svg). |
+| Options d&#39;insertion de contenu | Fournit des options pour insérer dans un document un **Liste numérotée** ![](images/S_TextNumbered_18_N.svg), **Liste ordonnée** ![](images/S_TextBulleted_18_N.svg), **Tableau** ![](images/tableAdd.svg), **Image**, ![](images/S_ImageAdd_18_N.svg)RéférenceCross **et** Symbol![](images/S_LinkGlobe_18_N.svg) **** ![](images/S_SpecialCharacter_18_N.svg) <br><br> **Remarque** : vous pouvez également faire glisser et déposer des images et d’autres fichiers dans l’éditeur Markdown. Les fichiers sont ajoutés en tant que liens de référence croisée, tandis que les images sont affichées en tant qu’éléments d’image standard. |
 | Historique des versions | Permet de créer des versions des fichiers Markdown et d’afficher l’historique des modifications. Vous pouvez comparer différentes versions et revenir aux versions précédentes si nécessaire. L’option Historique des versions est présente dans le menu déroulant **Menu**. |
 | Enregistrer comme nouvelle version | Enregistre les modifications apportées à la rubrique et crée également une nouvelle version de la rubrique. Si vous travaillez sur une rubrique nouvellement créée, les informations de version apparaissent comme aucune. |
 | Verrouiller/déverrouiller | Verrouille ou déverrouille le fichier courant. Le verrouillage d’un fichier vous donne un accès exclusif en écriture au fichier. Cela empêche d’autres utilisateurs de modifier le fichier. Déverrouillez le fichier si vous souhaitez que d’autres utilisateurs aient un accès en modification. En tant qu’administrateur, vous avez également accès à la fonctionnalité **Forcer le déverrouillage** qui vous permet de déverrouiller le fichier verrouillé par une autre personne. |
@@ -104,7 +104,7 @@ La zone de modification du contenu affiche la source Markdown de votre rubrique,
 
 Pour la création Markdown, l’éditeur prend en charge trois modes d’affichage différents pour faciliter la création et la mise en forme du contenu :
 
-![](images/markdown-footer.png){align="left"}
+![](images/markdown-footer.png)
 
 * Source
 * Côte à côte
@@ -123,7 +123,7 @@ Ce mode divise l’éditeur en deux panneaux :
 * Panneau Source qui affiche la rubrique Markdown que vous modifiez.
 * Panneau d’aperçu qui affiche la sortie rendue de la rubrique Markdown en temps réel.
 
-![](images/markdown-topic-side-by-side.png){width="550" align="left"}
+![](images/markdown-topic-side-by-side.png){width="550"}
 
 Utilisez cette vue pour afficher la sortie rendue en temps réel lorsque vous modifiez des rubriques Markdown.
 
@@ -175,4 +175,4 @@ Les fonctionnalités Experience Manager Guides suivantes ne s’appliquent actue
 
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

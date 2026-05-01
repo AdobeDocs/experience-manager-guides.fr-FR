@@ -1,11 +1,11 @@
 ---
 title: Activer la sortie
-description: Activate output of DITA maps in AEM Guides. Learn how to activate your content on the publishing instance.
+description: Activez la sortie des plans DITA dans AEM Guides. Découvrez comment activer votre contenu sur l’instance de publication.
 feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: de1fd057-60c6-4b1a-9e55-f32969eb0079
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Activer la sortie {#id214GGF00V5U}
 
-Once you have created a map collection for bulk activation, the next step is to activate your content on the publishing instance. To activate your content, perform the following steps:
+Une fois que vous avez créé une collection de mappages pour l’activation en bloc, l’étape suivante consiste à activer votre contenu sur l’instance de publication. Pour activer votre contenu, procédez comme suit :
 
 1. Sélectionnez **Guides** dans la liste des outils.
 
@@ -22,48 +22,48 @@ Once you have created a map collection for bulk activation, the next step is to 
 
 1. Cliquez sur la mosaïque **Tableau de bord de publication en bloc**.
 
-   A list of bulk activation map collections is displayed.
+   Une liste des collections de mappages d’activation en bloc s’affiche.
 
-1. Select the collection that you want to publish and click **Open**.
+1. Sélectionnez la collection à publier, puis cliquez sur **Ouvrir**.
 
-   ![](images/bulk-activation-collection-open.png){width="800" align="left"}
+   ![](images/bulk-activation-collection-open.png){width="800"}
 
-1. \(*Optional*\) Apply the required filters from the left rail to filter map on the basis of their modified \(status\), output preset, or language.
+1. \(*Facultatif*\) Appliquez les filtres requis à partir du rail de gauche pour filtrer la carte en fonction de leur \(statut\), de leur paramètre prédéfini de sortie ou de leur langue modifié.
 
    >[!NOTE]
    >
-   >Generate the output for the map using the output preset before activating them in the map collection.
+   >Générez la sortie du mappage à l’aide du paramètre prédéfini de sortie avant de l’activer dans la collection de mappages.
 
 
-View the different ways to activate your collection based on your setup.
+Affichez les différentes manières d’activer votre collection en fonction de votre configuration.
 
 <details>
 <summary> Services cloud </summary>
 
-![bulk-collection-publish on cloud service](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
+![bulk-collection-publish sur cloud service](images/bulk-activation-collection-quick-publish-CS.png){width="650"}
 
-You can activate the output to the **Preview** or **Publish** instances.
+Vous pouvez activer la sortie sur les instances **Aperçu** ou **Publication**.
 
 **Prévisualisation**
 
-* To activate the output of selected maps, select the pregenerated map output and select **Publish to** > **Preview**.
-* To activate the output of all DITA maps with their configured presets, select the checkbox next to the **Map** column, and then select **Publish to** > **Publish**.
+* Pour activer la sortie des mappages sélectionnés, sélectionnez la sortie de mappage prégénérée et sélectionnez **Publier sur** > **Aperçu**.
+* Pour activer la sortie de tous les plans DITA avec leurs paramètres prédéfinis configurés, cochez la case en regard de la colonne **Plan**, puis sélectionnez **Publier vers** > **Publier**.
 
 
 **Publier**
 
-* To activate the output of selected maps, select the pregenerated map output and select **Publish to** > **Publish**.
+* Pour activer la sortie des mappages sélectionnés, sélectionnez la sortie de mappage prégénérée et sélectionnez **Publier vers** > **Publier**.
 
-* To activate the output of all DITA maps with their configured presets, select the checkbox next to the Map (column), and then select **Publish to** > **Publish**.
+* Pour activer la sortie de tous les mappages DITA avec leurs paramètres prédéfinis configurés, cochez la case en regard de Mappage (colonne), puis sélectionnez **Publier vers** > **Publier**.
 
 
 >[!NOTE]
 > 
-> The checkbox for a map output is enabled only if you have generated the output for a map.
+> La case à cocher correspondant à une sortie de mappage n’est activée que si vous avez généré la sortie pour un mappage.
 
-A success message is displayed when the map output is queued for publishing.
+Un message de réussite s’affiche lorsque la sortie du mappage est mise en file d’attente pour publication.
 
-Once the output is activated for the selected map files, the audit history tab is updated, and the latest activated output appears on top. The **Published** column is updated with the publishing date and time.
+Une fois que la sortie est activée pour les fichiers de mappage sélectionnés, l’onglet Historique d’audit est mis à jour et la dernière sortie activée s’affiche en haut. La colonne **Publié** est mise à jour avec la date et l’heure de publication.
 
 </details>
 
@@ -73,17 +73,17 @@ Once the output is activated for the selected map files, the audit history tab i
 
 Utilisez l’une des méthodes suivantes :
 
-* To activate the output of selected maps, select the pregenerated map output and select **Quick Publish**.
-* To activate the output of all DITA maps with their configured presets, select the checkbox next to the Map (column), and then select **Quick Publish.**
-  ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+* Pour activer la sortie des mappages sélectionnés, sélectionnez la sortie de mappage prégénérée et sélectionnez **Publication rapide**.
+* Pour activer la sortie de tous les mappages DITA avec leurs paramètres prédéfinis configurés, cochez la case en regard de Mappage (colonne), puis sélectionnez **Publication rapide.**
+  ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650"}
 
   >[!NOTE]
   > 
-  >The checkbox for a map output is enabled only if you have generated the output for a map.
+  >La case à cocher correspondant à une sortie de mappage n’est activée que si vous avez généré la sortie pour un mappage.
 
 
-A success message is displayed when the map output is queued for publishing.
+Un message de réussite s’affiche lorsque la sortie du mappage est mise en file d’attente pour publication.
 
-Once the output is activated for the selected map files, the audit history tab is updated, and the latest activated output appears on top. The **Published** column is updated with the publishing date and time.
+Une fois que la sortie est activée pour les fichiers de mappage sélectionnés, l’onglet Historique d’audit est mis à jour et la dernière sortie activée s’affiche en haut. La colonne **Publié** est mise à jour avec la date et l’heure de publication.
 
-**Rubrique parente : &#x200B;** [Activation en bloc du contenu publié](conf-bulk-activation.md)
+**Rubrique parente : **[Activation en bloc du contenu publié](conf-bulk-activation.md)

@@ -4,9 +4,9 @@ description: Générez des rapports DITA map à partir de la console Map dans AE
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: 11b0082b160a35fee0fc9d6478f5fe896de80d31
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2645'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ Vous pouvez afficher la liste des rubriques, gérer les métadonnées de toutes 
 
 1. Sélectionnez l’icône **Ouvrir dans la console de mappage**.
 
-   ![](images/map-console.png){width="600" align="left"}
+   ![](images/map-console.png){width="600"}
 
 1. Sélectionnez **Rapports** dans le panneau de gauche.
 
 Vous pouvez localiser les quatre rapports à partir du panneau **Rapports**. Selon vos besoins, vous pouvez sélectionner l’un des rapports, comme illustré ici.
 
-![](images/reports-demo.png){align="left"}
+![](images/reports-demo.png)
 
 Le panneau Rapports permet d’accéder à quatre types de rapports différents. Chaque rapport, ainsi que son accessibilité et ses fonctionnalités, sont expliqués en détail ci-dessous.
 
@@ -44,7 +44,7 @@ Vous pouvez afficher le rapport de liste de rubriques d’une carte en procédan
 
 1. Sélectionnez **Liste de rubriques** dans le panneau Rapports. La liste des rubriques présentes dans le plan DITA s&#39;affiche.
 
-   ![](images/web-editor-topiclist-panel-new.png){align="left"}
+   ![](images/web-editor-topiclist-panel-new.png)
 
 1. Dans le panneau **Filtres** vous pouvez filtrer les rubriques en fonction du **Type de référence** \(direct ou indirect\), **État du document** \(par exemple, si vos rubriques sont à l’état Modifier, En cours de révision ou Révisé, elles sont répertoriées\) ou du **Auteur** de la rubrique.
 
@@ -78,7 +78,7 @@ Vous pouvez afficher le rapport de métadonnées d’une carte en procédant com
 1. Sélectionnez **Métadonnées** dans le panneau Rapports. La liste de toutes les références d’un mappage s’affiche avec ses métadonnées telles que les balises, l’état du document et les métadonnées personnalisées. Pour ajouter une nouvelle colonne de métadonnées personnalisée, reportez-vous à la section [Ajouter des colonnes de métadonnées personnalisées](#add-custom-metadata-columns).
 
 
-   ![](images/web-editor-metadata-panel-new.png){align="left"}
+   ![](images/web-editor-metadata-panel-new.png)
 
 
 1. Dans le panneau **Filtres**, vous pouvez filtrer les rubriques en fonction de **État du document** \(par exemple, si vos rubriques sont à l’état Modifier, En cours de révision ou Révisé, elles sont répertoriées\), **Références** \(direct ou indirect\), **Type de fichier** \(Carte, Rubrique, Document, Image, Vidéo et autres\) de la référence.
@@ -129,12 +129,12 @@ Pour mettre à jour les métadonnées, procédez comme suit :
    >
    > Si un fichier est verrouillé par un autre utilisateur, il ne peut pas être sélectionné pour la mise à jour des métadonnées. Une icône de cadenas apparaît également près du titre d’un fichier verrouillé. Vous pouvez pointer sur l’icône pour afficher le nom de l’utilisateur.
 
-   ![](images/all-selection.png){align="left"}
+   ![](images/all-selection.png)
 
 
 1. Sélectionnez **Gérer** dans la partie supérieure.
 
-   ![](images/web-editor-manage-metadata.png){width="350" align="left"}
+   ![](images/web-editor-manage-metadata.png){width="350"}
 
 1. Si vous souhaitez ajouter de nouvelles balises, sélectionnez-les dans la liste déroulante pour les appliquer à toutes les rubriques sélectionnées. Vous pouvez également supprimer n’importe quelle balise en sélectionnant la croix située à proximité de la balise.
 
@@ -148,14 +148,14 @@ Pour mettre à jour les métadonnées, procédez comme suit :
 
 Cette fonctionnalité vous permet d’ajouter des colonnes de métadonnées personnalisées en fonction des besoins, qui sont ensuite affichées dans les rapports de métadonnées. Elle offre également une meilleure flexibilité dans la création de rapports de métadonnées. Pour ajouter une nouvelle colonne de métadonnées personnalisée, procédez comme suit :
 
-1. Pour ajouter une colonne de métadonnées personnalisée, sélectionnez **Paramètres Workspace** (sous la forme **Paramètres** pour **On-Prem**) à partir des trois points situés dans le coin supérieur droit de la page des métadonnées.
+1. Pour ajouter une colonne de métadonnées personnalisée, sélectionnez **Paramètres** (sous la forme **Paramètres** pour **On-Prem**) à partir des trois points situés dans le coin supérieur droit de la page des métadonnées.
 
-   ![](images/custom-metadata-setting.png){width="600" align="left"}
+   ![](images/custom-metadata-setting.png){width="600"}
 
 1. Sélectionnez **Métadonnées** dans le panneau gauche du pop-up qui s’affiche.
 1. Ajoutez un nouveau champ de métadonnées personnalisé selon vos besoins à l’aide de l’onglet **Ajouter**.
 
-   ![](images/add-custom-metadata.png){width="600" align="left"}
+   ![](images/add-custom-metadata.png){width="600"}
 
 1. Spécifiez un chemin d’accès aux métadonnées spécifique et un titre approprié pour celui-ci que vous souhaitez ajouter dans les colonnes du rapport de métadonnées. Par exemple, une métadonnée personnalisée avec la langue du titre et un chemin d’accès spécifique est ajoutée.
 
@@ -163,7 +163,7 @@ Cette fonctionnalité vous permet d’ajouter des colonnes de métadonnées pers
    >
    > Si vous souhaitez supprimer une colonne de métadonnées spécifique, vous pouvez la supprimer de la liste affichée. De plus, vous pouvez modifier le **Libellé** pour modifier le titre affiché de la colonne.
 
-   ![](images/added-custom-field.png){width="600" align="left"}
+   ![](images/added-custom-field.png){width="600"}
 
 
 
@@ -174,7 +174,7 @@ Cette fonctionnalité vous permet d’ajouter des colonnes de métadonnées pers
    > L’ajout d’une nouvelle colonne de métadonnées est également reflété dans le panneau **Historique des versions** de l’éditeur. Pour plus d’informations, voir **[Métadonnées](web-editor-features.md)**.
 
 
-   ![](images/updated-custom-field.png){width="600" align="left"}
+   ![](images/updated-custom-field.png){width="600"}
 
 
 De même, vous pouvez suivre les étapes mentionnées ci-dessus pour ajouter de nouveaux champs de métadonnées personnalisés en fonction de vos besoins, nécessaires dans les rapports de métadonnées.
@@ -190,11 +190,11 @@ Le rapport **Multimédia** fournit des informations détaillées sur le contenu 
 
    - Lorsque vous triez par **Multimédia**, le nom du contenu multimédia est affiché dans la première colonne, puis les noms de toutes les références dans lesquelles il a été utilisé sont affichés dans une autre colonne de la même ligne. Par exemple, la capture d’écran suivante montre le fichier multimédia testSong.mp3 dans la première colonne et deux références dans lesquelles il est utilisé sont affichées dans la troisième colonne de la même ligne.
 
-     ![](images/multimedia-report-file-order-new.png){width="650" align="left"}
+     ![](images/multimedia-report-file-order-new.png){width="650"}
 
    - Si vous triez par colonne **Utilisé dans**, vous verrez la vue transposée dans laquelle les noms des références dans lesquelles le contenu multimédia a été utilisé sont répertoriés dans la première colonne tandis que les noms du contenu multimédia sont répertoriés dans une autre colonne sur des lignes distinctes. Par exemple, la capture d’écran suivante montre les noms de deux références \(testing_indirect et Video content Topic\) dans la première colonne et le fichier multimédia testSong.mp3 est affiché dans la troisième colonne sur deux lignes distinctes.
 
-     ![](images/multimedia-report-used-in-order-new.png){width="650" align="left"}
+     ![](images/multimedia-report-used-in-order-new.png){width="650"}
 
 1. Vous pouvez filtrer vos fichiers multimédias en fonction des **Type multimédia** et **Type de référence**. La liste des fichiers multimédias s’affiche en fonction de votre choix dans la liste déroulante. Par exemple, vous pouvez choisir d&#39;afficher uniquement les références audio dans votre plan DITA et un fichier affiche uniquement les références audio utilisées.
 
@@ -225,13 +225,13 @@ Vous pouvez afficher le rapport pour les liens rompus en procédant comme suit :
    - Lorsque vous triez par **Lien rompu**, les chemins d’accès des liens rompus sont affichés dans la première colonne, puis les noms de toutes les références dans lesquelles ils ont été utilisés sont affichés dans une autre colonne sur des lignes distinctes. Si le même lien rompu est utilisé dans plusieurs fichiers, ils sont affichés sur une ligne et présentés comme regroupés ou sous-lignes. Par exemple, la capture d’écran suivante montre deux liens rompus dans la première colonne et la référence dans laquelle ils sont utilisés, `m_ElectricalSpecs_900.ditamap` s’affiche dans la troisième colonne sur deux lignes distinctes.
 
 
-   ![](images/broken-link-report-new.png){align="left"}
+   ![](images/broken-link-report-new.png)
 
 
    - Si vous triez par colonne **Utilisé dans**, vous verrez la vue transposée dans laquelle les noms des références dans lesquelles les liens rompus ont été utilisés sont répertoriés dans la première colonne tandis que les liens rompus sont répertoriés dans une autre colonne de la même ligne. Par exemple, la capture d’écran suivante montre la référence (dans laquelle le lien rompu est utilisé) `m_ElectricalSpecs_900.ditamap` dans la première colonne et les liens rompus sont affichés dans la troisième colonne de la même ligne.
 
 
-   ![](images/broken-link-filter-usedin-new.png){align="left"}
+   ![](images/broken-link-filter-usedin-new.png)
 
 
 1. Vous pouvez filtrer les liens rompus en fonction du **Type de fichier** et du **Type de lien**. La liste des liens rompus s’affiche en fonction de votre sélection dans la liste déroulante. Par exemple, vous pouvez choisir d&#39;afficher uniquement les références de contenu dans votre plan DITA et un fichier affiche uniquement les références de contenu rompues qui y sont utilisées.
@@ -266,4 +266,4 @@ Vous pouvez afficher le rapport pour les liens rompus en procédant comme suit :
 1. Sélectionnez **Télécharger** pour télécharger l&#39;instantané de tous les liens rompus dans le plan DITA. Le fichier Excel contient les colonnes sélectionnées et les liens rompus filtrés dans la vue Liens rompus.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation des rapports](reports-intro.md)
+**Rubrique parente :**[ Présentation des rapports](reports-intro.md)

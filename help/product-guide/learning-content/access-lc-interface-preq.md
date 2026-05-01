@@ -4,10 +4,10 @@ description: Explorez l’interface et les conditions préalables lorsque vous u
 feature: Authoring
 role: User
 exl-id: b55af490-ebd5-4aa0-a5f3-84d835175dc9
-source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 0%
+source-wordcount: '306'
+ht-degree: 2%
 
 ---
 
@@ -19,17 +19,17 @@ Cet article explique comment accéder à l’interface utilisateur et configurer
 
 Pour accéder à l’interface utilisateur d’, procédez comme suit :
 
-1. Connectez-vous à votre instance AEM.
+1. Connectez-vous à l’instance AEM.
 2. Sur la page de navigation d’AEM, sélectionnez **Guides**.
-3. Vous êtes maintenant sur la page d&#39;accueil de **Experience Manager Guides**. Utilisez le sélecteur de navigation pour passer aux vues suivantes :
+3. Vous êtes maintenant sur la page d&#39;accueil de ****. Utilisez le sélecteur de navigation pour passer aux vues suivantes :
 
    - **Accueil** : page par défaut affichée lors de la connexion à Experience Manager Guides. Il permet de configurer différents paramètres au niveau du dossier.
    - **Éditeur** : éditeur convivial qui vous permet de créer du contenu de cours dans Experience Manager Guides.
    - **Console de cartes** : elle vous fournit un espace de travail dédié pour gérer tous les aspects de la publication des cours.
 
-   Pour plus d’informations, consultez l’expérience de la page d’accueil d’Adobe Experience Manager Guides [&#128279;](../user-guide/intro-home-page.md).
+   Pour plus d’informations, consultez l’expérience de la page d’accueil d’Adobe Experience Manager Guides [](../user-guide/intro-home-page.md).
 
-   ![](assets/aem-navigation-switcher.png){width="350" align="left"}
+   ![](assets/aem-navigation-switcher.png){width="350"}
 
 ## Conditions préalables
 

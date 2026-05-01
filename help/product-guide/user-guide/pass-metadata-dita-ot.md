@@ -4,9 +4,9 @@ description: Découvrez comment transmettre les métadonnées à la sortie à l�
 exl-id: 70ca32dc-56c3-45ee-b6b9-0efb8cc79ea1
 feature: Publishing, Metadata Management
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Effectuez les étapes suivantes pour transmettre les métadonnées à la sortie 
 1. Sélectionnez et ouvrez un paramètre prédéfini de sortie auquel vous souhaitez transmettre les champs de métadonnées. Par exemple, sélectionnez le paramètre prédéfini de sortie PDF. Assurez-vous qu’il est créé à l’aide de l’option **DITA-OT**.
 1. Dans la liste déroulante **Propriétés du fichier** sélectionnez les métadonnées que vous souhaitez transmettre à la publication DITA-OT.
 
-   ![](images/custom-metadata-output-preset-new.png){align="left"}
+   ![](images/custom-metadata-output-preset-new.png)
 
    La liste déroulante Propriétés répertorie les propriétés personnalisées et par défaut. Par exemple, dans la capture d’écran ci-dessus, `dc:description`, `dc:language`, `dc:title` et `docstate` sont les propriétés par défaut.
 
@@ -38,11 +38,11 @@ Effectuez les étapes suivantes pour transmettre les métadonnées à la sortie 
 
    Ce fichier peut être recouvert à l’adresse : `/apps/fmdita/config/metadataList`.
 
-   Pour transmettre une propriété personnalisée pour laquelle vous avez déjà défini les valeurs, affichez la vue [Utiliser les métadonnées AEM dans la sortie PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=fr).
+   Pour transmettre une propriété personnalisée pour laquelle vous avez déjà défini les valeurs, affichez la vue [Utiliser les métadonnées AEM dans la sortie PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
 
 1. Les propriétés sélectionnées sont répertoriées sous la liste déroulante.
 
-   ![](images/metadata-added-dropdown.png){width="300" align="left"}
+   ![](images/metadata-added-dropdown.png){width="300"}
 
 1. Sélectionnez **Enregistrer** en haut à droite pour enregistrer les modifications.
 1. Sélectionnez **Générer la sortie**.
@@ -55,13 +55,13 @@ Les propriétés de métadonnées sélectionnées seront transmises à la sortie
 
 ## Utilisation du tableau de bord des cartes
 
-Si vous travaillez sur l’**interface utilisateur d’Assets**, effectuez les étapes suivantes pour transmettre les métadonnées à la sortie à l’aide de la publication DITA-OT :
+Si vous travaillez sur l’**interface utilisateur d’**, effectuez les étapes suivantes pour transmettre les métadonnées à la sortie à l’aide de la publication DITA-OT :
 
-1. Dans l’interface utilisateur **Assets**, accédez au fichier de mappage DITA pour lequel vous souhaitez transmettre les métadonnées au DITA-OT et sélectionnez-le.
+1. Dans l’interface utilisateur ****, accédez au fichier de mappage DITA pour lequel vous souhaitez transmettre les métadonnées au DITA-OT et sélectionnez-le.
 1. Sélectionnez et modifiez un paramètre prédéfini de sortie auquel vous souhaitez transmettre les champs de métadonnées. Par exemple, sélectionnez le paramètre prédéfini de sortie PDF.
 1. Sélectionnez l’option **DITA-OT** dans le paramètre prédéfini de sortie sélectionné.
 
-   ![](images/custom-meta-data-output-preset.png){align="left"}
+   ![](images/custom-meta-data-output-preset.png)
 
 1. Dans la liste déroulante Propriétés , sélectionnez les métadonnées que vous souhaitez transmettre à la publication DITA-OT.
 
@@ -73,11 +73,11 @@ Si vous travaillez sur l’**interface utilisateur d’Assets**, effectuez les �
 
    Ce fichier peut être recouvert à l’adresse : `/apps/fmdita/config/metadataList`.
 
-   Pour transmettre une propriété personnalisée pour laquelle vous avez déjà défini les valeurs, affichez la vue [Utiliser les métadonnées AEM dans la sortie PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=fr).
+   Pour transmettre une propriété personnalisée pour laquelle vous avez déjà défini les valeurs, affichez la vue [Utiliser les métadonnées AEM dans la sortie PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
 
 1. Dans la liste déroulante **Propriétés**, sélectionnez les propriétés personnalisées et par défaut requises. Par exemple, sélectionnez `author`, `dc:title` et `dc:description`. Il s’agit des `metadata/properties` standard qui sont créées une fois que nous créons un fichier. Les propriétés sélectionnées sont répertoriées sous la liste déroulante.
 
-   ![](images/selected-metadata-properties.png){width="300" align="left"}
+   ![](images/selected-metadata-properties.png){width="300"}
 
 1. Sélectionnez **Terminé** en haut à gauche pour enregistrer les modifications.
 1. Générez la sortie.
@@ -86,4 +86,4 @@ Les propriétés de métadonnées sélectionnées seront transmises à la sortie
 
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)
+**Rubrique parente :**[ Génération de sortie](generate-output.md)

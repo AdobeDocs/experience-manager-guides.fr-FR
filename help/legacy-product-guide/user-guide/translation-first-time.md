@@ -5,7 +5,7 @@ feature: Translation
 role: User
 hide: true
 exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 2%
@@ -32,7 +32,7 @@ Tenez compte du point suivant pour la traduction de contenu :
 
 L’illustration suivante présente un exemple de structure de dossiers dans AEM lorsque vous avez utilisé globalement du contenu et trois copies de langue.
 
-![](images/aem-directory_structure.png){width="800" align="left"}
+![](images/aem-directory_structure.png){width="800"}
 
 ## Configuration du service de traduction
 
@@ -50,7 +50,7 @@ Effectuez les étapes suivantes pour configurer le service de traduction humaine
 
    >[!NOTE]
    >
-   > Consultez [&#x200B; Configuration de la structure d’intégration de traduction &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=fr) dans la documentation d’AEM pour plus d’informations sur l’intégration à des services de traduction tiers.
+   > Consultez [ Configuration de la structure d’intégration de traduction ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) dans la documentation d’AEM pour plus d’informations sur l’intégration à des services de traduction tiers.
 
 1. Cliquez sur **Enregistrer et fermer** pour enregistrer les propriétés du dossier mis à jour.
 
@@ -65,7 +65,7 @@ Pour créer un projet de traduction, procédez comme suit :
 
 >[!NOTE]
 >
-> Avant d’effectuer les étapes de cette procédure, assurez-vous d’avoir créé la racine de langue et les dossiers cibles requis, comme décrit dans la section [&#x200B; Bonnes pratiques pour la traduction de contenu &#x200B;](#id1678G0S702F).
+> Avant d’effectuer les étapes de cette procédure, assurez-vous d’avoir créé la racine de langue et les dossiers cibles requis, comme décrit dans la section [ Bonnes pratiques pour la traduction de contenu ](#id1678G0S702F).
 
 1. Dans l&#39;interface utilisateur d&#39;Assets, cliquez sur le fichier de mappage DITA.
 
@@ -91,7 +91,7 @@ Pour créer un projet de traduction, procédez comme suit :
    - **Rechercher** : saisissez un ou plusieurs termes à rechercher dans les titres des rubriques.
    - **Type Source** : choisissez de filtrer les rubriques en fonction de leurs types de fichiers. Les options disponibles sont les suivantes : Tous, DITA, Plan DITA, Ressource.
    - **Version de Source modifiée après** : choisissez de filtrer les rubriques en fonction de leur date et heure de modification. Toutes les rubriques modifiées après la date et l’heure spécifiées sont affichées dans la liste.
-   - **Ligne de base** : cliquez sur Utiliser la ligne de base et choisissez une ligne de base créée sur la carte. Tous les fichiers faisant partie de la ligne de base sélectionnée sont affichés sur la page Traduction . Vous pouvez choisir les fichiers souhaités dans la ligne de base et poursuivre le processus de traduction. Une fois votre contenu traduit, vous pouvez exporter la ligne de base traduite. Pour plus d&#39;informations sur l&#39;exportation de la ligne de base traduite, voir [&#x200B; Exporter la ligne de base traduite &#x200B;](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
+   - **Ligne de base** : cliquez sur Utiliser la ligne de base et choisissez une ligne de base créée sur la carte. Tous les fichiers faisant partie de la ligne de base sélectionnée sont affichés sur la page Traduction . Vous pouvez choisir les fichiers souhaités dans la ligne de base et poursuivre le processus de traduction. Une fois votre contenu traduit, vous pouvez exporter la ligne de base traduite. Pour plus d&#39;informations sur l&#39;exportation de la ligne de base traduite, voir [ Exporter la ligne de base traduite ](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 1. Cliquez sur **Créer/mettre à jour des copies de langue** au bas du panneau Filtre.
 
 1. Dans la liste **Projet**, sélectionnez **Créer un projet de traduction**.
@@ -107,7 +107,7 @@ Pour créer un projet de traduction, procédez comme suit :
 
    Un nouveau projet de traduction est créé avec la version sélectionnée des rubriques. À ce stade, un message pop-up s’affiche pour confirmer que le projet de traduction a été créé. Une fois que toutes les copies de langue cible sont disponibles dans le projet de traduction, vous recevez une notification dans la boîte de réception. Une fois que les copies de langue cible sont disponibles dans le projet de traduction, vous pouvez poursuivre et démarrer la tâche de traduction.
 
-   ![](images/status-translation-uuid.png){width="800" align="left"}
+   ![](images/status-translation-uuid.png){width="800"}
 
 
 L’onglet Traduction comporte les sections suivantes :
@@ -141,4 +141,4 @@ Une fois la traduction terminée, le statut de la tâche de traduction passe à 
 >
 > Si vous rejetez la traduction d’une ou de plusieurs rubriques dans une tâche de traduction, le statut de traduction **En cours** de toutes les rubriques rejetées revient à son statut d’origine. Le statut des rubriques référencées est vérifié et rétabli en fonction du dernier état de traduction. En outre, les fichiers de traduction créés dans le projet de destination ne sont pas supprimés, même si la traduction est rejetée pour eux.
 
-**Rubrique parente :**&#x200B;[&#x200B; Traduire le contenu](translation.md)
+**Rubrique parente :**[ Traduire le contenu](translation.md)

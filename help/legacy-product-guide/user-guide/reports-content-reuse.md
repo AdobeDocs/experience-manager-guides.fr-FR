@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Pour afficher le rapport de réutilisation du contenu, procédez comme suit :
 
 1. Cliquez sur **Générer le rapport** pour obtenir le rapport de réutilisation du contenu.
 
-   ![](images/content-reuse-uuid.png){width="800" align="left"}
+   ![](images/content-reuse-uuid.png){width="800"}
 
    La page du rapport est divisée en deux parties :
 
@@ -48,21 +48,21 @@ Pour afficher le rapport de réutilisation du contenu, procédez comme suit :
 
      La section Détails contient les colonnes suivantes :
 
-      - **Titre** : titre de la rubrique. Clicking on the topic&#39;s title link opens the topic preview.
+      - **Titre** : titre de la rubrique. Cliquez sur le lien du titre de la rubrique pour ouvrir l’aperçu de la rubrique.
 
-      - **UUID**: The universally unique identifier \(UUID\) of the file.
+      - **UUID** : identifiant universel unique \(UUID\) du fichier.
 
-      - **Size**: Files size in bytes.
+      - **Size** : taille des fichiers en octets.
 
-      - **Status**: The current state of the document - Draft, In-Review or Reviewed.
+      - **Statut** : statut actuel du document (brouillon, en cours de révision ou révisé).
 
-      - **Number of Times Reused**: Number of times the corresponding topic has been reused. This calculated as sum total of entries in Referenced By columns minus 1.
+      - **Nombre de réutilisations** : nombre de fois où la rubrique correspondante a été réutilisée. Il s’agit de la somme des entrées des colonnes Référencé par moins 1.
 
-      - **Referenced By**: The topics in which the corresponding topic has been referenced. Here, only the direct \(first level\) references are considered. Multiple topics are separated by comma. The UUID of the referenced file is also mentioned in brackets.Clicking on the topic&#39;s title link opens the topic preview.
+      - **Référencé par** : les rubriques dans lesquelles la rubrique correspondante a été référencée. Ici, seules les références directes \(premier niveau\) sont prises en compte. Plusieurs rubriques sont séparées par des virgules. L&#39;UUID du fichier référencé est également mentionné entre parenthèses.Cliquez sur le lien du titre de la rubrique pour ouvrir l’aperçu de la rubrique.
 
 
 >[!NOTE]
 >
-> You can also export the Content Reuse Report in CSV format. To do so, click the Export to CSV link at the top-left corner of the screen and choose a location to save the CSV file. You can then open this CSV file in any CSV editor.
+> Vous pouvez également exporter le rapport de réutilisation du contenu au format CSV. Pour ce faire, cliquez sur le lien Exporter au format CSV dans le coin supérieur gauche de l’écran et choisissez un emplacement pour enregistrer le fichier CSV. Vous pouvez ensuite ouvrir ce fichier CSV dans n’importe quel éditeur CSV.
 
-**Parent topic:**&#x200B;[&#x200B; Reports](reports-intro.md)
+**Rubrique parente :**[ Rapports](reports-intro.md)

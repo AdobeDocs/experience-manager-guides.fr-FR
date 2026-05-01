@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Une variable est une paire de données nom-valeur qui sert d’information réut
 
 Pour créer une variable, procédez comme suit :
 
-![Créer une variable](assets/add-variable-default.png){width="800" align="left"}
+![Créer une variable](assets/add-variable-default.png){width="800"}
 
 *Créer des variables et définir des valeurs pour celles-ci.*
 
@@ -82,7 +82,7 @@ L’aperçu de la variable affiche la valeur par défaut. Par exemple, si vous a
 1. Sélectionnez une variable dans le panneau **Variables**.
 1. Pointez sur la variable pour afficher le menu **Options**, puis sélectionnez l’option **Aperçu**.
 
-   ![aperçu des variables à partir du panneau variables](assets/variables-panel-preview-default.png){width="550" align="left"}
+   ![aperçu des variables à partir du panneau variables](assets/variables-panel-preview-default.png){width="550"}
 
 *Prévisualiser la valeur par défaut d’une variable.*
 
@@ -126,7 +126,7 @@ Adobe Experience Manager Guides prend également en charge les ensembles de vari
 Vous devez configurer des ensembles de variables avant d’y ajouter des variables.
 
 1. Sélectionnez **Paramètres** <img alt= "Icône Paramètres" src="./assets/settings-icon.svg" width="25"> d’ouvrir la boîte de dialogue **Configurer des ensembles de variables**.
-   ![configurer l’ensemble de variables](assets/configure-variable-set.png){width="550" align="left"}
+   ![configurer l’ensemble de variables](assets/configure-variable-set.png){width="550"}
 1. Saisissez le nom du jeu de variables dans la colonne **Nom**.
 1. Sélectionnez **Ajouter une variable** <img alt= "Icône Ajouter" src="./assets/add-icon.svg" width="25"> d’ajouter un nouveau jeu de variables. Les ensembles de variables sont répertoriés par ordre alphabétique.
 1. Vous pouvez sélectionner **Supprimer** pour supprimer un ensemble de variables.
@@ -158,7 +158,7 @@ Chaque nouvelle variable est ajoutée à tous les jeux de variables. Lorsque vou
 Vous pouvez également prévisualiser les valeurs d’un ensemble de variables.
 Par exemple, pour l’ensemble de variables *Adobe-Set1*, vous avez défini la valeur de la variable ProductName sur « ProductA », puis elle affiche cette valeur dans l’aperçu de l’éditeur de variables .
 
-![aperçu de variable à partir de l’éditeur de variables](assets/variables-editor-preview.png){width="550" align="left"}
+![aperçu de variable à partir de l’éditeur de variables](assets/variables-editor-preview.png){width="550"}
 
 *Prévisualisez la valeur que vous avez définie dans le jeu de variables sélectionné.*
 
@@ -201,7 +201,7 @@ Pour insérer une variable telle que votre ProductName dans la zone d’en-tête
 
 Vous pouvez générer la sortie PDF avec les valeurs de différentes variables. Avant de générer la mise en page, choisissez un jeu de variables dans la liste déroulante **Jeu de variables** d’un paramètre prédéfini de sortie pour sélectionner ses valeurs.
 
-![liste déroulante d’ensemble de variables](assets/output-preset-variable-dropdown.png){width="550" align="left"}
+![liste déroulante d’ensemble de variables](assets/output-preset-variable-dropdown.png){width="550"}
 
 *Sélectionnez dans la liste déroulante du paramètre prédéfini de sortie un ensemble de variables que vous souhaitez utiliser pour générer la sortie PDF.*
 

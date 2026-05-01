@@ -5,9 +5,9 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
-source-git-commit: 62221031e445ccdbf1f2567f38fa888ff52017d4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Suivez les étapes mentionnées ci-dessous pour traiter les ressources :
 1. Dans le panneau **Outils**, sélectionnez **Guides**.
 1. Sélectionnez la mosaïque **Processeur en bloc**.
 
-   ![flow-asset-processor](images/flow-asset-processor.png){align="left"}
+   ![flow-asset-processor](images/flow-asset-processor.png)
 
 1. La fenêtre Guides Bulk Processor s’ouvre avec les détails affichés ci-dessous. En outre, seules les informations relatives aux cinq dernières migrations s’affichent dans cette fenêtre.
 
@@ -49,13 +49,13 @@ Suivez les étapes mentionnées ci-dessous pour traiter les ressources :
 
    - **Statut** : affiche le statut du traitement comme étant En cours, Terminé ou Annulé.
 
-   ![Guides-asset-processor](images/guides-asset-processor-new.png){align="left"}
+   ![Guides-asset-processor](images/guides-asset-processor-new.png)
 
 1. Sélectionnez l’onglet **Nouveau processus** dans le coin supérieur droit de la fenêtre pour démarrer une nouvelle tâche de traitement.
 
    La boîte de dialogue **Nouveau processus** s’ouvre.
 
-   ![Nouveau-processeur-de-ressource-processus](images/new-asset-processor.png){width="350" align="left"}
+   ![Nouveau-processeur-de-ressource-processus](images/new-asset-processor.png){width="350"}
 
 1. Fournissez les détails suivants dans la boîte de dialogue :
 
@@ -72,7 +72,7 @@ Exemple : la sélection d&#39;une rubrique DITA traite uniquement les rubriques 
 
 1. Sélectionnez **Créer**. Une fenêtre pop-up s’affiche **Succès et le Processus a été déclenché avec succès**. Vous pouvez voir le statut de la tâche de traitement sur la fenêtre.
 
-   ![Message-asset-processor](images/message-asset-processor.png){width="350" align="left"}
+   ![Message-asset-processor](images/message-asset-processor.png){width="350"}
 
 
 ## Options supplémentaires pour les tâches de traitement des ressources
@@ -81,16 +81,16 @@ D’autres options sont disponibles pour la tâche de traitement une fois qu’e
 
 - **Redémarrer** : redémarre la tâche de traitement des ressources ayant réussi précédemment.
 
-  ![restart-asset-processor](images/restart-asset-processor.png){width="650" align="left"}
+  ![restart-asset-processor](images/restart-asset-processor.png){width="650"}
 
 - **Reprendre** : reprend la tâche de traitement des ressources précédemment annulée ou ayant échoué.
 
-  ![resume-asset-processor](images/resume-asset-processor.png){width="650" align="left"}
+  ![resume-asset-processor](images/resume-asset-processor.png){width="650"}
 
 - **Annuler** : annule la tâche de traitement des ressources en cours.
 
-  ![annuler-le-processeur-de-ressources](images/cancel-asset-processor.png){width="650" align="left"}
+  ![annuler-le-processeur-de-ressources](images/cancel-asset-processor.png){width="650"}
 
 - **Afficher les journaux** : affiche les journaux de la tâche de traitement des ressources. Pour les tâches en cours, le journal affiche des informations détaillées sur le traitement, notamment le temps restant estimé et le statut de la ressource. Cette liste de journaux affiche jusqu’aux 500 dernières entrées. Le journal complet peut être téléchargé.
 
-  ![logs-asset-processor](images/logs-asset-processor.png){width="650" align="left"}
+  ![logs-asset-processor](images/logs-asset-processor.png){width="650"}

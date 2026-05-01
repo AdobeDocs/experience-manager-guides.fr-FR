@@ -2,9 +2,10 @@
 title: Notes de mise à jour | Nouveautés de la version Adobe Experience Manager Guides 2025.11.0
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 2025.11.0 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: a13fdb36efb5cfb548f8e128977469763836537a
+exl-id: 270a5faa-a16f-4939-900e-3c6c54660d2c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '512'
 ht-degree: 3%
 
 ---
@@ -22,11 +23,11 @@ Découvrez les [instructions de mise à niveau pour la version 2025.11.0](../rel
 
 Le référentiel, désormais accessible directement à partir de la page d’accueil, sert d’espace centralisé pour améliorer la visibilité des dossiers et des fichiers. Il comprend un **panneau de navigation Dossier** dédié et une vue personnalisable **tabulaire du référentiel**. La nouvelle expérience de recherche et de filtrage facilite considérablement la recherche et la localisation des fichiers. Pour plus d’informations, consultez la section [Connaître l’interface du référentiel](../user-guide/home-page-repository-view.md).
 
-![](assets/repository-view-home.png){align="left"}
+![](assets/repository-view-home.png)
 
 Dans l’éditeur, l’expérience de recherche et de filtrage des fichiers est désormais cohérente avec la page d’accueil d’. Un nouveau [panneau de recherche](../user-guide/search-panel-explorer.md) situé au bas de l’interface de l’éditeur, permet d’afficher les résultats de la recherche. En outre, le référentiel est désormais renommé **Explorateur** dans l’éditeur, ce qui vous permet de parcourir les dossiers et les fichiers comme auparavant.
 
-![](assets/search-panel-explorer.png){align="left"}
+![](assets/search-panel-explorer.png)
 
 
 ## Indexation améliorée pour les suggestions intelligentes dans l’assistant AI
@@ -56,7 +57,3 @@ Après la mise à niveau de la build, le système peut subir une augmentation te
 Un processus automatisé est introduit pour maintenir à jour les ressources du `/content/dam`. Le système déclenche le retraitement des ressources toutes les 15 minutes. Au cours de chaque cycle, les ressources qui ont été ajoutées récemment ou qui n’ont pas été traitées au cours des 15 dernières minutes sont récupérées et retraitées, ce qui améliore l’efficacité et la cohérence de votre référentiel de contenu.
 
 Pour plus d’informations, consultez la section [Traitement des ressources](../user-guide/asset-processor.md).
-
-
-
-

@@ -4,7 +4,7 @@ description: Générez la sortie d'un plan DITA à partir de la console de plans
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
-source-git-commit: 358d38ca761661eaee7aeac2cc7d46c53105c543
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Effectuez les étapes suivantes pour générer une sortie pour un plan DITA à l
 
 1. Sélectionnez un ou plusieurs paramètres prédéfinis de sortie à utiliser pour générer la sortie.
 
-   ![](images/generate-multiple-outputs-uuid.png){align="left"}
+   ![](images/generate-multiple-outputs-uuid.png)
 
 1. Sélectionnez l’icône **Générer** pour lancer le processus de génération de sortie.
 
@@ -78,4 +78,4 @@ Pour plus d&#39;informations sur l&#39;utilisation de l&#39;ID public et de l&#3
 
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)
+**Rubrique parente :**[ Génération de sortie](generate-output.md)

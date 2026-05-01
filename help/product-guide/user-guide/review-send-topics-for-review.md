@@ -4,9 +4,9 @@ description: Découvrez comment créer une tâche de révision et envoyer des ru
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: c36dbb3861f904bda1aee176fc5f4c0dd69b97dc
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '3135'
+source-wordcount: '3161'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Vous pouvez créer une tâche de révision à partir de :
 
 - **Éditeur** : permet d&#39;envoyer une rubrique ou un plan DITA individuel pour révision. Notez que le workflow de création d’une tâche de révision est commun à l’ensemble de l’éditeur et de l’interface utilisateur d’Assets. Seule la méthode de lancement du workflow de révision diffère. Pour plus d’informations sur le lancement du workflow de révision à partir de l’éditeur, consultez la fonction [Créer une tâche de révision](web-editor-left-panel.md#review) dans l’éditeur.
 
-- **Interface utilisateur d&#39;Assets** : permet d&#39;envoyer une ou plusieurs rubriques et un plan DITA pour révision. Le partage de documents à réviser à partir du workflow de l’interface utilisateur d’Assets est traité dans cette rubrique.
+- **Interface utilisateur d&#39;** : permet d&#39;envoyer une ou plusieurs rubriques et un plan DITA pour révision. Le partage de documents à réviser à partir du workflow de l’interface utilisateur d’Assets est traité dans cette rubrique.
 
 
 Dans l’interface utilisateur d’Assets, un auteur/éditeur peut créer une tâche de révision de deux façons :
@@ -45,7 +45,7 @@ Pour créer une tâche de révision et envoyer des rubriques à réviser, procé
 
 1. Cliquez sur l’icône **Sélectionner** dans l’action rapide et sélectionnez les rubriques à envoyer pour révision.
 
-   ![](images/select-asset-62.png){width="300" align="left"}
+   ![](images/select-asset-62.png){width="300"}
 
 1. Dans la barre d’outils, sélectionnez **Créer une tâche de révision**. La page de création de la tâche de révision s’affiche.
 
@@ -100,7 +100,7 @@ Pour créer une tâche de révision et envoyer des rubriques à réviser, procé
 
    La page Contenu s’affiche.
 
-   ![](images/content_page_review.png){align="left"}
+   ![](images/content_page_review.png)
 
 1. Sur la page Contenu, sélectionnez une version de la rubrique que vous souhaitez partager pour révision.
 
@@ -121,7 +121,7 @@ Pour créer une tâche de révision et envoyer des rubriques à réviser, procé
 
    La page Réviseurs s’affiche et vous permet d’ajouter ou de supprimer des réviseurs. Par défaut, les réviseurs ajoutés dans le champ Affecter à sont automatiquement ajoutés à chaque rubrique sélectionnée pour la révision.
 
-   ![](images/add-reviewers-topics.png){width="650" align="left"}
+   ![](images/add-reviewers-topics.png){width="650"}
 
 1. Sur la page Réviseurs, vous pouvez ajouter ou supprimer des réviseurs. Les opérations suivantes sont disponibles sur la page Réviseurs :
 
@@ -219,7 +219,7 @@ Pour envoyer une ou plusieurs rubriques avec le fichier de mappage pour révisio
 
    La page Contenu s’affiche avec toutes les rubriques référencées à partir du fichier de mappage. Si votre plan DITA contient des plans imbriqués, les rubriques des plans imbriqués sont également répertoriées ici.
 
-   ![](images/content-page-map-review.png){align="left"}
+   ![](images/content-page-map-review.png)
 
 1. Sur la page Contenu, sélectionnez une version de la rubrique que vous souhaitez partager pour révision.
 
@@ -311,4 +311,4 @@ Une fois la tâche de révision mise à jour, les réviseurs et réviseuses reç
 Pour plus d’informations, voir [Présentation des notifications de révision](./review-understanding-review-notifications.md).
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de la révision](review.md)
+**Rubrique parente :**[ Présentation de la révision](review.md)

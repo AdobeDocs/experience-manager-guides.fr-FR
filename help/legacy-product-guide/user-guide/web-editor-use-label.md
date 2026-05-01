@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: bd488298-57d7-46fb-9820-cec8d0db8bd5
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Pour ajouter un libellé à votre rubrique, procédez comme suit :
 
    Les libellés s’affichent dans l’historique des versions de la rubrique sélectionnée. La capture d’écran suivante affiche les libellés *version x.x* et *guide de l’utilisateur* ajoutés à la version mise en surbrillance de la rubrique.
 
-   ![](images/labels.png){width="300" align="left"}
+   ![](images/labels.png){width="300"}
 
 >[!NOTE]
 >
@@ -51,11 +51,11 @@ Pour supprimer un libellé, procédez comme suit :
 
    Dans l&#39;historique des versions, vous verrez toutes les versions d&#39;une rubrique et les libellés qui y sont associés. L’image suivante présente un exemple de différentes versions d’une rubrique et des libellés sont ajoutés à une version.
 
-   ![](images/labels.png){width="300" align="left"}
+   ![](images/labels.png){width="300"}
 
 1. Cliquez sur le bouton de suppression \(**X**\) pour supprimer le libellé.
 
-   ![](images/delete-labels.png){width="300" align="left"}
+   ![](images/delete-labels.png){width="300"}
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**[ Utiliser l’éditeur web](web-editor.md)
