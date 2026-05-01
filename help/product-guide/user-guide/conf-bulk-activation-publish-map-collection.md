@@ -4,9 +4,9 @@ description: Activez la sortie des plans DITA dans AEM Guides. Découvrez commen
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '469'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Une fois que vous avez créé une collection de mappages pour l’activation en 
 
 1. Sélectionnez la collection que vous souhaitez publier, puis sélectionnez **Ouvrir**.
 
-   ![](images/bulk-activation-collection-open.png){align="left"}
+   ![](images/bulk-activation-collection-open.png)
 
 1. \(*Facultatif*\) Appliquez les filtres requis à partir du rail de gauche pour filtrer la carte en fonction de leur \(statut\), de leur paramètre prédéfini de sortie ou de leur langue modifié.
 
@@ -39,11 +39,11 @@ Affichez les différentes manières d’activer votre collection en fonction de 
 <details>
 <summary> Services cloud </summary>
 
-![bulk-collection-publish sur cloud service](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
+![bulk-collection-publish sur cloud service](images/bulk-activation-collection-quick-publish-CS.png){width="650"}
 
 Vous pouvez activer la sortie sur les instances **Aperçu** ou **Publication**.
 
-**Aperçu**
+**Prévisualisation**
 
 * Pour activer la sortie des mappages sélectionnés, sélectionnez la sortie de mappage prégénérée et sélectionnez **Publier sur** > **Aperçu**.
 * Pour activer la sortie de tous les plans DITA avec leurs paramètres prédéfinis configurés, cochez la case en regard de la colonne **Plan**, puis sélectionnez **Publier vers** > **Publier**.
@@ -73,8 +73,8 @@ Une fois que la sortie est activée pour les fichiers de mappage sélectionnés,
 Utilisez l’une des méthodes suivantes :
 
 * Pour activer la sortie des mappages sélectionnés, sélectionnez la sortie de mappage prégénérée et sélectionnez **Publication rapide**.
-* Pour activer la sortie de tous les mappages DITA avec leurs paramètres prédéfinis configurés, cochez la case en regard de Mappage (colonne), puis sélectionnez **Publication rapide**.
-  ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+* Pour activer la sortie de tous les mappages DITA avec leurs paramètres prédéfinis configurés, cochez la case en regard de Mappage (colonne), puis sélectionnez **Publication rapide.**
+  ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650"}
 
   >[!NOTE]
   > 

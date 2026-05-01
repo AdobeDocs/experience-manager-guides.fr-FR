@@ -4,9 +4,9 @@ description: Découvrez comment modifier des rubriques dans l’éditeur. Conna�
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: df3da8a0b4dd50ac177c3b51f04a855e9638058e
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ De même, si vous supprimez le contenu sélectionné, le contenu restant après 
 
    - Sélectionnez un élément dans la boîte de dialogue. Le contenu sélectionné est encapsulé sous cet élément. Par exemple, si vous sélectionnez le contenu dans un paragraphe, puis choisissez l’élément `<note>` dans la boîte de dialogue **Insérer un élément**, le contenu sélectionné s’affiche sous une note.
 
-     ![Boîte de dialogue Insérer un élément](./images/insert-element-editor.png) {width="300" align="left"}
+     ![Boîte de dialogue Insérer un élément](./images/insert-element-editor.png) {width="300"}
 
 ## Actualiser le navigateur lors de la modification des fichiers
 
@@ -70,7 +70,7 @@ Le panneau de droite est également rouvert et affiche la même vue qu’avant l
 
 Experience Manager Guides fournit l’indicateur de copie de travail qui indique si la \(copie de travail\) actuelle du fichier est synchronisée avec la version enregistrée ou non. Si vous avez apporté des modifications à votre copie actuelle et que vous n&#39;avez pas enregistré votre fichier, une marque \* apparaît avec le titre dans l&#39;onglet Fichier de la rubrique. Cet indicateur sert de rappel pour enregistrer vos modifications et disparaît lorsque vous enregistrez votre fichier.
 
-![&#x200B; indicateur de copie de travail &#x200B;](images/working-copy-text-update-indicator.png){width="550" align="left"}
+![&#x200B; indicateur de copie de travail &#x200B;](images/working-copy-text-update-indicator.png){width="550"}
 
 Experience Manager Guides indique également si la dernière copie \(working\) enregistrée du fichier est synchronisée avec la version enregistrée ou non. Si des modifications n&#39;ont pas été enregistrées entre la copie de travail et la dernière version enregistrée, une marque \* apparaît avec les informations de version affichées dans le coin supérieur droit de l&#39;onglet Fichier de la rubrique. Cet indicateur sert de rappel pour enregistrer et créer une version de votre copie \(working\) actuelle du fichier.
 
@@ -78,7 +78,7 @@ Experience Manager Guides indique également si la dernière copie \(working\) e
 >
 > Toute modification apportée aux champs de métadonnées disponibles sous [Propriétés du fichier](./web-editor-right-panel.md#file-properties) déclenche également l’indicateur de copie de travail dans la version du document.
 
-![&#x200B; Indicateur de mise à jour de version &#x200B;](images/version-update-indicator.png){width="550" align="left"}
+![&#x200B; Indicateur de mise à jour de version &#x200B;](images/version-update-indicator.png){width="550"}
 
 ## Accès aux fichiers verrouillés en modes Création et Source
 

@@ -4,9 +4,9 @@ description: Savoir comment marquer une tâche comme terminée en tant que révi
 feature: Reviewing
 role: User
 exl-id: 99b64fb5-c509-41cf-b091-ba78b90db481
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Effectuez les étapes suivantes pour terminer une tâche de révision :
 1. Ouvrez la tâche de révision qui vous a été assignée.
 2. Sélectionnez **Marquer comme terminé** dans la partie supérieure, comme illustré ci-dessous :
 
-   ![](images/review-task-mark-as-done.png){width="350" align="left"}
+   ![](images/review-task-mark-as-done.png){width="350"}
 
    La boîte de dialogue **Terminer la tâche** s’affiche.
 3. Dans la boîte de dialogue **Terminer la tâche**, ajoutez les commentaires finaux pour l’auteur et sélectionnez **Terminer**.
@@ -35,20 +35,20 @@ Effectuez les étapes suivantes pour terminer une tâche de révision :
 
    Par exemple, en tant que réviseur ou réviseuse, vous pouvez ajouter un commentaire en tant qu’action de suivi pour l’auteur :
 
-   ![](images/complete-task-dialog-followup.png){width="350" align="left"}
+   ![](images/complete-task-dialog-followup.png){width="350"}
 
    Vous pouvez également ajouter un commentaire pour indiquer que la tâche est terminée, comme illustré ci-dessous :
 
-   ![](images/complete-task-dialog.png){width="350" align="left"}
+   ![](images/complete-task-dialog.png){width="350"}
 
 
 Vous avez marqué la tâche comme terminée et son état est maintenant défini sur **Terminé**. Aucune autre action n’est autorisée une fois la tâche marquée comme terminée. Une notification est envoyée à l’auteur ou à l’initiateur de la tâche de révision pour attirer leur attention immédiate. Pour plus d’informations sur le déclenchement des notifications de révision, voir [Présentation des notifications de révision](./review-understanding-review-notifications.md).
 
-![](images/task-completed-status.png){width="350" align="left"}
+![](images/task-completed-status.png){width="350"}
 
 En fonction des commentaires, si l’auteur ou l’initiateur de la tâche décide de [fermer la tâche de révision](./review-close-review-task.md), le statut de la tâche dans l’interface utilisateur de révision devient **Fermée**.
 
-![](images/review-status-closed-review-ui.png){width="350" align="left"}
+![](images/review-status-closed-review-ui.png){width="350"}
 
 ## Afficher les commentaires au niveau de la tâche
 
@@ -56,11 +56,11 @@ Tous les commentaires au niveau de la tâche sont affichés dans la boîte de di
 
 Pour accéder aux commentaires au niveau de la tâche à partir de l’interface utilisateur de révision, accédez au panneau de gauche et sélectionnez l’icône **Commentaires sur la tâche**.
 
-![](images/task-comments-icon.png){width="350" align="left"}
+![](images/task-comments-icon.png){width="350"}
 
 La boîte de dialogue **Commentaires de la tâche** s’affiche à droite.
 
-![](images/task-comments-reviewer.png){width="350" align="left"}
+![](images/task-comments-reviewer.png){width="350"}
 
 Les commentaires de la boîte de dialogue s’affichent dans l’ordre chronologique, les commentaires récents apparaissant en premier et les commentaires les plus anciens en dernier. Cet ordre vous aide à suivre la conversation au fil du temps.
 

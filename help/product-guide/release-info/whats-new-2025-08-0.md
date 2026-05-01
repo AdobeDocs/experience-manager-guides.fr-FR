@@ -3,10 +3,10 @@ title: Notes de mise à jour | Nouveautés de la version Adobe Experience Manage
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 2025.08.0 d’Adobe Experience Manager Guides
 role: Leader
 exl-id: c3461d0a-6394-4275-9d54-b2b1545d7c18
-source-git-commit: 1a44af3522060ebc531393d4d01b1cd00eb02c10
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 2%
+source-wordcount: '844'
+ht-degree: 1%
 
 ---
 
@@ -42,7 +42,7 @@ Une fois que le bouton (bascule) **Assistant IA** est activé, les administrateu
 
 En savoir plus sur l’assistant [AI dans les paramètres de l’éditeur](../cs-install-guide/workspace-settings.md#general) dans Experience Manager Guides.
 
-![](assets/authoring-quick-actions.png){width="350" align="left"}
+![](assets/authoring-quick-actions.png){width="350"}
 
 
 ## Amélioration de l’expérience de création et d’utilisation des fichiers DITAVAL
@@ -54,7 +54,7 @@ Les principaux points forts sont les suivants :
 - **Prise en charge améliorée des indicateurs dans la création de fichiers DITAVAL :** Experience Manager Guides offre de nouvelles fonctionnalités de personnalisation de la publication de contenu grâce à la prise en charge améliorée des indicateurs dans les fichiers DITAVAL. Vous pouvez désormais appliquer des indicateurs de début et de fin à un contenu spécifique, y compris des images, et enrichir les sections marquées avec des options de mise en forme telles que le gras, l’italique, etc. Pour gérer les chevauchements de conditions, le **conflit de style** peut être configuré, ce qui inclut la définition d’une couleur d’arrière-plan et de texte par défaut, afin de garantir la clarté et la cohérence de la sortie. Ces indicateurs sont entièrement pris en charge dans la génération du PDF natif et la sortie qui en résulte reflète précisément et entièrement tous les éléments de style appliqués.
 Pour plus de détails, voir [Utiliser l&#39;éditeur DITAVAL](../user-guide/ditaval-editor.md).
 
-  ![](assets/ditaval-flag-style-new.png){width="350" align="left"}
+  ![](assets/ditaval-flag-style-new.png){width="350"}
 
 - **Prise en charge de plusieurs fichiers DITAVAL pour Native PDF :** pour Native PDF, il est désormais possible d’ajouter plusieurs fichiers DITAVAL, chacun affiché en tant qu’entrée balisée pour une identification et une suppression faciles, offrant ainsi une plus grande flexibilité et un meilleur contrôle du contenu conditionnel dans les sorties PDF
 
@@ -68,7 +68,7 @@ Cette version apporte des améliorations à l’interface utilisateur de la fonc
 
 Pour plus d’informations, consultez la section [Dépannage de base](../user-guide/generate-output-basic-troubleshooting.md).
 
-![](./assets/log-file-new.png){align="left"}
+![](./assets/log-file-new.png)
 
 
 ## Les fichiers temporaires pour la sortie publiée incluent désormais les URL de création et de publication dans un nouveau fichier de configuration

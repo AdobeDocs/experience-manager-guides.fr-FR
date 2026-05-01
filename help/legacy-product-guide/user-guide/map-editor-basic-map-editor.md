@@ -5,7 +5,7 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 194caf31-15ae-436d-bbd4-3ea4907c7877
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Effectuez les étapes suivantes pour créer votre fichier map :
 
    Le fichier de mappage est ouvert pour modification dans l’éditeur de mappages. À l’aide de l’éditeur de cartes, vous créez une carte en utilisant les rubriques actuellement disponibles qui s’affichent dans le rail Références.
 
-   ![](images/dita-map-01.png){width="800" align="left"}
+   ![](images/dita-map-01.png){width="800"}
 
 1. À l’aide du rail **Références**, accédez au dossier contenant les rubriques ou les sous-mappages à ajouter.
 
@@ -74,13 +74,13 @@ Effectuez les étapes suivantes pour créer votre fichier map :
 
 La barre d’outils principale de l’éditeur de carte de base vous permet d’effectuer les tâches suivantes :
 
-![](images/ditamap-toolbar-actions.png){width="800" align="left"}
+![](images/ditamap-toolbar-actions.png){width="800"}
 
 **A : Recherche**
 
 Vous pouvez rechercher et inclure les rubriques requises dans la gestion des ressources numériques. Cliquez sur cette icône pour afficher la boîte de dialogue Rechercher :
 
-![](images/search-dita-map.png){width="800" align="left"}
+![](images/search-dita-map.png){width="800"}
 
 Saisissez les mots-clés à rechercher ; ces mots-clés sont associés dans les valeurs de nom de fichier, de contenu et même d’attribut du sujet. Une fois les résultats de la recherche disponibles, sélectionnez la ou les rubriques souhaitées, puis cliquez sur le bouton Vérifier pour ajouter les fichiers sélectionnés à la fin de votre structure de mappage. Vous pouvez filtrer les résultats de la recherche en spécifiant les paramètres de date de modification.
 
@@ -108,19 +108,19 @@ Dans le **Mode par défaut**, cliquer sur un lien de rubrique affiche l&#39;aper
 **Remarque :** en mode par défaut, vous pouvez utiliser les raccourcis clavier pour annuler \(`Ctrl+z`\) ou rétablir \(`Ctrl+y`\) la dernière action.
 
 
-![](images/dita-map-invalid-source.png){width="650" align="left"}
+![](images/dita-map-invalid-source.png){width="650"}
 
 **G : Propriétés de la carte**
 
 Affichez la boîte de dialogue Propriétés de la carte dans laquelle vous pouvez définir les attributs et les informations de métadonnées de la carte. Pour ajouter un attribut, cliquez sur le bouton **Ajouter** dans le coin inférieur gauche de la boîte de dialogue pour obtenir la liste déroulante **Attribut**. Dans la liste, sélectionnez l’attribut à ajouter. Si l’attribut sélectionné possède des valeurs prédéfinies spécifiées dans la DTD, ces valeurs sont présentées dans une nouvelle liste déroulante. Vous pouvez sélectionner la valeur souhaitée dans la liste déroulante. S’il n’existe aucune valeur prédéfinie, une zone de texte s’affiche pour vous permettre de saisir une valeur pour l’attribut sélectionné.
 
-![](images/map-properties.png){width="300" align="left"}
+![](images/map-properties.png){width="300"}
 
 ## Fonctionnalités disponibles au niveau de la rubrique dans l’éditeur de cartes de base
 
 Lorsque vous placez le pointeur de la souris sur une rubrique ou un fichier de sous-mappage dans l’éditeur de mappage de base, vous pouvez effectuer les tâches suivantes :
 
-![](images/ditamap-actions.png){width="650" align="left"}
+![](images/ditamap-actions.png){width="650"}
 
 **A : Déplacer vers la gauche ou vers la droite**
 
@@ -131,7 +131,7 @@ Cliquez sur les icônes fléchées à gauche ou à droite pour déplacer la rubr
 Cliquez sur l’icône Propriétés pour ouvrir la boîte de dialogue Propriétés de la rubrique. Cette boîte de dialogue vous permet de définir les attributs de rubrique et les informations de métadonnées. Pour plus d&#39;informations sur les métadonnées et les attributs de rubrique standard, reportez-vous à la documentation [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) dans Spécification de langage OASIS DITA.
 
 
-![](images/map-properties-metadata.png){width="350" align="left"}
+![](images/map-properties-metadata.png){width="350"}
 
 **C : Ajouter une nouvelle référence**
 
@@ -163,7 +163,7 @@ Pour utiliser les tables de relation dans l’éditeur de mappage de base, proc�
 
 1. Sélectionnez **Fiable** dans la barre d’outils.
 
-   ![](images/reltable.png){width="650" align="left"}
+   ![](images/reltable.png){width="650"}
 
 1. Faites glisser et déposez des rubriques de la liste des rubriques vers l’éditeur fiable.
 
@@ -171,29 +171,29 @@ Pour utiliser les tables de relation dans l’éditeur de mappage de base, proc�
    >
    > Vous pouvez ajouter des rubriques à partir de n’importe quel dossier dans le rail Références.
 
-   ![](images/create-reltable.png){width="550" align="left"}
+   ![](images/create-reltable.png){width="550"}
 
-1. To add a header to your relationship table, click **Add Relheader**.
+1. Pour ajouter un en-tête à votre tableau de relation, cliquez sur **Ajouter un nouvel en-tête**.
 
-1. To add a column to your relationship table, click **Add a Column**.
+1. Pour ajouter une colonne à votre table de relation, cliquez sur **Ajouter une colonne**.
 
-   ![](images/complete-reltable.png){width="550" align="left"}
+   ![](images/complete-reltable.png){width="550"}
 
 1. Cliquez sur **Enregistrer**.
 
 
-You can also perform the following actions from the relationship table editor:
+Vous pouvez également effectuer les actions suivantes à partir de l’éditeur de table de relation :
 
-**Delete rows or columns**
+**Supprimer lignes ou colonnes**
 
-If you want to delete a column from your table, select the checkbox in the column header and click Delete. If you want to remove a row from table, select the checkbox in the first column of the respective row and click Delete.
+Si vous souhaitez supprimer une colonne de votre tableau, cochez la case située dans l’en-tête de colonne et cliquez sur Supprimer. Si vous souhaitez supprimer une ligne du tableau, cochez la case située dans la première colonne de la ligne correspondante, puis cliquez sur Supprimer.
 
-**Delete a topic**
+**Supprimer une rubrique**
 
-If you want to delete a topic from your table, click the cross icon next to the topic.
+Si vous souhaitez supprimer une rubrique de votre tableau, cliquez sur l’icône en forme de croix en regard de la rubrique.
 
-**Delete the relationship table**
+**Supprimer la table de relation**
 
-If you want to delete the relationship table, click anywhere outside the relationship table and click Delete.
+Si vous souhaitez supprimer la table de relation, cliquez n&#39;importe où en dehors de la table de relation et cliquez sur Supprimer.
 
 **Rubrique parente :**&#x200B;[&#x200B; Utilisation de l’éditeur de cartes](map-editor.md)

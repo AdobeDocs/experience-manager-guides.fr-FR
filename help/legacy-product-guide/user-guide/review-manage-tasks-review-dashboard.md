@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: f3ed7e82-8bb8-400f-9406-367da9e0052c
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 0%
@@ -26,13 +26,13 @@ Pour accéder au tableau de bord de révision et l’utiliser, procédez comme s
 
    Un panneau Projet avec des mosaïques de tâches s’affiche.
 
-   ![](images/review-management.png){width="800" align="left"}
+   ![](images/review-management.png){width="800"}
 
 1. Cliquez sur les trois points de la mosaïque **Révisions**.
 
    Le tableau de bord de révision s’affiche. Le tableau de bord répertorie toutes les tâches de révision que vous avez créées.
 
-   ![](images/review-dashboard.png){width="800" align="left"}
+   ![](images/review-dashboard.png){width="800"}
 
    Le tableau de bord de révision affiche les détails de la tâche de révision, tels que le nom de la tâche, l’auteur de la révision, la date de début de la révision, la date d’échéance, le statut, le nombre de nouveaux commentaires qui n’ont pas été acceptés ou rejetés par l’auteur et le nom des réviseurs. Les tâches sont répertoriées dans l’ordre des tâches nouvellement créées par rapport aux tâches plus anciennes.
 
@@ -51,7 +51,7 @@ Pour accéder au tableau de bord de révision et l’utiliser, procédez comme s
 
 ## Onglet Tâche
 
-![](images/review-task-page.png){width="800" align="left"}
+![](images/review-task-page.png){width="800"}
 
 Vous pouvez effectuer les actions suivantes sous l’onglet **Tâche** :
 
@@ -72,7 +72,7 @@ Vous pouvez effectuer les actions suivantes sous l’onglet **Tâche** :
 
 ## Onglet Contenu
 
-![](images/review-content-page.png){width="800" align="left"}
+![](images/review-content-page.png){width="800"}
 
 Vous pouvez effectuer les actions suivantes sous l’onglet **Contenu** :
 
@@ -91,7 +91,7 @@ Vous pouvez effectuer les actions suivantes sous l’onglet **Contenu** :
 
 ## Onglet Réviseurs {#reviewer-tab-id199RF0N0MUI}
 
-![](images/reviewers-tab.png){width="800" align="left"}
+![](images/reviewers-tab.png){width="800"}
 
 Vous pouvez effectuer les actions suivantes sous l’onglet **Réviseurs** :
 
@@ -112,7 +112,7 @@ Vous pouvez effectuer les actions suivantes sous l’onglet **Réviseurs** :
 
 Sur la page principale Tableau de bord de révision, si vous sélectionnez une tâche de révision et cliquez sur **Statut**, le rapport de statut de la tâche de révision s’affiche :
 
-![](images/review-status-report.png){width="800" align="left"}
+![](images/review-status-report.png){width="800"}
 
 Le rapport de statut de la tâche de révision contient les détails suivants :
 

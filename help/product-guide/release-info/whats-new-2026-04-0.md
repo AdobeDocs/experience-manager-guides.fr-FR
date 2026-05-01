@@ -2,10 +2,11 @@
 title: Notes de mise à jour | Nouveautés de la version Adobe Experience Manager Guides 2026.04.0
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 2026.04.0 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: ce2c9da0d9beb05a15f7cefcf9483e0c93abbf37
+exl-id: 39b73511-a324-461d-b569-b3b215988890
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 2%
+source-wordcount: '833'
+ht-degree: 0%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 2%
 
 Cet article présente les nouvelles fonctionnalités améliorées introduites dans la version 2026.04.0 d’Adobe Experience Manager Guides as a Cloud Service.
 
-Pour connaître la liste des problèmes résolus dans cette version, voir la section [Problèmes résolus dans la version 2026.04.0](fixed-issues-2026-04-0.md).
+Pour obtenir la liste des problèmes résolus dans cette version, voir [Problèmes résolus dans la version 2026.04.0](fixed-issues-2026-04-0.md).
 
 Découvrez les [instructions de mise à niveau pour la version 2026.04.0](../release-info/upgrade-instructions-2026-04-0.md).
 
@@ -52,13 +53,15 @@ Les améliorations suivantes ont été apportées à l’interface utilisateur d
 
 - Dans le panneau Validation, un message d’état vide s’affiche lorsqu’aucun fichier Schematron n’est ajouté, offrant une meilleure clarté et orientation pour les étapes suivantes.
 
-  ![](assets/schematron-panel.png){width="350" align="left"}
+  ![](assets/schematron-panel.png){width="350"}
+
 - Lorsque plusieurs fichiers Schematron sont ajoutés, ils sont organisés sous un accordéon consolidé, offrant une meilleure visibilité sur les fichiers Schematron configurés.
 
-  ![](assets/schematron-panel-error.png){width="350" align="left"}
+  ![](assets/schematron-panel-error.png){width="350"}
+
 - En fonction de l’attribut de rôle défini dans le fichier Schematron, les résultats de validation sont désormais classés comme suit : `Fatal`, `Error`, `Warn` ou `Info`. Chaque catégorie comprend un nombre visible ainsi qu’une info-bulle contextuelle pour une interprétation plus claire.
 
-  ![](assets/schematron-validation-errors.png){width="350" align="left"}
+  ![](assets/schematron-validation-errors.png){width="350"}
 
 Pour plus d’informations sur l’utilisation des fichiers Schematron dans Experience Manager Guides, consultez la section [Prise en charge des fichiers Schematron](../user-guide/support-schematron-file.md).
 
@@ -66,7 +69,7 @@ Pour plus d’informations sur l’utilisation des fichiers Schematron dans Expe
 
 Une nouvelle section **Traductions** est désormais disponible dans le panneau de droite sous *Propriétés du fichier* dans l’éditeur. Cette section permet d’accéder directement à toutes les copies de langue disponibles pour la ressource actuellement ouverte (carte, rubrique, image, etc.). Vous n’avez plus besoin d’accéder à l’interface utilisateur d’Assets pour afficher ou accéder à ces copies de langue.
 
-![](assets/translations-right-panel.png){width="350" align="left"}
+![](assets/translations-right-panel.png){width="350"}
 
 Pour chaque copie de langue, vous pouvez pointer sur le fichier pour localiser son chemin d’accès dans le référentiel ou simplement le sélectionner pour l’ouvrir dans l’éditeur. Outre l’ouverture de fichiers, vous pouvez également effectuer de nombreuses actions à l’aide du menu **Options**. Vous pouvez effectuer entre autres les actions suivantes : Modifier, Prévisualiser, Copier l’UUID, Copier le chemin d’accès, Ajouter aux collections et Propriétés.
 
@@ -79,7 +82,7 @@ Désormais, vous pouvez rechercher des citations dans tous les champs du Journal
 
 Pour plus d’informations sur l’ajout de citations dans Experience Manager Guides, consultez la section [&#x200B; Ajouter et gérer des citations dans votre contenu &#x200B;](../user-guide/web-editor-apply-citations.md).
 
-![](assets/add-citations.png){width="350" align="left"}
+![](assets/add-citations.png){width="350"}
 
 
 

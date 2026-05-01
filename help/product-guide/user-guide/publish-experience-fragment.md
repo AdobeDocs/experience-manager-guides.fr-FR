@@ -4,7 +4,7 @@ description: Publier une rubrique ou les éléments d’une rubrique dans un fra
 feature: Publishing
 role: User
 exl-id: 4cdce8c2-2ccf-4bf1-8b92-4dfeb10de186
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 1%
@@ -36,12 +36,11 @@ Par exemple :
 
      Si vous ne définissez pas de modèle autorisé pour un dossier, les modèles sont sélectionnés à partir du dossier parent ou du dossier de modèles par défaut.
    * **Classable** : permet de modifier l’ordre des ressources dans un dossier.
-
-     ![ajoutez les détails de la configuration cloud dans les propriétés du dossier](images/experience-fragment-folder-properties.png){width="650" align="left"}
+     ![ajoutez les détails de la configuration cloud dans les propriétés du dossier](images/experience-fragment-folder-properties.png){width="650"}
      *Ajoutez la configuration cloud dans les propriétés du dossier pour la connecter aux modèles de fragment.*
 1. Pour générer un fragment d’expérience, sélectionnez **Nouvelle sortie** ![nouvelle icône de sortie](./images/Add_icon.svg) dans la section **Sorties** de la **Propriétés du fichier** d’une rubrique.
 1. Sélectionnez **Fragment d’expérience**.\
-   ![onglet options des propriétés du fichier](./images/file-properties-outputs-new.png){width="300" align="left"}
+   ![onglet options des propriétés du fichier](./images/file-properties-outputs-new.png){width="300"}
 
    *Ajoutez un nouveau fragment d’expérience à partir des propriétés de fichier d’une rubrique*.
 
@@ -50,7 +49,7 @@ Par exemple :
    > Vous pouvez également publier un fragment d’expérience à partir de la vue **Repository**. Sélectionnez la rubrique à publier en tant que fragment d’expérience. Ensuite, dans le menu **Options**, sélectionnez **Publier sous** > **Fragment d’expérience**.
 
 1. Dans la boîte de dialogue **Générer un fragment d’expérience**, renseignez les informations suivantes :
-   ![Ajoutez le modèle de fragment et les détails de mappage dans la boîte de dialogue Publier en tant que fragment d’expérience](images/experience-fragment-generate.png){width="500" align="left"}
+   ![Ajoutez le modèle de fragment et les détails de mappage dans la boîte de dialogue Publier en tant que fragment d’expérience](images/experience-fragment-generate.png){width="500"}
 
    *Ajoutez le chemin d’accès, le modèle et les détails de mappage pour publier une rubrique ou ses éléments en tant que fragment d’expérience. Vous pouvez remplacer un fragment d’expérience existant.*
 
@@ -80,7 +79,7 @@ Par exemple :
 1. Sélectionnez **Générer** pour publier le fragment d’expérience.
 1. Vous pouvez afficher les fragments d’expérience d’une rubrique dans la section **Sorties** de la **Propriétés du fichier**. Les fragments d’expérience s’affichent en fonction de la date et de l’heure de leur publication, la plus récente étant la première.
 
-   ![Affichage des fragments d’expérience d’une rubrique](images/experience-fragment-outputs-new.png){width=300 align=« left »}
+   ![Affichage des fragments d’expérience d’une rubrique](images/experience-fragment-outputs-new.png){width=300}
 
    *Afficher les fragments d’expérience présents pour une rubrique et les republier.*
 

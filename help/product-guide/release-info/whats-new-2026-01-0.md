@@ -3,10 +3,10 @@ title: Notes de mise à jour | Nouveautés de la version Adobe Experience Manage
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 2026.01.0 d’Adobe Experience Manager Guides
 role: Leader
 exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
-source-git-commit: 2c20191ba998ad7da98587f1832e1fe8499d023c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 1%
+source-wordcount: '1599'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Cet article présente les nouvelles fonctionnalités améliorées introduites dans la version 2026.01.0 d’Adobe Experience Manager Guides as a Cloud Service.
 
-Pour connaître la liste des problèmes résolus dans cette version, voir la section [Problèmes résolus dans la version 2026.01.0](fixed-issues-2026-01-0.md).
+Pour obtenir la liste des problèmes résolus dans cette version, voir [Problèmes résolus dans la version 2026.01.0](fixed-issues-2026-01-0.md).
 
 Découvrez les [instructions de mise à niveau pour la version 2026.01.0](../release-info/upgrade-instructions-2026-01-0.md).
 
@@ -25,7 +25,7 @@ Experience Manager Guides a apporté plusieurs améliorations à la fonction Rec
 
 L’activation de ce mode vous permet d’effectuer une recherche globale non seulement sur le contenu visible, mais également sur le contenu source sous-jacent (structure XML, y compris les éléments, les balises et les valeurs d’attribut) pour la chaîne recherchée. Ce mode permet d’assurer une recherche complète sur l’ensemble du contenu.
 
-![](assets/map-find-replace-with-source-mode.png){width="650" align="left"}
+![](assets/map-find-replace-with-source-mode.png){width="650"}
 
 Dans ce mode, vous pouvez appliquer des filtres pour affiner votre recherche par type de fichier, état du document, date de dernière modification, etc. Vous avez également la possibilité de télécharger un rapport CSV détaillé après l’opération Remplacer tout , qui fournit un instantané de toutes les actions de remplacement effectuées ainsi que leur statut de réussite et d’échec.
 
@@ -33,7 +33,7 @@ Pour plus d’informations, consultez la section [Rechercher et remplacer](../us
 
 >[!NOTE]
 >
-> Pour la fonctionnalité **Utiliser le mode source** du panneau Rechercher et remplacer , un déploiement d’index personnalisé doit d’abord être terminé. Une fois l’indexation en place, contactez votre équipe du succès client pour activer cette fonctionnalité.
+>Pour la fonctionnalité **Utiliser le mode source** du panneau Rechercher et remplacer , un déploiement d’index personnalisé doit d’abord être terminé. Une fois l’indexation en place, contactez votre équipe du succès client pour activer cette fonctionnalité.
 
 ## Amélioration de l’expérience de navigation dans les fichiers et les dossiers
 
@@ -41,7 +41,7 @@ Cette version introduit une interface plus épurée et plus intuitive pour parco
 
 Lors de la navigation dans les fichiers, la boîte de dialogue repensée **Sélectionner un fichier** comprend désormais une disposition à onglets avec deux vues : **Référentiel** pour parcourir l’ensemble du référentiel de contenu sous la forme d’un tableau et **Collections** pour accéder rapidement aux rubriques, cartes et images fréquemment utilisées.
 
-![](assets/select-file.png){width="650" align="left"}
+![](assets/select-file.png){width="650"}
 
 Les principales améliorations sont les suivantes :
 
@@ -53,7 +53,7 @@ Les principales améliorations sont les suivantes :
 
 La boîte de dialogue **Sélectionner le chemin d’accès** propose également une vue arborescente améliorée pour la navigation entre les dossiers, offrant ainsi un moyen plus organisé et plus efficace de sélectionner les chemins d’accès dans le référentiel de contenu.
 
-![](assets/select-path-dialog-new.png){width="350" align="left"}
+![](assets/select-path-dialog-new.png){width="350"}
 
 Pour plus d’informations, consultez la section [Parcourir les fichiers et les dossiers dans Experience Manager Guides](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides) dans _Autres fonctionnalités de l’éditeur_.
 
@@ -63,7 +63,7 @@ Pour plus d’informations, consultez la section [Parcourir les fichiers et les 
 
 Désormais, filtrez les résultats de la recherche dans le référentiel en fonction de l’état actuel du document des fichiers. Le nouveau filtre **État du document** vous permet d’affiner votre recherche à l’aide des valeurs de filtre disponibles définies dans le fichier `ui_config.json` de votre profil de dossier.
 
-![](assets/document-state-filter-repository.png){align="left"}
+![](assets/document-state-filter-repository.png)
 
 Les valeurs de filtre par défaut disponibles pour l’état du document sont les suivantes : Brouillon, Modifier, En cours de révision, Approuvé, Révisé et Terminé. Pour plus d’informations sur la personnalisation des valeurs des filtres d’état de document par défaut, voir [Configurer des filtres d’état de document](../cs-install-guide/config-doc-state-filters.md).
 
@@ -75,7 +75,7 @@ Les valeurs de filtre par défaut disponibles pour l’état du document sont le
 
 Tous les fichiers multimédias s’affichent désormais avec des icônes de miniature, ce qui facilite l’identification et la localisation visuelles des images dans le **référentiel**. Cette amélioration s’applique également lors de la recherche de fichiers dans le panneau **Recherche**, ce qui vous permet de distinguer rapidement les ressources multimédias des autres types de fichiers.
 
-![](assets/thumbnail-repository.png){align="left"}
+![](assets/thumbnail-repository.png)
 
 ## Améliorations de l’éditeur
 
@@ -87,11 +87,11 @@ Présentation de la nouvelle fonctionnalité **Actualiser** pour les mappages d�
 
 - Pour actualiser l’ensemble de la carte (y compris toutes les rubriques), un nouveau bouton **Actualiser** est introduit dans le coin supérieur gauche de l’éditeur.
 
-  ![](assets/refresh-map.png){width="600" align="left"}
+  ![](assets/refresh-map.png){width="600"}
 
 - Pour actualiser le contenu de rubriques individuelles, une nouvelle option **Actualiser la rubrique** est introduite dans le menu contextuel.
 
-  ![](assets/refresh-topic.png){width="600" align="left"}
+  ![](assets/refresh-topic.png){width="600"}
 
 Pour plus d’informations, consultez [Fonctionnalités de l’éditeur de cartes](../user-guide/map-editor-advanced-map-editor.md).
 
@@ -103,7 +103,7 @@ Toute modification apportée aux champs de métadonnées disponibles sous **Prop
 
 Vous pouvez désormais suivre le nombre de mots présents dans un mappage ou un fichier de rubrique. Le nouveau champ **Nombre de mots** dans le panneau de droite affiche le nombre total de mots présents dans une rubrique (ou un mappage), où les mots séparés par des espaces sont comptabilisés comme des mots individuels. Il s’actualise automatiquement chaque fois que vous enregistrez des modifications. Pour les références croisées, seul le texte affiché est inclus, tandis que les clés sont exclues.
 
-![](assets/file-properties-new.png){width="350" align="left"}
+![](assets/file-properties-new.png){width="350"}
 
 Pour plus d’informations, consultez [Panneau de droite dans l’éditeur](../user-guide/web-editor-right-panel.md#file-properties).
 
@@ -128,7 +128,7 @@ Désormais, vous pouvez ajouter de nouvelles rubriques à une tâche de révisio
 
 Sur la page **Détails de la tâche**, vous pouvez simplement sélectionner ou désélectionner des rubriques pour modifier la liste de rubriques. Les réviseurs et réviseuses sont avertis (par AEM et par e-mail) de toute modification apportée aux rubriques qui leur sont attribuées par le biais d’AEM et de notifications par e-mail. Pour plus d’informations, voir [Envoyer les rubriques pour révision](../user-guide/review-send-topics-for-review.md).
 
-![](assets/modify-review-topics.png){width="650" align="left"}
+![](assets/modify-review-topics.png){width="650"}
 
 ## Améliorations apportées à la traduction
 
@@ -140,7 +140,7 @@ Si un fichier contient des modifications sans version (non enregistrées en tant
 
 Pour plus d’informations, consultez la section [Traduire les documents à partir de la console Carte](../user-guide/translate-documents-web-editor.md).
 
-![](assets/unversioned-changes-translation.png){width="650" align="left"}
+![](assets/unversioned-changes-translation.png){width="650"}
 
 ## Améliorations de la publication
 

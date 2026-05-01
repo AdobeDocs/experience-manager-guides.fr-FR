@@ -3,7 +3,7 @@ title: Aide intelligente optimisée par l’IA pour rechercher du contenu
 description: Découvrez comment afficher et utiliser l’aide intelligente optimisée par l’IA dans l’éditeur web.
 hide: true
 exl-id: cf08f6a9-bf92-47d9-9952-da0301ea7023
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Lorsque vous ouvrez l’éditeur web, le panneau **Aide dynamique** s’affiche 
 >
 > Votre administrateur doit configurer la fonction **Aide intelligente**. Pour plus d’informations, consultez la section [Configurer l’aide intelligente optimisée par l’IA pour rechercher du contenu](/help/product-guide/cs-install-guide/conf-smart-help.md) du Guide d’installation et de configuration des services cloud.
 
-![Panneau d’aide dynamique](images/smart-help-panel.png){width="300" align="left"}
+![Panneau d’aide dynamique](images/smart-help-panel.png){width="300"}
 
 *Afficher le panneau **Aide intelligente**.*
 
@@ -49,7 +49,7 @@ Effectuez les étapes suivantes pour utiliser la recherche conversationnelle afi
 
    Selon votre question, vous pouvez afficher le contenu, les images applicables et les liens vers les articles.
 
-   ![Réponse du panneau Aide intelligente](images/smart-help-panel-response.png){width="300" align="left"}
+   ![Réponse du panneau Aide intelligente](images/smart-help-panel-response.png){width="300"}
 
 
    *Sélectionnez l’exemple de question et affichez le contenu et les images en réponse.*

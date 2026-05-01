@@ -4,7 +4,7 @@ description: Découvrez comment utiliser divers styles intégrés lors de la cr�
 feature: Authoring
 role: User
 exl-id: 78b62eb3-bc61-4c39-96b2-c0511d659ebf
-source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
@@ -29,20 +29,20 @@ Les options de style en ligne disponibles sont décrites ci-dessous :
 
 - **Police :** vous permet de personnaliser l’aspect du texte à l’aide de diverses options telles que la famille de polices, l’épaisseur de la police, la décoration du texte, la taille de la police, etc. Ces paramètres vous aident à appliquer un style à votre contenu, comme illustré dans l’exemple ci-dessous.
 
-  ![](assets/font-learning-content.png){width="350" align="left"}
+  ![](assets/font-learning-content.png){width="350"}
 
 - **Bordure** : permet de définir et de personnaliser la bordure d’un élément à l’aide d’options telles que le côté de la bordure, la largeur, le style (uni, tirets, pointillés, etc.), la couleur. Ces paramètres permettent de séparer ou de mettre en évidence visuellement des sections spécifiques de votre contenu.
 
-  ![](assets/border-learning-content.png){width="350" align="left"}
+  ![](assets/border-learning-content.png){width="350"}
 
 - **Disposition** : permet de contrôler le positionnement et l’espacement des éléments dans le contenu. Vous pouvez ajuster des propriétés telles que la marge, la marge intérieure, l’alignement, le type d’affichage, etc. pour organiser efficacement votre structure de contenu.
 
-  ![](assets/layout-learning-content.png){width="350" align="left"}
+  ![](assets/layout-learning-content.png){width="350"}
 
 - **Arrière-plan** : vous permet de personnaliser l’arrière-plan d’un élément en définissant des options telles que la couleur d’arrière-plan, l’image, la position et le style de répétition. Ces paramètres permettent d’améliorer l’attrait visuel et la clarté de votre contenu.
 
-  ![](assets/background-learning-content.png){width="350" align="left"}
+  ![](assets/background-learning-content.png){width="350"}
 
 - **Colonne** : permet d’organiser le contenu en plusieurs colonnes. Vous pouvez ajuster le nombre de colonnes, l’espacement entre elles, la largeur des colonnes, etc. pour améliorer la lisibilité et la structure de disposition dans votre contenu.
 
-  ![](assets/column-learning-content.png){width="350" align="left"}
+  ![](assets/column-learning-content.png){width="350"}

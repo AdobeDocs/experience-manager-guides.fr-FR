@@ -4,9 +4,9 @@ description: Créez et gérez une nouvelle ligne de base (Beta) à partir de la 
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: d7e5af83e88de18cd8ac2e849c9d6e1807988099
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ La nouvelle ligne de base introduit des améliorations importantes qui rendent l
 
 Avant de migrer vers le nouveau modèle de ligne de base, passez en revue les changements de comportement suivants. Ces modifications affectent la façon dont les lignes de base sont créées, mises à jour et gérées, et peuvent influencer les workflows existants.
 
-| Aire | Modification (description) |
+| Domaine | Modification (description) |
 |------|-------------|
 | **Résolution de référence** | Les références de mappage direct sont classées comme **DIRECT**. Les références non valides sont ignorées et les références de `reltable` continuent d’être exclues. |
 | **Sélection automatique** | La sélection de version est évaluée immédiatement avant de résoudre les références directes, en garantissant une résolution de version précise. |
@@ -73,7 +73,7 @@ Effectuez les étapes suivantes pour migrer la ligne de base existante vers la n
 1. Dans le panneau **Outils**, sélectionnez **Guides**.
 1. Sélectionnez la mosaïque **Processeur en bloc**.
 
-   ![flow-asset-processor](images/flow-asset-processor.png){align="left"}
+   ![flow-asset-processor](images/flow-asset-processor.png)
 
    La page **Guides Bulk Processor** s’affiche.
 
@@ -87,7 +87,7 @@ Effectuez les étapes suivantes pour migrer la ligne de base existante vers la n
    1. **Sélectionner un ou plusieurs dossiers et fichiers)** : naviguez et choisissez un ou plusieurs dossiers et fichiers à traiter.
    1. **Sélectionner le ou les dossiers à ignorer** : éventuellement, sélectionnez des sous-dossiers dans le dossier parent choisi à exclure de la migration.
 
-   ![nouvelle-ligne-de-base-processus](images/new-process-baseline.png){align="left"}
+   ![nouvelle-ligne-de-base-processus](images/new-process-baseline.png)
 
 1. Sélectionnez **Créer**.
 
@@ -95,11 +95,11 @@ Une fenêtre pop-up affichant **Le traitement des ressources a été déclenché
 
 Vous pouvez également sélectionner **Afficher les journaux** pour vérifier et télécharger les journaux de la tâche de migration.
 
-![view-logs-baseline](images/view-logs-baseline.png){align="left"}
+![view-logs-baseline](images/view-logs-baseline.png)
 
 Le rapport de journal fournit des détails sur la migration, y compris le nombre de mappages migrés, les lignes de base migrées avec succès et les détails associés.
 
-![logs-detail-baseline](images/logs-detail-baseline.png){align="left"}
+![logs-detail-baseline](images/logs-detail-baseline.png)
 
 >[!NOTE]
 >
@@ -131,7 +131,7 @@ Les mises à jour suivantes s&#39;appliquent lorsque vous utilisez des lignes de
    - **Modifier les propriétés** : permet de modifier les propriétés d&#39;une ligne de base existante.
    - **Reconstruire** : vous permet de reconstruire une ligne de base dynamique à chaque fois que des modifications se produisent.
 
-     ![rebuild-baseline](images/rebuild-baseline.png){align="left"}
+     ![rebuild-baseline](images/rebuild-baseline.png)
 
 - L’action **Télécharger** prend en charge les téléchargements paginés. Tout le contenu de base correspondant aux filtres appliqués est inclus dans le téléchargement, et pas seulement le contenu visible sur la page active.
 - Filtrez les fichiers par GUID, en plus des noms de fichier ou de l’emplacement du fichier. Une option supplémentaire permettant de **filtrer les fichiers sans libellés** est également disponible.
@@ -150,13 +150,13 @@ Les mises à jour suivantes s&#39;appliquent lorsque vous utilisez des lignes de
    - Accédez au fichier à modifier et pointez dessus.
    - Sélectionnez l’icône **Modifier**.
 
-     ![edit-baseline-icon](images/edit-baseline-icon.png){align="left"}
+     ![edit-baseline-icon](images/edit-baseline-icon.png)
 
      La boîte de dialogue **Modifier la version** s’affiche.
    - Sélectionnez la version requise dans le menu déroulant **Version** (par exemple, passez de la version 1.0 à la version 1.1).
 
 
-     ![edit-version-baseline](images/edit-version-baseline.png){align="left"}
+     ![edit-version-baseline](images/edit-version-baseline.png)
 
      Les dépendances ajoutées et supprimées sont évaluées et affichées en tant qu’aperçu. Examinez les modifications avant de les appliquer.
 

@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 9d311979-a7d7-47f5-945c-520eda99798f
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Lorsqu&#39;un grand nombre de tâches de publication sont exécutées sur votre 
 
 Le tableau de bord de publication donne un aperçu complet de toutes les tâches de publication actuellement en cours d’exécution dans le système.
 
-![](images/publish-dashboard.png){width="800" align="left"}
+![](images/publish-dashboard.png){width="800"}
 
 Le tableau de bord de publication contient les détails suivants :
 
@@ -40,7 +40,7 @@ Le panneau de gauche du tableau de bord de publication propose les options de fi
 
 - **Paramètre prédéfini de sortie** - Sélectionnez un ou plusieurs paramètres prédéfinis de sortie pour lesquels vous souhaitez afficher les tâches de publication actuellement actives. Dans la capture d’écran suivante, les tâches de publication sont filtrées afin d’afficher uniquement les tâches qui utilisent le paramètre prédéfini de sortie du site AEM :
 
-  ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
+  ![](images/publish-dashboard-preset-filter.png){width="800"}
 
 - **Initié par** - Sélectionnez un nom d’utilisateur dans la liste pour afficher les tâches de publication initiées par l’utilisateur sélectionné.
 
@@ -56,36 +56,36 @@ Pour accéder au tableau de bord de publication, procédez comme suit :
 
 1. Cliquez sur le lien Adobe Experience Manager en haut et choisissez **Outils**.
 
-1. Select **Guides** from the list of tools.
+1. Sélectionnez **Guides** dans la liste des outils.
 
-1. Click on the **Publish Dashboard** tile.
+1. Cliquez sur la mosaïque **Publier le tableau de bord**.
 
-   The Publish Dashboard opens with a list of all active publishing tasks in the system.
+   Le tableau de bord de publication s’ouvre avec une liste de toutes les tâches de publication actives dans le système.
 
-   If you click on the File Name link, the DITA map console of the selected map is shown.
+   Si vous cliquez sur le lien Nom de fichier, la console de mappage DITA du mappage sélectionné s&#39;affiche.
 
-   ![](images/publish-dashboard-click-filename-link.png){width="800" align="left"}
+   ![](images/publish-dashboard-click-filename-link.png){width="800"}
 
 
 >[!NOTE]
 >
-> You can also access the Publish Dashboard from the Outputs tab while you generate output from the map dashboard. For more details, see [View the status of the output generation task](generate-output-for-a-dita-map.md#viewing_output_history).
+> Vous pouvez également accéder au tableau de bord de publication à partir de l’onglet Sorties tout en générant une sortie à partir du tableau de bord de mappage. Pour plus de détails, voir [Afficher l’état de la tâche de génération de sortie](generate-output-for-a-dita-map.md#viewing_output_history).
 
-## Cancel a publishing task
+## Annuler une tâche de publication
 
-Perform the following steps to cancel an output generation task from the Publish Dashboard:
+Pour annuler une tâche de génération de sortie à partir du tableau de bord de publication, procédez comme suit :
 
-1. [Access the Publish Dashboard](#id205CC100DY4).
+1. [Accédez au tableau de bord de publication](#id205CC100DY4).
 
-1. From the list of active publishing tasks, click the delete icon of a task that you want to cancel.
+1. Dans la liste des tâches de publication actives, cliquez sur l&#39;icône de suppression d&#39;une tâche à annuler.
 
-   ![](images/publish-dashboard-cancel-task.png){width="800" align="left"}
+   ![](images/publish-dashboard-cancel-task.png){width="800"}
 
 1. Cliquez sur **Oui** à l’invite du message Confirmer l’annulation.
 
-   The cancel command is accepted and cancellation is attempted as long as the task remains active. Once the task is successfully terminated, it is removed from the currently active task list. The task&#39;s status also gets updated in the DITA map console as Cancelled. In the following screenshot, the *HTML5* task is canceled from the Publish Dashboard and its status is also changed in the DITA map console.
+   La commande d’annulation est acceptée et une tentative d’annulation est effectuée tant que la tâche reste active. Une fois la tâche terminée, elle est supprimée de la liste des tâches actuellement actives. Le statut de la tâche est également mis à jour dans la console de mappage DITA comme étant Annulé. Dans la capture d&#39;écran suivante, la tâche *HTML5* est annulée à partir du tableau de bord de publication et son statut est également modifié dans la console de plan DITA.
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){width="800"}
 
 
 **Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)

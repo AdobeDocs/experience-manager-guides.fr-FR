@@ -3,9 +3,10 @@ title: Panneau de recherche dans l’interface de l’éditeur
 description: Découvrez comment utiliser le panneau de recherche dans l’interface de l’éditeur.
 feature: Authoring
 role: User
-source-git-commit: 5b4aebce91d6cad7c99bf97e3d6d592ad38fa373
+exl-id: cf3c03b5-383c-464c-8ef1-2f0f825c4e56
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -18,11 +19,11 @@ Pour accéder au panneau de recherche, procédez comme suit :
 
 - **Interface de l’éditeur** : en sélectionnant l’**icône Rechercher** dans le panneau **Explorateur** ou en utilisant l’**icône Rechercher** dans le coin inférieur gauche de la **zone d’édition du contenu**. Pour plus d’informations, consultez [Recherche dans le panneau Explorateur](#search-from-the-explorer-panel).
 
-  ![](images/search-icon-editor.png){align="left"}
+  ![](images/search-icon-editor.png)
 
 - **Page d’accueil** : à l’aide de l’option **Afficher dans le panneau de recherche** lorsque vous naviguez à partir de l’interface de Repository sur la page d’accueil. Pour plus d’informations, [recherchez dans le référentiel](#search-from-the-repository-interface-on-the-home-page).
 
-  ![](images/search-panel-repo.png){align="left"}
+  ![](images/search-panel-repo.png)
 
 ## Principaux avantages
 
@@ -40,21 +41,21 @@ Lorsque vous travaillez dans l’interface de l’éditeur, vous pouvez filtrer 
    >
    >Si des résultats de recherche sont déjà présents dans votre session en cours, il vous suffit de sélectionner l’icône **Rechercher** dans l’Explorateur ou celle située dans la partie inférieure gauche de la zone de modification de contenu pour ouvrir le panneau affichant ces résultats précédents. Pour mettre à jour ou affiner les recherches, sélectionnez **Modifier la recherche**.
 
-   ![](images/search-repo-dialog.png){align="left"}
+   ![](images/search-repo-dialog.png)
 
 2. Effectuez votre recherche et appliquez des filtres selon vos besoins. Pour obtenir des instructions détaillées sur les options de recherche et de filtrage, consultez [Expérience de recherche et de filtrage](./home-page-repository-view.md#search-and-filter-experience).
 
 3. Une fois la recherche terminée, sélectionnez **Afficher dans le panneau de recherche**. Vos recherches récentes s’affichent alors dans le panneau de recherche au bas de l’éditeur.
 
-   ![](images/show-search-explorer.png){align="left"}
+   ![](images/show-search-explorer.png)
 
 4. Pour mettre à jour les résultats de la recherche, sélectionnez l’option **Modifier la recherche** dans le panneau de recherche et mettez à jour les critères pour obtenir de nouveaux résultats.
 
-   ![](images/modify-search.png){align="left"}
+   ![](images/modify-search.png)
 
 Une fois les résultats de la recherche affichés dans le panneau de recherche, vous pouvez les utiliser, soit en ouvrant et en modifiant un ou plusieurs fichiers directement à partir du panneau, soit en faisant glisser et en déposant les fichiers sélectionnés dans une rubrique existante ou en les mappant pour ajouter des références.
 
-![](images/edit-search-panel.png){align="left"}
+![](images/edit-search-panel.png)
 
 ## Recherche à partir de l’interface du référentiel sur la page d’accueil.
 
@@ -62,13 +63,4 @@ Lorsque vous effectuez une recherche et appliquez des filtres dans l’interface
 
 À partir du panneau de recherche, vous pouvez **glisser-déposer** des fichiers dans votre rubrique actuelle pour joindre facilement des références ou modifier plusieurs fichiers en même temps. De plus, vous pouvez affiner les résultats de la recherche à l’aide de l’option **Modifier la recherche** disponible dans le panneau de recherche.
 
-![](images/search-panel-from-home.png){align="left"}
-
-
-
-
-
-
-
-
-
+![](images/search-panel-from-home.png)

@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 4215618f-2203-4c55-adba-cdec76322e9e
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Pour créer une collection Map et ajouter des cartes DITA à la collection, proc
 
    Si le lien Mapper les collections n’est pas disponible, sélectionnez l’option **Navigation** dans le rail de gauche, puis cliquez sur **Mapper les collections**.
 
-   ![](images/access-map-collection-left-rail.png){width="350" align="left"}
+   ![](images/access-map-collection-left-rail.png){width="350"}
 
 1. Saisissez un Titre pour votre collection de cartes.
 1. Cliquez sur **Créer**.
@@ -50,13 +50,13 @@ Pour créer une collection Map et ajouter des cartes DITA à la collection, proc
 
    Les fichiers map DITA sont ajoutés à votre collection Map.
 
-   ![tableau de bord de collection map](./images/map-collection-dashboard.png){width="800" align="left"}
+   ![tableau de bord de collection map](./images/map-collection-dashboard.png){width="800"}
 
 Les options de filtrage et les détails de mappage suivants sont affichés sur la page de collection :
 
 - **Filtre :** le rail de gauche affiche les filtres suivants :
    - **Modifié** : vous pouvez sélectionner Oui ou Non. Si vous sélectionnez oui, seuls les mappages DITA modifiés seront affichés dans le tableau Mappages et paramètres prédéfinis.
-   - **Paramètre prédéfini** : sélectionnez un paramètre prédéfini pour lequel vous souhaitez filtrer les fichiers de mappage. Par exemple, si vous choisissez le paramètre prédéfini *Site AEM*, seuls les mappages sur lesquels le paramètre prédéfini de sortie *Site AEM* est configuré s’affichent.
+   - **Paramètre prédéfini** : sélectionnez un paramètre prédéfini pour lequel vous souhaitez filtrer les fichiers de mappage. Par exemple, si vous choisissez le paramètre prédéfini *Site*, seuls les mappages sur lesquels le paramètre prédéfini de sortie *Site AEM* est configuré s’affichent.
    - **Langue** : vous pouvez sélectionner l’un des codes de langue disponibles et afficher uniquement la langue sélectionnée dans le tableau Cartes et paramètres prédéfinis.
 - **Tableau des mappages et des paramètres prédéfinis** : le tableau des mappages et des paramètres prédéfinis présente les informations dans les colonnes suivantes :
    - **Map** : affiche le titre du fichier de plan DITA.
@@ -73,51 +73,51 @@ Pour configurer et générer la sortie à l’aide d’une collection Map, proc�
 
 1. Ouvrez la collection de cartes . Vous pouvez afficher les différents paramètres prédéfinis de sortie tels que le site AEM, PDF (y compris Native PDF), HTML5, EPUB et les paramètres prédéfinis personnalisés. Vous pouvez également afficher les paramètres prédéfinis de profil globaux et de dossier créés par votre administrateur.
 
-   The ![](images/global-preset-icon.svg) icon indicates a folder profile level preset.
-1. \(Optional\) Do any of the following based on your requirement:
-   - Apply Filters from the left rail to filter the modified maps, output preset, or language.
-   - If required, click **Edit** and change the desired output by turning the sliding button on or off.
+   L’icône ![](images/global-preset-icon.svg) indique un paramètre prédéfini de niveau de profil de dossier.
+1. \(Facultatif\) Effectuez l’une des opérations suivantes en fonction de vos besoins :
+   - Appliquez des filtres dans le rail de gauche pour filtrer les mappages, les paramètres prédéfinis de sortie ou la langue modifiés.
+   - Si nécessaire, cliquez sur **Modifier** et modifiez la sortie souhaitée en activant ou en désactivant le bouton coulissant.
 
 
 
      >[!NOTE]
      >  
-     > By default, any new preset is disabled.
+     > Par défaut, tout nouveau paramètre prédéfini est désactivé.
 
-1. You can enable the presets for a DITA map  in the following ways:
+1. Vous pouvez activer les paramètres prédéfinis d&#39;un plan DITA des manières suivantes :
 
-   - Enable any individual preset.
-   - Enable **All presets** for a DITA map to select all presets in one go. Par défaut, cette option est désactivée.
-   - Enable **Folder profile presets** for a DITA map to select all the folder profile presets for it. Par défaut, cette option est désactivée.
-     ![edit a map collection on cloud services](images/edit-map-collection-cs.png){width="800" align="left"}
+   - Activez n’importe quel paramètre prédéfini.
+   - Activez **Tous les paramètres prédéfinis** pour un plan DITA afin de sélectionner tous les paramètres prédéfinis en une seule fois. Par défaut, cette option est désactivée.
+   - Activez **Paramètres prédéfinis de profil de dossier** pour un plan DITA afin de sélectionner tous les paramètres prédéfinis de profil de dossier pour ce plan. Par défaut, cette option est désactivée.
+     ![modifier une collection map sur cloud services](images/edit-map-collection-cs.png){width="800"}
 
 
 
 1. Utilisez l’une des méthodes suivantes :
 
-   - To generate output of selected maps, select the map files and click **Generate Selected**.
-   - To generate output of all DITA maps with their configured presets, click **Generate All**.
+   - Pour générer la sortie des mappages sélectionnés, sélectionnez les fichiers de mappage et cliquez sur **Générer la sélection**.
+   - Pour générer la sortie de tous les plans DITA avec leurs paramètres prédéfinis configurés, cliquez sur **Tout générer**.
 
    >[!IMPORTANT]
    >
-   > If an output generation process for a preset or DITA map is either in the queue or in progress, you cannot initiate another output generation task for the same preset or map.
+   > Si un processus de génération de sortie pour un paramètre prédéfini ou un mappage DITA est en file d&#39;attente ou en cours, vous ne pouvez pas lancer une autre tâche de génération de sortie pour le même paramètre prédéfini ou mappage.
 
-## Configure the metadata properties
+## Configuration des propriétés de métadonnées
 
-In the map collection, you can configure the metadata properties in bulk for the DITA maps. Select **Configure Metadata**  to open the **Asset Metadata** page. On the **Asset Metadata** page, all the maps present in the collection are listed on the left.
+Dans la collection de cartes, vous pouvez configurer les propriétés de métadonnées en bloc pour les cartes DITA. Sélectionnez **Configurer les métadonnées** pour ouvrir la page **Métadonnées de ressource**. Sur la page **Métadonnées de ressource**, tous les mappages présents dans la collection sont répertoriés à gauche.
 
-![configure metadata](images/map-collection-asset-metadata.png){width="800" align="left"}
+![configuration des métadonnées](images/map-collection-asset-metadata.png){width="800"}
 
-Perform the following steps to configure the metadata properties:
+Pour configurer les propriétés de métadonnées, procédez comme suit :
 
-1. You can choose the maps you wish to update the metadata for. By default, all the DITA maps present are selected.
+1. Vous pouvez choisir les mappages pour lesquels vous souhaitez mettre à jour les métadonnées. Par défaut, tous les plans DITA présents sont sélectionnés.
 
-1. Once you select the DITA maps, you can view properties like metadata, schedule (de)activation, references, document state, and more.
+1. Une fois que vous avez sélectionné les plans DITA, vous pouvez afficher des propriétés telles que les métadonnées, la planification (de)activation, les références, l&#39;état du document, etc.
 
-1. Update the metadata properties.
+1. Mettez à jour les propriétés de métadonnées.
 
-1. Click **Save &amp; Close** on the top to save the updates.
-1. (Optional) When you update the tags, you can also select Append in the **Save &amp; Close** dropdown to append the new tags to the existing list.
+1. Cliquez sur **Enregistrer et fermer** dans la partie supérieure pour enregistrer les mises à jour.
+1. (Facultatif) Lorsque vous mettez à jour les balises, vous pouvez également sélectionner Ajouter dans le menu déroulant **Enregistrer et fermer** pour ajouter les nouvelles balises à la liste existante.
 1. Cliquez sur **Envoyer** dans le menu déroulant **Enregistrer et fermer**.
 Les propriétés de métadonnées sont mises à jour pour les plans DITA que vous sélectionnez en bloc dans la collection de plans.
 
@@ -141,6 +141,6 @@ Cela supprimera également tous les paramètres prédéfinis ou les paramètres 
 
 De la même manière que vous pouvez annuler une tâche de génération de sortie à partir de la [console de mappage DITA](generate-output-for-a-dita-map.md#id2061H100T5Z) ou du [tableau de bord de publication](generate-output-publish-dashboard.md#), vous pouvez annuler une tâche de génération de sortie à partir d&#39;une collection de mappages. Accédez à l’onglet Sorties d’une collection Map, accédez à la tâche de publication que vous souhaitez annuler, puis cliquez sur l’icône **Annuler cette tâche** pour annuler la tâche de publication.
 
-![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
+![](images/cancel-publish-task-map-collection.png){width="800"}
 
 **Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)

@@ -4,9 +4,9 @@ description: Utilisez les données de votre source de données dans AEM Guides. 
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2386'
+source-wordcount: '2405'
 ht-degree: 0%
 
 ---
@@ -55,13 +55,13 @@ Sélectionnez une source de données pour afficher les générateurs de fragment
 
 ### Vue Liste
 
-![](images/data-sources-list-view.png){width="300" align="left"}
+![](images/data-sources-list-view.png){width="300"}
 
 *Liste des sources de données connectées.*
 
 ### Affichage en mosaïque
 
-![](images/data-sources-tile-view.png){width="300" align="left"}
+![](images/data-sources-tile-view.png){width="300"}
 
 *Afficher les sources de données connectées sous forme de mosaïques.*
 
@@ -80,13 +80,13 @@ Pour créer un fragment de contenu à l’aide du générateur de fragments de c
 
 1. Sélectionnez une source de données pour afficher les générateurs de fragments de code de contenu disponibles pour la source de données sélectionnée.
 
-   ![](images/code-snippet-generator.png){width="300" align="left"}
+   ![](images/code-snippet-generator.png){width="300"}
 
    *Le panneau Sources de données répertorie les générateurs de fragments de contenu disponibles.*
 
 1. Sélectionnez **Ajouter** pour ajouter un nouveau générateur de fragment de contenu. Le panneau **Ajouter un générateur de fragment de contenu** s’ouvre.
 
-   ![](images/add-content-snippet-generator-empty-screen.png){width="500" align="left"}
+   ![](images/add-content-snippet-generator-empty-screen.png){width="500"}
 
 1. Saisissez la requête dans la zone de texte **Requête de données**.  Sélectionnez **Copier un exemple de requête** pour copier rapidement une requête de données. Au lieu de créer manuellement la requête, vous pouvez copier et coller l’exemple de requête dans la zone de texte **Requête de données**. Il vous suffit ensuite de modifier la requête en fonction de vos besoins en matière de données.
 
@@ -126,7 +126,7 @@ Par exemple :
 
    1. La vue source affiche les données dans la vue source DITA.
 
-      ![](images/add-content-snippet-generator-preview.png){width="500" align="left"}
+      ![](images/add-content-snippet-generator-preview.png){width="500"}
       *Ajoutez un générateur de fragments de code de contenu. Affichez les données en mode source ou aperçu.*
 
 1. Pour enregistrer les résultats de la requête, saisissez le nom du générateur, puis sélectionnez **Ajouter**.   Un nouveau générateur de fragments de contenu est ajouté à la liste.
@@ -154,7 +154,7 @@ Cliquez avec le bouton droit de la souris sur un générateur de fragments de co
 
 Vous pouvez également utiliser le ![](images/data-sources-new-icon.svg) **Requête de données** de la barre d’outils pour insérer le fragment de données dans les rubriques.  Vous pouvez sélectionner un générateur dans la liste déroulante, modifier votre requête ou modifier le modèle et insérer les données dans votre rubrique.
 
-![](images/add-content-snippet-generator.png){align="left"}
+![](images/add-content-snippet-generator.png)
 
 *Modifier et insérer un fragment de données.*
 
@@ -174,7 +174,7 @@ Pour créer une rubrique à l’aide du générateur de rubriques, procédez com
 
 1. Sélectionnez une source de données pour afficher les générateurs de fragments de contenu et les générateurs de rubriques disponibles pour la source de données sélectionnée.
 
-   ![](images/data-sources.png){width="300" align="left"}
+   ![](images/data-sources.png){width="300"}
 
    *Ajoutez un générateur de rubrique pour une source de données connectée.*
 
@@ -186,7 +186,7 @@ Pour créer une rubrique à l’aide du générateur de rubriques, procédez com
 
    **Récupérer la configuration**
 
-   ![](images/fetch-configuration.png){width="300" align="left"}
+   ![](images/fetch-configuration.png){width="300"}
 
    *Ajoutez les détails Requête de données, Modèle de mappage de données et Nœud racine pour le générateur de rubrique et attribuez-lui un nom unique dans le panneau Récupérer la configuration*.
 
@@ -219,7 +219,7 @@ Pour créer une rubrique à l’aide du générateur de rubriques, procédez com
 
    **Configuration de sortie**
 
-   ![](images/topic-generator-output-configuration.png){width="300" align="left"}
+   ![](images/topic-generator-output-configuration.png){width="300"}
 
    *Saisissez les détails du Chemin de sortie et de la convention de nommage des rubriques dans le panneau Configuration de sortie . Générez un plan DITA et nommez-le.*
 
@@ -238,7 +238,7 @@ Pour créer une rubrique à l’aide du générateur de rubriques, procédez com
 
    Par exemple, dans la capture d’écran suivante, `dc:description`, `dc:language`, `dc:title` et `docstate` sont les propriétés par défaut pour lesquelles vous pouvez définir les valeurs. Vous pouvez créer une propriété personnalisée telle que author et définir sa valeur.
 
-   ![](images/topic-generator-metadata.png){width="300" align="left"}
+   ![](images/topic-generator-metadata.png){width="300"}
 
    *Ajoutez les propriétés de métadonnées dans le panneau Métadonnées à transmettre aux rubriques.*
 
@@ -248,7 +248,7 @@ Pour créer une rubrique à l’aide du générateur de rubriques, procédez com
 
 
 
-   ![](images/add-topic-generator.png){align="left"}
+   ![](images/add-topic-generator.png)
 
    *Générer de nouvelles rubriques à partir d’un générateur de rubriques existant.*
 

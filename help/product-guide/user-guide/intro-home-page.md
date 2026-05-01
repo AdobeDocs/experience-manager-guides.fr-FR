@@ -4,9 +4,9 @@ description: Découvrez la page d’accueil d’Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: c2dbf53040abc3e5873fd81050ed7e59c4faaaf0
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2099'
+source-wordcount: '2105'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 La page d’accueil est le premier écran que vous affichez lorsque vous vous connectez à Experience Manager Guides. Il vous offre une expérience d’écran de bienvenue unifiée et intuitive, qui inclut un aperçu rapide des fichiers auxquels vous avez récemment accédé, des collections, etc.
 
-![](images/aem-home-page-new.png){align="left"}
+![](images/aem-home-page-new.png)
 
 La page d’accueil de Experience Manager Guides se compose des sections suivantes :
 
@@ -27,7 +27,7 @@ La page d’accueil de Experience Manager Guides se compose des sections suivant
 
 La barre d’en-tête est la barre supérieure de la page d’accueil qui affiche le logo de Adobe Experience Manager (ou un shell unifié si vous utilisez le shell unifié comme interface utilisateur de Experience Manager Guides). Lorsque vous sélectionnez le logo, il vous dirige vers la page de navigation d’Experience Manager.
 
-![](images/aem-home-header.png){align="left"}
+![](images/aem-home-header.png)
 
 ## Barre de navigation
 
@@ -37,7 +37,7 @@ La barre de navigation affiche des outils permettant de changer de navigation, d
 >
 > Si vous utilisez Adobe Experience Manager Guides as a Cloud Service, une fonctionnalité supplémentaire intitulée **Assistant AI** s’affiche dans la barre de navigation.
 
-![](images/aem-home-nav-bar.png){align="left"}
+![](images/aem-home-nav-bar.png)
 
 Les fonctionnalités disponibles dans la barre de navigation sont expliquées comme suit :
 
@@ -52,7 +52,7 @@ Les fonctionnalités disponibles dans la barre de navigation sont expliquées co
 - **Profil de dossier en cours d’utilisation** : affiche le profil de dossier actuellement utilisé.
 - **Autres actions** : permet d’accéder à des options supplémentaires. Si vous sélectionnez ce bouton, un menu s’ouvre avec les options suivantes :
 
-   - **Assets** : vous dirige vers une destination en fonction de votre configuration.
+   - **&#x200B;**&#x200B;: vous dirige vers une destination en fonction de votre configuration.
       - **Services cloud** : si vous utilisez des services cloud, la sélection de l’option **Assets** vous conduit à la page de navigation d’AEM.
 
       - **Logiciel On-premise** : si vous utilisez Adobe Experience Manager Guides (4.2.1 et versions ultérieures), la sélection de l’option **Assets** vous conduit au chemin d’accès actuel au fichier dans l’interface utilisateur d’Assets.
@@ -72,7 +72,7 @@ Les fonctionnalités disponibles dans la barre de navigation sont expliquées co
 
 Le panneau de gauche vous donne un accès rapide aux fonctionnalités Présentation, Référentiel, Collections de cartes, Publication en bloc, File d’attente de publication et Préférences utilisateur. Vous pouvez développer le panneau en sélectionnant l’icône **Développer** placée dans le coin inférieur gauche de l’interface. Une fois développé, utilisez l’icône **Réduire** pour réduire le panneau.
 
-![](images/home-with-repository.png){width="300" align="left"}
+![](images/home-with-repository.png){width="300"}
 
 Ce que vous voyez dans ce panneau dépend de votre rôle d’utilisateur. Le tableau suivant répertorie les rôles et les sections respectives affichées dans le panneau de gauche.
 
@@ -92,7 +92,7 @@ Les fonctionnalités disponibles dans le panneau de gauche sont expliquées comm
 
 >[!NOTE]
 >
-> En outre, si votre administrateur a configuré l’intégration d’Adobe Workfront dans le système, une option **Workfront** s’affiche également dans le panneau de gauche. Découvrez l’[intégration d’Adobe Workfront](./workfront-integration.md) dans Experience Manager Guides.
+> En outre, si votre administrateur a configuré l’intégration d’Adobe Workfront dans le système, une option **Workfront** s’affiche également dans le panneau de gauche. Découvrez l’[intégration d’](./workfront-integration.md) dans Experience Manager Guides.
 
 
 ### Vue d’ensemble
@@ -106,11 +106,11 @@ Les widgets suivants sont présents dans la section Widgets :
 
 - **Fichiers récents** : le widget vous fournit un instantané des fichiers récemment ouverts (une liste de fichiers auxquels vous avez accédé dans l’éditeur) ainsi que les détails clés du fichier, y compris le titre, le nom du fichier, le type de fichier, le chemin d’accès au fichier et les dates d’accès.
 
-  ![](images/aem-home-recent-files.png){align="left"}
+  ![](images/aem-home-recent-files.png)
 
   Vous pouvez trier et redimensionner les colonnes en sélectionnant des options dans le menu déroulant des colonnes. Par défaut, les données sont triées en fonction de la date et de l’heure du dernier accès.
 
-  ![](images/aem-home-recent-files-sort-resize-options.png){align="left"}
+  ![](images/aem-home-recent-files-sort-resize-options.png)
 
 
   Dans [Préférences utilisateur](#user-preferences), vous pouvez définir le nombre maximal de fichiers qui peuvent être affichés dans ce widget. Par défaut, cette limite est définie sur **20**.
@@ -128,11 +128,11 @@ Les widgets suivants sont présents dans la section Widgets :
 - **Collections** : si vous travaillez sur un ensemble de fichiers ou de dossiers, vous pouvez les ajouter à ce widget pour y accéder rapidement. Une fois ajoutés, vous pouvez afficher les fichiers par titre, ainsi que d’autres détails clés tels que le propriétaire et les dates de création. Lorsque vous sélectionnez la liste déroulante de la colonne, vous pouvez afficher les options de tri et de redimensionnement de la colonne.
 
 
-  ![](images/aem-home-collections.png){align="left"}
+  ![](images/aem-home-collections.png)
 
   Les chemins de navigation de la collection sélectionnée s’affichent en haut du widget Collection. Vous pouvez la sélectionner pour revenir à un dossier spécifique dans la hiérarchie.
 
-  ![](images/aem-home-collections-breadcrumbs.png){align="left"}
+  ![](images/aem-home-collections-breadcrumbs.png)
 
   Les options suivantes sont disponibles lorsque vous pointez sur une collection et sélectionnez l’icône Plus ![](images/Smock_MoreSmallList_18_N.svg) :
 
@@ -154,7 +154,7 @@ Les widgets suivants sont présents dans la section Widgets :
 
 >[!NOTE]
 >
-> En outre, si votre administrateur a configuré l’intégration d’Adobe Workfront dans le système, le widget **Vos tâches** s’affiche également dans la section Widgets . En savoir plus sur l’[intégration d’Adobe Workfront](./workfront-integration.md#working-with-the-your-tasks-widget) dans Experience Manager Guides.
+> En outre, si votre administrateur a configuré l’intégration d’Adobe Workfront dans le système, le widget **Vos tâches** s’affiche également dans la section Widgets . En savoir plus sur l’[intégration d’](./workfront-integration.md#working-with-the-your-tasks-widget) dans Experience Manager Guides.
 
 ### Référentiel
 
@@ -162,7 +162,7 @@ Le référentiel sert de hub centralisé pour découvrir facilement les dossiers
 
 ### Mappage des collections
 
-Experience Manager Guides vous permet d’organiser votre contenu pour publication à l’aide d’un tableau de bord appelé **Collections de cartes**. Pour utiliser cette fonctionnalité, sélectionnez **Mapper des collections** dans le panneau de gauche. Elle vous mène à la page Mapper les collections dans l’interface utilisateur **Assets** où vous pouvez [utiliser la collection de mappages pour la génération de sortie.](./generate-output-use-map-collection-output-generation.md)
+Experience Manager Guides vous permet d’organiser votre contenu pour publication à l’aide d’un tableau de bord appelé **Collections de cartes**. Pour utiliser cette fonctionnalité, sélectionnez **Mapper des collections** dans le panneau de gauche. Elle vous mène à la page Mapper les collections dans l’interface utilisateur **&#x200B;**&#x200B;où vous pouvez [utiliser la collection de mappages pour la génération de sortie.](./generate-output-use-map-collection-output-generation.md)
 
 ### Publication en bloc
 
@@ -180,7 +180,7 @@ Les préférences utilisateur sont disponibles pour tous les auteurs. À l’aid
 
 - **Général** : l&#39;onglet Général permet de paramétrer les éléments suivants :
 
-  ![](images/user_preference_editor-new.png){align="left"}
+  ![](images/user_preference_editor-new.png)
 
    - **Profil de dossier** : le profil de dossier contrôle diverses configurations liées aux attributs conditionnels, aux modèles de création, aux paramètres prédéfinis de sortie et aux configurations de l’éditeur. Le profil global s’affiche par défaut. En outre, si votre administrateur a configuré des profils de dossier dans le système, ces profils de dossier s’affichent également dans la liste Profils de dossier .
    - **Chemin d’accès de base** : par défaut, lorsque vous accédez au référentiel Experience Manager Guides à partir de l’éditeur, les ressources s’affichent à partir de l’emplacement /content/dam. Votre dossier de travail serait probablement constitué de quelques dossiers à l’intérieur du dossier /content/dam/. Vous pouvez définir le Chemin d’accès de base à votre dossier de travail, puis la vue du référentiel vous montre le contenu de cet emplacement au premier plan. Cela réduit le temps d’accès à votre dossier de travail. En outre, lorsque vous insérez un fichier de référence ou de média dans votre rubrique, l’emplacement de recherche de fichier commence par le dossier défini dans le chemin d’accès de base.
@@ -190,7 +190,7 @@ Les préférences utilisateur sont disponibles pour tous les auteurs. À l’aid
 
 - **Apparence** : l’onglet Apparence vous propose les options de sélection des thèmes de l’application et de la vue source de la zone d’édition du contenu. Utilisez cet onglet pour configurer les paramètres suivants :
 
-  ![](images/user_preference_editor_appearance.png){align="left"}
+  ![](images/user_preference_editor_appearance.png)
 
    - **Thème d’application et vue Source** : vous pouvez choisir parmi les thèmes Clair ou Sombre de l’application et de la vue source. Dans le cas du thème Clair , les barres d’outils et les panneaux utilisent un arrière-plan gris clair. Dans le cas du thème Sombre, les barres d’outils et les panneaux utilisent un arrière-plan noir. Sélectionnez **Utiliser l’appareil** le thème pour permettre à Experience Manager Guides de sélectionner les thèmes clairs et sombres en fonction du thème de votre appareil.
 

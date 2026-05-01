@@ -4,9 +4,9 @@ description: Traduisez votre contenu dans plusieurs langues à partir de l’éd
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2519'
+source-wordcount: '2536'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ Avant d’effectuer les étapes de cette procédure, assurez-vous d’avoir cré
 
 1. En tant qu’utilisateur, vous pouvez afficher les groupes linguistiques configurés sur votre profil de dossier. Les groupes de langues affichent les dossiers de langue ainsi que leurs codes de langue. Par exemple, le groupe de langues G1 contient les dossiers de langues Italien \(it\), Allemand \(de\), Français \(fr\) et Anglais \(en\).
 
-   ![Panneau de traduction](images/translation-languages.png){width="300" align="left"}
+   ![Panneau de traduction](images/translation-languages.png){width="300"}
 
    *Sélectionnez les groupes linguistiques ou les langues dans lesquelles vous souhaitez traduire vos documents.*
 
@@ -93,7 +93,7 @@ Avant d’effectuer les étapes de cette procédure, assurez-vous d’avoir cré
 
      Si un fichier contient des modifications qui n’ont pas encore de version (c’est-à-dire qui ne sont pas enregistrées en tant que nouvelle version dans votre mappage), une icône d’information s’affiche en regard du fichier, indiquant la présence de modifications sans version.
 
-     ![](images/unversioned-changes-translation.png){width="650" align="left"}
+     ![](images/unversioned-changes-translation.png){width="650"}
 
      >[!NOTE]
      >
@@ -107,11 +107,11 @@ Avant d’effectuer les étapes de cette procédure, assurez-vous d’avoir cré
    - **Libellé cible** : libellé de la version sélectionnée du fichier cible
 1. Sélectionnez **Envoyer pour traduction** dans le coin supérieur droit.
 
-   ![](images/translation-send.png){align="left"}
+   ![](images/translation-send.png)
 
 1. Dans la liste déroulante, sélectionnez **Créer un projet de traduction**.
 
-   ![](images/translation-project-types.png){width="350" align="left"}
+   ![](images/translation-project-types.png){width="350"}
 
    Outre un nouveau projet de traduction, vous pouvez également choisir parmi les options suivantes :
 
@@ -175,7 +175,7 @@ Pour ajouter le libellé de version source dans la copie cible, votre administra
 
 Par exemple, si vous avez des fichiers source auxquels est appliqué le libellé de version `Release 1.0`, vous pouvez également transmettre le libellé source \(`Release 1.0`\) au fichier traduit.
 
-![](images/translation-pass-source-label.png){width="650" align="left"}
+![](images/translation-pass-source-label.png){width="650"}
 
 >[!NOTE]
 >
@@ -185,7 +185,7 @@ Par exemple, si vous avez des fichiers source auxquels est appliqué le libellé
 
 Experience Manager Guides permet de vérifier les différences entre la version sélectionnée et la dernière version source traduite des rubriques. Vous pouvez choisir de traduire les fichiers **Désynchronisés** en fonction des modifications apportées.
 
-![](images/translation-version-diff.png){width="650" align="left"}
+![](images/translation-version-diff.png){width="650"}
 
 Sélectionnez l’icône **Afficher la différence** icône \(![](images/show-difference-icon.svg)\) d’une rubrique pour afficher les différences entre la dernière version traduite et la version actuelle du fichier sélectionné.
 
@@ -195,7 +195,7 @@ Sélectionnez l’icône **Afficher la différence** icône \(![](images/show-di
 
 La boîte de dialogue **Différence de version** s’affiche. Il affiche le numéro **Dernière version traduite** et le numéro **Version sélectionnée** sur la gauche. La fenêtre d&#39;aperçu affiche les différences entre la dernière version traduite et la version sélectionnée de la rubrique.
 
-![](images/version-diff.png){width="650" align="left"}
+![](images/version-diff.png){width="650"}
 
 ## Ignorer les ressources désynchronisées
 
@@ -206,7 +206,7 @@ Pour ignorer le statut Désynchronisé , procédez comme suit :
 1. Sélectionnez les ressources non synchronisées dont vous souhaitez modifier le statut.
 1. Sélectionnez le bouton **Marquer comme synchronisé** \(![](images/translation-mark-in-sync-icon.svg)\) en haut. La boîte de dialogue **Marquer comme synchronisé** s’affiche.
 
-   ![](images/translation-mark-in-sync.png){width="550" align="left"}
+   ![](images/translation-mark-in-sync.png){width="550"}
 
 1. Sélectionnez **Forcer la synchronisation**. Il définit le statut sur Synchronisé pour les ressources désynchronisées sélectionnées.
 
@@ -224,7 +224,7 @@ Certaines des références de votre tableau de bord de traduction peuvent avoir 
 
 Sélectionnez le nom de la référence dans la boîte de dialogue pour l’ouvrir en mode Aperçu. Vous pouvez également sélectionner le projet de traduction pour commencer la traduction.
 
-![](images/translation-in-progress.png){width="550" align="left"}
+![](images/translation-in-progress.png){width="550"}
 
 
 ## Supprimer ou désactiver automatiquement un projet de traduction terminé

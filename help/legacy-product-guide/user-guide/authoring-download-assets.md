@@ -5,7 +5,7 @@ feature: Content Management
 role: User
 hide: true
 exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA avec 
 
    La boîte de dialogue Télécharger la carte s’affiche.
 
-   ![](images/download-map.png){width="300" align="left"}
+   ![](images/download-map.png){width="300"}
 
 1. Cliquez sur **Télécharger**. Dans la boîte de dialogue Télécharger la carte , vous pouvez choisir les options suivantes :
 
@@ -44,7 +44,7 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA avec 
 
 1. Après avoir cliqué sur le bouton **Télécharger**, la demande de téléchargement de carte est mise en file d’attente. Vous recevrez la notification suivante une fois que la carte sera prête à être téléchargée.
 
-   ![](images/download-map-prompt.png){width="550" align="left"}
+   ![](images/download-map-prompt.png){width="550"}
 
    - Cliquez sur **Télécharger** pour télécharger le fichier de mappage au format .zip.
 
@@ -54,7 +54,7 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA avec 
    >
    > Par défaut, les cartes téléchargées restent pendant cinq jours dans la boîte de réception de notifications d’AEM.
 
-![](images/download-map-inbox.png){width="300" align="left"}
+![](images/download-map-inbox.png){width="300"}
 
 Une fois la carte téléchargée, vous pouvez sélectionner la carte et utiliser l’icône Ouvrir en haut pour ouvrir le rapport sélectionné.
 

@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: ffdc2426-dc78-4deb-93cc-3292fd4fcbd8
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -31,16 +31,16 @@ Effectuez les étapes suivantes pour générer une sortie pour une ou plusieurs 
 1. Dans l&#39;onglet **Auteur**, sélectionnez la rubrique de votre plan DITA que vous souhaitez publier.
 
 1. Sélectionnez **Génération rapide** dans le menu Options de la rubrique sélectionnée.
-   ![](images/select-topic-options-menu_cs.png){width="650" align="left"}
+   ![](images/select-topic-options-menu_cs.png){width="650"}
 
 1. Pour publier une rubrique utilisée dans un seul plan DITA, sélectionnez les paramètres prédéfinis de sortie du plan que vous souhaitez utiliser pour publier, puis cliquez sur **Générer**.
-   ![](images/select-preset_cs.png){width="350" align="left"}
+   ![](images/select-preset_cs.png){width="350"}
 
 1. Vous verrez le statut du processus de génération de sortie. Pour afficher la sortie, placez le pointeur de la souris sur la rubrique et cliquez sur Afficher la sortie.
 
 1. Si une rubrique commune est utilisée dans plusieurs rubriques, sélectionnez les différents plans DITA ainsi que les paramètres prédéfinis de sortie à utiliser pour la publication, puis cliquez sur **Générer.**
 
-   ![](images/select-preset-multiple-maps_cs.png){width="350" align="left"}
+   ![](images/select-preset-multiple-maps_cs.png){width="350"}
 
 1. Vous verrez le statut du processus de génération de sortie.
 
@@ -49,7 +49,7 @@ Effectuez les étapes suivantes pour générer une sortie pour une ou plusieurs 
    - **Map** : répertorie les plans DITA contenant la rubrique sélectionnée.
    - **Statut** : affiche le statut de publication de chaque rubrique.
 Pour afficher la sortie, placez le pointeur de la souris sur la rubrique et cliquez sur Afficher la sortie.
-     ![](images/output-multiple-maps_cs.png){width="800" align="left"}
+     ![](images/output-multiple-maps_cs.png){width="800"}
 
 
 ## Générer la sortie d&#39;un plan DITA à partir de l&#39;éditeur Web
@@ -60,7 +60,7 @@ Effectuez les étapes suivantes pour générer une sortie pour l&#39;ensemble du
 
 1. Sélectionnez **Génération rapide** dans le menu Options de votre plan DITA.
 
-   ![](images/select-map-options-menu_cs.png){width="650" align="left"}
+   ![](images/select-map-options-menu_cs.png){width="650"}
 
 1. Sélectionnez les paramètres prédéfinis de sortie de votre plan DITA que vous souhaitez utiliser pour publier, puis cliquez sur **Générer.**
 
@@ -81,7 +81,7 @@ Effectuez les étapes suivantes pour générer une sortie pour plusieurs rubriqu
    >
    > Seuls les paramètres prédéfinis de sortie du plan DITA actuel contenant toutes les rubriques sélectionnées s&#39;affichent.
 
-   ![](images/generate-output-multiple-topics_cs.png){width="650" align="left"}
+   ![](images/generate-output-multiple-topics_cs.png){width="650"}
 
 1. Vous verrez le statut du processus de génération de sortie.Pour afficher la sortie, placez le pointeur de la souris sur la rubrique et cliquez sur Afficher la sortie.
 

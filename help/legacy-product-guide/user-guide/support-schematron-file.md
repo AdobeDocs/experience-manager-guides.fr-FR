@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: c743baac-b6c1-4684-bbd1-8f9834ab272a
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Pour importer les fichiers Schematron, procédez comme suit :
 
-![](images/scematron-panel-add.png){width="300" align="left"}
+![](images/scematron-panel-add.png){width="300"}
 
 1. Accédez au dossier requis (dans lequel vous souhaitez charger les fichiers) dans *Vue du référentiel*.
 1. Cliquez sur l’icône **Options** pour afficher le menu contextuel et choisissez **Télécharger Assets**.
@@ -41,7 +41,7 @@ Après avoir importé les fichiers Schematron, vous pouvez les modifier dans l&#
 * Il doit y avoir au moins une rubrique dans la carte.
 
 Lorsque vous ouvrez une rubrique dans l’éditeur web, un panneau Validation du schéma s’affiche à droite. Effectuez les étapes suivantes pour ajouter et valider une rubrique ou un mappage avec un fichier Schematron :
-![](images/schematron-validate.png){width="300" align="left"}
+![](images/schematron-validate.png){width="300"}
 
 1. Cliquez sur l’icône Schéma () pour ouvrir le panneau Schéma .
 1. Utilisez Ajouter un fichier Schematron pour ajouter des fichiers Schematron.
@@ -106,15 +106,15 @@ No one word titles.
 ```
 
 
-## Define abstract patterns{#schematron-abstract-patterns}
+## Définition de modèles abstraits{#schematron-abstract-patterns}
 
-AEM Guides also supports abstract patterns in Schematron. You can define generic abstract patterns reuse these abstract patterns.  You can create placeholder parameters that specify the actual pattern.
-
-
-Using abstract patterns can simplify your Schematron schema by reducing the duplication of rules and making it easier to manage and update your validation logic. It can also make your schema easier to understand, as you can define complex validation logic in a single abstract pattern that can be reused throughout the schema.
+AEM Guides prend également en charge les modèles abstraits dans Schematron. Vous pouvez définir des modèles abstraits génériques et les réutiliser.  Vous pouvez créer des paramètres d’espace réservé qui spécifient le modèle réel.
 
 
-For example, the following XML code creates an abstract pattern and then the actual pattern refers to it using the id.
+L’utilisation de modèles abstraits peut simplifier votre schéma Schematron en réduisant la duplication des règles et en facilitant la gestion et la mise à jour de votre logique de validation. Cela peut également faciliter la compréhension de votre schéma, dans la mesure où vous pouvez définir une logique de validation complexe dans un modèle abstrait unique qui peut être réutilisé dans l’ensemble du schéma.
+
+
+Par exemple, le code XML suivant crée un modèle abstrait, puis le modèle réel y fait référence à l’aide de l’identifiant .
 
 ```XML
 <sch:pattern abstract="true" id="LimitNoOfWords"> 

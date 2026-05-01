@@ -5,7 +5,7 @@ exl-id: 24e44618-9c4e-4547-a00d-216ef3fb4854
 feature: Version Management
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1668'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Pour activer ces fonctionnalités, procédez comme suit :
 
 1. Sélectionnez l’option **Désactiver la modification sans passage en caisse**.
 
-   ![](assets/xml-editor-config.png){width="650" align="left"}
+   ![](assets/xml-editor-config.png){width="650"}
 
    Avec cette option, les utilisateurs ne verront pas l’option Modifier dans la barre d’outils tant qu’ils n’auront pas extrait un fichier.
 
@@ -134,7 +134,7 @@ Pour prendre en charge cette fonctionnalité, une nouvelle `drivelock` de propri
 
 `/oak:index/damAssetLucene/indexRules/dam:Asset/properties/drivelock`
 
-![](assets/index-property-oak-index-drivelock.png){width="800" align="left"}
+![](assets/index-property-oak-index-drivelock.png){width="800"}
 
 Outre la nouvelle propriété d’index, assurez-vous que les propriétés suivantes sont définies sur `/oak:index/damAssetLucene` :
 
@@ -179,11 +179,11 @@ Pour définir qui peut supprimer un fichier contenant des références ou réfé
 
    - allow\_unsafe\_delete\_for\_all : autorisez tous les utilisateurs à supprimer des fichiers. Dans ce cas, si le(s) fichier(s) contient(nt) des références ou est référencé(s) par d’autres fichiers, vous pouvez également supprimer de force ce(s) fichier(s). Avant de supprimer le fichier, une invite contenant les références s’affiche. Vous pouvez annuler l’opération de suppression, supprimer les références, puis supprimer définitivement le(s) fichier(s). Vous pouvez également supprimer de force le ou les fichiers sans supprimer les références.
 
-     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550"}
 
    - allow\_unsafe\_delete\_for\_delete\_assets\_group : un administrateur ou un utilisateur appartenant au groupe *delete-assets* est autorisé à supprimer des fichiers. Si un autre utilisateur tente de supprimer des fichiers avec des références, il ne sera pas autorisé à supprimer ces fichiers jusqu&#39;à ce que toutes les références soient supprimées. La capture d’écran suivante s’affiche lorsqu’un utilisateur, qui ne dispose pas des autorisations nécessaires, tente de supprimer des fichiers.
 
-     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550"}
 
    - block\_unsafe\_delete\_for\_all : interdire à tous les utilisateurs \(y compris aux administrateurs\) de supprimer des fichiers jusqu’à ce que les références à et depuis le ou les fichiers\\) soient supprimées.
 
@@ -210,7 +210,7 @@ Pour purger les anciennes versions, procédez comme suit :
 
 1. Saisissez les informations suivantes sur les fichiers à purger :
 
-   ![](assets/preview-purge-report.png){width="350" align="left"}
+   ![](assets/preview-purge-report.png){width="350"}
 
 1. &#x200B;
    - **Nombre de versions à conserver à partir de la dernière version** : saisissez le nombre de versions à conserver et à ne pas purger. Par exemple, si nous entrons 5 , les 5 dernières versions sont conservées, et les versions antérieures sont qualifiées pour être purgées si d’autres conditions de purge sont remplies.
@@ -232,7 +232,7 @@ Pour purger les anciennes versions, procédez comme suit :
 1. Téléchargez le rapport de purge des versions et vérifiez les fichiers et les versions qui seront purgés.
 1. Vous pouvez choisir entre **Annuler la purge** ou **Démarrer la purge**.
 
-   ![](assets/download-purge-report.png){width="350" align="left"}
+   ![](assets/download-purge-report.png){width="350"}
 
    Le statut de purge s’affiche.
 

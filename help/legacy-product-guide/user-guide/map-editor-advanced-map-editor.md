@@ -5,7 +5,7 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: b63d7c0f-9c29-4fb4-b8fe-9790b16f8726
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '3838'
 ht-degree: 0%
@@ -36,27 +36,27 @@ Effectuez les étapes suivantes pour créer votre fichier de carte à l’aide d
 
 1. Une fois le fichier de mappage sélectionné, cliquez sur **Modifier les rubriques**.
 
-   ![](images/edit-map-main-menu.png){width="800" align="left"}
+   ![](images/edit-map-main-menu.png){width="800"}
 
    Vous pouvez également sélectionner l’option **Modifier les rubriques** dans le menu d’actions du fichier de mappage :
 
-   ![](images/edit-map-action-menu.png){width="800" align="left"}
+   ![](images/edit-map-action-menu.png){width="800"}
 
    Le fichier de mappage est ouvert pour modification dans l’éditeur web.
 
 1. Cliquez sur l’icône **Modifier**.
 
-   ![](images/edit-map-icon.png){width="550" align="left"}
+   ![](images/edit-map-icon.png){width="550"}
 
    La carte est ouverte dans l’interface de l’éditeur de cartes avancé. Si vous avez ouvert un nouveau fichier de mappage, seul le titre du mappage s’affiche dans l’éditeur.
 
-   ![](images/new-map-file-in-editor.png){width="800" align="left"}
+   ![](images/new-map-file-in-editor.png){width="800"}
 
    - **A** - \(*Barre d’outils principale*\) : similaire à la barre d’outils principale de l’éditeur web. Voir [Barre d’outils principale](web-editor-features.md#id2051EA0G05Z) dans l’éditeur web pour plus d’informations.
 
    - **B** - \(*barre d’outils Secondaire*\) Il s’agit de la barre d’outils Secondaire qui vous permet d’utiliser des fichiers de mappage. Pour plus d’informations sur les fonctionnalités disponibles via la barre d’outils Secondaire, consultez [Fonctionnalités disponibles dans la barre d’outils de l’éditeur de cartes avancé](#id205DEC0005Z).
 
-   - **C** - \(*Vues des cartes*\) : permet de basculer l’éditeur de cartes entre les options Disposition, Auteur, Source et Aperçu. La **disposition** vue permet d&#39;organiser les rubriques dans un plan DITA. Cela donne l’arborescence ou la vue hiérarchique de la carte. La vue **Auteur** vous permet de modifier les rubriques dans l’éditeur de cartes. Cela donne également la vue WYSIWYG du fichier de mappage. La vue **Source** vous permet d&#39;utiliser le code XML sous-jacent du fichier de mappage. L’aperçu vous donne une vue consolidée de toutes les rubriques et sous-cartes dans le fichier de mappage. Le lien **Fermer** ferme le fichier de mappage.
+   - **C** - \(*Vues des cartes*\) : permet de basculer l’éditeur de cartes entre les options Disposition, Auteur, Source et Aperçu. La **disposition** vue permet d&#39;organiser les rubriques dans un plan DITA. Cela donne l’arborescence ou la vue hiérarchique de la carte. La vue **Auteur** vous permet de modifier les rubriques dans l’éditeur de cartes. Cela donne également la vue WYSIWYG du fichier de mappage. La vue **&#x200B;**&#x200B;vous permet d&#39;utiliser le code XML sous-jacent du fichier de mappage. L’aperçu vous donne une vue consolidée de toutes les rubriques et sous-cartes dans le fichier de mappage. Le lien **Fermer** ferme le fichier de mappage.
 
    - **D** - \(*Panneau de gauche*\) : donne accès au panneau de gauche, qui permet d’accéder aux Favoris, au Référentiel, à la Carte, à la Composition et à d’autres fonctionnalités. Vous pouvez le développer ou le réduire en cliquant sur l’icône Développer la barre latérale \(![](images/sidebar-expand-icon.svg)\). Pour plus d’informations sur les fonctionnalités disponibles dans le panneau de gauche, consultez [Panneau de gauche](web-editor-features.md#id2051EA0M0HS) dans l’éditeur web.
 
@@ -72,7 +72,7 @@ Effectuez les étapes suivantes pour créer votre fichier de carte à l’aide d
 
    La rubrique est ajoutée dans la carte.
 
-   ![ajout d’une rubrique dans l’éditeur de mappages](images/map-editor-add-topic.png){width="800" align="left"}
+   ![ajout d’une rubrique dans l’éditeur de mappages](images/map-editor-add-topic.png){width="800"}
 
 1. Pour ajouter des rubriques suivantes ou une sous-carte, faites glisser et déposez la rubrique ou la sous-carte vers l’emplacement souhaité dans la carte.
 
@@ -80,15 +80,15 @@ Effectuez les étapes suivantes pour créer votre fichier de carte à l’aide d
 
    - Le fichier est ajouté à un emplacement où la barre horizontale apparaît dans la zone d’édition de la carte. Dans la capture d’écran suivante, la rubrique *Présentation* est ajoutée entre les rubriques *Description générale* et *Lancement et site d’entrée*.
 
-     ![](images/horizontal-line-in-adv-map-editor.png){width="350" align="left"}
+     ![](images/horizontal-line-in-adv-map-editor.png){width="350"}
 
    - Pour remplacer une rubrique, placez la rubrique en haut, à gauche ou à droite de la rubrique à remplacer. Une barre verticale située à gauche ou à droite d&#39;une rubrique indique qu&#39;elle sera remplacée par la rubrique déposée dessus.
 
-     ![](images/vertical-bar-left-right.png){width="550" align="left"}
+     ![](images/vertical-bar-left-right.png){width="550"}
 
      Cependant, avant de remplacer une rubrique, vous recevez une invite de confirmation. La rubrique n&#39;est remplacée qu&#39;après confirmation.
 
-     ![](images/replace-topic-confirm.png){width="300" align="left"}
+     ![](images/replace-topic-confirm.png){width="300"}
 
    - Si vous ajoutez une sous-carte à votre plan DITA, la sous-carte s&#39;affiche sous la forme d&#39;un lien dans le plan DITA. Pour afficher toutes les rubriques de la sous-carte, cliquez sur le lien de la sous-carte tout en maintenant la touche Ctrl enfoncée. Le contenu de la sous-carte est affiché dans un nouvel onglet. De même, pour ouvrir une rubrique à partir du plan DITA, appuyez sur Ctrl+Clic sur le lien de la rubrique et elle s&#39;ouvre dans le nouvel onglet.
 
@@ -96,7 +96,7 @@ Effectuez les étapes suivantes pour créer votre fichier de carte à l’aide d
 
    - Pour modifier la position d’une rubrique, sélectionnez la rubrique \(en cliquant sur l’icône de rubrique\), puis faites-la glisser à l’emplacement souhaité dans le fichier de mappage. Assurez-vous que la barre horizontale est visible à l’emplacement où vous souhaitez placer la rubrique. Dans la capture d’écran suivante, la rubrique *Lancement et site d’entrée* est déplacée après la rubrique *Présentation*.
 
-     ![](images/move-topic-adv-map-editor.png){width="350" align="left"}
+     ![](images/move-topic-adv-map-editor.png){width="350"}
 
    - Pour vérifier les propriétés de votre fichier de carte, cliquez avec le bouton droit de la souris n&#39;importe où dans la zone d&#39;édition de la carte et choisissez **Propriétés** dans le menu contextuel. Selon votre version d’AEM, vous pouvez voir des propriétés telles que les métadonnées, la planification de l’activation, les références, l’état du document, etc.
 
@@ -122,7 +122,7 @@ Vous pouvez effectuer les tâches suivantes en mode Mise en page :
 **Insérer une référence de rubrique** - ![](images/insert-topic-reference.png)
 
 Affiche la boîte de dialogue de recherche de rubrique. Accédez au fichier de rubrique/mappage à insérer et cliquez sur Sélectionner pour l’ajouter au mappage.
-![](images/insert-topic-reference-dialog.png){width="800" align="left"}
+![](images/insert-topic-reference-dialog.png){width="800"}
 
 
 **Insérer un groupe de sujets** - ![](images/insert-topic-group.png)
@@ -133,7 +133,7 @@ Insérez l’élément `topicgroup`. Pour plus d&#39;informations sur le regroup
 
 Affiche la boîte de dialogue Insérer une clé. Utilisez cette boîte de dialogue pour définir toute définition de clé que vous souhaitez utiliser dans le mappage.
 
-![](images/insert-key-definition-dialog.png){width="300" align="left"}
+![](images/insert-key-definition-dialog.png){width="300"}
 
 **Insérer avant/insérer après** - ![](images/insert_element_before_icon.svg)/![](images/insert_element_after_icon.svg)
 
@@ -185,46 +185,46 @@ Affiche ou masque le numéro de ligne pour chaque rubrique. Les numéros de lign
 
 - **Afficher la case à cocher**
 
-Affiche ou masque une case à cocher pour chaque rubrique. Vous pouvez utiliser la case à cocher pour sélectionner la ou les rubriques et effectuer diverses tâches à l’aide du menu Options. For more details, see the [Options](#id228ID8006H8) menu.
+Affiche ou masque une case à cocher pour chaque rubrique. Vous pouvez utiliser la case à cocher pour sélectionner la ou les rubriques et effectuer diverses tâches à l’aide du menu Options. Pour plus d’informations, consultez le menu [Options](#id228ID8006H8).
 
-- **Show File Name**
+- **Afficher le nom du fichier**
 
-Shows the filename of the titles of the topics.
+Affiche le nom de fichier des titres des rubriques.
 
 >[!NOTE]
 >
-> When you hover your pointer over a topic&#39;s title, you are shown the file path.
+> Lorsque vous placez le pointeur de la souris sur le titre d&#39;une rubrique, le chemin d&#39;accès au fichier s&#39;affiche.
 
 
-**View topics based on conditional filters** If you have applied any conditions on a topic, a filter icon is displayed on the right of the topic. When you hover your pointer over a filter icon, you are shown the applied condition and its attribute value.
+**Affichage des rubriques en fonction de filtres conditionnels** Si vous avez appliqué des conditions à une rubrique, une icône de filtre s’affiche à droite de la rubrique. Lorsque vous placez le pointeur sur une icône de filtre, la condition appliquée et sa valeur d’attribut s’affichent.
 
-**Options menu in the Layout view**
+**Menu Options en mode Mise en page**
 
-In addition to organizing topics in the map file, you can also perform the following actions using the Options menu available for an element in the Layout view:
+Outre l’organisation des rubriques dans le fichier de mappage, vous pouvez également effectuer les actions suivantes à l’aide du menu Options disponible pour un élément en mode Mise en page :
 
-![](images/map-editor-options-menu.png){width="650" align="left"}
+![](images/map-editor-options-menu.png){width="650"}
 
-- **Add**: You can choose to add a new topic or an empty reference from the Map Editor:
-   - **Empty Reference**: This option allows you to add an empty reference in your DITA map. You can double-click the inserted empty reference later and add the Topic details. For more details, see the [Create a topic](web-editor-features.md#id228ICI0105U) in the Web Editor.
-   - **New Topic**: When you choose to create a new topic from the menu, you get the Create New Topic dialog. In the Create New Topic dialog, provide the required details and click Create. For more details, see the [Create a topic](web-editor-features.md#id228ICI0105U) in the Web Editor.
-- **Move**: You can choose to move a topic up/down/right/left in the hierarchy.You can also drag-and-drop a topic or a map from the repository panel to the map opened in the Map Editor.
-- **Undo**: Undo the last operation in the Layout view.
-- **Redo**: Redo the last operation in the Layout view.
-- **Copy**: Copy the selected reference from the map file.
-
-  >[!NOTE]
-  >
-  > You can show and then select the checkboxes to copy multiple references.
-
-- **Paste**: Paste the copied references at the current location in the hierarchy.
-- **Delete**: Delete the selected references from the map file.
+- **Ajouter** : vous pouvez choisir d’ajouter une nouvelle rubrique ou une référence vide à partir de l’éditeur de cartes :
+   - **Référence vide** : cette option vous permet d&#39;ajouter une référence vide dans votre plan DITA. Vous pouvez double-cliquer ultérieurement sur la référence vide insérée et ajouter les détails de la rubrique. Pour plus d’informations, consultez la section [Créer une rubrique](web-editor-features.md#id228ICI0105U) dans l’éditeur web.
+   - **Nouvelle rubrique** : lorsque vous choisissez de créer une nouvelle rubrique à partir du menu, vous accédez à la boîte de dialogue Créer une rubrique. Dans la boîte de dialogue Créer une rubrique , fournissez les détails requis et cliquez sur Créer. Pour plus d’informations, consultez la section [Créer une rubrique](web-editor-features.md#id228ICI0105U) dans l’éditeur web.
+- **Déplacer** : permet de déplacer une rubrique vers le haut/bas/droite/gauche dans la hiérarchie.Vous pouvez également faire glisser une rubrique ou une carte du panneau du référentiel vers la carte ouverte dans l’éditeur de cartes.
+- **Annuler** : permet d’annuler la dernière opération en mode Mise en page.
+- **Rétablir** : permet de rétablir la dernière opération en mode Mise en page.
+- **Copier** : copie la référence sélectionnée du fichier de mappage.
 
   >[!NOTE]
   >
-  > You can show and then select the checkboxes to delete multiple references.
+  > Vous pouvez afficher et sélectionner les cases à cocher pour copier plusieurs références.
+
+- **Coller** : collez les références copiées à l’emplacement actuel dans la hiérarchie.
+- **Supprimer** : supprimez les références sélectionnées du fichier de mappage.
+
+  >[!NOTE]
+  >
+  > Vous pouvez afficher et sélectionner les cases à cocher pour supprimer plusieurs références.
 
 
-## Right Panel in the Map Editor
+## Panneau de droite dans l’éditeur de cartes
 
 Le panneau de droite affiche les propriétés de contenu et les propriétés de carte en mode Mise en page de l’éditeur de cartes.
 
@@ -234,7 +234,7 @@ Le panneau Propriétés du contenu contient des informations sur le type de rubr
 
 - **Autres attributs** Si votre administrateur a créé un profil pour les attributs, vous obtiendrez ces attributs ainsi que leurs valeurs configurées. À l’aide du panneau Propriétés du contenu , vous pouvez choisir ces attributs et les affecter au contenu approprié dans votre rubrique. Vous pouvez également affecter des attributs configurés par votre administrateur sous l’onglet **Attributs d’affichage** dans les paramètres de l’éditeur. Les attributs définis pour un élément sont affichés en mode Mise en page et Plan. Cela vous permet d’avoir un aperçu rapide de toutes les rubriques d’un mappage pour lequel un attribut particulier est défini. Par exemple, toutes les rubriques dont l’attribut de plateforme est défini sur « Android ».
 
-  ![mode mise en page](images/layout-inline-attributes.png){width="650" align="left"}
+  ![mode mise en page](images/layout-inline-attributes.png){width="650"}
 
 
   Pour plus d’informations, consultez la description de la fonctionnalité *Attributs d’affichage* dans la section *Paramètres de l’éditeur* dans le [Panneau de gauche](web-editor-features.md#id2051EA0M0HS).
@@ -313,7 +313,7 @@ Pour modifier des rubriques via un plan DITA, procédez comme suit :
    >
    > Vous pouvez également sélectionner le fichier de plan DITA dans l&#39;interface utilisateur d&#39;Assets et cliquer sur **Modifier les rubriques** dans la barre d&#39;outils principale pour lancer l&#39;éditeur Web.
 
-   ![](images/web-editor-map-view_cs.png){width="350" align="left"}
+   ![](images/web-editor-map-view_cs.png){width="350"}
 
 1. \(*Facultatif*\) Vous pouvez également sélectionner une rubrique dans la carte et extraire le fichier avant de le modifier. Pour extraire un ou plusieurs fichiers, sélectionnez-les dans le volet de gauche, puis cliquez sur **Extraire**. Vous pouvez également déverrouiller n&#39;importe quel fichier en sélectionnant le fichier extrait et en cliquant sur l&#39;icône **Annuler l&#39;extraction et déverrouiller** dans la vue Carte.
 
@@ -323,13 +323,13 @@ Pour modifier des rubriques via un plan DITA, procédez comme suit :
 
    La capture d&#39;écran suivante met en surbrillance les icônes Extraction et verrouillage \(A\), Annuler l&#39;extraction et déverrouiller \(B\), Enregistrer comme nouvelle version et déverrouiller \(C\), Modifier \(D\), Aperçu \(E\), différentes icônes indiquant différents types de fichiers DITA \(F\) et les fichiers extraits \(G\).
 
-   ![](images/file-checkout-map-editor.png){width="550" align="left"}
+   ![](images/file-checkout-map-editor.png){width="550"}
 
 1. Cliquez sur un lien de rubrique pour l’ouvrir dans l’éditeur web afin de le modifier.
 
    Vous pouvez ouvrir plusieurs rubriques dans l’éditeur et chaque rubrique est ouverte dans un nouvel onglet de l’éditeur. Même si votre plan DITA contient des sous-plans, les rubriques des sous-plans sont également ouvertes dans un nouvel onglet pour modification. Si vous souhaitez visualiser les rubriques sous une sous-carte, vous pouvez cliquer sur la sous-carte et la développer.
 
-   ![](images/web-editor-multiple-topics.png){width="800" align="left"}
+   ![](images/web-editor-multiple-topics.png){width="800"}
 
    Si vous cliquez sur un fichier de mappage, le mappage est ouvert dans un nouvel onglet du navigateur web.
 
@@ -337,7 +337,7 @@ Pour modifier des rubriques via un plan DITA, procédez comme suit :
 
    - Vous pouvez les enregistrer individuellement. Si vous cliquez sur **Fermer sans enregistrer** vos rubriques, une boîte de dialogue s’affiche pour vous inviter à enregistrer les rubriques non enregistrées :
 
-     ![](images/save-multiple-topics.PNG){width="550" align="left"}
+     ![](images/save-multiple-topics.PNG){width="550"}
 
      Vous pouvez choisir d’enregistrer toutes les rubriques sélectionnées ou de désélectionner les rubriques que vous ne souhaitez pas enregistrer.
 
@@ -349,7 +349,7 @@ Pour modifier des rubriques via un plan DITA, procédez comme suit :
 
    - Si votre administrateur a activé l&#39;option d&#39;archivage des fichiers à la fermeture, une invite vous sera présentée pour enregistrer les fichiers chaque fois que les fichiers extraits seront fermés. Lorsque cette option est activée, lorsque vous fermez l’éditeur avec des fichiers modifiés, la liste des fichiers extraits qui doivent être enregistrés s’affiche. Les fichiers extraits s’affichent avec une icône de verrouillage :
 
-     ![](images/save-on-close.PNG){width="550" align="left"}
+     ![](images/save-on-close.PNG){width="550"}
 
       - Cliquez sur le bouton **Fermer sans enregistrer** pour fermer les fichiers sans enregistrer les modifications.
 
@@ -372,7 +372,7 @@ Vous pouvez accéder à l’aperçu d’une carte depuis :
 
 - **Éditeur de carte avancé** : dans l’éditeur de carte avancé, cliquez sur l’icône Aperçu pour afficher l’aperçu de la carte actuelle.
 
-  ![](images/map-preview-icon.png){width="350" align="left"}
+  ![](images/map-preview-icon.png){width="350"}
 
   Vous pouvez effectuer les tâches supplémentaires suivantes en mode Aperçu :
 

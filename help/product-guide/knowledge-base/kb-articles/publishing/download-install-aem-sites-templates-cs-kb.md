@@ -5,9 +5,9 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 67f7ff26-fbc7-426c-aa7d-9bf4debf05d8
-source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '705'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Avant de poursuivre la configuration, assurez-vous que les conditions préalable
 
 - **Autorisations requises** : vous devez disposer des autorisations suivantes :
 
-   - Accès à **Cloud Manager** pour déployer des packages.
+   - Accès à **&#x200B;**&#x200B;pour déployer des packages.
    - Accès au **référentiel Git** associé à votre environnement.
    - Les autorisations de création et de modification des paramètres prédéfinis dans AEM Guides.
 
@@ -41,14 +41,14 @@ Installez le **Package de composants (guides-components.all-1.x.x.zip)** puis ef
    1. Accédez à **Référentiels** dans le panneau de gauche de Cloud Manager.
    2. Sélectionnez **Accéder aux informations sur le référentiel** et copiez la commande de clone Git.
 
-      ![Sélectionnez Accéder aux informations sur le référentiel](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350" align="left"}
+      ![Sélectionnez Accéder aux informations sur le référentiel](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350"}
 
    3. Clonez le référentiel sur votre système local à l’aide du nom d’utilisateur et du mot de passe fournis (générez un mot de passe si nécessaire).
 2. **Ajouter un package au lot Maven :**
    1. Dans votre référentiel cloné localement, créez un lot Maven ou ajoutez-le à un lot existant.
    2. Assurez-vous que la structure `/jcr_root/apps/fmdita/` installer existe dans le projet Maven.
 
-      ![Structure dans un projet Maven](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650" align="left"}
+      ![Structure dans un projet Maven](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650"}
 
 
    3. Placez le fichier guides-components.all-1.x.x.zip téléchargé dans le dossier d’installation.
@@ -59,7 +59,7 @@ Installez le **Package de composants (guides-components.all-1.x.x.zip)** puis ef
    2. Ajoutez le filtre suivant : racine du filtre=`/apps/fmdita` mode=`merge`/
 
 
-      ![Ajouter un filtre](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650" align="left"}
+      ![Ajouter un filtre](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650"}
 
 
 4. **Configurer pom.xml :** mettez à jour le fichier pom.xml en fonction des exigences de votre environnement.
@@ -77,7 +77,7 @@ Installez le **Package de composants (guides-components.all-1.x.x.zip)** puis ef
 2. **Sélectionner le modèle :** sélectionnez **AEMG Docs 1.x.x** puis sélectionnez **Suivant**.
 3. **Saisir les détails du site :** saisissez le **titre du site** et le **nom du site**.
 
-   ![Créer un site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-site.png){width="350" align="left"}
+   ![Créer un site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-site.png){width="350"}
 
 4. Sélectionnez **Créer**.
 
@@ -86,11 +86,11 @@ Installez le **Package de composants (guides-components.all-1.x.x.zip)** puis ef
 1. **Créer un nouveau paramètre prédéfini :**
    1. Ouvrez un plan DITA dans AEM Guides et accédez au panneau **Sortie**.
    2. Sélectionnez **Créer un paramètre prédéfini**.
-   3. Sélectionnez le type comme **AEM Sites**.
+   3. Sélectionnez le type comme **&#x200B;**.
    4. Saisissez le nom du paramètre prédéfini.
    5. Décochez le paramètre **Utiliser le mappage des composants hérités**.
 
-      ![Créer un nouveau paramètre prédéfini de site AEM](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-output-preset.png){width="350" align="left"}
+      ![Créer un nouveau paramètre prédéfini de site AEM](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-output-preset.png){width="350"}
 
    6. Sélectionnez **Ajouter** pour créer le paramètre prédéfini.
 2. **Configurer le paramètre prédéfini de site AEM :** il existe deux options pour configurer le site prêt à l’emploi :
@@ -102,14 +102,14 @@ Installez le **Package de composants (guides-components.all-1.x.x.zip)** puis ef
       - Chemin de publication : `/content/AEMG-Docs-Site/en/docs/product`
       - Modèle de page de rubrique : Page de rubrique
 
-      ![Utilisez la liste déroulante Site pour configurer le site AEM](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350" align="left"}
+      ![Utilisez la liste déroulante Site pour configurer le site AEM](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350"}
 
    **Option 2 : utiliser le chemin du site**
 
    1. Définissez manuellement le **chemin d’accès au site** comme `/content/AEMG-Docs-Site/en/docs/product`.
    2. Vérifiez que le modèle **Page de rubrique** est automatiquement défini sur Page de rubrique.
 
-      ![Utilisez le chemin du site pour configurer le site AEM](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
+      ![Utilisez le chemin du site pour configurer le site AEM](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650"}
 
 3. **Enregistrer le paramètre prédéfini :** enregistrer les modifications apportées au paramètre prédéfini.
 
@@ -119,19 +119,19 @@ Installez le **Package de composants (guides-components.all-1.x.x.zip)** puis ef
    1. Une fois le paramètre prédéfini configuré, générez le site AEM pour le plan DITA correspondant.
    2. Le site généré sera disponible au chemin d’accès suivant : `/content/AEMG-Docs-Site/en/docs/product`.
 2. **Modifier le chemin de génération par défaut (facultatif) :** si vous souhaitez modifier le chemin par défaut pour la génération du site, procédez comme suit :
-   1. Accédez à **AEM Sites**.
+   1. Accédez à **&#x200B;**.
    2. Créez une page produit sous la structure de site prête à l’emploi.
    3. Accédez à **Documents AEMG** > **Français** > **Documents**.
 
-      ![Création d’une page](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-page-cs.png){width="650" align="left"}
+      ![Création d’une page](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-page-cs.png){width="650"}
 
    4. Sélectionnez la mosaïque **Page d’accueil** puis sélectionnez **Suivant**.
 
-      ![Sélectionnez la mosaïque Accueil](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650" align="left"}
+      ![Sélectionnez la mosaïque Accueil](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650"}
 
    5. Saisissez les **Titre** et **Nom** de la page.
    6. Sélectionnez **Créer**.
 
 >[!NOTE]
 >
-> Assurez-vous que toutes les configurations sont testées dans un environnement hors production avant le déploiement en production. <br><br> Pour plus d’informations, reportez-vous à la documentation officielle [Déploiement sur AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/deploying/overview).
+> Assurez-vous que toutes les configurations sont testées dans un environnement hors production avant le déploiement en production. <br><br> Reportez-vous à la documentation officielle [Déploiement sur AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/deploying/overview) pour plus d’informations.

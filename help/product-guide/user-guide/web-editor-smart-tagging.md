@@ -4,9 +4,9 @@ description: Découvrez comment ajouter des balises intelligentes dans AEM Guide
 exl-id: 7fb4b881-0898-44eb-a0e8-85cb99d9593b
 feature: Metadata Management
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,12 @@ Pour créer des balises intelligentes, procédez comme suit :
 1. Ouvrez la rubrique en mode Aperçu et sélectionnez l’icône **Retraiter Assets** dans la barre d’outils principale.
 1. Sélectionnez Extraction de mots-clés XML pour extraire les mots-clés pertinents.
 
-   ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}
+   ![](images/smart-tag-reprocess-asset.png){width="300"}
 
 1. Sélectionnez l’option Exécuter le post-traitement . Un message s’affiche lorsque l’outil a été lancé avec succès.
 1. Les balises sont automatiquement extraites et sont visibles dans la page Propriétés de la rubrique sélectionnée.
 
-   ![](images/properties-smart-tags.png){align="left"}
+   ![](images/properties-smart-tags.png)
 
    >[!NOTE]
    >

@@ -2,9 +2,9 @@
 title: Aide intelligente optimisée par l’IA pour rechercher du contenu
 description: Découvrez comment afficher et utiliser l’aide intelligente optimisée par l’IA.
 exl-id: 61a15208-9600-4bb8-adc0-feca1a0ffef3
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Par exemple, vous pouvez poser des questions telles que *Comment publier une car
 
 Lorsque vous ouvrez l’**assistant AI** sur la page d’accueil, la console de cartes ou l’éditeur, le panneau **Aide** s’ouvre à droite. Dans le cas de l’éditeur, le panneau Création s’affiche également pour vous offrir des fonctionnalités de création dynamique. Pour plus d’informations, consultez [Assistant AI pour créer des documents de manière intelligente](./ai-assistant-right-panel.md)
 
-![Panneau d’aide dynamique](images/smart-help-panel.png){width="300" align="left"}
+![Panneau d’aide dynamique](images/smart-help-panel.png){width="300"}
 
 *Afficher le panneau **Aide**.*
 
@@ -37,7 +37,7 @@ Pour utiliser le panneau d’aide afin de trouver le contenu approprié et de r�
 
    Selon votre question, vous pouvez afficher le contenu, les images applicables et les liens vers les articles.
 
-   ![Réponse du panneau Aide intelligente](images/smart-help-panel-response.png){width="300" align="left"}
+   ![Réponse du panneau Aide intelligente](images/smart-help-panel-response.png){width="300"}
 
 
    *Sélectionnez l’exemple de question et affichez le contenu et les images en réponse.*
@@ -55,7 +55,7 @@ Lorsque vous recevez une réponse de l’assistant AI dans le panneau **Aide**, 
 
 Les options suivantes sont disponibles pour discuter ou fournir des commentaires sur les réponses fournies par le panneau de l’assistant AI **Aide** :
 
-![](images/ai-assistant-response-options.png){width="300" align="left"}
+![](images/ai-assistant-response-options.png){width="300"}
 
 - **Copier** : copiez la réponse à utiliser dans vos documents.
 - **Comme** : indiquez que la réponse a été utile ou précise. Sélectionnez l’icône J’aime pour aimer la réponse et utilisez l’option **En savoir plus** pour fournir des commentaires détaillés.

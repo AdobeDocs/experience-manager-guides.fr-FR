@@ -1,12 +1,12 @@
 ---
-title: Notes de mise à jour | Nouveautés d’Adobe Experience Manager Guides version de juillet 2023
+title: Notes de mise à jour | Nouveautés d’Adobe Experience Manager Guides, version de juillet 2023
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version de juillet 2023 d’Adobe Experience Manager Guides as a Cloud Service
 exl-id: 4b907729-4fbf-48ed-a2e1-014bd1101c73
 feature: What's New
 role: Leader
-source-git-commit: 7d0ae0f13ab77a10beb89fcb0d8592b05c3828bd
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Désormais, AEM Guides permet à votre administrateur de configurer les connecte
 
 Une fois ajoutés, vous pouvez afficher les connecteurs configurés répertoriés sous le panneau **Sources de données** dans l’éditeur web.
 
-![](assets/code-snippet-generator.png){width="300" align="left"}
+![](assets/code-snippet-generator.png){width="300"}
 
 Vous pouvez créer un générateur de fragments de contenu pour récupérer les données d’une source de données connectée. Vous pouvez ensuite insérer les données dans vos rubriques et les modifier.
 
@@ -38,7 +38,7 @@ Une fois que vous avez créé un générateur de fragment de contenu, vous pouve
 Désormais, AEM Guides rend vos avis plus transparents. Il fournit le panneau Révisions dans l’éditeur web. Le panneau Révisions affiche tous les projets de révision et les tâches de révision actives au sein des projets de révision dont vous faites partie.
 
 En tant qu’auteur, cette fonctionnalité vous permet d’ouvrir facilement les tâches de révision, d’afficher les commentaires et d’adresser rapidement les commentaires dans une vue centralisée.
-![](assets/active-review-task-comments.png){width="800" align="left"}
+![](assets/active-review-task-comments.png){width="800"}
 Pour plus d’informations, consultez la description de la fonctionnalité **Révision** dans la section [Panneau de gauche](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
 
@@ -49,7 +49,7 @@ Une collection de cartes permet d’organiser plusieurs cartes et de les publier
 - Désormais, vous pouvez également ajouter des paramètres prédéfinis de sortie PDF natifs à une collection de mappages et les utiliser pour générer la sortie PDF.
 - Vous pouvez afficher les paramètres prédéfinis de profil globaux et de dossier créés par votre administrateur et les utiliser pour générer la sortie PDF.
 - Désormais, vous pouvez non seulement sélectionner un paramètre prédéfini individuel, mais vous pouvez également activer simultanément tous les paramètres prédéfinis de profil de dossier pour un plan DITA.
-  ![](assets/edit-map-collection.png){width="800" align="left"}
+  ![](assets/edit-map-collection.png){width="800"}
 
 Pour plus d’informations, consultez [Utilisation de la collecte de mappages pour la génération de sortie](../user-guide/generate-output-use-map-collection-output-generation.md).
 
@@ -59,7 +59,7 @@ Désormais, AEM Guides vous permet de télécharger les fichiers HTML temporaire
 
 Cette fonctionnalité offre de meilleures informations sur le processus de génération avec un accès aux styles et mises en page intermédiaires. Elle vous aide également à corriger ou à modifier vos styles CSS en fonction de vos besoins.
 
-![](assets/native-pdf-advanced-settings.png){width="800" align="left"}
+![](assets/native-pdf-advanced-settings.png){width="800"}
 
 Pour plus d’informations, voir [Création d’un paramètre prédéfini de sortie PDF](../web-editor/native-pdf-web-editor.md#create-output-preset).
 
@@ -73,4 +73,4 @@ Pour plus d’informations, consultez [Configuration de la publication basée su
 
 Désormais, avec les informations AEM **À propos**, vous pouvez également afficher les détails de la version d’AEM Guides. Vous pouvez afficher les détails de la version actuelle dans l’option **À propos** de l’**Aide** sur la page de navigation d’AEM.
 
-![](assets/about-aem-help.png){width="800" align="left"}
+![](assets/about-aem-help.png){width="800"}

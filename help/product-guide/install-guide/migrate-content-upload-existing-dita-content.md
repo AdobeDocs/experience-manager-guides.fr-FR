@@ -5,7 +5,7 @@ exl-id: 1dde8a29-301f-461e-b598-2a8cab61bf3d
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Effectuez les étapes suivantes pour utiliser le connecteur AEM FrameMaker afin 
 
 1. Ouvrez la boîte de dialogue **Gestionnaire de connexions**.
 
-   ![](assets/fm-aem-connector.png){width="550" align="left"}
+   ![](assets/fm-aem-connector.png){width="550"}
 
 1. Saisissez les informations suivantes pour vous connecter au référentiel AEM :
 
@@ -64,7 +64,7 @@ Effectuez les étapes suivantes pour utiliser le connecteur AEM FrameMaker afin 
 
    Une fois la connexion établie, les Assets du référentiel AEM s’affichent dans la fenêtre Gestionnaire de référentiel .
 
-   ![](assets/fm-repo-manager.png){width="550" align="left"}
+   ![](assets/fm-repo-manager.png){width="550"}
 
    Cliquez avec le bouton droit de la souris sur un fichier ou un dossier pour effectuer les opérations associées. Par exemple, si vous cliquez avec le bouton droit de la souris sur un dossier, vous obtenez des options pour charger un fichier , charger un fichier avec des dépendances, charger un dossier entier, etc.
 

@@ -4,9 +4,9 @@ description: Découvrez comment gérer les fichiers et les dossiers dans AEM Gui
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 9e4fc7d482b6a37552d31ba2b07fae53018b4dc6
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '3263'
+source-wordcount: '3300'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,11 @@ Cette section explique comment Adobe Experience Manager Guides gère les opérat
 
 L’opération de copier-coller pour les dossiers de l’interface utilisateur d’Assets s’exécute de manière asynchrone en arrière-plan, ce qui vous permet de continuer à travailler pendant que le système traite la demande. Un message pop-up s’affiche pour indiquer que le processus a été lancé.
 
-![](images/copy-folders-success-popup.png){width="350" align="left"}
+![](images/copy-folders-success-popup.png){width="350"}
 
 Une fois l’opération terminée, une notification de succès ou d’échec est déclenchée pour indiquer si l’opération a réussi ou échoué.
 
-![](images/copy-folders-success-notification.png){width="650" align="left"}
+![](images/copy-folders-success-notification.png){width="650"}
 
 
 ## Glisser-déposer des fichiers
@@ -145,16 +145,16 @@ Pour déplacer des fichiers en bloc, procédez comme suit :
 
    >[!TIP]
    >
-   > Sélectionner <img src="images/info-icon.svg" width="25">   près de n’importe quel champ pour en savoir plus.
+   > Sélectionner <img src="images/info-icon.svg" width="25"> près de n’importe quel champ pour en savoir plus.
 
 
-   - **Ajouter un suffixe aux dossiers en double** : si vous déplacez des dossiers portant le même nom, vous devez sélectionner cette option. Par exemple, dans la capture d’écran précédente, le chemin **Source** contient le nom des dossiers à déplacer. Le dossier nommé topic existe à deux emplacements différents : test-A et test-B. Lorsque vous sélectionnez cette option, les dossiers sont déplacés avec succès. Le premier dossier déplacé sera nommé topic tandis que le deuxième dossier sera nommé topic0. L’opération de déplacement ajoute un suffixe dans la série séquentielle \(0, 1, 2, etc.\) aux dossiers portant le même nom.
+   - **Ajouter un suffixe aux dossiers en double** : si vous déplacez des dossiers portant le même nom, vous devez sélectionner cette option. Par exemple, dans la capture d’écran précédente, le chemin **&#x200B;**&#x200B;contient le nom des dossiers à déplacer. Le dossier nommé topic existe à deux emplacements différents : test-A et test-B. Lorsque vous sélectionnez cette option, les dossiers sont déplacés avec succès. Le premier dossier déplacé sera nommé topic tandis que le deuxième dossier sera nommé topic0. L’opération de déplacement ajoute un suffixe dans la série séquentielle \(0, 1, 2, etc.\) aux dossiers portant le même nom.
 
      Si vous déplacez des dossiers portant le même nom sans sélectionner cette option, l’opération est abandonnée avec un message.
 
    - **Chemin d’accès Source\(s\)** : indiquez l’emplacement des dossiers à déplacer.
 
-      - Sélectionnez **Parcourir le dossier**  <img src="images/browse-folder-icon.svg" width="25">    pour ouvrir la boîte de dialogue **Sélectionner le chemin d’accès**. Sélectionnez les dossiers à déplacer et choisissez **Sélectionner** pour terminer le processus. Vous pouvez sélectionner plusieurs dossiers placés à différents emplacements dans l’explorateur de chemins d’accès. Le chemin d’accès aux dossiers sélectionnés est conservé, ce qui vous permet de les consulter ou de les modifier facilement lorsque vous rouvrez la boîte de dialogue.
+      - Sélectionnez **Parcourir le dossier**  <img src="images/browse-folder-icon.svg" width="25"> d’ouvrir la boîte de dialogue **Sélectionner le chemin**. Sélectionnez les dossiers à déplacer et choisissez **Sélectionner** pour terminer le processus. Vous pouvez sélectionner plusieurs dossiers placés à différents emplacements dans l’explorateur de chemins d’accès. Le chemin d’accès aux dossiers sélectionnés est conservé, ce qui vous permet de les consulter ou de les modifier facilement lorsque vous rouvrez la boîte de dialogue.
 
       - Vous pouvez également saisir ou copier et coller l’emplacement source. Appuyez sur Entrée pour ajouter le dossier à la liste.
 
@@ -186,13 +186,13 @@ Pour déplacer des fichiers en bloc, procédez comme suit :
 
    >[!TIP]
    >
-   > Sélectionner <img src="images/info-icon.svg" width="25">   près de n’importe quel champ pour en savoir plus.
+   > Sélectionner <img src="images/info-icon.svg" width="25"> près de n’importe quel champ pour en savoir plus.
 
    - **Taille du lot** : indiquez le nombre de fichiers à déplacer dans un seul lot. Les valeurs par défaut sont de 50 fichiers.
    - **Intervalle de veille (secondes)** : indiquez le temps, en secondes, que le processus doit attendre avant de démarrer le lot suivant. Pendant cet intervalle de mise en veille, le système corrige les références aux fichiers déplacés et à partir de ces fichiers. L’intervalle de veille par défaut est de 60 secondes.
 
 
-   - **Ajouter un suffixe aux dossiers en double** : si vous déplacez des dossiers portant le même nom, vous devez sélectionner cette option. Par exemple, dans la capture d’écran précédente, le **Chemin Source** contient le nom des dossiers à déplacer. Le dossier nommé topic existe à deux emplacements différents : test-A et test-B. Lorsque vous sélectionnez cette option, les dossiers sont déplacés avec succès. Le premier dossier déplacé sera nommé topic tandis que le deuxième dossier sera nommé topic0. L’opération de déplacement ajoute un suffixe dans la série séquentielle \(0, 1, 2, etc.\) aux dossiers portant le même nom.
+   - **Ajouter un suffixe aux dossiers en double** : si vous déplacez des dossiers portant le même nom, vous devez sélectionner cette option. Par exemple, dans la capture d’écran précédente, le **Chemin** contient le nom des dossiers à déplacer. Le dossier nommé topic existe à deux emplacements différents : test-A et test-B. Lorsque vous sélectionnez cette option, les dossiers sont déplacés avec succès. Le premier dossier déplacé sera nommé topic tandis que le deuxième dossier sera nommé topic0. L’opération de déplacement ajoute un suffixe dans la série séquentielle \(0, 1, 2, etc.\) aux dossiers portant le même nom.
 
      Si vous déplacez des dossiers portant le même nom sans sélectionner cette option, l’opération est abandonnée avec un message.
 
@@ -203,7 +203,7 @@ Pour déplacer des fichiers en bloc, procédez comme suit :
 
    - **Chemin d’accès Source\(s\)** : indiquez l’emplacement des dossiers à déplacer.
 
-      - Sélectionnez **Parcourir le dossier**  <img src="images/browse-folder-icon.svg" width="25">    pour ouvrir la boîte de dialogue **Sélectionner le chemin d’accès**. Sélectionnez les dossiers à déplacer et choisissez **Sélectionner** pour terminer le processus. Vous pouvez sélectionner plusieurs dossiers placés à différents emplacements dans l’explorateur de chemins d’accès. Le chemin d’accès aux dossiers sélectionnés est conservé, ce qui vous permet de les consulter ou de les modifier facilement lorsque vous rouvrez la boîte de dialogue.
+      - Sélectionnez **Parcourir le dossier**  <img src="images/browse-folder-icon.svg" width="25"> d’ouvrir la boîte de dialogue **Sélectionner le chemin**. Sélectionnez les dossiers à déplacer et choisissez **Sélectionner** pour terminer le processus. Vous pouvez sélectionner plusieurs dossiers placés à différents emplacements dans l’explorateur de chemins d’accès. Le chemin d’accès aux dossiers sélectionnés est conservé, ce qui vous permet de les consulter ou de les modifier facilement lorsque vous rouvrez la boîte de dialogue.
 
       - Vous pouvez également saisir ou copier et coller l’emplacement source. Appuyez sur Entrée pour ajouter le dossier à la liste.
 
@@ -313,7 +313,7 @@ Les fichiers multimédias tels que les images et les vidéos font partie intégr
 
 Si votre fichier multimédia a subi des modifications, vous pouvez rechercher et prévisualiser les fichiers dans le fichier **Historique des versions**.Pour connaître les modifications apportées aux différentes versions d’un fichier multimédia :
 
-1. Accédez au fichier dans **l’interface utilisateur d’Assets**.
+1. Accédez au fichier dans **l’interface utilisateur d’**.
 1. Sélectionnez le fichier pour lequel vous souhaitez afficher l’historique des versions.
 1. Dans le rail de gauche, sélectionnez **Historique des versions** et sélectionnez une version.
 1. Vous pouvez également afficher les miniatures des différentes versions sous Historique des versions.

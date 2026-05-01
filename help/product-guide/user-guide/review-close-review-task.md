@@ -4,9 +4,9 @@ description: Découvrez le processus de fermeture d’une tâche de révision ou
 feature: Reviewing
 role: User
 exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
-source-git-commit: 6f9265b341b4122e7f13a429cc2fecacb14ae39c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Effectuez les étapes suivantes pour demander une révision ou fermer une tâche
 
    La boîte de dialogue **Commentaires de la tâche** s’affiche à droite.
 
-   ![](images/task-comments-dialog-editor.png){width="350" align="left"}.
+   ![](images/task-comments-dialog-editor.png){width="350"}.
 4. Sélectionnez **Mettre à jour la tâche** pour effectuer une action supplémentaire sur la tâche de révision sélectionnée.
 5. Dans la boîte de dialogue **Mettre à jour la tâche**, choisissez l’une des actions suivantes :
 
@@ -52,22 +52,22 @@ Effectuez les étapes suivantes pour demander une révision ou fermer une tâche
 
    Pour plus d’informations sur le déclenchement des notifications de révision, voir [Présentation des notifications de révision](./review-understanding-review-notifications.md).
 
-   ![](images/update-task-dialog.png){width="350" align="left"}
+   ![](images/update-task-dialog.png){width="350"}
 
    Vous pouvez également [vérifier le statut de votre tâche de révision](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task) à l’aide de l’option **Vérifier le statut de révision** présente dans la boîte de dialogue Mettre à jour la tâche. Lorsque vous sélectionnez cette option, vous accédez au tableau de bord Révision où s’affiche le rapport de statut de la tâche de révision.
 
-   ![](images/check-review-status-icon.png){width="650" align="left"}
+   ![](images/check-review-status-icon.png){width="650"}
 
 6. Sélectionnez **Confirmer**.
 
 
 En tant qu’auteur ou initiateur d’une tâche de révision, lorsque vous fermez la tâche, le bouton **Mettre à jour la tâche** présent au bas du panneau de révision est remplacé par **Fermé**, indiquant que la tâche n’est plus active.
 
-![](images/review-task-status-closed-review-panel.png){width="350" align="left"}
+![](images/review-task-status-closed-review-panel.png){width="350"}
 
 En outre, le bouton **Mettre à jour la tâche** présent dans le panneau de révision reste désactivé pour les autres utilisateurs de la tâche de révision. Par exemple, en tant que personne effectuant la révision d’une tâche de révision, si vous ouvrez la tâche dans l’éditeur, le bouton Mettre à jour la tâche sera désactivé avec un message **Vous n’êtes pas autorisé à agir sur cette tâche**. Seul l’initiateur d’une tâche de révision est autorisé à mettre à jour la tâche à partir de l’éditeur.
 
-![](images/update-task-button-disabled.png){width="350" align="left"}
+![](images/update-task-button-disabled.png){width="350"}
 
 
 

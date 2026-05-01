@@ -5,7 +5,7 @@ feature: Translation
 role: User
 hide: true
 exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 2%
@@ -32,7 +32,7 @@ Tenez compte du point suivant pour la traduction de contenu :
 
 L’illustration suivante présente un exemple de structure de dossiers dans AEM lorsque vous avez utilisé globalement du contenu et trois copies de langue.
 
-![](images/aem-directory_structure.png){width="800" align="left"}
+![](images/aem-directory_structure.png){width="800"}
 
 ## Configuration du service de traduction
 
@@ -107,7 +107,7 @@ Pour créer un projet de traduction, procédez comme suit :
 
    Un nouveau projet de traduction est créé avec la version sélectionnée des rubriques. À ce stade, un message pop-up s’affiche pour confirmer que le projet de traduction a été créé. Une fois que toutes les copies de langue cible sont disponibles dans le projet de traduction, vous recevez une notification dans la boîte de réception. Une fois que les copies de langue cible sont disponibles dans le projet de traduction, vous pouvez poursuivre et démarrer la tâche de traduction.
 
-   ![](images/status-translation-uuid.png){width="800" align="left"}
+   ![](images/status-translation-uuid.png){width="800"}
 
 
 L’onglet Traduction comporte les sections suivantes :

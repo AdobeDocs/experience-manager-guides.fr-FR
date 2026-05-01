@@ -4,9 +4,9 @@ description: Gérez le processus de génération de sortie dans AEM Sites, PDF, 
 feature: Publishing
 role: User
 exl-id: 11bb3604-f45c-4df7-be74-588dbf8594af
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Une fois que vous avez lancé la tâche de génération de sortie pour un mappag
 
 1. Sélectionnez **SORTIES**.
 
-   ![](images/output-queued.png){align="left"}
+   ![](images/output-queued.png)
 
    La page Sorties est divisée en deux parties :
 
@@ -35,7 +35,7 @@ Une fois que vous avez lancé la tâche de génération de sortie pour un mappag
 
      Répertorie les sorties qui sont en attente de génération ou qui sont en cours de génération. Les tâches en file d’attente ou en cours s’affichent avec une icône de couleur bleue devant le nom du paramètre prédéfini. Vous pouvez également trouver le paramètre ou le préréglage de génération de sortie utilisé pour la tâche mise en file d’attente, le type, l’utilisateur qui a initié la tâche, la durée écoulée depuis la mise en file d’attente de la tâche et le statut actuel.
 
-     Sélectionnez le lien pour accéder au tableau de bord **Publication** et afficher le statut d’exécution actuel. Une liste de toutes les tâches de publication actives est disponible dans le tableau de bord de publication. Les liens **Sorties mises en file d’attente** et **Tableau de bord de publication** ne s’affichent que lorsque des sorties sont en attente de génération ou en cours de génération. Elles n’apparaissent pas une fois les tâches de sortie terminées. Pour plus d’informations sur le tableau de bord de publication, consultez la section [Gérer les tâches de publication à l’aide du tableau de bord de publication](generate-output-publish-dashboard.md#).
+     Sélectionnez le lien pour accéder au tableau de bord **Publication** et afficher le statut d’exécution actuel. Une liste de toutes les tâches de publication actives est disponible dans le tableau de bord de publication. Les liens **Sorties mises en file d’attente** et **Tableau de bord de publication** ne s’affichent que lorsque des sorties sont en attente de génération ou en cours de génération. Elles n’apparaissent pas une fois les tâches de sortie terminées.Pour plus d’informations sur le tableau de bord de publication, consultez la section [Gérer les tâches de publication à l’aide du tableau de bord de publication](generate-output-publish-dashboard.md#).
 
    - **Sorties générées**
 
@@ -64,17 +64,17 @@ Effectuez les étapes suivantes pour annuler une tâche de génération de sorti
 
 1. Sélectionnez l’icône **Annuler ce traitement**.
 
-   ![](images/cancel-publish-task-map-console.png){align="left"}
+   ![](images/cancel-publish-task-map-console.png)
 
 1. Sélectionnez **Oui** dans l’invite de message **Confirmer l’annulation**.
 
-   ![](images/confirm-cancel-output-map-console.png){align="left"}
+   ![](images/confirm-cancel-output-map-console.png)
 
    Si la tâche n&#39;est pas encore démarrée, la commande d&#39;annulation est exécutée sur la tâche. Pour une tâche en cours d&#39;annulation, le Statut est défini sur Annulation.
 
    Une fois la tâche annulée, elle est déplacée vers la liste **Sorties générées** avec un statut **Annulé**. Lorsque vous pointez sur la tâche annulée, le nom de l’utilisateur qui a annulé la tâche s’affiche. Dans la capture d’écran suivante, la tâche *HTML5* est annulée.
 
-   ![](images/cancelled-output-task.png){align="left"}
+   ![](images/cancelled-output-task.png)
 
 
 ## Supprimer une tâche de sortie
@@ -91,7 +91,7 @@ Effectuez les étapes suivantes pour supprimer une tâche de sortie de la liste 
 
 1. Sélectionnez l’icône de suppression.
 
-   ![](images/delete-output-task.png){align="left"}
+   ![](images/delete-output-task.png)
 
 1. Sélectionnez **Oui** dans l’invite de message **Confirmer la suppression**.
 

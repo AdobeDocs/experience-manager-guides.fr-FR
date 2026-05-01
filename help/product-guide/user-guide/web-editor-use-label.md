@@ -4,9 +4,9 @@ description: Découvrez l’utilisation des libellés pour les différentes vers
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ Pour ajouter un libellé à votre rubrique à partir de l’éditeur, procédez 
 1. Dans le panneau Référentiel, accédez à une rubrique et ouvrez-la dans l’éditeur.
 1. Sélectionnez **Libellé de version** dans le menu déroulant **Menu**.
 
-   ![](images/version-label-option.png){width="400" align="left"}
+   ![](images/version-label-option.png){width="400"}
 
    La boîte de dialogue **Gestion des libellés de version** s’affiche.
 
 1. Dans la boîte de dialogue **Gestion des libellés de version**, sélectionnez la version à laquelle vous souhaitez ajouter un libellé.
 1. Sélectionnez un libellé pour la version sélectionnée, puis sélectionnez **Ajouter un libellé**.
 
-   ![](images/version-label-management-dialog-new.png){width="650" align="left"}
+   ![](images/version-label-management-dialog-new.png){width="650"}
 
    >[!NOTE]
    >
@@ -42,7 +42,7 @@ Pour ajouter un libellé à votre rubrique à partir de l’éditeur, procédez 
 
    Les libellés s’affichent dans l’historique des versions de la rubrique sélectionnée.
 
-   ![](images/label-comparison-version-history.png){width="650" align="left"}
+   ![](images/label-comparison-version-history.png){width="650"}
 
    >[!NOTE]
    >
@@ -50,7 +50,7 @@ Pour ajouter un libellé à votre rubrique à partir de l’éditeur, procédez 
 
 Pour supprimer un libellé de version d’une rubrique, utilisez l’icône **Supprimer** associée à chaque libellé ajouté dans la boîte de dialogue Gestion des libellés de version.
 
-![](images/remove-version-label.png){align="left"}
+![](images/remove-version-label.png)
 
 
 ## Utilisation des libellés de l’interface utilisateur d’Assets
@@ -70,7 +70,7 @@ Pour ajouter un libellé à votre rubrique à partir de l’interface utilisateu
 
    Les libellés s’affichent dans l’historique des versions de la rubrique sélectionnée. La capture d’écran suivante affiche les libellés *version x.x* et *guide de l’utilisateur* ajoutés à la version mise en surbrillance de la rubrique.
 
-   ![](images/labels.png){width="300" align="left"}
+   ![](images/labels.png){width="300"}
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ Pour ajouter un libellé à votre rubrique à partir de l’interface utilisateu
 
 Pour supprimer un libellé de version d’une rubrique, utilisez le bouton **Supprimer** fourni en regard de chaque libellé dans le panneau Historique des versions.
 
-![](images/delete-labels.png){width="300" align="left"}
+![](images/delete-labels.png){width="300"}
 
 
 **Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)

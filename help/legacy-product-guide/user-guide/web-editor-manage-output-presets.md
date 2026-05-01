@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: 4e9cd1d5-1c28-4363-917d-f58511c4f809
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -21,10 +21,10 @@ En tant qu’administrateur, AEM Guides vous permet de créer et de gérer des p
 Pour créer un paramètre prédéfini de sortie pour les profils globaux et de dossier, procédez comme suit :
 
 1. Sélectionnez le plan DITA pour lequel vous souhaitez créer un paramètre prédéfini de sortie.
-1. Select the **Edit Topics** option from the **Options** menu of the map file. Le fichier de mappage est ouvert pour modification dans l’éditeur web.
+1. Sélectionnez l’option **Modifier les rubriques** dans le menu **Options** du fichier de mappage. Le fichier de mappage est ouvert pour modification dans l’éditeur web.
 1. Dans l&#39;onglet **Sortie**, sélectionnez l&#39;icône + pour créer un paramètre prédéfini de sortie pour votre plan DITA.
 
-   ![](images/add-global-output-preset.png){width="350" align="left"}
+   ![](images/add-global-output-preset.png){width="350"}
 
 1. Saisissez les informations suivantes dans la boîte de dialogue **Ajouter un paramètre prédéfini** :
    - Type

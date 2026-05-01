@@ -4,9 +4,9 @@ description: Découvrez les types d’états de document dans Adobe Experience M
 exl-id: 3a68b2ed-b917-4f05-8b2b-d2722a740502
 feature: Authoring, Features of Web Editor, Document State
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Pour modifier le statut d’un document, procédez comme suit :
 
 Le mode Carte de l’interface utilisateur d’Assets affiche le statut actuel, ainsi que la date de création et la taille de la rubrique DITA ou du plan DITA correspondant.
 
-![](images/document_state.png){align="left"}
+![](images/document_state.png)
 
 ## Utiliser les états de document dans DDLC
 
@@ -82,11 +82,11 @@ Pour utiliser la fonction d&#39;approbation de document, procédez comme suit :
 
 1. Si votre document est à l’état d’être marqué comme approuvé, la boîte de dialogue suivante s’affiche :
 
-   ![](images/mark-approved-correct-state.png){width="300" align="left"}
+   ![](images/mark-approved-correct-state.png){width="300"}
 
    Si votre document ne peut pas être marqué comme approuvé, le message suivant s’affiche :
 
-   ![](images/mark-approved-incorrect-state.png){width="300" align="left"}
+   ![](images/mark-approved-incorrect-state.png){width="300"}
 
 1. Si votre document est prêt à être marqué comme approuvé, sélectionnez un libellé dans la liste déroulante et sélectionnez **Approuver**.
 
@@ -96,7 +96,7 @@ Pour utiliser la fonction d&#39;approbation de document, procédez comme suit :
 
 1. Une fois le document marqué comme approuvé, un **Aperçu** du document s’affiche en mode lecture seule. Toutes les options de modification sont supprimées des trois modes : Auteur, Source et Aperçu. Cependant, vous avez toujours accès à la liste déroulante **Menu** qui contient les options **Historique des versions** et **Balises**.
 
-   ![](images/approved-doc-read-only.png){width="650" align="left"}
+   ![](images/approved-doc-read-only.png){width="650"}
 
    >[!NOTE]
    >

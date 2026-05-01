@@ -4,9 +4,9 @@ description: Découvrez comment créer, modifier, renommer, dupliquer et supprim
 exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Pour créer un paramètre prédéfini de sortie pour les profils globaux et de d
 1. Sélectionnez l’icône **Ouvrir dans la console de mappage** pour ouvrir le fichier de mappage dans la console de mappage.
 1. Dans la console Mappage, accédez à l’onglet **Paramètres prédéfinis de sortie**, puis sélectionnez l’icône + pour créer un paramètre prédéfini de sortie pour votre mappage DITA.
 
-   ![](images/add-global-output-preset.png){width="350" align="left"}
+   ![](images/add-global-output-preset.png){width="350"}
 
 1. Saisissez les informations suivantes dans la boîte de dialogue **Ajouter un paramètre prédéfini** :
    - Type
@@ -50,7 +50,7 @@ Vous pouvez également effectuer les opérations suivantes sur le paramètre pr�
 - **Générer la sortie** : permet de générer une sortie pour un paramètre prédéfini existant.
 - **Afficher la sortie** et **Afficher le journal** : liens rapides pour afficher la sortie générée et les journaux.
 - **Renommer**, **Dupliquer** ou **Supprimer** un paramètre prédéfini de sortie existant à partir du menu **Options**.
-- **PDF par défaut** : vous permet de sélectionner le paramètre prédéfini PDF existant en tant que paramètre prédéfini de pdf par défaut. Le paramètre prédéfini sélectionné est , puis utilisé comme paramètre prédéfini par défaut pour générer la sortie PDF à l’aide de l’option **Télécharger en tant que PDF** pour une carte.
+- PDF par défaut **: vous permet de sélectionner le paramètre prédéfini PDF existant en tant que paramètre prédéfini de pdf par défaut.** Le paramètre prédéfini sélectionné est , puis utilisé comme paramètre prédéfini par défaut pour générer la sortie PDF à l’aide de l’option **Télécharger en tant que PDF** pour une carte.
 
 >[!NOTE]
 >

@@ -1,42 +1,42 @@
 ---
-title: Launch the Web Editor
-description: Learn how to launch the web editor from the AEM Navigation Page, AEM Assets UI, and DITA map Console in AEM Guides.
+title: Lancement de l’éditeur web
+description: Découvrez comment lancer l’éditeur web à partir de la page de navigation d’AEM, de l’interface utilisateur d’AEM Assets et de la console de mappage DITA dans AEM Guides.
 feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 374042e4-0f1c-44cf-926c-c9fefa4b1de0
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 0%
 
 ---
 
-# Launch the Web Editor {#id2056B0140HS}
+# Lancement de l’éditeur web {#id2056B0140HS}
 
-You can launch the Web Editor from the following locations:
+Vous pouvez lancer l’éditeur web à partir des emplacements suivants :
 
-- [AEM Navigation page](#id2056BG00RZJ)
-- [AEM Assets UI](#id2056BG0307U)
-- [DITA map console](#id2056BG090BF)
+- [Page de navigation d’AEM](#id2056BG00RZJ)
+- [Interface utilisateur d’AEM Assets](#id2056BG0307U)
+- [Console de mappage DITA](#id2056BG090BF)
 
-The following sections cover the details of how you can access and launch the Web Editor from various locations.
+Les sections suivantes décrivent en détail comment accéder à l’éditeur web et le lancer à partir de différents emplacements.
 
-## AEM Navigation page {#id2056BG00RZJ}
+## Page de navigation d’AEM {#id2056BG00RZJ}
 
-When you log into AEM, you are shown the Navigation page:
+Lorsque vous vous connectez à AEM, la page Navigation s’affiche :
 
-![](images/web-editor-from-navigation-page.png){width="800" align="left"}
+![](images/web-editor-from-navigation-page.png){width="800"}
 
-Clicking the **Guides** link takes you directly to the Web Editor.
+Cliquez sur le lien **Guides** pour accéder directement à l’éditeur web.
 
-![](images/web-editor-launch-page.png){width="800" align="left"}
+![](images/web-editor-launch-page.png){width="800"}
 
-As you have launched the Web Editor without selecting any file, a blank Web Editor screen is shown. You can open a file for editing from AEM repository or your Favorites collection.
+Lorsque vous lancez l’éditeur web sans sélectionner de fichier, un écran d’éditeur web vierge s’affiche. Vous pouvez ouvrir un fichier pour le modifier à partir du référentiel AEM ou de votre collection Favoris.
 
-- Click the **Guides** icon (![](images/aem-guides-icon.png) ), to go back to the AEM Navigation page.
+- Cliquez sur l’icône **Guides** (![](images/aem-guides-icon.png) ) pour revenir à la page de navigation d’AEM.
 
-- The **Close** button  takes you to a destination based on your setup:
+- Le bouton **Fermer** vous dirige vers une destination en fonction de votre configuration :
 
 
 
@@ -44,34 +44,34 @@ As you have launched the Web Editor without selecting any file, a blank Web Edit
 
   <summary> Services cloud </summary>
 
-  If you are using Cloud Services, click the **Close** button  to go back to the AEM Navigation page.
+  Si vous utilisez Cloud Services, cliquez sur le bouton **Fermer** pour revenir à la page de navigation d’AEM.
   </details>
 
   <details>
 
-  <summary> On-premise Software</summary>
+  <summary> Logiciel On-Premise</summary>
 
-  If you&#39;re using AEM Guides On-premise Software (4.2.1 and later), click the **Close** button on the right to go back to your current file path in the Assets UI.
+  Si vous utilisez le logiciel On-premise AEM Guides (4.2.1 et versions ultérieures), cliquez sur le bouton **Fermer** à droite pour revenir au chemin d’accès actuel au fichier dans l’interface utilisateur d’Assets.
 
   </details>
 
-## AEM Assets UI {#id2056BG0307U}
+## Interface utilisateur d’AEM Assets {#id2056BG0307U}
 
-Another location from where you can launch the Web Editor is from the AEM Assets UI. You can select one or more topics and open them directly in the Web Editor. To open a topic in the Web Editor, follow these steps:
+L’interface utilisateur d’AEM Assets est un autre emplacement à partir duquel vous pouvez lancer l’éditeur web. Vous pouvez sélectionner une ou plusieurs rubriques et les ouvrir directement dans l&#39;éditeur Web. Pour ouvrir une rubrique dans l&#39;éditeur Web, procédez comme suit :
 
-1. In the Assets UI, navigate to the topic that you want to edit.
+1. Dans l’interface utilisateur d’Assets, accédez à la rubrique à modifier.
 
    >[!NOTE]
    >
-   > You can also see the UUID of the topic.
+   > Vous pouvez également voir l’UUID de la rubrique.
 
    .
 
-   ![](images/assets_ui_with_uuid_cs.png){width="800" align="left"}
+   ![](images/assets_ui_with_uuid_cs.png){width="800"}
 
    >[!IMPORTANT]
    >
-   > Ensure that you have the read and write permissions on the folder that contains the topic you want to edit.
+   > Assurez-vous de disposer des autorisations de lecture et d’écriture sur le dossier contenant la rubrique à modifier.
 
 1. Pour obtenir un verrou exclusif sur la rubrique, sélectionnez la rubrique et cliquez sur **Extraire**.
 
@@ -89,15 +89,15 @@ Another location from where you can launch the Web Editor is from the AEM Assets
    >
    > Si vous souhaitez ouvrir plusieurs rubriques pour les modifier, sélectionnez les rubriques de votre choix dans l’interface utilisateur d’Assets et cliquez sur Modifier. Assurez-vous que le blocage des fenêtres contextuelles n’est pas activé dans votre navigateur, sinon seule la première rubrique de la liste sélectionnée est ouverte pour modification.
 
-   ![](images/edit-from-preview_cs.png){width="800" align="left"}
+   ![](images/edit-from-preview_cs.png){width="800"}
 
    Si vous ne souhaitez pas prévisualiser une rubrique et que vous souhaitez l’ouvrir directement dans l’éditeur web, cliquez sur l’icône Modifier dans le menu d’action rapide en mode Carte :
 
-   ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
+   ![](images/edit-topic-from-quick-action_cs.png){width="800"}
 
 1. Cliquez sur **Modifier** pour ouvrir la rubrique dans l’éditeur web.
 
-   ![](images/edit-mode.png){width="800" align="left"}
+   ![](images/edit-mode.png){width="800"}
 
 
 ## Console de mappage DITA {#id2056BG090BF}
@@ -116,7 +116,7 @@ Pour ouvrir l&#39;éditeur Web à partir de la console de plan DITA, procédez c
 
 1. Cliquez sur **Modifier rubrique**.
 
-   ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
+   ![](images/edit-topics-map-console_cs.png){width="800"}
 
 1. La rubrique est ouverte dans l&#39;éditeur Web.
 

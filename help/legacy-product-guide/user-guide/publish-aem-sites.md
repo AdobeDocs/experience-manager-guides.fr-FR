@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 3e77747d-ff04-465c-9305-fd6f1c74df04
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Pour générer une page Sites, procédez comme suit :
 
 
 1. Dans la boîte de dialogue **Générer une page Sites**, renseignez les informations suivantes :
-   ![Ajoutez le chemin et les détails du modèle dans la page Générer des sites](images/aem-sites-page-generate.png){width="500" align="left"}
+   ![Ajoutez le chemin et les détails du modèle dans la page Générer des sites](images/aem-sites-page-generate.png){width="500"}
 
    *Ajoutez le chemin, le titre, le nom et les détails du modèle pour publier une rubrique ou ses éléments en tant que page Sites. *
 
@@ -59,7 +59,7 @@ Pour générer une page Sites, procédez comme suit :
 1. Cliquez sur **Générer** pour publier la page Sites.
 1. Vous pouvez afficher la page Sites pour une rubrique sous la section **Sorties** dans la section **Propriétés du fichier**. Les pages Sites s’affichent en fonction de la date et de l’heure de leur publication, la plus récente étant la première.
 
-   ![Afficher la page Sites pour une rubrique](images/aem-sites-outputs.png){width=300 align="left"}
+   ![Afficher la page Sites pour une rubrique](images/aem-sites-outputs.png){width=300}
 
    *Affichez la page Sites présente pour une rubrique et republiez-la.*
 

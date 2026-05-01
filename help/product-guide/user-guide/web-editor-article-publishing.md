@@ -4,9 +4,9 @@ description: Découvrez comment publier un ou plusieurs articles à partir de la
 exl-id: d89ce69d-8d4c-4265-bfca-60763f561afd
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Adobe Experience Manager Guides s’accompagne d’une fonctionnalité de publication d’articles qui permet aux utilisateurs de publier simultanément un ou plusieurs articles de la base de connaissances.
 
-Ce moteur est également fourni avec un modèle de contenu prêt à l’emploi, qui repose sur les composants principaux de Adobe Experience Manager, et qui permet aux utilisateurs et aux utilisatrices de créer un référentiel de contenu technique basé sur les connaissances. Ce modèle peut être personnalisé en fonction des besoins des clients. Ce moteur permet aux utilisateurs de créer le plan DITA de manière additive et de publier des rubriques au fur et à mesure qu&#39;elles sont prêtes.
+Ce moteur est également fourni avec un modèle de contenu prêt à l’emploi, qui repose sur les composants principaux de Adobe Experience Manager, et qui permet aux utilisateurs et aux utilisatrices de créer un référentiel de contenu technique basé sur les connaissances. Ce modèle peut être personnalisé en fonction des besoins des clients.Ce moteur permet aux utilisateurs de créer le plan DITA de manière additive et de publier des rubriques au fur et à mesure qu&#39;elles sont prêtes.
 
 Si vous n&#39;avez mis à jour le contenu que pour quelques rubriques de votre plan DITA, il n&#39;est pas toujours nécessaire de publier le plan entier. Vous pouvez sélectionner et publier uniquement les rubriques mises à jour.
 
@@ -27,16 +27,16 @@ Effectuez les étapes suivantes pour générer une sortie basée sur un article 
 1. Accédez à l’onglet **Articles** et sélectionnez les rubriques pour lesquelles vous souhaitez générer la sortie.
 1. Sélectionnez **Générer la sortie** en haut pour générer la sortie.
 
-   ![](images/add-preset-articles-tab_cs.png){align="left"}
+   ![](images/add-preset-articles-tab_cs.png)
 
 1. Dans l’invite **Confirmer les fichiers à publier**, sélectionnez les fichiers à publier et confirmez en sélectionnant **Publier**.
 
-   ![Nouveau &#x200B;](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
+   ![Nouveau &#x200B;](images/knowledge-base-confirm-files-for-publishing.png)
 
    Vous verrez l’état du processus de génération de sortie. La colonne **Rubriques** répertorie les rubriques pour lesquelles une sortie est générée tandis que la colonne **Statut** affiche le statut de publication de chaque rubrique.
 
 
-   ![](images/add-preset-output-generated_cs.png){align="left"}
+   ![](images/add-preset-output-generated_cs.png)
 
    Pour afficher la sortie, fermez la boîte de dialogue **Sortie générée** et sélectionnez **Afficher la sortie** sur la page du paramètre prédéfini.
 

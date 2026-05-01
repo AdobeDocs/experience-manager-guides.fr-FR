@@ -2,9 +2,10 @@
 title: Notes de mise à jour | Nouveautés de la version Adobe Experience Manager Guides 2025.02.0
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 2025.02.0 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: b38cf2e45851caaf01aa9e1162cbbffc51fea9a8
+exl-id: 3e3177e8-cd29-4a86-b786-7c7a1d0047d9
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1778'
 ht-degree: 0%
 
 ---
@@ -23,20 +24,20 @@ Les principaux points forts sont les suivants :
 
   Pour plus d’informations, consultez l’expérience de la page d’accueil d’Adobe Experience Manager Guides [&#128279;](../user-guide/intro-home-page.md).
 
-  ![](assets/aem-home-page.png){width="800" align="left"}
+  ![](assets/aem-home-page.png){width="800"}
 
 
 - **Nouvelle expérience d’éditeur** : à présent, découvrez l’éditeur sous un nouvel aspect. L’interface repensée de l’éditeur d’comporte une barre d’outils plus claire et plus organisée, une navigation transparente et une expérience intuitive globale permettant de créer des documents plus rapidement et plus efficacement.
 
   Découvrez [les fonctionnalités de l’éditeur](../user-guide/web-editor-features.md).
 
-  ![](assets/editor-new-ui.png){width="800" align="left"}
+  ![](assets/editor-new-ui.png){width="800"}
 
 - **Console de mappage dédiée** : présentation de la console de mappage, une console dédiée dans laquelle toutes les fonctionnalités de gestion et de publication des mappages sont regroupées. Vous disposez désormais d’options pour générer une sortie, traduire le contenu, créer des rapports, etc., le tout dans une seule interface.
 
   En savoir plus sur [la gestion et la publication des cartes](../user-guide/map-console-overview.md).
 
-  ![](assets/map-console-new-ui.png){width="800" align="left"}
+  ![](assets/map-console-new-ui.png){width="800"}
 
 
 
@@ -48,9 +49,9 @@ Grâce à cette intégration, vous pouvez créer et gérer des tâches Adobe Wor
 
 L’intégration vous permet également de surveiller vos files d’attente de travail, en vous assurant que vous restez organisé et au courant de toutes vos tâches (tâches affectées). Il permet également aux chefs de projet d’exploiter la puissance d’Adobe Workfront pour une gestion de projet approfondie dans Experience Manager Guides.
 
-Pour plus d&#39;informations, consultez la section Intégration de [Workfront](../user-guide/workfront-integration.md).
+Pour plus d&#39;informations, consultez la section Intégration de [&#128279;](../user-guide/workfront-integration.md).
 
-![](assets/workfront-integration-ui.png){width="800" align="left"}
+![](assets/workfront-integration-ui.png){width="800"}
 
 
 ## Assistant AI (Beta) avec création intelligente et fonctionnalités d’aide pour une productivité améliorée
@@ -59,15 +60,15 @@ Bénéficiez désormais d’une productivité améliorée grâce à la création
 
 Pour plus d’informations, voir [Assistant AI dans Experience Manager Guides](../user-guide/ai-assistant.md).
 
-![](assets/ai-assistant-panel.png){width="300" align="left"}
+![](assets/ai-assistant-panel.png){width="300"}
 
 ## Nouveau moteur de publication AEM Sites plus rapide et plus évolutif
 
 Effectuez une publication plus rapide et évolutive sur AEM Sites avec le tout nouveau moteur de publication, optimisé avec le mappage des composants composites pour accélérer la création et le rendu des pages. Il est disponible avec de nouveaux modèles modifiables prêts à l’emploi qui peuvent être personnalisés en fonction de vos besoins à l’aide de l’éditeur de modèles d’AEM. Les modèles utilisent une combinaison de composants principaux de gestion de contenu web et de composants guides spécialisés afin de garantir aux utilisateurs finaux une expérience optimale sur vos pages AEM Sites. Vous pouvez également personnaliser vos modèles existants pour tirer parti de la puissance de ce nouveau moteur de publication.
 
-En savoir plus sur la [publication AEM Sites](../user-guide/generate-output-aem-site-web-editor.md).
+En savoir plus sur la [publication &#x200B;](../user-guide/generate-output-aem-site-web-editor.md).
 
-![](assets/new-aem-sites-preset.png){width="500" align="left"}
+![](assets/new-aem-sites-preset.png){width="500"}
 
 
 ## Publiez du contenu autonome de manière transparente sur AEM Sites avec la publication sur une seule rubrique.
@@ -76,7 +77,7 @@ Présentation de la publication sur une seule rubrique dans les pages AEM Sites.
 
 Pour plus d’informations, consultez [Publication de pages AEM Sites](../user-guide/publish-aem-sites.md).
 
-![](assets/aem-sites-page-generate.png){width="500" align="left"}
+![](assets/aem-sites-page-generate.png){width="500"}
 
 
 
@@ -86,7 +87,7 @@ Découvrez désormais un moyen plus propre, plus efficace et plus puissant de cr
 
 Pour plus d’informations, voir [Création Markdown](../user-guide/web-editor-markdown-topic.md).
 
-![](assets/markdown-topic-side-by-side.png){width="800" align="left"}
+![](assets/markdown-topic-side-by-side.png){width="800"}
 
 ## Améliorations de l’éditeur
 
@@ -141,14 +142,14 @@ Les améliorations de publication suivantes ont été apportées dans le cadre d
 
   Pour plus d’informations, consultez la section [&#x200B; Ajouter des champs et des métadonnées dans la mise en page &#x200B;](../native-pdf/design-page-layout.md#add-fields-and-metadata-add-fields-metadata).
 
-  ![](assets/metadata-topic-content.png){width="300" align="left"}
+  ![](assets/metadata-topic-content.png){width="300"}
 
 
 - Ajout d’une option permettant d’activer ou de désactiver le prétraitement DITA-OT pour la sortie native de PDF. Activez cette option si votre contenu nécessite une normalisation basée sur DITA-OT ou des modules externes DITA-OT personnalisés pendant le traitement. Vous pouvez ainsi mieux contrôler le traitement du contenu pour la génération PDF. Par défaut, le paramètre est défini sur **Activé**.
 
   Pour plus d’informations, consultez la section [&#x200B; Utilisation du paramètre prédéfini de sortie PDF &#x200B;](../user-guide/generate-output-pdf.md)
 
-  ![](assets/ditaot-setting-enabled.png){width="500" align="left"}
+  ![](assets/ditaot-setting-enabled.png){width="500"}
 
 - Les paramètres d’impression pour la génération de sortie native de PDF ont été déplacés du paramètre **Modèles** vers le **Paramètre prédéfini de sortie native de PDF** pour une meilleure convivialité. Vous pouvez désormais utiliser le même modèle pour les PDF en ligne et d’impression avec différents paramètres d’impression, tels que le profil colorimétrique.
 
@@ -196,4 +197,3 @@ La possibilité de transmettre des arguments de métadonnées de carte racine pa
 Pour continuer à transmettre les métadonnées dans la ligne de commande DITA-OT, vous devez mettre à jour le `pass.metadata.args.cmd.line` dans le `Config.Manager` .
 
 Pour plus d’informations, consultez la section [Configurer les paramètres de génération de sortie](../cs-install-guide/conf-output-generation.md#configure-the-dita-ot-command-line-argument-field-to-accept-root-map-metadata).
-

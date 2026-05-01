@@ -4,9 +4,9 @@ description: Découvrez comment fonctionne la génération de sortie incrémenti
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: 05d3246bd8b1e1b1d870b494aa09f6acff8a0f1d
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -34,15 +34,15 @@ Effectuez les étapes suivantes pour générer une sortie incrémentielle pour A
 
    - Sans ligne de base
 
-     ![liste de rubriques aem sites](images/aem-presets-topic-list.png) {align="left"}
+     ![liste de rubriques aem sites](images/aem-presets-topic-list.png)
 
    - Avec la ligne de base
 
-     ![liste de rubriques aem sites avec ligne de base](images/aem-presets-topic-list-new.png) {align="left"}
+     ![liste de rubriques aem sites avec ligne de base](images/aem-presets-topic-list-new.png)
 
    >[!NOTE]
    >
-   > Lorsqu&#39;une ligne de base est sélectionnée dans l&#39;onglet **Contenu**, la liste des rubriques affiche les rubriques et leurs versions à partir de la ligne de base jointe<br><br>
+   > Lorsqu&#39;une ligne de base est sélectionnée dans l&#39;onglet **Contenu**, la liste des rubriques affiche les rubriques et leurs versions à partir de la ligne de base jointe.<br><br>
    > La publication incrémentielle à partir de la liste Rubriques ne doit être utilisée que lorsqu’il n’y a aucune modification de la structure du mappage. Si la structure de la carte/table des matières est modifiée, la carte entière doit être publiée une seule fois pour mettre à jour la table des matières.
 
 1. Sélectionnez **Enregistrer** pour enregistrer les modifications.
@@ -67,7 +67,7 @@ Effectuez les étapes suivantes pour générer une sortie incrémentielle pour A
    >
    > Si vous avez ajouté de nouvelles rubriques au plan DITA, vous ne pourrez pas générer ces nouvelles rubriques à partir d&#39;ici. Vous devez d&#39;abord publier les rubriques nouvellement ajoutées à l&#39;aide de la fonction de publication de plan DITA.
 
-   ![](images/regenerate-topics.png){align="left"}
+   ![](images/regenerate-topics.png)
 
 1. Sélectionnez **Régénérer**.
 

@@ -4,7 +4,7 @@ description: Utilisez le tableau de bord de publication en masse dans AEM Guides
 exl-id: 5f897c52-5d6e-4614-a14f-1806e085c21c
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 1350304943e86f4f9c5270eaedd36eacb25a6b0f
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 2%
@@ -42,7 +42,7 @@ Vous pouvez afficher les différents types de paramètres prédéfinis de sortie
 
 1. Sélectionnez **Supprimer**.
 
-   ![](images/bulk-activation-delete-map.png){width="600" align="left"}
+   ![](images/bulk-activation-delete-map.png){width="600"}
 
    Le mappage sélectionné est supprimé de la collection de mappages d’activation en bloc.
 

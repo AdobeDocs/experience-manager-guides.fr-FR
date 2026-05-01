@@ -4,9 +4,9 @@ description: Parle de la création d’une rubrique dans la formation et l’app
 feature: Authoring
 role: User
 exl-id: a08a165d-801b-4b35-9626-b27471349327
-source-git-commit: b914c69f9d29884382ce43f163a8f766567b10bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '130'
 ht-degree: 1%
 
 ---
@@ -23,17 +23,17 @@ Pour ajouter une rubrique à un cours, procédez comme suit :
 
 1. Ouvrez un cours dans le **Gestionnaire de cours** et sélectionnez **Ajouter** dans le menu **Options**.
 
-   ![](assets/workflow-learning-content.png){width="650" align="left"}
+   ![](assets/workflow-learning-content.png){width="650"}
 
 1. Sélectionnez **Sujet**.
 
    La boîte de dialogue **Nouvelle rubrique d’apprentissage** s’affiche.
 
-   ![](assets/new-learning-topic-dialog.png){width="350" align="left"}
+   ![](assets/new-learning-topic-dialog.png){width="350"}
 
 1. Sélectionnez le modèle souhaité dans le menu déroulant.
 
-   ![](assets/template-types-lc.png){width="350" align="left"}
+   ![](assets/template-types-lc.png){width="350"}
 
 1. Fournissez un titre approprié pour la rubrique.
 1. Sélectionnez **Créer**.

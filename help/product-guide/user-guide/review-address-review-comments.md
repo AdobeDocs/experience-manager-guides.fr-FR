@@ -4,9 +4,9 @@ description: Découvrez comment traiter les commentaires de révision en tant qu
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Un auteur peut adresser des commentaires dans un document à partir de l’édit
 >
 > Lorsque vous traitez des commentaires de révision \(pour un document de révision actif\), assurez-vous de ne pas ouvrir la rubrique de révision dans plusieurs onglets avec la vue complète des balises activée et de ne pas basculer entre les modes d’affichage Auteur et Source.
 
-![](images/comments-page-web-editor_cs-new.png){align="left"}
+![](images/comments-page-web-editor_cs-new.png)
 
 Dans l’éditeur, le panneau de droite contient les icônes Vérifier et Suivre les modifications . Le panneau Révision affiche tous les commentaires formulés par les réviseurs dans votre document. Le panneau **Suivi des modifications** affiche le statut de tous les commentaires insérés et supprimés dans votre document.
 
@@ -53,11 +53,11 @@ Dans l’éditeur, le panneau de droite contient les icônes Vérifier et Suivre
 
   Si vous souhaitez incorporer la modification suggérée \(insertion ou suppression\) une par une, il vous suffit de cliquer avec le bouton droit de la souris sur le commentaire dans le contenu et de sélectionner Accepter la modification ou Rejeter la modification. Selon votre sélection, le commentaire est accepté ou rejeté. En cas de commentaire accepté, le contenu est ajouté au contenu ; et en cas de rejet, il est supprimé du contenu. En outre, le statut du commentaire est modifié dans le panneau de révision.
 
-  ![](images/import-comment-accept-web-editor_cs-new.png){align="left"}
+  ![](images/import-comment-accept-web-editor_cs-new.png)
 
   Vous pouvez également utiliser le panneau Suivi des modifications pour accepter ou rejeter des commentaires. La sélection d’un commentaire le met en surbrillance dans le document.
 
-  ![](images/changes-tab_cs-new.png){align="left"}
+  ![](images/changes-tab_cs-new.png)
 
   >[!IMPORTANT]
   >
@@ -71,7 +71,7 @@ Dans l’éditeur, le panneau de droite contient les icônes Vérifier et Suivre
 
 - **I** : appliquer un filtre sur les commentaires. Vous pouvez filtrer les commentaires selon le type de révision \(tous, mis en surbrillance, supprimé, inséré ou pense-bête\), le statut de révision \(tous, acceptés, rejetés ou aucun\), les réviseurs \(tous ou certains réviseurs\(s\)\) ou les versions de rubrique. Par défaut, aucun filtre n’est sélectionné.
 
-  ![](images/review-comments-author-filter.png){width="350" align="left"}
+  ![](images/review-comments-author-filter.png){width="350"}
   **Répondre à un commentaire en identifiant d’autres utilisateurs**
 
 En tant qu’auteur et initiateur de la tâche de révision, vous pouvez répondre aux commentaires de révision et baliser les autres utilisateurs impliqués dans la même tâche de révision pour diriger leur attention ou attribuer des suivis. Cette fonctionnalité est disponible uniquement pour les tâches de révision actives.
@@ -80,7 +80,7 @@ En tant qu’auteur et initiateur de la tâche de révision, vous pouvez répond
 >
 > Pour afficher la liste des utilisateurs affectés à une tâche de révision et les baliser dans un commentaire, vous devez disposer d’un accès en *lecture* sur les nœuds `/home/users and /home/groups`. Pour plus d’informations, consultez [Administration et sécurité des utilisateurs](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> Si le balisage n’est toujours pas disponible après avoir confirmé l’accès, votre administrateur peut avoir besoin d’attribuer une licence `user-admin` pour activer cette fonctionnalité.
 
-![](images/tag-users-review.png){width="350" align="left"}
+![](images/tag-users-review.png){width="350"}
 *Légende:Tag utilisateurs en tant qu’initiateur/auteur*
 
 Les utilisateurs identifiés reçoivent à la fois un e-mail et une notification AEM, pour être rapidement informés. Pour plus d’informations sur le déclenchement des notifications de révision, voir [Présentation des notifications de révision](./review-understanding-review-notifications.md).
@@ -89,6 +89,6 @@ Les utilisateurs identifiés reçoivent à la fois un e-mail et une notification
 
 Si vous êtes l’initiateur ou l’auteur d’une tâche de révision et que vous l’ouvrez à partir de la console **Projets**, la rubrique se lance dans l’interface utilisateur de révision. Comme cette tâche ne vous est pas affectée, vous pouvez afficher les commentaires et y répondre, mais vous ne pouvez effectuer aucune action de révision. La barre d’outils des commentaires reste désactivée pour les utilisateurs qui ne sont pas affectés à la tâche.
 
-![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
+![](images/review-comments-toolbar-disabled.png){width="350"}
 
 **Rubrique parente :**&#x200B;[&#x200B; Présentation de la révision](review.md)

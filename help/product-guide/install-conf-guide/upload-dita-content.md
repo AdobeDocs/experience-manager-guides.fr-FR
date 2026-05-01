@@ -4,9 +4,10 @@ description: Découvrez comment télécharger du contenu DITA existant dans Expe
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 53eb863a-094f-4445-ab4b-d5fca2249c30
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -81,7 +82,7 @@ Effectuez les étapes suivantes pour utiliser le connecteur AEM FrameMaker afin 
 
 1. Ouvrez la boîte de dialogue **Gestionnaire de connexions**.
 
-   ![](assets/fm-aem-connector.png){width="550" align="left"}
+   ![](assets/fm-aem-connector.png){width="550"}
 
 1. Saisissez les informations suivantes pour vous connecter au référentiel AEM :
 
@@ -94,7 +95,7 @@ Effectuez les étapes suivantes pour utiliser le connecteur AEM FrameMaker afin 
 
    Une fois la connexion établie, les Assets du référentiel AEM s’affichent dans la fenêtre Gestionnaire de référentiel .
 
-   ![](assets/fm-repo-manager.png){width="550" align="left"}
+   ![](assets/fm-repo-manager.png){width="550"}
 
    Cliquez avec le bouton droit de la souris sur un fichier ou un dossier pour effectuer les opérations associées. Par exemple, si vous cliquez avec le bouton droit de la souris sur un dossier, vous obtenez des options pour charger un fichier , charger un fichier avec des dépendances, charger un dossier entier, etc.
 

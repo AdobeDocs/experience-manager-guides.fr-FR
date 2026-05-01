@@ -4,9 +4,9 @@ description: connaître les bonnes pratiques relatives à la traduction de conte
 exl-id: f2a4df86-bba7-434c-b7f9-3587b8a4f9bc
 feature: Translation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Tenez compte du point suivant pour la traduction de contenu :
 
 L’illustration suivante présente un exemple de structure de dossiers dans Adobe Experience Manager lorsque vous avez utilisé globalement du contenu et trois copies de langue.
 
-![](images/aem-directory_structure.png){align="left"}
+![](images/aem-directory_structure.png)
 
 ## Configuration du service de traduction
 

@@ -5,7 +5,7 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 0f86ac98-7ba4-4e15-8a1f-83456afa7570
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 1%
@@ -42,9 +42,9 @@ Vous pouvez créer des modèles de carte et de rubrique des manières suivantes 
 
 Pour créer un modèle de rubrique, procédez comme suit :
 
-1. Dans l’**interface utilisateur d’Assets**, accédez au dossier dita-templates .
+1. Dans l’**interface utilisateur d’**, accédez au dossier dita-templates .
 
-   ![](images/dita-templates.png){width="800" align="left"}
+   ![](images/dita-templates.png){width="800"}
 
 1. Cliquez sur le dossier **topics** pour l&#39;ouvrir.Cliquez sur **Créer \> Modèle DITA**.
 1. Sur la page Plan directeur, sélectionnez **Rubrique** puis cliquez sur **Suivant.**
@@ -62,11 +62,11 @@ Pour créer un modèle de rubrique, procédez comme suit :
 
 Pour créer un modèle de mappage, procédez comme suit :
 
-1. Dans l’**interface utilisateur d’Assets**, accédez au dossier dita-templates .
+1. Dans l’**interface utilisateur d’**, accédez au dossier dita-templates .
 1. Cliquez sur le dossier **mappages** pour l’ouvrir.
 1. Cliquez sur **Créer \> Modèle DITA.**
 
-   ![](images/create-dita-template.png){width="300" align="left"}
+   ![](images/create-dita-template.png){width="300"}
 
 1. Sur la page Plan directeur, sélectionnez **Map** et cliquez sur **Suivant**.
 1. Sur la page Propriétés , spécifiez le modèle de mappage **Titre**.
@@ -162,7 +162,7 @@ Exemple
 
 Pour créer une carte à l’aide du modèle de carte personnalisé, procédez comme suit :
 
-1. Dans l’interface utilisateur d’**Assets** accédez au dossier dans lequel vous souhaitez créer le mappage.
+1. Dans l’interface utilisateur d’**&#x200B;** accédez au dossier dans lequel vous souhaitez créer le mappage.
 1. Cliquez sur **Créer \> DITA Map**.
 1. Sur la page Plan directeur, sélectionnez le modèle de carte à utiliser, puis cliquez sur **Suivant**. Par exemple, si vous avez créé un modèle de mappage « test-template », sélectionnez-le.
 1. Sur la page Propriétés , spécifiez le mappage **Titre**.

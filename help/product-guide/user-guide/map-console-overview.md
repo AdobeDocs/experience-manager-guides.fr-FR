@@ -4,9 +4,9 @@ description: Découvrez Map Console et les différentes fonctionnalités disponi
 feature: Publishing
 role: User
 exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
-source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Adobe Experience Manager Guides propose une console dédiée, appelée **console Map**, pour rationaliser toutes vos tâches de gestion et de publication de cartes. Cette interface centralisée améliore la productivité et la précision de vos activités liées aux cartes en vous offrant des options pour générer des sorties, traduire le contenu, accéder aux rapports, etc., le tout à un seul endroit.
 
-![onglet options des propriétés du fichier](./images/map-console-screen.png){align="left"}
+![onglet options des propriétés du fichier](./images/map-console-screen.png)
 
 L’interface de Map Console est principalement divisée en deux sections : **Barre de navigation** et **Panneau de gauche**.
 
-![Nouveau](images/map-console-sections.png){align="left"}
+![Nouveau](images/map-console-sections.png)
 
 - (**A**) **Barre de navigation** : la barre de navigation fait apparaître les outils permettant de changer de navigation, d’ajuster l’affichage de la page et d’afficher le nom du fichier de mappage sélectionné.
 
@@ -82,6 +82,6 @@ Dans la console Mappage , vous avez accès à toutes les options requises pour c
 
 La fonction Workfront est également présente dans la console Carte, ce qui permet d’utiliser les tâches Adobe Workfront directement depuis Experience Manager Guides.
 
-En savoir plus sur l’intégration d’Adobe Workfront à Experience Manager Guides[.](./workfront-integration.md)
+En savoir plus sur l’intégration d’Adobe Workfront à Experience Manager Guides[&#128279;](./workfront-integration.md).
 
-Vous ne pouvez accéder à cette fonctionnalité que si votre administrateur a configuré l’intégration d’**Adobe Workfront** dans votre instance Experience Manager Guides.
+Vous ne pouvez accéder à cette fonctionnalité que si votre administrateur a configuré l’intégration d’**&#x200B;** dans votre instance Experience Manager Guides.

@@ -5,7 +5,7 @@ feature: Publishing, Metadata Management
 role: User
 hide: true
 exl-id: 55d70c6d-feb0-43f7-9f18-6d1ccdd1e728
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -18,11 +18,11 @@ Les métadonnées sont des informations supplémentaires sur la sortie. Dans AEM
 
 Effectuez les étapes suivantes pour transmettre les métadonnées à la sortie à l’aide de la publication DITA-OT :
 
-1. Dans l’interface utilisateur **Assets**, accédez au fichier de mappage DITA pour lequel vous souhaitez transmettre les métadonnées au DITA-OT, puis cliquez dessus.
+1. Dans l’interface utilisateur **&#x200B;**, accédez au fichier de mappage DITA pour lequel vous souhaitez transmettre les métadonnées au DITA-OT, puis cliquez dessus.
 1. Sélectionnez et modifiez un paramètre prédéfini de sortie auquel vous souhaitez transmettre les champs de métadonnées. Par exemple, sélectionnez le paramètre prédéfini de sortie PDF.
 1. Sélectionnez **DITA-OT** sous l’option Générer &lt;sortie\> à l’aide du paramètre prédéfini de sortie sélectionné.
 
-   ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
+   ![](images/custom-meta-data-output-preset.png){width="800"}
 
 1. Dans la liste déroulante Propriétés , sélectionnez les métadonnées que vous souhaitez transmettre à la publication DITA-OT.
 
@@ -38,11 +38,11 @@ Effectuez les étapes suivantes pour transmettre les métadonnées à la sortie 
 
 1. Dans la liste déroulante **Propriétés**, sélectionnez les propriétés personnalisées et par défaut requises. Par exemple, sélectionnez `author`, `dc:title` et `dc:description`. Il s’agit des `metadata/properties` standard qui sont créées une fois que nous créons un fichier. Les propriétés sélectionnées sont répertoriées sous la liste déroulante.
 
-   ![](images/selected-metadata-properties.png){width="300" align="left"}
+   ![](images/selected-metadata-properties.png){width="300"}
 
 1. Cliquez sur **Terminé** en haut à gauche pour enregistrer les modifications.
 1. Générez la sortie.
 
-The selected metadata properties will be passed to the output generated using DITA-OT.
+Les propriétés de métadonnées sélectionnées seront transmises à la sortie générée à l&#39;aide de DITA-OT.
 
 **Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)

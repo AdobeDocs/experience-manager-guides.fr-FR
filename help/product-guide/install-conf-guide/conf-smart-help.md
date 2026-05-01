@@ -1,9 +1,10 @@
 ---
 title: Configuration de l’aide dynamique pour rechercher du contenu
 description: Découvrez comment configurer l’aide dynamique pour rechercher du contenu.
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 5ebda503-066a-428e-bff4-1a1e91ada917
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -23,24 +24,24 @@ Pour créer des configurations IMS dans Adobe Developer Console, procédez comme
 1. Lancer [&#128279;](https://developer.adobe.com/console).
 1. Une fois la connexion à Developer Console établie, l’écran **Accueil** s’affiche. L’écran **Accueil** vous permet de trouver facilement des informations et des liens rapides, y compris des liens de navigation supérieure vers les projets et les téléchargements.
 1. Pour créer un projet vide, sélectionnez **Créer un projet** parmi les liens **Démarrage rapide**.
-   ![Liens de démarrage rapide](assets/conf-ss-quick-start.png) {width="550" align="left"}
+   ![Liens de démarrage rapide &#x200B;](assets/conf-ss-quick-start.png) {width="550"}
    *Créer un projet.*
 
 1. Sélectionnez **Ajouter une API** dans l’écran **Projets**.  L’écran **Ajouter une API** s’affiche. Cet écran affiche tous les API, événements et services disponibles pour les produits et technologies Adobe avec lesquels vous pouvez développer des applications.
 
 1. Sélectionnez l’**API I/O Management** pour l’ajouter à votre projet.
-   ![API IO Management](assets/confi-ss-io-management.png)
+   API ![IO Management](assets/confi-ss-io-management.png)
    *Ajoutez l’API I/O Management à votre projet.*
 
 1. Créez des informations d’identification **OAuth** et enregistrez-les.
-   ![&#x200B; Mosaïque d’informations d’identification OAuth dans la configuration de l’API &#x200B;](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
+   ![&#x200B; Mosaïque d’informations d’identification OAuth dans la configuration de l’API &#x200B;](assets/conf-ss-OAuth-credential.png) {width="3000"}
    *Configurer les informations d’identification OAuth dans votre API.*
 
 1. Dans l’onglet **Projets**, choisissez l’option **OAuth de serveur à serveur** puis sélectionnez les informations d’identification nouvellement créées.
 
 1. Cliquez sur le lien **OAuth de serveur à serveur** pour afficher les informations d’identification de votre projet.
 
-   ![&#x200B; informations d’identification connectées &#x200B;](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
+   ![&#x200B; informations d’identification connectées &#x200B;](assets/conf-ss-connected-credentials.png) {width="800"}
 
    *Connectez-vous au projet pour afficher les informations d’identification.*
 
@@ -68,7 +69,7 @@ Pour ajouter la configuration IMS à l’environnement, procédez comme suit :
 1. Passez à l’onglet **Configuration**.
 1. Mettez à jour le champ JSON SERVICE_ACCOUNT_DETAILS . Assurez-vous que vous utilisez le même nom et la même configuration que dans la capture d’écran suivante.
 
-![configuration du compte de service ims](assets/ims-service-account-config.png){width="800" align="left"}
+![configuration du compte de service ims](assets/ims-service-account-config.png){width="800"}
 
 
 *Ajoutez les détails de la configuration de l’environnement.*

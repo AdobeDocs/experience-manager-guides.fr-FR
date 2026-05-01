@@ -5,7 +5,7 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 7639fa76-b319-44b5-9ff8-2b8c1a716b7b
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2564'
 ht-degree: 0%
@@ -24,25 +24,25 @@ Lorsque vous ouvrez un fichier dans l’éditeur web, vous pouvez effectuer diff
 
 Les fonctions suivantes sont disponibles dans le menu contextuel de l’onglet d’un fichier multimédia ouvert :
 
-![](images/media-file-context-menu.png){width="300" align="left"}
+![](images/media-file-context-menu.png){width="300"}
 
 **Fichier DITA unique**
 
-You get the following functions in the context menu of an opened file&#39;s tab:
+Le menu contextuel de l’onglet d’un fichier ouvert contient les fonctions suivantes :
 
-:   ![](images/single-file-context-menu.png){width="300" align="left"}
+:   ![](images/single-file-context-menu.png){width="300"}
 
 **Plusieurs fichiers**
 
 Lorsque plusieurs fichiers sont ouverts, le menu contextuel propose d’autres options :
 
-![](images/multiple-files-context-menu.png){width="550" align="left"}
+![](images/multiple-files-context-menu.png){width="550"}
 
 Les différentes options du menu contextuel sont expliquées ci-dessous :
 
 ***Enregistrer*** : vous pouvez choisir parmi les options suivantes :
 
-- **Enregistrer** : pour enregistrer un fichier sans créer de nouvelle version, sélectionnez **Enregistrer**. Chaque fois que vous créez une rubrique, une copie de travail sans version de la rubrique est créée dans la gestion des ressources numériques. L’enregistrement de votre document met à jour la copie de travail de votre document dans la gestion des ressources numériques. Doing a simple save on this version does not create a new version of a topic. Si votre rubrique est en cours de révision, l&#39;enregistrement d&#39;une rubrique ne permet pas à vos réviseurs d&#39;accéder au contenu de la rubrique modifiée.
+- **Enregistrer** : pour enregistrer un fichier sans créer de nouvelle version, sélectionnez **Enregistrer**. Chaque fois que vous créez une rubrique, une copie de travail sans version de la rubrique est créée dans la gestion des ressources numériques. L’enregistrement de votre document met à jour la copie de travail de votre document dans la gestion des ressources numériques. Un simple enregistrement sur cette version ne crée pas de nouvelle version d’une rubrique. Si votre rubrique est en cours de révision, l&#39;enregistrement d&#39;une rubrique ne permet pas à vos réviseurs d&#39;accéder au contenu de la rubrique modifiée.
 
 - **Enregistrer tout** : si plusieurs documents sont ouverts dans l’éditeur web, vous avez également la possibilité d’**Enregistrer tout** les documents ouverts.
 
@@ -83,72 +83,72 @@ Pour afficher la page des propriétés AEM du fichier sélectionné, sélectionn
 
 **Haut, Bas, Gauche ou Droite**
 
-Par défaut, l’éditeur web vous permet d’afficher une rubrique à la fois. Il peut y avoir des cas où vous souhaitez voir deux sujets ou plus en même temps. Le fractionnement de l’écran de l’éditeur vous permet d’afficher plusieurs rubriques en même temps. Par exemple, si vous avez deux rubriques : A et B ouvertes dans l’éditeur. Cliquez avec le bouton droit sur la rubrique B et choisissez **Fractionner \> vers le haut** pour diviser la fenêtre de l’éditeur en deux parties. Topic B is displayed in the upper half and Topic A is displayed in the bottom half. Similarly, you can also split the screen horizontally by selecting **Split \> Left** or **Split \> Right**. The following screenshot of the Web Editor displays topics split horizontally and vertically. In each split, you can have a different view. For example in the following screenshot, the screen 1 is in Source view mode, screen 2 has two documents opened in Author mode, and screen 3 is in the Preview mode. You can move your documents from one screen to the other by dragging the file tab and dropping it on to the screen where you want to place it. Similarly, you can also reorder file tabs by dragging and moving them as per your preference.
+Par défaut, l’éditeur web vous permet d’afficher une rubrique à la fois. Il peut y avoir des cas où vous souhaitez voir deux sujets ou plus en même temps. Le fractionnement de l’écran de l’éditeur vous permet d’afficher plusieurs rubriques en même temps. Par exemple, si vous avez deux rubriques : A et B ouvertes dans l’éditeur. Cliquez avec le bouton droit sur la rubrique B et choisissez **Fractionner \> vers le haut** pour diviser la fenêtre de l’éditeur en deux parties. La rubrique B est affichée dans la moitié supérieure et la rubrique A est affichée dans la moitié inférieure. De même, vous pouvez également fractionner l’écran horizontalement en sélectionnant **Fractionner \> à gauche** ou **Fractionner \> à droite**. La capture d’écran suivante de l’éditeur web affiche les rubriques divisées horizontalement et verticalement. Dans chaque division, vous pouvez avoir une vue différente. Par exemple, dans la capture d’écran suivante, l’écran 1 est en mode Source, l’écran 2 comporte deux documents ouverts en mode Création et l’écran 3 est en mode Aperçu. Vous pouvez déplacer vos documents d&#39;un écran à l&#39;autre en faisant glisser l&#39;onglet Fichier et en le déposant sur l&#39;écran où vous souhaitez le placer. De même, vous pouvez réorganiser les onglets de fichiers en les faisant glisser et en les déplaçant selon vos préférences.
 
-![](images/split-editor.png){width="800" align="left"}
+![](images/split-editor.png){width="800"}
 
-***Quick Generate***
+***Génération rapide***
 
-Generate the output for the selected file. La sortie ne peut être générée que pour les fichiers qui font partie d’un paramètre prédéfini de sortie. Pour plus d’informations, consultez la section [&#x200B; Publication basée sur des articles à partir de l’éditeur web &#x200B;](web-editor-article-publishing.md#id218CK0U019I).
+Générer la sortie pour le fichier sélectionné. La sortie ne peut être générée que pour les fichiers qui font partie d’un paramètre prédéfini de sortie. Pour plus d’informations, consultez la section [&#x200B; Publication basée sur des articles à partir de l’éditeur web &#x200B;](web-editor-article-publishing.md#id218CK0U019I).
 
-***Close***: You can choose from the following options:
+***Fermer*** : vous pouvez choisir parmi les options suivantes :
 
-**Close**, **Close Others**, or **Close All**
+**Fermer**, **Fermer les autres** ou **Tout fermer**
 
-If you want to close the file from which you invoked the context menu, then select **Close \> Close**. Use **Close \> Close Others** to close all other opened file except the currently active file. To close all open files, select the **Close \> Close All** option from the context menu or you can also choose to close the Web Editor. If there are any unsaved files in your session, then you are prompted to save those files.
+Pour fermer le fichier à partir duquel vous avez appelé le menu contextuel, sélectionnez **Fermer \> Fermer**. Utilisez **Fermer \> Fermer les autres** pour fermer tous les autres fichiers ouverts, à l’exception du fichier actif. Pour fermer tous les fichiers ouverts, sélectionnez l’option **Fermer \> Fermer tout** dans le menu contextuel. Vous pouvez également choisir de fermer l’éditeur web. Si votre session contient des fichiers non enregistrés, vous êtes invité à les enregistrer.
 
-**File close and save scenarios**
+**Fermer un fichier et enregistrer des scénarios**
 
-When you try to close a file opened in the Web Editor using the **Close** button on the file&#39;s tab or the **Close** option in the Options menu, AEM Guides prompts you to save your edits and unlock a locked file.
+Lorsque vous tentez de fermer un fichier ouvert dans l&#39;éditeur Web à l&#39;aide du bouton **Fermer** de l&#39;onglet du fichier ou de l&#39;option **Fermer** du menu Options, AEM Guides vous invite à enregistrer vos modifications et à déverrouiller un fichier verrouillé.
 
-The prompts are based on the following configurations selected by your administrator:
+Les invites sont basées sur les configurations suivantes sélectionnées par votre administrateur :
 
-- **Ask for check-in on close:** You are given the option to check in the file \(which you have checked out\) when you close the editor.
-- **Ask for new version on close**: You are given the option to save the file \(which you have edited\) as a new version when you close the editor.
+- **Demander l’archivage à la fermeture :** vous avez la possibilité d’archiver le fichier \(que vous avez extrait\) lorsque vous fermez l’éditeur.
+- **Demander la nouvelle version à la fermeture** : l’option permettant d’enregistrer le fichier \(que vous avez modifié\) en tant que nouvelle version s’affiche à la fermeture de l’éditeur.
 
-Your file saving experience will depend on the following three scenarios, wherein you have:
+Votre expérience d’enregistrement de fichier dépend des trois scénarios suivants, dans lesquels vous disposez des éléments suivants :
 
-- Not done any changes to the content.
-- Edited the content and saved the changes.
-- Edited the content but not saved the changes.
+- Aucune modification n’a été apportée au contenu.
+- Modifiez le contenu et enregistrez les modifications.
+- A modifié le contenu mais n’a pas enregistré les modifications.
 
-You may see the following options depending on whether the file is locked/unlocked and has saved or unsaved changes:
+Selon que le fichier est verrouillé/déverrouillé et que des modifications ont été enregistrées ou non, les options suivantes peuvent s’afficher :
 
-- **Unlock and Close**: The lock on the file is released, and the file gets closed.
+- **Déverrouiller et fermer** : le verrouillage du fichier est désactivé et le fichier est fermé.
 
-  ![](images/file-close-unlock-file.png){width="400" align="left"}
+  ![](images/file-close-unlock-file.png){width="400"}
 
-- **Save as a New Version**: This will save the changes you have made in your content and create a new version of your file. You can also add labels and comments for the newly saved version. Pour plus d’informations sur l’enregistrement d’une nouvelle version, voir [Enregistrer comme nouvelle version](web-editor-features.md#save-as-new-version-id209ME400GXA).
+- **Enregistrer en tant que nouvelle version** : les modifications que vous avez apportées à votre contenu seront enregistrées et une nouvelle version de votre fichier sera créée. Vous pouvez également ajouter des libellés et des commentaires pour la version nouvellement enregistrée. Pour plus d’informations sur l’enregistrement d’une nouvelle version, voir [Enregistrer comme nouvelle version](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
-- **Unlock the File**: If you choose to unlock a file, it will release the lock on your file and the changes are saved in the current version of the file.
+- **Déverrouiller le fichier** : si vous choisissez de déverrouiller un fichier, le verrouillage de votre fichier sera relâché et les modifications seront enregistrées dans la version actuelle du fichier.
 
   >[!NOTE]
   >
-  > If you deselect the option to unlock the file, you also get an option to close the file without saving the changes.
+  > Si vous désélectionnez l’option pour déverrouiller le fichier, vous obtenez également une option pour fermer le fichier sans enregistrer les modifications.
 
-  For example, one of the prompts is shown in the following screenshot:
+  Par exemple, l’une des invites est affichée dans la capture d’écran suivante :
 
-  ![](images/file-close-save-changes-unlock.png){width="400" align="left"}
+  ![](images/file-close-save-changes-unlock.png){width="400"}
 
-**Visual cues for broken references**
+**Repères visuels pour les références rompues**
 
-- If your topic contains broken cross-references or content references, they are shown in red text.
+- Si votre rubrique contient des références croisées ou des références de contenu rompues, elles s&#39;affichent en rouge.
 
-**Smart copy-paste**
+**Copie-collage intelligent**
 
-- You can easily copy paste content within and across topics. The source element structure is maintained at the destination. Also, if the copied content contains content references, then even those are copied.
+- Vous pouvez facilement copier et coller du contenu dans et entre des rubriques. La structure de l’élément source est conservée au niveau de la destination. En outre, si le contenu copié contient des références de contenu, même celles-ci sont copiées.
 
-**Remember last browsed location**
+**Mémoriser le dernier emplacement parcouru**
 
-- The Web Editor provides a smart file browse dialog. The editor remembers the last used location while inserting a reference or content. The first time you invoke the file browse dialog \(via Insert Reference or Insert Reuse Content\), then you are taken to the location where the current document is saved. In the same session, if you try to insert another reference, then the file browse dialog automatically navigates to the location from where you inserted the last reference.
+- L’éditeur web fournit une boîte de dialogue de navigation dynamique dans les fichiers. L’éditeur mémorise le dernier emplacement utilisé lors de l’insertion d’une référence ou d’un contenu. La première fois que vous appelez la boîte de dialogue de recherche de fichier \(via Insérer une référence ou Insérer réutiliser le contenu\), vous accédez à l’emplacement où le document actif est enregistré. Au cours de la même session, si vous essayez d’insérer une autre référence, la boîte de dialogue de recherche de fichier permet d’accéder automatiquement à l’emplacement à partir duquel vous avez inséré la dernière référence.
 
 >[!NOTE]
 >
-> In case of an image, audio, or video file, the file browse dialog defaults to the file&#39;s location and not the last used location.
+> Dans le cas d’un fichier image, audio ou vidéo, la boîte de dialogue de recherche de fichier correspond par défaut à l’emplacement du fichier et non au dernier emplacement utilisé.
 
-**Support for article-based publishing**
+**Prise en charge de la publication d’articles**
 
-- From the Web Editor, you can generate the output for one or more topics, or the entire DITA map. You need to create output presets for your DITA map and then you can easily generate the output for one or more topics. If you have updated a few topics in your map, you can also generate the output only for those topics from the Web Editor. Pour plus d’informations, consultez la section [&#x200B; Publication basée sur des articles à partir de l’éditeur web &#x200B;](web-editor-article-publishing.md#id218CK0U019I).
+- Dans l&#39;éditeur Web, vous pouvez générer la sortie pour une ou plusieurs rubriques ou l&#39;ensemble du plan DITA. Vous devez créer des paramètres prédéfinis de sortie pour votre plan DITA, puis vous pouvez facilement générer la sortie pour une ou plusieurs rubriques. Si vous avez mis à jour quelques rubriques dans votre carte, vous pouvez également générer la sortie uniquement pour ces rubriques à partir de l’éditeur web. Pour plus d’informations, consultez la section [&#x200B; Publication basée sur des articles à partir de l’éditeur web &#x200B;](web-editor-article-publishing.md#id218CK0U019I).
 
 **Prise en charge des documents Markdown**
 
@@ -162,11 +162,11 @@ You may see the following options depending on whether the file is locked/unlock
 
 - Experience Manager Guides vous offre une prise en charge prête à l’emploi pour insérer des équations MathML par intégration à l’application [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro). Pour insérer une équation MathML, sélectionnez l&#39;icône **Insérer un élément** et saisissez mathml. Lorsque vous sélectionnez l’élément mathml dans la liste, la boîte de dialogue **Insérer un MathML** s’affiche :
 
-![insérer l’équation mathml dans l’éditeur mathml](images/insert-mathml-equation.png){width="550" align="left"}
+![insérer l’équation mathml dans l’éditeur mathml](images/insert-mathml-equation.png){width="550"}
 
 À l&#39;aide des outils d&#39;équation de MathML, créez votre équation et cliquez sur **Insérer** pour l&#39;ajouter à votre document. L&#39;équation est insérée avec un arrière-plan gris clair, comme illustré ci-dessous :
 
-![exemple d’équation mathml](images/sample-mathml-equation.PNG){width="400" align="left"}
+![exemple d’équation mathml](images/sample-mathml-equation.PNG){width="400"}
 
 Vous pouvez à tout moment mettre à jour une équation en cliquant avec le bouton droit de la souris sur une équation existante et en sélectionnant **Modifier MathML** dans le menu contextuel.
 
@@ -175,7 +175,7 @@ Vous pouvez à tout moment mettre à jour une équation en cliquant avec le bout
   Experience Manager Guides valide les équations de MathML lorsque vous enregistrez une rubrique qui les contient.
 Lorsque vous insérez une équation à l’aide de l’éditeur MathML, Experience Manager Guides met l’équation en surbrillance rouge en cas de problèmes de syntaxe. Vous pouvez le corriger avant de l’insérer. Si vous n&#39;apportez aucune modification, mais que vous sélectionnez **Insérer**, un avertissement s&#39;affiche.
 
-  ![valider l’équation mathml](images/validate-mathml-equation.png){width="400" align="left"}
+  ![valider l’équation mathml](images/validate-mathml-equation.png){width="400"}
 
   Si vous insérez l&#39;équation MathML qui contient une erreur de syntaxe, une erreur de validation se produit lorsque vous essayez d&#39;enregistrer la rubrique.
 
@@ -189,7 +189,7 @@ Lorsque vous insérez une équation à l’aide de l’éditeur MathML, Experien
 
 - L’éditeur web affiche le chemin de navigation de l’élément en haut de la rubrique. Si vous souhaitez permuter ou remplacer un élément par un autre élément, vous pouvez le faire à partir du menu contextuel du chemin de navigation. Par exemple, vous pouvez permuter `p` élément avec `note` ou tout autre élément valide au niveau du contexte.
 
-![](images/rename-element.png){width="400" align="left"}
+![](images/rename-element.png){width="400"}
 
 Dans le chemin de navigation, cliquez avec le bouton droit sur le nom d’un élément à remplacer, puis sélectionnez Renommer l’élément dans le menu contextuel. La boîte de dialogue Renommer l’élément affiche tous les éléments valides autorisés à l’emplacement actuel. Dans la boîte de dialogue Renommer l’élément , sélectionnez l’élément que vous souhaitez utiliser. L’élément d’origine est remplacé par le nouvel élément .
 
@@ -228,7 +228,7 @@ Outre le menu contextuel du chemin de navigation, la boîte de dialogue Renommer
 
 - Les éléments DITA contenant des sauts de ligne et des espaces sont pris en charge et rendus conformément à leur définition dans les modes Auteur, Source ou Aperçu, ainsi que dans la sortie publiée finale. La capture d’écran suivante montre le contenu de l’élément `msgblock` dans lequel les sauts de ligne et les espaces \(retrait\) ont été conservés :
 
-![](images/new-line-support_cs.png){width="500" align="left"}
+![](images/new-line-support_cs.png){width="500"}
 
 
 

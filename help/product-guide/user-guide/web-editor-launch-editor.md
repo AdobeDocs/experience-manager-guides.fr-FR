@@ -4,9 +4,9 @@ description: Découvrez comment lancer l’éditeur à partir de la page de navi
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -25,19 +25,19 @@ Les sections suivantes décrivent en détail comment accéder à l’éditeur et
 
 Lorsque vous vous connectez à Experience Manager, la page Navigation s’affiche :
 
-![](images/web-editor-from-navigation-page.png){align="left"}
+![](images/web-editor-from-navigation-page.png)
 
 Le fait de sélectionner le lien **Guides** vous mène à la page d’accueil [Adobe Experience Manager Guides](./intro-home-page.md).
 
-![](images/aem-home-page.png){align="left"}
+![](images/aem-home-page.png)
 
 Pour lancer l’éditeur, accédez à la barre de navigation, puis sélectionnez **Éditeur** dans la liste déroulante. La page d’accueil est sélectionnée par défaut.
 
-![](images/editor-home-page-dropdown.png){width="350" align="left"}
+![](images/editor-home-page-dropdown.png){width="350"}
 
 Lorsque vous lancez l’éditeur sans sélectionner de fichier, un écran d’éditeur vierge s’affiche. Vous pouvez ouvrir un fichier pour le modifier à partir d’Experience Manager **référentiel** ou de vos **collections**.
 
-![](images/web-editor-launch-page.png){align="left"}
+![](images/web-editor-launch-page.png)
 
 Vous pouvez également lancer l’éditeur en ouvrant les fichiers existants présents dans les widgets **Fichiers récents** et **Collections** de [Expérience de la page d’accueil d’Adobe Experience Manager Guides](./intro-home-page.md).
 
@@ -57,7 +57,7 @@ Pour ouvrir une rubrique dans l’éditeur, procédez comme suit :
    >
    > Vous pouvez également afficher l’UUID de la rubrique.
 
-   ![](images/assets_ui_with_uuid_cs.png){align="left"}
+   ![](images/assets_ui_with_uuid_cs.png)
 
    >[!IMPORTANT]
    >
@@ -79,15 +79,15 @@ Pour ouvrir une rubrique dans l’éditeur, procédez comme suit :
    >
    > Si vous souhaitez ouvrir plusieurs rubriques pour les modifier, sélectionnez-les dans l’interface utilisateur d’Assets et sélectionnez **Modifier**. Assurez-vous que votre navigateur n’a pas de bloqueur de pop-up activé, sinon seule la première rubrique de la liste sélectionnée est ouverte pour modification.
 
-   ![](images/edit-from-preview_cs.png){align="left"}
+   ![](images/edit-from-preview_cs.png)
 
    Si vous ne souhaitez pas prévisualiser une rubrique et que vous souhaitez l’ouvrir directement dans l’éditeur, sélectionnez l’icône **Modifier** dans le menu d’action rapide en mode Carte :
 
-   ![](images/edit-topic-from-quick-action_cs.png){align="left"}
+   ![](images/edit-topic-from-quick-action_cs.png)
 
    La rubrique s’ouvre dans l’éditeur.
 
-   ![](images/edit-mode.png){align="left"}
+   ![](images/edit-mode.png)
 
 Vous pouvez également ouvrir un fichier de mappage dans l’interface utilisateur d’Assets et lancer l’éditeur pour modifier les rubriques du fichier de mappage.
 
@@ -98,7 +98,7 @@ Pour ouvrir une carte dans l’éditeur, procédez comme suit :
 1. Sélectionnez le fichier de rubrique à modifier.
 1. Sélectionnez **Modifier rubrique**.
 
-   ![](images/edit-topics-map-console_cs.png){align="left"}
+   ![](images/edit-topics-map-console_cs.png)
 
 1. La rubrique s’ouvre dans l’éditeur.
 
@@ -112,21 +112,21 @@ Pour ouvrir l’éditeur à partir de la console Carte, procédez comme suit :
 
 1. Ouvrez la page d’accueil et lancez la console Carte.
 
-   ![](images/editor-map-console-dropdown.png){width="350" align="left"}
+   ![](images/editor-map-console-dropdown.png){width="350"}
 
    Comme vous avez lancé la console Map sans sélectionner de fichier map, un écran de console Map vierge s’affiche. Vous pouvez également ouvrir un fichier de mappage à partir d’Experience Manager **Référentiel** ou de vos **Collections**.
 
-   ![](images/launch-map-console.png){width="500" align="left"}
+   ![](images/launch-map-console.png){width="500"}
 
 1. Choisissez **Sélectionner un mappage** pour ouvrir un fichier de mappage contenant les rubriques à modifier dans l’éditeur.
 1. Sélectionnez le chemin d’accès où se trouve votre fichier de mappage. Le fichier de mappage sélectionné est ajouté à la console Mappage.
 1. Accédez au fichier de mappage et sélectionnez **Ouvrir dans l’éditeur** dans la liste déroulante.
 
-   ![](images/map-console-open-in-editor.png){align="left"}
+   ![](images/map-console-open-in-editor.png)
 
    Le fichier de mappage contenant les rubriques est ouvert pour modification dans l’éditeur.
 
-   ![](images/map-console-edit-topics.png){align="left"}
+   ![](images/map-console-edit-topics.png)
 
 
 

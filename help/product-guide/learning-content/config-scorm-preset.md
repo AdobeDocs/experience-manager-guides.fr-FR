@@ -4,9 +4,9 @@ description: Découvrez les différentes configurations de paramètres prédéfi
 feature: Authoring
 role: User
 exl-id: b3000708-6120-4725-bea1-0b8e58048948
-source-git-commit: 3fdedee6e07908632bcf1b804805fcac7925c4e0
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Une fois le paramètre prédéfini créé, configurez-le. Les options de configu
 
 - **Général :** utilisé pour spécifier des paramètres de sortie de base, tels que la version prise en charge, le chemin de sortie, le nom de fichier ZIP, le modèle de sortie et d’autres options liées à l’expérience de l’élève.
 
-  ![](assets/scorm-general-tab-v3.png){width="650" align="left"}
+  ![](assets/scorm-general-tab-v3.png){width="650"}
 
   **Expérience de l’élève**
 
@@ -30,10 +30,10 @@ Une fois le paramètre prédéfini créé, configurez-le. Les options de configu
 
 - **Contenu :** permet de spécifier le filtrage conditionnel disponible (à l’aide de DITAVAL ou d’un paramètre prédéfini de condition) et le jeu de variables.
 
-  ![](assets/scorm-content-tab.png){width="650" align="left"}
+  ![](assets/scorm-content-tab.png){width="650"}
 
 - **Publier :** utilisez ce paramètre uniquement si vous souhaitez publier la sortie dans SCORM Cloud pour un accès direct.
 
-  ![](assets/scorm-publish-tab.png){width="650" align="left"}
+  ![](assets/scorm-publish-tab.png){width="650"}
 
 Une fois toutes les modifications configurées, enregistrez-les pour le paramètre prédéfini SCORM à l’aide de l’option **Enregistrer** dans le coin droit de la barre d’outils de la page du paramètre prédéfini SCORM.

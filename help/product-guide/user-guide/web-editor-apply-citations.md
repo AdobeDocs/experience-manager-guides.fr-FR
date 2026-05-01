@@ -4,10 +4,10 @@ description: Ajouter et gérer des citations dans AEM Guides. Découvrez comment
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1923'
-ht-degree: 0%
+source-wordcount: '1932'
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,7 @@ Pour ajouter des citations, procédez comme suit :
 
    Le panneau **Citations** s’ouvre.
 
-   ![](images/citation-panel.png){width="350" align="left"}
+   ![](images/citation-panel.png){width="350"}
 
 1. Dans le panneau **Citations**, sélectionnez ![Ajouter une icône](images/Add_icon.svg). Dans la liste déroulante, vous pouvez choisir d’ajouter une nouvelle citation ou d’importer une citation.
 
@@ -44,7 +44,7 @@ Pour ajouter des citations, procédez comme suit :
 
    La boîte de dialogue **Ajouter une citation** s’ouvre.
 
-   ![Panneau de citation dans l’éditeur web](images/citation-add.png) {width="300" align="left"}
+   ![Panneau de citation dans l’éditeur web](images/citation-add.png) {width="300"}
 
 
 1. Renseignez les champs de la boîte de dialogue **Ajouter une citation**.
@@ -56,7 +56,7 @@ Pour ajouter des citations, procédez comme suit :
    | Livre | Site Web | Journal |
    | --- | ---|---|
    | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation sous forme de livre. | **&#x200B;**<br> Dans la liste déroulante, sélectionnez la source de la citation en tant que site Web. | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation en tant que Journal. |
-   | **Rechercher par** <br> Sélectionnez **ISBN** ou **DOI** dans la liste déroulante pour rechercher l’identifiant numérique associé à la citation.  <br> DOI : Identifiant d’objet numérique <br> ISBN : Identifiant de livre numérique unique | **Rechercher par** <br> Sélectionnez **DOI** dans la liste déroulante pour rechercher l’identifiant numérique associé à la citation. | **Rechercher par** <ul><li>Sélectionnez **DOI** ou **ID PubMed** dans la liste déroulante pour rechercher l’ID numérique associé à la citation.</li><li>Sélectionnez **N’importe quel champ** dans la liste déroulante pour effectuer une recherche dans tous les champs Journal, tels que *Titre*, *Titre du journal*, *Auteur*, *Année*, *Volume*, *Number* et *Pages*. <br> La recherche renvoie la citation correspondante la plus proche en fonction du texte saisi.</li> |
+   | **Rechercher par** <br> Sélectionnez **ISBN** ou **DOI** dans la liste déroulante pour rechercher l’identifiant numérique associé à la citation.  <br> DOI : Identifiant d&#39;objet numérique <br> ISBN : Identifiant de livre numérique unique | **Rechercher par** <br> Sélectionnez **DOI** dans la liste déroulante pour rechercher l’identifiant numérique associé à la citation. | **Rechercher par** <ul><li>Sélectionnez **DOI** ou **ID PubMed** dans la liste déroulante pour rechercher l’ID numérique associé à la citation.</li><li>Sélectionnez **N’importe quel champ** dans la liste déroulante pour effectuer une recherche dans tous les champs Journal, tels que *Titre*, *Titre du journal*, *Auteur*, *Année*, *Volume*, *Number* et *Pages*. <br> La recherche renvoie la citation correspondante la plus proche en fonction du texte saisi.</li> |
    | **Auteur** <br> ajoutez le prénom et le nom de l’auteur de la citation. Sélectionnez ![](images/Add_icon.svg) pour ajouter d’autres noms. | **Auteur** <br> ajoutez le prénom et le nom de l’auteur de la citation. Sélectionnez ![](images/Add_icon.svg) pour ajouter d’autres noms. | **Auteur** <br> ajoutez le prénom et le nom de l’auteur de la citation. Sélectionnez ![](images/Add_icon.svg) pour ajouter d’autres noms. |
    | **Titre** <br> ajoutez le titre du livre. | **Titre** <br> ajoutez le titre de la page web. | **Titre** <br> ajoutez le titre de l’article. |
    | **Éditeur** <br> Ajoutez l&#39;éditeur du livre. | **Nom du site web** <br> ajoutez le nom du site web. | **Titre du journal** <br> ajoutez le titre de l’œuvre dans laquelle se trouve l’article. |
@@ -104,7 +104,7 @@ Les citations sont triées par ordre alphabétique dans le panneau de gauche. Re
 
 ### Filtrer
 
-Sélectionnez l’icône **&#x200B;**&#x200B;Filtrer![](images/filter-search-icon.svg) à côté de la barre de recherche et sélectionnez les options sources dans la liste déroulante pour filtrer la liste de citations. Il permet des sélections uniques et multiples.
+Sélectionnez l’icône ![](images/filter-search-icon.svg) **Filtrer** à côté de la barre de recherche et sélectionnez les options sources dans la liste déroulante pour filtrer la liste de citations. Il permet des sélections uniques et multiples.
 
 * **Toutes les sources** : affiche une liste complète des citations, y compris toutes les sources.
 
@@ -157,7 +157,7 @@ La citation sélectionnée est modifiée.
 
 Pour prévisualiser une citation, procédez comme suit :
 
-Survolez le nom de la citation dans la liste. Sélectionner     ![](images/options.svg) icône **Options**.
+Survolez le nom de la citation dans la liste. Sélectionnez ![](images/options.svg) icône **Options**.
 
 1. Sélectionnez **Aperçu**.
 Vous pouvez prévisualiser le contenu et le format de la citation dans le volet de prévisualisation.
@@ -168,7 +168,7 @@ Vous pouvez prévisualiser le contenu et le format de la citation dans le volet 
 
 1. Sélectionnez n’importe où sur l’écran pour fermer la zone d’aperçu.
 
-   ![](images/citation-preview.png){width="550" align="left"}
+   ![](images/citation-preview.png){width="550"}
 
 >[!NOTE]
 >
@@ -186,9 +186,9 @@ Vous pouvez insérer des citations sur le sujet à partir de la barre d’outils
 
 ### Dans la barre d’outils principale
 
-1. Sélectionnez l’icône **&#x200B;**&#x200B;Citations![&#x200B; &#x200B;](images/citations-icon.svg)citations dans la barre d’outils principale.
+1. Sélectionnez l’icône ![&#128279;](images/citations-icon.svg) **Citations** citations dans la barre d’outils principale.
 1. Dans la boîte de dialogue **Citations**, choisissez la citation. Vous pouvez également sélectionner plusieurs citations.
-   ![boîte de dialogue de citation](images/citation-dialog-main-toolbar.png){width="300" align="left"}
+   ![boîte de dialogue de citation](images/citation-dialog-main-toolbar.png){width="300"}
 1. Vous pouvez filtrer les citations en tapant les premiers caractères alphabétiques dans le panneau de recherche de la boîte de dialogue **Citation**.
 
 1. Sélectionnez **Terminé**.
@@ -225,7 +225,7 @@ Pour supprimer une citation du panneau Citations, procédez comme suit :
 
 1. Survolez le nom de la citation dans la liste.
 1. Sélectionnez l’icône ![](images/options.svg) **Options**.
-1. Sélectionner le   **Supprimer** ![](images/Delete_icon.svg).
+1. Sélectionnez le ![](images/Delete_icon.svg) **Supprimer**.
 La boîte de dialogue de confirmation s’ouvre.
 1. Sélectionnez **Oui**.
 La citation sélectionnée est supprimée du panneau des citations.

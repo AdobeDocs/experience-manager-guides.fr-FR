@@ -4,9 +4,9 @@ description: Utilisez le balisage en masse du contenu dans AEM Guides pour amél
 exl-id: 4c6639a3-333b-44ad-9aec-735a327c3320
 feature: Metadata Management
 role: User
-source-git-commit: 4b4abf5958f251da05257d34a68471d5f36969a3
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '722'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Balisage en bloc du contenu DITA {#id179SG0TN05Z}
 
-![](images/test-version-info-table.svg){width="650" align="left"}
+![](images/test-version-info-table.svg){width="650"}
 
 Les balises vous permettent de regrouper ou de classer le contenu dans votre référentiel de contenu ainsi que dans la sortie publiée. Si vous avez appliqué des balises à votre contenu, vous pouvez facilement trouver des rubriques connexes dans un plan DITA afin de créer du contenu. Grâce à la sortie publiée, les utilisateurs finaux pourront localiser plus rapidement le contenu approprié avec les balises appropriées en place.
 
@@ -36,7 +36,7 @@ Utilisez la fonction de balisage en bloc pour appliquer plusieurs balises à la 
 
 1. Sélectionnez les rubriques ou sous-cartes sur lesquelles vous souhaitez appliquer des balises.
 
-   ![](images/apply-tags-uuid.png){width="650" align="left"}
+   ![](images/apply-tags-uuid.png){width="650"}
 
 
    >[!NOTE]

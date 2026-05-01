@@ -5,7 +5,7 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '5239'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Vous pouvez également déléguer les configurations spécifiques aux dossiers �
 
 À l’aide de la mosaïque Profils de dossier dans les paramètres Guides, vous pouvez configurer les paramètres dans les onglets suivants :
 
-![](assets/folder-profile-tabs.png){width="800" align="left"}
+![](assets/folder-profile-tabs.png){width="800"}
 
 - **Général** : l’onglet général n’est disponible que lorsque vous configurez des paramètres \(ou projet/produit\) au niveau du dossier. Vous pouvez configurer des paramètres tels que les chemins d’accès aux dossiers sur lesquels les paramètres seront applicables et les utilisateurs disposant de droits d’administration pour créer ou mettre à jour des configurations.
 
@@ -98,7 +98,7 @@ Pour configurer le profil global, procédez comme suit :
 
    Pour la première fois, la page Profils de dossier s’affiche avec uniquement la mosaïque Profil global .
 
-   ![](assets/folder-profile-global.png){width="800" align="left"}
+   ![](assets/folder-profile-global.png){width="800"}
 
 1. Cliquez sur la mosaïque **Profil global**.
 
@@ -127,7 +127,7 @@ Pour configurer un profil au niveau du dossier, procédez comme suit :
 
 1. Cliquez sur **Créer**.
 
-   ![](assets/create-folder-profile.png){width="300" align="left"}
+   ![](assets/create-folder-profile.png){width="300"}
 
 1. Saisissez les informations suivantes dans la boîte de dialogue **Créer un profil de dossier** :
    - Nom du profil de dossier.
@@ -259,7 +259,7 @@ Pour ajouter les modèles de rubrique, de mappage ou PDF à un profil de dossier
    >
    > Par défaut, tous les modèles sont stockés dans le dossier /content/dam/dita-templates . Le dossier `dita-templates` contient des sous-dossiers `topics`, `maps` et `PDF` pour stocker la rubrique, le mappage et les modèles PDF. Vous pouvez ajouter vos modèles personnalisés \(.dita,.xml ou .ditamapfiles\) dans les dossiers de modèles par défaut. Une fois que vous avez ajouté votre modèle dans le dossier par défaut, vous pourrez l’ajouter dans le profil global ou de dossier. Pour plus d’informations sur la création de modèles personnalisés à l’aide de l’éditeur web, voir [Créer un modèle de création personnalisé](#id1917D0EG0HJ).
 
-   ![](assets/search-author-temp.png){width="800" align="left"}
+   ![](assets/search-author-temp.png){width="800"}
 
 1. Ajoutez les modèles de rubrique, de mappage et de PDF requis à votre profil.
 
@@ -267,7 +267,7 @@ Pour ajouter les modèles de rubrique, de mappage ou PDF à un profil de dossier
 
    - Choisissez **Rechercher ou Saisir** puis saisissez ou sélectionnez le nom d’un modèle dans la liste déroulante. La liste déroulante se compose de tous les modèles par défaut et de tout nouveau modèle que vous avez créé.
 
-     ![](assets/default-template-list.png){width="800" align="left"}
+     ![](assets/default-template-list.png){width="800"}
 
    - Cliquez sur **Parcourir** et sélectionnez un modèle dans la gestion des ressources numériques.
 
@@ -275,7 +275,7 @@ Pour ajouter les modèles de rubrique, de mappage ou PDF à un profil de dossier
 
    Les modèles sélectionnés sont ajoutés à la liste des modèles.
 
-   ![](assets/author-templ-added-list.png){width="800" align="left"}
+   ![](assets/author-templ-added-list.png){width="800"}
 
    >[!NOTE]
    >
@@ -433,7 +433,7 @@ Effectuez les étapes suivantes pour configurer la configuration d’IA standard
 
 1. Sur la page du profil, sélectionnez l’onglet **Configuration de l’IA** .
 
-   ![Onglet Configuration de l’IA dans le profil global](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
+   ![Onglet Configuration de l’IA dans le profil global](assets/global-profile-AI-configuration-cs.png) {width="800"}
 
 1. Sélectionnez **Modifier**.
 1. En tant qu’administrateur, vous pouvez configurer les paramètres suivants :

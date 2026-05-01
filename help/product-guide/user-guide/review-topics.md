@@ -4,9 +4,9 @@ description: Découvrez comment passer en revue les rubriques et utiliser les fo
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2655'
+source-wordcount: '2670'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Pour passer en revue une rubrique, procédez comme suit :
 
    L&#39;écran suivant s&#39;affiche lorsqu&#39;un plan DITA est utilisé pour lancer le processus de révision :
 
-   ![](images/multiple-topics-review.png){align="left"}
+   ![](images/multiple-topics-review.png)
 
    Les options suivantes sont disponibles sur cet écran :
 
@@ -66,13 +66,13 @@ Pour passer en revue une rubrique, procédez comme suit :
 
    Toutes les rubriques de la carte s’affichent sous la forme d’un document composite unique. Les rubriques que le réviseur est autorisé à examiner s’affichent normalement. Les rubriques que la révision n’est pas autorisée à réviser ne s’affichent pas.
 
-   ![](images/review-read-only.png){align="left"}
+   ![](images/review-read-only.png)
 
    Dans la capture d’écran ci-dessus, la rubrique Description générale est partagée pour révision avec le réviseur actuel, ce qui s’affiche normalement. Cependant, la rubrique suivante, Historique du contenu des vols, n’est pas partagée pour révision et s’affiche en mode lecture seule. Le sujet actuellement en discussion est également mis en évidence dans la table des matières.
 
    L’écran suivant s’affiche lorsqu’une ou plusieurs rubriques sont sélectionnées et partagées pour la révision :
 
-   ![](images/review-composite-view.png){align="left"}
+   ![](images/review-composite-view.png)
 
    >[!NOTE]
    >
@@ -101,15 +101,15 @@ Lorsque vous affichez une seule rubrique, vous disposez d&#39;une option supplé
 
 
 
-![](images/switch-document-view.png){align="left"}
+![](images/switch-document-view.png)
 
 **Utilisation de différents types d’outils de commentaires** - Vous pouvez ajouter des commentaires intégrés en mettant le texte en surbrillance, en barrant le texte, en insérant du texte ou en ajoutant une note de commentaire. Les différents types d’outils de commentaires fournis dans la barre d’outils Commentaires sont décrits ci-dessous :
 
-![](images/comments-toolbar.png){width="350" align="left"}
+![](images/comments-toolbar.png){width="350"}
 
 - **Surbrillance** \(![](images/review-highlight-icon.svg)\) : pour ajouter un commentaire de surbrillance, sélectionnez le texte et choisissez l’icône Surbrillance. Vous pouvez également d’abord sélectionner l’icône de surbrillance, puis sélectionner le texte souhaité.
 
-  ![](images/highlight-comment.png){width="650" align="left"}
+  ![](images/highlight-comment.png){width="650"}
 
   Un pop-up s’affiche dans le panneau Commentaires dans lequel vous pouvez ajouter votre commentaire pour le contenu mis en surbrillance.
 
@@ -128,7 +128,7 @@ Vous pouvez également mettre en surbrillance ou barrer le texte rapidement à l
 
 1. Sélectionnez le texte à mettre en surbrillance ou à barrer. La barre d’outils contextuelle s’affiche.
 
-   ![](images/review-quick-launch-toolbar.png){width="550" align="left"}
+   ![](images/review-quick-launch-toolbar.png){width="550"}
 
 1. Sélectionnez l’icône **Surbrillance** ou **Barré**.
 1. Vous pouvez ajouter des commentaires dans le panneau de commentaires pour l’action de surbrillance ou de barrage.
@@ -144,7 +144,7 @@ Les tâches que vous pouvez effectuer à l’aide du panneau Commentaires sont d
 - Vous pouvez modifier votre propre commentaire en le sélectionnant dans le panneau Commentaires, puis en choisissant **Modifier** dans le menu Options.
 - Vous pouvez supprimer vos propres commentaires en les sélectionnant dans le panneau Commentaires, puis en choisissant l’option **Supprimer** dans le menu Options.
 
-  ![](images/review-comment-options-menu.png){width="300" align="left"}
+  ![](images/review-comment-options-menu.png){width="300"}
 
   >[!NOTE]
   >
@@ -158,11 +158,11 @@ Les tâches que vous pouvez effectuer à l’aide du panneau Commentaires sont d
 
 - La capture d’écran suivante montre le contenu en mode *Révision* :
 
-![](images/review-author-mode.png){width="550" align="left"}
+![](images/review-author-mode.png){width="550"}
 
 La capture d’écran suivante montre le contenu en mode *Aperçu* :
 
-![](images/review-preview-mode.png){width="550" align="left"}
+![](images/review-preview-mode.png){width="550"}
 
 
 **Balisage des utilisateurs de la tâche dans un commentaire**
@@ -173,17 +173,17 @@ Lorsque vous collaborez à une tâche de révision avec plusieurs réviseurs ou 
 >
 > Pour afficher la liste des utilisateurs affectés à une tâche de révision et les baliser dans un commentaire, vous devez disposer d’un accès en *lecture* sur les nœuds `/home/users and /home/groups`. Pour plus d’informations, consultez [Administration et sécurité des utilisateurs](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> Si le balisage n’est toujours pas disponible après avoir confirmé l’accès, votre administrateur peut avoir besoin d’attribuer une licence `user-admin` pour activer cette fonctionnalité.
 
-![](images/tag-users-review-ui.png){width="350" align="left"}
+![](images/tag-users-review-ui.png){width="350"}
 
 Les utilisateurs identifiés reçoivent à la fois un e-mail et une notification AEM, pour être rapidement informés. Pour plus d’informations sur le déclenchement des notifications de révision, voir [Présentation des notifications de révision](./review-understanding-review-notifications.md).
 
-![](images/mentioned-in-tags-author.png){width="350" align="left"}
+![](images/mentioned-in-tags-author.png){width="350"}
 
-**Ajouter des pièces jointes aux commentaires** -   Si vous souhaitez compléter votre commentaire en fournissant des informations supplémentaires qui sont disponibles dans un autre fichier, vous pouvez le faire en le joignant à votre commentaire. En tant que réviseur ou réviseuse, vous pouvez facilement ajouter un ou plusieurs fichiers de votre système local à votre commentaire. Vous pouvez ajouter un fichier à toutes les formes de commentaires prises en charge : surligné, barré, insertion de texte ou commentaire.
+**Ajouter des pièces jointes aux commentaires** - Si vous souhaitez compléter votre commentaire en fournissant des informations supplémentaires disponibles dans un autre fichier, vous pouvez le faire en le joignant à votre commentaire. En tant que réviseur ou réviseuse, vous pouvez facilement ajouter un ou plusieurs fichiers de votre système local à votre commentaire. Vous pouvez ajouter un fichier à toutes les formes de commentaires prises en charge : surligné, barré, insertion de texte ou commentaire.
 
 Lorsque vous insérez l’un des commentaires, le pop-up de commentaire s’affiche. Après avoir fourni des commentaires ou des informations supplémentaires dans le pop-up, vous l’envoyez en appuyant sur Entrée. Une fois le commentaire ajouté, vous avez la possibilité d’ajouter une pièce jointe à ce commentaire.
 
-![](images/comment-pop-up-panel.png){align="left"}
+![](images/comment-pop-up-panel.png)
 
 Dans la capture d’écran ci-dessus, le document contient le pop-up du commentaire mis en surbrillance et le commentaire est également ajouté dans le panneau Commentaires . L’icône de pièce jointe ![](images/file-attach-review.svg)est disponible avec le commentaire aux deux emplacements.
 
@@ -208,30 +208,30 @@ Pour ajouter une pièce jointe à votre commentaire, procédez comme suit :
 
 - Par défaut, seuls deux fichiers joints avec un commentaire s’affichent. S’il existe d’autres fichiers, le bouton **Afficher la pièce jointe** situé à droite affiche le nombre de toutes les pièces jointes \(qui sont plus de deux\) associées au commentaire. Vous pouvez sélectionner le nombre pour afficher toutes les pièces jointes. Par exemple, si vous avez quatre pièces jointes avec un commentaire, vous verrez +2 sur le bouton.
 
-![](images/review-view-attachment.png){width="550" align="left"}
+![](images/review-view-attachment.png){width="550"}
 
 - Placez le pointeur de la souris sur une pièce jointe pour télécharger ou supprimer la pièce jointe. La suppression de la pièce jointe n’est possible que si le réviseur actuel a ajouté ce commentaire, comme le montre la capture d’écran suivante :
 
-![](images/current-user-comment-options.png){width="550" align="left"}
+![](images/current-user-comment-options.png){width="550"}
 
 Les autres réviseurs ou auteurs n’obtiennent que l’option de pièce jointe de téléchargement.
 
-![](images/other-reviewer-download.png){width="550" align="left"}
+![](images/other-reviewer-download.png){width="550"}
 
 - Vous pouvez télécharger toutes les pièces jointes associées à un commentaire dans la boîte de dialogue **Afficher les pièces jointes**. Sélectionnez les pièces jointes et sélectionnez l’icône **Télécharger** au niveau des commentaires.
 
 - Vous pouvez également supprimer les pièces jointes associées à un commentaire dans la boîte de dialogue **Afficher les pièces jointes**. Sélectionnez les pièces jointes et sélectionnez l’icône **Supprimer**.
 
-![](images/attach-files-comments-panel.png){width="550" align="left"}
+![](images/attach-files-comments-panel.png){width="550"}
 
 
-**Panneau Conditions** -   Si votre rubrique comporte du contenu conditionnel, l’icône **Conditions** \(![](images/conditions-icon.svg)\) s’affiche à droite. Sélectionnez l’icône **Conditions** pour ouvrir le panneau Conditions qui vous permet de mettre en surbrillance le contenu en fonction des conditions disponibles dans la rubrique.
+**Panneau Conditions** - Si votre rubrique comporte du contenu conditionnel, l’icône **Conditions** \(![](images/conditions-icon.svg)\) s’affiche à droite. Sélectionnez l’icône **Conditions** pour ouvrir le panneau Conditions qui vous permet de mettre en surbrillance le contenu en fonction des conditions disponibles dans la rubrique.
 
-:   Par défaut, l’option **Tout mettre en surbrillance** est activée, toutes les conditions sont sélectionnées, l’intégralité du contenu est affichée et le contenu conditionné est affiché comme étant mis en surbrillance en mode Révision et Aperçu.
+: par défaut, l’option **Mettre toutes les conditions en surbrillance** est activée, toutes les conditions sont sélectionnées, l’intégralité du contenu est affichée et le contenu conditionné est affiché comme mis en surbrillance à la fois en mode de révision et en mode de prévisualisation.
 
-:   Vous pouvez désactiver l’option **Tout mettre en surbrillance** et afficher tout le contenu présent dans la rubrique sous forme de texte normal sans mise en surbrillance.
+: vous pouvez désactiver l’option **Tout mettre en surbrillance** et afficher tout le contenu présent dans la rubrique sous forme de texte normal sans mise en surbrillance.
 
-![](images/review-conditions-panel.png){width="350" align="left"}
+![](images/review-conditions-panel.png){width="350"}
 
 Vous pouvez choisir d’afficher ou de masquer une condition spécifique.
 
@@ -239,11 +239,11 @@ Vous pouvez choisir d’afficher ou de masquer une condition spécifique.
 - Si vous affichez une condition, le contenu conditionné est mis en surbrillance dans le mode de révision. Par exemple, dans la capture d’écran suivante, seul le contenu utilise deux conditions : `win` et `mac` sont mises en surbrillance.
 
 
-![](images/review-condition-normal-mode.png){width="650" align="left"}
+![](images/review-condition-normal-mode.png){width="650"}
 
 En mode d’aperçu, le contenu non conditionné et le contenu conditionné qui utilise les deux conditions affichées, `win` et `mac`, s’affichent. Le contenu conditionné restant pour lequel les conditions sont masquées ne s’affiche pas.
 
-**Révision en temps réel** -   Le panneau Commentaires est mis à jour en temps réel avec les commentaires et les commentaires ou les actions de l’auteur ou de l’autrice concernant les commentaires.
+**Révision en temps réel** - Le panneau Commentaires est mis à jour en temps réel avec les commentaires et les commentaires ou les actions de l’auteur concernant les commentaires.
 
 - Plusieurs réviseurs pourront laisser des commentaires ou répondre à des commentaires simultanément sur le même document. Pour savoir qui examine actuellement le document, pointez la souris sur l’icône de l’utilisateur dans le coin supérieur droit de l’écran.
 
@@ -251,7 +251,7 @@ En mode d’aperçu, le contenu non conditionné et le contenu conditionné qui 
 
 - Sélectionnez l’icône Commentaire obsolète \(![](images/outdated-comment-icon.svg)\) pour afficher les différences entre la dernière version et la version commentée du document. Les numéros de version \(des versions comparées\) s’affichent en haut des documents.
 
-  ![](images/comments-page-review-mode.png){align="left"}
+  ![](images/comments-page-review-mode.png)
 
   >[!NOTE]
   >
@@ -259,7 +259,7 @@ En mode d’aperçu, le contenu non conditionné et le contenu conditionné qui 
 
 - La sélection d’un commentaire obsolète ouvre la version de ce commentaire dans le panneau de gauche. La version précédente s’affiche dans le panneau de gauche et la version actuelle dans le panneau de droite. Tous les commentaires de la version obsolète sont importés sur le côté gauche. Vous pouvez comparer la version précédente à la version actuelle.
 
-**Filtrer les commentaires** -   Vous pouvez filtrer les commentaires dans un document pour afficher des commentaires spécifiques selon vos besoins. Pour filtrer les commentaires, sélectionnez l’icône **Filtrer** \(![](images/filter-search-icon.svg)\) qui s’affiche dans le menu à droite de la zone de texte Rechercher des commentaires dans le panneau Commentaires.
+**Filtrer les commentaires** - Vous pouvez filtrer les commentaires d’un document pour afficher des commentaires spécifiques selon vos besoins. Pour filtrer les commentaires, sélectionnez l’icône **Filtrer** \(![](images/filter-search-icon.svg)\) qui s’affiche dans le menu à droite de la zone de texte Rechercher des commentaires dans le panneau Commentaires.
 
 Sélectionnez une ou plusieurs des options de filtrage suivantes dans la boîte de dialogue **Type de filtre** et sélectionnez **Appliquer**.
 

@@ -4,9 +4,9 @@ description: Découvrez comment importer et valider une rubrique DITA, utiliser 
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: dd058ef30707716054279f16527adb286a9deb8d
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Après avoir importé les fichiers Schematron, vous pouvez les modifier dans l&#
 
 Lorsque vous ouvrez une rubrique dans l’éditeur, un panneau Validation du schéma s’affiche à droite. Effectuez les étapes suivantes pour ajouter et valider une rubrique ou un mappage avec un fichier Schematron :
 
-![](images/schematron-panel.png){width="350" align="left"}
+![](images/schematron-panel.png){width="350"}
 
 1. Sélectionnez l’icône Schéma pour ouvrir le panneau Schéma .
 1. Utilisez **Ajouter un fichier Schematron** pour ajouter des fichiers Schematron.
@@ -48,7 +48,7 @@ Lorsque vous ouvrez une rubrique dans l’éditeur, un panneau Validation du sch
    >
    > Lorsqu’un fichier de schéma non valide est ajouté, un message d’erreur s’affiche dans le panneau Validation .
 
-   ![](images/schematron-panel-error.png){width="350" align="left"}
+   ![](images/schematron-panel-error.png){width="350"}
 
 1. Si le fichier Schematron ne comporte aucune erreur, il est ajouté et répertorié dans le panneau Validation . Un message d’erreur s’affiche pour le fichier Schematron contenant les erreurs.
 
@@ -73,7 +73,7 @@ La prise en charge de Schematron dans l’éditeur vous aide à valider les fich
 
 Les résultats de la validation s’affichent en fonction de l’attribut de rôle défini dans le fichier Schematron. Les événements sont classés en `Fatal`, `Error`, `Warn` ou `Info`, avec un nombre visible pour chaque catégorie dans le panneau Validation.
 
-![](images/schematron-validation-errors.png){width="350" align="left"}
+![](images/schematron-validation-errors.png){width="350"}
 
 Pour déterminer la gravité d’un problème, la valeur _sensible à la casse_ de l’attribut de rôle défini dans le fichier Schematron correspondant est évaluée.
 

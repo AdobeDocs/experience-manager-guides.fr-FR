@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1666'
 ht-degree: 0%
 
 ---
@@ -24,26 +24,26 @@ Pour commencer à utiliser la configuration de profil de dossiers pour le conten
 
    Vous pouvez créer un dossier à partir du panneau Référentiel.
 
-   ![](assets/create-new-folder.png){width="350" align="left"}
+   ![](assets/create-new-folder.png){width="350"}
 2. **Créer des dossiers de langue pour gérer la traduction** : si vous traduisez du contenu dans différentes langues, vous devez créer des dossiers correspondant à chaque langue. Chacun de ces dossiers de langue contient le contenu correspondant à cette langue.
 
 3. **Création d’un dossier pour gérer Assets** : comme pour les dossiers, vous pouvez également créer différents dossiers Assets pour répondre aux besoins des différents services. Ainsi, vous vous assurez également que les auteurs et les éditeurs ont accès au CSS correct configuré dans leurs modèles, images et autres ressources.
 
-   ![](assets/configure-assets-folder.png){width="350" align="left"}
+   ![](assets/configure-assets-folder.png){width="350"}
 4. [Créez un profil de dossier](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile) pour mapper différents dossiers.
 5. **Sélectionner le profil de dossier à configurer** : une fois le profil de dossier créé, vous devez sélectionner le profil de dossier sur la page [Préférences utilisateur](../user-guide/intro-home-page.md#user-preferences) pour vous assurer que les auteurs et les éditeurs ont accès aux modèles appropriés.
 
-   ![](assets/folder-profile.png){width="650" align="left"}
+   ![](assets/folder-profile.png){width="650"}
 
 6. **Configurer les paramètres de profil de dossier** : pour le contenu d’apprentissage et de formation, les paramètres suivants peuvent être configurés au niveau d’un dossier :
    - [Général](#general)
    - [Panneaux](#configure-panels)
    - [Modèles de contenu](#configure-content-templates)
    - [Paramètres prédéfinis de sortie](#configure-output-presets)
-   - [éditeur HTML](#html-editor-settings)
+   - [éditeur &#x200B;](#html-editor-settings)
    - [Publication de profils](#manage-publish-profiles)
 
-Pour accéder à ces paramètres, basculez vers la vue Éditeur et sélectionnez **Paramètres Workspace** dans le menu **Options** comme illustré ci-dessous :
+Pour accéder à ces paramètres, basculez vers la vue Éditeur et sélectionnez **Paramètres** dans le menu **Options** comme illustré ci-dessous :
 
 ![](assets/access-editor-settings.png)
 
@@ -51,7 +51,7 @@ Pour accéder à ces paramètres, basculez vers la vue Éditeur et sélectionnez
 
 Dans l’onglet Général , vous pouvez configurer les paramètres suivants qui sont spécifiques à la fonctionnalité de contenu Formation et apprentissage du produit :
 
-![](assets/lc-config-settings-general.png){width="350" align="left"}
+![](assets/lc-config-settings-general.png){width="350"}
 
 - **Contenu d’apprentissage** : utilisez le bouton (bascule) **Activer le contenu d’apprentissage** pour activer ou désactiver la fonctionnalité au niveau du profil du dossier.
 - **Éditeur HTML** : ce paramètre vous permet de configurer l’éditeur pour la création basée sur HTML. Les principales options de configuration de ce paramètre sont les suivantes :
@@ -65,7 +65,7 @@ Ce paramètre contrôle les panneaux qui s’affichent dans les panneaux de gauc
 
 Pour le contenu de formation théorique et pratique, assurez-vous que seules les fonctionnalités suivantes sont activées pour l’éditeur et la console de mappage.
 
-![](assets/panels-settings.png){width="350" align="left"}
+![](assets/panels-settings.png){width="350"}
 
 
 ### Éditeur
@@ -77,7 +77,7 @@ Pour le contenu de formation théorique et pratique, assurez-vous que seules les
 - **Responsable de cours** : fournit un espace de travail dédié à la création et à la gestion des cours.
 - **Map** : fournit une vue cartographique du fichier de mappage actuellement ouvert.
 - **Plan** : affiche la hiérarchie structurelle de la rubrique ou de la carte actuellement ouverte, ce qui permet une navigation rapide et un accès au niveau de l’élément.
-- **Workfront** : permet d’accéder à des fonctionnalités de gestion de projet fiables en plus des fonctionnalités de base du système de gestion de contenu par composant (CCMS) de Experience Manager Guides.
+- **&#x200B;**&#x200B;: permet d’accéder à des fonctionnalités de gestion de projet fiables en plus des fonctionnalités de base du système de gestion de contenu par composant (CCMS) de Experience Manager Guides.
 - **Contenu réutilisable** : permet de gérer et d’insérer des éléments ou des rubriques réutilisables pour garantir la cohérence et réduire la duplication du contenu.
 - **Glossaire** : permet de créer et de gérer des termes de glossaire et de les inclure dans les rubriques afin de conserver une terminologie cohérente.
 - **Fragments de code** : permet de créer et de réutiliser de petits fragments de contenu dans divers sujets de vos cours.
@@ -116,15 +116,15 @@ Pour le contenu de formation théorique et pratique, assurez-vous que seules les
 
 >[!NOTE]
 >
-> Ce paramètre est disponible uniquement lorsque la fonction de contenu de formation est activée dans les paramètres **Workspace** > **Général**.
+> Ce paramètre est disponible uniquement lorsque la fonction de contenu de formation est activée dans les paramètres **&#x200B;**&#x200B;> **Général**.
 
 Ce paramètre vous permet de gérer les modèles de création et de publication présents dans le panneau [Gauche) de l’éditeur](../user-guide/web-editor-left-panel.md). Vous pouvez ajouter, supprimer ou réorganiser des modèles de création et de sortie, qui seront ensuite accessibles aux auteurs et aux éditeurs.
 
-![](assets/templates-settings.png){width="350" align="left"}
+![](assets/templates-settings.png){width="350"}
 
 Les modèles de création sont disponibles dans quatre catégories : cours d’apprentissage, contenu d’apprentissage, quiz et banque de questions. Si des modèles prédéfinis sont configurés dans votre instance, ils s’affichent par défaut.
 
-![](assets/templates-list.png){width="350" align="left"}
+![](assets/templates-list.png){width="350"}
 
 ### Ajouter des modèles
 
@@ -134,13 +134,13 @@ Pour ajouter un nouveau modèle, procédez comme suit :
 2. Dans la boîte de dialogue Sélectionner le chemin d’accès, sélectionnez le modèle souhaité.
 3. Choisissez **Sélectionner**.
 
-   ![](assets/add-templates.png){width="350" align="left"}
+   ![](assets/add-templates.png){width="350"}
 
 Le modèle est ajouté dans la catégorie correspondante dans le panneau Paramètres .
 
 De même, vous pouvez ajouter les autres modèles Création et Sortie . Une fois ajoutés, ces modèles sont mis à la disposition des auteurs et des éditeurs dans leurs boîtes de dialogue de cours respectives. Par exemple, le modèle de cours d’apprentissage ajouté par l’administrateur sera disponible pour les auteurs lorsqu’ils créeront un nouveau cours.
 
-![](assets/templates-added-course.png){width="350" align="left"}
+![](assets/templates-added-course.png){width="350"}
 
 ### Utiliser de nouveaux modèles de création et de sortie
 
@@ -152,7 +152,7 @@ Pour utiliser un autre mappage ou modèle de rubrique, créez un modèle de cré
 
 Pour plus d’informations, consultez la section [Créer des modèles personnalisés à partir de l’éditeur](../user-guide/create-maps-customized-templates.md).
 
-![](assets/authoring-templates-editor.png){width="350" align="left"}
+![](assets/authoring-templates-editor.png){width="350"}
 
 **Créer des modèles de sortie**
 
@@ -162,17 +162,17 @@ Pour créer un modèle de sortie pour le contenu d’apprentissage et de formati
 
    Le panneau Modèles de sortie s’affiche.
 
-   ![](assets/output-templates-editor.png){width="350" height="" align="left"}
+   ![](assets/output-templates-editor.png){width="350" height=""}
 2. Dans le panneau Modèles de sortie , sélectionnez (+) pour créer un modèle de sortie.
 
-   ![](assets/create-new-output-template.png){width="350" align="left"}
+   ![](assets/create-new-output-template.png){width="350"}
 3. Sélectionnez un modèle de sortie dans le menu déroulant.
 
 
-   ![](assets/output-template-types.png){width="650" align="left"}
+   ![](assets/output-template-types.png){width="650"}
 4. En fonction du type de modèle de sortie sélectionné, une boîte de dialogue s’affiche dans laquelle vous pouvez créer un modèle basé sur les modèles disponibles.
 
-   ![](assets/new-scorm-template-dialog.png){width="350" align="left"}
+   ![](assets/new-scorm-template-dialog.png){width="350"}
 
 5. Sélectionnez **Créer**.
 
@@ -180,16 +180,16 @@ Pour créer un modèle de sortie pour le contenu d’apprentissage et de formati
 
 6. Pour accéder au modèle de sortie pour les éditeurs et l’ajouter, accédez à **Paramètres** > **Modèles** > **Modèles de sortie** et sélectionnez **Ajouter**.
 
-   ![](assets/add-output-template-settings-panel.png){width="350" align="left"}
+   ![](assets/add-output-template-settings-panel.png){width="350"}
 
    Le modèle de sortie s’affiche dans la boîte de dialogue Sélectionner le chemin d’accès .
 7. Sélectionnez le modèle et choisissez **Confirmer**.
 
-   ![](assets/select-scorm-template-dialog.png){width="350" align="left"}
+   ![](assets/select-scorm-template-dialog.png){width="350"}
 
    Le modèle de sortie sélectionné est maintenant ajouté au panneau Paramètres.
 
-   ![](assets/scorm-template-added.png){width="350" align="left"}
+   ![](assets/scorm-template-added.png){width="350"}
 
 ### Supprimer ou réorganiser des modèles
 
@@ -197,30 +197,30 @@ Une fois ajoutés, vous pouvez supprimer ou réorganiser les modèles du panneau
 
 Pour supprimer un modèle, sélectionnez l’icône **Supprimer** située en regard de celui-ci.
 
-![](assets/remove-teamplates.png){width="350" align="left"}
+![](assets/remove-teamplates.png){width="350"}
 
 Vous pouvez également définir l’ordre d’affichage des modèles présents dans une catégorie. Pour modifier l’ordre d’affichage des modèles, sélectionnez les barres en pointillés et faites glisser un modèle à l’emplacement souhaité.
 
-![](assets/reorder-templates.png){width="350" align="left"}
+![](assets/reorder-templates.png){width="350"}
 
 
 ## Configuration des paramètres prédéfinis de sortie
 
 >[!NOTE]
 >
-> Ce paramètre est disponible uniquement lorsque la fonction de contenu de formation est activée dans les paramètres **Workspace** > **Général**.
+> Ce paramètre est disponible uniquement lorsque la fonction de contenu de formation est activée dans les paramètres **&#x200B;**&#x200B;> **Général**.
 
 L’onglet Paramètres prédéfinis de sortie vous permet de définir les formats de sortie disponibles pour publier un cours. Il contient deux sections : **Types de paramètres prédéfinis de sortie autorisés** et **Paramètres prédéfinis de sortie courants**.
 
-![](assets/configure-course-output-presets.png){width="350" align="left"}
+![](assets/configure-course-output-presets.png){width="350"}
 
 - **Types de paramètres prédéfinis de sortie autorisés** : cette section répertorie tous les paramètres prédéfinis de sortie pris en charge dans l’instance Experience Manager Guides. Pour la publication de cours, seuls les formats **SCORM** et **PDF** sont applicables. Vous pouvez sélectionner une ou les deux options. Les paramètres prédéfinis sélectionnés seront disponibles pour les éditeurs lors de la génération de la sortie du cours.
 
-  ![](assets/allowed-output-presets.png){width="350" align="left"}
+  ![](assets/allowed-output-presets.png){width="350"}
 
 - **Paramètres prédéfinis de sortie courants** : cette section affiche les paramètres prédéfinis de sortie généralement créés et ajoutés par les éditeurs à un profil de dossier spécifique. Vous pouvez également supprimer tout paramètre prédéfini qui n’est plus nécessaire.
 
-  ![](assets/common-output-presets.png){width="350" align="left"}
+  ![](assets/common-output-presets.png){width="350"}
 
 ## Gestion des profils de publication
 
@@ -230,4 +230,4 @@ Vous pouvez créer plusieurs profils si vous devez publier sur différents compt
 
 Fournissez les détails du serveur ainsi que l’ID client et le secret client de l’application cloud SCORM associée pour configurer le profil de publication pour SCORM cloud.
 
-![](assets/configure-publish-profiles.png){width="350" align="left"}
+![](assets/configure-publish-profiles.png){width="350"}

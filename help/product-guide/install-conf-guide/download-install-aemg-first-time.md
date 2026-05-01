@@ -4,10 +4,11 @@ description: Découvrez comment télécharger et installer AEM Guides pour la pr
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 1c4a93c2-e477-4466-8390-3fda21ead9ff
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 0%
+source-wordcount: '255'
+ht-degree: 7%
 
 ---
 
@@ -33,7 +34,7 @@ Pour télécharger et installer AEM Guides pour la première fois, procédez com
 
    Le gestionnaire de packages gère les packages sur votre installation AEM locale. Pour plus d’informations sur l’utilisation du gestionnaire de packages, consultez [&#x200B; Utilisation des packages &#x200B;](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/package-manager.html) dans la documentation d’AEM.
 
-   ![](assets/package-manager.png){width="650" align="left"}
+   ![](assets/package-manager.png){width="650"}
 
 1. Pour télécharger le package AEM Guides, cliquez sur **Télécharger le package**.
 
@@ -43,7 +44,7 @@ Pour télécharger et installer AEM Guides pour la première fois, procédez com
 
 1. Pour installer le package, cliquez sur **Installer**.
 
-   ![](assets/install-package.png){width="650" align="left"}
+   ![](assets/install-package.png){width="650"}
 
 1. Dans la boîte de dialogue Installer le package , cliquez sur **Installer**.
 

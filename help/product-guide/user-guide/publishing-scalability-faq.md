@@ -1,9 +1,10 @@
 ---
 title: FAQ sur les performances et l’évolutivité de la publication dans Adobe Experience Manager Guides
 description: Découvrez les questions fréquentes sur les performances et l’évolutivité de la publication dans Adobe Experience Manager Guides.
-source-git-commit: d128860bdff78c100ba348b54a237b237171635f
+exl-id: d4cd7673-ba66-4e90-9908-b537217d7eb6
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1064'
 ht-degree: 0%
 
 ---
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 Vous trouverez ci-dessous une liste de réponses aux questions fréquentes qui fournit des informations détaillées sur la manière dont Adobe Experience Manager Guides gère les workflows de publication, le comportement de mise à l’échelle et les performances de l’infrastructure. Il est destiné aux utilisateurs de l’entreprise, aux administrateurs et aux équipes de documentation qui utilisent Experience Manager Guides pour une publication à grande échelle. Le diagramme décrit le workflow global de l’architecture de publication Experience Manager Guides.
 
-![](images/IO_runtime.drawio.png){align="left"}
+![](images/IO_runtime.drawio.png)
 
 
 ## Combien de requêtes de publication Experience Manager Guides peut-il exécuter par jour ?
@@ -123,7 +124,3 @@ Pour garantir une vitesse de publication optimale, suivez ces bonnes pratiques :
 - Gardez les hiérarchies de plan DITA gérables et bien organisées
 - Planifier une publication importante en dehors des heures de pointe
 - Utilisation efficace des filtres conditionnels pour réduire la charge de traitement
-
-
-
-

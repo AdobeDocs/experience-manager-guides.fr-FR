@@ -4,9 +4,9 @@ description: Découvrez comment créer un modèle personnalisé, les utiliser po
 exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Vous pouvez créer des modèles de carte et de rubrique des manières suivantes 
 
 La fonctionnalité **Modèles** est présente dans le panneau [Gauche de l’interface de l’éditeur](./web-editor-left-panel.md) et n’est disponible que pour les administrateurs et administratrices. Grâce à ce panneau, l’administrateur peut facilement créer et gérer des modèles qui peuvent ensuite être utilisés par les auteurs. Par défaut, les modèles sont classés sous des modèles de type *map* et *topic*.
 
-![](images/templates-panel_cs.png){width="300" align="left"}
+![](images/templates-panel_cs.png){width="300"}
 
 Par défaut, vous pouvez afficher les fichiers par titres. Pointez sur un modèle pour afficher le titre du fichier et le nom du fichier sous forme d’info-bulle.
 
@@ -51,16 +51,16 @@ Pour créer une rubrique ou un modèle de mappage à partir de l’éditeur, pro
 
 1. Ouvrez le panneau **Modèles** dans l&#39;éditeur et sélectionnez l&#39;icône **Créer un modèle DITA**.
 
-   ![](images/create-dita-template-option.png){width="500" align="left"}
+   ![](images/create-dita-template-option.png){width="500"}
 
 1. Choisissez **Modèle de rubrique** ou **Modèle de carte** dans le menu déroulant en fonction du type de modèle que vous souhaitez créer.
 1. Si vous sélectionnez **Modèle de rubrique**, la boîte de dialogue **Nouveau modèle de rubrique** s&#39;affiche.
 
-   ![](images/new-topic-template-dialog.png){width="300" align="left"}
+   ![](images/new-topic-template-dialog.png){width="300"}
 
    Si vous sélectionnez **Modèle de mappage**, la boîte de dialogue **Nouveau modèle de mappage** s’affiche.
 
-   ![](images/map-template-dialog.png){width="300" align="left"}
+   ![](images/map-template-dialog.png){width="300"}
 
    Vous pouvez également sélectionner **Dossier** dans la liste déroulante si vous souhaitez d’abord créer un dossier dans le dossier **topic** ou **map**.
 
@@ -77,20 +77,20 @@ Une fois le modèle créé, vous devez l’ajouter à votre profil global ou au 
 
 À l’aide du menu **Options** sur un modèle existant, vous pouvez choisir de le **Modifier** ou **Dupliquer**. En cas de duplication, la structure et le type \(du document\) du modèle sont conservés et vous pouvez les réutiliser pour créer un autre modèle à partir de celui-ci.
 
-![](images/template-options-menu-editor.png){width="500" align="left"}
+![](images/template-options-menu-editor.png){width="500"}
 
 ### Création de modèles personnalisés à partir de l’interface utilisateur d’Assets
 
 Pour créer un mappage ou un modèle de rubrique à partir de l’interface utilisateur d’Assets, procédez comme suit :
 
-1. Dans l’**interface utilisateur d’Assets**, accédez au dossier dita-templates .
+1. Dans l’**interface utilisateur d’**, accédez au dossier dita-templates .
 
-   ![](images/dita-templates.png){align="left"}
+   ![](images/dita-templates.png)
 
 1. Ouvrez le dossier **topics** pour créer un modèle **Topic**. Ouvrez le dossier **mappages** pour créer un modèle **Mappage**.
 1. Sélectionnez **Créer \> modèle DITA**.
 
-   ![](images/create-dita-template.png){width="300" align="left"}
+   ![](images/create-dita-template.png){width="300"}
 1. Sur la page Plan directeur, sélectionnez **Rubrique \> Suivant** pour créer un modèle de rubrique. Sinon, sélectionnez **Mapper \> Suivant** pour créer un modèle de mappage.
 1. Sur la page Propriétés , spécifiez le modèle **Titre**.
 1. Spécifiez le fichier **Nom**.
@@ -188,7 +188,7 @@ Dans l’**éditeur**, procédez comme suit pour créer un mappage à l’aide d
 1. Dans l’**Éditeur**, accédez au dossier dans lequel vous souhaitez créer le mappage.
 1. Dans le menu Options du dossier, sélectionnez **Nouveau \> Plan DITA**.
 
-   ![](images/add-custom-template-dita-map.png){width="500" align="left"}
+   ![](images/add-custom-template-dita-map.png){width="500"}
 1. La boîte de dialogue **Nouvelle carte** s’affiche.
 1. Dans la boîte de dialogue **Nouveau mappage**, spécifiez le mappage **Titre**, le fichier **Nom** et sélectionnez le modèle de mappage à utiliser.
 
@@ -198,9 +198,9 @@ Dans l’**éditeur**, procédez comme suit pour créer un mappage à l’aide d
 
    Le message Mappage créé s’affiche.
 
-Dans l’interface utilisateur d’**Assets**, procédez comme suit pour créer un mappage à l’aide du modèle de mappage personnalisé :
+Dans l’interface utilisateur d’**&#x200B;**, procédez comme suit pour créer un mappage à l’aide du modèle de mappage personnalisé :
 
-1. Dans l’interface utilisateur d’**Assets** accédez au dossier dans lequel vous souhaitez créer le mappage.
+1. Dans l’interface utilisateur d’**&#x200B;** accédez au dossier dans lequel vous souhaitez créer le mappage.
 1. Sélectionnez **Créer \> DITA Map**.
 1. Sur la page Plan directeur, sélectionnez le modèle de carte à utiliser, puis sélectionnez **Suivant**. Par exemple, si vous avez créé un modèle de mappage « test-template », sélectionnez-le.
 1. Sur la page Propriétés , spécifiez le mappage **Titre**.

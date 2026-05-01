@@ -4,9 +4,9 @@ description: Découvrez comment créer une banque de questions dans la formation
 feature: Authoring
 role: User
 exl-id: c658af49-b0e6-4188-b3ba-8f3223b12632
-source-git-commit: b914c69f9d29884382ce43f163a8f766567b10bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Pour créer une banque de questions, procédez comme suit :
 1. Sélectionnez **Banque de questions**.
 La boîte de dialogue **Nouvelle banque de questions** s’ouvre. Vous pouvez sélectionner le modèle dans la liste déroulante, spécifier un titre approprié pour la banque de questions et indiquer le chemin d’accès où vous souhaitez que cette banque de questions soit stockée dans votre référentiel.
 
-   ![](assets/question-bank-create.png){width="350" align="left"}
+   ![](assets/question-bank-create.png){width="350"}
 
 1. Sélectionnez **Créer**.
 Une banque de questions est ajoutée dans le cadre du cours et s’affiche dans le panneau du gestionnaire de cours.

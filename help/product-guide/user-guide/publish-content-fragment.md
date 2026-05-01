@@ -4,10 +4,10 @@ description: Publier une rubrique ou les éléments d’une rubrique dans un fra
 exl-id: b1769e48-d721-4e93-b10f-04b385272be7
 feature: Publishing
 role: User
-source-git-commit: 26aacde56e84c9f3a5ee5106b9271b4b12f8969a
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '938'
-ht-degree: 1%
+source-wordcount: '955'
+ht-degree: 2%
 
 ---
 
@@ -28,19 +28,19 @@ Pour créer un fragment de contenu, procédez comme suit :
 1. Créez un dossier dans lequel vous souhaitez enregistrer les fragments de contenu que vous créez en fonction du modèle de fragment de contenu. Par exemple, « stock-content-fragments ».
 1. Modifiez les propriétés du dossier (par exemple, « stock-content-fragments ») et ajoutez le chemin du dossier, qui contient le modèle de fragment de contenu dans la configuration cloud.
 Par exemple, ajoutez `/conf/we-retail` dans la configuration cloud. Cette configuration connecte tous les modèles de fragment de contenu au dossier.\
-   ![ajoutez les détails de la configuration cloud dans les propriétés du dossier](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
+   ![ajoutez les détails de la configuration cloud dans les propriétés du dossier](images/fragment-folder-cloud-configuration.png){width="650"}
    *Ajoutez la configuration cloud dans les propriétés du dossier pour la connecter aux modèles de fragment.*
 
 1. Pour générer un fragment de contenu, sélectionnez **Nouvelle sortie** ![nouvelle icône de sortie](./images/Add_icon.svg) dans la section **Sorties** de la **Propriétés du fichier** d’une rubrique.
 1. Sélectionnez **Fragment de contenu**.\
-   ![onglet options des propriétés du fichier](./images/file-properties-outputs-tab-new.png) {width="300" align="left"}
+   ![onglet options des propriétés du fichier](./images/file-properties-outputs-tab-new.png) {width="300"}
 
    *Ajoutez un nouveau fragment de contenu à partir des propriétés de fichier d’une rubrique*.
 
 1. Dans la boîte de dialogue **Générer le fragment de contenu**, renseignez les informations suivantes sous les onglets **Général** et **Mappage**.
 
    Onglet **Général**
-   ![Ajoutez le modèle de fragment et les détails de mappage dans la boîte de dialogue Publier en tant que fragment de contenu](images/generate-content-fragment.png)
+   ![&#x200B; Ajouter le modèle de fragment et les détails de mappage dans la boîte de dialogue Publier en tant que fragment de contenu .](images/generate-content-fragment.png)
    *Ajoutez le chemin, le nom, le titre et le filtrage des conditions pour publier une rubrique ou ses éléments en tant que fragment de contenu.*
 
 
@@ -49,7 +49,6 @@ Par exemple, ajoutez `/conf/we-retail` dans la configuration cloud. Cette config
    * **Nom** : saisissez le nom du fragment de contenu. Par défaut, le nom est renseigné avec le titre du topic et les espaces sont remplacés par « _ ». Par exemple, *sample_content_fragment*. Vous pouvez le modifier.  Ce nom est utilisé pour générer l’URL du fragment de contenu.
 
    * Vous pouvez sélectionner différentes conditions pour créer des variantes de fragment de contenu. Sélectionnez l’une des options suivantes :
-
      >[!NOTE]
      > 
      > Les conditions ne sont activées que si les attributs de condition sont définis dans la rubrique.
@@ -82,7 +81,7 @@ Le contenu du fragment de contenu publié s’il existe un fragment de contenu e
 
 1. Vous pouvez afficher les fragments de contenu d’une rubrique dans la section **Sorties** de la **Propriétés du fichier**.
 
-   ![Affichage des fragments de contenu d’une rubrique](images/outputs-options-menu-new.png){width="300" align="left"}
+   ![Affichage des fragments de contenu d’une rubrique](images/outputs-options-menu-new.png){width="300"}
 
    *Afficher les fragments de contenu présents pour une rubrique et les republier.*
 

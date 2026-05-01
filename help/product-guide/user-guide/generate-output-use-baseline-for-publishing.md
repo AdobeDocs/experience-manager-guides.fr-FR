@@ -4,9 +4,9 @@ description: Connaître l’utilisation des références dans AEM Guides. Décou
 exl-id: 0554947f-3038-4fd2-8a62-ac0d4b858e94
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1803'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Pour créer une ligne de base, procédez comme suit :
 2. Sélectionnez **Créer** en haut à gauche.
 3. Sur la page Ligne de base, entrez le nom de la ligne de base dans le champ **Nom de la ligne de base**.
 
-   ![](images/create-baseline-assets-ui.png){width="300" align="left"}
+   ![](images/create-baseline-assets-ui.png){width="300"}
 
 4. Dans **Définir la version en fonction de**, sélectionnez l’une des options suivantes :
 
@@ -81,7 +81,7 @@ Pour modifier une ligne de base existante, procédez comme suit :
 1. Effectuez les modifications requises dans la ligne de base. Vous pouvez modifier le nom et la version de la rubrique ou du contenu référencé.
 1. Si vous souhaitez utiliser une version différente pour une ou plusieurs rubriques, vous pouvez le faire en sélectionnant manuellement ces rubriques. Sélectionnez **Parcourir la rubrique**, puis sélectionnez la rubrique pour laquelle vous souhaitez utiliser une autre version. Dans la liste déroulante Sélectionner une version de la rubrique sélectionnée, sélectionnez une version de la rubrique à utiliser dans la ligne de base et sélectionnez **OK**.
 
-   ![](images/baseline-select-version-drop-down.png){align="left"}
+   ![](images/baseline-select-version-drop-down.png)
 
    Les informations sur la rubrique et sa version sélectionnée sont stockées dans le serveur principal. Vous pouvez répéter cette étape pour modifier la version sélectionnée pour plusieurs rubriques.
 
@@ -128,7 +128,7 @@ Effectuez les étapes suivantes pour ajouter un libellé à plusieurs rubriques 
 
 1. Sélectionnez **Ajouter des libellés**.
 
-   ![](images/add-label-baseline-uuid.png){align="left"}
+   ![](images/add-label-baseline-uuid.png)
 
 1. Dans la boîte de dialogue **Ajouter un libellé**, spécifiez un libellé unique à associer à cette ligne de base.
 
@@ -139,7 +139,7 @@ Effectuez les étapes suivantes pour ajouter un libellé à plusieurs rubriques 
    - Sélectionnez **Ajouter**.
 Le libellé spécifié est ajouté au plan DITA ainsi qu&#39;aux rubriques et au contenu référencés.
 
-     ![](images/label-added-baseline-uuid.png){width="650" align="left"}
+     ![](images/label-added-baseline-uuid.png){width="650"}
 
 
 ## Exporter la ligne de base traduite
@@ -158,7 +158,7 @@ Effectuez les étapes suivantes pour exporter une ligne de base traduite :
 
 1. Dans l’onglet **Traduction**, développez l’option **Ligne de base** disponible dans le rail de gauche.
 
-   ![](images/export-baseline-new.png){align="left"}
+   ![](images/export-baseline-new.png)
 
 1. Sélectionnez l&#39;option **Utiliser niveau de référence** et choisissez le niveau de référence à exporter.
 

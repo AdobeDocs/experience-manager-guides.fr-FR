@@ -4,9 +4,9 @@ description: Découvrez comment modifier le quiz dans Formation et apprentissage
 feature: Authoring
 role: User
 exl-id: a8d967ce-9850-445f-b5fc-63ee14ee0dfa
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Pour modifier le quiz, procédez comme suit :
 1. Double-cliquez sur le quiz pour l’ouvrir dans le panneau du gestionnaire de cours.
 1. Vous devez **Verrouiller** quiz à l’aide du bouton (bascule). Cela vous permet de modifier le quiz, et personne d’autre ne peut y apporter de modifications.
 
-   ![](assets/quiz-lock.png){width="650" align="left"}
+   ![](assets/quiz-lock.png){width="650"}
 
 1. Vous pouvez [ajouter des questions au quiz](./quiz-insert-questions.md) ainsi que [insérer des questions provenant de la banque de questions](./insert-questions.md).
 1. Pour enregistrer votre travail, utilisez **Enregistrer en tant que nouvelle version** pour créer une nouvelle version ou appuyez sur `Ctrl+S` pour remplacer le fichier existant.

@@ -5,7 +5,7 @@ feature: Authoring
 role: User
 hide: true
 exl-id: 70ab9226-82d4-4e6a-aa0b-0e298f266c2a
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Pour créer une rubrique, procédez comme suit :
 
 1. Dans la page Plan directeur, sélectionnez le type de document DITA à créer et cliquez sur **Suivant**.
 
-   ![](images/create_dita_topic.png){width="800" align="left"}
+   ![](images/create_dita_topic.png){width="800"}
 
    Par défaut, AEM Guides fournit les modèles de rubriques DITA les plus couramment utilisés. Vous pouvez configurer d’autres modèles de rubrique en fonction des exigences de votre organisation. Voir *Configurer des modèles de création* dans Installer et configurer Adobe Experience Manager Guides pour votre configuration.
 
@@ -48,7 +48,7 @@ Pour créer une rubrique, procédez comme suit :
 
    Chaque nouvelle rubrique créée à partir de l&#39;interface utilisateur d&#39;Assets **Créer** \> **Rubrique DITA** ou de l&#39;éditeur Web se voit attribuer un ID de rubrique unique. La valeur de cet identifiant est le nom du fichier lui-même. En outre, un nouveau document est enregistré comme la dernière copie de travail de la rubrique dans la gestion des ressources numériques. Tant que vous n’avez pas enregistré une révision d’une rubrique nouvellement créée, vous ne verrez aucun numéro de version dans l’historique des versions. Si vous ouvrez la rubrique pour la modifier, les informations de version s’affichent dans le coin supérieur droit de l’onglet du fichier de rubrique :
 
-   ![](images/topic-version-none_cs.png){width="550" align="left"}
+   ![](images/topic-version-none_cs.png){width="550"}
 
    Les informations de version d’une rubrique nouvellement créée s’affichent sous la forme *aucune*. Lorsque vous enregistrez une nouvelle version, un numéro de version 1.0 lui est attribué. Pour plus d’informations sur l’enregistrement d’une nouvelle version, voir [Enregistrer comme nouvelle version](web-editor-features.md#save-as-new-version-id209ME400GXA).
 

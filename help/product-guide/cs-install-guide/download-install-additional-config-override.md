@@ -5,7 +5,7 @@ exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Effectuez les étapes suivantes pour configurer l’interface utilisateur de Exp
 5. Sélectionnez **Ajouter/Mettre à jour**.
 6. Ajoutez les détails de configuration de l’interface utilisateur. Assurez-vous que vous utilisez le même nom et la même configuration que dans la capture d’écran suivante.
 
-   ![](assets/enable-penultimate-ui.png){width="800" align="left"}
+   ![](assets/enable-penultimate-ui.png){width="800"}
 
    La définition de la valeur sur **true** conserve l’ancienne IU, tandis que **false** active la nouvelle IU.
 

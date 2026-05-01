@@ -4,9 +4,9 @@ description: Découvrez comment créer, modifier, dupliquer et supprimer un para
 exl-id: 0522a49d-4dce-4456-bfdc-7ff9261ae04c
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
@@ -22,14 +22,14 @@ Vous pouvez modifier le paramètre prédéfini de sortie sélectionné en modifi
 De plus, vous pouvez dupliquer ou supprimer un paramètre prédéfini de sortie à l’aide du menu déroulant **Options** comme illustré ci-dessous.
 
 
-![](images/delete-preset-map-console.png){align="left"}
+![](images/delete-preset-map-console.png)
 
 
 ## Utilisation du tableau de bord des cartes
 
 Vous pouvez modifier, dupliquer et supprimer un paramètre prédéfini de sortie à l’aide du tableau de bord de mappage en sélectionnant l’onglet requis dans la barre supérieure, comme illustré ci-dessous.
 
-![](images/create-new-preset-map-dashboard-new.png){align="left"}
+![](images/create-new-preset-map-dashboard-new.png)
 
 
 

@@ -4,9 +4,9 @@ description: Créez et gérez des lignes de base à partir de la console de mapp
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 24ed0edbfcbe968938473e31f3abf13779d04235
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '1929'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Vous pouvez créer une ligne de base à partir de la console Map en procédant c
 1. Accédez à l’onglet **Ligne de base** et sélectionnez l’icône + en haut à droite pour commencer à créer une ligne de base.
 1. Dans la boîte de dialogue **Nouvelle ligne de base**, fournissez les détails suivants :
 
-   ![Panneau Ligne de base](images/baseline-manage.png){width="500" align="left"}
+   ![Panneau Ligne de base](images/baseline-manage.png){width="500"}
 
    - Attribuez un nom à la ligne de base dans le champ **Nom**.
    - Dans **Configuration**, choisissez [Mise à jour manuelle](#configuring-baseline-for-manual-update) ou [Mise à jour automatique](#configuring-baseline-for-automatic-update).
@@ -82,7 +82,7 @@ Sélectionnez cette option pour la création de la ligne de base afin de sélect
 
 Les références créées à l&#39;aide de la configuration de mise à jour automatique sont mises à jour dynamiquement. Si vous générez une configuration de référence, téléchargez une configuration de référence ou créez un projet de traduction à l’aide d’une configuration de référence, les fichiers sont sélectionnés de manière dynamique en fonction des libellés mis à jour. Par exemple, si vous avez utilisé la version 1.2 d’une rubrique avec le libellé Version 1.0 pour la ligne de base et la version 1.5 mise à jour ultérieurement avec le libellé Version 1.0, la ligne de base sera mise à jour dynamiquement et la version 1.5 sera utilisée.
 
-![Créer une ligne de base](images/dynamic-baseline.png){width="300" align="left"}
+![Créer une ligne de base](images/dynamic-baseline.png){width="300"}
 
 - **Libellés** : si des libellés sont spécifiés pour les rubriques, utilisez la liste déroulante **Libellés** pour effectuer une sélection parmi les [libellés répertoriés](#labels-list).
 
@@ -92,7 +92,7 @@ Les références créées à l&#39;aide de la configuration de mise à jour auto
   >
   >Lorsque les libellés sont extraits, un chargeur s’affiche et la liste déroulante est désactivée.
 
-  Pour les lignes de base dynamiques, les libellés sont extraits de la dernière version enregistrée et de la copie de travail actuelle de la carte. Par exemple, si vous avez créé des libellés   `Label Release A.1.0 ` et `Label Release A.1.1` pour les versions 1.0 et 1.1 de la rubrique A et les libellés `Label Release B.1.0` et `Label Release B.1.1` pour les versions 1.0 et 1.1 de la rubrique B . Vous pouvez ensuite ajouter Topic A à Map A dans la version 1.0 et Topic B à Map A dans la version 1.0* (copie de travail). Dans ce cas, vous pouvez afficher `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0` et `Label Release B.1.1` dans la liste déroulante des libellés de ligne de base dynamique.
+  Pour les lignes de base dynamiques, les libellés sont extraits de la dernière version enregistrée et de la copie de travail actuelle de la carte. Par exemple, si vous avez créé les libellés `Label Release A.1.0 ` et `Label Release A.1.1` pour les versions 1.0 et 1.1 de la rubrique A et les libellés `Label Release B.1.0` et `Label Release B.1.1` pour les versions 1.0 et 1.1 de la rubrique B . Vous pouvez ensuite ajouter Topic A à Map A dans la version 1.0 et Topic B à Map A dans la version 1.0* (copie de travail). Dans ce cas, vous pouvez afficher `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0` et `Label Release B.1.1` dans la liste déroulante des libellés de ligne de base dynamique.
 - **Références indirectes** : pour les références indirectes dans le plan DITA, les options suivantes sont disponibles :
 
    - **Sélection automatique** : vous pouvez choisir d’effectuer une **Sélection automatique** pour le contenu référencé. Le système sélectionne alors automatiquement la version du contenu référencé correspondant à la version du contenu dans lequel il est référencé.
@@ -113,7 +113,7 @@ Vous pouvez gérer vos lignes de base existantes à l&#39;aide des différentes 
   >
   >L&#39;opération Modifier en cas de ligne de base dynamique permet de modifier les propriétés de la ligne de base, car les références des lignes de base dynamiques sont générées au moment de l&#39;exécution à l&#39;aide des libellés.
 
-  ![options d&#39;une ligne de base](images/baseline-options.png){align="left"}
+  ![options d’une ligne de base](images/baseline-options.png){}
 
 ### Actions disponibles pour une ligne de base existante
 
@@ -123,7 +123,7 @@ Vous pouvez également effectuer les opérations suivantes sur la ligne de base 
 
 Vous pouvez dupliquer une ligne de base et la modifier en fonction de vos besoins.
 
-![dupliquer une base](images/baseline-duplicate.png){width="300" align="left"}
+![dupliquer une ligne de base](images/baseline-duplicate.png){width="300"}
 *Dupliquez une ligne de base en fonction d’un libellé ou créez une copie exacte.*
 
 1. Sélectionnez **Dupliquer** dans le menu Options d&#39;une ligne de base. La boîte de dialogue **Dupliquer la ligne de base** s’ouvre.
@@ -158,7 +158,7 @@ Les libellés répertoriés dans la liste déroulante sont basés sur les critè
 
 À l&#39;aide de l&#39;icône Filtres du panneau **Filtres de ligne de base**, vous pouvez appliquer des filtres sur la ligne de base ouverte dans la fenêtre Modification de ligne de base :
 
-![filtres de base](images/baseline-filter.png){width="300" align="left"}
+![filtres de base](images/baseline-filter.png){width="300"}
 
 - Filtrez les fichiers en fonction de leur nom ou de leur emplacement.
 - Filtrez les fichiers en fonction des valeurs des différentes colonnes telles que Type de fichier, Type de référence, etc.

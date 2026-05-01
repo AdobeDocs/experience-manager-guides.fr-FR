@@ -1,75 +1,75 @@
 ---
-title: DITA map report from the Web Editor
-description: Generate DITA map reports from web editor in AEM Guides. Learn how to generate a CSV for a topic list, multimedia, metadata, and broken links reports.
+title: Rapport DITA map à partir de l'éditeur web
+description: Générez des rapports DITA map à partir de l'éditeur web dans AEM Guides. Découvrez comment générer un fichier CSV pour une liste de rubriques, des fichiers multimédias, des métadonnées et des rapports de liens rompus.
 feature: Report Generation
 role: User
 hide: true
 exl-id: d0fc902a-0b50-4af5-9e24-5564d216396c
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2384'
 ht-degree: 0%
 
 ---
 
-# DITA map report from the Web Editor {#id231HF0Z0NXA}
+# Rapport DITA map à partir de l&#39;éditeur web {#id231HF0Z0NXA}
 
-AEM Guides comes with a feature in the Web Editor that enables you to check the overall integrity of your references and generate reports for them.
+AEM Guides s’accompagne d’une fonctionnalité dans l’éditeur web qui vous permet de vérifier l’intégrité globale de vos références et de générer des rapports pour celles-ci.
 
-You can view the topic list, manage the metadata of all references, and view the multimedia list for the current map from the **Reports** tab in the Web Editor.
+Vous pouvez afficher la liste des rubriques, gérer les métadonnées de toutes les références et afficher la liste multimédia pour la carte actuelle à partir de l&#39;onglet **Rapports** dans l&#39;éditeur Web.
 
-## Generate a CSV from the Topic List view
+## Générer un fichier CSV à partir de la vue Liste de rubriques
 
-The **Topic List** view provides detailed information about your topics, such as the reference type, document state, and author.
+La vue **Liste de rubriques** fournit des informations détaillées sur vos rubriques, telles que le type de référence, l’état du document et l’auteur.
 
-You can create a report of the topics by performing the following steps:
+Vous pouvez créer un rapport des rubriques en procédant comme suit :
 
-1. In the **Repository** panel, open the DITA map file in Map View.
+1. Dans le panneau **Référentiel**, ouvrez le fichier DITA map en mode Carte.
 1. Cliquez sur l’onglet **Gérer**.
-1. Double-click **Topic List** on the left. The list of topics present in the DITA map is displayed.
+1. Double-cliquez sur **Liste de rubriques** à gauche. La liste des rubriques présentes dans le plan DITA s&#39;affiche.
 
-   ![](images/web-editor-topiclist-panel.png){width="800" align="left"}
+   ![](images/web-editor-topiclist-panel.png){width="800"}
 
-1. From the **Filters** Panel you can filter your topics based on the **Reference type** \(direct or indirect\), **Document State** \(the current state of your topics. For example if your topics are in Edit, In-Review, or Reviewed state, these are listed\) or the **Author** of the topic.
+1. Dans le panneau **Filtres** vous pouvez filtrer les rubriques en fonction du **Type de référence** \(direct ou indirect\), **État du document** \(état actuel de vos rubriques. Par exemple, si vos rubriques sont à l’état Modifier, En cours de révision ou Révisé , elles sont répertoriées\) ou le **Auteur** de la rubrique.
 
-1. You can also use the following topic filtering options to choose to display the following columns in the list:
+1. Vous pouvez également utiliser les options de filtrage de rubrique suivantes pour choisir d&#39;afficher les colonnes suivantes dans la liste :
 
-   - **Topic** The title of the topic is specified in the DITA map. You can click the topic to edit it.
-   - **File Name** Name of the file.
-   - **UUID** The universally unique identifier \(UUID\) of the file.
-   - **File Location** The complete path of the topic.
-   - **Reference Type** The type of reference – direct or indirect.
-   - **Document State** The current state of the topic.
-   - **Author** The user who worked last on the topic.
-   - **Parent Map** The list of all maps where the topic is directly referenced.
+   - **Rubrique** Le titre de la rubrique est spécifié dans le plan DITA. Vous pouvez cliquer sur la rubrique pour la modifier.
+   - **Nom de fichier** Nom du fichier.
+   - **UUID** Identifiant universel unique \(UUID\) du fichier.
+   - **Emplacement du fichier** Chemin d’accès complet de la rubrique.
+   - **Type de référence** type de référence : directe ou indirecte.
+   - **État du document** État actuel de la rubrique.
+   - **Auteur** Dernier utilisateur à avoir travaillé sur le sujet.
+   - **Mappage parent** liste de tous les mappages où la rubrique est directement référencée.
    >[!NOTE]
    >
-   > Click **Refresh** to get a fresh list of topics and view any change in your map file or if any reference within your topic file is updated.
+   > Cliquez sur **Actualiser** pour obtenir une nouvelle liste des rubriques et afficher les modifications apportées à votre fichier de mappage ou si une référence de votre fichier de rubrique est mise à jour.
 
-1. Click **Download CSV** to download the current snapshot of the topics in the DITA map. The CSV contains the selected columns and the topics filtered in the **Topic List** view. You can then open this topic list CSV file in any CSV editor.
+1. Cliquez sur **Télécharger CSV** pour télécharger l&#39;instantané actuel des rubriques dans le plan DITA. Le fichier CSV contient les colonnes sélectionnées et les rubriques filtrées dans la vue **Liste de rubriques**. Vous pouvez ensuite ouvrir ce fichier CSV de liste de rubriques dans n’importe quel éditeur CSV.
 
-**Manage metadata in bulk from the Metadata report**
+**Gérer les métadonnées en bloc à partir du rapport de métadonnées**
 
-AEM Guides allows you to tag DITA content from the Web editor. You can apply tags on an individual topic or use the bulk tagging feature to apply multiple tags on multiple topics, a DITA map, or on a sub-map. You can also change the document state of all selected topics to the next possible common document state.
+AEM Guides vous permet de baliser le contenu DITA à partir de l&#39;éditeur web. Vous pouvez appliquer des balises sur une rubrique individuelle ou utiliser la fonction de balisage en bloc pour appliquer plusieurs balises sur plusieurs rubriques, un plan DITA ou sur un sous-plan. Vous pouvez également modifier l&#39;état du document de toutes les rubriques sélectionnées pour passer à l&#39;état suivant du document commun.
 
-## View metadata
+## Affichage des métadonnées
 
-To view the metadata of your references in the current DITA map, perform the following steps:
+Pour afficher les métadonnées de vos références dans le plan DITA actuel, procédez comme suit :
 
 1. Dans le panneau Référentiel, ouvrez le fichier DITA map en mode Carte.
 1. Cliquez sur l’onglet **Gérer**.
-1. Double-click **Metadata** on the left. The metadata list of all the references in the DITA map is displayed. This includes the media references also.
+1. Double-cliquez sur **Métadonnées** sur la gauche. La liste des métadonnées de toutes les références dans le plan DITA s&#39;affiche. Cela inclut également les références du média.
 
-   ![](images/web-editor-metadata-panel.png){width="800" align="left"}
+   ![](images/web-editor-metadata-panel.png){width="800"}
 
-1. From the **Filters** panel you can filter your topics based on the **Document State** \(the current state of your topics. For example if your topics are in Edit, In-Review, or Reviewed state, these are listed\), **References** \(direct or indirect\), **File Type** \(Map, Topic, and Image\) of the reference.
-1. You can also choose to view only the **Files with no tags** or also choose specific tags from the **Tags** filter to view the files associated with them.
-   1. You can also use the following topic filtering options to choose to display the following columns in the metadata list:
-      - **Title** \(selected by default\) The title of the referenced file is specified in the DITA map. You can click the file to edit it.You can also click and play an audio or video file in the Web Editor. You can change the volume or the view of the video. In the shortcut menu you also have the options to download, change playback speed, or view picture in picture.
+1. Dans le panneau **Filtres**, vous pouvez filtrer les rubriques en fonction de l’état **Document** \(l’état actuel de vos rubriques. Par exemple, si vos rubriques sont à l’état Modifier, En cours de révision ou Révisé, elles sont répertoriées\), **Références** \(direct ou indirect\), **Type de fichier** \(Carte, Rubrique et Image\) de la référence.
+1. Vous pouvez également choisir de n’afficher que les **Fichiers sans balises** ou de choisir des balises spécifiques dans le filtre **Balises** pour afficher les fichiers qui leur sont associés.
+   1. Vous pouvez également utiliser les options de filtrage de rubrique suivantes pour choisir d’afficher les colonnes suivantes dans la liste de métadonnées :
+      - **Titre** \(sélectionné par défaut\) Le titre du fichier référencé est spécifié dans le plan DITA. Vous pouvez cliquer sur le fichier pour le modifier.Vous pouvez également cliquer sur un fichier audio ou vidéo et le lire dans l’éditeur web. Vous pouvez modifier le volume ou la vue de la vidéo. Dans le menu contextuel, vous avez également les options pour télécharger, modifier la vitesse de lecture ou afficher une image dans une image.
 
         >[!NOTE]
         >
-        > A checked-out icon also appears near the title of a checked-out file. Vous pouvez pointer sur l’icône pour afficher le nom de l’utilisateur.
+        > Une icône extraite s’affiche également à côté du titre d’un fichier extrait. Vous pouvez pointer sur l’icône pour afficher le nom de l’utilisateur.
 
       - **Nom de fichier** Nom du fichier.
       - **Emplacement du fichier** Chemin d’accès complet du fichier.
@@ -95,7 +95,7 @@ To view the metadata of your references in the current DITA map, perform the fol
 
 1. Sélectionnez **Gérer** dans la partie supérieure.
 
-   ![](images/web-editor-manage-metadata.png){width="350" align="left"}
+   ![](images/web-editor-manage-metadata.png){width="350"}
 
 1. Si vous souhaitez ajouter de nouvelles balises, sélectionnez-les dans la liste déroulante pour les appliquer à toutes les rubriques sélectionnées. Vous pouvez également supprimer une balise en cliquant sur la croix située à proximité de celle-ci.
 
@@ -117,11 +117,11 @@ Le rapport **Multimédia** fournit des informations détaillées sur le contenu 
 
    - Lorsque vous triez par **Multimédia**, le nom **&#x200B;**&#x200B;multimédia est affiché dans la première colonne, puis les noms de toutes les références dans lesquelles ils ont été utilisés sont affichés dans une autre colonne de la même ligne. Par exemple, la capture d’écran suivante montre le fichier multimédia WarmCoolForC.gif dans la première colonne et trois références dans lesquelles il est utilisé sont affichées dans la troisième colonne de la même ligne.
 
-     ![](images/multimedia-report-file-order.png){width="650" align="left"}
+     ![](images/multimedia-report-file-order.png){width="650"}
 
    - Si vous triez par colonne **Utilisé dans**, vous verrez la vue transposée dans laquelle les noms des références dans lesquelles le contenu multimédia a été utilisé sont répertoriés dans la première colonne tandis que les noms du contenu multimédia sont répertoriés dans une autre colonne sur des lignes distinctes. Par exemple, la capture d’écran suivante montre les noms de trois références \(Régler la température du siège, Modifier l’affichage de la température du siège et Zone d’équipage\) dans la première colonne et le fichier multimédia WarmCoolForC.gif s’affiche dans la troisième colonne sur trois lignes distinctes.
 
-     ![](images/multimedia-report-used-in-order.png){width="650" align="left"}
+     ![](images/multimedia-report-used-in-order.png){width="650"}
 
 1. Vous pouvez filtrer vos fichiers multimédias en fonction des **Type multimédia** et **Type de référence**. La liste des fichiers multimédias s’affiche en fonction de votre choix dans la liste déroulante. Par exemple, vous pouvez choisir d&#39;afficher uniquement les références audio dans votre plan DITA et un fichier affiche uniquement les références audio utilisées.
 
@@ -143,7 +143,7 @@ Le rapport **Multimédia** fournit des informations détaillées sur le contenu 
 
 1. Vous pouvez également cliquer sur un fichier audio ou vidéo et le lire dans l’éditeur web. Vous pouvez modifier le volume ou la vue de la vidéo. Dans le menu contextuel, vous avez également les options pour télécharger, modifier la vitesse de lecture ou afficher une image dans une image.
 
-   ![](images/video-web-editor.png){width="800" align="left"}
+   ![](images/video-web-editor.png){width="800"}
 
 1. Cliquez sur **Télécharger CSV** pour télécharger l&#39;instantané actuel du multimédia dans le plan DITA. Le fichier CSV contient les colonnes sélectionnées et les fichiers multimédias filtrés dans la vue **Multimédia**. Vous pouvez ensuite ouvrir ce fichier CSV multimédia dans n’importe quel éditeur CSV.
 
@@ -159,10 +159,10 @@ Vous pouvez afficher le rapport pour les liens rompus en procédant comme suit :
 1. Dans le panneau **Filtres** vous pouvez classer la liste par liens ou par noms d’utilisateurs dans les références.
 
    - Lorsque vous triez par **Lien rompu**, les chemins d’accès des liens rompus sont affichés dans la première colonne, puis les noms de toutes les références dans lesquelles ils ont été utilisés sont affichés dans une autre colonne sur des lignes distinctes. Si le même lien rompu est utilisé dans plusieurs fichiers, ils sont affichés sur une ligne et présentés comme regroupés ou sous-lignes. Par exemple, la capture d’écran suivante montre trois liens rompus dans la première colonne et la référence dans laquelle ils sont utilisés, `TestMap.ditamap` s’affiche dans la troisième colonne sur trois lignes distinctes.
-   ![](images/broken-link-report.png){width="800" align="left"}
+   ![](images/broken-link-report.png){width="800"}
 
    - Si vous triez par colonne **Utilisé dans**, vous verrez la vue transposée dans laquelle les noms des références dans lesquelles les liens rompus ont été utilisés sont répertoriés dans la première colonne tandis que les liens rompus sont répertoriés dans une autre colonne de la même ligne. Par exemple, la capture d’écran suivante montre la référence (dans laquelle le lien rompu est utilisé) `TestMap.ditamap` dans la première colonne et les liens rompus sont affichés dans la troisième colonne de la même ligne.
-   ![](images/broken-link-filter-usedin.png){width="800" align="left"}
+   ![](images/broken-link-filter-usedin.png){width="800"}
 1. Vous pouvez filtrer les liens rompus en fonction du **Type de fichier** et du **Type de lien**. La liste des liens rompus s’affiche en fonction de votre sélection dans la liste déroulante. Par exemple, vous pouvez choisir d&#39;afficher uniquement les références de contenu dans votre plan DITA et un fichier affiche uniquement les références de contenu utilisées.
 
    Selon le type de références utilisé dans votre mappage, Référence de fichier, Référence de clé, Référence de contenu, Référence de clé de contenu, Référence d&#39;image et Référence de fichier multimédia sont répertoriées dans la liste déroulante **Type de lien** et **Rubrique DITA** ou **Mappage DITA** sont répertoriées dans la liste déroulante **Type de fichier**.

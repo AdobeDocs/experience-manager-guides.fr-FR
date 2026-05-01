@@ -5,9 +5,9 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: aa843a72-ff0d-4c9a-a87d-48d099087b5e
-source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Avant de poursuivre la configuration, assurez-vous que les conditions préalable
 - **Autorisations requises** : assurez-vous de disposer des autorisations suivantes :
 
    - Accès au **Portail de distribution logicielle** pour télécharger les packages requis
-   - Accès au **gestionnaire de packages CRX** pour installer des packages dans AEM.
+   - Accès au **gestionnaire de packages** pour installer des packages dans AEM.
    - Les autorisations de création et de modification des paramètres prédéfinis dans AEM Guides.
 
 - **Télécharger les packages** : téléchargez les packages suivants à partir du **Portail de distribution logicielle** :
@@ -36,7 +36,7 @@ Avant de poursuivre la configuration, assurez-vous que les conditions préalable
 ## Installation de packages à l’aide du gestionnaire de packages CRX
 
 1. **Installez le package de composants :**
-   1. Accédez au [**Gestionnaire de packages CRX**](http://&lt;your-aem-instance>/crx/packmgr).
+   1. Accédez au [**Gestionnaire de packages**](http://&lt;your-aem-instance>/crx/packmgr).
    2. Téléchargez et installez le package on-prem-guides-components.all-1.x.0.zip .
 
 2. **Installation du package Sites :** téléchargez et installez le package aemg-docs.all-1.x.0.zip à l’aide du gestionnaire de packages CRX.
@@ -47,12 +47,12 @@ Avant de poursuivre la configuration, assurez-vous que les conditions préalable
 1. **Créer un nouveau paramètre prédéfini :**
    1. Ouvrez un plan DITA dans AEM Guides et accédez au panneau **Sortie**.
    2. Sélectionnez **Créer un paramètre prédéfini**.
-   3. Sélectionnez le type comme **AEM Sites**.
+   3. Sélectionnez le type comme **&#x200B;**.
    4. Saisissez le nom du paramètre prédéfini.
    5. Décochez le paramètre **Utiliser le mappage des composants hérités**.
    6. Sélectionnez **Ajouter** pour créer le paramètre prédéfini.
 
-      ![&#x200B; Boîte de dialogue Nouveau paramètre prédéfini de sortie &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350" align="left"}
+      ![&#x200B; Boîte de dialogue Nouveau paramètre prédéfini de sortie &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350"}
 
 
 2. **Configurer le paramètre prédéfini de site AEM :** il existe deux options pour configurer le site prêt à l’emploi :
@@ -64,14 +64,14 @@ Avant de poursuivre la configuration, assurez-vous que les conditions préalable
       - Chemin de publication : `aemg-docs/en/docs/product1`
       - Modèle de page de rubrique : Page de rubrique.
 
-      ![Utiliser le menu déroulant du site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350" align="left"}
+      ![Utiliser le menu déroulant du site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350"}
 
    **Option 2 : utiliser le chemin du site**
 
    1. Définissez manuellement le **chemin d’accès au site** comme `/content/aemg-docs/en/docs/product1`.
    2. Vérifiez que le **modèle de page Rubrique** est automatiquement défini sur Page Rubrique.
 
-      ![Utiliser le chemin du site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
+      ![Utiliser le chemin du site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350"}
 
 3. **Enregistrer le paramètre prédéfini :** enregistrer les modifications apportées au paramètre prédéfini.
 
@@ -82,15 +82,15 @@ Avant de poursuivre la configuration, assurez-vous que les conditions préalable
    2. Le site généré sera disponible au chemin d’accès suivant : `/content/aemg-docs/en/docs/product1`.
 2. **Modifier le chemin de génération par défaut (facultatif) :** si vous souhaitez modifier le chemin par défaut pour la génération du site, procédez comme suit :
 
-   1. Accédez à **AEM Sites**.
+   1. Accédez à **&#x200B;**.
    2. Créez une page produit sous la structure de site prête à l’emploi.
    3. Accédez à **Documents AEMG** > **Français** > **Documents**.
 
-      ![Création d’une page dans la structure de site AEM &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
+      ![Création d’une page dans la structure de site AEM &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350"}
 
    4. Sélectionnez la mosaïque **Page d’accueil** puis sélectionnez **Suivant**.
 
-      ![Sélectionnez la mosaïque de la page d’accueil](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350" align="left"}
+      ![Sélectionnez la mosaïque de la page d’accueil](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350"}
 
    5. Saisissez les **Titre** et **Nom** de la page.
    6. Sélectionnez **Créer**.

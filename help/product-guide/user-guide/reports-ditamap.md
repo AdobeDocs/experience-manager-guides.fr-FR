@@ -4,9 +4,9 @@ description: Générez des rapports de mappage DITA à partir du tableau de bord
 exl-id: 7fe52ee0-e940-467b-9b8d-3d2371de7a84
 feature: Report Generation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Pour afficher le rapport DITA Map, procédez comme suit :
 
 1. Sélectionnez **Rapports**.
 
-   ![](images/reports-page-uuid-new.png){align="left"}
+   ![](images/reports-page-uuid-new.png)
 
    La page Rapports est divisée en deux parties :
 
@@ -37,7 +37,7 @@ Pour afficher le rapport DITA Map, procédez comme suit :
 
      Lorsque vous sélectionnez une rubrique, un rapport détaillé de la rubrique sélectionnée s&#39;affiche.
 
-     ![](images/detailed-report-uuid-new.png){align="left"}
+     ![](images/detailed-report-uuid-new.png)
 
      Les éléments mis en évidence sous **A**, **B**, **C** et **D** sont décrits ci-dessous :
 
@@ -82,18 +82,18 @@ Effectuez les étapes suivantes pour générer le fichier CSV d&#39;un rapport D
 
 1. Sélectionnez **Générer le rapport** en haut à gauche pour générer le rapport DITA map.
 
-   ![](images/generate-DITA-map-report-new.png){align="left"}
+   ![](images/generate-DITA-map-report-new.png)
 
 1. Vous recevrez une notification une fois que le rapport sera prêt à être téléchargé. Sélectionnez **Télécharger** pour télécharger le fichier CSV du rapport généré.
 
-   ![](images/download-report-dialog-new.png){width="550" align="left"}
+   ![](images/download-report-dialog-new.png){width="550"}
 
 
    Vous pouvez également télécharger ultérieurement le fichier CSV du rapport généré à partir de la boîte de réception de notifications d’Experience Manager.
 
    Sélectionnez le rapport généré dans la boîte de réception pour le télécharger.
 
-   ![](images/report-inbox--notification.png){width="300" align="left"}
+   ![](images/report-inbox--notification.png){width="300"}
 
 Une fois le rapport téléchargé dans la boîte de réception, vous pouvez également sélectionner le rapport et utiliser l’icône Ouvrir en haut pour ouvrir le rapport sélectionné.
 
