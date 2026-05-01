@@ -20,7 +20,7 @@ Pour créer un paramètre prédéfini de sortie PDF, procédez comme suit :
    ![](assets/open-in-map-console.png){width="350"}
 
 1. Dans le panneau **Paramètres prédéfinis de sortie**, sélectionnez l’icône + pour créer un paramètre prédéfini de sortie.
-1. Sélectionnez **** dans la liste déroulante **Type** de la boîte de dialogue Nouveau paramètre prédéfini de sortie.
+1. Sélectionnez **&#x200B;**&#x200B;dans la liste déroulante **Type** de la boîte de dialogue Nouveau paramètre prédéfini de sortie.
 1. Dans le champ **Nom**, attribuez un nom à ce paramètre prédéfini.
 1. Dans le champ **Générer le PDF à l’aide de**, sélectionnez **PDF natif**.
 1. Sélectionnez l’option **Ajouter au profil du dossier actuel** pour créer un paramètre prédéfini de sortie dans le profil du dossier actuel.

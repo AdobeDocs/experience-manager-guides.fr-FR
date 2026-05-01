@@ -61,7 +61,7 @@ Les améliorations du PDF natif suivantes ont été apportées à la version d�
 ### Réinitialiser le numéro de page de la première page d&#39;une mise en page
 
 Dans la sortie PDF native, vous pouvez redémarrer les numéros de page et spécifier le numéro à partir duquel la numérotation commence. Vous pouvez également commencer la numérotation uniquement pour la première occurrence d’une section.
-En savoir plus sur l’utilisation [ des propriétés de page d’une mise en page ](../native-pdf/design-page-layout.md#page-props-page-layout).
+En savoir plus sur l’utilisation [&#x200B; des propriétés de page d’une mise en page &#x200B;](../native-pdf/design-page-layout.md#page-props-page-layout).
 
 
 ### Afficher les chapitres sans numéros automatiques dans la table des matières
@@ -94,7 +94,7 @@ Pour plus d&#39;informations sur la gestion des définitions hiérarchiques des 
 
 Utilisez le menu contextuel pour prévisualiser rapidement le fichier (.dita, .xml, audio, vidéo ou image) sans l’ouvrir. Vous pouvez désormais redimensionner le volet d’aperçu. Si le contenu contient un lien de référence, vous pouvez le sélectionner pour l’ouvrir dans un nouvel onglet.
 
-](assets/quick-preview_cs.png){width="800"} du volet d’aperçu![
+![&#128279;](assets/quick-preview_cs.png){width="800"} du volet d’aperçu
 
 *Prévisualisez le fichier dans le volet.*
 

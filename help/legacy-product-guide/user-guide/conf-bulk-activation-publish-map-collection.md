@@ -86,4 +86,4 @@ Un message de réussite s’affiche lorsque la sortie du mappage est mise en fil
 
 Une fois que la sortie est activée pour les fichiers de mappage sélectionnés, l’onglet Historique d’audit est mis à jour et la dernière sortie activée s’affiche en haut. La colonne **Publié** est mise à jour avec la date et l’heure de publication.
 
-**Rubrique parente : **[Activation en bloc du contenu publié](conf-bulk-activation.md)
+**Rubrique parente : &#x200B;** [Activation en bloc du contenu publié](conf-bulk-activation.md)

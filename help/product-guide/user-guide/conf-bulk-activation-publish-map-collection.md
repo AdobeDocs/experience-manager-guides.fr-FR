@@ -21,7 +21,7 @@ Une fois que vous avez créé une collection de mappages pour l’activation en 
 
 1. Sélectionnez la mosaïque **Tableau de bord de publication en bloc**.
 
-   Le tableau de bord de publication en bloc s’affiche avec une liste de collections de mappages d’activation en bloc. Vous pouvez également accéder à ce tableau de bord à partir du panneau de gauche de la page d’accueil d’Adobe Experience Manager Guides [](intro-home-page.md).
+   Le tableau de bord de publication en bloc s’affiche avec une liste de collections de mappages d’activation en bloc. Vous pouvez également accéder à ce tableau de bord à partir du panneau de gauche de la page d’accueil d’Adobe Experience Manager Guides [&#128279;](intro-home-page.md).
 
 1. Sélectionnez la collection que vous souhaitez publier, puis sélectionnez **Ouvrir**.
 
@@ -85,4 +85,4 @@ Un message de réussite s’affiche lorsque la sortie du mappage est mise en fil
 
 Une fois que la sortie est activée pour les fichiers de mappage sélectionnés, l’onglet Historique d’audit est mis à jour et la dernière sortie activée s’affiche en haut. La colonne **Publié** est mise à jour avec la date et l’heure de publication.
 
-**Rubrique parente : **[Activation en bloc du contenu publié](conf-bulk-activation.md)
+**Rubrique parente : &#x200B;** [Activation en bloc du contenu publié](conf-bulk-activation.md)

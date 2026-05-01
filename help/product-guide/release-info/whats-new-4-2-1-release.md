@@ -26,7 +26,7 @@ Vous pouvez désormais facilement accéder à la page de navigation d’AEM à p
 * Cliquez sur l’icône **Guides** (![](assets/aem-guides-icon.png) ) pour revenir à la page de navigation d’AEM.
 
 
-Pour plus d’informations, consultez la page Navigation dans AEM [](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
+Pour plus d’informations, consultez la page Navigation dans AEM [&#128279;](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
 
 ## Prise en charge avancée des métadonnées dans la publication PDF
 
@@ -69,7 +69,7 @@ AEM Guides vous permet désormais d’identifier rapidement les rubriques modifi
 
 <img src="assets/change-marker-toc.png" alt="Modifier le marqueur dans la table des matières " width="500">
 
-Pour plus d’informations, voir [ Utilisation de styles de barres de modification personnalisées ](../native-pdf/change-bar-style.md).
+Pour plus d’informations, voir [&#x200B; Utilisation de styles de barres de modification personnalisées &#x200B;](../native-pdf/change-bar-style.md).
 
 
 
@@ -77,7 +77,7 @@ Pour plus d’informations, voir [ Utilisation de styles de barres de modificati
 
 Vous pouvez maintenant mettre en forme le marqueur de page dans les notes de pied de page. Par exemple, vous pouvez ajouter des crochets ou modifier leur couleur. Ces styles permettent aux utilisateurs d’identifier facilement les marqueurs de page dans le document.
 
-Pour plus d’informations, voir [ Utilisation de styles personnalisés dans les notes de bas de page ](../native-pdf/footnote-number-style.md).
+Pour plus d’informations, voir [&#x200B; Utilisation de styles personnalisés dans les notes de bas de page &#x200B;](../native-pdf/footnote-number-style.md).
 
 ## Ouvrez et lisez des fichiers vidéo ou audio dans l’éditeur web.
 

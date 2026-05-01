@@ -32,7 +32,7 @@ Pour créer un fichier DITAVAL, procédez comme suit :
 
    ![](images/new-file-option.png){width="350"}
 
-   Vous pouvez également accéder à cette option à partir de la page d&#39;accueil [](./intro-home-page.md) et du menu d&#39;options d&#39;un dossier dans la vue Référentiel.
+   Vous pouvez également accéder à cette option à partir de la page d&#39;accueil [&#128279;](./intro-home-page.md) et du menu d&#39;options d&#39;un dossier dans la vue Référentiel.
 
 2. La boîte de dialogue **Nouvelle rubrique** s&#39;affiche.
 
@@ -171,7 +171,7 @@ L’éditeur DITAVAL d’Adobe Experience Manager Guides prend en charge l’aff
 
 Vous pouvez également trouver la version du fichier DITAVAL sur lequel vous travaillez actuellement en plaçant le pointeur de la souris sur le nom du fichier.
 
-**** : la vue Source affiche le code XML sous-jacent qui constitue le fichier DITAVAL. Outre les modifications de texte standard effectuées dans cet affichage, un auteur peut également ajouter ou modifier des propriétés à l’aide du catalogue dynamique.
+**&#x200B;**&#x200B;: la vue Source affiche le code XML sous-jacent qui constitue le fichier DITAVAL. Outre les modifications de texte standard effectuées dans cet affichage, un auteur peut également ajouter ou modifier des propriétés à l’aide du catalogue dynamique.
 
 Pour appeler le catalogue dynamique, placez le curseur à la fin de toute définition de propriété et saisissez « &lt; ». L’éditeur affiche une liste de tous les éléments XML valides que vous pouvez insérer à cet emplacement.
 

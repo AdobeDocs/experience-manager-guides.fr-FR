@@ -99,7 +99,7 @@ Pour plus d’informations, voir [Utilisation d’expressions Regex](../user-gui
 AEM Guides prend également en charge les modèles abstraits dans Schematron. Vous pouvez définir des modèles abstraits génériques et les réutiliser. Les modèles abstraits peuvent simplifier votre schéma Schematron et vous aider également à gérer et à mettre à jour votre logique de validation.
 
 
-Pour plus d’informations, voir [ Définition de modèles abstraits ](../user-guide/support-schematron-file.md#schematron-abstract-patterns).
+Pour plus d’informations, voir [&#x200B; Définition de modèles abstraits &#x200B;](../user-guide/support-schematron-file.md#schematron-abstract-patterns).
 
 ## Naviguez de l’éditeur web vers la page d’accueil d’AEM.
 
@@ -110,7 +110,7 @@ Vous pouvez désormais facilement accéder à la page d’accueil d’AEM à par
 * Cliquez sur l’icône **Guides** (![](assets/aem-guides-icon.png) ) pour revenir à la page de navigation d’AEM.
 
 
-Pour plus d’informations, consultez la page Navigation dans AEM [](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
+Pour plus d’informations, consultez la page Navigation dans AEM [&#128279;](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
 
 ## Gestion des définitions hiérarchiques des objets et des énumérations
 

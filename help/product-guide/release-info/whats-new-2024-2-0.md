@@ -27,7 +27,7 @@ Vous pouvez désormais améliorer votre parcours de création avec les suggestio
 
 Pour garantir l’exactitude et la cohérence de votre contenu, la recherche et les suggestions sont limitées au contenu détenu par votre organisation et correspondent étroitement aux mots-clés que vous recherchez.
 
-Panneau ![Suggestions intelligentes dans l’éditeur web ](assets/web-editor-smart-suggestion.png) {width="800"}
+Panneau ![Suggestions intelligentes dans l’éditeur web &#x200B;](assets/web-editor-smart-suggestion.png) {width="800"}
 
 
 *Affichez des suggestions intelligentes pour rechercher et ajouter des références de contenu correspondantes à partir de votre référentiel de contenu.*

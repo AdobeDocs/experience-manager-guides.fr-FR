@@ -25,7 +25,7 @@ Pour créer un mappage, procédez comme suit :
 
    ![](images/create-map-options.png)
 
-   Vous pouvez également accéder à cette option à partir de la page d&#39;accueil de [](./intro-home-page.md) et du menu d&#39;options d&#39;un dossier dans la vue Explorateur.
+   Vous pouvez également accéder à cette option à partir de la page d&#39;accueil de [&#128279;](./intro-home-page.md) et du menu d&#39;options d&#39;un dossier dans la vue Explorateur.
 
 2. La boîte de dialogue **Nouvelle carte** s’affiche.
 
@@ -64,7 +64,7 @@ Effectuez les étapes suivantes pour ajouter des rubriques à un fichier de mapp
 
    - **B** - \(*Toolbar*\) Il s’agit de la barre d’outils qui vous permet d’utiliser des fichiers de mappage. Pour plus d’informations sur les fonctionnalités disponibles via la barre d’outils, consultez la section [Fonctionnalités disponibles dans la barre d’outils de l’éditeur de cartes](#features-available-in-the-map-editors-toolbar).
 
-   - **C** - \(*Vues des cartes*\) : permet de basculer l’éditeur de cartes entre les options Disposition, Auteur, Source et Aperçu. La vue **Disposition** permet d&#39;organiser les rubriques dans un plan DITA. Cela donne l’arborescence ou la vue hiérarchique de la carte. La vue **Auteur** vous permet de modifier les rubriques dans l’éditeur de cartes. Cela donne également la vue WYSIWYG du fichier de mappage. La vue **** vous permet d&#39;utiliser le code XML sous-jacent du fichier de mappage. L’aperçu vous donne une vue consolidée de toutes les rubriques et sous-cartes dans le fichier de mappage.
+   - **C** - \(*Vues des cartes*\) : permet de basculer l’éditeur de cartes entre les options Disposition, Auteur, Source et Aperçu. La vue **Disposition** permet d&#39;organiser les rubriques dans un plan DITA. Cela donne l’arborescence ou la vue hiérarchique de la carte. La vue **Auteur** vous permet de modifier les rubriques dans l’éditeur de cartes. Cela donne également la vue WYSIWYG du fichier de mappage. La vue **&#x200B;**&#x200B;vous permet d&#39;utiliser le code XML sous-jacent du fichier de mappage. L’aperçu vous donne une vue consolidée de toutes les rubriques et sous-cartes dans le fichier de mappage.
 
    - **D** - \(*Panneau de gauche*\) : donne accès au panneau de gauche, qui permet d’accéder aux collections, à l’explorateur, à la carte, au plan et à d’autres fonctionnalités. Vous pouvez le développer ou le réduire en sélectionnant l’icône Développer/Réduire . Pour plus d’informations sur les fonctionnalités disponibles dans le panneau de gauche, consultez la section [Panneau de gauche](./web-editor-left-panel.md) dans l’éditeur.
 

@@ -18,7 +18,7 @@ Les métadonnées sont des informations supplémentaires sur la sortie. Dans AEM
 
 Effectuez les étapes suivantes pour transmettre les métadonnées à la sortie à l’aide de la publication DITA-OT :
 
-1. Dans l’interface utilisateur ****, accédez au fichier de mappage DITA pour lequel vous souhaitez transmettre les métadonnées au DITA-OT, puis cliquez dessus.
+1. Dans l’interface utilisateur **&#x200B;**, accédez au fichier de mappage DITA pour lequel vous souhaitez transmettre les métadonnées au DITA-OT, puis cliquez dessus.
 1. Sélectionnez et modifiez un paramètre prédéfini de sortie auquel vous souhaitez transmettre les champs de métadonnées. Par exemple, sélectionnez le paramètre prédéfini de sortie PDF.
 1. Sélectionnez **DITA-OT** sous l’option Générer &lt;sortie\> à l’aide du paramètre prédéfini de sortie sélectionné.
 
@@ -45,4 +45,4 @@ Effectuez les étapes suivantes pour transmettre les métadonnées à la sortie 
 
 Les propriétés de métadonnées sélectionnées seront transmises à la sortie générée à l&#39;aide de DITA-OT.
 
-**Rubrique parente :**[ Génération de sortie](generate-output.md)
+**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)

@@ -104,7 +104,7 @@ Pour plus d’informations, consultez la section [Contenu réutilisable](../user
 
 ### Attribut &#39;Format&#39; ajouté pour les liens de référence
 
-Adobe Experience Manager Guides ajoute désormais un attribut **format** pour les liens de référence dans l’éditeur. Cet attribut s&#39;affiche dans la vue **** et indique clairement le type de fichier, par exemple :
+Adobe Experience Manager Guides ajoute désormais un attribut **format** pour les liens de référence dans l’éditeur. Cet attribut s&#39;affiche dans la vue **&#x200B;**&#x200B;et indique clairement le type de fichier, par exemple :
 
 - Pour les fichiers dotés de l’extension **.pdf**, le format est défini sur **pdf**
 - Pour les fichiers dotés de l’extension **.html**, le format est défini sur **html**

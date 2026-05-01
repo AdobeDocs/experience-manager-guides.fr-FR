@@ -99,7 +99,7 @@ Pour intégrer le contenu dans Experience Manager Guides, procédez comme suit :
         ```
 
       - Modèles
-        ![ Moteur de modèle ](assets/data-source-TemplatingEngine.png){width="800"}
+        ![&#x200B; Moteur de modèle &#x200B;](assets/data-source-TemplatingEngine.png){width="800"}
       - Données générées à partir de la même source de données mais de modèles différents
         ![Données générées](assets/data-source-templates-topics.png){width="800"}
 

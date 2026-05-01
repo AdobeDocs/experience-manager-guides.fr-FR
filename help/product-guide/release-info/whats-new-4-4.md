@@ -33,7 +33,7 @@ Pour en savoir plus sur la description de la fonctionnalité **Historique des ve
 
 Vous pouvez définir des attributs de condition dans vos rubriques DITA. Ensuite, utilisez les attributs de condition dans le paramètre prédéfini de condition pour publier le contenu dans un plan DITA. Experience Manager Guides offre désormais également une expérience enrichie dans l’éditeur web, ce qui vous permet de créer et de gérer plus efficacement les paramètres prédéfinis de condition. Vous pouvez également facilement les modifier, les dupliquer ou les supprimer.
 
-![Paramètres prédéfinis de condition) dans l’onglet Gérer de l’éditeur web ](assets/web-editor-manage-condition-presets.png){width="550"}
+![Paramètres prédéfinis de condition) dans l’onglet Gérer de l’éditeur web &#x200B;](assets/web-editor-manage-condition-presets.png){width="550"}
 
 Pour plus d’informations, consultez la section [Utilisation de paramètres prédéfinis de condition](../user-guide/generate-output-use-condition-presets.md).
 
@@ -41,7 +41,7 @@ Pour plus d’informations, consultez la section [Utilisation de paramètres pr�
 
 Vous bénéficiez désormais d’une expérience repensée permettant d’ajouter ou de modifier les attributs d’un élément à partir du panneau **Propriétés du contenu** dans l’éditeur web.
 
-![ Panneau Attributs ](assets/attributes-multiple-properties.png){width="300"}
+![&#x200B; Panneau Attributs &#x200B;](assets/attributes-multiple-properties.png){width="300"}
 
 *Ajoutez des attributs à partir du panneau Propriétés du contenu.*
 
@@ -80,7 +80,7 @@ Les options **Mise à jour manuelle** et **Mise à jour automatique** sont plus 
 Elle permet également de dupliquer une ligne de base en fonction du libellé. La version de référence est sélectionnée en fonction du libellé donné (s’il existe) lors de la duplication, ou sélectionne la version à partir de la ligne de base dupliquée.
 
 
-![dupliquer un ](assets/duplicate-baseline.png) {width="300"} de référence
+![dupliquer un &#x200B;](assets/duplicate-baseline.png) {width="300"} de référence
 
 *Dupliquez une ligne de base en fonction d’un libellé ou créez une copie exacte.*
 
@@ -152,7 +152,7 @@ Pour plus d’informations, consultez la description de la fonctionnalité **Pro
 
 Vous pouvez désormais choisir la manière d’afficher les fichiers par défaut dans l’éditeur web. Vous pouvez afficher la liste des fichiers en fonction des titres ou des noms de fichier à partir des différents panneaux à partir de la vue Création.
 
-![ Boîte de dialogue Préférences utilisateur ](assets/user-preferences-2311.png){width="550"}
+![&#x200B; Boîte de dialogue Préférences utilisateur &#x200B;](assets/user-preferences-2311.png){width="550"}
 
 *Modifiez la manière d’afficher les fichiers par défaut à partir de la boîte de dialogue **Préférences utilisateur**.*
 
@@ -250,16 +250,16 @@ Pour en savoir plus, consultez l’onglet **Métadonnées** dans la [Publication
 Experience Manager Guides fournit des modèles PDF prêts à l’emploi ou d’usine. Dupliquez les modèles PDF d’usine pour créer les modèles PDF personnalisés.
 
 Vous pouvez désormais également prévisualiser la miniature d’un modèle lors de la création et de la duplication d’un modèle. Vous pouvez également modifier ou supprimer cette image. Cette fonctionnalité est utile pour marquer ou distinguer les modèles portant des noms similaires.
-En savoir plus sur le modèle [](../native-pdf/pdf-template.md).
+En savoir plus sur le modèle [&#128279;](../native-pdf/pdf-template.md).
 
-![ Boîte de dialogue Dupliquer le modèle PDF ](assets/duplicate-template.png){width="550"}
+![&#x200B; Boîte de dialogue Dupliquer le modèle PDF &#x200B;](assets/duplicate-template.png){width="550"}
 
 *Dupliquez un modèle PDF existant.*
 
 
 ### Modifier l’ordre des pages et publier plusieurs pages par feuille
 
-Outre la publication des pages en fonction du document source, vous pouvez également modifier l’ordre des pages dans PDF lors de la publication d’un document de plusieurs pages.  Vous avez ainsi la possibilité de publier les pages dans différents ordres, comme toutes les pages impaires ou paires en premier. Vous pouvez également publier sous forme de livret et lire les pages comme un livre. Vous pouvez également décider du nombre de pages que vous souhaitez publier sur une seule feuille de papier. Pour plus d’informations, consultez la section [ Organisation de la page ](../native-pdf/components-pdf-template.md#page-organization).
+Outre la publication des pages en fonction du document source, vous pouvez également modifier l’ordre des pages dans PDF lors de la publication d’un document de plusieurs pages.  Vous avez ainsi la possibilité de publier les pages dans différents ordres, comme toutes les pages impaires ou paires en premier. Vous pouvez également publier sous forme de livret et lire les pages comme un livre. Vous pouvez également décider du nombre de pages que vous souhaitez publier sur une seule feuille de papier. Pour plus d’informations, consultez la section [&#x200B; Organisation de la page &#x200B;](../native-pdf/components-pdf-template.md#page-organization).
 
 ### Trier les termes du glossaire en fonction des clés de tri
 
@@ -270,4 +270,4 @@ Pour plus d’informations, voir [Paramètres avancés de PDF](../native-pdf/com
 ### Amélioration de la gestion des ressources pour les modèles PDF natifs
 
 Experience Manager Guides a amélioré la gestion des ressources pour les modèles PDF natifs. Vous pouvez désormais partager et réutiliser des ressources, telles que des images, des fichiers CSS et des fichiers de polices, sur plusieurs modèles Native PDF. Grâce à cette amélioration, la gestion des ressources d’un grand nombre de modèles est beaucoup plus simple. Vous n’avez pas besoin de créer des ressources en double pour chaque modèle. Vous pouvez également les conserver dans un dossier partagé et les utiliser dans tous les modèles PDF natifs.
-Pour plus d&#39;informations, voir [Modèle ](../native-pdf/pdf-template.md).
+Pour plus d&#39;informations, voir [Modèle &#x200B;](../native-pdf/pdf-template.md).

@@ -77,9 +77,9 @@ Si la même rubrique est référencée plusieurs fois dans un fichier, vous pouv
 
 ![Paramètre prédéfini AEM Sites hérité](assets/aem-sites-legacy.png)
 
-*Spécifiez le contexte de publication des rubriques liées à partir de l’onglet **Références de mappage croisé**du préréglage **AEM Sites**.*
+*Spécifiez le contexte de publication des rubriques liées à partir de l’onglet **Références de mappage croisé**&#x200B;du préréglage **AEM Sites**.*
 
-En savoir plus sur les [paramètres prédéfinis ](../user-guide/generate-output-aem-site.md).
+En savoir plus sur les [paramètres prédéfinis &#x200B;](../user-guide/generate-output-aem-site.md).
 
 ### Option permettant de choisir une hiérarchie de fichiers plate ou imbriquée pour la sortie HTML5
 

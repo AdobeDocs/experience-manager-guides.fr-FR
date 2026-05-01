@@ -24,7 +24,7 @@ Avant de poursuivre la configuration, assurez-vous que les conditions préalable
 
 - **Autorisations requises** : vous devez disposer des autorisations suivantes :
 
-   - Accès à **** pour déployer des packages.
+   - Accès à **&#x200B;**&#x200B;pour déployer des packages.
    - Accès au **référentiel Git** associé à votre environnement.
    - Les autorisations de création et de modification des paramètres prédéfinis dans AEM Guides.
 
@@ -86,7 +86,7 @@ Installez le **Package de composants (guides-components.all-1.x.x.zip)** puis ef
 1. **Créer un nouveau paramètre prédéfini :**
    1. Ouvrez un plan DITA dans AEM Guides et accédez au panneau **Sortie**.
    2. Sélectionnez **Créer un paramètre prédéfini**.
-   3. Sélectionnez le type comme ****.
+   3. Sélectionnez le type comme **&#x200B;**.
    4. Saisissez le nom du paramètre prédéfini.
    5. Décochez le paramètre **Utiliser le mappage des composants hérités**.
 
@@ -119,7 +119,7 @@ Installez le **Package de composants (guides-components.all-1.x.x.zip)** puis ef
    1. Une fois le paramètre prédéfini configuré, générez le site AEM pour le plan DITA correspondant.
    2. Le site généré sera disponible au chemin d’accès suivant : `/content/AEMG-Docs-Site/en/docs/product`.
 2. **Modifier le chemin de génération par défaut (facultatif) :** si vous souhaitez modifier le chemin par défaut pour la génération du site, procédez comme suit :
-   1. Accédez à ****.
+   1. Accédez à **&#x200B;**.
    2. Créez une page produit sous la structure de site prête à l’emploi.
    3. Accédez à **Documents AEMG** > **Français** > **Documents**.
 

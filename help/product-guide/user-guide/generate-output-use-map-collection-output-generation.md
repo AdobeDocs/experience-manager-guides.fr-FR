@@ -23,7 +23,7 @@ Map Collection vous donne une option pour voir s&#39;il y a une modification dan
 
 Pour créer une collection Map et ajouter des cartes DITA à la collection, procédez comme suit :
 
-1. Ouvrez la page d&#39;accueil de [](./intro-home-page.md#map-collections) puis sélectionnez **Mapper les collections**.
+1. Ouvrez la page d&#39;accueil de [&#128279;](./intro-home-page.md#map-collections) puis sélectionnez **Mapper les collections**.
 
    La page **Mapper des collections** s’ouvre dans un nouvel onglet.
 
@@ -149,4 +149,4 @@ De la même manière que vous pouvez annuler une tâche de génération de sorti
 
 ![](images/cancel-publish-task-map-collection.png)
 
-**Rubrique parente :**[ Génération de sortie](generate-output.md)
+**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)

@@ -41,7 +41,7 @@ Par exemple, ajoutez `/conf/we-retail` dans la configuration cloud. Cette config
 1. Dans la boîte de dialogue **Générer le fragment de contenu**, renseignez les informations suivantes sous les onglets **Général** et **Mappage**.
 
    Onglet **Général**
-   ![ Ajouter le modèle de fragment et les détails de mappage dans la boîte de dialogue Publier en tant que fragment de contenu .](images/generate-content-fragment.png)
+   ![&#x200B; Ajouter le modèle de fragment et les détails de mappage dans la boîte de dialogue Publier en tant que fragment de contenu .](images/generate-content-fragment.png)
    *Ajoutez le chemin, le nom, le titre et le filtrage des conditions pour publier une rubrique ou ses éléments en tant que fragment de contenu.*
 
 

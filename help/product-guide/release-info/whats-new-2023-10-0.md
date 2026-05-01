@@ -46,7 +46,7 @@ Les améliorations du PDF natif suivantes ont été apportées à la version d�
 ### Réinitialiser le numéro de page de la première page d&#39;une mise en page
 
 Dans la sortie PDF native, vous pouvez redémarrer les numéros de page et spécifier le numéro à partir duquel la numérotation commence. Vous pouvez également commencer la numérotation uniquement pour la première occurrence d’une section.
-En savoir plus sur l’utilisation [ des propriétés de page d’une mise en page ](../native-pdf/design-page-layout.md#page-props-page-layout).
+En savoir plus sur l’utilisation [&#x200B; des propriétés de page d’une mise en page &#x200B;](../native-pdf/design-page-layout.md#page-props-page-layout).
 
 
 ### Afficher les chapitres sans numéros automatiques dans la table des matières

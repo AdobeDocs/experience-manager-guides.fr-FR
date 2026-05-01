@@ -40,7 +40,7 @@ Pour commencer à utiliser la configuration de profil de dossiers pour le conten
    - [Panneaux](#configure-panels)
    - [Modèles de contenu](#configure-content-templates)
    - [Paramètres prédéfinis de sortie](#configure-output-presets)
-   - [éditeur ](#html-editor-settings)
+   - [éditeur &#x200B;](#html-editor-settings)
    - [Publication de profils](#manage-publish-profiles)
 
 Pour accéder à ces paramètres, basculez vers la vue Éditeur et sélectionnez **Paramètres** dans le menu **Options** comme illustré ci-dessous :
@@ -77,7 +77,7 @@ Pour le contenu de formation théorique et pratique, assurez-vous que seules les
 - **Responsable de cours** : fournit un espace de travail dédié à la création et à la gestion des cours.
 - **Map** : fournit une vue cartographique du fichier de mappage actuellement ouvert.
 - **Plan** : affiche la hiérarchie structurelle de la rubrique ou de la carte actuellement ouverte, ce qui permet une navigation rapide et un accès au niveau de l’élément.
-- **** : permet d’accéder à des fonctionnalités de gestion de projet fiables en plus des fonctionnalités de base du système de gestion de contenu par composant (CCMS) de Experience Manager Guides.
+- **&#x200B;**&#x200B;: permet d’accéder à des fonctionnalités de gestion de projet fiables en plus des fonctionnalités de base du système de gestion de contenu par composant (CCMS) de Experience Manager Guides.
 - **Contenu réutilisable** : permet de gérer et d’insérer des éléments ou des rubriques réutilisables pour garantir la cohérence et réduire la duplication du contenu.
 - **Glossaire** : permet de créer et de gérer des termes de glossaire et de les inclure dans les rubriques afin de conserver une terminologie cohérente.
 - **Fragments de code** : permet de créer et de réutiliser de petits fragments de contenu dans divers sujets de vos cours.
@@ -116,7 +116,7 @@ Pour le contenu de formation théorique et pratique, assurez-vous que seules les
 
 >[!NOTE]
 >
-> Ce paramètre est disponible uniquement lorsque la fonction de contenu de formation est activée dans les paramètres **** > **Général**.
+> Ce paramètre est disponible uniquement lorsque la fonction de contenu de formation est activée dans les paramètres **&#x200B;**&#x200B;> **Général**.
 
 Ce paramètre vous permet de gérer les modèles de création et de publication présents dans le panneau [Gauche) de l’éditeur](../user-guide/web-editor-left-panel.md). Vous pouvez ajouter, supprimer ou réorganiser des modèles de création et de sortie, qui seront ensuite accessibles aux auteurs et aux éditeurs.
 
@@ -208,7 +208,7 @@ Vous pouvez également définir l’ordre d’affichage des modèles présents d
 
 >[!NOTE]
 >
-> Ce paramètre est disponible uniquement lorsque la fonction de contenu de formation est activée dans les paramètres **** > **Général**.
+> Ce paramètre est disponible uniquement lorsque la fonction de contenu de formation est activée dans les paramètres **&#x200B;**&#x200B;> **Général**.
 
 L’onglet Paramètres prédéfinis de sortie vous permet de définir les formats de sortie disponibles pour publier un cours. Il contient deux sections : **Types de paramètres prédéfinis de sortie autorisés** et **Paramètres prédéfinis de sortie courants**.
 

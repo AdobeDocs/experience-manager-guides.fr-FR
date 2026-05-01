@@ -198,9 +198,9 @@ Dans l’**éditeur**, procédez comme suit pour créer un mappage à l’aide d
 
    Le message Mappage créé s’affiche.
 
-Dans l’interface utilisateur d’****, procédez comme suit pour créer un mappage à l’aide du modèle de mappage personnalisé :
+Dans l’interface utilisateur d’**&#x200B;**, procédez comme suit pour créer un mappage à l’aide du modèle de mappage personnalisé :
 
-1. Dans l’interface utilisateur d’**** accédez au dossier dans lequel vous souhaitez créer le mappage.
+1. Dans l’interface utilisateur d’**&#x200B;** accédez au dossier dans lequel vous souhaitez créer le mappage.
 1. Sélectionnez **Créer \> DITA Map**.
 1. Sur la page Plan directeur, sélectionnez le modèle de carte à utiliser, puis sélectionnez **Suivant**. Par exemple, si vous avez créé un modèle de mappage « test-template », sélectionnez-le.
 1. Sur la page Propriétés , spécifiez le mappage **Titre**.
@@ -230,4 +230,4 @@ La carte génère toutes les ressources qui sont référencées à l’intérieu
 
 - Si un autre mappage ou une autre rubrique est créé au même niveau dans le dossier, les noms des ressources nouvellement créées sont ajoutés avec 0,1,2, etc. Vous pouvez choisir d’ouvrir le mappage pour le modifier ou d’enregistrer le fichier de mappage dans le référentiel.
 
-**Rubrique parente :**[ Présentation de l’éditeur de cartes](map-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur de cartes](map-editor.md)

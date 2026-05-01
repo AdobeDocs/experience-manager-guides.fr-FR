@@ -29,7 +29,7 @@ Une fois ajoutés, vous pouvez afficher les connecteurs configurés répertorié
 
 Vous pouvez créer un générateur de fragments de contenu pour récupérer les données d’une source de données connectée. Vous pouvez ensuite insérer les données dans vos rubriques et les modifier.
 
-Une fois que vous avez créé un générateur de fragment de contenu, vous pouvez le réutiliser pour insérer les données dans n’importe quelle rubrique. Pour plus d’informations, consultez la section [ Insérer un fragment de contenu à partir de votre source de données ](../user-guide/web-editor-content-snippet.md).
+Une fois que vous avez créé un générateur de fragment de contenu, vous pouvez le réutiliser pour insérer les données dans n’importe quelle rubrique. Pour plus d’informations, consultez la section [&#x200B; Insérer un fragment de contenu à partir de votre source de données &#x200B;](../user-guide/web-editor-content-snippet.md).
 
 
 

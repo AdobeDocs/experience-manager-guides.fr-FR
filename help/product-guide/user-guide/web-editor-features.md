@@ -70,7 +70,7 @@ Un outil puissant et piloté par l’IA conçu pour améliorer votre productivit
 
 **Autres actions** : vous permet d’accéder à **Assets** et **Paramètres**.
 
-L’option **** vous dirige vers une destination en fonction de votre configuration :
+L’option **&#x200B;**&#x200B;vous dirige vers une destination en fonction de votre configuration :
 
 - **Services cloud** : si vous utilisez des services cloud, la sélection de l’option **Assets** vous conduit à la page de navigation d’AEM.
 
@@ -87,7 +87,7 @@ L’option **Paramètres** est disponible uniquement pour les administrateurs et
 
   ![](images/editor-setting-general.png){width="650"}
 
-   - **Vérification orthographique** : il existe deux options : **Vérification orthographique AEM** et **Vérification orthographique du navigateur**. Par défaut, l’éditeur utilise la fonction de vérification orthographique du navigateur , où la vérification orthographique est effectuée à l’aide du dictionnaire intégré du navigateur. Vous pouvez passer à la vérification orthographique d’AEM pour utiliser le dictionnaire Adobe Experience Manager, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section [ Personnaliser le dictionnaire par défaut d’AEM ](../cs-install-guide/customize-aem-custom-dictionary.md) dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
+   - **Vérification orthographique** : il existe deux options : **Vérification orthographique AEM** et **Vérification orthographique du navigateur**. Par défaut, l’éditeur utilise la fonction de vérification orthographique du navigateur , où la vérification orthographique est effectuée à l’aide du dictionnaire intégré du navigateur. Vous pouvez passer à la vérification orthographique d’AEM pour utiliser le dictionnaire Adobe Experience Manager, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section [&#x200B; Personnaliser le dictionnaire par défaut d’AEM &#x200B;](../cs-install-guide/customize-aem-custom-dictionary.md) dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
 
    - **Condition**
 
@@ -194,9 +194,9 @@ Dans la capture d’écran suivante, seuls 3 des 4 éléments configurés de la 
 
    - Pour créer un profil, sélectionnez la base de connaissances ServiceNow dans le menu déroulant **Type de serveur**. Saisissez un profil **Nom**. Dans l’URL **ServiceNow**, saisissez le site client que vous utiliseriez pour publier la sortie, puis ajoutez les **Nom d’utilisateur** et **Mot de passe** fournis par le site client ServiceNow. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
 
-     ![Profil de publication ServiceNow ](./images/service-now-publish-profile.png){width="550"}
+     ![Profil de publication ServiceNow &#x200B;](./images/service-now-publish-profile.png){width="550"}
 
-  Après la validation, vous pouvez sélectionner le profil de publication dans les paramètres prédéfinis de sortie d&#39;un plan DITA et l&#39;utiliser pour générer la sortie vers le serveur **** ou **ServiceNow** que vous avez choisi.
+  Après la validation, vous pouvez sélectionner le profil de publication dans les paramètres prédéfinis de sortie d&#39;un plan DITA et l&#39;utiliser pour générer la sortie vers le serveur **&#x200B;**&#x200B;ou **ServiceNow** que vous avez choisi.
 
   En savoir plus sur le paramètre prédéfini de sortie [Base de connaissances](../user-guide/generate-output-knowledge-base.md).
 
@@ -293,7 +293,7 @@ L’explication détaillée de ces fonctionnalités est la suivante :
 
 **Modification des actions**
 
-Lorsque vous modifiez une rubrique dans l’éditeur, accédez aux différentes actions d’édition telles que **Couper** ou ***Ctrl***+***X*** , **Copier** ou ***Ctrl***+***C*** , **Undo** ou ***Ctrl***+***Z*** ou **Ctrl**+***Y*** et ***Delete*** **** présentes dans la liste déroulante Menu .
+Lorsque vous modifiez une rubrique dans l’éditeur, accédez aux différentes actions d’édition telles que **Couper** ou ***Ctrl***+***X*** , **Copier** ou ***Ctrl***+***C*** , **Undo** ou ***Ctrl***+***Z*** ou **Ctrl**+***Y*** et ***Delete*** **&#x200B;**&#x200B;présentes dans la liste déroulante Menu .
 
 
 **Rechercher et remplacer**
@@ -323,7 +323,7 @@ Pour accéder à l’historique des versions et revenir à une version spécifiq
 
    La boîte de dialogue **Historique des versions** s’affiche.
 
-   ![ Boîte de dialogue Historique des versions ](images/version-history-dialog-web-editor.png){width="550"}
+   ![&#x200B; Boîte de dialogue Historique des versions &#x200B;](images/version-history-dialog-web-editor.png){width="550"}
 
    *Prévisualiser les modifications dans les différentes versions d&#39;une rubrique.*
 
@@ -340,7 +340,7 @@ Pour accéder à l’historique des versions et revenir à une version spécifiq
 
    Onglet **Métadonnées** : les métadonnées nouvellement ajoutées sont dans la police verte et les métadonnées supprimées sont dans la police rouge.
 
-   ![Différence de métadonnées pour les versions ](images/metadata-version-diff.png){width="550"}
+   ![Différence de métadonnées pour les versions &#x200B;](images/metadata-version-diff.png){width="550"}
 
    *Comparez les métadonnées de différentes versions dans l’historique des versions.*
 
@@ -898,9 +898,9 @@ Certaines des fonctionnalités du panneau de gauche sont disponibles dans la sec
 - [Révision](#review)
 
 
-Une option supplémentaire intitulée **** s’affiche également dans le panneau de gauche si Adobe Workfront est configuré.
+Une option supplémentaire intitulée **&#x200B;**&#x200B;s’affiche également dans le panneau de gauche si Adobe Workfront est configuré.
 
-Pour plus d’informations, consultez Intégration de [](./workfront-integration.md).
+Pour plus d’informations, consultez Intégration de [&#128279;](./workfront-integration.md).
 
 >[!NOTE]
 >
@@ -1009,7 +1009,7 @@ Sélectionnez l’icône **Filtrage avancé** ![icône de filtre avancé](images
 
 Vous pouvez afficher les options suivantes sous les onglets **Général** et **Avancé**.
 
-![ boîte de dialogue filtre avancé ](images/repository-filter-search-advanced.png) {width="650"}
+![&#x200B; boîte de dialogue filtre avancé &#x200B;](images/repository-filter-search-advanced.png) {width="650"}
 
 
 **Général**
@@ -1738,7 +1738,7 @@ Effectuez les étapes suivantes pour modifier la valeur :
 
 Vous pouvez également appliquer des valeurs à un attribut en sélectionnant plusieurs valeurs dans la liste déroulante.
 
-Vue Source ****
+Vue Source **&#x200B;**
 
 Vous pouvez également modifier les valeurs à partir de la liste déroulante de l’attribut dans la vue Source. La vue Source vous empêche également d’ajouter une valeur incorrecte.
 
@@ -1810,7 +1810,7 @@ Pour savoir comment créer des modèles personnalisés, consultez la section [Cr
 
 Dans Experience Manager Guides, vous pouvez ajouter et importer des citations et les appliquer à votre contenu. Vous pouvez ajouter ces citations à partir de n’importe quelle source de livres, de sites web et de revues.
 
-Pour plus d’informations, consultez la section [ Ajouter et gérer des citations dans votre contenu ](./web-editor-apply-citations.md).
+Pour plus d’informations, consultez la section [&#x200B; Ajouter et gérer des citations dans votre contenu &#x200B;](./web-editor-apply-citations.md).
 
 ### Variables de langue
 
@@ -1883,7 +1883,7 @@ Vous pouvez également utiliser l&#39;option **Rechercher dans la carte** du men
 
 ### Modèles PDF
 
-Permet d’utiliser divers modèles PDF. Pour plus de détails, consultez [les modèles ](../native-pdf/pdf-template.md).
+Permet d’utiliser divers modèles PDF. Pour plus de détails, consultez [les modèles &#x200B;](../native-pdf/pdf-template.md).
 
 ### Révision
 
@@ -1974,7 +1974,7 @@ Vous pouvez accéder à la fonction **Propriétés du contenu** en sélectionnan
 
 1. Dans le panneau déroulant **Attribut**, sélectionnez l’attribut dans la liste déroulante et spécifiez une valeur d’attribut.  Sélectionnez ensuite **Ajouter**.
 
-   ![panneau attributs avec plusieurs attributs ](images/attributes-multiple-properties.png){width="300"}
+   ![panneau attributs avec plusieurs attributs &#x200B;](images/attributes-multiple-properties.png){width="300"}
 
 1. Pour modifier l’attribut, passez la souris dessus et sélectionnez **Modifier** ![icône-d’édition](images/edit_pencil_icon.svg).
 

@@ -45,7 +45,7 @@ Après avoir inséré vos citations dans vos rubriques, vous pouvez les prévisu
 
 *Afficher la liste des citations dans le panneau Citations.*
 
-Pour plus d’informations, consultez la section [ Ajouter et gérer des citations dans votre contenu ](../user-guide/web-editor-apply-citations.md).
+Pour plus d’informations, consultez la section [&#x200B; Ajouter et gérer des citations dans votre contenu &#x200B;](../user-guide/web-editor-apply-citations.md).
 
 
 ## Publication sur un fragment de contenu
@@ -182,21 +182,21 @@ Pour plus d’informations, consultez [Utilisation de la collecte de mappages po
 
 
 Grâce à la fonction d’activation en bloc d’AEM Guides, vous pouvez activer rapidement et facilement votre contenu, de la création à la publication. Dans la carte Activation en bloc, vous pouvez inclure le paramètre prédéfini de sortie Native PDF, le site AEM, PDF, HTML5, personnalisé et la sortie JSON.
-Pour plus d’informations, consultez la section [ Activation en bloc du contenu publié ](../user-guide/conf-bulk-activation.md).
+Pour plus d’informations, consultez la section [&#x200B; Activation en bloc du contenu publié &#x200B;](../user-guide/conf-bulk-activation.md).
 
 ## Outil de déplacement en bloc amélioré
 
 Désormais, en tant qu’administrateur, vous pouvez utiliser l’outil de déplacement en bloc amélioré pour déplacer des dossiers contenant de nombreux fichiers d’un emplacement à un autre.
 Vous pouvez utiliser la boîte de dialogue Parcourir le fichier pour sélectionner les dossiers sources à déplacer. Vous pouvez également accéder à l’emplacement de destination pour déplacer les dossiers sources. Sélectionnez ![icône d’information](assets/info-icon.svg) {width="25"} près d’un champ pour afficher plus d’informations à son sujet.
 
-Pour plus d’informations, consultez la section [ Déplacer des fichiers en bloc ](../user-guide/authoring-file-management.md#move-files-bulk).
+Pour plus d’informations, consultez la section [&#x200B; Déplacer des fichiers en bloc &#x200B;](../user-guide/authoring-file-management.md#move-files-bulk).
 
 
 ## Expérience d’aperçu améliorée à partir du menu contextuel
 
 Utilisez le menu contextuel pour prévisualiser rapidement le fichier (.dita, .xml, audio, vidéo ou image) sans l’ouvrir. Vous pouvez désormais redimensionner le volet d’aperçu. Si le contenu contient un lien de référence, vous pouvez le sélectionner pour l’ouvrir dans un nouvel onglet.
 
-](assets/quick-preview_cs.png){width="800"} du volet d’aperçu![
+![&#128279;](assets/quick-preview_cs.png){width="800"} du volet d’aperçu
 
 *Prévisualisez le fichier dans le volet.*
 

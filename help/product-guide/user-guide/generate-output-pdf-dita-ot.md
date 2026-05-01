@@ -26,7 +26,7 @@ Pour créer le paramètre prédéfini PDF à partir de la console de mappage, pr
 
    Vous pouvez également accéder au fichier de mappage à partir du widget **Fichiers récents** dans la section [Aperçu](./intro-home-page.md#overview). Le fichier de mappage sélectionné s’ouvre dans la console Mappage .
 1. Dans l’onglet **Paramètres prédéfinis de sortie**, sélectionnez l’icône + pour créer un paramètre prédéfini de sortie.
-1. Sélectionnez **** dans la liste déroulante Type de la boîte de dialogue **Nouveau paramètre prédéfini de sortie**.
+1. Sélectionnez **&#x200B;**&#x200B;dans la liste déroulante Type de la boîte de dialogue **Nouveau paramètre prédéfini de sortie**.
 1. Dans le champ **Nom**, attribuez un nom à ce paramètre prédéfini.
 1. Dans le champ **Générer PDF à l’aide de**, sélectionnez **DITA-OT**.
 1. Sélectionnez l’option **Ajouter au profil du dossier actuel** pour créer un paramètre prédéfini de sortie dans le profil du dossier actuel. L’![icône de profil de dossier](images/global-preset-icon.svg) indique un paramètre prédéfini au niveau du profil de dossier.
@@ -62,7 +62,7 @@ L’onglet **Avancé** contient les options de configuration suivantes :
 - Conserver les fichiers temporaires
 - Propriétés du fichier
 
-Pour plus d’informations sur les options de configuration des paramètres prédéfinis, consultez la section Configuration des paramètres prédéfinis de PDF [](#pdf-preset-configuration).
+Pour plus d’informations sur les options de configuration des paramètres prédéfinis, consultez la section Configuration des paramètres prédéfinis de PDF [&#128279;](#pdf-preset-configuration).
 
 
 ## Création du paramètre prédéfini PDF DITA-OT à partir du tableau de bord de carte
@@ -90,7 +90,7 @@ Par exemple, **Chemin de sortie/Chemin de destination** - Ici, **Chemin de sorti
 | --- | --- |
 | Type de sortie (*applicable uniquement au tableau de bord des cartes*) | Type de sortie que vous souhaitez générer. Pour générer une sortie PDF, choisissez l’option PDF . |
 | Nom du paramètre (*applicable uniquement au tableau de bord de carte*) | Attribuez un nom explicite aux paramètres de sortie PDF que vous êtes en train de créer. Par exemple, vous pouvez spécifier _sortie des clients internes_ ou _sortie des utilisateurs finaux_. |
-| Générer PDF à l’aide de (*applicable uniquement au tableau de bord des cartes*) | Sélectionnez **DITA-OT** pour générer la sortie PDF. Sélectionnez **** si votre administrateur a configuré cette option. Certaines des options de configuration varient lorsque FMPS est sélectionné. En outre, l&#39;option de configuration FMPS n&#39;est disponible que dans le tableau de bord Map. |
+| Générer PDF à l’aide de (*applicable uniquement au tableau de bord des cartes*) | Sélectionnez **DITA-OT** pour générer la sortie PDF. Sélectionnez **&#x200B;**&#x200B;si votre administrateur a configuré cette option. Certaines des options de configuration varient lorsque FMPS est sélectionné. En outre, l&#39;option de configuration FMPS n&#39;est disponible que dans le tableau de bord Map. |
 | Chemin de sortie/chemin de destination | Chemin d’accès dans votre référentiel AEM où est stocké le PDF.<br>Le chemin d’accès Output est défini via la variable `${base_output_path}`, qui est configurée par l’administrateur. Pour configurer le chemin de sortie, consultez la vue [Configurer l’emplacement de sortie de base pour les services cloud](../native-pdf/configure-base-location-cs.md) ou [Configurer l’emplacement de sortie de base pour les services On-prem](../native-pdf/configure-base-output-location.md) en fonction des services que vous utilisez.<br> Vous pouvez également utiliser certaines variables prêtes à l’emploi pour définir le chemin de sortie, la vue [Utiliser des variables pour définir les options Chemin de destination, Nom du site ou Nom de fichier](generate-output-use-variables.md#id18BUG70K05Z). |
 | Arguments de ligne de commande DITA-OT | Spécifiez les arguments supplémentaires que DITA-OT doit traiter lors de la génération de la sortie. Pour plus d&#39;informations sur les arguments de ligne de commande pris en charge dans DITA-OT, consultez la [documentation DITA-OT](https://www.dita-ot.org/). |
 | Nom de la transformation | Indiquez le type de sortie que vous souhaitez générer. Cela est nécessaire si vous souhaitez générer une sortie à l’aide de votre propre plug-in personnalisé, qui est intégré au plug-in DITA-OT. Par exemple, si vous souhaitez générer une sortie XHTML, spécifiez `xhtml`. Pour obtenir la liste des transformations disponibles dans DITA-OT, consultez [Transformations DITA-OT (formats de sortie)](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.html) dans le guide d&#39;utilisation OASIS DITA-OT. |
@@ -102,4 +102,4 @@ Par exemple, **Chemin de sortie/Chemin de destination** - Ici, **Chemin de sorti
 | Propriétés du fichier | Sélectionnez les propriétés à traiter en tant que métadonnées. Ces propriétés sont définies à partir de la page Propriétés du fichier DITA map ou bookmap. Les propriétés que vous sélectionnez dans la liste déroulante s’affichent sous le champ **Propriétés du fichier**. Sélectionnez l’icône croisée en regard de la propriété pour la supprimer. <br><br>Remarque : vous pouvez également transmettre les métadonnées à la sortie à l&#39;aide de la publication DITA-OT. Pour plus de détails, [Transmettez les métadonnées à la sortie à l’aide de DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 
-**Rubrique parente :**[ Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)
+**Rubrique parente :**&#x200B;[&#x200B; Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)

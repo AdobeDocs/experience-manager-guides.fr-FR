@@ -21,7 +21,7 @@ Pour créer une collection de mappages d’activation en bloc, procédez comme s
 
 1. Sélectionnez la mosaïque **Tableau de bord de publication en bloc**.
 
-   Le tableau de bord de publication en bloc s’affiche. Vous pouvez également accéder à ce tableau de bord à partir du panneau de gauche de la page d’accueil d’Adobe Experience Manager Guides [](intro-home-page.md).
+   Le tableau de bord de publication en bloc s’affiche. Vous pouvez également accéder à ce tableau de bord à partir du panneau de gauche de la page d’accueil d’Adobe Experience Manager Guides [&#128279;](intro-home-page.md).
 
    Pour la première fois, une page de collections vierge s’affiche. Si vous avez créé précédemment des collections d’activation en bloc, elles s’affichent sur cette page.
 
@@ -48,7 +48,7 @@ Pour créer une collection de mappages d’activation en bloc, procédez comme s
 
 Les fichiers de mappage DITA sont ajoutés à votre collection de mappages d&#39;activation en bloc.
 
-![ a créé une collection d’activation en bloc](images/bulk-activation-collection-created.png)
+![&#x200B; a créé une collection d’activation en bloc](images/bulk-activation-collection-created.png)
 
 ## Onglet Mappages et paramètres prédéfinis
 
@@ -87,7 +87,7 @@ L’onglet **Historique des contrôles** présente des informations sur les sort
 
 - **Modifié** : indique si le plan DITA a été mis à jour après la dernière publication. En fonction de ces informations, vous pouvez décider d&#39;activer ou non la sortie de ce plan DITA.
 - **Publié** : affiche la date et l’heure de la dernière sortie publiée (ou activée). Si vous sélectionnez le lien, la page Résultats de l’activation s’affiche, qui contient les journaux avec des informations sur le chemin racine où le contenu est activé.
-  ![ l’onglet historique d’audit de la collecte d’activation en bloc créé](images/bulk-collection-audit-history.png)
+  ![&#x200B; l’onglet historique d’audit de la collecte d’activation en bloc créé](images/bulk-collection-audit-history.png)
 
   *Affichez les informations sur les sorties de mappage activées dans l’onglet **Historique d’audit**.*
 
@@ -108,4 +108,4 @@ Les options de filtrage disponibles dans le panneau de gauche sont les suivantes
 
 Les filtres sont mis à jour lorsque vous passez de l’onglet **Mappages et paramètres prédéfinis** à l’onglet **Historique des contrôles** et vice versa.
 
-**Rubrique parente : **[Activation en bloc du contenu publié](conf-bulk-activation.md)
+**Rubrique parente : &#x200B;** [Activation en bloc du contenu publié](conf-bulk-activation.md)

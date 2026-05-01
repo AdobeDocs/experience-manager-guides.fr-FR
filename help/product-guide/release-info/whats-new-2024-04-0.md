@@ -68,7 +68,7 @@ Désormais, en plus d’activer la sortie de votre collection d’activation en 
 Cette fonctionnalité vous permet d’activer votre contenu vers une instance d’aperçu, ce qui vous permet de vérifier son aspect et son fonctionnement avant de l’activer vers l’instance **de publication**.
 
 
-![ l’onglet historique d’audit de la collecte d’activation en bloc créé](assets/bulk-collection-audit-history.png){width="800"}
+![&#x200B; l’onglet historique d’audit de la collecte d’activation en bloc créé](assets/bulk-collection-audit-history.png){width="800"}
 
 *Affichez les informations sur les sorties de mappage activées dans l’onglet **Historique d’audit**.*
 
@@ -173,14 +173,14 @@ Lors de la modification d’un document dans l’éditeur web, vous pouvez déso
 * **Éléments valides à l’emplacement actuel** que vous pouvez insérer à l’emplacement actuel du curseur.
 * **Éléments valides en dehors de l’emplacement actuel** que vous pouvez insérer après l’un des parents pour l’élément actif dans la hiérarchie d’éléments.
 
-![ Boîte de dialogue Insérer un élément ](assets/insert-element-dialog.png){width="300"}
+![&#x200B; Boîte de dialogue Insérer un élément &#x200B;](assets/insert-element-dialog.png){width="300"}
 
 *Afficher les listes séparées d&#39;éléments valides pour insérer un élément à l&#39;emplacement actuel.*
 
 
 Cette liste fractionnée d&#39;éléments valides permet de gérer la structure du contenu et de respecter les normes DITA.
 
-Pour en savoir plus sur la fonction **Insérer un élément**, consultez la section de la barre d’outils Secondaire [](../user-guide/web-editor-features.md#2051ea0j0y4).
+Pour en savoir plus sur la fonction **Insérer un élément**, consultez la section de la barre d’outils Secondaire [&#128279;](../user-guide/web-editor-features.md#2051ea0j0y4).
 
 
 ## Le type de propriétés du contenu s’affiche sous forme de menu déroulant

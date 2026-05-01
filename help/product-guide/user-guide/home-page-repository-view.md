@@ -44,7 +44,7 @@ La barre de navigation Référentiel, située en haut de l’interface du réfé
 - **Nouveau** : permet la création de nouvelles rubriques, cartes et dossiers dans le dossier actif, comme indiqué dans les chemins de navigation.
 - **Assistant IA** : puissant outil optimisé par l’IA, conçu pour améliorer votre productivité grâce à des fonctionnalités d’aide intelligentes. La fonctionnalité [Assistant AI](./ai-assistant.md) n’est actuellement disponible que pour Adobe Experience Manager as a Cloud Service.
 - **Autres actions** : permet d’accéder à des options supplémentaires. Si vous sélectionnez ce bouton, un menu s’ouvre avec les options suivantes :
-   - **** : vous dirige vers une destination en fonction de votre configuration.
+   - **&#x200B;**&#x200B;: vous dirige vers une destination en fonction de votre configuration.
       - **Services cloud** : si vous utilisez des services cloud, la sélection de l’option **Assets** vous conduit à la page de navigation d’AEM.
       - **Logiciel On-premise** : si vous utilisez Adobe Experience Manager Guides (4.2.1 et versions ultérieures), la sélection de l’option **Assets** vous conduit au chemin d’accès actuel au fichier dans l’interface utilisateur d’Assets.
    - **Paramètres Workspace** : vous conduit à la boîte de dialogue **Paramètres Workspace**. Pour plus d’informations, consultez [Configuration des paramètres de Workspace](../cs-install-guide/workspace-settings.md).

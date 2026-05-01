@@ -31,7 +31,7 @@ Un fragment d’expérience est une unité de contenu modulaire au sein de Adobe
 
 ![onglet options des propriétés du fichier](./assets/file-properties-outputs-4-6.png) {width="300"}
 
-*Publiez et affichez les fragments d’expérience d’une rubrique à partir de la section **Sorties**de la section **Propriétés du fichier**.*
+*Publiez et affichez les fragments d’expérience d’une rubrique à partir de la section **Sorties**&#x200B;de la section **Propriétés du fichier**.*
 
 Experience Manager Guides vous permet désormais de publier une rubrique ou ses éléments dans un fragment d’expérience. Vous pouvez créer un mappage JSON entre une rubrique ou ses éléments et un modèle de fragment d’expérience. Vous pouvez également créer des variations de fragments d’expérience à l’aide des filtres de condition.
 
@@ -82,7 +82,7 @@ Si la même rubrique est référencée plusieurs fois dans un fichier, vous pouv
 
 ![Paramètre prédéfini AEM Sites hérité](assets/aem-sites-legacy.png)
 
-*Spécifiez le contexte de publication des rubriques liées à partir de l’onglet **Références de mappage croisé**du préréglage **AEM Sites**.*
+*Spécifiez le contexte de publication des rubriques liées à partir de l’onglet **Références de mappage croisé**&#x200B;du préréglage **AEM Sites**.*
 
 
 
@@ -167,14 +167,14 @@ Lors de la modification d’un document dans l’éditeur web, vous pouvez déso
 - **Éléments valides à l’emplacement actuel** que vous pouvez insérer à l’emplacement actuel du curseur.
 - **Éléments valides en dehors de l’emplacement actuel** que vous pouvez insérer après l’un des parents pour l’élément actif dans la hiérarchie d’éléments.
 
-![ Boîte de dialogue Insérer un élément ](assets/insert-element-dialog.png){width="300"}
+![&#x200B; Boîte de dialogue Insérer un élément &#x200B;](assets/insert-element-dialog.png){width="300"}
 
 *Afficher les listes séparées d&#39;éléments valides pour insérer un élément à l&#39;emplacement actuel.*
 
 
 Cette liste fractionnée d&#39;éléments valides permet de gérer la structure du contenu et de respecter les normes DITA.
 
-Pour en savoir plus sur la fonction **Insérer un élément**, consultez la section de la barre d’outils Secondaire [](../user-guide/web-editor-features.md#2051ea0j0y4).
+Pour en savoir plus sur la fonction **Insérer un élément**, consultez la section de la barre d’outils Secondaire [&#128279;](../user-guide/web-editor-features.md#2051ea0j0y4).
 
 
 ### Redéfinition de l’expérience pour rechercher et filtrer les fichiers dans la vue du référentiel
