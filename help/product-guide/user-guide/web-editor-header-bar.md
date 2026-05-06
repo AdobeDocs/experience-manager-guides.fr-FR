@@ -37,4 +37,4 @@ Utilisez l’icône **Développer** dans la barre d’outils pour masquer la bar
 
 
 
-**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)

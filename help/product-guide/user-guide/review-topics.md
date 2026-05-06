@@ -285,4 +285,4 @@ L’icône **Historique des versions** de la rubrique s’affiche une fois que l
 
 ![](images/version-history-dialog.png)
 
-**Rubrique parente :**[ Présentation de la révision](review.md)
+**Rubrique parente :**&#x200B;[&#x200B; Présentation de la révision](review.md)

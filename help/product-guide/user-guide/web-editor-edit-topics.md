@@ -111,13 +111,13 @@ Experience Manager Guides fournit l’indicateur de copie de travail qui indique
 
 Cette vue affiche le rendu du contenu dans le nouvel éditeur.
 
-![ indicateur de copie de travail ](images/working-copy-text-update-indicator-new-editor-2-0.png){width="550"}
+![&#x200B; indicateur de copie de travail &#x200B;](images/working-copy-text-update-indicator-new-editor-2-0.png){width="550"}
 
 >[!TAB Ancien éditeur]
 
 Cette vue affiche le rendu du contenu dans l’ancien éditeur.
 
-![ indicateur de copie de travail ](images/working-copy-text-update-indicator.png){width="550"}
+![&#x200B; indicateur de copie de travail &#x200B;](images/working-copy-text-update-indicator.png){width="550"}
 
 >[!ENDTABS]
 
@@ -131,11 +131,11 @@ Experience Manager Guides indique également si la dernière copie \(working\) e
 
 >[!TAB Nouvel éditeur]
 
-![ Indicateur de mise à jour de version ](images/version-update-indicator-editor-2-0.png){width="650"}
+![&#x200B; Indicateur de mise à jour de version &#x200B;](images/version-update-indicator-editor-2-0.png){width="650"}
 
 >[!TAB Ancien éditeur]
 
-![ Indicateur de mise à jour de version ](images/version-update-indicator.png){width="650"}
+![&#x200B; Indicateur de mise à jour de version &#x200B;](images/version-update-indicator.png){width="650"}
 
 
 >[!ENDTABS]
@@ -180,4 +180,4 @@ Vous pouvez désactiver la fonction de recherche du fichier à l’aide de l’o
 >
 >À partir de la version 2025.11.0, le paramètre **Toujours localiser les fichiers dans le référentiel** est renommé **Toujours localiser les fichiers dans l’explorateur**. Pour la configuration On-Premise, elle reste disponible comme Toujours localiser les fichiers dans le référentiel jusqu’à la version 5.1 de Experience Manager Guides.
 
-**Rubrique parente :**[ Utiliser l’éditeur](web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur](web-editor.md)

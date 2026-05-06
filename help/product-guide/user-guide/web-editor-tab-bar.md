@@ -61,7 +61,7 @@ Un outil puissant et piloté par l’IA conçu pour améliorer votre productivit
 
 **Autres actions** : permet d’accéder à des options supplémentaires. Si vous sélectionnez ce bouton, un menu s’ouvre avec les options suivantes :
 
-- **** : vous dirige vers une destination en fonction de votre configuration.
+- **&#x200B;**&#x200B;: vous dirige vers une destination en fonction de votre configuration.
    - **Services cloud** : si vous utilisez des services cloud, la sélection de l’option **Assets** vous conduit à la page de navigation d’AEM.
 
    - **Logiciel On-premise** : si vous utilisez Adobe Experience Manager Guides (4.2.1 et versions ultérieures), la sélection de l’option **Assets** vous conduit au chemin d’accès actuel au fichier dans l’interface utilisateur d’Assets.
@@ -73,4 +73,4 @@ Un outil puissant et piloté par l’IA conçu pour améliorer votre productivit
 
 - **Paramètres de l’éditeur** : permet d’accéder à la boîte de dialogue Paramètres de l’éditeur dans laquelle vous pouvez personnaliser le comportement de l’éditeur au niveau de l’auteur individuel. Il vous permet de contrôler la visibilité et le comportement des balises, des commentaires et d’autres paramètres au niveau de l’éditeur lors de la création. Pour plus d’informations, consultez [Paramètres de l’éditeur](./config-editor-settings.md).
 
-**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)

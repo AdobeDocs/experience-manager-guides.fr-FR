@@ -51,4 +51,4 @@ Le nouvel éditeur ne prend actuellement pas en charge les fonctionnalités suiv
 L’ancien éditeur de Experience Manager Guides offre une expérience de création simple et fiable pour le contenu structuré, en abstrayant les complexités de DITA tout en assurant la conformité aux normes prises en charge telles que DITA 1.2, 1.3, DITA allégé et DITA spécialisé. Il fournit des outils essentiels pour travailler avec des éléments en ligne et en blocs courants, ce qui le rend bien adapté à la création de contenu cohérent et contrôlé dans un cadre structuré.
 
 
-**Rubrique parente :**[ créer du contenu à l’aide de Experience Manager Guides](authoring-content-xml-doc.md)
+**Rubrique parente :**&#x200B;[&#x200B; créer du contenu à l’aide de Experience Manager Guides](authoring-content-xml-doc.md)

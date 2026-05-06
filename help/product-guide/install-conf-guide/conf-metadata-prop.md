@@ -44,4 +44,4 @@ AEM Guides inclut un ensemble par défaut de propriétés de métadonnées dans 
 
 Seules les propriétés de métadonnées qui ne sont pas incluses dans la liste d’exclusion sont prises en compte pour marquer la version d’un document comme sale.
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](customize-overview.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](customize-overview.md)

@@ -37,7 +37,7 @@ Pour créer une rubrique à partir de l’éditeur, procédez comme suit :
 
    ![](images/create-topic-option.png){width="500"}
 
-   Vous pouvez également accéder à cette option à partir de la page d&#39;accueil [](./intro-home-page.md) et du menu d&#39;options d&#39;un dossier dans la vue Référentiel.
+   Vous pouvez également accéder à cette option à partir de la page d&#39;accueil [&#128279;](./intro-home-page.md) et du menu d&#39;options d&#39;un dossier dans la vue Référentiel.
 
 2. La boîte de dialogue **Nouvelle rubrique** s&#39;affiche.
 
@@ -115,4 +115,4 @@ _
 
 4. Une fois que vous avez créé votre rubrique DITA, continuez à enregistrer les modifications apportées à votre copie de travail et créez une nouvelle version une fois que vous avez terminé les mises à jour de votre rubrique.
 
-**Rubrique parente :**[ Créer et prévisualiser des rubriques](create-preview-topics.md)
+**Rubrique parente :**&#x200B;[&#x200B; Créer et prévisualiser des rubriques](create-preview-topics.md)
