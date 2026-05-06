@@ -4,9 +4,9 @@ description: Découvrez le panneau Droit dans l’éditeur. Découvrez l’inter
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1479'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,21 @@ Le panneau de droite vous donne accès aux fonctionnalités suivantes :
 
 Vous pouvez accéder à la fonction **Propriétés du contenu** en sélectionnant l’icône **Propriétés du contenu** dans le panneau de droite. Le panneau **Propriétés du contenu** contient des informations sur le type d’élément actuellement sélectionné dans le document et ses attributs.
 
-**Type** : vous pouvez afficher et sélectionner les balises de la hiérarchie complète pour la balise active dans la liste déroulante.
+Pour le contenu référencé, le panneau affiche également les options **Chemin du lien** et **UUID du lien** qui vous aident à identifier et copier la référence sélectionnée.
+
+>[!NOTE]
+>
+> Pour les fichiers basés sur HTML, les options Chemin du lien et UUID du lien ne sont pas disponibles. Ces fichiers continuent d’utiliser le comportement **URL du lien** existant.
+
+![](images/web-editor-cross-ref-options.png)
+
+**Type** : affichez et sélectionnez les balises de la hiérarchie complète pour la balise active dans la liste déroulante.
+
+**Chemin du lien** : affiche le chemin relatif de la référence sélectionnée. Utilisez **Copier le chemin** pour copier le chemin absolu.
+
+**UUID du lien** : affiche l’UUID de la référence sélectionnée. Utilisez **Copier l’UUID** pour copier l’UUID.
+
+Si vous collez directement un UUID valide dans le champ Chemin d’accès au lien , il est automatiquement résolu en chemin d’accès absolu au fichier. L’UUID correspondant s’affiche alors dans le champ UUID du lien . Cela facilite l’identification et la copie du chemin d’accès à la ressource et de sa référence basée sur l’UUID.
 
 **Attributs** : le panneau déroulant **Attributs** est disponible en vues Disposition, Auteur et Source. Vous pouvez facilement ajouter, modifier ou supprimer les attributs.
 
@@ -45,7 +59,7 @@ Vous pouvez accéder à la fonction **Propriétés du contenu** en sélectionnan
 
 1. Dans le panneau déroulant **Attribut**, sélectionnez l’attribut dans la liste déroulante et spécifiez une valeur d’attribut.  Sélectionnez ensuite **Ajouter**.
 
-   ![panneau attributs avec plusieurs attributs &#x200B;](images/attributes-multiple-properties.png){width="300"}
+   ![panneau attributs avec plusieurs attributs ](images/attributes-multiple-properties.png){width="300"}
 
 1. Pour modifier l’attribut, passez la souris dessus et sélectionnez **Modifier** ![icône-d’édition](images/edit_pencil_icon.svg).
 
@@ -66,6 +80,10 @@ Si votre administrateur a créé un profil pour les attributs, vous obtiendrez c
 
 Affichez les propriétés du fichier sélectionné en sélectionnant l’icône Propriétés du fichier dans le panneau de droite. La fonction Propriétés du fichier est disponible dans les quatre modes ou vues : Disposition, Auteur, Source et Aperçu.
 
+>[!NOTE]
+>
+> Le panneau Propriétés du fichier propose des options permettant d’afficher et de modifier diverses propriétés de métadonnées associées à un fichier. Cependant, lorsqu’un fichier est en mode lecture seule, ces propriétés de métadonnées ne peuvent pas être modifiées. Cette limitation s&#39;applique uniquement aux fichiers DITA et Markdown. Pour les ressources non DITA (telles que les images et les fichiers multimédias), les propriétés de métadonnées restent modifiables même en mode lecture seule.
+
 Les propriétés du fichier comportent les deux sections suivantes :
 
 **Général**
@@ -83,7 +101,7 @@ La section Général vous donne accès aux fonctionnalités suivantes :
   > La fonctionnalité **Nombre de mots** a été introduite dans la version 2026.01.0 de Experience Manager Guides as a Cloud Service. Toute nouvelle rubrique DITA créée après la mise à niveau vers cette version contiendra automatiquement le nombre de mots calculé dans le panneau de droite. Pour les rubriques existantes, le [retraitement des ressources](./asset-processor.md) est requis.
 
 - **Balises** : il s’agit des balises de métadonnées de la rubrique. Elles sont définies dans le champ de balises de la page de propriétés. Vous pouvez les saisir ou les sélectionner dans la liste déroulante.  Les balises s’affichent sous la liste déroulante. Pour supprimer une balise, sélectionnez l’icône en forme de croix en regard de la balise.
-- **Modifier plus de propriétés** : vous pouvez modifier d’autres propriétés ( pour les fichiers qui ne sont pas en mode **Lecture seule**) à partir de la page Propriétés du fichier .
+- **Modifier plus de propriétés** : permet d’afficher et de modifier des propriétés supplémentaires du fichier actuellement ouvert.
 
   >[!NOTE]
   >
@@ -169,4 +187,4 @@ Découvrez comment utiliser les fichiers Schematron dans Experience Manager Guid
 
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

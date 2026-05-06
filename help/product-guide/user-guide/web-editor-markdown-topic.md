@@ -4,7 +4,7 @@ description: Créez des documents Markdown à partir de l’éditeur. Découvrez
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 1%
@@ -32,6 +32,7 @@ Pour créer une rubrique Markdown à partir de l’éditeur, procédez comme sui
    >[!NOTE]
    >
    > En cas de mise à niveau, vous devez ajouter le modèle Markdown dans le profil de dossier actuel utilisé. Vous pouvez [créer un modèle Markdown à partir de l’éditeur](./web-editor-features.md#templates) ou utiliser un modèle existant pour la création Markdown. Pour plus d’informations sur l’ajout de modèles de création dans Experience Manager Guides, consultez [Configuration de profils globaux ou au niveau du dossier](../cs-install-guide/conf-folder-level.md).
+
 1. Sélectionnez **Créer**.
 
    La rubrique Markdown est créée au niveau du chemin d’accès sélectionné et est ouverte pour modification.
@@ -85,9 +86,9 @@ La barre d’outils se trouve juste en dessous de la barre d’onglets. Les fonc
 
 | Fonctionnalités | Description |
 |----------------|----------------|
-| Modifier les actions | Permet d&#39;accéder à diverses fonctions d&#39;édition de documents, notamment **Couper** ![](images/S_Cut_18_N.svg), **Annuler** ![](images/S_Undo_18_N.svg), **Rétablir** ![](images/S_Redo_18_N.svg), **Copier**, ![](images/S_Copy_18_N.svg)Supprimer **et** Rechercher et remplacer![](images/S_Delete_18_N.svg) **&#x200B;**&#x200B;![](images/S_FindAndReplace_18_N.svg). Vous pouvez accéder aux options disponibles à partir du menu déroulant **Menu**. |
-| Options de formatage du texte | Permet d’accéder à diverses options de formatage de texte, notamment **Titres** ![](images/S_DisplayHeading_18_N.svg), **Gras** ![](images/S_TextBold_18_N.svg), **Italique** ![](images/S_TextItalic_18_N.svg), **Barré**, ![](images/S_TextStrikethrough_18_N.svg)Code **et** Block quote![](images/S_Code_18_N.svg) **&#x200B;**&#x200B;![](images/S_BlockQuoteMultipleLines_18_N.svg). |
-| Options d&#39;insertion de contenu | Fournit des options pour insérer dans un document un **Liste numérotée** ![](images/S_TextNumbered_18_N.svg), **Liste ordonnée** ![](images/S_TextBulleted_18_N.svg), **Tableau** ![](images/tableAdd.svg), **Image**, ![](images/S_ImageAdd_18_N.svg)RéférenceCross **et** Symbol![](images/S_LinkGlobe_18_N.svg) **&#x200B;**&#x200B;![](images/S_SpecialCharacter_18_N.svg) <br><br> **Remarque** : vous pouvez également faire glisser et déposer des images et d’autres fichiers dans l’éditeur Markdown. Les fichiers sont ajoutés en tant que liens de référence croisée, tandis que les images sont affichées en tant qu’éléments d’image standard. |
+| Modifier les actions | Permet d&#39;accéder à diverses fonctions d&#39;édition de documents, notamment **Couper** ![](images/S_Cut_18_N.svg), **Annuler** ![](images/S_Undo_18_N.svg), **Rétablir** ![](images/S_Redo_18_N.svg), **Copier**, ![](images/S_Copy_18_N.svg)Supprimer **et** Rechercher et remplacer![](images/S_Delete_18_N.svg) **** ![](images/S_FindAndReplace_18_N.svg). Vous pouvez accéder aux options disponibles à partir du menu déroulant **Menu**. |
+| Options de formatage du texte | Permet d’accéder à diverses options de formatage de texte, notamment **Titres** ![](images/S_DisplayHeading_18_N.svg), **Gras** ![](images/S_TextBold_18_N.svg), **Italique** ![](images/S_TextItalic_18_N.svg), **Barré**, ![](images/S_TextStrikethrough_18_N.svg)Code **et** Block quote![](images/S_Code_18_N.svg) **** ![](images/S_BlockQuoteMultipleLines_18_N.svg). |
+| Options d&#39;insertion de contenu | Fournit des options pour insérer dans un document un **Liste numérotée** ![](images/S_TextNumbered_18_N.svg), **Liste ordonnée** ![](images/S_TextBulleted_18_N.svg), **Tableau** ![](images/tableAdd.svg), **Image**, ![](images/S_ImageAdd_18_N.svg)RéférenceCross **et** Symbol![](images/S_LinkGlobe_18_N.svg) **** ![](images/S_SpecialCharacter_18_N.svg) <br><br> **Remarque** : vous pouvez également faire glisser et déposer des images et d’autres fichiers dans l’éditeur Markdown. Les fichiers sont ajoutés en tant que liens de référence croisée, tandis que les images sont affichées en tant qu’éléments d’image standard. |
 | Historique des versions | Permet de créer des versions des fichiers Markdown et d’afficher l’historique des modifications. Vous pouvez comparer différentes versions et revenir aux versions précédentes si nécessaire. L’option Historique des versions est présente dans le menu déroulant **Menu**. |
 | Enregistrer comme nouvelle version | Enregistre les modifications apportées à la rubrique et crée également une nouvelle version de la rubrique. Si vous travaillez sur une rubrique nouvellement créée, les informations de version apparaissent comme aucune. |
 | Verrouiller/déverrouiller | Verrouille ou déverrouille le fichier courant. Le verrouillage d’un fichier vous donne un accès exclusif en écriture au fichier. Cela empêche d’autres utilisateurs de modifier le fichier. Déverrouillez le fichier si vous souhaitez que d’autres utilisateurs aient un accès en modification. En tant qu’administrateur, vous avez également accès à la fonctionnalité **Forcer le déverrouillage** qui vous permet de déverrouiller le fichier verrouillé par une autre personne. |
@@ -175,4 +176,4 @@ Les fonctionnalités Experience Manager Guides suivantes ne s’appliquent actue
 
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

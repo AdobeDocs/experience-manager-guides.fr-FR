@@ -4,9 +4,9 @@ description: Découvrez comment créer une tâche de révision et envoyer des ru
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '3161'
+source-wordcount: '3343'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,18 @@ Pour créer une tâche de révision et envoyer des rubriques à réviser, procé
    >[!NOTE]
    >
    > Une fois l’échéance atteinte, un e-mail est envoyé à l’initiateur pour l’informer que la tâche de révision est terminée. L’initiateur ou l’initiatrice peut prolonger la date limite de la tâche de révision depuis le [Tableau de bord de révision](review-manage-tasks-review-dashboard.md#).
+
+1. Activez la fonction **Rappel automatisé** pour configurer des notifications de rappel planifiées (et des rappels par e-mail) pour les réviseurs. Vous pouvez le faire avant la date d&#39;échéance d&#39;une tâche de révision et après qu&#39;elle soit devenue en retard.
+
+   >[!NOTE]
+   >
+   >Le bouton (bascule) Rappels automatisés reste désactivé jusqu’à ce que vous sélectionniez une Date d’échéance pour la tâche de révision.
+
+   - **Rappels avant l’échéance** : vous pouvez configurer plusieurs rappels (maximum 3) jusqu’à 60 jours avant l’échéance pour informer les réviseurs à l’avance. Le rappel 1 peut être paramétré sur le nombre de jours restants entre aujourd&#39;hui et la date d&#39;échéance, et les valeurs de rappel doivent suivre un ordre décroissant, représentant le nombre de jours avant la date d&#39;échéance.
+
+   - **Rappels après l’échéance** : vous pouvez également configurer des rappels (maximum 3) à envoyer après l’échéance pour informer les réviseurs et réviseuses que la tâche est échue. Les rappels d’échéance peuvent être configurés jusqu’à 30 jours après la date d’échéance. Les valeurs de rappel doivent suivre un ordre croissant, représentant le nombre de jours après la date d’échéance.
+
+   Selon le planning configuré, le système envoie des notifications AEM et des rappels par e-mail aux réviseurs aux dates de rappel planifiées.
 
 1. Sélectionnez la carte racine dans le **Chemin de la carte racine**. Cette feuille de route est utilisée pour résoudre toutes les références clés et tous les termes du glossaire utilisés dans le contenu de la révision. Si vous ne sélectionnez pas la feuille de route, les références clés ou les termes du glossaire associés à la rubrique DITA ne sont pas résolus avant l&#39;envoi de la rubrique pour révision.
 
@@ -311,4 +323,4 @@ Une fois la tâche de révision mise à jour, les réviseurs et réviseuses reç
 Pour plus d’informations, voir [Présentation des notifications de révision](./review-understanding-review-notifications.md).
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de la révision](review.md)
+**Rubrique parente :**[ Présentation de la révision](review.md)

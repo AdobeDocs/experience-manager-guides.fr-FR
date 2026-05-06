@@ -4,7 +4,7 @@ description: Découvrez l’utilisation des libellés pour les différentes vers
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 0%
@@ -25,8 +25,6 @@ Pour ajouter un libellé à votre rubrique à partir de l’éditeur, procédez 
 
 1. Dans le panneau Référentiel, accédez à une rubrique et ouvrez-la dans l’éditeur.
 1. Sélectionnez **Libellé de version** dans le menu déroulant **Menu**.
-
-   ![](images/version-label-option.png){width="400"}
 
    La boîte de dialogue **Gestion des libellés de version** s’affiche.
 
@@ -81,4 +79,4 @@ Pour supprimer un libellé de version d’une rubrique, utilisez le bouton **Sup
 ![](images/delete-labels.png){width="300"}
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

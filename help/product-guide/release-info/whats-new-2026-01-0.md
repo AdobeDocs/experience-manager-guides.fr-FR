@@ -3,7 +3,7 @@ title: Notes de mise à jour | Nouveautés de la version Adobe Experience Manage
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 2026.01.0 d’Adobe Experience Manager Guides
 role: Leader
 exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 0%
@@ -109,7 +109,7 @@ Pour plus d’informations, consultez [Panneau de droite dans l’éditeur](../u
 
 ### Les propriétés de métadonnées ne peuvent plus être modifiées pour les fichiers en lecture seule
 
-Avec cette version, lorsque le paramètre `Disable Edit Without Checkout` est activé, les propriétés du fichier ne peuvent plus être modifiées si un fichier est en mode **Lecture seule**.
+Avec cette version, lorsque le paramètre `Disable edit without locking the file` est activé, les propriétés du fichier ne peuvent plus être modifiées si un fichier est en mode **Lecture seule**.
 
 Cette restriction s’applique à tous les points d’entrée où les propriétés peuvent être modifiées, notamment :
 

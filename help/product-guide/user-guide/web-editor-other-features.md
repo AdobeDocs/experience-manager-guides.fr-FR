@@ -4,9 +4,9 @@ description: Découvrez d’autres fonctionnalités de l’éditeur dans Adobe E
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '3690'
+source-wordcount: '4271'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,34 @@ Les fonctions suivantes sont disponibles dans le menu contextuel de l’onglet d
 
 Le menu contextuel de l’onglet d’un fichier ouvert contient les fonctions suivantes :
 
+>[!BEGINTABS]
+
+>[!TAB Nouvel éditeur]
+
+![](images/single-file-context-menu-editor-2-0.png){width="400"}
+
+>[!TAB Ancien éditeur]
+
 ![](images/single-file-context-menu.png){width="400"}
+
+>[!ENDTABS]
 
 **Plusieurs fichiers**
 
 Lorsque plusieurs fichiers sont ouverts, le menu contextuel propose d’autres options :
 
+>[!BEGINTABS]
+
+>[!TAB Nouvel éditeur]
+
+
+![](images/multiple-files-context-menu-editor-2-0.png){width="550"}
+
+>[!TAB Ancien éditeur]
+
 ![](images/multiple-files-context-menu.png){width="550"}
+
+>[!ENDTABS]
 
 Les différentes options du menu contextuel sont expliquées ci-dessous :
 
@@ -144,6 +165,90 @@ L’éditeur fournit une boîte de dialogue de navigation dynamique dans les fic
 >[!NOTE]
 >
 > Dans le cas d’un fichier image, audio ou vidéo, la boîte de dialogue de recherche de fichier correspond par défaut à l’emplacement du fichier et non au dernier emplacement utilisé.
+
+## Utilisation des tableaux dans le nouvel éditeur
+
+Le nouvel éditeur vous permet de créer, de mettre en forme et d’organiser des tableaux directement dans votre contenu à l’aide de diverses actions contextuelles.
+
+Cette section décrit les différentes fonctionnalités de création de tableau disponibles dans le nouvel éditeur.
+
+**Modifiez le tableau à l’aide du menu contextuel**
+
+Le menu contextuel s’affiche lorsque vous cliquez avec le bouton droit de la souris dans une cellule de tableau. Les options suivantes sont disponibles en fonction du type de tableau que vous utilisez.
+
+![](images/table-context-menu.png){width="550"}
+
+- Insérer des lignes, colonnes ou cellules
+
+- Fractionner les cellules horizontalement ou verticalement (non disponible pour les tableaux simples)
+
+- Fusionner les cellules vers la droite ou vers le bas (non disponible pour les tableaux simples)
+
+- Supprimer des lignes ou des colonnes
+
+**Définir la mise en forme et l’alignement du texte à l’aide de la barre d’outils contextuelle**
+
+La barre d’outils contextuelle s’affiche lorsque vous sélectionnez du contenu ou des cellules dans un tableau. La barre d’outils fournit des options pertinentes pour votre sélection.
+
+- Sélectionnez le contenu de la cellule pour accéder aux options de formatage suivantes :
+
+  ![](images/text-formatting-options-table.png){width="550"}
+
+  Utilisez les options Gras, Italique ou Souligné pour mettre en forme votre texte.
+- Pour accéder à la barre d’outils contextuelle d’une seule cellule, utilisez `Ctrl+click` pour Windows et `Command+click` pour macOS.
+
+  ![](images/cell-selection-contextual-toolbar.png){width="550"}
+
+- De même, vous pouvez également sélectionner plusieurs cellules et utiliser la barre d’outils contextuelle pour leur appliquer simultanément une mise en forme et un alignement du texte.
+
+  Options disponibles pour la sélection d’une ou de plusieurs lignes :
+
+  ![](images/set-alignment-rows.png){width="550"}
+
+   - Alignement horizontal du texte (non disponible pour les tableaux simples)
+   - Alignement vertical du texte (non disponible pour les tableaux simples)
+   - Insérer une ligne au-dessus
+   - Insérer une ligne ci-dessous
+   - Supprimer une ligne
+   - Fusionner les cellules (non disponible pour les tableaux simples)
+
+  Options disponibles pour la sélection d’une ou de plusieurs colonnes :
+
+  ![](images/set-alignment-columns.png){width="550"}
+
+   - Alignement horizontal du texte (non disponible pour les tableaux simples)
+   - Alignement vertical du texte (non disponible pour les tableaux simples)
+   - Insérer une ligne au-dessus
+   - Insérer une ligne ci-dessous
+   - Supprimer une ligne
+   - Insérer une colonne ci-dessus
+   - Insérer une colonne ci-dessous
+   - Supprimer la colonne
+   - Fusionner les cellules (non disponible pour les tableaux simples)
+
+- Sélectionnez le tableau pour appliquer une mise en forme de texte et un alignement à l’ensemble du tableau.
+
+  ![](images/text-alignment-table.png){width="550"}
+
+- Ajouter des lignes ou des colonnes à l’aide d’un bouton plus interactif
+
+  Pour ajouter une nouvelle ligne à la fin du tableau, passez la souris sur la dernière ligne et sélectionnez le bouton **+**. Une nouvelle ligne est ajoutée au bas du tableau.
+
+  ![](images/add-row.png){width="550"}
+
+  De même, passez la souris sur la dernière colonne et sélectionnez le bouton **+** pour ajouter une nouvelle colonne au côté le plus à droite du tableau.
+
+  ![](images/add-column.png){width="550"}
+
+- Ajouter plusieurs lignes ou colonnes à un tableau à l&#39;aide des options Insérer (non disponible pour les tableaux simples)
+
+  Pour ajouter plusieurs lignes ou colonnes à un tableau, sélectionnez d&#39;abord le nombre de lignes ou de colonnes à ajouter, puis sélectionnez l&#39;option Insérer une ligne (ci-dessus ou ci-dessous) ou Insérer une colonne (à gauche ou à droite). Le même nombre de lignes ou de colonnes est ajouté au tableau en fonction de votre sélection.
+
+- Glisser-déposer des lignes et des colonnes (non disponible pour les tableaux simples)
+
+  Déplacez facilement les lignes et les colonnes du tableau par glisser-déposer. Lorsque vous faites glisser une ligne ou une colonne, elle s’affiche avec un arrière-plan semi-transparent pour indiquer qu’elle est en cours de déplacement. Une ligne bleue met en surbrillance la position cible où la ligne ou la colonne sera placée au moment de la libération.
+
+  ![](images/drag-and-drop-table-rows.png){width="550"}
 
 ## Parcourir les fichiers et les dossiers dans Experience Manager Guides
 
@@ -314,7 +419,19 @@ Insérez une note de bas de page dans votre contenu à l’aide de l’élément
 
 L’éditeur affiche le chemin de navigation de l’élément en bas à gauche de la rubrique. Si vous souhaitez permuter ou remplacer un élément par un autre élément, vous pouvez le faire à partir du menu contextuel du chemin de navigation. Par exemple, vous pouvez permuter `p` élément avec `note` ou tout autre élément valide au niveau du contexte.
 
+>[!BEGINTABS]
+
+>[!TAB Nouvel éditeur]
+
+![](images/rename-element-editor-2-0.png){width="400"}
+
+>[!TAB Ancien éditeur]
+
+
 ![](images/rename-element.png){width="400"}
+
+
+>[!ENDTABS]
 
 Dans le chemin de navigation, cliquez avec le bouton droit sur le nom d’un élément à remplacer, puis sélectionnez Renommer l’élément dans le menu contextuel. La boîte de dialogue Renommer l’élément affiche tous les éléments valides autorisés à l’emplacement actuel. Dans la boîte de dialogue Renommer l’élément , sélectionnez l’élément que vous souhaitez utiliser. L’élément d’origine est remplacé par le nouvel élément .
 
@@ -392,11 +509,19 @@ La sélection de **ID en double** ouvre une fenêtre contextuelle répertoriant 
 
 ## Gestion des fichiers volumineux dans l’éditeur
 
+>[!NOTE]
+>
+> Cette section s’applique uniquement à l’ancien éditeur. Grâce au nouvel éditeur, l’expérience de modification des sujets volumineux et complexes est améliorée grâce à un chargement plus rapide et à des interactions plus réactives, ainsi qu’à la prise en charge de l’annulation/la restauration et du marqueur d’intégrité.
+
 Les principales fonctionnalités visant à améliorer la gestion des fichiers volumineux sont mentionnées comme suit :
 
 - Pour améliorer les performances, certaines fonctionnalités telles que Annuler, Rétablir, le panneau de contour et la marque d’intégrité sont désactivées. Il est recommandé de diviser les rubriques en rubriques plus petites pour une expérience optimale.
 
 - Un message d’alerte s’affiche en haut pour les fichiers volumineux, comme illustré dans le fragment de code ci-dessous. Cette alerte met en surbrillance le nombre d’éléments en fonction de la valeur spécifiée dans le paramètre **largeFileTagCount** du fichier uiconfig.json. Par défaut, la valeur de **largeFileTagCount** est 2 500.
+
+  >[!NOTE]
+  >
+  > Ce message d’alerte s’applique uniquement à l’ancien éditeur, où il s’affiche en fonction du paramètre `largeFileTagCount` configuré. Dans le nouvel éditeur, les fichiers volumineux se chargent en toute simplicité sans déclencher d’alertes. En outre, les fonctionnalités connexes qui ne fonctionnent pas dans l’ancien éditeur fonctionnent normalement dans le nouvel éditeur.
 
 ![](images/add-toast-notification.png){width="600"}
 
@@ -408,4 +533,5 @@ Les principales fonctionnalités visant à améliorer la gestion des fichiers vo
 
 - Le message d&#39;alerte est disponible uniquement pour les fichiers DITA et est visible dans tous les modes : Auteur, Source et Disposition.
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

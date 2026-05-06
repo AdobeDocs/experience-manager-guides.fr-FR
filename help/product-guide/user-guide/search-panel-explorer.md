@@ -4,14 +4,18 @@ description: Découvrez comment utiliser le panneau de recherche dans l’interf
 feature: Authoring
 role: User
 exl-id: cf3c03b5-383c-464c-8ef1-2f0f825c4e56
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
 
 # Panneau de recherche
+
+>[!INFO]
+>
+>Cette rubrique s’applique à la fois au nouvel éditeur et à l’ancien éditeur. Bien que les principales fonctionnalités restent cohérentes, les différences au niveau de l’interface utilisateur, de la terminologie et des interactions sont indiquées dans le contenu à l’aide des onglets et des légendes, le cas échéant.
 
 Le panneau de recherche de l’éditeur améliore la productivité en fournissant un accès rapide à un sous-ensemble de fichiers, affiché en fonction des termes de recherche ou des filtres appliqués lors de la modification du contenu. Vous pouvez ainsi ouvrir facilement un ou plusieurs fichiers recherchés ou les utiliser dans un fichier existant en les faisant simplement glisser vers une rubrique ou un mappage. Vous pouvez localiser le **panneau de recherche** au bas de l’éditeur.
 
@@ -55,7 +59,17 @@ Lorsque vous travaillez dans l’interface de l’éditeur, vous pouvez filtrer 
 
 Une fois les résultats de la recherche affichés dans le panneau de recherche, vous pouvez les utiliser, soit en ouvrant et en modifiant un ou plusieurs fichiers directement à partir du panneau, soit en faisant glisser et en déposant les fichiers sélectionnés dans une rubrique existante ou en les mappant pour ajouter des références.
 
+>[!BEGINTABS]
+
+>[!TAB Nouvel éditeur]
+
+![](images/edit-search-panel-editor-2-0.png)
+
+>[!TAB Ancien éditeur]
+
 ![](images/edit-search-panel.png)
+
+>[!ENDTABS]
 
 ## Recherche à partir de l’interface du référentiel sur la page d’accueil.
 

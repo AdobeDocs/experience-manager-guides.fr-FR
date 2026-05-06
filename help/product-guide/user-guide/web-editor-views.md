@@ -4,20 +4,25 @@ description: Affichez les rubriques en mode création, source et aperçu. Décou
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
 
 # Vues de l’éditeur pour les rubriques {#id204GK0D0V5Z}
 
-L’interface de l’éditeur de Adobe Experience Manager prend en charge l’affichage des rubriques dans trois modes ou vues différents :
+>[!INFO]
+>
+>Cette rubrique s’applique à la fois au nouvel éditeur et à l’ancien éditeur. Bien que les principales fonctionnalités restent cohérentes, les différences au niveau de l’interface utilisateur, de la terminologie et des interactions sont indiquées dans le contenu à l’aide des onglets et des légendes, le cas échéant.
+
+L’interface de l’éditeur de Adobe Experience Manager prend en charge l’affichage des rubriques dans quatre modes ou vues différents :
 
 * [Création](#author)
 * [Source](#source)
 * [Prévisualisation](#preview)
+* [Côte à côte](#side-by-side)
 
 ## Création
 
@@ -88,6 +93,17 @@ Pour plus d’informations, reportez-vous à la description de la fonctionnalit�
   | Recherche récursive du mot courant \(en sens inverse\) | **Maj**+**Ctrl**+**F3** |
 
 
+## Côte à côte
+
+>[!NOTE]
+>
+>Cette fonctionnalité est disponible uniquement dans le nouvel éditeur.
+
+Le mode Côte à côte vous permet d’afficher et de travailler simultanément en mode Création et en mode Source sur le même écran. La vue Création WYSIWYG et la vue Source XML sous-jacente sont affichées adjacentes, ce qui permet d’effectuer des modifications de contenu et des modifications structurelles en parallèle sans changer de vue. Les deux vues restent synchronisées en temps réel, ce qui permet de s’assurer que la position du curseur et la sélection dans la vue de création sont reflétées à l’emplacement correspondant dans la vue Source. Cela offre une meilleure précision et un meilleur contrôle lors de la création de contenu structuré.
+
+![](images/side-by-side-editor-2-0.png){width="650"}
+
+
 ## Prévisualisation
 
 L’ouverture d’une rubrique en mode Aperçu montre comment une rubrique s’affichera lorsqu’elle sera consultée par un utilisateur dans son navigateur. Dans le cas d&#39;un plan DITA, un aperçu du plan s&#39;affiche, dans lequel un seul document composite de toutes les rubriques du plan s&#39;affiche.
@@ -102,9 +118,19 @@ Le mode Aperçu vous propose les fonctionnalités suivantes :
 
 Si vous avez utilisé des conditions dans votre rubrique ou mappage, celles-ci s’affichent dans le panneau Filtres . Par défaut, toutes les conditions sont sélectionnées et l’intégralité du contenu est affichée. Si vous désélectionnez une condition, le contenu comportant cette condition est supprimé de la vue. Vous pouvez également choisir de mettre en surbrillance le contenu conditionné.
 
-L’image suivante présente une rubrique qui utilise deux conditions : `Audience` et `Product`. Le contenu conditionné est mis en surbrillance avec un arrière-plan jaune.
+L’image suivante présente une rubrique qui utilise deux conditions : `Audience` et `Platfor`. Le contenu conditionné est mis en surbrillance avec un arrière-plan jaune.
 
-![](images/preview-filters.png)
+>[!BEGINTABS]
+
+>[!TAB Nouvel éditeur]
+
+![](images/preview-filters-editor-2-0.png){width="650"}
+
+>[!TAB Ancien éditeur]
+
+![](images/preview-filters.png){width="650"}
+
+>[!ENDTABS]
 
 ### Afficher les balises de suivi des modifications {#id2114BJ00CE8}
 
@@ -149,4 +175,4 @@ Pour exporter une rubrique en tant que PDF, procédez comme suit :
    Le PDF est généré et ouvert dans un nouvel onglet ou une boîte de dialogue s’affiche pour vous permettre d’enregistrer le PDF sur votre système local.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

@@ -4,14 +4,18 @@ description: Découvrez comment créer des types de rubriques DITA à l'aide de 
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
 
 # Créer des rubriques {#id2056AL00O5Z}
+
+>[!INFO]
+>
+>Cette rubrique s’applique à la fois au nouvel éditeur et à l’ancien éditeur. Bien que les principales fonctionnalités restent cohérentes, les différences au niveau de l’interface utilisateur, de la terminologie et des interactions sont indiquées dans le contenu à l’aide des onglets et des légendes, le cas échéant.
 
 Adobe Experience Manager Guides vous permet de créer des rubriques DITA de type : rubrique, tâche, concept, référence, glossaire, DITAVAL, Markdown, etc. Outre la création de rubriques basées sur des modèles prêts à l’emploi, vous pouvez également définir vos modèles personnalisés. Ces modèles doivent être ajoutés au profil du dossier pour s’afficher dans le plan directeur de sélection de modèles et dans l’éditeur.
 
@@ -33,7 +37,7 @@ Pour créer une rubrique à partir de l’éditeur, procédez comme suit :
 
    ![](images/create-topic-option.png){width="500"}
 
-   Vous pouvez également accéder à cette option à partir de la page d&#39;accueil [&#128279;](./intro-home-page.md) et du menu d&#39;options d&#39;un dossier dans la vue Référentiel.
+   Vous pouvez également accéder à cette option à partir de la page d&#39;accueil [](./intro-home-page.md) et du menu d&#39;options d&#39;un dossier dans la vue Référentiel.
 
 2. La boîte de dialogue **Nouvelle rubrique** s&#39;affiche.
 
@@ -45,11 +49,25 @@ Pour créer une rubrique à partir de l’éditeur, procédez comme suit :
 
 4. Sélectionnez **Créer**.
 
-   ![](images/create-topic-dialog-new.png){width="300"}
+   ![](images/create-topic-dialog-new.png){width="350"}
 
 La rubrique est créée au chemin d’accès spécifié. En outre, la rubrique est ouverte dans l’éditeur pour modification.
 
+>[!BEGINTABS]
+
+>[!TAB Nouvel éditeur]
+
+Cette vue affiche le rendu du contenu dans le nouvel éditeur.
+
+![](images/new-topic-editor-new-editor-2-0.png)
+
+>[!TAB Ancien éditeur]
+
+Cette vue affiche le rendu du contenu dans l’ancien éditeur.
+
 ![](images/new-topic-editor.png)
+
+>[!ENDTABS]
 
 ## Créer des rubriques à partir de l’interface utilisateur d’Assets
 
@@ -83,9 +101,13 @@ Pour créer une rubrique à partir de l’interface utilisateur d’Assets, proc
 
 **Informations supplémentaires**
 
-1. Chaque nouvelle rubrique créée à partir de l&#39;interface utilisateur d&#39;Assets **Créer** \> **Rubrique DITA** ou de l&#39;éditeur se voit attribuer un identifiant de rubrique unique. La valeur de cet identifiant est le nom du fichier lui-même. En outre, un nouveau document est enregistré comme la dernière copie de travail de la rubrique dans la gestion des ressources numériques. Tant que vous n’avez pas enregistré une révision d’une rubrique nouvellement créée, vous n’afficherez aucun numéro de version dans l’historique des versions. Si vous ouvrez la rubrique pour la modifier, les informations de version s’affichent dans le coin supérieur droit de la barre d’outils :
+>[!INFO]
+>
+> L’interface utilisateur peut varier en fonction de l’éditeur utilisé.
 
-   ![](images/topic-version-none_cs.png){width="550"}
+1. Chaque nouvelle rubrique créée à partir de l&#39;interface utilisateur d&#39;Assets **Créer** \> **Rubrique DITA** ou de l&#39;éditeur se voit attribuer un identifiant de rubrique unique. La valeur de cet identifiant est le nom du fichier lui-même. En outre, un nouveau document est enregistré comme la dernière copie de travail de la rubrique dans la gestion des ressources numériques. Tant que vous n’avez pas enregistré une révision d’une rubrique nouvellement créée, vous n’afficherez aucun numéro de version dans l’historique des versions. Si vous ouvrez la rubrique pour la modifier, les informations de version s’affichent dans le coin supérieur droit de la barre d’outils :
+_
+   ![](images/version-none.png){width="550"}
 
 2. Les informations de version d’une rubrique nouvellement créée s’affichent sous la forme *aucune*. Lorsque vous enregistrez une nouvelle version, un numéro de version 1.0 lui est attribué.
 
@@ -93,4 +115,4 @@ Pour créer une rubrique à partir de l’interface utilisateur d’Assets, proc
 
 4. Une fois que vous avez créé votre rubrique DITA, continuez à enregistrer les modifications apportées à votre copie de travail et créez une nouvelle version une fois que vous avez terminé les mises à jour de votre rubrique.
 
-**Rubrique parente :**&#x200B;[&#x200B; Créer et prévisualiser des rubriques](create-preview-topics.md)
+**Rubrique parente :**[ Créer et prévisualiser des rubriques](create-preview-topics.md)

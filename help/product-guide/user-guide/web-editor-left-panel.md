@@ -4,14 +4,18 @@ description: Découvrez le panneau de gauche dans l’éditeur. Découvrez l’i
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: d369972ced74b8a66280c018fc7ab29b174da36e
 workflow-type: tm+mt
-source-wordcount: '11002'
+source-wordcount: '11080'
 ht-degree: 0%
 
 ---
 
 # Panneau de gauche de l’éditeur
+
+>[!INFO]
+>
+>Cette rubrique s’applique à la fois au nouvel éditeur et à l’ancien éditeur. Bien que les principales fonctionnalités restent cohérentes, les différences au niveau de l’interface utilisateur, de la terminologie et des interactions sont indiquées dans le contenu à l’aide des onglets et des légendes, le cas échéant.
 
 Le panneau de gauche vous donne un accès rapide aux collections, à la vue du référentiel, à la vue Carte et à d’autres fonctionnalités. Vous pouvez développer le panneau en sélectionnant l’icône **Développer** placée dans le coin inférieur gauche de l’interface. Une fois développé, utilisez l’icône **Réduire** pour réduire le panneau. Dans la vue développée, il affiche les noms des icônes qui apparaissent sous forme d’info-bulles dans la vue réduite.
 
@@ -43,9 +47,9 @@ Certaines des fonctionnalités du panneau de gauche sont disponibles dans la sec
 - [Révision](#review)
 
 
-Une option supplémentaire intitulée **&#x200B;**&#x200B;s’affiche également dans le panneau de gauche si Adobe Workfront est configuré.
+Une option supplémentaire intitulée **** s’affiche également dans le panneau de gauche si Adobe Workfront est configuré.
 
-Pour plus d’informations, consultez Intégration de [&#128279;](./workfront-integration.md).
+Pour plus d’informations, consultez Intégration de [](./workfront-integration.md).
 
 >[!NOTE]
 >
@@ -61,7 +65,7 @@ Par défaut, vous pouvez afficher les fichiers par titres. Pointez sur un fichie
 
 >[!NOTE]
 >
-> En tant qu’administrateur, vous pouvez également choisir d’afficher la liste des fichiers par nom de fichier dans l’éditeur. Sélectionnez l’option **Nom de fichier** de la section **Configuration de l’affichage des fichiers de l’éditeur** dans **Préférences utilisateur**.
+> En tant qu’administrateur, vous pouvez également choisir d’afficher la liste des fichiers par nom de fichier dans l’éditeur. Sélectionnez l’option **Nom de fichier** sous **Configuration de l’affichage des fichiers de l’éditeur** dans **Préférences utilisateur**.
 
 <details>
     <summary> Créer une collection </summary>
@@ -127,7 +131,7 @@ Lorsque vous sélectionnez l’icône Référentiel , vous obtenez une liste de 
 
 >[!NOTE]
 >
-> En tant qu’administrateur, vous pouvez également choisir d’afficher la liste des fichiers par nom de fichier dans l’éditeur. Sélectionnez l’option **Nom de fichier** de la section **Configuration de l’affichage des fichiers de l’éditeur** dans **Préférences utilisateur**.
+> En tant qu’administrateur, vous pouvez également choisir d’afficher la liste des fichiers par nom de fichier dans l’éditeur. Sélectionnez l’option **Nom de fichier** sous la section **Configuration de l’affichage des fichiers de l’éditeur** dans **Préférences utilisateur**.
 
 75 fichiers sont chargés à la fois. Chaque fois que vous sélectionnez **Charger plus**... 75 fichiers sont chargés et le bouton cesse d’être affiché lorsque tous les fichiers ont été répertoriés. Ce chargement par lots est efficace et vous pouvez accéder aux fichiers plus rapidement qu’avec le chargement de tous les fichiers existants dans un dossier.
 
@@ -138,6 +142,8 @@ la vue de la vidéo. Dans le menu contextuel, vous avez également les options d
 vitesse ou afficher l&#39;image en image.
 
 Sélectionnez une carte et appuyez sur Entrée ou double-cliquez pour l’ouvrir dans la **vue Carte**. Pour plus d’informations, consultez la description de la fonction **Vue Carte** dans le panneau de gauche. Sélectionnez une rubrique et appuyez sur Entrée ou double-cliquez pour l&#39;ouvrir dans la zone [Modification du contenu](./web-editor-content-editing-area.md). La possibilité de naviguer et d’ouvrir un fichier directement depuis l’éditeur permet de gagner du temps et d’augmenter la productivité.
+
+
 
 ## Filtrer la recherche dans le référentiel
 
@@ -174,7 +180,7 @@ Sélectionnez l’icône **Filtrage avancé** ![icône de filtre avancé](images
 
 Vous pouvez afficher les options suivantes sous les onglets **Général** et **Avancé**.
 
-![&#x200B; boîte de dialogue filtre avancé &#x200B;](images/repository-filter-search-advanced.png) {width="650"}
+![ boîte de dialogue filtre avancé ](images/repository-filter-search-advanced.png) {width="650"}
 
 
 **Général**
@@ -288,7 +294,7 @@ Procédure à suivre pour créer un dossier :
 
   Si votre administrateur a activé l’option UUIDs dans *XMLEditorConfig*, l’UUID de l’image chargée s’affiche dans la propriété **Source**.
 
-  ![](images/uuid-in-source-upload-image_cs.png){  }
+  ![](images/image-properties.png)
 
   Une fois le chargement terminé, la boîte de dialogue de confirmation suivante s’affiche :
 
@@ -770,7 +776,17 @@ Le panneau Conditions affiche les attributs conditionnels définis par l’admin
 
 Vous pouvez également appliquer plusieurs conditions à un élément en faisant glisser et en déposant plusieurs conditions sur un élément. Lorsque vous appliquez plusieurs conditions à un élément, le panneau Propriétés affiche les conditions appliquées séparées par une virgule.
 
-![](images/multiple-conditions-applied_cs.png){  }
+>[!BEGINTABS]
+
+>[!TAB Nouvel éditeur]
+
+![](images/multiple-conditions-applied_cs-editor-2-0.png){width="650"}
+
+>[!TAB Ancien éditeur]
+
+![](images/multiple-conditions-applied_cs.png){width="650"}
+
+>[!ENDTABS]
 
 Toutefois, en mode Code, les conditions sont séparées à l’aide d’un délimiteur d’espace. Lorsque vous ajoutez ou modifiez une condition en mode Code, assurez-vous que plusieurs conditions sont séparées à l’aide d’un espace.
 
@@ -778,7 +794,18 @@ Toutefois, en mode Code, les conditions sont séparées à l’aide d’un déli
 >
 > La capture d’écran suivante représente un utilisateur disposant de droits d’administration. En tant qu’utilisateur disposant de droits d’administrateur, vous pouvez ajouter, modifier et supprimer des conditions. Sinon, en tant qu’auteur normal, vous n’aurez la possibilité d’appliquer que des conditions.
 
-![](images/conditional-content-through-panel_cs.png){  }
+>[!BEGINTABS]
+
+>[!TAB Nouvel éditeur]
+
+![](images/conditional-content-through-panel_cs-editor-2-0.png){width="650"}
+
+>[!TAB Ancien éditeur]
+
+![](images/conditional-content-through-panel_cs.png){width="650"}
+
+>[!ENDTABS]
+
 
 Pour ajouter ou définir une condition, sélectionnez l’icône + en regard du panneau Conditions pour afficher la boîte de dialogue Définir une condition :
 
@@ -852,7 +879,7 @@ L'exemple suivant montre comment utiliser le schéma d'objet dans Experience Man
 
    ![](images/subject-scheme-panel-new.png){width="300"}
 
-1. Enregistrez le fichier avec l’extension a.ditamap et chargez-le dans n’importe quel dossier de la gestion des ressources numériques.
+1. Enregistrez le fichier avec l’extension .ditamap et chargez-le dans n’importe quel dossier de la gestion des ressources numériques.
 
    >[!NOTE]
    >
@@ -991,7 +1018,20 @@ Effectuez les étapes suivantes pour modifier la valeur :
 
 Vous pouvez également appliquer des valeurs à un attribut en sélectionnant plusieurs valeurs dans la liste déroulante.
 
-Vue Source **&#x200B;**
+>[!BEGINTABS]
+
+>[!TAB Nouvel éditeur]
+
+![](images/subject-scheme-new.png){width="650"}
+
+>[!TAB Ancien éditeur]
+
+![](images/subject-scheme-right-panel.png){width="550"}
+
+>[!ENDTABS]
+
+
+Vue Source ****
 
 Vous pouvez également modifier les valeurs à partir de la liste déroulante de l’attribut dans la vue Source. La vue Source vous empêche également d’ajouter une valeur incorrecte.
 
@@ -1015,7 +1055,8 @@ Les fragments de code sont de petits fragments de contenu qui peuvent être réu
 >
 > La capture d’écran suivante représente un utilisateur disposant de droits d’administration. En tant qu’utilisateur disposant de droits d’administrateur, vous pouvez ajouter, modifier et supprimer des fragments de code. Sinon, en tant qu’auteur normal, vous n’obtiendrez que les options de prévisualisation et d’insertion d’un fragment de code.
 
-![](images/snippets-panel_cs.png)
+
+![](images/snippets-panel_cs-editor-2-0.png){width="650"}
 
 **Créer un fragment de code**
 
@@ -1065,11 +1106,16 @@ Par défaut, vous pouvez afficher les fichiers par titres. Pointez sur un modèl
 
 Pour savoir comment créer des modèles personnalisés, consultez la section [Créer des mappages basés sur des modèles personnalisés](./create-maps-customized-templates.md).
 
+
 ## Citations
+
+>[!NOTE]
+>
+> Les citations sont uniquement prises en charge dans l’ancien éditeur et ne sont actuellement pas disponibles dans le nouvel éditeur. Les informations contenues dans cet article s’appliquent uniquement si vous utilisez l’ancien éditeur.
 
 Dans Experience Manager Guides, vous pouvez ajouter et importer des citations et les appliquer à votre contenu. Vous pouvez ajouter ces citations à partir de n’importe quelle source de livres, de sites web et de revues.
 
-Pour plus d’informations, consultez la section [&#x200B; Ajouter et gérer des citations dans votre contenu &#x200B;](./web-editor-apply-citations.md).
+Pour plus d’informations, consultez la section [ Ajouter et gérer des citations dans votre contenu ](./web-editor-apply-citations.md).
 
 ## Variables de langue
 
@@ -1102,7 +1148,7 @@ La fonction Rechercher et remplacer peut être utilisée dans deux modes distinc
   > - **Pour les services cloud** : un déploiement d’index personnalisé doit être effectué. Pour plus d’informations, consultez [Déploiement d’un index personnalisé](/help/product-guide/cs-install-guide/custom-indexing.md). Une fois l’opération terminée, contactez votre équipe du succès client pour activer cette fonctionnalité.
   > - **Pour On-Premise** : la réindexation du contenu existant est nécessaire avant que la fonctionnalité puisse être utilisée. Pour plus d’informations, consultez la section [Réindexation du contenu](/help/product-guide/install-guide/custom-indexing-prem.md). Une fois l’opération terminée, contactez votre équipe du succès client pour activer cette fonctionnalité.
 
-  ![](images/map-find-replace-with-source-mode.png)
+  ![](images/find-replace-new.png)
 
 <br>
 
@@ -1262,7 +1308,7 @@ Vous pouvez également utiliser l&#39;option **Rechercher dans la carte** du men
 
 ## Modèles PDF
 
-Permet d’utiliser divers modèles PDF. Pour plus de détails, consultez [les modèles &#x200B;](../native-pdf/pdf-template.md).
+Permet d’utiliser divers modèles PDF. Pour plus de détails, consultez [les modèles ](../native-pdf/pdf-template.md).
 
 ## Révision
 
@@ -1323,4 +1369,4 @@ Pour afficher les commentaires de révision dans les tâches de révision active
 
 </details>
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

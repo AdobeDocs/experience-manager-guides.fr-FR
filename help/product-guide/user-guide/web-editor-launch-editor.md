@@ -4,14 +4,18 @@ description: Découvrez comment lancer l’éditeur à partir de la page de navi
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
 
 # Lancement de l’éditeur {#id2056B0140HS}
+
+>[!INFO]
+>
+> Cette rubrique s’applique à la fois au nouvel éditeur et à l’ancien éditeur. Bien que les principales fonctionnalités restent cohérentes, les différences au niveau de l’interface utilisateur, de la terminologie et des interactions sont indiquées dans le contenu à l’aide des onglets et des légendes, le cas échéant.
 
 Vous pouvez lancer l’éditeur à partir des emplacements suivants :
 
@@ -85,9 +89,23 @@ Pour ouvrir une rubrique dans l’éditeur, procédez comme suit :
 
    ![](images/edit-topic-from-quick-action_cs.png)
 
-   La rubrique s’ouvre dans l’éditeur.
+La rubrique s’ouvre dans l’éditeur.
 
-   ![](images/edit-mode.png)
+>[!BEGINTABS]
+
+>[!TAB Nouvel éditeur]
+
+Cette vue affiche le rendu du contenu dans le nouvel éditeur
+
+![](images/edit-mode-editor-2-0.png)
+
+>[!TAB Ancien éditeur]
+
+Cette vue affiche le rendu du contenu dans l’ancien éditeur
+
+![](images/edit-mode.png)
+
+>[!ENDTABS]
 
 Vous pouvez également ouvrir un fichier de mappage dans l’interface utilisateur d’Assets et lancer l’éditeur pour modifier les rubriques du fichier de mappage.
 
@@ -124,13 +142,25 @@ Pour ouvrir l’éditeur à partir de la console Carte, procédez comme suit :
 
    ![](images/map-console-open-in-editor.png)
 
-   Le fichier de mappage contenant les rubriques est ouvert pour modification dans l’éditeur.
-
-   ![](images/map-console-edit-topics.png)
+Le fichier de mappage contenant les rubriques est ouvert pour modification dans l’éditeur.
 
 
+>[!BEGINTABS]
+
+>[!TAB Nouvel éditeur]
+
+Mode d’édition des cartes dans le nouvel éditeur :
+
+![](images/map-console-edit-topics-editor-2-0.png)
+
+>[!TAB Ancien éditeur]
+
+Mode d’édition des cartes dans l’ancien éditeur :
+
+![](images/map-console-edit-topics.png)
 
 
+>[!ENDTABS]
 
 
 **Rubrique parente** : [Présentation de l’éditeur](web-editor.md)
