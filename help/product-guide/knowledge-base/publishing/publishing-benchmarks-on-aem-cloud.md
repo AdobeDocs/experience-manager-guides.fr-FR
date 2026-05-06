@@ -14,7 +14,7 @@ ht-degree: 21%
 
 Ce test comparatif évalue les performances des nouvelles API de publication sur différents paramètres prédéfinis de sortie et l’augmentation des tailles de mappage dans AEM Guides as a Cloud Service. L’objectif est de comprendre le comportement en matière d’évolutivité et d’identifier les goulots d’étranglement en termes de performances.
 
-Le service de publication utilise une [architecture basée sur microservice](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance) avec mise à l’échelle automatique, ce qui permet de gérer des charges de travail plus importantes grâce à des capsules supplémentaires.
+Le service de publication utilise une [architecture basée sur microservice](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance) avec mise à l’échelle automatique, ce qui permet de gérer des charges de travail plus importantes grâce à des capsules supplémentaires.
 
 ## Environnement d’exécution
 
