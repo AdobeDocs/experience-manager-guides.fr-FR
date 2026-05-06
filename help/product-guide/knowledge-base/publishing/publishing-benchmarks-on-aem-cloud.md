@@ -43,7 +43,7 @@ Le service de publication utilise une [architecture basée sur microservice](htt
 | 5000 | 496.319 | Oui |
 | 10000 | 922.602 | Oui |
 
-PDF natif ****
+PDF natif **&#x200B;**
 
 | MapSize | Heure(s) d’exécution | Microservice |
 | ------- | ------------------ | ------------ |
