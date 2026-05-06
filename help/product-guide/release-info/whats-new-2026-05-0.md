@@ -2,7 +2,7 @@
 title: Notes de mise à jour | Nouveautés de la version Adobe Experience Manager Guides 2026.05.0
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 2026.05.0 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: b04438c1036248c40e002c1a56b6b68e654e7748
+source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 0%
@@ -60,7 +60,6 @@ Une interface actualisée améliore la convivialité globale, ce qui rend la nav
 
   ![](assets/multiple-conditions-applied_cs-editor-2-0.png){width="650"}
 
-
 ### Amélioration des fonctionnalités de création
 
 Offre des outils améliorés et une flexibilité pour rationaliser les workflows de création et de modification de contenu.
@@ -101,12 +100,11 @@ Vous pouvez désormais utiliser **Chemin du lien** pour afficher le chemin d’a
 
 Pour plus d’informations, consultez [Propriétés du contenu](../user-guide/web-editor-right-panel.md#content-properties).
 
-
 ## Améliorations de la révision
 
 Les améliorations de révision suivantes ont été apportées dans le cadre de cette version :
 
-- Vous pouvez désormais activer **Rappels automatisés** pour planifier des notifications AEM et des rappels par e-mail à l’intention des réviseurs et réviseuses, avant ou après l’échéance d’une tâche de révision. Vous pouvez configurer plusieurs rappels dans chaque cas, avec des rappels d’échéance envoyés dans une séquence définie et des rappels d’échéance déclenchés après que la tâche a été marquée comme En retard, en fonction du planning de rappel configuré. Pour plus d’informations sur la configuration des rappels pour les tâches de révision, voir [Envoyer une ou plusieurs rubriques pour révision](../user-guide/review-manage-tasks-review-dashboard.md).
+- Vous pouvez désormais activer **Rappels automatisés** pour planifier des notifications AEM et des rappels par e-mail à l’intention des réviseurs et réviseuses, avant ou après l’échéance d’une tâche de révision. Vous pouvez configurer plusieurs rappels dans chaque cas, avec des rappels d’échéance envoyés dans une séquence définie et des rappels d’échéance déclenchés après que la tâche a été marquée comme En retard, en fonction du planning de rappel configuré. Pour plus d’informations sur la configuration des rappels pour les tâches de révision, voir [Envoyer une ou plusieurs rubriques pour révision](../user-guide/review-send-topics-for-review.md#send-one-or-more-topics-for-review).
 
 - Les réviseurs et réviseuses peuvent désormais accéder à l’historique des versions des rubriques en cours de révision, ce qui leur permet d’afficher et de comparer les versions précédemment révisées et mises à jour d’une même rubrique dans les tâches de révision précédentes. Cela permet aux réviseurs et aux réviseuses de valider les modifications apportées depuis les cycles de révision précédents et de maintenir la continuité en examinant les commentaires, les libellés et d’autres détails connexes dans le contexte de révision actuel. Pour plus d’informations, consultez [Historique des versions du réviseur](../user-guide/review-topics.md#version-history-for-the-reviewer).
 
