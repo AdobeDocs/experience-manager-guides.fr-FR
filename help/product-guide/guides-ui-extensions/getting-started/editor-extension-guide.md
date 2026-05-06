@@ -4,7 +4,7 @@ description: Découvrez les modifications apportées au framework d’extension 
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 670a7557746baf16cf9786ba61a19448315ed59b
+source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 4%
@@ -189,7 +189,7 @@ guides.ready(() => {
   guides.editor.updateAttributeByXpath(args: UpdateXpathArgs): any
   ```
 
-## Exécution de commande
+## Exécution des commandes
 
 - `guides.editor.runCommand(commandName, ...args)` : exécute une commande nommée dans le nouvel éditeur. Renvoie `true` si la commande a réussi, `false` dans le cas contraire.
 
@@ -314,7 +314,7 @@ guides.ready(() => {
   }
   ```
 
-## Fonctions Utilitaires
+## Fonctions utilitaires
 
 - `guides.editor.runUtil(utilName, ...args)` : appelle un utilitaire nommé à partir du registre des utilitaires du nouvel éditeur. Renvoie le résultat de l&#39;utilitaire ou `undefined` si l&#39;utilitaire est introuvable.
 

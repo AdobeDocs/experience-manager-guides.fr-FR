@@ -4,7 +4,7 @@ description: Générez la sortie d'un plan DITA à partir de la console de plans
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
-source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
+source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Pour afficher le journal des erreurs, sélectionnez **Ignorer**, survolez l’on
 
 >[!NOTE]
 >
-> Si votre carte utilise un fichier DITAVAL, toutes les images de drapeau référencées dans le fichier DITAVAL sont copiées à un emplacement associé à la carte publiée dans la sortie.  En outre, si vous utilisez plusieurs fichiers DITAVAL pour filtrer dans la même carte, veillez à utiliser des noms de fichier `.ditaval` uniques pour éviter les problèmes de nom de fichier en double lors de la publication.
+> Si votre carte utilise un fichier DITAVAL, toutes les images marquées référencées dans le fichier DITAVAL sont copiées vers un emplacement associé à la carte publiée dans la sortie.  En outre, si vous utilisez plusieurs fichiers DITAVAL pour filtrer dans la même carte, veillez à utiliser des noms de fichier `.ditaval` uniques pour éviter les problèmes de nom de fichier en double lors de la publication.
 
 ## Générer une sortie pour un plan DITA à partir du tableau de bord Plan
 
