@@ -4,9 +4,9 @@ description: Générez des rapports DITA map à partir de la console Map dans AE
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: '2716'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,9 @@ Pour mettre à jour les métadonnées, procédez comme suit :
 
    >[!NOTE]
    >
-   > Si un fichier est verrouillé par un autre utilisateur, il ne peut pas être sélectionné pour la mise à jour des métadonnées. Une icône de cadenas apparaît également près du titre d’un fichier verrouillé. Vous pouvez pointer sur l’icône pour afficher le nom de l’utilisateur.
+   > Si un fichier est verrouillé par un autre utilisateur, il ne peut pas être sélectionné pour la mise à jour des métadonnées. Une icône de cadenas apparaît également près du titre d’un fichier verrouillé. Vous pouvez pointer sur l’icône pour afficher le nom de l’utilisateur. Vous pouvez configurer le bouton **Gérer** pour le désactiver lorsque le ou les fichiers sélectionnés sont en mode lecture seule. Pour plus d’informations, consultez le bouton [Gérer dans le panneau Métadonnées](../guides-ui-extensions/examples.md).
+   >
+   > <br>Cette limitation s&#39;applique uniquement aux fichiers DITA et Markdown. Pour les ressources non DITA (telles que les images et les fichiers multimédias), les propriétés de métadonnées restent modifiables même en mode lecture seule.
 
    ![](images/all-selection.png)
 

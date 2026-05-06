@@ -4,9 +4,9 @@ description: Découvrez comment passer en revue les rubriques et utiliser les fo
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '2670'
+source-wordcount: '2787'
 ht-degree: 0%
 
 ---
@@ -273,5 +273,16 @@ Sélectionnez une ou plusieurs des options de filtrage suivantes dans la boîte 
 
 
 Pour supprimer le filtre et afficher tous les commentaires, désélectionnez tous les filtres de la boîte de dialogue **Type de filtre** et sélectionnez **Appliquer**.
+
+
+## Historique des versions du réviseur
+
+La fonction Historique des versions permet aux réviseurs de comparer la version actuelle de la tâche de révision avec les versions de tâches de révision précédemment fermées sur lesquelles les réviseurs ont travaillé. Cela permet aux réviseurs et aux réviseuses de valider les modifications apportées depuis la dernière révision terminée et de maintenir la continuité entre les cycles de révision.
+
+![](images/version-history-icon.png)
+
+L’icône **Historique des versions** de la rubrique s’affiche une fois que la tâche de révision a été fermée par l’auteur. Si le réviseur ou la réviseuse ferme la tâche, elle ne sera toujours disponible qu’une fois que l’auteur l’aura également fermée. Pour chaque version de tâche de révision terminée, les réviseurs et réviseuses peuvent accéder à son historique des versions à partir de la liste déroulante dans la boîte de dialogue Historique des versions . À partir de là, les réviseurs et réviseuses peuvent comparer les modifications suivies, les libellés, les commentaires et d’autres détails liés aux tâches entre les versions.
+
+![](images/version-history-dialog.png)
 
 **Rubrique parente :**&#x200B;[&#x200B; Présentation de la révision](review.md)

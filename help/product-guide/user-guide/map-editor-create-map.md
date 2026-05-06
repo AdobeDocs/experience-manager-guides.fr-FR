@@ -4,7 +4,7 @@ description: Création d’une carte avec l’éditeur de cartes dans Experience
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Effectuez les étapes suivantes pour ajouter des rubriques à un fichier de mapp
 
    - **A** - \(*Barre d’onglets*\) : similaire à la barre d’onglets de l’éditeur. Afficher [barre d’onglets](./web-editor-tab-bar.md) dans l’éditeur pour plus d’informations.
 
-   - **B** - \(*Toolbar*\) Il s’agit de la barre d’outils qui vous permet d’utiliser des fichiers de mappage. Pour plus d’informations sur les fonctionnalités disponibles via la barre d’outils, consultez la section [Fonctionnalités disponibles dans la barre d’outils de l’éditeur de cartes](#features-available-in-the-map-editors-toolbar).
+   - **B** - \(*Toolbar*\) Il s’agit de la barre d’outils qui vous permet d’utiliser des fichiers de mappage. Pour plus d’informations sur les fonctionnalités disponibles via la barre d’outils, consultez la section [Fonctionnalités disponibles dans la barre d’outils de l’éditeur de cartes](./map-editor-advanced-map-editor.md).
 
    - **C** - \(*Vues des cartes*\) : permet de basculer l’éditeur de cartes entre les options Disposition, Auteur, Source et Aperçu. La vue **Disposition** permet d&#39;organiser les rubriques dans un plan DITA. Cela donne l’arborescence ou la vue hiérarchique de la carte. La vue **Auteur** vous permet de modifier les rubriques dans l’éditeur de cartes. Cela donne également la vue WYSIWYG du fichier de mappage. La vue **&#x200B;**&#x200B;vous permet d&#39;utiliser le code XML sous-jacent du fichier de mappage. L’aperçu vous donne une vue consolidée de toutes les rubriques et sous-cartes dans le fichier de mappage.
 

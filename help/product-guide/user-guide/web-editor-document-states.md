@@ -4,14 +4,18 @@ description: Découvrez les types d’états de document dans Adobe Experience M
 exl-id: 3a68b2ed-b917-4f05-8b2b-d2722a740502
 feature: Authoring, Features of Web Editor, Document State
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
 
 # Etat du document {#id1821HC00URO}
+
+>[!INFO]
+>
+> Cette rubrique s’applique à la fois au nouvel éditeur et à l’ancien éditeur. Bien que les principales fonctionnalités restent cohérentes, les différences au niveau de l’interface utilisateur, de la terminologie et des interactions sont indiquées dans le contenu à l’aide des onglets et des légendes, le cas échéant.
 
 Pour gérer le niveau de préparation des documents, Adobe Experience Manager Guides fournit la propriété d’état du document pour indiquer l’état actuel du document. Les états du document vous permettent de déterminer rapidement si un document est nouveau, en cours de révision ou terminé.
 
@@ -96,11 +100,23 @@ Pour utiliser la fonction d&#39;approbation de document, procédez comme suit :
 
 1. Une fois le document marqué comme approuvé, un **Aperçu** du document s’affiche en mode lecture seule. Toutes les options de modification sont supprimées des trois modes : Auteur, Source et Aperçu. Cependant, vous avez toujours accès à la liste déroulante **Menu** qui contient les options **Historique des versions** et **Balises**.
 
-   ![](images/approved-doc-read-only.png){width="650"}
+>[!BEGINTABS]
 
-   >[!NOTE]
-   >
-   > En mode Aperçu , la liste déroulante Menu contenant les options Historique des versions et Balises est supprimée de la barre d’outils.
+>[!TAB Nouvel éditeur]
+
+![](images/approved-doc-read-only-editor-2-0.png){width="650"}
+
+>[!TAB Ancien éditeur]
+
+![](images/approved-doc-read-only.png){width="650"}
+
+>[!ENDTABS]
+
+
+
+>[!NOTE]
+>
+> En mode Aperçu , la liste déroulante Menu contenant les options Historique des versions et Balises est supprimée de la barre d’outils.
 
 
 Une fois qu’un document est marqué comme approuvé, il n’est plus disponible pour modification. Si vous souhaitez utiliser le document pour la prochaine version, vous devez le ramener à l’état *Brouillon*. Pour rétablir le statut d’un document approuvé en mode *Brouillon*, procédez comme suit :

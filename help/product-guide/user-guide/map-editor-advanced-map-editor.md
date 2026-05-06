@@ -4,27 +4,36 @@ description: connaître les fonctionnalités de l’éditeur de cartes dans Adob
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: c882db84a263165d62dcc6fda9c22a5a643f6eff
 workflow-type: tm+mt
-source-wordcount: '2703'
+source-wordcount: '2918'
 ht-degree: 0%
 
 ---
 
 # Fonctionnalités de l’éditeur de cartes {#id1942D0S0IHS}
 
+>[!INFO]
+>
+> Cette rubrique s’applique à la fois au nouvel éditeur et à l’ancien éditeur. Bien que les principales fonctionnalités restent cohérentes, les différences au niveau de l’interface utilisateur, de la terminologie et des interactions sont indiquées dans le contenu à l’aide des onglets et des légendes, le cas échéant.
+
 La barre d’outils de l’éditeur de cartes est similaire à celle de l’éditeur de rubriques. Les opérations de base telles que le basculement du panneau de gauche, l’enregistrement du mappage, la création d’une nouvelle version du mappage, l’annulation/la restauration de la dernière opération et la suppression des éléments sélectionnés sont communes aux deux éditeurs. Pour plus d’informations sur le fonctionnement de ces opérations, consultez la section [Barre d’outils de l’éditeur](web-editor-toolbar.md#).
 
-Les options affichées dans la barre d’outils de l’éditeur sont basées sur la vue Éditeur de cartes . Quatre vues sont disponibles dans l’éditeur de cartes :
+Les options affichées dans la barre d’outils de l’éditeur sont basées sur la vue Éditeur de cartes . Cinq vues sont disponibles dans l’éditeur de cartes :
 
 - [Disposition](#layout-view)
 - [Création](#author-view)
 - [Source](#source-view)
 - [Prévisualisation](#preview)
+- [Vue côte à côte](#side-by-side-view-available-in-new-editor-only)
 
 Les sections suivantes couvrent les options de la barre d’outils disponibles dans les différentes vues de l’éditeur de cartes :
 
 ## Mode Mise en page
+
+>[!NOTE]
+>
+> Dans le nouvel éditeur, la fonction **Disposition** n’est actuellement pas prise en charge.
 
 Lorsque vous ouvrez une carte pour la modifier, le mode Mise en page de l’éditeur de cartes s’ouvre. Le mode Mise en page affiche la hiérarchie de la carte sous forme d’arborescence et vous permet d’organiser les rubriques sur une carte.
 
@@ -32,7 +41,7 @@ Lorsque vous ouvrez une carte pour la modifier, le mode Mise en page de l’édi
 >
 > Le mode Mise en page affiche uniquement les références présentes dans une carte. Si des références sont rompues, un petit symbole croisé s&#39;affiche à gauche de la référence
 
-Les options suivantes sont disponibles sur la barre d’outils en mode Mise en page :
+Les options suivantes sont disponibles dans la barre d’outils en mode Mise en page :
 
 **Référence de rubrique** - ![](images/topic-reference.svg)
 
@@ -138,15 +147,27 @@ Si vous avez appliqué des conditions à une rubrique, une icône de filtre s’
 
 ## Vue Auteur
 
-La vue **Auteur** vous permet de modifier votre plan DITA dans l&#39;éditeur. La vue WYSIWYG de l’éditeur de cartes s’affiche, et certaines des icônes affichées en mode Création sont identiques à la vue Mise en page.
+La vue **Auteur** vous permet de modifier votre plan DITA dans l&#39;éditeur. Affiche la vue WYSIWYG de l’éditeur de cartes.
+
+>[!BEGINTABS]
+
+>[!TAB Nouvel éditeur]
+
+![](images/map-editor-author-view-editor-2-0.png)
+
+>[!TAB Ancien éditeur]
 
 ![](images/map-editor-author-view.png)
+
+>[!ENDTABS]
+
+Les options disponibles dans la liste déroulante **Menu** sont identiques à celles disponibles dans la barre d’outils [Éditeur](./web-editor-toolbar.md#menu-dropdown).
 
 En outre, vous pouvez afficher les icônes suivantes et effectuer les tâches associées à partir de la vue Auteur :
 
 **Insérer avant/Insérer après** - ![](images/insert_element_before_icon.svg)/![](images/insert_element_after_icon.svg)
 
-Affiche la boîte de dialogue **Insérer un élément avant ou &#x200B;** Insérer un élément après. Sélectionnez l&#39;élément à insérer dans le mappage. Selon l&#39;opération, le nouvel élément est inséré avant ou après l&#39;élément courant dans la carte.
+Affiche la boîte de dialogue **Insérer un élément avant** ou **Insérer un élément après**. Sélectionnez l&#39;élément à insérer dans le mappage. Selon l&#39;opération, le nouvel élément est inséré avant ou après l&#39;élément courant dans la carte.
 
 **Element** - ![](images/Add_icon.svg)
 
@@ -229,9 +250,17 @@ Permet de conserver la synchronisation entre l’attribut `@navtitle` et l’él
 
 Affiche ou masque les balises XML. Les balises servent de repères visuels indiquant la limite d’un élément. Dans ce mode, si vous souhaitez insérer une référence de rubrique/mappage, faites glisser et déposez le fichier souhaité avant ou après la balise. La barre horizontale ne s’affiche pas en mode Balises .
 
+>[!NOTE]
+>
+> Dans le nouvel éditeur, les options d’ajout ou de suppression de **Balises** sont disponibles sous Paramètres de l’éditeur. Pour plus d’informations, voir [Paramètres de l’éditeur](./config-editor-settings.md).
+
 **Suivi des modifications** - ![](images/track-changes.svg)
 
 Vous pouvez conserver une trace de toutes les mises à jour effectuées dans le fichier de mappage en activant le mode Suivi des modifications. Une fois le suivi des modifications activé, toutes les insertions et suppressions sont capturées dans le document. Pour plus d’informations, voir [Suivi des modifications](web-editor-features.md#track-changes) dans l’éditeur.
+
+>[!NOTE]
+>
+> Dans le nouvel éditeur, la fonctionnalité **Suivi des modifications** n’est actuellement pas prise en charge.
 
 **Créer une tâche de révision** - ![](images/create-review-task.svg)
 
@@ -276,6 +305,10 @@ Vous pouvez effectuer les tâches supplémentaires suivantes en mode Aperçu :
 
 **Actualiser les rubriques ou la carte**
 
+>[!NOTE]
+>
+> Cette section s’applique uniquement à l’ancien éditeur. Dans le nouvel éditeur, les cartes et leurs rubriques sont automatiquement actualisées.
+
 Lorsqu’une carte est ouverte en mode Aperçu et que vous revenez sur celle-ci à partir d’un autre onglet de l’éditeur, l’aperçu ne s’actualise pas automatiquement. Pour recharger l’aperçu du mappage, une actualisation manuelle est nécessaire.
 
 Vous pouvez utiliser la fonctionnalité Actualiser , disponible en mode Prévisualisation de la carte, de deux manières :
@@ -300,13 +333,18 @@ Vous pouvez accéder à l’aperçu d’une carte depuis :
 
   ![](images/map-preview-icon.png){width="650"}
 
-  L&#39;aperçu de la carte est affiché dans une boîte pop-up.
-
-  ![](images/map-editor-preview-pop-up.png){width="500"}
 
 **Propriétés du mappage**
 
 Affiche la boîte de dialogue Propriétés du mappage dans laquelle vous pouvez définir les attributs et les informations de métadonnées du mappage.
+
+## Vue côte à côte (disponible dans le nouvel éditeur uniquement)
+
+La vue côte à côte dans le nouvel éditeur vous permet d’afficher les vues Auteur et Source l’une à côté de l’autre. Cela permet de comprendre plus facilement comment votre carte est créée et de s’assurer que toutes les modifications que vous apportez sont alignées avec la structure prévue.
+
+Par exemple, si une rubrique ne s’affiche pas correctement dans votre sortie, vous pouvez utiliser la vue Auteur pour vérifier son emplacement dans la carte tout en examinant simultanément la vue Source pour vérifier la référence à la rubrique ou ses attributs.
+
+![](images/map-editor-side-by-side-view.png)
 
 
 ## Modifier les rubriques via le plan DITA {#id17ACJ0F0FHS}
@@ -317,59 +355,84 @@ Experience Manager Guides permet aux auteurs d&#39;ouvrir un plan DITA dans l&#3
 
 Pour modifier des rubriques via un plan DITA, procédez comme suit :
 
-1. Dans le panneau Référentiel, accédez au fichier DITA map à modifier et ouvrez-le.
+1. Accédez à l’Explorateur et ouvrez le fichier de mappage à modifier.
 
    Le fichier de mappage s’ouvre dans la vue Carte.
 
->[!NOTE]
->
-> Vous pouvez également utiliser l&#39;interface utilisateur d&#39;Assets pour ouvrir un fichier de plan DITA. Accédez au fichier de plan DITA contenant les rubriques à modifier et sélectionnez **Modifier les rubriques** dans la barre d&#39;outils principale pour lancer l&#39;éditeur.
+   >[!NOTE]
+   >
+   > Vous pouvez également utiliser l’interface utilisateur d’Assets pour ouvrir un fichier de mappage. Accédez au fichier de plan DITA contenant les rubriques à modifier et sélectionnez **Modifier les rubriques** dans la barre d&#39;outils principale pour lancer l&#39;éditeur.
 
-1. Sélectionnez un lien de rubrique pour l’ouvrir dans l’éditeur en vue de le modifier.
+1. Sélectionnez une rubrique pour l’ouvrir dans l’éditeur en vue de la modifier.
 
    Vous pouvez ouvrir plusieurs rubriques dans l’éditeur et chaque rubrique est ouverte dans un nouvel onglet de l’éditeur. Même si votre plan DITA contient des sous-plans, les rubriques des sous-plans sont également ouvertes dans un nouvel onglet pour modification. Si vous souhaitez visualiser les rubriques sous une sous-carte, vous pouvez sélectionner et développer la sous-carte.
 
-   ![](images/web-editor-multiple-topics.png)
-
    Si vous sélectionnez un fichier de mappage, le mappage est ouvert dans un nouvel onglet de l’éditeur.
 
-1. Une fois la modification des rubriques terminée, vous pouvez effectuer les opérations suivantes :
+>[!BEGINTABS]
 
-   - Vous pouvez les enregistrer individuellement. Si vous fermez sans enregistrer vos rubriques, une boîte de dialogue vous invitant à enregistrer les rubriques non enregistrées s’affiche :
+>[!TAB Nouvel éditeur]
 
-     ![](images/save-multiple-topics-new.png){width="300"}
+![](images/web-editor-multiple-topics-editor-2-0.png)
 
-     Vous pouvez choisir d’enregistrer toutes les rubriques sélectionnées ou de désélectionner les rubriques que vous ne souhaitez pas enregistrer.
+>[!TAB Ancien éditeur]
 
-   - Vous pouvez déverrouiller la rubrique à l’aide de l’option **Enregistrer en tant que nouvelle version**. Lorsque vous enregistrez une version de la rubrique, une nouvelle version est créée et le verrou est également libéré.
+![](images/web-editor-multiple-topics.png)
 
-     Il est recommandé d’enregistrer vos modifications avant de déverrouiller les fichiers.  Lorsque vous enregistrez les modifications, le fichier XML est validé.
+>[!ENDTABS]
 
-   - Vous pouvez également afficher la progression des rubriques dans la boîte de dialogue **Enregistrer en tant que nouvelle version**. Un message de réussite s’affiche lorsque les fichiers sont déverrouillés.
+Une fois la modification des rubriques terminée, vous pouvez effectuer les opérations suivantes :
 
-   - Si votre administrateur a activé l’option de déverrouillage des fichiers à la fermeture, une invite vous demandant d’enregistrer les fichiers verrouillés s’affiche à chaque fermeture des fichiers verrouillés. Lorsque cette option est activée, lorsque vous fermez l’éditeur avec les fichiers modifiés, la liste des fichiers verrouillés à enregistrer s’affiche. Les fichiers verrouillés s’affichent avec une icône de verrouillage :
+- Vous pouvez les enregistrer individuellement. Si vous fermez sans enregistrer vos rubriques, une boîte de dialogue vous invitant à enregistrer les rubriques non enregistrées s’affiche :
 
-     ![](images/save-on-close-new.png){width="350"}
+  ![](images/save-multiple-topics-new.png){width="300"}
+
+  Vous pouvez choisir d’enregistrer toutes les rubriques sélectionnées ou de désélectionner les rubriques que vous ne souhaitez pas enregistrer.
+
+- Vous pouvez déverrouiller la rubrique à l’aide de l’option **Enregistrer en tant que nouvelle version**. Lorsque vous enregistrez une version de la rubrique, une nouvelle version est créée et le verrou est également libéré.
+
+  Il est recommandé d’enregistrer vos modifications avant de déverrouiller les fichiers.  Lorsque vous enregistrez les modifications, le fichier XML est validé.
+
+- Vous pouvez également afficher la progression des rubriques dans la boîte de dialogue **Enregistrer en tant que nouvelle version**. Un message de réussite s’affiche lorsque les fichiers sont déverrouillés.
+
+- Si votre administrateur a activé l’option de déverrouillage des fichiers à la fermeture, une invite vous demandant d’enregistrer les fichiers verrouillés s’affiche à chaque fermeture des fichiers verrouillés. Lorsque cette option est activée, lorsque vous fermez l’éditeur avec les fichiers modifiés, la liste des fichiers verrouillés à enregistrer s’affiche. Les fichiers verrouillés s’affichent avec une icône de verrouillage :
+
+  ![](images/save-on-close-new.png){width="350"}
 
 ## Panneau de droite dans l’éditeur de cartes
 
-Le panneau de droite affiche les propriétés de contenu et les propriétés de carte en mode Mise en page de l’éditeur de cartes.
+Le panneau de droite affiche les propriétés Contenu et Carte en mode Mise en page de l’éditeur de cartes.
 
 **Propriétés du contenu**
 
-Le panneau Propriétés du contenu contient des informations sur le type de rubrique actuellement sélectionnée dans la carte, son URL de lien et ses attributs. Pour plus d’informations, consultez la section [Propriétés du contenu](web-editor-features.md#right-panel) dans l’éditeur.
+Le panneau Propriétés du contenu contient des informations sur la rubrique actuellement sélectionnée dans la carte, notamment son type, le chemin du lien, l’UUID du lien et les attributs.
 
-- **Autres attributs** Si votre administrateur a créé un profil pour les attributs, vous obtiendrez ces attributs ainsi que leurs valeurs configurées. À l’aide du panneau Propriétés du contenu , vous pouvez choisir ces attributs et les affecter au contenu approprié dans votre rubrique. Vous pouvez également affecter des attributs configurés par votre administrateur sous **Attributs d’affichage**. Les attributs définis pour un élément sont affichés en mode Mise en page et Plan. Cela vous permet d’avoir un aperçu rapide de toutes les rubriques d’un mappage pour lequel un attribut particulier est défini. Par exemple, toutes les rubriques qui possèdent l’attribut `audience` sont définies comme `US`.
+Pour plus d’informations, consultez la section [Propriétés du contenu](web-editor-features.md#right-panel) dans l’éditeur.
 
-  ![mode mise en page](images/layout-inline-attributes.png){width="650"}
+**Autres attributs** Si votre administrateur a créé un profil pour les attributs, vous obtiendrez ces attributs ainsi que leurs valeurs configurées. À l’aide du panneau Propriétés du contenu , vous pouvez choisir ces attributs et les affecter au contenu approprié dans votre rubrique. Vous pouvez également affecter des attributs configurés par votre administrateur sous **Attributs d’affichage**. Les attributs définis pour un élément sont affichés en mode Mise en page et Plan. Cela vous permet d’avoir un aperçu rapide de toutes les rubriques d’un mappage pour lequel un attribut particulier est défini. Par exemple, toutes les rubriques qui possèdent l’attribut `audience` sont définies comme `US`.
+
+![mode mise en page](images/layout-inline-attributes.png){width="650"}
+
+Reportez-vous aux onglets ci-dessous pour comparer la manière dont les attributs sont affichés dans la vue Auteur dans le nouvel éditeur et l’ancien éditeur.
+
+>[!BEGINTABS]
+
+>[!TAB Nouvel éditeur]
+
+![vue auteur](images/author-inline-attributes-editor-2-0.png){width="650"}
+
+>[!TAB Ancien éditeur]
+
+![vue auteur](images/author-inline-attributes.png){width="650"}
+
+>[!ENDTABS]
 
 
-  Pour plus d’informations, consultez la section [Afficher les attributs](../cs-install-guide/workspace-settings.md#display-attributes).
+Pour plus d’informations, consultez la section [Afficher les attributs](../cs-install-guide/workspace-settings.md#display-attributes).
 
-- **Métadonnées** à l’aide des métadonnées , vous pouvez définir les informations de métadonnées. Vous pouvez définir le titre de navigation, le texte du lien, la description courte et les mots-clés.
+**Métadonnées** à l’aide des métadonnées , vous pouvez définir les informations de métadonnées. Vous pouvez définir le titre de navigation, le texte du lien, la description courte et les mots-clés.
 
 Pour plus d&#39;informations sur les métadonnées et les attributs de rubrique standard, consultez la documentation [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) dans la section Spécification du langage OASIS DITA.
-
 
 
 

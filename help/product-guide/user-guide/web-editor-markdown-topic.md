@@ -4,7 +4,7 @@ description: Créez des documents Markdown à partir de l’éditeur. Découvrez
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 1%
@@ -32,6 +32,7 @@ Pour créer une rubrique Markdown à partir de l’éditeur, procédez comme sui
    >[!NOTE]
    >
    > En cas de mise à niveau, vous devez ajouter le modèle Markdown dans le profil de dossier actuel utilisé. Vous pouvez [créer un modèle Markdown à partir de l’éditeur](./web-editor-features.md#templates) ou utiliser un modèle existant pour la création Markdown. Pour plus d’informations sur l’ajout de modèles de création dans Experience Manager Guides, consultez [Configuration de profils globaux ou au niveau du dossier](../cs-install-guide/conf-folder-level.md).
+
 1. Sélectionnez **Créer**.
 
    La rubrique Markdown est créée au niveau du chemin d’accès sélectionné et est ouverte pour modification.

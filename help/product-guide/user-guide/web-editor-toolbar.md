@@ -4,14 +4,18 @@ description: Découvrez la barre d’outils dans l’éditeur. Découvrez l’in
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: d369972ced74b8a66280c018fc7ab29b174da36e
 workflow-type: tm+mt
-source-wordcount: '6207'
+source-wordcount: '6443'
 ht-degree: 0%
 
 ---
 
 # Barre d’outils de l’éditeur
+
+>[!INFO]
+>
+> Cette rubrique s’applique à la fois au nouvel éditeur et à l’ancien éditeur. Bien que les principales fonctionnalités restent cohérentes, les différences au niveau de l’interface utilisateur, de la terminologie et des interactions sont indiquées dans le contenu à l’aide des onglets et des légendes, le cas échéant.
 
 La barre d’outils s’affiche lorsque vous ouvrez une rubrique ou un mappage à modifier dans l’éditeur. Les fonctionnalités disponibles dans la barre d’outils sont les suivantes :
 
@@ -26,9 +30,21 @@ La barre d’outils s’affiche lorsque vous ouvrez une rubrique ou un mappage �
 
 ## Menu déroulant
 
-La liste déroulante Menu permet d’accéder aux actions de modification, Rechercher et remplacer, Historique des versions, Libellé de version, Fusionner, Créer une tâche de révision et Afficher le menu (qui inclut le Suivi des modifications, les Balises, un espace insécable).
+La liste déroulante Menu permet d’accéder aux différentes actions de modification, comme illustré ci-dessous :
+
+>[!BEGINTABS]
+
+>[!TAB Nouvel éditeur]
+
+![Menu déroulant de la barre d’outils de l’éditeur](images/editor-toolbar-menu-dropdown-new-editor-2-0.png){width="350"}
+
+
+>[!TAB Ancien éditeur]
 
 ![Menu déroulant de la barre d’outils de l’éditeur](images/editor-toolbar-menu-dropdown-new.png){width="350"}
+
+
+>[!ENDTABS]
 
 Ces fonctionnalités sont expliquées en détail comme suit :
 
@@ -231,7 +247,11 @@ Vous pouvez [créer une tâche de révision](./review-send-topics-for-review.md)
 
 **Afficher le menu**
 
-Le menu Afficher comprend les fonctionnalités suivantes :
+>[!NOTE]
+>
+> Dans le nouvel éditeur, le menu **Afficher** n&#39;est plus disponible dans la liste déroulante Menu. Pour accéder aux différentes options disponibles sous le menu Afficher, accédez à [Paramètres de l’éditeur](./config-editor-settings.md). Le menu Afficher reste disponible dans la liste déroulante Menu de l’ancien éditeur.
+
+Le menu Afficher de l’ancien éditeur comprend les fonctionnalités suivantes :
 
 - **Suivi des modifications :** vous pouvez conserver une trace de toutes les mises à jour apportées à un document en activant le mode Suivi des modifications. Une fois le suivi des modifications activé, toutes les insertions et suppressions sont capturées dans le document. Tout le contenu supprimé est mis en surbrillance avec des caractères barrés et toutes les insertions sont mises en surbrillance en vert. En outre, vous obtenez également les barres de modification à la périphérie de la page de rubrique. Une nouvelle fois, une barre rouge s’affiche pour le contenu supprimé et une barre verte pour le contenu ajouté. S’il y a un ajout et une suppression sur la même ligne, des barres vertes et rouges s’affichent.
 La capture d’écran suivante met en surbrillance le contenu supprimé et inséré ainsi que les barres de modification :
@@ -298,16 +318,25 @@ Vous pouvez également saisir un caractère ou une chaîne dans la zone de reche
 
 Si vous travaillez dans un élément de bloc tel qu&#39;un `note`, utilisez l&#39;icône Insérer un élément pour insérer un nouvel élément après l&#39;élément de `note`. Dans la capture d’écran suivante, un élément note a été inséré dans l’élément p \(paragraph\) :
 
-![Insérer un élément dans un élément de bloc](images/note-in-para-insert-element_cs.png){ }
+>[!BEGINTABS]
+
+>[!TAB Nouvel éditeur]
+
+![Insérer un élément dans un élément de bloc](images/note-in-para-insert-element_cs-editor-2-0.png)
+
+>[!TAB Ancien éditeur]
+
+![Insérer un élément dans un élément de bloc](images/note-in-para-insert-element_cs.png)
+
+>[!ENDTABS]
 
 Si vous appuyez sur Entrée dans l’élément de note, un nouveau paragraphe est créé dans l’élément de note lui-même. Pour insérer un nouvel élément en dehors d’une note, sélectionnez l’élément p \(mis en surbrillance dans la capture d’écran\) dans le chemin de navigation des éléments, puis sélectionnez l’icône Élément ou appuyez sur ***Alt***+***Entrée*** pour ouvrir la boîte de dialogue Insérer un élément . Sélectionnez ensuite l’élément souhaité et appuyez sur Entrée pour insérer l’élément sélectionné après l’élément de note.
 
-Vous pouvez également ajouter un élément entre deux éléments lorsqu’un curseur en forme de bloc clignotant s’affiche.
+Dans le nouvel éditeur, vous pouvez insérer un nouvel élément entre les éléments existants lorsqu&#39;un curseur horizontal apparaît. Ce curseur indique que votre curseur est positionné à l’extérieur d’un élément de bloc et peut ajouter un nouvel élément à cet emplacement.
 
+![](images/Block-cursor-editor-2-0.png){width="300"}
 
-![](images/Block-cursor.png){width="300"}
-
-Par exemple, si vous travaillez sur une rubrique DITA et que le curseur de bloc clignote entre la description courte et le corps, vous pouvez ajouter `prolog` élément , puis ajouter les détails copyright, auteur et autres.
+Par exemple, dans une rubrique DITA, lorsque le curseur horizontal apparaît entre le `short description` et le `body`, vous pouvez insérer un élément `prolog`. Vous pouvez ensuite utiliser le `prolog` pour ajouter des métadonnées telles que des `copyright`, des `author` et d’autres détails.
 
 Le menu contextuel vous permet également de saisir un nouvel élément. Effectuez un clic droit à n’importe quel emplacement de votre document pour appeler le menu contextuel. Dans ce menu, choisissez **Insérer un élément** pour afficher la boîte de dialogue **Insérer un élément** et choisissez l&#39;élément à insérer.
 
@@ -331,21 +360,23 @@ Crée une liste numérotée à l’emplacement valide actuel ou suivant. Si vous
 
 **Tableau** - ![](images/Table_icon.svg)
 
-Insère un tableau à l’emplacement valide actuel ou suivant. Sélectionnez l&#39;icône Tableau pour ouvrir la boîte de dialogue Insérer un tableau simple.
+Insère un tableau simple ou un tableau à l&#39;emplacement valide actuel ou suivant. Sélectionnez l’icône Tableau pour ouvrir la boîte de dialogue **Insérer un tableau simple**.
 
 ![](images/table-properties.png){width="550"}
+
+Vous pouvez indiquer le nombre de lignes et de colonnes requis dans le tableau. Si vous souhaitez conserver la première ligne comme en-tête du tableau, sélectionnez l’option **Définir la première ligne comme en-tête**. Pour ajouter un titre à votre tableau, saisissez-le dans le champ Titre .
 
 >[!NOTE]
 >
 > Vous pouvez également copier un tableau à partir de MS Word ou Excel et le coller dans le fichier de rubrique Experience Manager Guides. Le tableau copié est collé sous la forme `<simpletable>` ou `<tgroup>` selon les paramètres configurés dans la configuration de l’éditeur XML. Pour plus d’informations, consultez [Configuration de l’affichage des tableaux collés](../cs-install-guide/conf-pasted-tables.md).
 
-Vous pouvez indiquer le nombre de lignes et de colonnes requis dans le tableau. Si vous souhaitez conserver la première ligne comme en-tête du tableau, sélectionnez l’option **Définir la première ligne comme en-tête**. Pour ajouter un titre à votre tableau, saisissez-le dans le champ Titre .
-
 Une fois un tableau inséré, vous pouvez le modifier à l’aide du menu contextuel.
 
+>[!NOTE]
+>
+> Vous pouvez également choisir de passer au nouvel éditeur pour une expérience d’édition de tableau améliorée. Pour plus d’informations sur les fonctionnalités de création de tableau disponibles dans le nouvel éditeur, consultez la section [Utilisation des tableaux dans le nouvel éditeur](./web-editor-other-features.md#work-with-tables-in-the-new-editor).
+
 ![](images/table-context-menu_cs.png){width="550"}
-
-
 
 À l’aide du menu contextuel du tableau, vous pouvez :
 
@@ -359,8 +390,7 @@ Une fois un tableau inséré, vous pouvez le modifier à l’aide du menu contex
 
 - Générer des identifiants
 
-<details>
-    <summary> Définir des attributs sur plusieurs cellules, une ligne entière ou une colonne d’un tableau </summary>
+**Définir des attributs sur plusieurs cellules, une ligne entière ou une colonne d’un tableau**
 
 Vous pouvez également définir des attributs sur plusieurs cellules, une ligne entière ou une colonne d’un tableau. Par exemple, pour aligner une cellule de tableau, faites glisser et sélectionnez la cellule souhaitée. Dans le panneau Propriétés du contenu (à droite), la propriété **Type** devient **entrée**.
 
@@ -371,7 +401,6 @@ Vous pouvez également définir des attributs sur plusieurs cellules, une ligne 
 
 ![](images/align-table-cell_cs.png){ }
 
-</details>
 
 **Image** - ![](images/Image_icon.svg)
 
@@ -413,7 +442,9 @@ Une fois que vous avez inséré une image, vous pouvez modifier sa hauteur, sa l
 
 ![](images/image-properties.png){ }
 
-Le champ Source affiche l’UUID du fichier image inséré. Vous pouvez obtenir le chemin d’accès complet au fichier image inséré en plaçant le pointeur de la souris sur le champ Source. Le chemin d’accès s’affiche dans l’info-bulle.
+Le champ **Chemin** affiche le chemin relatif de la référence sélectionnée. Utilisez le bouton **Copier le chemin** pour copier le chemin absolu.
+
+Le champ **UUID** affiche l&#39;UUID de la référence sélectionnée. Utilisez le bouton **Copier l’UUID** pour copier l’UUID.
 
 Vous pouvez redimensionner une image en fournissant une valeur de Hauteur ou de Largeur pour le fichier image. Les proportions de l’image sont conservées automatiquement. Si vous le souhaitez, vous pouvez également choisir de ne pas conserver les proportions du fichier image en sélectionnant l’icône de cadenas \(ou Conserver les proportions\) et en fournissant les valeurs Hauteur et Largeur .
 
@@ -498,7 +529,18 @@ Si votre administrateur a activé l’option UUIDs dans *XMLEditorConfig*, l’U
 >
 > Conformément au comportement standard de DITA, l&#39;attribut scope=`external` ne doit pas être appliqué aux liens internes, car il est destiné uniquement aux références à des ressources externes. L’application de cet attribut aux liens internes peut perturber les workflows. Pour le contenu géré dans Experience Manager Guides, utilisez plutôt l’étendue par défaut=`local` ou les références basées sur les clés .
 
-![](images/ref-link-uuid_cs.png){ }
+>[!BEGINTABS]
+
+
+>[!TAB Nouvel éditeur]
+
+![](images/ref-link-uuid_cs-editor-2-0.png)
+
+>[!TAB Ancien éditeur]
+
+![](images/ref-link-uuid_cs.png)
+
+>[!ENDTABS]
 
 >[!NOTE]
 >
@@ -506,7 +548,7 @@ Si votre administrateur a activé l’option UUIDs dans *XMLEditorConfig*, l’U
 
 >[!IMPORTANT]
 >
-> Même si le chemin d’accès relatif du contenu référencé est affiché dans la propriété **Link**, le lien est créé en interne à l’aide de l’UUID du contenu référencé.
+> Bien que le chemin d’accès relatif du contenu référencé soit affiché dans la propriété **Chemin du lien**, le lien est créé en interne à l’aide de l’UUID du contenu référencé.
 
 >[!TIP]
 >
@@ -606,16 +648,41 @@ Connectez-vous à votre source de données et utilisez les données pour créer 
 
 La fonctionnalité **Informations sur la version et Enregistrer en tant que nouvelle version** combine le suivi des versions et l’enregistrement de contenu dans une seule fonctionnalité.
 
-- Les informations de version affichent la version actuelle de la rubrique ou du mappage. Un astérisque (*) s’affiche en regard du numéro de version pour indiquer les modifications non enregistrées.
+Les informations de version affichent la version actuelle de la rubrique ou du mappage. Un astérisque `(*)` apparaît à côté du numéro de version pour indiquer que les modifications sont enregistrées dans le document mais n’ont pas de contrôle de version.
 
-  Le numéro de version change à chaque nouvelle version créée pour le fichier de rubrique ou de mappage. Si vous travaillez sur un document nouvellement créé, les informations de version apparaissent sous la forme **aucune**.
+>[!NOTE]
+>
+> Toute modification apportée aux champs de métadonnées disponibles sous [Propriétés du fichier](./web-editor-right-panel.md#file-properties) ou appliquée sur le serveur principal déclenche également l’astérisque `(*)` sur la version du document.  Pour éviter que les mises à jour de métadonnées générées par le système n’affectent cet indicateur, l’administration peut configurer une liste d’exclusion pour les propriétés de métadonnées. Pour plus d’informations sur la configuration des propriétés de métadonnées, consultez la section [Configurer la liste d’exclusion des propriétés de métadonnées](../install-conf-guide/conf-metadata-prop.md).
 
-  ![](images/version-information.png){ }
+Le numéro de version change à chaque nouvelle version créée pour le fichier de rubrique ou de mappage. Si vous travaillez sur un document nouvellement créé, les informations de version apparaissent sous la forme **aucune**.
+
+>[!BEGINTABS]
+
+>[!TAB Nouvel éditeur]
+
+![](images/version-information-editor-2-0.png)
+
+>[!TAB Ancien éditeur]
+
+![](images/version-information.png)
+
+>[!ENDTABS]
 
 
-- **Enregistrer en tant que nouvelle version** est un bouton qui enregistre les modifications que vous avez apportées à votre rubrique et crée également une nouvelle version de votre rubrique.
+**Enregistrer en tant que nouvelle version** est un bouton qui enregistre les modifications que vous avez apportées à votre rubrique et crée également une nouvelle version de votre rubrique.
 
-  ![](images/save-as-new-version.png){ }
+>[!BEGINTABS]
+
+
+>[!TAB Nouvel éditeur]
+
+![](images/save-as-new-version-editor-2-0.png)
+
+>[!TAB Ancien éditeur]
+
+![](images/save-as-new-version.png)
+
+>[!ENDTABS]
 
 
 Lorsque vous choisissez d’enregistrer une rubrique ou un mappage à l’aide de **Enregistrer en tant que nouvelle version**, la boîte de dialogue suivante s’affiche :
@@ -636,7 +703,17 @@ Si votre rubrique est en cours de révision, vos réviseurs et réviseuses reço
 
 Lorsque vous placez le pointeur de la souris sur le titre d&#39;une rubrique, le titre du fichier, le chemin d&#39;accès au fichier et le numéro de version s&#39;affichent.
 
-![](images/mouse-hover-on-title_cs.png){ }
+>[!BEGINTABS]
+
+>[!TAB Nouvel éditeur]
+
+![](images/mouse-hover-on-title_cs-editor-2-0.png)
+
+>[!TAB Ancien éditeur]
+
+![](images/mouse-hover-on-title_cs.png)
+
+>[!ENDTABS]
 
 >[!NOTE]
 >
@@ -646,7 +723,17 @@ Lorsque vous placez le pointeur de la souris sur le titre d&#39;une rubrique, le
 
 Verrouille ou déverrouille le fichier courant. Le verrouillage d’un fichier vous donne un accès exclusif en écriture au fichier. Cela empêche d’autres utilisateurs de modifier le fichier. Déverrouillez le fichier si vous souhaitez que d’autres utilisateurs aient un accès en modification. Lorsque le fichier est déverrouillé, les modifications sont enregistrées dans la version actuelle du fichier.
 
-![](images/web-editor-lock-button.png){ }
+>[!BEGINTABS]
+
+>[!TAB Nouvel éditeur]
+
+![](images/web-editor-lock-button-editor-2-0.png)
+
+>[!TAB Ancien éditeur]
+
+![](images/web-editor-lock-button.png)
+
+>[!ENDTABS]
 
 Si vous êtes dans la vue Carte et que vous développez la carte parente, vous pouvez verrouiller tous les fichiers de la carte d&#39;un seul clic. Développez simplement le fichier de mappage parent et sélectionnez le fichier parent, ce qui entraîne la sélection de tous les fichiers dans le mappage. Ensuite, vous pouvez sélectionner **Verrouiller** ![](images/LockClosed_icon.svg) pour obtenir le verrouillage sur tous les fichiers de la carte.
 

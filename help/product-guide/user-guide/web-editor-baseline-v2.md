@@ -4,7 +4,7 @@ description: Créez et gérez une nouvelle ligne de base (Beta) à partir de la 
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Cet article s’applique à la nouvelle ligne de base , actuellement disponible en tant que fonctionnalité **, qui offre des performances améliorées et une stabilité disponible avec la version Experience Manager Guides 2026.03.0. Pour activer la nouvelle fonctionnalité de base dans votre configuration, contactez l’équipe du succès client.
+> Cet article s’applique à la nouvelle ligne de base , actuellement disponible en tant que fonctionnalité **, qui offre des performances améliorées et une stabilité disponible avec la version Experience Manager Guides 2026.04.0. Pour activer la nouvelle fonctionnalité de base dans votre configuration, contactez l’équipe du succès client.
 
 La nouvelle fonctionnalité de base résout les problèmes critiques de fiabilité et de performances associés aux cartes volumineuses et complexes. Il s’accompagne d’une architecture de base repensée qui offre une expérience de base plus rapide, plus stable et plus cohérente. Avant d’entrer dans les détails, voici une courte vidéo de présentation qui décrit les fonctionnalités de la nouvelle fonctionnalité de base.
 

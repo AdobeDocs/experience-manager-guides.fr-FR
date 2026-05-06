@@ -4,20 +4,39 @@ description: Découvrez comment modifier des rubriques dans l’éditeur. Conna�
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
 
 # Modifier les rubriques dans l’éditeur {#id2056B040VUI}
 
+>[!INFO]
+>
+>Cette rubrique s’applique à la fois au nouvel éditeur et à l’ancien éditeur. Bien que les principales fonctionnalités restent cohérentes, les différences au niveau de l’interface utilisateur, de la terminologie et des interactions sont indiquées dans le contenu à l’aide des onglets et des légendes, le cas échéant.
+
 L&#39;éditeur est fourni avec une gamme de fonctions d&#39;édition qui vous permettent de créer ou de modifier facilement vos fichiers de rubrique. En règle générale, vous devez effectuer les étapes suivantes pour modifier une rubrique dans l’éditeur.
 
 >[!IMPORTANT]
 >
 > Si vous rencontrez une erreur d’application lors de l’utilisation de l’éditeur, actualisez la page pour continuer à travailler.
+
+>[!BEGINTABS]
+
+>[!TAB Nouvel éditeur]
+
+1. Pour modifier ou insérer un élément dans une rubrique, cliquez dans la limite de texte de l&#39;élément requis pour apporter des modifications, ou placez le curseur à la fin de l&#39;élément après lequel vous souhaitez ajouter un nouvel élément et sélectionnez l&#39;élément requis dans la barre d&#39;outils (ou appuyez sur Alt+1 pour ouvrir la fenêtre contextuelle Insérer un élément), qui répertorie et insère intelligemment uniquement des éléments valides pour cet emplacement dans la rubrique.
+
+1. De plus, vous pouvez utiliser le menu d&#39;insertion rapide pour insérer facilement les éléments autorisés à la position du curseur. Sélectionnez **Contrôle + /** pour Windows ou **Commande + /** pour Mac pour accéder aux éléments.
+
+   ![Menu d’insertion rapide](./images/quick-insert-menu-in-editor.png){width="650"}
+
+   Recherchez un nouvel élément ou choisissez-en un parmi vos favoris à l&#39;aide du menu Insertion rapide, puis insérez-le à l&#39;emplacement actuel du curseur. Les favoris incluent les éléments les plus fréquemment utilisés, et seuls ceux qui sont valides pour l&#39;emplacement actuel du curseur s&#39;affichent. Vous pouvez activer ou désactiver cette fonction et configurer les éléments favoris à insérer à l’aide du menu d’insertion rapide disponible dans les paramètres de l’[éditeur](./config-editor-settings.md).
+
+
+>[!TAB Ancien éditeur]
 
 1. Pour apporter des modifications à votre rubrique, cliquez dans la limite de texte de l&#39;élément requis et commencez à apporter des modifications.
 
@@ -35,19 +54,35 @@ L&#39;éditeur est fourni avec une gamme de fonctions d&#39;édition qui vous pe
    >
    > Si vous ne souhaitez pas valider les modifications dans le référentiel Adobe Experience Manager, sélectionnez **Fermer**, puis sélectionnez **Fermer sans enregistrer** dans la boîte de dialogue Modifications non enregistrées.
 
+>[!ENDTABS]
 
 ## Sélection partielle de contenu entre des éléments
 
 Experience Manager Guides vous permet également de sélectionner du contenu sur plusieurs éléments. Après avoir sélectionné le contenu, vous pouvez effectuer les opérations suivantes :
 
-- Mise en forme et suppression : mettez le contenu sélectionné en gras, en italique, soulignez-le ou même supprimez-le. Le contenu des balises ouvertes valides est ensuite fusionné et s’affiche sous un seul élément. Par exemple, vous pouvez sélectionner le contenu d’un paragraphe et étendre la sélection à un autre paragraphe. Ensuite, si vous mettez le contenu sélectionné en gras, tout le contenu en gras des balises ouvertes est fusionné et apparaît sous un seul élément de paragraphe.
+- Formatage : le formatage du contenu sélectionné est considérablement plus facile dans le nouvel éditeur par rapport à l’éditeur 1.0, comme illustré ci-dessous.
 
-De même, si vous supprimez le contenu sélectionné, le contenu restant après la suppression dans les balises ouvertes est fusionné.
+>[!BEGINTABS]
+
+>[!TAB Nouvel éditeur]
+
+Vous pouvez mettre en forme le contenu sélectionné en gras, italique ou souligné à l’aide de la barre d’outils contextuelle. Sélectionnez le contenu, puis cliquez sur l’icône de mise en forme appropriée dans le menu qui s’affiche. Mettre le contenu sélectionné en gras, en italique ou en soulignement. Le contenu des balises ouvertes valides est ensuite fusionné et s’affiche sous un seul élément.
+
+![Options de formatage](./images/formatting-options.png){width="650"}
+
+>[!TAB Ancien éditeur]
+
+Mettre le contenu sélectionné en gras, en italique et souligner le contenu sélectionné. Le contenu des balises ouvertes valides est ensuite fusionné et s’affiche sous un seul élément. Par exemple, vous pouvez sélectionner le contenu d’un paragraphe et étendre la sélection à un autre paragraphe. Ensuite, si vous mettez le contenu sélectionné en gras, tout le contenu en gras des balises ouvertes est fusionné et apparaît sous un seul élément de paragraphe.
+
+>[!ENDTABS]
+
+- Suppression : si vous supprimez le contenu sélectionné, le contenu restant après la suppression dans les balises ouvertes est fusionné.
 
 - Entourer le contenu d’un élément valide : effectuez les étapes suivantes pour encapsuler le contenu avec un élément valide :
 
    - Sélectionnez le contenu dans un élément.
    - Sélectionnez l’icône ![ajouter](images/Add_icon.svg) dans la barre d’outils supérieure pour afficher la boîte de dialogue **Insérer un élément**. La boîte de dialogue répertorie les éléments valides pour le contenu sélectionné.
+
      >[!NOTE]
      >
      > Vous pouvez également afficher la boîte de dialogue Insérer un élément en sélectionnant le menu contextuel du contenu sélectionné.
@@ -70,15 +105,40 @@ Le panneau de droite est également rouvert et affiche la même vue qu’avant l
 
 Experience Manager Guides fournit l’indicateur de copie de travail qui indique si la \(copie de travail\) actuelle du fichier est synchronisée avec la version enregistrée ou non. Si vous avez apporté des modifications à votre copie actuelle et que vous n&#39;avez pas enregistré votre fichier, une marque \* apparaît avec le titre dans l&#39;onglet Fichier de la rubrique. Cet indicateur sert de rappel pour enregistrer vos modifications et disparaît lorsque vous enregistrez votre fichier.
 
+>[!BEGINTABS]
+
+>[!TAB Nouvel éditeur]
+
+Cette vue affiche le rendu du contenu dans le nouvel éditeur.
+
+![&#x200B; indicateur de copie de travail &#x200B;](images/working-copy-text-update-indicator-new-editor-2-0.png){width="550"}
+
+>[!TAB Ancien éditeur]
+
+Cette vue affiche le rendu du contenu dans l’ancien éditeur.
+
 ![&#x200B; indicateur de copie de travail &#x200B;](images/working-copy-text-update-indicator.png){width="550"}
+
+>[!ENDTABS]
 
 Experience Manager Guides indique également si la dernière copie \(working\) enregistrée du fichier est synchronisée avec la version enregistrée ou non. Si des modifications n&#39;ont pas été enregistrées entre la copie de travail et la dernière version enregistrée, une marque \* apparaît avec les informations de version affichées dans le coin supérieur droit de l&#39;onglet Fichier de la rubrique. Cet indicateur sert de rappel pour enregistrer et créer une version de votre copie \(working\) actuelle du fichier.
 
 >[!NOTE]
 >
-> Toute modification apportée aux champs de métadonnées disponibles sous [Propriétés du fichier](./web-editor-right-panel.md#file-properties) déclenche également l’indicateur de copie de travail dans la version du document.
+> Toute modification apportée aux champs de métadonnées disponibles sous [Propriétés du fichier](./web-editor-right-panel.md#file-properties) ou appliquée sur le serveur principal déclenche également l’astérisque `(*)` sur la version du document.  Pour éviter que les mises à jour de métadonnées générées par le système n’affectent cet indicateur, l’administration peut configurer une liste d’exclusion pour les propriétés de métadonnées. Pour plus d’informations sur la configuration des propriétés de métadonnées, consultez la section [Configurer la liste d’exclusion des propriétés de métadonnées](../install-conf-guide/conf-metadata-prop.md).
 
-![&#x200B; Indicateur de mise à jour de version &#x200B;](images/version-update-indicator.png){width="550"}
+>[!BEGINTABS]
+
+>[!TAB Nouvel éditeur]
+
+![&#x200B; Indicateur de mise à jour de version &#x200B;](images/version-update-indicator-editor-2-0.png){width="650"}
+
+>[!TAB Ancien éditeur]
+
+![&#x200B; Indicateur de mise à jour de version &#x200B;](images/version-update-indicator.png){width="650"}
+
+
+>[!ENDTABS]
 
 ## Accès aux fichiers verrouillés en modes Création et Source
 

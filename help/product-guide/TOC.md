@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 670a7557746baf16cf9786ba61a19448315ed59b
 workflow-type: tm+mt
-source-wordcount: '3316'
+source-wordcount: '3342'
 ht-degree: 8%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 8%
       - Services cloud {#cloud-release-notes}
          - {hide-from-toc}[&#x200B; Instructions de déploiement &#x200B;](./release-info/deploy-xml-on-aemaacs.md)
          - Versions De 2026 {#2026-releases}
+            - Version 2026.05.0 {#2605-release}
+               - [Nouveautés](./release-info/whats-new-2026-05-0.md)
+               - [Problèmes résolus](./release-info/fixed-issues-2026-05-0.md)
+               - [Instructions de mise à niveau](./release-info/upgrade-instructions-2026-05-0.md)
             - Version 2026.04.0 {#2604-release}
                - [Nouveautés](./release-info/whats-new-2026-04-0.md)
                - [Problèmes résolus](./release-info/fixed-issues-2026-04-0.md)
@@ -229,6 +233,7 @@ ht-degree: 8%
          - [Utiliser des données provenant de vos sources de données](./user-guide/web-editor-content-snippet.md)
          - [Etat du document](./user-guide/web-editor-document-states.md)
          - [Utiliser des libellés](./user-guide/web-editor-use-label.md)
+         - [Paramètres de l’éditeur](./user-guide/config-editor-settings.md)
       - Éditeur de carte {#map-editor}
          - [Présentation de l’éditeur de cartes](./user-guide/map-editor.md)
          - [Créer un mappage](./user-guide/map-editor-create-map.md)
@@ -664,6 +669,7 @@ ht-degree: 8%
          - [Configurer l’affichage des tableaux collés pour Cloud Service](./install-conf-guide/conf-pasted-tables.md)
          - [Configurer la génération PDF sur une seule rubrique pour Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
          - [Configuration de la fonctionnalité de traduction dans l’éditeur web pour Cloud Service](./install-conf-guide/conf-translation-editor.md)
+         - [Configuration de la liste d’exclusion des propriétés de métadonnées pour Cloud Service](./install-conf-guide/conf-metadata-prop.md)
       - Paramètre de l’éditeur pour On-Premise {#editor-on-prem-settings}
          - [Configuration de caractères spéciaux supplémentaires pour On-Premise](/help/product-guide/web-editor/conf-additional-special-characters.md)
          - [Configurez le titre des icônes Archiver et Extraire pour On-Premise](./install-conf-guide/conf-checkin-checkout-title.md)
@@ -778,6 +784,7 @@ ht-degree: 8%
             - Widgets {#framework-widgets}
                - [Widgets de rendu](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                - [Widgets de base](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
+            - [Modifications de la structure d’extension pour l’éditeur 2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md)
          - Prise en main {#getting-started}
             - [Présentation](./guides-ui-extensions/getting-started/introduction.md)
             - [Guide d’installation](./guides-ui-extensions/getting-started/integrating-customisations.md)
