@@ -3,7 +3,7 @@ title: Guides de publication de références sur AEMaaCS
 description: Comprenez les limites du système sur la publication sur AEM Cloud.
 feature: Publishing
 role: User, Admin
-source-git-commit: 6e2577f04f1092ec9d8445ddbb97aa34be1e53a4
+source-git-commit: b6e4fd5051018ce6c60aadf66e6bf7375322aaa1
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 21%
@@ -14,7 +14,7 @@ ht-degree: 21%
 
 Ce test comparatif évalue les performances des nouvelles API de publication sur différents paramètres prédéfinis de sortie et l’augmentation des tailles de mappage dans AEM Guides as a Cloud Service. L’objectif est de comprendre le comportement en matière d’évolutivité et d’identifier les goulots d’étranglement en termes de performances.
 
-Le service de publication utilise une [architecture basée sur microservice](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance) avec mise à l’échelle automatique, ce qui permet de gérer des charges de travail plus importantes grâce à des capsules supplémentaires.
+Le service de publication utilise une [architecture basée sur microservice](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance) avec mise à l’échelle automatique, ce qui permet de gérer des charges de travail plus importantes grâce à des capsules supplémentaires.
 
 ## Environnement d’exécution
 
@@ -43,7 +43,7 @@ Le service de publication utilise une [architecture basée sur microservice](htt
 | 5000 | 496.319 | Oui |
 | 10000 | 922.602 | Oui |
 
-PDF natif **&#x200B;**
+PDF natif ****
 
 | MapSize | Heure(s) d’exécution | Microservice |
 | ------- | ------------------ | ------------ |
