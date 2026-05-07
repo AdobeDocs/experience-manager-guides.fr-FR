@@ -3,7 +3,7 @@ title: Paramètres de l’éditeur
 description: Découvrez comment configurer les paramètres de l’éditeur dans AEM Guides.
 feature: Web Editor
 role: User
-source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
+source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Paramètres de l’éditeur
 
->[!INFO]
+>[!NOTE]
 >
-> Cet article s’applique au nouvel éditeur. Contactez l’équipe du succès client AEM Guides pour que le nouvel éditeur soit activé dans votre environnement.
+> Cet article s’applique uniquement au nouvel éditeur. Pour activer cette fonctionnalité dans votre environnement, contactez l’équipe du service client AEM Guides.
 
 Les paramètres de l’éditeur fournissent un panneau de configuration centralisé qui vous permet de personnaliser le comportement de l’éditeur au niveau de l’auteur individuel. Il offre davantage de flexibilité, de cohérence et de contrôle au cours du processus de création.
 
