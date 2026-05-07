@@ -3,7 +3,7 @@ title: Paramètres de l’éditeur
 description: Découvrez comment configurer les paramètres de l’éditeur dans AEM Guides.
 feature: Web Editor
 role: User
-source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
+source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
@@ -12,21 +12,21 @@ ht-degree: 0%
 
 # Paramètres de l’éditeur
 
->[!INFO]
+>[!NOTE]
 >
-> Cet article s’applique au nouvel éditeur. Contactez l’équipe du succès client AEM Guides pour que le nouvel éditeur soit activé dans votre environnement.
+> Cet article s’applique uniquement au nouvel éditeur. Pour activer cette fonctionnalité dans votre environnement, contactez l’équipe du service client AEM Guides.
 
 Les paramètres de l’éditeur fournissent un panneau de configuration centralisé qui vous permet de personnaliser le comportement de l’éditeur au niveau de l’auteur individuel. Il offre davantage de flexibilité, de cohérence et de contrôle au cours du processus de création.
 
 Ce panneau de paramètres centralisé vous permet de gérer les préférences clés de l’éditeur à partir d’un seul emplacement, ce qui réduit le besoin de configurations éparses ou manuelles. Les paramètres de l’éditeur sont accessibles à partir de la barre d’onglets **Autres actions**.
 
-![&#x200B; Paramètres de l’éditeur &#x200B;](./images/conf-editor-settings.png){width="650"}
+![ Paramètres de l’éditeur ](./images/conf-editor-settings.png){width="650"}
 
 ## Options de configuration prises en charge
 
 Vous pouvez activer ou désactiver les options suivantes en fonction de vos préférences :
 
-![&#x200B; Paramètres de l’éditeur &#x200B;](./images/editor-settings-dialog.png){width="350"}
+![ Paramètres de l’éditeur ](./images/editor-settings-dialog.png){width="350"}
 
 - **Espaces insécables** : activez cette option pour afficher un indicateur pour les espaces insécables lors de leur modification dans l’éditeur. Il est visible uniquement en mode Création pour les plans DITA et de rubrique DITA
 - **Commentaires XML** : permet aux auteurs d’afficher, de modifier et d’insérer des commentaires XML directement en mode Création, pour une meilleure visibilité dans le contenu. Lorsque cette option est activée, les auteurs peuvent afficher, insérer, modifier et supprimer des commentaires XML directement dans le contenu en mode de création lui-même, ce qui facilite l’ajout de notes contextuelles pour les collaborateurs. Lorsqu’ils sont désactivés, les commentaires XML sont masqués en mode de création et ne peuvent pas être insérés ou modifiés à partir du mode de création, ce qui garantit une expérience de création plus épurée pour les utilisateurs qui n’en ont pas besoin. Vous pouvez continuer à afficher et à créer des commentaires XML en mode source à l’aide de la syntaxe `<!-- test comment -->`.

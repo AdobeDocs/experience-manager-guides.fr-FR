@@ -2,9 +2,9 @@
 title: Notes de mise à jour | Nouveautés de la version Adobe Experience Manager Guides 2026.05.0
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 2026.05.0 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
+source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Pour plus d’informations, consultez [Propriétés du contenu](../user-guide/we
 
 Les améliorations de révision suivantes ont été apportées dans le cadre de cette version :
 
-- Vous pouvez désormais activer **Rappels automatisés** pour planifier des notifications AEM et des rappels par e-mail à l’intention des réviseurs et réviseuses, avant ou après l’échéance d’une tâche de révision. Vous pouvez configurer plusieurs rappels dans chaque cas, avec des rappels d’échéance envoyés dans une séquence définie et des rappels d’échéance déclenchés après que la tâche a été marquée comme En retard, en fonction du planning de rappel configuré. Pour plus d’informations sur la configuration des rappels pour les tâches de révision, voir [Envoyer une ou plusieurs rubriques pour révision](../user-guide/review-send-topics-for-review.md#send-one-or-more-topics-for-review).
+- Vous pouvez désormais activer **Rappels automatisés** pour planifier des notifications AEM et des rappels par e-mail à l’intention des réviseurs et réviseuses, avant ou après l’échéance d’une tâche de révision. Vous pouvez configurer plusieurs rappels dans chaque cas, avec des rappels d’échéance envoyés dans une séquence définie et des rappels d’échéance déclenchés après que la tâche a été marquée comme En retard, en fonction du planning de rappel configuré. Pour plus d’informations, consultez [Envoyer les rubriques pour révision](../user-guide/review-send-topics-for-review.md).
 
 - Les réviseurs et réviseuses peuvent désormais accéder à l’historique des versions des rubriques en cours de révision, ce qui leur permet d’afficher et de comparer les versions précédemment révisées et mises à jour d’une même rubrique dans les tâches de révision précédentes. Cela permet aux réviseurs et aux réviseuses de valider les modifications apportées depuis les cycles de révision précédents et de maintenir la continuité en examinant les commentaires, les libellés et d’autres détails connexes dans le contexte de révision actuel. Pour plus d’informations, consultez [Historique des versions du réviseur](../user-guide/review-topics.md#version-history-for-the-reviewer).
 
