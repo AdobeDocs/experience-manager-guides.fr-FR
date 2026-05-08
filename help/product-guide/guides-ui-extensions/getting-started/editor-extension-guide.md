@@ -4,7 +4,7 @@ description: Découvrez les modifications apportées au framework d’extension 
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
+source-git-commit: 2ba8eadcb30faca01170cb13ae2da6fdf7da19c8
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 4%
@@ -846,7 +846,7 @@ guides.ready(() => {
 > Ce CSS s’applique uniquement dans le DOM fantôme du nouvel éditeur. Cela n’a aucun effet sur le reste de la page ou sur l’éditeur hérité.
 
 
-## Extensions de menu contextuel (`contextMenuWidget`)
+## Extensions du menu contextuel (`contextMenuWidget`)
 
 Les extensions peuvent ajouter des éléments au menu contextuel de l’éditeur accessible par un clic droit / chemin de navigation en déclarant un champ `contextMenuWidget` dans leur configuration d’extension. Indique au framework le menu de l’éditeur à cibler.
 

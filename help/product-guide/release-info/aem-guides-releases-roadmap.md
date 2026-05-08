@@ -3,7 +3,7 @@ title: Feuille de route des versions d’Adobe Experience Manager Guides 2024
 description: Obtenez des informations sur les versions actives et à venir d’Adobe Experience Manager Guides On-Prem et d’Adobe Experience Manager Guides as a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: e55a9484cd9a4d03355d98708d4f0f7727c1d1cc
+source-git-commit: 2ba8eadcb30faca01170cb13ae2da6fdf7da19c8
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 38%
@@ -33,7 +33,7 @@ Les versions de Experience Manager Guides as a Cloud Service sont prévues de la
 
 | Version | Événement | Planification | Nouveautés | Instructions de mise à niveau | Problèmes résolus | Statut |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2026.05.<br> [(Version d’AEM - 25821)](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Mise à jour automatique | 11-13 mai 2026 | [Ici](whats-new-2026-05-0.md) | [Ici](upgrade-instructions-2026-05-0.md) | [Ici](fixed-issues-2026-05-0.md) | Mis à jour |
+| Adobe Experience Manager Guides 2026.05.<br> [(Version d’AEM - 25892)](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Mise à jour automatique | 11-13 mai 2026 | [Ici](whats-new-2026-05-0.md) | [Ici](upgrade-instructions-2026-05-0.md) | [Ici](fixed-issues-2026-05-0.md) | Mis à jour |
 | Adobe Experience Manager Guides 2026.04.0 <br> [(Version d’AEM - 25194)](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Mise à jour automatique | 06-08 Avril 2026 | [Ici](whats-new-2026-04-0.md) | [Ici](upgrade-instructions-2026-04-0.md) | [Ici](fixed-issues-2026-04-0.md) | Mis à jour |
 | Adobe Experience Manager Guides 2026.01.0 <br> [(Version d’AEM - 24288)](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Mise à jour automatique | 9-11 février 2026 | [Ici](whats-new-2026-01-0.md) | [Ici](upgrade-instructions-2026-01-0.md) | [Ici](fixed-issues-2026-01-0.md) | Mis à jour |
 | Adobe Experience Manager Guides 2025.11.0 <br> [(Version d’AEM - 23385)](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/maintenance/latest) | Mise à jour automatique | 17-19 novembre 2025 | [Ici](whats-new-2025-11-0.md) | [Ici](upgrade-instructions-2025-11-0.md) | [Ici](fixed-issues-2025-11-0.md) | Mis à jour |
