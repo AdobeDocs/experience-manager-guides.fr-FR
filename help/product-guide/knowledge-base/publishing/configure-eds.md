@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: a4623088-a867-4079-80d6-20866c99683e
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: e4031aa4309a2c02ffb3a678586643f2a8bdc44b
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Pour activer la publication de Experience Manager Guides vers EDS (Beta), vous d
 2. [Créer et configurer un profil de publication pour EDS (Beta) dans Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
 3. [Personnaliser la sortie à l’aide de blocs EDS](#customize-output-using-eds-blocks)
 
-Pour une présentation vidéo rapide, reportez-vous à la section [Publication dans AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
+Pour une présentation vidéo rapide, reportez-vous à la section [Publication dans AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
 
 
 
@@ -55,17 +55,19 @@ Adobe Experience Manager utilise une application GitHub appelée **Synchronisati
 
 Pour installer et configurer l’application *AEM Code Sync*, procédez comme suit :
 
-1. Accédez à la page [Synchronisation du code &#x200B;](https://github.com/apps/aem-code-sync) et sélectionnez **Installer**.
+1. Accédez à la page [Synchronisation du code ](https://github.com/apps/aem-code-sync) et sélectionnez **Installer**.
 2. *La synchronisation du code* surveille les modifications du référentiel et s’assure que les mises à jour sont correctement transmises à GitHub.
 
    >[!NOTE]
    >
-   > Lors de l’installation de l’application, veillez à utiliser le même compte GitHub propriétaire du référentiel.
+   >Lors de l’installation de l’application, veillez à utiliser le même compte GitHub propriétaire du référentiel.
 
    ![](assets/eds-aem-code-sync-page.png)
+
 3. Sur la page suivante, accordez l’accès au référentiel que vous avez créé. Pour ce faire, sélectionnez l’option **Sélectionner uniquement les référentiels**, puis sélectionnez votre référentiel dans la liste déroulante.
 
    ![](assets/eds-aem-code-sync-install-authorize.png){width="350"}
+
 4. Sélectionnez **Installer et autoriser**.
 
 Vous êtes redirigé vers la page de configuration GitHub, confirmant l’enregistrement réussi de l’application *AEM Code Sync*. Vous pouvez également enregistrer l’aperçu et les URL dynamiques pour votre site web à partir de cette page.
@@ -79,7 +81,9 @@ Vous êtes redirigé vers la page de configuration GitHub, confirmant l’enregi
 3. Sélectionnez **Nouvelle application GitHub**.
 
    ![](assets/eds-new-github-app.png){width="650"}
+
 4. Sur la page **Enregistrer la nouvelle application GitHub**, fournissez les détails suivants :
+
    - **Nom de l’application GitHub** : saisissez un nom pour votre application. Par exemple, `USERNAME-eds-app` où USERNAME correspond à votre nom d’utilisateur GitHub.
    - **URL de la page d’accueil** : saisissez l’URL de l’instance Experience Manager Guides.
 
@@ -89,6 +93,7 @@ Vous êtes redirigé vers la page de configuration GitHub, confirmant l’enregi
    - **URL de rappel** : identique à l’URL de la page d’accueil.
    - **URL Webhook** : désactivez cette option.
    - **Autorisations de référentiel** : définissez **autorisations de lecture et d’écriture** pour les *actions, administration et attestation*.
+
 5. Sélectionnez **Créer une application GitHub**.
 
 Votre application est maintenant prête. Vous êtes redirigé vers la page **Paramètres** de votre application GitHub.
@@ -237,5 +242,6 @@ Dans certains cas, vous pouvez ne mettre en forme qu’une partie spécifique de
 6. Validez les modifications et régénérez la sortie.
 
 Le contenu sélectionné affiche désormais le style personnalisé défini dans votre bloc.
+
 
 ![](assets/eds-example-output.png){width="650"}
