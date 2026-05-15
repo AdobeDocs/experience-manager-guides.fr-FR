@@ -180,7 +180,7 @@ Lorsque la commande ci-dessus est exécutée, vous pouvez vérifier la sortie da
 
 ### Déploiement
 
-Une fois que vous avez développé le plug-in DITA-OT, vous pouvez l&#39;intégrer dans DITA-OT à l&#39;aide de la commande _dita —install_ sous le répertoire DITA-OT, et le déployer sur le serveur AEM [voir cet article pour plus de détails](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659)
+Une fois que vous avez développé le plug-in DITA-OT, vous pouvez l&#39;intégrer dans DITA-OT à l&#39;aide de la commande _dita —install_ sous le répertoire DITA-OT, et le déployer sur le serveur AEM [voir cet article pour plus de détails](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659?profile.language=fr)
 
 
 ## Ressources

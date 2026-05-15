@@ -47,7 +47,7 @@ Au cours de cette session, vous avez découvert les éléments suivants :
 
 - **Documentation** - [sur Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/translate-content/translation.html?lang=en)
 
-- **Forum de la communauté** - Pour plus d’interactions de la communauté sur Experience League spécifiques à une session, consultez le [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Forum de la communauté** - Pour plus d’interactions de la communauté sur Experience League spécifiques à une session, consultez le [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=fr).
 
 
 >[!NOTE]

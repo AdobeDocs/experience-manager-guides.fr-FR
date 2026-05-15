@@ -26,7 +26,7 @@ Nos sessions mensuelles d’experts sont conçues pour aider nos clients et part
 
 Au cours de ces sessions, nos experts discuteront en profondeur des fonctionnalités et des avantages de notre produit, et partageront des conseils pratiques et des bonnes pratiques qui vous aideront à en tirer le meilleur parti. Que vous soyez un nouvel utilisateur ou un professionnel chevronné, ces sessions vous fourniront les informations dont vous avez besoin pour optimiser votre utilisation d’AEM Guides.
 
-Nous comprenons que votre temps est précieux et c’est pourquoi nous avons rendu ces sessions d’experts faciles et accessibles pour vous. Vous pouvez vous inscrire à la prochaine séance en visitant notre [forum communautaire](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) ou en envoyant un courriel qui vous a été envoyé.
+Nous comprenons que votre temps est précieux et c’est pourquoi nous avons rendu ces sessions d’experts faciles et accessibles pour vous. Vous pouvez vous inscrire à la prochaine séance en visitant notre [forum communautaire](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=fr) ou en envoyant un courriel qui vous a été envoyé.
 
 Si vous avez manqué l’une des sessions précédentes, vous pouvez accéder aux enregistrements de cette section.
 

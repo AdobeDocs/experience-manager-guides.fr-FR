@@ -72,4 +72,4 @@ Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud ve
 
 ## Références
 
-Vous pouvez également être intéressé par la session d’experts sur les configurations et la personnalisation de l’éditeur web, abordée dans la section [Session d’experts sur l’éditeur web](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)
+Vous pouvez également être intéressé par la session d’experts sur les configurations et la personnalisation de l’éditeur web, abordée dans la section [Session d’experts sur l’éditeur web](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=fr)
