@@ -1,23 +1,26 @@
 ---
 title: Utilisation des clés
-description: Comment créer des clés à utiliser dans le contenu de l’organisation
+description: Création de clés à utiliser dans le contenu de l’organisation
 role: Admin
 exl-id: b8e3a6d2-ea82-4fdb-bd16-3f4b6594af52
 feature: Use Keys in AEM Guides
-source-git-commit: 47e6c57b8a61f02dc4f03594d91ee842bdccef90
+TQID: https://experienceleague.adobe.com/uWvlGyjI4b0Y6rFwhKNK4egq7p6-N4dql-AHnuwiDDo
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: 179
 ht-degree: 0%
 
 ---
 
 # Création de clés
 
-Les entreprises doivent utiliser des clés dans les cas où elles disposent d’un texte réutilisable et commun, comme le nom du produit ou le pitch du produit, qui est utilisé à de nombreux endroits, mais qui est susceptible de changer. L’utilisation de clés pour ce texte réutilisable vous permet de pousser une mise à jour à plusieurs endroits en effectuant la modification à un seul emplacement, par exemple dans la valeur de clé.
+Les entreprises doivent utiliser les clés lorsque du texte réutilisable et commun, comme le nom du produit ou la présentation du produit, est utilisé à de nombreux endroits, mais peut être modifié. L’utilisation de touches pour ce type de texte réutilisable vous permet de pousser une mise à jour à plusieurs endroits en effectuant la modification à un seul emplacement, comme dans la valeur de clé.
 
 ## Étape 1 : créer une carte globale pour stocker vos clés
 
-Créez un mappage et ajoutez-lui l’élément [!UICONTROL keyref] .
+Créez un mappage et ajoutez-y l’élément [!UICONTROL keyref].
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -37,9 +40,9 @@ Créez un mappage et ajoutez-lui l’élément [!UICONTROL keyref] .
 </map>
 ```
 
-Ici, vous avez défini deux définitions, comme illustré ci-dessus, qui ont fourni une [!UICONTROL keyref] comme _AEM_ pour le texte _Adobe Experience Manager_.
+Ici, vous avez défini deux définitions, comme illustré ci-dessus, et fourni une [!UICONTROL keyref] en tant que _AEM_ pour le texte _Adobe Experience Manager_.
 
-## Étape 2 : Ajouter ce mappage à votre plan de publication
+## Étape 2 : ajouter ce mappage à votre mappage de publication
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -53,12 +56,12 @@ Ici, vous avez défini deux définitions, comme illustré ci-dessus, qui ont fou
 </map>
 ```
 
-## Étape 3 : utilisation des clés pour faire référence aux variables définies dans la carte des clés globales
+## Étape 3 : Utilisez les clés pour faire référence aux variables définies dans la carte de clés globale
 
-+ Modifiez la rubrique et ajoutez la valeur de clé à l’aide de [!UICONTROL keyref].
-+ Comme illustré dans la capture d’écran, une petite fenêtre s’affiche à partir de laquelle vous pouvez choisir des mots-clés. Cela s’affiche lorsque vous ajoutez l’élément &quot;mot-clé&quot;.
++ Modifiez la rubrique et ajoutez la valeur de clé à l’aide de la [!UICONTROL keyref].
++ Comme le montre la capture d’écran, une petite fenêtre s’affiche à partir de laquelle vous pouvez choisir les mots-clés. Cela s’affiche lorsque vous ajoutez l’élément « mot-clé ».
   ![Insérer un élément](assets/insert_element.png)
-  ![Référence clé](assets/key_ref.png)
+  ![Réf Clé](assets/key_ref.png)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

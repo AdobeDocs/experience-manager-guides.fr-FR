@@ -4,10 +4,16 @@ description: Version de septembre d’Adobe Experience Manager Guides as a Cloud
 exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/vzzg-FlQ0IsMKzYDYcIJjh9hGRnuzV-tiuMa7tvO85o
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086
+subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 0%
+source-wordcount: 1300
+ht-degree: 3%
 
 ---
 
@@ -24,8 +30,8 @@ Mettez à niveau votre configuration Adobe Experience Manager Guides as a Cloud 
 
 Effectuez les étapes suivantes pour indexer le contenu existant et utiliser le nouveau texte de recherche et de remplacement au niveau du mappage :
 * Exécutez une requête POST au serveur (avec l’authentification correcte) - `http://<server:port>/bin/guides/map-find/indexin`.
-(Facultatif) Vous pouvez transmettre des chemins spécifiques des mappages pour les indexer. Par défaut, tous les mappages sont indexés ||  Exemple :   `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
-* L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée : `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+(Facultatif : vous pouvez transmettre des chemins spécifiques des mappages pour les indexer. Par défaut, tous les mappages sont indexés || Exemple : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+* L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (Par exemple : `http://<_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)`
 * Une fois la tâche terminée, la requête GET ci-dessus répond avec succès et mentionne si des mappages ont échoué. Les mappages indexés avec succès peuvent être confirmés à partir des journaux du serveur.
 
@@ -47,7 +53,7 @@ Cette section répertorie la matrice de compatibilité pour les applications log
 
 | Version d’AEM Guides as a Cloud | Fenêtres du connecteur d&#39;oxygène | Mac du connecteur d&#39;oxygène | Modifier dans Oxygen Windows | Modifier dans Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2022.9.0 | 2,7,13 | 2,7,13 | 2,3 | 2,3 |
+| 2022.9.0 | 2.7.13 | 2.7.13 | 2,3 | 2,3 |
 |  |  |  |  |  |
 
 
@@ -75,10 +81,10 @@ Par défaut, les options **Extraction du fichier avant remplacement** et **Créa
 ### Afficher la différence de version pour les fichiers désynchronisés à partir du tableau de bord de traduction
 
 Vous pouvez désormais choisir de traduire les fichiers **Désynchronisés** en fonction des modifications effectuées entre les deux versions d’une rubrique.\
-![&#x200B; Tableau de bord de traduction &#x200B;](assets/translation-version-diff.png)
+![Tableau de bord de traduction](assets/translation-version-diff.png)
 Dans le tableau de bord de traduction, vous pouvez facilement voir les différences entre la dernière version traduite et la version actuelle du fichier sélectionné.
 
-![&#x200B; boîte de dialogue différence de version &#x200B;](assets/version-diff.png)
+![ boîte de dialogue différence de version ](assets/version-diff.png)
 
 En fonction des différences, vous pouvez décider de traduire une rubrique ou non.
 
@@ -102,27 +108,27 @@ Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 * La navigation automatique vers le chemin d’accès dans la boîte de dialogue de navigation du site ne fonctionne pas comme la navigation dans les fichiers. (9920)
 * Le panneau Plan n’affiche pas le contenu lors du passage du mode **Auteur** au mode **Source**. (10319)
 * La référence dans une nouvelle rubrique créée à l’aide d’un contenu dans le modèle de rubrique ne fonctionne pas. L’ID de hachage copié n’est pas mis à jour dans la copie de contenu. (9890)
-* Web-Editor | Aucun chargeur n’existe lors de la création d’un mappage à partir du modèle de mappage. (9891)
-* Nouvel éditeur de carte | Le texte en gras ou en italique ajouté dans le titre du mappage n’est pas conservé si nous passons de la vue **Auteur** à la vue **Mise en page**. (10218)
-* Nouvel éditeur de carte | Les conditions appliquées à une référence ne peuvent pas être supprimées du mode Mise en page. (10213)
-* Nouvel éditeur de carte | L’application de références de conditions ne fonctionne pas en mode Mise en page comme en mode Création. (10198)
-* Nouvel éditeur de carte | Déplacer vers la gauche à partir du menu contextuel supprime la référence si elle ne peut pas être déplacée vers la gauche. (10219)
+* Web-Editor | Aucun chargeur n&#39;existe lors de la création d&#39;une carte à partir du modèle de carte. (9891)
+* Nouvel éditeur de carte | Le texte en gras ou en italique ajouté dans le titre de la carte n’est pas conservé si nous passons de la vue **Auteur** à la vue **Disposition**. (10218)
+* Le nouvel Éditeur de carte | Les conditions appliquées à une référence ne peuvent pas être supprimées du mode Mise en page. (10213)
+* Nouveau Map Editor | L’application de références de conditions ne fonctionne pas en mode Mise en page comme en mode Création. (10198)
+* Le nouveau Map Editor | Move left du menu contextuel supprime la référence si elle ne peut pas être déplacée vers la gauche. (10219)
 * Nouvel éditeur de carte |L’icône ne s’affiche pas correctement pour les références dans une carte créée en mode Mise en page. (10197)
-* Panneau Référentiel | Un clic droit dans le panneau du référentiel génère une erreur d’application. (10123)
+* Panneau du référentiel | Effectuez un clic droit dans le panneau du référentiel et renvoie une erreur d’application. (10123)
 * Rechercher et remplacer | Le mode sombre n’est pas lisible pour les résultats de recherche dans l’éditeur web. (9978)
 * Traduction | Les métadonnées et les balises ne sont pas propagées aux copies traduites. (4696)
 * La copie de contenu collé (ctrl+c/ctrl+v) renvoie une erreur en mode création. (10304)
-* Modèle PDF | L’ajout d’images d’arrière-plan à une disposition de page affiche Chemin d’image absolu et les images ne s’affichent pas dans le PDF de sortie. (10297)
-* PDF natif | Le titre et l’en-tête du chapitre ne fonctionnent pas dans la publication PDF. (9947)
+* Modèle PDF | L’ajout d’images d’arrière-plan à une disposition de page affiche Chemin d’accès absolu à l’image et les images ne s’affichent pas dans le PDF de sortie. (10297)
+* Native PDF | Le titre du chapitre et l’en-tête du chapitre ne fonctionnent pas dans la publication PDF. (9947)
 * PDF natif | La `xref` d&#39;un concept n&#39;est pas résolue correctement pour une rubrique DITA spécifique. (10229)
 * PDF natif | Impossible d’afficher le texte des légendes d’un tableau dans la sortie PDF générée. (9827)
-* PDF natif | Les références dans les annexes ne s’affichent pas sous forme d’annexes dans la sortie PDF. (10182)
-* PDF natif | L’attribut Frame d’une table n’est pas propagé à l’HTML temporaire (en tant que classe). (10353)
-* PDF natif | Les fichiers HTML temporaires ajoutent les classes colsep et rowsep à td et th même si leur valeur est 0 dans la DITA source. (10352)
-* PDF natif |  Les métadonnées des critères ajoutés dans la mise en page ne sont pas respectées. (10377)
-* PDF natif |  La génération du PDF échoue pour un contenu spécifique. (9927)
-* PDF natif | Le contenu via conkeyref ne s’affiche pas dans la sortie PDF. (9836)
-* PDF natif | Les références clés des clés avec des images ou des liens externes ne sont pas résolues. (10063)
+* PDF natif | Les références dans les annexes ne s’affichent pas en tant qu’annexes dans la sortie PDF. (10182)
+* L’attribut natif PDF | Frame d’une table n’est pas propagé vers l’HTML temporaire (en tant que classe). (10353)
+* Native PDF | les fichiers temporaires HTML ajoutent les classes colsep et rowsep à td et th même si leur valeur est 0 dans la DITA source. (10352)
+* PDF natif | Les métadonnées pour les critères ajoutés dans la mise en page ne sont pas respectées. (10377)
+* PDF natif | La génération du PDF échoue pour un contenu spécifique. (9927)
+* PDF native | Le contenu via conkeyref ne s’affiche pas dans la sortie PDF. (9836)
+* PDF natif | Les références clés des jeux de clés avec des images ou des liens externes ne sont pas résolues. (10063)
 * La vue Auteur d’un mappage n’affiche pas le texte d’espace réservé pour la liste tabulaire et la liste de figures. (10330)
 * Lorsque nous créons une nouvelle ligne de base, le filtre de ligne de base déjà sélectionné n’est pas appliqué. (9954)
 * Le fichier vidéo est absent de la ligne de base si le nom du dossier parent comporte un espace. 10031)
@@ -137,4 +143,4 @@ Adobe a identifié les problèmes connus suivants pour la version de septembre 2
 
 * La base dynamique n&#39;est pas intégrée à la publication de la base de connaissances.
 
-* Traduction | L’icône Différence de version s’affiche pour le contenu source en raison d’une modification du contenu cible.
+* L’icône Traduction | Différence de version s’affiche pour le contenu source en raison d’une modification du contenu cible.

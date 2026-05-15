@@ -1,17 +1,23 @@
 ---
-title: Notes de mise à jour | Correction de problèmes dans la version 2024.2.0 d’Adobe Experience Manager Guides
-description: Découvrez les correctifs de bogues de la version 2024.2.0 d’Adobe Experience Manager Guides as a Cloud Service.
+title: Notes de mise à jour | Correction de problèmes dans Adobe Experience Manager Guides version 2024.2.0
+description: Découvrez les correctifs de bugs de la version 2024.2.0 d’Adobe Experience Manager Guides as a Cloud Service.
 exl-id: fae1ff07-6232-4e9a-a89e-5e760e807b9d
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/z-L0sZ2HH720nI3LyDjiIqujxSBP-QLdPqvEInNNRnE
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 4%
+source-wordcount: 504
+ht-degree: 8%
 
 ---
 
 # Correction de problèmes dans la version 2024.2.0
 
-Cet article couvre les bogues corrigés dans différentes zones de la version 2024.2.0 d’Adobe Experience Manager Guides as a Cloud Service.
+Cet article couvre les bugs corrigés dans différentes zones de la version 2024.2.0 d’Adobe Experience Manager Guides as a Cloud Service.
 
 Pour plus d’informations sur les nouvelles fonctionnalités et améliorations, voir la section [Nouveautés de la version 2024.2.0](whats-new-2024-2-0.md).
 
@@ -21,46 +27,46 @@ Découvrez les [instructions de mise à niveau pour la version 2024.2.0](upgrade
 
 ## Création
 
-- La vérification orthographique dans l’éditeur n’autorise pas la sélection de suggestions. 15045
-- Le bouton de navigation globale ne fonctionne pas et le tableau de bord ne se charge pas. (14968)
-- Dans l’éditeur web, la fonction de mappage de téléchargement ne parvient pas à déclencher une notification contextuelle lorsqu’elle est prête à être téléchargée. 14626
-- Dans l’éditeur web, la fonction de mappage de téléchargement ne parvient pas à télécharger un mappage avec la ligne de base. 14622
+- La vérification orthographique dans l’éditeur ne permet pas de sélectionner des suggestions. (15045)
+- Le bouton de navigation globale ne fonctionne pas et le chargement du tableau de bord échoue. (14968)
+- Dans l’éditeur web, la fonctionnalité de carte de téléchargement ne déclenche pas de notification pop-up lorsqu’elle est prête à être téléchargée. (14626)
+- Dans l’éditeur web, la fonction de téléchargement de carte ne parvient pas à télécharger une carte avec une ligne de base. (14622)
 - Erreur DTD non valide dans la version d’octobre 2023 de Experience Manager Guides as a Cloud Service. (14482)
-- Le fait de faire glisser une rubrique de glossaire du référentiel vers une carte de glossaire crée `topicref`. 10767
+- Faire glisser une rubrique de glossaire du référentiel vers un glossaire map crée des `topicref`. (10767)
 - L’écran d’aperçu des fragments de code est figé. (14840)
-- Les libellés du fichier `labels.json` apparaissent dans l’ordre aléatoire dans l’éditeur web. 10508
+- Les libellés du fichier `labels.json` s’affichent dans un ordre aléatoire dans l’éditeur web. (10508)
 
 ## Publication
 
-- Dans la publication avec des PDF natifs, les attributs personnalisés dans les paramètres prédéfinis de condition ne fonctionnent pas pour la publication avec des PDF natifs. (14943)
-- Dans la publication avec des PDF natifs, les références clés ne sont pas résolues pour la version de décembre 2023 d’Adobe Experience Manager Guides. 15085
-- La publication d’AEM Sites échoue et entraîne des erreurs d’étendue pour les fichiers dont le `xref` commence par &quot;HTTP&quot; dans le fichier DITA. 15154
-- Impossible d’ajouter un modèle personnalisé à partir de l’onglet **Sorties** de l’éditeur. (14846)
-- Le paramètre prédéfini **AEM Site** ne fonctionne pas en raison d’un chemin de modèle vide. (14804)
-- La régénération AEM site échoue pour les mappages DITA avec des rubriques contenant des équations MathML. (14790)
-- Dans la publication de PDF natif, la génération de PDF renvoie des erreurs lors de l’obtention des dépendances pour la publication `Node.js`. (14445)
-- AEM paramètre prédéfini n’autorise pas la sélection d’un modèle en dehors de la hiérarchie `/content` dans l’éditeur web. (14260)
-- Dans la sortie AEM Sites, le style ou les sauts de ligne ont été perdus pour l’élément `<lines>` ayant des sous-éléments. 12542
+- Dans la publication Native PDF, les attributs personnalisés contenus dans les paramètres prédéfinis de condition ne fonctionnent pas pour la publication Native PDF. (14943)
+- Dans la publication Native PDF, les références clés ne sont pas résolues pour la version de décembre 2023 d’Adobe Experience Manager Guides. (15085)
+- La publication d&#39;AEM Sites échoue et entraîne des erreurs d&#39;étendue pour les fichiers ayant `xref` au fichier DITA commençant par « HTTP ». (15154)
+- Impossible d’ajouter un modèle personnalisé à partir de l’onglet **Sorties** dans l’éditeur. (14846)
+- Le préréglage **Site** ne fonctionne pas en raison d’un chemin d’accès au modèle vide. (14804)
+- La régénération du site AEM échoue pour les plans DITA avec des rubriques contenant des équations MathML. (14790)
+- Dans la publication Native PDF, la génération de PDF renvoie des erreurs d’obtention des dépendances pour la publication `Node.js`. (14445)
+- Le paramètre prédéfini d’AEM ne permet pas la sélection d’un modèle en dehors de la hiérarchie de `/content` dans l’éditeur web. (14260)
+- Dans la sortie AEM Sites, le style ou les sauts de ligne ont été perdus pour l’élément `<lines>` comportant des sous-éléments . (12542)
 - Les métadonnées personnalisées ne sont pas disponibles dans la sortie finale. (12116)
-- Dans la publication avec un PDF natif, les propriétés de métadonnées de mappage DITA ne peuvent pas être utilisées pour renseigner les métadonnées pour la sortie du fichier de PDF. 15159)
+- Dans la publication native PDF, les propriétés de métadonnées de plan DITA ne peuvent pas être utilisées pour renseigner les métadonnées pour la sortie de fichier PDF. (15159)
 
 
 
 ## Gestion
 
 - Les fichiers **Filtre de ligne de base** ne fonctionnent pas avec le nom de fichier dans l’éditeur web. (13486)
-- La désactivation de l’indexation du mappage DITA parent pour obtenir de meilleures performances peut avoir un impact sur les fonctionnalités de certaines fonctionnalités.(12213)
+- La désactivation de l&#39;indexation du plan DITA parent pour obtenir de meilleures performances peut avoir un impact sur les fonctionnalités de certaines fonctionnalités.(12213)
 
 
 ## Révision
 
-- Le menu contextuel de clic droit ne fonctionne pas pour les modifications de suivi **Accept** ou **Rejeter**. (14607)
-- Basculer pour fermer les rubriques DITA dans l’écran de révision ne fonctionne pas dans la version de décembre 2023 d’Adobe Experience Manager Guides. (14537)
-- La personnalisation des modèles de courrier électronique pour le processus de révision ne fonctionne pas avec la superposition. (13954)
+- Le menu contextuel contextuel ne fonctionne pas pour les modifications de suivi **Accepter** ou **Refuser**. (14607)
+- Le bouton (bascule) permettant de fermer les rubriques DITA dans l’écran de révision ne fonctionne pas dans la version de décembre 2023 d’Adobe Experience Manager Guides. (14537)
+- La personnalisation des modèles d’e-mail pour le workflow de révision ne fonctionne pas avec la superposition. (13954)
 
-## Problème connu
+## Problème Connu
 
 Adobe a identifié le problème connu suivant pour la version 2024.2.0 :
 
-- La version 1.0 ne s’affiche pas dans l’interface utilisateur pour le fichier DITA dupliqué.
-- La propagation des métadonnées de ressources ne fonctionne pas pour la version 2024.2.0 avec microservice activé pour aucun paramètre prédéfini.
+- La version 1.0 n&#39;est pas affichée dans l&#39;interface utilisateur pour le fichier DITA dupliqué.
+- La propagation des métadonnées des ressources ne fonctionne pas pour la version 2024.2.0 avec le microservice activé pour tout paramètre prédéfini.

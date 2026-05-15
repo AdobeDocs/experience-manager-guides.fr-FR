@@ -4,10 +4,14 @@ description: Utilisation des variables de contenu contextuel (CCVAR) dans les pa
 feature: Web Editor
 role: User, Admin
 exl-id: f9adbb3f-6c1c-4d6f-b55d-1fb45acca91a
-source-git-commit: 4020534552bdb77545c2a283f2a90adc3aebc729
+TQID: https://experienceleague.adobe.com/ehW4uJQaj3XqejwquxVwFo4vFx6q7qCsVIm6MowolZE
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 2%
+source-wordcount: 497
+ht-degree: 3%
 
 ---
 
@@ -23,27 +27,27 @@ La CVAR permet aux créateurs et créatrices d’insérer des variables dynamiqu
 
 ## Comment activer la fonction CCVAR dans les pages AEM Sites générées à partir d’AEM Guides ?
 
-AEM Guides étant utilisé comme source de tout le contenu (y compris AEM Sites, PDF ou HTML5), pour activer les CCVAR sur les pages générées à partir d’AEM Guides, vous devez utiliser des mots-clés pour définir le nom de la CCVAR. Pour ce faire dans les guides, définissez **mots-clés** dans votre plan DITA à l&#39;aide d&#39;éléments `<keydef>`. Ces mots-clés peuvent correspondre à des valeurs dynamiques (ou à des noms de CVAR), ce qui vous permet de les référencer dans vos rubriques DITA.
+Étant donné qu’AEM Guides est utilisé comme source de tout le contenu (y compris AEM Sites, PDF ou HTML5), pour activer les CCVAR sur les pages générées à partir d’AEM Guides, vous devez utiliser des mots-clés pour définir le nom de la CCVAR. Pour ce faire dans les guides, définissez **mots-clés** dans votre plan DITA à l&#39;aide d&#39;éléments `<keydef>`. Ces mots-clés peuvent correspondre à des valeurs dynamiques (ou à des noms de CVAR), ce qui vous permet de les référencer dans vos rubriques DITA.
 
 
-## Prérequis
+## Conditions préalables
 
 Avant de poursuivre, vérifiez que les conditions préalables suivantes sont remplies :
 
 1. **AEM ACS Commons Installé** :
-   - Vérifiez que **ACS AEM Commons** est installé sur votre instance AEM. Obligatoire pour l’utilisation de la CCVAR.
+   - Vérifiez qu’**ACS AEM Commons** est installé sur votre instance AEM. Obligatoire pour l’utilisation de la CCVAR.
 
 2. **Configuration des variables de contenu contextuel** :
-   - Effectuez la configuration de **Variables de contenu contextuel** dans AEM à l’aide de la [documentation officielle](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html). Cela inclut les éléments suivants :
+   - Terminez la configuration de la **Variables de contenu contextuel** dans AEM à l’aide de la [documentation officielle](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html). Cela comprend :
       - Activation de l’**agrégation des propriétés**.
-      - Configuration de la **réécriture d&#39;HTML** (si vous utilisez la sortie d&#39;HTML).
+      - Configuration de la **réécriture** (si vous utilisez la sortie HTML).
       - Configuration de la **réécriture JSON** (si vous utilisez la sortie JSON).
 
 
 
 ## Procédure d’activation de la CCVAR dans AEM Guides
 
-### 1. Définir des mots-clés dans le plan DITA
+### &#x200B;1. Définir des mots-clés dans le plan DITA
 
 - Dans AEM Guides, définissez des mots-clés à l’aide des éléments `<keydef>` dans le plan DITA pour correspondre à la variable CCVAR.
 - Par exemple :
@@ -61,7 +65,7 @@ Avant de poursuivre, vérifiez que les conditions préalables suivantes sont rem
 - L&#39;attribut `keys` (`product` dans cet exemple) sera utilisé pour référencer cette variable dans vos rubriques DITA.
 
 
-## 2. Utiliser des mots-clés dans les rubriques DITA
+## &#x200B;2. Utiliser des mots-clés dans les rubriques DITA
 
 - Dans la rubrique , utilisez le mot-clé à l’endroit où la CCVar doit être utilisée.
 - Par exemple :
@@ -74,7 +78,7 @@ Avant de poursuivre, vérifiez que les conditions préalables suivantes sont rem
 - Lors de la génération de la sortie, le mot-clé est remplacé par la valeur CCVar correspondante.
 
 
-## 3. Générer une sortie
+## &#x200B;3. Générer une sortie
 
 - Lorsque vous générez une sortie pour AEM Sites, les références aux mots-clés sont résolues sur les valeurs dynamiques correspondantes.
 - Par exemple :

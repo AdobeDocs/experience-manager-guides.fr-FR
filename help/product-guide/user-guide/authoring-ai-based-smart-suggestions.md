@@ -2,9 +2,14 @@
 title: Suggestions intelligentes optimisées par l’IA pour créer du contenu
 description: Découvrez comment afficher et utiliser des suggestions intelligentes optimisées par l’IA dans l’éditeur web.
 exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/M46mebqRPlx-9qmpAG3rB3xwREgEbW9yx-VKLyuNFyg
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: ac5ecfc1-cc78-4ecc-a90a-0362685062ce
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: bf7fca06-df97-4229-884f-76afcfade5adid: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: 690
 ht-degree: 0%
 
 ---
@@ -15,7 +20,7 @@ Adobe Experience Manager Guides fournit des suggestions intelligentes qui vous a
 
 Lorsque vous créez du contenu, la fonction **Suggérer du contenu réutilisable** de l’outil Assistant AI peut effectuer une recherche à l’aide de l’IA et afficher le contenu existant qui est sémantiquement similaire à votre contenu. Vous pouvez ensuite choisir le meilleur contenu correspondant que vous souhaitez inclure dans votre rubrique actuelle comme référence.
 
-Cela vous permet de réutiliser du contenu existant de votre référentiel de documentation et de créer du contenu cohérent. Par exemple, vous créez un document contenant des informations sur **&#x200B;**, y compris un paragraphe sur **Adobe**. Dans ce cas, vous pouvez rapidement afficher et ajouter la référence au contenu d’une autre rubrique, comme **&#x200B;**, qui inclut le même paragraphe.
+Cela vous permet de réutiliser du contenu existant de votre référentiel de documentation et de créer du contenu cohérent. Par exemple, vous créez un document contenant des informations sur ****, y compris un paragraphe sur **Adobe**. Dans ce cas, vous pouvez rapidement afficher et ajouter la référence au contenu d’une autre rubrique, comme ****, qui inclut le même paragraphe.
 >[!NOTE]
 >
 > Dans les [profils globaux ou de niveau dossier](../cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions), votre administrateur doit définir les fichiers ou dossiers à indexer pour les suggestions intelligentes, le nombre minimum de caractères à saisir pour afficher les suggestions et le nombre maximum de suggestions que vous pouvez afficher dans la liste.
@@ -24,18 +29,18 @@ Pour afficher les suggestions intelligentes permettant d’ajouter des référen
 
 
 1. Sélectionnez le contenu de la rubrique pour afficher les suggestions associées. Assurez-vous que la longueur de caractères du contenu dépasse ce que votre administrateur a défini dans le profil de dossier pour que les suggestions de contenu s’affichent.
-1. Dans le **panneau de création** de l’assistant AI, sélectionnez **Suggérer du contenu réutilisable** ![ai suggérer une icône de contenu réutilisable &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
+1. Dans le **panneau de création** de l’assistant AI, sélectionnez **Suggérer du contenu réutilisable** ![ai suggérer une icône de contenu réutilisable ](./images/ai-suggest-reusable-content-icon.svg).
 
 1. Sélectionnez une balise pour afficher les suggestions de création pour la balise active .  Les suggestions d’affichage et d’ajout de références de contenu à partir des fichiers indexés s’affichent en fonction du contenu de la balise active. Vous pouvez également sélectionner plusieurs balises.
 
 
-1. Sélectionnez toutes les balises pour afficher les suggestions en fonction du contenu présent dans le document complet.  L’icône **Suggérer du contenu réutilisable** ![ai suggérer un contenu réutilisable &#x200B;](./images/ai-suggest-reusable-content-icon.svg) s’affiche en regard du contenu pour lequel une correspondance appropriée a été trouvée.
+1. Sélectionnez toutes les balises pour afficher les suggestions en fonction du contenu présent dans le document complet.  L’icône **Suggérer du contenu réutilisable** ![ai suggérer un contenu réutilisable ](./images/ai-suggest-reusable-content-icon.svg) s’affiche en regard du contenu pour lequel une correspondance appropriée a été trouvée.
 
 
 
    >[!NOTE]
    >
-   > Vous pouvez uniquement afficher les suggestions de la fenêtre d’affichage actuelle (le contenu visible à l’écran). Pour afficher des suggestions pour tout autre contenu du document, faites défiler la page vers le haut ou vers le bas pour l’afficher dans la fenêtre d’affichage, puis sélectionnez **Suggérer du contenu réutilisable** ![ai Suggérer l’icône de contenu réutilisable &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
+   > Vous pouvez uniquement afficher les suggestions de la fenêtre d’affichage actuelle (le contenu visible à l’écran). Pour afficher des suggestions pour tout autre contenu du document, faites défiler la page vers le haut ou vers le bas pour l’afficher dans la fenêtre d’affichage, puis sélectionnez **Suggérer du contenu réutilisable** ![ai Suggérer l’icône de contenu réutilisable ](./images/ai-suggest-reusable-content-icon.svg).
 
 
 1. Vous pouvez afficher les suggestions intelligentes dans le panneau de suggestions.  Experience Manager Guides fournit des suggestions dont le contenu est contextuellement similaire ou a la même signification. Par exemple, vous pouvez rechercher la rubrique qui contient le numéro de version exact, comme « version 2023.03.12 ». Vous pouvez également rechercher « Adobe a son siège à San Jose, en Californie » et trouver du contenu similaire comme « San Jose a les quartiers de nombreuses sociétés de logiciels comme Adobe ».

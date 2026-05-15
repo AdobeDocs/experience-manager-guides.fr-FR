@@ -2,10 +2,15 @@
 title: Notes de mise à jour | Correction de problèmes dans Adobe Experience Manager Guides 5.1.0 Service Pack 3
 description: Découvrez les correctifs de bugs dans la version 5.1.0 Service Pack 3 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 82eb0e18eb285006c66b1fe2b6ecc3ca86fefe61
+exl-id: faa9a5d7-616f-4692-98d1-23abc78556b6
+TQID: https://experienceleague.adobe.com/qiVY-B-D3FcHq2PH7Go2AAFpnstCrPJ2MVLEalQCVn0
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 1%
+source-wordcount: 297
+ht-degree: 2%
 
 ---
 
@@ -46,7 +51,3 @@ Découvrez les [instructions de mise à niveau pour la version 5.1.0 du pack de 
 Adobe a identifié le problème connu suivant pour la version 5.1.0 du pack de services 3 :
 
 - Lorsque vous marquez une tâche de révision comme terminée à partir de la page Détails de la tâche, la tâche est terminée et fermée ; cependant, son statut continue de s’afficher comme **En cours** dans le tableau de bord de révision. (GUIDES-39375)
-
-
-
-

@@ -1,13 +1,17 @@
 ---
 title: Informations d’identification des utilisateurs et utilisatrices d’Adobe Experience Manager Guides Generative AI
 description: Découvrez les informations sur l’utilisateur Generative AI fournies lors de l’utilisation de l’assistant AI dans Adobe Experience Manager Guides.
-source-git-commit: d2db620265eb5b093f9a0522ed9074f61c5bb978
+exl-id: 3860edc6-a58f-48f5-a67e-8b0085d4d22d
+TQID: https://experienceleague.adobe.com/VtANhtxajfvlZe6NBGNOnmpew-NTiu9J-l9e2ZBgpjY
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 0%
+source-wordcount: 408
+ht-degree: 3%
 
 ---
-
 
 # Informations d’identification des utilisateurs et utilisatrices d’Adobe Experience Manager Guides Generative AI
 
@@ -26,5 +30,3 @@ AI Assistant est alimenté par des modèles d&#39;IA génératifs, et la technol
 ## Commentaires
 
 Nous fournissons un mécanisme de retour d’informations directement dans l’assistant d’IA pour nous aider à améliorer la précision. Il s’agit d’un processus continu, et nous continuerons à travailler avec nos clients et la communauté pour exploiter la puissance de cette nouvelle technologie de manière responsable.
-
-

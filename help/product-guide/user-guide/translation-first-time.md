@@ -4,9 +4,15 @@ description: connaître les bonnes pratiques relatives à la traduction de conte
 exl-id: f2a4df86-bba7-434c-b7f9-3587b8a4f9bc
 feature: Translation
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/798Cq-uPIr0LZRTB7LbcM5mYeoDxuVTR4meQn0LYsfs
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd456af4-cb12-4a34-8cc4-b74adf885626
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: 857
 ht-degree: 0%
 
 ---
@@ -49,7 +55,7 @@ Effectuez les étapes suivantes pour configurer le service de traduction humaine
 
    >[!NOTE]
    >
-   > Consultez la documentation [Configuration de la structure d’intégration de traduction](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=fr) dans Adobe Experience Manager pour plus d’informations sur l’intégration à des services de traduction tiers.
+   > Consultez la documentation [Configuration de la structure d’intégration de traduction](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) dans Adobe Experience Manager pour plus d’informations sur l’intégration à des services de traduction tiers.
 
 1. Sélectionnez **Enregistrer et fermer** pour enregistrer les propriétés du dossier mis à jour.
 
@@ -79,4 +85,4 @@ Une fois la traduction terminée, le statut de la tâche de traduction passe à 
 >- Si vous rejetez, supprimez ou annulez la tâche de traduction pour une rubrique présente dans plusieurs projets (pour l’un des projets), le statut de traduction **En cours** de la rubrique n’est pas rétabli, mais ce projet est supprimé de la liste de projets **En cours** pour cette ressource donnée.
 >- En outre, si vous annulez ou supprimez la tâche de traduction ou supprimez l’ensemble du projet, le statut de traduction **En cours** revient à son statut d’origine.
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de la traduction de contenu](translation.md)
+**Rubrique parente :**[ Présentation de la traduction de contenu](translation.md)

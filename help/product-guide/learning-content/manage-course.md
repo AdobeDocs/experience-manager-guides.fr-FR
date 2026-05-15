@@ -4,9 +4,13 @@ description: Découvrez les différentes fonctionnalités de Experience Manager 
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: f758ef6f2d238cbb71dc395add12fc7e30172871
+TQID: https://experienceleague.adobe.com/Ffg1tESMpsZU71BF5UcWu-bSBTekVGiv-dv24jD-tjA
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: 709
 ht-degree: 0%
 
 ---
@@ -31,7 +35,7 @@ Pour ajouter du contenu à votre cours, procédez comme suit :
    - **Groupe** : un groupe d’apprentissage permet d’organiser les rubriques connexes telles que les chapitres, les rubriques et d’autres modules dans un ordre logique, ce qui permet de créer une hiérarchie claire qui facilite la gestion et la réutilisation des ressources de formation.
 3. Sélectionnez **Créer**.
 
-Le contenu sélectionné est créé et ajouté au cours. Pour une présentation vidéo, reportez-vous à la [&#x200B; &#x200B;](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)Ajouter du nouveau contenu à un cours![](assets/Smock_VideoCheckedOut_18_N.svg).
+Le contenu sélectionné est créé et ajouté au cours. Pour une présentation vidéo, reportez-vous à la ![](assets/Smock_VideoCheckedOut_18_N.svg) [Ajouter du nouveau contenu à un cours](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
 
 ## Ajouter du contenu existant
 
@@ -50,7 +54,7 @@ Le contenu du cours sélectionné est ajouté au cours à partir du référentie
 >
 >Vous pouvez également utiliser l’option **Ajouter un fichier existant** > **Fichier (fichier compressé de ressources uniquement)** pour inclure un fichier zip qui est décompressé et intégré à la structure de dossiers de la sortie SCORM finale. Cela permet de rationaliser le conditionnement des ressources lors de la publication du cours.
 
-Pour obtenir un aperçu vidéo, consultez la [&#x200B; &#x200B;](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)Ajouter du contenu existant à un cours![](assets/Smock_VideoCheckedOut_18_N.svg) .
+Pour obtenir un aperçu vidéo, consultez la ![](assets/Smock_VideoCheckedOut_18_N.svg) [Ajouter du contenu existant à un cours](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on) .
 
 ## Supprimer le contenu
 
@@ -58,7 +62,7 @@ Vous pouvez supprimer n’importe quel sujet du cours en sélectionnant le menu 
 
 ![](assets/remove-learning-content.png)
 
-Pour une présentation vidéo, reportez-vous à la [&#x200B; &#x200B;](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)Supprimer le contenu du cours![](assets/Smock_VideoCheckedOut_18_N.svg) .
+Pour une présentation vidéo, reportez-vous à la ![](assets/Smock_VideoCheckedOut_18_N.svg) [Supprimer le contenu du cours](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) .
 
 
 ## Créer des versions de cours
@@ -83,7 +87,7 @@ L’option **Afficher** détermine l’affichage des rubriques. Vous pouvez choi
 
 ![](assets/course-display-settings.png)
 
-Pour une présentation vidéo, reportez-vous à la [&#x200B; &#x200B;](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides)Afficher les paramètres![](assets/Smock_VideoCheckedOut_18_N.svg).
+Pour une présentation vidéo, reportez-vous à la ![](assets/Smock_VideoCheckedOut_18_N.svg) [Afficher les paramètres](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides).
 
 ## Créer une tâche de révision
 

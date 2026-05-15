@@ -2,9 +2,12 @@
 title: Exemples
 description: Liste d’exemples de personnalisation
 exl-id: 40cdc703-7a78-4979-a7b5-1158558d4868
-source-git-commit: 924c34a2ec6249b81cbdddf72392dac600e22e9f
+TQID: https://experienceleague.adobe.com/Fgry-byLX0-N5gxaBk2TiN9QyzSPTXLepzGiQ4w1hSU
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: 462
 ht-degree: 0%
 
 ---
@@ -13,7 +16,7 @@ ht-degree: 0%
 
 Dans ce package, nous avons également fourni quelques exemples de personnalisation (disponibles à l’adresse `guides_extension/src`) . Vous trouverez ci-dessous une brève description de chacun d’eux.
 
-1. [&#x200B; Menu contextuel &#x200B;](./examples/file_options.ts)
+1. [Menu contextuel](./examples/file_options.ts)
 Dans cet exemple, nous avons personnalisé le menu contextuel `file_options` afin de supprimer les options `Delete` et `Edit`, puis de remplacer l’option `Duplicate` par une option `Download`.
 
 2. [Panneau de gauche](./examples/left_panel_container.ts)
@@ -27,15 +30,15 @@ Dans cet exemple, nous avons personnalisé l’`right tab panel` afin d’avoir 
 5. [Barre d’outils](./examples/toolbar.ts)
 Dans cet exemple, nous avons remplacé les boutons `Insert Element`, `Insert Paragraph`, `Insert Numbered List` et `Insert Bulleted List` par un seul bouton `More Insert Options` contenant tous ces éléments.
 
-6. [Bouton Gérer dans le panneau Métadonnées](./examples/metadata_report_manage_button.ts)
+6. Bouton [ Gérer dans le panneau Métadonnées](./examples/metadata_report_manage_button.ts)
 Dans cet exemple, nous avons personnalisé le bouton **Gérer** (situé dans le panneau Métadonnées de la page Rapports) afin qu’il soit désactivé lorsque le ou les fichiers sélectionnés sont en mode lecture seule. Cela permet d’éviter les modifications accidentelles des métadonnées dans les fichiers qui ne sont pas destinés à être modifiés.
 
 [Consulter les exemples d’applications]
 
-1. [Boîte à outils Annotation](./examples/review_app_examples/annotation_extension.ts)
+1. [Boîte à outils d’annotation](./examples/review_app_examples/annotation_extension.ts)
 Dans cet exemple, nous avons ajouté un autre bouton à la boîte à outils d’annotation qui ouvre la rubrique de révision actuelle dans AEM.
 
-2. [Commentaire de révision](./examples/review_app_examples/review_comment.ts)
+2. [Commentaire sur la révision](./examples/review_app_examples/review_comment.ts)
 Dans cet exemple, nous avons remplacé le nom d’utilisateur par les informations utilisateur (qui comprennent le nom complet et le titre du commentateur), ajouté un ID de commentaire unique, une icône mailTo et ajouté des champs de saisie pour mentionner la gravité et la raison du commentaire.
 Nous avons également ajouté un bouton `accept with modification` dans les commentaires du côté de l’éditeur XMLE qui ouvre une boîte de dialogue.
 
@@ -64,5 +67,5 @@ Voici un exemple de mise à jour d’une boîte de dialogue existante. Nous ajou
 
 Voici le panneau de révision avant et après la personnalisation :
 
-![Panneau d’examen;](./imgs/review_panel.png)
+![Comité d&#39;examen;](./imgs/review_panel.png)
 ![Boîte De Dialogue Accepter Avec Modification](./imgs/customised_review_panel.png)

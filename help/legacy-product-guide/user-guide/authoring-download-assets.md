@@ -5,16 +5,21 @@ feature: Content Management
 role: User
 hide: true
 exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/iCZL0VgkFqcKWqnTpNWkXvJUXyMbLUL6wENBvVXe40Y
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: 440
 ht-degree: 0%
 
 ---
 
 # Télécharger les fichiers {#id216MC0H0BE8}
 
-Vous pouvez télécharger des ressources, y compris des fichiers DITA et non DITA. Vous pouvez télécharger des ressources de plusieurs façons. Certaines méthodes sont natives à AEM et d’autres sont prises en charge par AEM Guides. Pour obtenir des informations sur le téléchargement des ressources natives d’AEM, consultez [Téléchargement de ressources depuis Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=fr) dans la documentation d’AEM. La section suivante explique le mécanisme de téléchargement des fichiers via la console de plan DITA dans AEM Guides.
+Vous pouvez télécharger des ressources, y compris des fichiers DITA et non DITA. Vous pouvez télécharger des ressources de plusieurs façons. Certaines méthodes sont natives à AEM et d’autres sont prises en charge par AEM Guides. Pour obtenir des informations sur le téléchargement des ressources natives d’AEM, consultez [Téléchargement de ressources depuis Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) dans la documentation d’AEM. La section suivante explique le mécanisme de téléchargement des fichiers via la console de plan DITA dans AEM Guides.
 
 ## Exporter un fichier de mappage DITA
 
@@ -36,7 +41,7 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA avec 
 
 1. Cliquez sur **Télécharger**. Dans la boîte de dialogue Télécharger la carte , vous pouvez choisir les options suivantes :
 
-   - **Utiliser niveau de référence** : sélectionnez cette option pour obtenir la liste des niveaux de référence créés pour le plan DITA. Pour télécharger le fichier de mappage et son contenu en fonction d&#39;une ligne de base spécifique, sélectionnez la ligne de base dans la liste déroulante. Pour plus d&#39;informations sur l&#39;utilisation des lignes de base, voir [&#x200B; Utilisation des lignes de base &#x200B;](generate-output-use-baseline-for-publishing.md#).
+   - **Utiliser niveau de référence** : sélectionnez cette option pour obtenir la liste des niveaux de référence créés pour le plan DITA. Pour télécharger le fichier de mappage et son contenu en fonction d&#39;une ligne de base spécifique, sélectionnez la ligne de base dans la liste déroulante. Pour plus d&#39;informations sur l&#39;utilisation des lignes de base, voir [ Utilisation des lignes de base ](generate-output-use-baseline-for-publishing.md#).
    - **Aplatir la hiérarchie de fichiers** : sélectionnez cette option pour enregistrer toutes les rubriques et tous les fichiers multimédias référencés dans un seul dossier.
    >[!NOTE]
    >
@@ -58,4 +63,4 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA avec 
 
 Une fois la carte téléchargée, vous pouvez sélectionner la carte et utiliser l’icône Ouvrir en haut pour ouvrir le rapport sélectionné.
 
-**Rubrique parente :**&#x200B;[&#x200B; Gérer le contenu](authoring.md)
+**Rubrique parente :**[ Gérer le contenu](authoring.md)

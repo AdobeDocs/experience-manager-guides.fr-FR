@@ -5,9 +5,15 @@ exl-id: cdd40267-3f0c-40d2-acbc-2ebe43633c2f
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/AVKmd4mTg5Td4or3-8LB1hXxpv9G89430Et8ZATtTsw
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: b1210526-416b-4ef6-bcc0-1692e99f30e9id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2: id: a7a242db-c88c-4e44-818b-bfb4ef92efdfid: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: b88be3fe-792c-484d-8262-9f667de75c8did: c5fd2af0-6cbb-4746-ab0d-40ecb093af12id: c8841798-1a28-4264-a46a-984860f8e6f6id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f551224f-631f-46f8-b8fc-67744f995ba0id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: ce44533e-8ec8-4e11-a9e9-78b0fe561832id: d095671a-1355-40aa-8b5f-06c33c68080bid: da3860b0-d637-47df-bef0-273751180266id: e6ff21d3-dec6-4298-8590-7c749fffaf78id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: 767
 ht-degree: 9%
 
 ---
@@ -29,7 +35,7 @@ Ce guide est destiné aux types d’audiences suivants :
 
 Les informations contenues dans ce guide sont organisées comme suit :
 
-- [À propos de ce guide &#x200B;](#id175MC0P0S5Z) : cette rubrique présente ce guide, l’audience ciblée et la manière dont les informations sont organisées dans ce guide.
+- [À propos de ce guide ](#id175MC0P0S5Z) : cette rubrique présente ce guide, l’audience ciblée et la manière dont les informations sont organisées dans ce guide.
 
 - [Télécharger et installer](download-install.md#) : cette rubrique décrit comment télécharger, installer ou mettre à niveau AEM Guides.
 
@@ -66,16 +72,16 @@ Les informations contenues dans ce guide sont organisées comme suit :
 
 [Adobe Experience Manager \(AEM\)](https://business.adobe.com/fr/products/experience-manager/adobe-experience-manager.html) est une solution complète de gestion de contenu permettant de créer des sites web, des applications mobiles et des formulaires. AEM vous aide à gérer votre contenu et vos ressources marketing. AEM est disponible dans as a Cloud Service. AEM as a Cloud Service vous permet de fournir à vos clients des expériences personnalisées basées sur le contenu en associant la puissance du système de gestion de contenu AEM à la gestion des ressources numériques AEM. Voici quelques-unes des ressources clés qui peuvent vous aider à démarrer et à déployer AEM as a Cloud Service :
 
-- [Présentation d’Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=fr)
-- [Prise en main du Parcours de migration vers AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=fr)
-- [Commencer l’intégration à Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=frhttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
+- [Présentation d’Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=en)
+- [Prise en main du Parcours de migration vers AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=en)
+- [Commencer l’intégration à Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=enhttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
 - [Implémentation d’applications pour AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=fr)
 - [Déploiement sur AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=fr)
 - [Guide d’Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=fr)
 
 ## Ressources supplémentaires
 
-Voici une liste d’autres ressources utiles d’AEM Guides, disponibles sur la page [En savoir plus et assistance](https://helpx.adobe.com/fr/support/xml-documentation-for-experience-manager.html) :
+Voici une liste d’autres ressources utiles d’AEM Guides, disponibles sur la page [En savoir plus et assistance](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) :
 
 - Guide de l’utilisateur
 - Guide de référence des API

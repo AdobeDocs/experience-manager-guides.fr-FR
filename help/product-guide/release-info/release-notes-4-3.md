@@ -4,10 +4,16 @@ description: Découvrez les correctifs et comment effectuer une mise à niveau v
 exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/tpIgdm6yEWAcTHYKOXC4d3xR6yTLpVF5M9BVxquyahw
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 1%
+source-wordcount: 1075
+ht-degree: 4%
 
 ---
 
@@ -46,7 +52,7 @@ Cette section répertorie la matrice de compatibilité pour les applications log
 **4.3.0 Non-UUID**
 Version 6.5 Service Pack 18, 17, 16, 15 ou 14
 
-**4.3.0 UUID**
+UUID **4.3.0**
 Version 6.5 Service Pack 18, 17, 16, 15 ou 14
 
 Pour plus d’informations, consultez la section *Exigences techniques* du guide Installation et configuration d’Adobe Experience Manager Guides .
@@ -90,7 +96,7 @@ Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 - Impossible de modifier le fragment de contenu dans la vue Colonnes avec AEM Guides installé. (7342)
 - Le contenu est perdu lorsqu’une xréf non encapsulée se trouve sous des balises de sous-élément. (12532)
 - Le workflow d’approbation ne fonctionne pas lorsque l’état du document est remplacé par « état de fin » dans les propriétés de fichier du panneau de droite. (11026)
-- Interface utilisateur d’Asset | Dans la vue Liste, les colonnes disponibles superposées ne peuvent pas être fusionnées. (11528)
+- Interface utilisateur d’Assets | Dans la vue Liste, les colonnes disponibles superposées ne peuvent pas être fusionnées. (11528)
 - Keyref n’est pas résolu en mode Carte. (11490)
 - Le menu supérieur n’apparaît pas lors de la navigation dans l’éditeur XML. (10868)
 - `conref` dans la balise ph | La boîte de dialogue de navigation affichée est incorrecte. (9481)
@@ -102,12 +108,12 @@ Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 ### Gestion
 
 - Le champ « title » des propriétés de métadonnées de plan DITA est remplacé par `<title>` élément pour le plan. (10702)
-- Lors de la tentative d’ouverture ou de mise à jour de la version des rubriques de la ligne de base, le chargeur « Récupération des informations du serveur » s’exécute indéfiniment.(12478)
+- Lorsque vous essayez d&#39;ouvrir ou de mettre à jour la version des rubriques de la ligne de base, le chargeur « Récupération des informations du serveur » s&#39;exécute indéfiniment.(12478)
 
 
 ### Révision
 
-- Nouvelle interface utilisateur de révision | Les conditions sont mises en surbrillance et indiquent que le fonctionnement des masques diffère de celui de l’éditeur web. (11628)
+- Nouvelle interface utilisateur de révision | Les conditions mettent en surbrillance et affichent le travail de masquage différemment de leur fonctionnement dans l’éditeur web. (11628)
 
 ### Publication
 
@@ -116,12 +122,12 @@ Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 - PDF natif | Les métadonnées de langue ne peuvent pas être définies dans le PDF généré pour se conformer au WCAG 2.0. (12407)
 - La publication sur le site AEM échoue lors de la lecture des fichiers temporaires du pod qui peuvent avoir été actualisés ou redémarrés. (12113)
 - PDF natif | Les attributs personnalisés ne sont pas propagés au moteur temporaire HTML ou PDF. (DXML-12005)
-- PDF natif |  Java OutOfMemoryError se produit lors de la publication de contenu volumineux. (11789)
-- PDF natif | Xref imprime le contenu du titre de la rubrique href au lieu du libellé Xref. (11322)
+- Native PDF | Java OutOfMemoryError se produit lors de la publication de contenu volumineux. (11789)
+- Native PDF | Xref imprime le contenu du titre de la rubrique href au lieu du libellé Xref. (11322)
 - PDF natif | Impossible d’enregistrer les paramètres du modèle PDF. (10751)
-- PDF natif | Le texte s’étend au-delà de la largeur de colonne en incluant plusieurs xréfs. (10876)
-- PDF natif | `<note>` `</note>`’élément ne génère pas de titre d’étendue supplémentaire de son type. (10549)
-- Sortie JSON | La propriété `fmUuid` sur le nœud jcr:content de JSON est différente de l’« id » dans le fichier JSON. (11564)
+- PDF natif | Le texte s’étend au-delà de la largeur de colonne lors de l’inclusion de plusieurs xréfs. (10876)
+- L’élément Native PDF | `<note>``</note>` ne génère pas de titre d’étendue supplémentaire de son type. (10549)
+- Sortie JSON | La propriété `fmUuid` du nœud jcr:content de JSON est différente de l’« id » dans le fichier JSON. (11564)
 - Sortie JSON | Si le mappage et la rubrique portant le même nom de fichier sont présents, le JSON du mappage est supprimé. (11524)
 
 ## Problème connu

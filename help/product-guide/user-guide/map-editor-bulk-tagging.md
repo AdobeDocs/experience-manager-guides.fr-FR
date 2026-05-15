@@ -4,13 +4,18 @@ description: Utilisez le balisage en masse du contenu dans AEM Guides pour amél
 exl-id: 4c6639a3-333b-44ad-9aec-735a327c3320
 feature: Metadata Management
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/aIDAXlejB9zW12EYhH0cOwCJpGTKwU42gfvrbUmMqJ4
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: 722
 ht-degree: 1%
 
 ---
-
 
 # Balisage en bloc du contenu DITA {#id179SG0TN05Z}
 
@@ -18,7 +23,7 @@ ht-degree: 1%
 
 Les balises vous permettent de regrouper ou de classer le contenu dans votre référentiel de contenu ainsi que dans la sortie publiée. Si vous avez appliqué des balises à votre contenu, vous pouvez facilement trouver des rubriques connexes dans un plan DITA afin de créer du contenu. Grâce à la sortie publiée, les utilisateurs finaux pourront localiser plus rapidement le contenu approprié avec les balises appropriées en place.
 
-Adobe Experience Manager Guides vous permet de baliser le contenu DITA en quelques étapes. Vous pouvez utiliser la fonction de balisage en bloc pour appliquer plusieurs balises à plusieurs rubriques, à un plan DITA ou à un sous-plan. Vous pouvez également appliquer des balises à une rubrique spécifique. Le balisage est la fonctionnalité native de Adobe Experience Manager. Vous trouverez plus d’informations sur la création et la gestion des balises dans la section [Administration des balises](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=fr) de la documentation de Adobe Experience Manager.
+Adobe Experience Manager Guides vous permet de baliser le contenu DITA en quelques étapes. Vous pouvez utiliser la fonction de balisage en bloc pour appliquer plusieurs balises à plusieurs rubriques, à un plan DITA ou à un sous-plan. Vous pouvez également appliquer des balises à une rubrique spécifique. Le balisage est la fonctionnalité native de Adobe Experience Manager. Vous trouverez plus d’informations sur la création et la gestion des balises dans la section [Administration des balises](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) de la documentation de Adobe Experience Manager.
 
 Par défaut, Experience Manager Guides n’accorde pas l’accès en lecture à un utilisateur sur le dossier dans lequel toutes les balises du référentiel Adobe Experience Manager sont stockées. Pour utiliser les balises définies dans le référentiel Adobe Experience Manager, vous devez demander à votre administrateur système d’accorder l’accès au dossier dans lequel les balises sont stockées.
 
@@ -110,4 +115,4 @@ Pour supprimer toutes les balises d’une ou de plusieurs rubriques, procédez c
 
 Si une longue liste de balises est appliquée à vos rubriques, la navigation peut s’avérer un peu fastidieuse. Vous pouvez facilement masquer les balises dans dans la vue de la console Plan DITA en sélectionnant l&#39;icône Masquer les balises . De même, lorsque les balises ne sont pas visibles, si vous sélectionnez Afficher les balises , toutes les balises sont affichées.
 
-**Rubrique parente :**&#x200B;[&#x200B; Gérer les métadonnées](manage-metadata.md)
+**Rubrique parente :**[ Gérer les métadonnées](manage-metadata.md)

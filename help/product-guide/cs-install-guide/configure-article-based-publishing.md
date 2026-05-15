@@ -5,9 +5,14 @@ exl-id: d83fc1a9-0822-47f0-8099-22a74b9ced2a
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/ZX3-rirhXTcufDkFQOF12vj3uh28gSfIpxFwlOQF-Yk
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: 374
 ht-degree: 4%
 
 ---
@@ -18,7 +23,7 @@ AEM Guides offre une puissante fonctionnalité de publication d’articles inté
 
 Pour créer un site AEM en vue de publier une sortie basée sur des articles, procédez comme suit :
 
-1. Téléchargez le package de contenu de composants XML Documentation **pour Cloud Service** à partir de votre portail de distribution de logiciels Adobe [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
+1. Téléchargez le package de contenu de composants XML Documentation **pour Cloud Service** à partir de votre portail de distribution de logiciels Adobe [](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
 1. Ouvrez le gestionnaire de packages AEM. L’URL par défaut pour accéder au gestionnaire de packages est : `https://<hostname>/crx/packmgr/index.jsp`
 1. Téléchargez le package de contenu des composants XML Documentation pour Cloud Service, puis installez-le.
 1. Téléchargez le fichier `Knowledge-base-template-for-article-based-publishing-for-cloud-service.zip` à partir du portail de distribution logicielle [Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
@@ -42,4 +47,4 @@ Pour créer un site AEM en vue de publier une sortie basée sur des articles, pr
 
 Vous pouvez utiliser le site AEM pour publier votre article à l’aide des paramètres prédéfinis de sortie de l’éditeur web.
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)

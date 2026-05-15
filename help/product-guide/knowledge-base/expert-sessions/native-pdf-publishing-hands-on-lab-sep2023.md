@@ -1,23 +1,29 @@
 ---
-title: Publication de PDF natifs "Mains sur le laboratoire - BYOS" - Apprentissage interactif
-description: Cette session 'Hands-on Lab - BYOS' offre une exploration approfondie de la publication de PDF natifs. Explorez différents cas d’utilisation, utilisez les fonctionnalités clés et contactez directement les experts d’Adobe pour répondre à vos exigences et instructions de problème spécifiques.
+title: Publication native sur PDF « Hands on lab - BYOS » - Apprentissage interactif
+description: Cette session pratique « Lab - BYOS » offre une exploration en profondeur de la publication native de PDF. Explorez différents cas d’utilisation, tirez parti de fonctionnalités essentielles et collaborez directement avec des experts d’Adobe pour résoudre vos problèmes spécifiques et répondre à vos exigences.
 exl-id: 55c276d8-8611-4050-be5f-7f9854f94228
 feature: Native PDF Output
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+TQID: https://experienceleague.adobe.com/nPgfochzBl2Zv5ANSYE1q-I6PiYiAONbuOV-qfkVtA8
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: 407
 ht-degree: 1%
 
 ---
 
-# Publication de PDF natifs &quot;Mains sur le laboratoire - BYOS&quot; - Apprentissage interactif
+# Publication native sur PDF « Hands on lab - BYOS » - Apprentissage interactif
 
-Cette session &#39;Hands-on Lab - BYOS&#39; offre une exploration approfondie de la publication de PDF natifs. Explorez différents cas d’utilisation, utilisez les fonctionnalités clés et contactez directement les experts d’Adobe pour répondre à vos exigences et instructions de problème spécifiques.
+Cette session pratique « Lab - BYOS » offre une exploration en profondeur de la publication native de PDF. Explorez différents cas d’utilisation, tirez parti de fonctionnalités essentielles et collaborez directement avec des experts d’Adobe pour résoudre vos problèmes spécifiques et répondre à vos exigences.
 
-## Présentation de la session
+## Session overview
 
-Au cours de cette session, vous obtiendrez des informations précieuses sur la publication sur les PDF natifs, couvrant un large éventail de rubriques, allant de l’utilisation de métadonnées dans la sortie du PDF aux techniques de dépannage avancées. Découvrez les développements récents, discutez des cas d’utilisation ou des exigences spécifiques dans le PDF natif avec des experts en Adobe afin d’améliorer vos capacités de publication.
+Au cours de cette session, vous obtiendrez des informations précieuses sur la publication native de PDF, couvrant un large éventail de sujets, depuis l’utilisation de métadonnées dans la sortie PDF jusqu’aux techniques de dépannage avancées. Découvrez les développements récents, discutez des cas d’utilisation ou des exigences spécifiques dans Native PDF avec des experts d’Adobe pour améliorer vos fonctionnalités de publication.
 
 ## Enregistrement de session
 
@@ -25,48 +31,48 @@ Au cours de cette session, vous obtiendrez des informations précieuses sur la p
 
 ## Tons clairs
 
-- **Date** - 7 septembre 2023
+- **Date** - 7 Septembre 2023
 - **Nombre de participants** - 65
 - **Durée** - 75 minutes
 - **Audience** - Clients, partenaires et employés d’Adobe
 
 ## Principaux points à retenir
 
-Au cours de cette session, vous avez appris ce qui suit pour la publication d’PDF natifs :
+Au cours de cette session, vous avez appris les principes suivants pour la publication Native PDF :
 
-- Utilisez des ressources ou des métadonnées DITA en sortie.
-- Utilisation des éléments de note, de tableau, d’images et de note de bas de page.
-- Numérotation automatique des images et des tableaux.
-- Références croisées à des tableaux, des chiffres, des en-têtes et des paragraphes.
+- Utiliser des ressources ou des métadonnées DITA dans la sortie.
+- Utilisation des notes, tableaux, images et éléments de note de bas de page.
+- Numérotation automatique des images et des tableaux
+- Renvois à des tableaux, figures, titres, paragraphes.
 - Utilisation de variables pour configurer des objets DITA pour une sortie localisée.
-- Options de mise en forme, de style, de filigranes conditionnels, etc.
-- Comment résoudre les problèmes liés à l’utilisation de l’HTML intermédiaire.
-- Migration vers le moteur de PDF natif.
-- Options/fonctionnalités pour les manuels de voitures.
-- Les développements récents tels que les variables de langue, l’éditeur CSS repensé, etc.
+- Options de mise en forme des pages, de style, de filigranes conditionnels, etc.
+- Comment résoudre les problèmes liés à l’utilisation d’HTML intermédiaire.
+- Migration vers le moteur PDF natif.
+- Options/caractéristiques pour les manuels d&#39;utilisation de voitures.
+- Développements récents tels que les variables de langue, l’éditeur CSS repensé, etc.
 
 
 ## Ressources connexes
 
-- **Étapes de configuration du PDF natif** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=fr)
+- **Étapes de configuration de PDF natives** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
 
-- **Présentation fonctionnelle de la publication de PDF natif** - [sur Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=fr)
+- **Présentation fonctionnelle de la publication native de PDF** - [sur Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **Cas d’utilisation courants documentés** - [&#x200B; sur Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=fr)
+- **Cas d’utilisation courants documentés** - [sur Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
-- **Forum de la communauté** - Pour des interactions de la communauté spécifiques à une session sur Experience League, rendez-vous sur le [forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=fr).
+- **Forum de la communauté** - Pour plus d’interactions de la communauté sur Experience League spécifiques à une session, consultez le [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> Les fonctionnalités affichées dans cette session sont disponibles dans les versions suivantes d’AEM Guides :
-> - On-premise 4.2 ou version ultérieure
-> - Cloud Service 2309 et versions ultérieures
+> Les fonctionnalités présentées dans cette session sont disponibles dans les versions d’AEM Guides suivantes :
+> - On-prem 4.2 ou version ultérieure
+> - Cloud Services 2309 et versions ultérieures
 
-## Prochaine session d&#39;experts
+## Prochaine session d’experts
 
-- **Topic** - Guides Extension Framework
-- **Planifié le** - 02 novembre 2023
+- **Rubrique** - Framework d’extension Guides
+- **Planifié le** - 2 novembre 2023
 
-## Contactez-nous
+## Nous contacter
 
-Pour toute requête, envoyez-nous un email à l’adresse <techcomm@adobe.com>
+Pour toute question, envoyez-nous un e-mail à <techcomm@adobe.com>

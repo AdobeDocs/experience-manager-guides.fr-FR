@@ -1,18 +1,23 @@
 ---
-title: Migration de contenu de non-uuid vers UUID
-description: AEM Guides, migrer du contenu non uuid vers uuid
-source-git-commit: b8afb4c3a8c99d16a317751b3efd91adbb03f58d
+title: Migrer le contenu non-uuid vers UUID
+description: AEM Guides, migration du contenu non uuid vers uuid
+exl-id: d5489fb4-ca3e-4057-a811-2c4ea79b5960
+TQID: https://experienceleague.adobe.com/Hn61B4sorbwERrFcNNqCIxOfQvu2ViV5rma-pZl-bII
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: 288
 ht-degree: 2%
 
 ---
 
-# Migration de contenu de non-uuid vers UUID
+# Migrer le contenu non-uuid vers UUID
 
-Série de sessions, dans laquelle nous avons auparavant donné un aperçu des options de déploiement (hors cloud et cloud) et des variations d’application (non UUID, UUID) disponibles pour AEM Guides.
-Nous avons décrit les étapes de migration du contenu d’AEM Guides on-prem/AMS (UUID) vers AEM Guides sur AEMaaCS.
-Au cours de cette session, nous expliquerons les étapes de migration du contenu d’AEM Guides non UUID vers la configuration UID.
+Une série de sessions au cours de laquelle nous avons précédemment donné un aperçu des options de déploiement (non cloud et cloud) et des variantes d’applications (non UUID, UUID) disponibles pour AEM Guides.
+Nous avons abordé les étapes de migration du contenu d’AEM Guides on-prem/AMS (UUID) vers AEM Guides sur AEMaaCS.
+Au cours de cette session, nous allons expliquer les étapes de migration du contenu non UUID d’AEM Guides vers la configuration UUID.
 
 
 ## Enregistrement de session
@@ -31,13 +36,13 @@ Au cours de cette session, nous expliquerons les étapes de migration du contenu
 ## Principaux points à retenir
 
 Au cours de cette session, nous avons donné un aperçu des éléments suivants :
-- Avantages du passage à la variante UID
+- Avantages du passage à la variante UUID
 
-Étapes à suivre pour passer d’un uuid à un autre
+Étapes pour passer de non-uuid à uuid
 - Conditions préalables : préparation à la migration vers uuid
-- Procédure d’exécution d’une migration non UUID vers UUID - documentation
-- Dépannage lors de la migration du contenu
-- Etapes de post-migration et validation
+- Procédure d’exécution de la migration d’un non-uuid vers un uuid - Documentation
+- Résolution des problèmes lors de la migration du contenu
+- Étapes de post-migration et validation
 - Documentation et ressources disponibles
 
 
@@ -46,22 +51,22 @@ Au cours de cette session, nous avons donné un aperçu des éléments suivants 
 
 ### Documentation
 
-- [Migration de contenu d&#39;un UUID non utilisé vers un UUID](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
-- [AEM Guides : déplacez le contenu UID d’on-premise/AMS vers le cloud](../../cs-install-guide/migrate-on-premise-content-cloud.md)
-- [&#x200B; Déplacement vers AEM Cloud](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
+- [Migration de contenu d’un non-UUID vers l’UUID](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
+- [AEM Guides : déplacer le contenu UUID d’On-premise/AMS vers le cloud](../../cs-install-guide/migrate-on-premise-content-cloud.md)
+- [Transition vers AEM Cloud](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides : migration de contenu non uuid vers le cloud](../../install-guide/migrate-uuid-non-uuid.md)
 
-### Forum communautaire
+### Forum de la communauté
 
-- Pour obtenir des interactions de communauté spécifiques à une session sur Experience League, consultez le [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=fr).
+- Pour plus d’interactions de la communauté Experience League spécifiques à une session, rendez-vous sur [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 
 >[!NOTE]
 >
-> Les détails fournis dans la session portaient uniquement sur la migration du contenu de la configuration AEM Guides non UUID sur un non-cloud (on-prem ou AMS) vers la configuration UID (on-prem ou AMS).
+> Les détails donnés dans la session portaient uniquement sur la migration du contenu de la configuration non-UUID d’AEM Guides sur le cloud (on-prem ou AMS) vers la configuration UUID (on-prem ou AMS)
 
 
 
-## Contactez-nous
+## Nous contacter
 
-Pour toute requête, envoyez-nous un email à l’adresse <techcomm@adobe.com>
+Pour toute question, envoyez-nous un e-mail à <techcomm@adobe.com>

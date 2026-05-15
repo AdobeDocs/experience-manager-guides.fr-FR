@@ -4,9 +4,14 @@ description: Connaître l’utilisation des paramètres prédéfinis de conditio
 exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+TQID: https://experienceleague.adobe.com/IKcIREoHuXjW-uUDFS6ifRhjzzUoKCXPMW5ip2OKBZU
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: 1154
 ht-degree: 2%
 
 ---
@@ -58,7 +63,7 @@ Vous pouvez créer un paramètre prédéfini de condition pour les rubriques en 
 1. Sélectionnez **Supprimer** dans la barre d’actions située en haut pour supprimer les attributs sélectionnés dans le panneau de droite.
 1. (Facultatif) Si nécessaire, vous pouvez remplacer l’action appliquée aux attributs.
 
-   Effectuez l’une des opérations suivantes :
+   Utilisez l’une des méthodes suivantes :
 Pour un attribut, sélectionnez l’une des actions suivantes dans le menu déroulant Action ou dans la barre d’outils.
 
    - Inclure
@@ -122,7 +127,7 @@ Pour créer un paramètre prédéfini de condition, procédez comme suit :
    - Inclure
    - Exclure
    - Passthrough
-   - Drapeau
+   - Marquer
 L’action est définie comme action par défaut pour tous les attributs, qu’ils soient ajoutés ou non au paramètre prédéfini de condition.
 
    Par exemple, votre document contient 15 attributs de condition et vous en avez inclus quatre dans le paramètre prédéfini de condition. Si vous sélectionnez **exclure** comme action par défaut, elle est appliquée aux 15 attributs.
@@ -169,4 +174,4 @@ Vous pouvez supprimer un ou plusieurs paramètres prédéfinis de condition dans
 1. Sélectionnez le bouton **Supprimer**.
 1. Sélectionnez **Supprimer** pour confirmer l’action.
 
-**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)
+**Rubrique parente :**[ Génération de sortie](generate-output.md)

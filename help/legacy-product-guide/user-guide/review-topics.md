@@ -5,9 +5,12 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/q07HdBMHuEyjdQ12idI4-PuBol-NpCWXTsOuZgcAhps
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: 2362
 ht-degree: 0%
 
 ---
@@ -250,4 +253,4 @@ Sélectionnez une ou plusieurs des options de filtrage suivantes dans la boîte 
 
 Pour supprimer le filtre et afficher tous les commentaires, désélectionnez tous les filtres de la boîte de dialogue **Type de filtre** et cliquez sur **Appliquer**.
 
-**Rubrique parente :**&#x200B;[&#x200B; consulter des rubriques ou des cartes](review.md)
+**Rubrique parente :**[ consulter des rubriques ou des cartes](review.md)

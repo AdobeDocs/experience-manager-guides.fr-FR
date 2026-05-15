@@ -3,9 +3,13 @@ title: Installation et configuration
 description: Installation et utilisation du package d’extension AEM Guides
 role: User, Admin
 exl-id: 0304c8d0-35a8-4712-a9af-36557e3b247f
-source-git-commit: b4d6c1c8c2d413bb4137e58391554abf2fb68b8c
+TQID: https://experienceleague.adobe.com/ngU5TVcI7yva051ZscfGCfBb6vEbtG4cvjoOgplqmoA
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: 362
 ht-degree: 1%
 
 ---
@@ -14,7 +18,7 @@ ht-degree: 1%
 
 Les extensions vous donnent la possibilité de personnaliser votre application AEM Guides pour mieux répondre à vos besoins. Ce framework d’extension est pris en charge avec AEM Guides v4.3 et versions ultérieures (on-prem) et 2310 (cloud).
 
-## Conditions requises
+## Exigences
 
 Ce package nécessite [git bash](https://github.com/git-guides/install-git) et npm
 
@@ -52,7 +56,7 @@ npx @adobe/create-guides-extension
 ![Structure de dossiers](./../imgs/crxde_folder_structure.png)
 
 - Dans la `properties` du nœud, sélectionnez `Multi` ajoutez la propriété suivante :
-Nom : `categories`
+Nom : `categories`
 Type : `String []`
 Valeur : `apps.fmdita.review_overrides`, `apps.fmdita.xml_editor.page_overrides`
 
@@ -61,7 +65,7 @@ Valeur : `apps.fmdita.review_overrides`, `apps.fmdita.xml_editor.page_overrides`
 > Pour l’avant-dernière interface utilisateur, les valeurs sont les suivantes : `apps.fmdita.penultimate.xml_editor.page_overrides` et `apps.fmdita.review_overrides`
 
 
-![&#x200B; Propriétés du dossier &#x200B;](./../imgs/crxde_folder_properties.png)
+![ Propriétés du dossier ](./../imgs/crxde_folder_properties.png)
 
 - Pour ajouter les fichiers js créés, créez un fichier, par exemple, `tcx1.js` dans le nœud créé ci-dessus. Ici, ajoutez le code provenant de l’adresse `dist/guides-extension.umd.cjs` ou `dist/guides-extension.js`. Créez maintenant un nouveau fichier `js.txt`, ici nous ajoutons le nom de notre fichier js, qui dans ce cas serait :
 
@@ -83,5 +87,5 @@ tcx1.css
 
 Vérifiez que toutes les étapes ci-dessus ont été effectuées correctement.
 Après avoir ajouté votre code au fichier tcx.js, veillez à effectuer une actualisation complète (maj+actualisation).
-Ouvrez maintenant AEM, effectuez un clic droit, puis cliquez sur `Inspect`
+Ouvrez maintenant AEM, faites un clic droit et cliquez `Inspect`
 Accédez à Sources et recherchez votre fichier `[node_name].js` (par exemple : extensions.js). Effectuez un Ctrl/Cmd + D pour rechercher votre fichier. Si le fichier `.js` existe avec le code JS que vous avez collé à partir de `dist/guides-extension.umd.cjs` ou `dist/guides-extension.js`, votre configuration est terminée

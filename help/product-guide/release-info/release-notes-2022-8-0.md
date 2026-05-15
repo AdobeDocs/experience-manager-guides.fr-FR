@@ -4,10 +4,16 @@ description: Version d’août d’Adobe Experience Manager Guides as a Cloud Se
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/ozowf4-i02AJDe40hzWHjuqYZ0Q-eIG3nnPpI9mvBqI
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 0%
+source-wordcount: 1176
+ht-degree: 1%
 
 ---
 
@@ -37,7 +43,7 @@ Cette section répertorie la matrice de compatibilité pour les applications log
 
 | Version d’AEM Guides as a Cloud | Fenêtres du connecteur d&#39;oxygène | Mac du connecteur d&#39;oxygène |
 | --- | --- | --- |
-| 2022.8.0 | 2,7,5 | 2,7,5 |
+| 2022.8.0 | 2.7.5 | 2.7.5 |
 |  |  |  |
 
 
@@ -97,8 +103,8 @@ Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 * Node.js mis à jour n’est pas utilisé pour la publication. (9835)
 * La rubrique DITA n&#39;est pas mise à jour automatiquement avec les modifications effectuées sur la page **Propriétés**. (8745)
 * L&#39;élément FrontMATTER ajouté à un bookmap DITA ne fonctionne pas correctement. (9507)
-* PDF natif | Un PDF vierge est généré lors de l’utilisation de **Génération rapide** pour plusieurs fichiers lorsqu’un élément vide est sélectionné. (9822)
-* PDF natif | L’annexe est publiée sous la forme d’un chapitre dans la sortie PDF. (9829)
+* Native PDF | Un PDF vide est généré lors de l’utilisation de **Génération rapide** pour plusieurs fichiers lorsqu’un élément vide est sélectionné. (9822)
+* PDF natif | L’annexe est publiée sous forme de chapitre dans la sortie PDF. (9829)
 * PDF natif | Lorsqu’une image SVG est modifiée, elle n’est pas affichée mise à jour dans la mise en page. (9069)
 * Un trait d&#39;union normal est inséré lorsqu&#39;un caractère `Nonbreaking Hyphen` est inséré à l&#39;aide de la boîte de dialogue **Insérer un caractère spécial**. (8919)
 * L’éditeur XML n’affiche pas les images mises à jour dans les rubriques si elles ont été modifiées. (9500)

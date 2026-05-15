@@ -5,9 +5,15 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/By8tpSe4XkfhYsfCbJMhlGqyi3asQfJa2QqlLF6zKDQ
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b0521e56-a0b2-40b6-bf47-ebc98751f9baid: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: e13e7f13-0f4c-43f9-b0a7-1f33bd47e105id: e557051c-ff02-4ff8-9421-cf452af0edd5id: f7774ebe-aec9-42b6-97e4-5002acdc712eid: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '5239'
+source-wordcount: 5239
 ht-degree: 0%
 
 ---
@@ -415,7 +421,7 @@ Pour Experience Manager Guides as a Cloud Service (![](assets/aem-cloud-icon.svg
 
 L’assistant AI d’Adobe Experience Manager Guides est un puissant outil piloté par l’IA conçu pour améliorer votre contenu grâce à des expériences de création et de réutilisation de contenu intelligentes. Il associe deux puissantes fonctionnalités d’IA (**Création** et **Aide**) à l’interface de Experience Manager Guides, ce qui vous permet de créer des documents et d’accéder aux informations plus rapidement et plus efficacement.
 
-Pour plus d’informations sur la configuration, voir [&#x200B; Configuration de l’assistant AI &#x200B;](./conf-smart-suggestions.md).
+Pour plus d’informations sur la configuration, voir [ Configuration de l’assistant AI ](./conf-smart-suggestions.md).
 
 **Configurer des suggestions intelligentes optimisées par l’IA**
 
@@ -423,7 +429,7 @@ Vous pouvez configurer les suggestions intelligentes optimisées par l’IA et a
 
 Effectuez les étapes suivantes pour configurer la configuration d’IA standard au niveau du profil global ou du dossier :
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur ou utilisateur disposant de droits d’administration sur un profil au niveau du dossier.
-1. Sélectionnez le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
+1. Sélectionnez le lien **** en haut et choisissez **Outils**.
 1. Sélectionnez **Guides** dans la liste des outils, puis sélectionnez la mosaïque **Profils de dossier**.
 1. Sélectionnez la mosaïque de profil à configurer.
 
@@ -499,7 +505,7 @@ Pour que les suggestions intelligentes fonctionnent efficacement, tenez compte d
 
 Pour Experience Manager Guides as a Cloud Service (![](assets/aem-cloud-icon.svg) cloud AEM).
 
-Vous pouvez configurer l’aide intelligente optimisée par l’IA **Aide** pour aider les auteurs à poser des questions et à rechercher facilement le contenu requis à partir de la documentation de [Experience Manager Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/overview).
+Vous pouvez configurer l’aide intelligente optimisée par l’IA **Aide** pour aider les auteurs à poser des questions et à rechercher facilement le contenu requis à partir de la documentation de [Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 L’onglet **Configuration de l’éditeur XML** vous permet de configurer les questions par défaut du panneau **Aide**.
 
@@ -510,7 +516,7 @@ L’onglet **Configuration de l’éditeur XML** vous permet de configurer les q
 Pour configurer les questions par défaut, procédez comme suit :
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur ou utilisateur disposant de droits d’administration sur un profil au niveau du dossier.
-1. Sélectionnez le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
+1. Sélectionnez le lien **** en haut et choisissez **Outils**.
 1. Sélectionnez **Guides** dans la liste des outils, puis sélectionnez la mosaïque **Profils de dossier**.
 1. Sélectionnez la mosaïque de profil à configurer.
 
@@ -551,7 +557,7 @@ Par défaut, l&#39;éditeur XML est fourni avec de nombreuses fonctions pour aid
 
 Ce paramètre vous permet de créer des extensions JSON qui reflètent les modifications apportées au fichier `ui_config.json`. Vous pouvez charger ces extensions indépendamment au niveau du profil du dossier, offrant ainsi une flexibilité et une personnalisation améliorées. Par exemple, lorsque vous apportez des modifications à la configuration de l’éditeur **XML**, comme la mise à jour d’un bouton, le système identifie automatiquement les différences. En chargeant ces modifications dans la **Configuration de l’interface utilisateur de l’éditeur XML** et en les convertissant en extensions JSON à l’aide du bouton **Convertir la configuration de l’interface utilisateur en JSON**, le système génère une extension qui incorpore la nouvelle fonctionnalité.
 
-En savoir plus sur [la personnalisation des configurations JSON et la conversion des configurations de l’interface utilisateur pour le nouvel éditeur AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+En savoir plus sur [la personnalisation des configurations JSON et la conversion des configurations de l’interface utilisateur pour le nouvel éditeur AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >

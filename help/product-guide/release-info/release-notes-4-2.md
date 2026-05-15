@@ -4,10 +4,16 @@ description: Découvrez les correctifs et comment effectuer une mise à niveau v
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/NYtiFRSNt197F9PWTh8q-CyhpZz4F8pSFIQgph0twKk
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 1%
+source-wordcount: 1409
+ht-degree: 5%
 
 ---
 
@@ -77,7 +83,7 @@ Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 * `<conref>` note à l’intérieur d’une balise para ne s’affiche pas en mode aperçu. (10559)
 * Appuyer sur la touche Retour arrière à la fin d’un élément de liste supprime la liste entière. (10540)
 * Dans Chrome v106, l’écran s’affiche comme vide lorsque vous effectuez un glisser-déposer d’un élément de l’interface utilisateur (depuis le panneau Conditions, par exemple). (10524)
-* Le bouton Retrait automatique est absent de la barre d&#39;outils dans la vue **Source**. (10448)
+* Le bouton Retrait automatique est absent de la barre d&#39;outils dans la vue ****. (10448)
 * Le premier caractère d’un élément de liste est parfois perdu lorsque la liste est en cours de création dans l’éditeur.( 10447)
 * Les options **Annuler** ou **Rétablir** ne fonctionnent pas correctement sur certains fichiers. (10373)
 * Les métadonnées personnalisées ne sont pas conservées lors de l’action de copier-coller. (10367)
@@ -105,9 +111,9 @@ Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 
 * La copie d&#39;une ressource de plan DITA (à partir de l&#39;interface utilisateur des ressources ) entraîne des références erronées dans la ressource copiée. (11218)
 * Un message d&#39;avertissement ne s&#39;affiche pas lors du téléchargement d&#39;un fichier dont la taille est supérieure à la limite autorisée dans AEM (2 Go par défaut). (10817)
-* Ligne de base de l’éditeur web | Le comportement de la dernière colonne est différent dans le nouveau tableau de bord de ligne de base de l’éditeur web. (10808)
-* Traduction | La tâche de traduction ne démarre pas en raison d’une /libs/fmdita/i18n/ja.json non valide. (10543)
-* Traduction | Une erreur se produit dans un projet de traduction de la portée créé à partir du tableau de bord de traduction (traduction humaine). (10526)
+* Ligne de base de l’éditeur web | Le comportement de la colonne Dernière est différent dans le nouveau tableau de bord de ligne de base de l’éditeur web. (10808)
+* La tâche de traduction | Traduction ne démarre pas en raison d’une /libs/fmdita/i18n/ja.json non valide. (10543)
+* Traduction | Une erreur se produit dans un projet de traduction de portée créé à partir du tableau de bord de traduction (traduction humaine). (10526)
 * Traduction | Le post-traitement est bloqué pour l’ensemble du dossier de langue dont les ressources sont présentes dans un projet de traduction actif. (10332)
 * Traduction| Les métadonnées et les balises ne sont pas propagées aux copies traduites. (4696)
 * Plusieurs pop-ups s’affichent pour une ressource si la version est modifiée et enregistrée dans l’éditeur Ligne de base. (10399)
@@ -119,21 +125,21 @@ Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 * La régénération de rubrique ne fonctionne pas pour certains scénarios. (10635)
 * La publication PDF échoue lors de la génération de la sortie d’un paramètre prédéfini en double (d’un paramètre prédéfini existant). (10584)
 * Le bouton Afficher le journal ne fonctionne pas si la génération PDF échoue pour un préréglage. (10576)
-* Publishlistener n&#39;affiche pas les données demandées dans les journaux d&#39;informations et contient également certains journaux indésirables.( 10567)
-* PDF natif | La génération du PDF échoue avec une exception de pointeur nul. (10950)
-* PDF natif | conkeyref n’est pas résolu dans la sortie générée. (10564)
-* PDF natif | Des problèmes se produisent avec les métadonnées d’un mappage qui doit être référencé dans la sortie PDF.( 10556)
-* PDF natif | Des problèmes surviennent lors de la rotation de l’en-tête du tableau. (10555)
-* PDF natif | Des problèmes se produisent lors de la suppression des rubriques ayant un rôle de traitement=&#39;resource-only&#39;. (10554)
-* PDF natif | Les KeyRefs vides s’affichent dans la sortie PDF. (10553)
+* Publishlistener n&#39;affiche pas les données demandées dans les journaux d&#39;informations et contient également des journaux inutiles.( 10567)
+* La génération native de PDF | PDF échoue avec une exception de pointeur nul. (10950)
+* Native PDF | conkeyref n’est pas résolu dans la sortie générée. (10564)
+* Native PDF | Des problèmes se produisent avec les métadonnées d’un mappage qui doit être référencé dans la sortie PDF.( 10556)
+* Native PDF | Des problèmes se produisent lors de la rotation de l’en-tête du tableau. (10555)
+* Native PDF | Des problèmes se produisent lors de la suppression des rubriques ayant le rôle de traitement=&#39;resource-only&#39;. (10554)
+* PDF natif | Les clés vides sont affichées dans la sortie PDF. (10553)
 * PDF natif | Les `<indexterm>` imbriqués ne sont pas imbriqués dans l’exportation PDF native. (10521)
-* PDF natif | Le PDF natif utilise un style intraligne au lieu du nom de classe pour les balises générées. (10498)
-* PDF natif | Les rubriques imbriquées dans les annexes sont toutes transformées en h1 dans l’HTML temporaire.( 10454)
-* PDF natif | Impossible de masquer les sujets de première ligne de la table des matières. (10355)
+* Native PDF | Native PDF utilise un style intégré au lieu du nom de classe pour les balises générées. (10498)
+* Native PDF | Les rubriques imbriquées dans les annexes sont toutes transformées en h1 dans l’HTML temporaire.( 10454)
+* Native PDF | Impossible de masquer les rubriques de front-office de la table des matières. (10355)
 * PDF natif | Attribut de cadre de table non propagé à l’HTML temporaire (en tant que classe). (10353)
-* PDF natif | Les fichiers HTML temporaires ajoutent les classes colsep et rowsep à . <td> et <th> même si leur valeur est 0 dans la DITA source. (10352)
+* Native PDF | Fichiers HTML temporaires ajoutez les classes colsep et rowsep à . <td> et <th> même si leur valeur est 0 dans la DITA source. (10352)
 * PDF natif | Le redémarrage des numéros de page dans la disposition des chapitres lance la numérotation de manière aléatoire à partir de la fin du chapitre précédent. (10154)
-* PDF natif | Les références clés des jeux de clés avec une image ou des liens externes ne sont pas résolues. (10063)
+* PDF natif | Les références clés pour les keydefs avec image ou liens externes ne sont pas résolues. (10063)
 * PDF natif | L’annexe s’affiche sous la forme d’un chapitre dans le PDF généré. (9829)
 * L’onglet Modèle dans l’éditeur xml n’est pas affiché pour les administrateurs de profil de dossier. (10266)
 * La publication de référence échoue pour PDF généré à l’aide de FrameMaker Publishing Server 2020. (10551)

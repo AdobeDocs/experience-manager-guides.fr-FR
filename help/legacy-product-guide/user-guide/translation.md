@@ -1,32 +1,36 @@
 ---
-title: Learn how to translate content
-description: Translate your content into multiple languages in AEM Guides. Learn about the human and machine translation workflows.
+title: Découvrir comment traduire le contenu
+description: Traduisez votre contenu dans plusieurs langues dans AEM Guides. Découvrez les workflows de traduction humaine et automatique.
 feature: Translation
 role: User
 hide: true
 exl-id: ca9c6150-adc5-4c0c-94c1-802d59db9079
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/VYmBGK-U9AYKBhoL6IgSrCmh7JuBGqBZhXRMqcjfh8o
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: 135
 ht-degree: 1%
 
 ---
 
 # Traduction du contenu {#id1645H700L67}
 
-AEM Guides comes with powerful capabilities that enable you to translate your content into multiple languages. Both, human and machine translation workflows are supported by AEM Guides.
+AEM Guides s’accompagne de puissantes fonctionnalités qui vous permettent de traduire votre contenu dans plusieurs langues. Les workflows de traduction humaine et automatique sont pris en charge par AEM Guides.
 
-- **Human translation** - Assets are sent to your translation provider and translated by professional translators. When complete, the translated assets are returned and they are then imported back into AEM.
+- **Traduction humaine** - Assets est envoyé à votre fournisseur de traduction et traduit par des traducteurs professionnels. Une fois l’opération terminée, les ressources traduites sont renvoyées, puis elles sont réimportées dans AEM.
 
-- **Machine translation** - This is the default service in AEM wherein the content is immediately translates using the machine translation in real time. Out-of-the-box AEM provides the capability to connect to Microsoft Translator.
+- **Traduction automatique** - Il s’agit du service par défaut d’AEM où le contenu est immédiatement traduit à l’aide de la traduction automatique en temps réel. AEM prêt à l’emploi permet de se connecter à Microsoft Translator.
 
   >[!NOTE]
   >
-  > Microsoft Translator is available only as a trial license.
+  > Microsoft Translator est disponible uniquement en tant que licence d’évaluation.
 
 
-- **[Best practices for content translation](translation-first-time.md)**
+- **[Bonnes pratiques relatives à la traduction de contenu](translation-first-time.md)**
 
-- **[View translation status](translation-view-trans-state-6234.md)**
+- **[Afficher le statut de la traduction](translation-view-trans-state-6234.md)**
 
-- **[Translate modified topics](translation-modified-topics-6234.md)**
+- **[Traduire les rubriques modifiées](translation-modified-topics-6234.md)**

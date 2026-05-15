@@ -1,10 +1,16 @@
 ---
 title: Notes de mise à jour | Correction de problèmes dans Adobe Experience Manager Guides, version 2025.08.0
 description: Découvrez les correctifs de la version 2025.08.0 d’Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 5abe5c153d8cedc7b555d6ca82709557cc38d28f
+exl-id: 05fe0e2c-ec65-4aec-a543-9b9a75c82f2c
+TQID: https://experienceleague.adobe.com/7J25vfpTwwPyT3-qNF6-LLbPra8EePs5XaKqkAjEk5I
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 3%
+source-wordcount: 713
+ht-degree: 7%
 
 ---
 
@@ -21,7 +27,7 @@ Découvrez les [instructions de mise à niveau pour la version 2025.08.0](upgrad
 - Les fichiers **CSS** et **Mise en page** dans les modèles PDF natifs présentent un comportement de verrouillage de fichier incohérent, ce qui permet d’apporter des modifications même lorsque les fichiers sont verrouillés. (GUIDES-26688)
 - L’actualisation de la page après l’ajout de boutons personnalisés au panneau de gauche crée des onglets en double. (GUIDES-30899)
 - Lorsque du contenu XML contenant des crochets angulaires (tel que &lt;/ ou />) est ajouté dans un élément `code block` dans une rubrique, l’élément de bloc de code apparaît vide dans la sortie finale. (GUIDES-31007)
-- Les valeurs des variables globales `canCheckIn` et `canCheckOut` ne sont pas correctement définies lorsqu’un fichier est extrait et archivé à partir de la barre d’outils de l’éditeur.(GUIDES-29890)
+- Les valeurs des variables globales `canCheckIn` et `canCheckOut` ne sont pas correctement définies lorsqu&#39;un fichier est extrait et archivé à partir de la barre d&#39;outils de l&#39;éditeur.(GUIDES-29890)
 - Lors de l&#39;ouverture d&#39;un plan DITA avec Unified Shell activé, l&#39;éditeur s&#39;actualise par intermittence.(GUIDES-26919)
 - Lorsqu&#39;un plan DITA est sélectionné dans la vue Carte, le nombre de sélections est d&#39;abord affiché de manière incorrecte car les nœuds enfants du plan ne sont pas sélectionnés. Le nombre correct de sélections et l’inclusion de tous les nœuds enfants ne sont reflétés que lors de la sélection suivante. (GUIDES-25663)
 - Les fichiers Markdown ne sont pas récupérés lors d’une recherche dans le panneau Référentiel à l’aide du filtre **Rubrique DITA**. En outre, les fonctions **Rechercher et remplacer** ne fonctionnent pas pour les fichiers Markdown et le contenu associé. (GUIDES-27133)
@@ -29,7 +35,7 @@ Découvrez les [instructions de mise à niveau pour la version 2025.08.0](upgrad
 
 ## Gestion des ressources numériques
 
-- La copie d’un dossier contenant un grand nombre de ressources à partir de l’interface utilisateur d’Assets entraîne un délai d’expiration de l’API. L’opération continue de s’exécuter sur le serveur principal et se termine au bout d’un certain temps, mais aucun message de réussite ou d’échec, ou de notification n’est affiché dans l’interface utilisateur. (GUIDES-30900)
+- La copie d’un dossier contenant un grand nombre de ressources à partir de l’interface utilisateur d’Assets entraîne un délai d’expiration de l’API. L’opération continue de s’exécuter sur le serveur principal et se termine au bout d’un certain temps, mais aucun message de réussite ou d’échec, ni aucune notification n’est affiché dans l’UI. (GUIDES-30900)
 - L’opération de copier-coller effectuée sur un dossier dans l’interface utilisateur d’Assets échoue en raison d’erreurs de post-traitement. (GUIDES-30840)
 - L’opération de copier-coller échoue pour les dossiers contenant des ressources composites (ressources avec sous-ressources) dans l’interface utilisateur d’Assets. (28107)
 - Les dossiers contenant un grand nombre de ressources ne se chargent pas correctement dans le référentiel. (GUIDES-32500)
@@ -57,6 +63,3 @@ Adobe a identifié les problèmes connus suivants pour la version 2025.08.0 :
 - Lorsqu’un fichier ouvert dans l’éditeur est renommé ou déplacé, le passage d’un mode à l’autre (**Auteur**, **Aperçu**, etc.) met à jour le contenu de la zone d’édition, mais ne met pas visuellement en surbrillance le mode actif dans le coin inférieur droit. (GUIDES-32719) <br> **Solution** : actualisez la page pour résoudre le problème.
 - Les images dont les noms de fichier contiennent des espaces ne s’affichent pas dans la sortie lorsqu’elles sont marquées à l’aide d’attributs conditionnels. (GUIDES-33858)
 - Dans le panneau **Propriétés du contenu**, le champ Attributs se ferme automatiquement lorsque vous essayez de mettre à jour une référence à partir de la boîte de dialogue **Mettre à jour le lien**, empêchant ainsi la mise à jour du lien. (GUIDES-17767)
-
-
-

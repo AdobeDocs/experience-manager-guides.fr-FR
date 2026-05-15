@@ -4,9 +4,15 @@ description: Découvrez comment créer un paramètre prédéfini HTML5 à partir
 exl-id: b54bf3a0-7a13-41a0-ae72-cdf2caf8d974
 feature: Publishing
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/dROF3A00CUBtjf-J6c7U9Bp7i1XbZh3Nhu3HNGCx-B0
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: 1560
 ht-degree: 0%
 
 ---
@@ -90,7 +96,7 @@ Par exemple, **Chemin de sortie/Chemin de destination** - Ici, **Chemin de sorti
 | --- | --- |
 | Type de sortie (*applicable uniquement au tableau de bord des cartes*) | Type de sortie que vous souhaitez générer. Pour générer une sortie HTML5, choisissez l’option HTML5 . |
 | Nom du paramètre (*applicable uniquement au tableau de bord de carte*) | Attribuez un nom explicite aux paramètres de sortie HTML5 que vous êtes en train de créer. Par exemple, vous pouvez spécifier _sortie des clients internes_ ou _sortie des utilisateurs finaux_. |
-| Générer en responsive design avec (*Applicable uniquement au tableau de bord des cartes*) | Sélectionnez **DITA-OT** pour générer la sortie HTML5. Sélectionnez **&#x200B;**&#x200B;si votre administrateur a configuré cette option. Certaines des options de configuration varient lorsque FMPS est sélectionné. |
+| Générer en responsive design avec (*Applicable uniquement au tableau de bord des cartes*) | Sélectionnez **DITA-OT** pour générer la sortie HTML5. Sélectionnez **** si votre administrateur a configuré cette option. Certaines des options de configuration varient lorsque FMPS est sélectionné. |
 | Chemin de sortie/chemin de destination | Chemin d’accès dans votre référentiel AEM où est stockée la sortie HTML5. Le chemin de sortie est défini via la variable `${base_output_path}`, qui est configurée par l’administrateur. Pour configurer le chemin de sortie, affichez [Configurer l’emplacement de sortie de base pour les services cloud](../native-pdf/configure-base-location-cs.md) ou [Configurer l’emplacement de sortie de base pour les services On-prem](../native-pdf/configure-base-output-location.md) en fonction du service que vous utilisez. |
 | Arguments de ligne de commande DITA-OT | Spécifiez les arguments supplémentaires que DITA-OT doit traiter lors de la génération de la sortie. <br><br> REMARQUE : à compter de la version 2502 de Experience Manager Guides, le paramètre `generate.copy.outer` n’est plus géré en interne. Cette modification signifie que si votre contenu HTML5 se trouve en dehors du répertoire map, vous devez définir explicitement le paramètre `-Dgenerate.copy.outer=3` dans le champ **Arguments de ligne de commande DITA-OT**. Cela permet de s’assurer que le contenu est correctement traité et inclus dans votre sortie. Pour plus d&#39;informations sur la gestion du contenu en dehors du répertoire map, consultez la [documentation DITA-OT](https://www.dita-ot.org/dev/parameters/generate-copy-outer#:~:text=The%20generate.,located%20outside%20the%20map%20directory/). |
 | Nom du fichier | Indiquez le nom du fichier avec lequel vous souhaitez enregistrer la sortie HTML5.<br><br>**Remarque** : si vous ne fournissez pas de nom de fichier, le titre du plan DITA est utilisé pour générer le nom de fichier de sortie HTML5 final. Si le mappage n&#39;a pas de titre, le nom de fichier du mappage DITA est utilisé pour désigner la sortie HTML5 finale. Le nom du fichier est assaini à l’aide des règles configurées dans le système pour gérer tout caractère non valide. |
@@ -108,4 +114,4 @@ Par exemple, **Chemin de sortie/Chemin de destination** - Ici, **Chemin de sorti
 
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)
+**Rubrique parente :**[ Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)

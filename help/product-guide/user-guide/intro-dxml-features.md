@@ -4,16 +4,22 @@ description: Découvrez les principales fonctionnalités de Experience Manager G
 exl-id: 978d7027-08da-40f7-ae9e-bb4d559a84dc
 feature: Introduction
 role: User
-source-git-commit: afa77e42eec4ea900efff14f1ae5f79464591505
+TQID: https://experienceleague.adobe.com/qfne-WSiweRnvK-cGU8A9IJ0xh2yJ9pBHNWcRzDrBe8
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: 1116
 ht-degree: 0%
 
 ---
 
 # Fonctionnalités clés d’Adobe Experience Manager Guides {#id167G9I060SI}
 
-**Création et gestion de contenu puissantes DITA**
+**Puissant outil de création et de gestion de contenu DITA**
 Améliorez considérablement la productivité de la création grâce à une source unique d’informations modulaires optimisées pour une réutilisation efficace à un niveau granulaire \(modules, composants, mots, graphiques, multimédia et traductions\).
 
 L&#39;éditeur Web intégré vous permet de créer et de gérer facilement et efficacement des rubriques, des cartes et des fichiers DITA. L’éditeur intégré possède une interface de traitement de texte simple et intuitive, qui permet aux experts, aux contributeurs occasionnels et aux réviseurs qui ne sont pas formés à l’utilisation de DITA d’y accéder facilement. Avec la fonctionnalité d&#39;insertion d&#39;élément intelligente, vous n&#39;avez pas à vous soucier de placer un élément à l&#39;emplacement correct. Un élément est toujours inséré à l’emplacement valide suivant disponible.
@@ -38,17 +44,17 @@ Experience Manager Guides offre des fonctionnalités de révision web à la fois
 
 Chaque document de votre gestion des ressources numériques (DAM) obtient désormais un statut de document . Ce statut du document vous permet d’identifier le statut du processus de documentation du document. En tant qu’administrateur du système, vous pouvez définir les états du document, les états de début et de fin par défaut, ainsi que la transition d’état du document pour vos documents.
 
-**Gestion de la traduction et assistance à la localisation de pointe**
+**Gestion de la traduction et prise en charge de la localisation de pointe**
 Bénéficiez d’économies significatives en termes de temps et de coûts de traduction et assurez-vous que le contenu publié est exempt d’erreurs de traduction.
 
 Adobe Experience Manager est fourni avec des connecteurs intégrés pour les principaux fournisseurs de services de traduction. Utilisez ces connecteurs pour gérer le contenu spécifique aux paramètres régionaux. Utilisez pleinement les rapports de traduction prêts à l’emploi détaillés pour identifier le contenu non traduit avant de le publier et prenez les mesures correctives appropriées. Vous pouvez gérer le statut du contenu traduit par rapport aux mises à jour de la langue principale afin d&#39;effectuer la traduction uniquement pour les fichiers DITA mis à jour. L’identification manuelle longue des fichiers à envoyer pour traduction n’est pas nécessaire.
 
-**Meilleure publication multicanal de sa catégorie de contenu DITA**
+**Publication multicanal de contenu DITA de premier plan**
 Rationalisez la publication de contenu d’entreprise grâce à une approche transparente et unique qui accélère le délai de mise sur le marché.
 
 Avec la prise en charge native de DITA ajoutée à Experience Manager, générez une sortie pour Experience Manager Sites, PDF, HTML5, EPUBS ou une sortie personnalisée via DITA-OT. Vous pouvez tirer parti de cette sortie entièrement configurable pour offrir aux utilisateurs finaux des expériences de contenu hautement personnalisées, pertinentes et immersives. Vous pouvez également facilement effectuer une génération par lots ou utiliser la ligne de base pour publier une version spécifique de votre documentation.
 
-**Données complètes d’utilisation de la recherche et du contenu**
+**Recherche complète et données d’utilisation du contenu**
 Trouvez et sélectionnez plus rapidement du contenu pertinent, maximisant le retour sur investissement du contenu à chaque réutilisation. Effectuez des recherches de base et avancées à l’aide d’attributs de contenu et de métadonnées de rubrique dans l’ensemble du référentiel via une interface simple dans l’outil de création DITA. Les résultats sont balisés avec des données d’utilisation du contenu afin de vous aider à identifier et sélectionner facilement le contenu approprié pour une réutilisation optimale.
 
 **Rapports détaillés sur la préparation à la publication**
@@ -57,7 +63,7 @@ Trouvez et sélectionnez plus rapidement du contenu pertinent, maximisant le ret
 **Prise en charge étendue de la gestion des balises pour une sortie personnalisée**\
 Stimulez l’engagement des utilisateurs finaux et l’adoption de contenu grâce à des expériences de contenu hautement pertinentes. Avec Experience Manager Guides, vous pouvez tirer parti de la prise en charge étendue de la gestion des balises dans Experience Manager pour appliquer les balises appropriées au contenu source DITA. Utilisez ces balises pour offrir aux utilisateurs finaux des expériences de contenu hautement personnalisées.
 
-**Aide et création intelligentes optimisées par GenAI**
+Aide et création intelligentes optimisées par **GenAI**
 Améliorez votre productivité grâce à l’aide intelligente optimisée par l’IA et aux fonctionnalités de réutilisation du contenu de Experience Manager Guides. Utilisez l’aide intelligente basée sur GenAI pour rechercher rapidement du contenu pertinent dans la documentation de Experience Manager Guides. Utilisez les suggestions intelligentes pour réutiliser le contenu du référentiel de contenu existant ou améliorer la productivité avec des fonctionnalités d’amélioration du contenu, telles que la conversion intelligente d’un paragraphe en liste, la création d’une brève description, l’amélioration et la traduction du contenu sélectionné.
 
 **Tirez parti de l’intégration native à Adobe Workfront pour des fonctionnalités de gestion du travail robustes**
@@ -72,11 +78,11 @@ Grâce au connecteur AEM de FrameMaker, vous pouvez gérer vos fichiers FrameMak
 
 ## Ressources supplémentaires
 
-Voici une liste d’autres ressources utiles de Experience Manager Guides, disponibles sur la page [En savoir plus et assistance](https://helpx.adobe.com/fr/support/xml-documentation-for-experience-manager.html) :
+Voici une liste d’autres ressources utiles de Experience Manager Guides, disponibles sur la page [En savoir plus et assistance](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) :
 
 * Guide de l’utilisateur
 * Guide de référence des API
 * Guide de démarrage rapide
-* [Page d’aide* sur l’archivage](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html) (accédez à la documentation des versions antérieures)
+* [Page d’aide* sur l’archivage](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) (accédez à la documentation des versions antérieures)
 
-**Rubrique parente :**&#x200B;[&#x200B;À propos d’Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**Rubrique parente :**[&#x200B;À propos d’Adobe Experience Manager Guides as a Cloud Service](intro.md)

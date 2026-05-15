@@ -4,9 +4,14 @@ description: Découvrez comment modifier des rubriques dans l’éditeur. Conna�
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
+TQID: https://experienceleague.adobe.com/Ln0JE2F8klsmIZJqtpy3Idi3VHdh1U900sfMrD0xpEU
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: 1409
 ht-degree: 0%
 
 ---
@@ -111,13 +116,13 @@ Experience Manager Guides fournit l’indicateur de copie de travail qui indique
 
 Cette vue affiche le rendu du contenu dans le nouvel éditeur.
 
-![&#x200B; indicateur de copie de travail &#x200B;](images/working-copy-text-update-indicator-new-editor-2-0.png){width="550"}
+![ indicateur de copie de travail ](images/working-copy-text-update-indicator-new-editor-2-0.png){width="550"}
 
 >[!TAB Ancien éditeur]
 
 Cette vue affiche le rendu du contenu dans l’ancien éditeur.
 
-![&#x200B; indicateur de copie de travail &#x200B;](images/working-copy-text-update-indicator.png){width="550"}
+![ indicateur de copie de travail ](images/working-copy-text-update-indicator.png){width="550"}
 
 >[!ENDTABS]
 
@@ -131,11 +136,11 @@ Experience Manager Guides indique également si la dernière copie \(working\) e
 
 >[!TAB Nouvel éditeur]
 
-![&#x200B; Indicateur de mise à jour de version &#x200B;](images/version-update-indicator-editor-2-0.png){width="650"}
+![ Indicateur de mise à jour de version ](images/version-update-indicator-editor-2-0.png){width="650"}
 
 >[!TAB Ancien éditeur]
 
-![&#x200B; Indicateur de mise à jour de version &#x200B;](images/version-update-indicator.png){width="650"}
+![ Indicateur de mise à jour de version ](images/version-update-indicator.png){width="650"}
 
 
 >[!ENDTABS]
@@ -180,4 +185,4 @@ Vous pouvez désactiver la fonction de recherche du fichier à l’aide de l’o
 >
 >À partir de la version 2025.11.0, le paramètre **Toujours localiser les fichiers dans le référentiel** est renommé **Toujours localiser les fichiers dans l’explorateur**. Pour la configuration On-Premise, elle reste disponible comme Toujours localiser les fichiers dans le référentiel jusqu’à la version 5.1 de Experience Manager Guides.
 
-**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur](web-editor.md)
+**Rubrique parente :**[ Utiliser l’éditeur](web-editor.md)

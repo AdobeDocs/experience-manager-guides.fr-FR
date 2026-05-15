@@ -4,9 +4,13 @@ description: Création d’un paramètre prédéfini PDF dans la formation et l�
 feature: Authoring
 role: User
 exl-id: c353cee7-eee1-4e6d-92b4-73016cb8cfa3
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/1TIeYMDtiXqk37gTw-q1TW90l8w-qu6Zuexjb-B0Kkk
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: 110
 ht-degree: 1%
 
 ---
@@ -20,7 +24,7 @@ Pour créer un paramètre prédéfini de sortie PDF, procédez comme suit :
    ![](assets/open-in-map-console.png){width="350"}
 
 1. Dans le panneau **Paramètres prédéfinis de sortie**, sélectionnez l’icône + pour créer un paramètre prédéfini de sortie.
-1. Sélectionnez **&#x200B;**&#x200B;dans la liste déroulante **Type** de la boîte de dialogue Nouveau paramètre prédéfini de sortie.
+1. Sélectionnez **** dans la liste déroulante **Type** de la boîte de dialogue Nouveau paramètre prédéfini de sortie.
 1. Dans le champ **Nom**, attribuez un nom à ce paramètre prédéfini.
 1. Dans le champ **Générer le PDF à l’aide de**, sélectionnez **PDF natif**.
 1. Sélectionnez l’option **Ajouter au profil du dossier actuel** pour créer un paramètre prédéfini de sortie dans le profil du dossier actuel.

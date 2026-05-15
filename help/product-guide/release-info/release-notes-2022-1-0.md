@@ -4,10 +4,16 @@ description: Version de janvier de [!DNL Adobe Experience Manager Guides] as a C
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 feature: Release Notes
 role: Leader
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+TQID: https://experienceleague.adobe.com/-ddCfI97I7XJ-OuoritVp7KRCRst5veYuu3oSQWZw9Y
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2440'
-ht-degree: 0%
+source-wordcount: 2463
+ht-degree: 3%
 
 ---
 
@@ -70,7 +76,7 @@ De nombreuses améliorations et nouvelles fonctionnalités ont été introduites
 * Ajout d’une fonctionnalité d’actualisation dans le panneau Contenu réutilisable qui vous permet d’actualiser rapidement le contenu réutilisable dans les fichiers de référence.
 * Le nouvel indicateur de copie de travail vous indique si votre copie de travail actuelle du fichier est synchronisée avec la version enregistrée ou non.
 
-![&#x200B; Indicateur de version &#x200B;](assets/version-update-indicator.png)
+![ Indicateur de version ](assets/version-update-indicator.png)
 
 * Le filtre de recherche dans le panneau Référentiel et la boîte de dialogue de navigation des fichiers a été amélioré pour offrir davantage d’options de filtrage, qui peuvent être davantage personnalisées.
 
@@ -95,7 +101,7 @@ Un nouveau tableau de bord de traduction a été introduit dans l’éditeur web
 * Ajout d’un mécanisme de traduction multilingue pour éviter de créer plusieurs projets pour chaque langue lorsque la demande de traduction est lancée pour plusieurs langues.
 * Ajout d’une configuration pour masquer l’onglet Traduction dans le tableau de bord de mappage. Par défaut, il est visible. Vous pouvez choisir de traduire le contenu à l’aide du tableau de bord des cartes ou de l’éditeur web.
 
-![&#x200B; Tableau de bord de traduction &#x200B;](assets/translation-from-web-editor.png)
+![ Tableau de bord de traduction ](assets/translation-from-web-editor.png)
 
 ### Publication améliorée
 
@@ -173,11 +179,11 @@ Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 * Apparence par défaut incorrecte de uicontrol dans menucascade. (5483)
 * Les modèles personnalisés pour Rubrique/Carte n’affichent pas le nouveau nom dans l’interface utilisateur. Il affiche le nom sous la forme « Topic »/« Map » au lieu du nom configuré. (4958)
 * Possibilité d’effacer la feuille de route des paramètres des préférences utilisateur. (8534)
-* Une nouvelle collection de mappages n’est pas répertoriée, même après actualisation de la page.(8603)
+* Une nouvelle collection de cartes n&#39;est pas répertoriée, même après actualisation de la page.(8603)
 * Impossible de fermer la rubrique déverrouillée. (8545)
-* Le passage entre les modes source et auteur marque la rubrique comme sale et nécessite que le contenu soit à nouveau enregistré.(8524)
+* Le passage entre les modes source et auteur marque le sujet comme sale et nécessite que le contenu soit à nouveau enregistré.(8524)
 * Le panneau Réutiliser le contenu se bloque lors de la recherche de caractères spéciaux `[` ou `*` .(8279)
-* Le curseur ne s’affiche pas dans la barre de recherche lorsque la boîte de dialogue Insérer un élément est ouverte à l’aide du raccourci clavier Alt + Entrée.(7912)
+* Le curseur ne s&#39;affiche pas dans la barre de recherche lorsque la boîte de dialogue Insérer un élément est ouverte à l&#39;aide du raccourci clavier Alt+Entrée.(7912)
 * L’option de recherche effectue uniquement une recherche dans les noms de fichier et non dans le contenu. (7784)
 
 

@@ -3,9 +3,13 @@ title: JSON exposés
 description: Liste des fichiers JSON exposés
 role: User, Admin
 exl-id: 7ad86795-d26b-464a-94f6-ffaf3376b252
-source-git-commit: 0af09be192bf3ead5e34c39c42282fa7556fbe9a
+TQID: https://experienceleague.adobe.com/Pj3XGB5Vj4jfDL-FyautZrebugbAcooLs29dMQ9-BXw
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: 377
 ht-degree: 0%
 
 ---
@@ -62,11 +66,11 @@ Vérifier l’application :
 
   Modifiez l’aspect et la fonctionnalité de la zone de commentaire sur la page de révision.
 
-- [`comment_response`](./jsons/review_app/comment_reply.json)
+- [`comment_reply`](./jsons/review_app/comment_reply.json)
 
   Personnalisez la section de réponse des commentaires dans l’interface utilisateur de révision.
 
-- [`comment_new_response`](./jsons/review_app/comment_new_reply.json)
+- [`comment_new_reply`](./jsons/review_app/comment_new_reply.json)
 
   Personnalisez la zone de texte pour créer de nouvelles réponses aux commentaires existants.
 
@@ -90,7 +94,7 @@ Vérifier l’application :
 
 Boîtes de dialogue :
 
-- [`save_review`](./jsons/dialogs/save_revision.json)
+- [`save_revision`](./jsons/dialogs/save_revision.json)
 
   Gérez la boîte de dialogue « Enregistrer la révision », qui affiche la dernière version du fichier et permet de la mettre à jour lors de l’enregistrement.
 
@@ -130,6 +134,6 @@ Barres d’outils :
 
   Gérer la barre de navigation sur la page d’accueil de l’interface utilisateur des guides, y compris les boutons de profil de dossier et de section de présentation.
 
-- [`mode_fichier_sélecteur`](./jsons/toolbars/file_mode_switcher.json)
+- [`file_mode_switcher`](./jsons/toolbars/file_mode_switcher.json)
 
   Personnalisez le sélecteur de mode pour sélectionner les modes d’application (par exemple, Auteur, Source, Prévisualisation) au bas de chaque fichier ouvert.

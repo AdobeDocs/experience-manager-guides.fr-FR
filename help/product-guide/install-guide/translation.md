@@ -5,9 +5,15 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/z-F7BZkijY3MNcgHYJvw3ZxqCRldK0qWAdGoClTWNYo
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: 1088
 ht-degree: 13%
 
 ---
@@ -23,17 +29,17 @@ Automatisez la traduction du contenu des pages, des ressources et du contenu cr�
 
 La traduction du contenu implique les étapes suivantes :
 
-1. Connectez AEM à votre [fournisseur de services de traduction](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) et créez des [configurations de structure d’intégration de traduction](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
+1. Connectez AEM à votre [fournisseur de services de traduction](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) et créez des [configurations de structure d’intégration de traduction](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
 
-1. Associez les pages de votre gabarit de langue au [service de traduction et aux configurations de structure](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
+1. Associez les pages de votre gabarit de langue au [service de traduction et aux configurations de structure](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
 
 1. Identifiez le type de [contenu à traduire](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-rules.html?lang=fr).
 
-1. [Préparez le contenu à traduire](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/tc-prep.html) en créant le gabarit de langue et les pages racine des copies de langue.
+1. [Préparez le contenu à traduire](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html) en créant le gabarit de langue et les pages racine des copies de langue.
 
 1. Créez des [projets de traduction](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=fr) pour collecter le contenu à traduire et préparer le processus de traduction.
 
-1. Utilisez les projets de traduction pour [gérer le processus de traduction &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=fr) contenu.
+1. Utilisez les projets de traduction pour [gérer le processus de traduction ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=fr) contenu.
 
 
 Lorsque votre fournisseur de services de traduction ne fournit pas de connecteur pour l’intégration à AEM, AEM prend en charge l’exportation et l’importation manuelles du contenu traduit au format XML.
@@ -88,7 +94,7 @@ En fonction du workflow de traduction utilisé dans votre configuration, l’opt
 
    >[!NOTE]
    >
-   > Si vous utilisez le connecteur de traduction, assurez-vous d’avoir configuré le connecteur comme décrit dans la rubrique *[Configuration de la structure d’intégration de traduction &#x200B;](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/tc-tic.html)* de la documentation AEM.
+   > Si vous utilisez le connecteur de traduction, assurez-vous d’avoir configuré le connecteur comme décrit dans la rubrique *[Configuration de la structure d’intégration de traduction ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* de la documentation AEM.
 
 1. Cliquez sur **Enregistrer**.
 

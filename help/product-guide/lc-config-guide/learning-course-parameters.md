@@ -4,9 +4,15 @@ description: En savoir plus sur les mesures clés SCORM pour la progression des 
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: 0dff380131dadc971f257eb464700392328164e5
+exl-id: f25cbbbd-5d9f-47b0-9260-8062e026913d
+TQID: https://experienceleague.adobe.com/ZyY9sjaqGANXlUI5l3OsP-i1Pu-es-B-iGnpPJjQYrY
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: 281
 ht-degree: 1%
 
 ---
@@ -20,8 +26,8 @@ Cet article répertorie les paramètres clés capturés dans un package SCORM, a
 | **Statut d’achèvement du cours** | Indique si le cours est terminé ou non | cmi.completion_status | incomplet |
 | **Nombre de tentatives** | Nombre de tentatives effectuées par l’élève | Compteur/contenu de tentative côté LMS | Tentatives : 1 |
 | **Emplacement du package SCORM** | Signet ou emplacement actuel dans le cours | cmi.location | - |
-| **Progression terminée** | Learner&#39;s progress | cmi.progress_measure | 0,87 |
-| **Durée totale (tentative)** | Temps total passé dans la tentative actuelle | cmi.total_time | 0000:01:09,87 |
+| **Progression terminée** | Learner&#39;s progress | cmi.progress_measurement | 0,87 |
+| **Durée totale (tentative)** | Temps total passé dans la tentative actuelle | cmi.total_time | 0000:01:09.87 |
 | **Visibilité de la table des matières et nombre de rubriques** | Affiche la visibilité de la table des matières et les détails d&#39;achèvement de la rubrique | Project.HideTOC, Project.TotalTopics, Project.TopicsCompleted | - |
 | **Par statut de topic** | Statut d’achèvement et de réussite pour chaque rubrique | État personnalisé par leçon | - |
 | **Par état de choix de question** | Effectue le suivi des choix sélectionnés de l’élève par question | value, generate_id, vérifié. | - |

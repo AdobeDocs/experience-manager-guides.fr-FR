@@ -4,10 +4,16 @@ description: Version de février d’Adobe Experience Manager Guides as a Cloud 
 exl-id: c639b136-11ed-4a8b-a595-4bb5da879747
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/KtMCjANUmaT-PaKIJltf0G72WaHR0JV94HyutN9DyFY
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 1%
+source-wordcount: 877
+ht-degree: 4%
 
 ---
 
@@ -29,10 +35,10 @@ Mettez à niveau votre configuration AEM Guides as a Cloud Service actuelle en p
 Effectuez les étapes suivantes pour indexer le contenu existant et utiliser le nouveau texte de recherche et de remplacement au niveau du mappage :
 
 * Exécutez une requête POST au serveur (avec l’authentification correcte) - `http://<server:port>/bin/guides/map-find/indexing`.
-(Facultatif) Vous pouvez transmettre des chemins spécifiques des mappages pour les indexer. Par défaut, tous les mappages sont indexés || Exemple : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+(Facultatif : vous pouvez transmettre des chemins spécifiques des mappages pour les indexer. Par défaut, tous les mappages sont indexés || Exemple : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
-* L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée : `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(Par exemple : http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
+* L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+(Par exemple : http://&lt;_localhost:8080_/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
 * Une fois la tâche terminée, la requête GET ci-dessus répond avec succès et mentionne si des mappages ont échoué. Les mappages indexés avec succès peuvent être confirmés à partir des journaux du serveur.
 
@@ -80,9 +86,9 @@ Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 
 * La copie d&#39;une ressource de plan DITA (à partir de l&#39;interface utilisateur des ressources ) entraîne des références erronées dans la ressource copiée. (11218)
 * Un message d&#39;avertissement ne s&#39;affiche pas lors du téléchargement d&#39;un fichier dont la taille est supérieure à la limite autorisée dans AEM (2 Go par défaut). (10817)
-* Ligne de base de l’éditeur web | Le comportement de la dernière colonne est différent dans le nouveau tableau de bord de ligne de base de l’éditeur web. (10808)
-* Traduction | La tâche de traduction ne démarre pas en raison d’une /libs/fmdita/i18n/ja.json non valide. (10543)
-* Traduction | Une erreur se produit dans un projet de traduction de la portée créé à partir du tableau de bord de traduction (traduction humaine). (10526)
+* Ligne de base de l’éditeur web | Le comportement de la colonne Dernière est différent dans le nouveau tableau de bord de ligne de base de l’éditeur web. (10808)
+* La tâche de traduction | Traduction ne démarre pas en raison d’une /libs/fmdita/i18n/ja.json non valide. (10543)
+* Traduction | Une erreur se produit dans un projet de traduction de portée créé à partir du tableau de bord de traduction (traduction humaine). (10526)
 * Traduction | Le post-traitement est bloqué pour l’ensemble du dossier de langue dont les ressources sont présentes dans un projet de traduction actif. (10332)
 * Plusieurs pop-ups s’affichent pour une ressource si la version est modifiée et enregistrée dans l’éditeur Ligne de base. (10399)
 * La fuite de session se produit à `com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210)`. (10279)
@@ -90,13 +96,13 @@ Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 ### Publication
 
 * La régénération de rubrique ne fonctionne pas pour certains scénarios. (10635)
-* Publishlistener n&#39;affiche pas les données demandées dans les journaux d&#39;informations et contient également certains journaux indésirables.( 10567)
-* PDF natif | Lors de la création d’un paramètre prédéfini de sortie avec l’option « Ajouter au profil de dossier », la génération PDF échoue avec une exception de pointeur Null. (10950)
-* PDF natif | Des problèmes surviennent lors de la rotation de l’en-tête du tableau. (10555)
+* Publishlistener n&#39;affiche pas les données demandées dans les journaux d&#39;informations et contient également des journaux inutiles.( 10567)
+* PDF natif | Lors de la création d’un préréglage de sortie avec l’option « Ajouter au profil de dossier », la génération PDF échoue avec une exception de pointeur Null. (10950)
+* Native PDF | Des problèmes se produisent lors de la rotation de l’en-tête du tableau. (10555)
 * PDF natif | Les `<indexterm>` imbriqués ne sont pas imbriqués dans l’exportation PDF native. (10521)
-* PDF natif | Les rubriques imbriquées dans les annexes sont toutes transformées en h1 dans l’HTML temporaire. (10454)
+* Native PDF | Les rubriques imbriquées dans les annexes sont toutes transformées en h1 dans l’HTML temporaire. (10454)
 * La publication de référence échoue pour PDF généré à l’aide de FrameMaker Publishing Server 2020. (10551)
 * PDF natif | L’ajout de `xref` à une image n’effectue pas le rendu de l’image sur le PDF généré. (11346)
-* PDF natif | La balise d’image ajoute un attribut display-inline à toutes les images. (10653)
-* PDF natif | Les commentaires de brouillon sont masqués par défaut dans la sortie générée. (10560)
-* PDF natif | navtitle n’est pas honoré pour topichead. (10509)
+* La balise Native PDF | Image ajoute un attribut display-inline à toutes les images. (10653)
+* PDF natif | Les commentaires Brouillon sont masqués par défaut dans la sortie générée. (10560)
+* Native PDF | navtitle n’est pas honoré pour topichead. (10509)

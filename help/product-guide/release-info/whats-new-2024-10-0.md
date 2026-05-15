@@ -3,9 +3,15 @@ title: Notes de mise à jour | Nouveautés de la version Adobe Experience Manage
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 2024.10.0 d’Adobe Experience Manager Guides
 role: Leader
 exl-id: 13135928-f0fe-4147-83ac-8b06ca241ed7
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/PFM-i4fVsgpBUJy4BeOpvyY4GWxGS8F24jEGb0Y2oiI
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: 1026
 ht-degree: 1%
 
 ---
@@ -77,9 +83,9 @@ Si la même rubrique est référencée plusieurs fois dans un fichier, vous pouv
 
 ![Paramètre prédéfini AEM Sites hérité](assets/aem-sites-legacy.png)
 
-*Spécifiez le contexte de publication des rubriques liées à partir de l’onglet **Références de mappage croisé**&#x200B;du préréglage **AEM Sites**.*
+*Spécifiez le contexte de publication des rubriques liées à partir de l’onglet **Références de mappage croisé**du préréglage **AEM Sites**.*
 
-En savoir plus sur les [paramètres prédéfinis &#x200B;](../user-guide/generate-output-aem-site.md).
+En savoir plus sur les [paramètres prédéfinis ](../user-guide/generate-output-aem-site.md).
 
 ### Option permettant de choisir une hiérarchie de fichiers plate ou imbriquée pour la sortie HTML5
 

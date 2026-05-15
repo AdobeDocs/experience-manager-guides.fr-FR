@@ -2,13 +2,18 @@
 title: Notes de mise à jour | Correction de problèmes dans Adobe Experience Manager Guides 5.0.0 Service Pack 1
 description: Découvrez les correctifs de bugs dans la version 5.0.0 Service Pack 1 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 083a8e16b9d3cd6c3894d7eaa2fee489b1dc0bb8
+exl-id: 1d0bc3d0-aedf-4f67-b6f7-2208facdee96
+TQID: https://experienceleague.adobe.com/0qxye7ZUWt1iixHthjjTNJgtlOQX-C30jGi5zQlRJfA
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: 288
 ht-degree: 2%
 
 ---
-
 
 # Correction de problèmes dans la version 5.0.0 Service Pack 1 (juin 2025)
 
@@ -20,7 +25,7 @@ Découvrez les [instructions de mise à niveau pour la version 5.0.0 du pack de 
 ## Création
 
 - Lorsque du contenu est collé dans une `codeblock` ou lorsque des espaces sont ajoutés dans la `codeblock` et que la vue est changée, l’espacement est perdu. (GUIDES-29347)
-- Lorsqu&#39;un commentaire XML est ajouté dans un élément de la vue **Source**, les espaces de début et de fin autour du commentaire sont perdus lors du changement de vue. (GUIDES- 28188)
+- Lorsqu&#39;un commentaire XML est ajouté dans un élément de la vue ****, les espaces de début et de fin autour du commentaire sont perdus lors du changement de vue. (GUIDES- 28188)
 
 ## Gestion des ressources
 

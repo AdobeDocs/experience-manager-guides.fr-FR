@@ -4,9 +4,14 @@ description: Comprendre les paramètres prédéfinis de sortie dans AEM Guides. 
 exl-id: 8eaf0765-8b66-47d6-9c40-888495baa711
 feature: Publishing
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+TQID: https://experienceleague.adobe.com/Xk9Myma-9ggDsAPu3ICz6Od-SaxvnR6iGvfR9NmmUEw
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086
+subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: 223
 ht-degree: 1%
 
 ---
@@ -34,7 +39,7 @@ Les options de paramètre prédéfini suivantes sont disponibles pour les format
 
 - **[HTML5](generate-output-html5.md)**
 
-- **[EPUB](generate-output-epub.md)**
+- **[](generate-output-epub.md)**
 
 - **[Personnalisé](generate-output-custom.md)**
 
@@ -42,4 +47,4 @@ Les options de paramètre prédéfini suivantes sont disponibles pour les format
 
 En tant qu’administrateur, Experience Manager Guides vous permet de créer et de gérer des paramètres prédéfinis de sortie pour les profils globaux et de dossiers. Pour plus d’informations, consultez [Gestion des paramètres prédéfinis de sortie de profil global et de dossier](./web-editor-manage-output-presets.md).
 
-**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)
+**Rubrique parente :**[ Génération de sortie](generate-output.md)

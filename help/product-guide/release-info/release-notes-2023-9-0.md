@@ -4,10 +4,16 @@ description: Découvrez les correctifs et comment effectuer la mise à niveau ve
 exl-id: 795b86a0-e763-404a-a4bb-35d3d2a42672
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/CoWG1c1gE-wPrI90-qp0QJu-oOE4pDLcY6bIEN2QQpE
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: cda0baeb-996e-4aaa-92d1-41032e34fd68id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 0%
+source-wordcount: 1492
+ht-degree: 3%
 
 ---
 
@@ -78,7 +84,7 @@ as a Cloud Service, pour créer le fichier de configuration.
 
 1. Exécutez une requête POST au serveur (avec l’authentification correcte) - `http://<server:port>//bin/guides/reports/upgrade`.
 
-1. L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée : `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
 (Par exemple : `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 1. Une fois le traitement terminé, la requête GET précédente répond avec succès. Si le traitement échoue pour une raison quelconque, l’échec est visible dans les journaux du serveur.
@@ -162,16 +168,16 @@ Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 - La publication échoue lors du changement du nom d’un paramètre prédéfini de PDF natif. (12564)
 - La duplication d’un modèle PDF natif duplique l’emplacement du modèle par défaut au lieu de l’emplacement du modèle personnalisé fourni. (12563)
 
-- PDF natif | L’inclusion de plusieurs xréfs étend le texte au-delà de la largeur de colonne. (13004)
-- PDF natif | Lorsque la rubrique et le titre ont le même ID, cela entraîne une génération incorrecte de la sortie PDF. (12644)
-- PDF natif | Lors de l&#39;ajout d&#39;une classe outputclass à un élément `<topicref>` parent dans un plan DITA et de l&#39;application d&#39;un style personnalisé à la classe outputclass, le style est appliqué aux éléments du corps de la rubrique, y compris les titres de section.(12166)
+- Native PDF | Inclure plusieurs xréfs étend le texte au-delà de la largeur de la colonne. (13004)
+- Native PDF | Lorsque la rubrique et le titre ont le même identifiant, cela entraîne une génération incorrecte de la sortie PDF. (12644)
+- PDF natif | Lors de l&#39;ajout d&#39;une classe outputclass à un élément `<topicref>` parent dans un plan DITA et de l&#39;application d&#39;un style personnalisé à la classe outputclass, le style est appliqué aux éléments dans le corps du sujet, y compris les titres de section.(12166)
 - La publication incrémentielle ne fonctionne pas si un plan DITA comporte plusieurs variables DITA. (12117)
-- Site AEM | Lors de la création d’une carte avec keydef pointant vers un topic en tant que variable et en ajoutant processing-role=resource-only, certaines pages sont inattendues. (12099)
+- Site AEM | Lors de la création d’une carte avec keydef pointant vers un sujet en tant que variable et l’ajout de processing-role=resource-only crée des pages inattendues. (12099)
 - Si des ressources de la gestion des ressources numériques d’AEM sont utilisées dans une sortie autre que le site AEM, alors le « jcr :createdBy » des métadonnées ne reflète pas le nom de l’éditeur ou de l’utilisateur qui a effectué la dernière modification du plan ou de la rubrique DITA. (12090)
-- AEM Sites | Un plan DITA avec topichead dans le titre de la navigation (avec des caractères non pris en charge) génère des URL de page incorrectes. (11978)
-- PDF natif | Des problèmes se produisent à l’appui de topichead / topicmeta / navtitle dans FrontMATTER et BackMATTER. (11969)
-- PDF natif | La génération de PDF pour les documents volumineux prend du temps. (11955)
-- PDF natif | Le changement de nom d’un préréglage renvoie une exception NullPointerException lors de la génération d’une sortie PDF. (11889)
+- AEM Sites | Plan DITA avec topichead dans le titre de la navigation (avec des caractères non pris en charge) génère des URL de page incorrectes. (11978)
+- Native PDF | Des problèmes se produisent pour la prise en charge de topichead / topicmeta / navtitle dans FrontMATTER et BackMATTER. (11969)
+- Native PDF | La génération de PDF pour les documents volumineux prend du temps. (11955)
+- Native PDF | Le changement de nom d’un préréglage renvoie une exception NullPointerException lors de la génération d’une sortie PDF. (11889)
 - Le contenu `<conref>` ne s’affiche pas dans la sortie PDF. (11131)
 - Un espace supplémentaire est ajouté dans les éléments `<div>` lors du basculement entre la vue Auteur et Source dans l’éditeur de mise en page. (10750)
 - Le contenu répliqué sur AEM Cloud Manager n’est pas visible sur l’instance de publication. (9564)

@@ -3,9 +3,12 @@ title: Menus contextuels
 description: Personnalisation des menus contextuels
 role: User, Admin
 exl-id: 25aa76dd-ef05-41ed-b980-14bbc1626059
-source-git-commit: 492f72768e0de74a91eb7acc9db8264e21bfc810
+TQID: https://experienceleague.adobe.com/TJyqos515-hGMn2S0fG4Nqs-kKz2MDF7cM40PSuZFMY
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: 154
 ht-degree: 1%
 
 ---
@@ -19,9 +22,9 @@ contrôleurs :
    - Vue Carte : `ditamap_viewer_controller`
    - Panneau Référentiel : `repository_panel_controller`
    - Panneau Favoris : `collection_tree_controller`
-   - Liens de référence de propriétés de fichier : `file_references_links_controller`
-   - Panneau de recherche du référentiel : `repository_search_controller`
-   - Objet Schéma Panneau : `subject_scheme_tree_controller`
+   - Liens de référence des propriétés du fichier : `file_references_links_controller`
+   - Panneau de recherche de référentiel : `repository_search_controller`
+   - Panel du schéma d&#39;objet : `subject_scheme_tree_controller`
 
 - `folder_options`
 contrôleurs :
@@ -46,7 +49,7 @@ contrôleurs :
 
 Vous pouvez également créer votre propre menu contextuel en définissant un nouvel identifiant unique.
 
-Désormais, un `controller id` est associé à chaque menu contextuel. Ce contrôleur gère la fonctionnalité `on-event` pour les différentes options de menu contextuel.
+Désormais, chaque menu contextuel est associé à un `controller id`. Ce contrôleur gère la fonctionnalité `on-event` pour les différentes options du menu contextuel
 
 Prenons un exemple pour comprendre
 
@@ -129,9 +132,9 @@ const fileOptions = {
 }
 ```
 
-Maintenant, comprenons ce que ce code fait.
+Maintenant, comprenons ce que fait ce code.
 
 1. `id` est utilisé pour identifier le menu contextuel que nous voulons personnaliser.
 2. `contextMenuWidget` est utilisé pour définir le `widget id` ou le `component` qui appelle le menu contextuel et gère le `events`.
 
-Le reste reste identique, où `view` est utilisé pour définir les éléments, `target` identifie l’emplacement où remplacer, ajouter ou ajouter en préfixe l’option et le contrôleur `contextMenuWidget` gère les événements `on-click`.
+Le reste reste reste le même, où `view` est utilisé pour définir les éléments, `target` identifie où remplacer, ajouter ou ajouter l’option et le contrôleur de `contextMenuWidget` gère les événements `on-click`.
