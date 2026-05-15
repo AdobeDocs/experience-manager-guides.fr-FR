@@ -5,9 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: a4623088-a867-4079-80d6-20866c99683e
-source-git-commit: e4031aa4309a2c02ffb3a678586643f2a8bdc44b
+source-git-commit: 18a4473776955700003c2381494dd5325120ea89
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1616'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Pour activer la publication de Experience Manager Guides vers EDS (Beta), vous d
 2. [Créer et configurer un profil de publication pour EDS (Beta) dans Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
 3. [Personnaliser la sortie à l’aide de blocs EDS](#customize-output-using-eds-blocks)
 
-Pour une présentation vidéo rapide, reportez-vous à la section [Publication dans AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
+Pour une présentation vidéo rapide, reportez-vous à la section [Publication dans AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
 
 
 
@@ -38,7 +38,7 @@ EDS (Beta) nécessite un référentiel GitHub avec une structure prédéfinie. A
 
 Pour créer votre référentiel, procédez comme suit :
 
-1. Ouvrez le [`aem-guides-boilerplate`](https://github.com/adobe/aem-guides-boilerplate) de référentiel de modèles standard Experience Manager Guides .
+1. Ouvrez le référentiel de modèles standard Experience Manager Guides [aem-guides-boilerplate](https://github.com/adobe/aem-guides-boilerplate).
    ![](assets/eds-boilerplate-template.png)
 
 2. Créez un référentiel à l’aide de ce modèle. En savoir plus sur la [création d’un référentiel à partir d’un modèle](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template). Assurez-vous que la visibilité du référentiel est définie sur *Public* afin qu’il soit accessible par EDS.
@@ -55,7 +55,7 @@ Adobe Experience Manager utilise une application GitHub appelée **Synchronisati
 
 Pour installer et configurer l’application *AEM Code Sync*, procédez comme suit :
 
-1. Accédez à la page [Synchronisation du code &#x200B;](https://github.com/apps/aem-code-sync) et sélectionnez **Installer**.
+1. Accédez à la page [Synchronisation du code ](https://github.com/apps/aem-code-sync) et sélectionnez **Installer**.
 2. *La synchronisation du code* surveille les modifications du référentiel et s’assure que les mises à jour sont correctement transmises à GitHub.
 
    >[!NOTE]
@@ -90,6 +90,7 @@ Vous êtes redirigé vers la page de configuration GitHub, confirmant l’enregi
      Exemple d&#39;URL (format) : `https://<aem-author-url>/libs/fmdita/clientlibs/xmleditor/page.html`
 
      Exemple d’URL : `https://author-p16602-e335172-cmstg.adobeaemcloud.com/libs/fmdita/clientlibs/xmleditor/page.html`
+
    - **URL de rappel** : identique à l’URL de la page d’accueil.
    - **URL Webhook** : désactivez cette option.
    - **Autorisations de référentiel** : définissez **autorisations de lecture et d’écriture** pour les *actions, administration et attestation*.
@@ -111,10 +112,13 @@ Pour créer une application OAuth, procédez comme suit :
 3. Sélectionnez **Nouvelle application OAuth**.
 
    ![](assets/eds-new-oauth-app.png){width="650"}
+
 4. Enregistrez votre application en fournissant les informations obligatoires suivantes :
+
    - **Nom de l’application** : saisissez le nom de votre référentiel EDS
    - **URL de la page d’accueil** : saisissez l’URL de l’instance Experience Manager Guides. (Pour obtenir un exemple de format d’URL, reportez-vous à l’étape 4 de la section [Création d’une application GitHub](#create-a-new-github-app)).
    - **URL de rappel d’autorisation** : identique à l’URL de la page d’accueil
+
 5. Sélectionnez l’option **Activer le flux d’appareils** puis sélectionnez **Enregistrer l’application** pour terminer l’enregistrement.
 
    ![](assets/eds-new-github-app-register.png){width="650"}
@@ -131,6 +135,7 @@ EDS (Beta) lit le contenu à partir d’un chemin de référentiel GitHub défin
 Pour configurer l’URL du point de montage dans le fichier `fstab.yaml` :
 
 1. Ouvrez le fichier `fstab.yaml` dans votre référentiel et mettez à jour les éléments suivants :
+
    - `your-user-name`
    - `your-repo-name`
 
@@ -139,13 +144,16 @@ Pour configurer l’URL du point de montage dans le fichier `fstab.yaml` :
    > Dans l’URL du point de montage, `main` indique la branche sur laquelle vous souhaitez publier le contenu et `docs` indique le dossier racine du référentiel EDS (Beta) sur lequel vous travaillez. Si vous préférez modifier le nom de la branche sur GitHub, vous devez mettre à jour le même nom de branche dans l’URL *point de montage* (dans le fichier `fstab.yaml`) et le profil de publication EDS correspondant dans Experience Manager Guides.
 
    ![](assets/eds-fstab-yaml-file.png){width="650"}
+
 2. Sélectionnez **Valider les modifications**, saisissez les détails de validation, puis confirmez.
 3. Revenez à [Paramètres du développeur](https://github.com/settings/apps), recherchez votre application, puis sélectionnez **Modifier**.
 
    ![](assets/eds-edit-github-app.png){width="650"}
+
 4. Accédez à la page **Installer l’application** et sélectionnez **Installer**.
 
    ![](assets/eds-install-eds-app.png){width="650"}
+
 5. Répétez les étapes 2 et 3 de la section [Connexion de GitHub à Adobe via la synchronisation de code AEM](#connect-github-to-adobe-via-aem-code-sync) pour autoriser le référentiel.
 
 ## Créer et configurer un profil de publication pour EDS (Beta) dans Experience Manager
@@ -156,6 +164,7 @@ Les sections ci-dessous décrivent chaque étape dans l’ordre et expliquent co
 
 1. Accédez à **[Paramètres](/help/product-guide/cs-install-guide/workspace-settings.md)** **>** **Publier des profils**.
 2. Sélectionnez l’icône **+** pour créer un profil de publication et fournissez les détails suivants :
+
    - **Type de serveur** : sélectionnez **GitHub Edge Delivery Services (Beta)** dans la liste déroulante.
    - **Nom** : saisissez un nom pour ce profil .
    - **Nom du référentiel** : utilisez le nom du référentiel GitHub créé à partir du standard.
@@ -163,9 +172,11 @@ Les sections ci-dessous décrivent chaque étape dans l’ordre et expliquent co
    - **Branche principale** : définissez sur principale (par défaut).
    - **Dossier racine** : défini sur docs (par défaut).
    - **ID client et secret client** : récupérez-les à partir de votre application GitHub (voir la section [Créer une application OAuth](#create-a-new-oauth-app) pour plus d’informations).
+
 3. Sélectionnez **Connexion** pour vous authentifier.
 
    ![](assets/eds-publish-profile.png){width="650"}
+
 4. Une fois l’authentification réussie, sélectionnez **Enregistrer**.
 
 Votre profil de publication EDS (Beta) est maintenant configuré.
@@ -192,7 +203,7 @@ Votre profil de publication EDS (Beta) est maintenant configuré.
 
 >[!NOTE]
 >
-> La sortie générée est stockée dans le dossier **docs** du référentiel EDS (Beta).
+>La sortie générée est stockée dans le dossier **docs** du référentiel EDS (Beta).
 
 La sortie EDS (Beta) est maintenant générée. Le contenu est présenté dans une mise en page propre et réactive. Il comprend des éléments standard tels que le titre de la page, les chemins de navigation, le contenu du corps et les blocs utilisés dans la rubrique. La table des matières à gauche (générée à partir de la carte) vous permet de naviguer entre les rubriques, tandis qu’une mini-table des matières à droite met en surbrillance les sections de la page active. L’ensemble de la sortie est entièrement réactif, ce qui garantit une expérience de lecture optimisée et cohérente sur tous les appareils.
 
@@ -236,12 +247,13 @@ Dans certains cas, vous pouvez ne mettre en forme qu’une partie spécifique de
 4. Créez un dossier portant le même nom que le `outputclass` dans le répertoire `blocks`. Découvrez comment [ajouter des fichiers à un référentiel](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line).
 
    ![](assets/eds-example-folder.png){width="650"}
+
 5. Ajoutez les `css` requis et les fichiers `js` facultatifs.
 
    ![](assets/eds-example-folder-subfolders.png){width="650"}
+
 6. Validez les modifications et régénérez la sortie.
 
 Le contenu sélectionné affiche désormais le style personnalisé défini dans votre bloc.
-
 
 ![](assets/eds-example-output.png){width="650"}
