@@ -6,11 +6,26 @@ exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
 TQID: https://experienceleague.adobe.com/3ZkAlpDfF7-v0biHN9N5aiospS63Kr9veXsBqKHevtY
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2: id: a44282cf-0adb-456f-8700-3ec7a3f89fd4id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: a44282cf-0adb-456f-8700-3ec7a3f89fd4
+  - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 6522
@@ -72,7 +87,7 @@ Effectuez les étapes suivantes sur le système sur lequel Oxygen XML Author est
 
    Le panneau AEM Guides s’affiche dans l’instance de création XML Oxygen.
 
-   ![Connecteur ](images/oxygen-aem-connector.png){width="800"}
+   ![Connecteur &#x200B;](images/oxygen-aem-connector.png){width="800"}
 
    >[!NOTE]
    >
@@ -122,7 +137,7 @@ En tant qu’administrateur AEM, procédez comme suit pour installer le package 
 
    `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   Le gestionnaire de packages gère les packages sur votre installation AEM locale. Pour plus d’informations sur l’utilisation du gestionnaire de packages, consultez [ Utilisation des packages ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) dans la documentation d’AEM.
+   Le gestionnaire de packages gère les packages sur votre installation AEM locale. Pour plus d’informations sur l’utilisation du gestionnaire de packages, consultez [&#x200B; Utilisation des packages &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) dans la documentation d’AEM.
 
    ![Gestionnaire de packages](images/package-manager.png) {width="650"}
 
@@ -214,7 +229,7 @@ Pour configurer les paramètres de connexion dans le plug-in Oxygen pour Adobe E
 
 1. Dans le panneau AEM Guides, cliquez sur l’icône des paramètres, puis sélectionnez **Paramètres**.
 
-   ![Paramètres de connexion ](images/settings.png){width="800"}
+   ![Paramètres de connexion &#x200B;](images/settings.png){width="800"}
 
 1. Spécifiez les détails suivants :
    - **URL du serveur** : URL du serveur AEM, par exemple :
@@ -260,7 +275,7 @@ Pour configurer les attributs de profilage et les références croisées, procé
 1. Dans l’onglet **Extensions**, effectuez les modifications suivantes :
 
    - Cliquez sur **Choisir** en regard du lot **Extensions** et sélectionnez `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` dans la liste **Classe**. Cliquez sur **OK**.
-     ![ Extension configurée pour les rubriques DITA ](images/dita-map-extenstion-link-resolve.png) {width="650"}
+     ![&#x200B; Extension configurée pour les rubriques DITA &#x200B;](images/dita-map-extenstion-link-resolve.png) {width="650"}
    - Cliquez sur **Choisir** en regard de l’**Listener d’état de l’extension de création** sous **Extensions individuelles** et sélectionnez `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` dans la liste **Classe**. Cliquez sur **OK**.
    - Cliquez sur **Choisir** en regard de l’**Éditeur de valeur d’attribut personnalisé de création** sous **Extensions individuelles** et sélectionnez `CustomValueEditor - com.adobe.o2.framework.extn` dans la liste **Classe**. Cliquez sur **OK**.
    - Cliquez sur **Choisir** en regard du **Gestionnaire d’insertion d’objet externe de création** sous **Extensions individuelles** et sélectionnez `CustomURLInsertionHandler - com.adobe.o2.ui ` dans la liste **Classe**. Cliquez sur **OK**.
@@ -327,21 +342,21 @@ L’écran suivant présente le panneau AEM Guides.
 Les fonctions du module externe Oxygen pour AEM Guides sont disponibles en cliquant avec le bouton droit sur un dossier ou un fichier dans le référentiel AEM. Les fonctions disponibles pour les dossiers sont différentes des fichiers. Voici la liste complète des fonctions du menu contextuel Plug-in Oxygen pour AEM Guides :
 
 - **Ouvrir** : ouvre le fichier sélectionné ou développe le dossier sélectionné.
-- **Ouvrir dans** : vous pouvez choisir d’ouvrir le fichier sélectionné dans l’éditeur web d’AEM Guides, dans le tableau de bord des cartes ou dans l’éditeur de cartes. Pour plus d’informations sur ces options, voir [ Ouvrir un fichier dans l’éditeur d’AEM Guides ](#id195GH0V30KX).
+- **Ouvrir dans** : vous pouvez choisir d’ouvrir le fichier sélectionné dans l’éditeur web d’AEM Guides, dans le tableau de bord des cartes ou dans l’éditeur de cartes. Pour plus d’informations sur ces options, voir [&#x200B; Ouvrir un fichier dans l’éditeur d’AEM Guides &#x200B;](#id195GH0V30KX).
 - **Extraire** : extrait un fichier du référentiel AEM. Pour plus d’informations, voir [Extraction de fichiers](#id195HC020TS4).
 - **Extraction avec personnes à charge** : extrait un fichier avec ses références directes. Pour plus d’informations, voir [Extraction de fichiers](#id195HC020TS4).
 - **Extraire avec des personnes à charge en lecture seule** : extrait le fichier sélectionné avec ses personnes à charge. Vous ne pouvez pas apporter de modifications aux fichiers dépendants. Pour plus d’informations, voir [Extraction de fichiers](#id195HC020TS4).
 - **Annuler l’extraction** : annule le fichier extrait, ferme le fichier de l’éditeur et rétablit la dernière version du fichier enregistrée sur le serveur.
 - **Actualiser** : dans le cas d’un fichier, récupère la dernière copie du fichier à partir du référentiel AEM. Pour un dossier, il récupère la structure du dossier et le statut du fichier. Cela signifie qu’un fichier est ajouté, puis il s’affiche dans la vue AEM Guides. En outre, si un fichier est extrait sur le serveur AEM, une actualisation dans l’auteur Oxygen affichera le fichier comme extrait. Toutefois, cela ne met pas à jour la liste des fichiers dans la vue *Fichiers extraits dans AEM Guides*.
 - **Actualiser les fichiers extraits** : actualise la liste des fichiers extraits dans la vue *Fichiers extraits dans AEM Guides*. Si un fichier est extrait sur le serveur AEM, une actualisation met à jour la liste des fichiers extraits dans la vue *Fichiers extraits dans AEM Guides*. Cependant, si un nouveau fichier a été ajouté ou si l’état d’un fichier a changé, il ne le met pas à jour dans l’arborescence d’AEM Guides. Pour mettre à jour le statut des fichiers sur AEM, vous devez effectuer une actualisation.
-- **Archiver** : consigne les fichiers que vous avez extraits. Pour plus d’informations, voir [ Archiver un fichier ](#id182CF0J0FHS).
-- **Archivage avec personnes à charge** : si vous avez extrait des fichiers avec des personnes à charge, cette option intègre le fichier principal avec ses personnes à charge. Pour plus d’informations, voir [ Archiver un fichier ](#id182CF0J0FHS).
+- **Archiver** : consigne les fichiers que vous avez extraits. Pour plus d’informations, voir [&#x200B; Archiver un fichier &#x200B;](#id182CF0J0FHS).
+- **Archivage avec personnes à charge** : si vous avez extrait des fichiers avec des personnes à charge, cette option intègre le fichier principal avec ses personnes à charge. Pour plus d’informations, voir [&#x200B; Archiver un fichier &#x200B;](#id182CF0J0FHS).
 - **Créer un dossier** : permet de créer un dossier dans le référentiel AEM. Cette option est disponible uniquement au niveau du dossier.
 - **Charger le(s) fichier(s)\)** : charge un ou plusieurs fichiers. Pour plus d’informations, voir [Charger des fichiers et des dossiers](#id195HC03F03J).
 - **Charger avec personnes à charge** : charge les fichiers DITA \(XML, DITA, Book Map ou DITA map\) avec ses personnes à charge. Pour plus d’informations, voir [Charger des fichiers et des dossiers](#id195HC03F03J).
 - **Charger le dossier** : charge un dossier sur le référentiel AEM. Pour plus d’informations, voir [Charger des fichiers et des dossiers](#id195HC03F03J).
 - **Ajouter aux favoris** : ajoute un dossier au dossier *Favoris* dans le panneau AEM Guides. Il est recommandé d’ajouter votre dossier de travail ici, ce qui facilite la synchronisation des fichiers et du statut du fichier à partir d’AEM.
-- **Supprimer des favoris** : supprime un dossier des *favoris*. Pour plus d’informations, voir [ Ajouter ou supprimer des favoris ](#id195HC04405P).
+- **Supprimer des favoris** : supprime un dossier des *favoris*. Pour plus d’informations, voir [&#x200B; Ajouter ou supprimer des favoris &#x200B;](#id195HC04405P).
 - **Afficher les métadonnées** : affiche les métadonnées telles que la classe DITA, le titre du document, le type, l&#39;UUID et d&#39;autres informations associées à un fichier. Pour plus d’informations, voir [Affichage des métadonnées d’un fichier](#id195GHN0H05C).
 - **Afficher les versions** : affiche l’historique des versions d’un fichier. Pour plus d’informations, voir [Afficher l’historique des versions d’un fichier](#id195GI000D5Q).
 
@@ -543,7 +558,7 @@ Pour afficher l’historique des versions d’un fichier, procédez comme suit :
 
    L’historique des versions du fichier s’affiche dans la boîte de dialogue Versions .
 
-   ![ Historique des versions ](images/version-history.png){width="550"}
+   ![&#x200B; Historique des versions &#x200B;](images/version-history.png){width="550"}
 
 
 ### Affichage des métadonnées d’un fichier {#id195GHN0H05C}
@@ -658,7 +673,7 @@ Effectuez les étapes suivantes pour ajouter des attributs conditionnels à votr
 
    L’écran suivant affiche les attributs `audience`.
 
-   ![ Boîte de dialogue Modifier les attributs ](images/edit-attributes.png){width="550"}
+   ![&#x200B; Boîte de dialogue Modifier les attributs &#x200B;](images/edit-attributes.png){width="550"}
 
 1. Cliquez sur **OK**.
 

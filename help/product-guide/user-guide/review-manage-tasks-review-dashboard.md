@@ -5,8 +5,11 @@ exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
 TQID: https://experienceleague.adobe.com/VHKsjdRxz2MOIAmYGi7fFDKJNPU3rTR466d-jj-QojU
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1440
@@ -74,7 +77,7 @@ Vous pouvez effectuer les actions suivantes sous l’onglet **Tâche** :
 
   Un message toast s’affiche pour confirmer si la mise à jour est réussie ou non.
 - Sélectionnez **Terminé** pour marquer la tâche de révision comme terminée avant la date d’échéance. Lorsque la tâche d&#39;une rubrique est marquée comme Terminée, la révision de la rubrique sélectionnée est fermée. Toutefois, dans le cas de rubriques partagées pour révision via un plan DITA, le marquage de la tâche de plan DITA comme Terminé ferme la révision de toutes les rubriques du plan qui ont été partagées pour révision.
-- Sélectionnez **Dupliquer** pour créer une copie de la tâche de révision. Le processus de création d’une tâche de révision en double est similaire à la création d’une tâche de révision. Une fois que vous avez lancé le workflow de tâche en double, la page Créer une tâche de révision s’affiche. Vous devez fournir les détails de la nouvelle tâche, comme expliqué dans la section [ Envoyer les rubriques pour révision ](review-send-topics-for-review.md#).
+- Sélectionnez **Dupliquer** pour créer une copie de la tâche de révision. Le processus de création d’une tâche de révision en double est similaire à la création d’une tâche de révision. Une fois que vous avez lancé le workflow de tâche en double, la page Créer une tâche de révision s’affiche. Vous devez fournir les détails de la nouvelle tâche, comme expliqué dans la section [&#x200B; Envoyer les rubriques pour révision &#x200B;](review-send-topics-for-review.md#).
 
   Si vous avez sélectionné une tâche de révision créée à partir d&#39;un plan DITA, les rubriques qui font partie du plan vous sont présentées. Vous pouvez ensuite choisir les rubriques que vous souhaitez inclure dans la nouvelle tâche de révision.
 
@@ -143,4 +146,4 @@ Le rapport de statut de la tâche de révision contient les détails suivants :
 - Nombre total de commentaires sur tous les sujets. Si plusieurs sujets sont en cours de révision, le nombre de commentaires pour chaque sujet est mentionné \(entre parenthèses\) en regard du nom du sujet.
 - Date du dernier accès à une rubrique par le réviseur.
 
-**Rubrique parente :**[ Présentation de la révision](review.md)
+**Rubrique parente :**&#x200B;[&#x200B; Présentation de la révision](review.md)

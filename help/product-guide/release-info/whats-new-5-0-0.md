@@ -4,11 +4,21 @@ description: Découvrez les fonctionnalités nouvelles et améliorées de la ver
 role: Leader
 exl-id: 523667d9-fed4-4798-9554-2a27033c8027
 TQID: https://experienceleague.adobe.com/F5wcNPR5HbIrKDvCFrTAv2GwJH85GLqFPMiOrcZaGBE
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1724
@@ -32,7 +42,7 @@ Les principaux points forts sont les suivants :
 
 - **Présentation de la page d’accueil** : Experience Manager Guides dispose désormais d’une page d’accueil qui offre une expérience d’écran de bienvenue intuitive, y compris un aperçu rapide des fichiers auxquels vous avez récemment accédé, des collections, etc.
 
-  Pour plus d’informations, consultez l’expérience de la page d’accueil d’Adobe Experience Manager Guides [](../user-guide/intro-home-page.md).
+  Pour plus d’informations, consultez l’expérience de la page d’accueil d’Adobe Experience Manager Guides [&#128279;](../user-guide/intro-home-page.md).
 
   ![](assets/aem-home-page-whats-new.png){width="800"}
 
@@ -59,7 +69,7 @@ Grâce à cette intégration, vous pouvez créer et gérer des tâches Adobe Wor
 
 L’intégration vous permet également de surveiller vos files d’attente de travail, en vous assurant que vous restez organisé et au courant de toutes vos tâches (tâches affectées). Il permet également aux chefs de projet d’exploiter la puissance d’Adobe Workfront pour une gestion de projet approfondie dans Experience Manager Guides.
 
-Pour plus d&#39;informations, consultez la section Intégration de [](../user-guide/workfront-integration.md).
+Pour plus d&#39;informations, consultez la section Intégration de [&#128279;](../user-guide/workfront-integration.md).
 
 ![](assets/workfront-new.png){width="800"}
 
@@ -68,7 +78,7 @@ Pour plus d&#39;informations, consultez la section Intégration de [](../user-gu
 
 Effectuez une publication plus rapide et évolutive sur AEM Sites avec le tout nouveau moteur de publication, optimisé avec le mappage des composants composites pour accélérer la création et le rendu des pages. Il est disponible avec de nouveaux modèles modifiables prêts à l’emploi qui peuvent être personnalisés en fonction de vos besoins à l’aide de l’éditeur de modèles d’AEM. Les modèles utilisent une combinaison de composants principaux de gestion de contenu web et de composants guides spécialisés afin de garantir aux utilisateurs finaux une expérience optimale sur vos pages AEM Sites. Vous pouvez également personnaliser vos modèles existants pour tirer parti de la puissance de ce nouveau moteur de publication.
 
-En savoir plus sur la [publication ](../user-guide/generate-output-aem-site-web-editor.md).
+En savoir plus sur la [publication &#x200B;](../user-guide/generate-output-aem-site-web-editor.md).
 
 ![](assets/new-aem-sites-preset.png){width="500"}
 
@@ -142,14 +152,14 @@ Les améliorations de publication suivantes ont été apportées dans le cadre d
 
 - Possibilité d’inclure les métadonnées de l’élément de `prolog` d’une rubrique, telles que les droits d’auteur, l’auteur et d’autres détails, dans les mises en page lors de la génération de la sortie Native PDF. Cela permet de s’assurer que les fichiers PDF générés sont plus détaillés et fournissent un contexte essentiel, ce qui les rend plus informatifs pour le lecteur.
 
-  Pour plus d’informations, consultez la section [ Ajouter des champs et des métadonnées dans la mise en page ](../native-pdf/design-page-layout.md#add-fields-and-metadata-add-fields-metadata).
+  Pour plus d’informations, consultez la section [&#x200B; Ajouter des champs et des métadonnées dans la mise en page &#x200B;](../native-pdf/design-page-layout.md#add-fields-and-metadata-add-fields-metadata).
 
   ![](assets/metadata-topic-content.png){width="300"}
 
 
 - Ajout d’une option permettant d’activer ou de désactiver le prétraitement DITA-OT pour la sortie native de PDF. Activez cette option si votre contenu nécessite une normalisation basée sur DITA-OT ou des modules externes DITA-OT personnalisés pendant le traitement. Vous pouvez ainsi mieux contrôler le traitement du contenu pour la génération PDF. Par défaut, le paramètre est défini sur **Activé**.
 
-  Pour plus d’informations, consultez la section [ Utilisation du paramètre prédéfini de sortie PDF ](../user-guide/generate-output-pdf.md)
+  Pour plus d’informations, consultez la section [&#x200B; Utilisation du paramètre prédéfini de sortie PDF &#x200B;](../user-guide/generate-output-pdf.md)
 
   ![](assets/ditaot-setting-enabled.png){width="500"}
 
@@ -159,7 +169,7 @@ Les améliorations de publication suivantes ont été apportées dans le cadre d
 
 - Possibilité d’ajouter un signet pour la page de la table des matières dans la sortie native de PDF pour une navigation transparente sur les pages, en particulier dans les PDF longs.
 
-  Pour plus d’informations, consultez la section [ Ajouter un signet personnalisé dans la sortie PDF ](../native-pdf/add-custom-bookmark.md).
+  Pour plus d’informations, consultez la section [&#x200B; Ajouter un signet personnalisé dans la sortie PDF &#x200B;](../native-pdf/add-custom-bookmark.md).
 
 ## Améliorations de la gestion de contenu
 

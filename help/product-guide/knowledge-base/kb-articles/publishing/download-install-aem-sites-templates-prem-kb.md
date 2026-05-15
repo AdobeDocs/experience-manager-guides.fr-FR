@@ -6,9 +6,13 @@ role: Admin
 level: Experienced
 exl-id: aa843a72-ff0d-4c9a-a87d-48d099087b5e
 TQID: https://experienceleague.adobe.com/d-eC5SHwAeCMEZhZJzN-12rdk37TjqBy0SYXC6lfbUI
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 469
@@ -40,7 +44,7 @@ Avant de poursuivre la configuration, assurez-vous que les conditions préalable
 ## Installation de packages à l’aide du gestionnaire de packages CRX
 
 1. **Installez le package de composants :**
-   1. Accédez au [**Gestionnaire de packages**](http://<your-aem-instance>/crx/packmgr).
+   1. Accédez au [**Gestionnaire de packages**](http://&lt;your-aem-instance>/crx/packmgr).
    2. Téléchargez et installez le package on-prem-guides-components.all-1.x.0.zip .
 
 2. **Installation du package Sites :** téléchargez et installez le package aemg-docs.all-1.x.0.zip à l’aide du gestionnaire de packages CRX.
@@ -51,12 +55,12 @@ Avant de poursuivre la configuration, assurez-vous que les conditions préalable
 1. **Créer un nouveau paramètre prédéfini :**
    1. Ouvrez un plan DITA dans AEM Guides et accédez au panneau **Sortie**.
    2. Sélectionnez **Créer un paramètre prédéfini**.
-   3. Sélectionnez le type comme ****.
+   3. Sélectionnez le type comme **&#x200B;**.
    4. Saisissez le nom du paramètre prédéfini.
    5. Décochez le paramètre **Utiliser le mappage des composants hérités**.
    6. Sélectionnez **Ajouter** pour créer le paramètre prédéfini.
 
-      ![ Boîte de dialogue Nouveau paramètre prédéfini de sortie ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350"}
+      ![&#x200B; Boîte de dialogue Nouveau paramètre prédéfini de sortie &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350"}
 
 
 2. **Configurer le paramètre prédéfini de site AEM :** il existe deux options pour configurer le site prêt à l’emploi :
@@ -86,11 +90,11 @@ Avant de poursuivre la configuration, assurez-vous que les conditions préalable
    2. Le site généré sera disponible au chemin d’accès suivant : `/content/aemg-docs/en/docs/product1`.
 2. **Modifier le chemin de génération par défaut (facultatif) :** si vous souhaitez modifier le chemin par défaut pour la génération du site, procédez comme suit :
 
-   1. Accédez à ****.
+   1. Accédez à **&#x200B;**.
    2. Créez une page produit sous la structure de site prête à l’emploi.
    3. Accédez à **Documents AEMG** > **Français** > **Documents**.
 
-      ![Création d’une page dans la structure de site AEM ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350"}
+      ![Création d’une page dans la structure de site AEM &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350"}
 
    4. Sélectionnez la mosaïque **Page d’accueil** puis sélectionnez **Suivant**.
 

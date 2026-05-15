@@ -6,11 +6,26 @@ role: Admin
 level: Experienced
 exl-id: 1b99ade0-0eee-42c3-a383-0c3774b6c1f6
 TQID: https://experienceleague.adobe.com/jfoPbeASfVpgWYR2-cKacAdhWKPw-2j6qliqzjEzgFw
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: b1210526-416b-4ef6-bcc0-1692e99f30e9id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
-subfeature_v2: id: a7a242db-c88c-4e44-818b-bfb4ef92efdfid: c8841798-1a28-4264-a46a-984860f8e6f6id: dc1f7602-db3c-4ad4-a440-ff999bb16455id: f7774ebe-aec9-42b6-97e4-5002acdc712eid: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd456af4-cb12-4a34-8cc4-b74adf885626
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2:
+  - id: a7a242db-c88c-4e44-818b-bfb4ef92efdf
+  - id: c8841798-1a28-4264-a46a-984860f8e6f6
+  - id: dc1f7602-db3c-4ad4-a440-ff999bb16455
+  - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 625
@@ -46,7 +61,7 @@ Créez des dossiers distincts pour chaque service, comme les ressources humaines
 **Bonnes pratiques pour définir des dossiers au niveau du service**
 
 - Créez un dossier **Commun** > **ressources** dédié sous chaque service pour les ressources communes au niveau du service (si nécessaire).
-- Si vous souhaitez partager du contenu pour la traduction, créez des dossiers spécifiques à une langue (par exemple, en, de, fr). Les auteurs doivent créer ou mettre à jour le contenu uniquement dans le dossier de langue source (comme en), car le contenu situé en dehors du dossier de langue source n’est pas inclus dans le workflow de traduction. Les autres dossiers de langue peuvent être laissés vides sous forme d’espaces réservés. En savoir plus sur la [ traduction de contenu ](../user-guide/translation.md).
+- Si vous souhaitez partager du contenu pour la traduction, créez des dossiers spécifiques à une langue (par exemple, en, de, fr). Les auteurs doivent créer ou mettre à jour le contenu uniquement dans le dossier de langue source (comme en), car le contenu situé en dehors du dossier de langue source n’est pas inclus dans le workflow de traduction. Les autres dossiers de langue peuvent être laissés vides sous forme d’espaces réservés. En savoir plus sur la [&#x200B; traduction de contenu &#x200B;](../user-guide/translation.md).
 - Les autorisations peuvent être utilisées pour limiter l’accès de services ou d’utilisateurs spécifiques à la structure de dossiers nouvellement créée. Par exemple, attribuez des autorisations pour vous assurer que seuls les utilisateurs du service des ressources humaines peuvent créer ou modifier du contenu dans le dossier désigné.
 
 Répétez la même structure pour d&#39;autres ministères comme les Finances, les Services juridiques, etc.

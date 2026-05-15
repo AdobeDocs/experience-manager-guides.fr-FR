@@ -5,9 +5,13 @@ exl-id: 83c04e01-92f1-41b0-8866-a202f4106b51
 feature: What's New
 role: Leader
 TQID: https://experienceleague.adobe.com/XAwjfiapDvgvcwAuWm943W36PsAEiBfJUkN37DJeSZ0
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 811
@@ -30,16 +34,16 @@ Les améliorations du PDF natif suivantes ont été apportées à la version de 
 Experience Manager Guides fournit des modèles PDF prêts à l’emploi ou d’usine. Dupliquez les modèles PDF d’usine pour créer les modèles PDF personnalisés.
 
 Vous pouvez désormais également prévisualiser la miniature d’un modèle lors de la création et de la duplication d’un modèle. Vous pouvez également modifier ou supprimer cette image. Cette fonctionnalité est utile pour marquer ou distinguer les modèles portant des noms similaires.
-En savoir plus sur le modèle [](../native-pdf/pdf-template.md).
+En savoir plus sur le modèle [&#128279;](../native-pdf/pdf-template.md).
 
-![ Boîte de dialogue Dupliquer le modèle PDF ](assets/duplicate-template.png){width="550"}
+![&#x200B; Boîte de dialogue Dupliquer le modèle PDF &#x200B;](assets/duplicate-template.png){width="550"}
 
 *Dupliquez un modèle PDF existant.*
 
 
 ### Modifier l’ordre des pages et publier plusieurs pages par feuille
 
-Outre la publication des pages en fonction du document source, vous pouvez également modifier l’ordre des pages dans PDF lors de la publication d’un document de plusieurs pages.  Vous avez ainsi la possibilité de publier les pages dans différents ordres, comme toutes les pages impaires ou paires en premier. Vous pouvez également publier sous forme de livret et lire les pages comme un livre. Vous pouvez également décider du nombre de pages que vous souhaitez publier sur une seule feuille de papier. Pour plus d’informations, consultez la section [ Organisation de la page ](../native-pdf/components-pdf-template.md#page-organization).
+Outre la publication des pages en fonction du document source, vous pouvez également modifier l’ordre des pages dans PDF lors de la publication d’un document de plusieurs pages.  Vous avez ainsi la possibilité de publier les pages dans différents ordres, comme toutes les pages impaires ou paires en premier. Vous pouvez également publier sous forme de livret et lire les pages comme un livre. Vous pouvez également décider du nombre de pages que vous souhaitez publier sur une seule feuille de papier. Pour plus d’informations, consultez la section [&#x200B; Organisation de la page &#x200B;](../native-pdf/components-pdf-template.md#page-organization).
 
 ### Trier les termes du glossaire en fonction des clés de tri
 
@@ -50,7 +54,7 @@ Pour plus d’informations, voir [Paramètres avancés de PDF](../native-pdf/com
 ### Amélioration de la gestion des ressources pour les modèles PDF natifs
 
 Experience Manager Guides a amélioré la gestion des ressources pour les modèles PDF natifs. Vous pouvez désormais partager et réutiliser des ressources, telles que des images, des fichiers CSS et des fichiers de polices, sur plusieurs modèles Native PDF. Grâce à cette amélioration, la gestion des ressources d’un grand nombre de modèles est beaucoup plus simple. Vous n’avez pas besoin de créer des ressources en double pour chaque modèle. Vous pouvez également les conserver dans un dossier partagé et les utiliser dans tous les modèles PDF natifs.
-Pour plus d&#39;informations, voir [Modèle ](../native-pdf/pdf-template.md).
+Pour plus d&#39;informations, voir [Modèle &#x200B;](../native-pdf/pdf-template.md).
 
 ## Améliorations de l’éditeur web
 
@@ -61,7 +65,7 @@ Les améliorations suivantes ont été apportées à l’éditeur web dans la ve
 
 Vous pouvez désormais choisir la manière d’afficher les fichiers par défaut dans l’éditeur web. Vous pouvez afficher la liste des fichiers en fonction des titres ou des noms de fichier à partir des différents panneaux à partir de la vue Création.
 
-![ Boîte de dialogue Préférences utilisateur ](assets/user-preferences-2311.png){width="550"}
+![&#x200B; Boîte de dialogue Préférences utilisateur &#x200B;](assets/user-preferences-2311.png){width="550"}
 
 *Modifiez la manière d’afficher les fichiers par défaut à partir de la boîte de dialogue **Préférences utilisateur**.*
 
@@ -70,7 +74,7 @@ Vous pouvez désormais choisir la manière d’afficher les fichiers par défaut
 
 Vous pouvez définir des attributs de condition dans vos rubriques DITA. Ensuite, utilisez les attributs de condition dans le paramètre prédéfini de condition pour publier le contenu dans un plan DITA. Experience Manager Guides vous permet désormais de créer et de gérer des paramètres prédéfinis de condition à partir de l’éditeur web. Vous pouvez également facilement les modifier, les dupliquer ou les supprimer.
 
-![Paramètres prédéfinis de condition) dans l’onglet Gérer de l’éditeur web ](assets/web-editor-manage-condition-presets.png){width="550"}
+![Paramètres prédéfinis de condition) dans l’onglet Gérer de l’éditeur web &#x200B;](assets/web-editor-manage-condition-presets.png){width="550"}
 
 Pour plus d’informations, consultez la section [Utilisation de paramètres prédéfinis de condition](../user-guide/generate-output-use-condition-presets.md).
 

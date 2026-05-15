@@ -5,11 +5,22 @@ feature: Authoring
 role: User
 exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
 TQID: https://experienceleague.adobe.com/I5rB66768VPerp3v8WZAdOKmF07VjAc4aoOsHnGC9JI
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f9dbea21-a714-40dd-bc90-080d8046c93f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 2531
@@ -43,7 +54,7 @@ Une fois configurées et activées par votre administrateur, les tâches Adobe W
 Pour accéder aux tâches Adobe Workfront, procédez comme suit :
 
 1. Connectez-vous à Experience Manager Guides et ouvrez la **page d’accueil**.
-2. Dans le panneau de gauche, sélectionnez ****.
+2. Dans le panneau de gauche, sélectionnez **&#x200B;**.
 
    La page **Tâches** s’affiche.
 
@@ -62,7 +73,7 @@ Pour accéder aux tâches Adobe Workfront, procédez comme suit :
 Les fonctionnalités suivantes sont disponibles sur la page des tâches de Workfront :
 
 * [Nouvelle tâche](#create-workfront-tasks) : permet de créer des tâches Adobe Workfront directement depuis l&#39;interface de Experience Manager Guides.
-* [Affecté(e) à vous ](#managing-tasks-assigned-to-you) : répertorie toutes les tâches qui vous sont affectées et qui sont toujours actives.
+* [Affecté(e) à vous &#x200B;](#managing-tasks-assigned-to-you) : répertorie toutes les tâches qui vous sont affectées et qui sont toujours actives.
 * [Créé par vous](#managing-tasks-created-by-you) : répertorie toutes les tâches que vous avez créées et qui sont toujours actives.
 
 La page Tâches de Workfront comprend également une ![](./images/Smock_LinkOut_18_N.svg) d’icône de lien vers l’extérieur qui, lorsqu’elle est sélectionnée, vous mène à la page du projet Adobe Workfront. Ici, vous pouvez afficher les détails de la tâche, afficher des commentaires, ajouter des commentaires et accéder à d’autres fonctionnalités en fonction des autorisations mappées avec votre compte Adobe Workfront.
@@ -88,7 +99,7 @@ Pour créer une tâche Adobe Workfront, procédez comme suit :
    * **Description** : saisissez une brève description de la tâche.
    * **Échéance le** : définissez la date d’échéance de la tâche.
    * **Personne désignée** : sélectionnez une personne désignée pour la tâche.
-3. Dans l’onglet ****, sélectionnez **Ajouter** pour ajouter une ressource à cette tâche.
+3. Dans l’onglet **&#x200B;**, sélectionnez **Ajouter** pour ajouter une ressource à cette tâche.
 
    ![](./images/workfront-create-tasks-asset.png)
 
@@ -207,7 +218,7 @@ Effectuez les étapes suivantes pour travailler sur une tâche de création :
 
    *Tâche de création dans l’onglet Affecté à vous*
 
-   ![ Création de tâches dans le widget Vos tâches ](./images/authoring-task-access-your-tasks.png)
+   ![&#x200B; Création de tâches dans le widget Vos tâches &#x200B;](./images/authoring-task-access-your-tasks.png)
 
    *Tâche de création dans le widget Vos tâches*
 2. Pointez sur la tâche sur laquelle vous souhaitez travailler et sélectionnez ![](images/Smock_OpenIn_18_N.svg) pour l’ouvrir. Vous pouvez également ouvrir la tâche en la sélectionnant simplement.
@@ -280,11 +291,11 @@ Effectuez les étapes suivantes pour travailler sur une tâche de traduction :
 
 1. Accédez à la tâche à partir de la section [Aperçu](#accessing-assigned-tasks-from-overview-section) ou de l’onglet [Affecté à vous](#managing-tasks-assigned-to-you).
 
-   ![Tâches de traduction dans l’onglet Affectées à vous ](./images/translation-tasks-access.png)
+   ![Tâches de traduction dans l’onglet Affectées à vous &#x200B;](./images/translation-tasks-access.png)
 
    *Tâche de traduction dans l’onglet Affecté à vous*
 
-   ![ Tâches de traduction dans le widget Vos tâches ](./images/translation-tasks-access-your-tasks.png)
+   ![&#x200B; Tâches de traduction dans le widget Vos tâches &#x200B;](./images/translation-tasks-access-your-tasks.png)
 
    *Tâche de traduction dans le widget Vos tâches*
 
@@ -295,7 +306,7 @@ Effectuez les étapes suivantes pour travailler sur une tâche de traduction :
 4. Accédez à l’onglet **Traduction** pour les différentes options de traduction. Découvrez comment [traduire du contenu](../user-guide/translation.md) dans Experience Manager Guides.
 5. Effectuez la traduction requise et sélectionnez **Envoyer pour traduction**.
    ![](./images/translation-tasks-send-translation.png)
-6. Accédez à la section **** et sélectionnez **Marquer comme terminé** pour indiquer que la tâche est terminée.
+6. Accédez à la section **&#x200B;**&#x200B;et sélectionnez **Marquer comme terminé** pour indiquer que la tâche est terminée.
 7. Passez à l’onglet **Commentaires** pour ajouter un commentaire à cette tâche. Ces commentaires, ajoutés au niveau de la tâche, seront reflétés dans le tableau de bord du projet Adobe Workfront.
 
    >[!NOTE]
@@ -314,7 +325,7 @@ Effectuez les étapes suivantes pour travailler sur une tâche de publication :
 
    *Publication de la tâche dans l’onglet Affecté à vous*
 
-   ![ Publication de tâches dans le widget Vos tâches ](./images/publishing-tasks-access-your-tasks.png)
+   ![&#x200B; Publication de tâches dans le widget Vos tâches &#x200B;](./images/publishing-tasks-access-your-tasks.png)
 
    *Publication de la tâche dans le widget Vos tâches*
 2. Pointez sur la tâche sur laquelle vous souhaitez travailler et sélectionnez ![](images/Smock_OpenIn_18_N.svg) pour l’ouvrir dans la console **Map**. Vous pouvez également ouvrir la tâche en la sélectionnant simplement.
@@ -322,7 +333,7 @@ Effectuez les étapes suivantes pour travailler sur une tâche de publication :
 
    ![](./images/publishing-tasks-review-details.png)
 4. Accédez aux **Paramètres prédéfinis de sortie** et effectuez les actions de publication requises pour publier la tâche. Pour plus d’informations, consultez la section [Présentation des paramètres prédéfinis de sortie](../user-guide/generate-output-understand-presets.md).
-5. Une fois la publication terminée, accédez à la section **** et sélectionnez **Marquer comme terminé** pour indiquer que la tâche est terminée.
+5. Une fois la publication terminée, accédez à la section **&#x200B;**&#x200B;et sélectionnez **Marquer comme terminé** pour indiquer que la tâche est terminée.
 6. Passez à l’onglet **Commentaires** pour ajouter un commentaire à cette tâche. Ces commentaires, ajoutés au niveau de la tâche, seront répercutés sur le tableau de bord du projet Workfront.
 
    >[!NOTE]

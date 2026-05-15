@@ -6,11 +6,21 @@ role: User
 hide: true
 exl-id: 9a9ae44f-8fed-4a4e-812c-451bcf138d0a
 TQID: https://experienceleague.adobe.com/QwfgJH1sqiJKtM3UfYDne0eOCS-y6-yoBZxSCED4umQ
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 2755
@@ -36,10 +46,10 @@ Pour créer les paramètres prédéfinis AEM Sites à partir de l’éditeur web
 
 1. Dans le panneau Référentiel, ouvrez le fichier DITA map en mode Carte.
 1. Dans l’onglet **Sortie**, sélectionnez l’icône + pour créer un paramètre prédéfini de sortie.
-1. Sélectionnez **** dans la liste déroulante **Type** de la boîte de dialogue **Nouveau paramètre prédéfini de sortie**.
+1. Sélectionnez **&#x200B;**&#x200B;dans la liste déroulante **Type** de la boîte de dialogue **Nouveau paramètre prédéfini de sortie**.
 1. Désélectionnez l’option **Utiliser le mappage de composant hérité** dans la boîte de dialogue **Nouveau paramètre prédéfini de sortie**.
 
-![Nouveau ](images/new-aem-sites-dialog-box.png)
+![Nouveau &#x200B;](images/new-aem-sites-dialog-box.png)
 
 
 
@@ -48,8 +58,8 @@ Pour créer les paramètres prédéfinis AEM Sites à partir de l’éditeur web
 >[!NOTE]
 >
 >Avant de configurer les paramètres prédéfinis AEM Sites pour Experience Manager Guides, votre administrateur ou administratrice doit créer une structure AEM Sites à l’aide des modèles.
-- **Logiciel On-premise** : découvrez comment [télécharger et installer des modèles AEM Sites](/help/product-guide/install-guide/download-install-aem-sites-templates.md) pour les logiciels On-premise.
-- **** : en savoir plus sur la [téléchargement et installation de modèles AEM Sites](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) pour Cloud Service.
+>- **Logiciel On-premise** : découvrez comment [télécharger et installer des modèles AEM Sites](/help/product-guide/install-guide/download-install-aem-sites-templates.md) pour les logiciels On-premise.
+>- **&#x200B;**&#x200B;: en savoir plus sur la [téléchargement et installation de modèles AEM Sites](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) pour Cloud Service.
 
 
 
@@ -70,7 +80,7 @@ Certaines options peuvent différer pour les paramètres prédéfinis qui utilis
 
 Les configurations sont organisées sous les onglets **Général**, **Contenu**, **Liste de rubriques** et **Références de mappage croisé**.
 
-![ paramètres prédéfinis d’aem sites](images/aem-sites-new-config.png)
+![&#x200B; paramètres prédéfinis d’aem sites](images/aem-sites-new-config.png)
 **Général**
 
 L’onglet **Général** contient les paramétrages suivants relatifs à la génération des sorties :
@@ -102,7 +112,7 @@ L&#39;onglet **Contenu** contient les paramétrages suivants :
    - Utilisation des propriétés de mappage comme solution de secours
 
 
-Pour plus d’informations, consultez la configuration d’AEM Sites [](#aem_sites_config).
+Pour plus d’informations, consultez la configuration d’AEM Sites [&#128279;](#aem_sites_config).
 
 **Liste de sujets**
 
@@ -154,7 +164,7 @@ Pour plus d’informations, consultez la section [Télécharger et installer des
 
 Pour créer et configurer un paramètre prédéfini AEM Sites, procédez comme suit :
 1. Ouvrez l&#39;onglet **Paramètres prédéfinis de sortie** du plan DITA que vous souhaitez publier.
-1. Sélectionnez le paramètre prédéfini de sortie ****.
+1. Sélectionnez le paramètre prédéfini de sortie **&#x200B;**.
 1. (Facultatif) Désélectionnez l’option **Utiliser le mappage de composant hérité** pour créer un paramètre prédéfini AEM Sites non hérité .
 1. Cliquez sur **Ajouter**. Le paramètre prédéfini d’AEM Sites est créé.
 1. Vous pouvez configurer le modèle de sites d’usine de deux manières :
@@ -189,7 +199,7 @@ Pour plus de détails, voir [Générer la sortie des rubriques de liaison à par
 
 Pour spécifier le contexte de publication des fichiers liés, procédez comme suit :
 1. Ouvrez l&#39;onglet **Paramètres prédéfinis de sortie** du plan DITA que vous souhaitez publier.
-1. Sélectionnez le paramètre prédéfini de sortie ****.
+1. Sélectionnez le paramètre prédéfini de sortie **&#x200B;**.
 
    Vous pouvez afficher les onglets **Général**, **Contenu**, **Liste de rubriques** et **Références croisées**. L’onglet **Références de mappage croisé** s’affiche si vous utilisez la version Experience Manager Guides (UUID).
 
