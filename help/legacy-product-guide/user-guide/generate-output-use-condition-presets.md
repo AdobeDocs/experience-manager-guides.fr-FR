@@ -1,50 +1,61 @@
 ---
 title: Utilisation de paramètres prédéfinis de condition
-description: Know the use of condition presets in AEM Guides. Learn to create, edit, copy, and delete condition presets in AEM.
+description: Connaître l’utilisation des paramètres prédéfinis de condition dans AEM Guides. Découvrez comment créer, modifier, copier et supprimer des paramètres prédéfinis de condition dans AEM.
 feature: Publishing
 role: User
 hide: true
 exl-id: 991179c7-186e-4b23-b918-248f596644ec
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/vC4GMa4uSMJY9W2bwkVw92zrrVuCdoU0BIUZ-1buIwM
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: 1213
 ht-degree: 2%
 
 ---
 
 # Utilisation de paramètres prédéfinis de condition {#id1825FL004PN}
 
-You can define attributes in your DITA topics and the use the condition preset to specify what happens with the attribute in the final output. For example, you can add attributes as version 1.0 and version 2.0 in your content, and use a condition preset to include version 1.0 for release 1.0 and exclude version 2.0. Similarly, you can add attributes as OS Windows and OS Linux to your content, and then include or exclude the relevant content for your final output according to the operating system.
+Vous pouvez définir des attributs dans vos rubriques DITA et utiliser le paramètre prédéfini de condition pour spécifier ce qui se passe avec l&#39;attribut dans la sortie finale. Par exemple, vous pouvez ajouter des attributs en tant que version 1.0 et version 2.0 à votre contenu et utiliser un paramètre prédéfini de condition pour inclure la version 1.0 pour la version 1.0 et exclure la version 2.0. De même, vous pouvez ajouter des attributs tels que OS Windows et OS Linux à votre contenu, puis inclure ou exclure le contenu approprié pour votre sortie finale en fonction du système d’exploitation.
 
-You can create condition presets in two ways:
+Vous pouvez créer des paramètres prédéfinis de condition de deux manières :
 
-* From the Web Editor: Allows you to create and manage the condition presets for a DITA map from the Web Editor.
-* From the map dashboard: Allows you to create and manage the condition presets for a DITA map from the map dashboard.
-
-
-## Condition presets from the Web Editor
-
-Experience Manager Guides allows you to manage condition presets from the Web Editor and use them within the Output presets to generate the final output.
-You can create and view the condition presets, view the attributes, and manage the actions for the current map from the **Condition Presets** view in the Web Editor.
-
-<img src="images//manage-condtions-presets.png" alt= "Condtion presets in web editor" width="800" border="1px">
+* Dans l&#39;éditeur Web : permet de créer et de gérer les paramètres prédéfinis de condition pour un plan DITA à partir de l&#39;éditeur Web.
+* Depuis le tableau de bord des cartes : permet de créer et de gérer les paramètres prédéfinis de condition pour un plan DITA à partir du tableau de bord des cartes.
 
 
+## Paramètres prédéfinis de condition dans l’éditeur web
 
-### Create a condition preset
+Experience Manager Guides vous permet de gérer les paramètres prédéfinis de condition à partir de l’éditeur web et de les utiliser dans les paramètres prédéfinis de sortie pour générer la sortie finale.
+Vous pouvez créer et afficher les paramètres prédéfinis de condition, afficher les attributs et gérer les actions du mappage actuel à partir de la vue **Paramètres prédéfinis de condition** dans l’éditeur web.
 
-The **Condition Presets** view provides detailed information about the condition presets, such as their attributes, values,  and the actions.
-You can create a condition preset of the topics by performing the following steps:
+<img src="images//manage-condtions-presets.png" alt= "Paramètres prédéfinis de condition dans l’éditeur web" width="800" border="1px">
+
+
+
+### Création d’un paramètre prédéfini de condition
+
+La vue **Paramètres prédéfinis de condition** fournit des informations détaillées sur les paramètres prédéfinis de condition, tels que leurs attributs, leurs valeurs et les actions.
+Vous pouvez créer un paramètre prédéfini de condition pour les rubriques en procédant comme suit :
 
 1. Dans le panneau **Référentiel**, ouvrez le fichier DITA map en mode Carte.
-1. Select the **Manage** tab.
-1. Select **Condition Presets** on the left. The list of conditions presets defined for the DITA map is displayed.
-1. Select the + icon next to **Condition Presets** to open the **New Condition Preset** dialog.
-1. Enter a unique name for the preset.
+1. Sélectionnez l’onglet **Gérer**.
+1. Sélectionnez **Paramètres prédéfinis de condition** sur la gauche. La liste des paramètres prédéfinis de conditions définis pour le plan DITA s&#39;affiche.
+1. Sélectionnez l’icône + en regard de **Paramètres prédéfinis de condition** pour ouvrir la boîte de dialogue **Nouveau paramètre prédéfini de condition**.
+1. Saisissez un nom unique pour le paramètre prédéfini.
 
    >[!NOTE]
    >
-   > You view an error if the name field is empty or if you enter an Invalid character or a name that is the same as an existing condition preset. You can use a hyphen &#39;-&#39; or underscore &#39;_&#39; as a separator.
+   > Une erreur s’affiche si le champ du nom est vide ou si vous saisissez un caractère non valide ou un nom identique à un paramètre prédéfini de condition existant. Vous pouvez utiliser un trait d’union « - » ou de soulignement « _ » comme séparateur.
 
 1. Sélectionnez **Créer**.
 Le nouveau paramètre prédéfini de condition est ajouté à la liste.

@@ -1,26 +1,43 @@
 ---
 title: Configuration du contenu et des modèles
-description: Découvrez tous les aspects à prendre en compte pour configurer du contenu et des modèles dans AEM Guides.
+description: Découvrez tout ce qui doit être pris en compte pour configurer du contenu et des modèles dans AEM Guides.
 exl-id: f125bad9-33a2-4de5-b43f-d6368d61879b
 feature: Template Configuration
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+TQID: https://experienceleague.adobe.com/uc9WOENTZ4E7ZvfwPllw81zMpvEUMkLG-gc9kF7v7IM
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: df6fa66f-4542-4a6d-90ca-9f146eb5d494
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: 319
 ht-degree: 1%
 
 ---
 
 # Configuration du contenu et des modèles dans AEM Guides
 
-La quantité de contenu que vous gérez au sein d’un système, afin de prendre en charge différents types de documents qui sont remis aux utilisateurs finaux, nécessite que les auteurs ne classent pas seulement le contenu pour qu’il puisse facilement en effectuer le suivi et le modifier, mais également la possibilité pour les auteurs de créer des documents similaires sans avoir à les écrire de A à Z.
+La quantité de contenu que vous gérez au sein d’un système pour prendre en charge différents types de documents diffusés aux utilisateurs finaux implique que les auteurs doivent non seulement catégoriser le contenu pour le suivre et le modifier facilement si nécessaire, mais aussi qu’ils puissent créer des documents similaires sans avoir à les écrire de A à Z.
 
 
-## Présentation de la session
+## Session overview
 
-Au cours de cette session, nous avons abordé les sujets suivants :
+Au cours de cette session, nous avons abordé de manière générale les sujets suivants :
 - différents aspects de la configuration du contenu (catégorisation, classification, métadonnées)
-- configuration du modèle de contenu (modèles de rubrique, modèles de mappage, fragments de code)
+- configuration d’un modèle de contenu (modèles de rubrique, modèles de mappage, fragments de code)
 
 
 
@@ -31,7 +48,7 @@ Au cours de cette session, nous avons abordé les sujets suivants :
 
 ## Tons clairs
 
-- **Date** - 27 avril 2023
+- **Date** - 27 Avril 2023
 - **Nombre de participants** - 70
 - **Durée** - 60 minutes
 - **Audience** - Clients, partenaires et employés d’Adobe
@@ -39,37 +56,37 @@ Au cours de cette session, nous avons abordé les sujets suivants :
 
 ## Principaux points à retenir
 
-Au cours de cette session, vous avez appris les éléments suivants :
-- passer du temps à analyser et à réfléchir avant d’importer/de créer du contenu ;
-- Classification et classification du contenu pour répondre à différents segments d’utilisateurs (utilisateurs finaux ou auteur)
+Au cours de cette session, vous avez découvert les éléments suivants :
+- Passer du temps à analyser et à réfléchir avant d’importer/créer du contenu
+- Classer et catégoriser le contenu pour répondre aux différents segments d’utilisateurs (utilisateurs finaux ou auteurs)
 - Utilisation des fonctionnalités de métadonnées pour améliorer la productivité des utilisateurs
-- Créer autant que possible des modèles de création prédéfinis pour offrir aux auteurs une expérience guidée
-- En tant que PME, les modèles que les groupes d’utilisateurs sont censés utiliser
-- Personnaliser l’expérience de création de manière optimale
+- Création de modèles de création préconfigurés autant que possible pour offrir aux créateurs une expérience guidée
+- Les experts ciblent les modèles que les groupes d’utilisateurs sont destinés à utiliser
+- Personnalisez de façon optimale l’expérience de création
 
 
 
 ## Ressources connexes
 
-- **Vidéos de démonstration** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html?lang=fr)
+- **Vidéos sur les fonctionnalités** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
 
-- **Guide de l’utilisateur** - [Contenu de l’auteur](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
+- **Guide de l’utilisateur** - [Créer du contenu](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **Forum de la communauté** - Pour des interactions de la communauté spécifiques à une session sur Experience League, rendez-vous sur le [forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=fr).
+- **Forum de la communauté** - Pour plus d’interactions de la communauté sur Experience League spécifiques à une session, consultez le [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> Les fonctionnalités affichées dans cette session sont disponibles dans les versions suivantes d’AEM Guides :
-> - On-premise : 4.2 ou version ultérieure
-> - Cloud Service : 2303 ou version ultérieure
+> Les fonctionnalités présentées dans cette session sont disponibles dans les versions d’AEM Guides suivantes :
+> - On-prem : 4.2 ou version ultérieure
+> - Services cloud : 2303 ou version ultérieure
 
 
-## Prochaine session d&#39;experts
+## Prochaine session d’experts
 
-- **Rubrique** - Publication de PDF natifs - Apprentissage par exemple (partie 1)
-- **Planifié le** - 1 juin 2023
+- **Rubrique** - Publication native PDF - Apprentissage par exemple (partie 1)
+- **Prévu le** - 1er juin 2023
 
 
-## Contactez-nous
+## Nous contacter
 
-Pour toute requête, envoyez-nous un email à l’adresse <techcomm@adobe.com>
+Pour toute question, envoyez-nous un e-mail à <techcomm@adobe.com>

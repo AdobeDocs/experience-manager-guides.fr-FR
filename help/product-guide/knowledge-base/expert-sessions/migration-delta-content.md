@@ -1,10 +1,19 @@
 ---
 title: Migration du contenu Delta
 description: AEM Guides, migration de contenu delta
-source-git-commit: 7f4cf7a6fd7191814442d76cf2d72c0a7cabd8b7
+exl-id: 293d05c4-637e-41ae-81d7-9cf492be32c5
+TQID: https://experienceleague.adobe.com/WZC-a-ixs3LjKhG5-PN-cjYIW271PEcjWdWwAuXdAp4
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 3%
+source-wordcount: 310
+ht-degree: 6%
 
 ---
 
@@ -41,11 +50,11 @@ Au cours de cette session, nous avons abordé les sujets suivants :
 
 ### Documentation
 
-- [&#x200B; Outil de copie de contenu &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developer-tools/content-copy)
+- [Outil de copie de contenu](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developer-tools/content-copy)
 - [Utilisation du gestionnaire de packages pour transférer du contenu](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager)
-- [Migration de contenu d’un non-UUID vers un UUID](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
+- [Migration de contenu d’un non-UUID vers l’UUID](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
 - [AEM Guides : déplacer le contenu UUID d’On-premise/AMS vers le cloud](../../cs-install-guide/migrate-on-premise-content-cloud.md)
-- [Transition vers AEM Cloud](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
+- [Transition vers AEM Cloud](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides : migration de contenu non uuid vers le cloud](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### Forum de la communauté

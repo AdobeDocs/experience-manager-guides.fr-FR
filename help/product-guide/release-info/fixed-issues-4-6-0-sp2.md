@@ -2,10 +2,23 @@
 title: Notes de mise à jour | Correction de problèmes dans Adobe Experience Manager Guides 4.6.0 Service Pack 3
 description: Découvrez les correctifs de bugs dans la version 4.6.0 Service Pack 3 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: d60fea16831af458c479df24c877ef7095b2fd15
+exl-id: 8ff26c28-4a88-4eb2-b359-5b1b0138dd4b
+TQID: https://experienceleague.adobe.com/bsiTHK--FPkvfF4bdYUnL-HbAMuhtBKj7wT2eCmd7hM
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 0%
+source-wordcount: 371
+ht-degree: 4%
 
 ---
 
@@ -32,7 +45,7 @@ Découvrez les [instructions de mise à niveau pour la version 4.6.0 du pack de 
 - Pour les mappages comportant des liens rompus, la publication du Salesforce échoue et la barre de progression s’affiche indéfiniment. (24963)
 - Si un lien externe contient un UUID, il passe en post-traitement et convertit le lien externe en lien UUID, rompant ainsi le lien dans l’éditeur web ainsi que sur les sites de publication. (22574)
 - Le `xref` est converti en lien relatif même lorsque la **portée** du lien est définie sur **externe**. (23059)
-- La génération native du PDF échoue pour le contenu avec l’attribut **chunk** défini sur **to-content**. (21772)
+- La génération native de PDF échoue pour le contenu avec l’attribut **chunk** défini sur **to-content**. (21772)
 - La boîte de dialogue **Modifier les propriétés** d&#39;une ligne de base n&#39;affiche pas les critères précédemment enregistrés pour la ligne de base dynamique. (23964)
 
 

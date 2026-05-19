@@ -5,9 +5,30 @@ hide: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/3ZkAlpDfF7-v0biHN9N5aiospS63Kr9veXsBqKHevtY
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: a44282cf-0adb-456f-8700-3ec7a3f89fd4
+  - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '6522'
+source-wordcount: 6522
 ht-degree: 1%
 
 ---
@@ -43,7 +64,7 @@ Une fois que vous disposez du programme d’installation, installez-le sur votre
 
 >[!IMPORTANT]
 >
->Si une ancienne version du plug-in est installée sur votre système, veillez à le désinstaller avant de lancer le processus d’installation. Pour obtenir des instructions de désinstallation **reportez-vous à la section** Désinstallation des packages de l’article [Comment utiliser les packages](https://helpx.adobe.com/fr/experience-manager/6-4/sites/administering/using/package-manager.html).
+>Si une ancienne version du plug-in est installée sur votre système, veillez à le désinstaller avant de lancer le processus d’installation. Pour obtenir des instructions de désinstallation **reportez-vous à la section** Désinstallation des packages de l’article [Comment utiliser les packages](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html).
 
 Effectuez les étapes suivantes sur le système sur lequel Oxygen XML Author est installé :
 
@@ -77,7 +98,7 @@ Effectuez les étapes suivantes sur le système sur lequel Oxygen XML Author est
 
 >[!IMPORTANT]
 >
->Si une ancienne version du plug-in est installée sur votre système, veillez à le désinstaller avant de lancer le processus d’installation. Voir la section **Désinstallation des packages** dans l’article [Comment utiliser les packages](https://helpx.adobe.com/fr/experience-manager/6-4/sites/administering/using/package-manager.html) pour obtenir des instructions de désinstallation.
+>Si une ancienne version du plug-in est installée sur votre système, veillez à le désinstaller avant de lancer le processus d’installation. Voir la section **Désinstallation des packages** dans l’article [Comment utiliser les packages](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) pour obtenir des instructions de désinstallation.
 
 Effectuez les étapes suivantes sur le système sur lequel Oxygen XML Author est installé :
 
@@ -116,7 +137,7 @@ En tant qu’administrateur AEM, procédez comme suit pour installer le package 
 
    `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   Le gestionnaire de packages gère les packages sur votre installation AEM locale. Pour plus d’informations sur l’utilisation du gestionnaire de packages, consultez [&#x200B; Utilisation des packages &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=fr) dans la documentation d’AEM.
+   Le gestionnaire de packages gère les packages sur votre installation AEM locale. Pour plus d’informations sur l’utilisation du gestionnaire de packages, consultez [&#x200B; Utilisation des packages &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) dans la documentation d’AEM.
 
    ![Gestionnaire de packages](images/package-manager.png) {width="650"}
 
@@ -590,7 +611,7 @@ Effectuez les étapes suivantes pour ouvrir une rubrique DITA dans Oxygen XML Au
    >
    >Si la rubrique n&#39;est pas extraite, elle est d&#39;abord extraite, puis ouverte dans Oxygen en mode édition.
 
-1. Sélectionnez Oxygen XML Author *&lt;version\>* dans la zone de message **Lancer l’application**. Vous pouvez sélectionner l’option **Mémoriser mon choix pour les liens AEM** pour enregistrer vos préférences.
+1. Sélectionnez Oxygen XML Author *&lt;version\>* dans la zone de message **Application Launch**. Vous pouvez sélectionner l’option **Mémoriser mon choix pour les liens AEM** pour enregistrer vos préférences.
 
 **Modifier une rubrique DITA**
 
@@ -603,7 +624,7 @@ Pour modifier une rubrique DITA dans Oxygen XML Author, procédez comme suit :
    >
    >Si la rubrique n&#39;est pas extraite, elle est d&#39;abord extraite, puis ouverte dans Oxygen en mode édition.
 
-1. Sélectionnez Oxygen XML Author *&lt;version\>* dans la zone de message **Lancer l’application**. Vous pouvez sélectionner l’option **Mémoriser mon choix pour les liens AEM** pour enregistrer vos préférences.
+1. Sélectionnez Oxygen XML Author *&lt;version\>* dans la zone de message **Application Launch**. Vous pouvez sélectionner l’option **Mémoriser mon choix pour les liens AEM** pour enregistrer vos préférences.
 1. Modifiez la rubrique dans Oxygen XML Author.
 1. Consultez la rubrique à partir du plug-in Oxygen pour AEM Guides.
 

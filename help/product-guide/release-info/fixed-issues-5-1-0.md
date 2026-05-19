@@ -1,10 +1,27 @@
 ---
 title: Notes de mise à jour | Correction de problèmes dans Adobe Experience Manager Guides version 5.1.0
 description: Découvrez les correctifs de la version 5.1.0 d’Adobe Experience Manager Guides.
-source-git-commit: 6c29d5540f48c850416db279b4392b6042c8ca2c
+exl-id: 08c35e97-10ca-4b75-892b-d95b79432158
+TQID: https://experienceleague.adobe.com/NPJCIq5JuyFf0E-Uf3GMxXmW6zxehES4f-iL9xeqEow
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1789'
-ht-degree: 1%
+source-wordcount: 1790
+ht-degree: 3%
 
 ---
 
@@ -23,7 +40,7 @@ Découvrez les [instructions de mise à niveau pour la version 5.1.0](upgrade-in
 - Les fichiers **CSS** et **Mise en page** dans les modèles PDF natifs présentent un comportement de verrouillage de fichier incohérent, ce qui permet d’apporter des modifications même lorsque les fichiers sont verrouillés. (GUIDES-26688)
 - L’actualisation de la page après l’ajout de boutons personnalisés au panneau de gauche crée des onglets en double. (GUIDES-30899)
 - Lorsque du contenu XML contenant des crochets angulaires (tel que &lt;/ ou />) est ajouté dans un élément `code block` dans une rubrique, l’élément de bloc de code apparaît vide dans la sortie finale. (GUIDES-31007)
-- Les valeurs des variables globales `canCheckIn` et `canCheckOut` ne sont pas correctement définies lorsqu’un fichier est extrait et archivé à partir de la barre d’outils de l’éditeur.(GUIDES-29890)
+- Les valeurs des variables globales `canCheckIn` et `canCheckOut` ne sont pas correctement définies lorsqu&#39;un fichier est extrait et archivé à partir de la barre d&#39;outils de l&#39;éditeur.(GUIDES-29890)
 - Lorsqu&#39;un plan DITA est sélectionné dans la vue Carte, le nombre de sélections est d&#39;abord affiché de manière incorrecte car les nœuds enfants du plan ne sont pas sélectionnés. Le nombre correct de sélections et l’inclusion de tous les nœuds enfants ne sont reflétés que lors de la sélection suivante. (GUIDES-25663)
 - Les fichiers Markdown ne sont pas récupérés lors d’une recherche dans le panneau Référentiel à l’aide du filtre **Rubrique DITA**. En outre, les fonctions **Rechercher et remplacer** ne fonctionnent pas pour les fichiers Markdown et le contenu associé. (GUIDES-27133)
 - Impossible de personnaliser la **liste déroulante du menu** de la barre d’outils de l’éditeur à l’aide du framework d’extension. Par conséquent, vous ne pouvez pas masquer ni afficher les boutons existants ni en ajouter de nouveaux dans la liste déroulante Menu . (GUIDES-28748)
@@ -32,7 +49,7 @@ Découvrez les [instructions de mise à niveau pour la version 5.1.0](upgrade-in
 - Lors de la création d’une rubrique dans l’interface utilisateur ou l’éditeur d’Assets, la rubrique ne s’ouvre pas automatiquement dans l’éditeur si le paramètre `xmleditor.uniquefilenames` est défini sur true dans `XMLEditorConfig`. (GUIDES-28171)
 - Les espaces ajoutés dans une équation MathML dans la vue Source ne sont pas conservés lors du changement de vue de l’éditeur. (GUIDES-26111)
 - Si vous ne fermez pas les connexions de session JCR lors de la mise à jour ou de la création de rubriques, des fuites de mémoire et des temps d’arrêt du service surviennent. (GUIDES-26282)
-- Faire glisser les colonnes modifie leur largeur de pourcentage en valeurs en pixels, ce qui entraîne des distorsions ou des incohérences dans les tableaux.(GUIDES-23128)
+- Faire glisser les colonnes modifie leur largeur de pourcentage en valeurs en pixels, ce qui entraîne des distorsions ou des désalignements dans les tableaux. (GUIDES-23128)
 - Lorsque du contenu est collé dans une `code block` ou lorsque des espaces sont ajoutés dans la `code block` et que la vue est changée, l’espacement est perdu. (GUIDES-27478)
 - Lors de l’ajout d’un mappage au `bookmap`, il est stocké dans `fmditatopicrefs` au lieu de `fmditamaprefs`. (GUIDES-25480)
 - La boîte de dialogue **Insérer une image** ne s’affiche pas correctement sur un écran haute résolution ou sur un écran agrandi, ce qui entraîne la disparition du titre de la figure et des champs de texte secondaire. (GUIDES-26459)
@@ -49,7 +66,7 @@ Découvrez les [instructions de mise à niveau pour la version 5.1.0](upgrade-in
 
 ## Gestion des ressources numériques
 
-- La copie d’un dossier contenant un grand nombre de ressources à partir de l’interface utilisateur d’Assets entraîne un délai d’expiration de l’API. L’opération continue de s’exécuter sur le serveur principal et se termine au bout d’un certain temps, mais aucun message de réussite ou d’échec, ou de notification n’est affiché dans l’interface utilisateur. (GUIDES-30900)
+- La copie d’un dossier contenant un grand nombre de ressources à partir de l’interface utilisateur d’Assets entraîne un délai d’expiration de l’API. L’opération continue de s’exécuter sur le serveur principal et se termine au bout d’un certain temps, mais aucun message de réussite ou d’échec, ni aucune notification n’est affiché dans l’UI. (GUIDES-30900)
 - L’opération de copier-coller effectuée sur un dossier dans l’interface utilisateur d’Assets échoue en raison d’erreurs de post-traitement. (GUIDES-30840)
 - L’opération de copier-coller échoue pour les dossiers contenant des ressources composites (ressources avec sous-ressources) dans l’interface utilisateur d’Assets. (GUIDES-28107)
 - Les dossiers contenant un grand nombre de ressources ne se chargent pas correctement dans le référentiel. (GUIDES-32500)
@@ -82,7 +99,7 @@ Découvrez les [instructions de mise à niveau pour la version 5.1.0](upgrade-in
 - Lors de la génération de pages du site AEM avec des titres qui incluent plusieurs mots séparés par des espaces, le titre de la carte affiche des tirets au lieu des espaces. (GUIDES-27903)
 - Pour le PDF natif, un nom de propriété de métadonnées non valide n’est pas résolu et s’affiche comme `unresolved property name` dans **propriétés du document**. (GUIDES-25680)
 - Le texte multiligne dans `codeblock` entraîne des problèmes de débordement de texte lors de la génération de PDF. (GUIDES-15541)
-- Lors de l’ajout de mappages à la collection de mappages, les ressources autres que les mappages (telles que les rubriques, etc.) s’affichent et les langues de mappage traduites ne sont pas correctement triées non plus.(GUIDES-25085)
+- Lors de l’ajout de mappages à la collection de mappages, les ressources autres que les mappages (comme les rubriques, etc.) sont affichées, et les langues de mappage traduites ne sont pas correctement triées non plus. (GUIDES-25085)
 - Dans la sortie AEM Sites héritée, les liens de section dans les rubriques imbriquées d’une carte ne sont pas résolus correctement lorsqu’ils sont définis manuellement en mode Source ou que le contenu est importé à partir d’une source externe. Au lieu d’accéder à la section prévue, il redirige vers la rubrique principale qui contient la rubrique imbriquée. (GUIDES-26103)
 - Si l&#39;attribut `scope=external` est absent des liens externes dans une rubrique DITA, la publication HTML5 échoue sans indiquer les fichiers dans lesquels cet attribut est absent des journaux d&#39;erreurs. (GUIDES-25969)
 - Impossible d’incorporer des liens vidéo dans le PDF natif, même si l’option **Incorporer des fichiers multimédias** est activée dans le paramètre prédéfini de PDF. (GUIDES-9989)
@@ -100,7 +117,7 @@ Découvrez les [instructions de mise à niveau pour la version 5.1.0](upgrade-in
 ## Plateforme
 
 - Des problèmes de performances tels que des temps de chargement plus longs et des délais d’expiration intermittents sont observés lors de l’utilisation de collections volumineuses. (GUIDES-29065, GUIDES-28793)
-- Vulnérabilités liées à l’utilisation de la bibliothèque Guava obsolète dans les composants AEM Guides chargés sur Experience Manager Guides.(GUIDES-27402)
+- Vulnérabilités liées à l’utilisation de la bibliothèque Guava obsolète dans les composants AEM Guides chargés sur Experience Manager Guides. (GUIDES-27402)
 
 ## Problèmes connus
 
@@ -110,6 +127,6 @@ Adobe a identifié les problèmes connus suivants pour la version 5.1.0 :
 - Le commentaire au niveau de la tâche le plus récent s’affiche dans l’e-mail de notification envoyé à l’initiateur de la tâche si le réviseur ou la réviseuse termine la tâche sans ajouter de commentaire. (GUIDES-33590)
 - Dans la boîte de dialogue Fusionner , la liste déroulante affiche incorrectement le Contenu principal au lieu d’afficher les versions disponibles de la rubrique sélectionnée. (GUIDES-30820)
 - Le fait de basculer entre des paramètres prédéfinis qui utilisent la même ligne de base désactive le bouton Enregistrer du paramètre prédéfini actuel. (GUIDES-28025)
-- Une ligne vide est automatiquement insérée lors du collage d’un nouveau contenu dans une nouvelle ligne au sein d’un élément de bloc de code.(GUIDES-27842)
+- Une ligne vide est automatiquement insérée lors du collage d&#39;un nouveau contenu dans une nouvelle ligne dans un élément de bloc de code.(GUIDES-27842)
 - Une rubrique dans un plan DITA ne parvient pas à publier dans la sortie AEM Sites lorsqu&#39;elle est utilisée à la fois en tant que keydef et topicref dans ses sous-plans. (GUIDES-22269)
 - Dans le panneau Propriétés du contenu , le champ Attributs se ferme automatiquement lorsque vous essayez de mettre à jour une référence à partir de la boîte de dialogue Mettre à jour le lien , empêchant la mise à jour du lien. (GUIDES-17767)

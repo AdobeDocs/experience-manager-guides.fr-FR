@@ -1,44 +1,58 @@
 ---
-title: Masquez l’option Créer DitaMap dans les options du menu contextuel Dossier pour des utilisateurs ou des groupes spécifiques.
-description: Découvrez comment personnaliser l’éditeur de weets en masquant l’option "DitaMap" dans le menu contextuel du dossier pour des utilisateurs/groupes spécifiques.
+title: Masquez l’option Créer une carte numérique dans les options de menu contextuel Dossier pour des utilisateurs ou des groupes spécifiques.
+description: Découvrez comment personnaliser l’éditeur web en masquant l’option « DitaMap » dans le menu contextuel du dossier pour des utilisateurs/groupes spécifiques
 exl-id: 796bfe3a-3950-4ade-9215-c33534791055
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/fAMBEOKlPA4KHsE81zfI-6EJ6zwaQOgRfx0w-cx-mmw
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 0%
+source-wordcount: 571
+ht-degree: 1%
 
 ---
 
-# Afficher/masquer &quot;Créer DitaMAP&quot; à partir du menu contextuel du dossier dans l’éditeur de texte web
+# Afficher/masquer « Créer DitaMAP » dans le menu contextuel du dossier dans l’éditeur web
 
-Dans cet article, nous allons apprendre à personnaliser l’éditeur Web de guides afin de masquer ou d’afficher l’option &quot;Créer une carte dynamique&quot; dans le menu contextuel du dossier en fonction des autorisations de l’utilisateur/du groupe.
-Dans ce cas d’utilisation, cette option sera masquée pour tous les utilisateurs non-auteurs.
+Dans cet article, nous allons apprendre à personnaliser l’éditeur web de Guides pour masquer ou afficher l’option « Créer une carte numérique » dans le menu contextuel de dossier en fonction des autorisations d’utilisateur/de groupe.
+Dans ce cas d’utilisation, nous masquerons cette option pour tous les utilisateurs non auteurs.
 
 ## Conditions préalables
 
-Nous utiliserons le package d’extension AEM Guides qui vous permet de personnaliser l’interface utilisateur de votre application selon vos besoins.
-Veuillez consulter cette [documentation](https://github.com/adobe/guides-extension/tree/main) pour plus d’informations sur le fonctionnement de Guides Extension Framework.
+Nous utiliserons le package d’extension AEM Guides qui vous permet de personnaliser l’interface utilisateur de votre application en fonction de vos besoins.
+Veuillez parcourir cette [documentation](https://github.com/adobe/guides-extension/tree/main) pour obtenir plus d’informations sur le fonctionnement de Guides Extension Framework.
 
-Commençons maintenant et apprenons à personnaliser le menu contextuel du dossier afin de masquer cette option pour tous les utilisateurs non-auteurs.
+Commençons maintenant et apprenons à personnaliser le menu contextuel du dossier pour masquer cette option à tous les utilisateurs non auteurs.
 
-Comme vous pouvez le voir sous le fragment de code, l’option &quot;créer DitaMap&quot; est visible pour un utilisateur auteur.
+Comme vous pouvez le voir dans le fragment de code ci-dessous, l’option « Créer un DitaMap » est visible pour un utilisateur auteur.
 
-![Afficher l’option Créer DitaMap](../../../assets/authoring/ditamap-show-author.png)
+![Afficher l’option Créer DitaMap &#x200B;](../../../assets/authoring/ditamap-show-author.png)
 
 Voyons maintenant comment masquer cette option à l’aide de Guides Extension Framework.
 
-## Procédure de mise en oeuvre
+## Étapes de mise en œuvre
 
 L’implémentation est divisée en plusieurs parties :
 
-- **Modifications dans Folder_options controller**
+- **Modifications dans le contrôleur Folder_options**
 
-  Un identifiant de contrôleur est associé à chaque menu contextuel. Ce contrôleur gère la fonctionnalité sur événement pour les différentes options de menu contextuel.
+  Chaque menu contextuel est associé à un ID de contrôleur. Ce contrôleur gère la fonctionnalité sur événement pour les différentes options du menu contextuel.
 
-  Dans cet exemple, nous allons personnaliser le menu contextuel du dossier pour masquer l’option &quot;Créer une carte dynamique&quot; pour les non-auteurs. Pour ce faire, nous allons apporter des modifications au fichier folder_options.ts présent sous /src dans le référentiel de structure de l’extension des guides.
+  Dans cet exemple, nous allons personnaliser le menu contextuel du dossier pour masquer l’option « Créer un DitaMap » pour les non-auteurs. Pour ce faire, nous apporterons des modifications au fichier folder_options.ts situé sous /src dans le référentiel de la structure d’extension guides.
 
-  &quot;viewState&quot; est utilisé comme &quot;REPLACE&quot; pour masquer cette option dans le menu contextuel.
-Nous appelons un nouveau widget dans cette option folder_options via la clé &quot;id&quot;.
+  Nous utilisons « viewState » comme « REPLACE » pour masquer cette option du menu contextuel.
+Nous appelons un nouveau widget dans ce dossier_options via la clé &#39;id&#39;.
 
 ```typescript
 const folderOptions = {
@@ -62,10 +76,10 @@ const folderOptions = {
 
 - **Création d’un nouveau widget pour gérer la logique**
 
-  Une nouvelle création de widgets (customoptions.ts) est nécessaire pour écrire la logique afin de masquer cette option pour les utilisateurs non-auteurs uniquement. Pour ce faire, nous avons utilisé la clé &quot;show&quot; qui agit comme une bascule dans notre structure JSON.
+  Une nouvelle création de widget (customoptions.ts) est nécessaire pour écrire la logique afin de masquer cette option pour les utilisateurs non auteurs uniquement. Pour ce faire, nous avons utilisé la clé « show » qui agit comme un bouton dans notre structure JSON.
 
-  Vous pouvez écrire votre propre servlet externe pour vérifier les détails du groupe. Vous pouvez ainsi personnaliser les options de menu de dossiers de votre groupe personnalisé.
-Dans cet exemple, nous avons utilisé l’appel &quot;rolesapi&quot; de l’AEM OOTB pour récupérer les détails de l’utilisateur et définir la réponse dans &quot;isAuthor&quot;, comme illustré ci-dessus dans les fragments de code.
+  Vous pouvez écrire votre propre servlet externe pour vérifier les détails du groupe. Vous pouvez ainsi personnaliser les options de menu des dossiers pour votre groupe personnalisé.
+Dans cet exemple, nous avons exploité l’appel « rolesapi » d’AEM prêt à l’emploi pour récupérer les détails de l’utilisateur et définir la réponse dans « isAuthor », comme illustré dans les fragments de code ci-dessus.
 
 ```typescript
 const folderOptions = {
@@ -81,16 +95,16 @@ const folderOptions = {
 };
 ```
 
-Grâce à cela, nous pouvons masquer le bouton avec le libellé &quot;Carte Dita&quot; en fonction de la valeur de &quot;show&quot;.
+Grâce à cela, nous sommes en mesure de masquer le bouton avec le libellé comme « Carte numérique » en fonction de la valeur de « show ».
 
-Nous avons ajouté un contrôleur pour définir l’attribut &#39;isAuthor&#39; dans le modèle, cela peut être effectué à l’aide de la syntaxe suivante dans le contrôleur.
+Nous avons ajouté un contrôleur pour définir l&#39;attribut &#39;isAuthor&#39; dans le modèle. Pour ce faire, utilisez la syntaxe suivante dans le contrôleur.
 
 ```typescript
 this.model.extraProps.set("key", value);
 ```
 
-Ici, la clé est &#39;isAuthor&#39; et la valeur est la réponse de l’appel rolesapi.
-Nous avons également défini l’événement &#39;createNewDitaMap&#39; pour activer l’option create DitaMap (pour les utilisateurs de création).
+Ici, la clé est « isAuthor » et la valeur est la réponse de l’appel rolesapi.
+Nous avons également défini l’événement « createNewDitaMap » pour activer l’option Créer DitaMap (pour les utilisateurs auteurs).
 
 ```typescript
 controller: {
@@ -115,24 +129,24 @@ controller: {
 
 - **Ajout du code personnalisé**
 
-  Importez le fichier folder_options.ts et customoptions.ts dans le fichier index.ts sous /src.
+  Importez les fichiers folder_options.ts et customoptions.ts dans le fichier index.ts sous /src.
 
 ## Tests
 
-- Connectez-vous à AEM avec un utilisateur qui ne fait pas partie du groupe d’auteurs. L’option Créer une carte dynamique est masquée dans le menu contextuel de n’importe quel dossier, comme illustré ci-dessous.
-Ce cas pratique a été ajouté à GIT. Veuillez trouver les ressources connexes ci-dessous.
+- Connectez-vous à AEM avec un utilisateur qui ne fait pas partie du groupe auteurs . L’option Créer une DitaMap est masquée dans le menu contextuel de n’importe quel dossier, comme illustré ci-dessous.
+Ce cas d’utilisation a été ajouté à GIT. Consultez les ressources associées ci-dessous.
 
-![Masquer l’option Créer DitaMap](../../../assets/authoring/ditamap-hide-non-author.png)
+![Masquer l’option Créer DitaMap &#x200B;](../../../assets/authoring/ditamap-hide-non-author.png)
 
 ### Ressources connexes
 
-- **Référentiel de base de la structure d’extension** - [GIT](https://github.com/adobe/guides-extension/tree/main)
+- **Référentiel de base du framework d’extension** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
-- **Documentation** - [&#x200B; sur Experience League](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+- **Documentation** - [sur Experience League](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **Cas d’utilisation courants documentés** - [&#x200B; sur Experience League](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
+- **Cas d’utilisation courants documentés** - [sur Experience League](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
-- **Référentiel public avec exemples** - [sur GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Reportez-vous à la branche sc-expert-session
+- **Référentiel public avec exemples** - [sur GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Reportez-vous à la branche sc-expert-session .
 
 ```
 

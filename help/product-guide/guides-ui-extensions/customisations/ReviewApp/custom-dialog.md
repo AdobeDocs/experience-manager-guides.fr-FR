@@ -2,17 +2,26 @@
 title: Boîte de dialogue personnalisée
 description: Comment ajouter une boîte de dialogue personnalisée
 role: User, Admin
-source-git-commit: 4f41609368b64415993b93be27162b069e7b2e32
+exl-id: 00ea7f6f-1130-433f-b557-c2ea552b17c7
+TQID: https://experienceleague.adobe.com/rKpSp3cAlzjL6ZBOAEAbmtP3FX0oAYOl962lkFSO0eo
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: 124
 ht-degree: 0%
 
 ---
 
-
 # Ajout d’une boîte de dialogue personnalisée
 
-Pour vous donner un aperçu de la façon d’ajouter une boîte de dialogue personnalisée dans l’application de révision, procédez comme suit :
+Pour obtenir un aperçu de la manière d’ajouter une boîte de dialogue personnalisée dans l’application de révision, procédez comme suit :
 
 ## Exemple d’utilisation
 
@@ -117,8 +126,8 @@ const acceptWithModification = {
 
 ## Appel d’une boîte de dialogue personnalisée
 
-Cet exemple présente les informations relatives à l’ajout d’un bouton pour ouvrir une boîte de dialogue personnalisée.
-Examinons à ce propos le panneau `review_comment`. Vous trouverez l’extension complète ici :
+Cet exemple montre comment réduire les informations relatives à l’ajout d’un bouton pour ouvrir une boîte de dialogue personnalisée.
+Prenons `review_comment` exemple. Vous pouvez trouver l’extension complète ici :
 [Commentaire de révision](../../examples/review_app_examples/review_comment.ts)
 
 ```typescript
@@ -166,7 +175,7 @@ const reviewComment = {
 }
 ```
 
-## Comment transmettre des args à une boîte de dialogue personnalisée
+## Comment transmettre des arguments à une boîte de dialogue personnalisée
 
-Ici, vous pouvez voir que nous transmettons `args` avec l’ID de boîte de dialogue et que nous transmettons une valeur onSuccess avec ce paramètre pour gérer un rappel en cas d’événement de succès.
-Nous pouvons également transmettre `onCancel` si nous voulons fournir des rappels personnalisés en un clic d’annulation et le gérer dans votre événement d’annulation dans la boîte de dialogue.
+Vous pouvez voir ici que nous transmettons des `args` avec l’ID de boîte de dialogue et que nous transmettons un onSuccess avec celui-ci pour gérer un rappel en cas d’événement de succès.
+Nous pouvons également transmettre des `onCancel` si nous voulons fournir des rappels personnalisés lors d’un clic ou d’une annulation et les gérer dans votre événement d’annulation dans la boîte de dialogue.

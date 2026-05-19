@@ -1,35 +1,46 @@
 ---
-title: Keyboard shortcuts in the Web Editor
-description: Discover time-saving keyboard shortcuts in the web editor of AEM Guides.
+title: Raccourcis clavier dans l’éditeur web
+description: Découvrez les raccourcis clavier qui vous permettent de gagner du temps dans l’éditeur web d’AEM Guides.
 feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 418412ab-cce6-4398-9f84-6f63285ffc6d
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/rN2rXTmX5z4eL0Qwr1USwm6xcGktAQ-V3t-KN-ZE9iM
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: 363
 ht-degree: 2%
 
 ---
 
-# Keyboard shortcuts in the Web Editor {#id2056B0A0WHT}
+# Raccourcis clavier dans l’éditeur web {#id2056B0A0WHT}
 
-There are many operations in the Web Editor that you can perform using the keyboard shortcuts. The following table lists these keyboard shortcuts:
+L’éditeur web comporte de nombreuses opérations que vous pouvez effectuer à l’aide des raccourcis clavier. Le tableau suivant répertorie les raccourcis clavier suivants :
 
 >[!NOTE]
 >
-> The letter keys in the keyboard shortcut are case-insensitive.
+> Les touches de lettre du raccourci clavier ne respectent pas la casse.
 
-## Keyboard shortcuts for Windows and macOS
+## Raccourcis clavier pour Windows et macOS
 
-| Operation in Web Editor | Windows | macOS |
+| Opération dans l’éditeur web | Windows | macOS |
 |-----------------------|-----------------|-----------------|
-| Apply bold formatting on selected text | ***Ctrl***+***B*** | ***Command***+***B*** |
-| Apply Italics formatting on selected text | ***Ctrl***+***I*** | ***Command***+***I*** |
-| Apply underline formatting on selected text | ***Ctrl***+***U*** | ***Command***+***U*** |
-| Focus on the left panel | **Ctrl***+**Shift**+***1*** | ***Command***+**Shift**+***1*** |
-| Focus on the right panel | **Ctrl***+**Shift**+***2*** | ***Command***+**Shift**+***2*** |
-| Focus on the current editor | **Ctrl***+**Shift**+***0*** | ***Commande***+**Maj**+***0*** |
+| Appliquer le format Gras au texte sélectionné | ***Ctrl***+***B*** | ***Commande***+***B*** |
+| Appliquer une mise en forme en italique au texte sélectionné | ***Ctrl***+***I*** | ***Commande***+***I*** |
+| Appliquer une mise en forme de soulignement au texte sélectionné | ***Ctrl***+***U*** | ***Commande***+***U*** |
+| Focus sur le panneau de gauche | **Ctrl***+**Maj**+***1*** | ***Commande***+**Maj**+***1*** |
+| Se concentrer sur le panneau de droite | **Ctrl***+**Maj**+***2*** | ***Commande***+**Maj**+***2*** |
+| Se concentrer sur l’éditeur actuel | **Ctrl***+**Maj**+***0*** | ***Commande***+**Maj**+***0*** |
 | Enregistrer le document en mode Création ou Source | ***Ctrl***+**Maj**+***S*** | ***Commande***+**Maj**+***S*** |
 | Enregistrer tous les documents ouverts en mode Auteur ou Source | ***Ctrl***+***S*** | ***Commande***+***S*** |
 | Afficher la boîte de dialogue Insérer un élément | ***Alt***+***Entrée*** | ***Option***+***Entrée*** |

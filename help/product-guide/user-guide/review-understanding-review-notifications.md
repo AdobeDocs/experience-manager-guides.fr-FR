@@ -4,9 +4,18 @@ description: Découvrez les différents types de notifications de révision et l
 feature: Reviewing
 role: User
 exl-id: dc452e7d-a317-4168-8015-9fa4a06666ea
-source-git-commit: 16688221c35e0b24c51cbff27953a93892cd0944
+TQID: https://experienceleague.adobe.com/qM0Vx84EClSsT6ACLJxUmX5RsDl4n6QM5mSp-l5cGGs
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: 738
 ht-degree: 0%
 
 ---
@@ -36,7 +45,7 @@ Le tableau ci-dessous présente un aperçu des différents types de notification
 | Révision demandée | Révision demandée pour **Homepage Review** | Demande par **auteur** | Révision demandée pour **Homepage Review** par **Author** | **Auteur** a mis à jour le document pour la tâche **Révision de la page d’accueil** en fonction de vos commentaires et demande à être révisé. Veuillez vérifier bien avant la date d’échéance **15 août 2025**. | **Réviseur** |
 | Révision terminée | Tâche de révision close : **Révision de la page d’accueil** | Fermée par **auteur** | Tâche de révision close : **Révision de la page d’accueil** | La tâche de révision **Révision de la page d’accueil** sous le projet **Réorganisation des WebDocs** a été fermée par **Auteur**. | **Auteur** ou **Initiateur de la tâche** , **Réviseur** |
 | Réviseur non affecté | Affectation annulée de la tâche de révision **Révision de la page d’accueil** | Non affecté par **auteur** | Affectation annulée de la tâche de révision **Révision de la page d’accueil** | L’affectation de vous a été annulée pour la tâche de révision **Révision de la page d’accueil** dans le projet **Réorganisation des WebDocs** par **Auteur**. | **Réviseur** |
-| Mention de balise | Mentionné dans le commentaire de tâche de révision pour **Révision de page d’accueil** | Mentionné par **auteur** | Mentionné dans le commentaire de tâche de révision pour **Révision de page d’accueil** | Vous avez été mentionné dans un commentaire sur la tâche **Révision de la page d’accueil** sous **Réorganisation des WebDocs** par **Auteur**. **Extrait de commentaire :** *« Veuillez mettre à jour la structure d’en-tête pour respecter les directives d’accessibilité. »* | **Utilisateur mentionné** |
+| Mention de balise | Mentionné dans le commentaire de tâche de révision pour **Révision de page d’accueil** | Mentionné par **auteur** | Mentionné dans le commentaire de tâche de révision pour **Révision de page d’accueil** | Vous avez été mentionné dans un commentaire sur la tâche **Révision de la page d’accueil** sous **Réorganisation des WebDocs** par **Auteur**. **Extrait de commentaire :** *« Veuillez mettre à jour la structure d’en-tête pour respecter les directives d’accessibilité.«* | **Utilisateur mentionné** |
 | Contenu mis à jour lors de la révision | Rubrique mise à jour dans la tâche de révision **Révision de la page d’accueil** | Mise à jour par **auteur** | Rubrique mise à jour dans la tâche de révision **Révision de la page d’accueil** | **Auteur** a mis à jour les versions de rubrique pour la tâche de révision **Révision de la page d’accueil**. Veuillez vérifier bien avant la date d’échéance **15 août 2025**. | **Réviseur** |
 | Rubriques ajoutées ou supprimées ou version mise à jour lorsqu’une tâche de révision est en cours avec un ou plusieurs réviseurs | Rubriques mises à jour dans la tâche de révision **Révision de la page d’accueil** | Mise à jour par **auteur** | Rubriques mises à jour dans la tâche de révision **Révision de la page d’accueil** | **Auteur** a mis à jour les versions de rubrique pour la tâche de révision **Révision de la page d’accueil**. Veuillez vérifier bien avant la date d’échéance **15 août 2025**. | **Réviseur** |
 

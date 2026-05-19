@@ -2,10 +2,24 @@
 title: Notes de mise à jour | Correction de problèmes dans Adobe Experience Manager Guides, version 2025.04.0
 description: Découvrez les correctifs de bugs de la version 2025.04.0 d’Adobe Experience Manager Guides as a Cloud Service.
 exl-id: ad3e95b5-4903-4387-8e4d-c4b9ba77fee2
-source-git-commit: 70078864379eedd82ae21da70614055c60f0b114
+TQID: https://experienceleague.adobe.com/v7tg4-eP4JVt9bR0S4Ld4lWb0YbdlT-uJc7PrXPT4Wg
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 3%
+source-wordcount: 764
+ht-degree: 6%
 
 ---
 
@@ -56,12 +70,12 @@ Adobe a identifié les problèmes connus suivants pour la version 2025.04.0 :
 
 - Le nombre de références dans l&#39;interface utilisateur de ligne de base n&#39;est pas mis à jour lors de la modification de la ligne de base. Il n’est mis à jour que lorsque les modifications sont enregistrées. (28015)
 - Lorsque plusieurs onglets sont ouverts dans l’éditeur, l’exécution d’une opération **Annuler** dans la vue **Source** d’un fichier rétablit la dernière modification, mais bascule également vers l’onglet précédemment ouvert. (27891)
-- L’option **Vérification orthographique d’AEM** apparaît dans la liste déroulante **Menu**, même si l’option **Vérification orthographique du navigateur** est activée dans les paramètres de l’éditeur. (27993)
+- L’option **Vérification orthographique d’** apparaît dans la liste déroulante **Menu**, même si l’option **Vérification orthographique du navigateur** est activée dans les paramètres de l’éditeur. (27993)
 - Une version supplémentaire est créée et affichée dans le panneau **Historique des versions** lorsque vous modifiez une image dans l’interface utilisateur d’Assets et que vous l’enregistrez. (28001)
-- Une ligne vide est automatiquement insérée lors du collage d’un nouveau contenu dans une nouvelle ligne au sein d’un élément de `codeblock`.(27842)
+- Une ligne vide est automatiquement insérée lors du collage d&#39;un nouveau contenu dans une nouvelle ligne au sein d&#39;un élément `codeblock`.(27842)
 - Le fait de basculer entre des paramètres prédéfinis qui utilisent la même ligne de base désactive le bouton **Enregistrer** du paramètre prédéfini actuel. (28025)
 - Une rubrique dans un plan DITA ne parvient pas à publier dans la sortie AEM Sites lorsqu&#39;elle est utilisée à la fois comme `keydef` et comme `topicref` dans ses sous-plans. (22269)
-- Une erreur d’application se produit lorsque plusieurs rubriques d’un mappage sont modifiées, puis fermées à l’aide de l’option **Tout fermer**, avec le paramètre **Demander lors de l’enregistrement de la version à la fermeture** activé.(27931)
+- Une erreur d&#39;application se produit lorsque plusieurs rubriques d&#39;une carte sont modifiées, puis fermées à l&#39;aide de l&#39;option **Fermer tout**, avec le paramètre **Demander lors de l&#39;enregistrement de la version lors de la fermeture** activé.(27931)
 
 Adobe a identifié le problème connu suivant lié à une solution :
 

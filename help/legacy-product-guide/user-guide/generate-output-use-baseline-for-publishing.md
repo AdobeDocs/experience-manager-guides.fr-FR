@@ -5,9 +5,21 @@ feature: Publishing
 role: User
 hide: true
 exl-id: d4892eca-2715-4bd6-8ac8-0a8edff2c4f8
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/gekOxsimiTMF2Ch3cRsMAkMMnI7tRKVKZmdTVU9cxTs
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1972'
+source-wordcount: 1972
 ht-degree: 0%
 
 ---
@@ -53,7 +65,7 @@ Pour créer une ligne de base, procédez comme suit :
 
    Lorsque vous sélectionnez **Libellé**, vous avez également la possibilité d&#39;utiliser la dernière version des rubriques sur lesquelles le libellé spécifié n&#39;est pas appliqué. Si vous ne sélectionnez pas cette option et qu&#39;un sujet ou un fichier multimédia ne porte pas le libellé spécifié, le processus de création de la ligne de base échouera. Pour plus d’informations sur l’ajout de libellés, voir [&#x200B; Utiliser des libellés &#x200B;](web-editor-use-label.md#).
 
-   - **Version le** &lt;*horodatage*\> : sélectionne la version des rubriques à la date et à l’heure spécifiées. Notez que l’heure que vous indiquez ici correspond au fuseau horaire de votre serveur AEM. Si votre serveur se trouve dans un fuseau horaire différent, les rubriques sont sélectionnées en fonction du fuseau horaire de votre serveur et non de votre fuseau horaire local.
+   - **Version sur** &lt;*horodatage*\> : sélectionne la version des rubriques à la date et à l’heure spécifiées. Notez que l’heure que vous indiquez ici correspond au fuseau horaire de votre serveur AEM. Si votre serveur se trouve dans un fuseau horaire différent, les rubriques sont sélectionnées en fonction du fuseau horaire de votre serveur et non de votre fuseau horaire local.
 
    Une fois que vous avez sélectionné un libellé ou une version en fonction de la date, toutes les rubriques et tous les fichiers multimédias référencés dans la carte sont sélectionnés en conséquence. Cette sélection de rubriques ne s’affiche pas dans l’interface utilisateur, mais elle est enregistrée en arrière-plan.
 

@@ -1,28 +1,38 @@
 ---
-title: API Java à utiliser avec les lignes de base et les libellés
-description: Découvrez les API Java à utiliser avec les lignes de base et les libellés
+title: API Java pour utiliser la ligne de base et les libellés
+description: Découvrez les API Java utilisables avec les références et les libellés
 exl-id: 0e2ba1bb-f5bf-44da-848a-a55385460c83
 feature: Java-Based API Baseline
 role: Developer
 level: Experienced
-source-git-commit: 8c80a4da8e61909aab0f2db81ef97149774b36c4
+TQID: https://experienceleague.adobe.com/3vpR2zCp5a6dBn6RkSKgBeU7cS3Me-HE0KQxc-duYCk
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: 944
 ht-degree: 2%
 
 ---
 
-# API Java à utiliser avec les lignes de base et les libellés {#id175UB30E05Z}
+# API Java pour utiliser la ligne de base et les libellés {#id175UB30E05Z}
 
 >[!NOTE]
 >
-> Vous pouvez utiliser des API Java disponibles dans Experience Manager Guides pour créer des modules externes personnalisés et étendre les processus prêts à l’emploi. Cet article sera archivé en novembre 2024.
-> Affichez [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) pour obtenir la documentation la plus récente et détaillée sur l’utilisation de l’API Java.
+> Vous pouvez utiliser les API Java disponibles dans Experience Manager Guides pour créer des modules externes personnalisés et étendre les workflows prêts à l’emploi. Cet article sera archivé en novembre 2024.
+> Consultez [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) pour obtenir la documentation la plus récente et détaillée sur l’utilisation de l’API Java.
 
 
 Les API Java suivantes vous permettent de créer une ligne de base et d’ajouter des libellés aux fichiers d’une ligne de base. Ces API sont disponibles sous la forme d’un lot. Vous devez inclure ce lot dans votre code pour utiliser ces API.
 
-Détails du lot :
+Détails du bundle :
 
 - ID de groupe : **com.adobe.fmdita**
 
@@ -38,14 +48,14 @@ Détails du lot :
   public class BaselineUtils extends Object
   ```
 
-  La classe **BaselineUtils** contient des méthodes pour créer des lignes de base et appliquer des étiquettes aux fichiers d’une ligne de base.
+  La classe **BaselineUtils** contient des méthodes permettant de créer des lignes de base et d&#39;appliquer des libellés aux fichiers d&#39;une ligne de base.
 
 
-## Création d’une ligne de base
+## Créer une ligne de base
 
-La méthode de création de ligne de base comporte deux versions : une pour la solution XML Documentation version 3.5 et une autre pour les versions antérieures à la version 3.5 \(qui inclut les versions 3.4, 3.3 et 3.2\). L’API version 3.5 permet la création d’une ligne de base à l’aide d’un libellé, de références directes et de références indirectes dans un fichier map.
+La méthode Créer une ligne de base comporte deux versions : une pour la solution XML Documentation version 3.5 et d’autres pour les versions antérieures à la version 3.5 \(qui inclut les versions 3.4, 3.3 et 3.2\). L’API version 3.5 permet de créer une ligne de base à l’aide d’un libellé, de références directes et de références indirectes dans un fichier de mappage.
 
-L’autre version de l’API utilise la date et l’heure pour créer une ligne de base. Cette API est conservée à des fins de rétrocompatibilité avec les systèmes utilisant la solution XML Documentation 3.4, 3.3 ou 3.2.
+L’autre version de l’API utilise la date et l’heure pour créer une ligne de base. Cette API est conservée pour assurer la rétrocompatibilité avec les systèmes utilisant la solution XML Documentation 3.4, 3.3 ou 3.2.
 
 **Syntaxe \(pour la version 3.5\)** :
 
@@ -63,18 +73,18 @@ throws GuidesApiException
 
 | Nom | Type | Description |
 |----|----|-----------|
-| `session` | javax.jcr.Session | Session JCR valide. La session utilisateur doit disposer d’autorisations de lecture et d’écriture pour le mappage DITA et d’autorisations de lecture pour tous les fichiers de référence inclus dans la ligne de base. |
-| `sourcePath` | Chaîne | Chemin d’accès absolu au fichier de mappage DITA dans AEM référentiel. |
+| `session` | javax.jcr.Session | Une session JCR valide. La session utilisateur doit disposer des autorisations de lecture et d&#39;écriture pour le plan DITA et des autorisations de lecture pour tous les fichiers de référence inclus dans la ligne de base. |
+| `sourcePath` | Chaîne | Chemin d&#39;accès absolu au fichier de mappage DITA dans le référentiel AEM. |
 | `baselineTitle` | Chaîne | Titre unique de la ligne de base. |
-| `label` | Chaîne | Sélectionnez la version d’une rubrique à laquelle est appliqué le libellé donné. |
-| `directContext` | LinkedHashMap&lt;String, Object\> | Les configurations sur la base desquelles la rubrique \(contenu\) directement référencée est sélectionnée, l’ordre mentionné dans la carte est suivi pour résoudre une version. <br> Si, après une itération sur toutes les clés de la carte, aucune version n’est trouvée, le processus de création de ligne de base échoue. <br> Si HashMap est vide \(envoyez une carte vide et non nulle pour la valeur par défaut\), par défaut, elle est renseignée comme suit : <br>`directContext.put("label", label);` <br> `directContext.put("latest", true);` <br> Si vous souhaitez que la création de la ligne de base ne sélectionne que la version d’une étiquette donnée et échoue en l’absence d’une telle version, placez la clé `label` et le libellé sur lequel vous souhaitez créer la ligne de base. |
-| `indirectContext` | LinkedHashMap&lt;String, Object\> | Les configurations sur la base desquelles la rubrique référencée indirectement \(contenu référencé\) est sélectionnée, l’ordre mentionné dans la carte est suivi pour résoudre une version. <br> Si, après une itération sur toutes les clés de la carte, aucune version n’est trouvée, le processus de création de ligne de base échoue. <br> Si HashMap est vide \(envoyez un mappage vide et non nul par défaut\), il est renseigné par défaut comme suit : <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br> Si vous souhaitez qu’il s’agisse de la dernière version au lieu de récupérer automatiquement une version, puis remplacez : <br>`indirectContext.put("pickAutomatically", null);` <br> _avec :_ <br>`indirectContext.put("latest", true)` |
+| `label` | Chaîne | Sélectionnez la version d&#39;une rubrique à laquelle est appliqué le libellé donné. |
+| `directContext` | LinkedHashMap&lt;String, Object\> | Les configurations sur la base desquelles la rubrique directement référencée \(content\) est sélectionnée, l’ordre mentionné dans le mappage est suivi pour résoudre une version. <br> Si, après itération sur toutes les clés du mappage, aucune version n’est trouvée, le processus de création de la ligne de base échoue. <br> Si la carte de hachage est vide \(envoyez une carte vide et non nulle pour la valeur par défaut\), elle est renseignée par défaut comme suit : <br>`directContext.put("label", label);` <br> `directContext.put("latest", true);` <br> Si vous souhaitez que la création de la ligne de base ne sélectionne que la version d&#39;un libellé donné et échoue en l&#39;absence d&#39;une telle version, placez la clé `label` et le libellé sur lesquels vous souhaitez créer la ligne de base. |
+| `indirectContext` | LinkedHashMap&lt;String, Object\> | Les configurations sur la base desquelles la rubrique indirectement référencée \(contenu référencé\) est sélectionnée, l’ordre mentionné dans le mappage est suivi pour résoudre une version. <br> Si, après itération sur toutes les clés du mappage, aucune version n’est trouvée, le processus de création de la ligne de base échoue. <br> Si la carte de hachage est vide \(envoyez une carte vide et non nulle pour la valeur par défaut\), elle est renseignée par défaut comme suit : <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br> Si vous souhaitez qu’elle soit la dernière version au lieu de sélectionner automatiquement une version, remplacez : <br>`indirectContext.put("pickAutomatically", null);` <br> _par :_<br>`indirectContext.put("latest", true)` |
 
 **Renvoie** :
-Nom de la ligne de base, qui est le nom de noeud de la ligne de base dans le référentiel JCR. Le titre de la ligne de base nouvellement créée s’affiche pour l’utilisateur sur la page Ligne de base pour le mappage DITA.
+Le nom de la ligne de base, qui est le nom de nœud de la ligne de base dans le référentiel JCR. Le titre de la nouvelle ligne de base s&#39;affiche pour l&#39;utilisateur sur la page Ligne de base du plan DITA.
 
 **Exception** :
-Renvoie ``ItemExistExceptiom`` s’il existe déjà une ligne de base portant le même titre.
+Renvoie ``ItemExistExceptiom`` si une ligne de base portant le même titre existe déjà.
 
 **Syntaxe \(pour les versions 3.4, 3.3 et 3.2\)**
 
@@ -90,20 +100,20 @@ Date versionDate) throws GuidesApiException
 
 | Nom | Type | Description |
 |----|----|-----------|
-| `session` | javax.jcr.Session | Session JCR valide. La session utilisateur doit disposer d’autorisations de lecture et d’écriture pour le mappage DITA et d’autorisations de lecture pour tous les fichiers de référence inclus dans la ligne de base. |
-| ``sourcePath`` | Chaîne | Chemin d’accès absolu au fichier de mappage DITA dans AEM référentiel. |
+| `session` | javax.jcr.Session | Une session JCR valide. La session utilisateur doit disposer des autorisations de lecture et d&#39;écriture pour le plan DITA et des autorisations de lecture pour tous les fichiers de référence inclus dans la ligne de base. |
+| ``sourcePath`` | Chaîne | Chemin d&#39;accès absolu au fichier de mappage DITA dans le référentiel AEM. |
 | `baselineTitle` | Chaîne | Titre unique de la ligne de base. |
-| `versionDate` | Date | La ligne de base est créée à l’aide des versions des rubriques\ (directement référencées à partir du mappage DITA\) telles que à cette date. Spécifiez la date au format `d-MM-yyyy H:mm`. |
+| `versionDate` | Date | La ligne de base est créée à l&#39;aide des versions des rubriques\(directement référencées à partir du plan DITA\) à cette date. Spécifiez la date au format `d-MM-yyyy H:mm`. |
 
 **Renvoie** :
-Nom de la ligne de base, qui est le nom de noeud de la ligne de base dans le référentiel JCR. Le titre de la ligne de base nouvellement créée s’affiche pour l’utilisateur sur la page Ligne de base pour le mappage DITA.
+Le nom de la ligne de base, qui est le nom de nœud de la ligne de base dans le référentiel JCR. Le titre de la nouvelle ligne de base s&#39;affiche pour l&#39;utilisateur sur la page Ligne de base du plan DITA.
 
 **Exception** :
 Throws ``RepositoryException.``
 
-## Application de libellés
+## Appliquer des libellés
 
-La méthode ``applyLabel`` applique une ou plusieurs étiquettes aux fichiers d’une ligne de base.
+La méthode ``applyLabel`` applique un ou plusieurs libellés aux fichiers d&#39;une ligne de base.
 
 **Syntaxe**:
 
@@ -119,17 +129,17 @@ public static void applyLabel(Session session,
 
 | Nom | Type | Description |
 |----|----|-----------|
-| `session` | javax.jcr.Session | Session JCR valide. |
-| `sourcePath` | Chaîne | Chemin d’accès absolu au fichier de mappage DITA dans AEM référentiel. |
-| ``baselineName`` | Chaîne | Nom du noeud de ligne de base sur lequel le libellé doit être appliqué. Pour obtenir le nom du noeud de ligne de base, vous pouvez utiliser la méthode [\#id185NFF0085Z](#id185NFF0085Z) ou vérifier le noeud de lignes de base du mappage DITA dans CRXDE.<br> **Remarque :** Le libellé est appliqué à la version des fichiers directement référencés à partir du fichier map dans la ligne de base. |
-| `label` | Chaîne | Libellé appliqué aux fichiers de la ligne de base. Assurez-vous que le libellé ne contient pas les caractères suivants : &sol; &virgua; &deux; &virgule; &loc; &virgule; &joker; &virgule; &virgule; &vert; &virgule; &ast; <br> Si vous souhaitez définir plusieurs libellés, séparez-les par une virgule, par exemple, Libellé2. |
+| `session` | javax.jcr.Session | Une session JCR valide. |
+| `sourcePath` | Chaîne | Chemin d&#39;accès absolu au fichier de mappage DITA dans le référentiel AEM. |
+| ``baselineName`` | Chaîne | Nom du nœud de base sur lequel le libellé doit être appliqué. Pour obtenir le nom du nœud de ligne de base, vous pouvez utiliser la méthode [\#id185NFF0085Z](#id185NFF0085Z) ou vérifier le nœud de lignes de base du plan DITA dans CRXDE.<br> **Remarque :** le libellé est appliqué aux versions des fichiers qui sont directement référencées à partir du fichier de mappage dans la ligne de base. |
+| `label` | Chaîne | Libellé appliqué aux fichiers de la ligne de base. Assurez-vous que le libellé ne contient pas les caractères suivants : &sol; &comma; &colon; &comma; &lbrack; &comma; &rbrack; &comma; &vert; &comma; &ast; <br> Si vous souhaitez définir plusieurs libellés, séparez les libellés par une virgule ; par exemple, Libellé1, Libellé2. |
 
 **Exception** :
 Lance `RepositoryException`.
 
-## Supprimer des étiquettes
+## Supprimer les libellés
 
-La méthode ``deleteLabel`` supprime une ou plusieurs étiquettes des fichiers d’une ligne de base.
+La méthode ``deleteLabel`` supprime un ou plusieurs libellés des fichiers d&#39;une ligne de base.
 
 **Syntaxe**:
 
@@ -145,13 +155,13 @@ String label) throws GuidesApiException
 
 | Nom | Type | Description |
 |----|----|-----------|
-| `session` | javax.jcr.Session | Session JCR valide. |
-| `sourcePath` | Chaîne | Chemin d’accès absolu au fichier de mappage DITA dans AEM référentiel. |
-| `baselineName` | Chaîne | Nom de la ligne de base à partir de laquelle le libellé doit être supprimé. <br> **Remarque :** Le libellé est supprimé de la version des fichiers qui sont directement référencés à partir du fichier map dans la ligne de base. |
-| `label` | Chaîne | Libellé à supprimer des fichiers de la ligne de base. <br> Si vous souhaitez supprimer plusieurs étiquettes, séparez-les par une virgule ; par exemple, Libellé1, Libellé2. |
+| `session` | javax.jcr.Session | Une session JCR valide. |
+| `sourcePath` | Chaîne | Chemin d&#39;accès absolu au fichier de mappage DITA dans le référentiel AEM. |
+| `baselineName` | Chaîne | Nom de la ligne de base dont le libellé doit être supprimé. <br> **Remarque :** libellé est supprimé de la version des fichiers directement référencés à partir du fichier de mappage dans la ligne de base. |
+| `label` | Chaîne | Libellé à supprimer des fichiers de la ligne de base. <br> Si vous souhaitez supprimer plusieurs libellés, séparez-les par une virgule ; par exemple, Libellé1, Libellé2. |
 
 **Renvoie** :
-La carte avec la paire *key:value* de `path:deletedlabels` pour tous les fichiers de la ligne de base.
+Mappage avec paire de `path:deletedlabels` *clé:value* pour tous les fichiers de la ligne de base.
 
 **Exception** :
 Lance ``RepositoryException`, `VersionException`, `Exception``.

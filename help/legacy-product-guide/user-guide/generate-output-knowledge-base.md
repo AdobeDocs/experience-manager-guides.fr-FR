@@ -5,9 +5,24 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 5fc81de9-9ae0-4cd4-a7ef-b52eed2479f7
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/HJXph-LwnRky6LmJspO7ipWaeTAAuloZb5paG6HqZJQ
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: e2fdbf15-a7e4-4d2a-84cc-bd581e74b56d
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: 1166
 ht-degree: 2%
 
 ---
@@ -16,7 +31,7 @@ ht-degree: 2%
 
 Vous pouvez créer le préréglage **Base de connaissances** à partir de l’éditeur web :
 
-Dans le panneau Référentiel, ouvrez le fichier de mappage DITA dans **Vue Carte**, puis dans l&#39;onglet **Sortie**, sélectionnez l&#39;icône + pour créer un paramètre prédéfini de sortie, puis sélectionnez **Base de connaissances** dans la liste déroulante **Type** de la boîte de dialogue **Nouveau paramètre prédéfini de sortie**. Vous pouvez nommer le paramètre prédéfini et choisir la cible pour générer la sortie à l’aide de **Adobe Experience Manager**, **Salesforce** ou **ServiceNow**.
+Dans le panneau Référentiel, ouvrez le fichier de mappage DITA dans **Vue Carte**, puis dans l&#39;onglet **Sortie**, sélectionnez l&#39;icône + pour créer un paramètre prédéfini de sortie, puis sélectionnez **Base de connaissances** dans la liste déroulante **Type** de la boîte de dialogue **Nouveau paramètre prédéfini de sortie**. Vous pouvez nommer le paramètre prédéfini et choisir la cible pour générer la sortie à l’aide de **&#x200B;**, **Salesforce** ou **ServiceNow**.
 
 
 
@@ -52,36 +67,36 @@ Dans l&#39;éditeur Web, les paramétrages suivants ont été organisés sous le
 | Champ de contenu d’article | Vous pouvez disposer de différents champs et d’une mise en page unique pour chaque modèle de type d’enregistrement. Utilisez ces champs pour saisir des informations spécifiques en fonction du type d’article. Par exemple, vous pouvez afficher le titre, la réponse et l’équation d’un article de FAQ. |
 | Catégories | Sélectionnez une catégorie dans la liste déroulante pour publier les rubriques de la table des matières de cette catégorie sur le site Salesforce. |
 
-You can also view the following options in the Salesforce and ServiceNow presets:
+Vous pouvez également afficher les options suivantes dans les paramètres prédéfinis Salesforce et ServiceNow :
 
 | Options | Description |
 | --- | --- |
-| Remove the topic heading from the article body. | Select this option to remove the topic heading from the article in the published output. |
-| Upload as draft | Select this option to upload the topic to share it as a draft before making it available to the users. |
-| Upload images | Select this option if you want any images in topics to be included in the published output. |
-| Upload linked documents | Select this option to include the documents linked in topics in the published output. |
+| Supprimez l’en-tête de rubrique du corps de l’article. | Sélectionnez cette option pour supprimer l’en-tête de rubrique de l’article dans la sortie publiée. |
+| Charger en tant que brouillon | Sélectionnez cette option pour charger la rubrique afin de la partager en tant que brouillon avant de la rendre disponible pour les utilisateurs. |
+| Chargement des images | Sélectionnez cette option si vous souhaitez que des images des rubriques soient incluses dans la sortie publiée. |
+| Charger les documents liés | Sélectionnez cette option pour inclure les documents liés dans les rubriques dans la sortie publiée. |
 
 ### Adobe Experience Manager
 
 >[!NOTE]
 >
->You can use Adobe Experience Manager Knowledge Base preset if your administrator has configured it. For more details, view [Article-based publishing from the Web Editor](/help/product-guide/install-guide/configure-article-based-publishing.md) section in the Installation and Configuration Guide.
+>Vous pouvez utiliser le paramètre prédéfini de la base de connaissances Adobe Experience Manager si votre administrateur l’a configuré. Pour plus d’informations, consultez la section [&#x200B; Publication basée sur des articles dans l’éditeur web &#x200B;](/help/product-guide/install-guide/configure-article-based-publishing.md) du guide d’installation et de configuration.
 
-| Adobe Experience Manager options | Description |
+| Options de Adobe Experience Manager | Description |
 | --- | --- |
-| Use article path | Select this option to view the **Article path** of the folder that contains the Knowledge Base templates. |
-| Article Path | This field appears if you select the option **Use article path**. Browse to select the  Knowledge Base Site within your Adobe Experience Manager repository where the output is stored. |
-| Site | Use this field to select the required Adobe Experience Manager Knowledge Base. You can configure knowledge bases in the Adobe Experience Manager site to store the content based on the permissions. Les articles de ce plan DITA peuvent être publiés dans ces bases de connaissances. |
-| Catégorie | Select a category from the dropdown to publish the topics of the TOC  in that category on the Adobe Expereince Manager site. |
-| Section Template and Article Template | These are the structural components used to organize the content of your output. These are predefined in the Adobe Experience Manager Site template. |
-| Workflow de post-génération | When you choose this option, a new Post Generation Workflow dropdown list containing all workflows configured in Adobe Experience Manager  is displayed . Vous devez sélectionner un workflow à exécuter une fois le workflow de génération de sortie terminé.<br>Learn more about how to [customize post-output generation workflow](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4) section in the Installation and Configuration Guide. |
+| Utiliser le chemin de l’article | Sélectionnez cette option pour afficher le **chemin d’accès à l’article** du dossier contenant les modèles de la base de connaissances. |
+| Chemin de l’article | Ce champ s’affiche si vous sélectionnez l’option **Utiliser le chemin de l’article**. Accédez au site de la base de connaissances de votre référentiel Adobe Experience Manager où la sortie est stockée. |
+| Site | Utilisez ce champ pour sélectionner la base de connaissances Adobe Experience Manager requise. Vous pouvez configurer les bases de connaissances sur le site Adobe Experience Manager pour stocker le contenu en fonction des autorisations. Les articles de ce plan DITA peuvent être publiés dans ces bases de connaissances. |
+| Catégorie | Sélectionnez une catégorie dans la liste déroulante pour publier les rubriques de la table des matières de cette catégorie sur le site Adobe Experience Manager. |
+| Modèle de section et modèle d’article | Il s’agit des composants structurels utilisés pour organiser le contenu de votre sortie. Ils sont prédéfinis dans le modèle de site Adobe Experience Manager. |
+| Workflow de post-génération | Lorsque vous choisissez cette option, une nouvelle liste déroulante Workflow de post-génération contenant tous les workflows configurés dans Adobe Experience Manager s’affiche . Vous devez sélectionner un workflow à exécuter une fois le workflow de génération de sortie terminé.<br>Découvrez comment [personnaliser le workflow de génération post-sortie](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4) dans le Guide d’installation et de configuration. |
 
 >[!TIP]
 > 
->Select **Refresh** ![refresh icon](images/navtitle-refresh-icon.svg) to populate the respective templates in the fields as per the Knowledge Base template that you have selected.
+>Sélectionnez **Actualiser** ![icône d’actualisation](images/navtitle-refresh-icon.svg) pour renseigner les modèles respectifs dans les champs en fonction du modèle de la base de connaissances que vous avez sélectionné.
 
 ### Articles
 
-This tab displays the tree or hierarchical view of the map. Choose the topics you want to publish to a knowledge base. Expand a TOC node and choose the topics that you want to publish.
+Cet onglet affiche l&#39;arborescence ou la vue hiérarchique de la carte. Choisissez les rubriques que vous souhaitez publier dans une base de connaissances. Développez un nœud de table des matières et sélectionnez les rubriques à publier.
 
-**Parent topic:** [Understanding the output presets](generate-output-understand-presets.md)
+**Rubrique parente :** [Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)

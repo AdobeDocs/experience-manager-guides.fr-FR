@@ -5,9 +5,26 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/ga5xY7Qjubm-GcHwxt6QWbLU5MZ-VXTD3ML2pHFBOIE
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: cdab8659-8d50-4417-b6fd-762f347c13ee
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '9267'
+source-wordcount: 9267
 ht-degree: 1%
 
 ---
@@ -26,7 +43,7 @@ Vous pouvez mettre à niveau votre version actuelle de Experience Manager Guides
 - Si vous utilisez la version 4.3.x, 4.2, 4.2.1 (correctif 4.2.1.3), 4.1 ou 4.1.x, vous devez effectuer la mise à niveau vers la version 4.4 avant d’effectuer la mise à niveau vers la version 5.0.0.
 - Si vous utilisez la version 4.0, vous devez effectuer la mise à niveau vers la version 4.2 avant d’effectuer la mise à niveau vers la version 4.3.x.
 - Si vous utilisez la version 3.8.5, vous devez effectuer la mise à niveau vers la version 4.0 avant de passer à la version 4.2.
-- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html).
+- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 >[!NOTE]
@@ -59,7 +76,7 @@ Avant d’exécuter le processus, vous devez effectuer certaines tâches. Les so
 
 >[!NOTE]
 >
-> Ce processus de mise à niveau s’applique uniquement de la version 3.8.5 à la version 4.0. Pour le processus de mise à niveau de la version 3.4 ou ultérieure vers la version 3.8.5, reportez-vous à la section *Mettre à niveau Experience Manager Guides* du guide d’installation spécifique au produit disponible sur [l’archive PDF de l’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html).
+> Ce processus de mise à niveau s’applique uniquement de la version 3.8.5 à la version 4.0. Pour le processus de mise à niveau de la version 3.4 ou ultérieure vers la version 3.8.5, reportez-vous à la section *Mettre à niveau Experience Manager Guides* du guide d’installation spécifique au produit disponible sur [l’archive PDF de l’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 
@@ -1299,7 +1316,7 @@ Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000
 
 ## Procédure de réindexation de damAssetLucene
 
-La définition d’index est mise à jour pour damAssetLucene avec des guides. Consultez [cet article](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-16460) pour réindexer damAssetLucene après la mise à niveau vers la version 5.0.0.
+La définition d’index est mise à jour pour damAssetLucene avec des guides. Consultez [cet article](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) pour réindexer damAssetLucene après la mise à niveau vers la version 5.0.0.
 
 >[!NOTE]
 >
@@ -1309,7 +1326,7 @@ La définition d’index est mise à jour pour damAssetLucene avec des guides. C
 
 >[!IMPORTANT]
 >
-> Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, veillez à effectuer d’abord la mise à niveau d’AEM avant de poursuivre la mise à niveau vers Experience Manager Guides 5.1.0. Pour plus d’informations, consultez la section [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/fr/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, veillez à effectuer d’abord la mise à niveau d’AEM avant de poursuivre la mise à niveau vers Experience Manager Guides 5.1.0. Pour plus d’informations, consultez la section [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 **Conditions préalables**
 
@@ -1466,7 +1483,7 @@ Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000
 
 ## Procédure de réindexation de damAssetLucene
 
-La définition d’index est mise à jour pour damAssetLucene avec des guides. Consultez [cet article](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-16460) pour réindexer damAssetLucene après la mise à niveau vers la version 5.1.0.
+La définition d’index est mise à jour pour damAssetLucene avec des guides. Consultez [cet article](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) pour réindexer damAssetLucene après la mise à niveau vers la version 5.1.0.
 
 >[!NOTE]
 >

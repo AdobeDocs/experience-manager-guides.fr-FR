@@ -4,9 +4,20 @@ description: Découvrez comment créer et modifier des fichiers DIVATAL à l’a
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/VkX-SA8LgL-O3Gws5pGoj9RIFgrcn7NADVIDzBagxeg
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: ca593223-d11a-4a52-b369-a8e081e71737
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: 1537
 ht-degree: 0%
 
 ---
@@ -15,7 +26,7 @@ ht-degree: 0%
 
 Les fichiers DITAVAL sont utilisés pour générer une sortie conditionnelle. Dans une seule rubrique, vous pouvez ajouter des conditions à l’aide d’attributs d’élément pour conditionner le contenu. Ensuite, vous créez un fichier DITAVAL dans lequel vous spécifiez les conditions qui doivent être sélectionnées pour générer du contenu et quelle condition doit être exclue de la sortie finale.
 
-Adobe Experience Manager Guides vous permet de créer et modifier facilement des fichiers DITAVAL à l&#39;aide de l&#39;éditeur DITAVAL. L&#39;éditeur DITAVAL récupère les attributs (qui peuvent être utilisés comme conditions) définis dans votre système et vous pouvez les utiliser pour créer ou modifier des fichiers DITAVAL. Pour plus d’informations sur la création et la gestion des conditions dans Adobe Experience Manager, consultez la section [Administration des balises](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=fr) de la documentation de Adobe Experience Manager.
+Adobe Experience Manager Guides vous permet de créer et modifier facilement des fichiers DITAVAL à l&#39;aide de l&#39;éditeur DITAVAL. L&#39;éditeur DITAVAL récupère les attributs (qui peuvent être utilisés comme conditions) définis dans votre système et vous pouvez les utiliser pour créer ou modifier des fichiers DITAVAL. Pour plus d’informations sur la création et la gestion des conditions dans Adobe Experience Manager, consultez la section [Administration des balises](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) de la documentation de Adobe Experience Manager.
 
 Les sections suivantes présentent les options disponibles pour un fichier DITAVAL dans Experience Manager Guides.
 

@@ -4,10 +4,32 @@ description: Dernière version d’Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/7j-OqZiXh2jVJwQRVsnKkJJSzf614jjiaOJ8fUl8oQQ
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '3644'
-ht-degree: 1%
+source-wordcount: 3665
+ht-degree: 3%
 
 ---
 
@@ -26,7 +48,7 @@ Vous pouvez facilement mettre à niveau votre version actuelle d’AEM Guides ve
 
 Pour plus d’informations, voir [Instructions de mise à niveau](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
 
-## 4,1,3 | Notes de mise à jour
+## 4.1.3 | Notes de mise à jour
 
 ## Matrice de compatibilité
 
@@ -122,7 +144,7 @@ Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 
   **Solution** : utilisez l&#39;onglet de base du tableau de bord DITA Map.
 
-## 4,1 | Notes de mise à jour
+## 4.1 | Notes de mise à jour
 
 Ces notes de mise à jour couvrent les instructions de mise à niveau, les nouvelles fonctionnalités et les améliorations de la version 4.1.x d’Adobe Experience Manager Guides (ultérieurement appelée *AEM Guides*).
 
@@ -249,7 +271,7 @@ Selon la configuration, vous avez la possibilité d’enregistrer les modificati
 
 ![Fermeture du fichier](assets/file-close-save-changes-unlock.png)
 
-Pour plus d’informations, voir la section *Scénarios de fermeture et d’enregistrement de fichier* dans le guide Utilisation d’Adobe Experience Manager Guides .* La fonctionnalité **Insérer le mot-clé** a été améliorée. Vous pouvez désormais trouver plus facilement un mot-clé à insérer, car les mots-clés sont répertoriés par ordre alphabétique. Vous pouvez également rechercher un ou plusieurs mots-clés en saisissant une chaîne de recherche dans la zone de recherche.
+Pour plus de détails, consultez la section *Fichier, fermer et enregistrer des scénarios* dans le guide Utilisation d’Adobe Experience Manager Guides.* La fonction **Insérer un mot-clé** a été améliorée. Vous pouvez désormais trouver plus facilement un mot-clé à insérer, car les mots-clés sont répertoriés par ordre alphabétique. Vous pouvez également rechercher un ou plusieurs mots-clés en saisissant une chaîne de recherche dans la zone de recherche.
 
 ![insérer le mot-clé](assets/insert-keyword.png)
 
@@ -360,7 +382,7 @@ Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 * AEM Guides ne copie pas les propriétés non uniques d’une ressource lorsqu’une ressource est copiée et collée. (8241)
 * Le nom de fichier du plan DITA n&#39;est pas converti en minuscules lors de la création. (8383)
 * La description de la tâche de révision n’apparaît pas dans l’e-mail de notification envoyé lorsqu’une nouvelle tâche de révision est affectée. (8507)
-* Télécharger l’API map | Les dossiers temporaires ne sont pas nettoyés en cas d’erreurs de processus de téléchargement. (8523)
+* API de mappage de téléchargement | Dossiers temporaires non nettoyés en cas d’erreurs de processus de téléchargement. (8523)
 * `columnpreview.jsp` dépend du fournisseur de services.  (8543)
 * Les traitements de sortie avec un statut tel que « En attente » ou « En cours d’exécution » ne sont pas nettoyés dans le tableau de bord de publication.  (8569)
 * Icône par défaut sélectionnée lors de la génération d’un rapport à l’aide du bouton Générer, même si la propriété de l’icône est définie. (8573)
@@ -398,7 +420,7 @@ Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 * Le panneau Réutiliser le contenu se bloque lors de la recherche de caractères spéciaux `[` ou `*` .(8279)
 * Lors de la création d’une entrée Glossentry, l’éditeur web affiche le contenu sous forme de note. (8384)
 * L’éditeur XML supprime la nouvelle ligne dans le bloc de code. (8522)
-* Le passage entre les modes source et auteur marque la rubrique comme sale et nécessite que le contenu soit à nouveau enregistré.(8524)
+* Le passage entre les modes source et auteur marque le sujet comme sale et nécessite que le contenu soit à nouveau enregistré.(8524)
 * Impossible de fermer une rubrique déverrouillée. (8545)
 * Il n’existe aucune option permettant de choisir le chemin d’accès de la base de connaissances dans les paramètres prédéfinis de publication basés sur des articles. (8636)
 * Les attributs sont manquants lors de l’ajout d’un chapitre dans la libellule à l’aide du glisser-déposer à partir de la vue Favoris. (8746)

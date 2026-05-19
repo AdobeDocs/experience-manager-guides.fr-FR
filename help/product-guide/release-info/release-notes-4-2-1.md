@@ -4,10 +4,26 @@ description: Découvrez les correctifs et comment effectuer une mise à niveau v
 exl-id: a75ec83f-564b-4243-b5c5-341049521adb
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/nuIWAZRdaGgE-lpjfhk2ptAOeglH8cVhxKZMVPcncYY
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 1%
+source-wordcount: 874
+ht-degree: 5%
 
 ---
 
@@ -81,11 +97,11 @@ Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 * Difficulté à faire glisser et à déposer un élément de liste, le texte est déplacé à la place de l’élément de liste. (11566)
 * Lors de la création dans l’élément affiché en vert (Suivi des modifications), le nouveau contenu s’affiche en tant que suivi des modifications même si ce dernier est désactivé. (7021)
 * Le navigateur (éditeur web) se fige lors du chargement du contenu avec le schéma personnalisé. (11211)
-* PDF natif | Lors de la création d’un paramètre prédéfini de sortie avec l’option « Ajouter au profil de dossier », la génération PDF échoue avec une exception de pointeur Null. (10950)
-* PDF natif | La balise d’image ajoute un attribut display-inline à toutes les images. (10653)
+* PDF natif | Lors de la création d’un préréglage de sortie avec l’option « Ajouter au profil de dossier », la génération PDF échoue avec une exception de pointeur Null. (10950)
+* La balise Native PDF | Image ajoute un attribut display-inline à toutes les images. (10653)
 * L’insertion des fichiers multimédias audio et vidéo échoue au format YouTube sous l’icône **Insérer un fichier multimédia**. (11320)
 * Une erreur de validation se produit lorsqu’une carte est créée à l’aide du modèle qui comporte un élément de titre spécialisé. (11212)
-* Éditeur web | Un espace insécable est ajouté dans l’éditeur XML lors de la modification d’une rubrique. (11786)
+* Éditeur web | Un espace insécable est ajouté dans l’éditeur XML lors de l’édition d’une rubrique. (11786)
 
 ### Gestion
 
@@ -96,16 +112,16 @@ Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 
 ### Publication
 
-* PDF natif | La publication d’un contenu avec une classe de sortie et des crochets () entraîne un gel de la publication. (11936)
-* Sortie JSON | Mappez des métadonnées dont la valeur de propriété est `"value in spaces and double quotes"` entraîne une erreur de publication. (11933)
+* Native PDF | La publication de contenu ayant une classe de sortie avec des crochets() entraîne un gel de la publication. (11936)
+* Sortie JSON | Mappez des métadonnées dont la valeur de propriété est `"value in spaces and double quotes"` pour générer une erreur de publication. (11933)
 * Le problème se produit dans la recherche de site AEM (ne fonctionne pas au-delà de 2 à 3 nœuds de niveau). (11352)
 * Éditeur web | Le chemin de sortie et le modèle ne peuvent pas être sélectionnés dans le paramètre prédéfini AEM. (11530)
-* Lors de la mise à niveau de la version 4.1.x vers la version 4.2 , le moteur PDF natif ne fonctionne pas et renvoie la valeur NullPointerException, même pour le système d’exploitation pris en charge.(11526)
+* Lors de la mise à niveau de la version 4.1.x vers la version 4.2, le moteur Native PDF ne fonctionne pas et renvoie une exception NullPointerException même pour le système d’exploitation pris en charge.(11526)
 * Le processus de téléchargement de PDF ne fonctionne pas correctement dans l’éditeur web. (11496)
-* PDF natif | Les commentaires de brouillon sont masqués par défaut dans la sortie générée. (10560)
-* PDF natif | navtitle n’est pas honoré pour topichead. (10509)
+* PDF natif | Les commentaires Brouillon sont masqués par défaut dans la sortie générée. (10560)
+* Native PDF | navtitle n’est pas honoré pour topichead. (10509)
 * PDF natif | L’ajout de `xref` à une image n’effectue pas le rendu de l’image sur le PDF généré. (11346)
-* PDF natif | la note de bas de page présente dans l’en-tête du tableau met le texte en gras et aligné au centre dans le pied de page correspondant dans la sortie PDF. (10610)
+* PDF natif | la note de bas de page présente dans l’en-tête du tableau mène au texte en gras et aligné centré dans le pied de page correspondant dans la sortie PDF. (10610)
 
 ### Traduction
 

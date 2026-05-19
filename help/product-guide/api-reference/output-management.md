@@ -5,9 +5,20 @@ exl-id: dab654f5-555d-4a89-bc94-55b1e938f255
 feature: Rest API Output Management
 role: Developer
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/7vLVD99129fILw0haQUZFlUn5y7pqMcTxakT6OeW3Uo
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+subfeature_v2:
+  - id: ac94cb1b-ba77-439b-aa1f-2d8a6bec3dc3
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: 1204
 ht-degree: 6%
 
 ---
@@ -21,7 +32,7 @@ Les API REST suivantes sont disponibles pour gérer les sorties dans AEM Guides.
 Méthode POST qui récupère tous les paramètres prédéfinis de sortie configurés pour un plan DITA.
 
 **URL de la requête** :
-http://*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/publishlistener
+*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/publishlistener
 
 **Paramètres** :
 
@@ -36,7 +47,7 @@ Renvoie un tableau d’objets de paramètre prédéfini de sortie JSON, chaque o
 | Elément | Description |
 |-------|-----------|
 | `outputName` | Nom du préréglage de sortie. Les noms de sortie sont uniques dans l&#39;étendue du plan DITA dans lequel ils sont définis. |
-| `outputType` | Type de sortie générée à l’aide de ce préréglage, par exemple AEM Site, PDF, EPUB ou autre. Les options disponibles sont les suivantes : <br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   PERSONNALISÉ |
+| `outputType` | Type de sortie générée à l’aide de ce préréglage, par exemple AEM Site, PDF, EPUB ou autre. Les options disponibles sont les suivantes : <br>- AEMSITE <br>- PDF <br>- HTML5 <br>- EPUB <br>- PERSONNALISÉ |
 | `outputTitle` | Nom descriptif pour les paramètres prédéfinis de sortie. Il est utilisé pour définir la valeur de la propriété Nom du paramètre pour le paramètre prédéfini de sortie. |
 | `ditaValPathList` | Tableau de chemins d’accès aux fichiers DITAVAL à utiliser pour générer la sortie souhaitée. |
 | `targetPath` | Chemin où publier ou stocker la sortie. |
@@ -46,7 +57,7 @@ Renvoie un tableau d’objets de paramètre prédéfini de sortie JSON, chaque o
 | `generateTOC` | *\(Pour la sortie de site AEM\)* Spécifiez si une table des matières est générée \(true\) ou non \(false\). |
 | `generateBreadcrumbs` | *\(Pour la sortie de site AEM\)* indiquez si les chemins de navigation sont générés \(true\) ou non \(false\). |
 | `overwriteStrategy` | *\(Pour la sortie de site AEM\)* Spécifiez si les fichiers de la destination sont remplacés \(true\) ou non \(false\). |
-| `pdfGenerator` | Spécifiez le moteur de génération PDF à utiliser. Les valeurs possibles sont les suivantes : <br>-   DITAOT <br>-   FMPS |
+| `pdfGenerator` | Spécifiez le moteur de génération PDF à utiliser. Les valeurs possibles sont : <br>- DITAOT <br>- FMPS |
 
 >[!NOTE]
 >
@@ -57,7 +68,7 @@ Renvoie un tableau d’objets de paramètre prédéfini de sortie JSON, chaque o
 Méthode POST qui crée un nouveau paramètre prédéfini de sortie pour un plan DITA.
 
 **URL de la requête** :
-http://*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/publishlistener
+*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/publishlistener
 
 **Paramètres** :
 
@@ -66,7 +77,7 @@ http://*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/publishlistener
 | `:operation` | Chaîne | Oui | Nom de l’opération appelée. La valeur de ce paramètre est ``createoutput``.<br> **Remarque :** la valeur ne respecte pas la casse. |
 | `sourcePath` | Chaîne | Oui | Chemin d&#39;accès absolu au fichier de mappage DITA. |
 | `outputTitle` | Chaîne | Oui | Nom descriptif pour les paramètres prédéfinis de sortie. Il est utilisé pour définir la valeur de la propriété Nom du paramètre pour le paramètre prédéfini de sortie.<br> **Remarque :** lorsqu’un nouveau paramètre prédéfini de sortie est créé, le système principal attribue un nom unique au paramètre prédéfini de sortie à partir du titre donné. |
-| `outputType` | Chaîne | Oui | Type de sortie générée à l’aide de ce préréglage, par exemple AEM Site, PDF, EPUB ou autre. Les options disponibles sont les suivantes : <br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   PERSONNALISÉ |
+| `outputType` | Chaîne | Oui | Type de sortie générée à l’aide de ce préréglage, par exemple AEM Site, PDF, EPUB ou autre. Les options disponibles sont les suivantes : <br>- AEMSITE <br>- PDF <br>- HTML5 <br>- EPUB <br>- PERSONNALISÉ |
 
 **Valeurs de réponse** :
 
@@ -79,7 +90,7 @@ http://*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/publishlistener
 Méthode POST qui enregistre les modifications apportées à un paramètre prédéfini de sortie.
 
 **URL de la requête** :
-http://*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/publishlistener
+*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/publishlistener
 
 **Paramètres** :
 
@@ -97,7 +108,7 @@ Renvoie une réponse HTTP 200 \(Successful\).
 Une méthode POST qui récupère un paramètre prédéfini de sortie existant.
 
 **URL de la requête** :
-http://*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/publishlistener
+*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/publishlistener
 
 **Paramètres** :
 
@@ -112,7 +123,7 @@ http://*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/publishlistener
 | Elément | Description |
 |-------|-----------|
 | `outputName` | Nom du préréglage de sortie. Les noms de sortie sont uniques dans l&#39;étendue du plan DITA dans lequel ils sont définis. |
-| `outputType` | Type de sortie générée à l’aide de ce préréglage, par exemple AEM Site, PDF, EPUB ou autre. Les options disponibles sont les suivantes : <br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   <br> PERSONNALISÉ |
+| `outputType` | Type de sortie générée à l’aide de ce préréglage, par exemple AEM Site, PDF, EPUB ou autre. Les options disponibles sont les suivantes : <br>- AEMSITE <br>- PDF <br>- HTML5 <br>- EPUB <br>- <br> PERSONNALISÉ |
 | `outputTitle` | Nom descriptif pour les paramètres prédéfinis de sortie. Il est utilisé pour définir la valeur de la propriété Nom du paramètre pour le paramètre prédéfini de sortie. |
 | `ditaValPathList` | Tableau de chemins d’accès aux fichiers DITAVAL à utiliser pour générer la sortie souhaitée. |
 | `targetPath` | Chemin où publier ou stocker la sortie. |
@@ -123,7 +134,7 @@ http://*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/publishlistener
 | `generateTOC` | \(Pour la sortie de site AEM\) Spécifiez si une table des matières est générée \(true\) ou non \(false\). |
 | `generateBreadcrumbs` | \(Pour la sortie du site AEM\) Spécifiez si les chemins de navigation sont générés \(true\) ou non \(false\). |
 | `overwriteFiles` | \(Pour la sortie de site AEM\) Spécifiez si les fichiers de la destination sont remplacés \(true\) ou non \(false\). |
-| `pdfGenerator` | Spécifiez le moteur de génération PDF à utiliser. Les valeurs possibles sont les suivantes : <br>-   DITAOT <br>-   FMPS |
+| `pdfGenerator` | Spécifiez le moteur de génération PDF à utiliser. Les valeurs possibles sont : <br>- DITAOT <br>- FMPS |
 
 >[!NOTE]
 >
@@ -134,7 +145,7 @@ http://*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/publishlistener
 Méthode GET qui génère une sortie à l’aide d’un ou de plusieurs paramètres prédéfinis de sortie.
 
 **URL de la requête** :
-http://*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/publishlistener
+*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/publishlistener
 
 **Paramètres** :
 
@@ -152,7 +163,7 @@ Renvoie une réponse HTTP 200 \(Successful\).
 Méthode GET qui génère une sortie incrémentielle pour un site AEM à l’aide d’un ou de plusieurs paramètres prédéfinis de sortie.
 
 **URL de la requête** :
-http://*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/publishlistener
+*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/publishlistener
 
 **Paramètres** :
 
@@ -197,7 +208,7 @@ Renvoie une réponse HTTP 200 \(Successful\).
 Méthode POST qui supprime un paramètre prédéfini de sortie.
 
 **URL de la requête** :
-http://*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/publishlistener
+*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/publishlistener
 
 **Paramètres** :
 

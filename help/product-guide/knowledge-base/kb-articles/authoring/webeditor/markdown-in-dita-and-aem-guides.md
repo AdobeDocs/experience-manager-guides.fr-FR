@@ -1,57 +1,70 @@
 ---
-title: Utilisation de Markdown dans DITA AEM Guides
-description: Migration et utilisation du markdown dans DITA AEM Guides
+title: Utiliser Markdown dans DITA AEM Guides
+description: Migrer et utiliser Markdown dans DITA AEM Guides
 author: Pulkit Nagpal(punagpal)
 exl-id: a94c0129-df40-4b61-ac60-679b2ffe7e86
-source-git-commit: f971be4be9e2d32618616727cd9c682941dd3fb2
+TQID: https://experienceleague.adobe.com/z41KjrBkAeDaH-iKXOFLH44qOQElziip1FqcRhnKaUI
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: 281
 ht-degree: 0%
 
 ---
 
-# Utilisation de Markdown dans AEM Guides
+# Utiliser Markdown dans AEM Guides
 
 ## Options disponibles
 
-Il existe deux options pour utiliser des fichiers Markdown dans AEM Guides :
+Il existe deux options pour utiliser les fichiers Markdown dans AEM Guides :
 
-- Option 1 : importez les balises existantes dans AEM Guides et utilisez-les directement dans ditamap pour publier.
+- Option 1 : importez les markdown existants dans AEM Guides et utilisez-les directement dans ditamap pour la publication
 
-- Option 2 : convertir des fichiers de balisage existants en DITA
+- Option 2 : convertir les fichiers Markdown existants en DITA
 
 Parlons de chaque option :
 
-### Option 1 : importez les balises existantes dans AEM Guides et utilisez-les directement dans ditamap pour publier.
+### Option 1 : importer le markdown existant dans AEM Guides et l’utiliser directement dans ditamap pour la publication
 
-Il dispose d’une configuration plus simple et d’une mise en oeuvre plus rapide. Toutefois, l’utilisation limitée des fonctionnalités d’AEM Guides comme la réutilisation du contenu.
+Sa configuration est simplifiée et sa mise en œuvre plus rapide. Cependant, l’utilisation limitée des fonctionnalités d’AEM Guides, telles que la réutilisation du contenu,
 
-L’utilisateur doit ajouter l’attribut `format="markdown" ` ou `format="mdita"` pour que les moteurs de publication comprennent le type de fichier et publient en conséquence.
+L’utilisateur ou l’utilisatrice doit ajouter des `format="markdown" ` ou des `format="mdita"` d’attributs afin que les moteurs de publication comprennent le type de fichier et publient en conséquence.
 
-Exemple de fichier : [Markdown Ditamap](https://acrobat.adobe.com/id/urn:aaid:sc:AP:da31137e-be84-44fb-8974-d038eeff0283)
+Exemple de fichier : [Markdown Ditamap] (:aaid:sc:AP:da31137e-be84-44fb-8974-d038eeff0283)
 
 ![capture d’écran pour référence](../../assets/authoring/markdown_map.png)
 
 
-#### Publish vers PDF et sortie web
+#### Publication sur PDF et sortie web
 
-AEM Guides propose l’option Web (Html5/AEM Site) et PDF (Native-PDF/DITA-OT) pour publier un fichier ditamap avec du contenu Markdown.
+AEM Guides offre à la fois l’option Web (Html5/AEM Site) et PDF (Native-PDF/DITA-OT) pour publier un ditamap avec du contenu Markdown
 
-### Option 2 : convertir Markdown au format DITA
+### Option 2 : convertir Markdown en format DITA
 
-Utilisation complète des fonctionnalités d’AEM Guides qui permettent la réutilisation du contenu, la traduction conditionnelle de traitement, la référence, etc. Toutefois, il faudrait des efforts initiaux pour convertir le format `.md` au format `.dita`.
+Utilisation complète des fonctionnalités d’AEM Guides qui permettent la réutilisation du contenu, le traitement conditionnel, la traduction, la ligne de base, etc. Cependant, des efforts initiaux seraient nécessaires pour convertir le `.md` au format `.dita`.
 
-Markdown vers DITA peut être converti à l’aide d’outils externes comme Adobe FrameMaker et DITA-OT.
+Markdown peut être converti en DITA à l’aide d’outils externes tels qu’Adobe FrameMaker et DITA-OT.
 
 
-Pour Adobe FrameMaker, voir : [Import markdown](https://www.adobe.com/in/products/framemaker/features.html#import-markdown)
+Pour Adobe FrameMaker, voir : [Import Markdown](https://www.adobe.com/in/products/framemaker/features.html#import-markdown)
 
-Pour DITA-OT, reportez-vous à : [Markdown as Input](https://www.dita-ot.org/dev/topics/markdown-input.html)
+Pour DITA-OT, reportez-vous à : [Markdown comme entrée](https://www.dita-ot.org/dev/topics/markdown-input.html)
 
-Exemple de fichier converti à l’aide d’Adobe FrameMaker : [Markdown to DITA sample](https://acrobat.adobe.com/id/urn:aaid:sc:AP:874881f3-ba43-410c-abc6-2df899536d79)
+Exemple de fichier converti à l’aide d’Adobe FrameMaker : [exemple Markdown vers DITA] (:aaid:sc:AP:874881f3-ba43-410c-abc6-2df899536d79)
 
-#### Publish vers PDF et sortie web
+#### Publication sur PDF et sortie web
 
-Une fois les fichiers Markdown convertis en DITA, l’utilisateur peut facilement publier la sortie dans n’importe quel format disponible dans AEM Guides.
+Une fois les fichiers Markdown convertis en DITA, l’utilisateur peut publier facilement la sortie dans n’importe quel format disponible dans AEM Guides.
 
-Formats disponibles dans AEM Guides : [Formats de sortie](../../../../user-guide/generate-output-understand-presets.md)
+Formats disponibles dans AEM Guides : [formats de sortie](../../../../user-guide/generate-output-understand-presets.md)

@@ -4,10 +4,21 @@ description: Version d’octobre d’Adobe Experience Manager Guides as a Cloud 
 exl-id: 38638080-625c-49c3-9e54-56cc23831546
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/w-fw81jYGDRDrmn98Dzn-hYIkOZzT0B3-4-y-bcxdz4
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 1%
+source-wordcount: 489
+ht-degree: 3%
 
 ---
 
@@ -37,7 +48,7 @@ Cette section répertorie la matrice de compatibilité pour les applications log
 
 | Version d’AEM Guides as a Cloud | Fenêtres du connecteur d&#39;oxygène | Mac du connecteur d&#39;oxygène | Modifier dans Oxygen Windows | Modifier dans Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2022.10.0 | 2,7,13 | 2,7,13 | 2,3 | 2,3 |
+| 2022.10.0 | 2.7.13 | 2.7.13 | 2,3 | 2,3 |
 |  |  |  |  |  |
 
 
@@ -63,12 +74,12 @@ Sélectionnez un ou plusieurs paramètres prédéfinis et générez rapidement l
 
 Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 
-* PDF natif | Une erreur se produit lors de la suppression des rubriques réservées aux ressources de la sortie PDF. (10554)
-* PDF natif | Des clés vides apparaissent dans la sortie PDF. (10553)
-* PDF natif | `navtitle` pour `topichead` n’est pas honoré. (10509)
+* Native PDF | Erreur lors de la suppression de rubriques réservées aux ressources de la sortie PDF. (10554)
+* PDF natif | Les clés vides apparaissent dans la sortie PDF. (10553)
+* Native PDF | `navtitle` pour `topichead` n’est pas honoré. (10509)
 * PDF natif | Prise en charge nécessaire pour les versions du JDK amd64. (10465)
-* PDF natif | Impossible de masquer les sujets de première ligne de la table des matières. (10355)
+* Native PDF | Impossible de masquer les rubriques de front-office de la table des matières. (10355)
 * PDF natif | Le redémarrage du numéro de page dans la mise en page du chapitre lance la numérotation de manière aléatoire à partir de la fin du chapitre précédent. (10154)
-* Navigateur Chrome | Lorsque vous faites glisser et déposez un élément de l’interface utilisateur, l’écran devient vide. Par exemple, lorsque vous faites glisser une condition depuis le panneau Conditions. (10524)
+* Navigateur Chrome | L’écran devient vide lorsque vous faites glisser un élément de l’interface utilisateur. Par exemple, lorsque vous faites glisser une condition depuis le panneau Conditions. (10524)
 * Les propriétés de nœud sont supprimées après l’opération de copier-coller d’une ressource. (10053)
 * En cliquant sur **Fermer** les utilisateurs étaient redirigés vers les ressources , l’expérience a été corrigée pour rediriger les utilisateurs vers la page d’accueil d’AEM. (9654)

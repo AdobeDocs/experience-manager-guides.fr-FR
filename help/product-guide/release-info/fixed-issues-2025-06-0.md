@@ -1,10 +1,25 @@
 ---
-title: Notes de mise à jour | Correction de problèmes dans la version 2025.06.0 d’Adobe Experience Manager Guides
+title: Notes de mise à jour | Correction de problèmes dans Adobe Experience Manager Guides, version 2025.06.0
 description: Découvrez les correctifs de bugs de la version 2025.06.0 d’Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 0f362ab3-0fae-4eba-bbd6-0b64ae1f2599
-source-git-commit: c137f18d3cb85ed47547d5523c4dea08c22f9560
+TQID: https://experienceleague.adobe.com/kfgmTuMdfq1c1IUcTKiPef9ijJ0tG-fPUuoJlaQEhQA
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: 514
 ht-degree: 4%
 
 ---
@@ -20,7 +35,7 @@ Découvrez les [instructions de mise à niveau pour la version 2025.06.0](upgrad
 ## Création
 
 - Si vous ne fermez pas les connexions de session JCR lors de la mise à jour ou de la création de rubriques, des fuites de mémoire et des temps d’arrêt du service surviennent. (GUIDES-26282)
-- Faire glisser les colonnes modifie leur largeur de pourcentage en valeurs en pixels, ce qui entraîne des distorsions ou des incohérences dans les tableaux.(GUIDES-23128)
+- Faire glisser les colonnes modifie leur largeur de pourcentage en valeurs en pixels, ce qui entraîne des distorsions ou des désalignements dans les tableaux. (GUIDES-23128)
 - Lorsque du contenu est collé dans une `code block` ou lorsque des espaces sont ajoutés dans la `code block` et que la vue est changée, l’espacement est perdu. (GUIDES-27478)
 - Lors de l’ajout d’un mappage au `bookmap`, il est stocké dans `fmditatopicrefs` au lieu de `fmditamaprefs`. (GUIDES-25480)
 - La boîte de dialogue **Insérer une image** ne s’affiche pas correctement sur un écran haute résolution ou sur un écran agrandi, ce qui entraîne la disparition du titre de la figure et des champs de texte secondaire. (GUIDES-26459)
@@ -34,7 +49,7 @@ Découvrez les [instructions de mise à niveau pour la version 2025.06.0](upgrad
 - Lors de la génération de pages du site AEM avec des titres qui incluent plusieurs mots séparés par des espaces, le titre de la carte affiche des tirets au lieu des espaces. (GUIDES-27903)
 - Pour le PDF natif, un nom de propriété de métadonnées non valide n’est pas résolu et s’affiche comme `unresolved property name` dans **propriétés du document**. (GUIDES-25680)
 - Le texte multiligne dans `codeblock` entraîne des problèmes de débordement de texte lors de la génération de PDF. (GUIDES-15541)
-- Lors de l’ajout de mappages à la collection de mappages, les ressources autres que les mappages (telles que les rubriques, etc.) s’affichent et les langues de mappage traduites ne sont pas correctement triées non plus.(GUIDES-25085)
+- Lors de l’ajout de mappages à la collection de mappages, les ressources autres que les mappages (comme les rubriques, etc.) sont affichées, et les langues de mappage traduites ne sont pas correctement triées non plus. (GUIDES-25085)
 
 
 ## Révision
