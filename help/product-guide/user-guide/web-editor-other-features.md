@@ -5,21 +5,13 @@ exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/r6gZE2a3lXtL0mFWxurEjna8mUTJIMEQdz2eLw2OWcQ
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
 workflow-type: tm+mt
-source-wordcount: 4271
+source-wordcount: 4286
 ht-degree: 0%
 
 ---
@@ -181,9 +173,11 @@ L’éditeur fournit une boîte de dialogue de navigation dynamique dans les fic
 
 ## Utilisation des tableaux dans le nouvel éditeur
 
-Le nouvel éditeur vous permet de créer, de mettre en forme et d’organiser des tableaux directement dans votre contenu à l’aide de diverses actions contextuelles.
+Le nouvel éditeur vous permet de créer, de mettre en forme et d’organiser des tableaux directement dans votre contenu à l’aide de diverses actions contextuelles. Regardez cette courte vidéo sur l’utilisation des différentes fonctionnalités d’édition de tableau disponibles dans le nouvel éditeur.
 
-Cette section décrit les différentes fonctionnalités de création de tableau disponibles dans le nouvel éditeur.
+>[!VIDEO](https://video.tv.adobe.com/v/3491344)
+
+Les fonctionnalités d&#39;édition de tableau suivantes sont disponibles dans le nouvel éditeur :
 
 **Modifiez le tableau à l’aide du menu contextuel**
 
@@ -547,4 +541,4 @@ Les principales fonctionnalités visant à améliorer la gestion des fichiers vo
 - Le message d&#39;alerte est disponible uniquement pour les fichiers DITA et est visible dans tous les modes : Auteur, Source et Disposition.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)
