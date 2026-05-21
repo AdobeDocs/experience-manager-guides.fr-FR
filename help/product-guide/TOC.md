@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
+source-git-commit: e1c94e180a89b8d68ea6e0812a2c576b272ffdf5
 workflow-type: tm+mt
-source-wordcount: '3342'
+source-wordcount: '3347'
 ht-degree: 8%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 8%
       - Services cloud {#cloud-release-notes}
          - {hide-from-toc}[&#x200B; Instructions de déploiement &#x200B;](./release-info/deploy-xml-on-aemaacs.md)
          - Versions De 2026 {#2026-releases}
+            - Version 2026.05.0 SP1 {#2605-sp1-release}
+               - [Problèmes résolus](./release-info/fixed-issues-2026-05-0-sp1.md)
             - Version 2026.05.0 {#2605-release}
                - [Nouveautés](./release-info/whats-new-2026-05-0.md)
                - [Problèmes résolus](./release-info/fixed-issues-2026-05-0.md)

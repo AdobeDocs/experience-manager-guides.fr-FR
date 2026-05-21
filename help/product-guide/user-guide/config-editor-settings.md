@@ -3,9 +3,9 @@ title: Paramètres de l’éditeur
 description: Découvrez comment configurer les paramètres de l’éditeur dans AEM Guides.
 feature: Web Editor
 role: User
-source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
+source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ Vous pouvez activer ou désactiver les options suivantes en fonction de vos pré
 
   Vous pouvez rechercher et ajouter des éléments à vos favoris, supprimer des éléments précédemment ajoutés et les réorganiser en effectuant simplement un glisser-déposer. Les éléments les plus fréquemment utilisés figurent parmi les favoris et l&#39;ordre que vous définissez ici est reflété dans le menu Insertion rapide lorsque vous y accédez à partir de l&#39;éditeur.
 
+  Regardez cette courte vidéo sur l’utilisation du menu d’insertion rapide dans le nouvel éditeur.
 
+  >[!VIDEO](https://video.tv.adobe.com/v/3491343)
 
 
