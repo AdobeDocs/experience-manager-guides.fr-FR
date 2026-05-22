@@ -3,13 +3,9 @@ title: Migration du contenu Delta
 description: AEM Guides, migration de contenu delta
 exl-id: 293d05c4-637e-41ae-81d7-9cf492be32c5
 TQID: https://experienceleague.adobe.com/WZC-a-ixs3LjKhG5-PN-cjYIW271PEcjWdWwAuXdAp4
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 310
@@ -59,7 +55,7 @@ Au cours de cette session, nous avons abordé les sujets suivants :
 
 ### Forum de la communauté
 
-- Pour plus d’interactions de la communauté Experience League spécifiques à une session, rendez-vous sur [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=fr).
+- Pour plus d’interactions de la communauté Experience League spécifiques à une session, rendez-vous sur [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 
 >[!NOTE]
