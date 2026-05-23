@@ -58,7 +58,7 @@ Au cours de cette session, vous en apprendrez plus sur les sujets suivants :
 
 ## Ressources connexes
 
-- **Vidéos sur les fonctionnalités** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **Vidéos sur les fonctionnalités** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=fr)
 
 - **Guide de l’utilisateur** - [Créer du contenu](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
 

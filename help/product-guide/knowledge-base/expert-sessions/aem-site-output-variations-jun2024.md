@@ -54,7 +54,7 @@ Au cours de cette session, vous découvrirez les éléments suivants :
 
 - [Publication de la sortie du site &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save.)
 
-- [Publication de la sortie Ko](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
+- [Publication de la sortie Ko](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
 
 - [Modèles AEM](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
 

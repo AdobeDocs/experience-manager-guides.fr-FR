@@ -36,7 +36,7 @@ Dans cet article, nous expliquerons comment implémenter des modifications appor
 ## Contexte
 
 Avec AEM Guides, vous pouvez utiliser des modules externes DITA-OT pour publier dans les formats de sortie de votre choix à l’aide des modules externes configurés.
-vous pouvez également transmettre les métadonnées des ressources gérées dans la gestion des ressources numériques AEM au processus DITA-OT pour les utiliser dans la sortie générée. Consultez la documentation sur [comment configurer ditamap/topics pour transmettre les métadonnées via le paramètre prédéfini de sortie](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
+vous pouvez également transmettre les métadonnées des ressources gérées dans la gestion des ressources numériques AEM au processus DITA-OT pour les utiliser dans la sortie générée. Consultez la documentation sur [comment configurer ditamap/topics pour transmettre les métadonnées via le paramètre prédéfini de sortie](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
 
 
 ## Hypothèses

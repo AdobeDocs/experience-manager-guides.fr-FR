@@ -59,7 +59,7 @@ Au cours de cette session, vous en apprendrez plus sur les sujets suivants :
 
 - **Vidéos sur les fonctionnalités** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=fr)
 
-- **Guide de l’utilisateur** - [Publication native sur PDF](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/output-presets-aemg/pdf-preset/native-pdf-web-editor)
+- **Guide de l’utilisateur** - [Publication native sur PDF](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/output-presets-aemg/pdf-preset/native-pdf-web-editor)
 
 - **Forum de la communauté** - Pour plus d’interactions de la communauté sur Experience League spécifiques à une session, consultez le [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=fr).
 
