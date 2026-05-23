@@ -48,7 +48,7 @@ Comprenons ceci avec un exemple où nous voulons afficher la description courte 
 
 Utilisez les profils de dossier pour vérifier le fichier *css_layout.css* sous l’onglet « Configuration de l’éditeur XML » et ajoutez le fichier CSS avec des styles personnalisés
 
-[Utilisez ce lien pour en savoir plus sur le profil de dossier et la configuration de la disposition du modèle CSS](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
+[Utilisez ce lien pour en savoir plus sur le profil de dossier et la configuration de la disposition du modèle CSS](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=fr#customize-the-css-template-layout)
 
 Utilisez les éléments suivants pour configurer le style ci-dessus dans votre éditeur web :
 - Utilisez [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) et chargez-le dans le profil de dossier de votre choix
