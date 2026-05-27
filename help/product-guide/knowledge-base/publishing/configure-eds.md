@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: a4623088-a867-4079-80d6-20866c99683e
-source-git-commit: 18a4473776955700003c2381494dd5325120ea89
+source-git-commit: e3a10752fa872baabf8cfc339510d3ea907a17d1
 workflow-type: tm+mt
 source-wordcount: '1616'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Pour activer la publication de Experience Manager Guides vers EDS (Beta), vous d
 2. [Créer et configurer un profil de publication pour EDS (Beta) dans Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
 3. [Personnaliser la sortie à l’aide de blocs EDS](#customize-output-using-eds-blocks)
 
-Pour une présentation vidéo rapide, reportez-vous à la section [Publication dans AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
+Pour une présentation vidéo rapide, reportez-vous à la section [Publication dans AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
 
 
 
@@ -55,7 +55,7 @@ Adobe Experience Manager utilise une application GitHub appelée **Synchronisati
 
 Pour installer et configurer l’application *AEM Code Sync*, procédez comme suit :
 
-1. Accédez à la page [Synchronisation du code &#x200B;](https://github.com/apps/aem-code-sync) et sélectionnez **Installer**.
+1. Accédez à la page [Synchronisation du code ](https://github.com/apps/aem-code-sync) et sélectionnez **Installer**.
 2. *La synchronisation du code* surveille les modifications du référentiel et s’assure que les mises à jour sont correctement transmises à GitHub.
 
    >[!NOTE]
@@ -99,7 +99,7 @@ Vous êtes redirigé vers la page de configuration GitHub, confirmant l’enregi
 
 Votre application est maintenant prête. Vous êtes redirigé vers la page **Paramètres** de votre application GitHub.
 
-![](assets/eds-github-app-registered-page.png){}
+![](assets/eds-github-app-registered-page.png)
 
 ### Créer une application OAuth
 
