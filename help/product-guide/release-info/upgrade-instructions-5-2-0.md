@@ -87,7 +87,7 @@ Avant de procéder à la mise à niveau vers la version 5.2.0 de Experience Mana
 >
 > Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-1. Téléchargez le package de la version 5.2.0 à partir du Portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 5.2.0 à partir du Portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de version sur lequel vous souhaitez effectuer la mise à niveau et attendez que le bundle soit installé.
 1. *(Facultatif)* Mettre à niveau le plug-in Oxygen Connector fourni avec la version vers laquelle vous effectuez la mise à niveau.
 1. Effacez la mémoire cache du navigateur après l’installation du package.
