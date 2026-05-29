@@ -3,8 +3,11 @@ title: Exemples
 description: Liste d’exemples de personnalisation
 exl-id: 40cdc703-7a78-4979-a7b5-1158558d4868
 TQID: https://experienceleague.adobe.com/Fgry-byLX0-N5gxaBk2TiN9QyzSPTXLepzGiQ4w1hSU
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 82d95464acaa3d4d2c43a35197e40a606cd2cc49
 workflow-type: tm+mt
 source-wordcount: 533
@@ -17,7 +20,7 @@ ht-degree: 0%
 
 Dans ce package, nous avons également fourni quelques exemples de personnalisation (disponibles à l’adresse `guides_extension/src`) . Vous trouverez ci-dessous une brève description de chacun d’eux.
 
-1. **Menu contextuel** : dans cet exemple, nous avons personnalisé le menu contextuel `file_options` pour supprimer les options `Delete` et `Edit`, et remplacer l’option `Duplicate` par une option `Download`. Téléchargez l’exemple de code pour [ Menu contextuel ](./examples/file_options.ts).
+1. **Menu contextuel** : dans cet exemple, nous avons personnalisé le menu contextuel `file_options` pour supprimer les options `Delete` et `Edit`, et remplacer l’option `Duplicate` par une option `Download`. Téléchargez l’exemple de code pour [&#x200B; Menu contextuel &#x200B;](./examples/file_options.ts).
 
 ```typescript
 enum VIEW_STATE {
@@ -377,7 +380,7 @@ const topbarExtend = {
 export default topbarExtend
 ```
 
-1. **Bouton Gérer dans le panneau Métadonnées** : dans cet exemple, nous avons personnalisé le bouton **Gérer** (situé dans le panneau Métadonnées de la page Rapports) afin qu’il soit désactivé lorsque le ou les fichiers sélectionnés sont en mode lecture seule. Cela permet d’éviter les modifications accidentelles des métadonnées dans les fichiers qui ne sont pas destinés à être modifiés. Téléchargez l’exemple de code pour le bouton [ Gérer dans le panneau Métadonnées](./examples/metadata_report_manage_button.ts).
+1. **Bouton Gérer dans le panneau Métadonnées** : dans cet exemple, nous avons personnalisé le bouton **Gérer** (situé dans le panneau Métadonnées de la page Rapports) afin qu’il soit désactivé lorsque le ou les fichiers sélectionnés sont en mode lecture seule. Cela permet d’éviter les modifications accidentelles des métadonnées dans les fichiers qui ne sont pas destinés à être modifiés. Téléchargez l’exemple de code pour le bouton [&#x200B; Gérer dans le panneau Métadonnées](./examples/metadata_report_manage_button.ts).
 
 ```typescript
 const mapConsoleActionBar = {
@@ -992,7 +995,7 @@ const acceptWithModification = {
 export default acceptWithModification
 ```
 
-1. **Enregistrer la révision** : il s’agit d’un exemple de mise à jour d’une boîte de dialogue existante. Nous ajoutons un bouton pour la publication dans ce . Nous autorisons la modification du contenu de la boîte de dialogue. Reportez-vous à son fichier json ici : [`save_revision`](./jsons/dialogs/save_revision.json). Téléchargez l’exemple de code pour [ Enregistrer la révision ](./examples/save_revision.ts).
+1. **Enregistrer la révision** : il s’agit d’un exemple de mise à jour d’une boîte de dialogue existante. Nous ajoutons un bouton pour la publication dans ce . Nous autorisons la modification du contenu de la boîte de dialogue. Reportez-vous à son fichier json ici : [`save_revision`](./jsons/dialogs/save_revision.json). Téléchargez l’exemple de code pour [&#x200B; Enregistrer la révision &#x200B;](./examples/save_revision.ts).
 
 ```typescript
 enum VIEW_STATE {
