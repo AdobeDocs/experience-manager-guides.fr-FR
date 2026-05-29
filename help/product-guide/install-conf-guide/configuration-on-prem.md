@@ -4,14 +4,14 @@ description: Découvrir les configurations pour des versions spécifiques
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 5e594eb9c811b34ed12f41e465639bf39f9cfb09
+source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 1%
 
 ---
 
-# Mises à jour de la configuration pour les versions de Experience Manager Guides
+# Mises à jour de configuration pour les versions de Experience Manager Guides
 
 Cet article présente une vue d’ensemble consolidée des modifications de configuration introduites pour la version 5.2.0 de Experience Manager Guides. Le tableau suivant répertorie la version et les configurations nouvellement introduites ou mises à jour. Elle contient également des liens vers la documentation associée pour obtenir des instructions détaillées sur l’installation et la configuration. Utilisez ces informations pour identifier rapidement les mises à jour de configuration qui peuvent s’appliquer à votre environnement lors d’une mise à niveau.
 
