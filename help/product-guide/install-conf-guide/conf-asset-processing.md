@@ -4,9 +4,10 @@ description: Découvrez comment configurer le traitement des ressources pour Clo
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 0b66a515-d8f1-4ea6-913f-e152ae114698
+source-git-commit: 5af3356dff3c42b8a93ed97b5ee20b23976769a4
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '121'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ Les onglets suivants fournissent des instructions pour configurer la fonction de
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md) pour créer le fichier de configuration.
 
@@ -39,7 +40,7 @@ Les onglets suivants fournissent des instructions pour configurer la fonction de
 
 1. Recherchez et sélectionnez le lot *com.adobe.fmdita.config.ConfigManager*.
 
-1. Configurez les `Enable Guides asset processing scheduled job` de paramètres en fonction de vos besoins. Par défaut, le paramètre est activé.
+1. Configurez le paramètre **Activer Guides tâche planifiée de traitement des ressources** (`enable.asset.processing.scheduler`) en fonction de vos besoins. Par défaut, le paramètre est activé.
 
 1. Sélectionnez **Enregistrer**.
 

@@ -5,22 +5,13 @@ feature: Publishing
 role: User
 exl-id: 31fdfd96-377c-406b-96ed-59a80bf6e03e
 TQID: https://experienceleague.adobe.com/7WV8Ey5ufs-tSPVc9sI-DMTLY9t31QASpv3pwDO8UcA
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: afb45297-4313-4f67-818e-bc0b03abe086
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 1333
+source-wordcount: 1343
 ht-degree: 1%
 
 ---
@@ -34,7 +25,7 @@ Pour créer le préréglage **Base de connaissances** à partir de la console Ca
    Vous pouvez également accéder au fichier de mappage à partir du widget **Fichiers récents** dans la section [Aperçu](./intro-home-page.md#overview). Le fichier de mappage sélectionné s’ouvre dans la console Mappage .
 1. Dans l’onglet **Paramètres prédéfinis de sortie**, sélectionnez l’icône + pour créer un paramètre prédéfini de sortie.
 1. Sélectionnez **Base de connaissances** dans la liste déroulante Type de la boîte de dialogue **Nouveau paramètre prédéfini de sortie**.
-1. Dans le champ **Cible**, sélectionnez une cible pour la sortie générée. Les options disponibles sont les suivantes : **&#x200B;**, **Salesforce** et **ServiceNow**.
+1. Dans le champ **Cible**, sélectionnez une cible pour la sortie générée. Les options disponibles sont les suivantes : ****, **Salesforce** et **ServiceNow**.
 
    ![](./images/knowledge-base-preset-dialog-box.png){width="350"}
 
@@ -74,7 +65,7 @@ Les options de configuration changent en fonction de la cible que vous sélectio
 
 **Adobe Experience Manager**
 
-Les options de configuration suivantes s&#39;affichent pour **&#x200B;**&#x200B;en tant que cible :
+Les options de configuration suivantes s&#39;affichent pour **** en tant que cible :
 
 
 >[!NOTE]
@@ -100,17 +91,17 @@ Les options de configuration suivantes s’affichent pour **ServiceNow** en tant
 
 | Options ServiceNow | Description |
 | --- | --- |
-| Profil de publication | Utilisez la liste déroulante pour sélectionner un profil de connexion ServiceNow configuré par votre administrateur. Pour en savoir plus sur la manière dont votre administrateur peut créer un profil de publication, consultez la description de la fonctionnalité **Paramètres** (apparaissant sous la forme **Paramètres** pour **On-Prem**) dans la section [Panneau de gauche](./web-editor-features.md#id2051EA0M0HS). |
+| Profil de publication | Utilisez la liste déroulante pour sélectionner un profil de connexion ServiceNow configuré par votre administrateur. Pour en savoir plus sur la manière dont votre administrateur peut créer un profil de publication, consultez la description de la fonctionnalité **Paramètres** (apparaissant sous la forme **Paramètres** **pour la configuration sur site avant la version 5.2**) dans la section [Panneau de gauche](./web-editor-features.md#id2051EA0M0HS). |
 | Knowledge Base | Utilisez ce champ pour sélectionner la base de connaissances ServiceNow requise. Vous pouvez configurer les bases de connaissances sur le site ServiceNow pour stocker le contenu en fonction des autorisations. Les articles de ce plan DITA peuvent être publiés dans ces bases de connaissances. |
 | Catégorie et sous-catégorie | Les catégories sont comme des arborescences hiérarchiques utilisées pour rechercher et classer les articles de la base de connaissances ServiceNow. Ajoutez une catégorie et une sous-catégorie pour publier les rubriques et sous-rubriques de la table des matières dans cette catégorie et sous-catégorie sur le site ServiceNow. |
 
-**&#x200B;**
+****
 
-Les options de configuration suivantes s&#39;affichent pour **&#x200B;**&#x200B;en tant que cible :
+Les options de configuration suivantes s&#39;affichent pour **** en tant que cible :
 
 | Options de Salesforce | Description |
 | --- | --- |
-| Profil de publication | Utilisez la liste déroulante pour effectuer une sélection parmi les profils de connexion Salesforce configurés par votre administrateur. Pour en savoir plus sur la manière dont votre administrateur peut créer un profil de publication, consultez la description de la fonctionnalité **Paramètres** (apparaissant sous la forme **Paramètres** pour **On-Prem**) dans [Barre d’onglets](./web-editor-tab-bar.md). |
+| Profil de publication | Utilisez la liste déroulante pour effectuer une sélection parmi les profils de connexion Salesforce configurés par votre administrateur. Pour en savoir plus sur la manière dont votre administrateur peut créer un profil de publication, consultez la description de la fonctionnalité **Paramètres** (apparaissant sous la forme **Paramètres** pour **Configuration On-Premise avant la version 5.2**) dans [Barre d’onglets](./web-editor-tab-bar.md). |
 | Type d’enregistrement | Utilisez la liste déroulante pour sélectionner parmi les types d’enregistrements configurés dans Salesforce en fonction des paramètres de visibilité basés sur votre profil utilisateur. Les types d’enregistrements Salesforce permettent de regrouper de nombreux enregistrements d’un type pour cet objet. Elles définissent l&#39;organisation de votre publication. Par exemple, vous pouvez sélectionner le type d’enregistrement FAQ et publier en fonction de la mise en page et des champs de la page FAQ. |
 | Champ de contenu d’article | Vous pouvez disposer de différents champs et d’une mise en page unique pour chaque modèle de type d’enregistrement. Utilisez ces champs pour saisir des informations spécifiques en fonction du type d’article. Par exemple, vous pouvez afficher le titre, la réponse et l’équation d’un article de FAQ. |
 | Catégories | Sélectionnez une catégorie dans la liste déroulante pour publier les rubriques de la table des matières de cette catégorie sur le site Salesforce. |

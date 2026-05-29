@@ -4,9 +4,9 @@ description: Découvrez la page d’accueil d’Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: e41cf263f42e91bc384aa09fd1135b46e429c86a
 workflow-type: tm+mt
-source-wordcount: '2105'
+source-wordcount: '2136'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Les fonctionnalités disponibles dans la barre de navigation sont expliquées co
 - **Profil de dossier en cours d’utilisation** : affiche le profil de dossier actuellement utilisé.
 - **Autres actions** : permet d’accéder à des options supplémentaires. Si vous sélectionnez ce bouton, un menu s’ouvre avec les options suivantes :
 
-   - **&#x200B;**&#x200B;: vous dirige vers une destination en fonction de votre configuration.
+   - **** : vous dirige vers une destination en fonction de votre configuration.
       - **Services cloud** : si vous utilisez des services cloud, la sélection de l’option **Assets** vous conduit à la page de navigation d’AEM.
 
       - **Logiciel On-premise** : si vous utilisez Adobe Experience Manager Guides (4.2.1 et versions ultérieures), la sélection de l’option **Assets** vous conduit au chemin d’accès actuel au fichier dans l’interface utilisateur d’Assets.
@@ -60,7 +60,7 @@ Les fonctionnalités disponibles dans la barre de navigation sont expliquées co
 
      >[!NOTE]
      >
-     > Sur la page d’accueil, l’option des paramètres de Workspace est disponible uniquement pour la configuration des services cloud. Dans une configuration On-Premise, l’option Autres actions n’est pas disponible sur la page d’accueil. Cependant, vous pouvez toujours accéder aux paramètres appropriés via l’interface de l’éditeur et la console Carte, en accédant à Plus d’options > Paramètres.
+     > Sur la page d’accueil d’, l’option des paramètres de Workspace est disponible pour les services cloud et pour les configurations On-Premise dans les versions 5.2 et ultérieures. Dans une configuration On-Premise antérieure à la version 5.2, l’option Autres actions n’est pas disponible sur la page d’accueil. Cependant, vous pouvez toujours accéder aux paramètres appropriés via l’interface de l’éditeur et la console Carte, en accédant à Plus d’options > Paramètres.
 
 - **Développer la vue** : permet de développer la page vue à l’aide de l’icône **Développer**. Dans cette vue, la barre d’en-tête est masquée, ce qui optimise l’espace du contenu. Pour revenir à la vue standard, utilisez l’icône **Quitter la vue développée**.
 
@@ -68,7 +68,7 @@ Les fonctionnalités disponibles dans la barre de navigation sont expliquées co
 
 >[!NOTE]
 >
-> Le référentiel est disponible dans le panneau de gauche uniquement pour la configuration du service cloud à partir de la version 2025.11.0. Pour la configuration On-Premise, le référentiel est toujours accessible à partir de l’interface de l’éditeur.
+> Le référentiel est disponible dans le panneau de gauche pour la configuration du service cloud à partir de la version 2025.11.0 et pour la configuration On-Premise à partir de la version 5.2. Pour la configuration On-Premise antérieure à la version 5.2, le référentiel est toujours accessible à partir de l’interface de l’éditeur.
 
 Le panneau de gauche vous donne un accès rapide aux fonctionnalités Présentation, Référentiel, Collections de cartes, Publication en bloc, File d’attente de publication et Préférences utilisateur. Vous pouvez développer le panneau en sélectionnant l’icône **Développer** placée dans le coin inférieur gauche de l’interface. Une fois développé, utilisez l’icône **Réduire** pour réduire le panneau.
 
@@ -162,7 +162,7 @@ Le référentiel sert de hub centralisé pour découvrir facilement les dossiers
 
 ### Mappage des collections
 
-Experience Manager Guides vous permet d’organiser votre contenu pour publication à l’aide d’un tableau de bord appelé **Collections de cartes**. Pour utiliser cette fonctionnalité, sélectionnez **Mapper des collections** dans le panneau de gauche. Elle vous mène à la page Mapper les collections dans l’interface utilisateur **&#x200B;**&#x200B;où vous pouvez [utiliser la collection de mappages pour la génération de sortie.](./generate-output-use-map-collection-output-generation.md)
+Experience Manager Guides vous permet d’organiser votre contenu pour publication à l’aide d’un tableau de bord appelé **Collections de cartes**. Pour utiliser cette fonctionnalité, sélectionnez **Mapper des collections** dans le panneau de gauche. Elle vous mène à la page Mapper les collections dans l’interface utilisateur **** où vous pouvez [utiliser la collection de mappages pour la génération de sortie.](./generate-output-use-map-collection-output-generation.md)
 
 ### Publication en bloc
 
@@ -202,4 +202,4 @@ Les préférences utilisateur sont disponibles pour tous les auteurs. À l’aid
 
   >[!NOTE]
   >
-  >À partir de la version 2025.11.0, le paramètre **Toujours localiser les fichiers dans le référentiel** est renommé **Toujours localiser les fichiers dans l’explorateur**. Pour la configuration On-Premise, elle reste disponible comme Toujours localiser les fichiers dans le référentiel jusqu’à la version 5.1 de Experience Manager Guides.
+  >À partir de la version 2025.11.0 pour Cloud Service et de la version 5.2.0 pour On-premise, le paramètre **Toujours localiser les fichiers dans le référentiel** est renommé **Toujours localiser les fichiers dans l’explorateur**. Pour la configuration On-Premise antérieure à la version 5.2 , elle reste disponible comme Toujours localiser les fichiers dans le référentiel.

@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
 workflow-type: tm+mt
 source-wordcount: '3190'
 ht-degree: 2%
@@ -43,7 +43,7 @@ Les onglets suivants fournissent des instructions pour spécifier votre propre m
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Utilisez le gestionnaire de packages pour télécharger le modèle de conception par défaut à partir de l’emplacement suivant :
 
@@ -98,7 +98,7 @@ Les propriétés du modèle de conception AEM Guides sont décrites dans le tabl
 >
 > Après avoir créé un nœud de modèle de conception personnalisé, vous devez mettre à jour l’option Conception dans les paramètres prédéfinis de sortie du site AEM pour utiliser le nœud du modèle de conception personnalisé.
 
-Pour plus d’informations, consultez les sections [Création de votre premier site web Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=fr) et [Principes de base](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=fr) du développement de votre propre site web sur AEM.
+Pour plus d’informations, consultez les sections [Création de votre premier site web Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=fr) et [Principes de base](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) du développement de votre propre site web sur AEM.
 
 ## Utiliser le titre du document pour générer la sortie du site AEM
 
@@ -114,7 +114,7 @@ Les onglets suivants fournissent des instructions pour configurer la génératio
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer la génération des URL dans la sortie du site AEM :
 
@@ -178,7 +178,7 @@ Les onglets suivants fournissent des instructions pour configurer les caractère
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer les caractères spéciaux valides dans les noms de fichier et la sortie de site AEM :
 
@@ -210,7 +210,7 @@ Vous pouvez également configurer d’autres propriétés, telles que l’utilis
 
 1. Recherchez et cliquez sur le lot *com.adobe.fmdita.common.SanitizeNodeNameImpl* et cliquez dessus.
 
-1. Dans la propriété **Jeu de caractères non autorisé pour la publication sur AEM Sites**, assurez-vous que la propriété est définie sur ```'<>`@$```. Vous pouvez ajouter d’autres caractères spéciaux à cette liste. Toutefois, elle doit comporter ces caractères spéciaux obligatoires.
+1. Dans la propriété **Jeu de caractères non autorisé pour la publication sur AEM Sites**, assurez-vous que la propriété est définie sur `<>``@$`. Vous pouvez ajouter d’autres caractères spéciaux à cette liste. Toutefois, elle doit comporter ces caractères spéciaux obligatoires.
 
    >[!NOTE]
    >
@@ -246,7 +246,7 @@ Les onglets suivants fournissent des instructions pour aplatir la structure du n
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Identifiez le ou les éléments auxquels vous souhaitez aplatir la structure de nœud :
 
@@ -363,13 +363,13 @@ Pour exclure l’élément `table` de l’aplatissement, ajoutez la propriété 
 
 ## Configurer le contrôle de version des pages supprimées dans la sortie du site AEM
 
-Lorsque vous générez une sortie de site AEM avec les options **Supprimer et** Créer **&#x200B;**&#x200B;sélectionnées pour le paramètre Pages de sortie existantes , une version est créée pour la ou les pages en cours de suppression. Vous pouvez configurer le système pour arrêter la création d’une version avant la suppression.
+Lorsque vous générez une sortie de site AEM avec les options **Supprimer et** Créer ****sélectionnées pour le paramètre Pages de sortie existantes , une version est créée pour la ou les pages en cours de suppression. Vous pouvez configurer le système pour arrêter la création d’une version avant la suppression.
 
 Les onglets suivants fournissent des instructions pour arrêter la création d’une version pour la ou les pages supprimées en fonction de votre configuration Experience Manager Guides : Cloud Service ou On-Premise.
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration.
 1. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer l’option **Ne pas créer de version pour les pages supprimées** :

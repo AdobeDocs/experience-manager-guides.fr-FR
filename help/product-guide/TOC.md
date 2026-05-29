@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: e1c94e180a89b8d68ea6e0812a2c576b272ffdf5
+source-git-commit: ffe43716d6f922cf6da9bd94244fc80a80d99b2f
 workflow-type: tm+mt
-source-wordcount: '3347'
+source-wordcount: '3384'
 ht-degree: 8%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 8%
    - [Feuille de route des versions d’AEM Guides](./release-info/aem-guides-releases-roadmap.md)
    - Notes de mise à jour {#release-notes}
       - Services cloud {#cloud-release-notes}
-         - {hide-from-toc}[&#x200B; Instructions de déploiement &#x200B;](./release-info/deploy-xml-on-aemaacs.md)
+         - {hide-from-toc}[ Instructions de déploiement ](./release-info/deploy-xml-on-aemaacs.md)
          - Versions De 2026 {#2026-releases}
             - Version 2026.05.0 SP1 {#2605-sp1-release}
                - [Problèmes résolus](./release-info/fixed-issues-2026-05-0-sp1.md)
@@ -33,7 +33,7 @@ ht-degree: 8%
             - Version 2026.03.0 {#2603-release}
                - {hide-from-toc}[Nouveautés](./release-info/whats-new-2026-03-0.md)
                - {hide-from-toc}[Correction de problèmes](./release-info/fixed-issues-2026-03-0.md)
-               - {hide-from-toc}[&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-2026-03-0.md)
+               - {hide-from-toc}[ Instructions de mise à niveau ](./release-info/upgrade-instructions-2026-03-0.md)
             - Version 2026.01.0 {#2601-release}
                - [Nouveautés](./release-info/whats-new-2026-01-0.md)
                - [Problèmes résolus](./release-info/fixed-issues-2026-01-0.md)
@@ -129,6 +129,10 @@ ht-degree: 8%
             - [Notes de mise à jour de janvier](./release-info/release-notes-2022-1-0.md)
       - On-prem/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides] versions](./release-info/latest-release-info.md)
+         - Version 5.2.0 {#520-release}
+            - [Nouveautés](./release-info/whats-new-5-2-0.md)
+            - [Problèmes résolus](./release-info/fixed-issues-5-2-0.md)
+            - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-2-0.md)
          - Version 5.1.0 SP4 {#510-sp4-release}
             - [Problèmes résolus](./release-info/fixed-issues-5-1-0-sp4.md)
             - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-1-0-sp4.md)
@@ -148,7 +152,7 @@ ht-degree: 8%
             - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0-sp4.md)
          - Version 5.0.0 SP3 {#500-sp3-release}
             - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp3.md)
-            - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-5-0-0-sp3.md)
+            - [ Instructions de mise à niveau ](./release-info/upgrade-instructions-5-0-0-sp3.md)
          - Version 5.0.0 SP2 {#500-sp2-release}
             - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp2.md)
             - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0-sp2.md)
@@ -167,7 +171,7 @@ ht-degree: 8%
             - [Instructions de mise à niveau](./release-info/upgrade-instructions-4-6-0-sp2.md)
          - Version 4.6.0 SP1 {#460-sp1-release}
             - [Correction de problèmes](./release-info/fixed-issues-4-6-0-sp1.md)
-            - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-4-6-0-sp1.md)
+            - [ Instructions de mise à niveau ](./release-info/upgrade-instructions-4-6-0-sp1.md)
          - Version 4.6.0 {#460-release}
             - [Nouveautés](./release-info/whats-new-4-6.md)
             - [Correction de problèmes](./release-info/fixed-issues-4-6-0.md)
@@ -194,13 +198,13 @@ ht-degree: 8%
                - [Notes de mise à jour de la version 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notes de mise à jour 4.2](./release-info/release-notes-4-2.md)
          - [Notes de mise à jour 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notes de mise à jour 4.0.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notes de mise à jour 3.8.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Notes de mise à jour 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Notes de mise à jour 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guide de l’utilisateur (nouvelle interface utilisateur) {#user-guide}
    - Présentation {#about-aemg}
       - [À propos  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - Fonctionnalités [!DNL AEM Guides] et clés {#aemg-works-features}
-         - [Fonctionnement  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+         - [Fonctionnement  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
          - [Fonctionnalités [!DNL AEM Guides] clés](./user-guide/intro-dxml-features.md)
    - Page d’accueil {#home-page}
       - [Expérience de la page d’accueil [!DNL AEM Guides]](./user-guide/intro-home-page.md)
@@ -370,7 +374,7 @@ ht-degree: 8%
             - [Créer un quiz](./learning-content/create-quiz.md)
             - [Modifier le quiz](./learning-content/edit-quiz.md)
             - [Insérer des questions dans un quiz](./learning-content/quiz-insert-questions.md)
-            - [&#x200B; Propriétés du quiz &#x200B;](./learning-content/quiz-properties.md)
+            - [ Propriétés du quiz ](./learning-content/quiz-properties.md)
             - Banque de questions {#question-bank}
                - [Créer une banque de questions](./learning-content/create-qb.md)
                - [Insérer des questions depuis la banque de questions](./learning-content/insert-questions.md)
@@ -403,7 +407,7 @@ ht-degree: 8%
       - Résolution des problèmes {#troubleshooting}
          - [Timeout de session](./user-guide/session-timeout-prompt.md)
 - Guide de l’utilisateur (ancienne interface utilisateur) {#user-guide-old-ui}
-   - [Présentation d’AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Présentation d’AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation et configuration {#install-guide}
    - On-Premise {#on-prem-ig}
       - {hide-from-toc}[Notions de base sur site](./install-guide/introduction.md)
@@ -416,7 +420,7 @@ ht-degree: 8%
          - {hide-from-toc}[Vérification de l’installation d’AEM Guides](./install-guide/download-install-verify-aemg-installation.md)
          - {hide-from-toc}[Mettre à niveau AEM Guides](./install-guide/upgrade-xml-documentation.md)
          - {hide-from-toc}[Désinstaller AEM Guides](./install-guide/download-install-unistall-aemg.md)
-         - {hide-from-toc}[&#x200B; Recommandations pour l’optimisation des performances &#x200B;](./install-guide/download-install-recommend-perf-optimiz.md)
+         - {hide-from-toc}[ Recommandations pour l’optimisation des performances ](./install-guide/download-install-recommend-perf-optimiz.md)
       - Utilisation des groupes d’utilisateurs et de la sécurité {#user-group-sec}
          - {hide-from-toc}[Administration et sécurité des utilisateurs](./install-guide/user-admin-sec.md)
       - Migration du contenu {#content-migration}
@@ -477,7 +481,7 @@ ht-degree: 8%
          - {hide-from-toc}[Mappage des composants pour AEM Sites](./install-guide/component-mapping.md)
          - {hide-from-toc}[Superposition des balises HTML dans la sortie AEM Sites](./install-guide/overlay-html-tags-aem-sites.md)
          - Publication native de PDF {#config-native-pdf-publish}
-            - {hide-from-toc}[Modèle &#x200B;](./native-pdf/pdf-template.md)
+            - {hide-from-toc}[Modèle ](./native-pdf/pdf-template.md)
             - {hide-from-toc}[Composants d’un modèle PDF](./native-pdf/components-pdf-template.md)
             - {hide-from-toc}[Conception d’une mise en page](./native-pdf/design-page-layout.md)
             - {hide-from-toc}[Variables dans la sortie PDF](./native-pdf/native-pdf-variables.md)
@@ -515,8 +519,8 @@ ht-degree: 8%
          - {hide-from-toc}[Vérification de l’installation d’AEM Guides](./cs-install-guide/download-install-verify-dxml-installation.md)
          - {hide-from-toc}[Mettre à niveau AEM Guides](./cs-install-guide/download-install-upgrade-dxml.md)
          - {hide-from-toc}[Configuration supplémentaire pour mettre à niveau AEM Guides as a Cloud Service](./cs-install-guide/additional-config-for-cloud-service.md)
-         - {hide-from-toc}[&#x200B; Remplacements de configuration &#x200B;](./cs-install-guide/download-install-additional-config-override.md)
-         - {hide-from-toc}[&#x200B; Recommandations pour l’optimisation des performances &#x200B;](./cs-install-guide/download-install-recommend-perf-optimiz.md)
+         - {hide-from-toc}[ Remplacements de configuration ](./cs-install-guide/download-install-additional-config-override.md)
+         - {hide-from-toc}[ Recommandations pour l’optimisation des performances ](./cs-install-guide/download-install-recommend-perf-optimiz.md)
       - Utilisation des groupes d’utilisateurs et de la sécurité {#user-group-sec-cs}
          - {hide-from-toc}[Administration et sécurité des utilisateurs](./cs-install-guide/user-admin-sec.md)
       - Migration du contenu {#migrate-con-cs}
@@ -540,7 +544,7 @@ ht-degree: 8%
          - {hide-from-toc}[Configurer les états du document](./cs-install-guide/customize-doc-state.md)
          - {hide-from-toc}[Configurer les filtres d’état du document](./cs-install-guide/config-doc-state-filters.md)
       - Configuration des paramètres de Workspace {#workspace-configs}
-         - {hide-from-toc}[Paramètres &#x200B;](./cs-install-guide/workspace-settings.md)
+         - {hide-from-toc}[Paramètres ](./cs-install-guide/workspace-settings.md)
       - Utiliser les configurations de l’éditeur web {#web-editor-configs-cs}
          - {hide-from-toc}[Personnaliser l’éditeur web](./cs-install-guide/conf-web-editor.md)
          - {hide-from-toc}[Personnaliser la barre d’outils](./cs-install-guide/conf-web-editor-customize-toolbar.md)
@@ -664,6 +668,7 @@ ht-degree: 8%
       - [Configuration des filtres de texte](./install-conf-guide/conf-text-filters.md)
       - [Configurer des filtres pour la boîte de dialogue de navigation des fichiers](./install-conf-guide/conf-custom-file-filters.md)
       - [Installation de packages pour la publication basée sur des articles](./install-conf-guide/conf-article-based-publishing.md)
+      - [Configuration de la liste d’exclusion des propriétés de métadonnées](./install-conf-guide/conf-metadata-prop.md)
       - Paramètre de l’éditeur pour Cloud Service {#editor-cloud-settings}
          - [Configurer les suggestions intelligentes optimisées par l’IA pour la création dans Cloud Service](./install-conf-guide/conf-smart-suggestions.md)
          - [Configurer l’aide intelligente optimisée par l’IA pour rechercher du contenu pour Cloud Service](./install-conf-guide/conf-smart-help.md)
@@ -671,8 +676,8 @@ ht-degree: 8%
          - [Configurer l’affichage des tableaux collés pour Cloud Service](./install-conf-guide/conf-pasted-tables.md)
          - [Configurer la génération PDF sur une seule rubrique pour Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
          - [Configuration de la fonctionnalité de traduction dans l’éditeur web pour Cloud Service](./install-conf-guide/conf-translation-editor.md)
-         - [Configuration de la liste d’exclusion des propriétés de métadonnées pour Cloud Service](./install-conf-guide/conf-metadata-prop.md)
       - Paramètre de l’éditeur pour On-Premise {#editor-on-prem-settings}
+         - [Configurer un nouvel éditeur](./install-conf-guide/conf-new-editor-on-prem.md)
          - [Configuration de caractères spéciaux supplémentaires pour On-Premise](/help/product-guide/web-editor/conf-additional-special-characters.md)
          - [Configurez le titre des icônes Archiver et Extraire pour On-Premise](./install-conf-guide/conf-checkin-checkout-title.md)
          - [Configurer le nombre de LimitReads pour une requête On-Premise](./install-conf-guide/conf-query-limitreads.md)
@@ -689,7 +694,7 @@ ht-degree: 8%
       - [Configurer les états du document](./install-conf-guide/customize-doc-state.md)
       - [Configurer des filtres d’état de document pour Cloud Service](./install-conf-guide/conf-doc-state-filters.md)
    - Configuration des paramètres de Workspace {#workspace-configs}
-      - [Paramètres &#x200B;](./install-conf-guide/workspace-settings.md)
+      - [Paramètres ](./install-conf-guide/workspace-settings.md)
    - Recherche AEM Assets {#aem-asset-search}
       - [Configuration de la recherche pour l’interface utilisateur d’AEM Assets](./install-conf-guide/conf-dita-search.md)
    - Paramètres de génération de sortie {#output-gen-config}
@@ -714,9 +719,13 @@ ht-degree: 8%
       - [Intégration d’éditeurs XML de bureau](./install-conf-guide/integrate-desktop-editors.md)
       - [Configuration de Workfront pour Cloud Service](./install-conf-guide/conf-workfront.md)
       - [Configuration de la traduction](./install-conf-guide/conf-translation.md)
+      - [Configurer l’initialisation de la copie de destination pour On-Premise](./install-conf-guide/conf-translation-copies-on-prem.md)
+      - [Configurer une nouvelle ligne de base pour On-Premise](./install-conf-guide/conf-new-baseline-on-prem.md)
+      - [Configuration de l’omission des liens d’homologue pour On-Premise](./install-conf-guide/conf-skip-peer-links-on-prem.md)
    - Extension des fonctionnalités {#aemg-customization}
       - [Déployer l’index personnalisé pour la fonctionnalité de recherche et de remplacement de Cloud Service](./install-conf-guide/custom-indexing-cs.md)
       - [Réindexation pour la fonction Rechercher et remplacer dans On-Premise](./install-conf-guide/custom-indexing-on-prem.md)
+      - [Configuration de la fonctionnalité de recherche et de remplacement pour On-Premise](./install-conf-guide/conf-find-replace-on-prem.md)
       - [Mappage des composants pour AEM Sites](./install-conf-guide/component-mapping.md)
    - Annexe {#appendix}
       - [Annexe](./install-conf-guide/aemg-appendix.md)

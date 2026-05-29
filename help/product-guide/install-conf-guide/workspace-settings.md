@@ -4,9 +4,9 @@ description: Découvrez les différents paramètres disponibles dans l’interfa
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
+source-git-commit: e41cf263f42e91bc384aa09fd1135b46e429c86a
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2212'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> Dans la configuration On-premise, l’option **Paramètres** s’affiche dans la barre d’onglets de l’éditeur. Dans la configuration de Cloud Service, cette option a été renommée **paramètres de Workspace**. Toutes les options de configuration existantes disponibles sous **Paramètres de l’éditeur** restent inchangées.
+> Dans la configuration On-premise antérieure à la version 5.2, l’option **Paramètres** s’affiche dans la barre d’onglets de l’éditeur. Pour les configurations Cloud Service et On-Premise des versions 5.2 et ultérieures, cette option a été renommée **paramètres de Workspace**. Toutes les options de configuration existantes disponibles sous **Paramètres de l’éditeur** restent inchangées.
 > ![Paramètre de l’éditeur pour On-premise](assets/editor-settings-on-prem.png){width="650"}
 
 
@@ -48,7 +48,7 @@ Les paramètres Général vous permettent de configurer les paramètres pour uti
 Sélectionnez cette option pour activer la fonctionnalité [Assistant IA](../user-guide/ai-assistant.md) dans Experience Manager Guides. Désélectionnez cette option pour désactiver la fonction.
 
   Après avoir activé le bouton (bascule) **Assistant IA**, vous pouvez configurer les options qui s’affichent sous l’onglet **Création** pour les auteurs à l’aide du menu **Actions rapides de création** comme illustré ci-dessous.\
-  Ces modifications s’appliquent au profil de dossier spécifique que vous utilisez. Si vous créez un profil de dossier, il héritera des paramètres Workspace définis dans le profil de dossier **global** par défaut. Vous pouvez modifier ces paramètres selon vos besoins à l&#39;aide des paramètres **&#x200B;**&#x200B;et enregistrer la configuration mise à jour.\
+  Ces modifications s’appliquent au profil de dossier spécifique que vous utilisez. Si vous créez un profil de dossier, il héritera des paramètres Workspace définis dans le profil de dossier **global** par défaut. Vous pouvez modifier ces paramètres selon vos besoins à l&#39;aide des paramètres **** et enregistrer la configuration mise à jour.\
   Pour obtenir un aperçu détaillé des options disponibles pour la création à l’aide de l’assistant AI, consultez la page [Créer des documents de manière intelligente avec l’assistant AI](../user-guide/ai-assistant-right-panel.md).
 
   Le menu **Création d’actions rapides** vous permet d’effectuer les opérations suivantes :
@@ -87,7 +87,7 @@ Sélectionnez cette option pour activer la fonctionnalité [Assistant IA](../use
 
    - **Vérification orthographique du navigateur** : par défaut, l’éditeur utilise la fonctionnalité de vérification orthographique du navigateur, dans laquelle la vérification orthographique est effectuée à l’aide du dictionnaire intégré du navigateur.
 
-   - **Vérification orthographique d’AEM** : vous pouvez passer à la vérification orthographique d’AEM pour utiliser le dictionnaire Adobe Experience Manager, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section [&#x200B; Personnaliser le dictionnaire par défaut d’AEM &#x200B;](../install-conf-guide/customize-aem-default-dictionary.md).
+   - **Vérification orthographique d’AEM** : vous pouvez passer à la vérification orthographique d’AEM pour utiliser le dictionnaire Adobe Experience Manager, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section [ Personnaliser le dictionnaire par défaut d’AEM ](../install-conf-guide/customize-aem-default-dictionary.md).
 
      >[!NOTE]
      >
@@ -190,9 +190,9 @@ Configurez le serveur ServiceNow pour charger les ressources.
 
 - Pour créer un profil, sélectionnez la base de connaissances ServiceNow dans le menu déroulant **Type de serveur**. Saisissez un profil **Nom**. Dans l’URL **ServiceNow**, saisissez le site client que vous utiliseriez pour publier la sortie, puis ajoutez les **Nom d’utilisateur** et **Mot de passe** fournis par le site client ServiceNow. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
 
-  ![Profil de publication ServiceNow &#x200B;](../user-guide/images/service-now-publish-profile.png){width="550"}
+  ![Profil de publication ServiceNow ](../user-guide/images/service-now-publish-profile.png){width="550"}
 
-  Après la validation, vous pouvez sélectionner le profil de publication dans les paramètres prédéfinis de sortie d&#39;un plan DITA et l&#39;utiliser pour générer la sortie vers le serveur **&#x200B;**&#x200B;ou **ServiceNow** que vous avez choisi.
+  Après la validation, vous pouvez sélectionner le profil de publication dans les paramètres prédéfinis de sortie d&#39;un plan DITA et l&#39;utiliser pour générer la sortie vers le serveur **** ou **ServiceNow** que vous avez choisi.
 
   En savoir plus sur le paramètre prédéfini de sortie [Base de connaissances](../user-guide/generate-output-knowledge-base.md).
 

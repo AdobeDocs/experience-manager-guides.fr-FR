@@ -4,10 +4,11 @@ description: Découvrez comment mettre à niveau Adobe Experience Manager Guides
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: f84bc82a-505c-4511-8336-bb87c8eb78e3
+source-git-commit: aac604893134edc2b28e8f6d7977e92256fe7e63
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 0%
+source-wordcount: '1884'
+ht-degree: 2%
 
 ---
 
@@ -19,9 +20,9 @@ Cet article fournit des instructions pour mettre à niveau vos versions Experien
 >
 > Suivez les instructions de mise à niveau spécifiques à la version sous licence de votre produit.
 
-Vous pouvez mettre à niveau votre version actuelle de Experience Manager Guides vers la version 5.1.0 Service Pack 3 :
+Vous pouvez mettre à niveau votre version actuelle de Experience Manager Guides vers la version 5.2.0 :
 
-- Si vous utilisez la version 5.1.0 ou 5.1.x , vous pouvez directement effectuer la mise à niveau vers la version 5.1.0 du pack de services 3.
+- Si vous utilisez la version 5.0.0, 5.0.3, 5.1.0 ou 5.1.3, vous pouvez directement effectuer la mise à niveau vers la version 5.2.0.
 - Si vous utilisez la version 4.6.0, 4.6.x, 5.0.0 ou 5.0.x, vous devez effectuer la mise à niveau vers la version 5.1.0.
 - Si vous utilisez une version antérieure à la version 4.6.0, consultez [Mise à niveau d’Adobe Experience Manager Guides vers la version 4.4.0 et les versions antérieures](./upgrade-aemg-prev-versions.md) pour obtenir des instructions de mise à niveau détaillées.
 
@@ -31,6 +32,7 @@ Vous pouvez mettre à niveau votre version actuelle de Experience Manager Guides
 
 Pour plus d’informations, reportez-vous aux procédures suivantes :
 
+- [Mise à niveau vers la version 5.2.0](#upgrade-to-version-510)
 - [Mise à niveau vers la version 5.1.0](#upgrade-to-version-510)
 - [Mise à niveau vers la version 5.0.0](#upgrade-to-version-500)
 - [Mise à niveau vers la version 4.6.0](#upgrade-to-version-460)
@@ -40,12 +42,39 @@ Pour plus d’informations, reportez-vous aux procédures suivantes :
 > Avant de commencer la mise à niveau, effectuez une sauvegarde complète du système pour éviter toute perte de données.
 
 
+## Mise à niveau vers la version 5.2.0
+
+>[!IMPORTANT]
+>
+> Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, veillez à effectuer d’abord la mise à niveau d’AEM avant de poursuivre la mise à niveau vers Experience Manager Guides 5.2.0. Pour plus d’informations, consultez la section [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+
+**Conditions préalables**
+
+>[!NOTE]
+>
+>Si vous effectuez une mise à niveau vers la version 5.2.0, vous devez disposer des versions 5.0.0, 5.0.3, 5.1.0 ou 5.1.3 de Experience Manager Guides. Le processus de mise à niveau vers la version 5.2.0 suit les mêmes étapes que pour la version 5.1.0.
+
+Avant de lancer le processus de mise à niveau vers Experience Manager Guides 5.2.0, vérifiez que vous disposez des éléments suivants :
+
+1. Mise à niveau vers Experience Manager Guides version 5.0.0, 5.0.3, 5.1.0 ou 5.1.3.
+1. (Facultatif) A fermé toutes les tâches de traduction.
+1. Modification du niveau de journal en **INFO** pour `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` classe et ajout de ces journaux dans un nouveau fichier journal, par exemple, `logs/translation_upgrade.log`.
+
+>[!NOTE]
+>
+> Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
+
+**Installer la version 5.2.0**
+
+Téléchargez le package de la version 5.2.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) et suivez les instructions fournies dans [Workflow de mise à niveau de l’installation et de la post-installation](#installation-and-post-installation-upgrade-workflow) pour terminer la mise à niveau.
+
+
 ## Mise à niveau vers la version 5.1.0
 
 
 >[!IMPORTANT]
 >
-> Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, veillez à effectuer d’abord la mise à niveau d’AEM avant de poursuivre la mise à niveau vers Experience Manager Guides 5.1.0. Pour plus d’informations, consultez la section [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/fr/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, veillez à effectuer d’abord la mise à niveau d’AEM avant de poursuivre la mise à niveau vers Experience Manager Guides 5.1.0. Pour plus d’informations, consultez la section [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 **Conditions préalables**
 
@@ -65,7 +94,7 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 5.
 
 **Installer la version 5.1.0**
 
-Téléchargez le package de la version 5.1.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) et suivez les instructions fournies dans [Workflow de mise à niveau de l’installation et de la post-installation](#installation-and-post-installation-upgrade-workflow) pour terminer la mise à niveau.
+Téléchargez le package de la version 5.1.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) et suivez les instructions fournies dans [Workflow de mise à niveau de l’installation et de la post-installation](#installation-and-post-installation-upgrade-workflow) pour terminer la mise à niveau.
 
 
 ## Mise à niveau vers la version 5.0.0
@@ -89,7 +118,7 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 5.
 
 **Installer la version 5.0.0**
 
-Téléchargez le package de la version 5.0.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) et suivez les instructions fournies dans [Workflow de mise à niveau de l’installation et de la post-installation](#installation-and-post-installation-upgrade-workflow) pour terminer la mise à niveau.
+Téléchargez le package de la version 5.0.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) et suivez les instructions fournies dans [Workflow de mise à niveau de l’installation et de la post-installation](#installation-and-post-installation-upgrade-workflow) pour terminer la mise à niveau.
 
 ## Mise à niveau vers la version 4.6.0
 
@@ -113,7 +142,7 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 
 **Installer la version 4.6.0**
 
-Téléchargez le package de la version 4.6.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) et suivez les instructions fournies dans [Workflow de mise à niveau de l’installation et de la post-installation](#installation-and-post-installation-upgrade-workflow) pour terminer la mise à niveau.
+Téléchargez le package de la version 4.6.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) et suivez les instructions fournies dans [Workflow de mise à niveau de l’installation et de la post-installation](#installation-and-post-installation-upgrade-workflow) pour terminer la mise à niveau.
 
 ## Workflow de mise à niveau de l’installation et post-installation
 
@@ -122,7 +151,7 @@ Téléchargez le package de la version 4.6.0 à partir du portail de distributio
 Pour installer le package de version, procédez comme suit :
 
 1. Installez le package de version sur lequel vous souhaitez effectuer la mise à niveau.
-1. Vous pouvez choisir d’appuyer sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [&#x200B; Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
+1. Vous pouvez choisir d’appuyer sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
 
 1. Une fois l’installation du package terminée, attendez le message suivant dans les journaux :
 
@@ -229,7 +258,7 @@ Effectuez les étapes suivantes pour indexer le contenu existant :
 
 - Exécutez une requête POST au serveur \(avec l’authentification correcte\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facultatif : vous pouvez transmettre des chemins spécifiques des mappages pour les indexer. Par défaut, tous les mappages sont indexés || Exemple : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- L’API renvoie un `jobId`. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée : `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(par exemple : ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`).
+- L’API renvoie un `jobId`. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(par exemple : ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 - Une fois la tâche terminée, la requête GET ci-dessus répond avec succès et mentionne si des mappages ont échoué. Les mappages indexés avec succès peuvent être confirmés à partir des journaux du serveur.
 
@@ -249,9 +278,8 @@ Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000
 
 ### Procédure de réindexation de damAssetLucene
 
-La définition d’index est mise à jour pour damAssetLucene avec AEM Guides. Après la mise à niveau vers la version requise, reportez-vous à [cet article](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-16460) pour réindexer damAssetLucene.
+La définition d’index est mise à jour pour damAssetLucene avec AEM Guides. Après la mise à niveau vers la version requise, reportez-vous à [cet article](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) pour réindexer damAssetLucene.
 
 >[!NOTE]
 >
 > Tout en suivant la documentation, assurez-vous que les deux propriétés (`reindex=true` et `reindex-async=true` pour `/oak:index/damAssetLucene`) sont mises à jour simultanément via l’opération Enregistrer .
-
