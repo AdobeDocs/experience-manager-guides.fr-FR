@@ -16,7 +16,7 @@ subfeature_v2:
   - id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
 workflow-type: tm+mt
 source-wordcount: 139
 ht-degree: 0%
@@ -25,6 +25,6 @@ ht-degree: 0%
 
 # Configurer des noms de fichiers valides pour la sortie du site AEM {#id214GK0X0KXA}
 
-Tout comme la liste des caractères de nom de fichier valides autorisés pour les rubriques DITA, vous pouvez également configurer une liste de caractères de nom de fichier valides pour la sortie du site AEM. Voici quelques caractères connus qui ne sont pas autorisés dans une URL : ```'<>`@$```. Ces caractères sont configurés pour être automatiquement convertis en trait de soulignement « _ » lorsqu’ils sont trouvés lors de la génération de noms de fichiers de sortie du site AEM. La configuration qui vous permet de définir des caractères valides dans la sortie du site AEM est présente dans le lot `com.adobe.fmdita.common.SanitizeNodeNameImpl`. **Définissez le jeu de caractères interdits pour la publication sur AEM Sites** pour inclure les caractères que vous souhaitez remplacer par un trait de soulignement dans les noms de fichier de sortie du site AEM.
+Tout comme la liste des caractères de nom de fichier valides autorisés pour les rubriques DITA, vous pouvez également configurer une liste de caractères de nom de fichier valides pour la sortie du site AEM. Voici quelques caractères connus qui ne sont pas autorisés dans une URL : `<>` `@$`. Ces caractères sont configurés pour être automatiquement convertis en trait de soulignement « _ » lorsqu’ils sont trouvés lors de la génération de noms de fichiers de sortie du site AEM. La configuration qui vous permet de définir des caractères valides dans la sortie du site AEM est présente dans le lot `com.adobe.fmdita.common.SanitizeNodeNameImpl`. **Définissez le jeu de caractères interdits pour la publication sur AEM Sites** pour inclure les caractères que vous souhaitez remplacer par un trait de soulignement dans les noms de fichier de sortie du site AEM.
 
 **Rubrique parente :**&#x200B;[&#x200B; Configurer les noms de fichier](conf-file-names.md)

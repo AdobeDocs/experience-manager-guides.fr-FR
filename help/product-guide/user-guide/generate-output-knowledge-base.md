@@ -18,9 +18,9 @@ subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 1333
+source-wordcount: 1343
 ht-degree: 1%
 
 ---
@@ -100,7 +100,7 @@ Les options de configuration suivantes s’affichent pour **ServiceNow** en tant
 
 | Options ServiceNow | Description |
 | --- | --- |
-| Profil de publication | Utilisez la liste déroulante pour sélectionner un profil de connexion ServiceNow configuré par votre administrateur. Pour en savoir plus sur la manière dont votre administrateur peut créer un profil de publication, consultez la description de la fonctionnalité **Paramètres** (apparaissant sous la forme **Paramètres** pour **On-Prem**) dans la section [Panneau de gauche](./web-editor-features.md#id2051EA0M0HS). |
+| Profil de publication | Utilisez la liste déroulante pour sélectionner un profil de connexion ServiceNow configuré par votre administrateur. Pour en savoir plus sur la manière dont votre administrateur peut créer un profil de publication, consultez la description de la fonctionnalité **Paramètres** (apparaissant sous la forme **Paramètres** **pour la configuration sur site avant la version 5.2**) dans la section [Panneau de gauche](./web-editor-features.md#id2051EA0M0HS). |
 | Knowledge Base | Utilisez ce champ pour sélectionner la base de connaissances ServiceNow requise. Vous pouvez configurer les bases de connaissances sur le site ServiceNow pour stocker le contenu en fonction des autorisations. Les articles de ce plan DITA peuvent être publiés dans ces bases de connaissances. |
 | Catégorie et sous-catégorie | Les catégories sont comme des arborescences hiérarchiques utilisées pour rechercher et classer les articles de la base de connaissances ServiceNow. Ajoutez une catégorie et une sous-catégorie pour publier les rubriques et sous-rubriques de la table des matières dans cette catégorie et sous-catégorie sur le site ServiceNow. |
 
@@ -110,7 +110,7 @@ Les options de configuration suivantes s&#39;affichent pour **&#x200B;**&#x200B;
 
 | Options de Salesforce | Description |
 | --- | --- |
-| Profil de publication | Utilisez la liste déroulante pour effectuer une sélection parmi les profils de connexion Salesforce configurés par votre administrateur. Pour en savoir plus sur la manière dont votre administrateur peut créer un profil de publication, consultez la description de la fonctionnalité **Paramètres** (apparaissant sous la forme **Paramètres** pour **On-Prem**) dans [Barre d’onglets](./web-editor-tab-bar.md). |
+| Profil de publication | Utilisez la liste déroulante pour effectuer une sélection parmi les profils de connexion Salesforce configurés par votre administrateur. Pour en savoir plus sur la manière dont votre administrateur peut créer un profil de publication, consultez la description de la fonctionnalité **Paramètres** (apparaissant sous la forme **Paramètres** pour **Configuration On-Premise avant la version 5.2**) dans [Barre d’onglets](./web-editor-tab-bar.md). |
 | Type d’enregistrement | Utilisez la liste déroulante pour sélectionner parmi les types d’enregistrements configurés dans Salesforce en fonction des paramètres de visibilité basés sur votre profil utilisateur. Les types d’enregistrements Salesforce permettent de regrouper de nombreux enregistrements d’un type pour cet objet. Elles définissent l&#39;organisation de votre publication. Par exemple, vous pouvez sélectionner le type d’enregistrement FAQ et publier en fonction de la mise en page et des champs de la page FAQ. |
 | Champ de contenu d’article | Vous pouvez disposer de différents champs et d’une mise en page unique pour chaque modèle de type d’enregistrement. Utilisez ces champs pour saisir des informations spécifiques en fonction du type d’article. Par exemple, vous pouvez afficher le titre, la réponse et l’équation d’un article de FAQ. |
 | Catégories | Sélectionnez une catégorie dans la liste déroulante pour publier les rubriques de la table des matières de cette catégorie sur le site Salesforce. |

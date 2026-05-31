@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
 workflow-type: tm+mt
 source-wordcount: 5886
 ht-degree: 1%
@@ -262,7 +262,7 @@ Pour configurer les caractères spéciaux valides dans les noms de fichier et la
 
 1. Recherchez et cliquez sur le lot *com.adobe.fmdita.common.SanitizeNodeNameImpl* et cliquez dessus.
 
-1. Dans la propriété **Jeu de caractères non autorisé pour la publication sur AEM Sites**, assurez-vous que la propriété est définie sur ```'<>`@$```. Vous pouvez ajouter d’autres caractères spéciaux à cette liste. Toutefois, elle doit comporter ces caractères spéciaux obligatoires.
+1. Dans la propriété **Jeu de caractères non autorisé pour la publication sur AEM Sites**, assurez-vous que la propriété est définie sur `<>` `@$`. Vous pouvez ajouter d’autres caractères spéciaux à cette liste. Toutefois, elle doit comporter ces caractères spéciaux obligatoires.
 
    >[!NOTE]
    >

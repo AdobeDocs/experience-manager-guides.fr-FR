@@ -4,9 +4,9 @@ description: Découvrez les différents paramètres disponibles dans l’interfa
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
+source-git-commit: e41cf263f42e91bc384aa09fd1135b46e429c86a
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2212'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> Dans la configuration On-premise, l’option **Paramètres** s’affiche dans la barre d’onglets de l’éditeur. Dans la configuration de Cloud Service, cette option a été renommée **paramètres de Workspace**. Toutes les options de configuration existantes disponibles sous **Paramètres de l’éditeur** restent inchangées.
+> Dans la configuration On-premise antérieure à la version 5.2, l’option **Paramètres** s’affiche dans la barre d’onglets de l’éditeur. Pour les configurations Cloud Service et On-Premise des versions 5.2 et ultérieures, cette option a été renommée **paramètres de Workspace**. Toutes les options de configuration existantes disponibles sous **Paramètres de l’éditeur** restent inchangées.
 > ![Paramètre de l’éditeur pour On-premise](assets/editor-settings-on-prem.png){width="650"}
 
 

@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
 workflow-type: tm+mt
 source-wordcount: '3190'
 ht-degree: 2%
@@ -210,7 +210,7 @@ Vous pouvez également configurer d’autres propriétés, telles que l’utilis
 
 1. Recherchez et cliquez sur le lot *com.adobe.fmdita.common.SanitizeNodeNameImpl* et cliquez dessus.
 
-1. Dans la propriété **Jeu de caractères non autorisé pour la publication sur AEM Sites**, assurez-vous que la propriété est définie sur ```'<>`@$```. Vous pouvez ajouter d’autres caractères spéciaux à cette liste. Toutefois, elle doit comporter ces caractères spéciaux obligatoires.
+1. Dans la propriété **Jeu de caractères non autorisé pour la publication sur AEM Sites**, assurez-vous que la propriété est définie sur `<>` `@$`. Vous pouvez ajouter d’autres caractères spéciaux à cette liste. Toutefois, elle doit comporter ces caractères spéciaux obligatoires.
 
    >[!NOTE]
    >

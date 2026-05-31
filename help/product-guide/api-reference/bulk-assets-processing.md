@@ -11,14 +11,18 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 591
-ht-degree: 12%
+source-wordcount: 639
+ht-degree: 11%
 
 ---
 
 # API pour démarrer le traitement en bloc des ressources
+
+>[!NOTE]
+>
+> Pour connaître les dernières définitions de point d’entrée de l’API REST et les détails associés, consultez la documentation Swagger à l’adresse `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html` (remplacez `<aem-author-url>` par l’URL de votre serveur AEM). Comme cet article doit être archivé en octobre 2026, nous vous recommandons d’utiliser à l’avenir la documentation Swagger pour obtenir les informations d’API les plus récentes.
 
 Méthode POST qui lance le traitement des ressources en bloc pour un chemin d’accès spécifié. Cette API prend en charge le traitement des ressources basé sur JCR et sur la base de données. Il lance une tâche asynchrone qui traite toutes les ressources du chemin donné et de ses sous-chemins. Lors du lancement, l’API renvoie un ID de traitement unique, qui peut être utilisé pour suivre le statut de la tâche.
 

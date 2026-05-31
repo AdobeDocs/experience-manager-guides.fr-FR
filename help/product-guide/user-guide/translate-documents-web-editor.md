@@ -21,9 +21,9 @@ subfeature_v2:
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 2536
+source-wordcount: 2473
 ht-degree: 1%
 
 ---
@@ -188,7 +188,7 @@ Pour plus d’informations sur la configuration des profils globaux et au niveau
 
 Experience Manager Guides permet de transmettre le libellé du fichier source au fichier cible. Cela vous aidera à identifier facilement la version source du fichier traduit.
 
-Pour ajouter le libellé de version source dans la copie cible, votre administrateur système doit activer l’option **Propager les libellés de version source à la version cible** dans l’onglet **Traduction** des paramètres **Workspace** (apparaissant sous la forme **Paramètres** pour **On-Prem**).
+Pour ajouter le libellé de la version source dans la copie cible, votre administrateur système doit activer l’option **Propager les libellés de la version source vers la version cible** dans l’onglet **Traduction** des paramètres de **Workspace** (apparaissant sous la forme **Paramètres** pour **Configuration On-Premise antérieure à la version 5.2**).
 
 Par exemple, si vous avez des fichiers source auxquels est appliqué le libellé de version `Release 1.0`, vous pouvez également transmettre le libellé source \(`Release 1.0`\) au fichier traduit.
 

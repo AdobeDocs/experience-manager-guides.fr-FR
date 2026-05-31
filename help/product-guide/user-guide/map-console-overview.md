@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 773
+source-wordcount: 776
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ L’interface de Map Console est principalement divisée en deux sections : **Ba
 
   >[!NOTE]
   >
-  > Si vous utilisez Adobe Experience Manager Guides dans une configuration On-Premise , l’option des paramètres de Workspace continue à apparaître sous la forme **Paramètres** sous le menu Plus d’actions .
+  > Si vous utilisez Adobe Experience Manager Guides dans une configuration On-Premise antérieure à la version 5.2, l’option Paramètres de Workspace continue à apparaître sous la forme **Paramètres** sous le menu Autres actions .
 
    - **Développer la vue** : permet de développer la page vue à l’aide de l’icône **Développer**. Dans cette vue, la barre d’en-tête est masquée, ce qui optimise l’espace du contenu. Pour revenir à la vue standard, utilisez l’icône **Quitter la vue développée**.
 

@@ -8,12 +8,13 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 18a1e586774da61e19055f8e4eb68a507192205c
+source-git-commit: 82d95464acaa3d4d2c43a35197e40a606cd2cc49
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: 533
 ht-degree: 0%
 
 ---
+
 
 # Exemples
 

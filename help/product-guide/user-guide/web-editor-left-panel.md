@@ -23,9 +23,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 11080
+source-wordcount: 11025
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Vous pouvez également effectuer de nombreuses actions à l’aide du menu Optio
 
 >[!NOTE]
 >
-> À compter de la version 2025.11.0, le **Référentiel** dans l’éditeur sera obsolète et remplacé par le **Explorateur** pour la configuration **Cloud Service**. Pour la configuration **On-Premise**, vous continuerez à afficher et à utiliser le référentiel via l’interface de l’éditeur jusqu’à la version 5.1 de Experience Manager Guides.
+> À compter de la version 2025.11.0 pour Cloud Service et de la version 5.2.0 pour On-Premise, **Référentiel** est remplacé par **Explorateur**. Pour les versions On-Premise antérieures à la version 5.2, vous continuerez à afficher et à utiliser le référentiel via l’interface de l’éditeur.
 
 Lorsque vous sélectionnez l’icône Référentiel , vous obtenez une liste de fichiers et de dossiers disponibles dans la gestion des ressources numériques (DAM). Par défaut, vous pouvez afficher les fichiers par titres. Pointez sur un fichier pour afficher le titre et le nom du fichier sous forme d’info-bulle.
 
@@ -493,7 +493,7 @@ Les différentes options du menu Options sont expliquées ci-dessous :
 
 >[!NOTE]
 >
-> À compter de la version 2025.11.0, le terme Référentiel dans l’éditeur sera remplacé par **Explorer** pour la configuration du service cloud. La configuration On-Premise continue à voir et à accéder au référentiel dans l’éditeur.
+> À compter de la version 2025.11.0 pour Cloud Service et de la version 5.2.0 pour On-Premise, **Référentiel** est remplacé par **Explorateur**. Pour les versions On-Premise antérieures à la version 5.2, vous continuerez à afficher et à utiliser le référentiel via l’interface de l’éditeur.
 
 L’Explorateur fournit la plupart des fonctionnalités précédemment disponibles dans le référentiel, notamment :
 
@@ -730,7 +730,7 @@ Si un élément de bloc possède son propre texte, il est affiché avec cet él�
 
 ![](images/outline-view-block-element.png){width="550"}
 
-Si votre administrateur a créé un profil pour les attributs, vous obtiendrez ces attributs ainsi que leurs valeurs configurées. Vous pouvez également attribuer les attributs d’affichage configurés par votre administrateur sous l’onglet **Attributs d’affichage** dans les paramètres de **Workspace** (apparaissant sous la forme **Paramètres** pour **On-Prem**). Les attributs définis pour un élément sont affichés en mode Mise en page et Plan.
+Si votre administrateur a créé un profil pour les attributs, vous obtiendrez ces attributs ainsi que leurs valeurs configurées. Vous pouvez également attribuer les attributs d’affichage configurés par votre administrateur sous l’onglet **Attributs d’affichage** dans les paramètres de **Workspace** (apparaissant sous la forme **Paramètres** pour **Configuration On-Premise antérieure à la version 5.2**). Les attributs définis pour un élément sont affichés en mode Mise en page et Plan.
 
 
 **Fonction de recherche**
@@ -1060,7 +1060,7 @@ Vous pouvez également modifier les valeurs à partir de la liste déroulante de
 
 Vous pouvez également afficher et appliquer le schéma d&#39;objet à partir du panneau Conditions.
 
-Pour afficher le schéma d&#39;objet à partir du panneau Conditions, votre administrateur système doit sélectionner l&#39;option **Afficher le schéma d&#39;objet dans le panneau Conditions** sous l&#39;onglet Général dans les paramètres **Workspace** (apparaissant sous la forme **Paramètres** pour **On-Prem**). Pour plus d’informations, voir la [barre d’onglets](./web-editor-tab-bar.md).
+Pour afficher le schéma d&#39;objet à partir du panneau Conditions, votre administrateur système doit sélectionner l&#39;option **Afficher le schéma d&#39;objet dans le panneau Conditions** sous l&#39;onglet Général dans les paramètres **Workspace** (apparaissant sous la forme **Paramètres** pour **Configuration On-Premise antérieure à la version 5.2**). Pour plus d’informations, voir la [barre d’onglets](./web-editor-tab-bar.md).
 
 Le panneau Conditions affiche la structure verticale plate des définitions d&#39;objet dans le schéma d&#39;objet.
 
@@ -1229,7 +1229,7 @@ Pour effectuer la recherche globale et remplacer par le mode Source, procédez c
 
    >[!NOTE]
    >
-   >Pour activer le bouton **Tout remplacer**, l’administrateur de profils de dossiers ou l’administrateur système doit sélectionner l’option **Activer tout remplacer** sous l’onglet **Général** dans les paramètres de **Workspace** (apparaissant sous la forme **Paramètres** pour **Sur site**).
+   >Pour activer le bouton **Tout remplacer**, l’administrateur de profils de dossiers ou l’administrateur système doit sélectionner l’option **Tout remplacer** sous l’onglet **Général** dans les paramètres de **Workspace** (apparaissant sous la forme **Paramètres** pour **Configuration On-Premise avant la version 5.2**).
 
 1. Vous pouvez également pointer sur un fichier de la liste des résultats de recherche pour afficher l’icône **Tout remplacer dans le fichier** située à droite, qui vous permet de remplacer toutes les occurrences du terme dans un seul fichier.
 
@@ -1303,7 +1303,7 @@ Pour effectuer la recherche et le remplacement globaux sans le mode Source, proc
 
    >[!NOTE]
    >
-   > Pour activer l’icône Then **Replace all**, l’administrateur de profil de dossier ou l’administrateur système doit sélectionner l’option **Activer tout remplacer** sous l’onglet **Général** dans les paramètres de **Workspace** (apparaissant sous la forme **Paramètres** pour **On-Prem**). Si des erreurs se produisent lors de l&#39;opération de remplacement, ces fichiers seront ignorés en raison de problèmes d&#39;analyse XML ou d&#39;erreurs liées à DITA.
+   > Pour activer l’icône Then **Replace all**, l’administrateur de profil de dossier ou l’administrateur système doit sélectionner l’option **Activer tout remplacer** sous l’onglet **Général** dans les paramètres de **Workspace** (apparaissant sous la forme **Paramètres** pour **Configuration On-Premise antérieure à la version 5.2**). Si des erreurs se produisent lors de l&#39;opération de remplacement, ces fichiers seront ignorés en raison de problèmes d&#39;analyse XML ou d&#39;erreurs liées à DITA.
 
    ![](images/replace-all.png){width="350"}
 

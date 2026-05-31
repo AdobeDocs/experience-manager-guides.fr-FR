@@ -16,9 +16,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: 566
 ht-degree: 0%
 
 ---
@@ -77,12 +77,12 @@ Un outil puissant et piloté par l’IA conçu pour améliorer votre productivit
    - **Services cloud** : si vous utilisez des services cloud, la sélection de l’option **Assets** vous conduit à la page de navigation d’AEM.
 
    - **Logiciel On-premise** : si vous utilisez Adobe Experience Manager Guides (4.2.1 et versions ultérieures), la sélection de l’option **Assets** vous conduit au chemin d’accès actuel au fichier dans l’interface utilisateur d’Assets.
-- **Paramètres de Workspace** : vous permet d’accéder à la boîte de dialogue des paramètres de Workspace. Pour plus d’informations, consultez [Configuration des paramètres de Workspace](../cs-install-guide/workspace-settings.md).
+- **Paramètres de Workspace** : vous permet d’accéder à la boîte de dialogue des paramètres de Workspace. Pour plus d’informations, consultez [Configuration des paramètres de Workspace](../install-conf-guide/workspace-settings.md).
 
 >[!NOTE]
 >
-> Si vous utilisez Adobe Experience Manager Guides dans une configuration On-Premise , l’option des paramètres de Workspace continue à apparaître sous la forme **Paramètres** sous le menu Plus d’actions .
+>Si vous utilisez Adobe Experience Manager Guides dans une configuration On-Premise antérieure à la version 5.2, l’option Paramètres de Workspace continue à apparaître sous la forme **Paramètres** sous le menu Autres actions .
 
-- **Paramètres de l’éditeur** : permet d’accéder à la boîte de dialogue Paramètres de l’éditeur dans laquelle vous pouvez personnaliser le comportement de l’éditeur au niveau de l’auteur individuel. Il vous permet de contrôler la visibilité et le comportement des balises, des commentaires et d’autres paramètres au niveau de l’éditeur lors de la création. Pour plus d’informations, consultez [Paramètres de l’éditeur](./config-editor-settings.md).
+- **Paramètres de l’éditeur** : permet d’accéder à la boîte de dialogue Paramètres de l’éditeur dans laquelle vous pouvez personnaliser le comportement de l’éditeur au niveau de l’auteur individuel. Il vous permet de contrôler la visibilité et le comportement des balises, des commentaires et d’autres paramètres au niveau de l’éditeur lors de la création. Pour plus d’informations, consultez [Paramètres de l’éditeur](../install-conf-guide/workspace-settings.md).
 
 **Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)

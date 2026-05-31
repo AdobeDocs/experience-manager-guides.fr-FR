@@ -1,24 +1,24 @@
 ---
-title: Configuration de la tâche de nettoyage B-tree pour les services cloud
-description: Configuration de la tâche de nettoyage B-tree pour les services cloud
+title: Configuration de la tâche de nettoyage du magasin de référence
+description: Configuration de la tâche de nettoyage du magasin de référence
 feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 58f98313-fc91-43b3-9553-aa5ab4946925
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 370a28a06a37b632873a79c9b83b8660a0221dd8
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '247'
 ht-degree: 3%
 
 ---
 
-# Configurer le nettoyage de l’arborescence B
+# Configuration du nettoyage du magasin de référence
 
-Configurez la tâche de nettoyage B-tree et gérez le paramètre `Guides BTree deletion` pour que votre système reste optimisé et que le stockage reste propre.
+Configurez la tâche Nettoyage du magasin de référence et gérez le paramètre `Guides BTree deletion` pour que votre système reste optimisé et que le stockage reste propre.
 
-## Configurer la tâche de nettoyage de l’arborescence B
+## Configuration de la tâche de nettoyage du magasin de référence
 
-Les onglets suivants fournissent des instructions pour configurer une tâche de nettoyage B-tree en fonction de votre configuration Experience Manager Guides : Cloud Service ou On-Premise.
+Les onglets suivants fournissent des instructions pour configurer la tâche de nettoyage du magasin de référence en fonction de votre configuration Experience Manager Guides : Cloud Service ou On-Premise.
 
 >[!BEGINTABS]
 
@@ -44,9 +44,9 @@ Les onglets suivants fournissent des instructions pour configurer une tâche de 
 
 1. Recherchez et sélectionnez le lot *com.adobe.guides.utils.schedulers.GuidesBTreesCleanupSchedulerJob*.
 
-1. Mettez à jour l’expression cron pour configurer la fréquence d’exécution des tâches du planificateur de nettoyage de l’arborescence B.
+1. Mettez à jour l’expression cron pour configurer la fréquence d’exécution des tâches du planificateur de nettoyage du magasin de référence.
 
-1. Configurez le planificateur de nettoyage de l’arborescence B comme illustré ci-dessous.
+1. Configurez le planificateur de nettoyage du magasin de référence comme illustré ci-dessous.
 
    ![](assets/btree-cleanup-config.png)
 
@@ -81,7 +81,7 @@ Les onglets suivants fournissent des instructions pour activer le paramètre en 
    ```
 
 1. Recherchez et sélectionnez le lot *com.adobe.fmdita.config.ConfigManager*.
-1. Activez la `Guides btree deletion enabled` de paramètre.
+1. Activez le paramètre **Guides btree deletion enabled** (btree.deletion.enabled).
 
    ![](assets/btree-cleanup-setting.png)
 

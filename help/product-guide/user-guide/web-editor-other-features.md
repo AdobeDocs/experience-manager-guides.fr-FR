@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 4286
+source-wordcount: 4232
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Pour créer une nouvelle version du fichier, sélectionnez **Enregistrer comme n
 
   >[!NOTE]
   >
-  >À partir de la version 2025.11.0, **Référentiel** est renommé **Explorateur**. Pour la configuration On-Premise, elle reste disponible en tant que référentiel jusqu’à la version 5.1 de Experience Manager Guides.
+  >À partir de la version 2025.11.0 pour Cloud Service et de la version 5.2 pour On-Premise, **Repository** est renommé **Explorer**. Pour la configuration On-Premise antérieure à la version 5.2, elle reste disponible en tant que référentiel.
 
 ***Ajouter à*** : vous pouvez choisir parmi les options suivantes :
 

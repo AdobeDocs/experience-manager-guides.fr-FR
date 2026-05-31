@@ -19,7 +19,7 @@ subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: e3a10752fa872baabf8cfc339510d3ea907a17d1
 workflow-type: tm+mt
 source-wordcount: 1929
 ht-degree: 0%
@@ -128,7 +128,7 @@ Vous pouvez gérer vos lignes de base existantes à l&#39;aide des différentes 
   >
   >L&#39;opération Modifier en cas de ligne de base dynamique permet de modifier les propriétés de la ligne de base, car les références des lignes de base dynamiques sont générées au moment de l&#39;exécution à l&#39;aide des libellés.
 
-  ![options d’une ligne de base](images/baseline-options.png){}
+  ![options d&#39;une ligne de base](images/baseline-options.png)
 
 ### Actions disponibles pour une ligne de base existante
 
