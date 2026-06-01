@@ -4,9 +4,10 @@ description: Découvrez comment préparer des documents InDesign pour la migrati
 feature: InDesign File Conversion, Troubleshooting
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 6e757850-c563-42c5-aeac-b23c3f2ce679
+source-git-commit: 35fdbf480b4b70b70193772d0eae3a3cedec0077
 workflow-type: tm+mt
-source-wordcount: '2852'
+source-wordcount: '2866'
 ht-degree: 0%
 
 ---
@@ -44,9 +45,9 @@ Effectuez les étapes suivantes pour corriger les références rompues, à l’a
 
 1. Exécutez le `[/bin/fmdita/validatebtree?operation=patch]` de script de correctif pour corriger les références rompues. L’exécution du script prend quelques minutes et imprime les journaux au fur et à mesure de sa progression. Une fois l’exécution terminée, il imprime « `Done` » à la fin.
 
->[!NOTE]
->
-> Il est recommandé de copier et d’enregistrer les journaux à des fins de référence.
+   >[!NOTE]
+   >
+   > Il est recommandé de copier et d’enregistrer les journaux à des fins de référence.
 
 1. Une fois le script de correctif exécuté avec succès, vous pouvez effectuer les vérifications suivantes :
 1. &#x200B;

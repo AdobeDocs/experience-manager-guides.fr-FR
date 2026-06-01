@@ -12,7 +12,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: f6b42924258ff1092eb492dfdcc348f9247886f7
 workflow-type: tm+mt
 source-wordcount: 604
 ht-degree: 0%
@@ -46,7 +46,7 @@ Effectuez les étapes suivantes pour demander une révision ou fermer une tâche
    ![](images/task-details-selection-author-view.png)
 3. Sélectionnez l’icône **Commentaires de la tâche** pour accéder aux commentaires au niveau de la tâche ajoutés par le réviseur ou la réviseuse et les réviser.
 
-   ![](images/task-comments-selection-author-view.png).
+   ![](images/task-comments-selection-author-view.png)
 
    La boîte de dialogue **Commentaires de la tâche** s’affiche à droite.
 

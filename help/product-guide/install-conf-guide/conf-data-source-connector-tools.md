@@ -4,9 +4,10 @@ description: Découvrez comment configurer un connecteur de source de données �
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: ea09ea67-3051-4231-90e2-3b8a3ceb9270
+source-git-commit: d7d8ae300695fb6e637265766e7f44e0e0226e3a
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,7 @@ Les onglets suivants fournissent des instructions pour configurer un connecteur 
    *Afficher ou créer un connecteur de source de données.*
 1. Cliquez sur **Créer**.
 1. Sélectionnez la base de données pour laquelle vous souhaitez créer le connecteur. Par exemple, le connecteur Elasticsearch.
+
    >[!NOTE]
    >
    >Toutes les bases de données prêtes à l’emploi disponibles sont répertoriées.
@@ -55,16 +57,11 @@ Les onglets suivants fournissent des instructions pour configurer un connecteur 
    * **Mot de passe** : saisissez votre nom d’utilisateur et votre mot de passe.
    * **URL** : ajoutez l’URL de l’API.
 
-
 1. Sélectionnez l’option **Exclure les modèles d’usine** pour exclure les modèles d’usine de l’utilisation pour la génération d’un topic et d’un fragment de code. Elles n’apparaissent pas sous la liste déroulante **Modèle de mappage de données** dans la boîte de dialogue **Ajouter un générateur de fragment de contenu** ou **Ajouter un générateur de rubrique**.
-
 
 1. Sélectionnez **Tester la connexion**. Vous ne pouvez afficher le bouton **Tester la connexion** activé qu’après avoir ajouté les détails requis. Affichez un message de réussite si les détails de la connexion sont corrects. Dans le cas contraire, un message d’erreur s’affichera.
 
-
-
 1. Sélectionnez **Enregistrer** dans la partie supérieure pour enregistrer le connecteur.     Afficher le bouton **Enregistrer** activé une fois que vous avez renseigné tous les détails et que la connexion a réussi.
-
 
    Si le connecteur est enregistré correctement, vous pouvez afficher la source de données connectée sur la page.
 
@@ -78,7 +75,6 @@ Pour créer une ressource, procédez comme suit :
 1. Configurez tous les détails de la boîte de dialogue **Ajouter une ressource**.
 1. Cliquez sur **Ajouter**.
 1. Vous pouvez modifier ![icône de modification](assets/edit_pencil_icon.svg) ou supprimer ![supprimer](assets/Delete_icon.svg) la ressource de la liste des ressources d’URL.
-
 1. Vous pouvez également utiliser les ressources par défaut disponibles pour les sources de données telles que Salsify, Akeneo et Microsoft ADO. Désactivez les options de la ressource que vous ne souhaitez pas configurer pour une source de données.
 
 Vous pouvez ainsi récupérer rapidement des données de n’importe quelle ressource pour une source de données spécifique dans un seul fragment de contenu ou une seule rubrique.
@@ -88,7 +84,6 @@ Vous pouvez ainsi récupérer rapidement des données de n’importe quelle ress
 Pour publier une dépendance présente sur le [référentiel central Maven](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) dans les Cloud Services, vous devez inclure et incorporer la dépendance d’un connecteur open source.
 
 1. Ajoutez la dépendance dans `all/pom.xml` dans le code de projet Git de Cloud Manager. Par exemple, vous pouvez ajouter la dépendance suivante pour le connecteur source de données des tableaux de bord Microsoft Azure DevOps.
-
 
    ```
    <dependency>
@@ -101,15 +96,15 @@ Pour publier une dépendance présente sur le [référentiel central Maven](http
 
 1. Incorporez la dépendance ajoutée.
 
-       « 
-       &lt;bedded>
-       &lt;groupId>com.adobe.aem.addon.guides&lt;/groupId>
-       &lt;artifactId>konnect-azure-devops&lt;/artifactId>
-       &lt;type>jar&lt;/type>
-       &lt;target>/apps/aemdoxonaemcsstageprogram-seller-packages/content/install&lt;/target>
-       &lt;/bedded>
-       « 
-   
+   ```
+   <embedded>
+       <groupId>com.adobe.aem.addon.guides</groupId>
+       <artifactId>konnect-azure-devops</artifactId>
+       <type>jar</type>
+       <target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install</target>
+   </embedded> 
+   ```
+
 1. Exécutez le pipeline pour appliquer les modifications dans les Cloud Services.
 Le connecteur est installé dans votre environnement.
 
@@ -126,6 +121,7 @@ Le connecteur est installé dans votre environnement.
    *Afficher ou créer un connecteur de source de données.*
 1. Cliquez sur **Créer**.
 1. Sélectionnez la base de données pour laquelle vous souhaitez créer le connecteur. Par exemple, le connecteur Elasticsearch.
+
    >[!NOTE]
    >
    >Toutes les bases de données prêtes à l’emploi disponibles sont répertoriées.
@@ -146,7 +142,6 @@ Le connecteur est installé dans votre environnement.
 1. Sélectionnez **Tester la connexion**. Vous ne pouvez afficher le bouton **Tester la connexion** activé qu’après avoir ajouté les détails requis. Affichez un message de réussite si les détails de la connexion sont corrects. Dans le cas contraire, un message d’erreur s’affichera.
 
 1. Sélectionnez **Enregistrer** dans la partie supérieure pour enregistrer le connecteur.     Afficher le bouton **Enregistrer** activé une fois que vous avez renseigné tous les détails et que la connexion a réussi.
-
 
    Si le connecteur est enregistré correctement, vous pouvez afficher la source de données connectée sur la page.
 
@@ -171,7 +166,6 @@ Vous pouvez utiliser les fonctionnalités suivantes pour le connecteur sur la pa
 Une erreur s’affiche si le connecteur portant le même nom existe.
 
 * **Supprimer** : supprimez le connecteur sélectionné.
-
 
 Une fois la source de données configurée, le connecteur est répertorié sous le panneau **Sources de données** dans l’éditeur web. Vous pouvez ensuite vous connecter à la source de données et insérer un fragment de contenu dans vos rubriques. Pour plus d’informations, consultez la section [&#x200B; Insérer un fragment de contenu à partir de votre source de données &#x200B;](../user-guide/web-editor-content-snippet.md).
 
