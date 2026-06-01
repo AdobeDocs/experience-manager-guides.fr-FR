@@ -4,9 +4,10 @@ description: Découvrez comment préparer des documents InDesign pour la migrati
 feature: InDesign File Conversion, Troubleshooting
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 6e757850-c563-42c5-aeac-b23c3f2ce679
+source-git-commit: 35fdbf480b4b70b70193772d0eae3a3cedec0077
 workflow-type: tm+mt
-source-wordcount: '2852'
+source-wordcount: '2866'
 ht-degree: 0%
 
 ---
@@ -33,7 +34,7 @@ Effectuez les étapes suivantes pour vérifier les références, à l’aide du 
 1. Exécutez le script de validation \[`/bin/fmdita/validatebtree?operation=validate`\] pour vérifier si de nouvelles références ont été rompues.
 1. Si le script de validation signale des erreurs, vous pouvez lui appliquer un correctif à l’aide du script de correctif.
 1. Enregistrez les détails donnés ci-dessous et, si nécessaire, partagez-les avec votre équipe chargée du succès client :
-1. &#x200B;
+1. 
    - Logs imprimés par script de validation
 - Package de « `/content/fmdita/references` »
 - Tout autre détail requis en fonction du scénario signalé
@@ -44,12 +45,12 @@ Effectuez les étapes suivantes pour corriger les références rompues, à l’a
 
 1. Exécutez le `[/bin/fmdita/validatebtree?operation=patch]` de script de correctif pour corriger les références rompues. L’exécution du script prend quelques minutes et imprime les journaux au fur et à mesure de sa progression. Une fois l’exécution terminée, il imprime « `Done` » à la fin.
 
->[!NOTE]
->
-> Il est recommandé de copier et d’enregistrer les journaux à des fins de référence.
+   >[!NOTE]
+   >
+   > Il est recommandé de copier et d’enregistrer les journaux à des fins de référence.
 
 1. Une fois le script de correctif exécuté avec succès, vous pouvez effectuer les vérifications suivantes :
-1. &#x200B;
+1. 
    - Vérifiez qu’un nouveau nœud « `references_backup_<timestamp>"` a été créé sous `/content/fmdita`
 - Vérifier que les références ont été corrigées
 
@@ -343,7 +344,7 @@ L’exemple suivant montre comment déplacer un `title` dans un `table` :
 
 Les éléments `paragraphStyleRule` sont décrits ci-dessous :
 
-**&#x200B; élément `paraRule`**
+** élément `paraRule`**
 
 L’élément `paraRule` est obligatoire. Cette option spécifie les règles de mappage pour tous les styles de paragraphe. Dans un document InDesign, tout le texte se trouve dans une sous-structure de styles de paragraphe. Même les paragraphes sans style sont nommés `\[No paragraph style\]`. Les crochets, ils indiquent un nom de style InDesign intégré.
 
