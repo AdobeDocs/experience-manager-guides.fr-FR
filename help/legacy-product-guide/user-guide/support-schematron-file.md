@@ -16,9 +16,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 9f5364625d113f2f1fd147b6df30b0ca3d439029
 workflow-type: tm+mt
-source-wordcount: 766
+source-wordcount: 673
 ht-degree: 0%
 
 ---
@@ -57,6 +57,7 @@ Lorsque vous ouvrez une rubrique dans l’éditeur web, un panneau Validation du
 1. Cliquez sur l’icône Schéma () pour ouvrir le panneau Schéma .
 1. Utilisez Ajouter un fichier Schematron pour ajouter des fichiers Schematron.
 1. Si le fichier Schematron ne comporte aucune erreur, il est ajouté et répertorié dans le panneau Validation . Un message d’erreur s’affiche pour le fichier Schematron contenant les erreurs.
+
    >[!NOTE]
    >
    >Vous pouvez utiliser l’icône en forme de croix près du nom du fichier Schematron pour le supprimer.
@@ -115,7 +116,6 @@ Par exemple, vous pouvez l’utiliser pour afficher un message si le titre ne co
 No one word titles.
 </assert>  
 ```
-
 
 ## Définition de modèles abstraits{#schematron-abstract-patterns}
 
