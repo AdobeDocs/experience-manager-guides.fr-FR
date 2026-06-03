@@ -15,9 +15,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9f5364625d113f2f1fd147b6df30b0ca3d439029
+source-git-commit: de26a643364cab57b415d8eff9e863ea1b4bfe62
 workflow-type: tm+mt
-source-wordcount: 907
+source-wordcount: 984
 ht-degree: 0%
 
 ---
@@ -28,8 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> L’éditeur prend en charge le schéma ISO.
-
+>L’éditeur prend en charge le schéma ISO.
 
 ## Importer des fichiers Schematron
 
@@ -57,7 +56,7 @@ Lorsque vous ouvrez une rubrique dans l’éditeur, un panneau Validation du sch
 
    >[!NOTE]
    >
-   > Lorsqu’un fichier de schéma non valide est ajouté, un message d’erreur s’affiche dans le panneau Validation .
+   >Lorsqu’un fichier de schéma non valide est ajouté, un message d’erreur s’affiche dans le panneau Validation :
 
    ![](images/schematron-panel-error.png){width="350"}
 
@@ -123,8 +122,8 @@ Lorsque vous validez vos rubriques DITA avec le Schematron, vous obtenez un mess
 ### Instruction du rapport
 
 Une instruction de rapport génère un message lorsqu’une instruction de test est évaluée comme vraie. Par exemple, si vous souhaitez que la description courte comporte moins de 150 caractères ou qu’elle soit égale à 1, vous pouvez définir une instruction de rapport pour vérifier les rubriques dont la description courte comporte plus de 150 caractères.
-Lorsque vous validez vos rubriques DITA avec le schéma, vous obtenez un rapport complet des règles où l&#39;instruction du rapport est vraie. Ainsi, vous obtenez un message pour les sujets dont la description courte dépasse 150 caractères.
 
+Lorsque vous validez vos rubriques DITA avec le schéma, vous obtenez un rapport complet des règles où l&#39;instruction du rapport est vraie. Ainsi, vous obtenez un message pour les sujets dont la description courte dépasse 150 caractères.
 
 ```XML
 <sch:rule context="shortdesc"> 
@@ -137,7 +136,7 @@ Lorsque vous validez vos rubriques DITA avec le schéma, vous obtenez un rapport
 
 >[!NOTE]
 >
-> Utilisez uniquement des expressions Xpath 2.0 lors de l’écriture des règles Schematron.
+>Utilisez uniquement des expressions Xpath 2.0 lors de l’écriture des règles Schematron.
 
 ## Utilisation d’expressions Regex{#schematron-regex-espressions}
 
@@ -155,9 +154,7 @@ No one word titles.
 
 Experience Manager Guides prend également en charge les modèles abstraits dans Schematron. Vous pouvez définir des modèles abstraits génériques et les réutiliser.  Vous pouvez créer des paramètres d’espace réservé qui spécifient le modèle réel.
 
-
 L’utilisation de modèles abstraits peut simplifier votre schéma Schematron en réduisant la duplication des règles et en facilitant la gestion et la mise à jour de votre logique de validation. Cela peut également faciliter la compréhension de votre schéma, dans la mesure où vous pouvez définir une logique de validation complexe dans un modèle abstrait unique qui peut être réutilisé dans l’ensemble du schéma.
-
 
 Par exemple, le code XML suivant crée un modèle abstrait, puis le modèle réel y fait référence à l’aide de l’identifiant .
 
