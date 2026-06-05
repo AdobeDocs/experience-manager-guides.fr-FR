@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 9555f90917819727b77daea4520b6bba2350129f
 workflow-type: tm+mt
-source-wordcount: 947
+source-wordcount: 951
 ht-degree: 2%
 
 ---
@@ -102,7 +102,7 @@ Si vous disposez d&#39;une rubrique DITA sur les « Instructions d&#39;installat
 >
 > Assurez-vous que les composants qui utilisent sling:resourceType sous `wcm/foundation/components` sont migrés vers les `core/wcm/components` correspondants.
 
-Ajoutez le même (composant de conteneur et de texte) dans la structure du même modèle :
+Ajoutez le même composant de conteneur dans la structure du même modèle :
 
 ![Ajout d’un composant de conteneur et de texte](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
 
@@ -114,7 +114,7 @@ Consultez le tableau ci-dessous pour obtenir la liste des composants et leur uti
 
 | Fonctionnalité | Nom du composant | Description | Modèle recommandé |
 |---|---|---|---|
-| Table des matières | guidessidenavigation | Rend la table des matières complète à partir du plan DITA | Conteneur de documentation |
+| Table des matières | guidessidenavigation | Rend la table des matières complète à partir du plan DITA | Page Rubrique |
 | Redirection de page | child-direct | Redirige vers la première page de rubrique de la carte | Conteneur de documentation |
 | Mini table des matières | minitoc | Affiche la table des matières pour la rubrique actuelle | Page Rubrique |
 | Date de la dernière mise à jour | pageproperty | Affiche la date de dernière modification | Page Rubrique |
@@ -135,7 +135,7 @@ Par défaut, les bibliothèques clientes (clientlibs) fournies dans le package d
 
 1. **Modifier le modèle :**
 
-   1. Ouvrez la **page produit** en **mode Éditeur**.
+   1. Ouvrez le **Modèle de page de conteneur** et le **Modèle de page de rubrique** en mode Éditeur.
    2. Sélectionnez **Modifier le modèle** (une URL telle que conf/settings/wcm/templates/structure.html s’ouvre alors).
 
       ![Modifier le modèle](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650"}
