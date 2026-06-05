@@ -5,24 +5,18 @@ exl-id: 285d3ad3-fb4e-4cdd-ab83-493ffce891d6
 feature: Authoring, Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/SZs-Hc4QAGj6Mfdm-Rsaio-UEaIRpLQArxVP2FUydok
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 95496b7275fc8d94afb75703ff2ef5b7c5750644
 workflow-type: tm+mt
 source-wordcount: 481
 ht-degree: 0%
 
 ---
 
-# Présentation des éditeurs {#id181OD0QE05Z}
+# Présentation de l’éditeur {#id181OD0QE05Z}
 
 Experience Manager Guides est fourni avec un éditeur convivial destiné à la création et à la modification de documents structurés. L’éditeur masque au rédacteur toutes les complexités de la structure DITA. L&#39;éditeur fournit une liste d&#39;éléments DITA qu&#39;un utilisateur doit généralement utiliser dans un document.
 
@@ -62,4 +56,4 @@ Le nouvel éditeur ne prend actuellement pas en charge les fonctionnalités suiv
 L’ancien éditeur de Experience Manager Guides offre une expérience de création simple et fiable pour le contenu structuré, en abstrayant les complexités de DITA tout en assurant la conformité aux normes prises en charge telles que DITA 1.2, 1.3, DITA allégé et DITA spécialisé. Il fournit des outils essentiels pour travailler avec des éléments en ligne et en blocs courants, ce qui le rend bien adapté à la création de contenu cohérent et contrôlé dans un cadre structuré.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; créer du contenu à l’aide de Experience Manager Guides](authoring-content-xml-doc.md)
+**Rubrique parente :**[ créer du contenu à l’aide de Experience Manager Guides](authoring-content-xml-doc.md)

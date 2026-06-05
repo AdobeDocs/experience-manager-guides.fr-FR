@@ -6,22 +6,14 @@ role: Admin
 level: Experienced
 exl-id: d48709b8-f5b2-4545-ac65-838c5d8b1bae
 TQID: https://experienceleague.adobe.com/mzWOXyP0Zr-tScAYAc4R1BBm9LaFKVhOIRbbb9DrVRQ
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 9555f90917819727b77daea4520b6bba2350129f
 workflow-type: tm+mt
-source-wordcount: 947
+source-wordcount: 951
 ht-degree: 2%
 
 ---
@@ -102,7 +94,7 @@ Si vous disposez d&#39;une rubrique DITA sur les « Instructions d&#39;installat
 >
 > Assurez-vous que les composants qui utilisent sling:resourceType sous `wcm/foundation/components` sont migrés vers les `core/wcm/components` correspondants.
 
-Ajoutez le même (composant de conteneur et de texte) dans la structure du même modèle :
+Ajoutez le même composant de conteneur dans la structure du même modèle :
 
 ![Ajout d’un composant de conteneur et de texte](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
 
@@ -114,7 +106,7 @@ Consultez le tableau ci-dessous pour obtenir la liste des composants et leur uti
 
 | Fonctionnalité | Nom du composant | Description | Modèle recommandé |
 |---|---|---|---|
-| Table des matières | guidessidenavigation | Rend la table des matières complète à partir du plan DITA | Conteneur de documentation |
+| Table des matières | guidessidenavigation | Rend la table des matières complète à partir du plan DITA | Page Rubrique |
 | Redirection de page | child-direct | Redirige vers la première page de rubrique de la carte | Conteneur de documentation |
 | Mini table des matières | minitoc | Affiche la table des matières pour la rubrique actuelle | Page Rubrique |
 | Date de la dernière mise à jour | pageproperty | Affiche la date de dernière modification | Page Rubrique |
@@ -135,7 +127,7 @@ Par défaut, les bibliothèques clientes (clientlibs) fournies dans le package d
 
 1. **Modifier le modèle :**
 
-   1. Ouvrez la **page produit** en **mode Éditeur**.
+   1. Ouvrez le **Modèle de page de conteneur** et le **Modèle de page de rubrique** en mode Éditeur.
    2. Sélectionnez **Modifier le modèle** (une URL telle que conf/settings/wcm/templates/structure.html s’ouvre alors).
 
       ![Modifier le modèle](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650"}
@@ -154,4 +146,4 @@ Par défaut, les bibliothèques clientes (clientlibs) fournies dans le package d
 
 >[!NOTE]
 >
-> Assurez-vous que les modèles sont testés dans un environnement hors production avant le déploiement en production.<br><br>Pour plus d’informations[&#128279;](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/overview) consultez la documentation officielle de AEM Guides et [AEM Sites](https://experienceleague.adobe.com/fr/docs/experience-manager-core-components/using/get-started/authoring).
+> Assurez-vous que les modèles sont testés dans un environnement hors production avant le déploiement en production.<br><br>Pour plus d’informations](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) consultez la documentation officielle de [AEM Guides et [AEM Sites](https://experienceleague.adobe.com/fr/docs/experience-manager-core-components/using/get-started/authoring).
