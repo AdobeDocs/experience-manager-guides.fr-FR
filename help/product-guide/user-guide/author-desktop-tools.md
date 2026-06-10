@@ -31,7 +31,7 @@ Experience Manager Guides prend également en charge la création à l’aide d�
 
 **Utilisation de FrameMaker**
 
-FrameMaker prend en charge la création et la publication de contenu dans Experience Manager Guides. FrameMaker est fourni avec un connecteur prêt à l’emploi à Adobe Experience Manager. FrameMaker propose également une interface conviviale qui vous permet de gérer des versions de vos documents dans un environnement distribué et collaboratif. Vous pouvez créer votre contenu dans FrameMaker et le publier dans différents formats : PDF, HTML5, EPUB et DITA. Vous pouvez également effectuer les différentes opérations de gestion des fichiers, telles que l’extraction, l’extraction avec des personnes à charge, l’archivage, l’actualisation, etc. Pour plus d&#39;informations, consultez l&#39;aide de [&#128279;](https://help.adobe.com/en_US/framemaker/using/index.html).
+FrameMaker prend en charge la création et la publication de contenu dans Experience Manager Guides. FrameMaker est fourni avec un connecteur prêt à l’emploi à Adobe Experience Manager. FrameMaker propose également une interface conviviale qui vous permet de gérer des versions de vos documents dans un environnement distribué et collaboratif. Vous pouvez créer votre contenu dans FrameMaker et le publier dans différents formats : PDF, HTML5, EPUB et DITA. Vous pouvez également effectuer les différentes opérations de gestion des fichiers, telles que l’extraction, l’extraction avec des personnes à charge, l’archivage, l’actualisation, etc. Pour plus d&#39;informations, consultez l&#39;aide de [&#128279;](https://help.adobe.com/fr_FR/framemaker/using/index.html).
 
 **Utiliser l&#39;oxygène**
 
