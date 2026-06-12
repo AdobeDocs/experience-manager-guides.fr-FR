@@ -6,11 +6,20 @@ role: User
 hide: true
 exl-id: b63d7c0f-9c29-4fb4-b8fe-9790b16f8726
 TQID: https://experienceleague.adobe.com/vKDza-nz-c9eLMCPSRZ0L0-AjqdF-U-Lp4CSe67MKyY
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2: id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 3818
@@ -62,7 +71,7 @@ Effectuez les étapes suivantes pour créer votre fichier de carte à l’aide d
 
    - **B** - \(*barre d’outils Secondaire*\) Il s’agit de la barre d’outils Secondaire qui vous permet d’utiliser des fichiers de mappage. Pour plus d’informations sur les fonctionnalités disponibles via la barre d’outils Secondaire, consultez [Fonctionnalités disponibles dans la barre d’outils de l’éditeur de cartes avancé](#id205DEC0005Z).
 
-   - **C** - \(*Vues des cartes*\) : permet de basculer l’éditeur de cartes entre les options Disposition, Auteur, Source et Aperçu. La **disposition** vue permet d&#39;organiser les rubriques dans un plan DITA. Cela donne l’arborescence ou la vue hiérarchique de la carte. La vue **Auteur** vous permet de modifier les rubriques dans l’éditeur de cartes. Cela donne également la vue WYSIWYG du fichier de mappage. La vue **** vous permet d&#39;utiliser le code XML sous-jacent du fichier de mappage. L’aperçu vous donne une vue consolidée de toutes les rubriques et sous-cartes dans le fichier de mappage. Le lien **Fermer** ferme le fichier de mappage.
+   - **C** - \(*Vues des cartes*\) : permet de basculer l’éditeur de cartes entre les options Disposition, Auteur, Source et Aperçu. La **disposition** vue permet d&#39;organiser les rubriques dans un plan DITA. Cela donne l’arborescence ou la vue hiérarchique de la carte. La vue **Auteur** vous permet de modifier les rubriques dans l’éditeur de cartes. Cela donne également la vue WYSIWYG du fichier de mappage. La vue **&#x200B;**&#x200B;vous permet d&#39;utiliser le code XML sous-jacent du fichier de mappage. L’aperçu vous donne une vue consolidée de toutes les rubriques et sous-cartes dans le fichier de mappage. Le lien **Fermer** ferme le fichier de mappage.
 
    - **D** - \(*Panneau de gauche*\) : donne accès au panneau de gauche, qui permet d’accéder aux Favoris, au Référentiel, à la Carte, à la Composition et à d’autres fonctionnalités. Vous pouvez le développer ou le réduire en cliquant sur l’icône Développer la barre latérale \(![](images/sidebar-expand-icon.svg)\). Pour plus d’informations sur les fonctionnalités disponibles dans le panneau de gauche, consultez [Panneau de gauche](web-editor-features.md#id2051EA0M0HS) dans l’éditeur web.
 
