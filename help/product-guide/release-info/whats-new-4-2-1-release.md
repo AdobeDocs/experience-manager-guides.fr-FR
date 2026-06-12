@@ -5,10 +5,16 @@ exl-id: 441aa7ec-d88c-42cb-83f0-d0f6e58bfa41
 feature: What's New
 role: Leader
 TQID: https://experienceleague.adobe.com/k-n-2PgbaHCR7-9cpjaeK1vD3T2rA-TeuMxBI78dpIU
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 672
@@ -31,7 +37,7 @@ Vous pouvez désormais facilement accéder à la page de navigation d’AEM à p
 * Cliquez sur l’icône **Guides** (![](assets/aem-guides-icon.png) ) pour revenir à la page de navigation d’AEM.
 
 
-Pour plus d’informations, consultez la page Navigation dans AEM [](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
+Pour plus d’informations, consultez la page Navigation dans AEM [&#128279;](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
 
 ## Prise en charge avancée des métadonnées dans la publication PDF
 
@@ -74,7 +80,7 @@ AEM Guides vous permet désormais d’identifier rapidement les rubriques modifi
 
 <img src="assets/change-marker-toc.png" alt="Modifier le marqueur dans la table des matières " width="500">
 
-Pour plus d’informations, voir [ Utilisation de styles de barres de modification personnalisées ](../native-pdf/change-bar-style.md).
+Pour plus d’informations, voir [&#x200B; Utilisation de styles de barres de modification personnalisées &#x200B;](../native-pdf/change-bar-style.md).
 
 
 
@@ -82,7 +88,7 @@ Pour plus d’informations, voir [ Utilisation de styles de barres de modificati
 
 Vous pouvez maintenant mettre en forme le marqueur de page dans les notes de pied de page. Par exemple, vous pouvez ajouter des crochets ou modifier leur couleur. Ces styles permettent aux utilisateurs d’identifier facilement les marqueurs de page dans le document.
 
-Pour plus d’informations, voir [ Utilisation de styles personnalisés dans les notes de bas de page ](../native-pdf/footnote-number-style.md).
+Pour plus d’informations, voir [&#x200B; Utilisation de styles personnalisés dans les notes de bas de page &#x200B;](../native-pdf/footnote-number-style.md).
 
 ## Ouvrez et lisez des fichiers vidéo ou audio dans l’éditeur web.
 
