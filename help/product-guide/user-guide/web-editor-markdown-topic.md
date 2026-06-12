@@ -5,11 +5,19 @@ exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/9NrYbEPcHa0QEwAnN5VTK7UVT9sBDJHOYZZuSsID8Kc
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1211
@@ -92,9 +100,9 @@ La barre d’outils se trouve juste en dessous de la barre d’onglets. Les fonc
 
 | Fonctionnalités | Description |
 |----------------|----------------|
-| Modifier les actions | Permet d&#39;accéder à diverses fonctions d&#39;édition de documents, notamment **Couper** ![](images/S_Cut_18_N.svg), **Annuler** ![](images/S_Undo_18_N.svg), **Rétablir** ![](images/S_Redo_18_N.svg), **Copier**, ![](images/S_Copy_18_N.svg)Supprimer **et** Rechercher et remplacer![](images/S_Delete_18_N.svg) **** ![](images/S_FindAndReplace_18_N.svg). Vous pouvez accéder aux options disponibles à partir du menu déroulant **Menu**. |
-| Options de formatage du texte | Permet d’accéder à diverses options de formatage de texte, notamment **Titres** ![](images/S_DisplayHeading_18_N.svg), **Gras** ![](images/S_TextBold_18_N.svg), **Italique** ![](images/S_TextItalic_18_N.svg), **Barré**, ![](images/S_TextStrikethrough_18_N.svg)Code **et** Block quote![](images/S_Code_18_N.svg) **** ![](images/S_BlockQuoteMultipleLines_18_N.svg). |
-| Options d&#39;insertion de contenu | Fournit des options pour insérer dans un document un **Liste numérotée** ![](images/S_TextNumbered_18_N.svg), **Liste ordonnée** ![](images/S_TextBulleted_18_N.svg), **Tableau** ![](images/tableAdd.svg), **Image**, ![](images/S_ImageAdd_18_N.svg)RéférenceCross **et** Symbol![](images/S_LinkGlobe_18_N.svg) **** ![](images/S_SpecialCharacter_18_N.svg) <br><br> **Remarque** : vous pouvez également faire glisser et déposer des images et d’autres fichiers dans l’éditeur Markdown. Les fichiers sont ajoutés en tant que liens de référence croisée, tandis que les images sont affichées en tant qu’éléments d’image standard. |
+| Modifier les actions | Permet d&#39;accéder à diverses fonctions d&#39;édition de documents, notamment **Couper** ![](images/S_Cut_18_N.svg), **Annuler** ![](images/S_Undo_18_N.svg), **Rétablir** ![](images/S_Redo_18_N.svg), **Copier**, ![](images/S_Copy_18_N.svg)Supprimer **et** Rechercher et remplacer![](images/S_Delete_18_N.svg) **&#x200B;**&#x200B;![](images/S_FindAndReplace_18_N.svg). Vous pouvez accéder aux options disponibles à partir du menu déroulant **Menu**. |
+| Options de formatage du texte | Permet d’accéder à diverses options de formatage de texte, notamment **Titres** ![](images/S_DisplayHeading_18_N.svg), **Gras** ![](images/S_TextBold_18_N.svg), **Italique** ![](images/S_TextItalic_18_N.svg), **Barré**, ![](images/S_TextStrikethrough_18_N.svg)Code **et** Block quote![](images/S_Code_18_N.svg) **&#x200B;**&#x200B;![](images/S_BlockQuoteMultipleLines_18_N.svg). |
+| Options d&#39;insertion de contenu | Fournit des options pour insérer dans un document un **Liste numérotée** ![](images/S_TextNumbered_18_N.svg), **Liste ordonnée** ![](images/S_TextBulleted_18_N.svg), **Tableau** ![](images/tableAdd.svg), **Image**, ![](images/S_ImageAdd_18_N.svg)RéférenceCross **et** Symbol![](images/S_LinkGlobe_18_N.svg) **&#x200B;**&#x200B;![](images/S_SpecialCharacter_18_N.svg) <br><br> **Remarque** : vous pouvez également faire glisser et déposer des images et d’autres fichiers dans l’éditeur Markdown. Les fichiers sont ajoutés en tant que liens de référence croisée, tandis que les images sont affichées en tant qu’éléments d’image standard. |
 | Historique des versions | Permet de créer des versions des fichiers Markdown et d’afficher l’historique des modifications. Vous pouvez comparer différentes versions et revenir aux versions précédentes si nécessaire. L’option Historique des versions est présente dans le menu déroulant **Menu**. |
 | Enregistrer comme nouvelle version | Enregistre les modifications apportées à la rubrique et crée également une nouvelle version de la rubrique. Si vous travaillez sur une rubrique nouvellement créée, les informations de version apparaissent comme aucune. |
 | Verrouiller/déverrouiller | Verrouille ou déverrouille le fichier courant. Le verrouillage d’un fichier vous donne un accès exclusif en écriture au fichier. Cela empêche d’autres utilisateurs de modifier le fichier. Déverrouillez le fichier si vous souhaitez que d’autres utilisateurs aient un accès en modification. En tant qu’administrateur, vous avez également accès à la fonctionnalité **Forcer le déverrouillage** qui vous permet de déverrouiller le fichier verrouillé par une autre personne. |
@@ -182,4 +190,4 @@ Les fonctionnalités Experience Manager Guides suivantes ne s’appliquent actue
 
 
 
-**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
