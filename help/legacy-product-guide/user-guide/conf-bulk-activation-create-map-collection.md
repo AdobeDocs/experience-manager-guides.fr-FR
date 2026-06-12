@@ -6,18 +6,13 @@ role: User
 hide: true
 exl-id: a242efde-2b29-4d2b-8a50-fd4ae7e8f239
 TQID: https://experienceleague.adobe.com/ADaV0D2fpnxIo3tKN9zw-oUKyN6wWgALOMmgt3yJfgw
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-subfeature_v2:
-  - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 735
+source-wordcount: 737
 ht-degree: 0%
 
 ---
@@ -56,7 +51,7 @@ Pour créer une collection de mappages d’activation en bloc, procédez comme s
 
 Les fichiers de mappage DITA sont ajoutés à votre collection de mappages d&#39;activation en bloc.
 
-![&#x200B; a créé une collection d’activation en bloc](images/bulk-activation-collection-created.png){width="800"}
+![ a créé une collection d’activation en bloc](images/bulk-activation-collection-created.png){width="800"}
 
 ## Onglet Mappages et paramètres prédéfinis
 
@@ -95,7 +90,7 @@ L’onglet **Historique des contrôles** présente des informations sur les sort
 
 - **Modifié** : indique si le plan DITA a été mis à jour après la dernière publication. En fonction de ces informations, vous pouvez décider d&#39;activer ou non la sortie de ce plan DITA.
 - **Publié** : affiche la date et l’heure de la dernière sortie publiée (ou activée). Si vous sélectionnez le lien, la page Résultats de l’activation s’affiche, qui contient les journaux avec des informations sur le chemin racine où le contenu est activé.
-  ![&#x200B; l’onglet historique d’audit de la collecte d’activation en bloc créé](images/bulk-collection-audit-history.png){width="800"}
+  ![ l’onglet historique d’audit de la collecte d’activation en bloc créé](images/bulk-collection-audit-history.png){width="800"}
 
   *Affichez les informations sur les sorties de mappage activées dans l’onglet **Historique d’audit**.*
 
@@ -116,4 +111,4 @@ Les options de filtrage disponibles dans le panneau de gauche sont les suivantes
 
 Les filtres sont mis à jour lorsque vous passez de l’onglet **Mappages et paramètres prédéfinis** à l’onglet **Historique des contrôles** et vice versa.
 
-**Rubrique parente : &#x200B;** [Activation en bloc du contenu publié](conf-bulk-activation.md)
+**Rubrique parente : **[Activation en bloc du contenu publié](conf-bulk-activation.md)
