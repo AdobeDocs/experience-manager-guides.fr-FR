@@ -28,26 +28,26 @@ Effectuez les étapes suivantes pour configurer les filtres d’état du documen
 Dans le fichier `ui\_config.json` téléchargé, reportez-vous à la section suivante :
 
        « 
-     « repositoryFilters » : [
-     {
+     « repositoryFilters » : &lbrack;
+     &lbrace;
      « title »: « Document state »,
      « property »: « jcr:content/metadata/docstate »,
-« children »: [    {
+« children »: &lbrack;    &lbrace;
 « title »: « Draft »,    « value »: « Draft »
-},    {
+&rbrace;,    &lbrace;
 « title »: « Edit »,    « value »: « Edit »
-},    {
+&rbrace;,    &lbrace;
 « title »: « In-Review »,    « value »: « In-Review »
-     },
-{    « title »: « Approved »,
+     &rbrace;,
+&lbrace;    « title »: « Approved »,
      « value »: « Approved »
-},    {
+&rbrace;,    &lbrace;
 « title »: « Reviewed »,    « value »: « Reviewed »
-},    {
+&rbrace;,    &lbrace;
 « title »: « Done »,    « value »: « Done »
-«     }
-]    }
-]    « 
+«     &rbrace;
+&rbrack;    &rbrace;
+&rbrack;    « 
       
       
       
@@ -76,4 +76,4 @@ Dans le fichier `ui\_config.json` téléchargé, reportez-vous à la section sui
 
 Les filtres configurés s’affichent dans le panneau **Filtres** dans le référentiel de la page d’accueil.
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)
