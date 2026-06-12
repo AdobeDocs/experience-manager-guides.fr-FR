@@ -3,9 +3,10 @@ title: Configuration de caractères spéciaux supplémentaires dans la barre d�
 description: Découvrez comment configurer des caractères spéciaux supplémentaires dans l’éditeur web d’AEM Guides.
 feature: Web Editor
 role: User
-source-git-commit: 2198b9c77a0dfa888edbce5994da4721cb6127e6
+exl-id: 4007eb03-c100-4892-b293-f22b3f0082e2
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -60,4 +61,4 @@ Vous ajouterez ainsi une autre catégorie dans la boîte de dialogue des caract�
 
 >[!MORELIKETHIS]
 >
->+ [&#x200B; Guide d’installation et de configuration &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)
+>+ [ Guide d’installation et de configuration ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)

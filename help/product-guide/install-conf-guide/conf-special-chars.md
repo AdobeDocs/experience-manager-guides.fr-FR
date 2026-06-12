@@ -4,9 +4,10 @@ description: Découvrez comment configurer les caractères spéciaux autorisés
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: e3747a18-b6a1-46fd-a4d1-28a9c087e924
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ Les onglets suivants fournissent des instructions pour remplacer la liste par d�
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Créez `symbols.json` fichier à l’emplacement suivant dans votre référentiel Git Cloud Manager :
 
@@ -81,4 +82,4 @@ Vous pouvez définir plusieurs définitions de caractères spéciaux au sein d�
 
 >[!ENDTABS]
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](customize-overview.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](customize-overview.md)
