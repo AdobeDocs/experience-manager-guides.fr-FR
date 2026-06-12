@@ -4,11 +4,22 @@ description: Découvrez les fonctionnalités nouvelles et améliorées de la ver
 role: Leader
 exl-id: 3e73d595-a574-4104-af46-6994685a2f4c
 TQID: https://experienceleague.adobe.com/SuUfplm5WDGOjPlkNjMiWXoWzpFeM8RQsTHNL36iLn8
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d6596f3f-92a7-43ec-b444-237db6adad05id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: ce44533e-8ec8-4e11-a9e9-78b0fe561832id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 2738
@@ -37,7 +48,7 @@ Un fragment d’expérience est une unité de contenu modulaire au sein de Adobe
 
 ![onglet options des propriétés du fichier](./assets/file-properties-outputs-4-6.png) {width="300"}
 
-*Publiez et affichez les fragments d’expérience d’une rubrique à partir de la section **Sorties**de la section **Propriétés du fichier**.*
+*Publiez et affichez les fragments d’expérience d’une rubrique à partir de la section **Sorties**&#x200B;de la section **Propriétés du fichier**.*
 
 Experience Manager Guides vous permet désormais de publier une rubrique ou ses éléments dans un fragment d’expérience. Vous pouvez créer un mappage JSON entre une rubrique ou ses éléments et un modèle de fragment d’expérience. Vous pouvez également créer des variations de fragments d’expérience à l’aide des filtres de condition.
 
@@ -88,7 +99,7 @@ Si la même rubrique est référencée plusieurs fois dans un fichier, vous pouv
 
 ![Paramètre prédéfini AEM Sites hérité](assets/aem-sites-legacy.png)
 
-*Spécifiez le contexte de publication des rubriques liées à partir de l’onglet **Références de mappage croisé**du préréglage **AEM Sites**.*
+*Spécifiez le contexte de publication des rubriques liées à partir de l’onglet **Références de mappage croisé**&#x200B;du préréglage **AEM Sites**.*
 
 
 
@@ -173,14 +184,14 @@ Lors de la modification d’un document dans l’éditeur web, vous pouvez déso
 - **Éléments valides à l’emplacement actuel** que vous pouvez insérer à l’emplacement actuel du curseur.
 - **Éléments valides en dehors de l’emplacement actuel** que vous pouvez insérer après l’un des parents pour l’élément actif dans la hiérarchie d’éléments.
 
-![ Boîte de dialogue Insérer un élément ](assets/insert-element-dialog.png){width="300"}
+![&#x200B; Boîte de dialogue Insérer un élément &#x200B;](assets/insert-element-dialog.png){width="300"}
 
 *Afficher les listes séparées d&#39;éléments valides pour insérer un élément à l&#39;emplacement actuel.*
 
 
 Cette liste fractionnée d&#39;éléments valides permet de gérer la structure du contenu et de respecter les normes DITA.
 
-Pour en savoir plus sur la fonction **Insérer un élément**, consultez la section de la barre d’outils Secondaire [](../user-guide/web-editor-features.md#2051ea0j0y4).
+Pour en savoir plus sur la fonction **Insérer un élément**, consultez la section de la barre d’outils Secondaire [&#128279;](../user-guide/web-editor-features.md#2051ea0j0y4).
 
 
 ### Redéfinition de l’expérience pour rechercher et filtrer les fichiers dans la vue du référentiel

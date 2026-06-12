@@ -140,4 +140,4 @@ Par défaut, les bibliothèques clientes (clientlibs) fournies dans le package d
 
 >[!NOTE]
 >
-> Assurez-vous que les modèles sont testés dans un environnement hors production avant le déploiement en production.<br><br>Pour plus d’informations](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) consultez la documentation officielle de [AEM Guides et [AEM Sites](https://experienceleague.adobe.com/fr/docs/experience-manager-core-components/using/get-started/authoring).
+> Assurez-vous que les modèles sont testés dans un environnement hors production avant le déploiement en production.<br><br>Pour plus d’informations[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) consultez la documentation officielle de AEM Guides et [AEM Sites](https://experienceleague.adobe.com/fr/docs/experience-manager-core-components/using/get-started/authoring).
