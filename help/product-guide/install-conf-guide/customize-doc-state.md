@@ -130,7 +130,7 @@ Les onglets suivants fournissent des instructions pour automatiser le changement
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 1. Cliquez sur le lien Adobe Experience Manager en haut et choisissez **Outils**.
 1. Sélectionnez **Workflow** dans la liste des outils.
@@ -201,7 +201,7 @@ Les onglets suivants fournissent des instructions pour activer le workflow d’a
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 1. Pour télécharger le fichier de configuration de l’interface utilisateur, connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 

@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Mise à niveau d’Adobe Experience Manager Guides On-Premise (version 4.4.0 et antérieure)
 
-Cet article fournit des instructions pour mettre à niveau les versions d’**** **antérieures à la version 4.6.0** **(jusqu’à la version 4.4.0 incluse**).
+Cet article fournit des instructions pour mettre à niveau les versions d’**&#x200B;** **antérieures à la version 4.6.0** **(jusqu’à la version 4.4.0 incluse**).
 
 Si vous utilisez une version **antérieure à la version 3.8.5**, reportez-vous à la section **Mettre à niveau Experience Manager Guides** du guide d’installation spécifique au produit disponible sur [l’archive PDF de l’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
@@ -104,7 +104,7 @@ Cette API migre toutes les données de l’emplacement source vers l’emplaceme
 ### Installation version 4.0
 
 1. Installez la version 4.0 uniquement si les étapes de mise à niveau ont réussi.
-1. Téléchargez le package de la version 4.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) :
+1. Téléchargez le package de la version 4.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) :
 
    - Si vous utilisez la version UUID du logiciel, recherchez « Version UUID 4.0 pour la solution XML Documentation pour AEM 6.5 ».
    - Si vous utilisez une version non UUID du logiciel, recherchez « Version 4.0 non UUID pour XML Documentation solution for AEM 6.5 ».
@@ -191,7 +191,7 @@ Vous pouvez effectuer directement la mise à niveau vers la version **4.2.1** si
 
 1. Téléchargez le package **4.2.1** à partir du portail de distribution logicielle [Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 2. Installez le package 4.2.1.
-3. Déclenchez éventuellement la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
+3. Déclenchez éventuellement la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [&#x200B; Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
 
 4. Après l’installation, attendez : `Completed the post deployment setup script` dans les journaux.
 
@@ -230,7 +230,7 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 
 ### Installation de la version 4.3.0
 
-1. Téléchargez le package de la version 4.3.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 4.3.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de la version 4.3.0.
 1. Effacez la mémoire cache du navigateur après l’installation du package.
 1. Mettez à niveau le fichier `ui_config.json` à partir de l’onglet **Configuration de l’éditeur XML** dans le profil de dossier.
@@ -260,9 +260,9 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 
 ### Installation de la version 4.3.1
 
-1. Téléchargez le package de la version 4.3.1 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 4.3.1 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de la version 4.3.1.
-1. Déclenchez éventuellement la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
+1. Déclenchez éventuellement la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [&#x200B; Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
 1. Après l’installation, attendez : `Completed the post deployment setup script` dans les journaux.
 Signalez ces erreurs au succès client :\
    `Error in post deployment setup script`, `Exception while porting the translation MAP`, `Unable to port translation map from v1 to v2 for property`
@@ -325,9 +325,9 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 
 ### Installation de la version 4.4.0
 
-1. Téléchargez le package de la version 4.4.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 4.4.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 2. Installez le package 4.4.0.
-3. Déclenchez éventuellement la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
+3. Déclenchez éventuellement la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [&#x200B; Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
 4. Une fois l’installation du package terminée, attendez le message suivant dans les journaux :
 
    `Completed the post deployment setup script`

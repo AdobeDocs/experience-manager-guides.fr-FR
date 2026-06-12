@@ -16,7 +16,7 @@ ht-degree: 1%
 Utilisez l’outil Sources de données de Experience Manager Guides pour créer et configurer un connecteur Git à partir de l’interface utilisateur. Une fois le connecteur configuré, vous pouvez l’utiliser pour importer du contenu d’un référentiel Git dans Experience Manager Guides.
 
 
-1. Sélectionnez le lien **** en haut et choisissez **Outils**.
+1. Sélectionnez le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
 1. Sélectionnez **Guides** dans la liste des outils.
 1. Sélectionnez la mosaïque **Sources de données**. La page **Sources de données** s’affiche.
 1. Sélectionnez **Créer**.
