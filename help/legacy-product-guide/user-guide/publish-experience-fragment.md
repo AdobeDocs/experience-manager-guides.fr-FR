@@ -18,8 +18,8 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 995
-ht-degree: 1%
+source-wordcount: 974
+ht-degree: 0%
 
 ---
 
@@ -43,7 +43,7 @@ Pour générer un fragment d’expérience, procédez comme suit :
    * **Titre** : affichez ou modifiez le titre du dossier.
 
    * **Modèles autorisés** : contient la liste des modèles qui peuvent être ajoutés en tant que pages enfants du fragment d’expérience. Pour ajouter le modèle autorisé, spécifiez l’expression régulière permettant de récupérer les modèles requis dans le champ **Modèles autorisés**.
-Par exemple :
+Par exemple :
      `/libs/cq/experience-fragments/components/experiencefragment/template`
 
      Si vous ne définissez pas de modèle autorisé pour un dossier, les modèles sont sélectionnés à partir du dossier parent ou du dossier de modèles par défaut.

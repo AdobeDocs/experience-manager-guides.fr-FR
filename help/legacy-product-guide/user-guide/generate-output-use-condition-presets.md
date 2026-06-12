@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 1213
+source-wordcount: 1119
 ht-degree: 2%
 
 ---
@@ -71,7 +71,7 @@ Par défaut, l’action d’un attribut est `Include`.
 1. Sélectionnez **Ajouter**. Vous pouvez répéter cette étape pour ajouter d’autres attributs. Les attributs que vous ajoutez se déplacent du panneau central vers le panneau de droite.
 1. Sélectionnez Supprimer dans la barre d’actions située en haut pour supprimer les attributs sélectionnés dans le panneau de droite.
 1. (Facultatif) Si nécessaire, vous pouvez remplacer l’action appliquée aux attributs.
-Utilisez l’une des méthodes suivantes :
+Effectuez l’une des opérations suivantes :
    * Pour un attribut, sélectionnez l’une des actions suivantes dans le menu déroulant Action .
       * Inclure
       * Exclure
