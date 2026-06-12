@@ -4,9 +4,10 @@ description: Découvrez comment configurer les états de document
 feature: Document State
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 2f035c92-21f9-401a-a2cb-d1bc19c75598
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---

@@ -4,9 +4,10 @@ description: Découvrez comment configurer la recherche pour l’interface utili
 feature: Search Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: bfb98000-7496-4d00-80f8-53b1a7ab4016
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: '1870'
 ht-degree: 2%
 
 ---

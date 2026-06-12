@@ -4,10 +4,11 @@ description: Découvrez comment mettre à niveau Adobe Experience Manager Guides
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 61a6a623-2f29-43b5-a053-7f1f925de6d6
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '3159'
-ht-degree: 0%
+source-wordcount: '3168'
+ht-degree: 2%
 
 ---
 
@@ -74,8 +75,8 @@ Cette API est conçue pour évaluer l’état actuel du système et signaler si 
 
 | Point d’entrée | /bin/dxml/upgrade/3xto4x/report |
 | --- | --- |
-| Type de demande | **&#x200B;**&#x200B;<br> **Remarque** : vous pouvez utiliser un navigateur web dans lequel vous êtes connecté à l’instance AEM en tant qu’administrateur. |
-| Réponse attendue | -   Si tous les nœuds requis peuvent être déplacés, la vérification sera réussie. <br>-   Si un nœud est présent à l’emplacement cible, vous obtiendrez une erreur pertinente. Nettoyez le référentiel \(supprimez le nœud /var/dxml\), réinstallez le package de mise à niveau, puis déclenchez à nouveau ce point d’entrée. <br>**Remarque :** il ne s’agit pas d’une erreur courante, car l’emplacement cible n’est pas utilisé auparavant par Experience Manager Guides 3.x. <br> -   Si ce script échoue, ne continuez pas et signalez-le à votre équipe de succès client. |
+| Type de demande | **GET** <br> **Remarque** : vous pouvez utiliser un navigateur web dans lequel vous êtes connecté à l’instance AEM en tant qu’administrateur. |
+| Réponse attendue | - Si tous les nœuds requis peuvent être déplacés, la vérification sera réussie. <br>- Si un nœud est présent à l’emplacement cible, vous obtiendrez une erreur pertinente. Nettoyez le référentiel \(supprimez le nœud /var/dxml\), réinstallez le package de mise à niveau, puis déclenchez à nouveau ce point d’entrée. <br>**Remarque :** il ne s’agit pas d’une erreur courante, car l’emplacement cible n’est pas utilisé auparavant par Experience Manager Guides 3.x. <br> - Si ce script échoue, ne continuez pas et signalez-le à votre équipe de succès client. |
 
 **API System data migration**
 
@@ -87,7 +88,7 @@ Cette API est conçue pour migrer les données système comme indiqué dans la s
 | Point d’entrée | /bin/dxml/upgrade/3xto4x |
 | --- | --- |
 | Type de demande | **POST** <br>**Remarque** : ce script est une requête POST et doit donc être exécuté par le biais d’agents tels que Postman. |
-| Réponse attendue | -   Une fois la migration réussie, vous pouvez installer la solution XML Documentation version 4.0.<br>-   En cas d’erreur, restaurez le dernier point de contrôle et partagez les journaux d’erreurs ainsi que la sortie de l’API avec votre équipe du succès client. |
+| Réponse attendue | - Une fois la migration réussie, vous pouvez installer la solution XML Documentation version 4.0.<br> - En cas d’erreur, restaurez le dernier point de contrôle et partagez les journaux d’erreurs ainsi que la sortie de l’API avec votre équipe de succès client. |
 
 
 **Mappage de migration**
@@ -103,7 +104,7 @@ Cette API migre toutes les données de l’emplacement source vers l’emplaceme
 ### Installation version 4.0
 
 1. Installez la version 4.0 uniquement si les étapes de mise à niveau ont réussi.
-1. Téléchargez le package de la version 4.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/fr/aem.html) :
+1. Téléchargez le package de la version 4.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) :
 
    - Si vous utilisez la version UUID du logiciel, recherchez « Version UUID 4.0 pour la solution XML Documentation pour AEM 6.5 ».
    - Si vous utilisez une version non UUID du logiciel, recherchez « Version 4.0 non UUID pour XML Documentation solution for AEM 6.5 ».
@@ -370,8 +371,8 @@ Après l’installation de Experience Manager Guides, vous devrez peut-être fus
 - Titre : `DXML Post Process Initiator`
 - Description : `DXML post process initiator step which will trigger a sling job for DXML post-processing of the modified/created asset`
       **Onglet Processus**
-- Processus : sélectionnez `DXML Post Process Initiator`
-- Sélectionner un `Handler Advance`
+- Processus : sélectionner `DXML Post Process Initiator`
+- Sélectionner `Handler Advance`
 - Sélectionner un `Done`
    3. Cliquez sur **Synchronisation** en haut à droite après avoir effectué les modifications. Vous recevrez une notification de succès.
 
@@ -498,7 +499,7 @@ Effectuez les étapes suivantes pour activer le rapport Lien rompu :
 
 1. (Facultatif) Augmentez queryLimitReads d’Oak pour les référentiels volumineux
 
-   S&#39;il existe plus de 100 000 fichiers DITA **, mettez à jour** sous `queryLimitReads` à une valeur supérieure au nombre de ressources (par exemple : `org.apache.jackrabbit.oak.query.QueryEngineSettingsService`), redéployez et continuez.`200000`
+   S&#39;il existe plus de 100 000 fichiers DITA **, mettez à jour `queryLimitReads` sous `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` à une valeur supérieure au nombre de ressources (par exemple : `200000`), redéployez et continuez.**
 
    | PID | Clé de la propriété | Valeur de la propriété |
    |---|---|---|
@@ -509,11 +510,11 @@ Effectuez les étapes suivantes pour activer le rapport Lien rompu :
    | Point d’entrée | /bin/guides/reports/upgrade |
    |---|---|
    | Type de demande | **POST** Ce script est une requête POST et doit donc être exécuté par des agents tels que Postman. |
-   | Réponse attendue | L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée.<br> Exemple d&#39;URL : `http://<server:port>/bin/guides/reports/upgrade` |
+   | Réponse attendue | L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée.<br> Exemple d’URL : `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Point d’entrée | /bin/guides/reports/upgrade |
    |---|---|
-   | Type de demande | **&#x200B;**&#x200B;|
+   | Type de demande | **GET** |
    | Param | jobId : transmettez le jobId reçu de la demande de publication précédente. |
    | Réponse attendue | - Une fois le traitement terminé, la requête GET répond avec succès. <br> - En cas d’erreur, partagez les journaux d’erreurs ainsi que la sortie de l’API avec votre équipe chargée du succès client.  <br>Exemple d’URL : `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
@@ -563,4 +564,3 @@ Si votre base de code contient un autre module de réécriture Sling personnalis
 
 - Utilisez une valeur `order` **supérieure à 50** car Guides utilise `order=50`.
 - Au cours de cette mise à niveau, la valeur `order` passe de `1000` à `50`. Vous devez donc fusionner votre réécriture personnalisée existante (le cas échéant) avec `fmditarewriter`.
-

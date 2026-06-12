@@ -4,7 +4,8 @@ description: Découvrez comment Configurer la valeur par défaut de la vue Balis
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: d54e3a3c-9f61-43cf-a925-12e4ce948a55
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 # Configurer la valeur par défaut de la vue Balises {#id223GN0M0NDC}
 
-AEM Guides vous permet de configurer l’état par défaut de la vue Balises dans l’éditeur web, ce qui vous permet de garder la vue Balises activée ou désactivée par défaut pour la session d’un nouvel utilisateur. Effectuez les étapes suivantes pour configurer la valeur par défaut de la vue Balises :
+AEM Guides vous permet de configurer l’état par défaut de la vue Balises dans l’éditeur web, ce qui vous permet de garder la vue Balises activée ou désactivée par défaut pour la session d’un nouvel utilisateur.Pour configurer la valeur par défaut de la vue Balises, procédez comme suit :
 
 1. Téléchargez le fichier de configuration de l’interface utilisateur en vous connectant à Adobe Experience Manager en tant qu’administrateur.
 1. Cliquez sur le lien Adobe Experience Manager en haut et choisissez **Outils**.

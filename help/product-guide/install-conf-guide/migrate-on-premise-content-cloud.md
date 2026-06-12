@@ -4,17 +4,18 @@ description: Découvrez comment migrer le contenu d’un logiciel On-premise ver
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: c8348aae-224c-4419-845a-b8910629e5b3
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 4%
+source-wordcount: '844'
+ht-degree: 3%
 
 ---
 
 # Migration de contenu d’On-premise vers Cloud Service
 
 Experience Manager as a Cloud Service fournit une base technologique évolutive, sécurisée et agile pour Experience Manager Guides, Assets, Forms et Screens. Cela permet aux professionnels du marketing et de l’informatique de se concentrer sur la création d’expériences percutantes à grande échelle.
-Avec Experience Manager as a Cloud Service, vos équipes peuvent se concentrer sur l’innovation plutôt que sur la planification des mises à niveau de produits. Les nouvelles fonctionnalités du produit sont soigneusement testées et mises en permanence à la disposition de vos équipes afin qu’elles puissent toujours accéder à la dernière version de Adobe Experience Manager.
+Avec Experience Manager as a Cloud Service, vos équipes peuvent se concentrer sur l’innovation plutôt que sur la planification des mises à niveau des produits. Les nouvelles fonctionnalités du produit sont soigneusement testées et mises en permanence à la disposition de vos équipes afin qu’elles puissent toujours accéder à la dernière version de Adobe Experience Manager.
 
 Cet article décrit un processus détaillé et détaillé pour migrer votre contenu On-premise ou Managed Services Experience Manager Guides vers les services cloud, afin d’assurer une transition en douceur vers la plateforme cloud.
 
@@ -31,7 +32,7 @@ Cet article décrit un processus détaillé et détaillé pour migrer votre cont
 ## Processus de migration
 
 Développé par **l’**&#x200B;outil de transfert de contenu est utilisé pour lancer la migration de contenu existant entre une instance source Adobe Experience Manager On-premise ou Managed Services et l’instance cible Experience Manager Cloud Service.
-Cet outil transfère également automatiquement les entités principales (utilisateurs, utilisatrices ou groupes).
+Cet outil transfère également automatiquement les entités principales (utilisateurs ou groupes).
 
 Vous pouvez télécharger l’**outil de transfert de contenu** sous la forme d’un fichier ZIP à partir du portail **Distribution logicielle** :
 
@@ -70,7 +71,7 @@ Pour migrer le contenu Experience Manager Guides vers Experience Manager as a cl
 
    ![Vérifier le transfert de contenu](./assets/migration-content-transfer-review.png)
 
-1. Cliquez sur **Créer un jeu de migration**.
+1. Cliquez sur **Créer un ensemble de migration**.
 
 1. Indiquez le nom et la description du jeu de migration.
 
@@ -129,7 +130,7 @@ ou
 
 1. Cliquer sur **Enregistrer**
 1. Sélectionnez le **jeu de migration** puis sélectionnez **Extraire** dans la partie supérieure.
-   ![&#x200B; d’extraction du jeu de migration](./assets/migration-extract.png)
+   ![&#128279;](./assets/migration-extract.png) d’extraction du jeu de migration
 
 1. Vérifiez les détails des chemins et des configurations que vous avez sélectionnés dans la fenêtre contextuelle **Extraction du jeu de migration**, puis cliquez sur **Extraire**. L’extraction prendra minutes et vous verrez le statut comme mis à jour.
    ![extraction du jeu de migration](./assets/migration-set-extraction.png)
