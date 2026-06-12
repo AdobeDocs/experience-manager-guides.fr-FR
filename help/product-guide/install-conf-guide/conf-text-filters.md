@@ -4,9 +4,10 @@ description: Découvrez comment configurer des filtres de texte
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 08502168-a995-44bc-9ce3-c3e562714c06
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ Les onglets suivants fournissent des instructions pour configurer les filtres de
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 1. Cliquez sur le lien Adobe Experience Manager en haut et choisissez **Outils**.
@@ -73,11 +74,11 @@ Les onglets suivants fournissent des instructions pour configurer les filtres de
 
       Dans le fragment de code ci-dessus, le premier filtre concerne les fichiers DITA. La définition du filtre utilise les paramètres suivants :
 
-      **&#x200B;**&#x200B;Titre&#x200B;**&#x200B;** : nom d’affichage du filtre. Ce titre apparaît comme option de filtrage dans la boîte de dialogue de navigation des fichiers.
+      ****Titre**** : nom d’affichage du filtre. Ce titre apparaît comme option de filtrage dans la boîte de dialogue de navigation des fichiers.
 
-      **&#x200B;**&#x200B;Property&#x200B;**&#x200B;** : propriété à faire correspondre dans les métadonnées du fichier. Par exemple, pour autoriser uniquement les fichiers dont la propriété contient les métadonnées dita\_class, le filtre de propriété prend la valeur « jcr:content/metadata/dita\_class ».
+      ****Property**** : propriété à faire correspondre dans les métadonnées du fichier. Par exemple, pour autoriser uniquement les fichiers dont la propriété contient les métadonnées dita\_class, le filtre de propriété prend la valeur « jcr:content/metadata/dita\_class ».
 
-      **&#x200B;**&#x200B;Opération **:**&#x200B;spécifiez « exists » pour correspondre à l’existence de la valeur spécifiée dans le paramètre de propriété
+      ****Opération **:**spécifiez « exists » pour correspondre à l’existence de la valeur spécifiée dans le paramètre de propriété
 
 1. Chargez le fichier ui\_config.json mis à jour contenant les filtres ajoutés.
 
@@ -86,7 +87,7 @@ Les filtres configurés sont disponibles dans le panneau Filtres .
 >[!TAB  On-Premise ]
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur.
-1. Cliquez sur le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
+1. Cliquez sur le lien **** en haut et choisissez **Outils**.
 1. Sélectionnez **Guides** dans la liste des outils, puis cliquez sur le **Profils de dossier**.
 1. Cliquez sur la mosaïque **Profil global**.
 1. Cliquez sur **Configuration de l’éditeur XML**.
@@ -165,4 +166,4 @@ Les filtres configurés sont disponibles dans le panneau Filtres .
 
 >[!ENDTABS]
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](customize-overview.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](customize-overview.md)

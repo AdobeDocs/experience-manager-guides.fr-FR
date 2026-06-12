@@ -4,7 +4,8 @@ description: Découvrez comment configurer la fonctionnalité de traduction dans
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 22d7e1c7-2059-43fb-b7aa-3ae4a6072678
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%
@@ -19,8 +20,8 @@ Vous pouvez utiliser l’onglet **Gérer** dans l’éditeur web pour traduire v
 
 Pour masquer l’onglet **Gérer** dans l’éditeur web, procédez comme suit :
 
-1. Connectez-vous à **&#x200B;**&#x200B;en tant qu&#39;administrateur.
-1. Cliquez sur le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
+1. Connectez-vous à **** en tant qu&#39;administrateur.
+1. Cliquez sur le lien **** en haut et choisissez **Outils**.
 1. Sélectionnez **Guides** dans la liste des outils, puis cliquez sur le **Profils de dossier**.
 1. Cliquez sur la mosaïque **Profil global**.
 1. Cliquez sur **Configuration de l’éditeur XML**.
@@ -47,4 +48,4 @@ Pour masquer l’onglet **Gérer** dans l’éditeur web, procédez comme suit :
 
 Notez que le filtre **Gérer** n’est plus disponible.
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](customize-overview.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](customize-overview.md)

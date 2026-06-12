@@ -4,13 +4,13 @@ description: Découvrez comment personnaliser le mappage d’éléments dita ave
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: b712223f-c7df-423c-9a46-6b3704f4bd26
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1272'
 ht-degree: 1%
 
 ---
-
 
 # Personnaliser le mappage d&#39;éléments DITA avec des composants AEM {#id1679J600HEL}
 
@@ -166,7 +166,7 @@ Le tableau suivant décrit les éléments du schéma d&#39;élément DITA :
 | `<ditaelement>` | Nœud de niveau supérieur pour chaque élément de mappage. |
 | `<class>` | Attribut class de l&#39;élément DITA cible pour lequel vous créez le composant.<br> Par exemple, l&#39;attribut class pour la rubrique DITA est : <br> `- topic/topic` |
 | `<componentpath>` | Chemin CRXDE du composant AEM mappé. |
-| `<type>` | Valeurs possibles : <br> -   **COMPOSITE** : traitez également les éléments enfants <br> -   **AUTONOME** : ignore le traitement des éléments enfants |
+| `<type>` | Valeurs possibles :<br> - **COMPOSITE** : traiter également les éléments enfants <br> - **AUTONOME** : ignore le traitement des éléments enfants |
 | `<attributeprop>` | Utilisé pour mapper des attributs et des valeurs DITA sérialisés aux nœuds AEM en tant que propriété. Par exemple, si vous disposez d’`<note type="Caution">` élément et que le composant mappé pour cet élément a `<attributeprop>attr_t</ attributeprop>`, l’attribut et la valeur du nœud sont sérialisés sur `attr_t` propriété du nœud AEM correspondant \( `attr_t->type="caution"`\). |
 | `<textprop>propname_t</textprop>` | Enregistrez la sortie `getTextContent()` dans la propriété définie par `propname_t.` <br> **Remarque :** il s’agit d’une propriété optimisée. |
 | `<xmlprop>propname_x </xmlprop>` | Enregistrez le code XML sérialisé de ce nœud dans la propriété définie par `propname_x.<br> `**Remarque :** il s’agit d’une propriété optimisée. |
@@ -175,7 +175,7 @@ Le tableau suivant décrit les éléments du schéma d&#39;élément DITA :
 | `<wrapelement>` | Élément HTML dans lequel encapsuler le contenu. |
 | `<wrapclass>` | La valeur de l’élément dans la propriété `wrapclass.` |
 | `<attributemap>` | Nœud conteneur contenant un ou plusieurs nœuds `<attribute>`. |
-| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | Mappe les attributs DITA aux propriétés AEM : <br> -   **`from`** : nom d&#39;attribut DITA <br> -   **`to`** : nom de propriété du composant AEM <br> -   **`ispath`** : si l’attribut est une valeur de chemin \(par exemple : *image*\) <br> -   **`rel`** : si le chemin d’accès est le <br> source ou cible **Remarque :** si `attrname` commence par `%`, mappez `attrname minus '%'` à la prop &#39; `propname`&#39;. |
+| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | Mappe les attributs DITA aux propriétés AEM : <br> - **`from`** : nom d&#39;attribut DITA <br> - **`to`** : nom de propriété du composant AEM <br> - **`ispath`** : si l&#39;attribut est une valeur de chemin \(par exemple : *image*\) <br> - **`rel`** : si le chemin est la source ou la cible <br> **Remarque :** si `attrname` commence par `%`, mappez `attrname minus '%'` à la prop &#39; `propname`&#39;. |
 
 **Remarques complémentaires**
 
@@ -188,5 +188,3 @@ Le tableau suivant décrit les éléments du schéma d&#39;élément DITA :
 - Si vous prévoyez de remplacer certains \(et pas tous\) des mappages d’éléments, vous n’avez pas à répliquer le fichier `elementmapping.xml` entier. Vous devez créer un nouveau fichier de mapping XML et définir uniquement les éléments que vous remplacez.
 
 - Après avoir créé le fichier XML à l’emplacement personnalisé, mettez à jour le paramètre `Override Element Mapping` dans le lot `com.adobe.fmdita.config.ConfigManager`.
-
-

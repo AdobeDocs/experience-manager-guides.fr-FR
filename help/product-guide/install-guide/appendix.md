@@ -6,16 +6,10 @@ feature: InDesign File Conversion
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/cfaAR6ieDyb5pmbXcAcxzXzHj0mGoJyX5QYg9O4InY8
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: d90290ec-3e61-4ebd-8649-bcafe0836803
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 2865
@@ -464,7 +458,7 @@ Effectuez les étapes suivantes pour vérifier les références, à l’aide du 
 1. Exécutez le script de validation \[`/bin/fmdita/validatebtree?operation=validate`\] pour vérifier si de nouvelles références ont été rompues.
 1. Si le script de validation signale des erreurs, vous pouvez lui appliquer un correctif à l’aide du script de correctif.
 1. Enregistrez les détails donnés ci-dessous et, si nécessaire, partagez-les avec votre équipe chargée du succès client :
-1. &#x200B;
+1. 
    - Logs imprimés par script de validation
 - Package de « `/content/fmdita/references` »
 - Tout autre détail requis en fonction du scénario signalé
@@ -478,7 +472,7 @@ Effectuez les étapes suivantes pour corriger les références rompues, à l’a
    ** Remarque :* il est recommandé de copier et d’enregistrer les journaux à des fins de référence.
 
 1. Une fois le script de correctif exécuté avec succès, vous pouvez effectuer les vérifications suivantes :
-1. &#x200B;
+1. 
    - Vérifiez qu’un nouveau nœud « `references_backup_<timestamp>"` a été créé sous `/content/fmdita`
 - Vérifier que les références ont été corrigées
 
