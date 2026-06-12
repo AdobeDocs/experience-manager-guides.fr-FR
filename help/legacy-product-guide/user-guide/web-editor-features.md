@@ -34,7 +34,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 18945
+source-wordcount: 18775
 ht-degree: 0%
 
 ---
@@ -761,7 +761,7 @@ Pour accéder à l’historique des versions et revenir à une version spécifiq
 
    La boîte de dialogue **Historique des versions** s’affiche.
 
-   ![Boîte de dialogue Historique des versions](images/version-history-dialog-web-editor.png){width="550"}
+   ![&#x200B; Boîte de dialogue Historique des versions &#x200B;](images/version-history-dialog-web-editor.png){width="550"}
    *Prévisualiser les modifications dans les différentes versions d&#39;une rubrique.*
 
 1. Sélectionnez la version de la rubrique que vous souhaitez comparer ou revenir à dans la liste déroulante **Comparer avec**.
@@ -779,7 +779,7 @@ Pour accéder à l’historique des versions et revenir à une version spécifiq
    Onglet **Aperçu** : le contenu nouvellement ajouté est dans la police verte et le contenu supprimé est dans la police rouge.
 
    Onglet **Métadonnées** : les métadonnées nouvellement ajoutées sont dans la police verte et les métadonnées supprimées sont dans la police rouge.
-   ![Différence de métadonnées entre les versions &#x200B;](images/metadata-version-diff.png){width="550"}
+   ![Différence de métadonnées pour les versions &#x200B;](images/metadata-version-diff.png){width="550"}
    *Comparez les métadonnées de différentes versions dans l’historique des versions.*
 
    >[!NOTE]

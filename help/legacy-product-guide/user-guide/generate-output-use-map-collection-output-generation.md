@@ -20,7 +20,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 1211
+source-wordcount: 1188
 ht-degree: 1%
 
 ---
@@ -101,7 +101,7 @@ Pour configurer et générer la sortie à l’aide d’une collection Map, proc�
 
    - Activez n’importe quel paramètre prédéfini.
    - Activez **Tous les paramètres prédéfinis** pour un plan DITA afin de sélectionner tous les paramètres prédéfinis en une seule fois. Par défaut, cette option est désactivée.
-   - Activez **Paramètres prédéfinis de profil de dossier** pour un plan DITA afin de sélectionner tous les paramètres prédéfinis de profil de dossier pour ce plan. Par défaut, cette option est désactivée.
+   - Activez **Paramètres prédéfinis de profil de dossier** pour un plan DITA afin de sélectionner tous les paramètres prédéfinis de profil de dossier pour ce plan. Cette option est désactivée par défaut.
      ![modifier une collection map sur cloud services](images/edit-map-collection-cs.png){width="800"}
 
 

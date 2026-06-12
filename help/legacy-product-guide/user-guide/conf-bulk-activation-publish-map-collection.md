@@ -84,7 +84,7 @@ Une fois que la sortie est activée pour les fichiers de mappage sélectionnés,
 Utilisez l’une des méthodes suivantes :
 
 * Pour activer la sortie des mappages sélectionnés, sélectionnez la sortie de mappage prégénérée et sélectionnez **Publication rapide**.
-* Pour activer la sortie de tous les mappages DITA avec leurs paramètres prédéfinis configurés, cochez la case en regard de Mappage (colonne), puis sélectionnez **Publication rapide.**
+* Pour activer la sortie de tous les mappages DITA avec leurs paramètres prédéfinis configurés, cochez la case en regard de Mappage (colonne), puis sélectionnez **Publication rapide**.
   ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650"}
 
   >[!NOTE]
