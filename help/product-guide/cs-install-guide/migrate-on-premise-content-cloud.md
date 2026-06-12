@@ -20,15 +20,15 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 1034
-ht-degree: 6%
+source-wordcount: 844
+ht-degree: 3%
 
 ---
 
 # Migration de contenu d’On-premise vers Cloud Service
 
 Experience Manager as a Cloud Service fournit une base technologique évolutive, sécurisée et agile pour Experience Manager Guides, Assets, Forms et Screens. Cela permet aux professionnels du marketing et de l’informatique de se concentrer sur la création d’expériences percutantes à grande échelle.
-Avec Experience Manager as a Cloud Service, vos équipes peuvent se concentrer sur l’innovation plutôt que sur la planification des mises à niveau de produits. Les nouvelles fonctionnalités du produit sont soigneusement testées et mises en permanence à la disposition de vos équipes afin qu’elles puissent toujours accéder à la dernière version de Adobe Experience Manager.
+Avec Experience Manager as a Cloud Service, vos équipes peuvent se concentrer sur l’innovation plutôt que sur la planification des mises à niveau des produits. Les nouvelles fonctionnalités du produit sont soigneusement testées et mises en permanence à la disposition de vos équipes afin qu’elles puissent toujours accéder à la dernière version de Adobe Experience Manager.
 
 Cet article décrit un processus détaillé et détaillé pour migrer votre contenu On-premise ou Managed Services Experience Manager Guides vers les services cloud, afin d’assurer une transition en douceur vers la plateforme cloud.
 
@@ -45,7 +45,7 @@ Cet article décrit un processus détaillé et détaillé pour migrer votre cont
 ## Processus de migration
 
 Développé par **l’**&#x200B;outil de transfert de contenu est utilisé pour lancer la migration de contenu existant entre une instance source Adobe Experience Manager On-premise ou Managed Services et l’instance cible Experience Manager Cloud Service.
-Cet outil transfère également automatiquement les entités principales (utilisateurs, utilisatrices ou groupes).
+Cet outil transfère également automatiquement les entités principales (utilisateurs ou groupes).
 
 Vous pouvez télécharger l’**outil de transfert de contenu** sous la forme d’un fichier ZIP à partir du portail **Distribution logicielle** :
 
@@ -53,7 +53,7 @@ Vous pouvez télécharger l’**outil de transfert de contenu** sous la forme d�
 1. Recherchez **Outil de transfert de contenu**.
 1. Sélectionnez **Outil de transfert de contenu** dans la liste et téléchargez-le.
 
-outil de transfert de contenu ![download)](./assets/content-transfer-tool-software-portal.png)
+![télécharger l’outil de transfert de contenu](./assets/content-transfer-tool-software-portal.png)
 Installez ensuite le package via **Gestionnaire de packages** sur votre instance Adobe Experience Manager source. Veillez à télécharger la dernière version.
 Pour plus d’informations sur la dernière version, voir [Notes de mise à jour](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=fr).
 
@@ -121,7 +121,7 @@ Pour migrer le contenu Experience Manager Guides vers Experience Manager as a cl
    ![](./assets/migration-create-migration-set.png)
 
 1. Indiquez le chemin d’accès à migrer et cliquez sur **Enregistrer**.
-Par exemple :  `/content/sites`
+Par exemple, `/content/sites`
 ou
    `/content/dam/tech-docs`
    ![chemins inclus](./assets/migration-included-paths.png)

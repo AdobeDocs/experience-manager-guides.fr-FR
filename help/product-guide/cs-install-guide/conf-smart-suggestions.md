@@ -49,13 +49,13 @@ Pour créer des configurations IMS dans Adobe Developer Console, procédez comme
 1. Lancer [&#128279;](https://developer.adobe.com/console).
 1. Une fois la connexion à Developer Console établie, l’écran **Accueil** s’affiche. L’écran **Accueil** vous permet de trouver facilement des informations et des liens rapides, y compris des liens de navigation supérieure vers les projets et les téléchargements.
 1. Pour créer un projet vide, sélectionnez **Créer un projet** parmi les liens **Démarrage rapide**.
-   ![Liens de démarrage rapide &#x200B;](assets/conf-ss-quick-start.png) {width="550"}
+   ![Liens de démarrage rapide](assets/conf-ss-quick-start.png) {width="550"}
    *Créer un projet.*
 
 1. Sélectionnez **Ajouter une API** dans l’écran **Projets**.  L’écran **Ajouter une API** s’affiche. Cet écran affiche tous les API, événements et services disponibles pour les produits et technologies Adobe avec lesquels vous pouvez développer des applications.
 
 1. Sélectionnez l’**API I/O Management** pour l’ajouter à votre projet.
-   API ![IO Management](assets/confi-ss-io-management.png)
+   ![API IO Management](assets/confi-ss-io-management.png)
    *Ajoutez l’API I/O Management à votre projet.*
 
 1. Créez des informations d’identification **OAuth** et enregistrez-les.
