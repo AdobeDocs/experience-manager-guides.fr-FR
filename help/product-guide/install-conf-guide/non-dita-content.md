@@ -4,9 +4,10 @@ description: Découvrez comment migrer du contenu non DITA
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: b416334318a83e882c32318bc4769d24268cdd1c
+exl-id: e4afe8f8-6130-4c97-a3b8-f5963a79c534
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '3521'
+source-wordcount: '3599'
 ht-degree: 0%
 
 ---
@@ -63,7 +64,7 @@ Les onglets suivants fournissent des instructions pour convertir vos documents W
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Effectuez les étapes suivantes pour convertir vos documents Word existants en document de type rubrique DITA :
 
@@ -290,7 +291,7 @@ Les points suivants doivent être pris en compte pour charger vos documents dans
   </html>
   ```
 
-  Notez que l’attribut `ul` doit être défini sur `class` pour chaque balise `book`. De même, chaque `li` de balise `class` doit être définie sur `topicref`.
+  Notez que l’attribut `class` doit être défini sur `book` pour chaque balise `ul`. De même, chaque `class` de balise `li` doit être définie sur `topicref`.
 
 - Si vous utilisez des styles intégrés, convertissez-les en classes de style basées sur CSS dans votre fichier XHTML. Utilisez ensuite le mappage style-attribute pour convertir ces styles basés sur des classes en attribut DITA `outputclass` dans le fichier DITA converti.
 
@@ -305,7 +306,7 @@ Les onglets suivants fournissent des instructions pour convertir votre document 
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Pour convertir votre document XHTML existant en rubrique DITA, procédez comme suit :
 
@@ -424,7 +425,7 @@ Les onglets suivants fournissent des instructions pour migrer tout autre documen
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Pour convertir vos documents structurés existants au format DITA, procédez comme suit :
 
@@ -500,4 +501,4 @@ Le bloc `<config> </config>` vous permet de définir un ou plusieurs blocs de co
 
 >[!ENDTABS]
 
-**Rubrique parente :**&#x200B;[&#x200B; Migrer le contenu existant](migrate-content.md)
+**Rubrique parente :**[ Migrer le contenu existant](migrate-content.md)

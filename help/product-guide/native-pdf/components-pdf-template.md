@@ -6,17 +6,12 @@ feature: Output Generation
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/h8V5bE1J5ztJNJ9wMPoQR4k36-pZuiaYbnD7xPYX-zE
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 4767
+source-wordcount: 4602
 ht-degree: 0%
 
 ---
@@ -199,7 +194,7 @@ Pour ajouter un fichier de ressource au dossier Ressources , procédez comme sui
 
 1. Cliquez sur **Choisir les fichiers** pour parcourir le fichier de ressource à partir de votre ordinateur local
 
-1. Cliquez sur **Charger**.
+1. Cliquez sur **Télécharger**.
 Le fichier sélectionné est importé et répertorié sous le dossier Ressources .
 
 ## Paramètres PDF avancés {#advanced-pdf-settings}
@@ -245,7 +240,7 @@ Pour appliquer la structure de la table des matières et le style des niveaux d�
   >Si vous êtes un développeur ou une développeuse CSS, vous pouvez également définir le format de ligne de repère directement dans le fichier CSS.
 
 * **Utiliser le marqueur de continuation de tableau** : sélectionnez cette option pour définir des marqueurs pour les tableaux longs qui s’étendent sur plusieurs pages.
-Vous pouvez définir le texte à afficher avant et après la coupure. Par exemple, un tableau se rompt à la page 5 et vous définissez `<Continued on page %page-num%>` pour **Texte avant la rupture**.  Le texte indique « Suite page 6 » au bas de la page 5.
+Vous pouvez définir le texte à afficher avant et après la coupure. Par exemple, un tableau se rompt à la page 5 et vous définissez `<Continued on page %page-num%>` pour **Texte avant saut**. Le texte affiche « Suite à la page 6 » au bas de la page 5.
 
   Utilisez des variables de langue pour définir le texte du marqueur de continuation avant et après la coupure. Selon la langue choisie, la valeur localisée est automatiquement sélectionnée dans la sortie PDF. Par exemple, vous pouvez publier du `Continued on page %page-num%` sous forme de texte en anglais et du `Fortsetzung auf Seite %page-num%` en allemand.
 
@@ -468,11 +463,11 @@ Par exemple, vous pouvez ajouter une variable de langue « reference-label » et
 Lorsque vous ajoutez des `${lng:<variable name>}` à la section Paragraphe, les références croisées dans les paragraphes de la sortie contiennent le texte localisé et le numéro de page.\
 Par exemple, les captures d’écran ci-dessous montrent les références croisées « Afficher sur la page 1 » en anglais et « Einzelheiten finden Sie auf der Seite 1 » en allemand.
 
-<img src="./assets/english-output-corss-reference.png" alt="Sortie en anglais d&apos;une référence croisée dans un pragrah&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="Sortie en anglais d&apos;une référence croisée dans un pragrah" width ="800" border="2px">
 
 *Référence croisée dans un paragraphe lorsqu’il est publié en langue anglaise.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Sortie allemande d&apos;une référence croisée dans un pragrah&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="Sortie allemande d&apos;une référence croisée dans un pragrah" width ="800" border="2px">
 
 
 *Référence croisée dans un paragraphe lorsqu’il est publié en allemand.*
