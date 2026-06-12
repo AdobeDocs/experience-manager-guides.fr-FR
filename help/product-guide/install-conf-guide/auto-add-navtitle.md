@@ -4,9 +4,10 @@ description: Découvrez comment inclure l’attribut @navtitle par défaut
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 80784efb-e897-47cc-a10a-4050236b0fad
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '441'
 ht-degree: 1%
 
 ---
@@ -21,7 +22,7 @@ Les onglets suivants fournissent des instructions pour inclure `@navtitle` attri
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Pour télécharger le fichier de configuration de l’interface utilisateur, connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 1. Cliquez sur le lien Adobe Experience Manager en haut et choisissez **Outils**.
@@ -90,4 +91,4 @@ Avec cette configuration, chaque fichier de référence que vous ajoutez à une 
 
 >[!ENDTABS]
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](customize-overview.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](customize-overview.md)

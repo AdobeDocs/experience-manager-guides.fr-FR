@@ -7,7 +7,7 @@ level: Experienced
 exl-id: 682c915b-bc42-4d2e-84a0-9e88734e278e
 source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -28,26 +28,26 @@ Effectuez les étapes suivantes pour configurer les filtres d’état du documen
 Dans le fichier `ui\_config.json` téléchargé, reportez-vous à la section suivante :
 
        « 
-     « repositoryFilters » : &lbrack;
-     &lbrace;
+     « repositoryFilters » : [
+     {
      « title »: « Document state »,
      « property »: « jcr:content/metadata/docstate »,
-« children »: &lbrack;    &lbrace;
+« children »: [    {
 « title »: « Draft »,    « value »: « Draft »
-&rbrace;,    &lbrace;
+},    {
 « title »: « Edit »,    « value »: « Edit »
-&rbrace;,    &lbrace;
+},    {
 « title »: « In-Review »,    « value »: « In-Review »
-     &rbrace;,
-&lbrace;    « title »: « Approved »,
+     },
+{    « title »: « Approved »,
      « value »: « Approved »
-&rbrace;,    &lbrace;
+},    {
 « title »: « Reviewed »,    « value »: « Reviewed »
-&rbrace;,    &lbrace;
+},    {
 « title »: « Done »,    « value »: « Done »
-«     &rbrace;
-&rbrack;    &rbrace;
-&rbrack;    « 
+«     }
+]    }
+]    « 
       
       
       
@@ -76,4 +76,4 @@ Dans le fichier `ui\_config.json` téléchargé, reportez-vous à la section sui
 
 Les filtres configurés s’affichent dans le panneau **Filtres** dans le référentiel de la page d’accueil.
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)
