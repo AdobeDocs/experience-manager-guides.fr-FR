@@ -6,11 +6,25 @@ role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
 TQID: https://experienceleague.adobe.com/jp7oUSIZlnTfGnx58E9rPn6Tk4zE2lp-oZSTdjblbZ0
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: b89a36a9-95de-429b-adde-f901256d8f24id: f7774ebe-aec9-42b6-97e4-5002acdc712eid: f9dbea21-a714-40dd-bc90-080d8046c93f
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: b89a36a9-95de-429b-adde-f901256d8f24
+  - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1666
@@ -46,7 +60,7 @@ Pour commencer à utiliser la configuration de profil de dossiers pour le conten
    - [Panneaux](#configure-panels)
    - [Modèles de contenu](#configure-content-templates)
    - [Paramètres prédéfinis de sortie](#configure-output-presets)
-   - [éditeur ](#html-editor-settings)
+   - [éditeur &#x200B;](#html-editor-settings)
    - [Publication de profils](#manage-publish-profiles)
 
 Pour accéder à ces paramètres, basculez vers la vue Éditeur et sélectionnez **Paramètres** dans le menu **Options** comme illustré ci-dessous :
@@ -83,7 +97,7 @@ Pour le contenu de formation théorique et pratique, assurez-vous que seules les
 - **Responsable de cours** : fournit un espace de travail dédié à la création et à la gestion des cours.
 - **Map** : fournit une vue cartographique du fichier de mappage actuellement ouvert.
 - **Plan** : affiche la hiérarchie structurelle de la rubrique ou de la carte actuellement ouverte, ce qui permet une navigation rapide et un accès au niveau de l’élément.
-- **** : permet d’accéder à des fonctionnalités de gestion de projet fiables en plus des fonctionnalités de base du système de gestion de contenu par composant (CCMS) de Experience Manager Guides.
+- **&#x200B;**&#x200B;: permet d’accéder à des fonctionnalités de gestion de projet fiables en plus des fonctionnalités de base du système de gestion de contenu par composant (CCMS) de Experience Manager Guides.
 - **Contenu réutilisable** : permet de gérer et d’insérer des éléments ou des rubriques réutilisables pour garantir la cohérence et réduire la duplication du contenu.
 - **Glossaire** : permet de créer et de gérer des termes de glossaire et de les inclure dans les rubriques afin de conserver une terminologie cohérente.
 - **Fragments de code** : permet de créer et de réutiliser de petits fragments de contenu dans divers sujets de vos cours.
@@ -122,7 +136,7 @@ Pour le contenu de formation théorique et pratique, assurez-vous que seules les
 
 >[!NOTE]
 >
-> Ce paramètre est disponible uniquement lorsque la fonction de contenu de formation est activée dans les paramètres **** > **Général**.
+> Ce paramètre est disponible uniquement lorsque la fonction de contenu de formation est activée dans les paramètres **&#x200B;**&#x200B;> **Général**.
 
 Ce paramètre vous permet de gérer les modèles de création et de publication présents dans le panneau [Gauche) de l’éditeur](../user-guide/web-editor-left-panel.md). Vous pouvez ajouter, supprimer ou réorganiser des modèles de création et de sortie, qui seront ensuite accessibles aux auteurs et aux éditeurs.
 
@@ -214,7 +228,7 @@ Vous pouvez également définir l’ordre d’affichage des modèles présents d
 
 >[!NOTE]
 >
-> Ce paramètre est disponible uniquement lorsque la fonction de contenu de formation est activée dans les paramètres **** > **Général**.
+> Ce paramètre est disponible uniquement lorsque la fonction de contenu de formation est activée dans les paramètres **&#x200B;**&#x200B;> **Général**.
 
 L’onglet Paramètres prédéfinis de sortie vous permet de définir les formats de sortie disponibles pour publier un cours. Il contient deux sections : **Types de paramètres prédéfinis de sortie autorisés** et **Paramètres prédéfinis de sortie courants**.
 

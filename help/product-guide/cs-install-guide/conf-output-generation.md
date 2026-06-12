@@ -6,11 +6,23 @@ feature: Output Generation
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/z-5JBbQXNm-3Vv-wSiaY17xDzlqEfjLUCy9-V5jKkaA
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0id: df6fa66f-4542-4a6d-90ca-9f146eb5d494id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
+  - id: df6fa66f-4542-4a6d-90ca-9f146eb5d494
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 5820
@@ -275,7 +287,7 @@ Pour exclure l’élément `table` de l’aplatissement, ajoutez la propriété 
 
 ### Configurer le contrôle de version des pages supprimées dans la sortie du site AEM
 
-Lorsque vous générez une sortie de site AEM avec les options **Supprimer et** Créer ****sélectionnées pour le paramètre Pages de sortie existantes , une version est créée pour la ou les pages en cours de suppression. Vous pouvez configurer le système pour arrêter la création d’une version avant la suppression.
+Lorsque vous générez une sortie de site AEM avec les options **Supprimer et** Créer **&#x200B;**&#x200B;sélectionnées pour le paramètre Pages de sortie existantes , une version est créée pour la ou les pages en cours de suppression. Vous pouvez configurer le système pour arrêter la création d’une version avant la suppression.
 
 Effectuez les étapes suivantes pour arrêter la création d’une version pour la ou les pages en cours de suppression :
 
@@ -314,7 +326,7 @@ Pour ajouter les métadonnées requises dans le système, procédez comme suit :
 
 1. Cliquez sur le lien Adobe Experience Manager en haut et choisissez **Outils**.
 
-1. Sélectionnez **** dans la liste des outils.
+1. Sélectionnez **&#x200B;**&#x200B;dans la liste des outils.
 
 1. Cliquez sur la mosaïque **Schémas de métadonnées**.
 
@@ -636,7 +648,7 @@ AEM Guides fournit la catégorie `apps.fmdita.dashboard-extn` pour la personnali
 
 >[!NOTE]
 >
-> Pour plus d’informations sur la création de la bibliothèque cliente AEM, voir [ Utilisation de bibliothèques côté client ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
+> Pour plus d’informations sur la création de la bibliothèque cliente AEM, voir [&#x200B; Utilisation de bibliothèques côté client &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
 
 ## Gérer le rendu des images pendant la génération de la sortie {#id177BF0G0VY4}
 

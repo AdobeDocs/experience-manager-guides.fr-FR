@@ -5,11 +5,24 @@ exl-id: d185d27f-0cbb-4ec6-ac65-cb69f7572c3f
 feature: What's New
 role: Leader
 TQID: https://experienceleague.adobe.com/mwi2Z0-3bixo5z1oi7tIk0yYwd2thaP0JV-k8swfCk0
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388bid: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1516
@@ -51,7 +64,7 @@ Après avoir inséré vos citations dans vos rubriques, vous pouvez les prévisu
 
 *Afficher la liste des citations dans le panneau Citations.*
 
-Pour plus d’informations, consultez la section [ Ajouter et gérer des citations dans votre contenu ](../user-guide/web-editor-apply-citations.md).
+Pour plus d’informations, consultez la section [&#x200B; Ajouter et gérer des citations dans votre contenu &#x200B;](../user-guide/web-editor-apply-citations.md).
 
 
 ## Publication sur un fragment de contenu
@@ -188,21 +201,21 @@ Pour plus d’informations, consultez [Utilisation de la collecte de mappages po
 
 
 Grâce à la fonction d’activation en bloc d’AEM Guides, vous pouvez activer rapidement et facilement votre contenu, de la création à la publication. Dans la carte Activation en bloc, vous pouvez inclure le paramètre prédéfini de sortie Native PDF, le site AEM, PDF, HTML5, personnalisé et la sortie JSON.
-Pour plus d’informations, consultez la section [ Activation en bloc du contenu publié ](../user-guide/conf-bulk-activation.md).
+Pour plus d’informations, consultez la section [&#x200B; Activation en bloc du contenu publié &#x200B;](../user-guide/conf-bulk-activation.md).
 
 ## Outil de déplacement en bloc amélioré
 
 Désormais, en tant qu’administrateur, vous pouvez utiliser l’outil de déplacement en bloc amélioré pour déplacer des dossiers contenant de nombreux fichiers d’un emplacement à un autre.
 Vous pouvez utiliser la boîte de dialogue Parcourir le fichier pour sélectionner les dossiers sources à déplacer. Vous pouvez également accéder à l’emplacement de destination pour déplacer les dossiers sources. Sélectionnez ![icône d’information](assets/info-icon.svg) {width="25"} près d’un champ pour afficher plus d’informations à son sujet.
 
-Pour plus d’informations, consultez la section [ Déplacer des fichiers en bloc ](../user-guide/authoring-file-management.md#move-files-bulk).
+Pour plus d’informations, consultez la section [&#x200B; Déplacer des fichiers en bloc &#x200B;](../user-guide/authoring-file-management.md#move-files-bulk).
 
 
 ## Expérience d’aperçu améliorée à partir du menu contextuel
 
 Utilisez le menu contextuel pour prévisualiser rapidement le fichier (.dita, .xml, audio, vidéo ou image) sans l’ouvrir. Vous pouvez désormais redimensionner le volet d’aperçu. Si le contenu contient un lien de référence, vous pouvez le sélectionner pour l’ouvrir dans un nouvel onglet.
 
-](assets/quick-preview_cs.png){width="800"} du volet d’aperçu![
+![&#128279;](assets/quick-preview_cs.png){width="800"} du volet d’aperçu
 
 *Prévisualisez le fichier dans le volet.*
 

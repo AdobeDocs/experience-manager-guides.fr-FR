@@ -5,11 +5,24 @@ feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
 TQID: https://experienceleague.adobe.com/GbsiDGw2pByOZ-AfWM2yH46QYWm95Z4ShDSvqyedViU
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: f9dbea21-a714-40dd-bc90-080d8046c93f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
 source-wordcount: 11025
@@ -53,9 +66,9 @@ Certaines des fonctionnalités du panneau de gauche sont disponibles dans la sec
 - [Révision](#review)
 
 
-Une option supplémentaire intitulée **** s’affiche également dans le panneau de gauche si Adobe Workfront est configuré.
+Une option supplémentaire intitulée **&#x200B;**&#x200B;s’affiche également dans le panneau de gauche si Adobe Workfront est configuré.
 
-Pour plus d’informations, consultez Intégration de [](./workfront-integration.md).
+Pour plus d’informations, consultez Intégration de [&#128279;](./workfront-integration.md).
 
 >[!NOTE]
 >
@@ -186,7 +199,7 @@ Sélectionnez l’icône **Filtrage avancé** ![icône de filtre avancé](images
 
 Vous pouvez afficher les options suivantes sous les onglets **Général** et **Avancé**.
 
-![ boîte de dialogue filtre avancé ](images/repository-filter-search-advanced.png) {width="650"}
+![&#x200B; boîte de dialogue filtre avancé &#x200B;](images/repository-filter-search-advanced.png) {width="650"}
 
 
 **Général**
@@ -1037,7 +1050,7 @@ Vous pouvez également appliquer des valeurs à un attribut en sélectionnant pl
 >[!ENDTABS]
 
 
-Vue Source ****
+Vue Source **&#x200B;**
 
 Vous pouvez également modifier les valeurs à partir de la liste déroulante de l’attribut dans la vue Source. La vue Source vous empêche également d’ajouter une valeur incorrecte.
 
@@ -1121,7 +1134,7 @@ Pour savoir comment créer des modèles personnalisés, consultez la section [Cr
 
 Dans Experience Manager Guides, vous pouvez ajouter et importer des citations et les appliquer à votre contenu. Vous pouvez ajouter ces citations à partir de n’importe quelle source de livres, de sites web et de revues.
 
-Pour plus d’informations, consultez la section [ Ajouter et gérer des citations dans votre contenu ](./web-editor-apply-citations.md).
+Pour plus d’informations, consultez la section [&#x200B; Ajouter et gérer des citations dans votre contenu &#x200B;](./web-editor-apply-citations.md).
 
 ## Variables de langue
 
@@ -1314,7 +1327,7 @@ Vous pouvez également utiliser l&#39;option **Rechercher dans la carte** du men
 
 ## Modèles PDF
 
-Permet d’utiliser divers modèles PDF. Pour plus de détails, consultez [les modèles ](../native-pdf/pdf-template.md).
+Permet d’utiliser divers modèles PDF. Pour plus de détails, consultez [les modèles &#x200B;](../native-pdf/pdf-template.md).
 
 ## Révision
 
@@ -1375,4 +1388,4 @@ Pour afficher les commentaires de révision dans les tâches de révision active
 
 </details>
 
-**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
