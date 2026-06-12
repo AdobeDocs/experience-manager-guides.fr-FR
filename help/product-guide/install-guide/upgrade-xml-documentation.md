@@ -6,25 +6,14 @@ feature: Installation
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/ga5xY7Qjubm-GcHwxt6QWbLU5MZ-VXTD3ML2pHFBOIE
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2:
-  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-  - id: cdab8659-8d50-4417-b6fd-762f347c13ee
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: cdab8659-8d50-4417-b6fd-762f347c13ee
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 9267
+source-wordcount: 9214
 ht-degree: 1%
 
 ---
@@ -43,7 +32,7 @@ Vous pouvez mettre à niveau votre version actuelle de Experience Manager Guides
 - Si vous utilisez la version 4.3.x, 4.2, 4.2.1 (correctif 4.2.1.3), 4.1 ou 4.1.x, vous devez effectuer la mise à niveau vers la version 4.4 avant d’effectuer la mise à niveau vers la version 5.0.0.
 - Si vous utilisez la version 4.0, vous devez effectuer la mise à niveau vers la version 4.2 avant d’effectuer la mise à niveau vers la version 4.3.x.
 - Si vous utilisez la version 3.8.5, vous devez effectuer la mise à niveau vers la version 4.0 avant de passer à la version 4.2.
-- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html).
+- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 >[!NOTE]
@@ -76,11 +65,11 @@ Avant d’exécuter le processus, vous devez effectuer certaines tâches. Les so
 
 >[!NOTE]
 >
-> Ce processus de mise à niveau s’applique uniquement de la version 3.8.5 à la version 4.0. Pour le processus de mise à niveau de la version 3.4 ou ultérieure vers la version 3.8.5, reportez-vous à la section *Mettre à niveau Experience Manager Guides* du guide d’installation spécifique au produit disponible sur [l’archive PDF de l’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html).
+> Ce processus de mise à niveau s’applique uniquement de la version 3.8.5 à la version 4.0. Pour le processus de mise à niveau de la version 3.4 ou ultérieure vers la version 3.8.5, reportez-vous à la section *Mettre à niveau Experience Manager Guides* du guide d’installation spécifique au produit disponible sur [l’archive PDF de l’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 
-**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
+****Conditions préalables****
 
 Avant de commencer le processus de mise à niveau de Experience Manager Guides, vérifiez que vous disposez des éléments suivants :
 
@@ -104,7 +93,7 @@ Cette API est conçue pour évaluer l’état actuel du système et signaler si 
 
 | Point d’entrée | /bin/dxml/upgrade/3xto4x/report |
 | --- | --- |
-| Type de demande | **GET** Vous pouvez utiliser un navigateur web dans lequel vous êtes connecté à l&#39;instance AEM en tant qu&#39;administrateur. |
+| Type de demande | **GET** Vous pouvez utiliser un navigateur web dans lequel vous êtes connecté à l’instance AEM en tant qu’administrateur. |
 | Réponse attendue | - Si tous les nœuds requis peuvent être déplacés, la vérification sera réussie. <br>- Si un nœud est présent à l’emplacement cible, vous obtiendrez une erreur pertinente. Nettoyez le référentiel \(supprimez le nœud /var/dxml\), réinstallez le package de mise à niveau, puis déclenchez à nouveau ce point d’entrée. <br>**Remarque :** il ne s’agit pas d’une erreur courante, car l’emplacement cible n’est pas utilisé auparavant par Experience Manager Guides 3.x. <br> - Si ce script échoue, ne continuez pas et signalez-le à votre équipe de succès client. |
 
 **API System data migration**
@@ -130,7 +119,7 @@ Cette API est conçue pour migrer les données système comme indiqué dans la s
 ## Installation version 4.0 {#id23598G006XA}
 
 1. Installez la version 4.0 uniquement si les étapes de mise à niveau ont réussi.
-1. Téléchargez le package de la version 4.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) :
+1. Téléchargez le package de la version 4.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) :
 
    - Si vous utilisez la version UUID du logiciel, recherchez « Version UUID 4.0 pour la solution XML Documentation pour AEM 6.5 ».
    - Si vous utilisez une version non UUID du logiciel, recherchez « Version 4.0 non UUID pour XML Documentation solution for AEM 6.5 ».
@@ -153,7 +142,7 @@ La mise à niveau vers la version 4.2 dépend de la version actuelle de Experien
 
 Si vous utilisez la version 4.0, 4.1 ou 4.1.x, vous pouvez directement effectuer la mise à niveau vers la version 4.2.
 
-**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
+****Conditions préalables****
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.2, vérifiez que vous disposez des éléments suivants :
 
@@ -167,7 +156,7 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 
 ## Installer la version 4.2 {#id2245IK0E0EV}
 
-1. Téléchargez le package de la version 4.2 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 4.2 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de la version 4.2.
 1. Une fois l’installation du package terminée, attendez le(s) message(s) suivant(s) dans les journaux :
 
@@ -329,7 +318,7 @@ La mise à niveau vers la version 4.2.1 dépend de la version actuelle de Experi
 >
 >Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
+****Conditions préalables****
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.2.1, vérifiez que vous disposez des éléments suivants :
 
@@ -343,9 +332,9 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 
 ## Installation de la version 4.2.1
 
-1. Téléchargez le package de la version 4.2.1 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 4.2.1 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de la version 4.2.1.
-1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [&#x200B; Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet-for-421).
+1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet-for-421).
 
 
 1. Une fois l’installation du package terminée, attendez le(s) message(s) suivant(s) dans les journaux :
@@ -506,7 +495,7 @@ La mise à niveau vers la version 4.3.0 dépend de la version actuelle de Experi
 >
 >Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
+****Conditions préalables****
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.3.0, vérifiez que vous disposez des éléments suivants :
 
@@ -517,7 +506,7 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 
 ## Installation de la version 4.3.0
 
-1. Téléchargez le package de la version 4.3.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 4.3.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de la version 4.3.0.
 1. Effacez la mémoire cache du navigateur après l’installation du package.
 1. Mettez à niveau le fichier `ui_config.json` à partir de l’onglet **Configuration de l’éditeur XML** dans le profil de dossier.
@@ -547,7 +536,7 @@ Effectuez les étapes suivantes pour post-traiter le contenu existant et utilise
 
    | Point d’entrée | /bin/guides/reports/upgrade |
    |---|---|
-   | Type de demande | **&#x200B;**&#x200B;|
+   | Type de demande | **GET** |
    | Param | jobId : transmettez le jobId reçu de la demande de publication précédente. |
    | Réponse attendue | - Une fois le traitement terminé, la requête GET répond avec succès. <br> - En cas d’erreur, partagez les journaux d’erreurs ainsi que la sortie de l’API avec votre équipe chargée du succès client.  <br>Exemple d’URL : `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
@@ -564,7 +553,7 @@ La mise à niveau vers la version 4.3.1 dépend de la version actuelle de Experi
 >
 >Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
+****Conditions préalables****
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.3.1, vérifiez que vous disposez des éléments suivants :
 
@@ -575,9 +564,9 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 
 ## Installation de la version 4.3.1
 
-1. Téléchargez le package de la version 4.3.1 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 4.3.1 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de la version 4.3.1.
-1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [&#x200B; Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet-for-431).
+1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet-for-431).
 
 
 1. Une fois l’installation du package terminée, attendez le(s) message(s) suivant(s) dans les journaux :
@@ -748,7 +737,7 @@ Effectuez les étapes suivantes pour post-traiter le contenu existant et utilise
 
    | Point d’entrée | /bin/guides/reports/upgrade |
    |---|---|
-   | Type de demande | **&#x200B;**&#x200B;|
+   | Type de demande | **GET** |
    | Param | jobId : transmettez le jobId reçu de la demande de publication précédente. |
    | Réponse attendue | - Une fois le traitement terminé, la requête GET répond avec succès. <br> - En cas d’erreur, partagez les journaux d’erreurs ainsi que la sortie de l’API avec votre équipe chargée du succès client.  <br>Exemple d’URL : `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
@@ -805,7 +794,7 @@ La mise à niveau vers la version 4.4.0 dépend de la version actuelle de Experi
 >
 >Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
+****Conditions préalables****
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.4.0, vérifiez que vous disposez des éléments suivants :
 
@@ -816,9 +805,9 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 
 ## Installation de la version 4.4.0
 
-1. Téléchargez le package de la version 4.4.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 4.4.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de la version 4.4.0.
-1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [&#x200B; Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
+1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
 
 1. Une fois l’installation du package terminée, attendez le(s) message(s) suivant(s) dans les journaux :
 
@@ -949,7 +938,7 @@ Effectuez les étapes suivantes pour post-traiter le contenu existant et utilise
 
    | Point d’entrée | /bin/guides/reports/upgrade |
    |---|---|
-   | Type de demande | **&#x200B;**&#x200B;|
+   | Type de demande | **GET** |
    | Param | jobId : transmettez le jobId reçu de la demande de publication précédente. |
    | Réponse attendue | - Une fois le traitement terminé, la requête GET répond avec succès. <br> - En cas d’erreur, partagez les journaux d’erreurs ainsi que la sortie de l’API avec votre équipe chargée du succès client.  <br>Exemple d’URL : `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
@@ -998,7 +987,7 @@ Si votre base de code contient un autre module de réécriture Sling personnalis
 Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000 à 50, vous devez fusionner le module de réécriture personnalisé existant, le cas échéant, avec `'fmdita-rewriter'`.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Télécharger et installer](download-install.md)
+**Rubrique parente :**[ Télécharger et installer](download-install.md)
 
 
 ## Mise à niveau vers la version 4.6.0
@@ -1013,7 +1002,7 @@ La mise à niveau vers la version 4.6.0 dépend de la version actuelle de Experi
 >
 > Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
+****Conditions préalables****
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.6.0, vérifiez que vous disposez des éléments suivants :
 
@@ -1024,9 +1013,9 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 
 ## Installation de la version 4.6.0
 
-1. Téléchargez le package de la version 4.6.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 4.6.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de la version 4.6.0.
-1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [&#x200B; Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
+1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
 
 1. Une fois l’installation du package terminée, attendez le(s) message(s) suivant(s) dans les journaux :
 
@@ -1137,7 +1126,7 @@ Effectuez les étapes suivantes pour indexer le contenu existant :
 
 - Exécutez une requête POST au serveur \(avec l’authentification correcte\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facultatif : vous pouvez transmettre des chemins spécifiques des mappages pour les indexer. Par défaut, tous les mappages sont indexés || Exemple : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée : `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(par exemple : ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`).
+- L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(par exemple : ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 - Une fois la tâche terminée, la requête GET ci-dessus répond avec succès et mentionne si des mappages ont échoué. Les mappages indexés avec succès peuvent être confirmés à partir des journaux du serveur.
 
@@ -1168,7 +1157,7 @@ Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000
 >
 > Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-**&#x200B;**&#x200B;Conditions préalables&#x200B;**&#x200B;**
+****Conditions préalables****
 
 Avant de lancer le processus de mise à niveau vers Experience Manager Guides 5.0.0, vérifiez que vous disposez des éléments suivants :
 
@@ -1179,9 +1168,9 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 5.
 
 ## Installation version 5.0.0
 
-1. Téléchargez le package de la version 5.0.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 5.0.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de la version 5.0.0.
-1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [&#x200B; Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
+1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
 
 1. Une fois l’installation du package terminée, attendez le(s) message(s) suivant(s) dans les journaux :
 
@@ -1292,7 +1281,7 @@ Effectuez les étapes suivantes pour indexer le contenu existant :
 
 - Exécutez une requête POST au serveur \(avec l’authentification correcte\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facultatif : vous pouvez transmettre des chemins spécifiques des mappages pour les indexer. Par défaut, tous les mappages sont indexés || Exemple : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée : `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(par exemple : ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`).
+- L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(par exemple : ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 - Une fois la tâche terminée, la requête GET ci-dessus répond avec succès et mentionne si des mappages ont échoué. Les mappages indexés avec succès peuvent être confirmés à partir des journaux du serveur.
 
@@ -1316,7 +1305,7 @@ Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000
 
 ## Procédure de réindexation de damAssetLucene
 
-La définition d’index est mise à jour pour damAssetLucene avec des guides. Consultez [cet article](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-16460) pour réindexer damAssetLucene après la mise à niveau vers la version 5.0.0.
+La définition d’index est mise à jour pour damAssetLucene avec des guides. Consultez [cet article](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) pour réindexer damAssetLucene après la mise à niveau vers la version 5.0.0.
 
 >[!NOTE]
 >
@@ -1326,7 +1315,7 @@ La définition d’index est mise à jour pour damAssetLucene avec des guides. C
 
 >[!IMPORTANT]
 >
-> Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, veillez à effectuer d’abord la mise à niveau d’AEM avant de poursuivre la mise à niveau vers Experience Manager Guides 5.1.0. Pour plus d’informations, consultez la section [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/fr/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, veillez à effectuer d’abord la mise à niveau d’AEM avant de poursuivre la mise à niveau vers Experience Manager Guides 5.1.0. Pour plus d’informations, consultez la section [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 **Conditions préalables**
 
@@ -1346,9 +1335,9 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 5.
 
 ## Installer la version 5.1.0
 
-1. Téléchargez le package de la version 5.1.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 5.1.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de la version 5.1.0.
-1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [&#x200B; Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
+1. Vous pouvez choisir d’APPUYER sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
 
 1. Une fois l’installation du package terminée, attendez le(s) message(s) suivant(s) dans les journaux :
 
@@ -1459,7 +1448,7 @@ Effectuez les étapes suivantes pour indexer le contenu existant :
 
 - Exécutez une requête POST au serveur \(avec l’authentification correcte\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Facultatif : vous pouvez transmettre des chemins spécifiques des mappages pour les indexer. Par défaut, tous les mappages sont indexés || Exemple : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée : `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(par exemple : ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`).
+- L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(par exemple : ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
 - Une fois la tâche terminée, la requête GET ci-dessus répond avec succès et mentionne si des mappages ont échoué. Les mappages indexés avec succès peuvent être confirmés à partir des journaux du serveur.
 
@@ -1483,7 +1472,7 @@ Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000
 
 ## Procédure de réindexation de damAssetLucene
 
-La définition d’index est mise à jour pour damAssetLucene avec des guides. Consultez [cet article](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-16460) pour réindexer damAssetLucene après la mise à niveau vers la version 5.1.0.
+La définition d’index est mise à jour pour damAssetLucene avec des guides. Consultez [cet article](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) pour réindexer damAssetLucene après la mise à niveau vers la version 5.1.0.
 
 >[!NOTE]
 >

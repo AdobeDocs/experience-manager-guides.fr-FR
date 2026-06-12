@@ -5,20 +5,11 @@ exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
 feature: Release Notes
 role: Leader
 TQID: https://experienceleague.adobe.com/tpIgdm6yEWAcTHYKOXC4d3xR6yTLpVF5M9BVxquyahw
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1075
@@ -135,7 +126,7 @@ Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 - Native PDF | Xref imprime le contenu du titre de la rubrique href au lieu du libellé Xref. (11322)
 - PDF natif | Impossible d’enregistrer les paramètres du modèle PDF. (10751)
 - PDF natif | Le texte s’étend au-delà de la largeur de colonne lors de l’inclusion de plusieurs xréfs. (10876)
-- L’élément Native PDF | `<note>` `</note>` ne génère pas de titre d’étendue supplémentaire de son type. (10549)
+- L’élément Native PDF | `<note>``</note>` ne génère pas de titre d’étendue supplémentaire de son type. (10549)
 - Sortie JSON | La propriété `fmUuid` du nœud jcr:content de JSON est différente de l’« id » dans le fichier JSON. (11564)
 - Sortie JSON | Si le mappage et la rubrique portant le même nom de fichier sont présents, le JSON du mappage est supprimé. (11524)
 
