@@ -4,9 +4,9 @@ description: Créez et gérez une nouvelle ligne de base (Beta) à partir de la 
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
+source-git-commit: 5fe9e9476b001a1ad74c045bf05e3061702f5e42
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
@@ -57,13 +57,14 @@ Avant de migrer vers le nouveau modèle de ligne de base, passez en revue les ch
 
 | Domaine | Modification (description) |
 |------|-------------|
-| **Résolution de référence** | Les références de mappage direct sont classées comme **DIRECT**. Les références non valides sont ignorées et les références de `reltable` continuent d’être exclues. |
-| **Sélection automatique** | La sélection de version est évaluée immédiatement avant de résoudre les références directes, en garantissant une résolution de version précise. |
+| **Résolution de référence** | Les références de mappage direct sont classées comme **DIRECT**. Les références non valides sont ignorées et les références de `reltable` continuent d’être exclues. Cette fonctionnalité est prise en charge dans les nouvelles configurations de référence et les configurations modifiées, mais pas dans les configurations de référence qui ont seulement été migrées. |
+| **Sélection automatique** | La sélection de version est évaluée immédiatement avant la résolution des références directes afin de garantir une résolution de version précise. Cette fonctionnalité est prise en charge dans les nouvelles configurations de référence et les configurations modifiées, mais pas dans les configurations de référence qui ont seulement été migrées. |
 | **Règles de création de ligne de base** | La version **1.0** est obligatoire. Les références dont les versions sont manquantes ou ambiguës peuvent se résoudre différemment après la migration. |
 | **Gestion de la migration** | Les références non valides sont ignorées. **DIRECT** les références sont prioritaires, les références détachées sont déplacées vers la dernière version et des métadonnées supplémentaires sont ajoutées à partir de la version **5.0**. |
 | **Modèle de données de référence** | Le nouveau modèle de ligne de base basé sur un graphique supprime les champs modifiables et n’est pas rétrocompatible avec le modèle de ligne de base précédent. |
 | **Utilisation de l’API** | Les opérations de ligne de base sont prises en charge par les API REST et le SDK Java. Les objets de ligne de base bruts ne sont plus exposés. |
 | **Purge de version** | Après la migration, la purge de version ne prend en compte que les lignes de base stockées dans le nouveau référentiel de ligne de base. |
+| **UI** | Les lignes de base dynamiques peuvent être affichées et la modification des versions de référence est rationalisée. |
 
 ## Migrer vers une nouvelle ligne de base
 
@@ -86,7 +87,12 @@ Effectuez les étapes suivantes pour migrer la ligne de base existante vers la n
 1. Fournissez les détails suivants dans la boîte de dialogue :
 
    1. **Type de fonction** : sélectionnez **Ligne de base** dans la liste déroulante.
-   1. **Sélectionner un ou plusieurs dossiers et fichiers)** : naviguez et choisissez un ou plusieurs dossiers et fichiers à traiter.
+   1. **Sélectionner un ou plusieurs dossiers et fichiers)** : naviguez et choisissez un ou plusieurs dossiers et fichiers à traiter. Vous ne pouvez sélectionner que des dossiers pour la migration de base.
+
+      >[!NOTE]
+      >
+      > Sélectionnez le dossier contenant tout le contenu du guide et les fichiers de mappage. Si les fichiers de mappage sont stockés séparément, choisissez le répertoire où se trouvent les fichiers de mappage.
+
    1. **Sélectionner le ou les dossiers à ignorer** : éventuellement, sélectionnez des sous-dossiers dans le dossier parent choisi à exclure de la migration.
 
    ![nouvelle-ligne-de-base-processus](images/new-process-baseline.png)

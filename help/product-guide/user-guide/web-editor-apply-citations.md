@@ -5,42 +5,31 @@ exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/FHH8Sah-KUCBl7R3XRrKXgW3aNcaeTkzJnDqRBg6OWU
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 4eddfbe75d7dba679c1a414369394827162706f9
 workflow-type: tm+mt
-source-wordcount: 1962
-ht-degree: 1%
+source-wordcount: 1890
+ht-degree: 0%
 
 ---
 
 # Ajouter et gérer des citations dans votre contenu
 
->[!NOTE]
->
-> Les citations sont uniquement prises en charge dans l’ancien éditeur et ne sont actuellement pas disponibles dans le nouvel éditeur. Les informations contenues dans cet article s’appliquent uniquement si vous utilisez l’ancien éditeur.
-
 Les citations sont des références à la source d’informations ajoutée à votre contenu. À l’aide de citations, vous pouvez créditer les auteurs des informations sources et aider les lecteurs à effectuer un suivi sur ces informations. L&#39;ajout de citations rend votre contenu plus fiable et empêche le plagiat. Ils vous permettent également d’afficher du contenu bien documenté.
 
 Dans Adobe Experience Manager Guides, vous pouvez ajouter et importer des citations et les appliquer à votre contenu. Vous pouvez ajouter ces citations à partir de n’importe quelle source de livres, de sites web et de revues.
 
-
 Experience Manager Guides vous aide à modifier, prévisualiser et trier vos citations. Après avoir ajouté vos citations dans le contenu, vous pouvez générer la sortie à l’aide du PDF natif. Vous pouvez également ajouter la page de bibliographie ou de références dans la sortie Native PDF.
 
-Experience Manager Guides prend en charge plusieurs styles de citations, tels que Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE) et American Heart Association (AHA). Il est recommandé de les utiliser de manière claire et cohérente.
+Experience Manager Guides prend en charge plusieurs styles de citations, tels que Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE), American Heart Association (AHA) et American Medical Association (AMA). Il est recommandé de les utiliser de manière claire et cohérente.
 
 
 >[!NOTE]
 >
->Actuellement, Experience Manager Guides ne prend en charge que le PDF natif pour les citations.
+>Experience Manager Guides prend en charge tous les styles de citation lors de la publication sur le PDF natif. Pour la sortie AEM Sites, seules les citations de style AMA sont actuellement prises en charge.
 
 
 ## Ajouter des citations
@@ -70,8 +59,8 @@ Pour ajouter des citations, procédez comme suit :
 
    | Livre | Site Web | Journal |
    | --- | ---|---|
-   | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation sous forme de livre. | **&#x200B;**<br> Dans la liste déroulante, sélectionnez la source de la citation en tant que site Web. | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation en tant que Journal. |
-   | **Rechercher par** <br> Sélectionnez **ISBN** ou **DOI** dans la liste déroulante pour rechercher l’identifiant numérique associé à la citation.  <br> DOI : Identifiant d&#39;objet numérique <br> ISBN : Identifiant de livre numérique unique | **Rechercher par** <br> Sélectionnez **DOI** dans la liste déroulante pour rechercher l’identifiant numérique associé à la citation. | **Rechercher par** <ul><li>Sélectionnez **DOI** ou **ID PubMed** dans la liste déroulante pour rechercher l’ID numérique associé à la citation.</li><li>Sélectionnez **N’importe quel champ** dans la liste déroulante pour effectuer une recherche dans tous les champs Journal, tels que *Titre*, *Titre du journal*, *Auteur*, *Année*, *Volume*, *Number* et *Pages*. <br> La recherche renvoie la citation correspondante la plus proche en fonction du texte saisi.</li> |
+   | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation sous forme de livre. | ****<br> Dans la liste déroulante, sélectionnez la source de la citation en tant que site Web. | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation en tant que Journal. |
+   | **Rechercher par** <br> Sélectionnez **ISBN** ou **DOI** dans la liste déroulante pour rechercher l’identifiant numérique associé à la citation.  <br> DOI : Identifiant d&#39;objet numérique <br> ISBN : Identifiant de livre numérique unique | **Rechercher par** <br> Sélectionnez **DOI** dans la liste déroulante pour rechercher l’identifiant numérique associé à la citation. | **Rechercher par** <ul><li>Sélectionnez **DOI** ou **ID PubMed** dans la liste déroulante pour rechercher l’ID numérique associé à la citation.</li><li>Sélectionnez **N’importe quel champ** dans la liste déroulante pour effectuer une recherche dans tous les champs Journal, tels que *Titre*, *Titre du journal*, *Auteur*, *Année*, *Volume*, *Number* et *Pages*. <br> La recherche renvoie la citation correspondante la plus proche en fonction du texte saisi.</li><li> Sélectionnez **Analyser la citation** dans la liste déroulante pour analyser une citation AMA prise en charge et remplir automatiquement les champs de citation. |
    | **Auteur** <br> ajoutez le prénom et le nom de l’auteur de la citation. Sélectionnez ![](images/Add_icon.svg) pour ajouter d’autres noms. | **Auteur** <br> ajoutez le prénom et le nom de l’auteur de la citation. Sélectionnez ![](images/Add_icon.svg) pour ajouter d’autres noms. | **Auteur** <br> ajoutez le prénom et le nom de l’auteur de la citation. Sélectionnez ![](images/Add_icon.svg) pour ajouter d’autres noms. |
    | **Titre** <br> ajoutez le titre du livre. | **Titre** <br> ajoutez le titre de la page web. | **Titre** <br> ajoutez le titre de l’article. |
    | **Éditeur** <br> Ajoutez l&#39;éditeur du livre. | **Nom du site web** <br> ajoutez le nom du site web. | **Titre du journal** <br> ajoutez le titre de l’œuvre dans laquelle se trouve l’article. |
@@ -111,7 +100,7 @@ Pour importer des citations, procédez comme suit :
 
    >[!NOTE]
    > <ol><li> Experience Manager Guides importe uniquement les citations uniques qui ne sont pas déjà présentes.
-   > &gt; <li> Experience Manager Guides peut importer des citations d’un livre, d’un journal ou d’un site web. Actuellement, il ne prend pas en charge les citations provenant d’autres sources.
+    &gt; <li> Experience Manager Guides peut importer des citations d’un livre, d’un journal ou d’un site web. Actuellement, il ne prend pas en charge les citations provenant d’autres sources.
 
 ## Gérer les citations
 
@@ -201,7 +190,7 @@ Vous pouvez insérer des citations sur le sujet à partir de la barre d’outils
 
 ### Dans la barre d’outils principale
 
-1. Sélectionnez l’icône ![&#128279;](images/citations-icon.svg) **Citations** citations dans la barre d’outils principale.
+1. Sélectionnez l’icône ](images/citations-icon.svg) **Citations** ![citations dans la barre d’outils principale.
 1. Dans la boîte de dialogue **Citations**, choisissez la citation. Vous pouvez également sélectionner plusieurs citations.
    ![boîte de dialogue de citation](images/citation-dialog-main-toolbar.png){width="300"}
 1. Vous pouvez filtrer les citations en tapant les premiers caractères alphabétiques dans le panneau de recherche de la boîte de dialogue **Citation**.
@@ -216,7 +205,7 @@ La citation sélectionnée est ajoutée à l&#39;emplacement du curseur dans vot
 > 
 >Pour afficher l’icône **Citations** dans le panneau de gauche, votre administrateur système doit activer l’option **Citations** dans l’onglet **Panneaux** dans **Paramètres**.
 
-1. Sélectionnez **Citations** ![icône de &#x200B;](images/citations-icon.svg) de citations dans le panneau de gauche.
+1. Sélectionnez **Citations** ![icône de ](images/citations-icon.svg) de citations dans le panneau de gauche.
 1. Faites glisser la citation à partir du panneau **Citations** et déposez-la à l’emplacement approprié dans la rubrique.
 
    Vous pouvez également sélectionner **Insérer** dans ![](images/options.svg) **Options** pour insérer une citation.

@@ -5,9 +5,9 @@ feature: Profiles
 role: Admin
 level: Experienced
 exl-id: 0292a9cd-0f94-4039-8758-1740106feb71
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cb82a816ac9513fcdf7a3ad32ed46f1e44c5a7f3
 workflow-type: tm+mt
-source-wordcount: '6078'
+source-wordcount: '6098'
 ht-degree: 0%
 
 ---
@@ -214,7 +214,7 @@ Si vous utilisez un attribut personnalisé, il doit s&#39;agir d&#39;un attribut
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Ajoutez l’attribut personnalisé au fichier DTD. Par exemple, si votre fichier DTD est commonElements.mod, vous devez localiser ce fichier dans le répertoire DTD. Le chemin d&#39;accès par défaut du fichier DTD système est :
 
@@ -224,11 +224,11 @@ Si vous utilisez un attribut personnalisé, il doit s&#39;agir d&#39;un attribut
    >
    > Le fichier DTD spécialisé doit faire partie du déploiement du code personnalisé. Les DTD situées sous /apps font partie du déploiement du produit. Elles sont donc remplacées lors de l’installation d’une nouvelle version. Il est recommandé d&#39;ajouter la DTD spécialisée sous /var/dxml/dita\_resources dans le dossier du projet et d&#39;inclure le chemin DTD/catalog dans le profil DITA.Pour plus d&#39;informations, voir [Intégrer la spécialisation DITA](dita-ot-specialization.md#id211MB0E00XA).
 
-1. Utilisez le gestionnaire de packages pour télécharger le fichier /libs/fmdita/config/condAttrList.xml :
+1. Utilisez le gestionnaire de packages pour télécharger `/libs/fmdita/config/condAttrList.csv` fichier . Selon la version utilisée, le fichier `libs/fmdita/config/condAttrList.xml` peut également être disponible en téléchargement.
 
-1. Créez une copie du fichier condAttrList.xml à l’emplacement suivant dans votre référentiel Git Cloud Manager :
+1. Créez une copie du fichier `condAttrList.csv` à l’emplacement suivant dans votre référentiel Git Cloud Manager :
 
-   `/apps/fmdfmdita/config/condAttrList.xml`
+   `/apps/fmdfmdita/config/condAttrList.csv`
 
 1. Enregistrez le fichier.
 
@@ -252,15 +252,17 @@ Si vous utilisez un attribut personnalisé, il doit s&#39;agir d&#39;un attribut
 
    Cela effacera le cache système.
 
-1. Accédez au fichier condAttrList.xml disponible à l’emplacement suivant :
+1. Accédez au fichier `condAttrList.csv` disponible à l’emplacement suivant :
 
-   /libs/fmdita/config/condAttrList.xml
+   `/libs/fmdita/config/condAttrList.csv`
+
+   Selon la version utilisée, le fichier `libs/fmdita/config/condAttrList.xml` peut également être disponible au même emplacement.
 
 1. Créez un nœud de recouvrement du dossier `config` dans le nœud `apps` .
 
 1. Accédez à et ajoutez les attributs personnalisés au fichier condAttrList.xml dans le nœud `apps` :
 
-   `/apps/fmdita/config/condAttrList.xml`
+   `/apps/fmdita/config/condAttrList.csv`
 
 1. Enregistrez le fichier.
 
@@ -275,7 +277,7 @@ Les onglets suivants fournissent des instructions pour configurer les modèles d
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 AEM Guides est fourni avec 7 modèles de rubrique prêts à l&#39;emploi, 2 modèles de plan DITA et 3 modèles PDF. Vous pouvez choisir de ne laisser que quelques modèles à la disposition des auteurs et des éditeurs. Si vous utilisez un modèle personnalisé, celui-ci peut être configuré et mis à disposition pour la création et la publication. Utilisez l’onglet **Modèles** dans la configuration des profils de dossier pour ajouter ou supprimer des modèles de rubrique, de mappage ou de PDF des profils globaux ou au niveau du dossier.
 
@@ -519,7 +521,7 @@ Pour Experience Manager Guides as a Cloud Service (![](assets/aem-cloud-icon.svg
 
 L’assistant AI d’Adobe Experience Manager Guides est un puissant outil piloté par l’IA conçu pour améliorer votre contenu grâce à des expériences de création et de réutilisation de contenu intelligentes. Il associe deux puissantes fonctionnalités d’IA (**Création** et **Aide**) à l’interface de Experience Manager Guides, ce qui vous permet de créer des documents et d’accéder aux informations plus rapidement et plus efficacement.
 
-Pour plus d’informations sur la configuration, voir [&#x200B; Configuration de l’assistant AI &#x200B;](./conf-smart-suggestions.md).
+Pour plus d’informations sur la configuration, voir [ Configuration de l’assistant AI ](./conf-smart-suggestions.md).
 
 **Configurer des suggestions intelligentes optimisées par l’IA**
 
@@ -527,7 +529,7 @@ Vous pouvez configurer les suggestions intelligentes optimisées par l’IA et a
 
 Effectuez les étapes suivantes pour configurer la configuration d’IA standard au niveau du profil global ou du dossier :
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur ou utilisateur disposant de droits d’administration sur un profil au niveau du dossier.
-1. Sélectionnez le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
+1. Sélectionnez le lien **** en haut et choisissez **Outils**.
 1. Sélectionnez **Guides** dans la liste des outils, puis sélectionnez la mosaïque **Profils de dossier**.
 1. Sélectionnez la mosaïque de profil à configurer.
 
@@ -603,7 +605,7 @@ Pour que les suggestions intelligentes fonctionnent efficacement, tenez compte d
 
 Pour Experience Manager Guides as a Cloud Service (![](assets/aem-cloud-icon.svg) cloud AEM).
 
-Vous pouvez configurer l’aide intelligente optimisée par l’IA **Aide** pour aider les auteurs à poser des questions et à rechercher facilement le contenu requis à partir de la documentation de [Experience Manager Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/overview).
+Vous pouvez configurer l’aide intelligente optimisée par l’IA **Aide** pour aider les auteurs à poser des questions et à rechercher facilement le contenu requis à partir de la documentation de [Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 L’onglet **Configuration de l’éditeur XML** vous permet de configurer les questions par défaut du panneau **Aide**.
 
@@ -614,7 +616,7 @@ L’onglet **Configuration de l’éditeur XML** vous permet de configurer les q
 Pour configurer les questions par défaut, procédez comme suit :
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur ou utilisateur disposant de droits d’administration sur un profil au niveau du dossier.
-1. Sélectionnez le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
+1. Sélectionnez le lien **** en haut et choisissez **Outils**.
 1. Sélectionnez **Guides** dans la liste des outils, puis sélectionnez la mosaïque **Profils de dossier**.
 1. Sélectionnez la mosaïque de profil à configurer.
 
@@ -656,11 +658,11 @@ Les onglets suivants fournissent des informations en fonction de la configuratio
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Ce paramètre vous permet de créer des extensions JSON qui reflètent les modifications apportées au fichier `ui_config.json`. Vous pouvez charger ces extensions indépendamment au niveau du profil du dossier, offrant ainsi une flexibilité et une personnalisation améliorées. Par exemple, lorsque vous apportez des modifications à la configuration de l’éditeur **XML**, comme la mise à jour d’un bouton, le système identifie automatiquement les différences. En chargeant ces modifications dans la **Configuration de l’interface utilisateur de l’éditeur XML** et en les convertissant en extensions JSON à l’aide du bouton **Convertir la configuration de l’interface utilisateur en JSON**, le système génère une extension qui incorpore la nouvelle fonctionnalité.
 
-En savoir plus sur [la personnalisation des configurations JSON et la conversion des configurations de l’interface utilisateur pour le nouvel éditeur AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+En savoir plus sur [la personnalisation des configurations JSON et la conversion des configurations de l’interface utilisateur pour le nouvel éditeur AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >
