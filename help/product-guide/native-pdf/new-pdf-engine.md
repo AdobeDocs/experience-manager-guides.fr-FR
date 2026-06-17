@@ -4,29 +4,14 @@ description: Découvrez comment utiliser le nouveau moteur de publication pour l
 feature: Publishing, Native PDF Output
 role: User
 TQID: https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: afb45297-4313-4f67-818e-bc0b03abe086
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: d6596f3f-92a7-43ec-b444-237db6adad05
-  - id: f6b497f1-f8e0-42ce-8e95-56c28d94026e
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 010a11e20d518064549ce7d66648586f49f572ec
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05id: f6b497f1-f8e0-42ce-8e95-56c28d94026eid: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 2b6a0f1a6ac03984286e9d3df40c197f28d52f8d
 workflow-type: tm+mt
-source-wordcount: 913
+source-wordcount: 844
 ht-degree: 0%
 
 ---
@@ -47,46 +32,16 @@ Si vous souhaitez préserver l’aspect de la sortie PDF générée par le moteu
 
 | Description | Mise à jour CSS recommandée |
 |-------------|------------------------------------------------|
-| Les images mises à l’échelle peuvent apparaître différemment en raison des modifications du comportement de rendu des images. | Pour restaurer le comportement de rendu d’image, ajoutez : <br><br><pre><code> « css
-rendu de l&#39;image: pixellisé;
-«</code></pre> |
+| Les images mises à l’échelle peuvent apparaître différemment en raison des modifications du comportement de rendu des images. | Pour restaurer le comportement de rendu d’image, ajoutez : <br><br> `image-rendering: pixelated` |
 | L&#39;alignement de la ligne de repère de la table des matières peut être légèrement différent en raison de changements dans le comportement de rendu de la ligne de repère. | Pour restaurer l&#39;alignement des lignes de repère de la table des matières, ajustez le style des éléments de ligne de repère de la table des matières dans votre feuille de style personnalisée. Les modifications CSS requises peuvent varier en fonction de la disposition et de la mise en forme de la table des matières. |
-| L’espacement du texte et l’habillage des lignes peuvent différer en raison de modifications dans le rendu de la police et le traitement de la disposition des glyphes. | Si votre feuille de style utilise la `sans-serif` famille de polices ou des polices qui présentent des différences d&#39;espacement, ajoutez :<br><br><pre><code> « css
-body { -ro-glyph-layout-mode: quality; }
-«</code></pre> |
-| Les références de note de bas de page peuvent ne plus apparaître comme des indicateurs d’exposant en raison des modifications apportées au style de note de bas de page par défaut. | Pour restaurer les marques de bas de page de style exposant, ajoutez :<br><br><pre><code> « css
-.fn::note-de-bas de page &lbrace;
-  contenu : counter(note de bas de page) «   »;
-  vertical-align: super;
-  taille de police : 65 %;
-&rbrace;
-«</code></pre> |
-| Le texte souligné peut apparaître avec un espace plus grand entre le texte et le soulignement en raison des modifications du positionnement du soulignement. | Pour rétablir le positionnement du soulignement, utilisez la propriété `text-underline-offset` et ajustez la valeur de décalage selon vos besoins. Par exemple :<br><br><pre><code> « css
-text-decoration : souligné ;
-text-underline-offset: -0.1em;
-«</code></pre> |
-| L’espacement entre les marqueurs de liste et le texte de l’élément de liste peut différer en raison de modifications du comportement de rendu de la liste. | Pour rétablir l’espacement, augmentez la marge intérieure gauche des éléments de liste. Par exemple :<br><br><pre><code> « css
-.step &lbrace;
-  margin-top : 0,3 rem ;
-  marge inférieure : 0,5 rem ;
-  marge intérieure gauche : calc(1,5 rem + 1 ch);
-&rbrace;
-«</code></pre> |
-| L’espacement avant les en-têtes peut différer en raison des changements de comportement de réduction de marge. | Pour rétablir l&#39;espacement, passez en revue les marges des éléments adjacents et réduisez ou supprimez le chevauchement des marges supérieure et inférieure si nécessaire. Par exemple :<br><br><pre><code> « css
-h1.chapter { margin-top : 0 ; }
-.chaptoc-body { margin-bottom : 0 ; }
-«</code></pre> |
-| Les marques de coche générées avec CSS peuvent apparaître avec des tailles ou des styles différents, car elles sont rendues à l’aide de différentes polices de secours. | Pour effectuer le rendu des marques de manière cohérente, utilisez une famille de polices contenant les deux glyphes. Par exemple :<br><br><pre><code> « css
-::marker &lbrace;
-  font-family : -ro-symbols !important ;
-&rbrace;
-«</code></pre> |
+| L’espacement du texte et l’habillage des lignes peuvent différer en raison de modifications dans le rendu de la police et le traitement de la disposition des glyphes. | Si votre feuille de style utilise la `sans-serif` famille de polices ou des polices qui présentent des différences d&#39;espacement, ajoutez :<br><br> `-ro-glyph-layout-mode: quality;` |
+| Les références de note de bas de page peuvent ne plus apparaître comme des indicateurs d’exposant en raison des modifications apportées au style de note de bas de page par défaut. | Pour restaurer les marques de bas de page de style exposant, ajoutez :<br><br>`.fn::footnote-marker` <br> `{ content: counter(footnote) " ";`<br> `vertical-align: super;`<br>`font-size: 65%;}` |
+| Le texte souligné peut apparaître avec un espace plus grand entre le texte et le soulignement en raison des modifications du positionnement du soulignement. | Pour rétablir le positionnement du soulignement, utilisez la propriété `text-underline-offset` et ajustez la valeur de décalage selon vos besoins. Par exemple :<br><br>`text-decoration: underline;`<br>`text-underline-offset: -0.1em;` |
+| L’espacement entre les marqueurs de liste et le texte de l’élément de liste peut différer en raison de modifications du comportement de rendu de la liste. | Pour rétablir l’espacement, augmentez la marge intérieure gauche des éléments de liste. Par exemple :<br><br>`.step {`<br> ` margin-top: 0.3rem;`<br> `margin-bottom: 0.5rem;`<br> `padding-left: calc(1.5rem + 1ch);}` |
+| L’espacement avant les en-têtes peut différer en raison des changements de comportement de réduction de marge. | Pour rétablir l&#39;espacement, passez en revue les marges des éléments adjacents et réduisez ou supprimez le chevauchement des marges supérieure et inférieure si nécessaire. Par exemple :<br><br>`h1.chapter { `<br> `margin-top: 0;` <br>`}`<br>`chaptoc-body { margin-bottom: 0;`<br>` }` |
+| Les marques de coche générées avec CSS peuvent apparaître avec des tailles ou des styles différents, car elles sont rendues à l’aide de différentes polices de secours. | Pour effectuer le rendu des marques de manière cohérente, utilisez une famille de polices contenant les deux glyphes. Par exemple :<br><br>`::marker {`<br> `font-family: -ro-symbols !important;}` |
 | Les marqueurs de liste circulaire générés par CSS peuvent apparaître partiellement tronqués ou tronqués en raison de changements dans le comportement de positionnement des marqueurs. | Pour rétablir l’aspect des marques de liste circulaire, évitez d’utiliser le positionnement absolu pour la marque. Si un positionnement absolu est requis, spécifiez explicitement une valeur de `top` appropriée pour positionner correctement le marqueur. |
-| L’ordre de lecture des éléments de liste dans la sortie PDF/UA peut différer lorsque les éléments de liste utilisent des styles de positionnement tels que `position: relative`. | Pour que l’ordre de lecture suive plus étroitement la structure du document source, appliquez la propriété CSS suivante aux éléments de liste <br><br><pre><code> « css
-li &lbrace;
-  -ro-peinture-réorganisation : éviter ;
-&rbrace;
-«</code></pre> |
+| L’ordre de lecture des éléments de liste dans la sortie PDF/UA peut différer lorsque les éléments de liste utilisent des styles de positionnement tels que `position: relative`. | Pour que l’ordre de lecture suive plus étroitement la structure du document source, appliquez la propriété CSS suivante aux éléments de liste <br><br>`li {`<br>`-ro-paint-reordering: avoid;}` |
 
 
 ## Solutions pour les problèmes connus
