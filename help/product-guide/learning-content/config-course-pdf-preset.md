@@ -5,10 +5,18 @@ feature: Authoring
 role: User
 exl-id: 52bc8f90-e4ae-4e83-bb1c-9d152fa9bb65
 TQID: https://experienceleague.adobe.com/NX3LuUjSmQKtirXc1iaJVZziVIvuDqANXwqPTi-1LIo
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: f7c0b10f032c2584fb6e951da898faaeb4ca7aaf
 workflow-type: tm+mt
 source-wordcount: 3002
@@ -43,7 +51,7 @@ Utilisez l’onglet Métadonnées pour définir les champs de métadonnées tels
 
 Ces métadonnées sont mappées aux métadonnées dans l’onglet **Description** de la **Propriétés du document** du PDF de sortie.
 
-Dans les paramètres prédéfinis de sortie, sélectionnez **** > **Native-PDF** > **Métadonnées** pour ajouter et personnaliser des options de métadonnées.
+Dans les paramètres prédéfinis de sortie, sélectionnez **&#x200B;**&#x200B;> **Native-PDF** > **Métadonnées** pour ajouter et personnaliser des options de métadonnées.
 
 * **Utiliser les métadonnées ajoutées dans topicmeta**
 
@@ -51,7 +59,7 @@ Dans les paramètres prédéfinis de sortie, sélectionnez **** > **Native-PDF**
 
 * **Fournir un fichier XMP**
 
-  Vous pouvez également remplir directement les champs de métadonnées en important le fichier [](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform). Vous pouvez télécharger un exemple de fichier XMP ici.
+  Vous pouvez également remplir directement les champs de métadonnées en important le fichier [&#128279;](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform). Vous pouvez télécharger un exemple de fichier XMP ici.
 
   [Téléchargement](assets/SampleXMP.xmp)
 

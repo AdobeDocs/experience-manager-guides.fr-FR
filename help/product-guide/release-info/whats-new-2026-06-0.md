@@ -47,9 +47,9 @@ Pour plus d’informations sur **le moteur PDF natif v2**, consultez la page [Ut
 
 Experience Manager Guides prend désormais en charge le style de citation de l’American Medical Association (AMA), en étendant le cadre de citation existant pour répondre aux normes de documentation requises par les clients des secteurs de la santé, de la réglementation et des sciences de la vie.
 
-Lorsque AMA est sélectionné comme style de citation dans les paramètres ****, les citations sont automatiquement formatées conformément aux directives AMA, y compris le rendu numérique d&#39;exposant, la numérotation séquentielle et l&#39;ordre précis de la liste de référence. L’option **Analyser les citations** dans l’éditeur de texte enrichi est disponible exclusivement lorsque l’option AMA est sélectionnée, ce qui permet aux auteurs d’ajouter et d’analyser les citations sans changer de contexte.
+Lorsque AMA est sélectionné comme style de citation dans les paramètres **&#x200B;**, les citations sont automatiquement formatées conformément aux directives AMA, y compris le rendu numérique d&#39;exposant, la numérotation séquentielle et l&#39;ordre précis de la liste de référence. L’option **Analyser les citations** dans l’éditeur de texte enrichi est disponible exclusivement lorsque l’option AMA est sélectionnée, ce qui permet aux auteurs d’ajouter et d’analyser les citations sans changer de contexte.
 
-Le style de citation AMA est pris en charge dans les formats de sortie Native PDF et AEM Sites. Pour configurer le style de citation, accédez aux paramètres de **** puis sélectionnez AMA dans les options de style de citation. Pour plus d’informations, consultez la section [Utilisation de citations](../user-guide/web-editor-apply-citations.md).
+Le style de citation AMA est pris en charge dans les formats de sortie Native PDF et AEM Sites. Pour configurer le style de citation, accédez aux paramètres de **&#x200B;**&#x200B;puis sélectionnez AMA dans les options de style de citation. Pour plus d’informations, consultez la section [Utilisation de citations](../user-guide/web-editor-apply-citations.md).
 
 
 ### Prise en charge des sources de données externes et des citations désormais disponibles dans le nouvel éditeur
