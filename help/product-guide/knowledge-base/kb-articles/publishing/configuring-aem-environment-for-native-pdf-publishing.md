@@ -5,11 +5,20 @@ exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
 feature: Native PDF Output
 role: User, Admin
 TQID: https://experienceleague.adobe.com/SLuPn9YigAcHvcSEdrbbQOz29Y6DeWGYnWktWY9L9nQ
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d6596f3f-92a7-43ec-b444-237db6adad05
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
 source-wordcount: 911
@@ -111,13 +120,13 @@ Le moteur de publication natif de PDF a besoin du JDK Oracle pour générer les 
 
 10. Si la commande unzip n’est pas installée/reconnue, elle peut être installée à l’aide de la commande suivante
 
-   **yum install unzip**
+    **yum install unzip**
 
 11. Installez le package fontconfig.
 Commande : yum install fontconfig
 12. Générez un PDF natif à partir de paramètres prédéfinis dans l’éditeur.
 
-**REMARQUE** : le package node_modules.zip peut être téléchargé [ici](:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
+**REMARQUE** : le package node_modules.zip peut être téléchargé [ici] (:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
 
 L’importation manuelle des modules de nœud téléchargés pour le système d’exploitation Linux est une solution de contournement pour les utilisateurs qui utilisent Guides 4.1 ou des versions antérieures (étapes 6 à 12)
 
@@ -181,7 +190,7 @@ Si le problème persiste même après la correction des paramètres de l’envir
 
 ### Bibliothèques manquantes dans RHEL 7 Linux OS
 
-![bibliothèques manquantes ](../assets/publishing/missing-libraries.png)
+![bibliothèques manquantes &#x200B;](../assets/publishing/missing-libraries.png)
 
 ### Délai d’expiration du processus de publication. Le processus ne s&#39;est pas terminé dans le délai donné de 0ms
 
