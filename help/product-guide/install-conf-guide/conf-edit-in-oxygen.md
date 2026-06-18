@@ -4,9 +4,10 @@ description: Découvrez comment configurer l’option de modification dans le pl
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+exl-id: 41ecbbb2-81c3-473d-b48b-7370a74a6474
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 1%
 
 ---
@@ -25,6 +26,6 @@ Suivez les instructions fournies dans [Remplacements de la configuration](downlo
 
 >[!NOTE]
 >
-> Cette configuration est désactivée par défaut et l’option n’est pas disponible dans l’éditeur web.
+> Cette configuration est désactivée par défaut et l’option n’est pas disponible dans l’éditeur.
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](customize-overview.md)
+**Rubrique parente :**[ Personnaliser l’éditeur](customize-overview.md)

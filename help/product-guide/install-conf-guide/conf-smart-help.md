@@ -2,16 +2,16 @@
 title: Configuration de l’aide dynamique pour rechercher du contenu
 description: Découvrez comment configurer l’aide dynamique pour rechercher du contenu.
 exl-id: 5ebda503-066a-428e-bff4-1a1e91ada917
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
 
 # Configurer l’aide intelligente optimisée par l’IA pour rechercher du contenu pour Cloud Service
 
-En tant qu’administrateur, vous pouvez configurer la fonction d’aide dynamique pour les auteurs. Le service d’aide dynamique est sécurisé par l’authentification basée sur l’authentification Adobe IMS. Intégrez votre environnement aux workflows d’authentification basée sur les jetons sécurisés d’Adobe et commencez à utiliser la nouvelle fonctionnalité d’aide dynamique. Les configurations suivantes vous aident à ajouter l’onglet **Configuration de l’IA** à un profil de dossier. Une fois l’ajout effectué, vous pouvez utiliser la fonction Aide dynamique dans l’éditeur web.
+En tant qu’administrateur, vous pouvez configurer la fonction d’aide dynamique pour les auteurs. Le service d’aide dynamique est sécurisé par l’authentification basée sur l’authentification Adobe IMS. Intégrez votre environnement aux workflows d’authentification basée sur les jetons sécurisés d’Adobe et commencez à utiliser la nouvelle fonctionnalité d’aide dynamique. Les configurations suivantes vous aident à ajouter l’onglet **Configuration de l’IA** à un profil de dossier. Une fois l’ajout effectué, vous pouvez utiliser la fonction Aide dynamique dans l’éditeur.
 
 ## Création de configurations IMS dans Adobe Developer Console
 
@@ -21,7 +21,7 @@ Pour créer des configurations IMS dans Adobe Developer Console, procédez comme
 >
 >Si vous avez déjà créé un projet OAuth pour configurer la fonctionnalité de suggestions intelligentes ou la publication basée sur un microservice, vous pouvez ignorer les étapes suivantes pour créer le projet. Vous pouvez commencer par l’étape 8.
 
-1. Lancer [&#128279;](https://developer.adobe.com/console).
+1. Lancer [](https://developer.adobe.com/console).
 1. Une fois la connexion à Developer Console établie, l’écran **Accueil** s’affiche. L’écran **Accueil** vous permet de trouver facilement des informations et des liens rapides, y compris des liens de navigation supérieure vers les projets et les téléchargements.
 1. Pour créer un projet vide, sélectionnez **Créer un projet** parmi les liens **Démarrage rapide**.
    ![Liens de démarrage rapide](assets/conf-ss-quick-start.png) {width="550"}
@@ -34,14 +34,14 @@ Pour créer des configurations IMS dans Adobe Developer Console, procédez comme
    *Ajoutez l’API I/O Management à votre projet.*
 
 1. Créez des informations d’identification **OAuth** et enregistrez-les.
-   ![&#x200B; Mosaïque d’informations d’identification OAuth dans la configuration de l’API &#x200B;](assets/conf-ss-OAuth-credential.png) {width="3000"}
+   ![ Mosaïque d’informations d’identification OAuth dans la configuration de l’API ](assets/conf-ss-OAuth-credential.png) {width="3000"}
    *Configurer les informations d’identification OAuth dans votre API.*
 
 1. Dans l’onglet **Projets**, choisissez l’option **OAuth de serveur à serveur** puis sélectionnez les informations d’identification nouvellement créées.
 
 1. Cliquez sur le lien **OAuth de serveur à serveur** pour afficher les informations d’identification de votre projet.
 
-   ![&#x200B; informations d’identification connectées &#x200B;](assets/conf-ss-connected-credentials.png) {width="800"}
+   ![ informations d’identification connectées ](assets/conf-ss-connected-credentials.png) {width="800"}
 
    *Connectez-vous au projet pour afficher les informations d’identification.*
 
@@ -105,5 +105,5 @@ Une fois cette opération effectuée, vous devriez être en mesure d’utiliser 
 ```
 
 
-Une fois la configuration effectuée, l’icône **Aide dynamique** ![Aide dynamique](assets/smart-help-icon.svg) s’affiche dans le panneau droit de l’éditeur web. Sélectionnez l’icône pour afficher le panneau **Aide dynamique**.
+Une fois la configuration effectuée, l’icône **Aide dynamique** ![Aide dynamique](assets/smart-help-icon.svg) s’affiche dans le panneau droit de l’éditeur. Sélectionnez l’icône pour afficher le panneau **Aide dynamique**.
 Pour plus d’informations, consultez la section Aide intelligente optimisée par [IA pour rechercher du contenu](../user-guide/ai-based-smart-help.md) dans le Guide de l’utilisateur d’Experience Manager.

@@ -4,9 +4,10 @@ description: Découvrez comment configurer l’affichage des liens basés sur l�
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: d2383230-ff8f-4e9b-a529-9b9d167ebf90
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
@@ -19,7 +20,7 @@ Les onglets suivants fournissent des instructions pour afficher le chemin d’ac
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour afficher le chemin d’accès relatif ou l’UUID du contenu référencé dans l’éditeur.
 
@@ -48,4 +49,4 @@ Suivez les instructions fournies dans [Remplacements de la configuration](downlo
 
 >[!ENDTABS]
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](customize-overview.md)
+**Rubrique parente :**[ Personnaliser l’éditeur](customize-overview.md)

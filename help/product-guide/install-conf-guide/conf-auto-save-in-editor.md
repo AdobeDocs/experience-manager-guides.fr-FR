@@ -1,28 +1,28 @@
 ---
-title: Configuration de l’enregistrement automatique des fichiers dans l’éditeur web
-description: Découvrez comment configurer l’enregistrement automatique des fichiers dans l’éditeur web
+title: Configuration de l’enregistrement automatique des fichiers dans l’éditeur
+description: Découvrez comment configurer l’enregistrement automatique des fichiers dans l’éditeur
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 142a588a-3d26-48ee-a3fe-23882922243c
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
 
-# Configuration de l’enregistrement automatique des fichiers dans l’éditeur web {#id199CC0J0M5Z}
+# Configuration de l’enregistrement automatique des fichiers dans l’éditeur {#id199CC0J0M5Z}
 
-L’une des fonctionnalités les plus courantes de l’éditeur basé sur un navigateur est la possibilité d’enregistrer les données après une période spécifique. AEM Guides Web Editor prend également en charge l’enregistrement automatique des fichiers de rubrique et de mappage à l’intervalle de temps spécifié. Lorsque cette fonctionnalité est déclenchée, la copie de travail de la rubrique ou du mappage est enregistrée. Aucune nouvelle version de la rubrique ou du mappage n&#39;est créée. Pour créer une nouvelle version, vous devez cliquer sur l’icône Enregistrer la révision dans la barre d’outils de l’éditeur web.
+L’une des fonctionnalités les plus courantes de l’éditeur basé sur un navigateur est la possibilité d’enregistrer les données après une période spécifique. L’éditeur AEM Guides prend également en charge l’enregistrement automatique des fichiers de rubrique et de mappage à l’intervalle de temps spécifié. Lorsque cette fonctionnalité est déclenchée, la copie de travail de la rubrique ou du mappage est enregistrée. Aucune nouvelle version de la rubrique ou du mappage n&#39;est créée. Pour créer une nouvelle version, vous devez cliquer sur l’icône Enregistrer la révision dans la barre d’outils de l’éditeur.
 
 La fonction d’enregistrement automatique n’est pas activée par défaut et vous devez l’activer à l’aide du fichier de configuration pour Cloud Service et depuis le `configMgr` pour On-Premise .
 
-Les onglets suivants fournissent des instructions pour activer la fonction d’enregistrement automatique dans l’éditeur web en fonction de votre configuration Experience Manager Guides : Cloud Service ou On-Premise.
+Les onglets suivants fournissent des instructions pour activer la fonction d’enregistrement automatique dans l’éditeur en fonction de votre configuration Experience Manager Guides : Cloud Service ou On-Premise.
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(propriété\) suivants pour configurer l’enregistrement automatique du fichier et l’intervalle de temps d’enregistrement automatique :
 

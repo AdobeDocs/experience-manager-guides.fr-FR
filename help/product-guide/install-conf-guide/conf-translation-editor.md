@@ -1,27 +1,27 @@
 ---
-title: Configuration de la fonctionnalité de traduction dans l’éditeur web
-description: Découvrez comment configurer la fonctionnalité de traduction dans l’éditeur web
+title: Configuration de la fonctionnalité de traduction dans l’éditeur
+description: Découvrez comment configurer la fonctionnalité de traduction dans l’éditeur
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 22d7e1c7-2059-43fb-b7aa-3ae4a6072678
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
-# Configuration de la fonctionnalité de traduction dans l’éditeur web pour Cloud Service
+# Configuration de la fonctionnalité de traduction dans l’éditeur pour Cloud Service
 
-L’éditeur web offre une puissante fonctionnalité de traduction pour traduire votre contenu dans plusieurs langues.
+L’éditeur fournit une puissante fonctionnalité de traduction permettant de traduire votre contenu dans plusieurs langues.
 
-Vous pouvez utiliser l’onglet **Gérer** dans l’éditeur web pour traduire votre contenu. Cet onglet est disponible par défaut.
+Vous pouvez utiliser l’onglet **Gérer** dans l’éditeur pour traduire votre contenu. Cet onglet est disponible par défaut.
 
-Pour masquer l’onglet **Gérer** dans l’éditeur web, procédez comme suit :
+Pour masquer l’onglet **Gérer** dans l’éditeur, procédez comme suit :
 
-1. Connectez-vous à **&#x200B;**&#x200B;en tant qu&#39;administrateur.
-1. Cliquez sur le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
+1. Connectez-vous à **** en tant qu&#39;administrateur.
+1. Cliquez sur le lien **** en haut et choisissez **Outils**.
 1. Sélectionnez **Guides** dans la liste des outils, puis cliquez sur le **Profils de dossier**.
 1. Cliquez sur la mosaïque **Profil global**.
 1. Cliquez sur **Configuration de l’éditeur XML**.
@@ -48,4 +48,4 @@ Pour masquer l’onglet **Gérer** dans l’éditeur web, procédez comme suit :
 
 Notez que le filtre **Gérer** n’est plus disponible.
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](customize-overview.md)
+**Rubrique parente :**[ Personnaliser l’éditeur](customize-overview.md)

@@ -5,9 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: f37cd341-aa8b-4af0-9a40-1d034eea3be6
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -157,6 +157,6 @@ Exemple de fichier :
 
 
 
-Lors de la publication des fragments d’expérience à partir de l’éditeur web, sélectionnez le `Template` dans la liste déroulante de la boîte de dialogue **Générer un fragment d’expérience** pour afficher le mappage disponible pour le modèle dans le champ **Mappage**. Si aucun mappage personnalisé n’est présent pour un modèle, le mappage par défaut est répertorié. Vous pouvez utiliser le mappage par défaut pour publier la rubrique entière en tant que fragment d’expérience.
+Lors de la publication des fragments d’expérience à partir de l’éditeur, sélectionnez le `Template` dans la liste déroulante de la boîte de dialogue **Générer un fragment d’expérience** pour afficher le mappage disponible pour le modèle dans le champ **Mappage**. Si aucun mappage personnalisé n’est présent pour un modèle, le mappage par défaut est répertorié. Vous pouvez utiliser le mappage par défaut pour publier la rubrique entière en tant que fragment d’expérience.
 
 Pour plus d’informations, consultez [Publication de fragments d’expérience](../user-guide/publish-experience-fragment.md).

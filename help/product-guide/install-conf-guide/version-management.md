@@ -5,9 +5,9 @@ feature: Version Management
 role: Admin
 level: Experienced
 exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '2309'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Les onglets suivants fournissent des instructions pour activer l’option **Cré
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration.
 1. Dans le fichier de configuration, fournissez les détails \(propriété\) suivants pour configurer l’option **Créer une nouvelle version pour le fichier chargé** :
@@ -74,7 +74,7 @@ Les onglets suivants fournissent des instructions pour activer l’option **Cré
 
 ## Configurer les paramètres pour autoriser la modification des fichiers extraits
 
-L&#39;éditeur Web d&#39;AEM Guides vous permet de créer et de mettre à jour des rubriques DITA. Vous pouvez configurer l’éditeur web afin de permettre la modification des seuls documents qui ont été extraits du référentiel. Ainsi, aucun autre rédacteur ne remplace accidentellement un sujet ouvert pour modification par un autre rédacteur. Une fois qu’une rubrique est ouverte pour modification, un auteur peut archiver le fichier au moment de sa fermeture.
+L&#39;éditeur AEM Guides vous permet de créer et de mettre à jour des rubriques DITA. Vous pouvez configurer l’éditeur pour autoriser la modification des seuls documents qui ont été extraits du référentiel. Ainsi, aucun autre rédacteur ne remplace accidentellement un sujet ouvert pour modification par un autre rédacteur. Une fois qu’une rubrique est ouverte pour modification, un auteur peut archiver le fichier au moment de sa fermeture.
 
 Une autre règle importante consiste à s’assurer que les fichiers qui ont été extraits sont de nouveau archivés dans le système. Cela empêche les utilisateurs de fermer accidentellement les fichiers sans les archiver à nouveau.
 
@@ -82,7 +82,7 @@ Les onglets suivants fournissent des instructions pour configurer les paramètre
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer la modification des fichiers extraits :
 
@@ -138,7 +138,7 @@ Les onglets suivants fournissent des instructions permettant aux utilisateurs de
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration.
 1. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer l’option **Remplacer le fichier extrait lors du chargement** :
@@ -179,7 +179,7 @@ Les onglets suivants fournissent des instructions pour empêcher les utilisateur
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour empêcher les utilisateurs de supprimer accidentellement des fichiers extraits :
 
@@ -242,7 +242,7 @@ Les onglets suivants fournissent des instructions pour définir qui peut supprim
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les informations \(property\) suivantes pour définir qui peut supprimer un fichier contenant des références ou référencé par d’autres fichiers :
 
@@ -314,7 +314,7 @@ Pour purger les anciennes versions, procédez comme suit :
 
    ![](assets/preview-purge-report.png)
 
-1. &#x200B;
+1. 
    - **Nombre de versions à conserver à partir de la dernière version** : saisissez le nombre de versions à conserver et à ne pas purger. Par exemple, si nous entrons 5 , les 5 dernières versions sont conservées, et les versions antérieures sont qualifiées pour être purgées si d’autres conditions de purge sont remplies.
    - **Conserver les versions créées dans la période \(En jours\)** : saisissez l’âge maximal d’une version en jours. Les versions antérieures au nombre de jours donné peuvent être purgées si d’autres conditions de purge sont remplies. Par exemple, si nous entrons 100, toutes les versions créées avant 100 jours peuvent être purgées si d’autres conditions de purge sont remplies.
    - **Chemin d’accès** : sélectionnez le chemin d’accès du fichier ou du dossier dont vous souhaitez purger les fichiers.

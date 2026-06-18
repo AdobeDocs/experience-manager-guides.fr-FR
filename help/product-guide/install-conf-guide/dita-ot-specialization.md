@@ -5,9 +5,9 @@ feature: DITA-OT Configuration
 role: Admin
 level: Experienced
 exl-id: 4a5ba148-da31-4751-943d-624165c66429
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '3729'
+source-wordcount: '3728'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Les onglets suivants fournissent des instructions sur l’utilisation de modules
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Vous pouvez utiliser le plug-in DITA-OT personnalisé pour la publication en chargeant le plug-in DITA-OT personnalisé dans le référentiel AEM. Par défaut, AEM Guides s’accompagne d’un profil préconfiguré qui contient les configurations des modèles par défaut à utiliser pour la modification et la publication de contenu. Vous pouvez créer des profils personnalisés avec des modèles personnalisés à utiliser lors de l&#39;édition de documents et des plug-ins DITA-OT personnalisés pour publier du contenu.
 
@@ -209,14 +209,14 @@ Vous pouvez utiliser la fonction Profil pour stocker les paramètres personnalis
 
 >[!NOTE]
 >
-> L’éditeur web d’AEM Guides ne prend pas en charge les schémas XSD.
+> L’éditeur AEM Guides ne prend pas en charge les schémas XSD.
 
 Les onglets suivants fournissent des instructions pour intégrer la spécialisation DITA en fonction de votre configuration Experience Manager Guides : Cloud Service ou On-Premise.
 
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Pour créer un profil et le configurer afin d’utiliser des DTD et des fichiers XSD spécialisés dans votre AEM Guides, procédez comme suit :
 

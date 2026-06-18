@@ -5,22 +5,22 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 51099b42-706f-42b4-993e-7d9577b5a4f0
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 2%
+source-wordcount: '265'
+ht-degree: 3%
 
 ---
 
 # Personnaliser le dictionnaire par défaut d’AEM {#id209SD8000WU}
 
-L’éditeur web peut être configuré pour utiliser le vérificateur orthographique d’AEM ou le vérificateur orthographique du navigateur. Si vous choisissez de travailler avec le vérificateur orthographique d’AEM, vous avez la possibilité de définir votre liste de mots personnalisés. Ces mots personnalisés sont ensuite ajoutés au dictionnaire AEM et ne sont pas marqués \(comme incorrect\) dans l’éditeur web.
+L’éditeur peut être configuré pour utiliser le vérificateur orthographique d’AEM ou le vérificateur orthographique du navigateur. Si vous choisissez de travailler avec le vérificateur orthographique d’AEM, vous avez la possibilité de définir votre liste de mots personnalisés. Ces mots personnalisés sont ensuite ajoutés au dictionnaire AEM et ces mots ne sont pas marqués \(comme incorrect\) dans l’éditeur.
 
 Les onglets ci-dessous fournissent des instructions pour la création de votre liste de mots personnalisée, qui sont ajoutés dans le dictionnaire AEM en fonction de la configuration de Experience Manager Guides : Cloud Service ou On-Premise.
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Créez le fichier user\_dictionary.txt avec une liste de mots que vous souhaitez définir dans votre dictionnaire personnalisé.
 
@@ -37,7 +37,7 @@ Les onglets ci-dessous fournissent des instructions pour la création de votre l
    Validez les modifications et exécutez le pipeline Cloud Manager \(CI/CD\) pour déployer les modifications de configuration.
 
 
-Les auteurs doivent redémarrer leur session de l’éditeur web pour que la liste de mots personnalisés soit mise à jour dans le dictionnaire AEM.
+Les auteurs doivent redémarrer leur session d’éditeur pour que la liste de mots personnalisés soit mise à jour dans le dictionnaire AEM.
 
 >[!TAB  On-Premise ]
 
@@ -58,8 +58,8 @@ Les auteurs doivent redémarrer leur session de l’éditeur web pour que la lis
 1. Enregistrez et fermez le fichier.
 
 
-Les auteurs doivent redémarrer leur session de l’éditeur web pour que la liste de mots personnalisés soit mise à jour dans le dictionnaire AEM.
+Les auteurs doivent redémarrer leur session d’éditeur pour que la liste de mots personnalisés soit mise à jour dans le dictionnaire AEM.
 
 >[!ENDTABS]
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](customize-overview.md)
+**Rubrique parente :**[ Personnaliser l’éditeur](customize-overview.md)

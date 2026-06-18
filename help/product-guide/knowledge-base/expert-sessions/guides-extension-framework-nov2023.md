@@ -5,22 +5,14 @@ exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
 feature: Web Editor, Troubleshooting
 role: User, Admin
 TQID: https://experienceleague.adobe.com/6XYV9fBtBJiOAi2elIcZX3EC-fn22cfLCq2LrgpGJyg
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-subfeature_v2:
-  - id: d6596f3f-92a7-43ec-b444-237db6adad05
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 387
+source-wordcount: 386
 ht-degree: 1%
 
 ---
@@ -48,7 +40,7 @@ Au cours de cette session, vous avez découvert les éléments suivants :
 - Découvrez les interfaces qui peuvent être étendues à l’aide de ce framework d’extension
 - Comprendre ce qui est déjà disponible pour que vous puissiez facilement commencer à créer vos propres fonctionnalités personnalisées
 - Apprenez la personnalisation en prenant des exemples :
-   - Ajout d’une section d’aide et de support dans l’éditeur web
+   - Ajout d’une section d’aide et de support dans l’éditeur
    - Ajout d’un autre panneau de gauche, par exemple pour afficher les tâches de l’utilisateur actuel
    - Ajout d’un bouton de barre d’outils supplémentaire pour la rubrique/le mappage utilisant ce framework
    - Extension des informations affichées dans le panneau des propriétés de contenu de l’éditeur web : ajout d’informations de post-traitement pour indiquer si le post-traitement est effectué sur un fichier donné ou non
