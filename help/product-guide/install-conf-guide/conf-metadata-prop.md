@@ -17,7 +17,7 @@ Lorsqu’un fichier est modifié, toutes les modifications apportées aux champs
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails (propriété) suivants pour configurer l’option **Ignorer la propriété des métadonnées pour les versions incorrectes**.
 
@@ -70,4 +70,4 @@ AEM Guides inclut un ensemble par défaut de propriétés de métadonnées dans 
 
 Seules les propriétés de métadonnées qui ne sont pas incluses dans la liste d’exclusion sont prises en compte pour marquer la version d’un document comme sale.
 
-**Rubrique parente :**[ Personnaliser l’éditeur](customize-overview.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur](customize-overview.md)
