@@ -22,7 +22,7 @@ Les onglets suivants fournissent des instructions pour configurer les éléments
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer des identifiants d’élément générés automatiquement :
 
@@ -64,4 +64,4 @@ Pour configurer un modèle pour un identifiant généré automatiquement, créez
 
 >[!ENDTABS]
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur](customize-overview.md)
+**Rubrique parente :**[ Personnaliser l’éditeur](customize-overview.md)

@@ -5,16 +5,10 @@ exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/FHH8Sah-KUCBl7R3XRrKXgW3aNcaeTkzJnDqRBg6OWU
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 4eddfbe75d7dba679c1a414369394827162706f9
 workflow-type: tm+mt
 source-wordcount: 1890
@@ -65,7 +59,7 @@ Pour ajouter des citations, procédez comme suit :
 
    | Livre | Site Web | Journal |
    | --- | ---|---|
-   | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation sous forme de livre. | **&#x200B;**<br> Dans la liste déroulante, sélectionnez la source de la citation en tant que site Web. | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation en tant que Journal. |
+   | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation sous forme de livre. | ****<br> Dans la liste déroulante, sélectionnez la source de la citation en tant que site Web. | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation en tant que Journal. |
    | **Rechercher par** <br> Sélectionnez **ISBN** ou **DOI** dans la liste déroulante pour rechercher l’identifiant numérique associé à la citation.  <br> DOI : Identifiant d&#39;objet numérique <br> ISBN : Identifiant de livre numérique unique | **Rechercher par** <br> Sélectionnez **DOI** dans la liste déroulante pour rechercher l’identifiant numérique associé à la citation. | **Rechercher par** <ul><li>Sélectionnez **DOI** ou **ID PubMed** dans la liste déroulante pour rechercher l’ID numérique associé à la citation.</li><li>Sélectionnez **N’importe quel champ** dans la liste déroulante pour effectuer une recherche dans tous les champs Journal, tels que *Titre*, *Titre du journal*, *Auteur*, *Année*, *Volume*, *Number* et *Pages*. <br> La recherche renvoie la citation correspondante la plus proche en fonction du texte saisi.</li><li> Sélectionnez **Analyser la citation** dans la liste déroulante pour analyser une citation AMA prise en charge et remplir automatiquement les champs de citation. |
    | **Auteur** <br> ajoutez le prénom et le nom de l’auteur de la citation. Sélectionnez ![](images/Add_icon.svg) pour ajouter d’autres noms. | **Auteur** <br> ajoutez le prénom et le nom de l’auteur de la citation. Sélectionnez ![](images/Add_icon.svg) pour ajouter d’autres noms. | **Auteur** <br> ajoutez le prénom et le nom de l’auteur de la citation. Sélectionnez ![](images/Add_icon.svg) pour ajouter d’autres noms. |
    | **Titre** <br> ajoutez le titre du livre. | **Titre** <br> ajoutez le titre de la page web. | **Titre** <br> ajoutez le titre de l’article. |
@@ -106,7 +100,7 @@ Pour importer des citations, procédez comme suit :
 
    >[!NOTE]
    > <ol><li> Experience Manager Guides importe uniquement les citations uniques qui ne sont pas déjà présentes.
-   > &gt; <li> Experience Manager Guides peut importer des citations d’un livre, d’un journal ou d’un site web. Actuellement, il ne prend pas en charge les citations provenant d’autres sources.
+    &gt; <li> Experience Manager Guides peut importer des citations d’un livre, d’un journal ou d’un site web. Actuellement, il ne prend pas en charge les citations provenant d’autres sources.
 
 ## Gérer les citations
 
@@ -196,7 +190,7 @@ Vous pouvez insérer des citations sur le sujet à partir de la barre d’outils
 
 ### Dans la barre d’outils principale
 
-1. Sélectionnez l’icône ![&#128279;](images/citations-icon.svg) **Citations** citations dans la barre d’outils principale.
+1. Sélectionnez l’icône ](images/citations-icon.svg) **Citations** ![citations dans la barre d’outils principale.
 1. Dans la boîte de dialogue **Citations**, choisissez la citation. Vous pouvez également sélectionner plusieurs citations.
    ![boîte de dialogue de citation](images/citation-dialog-main-toolbar.png){width="300"}
 1. Vous pouvez filtrer les citations en tapant les premiers caractères alphabétiques dans le panneau de recherche de la boîte de dialogue **Citation**.
@@ -211,7 +205,7 @@ La citation sélectionnée est ajoutée à l&#39;emplacement du curseur dans vot
 > 
 >Pour afficher l’icône **Citations** dans le panneau de gauche, votre administrateur système doit activer l’option **Citations** dans l’onglet **Panneaux** dans **Paramètres**.
 
-1. Sélectionnez **Citations** ![icône de &#x200B;](images/citations-icon.svg) de citations dans le panneau de gauche.
+1. Sélectionnez **Citations** ![icône de ](images/citations-icon.svg) de citations dans le panneau de gauche.
 1. Faites glisser la citation à partir du panneau **Citations** et déposez-la à l’emplacement approprié dans la rubrique.
 
    Vous pouvez également sélectionner **Insérer** dans ![](images/options.svg) **Options** pour insérer une citation.

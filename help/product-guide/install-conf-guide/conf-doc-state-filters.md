@@ -77,4 +77,4 @@ Dans le fichier `ui\_config.json` téléchargé, reportez-vous à la section sui
 
 Les filtres configurés s’affichent dans le panneau **Filtres** dans le référentiel de la page d’accueil.
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur](customize-overview.md)
+**Rubrique parente :**[ Personnaliser l’éditeur](customize-overview.md)

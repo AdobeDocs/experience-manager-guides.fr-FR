@@ -5,15 +5,10 @@ feature: Authoring
 role: User
 exl-id: 8c12ed9b-6309-40bf-b264-a2323cd6f4b3
 TQID: https://experienceleague.adobe.com/SWlP2-iWhN1x25K9s-mrMcfUTy5Fxv7TVWg6G2ucufc
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 0763896c75767d8a4bffc019d42c129e2e34f4be
 workflow-type: tm+mt
 source-wordcount: 557
@@ -63,7 +58,7 @@ Les autres options disponibles dans le menu Insertion de la barre d&#39;outils d
 
   ![](./assets/insert-mathml.png){width="350"}
 
-  L&#39;équation est insérée avec un arrière-plan gris clair. Vous pouvez à tout moment mettre à jour une équation en cliquant avec le bouton droit de la souris sur une équation existante et en sélectionnant **Modifier l’équation mathématique** dans le menu contextuel. Pour plus d’informations sur la validation des équations de MathML dans Experience Manager Guides, consultez la section [&#x200B; Validation des équations dans l’éditeur de MathML](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor).
+  L&#39;équation est insérée avec un arrière-plan gris clair. Vous pouvez à tout moment mettre à jour une équation en cliquant avec le bouton droit de la souris sur une équation existante et en sélectionnant **Modifier l’équation mathématique** dans le menu contextuel. Pour plus d’informations sur la validation des équations de MathML dans Experience Manager Guides, consultez la section [ Validation des équations dans l’éditeur de MathML](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor).
 
 - **Vérification des connaissances :** vous permet d’ajouter des questions dans les formats disponibles (Correction unique, Correction multiple, Vrai/Faux, Correspondance des éléments suivants ou insertion à partir de la banque de questions) à votre sujet pour révision et pour confirmer la compréhension sans notation. Ces questions reflètent les formats standard et excluent la notation, ce qui les rend idéales pour l’auto-évaluation et adaptées dans le cadre du contenu du cours ou d’un sujet avant un quiz ou une évaluation ultérieure, le cas échéant.
 

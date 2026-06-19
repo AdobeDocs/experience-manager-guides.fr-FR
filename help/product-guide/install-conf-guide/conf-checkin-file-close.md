@@ -20,7 +20,7 @@ Les onglets suivants fournissent des instructions pour configurer l’option inv
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les informations \(property\) suivantes pour configurer une invite afin d’archiver un fichier à la fermeture :
 
@@ -59,4 +59,4 @@ Pour plus d’informations, voir la section *Scénarios de fermeture et d’enre
 
 >[!ENDTABS]
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur](customize-overview.md)
+**Rubrique parente :**[ Personnaliser l’éditeur](customize-overview.md)
