@@ -55,7 +55,7 @@ Adobe Experience Manager utilise une application GitHub appelée **Synchronisati
 
 Pour installer et configurer l’application *AEM Code Sync*, procédez comme suit :
 
-1. Accédez à la page [Synchronisation du code ](https://github.com/apps/aem-code-sync) et sélectionnez **Installer**.
+1. Accédez à la page [Synchronisation du code &#x200B;](https://github.com/apps/aem-code-sync) et sélectionnez **Installer**.
 2. *La synchronisation du code* surveille les modifications du référentiel et s’assure que les mises à jour sont correctement transmises à GitHub.
 
    >[!NOTE]
