@@ -24,7 +24,7 @@ Pour activer la publication de Experience Manager Guides vers EDS, vous devez ef
 2. [Création et configuration d’un profil de publication pour EDS dans Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-in-experience-manager)
 3. [Personnaliser la sortie à l’aide de blocs EDS](#customize-output-using-eds-blocks)
 
-Pour une présentation vidéo rapide, reportez-vous à la section [Publication dans AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
+Pour une présentation vidéo rapide, reportez-vous à la section [Publication dans AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
 
 
 
