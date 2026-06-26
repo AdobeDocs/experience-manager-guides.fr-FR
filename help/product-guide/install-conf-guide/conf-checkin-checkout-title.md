@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 3032b49e-73d1-44d0-88b4-7e6e9444cac6
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
 # Configurez le titre des icônes Archiver et Extraire pour On-Premise
 
-AEM Guides vous permet de configurer le titre des icônes Archiver et Extraire dans l’éditeur web. Pour configurer le titre des icônes Archiver et Extraire, procédez comme suit :
+AEM Guides vous permet de configurer le titre des icônes Archiver et Extraire dans l’éditeur. Pour configurer le titre des icônes Archiver et Extraire, procédez comme suit :
 
 1. Téléchargez le fichier de configuration de l’interface utilisateur en vous connectant à Adobe Experience Manager en tant qu’administrateur.
 1. Cliquez sur le lien Adobe Experience Manager en haut et choisissez **Outils**.

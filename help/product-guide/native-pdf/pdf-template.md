@@ -18,9 +18,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 1181
+source-wordcount: 1099
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Vous pouvez créer des modèles PDF personnalisés avec des mises en page spéci
 
 Pour créer un modèle PDF, procédez comme suit :
 
-1. Dans l’éditeur web, accédez à l’onglet **Output**.
+1. Dans l’éditeur, accédez à l’onglet **Output**.
 1. Sélectionnez **Modèles** <img src="./assets/template.png" alt= "icône modèles" width="25"> dans le panneau de gauche.
 
    <img src="assets/create-pdf-template.png" alt="Créer un modèle PDF" width="400">
@@ -64,7 +64,7 @@ Si vous souhaitez créer un nouveau modèle avec les mêmes mises en page et mis
 
 Pour dupliquer un modèle PDF existant, procédez comme suit :
 
-1. Dans l’éditeur web, accédez à l’onglet **Output**.
+1. Dans l’éditeur, accédez à l’onglet **Output**.
 1. Sélectionnez **Modèles** <img src="./assets/template.svg" alt= "icône modèles" width="25"> dans le panneau de gauche. La fenêtre **Modèles** s’ouvre.
 1. Pointez sur le modèle à dupliquer et sélectionnez l’icône **...** *Options*, puis choisissez **Dupliquer** dans le menu contextuel.
 
@@ -132,7 +132,7 @@ Vous pouvez personnaliser les modèles en modifiant les composants du modèle et
 
 Pour personnaliser un modèle PDF, procédez comme suit :
 
-1. Dans l’éditeur web, accédez à l’onglet **Output**.
+1. Dans l’éditeur, accédez à l’onglet **Output**.
 1. Développez la barre latérale gauche et sélectionnez **Modèles**.
 
    Le panneau **Modèles** s’ouvre alors.

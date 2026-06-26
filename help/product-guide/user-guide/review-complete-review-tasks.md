@@ -12,9 +12,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 0763896c75767d8a4bffc019d42c129e2e34f4be
 workflow-type: tm+mt
-source-wordcount: 544
+source-wordcount: 691
 ht-degree: 0%
 
 ---
@@ -57,6 +57,17 @@ Vous avez marqué la tâche comme terminée et son état est maintenant défini 
 En fonction des commentaires, si l’auteur ou l’initiateur de la tâche décide de [fermer la tâche de révision](./review-close-review-task.md), le statut de la tâche dans l’interface utilisateur de révision devient **Fermée**.
 
 ![](images/review-status-closed-review-ui.png){width="350"}
+
+>[!NOTE]
+>
+>Par défaut, lorsqu’un réviseur ou une réviseuse marque une tâche de révision comme **Terminée**, la tâche reste dans la boîte de réception AEM du réviseur ou de la réviseuse jusqu’à ce que l’auteur ou l’initiateur ou l’initiatrice de la tâche examine les commentaires et ferme la tâche de révision.
+>
+>Cependant, vous pouvez choisir d’activer la synchronisation des tâches entre l’interface utilisateur de révision et la boîte de réception AEM. Lorsque cette fonctionnalité est activée, le marquage d’une tâche de révision comme **Terminée** dans l’interface utilisateur de révision complète automatiquement la tâche correspondante et la supprime de la boîte de réception AEM du réviseur. De même, l’accomplissement d’une tâche à partir de la boîte de réception AEM la marque automatiquement comme terminée dans l’interface utilisateur de révision.
+>
+>L’auteur ou l’initiateur de la tâche peut toujours consulter les commentaires et réaffecter la tâche si une révision supplémentaire est nécessaire. Lorsqu’une tâche est réaffectée, une nouvelle notification de boîte de réception AEM est générée pour le réviseur, ce qui permet à la tâche d’être à nouveau révisée.
+>
+>Pour activer cette fonctionnalité dans votre environnement, contactez votre équipe du succès client.
+
 
 ## Afficher les commentaires au niveau de la tâche
 

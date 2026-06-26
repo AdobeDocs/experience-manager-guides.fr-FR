@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 6522
+source-wordcount: 6471
 ht-degree: 1%
 
 ---
@@ -342,7 +342,7 @@ L’écran suivant présente le panneau AEM Guides.
 Les fonctions du module externe Oxygen pour AEM Guides sont disponibles en cliquant avec le bouton droit sur un dossier ou un fichier dans le référentiel AEM. Les fonctions disponibles pour les dossiers sont différentes des fichiers. Voici la liste complète des fonctions du menu contextuel Plug-in Oxygen pour AEM Guides :
 
 - **Ouvrir** : ouvre le fichier sélectionné ou développe le dossier sélectionné.
-- **Ouvrir dans** : vous pouvez choisir d’ouvrir le fichier sélectionné dans l’éditeur web d’AEM Guides, dans le tableau de bord des cartes ou dans l’éditeur de cartes. Pour plus d’informations sur ces options, voir [&#x200B; Ouvrir un fichier dans l’éditeur d’AEM Guides &#x200B;](#id195GH0V30KX).
+- **Ouvrir dans** : vous pouvez choisir d’ouvrir le fichier sélectionné dans l’éditeur d’AEM Guides, dans le tableau de bord des cartes ou dans l’éditeur de cartes. Pour plus d’informations sur ces options, voir [&#x200B; Ouvrir un fichier dans l’éditeur d’AEM Guides &#x200B;](#id195GH0V30KX).
 - **Extraire** : extrait un fichier du référentiel AEM. Pour plus d’informations, voir [Extraction de fichiers](#id195HC020TS4).
 - **Extraction avec personnes à charge** : extrait un fichier avec ses références directes. Pour plus d’informations, voir [Extraction de fichiers](#id195HC020TS4).
 - **Extraire avec des personnes à charge en lecture seule** : extrait le fichier sélectionné avec ses personnes à charge. Vous ne pouvez pas apporter de modifications aux fichiers dépendants. Pour plus d’informations, voir [Extraction de fichiers](#id195HC020TS4).
@@ -391,7 +391,7 @@ Si vous souhaitez utiliser les éditeurs disponibles dans AEM Guides, vous pouve
 
 1. Sélectionnez **Ouvrir dans** dans le menu contextuel, puis choisissez l’une des options suivantes :
 
-   - **Éditeur de rubriques web** : si le fichier que vous ouvrez est un fichier .xml ou .dita, vous pouvez l’ouvrir pour le modifier dans l’éditeur web. Choisissez l’option **Éditeur de rubriques web** pour ouvrir le fichier sélectionné afin de le modifier dans l’éditeur web.
+   - **Éditeur de rubriques web** : si le fichier que vous ouvrez est un fichier .xml ou .dita, vous pouvez l’ouvrir pour le modifier dans l’éditeur. Choisissez l&#39;option **Éditeur de rubriques Web** pour ouvrir le fichier sélectionné à modifier dans l&#39;Éditeur.
 
    - **Map Dashboard** : vous pouvez choisir de modifier un fichier .ditamap dans le tableau de bord de mappage, où vous pouvez effectuer diverses opérations sur le fichier de mappage. Ces opérations dépendent du rôle/groupe auquel vous appartenez.
 

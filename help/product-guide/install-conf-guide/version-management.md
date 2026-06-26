@@ -5,9 +5,9 @@ feature: Version Management
 role: Admin
 level: Experienced
 exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '2309'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Les onglets suivants fournissent des instructions pour activer l’option **Cré
 
 ## Configurer les paramètres pour autoriser la modification des fichiers extraits
 
-L&#39;éditeur Web d&#39;AEM Guides vous permet de créer et de mettre à jour des rubriques DITA. Vous pouvez configurer l’éditeur web afin de permettre la modification des seuls documents qui ont été extraits du référentiel. Ainsi, aucun autre rédacteur ne remplace accidentellement un sujet ouvert pour modification par un autre rédacteur. Une fois qu’une rubrique est ouverte pour modification, un auteur peut archiver le fichier au moment de sa fermeture.
+L&#39;éditeur AEM Guides vous permet de créer et de mettre à jour des rubriques DITA. Vous pouvez configurer l’éditeur pour autoriser la modification des seuls documents qui ont été extraits du référentiel. Ainsi, aucun autre rédacteur ne remplace accidentellement un sujet ouvert pour modification par un autre rédacteur. Une fois qu’une rubrique est ouverte pour modification, un auteur peut archiver le fichier au moment de sa fermeture.
 
 Une autre règle importante consiste à s’assurer que les fichiers qui ont été extraits sont de nouveau archivés dans le système. Cela empêche les utilisateurs de fermer accidentellement les fichiers sans les archiver à nouveau.
 

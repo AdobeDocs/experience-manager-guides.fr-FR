@@ -2,16 +2,16 @@
 title: Configuration de l’aide dynamique pour rechercher du contenu
 description: Découvrez comment configurer l’aide dynamique pour rechercher du contenu.
 exl-id: 5ebda503-066a-428e-bff4-1a1e91ada917
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
 
 # Configurer l’aide intelligente optimisée par l’IA pour rechercher du contenu pour Cloud Service
 
-En tant qu’administrateur, vous pouvez configurer la fonction d’aide dynamique pour les auteurs. Le service d’aide dynamique est sécurisé par l’authentification basée sur l’authentification Adobe IMS. Intégrez votre environnement aux workflows d’authentification basée sur les jetons sécurisés d’Adobe et commencez à utiliser la nouvelle fonctionnalité d’aide dynamique. Les configurations suivantes vous aident à ajouter l’onglet **Configuration de l’IA** à un profil de dossier. Une fois l’ajout effectué, vous pouvez utiliser la fonction Aide dynamique dans l’éditeur web.
+En tant qu’administrateur, vous pouvez configurer la fonction d’aide dynamique pour les auteurs. Le service d’aide dynamique est sécurisé par l’authentification basée sur l’authentification Adobe IMS. Intégrez votre environnement aux workflows d’authentification basée sur les jetons sécurisés d’Adobe et commencez à utiliser la nouvelle fonctionnalité d’aide dynamique. Les configurations suivantes vous aident à ajouter l’onglet **Configuration de l’IA** à un profil de dossier. Une fois l’ajout effectué, vous pouvez utiliser la fonction Aide dynamique dans l’éditeur.
 
 ## Création de configurations IMS dans Adobe Developer Console
 
@@ -105,5 +105,5 @@ Une fois cette opération effectuée, vous devriez être en mesure d’utiliser 
 ```
 
 
-Une fois la configuration effectuée, l’icône **Aide dynamique** ![Aide dynamique](assets/smart-help-icon.svg) s’affiche dans le panneau droit de l’éditeur web. Sélectionnez l’icône pour afficher le panneau **Aide dynamique**.
+Une fois la configuration effectuée, l’icône **Aide dynamique** ![Aide dynamique](assets/smart-help-icon.svg) s’affiche dans le panneau droit de l’éditeur. Sélectionnez l’icône pour afficher le panneau **Aide dynamique**.
 Pour plus d’informations, consultez la section Aide intelligente optimisée par [IA pour rechercher du contenu](../user-guide/ai-based-smart-help.md) dans le Guide de l’utilisateur d’Experience Manager.

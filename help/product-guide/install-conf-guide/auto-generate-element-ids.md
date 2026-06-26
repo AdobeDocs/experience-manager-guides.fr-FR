@@ -4,9 +4,10 @@ description: Découvrez comment générer automatiquement des identifiants d’�
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: c3c59eb3-a00a-46db-a264-db44d5cd4943
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '519'
 ht-degree: 1%
 
 ---
@@ -63,4 +64,4 @@ Pour configurer un modèle pour un identifiant généré automatiquement, créez
 
 >[!ENDTABS]
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](customize-overview.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur](customize-overview.md)

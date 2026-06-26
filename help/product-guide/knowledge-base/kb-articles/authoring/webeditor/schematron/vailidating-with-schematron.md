@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: 399
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Par défaut, l&#39;éditeur web exploite la configuration du schéma DITA dans l
 
 Outre la prise en charge des règles DITA, l’éditeur web prend également en charge la validation du contenu en fonction des règles « *Schematron* ».
 
-« *Schematron* » fait référence à un langage de validation basé sur des règles utilisé pour définir des tests pour un fichier XML. Vous pouvez importer les fichiers Schematron et les modifier également dans l&#39;éditeur Web. A l&#39;aide d&#39;un fichier « Schematron », vous pouvez définir certaines règles, puis les valider pour une rubrique DITA ou un mappage. Les règles de schéma peuvent assurer la cohérence de la structure XML en imposant des restrictions définies sous la forme de règles. Ces restrictions sont imposées par les PME qui sont propriétaires de la qualité et de la cohérence du contenu.
+« *Schematron* » fait référence à un langage de validation basé sur des règles utilisé pour définir des tests pour un fichier XML. Vous pouvez importer les fichiers Schematron et les modifier également dans l&#39;éditeur. A l&#39;aide d&#39;un fichier « Schematron », vous pouvez définir certaines règles, puis les valider pour une rubrique DITA ou un mappage. Les règles de schéma peuvent assurer la cohérence de la structure XML en imposant des restrictions définies sous la forme de règles. Ces restrictions sont imposées par les PME qui sont propriétaires de la qualité et de la cohérence du contenu.
 
-REMARQUE : l&#39;éditeur Web prend en charge le schéma ISO.
+REMARQUE : l’éditeur prend en charge le schéma ISO.
 
 
 ## Savoir comment fonctionne « Schematron » dans un éditeur web

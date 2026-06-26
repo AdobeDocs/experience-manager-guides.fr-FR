@@ -14,9 +14,9 @@ feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 4767
+source-wordcount: 4601
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Contenu (table des matières), index, page vierge, pages de garde, pages de gard
 >
 >Il existe des exemples de mises en page prêtes à l’emploi. Vous pouvez les personnaliser ou créer de nouvelles mises en page.
 
-1. Dans l’éditeur web, accédez à l’onglet **Output**.
+1. Dans l’éditeur, accédez à l’onglet **Output**.
 1. Développez la barre latérale gauche et cliquez sur **Modèles**.
 1. Ouvrez le modèle que vous souhaitez utiliser.
 
@@ -199,7 +199,7 @@ Pour ajouter un fichier de ressource au dossier Ressources , procédez comme sui
 
 1. Cliquez sur **Choisir les fichiers** pour parcourir le fichier de ressource à partir de votre ordinateur local
 
-1. Cliquez sur **Charger**.
+1. Cliquez sur **Télécharger**.
 Le fichier sélectionné est importé et répertorié sous le dossier Ressources .
 
 ## Paramètres PDF avancés {#advanced-pdf-settings}
@@ -245,7 +245,7 @@ Pour appliquer la structure de la table des matières et le style des niveaux d�
   >Si vous êtes un développeur ou une développeuse CSS, vous pouvez également définir le format de ligne de repère directement dans le fichier CSS.
 
 * **Utiliser le marqueur de continuation de tableau** : sélectionnez cette option pour définir des marqueurs pour les tableaux longs qui s’étendent sur plusieurs pages.
-Vous pouvez définir le texte à afficher avant et après la coupure. Par exemple, un tableau se rompt à la page 5 et vous définissez `<Continued on page %page-num%>` pour **Texte avant la rupture**.  Le texte indique « Suite page 6 » au bas de la page 5.
+Vous pouvez définir le texte à afficher avant et après la coupure. Par exemple, un tableau se rompt à la page 5 et vous définissez `<Continued on page %page-num%>` pour **Texte avant saut**. Le texte affiche « Suite à la page 6 » au bas de la page 5.
 
   Utilisez des variables de langue pour définir le texte du marqueur de continuation avant et après la coupure. Selon la langue choisie, la valeur localisée est automatiquement sélectionnée dans la sortie PDF. Par exemple, vous pouvez publier du `Continued on page %page-num%` sous forme de texte en anglais et du `Fortsetzung auf Seite %page-num%` en allemand.
 

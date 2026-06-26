@@ -2,9 +2,10 @@
 title: Publication PDF plus intelligente avec le PDF natif
 description: Cette session d’experts explique comment Native PDF peut être utilisé pour créer un PDF prêt pour DITA sans avoir à utiliser d’expertise avancée en CSS ou XSLT, mais en utilisant une technologie low code pour générer du PDF
 keywords: Publication DITA PDF, AEM Guides, Native PDF, DITA vers PDF, workflow de publication DITA, automatisation PDF, publication pilotée par les métadonnées, modèles DITA
-source-git-commit: 1ae89da4d2638e375f684c187ef68389baa5a5bc
+exl-id: 763ca6fb-1e5a-4676-9684-879c13ba9a8e
+source-git-commit: 2fde91e85c4283d114b29f77a38bae6d67e60112
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '266'
 ht-degree: 3%
 
 ---
@@ -49,7 +50,7 @@ Au cours de cette session, nous avons abordé les sujets suivants :
 
 ### Documentation
 
-- [Cas d’utilisation courants :](../../native-pdf/stylesheet.md)
+- [Cas d’utilisation courants](../../native-pdf/stylesheet.md)
 - [Génération automatique de code-barres](../../native-pdf/add-barcode.md)
 
 

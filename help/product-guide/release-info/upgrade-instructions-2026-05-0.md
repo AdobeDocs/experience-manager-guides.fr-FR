@@ -1,7 +1,7 @@
 ---
 title: Notes de mise à jour | Instructions de mise à niveau et problèmes résolus dans Adobe Experience Manager Guides version 2026.05.0
 description: Découvrez la matrice de compatibilité et comment effectuer une mise à niveau vers la version 2026.05.0 d’Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 8358a4dc8c023fe1155814f8248aab3ef724e013
+source-git-commit: 343fdd0afbab62a2764fcee0a1f8e0f3c08a0033
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 1%
@@ -54,4 +54,4 @@ Experience Manager Guides est automatiquement mis à niveau lors de la mise à n
 >
 > Cette version comprend des mises à jour des paramètres du profil de dossier (ui_config.json). Si vous utilisez des paramètres personnalisés, veillez à les sauvegarder avant de procéder à la mise à niveau. Après la mise à jour, vérifiez et ajustez vos paramètres pour vous aligner sur les modifications introduites dans la dernière version.
 
-Passez en revue et validez vos configurations de configuration pour vérifier qu’elles sont correctement implémentées. Si vous avez apporté des modifications à la configuration personnalisée, consultez [Configuration supplémentaire pour la mise à niveau de Cloud Service](../cs-install-guide/additional-config-for-cloud-service.md) pour connaître les procédures supplémentaires applicables à la version à partir de laquelle vous effectuez la mise à niveau.
+Passez en revue et validez vos configurations de configuration pour vérifier qu’elles sont correctement implémentées. Si vous avez apporté des modifications à la configuration personnalisée, consultez [Configuration supplémentaire pour la mise à niveau de Cloud Service](../install-conf-guide/additional-config-for-upgrade.md) pour connaître les procédures supplémentaires applicables à la version à partir de laquelle vous effectuez la mise à niveau.

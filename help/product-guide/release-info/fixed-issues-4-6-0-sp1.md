@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 312
+source-wordcount: 311
 ht-degree: 4%
 
 ---
@@ -36,7 +36,7 @@ Découvrez les [instructions de mise à niveau pour la version 4.6.0 du Service 
 - La création d&#39;un plan DITA sur une instance UUID échoue lorsque `xmleditor.uniquefilenames`est activé dans `XMLEditorConfig`. (21201)
 - Lors de la fermeture d’un fichier, les commentaires et les libellés ajoutés dans la boîte de dialogue **Enregistrer les modifications et déverrouiller le fichier** ne sont pas enregistrés dans l’historique des versions avec la nouvelle version. Ceci est spécifique à un cas d’utilisation où **Demander l’archivage à la fermeture** ou **Demander une nouvelle version à la fermeture** est activé dans `XMLEditorConfig`. (20065)
 - L’état du document marqué comme **Terminé** revient à **Brouillon** avant d’enregistrer une nouvelle version, ce qui fait que l’état **Terminé** ne persiste dans aucune version du document. (20006)
-- Impossible d’ajouter un fichier PDF en tant que référence d’image dans une rubrique de l’éditeur web. (21206)
+- Impossible d’ajouter un fichier PDF en tant que référence d’image dans une rubrique de l’éditeur. (21206)
 - La sélection d&#39;un fichier DITA dans l&#39;interface utilisateur d&#39;Assets affiche l&#39;option **Ouvrir dans FrameMaker**, même si elle est désactivée dans la configuration. (20082)
 
 

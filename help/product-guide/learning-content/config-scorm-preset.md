@@ -13,9 +13,9 @@ feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: f7c0b10f032c2584fb6e951da898faaeb4ca7aaf
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: 331
 ht-degree: 0%
 
 ---
@@ -41,8 +41,13 @@ Une fois le paramètre prédéfini créé, configurez-le. Les options de configu
 
   ![](assets/scorm-content-tab.png){width="650"}
 
-- **Publier :** utilisez ce paramètre uniquement si vous souhaitez publier la sortie dans SCORM Cloud pour un accès direct.
 
-  ![](assets/scorm-publish-tab.png){width="650"}
+- **Publier dans LMS :** utilisez ce paramètre pour publier votre contenu directement dans Adobe Learning Manager (ALM). Dans la liste déroulante **Serveur de publication**, sélectionnez **Adobe Learning Manager**, puis choisissez le **Profil de publication** requis précédemment configuré dans les paramètres de Workspace. Le profil sélectionné est utilisé pour établir la connexion et charger le contenu généré vers AEM.
+
+  >[!NOTE]
+  >
+  > Avant de publier du contenu dans ALM, vous devez configurer un profil de publication Adobe Learning Manager. Pour plus d’informations, consultez [Publication de profils](../lc-config-guide/lc-folder-profile.md).
+
+  ![](assets/scorm-publish-lms.png){width="650"}
 
 Une fois toutes les modifications configurées, enregistrez-les pour le paramètre prédéfini SCORM à l’aide de l’option **Enregistrer** dans le coin droit de la barre d’outils de la page du paramètre prédéfini SCORM.

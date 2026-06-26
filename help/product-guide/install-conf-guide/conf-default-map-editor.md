@@ -4,9 +4,10 @@ description: Découvrez comment définir l’éditeur de carte avancé par défa
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 60205ca4-518f-49fa-b63b-f1a56d70fc01
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 > L’éditeur de carte de base, auparavant disponible dans Experience Manager Guides, est obsolète à partir des versions 4.3 et 2307. Vous ne pouvez pas accéder à l&#39;éditeur de mappages de base pour créer et gérer des mappages DITA.
 >Il est recommandé d’utiliser l’éditeur de carte avancé. L’éditeur de carte avancé offre des fonctionnalités améliorées et de meilleures options de personnalisation. Découvrez comment utiliser l’[éditeur de cartes avancé](../user-guide/map-editor-advanced-map-editor.md).
 
-Pour les versions antérieures aux versions 4.3 et 2307, Experience Manager Guides est fourni avec un éditeur de carte de base et un éditeur de carte avancé. Basic Map Editor vous offre toutes les fonctionnalités nécessaires pour créer votre fichier de carte. L’éditeur de carte avancé est beaucoup plus riche en fonctionnalités et il est intégré à l’éditeur web. L&#39;éditeur de carte avancé permet aux auteurs de créer et de modifier des fichiers de carte DITA avec une interface conviviale.
+Pour les versions antérieures aux versions 4.3 et 2307, Experience Manager Guides est fourni avec un éditeur de carte de base et un éditeur de carte avancé. Basic Map Editor vous offre toutes les fonctionnalités nécessaires pour créer votre fichier de carte. L’éditeur de carte avancé est beaucoup plus riche en fonctionnalités et il est intégré à l’éditeur. L&#39;éditeur de carte avancé permet aux auteurs de créer et de modifier des fichiers de carte DITA avec une interface conviviale.
 
 Par défaut, chaque fois qu’un nouveau fichier de mappage est créé, il est ouvert dans l’éditeur de mappage de base. Vous pouvez modifier ce comportement en activant le paramètre pour ouvrir l’éditeur de carte avancé par défaut.
 
@@ -57,4 +58,4 @@ Suivez les instructions fournies dans [Remplacements de la configuration](downlo
 
 >[!ENDTABS]
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](customize-overview.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur](customize-overview.md)

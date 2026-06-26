@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 571
+source-wordcount: 444
 ht-degree: 1%
 
 ---
 
 # Afficher/masquer « Créer DitaMAP » dans le menu contextuel du dossier dans l’éditeur web
 
-Dans cet article, nous allons apprendre à personnaliser l’éditeur web de Guides pour masquer ou afficher l’option « Créer une carte numérique » dans le menu contextuel de dossier en fonction des autorisations d’utilisateur/de groupe.
+Dans cet article, nous allons apprendre à personnaliser l’éditeur de guides pour masquer ou afficher l’option « Créer une carte numérique » dans le menu contextuel de dossier en fonction des autorisations d’utilisateur/de groupe.
 Dans ce cas d’utilisation, nous masquerons cette option pour tous les utilisateurs non auteurs.
 
 ## Conditions préalables

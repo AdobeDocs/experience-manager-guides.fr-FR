@@ -11,36 +11,39 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: febac97b369bad427f0f650f2cdc69b0ca6c9f69
 workflow-type: tm+mt
-source-wordcount: 400
+source-wordcount: 460
 ht-degree: 0%
 
 ---
 
 # Application d’un style personnalisé aux entrées de la table des matières et au contenu de la rubrique
 
-Parfois, vous pouvez appliquer un style personnalisé aux entrées de la table des matières ou à une rubrique particulière. Pour ce faire, associez un attribut `outputclass` à l&#39;élément `<topicref>` dans votre plan DITA. En outre, si vous souhaitez appliquer un format personnalisé à une rubrique entière, vous pouvez également y parvenir en étendant la définition de style de l’attribut dans le CSS.
+Vous pouvez appliquer des styles personnalisés aux entrées de la table des matières, aux en-têtes de rubriques ou à des rubriques individuelles à l’aide de l’attribut `outputclass` sur les éléments de mappage pris en charge, tels que `<topicref>` et `<topichead>`. Pour appliquer une mise en forme personnalisée à une rubrique entière, étendez la définition de style de l’attribut `outputclass` dans votre CSS.
 
-Prenons un exemple de nouveau sujet que vous souhaitez envoyer pour révision. Pour identifier facilement la rubrique mise à jour, vous devez ajouter un attribut `outputclass` à l&#39;élément `<topicref>` dans votre plan DITA, puis définir un style personnalisé pour celui-ci dans le CSS.
+## Donner un style à une rubrique référencée via `<topicref>`
+
+Vous pouvez appliquer un `outputclass` sur un élément de `<topicref>` pour appliquer un style à l’entrée de la table des matières, au titre de la rubrique ou au contenu complet de la rubrique dans le PDF généré.
+
+Par exemple, pour identifier une rubrique qui nécessite une révision, ajoutez un attribut outputclass à l&#39;élément `<topicref>` correspondant dans votre plan DITA et définissez les styles associés dans votre CSS.
 
 Dans l’exemple suivant, un attribut `outputclass` a été affecté à la rubrique *Historique des vols* avec la valeur `new-topic`.
 
 <img src="./assets/new-topic-attribute-in-map.png" width="500">
 
-La définition de classe du `new-topic` dans un CSS peut vous permettre de définir le style des éléments suivants :
+La classe `new-topic` peut être utilisée pour définir des styles pour :
+
 * Entrée principale de la table des matières ou de la mini-table des matières
 * Titre de la rubrique dans le contenu principal
 * L’intégralité du contenu de la rubrique, y compris le titre
 
-Voyons comment chacun de ces scénarios peut être défini dans le CSS. Dans la définition CSS suivante de la classe `new-topic`, la couleur du texte a été modifiée.
+La définition CSS suivante modifie la couleur du texte pour l’entrée de la table des matières et le titre de la rubrique :
 
 ```css
-…
 .new-topic {
-  color: #CC5309
+  color:#CC5309
 }
-…
 ```
 
 Cette définition contrôle la couleur du texte dans la table des matières et le titre de la rubrique. La sortie PDF ci-dessous affiche la couleur différente appliquée à l’entrée de la table des matières :
@@ -57,23 +60,23 @@ Si vous souhaitez que l’entrée de la table des matières et le titre du sujet
 ...
 /*for styling TOC entry */
 .new-topic {
-  color: #CC3509
+  color:#CC3509
 }
 
 /* for styling topic's title */
 .new-topic.title {
-  color: #092ACC
+  color:#092ACC
 }
 ...
 ```
 
-Enfin, vous pouvez également appliquer des styles à l’ensemble du contenu dans la rubrique. Pour cela, vous devez ajouter un suffixe « `-content` » au nom de la classe. Dans l&#39;exemple suivant, une barre de modification a été ajoutée sur l&#39;ensemble du contenu de la rubrique :
+Pour appliquer des styles à l’ensemble du contenu de la rubrique, ajoutez le suffixe `-content` au nom de la classe. L&#39;exemple suivant ajoute une barre de modification au contenu de la rubrique :
 
 ```css
 ...
 /* for styling the topic's content */
 .new-topic-content {
-  -ro-change-bar-color: #A609CC;
+  -ro-change-bar-color:#A609CC;
 }
 ...
 ```
@@ -81,6 +84,46 @@ Enfin, vous pouvez également appliquer des styles à l’ensemble du contenu da
 À l’aide des attributs de style ci-dessus, une barre de modification est ajoutée à gauche de la rubrique *Historique des vols*, comme illustré ci-dessous :
 
 <img src="./assets/pdf-output-topic-content.jpg" width="500">
+
+## Application de styles aux éléments `topichead`
+
+Vous pouvez utiliser l’attribut `outputclass` sur un élément `<topichead>` pour appliquer différents styles à l’entrée de la table des matières et à l’en-tête généré pour le `topichead`.
+
+Par exemple, si vous définissez les `topichead` suivantes dans votre plan DITA :
+
+```xml
+<topichead navtitle="Getting Started" outputclass="new-topichead">
+    ...
+</topichead>
+```
+
+La classe `new-topichead` est appliquée à l’entrée topichead dans la table des matières et à l’en-tête généré pour la rubrique topichead.
+
+Si vous souhaitez appliquer un style différent à l’en-tête, définissez une classe distincte pour celui-ci, de la même manière que `<topicref>` prend en charge un style distinct pour l’entrée de la table des matières et le titre du topic :
+
+```css
+...
+/* Style for the topichead TOC entry */
+.new-topichead {
+  color: #CC5309;
+}
+
+/* Style for the topichead heading */
+.new-topichead.title {
+  color: #092ACC;
+}...
+```
+
+Si vous souhaitez appliquer un style au contenu associé à la rubrique, ajoutez le suffixe `- content` au nom de la classe :
+
+```css
+.new-topichead-content {
+    border-left: 2px solid #cccccc;
+    padding-left: 8px;
+}
+```
+
+
 
 ## Supprimer les lignes vides de la table des matières
 

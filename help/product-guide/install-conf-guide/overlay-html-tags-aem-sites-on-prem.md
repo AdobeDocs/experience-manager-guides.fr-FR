@@ -4,16 +4,17 @@ description: Configurez les paramètres vidéo et d’image pour la sortie aem s
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: af349df4-04bf-4b9b-885f-d8bca32a4484
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
 # Recouvrez les balises HTML dans la sortie AEM Sites pour On-Premise.
 
-Vous pouvez ajouter et personnaliser des balises HTML dans la sortie AEM Sites générée à l’aide du paramètre prédéfini AEM Sites basé sur le mappage des composants principaux à partir de l’éditeur web. Pour personnaliser les balises HTML, vous pouvez incruster le fichier `config.xml`. Vous pouvez, par exemple, configurer les zones cliquables et vidéo dans la sortie AEM Sites.
+Vous pouvez ajouter et personnaliser des balises HTML dans la sortie AEM Sites générée à l’aide du paramètre prédéfini AEM Sites basé sur le mappage des composants principaux à partir de l’éditeur. Pour personnaliser les balises HTML, vous pouvez incruster le fichier `config.xml`. Vous pouvez, par exemple, configurer les zones cliquables et vidéo dans la sortie AEM Sites.
 
 Effectuez les étapes suivantes pour recouvrir et mettre à jour le fichier `config.xml` :
 

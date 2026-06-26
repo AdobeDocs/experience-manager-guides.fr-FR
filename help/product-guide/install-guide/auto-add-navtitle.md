@@ -16,9 +16,9 @@ subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 222
+source-wordcount: 221
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Pour inclure `@navtitle` attribut par défaut dans les propriétés des fichiers
 
 1. Téléchargez le fichier ui\_config.json .
 
-   Vous pouvez effectuer cette modification au niveau global ou au niveau d’un profil de dossier. Selon l’emplacement où vous souhaitez effectuer cette modification, vous devez télécharger le fichier ui\_config.json correspondant. Pour plus d’informations sur le téléchargement du fichier ui\_config.json, consultez [Configuration et personnalisation de l’éditeur web XML](conf-folder-level.md#id2065G300O5Z).
+   Vous pouvez effectuer cette modification au niveau global ou au niveau d’un profil de dossier. Selon l’emplacement où vous souhaitez effectuer cette modification, vous devez télécharger le fichier ui\_config.json correspondant. Pour plus d’informations sur le téléchargement du fichier ui\_config.json, consultez [Configuration et personnalisation de l’éditeur XML](conf-folder-level.md#id2065G300O5Z).
 
 1. Recherchez la définition du `ditaAttributes`.
 

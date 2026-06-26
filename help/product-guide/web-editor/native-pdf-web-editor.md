@@ -25,9 +25,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 2ec33566b72205a2c64510f38f588adf51b2175a
 workflow-type: tm+mt
-source-wordcount: 3311
+source-wordcount: 3403
 ht-degree: 1%
 
 ---
@@ -81,6 +81,7 @@ Utilisez pour spécifier des paramètres de sortie de base, tels que le chemin d
 | **Utiliser niveau de référence** | Si vous avez créé une ligne de base pour le plan DITA sélectionné, sélectionnez cette option pour spécifier la version que vous souhaitez publier. Voir [Utilisation de la ligne de base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) pour plus d’informations. |
 | **Créer un PDF avec Barre de modification entre les versions publiées** | Utilisez les options suivantes pour créer un PDF présentant les différences de contenu entre deux versions à l’aide des barres de modification : <br><ul><li> **Ligne de base de la version précédente** Sélectionnez la version de ligne de base à comparer à la version actuelle ou à une autre ligne de base. Une barre de modification s’affiche dans le PDF pour indiquer le contenu modifié. Une barre de modification est une ligne verticale qui identifie visuellement le contenu nouveau ou révisé. La barre de modification s’affiche à gauche du contenu qui a été inséré, modifié ou supprimé. <br> **Remarque** : Si vous sélectionnez **Utiliser niveau de référence** et choisissez un niveau de référence à publier, la comparaison est effectuée entre les deux versions de niveau de référence sélectionnées. Par exemple, si vous choisissez la version de référence 1.3 sous **Utiliser la référence** et la version 1.1 sous **Ligne de base de la version précédente**, la comparaison sera effectuée entre la version de référence 1.1 et la version de référence 1.3. <br><li> **Afficher le texte ajouté** Sélectionnez cette option pour afficher le texte inséré en vert et souligné. Cette option est sélectionnée par défaut. <br> <li> **Afficher le texte supprimé** Sélectionnez cette option pour afficher le texte supprimé en rouge et barré. Cette option est sélectionnée par défaut. <br>**Remarque** vous pouvez également personnaliser la mise en forme de la barre de modification, du contenu inséré ou du contenu supprimé à l’aide de la feuille de style.<br></ul> |
 | **Langue** | Sélectionnez la langue dans laquelle vous souhaitez que la sortie soit traduite. <br> **Remarque** : les textes de référence croisée tels que « Voir sur le chapitre » ou « Voir sur la page » sont contrôlés par une variable de langue. La variable utilise la langue définie dans la rubrique via l’attribut `xml:lang`. Si aucune langue n’est spécifiée, la langue prédéfinie est utilisée. Si les deux sont manquants, la valeur par défaut est l’anglais (en_US). |
+| **Arguments de ligne de commande DITA-OT** | Lorsque vous activez **Activer le prétraitement DITA-OT**, le champ **Arguments de ligne de commande DITA-OT** devient disponible. Ici, vous pouvez spécifier les arguments supplémentaires que DITA-OT doit traiter lors de la génération de la sortie. Pour plus d&#39;informations sur les arguments de ligne de commande pris en charge dans DITA-OT, consultez la [documentation DITA-OT](https://www.dita-ot.org/).<br>**REMARQUE :** les liens connexes définis dans les tables de relation DITA (`<reltable>`) ne sont pas inclus par défaut dans la sortie Native PDF. Utilisez ce champ pour transmettre les arguments DITA-OT requis et inclure ces liens connexes dans la sortie Native PDF. |
 | **Workflow de post-génération** | Sélectionnez cette option pour afficher une liste déroulante contenant tous les workflows configurés dans AEM. Vous pouvez sélectionner le workflow à exécuter une fois le workflow de génération de PDF terminé. |
 
 **Métadonnées**
@@ -96,6 +97,7 @@ Ces métadonnées sont mappées aux métadonnées dans l’onglet **Description*
 <img src="assets/pdf-metadata.png" alt="onglet métadonnées" width="600">
 
 Dans les paramètres prédéfinis de sortie, sélectionnez **&#x200B;**&#x200B;> **Native-PDF** > **Métadonnées** pour ajouter et personnaliser des options de métadonnées.
+
 * **Utiliser les métadonnées ajoutées dans topicmeta**
 
   Cette option est sélectionnée par défaut. Vous pouvez utiliser les métadonnées que vous avez ajoutées dans l&#39;élément topicmeta du plan DITA pour renseigner les champs de métadonnées de la sortie PDF.

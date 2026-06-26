@@ -2,9 +2,9 @@
 title: Notes de mise à jour | Nouveautés de la version 5.2.0 d’Adobe Experience Manager Guides
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 5.2.0 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
+source-git-commit: 166dd4eec428d81bfe3db92ebc5a54f1760fe7dc
 workflow-type: tm+mt
-source-wordcount: '4132'
+source-wordcount: '4052'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Voici les améliorations qui rendent la création plus facile et plus efficace.
 
 Une interface actualisée améliore la convivialité globale, ce qui rend la navigation et la création de contenu plus intuitives et plus cohérentes.
 
-- **CSS plus riche pour les éléments en mode création et aperçu** : le CSS par défaut amélioré pour les éléments offre un style amélioré et une meilleure cohérence visuelle dans les modes création et aperçu.
+- **CSS plus riche pour les éléments en mode création et aperçu** : le CSS par défaut amélioré pour les éléments offre un style amélioré et une meilleure cohérence visuelle entre les modes création et aperçu.
 
   ![](assets/rich-css.png){width="650"}
 
@@ -345,13 +345,6 @@ Si un fichier est en lecture seule, vous devez d&#39;abord extraire le fichier a
 Vous pouvez désormais utiliser une expression régulière pour activer ou désactiver le post-traitement pour les dossiers. Cette amélioration permet aux administrateurs de définir des règles de post-traitement qui s’appliquent à plusieurs dossiers ou à des hiérarchies de dossiers entières à l’aide d’une seule configuration, au lieu de spécifier des chemins d’accès aux dossiers individuels.
 
 Pour plus d’informations, consultez [Utilisation d’une expression régulière pour activer ou désactiver le post-traitement](../install-conf-guide/conf-folder-post-processing.md).
-
-- Exécutez le traitement des ressources au niveau du dossier et des fichiers individuels.
-- Filtrez les ressources en choisissant des types de ressources spécifiques, tels que des rubriques, des mappages, Markdown, HTML/CSS, DITAVAL ou d’autres fichiers pris en charge, afin de traiter uniquement les fichiers dont vous avez besoin.
-- Appliquez des filtres basés sur la date pour limiter l’étendue du traitement pour une période spécifiée.
-- Retraiter les ressources directement à l’aide de la nouvelle option (**Retraiter les ressources**) disponible dans le menu contextuel des fichiers et dossiers dans la vue Référentiel et le panneau Explorateur.
-
-Pour plus d’informations sur le traitement des ressources, voir [Traitement des ressources](../user-guide/asset-processor.md).
 
 ### Nettoyage automatisé de l’arborescence B pour des performances optimales
 

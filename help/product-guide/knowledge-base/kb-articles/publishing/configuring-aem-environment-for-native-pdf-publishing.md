@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 931
+source-wordcount: 911
 ht-degree: 1%
 
 ---
@@ -85,7 +85,7 @@ Le moteur de publication natif de PDF a besoin du JDK Oracle pour générer les 
 10. Cliquez de nouveau sur « OK » dans la boîte de dialogue Variables d’environnement .
 11. Cliquez de nouveau sur OK dans la boîte de dialogue Propriétés du système.
 12. Démarrez à présent le serveur AEM.
-13. Générez un PDF natif à partir de paramètres prédéfinis dans l’éditeur web.
+13. Générez un PDF natif à partir de paramètres prédéfinis dans l’éditeur.
 
 ## Etapes de configuration pour Linux Server (RHEL7/centOS 7)
 
@@ -124,7 +124,7 @@ Le moteur de publication natif de PDF a besoin du JDK Oracle pour générer les 
 
 11. Installez le package fontconfig.
 Commande : yum install fontconfig
-12. Générez un PDF natif à partir de paramètres prédéfinis dans l’éditeur web.
+12. Générez un PDF natif à partir de paramètres prédéfinis dans l’éditeur.
 
 **REMARQUE** : le package node_modules.zip peut être téléchargé [ici] (:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
 
@@ -172,7 +172,7 @@ iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —p
 9. Installez le package fontconfig.
 Commande : apt install fontconfig
 
-10. Générez un PDF natif à partir de paramètres prédéfinis dans l’éditeur web.
+10. Générez un PDF natif à partir de paramètres prédéfinis dans l’éditeur.
 
 ## Résolution des problèmes
 

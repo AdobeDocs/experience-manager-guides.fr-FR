@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 24e47af6-8d81-4994-8d97-474f5029392b
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '459'
 ht-degree: 3%
 
 ---
 
 # Installation de packages pour la publication basée sur des articles {#id21BNL02052Z}
 
-AEM Guides offre une puissante fonctionnalité de publication d’articles intégrée à l’éditeur web. Grâce à cette fonctionnalité, vous pouvez publier une ou plusieurs rubriques simultanément. Une fois que vous avez ouvert une carte dans l’éditeur de cartes, vous pouvez accéder à l’onglet Sorties pour créer un paramètre prédéfini, puis choisir une ou plusieurs rubriques pour générer la sortie. Vous pouvez utiliser la fonction de publication d’article pour générer de manière incrémentielle la sortie d’un ou de plusieurs sujets ou publier votre contenu sur une plateforme de base de connaissances article par article. Pour plus d’informations, reportez-vous à la section *Publication d’articles à partir de l’éditeur web* du guide de l’utilisateur.
+AEM Guides offre une puissante fonctionnalité de publication d’articles intégrée à l’éditeur. Grâce à cette fonctionnalité, vous pouvez publier une ou plusieurs rubriques simultanément. Une fois que vous avez ouvert une carte dans l’éditeur de cartes, vous pouvez accéder à l’onglet Sorties pour créer un paramètre prédéfini, puis choisir une ou plusieurs rubriques pour générer la sortie. Vous pouvez utiliser la fonction de publication d’article pour générer de manière incrémentielle la sortie d’un ou de plusieurs sujets ou publier votre contenu sur une plateforme de base de connaissances article par article. Pour plus d’informations, reportez-vous à la section *Publication basée sur des articles de l’éditeur* du guide de l’utilisateur.
 
 Les onglets suivants fournissent des instructions pour créer un site AEM afin de publier une sortie basée sur des articles en fonction de votre configuration Experience Manager Guides : Cloud Service ou On-Premise.
 
@@ -44,11 +44,11 @@ Les onglets suivants fournissent des instructions pour créer un site AEM afin d
    > Vous pouvez créer plusieurs sites AEM à partir du même modèle.
 
 
-Vous pouvez utiliser le site AEM pour publier votre article à l’aide des paramètres prédéfinis de sortie de l’éditeur web.
+Vous pouvez utiliser le site AEM pour publier votre article à l’aide des paramètres prédéfinis de sortie de l’éditeur.
 
 >[!TAB  On-Premise ]
 
-Pour activer la publication basée sur des articles, téléchargez et installez les packages suivants à partir du portail de distribution logicielle d’Adobe. Installez-les pour créer un site Tragopan. \(Le site Tragopan est un exemple de site AEM de la base de connaissances avec des modèles pour une catégorie, une section et des pages d’article.\) Mettez à jour le site Tragopan pour générer la sortie du site AEM à l’aide des paramètres prédéfinis de sortie de l’éditeur web.
+Pour activer la publication basée sur des articles, téléchargez et installez les packages suivants à partir du portail de distribution logicielle d’Adobe. Installez-les pour créer un site Tragopan. \(Le site Tragopan est un exemple de site AEM de la base de connaissances avec des modèles pour une catégorie, une section et des pages d’article.\) Mettez à jour le site Tragopan pour générer la sortie du site AEM à l’aide des paramètres prédéfinis de sortie de l’éditeur.
 
 - Modèle de base de connaissances pour la publication basée sur des articles
 - Package de composants pour la publication basée sur des articles
@@ -56,4 +56,4 @@ Pour activer la publication basée sur des articles, téléchargez et installez 
 >[!ENDTABS]
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](customize-overview.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur](customize-overview.md)

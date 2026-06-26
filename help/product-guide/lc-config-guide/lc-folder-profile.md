@@ -25,9 +25,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 9132140a0305eb0507598a7caf5f704861879a93
 workflow-type: tm+mt
-source-wordcount: 1666
+source-wordcount: 1960
 ht-degree: 0%
 
 ---
@@ -211,6 +211,41 @@ Pour créer un modèle de sortie pour le contenu d’apprentissage et de formati
 
    ![](assets/scorm-template-added.png){width="350"}
 
+### Configuration des mises en page pour les modèles de sortie SCORM
+
+Les modèles de sortie SCORM vous permettent d’affecter différentes mises en page à différents types de sujets au sein d’un cours. Cela vous permet de personnaliser la présentation des leçons, des quiz, des pages de présentation et d’autres types de contenu dans le package SCORM généré.
+
+Par exemple, une page de leçon peut utiliser une mise en page qui comprend un en-tête, une zone de contenu et un pied de page, tandis qu’une page de quiz peut utiliser une mise en page simplifiée sans pied de page. Vous pouvez également créer des mises en page dédiées pour les pages d’aperçu ou tout autre type de rubrique et les mapper en conséquence.
+
+Les affectations de disposition sont configurées au niveau du **modèle de sortie**. Tout paramètre prédéfini SCORM qui utilise le modèle de sortie configuré appliquera les mappages de disposition sélectionnés lors de la génération des cours.
+Pour configurer la mise en page des modèles, procédez comme suit :
+
+1. Accédez à **Modèles de sortie** et ouvrez le **modèle de sortie SCORM** requis.
+
+2. Sélectionnez l’onglet **Paramètres**.
+
+3. Dans la fenêtre **Mises en page**, recherchez les types de rubriques disponibles.
+
+   ![](assets/page-layout-scorm.png){width="650"}
+
+4. Pour chaque type de sujet, sélectionnez la mise en page à utiliser lors de la génération du cours.
+
+   **Exemple :**
+   - **Mise En Page Par Défaut** : Leçon
+   - **Quiz** : Quiz
+   - **Aperçu** : Leçon
+
+5. Pour utiliser une nouvelle mise en page, créez la mise en page requise dans le modèle de sortie à l’aide de l’option **Nouvelle mise en page** du menu contextuel du panneau **Modèles de sortie**.
+
+   ![](assets/new-page-layout-scorm.png){width="650"}
+
+6. Revenez à l’onglet **Paramètres** et affectez la nouvelle disposition au type de rubrique approprié.
+
+7. Enregistrez la mise en page du modèle de sortie à l’aide de l’icône Enregistrer située dans le coin droit de la barre d’onglets .
+
+
+Lorsqu’un cours est généré à l’aide d’un paramètre prédéfini SCORM qui utilise le modèle de sortie configuré, chaque sujet est rendu selon la mise en page affectée à son type de sujet. Cela permet à différents types de contenu d’un même cours d’avoir des structures de page et une présentation visuelle personnalisées.
+
 ### Supprimer ou réorganiser des modèles
 
 Une fois ajoutés, vous pouvez supprimer ou réorganiser les modèles du panneau Paramètres.
@@ -244,10 +279,10 @@ L’onglet Paramètres prédéfinis de sortie vous permet de définir les format
 
 ## Gestion des profils de publication
 
-Cette section vous permet d’afficher, de créer et de gérer des profils de publication utilisés pour publier des cours sur SCORM Cloud. Chaque profil définit les paramètres de connexion et les détails de configuration requis pour publier un cours de formation dans un environnement SCORM Cloud spécifique.
+Cette section vous permet d’afficher, de créer et de gérer des profils de publication utilisés pour publier des cours dans SCORM Cloud ou Adobe Learning Manager (ALM). Chaque profil définit les paramètres de connexion et les détails de configuration requis pour publier un cours de formation sur un serveur de publication sélectionné.
 
-Vous pouvez créer plusieurs profils si vous devez publier sur différents comptes SCORM Cloud, ce qui vous offre flexibilité et contrôle sur votre processus de publication.
+Vous pouvez créer plusieurs profils pour publier du contenu sur différents comptes SCORM Cloud ou instances ALM, ce qui vous offre davantage de flexibilité et de contrôle sur votre workflow de publication.
 
-Fournissez les détails du serveur ainsi que l’ID client et le secret client de l’application cloud SCORM associée pour configurer le profil de publication pour SCORM cloud.
+Pour configurer un profil de publication, sélectionnez le serveur de publication de votre choix (SCORM Cloud ou Adobe Learning Manager) et fournissez les détails de connexion requis. Pour SCORM Cloud, saisissez les informations sur le serveur, ainsi que l’ID client et le secret client de l’application SCORM Cloud associée. Pour Adobe Learning Manager, fournissez les détails de serveur et d’authentification correspondants requis pour votre environnement ALM.
 
 ![](assets/configure-publish-profiles.png){width="350"}

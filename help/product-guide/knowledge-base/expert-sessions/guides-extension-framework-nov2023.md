@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 387
+source-wordcount: 386
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ Au cours de cette session, vous avez découvert les éléments suivants :
 - Découvrez les interfaces qui peuvent être étendues à l’aide de ce framework d’extension
 - Comprendre ce qui est déjà disponible pour que vous puissiez facilement commencer à créer vos propres fonctionnalités personnalisées
 - Apprenez la personnalisation en prenant des exemples :
-   - Ajout d’une section d’aide et de support dans l’éditeur web
+   - Ajout d’une section d’aide et de support dans l’éditeur
    - Ajout d’un autre panneau de gauche, par exemple pour afficher les tâches de l’utilisateur actuel
    - Ajout d’un bouton de barre d’outils supplémentaire pour la rubrique/le mappage utilisant ce framework
    - Extension des informations affichées dans le panneau des propriétés de contenu de l’éditeur web : ajout d’informations de post-traitement pour indiquer si le post-traitement est effectué sur un fichier donné ou non

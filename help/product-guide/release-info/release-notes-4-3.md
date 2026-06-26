@@ -135,7 +135,7 @@ Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 - Native PDF | Xref imprime le contenu du titre de la rubrique href au lieu du libellé Xref. (11322)
 - PDF natif | Impossible d’enregistrer les paramètres du modèle PDF. (10751)
 - PDF natif | Le texte s’étend au-delà de la largeur de colonne lors de l’inclusion de plusieurs xréfs. (10876)
-- L’élément Native PDF | `<note>` `</note>` ne génère pas de titre d’étendue supplémentaire de son type. (10549)
+- L’élément Native PDF | `<note>`&#x200B;`</note>` ne génère pas de titre d’étendue supplémentaire de son type. (10549)
 - Sortie JSON | La propriété `fmUuid` du nœud jcr:content de JSON est différente de l’« id » dans le fichier JSON. (11564)
 - Sortie JSON | Si le mappage et la rubrique portant le même nom de fichier sont présents, le JSON du mappage est supprimé. (11524)
 

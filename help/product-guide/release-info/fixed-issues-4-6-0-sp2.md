@@ -15,9 +15,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 371
+source-wordcount: 370
 ht-degree: 4%
 
 ---
@@ -43,7 +43,7 @@ Découvrez les [instructions de mise à niveau pour la version 4.6.0 du pack de 
 - La publication sur Salesforce échoue lorsque le contenu contient des espaces insécables. (23664)
 - Pour les rubriques comportant des erreurs telles que des liens rompus, la publication de Salesforce échoue et la barre de progression s’affiche indéfiniment. (22985)
 - Pour les mappages comportant des liens rompus, la publication du Salesforce échoue et la barre de progression s’affiche indéfiniment. (24963)
-- Si un lien externe contient un UUID, il passe en post-traitement et convertit le lien externe en lien UUID, rompant ainsi le lien dans l’éditeur web ainsi que sur les sites de publication. (22574)
+- Si un lien externe contient un UUID, il passe en post-traitement et convertit le lien externe en lien UUID, rompant ainsi le lien dans l’éditeur ainsi que sur les sites de publication. (22574)
 - Le `xref` est converti en lien relatif même lorsque la **portée** du lien est définie sur **externe**. (23059)
 - La génération native de PDF échoue pour le contenu avec l’attribut **chunk** défini sur **to-content**. (21772)
 - La boîte de dialogue **Modifier les propriétés** d&#39;une ligne de base n&#39;affiche pas les critères précédemment enregistrés pour la ligne de base dynamique. (23964)

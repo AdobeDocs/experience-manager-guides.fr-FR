@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+source-git-commit: 1833481e1801fa171901abafe5eb256baaa10b8f
 workflow-type: tm+mt
-source-wordcount: 4232
+source-wordcount: 4258
 ht-degree: 0%
 
 ---
@@ -414,6 +414,10 @@ Experience Manager Guides vous offre une prise en charge prête à l’emploi po
 À l&#39;aide des outils d&#39;équation de MathML, créez votre équation et sélectionnez **Insérer** pour l&#39;ajouter à votre document. L&#39;équation est insérée avec un arrière-plan gris clair.
 
 Vous pouvez à tout moment mettre à jour une équation en cliquant avec le bouton droit de la souris sur une équation existante et en sélectionnant **Modifier MathML** dans le menu contextuel.
+
+>[!NOTE]
+>
+> La génération MathML propage les `output-class` associées aux équations de MathML, ce qui permet de refléter le style configuré tel que les polices, les couleurs, les arrière-plans et autres mises en forme dans la sortie générée.
 
 ### Validation des équations dans l’éditeur de MathML
 

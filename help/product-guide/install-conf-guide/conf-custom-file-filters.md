@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 62195863-cbab-4c53-9cf0-b4a8d26d44f2
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
 
 # Configurer des filtres pour la boîte de dialogue de navigation des fichiers
 
-Lorsque vous travaillez dans l’éditeur web, vous devez utiliser la boîte de dialogue de navigation du fichier pour insérer des éléments tels qu’une image, une référence ou une référence de clé. La boîte de dialogue de navigation par défaut ne propose aucune option de filtrage de fichiers. Vous pouvez ajouter vos propres filtres qui vous permettront d’accéder facilement et rapidement aux fichiers requis.
+Lorsque vous travaillez dans l’éditeur, vous devez utiliser la boîte de dialogue de navigation du fichier pour insérer des éléments tels qu’une image, une référence ou une référence de clé. La boîte de dialogue de navigation par défaut ne propose aucune option de filtrage de fichiers. Vous pouvez ajouter vos propres filtres qui vous permettront d’accéder facilement et rapidement aux fichiers requis.
 
 Les onglets suivants fournissent des instructions pour ajouter vos options de filtrage de fichiers personnalisées à la boîte de dialogue de navigation des fichiers en fonction de votre configuration Experience Manager Guides : Cloud Service ou On-Premise.
 
@@ -65,7 +65,7 @@ Les onglets suivants fournissent des instructions pour ajouter vos options de fi
 
    Le deuxième filtre concerne les fichiers image. Les paramètres sont similaires au premier filtre, à l’exception du paramètre `value`. Le paramètre `value` prend pour valeur un tableau de types d’images. Tous les types de fichiers spécifiés dans le paramètre value sont recherchés et affichés dans la boîte de dialogue de navigation des fichiers, tous les autres types de fichiers sont ignorés.
 
-1. Enregistrez le fichier *ui\_config.json* et chargez-le. Rechargez ensuite l’éditeur web.
+1. Enregistrez le fichier *ui\_config.json* et chargez-le. Ensuite, rechargez l’éditeur.
 
    Lorsque vous lancez la boîte de dialogue de recherche de fichier, les options de filtre configurées dans le fichier ui\_config.json s’affichent.
 
@@ -118,7 +118,7 @@ Les onglets suivants fournissent des instructions pour ajouter vos options de fi
 
    Le deuxième filtre concerne les fichiers image. Les paramètres sont similaires au premier filtre, à l’exception du paramètre `value`. Le paramètre `value` prend pour valeur un tableau de types d’images. Tous les types de fichiers spécifiés dans le paramètre value sont recherchés et affichés dans la boîte de dialogue de navigation des fichiers, tous les autres types de fichiers sont ignorés.
 
-1. Enregistrez le fichier *ui\_config.json* et rechargez l’éditeur web.
+1. Enregistrez le fichier *ui\_config.json* et rechargez l’éditeur.
 
    Lorsque vous lancez la boîte de dialogue de recherche de fichier, les options de filtre configurées dans le fichier ui\_config.json s’affichent.
 
@@ -127,4 +127,4 @@ Les onglets suivants fournissent des instructions pour ajouter vos options de fi
 >[!ENDTABS]
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](customize-overview.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur](customize-overview.md)

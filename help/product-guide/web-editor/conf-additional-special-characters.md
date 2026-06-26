@@ -1,16 +1,17 @@
 ---
-title: Configuration de caractères spéciaux supplémentaires dans la barre d’outils de l’éditeur web
-description: Découvrez comment configurer des caractères spéciaux supplémentaires dans l’éditeur web d’AEM Guides.
+title: Configuration de caractères spéciaux supplémentaires dans la barre d’outils de l’éditeur
+description: Découvrez comment configurer des caractères spéciaux supplémentaires dans l’éditeur d’AEM Guides.
 feature: Web Editor
 role: User
-source-git-commit: 2198b9c77a0dfa888edbce5994da4721cb6127e6
+exl-id: 4007eb03-c100-4892-b293-f22b3f0082e2
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
-# Comment configurer des caractères spéciaux supplémentaires dans la barre d’outils de l’éditeur web pour On-Premise
+# Comment configurer des caractères spéciaux supplémentaires dans la barre d’outils de l’éditeur pour On-Premise
 
 Il existe une option de raccourci dans la barre d’outils de l’éditeur web pour permettre à l’auteur d’insérer déjà les caractères spéciaux.
 Vous pouvez voir la même chose dans la capture d’écran ci-dessous :

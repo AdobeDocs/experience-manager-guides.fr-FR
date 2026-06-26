@@ -7,8 +7,8 @@ level: Experienced
 exl-id: c5ac6537-d7e8-4408-b85d-b82d7c038591
 source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 10%
+source-wordcount: '796'
+ht-degree: 12%
 
 ---
 
@@ -103,4 +103,4 @@ La liste suivante contient des recommandations et des points liés aux groupes d
 
 - Pour donner à un utilisateur les droits de modifier l’état d’un document, veillez à l’ajouter dans la section Transition d’état du profil d’état du document.
 
-[1](#fnsrc_1) Si *Auteurs* et *Éditeurs* sont invités pour une révision.[2](#fnsrc_2) selon les droits accordés à l’utilisateur dans le profil d’état du document.
+[1](#fnsrc_1) Si *Auteurs* et *Éditeurs* sont invités à effectuer une révision.[2](#fnsrc_2) En fonction des droits accordés à l’utilisateur dans le profil d’état du document.
