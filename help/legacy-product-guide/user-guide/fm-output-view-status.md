@@ -6,10 +6,17 @@ role: User
 hide: true
 exl-id: bf5a4365-0183-43d5-a39a-b9eb8a34b27d
 TQID: https://experienceleague.adobe.com/FP5RxNtyWcdS-xpw2Atttt3x6DHx73Ljv-Ym91IxY5s
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2: id: bf79f6d3-0ad0-4d82-99e4-42ce98324d60id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: bf79f6d3-0ad0-4d82-99e4-42ce98324d60
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 7ba2ad081f90fcbd38c7b34524a9ed1378e64f0d
 workflow-type: tm+mt
 source-wordcount: 544
@@ -46,7 +53,7 @@ Pour afficher la file d’attente de génération de sortie, procédez comme sui
 > Vous pouvez définir des attributs au niveau des cellules, des lignes ou des colonnes
 >
 > <details>
-&gt; <summary>Afficher les étapes</summary>
+>&gt; <summary>Afficher les étapes</summary>
 >
 > Vous pouvez également définir des attributs sur plusieurs cellules, une ligne entière ou une colonne d’un tableau. Par exemple, pour aligner une cellule de tableau, faites glisser et sélectionnez la cellule souhaitée. Dans le panneau Propriétés du contenu (à droite), la propriété **Type** devient **entrée**.
 >
@@ -86,7 +93,7 @@ Vous pouvez également définir des attributs sur plusieurs cellules, une ligne 
 > Vous pouvez définir des attributs au niveau de la cellule, de la ligne ou de la colonne.
 >
 > <details>
-&gt; <summary>Afficher les étapes</summary>
+>&gt; <summary>Afficher les étapes</summary>
 >
 > Vous pouvez également définir des attributs sur plusieurs cellules, une ligne entière ou une colonne d’un tableau. Par exemple, pour aligner une cellule de tableau, faites glisser et sélectionnez la cellule souhaitée. Dans le panneau Propriétés du contenu (à droite), la propriété **Type** devient **entry**.
 >
@@ -104,5 +111,5 @@ Vous pouvez également définir des attributs sur plusieurs cellules, une ligne 
 
 
 
-**Rubrique parente :**[ générer la sortie des documents FrameMaker](fm-output-generatation.md)
+**Rubrique parente :**&#x200B;[&#x200B; générer la sortie des documents FrameMaker](fm-output-generatation.md)
 
