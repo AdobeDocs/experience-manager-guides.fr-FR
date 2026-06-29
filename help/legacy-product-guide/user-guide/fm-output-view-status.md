@@ -17,9 +17,9 @@ subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c1b7d852b148187cb5d33256223d5e0f5498aa7e
+source-git-commit: 7ba2ad081f90fcbd38c7b34524a9ed1378e64f0d
 workflow-type: tm+mt
-source-wordcount: 449
+source-wordcount: 544
 ht-degree: 0%
 
 ---
@@ -66,22 +66,50 @@ Pour afficher la file d’attente de génération de sortie, procédez comme sui
 >
 > </details>
 
-## Définir des attributs sur plusieurs cellules, une ligne entière ou une colonne d’un tableau
+
+
+**Définir des attributs sur plusieurs cellules, une ligne entière ou une colonne d’un tableau**
 
 Vous pouvez définir des attributs au niveau de la cellule, de la ligne ou de la colonne.
 
+<details>
+<summary>Afficher les étapes</summary>
+
+Vous pouvez également définir des attributs sur plusieurs cellules, une ligne entière ou une colonne d’un tableau. Par exemple, pour aligner une cellule de tableau, faites glisser et sélectionnez la cellule souhaitée. Dans le panneau Propriétés du contenu (à droite), la propriété **Type** devient **entrée**.
+
+1. Dans la section **Attributs**, sélectionnez **+Ajouter**.
+1. Sélectionnez l’attribut `@valign` dans la liste déroulante **Attribut**.
+1. Dans la liste déroulante Valeur , sélectionnez l’alignement du texte à appliquer aux cellules de tableau sélectionnées.
+1. Sélectionnez **Ajouter.**
+
+   ![](images/align-table-cell_cs.png)
+
+   </details>
+
+>[!BEGINSHADEBOX]
+>
+> **Comment définir des attributs sur plusieurs cellules, une ligne entière ou une colonne d’un tableau**
+>
+> Vous pouvez définir des attributs au niveau de la cellule, de la ligne ou de la colonne.
+>
 > <details>
 >&gt; <summary>Afficher les étapes</summary>
 >
-> Vous pouvez également définir des attributs sur plusieurs cellules, une ligne entière ou une colonne d’un tableau. Par exemple, pour aligner une cellule de tableau, faites glisser et sélectionnez la cellule souhaitée. Dans le panneau Propriétés du contenu (à droite), la propriété **Type** devient **entrée**.
+> Vous pouvez également définir des attributs sur plusieurs cellules, une ligne entière ou une colonne d’un tableau. Par exemple, pour aligner une cellule de tableau, faites glisser et sélectionnez la cellule souhaitée. Dans le panneau Propriétés du contenu (à droite), la propriété **Type** devient **entry**.
 >
 > 1. Dans la section **Attributs**, sélectionnez **+Ajouter**.
-> 1. Sélectionnez l’attribut `@valign` dans la liste déroulante **Attribut**.
-> 1. Dans la liste déroulante Valeur , sélectionnez l’alignement du texte à appliquer aux cellules de tableau sélectionnées.
-> 1. Sélectionnez **Ajouter.**
+> 1. Sélectionnez l’attribut `@valign` dans le menu déroulant **Attribut**.
+> 1. Dans la liste déroulante **Valeur**, sélectionnez l’alignement du texte souhaité.
+> 1. Sélectionnez **Ajouter**.
 >
 > ![](images/align-table-cell_cs.png)
 >
 > </details>
+>
+>[!ENDSHADEBOX]
+
+
+
 
 **Rubrique parente :**&#x200B;[&#x200B; générer la sortie des documents FrameMaker](fm-output-generatation.md)
+
