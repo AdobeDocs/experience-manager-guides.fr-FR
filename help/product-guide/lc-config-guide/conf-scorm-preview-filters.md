@@ -17,7 +17,7 @@ Cet article explique comment configurer l’aperçu SCORM Experience Manager Gui
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 1. Suivez les instructions fournies dans [Remplacements de la configuration](../install-conf-guide/download-install-config-override.md) pour créer le fichier de configuration.
 
