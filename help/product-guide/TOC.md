@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: 1aea696b5f5eba9027a71246f7bff0d0fef93221
+source-git-commit: 31ea563a6878c340bba73dfa549fae7cd399720f
 workflow-type: tm+mt
-source-wordcount: '2527'
+source-wordcount: '2537'
 ht-degree: 11%
 
 ---
@@ -18,8 +18,11 @@ ht-degree: 11%
    - [Feuille de route des versions d’AEM Guides](./release-info/aem-guides-releases-roadmap.md)
    - Notes de mise à jour {#release-notes}
       - Services cloud {#cloud-release-notes}
-         - {hide-from-toc}[&#x200B; Instructions de déploiement &#x200B;](./release-info/deploy-xml-on-aemaacs.md)
+         - {hide-from-toc}[ Instructions de déploiement ](./release-info/deploy-xml-on-aemaacs.md)
          - Versions De 2026 {#2026-releases}
+            - Version 2026.07.0 {#2607-release}
+               - [Problèmes résolus](./release-info/fixed-issues-2026-07-0.md)
+               - [Instructions de mise à niveau](./release-info/upgrade-instructions-2026-07-0.md)
             - Version 2026.06.0 {#2606-release}
                - [Nouveautés](./release-info/whats-new-2026-06-0.md)
                - [Problèmes résolus](./release-info/fixed-issues-2026-06-0.md)
@@ -37,7 +40,7 @@ ht-degree: 11%
             - Version 2026.03.0 {#2603-release}
                - {hide-from-toc}[Nouveautés](./release-info/whats-new-2026-03-0.md)
                - {hide-from-toc}[Correction de problèmes](./release-info/fixed-issues-2026-03-0.md)
-               - {hide-from-toc}[&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-2026-03-0.md)
+               - {hide-from-toc}[ Instructions de mise à niveau ](./release-info/upgrade-instructions-2026-03-0.md)
             - Version 2026.01.0 {#2601-release}
                - [Nouveautés](./release-info/whats-new-2026-01-0.md)
                - [Problèmes résolus](./release-info/fixed-issues-2026-01-0.md)
@@ -156,7 +159,7 @@ ht-degree: 11%
             - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0-sp4.md)
          - Version 5.0.0 SP3 {#500-sp3-release}
             - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp3.md)
-            - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-5-0-0-sp3.md)
+            - [ Instructions de mise à niveau ](./release-info/upgrade-instructions-5-0-0-sp3.md)
          - Version 5.0.0 SP2 {#500-sp2-release}
             - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp2.md)
             - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0-sp2.md)
@@ -175,7 +178,7 @@ ht-degree: 11%
             - [Instructions de mise à niveau](./release-info/upgrade-instructions-4-6-0-sp2.md)
          - Version 4.6.0 SP1 {#460-sp1-release}
             - [Correction de problèmes](./release-info/fixed-issues-4-6-0-sp1.md)
-            - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-4-6-0-sp1.md)
+            - [ Instructions de mise à niveau ](./release-info/upgrade-instructions-4-6-0-sp1.md)
          - Version 4.6.0 {#460-release}
             - [Nouveautés](./release-info/whats-new-4-6.md)
             - [Correction de problèmes](./release-info/fixed-issues-4-6-0.md)
@@ -202,13 +205,13 @@ ht-degree: 11%
                - [Notes de mise à jour de la version 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Notes de mise à jour 4.2](./release-info/release-notes-4-2.md)
          - [Notes de mise à jour 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notes de mise à jour 4.0.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Notes de mise à jour 3.8.x](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Notes de mise à jour 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Notes de mise à jour 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Guide de l’utilisateur (nouvelle interface utilisateur) {#user-guide}
    - Présentation {#about-aemg}
       - [À propos  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - Fonctionnalités [!DNL AEM Guides] et clés {#aemg-works-features}
-         - [Fonctionnement  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+         - [Fonctionnement  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
          - [Fonctionnalités [!DNL AEM Guides] clés](./user-guide/intro-dxml-features.md)
    - Page d’accueil {#home-page}
       - [Expérience de la page d’accueil [!DNL AEM Guides]](./user-guide/intro-home-page.md)
@@ -381,7 +384,7 @@ ht-degree: 11%
             - [Créer un quiz](./learning-content/create-quiz.md)
             - [Modifier le quiz](./learning-content/edit-quiz.md)
             - [Insérer des questions dans un quiz](./learning-content/quiz-insert-questions.md)
-            - [&#x200B; Propriétés du quiz &#x200B;](./learning-content/quiz-properties.md)
+            - [ Propriétés du quiz ](./learning-content/quiz-properties.md)
             - Banque de questions {#question-bank}
                - [Créer une banque de questions](./learning-content/create-qb.md)
                - [Insérer des questions depuis la banque de questions](./learning-content/insert-questions.md)
@@ -401,6 +404,7 @@ ht-degree: 11%
          - [Configuration des profils de dossier](./lc-config-guide/lc-folder-profile.md)
          - [Bonnes pratiques pour configurer la structure de dossiers](./lc-config-guide/best-practices-folder-structure.md)
          - [Configurer d’autres paramètres](./lc-config-guide/lc-other-settings.md)
+         - [Configuration des filtres de prévisualisation SCORM](./lc-config-guide/conf-scorm-preview-filters.md)
          - [Mesures clés SCORM](./lc-config-guide/learning-course-parameters.md)
       - Tutoriels vidéo {#lc-video}
          - [Workflow de création](./lc-video-tutorials/author-workflow.md)
@@ -414,7 +418,7 @@ ht-degree: 11%
       - Résolution des problèmes {#troubleshooting}
          - [Timeout de session](./user-guide/session-timeout-prompt.md)
 - Guide de l’utilisateur (ancienne interface utilisateur) {#user-guide-old-ui}
-   - [Présentation d’AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Présentation d’AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation et configuration {#install-conf-guide}
    - [Téléchargement, installation et mise à niveau](./install-conf-guide/introduction.md)
    - Processus d’installation de Cloud Service {#deploy-conf-aemg-cs}
@@ -509,7 +513,7 @@ ht-degree: 11%
       - [Configurer les états du document](./install-conf-guide/customize-doc-state.md)
       - [Configurer des filtres d’état de document pour Cloud Service](./install-conf-guide/conf-doc-state-filters.md)
    - Configuration des paramètres de Workspace {#workspace-configs}
-      - [Paramètres &#x200B;](./install-conf-guide/workspace-settings.md)
+      - [Paramètres ](./install-conf-guide/workspace-settings.md)
    - Recherche AEM Assets {#aem-asset-search}
       - [Configuration de la recherche pour l’interface utilisateur d’AEM Assets](./install-conf-guide/conf-dita-search.md)
    - Paramètres de génération de sortie {#output-gen-config}
