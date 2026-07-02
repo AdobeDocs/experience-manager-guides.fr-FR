@@ -1,9 +1,9 @@
 ---
 title: Notes de mise à jour | Correction de problèmes dans Adobe Experience Manager Guides, version 2026.06.0
 description: Découvrez les correctifs de bugs de la version 2026.06.0 d’Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 010a11e20d518064549ce7d66648586f49f572ec
+source-git-commit: 318f2b7a530e50ca4432313650801b2293d6697e
 workflow-type: tm+mt
-source-wordcount: '2174'
+source-wordcount: '2171'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Adobe a identifié les problèmes connus suivants pour la version 2026.06.0 :
 
 - Le passage entre les modes Source et Auteur entraîne des incohérences de contenu, certaines parties de la rubrique disparaissant ou n’étant pas reflétées entre les modes. (GUIDES-47432)
 
-- Lorsque vous travaillez en mode Plan avec l’option **Suivi des modifications** activée, le rejet d’une modification supprime l’intégralité du contenu de la balise au lieu de rejeter uniquement le contenu modifié spécifique. (GUIDES-48319)
+- Lorsque vous utilisez le suivi des modifications, le rejet d’une insertion de texte importé supprime tout le contenu de la balise au lieu de rejeter uniquement le contenu inséré spécifique. (GUIDES-48319)
 
 - Le bouton **Exporter en tant que PDF** en mode Aperçu n’effectue aucune action lorsque la barre d’outils de l’éditeur est personnalisée à l’aide de `editor_toolbar.json` dans un profil de dossier. (GUIDES-47525)
 
