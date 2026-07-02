@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: e8cdb1fe05d839d9167e834577f46e17f9ed28b5
 workflow-type: tm+mt
-source-wordcount: 1460
+source-wordcount: 1470
 ht-degree: 0%
 
 ---
@@ -57,8 +57,7 @@ La vue Source affiche le code XML sous-jacent qui constitue la rubrique. Si vous
 
   Dans la capture d’écran ci-dessus, une mise en surbrillance croisée est utilisée pour pointer la ligne contenant un XML erroné.
 
-- La fonction Rechercher et remplacer vous permet de rechercher du texte, un élément ou un attribut dans la vue Source.
-Pour plus d’informations, consultez la description de la fonctionnalité **Rechercher et remplacer** dans la section [Barre d’outils principale](web-editor-features.md#id#id2051EA0G05Z).
+- La fonction Rechercher et remplacer vous permet de rechercher du texte, un élément ou un attribut dans la vue Source.Pour plus d’informations, consultez la description de la fonctionnalité **Rechercher et remplacer** dans la section [Barre d’outils principale](web-editor-features.md#id#id2051EA0G05Z).
 
 - La vue Source propose de nombreux raccourcis pour vous aider à parcourir et à travailler rapidement sur un document. Le tableau suivant répertorie les actions prises en charge et leurs touches de raccourci :
 
@@ -162,6 +161,8 @@ Pour exporter une rubrique en tant que PDF, procédez comme suit :
    > Assurez-vous d’avoir activé la fenêtre pop-up dans la configuration du navigateur, sinon le PDF ne sera pas téléchargé.
 
    Le PDF est généré et ouvert dans un nouvel onglet ou une boîte de dialogue s’affiche pour vous permettre d’enregistrer le PDF sur votre système local.
+
+   Pour plus d’informations, [Afficher le PDF](./images/best-practices-guide.pdf)
 
 
 **Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur web](web-editor.md)
