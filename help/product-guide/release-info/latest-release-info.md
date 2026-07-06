@@ -56,7 +56,7 @@ Les principales différences entre les versions UUID et non UUID sont les suivan
 
 Lorsque vous effectuez une mise à niveau d’une ancienne version vers une version plus récente d’[!DNL AEM Guides], vous devrez peut-être exécuter des scripts de migration. Consultez les notes de mise à jour et la documentation spécifique aux versions pour obtenir des instructions de mise à niveau.
 
-Tous les chemins de mise à niveau ne sont pas directement pris en charge. Par exemple, la mise à niveau directe vers la version 4.0 n’est possible qu’à partir de la version 3.8.Si vous utilisez une version antérieure à la version 3.8, reportez-vous à la documentation spécifique à votre version pour obtenir des instructions de mise à niveau [Archive de l’aide](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).Contactez votre responsable du succès client pour valider le chemin de mise à niveau.
+Tous les chemins de mise à niveau ne sont pas directement pris en charge. Par exemple, la mise à niveau directe vers la version 4.0 n’est possible qu’à partir de la version 3.8.Si vous utilisez une version antérieure à la version 3.8, reportez-vous à la documentation spécifique à votre version pour obtenir des instructions de mise à niveau [Archive de l’aide](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html).Contactez votre responsable du succès client pour valider le chemin de mise à niveau.
 
 **[!DNL AEM Guides]versions**
 
