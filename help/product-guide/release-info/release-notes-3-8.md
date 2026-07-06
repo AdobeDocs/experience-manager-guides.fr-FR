@@ -73,7 +73,7 @@ Un certain nombre de nouvelles fonctionnalités et améliorations ont été intr
 
 - Une nouvelle fonctionnalité de gestion des libellés de version a été ajoutée. Elle vous permet d&#39;appliquer des libellés aux versions actuelles ou antérieures d&#39;une rubrique.
 
-  ![ Gestion des libellés de version ](assets/version-label-management.avif)
+  ![&#x200B; Gestion des libellés de version &#x200B;](assets/version-label-management.avif)
 
 - Ajout d’une nouvelle fonctionnalité : « Approuver pour publication » avec laquelle un auteur peut marquer une ressource comme approuvée et la verrouiller pour modification.
 - Lors du lancement d’un processus de révision, vous pouvez désormais filtrer les rubriques en fonction de leur état.
