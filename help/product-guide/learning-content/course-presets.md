@@ -13,9 +13,9 @@ feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: b2325d79046cfc041a3b431517df1cc0d46826d6
 workflow-type: tm+mt
-source-wordcount: 136
+source-wordcount: 137
 ht-degree: 0%
 
 ---
@@ -26,6 +26,6 @@ Lors de la publication d’un cours, vous pouvez choisir SCORM et PDF pour diffu
 
 - **Sortie SCORM :** le paramètre prédéfini de sortie SCORM vous permet de publier du contenu de cours entièrement compatible avec les systèmes de gestion de l’apprentissage (LMS). La norme actuellement prise en charge pour la sortie SCORM est SCORM 2004 - 4e édition.
 
-- **PDF :** le paramètre prédéfini de sortie PDF vous permet de publier le contenu du cours dans un format professionnel prêt à être imprimé. Le format PDF le rend idéal pour partager du contenu à des fins de révision ou d’archivage.
+- **PDF :** le paramètre prédéfini de sortie PDF vous permet de publier le contenu du cours dans un format professionnel prêt à être imprimé. Le format PDF le rend idéal pour partager le contenu à des fins de révision ou d’archivage.
 
 Pour une présentation vidéo sur la création, la configuration et la génération d’une sortie pour un paramètre prédéfini, reportez-vous à la ![](assets/Smock_VideoCheckedOut_18_N.svg) [Paramètres prédéfinis pris en charge](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content).
