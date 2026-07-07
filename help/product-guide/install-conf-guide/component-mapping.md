@@ -4,9 +4,10 @@ description: Découvrez comment effectuer le mappage des composants pour AEM Sit
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 9243592c-1a3c-4218-8674-19305dd6f17a
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -22,8 +23,7 @@ Utilisez un tableau JSON de règles (votre `componentmapping.json`) pour convert
 ### Cibler l’élément HTML et sa classe
 
 - Écrivez le nom de balise HTML en `name`.
-- Incluez la classe CSS appliquée à cet élément dans `class`, si la classe existe.
-Exemple :
+- Incluez la classe CSS appliquée à cet élément dans `class`, si la classe existe.Exemple :
 
   ```html
   <div class ="sample-class">
@@ -48,8 +48,7 @@ Lors de la définition des éléments ci-dessus, assurez-vous des points suivant
 
 ### Utilisez attributeMap pour enregistrer les propriétés sur le nœud JCR
 
-Ajoutez des entrées à `attributeMap` pour définir des propriétés sur le nœud de sortie. Chaque entrée génère des `attrs[to] = value`.
-Modèles courants :
+Ajoutez des entrées à `attributeMap` pour définir des propriétés sur le nœud de sortie. Chaque entrée génère des `attrs[to] = value`.Modèles courants :
 
 ```json
 // copy an attribute
@@ -165,8 +164,7 @@ Découvrez comment créer un composant de tableau personnalisé qui affiche des 
 
 ### Ce que vous allez créer
 
-Composant de tableau personnalisé qui accepte le contenu du tableau HTML et qui remplace chaque `<img>` qu’il contient par la sortie du composant Image principal AEM. Vous pouvez ainsi réutiliser les fonctionnalités de Core Image (images réactives, gestion des alternatives, accessibilité) tout en gardant un contrôle total sur les balises de votre tableau.
-Grâce à cette approche, vous pouvez créer d’autres composants personnalisés pour votre site web AEM (à l’aide du mappage des composants composites).
+Composant de tableau personnalisé qui accepte le contenu du tableau HTML et qui remplace chaque `<img>` qu’il contient par la sortie du composant Image principal AEM. Vous pouvez ainsi réutiliser les fonctionnalités de Core Image (images réactives, gestion des alternatives, accessibilité) tout en gardant un contrôle total sur les balises de votre tableau.Grâce à cette approche, vous pouvez créer d’autres composants personnalisés pour votre site web AEM (à l’aide du mappage des composants composites).
 
 ### Pourquoi cette approche
 
@@ -174,7 +172,7 @@ Grâce à cette approche, vous pouvez créer d’autres composants personnalisé
 - **Cohérence** : les images de votre tableau se comportent de la même manière que les images ailleurs sur le site.
 - **Côté serveur** : les images sont rendues sur le serveur pour des raisons de performances, d’optimisation du moteur de recherche et d’accessibilité.
 
-### Conditions préalables
+### Prérequis
 
 - AEM SDK en cours d’exécution et ce projet a été extrait.
 - Composants principaux installés sur votre instance AEM.
