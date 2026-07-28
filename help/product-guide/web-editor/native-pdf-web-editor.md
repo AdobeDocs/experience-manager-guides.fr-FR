@@ -5,29 +5,14 @@ exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Native PDF Output
 role: User
 TQID: https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: afb45297-4313-4f67-818e-bc0b03abe086
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: d6596f3f-92a7-43ec-b444-237db6adad05
-  - id: f6b497f1-f8e0-42ce-8e95-56c28d94026e
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9ab219dd067047e2c9f00ead6d0538df450eb66
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05id: f6b497f1-f8e0-42ce-8e95-56c28d94026eid: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
-source-wordcount: 3455
+source-wordcount: 3561
 ht-degree: 1%
 
 ---
@@ -52,7 +37,7 @@ Pour créer le paramètre prédéfini PDF à partir de la console de mappage, pr
 
    Vous pouvez également accéder au fichier de mappage à partir du widget **Fichiers récents** dans la section [Aperçu](../user-guide/intro-home-page.md#overview). Le fichier de mappage sélectionné s’ouvre dans la console Mappage .
 1. Dans l’onglet **Paramètres prédéfinis de sortie**, sélectionnez l’icône + pour créer un paramètre prédéfini de sortie.
-1. Sélectionnez **&#x200B;**&#x200B;dans la liste déroulante Type de la boîte de dialogue **Nouveau paramètre prédéfini de sortie**.
+1. Sélectionnez **** dans la liste déroulante Type de la boîte de dialogue **Nouveau paramètre prédéfini de sortie**.
 1. Dans le champ **Nom**, attribuez un nom à ce paramètre prédéfini.
 1. Dans le champ **Générer le PDF à l’aide de**, sélectionnez **Native-PDF**.
 1. Sélectionnez l’option **Ajouter au profil du dossier actuel** pour créer un paramètre prédéfini de sortie dans le profil du dossier actuel. L’![icône de profil de dossier](./assets/global-preset-icon.svg) indique un paramètre prédéfini au niveau du profil de dossier.
@@ -73,6 +58,10 @@ Une fois le paramètre prédéfini créé, configurez les paramètres prédéfin
 
 Utilisez pour spécifier des paramètres de sortie de base, tels que le chemin de sortie, le nom de fichier PDF, etc.
 
+>[!NOTE]
+>
+>Si la [fonction de contrôle de l’intégrité](../install-conf-guide/conf-health-check-preset.md) est configurée pour votre profil de dossier, un bouton supplémentaire **Exécuter le contrôle de l’intégrité avant la génération de la sortie** s’affiche dans l’onglet Général . Utilisez-le pour qu’un contrôle de l’intégrité s’exécute automatiquement chaque fois que vous générez une sortie avec ce paramètre prédéfini, de sorte que vous n’ayez pas à le déclencher manuellement à partir de la carte. Le rapport est ajouté au journal de publication à titre purement informatif. Cela ne bloque ni ne retarde votre sortie, même si la vérification détecte des erreurs ou des avertissements non résolus. En savoir plus sur [Utilisation de la fonction de contrôle de l’intégrité dans Experience Manager Guides](../user-guide/map-editor-other-features.md#run-health-check-on-a-map).
+
 | Configuration | Description |
 | --- | --- |
 | **Chemin de sortie** | Chemin d’accès dans le référentiel AEM où est stockée la sortie PDF. Assurez-vous que le chemin de sortie ne se trouve pas dans le dossier du projet. Le chemin de sortie est défini via la variable `${base_output_path}`, qui est configurée par l’administrateur. Pour configurer le chemin de sortie, affichez [Configurer l’emplacement de sortie de base pour les services cloud](../native-pdf/configure-base-location-cs.md) ou [Configurer l’emplacement de sortie de base pour les services On-prem](../native-pdf/configure-base-output-location.md) en fonction du service que vous utilisez. <br>Vous pouvez également utiliser les variables prêtes à l’emploi suivantes pour définir le chemin de sortie. Vous pouvez utiliser une ou plusieurs variables pour définir cette option. <br> `${map_filename}` : utilise le nom des fichiers de plan DITA pour créer le chemin de destination. <br> `${map_title}` : utilise le titre du plan DITA pour créer le chemin de destination. <br>`${preset_name}` : utilise le nom du paramètre prédéfini de sortie pour créer le chemin de destination. <br> `${language_code}` : utilise le code de langue dans lequel se trouve le fichier de mappage pour créer le chemin de destination. <br> `${map_parentpath}` : utilise le chemin d’accès complet du fichier de mappage pour créer le chemin d’accès de destination.  <br>`${path_after_langfolder}` : utilise le chemin d’accès du fichier de mappage situé après le dossier de langue pour créer le chemin d’accès de destination. |
@@ -81,8 +70,13 @@ Utilisez pour spécifier des paramètres de sortie de base, tels que le chemin d
 | **Utiliser niveau de référence** | Si vous avez créé une ligne de base pour le plan DITA sélectionné, sélectionnez cette option pour spécifier la version que vous souhaitez publier. Voir [Utilisation de la ligne de base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) pour plus d’informations. |
 | **Créer un PDF avec Barre de modification entre les versions publiées** | Utilisez les options suivantes pour créer un PDF présentant les différences de contenu entre deux versions à l’aide des barres de modification : <br><ul><li> **Ligne de base de la version précédente** Sélectionnez la version de ligne de base à comparer à la version actuelle ou à une autre ligne de base. Une barre de modification s’affiche dans le PDF pour indiquer le contenu modifié. Une barre de modification est une ligne verticale qui identifie visuellement le contenu nouveau ou révisé. La barre de modification s’affiche à gauche du contenu qui a été inséré, modifié ou supprimé. <br> **Remarque** : Si vous sélectionnez **Utiliser niveau de référence** et choisissez un niveau de référence à publier, la comparaison est effectuée entre les deux versions de niveau de référence sélectionnées. Par exemple, si vous choisissez la version de référence 1.3 sous **Utiliser la référence** et la version 1.1 sous **Ligne de base de la version précédente**, la comparaison sera effectuée entre la version de référence 1.1 et la version de référence 1.3. <br><li> **Afficher le texte ajouté** Sélectionnez cette option pour afficher le texte inséré en vert et souligné. Cette option est sélectionnée par défaut. <br> <li> **Afficher le texte supprimé** Sélectionnez cette option pour afficher le texte supprimé en rouge et barré. Cette option est sélectionnée par défaut. <br>**Remarque** vous pouvez également personnaliser la mise en forme de la barre de modification, du contenu inséré ou du contenu supprimé à l’aide de la feuille de style.<br></ul> |
 | **Langue** | Sélectionnez la langue dans laquelle vous souhaitez que la sortie soit traduite. <br> **Remarque** : les textes de référence croisée tels que « Voir sur le chapitre » ou « Voir sur la page » sont contrôlés par une variable de langue. La variable utilise la langue définie dans la rubrique via l’attribut `xml:lang`. Si aucune langue n’est spécifiée, la langue prédéfinie est utilisée. Si les deux sont manquants, la valeur par défaut est l’anglais (en_US). |
-| **Arguments de ligne de commande DITA-OT** | Lorsque vous activez **Activer le prétraitement DITA-OT**, le champ **Arguments de ligne de commande DITA-OT** devient disponible. Ici, vous pouvez spécifier les arguments supplémentaires que DITA-OT doit traiter lors de la génération de la sortie. Pour plus d&#39;informations sur les arguments de ligne de commande pris en charge dans DITA-OT, consultez la [documentation DITA-OT](https://www.dita-ot.org/).<br>**REMARQUE :** les liens connexes définis dans les tables de relation DITA (`<reltable>`) ne sont pas inclus par défaut dans la sortie Native PDF. Utilisez `-Dargs.rellinks=nofamily` arguments DITA-OT pour inclure ces liens connexes dans la sortie Native PDF. |
+| **Arguments de ligne de commande DITA-OT** | Lorsque vous activez **Activer le prétraitement DITA-OT**, le champ **Arguments de ligne de commande DITA-OT** devient disponible. Ici, vous pouvez spécifier les arguments supplémentaires que DITA-OT doit traiter lors de la génération de la sortie. Pour plus d&#39;informations sur les arguments de ligne de commande pris en charge dans DITA-OT, consultez la [documentation DITA-OT](https://www.dita-ot.org/).<br>**REMARQUE :** <br> les liens connexes définis dans les tables de relation DITA (`<reltable>`) ne sont pas inclus par défaut dans la sortie Native PDF. Utilisez `-Dargs.rellinks=nofamily` argument DITA-OT pour inclure ces liens connexes dans la sortie Native PDF. <br> Pour les mappages imbriqués, l’attribut `toc="no"` défini sur une référence de mappage n’exclut pas ses rubriques enfants de la table des matières par défaut. Utilisez `-Dpreprocess.move-meta-entries.skip=false` argument DITA-OT pour vous assurer que les rubriques enfants sont exclues de la table des matières pour ces mappages. |
 | **Workflow de post-génération** | Sélectionnez cette option pour afficher une liste déroulante contenant tous les workflows configurés dans AEM. Vous pouvez sélectionner le workflow à exécuter une fois le workflow de génération de PDF terminé. |
+
+>[!NOTE]
+>
+>- Les liens définis dans les tables de relation DITA (`<reltable>`) ne sont pas inclus par défaut dans la sortie Native PDF. Utilisez ce champ pour transmettre l&#39;argument DITA-OT `-Dargs.rellinks=nofamily` et inclure ces liens connexes dans la sortie.
+>
 
 **Métadonnées**
 
@@ -96,7 +90,7 @@ Ces métadonnées sont mappées aux métadonnées dans l’onglet **Description*
 
 <img src="assets/pdf-metadata.png" alt="onglet métadonnées" width="600">
 
-Dans les paramètres prédéfinis de sortie, sélectionnez **&#x200B;**&#x200B;> **Native-PDF** > **Métadonnées** pour ajouter et personnaliser des options de métadonnées.
+Dans les paramètres prédéfinis de sortie, sélectionnez **** > **Native-PDF** > **Métadonnées** pour ajouter et personnaliser des options de métadonnées.
 
 * **Utiliser les métadonnées ajoutées dans topicmeta**
 
@@ -104,24 +98,26 @@ Dans les paramètres prédéfinis de sortie, sélectionnez **&#x200B;**&#x200B;>
 
 * **Fournir un fichier XMP**
 
-  Vous pouvez également remplir directement les champs de métadonnées en important le fichier [&#128279;](https://www.adobe.com/fr/products/xmp.html) (Extensible Metadata Platform). Vous pouvez télécharger un exemple de fichier XMP ici.
+  Vous pouvez également remplir directement les champs de métadonnées en important le fichier [](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform). Vous pouvez télécharger un exemple de fichier XMP ici.
 
   [Téléchargement](assets/SampleXMP.xmp)
 
   Vous pouvez également générer un fichier XMP à l’aide d’Adobe Acrobat.
-   1. Sélectionnez **Fichier** > **Propriétés** dans Acrobat.
-   1. Sous **Description**, sélectionnez **Métadonnées supplémentaires**.
-   1. Dans le panneau de gauche, sélectionnez **Avancé**.
-   1. Sélectionnez **Enregistrer**.
+  1. Sélectionnez **Fichier** > **Propriétés** dans Acrobat.
+  1. Sous **Description**, sélectionnez **Métadonnées supplémentaires**.
+  1. Dans le panneau de gauche, sélectionnez **Avancé**.
+  1. Sélectionnez **Enregistrer**.
 
   Le fichier XMP est enregistré sur l’appareil.
 
 * **Fournissez des noms et des valeurs de métadonnées**
 
-   1. Ajoutez un nom en le sélectionnant dans la liste déroulante ou ajoutez des métadonnées personnalisées en saisissant directement dans le champ du nom.
-   1. Saisissez la valeur pour les métadonnées et sélectionnez l’icône « + ».Les métadonnées sont ajoutées à la liste des métadonnées du PDF.
+  1. Ajoutez un nom en le sélectionnant dans la liste déroulante ou ajoutez des métadonnées personnalisées en saisissant directement dans le champ du nom.
+  1. Saisissez la valeur pour les métadonnées et sélectionnez l’icône « + ».
+     Les métadonnées sont ajoutées à la liste des métadonnées du PDF.
 
-Vous pouvez également utiliser des variables pour définir les valeurs des métadonnées.  Vous pouvez utiliser les métadonnées définies pour le fichier DITA map ou bookmap en tant que variables. Les métadonnées se trouvent sous le nœud `/jcr:content/metadata` du fichier de plan DITA ou de bookmap.Lorsque vous utilisez une variable, sa valeur est sélectionnée dans les propriétés de métadonnées.
+Vous pouvez également utiliser des variables pour définir les valeurs des métadonnées.  Vous pouvez utiliser les métadonnées définies pour le fichier DITA map ou bookmap en tant que variables. Les métadonnées se trouvent sous le nœud `/jcr:content/metadata` du fichier de plan DITA ou de bookmap.
+Lorsque vous utilisez une variable, sa valeur est sélectionnée dans les propriétés de métadonnées.
 
 Pour utiliser une variable, vous devez la définir au format `${<variable>}`.
 
@@ -165,10 +161,10 @@ Protégez votre PDF en ajoutant des restrictions pour l’ouverture et la lectur
 Configurez les paramètres de production d’impression pour attribuer des repères d’impression, sélectionner des modèles de couleurs et spécifier les propriétés liées à l’impression de votre sortie PDF.
 
 * **Repères d’impression** : lorsque vous préparez un document pour l’impression, des repères d’impression sont ajoutés aux limites de la page pour faciliter l’alignement, le rognage et la sélection des couleurs lors de l’impression. En sélectionnant un repère d’imprimante, la limite de page est étendue pour accueillir le repère, qui est ajusté lors de l’impression. Vous pouvez choisir d’afficher les repères d’impression suivants dans votre sortie PDF :
-   * **Rogner les marques** : sélectionnez cette option pour placer une marque à chaque coin de la zone de rognage afin d’indiquer où le papier doit être rogné après l’impression.
-   * **Repères de fond perdu** : sélectionnez cette option pour placer un repère à chaque coin de la zone de fond perdu afin d’indiquer la zone de rognage de l’image étendue.
-   * **Marques d’enregistrement** : sélectionnez cette option pour placer une marque en dehors de la zone de recadrage afin d’aligner les différentes séparations dans un document en couleur.
-   * **Barres de couleurs** : sélectionnez cette option pour ajouter une bande de couleurs en dehors de la zone de rognage afin de conserver la cohérence des couleurs et d’ajuster la densité d’encre lors de l’impression.
+  * **Rogner les marques** : sélectionnez cette option pour placer une marque à chaque coin de la zone de rognage afin d’indiquer où le papier doit être rogné après l’impression.
+  * **Repères de fond perdu** : sélectionnez cette option pour placer un repère à chaque coin de la zone de fond perdu afin d’indiquer la zone de rognage de l’image étendue.
+  * **Marques d’enregistrement** : sélectionnez cette option pour placer une marque en dehors de la zone de recadrage afin d’aligner les différentes séparations dans un document en couleur.
+  * **Barres de couleurs** : sélectionnez cette option pour ajouter une bande de couleurs en dehors de la zone de rognage afin de conserver la cohérence des couleurs et d’ajuster la densité d’encre lors de l’impression.
 
   Définissez les dimensions des repères d’impression sélectionnés à l’aide des options **Largeur de ligne**, **Couleur de ligne** et **Largeur de zone de fond perdu**.
 
@@ -206,7 +202,7 @@ Utilisez les options suivantes pour spécifier des paramètres avancés pour fus
 | **Créer un formulaire PDF interactif** | Sélectionnez cette option si vous souhaitez inclure des champs de formulaire PDF interactifs et personnalisables pour une entrée utilisateur améliorée dans les sorties PDF générées. |
 | **Inclure le suivi des modifications** | Sélectionnez cette option si vous souhaitez inclure les modifications suivies dans le PDF généré pour faciliter la révision et la comparaison. |
 | **Conserver les fichiers temporaires** | Sélectionnez cette option si vous souhaitez conserver les fichiers HTML intermédiaires créés lors de la génération de la sortie Native PDF. Vous pouvez ensuite télécharger les fichiers temporaires après avoir généré la sortie. Les fichiers téléchargés incluraient également `system_config.xml` fichier qui vous donne des informations sur l’URL de création, l’URL locale et l’URL de publication. Ces URL sont configurées dans les paramètres d’externalisation d’AEM et sont reflétées dans le fichier `system_config.xml`. |
-| **Conformité de** | Il s’agit de la norme à laquelle vous avez l’intention d’enregistrer votre PDF pour vous assurer qu’elle est conforme. Faites votre choix dans la liste déroulante parmi les normes PDF disponibles. Pour plus d’informations sur les normes prises en charge, voir [À propos des normes PDF](https://helpx.adobe.com/fr/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **Conformité de** | Il s’agit de la norme à laquelle vous avez l’intention d’enregistrer votre PDF pour vous assurer qu’elle est conforme. Faites votre choix dans la liste déroulante parmi les normes PDF disponibles. Pour plus d’informations sur les normes prises en charge, voir [À propos des normes PDF](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Propriétés du fichier** | Sélectionnez les métadonnées que vous souhaitez transmettre à la publication native de PDF. La liste déroulante répertorie les propriétés personnalisées et par défaut. Par exemple, `dc:description`, `dc:language`, `dc:title` et `docstate` sont les propriétés par défaut, tandis que vous pouvez utiliser `author` comme propriété personnalisée. Les propriétés de métadonnées sélectionnées sont transmises au fichier PDF généré à l’aide de PDF natif. <br> Ces propriétés sont sélectionnées à partir du fichier `metadataList` disponible à l’adresse `/libs/fmdita/config/metadataList`. <br>Ce fichier peut être recouvert à l’adresse : `/apps/fmdita/config/metadataList`. |
 
 

@@ -5,25 +5,13 @@ exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
 TQID: https://experienceleague.adobe.com/aSjUOzg8-jreMvbiuBZ5lRlbeikBHMHBLUww4L3-hZA
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd456af4-cb12-4a34-8cc4-b74adf885626
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd456af4-cb12-4a34-8cc4-b74adf885626
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 077335fcbb539ef545ce2ca9903e4a8223b3f6ce
 workflow-type: tm+mt
-source-wordcount: 2473
+source-wordcount: 2562
 ht-degree: 1%
 
 ---
@@ -90,7 +78,7 @@ Avant d’effectuer les étapes de cette procédure, assurez-vous d’avoir cré
 
    **Aucun** sélectionnez cette option pour traduire les versions par défaut des fichiers. Cette option est sélectionnée par défaut.
 
-   **Utiliser la ligne de base :** vous pouvez sélectionner une ligne de base pour traduire votre projet. Sélectionnez **Utiliser la ligne de base** et choisissez une ligne de base créée sur la carte. Tous les fichiers faisant partie de la ligne de base sélectionnée sont affichés sur la page Traduction . Une fois votre contenu traduit, vous pouvez exporter la ligne de base traduite. Pour plus d&#39;informations sur l&#39;exportation de la ligne de base traduite, voir [&#x200B; Exporter la ligne de base traduite &#x200B;](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
+   **Utiliser la ligne de base :** vous pouvez sélectionner une ligne de base pour traduire votre projet. Sélectionnez **Utiliser la ligne de base** et choisissez une ligne de base créée sur la carte. Tous les fichiers faisant partie de la ligne de base sélectionnée sont affichés sur la page Traduction . Une fois votre contenu traduit, vous pouvez exporter la ligne de base traduite. Pour plus d&#39;informations sur l&#39;exportation de la ligne de base traduite, voir [ Exporter la ligne de base traduite ](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 
    **Utiliser la dernière version comme activée** : choisissez de filtrer la version des rubriques en fonction de leur date et heure de création. Lorsque vous sélectionnez une date et une heure, seules la dernière version des fichiers créés le ou avant la date et l’heure sélectionnées s’affichent.
 
@@ -134,7 +122,7 @@ Avant d’effectuer les étapes de cette procédure, assurez-vous d’avoir cré
 
    - Vous pouvez choisir de **Créer uniquement la structure** pour le projet de traduction.
    - Vous pouvez choisir de **Créer un projet de traduction XLIFF** pour convertir le contenu XML au format XLIFF (XML Localization Interchange File Format). XLIFF est un format XML ouvert utilisé pour normaliser le transfert de données entre différents outils utilisés dans le processus de traduction de contenu. Experience Manager Guides prend en charge XLIFF version 1.2.
-Dans un projet XLIFF, le contenu est exporté au format XLIFF standard du secteur, qui peut être fourni aux fournisseurs de services de traduction. Le format XLIFF permet la réutilisation potentielle des segments que vous avez déjà traduits lors de la phase de traduction.\
+     Dans un projet XLIFF, le contenu est exporté au format XLIFF standard du secteur, qui peut être fourni aux fournisseurs de services de traduction. Le format XLIFF permet la réutilisation potentielle des segments que vous avez déjà traduits lors de la phase de traduction.\
      Une fois le contenu XLIFF traduit, il peut être importé dans Experience Manager Guides, créant une version traduite du projet DITA d&#39;origine.
 
    >[!NOTE]
@@ -145,15 +133,24 @@ Dans un projet XLIFF, le contenu est exporté au format XLIFF standard du secteu
    - Si vous disposez déjà d’un projet de traduction, vous pouvez y ajouter des rubriques. Sélectionnez l’option **Ajouter à un projet de traduction existant** dans la liste Projet et choisissez un projet dans la liste Projet de traduction existant . Vous pouvez trier ces projets par ordre le plus récent, croissant ou décroissant.
 
    - Si vous sélectionnez **Ajouter à un projet de traduction existant**, cette opération met à jour l’entrée de ressource existante dans le projet si la ressource est déjà ajoutée et que le statut de la tâche de traduction associée est à l’état *Brouillon*.
-      - Si la langue de destination n’est pas présente dans le projet, un nouveau projet est créé pour le projet de traduction unilingue et une nouvelle tâche est créée pour le projet de traduction multilingue.
+     - Si la langue de destination n’est pas présente dans le projet, un nouveau projet est créé pour le projet de traduction unilingue et une nouvelle tâche est créée pour le projet de traduction multilingue.
 
-      - Si la tâche est déjà présente pour la langue de destination et que le statut de la tâche n’est pas à l’état *Brouillon*, une nouvelle tâche est créée dans le même projet pour ajouter les ressources à traduire.
+     - Si la tâche est déjà présente pour la langue de destination et que le statut de la tâche n’est pas à l’état *Brouillon*, une nouvelle tâche est créée dans le même projet pour ajouter les ressources à traduire.
 
    >[!NOTE]
    >
    > Si votre projet existant est un projet de définition de la portée, son nom comporte le suffixe « \(Définition de la portée\) ».
 
    - Si vous devez créer la portée d’un projet à traduire, vous pouvez sélectionner **Créer un nouveau projet de traduction de la portée**. Les copies ne seront pas envoyées pour traduction et l’état de traduction original des fichiers sera conservé. Il n’y a aucun impact sur la copie de langue de destination des rubriques mentionnées envoyées pour la définition de la portée.
+1. Dans le champ **Chemin d’accès**, sélectionnez l’emplacement où le nouveau projet de traduction doit être créé :
+
+   - Si vous créez un projet de traduction, sélectionnez le dossier dans lequel vous souhaitez créer le projet.
+
+     ![Entrez le chemin du projet](images/project-path.png){width="650"}
+
+   - Si vous ajoutez à un projet de traduction existant, sélectionnez le chemin d’accès dans lequel ce projet existe déjà. Ensuite, dans la liste **Projet de traduction existant**, sélectionnez le projet auquel vous souhaitez ajouter la tâche de traduction actuelle. Vous pouvez également utiliser les **Filtres** disponibles pour réduire la liste.
+
+     ![Saisissez le chemin d’accès du projet existant](images/existing-project-path.png){width="650"}
 
 1. Dans le champ **Titre du projet**, saisissez un titre pour le projet.
 1. Sélectionnez **Envoyer** pour créer un projet de traduction.
@@ -257,4 +254,4 @@ Pour effectuer la gestion des documents, Experience Manager Guides permet de sup
 Vous pouvez également désactiver les projets de traduction si vous souhaitez les utiliser ultérieurement. La suppression d’un projet supprime tous les fichiers et dossiers présents dans le projet. La désactivation d’un projet ne le supprime pas, mais le conserve dans le référentiel. Cependant, vous ne pouvez pas mettre à jour ni modifier un projet désactivé.  La suppression ou la désactivation d’un projet n’aura aucune incidence sur le statut de traduction des références.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

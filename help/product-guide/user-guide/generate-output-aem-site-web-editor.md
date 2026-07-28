@@ -5,23 +5,14 @@ feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
 TQID: https://experienceleague.adobe.com/o-vv28SWWNym2aSVCshJDbPTWkpwH-KNwES4M5MKKJ8
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
-source-wordcount: 3616
+source-wordcount: 3727
 ht-degree: 0%
 
 ---
@@ -53,7 +44,7 @@ Pour créer le paramètre prédéfini AEM Sites à l’aide du mappage de compos
 
 1. [Ouvrez le fichier DITA map dans la console de mappage](./open-files-map-console.md).
 1. Dans le panneau **Paramètres prédéfinis de sortie**, sélectionnez l’icône + pour créer un paramètre prédéfini de sortie.
-1. Sélectionnez **&#x200B;**&#x200B;dans la liste déroulante **Type** de la boîte de dialogue **Nouveau paramètre prédéfini de sortie**.
+1. Sélectionnez **** dans la liste déroulante **Type** de la boîte de dialogue **Nouveau paramètre prédéfini de sortie**.
 1. Désélectionnez l’option **Utiliser le mappage des composants hérités**.
 1. Sélectionnez l’option **Ajouter au profil du dossier actuel** pour créer un paramètre prédéfini de sortie dans le profil du dossier actuel. L’![icône de profil de dossier](images/global-preset-icon.svg) indique un paramètre prédéfini au niveau du profil de dossier.
 
@@ -64,7 +55,7 @@ Pour créer le paramètre prédéfini AEM Sites à l’aide du mappage de compos
    Le paramètre prédéfini d’AEM Sites est créé.
 
 
-   ![Nouveau &#x200B;](images/new-aem-sites-dialog-box.png){width="300"}
+   ![Nouveau ](images/new-aem-sites-dialog-box.png){width="300"}
 
 <!--
 ### Generate the AEM Sites output using the templates
@@ -94,7 +85,7 @@ You can configure the Out-of-the-box Sites template  in two ways:
 > Avant de configurer le paramètre prédéfini AEM Sites pour Experience Manager Guides, votre administrateur ou administratrice doit créer une structure AEM Sites à l’aide des modèles.
 
 - **Logiciel On-premise** : découvrez comment [télécharger et installer des modèles AEM Sites](../install-guide/download-install-aem-sites-templates.md) pour les logiciels On-premise.
-- **&#x200B;**&#x200B;: en savoir plus sur la [téléchargement et installation de modèles AEM Sites](../cs-install-guide/download-install-aem-sites-templates-cs.md) pour Cloud Service.
+- **** : en savoir plus sur la [téléchargement et installation de modèles AEM Sites](../cs-install-guide/download-install-aem-sites-templates-cs.md) pour Cloud Service.
 
 Dans la console Mappage , les options de configuration des paramètres prédéfinis pour le mappage des composants composites sont organisées sous les onglets suivants :
 
@@ -103,7 +94,7 @@ Dans la console Mappage , les options de configuration des paramètres prédéfi
 - Liste de sujets
 - Références de mappage croisé
 
-![Nouveau &#x200B;](images/aem-sites-new-config.png){width="650"}
+![Nouveau ](images/aem-sites-new-config.png){width="650"}
 
 **Général**
 
@@ -112,14 +103,18 @@ L&#39;onglet **Général** contient les options de paramétrage suivantes :
 | Options d’AEM Sites | Description |
 | --- | --- |
 | Utiliser le chemin du site | Utilisez cette option pour publier votre contenu sur un site Experience Manager. |
-| Chemin du site | **Cette option s’affiche si vous sélectionnez l’option** Utiliser le chemin du site **&#x200B;**. Parcourez le chemin d’accès prédéfini au site Experience Manager ou spécifiez un chemin d’accès personnalisé dans lequel vous souhaitez que la sortie soit publiée. L’option **Utiliser les sites** permet de spécifier le chemin de publication entier, même si le chemin spécifié n’a pas été précréé dans la structure AEM Sites. Dans ce cas, le système crée la structure nécessaire pendant le processus de publication en utilisant le modèle de page d’accueil de mappage sélectionné.<br><br>Vous pouvez également utiliser des variables lors de la définition du chemin du site. Pour plus d’informations, consultez [Utilisation de variables pour définir les options Chemin de destination, Nom du site ou Nom de fichier](./generate-output-use-variables.md) |
-| Modèle de page de carte | **Cette option s’affiche si vous sélectionnez l’option** Utiliser le chemin du site **&#x200B;**. Sélectionnez le modèle à appliquer aux pages d&#39;accueil de carte. |
+| Chemin du site | **Cette option s’affiche si vous sélectionnez l’option** Utiliser le chemin du site ****. Parcourez le chemin d’accès prédéfini au site Experience Manager ou spécifiez un chemin d’accès personnalisé dans lequel vous souhaitez que la sortie soit publiée. L’option **Utiliser les sites** permet de spécifier le chemin de publication entier, même si le chemin spécifié n’a pas été précréé dans la structure AEM Sites. Dans ce cas, le système crée la structure nécessaire pendant le processus de publication en utilisant le modèle de page d’accueil de mappage sélectionné.<br><br>Vous pouvez également utiliser des variables lors de la définition du chemin du site. Pour plus d’informations, consultez [Utilisation de variables pour définir les options Chemin de destination, Nom du site ou Nom de fichier](./generate-output-use-variables.md) |
+| Modèle de page de carte | **Cette option s’affiche si vous sélectionnez l’option** Utiliser le chemin du site ****. Sélectionnez le modèle à appliquer aux pages d&#39;accueil de carte. |
 | Site | Nom du Experience Manager Sites sur lequel vous souhaitez publier votre contenu. Les options de la liste déroulante sont renseignées en fonction de la liste des sites disponibles dans AEM Sites. <br>Sélectionnez **Actualiser** ![icône d’actualisation](images/navtitle-refresh-icon.svg) pour récupérer une nouvelle liste d’options et refléter les données mises à jour. |
 | Chemin de publication | Chemin d’accès dans votre référentiel AEM où la sortie est stockée. Le chemin de publication est renseigné avec tous les chemins qui contiennent les pages créées à partir du modèle Page d’accueil . La sortie AEM Sites du plan DITA est générée sous ce chemin d&#39;accès.  Par exemple, si vous spécifiez le site en tant que `AEMG-Docs` et le chemin de publication en tant que `aemg-docs-en/docs/product-abc.`, la sortie AEM Sites est générée sous le nœud `aemg-docs-en/docs/product-abc/` dans `crx/de`. |
 | Modèle de page de rubrique | Sélectionnez le modèle à appliquer à toutes les rubriques de sortie. |
 | Générer des noms de page en fonction de | **Nom de fichier de rubrique** : utilise le nom de fichier de la rubrique DITA pour créer l&#39;URL du site. <br> **Titre de la rubrique** : utilise le titre de la rubrique DITA pour créer les noms de site Experience Manager. |
 | Nettoyage des pages générées précédemment | - **Supprimer les pages générées précédemment pour le sujet supprimé de la carte** : si la structure de la carte DTIA change, vous pouvez utiliser cette option pour supprimer les pages générées précédemment pour les sujets supprimés. Cette fonctionnalité est disponible uniquement pour la publication de carte complète.<br><br>Supposons que vous ayez publié une carte DITA, qui contient les rubriques a.dita, b.dita et c.dita. Avant de republier la carte, vous avez supprimé la rubrique b.dita de la carte. Désormais, si vous avez sélectionné cette option, tout le contenu associé à b.dita est supprimé de la sortie AEM Sites et seuls a.dita et c.dita sont publiés.<br><br>**Remarque** : les informations sur les pages supprimées sont également capturées dans les journaux de génération de sortie. Pour plus d’informations sur l’accès aux fichiers journaux, [Afficher et vérifier le fichier journal](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS). <br><br>**Attention** : lors de la suppression des rubriques, les pages ne sont plus disponibles sur le site publié. Ainsi, avant que les rubriques ne soient supprimées, un avertissement s’affiche. Vous devez confirmer leur suppression.<br><br>- **Supprimez toutes les pages créées par d’autres sources à cet emplacement** : si vous sélectionnez cette option, toutes les pages publiées sur ce chemin à partir d’autres mappages, de rubriques individuelles ou de toute autre source sont supprimées. Les pages ne sont plus disponibles sur le site publié. Ainsi, avant que les rubriques ne soient supprimées, un avertissement s’affiche. Vous devez confirmer la suppression. |
 | Workflow de post-génération | Lorsque vous sélectionnez cette option, une nouvelle liste déroulante Workflow de post-génération s’affiche, contenant tous les workflows configurés dans AEM. Vous devez sélectionner un workflow à exécuter une fois le workflow de génération de sortie terminé. |
+
+>[!NOTE]
+>
+>Si la [fonction de contrôle de l’intégrité](../install-conf-guide/conf-health-check-preset.md) est configurée pour votre profil de dossier, un bouton supplémentaire **Exécuter le contrôle de l’intégrité avant la génération de la sortie** s’affiche dans l’onglet Général . Utilisez-le pour qu’un contrôle de l’intégrité s’exécute automatiquement chaque fois que vous générez une sortie avec ce paramètre prédéfini, de sorte que vous n’ayez pas à le déclencher manuellement à partir de la carte. Le rapport est ajouté au journal de publication à titre purement informatif. Cela ne bloque ni ne retarde votre sortie, même si la vérification détecte des erreurs ou des avertissements non résolus. En savoir plus sur [Utilisation de la vérification de la fonctionnalité d’intégrité dans Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
 
 **Contenu**
 
@@ -168,17 +163,22 @@ Dans la console Mappage , les options de configuration des paramètres prédéfi
 - Contenu
 - Références de mappage croisé
 
-![Nouveau &#x200B;](images/aem-sites-preset-legacy-config.png){width="500"}
+![Nouveau ](images/aem-sites-preset-legacy-config.png){width="500"}
 
 **Général**
 
 L&#39;onglet **Général** contient les options de paramétrage suivantes :
+
+>[!NOTE]
+>
+>Si la [fonction de contrôle de l’intégrité](../install-conf-guide/conf-health-check-preset.md) est configurée pour votre profil de dossier, un bouton supplémentaire **Exécuter le contrôle de l’intégrité avant la génération de la sortie** s’affiche dans l’onglet Général . Utilisez-le pour qu’un contrôle de l’intégrité s’exécute automatiquement chaque fois que vous générez une sortie avec ce paramètre prédéfini, de sorte que vous n’ayez pas à le déclencher manuellement à partir de la carte. Le rapport est ajouté au journal de publication à titre purement informatif. Cela ne bloque ni ne retarde votre sortie, même si la vérification détecte des erreurs ou des avertissements non résolus. En savoir plus sur [Utilisation de la vérification de la fonctionnalité d’intégrité dans Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
 
 | Options d’AEM Sites | Description |
 | --- | --- |
 | Nom du site | Nom du site où la sortie est stockée dans votre référentiel AEM.<br><br>Un nœud du référentiel AEM est créé et porte le nom spécifié ici. Si vous ne spécifiez pas le nom du site, le nœud de site est créé avec le nom de fichier de plan DITA.<br><br>Le nom du site que vous spécifiez ici est également utilisé comme titre dans l’onglet du navigateur.<br><br>Vous pouvez également utiliser des variables lors de la définition du nom du site. Pour plus d’informations, consultez [Utilisation de variables pour définir les options Chemin de destination, Nom du site ou Nom de fichier](./generate-output-use-variables.md) |
 | Chemin de sortie | Chemin d’accès dans votre référentiel AEM où la sortie est stockée. Lors de la génération de la sortie finale, le nom du site et le chemin de sortie sont combinés. Par exemple, si vous définissez le Nom du site sur `user-guide` et le Chemin de sortie sur `/content/output/aem-guides`, la sortie finale est générée sous le nœud `/content/output/aem-guides/user-guide` .<br><br>Vous pouvez également utiliser des variables lors de la définition du chemin de sortie. Pour plus d’informations, consultez [Utilisation de variables pour définir les options Chemin de destination, Nom du site ou Nom de fichier](./generate-output-use-variables.md) |
 | Pages de sortie existantes | Sélectionnez l’option **Remplacer le contenu** pour remplacer le contenu des pages existantes. Cette option remplace uniquement le contenu présent sous les nœuds de contenu et d’en-tête de la page. Cette option permet la publication mixte de contenu. La sélection de cette option permet de sélectionner Supprimer les pages orphelines de la sortie publiée. Il s’agit également de l’option *par défaut* pour créer la sortie AEM Sites.<br><br>Sélectionnez l’option **Supprimer et créer** pour forcer la suppression des pages existantes lors de la publication. Cette option supprime le nœud de page, ainsi que son contenu et toutes les pages enfants qu’il contient. Utilisez cette option si vous avez modifié le modèle de conception de votre paramètre prédéfini de sortie ou si vous souhaitez supprimer les pages supplémentaires déjà présentes dans la destination. |
+| Générer des noms de page en fonction de | **Nom de fichier de rubrique** : utilise le nom de fichier de la rubrique pour créer l’URL du site. <br> **Titre de la rubrique** : utilise le titre de la rubrique pour créer les noms de site Experience Manager. <br> **Remarque** : cette option est disponible uniquement lorsqu’elle est activée pour votre environnement. Contactez l’équipe du succès client d’Adobe pour l’activer. Lorsqu’elle est disponible, la valeur sélectionnée dans ce paramètre prédéfini remplace la configuration de `aemsite.pagetitle` au niveau du dossier. Pour plus d’informations, consultez [Personnaliser une sortie de site AEM existante](../install-conf-guide/customize-aem-site-output.md) |
 | Supprimer les pages précédemment générées pour les rubriques supprimées de la carte | Si la structure de la carte DTIA change, vous pouvez utiliser cette option pour supprimer les pages générées précédemment pour les rubriques supprimées. Cette fonctionnalité est disponible uniquement pour la publication de carte complète.<br><br>Supposons que vous ayez publié une carte DITA, qui contient les rubriques a.dita, b.dita et c.dita. Avant de republier la carte, vous avez supprimé la rubrique b.dita de la carte. Désormais, si vous avez sélectionné cette option, tout le contenu associé à b.dita est supprimé de la sortie AEM Sites et seuls a.dita et c.dita sont publiés.<br><br>**Remarque** : les informations sur les pages supprimées sont également capturées dans les journaux de génération de sortie. Pour plus d’informations sur l’accès aux fichiers journaux, [Afficher et vérifier le fichier journal](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS). <br><br>**Attention** : lors de la suppression des rubriques, les pages ne sont plus disponibles sur le site publié. Ainsi, avant que les rubriques ne soient supprimées, un avertissement s’affiche. Vous devez confirmer la suppression. |
 | Conception | Sélectionnez le modèle de conception à utiliser pour générer la sortie.<br><br>Pour plus d’informations sur l’utilisation de modèles de conception personnalisés pour générer une sortie, contactez votre administrateur de publication. |
 | Workflow de post-génération | Lorsque vous sélectionnez cette option, une nouvelle liste déroulante Workflow de post-génération s’affiche, contenant tous les workflows configurés dans AEM. Vous devez sélectionner un workflow à exécuter une fois le workflow de génération de sortie terminé. |
@@ -186,7 +186,7 @@ L&#39;onglet **Général** contient les options de paramétrage suivantes :
 
 **Contenu**
 
-![Nouveau &#x200B;](images/aem-sites-content-tab.png){width="650"}
+![Nouveau ](images/aem-sites-content-tab.png){width="650"}
 
 L&#39;onglet **Contenu** contient les options de paramétrage suivantes :
 

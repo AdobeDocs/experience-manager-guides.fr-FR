@@ -5,19 +5,13 @@ exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
 TQID: https://experienceleague.adobe.com/mrpBKOZcVm1XHdkEy9PBFOt-cbjfmyjqhT-BRbg3Swo
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a668e1b862702ae1154b05d974414b54b43559ea
 workflow-type: tm+mt
-source-wordcount: 3343
+source-wordcount: 3663
 ht-degree: 0%
 
 ---
@@ -81,7 +75,9 @@ Pour créer une tâche de révision et envoyer des rubriques à réviser, procé
 
 1. Saisissez une **Description** pour la tâche.
 
-   Cette description est utilisée comme corps de l’e-mail de notification envoyé aux réviseurs.
+   La description est utilisée comme corps de l’e-mail de notification envoyé aux réviseurs. Elle est également affichée dans la boîte de dialogue **Détails de la révision**, accessible via l’icône *Info* à côté de l’en-tête **Commentaires** dans l’interface utilisateur de révision et l’interface de l’éditeur.
+
+   ![](images/review-details.png)
 
 1. Sélectionnez la **Date d’échéance** et l’heure pour indiquer l’échéance de la révision.
 
@@ -108,6 +104,35 @@ Pour créer une tâche de révision et envoyer des rubriques à réviser, procé
    >[!NOTE]
    >
    > La carte racine sélectionnée a la priorité la plus élevée pour résoudre les références clés. Pour plus d’informations, voir [Résoudre les références clés](map-editor-other-features.md#id176GD01H05Z).
+
+1. Joindre des fichiers DITAVAL (disponible uniquement lorsque activé pour votre environnement)
+
+   >[!NOTE]
+   >
+   > La fonction de joindre des fichiers DITAVAL à une tâche de révision est activée par défaut. Si vous préférez ne pas utiliser cette fonctionnalité dans votre environnement, contactez votre équipe du succès client.
+
+   Si la rubrique que vous envoyez pour révision utilise des conditions, vous pouvez joindre un ou plusieurs fichiers DITAVAL à la tâche de révision.
+
+   ![](./images/attach-ditaval-review-task.png)
+
+   >[!NOTE]
+   >
+   > Le sélecteur de fichiers accepte uniquement les fichiers DITAVAL. Si vous sélectionnez un autre type de fichier, tel qu&#39;une rubrique ou une carte, un message d&#39;erreur vous invite à sélectionner un fichier DITAVAL à la place.
+
+   Les conditions définies dans le ou les fichiers DITAVAL joints sont utilisées pour présélectionner les bascules dans le panneau Conditions du réviseur, de sorte que les réviseurs aient accès au même ensemble de conditions que vous, en tant qu&#39;initiateur, prévoyez pour cette révision.
+
+   Vous disposez également de la case à cocher **Autoriser les modifications de condition de réviseur** qui contrôle si les réviseurs peuvent modifier les bascules prédéfinies :
+
+   ![](./images/reviewer-conditions.png)
+
+   - Si cette option est sélectionnée, les réviseurs et réviseuses peuvent activer ou désactiver n’importe quelle condition pendant leur révision, en remplaçant les valeurs définies par les fichiers DITAVAL.
+   - Si cette option est désactivée, les bascules restent désactivées pour les réviseurs et ils ne peuvent réviser le contenu qu’en fonction du ou des fichiers DITAVAL joints.
+
+   **Remarques supplémentaires** :
+
+   - Vous pouvez joindre plusieurs fichiers DITAVAL à une seule tâche de révision. Si plusieurs fichiers joints définissent des valeurs en conflit pour la même condition, le fichier qui a été ajouté en premier (dans l’ordre d’insertion) est prioritaire.
+   - Les conditions qui ne sont couvertes par aucun fichier DITAVAL joint ne sont pas affectées ; elles conservent le comportement par défaut (non filtré) dans l’interface utilisateur de révision.
+   - Une fois la tâche de révision créée, vous pouvez la mettre à jour à partir de la page Détails de la tâche pour ajouter, supprimer ou remplacer les fichiers DITAVAL joints, et pour modifier le paramètre **Autoriser les modifications de condition de réviseur**.
 
 1. Comme vous pouvez affecter différents réviseurs à différentes rubriques, l&#39;option **Autoriser les personnes désignées à réviser n&#39;importe quelle rubrique** contrôle si les réviseurs peuvent réviser toutes les rubriques d&#39;une tâche de révision ou uniquement les rubriques qui leur sont affectées.
 
@@ -334,4 +359,4 @@ Une fois la tâche de révision mise à jour, les réviseurs et réviseuses reç
 Pour plus d’informations, voir [Présentation des notifications de révision](./review-understanding-review-notifications.md).
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de la révision](review.md)
+**Rubrique parente :**[ Présentation de la révision](review.md)

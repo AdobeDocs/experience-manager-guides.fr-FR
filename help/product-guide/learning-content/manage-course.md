@@ -5,17 +5,12 @@ feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
 TQID: https://experienceleague.adobe.com/Ffg1tESMpsZU71BF5UcWu-bSBTekVGiv-dv24jD-tjA
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: 709
+source-wordcount: 740
 ht-degree: 0%
 
 ---
@@ -47,11 +42,16 @@ Le contenu sélectionné est créé et ajouté au cours. Pour une présentation 
 Vous pouvez ajouter du contenu existant de votre référentiel de contenu à votre cours. Pour ajouter du contenu existant, procédez comme suit :
 
 1. Sélectionnez le menu **Options** > **Ajouter un existant**.
-2. Sélectionnez le type de contenu de cours que vous souhaitez créer.
-3. Dans la boîte de dialogue **Sélectionner un fichier**, accédez à l’emplacement du contenu et sélectionnez le contenu d’apprentissage souhaité.
+1. Sélectionnez le type de contenu de cours que vous souhaitez créer.
+1. Dans la boîte de dialogue **Sélectionner un fichier**, accédez à l’emplacement du contenu et sélectionnez le contenu d’apprentissage souhaité.
 
-   ![](assets/add-existing-learning-content.png)
-4. Choisissez **Sélectionner**.
+>[!NOTE]
+>
+> Lorsque vous ajoutez une rubrique HTML à un mappage de groupes d’apprentissage, l’attribut `format="html"` est automatiquement ajouté au `topicref` correspondant dans le mappage. Cela permet de s’assurer que la rubrique est traitée et publiée correctement.
+
+![](assets/add-existing-learning-content.png)
+
+1. Choisissez **Sélectionner**.
 
 Le contenu du cours sélectionné est ajouté au cours à partir du référentiel.
 

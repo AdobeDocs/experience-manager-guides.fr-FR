@@ -5,25 +5,17 @@ feature: Reviewing
 role: User
 exl-id: 99b64fb5-c509-41cf-b091-ba78b90db481
 TQID: https://experienceleague.adobe.com/Ttty7SNmwHvrs-Ma5SN0JqjQRR3Y6yM-W-ozgQ3Vcyg
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0763896c75767d8a4bffc019d42c129e2e34f4be
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
 workflow-type: tm+mt
-source-wordcount: 691
+source-wordcount: 854
 ht-degree: 0%
 
 ---
 
 # Terminer la tâche de révision en tant que réviseur
-
->[!IMPORTANT]
->
-> Les nouvelles fonctionnalités décrites dans cet article sont activées par défaut avec la version 2508 de Experience Manager Guides as a Cloud Service. Les révisions créées avant la migration ne sont pas affectées et continueront à utiliser le workflow précédent. Si vous préférez continuer à utiliser les fonctionnalités existantes sans ces mises à jour, contactez votre équipe du succès client pour que les nouvelles fonctionnalités soient désactivées.
 
 En tant que réviseur ou réviseuse, vous pouvez marquer une tâche de révision comme terminée une fois que vous avez révisé tout le contenu et que vous souhaitez en informer l’auteur ou l’autrice. Vous pouvez également laisser des commentaires finaux à ce stade.
 
@@ -60,13 +52,12 @@ En fonction des commentaires, si l’auteur ou l’initiateur de la tâche déci
 
 >[!NOTE]
 >
->Par défaut, lorsqu’un réviseur ou une réviseuse marque une tâche de révision comme **Terminée**, la tâche reste dans la boîte de réception AEM du réviseur ou de la réviseuse jusqu’à ce que l’auteur ou l’initiateur ou l’initiatrice de la tâche examine les commentaires et ferme la tâche de révision.
+> La synchronisation des tâches entre l’interface utilisateur de révision et la boîte de réception AEM est disponible et activée par défaut. Lorsqu’un réviseur ou une réviseuse marque une tâche de révision comme **Terminée** dans l’interface utilisateur de révision, la tâche correspondante est automatiquement terminée et supprimée de la boîte de réception AEM du réviseur ou de la réviseuse. De même, l’accomplissement d’une tâche à partir de la boîte de réception AEM la marque automatiquement comme terminée dans l’interface utilisateur de révision.
 >
->Cependant, vous pouvez choisir d’activer la synchronisation des tâches entre l’interface utilisateur de révision et la boîte de réception AEM. Lorsque cette fonctionnalité est activée, le marquage d’une tâche de révision comme **Terminée** dans l’interface utilisateur de révision complète automatiquement la tâche correspondante et la supprime de la boîte de réception AEM du réviseur. De même, l’accomplissement d’une tâche à partir de la boîte de réception AEM la marque automatiquement comme terminée dans l’interface utilisateur de révision.
+> L’auteur ou l’initiateur de la tâche peut toujours consulter les commentaires et réaffecter la tâche si une révision supplémentaire est nécessaire. Lorsqu’une tâche est réaffectée, une nouvelle notification de boîte de réception AEM est générée pour le réviseur, ce qui permet à la tâche d’être à nouveau révisée.
 >
->L’auteur ou l’initiateur de la tâche peut toujours consulter les commentaires et réaffecter la tâche si une révision supplémentaire est nécessaire. Lorsqu’une tâche est réaffectée, une nouvelle notification de boîte de réception AEM est générée pour le réviseur, ce qui permet à la tâche d’être à nouveau révisée.
->
->Pour activer cette fonctionnalité dans votre environnement, contactez votre équipe du succès client.
+> Si vous souhaitez utiliser le comportement précédent, où les tâches de révision terminées restent dans la boîte de réception AEM du réviseur jusqu’à ce que l’auteur ou l’initiateur de la tâche examine les commentaires et ferme la tâche de révision, contactez votre équipe du succès client pour désactiver la synchronisation des tâches.
+
 
 
 ## Afficher les commentaires au niveau de la tâche
@@ -86,3 +77,30 @@ Les commentaires de la boîte de dialogue s’affichent dans l’ordre chronolog
 La boîte de dialogue **Commentaires sur la tâche** est accessible à tous les utilisateurs impliqués dans la tâche de révision, y compris l’auteur ou l’initiateur de la tâche de révision et les autres réviseurs. Par conséquent, les commentaires des autres réviseurs (le cas échéant) peuvent également apparaître dans la boîte de dialogue Commentaires sur la tâche. Cela permet d’assurer une communication claire et traçable tout au long du processus d’examen.
 
 Après avoir consulté les commentaires au niveau de la tâche, l’auteur peut demander une révision ou fermer la tâche de révision. Dans les deux cas, tous les commentaires capturés au cours du processus de révision restent disponibles à titre de référence dans la boîte de dialogue **Commentaires de la tâche**.
+
+## Déléguer une tâche de révision à un autre réviseur
+
+>[!IMPORTANT]
+>
+> Cette fonctionnalité est activée par défaut. Si vous préférez ne pas utiliser cette fonctionnalité dans votre environnement, contactez votre équipe du succès client.
+
+En tant que réviseur, vous pouvez parfois souhaiter qu’un autre utilisateur intervienne dans une révision avant qu’elle ne revienne à l’auteur. Par exemple, si une partie du contenu ne relève pas de votre compétence ou si vous souhaitez obtenir un deuxième avis avant de marquer la tâche comme **Terminée**. Au lieu de le router par l’intermédiaire d’un administrateur de projet, vous pouvez recommander un réviseur directement à partir de la tâche de révision à l’aide de l’option **Déléguer**.
+
+Sélectionner **Déléguer** ne termine pas la tâche de révision pour vous. Il envoie votre recommandation à l’auteur (initiateur de la tâche), qui décide d’ajouter ou non le réviseur recommandé à la tâche.
+
+Effectuez les étapes suivantes pour déléguer une tâche de révision :
+
+1. Ouvrez la tâche de révision qui vous a été assignée.
+2. Une fois que vous avez révisé le contenu, sélectionnez **Déléguer**, en regard de **Marquer comme terminé**.
+
+   ![](./images/review-delegate-option.png){width="350"}
+
+3. La boîte de dialogue **Recommander le réviseur** s’affiche. Sélectionnez dans la liste déroulante un utilisateur à recommander comme réviseur pour cette tâche.
+
+   ![](./images/recommend-reviewer-dialog.png){width="350"}
+
+4. *(Facultatif)* Ajoutez un commentaire pour l’auteur, pour le contexte.
+5. Sélectionnez **Déléguer**.
+
+Une notification est envoyée à l’auteur pour indiquer que vous avez demandé l’ajout d’un réviseur à la tâche. Pour plus d’informations sur la manière dont l’auteur répond à cette demande, consultez la section [Demander une révision ou fermer une tâche de révision en tant qu’auteur](./review-close-review-task.md).
+

@@ -5,24 +5,14 @@ exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
 TQID: https://experienceleague.adobe.com/FKASAXcwI6A5iGO8n758bBCNzjMitcz2zgnJWrNfM8U
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
-  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
-subfeature_v2:
-  - id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12
-  - id: c8841798-1a28-4264-a46a-984860f8e6f6
-  - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: b1210526-416b-4ef6-bcc0-1692e99f30e9id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2: id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12id: c8841798-1a28-4264-a46a-984860f8e6f6id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a668e1b862702ae1154b05d974414b54b43559ea
 workflow-type: tm+mt
-source-wordcount: 2753
+source-wordcount: 3068
 ht-degree: 0%
 
 ---
@@ -97,7 +87,7 @@ Pour passer en revue une rubrique, procédez comme suit :
 1. Ouvrez le panneau Commentaires en sélectionnant l’icône **Commentaires** dans le coin supérieur droit de la barre d’outils.
 
    Fournissez des commentaires de révision en sélectionnant un type de commentaire approprié dans la barre d’outils, puis appuyez sur Entrée pour envoyer votre commentaire.
-La zone de commentaire prend en charge les entrées multiligne et permet aux utilisateurs de la développer selon leurs besoins pour fournir des commentaires détaillés. Vous pouvez utiliser **Maj** + **Entrée** pour accéder à la ligne suivante lors de la rédaction du commentaire.
+   La zone de commentaire prend en charge les entrées multiligne et permet aux utilisateurs de la développer selon leurs besoins pour fournir des commentaires détaillés. Vous pouvez utiliser **Maj** + **Entrée** pour accéder à la ligne suivante lors de la rédaction du commentaire.
 
    >[!NOTE]
    >
@@ -107,7 +97,9 @@ La zone de commentaire prend en charge les entrées multiligne et permet aux uti
 
 ## Fonctionnalités supplémentaires disponibles dans l’écran de révision
 
-**Vue Document et vue Rubrique** - Par défaut, si plusieurs rubriques sont partagées pour la révision, une vue de document composite des rubriques est présentée aux réviseurs. Dans le cas d&#39;une révision de carte DITA, toutes les rubriques de la carte sont présentées sous la forme d&#39;un document unique, ressemblant à une vue de livre. Si vous le souhaitez, vous pouvez également sélectionner une rubrique spécifique. Seule cette rubrique est alors affichée sur l’écran de révision.
+### Vue Document et vue Rubrique
+
+Par défaut, si plusieurs rubriques sont partagées pour la révision, une vue de document composite des rubriques est présentée aux réviseurs. Dans le cas d&#39;une révision de carte DITA, toutes les rubriques de la carte sont présentées sous la forme d&#39;un document unique, ressemblant à une vue de livre. Si vous le souhaitez, vous pouvez également sélectionner une rubrique spécifique. Seule cette rubrique est alors affichée sur l’écran de révision.
 
 Lorsque vous affichez une seule rubrique, vous disposez d&#39;une option supplémentaire pour revenir à la vue de document. Dans la capture d’écran suivante, une rubrique spécifique d’un fichier de mappage est ouverte pour révision. L&#39;option en surbrillance — **Afficher le mode Document** permet à l&#39;utilisateur de revenir au mode Document du fichier de mappage.
 
@@ -115,11 +107,11 @@ Lorsque vous affichez une seule rubrique, vous disposez d&#39;une option supplé
 >
 > Toute résolution d’écran supérieure à 1 600 px est compatible avec les largeurs de panneau par défaut (gauche et droite), ce qui garantit qu’aucune barre de défilement horizontale ne s’affiche et que le contenu reste correctement aligné dans la vue du document. Vous pouvez également toujours redimensionner l’écran pour conserver la vue de document appropriée dans l’interface utilisateur de révision.
 
-
-
 ![](images/switch-document-view.png)
 
-**Utilisation de différents types d’outils de commentaires** - Vous pouvez ajouter des commentaires intégrés en mettant le texte en surbrillance, en barrant le texte, en insérant du texte ou en ajoutant une note de commentaire. Les différents types d’outils de commentaires fournis dans la barre d’outils Commentaires sont décrits ci-dessous :
+### Utilisation de différents types d’outils de commentaires
+
+Vous pouvez ajouter des commentaires intégrés en mettant le texte en surbrillance, en barrant le texte, en insérant du texte ou en ajoutant une note de commentaire. Les différents types d’outils de commentaires fournis dans la barre d’outils Commentaires sont décrits ci-dessous :
 
 ![](images/comments-toolbar.png){width="350"}
 
@@ -138,7 +130,7 @@ Lorsque vous affichez une seule rubrique, vous disposez d&#39;une option supplé
 - **Ajouter un commentaire**\(![](images/review-comment-icon.svg)\) : si vous souhaitez ajouter un commentaire de type pense-bête, sélectionnez l’icône Ajouter un commentaire et saisissez le commentaire dans le pop-up.
 
 
-**Barre d’outils contextuelle**
+### Barre d’outils contextuelle
 
 Vous pouvez également mettre en surbrillance ou barrer le texte rapidement à l’aide de la barre d’outils contextuelle. Effectuez les étapes suivantes pour ajouter un commentaire à l’aide de la barre d’outils contextuelle :
 
@@ -149,7 +141,9 @@ Vous pouvez également mettre en surbrillance ou barrer le texte rapidement à l
 1. Sélectionnez l’icône **Surbrillance** ou **Barré**.
 1. Vous pouvez ajouter des commentaires dans le panneau de commentaires pour l’action de surbrillance ou de barrage.
 
-**Révision à l’aide du panneau Commentaires** - Le panneau Commentaires affiche une liste de commentaires sur la rubrique actuelle. Ce panneau répertorie également les commentaires des autres réviseurs ou réviseuses, si la rubrique est envoyée à plusieurs réviseurs ou réviseuses. Chaque commentaire du panneau de commentaires est lié au texte correspondant dans la rubrique active. Cela vous permet d’identifier le texte commenté. Chaque commentaire affiche le nom du réviseur ou de la réviseuse qui l’a ajouté ainsi que la date et l’heure.
+### Révision à l’aide du panneau Commentaires
+
+Le panneau Commentaires affiche une liste de commentaires sur la rubrique active. Ce panneau répertorie également les commentaires des autres réviseurs ou réviseuses, si la rubrique est envoyée à plusieurs réviseurs ou réviseuses. Chaque commentaire du panneau de commentaires est lié au texte correspondant dans la rubrique active. Cela vous permet d’identifier le texte commenté. Chaque commentaire affiche le nom du réviseur ou de la réviseuse qui l’a ajouté ainsi que la date et l’heure.
 
 Les commentaires s’affichent dans l’ordre du texte commenté dans le document. Par exemple, si un commentaire de texte mis en surbrillance est ajouté à la première phrase du premier paragraphe et qu’un commentaire de texte inséré est ajouté à la deuxième phrase, ce dernier est affiché avant le commentaire de texte inséré.
 
@@ -168,9 +162,9 @@ Les tâches que vous pouvez effectuer à l’aide du panneau Commentaires sont d
 
 - Tous les utilisateurs participants peuvent répondre aux commentaires envoyés par d’autres utilisateurs. Dans un commentaire, sélectionnez **Répondre** et appuyez sur Entrée pour envoyer une réponse. La zone de réponse est multiligne et extensible, ce qui permet aux utilisateurs et aux utilisatrices de fournir des réponses détaillées aux commentaires. Vous pouvez utiliser **Maj** + **Entrée** pour accéder à la ligne suivante lors de l’écriture de la réponse.
 
-**Mode Aperçu.**
+### Mode Aperçu
 
-- L’ouverture d’une rubrique en mode Aperçu montre comment une rubrique s’affichera lorsqu’elle sera consultée par un auteur après l’application de toutes les modifications. Par exemple, tout le texte inséré s’affiche en tant que texte normal et tout le texte barré \(supprimé\) est supprimé du contenu.
+L’ouverture d’une rubrique en mode Aperçu montre comment une rubrique s’affichera lorsqu’elle sera consultée par un auteur après l’application de toutes les modifications. Par exemple, tout le texte inséré s’affiche en tant que texte normal et tout le texte barré \(supprimé\) est supprimé du contenu.
 
 - La capture d’écran suivante montre le contenu en mode *Révision* :
 
@@ -181,7 +175,7 @@ La capture d’écran suivante montre le contenu en mode *Aperçu* :
 ![](images/review-preview-mode.png){width="550"}
 
 
-**Balisage des utilisateurs de la tâche dans un commentaire**
+### Balisage des utilisateurs de la tâche dans un commentaire
 
 Lorsque vous collaborez à une tâche de révision avec plusieurs réviseurs ou réviseuses, vous pouvez améliorer la communication en identifiant des utilisateurs ou utilisatrices spécifiques dans les nouveaux commentaires et réponses. En tant que réviseur ou réviseuse, vous pouvez ajouter un commentaire ou répondre à un commentaire existant tout en taguant d’autres utilisateurs et utilisatrices impliqués dans la même tâche de révision afin d’attirer leur attention ou d’attribuer des suivis. Cette fonctionnalité est disponible uniquement pour les tâches de révision actives.
 
@@ -191,11 +185,17 @@ Lorsque vous collaborez à une tâche de révision avec plusieurs réviseurs ou 
 
 ![](images/tag-users-review-ui.png){width="350"}
 
+Pour baliser un utilisateur, saisissez `@` dans un commentaire ou une réponse et sélectionnez un utilisateur dans la liste des réviseurs. Le nom d’affichage ainsi qu’une adresse e-mail de l’utilisateur sont affichés pour une identification plus facile. Si une adresse e-mail n’est pas disponible, l’ID utilisateur s’affiche à la place.
+
+![](images/tagged-users-with-email.png)
+
 Les utilisateurs identifiés reçoivent à la fois un e-mail et une notification AEM, pour être rapidement informés. Pour plus d’informations sur le déclenchement des notifications de révision, voir [Présentation des notifications de révision](./review-understanding-review-notifications.md).
 
 ![](images/mentioned-in-tags-author.png){width="350"}
 
-**Ajouter des pièces jointes aux commentaires** - Si vous souhaitez compléter votre commentaire en fournissant des informations supplémentaires disponibles dans un autre fichier, vous pouvez le faire en le joignant à votre commentaire. En tant que réviseur ou réviseuse, vous pouvez facilement ajouter un ou plusieurs fichiers de votre système local à votre commentaire. Vous pouvez ajouter un fichier à toutes les formes de commentaires prises en charge : surligné, barré, insertion de texte ou commentaire.
+### Ajouter des pièces jointes aux commentaires
+
+Si vous souhaitez compléter votre commentaire en fournissant des informations supplémentaires qui sont disponibles dans un autre fichier, vous pouvez le faire en le joignant à votre commentaire. En tant que réviseur ou réviseuse, vous pouvez facilement ajouter un ou plusieurs fichiers de votre système local à votre commentaire. Vous pouvez ajouter un fichier à toutes les formes de commentaires prises en charge : surligné, barré, insertion de texte ou commentaire.
 
 Lorsque vous insérez l’un des commentaires, le pop-up de commentaire s’affiche. Après avoir fourni des commentaires ou des informations supplémentaires dans le pop-up, vous l’envoyez en appuyant sur Entrée. Une fois le commentaire ajouté, vous avez la possibilité d’ajouter une pièce jointe à ce commentaire.
 
@@ -241,25 +241,64 @@ Les autres réviseurs ou auteurs n’obtiennent que l’option de pièce jointe 
 ![](images/attach-files-comments-panel.png){width="550"}
 
 
-**Panneau Conditions** - Si votre rubrique comporte du contenu conditionnel, l’icône **Conditions** \(![](images/conditions-icon.svg)\) s’affiche à droite. Sélectionnez l’icône **Conditions** pour ouvrir le panneau Conditions qui vous permet de mettre en surbrillance le contenu en fonction des conditions disponibles dans la rubrique.
+### Utilisation du panneau Conditions
 
-: par défaut, l’option **Mettre toutes les conditions en surbrillance** est activée, toutes les conditions sont sélectionnées, l’intégralité du contenu est affichée et le contenu conditionné est affiché comme mis en surbrillance à la fois en mode de révision et en mode de prévisualisation.
+Si votre rubrique comporte du contenu conditionnel, l’icône **Conditions** \(![](images/conditions-icon.svg)\) s’affiche à droite. Sélectionnez l’icône **Conditions** pour ouvrir le panneau Conditions qui vous permet de mettre en surbrillance le contenu en fonction des conditions disponibles dans la rubrique.
 
-: vous pouvez désactiver l’option **Tout mettre en surbrillance** et afficher tout le contenu présent dans la rubrique sous forme de texte normal sans mise en surbrillance.
+- Par défaut, l’option **Tout mettre en surbrillance** est activée, toutes les conditions sont sélectionnées, l’intégralité du contenu est affichée et le contenu conditionné est affiché comme étant mis en surbrillance en mode Révision et Aperçu.
 
-![](images/review-conditions-panel.png){width="350"}
+- Vous pouvez désactiver l’option **Tout mettre en surbrillance** et afficher tout le contenu présent dans la rubrique sous forme de texte normal sans mise en surbrillance.
+
+  ![](images/review-conditions-panel.png){width="350"}
 
 Vous pouvez choisir d’afficher ou de masquer une condition spécifique.
 
 - Si vous masquez une condition, le contenu associé à cette condition n’est pas mis en surbrillance en mode de révision.
 - Si vous affichez une condition, le contenu conditionné est mis en surbrillance dans le mode de révision. Par exemple, dans la capture d’écran suivante, seul le contenu utilise deux conditions : `win` et `mac` sont mises en surbrillance.
 
-
-![](images/review-condition-normal-mode.png){width="650"}
+  ![](images/review-condition-normal-mode.png){width="650"}
 
 En mode d’aperçu, le contenu non conditionné et le contenu conditionné qui utilise les deux conditions affichées, `win` et `mac`, s’affichent. Le contenu conditionné restant pour lequel les conditions sont masquées ne s’affiche pas.
 
-**Révision en temps réel** - Le panneau Commentaires est mis à jour en temps réel avec les commentaires et les commentaires ou les actions de l’auteur concernant les commentaires.
+### Panneau Conditions avec des conditions basées sur DITAVAL
+
+>[!NOTE]
+>
+>Cette fonctionnalité est activée par défaut. Si vous préférez ne pas utiliser cette fonctionnalité dans votre environnement, contactez votre équipe du succès client.
+
+Si la tâche de révision est créée avec un ou plusieurs fichiers DITAVAL joints, le panneau Conditions présente les conditions différemment de ce qui est décrit dans la section [Panneau Utiliser les conditions](#work-with-conditions-panel). Chaque condition est contrôlée par un bouton (bascule) au lieu d’une icône représentant un œil, et les bascules sont prédéfinies pour refléter les conditions définies dans le ou les fichiers DITAVAL joints, afin que vous puissiez réviser le contenu comme l’initiateur de la révision l’avait prévu.
+
+>[!BEGINTABS]
+
+>[!TAB Panneau Conditions (sans conditionnement DITAVAL)]
+
+![](./images/review-conditions-panel.png){width="350"}
+
+>[!TAB Panneau Conditions (avec conditionnement DITAVAL)]
+
+![](./images/review-condition-panel-ditaval.png)
+
+>[!ENDTABS]
+
+Contrairement à l’icône représentant un œil, qui ajoute ou supprime uniquement une mise en surbrillance du contenu conditionné, la désactivation d’une bascule dans le panneau Conditions masque ce contenu de l’interface utilisateur de révision, de sorte que le contenu n’apparaît pas du tout dans le document. Le fait de réactiver le bouton affiche à nouveau le contenu.
+
+Le mode Aperçu reflète les mêmes états de basculement que ceux décrits dans la section [Utilisation du panneau conditionnel](#work-with-conditions-panel).
+
+Selon la manière dont l’initiateur ou l’initiatrice de la révision a configuré la tâche de révision, vous pouvez ou non pouvoir modifier ces options de bascule :
+
+- Si l’initiateur a autorisé les modifications, vous pouvez activer ou désactiver n’importe quel bouton pour réviser le contenu dans différentes conditions.
+
+  ![](./images/review-conditions-enabled.png)
+
+- Si l&#39;initiateur n&#39;a pas autorisé les modifications, les bascules sont désactivées et ne reflètent que les paramètres de l&#39;initiateur.
+
+  ![](./images/review-conditions-disabled.png)
+
+Toute modification apportée aux bascules s’applique uniquement à votre session en cours. Actualiser la page réinitialise les bascules à l&#39;état défini par les fichiers DITAVAL joints.
+
+### Révision en temps réel
+
+Le panneau Commentaires est mis à jour en temps réel avec les commentaires et les commentaires ou les actions de l’auteur ou de l’autrice concernant les commentaires.
 
 - Plusieurs réviseurs pourront laisser des commentaires ou répondre à des commentaires simultanément sur le même document. Pour savoir qui examine actuellement le document, pointez la souris sur l’icône de l’utilisateur dans le coin supérieur droit de l’écran.
 
@@ -275,7 +314,9 @@ En mode d’aperçu, le contenu non conditionné et le contenu conditionné qui 
 
 - La sélection d’un commentaire obsolète ouvre la version de ce commentaire dans le panneau de gauche. La version précédente s’affiche dans le panneau de gauche et la version actuelle dans le panneau de droite. Tous les commentaires de la version obsolète sont importés sur le côté gauche. Vous pouvez comparer la version précédente à la version actuelle.
 
-**Filtrer les commentaires** - Vous pouvez filtrer les commentaires d’un document pour afficher des commentaires spécifiques selon vos besoins. Pour filtrer les commentaires, sélectionnez l’icône **Filtrer** \(![](images/filter-search-icon.svg)\) qui s’affiche dans le menu à droite de la zone de texte Rechercher des commentaires dans le panneau Commentaires.
+### Filtrer les commentaires
+
+Vous pouvez filtrer les commentaires dans un document pour afficher des commentaires spécifiques selon vos besoins. Pour filtrer les commentaires, sélectionnez l’icône **Filtrer** \(![](images/filter-search-icon.svg)\) qui s’affiche dans le menu à droite de la zone de texte Rechercher des commentaires dans le panneau Commentaires.
 
 Sélectionnez une ou plusieurs des options de filtrage suivantes dans la boîte de dialogue **Type de filtre** et sélectionnez **Appliquer**.
 
@@ -290,7 +331,6 @@ Sélectionnez une ou plusieurs des options de filtrage suivantes dans la boîte 
 
 Pour supprimer le filtre et afficher tous les commentaires, désélectionnez tous les filtres de la boîte de dialogue **Type de filtre** et sélectionnez **Appliquer**.
 
-
 ## Historique des versions du réviseur
 
 La fonction Historique des versions permet aux réviseurs de comparer la version actuelle de la tâche de révision avec les versions de tâches de révision précédemment fermées sur lesquelles les réviseurs ont travaillé. Cela permet aux réviseurs et aux réviseuses de valider les modifications apportées depuis la dernière révision terminée et de maintenir la continuité entre les cycles de révision.
@@ -301,4 +341,4 @@ L’icône **Historique des versions** de la rubrique s’affiche une fois que l
 
 ![](images/version-history-dialog.png)
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de la révision](review.md)
+**Rubrique parente :**[ Présentation de la révision](review.md)

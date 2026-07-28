@@ -4,9 +4,9 @@ description: Découvrez les différents paramètres disponibles dans l’interfa
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: e41cf263f42e91bc384aa09fd1135b46e429c86a
+source-git-commit: 2386f02cf0752ca6c97ca1e3697bfbd03e6ca4d5
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2304'
 ht-degree: 1%
 
 ---
@@ -48,22 +48,32 @@ Les paramètres Général vous permettent de configurer les paramètres pour uti
 Sélectionnez cette option pour activer la fonctionnalité [Assistant IA](../user-guide/ai-assistant.md) dans Experience Manager Guides. Désélectionnez cette option pour désactiver la fonction.
 
   Après avoir activé le bouton (bascule) **Assistant IA**, vous pouvez configurer les options qui s’affichent sous l’onglet **Création** pour les auteurs à l’aide du menu **Actions rapides de création** comme illustré ci-dessous.\
-  Ces modifications s’appliquent au profil de dossier spécifique que vous utilisez. Si vous créez un profil de dossier, il héritera des paramètres Workspace définis dans le profil de dossier **global** par défaut. Vous pouvez modifier ces paramètres selon vos besoins à l&#39;aide des paramètres **&#x200B;**&#x200B;et enregistrer la configuration mise à jour.\
+  Ces modifications s’appliquent au profil de dossier spécifique que vous utilisez. Si vous créez un profil de dossier, il héritera des paramètres Workspace définis dans le profil de dossier **global** par défaut. Vous pouvez modifier ces paramètres selon vos besoins à l&#39;aide des paramètres **** et enregistrer la configuration mise à jour.\
   Pour obtenir un aperçu détaillé des options disponibles pour la création à l’aide de l’assistant AI, consultez la page [Créer des documents de manière intelligente avec l’assistant AI](../user-guide/ai-assistant-right-panel.md).
 
   Le menu **Création d’actions rapides** vous permet d’effectuer les opérations suivantes :
 
-   - utilisez les boutons (bascules) pour activer ou désactiver des options spécifiques auxquelles les auteurs peuvent accéder lorsqu’ils utilisent l’assistant AI.
+  - utilisez les boutons (bascules) pour activer ou désactiver des options spécifiques auxquelles les auteurs peuvent accéder lorsqu’ils utilisent l’assistant AI.
 
-   - modifiez l’ordre dans lequel les options s’affichent, faites-les glisser et déposez-les selon vos besoins.
+  - modifiez l’ordre dans lequel les options s’affichent, faites-les glisser et déposez-les selon vos besoins.
 
   ![](../user-guide/images/authoring-quick-actions-new.png){width="350"}
 
+- **Guides AI**
 
+  >[!NOTE]
+  >
+  > Pour utiliser la fonctionnalité Guides AI dans votre environnement, contactez l’équipe du succès client. Une seule expérience d’IA peut être activée à la fois : Guides AI ou Assistant d’IA.
+
+  Sélectionnez le bouton (bascule) **Guides AI** pour activer cette fonctionnalité dans Experience Manager Guides. Désélectionnez cette option pour la désactiver.
+
+  Après avoir activé cette option, vous pourrez accéder à la fonction IA dédiée aux guides depuis la barre de navigation de la page d’accueil et la barre d’onglets de l’interface de l’éditeur. Pour plus d’informations sur la manière de générer des balises suggérées par l’IA pour les rubriques, consultez [Prise en main de l’IA dédiée aux guides](../user-guide/guides-ai.md).
+
+  ![](assets/guides-ai-workspace.png){width="350"}
 
 - **Création**
 
-   - **Activer tout remplacer** : sélectionnez cette option pour afficher l’icône **Tout remplacer** dans le panneau **Rechercher et remplacer**.
+  - **Activer tout remplacer** : sélectionnez cette option pour afficher l’icône **Tout remplacer** dans le panneau **Rechercher et remplacer**.
 
 - **Citations**
 
@@ -71,28 +81,28 @@ Sélectionnez cette option pour activer la fonctionnalité [Assistant IA](../use
 
 - **Condition**
 
-   - **Mettre en surbrillance le texte conditionnel en mode Création** : sélectionnez cette option pour mettre en surbrillance le texte conditionnel en mode Création. Le contenu conditionnel est mis en surbrillance à l’aide de la couleur définie pour la condition.
+  - **Mettre en surbrillance le texte conditionnel en mode Création** : sélectionnez cette option pour mettre en surbrillance le texte conditionnel en mode Création. Le contenu conditionnel est mis en surbrillance à l’aide de la couleur définie pour la condition.
 
-   - **Valider avec des attributs de condition** : sélectionnez cette option pour permettre la validation des valeurs définies pour les attributs. Cela vous empêche d’ajouter une valeur incorrecte.
+  - **Valider avec des attributs de condition** : sélectionnez cette option pour permettre la validation des valeurs définies pour les attributs. Cela vous empêche d’ajouter une valeur incorrecte.
 
-   - **Afficher la clé avec le titre dans le panneau Schéma d’objet** : sélectionnez cette option pour afficher les clés ainsi que les titres dans le schéma d’objet. Si vous ne sélectionnez pas cette option, seuls les titres s’affichent. Par exemple, les clés « os », « audience » et « other » sont également affichées avec les titres.
+  - **Afficher la clé avec le titre dans le panneau Schéma d’objet** : sélectionnez cette option pour afficher les clés ainsi que les titres dans le schéma d’objet. Si vous ne sélectionnez pas cette option, seuls les titres s’affichent. Par exemple, les clés « os », « audience » et « other » sont également affichées avec les titres.
 
-     ![](../user-guide/images/subject-scheme-title.png){width="550"}
+    ![](../user-guide/images/subject-scheme-title.png){width="550"}
 
-   - **Afficher le schéma d’objet dans le panneau Conditions** : sélectionnez cette option pour afficher un schéma d’objet dans le panneau Conditions. Si vous désélectionnez cette option, les conditions définies s’affichent dans le panneau Conditions .
+  - **Afficher le schéma d’objet dans le panneau Conditions** : sélectionnez cette option pour afficher un schéma d’objet dans le panneau Conditions. Si vous désélectionnez cette option, les conditions définies s’affichent dans le panneau Conditions .
 
 - **Vérification orthographique**
 
   Il existe deux options : vérification orthographique d’AEM et vérification orthographique du navigateur.
 
-   - **Vérification orthographique du navigateur** : par défaut, l’éditeur utilise la fonctionnalité de vérification orthographique du navigateur, dans laquelle la vérification orthographique est effectuée à l’aide du dictionnaire intégré du navigateur.
+  - **Vérification orthographique du navigateur** : par défaut, l’éditeur utilise la fonctionnalité de vérification orthographique du navigateur, dans laquelle la vérification orthographique est effectuée à l’aide du dictionnaire intégré du navigateur.
 
-   - **Vérification orthographique d’AEM** : vous pouvez passer à la vérification orthographique d’AEM pour utiliser le dictionnaire Adobe Experience Manager, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section [&#x200B; Personnaliser le dictionnaire par défaut d’AEM &#x200B;](../install-conf-guide/customize-aem-default-dictionary.md).
+  - **Vérification orthographique d’AEM** : vous pouvez passer à la vérification orthographique d’AEM pour utiliser le dictionnaire Adobe Experience Manager, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section [ Personnaliser le dictionnaire par défaut d’AEM ](../install-conf-guide/customize-aem-default-dictionary.md).
 
-     >[!NOTE]
-     >
-     > La vérification orthographique d’AEM utilise la langue sélectionnée dans la propriété de langue du fichier. Si la langue n’est pas spécifiée pour le fichier, la vérification orthographique retourne à la langue du serveur AEM.
-     >Pour garantir des résultats de vérification orthographique précis, le dictionnaire de la langue sélectionnée doit être disponible dans AEM. Si le dictionnaire requis pour la langue configurée n’est pas disponible, la vérification orthographique prend par défaut la valeur `en_us`.
+    >[!NOTE]
+    >
+    > La vérification orthographique d’AEM utilise la langue sélectionnée dans la propriété de langue du fichier. Si la langue n’est pas spécifiée pour le fichier, la vérification orthographique retourne à la langue du serveur AEM.
+    >Pour garantir des résultats de vérification orthographique précis, le dictionnaire de la langue sélectionnée doit être disponible dans AEM. Si le dictionnaire requis pour la langue configurée n’est pas disponible, la vérification orthographique prend par défaut la valeur `en_us`.
 
 
 ## Panneaux
@@ -152,24 +162,24 @@ Contient les profils qui peuvent être utilisés pour publier la sortie **Base d
 
 - Lors de la configuration de l’application connectée, assurez-vous des points suivants :
 
-   - Spécifiez le rappel .
+  - Spécifiez le rappel .
 
-     `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+    `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
-   - Sélectionnez les portées OAuth suivantes :
-      - Accès complet (complet)
-      - Sélectionnez Gérer les données utilisateur via les API (api) .
+  - Sélectionnez les portées OAuth suivantes :
+    - Accès complet (complet)
+    - Sélectionnez Gérer les données utilisateur via les API (api) .
 
-     Une fois l’application configurée, Salesforce fournit une **Clé du client** et **Secret du client**. Ils peuvent être utilisés pour créer le profil Salesforce.
+    Une fois l’application configurée, Salesforce fournit une **Clé du client** et **Secret du client**. Ils peuvent être utilisés pour créer le profil Salesforce.
 
 
-   - Pour créer un profil Salesforce, sélectionnez la base de connaissances **Salesforce** dans le menu déroulant **Type de serveur**. Saisissez un nom de profil. Dans l’**URL du site**, saisissez le site client que vous utiliserez pour publier la sortie, puis ajoutez les **Clé du client** et **Secret du client** fournis par le site client Salesforce. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
+  - Pour créer un profil Salesforce, sélectionnez la base de connaissances **Salesforce** dans le menu déroulant **Type de serveur**. Saisissez un nom de profil. Dans l’**URL du site**, saisissez le site client que vous utiliserez pour publier la sortie, puis ajoutez les **Clé du client** et **Secret du client** fournis par le site client Salesforce. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
 
-     ![paramètres de publication du profil salesforce dans workspace](../user-guide/images/salesforce-publish-profile.png){width="550"}
+    ![paramètres de publication du profil salesforce dans workspace](../user-guide/images/salesforce-publish-profile.png){width="550"}
 
-     >[!NOTE]
-     >
-     >Pour configurer un proxy pour Salesforce dans Experience Manager Guides, utilisez la configuration proxy de composants HTTP Apache dans AEM. Découvrez comment [configurer le proxy pour le Vérificateur de lien AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+    >[!NOTE]
+    >
+    >Pour configurer un proxy pour Salesforce dans Experience Manager Guides, utilisez la configuration proxy de composants HTTP Apache dans AEM. Découvrez comment [configurer le proxy pour le Vérificateur de lien AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
 **Créer un profil ServiceNow**
@@ -190,9 +200,9 @@ Configurez le serveur ServiceNow pour charger les ressources.
 
 - Pour créer un profil, sélectionnez la base de connaissances ServiceNow dans le menu déroulant **Type de serveur**. Saisissez un profil **Nom**. Dans l’URL **ServiceNow**, saisissez le site client que vous utiliseriez pour publier la sortie, puis ajoutez les **Nom d’utilisateur** et **Mot de passe** fournis par le site client ServiceNow. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
 
-  ![Profil de publication ServiceNow &#x200B;](../user-guide/images/service-now-publish-profile.png){width="550"}
+  ![Profil de publication ServiceNow ](../user-guide/images/service-now-publish-profile.png){width="550"}
 
-  Après la validation, vous pouvez sélectionner le profil de publication dans les paramètres prédéfinis de sortie d&#39;un plan DITA et l&#39;utiliser pour générer la sortie vers le serveur **&#x200B;**&#x200B;ou **ServiceNow** que vous avez choisi.
+  Après la validation, vous pouvez sélectionner le profil de publication dans les paramètres prédéfinis de sortie d&#39;un plan DITA et l&#39;utiliser pour générer la sortie vers le serveur **** ou **ServiceNow** que vous avez choisi.
 
   En savoir plus sur le paramètre prédéfini de sortie [Base de connaissances](../user-guide/generate-output-knowledge-base.md).
 
@@ -235,24 +245,24 @@ Cet onglet contient les options permettant de créer des groupes de langues, de 
 
   Pour créer un groupe de langues, procédez comme suit :
 
-   1. Sélectionnez **Ajouter**.
-   1. Saisissez le nom du groupe linguistique. Chaque langue doit avoir un nom unique. Vous pouvez voir une erreur si le champ du nom est vide ou si le nom n’est pas unique.
-   1. Sélectionnez les langues dans la liste déroulante. Vous pouvez sélectionner plusieurs langues.
+  1. Sélectionnez **Ajouter**.
+  1. Saisissez le nom du groupe linguistique. Chaque langue doit avoir un nom unique. Vous pouvez voir une erreur si le champ du nom est vide ou si le nom n’est pas unique.
+  1. Sélectionnez les langues dans la liste déroulante. Vous pouvez sélectionner plusieurs langues.
 
-      Saisissez les premiers caractères de la langue ou le code de langue pour filtrer les langues souhaitées. Par exemple, saisissez « en » pour filtrer toutes les langues qui contiennent « en » au début de leur nom ou de leur code.
+     Saisissez les premiers caractères de la langue ou le code de langue pour filtrer les langues souhaitées. Par exemple, saisissez « en » pour filtrer toutes les langues qui contiennent « en » au début de leur nom ou de leur code.
 
-   1. Sélectionnez l’icône Terminé pour ajouter les langues sélectionnées au groupe. Les langues s’affichent. Lorsque vous ajoutez trois langues ou plus, l’option **Afficher plus** s’affiche. Vous pouvez sélectionner **Afficher plus** pour afficher toutes les langues présentes dans le groupe.
+  1. Sélectionnez l’icône Terminé pour ajouter les langues sélectionnées au groupe. Les langues s’affichent. Lorsque vous ajoutez trois langues ou plus, l’option **Afficher plus** s’affiche. Vous pouvez sélectionner **Afficher plus** pour afficher toutes les langues présentes dans le groupe.
 
-      >[!TIP]
-      >
-      > Activez le bouton (bascule) **Afficher plus** pour **Afficher moins** et afficher uniquement quelques langues.
+     >[!TIP]
+     >
+     > Activez le bouton (bascule) **Afficher plus** pour **Afficher moins** et afficher uniquement quelques langues.
 
-   1. Pointez sur les langues d’un groupe pour modifier ![icône de modification](../user-guide/images/edit_pencil_icon.svg) ou supprimer ![supprimer](../user-guide/images/Delete_icon.svg) les groupes de langues.
-   1. Enregistrez le **Paramètres**.
+  1. Pointez sur les langues d’un groupe pour modifier ![icône de modification](../user-guide/images/edit_pencil_icon.svg) ou supprimer ![supprimer](../user-guide/images/Delete_icon.svg) les groupes de langues.
+  1. Enregistrez le **Paramètres**.
 
-      >[!NOTE]
-      >
-      >En tant qu’utilisateur, vous pouvez afficher les groupes linguistiques configurés sur votre profil de dossier.
+     >[!NOTE]
+     >
+     >En tant qu’utilisateur, vous pouvez afficher les groupes linguistiques configurés sur votre profil de dossier.
 
 - **Propager les libellés de la version source vers la version cible** : sélectionnez cette option pour transmettre le libellé de la version du fichier source au fichier traduit. Par défaut, cette option est désactivée.
 - **Nettoyage du projet de traduction après l’achèvement** : sélectionnez cette option pour configurer les projets de traduction à désactiver ou à supprimer automatiquement après la traduction. Par défaut, l’option **Aucun** est sélectionnée, de sorte que le projet existe après la traduction.

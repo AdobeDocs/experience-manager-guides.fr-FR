@@ -1,7 +1,7 @@
 ---
 title: Notes de mise à jour | Instructions de mise à niveau pour la version 5.2.0 d’Adobe Experience Manager Guides
 description: Découvrez la matrice de compatibilité et comment effectuer une mise à niveau vers la version 5.2.0 d’Adobe Experience Manager Guides.
-source-git-commit: a2d4731af4f4996c87dd177a6e45f1d8ebabd6cf
+source-git-commit: 575e8452f02626dab3d2bc6a040767a592588205
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 4%
@@ -26,6 +26,20 @@ Cette section répertorie la matrice de compatibilité pour les applications log
 | 5.2.0 (UUID) | 6.5 | 24, 23, 22 |
 
 Pour plus d&#39;informations, consultez la section [Exigences techniques](../install-guide/download-install-technical-requirements.md) dans le Guide d&#39;installation et de configuration On-Premise.
+
+<!--
+
+### Java SDK resources
+
+Use the following resources when developing custom Java plugins or integrations with Experience Manager Guides. Ensure that the SDK version matches your installed Experience Manager Guides release. 
+
+| Release | Java SDK version| Maven Central| Java API reference | 
+|---|---|---|----|
+| 5.2.0 (UUID) | 5.2.1 | [AEM Guides SDK API 5.2.1 ](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.1/overviewhttps://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.1/overview) | [Javadoc 5.2.1](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/5.2.1/index.html) |
+
+For more details, view [Configure and use the API JAR from Maven Central repository](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
+
+ -->
 
 ### FrameMaker et FrameMaker Publishing Server
 
@@ -69,7 +83,7 @@ Vous pouvez facilement mettre à niveau votre version actuelle de Experience Man
 >
 > - **Pour AEM 6.5 LTS** : Experience Manager Guides 5.2.0 est pris en charge uniquement avec AEM 6.5 LTS Service Pack 2.
 > - **Pour AEM 6.5** : Experience Manager Guides 5.2.0 est pris en charge uniquement avec AEM 6.5 Service Pack 24, 23 et 22.
-> - Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, veillez à effectuer d’abord la mise à niveau d’AEM avant de poursuivre la mise à niveau vers Experience Manager Guides 5.2.0. Pour plus d’informations, consultez la section [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/fr/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> - Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, veillez à effectuer d’abord la mise à niveau d’AEM avant de poursuivre la mise à niveau vers Experience Manager Guides 5.2.0. Pour plus d’informations, consultez la section [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 Avant de procéder à la mise à niveau vers la version 5.2.0 de Experience Manager Guides, vous devez tenir compte des points suivants :
 
@@ -79,7 +93,7 @@ Avant de procéder à la mise à niveau vers la version 5.2.0 de Experience Mana
 - Si vous utilisez la version 4.3.x, 4.2, 4.2.1 (correctif 4.2.1.3), 4.1 ou 4.1.x, vous devez effectuer la mise à niveau vers la version 4.4 avant d’effectuer la mise à niveau vers la version 5.1.0.
 - Si vous utilisez la version 4.0, vous devez effectuer la mise à niveau vers la version 4.2 avant d’effectuer la mise à niveau vers la version 4.3.x.
 - Si vous utilisez la version 3.8.5, vous devez effectuer la mise à niveau vers la version 4.0 avant de passer à la version 4.2.
-- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html).
+- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 ## Processus de mise à niveau vers Experience Manager Guides 5.2.0
 
@@ -87,7 +101,7 @@ Avant de procéder à la mise à niveau vers la version 5.2.0 de Experience Mana
 >
 > Le post-traitement et l’indexation peuvent prendre quelques heures. Nous vous recommandons de démarrer le processus de mise à niveau pendant les heures creuses.
 
-1. Téléchargez le package de la version 5.2.0 à partir du Portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 5.2.0 à partir du Portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de version sur lequel vous souhaitez effectuer la mise à niveau et attendez que le bundle soit installé.
 1. *(Facultatif)* Mettre à niveau le plug-in Oxygen Connector fourni avec la version vers laquelle vous effectuez la mise à niveau.
 1. Effacez la mémoire cache du navigateur après l’installation du package.

@@ -5,27 +5,14 @@ feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
 TQID: https://experienceleague.adobe.com/GbsiDGw2pByOZ-AfWM2yH46QYWm95Z4ShDSvqyedViU
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: d6596f3f-92a7-43ec-b444-237db6adad05
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
-source-wordcount: 11025
+source-wordcount: 11073
 ht-degree: 0%
 
 ---
@@ -66,9 +53,9 @@ Certaines des fonctionnalités du panneau de gauche sont disponibles dans la sec
 - [Révision](#review)
 
 
-Une option supplémentaire intitulée **&#x200B;**&#x200B;s’affiche également dans le panneau de gauche si Adobe Workfront est configuré.
+Une option supplémentaire intitulée **** s’affiche également dans le panneau de gauche si Adobe Workfront est configuré.
 
-Pour plus d’informations, consultez Intégration de [&#128279;](./workfront-integration.md).
+Pour plus d’informations, consultez Intégration de [](./workfront-integration.md).
 
 >[!NOTE]
 >
@@ -199,7 +186,7 @@ Sélectionnez l’icône **Filtrage avancé** ![icône de filtre avancé](images
 
 Vous pouvez afficher les options suivantes sous les onglets **Général** et **Avancé**.
 
-![&#x200B; boîte de dialogue filtre avancé &#x200B;](images/repository-filter-search-advanced.png) {width="650"}
+![ boîte de dialogue filtre avancé ](images/repository-filter-search-advanced.png) {width="650"}
 
 
 **Général**
@@ -213,17 +200,17 @@ Cette opération est synchronisée avec la zone de recherche de la fenêtre du r
 - **Fichiers non-DITA** : vous pouvez rechercher **Fichiers Ditaval**, **Fichiers image**, **Multimédia**, **Documents** et **JSON** dans le chemin d’accès sélectionné.
 - **Verrouillé par** : affiche une liste d’utilisateurs. La liste est paginée et se charge de manière asynchrone, affichant un ensemble limité d’utilisateurs à la fois et en récupérant d’autres au fur et à mesure que vous faites défiler ou naviguez. Cela améliore la vitesse de chargement et les performances globales, en particulier lorsque vous travaillez avec un grand nombre d’utilisateurs.
 - **Modifié après** / **Modifié avant** : filtrez le contenu en fonction de la date de modification. Sélectionnez une période dans le calendrier ou choisissez l’une des options de période suivantes :
-   - Au cours des deux dernières heures
-   - La semaine dernière
-   - Le mois dernier
-   - L&#39;année dernière
+  - Au cours des deux dernières heures
+  - La semaine dernière
+  - Le mois dernier
+  - L&#39;année dernière
 - **Balises** : filtrez le contenu en fonction des balises.
 
 **Avancé**
 
 - **Éléments DITA** : vous pouvez également rechercher des valeurs spécifiques dans les attributs des éléments DITA spécifiés.
-   - Sélectionnez **Ajouter un élément** pour ajouter les éléments, les attributs et les valeurs.
-   - Appliquez les filtres que vous avez sélectionnés.
+  - Sélectionnez **Ajouter un élément** pour ajouter les éléments, les attributs et les valeurs.
+  - Appliquez les filtres que vous avez sélectionnés.
 
 - Sélectionnez **Effacer tout** pour effacer tous les filtres appliqués.
 
@@ -325,13 +312,13 @@ Procédure à suivre pour créer un dossier :
 
   Si le nom de fichier de la ressource en cours de chargement contient des caractères non valides (par exemple * / : [\] | # % { } ?), les scénarios suivants peuvent se produire :
 
-   - **Chargement partiel** : indique qu’une ou plusieurs ressources chargées contiennent des caractères non valides dans leur nom de fichier.
+  - **Chargement partiel** : indique qu’une ou plusieurs ressources chargées contiennent des caractères non valides dans leur nom de fichier.
 
-     ![](images/partial-asset-upload.png)
+    ![](images/partial-asset-upload.png)
 
-   - **Échec du chargement** : indique que le nom de toutes les ressources en cours de chargement contient des caractères non valides.
+  - **Échec du chargement** : indique que le nom de toutes les ressources en cours de chargement contient des caractères non valides.
 
-     ![](images/upload-asset-failed.png)
+    ![](images/upload-asset-failed.png)
 
   Pour résoudre ces conflits, supprimez tous les caractères non valides des noms de fichier des ressources, puis chargez-les à nouveau dans le référentiel.
 
@@ -370,7 +357,7 @@ Accédez aux différentes options du menu Options selon que vous sélectionnez u
 - Renommer
 - Supprimer
 - Générer
-- Télécharger en tant que PDF
+- Télécharger au format PDF
 - Ajouter à
 - Copier
 - Retraiter la ressource
@@ -404,9 +391,9 @@ Les différentes options du menu Options sont expliquées ci-dessous :
 - **Dupliquer** : utilisez cette option pour créer un doublon ou une copie du fichier sélectionné. Vous avez également la possibilité de renommer le fichier en double dans l’invite de ressources en double. Par défaut, le fichier est créé avec un suffixe \(comme nom_fichier\_1.extension\). Le titre du fichier reste identique au fichier source et le nouveau fichier commence par la version 1.0. Toutes les références, balises et métadonnées sont copiées alors que les lignes de base ne sont pas copiées dans le fichier en double.
 
 - **Déplacer vers** : utilisez cette option pour déplacer le fichier sélectionné vers un autre dossier.
-   - Vous pouvez saisir le nom du dossier de destination ou choisir **Sélectionner le chemin** pour sélectionner le dossier de destination.
-   - Vous pouvez déplacer un fichier de n’importe quel type vers n’importe quelle destination dans le dossier Contenu.
-   - Deux fichiers ne peuvent pas porter le même nom. Vous ne pouvez donc pas déplacer un fichier vers un dossier où un fichier portant le même nom existe déjà.
+  - Vous pouvez saisir le nom du dossier de destination ou choisir **Sélectionner le chemin** pour sélectionner le dossier de destination.
+  - Vous pouvez déplacer un fichier de n’importe quel type vers n’importe quelle destination dans le dossier Contenu.
+  - Deux fichiers ne peuvent pas porter le même nom. Vous ne pouvez donc pas déplacer un fichier vers un dossier où un fichier portant le même nom existe déjà.
 
   Si vous essayez de déplacer un fichier vers un dossier dans lequel un fichier portant le même nom existe mais avec un titre différent, la boîte de dialogue Renommer et déplacer le fichier s’affiche et vous devez renommer le fichier avant de le déplacer. Le fichier déplacé dans le dossier de destination porte le nouveau nom de fichier.
 
@@ -420,9 +407,9 @@ Les différentes options du menu Options sont expliquées ci-dessous :
 
   Experience Manager Guides ne vous permet pas de renommer ou de déplacer un fichier dans les scénarios suivants :
 
-   - Vous ne pouvez pas déplacer ou renommer un fichier s’il fait partie d’une révision ou d’un workflow de traduction.
+  - Vous ne pouvez pas déplacer ou renommer un fichier s’il fait partie d’une révision ou d’un workflow de traduction.
 
-   - Si un autre utilisateur verrouille le fichier, vous ne pouvez pas le renommer ni le déplacer. L’option Renommer ou Déplacer vers ne s’affiche pas pour le fichier.
+  - Si un autre utilisateur verrouille le fichier, vous ne pouvez pas le renommer ni le déplacer. L’option Renommer ou Déplacer vers ne s’affiche pas pour le fichier.
 
   >[!NOTE]
   >
@@ -435,30 +422,30 @@ Les différentes options du menu Options sont expliquées ci-dessous :
   </details>
 
 - **Renommer** : utilisez cette option pour renommer le fichier sélectionné. Saisissez le nom du nouveau fichier dans la boîte de dialogue **Renommer la ressource**.
-   - Vous pouvez renommer un fichier de n’importe quel type.
-   - Vous ne pouvez pas modifier l’extension d’un fichier.
-   - Deux fichiers ne peuvent pas porter le même nom. Par conséquent, vous ne pouvez pas renommer un fichier avec un nom qui existe déjà. Une erreur s’affiche.
+  - Vous pouvez renommer un fichier de n’importe quel type.
+  - Vous ne pouvez pas modifier l’extension d’un fichier.
+  - Deux fichiers ne peuvent pas porter le même nom. Par conséquent, vous ne pouvez pas renommer un fichier avec un nom qui existe déjà. Une erreur s’affiche.
 
 - **Supprimer** : utilisez cette option pour supprimer le fichier sélectionné. Une invite de confirmation s’affiche avant la suppression du fichier.
 
-   - Une invite de confirmation s’affiche avant la suppression du fichier.
-   - Si le fichier n’est pas référencé à partir d’un autre fichier, il est supprimé et un message de réussite s’affiche.
-   - Si le fichier est verrouillé, vous ne pouvez pas le supprimer et un message d’erreur s’affiche.
+  - Une invite de confirmation s’affiche avant la suppression du fichier.
+  - Si le fichier n’est pas référencé à partir d’un autre fichier, il est supprimé et un message de réussite s’affiche.
+  - Si le fichier est verrouillé, vous ne pouvez pas le supprimer et un message d’erreur s’affiche.
 
-     >[!NOTE]
-     >
-     > Si votre administrateur a empêché la suppression des fichiers verrouillés, le message d’erreur s’affiche. Pour plus d’informations, consultez la section *Empêcher la suppression des fichiers extraits* dans la section Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
+    >[!NOTE]
+    >
+    > Si votre administrateur a empêché la suppression des fichiers verrouillés, le message d’erreur s’affiche. Pour plus d’informations, consultez la section *Empêcher la suppression des fichiers extraits* dans la section Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
 
-   - Si le fichier est ajouté à une collection, la boîte de dialogue **Forcer la suppression** s’affiche et vous pouvez forcer sa suppression.
-   - Si le fichier est référencé à partir d’un autre fichier **la boîte de dialogue** Forcer la suppression s’affiche et vous pouvez forcer la suppression du fichier :
+  - Si le fichier est ajouté à une collection, la boîte de dialogue **Forcer la suppression** s’affiche et vous pouvez forcer sa suppression.
+  - Si le fichier est référencé à partir d’un autre fichier **la boîte de dialogue** Forcer la suppression s’affiche et vous pouvez forcer la suppression du fichier :
 
-     ![](images/options-menu-force-delete.png){width="300"}
+    ![](images/options-menu-force-delete.png){width="300"}
 
-     >[!NOTE]
-     >
-     > Si votre administrateur a autorisé la suppression du fichier, l’option **Forcer la suppression** est activée. Dans le cas contraire, la fonction **Forcer la suppression** est désactivée et un message s’affiche indiquant que vous n’êtes pas autorisé à supprimer les fichiers référencés. Pour plus d’informations, consultez la section *Empêcher la suppression des fichiers référencés* dans la section Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
+    >[!NOTE]
+    >
+    > Si votre administrateur a autorisé la suppression du fichier, l’option **Forcer la suppression** est activée. Dans le cas contraire, la fonction **Forcer la suppression** est désactivée et un message s’affiche indiquant que vous n’êtes pas autorisé à supprimer les fichiers référencés. Pour plus d’informations, consultez la section *Empêcher la suppression des fichiers référencés* dans la section Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
 
-   - Si vous supprimez une rubrique référencée et que vous avez ouvert le fichier contenant les références pour le modifier, le lien rompu pour le fichier référencé s’affiche.
+  - Si vous supprimez une rubrique référencée et que vous avez ouvert le fichier contenant les références pour le modifier, le lien rompu pour le fichier référencé s’affiche.
 
   >[!NOTE]
   >
@@ -467,15 +454,15 @@ Les différentes options du menu Options sont expliquées ci-dessous :
 - **Générer** : utilisez cette option pour publier une carte ou des rubriques d’une carte sur une page Sites, un fragment de contenu ou un fragment d’expérience.
 
 - **Ajouter à** : vous pouvez choisir parmi les options suivantes :
-   - **Collections** : ajoute le fichier sélectionné aux collections. Vous pouvez choisir de l’ajouter à une collection existante ou nouvelle.
+  - **Collections** : ajoute le fichier sélectionné aux collections. Vous pouvez choisir de l’ajouter à une collection existante ou nouvelle.
 
-   - **Contenu réutilisable** : ajoute le fichier sélectionné à la liste Contenu réutilisable dans le panneau de gauche.
+  - **Contenu réutilisable** : ajoute le fichier sélectionné à la liste Contenu réutilisable dans le panneau de gauche.
 
 - **Copier** : vous pouvez choisir parmi les options suivantes :
 
-   - **Copier l’UUID** : copiez l’UUID du fichier sélectionné dans le presse-papiers.
+  - **Copier l’UUID** : copiez l’UUID du fichier sélectionné dans le presse-papiers.
 
-   - **Copier le chemin d’accès** : copiez le chemin d’accès complet du fichier sélectionné dans le Presse-papiers.
+  - **Copier le chemin d’accès** : copiez le chemin d’accès complet du fichier sélectionné dans le Presse-papiers.
 
 - **Retraiter la ressource** : déclenche le traitement de la ressource sélectionnée.
 
@@ -533,7 +520,7 @@ Les options suivantes sont disponibles pour un fichier de mappage dans la vue Ca
 
 Vous pouvez effectuer les actions suivantes à l’aide du menu Options du fichier de mappage :
 
-![](images/options-menu-map-view_cs.png){  }
+![](images/options-menu-map-view_cs.png)
 
 - **Modifier** : ouvrez le fichier de mappage pour le modifier dans l’éditeur de mappages.
 
@@ -550,21 +537,25 @@ Vous pouvez effectuer les actions suivantes à l’aide du menu Options du fichi
 - **Aperçu** : ouvrez un aperçu du fichier de mappage. Dans cette vue, tous les fichiers de rubrique de la carte sont affichés dans une seule vue page par page unifiée.
 
 - **Copier** : vous pouvez choisir parmi les options suivantes :
-   - **Copier l’UUID** : copiez l’UUID du fichier de mappage dans le Presse-papiers.
-   - **Copier le chemin** : copiez le chemin d’accès complet du fichier de mappage dans le Presse-papiers.
+  - **Copier l’UUID** : copiez l’UUID du fichier de mappage dans le Presse-papiers.
+  - **Copier le chemin** : copiez le chemin d’accès complet du fichier de mappage dans le Presse-papiers.
 
 - **Localiser dans l’explorateur** : affiche l’emplacement du fichier de mappage dans l’explorateur\(ou la gestion des ressources numériques\).
 
 - **Ajouter à** : vous pouvez choisir parmi les options suivantes :
-   - **Collections** : ajoute le fichier de mappage aux collections. Vous pouvez choisir de l’ajouter à une collection existante ou nouvelle.
+  - **Collections** : ajoute le fichier de mappage aux collections. Vous pouvez choisir de l’ajouter à une collection existante ou nouvelle.
 
-   - **Contenu réutilisable** : ajoute le fichier map à la liste Contenu réutilisable dans le panneau de gauche.
+  - **Contenu réutilisable** : ajoute le fichier map à la liste Contenu réutilisable dans le panneau de gauche.
 
 - **Propriétés** : utilisez cette option pour ouvrir la page de propriétés du fichier de mappage. Cette page de propriétés est également accessible à partir de l’interface utilisateur d’Assets en sélectionnant un fichier et en sélectionnant l’icône Propriétés dans la barre d’outils.
 
 - **Ouvrir le tableau de bord des cartes** : ouvre le tableau de bord des cartes.
 
 - **Afficher dans l’interface utilisateur d’Assets** : utilisez cette option pour afficher un aperçu du fichier de mappage dans l’interface utilisateur d’Assets. Dans cette vue, tous les fichiers de rubrique de la carte sont affichés dans une seule vue page par page unifiée.
+- **Exécuter le contrôle d’intégrité** : activez cette option pour exécuter les contrôles d’intégrité sur la carte sélectionnée. Pour plus d’informations sur cette fonctionnalité, consultez la section [Fonctionnalités supplémentaires dans l’éditeur de cartes](./map-editor-other-features.md#run-health-check-on-a-map).
+  >[!NOTE]
+  >
+  > Cette fonctionnalité est activée par défaut. Si vous préférez ne pas utiliser cette fonctionnalité dans votre environnement, contactez votre équipe du succès client.
 - **Télécharger le mappage** : sélectionnez cette option pour ouvrir la boîte de dialogue **Télécharger le mappage**.
 
   Dans la boîte de dialogue **Télécharger la carte**, vous pouvez choisir les options suivantes :
@@ -584,7 +575,6 @@ Vous pouvez effectuer les actions suivantes à l’aide du menu Options du fichi
   >[!NOTE]
   >
   >  Par défaut, les cartes téléchargées restent pendant cinq jours dans la boîte de réception de notifications de Adobe Experience Manager.
-
 - **Fermer le contexte de mappage** : ferme le fichier de mappage.
 
 La capture d’écran suivante présente le menu Options d’un fichier en mode Carte :
@@ -606,8 +596,8 @@ Vous pouvez effectuer les actions suivantes à l’aide du menu Options :
 
 - **Aperçu** : obtenez un aperçu rapide du fichier (.dita, .xml, audio, vidéo ou image) sans l’ouvrir. Vous pouvez redimensionner le volet d’aperçu. Si le contenu contient des `<xref>` ou des `<conref>`, vous pouvez les sélectionner pour les ouvrir dans un nouvel onglet.  Le titre du fichier s’affiche dans la fenêtre. Si aucun titre n’est présent, le nom du fichier s’affiche. Pour fermer le volet **Aperçu**, vous pouvez sélectionner l’icône de fermeture ou sélectionner n’importe où en dehors du volet.
 - **Copier** : vous pouvez choisir parmi les options suivantes :
-   - **Copier l’UUID** : copiez l’UUID du fichier sélectionné dans le presse-papiers.
-   - **Copier le chemin d’accès** : copiez le chemin d’accès complet du fichier sélectionné dans le Presse-papiers.
+  - **Copier l’UUID** : copiez l’UUID du fichier sélectionné dans le presse-papiers.
+  - **Copier le chemin d’accès** : copiez le chemin d’accès complet du fichier sélectionné dans le Presse-papiers.
 
 
 - **Localiser dans l’explorateur** : affiche l’emplacement du fichier sélectionné dans l’explorateur \(ou DAM\).
@@ -616,9 +606,9 @@ Vous pouvez effectuer les actions suivantes à l’aide du menu Options :
 - **Tout réduire** : réduisez toutes les rubriques faisant partie du fichier de mappage actuel.
 
 - **Ajouter à** : vous pouvez choisir parmi les options suivantes :
-   - **Collections** : ajoute le fichier sélectionné aux collections. Vous pouvez choisir de l’ajouter à une collection existante ou nouvelle.
+  - **Collections** : ajoute le fichier sélectionné aux collections. Vous pouvez choisir de l’ajouter à une collection existante ou nouvelle.
 
-   - **Contenu réutilisable** : ajoute le fichier sélectionné à la liste Contenu réutilisable dans le panneau de gauche.
+  - **Contenu réutilisable** : ajoute le fichier sélectionné à la liste Contenu réutilisable dans le panneau de gauche.
 
 - **Propriétés** : utilisez cette option pour ouvrir la page des propriétés du fichier sélectionné. Cette page de propriétés est également accessible à partir de l’interface utilisateur d’Assets en sélectionnant un fichier et en sélectionnant l’icône Propriétés dans la barre d’outils.
 
@@ -773,10 +763,10 @@ Vous pouvez configurer les paramètres suivants de l’outil Zone réactive :
 - **Action** : vous pouvez choisir de rechercher les clés du glossaire **manuellement pour chaque rubrique** ou **automatiquement pour toutes les rubriques**. Si vous choisissez **Manuellement pour chaque rubrique**, il vous invite à confirmer avant de convertir chaque terme de chaque rubrique. Si vous choisissez **Automatiquement pour toutes les rubriques**, tous les termes de toutes les rubriques sont automatiquement convertis.
 - **Convertir** : vous pouvez convertir un terme recherché **Texte en terme glossaire** ou **Terme glossaire en texte.**
 - **Options** : vous pouvez effectuer un choix parmi les options suivantes :
-   - **Correspondance sensible à la casse** : recherche un terme pour trouver la correspondance qui a la même casse. Par exemple, « USB » ne correspond pas à « usb ».
-   - **Convertir uniquement la première instance** : si plusieurs instances du terme recherché sont présentes dans une rubrique, seule la première instance est convertie.
-   - **Verrouiller le fichier avant la conversion** : le fichier recherché est verrouillé avant la conversion des termes.
-   - **Créer une version après la conversion** : une nouvelle version de la rubrique est créée une fois la conversion des termes terminée.
+  - **Correspondance sensible à la casse** : recherche un terme pour trouver la correspondance qui a la même casse. Par exemple, « USB » ne correspond pas à « usb ».
+  - **Convertir uniquement la première instance** : si plusieurs instances du terme recherché sont présentes dans une rubrique, seule la première instance est convertie.
+  - **Verrouiller le fichier avant la conversion** : le fichier recherché est verrouillé avant la conversion des termes.
+  - **Créer une version après la conversion** : une nouvelle version de la rubrique est créée une fois la conversion des termes terminée.
 - Le bouton **Suivant** apparaît si vous sélectionnez l’option **Manuellement pour chaque rubrique**. Sélectionnez **Suivant** pour convertir les termes de chaque rubrique en fonction des paramètres sélectionnés. Il demande la conversion des termes de chaque rubrique et passe au fichier suivant. Vous pouvez choisir de convertir un terme ou de l’ignorer et de passer au terme suivant.
 
   ![](images/manual-convert-skip.png){width="300"}
@@ -1050,7 +1040,7 @@ Vous pouvez également appliquer des valeurs à un attribut en sélectionnant pl
 >[!ENDTABS]
 
 
-Vue Source **&#x200B;**
+Vue Source ****
 
 Vous pouvez également modifier les valeurs à partir de la liste déroulante de l’attribut dans la vue Source. La vue Source vous empêche également d’ajouter une valeur incorrecte.
 
@@ -1101,8 +1091,8 @@ Pour insérer un fragment de code, utilisez l’une des méthodes suivantes :
 
 - Sélectionnez un fragment de code dans le panneau Fragments de code et faites-le glisser et déposez-le à l’emplacement souhaité dans votre rubrique. Vous pouvez également utiliser les options de filtre en haut du panneau Fragments de code pour affiner votre vue :
 
-   - **Afficher tous les extraits** : répertorie tous les extraits disponibles, y compris les formats DITA et HTML.
-   - **Afficher uniquement les fragments de code applicables** : filtre la liste afin d’afficher uniquement les fragments de code pertinents pour la rubrique ou le contexte en cours. Par exemple, si vous travaillez sur une rubrique DITA, les fragments de code HTML seront exclus de la liste pour garantir la précision du contexte.
+  - **Afficher tous les extraits** : répertorie tous les extraits disponibles, y compris les formats DITA et HTML.
+  - **Afficher uniquement les fragments de code applicables** : filtre la liste afin d’afficher uniquement les fragments de code pertinents pour la rubrique ou le contexte en cours. Par exemple, si vous travaillez sur une rubrique DITA, les fragments de code HTML seront exclus de la liste pour garantir la précision du contexte.
 
 - Placez le point d&#39;insertion à l&#39;endroit où vous souhaitez insérer le fragment de code. Dans le menu Options du fragment de code requis, choisissez Insérer un fragment de code.
 
@@ -1134,7 +1124,7 @@ Pour savoir comment créer des modèles personnalisés, consultez la section [Cr
 
 Dans Experience Manager Guides, vous pouvez ajouter et importer des citations et les appliquer à votre contenu. Vous pouvez ajouter ces citations à partir de n’importe quelle source de livres, de sites web et de revues.
 
-Pour plus d’informations, consultez la section [&#x200B; Ajouter et gérer des citations dans votre contenu &#x200B;](./web-editor-apply-citations.md).
+Pour plus d’informations, consultez la section [ Ajouter et gérer des citations dans votre contenu ](./web-editor-apply-citations.md).
 
 ## Variables de langue
 
@@ -1195,14 +1185,14 @@ Pour effectuer la recherche globale et remplacer par le mode Source, procédez c
    - **État du document** : vous pouvez sélectionner un état de document dans les options disponibles. Les options d’état du document affichées sont dérivées des profils de dossier. Ils représentent l’ensemble combiné de tous les états de document possibles dans ces profils. Les états par défaut sont En cours de révision, Terminé, Brouillon, Approuvé, Modifier et Révisé.
    - **Dernière modification** : filtrez le contenu en fonction de la date de modification. Sélectionnez une période dans le calendrier ou choisissez l’une des options de période suivantes :
 
-      - Au cours des 2 dernières heures
-      - La semaine dernière
-      - Le mois dernier
-      - L&#39;année dernière
+     - Au cours des 2 dernières heures
+     - La semaine dernière
+     - Le mois dernier
+     - L&#39;année dernière
    - **Autres** : vous pouvez configurer les éléments suivants :
-      - **Balises** : filtrez le contenu en fonction des balises.
-      - **Recherche sensible à la casse** : permet de rechercher en s’assurant que les résultats correspondent à la casse exacte spécifiée.
-      - **Répertorier les fichiers verrouillés par d’autres utilisateurs** : affiche les fichiers actuellement verrouillés par d’autres utilisateurs et utilisatrices, empêchant les modifications tant que le verrouillage n’est pas désactivé.
+     - **Balises** : filtrez le contenu en fonction des balises.
+     - **Recherche sensible à la casse** : permet de rechercher en s’assurant que les résultats correspondent à la casse exacte spécifiée.
+     - **Répertorier les fichiers verrouillés par d’autres utilisateurs** : affiche les fichiers actuellement verrouillés par d’autres utilisateurs et utilisatrices, empêchant les modifications tant que le verrouillage n’est pas désactivé.
 
 1. Appuyez sur la touche Entrée ou sélectionnez l’icône **Rechercher** pour effectuer la recherche.
 
@@ -1327,7 +1317,7 @@ Vous pouvez également utiliser l&#39;option **Rechercher dans la carte** du men
 
 ## Modèles PDF
 
-Permet d’utiliser divers modèles PDF. Pour plus de détails, consultez [les modèles &#x200B;](../native-pdf/pdf-template.md).
+Permet d’utiliser divers modèles PDF. Pour plus de détails, consultez [les modèles ](../native-pdf/pdf-template.md).
 
 ## Révision
 
@@ -1365,8 +1355,8 @@ Pour afficher les commentaires de révision dans les tâches de révision active
 
      La boîte de dialogue **Filtre** comprend également les options suivantes, qui peuvent être activées ou désactivées à l’aide du bouton (bascule) :
 
-      - **Tâches que j’ai lancées** : lorsqu’elle est activée, affiche uniquement les tâches que vous avez lancées.
-      - **Afficher uniquement les tâches actives** : lorsqu’elle est activée, cette option filtre la liste des projets afin d’afficher uniquement les tâches actuellement actives.
+     - **Tâches que j’ai lancées** : lorsqu’elle est activée, affiche uniquement les tâches que vous avez lancées.
+     - **Afficher uniquement les tâches actives** : lorsqu’elle est activée, cette option filtre la liste des projets afin d’afficher uniquement les tâches actuellement actives.
 
      Par défaut, les deux options sont désactivées. En outre, l’état de basculement sélectionné est conservé même après l’actualisation de la page.
 
@@ -1388,4 +1378,4 @@ Pour afficher les commentaires de révision dans les tâches de révision active
 
 </details>
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

@@ -5,18 +5,12 @@ exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
 TQID: https://experienceleague.adobe.com/mI3V4UN3L9sHBCY89xOyOmR5UANb0Ko7Fg1CWi4Tkhc
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c6cc5b187f72c1da1dc6f28186047989c3c1faa1
 workflow-type: tm+mt
-source-wordcount: 3282
+source-wordcount: 3195
 ht-degree: 0%
 
 ---
@@ -68,7 +62,7 @@ Une fois l’opération terminée, une notification de succès ou d’échec est
 
 **Glisser-déposer avec des noms de fichier lisibles**
 
-- *Glisser-déposer au même emplacement* : les options suivantes vous sont proposées : **Remplacer le(s) fichier(s) existant(s)**, **Conserver le(s) fichier(s)\)** et une option vous permettant de créer une version de la copie de travail existante.
+- *Glisser-déposer au même emplacement* : les options suivantes vous sont proposées : **Remplacer le(s) fichier(s) existant(s)**, **Conserver le(s) fichier(s)\(s) à la fois**.
 
   ![](images/uuid-human-readable-drag-drop-same-location.PNG){width="650" align="center"}
 
@@ -94,18 +88,16 @@ Une fois l’opération terminée, une notification de succès ou d’échec est
 
 **Glisser-déposer avec des noms de fichier basés sur un modèle UUID**
 
-*Glisser-déposer un fichier au même emplacement* : les options suivantes vous sont proposées : **Remplacer le(s) fichier(s) existant(s)** ainsi que l’option de création d’une version de la copie de travail existante.
+*Glisser-déposer un fichier au même emplacement* : les options **Remplacer le(s) fichier(s) existant(s)\)** s’affichent.
 
 ![](images/uuid-drag-drop-same-location.PNG){width="650" align="center"}
 
 Lorsque le fichier est remplacé, le nom du fichier ou son UUID ne change pas.
 
-Si vous sélectionnez l’option **Créer une version pour la copie de travail existante**, une nouvelle version de la copie de travail du document est créée ; le nouveau fichier est chargé, une nouvelle version du fichier est également créée et elle est transformée en copie de travail du document.
-
 La fonction **Créer une version pour le fichier téléchargé** doit être activée par votre administrateur. Si cette fonctionnalité est activée, une nouvelle version du fichier chargé est créée. Si vous désélectionnez cette option, aucune version du fichier chargé n’est créée. Pour plus d’informations, consultez la section *Créer une nouvelle version du fichier téléchargé* dans la section Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
 
 
-*Glisser-déposer le fichier à un autre emplacement* : les options suivantes vous sont proposées : **Remplacer le(s) fichier(s) existant(s)**, **Déplacer le(s) fichier(s) vers un nouvel emplacement** et une option permettant de créer une version de la copie de travail existante.
+*Faites glisser et déposez le fichier à un autre emplacement* : les options suivantes vous sont proposées : **Remplacer le ou les fichiers existants\(s\)**, **Déplacer le ou les fichiers\(s) vers un nouvel emplacement**.
 
 ![](images/uuid-drag-drop-different-location.PNG){width="650" align="center"}
 
@@ -158,24 +150,24 @@ Pour déplacer des fichiers en bloc, procédez comme suit :
    > Sélectionner <img src="images/info-icon.svg" width="25"> près de n’importe quel champ pour en savoir plus.
 
 
-   - **Ajouter un suffixe aux dossiers en double** : si vous déplacez des dossiers portant le même nom, vous devez sélectionner cette option. Par exemple, dans la capture d’écran précédente, le chemin **&#x200B;**&#x200B;contient le nom des dossiers à déplacer. Le dossier nommé topic existe à deux emplacements différents : test-A et test-B. Lorsque vous sélectionnez cette option, les dossiers sont déplacés avec succès. Le premier dossier déplacé sera nommé topic tandis que le deuxième dossier sera nommé topic0. L’opération de déplacement ajoute un suffixe dans la série séquentielle \(0, 1, 2, etc.\) aux dossiers portant le même nom.
+   - **Ajouter un suffixe aux dossiers en double** : si vous déplacez des dossiers portant le même nom, vous devez sélectionner cette option. Par exemple, dans la capture d’écran précédente, le chemin **** contient le nom des dossiers à déplacer. Le dossier nommé topic existe à deux emplacements différents : test-A et test-B. Lorsque vous sélectionnez cette option, les dossiers sont déplacés avec succès. Le premier dossier déplacé sera nommé topic tandis que le deuxième dossier sera nommé topic0. L’opération de déplacement ajoute un suffixe dans la série séquentielle \(0, 1, 2, etc.\) aux dossiers portant le même nom.
 
      Si vous déplacez des dossiers portant le même nom sans sélectionner cette option, l’opération est abandonnée avec un message.
 
    - **Chemin d’accès Source\(s\)** : indiquez l’emplacement des dossiers à déplacer.
 
-      - Sélectionnez **Parcourir le dossier**  <img src="images/browse-folder-icon.svg" width="25"> d’ouvrir la boîte de dialogue **Sélectionner le chemin**. Sélectionnez les dossiers à déplacer et choisissez **Sélectionner** pour terminer le processus. Vous pouvez sélectionner plusieurs dossiers placés à différents emplacements dans l’explorateur de chemins d’accès. Le chemin d’accès aux dossiers sélectionnés est conservé, ce qui vous permet de les consulter ou de les modifier facilement lorsque vous rouvrez la boîte de dialogue.
+     - Sélectionnez **Parcourir le dossier**  <img src="images/browse-folder-icon.svg" width="25"> d’ouvrir la boîte de dialogue **Sélectionner le chemin**. Sélectionnez les dossiers à déplacer et choisissez **Sélectionner** pour terminer le processus. Vous pouvez sélectionner plusieurs dossiers placés à différents emplacements dans l’explorateur de chemins d’accès. Le chemin d’accès aux dossiers sélectionnés est conservé, ce qui vous permet de les consulter ou de les modifier facilement lorsque vous rouvrez la boîte de dialogue.
 
-      - Vous pouvez également saisir ou copier et coller l’emplacement source. Appuyez sur Entrée pour ajouter le dossier à la liste.
+     - Vous pouvez également saisir ou copier et coller l’emplacement source. Appuyez sur Entrée pour ajouter le dossier à la liste.
 
-        Les dossiers sélectionnés sont répertoriés avec leur chemin d’accès. Pointez sur la balise du dossier pour afficher le chemin d’accès complet.
-      - Vous pouvez également supprimer n’importe quel dossier en sélectionnant **Supprimer** <img src="images/remove-folder.svg" width="25"> près du dossier .
+       Les dossiers sélectionnés sont répertoriés avec leur chemin d’accès. Pointez sur la balise du dossier pour afficher le chemin d’accès complet.
+     - Vous pouvez également supprimer n’importe quel dossier en sélectionnant **Supprimer** <img src="images/remove-folder.svg" width="25"> près du dossier .
 
 
    - **Chemin de destination** : indiquez l’emplacement où vous souhaitez déplacer les dossiers sources.
 
-      - Sélectionnez **Parcourir le dossier** <img src="images/browse-folder-icon.svg" width="25"> d’ouvrir la boîte de dialogue parcourir le fichier . Sélectionnez l’emplacement où vous souhaitez déplacer les dossiers sources. et sélectionnez Sélectionner pour terminer le processus.
-      - Vous pouvez également saisir ou copier et coller le chemin de destination.
+     - Sélectionnez **Parcourir le dossier** <img src="images/browse-folder-icon.svg" width="25"> d’ouvrir la boîte de dialogue parcourir le fichier . Sélectionnez l’emplacement où vous souhaitez déplacer les dossiers sources. et sélectionnez Sélectionner pour terminer le processus.
+     - Vous pouvez également saisir ou copier et coller le chemin de destination.
 
      Le dossier sélectionné s’affiche avec son chemin d’accès dans la zone de texte.
 
@@ -213,20 +205,20 @@ Pour déplacer des fichiers en bloc, procédez comme suit :
 
    - **Chemin d’accès Source\(s\)** : indiquez l’emplacement des dossiers à déplacer.
 
-      - Sélectionnez **Parcourir le dossier**  <img src="images/browse-folder-icon.svg" width="25"> d’ouvrir la boîte de dialogue **Sélectionner le chemin**. Sélectionnez les dossiers à déplacer et choisissez **Sélectionner** pour terminer le processus. Vous pouvez sélectionner plusieurs dossiers placés à différents emplacements dans l’explorateur de chemins d’accès. Le chemin d’accès aux dossiers sélectionnés est conservé, ce qui vous permet de les consulter ou de les modifier facilement lorsque vous rouvrez la boîte de dialogue.
+     - Sélectionnez **Parcourir le dossier**  <img src="images/browse-folder-icon.svg" width="25"> d’ouvrir la boîte de dialogue **Sélectionner le chemin**. Sélectionnez les dossiers à déplacer et choisissez **Sélectionner** pour terminer le processus. Vous pouvez sélectionner plusieurs dossiers placés à différents emplacements dans l’explorateur de chemins d’accès. Le chemin d’accès aux dossiers sélectionnés est conservé, ce qui vous permet de les consulter ou de les modifier facilement lorsque vous rouvrez la boîte de dialogue.
 
-      - Vous pouvez également saisir ou copier et coller l’emplacement source. Appuyez sur Entrée pour ajouter le dossier à la liste.
+     - Vous pouvez également saisir ou copier et coller l’emplacement source. Appuyez sur Entrée pour ajouter le dossier à la liste.
 
-        Les dossiers sélectionnés sont répertoriés avec leur chemin d’accès. Pointez sur la balise du dossier pour afficher le chemin d’accès complet.
-      - Vous pouvez également supprimer n’importe quel dossier en sélectionnant **Supprimer** <img src="images/remove-folder.svg" width="25"> près du dossier .
+       Les dossiers sélectionnés sont répertoriés avec leur chemin d’accès. Pointez sur la balise du dossier pour afficher le chemin d’accès complet.
+     - Vous pouvez également supprimer n’importe quel dossier en sélectionnant **Supprimer** <img src="images/remove-folder.svg" width="25"> près du dossier .
 
 
    - **Chemin de destination** : indiquez l’emplacement où vous souhaitez déplacer les dossiers sources.
 
-      - Sélectionnez **Parcourir le dossier** <img src="images/browse-folder-icon.svg" width="25"> d’ouvrir la boîte de dialogue parcourir le fichier . Sélectionnez l’emplacement où vous souhaitez déplacer les dossiers sources. et sélectionnez Sélectionner pour terminer le processus.
-      - Vous pouvez également saisir ou copier et coller le chemin de destination.
+     - Sélectionnez **Parcourir le dossier** <img src="images/browse-folder-icon.svg" width="25"> d’ouvrir la boîte de dialogue parcourir le fichier . Sélectionnez l’emplacement où vous souhaitez déplacer les dossiers sources. et sélectionnez Sélectionner pour terminer le processus.
+     - Vous pouvez également saisir ou copier et coller le chemin de destination.
 
-        Le dossier sélectionné s’affiche avec son chemin d’accès dans la zone de texte.
+       Le dossier sélectionné s’affiche avec son chemin d’accès dans la zone de texte.
 
    - Sélectionnez **Déplacement en bloc**.
 
@@ -335,4 +327,4 @@ Si votre fichier multimédia a subi des modifications, vous pouvez rechercher et
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Gérer le contenu](authoring.md)
+**Rubrique parente :**[ Gérer le contenu](authoring.md)
