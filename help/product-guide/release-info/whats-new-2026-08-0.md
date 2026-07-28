@@ -126,9 +126,9 @@ Les améliorations suivantes sont disponibles pour la fonctionnalité de contenu
 
 - Dans les questions de vérification des connaissances d’un cours, le bouton **Réessayer** s’affiche désormais lorsqu’un élève sélectionne une réponse incorrecte, ce qui lui permet de réessayer de répondre à la question. Ce comportement est cohérent dans les contrôles des connaissances à sélection unique et à sélection multiple. Pour plus d&#39;informations, consultez [Autres options du menu Insertion](../learning-content/lc-other-insert-options.md).
 
-- Lorsqu’une rubrique HTML est ajoutée à un mappage de groupes d’apprentissage, l’attribut `format="html"` est désormais automatiquement ajouté à la `topicref` correspondante, assurant ainsi un traitement et une publication corrects sous DITA-OT 4.x. Pour plus d’informations, consultez la section [ Ajouter du contenu existant dans votre cours ](../learning-content/manage-course.md#add-existing-content).
+- Lorsqu’une rubrique HTML est ajoutée à un mappage de groupes d’apprentissage, l’attribut `format="html"` est désormais automatiquement ajouté à la `topicref` correspondante, assurant ainsi un traitement et une publication corrects sous DITA-OT 4.x. Pour plus d’informations, consultez la section [&#x200B; Ajouter du contenu existant dans votre cours &#x200B;](../learning-content/manage-course.md#add-existing-content).
 
 ## Amélioration de l’API
 
-Cette version introduit de nouvelles API Swagger pour la gestion des ressources, la traduction et la publication, ce qui facilite la connexion de ces workflows à vos outils et systèmes existants. Pour plus d’informations, consultez [ Mises à jour des API dans les versions de Experience Manager Guides ](../api-reference/api-update-swagger.md).
+Cette version introduit de nouvelles API Swagger pour la gestion des ressources, la traduction et la publication, ce qui facilite la connexion de ces workflows à vos outils et systèmes existants. Pour plus d’informations, consultez [&#x200B; Mises à jour des API dans les versions de Experience Manager Guides &#x200B;](../api-reference/api-update-swagger.md).
 
