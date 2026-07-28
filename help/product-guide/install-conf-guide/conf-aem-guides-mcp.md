@@ -35,7 +35,7 @@ Experience Manager Guides expose ses fonctionnalités MCP par le biais d’un po
 
 | Serveur MCP | Point d’entrée | Description |
 | --- | --- | --- |
-| **** | `https://mcp.adobeaemcloud.com/adobe/mcp/guides` | Utiliser des rubriques et des cartes, des lignes de base et des rapports dans Experience Manager Guides. |
+| **&#x200B;**&#x200B;| `https://mcp.adobeaemcloud.com/adobe/mcp/guides` | Utiliser des rubriques et des cartes, des lignes de base et des rapports dans Experience Manager Guides. |
 
 Ce point d’entrée couvre quatre domaines :
 
