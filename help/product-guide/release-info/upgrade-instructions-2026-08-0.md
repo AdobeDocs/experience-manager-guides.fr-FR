@@ -28,7 +28,7 @@ Utilisez les ressources suivantes lors du développement de modules externes Jav
 |---|---|---|----|
 | 2026.08.0 | 2026.8.0 | [API AEM Guides SDK 2026.8.0](https://central.sonatype.com/artifact/com.adobe.aem/aem-dox-sdk-api/2026.8.0) | [Javadoc 2026.8.0](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) |
 
-Pour plus d’informations, consultez [Configuration et utilisation du fichier JAR de l’API à partir du référentiel central Maven](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
+Pour plus d’informations, consultez [Configuration et utilisation du fichier JAR de l’API à partir du référentiel central Maven](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/api-reference/introduction).
 
 ### FrameMaker et FrameMaker Publishing Server
 

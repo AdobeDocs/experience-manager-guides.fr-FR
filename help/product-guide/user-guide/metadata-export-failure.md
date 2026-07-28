@@ -22,7 +22,7 @@ ht-degree: 0%
 
 # Pourquoi l’exportation des métadonnées pour un dossier échoue-t-elle avec l’exception « Chaîne trop longue » ?
 
-Lorsque vous [exportez des métadonnées](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/metadata#export-metadata) pour un dossier à partir de l’interface utilisateur d’Assets, la tâche d’exportation peut échouer avec `String is too long` exception. Cela se produit généralement lorsque le dossier contient des propriétés spécifiques à Experience Manager Guides qui stockent des valeurs autres que des chaînes, telles que `baselineObj`.
+Lorsque vous [exportez des métadonnées](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/using/metadata#export-metadata) pour un dossier à partir de l’interface utilisateur d’Assets, la tâche d’exportation peut échouer avec `String is too long` exception. Cela se produit généralement lorsque le dossier contient des propriétés spécifiques à Experience Manager Guides qui stockent des valeurs autres que des chaînes, telles que `baselineObj`.
 
 **Pourquoi cela arrive-t-il ?**
 
