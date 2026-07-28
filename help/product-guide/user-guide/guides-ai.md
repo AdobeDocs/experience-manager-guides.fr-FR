@@ -1,7 +1,7 @@
 ---
 title: Guides AI pour la fonctionnalité de balisage intelligent
 description: Découvrez comment utiliser l’IA dédiée aux guides pour la fonctionnalité de balisage intelligent des rubriques et des cartes en une seule opération.
-source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
+source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Les composants suivants de l’IA dédiée aux guides vous aident à ajouter des
 
 - **(D)** Espace de réponse : passez en revue les recommandations de balises générées par l’IA et choisissez de les accepter, de les rejeter ou de les modifier avant d’appliquer les balises.
 - **(E)** Espace d’invite : saisissez une demande d’invite pour générer des recommandations de balises pour le contenu sélectionné.
-- **(F)** Joindre des fichiers ou ajouter du contexte : ajoutez des rubriques, des cartes ou des fichiers externes à partir de votre système local pour fournir le contenu que Guides AI doit analyser pour les recommandations de balises.
+- **(F)** Joindre des fichiers ou ajouter du contexte : permet d’ajouter des rubriques, des cartes ou des fichiers externes à partir de votre système local pour fournir le contenu que Guides AI doit analyser pour les recommandations de balises.
 - Modèle **(G)** : affiche le modèle d’IA utilisé pour analyser le contenu et générer des recommandations de balises. Plusieurs modèles OpenAI et Anthropic Claude peuvent être sélectionnés. Par défaut, l’option **Utiliser le manifeste par défaut** est sélectionnée, et utilise le modèle configuré pour l’assistant sélectionné.
 - **(H)** Envoyer : envoyez votre invite et le contenu joint pour générer des recommandations de balises basées sur l’IA.
 
