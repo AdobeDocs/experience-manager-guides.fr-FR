@@ -16,18 +16,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: f7c0b10f032c2584fb6e951da898faaeb4ca7aaf
+source-git-commit: 56c9710820f790ed64e58521dd0d0f9ac343825f
 workflow-type: tm+mt
-source-wordcount: 1447
+source-wordcount: 1548
 ht-degree: 0%
 
 ---
 
-# Utiliser une nouvelle collection de cartes pour la génération de sortie (Beta)
+# Utiliser une nouvelle collection de cartes pour la génération de sortie
 
 >[!IMPORTANT]
 >
-> Une nouvelle collection de cartes est disponible dans Experience Manager Guides as a Cloud Service à partir de la version 2026.06.0. Contactez votre équipe du succès client pour activer cette fonctionnalité.
+> Une nouvelle collection de cartes est disponible dans Experience Manager Guides as a Cloud Service à partir de la version 2026.08.0. Contactez votre équipe du succès client pour activer cette fonctionnalité.
 
 La collecte de cartes dans Adobe Experience Manager Guides permet aux spécialistes de la publication d’organiser plusieurs documents en une seule collection, de contrôler la sortie générée pour chaque document et de générer et publier efficacement des sorties par lots à partir d’un tableau de bord centralisé. Il offre également une visibilité sur la progression de la génération de sortie, met en évidence les modifications apportées aux mappages depuis leur dernière sortie publiée et vous permet de republier du contenu si nécessaire.
 
@@ -37,14 +37,14 @@ La nouvelle collection de mappages consolide les fonctionnalités précédemment
 
 Pour créer une collection de mappages et y ajouter des mappages, procédez comme suit :
 
-1. Ouvrez la page d’accueil de Experience Manager Guides et sélectionnez **Nouvelles collections de cartes**.
+1. Ouvrez la page d’accueil de Experience Manager Guides et sélectionnez **Mapper des collections**.
 
    La page **Mapper des collections** s’ouvre.
 
    ![](images/new-maps-collection.png){width="650"}
 
 
-1. Sur la page **Collections de cartes**, sélectionnez **Créer** en haut à droite, puis fournissez un **Nom** pour votre nouvelle collection de cartes.
+1. Sur la page **Collections de carte**, sélectionnez **Créer** en haut à droite, puis fournissez un **Nom** pour votre collection de carte.
 
    ![](images/create-new-map-collection.png){width="350"}
 
@@ -90,6 +90,10 @@ Pour créer une collection de mappages et y ajouter des mappages, procédez comm
 
 Vous obtenez une liste de toutes les cartes souhaitées avec le titre de la carte, le nom de fichier correspondant, la langue dans laquelle elle est disponible et les paramètres prédéfinis configurés.
 
+>[!NOTE]
+>
+> Lorsqu’un grand nombre de mappages est ajouté à une collection de mappages, les onglets Mappages et paramètres prédéfinis affichent un maximum de quatre mappages à la fois, avec les paramètres prédéfinis associés. Une vue paginée est fournie au bas de l’écran, ce qui permet aux utilisateurs et aux utilisatrices de naviguer entre les pages et d’accéder à des mappages et des paramètres prédéfinis supplémentaires. Si vous sélectionnez un mappage ou un paramètre prédéfini, la sélection est conservée lors de la navigation dans les mappages et paramètres prédéfinis restants sur différentes pages.
+
 ![Onglets Mappages et paramètres prédéfinis](./images/maps-presets-tab.png)
 
 L’onglet **Mappages et paramètres prédéfinis** présente des informations sur la base des mappages sélectionnés pour une langue spécifique dans les colonnes suivantes :
@@ -107,7 +111,7 @@ Les options de filtrage suivantes sont disponibles dans le panneau de droite de 
 
 - **Modifié depuis la génération** : vous pouvez sélectionner Oui, Non ou Pas encore généré. Si vous sélectionnez Oui, seules les cartes qui ont été modifiées depuis la génération sont affichées dans l’onglet Cartes et paramètres prédéfinis.
 - **Modifié depuis la publication** : vous pouvez sélectionner Oui, Non ou Pas encore généré. Si vous sélectionnez Oui, seules les cartes qui ont été modifiées depuis leur publication sont affichées dans l’onglet Cartes et paramètres prédéfinis.
-- **Paramètres prédéfinis** : sélectionnez un paramètre prédéfini pour lequel vous souhaitez filtrer les fichiers de mappage. Par exemple, si vous choisissez le paramètre prédéfini *Site*, seuls les mappages sur lesquels le paramètre prédéfini de sortie *Site AEM* est configuré s’affichent.
+- **Types de paramètres prédéfinis** : sélectionnez un paramètre prédéfini pour lequel vous souhaitez filtrer les fichiers de mappage. Par exemple, si vous choisissez le paramètre prédéfini *Site*, seuls les mappages sur lesquels le paramètre prédéfini de sortie *Site AEM* est configuré s’affichent.
 - **Langue** : vous pouvez sélectionner l’un des codes de langue disponibles et afficher uniquement la langue sélectionnée dans l’onglet Cartes et paramètres prédéfinis.
 
   ![Filtres dans les onglets Cartes et Paramètres prédéfinis](./images/filters-maps-presets.png)
@@ -136,6 +140,9 @@ Pour générer la sortie à l’aide d’une collection Map, procédez comme sui
    - **Terminé (vert)** : la génération a été effectuée avec succès.
    - **Terminé (rouge)** : génération terminée avec des erreurs. Les détails des erreurs sont visibles dans les journaux.
    - **En cours d’exécution (bleu)** : la génération est en cours.
+   - **En échec (rouge)** : la génération a échoué.
+   - **En attente (bleu)** : la génération est en file d’attente.
+
 
    ![Types de statut](./images/status-types.png)
 
@@ -150,6 +157,10 @@ Pour générer la sortie à l’aide d’une collection Map, procédez comme sui
 
 
 ## Publier la sortie à l’aide d’une collection de mappages
+
+>[!NOTE]
+>
+> La publication à partir de l’historique de génération publie toujours la dernière sortie d’un préréglage au lieu de la génération sélectionnée.
 
 Pour publier (si configuré) la sortie à l’aide d’une collection Map, procédez comme suit :
 

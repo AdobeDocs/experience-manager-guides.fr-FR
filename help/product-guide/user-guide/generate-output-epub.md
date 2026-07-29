@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
-source-wordcount: 927
+source-wordcount: 1020
 ht-degree: 1%
 
 ---
@@ -46,6 +46,10 @@ Pour créer le paramètre prédéfini EPUB à partir du tableau de bord de mappa
 1. Sélectionnez **Terminé** pour enregistrer les paramètres prédéfinis.
 
 Les options de configuration suivantes sont disponibles pour le paramètre prédéfini EPUB :
+
+>[!NOTE]
+>
+>Si la [fonction de contrôle de l’intégrité](../install-conf-guide/conf-health-check-preset.md) est configurée pour votre profil de dossier, un bouton supplémentaire **Exécuter le contrôle de l’intégrité avant la génération de la sortie** s’affiche dans l’onglet Général . Utilisez-le pour qu’un contrôle de l’intégrité s’exécute automatiquement chaque fois que vous générez une sortie avec ce paramètre prédéfini, de sorte que vous n’ayez pas à le déclencher manuellement à partir de la carte. Le rapport est ajouté au journal de publication à titre purement informatif. Cela ne bloque ni ne retarde votre sortie, même si la vérification détecte des erreurs ou des avertissements non résolus. En savoir plus sur [Utilisation de la fonction de contrôle de l’intégrité dans Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
 
 | Options d’EPUB | Description |
 | --- | --- |

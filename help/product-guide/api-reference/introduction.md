@@ -19,9 +19,9 @@ subfeature_v2:
   - id: f3645292-50bd-4f4a-ac6a-29dcecdf8abe
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+source-git-commit: b0e39e78724e6d47e47648cd8c3a36aef307caf8
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 701
 ht-degree: 0%
 
 ---
@@ -134,14 +134,13 @@ Pour plus d’informations sur l’utilisation de l’API, les paramètres et le
 
 >[!NOTE]
 >
-> Vous pouvez également consulter la **documentation Swagger** pour connaître les API REST disponibles publiquement à l’adresse `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`. Actuellement, seules les API liées à Assets, à la ligne de base et au reporting sont disponibles dans la documentation Swagger.
-
+> Vous pouvez également vous reporter à la **documentation Swagger** pour les API REST disponibles publiquement à l’adresse `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html` ou y accéder via l’interface AEM en accédant à **Outils** > **Guides** > **API Swagger**. Actuellement, seules les API liées à Assets, Ligne de base, Création de rapports, Traduction et Publication sont disponibles dans la documentation Swagger.
 
 ## Ressources supplémentaires
 
-Voici une liste d’autres ressources utiles d’AEM Guides, disponibles sur la page [En savoir plus et assistance](https://helpx.adobe.com/fr/support/xml-documentation-for-experience-manager.html) :
+Voici une liste d’autres ressources utiles d’AEM Guides, disponibles sur la page [En savoir plus et assistance](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) :
 
 - Guide de l’utilisateur
 - Guide d’installation et de configuration
 - Guide de démarrage rapide
-- [Page d’archivage de l’aide](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html) \(accédez à l’ancienne version\)
+- [Page d’archivage de l’aide](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(accédez à l’ancienne version\)

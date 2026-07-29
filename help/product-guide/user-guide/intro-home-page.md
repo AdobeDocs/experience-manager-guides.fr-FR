@@ -4,9 +4,9 @@ description: Découvrez la page d’accueil d’Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: e41cf263f42e91bc384aa09fd1135b46e429c86a
+source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
 workflow-type: tm+mt
-source-wordcount: '2136'
+source-wordcount: '2247'
 ht-degree: 0%
 
 ---
@@ -42,25 +42,33 @@ La barre de navigation affiche des outils permettant de changer de navigation, d
 Les fonctionnalités disponibles dans la barre de navigation sont expliquées comme suit :
 
 - **Sélecteur de navigation** : permet une navigation transparente vers d’autres pages :
-   - **Accueil** : page par défaut affichée lors de la connexion à Experience Manager Guides.
-   - **Éditeur** : éditeur web convivial qui vous permet de créer et de gérer des documents structurés dans Experience Manager Guides. [Découvrez l’interface de l’éditeur](./web-editor.md).
-   - **Console de mappage** : fournit un espace de travail dédié pour gérer tous les aspects de la gestion et de la publication des cartes. [Découvrez l’interface de la console Carte](./map-console-overview.md).
+  - **Accueil** : page par défaut affichée lors de la connexion à Experience Manager Guides.
+  - **Éditeur** : éditeur web convivial qui vous permet de créer et de gérer des documents structurés dans Experience Manager Guides. [Découvrez l’interface de l’éditeur](./web-editor.md).
+  - **Console de mappage** : fournit un espace de travail dédié pour gérer tous les aspects de la gestion et de la publication des cartes. [Découvrez l’interface de la console Carte](./map-console-overview.md).
 - **Assistant IA** : puissant outil optimisé par l’IA, conçu pour améliorer votre productivité grâce à des fonctionnalités d’aide intelligentes. De plus, lorsque vous travaillez dans l’interface de l’éditeur, vous pouvez tirer parti des fonctionnalités de création intelligente de l’assistant AI qui rendent votre processus de création plus intelligent et plus rapide grâce à des suggestions intelligentes de réutilisation et d’optimisation du contenu.
 
   La fonctionnalité [Assistant AI](./ai-assistant.md) n’est actuellement disponible que pour Adobe Experience Manager as a Cloud Service.
+
+- **Guides AI** : apporte des compétences de balisage intelligent, agentiques et intelligentes du collaborateur d’entreprise d’Adobe CX dans l’éditeur, ce qui permet un balisage de contenu naturel et conversationnel. Il analyse votre contenu, vous recommande des balises pertinentes et vous aide à appliquer des métadonnées cohérentes et précises avec un effort minimal. Vous pouvez vérifier les balises suggérées et choisir de les appliquer ou de les rejeter avant de confirmer votre sélection. [Guides AI](../user-guide/guides-ai.md) simplifie le processus de balisage, améliorant l’organisation du contenu et la visibilité.
+
+
+  >[!NOTE]
+  >
+  > Pour utiliser la fonctionnalité Guides AI dans votre environnement, contactez l’équipe du succès client. Une fois la fonctionnalité activée, les administrateurs et administratrices peuvent l’activer ou la désactiver dans Paramètres Workspace. Une seule expérience d’IA peut être activée à la fois : Guides AI ou Assistant d’IA.
+
 - **Personnaliser la section de présentation** : permet de masquer ou d’afficher les widgets dans la section Widgets.
 - **Profil de dossier en cours d’utilisation** : affiche le profil de dossier actuellement utilisé.
 - **Autres actions** : permet d’accéder à des options supplémentaires. Si vous sélectionnez ce bouton, un menu s’ouvre avec les options suivantes :
 
-   - **&#x200B;**&#x200B;: vous dirige vers une destination en fonction de votre configuration.
-      - **Services cloud** : si vous utilisez des services cloud, la sélection de l’option **Assets** vous conduit à la page de navigation d’AEM.
+  - **&#x200B;**&#x200B;: vous dirige vers une destination en fonction de votre configuration.
+    - **Services cloud** : si vous utilisez des services cloud, la sélection de l’option **Assets** vous conduit à la page de navigation d’AEM.
 
-      - **Logiciel On-premise** : si vous utilisez Adobe Experience Manager Guides (4.2.1 et versions ultérieures), la sélection de l’option **Assets** vous conduit au chemin d’accès actuel au fichier dans l’interface utilisateur d’Assets.
-   - **Paramètres Workspace** : vous conduit à la boîte de dialogue **Paramètres Workspace**. Pour plus d’informations, consultez [Configuration des paramètres de Workspace](../cs-install-guide/workspace-settings.md).
+    - **Logiciel On-premise** : si vous utilisez Adobe Experience Manager Guides (4.2.1 et versions ultérieures), la sélection de l’option **Assets** vous conduit au chemin d’accès actuel au fichier dans l’interface utilisateur d’Assets.
+  - **Paramètres Workspace** : vous conduit à la boîte de dialogue **Paramètres Workspace**. Pour plus d’informations, consultez [Configuration des paramètres de Workspace](../cs-install-guide/workspace-settings.md).
 
-     >[!NOTE]
-     >
-     > Sur la page d’accueil d’, l’option des paramètres de Workspace est disponible pour les services cloud et pour les configurations On-Premise dans les versions 5.2 et ultérieures. Dans une configuration On-Premise antérieure à la version 5.2, l’option Autres actions n’est pas disponible sur la page d’accueil. Cependant, vous pouvez toujours accéder aux paramètres appropriés via l’interface de l’éditeur et la console Carte, en accédant à Plus d’options > Paramètres.
+    >[!NOTE]
+    >
+    > Sur la page d’accueil d’, l’option des paramètres de Workspace est disponible pour les services cloud et pour les configurations On-Premise dans les versions 5.2 et ultérieures. Dans une configuration On-Premise antérieure à la version 5.2, l’option Autres actions n’est pas disponible sur la page d’accueil. Cependant, vous pouvez toujours accéder aux paramètres appropriés via l’interface de l’éditeur et la console Carte, en accédant à Plus d’options > Paramètres.
 
 - **Développer la vue** : permet de développer la page vue à l’aide de l’icône **Développer**. Dans cette vue, la barre d’en-tête est masquée, ce qui optimise l’espace du contenu. Pour revenir à la vue standard, utilisez l’icône **Quitter la vue développée**.
 
@@ -117,9 +125,9 @@ Les widgets suivants sont présents dans la section Widgets :
 
   Les options suivantes sont disponibles lorsque vous pointez sur un fichier :
 
-   - **Ouvrir dans l’éditeur** : permet d’ouvrir le fichier dans l’éditeur. Vous pouvez également ouvrir un fichier en le sélectionnant simplement.
-   - **Épingler/désépingler** : vous permet d’épingler un ou plusieurs fichiers au widget Fichiers récents. Les fichiers épinglés s’affichent en haut de la liste des widgets. Pour désépingler un fichier, utilisez l’option **Désépingler**.
-   - **Supprimer** : permet de supprimer le fichier du widget Fichiers récents.
+  - **Ouvrir dans l’éditeur** : permet d’ouvrir le fichier dans l’éditeur. Vous pouvez également ouvrir un fichier en le sélectionnant simplement.
+  - **Épingler/désépingler** : vous permet d’épingler un ou plusieurs fichiers au widget Fichiers récents. Les fichiers épinglés s’affichent en haut de la liste des widgets. Pour désépingler un fichier, utilisez l’option **Désépingler**.
+  - **Supprimer** : permet de supprimer le fichier du widget Fichiers récents.
 
   **Créer un fichier à partir du menu déroulant Nouveau fichier**
 
@@ -136,17 +144,17 @@ Les widgets suivants sont présents dans la section Widgets :
 
   Les options suivantes sont disponibles lorsque vous pointez sur une collection et sélectionnez l’icône Plus ![](images/Smock_MoreSmallList_18_N.svg) :
 
-   - **Renommer** : permet de renommer la collection.
-   - **Supprimer** : permet de supprimer la collection.
-   - **Afficher dans l’interface utilisateur d’Assets** : permet d’ouvrir la collection dans l’interface utilisateur d’Assets.
+  - **Renommer** : permet de renommer la collection.
+  - **Supprimer** : permet de supprimer la collection.
+  - **Afficher dans l’interface utilisateur d’Assets** : permet d’ouvrir la collection dans l’interface utilisateur d’Assets.
 
   Vous pouvez ouvrir une collection en sélectionnant son titre. Les options suivantes sont disponibles lorsque vous pointez sur un fichier de collection et sélectionnez l’icône Plus ![](images/Smock_MoreSmallList_18_N.svg) :
 
-   - **Ouvrir dans l’éditeur** : permet d’ouvrir le fichier dans l’éditeur. Vous pouvez également sélectionner le titre du fichier pour l’ouvrir.
-   - **Ouvrir dans la console de mappage** : permet d’ouvrir le fichier de mappage dans la console de mappage. (Disponible uniquement pour un fichier de plan DITA).
-   - **Ajouter aux collections** : permet d’ajouter le fichier à une collection nouvelle ou existante.
-   - **Supprimer des collections** : permet de supprimer le fichier de la liste des collections.
-   - **Afficher dans l’interface utilisateur d’Assets** : permet de localiser le fichier dans l’interface utilisateur d’Assets.
+  - **Ouvrir dans l’éditeur** : permet d’ouvrir le fichier dans l’éditeur. Vous pouvez également sélectionner le titre du fichier pour l’ouvrir.
+  - **Ouvrir dans la console de mappage** : permet d’ouvrir le fichier de mappage dans la console de mappage. (Disponible uniquement pour un fichier de plan DITA).
+  - **Ajouter aux collections** : permet d’ajouter le fichier à une collection nouvelle ou existante.
+  - **Supprimer des collections** : permet de supprimer le fichier de la liste des collections.
+  - **Afficher dans l’interface utilisateur d’Assets** : permet de localiser le fichier dans l’interface utilisateur d’Assets.
 
   **Créer une collection à partir du menu déroulant Nouvelle collection**
 
@@ -182,23 +190,23 @@ Les préférences utilisateur sont disponibles pour tous les auteurs. À l’aid
 
   ![](images/user_preference_editor-new.png)
 
-   - **Profil de dossier** : le profil de dossier contrôle diverses configurations liées aux attributs conditionnels, aux modèles de création, aux paramètres prédéfinis de sortie et aux configurations de l’éditeur. Le profil global s’affiche par défaut. En outre, si votre administrateur a configuré des profils de dossier dans le système, ces profils de dossier s’affichent également dans la liste Profils de dossier .
-   - **Chemin d’accès de base** : par défaut, lorsque vous accédez au référentiel Experience Manager Guides à partir de l’éditeur, les ressources s’affichent à partir de l’emplacement /content/dam. Votre dossier de travail serait probablement constitué de quelques dossiers à l’intérieur du dossier /content/dam/. Vous pouvez définir le Chemin d’accès de base à votre dossier de travail, puis la vue du référentiel vous montre le contenu de cet emplacement au premier plan. Cela réduit le temps d’accès à votre dossier de travail. En outre, lorsque vous insérez un fichier de référence ou de média dans votre rubrique, l’emplacement de recherche de fichier commence par le dossier défini dans le chemin d’accès de base.
-   - **Sélectionner la carte racine** : sélectionnez un fichier de carte DITA pour résoudre les références clés ou les entrées du glossaire. La carte racine sélectionnée a la priorité la plus élevée pour résoudre les références clés. Pour plus d’informations, voir [Résoudre les références clés](./map-editor-other-features.md).
-   - **Nombre maximum de fichiers récents** : utilisez ce champ pour définir une limite maximale pour les fichiers qui s’affichent dans le widget Fichiers récents.
-   - **Préférences d&#39;ouverture pour les cartes** : vous pouvez sélectionner ici un comportement par défaut que le système appliquera lors de l&#39;ouverture d&#39;un fichier de carte DITA.
+  - **Profil de dossier** : le profil de dossier contrôle diverses configurations liées aux attributs conditionnels, aux modèles de création, aux paramètres prédéfinis de sortie et aux configurations de l’éditeur. Le profil global s’affiche par défaut. En outre, si votre administrateur a configuré des profils de dossier dans le système, ces profils de dossier s’affichent également dans la liste Profils de dossier .
+  - **Chemin d’accès de base** : par défaut, lorsque vous accédez au référentiel Experience Manager Guides à partir de l’éditeur, les ressources s’affichent à partir de l’emplacement /content/dam. Votre dossier de travail serait probablement constitué de quelques dossiers à l’intérieur du dossier /content/dam/. Vous pouvez définir le Chemin d’accès de base à votre dossier de travail, puis la vue du référentiel vous montre le contenu de cet emplacement au premier plan. Cela réduit le temps d’accès à votre dossier de travail. En outre, lorsque vous insérez un fichier de référence ou de média dans votre rubrique, l’emplacement de recherche de fichier commence par le dossier défini dans le chemin d’accès de base.
+  - **Sélectionner la carte racine** : sélectionnez un fichier de carte DITA pour résoudre les références clés ou les entrées du glossaire. La carte racine sélectionnée a la priorité la plus élevée pour résoudre les références clés. Pour plus d’informations, voir [Résoudre les références clés](./map-editor-other-features.md).
+  - **Nombre maximum de fichiers récents** : utilisez ce champ pour définir une limite maximale pour les fichiers qui s’affichent dans le widget Fichiers récents.
+  - **Préférences d&#39;ouverture pour les cartes** : vous pouvez sélectionner ici un comportement par défaut que le système appliquera lors de l&#39;ouverture d&#39;un fichier de carte DITA.
 
 - **Apparence** : l’onglet Apparence vous propose les options de sélection des thèmes de l’application et de la vue source de la zone d’édition du contenu. Utilisez cet onglet pour configurer les paramètres suivants :
 
   ![](images/user_preference_editor_appearance.png)
 
-   - **Thème d’application et vue Source** : vous pouvez choisir parmi les thèmes Clair ou Sombre de l’application et de la vue source. Dans le cas du thème Clair , les barres d’outils et les panneaux utilisent un arrière-plan gris clair. Dans le cas du thème Sombre, les barres d’outils et les panneaux utilisent un arrière-plan noir. Sélectionnez **Utiliser l’appareil** le thème pour permettre à Experience Manager Guides de sélectionner les thèmes clairs et sombres en fonction du thème de votre appareil.
+  - **Thème d’application et vue Source** : vous pouvez choisir parmi les thèmes Clair ou Sombre de l’application et de la vue source. Dans le cas du thème Clair , les barres d’outils et les panneaux utilisent un arrière-plan gris clair. Dans le cas du thème Sombre, les barres d’outils et les panneaux utilisent un arrière-plan noir. Sélectionnez **Utiliser l’appareil** le thème pour permettre à Experience Manager Guides de sélectionner les thèmes clairs et sombres en fonction du thème de votre appareil.
 
-     Dans tous les thèmes, la zone de modification du contenu s’affiche en arrière-plan blanc en mode Création.
+    Dans tous les thèmes, la zone de modification du contenu s’affiche en arrière-plan blanc en mode Création.
 
-   - **Configuration de l’affichage des fichiers de l’éditeur** : sélectionnez la manière par défaut d’afficher les fichiers dans l’éditeur. Vous pouvez afficher la liste des fichiers en fonction des titres ou des noms de fichier à partir des différents panneaux dans la vue de création. Par défaut, les fichiers sont affichés par titre dans l’éditeur.
+  - **Configuration de l’affichage des fichiers de l’éditeur** : sélectionnez la manière par défaut d’afficher les fichiers dans l’éditeur. Vous pouvez afficher la liste des fichiers en fonction des titres ou des noms de fichier à partir des différents panneaux dans la vue de création. Par défaut, les fichiers sont affichés par titre dans l’éditeur.
 
-   - **Toujours localiser les fichiers dans l’explorateur** : sélectionnez cette option pour afficher l’emplacement d’un fichier dans le référentiel lors de sa modification dans l’éditeur.
+  - **Toujours localiser les fichiers dans l’explorateur** : sélectionnez cette option pour afficher l’emplacement d’un fichier dans le référentiel lors de sa modification dans l’éditeur.
 
   >[!NOTE]
   >

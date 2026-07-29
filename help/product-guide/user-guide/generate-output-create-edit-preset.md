@@ -15,9 +15,9 @@ subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a99aa6be404fb5f4675f50aad8c4f282520d605f
 workflow-type: tm+mt
-source-wordcount: 129
+source-wordcount: 153
 ht-degree: 0%
 
 ---
@@ -31,6 +31,10 @@ Vous pouvez gérer les paramètres prédéfinis de sortie à partir de la consol
 Vous pouvez modifier le paramètre prédéfini de sortie sélectionné en modifiant directement les champs obligatoires pour les paramètres prédéfinis nécessaires.
 
 De plus, vous pouvez dupliquer ou supprimer un paramètre prédéfini de sortie à l’aide du menu déroulant **Options** comme illustré ci-dessous.
+
+>[!NOTE]
+>
+>Vous ne pouvez pas modifier, dupliquer ou supprimer un paramètre prédéfini de modèle. Ces actions sont limitées aux administrateurs. Pour en savoir plus sur les paramètres prédéfinis de modèle, voir [&#x200B; Paramètres prédéfinis de modèle &#x200B;](../install-conf-guide/template-presets-output-generation.md).
 
 
 ![](images/delete-preset-map-console.png)

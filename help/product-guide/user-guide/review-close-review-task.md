@@ -12,18 +12,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: f6b42924258ff1092eb492dfdcc348f9247886f7
+source-git-commit: 7d0c757b647a2e6c5e563f0ed7db6a7225769033
 workflow-type: tm+mt
-source-wordcount: 604
+source-wordcount: 637
 ht-degree: 0%
 
 ---
 
 # Demander une révision ou fermer une tâche de révision en tant qu’auteur
-
->[!IMPORTANT]
->
-> Les nouvelles fonctionnalités décrites dans cet article sont activées par défaut avec la version 2508 de Experience Manager Guides as a Cloud Service. Les révisions créées avant la migration ne sont pas affectées et continueront à utiliser le workflow précédent. Si vous préférez continuer à utiliser les fonctionnalités existantes sans ces mises à jour, contactez votre équipe du succès client pour que les nouvelles fonctionnalités soient désactivées.
 
 Lorsqu’une tâche de révision est marquée comme terminée par un réviseur, une notification est déclenchée à l’initiateur de la tâche, lui permettant d’accéder à la tâche et de la réviser, ainsi qu’aux commentaires au niveau de la tâche associés.
 
@@ -31,6 +27,10 @@ En tant qu’initiateur de la tâche de révision, vous pouvez ensuite décider 
 
 - Demander une révision
 - Fermer la tâche de révision
+
+>[!NOTE]
+>
+> Si la fonction Déléguer est activée pour votre environnement, un réviseur peut également demander à [ajouter un autre réviseur à la tâche de révision](./review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer). Ces demandes apparaissent sous la forme de notifications dans votre boîte de réception AEM. Si le réviseur ou la réviseuse recommandé(e) ne fait pas partie du projet associé, vous avez la possibilité de l’ajouter au projet en premier. Sinon, vous êtes redirigé vers l’onglet **RÉVISEURS** de la page **Détails de la tâche** pour ajouter le réviseur recommandé à la tâche de révision. La décision d’ajouter le réviseur ou la réviseuse recommandé vous incombe toujours en tant qu’initiateur ou initiatrice de la tâche de révision.
 
 ## Demander une révision ou fermer une tâche de révision
 

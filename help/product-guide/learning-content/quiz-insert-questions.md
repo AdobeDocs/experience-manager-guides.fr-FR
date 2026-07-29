@@ -13,9 +13,9 @@ feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: ff08b63bf8668fddc89c43391b3264a733a824e7
 workflow-type: tm+mt
-source-wordcount: 649
+source-wordcount: 691
 ht-degree: 0%
 
 ---
@@ -53,6 +53,13 @@ Vous pouvez configurer les questions à l’aide des propriétés de question su
 - **Sanction en cas de réponse incorrecte** : indiquez les points à déduire en cas de réponse incorrecte.
 - **Libellé de question** : permet d&#39;ajouter un libellé de question.
 - **Commentaires** : activez cette option pour fournir des commentaires en cas de réponse correcte ou incorrecte.
+
+  >[!NOTE]
+  >
+  > Dans la sortie publiée du cours, après avoir tenté de répondre à toutes les questions d’un quiz, les élèves peuvent utiliser l’option **Vérifier les réponses** pour vérifier les réponses envoyées et déterminer celles qui étaient correctes ou incorrectes. Cela ne nécessite aucune installation ou configuration supplémentaire.
+
+  ![](assets/review-answer-quiz.png){width="350"}
+
 - **Épingler l’option à la position** : lorsqu’une option spécifique pour une question est épinglée, elle reste fixe à la position spécifiée dans la liste des options, même si **Randomiser les choix de réponse pour chaque tentative** est activé dans la configuration des paramètres prédéfinis SCORM, ce qui redistribuerait autrement les options disponibles. Vous pouvez pointer sur l’option souhaitée d’une question dans le panneau Propriétés du contenu et l’épingler.
 
   ![](assets/pin-question.png){width="350"}

@@ -13,18 +13,14 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 7d0c757b647a2e6c5e563f0ed7db6a7225769033
 workflow-type: tm+mt
-source-wordcount: 738
+source-wordcount: 675
 ht-degree: 0%
 
 ---
 
 # Comprendre les notifications de révision
-
->[!IMPORTANT]
->
-> Les nouvelles fonctionnalités décrites dans cet article sont activées par défaut avec la version 2508 de Experience Manager Guides as a Cloud Services. Les révisions créées avant la migration ne sont pas affectées et continueront à utiliser le workflow précédent. Si vous préférez continuer à utiliser les fonctionnalités existantes sans ces mises à jour, contactez votre équipe du succès client pour que les nouvelles fonctionnalités soient désactivées.
 
 Experience Manager Guides simplifie la collaboration entre les auteurs et les réviseurs par le biais d’un workflow de révision structuré. Dans le cadre de ce workflow, les notifications jouent un rôle essentiel pour tenir tous les participants à une tâche de révision informés et réactifs aux modifications.
 

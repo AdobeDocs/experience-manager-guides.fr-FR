@@ -5,9 +5,9 @@ feature: Version Management
 role: Admin
 level: Experienced
 exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+source-git-commit: 84be6501066dae623e057c15ac79b748d3e631f1
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2277'
 ht-degree: 0%
 
 ---
@@ -63,11 +63,6 @@ Les onglets suivants fournissent des instructions pour activer l’option **Cré
    Lorsque l’option est sélectionnée, un nouveau mécanisme de gestion de version a lieu et remplace le comportement de chargement par défaut de pour tout chargement ultérieur, le contenu du fichier chargé est enregistré en tant que nouvelle version. Si cette option est désélectionnée, AEM Guides utilise le mécanisme de gestion des versions par défaut d’AEM.
 
 1. Cliquez sur **Enregistrer**.
-
-
->[!NOTE]
->
-> Vous pouvez charger des fichiers par lots de 70 ou moins, si vous activez la propriété **Créer une nouvelle version pour le fichier chargé** \(create.ver.new.content\) et utilisez **l’interface utilisateur d’Assets** pour charger des ressources en bloc.
 
 >[!ENDTABS]
 

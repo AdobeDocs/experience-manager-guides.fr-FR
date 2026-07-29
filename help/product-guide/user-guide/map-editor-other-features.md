@@ -15,9 +15,9 @@ subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
 workflow-type: tm+mt
-source-wordcount: 662
+source-wordcount: 1285
 ht-degree: 0%
 
 ---
@@ -81,6 +81,90 @@ Une référence de navigation du fichier de mappage sélectionné est ajoutée �
 ![](./images/navref-added-layout-view.png)
 
 *Mode Mise en page*
+
+## Exécuter le contrôle d’intégrité sur une carte
+
+L’option Exécuter le contrôle d’intégrité du menu contextuel vous permet d’exécuter un contrôle d’intégrité sur la carte sélectionnée pour détecter des problèmes tels que des liens rompus, des identifiants en double et des échecs de validation du schéma avant publication.
+
+>[!NOTE]
+>
+> Cette fonctionnalité est activée par défaut. Si vous préférez ne pas utiliser cette fonctionnalité dans votre environnement, contactez votre équipe du succès client.
+
+Les contrôles pouvant être exécutés sont définis par un paramètre prédéfini de contrôle de l’intégrité, créé et géré par un administrateur au niveau du profil de dossier. Pour plus d’informations, consultez [Création et gestion des paramètres prédéfinis de contrôle de l’intégrité](../install-conf-guide/conf-health-check-preset.md).
+
+Effectuez les étapes suivantes pour exécuter un contrôle d’intégrité sur une carte :
+
+1. Ouvrez un mappage dans l’éditeur.
+1. Dans le menu Options, sélectionnez l’option **Exécuter le contrôle de l’intégrité**.
+   ![](./images/run-health-check-option.png)
+1. La boîte de dialogue Exécuter le contrôle de l’intégrité s’affiche. Sélectionnez un paramètre prédéfini de contrôle de l’intégrité à exécuter. Seuls les paramètres prédéfinis configurés pour votre profil de dossier peuvent être sélectionnés.
+
+   La sélection d’un paramètre prédéfini charge les contrôles définis dans la boîte de dialogue.
+
+   ![](./images/health-check-selected-checks.png)
+1. *Facultatif* Sélectionnez une ligne de base. Si vous ne souhaitez pas utiliser de ligne de base, sélectionnez **Aucune**.
+1. Sélectionnez **Exécuter**.
+
+Vous pouvez également exécuter un contrôle d’intégrité sur une carte à partir du panneau **Rapport de contrôle d’intégrité**. Pour ce faire, ouvrez une carte en mode Carte, puis sélectionnez l’icône **Rapport de contrôle de l’intégrité**.
+
+![](./images/health-check-report-icon.png)
+
+>[!NOTE]
+>
+>Cette option s’affiche uniquement pour un mappage sur lequel aucun contrôle de l’intégrité n’a encore été exécuté. Si un contrôle de l’intégrité a déjà été exécuté sur la carte, si vous sélectionnez l’icône **Rapport de contrôle de l’intégrité**, le rapport existant s’ouvre à la place.
+
+Dans le panneau, sélectionnez **Exécuter le contrôle de l’intégrité**.
+
+![](./images/run-health-check-report-panel.png)
+
+La même boîte de dialogue **Exécuter le contrôle d’intégrité** s’ouvre, dans laquelle vous pouvez sélectionner un paramètre prédéfini de contrôle d’intégrité et une ligne de base pour exécuter un contrôle d’intégrité sur la carte, comme décrit dans les étapes ci-dessus.
+
+## Utilisation du rapport de contrôle de l’intégrité dans l’éditeur
+
+Lorsque vous exécutez un contrôle d’intégrité pour une carte, le rapport s’ouvre dans le panneau **Rapport de contrôle d’intégrité** comme illustré ci-dessous :
+
+![](./images/health-check-report-panel-editor.png)
+
+### Options du panneau de rapport de vérification de l’intégrité
+
+Les options suivantes sont disponibles dans le panneau Rapport de vérification de l’intégrité :
+
+- **Nom du mappage** : nom du mappage pour lequel le rapport a été généré.
+- **Icône Infos** : sélectionnez cette option pour afficher le nom du paramètre prédéfini, la version du mappage et la ligne de base (le cas échéant) utilisés pour générer le rapport.
+- **Filtrer** : permet de limiter le rapport à une règle spécifique, par exemple pour n’afficher que les résultats Liens rompus . Le filtre répertorie uniquement les types de règles qui ont généré des résultats dans le rapport actuel.
+- **Télécharger le rapport** : télécharge le rapport.
+- **Régénérer** : exécute à nouveau le contrôle de l’intégrité.
+
+### Résultats du contrôle d’intégrité
+
+Chaque résultat des contrôles sélectionnés est listé avec les détails suivants :
+- **Gravité** : niveau de gravité du résultat ; par exemple Erreur, Avertissement, Infos ou Fatal.
+- **Nom du préréglage de contrôle de l’intégrité** : nom du préréglage de contrôle de l’intégrité utilisé pour générer le rapport
+- **Nom de la règle** : la règle qui a généré le résultat, par exemple les liens rompus ou l’ID en double.
+- **Numéro de ligne** : la ligne dans le fichier où le problème se produit.
+- **Ressource** : fichier dans lequel le problème a été détecté.
+
+Sélectionnez un résultat pour ouvrir le fichier correspondant à la ligne exacte où le problème persiste.
+
+![](./images/health-check-preset-report-selected.png)
+
+>[!NOTE]
+>
+>Les résultats du lien rompu ouvrent le fichier en mode création. Les résultats de la validation des identifiants et des schémas en double ouvrent le fichier en mode Source.
+
+### Régénérer le rapport
+
+Après avoir résolu un problème, sélectionnez **Régénérer** dans la barre d’outils pour exécuter à nouveau le contrôle de l’intégrité et confirmer que le problème a été résolu. Dans la boîte de dialogue **Régénérer** qui s&#39;affiche, sélectionnez les vérifications à inclure dans le rapport régénéré.
+
+![](./images/health-check-preset-report-regenerate.png)
+
+>[!NOTE]
+>
+> Les rapports de contrôle de l’intégrité sont spécifiques à l’utilisateur qui les a générés. Si plusieurs utilisateurs génèrent un rapport pour la même carte, chaque utilisateur consulte ses propres résultats. Toutefois, les administrateurs ont toujours accès au dernier rapport généré pour la carte.
+
+### Télécharger le rapport
+
+Sélectionnez **Télécharger le rapport** pour télécharger le rapport au format XLS, avec des informations détaillées pour chaque résultat.
 
 
 **Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur de cartes](map-editor.md)

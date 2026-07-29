@@ -14,9 +14,9 @@ subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0763896c75767d8a4bffc019d42c129e2e34f4be
+source-git-commit: 7989955248054571a569ad34d92ae7e26fe70ffd
 workflow-type: tm+mt
-source-wordcount: 557
+source-wordcount: 577
 ht-degree: 0%
 
 ---
@@ -65,12 +65,14 @@ Les autres options disponibles dans le menu Insertion de la barre d&#39;outils d
 
   L&#39;équation est insérée avec un arrière-plan gris clair. Vous pouvez à tout moment mettre à jour une équation en cliquant avec le bouton droit de la souris sur une équation existante et en sélectionnant **Modifier l’équation mathématique** dans le menu contextuel. Pour plus d’informations sur la validation des équations de MathML dans Experience Manager Guides, consultez la section [&#x200B; Validation des équations dans l’éditeur de MathML](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor).
 
-- **Vérification des connaissances :** vous permet d’ajouter des questions dans les formats disponibles (Correction unique, Correction multiple, Vrai/Faux, Correspondance des éléments suivants ou insertion à partir de la banque de questions) à votre sujet pour révision et pour confirmer la compréhension sans notation. Ces questions reflètent les formats standard et excluent la notation, ce qui les rend idéales pour l’auto-évaluation et adaptées dans le cadre du contenu du cours ou d’un sujet avant un quiz ou une évaluation ultérieure, le cas échéant.
+- **Vérification des connaissances :** vous permet d’ajouter des questions dans les formats disponibles (Correction unique, Correction multiple, Vrai/Faux, Correspondance des éléments suivants ou insertion à partir de la banque de questions) à votre sujet pour révision et pour confirmer la compréhension sans notation. Ces questions reflètent les formats standard et excluent la notation, ce qui les rend idéales pour l’auto-évaluation et adaptées dans le cadre du contenu du cours ou d’un sujet avant un quiz ou une évaluation ultérieure, le cas échéant. Vous pouvez configurer les réponses correctes et d’autres champs obligatoires via le panneau **Propriétés du contenu**. Pour plus d’informations, consultez la section [Types de questions](./quiz-insert-questions.md).
 
   ![](assets/knowledge-check-topic.png){width="650"}
 
 
-  Vous pouvez configurer les réponses correctes et d’autres champs obligatoires via le panneau **Propriétés du contenu**. Pour plus d’informations, consultez la section [Types de questions](./quiz-insert-questions.md). Vous pouvez ajouter différents types de questions à l’aide des options de vérification des connaissances, comme illustré ci-dessous.
+  Si un élève envoie une réponse incorrecte à une question de vérification des connaissances, les champs de réponse sont mis en surbrillance avec un message d’erreur, ce qui guide l’élève à sélectionner **Réessayer** pour réessayer la même question.
+
+  ![](assets/knowledge-check-try-again.png){width="650"}
 
   De plus, vous pouvez activer l’option **Exiger une vérification des connaissances pour continuer** pour vous assurer que les élèves tentent une vérification des connaissances désignée avant d’accéder au contenu du cours suivant. Cette fonctionnalité permet de renforcer les objectifs d’apprentissage clés en empêchant les élèves d’ignorer les points de contrôle d’évaluation critiques. Cette fonctionnalité est prise en charge lorsque le paramètre **Les élèves doivent progresser dans le contenu dans un ordre séquentiel** est activé lors de la configuration de la sortie du paramètre prédéfini SCORM, en veillant à ce que la progression du cours suive le parcours d’apprentissage prévu.
 

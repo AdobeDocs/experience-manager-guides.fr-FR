@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: d24dd017dcedb08e71cfbcf6c4f0aabdc8f20d85
+source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
 workflow-type: tm+mt
-source-wordcount: '2502'
+source-wordcount: '2573'
 ht-degree: 11%
 
 ---
@@ -15,666 +15,680 @@ ht-degree: 11%
 - [Présentation d’[!DNL AEM Guides]](overview.md)
 - [Clause de non-responsabilité](./user-guide/rebranding-disclaimer.md)
 - Informations sur la version {#release-info}
-   - [Feuille de route des versions d’AEM Guides](./release-info/aem-guides-releases-roadmap.md)
-   - Notes de mise à jour {#release-notes}
-      - Services cloud {#cloud-release-notes}
-         - {hide-from-toc}[&#x200B; Instructions de déploiement &#x200B;](./release-info/deploy-xml-on-aemaacs.md)
-         - {hide-from-toc}[Versions cloud](./release-info/latest-release-info-cs.md)
-         - Versions De 2026 {#2026-releases}
-            - Version 2026.07.0 {#2607-release}
-               - [Problèmes résolus](./release-info/fixed-issues-2026-07-0.md)
-               - [Instructions de mise à niveau](./release-info/upgrade-instructions-2026-07-0.md)
-            - Version 2026.06.0 {#2606-release}
-               - [Nouveautés](./release-info/whats-new-2026-06-0.md)
-               - [Problèmes résolus](./release-info/fixed-issues-2026-06-0.md)
-               - [Instructions de mise à niveau](./release-info/upgrade-instructions-2026-06-0.md)
-            - Version 2026.05.0 SP1 {#2605-sp1-release}
-               - [Problèmes résolus](./release-info/fixed-issues-2026-05-0-sp1.md)
-            - Version 2026.05.0 {#2605-release}
-               - [Nouveautés](./release-info/whats-new-2026-05-0.md)
-               - [Problèmes résolus](./release-info/fixed-issues-2026-05-0.md)
-               - [Instructions de mise à niveau](./release-info/upgrade-instructions-2026-05-0.md)
-            - Version 2026.04.0 {#2604-release}
-               - [Nouveautés](./release-info/whats-new-2026-04-0.md)
-               - [Problèmes résolus](./release-info/fixed-issues-2026-04-0.md)
-               - [Instructions de mise à niveau](./release-info/upgrade-instructions-2026-04-0.md)
-            - Version 2026.03.0 {#2603-release}
-               - {hide-from-toc}[Nouveautés](./release-info/whats-new-2026-03-0.md)
-               - {hide-from-toc}[Correction de problèmes](./release-info/fixed-issues-2026-03-0.md)
-               - {hide-from-toc}[&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-2026-03-0.md)
-            - Version 2026.01.0 {#2601-release}
-               - [Nouveautés](./release-info/whats-new-2026-01-0.md)
-               - [Problèmes résolus](./release-info/fixed-issues-2026-01-0.md)
-               - [Instructions de mise à niveau](./release-info/upgrade-instructions-2026-01-0.md)
-         - Versions De 2025 {#2025-releases}
-            - Version 2025.11.0 {#2511-release}
-               - [Nouveautés](./release-info/whats-new-2025-11-0.md)
-               - [Problèmes résolus](./release-info/fixed-issues-2025-11-0.md)
-               - [Instructions de mise à niveau](./release-info/upgrade-instructions-2025-11-0.md)
-            - Version 2025.10.0 {#2510-release}
-               - [Nouveautés](./release-info/whats-new-2025-10-0.md)
-               - [Problèmes résolus](./release-info/fixed-issues-2025-10-0.md)
-               - [Instructions de mise à niveau](./release-info/upgrade-instructions-2025-10-0.md)
-            - Version 2025.08.0 {#2508-release}
-               - [Nouveautés](./release-info/whats-new-2025-08-0.md)
-               - [Problèmes résolus](./release-info/fixed-issues-2025-08-0.md)
-               - [Instructions de mise à niveau](./release-info/upgrade-instructions-2025-08-0.md)
-            - Version 2025.07.0 {#2507-release}
-               - [Nouveautés](./release-info/whats-new-2025-07-0.md)
-               - [Problèmes résolus](./release-info/fixed-issues-2025-07-0.md)
-               - [Instructions de mise à niveau](./release-info/upgrade-instructions-2025-07-0.md)
-            - Version 2025.06.0 {#2506-release}
-               - [Nouveautés](./release-info/whats-new-2025-06-0.md)
-               - [Problèmes résolus](./release-info/fixed-issues-2025-06-0.md)
-               - [Instructions de mise à niveau](./release-info/upgrade-instructions-2025-06-0.md)
-            - Version 2025.04.0 {#2504-release}
-               - [Nouveautés](./release-info/whats-new-2025-04-0.md)
-               - [Problèmes résolus](./release-info/fixed-issues-2025-04-0.md)
-               - [Instructions de mise à niveau](./release-info/upgrade-instructions-2025-04-0.md)
-            - Version 2025.02.0 {#2502-release}
-               - [Nouveautés](./release-info/whats-new-2025-02-0.md)
-               - [Problèmes résolus](./release-info/fixed-issues-2025-02-0.md)
-               - [Instructions de mise à niveau](./release-info/upgrade-instructions-2025-02-0.md)
-         - Versions De 2024 {#2024-releases}
-            - Version 2024.12.0 {#2412-release}
-               - [Problèmes résolus](./release-info/fixed-issues-2024-12-0.md)
-               - [Instructions de mise à niveau](./release-info/upgrade-instructions-2024-12-0.md)
-            - Version 2024.10.0 SP1 {#2410-0-sp1-release}
-               - [Problèmes résolus](./release-info/fixed-issues-2024-10-0-sp1.md)
-            - Version 2024.10.0 {#2410-0-release}
-               - [Nouveautés](./release-info/whats-new-2024-10-0.md)
-               - [Problèmes résolus](./release-info/fixed-issues-2024-10-0.md)
-               - [Instructions de mise à niveau](./release-info/upgrade-instructions-2024-10-0.md)
-            - Version 2024.6.0 {#2406-release}
-               - [Nouveautés](./release-info/whats-new-2024-06-0.md)
-               - [Problèmes résolus](./release-info/fixed-issues-2024-06-0.md)
-               - [Instructions de mise à niveau](./release-info/upgrade-instructions-2024-06-0.md)
-            - Version 2024.4.0 {#2404-release}
-               - [Nouveautés](./release-info/whats-new-2024-04-0.md)
-               - [Problèmes résolus](./release-info/fixed-issues-2024-04-0.md)
-               - [Instructions de mise à niveau](./release-info/upgrade-instructions-2024-04-0.md)
-            - Version 2024.2.0 {#2402-release}
-               - [Nouveautés](./release-info/whats-new-2024-2-0.md)
-               - [Problèmes résolus](./release-info/fixed-issues-2024-2-0.md)
-               - [Instructions de mise à niveau](./release-info/upgrade-instructions-2024-2-0.md)
-         - Versions De 2023 {#2023-releases}
-            - Version de décembre {#2312-release}
-               - [Nouveautés](./release-info/whats-new-2023-12-0.md)
-               - [Notes de mise à jour](./release-info/release-notes-2023-12-0.md)
-            - Version de novembre {#2311-release}
-               - [Nouveautés](./release-info/whats-new-2023-11-0.md)
-               - [Notes de mise à jour](./release-info/release-notes-2023-11-0.md)
-            - Version d’octobre {#2310-release}
-               - [Nouveautés](./release-info/whats-new-2023-10-0.md)
-               - [Notes de mise à jour](./release-info/release-notes-2023-10-0.md)
-            - Version de septembre {#2309-release}
-               - [Nouveautés](./release-info/whats-new-2023-9-0.md)
-               - [Notes de mise à jour](./release-info/release-notes-2023-9-0.md)
-            - Version de juillet {#2307-release}
-               - [Nouveautés](./release-info/whats-new-2023-7-0.md)
-               - [Notes de mise à jour](./release-info/release-notes-2023-7-0.md)
-            - Version de juin {#2306-release}
-               - [Nouveautés](./release-info/whats-new-2023-6-0.md)
-               - [Notes de mise à jour](./release-info/release-notes-2023-6-0.md)
-            - Version d’avril {#2304-release}
-               - [Nouveautés](./release-info/whats-new-2023-4-0.md)
-               - [Notes de mise à jour](./release-info/release-notes-2023-4-0.md)
-            - Version de mars {#2303-release}
-               - [Nouveautés](./release-info/whats-new-2023-3-0.md)
-               - [Notes de mise à jour](./release-info/release-notes-2023-3-0.md)
-            - Version de février {#2302-release}
-               - [Nouveautés](./release-info/whats-new-2023-2-0.md)
-               - [Notes de mise à jour](./release-info/release-notes-2023-2-0.md)
-         - Versions De 2022 {#2022-releases}
-            - [Notes de mise à jour de novembre](./release-info/release-notes-2022-11-0.md)
-            - [Notes de mise à jour d’octobre](./release-info/release-notes-2022-10-0.md)
-            - [Notes de mise à jour de septembre](./release-info/release-notes-2022-9-0.md)
-            - [Notes de mise à jour d’août](./release-info/release-notes-2022-8-0.md)
-            - [Notes de mise à jour de mai](./release-info/release-notes-2022-5-0.md)
-            - [Notes de mise à jour d’avril](./release-info/release-notes-2022-4-0.md)
-            - [Notes de mise à jour de mars](./release-info/release-notes-2022-3-0.md)
-            - [Notes de mise à jour de février](./release-info/release-notes-2022-2-0.md)
-            - [Notes de mise à jour de janvier](./release-info/release-notes-2022-1-0.md)
-      - On-prem/Managed Services {#on-prem-release-notes}
-         - [[!DNL AEM Guides] versions](./release-info/latest-release-info.md)
-         - Version 5.2.0 {#520-release}
-            - [Nouveautés](./release-info/whats-new-5-2-0.md)
-            - [Problèmes résolus](./release-info/fixed-issues-5-2-0.md)
-            - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-2-0.md)
-         - Version 5.1.0 SP4 {#510-sp4-release}
-            - [Problèmes résolus](./release-info/fixed-issues-5-1-0-sp4.md)
-            - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-1-0-sp4.md)
-         - Version 5.1.0 SP3 {#510-sp3-release}
-            - [Nouveautés](./release-info/whats-new-5-1-3.md)
-            - [Problèmes résolus](./release-info/fixed-issues-5-1-0-sp3.md)
-            - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-1-0-sp3.md)
-         - Version 5.1.0 SP1 {#510-sp1-release}
-            - [Problèmes résolus](./release-info/fixed-issues-5-1-0-sp1.md)
-            - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-1-0-sp1.md)
-         - Version 5.1.0 {#510-release}
-            - [Nouveautés](./release-info/whats-new-5-1-0.md)
-            - [Problèmes résolus](./release-info/fixed-issues-5-1-0.md)
-            - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-1-0.md)
-         - Version 5.0.0 SP4 {#500-sp4-release}
-            - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp4.md)
-            - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0-sp4.md)
-         - Version 5.0.0 SP3 {#500-sp3-release}
-            - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp3.md)
-            - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-5-0-0-sp3.md)
-         - Version 5.0.0 SP2 {#500-sp2-release}
-            - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp2.md)
-            - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0-sp2.md)
-         - Version 5.0.0 SP1 {#500-sp1-release}
-            - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp1.md)
-            - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0-sp1.md)
-         - Version 5.0.0 {#500-release}
-            - [Nouveautés](./release-info/whats-new-5-0-0.md)
-            - [Problèmes résolus](./release-info/fixed-issues-5-0-0.md)
-            - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0.md)
-         - Version 4.6.0 SP4 {#460-sp4-release}
-            - [Correction de problèmes](./release-info/fixed-issues-4-6-0-sp4.md)
-            - [Instructions de mise à niveau](./release-info/upgrade-instructions-4-6-0-sp4.md)
-         - Version 4.6.0 SP3 {#460-sp3-release}
-            - [Correction de problèmes](./release-info/fixed-issues-4-6-0-sp2.md)
-            - [Instructions de mise à niveau](./release-info/upgrade-instructions-4-6-0-sp2.md)
-         - Version 4.6.0 SP1 {#460-sp1-release}
-            - [Correction de problèmes](./release-info/fixed-issues-4-6-0-sp1.md)
-            - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-4-6-0-sp1.md)
-         - Version 4.6.0 {#460-release}
-            - [Nouveautés](./release-info/whats-new-4-6.md)
-            - [Correction de problèmes](./release-info/fixed-issues-4-6-0.md)
-            - [Instructions de mise à niveau](./release-info/upgrade-instructions-4-6-0.md)
-         - Version 4.4.0 {#440-release}
-            - [Nouveautés](./release-info/whats-new-4-4.md)
-            - [Problèmes résolus](./release-info/fixed-issues-4-4.md)
-            - [Instructions de mise à niveau](./release-info/upgrade-instructions-4-4.md)
-         - Version 4.3.1.5 {#4315-release}
-            - [Problèmes résolus](./release-info/fixed-issues-4-3-1-5.md)
-            - [Instructions de mise à niveau](./release-info/upgrade-instructions-4-3-1-5.md)
-         - Version 4.3.0 {#43-release}
-            - Nouveautés {#43-whats-new}
-               - [4.3.1 Nouveautés](./release-info/whats-new-4-3-1-release.md)
-               - [4.3.0 Nouveautés](./release-info/whats-new-4-3-release.md)
-            - Notes de mise à jour {#43-release-notes}
-               - [Notes de mise à jour de la version 4.3.1](./release-info/release-notes-4-3-1.md)
-               - [Notes de mise à jour de la version 4.3.0](./release-info/release-notes-4-3.md)
-         - Version 4.2 {#42-release}
-            - Nouveautés {#42-whats-new}
-               - [4.2.1 Nouveautés](./release-info/whats-new-4-2-1-release.md)
-               - [4.2 Nouveautés](./release-info/whats-new-4-2-release.md)
-            - Notes de mise à jour {#42-release-notes}
-               - [Notes de mise à jour de la version 4.2.1](./release-info/release-notes-4-2-1.md)
-               - [Notes de mise à jour 4.2](./release-info/release-notes-4-2.md)
-         - [Notes de mise à jour 4.1.x](./release-info/release-notes-4-1.md)
-         - [Notes de mise à jour 4.0.x](./release-info/release-notes-4-0.md)
-         - [Notes de mise à jour 3.8.x](./release-info/release-notes-3-8.md)
+  - [Feuille de route des versions d’AEM Guides](./release-info/aem-guides-releases-roadmap.md)
+  - Notes de mise à jour {#release-notes}
+    - Services cloud {#cloud-release-notes}
+      - {hide-from-toc}[&#x200B; Instructions de déploiement &#x200B;](./release-info/deploy-xml-on-aemaacs.md)
+      - {hide-from-toc}[Versions cloud](./release-info/latest-release-info-cs.md)
+      - Versions De 2026 {#2026-releases}
+        - Version 2026.08.0 {#2608-release}
+          - [Nouveautés](./release-info/whats-new-2026-08-0.md)
+          - [Problèmes résolus](./release-info/fixed-issues-2026-08-0.md)
+          - [Instructions de mise à niveau](./release-info/upgrade-instructions-2026-08-0.md)
+        - Version 2026.07.0 {#2607-release}
+          - [Problèmes résolus](./release-info/fixed-issues-2026-07-0.md)
+          - [Instructions de mise à niveau](./release-info/upgrade-instructions-2026-07-0.md)
+        - Version 2026.06.0 {#2606-release}
+          - [Nouveautés](./release-info/whats-new-2026-06-0.md)
+          - [Problèmes résolus](./release-info/fixed-issues-2026-06-0.md)
+          - [Instructions de mise à niveau](./release-info/upgrade-instructions-2026-06-0.md)
+        - Version 2026.05.0 SP1 {#2605-sp1-release}
+          - [Problèmes résolus](./release-info/fixed-issues-2026-05-0-sp1.md)
+        - Version 2026.05.0 {#2605-release}
+          - [Nouveautés](./release-info/whats-new-2026-05-0.md)
+          - [Problèmes résolus](./release-info/fixed-issues-2026-05-0.md)
+          - [Instructions de mise à niveau](./release-info/upgrade-instructions-2026-05-0.md)
+        - Version 2026.04.0 {#2604-release}
+          - [Nouveautés](./release-info/whats-new-2026-04-0.md)
+          - [Problèmes résolus](./release-info/fixed-issues-2026-04-0.md)
+          - [Instructions de mise à niveau](./release-info/upgrade-instructions-2026-04-0.md)
+        - Version 2026.03.0 {#2603-release}
+          - {hide-from-toc}[Nouveautés](./release-info/whats-new-2026-03-0.md)
+          - {hide-from-toc}[Correction de problèmes](./release-info/fixed-issues-2026-03-0.md)
+          - {hide-from-toc}[&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-2026-03-0.md)
+        - Version 2026.01.0 {#2601-release}
+          - [Nouveautés](./release-info/whats-new-2026-01-0.md)
+          - [Problèmes résolus](./release-info/fixed-issues-2026-01-0.md)
+          - [Instructions de mise à niveau](./release-info/upgrade-instructions-2026-01-0.md)
+      - Versions De 2025 {#2025-releases}
+        - Version 2025.11.0 {#2511-release}
+          - [Nouveautés](./release-info/whats-new-2025-11-0.md)
+          - [Problèmes résolus](./release-info/fixed-issues-2025-11-0.md)
+          - [Instructions de mise à niveau](./release-info/upgrade-instructions-2025-11-0.md)
+        - Version 2025.10.0 {#2510-release}
+          - [Nouveautés](./release-info/whats-new-2025-10-0.md)
+          - [Problèmes résolus](./release-info/fixed-issues-2025-10-0.md)
+          - [Instructions de mise à niveau](./release-info/upgrade-instructions-2025-10-0.md)
+        - Version 2025.08.0 {#2508-release}
+          - [Nouveautés](./release-info/whats-new-2025-08-0.md)
+          - [Problèmes résolus](./release-info/fixed-issues-2025-08-0.md)
+          - [Instructions de mise à niveau](./release-info/upgrade-instructions-2025-08-0.md)
+        - Version 2025.07.0 {#2507-release}
+          - [Nouveautés](./release-info/whats-new-2025-07-0.md)
+          - [Problèmes résolus](./release-info/fixed-issues-2025-07-0.md)
+          - [Instructions de mise à niveau](./release-info/upgrade-instructions-2025-07-0.md)
+        - Version 2025.06.0 {#2506-release}
+          - [Nouveautés](./release-info/whats-new-2025-06-0.md)
+          - [Problèmes résolus](./release-info/fixed-issues-2025-06-0.md)
+          - [Instructions de mise à niveau](./release-info/upgrade-instructions-2025-06-0.md)
+        - Version 2025.04.0 {#2504-release}
+          - [Nouveautés](./release-info/whats-new-2025-04-0.md)
+          - [Problèmes résolus](./release-info/fixed-issues-2025-04-0.md)
+          - [Instructions de mise à niveau](./release-info/upgrade-instructions-2025-04-0.md)
+        - Version 2025.02.0 {#2502-release}
+          - [Nouveautés](./release-info/whats-new-2025-02-0.md)
+          - [Problèmes résolus](./release-info/fixed-issues-2025-02-0.md)
+          - [Instructions de mise à niveau](./release-info/upgrade-instructions-2025-02-0.md)
+      - Versions De 2024 {#2024-releases}
+        - Version 2024.12.0 {#2412-release}
+          - [Problèmes résolus](./release-info/fixed-issues-2024-12-0.md)
+          - [Instructions de mise à niveau](./release-info/upgrade-instructions-2024-12-0.md)
+        - Version 2024.10.0 SP1 {#2410-0-sp1-release}
+          - [Problèmes résolus](./release-info/fixed-issues-2024-10-0-sp1.md)
+        - Version 2024.10.0 {#2410-0-release}
+          - [Nouveautés](./release-info/whats-new-2024-10-0.md)
+          - [Problèmes résolus](./release-info/fixed-issues-2024-10-0.md)
+          - [Instructions de mise à niveau](./release-info/upgrade-instructions-2024-10-0.md)
+        - Version 2024.6.0 {#2406-release}
+          - [Nouveautés](./release-info/whats-new-2024-06-0.md)
+          - [Problèmes résolus](./release-info/fixed-issues-2024-06-0.md)
+          - [Instructions de mise à niveau](./release-info/upgrade-instructions-2024-06-0.md)
+        - Version 2024.4.0 {#2404-release}
+          - [Nouveautés](./release-info/whats-new-2024-04-0.md)
+          - [Problèmes résolus](./release-info/fixed-issues-2024-04-0.md)
+          - [Instructions de mise à niveau](./release-info/upgrade-instructions-2024-04-0.md)
+        - Version 2024.2.0 {#2402-release}
+          - [Nouveautés](./release-info/whats-new-2024-2-0.md)
+          - [Problèmes résolus](./release-info/fixed-issues-2024-2-0.md)
+          - [Instructions de mise à niveau](./release-info/upgrade-instructions-2024-2-0.md)
+      - Versions De 2023 {#2023-releases}
+        - Version de décembre {#2312-release}
+          - [Nouveautés](./release-info/whats-new-2023-12-0.md)
+          - [Notes de mise à jour](./release-info/release-notes-2023-12-0.md)
+        - Version de novembre {#2311-release}
+          - [Nouveautés](./release-info/whats-new-2023-11-0.md)
+          - [Notes de mise à jour](./release-info/release-notes-2023-11-0.md)
+        - Version d’octobre {#2310-release}
+          - [Nouveautés](./release-info/whats-new-2023-10-0.md)
+          - [Notes de mise à jour](./release-info/release-notes-2023-10-0.md)
+        - Version de septembre {#2309-release}
+          - [Nouveautés](./release-info/whats-new-2023-9-0.md)
+          - [Notes de mise à jour](./release-info/release-notes-2023-9-0.md)
+        - Version de juillet {#2307-release}
+          - [Nouveautés](./release-info/whats-new-2023-7-0.md)
+          - [Notes de mise à jour](./release-info/release-notes-2023-7-0.md)
+        - Version de juin {#2306-release}
+          - [Nouveautés](./release-info/whats-new-2023-6-0.md)
+          - [Notes de mise à jour](./release-info/release-notes-2023-6-0.md)
+        - Version d’avril {#2304-release}
+          - [Nouveautés](./release-info/whats-new-2023-4-0.md)
+          - [Notes de mise à jour](./release-info/release-notes-2023-4-0.md)
+        - Version de mars {#2303-release}
+          - [Nouveautés](./release-info/whats-new-2023-3-0.md)
+          - [Notes de mise à jour](./release-info/release-notes-2023-3-0.md)
+        - Version de février {#2302-release}
+          - [Nouveautés](./release-info/whats-new-2023-2-0.md)
+          - [Notes de mise à jour](./release-info/release-notes-2023-2-0.md)
+      - Versions De 2022 {#2022-releases}
+        - [Notes de mise à jour de novembre](./release-info/release-notes-2022-11-0.md)
+        - [Notes de mise à jour d’octobre](./release-info/release-notes-2022-10-0.md)
+        - [Notes de mise à jour de septembre](./release-info/release-notes-2022-9-0.md)
+        - [Notes de mise à jour d’août](./release-info/release-notes-2022-8-0.md)
+        - [Notes de mise à jour de mai](./release-info/release-notes-2022-5-0.md)
+        - [Notes de mise à jour d’avril](./release-info/release-notes-2022-4-0.md)
+        - [Notes de mise à jour de mars](./release-info/release-notes-2022-3-0.md)
+        - [Notes de mise à jour de février](./release-info/release-notes-2022-2-0.md)
+        - [Notes de mise à jour de janvier](./release-info/release-notes-2022-1-0.md)
+    - On-prem/Managed Services {#on-prem-release-notes}
+      - [[!DNL AEM Guides] versions](./release-info/latest-release-info.md)
+      - Version 5.2.0 {#520-release}
+        - [Nouveautés](./release-info/whats-new-5-2-0.md)
+        - [Problèmes résolus](./release-info/fixed-issues-5-2-0.md)
+        - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-2-0.md)
+      - Version 5.1.0 SP4 {#510-sp4-release}
+        - [Problèmes résolus](./release-info/fixed-issues-5-1-0-sp4.md)
+        - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-1-0-sp4.md)
+      - Version 5.1.0 SP3 {#510-sp3-release}
+        - [Nouveautés](./release-info/whats-new-5-1-3.md)
+        - [Problèmes résolus](./release-info/fixed-issues-5-1-0-sp3.md)
+        - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-1-0-sp3.md)
+      - Version 5.1.0 SP1 {#510-sp1-release}
+        - [Problèmes résolus](./release-info/fixed-issues-5-1-0-sp1.md)
+        - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-1-0-sp1.md)
+      - Version 5.1.0 {#510-release}
+        - [Nouveautés](./release-info/whats-new-5-1-0.md)
+        - [Problèmes résolus](./release-info/fixed-issues-5-1-0.md)
+        - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-1-0.md)
+      - Version 5.0.0 SP4 {#500-sp4-release}
+        - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp4.md)
+        - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0-sp4.md)
+      - Version 5.0.0 SP3 {#500-sp3-release}
+        - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp3.md)
+        - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-5-0-0-sp3.md)
+      - Version 5.0.0 SP2 {#500-sp2-release}
+        - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp2.md)
+        - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0-sp2.md)
+      - Version 5.0.0 SP1 {#500-sp1-release}
+        - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp1.md)
+        - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0-sp1.md)
+      - Version 5.0.0 {#500-release}
+        - [Nouveautés](./release-info/whats-new-5-0-0.md)
+        - [Problèmes résolus](./release-info/fixed-issues-5-0-0.md)
+        - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0.md)
+      - Version 4.6.0 SP4 {#460-sp4-release}
+        - [Correction de problèmes](./release-info/fixed-issues-4-6-0-sp4.md)
+        - [Instructions de mise à niveau](./release-info/upgrade-instructions-4-6-0-sp4.md)
+      - Version 4.6.0 SP3 {#460-sp3-release}
+        - [Correction de problèmes](./release-info/fixed-issues-4-6-0-sp2.md)
+        - [Instructions de mise à niveau](./release-info/upgrade-instructions-4-6-0-sp2.md)
+      - Version 4.6.0 SP1 {#460-sp1-release}
+        - [Correction de problèmes](./release-info/fixed-issues-4-6-0-sp1.md)
+        - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-4-6-0-sp1.md)
+      - Version 4.6.0 {#460-release}
+        - [Nouveautés](./release-info/whats-new-4-6.md)
+        - [Correction de problèmes](./release-info/fixed-issues-4-6-0.md)
+        - [Instructions de mise à niveau](./release-info/upgrade-instructions-4-6-0.md)
+      - Version 4.4.0 {#440-release}
+        - [Nouveautés](./release-info/whats-new-4-4.md)
+        - [Problèmes résolus](./release-info/fixed-issues-4-4.md)
+        - [Instructions de mise à niveau](./release-info/upgrade-instructions-4-4.md)
+      - Version 4.3.1.5 {#4315-release}
+        - [Problèmes résolus](./release-info/fixed-issues-4-3-1-5.md)
+        - [Instructions de mise à niveau](./release-info/upgrade-instructions-4-3-1-5.md)
+      - Version 4.3.0 {#43-release}
+        - Nouveautés {#43-whats-new}
+          - [4.3.1 Nouveautés](./release-info/whats-new-4-3-1-release.md)
+          - [4.3.0 Nouveautés](./release-info/whats-new-4-3-release.md)
+        - Notes de mise à jour {#43-release-notes}
+          - [Notes de mise à jour de la version 4.3.1](./release-info/release-notes-4-3-1.md)
+          - [Notes de mise à jour de la version 4.3.0](./release-info/release-notes-4-3.md)
+      - Version 4.2 {#42-release}
+        - Nouveautés {#42-whats-new}
+          - [4.2.1 Nouveautés](./release-info/whats-new-4-2-1-release.md)
+          - [4.2 Nouveautés](./release-info/whats-new-4-2-release.md)
+        - Notes de mise à jour {#42-release-notes}
+          - [Notes de mise à jour de la version 4.2.1](./release-info/release-notes-4-2-1.md)
+          - [Notes de mise à jour 4.2](./release-info/release-notes-4-2.md)
+      - [Notes de mise à jour 4.1.x](./release-info/release-notes-4-1.md)
+      - [Notes de mise à jour 4.0.x](./release-info/release-notes-4-0.md)
+      - [Notes de mise à jour 3.8.x](./release-info/release-notes-3-8.md)
 - Guide de l’utilisateur (nouvelle interface utilisateur) {#user-guide}
-   - Présentation {#about-aemg}
-      - [À propos  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
-      - Fonctionnalités [!DNL AEM Guides] et clés {#aemg-works-features}
-         - [Fonctionnement  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-         - [Fonctionnalités [!DNL AEM Guides] clés](./user-guide/intro-dxml-features.md)
-   - Page d’accueil {#home-page}
-      - [Expérience de la page d’accueil [!DNL AEM Guides]](./user-guide/intro-home-page.md)
-      - [Interface du référentiel](./user-guide/home-page-repository-view.md)
-   - et créer du contenu. {#author-content}
-      - [Présentation de la création](./user-guide/authoring-content.md)
-      - [Méthodes de création de contenu à l’aide d’AEM Guides](./user-guide/authoring-content-xml-doc.md)
-      - Éditeur {#work-with-editor}
-         - [Présentation de l’éditeur](./user-guide/web-editor.md)
-         - [Lancement de l’éditeur](./user-guide/web-editor-launch-editor.md)
-         - [Modifier les rubriques dans l’éditeur](./user-guide/web-editor-edit-topics.md)
-         - Création et prévisualisation de rubrique {#create-preview-topics}
-            - [Créer et prévisualiser des rubriques](./user-guide/create-preview-topics.md)
-            - [Créer des rubriques](./user-guide/web-editor-create-topics.md)
-            - [Prévisualiser une rubrique](./user-guide/web-editor-preview-topics.md)
-         - {hide-from-toc}[Connaître les fonctionnalités de l’éditeur](./user-guide/web-editor-features.md)
-         - Connaître l’interface et les fonctionnalités de l’éditeur {#editor-interface-features}
-            - [Vue d’ensemble](./user-guide/intro-editor-interface.md)
-            - [Barre d’en-tête](./user-guide/web-editor-header-bar.md)
-            - [Barre de tabulation](./user-guide/web-editor-tab-bar.md)
-            - [Barre d’outils](./user-guide/web-editor-toolbar.md)
-            - [Panneau de gauche](./user-guide/web-editor-left-panel.md)
-            - [Zone d&#39;édition du contenu](./user-guide/web-editor-content-editing-area.md)
-            - [Panneau de droite](./user-guide/web-editor-right-panel.md)
-            - [Panneau de recherche](./user-guide/search-panel-explorer.md)
-         - [Fonctionnalités supplémentaires de l’éditeur](./user-guide/web-editor-other-features.md)
-         - [Raccourcis clavier dans l’éditeur](./user-guide/web-editor-keyboard-shortcuts.md)
-         - [Vues de l’éditeur](./user-guide/web-editor-views.md)
-         - [Prise en charge des fichiers Schematron](./user-guide/support-schematron-file.md)
-         - [Créer des documents Markdown à partir de l’éditeur](./user-guide/web-editor-markdown-topic.md)
-         - [Ajouter des citations à votre contenu](./user-guide/web-editor-apply-citations.md)
-         - [Utiliser des données provenant de vos sources de données](./user-guide/web-editor-content-snippet.md)
-         - {hide-from-toc}[Importer du contenu à l’aide du connecteur Git (Beta)](./user-guide/web-editor-git-connector.md)
-         - [Etat du document](./user-guide/web-editor-document-states.md)
-         - [Utiliser des libellés](./user-guide/web-editor-use-label.md)
-         - [Paramètres de l’éditeur](./user-guide/config-editor-settings.md)
-      - Éditeur de carte {#map-editor}
-         - [Présentation de l’éditeur de cartes](./user-guide/map-editor.md)
-         - [Créer un mappage](./user-guide/map-editor-create-map.md)
-         - [Création de mappages à partir de modèles personnalisés](./user-guide/create-maps-customized-templates.md)
-         - [Fonctionnalités de l’éditeur de cartes](./user-guide/map-editor-advanced-map-editor.md)
-         - [Télécharger les fichiers](./user-guide/authoring-download-assets.md)
-         - [Fonctionnalités supplémentaires de l’éditeur de cartes](./user-guide/map-editor-other-features.md)
-      - Éditeur DITAVAL {#ditaval-editor}
-         - [Utiliser l’éditeur DITAVAL](./user-guide/ditaval-editor.md)
-      - Outils de bureau pour la création de contenu {#author-using-desktop-tools}
-         - [Créer du contenu à l’aide d’outils de bureau](./user-guide/author-desktop-tools.md)
-   - Vérifier le contenu {#review}
-      - [Présentation de la révision](./user-guide/review.md)
-      - [Créer un projet DITA](./user-guide/authoring-create-dita-project.md)
-      - [Envoyer les rubriques à réviser](./user-guide/review-send-topics-for-review.md)
-      - [Rubriques de révision](./user-guide/review-topics.md)
-      - [Réaffecter une tâche de révision à l’aide d’une notification](./user-guide/reassign-review-using-notification.md)
-      - [Terminer la tâche de révision en tant que réviseur](./user-guide/review-complete-review-tasks.md)
-      - [Commentaires de révision d’adresse](./user-guide/review-address-review-comments.md)
-      - [Clore ou demander une révision pour une tâche de révision](./user-guide/review-close-review-task.md)
-      - [Gérer les tâches de révision à l’aide du tableau de bord de révision](./user-guide/review-manage-tasks-review-dashboard.md)
-      - [Afficher une tâche de révision terminée](./user-guide/review-view-completed-task.md)
-      - [Comprendre les notifications de révision](./user-guide/review-understanding-review-notifications.md)
-   - Collaboration à l’aide d’Adobe Workfront {#workfront-integration}
-      - [Intégration de Workfront à Experience Manager Guides](./user-guide/workfront-integration.md)
-   - Métadonnées et balisage {#manage-metadata}
-      - [Gestion des métadonnées](./user-guide/manage-metadata.md)
-      - [Utilisation des métadonnées dans AEM](./user-guide/metadata-dita.md)
-      - [Balisage intelligent](./user-guide/web-editor-smart-tagging.md)
-      - [Balisage en bloc du contenu DITA](./user-guide/map-editor-bulk-tagging.md)
-   - Gestion et publication des cartes {#map-management-publishing}
-      - [Présentation de la console Carte](./user-guide/map-console-overview.md)
-      - [Ouvrir les fichiers dans la console Map](./user-guide/open-files-map-console.md)
-      - Rapports {#reports-aem-guide}
-         - [Présentation des rapports](./user-guide/reports-intro.md)
-         - [Rapport DITA map à partir de la console Map](./user-guide/reports-web-editor.md)
-         - [Rapport DITA map à partir du tableau de bord Map](./user-guide/reports-ditamap.md)
-         - [Rapport sur la réutilisation du contenu](./user-guide/reports-content-reuse.md)
-         - [Rapport sur le statut de la conversion](./user-guide/reports-convertion-status.md)
-         - [Rapport Historique des versions des fichiers rétablis](./user-guide/reports-reverted-file-version-history.md)
-      - Traduction de contenu {#translate-content}
-         - [Présentation de la traduction de contenu](./user-guide/translation.md)
-         - [Bonnes pratiques relatives à la traduction de contenu](./user-guide/translation-first-time.md)
-         - [Traduire des documents à partir de la console Carte](./user-guide/translate-documents-web-editor.md)
-         - [Afficher le statut de la traduction](./user-guide/translation-view-trans-state-6234.md)
-         - [Traduire les rubriques modifiées](./user-guide/translation-modified-topics-6234.md)
-      - Génération de sortie {#output-gen}
-         - [Notions de base sur la génération de sortie](./user-guide/generate-output.md)
-         - Paramètres prédéfinis de sortie dans AEM Guides {#output-presets-aemg}
-            - [Présentation des paramètres prédéfinis de sortie](./user-guide/generate-output-understand-presets.md)
-            - AEM Sites {#aem-sites}
-               - [Paramètre prédéfini d’AEM Sites dans la console Map](./user-guide/generate-output-aem-site-web-editor.md)
-               - [Paramètre prédéfini AEM Sites dans le tableau de bord Map](./user-guide/generate-output-aem-site-map-dashboard.md)
-            - PDF {#pdf-preset}
-               - [Présentation des paramètres prédéfinis de sortie PDF](./user-guide/generate-output-pdf.md)
-               - [Paramètre prédéfini de sortie PDF DITA-OT](./user-guide/generate-output-pdf-dita-ot.md)
-               - [Paramètre prédéfini de sortie PDF natif](./web-editor/native-pdf-web-editor.md)
-            - [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
-            - [HTML5](./user-guide/generate-output-html5.md)
-            - [EPUB](./user-guide/generate-output-epub.md)
-            - [Personnalisé](./user-guide/generate-output-custom.md)
-            - [JSON](./user-guide/generate-output-json.md)
-         - [Modification, duplication ou suppression d’un paramètre prédéfini de sortie](./user-guide/generate-output-create-edit-preset.md)
-         - Conditionnaliser le contenu {#conditional-content}
-            - [Utilisation de paramètres prédéfinis de condition](./user-guide/generate-output-use-condition-presets.md)
-            - [Création de profils d’attributs conditionnels](./user-guide/generate-output-conditional-attribute-profiling.md)
-         - Utiliser niveau de référence {#work-with-baseline}
-            - [Créer et gérer des niveaux de référence à partir de la console Map](./user-guide/web-editor-baseline.md)
-            - [Créer et gérer des niveaux de référence à partir du tableau de bord Mappage](./user-guide/generate-output-use-baseline-for-publishing.md)
-            - [Créer et gérer de nouvelles lignes de base à partir de la console Map](./user-guide/web-editor-baseline-v2.md)
-            - [FAQ sur la migration de nouvelle ligne de base](./user-guide/new-baseline-migration-faq.md)
-         - [Gestion des paramètres prédéfinis de sortie de profil global et de dossier](./user-guide/web-editor-manage-output-presets.md)
-         - [Utilisez des variables pour définir les options Chemin de destination, Nom du site ou Nom de fichier](./user-guide/generate-output-use-variables.md)
-         - [Transmettre les métadonnées à la sortie à l’aide de DITA-OT](./user-guide/pass-metadata-dita-ot.md)
-         - Générer la sortie {#generate-output}
-            - [Générer une sortie pour un plan DITA](./user-guide/generate-output-for-a-dita-map.md)
-            - [Générer une sortie de la base de connaissances](./user-guide/web-editor-article-publishing.md)
-            - Publication sur une seule rubrique {#single-topic-publishing}
-               - [Publier des fragments de contenu](./user-guide/publish-content-fragment.md)
-               - [Publier des fragments d’expérience](./user-guide/publish-experience-fragment.md)
-               - [Publication de pages AEM Sites](./user-guide/publish-aem-sites.md)
-               - [Génération incrémentielle de la sortie](./user-guide/generate-output-aem-site.md)
-         - [Utilisation de la collecte de cartes pour la génération de sortie](./user-guide/generate-output-use-map-collection-output-generation.md)
-         - [Utiliser une nouvelle collection de cartes pour la génération de sortie](./user-guide/generate-output-use-new-map-collection-output-generation.md)
-         - [Gérer le processus de génération de sortie](./user-guide/generate-output-manage-process.md)
-         - [Gérer les tâches de publication à l’aide du tableau de bord de publication](./user-guide/generate-output-publish-dashboard.md)
-         - [Résolution des problèmes de base](./user-guide/generate-output-basic-troubleshooting.md)
-         - [Questions fréquentes sur le workflow de publication et l’évolutivité](./user-guide/publishing-scalability-faq.md)
-      - Activation en masse de contenu {#bulk-activation}
-         - [Activation en bloc du contenu publié](./user-guide/conf-bulk-activation.md)
-         - [Créer une collection de mappages d’activation en bloc](./user-guide/conf-bulk-activation-create-map-collection.md)
-         - [Activer la sortie](./user-guide/conf-bulk-activation-publish-map-collection.md)
-         - [Modification d’une collection de mappages d’activation en bloc](./user-guide/conf-bulk-activation-edit-map-collection.md)
-         - [Supprimer une collection de mappages d’activation en bloc](./user-guide/conf-bulk-activation-delete-map-collection.md)
-         - [Gestion de la réplication des ressources sources DITA](./user-guide/dita-assets-replication-aem-sites.md)
-   - Génération en sortie de documents FrameMaker {#generate-fm-output}
-      - [Principes de base de la génération de sortie FrameMaker](./user-guide/fm-output-generatation.md)
-      - Préréglages pris en charge {#fm-docs-generating-presets}
-         - [Paramètres prédéfinis pour la génération de documents FrameMaker](./user-guide/fm-output-understand-presets.md)
-         - [PDF](./user-guide/fm-output-pdf-preset.md)
-         - [HTML5](./user-guide/fm-output-html5-preset.md)
-         - [EPUB](./user-guide/fm-output-epub-preset.md)
-      - [Générer la sortie des fichiers .book ou .fm](./user-guide/fm-output-generate.md)
-      - [Afficher le statut de la tâche de génération de sortie](./user-guide/fm-output-view-status.md)
-   - Assistant AI dans AEM Guides {#ai-assistant-aem}
-      - [Informations d’identification des utilisateurs et utilisatrices d’Adobe Generative AI](./user-guide/adobe-generative-ai-disclosures.md)
-      - [Vue d’ensemble de l’Assistant IA](./user-guide/ai-assistant.md)
-      - [Aide intelligente optimisée par l’IA pour rechercher du contenu](./user-guide/ai-based-smart-help.md)
-      - [Assistant AI Création pour créer des documents intelligemment](./user-guide/ai-assistant-right-panel.md)
-      - [Suggestions intelligentes optimisées par l’IA pour créer du contenu](./user-guide/authoring-ai-based-smart-suggestions.md)
-      - [Questions fréquentes](./user-guide/ai-assistant-faq.md)
-   - Gérer le contenu de formation {#learning-training-content}
-      - Guide de prise en main {#get-started}
-         - Présentation {#intro-lc}
-            - {hide-from-toc}[Notes de mise à jour](./release-info-lt/release-notes-lt-2025-12-v2.md)
-            - {hide-from-toc}[Notes de mise à jour](./release-info-lt/release-notes-lt-2026-02-v3.md)
-            - [Présentation du contenu de formation](./learning-content/intro.md)
-         - Configurer votre cours {#setup-course}
-            - [Présentation du cours](./learning-content/course-overview.md)
-            - [Exploration de l’interface et des conditions préalables](./learning-content/access-lc-interface-preq.md)
-            - [Créer votre premier cours](./learning-content/create-first-course.md)
-            - [Comprendre les bases du gestionnaire de cours](./learning-content/course-manager-basics.md)
-            - [Gérer votre cours](./learning-content/manage-course.md)
-         - Création et personnalisation de contenu d’apprentissage {#customize-lc}
-            - [Vue d’ensemble](./learning-content/lc-overview.md)
-            - [Créer une rubrique](./learning-content/create-content.md)
-            - [Modifier le sujet](./learning-content/edit-content.md)
-            - [Ajouter des blocs de création de base](./learning-content/lc-basic-blocks.md)
-            - [Utilisation de widgets interactifs](./learning-content/lc-widgets.md)
-            - [Autres options du menu Insertion](./learning-content/lc-other-insert-options.md)
-            - [Utiliser des styles intégrés](./learning-content/lc-inline-styles.md)
-         - Créer et gérer un quiz {#quiz}
-            - [Quiz overview](./learning-content/quiz-overview.md)
-            - [Créer un quiz](./learning-content/create-quiz.md)
-            - [Modifier le quiz](./learning-content/edit-quiz.md)
-            - [Insérer des questions dans un quiz](./learning-content/quiz-insert-questions.md)
-            - [&#x200B; Propriétés du quiz &#x200B;](./learning-content/quiz-properties.md)
-            - Banque de questions {#question-bank}
-               - [Créer une banque de questions](./learning-content/create-qb.md)
-               - [Insérer des questions depuis la banque de questions](./learning-content/insert-questions.md)
-         - Publier votre cours {#publish-course}
-            - [À propos de la publication de cours](./learning-content/publish-overview.md)
-            - [Préréglages pris en charge](./learning-content/course-presets.md)
-            - Publier le cours au format SCORM {#scorm-output}
-               - [Créer un paramètre prédéfini de sortie SCORM](./learning-content/create-scorm-preset.md)
-               - [Configuration du paramètre prédéfini de sortie SCORM](./learning-content/config-scorm-preset.md)
-               - [Générer une sortie SCORM](./learning-content/generate-scorm-output.md)
-            - Publier le cours au format PDF {#pdf-output}
-               - [Créer un paramètre prédéfini de sortie PDF](./learning-content/create-course-pdf-preset.md)
-               - [Configuration du paramètre prédéfini de sortie PDF](./learning-content/config-course-pdf-preset.md)
-               - [Générer des PDF](./learning-content/generate-course-pdf.md)
-      - Guide de configuration {#config-lc}
-         - [À propos de ce guide](./lc-config-guide/introduction.md)
-         - [Configuration des profils de dossier](./lc-config-guide/lc-folder-profile.md)
-         - [Bonnes pratiques pour configurer la structure de dossiers](./lc-config-guide/best-practices-folder-structure.md)
-         - [Configurer d’autres paramètres](./lc-config-guide/lc-other-settings.md)
-         - [Mesures clés SCORM](./lc-config-guide/learning-course-parameters.md)
-      - Tutoriels vidéo {#lc-video}
-         - [Workflow de création](./lc-video-tutorials/author-workflow.md)
-         - [Workflow de l’administrateur](./lc-video-tutorials/admin-workflow.md)
-   - Annexe {#appendix}
-      - Gérer le contenu {#manage-content}
-         - [Concepts clés, rôles et autorisations, et conditions préalables](./user-guide/authoring.md)
-         - [Charger des fichiers](./user-guide/authoring-upload-existing-files.md)
-         - [Gestion des fichiers et des dossiers](./user-guide/authoring-file-management.md)
-         - [Traitement des ressources](./user-guide/asset-processor.md)
-      - Résolution des problèmes {#troubleshooting}
-         - [Timeout de session](./user-guide/session-timeout-prompt.md)
+  - Présentation {#about-aemg}
+    - [À propos  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
+    - Fonctionnalités [!DNL AEM Guides] et clés {#aemg-works-features}
+      - [Fonctionnement  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+      - [Fonctionnalités [!DNL AEM Guides] clés](./user-guide/intro-dxml-features.md)
+  - Page d’accueil {#home-page}
+    - [Expérience de la page d’accueil [!DNL AEM Guides]](./user-guide/intro-home-page.md)
+    - [Interface du référentiel](./user-guide/home-page-repository-view.md)
+  - et créer du contenu. {#author-content}
+    - [Présentation de la création](./user-guide/authoring-content.md)
+    - [Méthodes de création de contenu à l’aide d’AEM Guides](./user-guide/authoring-content-xml-doc.md)
+    - Éditeur {#work-with-editor}
+      - [Présentation de l’éditeur](./user-guide/web-editor.md)
+      - [Lancement de l’éditeur](./user-guide/web-editor-launch-editor.md)
+      - [Modifier les rubriques dans l’éditeur](./user-guide/web-editor-edit-topics.md)
+      - Création et prévisualisation de rubrique {#create-preview-topics}
+        - [Créer et prévisualiser des rubriques](./user-guide/create-preview-topics.md)
+        - [Créer des rubriques](./user-guide/web-editor-create-topics.md)
+        - [Prévisualiser une rubrique](./user-guide/web-editor-preview-topics.md)
+      - {hide-from-toc}[Connaître les fonctionnalités de l’éditeur](./user-guide/web-editor-features.md)
+      - Connaître l’interface et les fonctionnalités de l’éditeur {#editor-interface-features}
+        - [Vue d’ensemble](./user-guide/intro-editor-interface.md)
+        - [Barre d’en-tête](./user-guide/web-editor-header-bar.md)
+        - [Barre de tabulation](./user-guide/web-editor-tab-bar.md)
+        - [Barre d’outils](./user-guide/web-editor-toolbar.md)
+        - [Panneau de gauche](./user-guide/web-editor-left-panel.md)
+        - [Zone d&#39;édition du contenu](./user-guide/web-editor-content-editing-area.md)
+        - [Panneau de droite](./user-guide/web-editor-right-panel.md)
+        - [Panneau de recherche](./user-guide/search-panel-explorer.md)
+      - [Fonctionnalités supplémentaires de l’éditeur](./user-guide/web-editor-other-features.md)
+      - [Raccourcis clavier dans l’éditeur](./user-guide/web-editor-keyboard-shortcuts.md)
+      - [Vues de l’éditeur](./user-guide/web-editor-views.md)
+      - [Prise en charge des fichiers Schematron](./user-guide/support-schematron-file.md)
+      - [Créer des documents Markdown à partir de l’éditeur](./user-guide/web-editor-markdown-topic.md)
+      - [Ajouter des citations à votre contenu](./user-guide/web-editor-apply-citations.md)
+      - [Utiliser des données provenant de vos sources de données](./user-guide/web-editor-content-snippet.md)
+      - [Importer du contenu à l’aide du connecteur Git](./user-guide/web-editor-git-connector.md)
+      - [Etat du document](./user-guide/web-editor-document-states.md)
+      - [Utiliser des libellés](./user-guide/web-editor-use-label.md)
+      - [Paramètres de l’éditeur](./user-guide/config-editor-settings.md)
+    - Éditeur de carte {#map-editor}
+      - [Présentation de l’éditeur de cartes](./user-guide/map-editor.md)
+      - [Créer un mappage](./user-guide/map-editor-create-map.md)
+      - [Création de mappages à partir de modèles personnalisés](./user-guide/create-maps-customized-templates.md)
+      - [Fonctionnalités de l’éditeur de cartes](./user-guide/map-editor-advanced-map-editor.md)
+      - [Télécharger les fichiers](./user-guide/authoring-download-assets.md)
+      - [Fonctionnalités supplémentaires de l’éditeur de cartes](./user-guide/map-editor-other-features.md)
+    - Éditeur DITAVAL {#ditaval-editor}
+      - [Utiliser l’éditeur DITAVAL](./user-guide/ditaval-editor.md)
+    - Outils de bureau pour la création de contenu {#author-using-desktop-tools}
+      - [Créer du contenu à l’aide d’outils de bureau](./user-guide/author-desktop-tools.md)
+  - Vérifier le contenu {#review}
+    - [Présentation de la révision](./user-guide/review.md)
+    - [Créer un projet DITA](./user-guide/authoring-create-dita-project.md)
+    - [Envoyer les rubriques à réviser](./user-guide/review-send-topics-for-review.md)
+    - [Rubriques de révision](./user-guide/review-topics.md)
+    - [Réaffecter une tâche de révision à l’aide d’une notification](./user-guide/reassign-review-using-notification.md)
+    - [Terminer la tâche de révision en tant que réviseur](./user-guide/review-complete-review-tasks.md)
+    - [Commentaires de révision d’adresse](./user-guide/review-address-review-comments.md)
+    - [Clore ou demander une révision pour une tâche de révision](./user-guide/review-close-review-task.md)
+    - [Gérer les tâches de révision à l’aide du tableau de bord de révision](./user-guide/review-manage-tasks-review-dashboard.md)
+    - [Afficher une tâche de révision terminée](./user-guide/review-view-completed-task.md)
+    - [Comprendre les notifications de révision](./user-guide/review-understanding-review-notifications.md)
+  - Collaboration à l’aide d’Adobe Workfront {#workfront-integration}
+    - [Intégration de Workfront à Experience Manager Guides](./user-guide/workfront-integration.md)
+  - Métadonnées et balisage {#manage-metadata}
+    - [Gestion des métadonnées](./user-guide/manage-metadata.md)
+    - [Utilisation des métadonnées dans AEM](./user-guide/metadata-dita.md)
+    - [Balisage intelligent](./user-guide/web-editor-smart-tagging.md)
+    - [Balisage en bloc du contenu DITA](./user-guide/map-editor-bulk-tagging.md)
+  - Gestion et publication des cartes {#map-management-publishing}
+    - [Présentation de la console Carte](./user-guide/map-console-overview.md)
+    - [Ouvrir les fichiers dans la console Map](./user-guide/open-files-map-console.md)
+    - Rapports {#reports-aem-guide}
+      - [Présentation des rapports](./user-guide/reports-intro.md)
+      - [Rapport DITA map à partir de la console Map](./user-guide/reports-web-editor.md)
+      - [Rapport DITA map à partir du tableau de bord Map](./user-guide/reports-ditamap.md)
+      - [Rapport sur la réutilisation du contenu](./user-guide/reports-content-reuse.md)
+      - [Rapport sur le statut de la conversion](./user-guide/reports-convertion-status.md)
+      - [Rapport Historique des versions des fichiers rétablis](./user-guide/reports-reverted-file-version-history.md)
+    - Traduction de contenu {#translate-content}
+      - [Présentation de la traduction de contenu](./user-guide/translation.md)
+      - [Bonnes pratiques relatives à la traduction de contenu](./user-guide/translation-first-time.md)
+      - [Traduire des documents à partir de la console Carte](./user-guide/translate-documents-web-editor.md)
+      - [Afficher le statut de la traduction](./user-guide/translation-view-trans-state-6234.md)
+      - [Traduire les rubriques modifiées](./user-guide/translation-modified-topics-6234.md)
+    - Génération de sortie {#output-gen}
+      - [Notions de base sur la génération de sortie](./user-guide/generate-output.md)
+      - Paramètres prédéfinis de sortie dans AEM Guides {#output-presets-aemg}
+        - [Présentation des paramètres prédéfinis de sortie](./user-guide/generate-output-understand-presets.md)
+        - AEM Sites {#aem-sites}
+          - [Paramètre prédéfini d’AEM Sites dans la console Map](./user-guide/generate-output-aem-site-web-editor.md)
+          - [Paramètre prédéfini AEM Sites dans le tableau de bord Map](./user-guide/generate-output-aem-site-map-dashboard.md)
+        - PDF {#pdf-preset}
+          - [Présentation des paramètres prédéfinis de sortie PDF](./user-guide/generate-output-pdf.md)
+          - [Paramètre prédéfini de sortie PDF DITA-OT](./user-guide/generate-output-pdf-dita-ot.md)
+          - [Paramètre prédéfini de sortie PDF natif](./web-editor/native-pdf-web-editor.md)
+        - [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
+        - [HTML5](./user-guide/generate-output-html5.md)
+        - [EPUB](./user-guide/generate-output-epub.md)
+        - [Personnalisé](./user-guide/generate-output-custom.md)
+        - [JSON](./user-guide/generate-output-json.md)
+      - [Modification, duplication ou suppression d’un paramètre prédéfini de sortie](./user-guide/generate-output-create-edit-preset.md)
+      - Conditionnaliser le contenu {#conditional-content}
+        - [Utilisation de paramètres prédéfinis de condition](./user-guide/generate-output-use-condition-presets.md)
+        - [Création de profils d’attributs conditionnels](./user-guide/generate-output-conditional-attribute-profiling.md)
+      - Utiliser niveau de référence {#work-with-baseline}
+        - [Créer et gérer des niveaux de référence à partir de la console Map](./user-guide/web-editor-baseline.md)
+        - [Créer et gérer des niveaux de référence à partir du tableau de bord Mappage](./user-guide/generate-output-use-baseline-for-publishing.md)
+        - [Créer et gérer de nouvelles lignes de base à partir de la console Map](./user-guide/web-editor-baseline-v2.md)
+        - [FAQ sur la migration de nouvelle ligne de base](./user-guide/new-baseline-migration-faq.md)
+      - [Gestion des paramètres prédéfinis de sortie de profil global et de dossier](./user-guide/web-editor-manage-output-presets.md)
+      - [Utilisez des variables pour définir les options Chemin de destination, Nom du site ou Nom de fichier](./user-guide/generate-output-use-variables.md)
+      - [Transmettre les métadonnées à la sortie à l’aide de DITA-OT](./user-guide/pass-metadata-dita-ot.md)
+      - Générer la sortie {#generate-output}
+        - [Générer une sortie pour un plan DITA](./user-guide/generate-output-for-a-dita-map.md)
+        - [Générer une sortie de la base de connaissances](./user-guide/web-editor-article-publishing.md)
+        - Publication sur une seule rubrique {#single-topic-publishing}
+          - [Publier des fragments de contenu](./user-guide/publish-content-fragment.md)
+          - [Publier des fragments d’expérience](./user-guide/publish-experience-fragment.md)
+          - [Publication de pages AEM Sites](./user-guide/publish-aem-sites.md)
+          - [Génération incrémentielle de la sortie](./user-guide/generate-output-aem-site.md)
+      - [Utilisation de la collecte de cartes pour la génération de sortie](./user-guide/generate-output-use-map-collection-output-generation.md)
+      - [Utiliser une nouvelle collection de cartes pour la génération de sortie](./user-guide/generate-output-use-new-map-collection-output-generation.md)
+      - [Migration d’anciennes collections de cartes vers de nouvelles collections de cartes](./user-guide/map-collection-migration.md)
+      - [Gérer le processus de génération de sortie](./user-guide/generate-output-manage-process.md)
+      - [Gérer les tâches de publication à l’aide du tableau de bord de publication](./user-guide/generate-output-publish-dashboard.md)
+      - [Résolution des problèmes de base](./user-guide/generate-output-basic-troubleshooting.md)
+      - [Questions fréquentes sur le workflow de publication et l’évolutivité](./user-guide/publishing-scalability-faq.md)
+    - Activation en masse de contenu {#bulk-activation}
+      - [Activation en bloc du contenu publié](./user-guide/conf-bulk-activation.md)
+      - [Créer une collection de mappages d’activation en bloc](./user-guide/conf-bulk-activation-create-map-collection.md)
+      - [Activer la sortie](./user-guide/conf-bulk-activation-publish-map-collection.md)
+      - [Modification d’une collection de mappages d’activation en bloc](./user-guide/conf-bulk-activation-edit-map-collection.md)
+      - [Supprimer une collection de mappages d’activation en bloc](./user-guide/conf-bulk-activation-delete-map-collection.md)
+      - [Gestion de la réplication des ressources sources DITA](./user-guide/dita-assets-replication-aem-sites.md)
+  - Génération en sortie de documents FrameMaker {#generate-fm-output}
+    - [Principes de base de la génération de sortie FrameMaker](./user-guide/fm-output-generatation.md)
+    - Préréglages pris en charge {#fm-docs-generating-presets}
+      - [Paramètres prédéfinis pour la génération de documents FrameMaker](./user-guide/fm-output-understand-presets.md)
+      - [PDF](./user-guide/fm-output-pdf-preset.md)
+      - [HTML5](./user-guide/fm-output-html5-preset.md)
+      - [EPUB](./user-guide/fm-output-epub-preset.md)
+    - [Générer la sortie des fichiers .book ou .fm](./user-guide/fm-output-generate.md)
+    - [Afficher le statut de la tâche de génération de sortie](./user-guide/fm-output-view-status.md)
+  - Assistant AI dans AEM Guides {#ai-assistant-aem}
+    - [Informations d’identification des utilisateurs et utilisatrices d’Adobe Generative AI](./user-guide/adobe-generative-ai-disclosures.md)
+    - [Vue d’ensemble de l’Assistant IA](./user-guide/ai-assistant.md)
+    - [Aide intelligente optimisée par l’IA pour rechercher du contenu](./user-guide/ai-based-smart-help.md)
+    - [Assistant AI Création pour créer des documents intelligemment](./user-guide/ai-assistant-right-panel.md)
+    - [Suggestions intelligentes optimisées par l’IA pour créer du contenu](./user-guide/authoring-ai-based-smart-suggestions.md)
+    - [Questions fréquentes](./user-guide/ai-assistant-faq.md)
+  - IA dédiée aux guides dans AEM Guides {#guides-ai-aem}
+    - [Prise en main de Guides AI](./user-guide/guides-ai.md)
+  - Gérer le contenu de formation {#learning-training-content}
+    - Guide de prise en main {#get-started}
+      - Présentation {#intro-lc}
+        - {hide-from-toc}[Notes de mise à jour](./release-info-lt/release-notes-lt-2025-12-v2.md)
+        - {hide-from-toc}[Notes de mise à jour](./release-info-lt/release-notes-lt-2026-02-v3.md)
+        - [Présentation du contenu de formation](./learning-content/intro.md)
+      - Configurer votre cours {#setup-course}
+        - [Présentation du cours](./learning-content/course-overview.md)
+        - [Exploration de l’interface et des conditions préalables](./learning-content/access-lc-interface-preq.md)
+        - [Créer votre premier cours](./learning-content/create-first-course.md)
+        - [Comprendre les bases du gestionnaire de cours](./learning-content/course-manager-basics.md)
+        - [Gérer votre cours](./learning-content/manage-course.md)
+      - Création et personnalisation de contenu d’apprentissage {#customize-lc}
+        - [Vue d’ensemble](./learning-content/lc-overview.md)
+        - [Créer une rubrique](./learning-content/create-content.md)
+        - [Modifier le sujet](./learning-content/edit-content.md)
+        - [Ajouter des blocs de création de base](./learning-content/lc-basic-blocks.md)
+        - [Utilisation de widgets interactifs](./learning-content/lc-widgets.md)
+        - [Autres options du menu Insertion](./learning-content/lc-other-insert-options.md)
+        - [Utiliser des styles intégrés](./learning-content/lc-inline-styles.md)
+      - Créer et gérer un quiz {#quiz}
+        - [Quiz overview](./learning-content/quiz-overview.md)
+        - [Créer un quiz](./learning-content/create-quiz.md)
+        - [Modifier le quiz](./learning-content/edit-quiz.md)
+        - [Insérer des questions dans un quiz](./learning-content/quiz-insert-questions.md)
+        - [&#x200B; Propriétés du quiz &#x200B;](./learning-content/quiz-properties.md)
+        - Banque de questions {#question-bank}
+          - [Créer une banque de questions](./learning-content/create-qb.md)
+          - [Insérer des questions depuis la banque de questions](./learning-content/insert-questions.md)
+      - Publier votre cours {#publish-course}
+        - [À propos de la publication de cours](./learning-content/publish-overview.md)
+        - [Préréglages pris en charge](./learning-content/course-presets.md)
+        - Publier le cours au format SCORM {#scorm-output}
+          - [Créer un paramètre prédéfini de sortie SCORM](./learning-content/create-scorm-preset.md)
+          - [Configuration du paramètre prédéfini de sortie SCORM](./learning-content/config-scorm-preset.md)
+          - [Générer une sortie SCORM](./learning-content/generate-scorm-output.md)
+        - Publier le cours au format PDF {#pdf-output}
+          - [Créer un paramètre prédéfini de sortie PDF](./learning-content/create-course-pdf-preset.md)
+          - [Configuration du paramètre prédéfini de sortie PDF](./learning-content/config-course-pdf-preset.md)
+          - [Générer des PDF](./learning-content/generate-course-pdf.md)
+    - Guide de configuration {#config-lc}
+      - [À propos de ce guide](./lc-config-guide/introduction.md)
+      - [Configuration des profils de dossier](./lc-config-guide/lc-folder-profile.md)
+      - [Bonnes pratiques pour configurer la structure de dossiers](./lc-config-guide/best-practices-folder-structure.md)
+      - [Configurer d’autres paramètres](./lc-config-guide/lc-other-settings.md)
+      - [Mesures clés SCORM](./lc-config-guide/learning-course-parameters.md)
+    - Tutoriels vidéo {#lc-video}
+      - [Workflow de création](./lc-video-tutorials/author-workflow.md)
+      - [Workflow de l’administrateur](./lc-video-tutorials/admin-workflow.md)
+  - Annexe {#appendix}
+    - Gérer le contenu {#manage-content}
+      - [Concepts clés, rôles et autorisations, et conditions préalables](./user-guide/authoring.md)
+      - [Charger des fichiers](./user-guide/authoring-upload-existing-files.md)
+      - [Gestion des fichiers et des dossiers](./user-guide/authoring-file-management.md)
+      - [Traitement des ressources](./user-guide/asset-processor.md)
+    - Résolution des problèmes {#troubleshooting}
+      - [Timeout de session](./user-guide/session-timeout-prompt.md)
+      - [La chaîne est une exception trop longue dans l’exportation des métadonnées](./user-guide/metadata-export-failure.md)
 - Guide de l’utilisateur (ancienne interface utilisateur) {#user-guide-old-ui}
-   - [Présentation d’AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Présentation d’AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation et configuration {#install-conf-guide}
-   - [Téléchargement, installation et mise à niveau](./install-conf-guide/introduction.md)
-   - Processus d’installation de Cloud Service {#deploy-conf-aemg-cs}
-      - [Déploiement et configuration du Dispatcher](./install-conf-guide/conf-deployment-dispatcher-cs.md)
-   - Processus d’installation d’On-Premise {#deploy-conf-aemg-on-prem}
-      - [Exigences techniques](./install-conf-guide/aemg-technical-requirements.md)
-      - [Installation de Adobe Experience Manager](./install-conf-guide/download-install-aem.md)
-      - [Télécharger et installer AEM Guides pour la première fois](./install-conf-guide/download-install-aemg-first-time.md)
-      - [Configurer Dispatcher](./install-conf-guide/conf-dispatcher.md)
-      - [Désinstallation d’AEM Guides](./install-conf-guide/uninstall-aemg.md)
-   - [Vérification de l’installation d’AEM Guides](./install-conf-guide/verify-aemg-installation.md)
-   - Mettre à niveau AEM Guides {#upgrade-aemg}
-      - Cloud Service {#cloud-service}
-         - [Mettre à niveau AEM Guides Cloud Service](./install-conf-guide/download-install-upgrade-aemg.md)
-         - [Configuration supplémentaire pour la mise à niveau d’AEM Guides as a Cloud Service](./install-conf-guide/additional-config-for-upgrade.md)
-         - [Remplacements de configuration pour Cloud Service](./install-conf-guide/download-install-config-override.md)
-      - On-Premise {#on-prem}
-         - [Mettre à niveau AEM Guides On-Premise 4.6.0 et versions ultérieures](./install-conf-guide/upgrade-aemg-latest-version.md)
-         - [Mise à niveau des versions antérieures d’AEM Guides On-Premise](./install-conf-guide/upgrade-aemg-prev-versions.md)
-         - [Mises à jour de configuration pour les versions de Experience Manager Guides](./install-conf-guide/configuration-on-prem.md)
-   - Recommandations pour l’optimisation des performances {#performance-optimization-aemg}
-      - [Optimisation des performances pour Cloud Service](./install-conf-guide/perf-optimization-cs.md)
-      - [Optimisation des performances pour On-Premise](./install-conf-guide/perf-optimization-on-prem.md)
-   - Migration du contenu {#migrate-content-cs}
-      - [Migration du contenu existant](./install-conf-guide/migrate-content.md)
-      - [Charger du contenu DITA existant à l&#39;aide de Framemaker et de l&#39;outil WebDav pour On-Premise](./install-conf-guide/upload-dita-content.md)
-      - [Utiliser la commande Curl pour charger le contenu DITA](./install-conf-guide/use-curl-command.md)
-      - [Configurer le modèle de fichier UUID](./install-conf-guide/conf-uuid-filename-pattern.md)
-      - [Migration de contenu non DITA](./install-conf-guide/non-dita-content.md)
-      - [Migration de contenu d’On-premise vers Cloud Service](./install-conf-guide/migrate-on-premise-content-cloud.md)
-      - Processus de migration pour On-premise {#migration-process-on-prem}
-         - [Migration de contenu non UUID vers UUID](./install-conf-guide/uuid-non-uuid.md)
-         - [4.3.1 migration de contenu non UUID vers 4.3.2 UUID](./install-conf-guide/non-uuid-4-3.md)
-         - [migration de contenu non UUID vers 4.6.1 UUID](./install-conf-guide/non-uuid-uuid-4-6.md)
-   - DITA-OT personnalisé et spécialisation {#custom-dita-ot-cs}
-      - [Utilisation de la spécialisation DITA-OT et DITA personnalisée](./install-conf-guide/dita-ot-specialization.md)
-   - Groupes d’utilisateurs et sécurité {#user-group-sec-cs}
-      - [Gestion des utilisateurs et utilisatrices](./install-conf-guide/user-admin-sec.md)
-   - Paramètres système {#aemg-system-settings}
-      - Configurer des noms de fichier UUID et non basés sur UUID {#conf-filename}
-         - [Configurer les noms de fichier](./install-conf-guide/conf-file-names-overview.md)
-         - [Configurer des noms de fichier automatiques en fonction de l’UUID](./install-conf-guide/auto-uuid-filenames.md)
-         - [Configurer Regx pour les caractères de nom de fichier valides](./install-conf-guide/file-names-valid-regx.md)
-      - Traitement des ressources {#asset-processing}
-         - [Configuration de la fonctionnalité de traitement des ressources](./install-conf-guide/conf-asset-processing.md)
-         - [Configuration du post-traitement pour un dossier](./install-conf-guide/conf-folder-post-processing.md)
-      - [Gestion des versions](./install-conf-guide/version-management.md)
-      - [Configurer le nettoyage de l’arborescence B](./install-conf-guide/conf-btree-cleanup.md)
-      - [Configuration de la réplication des ressources DITA](./install-conf-guide/conf-dita-asset-replication.md)
-   - Configurations de l’éditeur {#editor-configs}
-      - [Personnaliser l’éditeur](./install-conf-guide/customize-overview.md)
-      - [Personnaliser la barre d’outils](./install-conf-guide/customize-toolbar.md)
-      - [Configuration d’un panneau personnalisé dans le panneau de gauche](./install-conf-guide/conf-custom-panel.md)
-      - [Configurer la valeur par défaut de la vue Balises](./install-conf-guide/conf-default-value-tags-view.md)
-      - [Générer automatiquement des identifiants d’élément](./install-conf-guide/auto-generate-element-ids.md)
-      - [Inclure l’attribut @navtitle par défaut](./install-conf-guide/auto-add-navtitle.md)
-      - [Configurer l’affichage des liens basés sur l’UUID](./install-conf-guide/conf-uuid-based-links.md)
-      - [Ouvrir la rubrique DITA ou mapper des fichiers dans le même onglet](./install-conf-guide/open-dita-files-same-tab.md)
-      - [Définir l’éditeur de carte avancé par défaut](./install-conf-guide/conf-default-map-editor.md)
-      - [Configuration de l’enregistrement automatique des fichiers dans l’éditeur](./install-conf-guide/conf-auto-save-in-editor.md)
-      - [Configurer l&#39;invite pour enregistrer en tant que nouvelle version à la fermeture](./install-conf-guide/conf-save-as-new-version-close.md)
-      - [Configurer l&#39;invite pour archiver un fichier à la fermeture](./install-conf-guide/conf-checkin-file-close.md)
-      - [Configuration des caractères spéciaux autorisés](./install-conf-guide/conf-special-chars.md)
-      - [Personnaliser le dictionnaire par défaut d’AEM](./install-conf-guide/customize-aem-default-dictionary.md)
-      - [Configuration des filtres de texte](./install-conf-guide/conf-text-filters.md)
-      - [Configurer des filtres pour la boîte de dialogue de navigation des fichiers](./install-conf-guide/conf-custom-file-filters.md)
-      - [Installation de packages pour la publication basée sur des articles](./install-conf-guide/conf-article-based-publishing.md)
-      - [Configuration de la liste d’exclusion des propriétés de métadonnées](./install-conf-guide/conf-metadata-prop.md)
-      - Paramètre de l’éditeur pour Cloud Service {#editor-cloud-settings}
-         - [Configurer les suggestions intelligentes optimisées par l’IA pour la création dans Cloud Service](./install-conf-guide/conf-smart-suggestions.md)
-         - [Configurer l’aide intelligente optimisée par l’IA pour rechercher du contenu pour Cloud Service](./install-conf-guide/conf-smart-help.md)
-         - [Configurer l’option de modification dans Oxygen for Cloud Service](./install-conf-guide/conf-edit-in-oxygen.md)
-         - [Configurer l’affichage des tableaux collés pour Cloud Service](./install-conf-guide/conf-pasted-tables.md)
-         - [Configurer la génération PDF sur une seule rubrique pour Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
-         - [Configuration de la fonctionnalité de traduction dans l’éditeur pour Cloud Service](./install-conf-guide/conf-translation-editor.md)
-      - Paramètre de l’éditeur pour On-Premise {#editor-on-prem-settings}
-         - [Configurer un nouvel éditeur](./install-conf-guide/conf-new-editor-on-prem.md)
-         - [Configuration de caractères spéciaux supplémentaires pour On-Premise](/help/product-guide/web-editor/conf-additional-special-characters.md)
-         - [Configurez le titre des icônes Archiver et Extraire pour On-Premise](./install-conf-guide/conf-checkin-checkout-title.md)
-         - [Configurer le nombre de LimitReads pour une requête On-Premise](./install-conf-guide/conf-query-limitreads.md)
-      - Connecteur de source de données {#data-source}
-         - [Configuration d’un connecteur de source de données à partir de l’interface utilisateur](./install-conf-guide/conf-data-source-connector-tools.md)
-         - {hide-from-toc}[Configuration d’un connecteur de source de données pour Cloud Service](./install-conf-guide/conf-data-source-connector-cs.md)
-         - {hide-from-toc}[Créer et configurer le connecteur Git à partir de l’interface utilisateur](./install-conf-guide/conf-git-connector.md)
-   - Profils globaux et au niveau du dossier {#global-folder-profiles}
-      - [Configuration de profils globaux ou de niveau dossier](./install-conf-guide/conf-profiles.md)
-   - Modèles de rubrique et de carte {#topic-map-template}
-      - [Configurer les modèles de rubrique et de mappage](./install-conf-guide/conf-template-tags.md)
-      - [Configurer un modèle de rubrique DITA personnalisé](./install-conf-guide/conf-template-tags-custom-dita-topic-template.md)
-      - [Configurer un modèle de plan DITA personnalisé](./install-conf-guide/conf-template-tags-custom-dita-map-templates.md)
-   - États du document {#doc-state}
-      - [Configurer les états du document](./install-conf-guide/customize-doc-state.md)
-      - [Configurer des filtres d’état de document pour Cloud Service](./install-conf-guide/conf-doc-state-filters.md)
-   - Configuration des paramètres de Workspace {#workspace-configs}
-      - [Paramètres &#x200B;](./install-conf-guide/workspace-settings.md)
-   - Recherche AEM Assets {#aem-asset-search}
-      - [Configuration de la recherche pour l’interface utilisateur d’AEM Assets](./install-conf-guide/conf-dita-search.md)
-   - Paramètres de génération de sortie {#output-gen-config}
-      - [Configurer les paramètres de génération de sortie](./install-conf-guide/conf-output-generation.md)
-      - Configurer les paramètres de sortie du site AEM {#conf-aem-sites-output}
-         - [Téléchargement et installation de modèles AEM Sites](./install-conf-guide/download-install-aem-sites-templates.md)
-         - [Instructions générales pour personnaliser les nouveaux modèles de site AEM](./install-conf-guide/customize-existing-site-template.md)
-         - [Personnaliser une sortie de site AEM existante](./install-conf-guide/customize-aem-site-output.md)
-         - [Personnaliser le mappage des éléments DITA avec les composants AEM pour la sortie héritée du site AEM](./install-conf-guide/customize-dita-element-mapping-aem-components.md)
-         - [Recouvrez les balises HTML dans la sortie AEM Sites pour On-Premise.](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
-         - [Configurer des noms de fichiers valides pour la sortie du site AEM](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
-      - Publication native de PDF {#config-native-pdf-publish}
-         - [Modèles et styles de contenu de publication PDF natifs](./install-conf-guide/template-content-styles.md)
-         - [Modèle PDF](./native-pdf/pdf-template.md)
-         - [Composants d’un modèle PDF](./native-pdf/components-pdf-template.md)
-         - [Conception d’une mise en page](./native-pdf/design-page-layout.md)
-         - [Variables dans la sortie PDF](./native-pdf/native-pdf-variables.md)
-         - [Prise en charge des variables de langue](./native-pdf/native-pdf-language-variables.md)
-         - [Ajout d’un code à barres à la sortie PDF](./native-pdf/add-barcode.md)
-         - Styles de contenu courants {#content-styles}
-            - [Utiliser les styles de contenu courants](./native-pdf/stylesheet.md)
-            - [Utiliser les styles de barres de modification personnalisés](./native-pdf/change-bar-style.md)
-            - [Application d’un style personnalisé aux entrées de la table des matières et au contenu de la rubrique](./native-pdf/custom-style-toc.md)
-            - [Ajout d’un signet personnalisé dans la sortie PDF](./native-pdf/add-custom-bookmark.md)
-            - [Utilisation de JavaScript pour utiliser du contenu ou du style](./native-pdf/use-javascript-content-style.md)
-            - [Application de styles aux notes de bas de page](./native-pdf/footnote-number-style.md)
-         - [Configuration du nouveau moteur de publication pour le PDF natif](./native-pdf/conf-new-pdf-engine.md)
-         - [Utiliser le moteur PDF natif v2](./native-pdf/new-pdf-engine.md)
-         - [Configurer le processus de nœud pour la publication native de PDF pour Cloud Service](./native-pdf/conf-node-options-cs.md)
-         - [Configuration des indicateurs JVM pour la publication native PDF pour On-Premise](./native-pdf/conf-jvm-flags-on-prem.md)
-      - Configuration de fragments de contenu et d’expérience pour Cloud Service {#conf-content-exp-fragment}
-         - [Créer un mappage entre une rubrique et un fragment de contenu](./install-conf-guide/conf-mapping-topic-content-fragment-cs.md)
-         - [Créer un mappage entre une rubrique et un fragment d’expérience](./install-conf-guide/conf-mapping-topic-content-exp-cs.md)
-   - Personnalisation des workflows {#workflow}
-      - [Configuration et personnalisation de workflows](./install-conf-guide/conf-customize-workflows.md)
-   - Intégrations {#aemg-integrations}
-      - [Intégration d’éditeurs XML de bureau](./install-conf-guide/integrate-desktop-editors.md)
-      - [Configuration de Workfront pour Cloud Service](./install-conf-guide/conf-workfront.md)
-      - [Configuration de la traduction](./install-conf-guide/conf-translation.md)
-      - [Configurer l’initialisation de la copie de destination pour On-Premise](./install-conf-guide/conf-translation-copies-on-prem.md)
-      - [Configurer une nouvelle ligne de base pour On-Premise](./install-conf-guide/conf-new-baseline-on-prem.md)
-      - [Configuration de l’omission des liens d’homologue pour On-Premise](./install-conf-guide/conf-skip-peer-links-on-prem.md)
-      - {hide-from-toc}[Configurer de nouvelles collections de mappage pour la génération de sortie](./install-conf-guide/conf-new-map-collection-on-prem.md)
-   - Extension des fonctionnalités {#aemg-customization}
-      - [Déployer l’index personnalisé pour la fonctionnalité de recherche et de remplacement de Cloud Service](./install-conf-guide/custom-indexing-cs.md)
-      - [Réindexation pour la fonction Rechercher et remplacer dans On-Premise](./install-conf-guide/custom-indexing-on-prem.md)
-      - [Configuration de la fonctionnalité de recherche et de remplacement pour On-Premise](./install-conf-guide/conf-find-replace-on-prem.md)
-      - [Mappage des composants pour AEM Sites](./install-conf-guide/component-mapping.md)
-   - Annexe {#appendix}
-      - [Annexe](./install-conf-guide/aemg-appendix.md)
+  - [Téléchargement, installation et mise à niveau](./install-conf-guide/introduction.md)
+  - Processus d’installation de Cloud Service {#deploy-conf-aemg-cs}
+    - [Déploiement et configuration du Dispatcher](./install-conf-guide/conf-deployment-dispatcher-cs.md)
+  - Processus d’installation d’On-Premise {#deploy-conf-aemg-on-prem}
+    - [Exigences techniques](./install-conf-guide/aemg-technical-requirements.md)
+    - [Installation de Adobe Experience Manager](./install-conf-guide/download-install-aem.md)
+    - [Télécharger et installer AEM Guides pour la première fois](./install-conf-guide/download-install-aemg-first-time.md)
+    - [Configurer Dispatcher](./install-conf-guide/conf-dispatcher.md)
+    - [Désinstallation d’AEM Guides](./install-conf-guide/uninstall-aemg.md)
+  - [Vérification de l’installation d’AEM Guides](./install-conf-guide/verify-aemg-installation.md)
+  - Mettre à niveau AEM Guides {#upgrade-aemg}
+    - Cloud Service {#cloud-service}
+      - [Mettre à niveau AEM Guides Cloud Service](./install-conf-guide/download-install-upgrade-aemg.md)
+      - [Configuration supplémentaire pour la mise à niveau d’AEM Guides as a Cloud Service](./install-conf-guide/additional-config-for-upgrade.md)
+      - [Remplacements de configuration pour Cloud Service](./install-conf-guide/download-install-config-override.md)
+    - On-Premise {#on-prem}
+      - [Mettre à niveau AEM Guides On-Premise 4.6.0 et versions ultérieures](./install-conf-guide/upgrade-aemg-latest-version.md)
+      - [Mise à niveau des versions antérieures d’AEM Guides On-Premise](./install-conf-guide/upgrade-aemg-prev-versions.md)
+      - [Mises à jour de configuration pour les versions de Experience Manager Guides](./install-conf-guide/configuration-on-prem.md)
+  - Recommandations pour l’optimisation des performances {#performance-optimization-aemg}
+    - [Optimisation des performances pour Cloud Service](./install-conf-guide/perf-optimization-cs.md)
+    - [Optimisation des performances pour On-Premise](./install-conf-guide/perf-optimization-on-prem.md)
+  - Migration du contenu {#migrate-content-cs}
+    - [Migration du contenu existant](./install-conf-guide/migrate-content.md)
+    - [Charger du contenu DITA existant à l&#39;aide de Framemaker et de l&#39;outil WebDav pour On-Premise](./install-conf-guide/upload-dita-content.md)
+    - [Utiliser la commande Curl pour charger le contenu DITA](./install-conf-guide/use-curl-command.md)
+    - [Configurer le modèle de fichier UUID](./install-conf-guide/conf-uuid-filename-pattern.md)
+    - [Migration de contenu non DITA](./install-conf-guide/non-dita-content.md)
+    - [Migration de contenu d’On-premise vers Cloud Service](./install-conf-guide/migrate-on-premise-content-cloud.md)
+    - Processus de migration pour On-premise {#migration-process-on-prem}
+      - [Migration de contenu non UUID vers UUID](./install-conf-guide/uuid-non-uuid.md)
+      - [4.3.1 migration de contenu non UUID vers 4.3.2 UUID](./install-conf-guide/non-uuid-4-3.md)
+      - [migration de contenu non UUID vers 4.6.1 UUID](./install-conf-guide/non-uuid-uuid-4-6.md)
+  - DITA-OT personnalisé et spécialisation {#custom-dita-ot-cs}
+    - [Utilisation de la spécialisation DITA-OT et DITA personnalisée](./install-conf-guide/dita-ot-specialization.md)
+  - Groupes d’utilisateurs et sécurité {#user-group-sec-cs}
+    - [Gestion des utilisateurs et utilisatrices](./install-conf-guide/user-admin-sec.md)
+  - Paramètres système {#aemg-system-settings}
+    - Configurer des noms de fichier UUID et non basés sur UUID {#conf-filename}
+      - [Configurer les noms de fichier](./install-conf-guide/conf-file-names-overview.md)
+      - [Configurer des noms de fichier automatiques en fonction de l’UUID](./install-conf-guide/auto-uuid-filenames.md)
+      - [Configurer Regx pour les caractères de nom de fichier valides](./install-conf-guide/file-names-valid-regx.md)
+    - Traitement des ressources {#asset-processing}
+      - [Configuration de la fonctionnalité de traitement des ressources](./install-conf-guide/conf-asset-processing.md)
+      - [Configuration du post-traitement pour un dossier](./install-conf-guide/conf-folder-post-processing.md)
+    - [Gestion des versions](./install-conf-guide/version-management.md)
+    - [Configurer le nettoyage de l’arborescence B](./install-conf-guide/conf-btree-cleanup.md)
+    - [Configuration de la réplication des ressources DITA](./install-conf-guide/conf-dita-asset-replication.md)
+  - Configurations de l’éditeur {#editor-configs}
+    - [Personnaliser l’éditeur](./install-conf-guide/customize-overview.md)
+    - [Personnaliser la barre d’outils](./install-conf-guide/customize-toolbar.md)
+    - [Configuration d’un panneau personnalisé dans le panneau de gauche](./install-conf-guide/conf-custom-panel.md)
+    - [Configurer la valeur par défaut de la vue Balises](./install-conf-guide/conf-default-value-tags-view.md)
+    - [Générer automatiquement des identifiants d’élément](./install-conf-guide/auto-generate-element-ids.md)
+    - [Inclure l’attribut @navtitle par défaut](./install-conf-guide/auto-add-navtitle.md)
+    - [Configurer l’affichage des liens basés sur l’UUID](./install-conf-guide/conf-uuid-based-links.md)
+    - [Ouvrir la rubrique DITA ou mapper des fichiers dans le même onglet](./install-conf-guide/open-dita-files-same-tab.md)
+    - [Définir l’éditeur de carte avancé par défaut](./install-conf-guide/conf-default-map-editor.md)
+    - [Configuration de l’enregistrement automatique des fichiers dans l’éditeur](./install-conf-guide/conf-auto-save-in-editor.md)
+    - [Configurer l&#39;invite pour enregistrer en tant que nouvelle version à la fermeture](./install-conf-guide/conf-save-as-new-version-close.md)
+    - [Configurer l&#39;invite pour archiver un fichier à la fermeture](./install-conf-guide/conf-checkin-file-close.md)
+    - [Configuration des caractères spéciaux autorisés](./install-conf-guide/conf-special-chars.md)
+    - [Personnaliser le dictionnaire par défaut d’AEM](./install-conf-guide/customize-aem-default-dictionary.md)
+    - [Configuration des filtres de texte](./install-conf-guide/conf-text-filters.md)
+    - [Configurer des filtres pour la boîte de dialogue de navigation des fichiers](./install-conf-guide/conf-custom-file-filters.md)
+    - [Installation de packages pour la publication basée sur des articles](./install-conf-guide/conf-article-based-publishing.md)
+    - [Configuration de la liste d’exclusion des propriétés de métadonnées](./install-conf-guide/conf-metadata-prop.md)
+    - Paramètre de l’éditeur pour Cloud Service {#editor-cloud-settings}
+      - [Configurer les suggestions intelligentes optimisées par l’IA pour la création dans Cloud Service](./install-conf-guide/conf-smart-suggestions.md)
+      - [Configurer l’aide intelligente optimisée par l’IA pour rechercher du contenu pour Cloud Service](./install-conf-guide/conf-smart-help.md)
+      - [Configurer l’option de modification dans Oxygen for Cloud Service](./install-conf-guide/conf-edit-in-oxygen.md)
+      - [Configurer l’affichage des tableaux collés pour Cloud Service](./install-conf-guide/conf-pasted-tables.md)
+      - [Configurer la génération PDF sur une seule rubrique pour Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
+      - [Configuration de la fonctionnalité de traduction dans l’éditeur pour Cloud Service](./install-conf-guide/conf-translation-editor.md)
+      - [Création et gestion des paramètres prédéfinis de contrôle de l’intégrité](./install-conf-guide/conf-health-check-preset.md)
+    - Paramètre de l’éditeur pour On-Premise {#editor-on-prem-settings}
+      - [Configurer un nouvel éditeur](./install-conf-guide/conf-new-editor-on-prem.md)
+      - [Configuration de caractères spéciaux supplémentaires pour On-Premise](/help/product-guide/web-editor/conf-additional-special-characters.md)
+      - [Configurez le titre des icônes Archiver et Extraire pour On-Premise](./install-conf-guide/conf-checkin-checkout-title.md)
+      - [Configurer le nombre de LimitReads pour une requête On-Premise](./install-conf-guide/conf-query-limitreads.md)
+    - Connecteur de source de données {#data-source}
+      - [Configuration d’un connecteur de source de données à partir de l’interface utilisateur](./install-conf-guide/conf-data-source-connector-tools.md)
+      - {hide-from-toc}[Configuration d’un connecteur de source de données pour Cloud Service](./install-conf-guide/conf-data-source-connector-cs.md)
+      - {hide-from-toc}[Créer et configurer le connecteur Git à partir de l’interface utilisateur](./install-conf-guide/conf-git-connector.md)
+  - Profils globaux et au niveau du dossier {#global-folder-profiles}
+    - [Configuration de profils globaux ou de niveau dossier](./install-conf-guide/conf-profiles.md)
+  - Modèles de rubrique et de carte {#topic-map-template}
+    - [Configurer les modèles de rubrique et de mappage](./install-conf-guide/conf-template-tags.md)
+    - [Configurer un modèle de rubrique DITA personnalisé](./install-conf-guide/conf-template-tags-custom-dita-topic-template.md)
+    - [Configurer un modèle de plan DITA personnalisé](./install-conf-guide/conf-template-tags-custom-dita-map-templates.md)
+  - États du document {#doc-state}
+    - [Configurer les états du document](./install-conf-guide/customize-doc-state.md)
+    - [Configurer des filtres d’état de document pour Cloud Service](./install-conf-guide/conf-doc-state-filters.md)
+  - Configuration des paramètres de Workspace {#workspace-configs}
+    - [Paramètres &#x200B;](./install-conf-guide/workspace-settings.md)
+  - Recherche AEM Assets {#aem-asset-search}
+    - [Configuration de la recherche pour l’interface utilisateur d’AEM Assets](./install-conf-guide/conf-dita-search.md)
+  - Paramètres de génération de sortie {#output-gen-config}
+    - [Configurer les paramètres de génération de sortie](./install-conf-guide/conf-output-generation.md)
+    - Configurer les paramètres de sortie du site AEM {#conf-aem-sites-output}
+      - [Téléchargement et installation de modèles AEM Sites](./install-conf-guide/download-install-aem-sites-templates.md)
+      - [Instructions générales pour personnaliser les nouveaux modèles de site AEM](./install-conf-guide/customize-existing-site-template.md)
+      - [Personnaliser une sortie de site AEM existante](./install-conf-guide/customize-aem-site-output.md)
+      - [Personnaliser le mappage des éléments DITA avec les composants AEM pour la sortie héritée du site AEM](./install-conf-guide/customize-dita-element-mapping-aem-components.md)
+      - [Recouvrez les balises HTML dans la sortie AEM Sites pour On-Premise.](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
+      - [Configurer des noms de fichiers valides pour la sortie du site AEM](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
+    - Publication native de PDF {#config-native-pdf-publish}
+      - [Modèles et styles de contenu de publication PDF natifs](./install-conf-guide/template-content-styles.md)
+      - [Modèle PDF](./native-pdf/pdf-template.md)
+      - [Composants d’un modèle PDF](./native-pdf/components-pdf-template.md)
+      - [Conception d’une mise en page](./native-pdf/design-page-layout.md)
+      - [Variables dans la sortie PDF](./native-pdf/native-pdf-variables.md)
+      - [Prise en charge des variables de langue](./native-pdf/native-pdf-language-variables.md)
+      - [Ajout d’un code à barres à la sortie PDF](./native-pdf/add-barcode.md)
+      - Styles de contenu courants {#content-styles}
+        - [Utiliser les styles de contenu courants](./native-pdf/stylesheet.md)
+        - [Utiliser les styles de barres de modification personnalisés](./native-pdf/change-bar-style.md)
+        - [Application d’un style personnalisé aux entrées de la table des matières et au contenu de la rubrique](./native-pdf/custom-style-toc.md)
+        - [Ajout d’un signet personnalisé dans la sortie PDF](./native-pdf/add-custom-bookmark.md)
+        - [Utilisation de JavaScript pour utiliser du contenu ou du style](./native-pdf/use-javascript-content-style.md)
+        - [Application de styles aux notes de bas de page](./native-pdf/footnote-number-style.md)
+      - [Configuration du nouveau moteur de publication pour le PDF natif](./native-pdf/conf-new-pdf-engine.md)
+      - [Utiliser le moteur PDF natif v2](./native-pdf/new-pdf-engine.md)
+      - [Configurer le processus de nœud pour la publication native de PDF pour Cloud Service](./native-pdf/conf-node-options-cs.md)
+      - [Configuration des indicateurs JVM pour la publication native PDF pour On-Premise](./native-pdf/conf-jvm-flags-on-prem.md)
+    - Configuration de fragments de contenu et d’expérience pour Cloud Service {#conf-content-exp-fragment}
+      - [Créer un mappage entre une rubrique et un fragment de contenu](./install-conf-guide/conf-mapping-topic-content-fragment-cs.md)
+      - [Créer un mappage entre une rubrique et un fragment d’expérience](./install-conf-guide/conf-mapping-topic-content-exp-cs.md)
+  - Personnalisation des workflows {#workflow}
+    - [Configuration et personnalisation de workflows](./install-conf-guide/conf-customize-workflows.md)
+  - Intégrations {#aemg-integrations}
+    - [Intégration d’éditeurs XML de bureau](./install-conf-guide/integrate-desktop-editors.md)
+    - [Configuration de Workfront pour Cloud Service](./install-conf-guide/conf-workfront.md)
+    - [Configuration de la traduction](./install-conf-guide/conf-translation.md)
+    - [Configurer l’initialisation de la copie de destination pour On-Premise](./install-conf-guide/conf-translation-copies-on-prem.md)
+    - [Configurer une nouvelle ligne de base pour On-Premise](./install-conf-guide/conf-new-baseline-on-prem.md)
+    - [Configuration de l’omission des liens d’homologue pour On-Premise](./install-conf-guide/conf-skip-peer-links-on-prem.md)
+    - {hide-from-toc}[Configurer de nouvelles collections de mappage pour la génération de sortie](./install-conf-guide/conf-new-map-collection-on-prem.md)
+    - [Utilisation du serveur Experience Manager Guides MCP](./install-conf-guide/conf-aem-guides-mcp.md)
+  - Extension des fonctionnalités {#aemg-customization}
+    - [Déployer l’index personnalisé pour la fonctionnalité de recherche et de remplacement de Cloud Service](./install-conf-guide/custom-indexing-cs.md)
+    - [Réindexation pour la fonction Rechercher et remplacer dans On-Premise](./install-conf-guide/custom-indexing-on-prem.md)
+    - [Configuration de la fonctionnalité de recherche et de remplacement pour On-Premise](./install-conf-guide/conf-find-replace-on-prem.md)
+    - [Index des rubriques dans une tâche de révision](./install-conf-guide/index-review-tasks.md)
+    - [Mappage des composants pour AEM Sites](./install-conf-guide/component-mapping.md)
+    - [Configuration des paramètres prédéfinis de modèle pour la génération de sortie](./install-conf-guide/template-presets-output-generation.md)
+  - Annexe {#appendix}
+    - [Annexe](./install-conf-guide/aemg-appendix.md)
 
 - Référence d’API {#api-reference}
-   - [Présentation](./api-reference/introduction.md)
-   - [API REST pour la gestion des sorties](./api-reference/output-management.md)
-   - [API REST pour utiliser les plans DITA](./api-reference/dita-map-management.md)
-   - [API REST pour enregistrer un connecteur de source de données](./api-reference/data-source-connector.md)
-   - [API REST pour utiliser des attributs conditionnels](./api-reference/conditional-attribute.md)
-   - [API REST pour le workflow de conversion](./api-reference/convert-to-dita.md)
-   - [API REST pour créer et activer des packages](./api-reference/create-activate-package.md)
-   - [Gestionnaire d&#39;événements de post-traitement](./api-reference/post-process-event.md)
-   - [API pour effectuer le suivi de l’état de post-traitement d’un dossier ou d’une ressource](./api-reference/track-post-processing-status.md)
-   - [API pour démarrer le traitement en bloc des ressources](./api-reference/bulk-assets-processing.md)
-   - [Gestionnaire d’événements d’activation en bloc terminée](./api-reference/bulk-activation-complete-event.md)
-   - [Gestionnaire d&#39;événements de processus de conversion](./api-reference/conversion-complete-event.md)
-   - [Créer un projet de traduction](./api-reference/translation-project.md)
+  - [Présentation](./api-reference/introduction.md)
+  - [Mises à jour des API pour les versions de Experience Manager Guides](./api-reference/api-update-swagger.md)
+  - [API REST pour la gestion des sorties](./api-reference/output-management.md)
+  - [API REST pour utiliser les plans DITA](./api-reference/dita-map-management.md)
+  - [API REST pour enregistrer un connecteur de source de données](./api-reference/data-source-connector.md)
+  - [API REST pour utiliser des attributs conditionnels](./api-reference/conditional-attribute.md)
+  - [API REST pour le workflow de conversion](./api-reference/convert-to-dita.md)
+  - [API REST pour créer et activer des packages](./api-reference/create-activate-package.md)
+  - [Gestionnaire d&#39;événements de post-traitement](./api-reference/post-process-event.md)
+  - [API pour effectuer le suivi de l’état de post-traitement d’un dossier ou d’une ressource](./api-reference/track-post-processing-status.md)
+  - [API pour démarrer le traitement en bloc des ressources](./api-reference/bulk-assets-processing.md)
+  - [Gestionnaire d’événements d’activation en bloc terminée](./api-reference/bulk-activation-complete-event.md)
+  - [Gestionnaire d&#39;événements de processus de conversion](./api-reference/conversion-complete-event.md)
+  - [Créer un projet de traduction](./api-reference/translation-project.md)
 - Knowledge Base {#knowledge-base}
-   - Session d’experts {#expert-session}
-      - [Présentation de la session d’experts](./knowledge-base/expert-sessions/expert-session.md)
-      - [Traduction du contenu](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
-      - [Gérer le contenu à l’aide de lignes de base](./knowledge-base/expert-sessions/baselines-dec22.md)
-      - [Créer du contenu web](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
-      - [Principes de publication natifs de PDF](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
-      - [Rapports dans AEM Guides](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
-      - [Configuration du contenu et des modèles](./knowledge-base/expert-sessions/content-and-template-setup-apr2023.md)
-      - [Apprendre la publication native de PDF - Partie 1](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
-      - [Apprendre la publication native sur PDF - Main dans la main - BYOS](./knowledge-base/expert-sessions/native-pdf-publishing-hands-on-lab-sep2023.md)
-      - [Framework d’extension d’AEM Guides](./knowledge-base/expert-sessions/guides-extension-framework-nov2023.md)
-      - [Intégration de la source de données externe](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
-      - [Traduction du contenu dans les guides - Partie 2](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
-      - [Définition, gestion et utilisation des métadonnées](./knowledge-base/expert-sessions/metadata-define-manage-utilize-may2024.md)
-      - [Variantes de sortie AEM Sites](./knowledge-base/expert-sessions/aem-site-output-variations-jun2024.md)
-      - [Options de déploiement et migration vers le cloud](./knowledge-base/expert-sessions/migration-uuid-onprem-to-cloud.md)
-      - [Migrer le contenu non-uuid vers UUID](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
-      - [Migration du contenu Delta](./knowledge-base/expert-sessions/migration-delta-content.md)
-      - [Publication PDF plus intelligente avec le PDF natif](./knowledge-base//expert-sessions/smarter-pdf-publishing-with-native-pdf.md)
-      - [Nouvelles fonctionnalités d’expérience utilisateur et d’IA dans AEM Guides](./knowledge-base/expert-sessions/new-ux-and-ai-capabilities.md)
-      - [Publication dans AEM Guides](./knowledge-base/expert-sessions/publishing-in-aem-guides-aug25.md)
-      - [Révision de contenu dans AEM Guides](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
-   - Articles {#kb-articles}
-      - [Vue d’ensemble](./knowledge-base/kb-articles/introduction.md)
-      - Création {#authoring}
-         - Éditeur {#webeditor}
-            - [Réutilisation du contenu dans AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
-            - [Utiliser Markdown dans AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/markdown-in-dita-and-aem-guides.md)
-            - Personnalisation {#customizing}
-               - [Ajout d’un bouton personnalisé à la barre d’outils](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
-               - [Ajout de styles personnalisés à l’éditeur](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
-               - [Personnaliser le menu contextuel du dossier](./knowledge-base/kb-articles/authoring/webeditor/customization/hide-create-ditamap-webeditor.md)
-               - [Personnaliser le menu contextuel du fichier](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
-            - Schematron {#schematron}
-               - [Validation du schéma](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
-         - Rapports {#reports}
-            - [Gestion des métadonnées pour le contenu DITA](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
-         - [Icône Définir pour les types de données personnalisés](./knowledge-base/kb-articles/authoring/define-icon-for-custom-ditatypes.md)
-      - Framework d’extension des guides {#extention-framework}
-         - Framework Aem Guides {#aem-guides-framework}
-            - [Personnalisations de base](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
-            - [Framework JUI](./guides-ui-extensions/aem_guides_framework/jui-framework.md)
-            - Composants {#framework-components}
-               - [Bouton](./guides-ui-extensions/aem_guides_framework/components/button.md)
-               - [Icône](./guides-ui-extensions/aem_guides_framework/components/icon.md)
-               - [Libellé](./guides-ui-extensions/aem_guides_framework/components/label.md)
-               - [Liste](./guides-ui-extensions/aem_guides_framework/components/list.md)
-               - [Zone de texte](./guides-ui-extensions/aem_guides_framework/components/textarea.md)
-            - Widgets {#framework-widgets}
-               - [Widgets de rendu](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
-               - [Widgets de base](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
-            - [Modifications de la structure d’extension pour l’éditeur 2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md)
-         - Prise en main {#getting-started}
-            - [Présentation](./guides-ui-extensions/getting-started/introduction.md)
-            - [Guide d’installation](./guides-ui-extensions/getting-started/integrating-customisations.md)
-            - [Présentation du référentiel d’extension](./guides-ui-extensions/getting-started/extension-repo-intro.md)
-         - Personnalisations {#customisations}
-            - [Personnalisation simple](./guides-ui-extensions/customisations/add-button.md)
-            - [Personnalisation des menus contextuels](./guides-ui-extensions/customisations/context-menus.md)
-            - [Personnalisation de la barre d’outils et de la barre supérieure](./guides-ui-extensions/customisations/toolbar-topbar.md)
-            - [Exemples](./guides-ui-extensions/examples.md)
-            - [Json personnalisables](./guides-ui-extensions/jsons.md)
-            - Révision{#review-app-customisations}
-               - [Composants](./guides-ui-extensions/customisations/ReviewApp/components.md)
-               - [Personnalisation](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
-               - [Boîte de dialogue personnalisée](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
-      - Source de données externe {#external-data-source}
-         - [Intégration des sources de données](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
-         - [Configuration d’un connecteur de source de données](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
-      - Publication {#publishing}
-         - PDF natif {#native-pdf}
-            - [Ajouter des polices personnalisées à votre PDF natif DITA](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
-            - [Configuration de l’environnement AEM pour la publication native de PDF](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-            - [Ajout de l’image de marque d’entreprise à la première page d’un PDF](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
-            - [Générer la table des matières de la liasse dans la publication native de PDF](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
-         - DITA-OT {#dita-ot}
-            - [Utilisation des métadonnées AEM dans le plug-in](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
-            - [Configurer un DITA-OT personnalisé](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
-         - Modèles AEM Sites {#aem-site-templates}
-            - [Télécharger et installer des modèles AEM Sites pour les services cloud](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-cs-kb.md)
-            - [Télécharger et installer des modèles AEM Sites pour les services On-Premise](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-prem-kb.md)
-            - [Personnaliser les modèles AEM Sites existants](./knowledge-base/kb-articles/publishing/customize-exsisting-site-template-kb.md)
-         - [FMPS et guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
-         - [Architecture et performances des microservices](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
-         - [Configuration de la publication basée sur les microservices avec l’authentification JWT](./knowledge-base/publishing/configure-microservices.md)
-         - [Configuration de la publication basée sur les microservices avec l’authentification OAuth](./knowledge-base/publishing/configure-microservices-imt-config.md)
-         - [Configuration de Edge Delivery Services](./knowledge-base/publishing/configure-eds.md)
-         - [Publication de références sur le cloud AEM](./knowledge-base/publishing/publishing-benchmarks-on-aem-cloud.md)
-      - Workflows {#workflows}
-         - [Workflow de post-génération](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
-      - Traduction {#translation}
-         - [Bonnes pratiques pour améliorer les performances de traduction](./knowledge-base/kb-articles/translation/increase-translation-performance-aem-guides.md)
-         - [Exclure des paragraphes de la traduction](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
-      - Cas d’utilisation {#use-cases}
-         - [Utilisation de contenu conditionnel](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
-         - [Utilisation des clés](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-         - [Activation des variables de contenu contextuel (CCVAR) dans les pages AEM Sites générées à partir d’AEM Guides](./knowledge-base/kb-articles/publishing/enabling-contextual-content-variables-in-aem-sites-via-aemguides.md)
-   - {hide-from-toc}[Utiliser un connecteur d&#39;oxygène](./oxygen-connector/use-aem-connector.md)
+  - Session d’experts {#expert-session}
+    - [Présentation de la session d’experts](./knowledge-base/expert-sessions/expert-session.md)
+    - [Traduction du contenu](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
+    - [Gérer le contenu à l’aide de lignes de base](./knowledge-base/expert-sessions/baselines-dec22.md)
+    - [Créer du contenu web](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
+    - [Principes de publication natifs de PDF](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
+    - [Rapports dans AEM Guides](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
+    - [Configuration du contenu et des modèles](./knowledge-base/expert-sessions/content-and-template-setup-apr2023.md)
+    - [Apprendre la publication native de PDF - Partie 1](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
+    - [Apprendre la publication native sur PDF - Main dans la main - BYOS](./knowledge-base/expert-sessions/native-pdf-publishing-hands-on-lab-sep2023.md)
+    - [Framework d’extension d’AEM Guides](./knowledge-base/expert-sessions/guides-extension-framework-nov2023.md)
+    - [Intégration de la source de données externe](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
+    - [Traduction du contenu dans les guides - Partie 2](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
+    - [Définition, gestion et utilisation des métadonnées](./knowledge-base/expert-sessions/metadata-define-manage-utilize-may2024.md)
+    - [Variantes de sortie AEM Sites](./knowledge-base/expert-sessions/aem-site-output-variations-jun2024.md)
+    - [Options de déploiement et migration vers le cloud](./knowledge-base/expert-sessions/migration-uuid-onprem-to-cloud.md)
+    - [Migrer le contenu non-uuid vers UUID](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
+    - [Migration du contenu Delta](./knowledge-base/expert-sessions/migration-delta-content.md)
+    - [Publication PDF plus intelligente avec le PDF natif](./knowledge-base//expert-sessions/smarter-pdf-publishing-with-native-pdf.md)
+    - [Nouvelles fonctionnalités d’expérience utilisateur et d’IA dans AEM Guides](./knowledge-base/expert-sessions/new-ux-and-ai-capabilities.md)
+    - [Publication dans AEM Guides](./knowledge-base/expert-sessions/publishing-in-aem-guides-aug25.md)
+    - [Révision de contenu dans AEM Guides](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
+  - Articles {#kb-articles}
+    - [Vue d’ensemble](./knowledge-base/kb-articles/introduction.md)
+    - Création {#authoring}
+      - Éditeur {#webeditor}
+        - [Réutilisation du contenu dans AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
+        - [Utiliser Markdown dans AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/markdown-in-dita-and-aem-guides.md)
+        - Personnalisation {#customizing}
+          - [Ajout d’un bouton personnalisé à la barre d’outils](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
+          - [Ajout de styles personnalisés à l’éditeur](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
+          - [Personnaliser le menu contextuel du dossier](./knowledge-base/kb-articles/authoring/webeditor/customization/hide-create-ditamap-webeditor.md)
+          - [Personnaliser le menu contextuel du fichier](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
+        - Schematron {#schematron}
+          - [Validation du schéma](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
+      - Rapports {#reports}
+        - [Gestion des métadonnées pour le contenu DITA](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
+      - [Icône Définir pour les types de données personnalisés](./knowledge-base/kb-articles/authoring/define-icon-for-custom-ditatypes.md)
+    - Framework d’extension des guides {#extention-framework}
+      - Framework Aem Guides {#aem-guides-framework}
+        - [Personnalisations de base](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+        - [Framework JUI](./guides-ui-extensions/aem_guides_framework/jui-framework.md)
+        - Composants {#framework-components}
+          - [Bouton](./guides-ui-extensions/aem_guides_framework/components/button.md)
+          - [Icône](./guides-ui-extensions/aem_guides_framework/components/icon.md)
+          - [Libellé](./guides-ui-extensions/aem_guides_framework/components/label.md)
+          - [Liste](./guides-ui-extensions/aem_guides_framework/components/list.md)
+          - [Zone de texte](./guides-ui-extensions/aem_guides_framework/components/textarea.md)
+        - Widgets {#framework-widgets}
+          - [Widgets de rendu](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
+          - [Widgets de base](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
+        - [Modifications de la structure d’extension pour l’éditeur 2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md)
+        - [Migration de la structure d’extension vers l’éditeur 2.0](./guides-ui-extensions/getting-started/migrating-extensions-new-editor.md)
+      - Prise en main {#getting-started}
+        - [Présentation](./guides-ui-extensions/getting-started/introduction.md)
+        - [Guide d’installation](./guides-ui-extensions/getting-started/integrating-customisations.md)
+        - [Présentation du référentiel d’extension](./guides-ui-extensions/getting-started/extension-repo-intro.md)
+      - Personnalisations {#customisations}
+        - [Personnalisation simple](./guides-ui-extensions/customisations/add-button.md)
+        - [Personnalisation des menus contextuels](./guides-ui-extensions/customisations/context-menus.md)
+        - [Personnalisation de la barre d’outils et de la barre supérieure](./guides-ui-extensions/customisations/toolbar-topbar.md)
+        - [Exemples](./guides-ui-extensions/examples.md)
+        - [Json personnalisables](./guides-ui-extensions/jsons.md)
+        - Révision{#review-app-customisations}
+          - [Composants](./guides-ui-extensions/customisations/ReviewApp/components.md)
+          - [Personnalisation](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
+          - [Boîte de dialogue personnalisée](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
+    - Source de données externe {#external-data-source}
+      - [Intégration des sources de données](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
+      - [Configuration d’un connecteur de source de données](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
+    - Publication {#publishing}
+      - PDF natif {#native-pdf}
+        - [Ajouter des polices personnalisées à votre PDF natif DITA](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
+        - [Configuration de l’environnement AEM pour la publication native de PDF](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+        - [Ajout de l’image de marque d’entreprise à la première page d’un PDF](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
+        - [Générer la table des matières de la liasse dans la publication native de PDF](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+      - DITA-OT {#dita-ot}
+        - [Utilisation des métadonnées AEM dans le plug-in](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
+        - [Configurer un DITA-OT personnalisé](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
+      - Modèles AEM Sites {#aem-site-templates}
+        - [Télécharger et installer des modèles AEM Sites pour les services cloud](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-cs-kb.md)
+        - [Télécharger et installer des modèles AEM Sites pour les services On-Premise](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-prem-kb.md)
+        - [Personnaliser les modèles AEM Sites existants](./knowledge-base/kb-articles/publishing/customize-exsisting-site-template-kb.md)
+      - [FMPS et guides](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
+      - [Architecture et performances des microservices](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
+      - [Configuration de la publication basée sur les microservices avec l’authentification JWT](./knowledge-base/publishing/configure-microservices.md)
+      - [Configuration de la publication basée sur les microservices avec l’authentification OAuth](./knowledge-base/publishing/configure-microservices-imt-config.md)
+      - [Configuration de Edge Delivery Services](./knowledge-base/publishing/configure-eds.md)
+      - [Publication de références sur le cloud AEM](./knowledge-base/publishing/publishing-benchmarks-on-aem-cloud.md)
+    - Workflows {#workflows}
+      - [Workflow de post-génération](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+    - Traduction {#translation}
+      - [Bonnes pratiques pour améliorer les performances de traduction](./knowledge-base/kb-articles/translation/increase-translation-performance-aem-guides.md)
+      - [Exclure des paragraphes de la traduction](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
+    - Cas d’utilisation {#use-cases}
+      - [Utilisation de contenu conditionnel](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
+      - [Utilisation des clés](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
+      - [Activation des variables de contenu contextuel (CCVAR) dans les pages AEM Sites générées à partir d’AEM Guides](./knowledge-base/kb-articles/publishing/enabling-contextual-content-variables-in-aem-sites-via-aemguides.md)
+  - {hide-from-toc}[Utiliser un connecteur d&#39;oxygène](./oxygen-connector/use-aem-connector.md)

@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: e5812ebac255dc10f4b6bf7287cfaede92354e70
 workflow-type: tm+mt
-source-wordcount: 1233
+source-wordcount: 1526
 ht-degree: 0%
 
 ---
@@ -51,9 +51,9 @@ Dans l’éditeur, le panneau de droite contient les icônes Vérifier et Suivre
 
 - **B :** sélectionnez **Détails de la révision** ![](images/active-review-info-icon.svg) dans le panneau **Commentaires** pour afficher plus d’informations sur la tâche de révision :
 
-   - **Nom** : nom de la tâche de révision .
-   - **Version de révision** : affiche la version associée à la tâche de révision sélectionnée. Cela vous permet de conserver une trace de la version que vous avez partagée pour révision
-   - **Statut** : statut actuel de la tâche de révision.
+  - **Nom** : nom de la tâche de révision .
+  - **Version de révision** : affiche la version associée à la tâche de révision sélectionnée. Cela vous permet de conserver une trace de la version que vous avez partagée pour révision
+  - **Statut** : statut actuel de la tâche de révision.
 
   >[!NOTE]
   >
@@ -90,7 +90,8 @@ Dans l’éditeur, le panneau de droite contient les icônes Vérifier et Suivre
 - **I** : appliquer un filtre sur les commentaires. Vous pouvez filtrer les commentaires selon le type de révision \(tous, mis en surbrillance, supprimé, inséré ou pense-bête\), le statut de révision \(tous, acceptés, rejetés ou aucun\), les réviseurs \(tous ou certains réviseurs\(s\)\) ou les versions de rubrique. Par défaut, aucun filtre n’est sélectionné.
 
   ![](images/review-comments-author-filter.png){width="350"}
-  **Répondre à un commentaire en identifiant d’autres utilisateurs**
+
+**Répondre à un commentaire en identifiant d’autres utilisateurs**
 
 En tant qu’auteur et initiateur de la tâche de révision, vous pouvez répondre aux commentaires de révision et baliser les autres utilisateurs impliqués dans la même tâche de révision pour diriger leur attention ou attribuer des suivis. Cette fonctionnalité est disponible uniquement pour les tâches de révision actives.
 
@@ -108,5 +109,28 @@ Les utilisateurs identifiés reçoivent à la fois un e-mail et une notification
 Si vous êtes l’initiateur ou l’auteur d’une tâche de révision et que vous l’ouvrez à partir de la console **Projets**, la rubrique se lance dans l’interface utilisateur de révision. Comme cette tâche ne vous est pas affectée, vous pouvez afficher les commentaires et y répondre, mais vous ne pouvez effectuer aucune action de révision. La barre d’outils des commentaires reste désactivée pour les utilisateurs qui ne sont pas affectés à la tâche.
 
 ![](images/review-comments-toolbar-disabled.png){width="350"}
+
+## Afficher toutes les tâches de révision pour une rubrique
+
+>[!NOTE]
+>
+> Cette fonctionnalité est activée par défaut. Si vous préférez ne pas utiliser cette fonctionnalité dans votre environnement, contactez votre équipe du succès client.
+
+Cette fonctionnalité vous permet de sélectionner une tâche de révision (ouverte ou fermée) associée à la rubrique actuellement ouverte dans le panneau Commentaires. Lorsqu’il est activé, le panneau Commentaires de l’interface utilisateur de la révision comprend une liste déroulante répertoriant chaque tâche de révision dont fait partie la rubrique, ainsi que l’état de chaque tâche (active ou fermée) et le projet auquel elle appartient. La tâche sur laquelle vous travaillez actuellement est marquée par une balise **Current** par défaut.
+
+![](./images/review-task-selection-dropdpwn.png){width="350"}
+
+Dans le menu déroulant Tâche de révision , vous pouvez sélectionner l’une de ces tâches et parcourir ses commentaires, sans changer de projet de révision. Vous pouvez également sélectionner l’icône **(i)** en regard d’une tâche dans la liste déroulante pour afficher les détails de la tâche.
+
+>[!NOTE]
+>
+> Si une tâche de révision que vous prévoyez d’afficher n’apparaît pas dans la liste déroulante, c’est peut-être parce que la tâche a été créée avant l’activation de cette fonctionnalité sur votre instance. Contactez votre administrateur pour résoudre le problème en [Réalisez l’indexation afin d’inclure toutes les tâches de révision d’une rubrique dans le panneau Commentaires](../install-conf-guide/index-review-tasks.md).
+
+Lors de l’utilisation de cette fonctionnalité, notez que :
+
+- Le fait de passer à une autre rubrique dans l’éditeur réinitialise le panneau sur la tâche actuelle dans les commentaires
+- Si vous sélectionnez une tâche autre que la tâche en cours, la version de la tâche en question et ses commentaires s&#39;ouvrent en mode lecture seule. Vous pouvez afficher les commentaires, mais vous ne pouvez pas les modifier, les accepter ou les rejeter, et l’option **Importer** est désactivée. Seuls les commentaires de la tâche en cours peuvent être importés dans votre copie de travail.
+- Le filtrage et la recherche s’appliquent uniquement aux commentaires de la tâche que vous avez sélectionnée ; les commentaires des autres tâches non sélectionnées ne sont pas affectés.
+
 
 **Rubrique parente :**&#x200B;[&#x200B; Présentation de la révision](review.md)

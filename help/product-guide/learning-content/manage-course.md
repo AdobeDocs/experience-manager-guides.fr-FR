@@ -13,9 +13,9 @@ feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: 709
+source-wordcount: 740
 ht-degree: 0%
 
 ---
@@ -47,11 +47,16 @@ Le contenu sélectionné est créé et ajouté au cours. Pour une présentation 
 Vous pouvez ajouter du contenu existant de votre référentiel de contenu à votre cours. Pour ajouter du contenu existant, procédez comme suit :
 
 1. Sélectionnez le menu **Options** > **Ajouter un existant**.
-2. Sélectionnez le type de contenu de cours que vous souhaitez créer.
-3. Dans la boîte de dialogue **Sélectionner un fichier**, accédez à l’emplacement du contenu et sélectionnez le contenu d’apprentissage souhaité.
+1. Sélectionnez le type de contenu de cours que vous souhaitez créer.
+1. Dans la boîte de dialogue **Sélectionner un fichier**, accédez à l’emplacement du contenu et sélectionnez le contenu d’apprentissage souhaité.
 
-   ![](assets/add-existing-learning-content.png)
-4. Choisissez **Sélectionner**.
+>[!NOTE]
+>
+> Lorsque vous ajoutez une rubrique HTML à un mappage de groupes d’apprentissage, l’attribut `format="html"` est automatiquement ajouté au `topicref` correspondant dans le mappage. Cela permet de s’assurer que la rubrique est traitée et publiée correctement.
+
+![](assets/add-existing-learning-content.png)
+
+1. Choisissez **Sélectionner**.
 
 Le contenu du cours sélectionné est ajouté au cours à partir du référentiel.
 

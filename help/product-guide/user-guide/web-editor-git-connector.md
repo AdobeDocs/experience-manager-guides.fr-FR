@@ -1,6 +1,6 @@
 ---
-title: Importez du contenu à partir de référentiels Git avec le connecteur Git (Beta) dans Experience Manager Guides
-description: Découvrez comment le connecteur Git (Beta) de Experience Manager Guides vous permet d’importer du contenu des référentiels Git, de récupérer à nouveau les mises à jour, de conserver les GUID et de gérer les conflits.
+title: Présentation du connecteur Git dans Experience Manager Guides
+description: Découvrez la fonction du connecteur Git dans Experience Manager Guides, ses fonctionnalités essentielles et la manière dont le contenu passe d’un référentiel Git à votre workflow AEM Guides.
 feature: Authoring, Features of Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/DDAXW8cUFjvHUeJIbtL6FaHYSU7NW5fkzTai-7n90ms
@@ -18,22 +18,67 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 5f626c210e74c6d11e2441f719cfbfeb33bf55c5
+source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
 workflow-type: tm+mt
-source-wordcount: 941
+source-wordcount: 1352
 ht-degree: 0%
 
 ---
 
-# Importer du contenu à l’aide du connecteur Git (Beta)
+# Importer du contenu à l’aide du connecteur Git
 
->[!IMPORTANT]
+>[!NOTE]
 >
-> Le connecteur Git est actuellement disponible en tant que fonctionnalité Beta et est désactivé par défaut. Pour activer cette fonctionnalité, contactez l’équipe du succès client.
+> Cette fonction est désactivée par défaut. Pour l’activer dans votre environnement, contactez votre équipe du succès client.
 
-Le connecteur Git vous permet d’importer du contenu des référentiels Git connectés dans Experience Manager Guides. Une fois le contenu importé, vous pouvez utiliser les fonctions de création, de révision, de traduction et de publication de Experience Manager Guides pour développer et diffuser de la documentation.
+Le connecteur Git vous permet d’[importer du contenu des référentiels Git connectés dans Experience Manager Guides](#import-content-from-the-connected-git-repository). Une fois le contenu importé, vous pouvez utiliser les fonctions de création, de révision, de traduction et de publication de Experience Manager Guides pour développer et diffuser de la documentation.
 
 Lorsque le contenu change dans le référentiel source, vous pouvez récupérer les mises à jour, examiner les conflits et synchroniser les dernières modifications avec Experience Manager Guides.
+
+## Fonctionnalités clés
+
+Le connecteur Git permet aux auteurs d’extraire directement du contenu d’un référentiel Git dans Experience Manager Guides, sans transfert manuel de fichiers. Une fois configurées, les créatrices ont accès aux fonctionnalités suivantes.
+
+**Ingestion de contenu**
+
+- Synchronise les fichiers de n’importe quel référentiel Git (public ou privé) dans Experience Manager Guides.
+- Filtre par chemin d’accès au dossier source afin d’ingérer un seul sous-répertoire au lieu d’un référentiel entier.
+- Utilise un moteur de règles `gitignore-aware` pour ignorer automatiquement les fichiers exclus par des modèles de `.gitignore` ou des règles personnalisées.
+- Conserve les GUID lors de la resynchronisation pour conserver les références croisées DITA existantes intactes après une mise à jour.
+
+**Synchronisation incrémentielle (delta)**
+
+- Effectue le suivi de la dernière validation synchronisée et récupère uniquement les fichiers qui ont été ajoutés, modifiés ou supprimés lors des synchronisations suivantes, au lieu de réimporter l’intégralité du référentiel.
+- Génère un rapport delta répertoriant chaque fichier modifié et son type de modification avant l’importation.
+- Maintient des temps de récupération cohérents quelle que soit la taille du référentiel. Pour obtenir des données de référence, voir [Références de performance](#performance-benchmarks).
+
+## Fonctionnement du connecteur Git
+
+Le diagramme suivant montre comment le connecteur Git déplace le contenu d’un référentiel source vers Experience Manager Guides.
+
+![](./images/git-connector-arch.png)
+
+Le connecteur Git déplace le contenu d’un référentiel Git vers Experience Manager Guides en quatre étapes :
+
+1. **Explorer et synchroniser** : un robot d&#39;exploration se connecte à votre référentiel Git et à votre profil configurés, et synchronise le contenu dans le connecteur à la demande.
+1. **Ingérer et détecter les conflits** : les fichiers entrants sont analysés et hachés par rapport à ce qui se trouve déjà dans Experience Manager Guides. Les fichiers sans modifications en conflit sont transférés automatiquement ; les fichiers avec des modifications en conflit sont marqués pour une résolution manuelle.
+1. **Persistance** : le contenu résolu est traité et enregistré dans AEM, avec vos autres contenus Experience Manager Guides.
+1. **Workflow Experience Manager Guides** : une fois conservé, le contenu est disponible comme tout autre contenu Experience Manager Guides pour la création, la révision, la traduction et la publication.
+
+## Références de performances
+
+Les références suivantes affichent des temps de synchronisation complets (non incrémentiels) **Importateur en bloc** sur Experience Manager as a Cloud Service, à une échelle de référentiel croissante.
+
+| Échelle | Heure de récupération | Heure d’import | Durée totale | Lots | Débit |
+|---|---|---|---|---|---|
+| 1 000 fichiers | 1m 53s | 3m 30s | 5m 29s | 10 × 100 | ~286 fichiers/min |
+| 5 000 fichiers | 1m 55s | 18m 21s | 20m 27s | 20 × 250 | ~273 fichiers/min |
+| 10 000 fichiers | 1m 39s | 36 m 22 s | 37 m 24 s | 40 × 250 | ~267 fichiers/min |
+| 50 000 fichiers | 1m 25s | 2h 43m | 2h 58m | 200 × 250 | ~270 fichiers/min |
+
+## Importer du contenu à l’aide du connecteur Git
+
+Une fois que votre administrateur a configuré le connecteur Git dans Experience Manager Guides, vous pouvez l’utiliser à partir de l’éditeur pour importer du contenu d’un référentiel Git.
 
 ## Conditions préalables
 
@@ -47,7 +92,7 @@ Avant de commencer à utiliser cette fonctionnalité, assurez-vous des points su
 
 ## Importer du contenu à partir du référentiel Git connecté
 
-Une fois que votre administrateur a configuré le connecteur Git, vous pouvez l’utiliser à partir de l’éditeur pour commencer à importer du contenu d’un référentiel Git.  Pour importer du contenu à partir d’un référentiel Git, procédez comme suit :
+Pour importer du contenu à partir d’un référentiel Git, procédez comme suit :
 
 1. Dans l’éditeur, ouvrez le panneau de gauche.
 1. Sélectionnez **Sources de données**.
@@ -80,15 +125,15 @@ Une fois le contenu importé dans Experience Manager Guides, vous pouvez utilise
 
 ![](images/git-connector-imported-content-options.png){width="600"}
 
-- **Aperçu** : aperçu du contenu importé. Si le référentiel source contient des mises à jour, passez en revue les différences et utilisez l’option **Récupérer à nouveau** pour importer les dernières modifications.
-- **Supprimer** : supprimez le contenu importé qui n’est plus nécessaire.
-- **Renommer** : renommez le contenu importé pour une identification plus facile.
+- **Aperçu** : aperçu du contenu importé. Si le référentiel source contient des mises à jour, passez en revue les différences et utilisez l’option **Récupérer à nouveau** pour importer les dernières modifications. Si les différences nécessitent une fusion, consultez la section [Résoudre les conflits du connecteur Git](#review-and-resolve-content-conflicts).
+- **Supprimer** : supprimez l’importateur qui n’est plus nécessaire.
+- **Renommer** : renommez l’importateur pour une identification plus facile.
 - **Afficher le journal** : affichez le journal d’importation pour consulter les détails de l’opération d’importation.
 - **Afficher le rapport** : affichez et téléchargez le **rapport d’importation en bloc** qui comprend des détails tels que :
 
-   - nombre total de fichiers importés
-   - nombre d’imports réussis
-   - nombre d’imports ayant échoué
+  - nombre total de fichiers importés
+  - nombre d’imports réussis
+  - nombre d’imports ayant échoué
 
   ![](images/git-connector-view-report.png){width="600"}
 
@@ -102,38 +147,34 @@ Procédez comme suit pour résoudre les conflits de fusion et :
 
 1. Ouvrez la boîte de dialogue d’importation en bloc et sélectionnez **Récupérer à nouveau**.
 1. Si des conflits sont détectés, l’onglet **Fusion requise** s’affiche et répertorie les fichiers contenant des conflits. Sélectionnez l’onglet **Fusion requise**, puis sélectionnez un fichier dans la liste pour examiner et résoudre les conflits.
-1. Consultez le contenu dans les sections suivantes :
+1. Pour les fichiers présentant des conflits, une vue de fusion à trois voies s’affiche.
 
-   ![](images/git-connector-resolve-conflicts.png){width="600"}
+   ![](images/git-connector-resolve-conflicts.png)
 
-   - Dans la section **&#x200B;**, la version actuelle du contenu présent dans Experience Manager Guides s’affiche.
-   - Dans la section **Git**, la dernière version du contenu du référentiel s’affiche.
-   - Dans la section **Fusionner**, le contenu fusionné s’affiche.
+   Le volet de gauche (**&#x200B;**) affiche le contenu actuel du référentiel AEM, tandis que le volet de droite (**GIT**) affiche le contenu entrant en provenance du référentiel Git distant. Le volet central (**Result**) est initialement renseigné avec le contenu du référentiel AEM et sert d’éditeur de fusion, où les conflits sont résolus. Le résultat final fusionné est généré et affiché dans ce volet central.
 
 1. Examinez les différences mises en surbrillance dans l’éditeur et résolvez les conflits à l’aide des commandes de fusion :
 
-   - Si vous souhaitez utiliser les dernières modifications du référentiel Git, assurez-vous que la case correspondant au conflit dans la section **Git** est cochée, puis sélectionnez le contrôle de `<<<` correspondant. Le contenu Git sélectionné remplace le contenu en conflit dans la section **Fusion**.
+   - Si vous souhaitez utiliser les dernières modifications du référentiel Git, assurez-vous que la case correspondant au conflit dans la section **GIT** est cochée, puis sélectionnez le contrôle de `<<<` correspondant. Le contenu Git sélectionné remplace le contenu en conflit dans la section **Résultat**.
 
-     ![](images/git-connector-replace-with-git.png){width="600"}
+     ![](images/git-connector-replace-with-git.png)
 
-   - Si vous souhaitez conserver le contenu des deux versions, décochez la case correspondant au conflit, puis utilisez le contrôle `<<<` pour ajouter le contenu requis à la section **Fusionner** sans remplacer le contenu existant.
+   - Si vous souhaitez conserver le contenu des deux versions, décochez la case correspondant au conflit, puis utilisez le contrôle `<<<` pour ajouter le contenu requis à la section **Result** sans remplacer le contenu existant.
 
-     ![](images/git-connector-keep-both-versions.png){width="600"}
+     ![](images/git-connector-keep-both-versions.png)
 
    - De même, vous pouvez utiliser la commande `>>>` dans la section AEM pour conserver la version actuellement disponible dans Experience Manager Guides.
 
-     ![](images/git-connector-accept-aem-version.png){width="600"}
 
 1. Après avoir examiné le contenu fusionné, effectuez l’une des actions suivantes :
 
-   - Utilisez **Accepter les modifications de Git** lorsque la version du référentiel doit remplacer le contenu en conflit.
-   - Utilisez **Marquer comme fusionné** après avoir révisé et mis à jour la version fusionnée pour vous assurer qu’elle contient le contenu que vous souhaitez conserver.
-   - Utilisez **Réinitialiser** pour ignorer toutes les mises à jour fusionnées et restaurer le contenu à son état d’origine.
+   - Utilisez **Accepter AEM** pour remplacer entièrement le contenu de la section **Résultat** par la version de la section **AEM**, en conservant vos modifications locales.
+   - Utilisez **Accepter GIT** pour remplacer entièrement le contenu de la section **Résultat** par la version de la section **GIT**, en conservant les modifications du référentiel.
+
+La **fusion complète** est requise, quelle que soit l’option utilisée ci-dessus. Sa sélection verrouille le contenu actuel de **Result** en tant que version résolue de ce fichier et marque le fichier comme fusionné.
 
 Une fois que tous les fichiers contenant les conflits sont marqués comme fusionnés, le bouton **Tout importer** est activé. Sélectionnez **Importer tout** pour terminer le processus de résolution des conflits.
 
-Si le référentiel contient du contenu entièrement nouveau, tel qu’une nouvelle rubrique, un nouveau paragraphe ou une nouvelle ligne qui n’entre pas en conflit avec le contenu existant, il est affiché sous **Nettoyer les mises à jour**. Ces mises à jour ne nécessitent pas de résolution de conflit et peuvent être importées directement.
+Si un fichier a été modifié dans le référentiel Git mais n’a pas été modifié dans Experience Manager Guides, aucune fusion n’est requise. Ces fichiers sont automatiquement inclus sous **Mises à jour propres** et peuvent être importés directement.
 
 ![](images/git-connector-clean-updates.png){width="600"}
-
-

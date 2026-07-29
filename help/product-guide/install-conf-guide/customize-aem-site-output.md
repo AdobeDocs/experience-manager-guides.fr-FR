@@ -5,10 +5,10 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
-source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
+source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: '3190'
-ht-degree: 2%
+source-wordcount: '3264'
+ht-degree: 1%
 
 ---
 
@@ -122,6 +122,9 @@ Suivez les instructions fournies dans [Remplacements de la configuration](downlo
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | Booléen \(true/false\). Si vous souhaitez générer une sortie à l’aide du titre de la page, définissez cette propriété sur true. Par défaut, il est défini pour utiliser le nom de fichier <br>. **Valeur par défaut** : false |
 
+>[!NOTE]
+>
+> La propriété `aemsite.pagetitle` définit le comportement par défaut au niveau du dossier pour les titres de page du site AEM. Si l’option permettant de sélectionner `Topic filename` ou `Topic title` est disponible dans le paramètre prédéfini AEM Sites pour votre environnement, la sélection au niveau du paramètre prédéfini est prioritaire et remplace la configuration au niveau du dossier `aemsite.pagetitle` pour cette sortie. Par exemple, si `aemsite.pagetitle=true` mais l’utilisateur sélectionne *Nom de fichier de rubrique* dans le paramètre prédéfini de sortie, le nom de fichier de rubrique est utilisé. Si `aemsite.pagetitle=false` l’utilisateur sélectionne *Titre du topic*, le titre du topic est utilisé.
 
 >[!TAB  On-Premise ]
 
