@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
+source-git-commit: 06126f77ee4db22865895739ad9af4efa787a7df
 workflow-type: tm+mt
-source-wordcount: 3064
+source-wordcount: 3089
 ht-degree: 0%
 
 ---
@@ -158,6 +158,10 @@ Le panneau Commentaires affiche une liste de commentaires sur la rubrique active
 Les commentaires s’affichent dans l’ordre du texte commenté dans le document. Par exemple, si un commentaire de texte mis en surbrillance est ajouté à la première phrase du premier paragraphe et qu’un commentaire de texte inséré est ajouté à la deuxième phrase, ce dernier est affiché avant le commentaire de texte inséré.
 
 Les tâches que vous pouvez effectuer à l’aide du panneau Commentaires sont décrites ci-dessous :
+
+- Utilisez l’icône d’informations ![](./images/info-icon.svg) pour afficher les détails de la tâche de révision, y compris le nom de la tâche de révision, la version de révision, le statut et la description de la tâche.
+
+  ![](./images/review-details-review-ui.png)
 
 - La sélection d’un commentaire met en surbrillance et affiche l’emplacement du commentaire correspondant dans le document.
 - Vous pouvez ajouter des réponses aux commentaires.
