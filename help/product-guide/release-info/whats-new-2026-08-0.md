@@ -2,9 +2,9 @@
 title: Notes de mise à jour | Nouveautés de la version Adobe Experience Manager Guides 2026.08.0
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 2026.08.0 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
+source-git-commit: 087f74b41a3ce374aca06701e8b58e0d27492592
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1371'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,11 @@ Pour maintenir à jour le contenu importé, le connecteur Git prend également e
 ![](assets/git-bulk-importer-import-all.png)
 
 
-## Experience Manager Guides ajoute la prise en charge de MCP pour l’intégration de l’assistant AI
+## Experience Manager Guides ajoute la prise en charge de MCP
 
-Experience Manager Guides prend désormais en charge l’intégration MCP (Model Context Protocol), ce qui permet aux assistants d’IA tels qu’Anthropic Claude de se connecter directement à votre environnement AEM Guides.
+Experience Manager Guides prend désormais en charge le protocole MCP (Model Context Protocol). Vous pouvez connecter vos outils d’IA tels que Claude, Cursor, etc. aux guides sans avoir besoin de travail personnalisé. Grâce à un seul point d’entrée MCP, dans cette version, les utilisateurs authentifiés peuvent utiliser Guides en tant que système découplé et gérer les rubriques et les cartes, créer et exporter des lignes de base et générer des rapports, tout en utilisant leurs autorisations AEM existantes. Cela permet aux équipes de documentation de travailler plus efficacement à l’aide des applications et des agents d’IA.
 
-Grâce à un point d’entrée MCP unique, les utilisateurs authentifiés peuvent gérer les rubriques et les mappages, créer et exporter des lignes de base et générer des rapports en langage naturel, tout en utilisant leurs autorisations AEM existantes. Cela élimine les tâches répétitives et lourdes en navigation et permet aux équipes de documentation de travailler plus efficacement sur les applications de chat et les outils de développement compatibles avec MCP tels que Cursor et Visual Studio Code. Pour plus d’informations, consultez la section [Utilisation du serveur Adobe Experience Manager Guides MCP](../install-conf-guide/conf-aem-guides-mcp.md).
+Pour plus d’informations, consultez la section [Utilisation du serveur Adobe Experience Manager Guides MCP](../install-conf-guide/conf-aem-guides-mcp.md).
 
 
 ## Améliorations de la révision
@@ -125,9 +125,9 @@ Les améliorations suivantes sont disponibles pour la fonctionnalité de contenu
 
 - Dans les questions de vérification des connaissances d’un cours, le bouton **Réessayer** s’affiche désormais lorsqu’un élève sélectionne une réponse incorrecte, ce qui lui permet de réessayer de répondre à la question. Ce comportement est cohérent dans les contrôles des connaissances à sélection unique et à sélection multiple. Pour plus d&#39;informations, consultez [Autres options du menu Insertion](../learning-content/lc-other-insert-options.md).
 
-- Lorsqu’une rubrique HTML est ajoutée à un mappage de groupes d’apprentissage, l’attribut `format="html"` est désormais automatiquement ajouté à la `topicref` correspondante, assurant ainsi un traitement et une publication corrects sous DITA-OT 4.x. Pour plus d’informations, consultez la section [&#x200B; Ajouter du contenu existant dans votre cours &#x200B;](../learning-content/manage-course.md#add-existing-content).
+- Lorsqu’une rubrique HTML est ajoutée à un mappage de groupes d’apprentissage, l’attribut `format="html"` est désormais automatiquement ajouté à la `topicref` correspondante, assurant ainsi un traitement et une publication corrects sous DITA-OT 4.x. Pour plus d’informations, consultez la section [ Ajouter du contenu existant dans votre cours ](../learning-content/manage-course.md#add-existing-content).
 
 ## Amélioration de l’API
 
-Cette version introduit de nouvelles API Swagger pour la gestion des ressources, la traduction et la publication, ce qui facilite la connexion de ces workflows à vos outils et systèmes existants. Pour plus d’informations, consultez [&#x200B; Mises à jour des API dans les versions de Experience Manager Guides &#x200B;](../api-reference/api-update-swagger.md).
+Cette version introduit de nouvelles API Swagger pour la gestion des ressources, la traduction et la publication, ce qui facilite la connexion de ces workflows à vos outils et systèmes existants. Pour plus d’informations, consultez [ Mises à jour des API dans les versions de Experience Manager Guides ](../api-reference/api-update-swagger.md).
 
