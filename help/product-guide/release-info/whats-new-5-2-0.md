@@ -2,7 +2,7 @@
 title: Notes de mise à jour | Nouveautés de la version 5.2.0 d’Adobe Experience Manager Guides
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 5.2.0 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 5da6c5239a4118d00f3a40707759950483aafdd8
+source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
 workflow-type: tm+mt
 source-wordcount: '4052'
 ht-degree: 0%
@@ -242,7 +242,7 @@ Le filtre **Verrouillé par** sous Filtres avancés dans le référentiel et le 
 
 Désormais, vous pouvez rechercher des citations dans tous les champs du Journal, par exemple *Titre*, *Titre du Journal*, *Auteur*, *Année*, *Volume*, *Number* et *Pages*, à l’aide de l’option **Any field** dans la boîte de dialogue **Ajouter une citation**. La recherche renvoie la citation correspondante la plus proche en fonction du texte saisi.
 
-Pour plus d’informations sur l’ajout de citations dans Experience Manager Guides, consultez la section [&#x200B; Ajouter et gérer des citations dans votre contenu &#x200B;](../user-guide/web-editor-apply-citations.md).
+Pour plus d’informations sur l’ajout de citations dans Experience Manager Guides, consultez la section [ Ajouter et gérer des citations dans votre contenu ](../user-guide/web-editor-apply-citations.md).
 
 ![](assets/add-citations.png){width="350"}
 
@@ -415,7 +415,7 @@ Pour plus d’informations, consultez [Nouvelle expérience de base (Beta) dans 
 
 Les améliorations d’API suivantes ont été apportées dans le cadre de cette version :
 
-- De nouvelles API sont introduites pour créer un projet de traduction et suivre leur statut. Ces API permettent d’automatiser le processus de traduction, de réduire les efforts manuels et d’améliorer l’efficacité. Pour plus d’informations, consultez [Créer un projet de traduction](../api-reference/api-update-swagger.md).
+- De nouvelles API sont introduites pour créer un projet de traduction et suivre leur statut. Ces API permettent d’automatiser le processus de traduction, de réduire les efforts manuels et d’améliorer l’efficacité. Pour plus d’informations, consultez [Créer un projet de traduction](../api-reference/create-translation-project.md).
 - Amélioration des API de traitement des ressources avec une meilleure capacité de filtrage des fichiers et des dossiers. Pour plus d’informations, consultez [Traitement des ressources](../api-reference/bulk-assets-processing.md).
 - Une nouvelle API est disponible pour effectuer le suivi du statut de post-traitement des ressources et dossiers individuels. Cela s’avère particulièrement utile pour les équipes qui utilisent des workflows automatisés, où la publication ne doit se produire qu’une fois le contenu entièrement traité. L’API offre un moyen fiable de confirmer la préparation, ce qui réduit le risque d’échecs de publication causés par un traitement incomplet. En outre, avec l’introduction de cette API, les événements de post-traitement des ressources ne se déclenchent pas automatiquement. Au lieu de cela, les administrateurs peuvent désormais activer cet événement par le biais d’un paramètre dans `fmdita config manager`.
 Pour plus d’informations, consultez [API pour suivre le statut de post-traitement de ressources et de dossiers individuels](../api-reference/track-post-processing-status.md) et [Paramètre du gestionnaire d’événements de post-traitement dans le gestionnaire de configuration fmdita](../api-reference/post-process-event.md)
