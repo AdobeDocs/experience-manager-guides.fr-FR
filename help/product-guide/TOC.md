@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: 5a4aae4385951abb8c0a577d4b7f5542c8b1dde6
+source-git-commit: 4788cae8de3b93a008b83f8be6a42fd675b21906
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2575'
 ht-degree: 11%
 
 ---
@@ -412,6 +412,7 @@ ht-degree: 11%
       - [Configuration des profils de dossier](./lc-config-guide/lc-folder-profile.md)
       - [Bonnes pratiques pour configurer la structure de dossiers](./lc-config-guide/best-practices-folder-structure.md)
       - [Configurer d’autres paramètres](./lc-config-guide/lc-other-settings.md)
+      - [Configuration de la CSP pour l’aperçu SCORM](./lc-config-guide/guides-scorm-preview-config.md)
       - [Mesures clés SCORM](./lc-config-guide/learning-course-parameters.md)
     - Tutoriels vidéo {#lc-video}
       - [Workflow de création](./lc-video-tutorials/author-workflow.md)
@@ -590,8 +591,7 @@ ht-degree: 11%
   - [API pour effectuer le suivi de l’état de post-traitement d’un dossier ou d’une ressource](./api-reference/track-post-processing-status.md)
   - [API pour démarrer le traitement en bloc des ressources](./api-reference/bulk-assets-processing.md)
   - [Gestionnaire d’événements d’activation en bloc terminée](./api-reference/bulk-activation-complete-event.md)
-  - [Gestionnaire d&#39;événements de processus de conversion](./api-reference/conversion-complete-event.md)
-  - [Créer un projet de traduction](./api-reference/translation-project.md)
+  - [Gestionnaire d’événements du processus de conversion](./api-reference/conversion-complete-event.md)
 - Knowledge Base {#knowledge-base}
   - Session d’experts {#expert-session}
     - [Présentation de la session d’experts](./knowledge-base/expert-sessions/expert-session.md)

@@ -12,9 +12,9 @@ feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4433d28a41c3d9d797b38dbf732119fc3ea69f36
+source-git-commit: 1eb7ff8740855a0781a8a290275d02f1b2bc53f4
 workflow-type: tm+mt
-source-wordcount: 124
+source-wordcount: 156
 ht-degree: 0%
 
 ---
@@ -33,6 +33,11 @@ Effectuez les étapes suivantes pour générer une sortie SCORM :
    ![](assets/scorm-success-message.png){width="350"}
 
 1. Vous pouvez télécharger ou prévisualiser la sortie en sélectionnant respectivement **Télécharger la sortie** ou **Prévisualiser la sortie**.
+
+   >[!NOTE]
+   >
+   > L’aperçu SCORM est disponible lorsque vous générez une sortie SCORM. Si votre cours repose sur des domaines externes pour les polices, les feuilles de style ou le contenu incorporé, configurez les domaines autorisés dans [Configurer l&#39;aperçu SCORM](../lc-config-guide/guides-scorm-preview-config.md).
+
 
    ![](assets/scorm-view-output-new.png){width="650"}
 
