@@ -68,7 +68,7 @@ Selon vos besoins, il n’est pas nécessaire de renseigner chaque valeur ; lais
 2. Accédez à l’onglet **Configuration** de l’environnement.
 3. Sélectionnez **Ajouter/Mettre à jour** pour ajouter une variable d’environnement.
 
-   ![Ajout d’une nouvelle variable au ](assets/add-new-variable.png){width="650"} Cloud Manager
+   ![Ajout d’une nouvelle variable au &#x200B;](assets/add-new-variable.png){width="650"} Cloud Manager
 
 4. Saisissez le nom de la variable (`GUIDES_SCORM_PREVIEW_CONFIG`) dans le champ **Nom**.
 
