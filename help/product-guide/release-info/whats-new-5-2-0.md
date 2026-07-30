@@ -2,7 +2,7 @@
 title: Notes de mise à jour | Nouveautés de la version 5.2.0 d’Adobe Experience Manager Guides
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 5.2.0 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 166dd4eec428d81bfe3db92ebc5a54f1760fe7dc
+source-git-commit: 5da6c5239a4118d00f3a40707759950483aafdd8
 workflow-type: tm+mt
 source-wordcount: '4052'
 ht-degree: 0%
@@ -42,10 +42,10 @@ Une interface actualisée améliore la convivialité globale, ce qui rend la nav
 
 - **Paramètres consolidés de l’éditeur au niveau de l’utilisateur** : nouveau panneau de paramètres centralisé qui offre aux créateurs et aux créatrices un meilleur contrôle sur le comportement de l’éditeur, ce qui permet aux utilisateurs et aux utilisatrices de gérer plus facilement les préférences à partir d’un seul emplacement. Les options de configuration incluent la possibilité d’activer/désactiver :
 
-   - Espaces insécables en mode Création
-   - Paramètres de visibilité des balises avec ou sans attributs
-   - Commentaires XML en mode Création
-   - Menu d’insertion rapide pour l’insertion d’éléments dans l’éditeur
+  - Espaces insécables en mode Création
+  - Paramètres de visibilité des balises avec ou sans attributs
+  - Commentaires XML en mode Création
+  - Menu d’insertion rapide pour l’insertion d’éléments dans l’éditeur
 
   ![](assets/editor-settings-dialog.png){width="350"}
 
@@ -78,9 +78,9 @@ Offre des outils améliorés et une flexibilité pour rationaliser les workflows
 
 - **Amélioration de la création de tableaux** : améliore l’expérience globale de création de tableaux avec des interactions plus intuitives et efficaces pour la création et la gestion des tableaux.
 
-   - Interactions fluides et intuitives : insérez facilement des lignes et des colonnes, ainsi que la prise en charge du glisser-déposer pour réorganiser les lignes et les colonnes.
-   - Barre d’outils contextuelle : accédez directement à des actions spécifiques au tableau, telles que la mise en forme, l’alignement, la fusion et d’autres actions supplémentaires dans le tableau.
-   - Configuration des tableaux : ajoutez plusieurs lignes ou colonnes en une seule action, ce qui réduit les étapes répétitives et améliore l’efficacité.
+  - Interactions fluides et intuitives : insérez facilement des lignes et des colonnes, ainsi que la prise en charge du glisser-déposer pour réorganiser les lignes et les colonnes.
+  - Barre d’outils contextuelle : accédez directement à des actions spécifiques au tableau, telles que la mise en forme, l’alignement, la fusion et d’autres actions supplémentaires dans le tableau.
+  - Configuration des tableaux : ajoutez plusieurs lignes ou colonnes en une seule action, ce qui réduit les étapes répétitives et améliore l’efficacité.
 
   ![](assets/config-table.png){width="650"}
 
@@ -242,7 +242,7 @@ Le filtre **Verrouillé par** sous Filtres avancés dans le référentiel et le 
 
 Désormais, vous pouvez rechercher des citations dans tous les champs du Journal, par exemple *Titre*, *Titre du Journal*, *Auteur*, *Année*, *Volume*, *Number* et *Pages*, à l’aide de l’option **Any field** dans la boîte de dialogue **Ajouter une citation**. La recherche renvoie la citation correspondante la plus proche en fonction du texte saisi.
 
-Pour plus d’informations sur l’ajout de citations dans Experience Manager Guides, consultez la section [&#x200B; Ajouter et gérer des citations dans votre contenu &#x200B;](../user-guide/web-editor-apply-citations.md).
+Pour plus d’informations sur l’ajout de citations dans Experience Manager Guides, consultez la section [ Ajouter et gérer des citations dans votre contenu ](../user-guide/web-editor-apply-citations.md).
 
 ![](assets/add-citations.png){width="350"}
 
@@ -415,7 +415,7 @@ Pour plus d’informations, consultez [Nouvelle expérience de base (Beta) dans 
 
 Les améliorations d’API suivantes ont été apportées dans le cadre de cette version :
 
-- De nouvelles API sont introduites pour créer un projet de traduction et suivre leur statut. Ces API permettent d’automatiser le processus de traduction, de réduire les efforts manuels et d’améliorer l’efficacité. Pour plus d’informations, consultez [Créer un projet de traduction](../api-reference/translation-project.md)
+- De nouvelles API sont introduites pour créer un projet de traduction et suivre leur statut. Ces API permettent d’automatiser le processus de traduction, de réduire les efforts manuels et d’améliorer l’efficacité. Pour plus d’informations, consultez [Créer un projet de traduction](../api-reference/api-update-swagger.md).
 - Amélioration des API de traitement des ressources avec une meilleure capacité de filtrage des fichiers et des dossiers. Pour plus d’informations, consultez [Traitement des ressources](../api-reference/bulk-assets-processing.md).
 - Une nouvelle API est disponible pour effectuer le suivi du statut de post-traitement des ressources et dossiers individuels. Cela s’avère particulièrement utile pour les équipes qui utilisent des workflows automatisés, où la publication ne doit se produire qu’une fois le contenu entièrement traité. L’API offre un moyen fiable de confirmer la préparation, ce qui réduit le risque d’échecs de publication causés par un traitement incomplet. En outre, avec l’introduction de cette API, les événements de post-traitement des ressources ne se déclenchent pas automatiquement. Au lieu de cela, les administrateurs peuvent désormais activer cet événement par le biais d’un paramètre dans `fmdita config manager`.
 Pour plus d’informations, consultez [API pour suivre le statut de post-traitement de ressources et de dossiers individuels](../api-reference/track-post-processing-status.md) et [Paramètre du gestionnaire d’événements de post-traitement dans le gestionnaire de configuration fmdita](../api-reference/post-process-event.md)
