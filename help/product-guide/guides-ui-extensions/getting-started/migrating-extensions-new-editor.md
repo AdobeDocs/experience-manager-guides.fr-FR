@@ -6,8 +6,8 @@ role: Admin
 level: Experienced
 source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 0%
+source-wordcount: '2006'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ Ce guide aide les auteurs d’extensions à comprendre ce qui est impliqué dans
 ## Vue d’ensemble
 
 - **Votre enregistrement ne change pas** : Continuez à utiliser `window.extension` / `tcx.extension.register`.
-- **La zone de travail de l’éditeur est une nouvelle surface.** Les éléments de menu contextuel doivent déclarer le nouvel identifiant du widget
+- **La zone de travail de l’éditeur est une nouvelle surface.** Les éléments de menu contextuel doivent déclarer le nouvel identifiant de widget
   `markup_editor_menu` ; le comportement dans l’éditeur doit arrêter de toucher le DOM.
 - **Arrêter la lecture/l’écriture du DOM** : remplacez `tcx.curEditor.*` accès DOM par
   API `guides.editor` : [lecture avec `runUtil(...)`](#migrate-reads-dom-runutil), [écriture avec `runCommand(...)`](#migrate-writes-dom-mutation-runcommand), [style avec décorations](#migrate-rendering-only-logic-dom-paint-decorations) et [exécution d’actions globales (enregistrement) par le biais d’événements d’application](#migrate-global-actions-savefocus-app-events) .
@@ -147,7 +147,8 @@ l’événement `tcx-loaded`.
   | Visionneuse de cartes | `ditamap_viewer` / `map_view_options` |
   | Panneaux de ligne de base/paramètres prédéfinis | `baseline_panel_menu` / `preset_item_menu` |
 
-  Les éléments ciblant ces surfaces n’ont pas besoin d’être modifiés **pour le nouvel éditeur, ne les déplacez pas vers .**  `markup_editor_menu`.
+  Les éléments ciblant ces surfaces n’ont pas besoin d’être modifiés **pour le nouvel éditeur, ne les déplacez pas vers .**
+  `markup_editor_menu`.
 
 ## Référence de remplacement d’API
 
@@ -446,7 +447,7 @@ conservez-les sur leurs identifiants de widget hérités.
 
 ## Ordre de déploiement suggéré
 
-1. **&#x200B;**&#x200B;: encapsuler la configuration dans `guides.ready` ; enregistrer les modules externes sans condition et ajouter des points de contrôle `version` autour des actions *runtime* uniquement (pour plus de détails, consultez [Enregistrement des modules externes et point de contrôle Runtime](#plugin-registration-and-runtime-gating)).
+1. **** : encapsuler la configuration dans `guides.ready` ; enregistrer les modules externes sans condition et ajouter des points de contrôle `version` autour des actions *runtime* uniquement (pour plus de détails, consultez [Enregistrement des modules externes et point de contrôle Runtime](#plugin-registration-and-runtime-gating)).
 2. **Surface du menu contextuel** : ajoutez des `markup_editor_menu`, corrigez `target` ancres. Les éléments s’affichent maintenant.
 3. **Lectures** : migrez les lectures de sélection/d’attributs vers `runUtil`.
 4. **Écritures** : migration des mutations vers `runCommand` ; enregistrement dans les événements d’application.
