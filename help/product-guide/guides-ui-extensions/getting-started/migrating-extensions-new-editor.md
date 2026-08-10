@@ -447,7 +447,7 @@ conservez-les sur leurs identifiants de widget hérités.
 
 ## Ordre de déploiement suggéré
 
-1. **** : encapsuler la configuration dans `guides.ready` ; enregistrer les modules externes sans condition et ajouter des points de contrôle `version` autour des actions *runtime* uniquement (pour plus de détails, consultez [Enregistrement des modules externes et point de contrôle Runtime](#plugin-registration-and-runtime-gating)).
+1. **&#x200B;**&#x200B;: encapsuler la configuration dans `guides.ready` ; enregistrer les modules externes sans condition et ajouter des points de contrôle `version` autour des actions *runtime* uniquement (pour plus de détails, consultez [Enregistrement des modules externes et point de contrôle Runtime](#plugin-registration-and-runtime-gating)).
 2. **Surface du menu contextuel** : ajoutez des `markup_editor_menu`, corrigez `target` ancres. Les éléments s’affichent maintenant.
 3. **Lectures** : migrez les lectures de sélection/d’attributs vers `runUtil`.
 4. **Écritures** : migration des mutations vers `runCommand` ; enregistrement dans les événements d’application.
