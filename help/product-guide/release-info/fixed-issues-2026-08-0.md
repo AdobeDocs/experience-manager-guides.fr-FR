@@ -1,9 +1,9 @@
 ---
 title: Notes de mise à jour | Correction de problèmes dans Adobe Experience Manager Guides, version 2026.08.0
 description: Découvrez les correctifs de la version 2026.08.0 d’Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 11d5db19cc352a3750754099a11290e4c0da0846
+source-git-commit: 9e4af58e571659d9ed92308d3629a193d5558417
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1218'
 ht-degree: 1%
 
 ---
@@ -95,6 +95,7 @@ Adobe a identifié les problèmes connus suivants pour la version 2026.08.0 :
 - Une équation MathML encapsulée dans un bloc `foreign` et `equation` entraîne un espacement indésirable. En outre, la saisie dans l’équation entraîne des problèmes même après le réglage de la mise en retrait. (GUIDES-46606)
 - Impossible de placer un curseur à l’intérieur d’un `topicref` dans un `reltable` lorsque l’option **Afficher les balises** est activée et que l’option **Afficher les attributs** est désactivée dans les paramètres de l’éditeur. (GUIDES-46565)
 - Faire glisser et déposer une référence dans un `keydef` vide ajoute un élément `topicref` au lieu de mettre à jour la référence. (GUIDES-45068)
+- Espace saisi juste avant la suppression d’une balise intégrée dans une cellule de tableau `<entry>`. (GUIDES-49144)
 
 ## Publication
 
