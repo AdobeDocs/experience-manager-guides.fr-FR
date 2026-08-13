@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
+source-git-commit: 40ec0c4ba2bb7fae03dfae32c555f03311f1de64
 workflow-type: tm+mt
 source-wordcount: '2578'
 ht-degree: 11%
@@ -18,7 +18,7 @@ ht-degree: 11%
   - [Feuille de route des versions d’AEM Guides](./release-info/aem-guides-releases-roadmap.md)
   - Notes de mise à jour {#release-notes}
     - Services cloud {#cloud-release-notes}
-      - {hide-from-toc}[&#x200B; Instructions de déploiement &#x200B;](./release-info/deploy-xml-on-aemaacs.md)
+      - {hide-from-toc}[ Instructions de déploiement ](./release-info/deploy-xml-on-aemaacs.md)
       - [Versions cloud](./release-info/latest-release-info-cs.md)
       - Versions De 2026 {#2026-releases}
         - Version 2026.08.0 {#2608-release}
@@ -45,7 +45,7 @@ ht-degree: 11%
         - Version 2026.03.0 {#2603-release}
           - {hide-from-toc}[Nouveautés](./release-info/whats-new-2026-03-0.md)
           - {hide-from-toc}[Correction de problèmes](./release-info/fixed-issues-2026-03-0.md)
-          - {hide-from-toc}[&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-2026-03-0.md)
+          - {hide-from-toc}[ Instructions de mise à niveau ](./release-info/upgrade-instructions-2026-03-0.md)
         - Version 2026.01.0 {#2601-release}
           - [Nouveautés](./release-info/whats-new-2026-01-0.md)
           - [Problèmes résolus](./release-info/fixed-issues-2026-01-0.md)
@@ -164,7 +164,7 @@ ht-degree: 11%
         - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0-sp4.md)
       - Version 5.0.0 SP3 {#500-sp3-release}
         - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp3.md)
-        - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-5-0-0-sp3.md)
+        - [ Instructions de mise à niveau ](./release-info/upgrade-instructions-5-0-0-sp3.md)
       - Version 5.0.0 SP2 {#500-sp2-release}
         - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp2.md)
         - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0-sp2.md)
@@ -183,7 +183,7 @@ ht-degree: 11%
         - [Instructions de mise à niveau](./release-info/upgrade-instructions-4-6-0-sp2.md)
       - Version 4.6.0 SP1 {#460-sp1-release}
         - [Correction de problèmes](./release-info/fixed-issues-4-6-0-sp1.md)
-        - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-4-6-0-sp1.md)
+        - [ Instructions de mise à niveau ](./release-info/upgrade-instructions-4-6-0-sp1.md)
       - Version 4.6.0 {#460-release}
         - [Nouveautés](./release-info/whats-new-4-6.md)
         - [Correction de problèmes](./release-info/fixed-issues-4-6-0.md)
@@ -216,7 +216,7 @@ ht-degree: 11%
   - Présentation {#about-aemg}
     - [À propos  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - Fonctionnalités [!DNL AEM Guides] et clés {#aemg-works-features}
-      - [Fonctionnement  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+      - [Fonctionnement  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
       - [Fonctionnalités [!DNL AEM Guides] clés](./user-guide/intro-dxml-features.md)
   - Page d’accueil {#home-page}
     - [Expérience de la page d’accueil [!DNL AEM Guides]](./user-guide/intro-home-page.md)
@@ -392,7 +392,7 @@ ht-degree: 11%
         - [Créer un quiz](./learning-content/create-quiz.md)
         - [Modifier le quiz](./learning-content/edit-quiz.md)
         - [Insérer des questions dans un quiz](./learning-content/quiz-insert-questions.md)
-        - [&#x200B; Propriétés du quiz &#x200B;](./learning-content/quiz-properties.md)
+        - [ Propriétés du quiz ](./learning-content/quiz-properties.md)
         - Banque de questions {#question-bank}
           - [Créer une banque de questions](./learning-content/create-qb.md)
           - [Insérer des questions depuis la banque de questions](./learning-content/insert-questions.md)
@@ -427,7 +427,7 @@ ht-degree: 11%
       - [Timeout de session](./user-guide/session-timeout-prompt.md)
       - [La chaîne est une exception trop longue dans l’exportation des métadonnées](./user-guide/metadata-export-failure.md)
 - Guide de l’utilisateur (ancienne interface utilisateur) {#user-guide-old-ui}
-  - [Présentation d’AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Présentation d’AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation et configuration {#install-conf-guide}
   - [Téléchargement, installation et mise à niveau](./install-conf-guide/introduction.md)
   - Processus d’installation de Cloud Service {#deploy-conf-aemg-cs}
@@ -523,7 +523,7 @@ ht-degree: 11%
     - [Configurer les états du document](./install-conf-guide/customize-doc-state.md)
     - [Configurer des filtres d’état de document pour Cloud Service](./install-conf-guide/conf-doc-state-filters.md)
   - Configuration des paramètres de Workspace {#workspace-configs}
-    - [Paramètres &#x200B;](./install-conf-guide/workspace-settings.md)
+    - [Paramètres ](./install-conf-guide/workspace-settings.md)
   - Recherche AEM Assets {#aem-asset-search}
     - [Configuration de la recherche pour l’interface utilisateur d’AEM Assets](./install-conf-guide/conf-dita-search.md)
   - Paramètres de génération de sortie {#output-gen-config}
@@ -550,7 +550,7 @@ ht-degree: 11%
         - [Ajout d’un signet personnalisé dans la sortie PDF](./native-pdf/add-custom-bookmark.md)
         - [Utilisation de JavaScript pour utiliser du contenu ou du style](./native-pdf/use-javascript-content-style.md)
         - [Application de styles aux notes de bas de page](./native-pdf/footnote-number-style.md)
-      - [Configuration du nouveau moteur de publication pour le PDF natif](./native-pdf/conf-new-pdf-engine.md)
+        - [Configuration du nouveau moteur de publication pour le PDF natif](./native-pdf/conf-new-pdf-engine.md)
       - [Utiliser le moteur PDF natif v2](./native-pdf/new-pdf-engine.md)
       - [Configurer le processus de nœud pour la publication native de PDF pour Cloud Service](./native-pdf/conf-node-options-cs.md)
       - [Configuration des indicateurs JVM pour la publication native PDF pour On-Premise](./native-pdf/conf-jvm-flags-on-prem.md)

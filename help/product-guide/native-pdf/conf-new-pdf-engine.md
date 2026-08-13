@@ -4,7 +4,7 @@ description: Découvrez comment activer le nouveau moteur PDF dans Experience Ma
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 7f2b24b0ffbedaa3542de9d75d10aa155f6c3c0e
+source-git-commit: 40ec0c4ba2bb7fae03dfae32c555f03311f1de64
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 2%
@@ -21,3 +21,4 @@ Suivez les instructions fournies dans [Remplacements de la configuration](../ins
 | PID | Clé de la propriété | Valeur de la propriété |
 |-----|--------------|----------------|
 | `com.adobe.fmdita.publish.config.GuidesPublishConfiguratorService` | `guides.publish.config` | `{"PDF_ENGINE": "v2"}` <br> Valeur par défaut : `v1` |
+
