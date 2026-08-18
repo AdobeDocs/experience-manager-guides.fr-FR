@@ -53,7 +53,7 @@ Lors de la publication d’une sortie AEM Sites à l’aide du mappage des compo
 
 - Les noms de fichier non anglais dans les noms de page générés sont remplacés par des tirets, ce qui rend difficile l’identification du sujet ou du fichier auquel il est associé. (GUIDES-48387)
 
-PDF natif ****
+PDF natif **&#x200B;**
 
 - Dans la sortie PDF native, les références de rubrique marquées avec `toc="no"` attribut sont toujours incluses dans la table des matières, ce qui entraîne une table des matières longue et encombrée. (GUIDES-37940, GUIDES-20156)
 
