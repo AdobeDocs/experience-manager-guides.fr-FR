@@ -1,9 +1,9 @@
 ---
 title: Notes de mise à jour | Correction de problèmes dans Adobe Experience Manager Guides, version 2026.08.0
 description: Découvrez les correctifs de la version 2026.08.0 d’Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 9e4af58e571659d9ed92308d3629a193d5558417
+source-git-commit: 6872e4298df8e51a3c46845793d4dad23f92eddb
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1200'
 ht-degree: 1%
 
 ---
@@ -85,16 +85,16 @@ Adobe a identifié les problèmes connus suivants pour la version 2026.08.0 :
 ## Création
 
 - La fermeture d&#39;un fichier DITAVAL déplacé vers un autre emplacement génère un message d&#39;erreur `ERROR IN FETCHING VERSION DETAILS`. (GUIDES-51420)
+- L’API de conflit échoue et entraîne une erreur d’application lorsque le chemin du dossier du référentiel se termine par une barre oblique. (GUIDES-51006)
 
 ## Éditeur 2.0
 
 
-- L’API de conflit échoue et entraîne une erreur d’application lorsque le chemin du dossier du référentiel se termine par une barre oblique. (GUIDES-51006)
 - La sélection d’un élément d’instruction de traitement en mode Plan met en surbrillance l’intégralité de la balise parent au lieu de l’élément sélectionné. (GUIDES-48318)
 - La modification d’un mot-clé dans un `keyref` dans la vue source interrompt le mot-clé lorsque l’affichage est basculé vers une autre vue. (GUIDES-49998)
 - Une équation MathML encapsulée dans un bloc `foreign` et `equation` entraîne un espacement indésirable. En outre, la saisie dans l’équation entraîne des problèmes même après le réglage de la mise en retrait. (GUIDES-46606)
 - Impossible de placer un curseur à l’intérieur d’un `topicref` dans un `reltable` lorsque l’option **Afficher les balises** est activée et que l’option **Afficher les attributs** est désactivée dans les paramètres de l’éditeur. (GUIDES-46565)
-- Faire glisser et déposer une référence dans un `keydef` vide ajoute un élément `topicref` au lieu de mettre à jour la référence. (GUIDES-45068)
+
 - Espace saisi juste avant la suppression d’une balise intégrée dans une cellule de tableau `<entry>`. (GUIDES-49144)
 
 ## Publication
