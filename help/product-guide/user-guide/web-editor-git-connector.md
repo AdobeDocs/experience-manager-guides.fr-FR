@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
+source-git-commit: f8123b54fae2aa209efda73abb333e63cf722708
 workflow-type: tm+mt
-source-wordcount: 1352
+source-wordcount: 1409
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Les références suivantes affichent des temps de synchronisation complets (non 
 
 Une fois que votre administrateur a configuré le connecteur Git dans Experience Manager Guides, vous pouvez l’utiliser à partir de l’éditeur pour importer du contenu d’un référentiel Git.
 
-## Conditions préalables
+## Prérequis
 
 Avant de commencer à utiliser cette fonctionnalité, assurez-vous des points suivants :
 
@@ -115,7 +115,9 @@ Pour importer du contenu à partir d’un référentiel Git, procédez comme sui
 
    >[!NOTE]
    >
-   > Vous pouvez activer la **synchronisation automatique** pour synchroniser et importer automatiquement du contenu de votre référentiel Git vers Experience Manager Guides. Si des erreurs sont détectées, la synchronisation automatique n’est pas déclenchée et l’auteur doit importer manuellement le contenu en sélectionnant **Tout importer**. Une fois activée, la synchronisation automatique ne peut pas être désactivée pour l’importateur.
+   > Si vous utilisez une version de Git Connector antérieure à la version 1.0.1, l’importation d’un référentiel contenant des sous-modules Git peut échouer lors de l’opération de récupération. Effectuez la mise à niveau vers la version 1.0.1 ou une version ultérieure du connecteur Git pour éviter ce problème. À compter de la version 1.0.1, les sous-modules Git sont ignorés lors du clonage et de l’importation, et seul le contenu du référentiel principal est importé.
+
+1. *(Facultatif)* Vous pouvez activer la fonction **Synchronisation automatique** pour synchroniser et importer automatiquement du contenu de votre référentiel Git dans Experience Manager Guides. Si des erreurs sont détectées, la synchronisation automatique n’est pas déclenchée et l’auteur doit importer manuellement le contenu en sélectionnant **Tout importer**. Une fois activée, la synchronisation automatique ne peut pas être désactivée pour l’importateur.
 
 Une fois le contenu importé, il est stocké sous le **chemin d’accès racine Target AEM** configuré lors de la configuration du connecteur Git.
 
