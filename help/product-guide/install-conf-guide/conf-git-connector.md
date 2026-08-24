@@ -4,9 +4,9 @@ description: Découvrez comment configurer un Git dans Experience Manager Guides
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
+source-git-commit: b73e904c7e0a6f398e471be6fc874de30742e519
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Utilisez l’outil Sources de données de Experience Manager Guides pour créer 
 > Avant de commencer, assurez-vous que le connecteur Git est déployé sur votre projet Cloud Manager. Pour plus d’informations, consultez la section [Ajout d’un connecteur Git à votre projet Cloud Manager.](#add-git-connector-to-your-cloud-manager-project)
 
 
-1. Sélectionnez le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
+1. Sélectionnez le lien **** en haut et choisissez **Outils**.
 1. Sélectionnez **Guides** dans la liste des outils.
 1. Sélectionnez la mosaïque **Sources de données**. La page **Sources de données** s’affiche.
 1. Sélectionnez **Créer**.
@@ -40,19 +40,19 @@ Utilisez l’outil Sources de données de Experience Manager Guides pour créer 
    >[!TIP]
    >
    >* Survoler <img src="./assets/info-details.svg" alt= "icône info" width="25"> près du champ pour en savoir plus.
-   >* Les champs comportant le caractère * sont obligatoires. Par exemple, vous pouvez saisir les informations suivantes pour le connecteur Elasticsearch.
+   >* Les champs comportant le caractère * sont obligatoires. Par exemple, vous pouvez saisir les informations suivantes pour le connecteur Git.
 
-   &#x200B;- **Nom** : saisissez le nom de la source de données.
-   &#x200B;- **Chemin d’accès racine AEM cible** : saisissez le chemin d’accès dans le référentiel AEM où le contenu importé depuis Git doit être stocké.
-   &#x200B;- **Filtre de type de fichier (inclusion)** : indiquez les types de fichiers à inclure lors de l’importation.
-   &#x200B;- **Chemin exclu (regex)** : spécifiez les modèles de chemin à exclure de l’importation.
-   &#x200B;- **Type d’authentification** : sélectionnez le type d’authentification dans la liste déroulante. Actuellement, la méthode d’authentification **PAT (Personal Access Token)** est la seule prise en charge. Saisissez le chemin d’accès lors de la configuration du connecteur pour authentifier et accéder au référentiel Git.
+   - **Nom** : saisissez le nom de la source de données.
+   - **Chemin d’accès racine AEM cible** : saisissez le chemin d’accès dans le référentiel AEM où le contenu importé depuis Git doit être stocké.
+   - **Filtre de type de fichier (inclusion)** : indiquez les types de fichiers à inclure lors de l’importation.
+   - **Chemin exclu (regex)** : spécifiez les modèles de chemin à exclure de l’importation.
+   - **Type d’authentification** : sélectionnez le type d’authentification dans la liste déroulante. Actuellement, la méthode d’authentification **PAT (Personal Access Token)** est la seule prise en charge. Saisissez le chemin d’accès lors de la configuration du connecteur pour authentifier et accéder au référentiel Git.
 
      Découvrez comment [générer un jeton d’accès personnel GitHub](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic).
 
      Lors de la sélection des portées pendant la génération PAT sur GitHub, veillez à activer les portées suivantes :
-     &#x200B;- **repo** : cochez la case de niveau supérieur. Toutes les sous-portées sont sélectionnées automatiquement, ce qui permet d’accéder au contenu du référentiel, au statut de validation et aux déploiements.
-     &#x200B;- **admin:org** : sélectionnez uniquement **lecture:org**. Cela est nécessaire pour résoudre l’appartenance à l’organisation et à l’équipe.
+     - **repo** : cochez la case de niveau supérieur. Toutes les sous-portées sont sélectionnées automatiquement, ce qui permet d’accéder au contenu du référentiel, au statut de validation et aux déploiements.
+     - **admin:org** : sélectionnez uniquement **lecture:org**. Cela est nécessaire pour résoudre l’appartenance à l’organisation et à l’équipe.
    * **URL du référentiel** : saisissez l’URL du référentiel Git à partir de laquelle le contenu doit être importé.
    * **Branche** : renseignez la branche à utiliser pour l’importation de contenu.
 
@@ -70,13 +70,17 @@ Utilisez l’outil Sources de données de Experience Manager Guides pour créer 
 
 Avant que le connecteur Git ne soit disponible pour configuration à partir de la page **Sources de données**, il doit être incorporé en tant que dépendance dans votre projet AEM. Effectuez les étapes suivantes pour ajouter la dépendance :
 
+>[!NOTE]
+>
+> Pour afficher les versions du connecteur Git disponibles, consultez [Référentiel Maven central](https://central.sonatype.com/artifact/com.adobe.aem.addon.guides/konnect-github).
+
 1. Dans le `all/pom.xml` de votre projet AEM, ajoutez Connecteur Git en tant que dépendance sous `<dependencies>` :
 
    ```xml
    <dependency>
        <groupId>com.adobe.aem.addon.guides</groupId>
        <artifactId>konnect-github</artifactId>
-       <version>1.0.0</version>
+       <version>1.0.1</version>
    </dependency>
    ```
 
