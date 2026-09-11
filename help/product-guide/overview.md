@@ -1,6 +1,6 @@
 ---
 title: Tutoriels pour Experience Manager Guides
-description: Recherchez des tutoriels vidéo pour Experience Manager Guides (anciennement XML Documentation for Adobe Experience Manager). Découvrez la prise en charge native de DITA et la création structurée dans Experience Manager.
+description: Découvrez des tutoriels vidéo pour Experience Manager Guides (anciennement XML Documentation for Adobe Experience Manager). Découvrez la prise en charge native de DITA et la création structurée dans Experience Manager.
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
 feature: AEM Guides Tutorials
 role: User
@@ -62,6 +62,6 @@ Grâce à [!DNL Experience Manager Guides] solution, les entreprises peuvent off
 ## Ressources supplémentaires
 
 * [Guide de l’utilisateur d’[!DNL Experience Manager Guides] (ancienne interface utilisateur)](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
-* [Formation et assistance [!DNL AEM Guides]](https://helpx.adobe.com/fr/support/xml-documentation-for-experience-manager.html)
+* [Formation et assistance [!DNL AEM Guides]](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
 * [Experience League - Explorer AEM](https://business.adobe.com/fr/products/experience-manager/adobe-experience-manager.html)
 
