@@ -18,10 +18,10 @@ role_v2:
     internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 244642e60f489789379feeba34f0d5fc80e18ce1
+source-git-commit: 07589ad852842604e53ccd7cb5802ade6573a786
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 38%
+source-wordcount: '917'
+ht-degree: 39%
 ---
 # Informations sur les versions d’[!DNL Experience Manager Guides] {#aem-guides-releases-roadmap}
 
@@ -40,8 +40,7 @@ Les versions de Experience Manager Guides as a Cloud Service sont prévues de la
 | Version | Événement | Planification | Nouveautés | Instructions de mise à niveau | Problèmes résolus | Statut |
 |---|---|---|---|---|---|---|
 | Adobe Experience Manager Guides 2026.09.0 | Mise à jour automatique | 28-30 septembre 2026 | - | - | - | Cible |
-| Adobe Experience Manager Guides 2026.11.0 | Mise à jour automatique | 8-10 Novembre 2026 | - | - | - | Cible |
-| Adobe Experience Manager Guides 2026.12.0 | Mise à jour automatique | 7-09 Décembre 2026 | - | - | - | Cible |
+| Adobe Experience Manager Guides 2026.11.0 | Mise à jour automatique | 9-11 novembre 2026 | - | - | - | Cible |
 
 
 ### Versions en direct
