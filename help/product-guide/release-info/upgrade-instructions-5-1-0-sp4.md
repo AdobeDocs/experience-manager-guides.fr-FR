@@ -60,7 +60,7 @@ Vous pouvez facilement mettre à niveau votre version actuelle de Experience Man
 
 >[!NOTE]
 >
-> Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, consultez la page [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, consultez la page [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/fr/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 Avant de procéder à la mise à niveau vers la version 5.1.0 Service Pack 4 de Experience Manager Guides, vous devez tenir compte des points suivants :
 
