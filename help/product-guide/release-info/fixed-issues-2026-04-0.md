@@ -1,18 +1,17 @@
 ---
 title: Notes de mise à jour | Correction de problèmes dans Adobe Experience Manager Guides, version 2026.04.0
 description: Découvrez les correctifs de bugs de la version 2026.04.0 d’Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: ce2c9da0d9beb05a15f7cefcf9483e0c93abbf37
+exl-id: 2861db0f-2086-445a-8b1d-27393f5b101d
+source-git-commit: 97512e5459540f57703bc99ec9a29a9d35786f01
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 3%
-
+ht-degree: 0%
 ---
-
 # Correction de problèmes dans la version 2026.04.0
 
 Cet article couvre les bugs corrigés dans différentes zones de la version 2026.04.0 d’Adobe Experience Manager Guides as a Cloud Service.
 
-Pour plus d’informations sur les nouvelles fonctionnalités et améliorations, voir la section [Nouveautés de la version 2026.04.0](whats-new-2026-04-0.md).
+Pour plus d’informations sur les nouvelles fonctionnalités et améliorations, consultez [Nouveautés de la version 2026.04.0](whats-new-2026-04-0.md).
 
 Découvrez les [instructions de mise à niveau pour la version 2026.04.0](upgrade-instructions-2026-04-0.md).
 

@@ -1,13 +1,12 @@
 ---
 title: Configuration supplémentaire pour la mise à niveau du service cloud
 description: Découvrez la configuration supplémentaire pour mettre à niveau le service cloud
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 92230263-776f-4019-8654-f35895785398
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 0%
-
+source-wordcount: '863'
+ht-degree: 1%
 ---
-
 # Configuration supplémentaire pour la mise à niveau d’AEM Guides as a Cloud Service
 
 >[!INFO]
@@ -85,7 +84,7 @@ Effectuez les étapes suivantes pour indexer le contenu existant et utiliser le 
 
 1. Vous pouvez également transmettre un dossier racine pour indexer les plans DITA d&#39;un dossier spécifique (et de ses sous-dossiers). Par exemple, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Notez que si le paramètre de chemins d’accès et le paramètre racine sont transmis, seul le paramètre de chemins d’accès est pris en compte.
 
-1. L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée, `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}` (par exemple : `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`).
+1. L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée : `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}` (par exemple : `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`).
 
 1. Une fois la tâche terminée, la requête GET précédente répond avec succès et mentionne si des mappages ont échoué. Les mappages correctement indexés peuvent être confirmés à partir des journaux du serveur.
 
@@ -106,10 +105,10 @@ Effectuez les étapes suivantes pour post-traiter le contenu existant et utilise
 
 1. Exécutez une requête POST au serveur (avec l’authentification correcte) - `http://<server>//bin/guides/reports/upgrade`.
 
-1. L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée : `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée - `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 (Par exemple : `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Une fois le traitement terminé, la requête GET précédente répond avec succès. Si la tâche échoue pour une raison quelconque, l’échec est visible dans les journaux du serveur.
+1. Une fois la tâche terminée, la requête GET précédente répond avec succès. Si la tâche échoue pour une raison quelconque, l’échec est visible dans les journaux du serveur.
 
 1. Revenez à la valeur par défaut ou à la valeur existante précédente de `queryLimitReads` si vous l’avez modifiée à l’étape 1.
 

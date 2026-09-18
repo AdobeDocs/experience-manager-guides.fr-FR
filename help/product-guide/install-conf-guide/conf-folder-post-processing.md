@@ -4,13 +4,12 @@ description: Découvrez comment désactiver le post-traitement d’un dossier ch
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: eaf974f4-c804-4392-b1f3-f4f24dd441f7
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '427'
 ht-degree: 0%
-
 ---
-
 # Désactivation du post-traitement pour un dossier
 
 Par défaut, toutes les ressources chargées sont traitées à l’aide du workflow Ressource de mise à jour de la gestion des ressources numériques . Experience Manager Guides exécute un traitement supplémentaire, appelé post-traitement, dans le cadre de ce workflow. Cela permet également de générer les UUID
@@ -21,14 +20,14 @@ Les onglets suivants fournissent des instructions pour désactiver le post-trait
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
-Suivez les instructions de la section [&#x200B; Remplacements de la configuration &#x200B;](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails (propriété) suivants pour désactiver le post-traitement sur un chemin donné ou ignorer le post-traitement pour un dossier :
+Suivez les instructions de la section [ Remplacements de la configuration ](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails (propriété) suivants pour désactiver le post-traitement sur un chemin donné ou ignorer le post-traitement pour un dossier :
 
 | PID | Clé de la propriété | Valeur de la propriété |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `ignored.post.processing.paths` | Valeur de chaîne pour définir toute `/` NODE_OPTIONS standard (propriété à plusieurs valeurs, chaînes dont le chemin d’accès omet la <br> à la fin) **Valeur par défaut** : `/content/dam/projects/translation_output` |
-| `com.adobe.fmdita.config.ConfigManager` | `enabled.post.processing.paths` | Valeur de chaîne pour définir toute `/` NODE_OPTIONS standard (propriété à plusieurs valeurs, chaînes dont le chemin d’accès omet la <br> à la fin) **Valeur par défaut** : `/content/dam` |
+| `com.adobe.fmdita.config.ConfigManager` | `ignored.post.processing.paths` | Valeur de chaîne pour définir toute valeur NODE_OPTIONS standard (propriété à plusieurs valeurs, chaînes dont le chemin d’accès omet la `/` à la fin) <br> **Valeur par défaut** : `/content/dam/projects/translation_output` |
+| `com.adobe.fmdita.config.ConfigManager` | `enabled.post.processing.paths` | Valeur de chaîne pour définir toute valeur NODE_OPTIONS standard (propriété à plusieurs valeurs, chaînes dont le chemin d’accès omet la `/` à la fin) <br> **Valeur par défaut** : `/content/dam` |
 
 >[!TAB  On-Premise ]
 
@@ -47,7 +46,7 @@ Effectuez les étapes suivantes pour désactiver le post-traitement sur un chemi
 
 1. Sélectionnez l’option **Chemins ignorés pour le post-traitement** pour ignorer un dossier à des fins de post-traitement.
 
-   Valeur de chaîne pour définir tout NODE_OPTIONS standard (propriété à plusieurs valeurs, chaînes dont le chemin d’accès omet la `/` à la fin)
+   Valeur de chaîne pour définir les NODE_OPTIONS standard (propriété à plusieurs valeurs, chaînes dont le chemin d’accès omet la `/` à la fin)
 
    **Valeur par défaut** : `/content/dam/projects/translation_output`
 
@@ -57,7 +56,7 @@ Effectuez les étapes suivantes pour désactiver le post-traitement sur un chemi
 
 1. Sélectionnez l’option **Chemins activés pour le post-traitement** pour activer un chemin pour le post-traitement.
 
-   Valeur de chaîne pour définir tout NODE_OPTIONS standard (propriété à plusieurs valeurs, chaînes dont le chemin d’accès omet la `/` à la fin)
+   Valeur de chaîne pour définir les NODE_OPTIONS standard (propriété à plusieurs valeurs, chaînes dont le chemin d’accès omet la `/` à la fin)
 
    **Valeur par défaut** : `/content/dam/`
 
@@ -77,4 +76,3 @@ Par défaut, le post-traitement est effectué pour chaque chemin d’accès au d
 * Si le parent est ignoré pour le post-traitement, mais que le dossier enfant est activé, l’enfant et tous ses successeurs sont considérés comme activés.
 * Si le parent est activé pour le post-traitement mais que l&#39;enfant est ignoré, l&#39;enfant et tous ses successeurs sont considérés comme ignorés.
 * Si le même chemin d’accès au dossier existe dans les configurations ignore.post.processing.paths et enabled.post.processing.paths, il est considéré comme ignoré pour le post-traitement.
-

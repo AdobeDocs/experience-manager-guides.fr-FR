@@ -4,22 +4,21 @@ description: Découvrez comment configurer et personnaliser des workflows
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 169d6e01-7ab2-4f0a-bd70-a3aee39cee8e
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '2158'
-ht-degree: 2%
-
+source-wordcount: '2280'
+ht-degree: 4%
 ---
-
 # Configuration et personnalisation de workflows {#id181AI0OJ0RO}
 
 Les workflows vous permettent d’automatiser les activités Adobe Experience Manager \(AEM\). Un workflow se compose d’une série d’étapes exécutées dans un ordre spécifique. Vous pouvez définir une activité distincte à exécuter sur chaque étape. Par exemple, vous pouvez envoyer une notification par e-mail à tous les réviseurs et réviseuses d’un groupe lors de la création d’une révision de rubrique. Vous pouvez également envoyer une notification à l’éditeur lorsqu’une tâche de génération de sortie est terminée.
 
 Pour plus d’informations sur les workflows dans AEM, voir
 
-| Cloud Service | On-Premise |
+| Cloud Service | On-Premise |
 |-------------|------------|
-| <ul><li>[Administration d’instances de workflow](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=fr)</li><li>Demande de processus et participation à des processus : [Utilisation des processus de projet](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html?lang=fr)</li></ul> | <ul><li>[Administration des workflows](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/workflows.html)</li><li>Demande de processus et participation à des processus : [Utilisation des processus](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/workflows.html)</li><li>Création de modèles de workflow et extension de la fonctionnalité de workflow : [Développement et extension des workflows](https://helpx.adobe.com/fr/experience-manager/6-5/sites/developing/using/workflows.html)</li><li>Amélioration des performances des workflows qui utilisent des ressources serveur importantes : [Traitement simultané de workflows](https://helpx.adobe.com/fr/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)</li></ul> |
+| <ul><li>[Administration d’instances de workflow](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=fr)</li><li>Demande de processus et participation à des processus : [Utilisation des processus de projet](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html)</li></ul> | <ul><li>[Administration des workflows](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)</li><li>Demande de processus et participation à des processus : [Utilisation des processus](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html)</li><li>Création de modèles de workflow et extension de la fonctionnalité de workflow : [Développement et extension des workflows](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html)</li><li>Amélioration des performances des workflows qui utilisent des ressources serveur importantes : [Traitement simultané de workflows](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)</li></ul> |
 
 Les sections de cette rubrique vous guideront à travers différentes personnalisations que vous pouvez effectuer dans les workflows par défaut fournis dans AEM Guides.
 
@@ -95,7 +94,7 @@ Vous pouvez créer ces scripts dans le nœud `/etc/workflows/scripts`. Le tablea
 | `initiator` | Chaîne | ID de l’utilisateur qui a lancé la tâche de révision. |
 | `operation` | Chaîne | Valeur statique définie comme `AEM_REVIEW`. |
 | `orgTopics` | Chaîne | Chemin d’accès aux rubriques partagées pour la révision. Spécifiez plusieurs rubriques séparées par des virgules. |
-| `payloadJson` | Objet JSON | Spécifiez les valeurs suivantes : -   `base` : chemin d’accès du dossier parent contenant la rubrique envoyée pour révision. <br> -   `asset` : chemin d’accès du topic envoyé pour révision. <br> -   `referrer` : laissez ce champ vide. |
+| `payloadJson` | Objet JSON | Spécifiez les valeurs suivantes : - `base` : chemin d’accès du dossier parent contenant la rubrique envoyée pour révision. <br> - `asset` : chemin d’accès du sujet envoyé pour révision. <br> - `referrer` : laissez ce champ vide. |
 | `deadline` | Chaîne | Spécifiez l’heure au format `yyyy-MM-dd'T'HH:mm:ss.SSSXXX`. |
 | `title` | Chaîne | Saisissez un titre pour la tâche de révision. |
 | `description` | Chaîne | Saisissez une description pour la tâche de révision. |
@@ -121,14 +120,14 @@ Pour améliorer les performances du moteur de workflow, vous pouvez purger régu
 
 Vous pouvez empêcher les workflows de révision de se purger automatiquement en supprimant le modèle de workflow de révision \(informations\) de la configuration de purge automatique. Vous devez utiliser la **configuration de la purge du workflow Adobe Granite** pour supprimer les modèles de workflow de révision de la liste de purge automatique.
 
-Dans la configuration de la purge du workflow Adobe Granite **&#x200B;**, veillez à répertorier au moins un workflow que vous pouvez purger en toute sécurité. Par exemple, vous pouvez utiliser l’un des workflows suivants créés par AEM Guides :
+Dans la configuration de la purge du workflow Adobe Granite ****, veillez à répertorier au moins un workflow que vous pouvez purger en toute sécurité. Par exemple, vous pouvez utiliser l’un des workflows suivants créés par AEM Guides :
 
 - /etc/workflow/models/publishditamap/jcr:content/model
 - /etc/workflow/models/post-dita-project-creation-tasks/ jcr:content/model
 
 L’ajout d’un workflow à la **Configuration de la purge du workflow Adobe Granite** garantit qu’AEM purge uniquement les workflows répertoriés dans la configuration. Cela empêche AEM de purger les informations du workflow de révision.
 
-Pour plus d’informations sur la configuration de la configuration de la purge du workflow Adobe Granite **&#x200B;**, voir *Administration d’instances de workflow* dans la documentation AEM.
+Pour plus d’informations sur la configuration de la configuration de la purge du workflow Adobe Granite ****, voir *Administration d’instances de workflow* dans la documentation AEM.
 
 ### Personnalisation des notifications par e-mail et AEM
 
@@ -271,7 +270,7 @@ Les propriétés suivantes régissent l’exécution des workflows de post-trait
 >
 > Les propriétés suivantes sont accessibles via la console web : http://&lt;nom du serveur\>:&lt;port\>/system/console/configMgr.
 
-| Propriété | Nom du lot | Description |
+| Propriété | Nom du bundle | Description |
 |--------|-----------|-----------|
 | Sorties dynamiques | `com.adobe.fmdita.postprocess.PostProcessObservation` | Pour tous les fichiers sur lesquels le post-traitement n&#39;a pas été effectué, il récupère les références sortantes en analysant les fichiers de rubrique. Il est recommandé de garder cette option désactivée, car elle peut surcharger le système si le nombre de fichiers à traiter est important. |
 | Threads de post-traitement | `com.adobe.fmdita.config.ConfigManager` | Définit le nombre de threads de post-traitement à utiliser pour le workflow de post-traitement. <br>La valeur par défaut est 1. |

@@ -4,13 +4,12 @@ description: Découvrez comment migrer du contenu non-UUID vers UUID
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 20c977de-db01-4d1e-ba8c-7fffc2a54231
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
-
 ---
-
 # Migration de contenu non UUID vers UUID {#id226TI0U20XA}
 
 
@@ -57,6 +56,3 @@ Pour obtenir des instructions détaillées sur la migration de votre contenu, re
 
 - [**4.3.1 migration de contenu non UUID vers 4.3.2 UUID**](../install-conf-guide/non-uuid-4-3.md)
 - [**4.6.0 Service Pack 4 - Migration de contenu non UUID vers 4.6.1 UUID**](../install-conf-guide/non-uuid-uuid-4-6.md)
-
-
-

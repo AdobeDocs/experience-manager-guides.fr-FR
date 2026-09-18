@@ -4,13 +4,12 @@ description: Découvrez comment mettre à niveau AEM Guides
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: b416334318a83e882c32318bc4769d24268cdd1c
+exl-id: 9d48a7c4-384d-4ad4-a1d3-4c50d97e5d5b
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '120'
 ht-degree: 2%
-
 ---
-
 # Mise à niveau d’AEM Guides pour Cloud Service {#id213BD050YPH}
 
 Effectuez les étapes suivantes pour mettre à niveau AEM Guides :
@@ -26,7 +25,7 @@ Effectuez les étapes suivantes pour mettre à niveau AEM Guides :
 
 >[!NOTE]
 >
-> Pour plus d’informations sur l’utilisation du pipeline CI/CD, voir [Utiliser le pipeline CI/CD dans Adobe Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html?lang=fr).
+> Pour plus d’informations sur l’utilisation du pipeline CI/CD, voir [Utiliser le pipeline CI/CD dans Adobe Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html).
 
 ## Videz la mémoire cache du navigateur.
 

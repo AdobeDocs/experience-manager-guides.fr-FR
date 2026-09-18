@@ -4,13 +4,12 @@ description: Découvrez comment vérifier l’installation d’AEM Guides
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 19cded6f-6545-42af-8511-7c32cf4ddf2d
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 0%
-
+source-wordcount: '311'
+ht-degree: 5%
 ---
-
 # Vérification de l’installation d’AEM Guides {#id213BD030FBE}
 
 Une fois que vous avez installé AEM Guides, vous devez vérifier si l’installation a réussi ou non.
@@ -19,7 +18,7 @@ Les onglets suivants fournissent des instructions pour vérifier l’installatio
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Effectuez les étapes suivantes pour vérifier l’installation :
 
@@ -29,7 +28,7 @@ Effectuez les étapes suivantes pour vérifier l’installation :
 
 1. Accédez à la liste des lots OSGi dans AEM.
 
-   Pour plus d’informations sur l’accès aux lots, voir [Lots](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=fr#bundles) dans la documentation AEM.
+   Pour plus d’informations sur l’accès aux lots, voir [Lots](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles) dans la documentation AEM.
 
 1. Recherchez fmdita dans la liste des lots et vérifiez son statut.
 
@@ -59,5 +58,3 @@ Effectuez les étapes suivantes pour vérifier l’installation :
 > Vous pouvez prendre en compte un certain nombre de recommandations d’optimisation des performances pour améliorer les performances de votre système. Pour plus d’informations, consultez [Recommandations pour l’optimisation des performances](perf-optimization-on-prem.md#).
 
 >[!ENDTABS]
-
-

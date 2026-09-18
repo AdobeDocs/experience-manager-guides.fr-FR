@@ -4,13 +4,12 @@ description: Découvrez comment migrer du contenu non-UUID vers UUID
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 0ce73a2a-e1a4-43b6-a918-75d1c537a87c
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1753'
 ht-degree: 2%
-
 ---
-
 # 4.6.0 Service Pack 4 - Migration de contenu non UUID vers 4.6.1 UUID
 
 Effectuez les étapes suivantes pour migrer votre contenu de la version 4.6.0 Service Pack 4 non-UUID vers la version 4.6.1 UUID.
@@ -22,7 +21,7 @@ Effectuez les étapes suivantes pour migrer votre contenu de la version 4.6.0 Se
 >   1. Fermeture de tous les avis actifs.
 >   1. A fermé toutes les tâches de traduction.
 > * Avant de migrer le contenu vers le serveur UUID, assurez-vous de disposer d’un serveur non UUID sur lequel est installé une version d’AEM Guides compatible.
-> * Si vous utilisez une version antérieure au pack de services 4.6.0, vous devez d’abord effectuer la mise à niveau vers le pack de services 4.6.0. Suivez les [&#x200B; instructions de mise à niveau](./upgrade-aemg-latest-version.md) spécifiques à la version sous licence de votre produit.
+> * Si vous utilisez une version antérieure au pack de services 4.6.0, vous devez d’abord effectuer la mise à niveau vers le pack de services 4.6.0. Suivez les [ instructions de mise à niveau](./upgrade-aemg-latest-version.md) spécifiques à la version sous licence de votre produit.
 > * Si vous utilisez un pack de services spécifique publié après le pack de services 4.6.0, vous devez désinstaller ce pack de services et revenir au pack de services 4.6.0.
 
 ## Installation du package
@@ -165,7 +164,7 @@ Pour plus d’informations, voir [purger les anciennes versions](../install-conf
 
 | Résumé à l’issue du processus | Comment interpréter ? | Action |
 |---|---|---|
-| Nombre total de fichiers : 488 | Nombre total de fichiers traités dans l’ensemble de dossiers donné. | N/A |
+| Nombre total de fichiers : 488 | Nombre total de fichiers traités dans l’ensemble de dossiers donné. | S/O |
 | Nombre de fichiers migrés : 488 | Nombre de fichiers migrés avec succès vers UUID. | S/O |
 | Nombre de fichiers ignorés : 0 | Certains fichiers du référentiel de gestion des ressources numériques peuvent comporter des sous-ressources, lesquelles sont ignorées car elles ne sont pas éligibles à la migration UUID. | S/O |
 | Nombre de fichiers n&#39;ayant pas pu être mis à niveau : 0 | Si le nombre n’est pas égal à 0, les journaux doivent être analysés pour détecter d’éventuels problèmes. | Vérifiez l’exception, vous devrez peut-être corriger l’erreur et réexécuter la migration. |
@@ -219,4 +218,4 @@ De plus, une liste des **Fichiers mis à niveau avec des erreurs** et des **Fich
    > Si, avant la migration, la propriété **Utiliser le titre pour les noms de page du site AEM** dans `com.adobe.fmdita.config.ConfigManager`, définie sur *False*, après la migration, cette propriété doit être mise à jour.
 
 
-1. Une fois la validation terminée, la majeure partie de l’espace disque peut être récupérée en exécutant la compression (voir la section `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=fr`).
+1. Une fois la validation terminée, la majeure partie de l’espace disque peut être récupérée en exécutant la compression (voir la section `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).

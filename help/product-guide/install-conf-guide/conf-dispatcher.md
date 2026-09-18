@@ -4,13 +4,12 @@ description: Découvrez comment configurer Dispatcher
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 4b7b4e9b-0a5c-4b61-87d9-a6bd6494c030
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 7%
-
+source-wordcount: '293'
+ht-degree: 10%
 ---
-
 # Configurer Dispatcher {#id213BCM0M05U}
 
 Si vous prévoyez d’utiliser une instance Dispatcher sur l’instance d’auteur AEM avec AEM Guides, vous devez effectuer les configurations supplémentaires suivantes pour terminer la configuration :
@@ -79,4 +78,3 @@ Lors de l’utilisation d’un Dispatcher avec AEM Guides, si votre instance de 
                 /type "deny"
                 }
 ```
-

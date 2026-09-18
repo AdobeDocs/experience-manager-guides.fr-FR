@@ -1,13 +1,12 @@
 ---
 title: Révision de contenu dans AEM Guides
 description: Session d’experts - dans le workflow de révision AEM Guides. Fonctionnalités et cas d’utilisation réel
-source-git-commit: a05fb3e28481648b7cceca970dc9d9a617dce3a2
+exl-id: 4fa4a7f8-4b0b-45d8-978e-e2bde3692b1d
+source-git-commit: 0d214aca4b5f12d5401ed174d20259627bf94469
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '234'
 ht-degree: 2%
-
 ---
-
 # Révision de contenu dans AEM Guides
 
 Le workflow de révision AEM Guides permet aux auteurs, experts et réviseurs de collaborer sur des rubriques et des cartes DITA sans quitter AEM. Il prend en charge les annotations, le contrôle de version, la gestion des tâches et les approbations à plusieurs étapes.
@@ -38,11 +37,11 @@ Au cours de cette session, nous avons abordé les sujets suivants :
 
 ## Ressources connexes
 
-- [Consultez la documentation des workflows](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/user-guide/review/review)
+- [Consulter la documentation sur les workflows](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/review/review)
 
-- [Intégration d’AEM Guides à Workfront](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
+- [Intégration d’AEM Guides à Workfront](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
 
-- [Personnalisation de l’interface utilisateur de révision](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
+- [Personnalisation de l’interface utilisateur de révision](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
 
 
 
@@ -55,7 +54,7 @@ Au cours de cette session, nous avons abordé les sujets suivants :
 
 ### Forum de la communauté
 
-- Pour plus d’interactions de la communauté Experience League spécifiques à une session, rendez-vous sur [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=fr).
+- Pour plus d’interactions de la communauté Experience League spécifiques à une session, rendez-vous sur [Forum AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 
 ## Nous contacter

@@ -4,13 +4,12 @@ description: Découvrez comment configurer un modèle de plan DITA personnalisé
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 467cc4be-5fe7-466e-887b-eccc63acae8a
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '676'
 ht-degree: 1%
-
 ---
-
 # Configurer un modèle de plan DITA personnalisé {#id1774F04F05Z}
 
 AEM Guides est fourni avec deux modèles de carte prêts à l&#39;emploi : DITA map et Bookmap. Vous pouvez créer des mappages basés sur ces modèles ou définir vos propres modèles de mappage qui peuvent ensuite être utilisés pour créer de nouveaux mappages.
@@ -20,7 +19,7 @@ Les onglets suivants fournissent des instructions pour configurer un modèle de 
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Pour ajouter vos modèles de carte personnalisés, procédez comme suit :
 
@@ -102,7 +101,7 @@ Suivez les instructions fournies dans [Remplacements de la configuration](downlo
 
 | PID | Clé de la propriété | Valeur de la propriété |
 |---|------------|--------------|
-| com.adobe.fmdita.xmleditor.config.XmlEditorConfig | xmleditor.asyncmapcreation | > 0 <br> **Valeur par défaut** : 5 |
+| com.adobe.fmdita.xmlEditor.config.XmlEditorConfig | xmleditor.asyncmapcreation | > 0 <br> **Valeur par défaut** : 5 |
 
 Lors de la création d&#39;un plan DITA avec des références de sujet volumineuses à l&#39;aide d&#39;un modèle personnalisé, la création du plan échoue sur le serveur cloud si le temps de traitement total dépasse 60 secondes.
 

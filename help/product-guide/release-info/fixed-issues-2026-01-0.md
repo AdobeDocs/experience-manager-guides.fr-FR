@@ -1,18 +1,17 @@
 ---
 title: Notes de mise à jour | Correction de problèmes dans Adobe Experience Manager Guides, version 2026.01.0
 description: Découvrez les correctifs de bugs de la version 2026.01.0 d’Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 8a9a82e79c757e403141e853aafbc64e1618c30a
+exl-id: fd95166b-683e-463c-ad58-ade317c31d6e
+source-git-commit: 100b115fcc6bd5522e88a3e236f3771d13ce389c
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 3%
-
+source-wordcount: '717'
+ht-degree: 1%
 ---
-
 # Correction de problèmes dans la version 2026.01.0
 
 Cet article couvre les bugs corrigés dans différentes zones de la version 2026.01.0 d’Adobe Experience Manager Guides as a Cloud Service.
 
-Pour plus d’informations sur les nouvelles fonctionnalités et améliorations, voir la section [Nouveautés de la version 2026.01.0](whats-new-2026-01-0.md).
+Pour plus d’informations sur les nouvelles fonctionnalités et améliorations, consultez [Nouveautés de la version 2026.01.0](whats-new-2026-01-0.md).
 
 Découvrez les [instructions de mise à niveau pour la version 2026.01.0](upgrade-instructions-2026-01-0.md).
 
@@ -37,9 +36,9 @@ Découvrez les [instructions de mise à niveau pour la version 2026.01.0](upgrad
 - Lors de l’activation en bloc, la création de package ajoute des filtres pour tous les chemins répertoriés sous la propriété `fileReference` d’une page, y compris les chemins externes et d’homologue. (GUIDES-24887)
 - Dans la sortie PDF native, l’élément `abbreviated-form` affiche le `glossterm` au lieu du `glossSurfaceForm` ou du `glossAcronym` désigné. (GUIDES-26393)
 - Pour la sortie Native PDF, l’élément `<alt>` pour les images est ignoré, ce qui empêche l’application de texte secondaire pour des raisons d’accessibilité. (GUIDES-29087)
-- Lors du téléchargement de fichiers temporaires pour un mappage avec une ligne de base lors de la publication d’un paramètre prédéfini, le fichier `metadata.xml` référence incorrectement le `versionPath` plutôt que le `dampath`.(GUIDES-29815)
+- Lors du téléchargement de fichiers temporaires pour une carte avec une ligne de base lors de la publication d’un paramètre prédéfini, le fichier `metadata.xml` référence incorrectement le `versionPath` au lieu du `dampath`.(GUIDES-29815)
 - Lors de la création ou de la modification d’une rubrique qui inclut une citation, si le champ Auteur n’est pas ajouté à la boîte de dialogue de citation, le PDF n’est pas généré. (GUIDES-37934)
-- Le fichier CSS (`rhdefault.css`) est incorrectement appliqué au modèle PDF bien qu’aucun fichier CSS ne soit référencé, ce qui entraîne l’absence de journaux d’erreurs de fichier CSS.(GUIDES-31752)
+- Le fichier CSS (`rhdefault.css`) est incorrectement appliqué au modèle PDF bien qu’aucune feuille CSS ne soit référencée, ce qui entraîne l’absence de journaux d’erreurs de fichier CSS.(GUIDES-31752)
 
 ## Plateforme
 
@@ -57,15 +56,3 @@ Adobe a identifié les problèmes connus suivants pour la version 2026.01.0 :
 - Lorsqu’une rubrique de révision en cours est supprimée d’une tâche de révision en cours, son état de document reste **En révision**, même si la rubrique ne fait plus partie d’une tâche de révision. (GUIDES-38709)<br>**Solution de contournement** : remplacez le statut du document de la rubrique **En cours de révision** par le statut approprié à partir de la page Propriétés ou du panneau Propriétés du fichier.
 - Lors de l’exécution d’une recherche à l’aide de **Rechercher et remplacer**, si vous ouvrez un fichier à partir des résultats de la recherche, le fermez, puis tentez de le rouvrir en sélectionnant le résultat répertorié, la réouverture du fichier échoue. (GUIDES-39050)<br>**Solution** : ouvrez d’abord un autre fichier à partir des résultats de la recherche, puis rouvrez le fichier précédemment fermé dans la liste pour résoudre le problème.
 - Lors de l’utilisation de Guides avec le serveur de base de données, pour le contenu qui inclut des auto-références, le rapport Liste de rubriques affiche des entrées non valides pour chaque auto-référence, ce qui entraîne un nombre de fichiers inexact. (GUIDES-39420)
-
-
-
-
-
-
-
-
-
-
-
-

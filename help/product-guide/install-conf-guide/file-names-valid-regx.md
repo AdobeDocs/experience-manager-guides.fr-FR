@@ -4,13 +4,12 @@ description: Découvrez comment configurer la regx pour les caractères de nom d
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 0eacc712-1179-4c11-b8f9-9eb2706e6295
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '511'
 ht-degree: 0%
-
 ---
-
 # Configurer Regx pour les caractères de nom de fichier valides {#id214BD0550E8}
 
 À partir de la version 3.8 d’AEM Guides, en tant qu’administrateur, vous pouvez définir une liste de caractères spéciaux valides autorisés dans les noms de fichier. Dans les versions antérieures, les utilisateurs étaient autorisés à définir des noms de fichier contenant des caractères spéciaux tels que `@`, `$`, `>`, etc. Ces caractères spéciaux entraînaient des problèmes lors de l&#39;ouverture de rubriques à partir du tableau de bord de plan DITA ou du clic sur le lien de la rubrique dans la table des matières, ce qui empêchait souvent l&#39;ouverture de la page en raison de caractères spéciaux dans l&#39;URL.
@@ -26,7 +25,7 @@ Les onglets suivants fournissent des instructions pour configurer Regx pour les 
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer une expression régulière pour les caractères de nom de fichier valides :
 

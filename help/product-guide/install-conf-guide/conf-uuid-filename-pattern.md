@@ -4,13 +4,12 @@ description: Découvrez comment configurer le modèle de nom de fichier UUID
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 63d19ec4-1313-4691-b83e-38b67f9d2050
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '301'
 ht-degree: 1%
-
 ---
-
 # Configurer le modèle de nom de fichier UUID
 
 Lorsque vous importez du contenu, il n’est pas nécessaire que vos noms de fichier soient basés sur l’UUID. Dans un système qui utilise des noms de fichiers basés sur l’UUID, il est obligatoire que tous les fichiers soient référencés à l’aide de leur UUID plutôt que de leur nom de fichier d’origine. Si un fichier importé ne possède pas de nom de fichier basé sur UUID, vous pouvez configurer le système pour ajouter un UUID à sa propriété de fichier. Cet UUID est ensuite utilisé pour faire référence aux fichiers pour lesquels l’UUID n’est pas utilisé pour nommer les fichiers.
@@ -21,7 +20,7 @@ Les onglets suivants fournissent des instructions pour configurer le modèle de 
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer le modèle de nom de fichier UUID :
 
@@ -50,8 +49,3 @@ Effectuez les étapes suivantes pour vérifier les noms de fichiers par rapport 
 1. Sélectionnez **Enregistrer**.
 
 >[!ENDTABS]
-
-
-
-
-

@@ -4,13 +4,12 @@ description: Découvrez comment personnaliser et configurer les différents comp
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 2198b9c77a0dfa888edbce5994da4721cb6127e6
+exl-id: f1ee4b53-9fdc-4227-903f-082fcf67818b
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
-
 ---
-
 # Publication native de PDF
 
 Avec AEM Guides, vous pouvez générer des fichiers PDF de rubriques individuelles ou un fichier de mappage à l’aide de la fonction de génération de sortie Native PDF. Vous pouvez personnaliser et utiliser des modèles PDF lors de la génération de la sortie PDF. Vous pouvez créer et concevoir des mises en page pour présenter les différentes sections de la sortie PDF en fonction de vos besoins.
@@ -26,9 +25,9 @@ Pour plus d’informations, voir :
 * [Variables dans la sortie PDF](../native-pdf/native-pdf-variables.md)
 * [Ajout d’un code à barres à la sortie PDF](../native-pdf/add-barcode.md)
 * Styles de contenu courants {#content-styles}
-   * [Utiliser les styles de contenu courants](../native-pdf/stylesheet.md)
-   * [Utiliser les styles de barres de modification personnalisés](../native-pdf/change-bar-style.md)
-   * [Application d’un style personnalisé aux entrées de la table des matières et au contenu de la rubrique](../native-pdf/custom-style-toc.md)
-   * [Ajout d’un signet personnalisé dans la sortie PDF](../native-pdf/add-custom-bookmark.md)
-   * [Utilisation de JavaScript pour utiliser du contenu ou du style](../native-pdf/use-javascript-content-style.md)
-   * [Utilisation de styles personnalisés dans les notes de bas de page](../native-pdf/footnote-number-style.md)
+  * [Utiliser les styles de contenu courants](../native-pdf/stylesheet.md)
+  * [Utiliser les styles de barres de modification personnalisés](../native-pdf/change-bar-style.md)
+  * [Application d’un style personnalisé aux entrées de la table des matières et au contenu de la rubrique](../native-pdf/custom-style-toc.md)
+  * [Ajout d’un signet personnalisé dans la sortie PDF](../native-pdf/add-custom-bookmark.md)
+  * [Utilisation de JavaScript pour utiliser du contenu ou du style](../native-pdf/use-javascript-content-style.md)
+  * [Utilisation de styles personnalisés dans les notes de bas de page](../native-pdf/footnote-number-style.md)
