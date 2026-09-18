@@ -48,7 +48,7 @@ ht-degree: 6%
 
 Experience Manager Guides est un système de gestion de contenu d’entreprise avec prise en charge native de DITA pour la création structurée, la publication multicanal et la gestion du cycle de vie du contenu.
 
-[!BADGE ]{type=Informative}, [!BADGE On-Premise]{type=Informative}, [!BADGE Managed Services]{type=Informative}
+{type=Informative}, [!BADGE On-Premise]{type=Informative}, [!BADGE Managed Services]{type=Informative}
 
 ## Commencer par votre rôle
 
@@ -57,7 +57,7 @@ Experience Manager Guides est un système de gestion de contenu d’entreprise a
 ::::landing-cards-container
 
 :::card
-![ Icône Auteurs ](./user-guide/images/author.svg)
+![&#x200B; Icône Auteurs &#x200B;](./user-guide/images/author.svg)
 
 Auteurs
 
@@ -67,7 +67,7 @@ Créez et gérez des rubriques, des mappages, une réutilisation du contenu et d
 :::
 
 :::card
-![ Icône Administrateurs ](./user-guide/images/admin.svg)
+![&#x200B; Icône Administrateurs &#x200B;](./user-guide/images/admin.svg)
 
 Administrateurs
 
@@ -87,7 +87,7 @@ Configurez les paramètres prédéfinis de sortie, gérez les lignes de base et 
 :::
 
 :::card
-![ Icône Architectes ](./user-guide/images/architect.svg)
+![&#x200B; Icône Architectes &#x200B;](./user-guide/images/architect.svg)
 
 Architectes
 
@@ -125,7 +125,7 @@ Consultez les rubriques, gérez les tâches et les notifications de révision.
 :::
 
 :::card
-![ Icône de publication ](./user-guide/images/publish.svg)
+![&#x200B; Icône de publication &#x200B;](./user-guide/images/publish.svg)
 
 Publication
 
@@ -135,7 +135,7 @@ Types de sortie PDF, AEM Sites, HTML5, EPUB et JSON.
 :::
 
 :::card
-![ Icône de traduction ](./user-guide/images/Smock_GlobeGrid_18_N.svg)
+![&#x200B; Icône de traduction &#x200B;](./user-guide/images/Smock_GlobeGrid_18_N.svg)
 
 Traduction
 
