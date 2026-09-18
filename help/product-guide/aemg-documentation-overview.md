@@ -195,7 +195,7 @@ Profils de dossier, personnalisation DITA-OT et modèles de sortie.
 
 * [Notes de mise à jour de Cloud Service](./release-info/latest-release-info-cs.md)
 * [Notes de mise à jour d’On-Premise](./release-info/latest-release-info.md)
-* [Communauté AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
-* [Référentiel GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
-* [Assistance](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
-* [Tutoriels vidéo](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [Communauté AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=fr){target="_blank"}
+* [Référentiel GitHub](https://github.com/AdobeDocs/experience-manager-guides.fr-FR){target="_blank"}
+* [Assistance](https://experienceleague.adobe.com/support/v2/en/?lang=fr){target="_blank"}
+* [Tutoriels vidéo](https://experienceleague.adobe.com/fr/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
