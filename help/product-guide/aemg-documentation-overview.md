@@ -39,41 +39,38 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6ec4546ab632167e8e49baacc8e771a44563f394
+source-git-commit: 411756129e6ce756f8674d6d3feb27a1cd9a2f19
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '311'
 ht-degree: 6%
 ---
 # Documentation de Experience Manager Guides
 
 Experience Manager Guides est un système de gestion de contenu d’entreprise avec prise en charge native de DITA pour la création structurée, la publication multicanal et la gestion du cycle de vie du contenu.
 
-**Déploiement :** [!BADGE Cloud Service]{type=Informative} [!BADGE On-Premise]{type=Informative} [!BADGE Managed Services]{type=Informative}
+**Déploiement :** [!BADGE Cloud Service]{type=Positive} [!BADGE On-Premise]{type=Informative}
 
 ## Commencer par votre rôle
 
-<!-- Author note: The landing-cards-container component is in beta with known display issues in preview and review environments. Verify rendering in production before publishing. Update icon paths below once confirmed against the ExL CDN icon library. Role card links point to the first topic in each role's section of the left nav — update paths to match the actual repo structure. -->
-
 ::::landing-cards-container
-
 :::card
-![&#x200B; Icône Auteurs &#x200B;](./user-guide/images/author.png)
-
-Auteurs
-
-Créez et gérez des rubriques, des mappages, une réutilisation du contenu et des workflows de révision DITA.
-
-[Présentation de la création](./user-guide/authoring-content.md)
-:::
-
-:::card
-![&#x200B; Icône Administrateurs &#x200B;](./user-guide/images/admin.png)
+![ Icône Administrateurs ](./user-guide/images/admin.png)
 
 Administrateurs
 
 Configurez les profils de dossier, les autorisations, les paramètres de workflow et les modèles de sortie.
 
 [Guide d’administration](./install-conf-guide/introduction.md)
+:::
+
+:::card
+![ Icône Auteurs ](./user-guide/images/author.png)
+
+Auteurs
+
+Créez et gérez des rubriques, des mappages, une réutilisation du contenu et des workflows de révision DITA.
+
+[Présentation de la création](./user-guide/authoring-content.md)
 :::
 
 :::card
@@ -86,6 +83,9 @@ Configurez les paramètres prédéfinis de sortie, gérez les lignes de base et 
 [Gestion et publication des cartes](./user-guide/map-console-overview.md)
 :::
 
+::::
+
+
 <!--
 :::card
 ![Architects icon](./user-guide/images/architect.svg)
@@ -96,8 +96,9 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 [DITA specialization](./install-conf-guide/dita-ot-specialization.md)
 :::
--->
+
 ::::
+-->
 
 ## Explorer par domaine
 
@@ -126,7 +127,7 @@ Consultez les rubriques, gérez les tâches et les notifications de révision.
 :::
 
 :::card
-![&#x200B; Icône de publication &#x200B;](./user-guide/images/publish.svg)
+![ Icône de publication ](./user-guide/images/publish.svg)
 
 Publication
 
@@ -136,7 +137,7 @@ Types de sortie PDF, AEM Sites, HTML5, EPUB et JSON.
 :::
 
 :::card
-![&#x200B; Icône de traduction &#x200B;](./user-guide/images/Smock_GlobeGrid_18_N.svg)
+![ Icône de traduction ](./user-guide/images/Smock_GlobeGrid_18_N.svg)
 
 Traduction
 
@@ -170,33 +171,68 @@ Profils de dossier, personnalisation DITA-OT et modèles de sortie.
 ## Nouveautés
 
 <!-- Author note: Badges render correctly in markdown table cells per ExL spec. <br> is supported within cells. Update release version, links, and descriptions each release cycle. The What's new table is the primary update touchpoint on this page — aim to refresh it within one week of each cloud service release. -->
+::::landing-cards-container
 
+:::card
+![Icône Administrateur](https://cdn.experienceleague.adobe.com/icons/admin.svg)
 
+Connecteur Git
+
+Importez le contenu dans les guides directement à partir des référentiels Git.
+
+[Importer du contenu à l’aide du connecteur Git](./user-guide/web-editor-git-connector.md)
+:::
+
+:::card
+![Icône Résolution des problèmes](https://cdn.experienceleague.adobe.com/icons/atomic-search-troubleshoot.svg)
+
+Nouvelle collection de cartes
+
+Interface unifiée pour la gestion des cartes et la publication des sorties.
+
+[Nouvelle collection de cartes](./user-guide/web-editor-git-connector.md)
+:::
+
+:::card
+![Icône Livre](https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+Déléguer la tâche de révision
+
+Les réviseurs peuvent déléguer une tâche de révision à un autre réviseur.
+
+[Déléguer une tâche de révision](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)
+:::
+
+::::
+
+<!--
 <table>
 <tr>
 <td>
 
-[!BADGE Fonctionnalité]{type=Neutral} <br> [**Importation de contenu à l’aide du connecteur Git**](./user-guide/web-editor-git-connector.md)<br> Importez du contenu dans les guides directement à partir des référentiels Git.
+[!BADGE Feature]{type=Neutral} <br> [**Import content using Git Connector**](./user-guide/web-editor-git-connector.md)<br> Import content into Guides directly from Git repositories.
 
 </td>
 <td>
 
-[!BADGE Fonctionnalité]{type=Neutral} <br> [**Nouvelle collection de cartes**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> Interface unifiée pour la gestion des cartes et la publication des sorties
+[!BADGE Feature]{type=Neutral} <br> [**New map collection**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> Unified interface for managing maps and publishing outputs
 
 </td>
 <td>
 
-[!BADGE Amélioration]{type=Neutral} <br> [**Déléguer une tâche de révision**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> les réviseurs et réviseuses peuvent déléguer une tâche de révision à un autre réviseur ou une autre réviseuse
+[!BADGE Enhancement]{type=Neutral} <br> [**Delegate a review task**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> Reviewers can delegate a review task to another reviewer
 
 </td>
 </tr>
 </table>
+-->
+
 
 ## Ressources supplémentaires
 
 * [Notes de mise à jour de Cloud Service](./release-info/latest-release-info-cs.md)
 * [Notes de mise à jour d’On-Premise](./release-info/latest-release-info.md)
-* [Communauté AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=fr){target="_blank"}
-* [Référentiel GitHub](https://github.com/AdobeDocs/experience-manager-guides.fr-FR){target="_blank"}
-* [Assistance](https://experienceleague.adobe.com/support/v2/en/?lang=fr){target="_blank"}
-* [Tutoriels vidéo](https://experienceleague.adobe.com/fr/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [Communauté AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [Référentiel GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Assistance](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Tutoriels vidéo](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
