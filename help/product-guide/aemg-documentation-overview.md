@@ -194,7 +194,7 @@ Interface unifiée pour la gestion des cartes et la publication des sorties.
 :::
 
 :::card
-![Icône Livre](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![Icône Livre](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Déléguer la tâche de révision
 
@@ -232,7 +232,7 @@ Les réviseurs peuvent déléguer une tâche de révision à un autre réviseur.
 
 * [Notes de mise à jour de Cloud Service](./release-info/latest-release-info-cs.md)
 * [Notes de mise à jour d’On-Premise](./release-info/latest-release-info.md)
-* [Communauté AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
-* [Référentiel GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
-* [Assistance](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
-* [Tutoriels vidéo](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [Communauté AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=fr){target="_blank"}
+* [Référentiel GitHub](https://github.com/AdobeDocs/experience-manager-guides.fr-FR){target="_blank"}
+* [Assistance](https://experienceleague.adobe.com/support/v2/en/?lang=fr){target="_blank"}
+* [Tutoriels vidéo](https://experienceleague.adobe.com/fr/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
