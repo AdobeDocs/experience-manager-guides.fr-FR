@@ -54,7 +54,7 @@ Experience Manager Guides est un système de gestion de contenu d’entreprise a
 
 ::::landing-cards-container
 :::card
-![ Icône Administrateurs ](../assets/admin.png)
+![&#x200B; Icône Administrateurs &#x200B;](../assets/admin.png)
 
 Administrateurs
 
@@ -64,7 +64,7 @@ Configurez les profils de dossier, les autorisations, les paramètres de workflo
 :::
 
 :::card
-![ Icône Auteurs ](../assets/author.png)
+![&#x200B; Icône Auteurs &#x200B;](../assets/author.png)
 
 Auteurs
 
@@ -126,7 +126,7 @@ Consultez les rubriques, gérez les tâches et les notifications de révision.
 :::
 
 :::card
-![ Icône de publication ](../assets/publishing.png)
+![&#x200B; Icône de publication &#x200B;](../assets/publishing.png)
 
 Publication
 
@@ -136,7 +136,7 @@ Types de sortie PDF, AEM Sites, HTML5, EPUB et JSON.
 :::
 
 :::card
-![ Icône de traduction ](../assets/translation.png)
+![&#x200B; Icône de traduction &#x200B;](../assets/translation.png)
 
 Traduction
 
@@ -177,7 +177,7 @@ Profils de dossier, personnalisation DITA-OT et modèles de sortie.
 <tr style="border: 0;">
 <td>
 
-![ Connecteur Git ](../assets/whats-new-git-connector.svg)
+![&#x200B; Connecteur Git &#x200B;](../assets/whats-new-git-connector.svg)
 
 **[Importer du contenu à l’aide du connecteur Git](./user-guide/web-editor-git-connector.md)**
 
