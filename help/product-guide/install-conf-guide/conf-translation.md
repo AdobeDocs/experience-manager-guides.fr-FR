@@ -4,16 +4,15 @@ description: Découvrir comment traduire le contenu
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 7138fc35-09ee-4df5-8496-dc673effe120
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1368'
-ht-degree: 9%
-
+source-wordcount: '1573'
+ht-degree: 10%
 ---
-
 # Traduction du contenu {#id181GB0400UI}
 
-Automatisez la traduction du contenu des pages, des ressources et du contenu créé par les utilisateurs pour créer et tenir à jour des sites web multilingues. Pour automatiser les workflows de traduction, vous intégrez des fournisseurs de services de traduction à AEM et vous créez des projets pour traduire le contenu dans plusieurs langues. AEM prend en charge les workflows de traduction humaine et automatique.
+Automatisez la traduction du contenu des pages, des ressources et du contenu créé par les utilisateurs pour créer et tenir à jour des sites web multilingues. Pour automatiser les processus de traduction, vous intégrez des fournisseurs de services de traduction à AEM et vous créez des projets pour traduire le contenu dans plusieurs langues. AEM prend en charge les workflows de traduction humaine et automatique.
 
 - Traduction humaine : le contenu est envoyé à votre fournisseur de traduction et traduit par des traducteurs professionnels. Une fois la traduction terminée, le contenu traduit est renvoyé et importé dans AEM. Lorsque votre fournisseur de traduction est intégré à AEM, le contenu est automatiquement échangé entre AEM et le fournisseur de traduction
 
@@ -121,7 +120,7 @@ En fonction du workflow de traduction utilisé dans votre configuration, l’opt
 
 | PID | Clé de la propriété | Valeur de la propriété |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | Booléen : <br> -   Si vous utilisez la traduction humaine, alors *Désactivez* \( `false`\) l’option **Workflow de traduction basé sur les composants**. <br> -   Si vous utilisez la traduction automatique, *Activez \( `true`\)* l’option **Workflow de traduction basé sur les composants**. |
+| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | Booléen : <br> - Si vous utilisez la traduction humaine, *Désactivez* \( `false`\) l’option **Workflow de traduction basé sur les composants**. <br> - Si vous utilisez la traduction automatique, *Activez \( `true`\)* l’option **Workflow de traduction basé sur les composants**. |
 
 >[!TAB  On-Premise ]
 
@@ -171,7 +170,7 @@ Suivez les instructions fournies dans [Remplacements de la configuration](downlo
 
 | PID | Clé de la propriété | Valeur de la propriété |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Booléen : <br> - Si vous utilisez le dernier workflow de traduction, *Désactivez* \( `false`\) l’option **Exécuter le workflow de traduction hérité**.  <br> -   Si vous utilisez la traduction héritée, *Activez \( `true`\)* l’option **Exécuter le workflow de traduction hérité**. <br> **Valeur par défaut** : false |
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Booléen : <br> - Si vous utilisez le dernier workflow de traduction, *Désactivez* \( `false`\) l’option **Exécuter le workflow de traduction hérité**.  <br> - Si vous utilisez la traduction héritée, *Activez \( `true`\)* l’option **Exécuter le workflow de traduction hérité**. <br> **Valeur par défaut** : false |
 
 
 >[!NOTE]
@@ -221,7 +220,7 @@ Suivez les instructions fournies dans [Remplacements de la configuration](downlo
 
 | PID | Clé de la propriété | Valeur de la propriété |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Booléen : <br> -   Si vous ne souhaitez pas exécuter l’opération de post-traitement sur les fichiers temporaires, *Désactivez* \( false\) l’option **Post-traiter les copies de langue**.<br> -   Si vous souhaitez exécuter l’opération de post-traitement sur les fichiers temporaires, *Activez* \( true\) l’option **Post-traitement des copies de langue** <br>. **Valeur par défaut** : false |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Booléen : <br> - Si vous ne souhaitez pas exécuter l’opération de post-traitement sur les fichiers temporaires, *Désactivez* \( false\) l’option **Post-traitement des copies de langue** <br>. - Si vous souhaitez exécuter l’opération de post-traitement sur les fichiers temporaires, alors *Activez* \( true\) l’option **Post-traitement des copies de langue** <br>. **Valeur par défaut** : false |
 
 >[!TAB  On-Premise ]
 

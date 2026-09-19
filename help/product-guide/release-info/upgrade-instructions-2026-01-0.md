@@ -1,20 +1,19 @@
 ---
 title: Notes de mise à jour | Instructions de mise à niveau et problèmes résolus dans Adobe Experience Manager Guides version 2026.01.0
 description: Découvrez la matrice de compatibilité et comment effectuer une mise à niveau vers la version 2026.01.0 d’Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: e6dab21263731b42567729649a11e9d0a74f1dfd
+exl-id: 25513149-c852-4dd4-8a44-f03969af3bd6
+source-git-commit: 100b115fcc6bd5522e88a3e236f3771d13ce389c
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 3%
-
+source-wordcount: '1147'
+ht-degree: 1%
 ---
-
 # Instructions de mise à niveau pour la version 2026.01.0
 
 Cet article couvre les instructions de mise à niveau et la matrice de compatibilité pour la version 2026.01.0 d’Adobe Experience Manager Guides as a Cloud Service.
 
-Pour plus d’informations sur les nouvelles fonctionnalités et améliorations, voir la section [Nouveautés de la version 2026.01.0](whats-new-2026-01-0.md).
+Pour plus d’informations sur les nouvelles fonctionnalités et améliorations, consultez [Nouveautés de la version 2026.01.0](whats-new-2026-01-0.md).
 
-Pour connaître la liste des problèmes résolus dans cette version, voir la section [Problèmes résolus dans la version 2026.01.0](fixed-issues-2026-01-0.md).
+Pour obtenir la liste des problèmes résolus dans cette version, voir [Problèmes résolus dans la version 2026.01.0](fixed-issues-2026-01-0.md).
 
 ## Matrice de compatibilité
 
@@ -24,7 +23,7 @@ Cette section présente la matrice de compatibilité pour les applications logic
 
 | Version de Experience Manager Guides as a Cloud | FMPS | FrameMaker | Oxygen Author |
 | --- | --- | --- | --- |
-| 2026.01.0 | Non compatible | 2022 ou version ultérieure | 26,1 |
+| 2026.01.0 | Non compatible | 2022 ou version ultérieure | 26.1 |
 
 
 ### Connecteur D&#39;Oxygène
@@ -47,7 +46,7 @@ Cette section présente la matrice de compatibilité pour les applications logic
 |---|---|
 | guides-components.all-1.4.0 | aemg-sites-template-1.3.0 |
 
-## Conditions préalables
+## Prérequis
 
 Conformément au comportement standard de DITA, l&#39;attribut scope=`external` ne doit pas être appliqué aux liens internes, car il est destiné uniquement aux références à des ressources externes. L’application de cet attribut aux liens internes et le déplacement de ces ressources peuvent perturber les workflows. Pour le contenu géré dans Experience Manager Guides, utilisez plutôt l’étendue par défaut=`local` ou les références basées sur les clés .
 
@@ -114,10 +113,10 @@ Effectuez les étapes suivantes pour post-traiter le contenu existant et utilise
 
 1. Exécutez une requête POST au serveur (avec l’authentification correcte) - `http://<server>//bin/guides/reports/upgrade`.
 
-1. L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée : `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée - `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 (Par exemple : `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Une fois le traitement terminé, la requête GET précédente répond avec succès. Si la tâche échoue pour une raison quelconque, l’échec est visible dans les journaux du serveur.
+1. Une fois la tâche terminée, la requête GET précédente répond avec succès. Si la tâche échoue pour une raison quelconque, l’échec est visible dans les journaux du serveur.
 
 1. Revenez à la valeur par défaut ou à la valeur existante précédente de `queryLimitReads` si vous l’avez modifiée à l’étape 1.
 
@@ -131,7 +130,7 @@ Effectuez les étapes suivantes pour indexer le contenu existant et utiliser le 
 
 1. Vous pouvez également transmettre un dossier racine pour indexer les plans DITA d&#39;un dossier spécifique (et de ses sous-dossiers). Par exemple, `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Notez que si le paramètre de chemins d’accès et le paramètre racine sont transmis, seul le paramètre de chemins d’accès est pris en compte.
 
-1. L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée, `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}` (par exemple : `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`).
+1. L’API renvoie un jobId. Pour vérifier le statut de la tâche, vous pouvez envoyer une requête GET avec l’ID de tâche au même point d’entrée : `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}` (par exemple : `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`).
 
 1. Une fois la tâche terminée, la requête GET précédente répond avec succès et mentionne si des mappages ont échoué. Les mappages correctement indexés peuvent être confirmés à partir des journaux du serveur.
 

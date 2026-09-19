@@ -1,13 +1,12 @@
 ---
 title: Notes de mise à jour | Instructions de mise à niveau pour Adobe Experience Manager Guides 5.1.0 Service Pack 4
 description: Découvrez la matrice de compatibilité et comment effectuer une mise à niveau vers la version 5.1.0 Service Pack 4 d’Adobe Experience Manager Guides.
-source-git-commit: acc063d149f52a457d4ce2447c8eafaff6296dac
+exl-id: 4970ee05-2644-43d6-976b-bfaa91b41146
+source-git-commit: d11f910bde58b36a8db27d74be6799eb7891f3b5
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 3%
-
+source-wordcount: '595'
+ht-degree: 4%
 ---
-
 # Instructions de mise à niveau vers la version 5.1.0 Service Pack 4 (avril 2026)
 
 Cet article contient les instructions de mise à niveau et la matrice de compatibilité pour la version 5.1.0 du Service Pack 4 d’Adobe Experience Manager Guides.
@@ -71,7 +70,7 @@ Avant de procéder à la mise à niveau vers la version 5.1.0 Service Pack 4 de 
 - Si vous utilisez la version 4.3.x, 4.2, 4.2.1 (correctif 4.2.1.3), 4.1 ou 4.1.x, vous devez effectuer la mise à niveau vers la version 4.4 avant d’effectuer la mise à niveau vers la version 5.0.0.
 - Si vous utilisez la version 4.0, vous devez effectuer la mise à niveau vers la version 4.2 avant d’effectuer la mise à niveau vers la version 4.3.x.
 - Si vous utilisez la version 3.8.5, vous devez effectuer la mise à niveau vers la version 4.0 avant de passer à la version 4.2.
-- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html).
+- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 >[!NOTE]
 >

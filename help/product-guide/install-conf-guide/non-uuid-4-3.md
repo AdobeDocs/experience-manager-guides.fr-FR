@@ -4,13 +4,12 @@ description: Découvrez comment migrer du contenu non-UUID vers UUID
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 313208e4-4403-4ba8-8e97-c5a95475b87e
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1697'
 ht-degree: 2%
-
 ---
-
 # 4.3.1 migration de contenu non UUID vers 4.3.2 UUID
 
 
@@ -220,4 +219,3 @@ Pour plus d’informations, voir [purger les anciennes versions](../install-conf
 
 
 1. Une fois la validation terminée, la majeure partie de l’espace disque peut être récupérée en exécutant la compression (voir la section `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=fr`).
-

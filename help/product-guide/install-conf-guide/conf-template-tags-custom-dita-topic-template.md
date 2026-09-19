@@ -4,13 +4,12 @@ description: Découvrez comment configurer un modèle de rubrique DITA personnal
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: aaf24a83-3a94-4f77-aa37-7b0398f6ae71
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '490'
 ht-degree: 2%
-
 ---
-
 # Configurer un modèle de rubrique DITA personnalisé {#id16A7G0O02TD}
 
 AEM Guides est fourni avec les modèles de rubrique DITA suivants :
@@ -68,7 +67,7 @@ Suivez les instructions fournies dans [Remplacements de la configuration](downlo
 
 | PID | Clé de la propriété | Valeur de la propriété |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | Spécifiez un emplacement pour stocker les modèles personnalisés.<br> Si l’emplacement spécifié existe dans la gestion des ressources numériques, tous les modèles de mappage et de rubrique par défaut sont copiés dans ce dossier. Si l’emplacement n’existe pas, le dossier est créé avec tous les modèles de mappage et de rubrique par défaut. |
+| `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | Spécifiez un emplacement pour stocker les modèles personnalisés.<br> Si l’emplacement spécifié existe dans la gestion des ressources numériques, tous les modèles de carte et de rubrique par défaut sont copiés dans ce dossier. Si l’emplacement n’existe pas, le dossier est créé avec tous les modèles de mappage et de rubrique par défaut. |
 
 >[!TAB  On-Premise ]
 

@@ -4,13 +4,12 @@ description: Découvrez les recommandations relatives à l’optimisation des pe
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 0f289f7c-8300-427a-a4d9-9c2f31608240
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '888'
 ht-degree: 0%
-
 ---
-
 # Recommandations pour l’optimisation des performances d’On-Premise {#id213BD0JG0XA}
 
 ## Configuration du magasin de données \(Obligatoire\)
@@ -50,7 +49,7 @@ Les paramètres de démarrage de la JVM doivent être soigneusement réglés en 
 
 - Définissez la taille du tas JVM sur un minimum de 1/4 de la mémoire totale disponible. Utilisez le paramètre `-Xmx<size>` pour définir la taille de la mémoire de tas. Définissez la valeur de -`Xms` est égale à `-Xmx`.
 
-- Activez `-XX:+HeapDumpOnOutOfMemoryError` et définissez le chemin d’accès pour `-XX:HeapDumpPath=</path/to/folder` `>`.
+- Activez `-XX:+HeapDumpOnOutOfMemoryError` et définissez le chemin d’accès pour `-XX:HeapDumpPath=</path/to/folder`&#x200B;`>`.
 
 - Activez le journal Java GC en tant que :
 
@@ -112,4 +111,3 @@ Cela peut être effectué au moment de l’exécution via la console Felix ou vi
 
 **Résultat de cette modification**
 Un nombre accru de la propriété **Limiter les pages du site AEM dans le tas** optimise le processus de génération de sortie du site AEM.
-

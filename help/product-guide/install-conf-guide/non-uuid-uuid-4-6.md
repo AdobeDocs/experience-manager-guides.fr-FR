@@ -4,13 +4,12 @@ description: Découvrez comment migrer du contenu non-UUID vers UUID
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 0ce73a2a-e1a4-43b6-a918-75d1c537a87c
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1753'
 ht-degree: 2%
-
 ---
-
 # 4.6.0 Service Pack 4 - Migration de contenu non UUID vers 4.6.1 UUID
 
 Effectuez les étapes suivantes pour migrer votre contenu de la version 4.6.0 Service Pack 4 non-UUID vers la version 4.6.1 UUID.
@@ -165,7 +164,7 @@ Pour plus d’informations, voir [purger les anciennes versions](../install-conf
 
 | Résumé à l’issue du processus | Comment interpréter ? | Action |
 |---|---|---|
-| Nombre total de fichiers : 488 | Nombre total de fichiers traités dans l’ensemble de dossiers donné. | N/A |
+| Nombre total de fichiers : 488 | Nombre total de fichiers traités dans l’ensemble de dossiers donné. | S/O |
 | Nombre de fichiers migrés : 488 | Nombre de fichiers migrés avec succès vers UUID. | S/O |
 | Nombre de fichiers ignorés : 0 | Certains fichiers du référentiel de gestion des ressources numériques peuvent comporter des sous-ressources, lesquelles sont ignorées car elles ne sont pas éligibles à la migration UUID. | S/O |
 | Nombre de fichiers n&#39;ayant pas pu être mis à niveau : 0 | Si le nombre n’est pas égal à 0, les journaux doivent être analysés pour détecter d’éventuels problèmes. | Vérifiez l’exception, vous devrez peut-être corriger l’erreur et réexécuter la migration. |

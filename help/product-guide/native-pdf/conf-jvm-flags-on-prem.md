@@ -4,13 +4,12 @@ description: Configuration des indicateurs JVM pour la publication native PDF
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: a2a9f44c-cb17-4423-a66e-499bce921398
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '128'
 ht-degree: 1%
-
 ---
-
 # Configuration des indicateurs JVM pour la publication native PDF pour On-Premise
 
 La publication native de PDF lance un processus JVM distinct pour générer un PDF. Vous devrez peut-être ajuster les configurations de cette JVM pour prendre en charge différents scénarios. Par exemple, pour exécuter des charges de travail plus importantes, vous devez augmenter la taille maximale du tas disponible pour le processus JVM généré.

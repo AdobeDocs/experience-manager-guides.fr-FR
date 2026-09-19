@@ -39,16 +39,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: d3a1a627c00ccf276c78a0bc1337b71dd3951bc4
+source-git-commit: 6ec4546ab632167e8e49baacc8e771a44563f394
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '288'
 ht-degree: 6%
 ---
 # Documentation de Experience Manager Guides
 
 Experience Manager Guides est un système de gestion de contenu d’entreprise avec prise en charge native de DITA pour la création structurée, la publication multicanal et la gestion du cycle de vie du contenu.
 
-{type=Informative}, [!BADGE On-Premise]{type=Informative}, [!BADGE Managed Services]{type=Informative}
+**Déploiement :** [!BADGE Cloud Service]{type=Informative} [!BADGE On-Premise]{type=Informative} [!BADGE Managed Services]{type=Informative}
 
 ## Commencer par votre rôle
 
@@ -57,7 +57,7 @@ Experience Manager Guides est un système de gestion de contenu d’entreprise a
 ::::landing-cards-container
 
 :::card
-![&#x200B; Icône Auteurs &#x200B;](./user-guide/images/author.svg)
+![&#x200B; Icône Auteurs &#x200B;](./user-guide/images/author.png)
 
 Auteurs
 
@@ -67,7 +67,7 @@ Créez et gérez des rubriques, des mappages, une réutilisation du contenu et d
 :::
 
 :::card
-![&#x200B; Icône Administrateurs &#x200B;](./user-guide/images/admin.svg)
+![&#x200B; Icône Administrateurs &#x200B;](./user-guide/images/admin.png)
 
 Administrateurs
 
@@ -77,7 +77,7 @@ Configurez les profils de dossier, les autorisations, les paramètres de workflo
 :::
 
 :::card
-![icône Éditeurs](./user-guide/images/publish.svg)
+![icône Éditeurs](./user-guide/images/publish.png)
 
 Editeurs
 
@@ -86,16 +86,17 @@ Configurez les paramètres prédéfinis de sortie, gérez les lignes de base et 
 [Gestion et publication des cartes](./user-guide/map-console-overview.md)
 :::
 
+<!--
 :::card
-![&#x200B; Icône Architectes &#x200B;](./user-guide/images/architect.svg)
+![Architects icon](./user-guide/images/architect.svg)
 
-Architectes
+Architects
 
-Concevez des spécialisations, des schémas et une architecture de contenu DITA pour votre implémentation.
+Design DITA specializations, schemas, and content architecture for your implementation.
 
-[Spécialisation DITA](./install-conf-guide/dita-ot-specialization.md)
+[DITA specialization](./install-conf-guide/dita-ot-specialization.md)
 :::
-
+-->
 ::::
 
 ## Explorer par domaine
@@ -175,17 +176,17 @@ Profils de dossier, personnalisation DITA-OT et modèles de sortie.
 <tr>
 <td>
 
-[!BADGE Fonctionnalité]{type=Informative} <br> [**Importation de contenu à l’aide du connecteur Git**](./user-guide/web-editor-git-connector.md)<br> Importez du contenu dans les guides directement à partir des référentiels Git.
+[!BADGE Fonctionnalité]{type=Neutral} <br> [**Importation de contenu à l’aide du connecteur Git**](./user-guide/web-editor-git-connector.md)<br> Importez du contenu dans les guides directement à partir des référentiels Git.
 
 </td>
 <td>
 
-[!BADGE Fonctionnalité]{type=Informative} <br> [**Nouvelle collection de cartes**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> Interface unifiée pour la gestion des cartes et la publication des sorties
+[!BADGE Fonctionnalité]{type=Neutral} <br> [**Nouvelle collection de cartes**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> Interface unifiée pour la gestion des cartes et la publication des sorties
 
 </td>
 <td>
 
-[!BADGE Amélioration]{type=Informative} <br> [**Déléguer une tâche de révision**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> les réviseurs et réviseuses peuvent déléguer une tâche de révision à un autre réviseur ou une autre réviseuse
+[!BADGE Amélioration]{type=Neutral} <br> [**Déléguer une tâche de révision**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> les réviseurs et réviseuses peuvent déléguer une tâche de révision à un autre réviseur ou une autre réviseuse
 
 </td>
 </tr>

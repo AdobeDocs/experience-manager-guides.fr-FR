@@ -4,13 +4,12 @@ description: Découvrez comment Configurer des noms de fichiers valides pour la 
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: b2bc5159-2144-4683-970d-738949ac9662
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '219'
 ht-degree: 0%
-
 ---
-
 # Configurer des noms de fichiers valides pour la sortie du site AEM {#id214GK0X0KXA}
 
 Tout comme la liste des caractères de nom de fichier valides autorisés pour les rubriques DITA, vous pouvez également configurer une liste de caractères de nom de fichier valides pour la sortie du site AEM. Voici quelques caractères connus qui ne sont pas autorisés dans une URL : ``'<>`@$``. Ces caractères sont configurés pour être automatiquement convertis en trait de soulignement « `_` » lorsqu’ils sont trouvés lors de la génération de noms de fichiers de sortie du site AEM.

@@ -4,13 +4,12 @@ description: Découvrez comment utiliser les commandes curl sur le contenu charg
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 7772246c-f885-46c0-a1e5-915d111bbc61
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '290'
 ht-degree: 1%
-
 ---
-
 # Utilisation des commandes curl
 
 Vous pouvez également utiliser des commandes curl pour créer un dossier dans la gestion des ressources numériques, charger des fichiers et ajouter des métadonnées au contenu chargé.
