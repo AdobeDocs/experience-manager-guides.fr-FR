@@ -54,7 +54,7 @@ Experience Manager Guides est un système de gestion de contenu d’entreprise a
 
 ::::landing-cards-container
 :::card
-![ Icône Administrateurs ](./user-guide/images/admin.png)
+![&#x200B; Icône Administrateurs &#x200B;](./user-guide/images/admin.png)
 
 Administrateurs
 
@@ -64,7 +64,7 @@ Configurez les profils de dossier, les autorisations, les paramètres de workflo
 :::
 
 :::card
-![ Icône Auteurs ](./user-guide/images/author.png)
+![&#x200B; Icône Auteurs &#x200B;](./user-guide/images/author.png)
 
 Auteurs
 
@@ -127,7 +127,7 @@ Consultez les rubriques, gérez les tâches et les notifications de révision.
 :::
 
 :::card
-![ Icône de publication ](./user-guide/images/publish.svg)
+![&#x200B; Icône de publication &#x200B;](./user-guide/images/publish.svg)
 
 Publication
 
@@ -137,7 +137,7 @@ Types de sortie PDF, AEM Sites, HTML5, EPUB et JSON.
 :::
 
 :::card
-![ Icône de traduction ](./user-guide/images/Smock_GlobeGrid_18_N.svg)
+![&#x200B; Icône de traduction &#x200B;](./user-guide/images/Smock_GlobeGrid_18_N.svg)
 
 Traduction
 
