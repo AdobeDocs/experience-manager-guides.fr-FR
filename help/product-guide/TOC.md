@@ -2,22 +2,22 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: d3a1a627c00ccf276c78a0bc1337b71dd3951bc4
+source-git-commit: 79259c4991292c12990c42bdd819f121655d650b
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2610'
 ht-degree: 11%
 ---
 
 # [!DNL Adobe Experience Manager Guides] {#using}
 
 - [Présentation d’[!DNL AEM Guides]](overview.md)
-- {hide-from-toc}[Page de destination &#x200B;](aemg-documentation-overview.md)
+- {hide-from-toc}[Page de destination ](aemg-documentation-overview.md)
 - [Clause de non-responsabilité](./user-guide/rebranding-disclaimer.md)
 - Informations sur la version {#release-info}
   - [Feuille de route des versions d’AEM Guides](./release-info/aem-guides-releases-roadmap.md)
   - Notes de mise à jour {#release-notes}
     - Services cloud {#cloud-release-notes}
-      - {hide-from-toc}[&#x200B; Instructions de déploiement &#x200B;](./release-info/deploy-xml-on-aemaacs.md)
+      - {hide-from-toc}[ Instructions de déploiement ](./release-info/deploy-xml-on-aemaacs.md)
       - [Versions cloud](./release-info/latest-release-info-cs.md)
       - Versions De 2026 {#2026-releases}
         - Version 2026.08.0 {#2608-release}
@@ -44,7 +44,7 @@ ht-degree: 11%
         - Version 2026.03.0 {#2603-release}
           - {hide-from-toc}[Nouveautés](./release-info/whats-new-2026-03-0.md)
           - {hide-from-toc}[Correction de problèmes](./release-info/fixed-issues-2026-03-0.md)
-          - {hide-from-toc}[&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-2026-03-0.md)
+          - {hide-from-toc}[ Instructions de mise à niveau ](./release-info/upgrade-instructions-2026-03-0.md)
         - Version 2026.01.0 {#2601-release}
           - [Nouveautés](./release-info/whats-new-2026-01-0.md)
           - [Problèmes résolus](./release-info/fixed-issues-2026-01-0.md)
@@ -140,6 +140,10 @@ ht-degree: 11%
         - [Notes de mise à jour de janvier](./release-info/release-notes-2022-1-0.md)
     - On-prem/Managed Services {#on-prem-release-notes}
       - [[!DNL AEM Guides] versions](./release-info/latest-release-info.md)
+      - Version 5.2.0 SP1 {#520-sp1-release}
+        - [Nouveautés](./release-info/whats-new-5-2-1.md)
+        - [Problèmes résolus](./release-info/fixed-issues-5-2-0-sp1.md)
+        - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-2-0-sp1.md)
       - Version 5.2.0 {#520-release}
         - [Nouveautés](./release-info/whats-new-5-2-0.md)
         - [Problèmes résolus](./release-info/fixed-issues-5-2-0.md)
@@ -163,7 +167,7 @@ ht-degree: 11%
         - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0-sp4.md)
       - Version 5.0.0 SP3 {#500-sp3-release}
         - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp3.md)
-        - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-5-0-0-sp3.md)
+        - [ Instructions de mise à niveau ](./release-info/upgrade-instructions-5-0-0-sp3.md)
       - Version 5.0.0 SP2 {#500-sp2-release}
         - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp2.md)
         - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0-sp2.md)
@@ -182,7 +186,7 @@ ht-degree: 11%
         - [Instructions de mise à niveau](./release-info/upgrade-instructions-4-6-0-sp2.md)
       - Version 4.6.0 SP1 {#460-sp1-release}
         - [Correction de problèmes](./release-info/fixed-issues-4-6-0-sp1.md)
-        - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-4-6-0-sp1.md)
+        - [ Instructions de mise à niveau ](./release-info/upgrade-instructions-4-6-0-sp1.md)
       - Version 4.6.0 {#460-release}
         - [Nouveautés](./release-info/whats-new-4-6.md)
         - [Correction de problèmes](./release-info/fixed-issues-4-6-0.md)
@@ -215,7 +219,7 @@ ht-degree: 11%
   - Présentation {#about-aemg}
     - [À propos  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - Fonctionnalités [!DNL AEM Guides] et clés {#aemg-works-features}
-      - [Fonctionnement  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+      - [Fonctionnement  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
       - [Fonctionnalités [!DNL AEM Guides] clés](./user-guide/intro-dxml-features.md)
   - Page d’accueil {#home-page}
     - [Expérience de la page d’accueil [!DNL AEM Guides]](./user-guide/intro-home-page.md)
@@ -391,7 +395,7 @@ ht-degree: 11%
         - [Créer un quiz](./learning-content/create-quiz.md)
         - [Modifier le quiz](./learning-content/edit-quiz.md)
         - [Insérer des questions dans un quiz](./learning-content/quiz-insert-questions.md)
-        - [&#x200B; Propriétés du quiz &#x200B;](./learning-content/quiz-properties.md)
+        - [ Propriétés du quiz ](./learning-content/quiz-properties.md)
         - Banque de questions {#question-bank}
           - [Créer une banque de questions](./learning-content/create-qb.md)
           - [Insérer des questions depuis la banque de questions](./learning-content/insert-questions.md)
@@ -426,7 +430,7 @@ ht-degree: 11%
       - [Timeout de session](./user-guide/session-timeout-prompt.md)
       - [La chaîne est une exception trop longue dans l’exportation des métadonnées](./user-guide/metadata-export-failure.md)
 - Guide de l’utilisateur (ancienne interface utilisateur) {#user-guide-old-ui}
-  - [Présentation d’AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Présentation d’AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation et configuration {#install-conf-guide}
   - [Téléchargement, installation et mise à niveau](./install-conf-guide/introduction.md)
   - Processus d’installation de Cloud Service {#deploy-conf-aemg-cs}
@@ -522,7 +526,7 @@ ht-degree: 11%
     - [Configurer les états du document](./install-conf-guide/customize-doc-state.md)
     - [Configurer des filtres d’état de document pour Cloud Service](./install-conf-guide/conf-doc-state-filters.md)
   - Configuration des paramètres de Workspace {#workspace-configs}
-    - [Paramètres &#x200B;](./install-conf-guide/workspace-settings.md)
+    - [Paramètres ](./install-conf-guide/workspace-settings.md)
   - Recherche AEM Assets {#aem-asset-search}
     - [Configuration de la recherche pour l’interface utilisateur d’AEM Assets](./install-conf-guide/conf-dita-search.md)
   - Paramètres de génération de sortie {#output-gen-config}
@@ -566,7 +570,10 @@ ht-degree: 11%
     - [Configurer une nouvelle ligne de base pour On-Premise](./install-conf-guide/conf-new-baseline-on-prem.md)
     - [Configuration de l’omission des liens d’homologue pour On-Premise](./install-conf-guide/conf-skip-peer-links-on-prem.md)
     - {hide-from-toc}[Configurer de nouvelles collections de mappage pour la génération de sortie](./install-conf-guide/conf-new-map-collection-on-prem.md)
-    - [Utilisation du serveur Experience Manager Guides MCP](./install-conf-guide/conf-aem-guides-mcp.md)
+    - Intégration d’AEM Guides MCP {#mcp}
+      - [Utilisation du serveur MCP AEM Guides](./install-conf-guide/conf-aem-guides-mcp.md)
+      - [Configuration du serveur MCP AEM Guides](./install-conf-guide/configure-aem-guides-mcp.md)
+      - [Configurer les paramètres de connexion MCP pour AEM Guides On-Premise](./install-conf-guide/configure-aem-guides-mcp-on-prem.md)
   - Extension des fonctionnalités {#aemg-customization}
     - [Déployer l’index personnalisé pour la fonctionnalité de recherche et de remplacement de Cloud Service](./install-conf-guide/custom-indexing-cs.md)
     - [Réindexation pour la fonction Rechercher et remplacer dans On-Premise](./install-conf-guide/custom-indexing-on-prem.md)
