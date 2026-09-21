@@ -34,7 +34,7 @@ Utilisez les ressources suivantes lors du développement de modules externes Jav
 |---|---|---|----|
 | 5.2.0 Service Pack 1 (UUID) | 5.2.2 | [API AEM Guides SDK 5.2.2](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.2/) | [Javadoc 5.2.2](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html) |
 
-Pour plus d’informations, consultez [Configuration et utilisation du fichier JAR de l’API à partir du référentiel central Maven](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
+Pour plus d’informations, consultez [Configuration et utilisation du fichier JAR de l’API à partir du référentiel central Maven](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/api-reference/introduction).
 
 
 ### FrameMaker et FrameMaker Publishing Server
@@ -79,7 +79,7 @@ Vous pouvez facilement mettre à niveau votre version actuelle de Experience Man
 >
 > - **Pour AEM 6.5 LTS** : Experience Manager Guides 5.2.0 Service Pack 1 est pris en charge uniquement avec AEM 6.5 LTS Service Pack 2.
 > - **Pour AEM 6.5** le pack de services 1 de Experience Manager Guides 5.2.0 est pris en charge uniquement avec les packs de services 24, 23 et 22 d’AEM 6.5.
-> - Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, veillez à effectuer d’abord la mise à niveau d’AEM avant de poursuivre la mise à niveau vers Experience Manager Guides 5.2.0. Pour plus d’informations, consultez la section [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> - Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, veillez à effectuer d’abord la mise à niveau d’AEM avant de poursuivre la mise à niveau vers Experience Manager Guides 5.2.0. Pour plus d’informations, consultez la section [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/fr/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 Avant de procéder à la mise à niveau vers la version 5.2.0 Service Pack 1 de Experience Manager Guides, vous devez tenir compte des points suivants :
 
