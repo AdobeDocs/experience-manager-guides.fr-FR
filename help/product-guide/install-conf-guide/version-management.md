@@ -28,7 +28,7 @@ Les onglets suivants fournissent des instructions pour activer l’option **Cré
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 1. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration.
 1. Dans le fichier de configuration, fournissez les détails \(propriété\) suivants pour configurer l’option **Créer une nouvelle version pour le fichier chargé** :
@@ -75,7 +75,7 @@ Les onglets suivants fournissent des instructions pour configurer les paramètre
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer la modification des fichiers extraits :
 
@@ -131,7 +131,7 @@ Les onglets suivants fournissent des instructions permettant aux utilisateurs de
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 1. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration.
 1. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer l’option **Remplacer le fichier extrait lors du chargement** :
@@ -172,7 +172,7 @@ Les onglets suivants fournissent des instructions pour empêcher les utilisateur
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour empêcher les utilisateurs de supprimer accidentellement des fichiers extraits :
 
@@ -235,7 +235,7 @@ Les onglets suivants fournissent des instructions pour définir qui peut supprim
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les informations \(property\) suivantes pour définir qui peut supprimer un fichier contenant des références ou référencé par d’autres fichiers :
 

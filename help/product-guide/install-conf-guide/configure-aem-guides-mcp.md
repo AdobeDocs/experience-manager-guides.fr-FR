@@ -17,7 +17,7 @@ Cet article couvre les détails spécifiques à l’environnement pour la connex
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 ## Point d’entrée du serveur MCP
 
@@ -25,7 +25,7 @@ Experience Manager Guides expose ses fonctionnalités MCP par le biais d’un po
 
 | Serveur MCP | Point d’entrée | Description |
 |---|---|---|
-| **** | `https://mcp.adobeaemcloud.com/adobe/mcp/guides` | Utiliser des rubriques et des cartes, des [nouvelles lignes de base](../user-guide/web-editor-baseline-v2.md) et des rapports dans Experience Manager Guides. |
+| **&#x200B;**&#x200B;| `https://mcp.adobeaemcloud.com/adobe/mcp/guides` | Utiliser des rubriques et des cartes, des [nouvelles lignes de base](../user-guide/web-editor-baseline-v2.md) et des rapports dans Experience Manager Guides. |
 
 Pour découvrir la liste d’outils actuelle pour votre environnement, demandez à votre assistant :
 
