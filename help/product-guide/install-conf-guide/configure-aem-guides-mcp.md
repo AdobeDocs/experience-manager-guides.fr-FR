@@ -5,9 +5,9 @@ meta-feature: Authoring
 meta-product: Experience Manager, Experience Manager Guides
 meta-role: User
 meta-type: Documentation
-source-git-commit: e234425f1e277990de25057971f3e2453c93360f
+source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1557'
 ht-degree: 1%
 ---
 
@@ -17,7 +17,7 @@ Cet article couvre les détails spécifiques à l’environnement pour la connex
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 ## Point d’entrée du serveur MCP
 
@@ -25,7 +25,7 @@ Experience Manager Guides expose ses fonctionnalités MCP par le biais d’un po
 
 | Serveur MCP | Point d’entrée | Description |
 |---|---|---|
-| **&#x200B;**&#x200B;| `https://mcp.adobeaemcloud.com/adobe/mcp/guides` | Utiliser des rubriques et des cartes, des [nouvelles lignes de base](../user-guide/web-editor-baseline-v2.md) et des rapports dans Experience Manager Guides. |
+| **** | `https://mcp.adobeaemcloud.com/adobe/mcp/guides` | Utiliser des rubriques et des cartes, des [nouvelles lignes de base](../user-guide/web-editor-baseline-v2.md) et des rapports dans Experience Manager Guides. |
 
 Pour découvrir la liste d’outils actuelle pour votre environnement, demandez à votre assistant :
 
@@ -48,7 +48,7 @@ Vous n’installez rien localement. Vous pointez votre client vers l’URL du se
 
 ### Claude Anthropique
 
-Suivez la présentation officielle : [Configurer Claude pour AEM MCP](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude). Lors de l’ajout du connecteur personnalisé, utilisez le point d’entrée Experience Manager Guides :
+Suivez la présentation officielle : [Configurer Claude pour AEM MCP](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude). Lors de l’ajout du connecteur personnalisé, utilisez le point d’entrée Experience Manager Guides :
 
 ```
 https://mcp.adobeaemcloud.com/adobe/mcp/guides
@@ -141,7 +141,7 @@ Avant de connecter un client, contactez votre administrateur AEM pour vérifier 
 
 Claude Desktop prend en charge les extensions Desktop (`.mcpb`). L’extension Experience Manager Guides MCP regroupe la configuration de connexion de sorte que vous n’ayez pas besoin de modifier manuellement une configuration JSON MCP.
 
-1. Extrayez le fichier zip [AEM Guides .mcpb](./mcpbfile.zip) et obtenez le fichier d’extension `aem-guides-mcp.mcpb`.
+1. Procurez-vous le fichier d’extension [`aem-guides-mcp.mcpb`](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/aemdox/other-packages/guides-mcp/aem-guides-mcp.zip).
 
 2. Ouvrez **Claude Desktop** et accédez à **Paramètres > Extensions**.
 

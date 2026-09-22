@@ -1,10 +1,10 @@
 ---
 title: Notes de mise à jour | Instructions de mise à niveau pour Adobe Experience Manager Guides 5.2.0 Service Pack 1
 description: Découvrez la matrice de compatibilité et comment effectuer une mise à niveau vers la version 5.2.0 Service Pack 1 d’Adobe Experience Manager Guides.
-source-git-commit: b975fd2c2d79fb56f180484431af135d35eec750
+source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 4%
+source-wordcount: '926'
+ht-degree: 3%
 ---
 # Instructions de mise à niveau vers la version 5.2.0 Service Pack 1 (septembre 2026)
 
@@ -34,7 +34,7 @@ Utilisez les ressources suivantes lors du développement de modules externes Jav
 |---|---|---|----|
 | 5.2.0 Service Pack 1 (UUID) | 5.2.2 | [API AEM Guides SDK 5.2.2](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.2/) | [Javadoc 5.2.2](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html) |
 
-Pour plus d’informations, consultez [Configuration et utilisation du fichier JAR de l’API à partir du référentiel central Maven](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/api-reference/introduction).
+Pour plus d’informations, consultez [Configuration et utilisation du fichier JAR de l’API à partir du référentiel central Maven](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
 
 
 ### FrameMaker et FrameMaker Publishing Server
@@ -79,7 +79,8 @@ Vous pouvez facilement mettre à niveau votre version actuelle de Experience Man
 >
 > - **Pour AEM 6.5 LTS** : Experience Manager Guides 5.2.0 Service Pack 1 est pris en charge uniquement avec AEM 6.5 LTS Service Pack 2.
 > - **Pour AEM 6.5** le pack de services 1 de Experience Manager Guides 5.2.0 est pris en charge uniquement avec les packs de services 24, 23 et 22 d’AEM 6.5.
-> - Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, veillez à effectuer d’abord la mise à niveau d’AEM avant de poursuivre la mise à niveau vers Experience Manager Guides 5.2.0. Pour plus d’informations, consultez la section [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/fr/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> - Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, veillez à effectuer d’abord la mise à niveau d’AEM avant de poursuivre la mise à niveau vers Experience Manager Guides 5.2.0. Pour plus d’informations, consultez la section [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> - Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 Service Pack 24 ou une version ultérieure, veillez d’abord à effectuer la mise à niveau d’AEM. Une fois que vous avez terminé, réinstallez Experience Manager Guides 5.2.0. avant d’installer Experience Manager Guides 5.2.1.
 
 Avant de procéder à la mise à niveau vers la version 5.2.0 Service Pack 1 de Experience Manager Guides, vous devez tenir compte des points suivants :
 
@@ -98,7 +99,7 @@ Avant de procéder à la mise à niveau vers la version 5.2.0 Service Pack 1 de 
 >
 > Le post-traitement et l’indexation peuvent prendre quelques heures. Il est recommandé de démarrer le processus de mise à niveau pendant les heures creuses.
 
-1. Téléchargez le package de la version 5.2.0 Service Pack 1 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Téléchargez le package de la version 5.2.0 Service Pack 1 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installez le package de version sur lequel vous souhaitez effectuer la mise à niveau et attendez que le bundle soit installé.
 1. *(Facultatif)* Mettre à niveau le plug-in Oxygen Connector fourni avec la version vers laquelle vous effectuez la mise à niveau.
 1. Effacez la mémoire cache du navigateur après l’installation du package.
