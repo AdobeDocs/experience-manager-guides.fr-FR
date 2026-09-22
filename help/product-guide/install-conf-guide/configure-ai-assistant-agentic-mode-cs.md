@@ -13,7 +13,7 @@ En tant qu’administrateur, vous pouvez configurer l’assistant AI en mode Age
 
 ## Prérequis
 
-Votre organisation doit être intégrée à **** avant de configurer l’assistant AI en mode Agentic.
+Votre organisation doit être intégrée à **&#x200B;**&#x200B;avant de configurer l’assistant AI en mode Agentic.
 
 ## Configuration de l’assistant d’IA en fonction de votre environnement
 
@@ -66,4 +66,4 @@ Pour ajouter la configuration IMS à l’environnement, procédez comme suit :
 
 Une fois la configuration de votre environnement terminée, contactez l’équipe du succès client pour activer le mode Agent.
 
-Lorsque le mode Agentic est activé pour votre environnement, accédez aux paramètres de **** puis activez le bouton bascule **Agentic** sous l’onglet **Général** de la section **Assistant IA**.
+Lorsque le mode Agentic est activé pour votre environnement, accédez aux paramètres de **&#x200B;**&#x200B;puis activez le bouton bascule **Agentic** sous l’onglet **Général** de la section **Assistant IA**.

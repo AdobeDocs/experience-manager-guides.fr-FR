@@ -65,7 +65,7 @@ Pour créer le paramètre prédéfini PDF à partir de la console de mappage, pr
 
    Vous pouvez également accéder au fichier de mappage à partir du widget **Fichiers récents** dans la section [Aperçu](../user-guide/intro-home-page.md#overview). Le fichier de mappage sélectionné s’ouvre dans la console Mappage .
 1. Dans l’onglet **Paramètres prédéfinis de sortie**, sélectionnez l’icône + pour créer un paramètre prédéfini de sortie.
-1. Sélectionnez **** dans la liste déroulante Type de la boîte de dialogue **Nouveau paramètre prédéfini de sortie**.
+1. Sélectionnez **&#x200B;**&#x200B;dans la liste déroulante Type de la boîte de dialogue **Nouveau paramètre prédéfini de sortie**.
 1. Dans le champ **Nom**, attribuez un nom à ce paramètre prédéfini.
 1. Dans le champ **Générer le PDF à l’aide de**, sélectionnez **Native-PDF**.
 1. Sélectionnez l’option **Ajouter au profil du dossier actuel** pour créer un paramètre prédéfini de sortie dans le profil du dossier actuel. L’![icône de profil de dossier](./assets/global-preset-icon.svg) indique un paramètre prédéfini au niveau du profil de dossier.
@@ -118,7 +118,7 @@ Ces métadonnées sont mappées aux métadonnées dans l’onglet **Description*
 
 <img src="assets/pdf-metadata.png" alt="onglet métadonnées" width="600">
 
-Dans les paramètres prédéfinis de sortie, sélectionnez **** > **Native-PDF** > **Métadonnées** pour ajouter et personnaliser des options de métadonnées.
+Dans les paramètres prédéfinis de sortie, sélectionnez **&#x200B;**&#x200B;> **Native-PDF** > **Métadonnées** pour ajouter et personnaliser des options de métadonnées.
 
 * **Utiliser les métadonnées ajoutées dans topicmeta**
 
@@ -126,7 +126,7 @@ Dans les paramètres prédéfinis de sortie, sélectionnez **** > **Native-PDF**
 
 * **Fournir un fichier XMP**
 
-  Vous pouvez également remplir directement les champs de métadonnées en important le fichier [](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform). Vous pouvez télécharger un exemple de fichier XMP ici.
+  Vous pouvez également remplir directement les champs de métadonnées en important le fichier [&#128279;](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform). Vous pouvez télécharger un exemple de fichier XMP ici.
 
   [Téléchargement](assets/SampleXMP.xmp)
 
@@ -227,7 +227,7 @@ Utilisez les paramètres suivants pour configurer l’espace colorimétrique et 
 
 | Configuration | Description |
 | --- | --- |
-| **Espace colorimétrique** | Choisissez entre les espaces colorimétriques **** et **CMJN** pour votre document PDF. Choisissez **** pour les PDF destinés à l’affichage numérique et **CMJN** pour l’impression physique. |
+| **Espace colorimétrique** | Choisissez entre les espaces colorimétriques **&#x200B;**&#x200B;et **CMJN** pour votre document PDF. Choisissez **&#x200B;**&#x200B;pour les PDF destinés à l’affichage numérique et **CMJN** pour l’impression physique. |
 | **Convertir les couleurs** | Activez cette option pour convertir les couleurs définies dans le document dans l’espace colorimétrique sélectionné ci-dessus. Cette option est activée par défaut pour les espaces colorimétriques RGB et CMJN. Lorsqu’il est activé, le champ **Intention de rendu** devient également disponible. |
 | **Intention de rendu** | Disponible uniquement lorsque l’option **Convertir les couleurs** est activée. Sélectionnez l’intention de rendu à utiliser lors de la conversion des couleurs dans l’espace colorimétrique cible :<br>- **Par défaut** : utilise le comportement de rendu par défaut.<br>- **Perception** : ajuste les couleurs afin de préserver leur aspect visuel global.<br>- **Colorimétrie relative** : ajuste les couleurs en fonction de l’espace colorimétrique cible tout en conservant la précision des couleurs dans la mesure du possible.<br> **Remarque** : lorsque vous utilisez cette fonctionnalité avec une configuration Adobe Experience Manager Guides On-Premise, assurez-vous que Java 20 ou une version ultérieure est disponible pour que le moteur Native PDF sous-jacent applique l’intention de rendu spécifiée. |
 | **Nom de l’identifiant** | Saisissez le nom de l’identifiant de sortie. |

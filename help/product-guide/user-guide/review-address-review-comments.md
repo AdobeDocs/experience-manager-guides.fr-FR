@@ -155,4 +155,4 @@ Lors de l’utilisation de cette fonctionnalité, notez que :
 - Le filtrage et la recherche s’appliquent uniquement aux commentaires de la tâche que vous avez sélectionnée ; les commentaires des autres tâches non sélectionnées ne sont pas affectés.
 
 
-**Rubrique parente :**[ Présentation de la révision](review.md)
+**Rubrique parente :**&#x200B;[&#x200B; Présentation de la révision](review.md)

@@ -47,7 +47,7 @@ Les sections ci-dessous décrivent comment chacune de ces options s’applique �
 - **Dossier racine** : défilement infini. Le premier lot de ressources se charge au départ ; les lots suivants sont ajoutés automatiquement au fur et à mesure que vous faites défiler l’écran.
 - **Dossiers enfants** : le développement d’un dossier charge le premier lot de ressources, auquel est ajoutée une option **Charger plus** pour les lots suivants.
 
-  ![ pagination pour l’explorateur ](images/explorer-pagination.png){width="650"}
+  ![&#x200B; pagination pour l’explorateur &#x200B;](images/explorer-pagination.png){width="650"}
 
 - **Renommer** : se produit sur place sans actualisation du dossier.
 - **Supprimer** : le dossier racine s’actualise pour afficher le premier lot de ressources.
