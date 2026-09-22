@@ -5,13 +5,11 @@ feature: Version Management
 role: Admin
 level: Experienced
 exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
-source-git-commit: 84be6501066dae623e057c15ac79b748d3e631f1
+source-git-commit: 3574ed5fe856a1ceb6f8c933ba084b092589b544
 workflow-type: tm+mt
-source-wordcount: '2277'
-ht-degree: 0%
-
+source-wordcount: '2302'
+ht-degree: 1%
 ---
-
 # Gestion des versions {#id181GB000XY4}
 
 Le contrôle de version est un aspect important de tout système de gestion de contenu. Il vous permet de créer un instantané de votre ressource numérique à un moment donné. Une fois une version de ressource numérique en place, vous pouvez restaurer la version requise de la ressource et la mettre à jour. En règle générale, pour créer une version d’une ressource, vous devez extraire et archiver la ressource requise.
@@ -287,15 +285,15 @@ Selon la personne à qui vous souhaitez accorder l’accès pour la suppression,
 
 >[!ENDTABS]
 
-## Purge des anciennes versions des fichiers DITA
+## Purger les anciennes versions des fichiers
 
-Lorsque vous mettez à jour le contenu et créez de nouvelles versions, les versions précédentes des fichiers DITA sont conservées dans le référentiel. De nombreuses versions peuvent être créées pour vos fichiers DITA sur une période et peuvent collectivement occuper une grande quantité d&#39;espace dans votre référentiel. AEM Guides vous permet de configurer les anciennes versions qui doivent être supprimées du référentiel.
+Lorsque vous mettez à jour le contenu et créez de nouvelles versions, les versions précédentes des fichiers sont conservées dans le référentiel. De nombreuses versions peuvent être créées pour vos fichiers sur une période et peuvent collectivement occuper une grande quantité d’espace dans votre référentiel. AEM Guides vous permet de configurer les anciennes versions qui doivent être supprimées du référentiel.
 
-Vous pouvez accéder à cet utilitaire à l’aide de l’URL indiquée si vous disposez de droits d’administration :
+>[!NOTE]
+>
+> Vous pouvez purger les fichiers DITA et non DITA.
 
-`<server folder path> /libs/fmdita/clientlibs/xmleditor_version_purge/page.html`
-
-La version d&#39;un fichier DITA qui répond à l&#39;un des critères donnés est conservée et non purgée :
+La version d’un fichier qui répond à l’un des critères donnés est conservée et n’est pas purgée :
 
 - Est la première version d’un fichier
 - Est inclus dans une ligne de base
@@ -305,20 +303,21 @@ La version d&#39;un fichier DITA qui répond à l&#39;un des critères donnés e
 
 Pour purger les anciennes versions, procédez comme suit :
 
+1. Sélectionnez le logo Adobe Experience Manager en haut et choisissez **Outils**.
+1. Sélectionnez **Guides** dans le panneau Outils.
+1. Sélectionnez la mosaïque **Purge de version**.
+
+   ![](assets/version-purge.png)
+
 1. Saisissez les informations suivantes sur les fichiers à purger :
 
-   ![](assets/preview-purge-report.png)
-
-1. &#x200B;
    - **Nombre de versions à conserver à partir de la dernière version** : saisissez le nombre de versions à conserver et à ne pas purger. Par exemple, si nous entrons 5 , les 5 dernières versions sont conservées, et les versions antérieures sont qualifiées pour être purgées si d’autres conditions de purge sont remplies.
    - **Conserver les versions créées dans la période \(En jours\)** : saisissez l’âge maximal d’une version en jours. Les versions antérieures au nombre de jours donné peuvent être purgées si d’autres conditions de purge sont remplies. Par exemple, si nous entrons 100, toutes les versions créées avant 100 jours peuvent être purgées si d’autres conditions de purge sont remplies.
    - **Chemin d’accès** : sélectionnez le chemin d’accès du fichier ou du dossier dont vous souhaitez purger les fichiers.
 
-     >[!NOTE]
-     >
-     > Vous pouvez purger uniquement les fichiers DITA.
+     ![](assets/preview-purge-report.png)
 
-1. Cliquez sur **Aperçu du rapport de purge**.
+1. Sélectionnez **Aperçu du rapport de purge**.
 
    >[!NOTE]
    >
@@ -333,7 +332,7 @@ Pour purger les anciennes versions, procédez comme suit :
 
    Le statut de purge s’affiche.
 
-   Cliquez sur **Télécharger le rapport de purge des versions** pour afficher les versions purgées. Ce rapport fournit le statut de purge de toutes les versions ainsi que les raisons pour lesquelles une version particulière a été conservée ou purgée.
+   Sélectionnez **Télécharger le rapport de purge des versions** pour afficher les versions purgées. Ce rapport fournit le statut de purge de toutes les versions ainsi que les raisons pour lesquelles une version particulière a été conservée ou purgée.
 
 
 >[!NOTE]

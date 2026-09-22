@@ -7,21 +7,25 @@ role: User
 TQID: https://experienceleague.adobe.com/Ln0JE2F8klsmIZJqtpy3Idi3VHdh1U900sfMrD0xpEU
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
+    internal-label: User
+source-git-commit: 44b50108aa453052c1c9b429eaeb254cad746166
 workflow-type: tm+mt
-source-wordcount: 1409
+source-wordcount: '1497'
 ht-degree: 0%
-
 ---
-
 # Modifier les rubriques dans l’éditeur {#id2056B040VUI}
 
 >[!INFO]
@@ -91,16 +95,16 @@ Mettre le contenu sélectionné en gras, en italique et souligner le contenu sé
 
 - Entourer le contenu d’un élément valide : effectuez les étapes suivantes pour encapsuler le contenu avec un élément valide :
 
-   - Sélectionnez le contenu dans un élément.
-   - Sélectionnez l’icône ![ajouter](images/Add_icon.svg) dans la barre d’outils supérieure pour afficher la boîte de dialogue **Insérer un élément**. La boîte de dialogue répertorie les éléments valides pour le contenu sélectionné.
+  - Sélectionnez le contenu dans un élément.
+  - Sélectionnez l’icône ![ajouter](images/Add_icon.svg) dans la barre d’outils supérieure pour afficher la boîte de dialogue **Insérer un élément**. La boîte de dialogue répertorie les éléments valides pour le contenu sélectionné.
 
-     >[!NOTE]
-     >
-     > Vous pouvez également afficher la boîte de dialogue Insérer un élément en sélectionnant le menu contextuel du contenu sélectionné.
+    >[!NOTE]
+    >
+    > Vous pouvez également afficher la boîte de dialogue Insérer un élément en sélectionnant le menu contextuel du contenu sélectionné.
 
-   - Sélectionnez un élément dans la boîte de dialogue. Le contenu sélectionné est encapsulé sous cet élément. Par exemple, si vous sélectionnez le contenu dans un paragraphe, puis choisissez l’élément `<note>` dans la boîte de dialogue **Insérer un élément**, le contenu sélectionné s’affiche sous une note.
+  - Sélectionnez un élément dans la boîte de dialogue. Le contenu sélectionné est encapsulé sous cet élément. Par exemple, si vous sélectionnez le contenu dans un paragraphe, puis choisissez l’élément `<note>` dans la boîte de dialogue **Insérer un élément**, le contenu sélectionné s’affiche sous une note.
 
-     ![Boîte de dialogue Insérer un élément](./images/insert-element-editor.png) {width="300"}
+    ![Boîte de dialogue Insérer un élément](./images/insert-element-editor.png) {width="300"}
 
 ## Actualiser le navigateur lors de la modification des fichiers
 
@@ -180,6 +184,14 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 > Your folder-level administrative users must update *ui_config.json* so that you can harmoniously access the read-only files in the  Author, Source, and Layout modes.
 
  -->
+
+## Empêcher le remplacement du contenu lors de la modification simultanée
+
+>[!NOTE]
+>
+> Activez le paramètre **Désactiver la modification sans verrouiller le fichier** à partir de ConfigMgr pour cette fonctionnalité.
+
+Lorsque deux auteurs travaillent simultanément sur la même rubrique DITA, les modifications apportées au-dessus d&#39;une copie obsolète peuvent remplacer sans le savoir les modifications d&#39;un autre auteur. Pour éviter cela, la sélection de l’option **Verrouiller** sur une rubrique actualise automatiquement l’éditeur afin de charger le contenu le plus récent du serveur avant de commencer à le modifier, en vous assurant que vos modifications sont toujours basées sur la version la plus récente plutôt que sur une copie obsolète.
 
 ## Rechercher un fichier ouvert dans l’Explorateur
 

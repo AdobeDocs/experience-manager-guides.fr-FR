@@ -7,25 +7,32 @@ role: User
 TQID: https://experienceleague.adobe.com/EPnCDG2eSljhIm-DrPk9uMBrTyK9-mT1J8N8bAQVrQ8
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+    internal-label: Map Editor
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 47ad7c824c35735c82b51390acd1404ba6274c9a
 workflow-type: tm+mt
-source-wordcount: 2918
+source-wordcount: '2987'
 ht-degree: 0%
-
 ---
-
 # Fonctionnalités de l’éditeur de cartes {#id1942D0S0IHS}
 
 >[!INFO]
@@ -54,7 +61,7 @@ Lorsque vous ouvrez une carte pour la modifier, le mode Mise en page de l’édi
 
 >[!NOTE]
 >
-> Le mode Mise en page affiche uniquement les références présentes dans une carte. Si des références sont rompues, un petit symbole croisé s&#39;affiche à gauche de la référence
+> Le mode Mise en page affiche uniquement les références présentes dans une carte. Si des références sont rompues, un petit symbole croisé s&#39;affiche à gauche de la référence.
 
 Les options suivantes sont disponibles dans la barre d’outils en mode Mise en page :
 
@@ -97,7 +104,7 @@ Sélectionnez les icônes fléchées vers le haut ou vers le bas pour déplacer 
 
 >[!NOTE]
 >
-> Vous pouvez également faire glisser et déposer les références pour les déplacer dans un mappage.
+>Vous pouvez également faire glisser et déposer les références pour les déplacer dans un mappage. La façon dont les références sont gérées après un glisser-déposer dépend de l’éditeur que vous utilisez. Dans l’éditeur 2.0, le fait de glisser-déposer d’une référence (telle qu’une rubrique, un sous-mappage ou une définition de clé) sur une référence existante dans un mappage l’ajoute en tant qu’élément enfant plutôt que de remplacer la référence existante. Dans l’ancien éditeur, la même action met à jour l’URL de la référence au lieu de l’ajouter en tant qu’élément enfant.
 
 **Verrouiller/Déverrouiller**
 
@@ -138,8 +145,8 @@ Outre l’organisation des rubriques dans le fichier de mappage, vous pouvez ég
 ![](images/map-editor-options-menu.png){width="650"}
 
 - **Ajouter** : vous pouvez choisir d’ajouter une nouvelle rubrique ou une référence vide à partir de l’éditeur de cartes :
-   - **Référence vide** : cette option vous permet d&#39;ajouter une référence vide dans votre plan DITA. Vous pouvez double-cliquer ultérieurement sur la référence vide insérée et ajouter les détails de la rubrique.
-   - **Nouvelle rubrique** : lorsque vous choisissez de créer une nouvelle rubrique à partir du menu, vous obtenez la boîte de dialogue **Nouvelle rubrique**. Dans la boîte de dialogue **Nouvelle rubrique**, fournissez les détails requis et sélectionnez **Créer**.
+  - **Référence vide** : cette option vous permet d&#39;ajouter une référence vide dans votre plan DITA. Vous pouvez double-cliquer ultérieurement sur la référence vide insérée et ajouter les détails de la rubrique.
+  - **Nouvelle rubrique** : lorsque vous choisissez de créer une nouvelle rubrique à partir du menu, vous obtenez la boîte de dialogue **Nouvelle rubrique**. Dans la boîte de dialogue **Nouvelle rubrique**, fournissez les détails requis et sélectionnez **Créer**.
 - **Déplacer** : permet de déplacer une rubrique vers le haut/bas/droite/gauche dans la hiérarchie. Vous pouvez également faire glisser une rubrique ou une carte du panneau du référentiel vers la carte ouverte dans l’éditeur de cartes.
 - **Annuler** : permet d’annuler la dernière opération en mode Mise en page.
 - **Rétablir** : permet de rétablir la dernière opération en mode Mise en page.

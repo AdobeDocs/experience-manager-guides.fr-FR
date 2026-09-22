@@ -7,27 +7,37 @@ role: User
 TQID: https://experienceleague.adobe.com/aSjUOzg8-jreMvbiuBZ5lRlbeikBHMHBLUww4L3-hZA
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+    internal-label: Content translation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 077335fcbb539ef545ce2ca9903e4a8223b3f6ce
+    internal-label: User
+source-git-commit: 0db59f201b2418911634609b93ab7892477052c9
 workflow-type: tm+mt
-source-wordcount: 2562
-ht-degree: 1%
-
+source-wordcount: '2794'
+ht-degree: 0%
 ---
-
 # Traduire des documents à partir de la console de mappage {#id21BKF0Z0YZF}
 
 >[!TIP]
@@ -66,7 +76,8 @@ Avant d’effectuer les étapes de cette procédure, assurez-vous d’avoir cré
 
    >[!IMPORTANT]
    >
-   > Vous pouvez uniquement sélectionner et traduire vers les langues pour lesquelles vous avez créé le dossier cible parallèlement à la langue source. Un dossier de langue créé à un autre niveau, par exemple un niveau vers le bas à partir du dossier de langue source, n’est pas affiché non plus. Veillez à créer tous vos dossiers de langue cible au même niveau que votre dossier de langue source.
+   > * Vous pouvez uniquement sélectionner et traduire vers les langues pour lesquelles vous avez créé le dossier cible parallèlement à la langue source. Un dossier de langue créé à un autre niveau, par exemple un niveau vers le bas à partir du dossier de langue source, n’est pas affiché non plus. Veillez à créer tous vos dossiers de langue cible au même niveau que votre dossier de langue source.
+   > * Si vous créez le dossier cible pour une langue après avoir créé le groupe de langues, actualisez le navigateur pour activer la langue dans les groupes de langues.
 
 
 
@@ -80,7 +91,9 @@ Avant d’effectuer les étapes de cette procédure, assurez-vous d’avoir cré
 
    >[!NOTE]
    >
-   > Si vous créez le dossier cible pour une langue après avoir créé le groupe de langues, actualisez le navigateur pour activer la langue dans les groupes de langues.
+   > Si une copie de langue source ou de destination individuelle (fichier) est déplacée de son dossier de langue d’origine vers un autre dossier, le panneau Traduction reflète cette modification comme suit :
+   > - Copies de langue de destination : si une copie de langue de destination (cible) est déplacée depuis son dossier de langue de destination d’origine vers un autre dossier, la ressource correspondante s’affiche comme désactivée dans le panneau Traduction .
+   > - Copies de langue Source : si une copie de langue source est déplacée de son dossier de langue source d’origine vers un autre dossier de langue, la ressource correspondante s’affiche comme activée dans le panneau Traduction, ce qui permet à la traduction de continuer comme prévu.
 
 1. Si vous choisissez une langue particulière, elle apparaît comme sélectionnée sous tous les groupes linguistiques que vous avez sélectionnés. Donc, quand vous traduisez dans n&#39;importe quelle langue, c&#39;est traduit en une seule fois pour tous les groupes linguistiques. Par exemple, si l’allemand est présent dans les deux groupes linguistiques G1 et G2, il est sélectionné pour les deux.
 
@@ -144,6 +157,10 @@ Avant d’effectuer les étapes de cette procédure, assurez-vous d’avoir cré
    - Vous pouvez sélectionner **Créer un projet de traduction multilingue** qui inclura les tâches de traduction pour toutes les langues que vous avez sélectionnées pour la traduction. Par exemple, si vous avez sélectionné le français, l’allemand et l’espagnol, un projet contenant des tâches de traduction pour les trois langues sera créé.
    - Si vous disposez déjà d’un projet de traduction, vous pouvez y ajouter des rubriques. Sélectionnez l’option **Ajouter à un projet de traduction existant** dans la liste Projet et choisissez un projet dans la liste Projet de traduction existant . Vous pouvez trier ces projets par ordre le plus récent, croissant ou décroissant.
 
+     >[!NOTE]
+     >
+     > Lors de l’utilisation de l’option **Ajouter à un projet de traduction existant** pour envoyer des ressources supplémentaires pour traduction, l’opération échoue si une requête précédente (création de projet ou Ajout à un projet existant) pour le même projet est toujours en cours. Le message suivant s’affiche : *Une demande précédente pour ce projet est toujours en cours. Patientez quelques minutes avant de réessayer*.
+
    - Si vous sélectionnez **Ajouter à un projet de traduction existant**, cette opération met à jour l’entrée de ressource existante dans le projet si la ressource est déjà ajoutée et que le statut de la tâche de traduction associée est à l’état *Brouillon*.
      - Si la langue de destination n’est pas présente dans le projet, un nouveau projet est créé pour le projet de traduction unilingue et une nouvelle tâche est créée pour le projet de traduction multilingue.
 
@@ -163,6 +180,7 @@ Avant d’effectuer les étapes de cette procédure, assurez-vous d’avoir cré
    - Si vous ajoutez à un projet de traduction existant, sélectionnez le chemin d’accès dans lequel ce projet existe déjà. Ensuite, dans la liste **Projet de traduction existant**, sélectionnez le projet auquel vous souhaitez ajouter la tâche de traduction actuelle. Vous pouvez également utiliser les **Filtres** disponibles pour réduire la liste.
 
      ![Saisissez le chemin d’accès du projet existant](images/existing-project-path.png){width="650"}
+
 
 1. Dans le champ **Titre du projet**, saisissez un titre pour le projet.
 1. Sélectionnez **Envoyer** pour créer un projet de traduction.

@@ -7,31 +7,44 @@ role: User
 TQID: https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: f6b497f1-f8e0-42ce-8e95-56c28d94026e
+    internal-label: Conditional content
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
+    internal-label: Security
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: 3561
+source-wordcount: '4071'
 ht-degree: 1%
-
 ---
-
 # Paramètre prédéfini de sortie PDF natif
 
 Lors de la création de contenu, il devient essentiel de s’assurer que le contenu est optimisé pour l’affichage, la modification et l’impression. À l’aide de normes telles que les normes CSS3 W3C pour le style de contenu et les normes de médias paginés CSS pour les propriétés de définition de page telles que la taille, les marges, l’orientation, les sauts de page, les en-têtes, les pieds de page et la numérotation de page, vous pouvez définir l’affichage et la mise en page de votre document PDF en garantissant cohérence et convivialité. La fonction de publication Native PDF utilise ces normes pour générer un PDF.
@@ -84,13 +97,13 @@ Utilisez pour spécifier des paramètres de sortie de base, tels que le chemin d
 | **Appliquer des conditions à l’aide de** | Pour le contenu conditionné, choisissez l’une des options suivantes pour générer une sortie PDF en fonction de ces conditions : <br><ul> <li> **Aucune application** sélectionnez cette option si vous ne souhaitez appliquer aucune condition sur le mappage et le contenu source. <br><li> **Fichier DITAVAL** Sélectionnez un fichier DITAVAL pour générer du contenu conditionnel. Vous pouvez sélectionner plusieurs fichiers DITAVAL à l’aide de la boîte de dialogue de navigation ou en saisissant manuellement le chemin d’accès au fichier. Pour supprimer un fichier sélectionné, cliquez sur la croix en regard de son nom. Si un fichier non valide est sélectionné, un message d&#39;erreur s&#39;affiche indiquant **Un fichier DITAVAL non valide est sélectionné**. <br> <br>Chaque fichier DITAVAL peut contenir un éventail de propriétés, telles que des conditions de filtrage et des styles de marquage. Les indicateurs vous permettent de marquer visuellement le contenu à l’aide d’indicateurs de début et de fin, qui peuvent inclure des images ou une mise en forme de texte telle que le gras ou l’italique. En cas de chevauchement de conditions ou de conflits de style, vous pouvez définir une couleur d’arrière-plan à l’aide des paramètres de conflit de style. Pour plus d&#39;informations, voir [Utiliser l&#39;éditeur DITAVAL](../user-guide/ditaval-editor.md).<br><li> **Paramètre prédéfini de condition** Sélectionnez un paramètre prédéfini de condition dans la liste déroulante pour appliquer une condition lors de la publication de la sortie. Cette option est visible si vous avez ajouté une condition pour le fichier de plan DITA. Les paramètres conditionnels sont disponibles dans l&#39;onglet Paramètres prédéfinis de condition de la console Plan DITA. Pour en savoir plus sur les paramètres prédéfinis de condition, consultez la section [Utilisation des paramètres prédéfinis de condition](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> </ul> |
 | **Utiliser niveau de référence** | Si vous avez créé une ligne de base pour le plan DITA sélectionné, sélectionnez cette option pour spécifier la version que vous souhaitez publier. Voir [Utilisation de la ligne de base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) pour plus d’informations. |
 | **Créer un PDF avec Barre de modification entre les versions publiées** | Utilisez les options suivantes pour créer un PDF présentant les différences de contenu entre deux versions à l’aide des barres de modification : <br><ul><li> **Ligne de base de la version précédente** Sélectionnez la version de ligne de base à comparer à la version actuelle ou à une autre ligne de base. Une barre de modification s’affiche dans le PDF pour indiquer le contenu modifié. Une barre de modification est une ligne verticale qui identifie visuellement le contenu nouveau ou révisé. La barre de modification s’affiche à gauche du contenu qui a été inséré, modifié ou supprimé. <br> **Remarque** : Si vous sélectionnez **Utiliser niveau de référence** et choisissez un niveau de référence à publier, la comparaison est effectuée entre les deux versions de niveau de référence sélectionnées. Par exemple, si vous choisissez la version de référence 1.3 sous **Utiliser la référence** et la version 1.1 sous **Ligne de base de la version précédente**, la comparaison sera effectuée entre la version de référence 1.1 et la version de référence 1.3. <br><li> **Afficher le texte ajouté** Sélectionnez cette option pour afficher le texte inséré en vert et souligné. Cette option est sélectionnée par défaut. <br> <li> **Afficher le texte supprimé** Sélectionnez cette option pour afficher le texte supprimé en rouge et barré. Cette option est sélectionnée par défaut. <br>**Remarque** vous pouvez également personnaliser la mise en forme de la barre de modification, du contenu inséré ou du contenu supprimé à l’aide de la feuille de style.<br></ul> |
-| **Langue** | Sélectionnez la langue dans laquelle vous souhaitez que la sortie soit traduite. <br> **Remarque** : les textes de référence croisée tels que « Voir sur le chapitre » ou « Voir sur la page » sont contrôlés par une variable de langue. La variable utilise la langue définie dans la rubrique via l’attribut `xml:lang`. Si aucune langue n’est spécifiée, la langue prédéfinie est utilisée. Si les deux sont manquants, la valeur par défaut est l’anglais (en_US). |
+| **Langue** | Sélectionnez la langue dans laquelle vous souhaitez que la sortie soit traduite. Si vous préférez publier la sortie dans la même langue que l’attribut `xml:lang` du mappage racine, sélectionnez l’option **Utiliser la langue du mappage** au lieu de sélectionner explicitement une langue. <br> Si aucun `xml:lang` n’est défini pour la carte, la sortie est définie sur l’anglais (en_US) par défaut. Cela s’avère utile lorsque le mappage parent possède déjà un attribut `xml:lang` défini. Vous n’avez donc pas besoin d’un paramètre prédéfini de sortie distinct pour chaque langue. Pour comprendre l&#39;impact de ce paramètre sur différents types de contenu, consultez la section [Résolution linguistique pour le contenu DITA par rapport aux variables du modèle de sortie](../native-pdf/native-pdf-language-variables.md#language-resolution-for-dita-content-vs-output-template-variables). |
 | **Arguments de ligne de commande DITA-OT** | Lorsque vous activez **Activer le prétraitement DITA-OT**, le champ **Arguments de ligne de commande DITA-OT** devient disponible. Ici, vous pouvez spécifier les arguments supplémentaires que DITA-OT doit traiter lors de la génération de la sortie. Pour plus d&#39;informations sur les arguments de ligne de commande pris en charge dans DITA-OT, consultez la [documentation DITA-OT](https://www.dita-ot.org/).<br>**REMARQUE :** <br> les liens connexes définis dans les tables de relation DITA (`<reltable>`) ne sont pas inclus par défaut dans la sortie Native PDF. Utilisez `-Dargs.rellinks=nofamily` argument DITA-OT pour inclure ces liens connexes dans la sortie Native PDF. <br> Pour les mappages imbriqués, l’attribut `toc="no"` défini sur une référence de mappage n’exclut pas ses rubriques enfants de la table des matières par défaut. Utilisez `-Dpreprocess.move-meta-entries.skip=false` argument DITA-OT pour vous assurer que les rubriques enfants sont exclues de la table des matières pour ces mappages. |
 | **Workflow de post-génération** | Sélectionnez cette option pour afficher une liste déroulante contenant tous les workflows configurés dans AEM. Vous pouvez sélectionner le workflow à exécuter une fois le workflow de génération de PDF terminé. |
 
 >[!NOTE]
 >
->&#x200B;- Les liens définis dans les tables de relation DITA (`<reltable>`) ne sont pas inclus par défaut dans la sortie Native PDF. Utilisez ce champ pour transmettre l&#39;argument DITA-OT `-Dargs.rellinks=nofamily` et inclure ces liens connexes dans la sortie.
+>- Les liens définis dans les tables de relation DITA (`<reltable>`) ne sont pas inclus par défaut dans la sortie Native PDF. Utilisez ce champ pour transmettre l&#39;argument DITA-OT `-Dargs.rellinks=nofamily` et inclure ces liens connexes dans la sortie.
 >
 
 **Métadonnées**
@@ -173,29 +186,54 @@ Protégez votre PDF en ajoutant des restrictions pour l’ouverture et la lectur
 >
 > À partir de la version Experience Manager Guides 5.0/2025.02.0, la section Impression fait désormais partie du **paramètre prédéfini de sortie PDF natif**. Pour les modèles existants avec des paramètres d’impression enregistrés, les données d’impression restent intactes, mais n’apparaissent plus dans l’interface utilisateur ou ne s’appliquent plus lors de la sortie. Pour continuer à utiliser ces paramètres, vous devez les reconfigurer dans le paramètre prédéfini de sortie PDF natif.
 
-Configurez les paramètres de production d’impression pour attribuer des repères d’impression, sélectionner des modèles de couleurs et spécifier les propriétés liées à l’impression de votre sortie PDF.
+Configurez les paramètres de production d’impression pour attribuer des repères d’impression, définir des zones de page et définir les options de couleur et de profil ICC pour votre sortie PDF. L’onglet Impression est organisé en trois sections, dans l’ordre : **Marques d’impression**, **Zones de page** et **Couleur et ICC**.
 
-* **Repères d’impression** : lorsque vous préparez un document pour l’impression, des repères d’impression sont ajoutés aux limites de la page pour faciliter l’alignement, le rognage et la sélection des couleurs lors de l’impression. En sélectionnant un repère d’imprimante, la limite de page est étendue pour accueillir le repère, qui est ajusté lors de l’impression. Vous pouvez choisir d’afficher les repères d’impression suivants dans votre sortie PDF :
-  * **Rogner les marques** : sélectionnez cette option pour placer une marque à chaque coin de la zone de rognage afin d’indiquer où le papier doit être rogné après l’impression.
-  * **Repères de fond perdu** : sélectionnez cette option pour placer un repère à chaque coin de la zone de fond perdu afin d’indiquer la zone de rognage de l’image étendue.
-  * **Marques d’enregistrement** : sélectionnez cette option pour placer une marque en dehors de la zone de recadrage afin d’aligner les différentes séparations dans un document en couleur.
-  * **Barres de couleurs** : sélectionnez cette option pour ajouter une bande de couleurs en dehors de la zone de rognage afin de conserver la cohérence des couleurs et d’ajuster la densité d’encre lors de l’impression.
+## Marques d&#39;imprimante
 
-  Définissez les dimensions des repères d’impression sélectionnés à l’aide des options **Largeur de ligne**, **Couleur de ligne** et **Largeur de zone de fond perdu**.
+Lorsque vous préparez un document pour la production d&#39;impression, des repères d&#39;impression sont ajoutés aux limites de la page pour faciliter l&#39;alignement, le rognage et la sélection des couleurs lors de l&#39;impression. Lorsque vous sélectionnez un repère d&#39;imprimante, la bordure de la page est étendue pour accueillir le repère et la zone étendue est ajustée après l&#39;impression.
 
-* **Taille du cadre du support** : il s’agit de la taille globale de la page, y compris la zone étendue occupée par les repères d’impression. Utilisez l’option de liste déroulante pour sélectionner le format de page de votre sortie PDF ou créer votre propre format personnalisé.
+Utilisez les paramètres suivants pour configurer les repères d’impression pour votre sortie PDF :
 
-* **Espace colorimétrique** : vous avez la possibilité de choisir parmi les espaces colorimétriques RGB ou CMJN pour imprimer votre document PDF. Choisissez RGB pour afficher le PDF généré numériquement et CMJN pour l’impression physique. Les couleurs définies dans le document sont converties dans l’espace colorimétrique choisi.
+| Configuration | Description |
+| --- | --- |
+| **Toutes les marques d&#39;imprimante** | Sélectionnez cette option pour activer ou désactiver tous les paramètres de repères d’impression : **Rogner les repères**, **Repères de fond perdu**, **Repères de montage** et **Barres de couleur**. Si vous activez ou désactivez une marque individuelle alors que l&#39;option **Toutes les marques d&#39;imprimante** est sélectionnée, ce paramètre est automatiquement désactivé. Lorsque ce paramètre n’est pas sélectionné, vous pouvez activer ou désactiver des marques individuelles. |
+| **Rogner** | Sélectionnez cette option pour placer une marque à chaque coin de la zone de rognage afin d&#39;indiquer où le papier doit être rogné après l&#39;impression. |
+| **Repères de fond perdu** | Sélectionnez cette option pour placer une marque à chaque coin de la zone de fond perdu afin d’indiquer la zone de rognage de l’image étendue. |
+| **Marques d’enregistrement** | Sélectionnez cette option pour placer une marque en dehors de la zone de recadrage afin d’aligner les différentes séparations dans un document couleur. |
+| **Barres de couleurs** | Sélectionnez cette option pour ajouter une bande de couleurs en dehors de la zone de rognage afin de conserver la cohérence des couleurs et d’ajuster la densité d’encre lors de l’impression. |
+| **Largeur de la ligne** | Spécifiez la largeur de la ligne utilisée pour tracer les repères d&#39;impression sélectionnés. La valeur s’incrémente par incréments de 0,25 pt. |
+| **Couleur de ligne** | Spécifiez la couleur de la ligne utilisée pour tracer les repères d&#39;impression sélectionnés. |
 
-* **Profil ICC** : vous pouvez gérer la précision des couleurs sur l’ensemble des appareils en spécifiant un profil ICC. Cela garantit un rendu des couleurs cohérent dans la sortie imprimée.
+## Zones de page
 
-Pour configurer ce paramètre, spécifiez le chemin d’accès au fichier de profil ICC sur votre serveur et indiquez le nom du profil ICC pour une identification facile. Si le profil ICC est stocké en ligne, vous pouvez également fournir son URL au lieu du chemin d’accès au fichier.
+Utilisez cette section pour définir la taille globale de la page et la zone de fond perdu pour votre sortie PDF.
+
+Utilisez les paramètres suivants pour configurer les zones de page :
+
+| Configuration | Description |
+| --- | --- |
+| **Taille de la boîte du média** | Indique la taille globale de la page, y compris la zone étendue occupée par les repères d’impression. Utilisez la liste déroulante pour sélectionner la taille de page de votre sortie PDF ou créez une taille personnalisée. |
+| **Largeur de la zone de fond perdu** | Indiquez la largeur de la zone de fond perdu, qui correspond à la zone s’étendant au-delà de la zone de rognage et qui accueille les repères de fond perdu ainsi que toute image s’étendant au-delà de la ligne de rognage. |
+
+## Couleur et ICC
+
+Utilisez cette section pour choisir un espace colorimétrique à imprimer et, éventuellement, gérer la précision des couleurs sur les appareils à l’aide d’un profil ICC. Lors de l’utilisation de l’espace colorimétrique CMJN, un profil colorimétrique ICC est requis pour les conformités PDF qui nécessitent une gestion des couleurs.
 
 >[!NOTE]
 >
-> Un profil colorimétrique ICC est nécessaire pour la création de PDF/A si vous utilisez l’espace colorimétrique CMJN.
+> Pour une meilleure gestion des profils de couleurs ICC, assurez-vous d’utiliser le moteur [Native PDF engine v2](../native-pdf/new-pdf-engine.md), qui comprend des correctifs pour les problèmes de profil de couleurs ICC connus dans le moteur Native PDF v1.
 
-<!--For more information on applying these print settings, see *Printing preferences*.-->
+Utilisez les paramètres suivants pour configurer l’espace colorimétrique et le profil ICC :
+
+| Configuration | Description |
+| --- | --- |
+| **Espace colorimétrique** | Choisissez entre les espaces colorimétriques **&#x200B;**&#x200B;et **CMJN** pour votre document PDF. Choisissez **&#x200B;**&#x200B;pour les PDF destinés à l’affichage numérique et **CMJN** pour l’impression physique. |
+| **Convertir les couleurs** | Activez cette option pour convertir les couleurs définies dans le document dans l’espace colorimétrique sélectionné ci-dessus. Cette option est activée par défaut pour les espaces colorimétriques RGB et CMJN. Lorsqu’il est activé, le champ **Intention de rendu** devient également disponible. |
+| **Intention de rendu** | Disponible uniquement lorsque l’option **Convertir les couleurs** est activée. Sélectionnez l’intention de rendu à utiliser lors de la conversion des couleurs dans l’espace colorimétrique cible :<br>- **Par défaut** : utilise le comportement de rendu par défaut.<br>- **Perception** : ajuste les couleurs afin de préserver leur aspect visuel global.<br>- **Colorimétrie relative** : ajuste les couleurs en fonction de l’espace colorimétrique cible tout en conservant la précision des couleurs dans la mesure du possible.<br> **Remarque** : lorsque vous utilisez cette fonctionnalité avec une configuration Adobe Experience Manager Guides On-Premise, assurez-vous que Java 20 ou une version ultérieure est disponible pour que le moteur Native PDF sous-jacent applique l’intention de rendu spécifiée. |
+| **Nom de l’identifiant** | Saisissez le nom de l’identifiant de sortie. |
+| **Parcourir le profil** | Accédez au fichier de profil ICC (`.icc` ou `.icm`) sur votre serveur AEM. Ce champ est désactivé lorsque l’option **Utiliser l’URL pour le profil** est activée. |
+| **Utiliser l’URL pour le profil** | Activez cette option pour utiliser un profil ICC hébergé en ligne au lieu d’un fichier local. |
+| **URL du profil** | Disponible uniquement lorsque l’option **Utiliser l’URL pour le profil** est activée. Saisissez l’URL d’hébergement du profil ICC. |
 
 **Avancé**
 
@@ -216,6 +254,7 @@ Utilisez les options suivantes pour spécifier des paramètres avancés pour fus
 | **Activer les équations de MathML** | Sélectionnez cette option pour effectuer le rendu des équations MathML présentes dans votre contenu. Les équations seront ignorées par défaut. |
 | **Créer un formulaire PDF interactif** | Sélectionnez cette option si vous souhaitez inclure des champs de formulaire PDF interactifs et personnalisables pour une entrée utilisateur améliorée dans les sorties PDF générées. |
 | **Inclure le suivi des modifications** | Sélectionnez cette option si vous souhaitez inclure les modifications suivies dans le PDF généré pour faciliter la révision et la comparaison. |
+| **Inclure les commentaires préliminaires** | Sélectionnez cette option si vous souhaitez inclure des commentaires de brouillon ajoutés dans les rubriques DITA du mappage sélectionné dans le PDF généré. <br> **Remarque** : l’activation de cette option seule n’entraîne pas l’affichage de commentaires sur le brouillon dans la sortie. Un administrateur doit également définir la propriété display du style draft-comment sur une valeur visible (telle que `block`, `inline-block`, `grid`, etc.) dans le modèle de sortie utilisé pour la carte. Pour plus d’informations, consultez [Afficher ou masquer les commentaires de brouillon dans la sortie native de PDF](../native-pdf/components-pdf-template.md#show-or-hide-draft-comments-in-native-pdf-output). |
 | **Conserver les fichiers temporaires** | Sélectionnez cette option si vous souhaitez conserver les fichiers HTML intermédiaires créés lors de la génération de la sortie Native PDF. Vous pouvez ensuite télécharger les fichiers temporaires après avoir généré la sortie. Les fichiers téléchargés incluraient également `system_config.xml` fichier qui vous donne des informations sur l’URL de création, l’URL locale et l’URL de publication. Ces URL sont configurées dans les paramètres d’externalisation d’AEM et sont reflétées dans le fichier `system_config.xml`. |
 | **Conformité de** | Il s’agit de la norme à laquelle vous avez l’intention d’enregistrer votre PDF pour vous assurer qu’elle est conforme. Faites votre choix dans la liste déroulante parmi les normes PDF disponibles. Pour plus d’informations sur les normes prises en charge, voir [À propos des normes PDF](https://helpx.adobe.com/fr/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Propriétés du fichier** | Sélectionnez les métadonnées que vous souhaitez transmettre à la publication native de PDF. La liste déroulante répertorie les propriétés personnalisées et par défaut. Par exemple, `dc:description`, `dc:language`, `dc:title` et `docstate` sont les propriétés par défaut, tandis que vous pouvez utiliser `author` comme propriété personnalisée. Les propriétés de métadonnées sélectionnées sont transmises au fichier PDF généré à l’aide de PDF natif. <br> Ces propriétés sont sélectionnées à partir du fichier `metadataList` disponible à l’adresse `/libs/fmdita/config/metadataList`. <br>Ce fichier peut être recouvert à l’adresse : `/apps/fmdita/config/metadataList`. |

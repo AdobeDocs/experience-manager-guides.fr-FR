@@ -7,20 +7,23 @@ exl-id: cf3c03b5-383c-464c-8ef1-2f0f825c4e56
 TQID: https://experienceleague.adobe.com/bz8MQVs9yKIVkdD4iyjZWj-w70f1fukQ1I-bwx6LF80
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 53f073a6c37a9b6e9bff27349cc065e9a2d75345
 workflow-type: tm+mt
-source-wordcount: 571
+source-wordcount: '611'
 ht-degree: 0%
-
 ---
-
 # Panneau de recherche
 
 >[!INFO]
@@ -60,6 +63,10 @@ Lorsque vous travaillez dans l’interface de l’éditeur, vous pouvez filtrer 
 2. Effectuez votre recherche et appliquez des filtres selon vos besoins. Pour obtenir des instructions détaillées sur les options de recherche et de filtrage, consultez [Expérience de recherche et de filtrage](./home-page-repository-view.md#search-and-filter-experience).
 
 3. Une fois la recherche terminée, sélectionnez **Afficher dans le panneau de recherche**. Vos recherches récentes s’affichent alors dans le panneau de recherche au bas de l’éditeur.
+
+   >[!NOTE]
+   >
+   > À partir de la version 2026.09.0, Experience Manager Guides offre une expérience de navigation améliorée grâce au chargement paginé. Cette fonctionnalité est activée par défaut. Pour le désactiver, contactez votre équipe du succès client. Pour plus d’informations, voir [Chargement paginé de fichiers et de dossiers](./web-editor-other-features.md#paginated-loading-of-files-and-folders).
 
    ![](images/show-search-explorer.png)
 

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: d3a1a627c00ccf276c78a0bc1337b71dd3951bc4
+source-git-commit: 2123962f8c168928c9b0a1ee1331e5cfd86db319
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2647'
 ht-degree: 11%
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 11%
       - {hide-from-toc}[&#x200B; Instructions de déploiement &#x200B;](./release-info/deploy-xml-on-aemaacs.md)
       - [Versions cloud](./release-info/latest-release-info-cs.md)
       - Versions De 2026 {#2026-releases}
+        - Version 2026.09.0 {#2609-release}
+          - [Nouveautés](./release-info/whats-new-2026-09-0.md)
+          - [Problèmes résolus](./release-info/fixed-issues-2026-09-0.md)
+          - [Instructions de mise à niveau](./release-info/upgrade-instructions-2026-09-0.md)
         - Version 2026.08.0 {#2608-release}
           - [Nouveautés](./release-info/whats-new-2026-08-0.md)
           - [Problèmes résolus](./release-info/fixed-issues-2026-08-0.md)
@@ -140,6 +144,10 @@ ht-degree: 11%
         - [Notes de mise à jour de janvier](./release-info/release-notes-2022-1-0.md)
     - On-prem/Managed Services {#on-prem-release-notes}
       - [[!DNL AEM Guides] versions](./release-info/latest-release-info.md)
+      - Version 5.2.0 SP1 {#520-sp1-release}
+        - [Nouveautés](./release-info/whats-new-5-2-1.md)
+        - [Problèmes résolus](./release-info/fixed-issues-5-2-0-sp1.md)
+        - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-2-0-sp1.md)
       - Version 5.2.0 {#520-release}
         - [Nouveautés](./release-info/whats-new-5-2-0.md)
         - [Problèmes résolus](./release-info/fixed-issues-5-2-0.md)
@@ -360,12 +368,13 @@ ht-degree: 11%
   - Assistant AI dans AEM Guides {#ai-assistant-aem}
     - [Informations d’identification des utilisateurs et utilisatrices d’Adobe Generative AI](./user-guide/adobe-generative-ai-disclosures.md)
     - [Vue d’ensemble de l’Assistant IA](./user-guide/ai-assistant.md)
-    - [Aide intelligente optimisée par l’IA pour rechercher du contenu](./user-guide/ai-based-smart-help.md)
-    - [Assistant AI Création pour créer des documents intelligemment](./user-guide/ai-assistant-right-panel.md)
-    - [Suggestions intelligentes optimisées par l’IA pour créer du contenu](./user-guide/authoring-ai-based-smart-suggestions.md)
-    - [Questions fréquentes](./user-guide/ai-assistant-faq.md)
-  - IA dédiée aux guides dans AEM Guides {#guides-ai-aem}
-    - [Prise en main de Guides AI](./user-guide/guides-ai.md)
+    - Assistant d’IA en mode Agence {#ai-assistant-agentic}
+      - [Utilisation de l’assistant AI en mode Agence](./user-guide/ai-assistant-agentic.md)
+    - Assistant d’IA en mode standard {#ai-assistant-standard}
+      - [Aide intelligente optimisée par l’IA pour rechercher du contenu](./user-guide/ai-based-smart-help.md)
+      - [Assistant AI Création pour créer des documents intelligemment](./user-guide/ai-assistant-right-panel.md)
+      - [Suggestions intelligentes optimisées par l’IA pour créer du contenu](./user-guide/authoring-ai-based-smart-suggestions.md)
+      - [Questions fréquentes](./user-guide/ai-assistant-faq.md)
   - Gérer le contenu de formation {#learning-training-content}
     - Guide de prise en main {#get-started}
       - Présentation {#intro-lc}
@@ -425,6 +434,8 @@ ht-degree: 11%
     - Résolution des problèmes {#troubleshooting}
       - [Timeout de session](./user-guide/session-timeout-prompt.md)
       - [La chaîne est une exception trop longue dans l’exportation des métadonnées](./user-guide/metadata-export-failure.md)
+    - Gestion des performances {#performance-management}
+      - [Chargement paginé de fichiers et de dossiers](./user-guide/paginated-loading-assets.md)
 - Guide de l’utilisateur (ancienne interface utilisateur) {#user-guide-old-ui}
   - [Présentation d’AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation et configuration {#install-conf-guide}
@@ -496,6 +507,7 @@ ht-degree: 11%
     - [Installation de packages pour la publication basée sur des articles](./install-conf-guide/conf-article-based-publishing.md)
     - [Configuration de la liste d’exclusion des propriétés de métadonnées](./install-conf-guide/conf-metadata-prop.md)
     - Paramètre de l’éditeur pour Cloud Service {#editor-cloud-settings}
+      - [Configuration de l’assistant AI en mode Agence pour Cloud Service](./install-conf-guide/configure-ai-assistant-agentic-mode-cs.md)
       - [Configurer les suggestions intelligentes optimisées par l’IA pour la création dans Cloud Service](./install-conf-guide/conf-smart-suggestions.md)
       - [Configurer l’aide intelligente optimisée par l’IA pour rechercher du contenu pour Cloud Service](./install-conf-guide/conf-smart-help.md)
       - [Configurer l’option de modification dans Oxygen for Cloud Service](./install-conf-guide/conf-edit-in-oxygen.md)
@@ -552,10 +564,11 @@ ht-degree: 11%
         - [Configuration du nouveau moteur de publication pour le PDF natif](./native-pdf/conf-new-pdf-engine.md)
       - [Utiliser le moteur PDF natif v2](./native-pdf/new-pdf-engine.md)
       - [Configurer le processus de nœud pour la publication native de PDF pour Cloud Service](./native-pdf/conf-node-options-cs.md)
-      - [Configuration des indicateurs JVM pour la publication native PDF pour On-Premise](./native-pdf/conf-jvm-flags-on-prem.md)
+      - [Configurer les indicateurs JVM pour la publication native PDF pour On-Premise](./native-pdf/conf-jvm-flags-on-prem.md)
     - Configuration de fragments de contenu et d’expérience pour Cloud Service {#conf-content-exp-fragment}
       - [Créer un mappage entre une rubrique et un fragment de contenu](./install-conf-guide/conf-mapping-topic-content-fragment-cs.md)
       - [Créer un mappage entre une rubrique et un fragment d’expérience](./install-conf-guide/conf-mapping-topic-content-exp-cs.md)
+    - [Configurer la limite de taille d’entité de l’analyseur XML](./install-conf-guide/conf-xml-parsing.md)
   - Personnalisation des workflows {#workflow}
     - [Configuration et personnalisation de workflows](./install-conf-guide/conf-customize-workflows.md)
   - Intégrations {#aemg-integrations}
@@ -566,7 +579,10 @@ ht-degree: 11%
     - [Configurer une nouvelle ligne de base pour On-Premise](./install-conf-guide/conf-new-baseline-on-prem.md)
     - [Configuration de l’omission des liens d’homologue pour On-Premise](./install-conf-guide/conf-skip-peer-links-on-prem.md)
     - {hide-from-toc}[Configurer de nouvelles collections de mappage pour la génération de sortie](./install-conf-guide/conf-new-map-collection-on-prem.md)
-    - [Utilisation du serveur Experience Manager Guides MCP](./install-conf-guide/conf-aem-guides-mcp.md)
+    - Intégration d’AEM Guides MCP {#mcp}
+      - [Utilisation du serveur MCP AEM Guides](./install-conf-guide/conf-aem-guides-mcp.md)
+      - [Configuration du serveur MCP AEM Guides](./install-conf-guide/configure-aem-guides-mcp.md)
+      - [Configurer les paramètres de connexion MCP pour AEM Guides On-Premise](./install-conf-guide/configure-aem-guides-mcp-on-prem.md)
   - Extension des fonctionnalités {#aemg-customization}
     - [Déployer l’index personnalisé pour la fonctionnalité de recherche et de remplacement de Cloud Service](./install-conf-guide/custom-indexing-cs.md)
     - [Réindexation pour la fonction Rechercher et remplacer dans On-Premise](./install-conf-guide/custom-indexing-on-prem.md)

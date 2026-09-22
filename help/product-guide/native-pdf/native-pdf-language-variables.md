@@ -8,18 +8,20 @@ level: Experienced
 TQID: https://experienceleague.adobe.com/Tl18qyeww079p8XGKwbKTN8TvoZLb-q9mPQ-8q660Dc
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: 1417
+source-wordcount: '1891'
 ht-degree: 0%
-
 ---
-
 # Prise en charge des variables de langue
 
 Adobe Experience Manager Guides permet d’utiliser des variables de langue. Vous pouvez utiliser des variables de langue pour définir des chaînes localisées dans la sortie PDF ou pour localiser du texte statique dans les modèles de sortie. Vous pouvez utiliser des styles CSS pour localiser les chaînes provenant d’un fichier CSS.
@@ -151,8 +153,6 @@ Vous pouvez également modifier les valeurs d’une variable d’application. Pa
 
 Vous devez ajouter des variables de langue dans vos documents localisés. Vous pouvez insérer ces variables de langue dans la mise en page qui s’affiche sur différentes pages de vos documents localisés. Par exemple, vous pouvez ajouter la variable de langue pour la `author-name` qui apparaît dans la zone d’en-tête de la mise en page (ou toute autre partie comme le pied de page ou le corps).
 
-
-
 <img alt="mise en page d’un pdf" src="./assets/language-variable-page-layout.png" width="550">
 
 
@@ -180,6 +180,21 @@ Pour insérer une variable de langue telle que votre `copyright-label` dans la z
 <img alt="insérer une variable dans la zone d’en-tête" src="./assets/language-variable-header.png" width="550">
 
 *Le `copyright-label` ajouté dans la zone d’en-tête.*
+
+Une fois insérée, la valeur d’une variable de langue dans la sortie générée dépend de la langue configurée dans le paramètre prédéfini de sortie. Si votre carte possède déjà une langue définie à l’aide de l’attribut `xml:lang` et que vous souhaitez que le modèle utilise cette même langue, assurez-vous que l’option **Utiliser la langue de la carte** est sélectionnée dans le paramètre prédéfini de sortie au lieu de sélectionner explicitement une langue. Consultez la section [Résolution linguistique pour le contenu DITA par rapport aux variables du modèle de sortie](#language-resolution-for-dita-content-vs-output-template-variables) pour découvrir comment une langue est résolue en fonction de son type de contenu.
+
+### Résolution linguistique pour le contenu DITA par rapport aux variables du modèle de sortie
+
+Votre document peut contenir deux types de contenu qui doivent être traduits : du contenu DITA, tel que des références croisées et des marques de continuation de tableau, et du contenu de modèle de sortie, tel que du recto, du verso, des en-têtes et des pieds de page que vous insérez à l&#39;aide de variables de langue.
+
+Utilisez le tableau suivant pour comprendre comment chaque type de contenu résout sa langue.
+
+| Type de contenu | Exemples | Ordre de résolution des langues |
+|---|---|---|
+| Contenu DITA | Références croisées (par exemple, « Voir le chapitre » ou « Voir la page »), marques de continuation de tableau | &#x200B;1. Attribut `xml:lang` sur la rubrique ou le mappage le plus proche <br> 2. Langue du paramètre prédéfini de sortie, si aucune `xml:lang` n’est définie |
+| Variables de langue du modèle de sortie | Recto, verso, en-têtes, pieds de page, têtes de course et étiquettes générées (Remarque, Attention, Avertissement) | &#x200B;1. Langue sélectionnée dans le paramètre prédéfini de sortie <br> 2. Le `xml:lang` de la carte racine, si **Utiliser la langue de la carte** est sélectionné <br> 3. Anglais (en_US), si aucun n’est disponible |
+
+Si vous souhaitez que votre contenu DITA suive une langue spécifique, définissez l&#39;attribut `xml:lang` sur la rubrique ou le mappage le plus proche de ce contenu. Les variables de langue fonctionnent différemment ; étant donné qu&#39;elles ne font pas partie de la source DITA, elles n&#39;ont pas de `xml:lang` à hériter, de sorte que vous pouvez contrôler leur langue par le biais du paramètre prédéfini de sortie.
 
 ### Application d’un style de contenu aux variables de langue
 

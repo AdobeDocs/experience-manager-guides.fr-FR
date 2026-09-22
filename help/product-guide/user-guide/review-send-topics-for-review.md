@@ -7,21 +7,25 @@ role: User
 TQID: https://experienceleague.adobe.com/mrpBKOZcVm1XHdkEy9PBFOt-cbjfmyjqhT-BRbg3Swo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a668e1b862702ae1154b05d974414b54b43559ea
+    internal-label: User
+source-git-commit: 279cf0605427042290a7bbf179636f022d4bfd46
 workflow-type: tm+mt
-source-wordcount: 3663
+source-wordcount: '4036'
 ht-degree: 0%
-
 ---
-
 # Envoyer les rubriques à réviser {#id199RD0S035Z}
 
 Le workflow de révision crée un environnement à réviseurs multiples dans lequel l’initiateur spécifie une liste de rubriques à réviser, ajoute plusieurs réviseurs et affecte une chronologie à la tâche de révision. Adobe Experience Manager Guides permet aux utilisateurs appartenant aux groupes Auteurs et Éditeurs de lancer une révision.
@@ -275,6 +279,10 @@ Pour envoyer une ou plusieurs rubriques avec le fichier de mappage pour révisio
 
    ![](images/content-page-map-review.png)
 
+   >[!NOTE]
+   >
+   > L’organisation du contenu sur cette page dépend de l’activation ou non de la fonction de hiérarchie de mappage pour votre environnement. Lorsqu’ils sont activés, la carte et ses sous-cartes s’affichent dans une vue hiérarchique au lieu d’une liste plate de rubriques. Pour plus de détails, consultez [Afficher la hiérarchie de carte lors de la sélection des rubriques à réviser](#view-the-map-hierarchy-while-selecting-topics-for-review).
+
 1. Sur la page Contenu, sélectionnez une version de la rubrique que vous souhaitez partager pour révision.
 
    Vous pouvez utiliser l’une des méthodes suivantes pour sélectionner une version :
@@ -327,6 +335,33 @@ Pour envoyer une ou plusieurs rubriques avec le fichier de mappage pour révisio
 
 
 Un e-mail est envoyé à tous les réviseurs et réviseuses, les informant que des rubriques leur ont été affectées pour la révision. L’e-mail contient un lien direct qu’ils peuvent utiliser pour accéder à la rubrique dans une fenêtre de navigateur. Les rubriques ainsi que le plan DITA sont ouvertes en mode de révision.
+
+### Afficher la hiérarchie des cartes lors de la sélection des rubriques à réviser
+
+>[!NOTE]
+>
+> Cette fonction est désactivée par défaut. Pour l’activer dans votre environnement, contactez votre équipe du succès client.
+
+Grâce à cette fonctionnalité, la structure ou la hiérarchie existante du contenu de la carte s’affiche sur la page **Contenu**. Au lieu d’afficher toutes les rubriques d’une carte sous forme de liste plate, la carte et ses sous-cartes sont affichées dans leur hiérarchie réelle pour une meilleure référence lors de la sélection du contenu à réviser.
+
+![](./images/review-map-hierarchy.png)
+
+>[!NOTE]
+>
+> - Si une carte ne contient que des rubriques et pas de sous-cartes, une liste plate de rubriques s’affiche comme d’habitude.
+> - Seuls les types de contenu pouvant être inclus dans une révision s’affichent dans la hiérarchie. Il s&#39;agit notamment des rubriques Concept, Tâche, Référence et Générique, ainsi que des types de carte DITA, BookMap et Learning Content Map. Les éléments non révisables, tels que les références de glossaire, les définitions de clés et les listes de glossaire, ne sont pas affichés dans la hiérarchie du mappage.
+
+Par défaut, tous les mappages, sous-mappages et rubriques de la hiérarchie sont sélectionnés. En tant qu’auteur ou initiateur de la tâche de révision, vous pouvez sélectionner ou désélectionner des rubriques individuelles ou remplir des sous-plans en fonction du contenu que vous souhaitez envoyer pour révision. La désélection d’un sous-mappage annule également toutes les rubriques qu’il contient.
+
+Lorsque seules certaines rubriques d’une sous-carte sont sélectionnées, la case à cocher de la sous-carte passe à un état indéterminé pour indiquer une sélection partielle. Cet état de sélection est reflété à la fois dans les pages **Contenu** et **Réviseurs**, ce qui garantit que le contenu sélectionné reste cohérent dans l’ensemble du workflow de révision.
+
+![](./images/review-partial-selection-submap.png)
+
+Lorsque toutes les rubriques d&#39;une sous-carte sont sélectionnées ou désélectionnées, l&#39;état de sélection de la sous-carte s&#39;ajuste automatiquement en conséquence.
+
+Si la même rubrique est référencée plusieurs fois dans la hiérarchie de mappage, chaque occurrence postérieure à la première est marquée par un libellé **Dupliquer** pour une identification plus facile. L’option permettant de sélectionner, désélectionner ou modifier la version de ces rubriques en double est désactivée. Toute sélection ou modification de version doit être effectuée à partir de la première occurrence de la rubrique.
+
+![](./images/review-duplicate-topics-in-map.png)
 
 ## Ajouter ou supprimer des rubriques d’une tâche de révision en cours
 
