@@ -21,7 +21,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: e4019ae1e605bd26f7df676a4fab8c632fd8fa8e
+source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -77,7 +77,7 @@ Lorsque vous ouvrez une rubrique dans l’éditeur, un panneau Validation du sch
 
    >[!NOTE]
    >
-   > Les résultats de la validation s’affichent en fonction de l’attribut de rôle défini dans le fichier Schematron. Pour plus d’informations, consultez la section [Présentation des résultats de validation et des niveaux de gravité](#understanding-validation-results-and-serverity-levels).
+   > Les résultats de la validation s’affichent en fonction de l’attribut de rôle défini dans le fichier Schematron. Pour plus d’informations, voir [Comprendre les résultats de la validation et les niveaux de gravité](#understanding-validation-results-and-severity-levels).
 
 1. Sélectionnez le message d’erreur pour mettre en surbrillance l’élément contenant l’erreur dans la rubrique/le mappage ouvert.
 
@@ -89,7 +89,7 @@ Les résultats de la validation s’affichent en fonction de l’attribut de rô
 
 ![](images/schematron-validation-errors.png){width="350"}
 
-Pour déterminer la gravité d’un problème, la valeur _sensible à la casse_ de l’attribut de rôle défini dans le fichier Schematron correspondant est évaluée.
+Pour déterminer la gravité d’un problème, la valeur _sensible à la casse_ de l’attribut de rôle défini dans le fichier de schéma correspondant est évaluée.
 
 Le fragment suivant présente les valeurs d’attribut de rôle prises en charge définies dans une règle de schéma :
 

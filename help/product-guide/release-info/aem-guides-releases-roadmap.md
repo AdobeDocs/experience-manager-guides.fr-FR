@@ -18,9 +18,9 @@ role_v2:
     internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 8315ee2f8687e267cc166b3c51ae05f1302495ff
+source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '939'
 ht-degree: 39%
 ---
 # Informations sur les versions d’[!DNL Experience Manager Guides] {#aem-guides-releases-roadmap}
@@ -33,7 +33,7 @@ ht-degree: 39%
 
 ## [!DNL Experience Manager Guides] as a [!DNL Cloud Service] {#aem-guides-roadmap-cs}
 
-Les versions de Experience Manager Guides as a Cloud Service sont prévues de la manière suivante :
+Les versions d’Adobe Experience Manager Guides as a Cloud Service sont prévues de la manière suivante :
 
 ### Versions prévues
 

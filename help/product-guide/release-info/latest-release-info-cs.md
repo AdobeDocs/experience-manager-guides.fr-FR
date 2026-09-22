@@ -14,14 +14,14 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: c581d44f5dab173cbe657e05c21d8a4a65844bc1
+source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 2%
 ---
 # Informations de mise à jour d’Adobe Experience Manager Guides as a Cloud Service
 
-Cette page fournit les informations les plus récentes sur Adobe Experience Manager Guides as a Cloud Service. Obtenez des détails sur les nouvelles fonctionnalités, les améliorations, les problèmes résolus, les problèmes connus et les instructions de mise à niveau pour vous aider à rester à jour avec chaque version.
+Cet article fournit les informations les plus récentes sur Adobe Experience Manager Guides as a Cloud Service. Obtenez des détails sur les nouvelles fonctionnalités, les améliorations, les problèmes résolus, les problèmes connus et les instructions de mise à niveau pour vous aider à rester à jour avec chaque version.
 
 ## Versions de 2026
 
