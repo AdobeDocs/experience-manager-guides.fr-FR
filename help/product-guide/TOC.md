@@ -2,24 +2,28 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: 79259c4991292c12990c42bdd819f121655d650b
+source-git-commit: 2123962f8c168928c9b0a1ee1331e5cfd86db319
 workflow-type: tm+mt
-source-wordcount: '2610'
+source-wordcount: '2647'
 ht-degree: 11%
 ---
 
 # [!DNL Adobe Experience Manager Guides] {#using}
 
 - [Présentation d’[!DNL AEM Guides]](overview.md)
-- {hide-from-toc}[Page de destination &#x200B;](aemg-documentation-overview.md)
+- {hide-from-toc}[Page de destination ](aemg-documentation-overview.md)
 - [Clause de non-responsabilité](./user-guide/rebranding-disclaimer.md)
 - Informations sur la version {#release-info}
   - [Feuille de route des versions d’AEM Guides](./release-info/aem-guides-releases-roadmap.md)
   - Notes de mise à jour {#release-notes}
     - Services cloud {#cloud-release-notes}
-      - {hide-from-toc}[&#x200B; Instructions de déploiement &#x200B;](./release-info/deploy-xml-on-aemaacs.md)
+      - {hide-from-toc}[ Instructions de déploiement ](./release-info/deploy-xml-on-aemaacs.md)
       - [Versions cloud](./release-info/latest-release-info-cs.md)
       - Versions De 2026 {#2026-releases}
+        - Version 2026.09.0 {#2609-release}
+          - [Nouveautés](./release-info/whats-new-2026-09-0.md)
+          - [Problèmes résolus](./release-info/fixed-issues-2026-09-0.md)
+          - [Instructions de mise à niveau](./release-info/upgrade-instructions-2026-09-0.md)
         - Version 2026.08.0 {#2608-release}
           - [Nouveautés](./release-info/whats-new-2026-08-0.md)
           - [Problèmes résolus](./release-info/fixed-issues-2026-08-0.md)
@@ -44,7 +48,7 @@ ht-degree: 11%
         - Version 2026.03.0 {#2603-release}
           - {hide-from-toc}[Nouveautés](./release-info/whats-new-2026-03-0.md)
           - {hide-from-toc}[Correction de problèmes](./release-info/fixed-issues-2026-03-0.md)
-          - {hide-from-toc}[&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-2026-03-0.md)
+          - {hide-from-toc}[ Instructions de mise à niveau ](./release-info/upgrade-instructions-2026-03-0.md)
         - Version 2026.01.0 {#2601-release}
           - [Nouveautés](./release-info/whats-new-2026-01-0.md)
           - [Problèmes résolus](./release-info/fixed-issues-2026-01-0.md)
@@ -167,7 +171,7 @@ ht-degree: 11%
         - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0-sp4.md)
       - Version 5.0.0 SP3 {#500-sp3-release}
         - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp3.md)
-        - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-5-0-0-sp3.md)
+        - [ Instructions de mise à niveau ](./release-info/upgrade-instructions-5-0-0-sp3.md)
       - Version 5.0.0 SP2 {#500-sp2-release}
         - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp2.md)
         - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0-sp2.md)
@@ -186,7 +190,7 @@ ht-degree: 11%
         - [Instructions de mise à niveau](./release-info/upgrade-instructions-4-6-0-sp2.md)
       - Version 4.6.0 SP1 {#460-sp1-release}
         - [Correction de problèmes](./release-info/fixed-issues-4-6-0-sp1.md)
-        - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-4-6-0-sp1.md)
+        - [ Instructions de mise à niveau ](./release-info/upgrade-instructions-4-6-0-sp1.md)
       - Version 4.6.0 {#460-release}
         - [Nouveautés](./release-info/whats-new-4-6.md)
         - [Correction de problèmes](./release-info/fixed-issues-4-6-0.md)
@@ -219,7 +223,7 @@ ht-degree: 11%
   - Présentation {#about-aemg}
     - [À propos  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - Fonctionnalités [!DNL AEM Guides] et clés {#aemg-works-features}
-      - [Fonctionnement  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+      - [Fonctionnement  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
       - [Fonctionnalités [!DNL AEM Guides] clés](./user-guide/intro-dxml-features.md)
   - Page d’accueil {#home-page}
     - [Expérience de la page d’accueil [!DNL AEM Guides]](./user-guide/intro-home-page.md)
@@ -364,12 +368,13 @@ ht-degree: 11%
   - Assistant AI dans AEM Guides {#ai-assistant-aem}
     - [Informations d’identification des utilisateurs et utilisatrices d’Adobe Generative AI](./user-guide/adobe-generative-ai-disclosures.md)
     - [Vue d’ensemble de l’Assistant IA](./user-guide/ai-assistant.md)
-    - [Aide intelligente optimisée par l’IA pour rechercher du contenu](./user-guide/ai-based-smart-help.md)
-    - [Assistant AI Création pour créer des documents intelligemment](./user-guide/ai-assistant-right-panel.md)
-    - [Suggestions intelligentes optimisées par l’IA pour créer du contenu](./user-guide/authoring-ai-based-smart-suggestions.md)
-    - [Questions fréquentes](./user-guide/ai-assistant-faq.md)
-  - IA dédiée aux guides dans AEM Guides {#guides-ai-aem}
-    - [Prise en main de Guides AI](./user-guide/guides-ai.md)
+    - Assistant d’IA en mode Agence {#ai-assistant-agentic}
+      - [Utilisation de l’assistant AI en mode Agence](./user-guide/ai-assistant-agentic.md)
+    - Assistant d’IA en mode standard {#ai-assistant-standard}
+      - [Aide intelligente optimisée par l’IA pour rechercher du contenu](./user-guide/ai-based-smart-help.md)
+      - [Assistant AI Création pour créer des documents intelligemment](./user-guide/ai-assistant-right-panel.md)
+      - [Suggestions intelligentes optimisées par l’IA pour créer du contenu](./user-guide/authoring-ai-based-smart-suggestions.md)
+      - [Questions fréquentes](./user-guide/ai-assistant-faq.md)
   - Gérer le contenu de formation {#learning-training-content}
     - Guide de prise en main {#get-started}
       - Présentation {#intro-lc}
@@ -395,7 +400,7 @@ ht-degree: 11%
         - [Créer un quiz](./learning-content/create-quiz.md)
         - [Modifier le quiz](./learning-content/edit-quiz.md)
         - [Insérer des questions dans un quiz](./learning-content/quiz-insert-questions.md)
-        - [&#x200B; Propriétés du quiz &#x200B;](./learning-content/quiz-properties.md)
+        - [ Propriétés du quiz ](./learning-content/quiz-properties.md)
         - Banque de questions {#question-bank}
           - [Créer une banque de questions](./learning-content/create-qb.md)
           - [Insérer des questions depuis la banque de questions](./learning-content/insert-questions.md)
@@ -429,8 +434,10 @@ ht-degree: 11%
     - Résolution des problèmes {#troubleshooting}
       - [Timeout de session](./user-guide/session-timeout-prompt.md)
       - [La chaîne est une exception trop longue dans l’exportation des métadonnées](./user-guide/metadata-export-failure.md)
+    - Gestion des performances {#performance-management}
+      - [Chargement paginé de fichiers et de dossiers](./user-guide/paginated-loading-assets.md)
 - Guide de l’utilisateur (ancienne interface utilisateur) {#user-guide-old-ui}
-  - [Présentation d’AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Présentation d’AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation et configuration {#install-conf-guide}
   - [Téléchargement, installation et mise à niveau](./install-conf-guide/introduction.md)
   - Processus d’installation de Cloud Service {#deploy-conf-aemg-cs}
@@ -500,6 +507,7 @@ ht-degree: 11%
     - [Installation de packages pour la publication basée sur des articles](./install-conf-guide/conf-article-based-publishing.md)
     - [Configuration de la liste d’exclusion des propriétés de métadonnées](./install-conf-guide/conf-metadata-prop.md)
     - Paramètre de l’éditeur pour Cloud Service {#editor-cloud-settings}
+      - [Configuration de l’assistant AI en mode Agence pour Cloud Service](./install-conf-guide/configure-ai-assistant-agentic-mode-cs.md)
       - [Configurer les suggestions intelligentes optimisées par l’IA pour la création dans Cloud Service](./install-conf-guide/conf-smart-suggestions.md)
       - [Configurer l’aide intelligente optimisée par l’IA pour rechercher du contenu pour Cloud Service](./install-conf-guide/conf-smart-help.md)
       - [Configurer l’option de modification dans Oxygen for Cloud Service](./install-conf-guide/conf-edit-in-oxygen.md)
@@ -526,7 +534,7 @@ ht-degree: 11%
     - [Configurer les états du document](./install-conf-guide/customize-doc-state.md)
     - [Configurer des filtres d’état de document pour Cloud Service](./install-conf-guide/conf-doc-state-filters.md)
   - Configuration des paramètres de Workspace {#workspace-configs}
-    - [Paramètres &#x200B;](./install-conf-guide/workspace-settings.md)
+    - [Paramètres ](./install-conf-guide/workspace-settings.md)
   - Recherche AEM Assets {#aem-asset-search}
     - [Configuration de la recherche pour l’interface utilisateur d’AEM Assets](./install-conf-guide/conf-dita-search.md)
   - Paramètres de génération de sortie {#output-gen-config}
@@ -556,10 +564,11 @@ ht-degree: 11%
         - [Configuration du nouveau moteur de publication pour le PDF natif](./native-pdf/conf-new-pdf-engine.md)
       - [Utiliser le moteur PDF natif v2](./native-pdf/new-pdf-engine.md)
       - [Configurer le processus de nœud pour la publication native de PDF pour Cloud Service](./native-pdf/conf-node-options-cs.md)
-      - [Configuration des indicateurs JVM pour la publication native PDF pour On-Premise](./native-pdf/conf-jvm-flags-on-prem.md)
+      - [Configurer les indicateurs JVM pour la publication native PDF pour On-Premise](./native-pdf/conf-jvm-flags-on-prem.md)
     - Configuration de fragments de contenu et d’expérience pour Cloud Service {#conf-content-exp-fragment}
       - [Créer un mappage entre une rubrique et un fragment de contenu](./install-conf-guide/conf-mapping-topic-content-fragment-cs.md)
       - [Créer un mappage entre une rubrique et un fragment d’expérience](./install-conf-guide/conf-mapping-topic-content-exp-cs.md)
+    - [Configurer la limite de taille d’entité de l’analyseur XML](./install-conf-guide/conf-xml-parsing.md)
   - Personnalisation des workflows {#workflow}
     - [Configuration et personnalisation de workflows](./install-conf-guide/conf-customize-workflows.md)
   - Intégrations {#aemg-integrations}
