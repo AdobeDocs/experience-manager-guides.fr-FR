@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 0%
@@ -41,7 +41,7 @@ L’**assistant AI** d’Adobe Experience Manager Guides est un puissant outil p
 
 >[!NOTE]
 >
->Pour activer l’assistant AI en mode agent pour votre environnement, contactez l’équipe du succès client.
+>Pour activer l’assistant AI en mode Agence pour votre environnement, contactez l’équipe du succès client.
 
 AI Assistant est disponible dans deux modes : **Agentic** et **Standard**. Les administrateurs peuvent choisir entre les deux modes dans la section **Assistant IA** de l’onglet **Général** dans les paramètres de **Workspace**. Le panneau de l’assistant d’IA reste le même dans les deux modes de l’éditeur, mais les fonctionnalités disponibles diffèrent :
 
@@ -86,7 +86,7 @@ Pour lancer l’assistant AI, procédez comme suit :
 1. Connectez-vous à Experience Manager Guides.
 1. Sur la page d’accueil, sélectionnez **Assistant AI** dans la partie supérieure. Assurez-vous que votre administrateur a activé la fonction Assistant AI dans le mode souhaité.
 
-L’assistant d’IA affiche les fonctionnalités clés, un lien destiné aux utilisateurs et un bouton **Commencer**.
+L’assistant AI affiche les fonctionnalités clés, un lien destiné aux utilisateurs et un bouton **Commencer**.
 
 ![Panneau d’aide dynamique](images/get-started-ai.png)
 
