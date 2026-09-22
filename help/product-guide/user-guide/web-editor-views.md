@@ -7,22 +7,27 @@ role: User
 TQID: https://experienceleague.adobe.com/hdEk3etzBCch3Ejdl5SnIC37pSK6a-WERkTMqu-jlGM
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: e4019ae1e605bd26f7df676a4fab8c632fd8fa8e
 workflow-type: tm+mt
-source-wordcount: 1578
+source-wordcount: '1824'
 ht-degree: 0%
-
 ---
-
 # Vues de l’éditeur pour les rubriques {#id204GK0D0V5Z}
 
 >[!INFO]
@@ -122,15 +127,33 @@ L’ouverture d’une rubrique en mode Aperçu montre comment une rubrique s’a
 
 Le mode Aperçu vous propose les fonctionnalités suivantes :
 
+* [Prévisualiser le contenu à l’aide de la ligne de base](#preview-content-using-baseline)
 * [Affichage du contenu en fonction de filtres conditionnels](#id2114BI00VXA)
 * [Afficher les balises de suivi des modifications](#id2114BJ00CE8)
 * [Exporter une rubrique en tant que PDF](#id2114BL00B5U)
+
+
+### Prévisualiser le contenu à l&#39;aide de la ligne de base (applicable uniquement pour le plan DITA)
+
+>[!NOTE]
+>
+>Contactez votre équipe du succès client pour activer cette fonctionnalité dans votre environnement.
+
+Le mode Aperçu affiche par défaut la copie de travail actuelle d&#39;une rubrique ou d&#39;un mappage. Si un mappage comporte une ou plusieurs lignes de base statiques, vous pouvez utiliser le bouton (bascule) **Aperçu à l’aide de lignes de base** pour prévisualiser le mappage tel qu’il existait à une version de ligne de base spécifique. Cette fonction ne prend en charge que les lignes de base statiques ; les lignes de base dynamiques ne sont pas disponibles pour la prévisualisation.
+
+![](images/preview-baseline.png){width="650"}
+
+Lorsque vous sélectionnez une ligne de base dans la liste déroulante, l&#39;aperçu résout tous les sujets, ressources, images et références associés en fonction de la ligne de base sélectionnée au lieu de la copie de travail en cours. Cela fournit une représentation précise du contenu de la carte au moment où la ligne de base a été créée.
+
+Par exemple, si une image a été remplacée après la création d&#39;une ligne de base, la prévisualisation de cette ligne de base affiche la version de l&#39;image associée à la ligne de base, plutôt que l&#39;image de la copie de travail en cours.
+
+Le mode Aperçu affiche un indicateur d’aperçu de chargement lors du rendu de l’ensemble initial de rubriques. Il n’est pas mis à jour automatiquement après la modification d’une rubrique ou le changement de version. Pour afficher le contenu le plus récent, actualisez l’aperçu manuellement ou fermez et rouvrez la rubrique ou le mappage. De plus, les options Suivi (Aucun balisage, Original et Afficher les balises) ne sont pas disponibles lors de la prévisualisation d&#39;un mappage pour une ligne de base.
 
 ### Affichage du contenu en fonction de filtres conditionnels {#id2114BI00VXA}
 
 Si vous avez utilisé des conditions dans votre rubrique ou mappage, celles-ci s’affichent dans le panneau Filtres . Par défaut, toutes les conditions sont sélectionnées et l’intégralité du contenu est affichée. Si vous désélectionnez une condition, le contenu comportant cette condition est supprimé de la vue. Vous pouvez également choisir de mettre en surbrillance le contenu conditionné.
 
-L’image suivante présente une rubrique qui utilise deux conditions : `Audience` et `Platfor`. Le contenu conditionné est mis en surbrillance avec un arrière-plan jaune.
+L’image suivante présente une rubrique qui utilise deux conditions : `Audience` et `Platform`. Le contenu conditionné est mis en surbrillance avec un arrière-plan jaune.
 
 >[!BEGINTABS]
 
@@ -153,7 +176,7 @@ Si un document contient des marques de suivi des modifications \(ou des repères
 Vous pouvez choisir parmi trois options **Tracking** :
 
 * **Pas de balisage** : dans cette vue, toutes les insertions et suppressions sont acceptées et une vue simple du document est présentée. Dans cette vue, vous ne voyez aucune annotation de suivi des modifications.
-* **Original** : dans cette vue, toutes les insertions sont rejetées et toutes les suppressions sont restaurées, puis un aperçu s&#39;affiche. En d’autres termes, vous obtenez le formulaire d’origine du document avant d’activer le mode de suivi des modifications.
+* **Original** : dans cette vue, toutes les insertions sont rejetées et toutes les suppressions sont restaurées, puis un aperçu s&#39;affiche. Vous obtenez le formulaire d’origine du document avant d’activer le mode Suivi des modifications.
 * **Afficher les balises** : dans cette vue, vous obtenez toutes les balises pour le contenu inséré et supprimé.
 
   L’image suivante présente l’aperçu d’un fichier de carte avec des balises :
@@ -186,5 +209,4 @@ Pour exporter une rubrique en tant que PDF, procédez comme suit :
 
    Le PDF est généré et ouvert dans un nouvel onglet ou une boîte de dialogue s’affiche pour vous permettre d’enregistrer le PDF sur votre système local.
 
-
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

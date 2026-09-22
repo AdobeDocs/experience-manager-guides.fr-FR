@@ -7,20 +7,23 @@ exl-id: 8c12ed9b-6309-40bf-b264-a2323cd6f4b3
 TQID: https://experienceleague.adobe.com/SWlP2-iWhN1x25K9s-mrMcfUTy5Fxv7TVWg6G2ucufc
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 7989955248054571a569ad34d92ae7e26fe70ffd
+    internal-label: User
+source-git-commit: 2fcdb485f7527b5ffdfe1d42ed3d9bbdd576ce7a
 workflow-type: tm+mt
-source-wordcount: 577
+source-wordcount: '640'
 ht-degree: 0%
-
 ---
-
 # Autres options du menu Insertion
 
 Les autres options disponibles dans le menu Insertion de la barre d&#39;outils de l&#39;éditeur sont les suivantes :
@@ -52,18 +55,24 @@ Les autres options disponibles dans le menu Insertion de la barre d&#39;outils d
 
   ![](assets/upload-assets-option.png)
 
-  Une fois que vous avez terminé, passez en revue le contenu H5P en mode Aperçu et la sortie publiée.
+  Une fois que vous avez terminé, passez en revue le contenu H5P en mode Aperçu et la sortie publiée. Le contenu H5P prend également en charge une option d’affichage plein écran. Vous pouvez activer ou désactiver le mode Plein écran pour chaque élément H5P incorporé par le biais d’un bouton dédié dans le panneau Propriétés du contenu . Lorsque cette option est activée, les élèves peuvent développer le contenu en plein écran. Lorsque cette option est désactivée, le contenu reste intégré dans la vue standard. Ce paramètre s’applique de manière cohérente dans le mode Aperçu et la sortie publiée.
 
   >[!NOTE]
   >
   > La modification ou la création de contenu H5P n’est pas prise en charge dans Adobe Experience Manager Guides. Préparez votre package H5P en externe avant le chargement.
+
+  ![](assets/h5p-fullscreen.png)
+
+  **Mode Aperçu.**
+
+  ![](assets/h5p-preview.png)
 
 
 - **Équation MathML :** insère des équations MathML dans votre contenu. Vous pouvez créer une équation MathML et sélectionner **Insérer** pour l&#39;ajouter à votre document.
 
   ![](./assets/insert-mathml.png){width="350"}
 
-  L&#39;équation est insérée avec un arrière-plan gris clair. Vous pouvez à tout moment mettre à jour une équation en cliquant avec le bouton droit de la souris sur une équation existante et en sélectionnant **Modifier l’équation mathématique** dans le menu contextuel. Pour plus d’informations sur la validation des équations de MathML dans Experience Manager Guides, consultez la section [&#x200B; Validation des équations dans l’éditeur de MathML](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor).
+  L&#39;équation est insérée avec un arrière-plan gris clair. Vous pouvez à tout moment mettre à jour une équation en cliquant avec le bouton droit de la souris sur une équation existante et en sélectionnant **Modifier l’équation mathématique** dans le menu contextuel. Pour plus d’informations sur la validation des équations de MathML dans Experience Manager Guides, consultez la section [ Validation des équations dans l’éditeur de MathML](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor).
 
 - **Vérification des connaissances :** vous permet d’ajouter des questions dans les formats disponibles (Correction unique, Correction multiple, Vrai/Faux, Correspondance des éléments suivants ou insertion à partir de la banque de questions) à votre sujet pour révision et pour confirmer la compréhension sans notation. Ces questions reflètent les formats standard et excluent la notation, ce qui les rend idéales pour l’auto-évaluation et adaptées dans le cadre du contenu du cours ou d’un sujet avant un quiz ou une évaluation ultérieure, le cas échéant. Vous pouvez configurer les réponses correctes et d’autres champs obligatoires via le panneau **Propriétés du contenu**. Pour plus d’informations, consultez la section [Types de questions](./quiz-insert-questions.md).
 

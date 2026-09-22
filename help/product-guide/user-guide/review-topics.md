@@ -7,26 +7,34 @@ role: User
 TQID: https://experienceleague.adobe.com/FKASAXcwI6A5iGO8n758bBCNzjMitcz2zgnJWrNfM8U
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
+    internal-label: Administration and security
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12
+    internal-label: Introduction
   - id: c8841798-1a28-4264-a46a-984860f8e6f6
+    internal-label: User administration
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 06126f77ee4db22865895739ad9af4efa787a7df
+    internal-label: Administration
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: 3089
+source-wordcount: '3753'
 ht-degree: 0%
-
 ---
-
 # Rubriques de révision {#id2056B0W0FBI}
 
 Si vous êtes réviseur, vous recevez un e-mail de demande de révision contenant un lien vers les rubriques de révision. Ce lien vous permet d’accéder à la page de révision dans laquelle vous pouvez ajouter vos commentaires sur les sujets partagés.
@@ -68,7 +76,7 @@ Pour passer en revue une rubrique, procédez comme suit :
      Sélectionnez ![](images/view-options.svg) près de la barre de recherche pour afficher toutes les rubriques ou afficher les rubriques avec des commentaires. Par défaut, vous pouvez afficher toutes les rubriques présentes dans la tâche de révision.
 
 
-   - **D** : les nombres mis en surbrillance par ***F*** peuvent être filtrés en sélectionnant l’option de filtre de votre choix à partir d’ici. Vous pouvez filtrer les commentaires par type, statut, réviseur ou version. Par exemple, si vous souhaitez afficher le nombre de commentaires Barré effectués dans chacune des rubriques en cours de révision, sélectionnez l’icône de filtre, puis choisissez **Type de révision** \> **Suppression**.
+   - **D** : les nombres mis en surbrillance par ***E*** peuvent être filtrés en sélectionnant l’option de filtre de votre choix à partir d’ici. Vous pouvez filtrer les commentaires par type, statut, réviseur ou version. Par exemple, si vous souhaitez afficher le nombre de commentaires Barré effectués dans chacune des rubriques en cours de révision, sélectionnez l’icône de filtre, puis choisissez **Type de révision** \> **Suppression**.
 
      >[!NOTE]
      >
@@ -80,7 +88,7 @@ Pour passer en revue une rubrique, procédez comme suit :
    - **G** : Nombre de commentaires reçus sur un sujet. Ce nombre change en fonction du filtre appliqué.
 
 
-   Toutes les rubriques de la carte s’affichent sous la forme d’un document composite unique. Les rubriques que le réviseur est autorisé à examiner s’affichent normalement. Les rubriques que la révision n’est pas autorisée à réviser ne s’affichent pas.
+   Toutes les rubriques de la carte s’affichent sous la forme d’un document composite unique. Les rubriques que le réviseur est autorisé à examiner s’affichent normalement. Les rubriques que le réviseur n’est pas autorisé à réviser s’affichent comme désactivées.
 
    ![](images/review-read-only.png)
 
@@ -104,6 +112,76 @@ Pour passer en revue une rubrique, procédez comme suit :
    > Le panneau Commentaires affiche uniquement les commentaires relatifs aux rubriques actuelles. Lorsque vous déplacez la sélection vers un autre sujet, les commentaires laissés sur l&#39;autre sujet s&#39;affichent.
 
 1. Cliquez sur le bouton **Fermer** une fois la révision de la rubrique terminée. En sélectionnant le bouton **Fermer**, vous serez redirigé vers la page à partir de laquelle vous avez accédé à la rubrique de révision.
+
+## Marquer les rubriques individuelles comme terminées dans une tâche de révision
+
+>[!NOTE]
+>
+> Cette fonctionnalité est activée par défaut à partir de la version 2026.09.0 de Experience Manager Guides as a Cloud Service. Si vous préférez passer au comportement précédent, contactez votre équipe du succès client pour désactiver cette fonctionnalité pour votre environnement.
+
+Si une tâche de révision contient un grand nombre de sujets, il se peut que vous ne puissiez pas tous les passer en revue en une seule session. Par exemple, si une tâche de révision d&#39;environ 50 sujets vous est assignée, il peut être difficile de suivre les sujets que vous avez déjà examinés et ceux qui nécessitent encore votre attention lorsque vous revenez à la tâche.
+
+La fonctionnalité **Marquer la rubrique comme terminée** vous permet de marquer des rubriques individuelles comme étant terminées au fur et à mesure de leur révision. Il est ainsi plus facile d’identifier les sujets que vous avez déjà couverts et de vous concentrer sur ceux qui sont encore en attente.
+
+Effectuez les étapes suivantes pour marquer des rubriques individuelles comme ayant été effectuées dans une tâche de révision :
+
+1. Ouvrez la tâche de révision qui vous a été assignée.
+
+1. Dans l’interface utilisateur de révision, ouvrez les rubriques qui vous sont affectées à partir du panneau **Rubriques** ou passez en **mode Document** pour afficher toutes les rubriques sous la forme d’un document composite.
+
+1. Chaque rubrique est affichée en accordéon avec une case à cocher **Marquer la rubrique comme terminée**, comme illustré ci-dessous.
+
+   >[!NOTE]
+   >
+   >Les rubriques incluses dans la tâche de révision mais qui ne vous sont pas affectées sont désactivées et ne peuvent pas être marquées comme Terminé.
+
+   **Vue du panneau Rubriques :**
+
+   ![](images/topics-panel-view-mark-topic-as-done.png)
+
+   **Vue Document:**
+
+   ![](images/document-view-mark-topic-as-done.png)
+
+1. Passez en revue une rubrique et ajoutez des commentaires ou des commentaires si nécessaire.
+
+1. Une fois la révision de la rubrique terminée, cochez la case **Marquer la rubrique comme terminée**.
+
+   L’accordéon Rubrique est automatiquement réduit. Vous pouvez rouvrir l’accordéon à tout moment avant d’avoir terminé la tâche de révision. Si vous avez besoin d’ajouter d’autres commentaires, développez simplement l’accordéon Rubrique et ajoutez vos commentaires.
+
+   >[!NOTE]
+   >
+   >La case à cocher **Marquer la rubrique comme terminée** est sélectionnée ou non selon la personne qui révise la rubrique et la version en cours de révision :
+   >
+   > - **Lorsque plusieurs réviseurs et réviseuses sont affectés :** votre case à cocher s’applique uniquement à vous. Si vous sélectionnez **Marquer la rubrique comme terminée**, la case à cocher reste inchangée pour les autres réviseurs affectés à la même rubrique.
+   > - **Lorsque la version de la rubrique change :** la case à cocher ne s’applique qu’à la version que vous avez révisée. Si vous sélectionnez **Marquer la rubrique comme terminé** pour la version 1.0 et que l’auteur modifie la rubrique en version 1.1, la case à cocher est réinitialisée pour vous. Si l’auteur revient ultérieurement à la version 1.0, la case à cocher reste désélectionnée.
+
+1. Répétez les étapes précédentes pour les autres rubriques que vous avez fini de vérifier.
+
+   >[!NOTE]
+   >
+   > Le marquage de chaque rubrique comme terminé vous permet de suivre l’avancement de votre révision et n’est pas nécessaire pour terminer la tâche de révision. Vous pouvez terminer la tâche de révision même si certaines rubriques ne sont pas marquées comme terminées.
+
+   ![](images/mark-topics-done-all.png)
+
+   Les indicateurs visuels suivants de l’interface utilisateur de révision vous aident à suivre votre progression :
+
+   - Un **point vert** s’affiche en regard d’une rubrique dans le panneau **Rubriques** lorsque vous l’avez marquée comme terminée.
+
+     ![](images/topics-done-green-dot-topics-panel.png)
+
+   - L’indicateur **Rubriques examinées** indique le nombre de rubriques que vous avez marquées comme terminées sur le nombre total de rubriques qui vous ont été affectées.
+
+     ![](images/topics-reviewed-count-review-ui.png)
+
+   >[!NOTE]
+   >
+   > Les indicateurs **Marquer la rubrique comme terminée** case à cocher, point vert et **Rubriques révisées** ne sont visibles que par les utilisateurs qui peuvent marquer les rubriques ou les tâches de révision comme terminées. Les auteurs et les administrateurs ayant accès en lecture seule à la tâche de révision ne voient pas ces options ou indicateurs.
+
+1. Une fois que vous avez examiné les rubriques que vous souhaitez soumettre à l’auteur ou à l’initiateur de la tâche, sélectionnez **Terminer la tâche de révision**.
+
+1. Dans la boîte de dialogue **Terminer la tâche de révision**, ajoutez un commentaire et sélectionnez **Terminer** pour confirmer l’action.
+
 
 ## Fonctionnalités supplémentaires disponibles dans l’écran de révision
 
@@ -199,9 +277,17 @@ Lorsque vous collaborez à une tâche de révision avec plusieurs réviseurs ou 
 
 ![](images/tag-users-review-ui.png){width="350"}
 
-Pour baliser un utilisateur, saisissez `@` dans un commentaire ou une réponse et sélectionnez un utilisateur dans la liste des réviseurs. Le nom d’affichage ainsi qu’une adresse e-mail de l’utilisateur sont affichés pour une identification plus facile. Si une adresse e-mail n’est pas disponible, l’ID utilisateur s’affiche à la place.
+Pour baliser un utilisateur, saisissez `@` dans un commentaire ou une réponse et sélectionnez un utilisateur dans la liste des utilisateurs associés à ce projet. La liste affiche le nom de l’utilisateur avec des détails supplémentaires pour vous aider à identifier l’utilisateur correct.
 
-![](images/tagged-users-with-email.png)
+Les détails de l’utilisateur s’affichent dans l’ordre suivant :
+
+`<Role>` | `<User name>` | `<Email address>`
+
+Si l’adresse e-mail n’est pas disponible, seuls le rôle et le nom de l’utilisateur s’affichent.
+
+Vous pouvez également placer le pointeur de la souris sur un utilisateur de la liste pour afficher son nom d’utilisateur, son rôle et son adresse e-mail dans une info-bulle.
+
+![](images/tagged-users-in-review-ui.png)
 
 Les utilisateurs identifiés reçoivent à la fois un e-mail et une notification AEM, pour être rapidement informés. Pour plus d’informations sur le déclenchement des notifications de révision, voir [Présentation des notifications de révision](./review-understanding-review-notifications.md).
 
@@ -355,4 +441,4 @@ L’icône **Historique des versions** de la rubrique s’affiche une fois que l
 
 ![](images/version-history-dialog.png)
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de la révision](review.md)
+**Rubrique parente :**[ Présentation de la révision](review.md)

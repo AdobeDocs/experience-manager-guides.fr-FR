@@ -7,21 +7,25 @@ role: User
 TQID: https://experienceleague.adobe.com/8heDTU9viOxhsg-Epvu6OZMrRyHoWRJ-584O6u9lut8
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: de26a643364cab57b415d8eff9e863ea1b4bfe62
+    internal-label: User
+source-git-commit: e4019ae1e605bd26f7df676a4fab8c632fd8fa8e
 workflow-type: tm+mt
-source-wordcount: 984
+source-wordcount: '1098'
 ht-degree: 0%
-
 ---
-
 # Prise en charge des fichiers Schematron
 
 « Schéma » fait référence à un langage de validation basé sur des règles utilisé pour définir des tests pour un fichier XML. L’éditeur prend en charge les fichiers Schematron. Vous pouvez importer les fichiers Schematron et les modifier également dans l&#39;éditeur. À l&#39;aide d&#39;un fichier Schematron, vous pouvez définir certaines règles, puis les valider pour une rubrique DITA ou une carte.
@@ -191,3 +195,21 @@ You have <sch:value-of select="$words"/> letters. This should be greater than <s
 
 </sch:pattern> 
 ```
+
+## Définir des règles à l’aide du contexte text-node
+
+Vous pouvez définir une règle Schematron avec un contexte text-node, par exemple `context="//text()"`, de sorte que la règle évalue directement les nœuds de texte au lieu d&#39;avoir à énumérer tous les éléments DITA possibles qui peuvent contenir ce texte.
+
+Par exemple, la règle suivante marque les guillemets droits n&#39;importe où dans le texte de la rubrique :
+
+```XML
+<sch:pattern id="quotation-marks-straight-v2">
+  <sch:rule context="//text()">
+    <sch:report role="info" test="contains(., '&quot;')">Please use typographic quotes instead of straight quotes.</sch:report>
+  </sch:rule>
+</sch:pattern>
+```
+
+Lorsque cette règle correspond, le résultat de la validation pointe vers le nœud de texte exact qui l’a déclenchée, plutôt que seulement vers l’élément englobant.
+
+Les règles qui utilisent un contexte d’élément explicite, par exemple `context="//p"`, continuent à fonctionner comme avant et vous pouvez toujours utiliser l’une ou l’autre des approches selon la précision que vous souhaitez obtenir pour la correspondance et l’emplacement de l’erreur.

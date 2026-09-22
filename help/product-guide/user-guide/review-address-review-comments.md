@@ -7,28 +7,38 @@ role: User
 TQID: https://experienceleague.adobe.com/1eKOv9Ys8N5wOu5-gon4uDq-LLIqADeSmbWq55iVg18
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
+    internal-label: Administration and security
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12
+    internal-label: Introduction
   - id: c8841798-1a28-4264-a46a-984860f8e6f6
+    internal-label: User administration
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e5812ebac255dc10f4b6bf7287cfaede92354e70
+    internal-label: Administration
+source-git-commit: 912b7583cbbbb4beff08423d360a9a06f3c365cf
 workflow-type: tm+mt
-source-wordcount: 1526
+source-wordcount: '1618'
 ht-degree: 0%
-
 ---
-
 # Commentaires de révision d’adresse {#id2056B0X0KBI}
 
 En tant qu’auteur, vous pouvez ajouter des commentaires dans une rubrique à l’aide de l’éditeur. Les commentaires sont chargés en fonction de la tâche de révision sélectionnée dans le panneau de révision. Pour plus d’informations, consultez la description des fonctionnalités du panneau **Révision** ![](images/active-review-tasklist-icon.svg) dans la section [Panneau de gauche](../user-guide/web-editor-left-panel.md).
@@ -102,6 +112,18 @@ En tant qu’auteur et initiateur de la tâche de révision, vous pouvez répond
 ![](images/tag-users-review.png){width="350"}
 *Légende:Tag utilisateurs en tant qu’initiateur/auteur*
 
+Pour baliser un utilisateur, saisissez `@` dans un commentaire ou une réponse et sélectionnez un utilisateur dans la liste des utilisateurs associés à ce projet. La liste affiche le nom de l’utilisateur avec des détails supplémentaires pour vous aider à identifier l’utilisateur correct.
+
+Les détails de l’utilisateur s’affichent dans l’ordre suivant :
+
+`<Role>` | `<User name>` | `<Email address>`
+
+Si l’adresse e-mail n’est pas disponible, seuls le rôle et le nom de l’utilisateur s’affichent.
+
+Vous pouvez également placer le pointeur de la souris sur un utilisateur de la liste pour afficher son nom d’utilisateur, son rôle et son adresse e-mail dans une info-bulle.
+
+![](images/tag-users-author-ui.png){width="350"}
+
 Les utilisateurs identifiés reçoivent à la fois un e-mail et une notification AEM, pour être rapidement informés. Pour plus d’informations sur le déclenchement des notifications de révision, voir [Présentation des notifications de révision](./review-understanding-review-notifications.md).
 
 **Accéder aux commentaires de révision à l’aide de l’interface utilisateur de révision**
@@ -133,4 +155,4 @@ Lors de l’utilisation de cette fonctionnalité, notez que :
 - Le filtrage et la recherche s’appliquent uniquement aux commentaires de la tâche que vous avez sélectionnée ; les commentaires des autres tâches non sélectionnées ne sont pas affectés.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de la révision](review.md)
+**Rubrique parente :**[ Présentation de la révision](review.md)

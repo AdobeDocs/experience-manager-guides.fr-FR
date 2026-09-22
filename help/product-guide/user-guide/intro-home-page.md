@@ -4,13 +4,11 @@ description: Découvrez la page d’accueil d’Adobe Experience Manager Guides.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2331'
 ht-degree: 0%
-
 ---
-
 # Expérience de la page d’accueil de Experience Manager Guides
 
 La page d’accueil est le premier écran que vous affichez lorsque vous vous connectez à Experience Manager Guides. Il vous offre une expérience d’écran de bienvenue unifiée et intuitive, qui inclut un aperçu rapide des fichiers auxquels vous avez récemment accédé, des collections, etc.
@@ -45,22 +43,23 @@ Les fonctionnalités disponibles dans la barre de navigation sont expliquées co
   - **Accueil** : page par défaut affichée lors de la connexion à Experience Manager Guides.
   - **Éditeur** : éditeur web convivial qui vous permet de créer et de gérer des documents structurés dans Experience Manager Guides. [Découvrez l’interface de l’éditeur](./web-editor.md).
   - **Console de mappage** : fournit un espace de travail dédié pour gérer tous les aspects de la gestion et de la publication des cartes. [Découvrez l’interface de la console Carte](./map-console-overview.md).
-- **Assistant IA** : puissant outil optimisé par l’IA, conçu pour améliorer votre productivité grâce à des fonctionnalités d’aide intelligentes. De plus, lorsque vous travaillez dans l’interface de l’éditeur, vous pouvez tirer parti des fonctionnalités de création intelligente de l’assistant AI qui rendent votre processus de création plus intelligent et plus rapide grâce à des suggestions intelligentes de réutilisation et d’optimisation du contenu.
-
-  La fonctionnalité [Assistant AI](./ai-assistant.md) n’est actuellement disponible que pour Adobe Experience Manager as a Cloud Service.
-
-- **Guides AI** : apporte des compétences de balisage intelligent, agentiques et intelligentes du collaborateur d’entreprise d’Adobe CX dans l’éditeur, ce qui permet un balisage de contenu naturel et conversationnel. Il analyse votre contenu, vous recommande des balises pertinentes et vous aide à appliquer des métadonnées cohérentes et précises avec un effort minimal. Vous pouvez vérifier les balises suggérées et choisir de les appliquer ou de les rejeter avant de confirmer votre sélection. [Guides AI](../user-guide/guides-ai.md) simplifie le processus de balisage, améliorant l’organisation du contenu et la visibilité.
-
+- **Assistant AI** : l’assistant AI est disponible dans deux modes : **Agentic** et **Standard**.
 
   >[!NOTE]
   >
-  > Pour utiliser la fonctionnalité Guides AI dans votre environnement, contactez l’équipe du succès client. Une fois la fonctionnalité activée, les administrateurs et administratrices peuvent l’activer ou la désactiver dans Paramètres Workspace. Une seule expérience d’IA peut être activée à la fois : Guides AI ou Assistant d’IA.
+  > Pour utiliser le mode Agentic de la fonctionnalité Assistant d’IA dans votre environnement, contactez l’équipe du succès client. Une fois la fonctionnalité activée, les administrateurs et administratrices peuvent l’activer ou la désactiver dans Paramètres Workspace. Un seul mode de l’assistant d’IA peut être activé à la fois : agent ou standard.
+
+  - **Magnétique** : apporte des compétences de balisage intelligent, agentique et intelligent d’Adobe CX Enterprise Coworker à l’éditeur, ce qui permet un balisage de contenu naturel et conversationnel. Il analyse votre contenu, vous recommande des balises pertinentes et vous aide à appliquer des métadonnées cohérentes et précises avec un effort minimal. Vous pouvez vérifier les balises suggérées et choisir de les appliquer ou de les rejeter avant de confirmer votre sélection. [Utiliser l’assistant d’IA en mode agence](../user-guide/ai-assistant-agentic.md) simplifie le processus de balisage, améliorant l’organisation du contenu et la visibilité.
+
+  - **Standard** : puissant outil optimisé par l’IA, conçu pour améliorer votre productivité grâce à des fonctionnalités d’aide intelligentes. De plus, lorsque vous travaillez dans l’interface de l’éditeur, vous pouvez tirer parti des fonctionnalités de création intelligente de l’assistant AI qui rendent votre processus de création plus intelligent et plus rapide grâce à des suggestions intelligentes de réutilisation et d’optimisation du contenu.
+
+  La fonctionnalité [Assistant AI](./ai-assistant.md) n’est actuellement disponible que pour Adobe Experience Manager as a Cloud Service.
 
 - **Personnaliser la section de présentation** : permet de masquer ou d’afficher les widgets dans la section Widgets.
 - **Profil de dossier en cours d’utilisation** : affiche le profil de dossier actuellement utilisé.
 - **Autres actions** : permet d’accéder à des options supplémentaires. Si vous sélectionnez ce bouton, un menu s’ouvre avec les options suivantes :
 
-  - **&#x200B;**&#x200B;: vous dirige vers une destination en fonction de votre configuration.
+  - **** : vous dirige vers une destination en fonction de votre configuration.
     - **Services cloud** : si vous utilisez des services cloud, la sélection de l’option **Assets** vous conduit à la page de navigation d’AEM.
 
     - **Logiciel On-premise** : si vous utilisez Adobe Experience Manager Guides (4.2.1 et versions ultérieures), la sélection de l’option **Assets** vous conduit au chemin d’accès actuel au fichier dans l’interface utilisateur d’Assets.
@@ -170,7 +169,7 @@ Le référentiel sert de hub centralisé pour découvrir facilement les dossiers
 
 ### Mappage des collections
 
-Experience Manager Guides vous permet d’organiser votre contenu pour publication à l’aide d’un tableau de bord appelé **Collections de cartes**. Pour utiliser cette fonctionnalité, sélectionnez **Mapper des collections** dans le panneau de gauche. Elle vous mène à la page Mapper les collections dans l’interface utilisateur **&#x200B;**&#x200B;où vous pouvez [utiliser la collection de mappages pour la génération de sortie.](./generate-output-use-map-collection-output-generation.md)
+Experience Manager Guides vous permet d’organiser votre contenu pour publication à l’aide d’un tableau de bord appelé **Collections de cartes**. Pour utiliser cette fonctionnalité, sélectionnez **Mapper des collections** dans le panneau de gauche. Elle vous mène à la page Mapper les collections dans l’interface utilisateur **** où vous pouvez [utiliser la collection de mappages pour la génération de sortie.](./generate-output-use-map-collection-output-generation.md)
 
 ### Publication en bloc
 
@@ -208,6 +207,7 @@ Les préférences utilisateur sont disponibles pour tous les auteurs. À l’aid
 
   - **Toujours localiser les fichiers dans l’explorateur** : sélectionnez cette option pour afficher l’emplacement d’un fichier dans le référentiel lors de sa modification dans l’éditeur.
 
-  >[!NOTE]
-  >
-  >À partir de la version 2025.11.0 pour Cloud Service et de la version 5.2.0 pour On-premise, le paramètre **Toujours localiser les fichiers dans le référentiel** est renommé **Toujours localiser les fichiers dans l’explorateur**. Pour la configuration On-Premise antérieure à la version 5.2 , elle reste disponible comme Toujours localiser les fichiers dans le référentiel.
+    >[!NOTE]
+    >
+    >- À partir de la version 2025.11.0 pour Cloud Service et de la version 5.2.0 pour On-premise, le paramètre **Toujours localiser les fichiers dans le référentiel** est renommé **Toujours localiser les fichiers dans l’explorateur**. Pour la configuration On-Premise antérieure à la version 5.2 , elle reste disponible comme Toujours localiser les fichiers dans le référentiel.
+    >- À compter de la version 2026.09.0, le **chargement paginé de fichiers et de dossiers** est activé par défaut. Lorsque cette fonctionnalité est activée, **Toujours localiser les fichiers dans l’explorateur** n’est pas disponible dans les préférences utilisateur. Pour rendre disponible la préférence Toujours localiser les fichiers dans l’explorateur, contactez votre équipe du succès client pour désactiver le paramètre Chargement paginé des fichiers et des dossiers . Pour plus d’informations, voir [Chargement paginé de fichiers et de dossiers](./web-editor-other-features.md#paginated-loading-of-files-and-folders).

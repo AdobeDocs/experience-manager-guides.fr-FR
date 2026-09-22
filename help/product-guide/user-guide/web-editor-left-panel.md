@@ -7,29 +7,40 @@ exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
 TQID: https://experienceleague.adobe.com/GbsiDGw2pByOZ-AfWM2yH46QYWm95Z4ShDSvqyedViU
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
+    internal-label: Troubleshooting
+source-git-commit: 06a24bcf5a4dc05ba20846e9d745ea6f36ee8183
 workflow-type: tm+mt
-source-wordcount: 11073
+source-wordcount: '11296'
 ht-degree: 0%
-
 ---
-
 # Panneau de gauche de l’éditeur
 
 >[!INFO]
@@ -66,9 +77,9 @@ Certaines des fonctionnalités du panneau de gauche sont disponibles dans la sec
 - [Révision](#review)
 
 
-Une option supplémentaire intitulée **&#x200B;**&#x200B;s’affiche également dans le panneau de gauche si Adobe Workfront est configuré.
+Une option supplémentaire intitulée **** s’affiche également dans le panneau de gauche si Adobe Workfront est configuré.
 
-Pour plus d’informations, consultez Intégration de [&#128279;](./workfront-integration.md).
+Pour plus d’informations, consultez Intégration de [](./workfront-integration.md).
 
 >[!NOTE]
 >
@@ -77,6 +88,10 @@ Pour plus d’informations, consultez Intégration de [&#128279;](./workfront-in
 L’explication détaillée des fonctionnalités du panneau de gauche est la suivante :
 
 ## Collections
+
+>[!NOTE]
+>
+> À partir de la version 2026.09.0, Experience Manager Guides offre une expérience de navigation améliorée grâce au chargement paginé. Cette fonctionnalité est activée par défaut. Pour le désactiver, contactez votre équipe du succès client. Pour plus d’informations, voir [Chargement paginé de fichiers et de dossiers](./web-editor-other-features.md#paginated-loading-of-files-and-folders).
 
 Si vous travaillez sur un ensemble de fichiers ou de dossiers, vous pouvez les ajouter à votre liste préférée pour y accéder rapidement. **Collections** affiche la liste des documents que vous avez ajoutés et d’autres listes de documents accessibles au public provenant des autres utilisateurs.
 
@@ -199,7 +214,7 @@ Sélectionnez l’icône **Filtrage avancé** ![icône de filtre avancé](images
 
 Vous pouvez afficher les options suivantes sous les onglets **Général** et **Avancé**.
 
-![&#x200B; boîte de dialogue filtre avancé &#x200B;](images/repository-filter-search-advanced.png) {width="650"}
+![ boîte de dialogue filtre avancé ](images/repository-filter-search-advanced.png) {width="650"}
 
 
 **Général**
@@ -493,7 +508,8 @@ Les différentes options du menu Options sont expliquées ci-dessous :
 
 >[!NOTE]
 >
-> À compter de la version 2025.11.0 pour Cloud Service et de la version 5.2.0 pour On-Premise, **Référentiel** est remplacé par **Explorateur**. Pour les versions On-Premise antérieures à la version 5.2, vous continuerez à afficher et à utiliser le référentiel via l’interface de l’éditeur.
+>- À compter de la version 2025.11.0 pour Cloud Service et de la version 5.2.0 pour On-Premise, **Référentiel** est remplacé par **Explorateur**. Pour les versions On-Premise antérieures à la version 5.2, vous continuerez à afficher et à utiliser le référentiel via l’interface de l’éditeur.
+>- À partir de la version 2026.09.0, Experience Manager Guides offre une expérience de navigation améliorée grâce au chargement paginé. Cette fonctionnalité est activée par défaut. Pour le désactiver, contactez votre équipe du succès client. Pour plus d’informations, voir [Chargement paginé de fichiers et de dossiers](./web-editor-other-features.md#paginated-loading-of-files-and-folders).
 
 L’Explorateur fournit la plupart des fonctionnalités précédemment disponibles dans le référentiel, notamment :
 
@@ -1053,7 +1069,7 @@ Vous pouvez également appliquer des valeurs à un attribut en sélectionnant pl
 >[!ENDTABS]
 
 
-Vue Source **&#x200B;**
+Vue Source ****
 
 Vous pouvez également modifier les valeurs à partir de la liste déroulante de l’attribut dans la vue Source. La vue Source vous empêche également d’ajouter une valeur incorrecte.
 
@@ -1116,6 +1132,10 @@ Pour insérer un fragment de code, utilisez l’une des méthodes suivantes :
 
 ## Modèles
 
+>[!NOTE]
+>
+> À partir de la version 2026.09.0, Experience Manager Guides offre une expérience de navigation améliorée grâce au chargement paginé. Cette fonctionnalité est activée par défaut. Pour le désactiver, contactez votre équipe du succès client. Pour plus d’informations, voir [Chargement paginé de fichiers et de dossiers](./web-editor-other-features.md#paginated-loading-of-files-and-folders).
+
 Le panneau Modèles n’est disponible que pour les administrateurs et administratrices. Grâce à ce panneau, l’administrateur peut facilement créer et gérer des modèles qui peuvent ensuite être utilisés par les auteurs. Par défaut, les modèles sont classés sous des modèles de type *map* et *topic*.
 
 ![](images/templates-panel_cs.png){width="300"}
@@ -1137,7 +1157,7 @@ Pour savoir comment créer des modèles personnalisés, consultez la section [Cr
 
 Dans Experience Manager Guides, vous pouvez ajouter et importer des citations et les appliquer à votre contenu. Vous pouvez ajouter ces citations à partir de n’importe quelle source de livres, de sites web et de revues.
 
-Pour plus d’informations, consultez la section [&#x200B; Ajouter et gérer des citations dans votre contenu &#x200B;](./web-editor-apply-citations.md).
+Pour plus d’informations, consultez la section [ Ajouter et gérer des citations dans votre contenu ](./web-editor-apply-citations.md).
 
 ## Variables de langue
 
@@ -1330,7 +1350,7 @@ Vous pouvez également utiliser l&#39;option **Rechercher dans la carte** du men
 
 ## Modèles PDF
 
-Permet d’utiliser divers modèles PDF. Pour plus de détails, consultez [les modèles &#x200B;](../native-pdf/pdf-template.md).
+Permet d’utiliser divers modèles PDF. Pour plus de détails, consultez [les modèles ](../native-pdf/pdf-template.md).
 
 ## Révision
 
@@ -1391,4 +1411,4 @@ Pour afficher les commentaires de révision dans les tâches de révision active
 
 </details>
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

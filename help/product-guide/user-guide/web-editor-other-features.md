@@ -7,23 +7,29 @@ role: User
 TQID: https://experienceleague.adobe.com/r6gZE2a3lXtL0mFWxurEjna8mUTJIMEQdz2eLw2OWcQ
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1833481e1801fa171901abafe5eb256baaa10b8f
+    internal-label: User
+source-git-commit: 811743900fefe761f10254ff13c741a7d8f41d27
 workflow-type: tm+mt
-source-wordcount: 4258
+source-wordcount: '4329'
 ht-degree: 0%
-
 ---
-
 # Fonctionnalités supplémentaires de l’éditeur {#id2056B0B0YPF}
 
 L’éditeur comporte d’autres fonctionnalités utiles que vous pouvez utiliser :
@@ -220,26 +226,26 @@ La barre d’outils contextuelle s’affiche lorsque vous sélectionnez du conte
 
   ![](images/set-alignment-rows.png){width="550"}
 
-   - Alignement horizontal du texte (non disponible pour les tableaux simples)
-   - Alignement vertical du texte (non disponible pour les tableaux simples)
-   - Insérer une ligne au-dessus
-   - Insérer une ligne ci-dessous
-   - Supprimer une ligne
-   - Fusionner les cellules (non disponible pour les tableaux simples)
+  - Alignement horizontal du texte (non disponible pour les tableaux simples)
+  - Alignement vertical du texte (non disponible pour les tableaux simples)
+  - Insérer une ligne au-dessus
+  - Insérer une ligne ci-dessous
+  - Supprimer une ligne
+  - Fusionner les cellules (non disponible pour les tableaux simples)
 
   Options disponibles pour la sélection d’une ou de plusieurs colonnes :
 
   ![](images/set-alignment-columns.png){width="550"}
 
-   - Alignement horizontal du texte (non disponible pour les tableaux simples)
-   - Alignement vertical du texte (non disponible pour les tableaux simples)
-   - Insérer une ligne au-dessus
-   - Insérer une ligne ci-dessous
-   - Supprimer une ligne
-   - Insérer une colonne ci-dessus
-   - Insérer une colonne ci-dessous
-   - Supprimer la colonne
-   - Fusionner les cellules (non disponible pour les tableaux simples)
+  - Alignement horizontal du texte (non disponible pour les tableaux simples)
+  - Alignement vertical du texte (non disponible pour les tableaux simples)
+  - Insérer une ligne au-dessus
+  - Insérer une ligne ci-dessous
+  - Supprimer une ligne
+  - Insérer une colonne ci-dessus
+  - Insérer une colonne ci-dessous
+  - Supprimer la colonne
+  - Fusionner les cellules (non disponible pour les tableaux simples)
 
 - Sélectionnez le tableau pour appliquer une mise en forme de texte et un alignement à l’ensemble du tableau.
 
@@ -349,17 +355,17 @@ Vous disposez des options suivantes pour filtrer les fichiers et affiner votre r
 
   Cela signifie ce qui suit :
 
-   - Si vous utilisez le profil global, les valeurs des filtres configurées dans le profil global sont appliquées.
-   - Si vous sélectionnez un profil de dossier spécifique, les valeurs des filtres définies dans ce profil sont récupérées.
+  - Si vous utilisez le profil global, les valeurs des filtres configurées dans le profil global sont appliquées.
+  - Si vous sélectionnez un profil de dossier spécifique, les valeurs des filtres définies dans ce profil sont récupérées.
 
   Les valeurs de filtre par défaut disponibles pour l’état du document sont les suivantes : Brouillon, Modifier, En cours de révision, Approuvé, Révisé et Terminé. Pour plus d’informations sur la personnalisation des valeurs de filtre pour les états du document, voir [Configurer des filtres d’état du document](../cs-install-guide/config-doc-state-filters.md).
 
 - **Verrouillé par** : affiche une liste d’utilisateurs. La liste est paginée et se charge de manière asynchrone, affichant un ensemble limité d’utilisateurs à la fois et en récupérant d’autres au fur et à mesure que vous faites défiler ou naviguez. Cela améliore la vitesse de chargement et les performances globales, en particulier lorsque vous travaillez avec un grand nombre d’utilisateurs.
 
 - **Dernière modification** : filtrez le contenu en fonction de la date de modification. Sélectionnez une période dans le calendrier ou choisissez l’une des options de période suivantes :
-   - La semaine dernière
-   - Le mois dernier
-   - L&#39;année dernière
+  - La semaine dernière
+  - Le mois dernier
+  - L&#39;année dernière
 
 - **Balises** : filtrez le contenu en fonction des balises.
 
@@ -552,5 +558,4 @@ Les principales fonctionnalités visant à améliorer la gestion des fichiers vo
 
 - Le message d&#39;alerte est disponible uniquement pour les fichiers DITA et est visible dans tous les modes : Auteur, Source et Disposition.
 
-
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

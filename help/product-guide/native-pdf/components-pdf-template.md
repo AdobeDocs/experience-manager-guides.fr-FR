@@ -8,19 +8,22 @@ level: Experienced
 TQID: https://experienceleague.adobe.com/h8V5bE1J5ztJNJ9wMPoQR4k36-pZuiaYbnD7xPYX-zE
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+    internal-label: Admin
+source-git-commit: fde5d8f842d835708f1ae052879bca8a86bf8187
 workflow-type: tm+mt
-source-wordcount: 4601
+source-wordcount: '5053'
 ht-degree: 0%
-
 ---
-
 # Composants d’un modèle PDF {#components-pdf-template}
 
 Un modèle PDF comporte quatre composants : mises en page, feuilles de style, ressources et paramètres. Vous pouvez créer un modèle en personnalisant ces composants individuels et en associant le modèle à un paramètre prédéfini de sortie lors de la génération d’une sortie PDF. Les sections suivantes couvrent en détail ces composants et leur processus de personnalisation.
@@ -199,8 +202,30 @@ Pour ajouter un fichier de ressource au dossier Ressources , procédez comme sui
 
 1. Cliquez sur **Choisir les fichiers** pour parcourir le fichier de ressource à partir de votre ordinateur local
 
-1. Cliquez sur **Télécharger**.
+1. Cliquez sur **Charger**.
 Le fichier sélectionné est importé et répertorié sous le dossier Ressources .
+
+## Afficher ou masquer les commentaires de brouillon dans la sortie native de PDF
+
+Les brouillons de commentaires ajoutés dans une rubrique DITA sont exclus par défaut de la sortie native de PDF. Elle est contrôlée par le style de `draft-comment` dans la feuille de style de contenu du modèle de sortie, où la propriété `display` est définie sur `none`.
+
+En tant qu’administrateur ou administratrice, vous pouvez mettre à jour ce style afin que les commentaires du brouillon soient visibles dans la sortie :
+
+1. Dans le panneau **Modèles de sortie**, ouvrez le modèle que le mappage utilise pour la publication PDF.
+2. Développez **Feuilles de style** et double-cliquez sur **contenu** pour ouvrir la feuille de style de contenu.
+3. Dans le panneau **Styles**, recherchez et sélectionnez **draft-comment**.
+
+   Utilisez le champ de recherche pour le trouver rapidement si la liste est longue.
+
+4. Dans le panneau **Propriétés**, remplacez la valeur de la propriété **display** de `none` par une valeur visible (telle que `block`, `inline-block`, `grid`, etc.).
+
+   ![Configurer la propriété draft-comment dans la feuille de style du contenu](./assets/draft-comment-setting.png)
+
+5. Enregistrer la feuille de style.
+
+>[!NOTE]
+>
+>Ce style contrôle si les commentaires du brouillon sont visibles dans le contenu stylisé en général. Pour inclure des commentaires sur le brouillon dans la sortie **Native PDF**, vous devez également activer l’option **Inclure les commentaires du brouillon** dans le paramètre prédéfini de sortie Native PDF. Pour plus d’informations, consultez la section [Paramètre prédéfini de sortie PDF natif](../web-editor/native-pdf-web-editor.md). Les deux paramètres sont nécessaires pour que les commentaires du brouillon apparaissent dans le PDF généré exactement comme ils apparaissent dans l’éditeur.
 
 ## Paramètres PDF avancés {#advanced-pdf-settings}
 
@@ -223,8 +248,8 @@ Définissez les paramètres de configuration de base pour démarrer un chapitre 
 
 * **Structure de la table des matières** : permet de personnaliser la hiérarchie de la table des matières. Elle utilise les paramètres supplémentaires suivants :
 
-   * **Utiliser des en-têtes jusqu’au niveau** : permet d’ajuster le nombre de niveaux d’en-tête à afficher dans la structure de la table des matières de votre PDF.
-   * **Ne pas afficher le numéro de page pour le premier niveau de la table des matières** : sélectionnez cette option pour masquer les numéros de page correspondants pour tous les chapitres qui contiennent des rubriques imbriquées ou enfants. Prenons l’exemple suivant où une sortie est créée sans sélectionner cette option.
+  * **Utiliser des en-têtes jusqu’au niveau** : permet d’ajuster le nombre de niveaux d’en-tête à afficher dans la structure de la table des matières de votre PDF.
+  * **Ne pas afficher le numéro de page pour le premier niveau de la table des matières** : sélectionnez cette option pour masquer les numéros de page correspondants pour tous les chapitres qui contiennent des rubriques imbriquées ou enfants. Prenons l’exemple suivant où une sortie est créée sans sélectionner cette option.
 
   <img src="assets/page-number-in-toc.png" alt="Chargement de ressources" width="250">
 
@@ -245,16 +270,20 @@ Pour appliquer la structure de la table des matières et le style des niveaux d�
   >Si vous êtes un développeur ou une développeuse CSS, vous pouvez également définir le format de ligne de repère directement dans le fichier CSS.
 
 * **Utiliser le marqueur de continuation de tableau** : sélectionnez cette option pour définir des marqueurs pour les tableaux longs qui s’étendent sur plusieurs pages.
-Vous pouvez définir le texte à afficher avant et après la coupure. Par exemple, un tableau se rompt à la page 5 et vous définissez `<Continued on page %page-num%>` pour **Texte avant saut**. Le texte affiche « Suite à la page 6 » au bas de la page 5.
+Vous pouvez définir le texte à afficher avant et après la coupure. Par exemple, un tableau se rompt à la page 5 et vous définissez `<Continued on page %page-num%>` pour **Texte avant la rupture**.  Le texte indique « Suite page 6 » au bas de la page 5.
 
   Utilisez des variables de langue pour définir le texte du marqueur de continuation avant et après la coupure. Selon la langue choisie, la valeur localisée est automatiquement sélectionnée dans la sortie PDF. Par exemple, vous pouvez publier du `Continued on page %page-num%` sous forme de texte en anglais et du `Fortsetzung auf Seite %page-num%` en allemand.
 
   Survoler <img src="./assets/info-details.svg" alt= "icône info" width="25"> près de l’option pour en savoir plus.
+
+  >[!NOTE]
+  >
+  > Lors de l’utilisation d’une variable de langue dans le champ **Texte avant la coupure** ou **Texte après la coupure**, assurez-vous que l’intégralité du texte est définie dans une seule variable de langue. Le texte ou la variable ajouté en dehors de la variable de langue dans ces champs n’est pas rendu. Par exemple, au lieu d’utiliser une combinaison de variables telles que `${lng:Continued-from-page} %page-num%` dans le champ **Texte après saut**, utilisez uniquement des `${lng:Continued-from-page}` dans le champ et définissez séparément la valeur de la variable de langue `Continued-from-page` sur `Continued-from-page %page-num%`.
 * **Lier les termes du glossaire à la page du glossaire** : sélectionnez cette option pour afficher les termes du glossaire sous forme de liens hypertexte dans le contenu et les lier aux termes de la page du glossaire. Cela permet aux lecteurs de consulter rapidement la définition d’un terme défini dans le glossaire.
 
   Pour convertir les termes du glossaire en liens hypertexte, vous devez effectuer les opérations suivantes :
-   * Activez **Glossaire** dans l&#39;onglet **Ordre de mise en page** pour un plan DITA.
-   * Ajoutez le glossaire dans les pages Back Matter pour une carte Livre.
+  * Activez **Glossaire** dans l&#39;onglet **Ordre de mise en page** pour un plan DITA.
+  * Ajoutez le glossaire dans les pages Back Matter pour une carte Livre.
 
   Si vous n’activez pas la page Glossaire, les termes du glossaire dans le contenu ne sont pas convertis en liens hypertexte dans la sortie PDF.
   <!--For more information on using table continuation markers, see Use table continuation markers.-->
@@ -394,11 +423,11 @@ Sélectionnez un ordre de page qui détermine l’ordre des pages dans votre doc
 * **Brochure** : toutes les pages sont classées comme dans une brochure.
 * **Livret de droite à gauche** : toutes les pages sont dans l’ordre des livrets de droite à gauche.
 * **Personnalisé** : définissez un ordre personnalisé des pages au lieu d’un ordre prédéfini.
-   * « a..b » — Toutes les pages consécutives de a à b.
-   * « a, b, c » — Nouvel ordre de page a, b, c.
-   * « a*b » — La page a est répétée b fois.
-   * « -a » — Les numéros de page négatifs sont comptés à rebours à partir de la dernière page et peuvent être combinés à d’autres commandes personnalisées.
-   * « X » : toutes les pages du document. Même résultat que « 1..-1 ».
+  * « a..b » — Toutes les pages consécutives de a à b.
+  * « a, b, c » — Nouvel ordre de page a, b, c.
+  * « a*b » — La page a est répétée b fois.
+  * « -a » — Les numéros de page négatifs sont comptés à rebours à partir de la dernière page et peuvent être combinés à d’autres commandes personnalisées.
+  * « X » : toutes les pages du document. Même résultat que « 1..-1 ».
 
 Ainsi, par exemple, vous pouvez donner une commande personnalisée telle que « 2,3,5*2,7..10,-1,-2.
 L’ordre de page donné entraîne l’affichage dans un PDF des numéros de page suivants du document d’origine, en supposant qu’il comporte 25 pages au total : 2, 3, 5, 5, 7, 8, 9, 10, 25, 24.
@@ -468,11 +497,11 @@ Par exemple, vous pouvez ajouter une variable de langue « reference-label » et
 Lorsque vous ajoutez des `${lng:<variable name>}` à la section Paragraphe, les références croisées dans les paragraphes de la sortie contiennent le texte localisé et le numéro de page.\
 Par exemple, les captures d’écran ci-dessous montrent les références croisées « Afficher sur la page 1 » en anglais et « Einzelheiten finden Sie auf der Seite 1 » en allemand.
 
-<img src="./assets/english-output-corss-reference.png" alt="Sortie en anglais d&apos;une référence croisée dans un pragrah&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="Sortie en anglais d&apos;une référence croisée dans un pragrah" width ="800" border="2px">
 
 *Référence croisée dans un paragraphe lorsqu’il est publié en langue anglaise.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Sortie allemande d&apos;une référence croisée dans un pragrah&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="Sortie allemande d&apos;une référence croisée dans un pragrah" width ="800" border="2px">
 
 
 *Référence croisée dans un paragraphe lorsqu’il est publié en allemand.*
