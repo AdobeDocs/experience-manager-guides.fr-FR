@@ -7,22 +7,27 @@ exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
 TQID: https://experienceleague.adobe.com/sqNExkYi3iIqIxC7mdlhWw-59-LcAXCOU8w7GD63d8Q
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 018c2332a9e5a4ce8fb683a8cb0bcf859977922c
+    internal-label: User
+source-git-commit: 4546a7e24f9eea064f049d9f84eabd3253d257bd
 workflow-type: tm+mt
-source-wordcount: 671
+source-wordcount: '691'
 ht-degree: 0%
-
 ---
-
 # Barre de tabulations de l’éditeur
 
 >[!INFO]
@@ -61,21 +66,17 @@ Enregistre les modifications que vous avez apportées à toutes les rubriques ou
 >
 > L’opération **Enregistrer tout** ne crée pas de nouvelle version de vos rubriques. Pour créer une nouvelle version, utilisez l’option **Enregistrer en tant que nouvelle version**.
 
-**Assistant IA**
-
-Un outil puissant et piloté par l’IA conçu pour améliorer votre productivité grâce à des fonctionnalités d’aide et de création intelligentes. Il réunit deux fonctionnalités d’IA puissantes (**Création** et **Aide** dans l’interface de Experience Manager Guides, ce qui vous permet de créer du contenu et d’accéder plus rapidement et plus efficacement aux informations de la documentation de Experience Manager Guides.
+**Assistant AI** : l’assistant AI est disponible dans deux modes : **Agentic** et **Standard**.
 
 >[!NOTE]
 >
-> La fonctionnalité Assistant AI est actuellement disponible pour Adobe Experience Manager Guides as a Cloud Service.
+> Pour utiliser le mode Agentic de la fonctionnalité Assistant d’IA dans votre environnement, contactez l’équipe du succès client. Une fois la fonctionnalité activée, les administrateurs et administratrices peuvent l’activer ou la désactiver dans Paramètres Workspace. Un seul mode de l’assistant d’IA peut être activé à la fois : agent ou standard.
 
-**Guides AI**
+- **Magnétique** : apporte des compétences de balisage intelligent, agentique et intelligent d’Adobe CX Enterprise Coworker à l’éditeur, ce qui permet un balisage de contenu naturel et conversationnel. Il analyse votre contenu, vous recommande des balises pertinentes et vous aide à appliquer des métadonnées cohérentes et précises avec un effort minimal. Vous pouvez vérifier les balises suggérées et choisir de les appliquer ou de les rejeter avant de confirmer votre sélection. [Utiliser l’assistant d’IA en mode agence](../user-guide/ai-assistant-agentic.md) simplifie le processus de balisage, améliorant l’organisation du contenu et la visibilité.
 
-Apporte dans l’éditeur les compétences intelligentes et dynamiques de Balisage intelligent du collaborateur d’entreprise d’Adobe CX, ce qui permet un balisage naturel du contenu conversationnel. Il analyse votre contenu, vous recommande des balises pertinentes et vous aide à appliquer des métadonnées cohérentes et précises avec un effort minimal. Vous pouvez passer en revue les balises suggérées et choisir de les appliquer ou de les rejeter avant de confirmer votre sélection, ce qui améliore l’organisation du contenu et la visibilité.
+- **Standard** : puissant outil optimisé par l’IA, conçu pour améliorer votre productivité grâce à des fonctionnalités d’aide intelligentes. De plus, lorsque vous travaillez dans l’interface de l’éditeur, vous pouvez tirer parti des fonctionnalités de création intelligente de l’assistant AI qui rendent votre processus de création plus intelligent et plus rapide grâce à des suggestions intelligentes de réutilisation et d’optimisation du contenu.
 
->[!NOTE]
->
-> Pour utiliser la fonctionnalité Guides AI dans votre environnement, contactez l’équipe du succès client. Une fois la fonctionnalité activée, les administrateurs et administratrices peuvent l’activer ou la désactiver dans Paramètres Workspace. Une seule expérience d’IA peut être activée à la fois : Guides AI ou Assistant d’IA.
+La fonctionnalité [Assistant AI](./ai-assistant.md) n’est actuellement disponible que pour Adobe Experience Manager as a Cloud Service.
 
 **Développer la vue** : permet de développer la page vue à l’aide de l’icône **Développer**. Dans cet affichage, la barre d’en-tête contenant le logo Adobe Experience Manager est masquée. L’espace de contenu à modifier est ainsi optimisé. Pour revenir à la vue standard, utilisez l’icône **Quitter la vue développée**.
 
@@ -91,6 +92,6 @@ Apporte dans l’éditeur les compétences intelligentes et dynamiques de Balisa
 >
 >Si vous utilisez Adobe Experience Manager Guides dans une configuration On-Premise antérieure à la version 5.2, l’option Paramètres de Workspace continue à apparaître sous la forme **Paramètres** sous le menu Autres actions .
 
-- **Paramètres de l’éditeur** : permet d’accéder à la boîte de dialogue Paramètres de l’éditeur dans laquelle vous pouvez personnaliser le comportement de l’éditeur au niveau de l’auteur individuel. Il vous permet de contrôler la visibilité et le comportement des balises, des commentaires et d’autres paramètres au niveau de l’éditeur lors de la création. Pour plus d’informations, consultez [Paramètres de l’éditeur](../install-conf-guide/workspace-settings.md).
+- **Paramètres de l’éditeur** : permet d’accéder à la boîte de dialogue Paramètres de l’éditeur dans laquelle vous pouvez personnaliser le comportement de l’éditeur au niveau de l’auteur individuel. Il vous permet de contrôler la visibilité et le comportement des balises, des commentaires et d’autres paramètres au niveau de l’éditeur lors de la création. Pour plus d’informations, consultez [Paramètres de l’éditeur](../user-guide/config-editor-settings.md).
 
 **Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
