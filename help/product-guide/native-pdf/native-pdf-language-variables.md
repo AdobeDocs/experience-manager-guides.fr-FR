@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 0%
@@ -91,9 +91,9 @@ Vous pouvez également créer de nouvelles variables de langue. Par exemple, vou
 
 1. Sélectionnez **Ajouter une variable de langue** <img src="./assets/add-language-variable.svg" width="25"> d’ajouter une nouvelle variable de langue à la langue sélectionnée. L’ajout d’une variable à une langue l’ajoute automatiquement à toutes les langues. Vous ne pouvez pas créer de variable portant le même nom qu’une variable existante. Une erreur s’affiche.
 
->[!NOTE]
->
-> Si vous ne sélectionnez pas **Ajouter une variable de langue**, la variable n’est pas créée et ajoutée à la liste
+   >[!NOTE]
+   >
+   > Si vous ne sélectionnez pas **Ajouter une variable de langue**, la variable n’est pas créée et ajoutée à la liste
 
 ## Exporter et importer des variables de langue
 
@@ -132,7 +132,7 @@ Les variables avec le même ID sont importées une fois le fichier importé. Les
 >[!NOTE]
 > 
 ><ul><li>Si le fichier n’est pas un fichier XML ou s’il contient un format incorrect qui ne correspond pas aux variables de langue, une erreur s’affiche indiquant qu’il existe un problème avec le fichier XML. 
->&gt;<li>Si le fichier ne contient aucune variable portant le même ID, un avertissement s’affiche indiquant qu’aucune variable de langue correspondante n’a été trouvée dans le fichier importé.
+&gt;<li>Si le fichier ne contient aucune variable portant le même ID, un avertissement s’affiche indiquant qu’aucune variable de langue correspondante n’a été trouvée dans le fichier importé.
 
 ### Options d’une variable de langue
 
@@ -140,7 +140,7 @@ Pointez sur la variable pour afficher le menu **Options** correspondant.
 
 <img width="550" alt="menu options des variables de langue" src="./assets/language-variable-user-options.png">
 
-*Utilisez le menu **Options**&#x200B;pour supprimer, prévisualiser ou dupliquer une variable de langue.*
+*Utilisez le menu **Options**pour supprimer, prévisualiser ou dupliquer une variable de langue.*
 
 Vous pouvez prévisualiser les variables d’application et d’utilisateur. Pour afficher la valeur de la variable dans la sortie, sélectionnez **Aperçu** dans le menu **Options** de la variable sélectionnée.
 Vous pouvez également choisir de **Supprimer** ou **Dupliquer** les variables utilisateur. La suppression d’une variable d’une langue la supprime automatiquement de toutes les langues.

@@ -6,27 +6,36 @@ exl-id: 3e73d595-a574-4104-af46-6994685a2f4c
 TQID: https://experienceleague.adobe.com/SuUfplm5WDGOjPlkNjMiWXoWzpFeM8RQsTHNL36iLn8
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+    internal-label: Content structure
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Content reuse
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 2738
-ht-degree: 19%
-
+source-wordcount: '3089'
+ht-degree: 17%
 ---
-
 # Nouveautés de la version 4.6.0 (septembre 2024)
 
 Cet article présente les nouvelles fonctionnalités améliorées introduites dans la version 4.6.0 d’Adobe Experience Manager Guides.
@@ -48,7 +57,7 @@ Un fragment d’expérience est une unité de contenu modulaire au sein de Adobe
 
 ![onglet options des propriétés du fichier](./assets/file-properties-outputs-4-6.png) {width="300"}
 
-*Publiez et affichez les fragments d’expérience d’une rubrique à partir de la section **Sorties**&#x200B;de la section **Propriétés du fichier**.*
+*Publiez et affichez les fragments d’expérience d’une rubrique à partir de la section **Sorties**de la section **Propriétés du fichier**.*
 
 Experience Manager Guides vous permet désormais de publier une rubrique ou ses éléments dans un fragment d’expérience. Vous pouvez créer un mappage JSON entre une rubrique ou ses éléments et un modèle de fragment d’expérience. Vous pouvez également créer des variations de fragments d’expérience à l’aide des filtres de condition.
 
@@ -83,7 +92,7 @@ Vous pouvez créer les paramètres prédéfinis AEM Sites existants en sélectio
 Affichez les onglets **Général**, **Contenu** et **Référence croisée** dans les paramètres prédéfinis AEM Sites :
 - **Général** : contient les configurations générales pour générer la sortie. Vous pouvez spécifier le site et le chemin de sortie, supprimer ou remplacer des pages de sortie existantes, supprimer les pages générées précédemment pour les rubriques supprimées, sélectionner le modèle de conception, conserver les fichiers temporaires et spécifier le workflow de post-génération.
 - **Contenu** : contient les paramètres applicables au contenu pour la génération de la sortie. Vous pouvez sélectionner les filtres, la ligne de base du plan DITA et les propriétés de métadonnées pour la publication.
-- **Références cross-map** : cette liste contient des rubriques contenant des références cross-map avec une portée = « pair ». Vous pouvez spécifier le contexte de publication d&#39;une liste de références croisées avec scope=« peer » pour les rubriques disponibles dans d&#39;autres plans DITA. Cet onglet s’affiche si vous utilisez la version Experience Manager Guides (UUID).
+- **Références sur les mappages croisés** : cette liste contient des rubriques contenant des références sur les mappages croisés avec portée = « homologue ». Vous pouvez spécifier le contexte de publication d&#39;une liste de références croisées avec scope=« peer » pour les rubriques disponibles dans d&#39;autres plans DITA. Cet onglet s’affiche si vous utilisez la version Experience Manager Guides (UUID).
 
 
 
@@ -99,7 +108,7 @@ Si la même rubrique est référencée plusieurs fois dans un fichier, vous pouv
 
 ![Paramètre prédéfini AEM Sites hérité](assets/aem-sites-legacy.png)
 
-*Spécifiez le contexte de publication des rubriques liées à partir de l’onglet **Références de mappage croisé**&#x200B;du préréglage **AEM Sites**.*
+*Spécifiez le contexte de publication des rubriques liées à partir de l’onglet **Références de mappage croisé**du préréglage **AEM Sites**.*
 
 
 
@@ -154,6 +163,7 @@ Si un fichier DITA ou Markdown est verrouillé ou extrait par un autre utilisate
 En mode lecture seule, vous pouvez afficher le contenu ainsi que les balises et les attributs en mode **Auteur** ou **Source** et modifier les propriétés du fichier.
 
 Vous pouvez également accéder à la vue **Disposition** pour les plans DITA en lecture seule.
+
 >[!NOTE]
 >
 > Les administrateurs de profils de dossiers doivent mettre à jour *ui_config.json* afin que vous puissiez accéder harmonieusement aux fichiers en lecture seule en modes Auteur, Source et Disposition.
@@ -184,14 +194,14 @@ Lors de la modification d’un document dans l’éditeur web, vous pouvez déso
 - **Éléments valides à l’emplacement actuel** que vous pouvez insérer à l’emplacement actuel du curseur.
 - **Éléments valides en dehors de l’emplacement actuel** que vous pouvez insérer après l’un des parents pour l’élément actif dans la hiérarchie d’éléments.
 
-![&#x200B; Boîte de dialogue Insérer un élément &#x200B;](assets/insert-element-dialog.png){width="300"}
+![ Boîte de dialogue Insérer un élément ](assets/insert-element-dialog.png){width="300"}
 
 *Afficher les listes séparées d&#39;éléments valides pour insérer un élément à l&#39;emplacement actuel.*
 
 
 Cette liste fractionnée d&#39;éléments valides permet de gérer la structure du contenu et de respecter les normes DITA.
 
-Pour en savoir plus sur la fonction **Insérer un élément**, consultez la section de la barre d’outils Secondaire [&#128279;](../user-guide/web-editor-features.md#2051ea0j0y4).
+Pour en savoir plus sur la fonction **Insérer un élément**, consultez la section de la barre d’outils Secondaire [](../user-guide/web-editor-features.md#2051ea0j0y4).
 
 
 ### Redéfinition de l’expérience pour rechercher et filtrer les fichiers dans la vue du référentiel

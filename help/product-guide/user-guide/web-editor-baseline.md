@@ -7,25 +7,33 @@ role: User
 TQID: https://experienceleague.adobe.com/SSfVuVDBo6RbMZM15CoDlR2zltDGj78D6SYCyyJta2g
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e3a10752fa872baabf8cfc339510d3ea907a17d1
+    internal-label: User
+source-git-commit: 5d63f33b8644b9adad67fd6badf4760aacbff063
 workflow-type: tm+mt
-source-wordcount: 1903
+source-wordcount: '1929'
 ht-degree: 0%
-
 ---
-
 # Créer et gérer des lignes de base à partir de la console Map {#id223MB0ZF043}
 
 >[!NOTE]
@@ -41,7 +49,7 @@ De même, la sélection d’une ligne de base pour traduire le contenu est facul
 
 >[!TIP]
 >
-> Il est recommandé d’utiliser cette fonction de ligne de base à partir de la console Mappage. Cependant, vous pouvez également [utiliser le tableau de bord de mappage pour créer et gérer des lignes de base](./generate-output-use-baseline-for-publishing.md).
+>Il est recommandé d’utiliser cette fonction de ligne de base à partir de la console Mappage. Cependant, vous pouvez également [utiliser le tableau de bord de mappage pour créer et gérer des lignes de base](./generate-output-use-baseline-for-publishing.md).
 
 Dans l’onglet **Ligne de base**, vous pouvez effectuer les actions suivantes :
 
@@ -81,13 +89,13 @@ Dans **Sélectionner la version en fonction de** sélectionnez l’une des optio
   Pour les références directes dans les lignes de base statiques, les libellés sont extraits de la dernière version enregistrée de la carte. Par exemple, si vous avez créé les libellés `Label Release 1.0` et `Label Release 1.1` pour les versions 1.0 et 1.1 de la rubrique A, puis ajoutez la rubrique A à la carte enregistrée en tant que version 1.0. Dans ce cas, vous pouvez afficher les libellés `Label Release 1.0` et `Label Release 1.1` dans la liste déroulante pour les libellés de ligne de base statiques.
 
   Lorsque vous sélectionnez **Libellé** vous pouvez choisir les références directes et indirectes.
-   - Pour les références directes dans le plan DITA, vous avez la possibilité d&#39;utiliser la dernière version des rubriques auxquelles le libellé spécifié n&#39;est pas appliqué.
+  - Pour les références directes dans le plan DITA, vous avez la possibilité d&#39;utiliser la dernière version des rubriques auxquelles le libellé spécifié n&#39;est pas appliqué.
 
-     >[!NOTE]
-     >
-     > Si vous saisissez un libellé qui n&#39;existe pas et sélectionnez l&#39;option **Ne pas créer de ligne de base** la création de la ligne de base échoue et affiche un message d&#39;erreur à proximité du nom de la ligne de base dans le panneau Ligne de base.
+    >[!NOTE]
+    >
+    > Si vous saisissez un libellé qui n&#39;existe pas et sélectionnez l&#39;option **Ne pas créer de ligne de base** la création de la ligne de base échoue et affiche un message d&#39;erreur à proximité du nom de la ligne de base dans le panneau Ligne de base.
 
-   - Pour les références indirectes dans le plan DITA, vous disposez d&#39;une option supplémentaire pour utiliser la dernière version des rubriques sur lesquelles le libellé spécifié n&#39;est pas appliqué. Vous pouvez également choisir de **Sélectionner automatiquement** pour le contenu référencé. Le système sélectionne alors automatiquement la version du contenu référencé correspondant à la version du contenu dans lequel il est référencé.
+  - Pour les références indirectes dans le plan DITA, vous disposez d&#39;une option supplémentaire pour utiliser la dernière version des rubriques sur lesquelles le libellé spécifié n&#39;est pas appliqué. Vous pouvez également choisir de **Sélectionner automatiquement** pour le contenu référencé. Le système sélectionne alors automatiquement la version du contenu référencé correspondant à la version du contenu dans lequel il est référencé.
 
 Une fois que vous avez sélectionné un libellé ou une version en fonction de la date, toutes les rubriques et tous les fichiers multimédias référencés dans la carte sont sélectionnés en conséquence. Cette sélection de rubriques ne s’affiche pas dans l’interface utilisateur, mais elle est enregistrée en arrière-plan.
 
@@ -108,11 +116,12 @@ Les références créées à l&#39;aide de la configuration de mise à jour auto
   >Lorsque les libellés sont extraits, un chargeur s’affiche et la liste déroulante est désactivée.
 
   Pour les lignes de base dynamiques, les libellés sont extraits de la dernière version enregistrée et de la copie de travail actuelle de la carte. Par exemple, si vous avez créé les libellés `Label Release A.1.0 ` et `Label Release A.1.1` pour les versions 1.0 et 1.1 de la rubrique A et les libellés `Label Release B.1.0` et `Label Release B.1.1` pour les versions 1.0 et 1.1 de la rubrique B . Vous pouvez ensuite ajouter Topic A à Map A dans la version 1.0 et Topic B à Map A dans la version 1.0* (copie de travail). Dans ce cas, vous pouvez afficher `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0` et `Label Release B.1.1` dans la liste déroulante des libellés de ligne de base dynamique.
+
 - **Références indirectes** : pour les références indirectes dans le plan DITA, les options suivantes sont disponibles :
 
-   - **Sélection automatique** : vous pouvez choisir d’effectuer une **Sélection automatique** pour le contenu référencé. Le système sélectionne alors automatiquement la version du contenu référencé correspondant à la version du contenu dans lequel il est référencé.
-   - **Utiliser le libellé sélectionné** : vous pouvez créer une ligne de base avec le libellé sélectionné défini pour une version de rubriques.
-   - **Utiliser la dernière version ou la copie de travail** : utilisez la dernière version des rubriques auxquelles le libellé spécifié n&#39;est pas appliqué ou, si aucune version n&#39;a été créée, utilisez la copie de travail des rubriques pour créer la ligne de base.
+  - **Sélection automatique** : vous pouvez choisir d’effectuer une **Sélection automatique** pour le contenu référencé. Le système sélectionne alors automatiquement la version du contenu référencé correspondant à la version du contenu dans lequel il est référencé.
+  - **Utiliser le libellé sélectionné** : vous pouvez créer une ligne de base avec le libellé sélectionné défini pour une version de rubriques.
+  - **Utiliser la dernière version ou la copie de travail** : utilisez la dernière version des rubriques auxquelles le libellé spécifié n&#39;est pas appliqué ou, si aucune version n&#39;a été créée, utilisez la copie de travail des rubriques pour créer la ligne de base.
 
 ## Gérer les niveaux de référence
 
@@ -122,13 +131,13 @@ Vous pouvez gérer vos lignes de base existantes à l&#39;aide des différentes 
 - Utilisez l&#39;icône **Actualiser** du panneau Ligne de base pour vérifier toutes les lignes de base et afficher une nouvelle liste de lignes de base pour le plan DITA ouvert en mode Carte.
 - Sélectionnez la ligne de base pour afficher ou modifier le contenu d&#39;une ligne de base statique existante dans le panneau **Ligne de base**. La fenêtre de modification de ligne de base affiche le fichier de plan DITA, le contenu ou les rubriques du plan et le contenu référencé.
 
-  >[!NOTE]
-  >
-  >L&#39;opération de modification des lignes de base statiques n&#39;est recommandée que pour un petit nombre de changements de référence. L&#39;opération Modifier n&#39;est pas recommandée pour modifier la version du plan DITA principal, car il doit recalculer toutes les références. Cela peut entraîner l&#39;échec de la mise à jour de la ligne de base pour les plans DITA volumineux. Pour les plans DITA plus volumineux, vous pouvez créer une nouvelle ligne de base ou modifier les propriétés de la ligne de base.
-  >
-  >L&#39;opération Modifier en cas de ligne de base dynamique permet de modifier les propriétés de la ligne de base, car les références des lignes de base dynamiques sont générées au moment de l&#39;exécution à l&#39;aide des libellés.
+>[!NOTE]
+>
+>L&#39;opération de modification des lignes de base statiques n&#39;est recommandée que pour un petit nombre de changements de référence. L&#39;opération Modifier n&#39;est pas recommandée pour modifier la version du plan DITA principal, car il doit recalculer toutes les références. Cela peut entraîner l&#39;échec de la mise à jour de la ligne de base pour les plans DITA volumineux. Pour les plans DITA plus volumineux, vous pouvez créer une nouvelle ligne de base ou modifier les propriétés de la ligne de base.
+>
+>L&#39;opération Modifier en cas de ligne de base dynamique permet de modifier les propriétés de la ligne de base, car les références des lignes de base dynamiques sont générées au moment de l&#39;exécution à l&#39;aide des libellés.
 
-  ![options d&#39;une ligne de base](images/baseline-options.png)
+![options d&#39;une ligne de base](images/baseline-options.png)
 
 ### Actions disponibles pour une ligne de base existante
 
@@ -142,18 +151,20 @@ Vous pouvez dupliquer une ligne de base et la modifier en fonction de vos besoin
 *Dupliquez une ligne de base en fonction d’un libellé ou créez une copie exacte.*
 
 1. Sélectionnez **Dupliquer** dans le menu Options d&#39;une ligne de base. La boîte de dialogue **Dupliquer la ligne de base** s’ouvre.
->[!NOTE]
->
->Le nom par défaut de la ligne de base est `<selected baseline name>`_suffix (comme sample-baseline_1). Vous pouvez modifier le nom en fonction de vos besoins.
+
+   >[!NOTE]
+   > 
+   >Le nom par défaut de la ligne de base est `<selected baseline name>`_suffix (comme sample-baseline_1). Vous pouvez modifier le nom en fonction de vos besoins.
 
    Dans **Sélectionner la version en fonction de**, vous pouvez choisir l’option **Copie exacte** ou l’option **Libellé** :
 
    - **Copie exacte** : Experience Manager Guides sélectionne la même version de toutes les rubriques et crée une copie exacte de la ligne de base dupliquée.
-   - **Libellé** : dans la liste déroulante, vous pouvez choisir l’un des [&#x200B; libellés répertoriés](#labels-list). Experience Manager Guides sélectionne les versions des rubriques pour lesquelles le libellé sélectionné est défini, tandis que pour les autres rubriques, il sélectionne la version à partir de la ligne de base dupliquée. Par exemple, vous sélectionnez le libellé `Release 1.0` dans la liste déroulante, puis le service sélectionne les versions des rubriques pour lesquelles vous avez défini ce libellé. Pour toutes les autres rubriques, il sélectionne la version de la ligne de base dupliquée.
+   - **Libellé** : dans la liste déroulante, vous pouvez choisir l’un des [ libellés répertoriés](#labels-list). Experience Manager Guides sélectionne les versions des rubriques pour lesquelles le libellé sélectionné est défini, tandis que pour les autres rubriques, il sélectionne la version à partir de la ligne de base dupliquée. Par exemple, vous sélectionnez le libellé `Release 1.0` dans la liste déroulante, puis le service sélectionne les versions des rubriques pour lesquelles vous avez défini ce libellé. Pour toutes les autres rubriques, il sélectionne la version de la ligne de base dupliquée.
+
 1. Sélectionnez **Dupliquer**.
 
 - **Renommer** ou **Supprimer** une ligne de base existante**.
-- **Gérer les libellés** qui vous permet d’ajouter, de supprimer ou de modifier des libellés existants pour les lignes de base statiques. Si votre administrateur a configuré des libellés prédéfinis, ces libellés s’affichent dans la liste déroulante Ajouter un libellé . Pour plus d’informations sur l’ajout de libellés, voir [&#x200B; Utiliser des libellés &#x200B;](web-editor-use-label.md#).
+- **Gérer les libellés** qui vous permet d’ajouter, de supprimer ou de modifier des libellés existants pour les lignes de base statiques. Si votre administrateur a configuré des libellés prédéfinis, ces libellés s’affichent dans la liste déroulante Ajouter un libellé . Pour plus d’informations sur l’ajout de libellés, voir [ Utiliser des libellés ](web-editor-use-label.md#).
 
   >[!NOTE]
   >
@@ -166,6 +177,7 @@ Vous pouvez dupliquer une ligne de base et la modifier en fonction de vos besoin
 ### Liste des libellés {#labels-list}
 
 Les libellés répertoriés dans la liste déroulante sont basés sur les critères suivants :
+
 - Les libellés doivent être ajoutés à l&#39;une des versions des rubriques du plan DITA (sur lequel la ligne de base est créée).
 - De plus, seules les références de premier niveau (rubriques ou sous-cartes) du plan DITA sont prises en compte pour le choix des libellés.
 
@@ -187,5 +199,5 @@ Les libellés répertoriés dans la liste déroulante sont basés sur les critè
 
 Une fois la ligne de base modifiée, sélectionnez **Enregistrer** pour enregistrer les modifications. Vous pouvez sélectionner **Réinitialiser** si vous ne souhaitez pas enregistrer la modification et réinitialiser la ligne de base. Lorsque vous sélectionnez **Réinitialiser**, un avertissement s’affiche indiquant que les modifications non enregistrées seraient perdues.
 
-**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)
+**Rubrique parente :**[ Génération de sortie](generate-output.md)
 
