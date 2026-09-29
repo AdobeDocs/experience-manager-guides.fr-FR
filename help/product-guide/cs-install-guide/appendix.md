@@ -359,7 +359,7 @@ L’exemple suivant montre comment déplacer un `title` dans un `table` :
 
 Les éléments `paragraphStyleRule` sont décrits ci-dessous :
 
-** élément `paraRule`**
+**&#x200B; élément `paraRule`**
 
 L’élément `paraRule` est obligatoire. Cette option spécifie les règles de mappage pour tous les styles de paragraphe. Dans un document InDesign, tout le texte se trouve dans une sous-structure de styles de paragraphe. Même les paragraphes sans style sont nommés `\[No paragraph style\]`. Les crochets, ils indiquent un nom de style InDesign intégré.
 

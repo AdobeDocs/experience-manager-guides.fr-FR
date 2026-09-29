@@ -57,7 +57,7 @@ Utilisez l’onglet Métadonnées pour définir les champs de métadonnées tels
 
 Ces métadonnées sont mappées aux métadonnées dans l’onglet **Description** de la **Propriétés du document** du PDF de sortie.
 
-Dans les paramètres prédéfinis de sortie, sélectionnez **** > **Native-PDF** > **Métadonnées** pour ajouter et personnaliser des options de métadonnées.
+Dans les paramètres prédéfinis de sortie, sélectionnez **&#x200B;**&#x200B;> **Native-PDF** > **Métadonnées** pour ajouter et personnaliser des options de métadonnées.
 
 * **Utiliser les métadonnées ajoutées dans topicmeta**
 
@@ -65,7 +65,7 @@ Dans les paramètres prédéfinis de sortie, sélectionnez **** > **Native-PDF**
 
 * **Fournir un fichier XMP**
 
-  Vous pouvez également remplir directement les champs de métadonnées en important le fichier [](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform). Vous pouvez télécharger un exemple de fichier XMP ici.
+  Vous pouvez également remplir directement les champs de métadonnées en important le fichier [&#128279;](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform). Vous pouvez télécharger un exemple de fichier XMP ici.
 
   [Téléchargement](assets/SampleXMP.xmp)
 
