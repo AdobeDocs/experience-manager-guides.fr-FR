@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: a45df7e9eef75b0c4684e944fd9611eb6e7b060e
+source-git-commit: 863a9c706ce3aa62aaa24bef7242019e1886f255
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '325'
 ht-degree: 6%
 ---
 # Documentation de Experience Manager Guides
@@ -206,6 +206,15 @@ Les réviseurs peuvent déléguer une tâche de révision à un autre réviseur.
 </table>
 
 >[!ENDSHADEBOX]
+
+## Nouveautés
+
+Version [!BADGE 2026.09.0]{type=Informative}
+
+La version 2026.09.0 d’Adobe Experience Manager Guides introduit le balisage intelligent optimisé par l’IA dans l’assistant d’IA, ainsi que des améliorations en matière de création, de gestion de contenu, de publication et d’expérience utilisateur globale.
+
+[Découvrir les nouveautés](./release-info/whats-new-2026-09-0.md)
+
 
 ## Ressources supplémentaires
 
