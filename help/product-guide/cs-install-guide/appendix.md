@@ -8,21 +8,25 @@ level: Experienced
 TQID: https://experienceleague.adobe.com/etvy4eVDOfc8wWTt4LDk-XtEbAvQxESduB3-N114X-0
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: d5800bf2b6aa807975b6c12c20bfb340a015b830
 workflow-type: tm+mt
-source-wordcount: 2866
+source-wordcount: '2866'
 ht-degree: 0%
-
 ---
-
 # Annexe {#id195AD0L60Y4}
 
 ## Dépannage d’AEM Guides
@@ -45,10 +49,10 @@ Effectuez les étapes suivantes pour vérifier les références, à l’aide du 
 1. Exécutez le script de validation \[`/bin/fmdita/validatebtree?operation=validate`\] pour vérifier si de nouvelles références ont été rompues.
 1. Si le script de validation signale des erreurs, vous pouvez lui appliquer un correctif à l’aide du script de correctif.
 1. Enregistrez les détails donnés ci-dessous et, si nécessaire, partagez-les avec votre équipe chargée du succès client :
-1. &#x200B;
+
    - Logs imprimés par script de validation
-- Package de « `/content/fmdita/references` »
-- Tout autre détail requis en fonction du scénario signalé
+   - Package de « `/content/fmdita/references` »
+   - Tout autre détail requis en fonction du scénario signalé
 
 **Script de correctif**
 
@@ -56,13 +60,13 @@ Effectuez les étapes suivantes pour corriger les références rompues, à l’a
 
 1. Exécutez le `[/bin/fmdita/validatebtree?operation=patch]` de script de correctif pour corriger les références rompues. L’exécution du script prend quelques minutes et imprime les journaux au fur et à mesure de sa progression. Une fois l’exécution terminée, il imprime « `Done` » à la fin.
 
->[!NOTE]
->
-> Il est recommandé de copier et d’enregistrer les journaux à des fins de référence.
+   >[!NOTE]
+   >
+   > Il est recommandé de copier et d’enregistrer les journaux à des fins de référence.
 
 1. Une fois le script de correctif exécuté avec succès, vous pouvez effectuer les vérifications suivantes :
-1. &#x200B;
-   - Vérifiez qu’un nouveau nœud « `references_backup_<timestamp>"` a été créé sous `/content/fmdita`
+
+- Vérifiez qu’un nouveau nœud « `references_backup_<timestamp>"` a été créé sous `/content/fmdita`
 - Vérifier que les références ont été corrigées
 
 **Enregistreur**
@@ -370,8 +374,9 @@ Les attributs utilisés dans le `paraRule` sont expliqués ci-dessous :
 - `@mapTo` : nom d&#39;un élément cible DITA.
 
 - `@context` : cet attribut est utilisé pour établir un lien vers une règle **wrap** spécifique lorsque plusieurs choix de wrapper sont disponibles. Exemple : l’élément `li` peut être encapsulé dans un élément `ol` ou `ul`. Pour identifier les différents types de liste, vous pouvez utiliser un nom de style spécifique ou l’attribut `@local` qui peut afficher les éléments suivants :
-   - `local="p[-|-|-|-|-|b|-|-]"` Où le « `b` » dans le champ 6 indique un élément de liste à puces. Dans ce cas, définissez `@context` sur « `bullet` ».
-   - `local="p[-|-|-|-|-|n|-|-]"` Où le « `n` » dans le champ 6 indique un élément de liste numéroté. Dans ce cas, définissez `@context` sur « `number` ».
+
+  - `local="p[-|-|-|-|-|b|-|-]"` Où le « `b` » dans le champ 6 indique un élément de liste à puces. Dans ce cas, définissez `@context` sur « `bullet` ».
+  - `local="p[-|-|-|-|-|n|-|-]"` Où le « `n` » dans le champ 6 indique un élément de liste numéroté. Dans ce cas, définissez `@context` sur « `number` ».
 
 - `@commentOut` : cet attribut permet d’encapsuler l’élément cible dans des commentaires XML, de sorte que les informations ne soient pas perdues mais puissent être gérées manuellement par l’utilisateur. Cela s&#39;avère utile si le contenu source ne peut pas être forcé à se conformer aux règles de structure DITA.
 
@@ -402,9 +407,8 @@ Les attributs utilisés dans le `charRule` sont expliqués ci-dessous :
 - `@local` : voir [\#id194CG0V005Z](#id194CG0V005Z).
 - `@mapTo` : nom d&#39;un élément cible DITA.
 - `@refactor` : cet attribut facultatif a le choix entre deux valeurs :
-   - `unwrap` : l’élément correspondant est supprimé lors de la conservation de son contenu.
-
-   - `drop` : l’élément correspondant et tout son contenu sont supprimés.
+  - `unwrap` : l’élément correspondant est supprimé lors de la conservation de son contenu.
+  - `drop` : l’élément correspondant et tout son contenu sont supprimés.
 
 
 **Règles d’attribut**
@@ -434,11 +438,11 @@ Les attributs utilisés dans le `attributeRules` sont expliqués ci-dessous :
 > Cet élément peut contenir plusieurs éléments enfants.
 
 - `addNew` : ajoute un nouvel attribut à l’élément correspondant. Disponible pour tous les contextes. Il possède deux attributs :
-   - `@name` : doit être un nom XML légal, de préférence valide pour le contexte DITA.
-   - `@value` : peut être du texte littéral ou une simple expression XPath.
+  - `@name` : doit être un nom XML légal, de préférence valide pour le contexte DITA.
+  - `@value` : peut être du texte littéral ou une simple expression XPath.
 - `copyAtt` : copie un seul attribut vers la cible tout en le renommant éventuellement dans le processus. La valeur n’est pas modifiée. Disponible pour les contextes `mapDoctypeParaRule`, `mapDoctypeElemRule`, `doctypeElemRule` et `elementRule`. Lorsque cet élément est présent, la valeur `@copyAllAtts` est supposée être `false`. Il possède deux attributs :
-   - `@name`: doit être le nom d&#39;un attribut présent sur l&#39;élément XML source.
-   - `@mapTo` : doit être un nom XML légal, de préférence valide pour le contexte DITA.
+  - `@name`: doit être le nom d&#39;un attribut présent sur l&#39;élément XML source.
+  - `@mapTo` : doit être un nom XML légal, de préférence valide pour le contexte DITA.
 
 **Codes de formatage locaux**
 
@@ -492,9 +496,9 @@ Les attributs utilisés dans le `elementRule` sont expliqués ci-dessous :
 
 - `@refactor` : cet attribut facultatif a le choix entre deux valeurs :
 
-   - `unwrap` : l’élément correspondant est supprimé lors de la conservation de son contenu.
+  - `unwrap` : l’élément correspondant est supprimé lors de la conservation de son contenu.
 
-   - `drop` : l’élément correspondant et tout son contenu sont supprimés.
+  - `drop` : l’élément correspondant et tout son contenu sont supprimés.
 
 - `@context` : cet attribut est utilisé pour établir un lien vers une règle de renvoi à la ligne spécifique lorsque plusieurs choix de wrapper sont disponibles. Exemple : l’élément `li` peut être encapsulé dans un élément `ol` ou `ul`.
 

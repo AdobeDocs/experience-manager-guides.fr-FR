@@ -7,23 +7,29 @@ exl-id: 52bc8f90-e4ae-4e83-bb1c-9d152fa9bb65
 TQID: https://experienceleague.adobe.com/NX3LuUjSmQKtirXc1iaJVZziVIvuDqANXwqPTi-1LIo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f7c0b10f032c2584fb6e951da898faaeb4ca7aaf
+    internal-label: Security
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 3002
+source-wordcount: '3060'
 ht-degree: 1%
-
 ---
-
 # Configuration du paramètre prédéfini de sortie PDF
 
 Une fois le paramètre prédéfini créé, configurez ses paramètres. Les options de configuration des paramètres prédéfinis sont organisées sous les onglets Général, Métadonnées, Disposition, Sécurité, Impression et Avancé.
@@ -64,18 +70,18 @@ Dans les paramètres prédéfinis de sortie, sélectionnez **&#x200B;**&#x200B;>
   [Téléchargement](assets/SampleXMP.xmp)
 
   Vous pouvez également générer un fichier XMP à l’aide d’Adobe Acrobat.
-   1. Sélectionnez **Fichier** > **Propriétés** dans Acrobat.
-   1. Sous **Description**, sélectionnez **Métadonnées supplémentaires**.
-   1. Dans le panneau de gauche, sélectionnez **Avancé**.
-   1. Sélectionnez **Enregistrer**.
+  1. Sélectionnez **Fichier** > **Propriétés** dans Acrobat.
+  1. Sous **Description**, sélectionnez **Métadonnées supplémentaires**.
+  1. Dans le panneau de gauche, sélectionnez **Avancé**.
+  1. Sélectionnez **Enregistrer**.
 
   Le fichier XMP est enregistré sur l’appareil.
 
 * **Fournissez des noms et des valeurs de métadonnées**
 
-   1. Ajoutez un nom en le sélectionnant dans la liste déroulante ou ajoutez des métadonnées personnalisées en saisissant directement dans le champ du nom.
-   1. Saisissez la valeur pour les métadonnées et sélectionnez l’icône « + ».
-Les métadonnées sont ajoutées à la liste des métadonnées du PDF.
+  1. Ajoutez un nom en le sélectionnant dans la liste déroulante ou ajoutez des métadonnées personnalisées en saisissant directement dans le champ du nom.
+  1. Saisissez la valeur pour les métadonnées et sélectionnez l’icône « + ».
+     Les métadonnées sont ajoutées à la liste des métadonnées du PDF.
 
 Vous pouvez également utiliser des variables pour définir les valeurs des métadonnées.  Vous pouvez utiliser les métadonnées définies pour le fichier DITA map ou bookmap en tant que variables. Les métadonnées se trouvent sous le nœud `/jcr:content/metadata` du fichier de plan DITA ou de bookmap.
 Lorsque vous utilisez une variable, sa valeur est sélectionnée dans les propriétés de métadonnées.
@@ -115,10 +121,10 @@ Protégez votre PDF en ajoutant des restrictions pour l’ouverture et la lectur
 Configurez les paramètres de production d’impression pour attribuer des repères d’impression, sélectionner des modèles de couleurs et spécifier les propriétés liées à l’impression de votre sortie PDF.
 
 * **Repères d’impression** : lorsque vous préparez un document pour l’impression, des repères d’impression sont ajoutés aux limites de la page pour faciliter l’alignement, le rognage et la sélection des couleurs lors de l’impression. En sélectionnant un repère d’imprimante, la limite de page est étendue pour accueillir le repère, qui est ajusté lors de l’impression. Vous pouvez choisir d’afficher les repères d’impression suivants dans votre sortie PDF :
-   * **Rogner les marques** : sélectionnez cette option pour placer une marque à chaque coin de la zone de rognage afin d’indiquer où le papier doit être rogné après l’impression.
-   * **Repères de fond perdu** : sélectionnez cette option pour placer un repère à chaque coin de la zone de fond perdu afin d’indiquer la zone de rognage de l’image étendue.
-   * **Marques d’enregistrement** : sélectionnez cette option pour placer une marque en dehors de la zone de recadrage afin d’aligner les différentes séparations dans un document en couleur.
-   * **Barres de couleurs** : sélectionnez cette option pour ajouter une bande de couleurs en dehors de la zone de rognage afin de conserver la cohérence des couleurs et d’ajuster la densité d’encre lors de l’impression.
+  * **Rogner les marques** : sélectionnez cette option pour placer une marque à chaque coin de la zone de rognage afin d’indiquer où le papier doit être rogné après l’impression.
+  * **Repères de fond perdu** : sélectionnez cette option pour placer un repère à chaque coin de la zone de fond perdu afin d’indiquer la zone de rognage de l’image étendue.
+  * **Marques d’enregistrement** : sélectionnez cette option pour placer une marque en dehors de la zone de recadrage afin d’aligner les différentes séparations dans un document en couleur.
+  * **Barres de couleurs** : sélectionnez cette option pour ajouter une bande de couleurs en dehors de la zone de rognage afin de conserver la cohérence des couleurs et d’ajuster la densité d’encre lors de l’impression.
 
   Définissez les dimensions des repères d’impression sélectionnés à l’aide des options **Largeur de ligne**, **Couleur de ligne** et **Largeur de zone de fond perdu**.
 

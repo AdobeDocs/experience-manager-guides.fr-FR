@@ -19,9 +19,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: fde5d8f842d835708f1ae052879bca8a86bf8187
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: '5053'
+source-wordcount: '5049'
 ht-degree: 0%
 ---
 # Composants d’un modèle PDF {#components-pdf-template}
@@ -61,6 +61,7 @@ Contenu (table des matières), index, page vierge, pages de garde, pages de gard
      <img src="assets/add-layout-2.png" alt="Boîte de dialogue Ajouter une disposition" width="250">
 
 1. Spécifiez un nom pour la nouvelle mise en page.
+
    >[!NOTE]
    >
    >Évitez d’utiliser des caractères spéciaux lors de l’attribution d’un nom à une mise en page. Un espace dans le nom est remplacé par un trait de soulignement « _ ».
@@ -196,6 +197,7 @@ Pour ajouter un fichier de ressource au dossier Ressources , procédez comme sui
    <img src="assets/resources-import-assets.png" alt="Chargement de ressources" width="300">
 
    Le chemin d’accès où le fichier de ressource sera chargé s’affiche dans le champ **Sélectionner le dossier de ressources**.
+
    >[!NOTE]
    >
    >Vous ne pouvez pas modifier le chemin d’accès pour charger des ressources. Par défaut, toutes les ressources sont stockées sous le dossier `/content/dam/dita-templates/pdf/<PDF-template-name>` .
@@ -339,8 +341,6 @@ Pour plus d’informations sur les mises en page, voir [Création d’une mise e
 
 Vous pouvez afficher ou masquer les sections suivantes dans votre PDF et organiser l’ordre dans lequel elles doivent apparaître dans votre sortie PDF finale :
 
-
-
 * Table des matières
 * Chapitres et sujets
 * Liste des figures
@@ -349,18 +349,16 @@ Vous pouvez afficher ou masquer les sections suivantes dans votre PDF et organis
 * Glossaire
 * Citation
 
-  <img src="assets/page-order-advance-settings.png" alt="Ordre de mise en page" width="550">
+<img src="assets/page-order-advance-settings.png" alt="Ordre de mise en page" width="550">
 
-  Si vous ne souhaitez pas afficher une section particulière dans votre sortie PDF, vous pouvez la masquer en désactivant le bouton bascule.
+Si vous ne souhaitez pas afficher une section particulière dans votre sortie PDF, vous pouvez la masquer en désactivant le bouton bascule.
 
-  Vous pouvez également définir l’ordre dans lequel ces différentes sections sont générées dans votre PDF. Pour modifier l’ordre par défaut de ces sections, sélectionnez les barres pointillées pour faire glisser et déposer les sections à l’emplacement souhaité.
+Vous pouvez également définir l’ordre dans lequel ces différentes sections sont générées dans votre PDF. Pour modifier l’ordre par défaut de ces sections, sélectionnez les barres pointillées pour faire glisser et déposer les sections à l’emplacement souhaité.
 
-  >[!NOTE]
-  >
-  > Les paramètres d&#39;ordre et d&#39;inclusion s&#39;appliquent uniquement à un plan DITA. Pour un bookmap, ces paramètres ne sont pas applicables. Les pages d’une carte des signets s’affichent dans l’ordre des sections de la carte des signets.
+>[!NOTE]
+>
+> Les paramètres d&#39;ordre et d&#39;inclusion s&#39;appliquent uniquement à un plan DITA. Pour un bookmap, ces paramètres ne sont pas applicables. Les pages d’une carte des signets s’affichent dans l’ordre des sections de la carte des signets.
 
-
-.
 La disposition **Chapitre et rubriques** est toujours activée par défaut. Vous ne pouvez pas activer/désactiver cette fonctionnalité.
 
 **Fusionner des pages**
@@ -479,6 +477,7 @@ Si vous laissez le champ de texte vide et que vous n’avez pas défini le texte
 * **Tableau** : `{captionText}`
 
 L’ordre de priorité des références croisées est le suivant :
+
 * Texte du lien ajouté dans les renvois
 * Format des références croisées défini dans le modèle PDF natif
 * Format de référence croisée par défaut
@@ -502,7 +501,6 @@ Par exemple, les captures d’écran ci-dessous montrent les références crois�
 *Référence croisée dans un paragraphe lorsqu’il est publié en langue anglaise.*
 
 <img src="./assets/german-output-corss-reference.png" alt="Sortie allemande d&apos;une référence croisée dans un pragrah&quot; width =&quot;800" border="2px">
-
 
 *Référence croisée dans un paragraphe lorsqu’il est publié en allemand.*
 

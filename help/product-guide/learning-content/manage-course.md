@@ -7,19 +7,22 @@ exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
 TQID: https://experienceleague.adobe.com/Ffg1tESMpsZU71BF5UcWu-bSBTekVGiv-dv24jD-tjA
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
+    internal-label: User
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 740
+source-wordcount: '740'
 ht-degree: 0%
-
 ---
-
 # Gérer votre cours
 
 Après avoir créé un cours, il s’ouvre dans le panneau du gestionnaire de cours. Vous pouvez verrouiller le cours et apporter toutes les modifications nécessaires au niveau du cours. Les sections suivantes expliquent les options disponibles pour la modification du cours.
@@ -50,11 +53,11 @@ Vous pouvez ajouter du contenu existant de votre référentiel de contenu à vot
 1. Sélectionnez le type de contenu de cours que vous souhaitez créer.
 1. Dans la boîte de dialogue **Sélectionner un fichier**, accédez à l’emplacement du contenu et sélectionnez le contenu d’apprentissage souhaité.
 
->[!NOTE]
->
-> Lorsque vous ajoutez une rubrique HTML à un mappage de groupes d’apprentissage, l’attribut `format="html"` est automatiquement ajouté au `topicref` correspondant dans le mappage. Cela permet de s’assurer que la rubrique est traitée et publiée correctement.
+   >[!NOTE]
+   >
+   > Lorsque vous ajoutez une rubrique HTML à un mappage de groupes d’apprentissage, l’attribut `format="html"` est automatiquement ajouté au `topicref` correspondant dans le mappage. Cela permet de s’assurer que la rubrique est traitée et publiée correctement.
 
-![](assets/add-existing-learning-content.png)
+   ![](assets/add-existing-learning-content.png)
 
 1. Choisissez **Sélectionner**.
 

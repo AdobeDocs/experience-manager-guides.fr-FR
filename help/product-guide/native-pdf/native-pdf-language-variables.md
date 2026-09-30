@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 0%
@@ -91,9 +91,9 @@ Vous pouvez également créer de nouvelles variables de langue. Par exemple, vou
 
 1. Sélectionnez **Ajouter une variable de langue** <img src="./assets/add-language-variable.svg" width="25"> d’ajouter une nouvelle variable de langue à la langue sélectionnée. L’ajout d’une variable à une langue l’ajoute automatiquement à toutes les langues. Vous ne pouvez pas créer de variable portant le même nom qu’une variable existante. Une erreur s’affiche.
 
->[!NOTE]
->
-> Si vous ne sélectionnez pas **Ajouter une variable de langue**, la variable n’est pas créée et ajoutée à la liste
+   >[!NOTE]
+   >
+   > Si vous ne sélectionnez pas **Ajouter une variable de langue**, la variable n’est pas créée et ajoutée à la liste
 
 ## Exporter et importer des variables de langue
 

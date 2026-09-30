@@ -1,5 +1,5 @@
 ---
-title: Feuille de route des versions d’Adobe Experience Manager Guides 2024
+title: Feuille de route des versions d’Adobe Experience Manager Guides
 description: Obtenez des informations sur les versions actives et à venir d’Adobe Experience Manager Guides On-Prem et d’Adobe Experience Manager Guides as a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
@@ -18,14 +18,14 @@ role_v2:
     internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
+source-git-commit: 8614b2ad9ae0bc762745a4b558c1565ee4c7ca1a
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '938'
 ht-degree: 39%
 ---
 # Informations sur les versions d’[!DNL Experience Manager Guides] {#aem-guides-releases-roadmap}
 
-[!DNL Adobe Experience Manager Guides] offre en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs pour les utilisateurs et utilisatrices qui utilisent les offres [!DNL Cloud Service] et on-premise (ou Managed Services) du produit. Cet article répertorie les versions à venir d’[!DNL Experience Manager Guides].
+[!DNL Adobe Experience Manager Guides] offre en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs pour les utilisateurs et utilisatrices qui utilisent les offres [!DNL Cloud Service] et On-premise (ou Managed Services) du produit. Cet article répertorie les versions à venir d’[!DNL Experience Manager Guides].
 
 >[!NOTE]
 >
