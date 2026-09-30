@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 863a9c706ce3aa62aaa24bef7242019e1886f255
+source-git-commit: ce193b31d44d3a67bb18d1db5531c23cb81c4803
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '459'
 ht-degree: 6%
 ---
 # Documentation de Experience Manager Guides
@@ -214,6 +214,63 @@ Version [!BADGE 2026.09.0]{type=Informative}
 La version 2026.09.0 d’Adobe Experience Manager Guides introduit le balisage intelligent optimisé par l’IA dans l’assistant d’IA, ainsi que des améliorations en matière de création, de gestion de contenu, de publication et d’expérience utilisateur globale.
 
 [Découvrir les nouveautés](./release-info/whats-new-2026-09-0.md)
+
+## Liens rapides
+
+>[!BEGINSHADEBOX]
+
+<table>
+<tr style="border: 0;">
+<td>
+
+![Nouveautés](../assets/whats-new-git-connector.svg)
+
+**Nouveautés d’AEM Guides**
+
+Découvrez les nouvelles fonctionnalités améliorées introduites dans la dernière version de Experience Manager Guides.
+
+- Balisage intelligent optimisé par l’IA dans l’assistant d’IA
+- Marquer la rubrique comme terminée dans une tâche de révision
+- Améliorations du contenu d’apprentissage
+
+[Tout explorer](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+
+</td>
+<td>
+
+![Notes de mise à jour](../assets/whats-new-map-collection.svg)
+
+**Notes de mise à jour**
+
+Découvrez les dernières notes de mise à jour et mises à jour de produits pour les déploiements dans le cloud et On-Premise.
+
+- Versions cloud | [Afficher les notes de mise à jour](./release-info/latest-release-info-cs.md)
+- Versions On-Premise | [Afficher les notes de mise à jour](./release-info/latest-release-info.md)
+
+[Afficher la feuille de route de la version](./release-info/aem-guides-releases-roadmap.md)
+
+</td>
+<td>
+
+![Formation et assistance](../assets/whats-new-delegate-review.svg)
+
+**Formation et assistance**
+
+Accédez à des ressources, de la documentation et du support utiles pour tirer le meilleur parti de la plateforme.
+
+* [Référentiel GitHub](https://github.com/AdobeDocs/experience-manager-guides.fr-FR){target="_blank"}
+* [Assistance](https://experienceleague.adobe.com/support/v2/en/?lang=fr){target="_blank"}
+* [Tutoriels vidéo](https://experienceleague.adobe.com/fr/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+
+[Interaction sur la communauté](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=fr)
+
+</td>
+</tr>
+</table>
+
+>[!ENDSHADEBOX]
+
+
 
 
 ## Ressources supplémentaires
