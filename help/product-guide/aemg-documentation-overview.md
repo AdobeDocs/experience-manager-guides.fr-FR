@@ -254,11 +254,11 @@ Découvrez les dernières notes de mise à jour et mises à jour de produits pou
 
 Accédez à des ressources, de la documentation et du support utiles pour tirer le meilleur parti de la plateforme.
 
-* [Référentiel GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
-* [Assistance](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
-* [Tutoriels vidéo](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [Référentiel GitHub](https://github.com/AdobeDocs/experience-manager-guides.fr-FR){target="_blank"}
+* [Assistance](https://experienceleague.adobe.com/support/v2/en/?lang=fr){target="_blank"}
+* [Tutoriels vidéo](https://experienceleague.adobe.com/fr/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
 
-[Interaction sur la communauté](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11)
+[Interaction sur la communauté](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=fr)
 
 </td>
 </tr>
@@ -273,7 +273,7 @@ Accédez à des ressources, de la documentation et du support utiles pour tirer 
 
 * [Notes de mise à jour de Cloud Service](./release-info/latest-release-info-cs.md)
 * [Notes de mise à jour d’On-Premise](./release-info/latest-release-info.md)
-* [Communauté AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
-* [Référentiel GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
-* [Assistance](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
-* [Tutoriels vidéo](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [Communauté AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=fr){target="_blank"}
+* [Référentiel GitHub](https://github.com/AdobeDocs/experience-manager-guides.fr-FR){target="_blank"}
+* [Assistance](https://experienceleague.adobe.com/support/v2/en/?lang=fr){target="_blank"}
+* [Tutoriels vidéo](https://experienceleague.adobe.com/fr/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
