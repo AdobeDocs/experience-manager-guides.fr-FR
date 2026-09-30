@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 82b02a0c27b9caeedc59f6508c5a36821ab1666e
+source-git-commit: ce193b31d44d3a67bb18d1db5531c23cb81c4803
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 7%
+source-wordcount: '459'
+ht-degree: 6%
 ---
 # Documentation de Experience Manager Guides
 
@@ -54,7 +54,7 @@ Experience Manager Guides est un système de gestion de contenu d’entreprise a
 
 ::::landing-cards-container
 :::card
-![&#x200B; Icône Administrateurs &#x200B;](../assets/admin.png)
+![ Icône Administrateurs ](../assets/admin.png)
 
 Administrateurs
 
@@ -64,7 +64,7 @@ Configurez les profils de dossier, les autorisations, les paramètres de workflo
 :::
 
 :::card
-![&#x200B; Icône Auteurs &#x200B;](../assets/author.png)
+![ Icône Auteurs ](../assets/author.png)
 
 Auteurs
 
@@ -126,7 +126,7 @@ Consultez les rubriques, gérez les tâches et les notifications de révision.
 :::
 
 :::card
-![&#x200B; Icône de publication &#x200B;](../assets/publishing.png)
+![ Icône de publication ](../assets/publishing.png)
 
 Publication
 
@@ -136,7 +136,7 @@ Types de sortie PDF, AEM Sites, HTML5, EPUB et JSON.
 :::
 
 :::card
-![&#x200B; Icône de traduction &#x200B;](../assets/translation.png)
+![ Icône de traduction ](../assets/translation.png)
 
 Traduction
 
@@ -177,7 +177,7 @@ Profils de dossier, personnalisation DITA-OT et modèles de sortie.
 <tr style="border: 0;">
 <td>
 
-![&#x200B; Connecteur Git &#x200B;](../assets/whats-new-git-connector.svg)
+![ Connecteur Git ](../assets/whats-new-git-connector.svg)
 
 **[Importer du contenu à l’aide du connecteur Git](./user-guide/web-editor-git-connector.md)**
 
@@ -227,9 +227,13 @@ La version 2026.09.0 d’Adobe Experience Manager Guides introduit le balisage i
 
 **Nouveautés d’AEM Guides**
 
-Découvrez les nouveautés de la dernière version de Experience Manager Guides.
+Découvrez les nouvelles fonctionnalités améliorées introduites dans la dernière version de Experience Manager Guides.
 
-[En savoir plus](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+- Balisage intelligent optimisé par l’IA dans l’assistant d’IA
+- Marquer la rubrique comme terminée dans une tâche de révision
+- Améliorations du contenu d’apprentissage
+
+[Tout explorer](../../help/product-guide/release-info/whats-new-2026-09-0.md)
 
 </td>
 <td>
@@ -240,8 +244,8 @@ Découvrez les nouveautés de la dernière version de Experience Manager Guides.
 
 Découvrez les dernières notes de mise à jour et mises à jour de produits pour les déploiements dans le cloud et On-Premise.
 
-- Versions d’AEM Guides Cloud | [Afficher les notes de mise à jour](./release-info/latest-release-info-cs.md)
-- Versions d’AEM Guides On-Premise | [Afficher les notes de mise à jour](./release-info/latest-release-info.md)
+- Versions cloud | [Afficher les notes de mise à jour](./release-info/latest-release-info-cs.md)
+- Versions On-Premise | [Afficher les notes de mise à jour](./release-info/latest-release-info.md)
 
 [Afficher la feuille de route de la version](./release-info/aem-guides-releases-roadmap.md)
 
@@ -254,11 +258,11 @@ Découvrez les dernières notes de mise à jour et mises à jour de produits pou
 
 Accédez à des ressources, de la documentation et du support utiles pour tirer le meilleur parti de la plateforme.
 
-* [Référentiel GitHub](https://github.com/AdobeDocs/experience-manager-guides.fr-FR){target="_blank"}
-* [Assistance](https://experienceleague.adobe.com/support/v2/en/?lang=fr){target="_blank"}
-* [Tutoriels vidéo](https://experienceleague.adobe.com/fr/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [Référentiel GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Assistance](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Tutoriels vidéo](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
 
-[Interaction sur la communauté](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=fr)
+[Interaction sur la communauté](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11)
 
 </td>
 </tr>
@@ -273,7 +277,7 @@ Accédez à des ressources, de la documentation et du support utiles pour tirer 
 
 * [Notes de mise à jour de Cloud Service](./release-info/latest-release-info-cs.md)
 * [Notes de mise à jour d’On-Premise](./release-info/latest-release-info.md)
-* [Communauté AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=fr){target="_blank"}
-* [Référentiel GitHub](https://github.com/AdobeDocs/experience-manager-guides.fr-FR){target="_blank"}
-* [Assistance](https://experienceleague.adobe.com/support/v2/en/?lang=fr){target="_blank"}
-* [Tutoriels vidéo](https://experienceleague.adobe.com/fr/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [Communauté AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [Référentiel GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Assistance](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Tutoriels vidéo](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
