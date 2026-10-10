@@ -1332,7 +1332,7 @@ Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000
 
 ## Procédure de réindexation de damAssetLucene
 
-La définition d’index est mise à jour pour damAssetLucene avec des guides. Consultez [cet article](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) pour réindexer damAssetLucene après la mise à niveau vers la version 5.0.0.
+La définition d’index est mise à jour pour damAssetLucene avec des guides. Consultez [cet article](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-16460) pour réindexer damAssetLucene après la mise à niveau vers la version 5.0.0.
 
 >[!NOTE]
 >
@@ -1342,7 +1342,7 @@ La définition d’index est mise à jour pour damAssetLucene avec des guides. C
 
 >[!IMPORTANT]
 >
-> Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, veillez à effectuer d’abord la mise à niveau d’AEM avant de poursuivre la mise à niveau vers Experience Manager Guides 5.1.0. Pour plus d’informations, consultez la section [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, veillez à effectuer d’abord la mise à niveau d’AEM avant de poursuivre la mise à niveau vers Experience Manager Guides 5.1.0. Pour plus d’informations, consultez la section [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/fr/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 **Conditions préalables**
 
@@ -1499,7 +1499,7 @@ Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000
 
 ## Procédure de réindexation de damAssetLucene
 
-La définition d’index est mise à jour pour damAssetLucene avec des guides. Consultez [cet article](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) pour réindexer damAssetLucene après la mise à niveau vers la version 5.1.0.
+La définition d’index est mise à jour pour damAssetLucene avec des guides. Consultez [cet article](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-16460) pour réindexer damAssetLucene après la mise à niveau vers la version 5.1.0.
 
 >[!NOTE]
 >
