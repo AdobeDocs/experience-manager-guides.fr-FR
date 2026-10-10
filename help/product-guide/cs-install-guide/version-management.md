@@ -5,21 +5,31 @@ exl-id: f7638cb3-faca-4170-9a8c-f6362e174c18
 feature: Version Management
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/3QZCUFBs7RU75KkryDjfbVkckn0owPCd7auGX3uLv9Y
+TQID: 'https://experienceleague.adobe.com/3QZCUFBs7RU75KkryDjfbVkckn0owPCd7auGX3uLv9Y'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: b88be3fe-792c-484d-8262-9f667de75c8d
+    internal-label: Version management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1518
+source-wordcount: '1518'
 ht-degree: 0%
-
 ---
-
 # Gestion des versions {#id181GB000XY4}
 
 Le contrôle de version est un aspect important de tout système de gestion de contenu. Il vous permet de créer un instantané de votre ressource numérique à un moment donné. Une fois une version de ressource numérique en place, vous pouvez restaurer la version requise de la ressource et la mettre à jour. En règle générale, pour créer une version d’une ressource, vous devez extraire et archiver la ressource requise.
@@ -150,7 +160,7 @@ Pour purger les anciennes versions, procédez comme suit :
 
    ![](assets/preview-purge-report.png)
 
-1. &#x200B;
+1. 
    - **Nombre de versions à conserver à partir de la dernière version** : saisissez le nombre de versions à conserver et à ne pas purger. Par exemple, si nous entrons 5 , les 5 dernières versions sont conservées, et les versions antérieures sont qualifiées pour être purgées si d’autres conditions de purge sont remplies.
 - **Conserver les versions créées dans la période \(En jours\)** : saisissez l’âge maximal d’une version en jours. Les versions antérieures au nombre de jours donné peuvent être purgées si d’autres conditions de purge sont remplies. Par exemple, si nous entrons 100, toutes les versions créées avant 100 jours peuvent être purgées si d’autres conditions de purge sont remplies.
 - **Chemin d’accès** : sélectionnez le chemin d’accès du fichier ou du dossier dont vous souhaitez purger les fichiers.

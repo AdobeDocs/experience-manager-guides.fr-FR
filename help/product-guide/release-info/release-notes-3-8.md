@@ -1,13 +1,19 @@
 ---
 title: Notes de mise à jour d’Adobe Experience Manager Guides 3.8 et 3.8.5
 description: Nouvelles fonctionnalités et améliorations majeures des versions 3.8 et 3.8.5 d’Adobe Experience Manager Guides (anciennement appelée solution XML Documentation).
-source-git-commit: ff3d35832b80f6221f1261498934ab74261b282b
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1589'
 ht-degree: 0%
-
 ---
-
 
 # Notes de mise à jour | Adobe Experience Manager Guides 3.8
 
@@ -66,14 +72,14 @@ Un certain nombre de nouvelles fonctionnalités et améliorations ont été intr
   ![Indice de version](assets/old-version-icon.avif)
 
 - Une nouvelle fonctionnalité Historique des versions a été introduite dans cette version. Utilisez la fonction Historique des versions pour :
-   - Affichez la liste de toutes les versions de la rubrique active, ainsi que les libellés ajoutés pour chaque version.
-   - Revenir à une version précédente de la rubrique.
+  - Affichez la liste de toutes les versions de la rubrique active, ainsi que les libellés ajoutés pour chaque version.
+  - Revenir à une version précédente de la rubrique.
 
   ![Historique des versions](assets/version-history.avif)
 
 - Une nouvelle fonctionnalité de gestion des libellés de version a été ajoutée. Elle vous permet d&#39;appliquer des libellés aux versions actuelles ou antérieures d&#39;une rubrique.
 
-  ![&#x200B; Gestion des libellés de version &#x200B;](assets/version-label-management.avif)
+  ![ Gestion des libellés de version ](assets/version-label-management.avif)
 
 - Ajout d’une nouvelle fonctionnalité : « Approuver pour publication » avec laquelle un auteur peut marquer une ressource comme approuvée et la verrouiller pour modification.
 - Lors du lancement d’un processus de révision, vous pouvez désormais filtrer les rubriques en fonction de leur état.
@@ -98,9 +104,9 @@ Un certain nombre de nouvelles fonctionnalités et améliorations ont été intr
 #### Publication
 
 - **Autoriser la configuration des règles d&#39;assainissement pour les pages de site générées** : en tant qu&#39;administrateur, vous pouvez définir les règles d&#39;assainissement pour les noms de fichier des sorties AEM Site ou DITA-OT générées. Chaque fois que vous générez une sortie de site AEM à l’aide de DITA-OT, vous pouvez configurer les règles suivantes pour nettoyer les URL ou les noms de fichier générés par la sortie :
-   - Convertissez tous les caractères en minuscules.
-   - Remplacez les caractères spéciaux par un séparateur.
-   - Limitez un nom de fichier long à un nombre prédéfini de caractères.
+  - Convertissez tous les caractères en minuscules.
+  - Remplacez les caractères spéciaux par un séparateur.
+  - Limitez un nom de fichier long à un nombre prédéfini de caractères.
 
 - Transmettez facilement la sortie de votre instance d’auteur à l’instance de publication à l’aide du tableau de bord d’activation en bloc. Vous pouvez utiliser un mappage unique ou une collection de mappages et choisir le paramètre prédéfini de sortie à utiliser pour la publication.
 

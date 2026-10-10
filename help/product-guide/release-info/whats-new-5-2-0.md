@@ -2,13 +2,19 @@
 title: Notes de mise à jour | Nouveautés de la version 5.2.0 d’Adobe Experience Manager Guides
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 5.2.0 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '4052'
+source-wordcount: '4152'
 ht-degree: 0%
-
 ---
-
 # Nouveautés de la version 5.2.0 (mai 2026)
 
 Cet article présente les nouvelles fonctionnalités améliorées introduites dans la version 5.2.0 d’Adobe Experience Manager Guides as a Cloud Service.
@@ -242,7 +248,7 @@ Le filtre **Verrouillé par** sous Filtres avancés dans le référentiel et le 
 
 Désormais, vous pouvez rechercher des citations dans tous les champs du Journal, par exemple *Titre*, *Titre du Journal*, *Auteur*, *Année*, *Volume*, *Number* et *Pages*, à l’aide de l’option **Any field** dans la boîte de dialogue **Ajouter une citation**. La recherche renvoie la citation correspondante la plus proche en fonction du texte saisi.
 
-Pour plus d’informations sur l’ajout de citations dans Experience Manager Guides, consultez la section [&#x200B; Ajouter et gérer des citations dans votre contenu &#x200B;](../user-guide/web-editor-apply-citations.md).
+Pour plus d’informations sur l’ajout de citations dans Experience Manager Guides, consultez la section [ Ajouter et gérer des citations dans votre contenu ](../user-guide/web-editor-apply-citations.md).
 
 ![](assets/add-citations.png){width="350"}
 

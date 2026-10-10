@@ -5,22 +5,33 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 67f7ff26-fbc7-426c-aa7d-9bf4debf05d8
-TQID: https://experienceleague.adobe.com/fj9JDKmklfdc-3UHShHD3PqynCcnnH5cK8lQNqCLD2c
+TQID: 'https://experienceleague.adobe.com/fj9JDKmklfdc-3UHShHD3PqynCcnnH5cK8lQNqCLD2c'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6d10f55ace72536266723331313c73ce33cddcf1
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 698
+source-wordcount: '698'
 ht-degree: 1%
-
 ---
-
 # Télécharger et installer des modèles AEM Sites (Cloud Services)
 
 Ce guide fournit des instructions détaillées pour installer et configurer le dernier modèle AEM Guides pour générer des pages AEM Sites dans un environnement cloud. Pour installer les packages requis, créer et configurer des paramètres prédéfinis et générer AEM Sites, procédez comme suit.
@@ -33,14 +44,14 @@ Avant de poursuivre la configuration, assurez-vous que les conditions préalable
 
 - **Autorisations requises** : vous devez disposer des autorisations suivantes :
 
-   - Accès à **&#x200B;**&#x200B;pour déployer des packages.
-   - Accès au **référentiel Git** associé à votre environnement.
-   - Les autorisations de création et de modification des paramètres prédéfinis dans AEM Guides.
+  - Accès à **** pour déployer des packages.
+  - Accès au **référentiel Git** associé à votre environnement.
+  - Les autorisations de création et de modification des paramètres prédéfinis dans AEM Guides.
 
 - **Télécharger les packages** : téléchargez les packages suivants à partir du portail de distribution logicielle :
 
-   - Package de composants : guides-components.all-1.x.0.zip
-   - Modèle Sites : aemg-docs-1.x.0.zip
+  - Package de composants : guides-components.all-1.x.0.zip
+  - Modèle Sites : aemg-docs-1.x.0.zip
 
 ## Installation du package via le déploiement dans le cloud
 
@@ -94,7 +105,7 @@ Installez le **Package de composants (guides-components.all-1.x.x.zip)** puis ef
 1. **Créer un nouveau paramètre prédéfini :**
    1. Ouvrez un plan DITA dans AEM Guides et accédez au panneau **Sortie**.
    2. Sélectionnez **Créer un paramètre prédéfini**.
-   3. Sélectionnez le type comme **&#x200B;**.
+   3. Sélectionnez le type comme ****.
    4. Saisissez le nom du paramètre prédéfini.
    5. Décochez le paramètre **Utiliser le mappage des composants hérités**.
 
@@ -127,7 +138,7 @@ Installez le **Package de composants (guides-components.all-1.x.x.zip)** puis ef
    1. Une fois le paramètre prédéfini configuré, générez le site AEM pour le plan DITA correspondant.
    2. Le site généré sera disponible au chemin d’accès suivant : `/content/AEMG-Docs-Site/en/docs/product`.
 2. **Modifier le chemin de génération par défaut (facultatif) :** si vous souhaitez modifier le chemin par défaut pour la génération du site, procédez comme suit :
-   1. Accédez à **&#x200B;**.
+   1. Accédez à ****.
    2. Créez une page produit sous la structure de site prête à l’emploi.
    3. Accédez à **Documents AEMG** > **Français** > **Documents**.
 
@@ -142,4 +153,4 @@ Installez le **Package de composants (guides-components.all-1.x.x.zip)** puis ef
 
 >[!NOTE]
 >
-> Assurez-vous que toutes les configurations sont testées dans un environnement hors production avant le déploiement en production. <br><br> Reportez-vous à la documentation officielle [Déploiement sur AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/deploying/overview) pour plus d’informations.
+> Assurez-vous que toutes les configurations sont testées dans un environnement hors production avant le déploiement en production. <br><br> Reportez-vous à la documentation officielle [Déploiement sur AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview) pour plus d’informations.

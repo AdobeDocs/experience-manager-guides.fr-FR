@@ -4,7 +4,7 @@ description: Découvrez le panneau de gauche dans l’éditeur. Découvrez l’i
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-TQID: https://experienceleague.adobe.com/GbsiDGw2pByOZ-AfWM2yH46QYWm95Z4ShDSvqyedViU
+TQID: 'https://experienceleague.adobe.com/GbsiDGw2pByOZ-AfWM2yH46QYWm95Z4ShDSvqyedViU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -17,6 +17,8 @@ feature_v2:
     internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -36,7 +38,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 06a24bcf5a4dc05ba20846e9d745ea6f36ee8183
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '11296'
 ht-degree: 0%
@@ -77,9 +79,9 @@ Certaines des fonctionnalités du panneau de gauche sont disponibles dans la sec
 - [Révision](#review)
 
 
-Une option supplémentaire intitulée **&#x200B;**&#x200B;s’affiche également dans le panneau de gauche si Adobe Workfront est configuré.
+Une option supplémentaire intitulée **** s’affiche également dans le panneau de gauche si Adobe Workfront est configuré.
 
-Pour plus d’informations, consultez Intégration de [&#128279;](./workfront-integration.md).
+Pour plus d’informations, consultez Intégration de [](./workfront-integration.md).
 
 >[!NOTE]
 >
@@ -214,7 +216,7 @@ Sélectionnez l’icône **Filtrage avancé** ![icône de filtre avancé](images
 
 Vous pouvez afficher les options suivantes sous les onglets **Général** et **Avancé**.
 
-![&#x200B; boîte de dialogue filtre avancé &#x200B;](images/repository-filter-search-advanced.png) {width="650"}
+![ boîte de dialogue filtre avancé ](images/repository-filter-search-advanced.png) {width="650"}
 
 
 **Général**
@@ -1069,7 +1071,7 @@ Vous pouvez également appliquer des valeurs à un attribut en sélectionnant pl
 >[!ENDTABS]
 
 
-Vue Source **&#x200B;**
+Vue Source ****
 
 Vous pouvez également modifier les valeurs à partir de la liste déroulante de l’attribut dans la vue Source. La vue Source vous empêche également d’ajouter une valeur incorrecte.
 
@@ -1157,7 +1159,7 @@ Pour savoir comment créer des modèles personnalisés, consultez la section [Cr
 
 Dans Experience Manager Guides, vous pouvez ajouter et importer des citations et les appliquer à votre contenu. Vous pouvez ajouter ces citations à partir de n’importe quelle source de livres, de sites web et de revues.
 
-Pour plus d’informations, consultez la section [&#x200B; Ajouter et gérer des citations dans votre contenu &#x200B;](./web-editor-apply-citations.md).
+Pour plus d’informations, consultez la section [ Ajouter et gérer des citations dans votre contenu ](./web-editor-apply-citations.md).
 
 ## Variables de langue
 
@@ -1350,7 +1352,7 @@ Vous pouvez également utiliser l&#39;option **Rechercher dans la carte** du men
 
 ## Modèles PDF
 
-Permet d’utiliser divers modèles PDF. Pour plus de détails, consultez [les modèles &#x200B;](../native-pdf/pdf-template.md).
+Permet d’utiliser divers modèles PDF. Pour plus de détails, consultez [les modèles ](../native-pdf/pdf-template.md).
 
 ## Révision
 
@@ -1411,4 +1413,4 @@ Pour afficher les commentaires de révision dans les tâches de révision active
 
 </details>
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

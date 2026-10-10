@@ -4,7 +4,7 @@ description: Créez et gérez des lignes de base à partir de la console de mapp
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-TQID: https://experienceleague.adobe.com/SSfVuVDBo6RbMZM15CoDlR2zltDGj78D6SYCyyJta2g
+TQID: 'https://experienceleague.adobe.com/SSfVuVDBo6RbMZM15CoDlR2zltDGj78D6SYCyyJta2g'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -17,6 +17,10 @@ feature_v2:
     internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -26,10 +30,12 @@ subfeature_v2:
     internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
     internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5d63f33b8644b9adad67fd6badf4760aacbff063
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1929'
 ht-degree: 0%
@@ -159,12 +165,12 @@ Vous pouvez dupliquer une ligne de base et la modifier en fonction de vos besoin
    Dans **Sélectionner la version en fonction de**, vous pouvez choisir l’option **Copie exacte** ou l’option **Libellé** :
 
    - **Copie exacte** : Experience Manager Guides sélectionne la même version de toutes les rubriques et crée une copie exacte de la ligne de base dupliquée.
-   - **Libellé** : dans la liste déroulante, vous pouvez choisir l’un des [&#x200B; libellés répertoriés](#labels-list). Experience Manager Guides sélectionne les versions des rubriques pour lesquelles le libellé sélectionné est défini, tandis que pour les autres rubriques, il sélectionne la version à partir de la ligne de base dupliquée. Par exemple, vous sélectionnez le libellé `Release 1.0` dans la liste déroulante, puis le service sélectionne les versions des rubriques pour lesquelles vous avez défini ce libellé. Pour toutes les autres rubriques, il sélectionne la version de la ligne de base dupliquée.
+   - **Libellé** : dans la liste déroulante, vous pouvez choisir l’un des [ libellés répertoriés](#labels-list). Experience Manager Guides sélectionne les versions des rubriques pour lesquelles le libellé sélectionné est défini, tandis que pour les autres rubriques, il sélectionne la version à partir de la ligne de base dupliquée. Par exemple, vous sélectionnez le libellé `Release 1.0` dans la liste déroulante, puis le service sélectionne les versions des rubriques pour lesquelles vous avez défini ce libellé. Pour toutes les autres rubriques, il sélectionne la version de la ligne de base dupliquée.
 
 1. Sélectionnez **Dupliquer**.
 
 - **Renommer** ou **Supprimer** une ligne de base existante**.
-- **Gérer les libellés** qui vous permet d’ajouter, de supprimer ou de modifier des libellés existants pour les lignes de base statiques. Si votre administrateur a configuré des libellés prédéfinis, ces libellés s’affichent dans la liste déroulante Ajouter un libellé . Pour plus d’informations sur l’ajout de libellés, voir [&#x200B; Utiliser des libellés &#x200B;](web-editor-use-label.md#).
+- **Gérer les libellés** qui vous permet d’ajouter, de supprimer ou de modifier des libellés existants pour les lignes de base statiques. Si votre administrateur a configuré des libellés prédéfinis, ces libellés s’affichent dans la liste déroulante Ajouter un libellé . Pour plus d’informations sur l’ajout de libellés, voir [ Utiliser des libellés ](web-editor-use-label.md#).
 
   >[!NOTE]
   >
@@ -199,5 +205,5 @@ Les libellés répertoriés dans la liste déroulante sont basés sur les critè
 
 Une fois la ligne de base modifiée, sélectionnez **Enregistrer** pour enregistrer les modifications. Vous pouvez sélectionner **Réinitialiser** si vous ne souhaitez pas enregistrer la modification et réinitialiser la ligne de base. Lorsque vous sélectionnez **Réinitialiser**, un avertissement s’affiche indiquant que les modifications non enregistrées seraient perdues.
 
-**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)
+**Rubrique parente :**[ Génération de sortie](generate-output.md)
 

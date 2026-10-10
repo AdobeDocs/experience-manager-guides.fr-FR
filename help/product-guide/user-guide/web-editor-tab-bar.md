@@ -4,7 +4,7 @@ description: Découvrez la barre d’onglets dans l’éditeur. Découvrez l’i
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
-TQID: https://experienceleague.adobe.com/sqNExkYi3iIqIxC7mdlhWw-59-LcAXCOU8w7GD63d8Q
+TQID: 'https://experienceleague.adobe.com/sqNExkYi3iIqIxC7mdlhWw-59-LcAXCOU8w7GD63d8Q'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -15,6 +15,8 @@ feature_v2:
     internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -23,7 +25,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -82,7 +84,7 @@ La fonctionnalité [Assistant AI](./ai-assistant.md) n’est actuellement dispon
 
 **Autres actions** : permet d’accéder à des options supplémentaires. Si vous sélectionnez ce bouton, un menu s’ouvre avec les options suivantes :
 
-- **&#x200B;**&#x200B;: vous dirige vers une destination en fonction de votre configuration.
+- **** : vous dirige vers une destination en fonction de votre configuration.
   - **Services cloud** : si vous utilisez des services cloud, la sélection de l’option **Assets** vous conduit à la page de navigation d’AEM.
 
   - **Logiciel On-premise** : si vous utilisez Adobe Experience Manager Guides (4.2.1 et versions ultérieures), la sélection de l’option **Assets** vous conduit au chemin d’accès actuel au fichier dans l’interface utilisateur d’Assets.
@@ -94,4 +96,4 @@ La fonctionnalité [Assistant AI](./ai-assistant.md) n’est actuellement dispon
 
 - **Paramètres de l’éditeur** : permet d’accéder à la boîte de dialogue Paramètres de l’éditeur dans laquelle vous pouvez personnaliser le comportement de l’éditeur au niveau de l’auteur individuel. Il vous permet de contrôler la visibilité et le comportement des balises, des commentaires et d’autres paramètres au niveau de l’éditeur lors de la création. Pour plus d’informations, consultez [Paramètres de l’éditeur](../user-guide/config-editor-settings.md).
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

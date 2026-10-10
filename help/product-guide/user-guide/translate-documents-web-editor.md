@@ -4,7 +4,7 @@ description: Traduisez votre contenu dans plusieurs langues à partir de l’éd
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-TQID: https://experienceleague.adobe.com/aSjUOzg8-jreMvbiuBZ5lRlbeikBHMHBLUww4L3-hZA
+TQID: 'https://experienceleague.adobe.com/aSjUOzg8-jreMvbiuBZ5lRlbeikBHMHBLUww4L3-hZA'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -17,6 +17,10 @@ feature_v2:
     internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: 626b0638-bd2d-504c-8ccd-53d63b856710
+    internal-label: Translation
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -33,7 +37,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 0db59f201b2418911634609b93ab7892477052c9
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2794'
 ht-degree: 0%
@@ -103,7 +107,7 @@ Avant d’effectuer les étapes de cette procédure, assurez-vous d’avoir cré
 
    **Aucun** sélectionnez cette option pour traduire les versions par défaut des fichiers. Cette option est sélectionnée par défaut.
 
-   **Utiliser la ligne de base :** vous pouvez sélectionner une ligne de base pour traduire votre projet. Sélectionnez **Utiliser la ligne de base** et choisissez une ligne de base créée sur la carte. Tous les fichiers faisant partie de la ligne de base sélectionnée sont affichés sur la page Traduction . Une fois votre contenu traduit, vous pouvez exporter la ligne de base traduite. Pour plus d&#39;informations sur l&#39;exportation de la ligne de base traduite, voir [&#x200B; Exporter la ligne de base traduite &#x200B;](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
+   **Utiliser la ligne de base :** vous pouvez sélectionner une ligne de base pour traduire votre projet. Sélectionnez **Utiliser la ligne de base** et choisissez une ligne de base créée sur la carte. Tous les fichiers faisant partie de la ligne de base sélectionnée sont affichés sur la page Traduction . Une fois votre contenu traduit, vous pouvez exporter la ligne de base traduite. Pour plus d&#39;informations sur l&#39;exportation de la ligne de base traduite, voir [ Exporter la ligne de base traduite ](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 
    **Utiliser la dernière version comme activée** : choisissez de filtrer la version des rubriques en fonction de leur date et heure de création. Lorsque vous sélectionnez une date et une heure, seules la dernière version des fichiers créés le ou avant la date et l’heure sélectionnées s’affichent.
 
@@ -284,4 +288,4 @@ Pour effectuer la gestion des documents, Experience Manager Guides permet de sup
 Vous pouvez également désactiver les projets de traduction si vous souhaitez les utiliser ultérieurement. La suppression d’un projet supprime tous les fichiers et dossiers présents dans le projet. La désactivation d’un projet ne le supprime pas, mais le conserve dans le référentiel. Cependant, vous ne pouvez pas mettre à jour ni modifier un projet désactivé.  La suppression ou la désactivation d’un projet n’aura aucune incidence sur le statut de traduction des références.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

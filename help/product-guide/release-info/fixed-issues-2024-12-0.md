@@ -2,13 +2,19 @@
 title: Notes de mise à jour | Correction de problèmes dans la version 2024.12.0 d’Adobe Experience Manager Guides
 description: Découvrez les correctifs de bugs de la version 2024.12.0 d’Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 04a57e1a-6e74-46f6-acde-5045d3dcacdc
-source-git-commit: dd404c42863f0b4a5f31b54f770c0bf296d68ab9
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 1%
-
+source-wordcount: '422'
+ht-degree: 3%
 ---
-
 # Correction de problèmes dans la version 2024.12.0
 
 Cet article couvre les bugs corrigés dans différentes zones de la version 2024.12.0 d’Adobe Experience Manager Guides as a Cloud Service.
@@ -20,12 +26,12 @@ Découvrez les [instructions de mise à niveau pour la version 2024.12.0](./upgr
 - La création d&#39;un plan DITA sur une instance UUID échoue lorsque le `xmleditor.uniquefilenames` est activé dans `XMLEditorConfig`. (21201)
 - Lors de la fermeture d’un fichier, les commentaires et les libellés ajoutés dans la boîte de dialogue **Enregistrer les modifications et déverrouiller le fichier** ne sont pas enregistrés dans l’historique des versions avec la nouvelle version. Ceci est spécifique à un cas d’utilisation où **Demander l’archivage à la fermeture** ou **Demander une nouvelle version à la fermeture** est activé dans `XMLEditorConfig`. (20065)
 - L’état du document marqué comme **Terminé** revient à **Brouillon** avant d’enregistrer une nouvelle version. L’état **Terminé** ne persiste dans aucune version du document. (20006)
-- Impossible d’ajouter un fichier de PDF en tant que référence d’image dans une rubrique de l’éditeur web. (21206)
-- La sélection d&#39;un fichier DITA dans l&#39;interface utilisateur d&#39;Assets affiche l&#39;option **Ouvrir dans le FrameMaker**, même lorsqu&#39;elle est désactivée dans la configuration. (20082)
+- Impossible d’ajouter un fichier PDF en tant que référence d’image dans une rubrique de l’éditeur web. (21206)
+- La sélection d&#39;un fichier DITA dans l&#39;interface utilisateur d&#39;Assets affiche l&#39;option **Ouvrir dans FrameMaker**, même si elle est désactivée dans la configuration. (20082)
 
 ## Publication
 
-- Dans la sortie du PDF natif, les titres des chapitres sont absents de la table des matières, ce qui entraîne une hiérarchie incorrecte. (21840)
+- Dans la sortie PDF native, les titres des chapitres sont absents de la table des matières, ce qui entraîne une hiérarchie incorrecte. (21840)
 
 
 ## Gestion
@@ -59,7 +65,7 @@ Cause : `org.apache.jackrabbit.oak.api.CommitFailedException` : `OakAccess0000` 
 
 **Solution de contournement** : pour résoudre ce problème, effectuez les étapes de contournement suivantes :
 
-1. Ajoutez un fichier repoinit . Si le fichier n’existe pas, créez-le en suivant les étapes [création d’un exemple de configuration repoinit](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854?profile.language=fr).
+1. Ajoutez un fichier repoinit . Si le fichier n’existe pas, créez-le en suivant les étapes [création d’un exemple de configuration repoinit](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854).
 2. Ajoutez la ligne suivante dans le fichier et déployez le code :
 
    ```

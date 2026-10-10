@@ -4,30 +4,43 @@ description: Découvrez les correctifs et comment effectuer la mise à niveau ve
 exl-id: df17ee33-9f50-4223-ab9f-a57a31097d22
 feature: Release Notes
 role: Leader
-TQID: https://experienceleague.adobe.com/LIY9wVDmvusGD-K-kyjK-lmzpyxJELj0mWzn9YoP0vw
+TQID: 'https://experienceleague.adobe.com/LIY9wVDmvusGD-K-kyjK-lmzpyxJELj0mWzn9YoP0vw'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+    internal-label: FrameMaker Publishing Server
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
+  - id: fc07eb3b-d7d7-4e9a-a558-c3099c2b6f7b
+    internal-label: Release notes
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1169
+source-wordcount: '1169'
 ht-degree: 3%
-
 ---
-
 # Version de juin 2023 d’Adobe Experience Manager Guides as a Cloud Service
 
 Cette note de mise à jour couvre les instructions de mise à niveau, la matrice de compatibilité et les problèmes résolus dans la version de juin 2023 d’Adobe Experience Manager Guides (plus tard appelée *AEM Guides as a Cloud Service*).
@@ -84,7 +97,7 @@ Effectuez les étapes suivantes pour post-traiter le contenu existant et utilise
 1. (Facultatif) S’il existe plus de 100 000 fichiers dita dans le système, mettez à jour le `queryLimitReads` sous `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` avec une valeur plus élevée (toute valeur supérieure au nombre de ressources présentes, par exemple 200 000), puis redéployez.
 
    - Suivez les instructions de la section *Remplacements de configuration* dans Installation et configuration d’Adobe Experience Manager Guides.
-as a Cloud Service, pour créer le fichier de configuration.
+     as a Cloud Service, pour créer le fichier de configuration.
    - Dans le fichier de configuration, fournissez les détails (propriété) suivants pour configurer l’option queryLimitReads :
 
      | PID | Clé de la propriété | Valeur de la propriété |
@@ -171,7 +184,7 @@ Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 - Native PDF | Xref imprime le contenu du titre de la rubrique href au lieu du libellé Xref. (11322)
 - PDF natif | Impossible d’enregistrer les paramètres du modèle PDF. (10751)
 - PDF natif | Le texte s’étend au-delà de la largeur de colonne lors de l’inclusion de plusieurs xréfs. (10876)
-- L’élément Native PDF | `<note>`&#x200B;`</note>` ne génère pas de titre d’étendue supplémentaire de son type. (10549)
+- L’élément Native PDF | `<note>``</note>` ne génère pas de titre d’étendue supplémentaire de son type. (10549)
 - PDF natif | Les métadonnées de langue ne peuvent pas être définies dans le PDF généré pour se conformer au WCAG 2.0. (12296)
 
 

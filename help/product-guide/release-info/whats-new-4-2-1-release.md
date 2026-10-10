@@ -4,24 +4,33 @@ description: Découvrez les fonctionnalités nouvelles et améliorées des versi
 exl-id: 441aa7ec-d88c-42cb-83f0-d0f6e58bfa41
 feature: What's New
 role: Leader
-TQID: https://experienceleague.adobe.com/k-n-2PgbaHCR7-9cpjaeK1vD3T2rA-TeuMxBI78dpIU
+TQID: 'https://experienceleague.adobe.com/k-n-2PgbaHCR7-9cpjaeK1vD3T2rA-TeuMxBI78dpIU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
+subfeature_v2:
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 672
+source-wordcount: '706'
 ht-degree: 0%
-
 ---
-
 # Nouveautés de la version 4.2.1 d’Adobe Experience Manager Guides (mai 2023)
 
 Cet article présente les nouvelles fonctionnalités améliorées de la version 4.2.1 d’Adobe Experience Manager Guides (plus tard appelée *AEM Guides*).
@@ -37,7 +46,7 @@ Vous pouvez désormais facilement accéder à la page de navigation d’AEM à p
 * Cliquez sur l’icône **Guides** (![](assets/aem-guides-icon.png) ) pour revenir à la page de navigation d’AEM.
 
 
-Pour plus d’informations, consultez la page Navigation dans AEM [&#128279;](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
+Pour plus d’informations, consultez la page Navigation dans AEM [](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
 
 ## Prise en charge avancée des métadonnées dans la publication PDF
 
@@ -80,7 +89,7 @@ AEM Guides vous permet désormais d’identifier rapidement les rubriques modifi
 
 <img src="assets/change-marker-toc.png" alt="Modifier le marqueur dans la table des matières " width="500">
 
-Pour plus d’informations, voir [&#x200B; Utilisation de styles de barres de modification personnalisées &#x200B;](../native-pdf/change-bar-style.md).
+Pour plus d’informations, voir [ Utilisation de styles de barres de modification personnalisées ](../native-pdf/change-bar-style.md).
 
 
 
@@ -88,7 +97,7 @@ Pour plus d’informations, voir [&#x200B; Utilisation de styles de barres de mo
 
 Vous pouvez maintenant mettre en forme le marqueur de page dans les notes de pied de page. Par exemple, vous pouvez ajouter des crochets ou modifier leur couleur. Ces styles permettent aux utilisateurs d’identifier facilement les marqueurs de page dans le document.
 
-Pour plus d’informations, voir [&#x200B; Utilisation de styles personnalisés dans les notes de bas de page &#x200B;](../native-pdf/footnote-number-style.md).
+Pour plus d’informations, voir [ Utilisation de styles personnalisés dans les notes de bas de page ](../native-pdf/footnote-number-style.md).
 
 ## Ouvrez et lisez des fichiers vidéo ou audio dans l’éditeur web.
 

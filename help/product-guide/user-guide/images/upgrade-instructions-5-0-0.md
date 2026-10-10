@@ -1,13 +1,19 @@
 ---
 title: Notes de mise à jour | Instructions de mise à niveau pour Adobe Experience Manager Guides version 5.0.0
 description: Découvrez la matrice de compatibilité et comment effectuer une mise à niveau vers la version 5.0.0 d’Adobe Experience Manager Guides.
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 6%
-
+source-wordcount: '410'
+ht-degree: 5%
 ---
-
 # Instructions de mise à niveau pour la version 5.0.0 (mars 2025)
 
 Cet article couvre les instructions de mise à niveau et la matrice de compatibilité pour la version 5.0.0 d’Adobe Experience Manager Guides.
@@ -62,7 +68,7 @@ Vous pouvez facilement mettre à niveau votre version actuelle de Guides vers la
 - Si vous utilisez la version 4.2, 4.2.1 (correctif 4.2.1.3), 4.1 ou 4.1.x, vous devez effectuer la mise à niveau vers la version 4.4 avant la mise à niveau vers la version 5.0.0.
 - Si vous utilisez la version 4.0, vous devez effectuer la mise à niveau vers la version 4.2 avant d’effectuer la mise à niveau vers la version 4.3.x.
 - Si vous utilisez la version 3.8.5, vous devez effectuer la mise à niveau vers la version 4.0 avant de passer à la version 4.2.
-- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html).
+- Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 >[!NOTE]
 >

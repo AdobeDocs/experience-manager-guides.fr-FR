@@ -5,13 +5,28 @@ feature: Search Configuration
 role: Admin
 level: Experienced
 exl-id: bfb98000-7496-4d00-80f8-53b1a7ab4016
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: c1a26c73-5f45-427a-a313-7cb7df2c304e
+    internal-label: Search configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1870'
 ht-degree: 2%
-
 ---
-
 # Configuration de la recherche de l’interface utilisateur d’AEM Assets {#id192SC800MY4}
 
 Par défaut, AEM ne reconnaît pas le contenu DITA. Par conséquent, il ne fournit aucun mécanisme pour rechercher du contenu DITA dans son référentiel. En outre, il n’existe aucune fonctionnalité prête à l’emploi pour rechercher du contenu en fonction de son UUID. AEM Guides vous permet d&#39;ajouter les fonctionnalités de recherche de contenu DITA et de recherche basée sur l&#39;UUID dans le référentiel AEM.
@@ -32,7 +47,7 @@ Pour ajouter un composant de recherche de contenu DITA à l&#39;interface utilis
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 
-1. Cliquez sur le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
+1. Cliquez sur le lien **** en haut et choisissez **Outils**.
 
 1. Sélectionnez **Général** dans la liste des outils, puis cliquez sur la mosaïque **Rechercher dans Forms**.
 
@@ -58,7 +73,7 @@ Pour ajouter un composant de recherche basé sur l’UUID à l’interface utili
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 
-1. Cliquez sur le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
+1. Cliquez sur le lien **** en haut et choisissez **Outils**.
 
 1. Sélectionnez **Général** dans la liste des outils, puis cliquez sur la mosaïque **Rechercher dans Forms**.
 
@@ -158,7 +173,7 @@ Les onglets suivants fournissent des instructions pour ajouter des éléments ou
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Utilisez le gestionnaire de packages pour télécharger le fichier /libs/fmdita/config/serializationconfig.xml.
 
@@ -217,7 +232,7 @@ Les onglets suivants fournissent des instructions pour activer l’option d’ex
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer l’option d’extraction des métadonnées :
 
@@ -243,7 +258,7 @@ Pour exécuter le workflow d’extraction des métadonnées, procédez comme sui
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 
-1. Cliquez sur le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
+1. Cliquez sur le lien **** en haut et choisissez **Outils**.
 
 1. Sélectionnez **Guides** dans la liste des outils, puis cliquez sur la mosaïque **Extraction des métadonnées DITA**.
 
@@ -269,7 +284,7 @@ Les onglets suivants fournissent des instructions pour exclure le dossier de tra
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 >[!NOTE]
 >

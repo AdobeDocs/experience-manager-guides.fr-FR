@@ -5,13 +5,28 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: bb70cca8-cfa5-455b-bc48-a8d26ec5326c
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
-
 ---
-
 # Configuration d’un connecteur de source de données pour Cloud Service
 
 AEM Guides fournit des connecteurs prêts à l’emploi pour les bases de données JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), Adobe Commerce et Elasticsearch. Vous pouvez également ajouter d’autres connecteurs en étendant les interfaces par défaut. La configuration suivante vous permet d’ajouter facilement les différentes sources de données. Une fois ajoutées, vous pouvez afficher les sources de données dans l’éditeur.
@@ -283,4 +298,4 @@ Par exemple, `/content/dam/jira.json`
 
 Vous pouvez enregistrer la configuration en utilisant l’API REST. Pour plus d’informations, consultez la section *API REST pour enregistrer un connecteur de source de données* dans la référence d’API pour Adobe Experience Manager Guides.
 
-Une fois que vous avez configuré la source de données, le connecteur est répertorié sous le panneau Sources de données dans l’éditeur. Vous pouvez ensuite vous connecter à la source de données et insérer un fragment de contenu dans vos rubriques. Pour plus d’informations, consultez la section [&#x200B; Insérer un fragment de contenu à partir de votre source de données &#x200B;](../user-guide/web-editor-content-snippet.md).
+Une fois que vous avez configuré la source de données, le connecteur est répertorié sous le panneau Sources de données dans l’éditeur. Vous pouvez ensuite vous connecter à la source de données et insérer un fragment de contenu dans vos rubriques. Pour plus d’informations, consultez la section [ Insérer un fragment de contenu à partir de votre source de données ](../user-guide/web-editor-content-snippet.md).

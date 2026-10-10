@@ -5,13 +5,25 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: e4afe8f8-6130-4c97-a3b8-f5963a79c534
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 0%
-
 ---
-
 # Migration de contenu non DITA {#id181AH0R02HT}
 
 Cette section vous guide tout au long du processus de migration pour migrer des documents non-DITA au format DITA. AEM Guides fournit une migration à partir des sources suivantes :
@@ -64,7 +76,7 @@ Les onglets suivants fournissent des instructions pour convertir vos documents W
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Effectuez les étapes suivantes pour convertir vos documents Word existants en document de type rubrique DITA :
 
@@ -306,7 +318,7 @@ Les onglets suivants fournissent des instructions pour convertir votre document 
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Pour convertir votre document XHTML existant en rubrique DITA, procédez comme suit :
 
@@ -425,7 +437,7 @@ Les onglets suivants fournissent des instructions pour migrer tout autre documen
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Pour convertir vos documents structurés existants au format DITA, procédez comme suit :
 
@@ -501,4 +513,4 @@ Le bloc `<config> </config>` vous permet de définir un ou plusieurs blocs de co
 
 >[!ENDTABS]
 
-**Rubrique parente :**&#x200B;[&#x200B; Migrer le contenu existant](migrate-content.md)
+**Rubrique parente :**[ Migrer le contenu existant](migrate-content.md)

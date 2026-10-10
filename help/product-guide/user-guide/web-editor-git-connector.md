@@ -3,28 +3,37 @@ title: Présentation du connecteur Git dans Experience Manager Guides
 description: Découvrez la fonction du connecteur Git dans Experience Manager Guides, ses fonctionnalités essentielles et la manière dont le contenu passe d’un référentiel Git à votre workflow AEM Guides.
 feature: Authoring, Features of Web Editor
 role: User
-TQID: https://experienceleague.adobe.com/DDAXW8cUFjvHUeJIbtL6FaHYSU7NW5fkzTai-7n90ms
+TQID: 'https://experienceleague.adobe.com/DDAXW8cUFjvHUeJIbtL6FaHYSU7NW5fkzTai-7n90ms'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: f8123b54fae2aa209efda73abb333e63cf722708
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1409
+source-wordcount: '1409'
 ht-degree: 0%
-
 ---
-
 # Importer du contenu à l’aide du connecteur Git
 
 >[!NOTE]
@@ -80,7 +89,7 @@ Les références suivantes affichent des temps de synchronisation complets (non 
 
 Une fois que votre administrateur a configuré le connecteur Git dans Experience Manager Guides, vous pouvez l’utiliser à partir de l’éditeur pour importer du contenu d’un référentiel Git.
 
-## Prérequis
+## Conditions préalables
 
 Avant de commencer à utiliser cette fonctionnalité, assurez-vous des points suivants :
 
@@ -153,7 +162,7 @@ Procédez comme suit pour résoudre les conflits de fusion et :
 
    ![](images/git-connector-resolve-conflicts.png)
 
-   Le volet de gauche (**&#x200B;**) affiche le contenu actuel du référentiel AEM, tandis que le volet de droite (**GIT**) affiche le contenu entrant en provenance du référentiel Git distant. Le volet central (**Result**) est initialement renseigné avec le contenu du référentiel AEM et sert d’éditeur de fusion, où les conflits sont résolus. Le résultat final fusionné est généré et affiché dans ce volet central.
+   Le volet de gauche (****) affiche le contenu actuel du référentiel AEM, tandis que le volet de droite (**GIT**) affiche le contenu entrant en provenance du référentiel Git distant. Le volet central (**Result**) est initialement renseigné avec le contenu du référentiel AEM et sert d’éditeur de fusion, où les conflits sont résolus. Le résultat final fusionné est généré et affiché dans ce volet central.
 
 1. Examinez les différences mises en surbrillance dans l’éditeur et résolvez les conflits à l’aide des commandes de fusion :
 

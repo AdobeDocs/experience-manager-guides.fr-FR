@@ -5,7 +5,24 @@ feature: Performance Optimization
 role: Admin
 level: Experienced
 exl-id: 0f289f7c-8300-427a-a4d9-9c2f31608240
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: baa3aa24-d162-4a57-b73a-d27341145083
+    internal-label: Performance optimization
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 0%
@@ -15,7 +32,7 @@ ht-degree: 0%
 ## Configuration du magasin de données \(Obligatoire\)
 
 **Quel est le changement ?**
-Définissez la propriété `minRecordLength` sur une valeur de `100` sous le `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` de configuration. Pour plus d’informations sur le magasin de dates de fichiers et le magasin de données S3, consultez l’article [Configuration des magasins de nœuds et de données dans AEM 6](https://helpx.adobe.com/fr/experience-manager/6-5/sites/deploying/using/data-store-config.html) .
+Définissez la propriété `minRecordLength` sur une valeur de `100` sous le `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` de configuration. Pour plus d’informations sur le magasin de dates de fichiers et le magasin de données S3, consultez l’article [Configuration des magasins de nœuds et de données dans AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html) .
 
 >[!NOTE]
 >
@@ -49,7 +66,7 @@ Les paramètres de démarrage de la JVM doivent être soigneusement réglés en 
 
 - Définissez la taille du tas JVM sur un minimum de 1/4 de la mémoire totale disponible. Utilisez le paramètre `-Xmx<size>` pour définir la taille de la mémoire de tas. Définissez la valeur de -`Xms` est égale à `-Xmx`.
 
-- Activez `-XX:+HeapDumpOnOutOfMemoryError` et définissez le chemin d’accès pour `-XX:HeapDumpPath=</path/to/folder`&#x200B;`>`.
+- Activez `-XX:+HeapDumpOnOutOfMemoryError` et définissez le chemin d’accès pour `-XX:HeapDumpPath=</path/to/folder``>`.
 
 - Activez le journal Java GC en tant que :
 

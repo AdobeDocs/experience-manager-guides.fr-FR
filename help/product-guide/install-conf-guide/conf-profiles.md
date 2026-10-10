@@ -5,13 +5,28 @@ feature: Profiles
 role: Admin
 level: Experienced
 exl-id: 0292a9cd-0f94-4039-8758-1740106feb71
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '6082'
 ht-degree: 0%
-
 ---
-
 # Configuration de profils globaux ou au niveau du dossier {#id181AH2003PF}
 
 Au sein d’une entreprise, différents groupes ou produits peuvent utiliser différents modèles de création, modèles de sortie, profils d’attributs conditionnels \(ou schémas d’objet\) et configurations d’éditeur. Leur configuration uniquement au niveau de l’entreprise \(ou global\) peut rendre l’expérience difficile pour les auteurs, car ils verront des modèles ou des profils qui ne les concernent pas.
@@ -30,21 +45,21 @@ Vous pouvez également déléguer les configurations spécifiques aux dossiers �
 
 - **Modèles** : utilisez cet onglet pour configurer les modèles que vos auteurs utiliseront pour créer ou publier du contenu DITA. Les modèles de rubrique suivants sont disponibles prêts à l’emploi :
 
-   - Glossaire
+  - Glossaire
 
-   - Référence
+  - Référence
 
-   - Thème
+  - Thème
 
-   - Concept
+  - Concept
 
-   - Tâche
+  - Tâche
 
-   - Résolution des problèmes
+  - Résolution des problèmes
 
-   - Vide
+  - Vide
 
-   - DITAVAL
+  - DITAVAL
 
   >[!NOTE]
   >
@@ -52,33 +67,33 @@ Vous pouvez également déléguer les configurations spécifiques aux dossiers �
 
   Outre les modèles de rubrique, vous pouvez également définir les modèles de carte qui seront mis à la disposition des auteurs. Les modèles de carte suivants sont disponibles prêts à l’emploi :
 
-   - Map
+  - Map
 
-   - Carte Graphique
+  - Carte Graphique
 
 - **Paramètre prédéfini de sortie** : comme pour les modèles, il existe cinq paramètres prédéfinis de sortie préconfigurés :
 
-   - Site AEM
+  - Site AEM
 
-   - PDF
+  - PDF
 
-   - HTML5
+  - HTML5
 
-   - EPUB
+  - EPUB
 
-   - Personnalisé
+  - Personnalisé
 
   Les éditeurs peuvent utiliser ces paramètres prédéfinis de sortie prêts à l’emploi pour publier du contenu. Ces paramètres prédéfinis peuvent être configurés par un administrateur du profil global ou au niveau du dossier. Une fois configurés, les paramètres prédéfinis de publication sont mis à la disposition des éditeurs pour les nouveaux plans DITA. Vous pouvez également appliquer des paramètres prédéfinis de publication à des plans DITA existants. Pour plus d&#39;informations, voir [Appliquer les modifications de paramètres prédéfinis](#id18AGD0K0OHS).
 
 - **Configurations de l’éditeur XML** : utilisez cet onglet pour personnaliser l’aspect et les différentes fonctionnalités de l’éditeur. Les paramètres configurables suivants sont disponibles pour l’éditeur :
 
-   - Configuration de l’interface utilisateur de l’éditeur XML
-   - Mise en page de l’éditeur XML uniquement pour Cloud Service
-   - Configuration de l’éditeur XML uniquement pour Cloud Service
-   - Disposition du modèle CSS
-   - Fragments de code de l’éditeur XML
-   - Étiquettes de version du contenu XML
-   - Rootmap \(uniquement au niveau du dossier\)
+  - Configuration de l’interface utilisateur de l’éditeur XML
+  - Mise en page de l’éditeur XML uniquement pour Cloud Service
+  - Configuration de l’éditeur XML uniquement pour Cloud Service
+  - Disposition du modèle CSS
+  - Fragments de code de l’éditeur XML
+  - Étiquettes de version du contenu XML
+  - Rootmap \(uniquement au niveau du dossier\)
 
 Vous pouvez configurer les deux types de profil : profil global et profil au niveau du dossier. Dans un profil au niveau du dossier, vous pouvez définir les dossiers auxquels les paramètres seront applicables. Ces paramètres incluent les attributs conditionnels, les modèles, les paramètres prédéfinis de sortie et les paramètres de l’éditeur XML. Les paramètres prédéfinis conditionnels, les modèles et les configurations de l’éditeur XML sont ensuite mis à la disposition des auteurs qui travaillent dans les dossiers configurés. De même, les éditeurs auront accès aux paramètres prédéfinis de sortie configurés dans les dossiers configurés.
 
@@ -214,7 +229,7 @@ Si vous utilisez un attribut personnalisé, il doit s&#39;agir d&#39;un attribut
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Ajoutez l’attribut personnalisé au fichier DTD. Par exemple, si votre fichier DTD est commonElements.mod, vous devez localiser ce fichier dans le répertoire DTD. Le chemin d&#39;accès par défaut du fichier DTD système est :
 
@@ -277,7 +292,7 @@ Les onglets suivants fournissent des instructions pour configurer les modèles d
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 AEM Guides est fourni avec 7 modèles de rubrique prêts à l&#39;emploi, 2 modèles de plan DITA et 3 modèles PDF. Vous pouvez choisir de ne laisser que quelques modèles à la disposition des auteurs et des éditeurs. Si vous utilisez un modèle personnalisé, celui-ci peut être configuré et mis à disposition pour la création et la publication. Utilisez l’onglet **Modèles** dans la configuration des profils de dossier pour ajouter ou supprimer des modèles de rubrique, de mappage ou de PDF des profils globaux ou au niveau du dossier.
 
@@ -521,7 +536,7 @@ Pour Experience Manager Guides as a Cloud Service (![](assets/aem-cloud-icon.svg
 
 L’assistant AI d’Adobe Experience Manager Guides est un puissant outil piloté par l’IA conçu pour améliorer votre contenu grâce à des expériences de création et de réutilisation de contenu intelligentes. Il associe deux puissantes fonctionnalités d’IA (**Création** et **Aide**) à l’interface de Experience Manager Guides, ce qui vous permet de créer des documents et d’accéder aux informations plus rapidement et plus efficacement.
 
-Pour plus d’informations sur la configuration, voir [&#x200B; Configuration de l’assistant AI &#x200B;](./conf-smart-suggestions.md).
+Pour plus d’informations sur la configuration, voir [ Configuration de l’assistant AI ](./conf-smart-suggestions.md).
 
 **Configurer des suggestions intelligentes optimisées par l’IA**
 
@@ -529,7 +544,7 @@ Vous pouvez configurer les suggestions intelligentes optimisées par l’IA et a
 
 Effectuez les étapes suivantes pour configurer la configuration d’IA standard au niveau du profil global ou du dossier :
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur ou utilisateur disposant de droits d’administration sur un profil au niveau du dossier.
-1. Sélectionnez le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
+1. Sélectionnez le lien **** en haut et choisissez **Outils**.
 1. Sélectionnez **Guides** dans la liste des outils, puis sélectionnez la mosaïque **Profils de dossier**.
 1. Sélectionnez la mosaïque de profil à configurer.
 
@@ -605,7 +620,7 @@ Pour que les suggestions intelligentes fonctionnent efficacement, tenez compte d
 
 Pour Experience Manager Guides as a Cloud Service (![](assets/aem-cloud-icon.svg) cloud AEM).
 
-Vous pouvez configurer l’aide intelligente optimisée par l’IA **Aide** pour aider les auteurs à poser des questions et à rechercher facilement le contenu requis à partir de la documentation de [Experience Manager Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/overview).
+Vous pouvez configurer l’aide intelligente optimisée par l’IA **Aide** pour aider les auteurs à poser des questions et à rechercher facilement le contenu requis à partir de la documentation de [Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 L’onglet **Configuration de l’éditeur XML** vous permet de configurer les questions par défaut du panneau **Aide**.
 
@@ -616,7 +631,7 @@ L’onglet **Configuration de l’éditeur XML** vous permet de configurer les q
 Pour configurer les questions par défaut, procédez comme suit :
 
 1. Connectez-vous à Adobe Experience Manager en tant qu’administrateur ou utilisateur disposant de droits d’administration sur un profil au niveau du dossier.
-1. Sélectionnez le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
+1. Sélectionnez le lien **** en haut et choisissez **Outils**.
 1. Sélectionnez **Guides** dans la liste des outils, puis sélectionnez la mosaïque **Profils de dossier**.
 1. Sélectionnez la mosaïque de profil à configurer.
 
@@ -658,11 +673,11 @@ Les onglets suivants fournissent des informations en fonction de la configuratio
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Ce paramètre vous permet de créer des extensions JSON qui reflètent les modifications apportées au fichier `ui_config.json`. Vous pouvez charger ces extensions indépendamment au niveau du profil du dossier, offrant ainsi une flexibilité et une personnalisation améliorées. Par exemple, lorsque vous apportez des modifications à la configuration de l’éditeur **XML**, comme la mise à jour d’un bouton, le système identifie automatiquement les différences. En chargeant ces modifications dans la **Configuration de l’interface utilisateur de l’éditeur XML** et en les convertissant en extensions JSON à l’aide du bouton **Convertir la configuration de l’interface utilisateur en JSON**, le système génère une extension qui incorpore la nouvelle fonctionnalité.
 
-En savoir plus sur [la personnalisation des configurations JSON et la conversion des configurations de l’interface utilisateur pour le nouvel éditeur AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+En savoir plus sur [la personnalisation des configurations JSON et la conversion des configurations de l’interface utilisateur pour le nouvel éditeur AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >

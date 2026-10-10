@@ -5,26 +5,35 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 4215618f-2203-4c55-adba-cdec76322e9e
-TQID: https://experienceleague.adobe.com/8iPLO5J6Xuh1eHb3SXAdFN2Vg-MgJqnHpHZyW-tDE-8
+TQID: 'https://experienceleague.adobe.com/8iPLO5J6Xuh1eHb3SXAdFN2Vg-MgJqnHpHZyW-tDE-8'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1188
+source-wordcount: '1211'
 ht-degree: 1%
-
 ---
-
 # Utilisation de Map Collection pour la génération de sortie {#id1723F20G0HS}
 
 Dans n’importe quelle organisation, un produit peut avoir plusieurs types de documentation. En tant que spécialiste de la publication, vous souhaitez contrôler la sortie que vous souhaitez générer pour chaque document. En outre, il doit exister un moyen de publier plusieurs documents par lots en un seul clic.
@@ -68,17 +77,17 @@ Pour créer une collection Map et ajouter des cartes DITA à la collection, proc
 Les options de filtrage et les détails de mappage suivants sont affichés sur la page de collection :
 
 - **Filtre :** le rail de gauche affiche les filtres suivants :
-   - **Modifié** : vous pouvez sélectionner Oui ou Non. Si vous sélectionnez oui, seuls les mappages DITA modifiés seront affichés dans le tableau Mappages et paramètres prédéfinis.
-   - **Paramètre prédéfini** : sélectionnez un paramètre prédéfini pour lequel vous souhaitez filtrer les fichiers de mappage. Par exemple, si vous choisissez le paramètre prédéfini *Site*, seuls les mappages sur lesquels le paramètre prédéfini de sortie *Site AEM* est configuré s’affichent.
-   - **Langue** : vous pouvez sélectionner l’un des codes de langue disponibles et afficher uniquement la langue sélectionnée dans le tableau Cartes et paramètres prédéfinis.
+  - **Modifié** : vous pouvez sélectionner Oui ou Non. Si vous sélectionnez oui, seuls les mappages DITA modifiés seront affichés dans le tableau Mappages et paramètres prédéfinis.
+  - **Paramètre prédéfini** : sélectionnez un paramètre prédéfini pour lequel vous souhaitez filtrer les fichiers de mappage. Par exemple, si vous choisissez le paramètre prédéfini *Site*, seuls les mappages sur lesquels le paramètre prédéfini de sortie *Site AEM* est configuré s’affichent.
+  - **Langue** : vous pouvez sélectionner l’un des codes de langue disponibles et afficher uniquement la langue sélectionnée dans le tableau Cartes et paramètres prédéfinis.
 - **Tableau des mappages et des paramètres prédéfinis** : le tableau des mappages et des paramètres prédéfinis présente les informations dans les colonnes suivantes :
-   - **Map** : affiche le titre du fichier de plan DITA.
-   - **Nom de fichier** : affiche le nom de fichier du plan DITA.
-   - **Langue** : affiche la langue du plan DITA.
-   - **Paramètre prédéfini** : affiche le type de paramètre prédéfini de sortie configuré sur le fichier map.
-   - **Ligne de base** : affiche la ligne de base utilisée par le paramètre prédéfini de sortie.  Si aucune ligne de base n&#39;est utilisée, un trait d&#39;union (-) apparaît
-   - **Modifié** : indique si le plan DITA est mis à jour après la dernière publication. En fonction de ces informations, vous pouvez décider de republier ou non la sortie de ce plan DITA.
-   - **Dernière génération** : affiche la date et l’heure de la dernière sortie générée.
+  - **Map** : affiche le titre du fichier de plan DITA.
+  - **Nom de fichier** : affiche le nom de fichier du plan DITA.
+  - **Langue** : affiche la langue du plan DITA.
+  - **Paramètre prédéfini** : affiche le type de paramètre prédéfini de sortie configuré sur le fichier map.
+  - **Ligne de base** : affiche la ligne de base utilisée par le paramètre prédéfini de sortie.  Si aucune ligne de base n&#39;est utilisée, un trait d&#39;union (-) apparaît
+  - **Modifié** : indique si le plan DITA est mis à jour après la dernière publication. En fonction de ces informations, vous pouvez décider de republier ou non la sortie de ce plan DITA.
+  - **Dernière génération** : affiche la date et l’heure de la dernière sortie générée.
 
 ## Configurer et générer la sortie à l’aide d’une collection de cartes
 
@@ -101,7 +110,7 @@ Pour configurer et générer la sortie à l’aide d’une collection Map, proc�
 
    - Activez n’importe quel paramètre prédéfini.
    - Activez **Tous les paramètres prédéfinis** pour un plan DITA afin de sélectionner tous les paramètres prédéfinis en une seule fois. Par défaut, cette option est désactivée.
-   - Activez **Paramètres prédéfinis de profil de dossier** pour un plan DITA afin de sélectionner tous les paramètres prédéfinis de profil de dossier pour ce plan. Cette option est désactivée par défaut.
+   - Activez **Paramètres prédéfinis de profil de dossier** pour un plan DITA afin de sélectionner tous les paramètres prédéfinis de profil de dossier pour ce plan. Par défaut, cette option est désactivée.
      ![modifier une collection map sur cloud services](images/edit-map-collection-cs.png){width="800"}
 
 
@@ -156,4 +165,4 @@ De la même manière que vous pouvez annuler une tâche de génération de sorti
 
 ![](images/cancel-publish-task-map-collection.png){width="800"}
 
-**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)
+**Rubrique parente :**[ Génération de sortie](generate-output.md)

@@ -4,34 +4,51 @@ description: Découvrez les fonctionnalités nouvelles et améliorées des versi
 exl-id: 36decbf0-ec9d-43e2-99b7-85b0f9a87bc1
 feature: What's New
 role: Leader
-TQID: https://experienceleague.adobe.com/N-4hVzb2vN6fLLIFtyftHhzK94G7Q14Knj1-1Y9nGHE
+TQID: 'https://experienceleague.adobe.com/N-4hVzb2vN6fLLIFtyftHhzK94G7Q14Knj1-1Y9nGHE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+    internal-label: Bulk activation
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Insights
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2242
+source-wordcount: '2705'
 ht-degree: 0%
-
 ---
-
 # Nouveautés de la version 4.3.0 d’Adobe Experience Manager Guides (juillet 2023)
 
 Cet article présente les nouvelles fonctionnalités améliorées de la version 4.3.0 d’Adobe Experience Manager Guides (plus tard appelée *AEM Guides*).
@@ -65,7 +82,7 @@ Après avoir inséré vos citations dans vos rubriques, vous pouvez les prévisu
 ![Citations répertoriées dans un panneau](assets/citation-panel.png){width="300"}
 
 
-Pour plus d’informations, consultez la section [&#x200B; Ajouter et gérer des citations dans votre contenu &#x200B;](../user-guide/web-editor-apply-citations.md).
+Pour plus d’informations, consultez la section [ Ajouter et gérer des citations dans votre contenu ](../user-guide/web-editor-apply-citations.md).
 
 ## Publication sur un fragment de contenu
 
@@ -150,7 +167,7 @@ Désormais, dans AEM Guides, vous pouvez également sélectionner les propriét�
 >
 > AEM Guides prend également en charge les propriétés de métadonnées de vos plans DITA.
 
-Pour plus d’informations, consultez la section [&#x200B; Ajouter des champs et des métadonnées &#x200B;](../native-pdf/design-page-layout.md#add-fields-metadata).
+Pour plus d’informations, consultez la section [ Ajouter des champs et des métadonnées ](../native-pdf/design-page-layout.md#add-fields-metadata).
 
 
 ### Classer les pages dans la sortie PDF
@@ -272,7 +289,7 @@ AEM Guides prend également en charge le format XLIFF (XML Localization Intercha
 
 Ce format vous permet d’exporter le contenu au format XLIFF standard, puis de le fournir aux fournisseurs de services de traduction. Pour plus d’informations, consultez la section [Créer un projet de traduction](../user-guide/translate-documents-web-editor.md#create-translation-project).
 
-![&#x200B; types de projets de traduction &#x200B;](assets/translation-project-types.png){width="350"}
+![ types de projets de traduction ](assets/translation-project-types.png){width="350"}
 
 
 ## Améliorations de la collection de cartes
@@ -290,14 +307,14 @@ Pour plus d’informations, consultez [Utilisation de la collecte de mappages po
 
 
 Grâce à la fonction d’activation en bloc d’AEM Guides, vous pouvez activer rapidement et facilement votre contenu, de la création à la publication. Dans la carte Activation en bloc, vous pouvez inclure le paramètre prédéfini de sortie Native PDF, le site AEM, PDF, HTML5, personnalisé et la sortie JSON.
-Pour plus d’informations, consultez la section [&#x200B; Activation en bloc du contenu publié &#x200B;](../user-guide/conf-bulk-activation.md).
+Pour plus d’informations, consultez la section [ Activation en bloc du contenu publié ](../user-guide/conf-bulk-activation.md).
 
 ## Outil de déplacement en bloc amélioré
 
 Désormais, en tant qu’administrateur, vous pouvez utiliser l’outil de déplacement en bloc amélioré pour déplacer des dossiers contenant de nombreux fichiers d’un emplacement à un autre.
 Vous pouvez utiliser la boîte de dialogue Parcourir le fichier pour sélectionner les dossiers sources à déplacer. Vous pouvez également accéder à l’emplacement de destination pour déplacer les dossiers sources. Sélectionnez ![icône d’information](assets/info-icon.svg) {width="25"} près d’un champ pour afficher plus d’informations à son sujet.
 
-Pour plus d’informations, consultez la section [&#x200B; Déplacer des fichiers en bloc &#x200B;](../user-guide/authoring-file-management.md#move-files-bulk).
+Pour plus d’informations, consultez la section [ Déplacer des fichiers en bloc ](../user-guide/authoring-file-management.md#move-files-bulk).
 
 ## Panneau Favoris amélioré
 

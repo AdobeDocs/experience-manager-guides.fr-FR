@@ -4,7 +4,7 @@ description: Découvrez comment utiliser la publication native de PDF, créer et
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Native PDF Output
 role: User
-TQID: https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M
+TQID: 'https://experienceleague.adobe.com/GV3iYtBdFVrQwFjdvfqnfDIWPMugO3hFjS4FZqspG2M'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -19,6 +19,8 @@ feature_v2:
     internal-label: Knowledge base
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -30,6 +32,10 @@ subfeature_v2:
     internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
     internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+  - id: c4e6b17e-c50c-59a1-a719-9c33ce69e5b6
+    internal-label: Native PDF Output
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -40,7 +46,7 @@ topic_v2:
     internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '4071'
 ht-degree: 1%
@@ -65,7 +71,7 @@ Pour créer le paramètre prédéfini PDF à partir de la console de mappage, pr
 
    Vous pouvez également accéder au fichier de mappage à partir du widget **Fichiers récents** dans la section [Aperçu](../user-guide/intro-home-page.md#overview). Le fichier de mappage sélectionné s’ouvre dans la console Mappage .
 1. Dans l’onglet **Paramètres prédéfinis de sortie**, sélectionnez l’icône + pour créer un paramètre prédéfini de sortie.
-1. Sélectionnez **&#x200B;**&#x200B;dans la liste déroulante Type de la boîte de dialogue **Nouveau paramètre prédéfini de sortie**.
+1. Sélectionnez **** dans la liste déroulante Type de la boîte de dialogue **Nouveau paramètre prédéfini de sortie**.
 1. Dans le champ **Nom**, attribuez un nom à ce paramètre prédéfini.
 1. Dans le champ **Générer le PDF à l’aide de**, sélectionnez **Native-PDF**.
 1. Sélectionnez l’option **Ajouter au profil du dossier actuel** pour créer un paramètre prédéfini de sortie dans le profil du dossier actuel. L’![icône de profil de dossier](./assets/global-preset-icon.svg) indique un paramètre prédéfini au niveau du profil de dossier.
@@ -118,7 +124,7 @@ Ces métadonnées sont mappées aux métadonnées dans l’onglet **Description*
 
 <img src="assets/pdf-metadata.png" alt="onglet métadonnées" width="600">
 
-Dans les paramètres prédéfinis de sortie, sélectionnez **&#x200B;**&#x200B;> **Native-PDF** > **Métadonnées** pour ajouter et personnaliser des options de métadonnées.
+Dans les paramètres prédéfinis de sortie, sélectionnez **** > **Native-PDF** > **Métadonnées** pour ajouter et personnaliser des options de métadonnées.
 
 * **Utiliser les métadonnées ajoutées dans topicmeta**
 
@@ -126,7 +132,7 @@ Dans les paramètres prédéfinis de sortie, sélectionnez **&#x200B;**&#x200B;>
 
 * **Fournir un fichier XMP**
 
-  Vous pouvez également remplir directement les champs de métadonnées en important le fichier [&#128279;](https://www.adobe.com/fr/products/xmp.html) (Extensible Metadata Platform). Vous pouvez télécharger un exemple de fichier XMP ici.
+  Vous pouvez également remplir directement les champs de métadonnées en important le fichier [](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform). Vous pouvez télécharger un exemple de fichier XMP ici.
 
   [Téléchargement](assets/SampleXMP.xmp)
 
@@ -227,7 +233,7 @@ Utilisez les paramètres suivants pour configurer l’espace colorimétrique et 
 
 | Configuration | Description |
 | --- | --- |
-| **Espace colorimétrique** | Choisissez entre les espaces colorimétriques **&#x200B;**&#x200B;et **CMJN** pour votre document PDF. Choisissez **&#x200B;**&#x200B;pour les PDF destinés à l’affichage numérique et **CMJN** pour l’impression physique. |
+| **Espace colorimétrique** | Choisissez entre les espaces colorimétriques **** et **CMJN** pour votre document PDF. Choisissez **** pour les PDF destinés à l’affichage numérique et **CMJN** pour l’impression physique. |
 | **Convertir les couleurs** | Activez cette option pour convertir les couleurs définies dans le document dans l’espace colorimétrique sélectionné ci-dessus. Cette option est activée par défaut pour les espaces colorimétriques RGB et CMJN. Lorsqu’il est activé, le champ **Intention de rendu** devient également disponible. |
 | **Intention de rendu** | Disponible uniquement lorsque l’option **Convertir les couleurs** est activée. Sélectionnez l’intention de rendu à utiliser lors de la conversion des couleurs dans l’espace colorimétrique cible :<br>- **Par défaut** : utilise le comportement de rendu par défaut.<br>- **Perception** : ajuste les couleurs afin de préserver leur aspect visuel global.<br>- **Colorimétrie relative** : ajuste les couleurs en fonction de l’espace colorimétrique cible tout en conservant la précision des couleurs dans la mesure du possible.<br> **Remarque** : lorsque vous utilisez cette fonctionnalité avec une configuration Adobe Experience Manager Guides On-Premise, assurez-vous que Java 20 ou une version ultérieure est disponible pour que le moteur Native PDF sous-jacent applique l’intention de rendu spécifiée. |
 | **Nom de l’identifiant** | Saisissez le nom de l’identifiant de sortie. |
@@ -256,7 +262,7 @@ Utilisez les options suivantes pour spécifier des paramètres avancés pour fus
 | **Inclure le suivi des modifications** | Sélectionnez cette option si vous souhaitez inclure les modifications suivies dans le PDF généré pour faciliter la révision et la comparaison. |
 | **Inclure les commentaires préliminaires** | Sélectionnez cette option si vous souhaitez inclure des commentaires de brouillon ajoutés dans les rubriques DITA du mappage sélectionné dans le PDF généré. <br> **Remarque** : l’activation de cette option seule n’entraîne pas l’affichage de commentaires sur le brouillon dans la sortie. Un administrateur doit également définir la propriété display du style draft-comment sur une valeur visible (telle que `block`, `inline-block`, `grid`, etc.) dans le modèle de sortie utilisé pour la carte. Pour plus d’informations, consultez [Afficher ou masquer les commentaires de brouillon dans la sortie native de PDF](../native-pdf/components-pdf-template.md#show-or-hide-draft-comments-in-native-pdf-output). |
 | **Conserver les fichiers temporaires** | Sélectionnez cette option si vous souhaitez conserver les fichiers HTML intermédiaires créés lors de la génération de la sortie Native PDF. Vous pouvez ensuite télécharger les fichiers temporaires après avoir généré la sortie. Les fichiers téléchargés incluraient également `system_config.xml` fichier qui vous donne des informations sur l’URL de création, l’URL locale et l’URL de publication. Ces URL sont configurées dans les paramètres d’externalisation d’AEM et sont reflétées dans le fichier `system_config.xml`. |
-| **Conformité de** | Il s’agit de la norme à laquelle vous avez l’intention d’enregistrer votre PDF pour vous assurer qu’elle est conforme. Faites votre choix dans la liste déroulante parmi les normes PDF disponibles. Pour plus d’informations sur les normes prises en charge, voir [À propos des normes PDF](https://helpx.adobe.com/fr/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **Conformité de** | Il s’agit de la norme à laquelle vous avez l’intention d’enregistrer votre PDF pour vous assurer qu’elle est conforme. Faites votre choix dans la liste déroulante parmi les normes PDF disponibles. Pour plus d’informations sur les normes prises en charge, voir [À propos des normes PDF](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Propriétés du fichier** | Sélectionnez les métadonnées que vous souhaitez transmettre à la publication native de PDF. La liste déroulante répertorie les propriétés personnalisées et par défaut. Par exemple, `dc:description`, `dc:language`, `dc:title` et `docstate` sont les propriétés par défaut, tandis que vous pouvez utiliser `author` comme propriété personnalisée. Les propriétés de métadonnées sélectionnées sont transmises au fichier PDF généré à l’aide de PDF natif. <br> Ces propriétés sont sélectionnées à partir du fichier `metadataList` disponible à l’adresse `/libs/fmdita/config/metadataList`. <br>Ce fichier peut être recouvert à l’adresse : `/apps/fmdita/config/metadataList`. |
 
 

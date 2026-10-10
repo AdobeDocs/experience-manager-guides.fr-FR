@@ -4,29 +4,41 @@ description: Découvrez Map Console et les différentes fonctionnalités disponi
 feature: Publishing
 role: User
 exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
-TQID: https://experienceleague.adobe.com/RFlLBJ4tFUBVo2FyGFur21uIResNd0qFWpKszJbnBIk
+TQID: 'https://experienceleague.adobe.com/RFlLBJ4tFUBVo2FyGFur21uIResNd0qFWpKszJbnBIk'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+    internal-label: Content translation
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 776
+source-wordcount: '776'
 ht-degree: 0%
-
 ---
-
 # Présentation de la console Carte
 
 Adobe Experience Manager Guides propose une console dédiée, appelée **console Map**, pour rationaliser toutes vos tâches de gestion et de publication de cartes. Cette interface centralisée améliore la productivité et la précision de vos activités liées aux cartes en vous offrant des options pour générer des sorties, traduire le contenu, accéder aux rapports, etc., le tout à un seul endroit.
@@ -41,15 +53,15 @@ L’interface de Map Console est principalement divisée en deux sections : **Ba
 
   Les fonctionnalités disponibles dans la barre de navigation sont expliquées comme suit :
 
-   - **Sélecteur de navigation** : permet une navigation transparente vers d’autres pages - Éditeur ou Page d’accueil :
-   - **Fichier de mappage sélectionné** : affiche le nom du fichier de mappage actuellement sélectionné. Vous pouvez l’ouvrir dans l’éditeur ou choisir un autre fichier de mappage pour la console Mappage.
-   - **Autres actions** : fournit des options pour accéder aux paramètres de l’**interface utilisateur d’Assets** et de **Workspace**. Pour plus d’informations, consultez la [barre d’onglets](./web-editor-tab-bar.md).
+  - **Sélecteur de navigation** : permet une navigation transparente vers d’autres pages - Éditeur ou Page d’accueil :
+  - **Fichier de mappage sélectionné** : affiche le nom du fichier de mappage actuellement sélectionné. Vous pouvez l’ouvrir dans l’éditeur ou choisir un autre fichier de mappage pour la console Mappage.
+  - **Autres actions** : fournit des options pour accéder aux paramètres de l’**interface utilisateur d’Assets** et de **Workspace**. Pour plus d’informations, consultez la [barre d’onglets](./web-editor-tab-bar.md).
 
   >[!NOTE]
   >
   > Si vous utilisez Adobe Experience Manager Guides dans une configuration On-Premise antérieure à la version 5.2, l’option Paramètres de Workspace continue à apparaître sous la forme **Paramètres** sous le menu Autres actions .
 
-   - **Développer la vue** : permet de développer la page vue à l’aide de l’icône **Développer**. Dans cette vue, la barre d’en-tête est masquée, ce qui optimise l’espace du contenu. Pour revenir à la vue standard, utilisez l’icône **Quitter la vue développée**.
+  - **Développer la vue** : permet de développer la page vue à l’aide de l’icône **Développer**. Dans cette vue, la barre d’en-tête est masquée, ce qui optimise l’espace du contenu. Pour revenir à la vue standard, utilisez l’icône **Quitter la vue développée**.
 
   >[!NOTE]
   >
@@ -98,6 +110,6 @@ Dans la console Mappage , vous avez accès à toutes les options requises pour c
 
 La fonction Workfront est également présente dans la console Carte, ce qui permet d’utiliser les tâches Adobe Workfront directement depuis Experience Manager Guides.
 
-En savoir plus sur l’intégration d’Adobe Workfront à Experience Manager Guides[&#128279;](./workfront-integration.md).
+En savoir plus sur l’intégration d’Adobe Workfront à Experience Manager Guides](./workfront-integration.md).[
 
-Vous ne pouvez accéder à cette fonctionnalité que si votre administrateur a configuré l’intégration d’**&#x200B;** dans votre instance Experience Manager Guides.
+Vous ne pouvez accéder à cette fonctionnalité que si votre administrateur a configuré l’intégration d’**** dans votre instance Experience Manager Guides.

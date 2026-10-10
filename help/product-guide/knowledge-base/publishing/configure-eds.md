@@ -5,13 +5,28 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: a4623088-a867-4079-80d6-20866c99683e
-source-git-commit: 1aea696b5f5eba9027a71246f7bff0d0fef93221
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 1%
-
 ---
-
 # Experience Manager Guides et Edge Delivery Services
 
 Adobe Experience Manager Guides vous permet de publier votre contenu DITA directement dans Edge Delivery Services (EDS) par le biais d’un profil de publication GitHub dédié. Cette fonctionnalité permet aux entreprises de fournir des expériences de documentation réactives et haute performance tout en conservant des workflows de création basés sur DITA dans Experience Manager Guides.
@@ -24,7 +39,7 @@ Pour activer la publication de Experience Manager Guides vers EDS, vous devez ef
 2. [Création et configuration d’un profil de publication pour EDS dans Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-in-experience-manager)
 3. [Personnaliser la sortie à l’aide de blocs EDS](#customize-output-using-eds-blocks)
 
-Pour une présentation vidéo rapide, reportez-vous à la section [Publication dans AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
+Pour une présentation vidéo rapide, reportez-vous à la section [Publication dans AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
 
 
 
@@ -55,7 +70,7 @@ Adobe Experience Manager utilise une application GitHub appelée **Synchronisati
 
 Pour installer et configurer l’application *AEM Code Sync*, procédez comme suit :
 
-1. Accédez à la page [Synchronisation du code &#x200B;](https://github.com/apps/aem-code-sync) et sélectionnez **Installer**.
+1. Accédez à la page [Synchronisation du code ](https://github.com/apps/aem-code-sync) et sélectionnez **Installer**.
 2. *La synchronisation du code* surveille les modifications du référentiel et s’assure que les mises à jour sont correctement transmises à GitHub.
 
    >[!NOTE]

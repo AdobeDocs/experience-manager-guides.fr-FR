@@ -5,7 +5,21 @@ feature: Translation
 role: Admin
 level: Experienced
 exl-id: 7138fc35-09ee-4df5-8496-dc673effe120
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: 626b0638-bd2d-504c-8ccd-53d63b856710
+    internal-label: Translation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 10%
@@ -23,34 +37,34 @@ Les onglets suivants fournissent des instructions pour traduire le contenu en fo
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
-1. Connectez AEM à votre [fournisseur de services de traduction](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=fr) et créez des configurations de structure d’intégration de traduction.
+1. Connectez AEM à votre [fournisseur de services de traduction](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) et créez des configurations de structure d’intégration de traduction.
 
 1. Associez les pages de votre gabarit de langue au service de traduction et aux configurations de structure.
 
-1. Identifiez le type de [contenu à traduire](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=fr).
+1. Identifiez le type de [contenu à traduire](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en).
 
-1. [Préparez le contenu à traduire](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=fr) en créant le gabarit de langue et les pages racine des copies de langue.
+1. [Préparez le contenu à traduire](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en) en créant le gabarit de langue et les pages racine des copies de langue.
 
-1. Créez des [projets de traduction](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=fr) pour collecter le contenu à traduire et préparer le processus de traduction.
+1. Créez des [projets de traduction](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) pour collecter le contenu à traduire et préparer le processus de traduction.
 
-1. Utilisez les projets de traduction pour [gérer le processus de traduction &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=fr) contenu.
+1. Utilisez les projets de traduction pour [gérer le processus de traduction ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) contenu.
 
 
 >[!TAB  On-Premise ]
 
-1. Connectez AEM à votre [fournisseur de services de traduction](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) et créez des [configurations de structure d’intégration de traduction](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
+1. Connectez AEM à votre [fournisseur de services de traduction](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) et créez des [configurations de structure d’intégration de traduction](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
 
-1. Associez les pages de votre gabarit de langue au [service de traduction et aux configurations de structure](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
+1. Associez les pages de votre gabarit de langue au [service de traduction et aux configurations de structure](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
 
 1. Identifiez le type de [contenu à traduire](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-rules.html?lang=fr).
 
-1. [Préparez le contenu à traduire](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/tc-prep.html) en créant le gabarit de langue et les pages racine des copies de langue.
+1. [Préparez le contenu à traduire](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html) en créant le gabarit de langue et les pages racine des copies de langue.
 
 1. Créez des [projets de traduction](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=fr) pour collecter le contenu à traduire et préparer le processus de traduction.
 
-1. Utilisez les projets de traduction pour [gérer le processus de traduction &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=fr) contenu.
+1. Utilisez les projets de traduction pour [gérer le processus de traduction ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-manage.html?lang=fr) contenu.
 
 >[!ENDTABS]
 
@@ -66,7 +80,7 @@ Les onglets suivants fournissent des instructions pour masquer l’onglet Traduc
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration.
 1. Dans le fichier de configuration, fournissez les détails \(propriété\) suivants pour configurer l’onglet Traduction dans le tableau de bord de mappage :
@@ -114,7 +128,7 @@ Les onglets suivants fournissent des instructions pour le workflow de traduction
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 En fonction du workflow de traduction utilisé dans votre configuration, l’option de workflow de traduction basé sur les composants doit être configurée. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer un workflow de traduction basé sur des composants :
 
@@ -142,7 +156,7 @@ En fonction du workflow de traduction utilisé dans votre configuration, l’opt
 
    >[!NOTE]
    >
-   > Si vous utilisez le connecteur de traduction, assurez-vous d’avoir configuré le connecteur comme décrit dans la rubrique *[Configuration de la structure d’intégration de traduction &#x200B;](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/tc-tic.html)* de la documentation AEM.
+   > Si vous utilisez le connecteur de traduction, assurez-vous d’avoir configuré le connecteur comme décrit dans la rubrique *[Configuration de la structure d’intégration de traduction ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* de la documentation AEM.
 
 1. Cliquez sur **Enregistrer**.
 
@@ -159,7 +173,7 @@ Les onglets suivants fournissent des instructions pour configurer cette option e
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 >[!IMPORTANT]
 >
@@ -175,7 +189,7 @@ Suivez les instructions fournies dans [Remplacements de la configuration](downlo
 
 >[!NOTE]
 >
-> Si vous utilisez le connecteur de traduction, assurez-vous d’avoir configuré le connecteur comme décrit dans la rubrique *[Configuration de la structure d’intégration de traduction &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=fr)* de la documentation Adobe Experience Manager.
+> Si vous utilisez le connecteur de traduction, assurez-vous d’avoir configuré le connecteur comme décrit dans la rubrique *[Configuration de la structure d’intégration de traduction ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* de la documentation Adobe Experience Manager.
 
 >[!IMPORTANT]
 >
@@ -214,7 +228,7 @@ Les onglets suivants fournissent des instructions pour configurer cette option e
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer le post-traitement des copies de langue temporaires :
 

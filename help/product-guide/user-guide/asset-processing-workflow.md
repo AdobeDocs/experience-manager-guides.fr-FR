@@ -1,13 +1,19 @@
 ---
 title: FAQ sur les performances et l’évolutivité de la publication dans Adobe Experience Manager Guides
 description: Découvrez les questions fréquentes sur les performances et l’évolutivité de la publication dans Adobe Experience Manager Guides.
-source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1666'
 ht-degree: 1%
-
 ---
-
 
 # Traitement des ressources
 
@@ -39,47 +45,47 @@ Les principales étapes de traitement restent cohérentes sur le plan fonctionne
 ### Améliorations architecturales
 
 - **Intégration de la base de données Graph** :
-   - Transition du JCR hiérarchique vers une base de données Graph native
-   - Gestion efficace des relations et des dépendances
-   - Complexité de la simulation des opérations graphiques sur le stockage hiérarchique
+  - Transition du JCR hiérarchique vers une base de données Graph native
+  - Gestion efficace des relations et des dépendances
+  - Complexité de la simulation des opérations graphiques sur le stockage hiérarchique
 - **Traitement distribué multithread** :
-   - Le traitement est exécuté sur plusieurs capsules dans un environnement cloud
-   - Supprime la dépendance sur un seul nœud leader
-   - Permet une évolutivité horizontale et une exécution parallèle
+  - Le traitement est exécuté sur plusieurs capsules dans un environnement cloud
+  - Supprime la dépendance sur un seul nœud leader
+  - Permet une évolutivité horizontale et une exécution parallèle
 - **Suppression de la dépendance de mappage parent :**
-   - Supprime la nécessité d’une traversée de graphique explicite
-   - Réduction des opérations d’E/S et de la latence de traitement
-   - Simplifie le pipeline de traitement
+  - Supprime la nécessité d’une traversée de graphique explicite
+  - Réduction des opérations d’E/S et de la latence de traitement
+  - Simplifie le pipeline de traitement
 - **Attribution d’ID uniques synchronisés**
-   - La coordination centralisée assure :
-   - Pas de duplication des ID de document
-   - Cohérence entre les nœuds distribués
-   - Maintient l’intégrité du référentiel dans un environnement simultané
+  - La coordination centralisée assure :
+  - Pas de duplication des ID de document
+  - Cohérence entre les nœuds distribués
+  - Maintient l’intégrité du référentiel dans un environnement simultané
 - **Base de données évolutive native dans le cloud (hébergée par AWS)**
-   - Couche de base de données hautement disponible et résiliente
-   - Prend en charge une mise à l’échelle élastique en fonction de la charge de travail
-   - Améliore la fiabilité et les performances globales du système
+  - Couche de base de données hautement disponible et résiliente
+  - Prend en charge une mise à l’échelle élastique en fonction de la charge de travail
+  - Améliore la fiabilité et les performances globales du système
 
 ![](images/workflow.png)
 
 ## Avantages de la nouvelle architecture
 
 - Améliorations des performances :
-   - L’exécution en parallèle réduit considérablement le temps de traitement
-   - L’élimination des opérations transverses lourdes réduit la latence
-   - La gestion optimisée des graphiques améliore la vitesse de résolution des dépendances
+  - L’exécution en parallèle réduit considérablement le temps de traitement
+  - L’élimination des opérations transverses lourdes réduit la latence
+  - La gestion optimisée des graphiques améliore la vitesse de résolution des dépendances
 - Évolutivité :
-   - La mise à l’échelle horizontale sur les capsules permet de gérer d’importants volumes d’ingestion
-   - L’infrastructure native au cloud s’adapte dynamiquement aux demandes de charge de travail.
+  - La mise à l’échelle horizontale sur les capsules permet de gérer d’importants volumes d’ingestion
+  - L’infrastructure native au cloud s’adapte dynamiquement aux demandes de charge de travail.
 - Fiabilité et disponibilité :
-   - Le traitement distribué supprime le point unique de défaillance
-   - La base de données hébergée par AWS garantit une haute disponibilité et une tolérance aux pannes
+  - Le traitement distribué supprime le point unique de défaillance
+  - La base de données hébergée par AWS garantit une haute disponibilité et une tolérance aux pannes
 - Gains d’efficacité :
-   - Réduction de la surcharge d’E/S due à la suppression du parcours transversal de la carte parent
-   - Meilleure utilisation des ressources entre les nœuds de calcul
+  - Réduction de la surcharge d’E/S due à la suppression du parcours transversal de la carte parent
+  - Meilleure utilisation des ressources entre les nœuds de calcul
 - Intégrité des données :
-   - L’attribution d’identifiants synchronisée maintient la cohérence entre les systèmes distribués
-   - Conserve la robustesse tout en activant la simultanéité
+  - L’attribution d’identifiants synchronisée maintient la cohérence entre les systèmes distribués
+  - Conserve la robustesse tout en activant la simultanéité
 
 ## Configuration de la base de données
 

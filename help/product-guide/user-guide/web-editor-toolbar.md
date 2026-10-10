@@ -4,7 +4,7 @@ description: Découvrez la barre d’outils dans l’éditeur. Découvrez l’in
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-TQID: https://experienceleague.adobe.com/KX-yf8J7QxTJ-vZq0onxJVPLqYFPMIka8CE6DWZgvbw
+TQID: 'https://experienceleague.adobe.com/KX-yf8J7QxTJ-vZq0onxJVPLqYFPMIka8CE6DWZgvbw'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -17,6 +17,8 @@ feature_v2:
     internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
     internal-label: Map Editor
@@ -30,7 +32,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 2a8b90039694267a542d3eb6012a3b5d439eeba8
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '6603'
 ht-degree: 0%
@@ -74,7 +76,7 @@ Ces fonctionnalités sont expliquées en détail comme suit :
 
 **Modification des actions**
 
-Lorsque vous modifiez une rubrique dans l’éditeur, accédez aux différentes actions d’édition telles que **Couper** ou ***Ctrl***+***X*** , **Copier** ou ***Ctrl***+***C*** , **Undo** ou ***Ctrl***+***Z*** ou **Ctrl**+***Y*** et ***Delete*** **&#x200B;**&#x200B;présentes dans la liste déroulante Menu .
+Lorsque vous modifiez une rubrique dans l’éditeur, accédez aux différentes actions d’édition telles que **Couper** ou ***Ctrl***+***X*** , **Copier** ou ***Ctrl***+***C*** , **Undo** ou ***Ctrl***+***Z*** ou **Ctrl**+***Y*** et ***Delete*** **** présentes dans la liste déroulante Menu .
 
 
 **Rechercher et remplacer**
@@ -107,7 +109,7 @@ La fonction **Historique des versions** de l&#39;éditeur vous permet de vérifi
 
    La boîte de dialogue **Historique des versions** s’affiche.
 
-   ![&#x200B; Boîte de dialogue Historique des versions &#x200B;](images/version-history-dialog-web-editor.png){width="550"}
+   ![ Boîte de dialogue Historique des versions ](images/version-history-dialog-web-editor.png){width="550"}
 
    *Prévisualiser les modifications dans les différentes versions d&#39;une rubrique.*
 
@@ -124,7 +126,7 @@ La fonction **Historique des versions** de l&#39;éditeur vous permet de vérifi
 
    Onglet **Métadonnées** : les métadonnées nouvellement ajoutées sont dans la police verte et les métadonnées supprimées sont dans la police rouge.
 
-   ![Différence de métadonnées pour les versions &#x200B;](images/metadata-version-diff.png){width="550"}
+   ![Différence de métadonnées pour les versions ](images/metadata-version-diff.png){width="550"}
 
    *Comparez les métadonnées de différentes versions dans l’historique des versions.*
 
@@ -783,4 +785,4 @@ Si un fichier est verrouillé par un autre utilisateur, le fait de pointer sur l
 En tant qu’administrateur, vous avez également accès à la fonctionnalité **Forcer le déverrouillage** qui vous permet de déverrouiller le fichier verrouillé par d’autres utilisateurs. Utilisez cette fonctionnalité pour accéder aux droits de modification d&#39;un fichier verrouillé par d&#39;autres utilisateurs.
 
 ![](images/web-editor-force-unlock-new.png){width="350"}
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

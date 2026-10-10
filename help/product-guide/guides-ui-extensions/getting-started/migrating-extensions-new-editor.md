@@ -4,13 +4,28 @@ description: En savoir plus sur la migration vers le framework d’extension pou
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2006'
 ht-degree: 3%
-
 ---
-
 
 # Migration de la structure d’extension vers l’éditeur 2.0 (nouvel éditeur)
 
@@ -447,7 +462,7 @@ conservez-les sur leurs identifiants de widget hérités.
 
 ## Ordre de déploiement suggéré
 
-1. **&#x200B;**&#x200B;: encapsuler la configuration dans `guides.ready` ; enregistrer les modules externes sans condition et ajouter des points de contrôle `version` autour des actions *runtime* uniquement (pour plus de détails, consultez [Enregistrement des modules externes et point de contrôle Runtime](#plugin-registration-and-runtime-gating)).
+1. **** : encapsuler la configuration dans `guides.ready` ; enregistrer les modules externes sans condition et ajouter des points de contrôle `version` autour des actions *runtime* uniquement (pour plus de détails, consultez [Enregistrement des modules externes et point de contrôle Runtime](#plugin-registration-and-runtime-gating)).
 2. **Surface du menu contextuel** : ajoutez des `markup_editor_menu`, corrigez `target` ancres. Les éléments s’affichent maintenant.
 3. **Lectures** : migrez les lectures de sélection/d’attributs vers `runUtil`.
 4. **Écritures** : migration des mutations vers `runCommand` ; enregistrement dans les événements d’application.

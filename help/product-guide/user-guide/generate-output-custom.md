@@ -4,27 +4,37 @@ description: Découvrez comment créer un paramètre prédéfini personnalisé �
 exl-id: 1bb14411-ec94-4960-92ba-3b2ff7a29932
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/zoJtHeS1Zs8Zs5NYWqY5B5ZshCiVSv2Sen0ZgpMCj7w
+TQID: 'https://experienceleague.adobe.com/zoJtHeS1Zs8Zs5NYWqY5B5ZshCiVSv2Sen0ZgpMCj7w'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1396
+source-wordcount: '1396'
 ht-degree: 0%
-
 ---
-
 # Personnalisé {#id205BEF00PX0}
 
 Les paramètres prédéfinis de sortie personnalisés sont disponibles pour les modules externes DITA-OT personnalisés. Vous pouvez créer un paramètre prédéfini de sortie DITA-OT personnalisé pour publier la sortie à l&#39;aide de votre plug-in DITA-OT personnalisé.
@@ -121,5 +131,5 @@ Par exemple, **Chemin de sortie/Chemin de destination** - Ici, **Chemin de sorti
 | Utiliser niveau de référence | Si vous avez créé une ligne de base pour le plan DITA sélectionné, sélectionnez cette option pour spécifier la version à publier.<br><br> Voir [Utilisation de la ligne de base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) pour plus d’informations. |
 | Propriétés du fichier | Sélectionnez les propriétés à traiter en tant que métadonnées. Ces propriétés sont définies à partir de la page Propriétés du fichier DITA map ou bookmap. Les propriétés que vous sélectionnez dans la liste déroulante s’affichent sous le champ **Propriétés du fichier**. Sélectionnez l’icône croisée en regard de la propriété pour la supprimer. <br><br>**Remarque** : vous pouvez également transmettre les métadonnées à la sortie à l’aide de la publication DITA-OT. Pour plus de détails, [Transmettez les métadonnées à la sortie à l’aide de DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)
+**Rubrique parente :**[ Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)
 

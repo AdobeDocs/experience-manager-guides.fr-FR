@@ -5,7 +5,21 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 313208e4-4403-4ba8-8e97-c5a95475b87e
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1697'
 ht-degree: 2%
@@ -22,7 +36,7 @@ Effectuez les étapes suivantes pour migrer votre contenu de la version 4.3.1 no
 >   1. Fermeture de tous les avis actifs.
 >   1. A fermé toutes les tâches de traduction.
 > * Avant de migrer le contenu vers le serveur UUID, assurez-vous de disposer d’un serveur non UUID sur lequel est installé une version d’AEM Guides compatible.
-> * Si vous utilisez une version antérieure à la version 4.3.1, effectuez une mise à niveau vers la version 4.3.1. Suivez les [&#x200B; instructions de mise à niveau](./upgrade-aemg-latest-version.md) spécifiques à la version sous licence de votre produit.
+> * Si vous utilisez une version antérieure à la version 4.3.1, effectuez une mise à niveau vers la version 4.3.1. Suivez les [ instructions de mise à niveau](./upgrade-aemg-latest-version.md) spécifiques à la version sous licence de votre produit.
 > * Actuellement, les versions ultérieures à la version 4.3.1 ne sont pas prises en charge pour la migration.
 
 
@@ -218,4 +232,4 @@ Pour plus d’informations, voir [purger les anciennes versions](../install-conf
    > Si, avant la migration, la propriété **Utiliser le titre pour les noms de page du site AEM** dans `com.adobe.fmdita.config.ConfigManager`, définie sur *False*, après la migration, cette propriété doit être mise à jour.
 
 
-1. Une fois la validation terminée, la majeure partie de l’espace disque peut être récupérée en exécutant la compression (voir la section `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=fr`).
+1. Une fois la validation terminée, la majeure partie de l’espace disque peut être récupérée en exécutant la compression (voir la section `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).

@@ -2,13 +2,19 @@
 title: Notes de mise à jour | Nouveautés de la version Adobe Experience Manager Guides 2026.08.0
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 2026.08.0 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 087f74b41a3ce374aca06701e8b58e0d27492592
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1371'
 ht-degree: 0%
-
 ---
-
 # Nouveautés de la version 2026.08.0 (août 2026)
 
 Cet article présente les nouvelles fonctionnalités améliorées introduites dans la version 2026.08.0 d’Adobe Experience Manager Guides as a Cloud Service.
@@ -125,9 +131,9 @@ Les améliorations suivantes sont disponibles pour la fonctionnalité de contenu
 
 - Dans les questions de vérification des connaissances d’un cours, le bouton **Réessayer** s’affiche désormais lorsqu’un élève sélectionne une réponse incorrecte, ce qui lui permet de réessayer de répondre à la question. Ce comportement est cohérent dans les contrôles des connaissances à sélection unique et à sélection multiple. Pour plus d&#39;informations, consultez [Autres options du menu Insertion](../learning-content/lc-other-insert-options.md).
 
-- Lorsqu’une rubrique HTML est ajoutée à un mappage de groupes d’apprentissage, l’attribut `format="html"` est désormais automatiquement ajouté à la `topicref` correspondante, assurant ainsi un traitement et une publication corrects sous DITA-OT 4.x. Pour plus d’informations, consultez la section [&#x200B; Ajouter du contenu existant dans votre cours &#x200B;](../learning-content/manage-course.md#add-existing-content).
+- Lorsqu’une rubrique HTML est ajoutée à un mappage de groupes d’apprentissage, l’attribut `format="html"` est désormais automatiquement ajouté à la `topicref` correspondante, assurant ainsi un traitement et une publication corrects sous DITA-OT 4.x. Pour plus d’informations, consultez la section [ Ajouter du contenu existant dans votre cours ](../learning-content/manage-course.md#add-existing-content).
 
 ## Amélioration de l’API
 
-Cette version introduit de nouvelles API Swagger pour la gestion des ressources, la traduction et la publication, ce qui facilite la connexion de ces workflows à vos outils et systèmes existants. Pour plus d’informations, consultez [&#x200B; Mises à jour des API dans les versions de Experience Manager Guides &#x200B;](../api-reference/api-update-swagger.md).
+Cette version introduit de nouvelles API Swagger pour la gestion des ressources, la traduction et la publication, ce qui facilite la connexion de ces workflows à vos outils et systèmes existants. Pour plus d’informations, consultez [ Mises à jour des API dans les versions de Experience Manager Guides ](../api-reference/api-update-swagger.md).
 

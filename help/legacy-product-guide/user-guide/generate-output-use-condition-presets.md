@@ -5,24 +5,32 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 991179c7-186e-4b23-b918-248f596644ec
-TQID: https://experienceleague.adobe.com/vC4GMa4uSMJY9W2bwkVw92zrrVuCdoU0BIUZ-1buIwM
+TQID: 'https://experienceleague.adobe.com/vC4GMa4uSMJY9W2bwkVw92zrrVuCdoU0BIUZ-1buIwM'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1119
+source-wordcount: '1214'
 ht-degree: 2%
-
 ---
-
 # Utilisation de paramètres prédéfinis de condition {#id1825FL004PN}
 
 Vous pouvez définir des attributs dans vos rubriques DITA et utiliser le paramètre prédéfini de condition pour spécifier ce qui se passe avec l&#39;attribut dans la sortie finale. Par exemple, vous pouvez ajouter des attributs en tant que version 1.0 et version 2.0 à votre contenu et utiliser un paramètre prédéfini de condition pour inclure la version 1.0 pour la version 1.0 et exclure la version 2.0. De même, vous pouvez ajouter des attributs tels que OS Windows et OS Linux à votre contenu, puis inclure ou exclure le contenu approprié pour votre sortie finale en fonction du système d’exploitation.
@@ -66,17 +74,17 @@ Le panneau **Attributs** affiche tous les attributs ajoutés aux références pr
    * Sélectionnez une ou plusieurs valeurs d’attribut pour les ajouter au paramètre prédéfini de condition. Par exemple, vous pouvez sélectionner les valeurs `Unix` et `Win` de l’attribut platform
    * Sélectionnez une paire d’attributs et de valeurs et faites-la glisser vers le panneau central. Par exemple, vous pouvez sélectionner la valeur `Unix` de l’attribut platform et la faire glisser.
    * **Tout sélectionner** pour ajouter tous les attributs et leurs valeurs au paramètre prédéfini de condition.
-Par défaut, l’action d’un attribut est `Include`.
+     Par défaut, l’action d’un attribut est `Include`.
 
 1. Sélectionnez **Ajouter**. Vous pouvez répéter cette étape pour ajouter d’autres attributs. Les attributs que vous ajoutez se déplacent du panneau central vers le panneau de droite.
 1. Sélectionnez Supprimer dans la barre d’actions située en haut pour supprimer les attributs sélectionnés dans le panneau de droite.
 1. (Facultatif) Si nécessaire, vous pouvez remplacer l’action appliquée aux attributs.
-Effectuez l’une des opérations suivantes :
+Utilisez l’une des méthodes suivantes :
    * Pour un attribut, sélectionnez l’une des actions suivantes dans le menu déroulant Action .
-      * Inclure
-      * Exclure
-      * Passthrough
-      * Marquer
+     * Inclure
+     * Exclure
+     * Passthrough
+     * Marquer
    * Sélectionnez plusieurs lignes d’attribut dans le panneau de droite et choisissez une action dans la barre d’actions située en haut. Par exemple, vous pouvez sélectionner l’action Exclure pour les attributs sélectionnés.
 1. Sélectionnez **Enregistrer** pour enregistrer le paramètre prédéfini de condition.
 
@@ -133,7 +141,7 @@ Pour créer un paramètre prédéfini de condition, procédez comme suit :
    * Exclure
    * Passthrough
    * Marquer
-L’action est définie comme action par défaut pour tous les attributs, qu’ils soient ajoutés ou non au paramètre prédéfini de condition.
+     L’action est définie comme action par défaut pour tous les attributs, qu’ils soient ajoutés ou non au paramètre prédéfini de condition.
 
    Par exemple, votre document contient 15 attributs de condition et vous en avez inclus quatre dans le paramètre prédéfini de condition. Si vous sélectionnez **exclure** comme action par défaut, elle est appliquée aux 15 attributs.
 
@@ -179,4 +187,4 @@ Vous pouvez supprimer un ou plusieurs paramètres prédéfinis de condition dans
 1. Cliquez sur le bouton **Supprimer**.
 1. Cliquez sur **Supprimer** pour confirmer l’action.
 
-**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)
+**Rubrique parente :**[ Génération de sortie](generate-output.md)

@@ -4,24 +4,33 @@ description: Découvrez les fonctionnalités nouvelles et améliorées de la ver
 exl-id: 625f9702-2b91-4622-9fec-282f47f1d7a6
 feature: What's New
 role: Leader
-TQID: https://experienceleague.adobe.com/fPOg5RioczOxug8ACT9X9seCvXgjZ84mpPMEBUD4yJs
+TQID: 'https://experienceleague.adobe.com/fPOg5RioczOxug8ACT9X9seCvXgjZ84mpPMEBUD4yJs'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
+subfeature_v2:
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 910
+source-wordcount: '1228'
 ht-degree: 0%
-
 ---
-
 # Nouveautés de la version de juin 2023 d’Adobe Experience Manager Guides as a Cloud Service
 
 Cet article couvre les nouvelles fonctionnalités et les fonctionnalités améliorées de la version de juin 2023 d’Adobe Experience Manager Guides (plus tard appelée *AEM Guides as a Cloud Service*).
@@ -110,7 +119,7 @@ Pour plus d’informations, voir [Utilisation d’expressions Regex](../user-gui
 AEM Guides prend également en charge les modèles abstraits dans Schematron. Vous pouvez définir des modèles abstraits génériques et les réutiliser. Les modèles abstraits peuvent simplifier votre schéma Schematron et vous aider également à gérer et à mettre à jour votre logique de validation.
 
 
-Pour plus d’informations, voir [&#x200B; Définition de modèles abstraits &#x200B;](../user-guide/support-schematron-file.md#schematron-abstract-patterns).
+Pour plus d’informations, voir [ Définition de modèles abstraits ](../user-guide/support-schematron-file.md#schematron-abstract-patterns).
 
 ## Naviguez de l’éditeur web vers la page d’accueil d’AEM.
 
@@ -121,7 +130,7 @@ Vous pouvez désormais facilement accéder à la page d’accueil d’AEM à par
 * Cliquez sur l’icône **Guides** (![](assets/aem-guides-icon.png) ) pour revenir à la page de navigation d’AEM.
 
 
-Pour plus d’informations, consultez la page Navigation dans AEM [&#128279;](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
+Pour plus d’informations, consultez la page Navigation dans AEM [](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
 
 ## Gestion des définitions hiérarchiques des objets et des énumérations
 

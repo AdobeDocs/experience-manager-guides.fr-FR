@@ -5,13 +5,28 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 62195863-cbab-4c53-9cf0-b4a8d26d44f2
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
-
 ---
-
 # Configurer des filtres pour la boîte de dialogue de navigation des fichiers
 
 Lorsque vous travaillez dans l’éditeur, vous devez utiliser la boîte de dialogue de navigation du fichier pour insérer des éléments tels qu’une image, une référence ou une référence de clé. La boîte de dialogue de navigation par défaut ne propose aucune option de filtrage de fichiers. Vous pouvez ajouter vos propres filtres qui vous permettront d’accéder facilement et rapidement aux fichiers requis.
@@ -20,7 +35,7 @@ Les onglets suivants fournissent des instructions pour ajouter vos options de fi
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Pour télécharger le fichier de configuration de l’interface utilisateur, connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 
@@ -55,13 +70,13 @@ Les onglets suivants fournissent des instructions pour ajouter vos options de fi
    Dans le fragment de code ci-dessus, le premier filtre concerne les fichiers DITA. La définition du filtre utilise les paramètres suivants :
 
    title
-: nom d’affichage du filtre. Ce titre apparaît comme option de filtrage dans la boîte de dialogue de navigation des fichiers.
+   : nom d’affichage du filtre. Ce titre apparaît comme option de filtrage dans la boîte de dialogue de navigation des fichiers.
 
    property
-: propriété à faire correspondre dans les métadonnées du fichier. Par exemple, pour autoriser uniquement les fichiers dont la propriété contient les métadonnées `dita_class`, le filtre de propriété prend la valeur « `jcr:content/metadata/dita_class` ».
+   : propriété à faire correspondre dans les métadonnées du fichier. Par exemple, pour autoriser uniquement les fichiers dont la propriété contient les métadonnées `dita_class`, le filtre de propriété prend la valeur « `jcr:content/metadata/dita_class` ».
 
    opération
-: indiquez « `exists` » pour correspondre à l’existence de la valeur spécifiée dans le paramètre de propriété.
+   : indiquez « `exists` » pour correspondre à l’existence de la valeur spécifiée dans le paramètre de propriété.
 
    Le deuxième filtre concerne les fichiers image. Les paramètres sont similaires au premier filtre, à l’exception du paramètre `value`. Le paramètre `value` prend pour valeur un tableau de types d’images. Tous les types de fichiers spécifiés dans le paramètre value sont recherchés et affichés dans la boîte de dialogue de navigation des fichiers, tous les autres types de fichiers sont ignorés.
 
@@ -127,4 +142,4 @@ Les onglets suivants fournissent des instructions pour ajouter vos options de fi
 >[!ENDTABS]
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur](customize-overview.md)
+**Rubrique parente :**[ Personnaliser l’éditeur](customize-overview.md)

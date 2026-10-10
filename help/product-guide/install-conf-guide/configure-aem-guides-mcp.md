@@ -5,7 +5,15 @@ meta-feature: Authoring
 meta-product: Experience Manager, Experience Manager Guides
 meta-role: User
 meta-type: Documentation
-source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1557'
 ht-degree: 1%
@@ -17,7 +25,7 @@ Cet article couvre les détails spécifiques à l’environnement pour la connex
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 ## Point d’entrée du serveur MCP
 
@@ -25,7 +33,7 @@ Experience Manager Guides expose ses fonctionnalités MCP par le biais d’un po
 
 | Serveur MCP | Point d’entrée | Description |
 |---|---|---|
-| **&#x200B;**&#x200B;| `https://mcp.adobeaemcloud.com/adobe/mcp/guides` | Utiliser des rubriques et des cartes, des [nouvelles lignes de base](../user-guide/web-editor-baseline-v2.md) et des rapports dans Experience Manager Guides. |
+| **** | `https://mcp.adobeaemcloud.com/adobe/mcp/guides` | Utiliser des rubriques et des cartes, des [nouvelles lignes de base](../user-guide/web-editor-baseline-v2.md) et des rapports dans Experience Manager Guides. |
 
 Pour découvrir la liste d’outils actuelle pour votre environnement, demandez à votre assistant :
 
@@ -48,7 +56,7 @@ Vous n’installez rien localement. Vous pointez votre client vers l’URL du se
 
 ### Claude Anthropique
 
-Suivez la présentation officielle : [Configurer Claude pour AEM MCP](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude). Lors de l’ajout du connecteur personnalisé, utilisez le point d’entrée Experience Manager Guides :
+Suivez la présentation officielle : [Configurer Claude pour AEM MCP](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude). Lors de l’ajout du connecteur personnalisé, utilisez le point d’entrée Experience Manager Guides :
 
 ```
 https://mcp.adobeaemcloud.com/adobe/mcp/guides

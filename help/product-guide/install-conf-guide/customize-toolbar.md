@@ -5,20 +5,35 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 42f1ee19-cc59-49da-b882-5d97ec387df6
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '1728'
 ht-degree: 0%
-
 ---
-
 # Personnaliser la barre d’outils {#id172FB00L0V6}
 
 Par défaut, l&#39;éditeur est fourni avec les fonctions éditoriales les plus courantes requises par tout éditeur DITA. Des fonctionnalités telles que l’insertion d’éléments de type liste \(numérotée ou à puces\), référence croisée, référence de contenu, tableau, paragraphe et mise en forme de caractères sont disponibles dans l’éditeur. Outre ces éléments de base, vous pouvez personnaliser l’éditeur afin d’insérer des éléments utilisés dans votre environnement de création.
 
 >[!NOTE]
 >
-> Lors de la migration de l’ancienne interface utilisateur vers la nouvelle interface utilisateur d’AEM Guides (applicable à partir des versions 2502 et 5.0 d’AEM Guides), les mises à jour apportées à `ui_config` doivent être converties en configurations d’interface utilisateur plus flexibles et modulaires. Ce framework permet d’adopter facilement des modifications dans editor_toolbar et d’autres widgets cibles, le cas échéant. Pour plus d’informations, consultez [Présentation de la configuration de l’interface utilisateur de conversion](https://experienceleague.adobe.com/fr/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> Lors de la migration de l’ancienne interface utilisateur vers la nouvelle interface utilisateur d’AEM Guides (applicable à partir des versions 2502 et 5.0 d’AEM Guides), les mises à jour apportées à `ui_config` doivent être converties en configurations d’interface utilisateur plus flexibles et modulaires. Ce framework permet d’adopter facilement des modifications dans editor_toolbar et d’autres widgets cibles, le cas échéant. Pour plus d’informations, consultez [Présentation de la configuration de l’interface utilisateur de conversion](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Vous pouvez personnaliser la barre d’outils de l’éditeur de deux manières différentes :
 
@@ -35,7 +50,7 @@ Les onglets suivants fournissent des instructions en fonction de la configuratio
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Pour télécharger le fichier de configuration de l’interface utilisateur, connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 
@@ -55,13 +70,13 @@ Les onglets suivants fournissent des instructions en fonction de la configuratio
    **items** : spécifiez la définition de tous les groupes dans la barre d’outils. Chaque groupe peut contenir une ou plusieurs icônes de barre d’outils. Pour définir des icônes dans un groupe de barres d’outils, vous devez définir à nouveau l’attribut `type` dans le `items` et définir sa valeur sur `buttonGroup`. Spécifiez un ou plusieurs noms de classe dans la propriété `extraclass`. Spécifiez le nom de la fonction dans la propriété `label`. L’extrait de code suivant du fichier `ui_config.json` affiche la définition du bloc de barre d’outils principal, suivie de la définition du `buttonGroup` :
 
        « 
-     « toolbar »: &lbrace;
+     « toolbar »: {
      « type »: « blockGroup »,
      « extraclass »:
      « toolbar operations »,
-« items »: &lbrack;    &lbrace;
+« items »: [    {
 « type »: « buttonGroup »,    « extraclass »: « left-controls »,
-« label »: « Left Controls »,    « items »: &lbrack;
+« label »: « Left Controls »,    « items »: [
 «     « 
       
       
@@ -133,7 +148,7 @@ Les onglets suivants fournissent des instructions en fonction de la configuratio
 
 1. Dans le fichier `ui_config.json`, ajoutez la définition de la nouvelle fonctionnalité dans la section des barres d’outils. En règle générale, vous pouvez créer un groupe de boutons de la barre d’outils et y ajouter un ou plusieurs boutons. Vous pouvez également ajouter un nouveau bouton de barre d’outils à un groupe de barres d’outils existant. Les informations suivantes sont requises pour créer un groupe de barre d’outils :
 
-   - **type:**&#x200B;Spécifiez `blockGroup` comme valeur `type`. Cette valeur indique que vous créez un groupe de blocs qui contiendrait un ou plusieurs groupes de barres d’outils.
+   - **type:**Spécifiez `blockGroup` comme valeur `type`. Cette valeur indique que vous créez un groupe de blocs qui contiendrait un ou plusieurs groupes de barres d’outils.
 
    - **extraclass:** Nom de la ou des classes séparées par un espace.
 
@@ -153,7 +168,7 @@ Les onglets suivants fournissent des instructions en fonction de la configuratio
      ```
 
      Dans la collection `items`, vous devez spécifier la définition d’une ou de plusieurs icônes de barre d’outils.
-Vous devez définir les propriétés suivantes pour ajouter une icône de barre d’outils :
+     Vous devez définir les propriétés suivantes pour ajouter une icône de barre d’outils :
 
    - **type :** spécifiez `button` comme valeur `type`. Cette valeur indique que vous ajoutez un bouton de barre d’outils.
 
@@ -301,7 +316,7 @@ Les onglets suivants fournissent des instructions pour supprimer de la barre d�
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Pour télécharger le fichier de configuration de l’interface utilisateur, connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 

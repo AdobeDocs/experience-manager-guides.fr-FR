@@ -2,13 +2,19 @@
 title: Notes de mise à jour | Nouveautés de la version Adobe Experience Manager Guides 2026.06.0
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 2026.06.0 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: f3f30400f776f746427e257e2c937ff3413aa9ac
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 0%
-
 ---
-
 # Nouveautés de la version 2026.06.0 (juin 2026)
 
 Cet article présente les nouvelles fonctionnalités améliorées introduites dans la version 2026.06.0 d’Adobe Experience Manager Guides as a Cloud Service.
@@ -47,9 +53,9 @@ Pour plus d’informations sur **le moteur PDF natif v2**, consultez la page [Ut
 
 Experience Manager Guides prend désormais en charge le style de citation de l’American Medical Association (AMA), en étendant le cadre de citation existant pour répondre aux normes de documentation requises par les clients des secteurs de la santé, de la réglementation et des sciences de la vie.
 
-Lorsque AMA est sélectionné comme style de citation dans les paramètres **&#x200B;**, les citations sont automatiquement formatées conformément aux directives AMA, y compris le rendu numérique d&#39;exposant, la numérotation séquentielle et l&#39;ordre précis de la liste de référence. L’option **Analyser les citations** dans l’éditeur de texte enrichi est disponible exclusivement lorsque l’option AMA est sélectionnée, ce qui permet aux auteurs d’ajouter et d’analyser les citations sans changer de contexte.
+Lorsque AMA est sélectionné comme style de citation dans les paramètres ****, les citations sont automatiquement formatées conformément aux directives AMA, y compris le rendu numérique d&#39;exposant, la numérotation séquentielle et l&#39;ordre précis de la liste de référence. L’option **Analyser les citations** dans l’éditeur de texte enrichi est disponible exclusivement lorsque l’option AMA est sélectionnée, ce qui permet aux auteurs d’ajouter et d’analyser les citations sans changer de contexte.
 
-Le style de citation AMA est pris en charge dans les formats de sortie Native PDF et AEM Sites. Pour configurer le style de citation, accédez aux paramètres de **&#x200B;**&#x200B;puis sélectionnez AMA dans les options de style de citation. Pour plus d’informations, consultez la section [Utilisation de citations](../user-guide/web-editor-apply-citations.md).
+Le style de citation AMA est pris en charge dans les formats de sortie Native PDF et AEM Sites. Pour configurer le style de citation, accédez aux paramètres de **** puis sélectionnez AMA dans les options de style de citation. Pour plus d’informations, consultez la section [Utilisation de citations](../user-guide/web-editor-apply-citations.md).
 
 
 ### Prise en charge des sources de données externes et des citations désormais disponibles dans le nouvel éditeur

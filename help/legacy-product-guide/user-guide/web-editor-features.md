@@ -5,40 +5,61 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 045cafac-393f-49e9-9432-6533a4c6dc01
-TQID: https://experienceleague.adobe.com/9w3IF2Rc9cuXjKjo9u-p87TtYndxelRKyy8vkug9PSs
+TQID: 'https://experienceleague.adobe.com/9w3IF2Rc9cuXjKjo9u-p87TtYndxelRKyy8vkug9PSs'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+    internal-label: Map Editor
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: e2fdbf15-a7e4-4d2a-84cc-bd581e74b56d
+    internal-label: Disclaimer
   - id: f6b497f1-f8e0-42ce-8e95-56c28d94026e
+    internal-label: Conditional content
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Security
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 18775
+source-wordcount: '18959'
 ht-degree: 0%
-
 ---
-
 # Connaître les fonctionnalités de l’éditeur web {#id176NC500V5Z}
 
 Cette section décrit les différentes fonctionnalités disponibles dans l’éditeur web. Nous pouvons diviser l’éditeur web en sections ou zones suivantes :
@@ -127,28 +148,28 @@ Les paramètres de l’éditeur ne sont disponibles que pour les utilisateurs ad
 
   ![](images/editor-setting-general.png){width="650"}
 
-   - **Vérification orthographique** : il existe deux options : **Vérification orthographique AEM** et **Vérification orthographique du navigateur**. Par défaut, l’éditeur utilise la fonction de vérification orthographique du navigateur , où la vérification orthographique est effectuée à l’aide du dictionnaire intégré au navigateur. Vous pouvez passer à la vérification orthographique AEM pour utiliser le dictionnaire AEM, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section *Personnaliser le dictionnaire par défaut d’AEM* dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
+  - **Vérification orthographique** : il existe deux options : **Vérification orthographique AEM** et **Vérification orthographique du navigateur**. Par défaut, l’éditeur utilise la fonction de vérification orthographique du navigateur , où la vérification orthographique est effectuée à l’aide du dictionnaire intégré au navigateur. Vous pouvez passer à la vérification orthographique AEM pour utiliser le dictionnaire AEM, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section *Personnaliser le dictionnaire par défaut d’AEM* dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
 
 
-   - **Condition**
+  - **Condition**
 
-      - **Mettre le texte conditionnel en surbrillance en mode Création** : sélectionnez cette option pour mettre en surbrillance le texte conditionnel en mode Création. Le contenu conditionnel est mis en surbrillance à l’aide de la couleur définie pour la condition.
+    - **Mettre le texte conditionnel en surbrillance en mode Création** : sélectionnez cette option pour mettre en surbrillance le texte conditionnel en mode Création. Le contenu conditionnel est mis en surbrillance à l’aide de la couleur définie pour la condition.
 
-      - **Valider avec des attributs de condition** : sélectionnez cette option pour permettre la validation des valeurs définies pour les attributs. Cela vous empêche d’ajouter une valeur incorrecte.
+    - **Valider avec des attributs de condition** : sélectionnez cette option pour permettre la validation des valeurs définies pour les attributs. Cela vous empêche d’ajouter une valeur incorrecte.
 
-      - **Afficher la clé avec le titre dans le panneau Schéma d’objet** : sélectionnez cette option pour afficher les clés ainsi que les titres dans le schéma d’objet. Si vous ne sélectionnez pas cette option, seuls les titres s’affichent. Par exemple, les clés « os », « audience » et « other » sont également affichées avec les titres.
+    - **Afficher la clé avec le titre dans le panneau Schéma d’objet** : sélectionnez cette option pour afficher les clés ainsi que les titres dans le schéma d’objet. Si vous ne sélectionnez pas cette option, seuls les titres s’affichent. Par exemple, les clés « os », « audience » et « other » sont également affichées avec les titres.
 
-        ![](images/subject-scheme-title.png){width="550"}
+      ![](images/subject-scheme-title.png){width="550"}
 
-      - **Afficher le schéma d&#39;objet dans le panneau Conditions** : sélectionnez cette option pour afficher un schéma d&#39;objet dans le panneau Conditions. Si vous désélectionnez cette option, les conditions définies s’affichent dans le panneau Conditions .
+    - **Afficher le schéma d&#39;objet dans le panneau Conditions** : sélectionnez cette option pour afficher un schéma d&#39;objet dans le panneau Conditions. Si vous désélectionnez cette option, les conditions définies s’affichent dans le panneau Conditions .
 
-   - **Création**
+  - **Création**
 
-      - **Activer Remplacer tout** : sélectionnez cette option pour afficher l’icône Remplacer tout dans le panneau Rechercher et remplacer.
+    - **Activer Remplacer tout** : sélectionnez cette option pour afficher l’icône Remplacer tout dans le panneau Rechercher et remplacer.
 
 
-   - **Citations**
-Modifier le style des citations. Choisissez le style de citation dans la liste déroulante que vous souhaitez utiliser dans votre projet. Pour plus de détails, voir [Modifier les styles de citation](./web-editor-apply-citations.md#change-citation-style).
+  - **Citations**
+    Modifier le style des citations. Choisissez le style de citation dans la liste déroulante que vous souhaitez utiliser dans votre projet. Pour plus de détails, voir [Modifier les styles de citation](./web-editor-apply-citations.md#change-citation-style).
 
 
 **Panneaux** : ce paramètre contrôle les panneaux qui s’affichent dans le panneau de gauche de l’éditeur. Vous pouvez activer/désactiver le basculement pour afficher ou masquer le panneau souhaité.
@@ -179,69 +200,69 @@ Dans la capture d’écran suivante, seuls 3 des 4 éléments configurés de la 
 
 - **Publier le profil** : contient les profils de publication qui peuvent être utilisés pour publier la sortie de la **Base de connaissances**. Vous pouvez créer un profil pour une base de connaissances cible. Par exemple, Salesforce ou ServiceNow.
 
-   - **Créer un profil de publication Salesforce**
+  - **Créer un profil de publication Salesforce**
 
-     **Conditions préalables**
+    **Conditions préalables**
 
-      - Créez une application connectée pour Salesforce. Pour plus d’informations, voir [Activer les paramètres OAuth pour l’intégration de l’API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5).
+    - Créez une application connectée pour Salesforce. Pour plus d’informations, voir [Activer les paramètres OAuth pour l’intégration de l’API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5).
 
-      - Lors de la configuration de l’application connectée, assurez-vous des points suivants :
+    - Lors de la configuration de l’application connectée, assurez-vous des points suivants :
 
-         - Spécifiez le rappel .
+      - Spécifiez le rappel .
 
-           `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+        `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
-         - Sélectionnez les portées OAuth suivantes :
-            - Accès complet (complet)
-            - Sélectionnez Gérer les données utilisateur via les API (api) .
+      - Sélectionnez les portées OAuth suivantes :
+        - Accès complet (complet)
+        - Sélectionnez Gérer les données utilisateur via les API (api) .
 
   Une fois l’application configurée, Salesforce fournit une **Clé du client** et **Secret du client**.
 
   Ils peuvent être utilisés pour créer le profil de publication Salesforce.
 
 
-   - Pour créer un profil de publication Salesforce, sélectionnez la base de connaissances **Salesforce** dans le menu déroulant **Type de serveur**. Saisissez un nom de profil. Dans l’**URL du site**, saisissez le site client que vous utiliserez pour publier la sortie, puis ajoutez les **Clé du client** et **Secret du client** fournis par le site client Salesforce. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
-     ![profil de publication salesforce dans les paramètres de l’éditeur](./images/salesforce-publish-profile.png){width="550"}
+  - Pour créer un profil de publication Salesforce, sélectionnez la base de connaissances **Salesforce** dans le menu déroulant **Type de serveur**. Saisissez un nom de profil. Dans l’**URL du site**, saisissez le site client que vous utiliserez pour publier la sortie, puis ajoutez les **Clé du client** et **Secret du client** fournis par le site client Salesforce. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
+    ![profil de publication salesforce dans les paramètres de l’éditeur](./images/salesforce-publish-profile.png){width="550"}
 
-     >[!NOTE]
-     >
-     >Pour configurer un proxy pour Salesforce dans Experience Manager Guides, utilisez la configuration proxy de composants HTTP Apache dans AEM. Découvrez comment [configurer le proxy pour le Vérificateur de lien AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+    >[!NOTE]
+    >
+    >Pour configurer un proxy pour Salesforce dans Experience Manager Guides, utilisez la configuration proxy de composants HTTP Apache dans AEM. Découvrez comment [configurer le proxy pour le Vérificateur de lien AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
-   - **Créer un profil de publication ServiceNow**
+  - **Créer un profil de publication ServiceNow**
 
-     **Conditions préalables**
+    **Conditions préalables**
 
-     Configurez le serveur ServiceNow pour charger les ressources.
-      - Se connecter au serveur **ServiceNow**.
-      - Accédez à **Propriétés du système** > **Sécurité**.
-      - Désélectionnez l’option suivante :
+    Configurez le serveur ServiceNow pour charger les ressources.
+    - Se connecter au serveur **ServiceNow**.
+    - Accédez à **Propriétés du système** > **Sécurité**.
+    - Désélectionnez l’option suivante :
 
-        **Cette propriété doit être définie pour activer la vérification de type MIME pour les chargements (toutes les versions Eureka et ultérieures). Active (true) ou désactive (false) la validation du type MIME pour les pièces jointes. Les extensions de fichier configurées via glide.attachment.extensions seront vérifiées pour le type MIME lors du chargement.**
+      **Cette propriété doit être définie pour activer la vérification de type MIME pour les chargements (toutes les versions Eureka et ultérieures). Active (true) ou désactive (false) la validation du type MIME pour les pièces jointes. Les extensions de fichier configurées via glide.attachment.extensions seront vérifiées pour le type MIME lors du chargement.**
 
-      - Cliquez sur **Enregistrer**.
+    - Cliquez sur **Enregistrer**.
 
-     Une fois que vous avez configuré l’application, créez le profil de publication **ServiceNow**.
-   - Pour créer un profil de publication, sélectionnez la base de connaissances ServiceNow dans le menu déroulant **Type de serveur**. Saisissez un profil **Nom**. Dans l’URL **ServiceNow**, saisissez le site client que vous utiliseriez pour publier la sortie, puis ajoutez les **Nom d’utilisateur** et **Mot de passe** fournis par le site client ServiceNow. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
+    Une fois que vous avez configuré l’application, créez le profil de publication **ServiceNow**.
+  - Pour créer un profil de publication, sélectionnez la base de connaissances ServiceNow dans le menu déroulant **Type de serveur**. Saisissez un profil **Nom**. Dans l’URL **ServiceNow**, saisissez le site client que vous utiliseriez pour publier la sortie, puis ajoutez les **Nom d’utilisateur** et **Mot de passe** fournis par le site client ServiceNow. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
 
-     ![Profil de publication ServiceNow &#x200B;](./images/service-now-publish-profile.png){width="550"}
+    ![Profil de publication ServiceNow ](./images/service-now-publish-profile.png){width="550"}
 
-  Après la validation, vous pouvez sélectionner le profil de publication dans les paramètres prédéfinis de sortie d&#39;un plan DITA et l&#39;utiliser pour générer la sortie vers le serveur **&#x200B;**&#x200B;ou **ServiceNow** que vous avez choisi.
+  Après la validation, vous pouvez sélectionner le profil de publication dans les paramètres prédéfinis de sortie d&#39;un plan DITA et l&#39;utiliser pour générer la sortie vers le serveur **** ou **ServiceNow** que vous avez choisi.
 
   En savoir plus sur le paramètre prédéfini de sortie [Base de connaissances](../user-guide/generate-output-knowledge-base.md).
 
 
 - **Validation** : cet onglet contient des options pour configurer les validations de schéma dans l’éditeur web. Vous pouvez activer les fonctionnalités suivantes :
 
-   - **Exécuter la vérification de validation avant d’enregistrer le fichier** : sélectionnez cette option pour exécuter les validations Schematron à l’aide du ou des fichiers Schematron sélectionnés avant toute opération d’enregistrement. Vous pouvez ajouter un fichier Schematron en cliquant sur l&#39;icône + . Le ou les fichiers Schematron sélectionnés sont répertoriés.
+  - **Exécuter la vérification de validation avant d’enregistrer le fichier** : sélectionnez cette option pour exécuter les validations Schematron à l’aide du ou des fichiers Schematron sélectionnés avant toute opération d’enregistrement. Vous pouvez ajouter un fichier Schematron en cliquant sur l&#39;icône + . Le ou les fichiers Schematron sélectionnés sont répertoriés.
 
-     >[!NOTE]
-     >Le ou les fichiers de schéma sélectionnés seront conservés pour le profil de dossier sélectionné.
+    >[!NOTE]
+    >Le ou les fichiers de schéma sélectionnés seront conservés pour le profil de dossier sélectionné.
 
-     ![Validation dans les paramètres de l’éditeur](./images/editor-setting-validation.png){width="550"}
-Cela empêche les utilisateurs d’enregistrer tout fichier qui enfreint une règle définie dans le ou les fichiers de schéma sélectionnés. Si cette option n’est pas sélectionnée, le fichier ne sera pas validé avant d’enregistrer les modifications.
+    ![Validation dans les paramètres de l’éditeur](./images/editor-setting-validation.png){width="550"}
+    Cela empêche les utilisateurs d’enregistrer tout fichier qui enfreint une règle définie dans le ou les fichiers de schéma sélectionnés. Si cette option n’est pas sélectionnée, le fichier ne sera pas validé avant d’enregistrer les modifications.
 
-   - **Autoriser tous les utilisateurs à ajouter des fichiers Schematron dans le panneau de validation** : sélectionnez cette option pour autoriser les utilisateurs à ajouter n’importe quel fichier Schematron dans le panneau Validation de l’éditeur web. Cela permet aux utilisateurs d’ajouter des fichiers Schematron, puis de valider les rubriques par rapport au fichier Schematron. Si cette option n’est pas sélectionnée, le bouton **Ajouter un fichier de schéma** n’est pas disponible pour les utilisateurs dans le panneau **Validation** de l’éditeur web.
+  - **Autoriser tous les utilisateurs à ajouter des fichiers Schematron dans le panneau de validation** : sélectionnez cette option pour autoriser les utilisateurs à ajouter n’importe quel fichier Schematron dans le panneau Validation de l’éditeur web. Cela permet aux utilisateurs d’ajouter des fichiers Schematron, puis de valider les rubriques par rapport au fichier Schematron. Si cette option n’est pas sélectionnée, le bouton **Ajouter un fichier de schéma** n’est pas disponible pour les utilisateurs dans le panneau **Validation** de l’éditeur web.
 
 
 - **Afficher les attributs** : à l’instar de la liste des attributs, vous pouvez contrôler la liste des attributs à afficher dans la liste des attributs d’un élément. Par défaut, quatre **Attributs d’affichage** — audience, plateforme, produit et props ont été configurés pour être affichés dans la liste d’attributs d’un élément. Vous pouvez également ajouter un attribut d’affichage à l’aide de l’icône **Ajouter** située en haut. Vous pouvez également supprimer l’un des attributs d’affichage à l’aide de l’icône **Supprimer**.
@@ -253,30 +274,30 @@ Cela empêche les utilisateurs d’enregistrer tout fichier qui enfreint une rè
 - **Traduction** : cet onglet contient les options permettant de créer des groupes de langues, de propager les libellés source vers la version cible et de nettoyer le projet de traduction.
   ![](images/editor-setting-translation.png){width="550"}
 
-   - **Groupes de langues** : en tant qu’administrateur, vous pouvez créer un groupe de langues et les utiliser comme un ensemble pour traduire le contenu.\
-     Pour créer un groupe de langues, procédez comme suit :
-      1. Sélectionnez l’icône Ajouter ![icône d’ajout](images/Add_icon.svg) .
-      1. Saisissez le nom du groupe linguistique. Chaque langue doit avoir un nom unique. Vous pouvez voir une erreur si le champ du nom est vide ou si le nom n’est pas unique.
-      1. Sélectionnez les langues dans la liste déroulante. Vous pouvez sélectionner plusieurs langues.
+  - **Groupes de langues** : en tant qu’administrateur, vous pouvez créer un groupe de langues et les utiliser comme un ensemble pour traduire le contenu.\
+    Pour créer un groupe de langues, procédez comme suit :
+    1. Sélectionnez l’icône Ajouter ![icône d’ajout](images/Add_icon.svg) .
+    1. Saisissez le nom du groupe linguistique. Chaque langue doit avoir un nom unique. Vous pouvez voir une erreur si le champ du nom est vide ou si le nom n’est pas unique.
+    1. Sélectionnez les langues dans la liste déroulante. Vous pouvez sélectionner plusieurs langues.
 
-     Saisissez les premiers caractères de la langue ou le code de langue pour filtrer les langues souhaitées. Par exemple, saisissez « en » pour filtrer toutes les langues qui contiennent « en » au début de leur nom ou de leur code.
-      1. Sélectionnez **Terminé** pour ajouter les langues sélectionnées au groupe. Les langues s’affichent. Lorsque vous ajoutez trois langues ou plus, **Afficher plus** s’affiche. Vous pouvez sélectionner **Afficher plus** pour afficher toutes les langues présentes dans le groupe.
+    Saisissez les premiers caractères de la langue ou le code de langue pour filtrer les langues souhaitées. Par exemple, saisissez « en » pour filtrer toutes les langues qui contiennent « en » au début de leur nom ou de leur code.
+    1. Sélectionnez **Terminé** pour ajouter les langues sélectionnées au groupe. Les langues s’affichent. Lorsque vous ajoutez trois langues ou plus, **Afficher plus** s’affiche. Vous pouvez sélectionner **Afficher plus** pour afficher toutes les langues présentes dans le groupe.
 
-         >[!TIP]
-         >
-         > Activez le bouton (bascule) **Afficher plus** pour **Afficher moins** et afficher uniquement quelques langues.
+       >[!TIP]
+       >
+       > Activez le bouton (bascule) **Afficher plus** pour **Afficher moins** et afficher uniquement quelques langues.
 
-      1. Pointez sur les langues d’un groupe pour modifier ![icône de modification](images/edit_pencil_icon.svg) ou supprimer ![supprimer](images/Delete_icon.svg) les groupes de langues.
-      1. Enregistrez les **paramètres de l’éditeur**.
+    1. Pointez sur les langues d’un groupe pour modifier ![icône de modification](images/edit_pencil_icon.svg) ou supprimer ![supprimer](images/Delete_icon.svg) les groupes de langues.
+    1. Enregistrez les **paramètres de l’éditeur**.
 
-         >[!NOTE]
-         >
-         >En tant qu’utilisateur, vous pouvez afficher les groupes linguistiques configurés sur votre profil de dossier.
+       >[!NOTE]
+       >
+       >En tant qu’utilisateur, vous pouvez afficher les groupes linguistiques configurés sur votre profil de dossier.
 
-   - **Propager les libellés de la version source vers la version cible** : sélectionnez cette option pour transmettre le libellé de la version du fichier source au fichier traduit. Par défaut, cette option est désactivée.
-   - **Nettoyage du projet de traduction après l’achèvement** : sélectionnez cette option pour configurer les projets de traduction à désactiver ou à supprimer automatiquement après la traduction. Par défaut, **Aucun** est sélectionné, de sorte que le projet existe après traduction.
+  - **Propager les libellés de la version source vers la version cible** : sélectionnez cette option pour transmettre le libellé de la version du fichier source au fichier traduit. Par défaut, cette option est désactivée.
+  - **Nettoyage du projet de traduction après l’achèvement** : sélectionnez cette option pour configurer les projets de traduction à désactiver ou à supprimer automatiquement après la traduction. Par défaut, **Aucun** est sélectionné, de sorte que le projet existe après traduction.
 
-     Vous pouvez désactiver les projets de traduction si vous souhaitez les utiliser ultérieurement. La suppression d’un projet supprime définitivement tous les fichiers et dossiers présents dans le projet.
+    Vous pouvez désactiver les projets de traduction si vous souhaitez les utiliser ultérieurement. La suppression d’un projet supprime définitivement tous les fichiers et dossiers présents dans le projet.
 
 
 - **Métadonnées** : vous pouvez contrôler les métadonnées de version de la rubrique et leurs valeurs à afficher dans la boîte de dialogue **Historique des versions**.  Dans le chemin d’accès des métadonnées, indiquez l’emplacement des nœuds à partir desquels vous souhaitez sélectionner les métadonnées. Vous pouvez également définir un nom personnalisé pour les métadonnées comme libellé. Les propriétés par défaut sont Titre, État du document et Balises.
@@ -297,7 +318,7 @@ Cela empêche les utilisateurs d’enregistrer tout fichier qui enfreint une rè
 
 
   Vous pouvez également définir l’ordre d’affichage de ces balises de métadonnées. Pour modifier l’ordre par défaut de ces balises, sélectionnez les barres pointillées pour faire glisser et déposer les balises à l’emplacement souhaité.
-Les libellés de métadonnées apparaissent dans la même séquence dans l’**Historique des versions** de l’éditeur web.
+  Les libellés de métadonnées apparaissent dans la même séquence dans l’**Historique des versions** de l’éditeur web.
 
 
 
@@ -311,39 +332,39 @@ Les préférences utilisateur sont disponibles pour tous les auteurs. À l’aid
 
   ![Onglet Général des préférences utilisateur](images/user_preference_editor.PNG){width="550"}
 
-   - **Profils de dossier** : le profil de dossier contrôle diverses configurations liées aux attributs conditionnels, aux modèles de création, aux paramètres prédéfinis de sortie et aux configurations de l’éditeur web. Le profil global s’affiche par défaut. En outre, si votre administrateur a configuré des profils de dossier dans le système, ces profils de dossier s’affichent également dans la liste Profils de dossier .
+  - **Profils de dossier** : le profil de dossier contrôle diverses configurations liées aux attributs conditionnels, aux modèles de création, aux paramètres prédéfinis de sortie et aux configurations de l’éditeur web. Le profil global s’affiche par défaut. En outre, si votre administrateur a configuré des profils de dossier dans le système, ces profils de dossier s’affichent également dans la liste Profils de dossier .
 
-     Les configurations de l’éditeur web qu’un administrateur peut définir dans le profil de dossier incluent : la personnalisation de l’interface utilisateur, y compris les icônes de la barre d’outils, la disposition de l’éditeur web, les fragments de code et le mappage racine. Pour plus d’informations, consultez *Configuration de profils globaux ou de niveau dossier* dans la section Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
+    Les configurations de l’éditeur web qu’un administrateur peut définir dans le profil de dossier incluent : la personnalisation de l’interface utilisateur, y compris les icônes de la barre d’outils, la disposition de l’éditeur web, les fragments de code et le mappage racine. Pour plus d’informations, consultez *Configuration de profils globaux ou de niveau dossier* dans la section Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
 
-     >[!NOTE]
-     >
-     > Le nom du profil de dossier actuel est affiché comme libellé pour l’icône Préférences utilisateur dans la barre d’outils principale.
+    >[!NOTE]
+    >
+    > Le nom du profil de dossier actuel est affiché comme libellé pour l’icône Préférences utilisateur dans la barre d’outils principale.
 
-   - **Chemin de base** : par défaut, lorsque vous accédez au référentiel AEM à partir de l’éditeur web, des ressources s’affichent à partir de l’emplacement /content/dam. Votre dossier de travail serait probablement constitué de quelques dossiers à l’intérieur du dossier /content/dam/. Il vous faudrait quelques clics pour atteindre le dossier de travail à chaque fois. Vous pouvez définir le Chemin d’accès de base sur votre dossier de travail, puis la Vue du référentiel vous montre le contenu de cet emplacement au premier plan. Cela réduit le temps d’accès à votre dossier de travail. En outre, lorsque vous insérez un fichier de référence ou de média dans votre rubrique, l’emplacement de recherche de fichier commence par le dossier défini dans le chemin d’accès de base.
+  - **Chemin de base** : par défaut, lorsque vous accédez au référentiel AEM à partir de l’éditeur web, des ressources s’affichent à partir de l’emplacement /content/dam. Votre dossier de travail serait probablement constitué de quelques dossiers à l’intérieur du dossier /content/dam/. Il vous faudrait quelques clics pour atteindre le dossier de travail à chaque fois. Vous pouvez définir le Chemin d’accès de base sur votre dossier de travail, puis la Vue du référentiel vous montre le contenu de cet emplacement au premier plan. Cela réduit le temps d’accès à votre dossier de travail. En outre, lorsque vous insérez un fichier de référence ou de média dans votre rubrique, l’emplacement de recherche de fichier commence par le dossier défini dans le chemin d’accès de base.
 
-   - **Sélectionner la carte racine** : sélectionnez un fichier de carte DITA pour résoudre les références clés ou les entrées du glossaire. La carte racine sélectionnée a la priorité la plus élevée pour résoudre les références clés. Pour plus d’informations, voir [Résoudre les références clés](map-editor-other-features.md#id176GD01H05Z).
+  - **Sélectionner la carte racine** : sélectionnez un fichier de carte DITA pour résoudre les références clés ou les entrées du glossaire. La carte racine sélectionnée a la priorité la plus élevée pour résoudre les références clés. Pour plus d’informations, voir [Résoudre les références clés](map-editor-other-features.md#id176GD01H05Z).
 
-     >[!NOTE]
-     >    
-     > Si vous ne souhaitez utiliser aucune carte racine, assurez-vous que le champ **Sélectionner la carte racine** est vide.
+    >[!NOTE]
+    >    
+    > Si vous ne souhaitez utiliser aucune carte racine, assurez-vous que le champ **Sélectionner la carte racine** est vide.
 
 - **Apparence** : sélectionnez les thèmes de l&#39;application Web Editor et la vue source de la zone d&#39;édition du contenu.
 
   ![onglet apparence des préférences utilisateur](images/user_preference_editor_appearance.png){width="550"}
 
-   - **Afficher les fichiers par** : sélectionnez la méthode d’affichage par défaut des fichiers dans l’éditeur web. Vous pouvez afficher la liste des fichiers en fonction des titres ou des noms de fichier à partir des différents panneaux dans la vue **Auteur**.
+  - **Afficher les fichiers par** : sélectionnez la méthode d’affichage par défaut des fichiers dans l’éditeur web. Vous pouvez afficher la liste des fichiers en fonction des titres ou des noms de fichier à partir des différents panneaux dans la vue **Auteur**.
 
-     >[!NOTE]
-     >
-     > Par défaut, les fichiers sont affichés par titre dans l’éditeur web.
+    >[!NOTE]
+    >
+    > Par défaut, les fichiers sont affichés par titre dans l’éditeur web.
 
-   - **Thème de l’application** : vous pouvez choisir parmi les thèmes **Clair** ou **Sombre** de l’application. Dans le cas du thème **Clair**, les barres d’outils et les panneaux utilisent un arrière-plan gris clair. Dans le cas du thème **Sombre**, les barres d’outils et les panneaux utilisent un arrière-plan noir. Sélectionnez **Utiliser le thème de l’appareil** pour permettre à Experience Manager Guides de sélectionner les thèmes clairs et sombres en fonction du thème de votre appareil.  Dans tous les thèmes, la zone de modification du contenu s’affiche en arrière-plan blanc dans la vue **Auteur**.
+  - **Thème de l’application** : vous pouvez choisir parmi les thèmes **Clair** ou **Sombre** de l’application. Dans le cas du thème **Clair**, les barres d’outils et les panneaux utilisent un arrière-plan gris clair. Dans le cas du thème **Sombre**, les barres d’outils et les panneaux utilisent un arrière-plan noir. Sélectionnez **Utiliser le thème de l’appareil** pour permettre à Experience Manager Guides de sélectionner les thèmes clairs et sombres en fonction du thème de votre appareil.  Dans tous les thèmes, la zone de modification du contenu s’affiche en arrière-plan blanc dans la vue **Auteur**.
 
-   - **Thème d’affichage Source** : - Vous pouvez choisir parmi les thèmes **Clair** ou **Sombre** pour la zone d’édition du contenu dans l’affichage source. Dans le cas du thème **Clair**, la zone de modification du contenu utilise un arrière-plan gris clair pour la vue source, tandis que dans le cas du thème **Sombre**, il utilise un arrière-plan noir. Sélectionnez **Utiliser le thème de l’appareil** pour permettre à Experience Manager Guides de sélectionner les thèmes clairs et sombres en fonction du thème de votre appareil.
+  - **Thème d’affichage Source** : - Vous pouvez choisir parmi les thèmes **Clair** ou **Sombre** pour la zone d’édition du contenu dans l’affichage source. Dans le cas du thème **Clair**, la zone de modification du contenu utilise un arrière-plan gris clair pour la vue source, tandis que dans le cas du thème **Sombre**, il utilise un arrière-plan noir. Sélectionnez **Utiliser le thème de l’appareil** pour permettre à Experience Manager Guides de sélectionner les thèmes clairs et sombres en fonction du thème de votre appareil.
 
-   - **Toujours localiser les fichiers dans le référentiel** : sélectionnez cette option pour afficher l’emplacement d’un fichier dans le référentiel lors de sa modification dans l’éditeur web.
+  - **Toujours localiser les fichiers dans le référentiel** : sélectionnez cette option pour afficher l’emplacement d’un fichier dans le référentiel lors de sa modification dans l’éditeur web.
 
-   - **Afficher l’indicateur d’espace insécable en mode création** : sélectionnez cette option pour afficher un indicateur pour les espaces insécables lors de leur modification dans l’éditeur web. Il est activé par défaut.
+  - **Afficher l’indicateur d’espace insécable en mode création** : sélectionnez cette option pour afficher un indicateur pour les espaces insécables lors de leur modification dans l’éditeur web. Il est activé par défaut.
 
 **Modes Auteur, Source et Aperçu**
 
@@ -761,7 +782,7 @@ Pour accéder à l’historique des versions et revenir à une version spécifiq
 
    La boîte de dialogue **Historique des versions** s’affiche.
 
-   ![&#x200B; Boîte de dialogue Historique des versions &#x200B;](images/version-history-dialog-web-editor.png){width="550"}
+   ![Boîte de dialogue Historique des versions](images/version-history-dialog-web-editor.png){width="550"}
    *Prévisualiser les modifications dans les différentes versions d&#39;une rubrique.*
 
 1. Sélectionnez la version de la rubrique que vous souhaitez comparer ou revenir à dans la liste déroulante **Comparer avec**.
@@ -779,7 +800,7 @@ Pour accéder à l’historique des versions et revenir à une version spécifiq
    Onglet **Aperçu** : le contenu nouvellement ajouté est dans la police verte et le contenu supprimé est dans la police rouge.
 
    Onglet **Métadonnées** : les métadonnées nouvellement ajoutées sont dans la police verte et les métadonnées supprimées sont dans la police rouge.
-   ![Différence de métadonnées pour les versions &#x200B;](images/metadata-version-diff.png){width="550"}
+   ![Différence de métadonnées entre les versions ](images/metadata-version-diff.png){width="550"}
    *Comparez les métadonnées de différentes versions dans l’historique des versions.*
 
    >[!NOTE]
@@ -973,7 +994,7 @@ Sélectionnez l’icône **Filtrage avancé** ![icône de filtre avancé](images
 
 Vous pouvez afficher les options suivantes sous les onglets **Général** et **Avancé**.
 
-![&#x200B; boîte de dialogue filtre avancé &#x200B;](images/repository-filter-search-advanced.png) {width="800"}
+![ boîte de dialogue filtre avancé ](images/repository-filter-search-advanced.png) {width="800"}
 
 
 **Général**
@@ -993,8 +1014,8 @@ Cette opération est synchronisée avec la zone de recherche de la fenêtre du r
 **Avancé**
 
 - **Éléments DITA** : vous pouvez également rechercher des valeurs spécifiques dans les attributs des éléments DITA spécifiés.
-   - Sélectionnez **Ajouter un élément** ![Ajouter une icône](images/Add_icon.svg) pour ajouter les éléments, les attributs et les valeurs.
-   - Appliquez les filtres que vous avez sélectionnés.
+  - Sélectionnez **Ajouter un élément** ![Ajouter une icône](images/Add_icon.svg) pour ajouter les éléments, les attributs et les valeurs.
+  - Appliquez les filtres que vous avez sélectionnés.
 
 - Sélectionnez **Effacer tout** pour effacer tous les filtres appliqués.
 
@@ -1089,14 +1110,14 @@ Les différentes options du menu Options sont expliquées ci-dessous :
   ![](images/quick-preview_cs.png){width="800"}
 
 - **Renommer** : utilisez cette option pour renommer le fichier sélectionné. Saisissez le nom du nouveau fichier dans la boîte de dialogue **Renommer la ressource**.
-   - Vous pouvez renommer un fichier de n’importe quel type.
-   - Vous ne pouvez pas modifier l’extension d’un fichier.
-   - Deux fichiers ne peuvent pas porter le même nom. Par conséquent, vous ne pouvez pas renommer un fichier avec un nom qui existe déjà. Une erreur s’affiche.
+  - Vous pouvez renommer un fichier de n’importe quel type.
+  - Vous ne pouvez pas modifier l’extension d’un fichier.
+  - Deux fichiers ne peuvent pas porter le même nom. Par conséquent, vous ne pouvez pas renommer un fichier avec un nom qui existe déjà. Une erreur s’affiche.
 
 - **Déplacer vers** : utilisez cette option pour déplacer le fichier sélectionné vers un autre dossier.
-   - Vous pouvez saisir le nom du dossier de destination ou choisir **Sélectionner le chemin** pour sélectionner le dossier de destination.
-   - Vous pouvez déplacer un fichier de n’importe quel type vers n’importe quelle destination dans le dossier Contenu.
-   - Deux fichiers ne peuvent pas porter le même nom. Vous ne pouvez donc pas déplacer un fichier vers un dossier où un fichier portant le même nom existe déjà.
+  - Vous pouvez saisir le nom du dossier de destination ou choisir **Sélectionner le chemin** pour sélectionner le dossier de destination.
+  - Vous pouvez déplacer un fichier de n’importe quel type vers n’importe quelle destination dans le dossier Contenu.
+  - Deux fichiers ne peuvent pas porter le même nom. Vous ne pouvez donc pas déplacer un fichier vers un dossier où un fichier portant le même nom existe déjà.
 
   Si vous essayez de déplacer un fichier vers un dossier dans lequel un fichier portant le même nom existe mais avec un titre différent, la boîte de dialogue Renommer et déplacer le fichier s’affiche et vous devez renommer le fichier avant de le déplacer. Le fichier déplacé dans le dossier de destination porte le nouveau nom de fichier.
 
@@ -1110,9 +1131,9 @@ Les différentes options du menu Options sont expliquées ci-dessous :
 
   AEM Guides ne vous permet pas de renommer ou de déplacer un fichier dans les scénarios suivants :
 
-   - Vous ne pouvez pas déplacer ou renommer un fichier s’il fait partie d’une révision ou d’un workflow de traduction.
+  - Vous ne pouvez pas déplacer ou renommer un fichier s’il fait partie d’une révision ou d’un workflow de traduction.
 
-   - Si un autre utilisateur extrait le fichier, vous ne pouvez pas le renommer ni le déplacer. L’option Renommer ou Déplacer vers ne s’affiche pas pour le fichier.
+  - Si un autre utilisateur extrait le fichier, vous ne pouvez pas le renommer ni le déplacer. L’option Renommer ou Déplacer vers ne s’affiche pas pour le fichier.
 
   >[!NOTE]
   >
@@ -1128,24 +1149,24 @@ Les différentes options du menu Options sont expliquées ci-dessous :
 
 - **Supprimer** : utilisez cette option pour supprimer le fichier sélectionné. Une invite de confirmation s’affiche avant la suppression du fichier.
 
-   - Une invite de confirmation s’affiche avant la suppression du fichier.
-   - Si le fichier n’est pas référencé à partir d’un autre fichier, il est supprimé et un message de réussite s’affiche.
-   - Si le fichier est extrait, vous ne pouvez pas le supprimer et un message d’erreur s’affiche.
+  - Une invite de confirmation s’affiche avant la suppression du fichier.
+  - Si le fichier n’est pas référencé à partir d’un autre fichier, il est supprimé et un message de réussite s’affiche.
+  - Si le fichier est extrait, vous ne pouvez pas le supprimer et un message d’erreur s’affiche.
 
-     >[!NOTE]
-     >
-     > Si votre administrateur a empêché la suppression des fichiers extraits, le message d’erreur s’affiche. Pour plus d’informations, consultez la section *Empêcher la suppression des fichiers extraits* dans la section Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
+    >[!NOTE]
+    >
+    > Si votre administrateur a empêché la suppression des fichiers extraits, le message d’erreur s’affiche. Pour plus d’informations, consultez la section *Empêcher la suppression des fichiers extraits* dans la section Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
 
-   - Si le fichier est ajouté à une collection de favoris, la boîte de dialogue **Forcer la suppression** s’affiche et vous pouvez forcer sa suppression.
-   - Si le fichier est référencé à partir d’un autre fichier **la boîte de dialogue** Forcer la suppression s’affiche et vous pouvez forcer la suppression du fichier :
+  - Si le fichier est ajouté à une collection de favoris, la boîte de dialogue **Forcer la suppression** s’affiche et vous pouvez forcer sa suppression.
+  - Si le fichier est référencé à partir d’un autre fichier **la boîte de dialogue** Forcer la suppression s’affiche et vous pouvez forcer la suppression du fichier :
 
-     ![](images/options-menu-force-delete.png){width="550"}
+    ![](images/options-menu-force-delete.png){width="550"}
 
-     >[!NOTE]
-     >
-     > Si votre administrateur a autorisé la suppression du fichier, l’option **Forcer la suppression** est activée. Dans le cas contraire, la fonction **Forcer la suppression** est désactivée et un message s’affiche indiquant que vous n’êtes pas autorisé à supprimer les fichiers référencés. Pour plus d’informations, consultez la section *Empêcher la suppression des fichiers référencés* dans la section Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
+    >[!NOTE]
+    >
+    > Si votre administrateur a autorisé la suppression du fichier, l’option **Forcer la suppression** est activée. Dans le cas contraire, la fonction **Forcer la suppression** est désactivée et un message s’affiche indiquant que vous n’êtes pas autorisé à supprimer les fichiers référencés. Pour plus d’informations, consultez la section *Empêcher la suppression des fichiers référencés* dans la section Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
 
-   - Si vous supprimez une rubrique référencée et que vous avez ouvert le fichier contenant les références pour le modifier, le lien rompu pour le fichier référencé s’affiche.
+  - Si vous supprimez une rubrique référencée et que vous avez ouvert le fichier contenant les références pour le modifier, le lien rompu pour le fichier référencé s’affiche.
 
   >[!NOTE]
   >
@@ -1153,15 +1174,15 @@ Les différentes options du menu Options sont expliquées ci-dessous :
 
 - **Copier** : vous pouvez choisir parmi les options suivantes :
 
-   - **Copier l’UUID** : copiez l’UUID du fichier sélectionné dans le presse-papiers.
+  - **Copier l’UUID** : copiez l’UUID du fichier sélectionné dans le presse-papiers.
 
-   - **Copier le chemin d’accès** : copiez le chemin d’accès complet du fichier sélectionné dans le Presse-papiers.
+  - **Copier le chemin d’accès** : copiez le chemin d’accès complet du fichier sélectionné dans le Presse-papiers.
 
 - **Tout réduire** : réduisez tous les fichiers du référentiel. Seuls les dossiers de niveau supérieur du référentiel s’affichent.
 - **Ajouter à** : vous pouvez choisir parmi les options suivantes :
-   - **Favoris** : ajoute le fichier sélectionné aux favoris. Vous pouvez choisir de l’ajouter à une collection de favoris existante ou nouvelle.
+  - **Favoris** : ajoute le fichier sélectionné aux favoris. Vous pouvez choisir de l’ajouter à une collection de favoris existante ou nouvelle.
 
-   - **Contenu réutilisable** : ajoute le fichier sélectionné à la liste Contenu réutilisable dans le panneau de gauche.
+  - **Contenu réutilisable** : ajoute le fichier sélectionné à la liste Contenu réutilisable dans le panneau de gauche.
 
 - **Propriétés** : utilisez cette option pour ouvrir la page des propriétés du fichier sélectionné. Cette page de propriétés est également accessible à partir de l’interface utilisateur d’Assets en sélectionnant un fichier et en cliquant sur l’icône Propriétés de la barre d’outils.
 
@@ -1180,7 +1201,7 @@ Les différentes options du menu Options sont expliquées ci-dessous :
 
 - **Publier en tant que** : utilisez cette option pour publier une rubrique ou les éléments d’une rubrique dans un fragment de contenu.
 
-- **Génération rapide** : générez la sortie du fichier sélectionné. La sortie ne peut être générée que pour les fichiers qui font partie d’un paramètre prédéfini de sortie. Pour plus d’informations, consultez la section [&#x200B; Publication basée sur des articles à partir de l’éditeur web &#x200B;](web-editor-article-publishing.md#id218CK0U019I).
+- **Génération rapide** : générez la sortie du fichier sélectionné. La sortie ne peut être générée que pour les fichiers qui font partie d’un paramètre prédéfini de sortie. Pour plus d’informations, consultez la section [ Publication basée sur des articles à partir de l’éditeur web ](web-editor-article-publishing.md#id218CK0U019I).
 
 
 **Création de rubriques à partir de la vue Référentiel**
@@ -1278,15 +1299,15 @@ Vous pouvez effectuer les actions suivantes à l’aide du menu Options du fichi
 - **Aperçu** : ouvrez un aperçu du fichier de mappage. Dans cette vue, tous les fichiers de rubrique de la carte sont affichés dans une seule vue page par page unifiée.
 
 - **Copier** : vous pouvez choisir parmi les options suivantes :
-   - **Copier l’UUID** : copiez l’UUID du fichier de mappage dans le Presse-papiers.
-   - **Copier le chemin** : copiez le chemin d’accès complet du fichier de mappage dans le Presse-papiers.
+  - **Copier l’UUID** : copiez l’UUID du fichier de mappage dans le Presse-papiers.
+  - **Copier le chemin** : copiez le chemin d’accès complet du fichier de mappage dans le Presse-papiers.
 
 - **Localiser dans le référentiel** : affiche l’emplacement du fichier de mappage dans le référentiel \(ou DAM\).
 
 - **Ajouter à** : vous pouvez choisir parmi les options suivantes :
-   - **Favoris** : ajoute le fichier map aux favoris. Vous pouvez choisir de l’ajouter à une collection de favoris existante ou nouvelle.
+  - **Favoris** : ajoute le fichier map aux favoris. Vous pouvez choisir de l’ajouter à une collection de favoris existante ou nouvelle.
 
-   - **Contenu réutilisable** : ajoute le fichier de mappage à la liste Contenu réutilisable dans le panneau de gauche.
+  - **Contenu réutilisable** : ajoute le fichier de mappage à la liste Contenu réutilisable dans le panneau de gauche.
 
 - **Propriétés** : utilisez cette option pour ouvrir la page de propriétés du fichier de mappage. Cette page de propriétés est également accessible à partir de l’interface utilisateur d’Assets en sélectionnant un fichier et en cliquant sur l’icône Propriétés de la barre d’outils.
 
@@ -1312,7 +1333,7 @@ Dans la boîte de dialogue **Télécharger la carte**, vous pouvez choisir les o
   >
   >  Par défaut, les cartes téléchargées restent pendant cinq jours dans la boîte de réception de notifications d’AEM.
 
-- **Générer la sortie** : permet de générer la sortie du fichier de mappage sélectionné. La sortie ne peut être générée que pour les fichiers qui font partie d’un paramètre prédéfini de sortie. Pour plus d’informations, consultez la section [&#x200B; Publication basée sur des articles à partir de l’éditeur web &#x200B;](web-editor-article-publishing.md#id218CK0U019I).
+- **Générer la sortie** : permet de générer la sortie du fichier de mappage sélectionné. La sortie ne peut être générée que pour les fichiers qui font partie d’un paramètre prédéfini de sortie. Pour plus d’informations, consultez la section [ Publication basée sur des articles à partir de l’éditeur web ](web-editor-article-publishing.md#id218CK0U019I).
 - **Fermer** : ferme le fichier de mappage.
 
 
@@ -1336,8 +1357,8 @@ Vous pouvez effectuer les actions suivantes à l’aide du menu Options :
 
 - **Aperçu** : obtenez un aperçu rapide du fichier (.dita, .xml, audio, vidéo ou image) sans l’ouvrir. Vous pouvez redimensionner le volet d’aperçu. Si le contenu contient des `<xref>` ou des `<conref>`, vous pouvez les sélectionner pour les ouvrir dans un nouvel onglet.  Le titre du fichier s’affiche dans la fenêtre. Si aucun titre n’est présent, le nom du fichier s’affiche. Pour fermer le volet **Aperçu**, vous pouvez sélectionner l’icône de fermeture ou cliquer n’importe où en dehors du volet.
 - **Copier** : vous pouvez choisir parmi les options suivantes :
-   - **Copier l’UUID** : copiez l’UUID du fichier sélectionné dans le presse-papiers.
-   - **Copier le chemin d’accès** : copiez le chemin d’accès complet du fichier sélectionné dans le Presse-papiers.
+  - **Copier l’UUID** : copiez l’UUID du fichier sélectionné dans le presse-papiers.
+  - **Copier le chemin d’accès** : copiez le chemin d’accès complet du fichier sélectionné dans le Presse-papiers.
 
 
 - **Localiser dans le référentiel** : affiche l’emplacement du fichier sélectionné dans le référentiel \(ou DAM\).
@@ -1346,15 +1367,15 @@ Vous pouvez effectuer les actions suivantes à l’aide du menu Options :
 - **Tout réduire** : réduisez toutes les rubriques faisant partie du fichier de mappage actuel.
 
 - **Ajouter à** : vous pouvez choisir parmi les options suivantes :
-   - **Favoris** : ajoute le fichier sélectionné aux favoris. Vous pouvez choisir de l’ajouter à une collection de favoris existante ou nouvelle.
+  - **Favoris** : ajoute le fichier sélectionné aux favoris. Vous pouvez choisir de l’ajouter à une collection de favoris existante ou nouvelle.
 
-   - **Contenu réutilisable** : ajoute le fichier sélectionné à la liste Contenu réutilisable dans le panneau de gauche.
+  - **Contenu réutilisable** : ajoute le fichier sélectionné à la liste Contenu réutilisable dans le panneau de gauche.
 
 - **Propriétés** : utilisez cette option pour ouvrir la page des propriétés du fichier sélectionné. Cette page de propriétés est également accessible à partir de l’interface utilisateur d’Assets en sélectionnant un fichier et en cliquant sur l’icône Propriétés de la barre d’outils.
 
 - **Afficher dans l’interface utilisateur d’Assets** : utilisez cette option pour afficher un aperçu d’un fichier .dita/.xml dans l’interface utilisateur d’Assets. Dans le cas d’un fichier .ditamap/.bookmap, tous les fichiers de rubrique de la carte sont affichés dans une seule vue page par page unifiée.
 
-- **Génération rapide** : générez la sortie du fichier sélectionné. La sortie ne peut être générée que pour les fichiers qui font partie d’un paramètre prédéfini de sortie. Pour plus d’informations, consultez la section [&#x200B; Publication basée sur des articles à partir de l’éditeur web &#x200B;](web-editor-article-publishing.md#id218CK0U019I).
+- **Génération rapide** : générez la sortie du fichier sélectionné. La sortie ne peut être générée que pour les fichiers qui font partie d’un paramètre prédéfini de sortie. Pour plus d’informations, consultez la section [ Publication basée sur des articles à partir de l’éditeur web ](web-editor-article-publishing.md#id218CK0U019I).
 
 >[!NOTE]
 >
@@ -1498,10 +1519,10 @@ Vous pouvez configurer les paramètres suivants de l’outil Zone réactive :
 - **Action** : vous pouvez choisir de rechercher les clés du glossaire **manuellement pour chaque rubrique** ou **automatiquement pour toutes les rubriques**. Si vous choisissez **Manuellement pour chaque rubrique**, il vous invite à confirmer avant de convertir chaque terme de chaque rubrique. Si vous choisissez **Automatiquement pour toutes les rubriques**, tous les termes de toutes les rubriques sont automatiquement convertis.
 - **Convertir** : vous pouvez convertir un terme recherché **Texte en terme glossaire** ou **Terme glossaire en texte.**
 - **Options** : vous pouvez effectuer un choix parmi les options suivantes :
-   - **Correspondance sensible à la casse** : recherche un terme pour trouver la correspondance qui a la même casse. Par exemple, « USB » ne correspond pas à « usb ».
-   - **Convertir uniquement la première instance** : si plusieurs instances du terme recherché sont présentes dans une rubrique, seule la première instance est convertie.
-   - **Extraire le fichier avant la conversion** : le fichier recherché est extrait avant la conversion des termes.
-   - **Créer une version après la conversion** : une nouvelle version de la rubrique est créée une fois la conversion des termes terminée.
+  - **Correspondance sensible à la casse** : recherche un terme pour trouver la correspondance qui a la même casse. Par exemple, « USB » ne correspond pas à « usb ».
+  - **Convertir uniquement la première instance** : si plusieurs instances du terme recherché sont présentes dans une rubrique, seule la première instance est convertie.
+  - **Extraire le fichier avant la conversion** : le fichier recherché est extrait avant la conversion des termes.
+  - **Créer une version après la conversion** : une nouvelle version de la rubrique est créée une fois la conversion des termes terminée.
 - Le bouton **Suivant** apparaît si vous sélectionnez l’option **Manuellement pour chaque rubrique**. Cliquez sur **Suivant** pour convertir les termes de chaque rubrique en fonction des paramètres sélectionnés. Il demande la conversion des termes de chaque rubrique et passe au fichier suivant. Vous pouvez choisir de convertir un terme ou de l’ignorer et de passer au terme suivant.
 
   ![](images/manual-convert-skip.png){width="300"}
@@ -1741,7 +1762,7 @@ Effectuez les étapes suivantes pour modifier la valeur :
 
 Vous pouvez également appliquer des valeurs à un attribut en sélectionnant plusieurs valeurs dans la liste déroulante.
 
-Vue Source **&#x200B;**
+Vue Source ****
 
 Vous pouvez également modifier les valeurs à partir de la liste déroulante de l’attribut dans la vue Source. La vue Source vous empêche également d’ajouter une valeur incorrecte.
 
@@ -1996,7 +2017,7 @@ Vous pouvez accéder à la fonction **Propriétés du contenu** en sélectionnan
 
 1. Dans le panneau déroulant **Attribut**, sélectionnez l’attribut dans la liste déroulante et spécifiez une valeur d’attribut.  Cliquez ensuite sur **Ajouter**.
 
-   ![panneau attributs avec plusieurs attributs &#x200B;](images/attributes-multiple-properties.png){width="300"}
+   ![panneau attributs avec plusieurs attributs ](images/attributes-multiple-properties.png){width="300"}
 
 1. Pour modifier l’attribut, passez la souris dessus et sélectionnez **Modifier** ![icône-d’édition](images/edit_pencil_icon.svg).
    ![modifier les attributs](images/edit-attributes-content-properties.png){width="300"}
@@ -2031,7 +2052,7 @@ La section Général vous donne accès aux fonctionnalités suivantes :
 - **Langue** : affiche la langue de la rubrique. Elle est définie à partir du champ langue de la page des propriétés.
 - **Créé le** : affiche la date et l’heure de création de la rubrique.
 - **Extrait par** : affiche l’utilisateur qui a extrait la rubrique.
-- **État du document** : vous pouvez sélectionner et mettre à jour l’état du document de la rubrique actuellement ouverte. Pour plus d’informations, voir [État du document &#x200B;](web-editor-document-states.md#)*.*
+- **État du document** : vous pouvez sélectionner et mettre à jour l’état du document de la rubrique actuellement ouverte. Pour plus d’informations, voir [État du document ](web-editor-document-states.md#)*.*
 
 **Remarque :** vous pouvez copier dans le presse-papiers les valeurs d&#39;attribut des différents champs des propriétés du fichier.
 
@@ -2074,4 +2095,4 @@ La fonction Modifications suivies du panneau de droite vous permet d’afficher 
 >
 > La fonction Suivi des modifications affiche toutes les mises à jour qui ont été suivies à l’aide de la fonction Activer/désactiver le suivi des modifications de la barre d’outils principale. Pour plus d’informations, voir [Activation/désactivation du suivi des modifications](#id205DF0203Y4).
 
-**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur web](web-editor.md)
+**Rubrique parente :**[ Utiliser l’éditeur web](web-editor.md)

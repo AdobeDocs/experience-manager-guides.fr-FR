@@ -5,7 +5,24 @@ feature: Template Configuration
 role: Admin
 level: Experienced
 exl-id: aaf24a83-3a94-4f77-aa37-7b0398f6ae71
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: df6fa66f-4542-4a6d-90ca-9f146eb5d494
+    internal-label: Template configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 2%
@@ -37,7 +54,7 @@ Pour personnaliser un modèle de rubrique DITA et l&#39;utiliser pour la créati
 
 1. [Créer un modèle de création personnalisé](conf-profiles.md#id1917D0EG0HJ)
 
-1. Ajoutez un modèle personnalisé dans le profil global ou au niveau du dossier, comme expliqué dans la section [&#x200B; Configurer les modèles de création &#x200B;](conf-profiles.md#id1889D0IL0Y4)
+1. Ajoutez un modèle personnalisé dans le profil global ou au niveau du dossier, comme expliqué dans la section [ Configurer les modèles de création ](conf-profiles.md#id1889D0IL0Y4)
 
 
 ## Configurer le chemin d&#39;accès au dossier du modèle DITA personnalisé {#id191LCF0095Z}
@@ -57,7 +74,7 @@ Les onglets suivants fournissent des instructions pour configurer le chemin d&#3
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer un dossier pour vos modèles de rubrique DITA personnalisés :
 
@@ -98,4 +115,4 @@ Si l’emplacement spécifié existe dans la gestion des ressources numériques,
 >[!ENDTABS]
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Configurer la rubrique et les modèles de mappage](conf-template-tags.md)
+**Rubrique parente :**[ Configurer la rubrique et les modèles de mappage](conf-template-tags.md)

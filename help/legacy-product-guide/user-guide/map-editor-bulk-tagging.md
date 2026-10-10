@@ -5,29 +5,38 @@ feature: Metadata Management
 role: User
 hide: true
 exl-id: b320e34f-ee0a-4cc3-b4f6-d322fbb29844
-TQID: https://experienceleague.adobe.com/mQXuCClDCF6tDYUudR2NqJPPK-OEvnlI4y-rY4KF2Ko
+TQID: 'https://experienceleague.adobe.com/mQXuCClDCF6tDYUudR2NqJPPK-OEvnlI4y-rY4KF2Ko'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: da9cce28-0561-45e7-851e-4500741b9744
+    internal-label: Metadata management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Data management
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 716
+source-wordcount: '716'
 ht-degree: 0%
-
 ---
-
 # Balisage en bloc du contenu DITA {#id179SG0TN05Z}
 
 Les balises vous permettent de regrouper ou de classer le contenu dans votre référentiel de contenu ainsi que dans la sortie publiée. Si vous avez appliqué des balises à votre contenu, vous pouvez facilement trouver des rubriques connexes dans un plan DITA afin de créer du contenu. Grâce à la sortie publiée, les utilisateurs finaux pourront localiser plus rapidement le contenu approprié avec les balises appropriées en place.
 
-AEM Guides vous permet de baliser le contenu DITA en quelques clics. Vous pouvez utiliser la fonction de balisage en bloc pour appliquer plusieurs balises à plusieurs rubriques, à un plan DITA ou à un sous-plan. Vous pouvez également appliquer des balises à une rubrique spécifique. Le balisage est la fonctionnalité native d’AEM. Vous trouverez plus d’informations sur la création et la gestion des balises dans la section [Administration des balises](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=fr) de la documentation d’AEM.
+AEM Guides vous permet de baliser le contenu DITA en quelques clics. Vous pouvez utiliser la fonction de balisage en bloc pour appliquer plusieurs balises à plusieurs rubriques, à un plan DITA ou à un sous-plan. Vous pouvez également appliquer des balises à une rubrique spécifique. Le balisage est la fonctionnalité native d’AEM. Vous trouverez plus d’informations sur la création et la gestion des balises dans la section [Administration des balises](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) de la documentation d’AEM.
 
 Par défaut, AEM Guides n’accorde pas l’accès en lecture à un utilisateur sur le dossier dans lequel toutes les balises du référentiel AEM sont stockées. Pour utiliser les balises définies dans le référentiel AEM, vous devez demander à votre administrateur système l’autorisation d’accès au dossier dans lequel les balises sont stockées.
 
@@ -119,4 +128,4 @@ Pour supprimer toutes les balises d’une ou de plusieurs rubriques, procédez c
 
 Si une longue liste de balises est appliquée à vos rubriques, la navigation peut s’avérer un peu fastidieuse. Vous pouvez facilement masquer les balises dans dans la vue de la console Carte DITA en cliquant sur l&#39;icône Masquer les balises . De même, lorsque les balises ne sont pas visibles, si vous cliquez sur le bouton Afficher les balises , toutes les balises sont affichées.
 
-**Rubrique parente :**&#x200B;[&#x200B; Gérer les métadonnées](manage-metadata.md)
+**Rubrique parente :**[ Gérer les métadonnées](manage-metadata.md)

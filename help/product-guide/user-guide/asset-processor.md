@@ -5,24 +5,33 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
-TQID: https://experienceleague.adobe.com/gAPjyNNTtHv3StIe0O-Fs8Wx0NhXjkML-TEkAPLosIE
+TQID: 'https://experienceleague.adobe.com/gAPjyNNTtHv3StIe0O-Fs8Wx0NhXjkML-TEkAPLosIE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: '677'
 ht-degree: 0%
-
 ---
-
 # Traitement des ressources
 
 Dans les workflows gourmands en données tels que la publication, une gestion efficace des ressources est essentielle pour maintenir les performances et la fiabilité. Le workflow de traitement des ressources est conçu pour gérer les ressources spécifiques aux utilisateurs et utilisatrices nécessitant des opérations de données intensives. Elle traite principalement deux cas : lorsque le traitement initial échoue en raison d’erreurs ou lorsque les fichiers restent non traités car aucun déclencheur de traitement des ressources n’a été lancé. En activant le traitement ciblé au niveau du dossier, les utilisateurs et utilisatrices peuvent isoler et traiter uniquement les ressources nécessaires, évitant ainsi la surcharge de calculs inutiles. Cette approche sélective améliore considérablement les performances et réduit le temps nécessaire aux opérations critiques telles que la publication et la génération de rapports. Dans l’ensemble, il contribue à une plus grande efficacité et une plus grande rapidité dans la gestion des tâches de données complexes.
@@ -74,7 +83,7 @@ Suivez les étapes mentionnées ci-dessous pour traiter les ressources :
    1. **Sélectionner des dossiers et des fichiers** : parcourez l’arborescence et sélectionnez un ou plusieurs dossiers et fichiers à traiter.
    1. **Sélectionner les dossiers à ignorer** : si vous le souhaitez, sélectionnez les sous-dossiers dans le dossier parent sélectionné à exclure du traitement.
    1. **Type de ressource** : dans la liste déroulante, sélectionnez le type de ressource spécifique à traiter (par exemple, rubrique DITA, plan DITA, Markdown, HTML/CSS, DITAVAL ou d’autres fichiers). Seul le type de ressource sélectionné est traité à partir du ou des dossiers que vous avez spécifiés précédemment.
-Exemple : la sélection d&#39;une rubrique DITA traite uniquement les rubriques DITA du dossier sélectionné et active le filtrage ciblé.
+      Exemple : la sélection d&#39;une rubrique DITA traite uniquement les rubriques DITA du dossier sélectionné et active le filtrage ciblé.
    1. **Créé après/Créé avant** : appliquez des filtres de date pour traiter les ressources créées dans le délai spécifié.
 
    >[!NOTE]

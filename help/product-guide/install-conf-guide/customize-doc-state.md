@@ -5,13 +5,28 @@ feature: Document State
 role: Admin
 level: Experienced
 exl-id: 2f035c92-21f9-401a-a2cb-d1bc19c75598
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+subfeature_v2:
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 0%
-
 ---
-
 # Configurer les états du document {#id181GB0400UI}
 
 AEM Guides vous permet de définir les états du document pour vos rubriques DITA en fonction des besoins de votre entreprise. Vous pouvez définir différents états de votre document du début à la fin. Par exemple, le premier état peut être Brouillon et passer à Révision, Approuvé, Traduit et enfin à Publié.
@@ -30,7 +45,7 @@ AEM Guides est fourni avec un ensemble d’états de document par défaut. Ces �
 - Modifier
 - En cours de révision
 - Approuvé
-- Reviewed
+- Vérifié
 - Terminé
 
 Ces états par défaut sont disponibles pour toutes les rubriques DITA créées sous DAM. Vous pouvez créer vos propres états de document et les affecter à un dossier spécifique. Tous les fichiers DITA créés sous ce dossier auront alors accès aux états du document nouvellement créé.
@@ -62,11 +77,11 @@ Pour créer des états de document à l’aide du profil de dossier, procédez c
    - Spécifiez l’état de fin du document dans l’**État de fin**.
    - Spécifiez la transition d’état du document dans **De** et **À** sous **Transition d’état**.
 
-      - Spécifiez les utilisateurs et les groupes d’utilisateurs qui peuvent modifier le statut du document dans **Groupes**.
+     - Spécifiez les utilisateurs et les groupes d’utilisateurs qui peuvent modifier le statut du document dans **Groupes**.
 
-      - Cliquez sur le bouton **Ajouter** pour ajouter une transition d’état.
+     - Cliquez sur le bouton **Ajouter** pour ajouter une transition d’état.
 
-      - Cliquez sur l’icône Supprimer pour supprimer une transition d’état.
+     - Cliquez sur l’icône Supprimer pour supprimer une transition d’état.
 
      >[!NOTE]
      >
@@ -130,7 +145,7 @@ Les onglets suivants fournissent des instructions pour automatiser le changement
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Cliquez sur le lien Adobe Experience Manager en haut et choisissez **Outils**.
 1. Sélectionnez **Workflow** dans la liste des outils.
@@ -201,7 +216,7 @@ Les onglets suivants fournissent des instructions pour activer le workflow d’a
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Pour télécharger le fichier de configuration de l’interface utilisateur, connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 

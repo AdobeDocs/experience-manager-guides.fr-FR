@@ -5,13 +5,28 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 6fff24d2-ec25-4654-837c-179e8688e2f4
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '3397'
+source-wordcount: '3402'
 ht-degree: 1%
-
 ---
-
 # Configurer les paramètres de génération de sortie {#id181AI0B0E30}
 
 AEM Guides s’accompagne de nombreuses options de configuration vous permettant de personnaliser le processus de génération de sortie. Cette rubrique couvre toutes les configurations et personnalisations qui vous aideraient à configurer votre processus de génération de sortie.
@@ -22,7 +37,7 @@ Les onglets suivants fournissent des instructions pour masquer l&#39;onglet Lign
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration.
 1. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer l’onglet de ligne de base sur le tableau de bord de mappage.
@@ -77,7 +92,7 @@ Les onglets suivants fournissent des instructions pour configurer les propriét�
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Utilisez le gestionnaire de packages pour télécharger le fichier /libs/fmdita/config/templates/default.
 
@@ -139,7 +154,7 @@ Les onglets suivants fournissent des instructions pour configurer l’emplacemen
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md) pour créer le fichier de configuration.
 
@@ -184,7 +199,7 @@ Pour ajouter les métadonnées requises dans le système, procédez comme suit :
 
 1. Cliquez sur le lien Adobe Experience Manager en haut et choisissez **Outils**.
 
-1. Sélectionnez **&#x200B;**&#x200B;dans la liste des outils.
+1. Sélectionnez **** dans la liste des outils.
 
 1. Cliquez sur la mosaïque **Schémas de métadonnées**.
 
@@ -221,7 +236,7 @@ Vous devez ensuite rendre les métadonnées personnalisées disponibles dans la 
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Utilisez le gestionnaire de packages pour accéder au fichier metadataList disponible à l’emplacement suivant de votre référentiel Git Cloud Manager :
 
@@ -287,8 +302,8 @@ Pour valider les valeurs de métadonnées transmises à DITA-OT, vous pouvez uti
 
   Pour accéder au fichier metadata.xml :
 
-   - Connectez-vous à l’emplacement du serveur sur lequel l’instance AEM est en cours d’exécution.
-   - Migrez vers crx-quickstart/profiles/ditamaps/&lt;newly-created-directory-name\>/metadata.xml.
+  - Connectez-vous à l’emplacement du serveur sur lequel l’instance AEM est en cours d’exécution.
+  - Migrez vers crx-quickstart/profiles/ditamaps/&lt;newly-created-directory-name\>/metadata.xml.
 - Exemple de format de fichier :
 
   **metadata.xml**
@@ -347,11 +362,11 @@ AEM Guides fournit la catégorie `apps.fmdita.dashboard-extn` pour la personnali
 
 >[!NOTE]
 >
-> Pour plus d’informations sur la création de la bibliothèque cliente AEM, voir [&#x200B; Utilisation de bibliothèques côté client &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=fr).
+> Pour plus d’informations sur la création de la bibliothèque cliente AEM, voir [ Utilisation de bibliothèques côté client ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
 
 ## Gérer le rendu des images pendant la génération de la sortie {#id177BF0G0VY4}
 
-AEM s’accompagne d’un ensemble de workflows et de descripteurs de médias par défaut destinés au traitement des ressources. Dans AEM, il existe des workflows prédéfinis pour gérer le traitement des ressources pour les types MIME les plus courants. En règle générale, pour chaque image chargée, AEM crée plusieurs rendus de la même image au format binaire. Ces rendus peuvent être de tailles différentes, avec une résolution différente, avec un filigrane ajouté ou une autre caractéristique modifiée. Pour plus d’informations sur la façon dont AEM gère les ressources, voir [Traitement d’Assets à l’aide de gestionnaires de médias et de workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=fr) dans la documentation d’AEM.
+AEM s’accompagne d’un ensemble de workflows et de descripteurs de médias par défaut destinés au traitement des ressources. Dans AEM, il existe des workflows prédéfinis pour gérer le traitement des ressources pour les types MIME les plus courants. En règle générale, pour chaque image chargée, AEM crée plusieurs rendus de la même image au format binaire. Ces rendus peuvent être de tailles différentes, avec une résolution différente, avec un filigrane ajouté ou une autre caractéristique modifiée. Pour plus d’informations sur la façon dont AEM gère les ressources, voir [Traitement d’Assets à l’aide de gestionnaires de médias et de workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) dans la documentation d’AEM.
 
 AEM Guides vous permet de configurer le rendu d’image à utiliser au moment de la génération de la sortie de vos documents. Par exemple, vous pouvez choisir l’un des rendus d’image par défaut ou en créer un et l’utiliser pour publier vos documents. Le mappage de rendu d’image pour la publication de vos documents est stocké dans le fichier `/libs/fmdita/config/ **renditionmap.xml**`. Un extrait de fichier `renditionmap.xml` est le suivant :
 
@@ -424,7 +439,7 @@ Les onglets suivants fournissent des instructions pour définir un jour et une h
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour définir le jour et l’heure de la purge de l’historique et des journaux de sortie :
 
@@ -463,7 +478,7 @@ Vous pouvez modifier le nombre maximal de sorties générées affichées dans l&
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour modifier le nombre de sorties à afficher dans la liste :
 
@@ -503,8 +518,8 @@ Pour configurer AEM Guides afin d’utiliser FMPS, mettez à jour les propriét�
 
 | Propriété | Description |
 |--------|-----------|
-| Domaine de connexion FrameMaker Publishing Server | Indiquez le nom de domaine ou le nom du groupe de travail sur lequel le FrameMaker Publishing Server est hébergé. En fonction de la version FMPS, indiquez le nom de domaine comme :- **FMPS 2020** : adresse IP au 192.168.1.101 <br>- **FMPS 2019 et versions antérieures** : adresse IP ou nom de domaine |
-| URL FRAMEMAKER PUBLISHING SERVER | Spécifiez l’URL du FrameMaker Publishing Server. En fonction de la version FMPS, indiquez l’URL FMPS comme suit : <br>- **FMPS 2020** : `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019 et versions antérieures** : `http://<fmps_ip>:<port>/fmserver/v1/` |
+| Domaine de connexion FrameMaker Publishing Server | Indiquez le nom de domaine ou le nom du groupe de travail sur lequel le FrameMaker Publishing Server est hébergé. En fonction de la version FMPS, indiquez le nom de domaine comme suit :- **FMPS 2020** : adresse IP comme 192.168.1.101 <br>- **FMPS 2019 et versions antérieures** : adresse IP ou nom de domaine |
+| URL FRAMEMAKER PUBLISHING SERVER | Spécifiez l’URL du FrameMaker Publishing Server. En fonction de la version FMPS, indiquez l’URL FMPS sous la forme :<br>- **FMPS 2020** : `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019 et versions antérieures** : `http://<fmps_ip>:<port>/fmserver/v1/` |
 | Version FMPS | Spécifiez le numéro de version du FrameMaker Publishing Server. En fonction de la version du FMPS, fournissez les informations de version comme suit : <br>- **FMPS 2020** : 2020 <br> - **FMPS 2019 et versions antérieures** : 2019 ou 2017. |
 | Nom d’utilisateur et mot de passe FrameMaker Publishing Server | Indiquez le nom d’utilisateur et le mot de passe pour accéder au FrameMaker Publishing Server. |
 | Timeout FMPS | \(*Facultatif*\) Spécifiez la durée \(en secondes\) pendant laquelle AEM Guides attend une réponse du FrameMaker Publishing Server. Si aucune réponse n’est reçue dans le délai spécifié, AEM Guides met fin à la tâche de publication et celle-ci est marquée comme ayant échoué. <br> Valeur par défaut : 300 secondes \(5 minutes\) |

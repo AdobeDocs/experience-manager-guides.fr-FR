@@ -5,27 +5,36 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: ef7ab117-7541-4e89-9ba4-22254a17efc0
-TQID: https://experienceleague.adobe.com/ri2JBIGaro4dVmRbzq1KfOjt4DghBghn6hQ2-dbZ42E
+TQID: 'https://experienceleague.adobe.com/ri2JBIGaro4dVmRbzq1KfOjt4DghBghn6hQ2-dbZ42E'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Implementation
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1559
+source-wordcount: '1560'
 ht-degree: 0%
-
 ---
-
 # Configurer des connecteurs de source de données personnalisés
 
 Experience Manager Guides vous permet de personnaliser les connecteurs en fonction de vos besoins, puis de les utiliser avec les différentes sources de données. Pour personnaliser un connecteur, vous devez implémenter l’interface du connecteur et ses fonctions importantes, puis configurer l’interface. Vous pouvez également fournir les ressources avec les connecteurs personnalisés.
@@ -35,16 +44,16 @@ Experience Manager Guides vous permet de personnaliser les connecteurs en foncti
 - [Implémentation de l’interface du connecteur](#implement-interface)
 - [Fonctions importantes](#important-functions)
 - [Types d’implémentations du connecteur par défaut](#default-connectors)
-   - [Interface de configuration](#config-interface)
-   - [Types d’implémentations de configuration par défaut](#default-config-types)
-   - [Implémentations de configuration concrètes](#concrete-config-implementation)
-   - [Ressources supplémentaires](#resources)
+  - [Interface de configuration](#config-interface)
+  - [Types d’implémentations de configuration par défaut](#default-config-types)
+  - [Implémentations de configuration concrètes](#concrete-config-implementation)
+  - [Ressources supplémentaires](#resources)
 
 
 
 ## Personnaliser un connecteur pour Experience Manager Guides {#customize-connector}
 
-Vous pouvez personnaliser ou configurer un connecteur pour une source de données à l’aide des interfaces prédéfinies et des classes abstraites. L’intégralité du code source est disponible à l’adresse [&#128279;](https://github.com/adobe/guides-data-source-connectors/tree/main/konnect-definitions).
+Vous pouvez personnaliser ou configurer un connecteur pour une source de données à l’aide des interfaces prédéfinies et des classes abstraites. L’intégralité du code source est disponible à l’adresse [](https://github.com/adobe/guides-data-source-connectors/tree/main/konnect-definitions).
 
 
 Reportez-vous à [![javadoc](https://javadoc.io/badge2/com.adobe.aem.addon.guides/konnect-definitions/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem.addon.guides/konnect-definitions) pour les définitions de connexion.

@@ -8,13 +8,19 @@ product_v2:
     internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: fc07eb3b-d7d7-4e9a-a558-c3099c2b6f7b
+    internal-label: Release notes
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 2%
@@ -29,7 +35,7 @@ Cet article fournit les informations les plus récentes sur Adobe Experience Man
 |---|---|
 | **AEM Guides 2026.09.0** | [2026.09.0 Nouveautés](./whats-new-2026-09-0.md)<br><br>[2026.09.0 Problèmes résolus](./fixed-issues-2026-09-0.md)<br><br>[2026.09.0 Instructions de mise à niveau](./upgrade-instructions-2026-09-0.md) |
 | **AEM Guides 2026.08.0** | [2026.08.0 Nouveautés](./whats-new-2026-08-0.md)<br><br>[2026.08.0 Problèmes résolus](./fixed-issues-2026-08-0.md)<br><br>[2026.08.0 Instructions de mise à niveau](./upgrade-instructions-2026-08-0.md) |
-| **AEM Guides 2026.07.0** | [2026.07.0 Correction de problèmes &#x200B;](./fixed-issues-2026-07-0.md)<br><br>[2026.07.0 Instructions de mise à niveau](./upgrade-instructions-2026-07-0.md) |
+| **AEM Guides 2026.07.0** | [2026.07.0 Correction de problèmes ](./fixed-issues-2026-07-0.md)<br><br>[2026.07.0 Instructions de mise à niveau](./upgrade-instructions-2026-07-0.md) |
 | **AEM Guides 2026.06.0** | [2026.06.0 Nouveautés](./whats-new-2026-06-0.md)<br><br>[2026.06.0 Problèmes résolus](./fixed-issues-2026-06-0.md)<br><br>[instructions de mise à niveau pour la version 2026.06.0](./upgrade-instructions-2026-06-0.md) |
 | **AEM Guides 2026.05.0 Service Pack 1** | [2026.05.0 Service Pack 1 Correction de problèmes](./fixed-issues-2026-05-0-sp1.md) |
 | **AEM Guides 2026.05.0** | [2026.05.0 Nouveautés](./whats-new-2026-05-0.md)<br><br>[2026.05.0 Problèmes résolus](./fixed-issues-2026-05-0.md)<br><br>[2026.05.0 Instructions de mise à niveau](./upgrade-instructions-2026-05-0.md) |
@@ -52,7 +58,7 @@ Cet article fournit les informations les plus récentes sur Adobe Experience Man
 
 | Version [!DNL AEM Guides] | Notes de mise à jour |
 |---|---|
-| **AEM Guides 2024.12.0** | [2024.12.0 Correction de problèmes &#x200B;](./fixed-issues-2024-12-0.md)<br><br>[instructions de mise à niveau vers la version 2024.12.0](./upgrade-instructions-2024-12-0.md) |
+| **AEM Guides 2024.12.0** | [2024.12.0 Correction de problèmes ](./fixed-issues-2024-12-0.md)<br><br>[instructions de mise à niveau vers la version 2024.12.0](./upgrade-instructions-2024-12-0.md) |
 | **AEM Guides 2024.10.0 Service Pack 1** | [2024.10.0 Service Pack 1 Correction de problèmes](./fixed-issues-2024-10-0-sp1.md) |
 | **AEM Guides 2024.10.0** | [2024.10.0 Nouveautés](./whats-new-2024-10-0.md)<br><br>[2024.10.0 Correction de problèmes](./fixed-issues-2024-10-0.md)<br><br>[instructions de mise à niveau pour la version 2024.10.0](./upgrade-instructions-2024-10-0.md) |
 | **AEM Guides 2024.06.0** | [2024.06.0 Nouveautés](./whats-new-2024-06-0.md)<br><br>[2024.06.0 Problèmes résolus](./fixed-issues-2024-06-0.md)<br><br>[2024.06.0 Instructions de mise à niveau](./upgrade-instructions-2024-06-0.md) |
@@ -63,15 +69,15 @@ Cet article fournit les informations les plus récentes sur Adobe Experience Man
 
 | Version [!DNL AEM Guides] | Notes de mise à jour |
 |---|---|
-| **AEM Guides 2023.12.0** | Notes de mise à jour de la version [2023.12.0](./whats-new-2023-12-0.md)<br><br>[2023.12.0 - Nouveautés &#x200B;](./release-notes-2023-12-0.md) |
-| **AEM Guides 2023.11.0** | Notes de mise à jour de la version [2023.11.0](./whats-new-2023-11-0.md)<br><br>[2023.11.0 - Nouveautés &#x200B;](./release-notes-2023-11-0.md) |
-| **AEM Guides 2023.10.0** | [2023.10.0 Notes de mise à jour de la version 2023.10.0 &#x200B;](./whats-new-2023-10-0.md)<br><br>[&#x200B; quoi de neuf &#x200B;](./release-notes-2023-10-0.md) |
-| **AEM Guides 2023.09.0** | [2023.09.0 Notes de mise à jour de la version 2023.09.0 de la &#x200B;](./whats-new-2023-9-0.md)<br><br>[&#x200B; 2023 &#x200B;](./release-notes-2023-9-0.md) |
-| **AEM Guides 2023.07.0** | [2023.07.0 Notes de mise à jour de la version 2023.07.0 de &#x200B;](./whats-new-2023-7-0.md)<br><br>[2023](./release-notes-2023-7-0.md) |
-| **AEM Guides 2023.06.0** | [2023.06.0 Notes de mise à jour de la version 2023.06.0 de &#x200B;](./whats-new-2023-6-0.md)<br><br>[2023](./release-notes-2023-6-0.md) |
-| **AEM Guides 2023.04.0** | [2023.04.0 Notes de mise à jour de la version 2023.04.0 de &#x200B;](./whats-new-2023-4-0.md)<br><br>[2023](./release-notes-2023-4-0.md) |
-| **AEM Guides 2023.03.0** | [2023.03.0 Notes de mise à jour de la version 2023.03.0 de &#x200B;](./whats-new-2023-3-0.md)<br><br>[2023](./release-notes-2023-3-0.md) |
-| **AEM Guides 2023.02.0** | [2023.02.0 Notes de mise à jour de la version 2023.02.0 de &#x200B;](./whats-new-2023-2-0.md)<br><br>[2023](./release-notes-2023-2-0.md) |
+| **AEM Guides 2023.12.0** | Notes de mise à jour de la version [2023.12.0](./whats-new-2023-12-0.md)<br><br>[2023.12.0 - Nouveautés ](./release-notes-2023-12-0.md) |
+| **AEM Guides 2023.11.0** | Notes de mise à jour de la version [2023.11.0](./whats-new-2023-11-0.md)<br><br>[2023.11.0 - Nouveautés ](./release-notes-2023-11-0.md) |
+| **AEM Guides 2023.10.0** | [2023.10.0 Notes de mise à jour de la version 2023.10.0 ](./whats-new-2023-10-0.md)<br><br>[ quoi de neuf ](./release-notes-2023-10-0.md) |
+| **AEM Guides 2023.09.0** | [2023.09.0 Notes de mise à jour de la version 2023.09.0 de la ](./whats-new-2023-9-0.md)<br><br>[ 2023 ](./release-notes-2023-9-0.md) |
+| **AEM Guides 2023.07.0** | [2023.07.0 Notes de mise à jour de la version 2023.07.0 de ](./whats-new-2023-7-0.md)<br><br>[2023](./release-notes-2023-7-0.md) |
+| **AEM Guides 2023.06.0** | [2023.06.0 Notes de mise à jour de la version 2023.06.0 de ](./whats-new-2023-6-0.md)<br><br>[2023](./release-notes-2023-6-0.md) |
+| **AEM Guides 2023.04.0** | [2023.04.0 Notes de mise à jour de la version 2023.04.0 de ](./whats-new-2023-4-0.md)<br><br>[2023](./release-notes-2023-4-0.md) |
+| **AEM Guides 2023.03.0** | [2023.03.0 Notes de mise à jour de la version 2023.03.0 de ](./whats-new-2023-3-0.md)<br><br>[2023](./release-notes-2023-3-0.md) |
+| **AEM Guides 2023.02.0** | [2023.02.0 Notes de mise à jour de la version 2023.02.0 de ](./whats-new-2023-2-0.md)<br><br>[2023](./release-notes-2023-2-0.md) |
 
 ## Versions de 2022
 

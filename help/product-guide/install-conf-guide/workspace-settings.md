@@ -4,7 +4,20 @@ description: Découvrez les différents paramètres disponibles dans l’interfa
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2378'
 ht-degree: 1%
@@ -58,7 +71,7 @@ Les paramètres Général vous permettent de configurer les paramètres pour uti
 
   - **Standard** : après avoir activé le bouton (bascule) **Standard**, vous pouvez configurer les options qui apparaissent sous l’onglet **Création** pour les auteurs à l’aide du menu **Actions rapides de création** comme illustré ci-dessous.
 
-    Ces modifications s’appliquent au profil de dossier spécifique que vous utilisez. Si vous créez un profil de dossier, il héritera des paramètres Workspace définis dans le profil de dossier **global** par défaut. Vous pouvez modifier ces paramètres selon vos besoins à l&#39;aide des paramètres **&#x200B;**&#x200B;et enregistrer la configuration mise à jour.
+    Ces modifications s’appliquent au profil de dossier spécifique que vous utilisez. Si vous créez un profil de dossier, il héritera des paramètres Workspace définis dans le profil de dossier **global** par défaut. Vous pouvez modifier ces paramètres selon vos besoins à l&#39;aide des paramètres **** et enregistrer la configuration mise à jour.
 
     Pour obtenir un aperçu détaillé des options disponibles pour la création à l’aide de l’assistant AI, consultez la page [Créer des documents de manière intelligente avec l’assistant AI](../user-guide/ai-assistant-right-panel.md).
 
@@ -96,7 +109,7 @@ Les paramètres Général vous permettent de configurer les paramètres pour uti
 
   - **Vérification orthographique du navigateur** : par défaut, l’éditeur utilise la fonctionnalité de vérification orthographique du navigateur, dans laquelle la vérification orthographique est effectuée à l’aide du dictionnaire intégré du navigateur.
 
-  - **Vérification orthographique d’AEM** : vous pouvez passer à la vérification orthographique d’AEM pour utiliser le dictionnaire Adobe Experience Manager, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section [&#x200B; Personnaliser le dictionnaire par défaut d’AEM &#x200B;](../install-conf-guide/customize-aem-default-dictionary.md).
+  - **Vérification orthographique d’AEM** : vous pouvez passer à la vérification orthographique d’AEM pour utiliser le dictionnaire Adobe Experience Manager, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section [ Personnaliser le dictionnaire par défaut d’AEM ](../install-conf-guide/customize-aem-default-dictionary.md).
 
     >[!NOTE]
     >
@@ -199,9 +212,9 @@ Configurez le serveur ServiceNow pour charger les ressources.
 
 - Pour créer un profil, sélectionnez la base de connaissances ServiceNow dans le menu déroulant **Type de serveur**. Saisissez un profil **Nom**. Dans l’URL **ServiceNow**, saisissez le site client que vous utiliseriez pour publier la sortie, puis ajoutez les **Nom d’utilisateur** et **Mot de passe** fournis par le site client ServiceNow. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
 
-  ![Profil de publication ServiceNow &#x200B;](../user-guide/images/service-now-publish-profile.png){width="550"}
+  ![Profil de publication ServiceNow ](../user-guide/images/service-now-publish-profile.png){width="550"}
 
-  Après la validation, vous pouvez sélectionner le profil de publication dans les paramètres prédéfinis de sortie d&#39;un plan DITA et l&#39;utiliser pour générer la sortie vers le serveur **&#x200B;**&#x200B;ou **ServiceNow** que vous avez choisi.
+  Après la validation, vous pouvez sélectionner le profil de publication dans les paramètres prédéfinis de sortie d&#39;un plan DITA et l&#39;utiliser pour générer la sortie vers le serveur **** ou **ServiceNow** que vous avez choisi.
 
   En savoir plus sur le paramètre prédéfini de sortie [Base de connaissances](../user-guide/generate-output-knowledge-base.md).
 

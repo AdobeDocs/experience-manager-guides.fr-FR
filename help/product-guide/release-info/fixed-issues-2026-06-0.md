@@ -1,13 +1,19 @@
 ---
 title: Notes de mise à jour | Correction de problèmes dans Adobe Experience Manager Guides, version 2026.06.0
 description: Découvrez les correctifs de bugs de la version 2026.06.0 d’Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 318f2b7a530e50ca4432313650801b2293d6697e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2171'
 ht-degree: 0%
-
 ---
-
 # Correction de problèmes dans la version 2026.06.0
 
 Cet article couvre les bugs corrigés dans différentes zones de la version 2026.06.0 d’Adobe Experience Manager Guides as a Cloud Service.
@@ -63,10 +69,10 @@ Découvrez les [instructions de mise à niveau pour la version 2026.06.0](upgrad
 - Lors de la publication d&#39;un plan DITA avec des éléments `processing-role=resource-only` sur AEM Sites (avec le mappage de composants hérité), des pages de site orphelines sont générées pour ces éléments dans des scénarios supplémentaires tels que des éléments `topicgroup` et des configurations de contenu spécifiques. (GUIDES-37650)
 - Lorsqu’une carte avec un nom long est ajoutée à une collection de cartes, l’interface utilisateur de la collection de cartes s’affiche avec une disposition déformée. Ce problème a été résolu avec la collection New maps. (GUIDES-42062)
 - Publication avec le moteur PDF natif v1 :
-   - Lors de la génération d’une sortie Native PDF pour certains contenus, seule la première page est rendue dans PDF, malgré l’HTML intermédiaire contenant l’intégralité du contenu sur plusieurs pages. (GUIDES-28270)
-   - L’ordre de lecture du contenu dans la sortie PDF native avec les paramètres d’accessibilité activés est incorrect. Les numéros de page des pieds de page sont lus avant le contenu principal et non à la fin. (GUIDES-27790)
-   - La barre de couleurs dans la sortie Native PDF ne s’étend pas sur toute la largeur de la page et se chevauche lorsque la taille de la page est personnalisée, ce qui masque certaines zones de couleur. (GUIDES-15505)
-   - Le sélecteur de pseudo-classe CSS `:is()` n’est pas respecté dans la sortie Native PDF, ce qui entraîne des différences de style par rapport au rendu du navigateur. (GUIDES-11328)
+  - Lors de la génération d’une sortie Native PDF pour certains contenus, seule la première page est rendue dans PDF, malgré l’HTML intermédiaire contenant l’intégralité du contenu sur plusieurs pages. (GUIDES-28270)
+  - L’ordre de lecture du contenu dans la sortie PDF native avec les paramètres d’accessibilité activés est incorrect. Les numéros de page des pieds de page sont lus avant le contenu principal et non à la fin. (GUIDES-27790)
+  - La barre de couleurs dans la sortie Native PDF ne s’étend pas sur toute la largeur de la page et se chevauche lorsque la taille de la page est personnalisée, ce qui masque certaines zones de couleur. (GUIDES-15505)
+  - Le sélecteur de pseudo-classe CSS `:is()` n’est pas respecté dans la sortie Native PDF, ce qui entraîne des différences de style par rapport au rendu du navigateur. (GUIDES-11328)
 
   >[!NOTE]
   >

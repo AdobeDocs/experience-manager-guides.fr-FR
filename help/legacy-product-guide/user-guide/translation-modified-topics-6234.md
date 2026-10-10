@@ -5,19 +5,23 @@ feature: Translation
 role: User
 hide: true
 exl-id: b623b109-8695-40e5-9e28-78f78cf57ad6
-TQID: https://experienceleague.adobe.com/xRXpKCXKrklbhlb0UEf8gVuKrQOyVcEMgZ20XxrtsUw
+TQID: 'https://experienceleague.adobe.com/xRXpKCXKrklbhlb0UEf8gVuKrQOyVcEMgZ20XxrtsUw'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 626b0638-bd2d-504c-8ccd-53d63b856710
+    internal-label: Translation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 613
+source-wordcount: '613'
 ht-degree: 0%
-
 ---
-
 # Traduire les rubriques modifiées {#id16A5A0B6072}
 
 Si vous apportez des modifications à certains sujets, alors ces sujets doivent être retraduits. Vous pouvez suivre les rubriques modifiées à partir du plan DITA. Dans le dossier de copie de la langue source, cliquez sur le fichier de mappage DITA, puis sur l&#39;onglet Traduction . Vous pouvez voir le statut de chaque rubrique, qu’elle nécessite une retraduction ou non.
@@ -85,4 +89,4 @@ Effectuez les étapes suivantes pour envoyer une rubrique modifiée pour retradu
 1. Revenez au fichier de mappage DITA dans le dossier de langue source dans l’interface utilisateur d’Assets. Les rubriques retraduites sont désormais synchronisées.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Traduire le contenu](translation.md)
+**Rubrique parente :**[ Traduire le contenu](translation.md)

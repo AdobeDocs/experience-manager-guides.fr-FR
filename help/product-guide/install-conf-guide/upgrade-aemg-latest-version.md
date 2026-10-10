@@ -5,13 +5,28 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: f84bc82a-505c-4511-8336-bb87c8eb78e3
-source-git-commit: aac604893134edc2b28e8f6d7977e92256fe7e63
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1884'
 ht-degree: 2%
-
 ---
-
 # Mise à niveau d’Adobe Experience Manager Guides vers les versions 4.6.0 et ultérieures
 
 Cet article fournit des instructions pour mettre à niveau vos versions Experience Manager Guides pour 4.6.0 et les versions ultérieures.
@@ -46,7 +61,7 @@ Pour plus d’informations, reportez-vous aux procédures suivantes :
 
 >[!IMPORTANT]
 >
-> Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, veillez à effectuer d’abord la mise à niveau d’AEM avant de poursuivre la mise à niveau vers Experience Manager Guides 5.2.0. Pour plus d’informations, consultez la section [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/fr/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, veillez à effectuer d’abord la mise à niveau d’AEM avant de poursuivre la mise à niveau vers Experience Manager Guides 5.2.0. Pour plus d’informations, consultez la section [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 **Conditions préalables**
 
@@ -66,7 +81,7 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 5.
 
 **Installer la version 5.2.0**
 
-Téléchargez le package de la version 5.2.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) et suivez les instructions fournies dans [Workflow de mise à niveau de l’installation et de la post-installation](#installation-and-post-installation-upgrade-workflow) pour terminer la mise à niveau.
+Téléchargez le package de la version 5.2.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) et suivez les instructions fournies dans [Workflow de mise à niveau de l’installation et de la post-installation](#installation-and-post-installation-upgrade-workflow) pour terminer la mise à niveau.
 
 
 ## Mise à niveau vers la version 5.1.0
@@ -74,7 +89,7 @@ Téléchargez le package de la version 5.2.0 à partir du portail de distributio
 
 >[!IMPORTANT]
 >
-> Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, veillez à effectuer d’abord la mise à niveau d’AEM avant de poursuivre la mise à niveau vers Experience Manager Guides 5.1.0. Pour plus d’informations, consultez la section [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/fr/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Si vous utilisez actuellement AEM 6.5 et envisagez de passer à AEM 6.5 LTS, veillez à effectuer d’abord la mise à niveau d’AEM avant de poursuivre la mise à niveau vers Experience Manager Guides 5.1.0. Pour plus d’informations, consultez la section [Mise à niveau vers Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 **Conditions préalables**
 
@@ -94,7 +109,7 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 5.
 
 **Installer la version 5.1.0**
 
-Téléchargez le package de la version 5.1.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) et suivez les instructions fournies dans [Workflow de mise à niveau de l’installation et de la post-installation](#installation-and-post-installation-upgrade-workflow) pour terminer la mise à niveau.
+Téléchargez le package de la version 5.1.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) et suivez les instructions fournies dans [Workflow de mise à niveau de l’installation et de la post-installation](#installation-and-post-installation-upgrade-workflow) pour terminer la mise à niveau.
 
 
 ## Mise à niveau vers la version 5.0.0
@@ -118,7 +133,7 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 5.
 
 **Installer la version 5.0.0**
 
-Téléchargez le package de la version 5.0.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) et suivez les instructions fournies dans [Workflow de mise à niveau de l’installation et de la post-installation](#installation-and-post-installation-upgrade-workflow) pour terminer la mise à niveau.
+Téléchargez le package de la version 5.0.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) et suivez les instructions fournies dans [Workflow de mise à niveau de l’installation et de la post-installation](#installation-and-post-installation-upgrade-workflow) pour terminer la mise à niveau.
 
 ## Mise à niveau vers la version 4.6.0
 
@@ -142,7 +157,7 @@ Avant de lancer le processus de mise à niveau vers Experience Manager Guides 4.
 
 **Installer la version 4.6.0**
 
-Téléchargez le package de la version 4.6.0 à partir du portail de distribution logicielle [&#128279;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) et suivez les instructions fournies dans [Workflow de mise à niveau de l’installation et de la post-installation](#installation-and-post-installation-upgrade-workflow) pour terminer la mise à niveau.
+Téléchargez le package de la version 4.6.0 à partir du portail de distribution logicielle [](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) et suivez les instructions fournies dans [Workflow de mise à niveau de l’installation et de la post-installation](#installation-and-post-installation-upgrade-workflow) pour terminer la mise à niveau.
 
 ## Workflow de mise à niveau de l’installation et post-installation
 
@@ -151,7 +166,7 @@ Téléchargez le package de la version 4.6.0 à partir du portail de distributio
 Pour installer le package de version, procédez comme suit :
 
 1. Installez le package de version sur lequel vous souhaitez effectuer la mise à niveau.
-1. Vous pouvez choisir d’appuyer sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [&#x200B; Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
+1. Vous pouvez choisir d’appuyer sur le déclencheur pour démarrer la tâche de mise à niveau de la carte de traduction. Pour plus d’informations, consultez [ Activation du déclencheur de script via une servlet](#enable-trigger-of-script-via-a-servlet).
 
 1. Une fois l’installation du package terminée, attendez le message suivant dans les journaux :
 
@@ -193,15 +208,15 @@ Après avoir installé Experience Manager Guides, vous pouvez fusionner les diff
 
      **Onglet courant :**
 
-      - **Title :** initiateur de post-processus DXML
+     - **Title :** initiateur de post-processus DXML
 
-      - **Description** : étape d’initialisation de post-traitement DXML qui déclenchera une tâche sling pour le post-traitement DXML de la ressource modifiée/créée
+     - **Description** : étape d’initialisation de post-traitement DXML qui déclenchera une tâche sling pour le post-traitement DXML de la ressource modifiée/créée
 
      **Onglet Processus**
 
-      - Sélectionnez **DXML Post Process Initiator** dans le menu déroulant **Process**
-      - Sélectionnez **Avance du gestionnaire**
-      - Sélectionnez **Terminé**
+     - Sélectionnez **DXML Post Process Initiator** dans le menu déroulant **Process**
+     - Sélectionnez **Avance du gestionnaire**
+     - Sélectionnez **Terminé**
 
 1. Sélectionnez **Synchronisation** en haut à droite après avoir effectué les modifications. Vous recevrez une notification de succès.
 
@@ -278,7 +293,7 @@ Lors de cette mise à niveau, puisque la valeur `'order'` est modifiée de 1 000
 
 ### Procédure de réindexation de damAssetLucene
 
-La définition d’index est mise à jour pour damAssetLucene avec AEM Guides. Après la mise à niveau vers la version requise, reportez-vous à [cet article](https://experienceleague.adobe.com/fr/docs/experience-cloud-kcs/kbarticles/ka-16460) pour réindexer damAssetLucene.
+La définition d’index est mise à jour pour damAssetLucene avec AEM Guides. Après la mise à niveau vers la version requise, reportez-vous à [cet article](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) pour réindexer damAssetLucene.
 
 >[!NOTE]
 >

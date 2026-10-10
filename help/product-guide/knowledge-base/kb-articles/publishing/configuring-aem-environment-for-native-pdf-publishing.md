@@ -4,28 +4,37 @@ description: Configuration de l’environnement AEM pour la publication native d
 exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
 feature: Native PDF Output
 role: User, Admin
-TQID: https://experienceleague.adobe.com/SLuPn9YigAcHvcSEdrbbQOz29Y6DeWGYnWktWY9L9nQ
+TQID: 'https://experienceleague.adobe.com/SLuPn9YigAcHvcSEdrbbQOz29Y6DeWGYnWktWY9L9nQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
+  - id: c4e6b17e-c50c-59a1-a719-9c33ce69e5b6
+    internal-label: Native PDF Output
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 911
+source-wordcount: '928'
 ht-degree: 1%
-
 ---
-
 # Configuration de l’environnement AEM pour la publication native de PDF
 
 AEM Guides comprend un moteur de publication PDF natif qui permet aux utilisateurs et utilisatrices de concevoir, développer et publier le contenu au format PDF.
@@ -126,7 +135,7 @@ Le moteur de publication natif de PDF a besoin du JDK Oracle pour générer les 
 Commande : yum install fontconfig
 12. Générez un PDF natif à partir de paramètres prédéfinis dans l’éditeur.
 
-**REMARQUE** : le package node_modules.zip peut être téléchargé [ici] (:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
+**REMARQUE** : le package node_modules.zip peut être téléchargé [ici](:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
 
 L’importation manuelle des modules de nœud téléchargés pour le système d’exploitation Linux est une solution de contournement pour les utilisateurs qui utilisent Guides 4.1 ou des versions antérieures (étapes 6 à 12)
 
@@ -158,8 +167,8 @@ L’importation manuelle des modules de nœud téléchargés pour le système d�
    C:/{aem-installation-folder}/crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
 
    i) rechercher . -type d -exec chmod 0755 {} \;
-ii) rechercher . -type f -exec chmod 0755 {} \;
-iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix . install —unsafe-perm —scripts-prepend-node-path
+   ii) rechercher . -type f -exec chmod 0755 {} \;
+   iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix . install —unsafe-perm —scripts-prepend-node-path
 
 8. Vérifiez si Java est installé à l’aide de la commande ci-dessous
 
@@ -190,7 +199,7 @@ Si le problème persiste même après la correction des paramètres de l’envir
 
 ### Bibliothèques manquantes dans RHEL 7 Linux OS
 
-![bibliothèques manquantes &#x200B;](../assets/publishing/missing-libraries.png)
+![bibliothèques manquantes ](../assets/publishing/missing-libraries.png)
 
 ### Délai d’expiration du processus de publication. Le processus ne s&#39;est pas terminé dans le délai donné de 0ms
 
@@ -200,4 +209,4 @@ Validez la valeur de la propriété timeout pour le nœud nodejs dans /var/dxml/
 
 
 
-Si vous rencontrez des problèmes lors de l’exécution des étapes ci-dessus, publiez votre question sur le [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=fr) de la communauté AEM Guides pour obtenir de l’aide.
+Si vous rencontrez des problèmes lors de l’exécution des étapes ci-dessus, publiez votre question sur le [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) de la communauté AEM Guides pour obtenir de l’aide.

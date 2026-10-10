@@ -5,27 +5,37 @@ exl-id: 05d4d876-f83b-473c-bf31-14d6565e80e2
 feature: AEM Guides FrameMaker Publishing Server
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
-TQID: https://experienceleague.adobe.com/-qkx3TRKOd-kPx1tFrguuWvBY4hIIyqLdCfKDQzR5jg
+TQID: 'https://experienceleague.adobe.com/-qkx3TRKOd-kPx1tFrguuWvBY4hIIyqLdCfKDQzR5jg'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
 subfeature_v2:
   - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+    internal-label: FrameMaker Publishing Server
+  - id: 43575067-18aa-56e1-84c9-757301b6ffaf
+    internal-label: AEM Guides FrameMaker Publishing Server
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 757
+source-wordcount: '779'
 ht-degree: 0%
-
 ---
-
 # Publication à l’aide de FrameMaker Publishing Server (FMPS) dans AEM Guides
 
 L’intégration d’AEM Guides à FrameMaker Publishing Server peut être votre solution si vous recherchez une publication automatisée de haute qualité.\
@@ -33,9 +43,9 @@ Cet article vous aide à configurer et à exécuter FMPS avec AEM Guides.
 
 ## Compatibilité de FMPS avec AEM Guides
 
-- Compatibilité avec la version 4.1 d’AEM Guides : matrice de compatibilité [4.1](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=fr/#compatibility-matrix)
+- Compatibilité avec la version 4.1 d’AEM Guides : matrice de compatibilité [4.1](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
 - Compatibilité avec AEM Guides 4.0 : matrice de compatibilité [4.0](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- Dernière version : [dernières informations de mise à jour](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=fr)
+- Dernière version : [dernières informations de mise à jour](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
 
 ## Installation
 
@@ -47,7 +57,7 @@ Référencez l’installation et la configuration : installation et configuratio
 
 ### FMPS
 
-Pour l&#39;installation FMPS, vous pouvez vous référer au lien [YouTube donné](https://www.youtube.com/watch?v=2deelyM5VA8&t) ou [Installation et configuration FMPS](https://help.adobe.com/fr_FR/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&rhtocid=_2)
+Pour l&#39;installation FMPS, vous pouvez vous référer au lien [YouTube donné](https://www.youtube.com/watch?v=2deelyM5VA8&t) ou [Installation et configuration FMPS](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&rhtocid=_2)
 
 ## Configurations requises
 
@@ -59,7 +69,7 @@ Pour ouvrir la console web, accédez à l’URL Accès http://\&lt;nom du serveu
 
 ## Exécution du test :
 
-En utilisant FMPS, vous pouvez publier automatiquement **&#x200B;**&#x200B;Responsive HTML5 et **Epub** pour vos Assets DITA et FM.
+En utilisant FMPS, vous pouvez publier automatiquement **** Responsive HTML5 et **Epub** pour vos Assets DITA et FM.
 
 Dans le menu « Générer PDF à l’aide de », choisissez FrameMaker Publishing Server.
 
@@ -76,7 +86,7 @@ Il s’agit d’un conflit si vous avez choisi le paramètre prédéfini FMPS et
 
 Vous pouvez publier les lignes de base déjà créées avec la version FMPS2020.0.2 ou une version ultérieure.
 
-**Exemple de fichier de paramètres FMPS (fichier .sts) pour commencer :** [Exemple de fichier de paramètres FMPS] (:aaid:scds:US:ef750752-7a7e-4e51-923e-6b7d9861ed54) (décompressez ce fichier)
+**Exemple de fichier de paramètres FMPS (fichier .sts) pour commencer :** [Exemple de fichier de paramètres FMPS](:aaid:scds:US:ef750752-7a7e-4e51-923e-6b7d9861ed54) (décompressez ce fichier)
 
 ## Questions fréquentes et dépannage :
 
@@ -107,10 +117,10 @@ Vous pouvez publier les lignes de base déjà créées avec la version FMPS2020.
 
 ## Autres ressources :
 
-[Formation et assistance FMPS](https://helpx.adobe.com/fr/support/framemaker-publishing-server.html)
+[Formation et assistance FMPS](https://helpx.adobe.com/support/framemaker-publishing-server.html)
 
 [Formation et assistance pour AEM Guides](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
 [FrameMaker et communauté FMPS](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&sort=latest_replies&lang=all&tabid=all)
 
-[Communauté AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=fr)
+[Communauté AEM Guides](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)

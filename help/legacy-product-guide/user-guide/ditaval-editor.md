@@ -5,29 +5,35 @@ feature: Authoring, DITAVAL Editor
 role: User
 hide: true
 exl-id: 8eee347d-840e-4eaf-9441-c7c53a7c3aa0
-TQID: https://experienceleague.adobe.com/kIveRGwg17BgYGEsn9dgAtr8r5HFlEya-nD7gK2G--c
+TQID: 'https://experienceleague.adobe.com/kIveRGwg17BgYGEsn9dgAtr8r5HFlEya-nD7gK2G--c'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: ca593223-d11a-4a52-b369-a8e081e71737
+    internal-label: Desktop tools
+  - id: ec789d92-5632-44b6-abc6-bc29bbd44cb6
+    internal-label: DITAVAL editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 792
+source-wordcount: '792'
 ht-degree: 0%
-
 ---
-
 # Éditeur DITAVAL {#ditaval-editor}
 
 Les fichiers DITAVAL sont utilisés pour générer une sortie conditionnelle. Dans une seule rubrique, vous pouvez ajouter des conditions à l’aide d’attributs d’élément pour conditionner le contenu. Ensuite, vous créez un fichier DITAVAL dans lequel vous spécifiez les conditions qui doivent être sélectionnées pour générer du contenu et quelle condition doit être exclue de la sortie finale.
 
-AEM Guides vous permet de créer et modifier facilement des fichiers DITAVAL à l&#39;aide de l&#39;éditeur DITAVAL. L’éditeur DITAVAL récupère les attributs \(ou balises\) définis dans votre système et vous pouvez les utiliser pour créer ou modifier des fichiers DITAVAL. Pour plus d’informations sur la création et la gestion des balises dans AEM, consultez la section [Administration des balises](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=fr) de la documentation AEM.
+AEM Guides vous permet de créer et modifier facilement des fichiers DITAVAL à l&#39;aide de l&#39;éditeur DITAVAL. L’éditeur DITAVAL récupère les attributs \(ou balises\) définis dans votre système et vous pouvez les utiliser pour créer ou modifier des fichiers DITAVAL. Pour plus d’informations sur la création et la gestion des balises dans AEM, consultez la section [Administration des balises](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) de la documentation AEM.
 
 ## Créer un fichier DITAVAL
 
@@ -63,13 +69,13 @@ Pour modifier un fichier DITAVAL, procédez comme suit :
    L&#39;éditeur DITAVAL permet d&#39;effectuer les tâches suivantes :
 
    A : Activer/désactiver le panneau de gauche
-Activez/désactivez la vue du panneau de gauche. Si vous avez ouvert le fichier DITAVAL via un plan DITA, le plan et le référentiel sont affichés dans ce panneau. Pour plus d&#39;informations sur l&#39;ouverture d&#39;un fichier via un plan DITA, voir [Modifier les rubriques via un plan DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+   Activez/désactivez la vue du panneau de gauche. Si vous avez ouvert le fichier DITAVAL via un plan DITA, le plan et le référentiel sont affichés dans ce panneau. Pour plus d&#39;informations sur l&#39;ouverture d&#39;un fichier via un plan DITA, voir [Modifier les rubriques via un plan DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
    B : enregistrer
-Enregistre les modifications effectuées dans le fichier. Toutes vos modifications sont enregistrées dans la version actuelle de votre fichier.
+   Enregistre les modifications effectuées dans le fichier. Toutes vos modifications sont enregistrées dans la version actuelle de votre fichier.
 
    C : Ajouter une propriété
-Ajoutez une seule propriété dans votre fichier DITAVAL.
+   Ajoutez une seule propriété dans votre fichier DITAVAL.
 
    ![](images/ditaval-editor-props.png)
 
@@ -78,7 +84,7 @@ Ajoutez une seule propriété dans votre fichier DITAVAL.
    La deuxième liste déroulante affiche les valeurs configurées pour l’attribut sélectionné. Ensuite, la liste déroulante suivante affiche les actions que vous pouvez configurer sur l’attribut sélectionné. Les valeurs autorisées dans le menu déroulant de l’action sont les suivantes : `include`, `exclude`, `passthrough` et `flag`. Pour plus d&#39;informations sur ces valeurs, voir la définition de l&#39;élément [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) dans la documentation OASIS DITA
 
    D : Ajouter toutes les propriétés
-Si vous souhaitez ajouter d’un seul clic toutes les propriétés ou tous les attributs conditionnels définis dans votre système, utilisez la fonction Ajouter toutes les propriétés .
+   Si vous souhaitez ajouter d’un seul clic toutes les propriétés ou tous les attributs conditionnels définis dans votre système, utilisez la fonction Ajouter toutes les propriétés .
 
    >[!NOTE]
    >
@@ -101,7 +107,7 @@ L’éditeur DITAVAL d’AEM Guides prend en charge l’affichage des fichiers D
 
 Vous pouvez également trouver la version du fichier DITAVAL sur lequel vous travaillez actuellement en plaçant le pointeur de la souris sur le nom du fichier.
 
-**&#x200B;**&#x200B;: la vue Source affiche le code XML sous-jacent qui constitue le fichier DITAVAL. Outre les modifications de texte standard effectuées dans cet affichage, un auteur peut également ajouter ou modifier des propriétés à l’aide du catalogue dynamique.
+**** : la vue Source affiche le code XML sous-jacent qui constitue le fichier DITAVAL. Outre les modifications de texte standard effectuées dans cet affichage, un auteur peut également ajouter ou modifier des propriétés à l’aide du catalogue dynamique.
 
 Pour appeler le catalogue dynamique, placez le curseur à la fin de toute définition de propriété et saisissez « &lt; ». L’éditeur affiche une liste de tous les éléments XML valides que vous pouvez insérer à cet emplacement.
 

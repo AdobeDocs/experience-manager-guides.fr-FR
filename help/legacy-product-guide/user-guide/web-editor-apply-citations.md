@@ -5,24 +5,30 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
-TQID: https://experienceleague.adobe.com/3xNOR02eoj4FGibPTf4IMtqHf2O-M4DHaf5-MZy87uU
+TQID: 'https://experienceleague.adobe.com/3xNOR02eoj4FGibPTf4IMtqHf2O-M4DHaf5-MZy87uU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1896
+source-wordcount: '1896'
 ht-degree: 1%
-
 ---
-
 # Ajouter et gérer des citations dans votre contenu
 
 Les citations sont des références à la source d’informations ajoutée à votre contenu. À l’aide de citations, vous pouvez créditer les auteurs des informations sources et aider les lecteurs à effectuer un suivi sur ces informations. L&#39;ajout de citations rend votre contenu plus fiable et empêche le plagiat. Ils vous permettent également d’afficher du contenu bien documenté.
@@ -65,7 +71,7 @@ La boîte de dialogue **Ajouter une citation** s’ouvre.
 
    | Livre | Site Web | Journal |
    | --- | ---|---|
-   | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation sous forme de livre. | **&#x200B;**<br> Dans la liste déroulante, sélectionnez la source de la citation en tant que site Web. | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation en tant que Journal. |
+   | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation sous forme de livre. | ****<br> Dans la liste déroulante, sélectionnez la source de la citation en tant que site Web. | **Source** <br> Dans la liste déroulante, sélectionnez la source de la citation en tant que Journal. |
    | **Rechercher par** <br> Sélectionnez **ISBN** ou **DOI** dans la liste déroulante pour rechercher l’identifiant numérique associé à la citation.  <br> DOI : Identifiant d&#39;objet numérique <br> ISBN : Identifiant de livre numérique unique | **Rechercher par** <br> Sélectionnez **DOI** dans la liste déroulante pour rechercher l’identifiant numérique associé à la citation. | **Rechercher par** <br> Sélectionnez **DOI** ou ID PubMed dans la liste déroulante pour rechercher l’ID numérique associé à la citation. <br>  <br> |
    | **Auteur** <br> ajoutez le prénom et le nom de l’auteur de la citation. Sélectionnez ![](images/Add_icon.svg) pour ajouter d’autres noms. | **Auteur** <br> ajoutez le prénom et le nom de l’auteur de la citation. Sélectionnez ![](images/Add_icon.svg) pour ajouter d’autres noms. | **Auteur** <br> ajoutez le prénom et le nom de l’auteur de la citation. Sélectionnez ![](images/Add_icon.svg) pour ajouter d’autres noms. |
    | **Titre** <br> ajoutez le titre du livre. | **Titre** <br> ajoutez le titre de la page web. | **Titre** <br> ajoutez le titre de l’article. |
@@ -110,7 +116,7 @@ Pour importer des citations, procédez comme suit :
 
    >[!NOTE]
    > <ol><li> AEM Guides importe uniquement les citations uniques qui ne sont pas déjà présentes.
-   > &gt; <li> AEM Guides peut importer des citations provenant d’un livre, d’un journal ou d’un site web. Actuellement, il ne prend pas en charge les citations provenant d’autres sources.
+    &gt; <li> AEM Guides peut importer des citations provenant d’un livre, d’un journal ou d’un site web. Actuellement, il ne prend pas en charge les citations provenant d’autres sources.
 
 ## Gérer les citations
 
@@ -200,7 +206,7 @@ Vous pouvez insérer des citations sur le sujet à partir de la barre d’outils
 
 ### Dans la barre d’outils principale
 
-1. Sélectionnez l’icône ![&#128279;](images/citations-icon.svg) **Citations** citations dans la barre d’outils principale.
+1. Sélectionnez l’icône ](images/citations-icon.svg) **Citations** ![citations dans la barre d’outils principale.
 1. Dans la boîte de dialogue **Citations**, choisissez la citation. Vous pouvez également sélectionner plusieurs citations.
    ![boîte de dialogue de citation](images/citation-dialog-main-toolbar.png){width="300"}
 1. Vous pouvez filtrer les citations en tapant les premiers caractères alphabétiques dans le panneau de recherche de la boîte de dialogue **Citation**.
@@ -215,7 +221,7 @@ La citation sélectionnée est ajoutée à l&#39;emplacement du curseur dans vot
 > 
 >Pour afficher l’icône **Citations** dans le panneau de gauche, votre administrateur système doit sélectionner l’option **Citations** dans l’onglet **Panneaux** dans **Paramètres de l’éditeur**.
 
-1. Sélectionnez **Citations** ![icône de &#x200B;](images/citations-icon.svg) de citations dans le panneau de gauche.
+1. Sélectionnez **Citations** ![icône de ](images/citations-icon.svg) de citations dans le panneau de gauche.
 1. Faites glisser la citation à partir du panneau **Citations** et déposez-la à l’emplacement approprié dans la rubrique.
 
    Vous pouvez également sélectionner **Insérer** dans ![](images/options.svg) **Options** pour insérer une citation.

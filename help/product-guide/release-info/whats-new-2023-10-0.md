@@ -4,19 +4,26 @@ description: Découvrez les nouvelles fonctionnalités et les fonctionnalités a
 exl-id: 41bfed0d-5901-4ada-b6d7-a5be93b25ba8
 feature: What's New
 role: Leader
-TQID: https://experienceleague.adobe.com/rVBSIkzYdHd3fuPjRydggNpaf2zoTv8dlqTuaj2zibU
+TQID: 'https://experienceleague.adobe.com/rVBSIkzYdHd3fuPjRydggNpaf2zoTv8dlqTuaj2zibU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
+subfeature_v2:
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 629
+source-wordcount: '636'
 ht-degree: 0%
-
 ---
-
 # Nouveautés de la version d’octobre 2023 d’Adobe Experience Manager Guides as a Cloud Service
 
 Cet article couvre les nouvelles fonctionnalités et les fonctionnalités améliorées de la version d’octobre 2023 d’Adobe Experience Manager Guides (plus tard appelée *AEM Guides as a Cloud Service*).
@@ -52,7 +59,7 @@ Les améliorations du PDF natif suivantes ont été apportées à la version d�
 ### Réinitialiser le numéro de page de la première page d&#39;une mise en page
 
 Dans la sortie PDF native, vous pouvez redémarrer les numéros de page et spécifier le numéro à partir duquel la numérotation commence. Vous pouvez également commencer la numérotation uniquement pour la première occurrence d’une section.
-En savoir plus sur l’utilisation [&#x200B; des propriétés de page d’une mise en page &#x200B;](../native-pdf/design-page-layout.md#page-props-page-layout).
+En savoir plus sur l’utilisation [ des propriétés de page d’une mise en page ](../native-pdf/design-page-layout.md#page-props-page-layout).
 
 
 ### Afficher les chapitres sans numéros automatiques dans la table des matières
