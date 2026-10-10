@@ -67,4 +67,4 @@ Vous pouvez modifier une collection de mappages d’activation en bloc en ajouta
 1. Cliquez sur **Terminé**.
 
 
-**Rubrique parente :**[ Activation en bloc du contenu publié](conf-bulk-activation.md)
+**Rubrique parente :**&#x200B;[&#x200B; Activation en bloc du contenu publié](conf-bulk-activation.md)

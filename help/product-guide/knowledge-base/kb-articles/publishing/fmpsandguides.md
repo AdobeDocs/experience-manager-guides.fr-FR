@@ -69,7 +69,7 @@ Pour ouvrir la console web, accédez à l’URL Accès http://\&lt;nom du serveu
 
 ## Exécution du test :
 
-En utilisant FMPS, vous pouvez publier automatiquement **** Responsive HTML5 et **Epub** pour vos Assets DITA et FM.
+En utilisant FMPS, vous pouvez publier automatiquement **&#x200B;**&#x200B;Responsive HTML5 et **Epub** pour vos Assets DITA et FM.
 
 Dans le menu « Générer PDF à l’aide de », choisissez FrameMaker Publishing Server.
 
@@ -86,7 +86,7 @@ Il s’agit d’un conflit si vous avez choisi le paramètre prédéfini FMPS et
 
 Vous pouvez publier les lignes de base déjà créées avec la version FMPS2020.0.2 ou une version ultérieure.
 
-**Exemple de fichier de paramètres FMPS (fichier .sts) pour commencer :** [Exemple de fichier de paramètres FMPS](:aaid:scds:US:ef750752-7a7e-4e51-923e-6b7d9861ed54) (décompressez ce fichier)
+**Exemple de fichier de paramètres FMPS (fichier .sts) pour commencer :** [Exemple de fichier de paramètres FMPS] (:aaid:scds:US:ef750752-7a7e-4e51-923e-6b7d9861ed54) (décompressez ce fichier)
 
 ## Questions fréquentes et dépannage :
 

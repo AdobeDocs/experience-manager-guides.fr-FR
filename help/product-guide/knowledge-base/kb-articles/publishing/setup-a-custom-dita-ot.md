@@ -43,7 +43,7 @@ Les étapes d&#39;ajout d&#39;un DITA-OT personnalisé sont documentées dans la
 + Apportez des modifications à DITA-OT comme l&#39;[ajout d&#39;un nouveau plug-in](https://www.dita-ot.org/dev/topics/plugins-installing.html) ou la personnalisation de plug-ins existants (consultez l&#39;exemple de la section Liens connexes ci-dessous).
 + Charger les `DITA-OT.zip` reçus dans `/apps/<project-folder>/dita_resources` (la création d’un dossier de projet personnalisé est une approche recommandée)
 + Ajouter un profil DITA via **[!UICONTROL Outils]** > **[!UICONTROL Guides]** > **[!UICONTROL Profils DITA]** (utilisez le chemin DITA-OT où le DITA-OT personnalisé est chargé, reportez-vous à la capture d&#39;écran ci-dessous)
-  ![ Profils DITA ](assets/dita-profile.png)
+  ![&#x200B; Profils DITA &#x200B;](assets/dita-profile.png)
 
 >[!MORELIKETHIS]
 >

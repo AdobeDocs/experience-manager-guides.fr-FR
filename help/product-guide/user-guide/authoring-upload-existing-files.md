@@ -37,7 +37,7 @@ Il est probable que vous disposiez d&#39;un référentiel de contenu DITA exista
 
 Pour [ajouter des ressources numériques à Adobe Experience Manager as a Cloud Service Assets](#upload-assets) à l’aide de l’interface utilisateur de la console Assets, sélectionnez la ressource requise sur votre bureau et faites glisser l’interface utilisateur Adobe Experience Manager \(navigateur web\) vers le dossier de destination. Lors du chargement de ressources, veillez à ce que les noms de fichier ne contiennent aucun caractère non pris en charge ou interdit.
 
-Pour plus d’informations, consultez la section [ Gestion des noms de fichier et caractères interdits ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling) de la documentation Adobe Experience Manager.
+Pour plus d’informations, consultez la section [&#x200B; Gestion des noms de fichier et caractères interdits &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling) de la documentation Adobe Experience Manager.
 
 ### Chargement de fichiers à l’aide de l’interface utilisateur d’Assets
 
@@ -54,7 +54,7 @@ Une fois le chargement terminé, le système affiche un message de confirmation 
 
 ## Application de bureau Adobe Experience Manager
 
-Utilisez l’application de bureau Adobe Experience Manager si vous êtes un professionnel de la création et que vous souhaitez gérer les ressources sur votre bureau local. Vous pouvez ouvrir et modifier ces ressources à l’aide de vos applications de bureau. Vous pouvez également gérer des versions et partager vos fichiers avec d’autres utilisateurs. Pour plus d’informations, consultez l’appli de bureau [](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=fr).
+Utilisez l’application de bureau Adobe Experience Manager si vous êtes un professionnel de la création et que vous souhaitez gérer les ressources sur votre bureau local. Vous pouvez ouvrir et modifier ces ressources à l’aide de vos applications de bureau. Vous pouvez également gérer des versions et partager vos fichiers avec d’autres utilisateurs. Pour plus d’informations, consultez l’appli de bureau [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=fr).
 
 ## Ingérant en bloc des ressources
 
@@ -79,4 +79,4 @@ Si vous utilisez un outil tel que l’application de bureau Adobe Experience Man
 
 
 
-**Rubrique parente :**[ Gérer le contenu](authoring.md)
+**Rubrique parente :**&#x200B;[&#x200B; Gérer le contenu](authoring.md)

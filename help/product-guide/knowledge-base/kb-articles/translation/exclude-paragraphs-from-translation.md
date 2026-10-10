@@ -36,7 +36,7 @@ Voici quelques captures d’écran qui expliquent cela plus en détail :
 
 **Contenu**
 
-![Contenu ](assets/source-content.jpg)
+![Contenu &#x200B;](assets/source-content.jpg)
 
 **Contenu traduit en espagnol**
 

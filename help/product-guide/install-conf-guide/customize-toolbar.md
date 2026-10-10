@@ -50,7 +50,7 @@ Les onglets suivants fournissent des instructions en fonction de la configuratio
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 1. Pour télécharger le fichier de configuration de l’interface utilisateur, connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 
@@ -70,13 +70,13 @@ Les onglets suivants fournissent des instructions en fonction de la configuratio
    **items** : spécifiez la définition de tous les groupes dans la barre d’outils. Chaque groupe peut contenir une ou plusieurs icônes de barre d’outils. Pour définir des icônes dans un groupe de barres d’outils, vous devez définir à nouveau l’attribut `type` dans le `items` et définir sa valeur sur `buttonGroup`. Spécifiez un ou plusieurs noms de classe dans la propriété `extraclass`. Spécifiez le nom de la fonction dans la propriété `label`. L’extrait de code suivant du fichier `ui_config.json` affiche la définition du bloc de barre d’outils principal, suivie de la définition du `buttonGroup` :
 
        « 
-     « toolbar »: {
+     « toolbar »: &lbrace;
      « type »: « blockGroup »,
      « extraclass »:
      « toolbar operations »,
-« items »: [    {
+« items »: &lbrack;    &lbrace;
 « type »: « buttonGroup »,    « extraclass »: « left-controls »,
-« label »: « Left Controls »,    « items »: [
+« label »: « Left Controls »,    « items »: &lbrack;
 «     « 
       
       
@@ -148,7 +148,7 @@ Les onglets suivants fournissent des instructions en fonction de la configuratio
 
 1. Dans le fichier `ui_config.json`, ajoutez la définition de la nouvelle fonctionnalité dans la section des barres d’outils. En règle générale, vous pouvez créer un groupe de boutons de la barre d’outils et y ajouter un ou plusieurs boutons. Vous pouvez également ajouter un nouveau bouton de barre d’outils à un groupe de barres d’outils existant. Les informations suivantes sont requises pour créer un groupe de barre d’outils :
 
-   - **type:**Spécifiez `blockGroup` comme valeur `type`. Cette valeur indique que vous créez un groupe de blocs qui contiendrait un ou plusieurs groupes de barres d’outils.
+   - **type:**&#x200B;Spécifiez `blockGroup` comme valeur `type`. Cette valeur indique que vous créez un groupe de blocs qui contiendrait un ou plusieurs groupes de barres d’outils.
 
    - **extraclass:** Nom de la ou des classes séparées par un espace.
 
@@ -316,7 +316,7 @@ Les onglets suivants fournissent des instructions pour supprimer de la barre d�
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 1. Pour télécharger le fichier de configuration de l’interface utilisateur, connectez-vous à Adobe Experience Manager en tant qu’administrateur.
 

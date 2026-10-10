@@ -82,7 +82,7 @@ Après avoir inséré vos citations dans vos rubriques, vous pouvez les prévisu
 ![Citations répertoriées dans un panneau](assets/citation-panel.png){width="300"}
 
 
-Pour plus d’informations, consultez la section [ Ajouter et gérer des citations dans votre contenu ](../user-guide/web-editor-apply-citations.md).
+Pour plus d’informations, consultez la section [&#x200B; Ajouter et gérer des citations dans votre contenu &#x200B;](../user-guide/web-editor-apply-citations.md).
 
 ## Publication sur un fragment de contenu
 
@@ -167,7 +167,7 @@ Désormais, dans AEM Guides, vous pouvez également sélectionner les propriét�
 >
 > AEM Guides prend également en charge les propriétés de métadonnées de vos plans DITA.
 
-Pour plus d’informations, consultez la section [ Ajouter des champs et des métadonnées ](../native-pdf/design-page-layout.md#add-fields-metadata).
+Pour plus d’informations, consultez la section [&#x200B; Ajouter des champs et des métadonnées &#x200B;](../native-pdf/design-page-layout.md#add-fields-metadata).
 
 
 ### Classer les pages dans la sortie PDF
@@ -289,7 +289,7 @@ AEM Guides prend également en charge le format XLIFF (XML Localization Intercha
 
 Ce format vous permet d’exporter le contenu au format XLIFF standard, puis de le fournir aux fournisseurs de services de traduction. Pour plus d’informations, consultez la section [Créer un projet de traduction](../user-guide/translate-documents-web-editor.md#create-translation-project).
 
-![ types de projets de traduction ](assets/translation-project-types.png){width="350"}
+![&#x200B; types de projets de traduction &#x200B;](assets/translation-project-types.png){width="350"}
 
 
 ## Améliorations de la collection de cartes
@@ -307,14 +307,14 @@ Pour plus d’informations, consultez [Utilisation de la collecte de mappages po
 
 
 Grâce à la fonction d’activation en bloc d’AEM Guides, vous pouvez activer rapidement et facilement votre contenu, de la création à la publication. Dans la carte Activation en bloc, vous pouvez inclure le paramètre prédéfini de sortie Native PDF, le site AEM, PDF, HTML5, personnalisé et la sortie JSON.
-Pour plus d’informations, consultez la section [ Activation en bloc du contenu publié ](../user-guide/conf-bulk-activation.md).
+Pour plus d’informations, consultez la section [&#x200B; Activation en bloc du contenu publié &#x200B;](../user-guide/conf-bulk-activation.md).
 
 ## Outil de déplacement en bloc amélioré
 
 Désormais, en tant qu’administrateur, vous pouvez utiliser l’outil de déplacement en bloc amélioré pour déplacer des dossiers contenant de nombreux fichiers d’un emplacement à un autre.
 Vous pouvez utiliser la boîte de dialogue Parcourir le fichier pour sélectionner les dossiers sources à déplacer. Vous pouvez également accéder à l’emplacement de destination pour déplacer les dossiers sources. Sélectionnez ![icône d’information](assets/info-icon.svg) {width="25"} près d’un champ pour afficher plus d’informations à son sujet.
 
-Pour plus d’informations, consultez la section [ Déplacer des fichiers en bloc ](../user-guide/authoring-file-management.md#move-files-bulk).
+Pour plus d’informations, consultez la section [&#x200B; Déplacer des fichiers en bloc &#x200B;](../user-guide/authoring-file-management.md#move-files-bulk).
 
 ## Panneau Favoris amélioré
 

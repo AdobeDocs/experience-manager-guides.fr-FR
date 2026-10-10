@@ -52,7 +52,7 @@ Utilisez cette méthode pour générer une sortie PDF à partir non seulement du
 
 Pour plus d&#39;informations sur la configuration de FMPS, voir [Générer une sortie à partir de documents FrameMaker](../user-guide/fm-output-generatation.md).
 
-PDF natif ****
+PDF natif **&#x200B;**
 
 Utilisez cette méthode pour générer une sortie PDF riche en fonctionnalités basée sur les normes des médias paginés W3C CSS3 et CSS. Avec la publication native de PDF, vous pouvez utiliser des modèles pour définir la mise en page et le style de votre contenu et appliquer divers paramètres pour affiner votre PDF. En outre, vous pouvez modifier et créer vos propres modèles à l’aide de l’éditeur de modèles.
 
@@ -62,4 +62,4 @@ Pour plus d’informations sur la création de paramètres prédéfinis de PDF n
 
 
 
-**Rubrique parente :**[ Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)
+**Rubrique parente :**&#x200B;[&#x200B; Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)

@@ -39,7 +39,7 @@ Utilisez l’outil Sources de données de Experience Manager Guides pour créer 
 > Avant de commencer, assurez-vous que le connecteur Git est déployé sur votre projet Cloud Manager. Pour plus d’informations, consultez la section [Ajout d’un connecteur Git à votre projet Cloud Manager.](#add-git-connector-to-your-cloud-manager-project)
 
 
-1. Sélectionnez le lien **** en haut et choisissez **Outils**.
+1. Sélectionnez le lien **&#x200B;**&#x200B;en haut et choisissez **Outils**.
 1. Sélectionnez **Guides** dans la liste des outils.
 1. Sélectionnez la mosaïque **Sources de données**. La page **Sources de données** s’affiche.
 1. Sélectionnez **Créer**.

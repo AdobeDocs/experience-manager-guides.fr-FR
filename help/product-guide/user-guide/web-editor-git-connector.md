@@ -162,7 +162,7 @@ Procédez comme suit pour résoudre les conflits de fusion et :
 
    ![](images/git-connector-resolve-conflicts.png)
 
-   Le volet de gauche (****) affiche le contenu actuel du référentiel AEM, tandis que le volet de droite (**GIT**) affiche le contenu entrant en provenance du référentiel Git distant. Le volet central (**Result**) est initialement renseigné avec le contenu du référentiel AEM et sert d’éditeur de fusion, où les conflits sont résolus. Le résultat final fusionné est généré et affiché dans ce volet central.
+   Le volet de gauche (**&#x200B;**) affiche le contenu actuel du référentiel AEM, tandis que le volet de droite (**GIT**) affiche le contenu entrant en provenance du référentiel Git distant. Le volet central (**Result**) est initialement renseigné avec le contenu du référentiel AEM et sert d’éditeur de fusion, où les conflits sont résolus. Le résultat final fusionné est généré et affiché dans ce volet central.
 
 1. Examinez les différences mises en surbrillance dans l’éditeur et résolvez les conflits à l’aide des commandes de fusion :
 

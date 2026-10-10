@@ -35,7 +35,7 @@ Les onglets suivants fournissent des instructions pour vérifier l’installatio
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 Effectuez les étapes suivantes pour vérifier l’installation :
 

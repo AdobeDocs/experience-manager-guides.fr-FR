@@ -43,7 +43,7 @@ ht-degree: 2%
 
 Vous pouvez créer le préréglage **Base de connaissances** à partir de l’éditeur web :
 
-Dans le panneau Référentiel, ouvrez le fichier de mappage DITA dans **Vue Carte**, puis dans l&#39;onglet **Sortie**, sélectionnez l&#39;icône + pour créer un paramètre prédéfini de sortie, puis sélectionnez **Base de connaissances** dans la liste déroulante **Type** de la boîte de dialogue **Nouveau paramètre prédéfini de sortie**. Vous pouvez nommer le paramètre prédéfini et choisir la cible pour générer la sortie à l’aide de ****, **Salesforce** ou **ServiceNow**.
+Dans le panneau Référentiel, ouvrez le fichier de mappage DITA dans **Vue Carte**, puis dans l&#39;onglet **Sortie**, sélectionnez l&#39;icône + pour créer un paramètre prédéfini de sortie, puis sélectionnez **Base de connaissances** dans la liste déroulante **Type** de la boîte de dialogue **Nouveau paramètre prédéfini de sortie**. Vous pouvez nommer le paramètre prédéfini et choisir la cible pour générer la sortie à l’aide de **&#x200B;**, **Salesforce** ou **ServiceNow**.
 
 
 
@@ -92,7 +92,7 @@ Vous pouvez également afficher les options suivantes dans les paramètres préd
 
 >[!NOTE]
 >
->Vous pouvez utiliser le paramètre prédéfini de la base de connaissances Adobe Experience Manager si votre administrateur l’a configuré. Pour plus d’informations, consultez la section [ Publication basée sur des articles dans l’éditeur web ](/help/product-guide/install-guide/configure-article-based-publishing.md) du guide d’installation et de configuration.
+>Vous pouvez utiliser le paramètre prédéfini de la base de connaissances Adobe Experience Manager si votre administrateur l’a configuré. Pour plus d’informations, consultez la section [&#x200B; Publication basée sur des articles dans l’éditeur web &#x200B;](/help/product-guide/install-guide/configure-article-based-publishing.md) du guide d’installation et de configuration.
 
 | Options de Adobe Experience Manager | Description |
 | --- | --- |

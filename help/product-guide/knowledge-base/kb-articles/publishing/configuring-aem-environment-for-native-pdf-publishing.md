@@ -135,7 +135,7 @@ Le moteur de publication natif de PDF a besoin du JDK Oracle pour générer les 
 Commande : yum install fontconfig
 12. Générez un PDF natif à partir de paramètres prédéfinis dans l’éditeur.
 
-**REMARQUE** : le package node_modules.zip peut être téléchargé [ici](:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
+**REMARQUE** : le package node_modules.zip peut être téléchargé [ici] (:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
 
 L’importation manuelle des modules de nœud téléchargés pour le système d’exploitation Linux est une solution de contournement pour les utilisateurs qui utilisent Guides 4.1 ou des versions antérieures (étapes 6 à 12)
 
@@ -199,7 +199,7 @@ Si le problème persiste même après la correction des paramètres de l’envir
 
 ### Bibliothèques manquantes dans RHEL 7 Linux OS
 
-![bibliothèques manquantes ](../assets/publishing/missing-libraries.png)
+![bibliothèques manquantes &#x200B;](../assets/publishing/missing-libraries.png)
 
 ### Délai d’expiration du processus de publication. Le processus ne s&#39;est pas terminé dans le délai donné de 0ms
 

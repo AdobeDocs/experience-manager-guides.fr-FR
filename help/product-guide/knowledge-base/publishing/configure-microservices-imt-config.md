@@ -47,19 +47,19 @@ Comme le service de publication cloud est sécurisé par l’authentification OA
 
 **Rôle requis pour créer les configurations** : administrateur système
 
-Pour créer des configurations IMS dans ****, procédez comme suit :
+Pour créer des configurations IMS dans **&#x200B;**, procédez comme suit :
 
 >[!NOTE]
 >
 >Si vous avez déjà créé un projet OAuth pour configurer les suggestions intelligentes optimisées par l’IA pour la création, vous pouvez ignorer les étapes suivantes pour créer le projet.
 
-1. Ouvrez **** : `https://developer.adobe.com/console`.
+1. Ouvrez **&#x200B;**&#x200B;: `https://developer.adobe.com/console`.
 
 1. Accédez à l’onglet **Projets** à partir du haut.
 
    <img src="assets/projects-tab.png" alt="onglet projets" width="500">
 
-   *Sélectionnez l’onglet **Projets**dans le **Adobe Developer Console***
+   *Sélectionnez l’onglet **Projets**&#x200B;dans le **Adobe Developer Console***
 
 1. Pour créer un projet vide, sélectionnez **Projet vide** dans le menu déroulant **Créer un projet**.
 
@@ -111,7 +111,7 @@ Si vous utilisez déjà un microservice pour la publication à l’aide de JWT (
 
 
 
-1. Ouvrez **** et sélectionnez le programme contenant l’environnement à configurer.
+1. Ouvrez **&#x200B;**&#x200B;et sélectionnez le programme contenant l’environnement à configurer.
 1. Passez à l’onglet **Environnements**.
 1. Sélectionnez le nom de l’environnement à configurer. Vous devriez y accéder à la page **Informations sur l’environnement**.
 1. Passez à l’onglet **Configuration**.
@@ -128,7 +128,7 @@ Si vous utilisez déjà un microservice pour la publication à l’aide de JWT (
 ### Première configuration
 
 Pour utiliser un microservice de publication pour la première fois, mettez à jour les configurations en procédant comme suit :
-1. Ouvrez **** et sélectionnez le programme contenant l’environnement à configurer.
+1. Ouvrez **&#x200B;**&#x200B;et sélectionnez le programme contenant l’environnement à configurer.
 1. Passez à l’onglet **Environnements**.
 1. Sélectionnez le nom de l’environnement à configurer. Vous devriez y accéder à la page **Informations sur l’environnement**.
 1. Passez à l’onglet **Configuration**.

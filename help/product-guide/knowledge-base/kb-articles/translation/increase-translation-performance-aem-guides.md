@@ -36,11 +36,11 @@ Chaque projet de traduction génère plusieurs groupes d’utilisateurs pour l�
 
 - Marquez tous les projets comme « Inactifs » une fois la traduction terminée et approuvée.Le projet reste disponible pour examen et est simplement marqué comme inactif.
   - Suivre ces étapes vous aidera à maintenir les performances globales de traduction en bonne santé.
-    ![Projet de traduction inactif ](./assets/translation-project-image1.png)
+    ![Projet de traduction inactif &#x200B;](./assets/translation-project-image1.png)
 
 - Pour les projets plus anciens, le dossier marqué comme inactif, approuvé et révisé doit être supprimé
   - Le fait de suivre ces étapes permet de maintenir les performances globales de traduction en bon état en nettoyant les fichiers de traduction temporaires et les groupes d’utilisateurs associés à ce dossier de projet.
-    ![Suppression de projets de traduction et de ](./assets/translation-project-image2.png) de dossiers
+    ![Suppression de projets de traduction et de &#x200B;](./assets/translation-project-image2.png) de dossiers
 
 
 ## Si vous êtes sur , créez la version 4.6 ou 2404 ou une version ultérieure :
@@ -49,4 +49,4 @@ Vous pouvez continuer à suivre les mêmes étapes que celles mentionnées ci-de
 
 Référencer : [supprimer ou désactiver automatiquement un projet de traduction terminé](../../../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project)
 
-![Paramètres automatisés pour supprimer et désactiver un projet de traduction dans AEM Guides ](./assets/translation-project-image3.png)
+![Paramètres automatisés pour supprimer et désactiver un projet de traduction dans AEM Guides &#x200B;](./assets/translation-project-image3.png)

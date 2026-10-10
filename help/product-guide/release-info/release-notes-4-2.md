@@ -103,7 +103,7 @@ Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 * `<conref>` note à l’intérieur d’une balise para ne s’affiche pas en mode aperçu. (10559)
 * Appuyer sur la touche Retour arrière à la fin d’un élément de liste supprime la liste entière. (10540)
 * Dans Chrome v106, l’écran s’affiche comme vide lorsque vous effectuez un glisser-déposer d’un élément de l’interface utilisateur (depuis le panneau Conditions, par exemple). (10524)
-* Le bouton Retrait automatique est absent de la barre d&#39;outils dans la vue ****. (10448)
+* Le bouton Retrait automatique est absent de la barre d&#39;outils dans la vue **&#x200B;**. (10448)
 * Le premier caractère d’un élément de liste est parfois perdu lorsque la liste est en cours de création dans l’éditeur.( 10447)
 * Les options **Annuler** ou **Rétablir** ne fonctionnent pas correctement sur certains fichiers. (10373)
 * Les métadonnées personnalisées ne sont pas conservées lors de l’action de copier-coller. (10367)

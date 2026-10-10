@@ -35,7 +35,7 @@ Les onglets ci-dessous fournissent des instructions pour la création de votre l
 
 >[!BEGINTABS]
 
->[!TAB ]
+>[!TAB Tab]
 
 1. Créez le fichier user\_dictionary.txt avec une liste de mots que vous souhaitez définir dans votre dictionnaire personnalisé.
 
@@ -77,4 +77,4 @@ Les auteurs doivent redémarrer leur session d’éditeur pour que la liste de m
 
 >[!ENDTABS]
 
-**Rubrique parente :**[ Personnaliser l’éditeur](customize-overview.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur](customize-overview.md)

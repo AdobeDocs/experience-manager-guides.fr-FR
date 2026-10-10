@@ -40,7 +40,7 @@ Vous pouvez sélectionner du contenu sur votre bureau et le faire glisser sur l�
 
 ## Application de bureau AEM
 
-Utilisez l’application de bureau AEM si vous êtes un professionnel de la création et que vous souhaitez gérer les ressources sur votre bureau local. Vous pouvez ouvrir et modifier ces ressources à l’aide de vos applications de bureau. Vous pouvez également gérer des versions et partager vos fichiers avec d’autres utilisateurs. Pour plus d’informations, voir l’appli de bureau [](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=fr).
+Utilisez l’application de bureau AEM si vous êtes un professionnel de la création et que vous souhaitez gérer les ressources sur votre bureau local. Vous pouvez ouvrir et modifier ces ressources à l’aide de vos applications de bureau. Vous pouvez également gérer des versions et partager vos fichiers avec d’autres utilisateurs. Pour plus d’informations, voir l’appli de bureau [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=fr).
 
 ## Ingérant en bloc des ressources
 
@@ -62,4 +62,4 @@ Pour plus d&#39;informations sur les différents scénarios de chargement de fic
 
 Si vous utilisez un outil tel que l’application de bureau AEM ou l’outil d’ingestion de ressources en bloc, l’action à effectuer sur un fichier en double est contrôlée par un paramètre dans le serveur AEM. Contactez votre administrateur système pour en savoir plus sur cette configuration.
 
-**Rubrique parente :**[ Gérer le contenu](authoring.md)
+**Rubrique parente :**&#x200B;[&#x200B; Gérer le contenu](authoring.md)

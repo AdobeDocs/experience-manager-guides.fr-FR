@@ -51,4 +51,4 @@ Effectuez les étapes suivantes pour afficher le chemin d’accès relatif ou l�
 1. Cliquez sur **Enregistrer**.
 
 
-**Rubrique parente :**[ Personnaliser l’éditeur web](conf-web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur web](conf-web-editor.md)

@@ -38,7 +38,7 @@ Vous pouvez modifier une collection de mappages d’activation en bloc en ajouta
 
 1. Sélectionnez la mosaïque **Tableau de bord de publication en bloc**.
 
-   Le tableau de bord de publication en bloc s’affiche avec une liste de collections de mappages d’activation en bloc. Vous pouvez également accéder à ce tableau de bord à partir du panneau de gauche de la page d’accueil d’Adobe Experience Manager Guides [](intro-home-page.md).
+   Le tableau de bord de publication en bloc s’affiche avec une liste de collections de mappages d’activation en bloc. Vous pouvez également accéder à ce tableau de bord à partir du panneau de gauche de la page d’accueil d’Adobe Experience Manager Guides [&#128279;](intro-home-page.md).
 
 1. Sélectionnez la collection à modifier, puis sélectionnez **Ouvrir**.
 
@@ -66,4 +66,4 @@ Vous pouvez modifier une collection de mappages d’activation en bloc en ajouta
 1. Sélectionnez **Terminé**.
 
 
-**Rubrique parente :**[ Activation en bloc du contenu publié](conf-bulk-activation.md)
+**Rubrique parente :**&#x200B;[&#x200B; Activation en bloc du contenu publié](conf-bulk-activation.md)

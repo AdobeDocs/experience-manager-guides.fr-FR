@@ -53,7 +53,7 @@ Experience Manager Guides vous permet de personnaliser les connecteurs en foncti
 
 ## Personnaliser un connecteur pour Experience Manager Guides {#customize-connector}
 
-Vous pouvez personnaliser ou configurer un connecteur pour une source de données à l’aide des interfaces prédéfinies et des classes abstraites. L’intégralité du code source est disponible à l’adresse [](https://github.com/adobe/guides-data-source-connectors/tree/main/konnect-definitions).
+Vous pouvez personnaliser ou configurer un connecteur pour une source de données à l’aide des interfaces prédéfinies et des classes abstraites. L’intégralité du code source est disponible à l’adresse [&#128279;](https://github.com/adobe/guides-data-source-connectors/tree/main/konnect-definitions).
 
 
 Reportez-vous à [![javadoc](https://javadoc.io/badge2/com.adobe.aem.addon.guides/konnect-definitions/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem.addon.guides/konnect-definitions) pour les définitions de connexion.

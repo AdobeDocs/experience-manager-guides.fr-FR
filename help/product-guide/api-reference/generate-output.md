@@ -51,7 +51,7 @@ Détails du bundle :
 
 - Version : **3.4**
 
-- Package : ****com.adobe.fmdita.api.maps****
+- Package : **&#x200B;**&#x200B;com.adobe.fmdita.api.maps&#x200B;**&#x200B;**
 
 - Détails de la classe :
 

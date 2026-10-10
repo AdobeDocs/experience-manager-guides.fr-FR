@@ -142,7 +142,7 @@ public static void applyLabel(Session session,
 | `session` | javax.jcr.Session | Une session JCR valide. |
 | `sourcePath` | Chaîne | Chemin d&#39;accès absolu au fichier de mappage DITA dans le référentiel AEM. |
 | ``baselineName`` | Chaîne | Nom du nœud de base sur lequel le libellé doit être appliqué. Pour obtenir le nom du nœud de ligne de base, vous pouvez utiliser la méthode [\#id185NFF0085Z](#id185NFF0085Z) ou vérifier le nœud de lignes de base du plan DITA dans CRXDE.<br> **Remarque :** le libellé est appliqué aux versions des fichiers qui sont directement référencées à partir du fichier de mappage dans la ligne de base. |
-| `label` | Chaîne | Libellé appliqué aux fichiers de la ligne de base. Assurez-vous que le libellé ne contient pas les caractères suivants : &amp;sol; &amp;comma; &amp;colon; &amp;comma; &amp;lbrack; &amp;comma; &amp;rbrack; &amp;comma; &amp;vert; &amp;comma; &amp;ast; <br> Si vous souhaitez définir plusieurs libellés, séparez les libellés par une virgule ; par exemple, Libellé1, Libellé2. |
+| `label` | Chaîne | Libellé appliqué aux fichiers de la ligne de base. Assurez-vous que le libellé ne contient pas les caractères suivants : &sol; &comma; &colon; &comma; &lbrack; &comma; &rbrack; &comma; &vert; &comma; &ast; <br> Si vous souhaitez définir plusieurs libellés, séparez les libellés par une virgule ; par exemple, Libellé1, Libellé2. |
 
 **Exception** :
 Lance `RepositoryException`.

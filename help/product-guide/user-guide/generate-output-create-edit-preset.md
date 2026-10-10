@@ -42,7 +42,7 @@ De plus, vous pouvez dupliquer ou supprimer un paramètre prédéfini de sortie 
 
 >[!NOTE]
 >
->Vous ne pouvez pas modifier, dupliquer ou supprimer un paramètre prédéfini de modèle. Ces actions sont limitées aux administrateurs. Pour en savoir plus sur les paramètres prédéfinis de modèle, voir [ Paramètres prédéfinis de modèle ](../install-conf-guide/template-presets-output-generation.md).
+>Vous ne pouvez pas modifier, dupliquer ou supprimer un paramètre prédéfini de modèle. Ces actions sont limitées aux administrateurs. Pour en savoir plus sur les paramètres prédéfinis de modèle, voir [&#x200B; Paramètres prédéfinis de modèle &#x200B;](../install-conf-guide/template-presets-output-generation.md).
 
 
 ![](images/delete-preset-map-console.png)
@@ -56,4 +56,4 @@ Vous pouvez modifier, dupliquer et supprimer un paramètre prédéfini de sortie
 
 
 
-**Rubrique parente :**[ Génération de sortie](generate-output.md)
+**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)

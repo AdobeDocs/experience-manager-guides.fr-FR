@@ -32,7 +32,7 @@ ht-degree: 3%
 ---
 # Configuration de la publication basée sur les microservices avec l’authentification JWT
 
-[!BADGE ]{type=Informative}
+{type=Informative}
 
 >[!NOTE]
 >

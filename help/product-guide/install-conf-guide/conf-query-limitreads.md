@@ -48,4 +48,4 @@ Pour augmenter le nombre de nœuds qu’une requête peut lire à la fois, proc�
 
 Lorsque vous augmentez la valeur de cet attribut, vous générez plus facilement le rapport pour les plans DITA plus volumineux.
 
-**Rubrique parente :**[ Personnaliser l’éditeur](customize-overview.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur](customize-overview.md)

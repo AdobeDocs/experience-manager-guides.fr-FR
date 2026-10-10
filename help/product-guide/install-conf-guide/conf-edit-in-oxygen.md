@@ -43,4 +43,4 @@ Suivez les instructions fournies dans [Remplacements de la configuration](downlo
 >
 > Cette configuration est désactivée par défaut et l’option n’est pas disponible dans l’éditeur.
 
-**Rubrique parente :**[ Personnaliser l’éditeur](customize-overview.md)
+**Rubrique parente :**&#x200B;[&#x200B; Personnaliser l’éditeur](customize-overview.md)

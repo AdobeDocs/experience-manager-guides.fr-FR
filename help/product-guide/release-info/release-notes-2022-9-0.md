@@ -100,7 +100,7 @@ Vous pouvez désormais choisir de traduire les fichiers **Désynchronisés** en 
 ![Tableau de bord de traduction](assets/translation-version-diff.png)
 Dans le tableau de bord de traduction, vous pouvez facilement voir les différences entre la dernière version traduite et la version actuelle du fichier sélectionné.
 
-![ boîte de dialogue différence de version ](assets/version-diff.png)
+![&#x200B; boîte de dialogue différence de version &#x200B;](assets/version-diff.png)
 
 En fonction des différences, vous pouvez décider de traduire une rubrique ou non.
 
