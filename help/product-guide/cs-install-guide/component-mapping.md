@@ -5,13 +5,28 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: f59e3ad5-bf9c-468d-aab7-144c8c2335ac
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1053'
 ht-degree: 0%
-
 ---
-
 # Mappage des composants pour AEM Sites
 
 L’article aborde les différents aspects du mappage des composants pour les sites AEM (à l’aide du mappage des composants composites).
@@ -192,9 +207,9 @@ Votre tableau est généré une seule fois, contenant déjà le balisage de l’
 ### Structure des dossiers et fichiers de clé (dans ce référentiel)
 
 - HTL du composant et clientlibs : `ui.apps/src/main/content/jcr_root/apps/guides-components/components/table/`
-   - `table.html` (rendu HTL)
-   - `_cq_editConfig.xml` (actualiser les écouteurs)
-   - `clientlibs/` avec `css.txt`, `js.txt`, `css/table.css`, `js/table.js`
+  - `table.html` (rendu HTL)
+  - `_cq_editConfig.xml` (actualiser les écouteurs)
+  - `clientlibs/` avec `css.txt`, `js.txt`, `css/table.css`, `js/table.js`
 - Modèle Sling : `core/src/main/java/com/adobe/guides/aem/components/core/models/TableModel.java`
 - Service de rendu d&#39;image : `core/src/main/java/com/adobe/guides/aem/components/core/services/ImageComponentRenderer.java`
 

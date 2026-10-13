@@ -4,13 +4,28 @@ description: Découvrez les modifications apportées au framework d’extension 
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 2ba8eadcb30faca01170cb13ae2da6fdf7da19c8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '2003'
+source-wordcount: '2006'
 ht-degree: 4%
-
 ---
-
 # Modifications de la structure d’extension pour l’éditeur 2.0 (nouvel éditeur)
 
 Ce document couvre toutes les API ajoutées à `guides.editor` (et `guides`) dans le cadre de la structure d’extension du nouvel éditeur (éditeur basé sur ProseMirror). Ces API permettent aux extensions externes d’interagir avec l’éditeur sans manipulation DOM directe ni connaissance de l’implémentation interne.
@@ -240,63 +255,63 @@ guides.ready(() => {
   | Rechercher et remplacer | `findNext` | _(aucune)_ | Passe à la recherche correspondante suivante |
   | Rechercher et remplacer | `replaceAll` | `replacement?: string` | Remplace chaque correspondance de la requête actuelle par `replacement` |
 
-   - **Exemple : définissez plusieurs attributs sur un nœud**
+  - **Exemple : définissez plusieurs attributs sur un nœud**
 
-     ```js
-     guides.editor.runCommand(
-       "setNodeXmlAttributes",
-       rootRange.from,
-       { createdDate: "2024-01-01", author: "Jane Doe" }
-     );
-     ```
+    ```js
+    guides.editor.runCommand(
+      "setNodeXmlAttributes",
+      rootRange.from,
+      { createdDate: "2024-01-01", author: "Jane Doe" }
+    );
+    ```
 
-   - **Exemple : définissez un attribut unique sur un nœud**
+  - **Exemple : définissez un attribut unique sur un nœud**
 
-     ```js
-     guides.editor.runCommand(
-       "setNodeXmlAttribute",
-       range.from,
-       "placeholdertext",
-       "Chapter 3 — Safety Requirements"
-     );
-     ```
+    ```js
+    guides.editor.runCommand(
+      "setNodeXmlAttribute",
+      range.from,
+      "placeholdertext",
+      "Chapter 3 — Safety Requirements"
+    );
+    ```
 
-   - **Exemple : encapsuler la sélection avec un élément et définir des attributs**
+  - **Exemple : encapsuler la sélection avec un élément et définir des attributs**
 
-     ```js
-     const didWrap = guides.editor.runCommand(
-       "surroundWithElement",
-       "ph",
-       { outputclass: "highlight" },
-       true   // replace text content with empty node
-     );
-     ```
+    ```js
+    const didWrap = guides.editor.runCommand(
+      "surroundWithElement",
+      "ph",
+      { outputclass: "highlight" },
+      true   // replace text content with empty node
+    );
+    ```
 
-   - **Exemple : encapsuler la sélection dans `<sup>` (activer/désactiver l’exposant)**
+  - **Exemple : encapsuler la sélection dans `<sup>` (activer/désactiver l’exposant)**
 
-     ```js
-     const didWrap = guides.editor.runCommand('surroundWithElement', 'sup');
-     if (!didWrap) {
-       tcx.util.showAlert("warning", "superscript is not allowed here");
-     }
-     ```
+    ```js
+    const didWrap = guides.editor.runCommand('surroundWithElement', 'sup');
+    if (!didWrap) {
+      tcx.util.showAlert("warning", "superscript is not allowed here");
+    }
+    ```
 
-   - **Exemple : déplier le nœud actuel (désactiver l’exposant)**
+  - **Exemple : déplier le nœud actuel (désactiver l’exposant)**
 
-     ```js
-     const didUnwrap = guides.editor.runCommand('unwrapNode');
-     ```
+    ```js
+    const didUnwrap = guides.editor.runCommand('unwrapNode');
+    ```
 
-   - **Exemple : insérez du code XML à l’emplacement du curseur avec un signe d’insertion**
+  - **Exemple : insérez du code XML à l’emplacement du curseur avec un signe d’insertion**
 
-     ```js
-     guides.editor.runCommand(
-       'insertXml',
-       '<sup></sup>',
-       undefined,
-       { setCursorInContent: true, focusEditor: true, selectInsertedXml: false }
-     );
-     ```
+    ```js
+    guides.editor.runCommand(
+      'insertXml',
+      '<sup></sup>',
+      undefined,
+      { setCursorInContent: true, focusEditor: true, selectInsertedXml: false }
+    );
+    ```
 
 - `guides.editor.canRunCommand(commandName, ...args)` : vérifie si une commande nommée peut actuellement être exécutée, sans réellement l’exécuter.
 
@@ -461,7 +476,7 @@ Les décorations sont identifiées par une `id` de chaîne afin qu’elles puiss
   | `filter` | `(node) => boolean` | Prédicat facultatif : seuls les nœuds pour lesquels ce paramètre renvoie des `true` sont décorés |
 
   L’objet `context` transmis à `computeAttributes` comprend :
-   - `index` — Position basée sur 0 du nœud parmi les frères correspondant au sélecteur
+  - `index` — Position basée sur 0 du nœud parmi les frères correspondant au sélecteur
 
   **Exemple : ajoutez une classe CSS à tous `<section>` éléments**
 

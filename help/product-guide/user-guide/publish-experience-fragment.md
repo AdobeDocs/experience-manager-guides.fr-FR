@@ -4,24 +4,34 @@ description: Publier une rubrique ou les éléments d’une rubrique dans un fra
 feature: Publishing
 role: User
 exl-id: 4cdce8c2-2ccf-4bf1-8b92-4dfeb10de186
-TQID: https://experienceleague.adobe.com/7PDuoIrsv5an1eYNkJJzbFwg3dNUe-QLLrkiHy4wrYI
+TQID: 'https://experienceleague.adobe.com/7PDuoIrsv5an1eYNkJJzbFwg3dNUe-QLLrkiHy4wrYI'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 975
-ht-degree: 0%
-
+source-wordcount: '996'
+ht-degree: 1%
 ---
-
 # Publier des fragments d’expérience
 
 Les fragments d’expérience sont des éléments de contenu modulaire dans Adobe Experience Manager. Ces blocs de contenu sont basés sur des modèles et encapsulent à la fois le contenu et sa mise en page. Ces éléments de contenu réutilisables permettent aux créateurs et aux créatrices de contenu d’assembler et de diffuser des expériences cohérentes et évolutives sur plusieurs canaux pris en charge par Experience Manager. Cette fonctionnalité vous permet de créer facilement et efficacement des expériences marketing cohérentes, telles que des newsletters, des bannières de promotion et des témoignages de clients.
@@ -42,7 +52,7 @@ Pour générer un fragment d’expérience, procédez comme suit :
    * **Titre** : affichez ou modifiez le titre du dossier.
 
    * **Modèles autorisés** : contient la liste des modèles qui peuvent être ajoutés en tant que pages enfants du fragment d’expérience. Pour ajouter le modèle autorisé, spécifiez l’expression régulière permettant de récupérer les modèles requis dans le champ **Modèles autorisés**.
-Par exemple :
+Par exemple :
      `/libs/cq/experience-fragments/components/experiencefragment/template`
 
      Si vous ne définissez pas de modèle autorisé pour un dossier, les modèles sont sélectionnés à partir du dossier parent ou du dossier de modèles par défaut.
@@ -77,9 +87,9 @@ Par exemple :
    * Vous pouvez également sélectionner différentes conditions pour publier le contenu.  Sélectionnez l’une des options suivantes :
 
 
-      * **Aucune** : sélectionnez cette option si vous ne souhaitez appliquer aucune condition sur la sortie publiée.
-      * **A partir de DITAVAL** : sélectionnez le fichier DITAVAL afin de générer un contenu personnalisé. Vous pouvez sélectionner le fichier DITAVAL à l’aide de la boîte de dialogue de navigation ou en saisissant le chemin d’accès au fichier.
-      * **Utilisation d&#39;attributs** : vous pouvez définir des attributs de condition dans vos rubriques DITA. Sélectionnez ensuite l’attribut de condition pour publier le contenu approprié.
+     * **Aucune** : sélectionnez cette option si vous ne souhaitez appliquer aucune condition sur la sortie publiée.
+     * **A partir de DITAVAL** : sélectionnez le fichier DITAVAL afin de générer un contenu personnalisé. Vous pouvez sélectionner le fichier DITAVAL à l’aide de la boîte de dialogue de navigation ou en saisissant le chemin d’accès au fichier.
+     * **Utilisation d&#39;attributs** : vous pouvez définir des attributs de condition dans vos rubriques DITA. Sélectionnez ensuite l’attribut de condition pour publier le contenu approprié.
 
      >[!NOTE]
      > 

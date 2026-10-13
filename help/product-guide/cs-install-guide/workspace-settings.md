@@ -4,36 +4,53 @@ description: Découvrez les différents paramètres disponibles dans l’interfa
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 3c3880af-8d32-4d8a-9dca-8be12e9a5fd5
-TQID: https://experienceleague.adobe.com/v6e1b8NAZuEpNNuV4h-xDpsCbFpt7RNplwar-z4L4zY
+TQID: 'https://experienceleague.adobe.com/v6e1b8NAZuEpNNuV4h-xDpsCbFpt7RNplwar-z4L4zY'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f6b497f1-f8e0-42ce-8e95-56c28d94026e
+    internal-label: Conditional content
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Security
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2431
+source-wordcount: '2470'
 ht-degree: 1%
-
 ---
-
 # Paramètres de Workspace
 
 L’option **Paramètres** présente dans la barre d’onglets [de l’éditeur](../user-guide/web-editor-tab-bar.md) est disponible uniquement pour les administrateurs et les administrateurs de profil de dossier. Elle permet de configurer les paramètres suivants :
@@ -70,9 +87,9 @@ Sélectionnez cette option pour activer la fonctionnalité [Assistant IA](../use
 
   Le menu **Création d’actions rapides** vous permet d’effectuer les opérations suivantes :
 
-   - utilisez les boutons (bascules) pour activer ou désactiver des options spécifiques auxquelles les auteurs peuvent accéder lorsqu’ils utilisent l’assistant AI.
+  - utilisez les boutons (bascules) pour activer ou désactiver des options spécifiques auxquelles les auteurs peuvent accéder lorsqu’ils utilisent l’assistant AI.
 
-   - modifiez l’ordre dans lequel les options s’affichent, faites-les glisser et déposez-les selon vos besoins.
+  - modifiez l’ordre dans lequel les options s’affichent, faites-les glisser et déposez-les selon vos besoins.
 
   ![](../user-guide/images/authoring-quick-actions-new.png){width="350"}
 
@@ -80,7 +97,7 @@ Sélectionnez cette option pour activer la fonctionnalité [Assistant IA](../use
 
 - **Création**
 
-   - **Activer tout remplacer** : sélectionnez cette option pour afficher l’icône **Tout remplacer** dans le panneau **Rechercher et remplacer**.
+  - **Activer tout remplacer** : sélectionnez cette option pour afficher l’icône **Tout remplacer** dans le panneau **Rechercher et remplacer**.
 
 - **Citations**
 
@@ -88,15 +105,15 @@ Sélectionnez cette option pour activer la fonctionnalité [Assistant IA](../use
 
 - **Condition**
 
-   - **Mettre en surbrillance le texte conditionnel en mode Création** : sélectionnez cette option pour mettre en surbrillance le texte conditionnel en mode Création. Le contenu conditionnel est mis en surbrillance à l’aide de la couleur définie pour la condition.
+  - **Mettre en surbrillance le texte conditionnel en mode Création** : sélectionnez cette option pour mettre en surbrillance le texte conditionnel en mode Création. Le contenu conditionnel est mis en surbrillance à l’aide de la couleur définie pour la condition.
 
-   - **Valider avec des attributs de condition** : sélectionnez cette option pour permettre la validation des valeurs définies pour les attributs. Cela vous empêche d’ajouter une valeur incorrecte.
+  - **Valider avec des attributs de condition** : sélectionnez cette option pour permettre la validation des valeurs définies pour les attributs. Cela vous empêche d’ajouter une valeur incorrecte.
 
-   - **Afficher la clé avec le titre dans le panneau Schéma d’objet** : sélectionnez cette option pour afficher les clés ainsi que les titres dans le schéma d’objet. Si vous ne sélectionnez pas cette option, seuls les titres s’affichent. Par exemple, les clés « os », « audience » et « other » sont également affichées avec les titres.
+  - **Afficher la clé avec le titre dans le panneau Schéma d’objet** : sélectionnez cette option pour afficher les clés ainsi que les titres dans le schéma d’objet. Si vous ne sélectionnez pas cette option, seuls les titres s’affichent. Par exemple, les clés « os », « audience » et « other » sont également affichées avec les titres.
 
-     ![](../user-guide/images/subject-scheme-title.png){width="550"}
+    ![](../user-guide/images/subject-scheme-title.png){width="550"}
 
-   - **Afficher le schéma d’objet dans le panneau Conditions** : sélectionnez cette option pour afficher un schéma d’objet dans le panneau Conditions. Si vous désélectionnez cette option, les conditions définies s’affichent dans le panneau Conditions .
+  - **Afficher le schéma d’objet dans le panneau Conditions** : sélectionnez cette option pour afficher un schéma d’objet dans le panneau Conditions. Si vous désélectionnez cette option, les conditions définies s’affichent dans le panneau Conditions .
 
 - **Vérification orthographique**
 Il existe deux options : **Vérification orthographique** et **Vérification orthographique du navigateur**. Par défaut, l’éditeur utilise la fonction de vérification orthographique du navigateur , où la vérification orthographique est effectuée à l’aide du dictionnaire intégré du navigateur. Vous pouvez passer à la vérification orthographique d’AEM pour utiliser le dictionnaire Adobe Experience Manager, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section [&#x200B; Personnaliser le dictionnaire par défaut d’AEM &#x200B;](../cs-install-guide/customize-aem-custom-dictionary.md) dans Installation et configuration d’Adobe Experience Manager Guides as a Cloud Service.
@@ -107,9 +124,9 @@ Il existe deux options : **Vérification orthographique** et **Vérification ort
 
   Les fonctionnalités/options suivantes ne sont disponibles que lorsque le paramètre Contenu de formation est activé :
 
-   - **Création de cours** : permet d’activer des options de création et de gestion de cours à partir de l’éditeur et de la page d’accueil.
-   - **Modèles SCORM** : permet d’activer l’option de création de modèles SCORM sous *Modèles de sortie* dans l’éditeur.
-   - **Modèles de contenu et paramètres prédéfinis de sortie** : active les options de configuration Modèles de contenu et Paramètres prédéfinis de sortie dans la boîte de dialogue Paramètres Workspace.
+  - **Création de cours** : permet d’activer des options de création et de gestion de cours à partir de l’éditeur et de la page d’accueil.
+  - **Modèles SCORM** : permet d’activer l’option de création de modèles SCORM sous *Modèles de sortie* dans l’éditeur.
+  - **Modèles de contenu et paramètres prédéfinis de sortie** : active les options de configuration Modèles de contenu et Paramètres prédéfinis de sortie dans la boîte de dialogue Paramètres Workspace.
 
 Lorsque le contenu d’apprentissage est désactivé, toutes les options ci-dessus ne sont plus disponibles dans l’interface de Experience Manager Guides.
 
@@ -117,8 +134,8 @@ Pour plus d’informations, consultez [Configuration des profils de dossier](../
 
 - **Éditeur HTML** : pour le contenu d’apprentissage, ce paramètre vous permet de configurer l’éditeur pour la création basée sur HTML. Les principales options de configuration de ce paramètre sont les suivantes :
 
-   - **Masquer le style intégré** : activez cette option pour empêcher les auteurs d’appliquer un formatage en ligne au contenu du cours. Lorsqu’elles sont activées, toutes les options de style intégrées telles que Polices, Bordure, Disposition, Arrière-plan et Colonnes présentes dans le panneau de droite de l’éditeur restent masquées pour les auteurs. Cependant, les créateurs peuvent toujours utiliser les options de style globales basées sur les classes disponibles dans le panneau **Styles**. Cela permet de maintenir la cohérence avec les directives de style de votre organisation.
-   - **Masquer la vue Source pour les auteurs** : activez cette option pour restreindre l’accès au code source HTML. Cela s’avère utile si vous souhaitez simplifier l’expérience de modification ou éviter des modifications accidentelles du code sous-jacent.
+  - **Masquer le style intégré** : activez cette option pour empêcher les auteurs d’appliquer un formatage en ligne au contenu du cours. Lorsqu’elles sont activées, toutes les options de style intégrées telles que Polices, Bordure, Disposition, Arrière-plan et Colonnes présentes dans le panneau de droite de l’éditeur restent masquées pour les auteurs. Cependant, les créateurs peuvent toujours utiliser les options de style globales basées sur les classes disponibles dans le panneau **Styles**. Cela permet de maintenir la cohérence avec les directives de style de votre organisation.
+  - **Masquer la vue Source pour les auteurs** : activez cette option pour restreindre l’accès au code source HTML. Cela s’avère utile si vous souhaitez simplifier l’expérience de modification ou éviter des modifications accidentelles du code sous-jacent.
 
   Pour plus d’informations, consultez [création et personnalisation de contenu d’apprentissage](../learning-content/lc-overview.md).
 
@@ -179,24 +196,24 @@ Contient les profils qui peuvent être utilisés pour publier la sortie **Base d
 
 - Lors de la configuration de l’application connectée, assurez-vous des points suivants :
 
-   - Spécifiez le rappel .
+  - Spécifiez le rappel .
 
-     `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+    `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
-   - Sélectionnez les portées OAuth suivantes :
-      - Accès complet (complet)
-      - Sélectionnez Gérer les données utilisateur via les API (api) .
+  - Sélectionnez les portées OAuth suivantes :
+    - Accès complet (complet)
+    - Sélectionnez Gérer les données utilisateur via les API (api) .
 
-     Une fois l’application configurée, Salesforce fournit une **Clé du client** et **Secret du client**. Ils peuvent être utilisés pour créer le profil Salesforce.
+    Une fois l’application configurée, Salesforce fournit une **Clé du client** et **Secret du client**. Ils peuvent être utilisés pour créer le profil Salesforce.
 
 
-   - Pour créer un profil Salesforce, sélectionnez la base de connaissances **Salesforce** dans le menu déroulant **Type de serveur**. Saisissez un nom de profil. Dans l’**URL du site**, saisissez le site client que vous utiliserez pour publier la sortie, puis ajoutez les **Clé du client** et **Secret du client** fournis par le site client Salesforce. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
+  - Pour créer un profil Salesforce, sélectionnez la base de connaissances **Salesforce** dans le menu déroulant **Type de serveur**. Saisissez un nom de profil. Dans l’**URL du site**, saisissez le site client que vous utiliserez pour publier la sortie, puis ajoutez les **Clé du client** et **Secret du client** fournis par le site client Salesforce. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
 
-     ![paramètres de publication du profil salesforce dans workspace](../user-guide/images/salesforce-publish-profile.png){width="550"}
+    ![paramètres de publication du profil salesforce dans workspace](../user-guide/images/salesforce-publish-profile.png){width="550"}
 
-     >[!NOTE]
-     >
-     >Pour configurer un proxy pour Salesforce dans Experience Manager Guides, utilisez la configuration proxy de composants HTTP Apache dans AEM. Découvrez comment [configurer le proxy pour le Vérificateur de lien AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+    >[!NOTE]
+    >
+    >Pour configurer un proxy pour Salesforce dans Experience Manager Guides, utilisez la configuration proxy de composants HTTP Apache dans AEM. Découvrez comment [configurer le proxy pour le Vérificateur de lien AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
 **Créer un profil ServiceNow**
@@ -262,24 +279,24 @@ Cet onglet contient les options permettant de créer des groupes de langues, de 
 
   Pour créer un groupe de langues, procédez comme suit :
 
-   1. Sélectionnez **Ajouter**.
-   1. Saisissez le nom du groupe linguistique. Chaque langue doit avoir un nom unique. Vous pouvez voir une erreur si le champ du nom est vide ou si le nom n’est pas unique.
-   1. Sélectionnez les langues dans la liste déroulante. Vous pouvez sélectionner plusieurs langues.
+  1. Sélectionnez **Ajouter**.
+  1. Saisissez le nom du groupe linguistique. Chaque langue doit avoir un nom unique. Vous pouvez voir une erreur si le champ du nom est vide ou si le nom n’est pas unique.
+  1. Sélectionnez les langues dans la liste déroulante. Vous pouvez sélectionner plusieurs langues.
 
-      Saisissez les premiers caractères de la langue ou le code de langue pour filtrer les langues souhaitées. Par exemple, saisissez « en » pour filtrer toutes les langues qui contiennent « en » au début de leur nom ou de leur code.
+     Saisissez les premiers caractères de la langue ou le code de langue pour filtrer les langues souhaitées. Par exemple, saisissez « en » pour filtrer toutes les langues qui contiennent « en » au début de leur nom ou de leur code.
 
-   1. Sélectionnez l’icône Terminé pour ajouter les langues sélectionnées au groupe. Les langues s’affichent. Lorsque vous ajoutez trois langues ou plus, l’option **Afficher plus** s’affiche. Vous pouvez sélectionner **Afficher plus** pour afficher toutes les langues présentes dans le groupe.
+  1. Sélectionnez l’icône Terminé pour ajouter les langues sélectionnées au groupe. Les langues s’affichent. Lorsque vous ajoutez trois langues ou plus, l’option **Afficher plus** s’affiche. Vous pouvez sélectionner **Afficher plus** pour afficher toutes les langues présentes dans le groupe.
 
-      >[!TIP]
-      >
-      > Activez le bouton (bascule) **Afficher plus** pour **Afficher moins** et afficher uniquement quelques langues.
+     >[!TIP]
+     >
+     > Activez le bouton (bascule) **Afficher plus** pour **Afficher moins** et afficher uniquement quelques langues.
 
-   1. Pointez sur les langues d’un groupe pour modifier ![icône de modification](../user-guide/images/edit_pencil_icon.svg) ou supprimer ![supprimer](../user-guide/images/Delete_icon.svg) les groupes de langues.
-   1. Enregistrez le **Paramètres**.
+  1. Pointez sur les langues d’un groupe pour modifier ![icône de modification](../user-guide/images/edit_pencil_icon.svg) ou supprimer ![supprimer](../user-guide/images/Delete_icon.svg) les groupes de langues.
+  1. Enregistrez le **Paramètres**.
 
-      >[!NOTE]
-      >
-      >En tant qu’utilisateur, vous pouvez afficher les groupes linguistiques configurés sur votre profil de dossier.
+     >[!NOTE]
+     >
+     >En tant qu’utilisateur, vous pouvez afficher les groupes linguistiques configurés sur votre profil de dossier.
 
 - **Propager les libellés de la version source vers la version cible** : sélectionnez cette option pour transmettre le libellé de la version du fichier source au fichier traduit. Par défaut, cette option est désactivée.
 - **Nettoyage du projet de traduction après l’achèvement** : sélectionnez cette option pour configurer les projets de traduction à désactiver ou à supprimer automatiquement après la traduction. Par défaut, l’option **Aucun** est sélectionnée, de sorte que le projet existe après la traduction.

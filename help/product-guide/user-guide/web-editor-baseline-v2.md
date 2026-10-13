@@ -4,13 +4,29 @@ description: Créez et gérez une nouvelle ligne de base (Beta) à partir de la 
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: 5fe9e9476b001a1ad74c045bf05e3061702f5e42
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 0%
-
 ---
-
 # Nouvelle ligne de base (Beta) dans Experience Manager Guides
 
 >[!NOTE]
@@ -136,10 +152,10 @@ Les mises à jour suivantes s&#39;appliquent lorsque vous utilisez des lignes de
   ![](images/baseline-v2-dynamic-baseline-new.png)
 
   Vous pouvez également utiliser les nouvelles options introduites pour les lignes de base dynamiques créées à l&#39;aide du nouveau modèle de ligne de base :
-   - **Modifier les propriétés** : permet de modifier les propriétés d&#39;une ligne de base existante.
-   - **Reconstruire** : vous permet de reconstruire une ligne de base dynamique à chaque fois que des modifications se produisent.
+  - **Modifier les propriétés** : permet de modifier les propriétés d&#39;une ligne de base existante.
+  - **Reconstruire** : vous permet de reconstruire une ligne de base dynamique à chaque fois que des modifications se produisent.
 
-     ![rebuild-baseline](images/rebuild-baseline.png)
+    ![rebuild-baseline](images/rebuild-baseline.png)
 
 - L’action **Télécharger** prend en charge les téléchargements paginés. Tout le contenu de base correspondant aux filtres appliqués est inclus dans le téléchargement, et pas seulement le contenu visible sur la page active.
 - Filtrez les fichiers par GUID, en plus des noms de fichier ou de l’emplacement du fichier. Une option supplémentaire permettant de **filtrer les fichiers sans libellés** est également disponible.
@@ -151,28 +167,28 @@ Les mises à jour suivantes s&#39;appliquent lorsque vous utilisez des lignes de
 
   Effectuez les étapes suivantes pour apporter des modifications à une ligne de base :
 
-   - Ouvrez la ligne de base à partir du panneau **Ligne de base**.
+  - Ouvrez la ligne de base à partir du panneau **Ligne de base**.
 
-     La vue tabulaire des références des lignes de base s&#39;affiche.
+    La vue tabulaire des références des lignes de base s&#39;affiche.
 
-   - Accédez au fichier à modifier et pointez dessus.
-   - Sélectionnez l’icône **Modifier**.
+  - Accédez au fichier à modifier et pointez dessus.
+  - Sélectionnez l’icône **Modifier**.
 
-     ![edit-baseline-icon](images/edit-baseline-icon.png)
+    ![edit-baseline-icon](images/edit-baseline-icon.png)
 
-     La boîte de dialogue **Modifier la version** s’affiche.
-   - Sélectionnez la version requise dans le menu déroulant **Version** (par exemple, passez de la version 1.0 à la version 1.1).
+    La boîte de dialogue **Modifier la version** s’affiche.
+  - Sélectionnez la version requise dans le menu déroulant **Version** (par exemple, passez de la version 1.0 à la version 1.1).
 
 
-     ![edit-version-baseline](images/edit-version-baseline.png)
+    ![edit-version-baseline](images/edit-version-baseline.png)
 
-     Les dépendances ajoutées et supprimées sont évaluées et affichées en tant qu’aperçu. Examinez les modifications avant de les appliquer.
+    Les dépendances ajoutées et supprimées sont évaluées et affichées en tant qu’aperçu. Examinez les modifications avant de les appliquer.
 
-     ![](images/baseline-v2-version-added.png)
+    ![](images/baseline-v2-version-added.png)
 
-     Si aucune modification de dépendance n’est détectée, un message d’état vide s’affiche.
+    Si aucune modification de dépendance n’est détectée, un message d’état vide s’affiche.
 
-   - Sélectionnez **Mettre à jour** pour appliquer les modifications.
+  - Sélectionnez **Mettre à jour** pour appliquer les modifications.
 
   La ligne de base est mise à jour avec la version sélectionnée.
   +++

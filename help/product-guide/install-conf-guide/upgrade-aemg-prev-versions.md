@@ -5,18 +5,33 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 61a6a623-2f29-43b5-a053-7f1f925de6d6
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '3168'
+source-wordcount: '3216'
 ht-degree: 2%
-
 ---
-
 # Mise à niveau d’Adobe Experience Manager Guides On-Premise (version 4.4.0 et antérieure)
 
 Cet article fournit des instructions pour mettre à niveau les versions d’**&#x200B;** **antérieures à la version 4.6.0** **(jusqu’à la version 4.4.0 incluse**).
 
-Si vous utilisez une version **antérieure à la version 3.8.5**, reportez-vous à la section **Mettre à niveau Experience Manager Guides** du guide d’installation spécifique au produit disponible sur [l’archive PDF de l’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html).
+Si vous utilisez une version **antérieure à la version 3.8.5**, reportez-vous à la section **Mettre à niveau Experience Manager Guides** du guide d’installation spécifique au produit disponible sur [l’archive PDF de l’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 Pour obtenir des instructions de mise à niveau pour les versions plus récentes, reportez-vous à [Mise à niveau d’Adobe Experience Manager Guides vers les versions 4.6.0 et ultérieures](./upgrade-aemg-latest-version.md).
 
@@ -58,7 +73,7 @@ Certaines mises à niveau nécessitent également de définir le niveau de journ
 
 >[!NOTE]
 >
-> Ce processus de mise à niveau est applicable **uniquement** de la version **3.8.5** à la version **4.0**. Pour les mises à niveau de **3.4 ou version ultérieure** vers **3.8.5**, reportez-vous au guide d’installation spécifique au produit disponible sur [l’archive Adobe Experience Manager Guides Help PDF](https://helpx.adobe.com/fr/xml-documentation-for-experience-manager/archive.html).
+> Ce processus de mise à niveau est applicable **uniquement** de la version **3.8.5** à la version **4.0**. Pour les mises à niveau de **3.4 ou version ultérieure** vers **3.8.5**, reportez-vous au guide d’installation spécifique au produit disponible sur [l’archive Adobe Experience Manager Guides Help PDF](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 Si vous utilisez la version **3.8.5 de Experience Manager Guides** vous pouvez effectuer la mise à niveau vers la version **4.0** sans désinstaller la version précédente.
 
@@ -108,7 +123,7 @@ Cette API migre toutes les données de l’emplacement source vers l’emplaceme
 
    - Si vous utilisez la version UUID du logiciel, recherchez « Version UUID 4.0 pour la solution XML Documentation pour AEM 6.5 ».
    - Si vous utilisez une version non UUID du logiciel, recherchez « Version 4.0 non UUID pour XML Documentation solution for AEM 6.5 ».
-Téléchargez le package sur la ou les instances de serveur AEM existantes à l’aide du gestionnaire de packages CRX et installez-le.
+     Téléchargez le package sur la ou les instances de serveur AEM existantes à l’aide du gestionnaire de packages CRX et installez-le.
 
      >[!NOTE]
      >
@@ -371,9 +386,9 @@ Après l’installation de Experience Manager Guides, vous devrez peut-être fus
 - Titre : `DXML Post Process Initiator`
 - Description : `DXML post process initiator step which will trigger a sling job for DXML post-processing of the modified/created asset`
       **Onglet Processus**
-- Processus : sélectionner `DXML Post Process Initiator`
-- Sélectionner `Handler Advance`
-- Sélectionner un `Done`
+      - Processus : sélectionner `DXML Post Process Initiator`
+      - Sélectionner `Handler Advance`
+      - Sélectionner un `Done`
    3. Cliquez sur **Synchronisation** en haut à droite après avoir effectué les modifications. Vous recevrez une notification de succès.
 
 >[!NOTE]

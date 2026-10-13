@@ -1,13 +1,19 @@
 ---
 title: Notes de mise à jour d’Adobe Experience Manager Guides 4.0.x
 description: Découvrez les correctifs, les nouvelles fonctionnalités et les améliorations des versions 4.0, 4.0.1, 4.0.2 et 4.0.3 d’Adobe Experience Manager Guides.
-source-git-commit: dc078c23c02c813fe39ca563e615dc3238c40253
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '3496'
 ht-degree: 5%
-
 ---
-
 
 # Notes de mise à jour | Adobe Experience Manager Guides 4.0.x
 
@@ -209,10 +215,10 @@ De nombreuses améliorations et nouvelles fonctionnalités ont été introduites
 
 - Modification du framework de base de l’IU basée sur Coral en IU basée sur le spectre. Cela donne une interface utilisateur très normalisée et intuitive.
 - La nouvelle fonctionnalité Propriétés du fichier a été introduite dans le panneau de droite. Vous pouvez vérifier les propriétés d&#39;un document actif. Les informations sont classées en deux sections :
-   - *Général* : contient les détails généraux du fichier, tels que le nom du fichier, l’UUID, les balises de métadonnées, la langue, la date de création, le statut d’extraction et l’état du document.
-   - *Référence* : contient des références entrantes et sortantes.
+  - *Général* : contient les détails généraux du fichier, tels que le nom du fichier, l’UUID, les balises de métadonnées, la langue, la date de création, le statut d’extraction et l’état du document.
+  - *Référence* : contient des références entrantes et sortantes.
 
-     ![Panneau Propriétés du fichier](assets/file-properties.avif)
+    ![Panneau Propriétés du fichier](assets/file-properties.avif)
 
 - La prise en charge du schéma d&#39;objet a également été ajoutée dans l&#39;éditeur web. Vous pouvez maintenant créer et utiliser le schéma d&#39;objet à l&#39;aide du panneau Schéma d&#39;objet. Avec l’ajout du schéma d’objet, vous pouvez désormais utiliser les métadonnées et la taxonomie de votre entreprise.
 

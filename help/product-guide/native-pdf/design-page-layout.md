@@ -5,26 +5,36 @@ exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/S-gzuvk3PoU8kiNR9m39L50ftQRTrt8RnZ3Lo9WJkZs
+TQID: 'https://experienceleague.adobe.com/S-gzuvk3PoU8kiNR9m39L50ftQRTrt8RnZ3Lo9WJkZs'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 5060
+source-wordcount: '5089'
 ht-degree: 0%
-
 ---
-
 # Conception d’une mise en page {#design-page-layout}
 
 Lors de la création d’un document PDF, vous disposez de différentes sections pour présenter différents types d’informations. Par exemple, un document PDF démarrerait à partir d’une page d’accueil ou d’une page de garde, qui contiendrait le logo de votre société, le titre du livre ou des informations sur la version. Il y aurait ensuite des chapitres, des annexes ou des pages de glossaire. Chaque section d’un document PDF a un aspect différent, ce qui est possible en créant et en personnalisant la mise en page.
@@ -113,9 +123,9 @@ Lors de la conception d’une mise en page, il est essentiel de contrôler diver
 * **Afficher la rotation** : spécifiez le côté ou la direction dans lequel le côté supérieur d’origine est représenté après la rotation. Vous pouvez choisir entre 90 degrés dans le sens des aiguilles d&#39;une montre, 90 degrés dans le sens inverse des aiguilles d&#39;une montre ou 180 degrés. Cela s’avère très utile dans les cas où vous souhaitez utiliser une combinaison de dispositions Portrait et Paysage dans votre sortie. Par exemple, vous pouvez utiliser le format portrait comme mise en page générique et vous pouvez définir une mise en page paysage pour le rendu des tableaux larges. Dans ce cas, vous pouvez définir pour afficher le contenu du tableau dans le sens des aiguilles d’une montre à 90 degrés. Ainsi, la page sera orientée dans le paysage et le contenu fera l’objet d’une rotation de 90 degrés pour maintenir la continuité en vue. Nous verrons comment cela est réalisé à titre d’exemple plus loin dans cette section.
 
 * **Numérotation des pages** :The numérotation des pages est par défaut continue dans un PDF. Par exemple, un PDF de 100 pages peut avoir des numéros de page continus compris entre 1 et 100. Vous pouvez également redémarrer la numérotation à partir d&#39;un numéro spécifique dans toutes les différentes sections ou la première occurrence d&#39;une section.
-   * **Redémarrer à partir de** : indiquez le numéro de page à partir duquel la numérotation de cette disposition commencera. Par exemple, vous pouvez définir le numéro de page à redémarrer pour chaque chapitre. Dans ce cas, vous devez définir le redémarrage à partir de la propriété sur 1 dans la variante Première page de la mise en page du chapitre. Par défaut, la numérotation des pages se poursuit à partir de la page précédente.
+  * **Redémarrer à partir de** : indiquez le numéro de page à partir duquel la numérotation de cette disposition commencera. Par exemple, vous pouvez définir le numéro de page à redémarrer pour chaque chapitre. Dans ce cas, vous devez définir le redémarrage à partir de la propriété sur 1 dans la variante Première page de la mise en page du chapitre. Par défaut, la numérotation des pages se poursuit à partir de la page précédente.
 
-   * **Appliquer uniquement à la première occurrence** : vous pouvez également partir d’un nombre spécifique uniquement pour la première occurrence d’une section. Par exemple, vous pouvez commencer uniquement le premier chapitre à partir de 1 et continuer les numéros de page pour les autres chapitres.
+  * **Appliquer uniquement à la première occurrence** : vous pouvez également partir d’un nombre spécifique uniquement pour la première occurrence d’une section. Par exemple, vous pouvez commencer uniquement le premier chapitre à partir de 1 et continuer les numéros de page pour les autres chapitres.
 
 * **Disposition** : spécifiez les marges de la page ainsi que la marge intérieure pour les côtés supérieur, inférieur, gauche et droit. L’illustration suivante explique comment les marges, la marge intérieure et les bordures sont rendues autour du contenu. Notez que la marge en haut et en bas d’une page contient l’en-tête et le pied de page.
 
@@ -370,7 +380,7 @@ Vous pouvez insérer les catégories suivantes pour les champs dans votre mise e
 * Titre de la carte
 * Numéro de page
 * Numéro de chapitre
-* Nombre total de pages
+* Total de pages
 * Date
 * estimé
 

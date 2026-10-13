@@ -5,29 +5,41 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 9a9ae44f-8fed-4a4e-812c-451bcf138d0a
-TQID: https://experienceleague.adobe.com/QwfgJH1sqiJKtM3UfYDne0eOCS-y6-yoBZxSCED4umQ
+TQID: 'https://experienceleague.adobe.com/QwfgJH1sqiJKtM3UfYDne0eOCS-y6-yoBZxSCED4umQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 2755
+source-wordcount: '2766'
 ht-degree: 0%
-
 ---
-
 # Paramètres prédéfinis AEM Sites dans l’éditeur web
 
 
@@ -91,11 +103,11 @@ L’onglet **Général** contient les paramétrages suivants relatifs à la gén
 - Chemin de publication
 - Modèle de page de rubrique
 - Générer des noms de page en fonction de
-   - Nom du fichier de rubrique
-   - Titre du sujet
+  - Nom du fichier de rubrique
+  - Titre du sujet
 - Nettoyage des pages générées précédemment
-   - Supprimer les pages précédemment générées pour les rubriques supprimées de la carte
-   - Supprimez toutes les pages créées par d’autres sources à cet emplacement :
+  - Supprimer les pages précédemment générées pour les rubriques supprimées de la carte
+  - Supprimez toutes les pages créées par d’autres sources à cet emplacement :
 - Workflow de post-génération
 
 
@@ -108,8 +120,8 @@ L&#39;onglet **Contenu** contient les paramétrages suivants :
 - Filtrage des conditions
 - Arguments de ligne de commande DITA-OT supplémentaires
 - Métadonnées
-   - Propriétés du fichier (Assets)
-   - Utilisation des propriétés de mappage comme solution de secours
+  - Propriétés du fichier (Assets)
+  - Utilisation des propriétés de mappage comme solution de secours
 
 
 Pour plus d’informations, consultez la configuration d’AEM Sites [&#128279;](#aem_sites_config).
@@ -208,7 +220,7 @@ Pour spécifier le contexte de publication des fichiers liés, procédez comme s
    - Pour les paramètres prédéfinis créés à partir du tableau de bord de mappage. Pour plus d&#39;informations, consultez la section Mapper l’info-bulle du tableau de bord .
    - Pour les paramètres prédéfinis prêts à l’emploi, reportez-vous à l’info-bulle Mapper le tableau de bord .
    - Pour les paramètres prédéfinis globaux, créez une copie locale de ce paramètre prédéfini global pour définir les références croisées.
-Si vous souhaitez utiliser des paramètres prédéfinis AEM Sites à partir de l’éditeur web, créez un nouveau paramètre prédéfini ou dupliquez le paramètre prédéfini existant.
+     Si vous souhaitez utiliser des paramètres prédéfinis AEM Sites à partir de l’éditeur web, créez un nouveau paramètre prédéfini ou dupliquez le paramètre prédéfini existant.
 
 1. Ouvrez l’onglet **Références de mappage croisé**.
 

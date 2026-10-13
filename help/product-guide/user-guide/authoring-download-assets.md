@@ -4,26 +4,34 @@ description: Découvrez comment télécharger des fichiers à partir de la conso
 exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
 feature: Content Management
 role: User
-TQID: https://experienceleague.adobe.com/xwz0wuugvwPsmIX78kuwv5te2NGcNTik-qoJvijRzzg
+TQID: 'https://experienceleague.adobe.com/xwz0wuugvwPsmIX78kuwv5te2NGcNTik-qoJvijRzzg'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 2afda568-c433-5cad-ab97-19b8847286b0
+    internal-label: Content Management
 subfeature_v2:
   - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+    internal-label: Map Editor
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: '864'
 ht-degree: 0%
-
 ---
-
 # Télécharger les fichiers {#id216MC0H0BE8}
 
 Vous pouvez télécharger des ressources, y compris des fichiers DITA et non DITA. Vous pouvez télécharger des ressources de plusieurs façons. Certaines méthodes sont natives à Adobe Experience Manager et d’autres sont prises en charge par Adobe Experience Manager Guides. Pour obtenir des informations sur le téléchargement des ressources natives de Adobe Experience Manager, consultez [Télécharger des ressources depuis Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=fr) dans la documentation de Adobe Experience Manager. La section suivante explique le mécanisme de téléchargement des fichiers dans Experience Manager Guides.
@@ -49,13 +57,13 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA à pa
 
    - **Options de hiérarchie de fichiers** : vous pouvez également utiliser la liste déroulante de hiérarchie de fichiers pour choisir comment la structure de dossiers est gérée pour vos fichiers de mappage téléchargés. Les options disponibles sont les suivantes :
 
-      - **Conserver la hiérarchie de fichiers** : sélectionnez cette option dans la liste déroulante pour conserver la structure de dossiers existante pour les fichiers téléchargés.
-      - **Aplatir la hiérarchie de fichiers** : sélectionnez cette option dans la liste déroulante pour télécharger toutes les rubriques et tous les fichiers multimédias référencés dans un seul dossier.
+     - **Conserver la hiérarchie de fichiers** : sélectionnez cette option dans la liste déroulante pour conserver la structure de dossiers existante pour les fichiers téléchargés.
+     - **Aplatir la hiérarchie de fichiers** : sélectionnez cette option dans la liste déroulante pour télécharger toutes les rubriques et tous les fichiers multimédias référencés dans un seul dossier.
 
      Pour chaque option, vous pouvez spécifier davantage la manière dont les noms de fichier sont gérés pour les fichiers téléchargés. Les options de nom de fichier suivantes sont disponibles :
 
-      - **Utiliser le nom de fichier GUID** : télécharge le fichier map avec GUID comme nom de fichier.
-      - **Utiliser le nom de fichier réel** : télécharge le fichier de mappage avec son nom de fichier d’origine. Lorsque cette option est utilisée avec la hiérarchie de fichiers d&#39;aplatissement, tous les noms de fichiers en double dans la carte sont automatiquement résolus en ajoutant des suffixes numériques (_2, _3, etc.) pour garantir des noms de fichiers uniques.
+     - **Utiliser le nom de fichier GUID** : télécharge le fichier map avec GUID comme nom de fichier.
+     - **Utiliser le nom de fichier réel** : télécharge le fichier de mappage avec son nom de fichier d’origine. Lorsque cette option est utilisée avec la hiérarchie de fichiers d&#39;aplatissement, tous les noms de fichiers en double dans la carte sont automatiquement résolus en ajoutant des suffixes numériques (_2, _3, etc.) pour garantir des noms de fichiers uniques.
 
    >[!NOTE]
    >

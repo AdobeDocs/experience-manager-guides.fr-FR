@@ -4,19 +4,23 @@ description: Gérez les tâches de révision à partir du tableau de bord de ré
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-TQID: https://experienceleague.adobe.com/VHKsjdRxz2MOIAmYGi7fFDKJNPU3rTR466d-jj-QojU
+TQID: 'https://experienceleague.adobe.com/VHKsjdRxz2MOIAmYGi7fFDKJNPU3rTR466d-jj-QojU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1440
+source-wordcount: '1440'
 ht-degree: 0%
-
 ---
-
 # Gérer les tâches de révision à l’aide du tableau de bord de révision {#id2056B0Y70X4}
 
 Le workflow de gestion des révisions peut inclure diverses tâches. Par exemple, vous pouvez ajouter des réviseurs ou des réviseuses pour une rubrique particulière ou prolonger la date limite de révision. Vous pouvez également marquer la tâche de révision comme terminée si vous pensez que toutes les parties prenantes ont donné leur avis. Ces tâches peuvent être gérées à l’aide du tableau de bord de révision.
@@ -139,9 +143,9 @@ Le rapport de statut de la tâche de révision contient les détails suivants :
 
 - Nom\(s) du réviseur ou de la réviseuse auquel la tâche de révision est affectée.
 - La colonne Statut indique le statut de révision. Le statut peut être l’un des suivants :
-   - **Non démarrée** : le réviseur n’a pas encore ouvert la tâche de révision.
-   - **En cours** : le réviseur a ouvert la tâche de révision et est en train de réviser la rubrique.
-   - **Terminé** : le réviseur ou la réviseuse a terminé la révision et a marqué la tâche comme terminée dans l’interface utilisateur de révision. La tâche de révision se trouve dans la boîte de réception de notifications AEM pour chaque réviseur.
+  - **Non démarrée** : le réviseur n’a pas encore ouvert la tâche de révision.
+  - **En cours** : le réviseur a ouvert la tâche de révision et est en train de réviser la rubrique.
+  - **Terminé** : le réviseur ou la réviseuse a terminé la révision et a marqué la tâche comme terminée dans l’interface utilisateur de révision. La tâche de révision se trouve dans la boîte de réception de notifications AEM pour chaque réviseur.
 - Lorsqu’un réviseur ouvre un lien de révision et accède à une rubrique spécifique, celle-ci est ajoutée à la liste Rubriques révisées . Cela permet aux auteurs et aux autrices de déterminer si les réviseurs et réviseuses ont ouvert leurs sections respectives ou non. Si des commentaires sont formulés, ils sont indiqués entre parenthèses.
 - Nombre total de commentaires sur tous les sujets. Si plusieurs sujets sont en cours de révision, le nombre de commentaires pour chaque sujet est mentionné \(entre parenthèses\) en regard du nom du sujet.
 - Date du dernier accès à une rubrique par le réviseur.

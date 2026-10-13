@@ -2,13 +2,19 @@
 title: Notes de mise à jour | Nouveautés de la version Adobe Experience Manager Guides 2026.05.0
 description: Découvrez les fonctionnalités nouvelles et améliorées de la version 2026.05.0 d’Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
-
 ---
-
 # Nouveautés de la version 2026.05.0 (mai 2026)
 
 Cet article présente les nouvelles fonctionnalités améliorées introduites dans la version 2026.05.0 d’Adobe Experience Manager Guides as a Cloud Service.
@@ -46,10 +52,10 @@ Une interface actualisée améliore la convivialité globale, ce qui rend la nav
 
 - **Paramètres consolidés de l’éditeur au niveau de l’utilisateur** : nouveau panneau de paramètres centralisé qui offre aux créateurs et aux créatrices un meilleur contrôle sur le comportement de l’éditeur, ce qui permet aux utilisateurs et aux utilisatrices de gérer plus facilement les préférences à partir d’un seul emplacement. Les options de configuration incluent la possibilité d’activer/désactiver :
 
-   - Espaces insécables en mode Création
-   - Paramètres de visibilité des balises avec ou sans attributs
-   - Commentaires XML en mode Création
-   - Menu d’insertion rapide pour l’insertion d’éléments dans l’éditeur
+  - Espaces insécables en mode Création
+  - Paramètres de visibilité des balises avec ou sans attributs
+  - Commentaires XML en mode Création
+  - Menu d’insertion rapide pour l’insertion d’éléments dans l’éditeur
 
   ![](assets/editor-settings-dialog.png){width="350"}
 
@@ -82,9 +88,9 @@ Offre des outils améliorés et une flexibilité pour rationaliser les workflows
 
 - **Amélioration de la création de tableaux** : améliore l’expérience globale de création de tableaux avec des interactions plus intuitives et efficaces pour la création et la gestion des tableaux.
 
-   - Interactions fluides et intuitives : insérez facilement des lignes et des colonnes, ainsi que la prise en charge du glisser-déposer pour réorganiser les lignes et les colonnes.
-   - Barre d’outils contextuelle : accédez directement à des actions spécifiques au tableau, telles que la mise en forme, l’alignement, la fusion et d’autres actions supplémentaires dans le tableau.
-   - Configuration des tableaux : ajoutez plusieurs lignes ou colonnes en une seule action, ce qui réduit les étapes répétitives et améliore l’efficacité.
+  - Interactions fluides et intuitives : insérez facilement des lignes et des colonnes, ainsi que la prise en charge du glisser-déposer pour réorganiser les lignes et les colonnes.
+  - Barre d’outils contextuelle : accédez directement à des actions spécifiques au tableau, telles que la mise en forme, l’alignement, la fusion et d’autres actions supplémentaires dans le tableau.
+  - Configuration des tableaux : ajoutez plusieurs lignes ou colonnes en une seule action, ce qui réduit les étapes répétitives et améliore l’efficacité.
 
   ![](assets/config-table.png){width="650"}
 

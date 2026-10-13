@@ -5,23 +5,29 @@ feature: Content Management
 role: User
 hide: true
 exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
-TQID: https://experienceleague.adobe.com/njK8ud-RQO0Ev2PnOnXuB7OUUorvKtnMHwLBx8cD1jI
+TQID: 'https://experienceleague.adobe.com/njK8ud-RQO0Ev2PnOnXuB7OUUorvKtnMHwLBx8cD1jI'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 2afda568-c433-5cad-ab97-19b8847286b0
+    internal-label: Content Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 3126
+source-wordcount: '3144'
 ht-degree: 0%
-
 ---
-
 # Gestion des fichiers et des dossiers {#id2116G0L08XA}
 
 Cette section explique comment AEM Guides gère les opérations de base sur les fichiers, telles que les opérations de copie, de collage, de glisser-déposer et de suppression. Les scénarios possibles sont les suivants :
@@ -157,18 +163,18 @@ Pour déplacer des fichiers en bloc, procédez comme suit :
 
    - **Chemin d’accès Source\(s\)** : indiquez l’emplacement des dossiers à déplacer.
 
-      - Sélectionnez **Parcourir le dossier**  <img src="images/browse-folder-icon.svg" width="25"> d’ouvrir la boîte de dialogue parcourir le fichier . Sélectionnez les dossiers à déplacer, puis cliquez sur **Sélectionner** pour terminer le processus.
+     - Sélectionnez **Parcourir le dossier**  <img src="images/browse-folder-icon.svg" width="25"> d’ouvrir la boîte de dialogue parcourir le fichier . Sélectionnez les dossiers à déplacer, puis cliquez sur **Sélectionner** pour terminer le processus.
 
-      - Vous pouvez également saisir ou copier et coller l’emplacement source. Appuyez sur Entrée pour ajouter le dossier à la liste.
+     - Vous pouvez également saisir ou copier et coller l’emplacement source. Appuyez sur Entrée pour ajouter le dossier à la liste.
 
-        Les dossiers sélectionnés sont répertoriés avec leur chemin d’accès. Pointez sur la balise du dossier pour afficher le chemin d’accès complet.
-      - Vous pouvez également supprimer un dossier en cliquant sur **Supprimer** <img src="images/remove-folder.svg" width="25"> près du dossier .
+       Les dossiers sélectionnés sont répertoriés avec leur chemin d’accès. Pointez sur la balise du dossier pour afficher le chemin d’accès complet.
+     - Vous pouvez également supprimer un dossier en cliquant sur **Supprimer** <img src="images/remove-folder.svg" width="25"> près du dossier .
 
 
    - **Chemin de destination** : indiquez l’emplacement où vous souhaitez déplacer les dossiers sources.
 
-      - Sélectionnez **Parcourir le dossier** <img src="images/browse-folder-icon.svg" width="25"> d’ouvrir la boîte de dialogue parcourir le fichier . Sélectionnez l’emplacement où vous souhaitez déplacer les dossiers sources. et cliquez sur Sélectionner pour terminer le processus.
-      - Vous pouvez également saisir ou copier et coller le chemin de destination.
+     - Sélectionnez **Parcourir le dossier** <img src="images/browse-folder-icon.svg" width="25"> d’ouvrir la boîte de dialogue parcourir le fichier . Sélectionnez l’emplacement où vous souhaitez déplacer les dossiers sources. et cliquez sur Sélectionner pour terminer le processus.
+     - Vous pouvez également saisir ou copier et coller le chemin de destination.
 
      Le dossier sélectionné s’affiche avec son chemin d’accès dans la zone de texte.
 
@@ -206,20 +212,20 @@ Pour déplacer des fichiers en bloc, procédez comme suit :
 
    - **Chemin d’accès Source\(s\)** : indiquez l’emplacement des dossiers à déplacer.
 
-      - Sélectionnez **Parcourir le dossier**  <img src="images/browse-folder-icon.svg" width="25"> d’ouvrir la boîte de dialogue parcourir le fichier . Sélectionnez les dossiers à déplacer, puis cliquez sur **Sélectionner** pour terminer le processus.
+     - Sélectionnez **Parcourir le dossier**  <img src="images/browse-folder-icon.svg" width="25"> d’ouvrir la boîte de dialogue parcourir le fichier . Sélectionnez les dossiers à déplacer, puis cliquez sur **Sélectionner** pour terminer le processus.
 
-      - Vous pouvez également saisir ou copier et coller l’emplacement source. Appuyez sur Entrée pour ajouter le dossier à la liste.
+     - Vous pouvez également saisir ou copier et coller l’emplacement source. Appuyez sur Entrée pour ajouter le dossier à la liste.
 
-        Les dossiers sélectionnés sont répertoriés avec leur chemin d’accès. Pointez sur la balise du dossier pour afficher le chemin d’accès complet.
-      - Vous pouvez également supprimer un dossier en cliquant sur **Supprimer** <img src="images/remove-folder.svg" width="25"> près du dossier .
+       Les dossiers sélectionnés sont répertoriés avec leur chemin d’accès. Pointez sur la balise du dossier pour afficher le chemin d’accès complet.
+     - Vous pouvez également supprimer un dossier en cliquant sur **Supprimer** <img src="images/remove-folder.svg" width="25"> près du dossier .
 
 
    - **Chemin de destination** : indiquez l’emplacement où vous souhaitez déplacer les dossiers sources.
 
-      - Sélectionnez **Parcourir le dossier** <img src="images/browse-folder-icon.svg" width="25"> d’ouvrir la boîte de dialogue parcourir le fichier . Sélectionnez l’emplacement où vous souhaitez déplacer les dossiers sources. et cliquez sur Sélectionner pour terminer le processus.
-      - Vous pouvez également saisir ou copier et coller le chemin de destination.
+     - Sélectionnez **Parcourir le dossier** <img src="images/browse-folder-icon.svg" width="25"> d’ouvrir la boîte de dialogue parcourir le fichier . Sélectionnez l’emplacement où vous souhaitez déplacer les dossiers sources. et cliquez sur Sélectionner pour terminer le processus.
+     - Vous pouvez également saisir ou copier et coller le chemin de destination.
 
-        Le dossier sélectionné s’affiche avec son chemin d’accès dans la zone de texte.
+       Le dossier sélectionné s’affiche avec son chemin d’accès dans la zone de texte.
 
    - Cliquez sur **Déplacer en bloc**.
 

@@ -4,25 +4,34 @@ description: Connaître l’utilisation des références dans AEM Guides. Décou
 exl-id: 0554947f-3038-4fd2-8a62-ac0d4b858e94
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/SV9DbfHOr-dOpbn52gq6zihZVMpSLfesLMU81lzZMMc
+TQID: 'https://experienceleague.adobe.com/SV9DbfHOr-dOpbn52gq6zihZVMpSLfesLMU81lzZMMc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1788
+source-wordcount: '1803'
 ht-degree: 0%
-
 ---
-
 # Utiliser la ligne de base depuis le tableau de bord des cartes {#id1825FI0J0PF}
 
 Experience Manager Guides fournit la fonction Ligne de base qui permet aux utilisateurs de créer des lignes de base et de les utiliser pour publier ou traduire des rubriques de différentes versions. Ils peuvent également publier plusieurs paramètres prédéfinis de sortie du même plan DITA en parallèle.
@@ -149,7 +158,7 @@ Effectuez les étapes suivantes pour ajouter un libellé à plusieurs rubriques 
 1. Si vous souhaitez appliquer le libellé aux rubriques référencées à partir des sous-mappages, sélectionnez l&#39;option **Appliquer le libellé aux mappages enfants et à leurs personnes à charge**.
 
    - Sélectionnez **Ajouter**.
-Le libellé spécifié est ajouté au plan DITA ainsi qu&#39;aux rubriques et au contenu référencés.
+     Le libellé spécifié est ajouté au plan DITA ainsi qu&#39;aux rubriques et au contenu référencés.
 
      ![](images/label-added-baseline-uuid.png){width="650"}
 

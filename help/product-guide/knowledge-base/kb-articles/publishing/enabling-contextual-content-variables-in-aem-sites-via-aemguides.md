@@ -4,23 +4,32 @@ description: Utilisation des variables de contenu contextuel (CCVAR) dans les pa
 feature: Web Editor
 role: User, Admin
 exl-id: f9adbb3f-6c1c-4d6f-b55d-1fb45acca91a
-TQID: https://experienceleague.adobe.com/ehW4uJQaj3XqejwquxVwFo4vFx6q7qCsVIm6MowolZE
+TQID: 'https://experienceleague.adobe.com/ehW4uJQaj3XqejwquxVwFo4vFx6q7qCsVIm6MowolZE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+subfeature_v2:
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 497
+source-wordcount: '497'
 ht-degree: 3%
-
 ---
-
 # Activation des variables de contenu contextuel (CCVAR) dans les pages AEM Sites générées à partir d’AEM Guides
 
 Les variables de contenu contextuel (CCVAR) sont une fonctionnalité d’ACS Commons qui permet aux auteurs d’utiliser des variables de contenu dynamique directement dans leur texte créé. Bien que CCVAR soit couramment utilisé dans AEM Sites, cet article explique comment obtenir des fonctionnalités similaires par le biais de pages générées à partir de contenu créé dans **AEM Guides** *principalement à l&#39;aide de mots-clés définis dans le plan DITA*.
@@ -45,9 +54,9 @@ Avant de poursuivre, vérifiez que les conditions préalables suivantes sont rem
 
 2. **Configuration des variables de contenu contextuel** :
    - Terminez la configuration de la **Variables de contenu contextuel** dans AEM à l’aide de la [documentation officielle](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html). Cela comprend :
-      - Activation de l’**agrégation des propriétés**.
-      - Configuration de la **réécriture** (si vous utilisez la sortie HTML).
-      - Configuration de la **réécriture JSON** (si vous utilisez la sortie JSON).
+     - Activation de l’**agrégation des propriétés**.
+     - Configuration de la **réécriture** (si vous utilisez la sortie HTML).
+     - Configuration de la **réécriture JSON** (si vous utilisez la sortie JSON).
 
 
 
@@ -88,7 +97,7 @@ Avant de poursuivre, vérifiez que les conditions préalables suivantes sont rem
 
 - Lorsque vous générez une sortie pour AEM Sites, les références aux mots-clés sont résolues sur les valeurs dynamiques correspondantes.
 - Par exemple :
-   - Si `((page_properties.pageTitle))` correspond à `My Product`, la sortie affiche :
+  - Si `((page_properties.pageTitle))` correspond à `My Product`, la sortie affiche :
 
 ```xml
    This is the title of the product: My Product.

@@ -2,13 +2,19 @@
 title: Notes de mise à jour | Instructions de mise à niveau et problèmes résolus dans Adobe Experience Manager Guides version 2026.03.0
 description: Découvrez la matrice de compatibilité et comment effectuer une mise à niveau vers la version 2026.03.0 d’Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 5700e649-104d-4caf-a195-6e667a71faee
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 1%
-
 ---
-
 # Instructions de mise à niveau pour la version 2026.03.0
 
 Cet article couvre les instructions de mise à niveau et la matrice de compatibilité pour la version 2026.03.0 d’Adobe Experience Manager Guides as a Cloud Service.

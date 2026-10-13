@@ -5,13 +5,28 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: f84bc82a-505c-4511-8336-bb87c8eb78e3
-source-git-commit: aac604893134edc2b28e8f6d7977e92256fe7e63
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1884'
 ht-degree: 2%
-
 ---
-
 # Mise à niveau d’Adobe Experience Manager Guides vers les versions 4.6.0 et ultérieures
 
 Cet article fournit des instructions pour mettre à niveau vos versions Experience Manager Guides pour 4.6.0 et les versions ultérieures.
@@ -193,15 +208,15 @@ Après avoir installé Experience Manager Guides, vous pouvez fusionner les diff
 
      **Onglet courant :**
 
-      - **Title :** initiateur de post-processus DXML
+     - **Title :** initiateur de post-processus DXML
 
-      - **Description** : étape d’initialisation de post-traitement DXML qui déclenchera une tâche sling pour le post-traitement DXML de la ressource modifiée/créée
+     - **Description** : étape d’initialisation de post-traitement DXML qui déclenchera une tâche sling pour le post-traitement DXML de la ressource modifiée/créée
 
      **Onglet Processus**
 
-      - Sélectionnez **DXML Post Process Initiator** dans le menu déroulant **Process**
-      - Sélectionnez **Avance du gestionnaire**
-      - Sélectionnez **Terminé**
+     - Sélectionnez **DXML Post Process Initiator** dans le menu déroulant **Process**
+     - Sélectionnez **Avance du gestionnaire**
+     - Sélectionnez **Terminé**
 
 1. Sélectionnez **Synchronisation** en haut à droite après avoir effectué les modifications. Vous recevrez une notification de succès.
 

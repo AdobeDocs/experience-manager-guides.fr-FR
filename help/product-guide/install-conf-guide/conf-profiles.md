@@ -5,13 +5,28 @@ feature: Profiles
 role: Admin
 level: Experienced
 exl-id: 0292a9cd-0f94-4039-8758-1740106feb71
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '6082'
 ht-degree: 0%
-
 ---
-
 # Configuration de profils globaux ou au niveau du dossier {#id181AH2003PF}
 
 Au sein d’une entreprise, différents groupes ou produits peuvent utiliser différents modèles de création, modèles de sortie, profils d’attributs conditionnels \(ou schémas d’objet\) et configurations d’éditeur. Leur configuration uniquement au niveau de l’entreprise \(ou global\) peut rendre l’expérience difficile pour les auteurs, car ils verront des modèles ou des profils qui ne les concernent pas.
@@ -30,21 +45,21 @@ Vous pouvez également déléguer les configurations spécifiques aux dossiers �
 
 - **Modèles** : utilisez cet onglet pour configurer les modèles que vos auteurs utiliseront pour créer ou publier du contenu DITA. Les modèles de rubrique suivants sont disponibles prêts à l’emploi :
 
-   - Glossaire
+  - Glossaire
 
-   - Référence
+  - Référence
 
-   - Thème
+  - Thème
 
-   - Concept
+  - Concept
 
-   - Tâche
+  - Tâche
 
-   - Résolution des problèmes
+  - Résolution des problèmes
 
-   - Vide
+  - Vide
 
-   - DITAVAL
+  - DITAVAL
 
   >[!NOTE]
   >
@@ -52,33 +67,33 @@ Vous pouvez également déléguer les configurations spécifiques aux dossiers �
 
   Outre les modèles de rubrique, vous pouvez également définir les modèles de carte qui seront mis à la disposition des auteurs. Les modèles de carte suivants sont disponibles prêts à l’emploi :
 
-   - Map
+  - Map
 
-   - Carte Graphique
+  - Carte Graphique
 
 - **Paramètre prédéfini de sortie** : comme pour les modèles, il existe cinq paramètres prédéfinis de sortie préconfigurés :
 
-   - Site AEM
+  - Site AEM
 
-   - PDF
+  - PDF
 
-   - HTML5
+  - HTML5
 
-   - EPUB
+  - EPUB
 
-   - Personnalisé
+  - Personnalisé
 
   Les éditeurs peuvent utiliser ces paramètres prédéfinis de sortie prêts à l’emploi pour publier du contenu. Ces paramètres prédéfinis peuvent être configurés par un administrateur du profil global ou au niveau du dossier. Une fois configurés, les paramètres prédéfinis de publication sont mis à la disposition des éditeurs pour les nouveaux plans DITA. Vous pouvez également appliquer des paramètres prédéfinis de publication à des plans DITA existants. Pour plus d&#39;informations, voir [Appliquer les modifications de paramètres prédéfinis](#id18AGD0K0OHS).
 
 - **Configurations de l’éditeur XML** : utilisez cet onglet pour personnaliser l’aspect et les différentes fonctionnalités de l’éditeur. Les paramètres configurables suivants sont disponibles pour l’éditeur :
 
-   - Configuration de l’interface utilisateur de l’éditeur XML
-   - Mise en page de l’éditeur XML uniquement pour Cloud Service
-   - Configuration de l’éditeur XML uniquement pour Cloud Service
-   - Disposition du modèle CSS
-   - Fragments de code de l’éditeur XML
-   - Étiquettes de version du contenu XML
-   - Rootmap \(uniquement au niveau du dossier\)
+  - Configuration de l’interface utilisateur de l’éditeur XML
+  - Mise en page de l’éditeur XML uniquement pour Cloud Service
+  - Configuration de l’éditeur XML uniquement pour Cloud Service
+  - Disposition du modèle CSS
+  - Fragments de code de l’éditeur XML
+  - Étiquettes de version du contenu XML
+  - Rootmap \(uniquement au niveau du dossier\)
 
 Vous pouvez configurer les deux types de profil : profil global et profil au niveau du dossier. Dans un profil au niveau du dossier, vous pouvez définir les dossiers auxquels les paramètres seront applicables. Ces paramètres incluent les attributs conditionnels, les modèles, les paramètres prédéfinis de sortie et les paramètres de l’éditeur XML. Les paramètres prédéfinis conditionnels, les modèles et les configurations de l’éditeur XML sont ensuite mis à la disposition des auteurs qui travaillent dans les dossiers configurés. De même, les éditeurs auront accès aux paramètres prédéfinis de sortie configurés dans les dossiers configurés.
 

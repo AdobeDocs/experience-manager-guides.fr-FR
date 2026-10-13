@@ -4,13 +4,28 @@ description: Découvrez comment configurer un Git dans Experience Manager Guides
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: b73e904c7e0a6f398e471be6fc874de30742e519
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 1%
-
 ---
-
 # Création et configuration du connecteur Git à partir de l’interface utilisateur
 
 >[!NOTE]
@@ -42,17 +57,17 @@ Utilisez l’outil Sources de données de Experience Manager Guides pour créer 
    >* Survoler <img src="./assets/info-details.svg" alt= "icône info" width="25"> près du champ pour en savoir plus.
    >* Les champs comportant le caractère * sont obligatoires. Par exemple, vous pouvez saisir les informations suivantes pour le connecteur Git.
 
-   &#x200B;- **Nom** : saisissez le nom de la source de données.
-   &#x200B;- **Chemin d’accès racine AEM cible** : saisissez le chemin d’accès dans le référentiel AEM où le contenu importé depuis Git doit être stocké.
-   &#x200B;- **Filtre de type de fichier (inclusion)** : indiquez les types de fichiers à inclure lors de l’importation.
-   &#x200B;- **Chemin exclu (regex)** : spécifiez les modèles de chemin à exclure de l’importation.
-   &#x200B;- **Type d’authentification** : sélectionnez le type d’authentification dans la liste déroulante. Actuellement, la méthode d’authentification **PAT (Personal Access Token)** est la seule prise en charge. Saisissez le chemin d’accès lors de la configuration du connecteur pour authentifier et accéder au référentiel Git.
+   - **Nom** : saisissez le nom de la source de données.
+   - **Chemin d’accès racine AEM cible** : saisissez le chemin d’accès dans le référentiel AEM où le contenu importé depuis Git doit être stocké.
+   - **Filtre de type de fichier (inclusion)** : indiquez les types de fichiers à inclure lors de l’importation.
+   - **Chemin exclu (regex)** : spécifiez les modèles de chemin à exclure de l’importation.
+   - **Type d’authentification** : sélectionnez le type d’authentification dans la liste déroulante. Actuellement, la méthode d’authentification **PAT (Personal Access Token)** est la seule prise en charge. Saisissez le chemin d’accès lors de la configuration du connecteur pour authentifier et accéder au référentiel Git.
 
      Découvrez comment [générer un jeton d’accès personnel GitHub](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic).
 
      Lors de la sélection des portées pendant la génération PAT sur GitHub, veillez à activer les portées suivantes :
-     &#x200B;- **repo** : cochez la case de niveau supérieur. Toutes les sous-portées sont sélectionnées automatiquement, ce qui permet d’accéder au contenu du référentiel, au statut de validation et aux déploiements.
-     &#x200B;- **admin:org** : sélectionnez uniquement **lecture:org**. Cela est nécessaire pour résoudre l’appartenance à l’organisation et à l’équipe.
+     - **repo** : cochez la case de niveau supérieur. Toutes les sous-portées sont sélectionnées automatiquement, ce qui permet d’accéder au contenu du référentiel, au statut de validation et aux déploiements.
+     - **admin:org** : sélectionnez uniquement **lecture:org**. Cela est nécessaire pour résoudre l’appartenance à l’organisation et à l’équipe.
    * **URL du référentiel** : saisissez l’URL du référentiel Git à partir de laquelle le contenu doit être importé.
    * **Branche** : renseignez la branche à utiliser pour l’importation de contenu.
 
