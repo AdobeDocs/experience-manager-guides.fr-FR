@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 481c5fe8df7a81a8f00358b8f28dba131bca63d9
+source-git-commit: 4b9859bf08ffdfc7047477203eb7c2b590dfb3d9
 workflow-type: tm+mt
-source-wordcount: '2331'
+source-wordcount: '2380'
 ht-degree: 0%
 ---
 # Expérience de la page d’accueil de Experience Manager Guides
@@ -70,7 +70,7 @@ Les fonctionnalités disponibles dans la barre de navigation sont expliquées co
 - **Profil de dossier en cours d’utilisation** : affiche le profil de dossier actuellement utilisé.
 - **Autres actions** : permet d’accéder à des options supplémentaires. Si vous sélectionnez ce bouton, un menu s’ouvre avec les options suivantes :
 
-  - **&#x200B;**&#x200B;: vous dirige vers une destination en fonction de votre configuration.
+  - **** : vous dirige vers une destination en fonction de votre configuration.
     - **Services cloud** : si vous utilisez des services cloud, la sélection de l’option **Assets** vous conduit à la page de navigation d’AEM.
 
     - **Logiciel On-premise** : si vous utilisez Adobe Experience Manager Guides (4.2.1 et versions ultérieures), la sélection de l’option **Assets** vous conduit au chemin d’accès actuel au fichier dans l’interface utilisateur d’Assets.
@@ -180,7 +180,11 @@ Le référentiel sert de hub centralisé pour découvrir facilement les dossiers
 
 ### Mappage des collections
 
-Experience Manager Guides vous permet d’organiser votre contenu pour publication à l’aide d’un tableau de bord appelé **Collections de cartes**. Pour utiliser cette fonctionnalité, sélectionnez **Mapper des collections** dans le panneau de gauche. Elle vous mène à la page Mapper les collections dans l’interface utilisateur **&#x200B;**&#x200B;où vous pouvez [utiliser la collection de mappages pour la génération de sortie.](./generate-output-use-map-collection-output-generation.md)
+>[!NOTE]
+>
+>Vous pouvez utiliser la nouvelle fonctionnalité Collections de cartes d’Adobe Experience Manager Guides as a Cloud Service à partir de la version 2026.08.0, qui combine la gestion des cartes et la publication en masse dans une interface unifiée. Contactez votre équipe du succès client pour activer cette fonctionnalité.En savoir plus sur [à l’aide de la nouvelle collection de cartes.](./generate-output-use-new-map-collection-output-generation.md)
+
+Experience Manager Guides vous permet d’organiser votre contenu pour publication à l’aide d’un tableau de bord appelé **Collections de cartes**. Pour utiliser cette fonctionnalité, sélectionnez **Mapper des collections** dans le panneau de gauche. Elle vous mène à la page Mapper les collections dans l’interface utilisateur **** où vous pouvez [utiliser la collection de mappages pour la génération de sortie.](./generate-output-use-map-collection-output-generation.md)
 
 ### Publication en bloc
 
