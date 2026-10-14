@@ -32,7 +32,7 @@ ht-degree: 4%
 Le nouveau moteur de publication pour le PDF natif, c’est-à-dire _le moteur PDF natif v2_, fournit des fonctionnalités de rendu PDF mises à jour et des correctifs pour les problèmes _le moteur PDF natif v1_.
 
 >[!BEGINTABS]
->[!TAB ]
+>[!TAB Tab]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](../install-conf-guide/download-install-config-override.md) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails (propriété) suivants :
 
