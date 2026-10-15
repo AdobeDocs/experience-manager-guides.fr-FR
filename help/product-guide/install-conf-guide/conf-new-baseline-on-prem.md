@@ -15,9 +15,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4abf673f636ffd20d087c99b5112d8504929a6ee
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '124'
 ht-degree: 1%
 ---
 # Configurer une nouvelle ligne de base pour On-Premise
@@ -44,5 +44,5 @@ Les étapes suivantes expliquent comment activer la nouvelle ligne de base dans 
 
 >[!NOTE]
 >
->Après avoir activé cette fonctionnalité, vous devez migrer les lignes de base existantes vers la nouvelle ligne de base. Pour obtenir des instructions détaillées et une vidéo de présentation, consultez [Nouvelle ligne de base (Beta) dans Experience Manager Guides](../user-guide/web-editor-baseline-v2.md).
+>Après avoir activé cette fonctionnalité, vous devez migrer les lignes de base existantes vers la nouvelle ligne de base. Pour obtenir des instructions détaillées et une vidéo de présentation, consultez [Nouvelle ligne de base dans Experience Manager Guides](../user-guide/web-editor-baseline-v2.md).
 
