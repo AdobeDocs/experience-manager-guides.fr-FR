@@ -4,9 +4,9 @@ description: Découvrez comment connecter AEM Guides à Guides Knowledge AI
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: cdc177110720dbbe944a361142911a2e365ef8fa
+source-git-commit: 05976e2a408e57256a454f181bb93d900dc091ab
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '665'
 ht-degree: 2%
 ---
 
@@ -44,7 +44,7 @@ Assurez-vous de disposer des autorisations et des droits d’accès suivants ava
 
 L’IA dédiée aux connaissances utilise un compte de service pour s’authentifier en toute sécurité et accéder au contenu.
 
-1. Suivez les instructions de la section [Configurer l’IMT des microservices](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)
+1. Suivez les instructions de la section [Configurer l’IMT des microservices](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config).
 
 1. Créez un compte de service et téléchargez le fichier d’informations d’identification JSON généré.
 
@@ -86,7 +86,7 @@ Le compte de service est désormais autorisé à effectuer des opérations d’a
 
 Pour publier du contenu sur l’IA dédiée aux connaissances, configurez Experience Manager Guides une fois que vous avez configuré les autorisations.
 
-1. Ouvrez la **console Mappage** dans Experience Manager Guides.
+1. Ouvrez la console **Map** dans Experience Manager Guides.
 1. Accédez à l’onglet **Paramètres prédéfinis de sortie**.
 1. Sélectionnez l’icône + pour créer un paramètre prédéfini de sortie.
 1. Sélectionnez **Knowledge AI** dans la liste déroulante **Type** de la boîte de dialogue **Nouveau paramètre prédéfini de sortie**. Saisissez un **Nom** et sélectionnez **Ajouter au profil du dossier actuel** pour créer un paramètre prédéfini de sortie dans le profil du dossier actuel.
