@@ -44,7 +44,7 @@ Assurez-vous de disposer des autorisations et des droits d’accès suivants ava
 
 L’IA dédiée aux connaissances utilise un compte de service pour s’authentifier en toute sécurité et accéder au contenu.
 
-1. Suivez les instructions de la section [Configurer l’IMT des microservices](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)
+1. Suivez les instructions de la section [Configurer l’IMT des microservices](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)
 
 1. Créez un compte de service et téléchargez le fichier d’informations d’identification JSON généré.
 
