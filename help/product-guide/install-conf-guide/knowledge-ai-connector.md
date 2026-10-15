@@ -4,7 +4,7 @@ description: Découvrez comment connecter AEM Guides à Guides Knowledge AI
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: 9f0ca688ae040c9f2f8a0aba0ac4547301a659ad
+source-git-commit: cdc177110720dbbe944a361142911a2e365ef8fa
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Cet article fournit aux administrateurs et aux ingénieurs de contenu le process
 | 4 | Configurez un paramètre prédéfini de sortie de l’IA dédiée aux connaissances dans Experience Manager Guides et chargez du contenu. |
 
 
-## Conditions préalables
+## Prérequis
 
 Assurez-vous de disposer des autorisations et des droits d’accès suivants avant de commencer :
 
@@ -44,7 +44,7 @@ Assurez-vous de disposer des autorisations et des droits d’accès suivants ava
 
 L’IA dédiée aux connaissances utilise un compte de service pour s’authentifier en toute sécurité et accéder au contenu.
 
-1. Suivez les instructions de la section [Configurer l’IMT des microservices](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)
+1. Suivez les instructions de la section [Configurer l’IMT des microservices](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)
 
 1. Créez un compte de service et téléchargez le fichier d’informations d’identification JSON généré.
 
@@ -62,15 +62,13 @@ Une fois l’opération terminée, le compte de service doit être correctement 
 Pour accorder l’accès à l’IA dédiée aux connaissances, identifiez le compte de service.
 
 1. Ouvrez le fichier JSON du compte de service téléchargé.
-1. Recherchez l’`technical_account_email` du nom du champ.
+1. Recherchez l’`technical_account_email` du nom du champ. Affichez une valeur similaire à la suivante :
 
-Affichez une valeur similaire à la suivante :
-
-```json
-{
-"technical_account_email": "a1b2c3d4e5f6@techacct.adobe.com"
-}
-```
+   ```json
+   {
+   "technical_account_email": "a1b2c3d4e5f6@techacct.adobe.com"
+   }
+   ```
 
 1. Copiez l’adresse e-mail associée à `technical_account_email`. Vous utiliserez cette adresse e-mail à l’étape suivante.
 
