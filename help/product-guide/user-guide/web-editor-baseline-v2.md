@@ -1,6 +1,6 @@
 ---
-title: Créez et gérez une nouvelle ligne de base (Beta) à partir de la console Carte
-description: Créez et gérez une nouvelle ligne de base (Beta) à partir de la console de mappage dans Adobe Experience Manager Guides.
+title: Créer et gérer une nouvelle ligne de base à partir de la console Carte
+description: Créez et gérez une nouvelle ligne de base à partir de la console de mappage dans Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
@@ -22,16 +22,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4abf673f636ffd20d087c99b5112d8504929a6ee
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1400'
 ht-degree: 0%
 ---
-# Nouvelle ligne de base (Beta) dans Experience Manager Guides
+# Nouvelle ligne de base dans Experience Manager Guides
 
 >[!NOTE]
 >
-> - Cet article s’applique à la nouvelle ligne de base , actuellement disponible en tant que fonctionnalité **, qui offre des performances améliorées et une stabilité disponible avec la version Experience Manager Guides 2026.04.0.
+> - Cet article s’applique à la nouvelle ligne de base qui offre des performances améliorées et une stabilité disponible avec la version Experience Manager Guides 2026.04.0.
 > - Pour activer la nouvelle fonctionnalité de base de Cloud Service, contactez l’équipe du succès client.
 > - Pour activer la nouvelle fonctionnalité de ligne de base pour On-Premise, consultez [Configurer une nouvelle ligne de base](../install-conf-guide/conf-new-baseline-on-prem.md).
 
