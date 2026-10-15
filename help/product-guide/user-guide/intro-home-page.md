@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 481c5fe8df7a81a8f00358b8f28dba131bca63d9
+source-git-commit: 4b9859bf08ffdfc7047477203eb7c2b590dfb3d9
 workflow-type: tm+mt
-source-wordcount: '2331'
+source-wordcount: '2380'
 ht-degree: 0%
 ---
 # Expérience de la page d’accueil de Experience Manager Guides
@@ -179,6 +179,10 @@ Les widgets suivants sont présents dans la section Widgets :
 Le référentiel sert de hub centralisé pour découvrir facilement les dossiers et les fichiers. Il fournit une vue tabulaire complète de tous les fichiers et dossiers, ainsi que de leurs détails contextuels. Grâce à cette interface unifiée, vous pouvez parcourir en toute simplicité les fichiers et effectuer des recherches avec des options de filtrage robustes, assurant ainsi une efficacité et une expérience améliorées. En savoir plus sur le [référentiel](./home-page-repository-view.md).
 
 ### Mappage des collections
+
+>[!NOTE]
+>
+>Vous pouvez utiliser la nouvelle fonctionnalité Collections de cartes d’Adobe Experience Manager Guides as a Cloud Service à partir de la version 2026.08.0, qui combine la gestion des cartes et la publication en masse dans une interface unifiée. Contactez votre équipe du succès client pour activer cette fonctionnalité.En savoir plus sur [à l’aide de la nouvelle collection de cartes.](./generate-output-use-new-map-collection-output-generation.md)
 
 Experience Manager Guides vous permet d’organiser votre contenu pour publication à l’aide d’un tableau de bord appelé **Collections de cartes**. Pour utiliser cette fonctionnalité, sélectionnez **Mapper des collections** dans le panneau de gauche. Elle vous mène à la page Mapper les collections dans l’interface utilisateur **&#x200B;**&#x200B;où vous pouvez [utiliser la collection de mappages pour la génération de sortie.](./generate-output-use-map-collection-output-generation.md)
 
