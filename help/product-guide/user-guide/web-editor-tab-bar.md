@@ -25,7 +25,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 18996443646923fcf9db06c020ecbdd94b8a9564
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Enregistre les modifications que vous avez apportées à toutes les rubriques ou
 >
 > Pour utiliser le mode Agentic de la fonctionnalité Assistant d’IA dans votre environnement, contactez l’équipe du succès client. Une fois la fonctionnalité activée, les administrateurs et administratrices peuvent l’activer ou la désactiver dans Paramètres Workspace. Un seul mode de l’assistant d’IA peut être activé à la fois : agent ou standard.
 
-- **Magnétique** : apporte des compétences de balisage intelligent, agentique et intelligent d’Adobe CX Enterprise Coworker à l’éditeur, ce qui permet un balisage de contenu naturel et conversationnel. Il analyse votre contenu, vous recommande des balises pertinentes et vous aide à appliquer des métadonnées cohérentes et précises avec un effort minimal. Vous pouvez vérifier les balises suggérées et choisir de les appliquer ou de les rejeter avant de confirmer votre sélection. [Utiliser l’assistant d’IA en mode agence](../user-guide/ai-assistant-agentic.md) simplifie le processus de balisage, améliorant l’organisation du contenu et la visibilité.
+- **Agentic** : apporte des compétences de balisage intelligent, agentiques et intelligentes d’Adobe CX Enterprise Coworker dans l’éditeur, ce qui permet un balisage de contenu naturel et conversationnel. Il analyse votre contenu, vous recommande des balises pertinentes et vous aide à appliquer des métadonnées cohérentes et précises avec un effort minimal. Vous pouvez vérifier les balises suggérées et choisir de les appliquer ou de les rejeter avant de confirmer votre sélection. [Utiliser l’assistant d’IA en mode agence](../user-guide/ai-assistant-agentic.md) simplifie le processus de balisage, améliorant l’organisation du contenu et la visibilité.
 
 - **Standard** : puissant outil optimisé par l’IA, conçu pour améliorer votre productivité grâce à des fonctionnalités d’aide intelligentes. De plus, lorsque vous travaillez dans l’interface de l’éditeur, vous pouvez tirer parti des fonctionnalités de création intelligente de l’assistant AI qui rendent votre processus de création plus intelligent et plus rapide grâce à des suggestions intelligentes de réutilisation et d’optimisation du contenu.
 
