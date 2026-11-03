@@ -173,4 +173,4 @@ Après avoir résolu un problème, sélectionnez **Régénérer** dans la barre 
 Sélectionnez **Télécharger le rapport** pour télécharger le rapport au format XLS, avec des informations détaillées pour chaque résultat.
 
 
-**Rubrique parente :**[ Présentation de l’éditeur de cartes](map-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur de cartes](map-editor.md)

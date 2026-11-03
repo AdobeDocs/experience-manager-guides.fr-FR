@@ -428,4 +428,4 @@ Les commentaires que vous ajoutez sont visibles par les réviseurs et réviseuse
 
 
 
-**Rubrique parente :**[ Présentation de la révision](review.md)
+**Rubrique parente :**&#x200B;[&#x200B; Présentation de la révision](review.md)

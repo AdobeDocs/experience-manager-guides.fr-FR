@@ -45,7 +45,7 @@ Pour créer le préréglage **Base de connaissances** à partir de la console Ca
    Vous pouvez également accéder au fichier de mappage à partir du widget **Fichiers récents** dans la section [Aperçu](./intro-home-page.md#overview). Le fichier de mappage sélectionné s’ouvre dans la console Mappage .
 1. Dans l’onglet **Paramètres prédéfinis de sortie**, sélectionnez l’icône + pour créer un paramètre prédéfini de sortie.
 1. Sélectionnez **Base de connaissances** dans la liste déroulante Type de la boîte de dialogue **Nouveau paramètre prédéfini de sortie**.
-1. Dans le champ **Cible**, sélectionnez une cible pour la sortie générée. Les options disponibles sont les suivantes : ****, **Salesforce** et **ServiceNow**.
+1. Dans le champ **Cible**, sélectionnez une cible pour la sortie générée. Les options disponibles sont les suivantes : **&#x200B;**, **Salesforce** et **ServiceNow**.
 
    ![](./images/knowledge-base-preset-dialog-box.png){width="350"}
 
@@ -96,7 +96,7 @@ Les options de configuration changent en fonction de la cible que vous sélectio
 
 **Adobe Experience Manager**
 
-Les options de configuration suivantes s&#39;affichent pour **** en tant que cible :
+Les options de configuration suivantes s&#39;affichent pour **&#x200B;**&#x200B;en tant que cible :
 
 
 >[!NOTE]
@@ -129,9 +129,9 @@ Les options de configuration suivantes s’affichent pour **ServiceNow** en tant
 | Charger les documents liés | Sélectionnez cette option pour inclure les documents liés dans les rubriques dans la sortie publiée. |
 | Supprimer des éléments du corps de l’article | Saisissez le nom d’un élément (par exemple, `prolog` ou `shortdesc`) et appuyez sur **Entrée** pour l’ajouter à la liste. Tout élément que vous ajoutez est exclu du corps de l’article dans la sortie publiée. Par défaut, la liste inclut **title**, de sorte que l’en-tête du topic est masqué du corps de l’article. Sélectionnez l’icône de `x` en regard de **titre** pour la supprimer de la liste si vous souhaitez inclure l’en-tête de rubrique ou ajouter d’autres éléments à exclure. <br><br>**Remarque** : saisissez le nom de classe exact de l&#39;élément DITA tel qu&#39;il apparaît dans l&#39;HTML transformé dans l&#39;affichage du code source de l&#39;article ServiceNow. Le nom de la classe doit correspondre à un élément reconnu pour que l’exclusion prenne effet. Si le nom saisi ne correspond pas à un élément reconnu, il est ignoré et l’élément reste dans l’article publié. |
 
-****
+**&#x200B;**
 
-Les options de configuration suivantes s&#39;affichent pour **** en tant que cible :
+Les options de configuration suivantes s&#39;affichent pour **&#x200B;**&#x200B;en tant que cible :
 
 | Options de Salesforce | Description |
 | --- | --- |

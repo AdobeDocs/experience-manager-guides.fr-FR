@@ -40,7 +40,7 @@ La fonctionnalité de contrôle de l’intégrité est disponible dans les deux 
 
 Pour créer un paramètre prédéfini de contrôle de l’intégrité au niveau du profil de dossier, procédez comme suit :
 
-1. Accédez aux [paramètres de ](./workspace-settings.md) puis sélectionnez **Contrôle de l’intégrité** dans la liste.
+1. Accédez aux [paramètres de &#x200B;](./workspace-settings.md) puis sélectionnez **Contrôle de l’intégrité** dans la liste.
 1. Dans le panneau **Paramètres prédéfinis de contrôle de l’intégrité**, sélectionnez **Nouveau**.
 
    ![](./assets/health-check-preset-create.png)

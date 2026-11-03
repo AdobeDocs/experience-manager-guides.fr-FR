@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Balisage intelligent avec l’assistant AI
 
-La compétence Balisage intelligent, disponible en mode Agence de l’assistant AI via Adobe CX Enterprise Coworker, rend le balisage de votre contenu plus rapide, plus facile et plus cohérent. Il analyse votre contenu et recommande des balises pertinentes en fonction de la taxonomie de votre entreprise, ce qui élimine la nécessité de réviser manuellement le contenu et d’identifier les balises applicables. Votre administrateur peut configurer les taxonomies utilisées pour générer des recommandations de balises via les paramètres [](../install-conf-guide/workspace-settings.md#general) en sélectionnant les espaces de noms appropriés pour votre espace de travail.
+La compétence Balisage intelligent, disponible en mode Agence de l’assistant AI via Adobe CX Enterprise Coworker, rend le balisage de votre contenu plus rapide, plus facile et plus cohérent. Il analyse votre contenu et recommande des balises pertinentes en fonction de la taxonomie de votre entreprise, ce qui élimine la nécessité de réviser manuellement le contenu et d’identifier les balises applicables. Votre administrateur peut configurer les taxonomies utilisées pour générer des recommandations de balises via les paramètres [&#128279;](../install-conf-guide/workspace-settings.md#general) en sélectionnant les espaces de noms appropriés pour votre espace de travail.
 
 Vous gardez le contrôle en examinant les balises suggérées et en choisissant de les appliquer ou de les rejeter avant de confirmer votre sélection. Cela réduit les efforts manuels, améliore la précision du balisage et permet de maintenir des métadonnées cohérentes dans l’ensemble de votre documentation.
 

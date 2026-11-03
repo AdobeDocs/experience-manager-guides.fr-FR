@@ -32,13 +32,13 @@ Les paramètres de l’éditeur fournissent un panneau de configuration centrali
 
 Ce panneau de paramètres centralisé vous permet de gérer les préférences clés de l’éditeur à partir d’un seul emplacement, ce qui réduit le besoin de configurations éparses ou manuelles. Les paramètres de l’éditeur sont accessibles à partir de la barre d’onglets **Autres actions**.
 
-![ Paramètres de l’éditeur ](./images/conf-editor-settings.png){width="650"}
+![&#x200B; Paramètres de l’éditeur &#x200B;](./images/conf-editor-settings.png){width="650"}
 
 ## Options de configuration prises en charge
 
 Les paramètres de l’éditeur vous permettent de personnaliser diverses options, notamment Suivi des modifications, Afficher les balises, Menu d’insertion rapide, etc., en fonction de vos préférences.
 
-![ Paramètres de l’éditeur ](./images/editor-settings-dialog.png){width="350"}
+![&#x200B; Paramètres de l’éditeur &#x200B;](./images/editor-settings-dialog.png){width="350"}
 
 ### Suivi des modifications
 
@@ -53,7 +53,7 @@ Le contenu supprimé apparaît barré, tandis que le contenu inséré apparaît 
 
 Lorsque plusieurs utilisateurs travaillent sur le même sujet, le Suivi des modifications leur permet d’afficher les modifications les uns des autres. Une fois que le contenu est prêt à être finalisé, les utilisateurs et utilisatrices peuvent réviser les modifications suivies et les accepter ou les rejeter.
 
-![ Paramètres de l’éditeur ](./images/track-changes-all.png){width="350"}
+![&#x200B; Paramètres de l’éditeur &#x200B;](./images/track-changes-all.png){width="350"}
 
 **Afficher les suppressions suivies en ligne**
 

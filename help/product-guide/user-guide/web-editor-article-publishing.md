@@ -55,7 +55,7 @@ Effectuez les étapes suivantes pour générer une sortie basée sur un article 
 1. Sélectionnez **Générer la sortie** en haut pour générer la sortie.
 1. Dans l’invite **Confirmer les fichiers à publier**, sélectionnez les fichiers à publier et confirmez en sélectionnant **Publier**.
 
-   ![Nouveau ](images/knowledge-base-confirm-files-for-publishing.png)
+   ![Nouveau &#x200B;](images/knowledge-base-confirm-files-for-publishing.png)
 
    Vous verrez l’état du processus de génération de sortie. La colonne **Rubriques** répertorie les rubriques pour lesquelles une sortie est générée tandis que la colonne **Statut** affiche le statut de publication de chaque rubrique.
 
@@ -93,7 +93,7 @@ Lorsque vous publiez des articles dans Salesforce à l’aide de l’expérience
   Les journaux fournissent également un résumé des résultats de publication.
 
   ![](./images/download-log-sf.png)
-- **Historique de sortie** : affichez l’historique de sortie des tâches de publication à partir de la **console Mappage** ou de l’interface utilisateur d’Assets ****.
+- **Historique de sortie** : affichez l’historique de sortie des tâches de publication à partir de la **console Mappage** ou de l’interface utilisateur d’Assets **&#x200B;**.
 
   Pour plus d’informations sur la gestion des tâches de publication, consultez [Gérer le processus de génération de sortie](./generate-output-manage-process.md).
 
@@ -113,4 +113,4 @@ Pour utiliser cette fonctionnalité, assurez-vous que **l’exécution de requê
 L’activation de la prise en charge des jetons d’actualisation dans Experience Manager Guides active automatiquement la prise en charge PKCE. Cependant, le paramètre correspondant doit également être activé dans Salesforce pour que l’authentification fonctionne correctement.
 
 
-**Rubrique parente :**[ Utiliser l’éditeur](web-editor.md)
+**Rubrique parente :**&#x200B;[&#x200B; Utiliser l’éditeur](web-editor.md)
