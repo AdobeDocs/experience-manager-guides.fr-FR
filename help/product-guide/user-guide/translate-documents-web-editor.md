@@ -37,9 +37,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '2794'
+source-wordcount: '2824'
 ht-degree: 0%
 ---
 # Traduire des documents à partir de la console de mappage {#id21BKF0Z0YZF}
@@ -181,7 +181,7 @@ Avant d’effectuer les étapes de cette procédure, assurez-vous d’avoir cré
 
      ![Entrez le chemin du projet](images/project-path.png){width="650"}
 
-   - Si vous ajoutez à un projet de traduction existant, sélectionnez le chemin d’accès dans lequel ce projet existe déjà. Ensuite, dans la liste **Projet de traduction existant**, sélectionnez le projet auquel vous souhaitez ajouter la tâche de traduction actuelle. Vous pouvez également utiliser les **Filtres** disponibles pour réduire la liste.
+   - Si vous ajoutez à un projet de traduction existant, sélectionnez le chemin d’accès dans lequel ce projet existe déjà. Ensuite, dans la liste **Projet de traduction existant**, sélectionnez le projet auquel vous souhaitez ajouter la tâche de traduction actuelle. Si plusieurs projets portent le même titre, utilisez le chemin indiqué avec chaque titre de projet pour identifier celui qui convient. Vous pouvez également utiliser les **Filtres** disponibles pour réduire la liste et également **Trier** projets en fonction de vos besoins
 
      ![Saisissez le chemin d’accès du projet existant](images/existing-project-path.png){width="650"}
 

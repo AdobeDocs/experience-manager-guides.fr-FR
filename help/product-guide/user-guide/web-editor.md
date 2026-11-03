@@ -21,13 +21,11 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 07f25eacbfa6e22c1de71d9c4012ad1e9b3440a8
+source-git-commit: 607a230b50d4c3025b6b0e91667138099b7a8000
 workflow-type: tm+mt
-source-wordcount: 453
+source-wordcount: '414'
 ht-degree: 0%
-
 ---
-
 # Présentation de l’éditeur {#id181OD0QE05Z}
 
 Experience Manager Guides est fourni avec un éditeur convivial destiné à la création et à la modification de documents structurés. L’éditeur masque au rédacteur toutes les complexités de la structure DITA. L&#39;éditeur fournit une liste d&#39;éléments DITA qu&#39;un utilisateur doit généralement utiliser dans un document.
@@ -49,17 +47,9 @@ Le nouvel éditeur offre une évolution significative de l’expérience de cré
 - Améliorations de l’interface utilisateur et de l’expérience utilisateur : améliore la lisibilité et le confort visuel par le biais d’un thème sombre et d’un CSS par défaut plus riche en modes Création et Aperçu, offrant une interface de modification plus moderne.
 - Paramètres de l’éditeur centralisé : propose un panneau de paramètres unifié pour personnaliser l’expérience de création, notamment le contrôle des balises, des attributs, des commentaires XML, des espaces insécables et du menu d’insertion rapide dans l’éditeur.
 
-### Limites du nouvel éditeur
-
-Le nouvel éditeur ne prend actuellement pas en charge les fonctionnalités suivantes. Il est prévu d’introduire ces fonctionnalités dans les prochaines versions.
-
-- Création avec le suivi des modifications activé (toutes les modifications suivies existantes sont conservées et traitées comme du contenu normal)
-
-
 >[!NOTE]
 >
 >Le mode Mise en page pour les plans DITA ne sera pas pris en charge avec le nouvel éditeur.
-
 
 ## Ancien éditeur
 

@@ -23,9 +23,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '4036'
+source-wordcount: '4222'
 ht-degree: 0%
 ---
 # Envoyer les rubriques à réviser {#id199RD0S035Z}
@@ -400,6 +400,32 @@ Une fois la tâche de révision mise à jour, les réviseurs et réviseuses reç
 - **Terminé** : les réviseurs qui ont terminé leur révision reçoivent une notification leur demandant de la réviser.
 
 Pour plus d’informations, voir [Présentation des notifications de révision](./review-understanding-review-notifications.md).
+
+## Ajouter des commentaires pour les réviseurs et réviseuses
+
+En tant qu’initiateur d’une tâche de révision, vous pouvez ajouter des commentaires intégrés aux rubriques que vous envoyez pour révision. Après avoir créé une tâche de révision, ouvrez la tâche dans l’**interface utilisateur de révision** pour fournir un contexte supplémentaire ou attirer l’attention des réviseurs et des réviseuses sur un contenu spécifique.
+
+Effectuez les étapes suivantes pour ajouter des commentaires aux rubriques dans une tâche de révision :
+
+1. Créez une tâche de révision et ajoutez les rubriques et les réviseurs requis.
+
+2. Ouvrez la tâche de révision créée dans l’**interface utilisateur de révision**.
+
+   En tant qu’initiateur ou initiatrice de révision, vous avez accès au panneau **Commentaires** et à la liste de rubriques sur la gauche, comme la vue disponible pour les réviseurs et réviseuses.
+
+   ![](./images/add-comments-as-author.png)
+
+3. Dans la liste des rubriques, sélectionnez la rubrique dans laquelle vous souhaitez ajouter un commentaire.
+
+4. Sélectionnez le contenu approprié et utilisez les options disponibles dans le panneau **Commentaires** pour ajouter vos commentaires ou attirer l’attention des réviseurs et des réviseuses sur un contenu spécifique.
+
+5. Répétez ces étapes pour ajouter des commentaires à d’autres rubriques de la tâche de révision, si nécessaire.
+
+Les commentaires que vous ajoutez sont visibles par les réviseurs et réviseuses lorsqu’ils accèdent à la tâche de révision. Les réviseurs et réviseuses reçoivent également une notification AEM lorsque vous ajoutez un commentaire.
+
+
+
+
 
 
 **Rubrique parente :**&#x200B;[&#x200B; Présentation de la révision](review.md)

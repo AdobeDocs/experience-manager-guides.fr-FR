@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 18996443646923fcf9db06c020ecbdd94b8a9564
+source-git-commit: 772cc098cfa0abfafed142062a1c191ef266bbcd
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '775'
 ht-degree: 0%
 ---
 # Barre de tabulations de l’éditeur
@@ -74,11 +74,13 @@ Enregistre les modifications que vous avez apportées à toutes les rubriques ou
 >
 > Pour utiliser le mode Agentic de la fonctionnalité Assistant d’IA dans votre environnement, contactez l’équipe du succès client. Une fois la fonctionnalité activée, les administrateurs et administratrices peuvent l’activer ou la désactiver dans Paramètres Workspace. Un seul mode de l’assistant d’IA peut être activé à la fois : agent ou standard.
 
-- **Agentic** : apporte des compétences de balisage intelligent, agentiques et intelligentes d’Adobe CX Enterprise Coworker dans l’éditeur, ce qui permet un balisage de contenu naturel et conversationnel. Il analyse votre contenu, vous recommande des balises pertinentes et vous aide à appliquer des métadonnées cohérentes et précises avec un effort minimal. Vous pouvez vérifier les balises suggérées et choisir de les appliquer ou de les rejeter avant de confirmer votre sélection. [Utiliser l’assistant d’IA en mode agence](../user-guide/ai-assistant-agentic.md) simplifie le processus de balisage, améliorant l’organisation du contenu et la visibilité.
+- **Agentic** : le mode Agentic de l’assistant d’IA vous permet d’accomplir des tâches liées au contenu par le biais d’interactions en langage naturel. Vous pouvez décrire vos besoins dans le panneau de conversation. L’assistant AI planifie et exécute des tâches tout en offrant une visibilité sur sa progression. Il prend en charge des compétences telles que l’importation, qui convertit les fichiers PDF, Word ou Markdown de votre appareil ou référentiel de contenu en rubriques structurées ; la création, qui génère de nouvelles rubriques en fonction de vos besoins et peut référencer le contenu existant pour le ton et le style ; et le balisage intelligent, qui recommande des balises pertinentes en fonction de la taxonomie de votre entreprise afin d’améliorer la cohérence des métadonnées.
 
 - **Standard** : puissant outil optimisé par l’IA, conçu pour améliorer votre productivité grâce à des fonctionnalités d’aide intelligentes. De plus, lorsque vous travaillez dans l’interface de l’éditeur, vous pouvez tirer parti des fonctionnalités de création intelligente de l’assistant AI qui rendent votre processus de création plus intelligent et plus rapide grâce à des suggestions intelligentes de réutilisation et d’optimisation du contenu.
 
 La fonctionnalité [Assistant AI](./ai-assistant.md) n’est actuellement disponible que pour Adobe Experience Manager as a Cloud Service.
+
+**Assistant d’aide** : l’**assistant d’aide** de Experience Manager Guides est une fonctionnalité de recherche conversationnelle générative optimisée par l’IA qui vous aide à trouver des informations sur les fonctionnalités des produits, les workflows et le dépannage. Il fournit des réponses pertinentes basées sur la documentation de Experience Manager Guides, prend en charge les questions de suivi et inclut des liens vers des articles sources pour référence ultérieure. Pour plus d’informations, consultez [Amélioration de l’efficacité avec l’assistant Aide](./ai-based-smart-help.md).
 
 **Développer la vue** : permet de développer la page vue à l’aide de l’icône **Développer**. Dans cet affichage, la barre d’en-tête contenant le logo Adobe Experience Manager est masquée. L’espace de contenu à modifier est ainsi optimisé. Pour revenir à la vue standard, utilisez l’icône **Quitter la vue développée**.
 

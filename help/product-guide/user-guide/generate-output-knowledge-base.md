@@ -31,9 +31,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1584'
 ht-degree: 1%
 ---
 # Knowledge Base {#knowledge-base}
@@ -78,6 +78,17 @@ Les options de configuration suivantes sont disponibles sous l’onglet **Géné
 
 Cet onglet affiche l&#39;arborescence ou la vue hiérarchique de la carte. Choisissez les rubriques que vous souhaitez publier dans une base de connaissances. Développez un nœud de table des matières et sélectionnez les rubriques à publier.
 
+![](./images/articles-tab-kb.png)
+
+Lors de la publication sur Salesforce, une icône d’avertissement s’affiche en regard de l’onglet **Articles** si aucune rubrique n’est sélectionnée pour la publication. L’icône d’avertissement disparaît une fois que vous avez sélectionné une ou plusieurs rubriques.
+
+>[!NOTE]
+>
+> Cette fonctionnalité a été introduite dans la version 2026.11.0 d’Adobe Experience Manager Guides as a Cloud Service. Cette fonction est désactivée par défaut. Pour l’activer, contactez votre équipe du succès client. Pour en savoir plus sur les améliorations apportées à la publication Salesforce dans la version 2026.11.0, consultez la section [Publication Salesforce améliorée à l’aide du traitement principal](./generate-output-for-a-dita-map.md#merging-different-topics-within-a-dita-map-using-the-chunk-attribute).
+
+![](./images/articles-tab-salesforce-kb.png)
+
+
 ### Target - Adobe Experience Manager/ServiceNow/Salesforce
 
 Les options de configuration changent en fonction de la cible que vous sélectionnez.
@@ -114,6 +125,9 @@ Les options de configuration suivantes s’affichent pour **ServiceNow** en tant
 | Profil de publication | Utilisez la liste déroulante pour sélectionner un profil de connexion ServiceNow configuré par votre administrateur. Pour en savoir plus sur la manière dont votre administrateur peut créer un profil de publication, consultez la description de la fonctionnalité **Paramètres** (apparaissant sous la forme **Paramètres** **pour la configuration sur site avant la version 5.2**) dans la section [Panneau de gauche](./web-editor-features.md#id2051EA0M0HS). |
 | Knowledge Base | Utilisez ce champ pour sélectionner la base de connaissances ServiceNow requise. Vous pouvez configurer les bases de connaissances sur le site ServiceNow pour stocker le contenu en fonction des autorisations. Les articles de ce plan DITA peuvent être publiés dans ces bases de connaissances. |
 | Catégorie et sous-catégorie | Les catégories sont comme des arborescences hiérarchiques utilisées pour rechercher et classer les articles de la base de connaissances ServiceNow. Ajoutez une catégorie et une sous-catégorie pour publier les rubriques et sous-rubriques de la table des matières dans cette catégorie et sous-catégorie sur le site ServiceNow. |
+| Chargement des images | Sélectionnez cette option si vous souhaitez que des images des rubriques soient incluses dans la sortie publiée. |
+| Charger les documents liés | Sélectionnez cette option pour inclure les documents liés dans les rubriques dans la sortie publiée. |
+| Supprimer des éléments du corps de l’article | Saisissez le nom d’un élément (par exemple, `prolog` ou `shortdesc`) et appuyez sur **Entrée** pour l’ajouter à la liste. Tout élément que vous ajoutez est exclu du corps de l’article dans la sortie publiée. Par défaut, la liste inclut **title**, de sorte que l’en-tête du topic est masqué du corps de l’article. Sélectionnez l’icône de `x` en regard de **titre** pour la supprimer de la liste si vous souhaitez inclure l’en-tête de rubrique ou ajouter d’autres éléments à exclure. <br><br>**Remarque** : saisissez le nom de classe exact de l&#39;élément DITA tel qu&#39;il apparaît dans l&#39;HTML transformé dans l&#39;affichage du code source de l&#39;article ServiceNow. Le nom de la classe doit correspondre à un élément reconnu pour que l’exclusion prenne effet. Si le nom saisi ne correspond pas à un élément reconnu, il est ignoré et l’élément reste dans l’article publié. |
 
 **&#x200B;**
 
@@ -125,17 +139,11 @@ Les options de configuration suivantes s&#39;affichent pour **&#x200B;**&#x200B;
 | Type d’enregistrement | Utilisez la liste déroulante pour sélectionner parmi les types d’enregistrements configurés dans Salesforce en fonction des paramètres de visibilité basés sur votre profil utilisateur. Les types d’enregistrements Salesforce permettent de regrouper de nombreux enregistrements d’un type pour cet objet. Elles définissent l&#39;organisation de votre publication. Par exemple, vous pouvez sélectionner le type d’enregistrement FAQ et publier en fonction de la mise en page et des champs de la page FAQ. |
 | Champ de contenu d’article | Vous pouvez disposer de différents champs et d’une mise en page unique pour chaque modèle de type d’enregistrement. Utilisez ces champs pour saisir des informations spécifiques en fonction du type d’article. Par exemple, vous pouvez afficher le titre, la réponse et l’équation d’un article de FAQ. |
 | Catégories | Sélectionnez une catégorie dans la liste déroulante pour publier les rubriques de la table des matières de cette catégorie sur le site Salesforce. |
-
-**D’autres options**
-
-Vous pouvez également afficher les options suivantes dans les paramètres prédéfinis Salesforce et ServiceNow :
-
-| Options | Description |
-| --- | --- |
 | Supprimez l’en-tête de rubrique du corps de l’article. | Sélectionnez cette option pour supprimer l’en-tête de rubrique de l’article dans la sortie publiée. |
 | Charger en tant que brouillon | Sélectionnez cette option pour charger la rubrique afin de la partager en tant que brouillon avant de la rendre disponible pour les utilisateurs. |
 | Chargement des images | Sélectionnez cette option si vous souhaitez que des images des rubriques soient incluses dans la sortie publiée. |
 | Charger les documents liés | Sélectionnez cette option pour inclure les documents liés dans les rubriques dans la sortie publiée. |
+
 
 
 

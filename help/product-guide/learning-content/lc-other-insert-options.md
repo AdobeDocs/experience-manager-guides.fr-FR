@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2fcdb485f7527b5ffdfe1d42ed3d9bbdd576ce7a
+source-git-commit: ab188ec25b60920cf4055bc21e21634a811bb20a
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '672'
 ht-degree: 0%
 ---
 # Autres options du menu Insertion
@@ -59,7 +59,8 @@ Les autres options disponibles dans le menu Insertion de la barre d&#39;outils d
 
   >[!NOTE]
   >
-  > La modification ou la création de contenu H5P n’est pas prise en charge dans Adobe Experience Manager Guides. Préparez votre package H5P en externe avant le chargement.
+  > - La modification ou la création de contenu H5P n’est pas prise en charge dans Adobe Experience Manager Guides. Préparez votre package H5P en externe avant le chargement.
+  > - Les cours contenant plusieurs fichiers H5P utilisent des ressources partagées au lieu de les dupliquer pour chaque fichier. Cela permet de réduire la taille du package et d’accélérer la génération et la publication des cours à forte teneur en H5P.
 
   ![](assets/h5p-fullscreen.png)
 

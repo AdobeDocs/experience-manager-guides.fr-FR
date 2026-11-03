@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: d859c31fb0241400fd0f1b4a8acfc0fed9554242
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '935'
 ht-degree: 0%
 ---
 # Présentation de la console Carte
@@ -67,7 +67,7 @@ L’interface de Map Console est principalement divisée en deux sections : **Ba
   >
   > Si vous utilisez Adobe Experience Manager Guides as a Cloud Service, une fonctionnalité supplémentaire [assistant AI](./ai-assistant.md) s’affiche dans la barre de navigation.
 
-- (**B**) **Panneau de gauche** : le panneau de gauche vous donne un accès rapide aux fonctionnalités de génération de sortie, de création et de gestion de rapports, de ligne de base, de paramètres prédéfinis de condition, de traduction de contenu et de Workfront (uniquement si elles sont configurées).
+- (**B**) **Panneau de gauche** : le panneau de gauche vous donne un accès rapide aux fonctionnalités de génération de sortie, d’historique de sortie, de création et de gestion de rapports, de ligne de base, de paramètres prédéfinis de condition, de traduction de contenu et de Workfront (uniquement si elles sont configurées).
 
   Pour plus d’informations, reportez-vous à la section [Fonctionnalités de la console Map](#map-console-features) ci-dessous.
 
@@ -81,6 +81,14 @@ Avec Map Console, vous pouvez générer efficacement des sorties dans divers for
 
 Pour plus d’informations, voir [Génération de sortie](./generate-output.md).
 
+**Historique de sortie**
+
+Permet d&#39;afficher et de gérer les tâches de génération de sortie pour le plan DITA sélectionné directement à partir de l&#39;éditeur. Vous pouvez surveiller l’état des tâches en cours et terminées, afficher les détails de la génération de sortie, accéder aux journaux de publication et gérer l’historique de la génération de sortie.
+
+Vous pouvez également rechercher et filtrer les tâches de génération de sortie en fonction du type de paramètre prédéfini, du statut de la tâche, ainsi que de la période et de l’heure, et télécharger l’historique de génération de sortie au format CSV.
+
+Pour plus d’informations, consultez [Gérer le processus de génération de sortie](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
+
 **Création et gestion de rapports**
 
 Dans une configuration organisationnelle, vous souhaitez vérifier l’exhaustivité globale de votre documentation technique avant de commencer à travailler dessus ou à publier les documents en direct. Un tel besoin devient encore plus essentiel dans les environnements multi-utilisateurs et à grande échelle. Avec Map Console, vous avez accès aux rapports Experience Manager Guides qui donnent une insight utile sur l’intégrité globale du contenu dans votre référentiel et sur la manière dont le contenu est utilisé dans le processus de documentation.
@@ -88,6 +96,10 @@ Dans une configuration organisationnelle, vous souhaitez vérifier l’exhaustiv
 Pour plus d’informations, voir [Rapports dans Experience Manager Guides](./reports-intro.md).
 
 **Ligne de base**
+
+>[!NOTE]
+>
+> La console Mappage affiche l’onglet **Ligne de base** ou **Branches**, selon que l’embranchement est activé ou non pour votre environnement. L’embranchement est disponible dans Experience Manager Guides as a Cloud Service à partir de la version 2026.11.0 et est désactivé par défaut. Pour l’activer, contactez l’équipe du succès client d’Adobe. Lorsque l’embranchement est activé, les lignes de base ne sont plus disponibles. Pour plus d&#39;informations, consultez les sections [Embranchement dans Experience Manager Guides](./branching-overview.md) et [Création et gestion des branches d&#39;un plan DITA](./create-manage-branch.md#manage-branches).
 
 Experience Manager Guides fournit la fonction Ligne de base qui vous permet de créer une version de vos rubriques et ressources qui peut ensuite être utilisée pour la publication ou la traduction. Vous pouvez également publier plusieurs paramètres prédéfinis de sortie du même plan DITA en parallèle.
 

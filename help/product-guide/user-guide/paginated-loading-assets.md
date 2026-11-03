@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '724'
 ht-degree: 0%
 ---
 
@@ -70,6 +70,9 @@ Les sections ci-dessous décrivent comment chacune de ces options s’applique �
 - **Ajouter ou dupliquer** : le nouveau fichier s’affiche en haut du dossier.
 - **Déplacer** : le déplacement entre des dossiers non liés actualise le dossier source vers son premier lot de ressources et ajoute l’élément en haut de la destination (en chargeant le premier lot de ressources de la destination s’il n’était pas déjà ouvert).
 - **Actualiser** : un nouveau bouton d’actualisation dans l’en-tête du panneau Explorateur recharge le niveau racine et affiche le premier lot de ressources.
+- **Trier** : utilisez le bouton Trier situé en haut du panneau de l’explorateur pour basculer l’ordre des fichiers et des dossiers entre ordre croissant (par défaut) et décroissant. Les fichiers et les dossiers du panneau de l’explorateur sont triés en fonction du nom qui s’affiche, qui dépend de votre **configuration de l’affichage des fichiers de l’éditeur** dans [Préférences utilisateur](./intro-home-page.md#user-preferences). S’il est défini sur Titre, les fichiers et les dossiers sont triés par titre. S’il est défini sur Nom de fichier, ils sont triés par nom de fichier.
+
+  ![tri explorateur](images/explorer-sorting.png){width="350"}
 
 ### Panneau de recherche
 

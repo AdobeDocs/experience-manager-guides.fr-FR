@@ -16,13 +16,11 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: ffb697b53a663370621af1a3a484de9c3218881f
 workflow-type: tm+mt
-source-wordcount: 590
+source-wordcount: '624'
 ht-degree: 0%
-
 ---
-
 # Ajouter des blocs de création de base à votre rubrique
 
 Pour mieux comprendre comment créer une rubrique d’apprentissage et y ajouter des éléments de base, la vidéo suivante présente un bref aperçu des fonctionnalités disponibles.
@@ -59,6 +57,10 @@ Vous pouvez utiliser les fonctions de modification de base disponibles dans la b
 
 - **Image** : insérez des images dans le contenu avec un texte secondaire et une info-bulle. Les images peuvent être ajoutées à partir du référentiel ou via une URL externe. De plus, les propriétés d’image peuvent être modifiées à l’aide du panneau **Propriétés du contenu**.
 
+  >[!NOTE]
+  >
+  > Le format d’image AVIF est également pris en charge. Vous pouvez charger un fichier de ce format dans le référentiel ou le sélectionner lors de l’insertion d’une image dans votre contenu. Cela fonctionne uniquement pour la sortie SCORM.
+
   ![](assets/image-learning-content.png){width="650"}
 
 - **Multimédia** : ajoute des données vidéo et audio au contenu. Vous pouvez personnaliser leurs propriétés à l’aide du panneau **Propriétés du contenu**.
@@ -67,14 +69,14 @@ Vous pouvez utiliser les fonctions de modification de base disponibles dans la b
 
 - **Contenu réutilisable** : permet d’incorporer du contenu existant issu de vos ressources ou de votre référentiel pour le réutiliser. Pour insérer un contenu réutilisable, procédez comme suit :
 
-   1. Sélectionnez **Contenu réutilisable** dans la barre d’outils.
-La boîte de dialogue **Réutiliser le contenu** s’ouvre.
-   2. Accédez au sujet souhaité et sélectionnez-le pour inclure son contenu dans le cours actuel.
-   3. Sélectionnez l’identifiant du contenu que vous souhaitez ajouter ; un aperçu sera affiché à côté de pour référence.
+  1. Sélectionnez **Contenu réutilisable** dans la barre d’outils.
+     La boîte de dialogue **Réutiliser le contenu** s’ouvre.
+  2. Accédez au sujet souhaité et sélectionnez-le pour inclure son contenu dans le cours actuel.
+  3. Sélectionnez l’identifiant du contenu que vous souhaitez ajouter ; un aperçu sera affiché à côté de pour référence.
 
-      ![](assets/reuse-content-dialog.png){width="650"}
+     ![](assets/reuse-content-dialog.png){width="650"}
 
-   4. Choisissez **Sélectionner**.
+  4. Choisissez **Sélectionner**.
 
   Le contenu est inséré. Par exemple, la section sur la structure du véhicule est un élément de contenu qui est réutilisé et ajouté au sujet du cours. Le type s’affiche sous la forme **Référence** et son **ID** est reflété dans le panneau **Propriétés du contenu**.
 

@@ -23,9 +23,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1297'
 ht-degree: 0%
 ---
 # Fonctionnalités supplémentaires de l’éditeur de cartes {#id1942D0T0HUI}
@@ -90,7 +90,7 @@ Une référence de navigation du fichier de mappage sélectionné est ajoutée �
 
 ## Exécuter le contrôle d’intégrité sur une carte
 
-L’option Exécuter le contrôle d’intégrité du menu contextuel vous permet d’exécuter un contrôle d’intégrité sur la carte sélectionnée pour détecter des problèmes tels que des liens rompus, des identifiants en double et des échecs de validation du schéma avant publication.
+L’option **Exécuter le contrôle d’intégrité** du menu contextuel vous permet d’exécuter un contrôle d’intégrité sur la carte sélectionnée pour détecter des problèmes tels que des liens rompus, des identifiants en double et des échecs de validation du schéma avant publication. Cette fonctionnalité est disponible dans l’ancien et le nouvel éditeur.
 
 >[!NOTE]
 >

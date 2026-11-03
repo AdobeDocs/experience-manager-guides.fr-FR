@@ -30,20 +30,75 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '1296'
 ht-degree: 0%
 ---
 # Gérer le processus de génération de sortie
 
-Adobe Experience Manager Guides permet d’effectuer les actions suivantes sur la sortie générée :
+Adobe Experience Manager Guides permet de surveiller et de gérer les tâches de génération de sortie pour vos plans DITA. Vous pouvez consulter le statut des tâches de génération de sortie, annuler les tâches en cours et supprimer les entrées obsolètes de l&#39;historique de génération de sortie.
+
+Une fois que vous avez lancé une tâche de génération de sortie pour un mappage ou que vous avez régénéré les rubriques sélectionnées, Experience Manager Guides envoie la tâche à la file d’attente de génération de sortie. Le statut de la tâche est mis à jour au fur et à mesure que le processus de génération de sortie progresse.
+
+Vous pouvez afficher et gérer des tâches de génération de sortie à l’aide de l’onglet **Historique des sorties** de l’éditeur ou de l’onglet **SORTIES** de l’interface utilisateur d’Assets.
+
+
+## Afficher et gérer les tâches de génération de sortie à partir de l’éditeur
+
+Vous pouvez afficher et gérer les tâches de génération de sortie directement à partir de l’onglet **Historique de sortie** dans la console Mappage.
+
+Ouvrez le plan DITA dans la console Map et générez la sortie à l’aide de l’un des paramètres prédéfinis de sortie disponibles dans Experience Manager Guides. Passez à l’onglet **Historique de sortie** pour afficher le statut de la tâche de génération de sortie et d’autres détails, comme illustré ci-dessous :
+
+![](images/output-history-editor-view.png)
+
+Pour chaque tâche de génération de sortie, vous pouvez visualiser les informations suivantes :
+
+1. **Préréglage :** nom du paramètre prédéfini de sortie utilisé pour générer la sortie.
+1. **Type de paramètre prédéfini :** type de paramètre prédéfini de sortie utilisé pour la génération de la sortie.
+1. **Statut :** statut actuel de la tâche de génération de sortie, tel que En attente, Exécution, Terminé, Échec, Post-publication ou Annulé.
+1. **Généré le :** date et heure de génération de la sortie.
+1. **Durée :** temps nécessaire à la génération de la sortie.
+1. **Généré par :** nom de l’utilisateur qui a lancé la tâche de génération de sortie.
+
+>[!NOTE]
+>
+> Si une tâche de génération de sortie est en cours, le libellé **Exécution** dans la colonne **Statut** indique que la tâche est en cours de traitement. Utilisez l’option **Actualiser** pour afficher le dernier statut des tâches de génération de sortie.
+
+Vous pouvez également annuler une tâche de génération de sortie en cours. Pour annuler une tâche en cours, pointez sur la ligne de la tâche et sélectionnez **Annuler la génération**.
+
+![](images/cancel-generation-editor.png)
+
+Une fois la tâche annulée, le libellé **Annulée** s&#39;affiche dans la colonne **Statut**.
+
+Pour les tâches de génération de sortie terminées, passez la souris sur la ligne de tâche pour accéder aux actions suivantes, en fonction du statut de la tâche :
+
+![](images/output-history-editor-actions.png)
+
+- **Ouvrir la sortie :** permet d’afficher la sortie générée dans un nouvel onglet.
+- **Afficher les journaux :** accédez aux journaux de génération de sortie pour consulter les détails de publication et résoudre les erreurs ou les avertissements.
+- **Supprimer l’historique de sortie :** supprimez la tâche sélectionnée de l’historique de génération des sorties sans supprimer la sortie générée.
+
+Vous pouvez également utiliser les options suivantes pour utiliser l’historique de génération de sortie :
+
+- **Rechercher :** utilisez le champ de recherche pour rechercher des tâches de génération de sortie spécifiques dans l’historique.
+- **Télécharger CSV :** sélectionnez **Télécharger CSV** pour télécharger l’historique de génération de sortie au format CSV.
+- **Redimensionner la colonne :** sélectionnez la liste déroulante en regard d’un nom de colonne et sélectionnez **Redimensionner la colonne** pour ajuster la largeur de la colonne.
+- **Filtre** : appliquez des filtres en fonction du type de paramètre prédéfini de sortie, du statut de la tâche, ainsi que de la période et de l’heure pour réduire l’historique de génération de sortie.
+
+  ![](./images/output-history-filters.png)
+
+En outre, les icônes à code de couleur indiquent l’état de chaque tâche : vert pour les tâches réussies, orange pour les tâches terminées avec des messages et rouge pour les tâches ayant échoué. Cela vous permet d’identifier rapidement les tâches qui nécessitent une attention particulière.
+
+## Afficher et gérer les tâches de génération de sortie à partir de l’interface utilisateur d’Assets
+
+À l’aide de l’API Assets, vous pouvez effectuer les actions suivantes sur la sortie générée :
 
 - [Afficher le statut de la tâche de génération de sortie](#view-the-status-of-the-output-generation-task)
 - [Annuler une tâche de génération de sortie](#cancel-an-output-generation-task)
 - [Supprimer une tâche de sortie](#delete-an-output-task)
 
-## Afficher le statut de la tâche de génération de sortie
+### Afficher le statut de la tâche de génération de sortie
 
 Une fois que vous avez lancé la tâche de génération de sortie pour un mappage ou que vous avez régénéré les rubriques sélectionnées, Experience Manager Guides envoie cette tâche à la file d’attente de génération de sortie. Cette file d’attente est mise à jour en temps réel, affichant le statut de chaque tâche de génération de sortie dans la file d’attente.
 
@@ -67,14 +122,14 @@ Une fois que vous avez lancé la tâche de génération de sortie pour un mappag
 
      Dans cette liste, vous pouvez avoir des tâches qui se sont exécutées avec succès, des tâches qui se sont exécutées avec un message ou des tâches ayant échoué. Les tâches réussies s’affichent avec une icône de couleur verte, les tâches comportant un message avec une icône de couleur orange et les tâches ayant échoué s’affichent avec une icône de couleur rouge.
 
-     Pour toutes les tâches, le processus de publication crée un fichier journal \(logs.txt\) accessible en sélectionnant le lien dans la colonne Généré à . Pour les tâches ayant échoué ou contenant des messages, vous pouvez vérifier le fichier journal, comme expliqué dans la section [Afficher et vérifier le fichier journal](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
+     Pour toutes les tâches, le processus de publication crée un fichier journal \(logs.txt\) accessible en sélectionnant le lien dans la colonne **Date de génération**. Pour les tâches ayant échoué ou contenant des messages, vous pouvez vérifier le fichier journal, comme expliqué dans la section [Afficher et vérifier le fichier journal](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
 
      >[!NOTE]
      >
      > Lorsque vous sélectionnez le lien de la sortie PDF générée, vous êtes invité à télécharger le PDF.
 
 
-## Annuler une tâche de génération de sortie
+### Annuler une tâche de génération de sortie
 
 Experience Manager Guides offre aux éditeurs un moyen simple et facile d’annuler toute tâche de publication en cours. En tant qu&#39;éditeur, vous pouvez annuler une tâche de publication en cours à partir de la console de plan DITA ou du tableau de bord [Publication](generate-output-publish-dashboard.md#).
 
@@ -101,7 +156,7 @@ Effectuez les étapes suivantes pour annuler une tâche de génération de sorti
    ![](images/cancelled-output-task.png)
 
 
-## Supprimer une tâche de sortie
+### Supprimer une tâche de sortie
 
 Lorsque vous générez plusieurs sorties pour un plan DITA, la liste des sorties générées pour un tel plan devient très longue au fil du temps. En tant qu’éditeur, vous pouvez nettoyer l’historique de sortie de n’importe quel fichier de mappage en supprimant les tâches obsolètes de la liste *Sorties générées*. Notez que la sortie n’est pas supprimée du système, seule l’entrée de la sortie générée est supprimée de la liste *Sorties générées*.
 
@@ -120,3 +175,20 @@ Effectuez les étapes suivantes pour supprimer une tâche de sortie de la liste 
 1. Sélectionnez **Oui** dans l’invite de message **Confirmer la suppression**.
 
    La tâche est supprimée de la liste des Sorties générées .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

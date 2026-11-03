@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '597'
 ht-degree: 0%
 ---
 # Générer la sortie
@@ -76,6 +76,9 @@ Pour afficher le journal des erreurs, sélectionnez **Ignorer**, survolez l’on
 >
 > Si votre carte utilise un fichier DITAVAL, toutes les images marquées référencées dans le fichier DITAVAL sont copiées vers un emplacement associé à la carte publiée dans la sortie.  En outre, si vous utilisez plusieurs fichiers DITAVAL pour filtrer dans la même carte, veillez à utiliser des noms de fichier `.ditaval` uniques pour éviter les problèmes de nom de fichier en double lors de la publication.
 
+Vous pouvez consulter le statut actuel de la demande de génération de sortie dans l’onglet **Historique de sortie**. Pour plus d’informations, voir [Afficher l’état de la tâche de génération de sortie](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
+
+
 ## Générer une sortie pour un plan DITA à partir du tableau de bord Plan
 
 Effectuez les étapes suivantes pour générer une sortie pour un plan DITA à l&#39;aide du tableau de bord Map :
@@ -91,7 +94,7 @@ Effectuez les étapes suivantes pour générer une sortie pour un plan DITA à l
 1. Sélectionnez l’icône **Générer** pour lancer le processus de génération de sortie.
 
 
-Vous pouvez consulter le statut actuel de la demande de génération de sortie dans l’onglet **Sorties**. Pour plus d’informations, voir [Afficher l’état de la tâche de génération de sortie](./generate-output-manage-process.md#view-the-status-of-the-output-generation-task).
+Vous pouvez consulter le statut actuel de la demande de génération de sortie dans l’onglet **Sorties**. Pour plus d&#39;informations, voir [Afficher l&#39;état de la tâche de génération de sortie](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor)..
 
 >[!IMPORTANT]
 >

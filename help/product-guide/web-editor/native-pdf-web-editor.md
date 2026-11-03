@@ -46,9 +46,9 @@ topic_v2:
     internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '4071'
+source-wordcount: '4203'
 ht-degree: 1%
 ---
 # Paramètre prédéfini de sortie PDF natif
@@ -264,6 +264,21 @@ Utilisez les options suivantes pour spécifier des paramètres avancés pour fus
 | **Conserver les fichiers temporaires** | Sélectionnez cette option si vous souhaitez conserver les fichiers HTML intermédiaires créés lors de la génération de la sortie Native PDF. Vous pouvez ensuite télécharger les fichiers temporaires après avoir généré la sortie. Les fichiers téléchargés incluraient également `system_config.xml` fichier qui vous donne des informations sur l’URL de création, l’URL locale et l’URL de publication. Ces URL sont configurées dans les paramètres d’externalisation d’AEM et sont reflétées dans le fichier `system_config.xml`. |
 | **Conformité de** | Il s’agit de la norme à laquelle vous avez l’intention d’enregistrer votre PDF pour vous assurer qu’elle est conforme. Faites votre choix dans la liste déroulante parmi les normes PDF disponibles. Pour plus d’informations sur les normes prises en charge, voir [À propos des normes PDF](https://helpx.adobe.com/fr/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Propriétés du fichier** | Sélectionnez les métadonnées que vous souhaitez transmettre à la publication native de PDF. La liste déroulante répertorie les propriétés personnalisées et par défaut. Par exemple, `dc:description`, `dc:language`, `dc:title` et `docstate` sont les propriétés par défaut, tandis que vous pouvez utiliser `author` comme propriété personnalisée. Les propriétés de métadonnées sélectionnées sont transmises au fichier PDF généré à l’aide de PDF natif. <br> Ces propriétés sont sélectionnées à partir du fichier `metadataList` disponible à l’adresse `/libs/fmdita/config/metadataList`. <br>Ce fichier peut être recouvert à l’adresse : `/apps/fmdita/config/metadataList`. |
+
+## Mappages d&#39;éléments DITA dans HTML intermédiaire
+
+Lors de la génération du PDF natif, le contenu DITA est transformé en HTML intermédiaire avant que la sortie PDF ne soit générée. Vous pouvez accéder à ces fichiers intermédiaires en activant l’option **Conserver les fichiers temporaires** dans le paramètre prédéfini de sortie Native PDF.
+
+Dans le cadre de cette transformation, certains éléments DITA peuvent être mappés à différents éléments HTML dans le fichier `merged.html` intermédiaire. Ces mappages permettent de préserver le rendu intégré attendu dans le PDF généré.
+
+Si vous utilisez des personnalisations ou une automatisation qui reposent sur la structure d’élément HTML dans les fichiers intermédiaires, tenez compte de ces mappages lors du traitement de l’HTML générée.
+
+Actuellement, le mappage d&#39;élément DITA suivant s&#39;applique dans le fichier `merged.html` intermédiaire :
+
+| Élément DITA | Élément HTML | Description |
+|----|----|-----|
+| `<option>` | `<span>` | Mappe l&#39;élément `<option>` DITA à un élément `<span>` HTML afin de conserver les espaces environnants dans le PDF généré. |
+
 
 
 

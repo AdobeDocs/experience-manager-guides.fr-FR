@@ -23,7 +23,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ae9ac69745555aa3683e0a6a648f6519377dd6d7
+source-git-commit: 01ef49b5e26c31359559d9849e6726f704393cd7
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Pour afficher les suggestions intelligentes permettant d’ajouter des référen
 1. Sélectionnez le contenu de la rubrique pour afficher les suggestions associées. Assurez-vous que la longueur de caractères du contenu dépasse ce que votre administrateur a défini dans le profil de dossier pour que les suggestions de contenu s’affichent.
 1. Dans le **panneau de création** de l’assistant AI, sélectionnez **Suggérer du contenu réutilisable** ![ai suggérer une icône de contenu réutilisable &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
 
-1. Sélectionnez une balise pour afficher les suggestions de création pour la balise active .  Les suggestions d’affichage et d’ajout de références de contenu à partir des fichiers indexés s’affichent en fonction du contenu de la balise active. Vous pouvez également sélectionner plusieurs balises.
+1. Sélectionnez une balise pour afficher les suggestions de création pour la balise active.  Les suggestions d’affichage et d’ajout de références de contenu à partir des fichiers indexés s’affichent en fonction du contenu de la balise active. Vous pouvez également sélectionner plusieurs balises.
 
 
 1. Sélectionnez toutes les balises pour afficher les suggestions en fonction du contenu présent dans le document complet.  L’icône **Suggérer du contenu réutilisable** ![ai suggérer un contenu réutilisable &#x200B;](./images/ai-suggest-reusable-content-icon.svg) s’affiche en regard du contenu pour lequel une correspondance appropriée a été trouvée.
@@ -82,7 +82,7 @@ Pour afficher les suggestions intelligentes permettant d’ajouter des référen
 1. Vous pouvez également sélectionner **Accepter** ou **Ignorer** dans le panneau de suggestions pour obtenir les recommandations appropriées.
 
 
-Cette fonctionnalité intelligente est pratique et minimise l’effort de recherche manuelle de contenu, ce qui vous permet de vous concentrer davantage sur la génération de nouveau contenu. Cela facilite également une meilleure collaboration entre les équipes et permet de maintenir la cohérence du contenu créé par les différents auteurs.
+Cette fonctionnalité intelligente est utile et réduit l’effort de recherche manuelle de contenu, ce qui vous permet de vous concentrer davantage sur la génération de nouveau contenu. Cela facilite également une meilleure collaboration entre les équipes et permet de maintenir la cohérence du contenu créé par les différents auteurs.
 
 >[!NOTE]
 >

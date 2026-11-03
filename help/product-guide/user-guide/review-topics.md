@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 63ae0f947d50646bed34cd815db6b9fb585fc015
 workflow-type: tm+mt
-source-wordcount: '3753'
+source-wordcount: '3746'
 ht-degree: 0%
 ---
 # Rubriques de révision {#id2056B0W0FBI}
@@ -235,7 +235,10 @@ Vous pouvez également mettre en surbrillance ou barrer le texte rapidement à l
 
 Le panneau Commentaires affiche une liste de commentaires sur la rubrique active. Ce panneau répertorie également les commentaires des autres réviseurs ou réviseuses, si la rubrique est envoyée à plusieurs réviseurs ou réviseuses. Chaque commentaire du panneau de commentaires est lié au texte correspondant dans la rubrique active. Cela vous permet d’identifier le texte commenté. Chaque commentaire affiche le nom du réviseur ou de la réviseuse qui l’a ajouté ainsi que la date et l’heure.
 
-Les commentaires s’affichent dans l’ordre du texte commenté dans le document. Par exemple, si un commentaire de texte mis en surbrillance est ajouté à la première phrase du premier paragraphe et qu’un commentaire de texte inséré est ajouté à la deuxième phrase, ce dernier est affiché avant le commentaire de texte inséré.
+>[!NOTE]
+>
+> La personne à l’origine de la révision peut également ajouter des commentaires sur une rubrique pour fournir un contexte supplémentaire ou attirer l’attention des réviseurs et des réviseuses sur un contenu spécifique. Ces commentaires s’affichent dans le panneau **Commentaires** avec les commentaires des autres réviseurs et réviseuses. Pour plus d’informations, voir [Ajouter des commentaires pour les réviseurs](./review-send-topics-for-review.md#add-comments-for-reviewers).
+
 
 Les tâches que vous pouvez effectuer à l’aide du panneau Commentaires sont décrites ci-dessous :
 

@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1913'
 ht-degree: 1%
 ---
 # Experience Manager Guides et Edge Delivery Services
@@ -64,58 +64,6 @@ Le référentiel est maintenant créé et s’aligne sur la structure du modèle
 
 ![](assets/eds-repo-created-github-view.png)
 
-### Connecter GitHub à Adobe via la synchronisation de code AEM
-
-Adobe Experience Manager utilise une application GitHub appelée **Synchronisation du code AEM** pour pousser le contenu de Experience Manager Guides vers GitHub.
-
-Pour installer et configurer l’application *AEM Code Sync*, procédez comme suit :
-
-1. Accédez à la page [Synchronisation du code &#x200B;](https://github.com/apps/aem-code-sync) et sélectionnez **Installer**.
-2. *La synchronisation du code* surveille les modifications du référentiel et s’assure que les mises à jour sont correctement transmises à GitHub.
-
-   >[!NOTE]
-   >
-   >Lors de l’installation de l’application, veillez à utiliser le même compte GitHub propriétaire du référentiel.
-
-   ![](assets/eds-aem-code-sync-page.png)
-
-3. Sur la page suivante, accordez l’accès au référentiel que vous avez créé. Pour ce faire, sélectionnez l’option **Sélectionner uniquement les référentiels**, puis sélectionnez votre référentiel dans la liste déroulante.
-
-   ![](assets/eds-aem-code-sync-install-authorize.png){width="350"}
-
-4. Sélectionnez **Installer et autoriser**.
-
-Vous êtes redirigé vers la page de configuration GitHub, confirmant l’enregistrement réussi de l’application *AEM Code Sync*. Vous pouvez également enregistrer l’aperçu et les URL dynamiques pour votre site web à partir de cette page.
-
-![](assets/eds-aem-code-sync-registered.png)
-
-### Créer une application GitHub
-
-1. Sur GitHub, accédez à la barre latérale gauche et sélectionnez **Paramètres du développeur**.
-2. Dans la barre latérale gauche, sélectionnez **Applications GitHub**.
-3. Sélectionnez **Nouvelle application GitHub**.
-
-   ![](assets/eds-new-github-app.png){width="650"}
-
-4. Sur la page **Enregistrer la nouvelle application GitHub**, fournissez les détails suivants :
-
-   - **Nom de l’application GitHub** : saisissez un nom pour votre application. Par exemple, `USERNAME-eds-app` où USERNAME correspond à votre nom d’utilisateur GitHub.
-   - **URL de la page d’accueil** : saisissez l’URL de l’instance Experience Manager Guides.
-
-     Exemple d&#39;URL (format) : `https://<aem-author-url>/libs/fmdita/clientlibs/xmleditor/page.html`
-
-     Exemple d’URL : `https://author-p16602-e335172-cmstg.adobeaemcloud.com/libs/fmdita/clientlibs/xmleditor/page.html`
-
-   - **URL de rappel** : identique à l’URL de la page d’accueil.
-   - **URL Webhook** : désactivez cette option.
-   - **Autorisations de référentiel** : définissez **autorisations de lecture et d’écriture** pour les *actions, administration et attestation*.
-
-5. Sélectionnez **Créer une application GitHub**.
-
-Votre application est maintenant prête. Vous êtes redirigé vers la page **Paramètres** de votre application GitHub.
-
-![](assets/eds-github-app-registered-page.png)
-
 ### Créer une application OAuth
 
 Une application OAuth est nécessaire pour authentifier les utilisateurs lors de la création d’un profil de publication EDS dans Experience Manager Guides. Il active un flux de connexion sécurisé à l’aide d’un *ID client* et d’un *Secret client*.
@@ -145,54 +93,122 @@ Votre application est maintenant prête. Notez l’*ID client*. Vous pouvez gén
 
 ### Configuration de l’URL du point de montage dans le référentiel EDS
 
-EDS lit le contenu à partir d’un chemin de référentiel GitHub défini comme une URL *point de montage* dans le fichier `fstab.yaml`.
+EDS lit le contenu à partir d’une URL *point de montage* définie dans le fichier `fstab.yaml` situé à la racine de votre référentiel. Cette URL pointe EDS vers l’emplacement où Experience Manager Guides publie le contenu généré.
 
 Pour configurer l’URL du point de montage dans le fichier `fstab.yaml` :
 
-1. Ouvrez le fichier `fstab.yaml` dans votre référentiel et mettez à jour les éléments suivants :
+1. Dans votre référentiel GitHub, ouvrez le fichier `fstab.yaml` .
+2. Mettez à jour la valeur `url` en utilisant le format suivant :
 
-   - `your-user-name`
-   - `your-repo-name`
+   ```text
+   https://guides.adobe.com/eds-workers/<account type>/<git acc domain>/<git username>/<git repo>/<branch>/<root folder>
+   ```
 
-   >[!NOTE]
-   >
-   > Dans l’URL du point de montage, `main` indique la branche sur laquelle vous souhaitez publier le contenu et `docs` indique le dossier racine du référentiel EDS sur lequel vous travaillez. Si vous préférez modifier le nom de la branche sur GitHub, vous devez mettre à jour le même nom de branche dans l’URL *point de montage* (dans le fichier `fstab.yaml`) et le profil de publication EDS correspondant dans Experience Manager Guides.
+   Le tableau suivant décrit chaque champ de l’URL :
+
+   | Champ | Description |
+   |---|---|
+   | `https://guides.adobe.com/eds-workers` | URL de collaborateur utilisée par Experience Manager Guides pour publier du contenu dans EDS. Ne modifiez pas cette valeur. |
+   | `<account type>` | Type de compte Git. Définissez sur `github`. |
+   | `<git acc domain>` | Domaine de votre compte Git. Définissez sur `github.com`. |
+   | `<git username>` | Votre nom d’utilisateur GitHub. |
+   | `<git repo>` | Nom du référentiel GitHub que vous avez créé pour EDS. |
+   | `<branch>` | Branche sur laquelle vous souhaitez publier le contenu. La valeur par défaut est `main`. Si vous modifiez le nom de la branche sur GitHub, mettez-le à jour ici et dans le profil de publication EDS dans Experience Manager Guides. |
+   | `<root folder>` | Dossier racine du référentiel dans lequel les fichiers publiés sont validés. La valeur par défaut est `docs`. Si vous modifiez le nom du dossier sur GitHub, mettez-le à jour ici et dans le profil de publication EDS dans Experience Manager Guides. |
+
+   Par exemple, si votre nom d’utilisateur GitHub est `my-username` et que votre nom de référentiel est `my-eds-repo`, le fichier `fstab.yaml` se présente comme suit :
+
+   ```yaml
+   mountpoints:
+     /:
+       url: https://guides.adobe.com/eds-workers/github/github.com/my-username/my-eds-repo/main/docs
+       type: markup
+   ```
 
    ![](assets/eds-fstab-yaml-file.png){width="650"}
 
-2. Sélectionnez **Valider les modifications**, saisissez les détails de validation, puis confirmez.
-3. Revenez à [Paramètres du développeur](https://github.com/settings/apps), recherchez votre application, puis sélectionnez **Modifier**.
+   >[!NOTE]
+   >
+   > Si vous continuez à utiliser le format d’URL précédent (`https://guides.adobe.com/eds-workers/<git username>/<git repo>/<branch>/<root folder>`), le type de compte et le domaine sont définis par défaut sur `github` et `github.com`.
 
-   ![](assets/eds-edit-github-app.png){width="650"}
+3. Répétez les étapes 2 et 3 de la section [Connexion de GitHub à Adobe via la synchronisation de code AEM](#connect-github-to-adobe-via-aem-code-sync) pour autoriser le référentiel.
 
-4. Accédez à la page **Installer l’application** et sélectionnez **Installer**.
+### Connecter GitHub à Adobe via la synchronisation de code AEM
 
-   ![](assets/eds-install-eds-app.png){width="650"}
+Adobe Experience Manager utilise une application GitHub appelée **Synchronisation du code AEM** pour pousser le contenu de Experience Manager Guides vers GitHub.
 
-5. Répétez les étapes 2 et 3 de la section [Connexion de GitHub à Adobe via la synchronisation de code AEM](#connect-github-to-adobe-via-aem-code-sync) pour autoriser le référentiel.
+Effectuez les étapes suivantes pour installer et configurer l’application *AEM Code Sync* :
+
+1. Accédez à la page [Synchronisation du code &#x200B;](https://github.com/apps/aem-code-sync) et sélectionnez **Installer**.
+
+   **La synchronisation du code** surveille les modifications du référentiel et s’assure que les mises à jour sont correctement transmises à GitHub.
+
+   >[!NOTE]
+   >
+   >Lors de l’installation de l’application, veillez à utiliser le même compte GitHub propriétaire du référentiel.
+
+   ![](assets/eds-aem-code-sync-page.png)
+
+2. Sur la page suivante, accordez l’accès au référentiel que vous avez créé. Sélectionnez **Sélectionner uniquement les référentiels**, puis sélectionnez votre référentiel dans la liste déroulante.
+
+   ![](assets/eds-aem-code-sync-install-authorize.png){width="350"}
+
+3. Sélectionnez **Installer et autoriser**.
+
+   Vous êtes redirigé vers la page de configuration GitHub.
+
+   ![](./assets/aem-code-sync-source-code-github.png)
+
+4. Vérifiez les détails du code source et sélectionnez **Suivant**.
+
+5. Sur la page **Source de contenu**, configurez les paramètres suivants :
+
+   - **Type de source de contenu :** sélectionnez **Autre (apportez vos propres balises)**.
+   - **URL de la source de contenu :** vérifiez l’URL configurée comme URL de point de montage dans le fichier `fstab.yaml`. Si vous n’avez pas mis à jour l’URL dans le fichier , vous pouvez la mettre à jour ici.
+   - **Extension de fichier :** remplacez le suffixe `.html` par défaut par `.htm`.
+
+   Assurez-vous que l’option **Utiliser une autre source de contenu** est sélectionnée.
+
+6. Sur la page **Utilisateurs**, ajoutez des utilisateurs si nécessaire, puis sélectionnez **Suivant**.
+
+7. Vérifiez le résumé de la configuration et sélectionnez **Enregistrer**.
+
+   Une fois l’enregistrement effectué, une page de confirmation s’affiche. Vous pouvez copier et enregistrer les URL **Aperçu** et **Live** pour votre site web à partir de cette page.
+
+   ![](assets/eds-aem-code-sync-registered.png)
+
+## Installation et configuration de GitLab pour EDS
+
+Pour obtenir des instructions sur la configuration de GitLab en tant que référentiel de publication pour Edge Delivery Services, voir [Configurer GitLab pour EDS](./configure-eds-gitlab.md).
 
 ## Créer et configurer un profil de publication pour EDS dans Experience Manager
 
 Les sections ci-dessous décrivent chaque étape dans l’ordre et expliquent comment configurer un profil de publication EDS, configurer un paramètre prédéfini de sortie et générer une sortie à l’aide d’EDS dans Experience Manager Guides.
 
-### Créer le profil de publication EDS
+### Créer le profil de publication EDS pour GitHub ou GitLab
 
 1. Accédez à **[Paramètres](/help/product-guide/cs-install-guide/workspace-settings.md)** **>** **Publier des profils**.
 2. Sélectionnez l’icône **+** pour créer un profil de publication et fournissez les détails suivants :
 
-   - **Type de serveur** : sélectionnez **GitHub Edge Delivery Services** dans la liste déroulante.
-   - **Nom** : saisissez un nom pour ce profil .
-   - **Nom du référentiel** : utilisez le nom du référentiel GitHub créé à partir du standard.
-   - **Nom d’utilisateur** : saisissez votre nom d’utilisateur GitHub.
-   - **Branche principale** : définissez sur principale (par défaut).
-   - **Dossier racine** : défini sur docs (par défaut).
-   - **ID client et secret client** : récupérez-les à partir de votre application GitHub (voir la section [Créer une application OAuth](#create-a-new-oauth-app) pour plus d’informations).
-
-3. Sélectionnez **Connexion** pour vous authentifier.
+   - **Type de serveur\* :** sélectionnez **Git (Edge Delivery Service)** dans la liste déroulante.
+   - **Nom\* :** saisissez un nom pour le profil de publication.
+   - **Type de compte Git\* :** sélectionnez **GitHub** ou **GitLab** dans la liste déroulante, en fonction de votre fournisseur de référentiel Git.
+   - **URL de l’instance\* :** saisissez l’URL de votre instance GitHub ou GitLab, par exemple `https://github.com` ou `https://gitlab.com`.
+   - **Nom du référentiel\* :** saisissez le nom de votre référentiel GitHub ou GitLab.
+   - **Nom d’utilisateur\* :** saisissez votre nom d’utilisateur GitHub ou GitLab.
+   - **Nom de la branche :** défini sur `main` (par défaut).
+   - **Dossier racine\* :** défini sur `docs` (par défaut).
+   - **Propriétaire du site (*GitLab uniquement*) :** saisissez le propriétaire du site Edge Delivery Services.
+   - **Référentiel de site (*GitLab uniquement*) :** saisissez le nom du référentiel associé au site Edge Delivery Services.
+   - **Clé API HLX :** saisissez la clé API HLX pour votre configuration EDS. Cette clé est nécessaire pour prendre en charge la fonctionnalité Dépublié introduite dans la version 2026.11.0 de Experience Manager Guides as a Cloud Service. En outre, la clé est requise pour publier le contenu sur EDS si la taille du contenu est supérieure à 100 fichiers.
+   - **Informations d’authentification :** les informations d’identification en fonction du type de compte Git sélectionné :
+     - **GitHub:** saisissez l’**ID client\*** et le **Secret client\*** obtenus à partir de votre application OAuth GitHub. Pour plus d’informations, voir [Création d’une application OAuth](#create-a-new-oauth-app).
+     - **GitLab :** saisissez le **jeton d’accès\*** généré pour votre compte GitLab.
+3. (*GitHub uniquement*) Sélectionnez **Connexion** pour vous authentifier. Pour GitLab, aucune connexion n’est requise, car le jeton d’accès est utilisé pour l’authentification.
 
    ![](assets/eds-publish-profile.png){width="650"}
 
-4. Une fois l’authentification réussie, sélectionnez **Enregistrer**.
+4. Sélectionnez **Enregistrer**. Pour GitHub, l’option **Enregistrer** est disponible après une authentification réussie.
 
 Votre profil de publication EDS est maintenant configuré.
 
@@ -206,21 +222,25 @@ Votre profil de publication EDS est maintenant configuré.
 4. Sélectionnez **Ajouter**.
 
    ![](assets/eds-output-preset.png){width="650"}
-5. Ouvrez le nouveau paramètre prédéfini de sortie EDS et accédez à l’onglet **Config**.
-   - Sélectionnez le profil de publication créé à l’étape précédente.
-   - Activez **Push to live**.
+5. Ouvrez le paramètre prédéfini de sortie EDS que vous venez de créer et configurez les champs suivants :
 
-   Lorsque l’option **Push to live** est activée, la sortie générée est validée dans GitHub et les mises à jour correspondantes sont propagées immédiatement au site web actif.
+   - **Filtrage conditionnel :** sélectionnez **Aucun** pour générer une sortie sans filtrage ou **Utilisation de DITAVAL** pour appliquer un filtrage conditionnel.
+   - **Publier le sous-dossier :** saisissez le nom du sous-dossier dans lequel la sortie est publiée. Le sous-dossier est créé dans votre référentiel sous le dossier racine et son nom apparaît dans les liens EDS vers le contenu publié. Par exemple, si le dossier racine est `docs` et que le sous-dossier de publication est `product-guide`, le contenu est publié sur `docs/contents/product-guide`.
+   - **Profil de publication :** sélectionnez le profil de publication GitHub ou GitLab configuré dans la section précédente.
 
-   ![](assets/eds-output-preset-config-tab.png){width="650"}
+     ![](assets/eds-output-preset-config.png){width="650"}
 
 6. Sélectionnez **Enregistrer**, puis **Générer la sortie**.
 
 >[!NOTE]
 >
->La sortie générée est stockée dans le dossier **docs** du référentiel EDS.
+>La sortie générée est stockée dans le dossier `<root folder>/contents/<publish subfolder>` du référentiel EDS.
 
 La sortie EDS est maintenant générée. Le contenu est présenté dans une mise en page propre et réactive. Il comprend des éléments standard tels que le titre de la page, les chemins de navigation, le contenu du corps et les blocs utilisés dans la rubrique. La table des matières à gauche (générée à partir de la carte) vous permet de naviguer entre les rubriques, tandis qu’une mini-table des matières à droite met en surbrillance les sections de la page active. L’ensemble de la sortie est entièrement réactif, ce qui garantit une expérience de lecture optimisée et cohérente sur tous les appareils.
+
+>[!NOTE]
+>
+> Vous pouvez publier plusieurs plans DITA sur le même site web. Les cartes publiées s’affichent dans le panneau de navigation de gauche, ce qui permet aux utilisateurs d’accéder au contenu de chaque carte. La publication d’un nouveau mappage ne remplace pas les mappages publiés précédemment.
 
 ![](assets/eds-site-output.png)
 

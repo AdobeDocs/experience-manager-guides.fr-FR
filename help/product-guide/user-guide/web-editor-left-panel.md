@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '11296'
+source-wordcount: '11329'
 ht-degree: 0%
 ---
 # Panneau de gauche de l’éditeur
@@ -859,7 +859,8 @@ Par exemple, vous pouvez créer des groupes de conditions de produits tels que *
 
 >[!NOTE]
 >
-> Saisissez pour créer un groupe ou sélectionnez un groupe existant pour un attribut particulier.
+> - Saisissez pour créer un groupe ou sélectionnez un groupe existant pour un attribut particulier.
+> - Les conditions du panneau Conditions sont triées par ordre alphabétique en fonction de leur libellé plutôt que de leur valeur. L’ordre de tri est déterminé par les libellés attribués aux conditions, quelles que soient leurs valeurs correspondantes.
 
 Vous pouvez utiliser des `/` et définir des sous-groupes tels que `AEM Guides/Cloud Service`.
 

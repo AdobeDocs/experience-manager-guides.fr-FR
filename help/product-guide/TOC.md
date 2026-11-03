@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: 09b8fabaa75d656ae1465d741c8aac8307ce6231
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '2657'
+source-wordcount: '2705'
 ht-degree: 11%
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 11%
       - {hide-from-toc}[&#x200B; Instructions de déploiement &#x200B;](./release-info/deploy-xml-on-aemaacs.md)
       - [Versions cloud](./release-info/latest-release-info-cs.md)
       - Versions De 2026 {#2026-releases}
+        - Version 2026.11.0 {#2611-release}
+          - [Nouveautés](./release-info/whats-new-2026-11-0.md)
+          - [Problèmes résolus](./release-info/fixed-issues-2026-11-0.md)
+          - [Instructions de mise à niveau](./release-info/upgrade-instructions-2026-11-0.md)
         - Version 2026.09.0 {#2609-release}
           - [Nouveautés](./release-info/whats-new-2026-09-0.md)
           - [Problèmes résolus](./release-info/fixed-issues-2026-09-0.md)
@@ -293,6 +297,10 @@ ht-degree: 11%
   - Gestion et publication des cartes {#map-management-publishing}
     - [Présentation de la console Carte](./user-guide/map-console-overview.md)
     - [Ouvrir les fichiers dans la console Map](./user-guide/open-files-map-console.md)
+    - Branchement et fusion {#work-with-branching}
+      - [Vue d’ensemble](./user-guide/branching-overview.md)
+      - [Créer et gérer des branches](./user-guide/create-manage-branch.md)
+      - [Fusionner les branches](./user-guide/merge-branches.md)
     - Rapports {#reports-aem-guide}
       - [Présentation des rapports](./user-guide/reports-intro.md)
       - [Rapport DITA map à partir de la console Map](./user-guide/reports-web-editor.md)
@@ -330,7 +338,7 @@ ht-degree: 11%
         - [Créer et gérer des niveaux de référence à partir de la console Map](./user-guide/web-editor-baseline.md)
         - [Créer et gérer des niveaux de référence à partir du tableau de bord Mappage](./user-guide/generate-output-use-baseline-for-publishing.md)
         - [Créer et gérer de nouvelles lignes de base à partir de la console Map](./user-guide/web-editor-baseline-v2.md)
-        - [FAQ sur la migration de nouvelle ligne de base](./user-guide/new-baseline-migration-faq.md)
+        - [FAQ sur la nouvelle migration de référence](./user-guide/new-baseline-migration-faq.md)
       - [Gestion des paramètres prédéfinis de sortie de profil global et de dossier](./user-guide/web-editor-manage-output-presets.md)
       - [Utilisez des variables pour définir les options Chemin de destination, Nom du site ou Nom de fichier](./user-guide/generate-output-use-variables.md)
       - [Transmettre les métadonnées à la sortie à l’aide de DITA-OT](./user-guide/pass-metadata-dita-ot.md)
@@ -369,12 +377,15 @@ ht-degree: 11%
     - [Informations d’identification des utilisateurs et utilisatrices d’Adobe Generative AI](./user-guide/adobe-generative-ai-disclosures.md)
     - [Vue d’ensemble de l’Assistant IA](./user-guide/ai-assistant.md)
     - Assistant d’IA en mode Agence {#ai-assistant-agentic}
-      - [Utilisation de l’assistant AI en mode Agence](./user-guide/ai-assistant-agentic.md)
+      - [Importer du contenu avec l’assistant d’IA](./user-guide/import-ai-assistant.md)
+      - [Créer le premier brouillon de votre contenu](./user-guide/create-ai-assistant.md)
+      - [Balisage intelligent avec l’assistant AI](./user-guide/ai-assistant-agentic.md)
     - Assistant d’IA en mode standard {#ai-assistant-standard}
-      - [Aide intelligente optimisée par l’IA pour rechercher du contenu](./user-guide/ai-based-smart-help.md)
       - [Assistant AI Création pour créer des documents intelligemment](./user-guide/ai-assistant-right-panel.md)
       - [Suggestions intelligentes optimisées par l’IA pour créer du contenu](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [Questions fréquentes](./user-guide/ai-assistant-faq.md)
+  - Assistant d’aide dans AEM Guides {#help-assistant-aem}
+    - [&#x200B; Aide intelligente optimisée par l’IA pour rechercher du contenu](./user-guide/ai-based-smart-help.md)
   - Gérer le contenu de formation {#learning-training-content}
     - Guide de prise en main {#get-started}
       - Présentation {#intro-lc}
@@ -563,6 +574,7 @@ ht-degree: 11%
         - [Application de styles aux notes de bas de page](./native-pdf/footnote-number-style.md)
         - [Configuration du nouveau moteur de publication pour le PDF natif](./native-pdf/conf-new-pdf-engine.md)
       - [Utiliser le moteur PDF natif v2](./native-pdf/new-pdf-engine.md)
+      - [Configurer le rendu en annexe pour le rendu map pour le PDF natif](./install-conf-guide/conf-appendix-map-ref-native-pdf.md)
       - [Configurer le processus de nœud pour la publication native de PDF pour Cloud Service](./native-pdf/conf-node-options-cs.md)
       - [Configurer les indicateurs JVM pour la publication native PDF pour On-Premise](./native-pdf/conf-jvm-flags-on-prem.md)
     - Configuration de fragments de contenu et d’expérience pour Cloud Service {#conf-content-exp-fragment}
@@ -699,6 +711,7 @@ ht-degree: 11%
       - [Configuration de la publication basée sur les microservices avec l’authentification JWT](./knowledge-base/publishing/configure-microservices.md)
       - [Configuration de la publication basée sur les microservices avec l’authentification OAuth](./knowledge-base/publishing/configure-microservices-imt-config.md)
       - [Configuration de Edge Delivery Services](./knowledge-base/publishing/configure-eds.md)
+      - [Configuration de GitLab pour Edge Delivery Services](./knowledge-base/publishing/configure-eds-gitlab.md)
       - [Publication de références sur le cloud AEM](./knowledge-base/publishing/publishing-benchmarks-on-aem-cloud.md)
     - Workflows {#workflows}
       - [Workflow de post-génération](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)

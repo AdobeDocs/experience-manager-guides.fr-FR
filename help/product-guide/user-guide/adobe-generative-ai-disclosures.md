@@ -14,18 +14,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a96b54b405c93383689c81bcb31e1b95d9d24182
 workflow-type: tm+mt
-source-wordcount: 408
+source-wordcount: '406'
 ht-degree: 3%
-
 ---
-
 # Informations d’identification des utilisateurs et utilisatrices d’Adobe Experience Manager Guides Generative AI
 
 Les instructions d’utilisation régissant votre accès et l’utilisation de l’assistant AI Experience Manager Guides sont disponibles [ici](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 
-En utilisant l’assistant AI « Beta » (« Beta »), vous reconnaissez que l’utilisation de Beta est fournie « en l’état », sans garantie d’aucune sorte. Adobe n’a aucune obligation de tenir à jour, corriger, mettre à jour, modifier, remplacer ou prendre en charge Beta. Il est recommandé de faire preuve de prudence et de ne pas se fier, de quelque manière que ce soit, au bon fonctionnement ou aux performances de ce Beta et/ou des éléments qui l’accompagnent. Le Beta est considéré comme des informations confidentielles d’Adobe. Adobe peut utiliser des invites, du contenu, des données et d&#39;autres éléments qui sont entrés ou importés dans Beta et les réponses qui vous sont fournies pour l&#39;amélioration et le développement du produit. Tout « commentaire » (informations relatives au Beta, y compris, mais sans s’y limiter, les problèmes ou défauts rencontrés lors de l’utilisation du Beta, les suggestions, les améliorations et les recommandations) que vous fournissez à Adobe est par la présente cédé à Adobe. Cela inclut tous les droits, titres et intérêts relatifs à ces commentaires. 
+En utilisant AI Assistant, vous reconnaissez par la présente que l&#39;utilisation de Beta est fournie « en l&#39;état » sans garantie d&#39;aucune sorte. Adobe n’a aucune obligation de tenir à jour, corriger, mettre à jour, modifier, remplacer ou prendre en charge Beta. Il est recommandé de faire preuve de prudence et de ne pas se fier, de quelque manière que ce soit, au bon fonctionnement ou aux performances de ce Beta et/ou des éléments qui l’accompagnent. Le Beta est considéré comme des informations confidentielles d’Adobe. Adobe peut utiliser des invites, du contenu, des données et d&#39;autres éléments qui sont entrés ou importés dans Beta et les réponses qui vous sont fournies pour l&#39;amélioration et le développement du produit. Tout « commentaire » (informations relatives au Beta, y compris, mais sans s’y limiter, les problèmes ou défauts rencontrés lors de l’utilisation du Beta, les suggestions, les améliorations et les recommandations) que vous fournissez à Adobe est par la présente cédé à Adobe. Cela inclut tous les droits, titres et intérêts relatifs à ces commentaires. 
 
 En outre, veuillez toujours faire preuve de jugement pour évaluer la sortie générée et les attributions de source. Les fonctionnalités d’IA génératives de Experience Manager Guides sont basées sur des technologies puissantes et émergentes de modèles de langage volumineux qui peuvent générer des sorties inexactes ou trompeuses, ou qui reflètent d’une autre manière un contenu qui ne représente pas les points de vue d’Adobe.
 

@@ -21,9 +21,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '434'
 ht-degree: 0%
 ---
 # Création et gestion des paramètres prédéfinis de contrôle de l’intégrité
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 En tant qu’administrateur, vous pouvez configurer la fonction de contrôle de l’intégrité au niveau du profil de dossier dans Experience Manager, ce qui permet aux auteurs et aux éditeurs d’exécuter des contrôles de l’intégrité sur un plan DITA. Cela inclut la détection précoce de problèmes tels que des liens rompus, des identifiants en double et des échecs de validation du schéma sur une carte avant la publication, au lieu de vérifier chaque fichier individuellement. Les contrôles exécutés sont définis par un paramètre prédéfini de contrôle de l’intégrité, un ensemble de règles que les auteurs et les éditeurs peuvent sélectionner et exécuter.
 
-Cet article fournit des informations sur la création et la gestion des paramètres prédéfinis de contrôle de l’intégrité.
+La fonctionnalité de contrôle de l’intégrité est disponible dans les deux éditeurs : Nouvel éditeur et Ancien.
 
 ## Création d’un paramètre prédéfini de contrôle de l’intégrité
 
