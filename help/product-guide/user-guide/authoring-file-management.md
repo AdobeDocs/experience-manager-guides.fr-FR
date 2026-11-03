@@ -22,9 +22,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '3213'
+source-wordcount: '3598'
 ht-degree: 0%
 ---
 # Gestion des fichiers et des dossiers {#id2116G0L08XA}
@@ -162,7 +162,7 @@ Pour déplacer des fichiers en bloc, procédez comme suit :
    > Sélectionner <img src="images/info-icon.svg" width="25"> près de n’importe quel champ pour en savoir plus.
 
 
-   - **Ajouter un suffixe aux dossiers en double** : si vous déplacez des dossiers portant le même nom, vous devez sélectionner cette option. Par exemple, dans la capture d’écran précédente, le chemin **&#x200B;**&#x200B;contient le nom des dossiers à déplacer. Le dossier nommé topic existe à deux emplacements différents : test-A et test-B. Lorsque vous sélectionnez cette option, les dossiers sont déplacés avec succès. Le premier dossier déplacé sera nommé topic tandis que le deuxième dossier sera nommé topic0. L’opération de déplacement ajoute un suffixe dans la série séquentielle \(0, 1, 2, etc.\) aux dossiers portant le même nom.
+   - **Ajouter un suffixe aux dossiers en double** : si vous déplacez des dossiers portant le même nom, vous devez sélectionner cette option. Par exemple, dans la capture d’écran précédente, le chemin **** contient le nom des dossiers à déplacer. Le dossier nommé topic existe à deux emplacements différents : test-A et test-B. Lorsque vous sélectionnez cette option, les dossiers sont déplacés avec succès. Le premier dossier déplacé sera nommé topic tandis que le deuxième dossier sera nommé topic0. L’opération de déplacement ajoute un suffixe dans la série séquentielle \(0, 1, 2, etc.\) aux dossiers portant le même nom.
 
      Si vous déplacez des dossiers portant le même nom sans sélectionner cette option, l’opération est abandonnée avec un message.
 
@@ -321,22 +321,73 @@ Si les autorisations de suppression sont accordées à un groupe d’utilisateur
 
 Dans ce scénario, les utilisateurs ne seront pas autorisés à supprimer des fichiers tant que toutes les références entrantes et sortantes n’auront pas été supprimées.
 
-## Utiliser des fichiers multimédias
+## Utiliser des médias et d&#39;autres fichiers non DITA
 
-Les fichiers multimédias tels que les images et les vidéos font partie intégrante de votre contenu. Lorsque vous chargez et gérez votre contenu, vous pouvez également utiliser des fichiers multimédias.
+Les fichiers non DITA, tels que les images, les fichiers multimédias, les fichiers ZIP, les fichiers PDF et les fichiers DOCX, font partie intégrante de votre contenu. Lors du chargement et de la gestion de votre contenu, vous devrez peut-être également vous reporter aux versions précédentes de ces fichiers.
 
-Si votre fichier multimédia a subi des modifications, vous pouvez rechercher et prévisualiser les fichiers dans le fichier **Historique des versions**.Pour connaître les modifications apportées aux différentes versions d’un fichier multimédia :
+Adobe Experience Manager Guides vous permet de prévisualiser des fichiers non DITA, d&#39;afficher leur historique de versions et de gérer les libellés de version. Vous pouvez utiliser les libellés de version pour identifier des versions spécifiques des fichiers pour les versions de contenu et la gestion de base.
+
+Vous pouvez gérer les versions des fichiers non DITA via l’interface utilisateur d’Assets ou directement à partir de l’éditeur.
+
+### Utilisation de l’éditeur
+
+Vous pouvez ouvrir des fichiers non DITA directement dans l’éditeur pour prévisualiser leur contenu et gérer leurs versions sans accéder à l’interface utilisateur d’Assets.
+
+>[!NOTE]
+>
+> Les fichiers non DITA tels que les images, les fichiers multimédias, les fichiers ZIP, les PDF et les fichiers DOCX s&#39;ouvrent en mode non modifiable dans l&#39;éditeur. Vous pouvez afficher leurs versions et gérer les libellés de version, mais vous ne pouvez pas modifier leur contenu directement à partir de l’éditeur.
+
+
+Pour afficher et gérer l&#39;historique des versions et les libellés d&#39;un fichier non DITA, procédez comme suit :
+
+1. Ouvrez l’**Éditeur** et accédez au fichier non DITA requis dans l’Explorateur.
+2. Double-cliquez sur le fichier pour l’ouvrir dans l’éditeur.
+
+   Le fichier s’ouvre dans un nouvel onglet et affiche son aperçu.
+
+   >[!NOTE]
+   >
+   > Pour les fichiers dont le rendu est impossible, une miniature ou un rendu disponible s’affiche dans l’éditeur. Si un aperçu n’est pas disponible, un message d’espace réservé approprié s’affiche.
+
+   Les informations de version actuelle du fichier sélectionné s’affichent dans la [Barre d’outils](./web-editor-toolbar.md).
+
+   ![](images/version-management-non-dita-files-editor.png){width="650" align="center"}
+
+3. Sélectionnez le menu déroulant **Menu** dans la barre d’outils, puis choisissez l’une des options suivantes :
+
+   - **Historique des versions** : ouvre la boîte de dialogue Historique des versions, dans laquelle vous pouvez afficher les versions disponibles du fichier, ainsi que les libellés et commentaires associés. Vous pouvez comparer des versions et revenir à une version antérieure.
+
+   - **Libellé de version** : ouvre la boîte de dialogue Libellé de version dans laquelle vous pouvez sélectionner une version dans la liste déroulante et afficher les libellés associés. Vous pouvez ajouter ou mettre à jour des libellés de version à l’aide des options disponibles. La boîte de dialogue affiche également un aperçu de la version de fichier sélectionnée, le cas échéant.
+
+   Pour plus d’informations, consultez les sections Historique des versions et Libellés de version dans [Barre d’outils de l’éditeur](./web-editor-toolbar.md#menu-dropdown).
+
+4. Apportez les modifications requises aux libellés de version ou vérifiez les informations de version.
+
+### Utilisation de l’interface utilisateur d’Assets
+
+Pour afficher l&#39;historique des versions d&#39;un fichier non DITA, procédez comme suit :
 
 1. Accédez au fichier dans **l’interface utilisateur d’**.
 1. Sélectionnez le fichier pour lequel vous souhaitez afficher l’historique des versions.
 1. Dans le rail de gauche, sélectionnez **Historique des versions** et sélectionnez une version.
 1. Vous pouvez également afficher les miniatures des différentes versions sous Historique des versions.
 
+   Par exemple, l’option de gestion des versions disponible pour un fichier image s’affiche comme suit :
+
    ![](images/media-version-history-icon.png){align="center"}
+
+   De même, l’option de gestion des versions d’un fichier PDF s’affiche comme suit :
+
+   ![](images/pdf-version-management.png){align="center"}
 
 1. Dans la liste des versions, sélectionnez celle que vous souhaitez utiliser comme version de base et sélectionnez **Aperçu de la version**. La prévisualisation de la version sélectionnée s’affiche dans la fenêtre Aperçu de la version .
 
    ![](images/media-version-preview.png){width="650" align="center"}
 
+Vous pouvez également gérer les libellés de version du fichier à partir du panneau Historique des versions .
 
-**Rubrique parente :**&#x200B;[&#x200B; Gérer le contenu](authoring.md)
+
+
+
+
+**Rubrique parente :**[ Gérer le contenu](authoring.md)

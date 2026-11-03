@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '3402'
+source-wordcount: '3665'
 ht-degree: 1%
 ---
 # Configurer les paramètres de génération de sortie {#id181AI0B0E30}
@@ -37,7 +37,7 @@ Les onglets suivants fournissent des instructions pour masquer l&#39;onglet Lign
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration.
 1. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour configurer l’onglet de ligne de base sur le tableau de bord de mappage.
@@ -92,7 +92,7 @@ Les onglets suivants fournissent des instructions pour configurer les propriét�
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Utilisez le gestionnaire de packages pour télécharger le fichier /libs/fmdita/config/templates/default.
 
@@ -154,7 +154,7 @@ Les onglets suivants fournissent des instructions pour configurer l’emplacemen
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md) pour créer le fichier de configuration.
 
@@ -199,7 +199,7 @@ Pour ajouter les métadonnées requises dans le système, procédez comme suit :
 
 1. Cliquez sur le lien Adobe Experience Manager en haut et choisissez **Outils**.
 
-1. Sélectionnez **&#x200B;**&#x200B;dans la liste des outils.
+1. Sélectionnez **** dans la liste des outils.
 
 1. Cliquez sur la mosaïque **Schémas de métadonnées**.
 
@@ -236,7 +236,7 @@ Vous devez ensuite rendre les métadonnées personnalisées disponibles dans la 
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 1. Utilisez le gestionnaire de packages pour accéder au fichier metadataList disponible à l’emplacement suivant de votre référentiel Git Cloud Manager :
 
@@ -362,11 +362,11 @@ AEM Guides fournit la catégorie `apps.fmdita.dashboard-extn` pour la personnali
 
 >[!NOTE]
 >
-> Pour plus d’informations sur la création de la bibliothèque cliente AEM, voir [&#x200B; Utilisation de bibliothèques côté client &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=fr).
+> Pour plus d’informations sur la création de la bibliothèque cliente AEM, voir [ Utilisation de bibliothèques côté client ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
 
 ## Gérer le rendu des images pendant la génération de la sortie {#id177BF0G0VY4}
 
-AEM s’accompagne d’un ensemble de workflows et de descripteurs de médias par défaut destinés au traitement des ressources. Dans AEM, il existe des workflows prédéfinis pour gérer le traitement des ressources pour les types MIME les plus courants. En règle générale, pour chaque image chargée, AEM crée plusieurs rendus de la même image au format binaire. Ces rendus peuvent être de tailles différentes, avec une résolution différente, avec un filigrane ajouté ou une autre caractéristique modifiée. Pour plus d’informations sur la façon dont AEM gère les ressources, voir [Traitement d’Assets à l’aide de gestionnaires de médias et de workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=fr) dans la documentation d’AEM.
+AEM s’accompagne d’un ensemble de workflows et de descripteurs de médias par défaut destinés au traitement des ressources. Dans AEM, il existe des workflows prédéfinis pour gérer le traitement des ressources pour les types MIME les plus courants. En règle générale, pour chaque image chargée, AEM crée plusieurs rendus de la même image au format binaire. Ces rendus peuvent être de tailles différentes, avec une résolution différente, avec un filigrane ajouté ou une autre caractéristique modifiée. Pour plus d’informations sur la façon dont AEM gère les ressources, voir [Traitement d’Assets à l’aide de gestionnaires de médias et de workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) dans la documentation d’AEM.
 
 AEM Guides vous permet de configurer le rendu d’image à utiliser au moment de la génération de la sortie de vos documents. Par exemple, vous pouvez choisir l’un des rendus d’image par défaut ou en créer un et l’utiliser pour publier vos documents. Le mappage de rendu d’image pour la publication de vos documents est stocké dans le fichier `/libs/fmdita/config/ **renditionmap.xml**`. Un extrait de fichier `renditionmap.xml` est le suivant :
 
@@ -423,7 +423,12 @@ Lorsque vous générez une sortie, celle-ci est créée avec les journaux de sor
 
 `/var/dxml/metadata/outputHistory`
 
-Sur une période de temps, la taille collective de tous les fichiers journaux pouvait atteindre Go. AEM Guides vous permet de configurer une période pour conserver ces fichiers journaux dans le référentiel. Au bout de la période spécifiée, les journaux ainsi que l’historique de génération de sortie sont supprimés du référentiel.
+Sur une période de temps, la taille collective de tous les fichiers journaux pouvait atteindre Go. AEM Guides vous permet de contrôler la durée pendant laquelle les journaux et l’historique de génération de sortie sont conservés dans le référentiel. Vous pouvez conserver l’historique de sortie de l’une des manières suivantes :
+
+- **Par âge (par défaut) :** les entrées antérieures au nombre de jours spécifié sont purgées.
+- **Par nombre :** seul le nombre le plus récent d’entrées que vous spécifiez est conservé pour chaque mappage et préréglage. Les entrées plus anciennes sont purgées, quel que soit leur âge.
+
+Vous pouvez également choisir de supprimer l’intégralité de l’entrée de l’historique de sortie ainsi que son journal ou uniquement le journal. Le fait de conserver l’entrée sans son journal vous permet de conserver un enregistrement des sorties générées à des fins d’audit tout en réduisant la taille du référentiel.
 
 >[!NOTE]
 >
@@ -431,22 +436,29 @@ Sur une période de temps, la taille collective de tous les fichiers journaux po
 
 La configuration de la fonction de purge de l&#39;historique a un impact sur la génération de sortie pour tous les plans DITA du référentiel. Dans l&#39;onglet Sorties d&#39;un plan DITA, l&#39;historique est purgé après le nombre de jours spécifié et à l&#39;heure spécifiée dans le paramètre.
 
+
+
 >[!NOTE]
 >
 > La suppression des fichiers journaux et de l’historique de génération de sortie n’a aucun impact sur la sortie générée.
 
-Les onglets suivants fournissent des instructions pour définir un jour et une heure pour purger l’historique de sortie et les journaux en fonction de votre configuration Experience Manager Guides : Cloud Service ou On-Premise.
+Les onglets suivants fournissent des instructions pour configurer la manière dont l’historique de sortie et les journaux sont purgés en fonction de votre configuration Experience Manager Guides : Cloud Service ou On-Premise.
+
+![](assets/purging-history-setting.png){width="600"}
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour définir le jour et l’heure de la purge de l’historique et des journaux de sortie :
 
 | PID | Clé de la propriété | Valeur de la propriété |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager\|output.history.purgeperiod` | Spécifiez le nombre de jours après lesquels l’historique de sortie et les journaux de sortie sont purgés. Si vous souhaitez désactiver cette fonctionnalité, définissez cette propriété sur 0.Everyday à l’heure spécifiée pour l’exécution du processus de purge sur les sorties générées avant le nombre de jours spécifié dans cette propriété. | **Valeur par défaut** : 5 |
-| `output.history.purgetime` | Spécifiez l’heure à laquelle le processus de purge est lancé. | **Valeur par défaut** : 0:00 \(ou 12:00 minuit\) |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgeperiod` | Spécifiez le nombre de jours après lesquels l’historique de sortie et les journaux de sortie sont purgés. Si vous souhaitez désactiver cette fonctionnalité, définissez cette propriété sur 0. Tous les jours, à l’heure spécifiée, le processus de purge est exécuté sur les sorties générées avant le nombre de jours spécifié dans cette propriété. Cette propriété est utilisée uniquement lorsque `output.history.retention.mode` est `AGE`. **Valeur par défaut** : `5` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgetime` | Spécifiez l’heure à laquelle le processus de purge est lancé. Format : `HH:MM` (par exemple, `15:30`). **Valeur par défaut** : `0:00` (ou minuit à 12 h) |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.mode` | Spécifiez la stratégie de rétention pour l’historique de sortie. Les valeurs possibles sont `AGE` et `COUNT`. **Valeur par défaut** : `AGE` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.count` | Spécifiez le nombre d’entrées d’historique de sortie les plus récentes à conserver pour chaque mappage et préréglage. Saisir un entier positif. Cette propriété est utilisée uniquement lorsque `output.history.retention.mode` est `COUNT`. **Valeur par défaut** : `25` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.action` | Indiquez ce qui arrive aux entrées de l’historique de sortie qui sont supprimées par rétention, dans l’un ou l’autre mode. Les valeurs possibles sont `DELETE_ENTRY` et `LOGS_ONLY`. **Valeur par défaut** : `DELETE_ENTRY` |
 
 >[!TAB  On-Premise ]
 
@@ -460,13 +472,19 @@ Suivez les instructions fournies dans [Remplacements de la configuration](downlo
 
 1. Recherchez et cliquez sur le lot **com.adobe.fmdita.config.ConfigManager** et cliquez dessus.
 
-1. Dans la propriété **Période de purge de l’historique de sortie**, indiquez le nombre de jours après lesquels l’historique de sortie et les journaux de sortie sont purgés. Par défaut, elle est définie sur 5 jours. Si vous souhaitez désactiver cette fonctionnalité, définissez cette propriété sur 0.
+1. Dans la propriété **Période de purge de l’historique de sortie**, indiquez le nombre de jours après lesquels l’historique de sortie et les journaux de sortie sont purgés. Par défaut, elle est définie sur 5 jours. Si vous souhaitez désactiver cette fonctionnalité, définissez cette propriété sur 0. Cette propriété est utilisée uniquement lorsque **Mode de conservation de l’historique de sortie** est défini sur **AGE**.
 
-1. Dans la propriété **Heure de purge de l’historique de sortie**, indiquez l’heure à laquelle le processus de purge est lancé. Par défaut, elle est définie sur 0:00 \(ou 12:00 minuit\). Actuellement, le processus de purge s’exécute tous les jours sur les sorties générées avant le nombre de jours spécifié dans la propriété **Période de purge de l’historique de sortie**.
+1. Dans la propriété **Heure de purge de l’historique de sortie**, indiquez l’heure à laquelle le processus de purge est lancé. Par défaut, elle est définie sur 0 h (ou 12 h 00 minuit). Actuellement, le processus de purge s’exécute tous les jours sur les sorties générées avant le nombre de jours spécifié dans la propriété **Période de purge de l’historique de sortie**.
 
    >[!NOTE]
    >
-   > Par défaut, la fonction de purge est exécutée tous les minuits sur les sorties de plus de 5 jours.
+   >Par défaut, la fonction de purge est exécutée tous les minuits sur les sorties de plus de 5 jours.
+
+1. Dans la liste déroulante **Mode de conservation de l’historique de sortie**, sélectionnez la stratégie de conservation. Par défaut, elle est définie sur **AGE**. Les deux modes s’excluent mutuellement.
+
+1. Dans la propriété **Nombre de conservation de l’historique de sortie (par préréglage)** indiquez le nombre d’entrées d’historique de sortie les plus récentes à conserver pour chaque mappage et préréglage. Par défaut, elle est définie sur 25. Cette propriété est utilisée uniquement lorsque **Mode de conservation de l’historique de sortie** est défini sur **COUNT**.
+
+1. Dans la liste déroulante **Action de conservation de l’historique de sortie**, sélectionnez ce qui arrive aux entrées qui sont supprimées par la conservation. Par défaut, il est défini sur **DELETE_ENTRY**.
 
 1. Cliquez sur **Enregistrer**.
 
@@ -478,7 +496,7 @@ Vous pouvez modifier le nombre maximal de sorties générées affichées dans l&
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB ]
 
 Suivez les instructions fournies dans [Remplacements de la configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails \(property\) suivants pour modifier le nombre de sorties à afficher dans la liste :
 

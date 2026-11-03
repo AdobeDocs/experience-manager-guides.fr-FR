@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '11296'
+source-wordcount: '11329'
 ht-degree: 0%
 ---
 # Panneau de gauche de l’éditeur
@@ -79,9 +79,9 @@ Certaines des fonctionnalités du panneau de gauche sont disponibles dans la sec
 - [Révision](#review)
 
 
-Une option supplémentaire intitulée **&#x200B;**&#x200B;s’affiche également dans le panneau de gauche si Adobe Workfront est configuré.
+Une option supplémentaire intitulée **** s’affiche également dans le panneau de gauche si Adobe Workfront est configuré.
 
-Pour plus d’informations, consultez Intégration de [&#128279;](./workfront-integration.md).
+Pour plus d’informations, consultez Intégration de [](./workfront-integration.md).
 
 >[!NOTE]
 >
@@ -216,7 +216,7 @@ Sélectionnez l’icône **Filtrage avancé** ![icône de filtre avancé](images
 
 Vous pouvez afficher les options suivantes sous les onglets **Général** et **Avancé**.
 
-![&#x200B; boîte de dialogue filtre avancé &#x200B;](images/repository-filter-search-advanced.png) {width="650"}
+![ boîte de dialogue filtre avancé ](images/repository-filter-search-advanced.png) {width="650"}
 
 
 **Général**
@@ -859,7 +859,8 @@ Par exemple, vous pouvez créer des groupes de conditions de produits tels que *
 
 >[!NOTE]
 >
-> Saisissez pour créer un groupe ou sélectionnez un groupe existant pour un attribut particulier.
+> - Saisissez pour créer un groupe ou sélectionnez un groupe existant pour un attribut particulier.
+> - Les conditions du panneau Conditions sont triées par ordre alphabétique en fonction de leur libellé plutôt que de leur valeur. L’ordre de tri est déterminé par les libellés attribués aux conditions, quelles que soient leurs valeurs correspondantes.
 
 Vous pouvez utiliser des `/` et définir des sous-groupes tels que `AEM Guides/Cloud Service`.
 
@@ -1071,7 +1072,7 @@ Vous pouvez également appliquer des valeurs à un attribut en sélectionnant pl
 >[!ENDTABS]
 
 
-Vue Source **&#x200B;**
+Vue Source ****
 
 Vous pouvez également modifier les valeurs à partir de la liste déroulante de l’attribut dans la vue Source. La vue Source vous empêche également d’ajouter une valeur incorrecte.
 
@@ -1159,7 +1160,7 @@ Pour savoir comment créer des modèles personnalisés, consultez la section [Cr
 
 Dans Experience Manager Guides, vous pouvez ajouter et importer des citations et les appliquer à votre contenu. Vous pouvez ajouter ces citations à partir de n’importe quelle source de livres, de sites web et de revues.
 
-Pour plus d’informations, consultez la section [&#x200B; Ajouter et gérer des citations dans votre contenu &#x200B;](./web-editor-apply-citations.md).
+Pour plus d’informations, consultez la section [ Ajouter et gérer des citations dans votre contenu ](./web-editor-apply-citations.md).
 
 ## Variables de langue
 
@@ -1352,7 +1353,7 @@ Vous pouvez également utiliser l&#39;option **Rechercher dans la carte** du men
 
 ## Modèles PDF
 
-Permet d’utiliser divers modèles PDF. Pour plus de détails, consultez [les modèles &#x200B;](../native-pdf/pdf-template.md).
+Permet d’utiliser divers modèles PDF. Pour plus de détails, consultez [les modèles ](../native-pdf/pdf-template.md).
 
 ## Révision
 
@@ -1413,4 +1414,4 @@ Pour afficher les commentaires de révision dans les tâches de révision active
 
 </details>
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

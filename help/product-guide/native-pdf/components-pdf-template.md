@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '5049'
+source-wordcount: '5098'
 ht-degree: 0%
 ---
 # Composants d’un modèle PDF {#components-pdf-template}
@@ -287,14 +287,17 @@ Vous pouvez définir le texte à afficher avant et après la coupure. Par exempl
   >[!NOTE]
   >
   > Lors de l’utilisation d’une variable de langue dans le champ **Texte avant la coupure** ou **Texte après la coupure**, assurez-vous que l’intégralité du texte est définie dans une seule variable de langue. Le texte ou la variable ajouté en dehors de la variable de langue dans ces champs n’est pas rendu. Par exemple, au lieu d’utiliser une combinaison de variables telles que `${lng:Continued-from-page} %page-num%` dans le champ **Texte après saut**, utilisez uniquement des `${lng:Continued-from-page}` dans le champ et définissez séparément la valeur de la variable de langue `Continued-from-page` sur `Continued-from-page %page-num%`.
-* **Lier les termes du glossaire à la page du glossaire** : sélectionnez cette option pour afficher les termes du glossaire sous forme de liens hypertexte dans le contenu et les lier aux termes de la page du glossaire. Cela permet aux lecteurs de consulter rapidement la définition d’un terme défini dans le glossaire.
+* **Lier les termes du glossaire à la page du glossaire** : activez cette option pour afficher les termes du glossaire sous forme de liens hypertexte dans le contenu et les lier aux termes de la page du glossaire. Cela permet aux lecteurs de consulter rapidement la définition d’un terme défini dans le glossaire.
 
   Pour convertir les termes du glossaire en liens hypertexte, vous devez effectuer les opérations suivantes :
   * Activez **Glossaire** dans l&#39;onglet **Ordre de mise en page** pour un plan DITA.
   * Ajoutez le glossaire dans les pages Back Matter pour une carte Livre.
 
   Si vous n’activez pas la page Glossaire, les termes du glossaire dans le contenu ne sont pas convertis en liens hypertexte dans la sortie PDF.
-  <!--For more information on using table continuation markers, see Use table continuation markers.-->
+
+* **Afficher toutes les entrées du glossaire** : activez cette option pour inclure chaque entrée du glossaire définie dans le mappage, que le terme correspondant soit référencé ou non dans votre contenu. Par défaut, cette option est désactivée et seuls les termes du glossaire réellement utilisés dans votre contenu sont inclus dans la page du glossaire.
+
+<!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### Mises en page {#page-layouts}
 
@@ -502,11 +505,11 @@ Par exemple, vous pouvez ajouter une variable de langue « reference-label » et
 Lorsque vous ajoutez des `${lng:<variable name>}` à la section Paragraphe, les références croisées dans les paragraphes de la sortie contiennent le texte localisé et le numéro de page.\
 Par exemple, les captures d’écran ci-dessous montrent les références croisées « Afficher sur la page 1 » en anglais et « Einzelheiten finden Sie auf der Seite 1 » en allemand.
 
-<img src="./assets/english-output-corss-reference.png" alt="Sortie en anglais d&apos;une référence croisée dans un pragrah&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="Sortie en anglais d&apos;une référence croisée dans un pragrah" width ="800" border="2px">
 
 *Référence croisée dans un paragraphe lorsqu’il est publié en langue anglaise.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Sortie allemande d&apos;une référence croisée dans un pragrah&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="Sortie allemande d&apos;une référence croisée dans un pragrah" width ="800" border="2px">
 
 *Référence croisée dans un paragraphe lorsqu’il est publié en allemand.*
 

@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 2eb766dc53b23f750dd6eb232ab21025b0c0c46d
 workflow-type: tm+mt
-source-wordcount: '2378'
-ht-degree: 1%
+source-wordcount: '2804'
+ht-degree: 0%
 ---
 # Paramètres de Workspace
 
@@ -51,27 +51,27 @@ L’option **Paramètres** présente dans la barre d’onglets [de l’éditeur]
 
 ## Général
 
-Les paramètres Général vous permettent de configurer les paramètres pour utiliser l’éditeur. Cet onglet contient cinq sections : **Assistant IA**, **Création**, **Citations**, **Condition** et **Vérification orthographique**.
+Les paramètres Général vous permettent de configurer les paramètres pour utiliser l’éditeur. Cet onglet contient : **Fonctionnalités d’IA**, **Assistant d’aide de l’IA**, **Création**, **Citations**, **Condition**,**Éditeur HTML**, **Contenu d’apprentissage** et **Vérification orthographique**.
 
 ![](assets/editor-setting-general-agentic.png){width="350"}
 
-- **Assistant IA**
+- **Fonctionnalités d’IA**
 
   >[!NOTE]
   >
   > Pour utiliser le mode Agentic de la fonctionnalité Assistant d’IA dans votre environnement, contactez l’équipe du succès client.
 
-  Sélectionnez cette option pour activer la fonctionnalité [Assistant IA](../user-guide/ai-assistant.md) dans Experience Manager Guides. Désélectionnez cette option pour désactiver la fonction.
+  Sélectionnez cette option pour activer la fonction Assistant AI dans Experience Manager Guides. Désélectionnez cette option pour désactiver la fonction.
 
-  AI Assistant est disponible dans deux modes : **Agentic** et **Standard**. Vous pouvez choisir entre les deux modes en activant les bascules correspondantes.
+  AI Assistant est disponible dans deux modes : **Agentic** et **Standard**. Vous pouvez choisir entre les deux modes en activant les boutons radio respectifs.
 
-  - **Agentic** : après avoir activé cette option, vous pourrez accéder à la fonctionnalité Assistant IA agentic à partir de la barre de navigation de la page d’accueil et de la barre de tabulation de l’interface de l’éditeur. Pour plus d’informations sur la manière de générer des balises suggérées par l’IA pour les rubriques, consultez [Utiliser l’assistant AI en mode Agence](../user-guide/ai-assistant-agentic.md).
+  - **Agentic** : après avoir activé cette option, vous pouvez accéder à l’assistant IA agentic à partir de la barre de navigation de l’application Experience Manager Guides. Vous pouvez également configurer les espaces de noms de taxonomie utilisés par la compétence Balisage intelligent pour générer des recommandations de balises. L’assistant AI prend en compte uniquement les balises des espaces de noms sélectionnés, en fonction des balises définies dans AEM. Pour plus d’informations, consultez la section [Mode agent dans l’assistant AI](../user-guide/ai-assistant.md#ai-assistant-modes).
 
-  ![](assets/agentic-ai-workspace.png){width="350"}
+    ![](assets/agentic-new.png){width="350"}
 
-  - **Standard** : après avoir activé le bouton (bascule) **Standard**, vous pouvez configurer les options qui apparaissent sous l’onglet **Création** pour les auteurs à l’aide du menu **Actions rapides de création** comme illustré ci-dessous.
+  - **Standard** : après avoir activé l’option **Standard**, vous pouvez configurer les options qui apparaissent sous le menu **Actions rapides de création** comme illustré ci-dessous.
 
-    Ces modifications s’appliquent au profil de dossier spécifique que vous utilisez. Si vous créez un profil de dossier, il héritera des paramètres Workspace définis dans le profil de dossier **global** par défaut. Vous pouvez modifier ces paramètres selon vos besoins à l&#39;aide des paramètres **&#x200B;**&#x200B;et enregistrer la configuration mise à jour.
+    Ces modifications s’appliquent au profil de dossier spécifique que vous utilisez. Si vous créez un profil de dossier, il héritera des paramètres Workspace définis dans le profil de dossier **global** par défaut. Vous pouvez modifier ces paramètres selon vos besoins à l&#39;aide des paramètres **** et enregistrer la configuration mise à jour.
 
     Pour obtenir un aperçu détaillé des options disponibles pour la création à l’aide de l’assistant AI, consultez la page [Créer des documents de manière intelligente avec l’assistant AI](../user-guide/ai-assistant-right-panel.md).
 
@@ -82,6 +82,8 @@ Les paramètres Général vous permettent de configurer les paramètres pour uti
   - modifiez l’ordre dans lequel les options s’affichent, faites-les glisser et déposez-les selon vos besoins.
 
   ![](assets/authoring-quick-actions-standard.png){width="350"}
+
+- **Assistant d’aide de l’IA** : cette fonctionnalité est désactivée par défaut. Activez cette fonctionnalité pour accéder au panneau Assistant d’aide à partir des interfaces Page d’accueil, Éditeur et Console de mappage. L’assistant d’aide vous permet de poser des questions sur les fonctionnalités, les workflows et le dépannage de Experience Manager Guides et fournit des réponses pertinentes basées sur la documentation du produit. Pour plus d’informations, voir [Aide dynamique](../user-guide/ai-based-smart-help.md).
 
 - **Création**
 
@@ -109,13 +111,32 @@ Les paramètres Général vous permettent de configurer les paramètres pour uti
 
   - **Vérification orthographique du navigateur** : par défaut, l’éditeur utilise la fonctionnalité de vérification orthographique du navigateur, dans laquelle la vérification orthographique est effectuée à l’aide du dictionnaire intégré du navigateur.
 
-  - **Vérification orthographique d’AEM** : vous pouvez passer à la vérification orthographique d’AEM pour utiliser le dictionnaire Adobe Experience Manager, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section [&#x200B; Personnaliser le dictionnaire par défaut d’AEM &#x200B;](../install-conf-guide/customize-aem-default-dictionary.md).
+  - **Vérification orthographique d’AEM** : vous pouvez passer à la vérification orthographique d’AEM pour utiliser le dictionnaire Adobe Experience Manager, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section [ Personnaliser le dictionnaire par défaut d’AEM ](../install-conf-guide/customize-aem-default-dictionary.md).
 
     >[!NOTE]
     >
     > La vérification orthographique d’AEM utilise la langue sélectionnée dans la propriété de langue du fichier. Si la langue n’est pas spécifiée pour le fichier, la vérification orthographique retourne à la langue du serveur AEM.
     >Pour garantir des résultats de vérification orthographique précis, le dictionnaire de la langue sélectionnée doit être disponible dans AEM. Si le dictionnaire requis pour la langue configurée n’est pas disponible, la vérification orthographique prend par défaut la valeur `en_us`.
+- **Contenu d’apprentissage** : ce paramètre vous permet d’activer ou de désactiver la fonctionnalité de contenu de formation et d’apprentissage du produit pour votre instance Experience Manager Guides. Utilisez le bouton (bascule) **Activer le contenu d’apprentissage** pour activer ou désactiver la fonctionnalité au niveau du profil du dossier. Par défaut, cette fonctionnalité reste désactivée pour toutes les instances.
 
+  En savoir plus sur la fonctionnalité [Formation et contenu d’apprentissage du produit](../learning-content/intro.md).
+
+  Les fonctionnalités/options suivantes ne sont disponibles que lorsque le paramètre Contenu de formation est activé :
+
+  - **Création de cours** : permet d’activer des options de création et de gestion de cours à partir de l’éditeur et de la page d’accueil.
+  - **Modèles SCORM** : permet d’activer l’option de création de modèles SCORM sous *Modèles de sortie* dans l’éditeur.
+  - **Modèles de contenu et paramètres prédéfinis de sortie** : active les options de configuration Modèles de contenu et Paramètres prédéfinis de sortie dans la boîte de dialogue Paramètres Workspace.
+
+Lorsque le contenu d’apprentissage est désactivé, toutes les options ci-dessus ne sont plus disponibles dans l’interface de Experience Manager Guides.
+
+Pour plus d’informations, consultez [Configuration des profils de dossier](../lc-config-guide/lc-folder-profile.md).
+
+- **Éditeur HTML** : pour le contenu d’apprentissage, ce paramètre vous permet de configurer l’éditeur pour la création basée sur HTML. Les principales options de configuration de ce paramètre sont les suivantes :
+
+  - **Masquer le style intégré** : activez cette option pour empêcher les auteurs d’appliquer un formatage en ligne au contenu du cours. Lorsqu’elles sont activées, toutes les options de style intégrées telles que Polices, Bordure, Disposition, Arrière-plan et Colonnes présentes dans le panneau de droite de l’éditeur restent masquées pour les auteurs. Cependant, les créateurs peuvent toujours utiliser les options de style globales basées sur les classes disponibles dans le panneau **Styles**. Cela permet de maintenir la cohérence avec les directives de style de votre organisation.
+  - **Masquer la vue Source pour les auteurs** : activez cette option pour restreindre l’accès au code source HTML. Cela s’avère utile si vous souhaitez simplifier l’expérience de modification ou éviter des modifications accidentelles du code sous-jacent.
+
+  Pour plus d’informations, consultez [création et personnalisation de contenu d’apprentissage](../learning-content/lc-overview.md).
 
 ## Panneaux
 
@@ -181,6 +202,12 @@ Contient les profils qui peuvent être utilisés pour publier la sortie **Base d
   - Sélectionnez les portées OAuth suivantes :
     - Accès complet (complet)
     - Sélectionnez Gérer les données utilisateur via les API (api) .
+    - Exécuter des requêtes à tout moment (refresh_token, offline_access)
+
+    >[!NOTE]
+    >
+    >- Pour utiliser la clé de vérification pour l’échange de code (PKCE), ajoutez des `Perform requests at any time` aux portées. Contactez également l’équipe du succès client pour activer cette fonctionnalité.
+    >- Activez le paramètre **Exiger une clé de vérification pour l’extension d’échange de code (PKCE) pour les flux d’autorisation pris en charge** dans l’application connectée à Salesforce. PKCE empêche l’échange d’un code d’autorisation intercepté contre un jeton d’accès, ce qui rend la connexion entre Experience Manager Guides et Salesforce plus sécurisée.
 
     Une fois l’application configurée, Salesforce fournit une **Clé du client** et **Secret du client**. Ils peuvent être utilisés pour créer le profil Salesforce.
 
@@ -212,9 +239,9 @@ Configurez le serveur ServiceNow pour charger les ressources.
 
 - Pour créer un profil, sélectionnez la base de connaissances ServiceNow dans le menu déroulant **Type de serveur**. Saisissez un profil **Nom**. Dans l’URL **ServiceNow**, saisissez le site client que vous utiliseriez pour publier la sortie, puis ajoutez les **Nom d’utilisateur** et **Mot de passe** fournis par le site client ServiceNow. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
 
-  ![Profil de publication ServiceNow &#x200B;](../user-guide/images/service-now-publish-profile.png){width="550"}
+  ![Profil de publication ServiceNow ](../user-guide/images/service-now-publish-profile.png){width="550"}
 
-  Après la validation, vous pouvez sélectionner le profil de publication dans les paramètres prédéfinis de sortie d&#39;un plan DITA et l&#39;utiliser pour générer la sortie vers le serveur **&#x200B;**&#x200B;ou **ServiceNow** que vous avez choisi.
+  Après la validation, vous pouvez sélectionner le profil de publication dans les paramètres prédéfinis de sortie d&#39;un plan DITA et l&#39;utiliser pour générer la sortie vers le serveur **** ou **ServiceNow** que vous avez choisi.
 
   En savoir plus sur le paramètre prédéfini de sortie [Base de connaissances](../user-guide/generate-output-knowledge-base.md).
 
@@ -234,7 +261,7 @@ Cet onglet contient des options pour configurer les validations de schémas dans
 
   Cela empêche les utilisateurs d’enregistrer tout fichier qui enfreint une règle définie dans le ou les fichiers de schéma sélectionnés. Si cette option n’est pas sélectionnée, le fichier ne sera pas validé avant d’enregistrer les modifications.
 
-- **Autoriser tous les utilisateurs à ajouter des fichiers Schematron dans le panneau de validation** : sélectionnez cette option pour autoriser les utilisateurs à ajouter n’importe quel fichier Schematron dans le panneau Validation de l’éditeur. Cela permet aux utilisateurs d’ajouter des fichiers Schematron, puis de valider les rubriques par rapport au fichier Schematron. Si cette option n’est pas sélectionnée, l’option permettant d’ajouter un fichier de schéma **Ajouter un fichier de schéma** n’est pas disponible pour les utilisateurs dans le panneau **Validation** de l’éditeur.
+- **Autoriser tous les utilisateurs à ajouter des fichiers Schematron dans le panneau de validation** : sélectionnez cette option pour autoriser les utilisateurs à ajouter n’importe quel fichier Schematron dans le panneau Validation de l’éditeur. Cela permet aux utilisateurs d’ajouter des fichiers Schematron, puis de valider les rubriques par rapport au fichier Schematron. Si cette option n’est pas sélectionnée, le bouton **Ajouter un fichier de schéma** n’est pas disponible pour les utilisateurs dans le panneau **Validation** de l’éditeur.
 
   ![Validation dans les paramètres de l’espace de travail](../user-guide/images/editor-setting-validation.png){width="550"}
 

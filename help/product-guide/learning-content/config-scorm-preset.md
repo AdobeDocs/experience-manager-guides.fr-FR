@@ -18,13 +18,11 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: dbb138a7804d102d1b9aa9cfbc3564e827ef199e
+source-git-commit: 6b1f5e5a0264c340240a52e59c1d0e5c093fed50
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '1066'
 ht-degree: 0%
-
 ---
-
 # Configuration du paramètre prédéfini de sortie SCORM
 
 Une fois le paramètre prédéfini créé, configurez-le. Les options de configuration prédéfinies sont organisées sous les onglets Général, Contenu, Expérience de l’élève et Publication.
@@ -74,6 +72,41 @@ Une fois le paramètre prédéfini créé, configurez-le. Les options de configu
 
     - **Ordre aléatoire des questions pour chaque tentative** : affiche les questions du quiz dans un ordre différent pour chaque tentative, ce qui contribue à réduire la prévisibilité.
     - **Randomiser les choix de réponses pour chaque tentative** : mélange les options de réponse pour chaque question à chaque tentative, ce qui réduit les chances de deviner.
+
+  - **Création de rapports** : utilisez ces paramètres pour déterminer à quel moment l’achèvement du cours et le statut réussite/échec sont publiés dans Adobe Learning Manager (ALM).
+
+    ![Paramètres de reporting](assets/reporting-scorm.png)
+
+    - **Fin de cours** : définit le moment où le cours est marqué comme terminé et publié dans ALM.
+
+      - **Marquer le cours comme terminé au lancement** : marque le cours comme terminé pour l’élève dès qu’il est lancé. L’élève n’est pas tenu d’interagir avec du contenu. Cette option est rarement nécessaire, mais elle est disponible si votre workflow l’exige.
+      - **En fonction des sujets terminés** : marque le cours comme terminé une fois que l’élève a atteint un **pourcentage** ou **nombre** spécifié de sujets terminés. Choisissez l’unité, le pourcentage ou le nombre qui correspond à la façon dont vous souhaitez définir le seuil d’achèvement.
+      - **En fonction du quiz noté** : marque le cours comme étant terminé en fonction du statut du quiz de l’élève, sélectionné dans la liste déroulante :
+
+        - **Quiz noté tenté**
+        - **quiz évalué réussi**
+        - **Quiz noté réussi ou limite de tentative atteinte**
+
+      Lorsque les options **Basé sur les rubriques terminées** et **Basé sur le quiz évalué** sont activées, utilisez le sélecteur **AND**/**OR** pour définir la manière dont les deux conditions se combinent :
+
+      - **AND** : les deux conditions doivent être vraies.
+      - **OR** : l’une ou l’autre des conditions est suffisante.
+
+    - **Succès ou échec du cours** : définit le moment où le statut de réussite ou d’échec est publié dans ALM. Le signalement d’un statut de réussite ou d’échec est facultatif.
+
+      - **Signaler un statut de réussite ou d’échec à LMS** : désactivez cette option si vous ne souhaitez pas que le statut de réussite/échec soit publié dans ALM. Lorsqu’elles sont désactivées, les options restantes de ce groupe sont masquées.
+      - **Marquer le cours comme réussi au lancement** : marque le cours comme réussi pour l’élève dès son lancement.
+      - **En fonction des sujets terminés** : marque le cours comme terminé une fois que l’élève a atteint un **pourcentage** ou **nombre** spécifié de sujets terminés. Choisissez l’unité, le pourcentage ou le nombre qui correspond à la façon dont vous souhaitez définir le seuil d’achèvement.
+      - **En fonction du quiz noté** : marque la réussite ou l’échec du cours en fonction du statut du quiz de l’élève, sélectionné dans la liste déroulante
+
+        - Quiz noté tenté
+        - Quiz noté réussi
+
+      Lorsque les options **Basé sur les rubriques terminées** et **Basé sur le quiz évalué** sont activées, utilisez le sélecteur **AND**/**OR** pour les combiner, comme décrit ci-dessus.
+
+    >[!NOTE]
+    >
+    >Par défaut, ces paramètres correspondent au comportement précédent : achèvement à 100 % des rubriques terminées et réussite en fonction de la réussite du quiz évalué et de la fin de 100 % des rubriques. Cela s’applique aux nouveaux paramètres prédéfinis SCORM et aux paramètres prédéfinis existants. Par conséquent, rien ne change pour les cours existants, sauf si vous reconfigurez ces paramètres.
 
 - **Publier dans LMS :** utilisez ce paramètre pour publier votre contenu directement dans Adobe Learning Manager (ALM). Dans la liste déroulante **Serveur de publication**, sélectionnez **Adobe Learning Manager**, puis choisissez le **Profil de publication** requis précédemment configuré dans les paramètres de Workspace. Le profil sélectionné est utilisé pour établir la connexion et charger le contenu généré vers AEM.
 

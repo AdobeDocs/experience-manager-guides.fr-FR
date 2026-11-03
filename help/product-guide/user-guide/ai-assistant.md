@@ -24,18 +24,18 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
+source-git-commit: 082688d62ed871fa52947e5152df35575b622164
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '773'
 ht-degree: 0%
 ---
-# Assistant AI (Beta)
-
-L’**assistant AI** d’Adobe Experience Manager Guides est un puissant outil piloté par l’IA qui a été conçu pour améliorer votre productivité grâce à des fonctionnalités intelligentes d’aide, de création et de balisage. En mode **Standard**, il rassemble deux puissantes fonctionnalités d’IA : **Création** et **Aide** dans l’interface de Experience Manager Guides, ce qui vous permet de créer du contenu et d’accéder plus rapidement et plus efficacement aux informations de la documentation de Experience Manager Guides. En mode **Agentic**, l’assistant AI propose plutôt le **balisage intelligent**, qui vous permet de demander, par le biais d’une fenêtre d’invite de conversation, des recommandations de balises pour votre contenu et de les appliquer à une ou plusieurs rubriques.
+# Assistant IA
 
 >[!NOTE]
 >
 > La fonctionnalité Assistant AI est actuellement disponible pour Adobe Experience Manager Guides as a Cloud Service.
+
+L’assistant AI d’Adobe Experience Manager Guides est un outil optimisé par l’IA conçu pour améliorer la productivité en simplifiant les workflows de création, de gestion et de création de contenu. Il propose deux modes : Agentic et Standard. En **mode Agence**, l’assistant d’IA vous permet d’effectuer des tâches liées au contenu par le biais d’interactions en langage naturel, avec des compétences telles que l’importation, la création et le balisage intelligent afin de rationaliser la création de contenu, l’organisation et la gestion des métadonnées. En **mode standard**, l’assistant AI fournit une aide à la création qui vous permet de créer, d’affiner et de gérer le contenu plus efficacement.
 
 ## Modes de l’assistant AI
 
@@ -43,43 +43,48 @@ L’**assistant AI** d’Adobe Experience Manager Guides est un puissant outil p
 >
 >Pour activer l’assistant AI en mode Agence pour votre environnement, contactez l’équipe du succès client.
 
-AI Assistant est disponible dans deux modes : **Agentic** et **Standard**. Les administrateurs peuvent choisir entre les deux modes dans la section **Assistant IA** de l’onglet **Général** dans les paramètres de **Workspace**. Le panneau de l’assistant d’IA reste le même dans les deux modes de l’éditeur, mais les fonctionnalités disponibles diffèrent :
+AI Assistant est disponible dans deux modes : **Agentic** et **Standard**. Les administrateurs peuvent sélectionner ce mode dans la section **Fonctionnalités d’IA** de l’onglet **Général** dans les paramètres de **Workspace**. Le panneau de l’assistant d’IA dans l’éditeur reste le même dans les deux modes, mais les fonctionnalités disponibles diffèrent :
 
-* Le mode **Agentic** utilise les compétences **Balisage intelligent** d’Adobe CX Enterprise Coworker pour analyser votre contenu et recommander des balises pertinentes en fonction de la taxonomie de votre organisation.
-* Le mode **Standard** fournit l’expérience de l’assistant AI existant, avec les onglets **Aide** et **Création** dans le panneau de l’assistant AI.
+- **Mode agent :** utilise des compétences **Importer**, **Créer** et **Balisage intelligent** pour convertir des fichiers en rubriques structurées, créer un premier brouillon de contenu et recommander des balises pertinentes en fonction de la taxonomie de votre entreprise.
+- **Mode standard :** fournit une aide à la création optimisée par l’IA au moyen d’actions contextuelles, telles que la réutilisation du contenu, la traduction et l’amélioration de la qualité du contenu, afin de rationaliser les workflows de création.
 
 ## Mode agent
 
-### Balisage intelligent
+>[!NOTE]
+>
+> Pour utiliser l’assistant AI en mode Agence, votre entreprise doit être intégrée à Adobe CX Enterprise Coworker et disposer de crédits disponibles. Une fois l’intégration effectuée, contactez votre équipe du succès client pour activer la fonctionnalité. Pour plus d’informations sur la configuration, voir [Configurer l’assistant AI en mode agent](../install-conf-guide/configure-ai-assistant-agentic-mode-cs.md).
 
-L’assistant d’IA en mode Agence accélère et facilite le balisage de votre contenu par le biais d’une fenêtre d’invite de conversation. Grâce aux compétences de balisage intelligent dynamique d’Adobe CX Enterprise Coworker, l’assistant AI recommande des balises pertinentes pour votre contenu lorsque vous le demandez. Pour garder le contrôle, examinez les balises suggérées et choisissez de les appliquer à une ou plusieurs rubriques, y compris plusieurs rubriques dans une carte.
+Le mode Agent de l’assistant AI vous permet d’effectuer un large éventail de tâches liées au contenu par le biais d’interactions en langage naturel, telles que la création et l’importation de contenu, la synthèse des rubriques, l’ajout de rubriques aux cartes et la gestion des métadonnées. Vous pouvez décrire vos besoins dans le panneau de conversation. L’assistant AI planifie et exécute des tâches tout en offrant une visibilité sur leur progression. Le mode Agence permet d’accéder rapidement aux compétences suivantes :
 
-Pour plus d’informations, consultez la section [Prise en main de l’assistant IA dédiée aux agences](./ai-assistant-agentic.md).
+- **Importer** : permet de convertir des fichiers PDF, Word ou Markdown de votre appareil ou référentiel de contenu en rubriques structurées. Pour plus d’informations, consultez [Importer du contenu avec l’assistant AI](./import-ai-assistant.md).
 
-![assistant ia - Balisage intelligent](./images/suggested-prompts.png)
+- **Créer** : génère des brouillons de rubriques et de cartes à partir de matériaux d’entrée tels que des spécifications, des images de tableau blanc, des captures d’écran et d’autres contenus de référence, avec la possibilité d’utiliser du contenu existant pour le ton et le style. Pour plus d’informations, voir [Créer du contenu avec l’assistant AI](./create-ai-assistant.md).
+
+- **Balisage intelligent** : recommande des balises pertinentes pour les rubriques en fonction de la taxonomie de votre organisation afin d’améliorer la cohérence des métadonnées. Pour plus d’informations, consultez la section [Balisage intelligent avec l’assistant AI](./ai-assistant-agentic.md).
+
+Les composants suivants du panneau de l’assistant d’IA vous permettent d’ajouter du contenu, de saisir des invites et de démarrer des tâches :
+
+![assistant ia - Balisage intelligent](./images/panel-new-agentic.png)
+
+- **(A)** Historique des conversations : affichez et rouvrez les conversations précédentes pour consulter les demandes et réponses précédentes.
+- **(B)** Plein écran : développe le panneau de l’assistant d’IA en plein écran.
+- **(C)** Espace d’invite : saisissez une demande d’invite ou saisissez `/` pour ajouter des fichiers et générer des balises.
+- **(D)** Joindre des fichiers ou ajouter du contexte : permet d’ajouter des rubriques, des cartes ou des fichiers à partir de votre système local pour fournir le contenu avec lequel l’assistant AI travaille.
+- **(E)** Envoyer : envoyez votre invite et le contenu joint à l’assistant AI.
+- **(F)** Actions rapides : démarrez une tâche directement à partir de l’un des raccourcis suivants : **Importer**, **Créer** ou **Balise**.
 
 ## Mode standard
 
-### Création
+Le mode standard rend votre processus de création plus intelligent et plus rapide. Lorsque vous sélectionnez du texte dans l’éditeur, l’assistant d’IA propose des actions rapides, telles que la génération de suggestions intelligentes pour la réutilisation du contenu, la traduction du contenu, l’amélioration de la qualité du contenu, etc., le tout en fonction du contenu que vous avez sélectionné. Cela améliore l’expérience globale de création et la productivité des créateurs et des créatrices.
 
-Lorsque l’assistant AI est configuré en mode **Standard**, la fonctionnalité **Création** de l’assistant AI rend votre processus de création plus intelligent et plus rapide. Il propose des fonctionnalités telles que la génération de suggestions intelligentes pour la réutilisation du contenu, la traduction du contenu, l’amélioration de la qualité du contenu, etc., le tout en fonction du contenu que vous avez sélectionné. Cette fonctionnalité améliore l’expérience globale de création et la productivité des créateurs et des créatrices.
-
-Pour plus d’informations, voir [Création](./ai-assistant-right-panel.md).
+Pour plus d’informations, consultez la section [Créer des documents avec l’assistant AI](./ai-assistant-right-panel.md).
 
 ![assistant ia](./images/ai-assistant-panel.png)
 
-### Aide
 
-Lorsque l’assistant AI est configuré en mode **Standard**, la fonctionnalité **Aide** offre une expérience intuitive basée sur les conversations qui vous aide à comprendre Experience Manager Guides, à résoudre les problèmes et à trouver des informations dans la documentation d’Adobe Experience Manager Guides. Au lieu d’effectuer des recherches dans des guides de l’utilisateur et des documents de référence, vous pouvez utiliser la fonction **Aide** pour trouver rapidement des réponses pertinentes à vos requêtes. Cela vous permet de gagner du temps et de vous concentrer sur la création de contenu, ce qui se traduit par une productivité et une efficacité accrues.
+## Commencer avec l’assistant IA
 
-Pour plus d’informations, voir [Aide](./ai-based-smart-help.md).
-
-
-![Panneau d’aide dynamique](images/smart-help-panel.png)
-
-## Prise en main de l’assistant AI en mode standard
-
-Lorsque vous utilisez l’assistant **AI** en mode standard pour la première fois, vous êtes invité à envoyer votre consentement avant d’utiliser les fonctionnalités de l’IA générative Experience Manager Guides.
+Lorsque vous utilisez l’assistant **AI** pour la première fois, vous êtes invité à envoyer votre consentement avant d’utiliser les fonctionnalités de l’IA générative Experience Manager Guides.
 
 Pour lancer l’assistant AI, procédez comme suit :
 
@@ -87,10 +92,11 @@ Pour lancer l’assistant AI, procédez comme suit :
 1. Sur la page d’accueil, sélectionnez **Assistant AI** dans la partie supérieure. Assurez-vous que votre administrateur a activé la fonction Assistant AI dans le mode souhaité.
 
 L’assistant AI affiche les fonctionnalités clés, un lien destiné aux utilisateurs et un bouton **Commencer**.
-
-![Panneau d’aide dynamique](images/get-started-ai.png)
-
 Lisez attentivement les directives d’utilisation, puis sélectionnez **Commencer** pour lancer l’assistant d’IA.
+
+>[!NOTE]
+>
+>Si vous avez déjà consenti aux instructions pour l’utilisation de la fonction Assistant d’aide, vous ne serez pas invité à donner à nouveau votre consentement et pourrez continuer à utiliser la fonction Assistant d’IA.
 
 **Rubriques connexes**
 

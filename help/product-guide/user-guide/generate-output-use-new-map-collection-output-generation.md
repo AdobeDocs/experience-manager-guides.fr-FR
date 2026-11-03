@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1589'
 ht-degree: 0%
 ---
 # Utiliser une nouvelle collection de cartes pour la génération de sortie
@@ -101,7 +101,8 @@ Vous obtenez une liste de toutes les cartes souhaitées avec le titre de la cart
 
 >[!NOTE]
 >
-> Lorsqu’un grand nombre de mappages est ajouté à une collection de mappages, les onglets Mappages et paramètres prédéfinis affichent un maximum de quatre mappages à la fois, avec les paramètres prédéfinis associés. Une vue paginée est fournie au bas de l’écran, ce qui permet aux utilisateurs et aux utilisatrices de naviguer entre les pages et d’accéder à des mappages et des paramètres prédéfinis supplémentaires. Si vous sélectionnez un mappage ou un paramètre prédéfini, la sélection est conservée lors de la navigation dans les mappages et paramètres prédéfinis restants sur différentes pages.
+>- Lorsqu’une collection contient de nombreux mappages, l’onglet Mappages et paramètres prédéfinis affiche un maximum de quatre mappages à la fois, avec leurs paramètres prédéfinis. Les copies traduites d’un mappage sont répertoriées comme des entrées distinctes et sont incluses dans ce nombre. Les mappages et leurs traductions peuvent donc être distribués sur plusieurs pages. Utilisez les commandes de pagination en bas de l’écran pour passer d’une page à l’autre. Vos sélections sont conservées pendant la navigation.
+>- Le tri s’applique uniquement aux résultats affichés sur la page active. La collection complète n’est pas réorganisée sur plusieurs pages. Pour rechercher des mappages spécifiques dans l’ensemble de la collection, utilisez les filtres décrits dans la section Options de filtrage .
 
 ![Onglets Mappages et paramètres prédéfinis](./images/maps-presets-tab.png)
 
@@ -109,8 +110,8 @@ L’onglet **Mappages et paramètres prédéfinis** présente des informations s
 
 - **Paramètre prédéfini** : affiche le type de paramètre prédéfini de sortie configuré sur le fichier map.
 - **Ligne de base** : affiche la ligne de base utilisée par le paramètre prédéfini de sortie.  Si aucune ligne de base n&#39;est utilisée, un trait d&#39;union s&#39;`-`.
-- **Modifié depuis la génération** : indique si le plan DITA est mis à jour après la génération. En fonction de ces informations, vous pouvez décider de publier ou non la sortie de ce plan DITA.
-- **Modifié depuis la publication** : indique si le plan DITA est mis à jour après la dernière publication. En fonction de ces informations, vous pouvez décider de republier ou non la sortie de ce plan DITA.
+- **Modifié depuis la génération** : indique que la carte peut avoir changé depuis la dernière génération de sa sortie pour ce préréglage. Vous pouvez l’utiliser pour décider de régénérer la sortie.
+- **Modifié depuis la publication** : indique que la carte a été mise à jour depuis la dernière publication de sa sortie. Vous pouvez l’utiliser pour décider de republier la sortie.
 - **Dernière sortie générée** : affiche la date et l’heure de la dernière sortie générée.
 - **Dernière publication** : affiche la date et l’heure de la dernière sortie publiée.
 
@@ -212,4 +213,4 @@ Les propriétés de métadonnées sont mises à jour en bloc pour les plans DITA
 Les propriétés de métadonnées sont synchronisées avec les propriétés du fichier. Une fois que vous les avez mis à jour, vous pouvez les afficher à partir du panneau **Propriétés du fichier** dans l’éditeur.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)
+**Rubrique parente :**[ Génération de sortie](generate-output.md)

@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1613'
 ht-degree: 0%
 ---
 # Commentaires de révision d’adresse {#id2056B0X0KBI}
@@ -130,9 +130,10 @@ Les utilisateurs identifiés reçoivent à la fois un e-mail et une notification
 
 **Accéder aux commentaires de révision à l’aide de l’interface utilisateur de révision**
 
-Si vous êtes l’initiateur ou l’auteur d’une tâche de révision et que vous l’ouvrez à partir de la console **Projets**, la rubrique se lance dans l’interface utilisateur de révision. Comme cette tâche ne vous est pas affectée, vous pouvez afficher les commentaires et y répondre, mais vous ne pouvez effectuer aucune action de révision. La barre d’outils des commentaires reste désactivée pour les utilisateurs qui ne sont pas affectés à la tâche.
+En tant qu’initiateur d’une tâche de révision, vous pouvez ouvrir la tâche de révision dans l’**interface utilisateur de révision** pour afficher les commentaires des réviseurs et y répondre. Vous pouvez également ajouter des commentaires sur les rubriques de la tâche de révision afin de fournir un contexte supplémentaire ou d’attirer l’attention des réviseurs et des réviseuses sur un contenu spécifique.
 
-![](images/review-comments-toolbar-disabled.png){width="350"}
+Pour plus d’informations, voir [Ajouter des commentaires pour les réviseurs](./review-send-topics-for-review.md#add-comments-for-reviewers).
+
 
 ## Afficher toutes les tâches de révision pour une rubrique
 
@@ -157,4 +158,4 @@ Lors de l’utilisation de cette fonctionnalité, notez que :
 - Le filtrage et la recherche s’appliquent uniquement aux commentaires de la tâche que vous avez sélectionnée ; les commentaires des autres tâches non sélectionnées ne sont pas affectés.
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de la révision](review.md)
+**Rubrique parente :**[ Présentation de la révision](review.md)

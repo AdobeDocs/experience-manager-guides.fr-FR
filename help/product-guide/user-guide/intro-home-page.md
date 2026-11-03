@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 18996443646923fcf9db06c020ecbdd94b8a9564
+source-git-commit: b98bb66df096e0915c5d3c810b1c4b46d8473add
 workflow-type: tm+mt
-source-wordcount: '2380'
+source-wordcount: '2450'
 ht-degree: 0%
 ---
 # Expérience de la page d’accueil de Experience Manager Guides
@@ -46,7 +46,7 @@ La barre de navigation affiche des outils permettant de changer de navigation, d
 >
 > Si vous utilisez Adobe Experience Manager Guides as a Cloud Service, une fonctionnalité supplémentaire intitulée **Assistant AI** s’affiche dans la barre de navigation.
 
-![](images/aem-home-nav-bar.png)
+![](images/aem-home-nav-bar-new.png)
 
 Les fonctionnalités disponibles dans la barre de navigation sont expliquées comme suit :
 
@@ -60,17 +60,18 @@ Les fonctionnalités disponibles dans la barre de navigation sont expliquées co
   >
   > Pour utiliser le mode Agentic de la fonctionnalité Assistant d’IA dans votre environnement, contactez l’équipe du succès client. Une fois la fonctionnalité activée, les administrateurs et administratrices peuvent l’activer ou la désactiver dans Paramètres Workspace. Un seul mode de l’assistant d’IA peut être activé à la fois : agent ou standard.
 
-  - **Agentic** : apporte des compétences de balisage intelligent, agentiques et intelligentes d’Adobe CX Enterprise Coworker dans l’éditeur, ce qui permet un balisage de contenu naturel et conversationnel. Il analyse votre contenu, vous recommande des balises pertinentes et vous aide à appliquer des métadonnées cohérentes et précises avec un effort minimal. Vous pouvez vérifier les balises suggérées et choisir de les appliquer ou de les rejeter avant de confirmer votre sélection. [Utiliser l’assistant d’IA en mode agence](../user-guide/ai-assistant-agentic.md) simplifie le processus de balisage, améliorant l’organisation du contenu et la visibilité.
+  - **Agentic** : le mode Agentic de l’assistant d’IA vous permet d’accomplir des tâches liées au contenu par le biais d’interactions en langage naturel. Vous pouvez décrire vos besoins dans le panneau de conversation. L’assistant AI planifie et exécute des tâches tout en offrant une visibilité sur sa progression. Il prend en charge des compétences telles que l’importation, qui convertit les fichiers PDF, Word ou Markdown de votre appareil ou référentiel de contenu en rubriques structurées ; la création, qui génère de nouvelles rubriques en fonction de vos besoins et peut référencer le contenu existant pour le ton et le style ; et le balisage intelligent, qui recommande des balises pertinentes en fonction de la taxonomie de votre entreprise afin d’améliorer la cohérence des métadonnées.
 
-  - **Standard** : puissant outil optimisé par l’IA, conçu pour améliorer votre productivité grâce à des fonctionnalités d’aide intelligentes. De plus, lorsque vous travaillez dans l’interface de l’éditeur, vous pouvez tirer parti des fonctionnalités de création intelligente de l’assistant AI qui rendent votre processus de création plus intelligent et plus rapide grâce à des suggestions intelligentes de réutilisation et d’optimisation du contenu.
+  - **Standard** : puissant outil optimisé par l’IA, conçu pour améliorer votre productivité grâce aux fonctionnalités de création intelligentes de l’assistant AI, qui rend votre processus de création plus intelligent et plus rapide grâce à des suggestions intelligentes de réutilisation et d’optimisation du contenu.
 
   La fonctionnalité [Assistant AI](./ai-assistant.md) n’est actuellement disponible que pour Adobe Experience Manager as a Cloud Service.
 
+- **Assistant d’aide** : l’**assistant d’aide** de Experience Manager Guides est une fonctionnalité de recherche conversationnelle générative optimisée par l’IA qui vous aide à trouver des informations sur les fonctionnalités des produits, les workflows et le dépannage. Il fournit des réponses pertinentes basées sur la documentation de Experience Manager Guides, prend en charge les questions de suivi et inclut des liens vers des articles sources pour référence ultérieure. Pour plus d’informations, consultez [Amélioration de l’efficacité avec l’assistant Aide](./ai-based-smart-help.md).
 - **Personnaliser la section de présentation** : permet de masquer ou d’afficher les widgets dans la section Widgets.
 - **Profil de dossier en cours d’utilisation** : affiche le profil de dossier actuellement utilisé.
 - **Autres actions** : permet d’accéder à des options supplémentaires. Si vous sélectionnez ce bouton, un menu s’ouvre avec les options suivantes :
 
-  - **&#x200B;**&#x200B;: vous dirige vers une destination en fonction de votre configuration.
+  - **** : vous dirige vers une destination en fonction de votre configuration.
     - **Services cloud** : si vous utilisez des services cloud, la sélection de l’option **Assets** vous conduit à la page de navigation d’AEM.
 
     - **Logiciel On-premise** : si vous utilisez Adobe Experience Manager Guides (4.2.1 et versions ultérieures), la sélection de l’option **Assets** vous conduit au chemin d’accès actuel au fichier dans l’interface utilisateur d’Assets.
@@ -182,9 +183,9 @@ Le référentiel sert de hub centralisé pour découvrir facilement les dossiers
 
 >[!NOTE]
 >
->Vous pouvez utiliser la nouvelle fonctionnalité Collections de cartes d’Adobe Experience Manager Guides as a Cloud Service à partir de la version 2026.08.0, qui combine la gestion des cartes et la publication en masse dans une interface unifiée. Contactez votre équipe du succès client pour activer cette fonctionnalité.En savoir plus sur [à l’aide de la nouvelle collection de cartes.](./generate-output-use-new-map-collection-output-generation.md)
+>Vous pouvez utiliser la nouvelle fonctionnalité Collections de cartes d’Adobe Experience Manager Guides as a Cloud Service à partir de la version 2026.08.0, qui combine la gestion des cartes et la publication en masse dans une interface unifiée. Contactez votre équipe du succès client pour activer cette fonctionnalité. En savoir plus sur [à l’aide de la nouvelle collection de cartes.](./generate-output-use-new-map-collection-output-generation.md)
 
-Experience Manager Guides vous permet d’organiser votre contenu pour publication à l’aide d’un tableau de bord appelé **Collections de cartes**. Pour utiliser cette fonctionnalité, sélectionnez **Mapper des collections** dans le panneau de gauche. Elle vous mène à la page Mapper les collections dans l’interface utilisateur **&#x200B;**&#x200B;où vous pouvez [utiliser la collection de mappages pour la génération de sortie.](./generate-output-use-map-collection-output-generation.md)
+Experience Manager Guides vous permet d’organiser votre contenu pour publication à l’aide d’un tableau de bord appelé **Collections de cartes**. Pour utiliser cette fonctionnalité, sélectionnez **Mapper des collections** dans le panneau de gauche. Elle vous mène à la page Mapper les collections dans l’interface utilisateur **** où vous pouvez [utiliser la collection de mappages pour la génération de sortie.](./generate-output-use-map-collection-output-generation.md)
 
 ### Publication en bloc
 

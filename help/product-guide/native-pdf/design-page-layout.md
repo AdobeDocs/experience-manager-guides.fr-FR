@@ -30,9 +30,9 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '5089'
+source-wordcount: '5425'
 ht-degree: 0%
 ---
 # Conception d’une mise en page {#design-page-layout}
@@ -56,7 +56,7 @@ Un document PDF contient généralement les sections suivantes :
 * Index
 * Page précédente
 
-Ces sections auraient besoin d’une mise en page correspondante pour présenter les informations dans un format spécifique. En outre, vous pouvez également utiliser une page vierge comme remplissage pour commencer un nouveau chapitre à partir d’une page paire ou impaire. Dans ce cas, vous pouvez utiliser la mise en page par défaut ou créer une mise en page pour une page vierge. Pour plus d’informations[&#128279;](components-pdf-template.md#create-page-layout) voir Créer une mise en page.
+Ces sections auraient besoin d’une mise en page correspondante pour présenter les informations dans un format spécifique. En outre, vous pouvez également utiliser une page vierge comme remplissage pour commencer un nouveau chapitre à partir d’une page paire ou impaire. Dans ce cas, vous pouvez utiliser la mise en page par défaut ou créer une mise en page pour une page vierge. Pour plus d’informations](components-pdf-template.md#create-page-layout) voir [Créer une mise en page.
 
 Les paramètres des mises en page de la section **Modèle>Paramètres** vous permettent de définir la mise en page à utiliser pour les différentes sections de votre PDF. Chaque mise en page peut en outre comporter différentes variantes de première, de droite ou de gauche.
 
@@ -481,6 +481,60 @@ Si vous souhaitez travailler directement avec le code CSS et HTML, vous pouvez �
 </p>
 …
 ```
+
+### Ajout d’une image à partir des métadonnées de carte
+
+Si vous utilisez le même modèle pour publier plusieurs cartes, vous pouvez afficher une image différente pour chaque carte au lieu d’une image statique à partir des ressources du modèle. Par exemple, si vos produits partagent un modèle et ne diffèrent que par l’image de couverture, vous pouvez ajouter un espace réservé pour l’image à la mise en page de la page de couverture. Lorsque vous publiez un mappage, l’espace réservé est remplacé par l’image définie dans les métadonnées de ce mappage. La publication de Map 1 affiche l’image définie dans Map 1, et la publication de Map 2 affiche l’image définie dans Map 2. Si une image ne peut pas être résolue, le texte d’espace réservé que vous spécifiez s’affiche à la place.
+
+Vous pouvez définir l&#39;image dans l&#39;élément `<bookmeta>` d&#39;un bookmap ou dans l&#39;élément `<topicmeta>` d&#39;un plan DITA. Seul l’élément `<image>` est pris en charge. Tous les formats d’image pris en charge par Experience Manager Guides peuvent être utilisés, notamment GIF, JPG, BMP, PNG, SVG et TIFF.
+
+Pour afficher une image à partir d’une carte :
+
+1. Définissez l’image sur votre carte, comme illustré dans les exemples suivants.
+
+   Dans un bookmap, ajoutez l&#39;image dans l&#39;élément `<bookmeta>` :
+
+   ```xml
+   <bookmeta>
+     <metadata>
+       <data><image href="media/cover.png" id="cover-image"/></data>
+     </metadata>
+   </bookmeta>
+   ```
+
+   Dans un plan DITA, ajoutez l&#39;image dans l&#39;élément `<topicmeta>` :
+
+   ```xml
+   <topicmeta>
+     <data><image href="images/cover.png" id="cover-image"/></data>
+   </topicmeta>
+   ```
+
+   >[!NOTE]
+   >
+   >L&#39;élément `<image>` doit avoir un attribut `id`. Le `id` est obligatoire et doit être unique pour chaque image dans la carte.
+
+1. Dans **Modèles de sortie**, ouvrez la mise en page dans laquelle vous souhaitez ajouter l’espace réservé pour l’image, par exemple la mise en page de garde.
+
+1. Sélectionnez **Champs** dans les **Autres options**.
+
+1. Dans l’onglet **Métadonnées**, sélectionnez **Ajouter un format**.
+
+1. Spécifiez les détails suivants :
+
+   1. Dans **Utiliser les métadonnées de**, sélectionnez **Mapper le contenu**.
+   1. Saisissez le XPath de l&#39;image ou le XPath de son attribut `href`.
+   1. Saisissez le format souhaité.
+   1. Saisissez le texte d’espace réservé à afficher si l’image n’est pas résolue.
+   1. Sélectionnez **OK**.
+
+1. (*Facultatif*) Utilisez les **Feuilles de style** pour appliquer un style aux images. Les styles CSS sont pris en charge pour l’élément image.
+
+1. Générez la sortie PDF.
+
+>[!NOTE]
+>
+>Si vous mettez à jour l’image dans l’interface utilisateur d’Assets, elle sera utilisée la prochaine fois que vous générerez la sortie PDF.
 
 ## Utiliser la zone de contenu {#content-area}
 

@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '445'
 ht-degree: 0%
 ---
 # Présentation de la révision {#id1645H6010Q5}
@@ -42,6 +42,8 @@ Voici quelques-unes des principales fonctionnalités offertes par Adobe Experien
 - Partagez une version mise à jour de la rubrique à réviser à partir du tableau de bord de révision.
 
 - Accéder aux commentaires partagés sur différentes versions de la rubrique.
+- Ajouter des commentaires aux rubriques pour fournir un contexte ou attirer l&#39;attention des réviseurs sur un contenu spécifique.
+
 - Balisez facilement les utilisateurs d’une tâche de révision spécifique dans les commentaires ou les réponses pour une action et des suivis rapides. Les utilisateurs identifiés sont immédiatement avertis par AEM et par e-mail.
 - Regroupez et filtrez les commentaires en fonction de la version de la rubrique.
 

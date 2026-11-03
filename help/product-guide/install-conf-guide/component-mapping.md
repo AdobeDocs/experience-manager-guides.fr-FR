@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1140'
 ht-degree: 0%
 ---
 # Mappage des composants pour AEM Sites
@@ -171,9 +171,30 @@ Exemples :
 ]
 ```
 
-Définissez l’élément et la classe à cibler, utilisez `attributeMap` pour définir les propriétés du nœud, ajoutez une entrée de `path-attributes` pour normaliser les chemins d’accès et sélectionnez le `from` approprié pour les valeurs que vous souhaitez extraire. L’`heroimage` utilisé ci-dessus est un composant d’un site `we-retail`.
+Définissez l’élément et la classe à cibler, utilisez `attributeMap` pour définir les propriétés du nœud, ajoutez une entrée de `path-attributes` pour normaliser les chemins d’accès et sélectionnez le `from` approprié pour les valeurs que vous souhaitez extraire. L’`heroimage` utilisé ci-dessus est un composant d’un site `we-retail`.  Il est important de discuter du texte enrichi par défaut et d’identifier les éléments pour lesquels il est utilisé.
 
-**Remarque** : il est important de discuter du texte enrichi par défaut et d’identifier les éléments pour lesquels il est utilisé.
+
+## Propage les métadonnées du prologue à l’en-tête de la page
+
+Lorsque vous générez une sortie AEM Sites avec mappage de composant, les métadonnées du prologue, telles que l’auteur, les mots-clés et l’identifiant de ressource, sont ajoutées au corps de la page AEM Sites générée au lieu de l’en-tête de la page.
+
+Pour propager les métadonnées de prologue à l’en-tête des pages de sortie, ajoutez le mappage suivant au fichier de mappage de composant :
+
+```json
+{
+  "name": "div",
+  "class": "prolog",
+  "resourceType": "guides-components/components/prolog",
+  "attributeMap": [
+    {
+      "from": "outerHTML",
+      "to": "prologContent"
+    }
+  ]
+}
+```
+
+Après avoir ajouté ce mappage, les métadonnées de prologue sont disponibles dans l’en-tête des pages générées. Cela prend en charge des cas d’utilisation tels que l’indexation de recherche.
 
 ## Créer un composant personnalisé
 

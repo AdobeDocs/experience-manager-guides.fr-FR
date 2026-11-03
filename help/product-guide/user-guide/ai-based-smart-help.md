@@ -20,36 +20,32 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ae9ac69745555aa3683e0a6a648f6519377dd6d7
+source-git-commit: 3aa727853173c89eb63ffa09f4caec92f6dff911
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 0%
 ---
-# Améliorez l’efficacité avec l’aide intelligente dans l’assistant AI (Beta)
+# Amélioration de l’efficacité avec l’assistant d’aide
 
->[!NOTE]
->
->Cette fonctionnalité est disponible pour l’assistant AI en mode standard.
-
-Experience Manager Guides fournit l’aide intelligente basée sur GenAI, une fonctionnalité de recherche conversationnelle qui vous aide à trouver le contenu approprié à partir de la [documentation Adobe Experience Manager Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/overview).
+Experience Manager Guides fournit l’aide intelligente basée sur GenAI, une fonctionnalité de recherche conversationnelle qui vous aide à trouver le contenu approprié à partir de la [documentation Adobe Experience Manager Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro).
 
 Vous pouvez poser vos questions et obtenir des réponses d&#39;une manière informative. La réponse à votre requête est basée sur le contenu de la documentation du produit . Cette recherche est entièrement conversationnelle. Vous pouvez poser des questions sur les différentes fonctionnalités de Experience Manager Guides ou choisir de poser des requêtes de dépannage. En fonction de la réponse, vous pouvez également poser d’autres questions. La réponse inclut également des liens vers les documents sources, auxquels vous pouvez vous reporter pour plus de détails.
 
 Par exemple, vous pouvez poser des questions telles que *Comment publier une carte ?* Vous obtenez une réponse et les liens pour les articles associés. Ensuite, si vous souhaitez apprendre à utiliser une méthode spécifique pour publier la sortie, vous pouvez poser des questions à son sujet. Par exemple, *Comment publier une carte sur PDF ?*
 
-Lorsque vous ouvrez l’**assistant AI** sur la page d’accueil, la console de cartes ou l’éditeur, le panneau **Aide** s’ouvre à droite. Dans le cas de l’éditeur, le panneau Création s’affiche également pour vous offrir des fonctionnalités de création dynamique. Pour plus d’informations, consultez [Assistant AI pour créer des documents de manière intelligente](./ai-assistant-right-panel.md)
+>[!NOTE]
+>
+>Lorsque vous utilisez l’assistant d’aide pour la première fois, vous êtes invité à donner votre consentement avant d’accéder aux fonctionnalités de l’IA générative Experience Manager Guides. Si vous avez déjà donné votre consentement pour les instructions d’utilisation de la fonctionnalité Assistant AI, vous ne serez pas invité à nouveau et pourrez continuer à utiliser l’assistant Aide sans consentement supplémentaire.
 
-![Panneau d’aide dynamique](images/smart-help-panel.png){width="300"}
+Pour utiliser le panneau **Assistant d’aide** afin de trouver le contenu approprié et de résoudre vos requêtes, procédez comme suit :
 
-*Afficher le panneau **Aide**.*
-
-Pour utiliser le panneau d’aide afin de trouver le contenu approprié et de résoudre vos requêtes, procédez comme suit :
-
-1. Sélectionnez **Assistant AI** pour ouvrir le panneau Aide.
+1. Sélectionnez l’icône **Assistant d’aide** pour ouvrir le panneau de l’assistant Aide.
 
    >[!NOTE]
    >
    > Dans les [profils globaux ou au niveau du dossier](../cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant), votre administrateur ou administratrice doit définir les questions par défaut qui apparaissent dans le panneau.
+
+   ![Panneau d’aide dynamique](images/smart-help-panel-new.png){width="300"}
 
 1. Saisissez la question pour rechercher le contenu associé dans la documentation de Experience Manager Guides. Vous pouvez sélectionner la question par défaut dans le panneau ou saisir votre question dans la zone de texte.
 
@@ -69,15 +65,18 @@ Pour utiliser le panneau d’aide afin de trouver le contenu approprié et de r�
 
 Au lieu d’effectuer des recherches dans des guides de l’utilisateur et des documents de référence, vous pouvez utiliser la fonction **Aide** pour trouver rapidement des réponses pertinentes à vos requêtes. Cela vous permet de gagner du temps et de vous concentrer sur la création de contenu, ce qui se traduit par une productivité et une efficacité accrues.
 
-## Options disponibles pour les réponses d’aide de l’assistant AI
+## Options disponibles pour les réponses de l’aide
 
-Lorsque vous recevez une réponse de l’assistant AI dans le panneau **Aide**, vous pouvez interagir avec celle-ci ou fournir des commentaires afin d’améliorer sa précision et sa fiabilité. Vos commentaires aident l’équipe de Experience Manager Guides à améliorer la précision et la pertinence des réponses des assistants d’IA, améliorant ainsi ses performances au fil du temps.
+Lorsque vous recevez une réponse de l&#39;assistant d&#39;aide dans le panneau **Assistant d&#39;aide**, vous pouvez interagir avec celle-ci ou fournir des commentaires afin d&#39;améliorer sa précision et sa fiabilité. Vos commentaires aident l’équipe Experience Manager Guides à améliorer la précision et la pertinence des réponses, ce qui améliore ses performances au fil du temps.
 
-Les options suivantes sont disponibles pour discuter ou fournir des commentaires sur les réponses fournies par le panneau de l’assistant AI **Aide** :
+Les options suivantes sont disponibles pour discuter ou fournir des commentaires sur les réponses fournies par le panneau **Assistant d’aide** :
 
 ![](images/ai-assistant-response-options.png){width="300"}
 
 - **Copier** : copiez la réponse à utiliser dans vos documents.
 - **Comme** : indiquez que la réponse a été utile ou précise. Sélectionnez l’icône J’aime pour aimer la réponse et utilisez l’option **En savoir plus** pour fournir des commentaires détaillés.
-- **Je n’aime pas** : marquez la réponse comme inutile ou incorrecte. Sélectionnez l’icône Je n’aime pas pour recevoir la réponse et utilisez l’option **En savoir plus** pour fournir des commentaires détaillés.
+  ![](images/feedback-help.png){width="300"}
+- **Je n’aime pas** : marquez la réponse comme inutile ou incorrecte. Sélectionnez l’icône Je n’aime pas pour recevoir la réponse et utilisez l’option **En savoir plus** pour fournir des commentaires détaillés.\
+  ![](images/dislike-help.png){width="300"}
 - **Rapport** : marquez la réponse pour révision si elle contient des erreurs ou un contenu inexact. Sélectionnez l’icône d’indicateur pour ouvrir la boîte de dialogue **Résultats du rapport**. Faites votre choix parmi les options disponibles ou fournissez un retour d’informations personnalisé.
+  ![](images/report-help.png){width="300"}

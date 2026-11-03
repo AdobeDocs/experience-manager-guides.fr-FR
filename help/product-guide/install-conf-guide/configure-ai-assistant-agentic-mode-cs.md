@@ -9,9 +9,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: f936d474c6efcea89b244ccd25e03b065a478250
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '437'
 ht-degree: 2%
 ---
 
@@ -21,7 +21,7 @@ En tant qu’administrateur, vous pouvez configurer l’assistant AI en mode Age
 
 ## Prérequis
 
-Votre organisation doit être intégrée à **&#x200B;**&#x200B;avant de configurer l’assistant AI en mode Agentic.
+Votre organisation doit être intégrée à **** avant de configurer l’assistant AI en mode Agentic.
 
 ## Configuration de l’assistant d’IA en fonction de votre environnement
 
@@ -74,4 +74,4 @@ Pour ajouter la configuration IMS à l’environnement, procédez comme suit :
 
 Une fois la configuration de votre environnement terminée, contactez l’équipe du succès client pour activer le mode Agent.
 
-Lorsque le mode Agentic est activé pour votre environnement, accédez aux paramètres de **&#x200B;**&#x200B;puis activez le bouton bascule **Agentic** sous l’onglet **Général** de la section **Assistant IA**.
+Lorsque le mode Agentic est activé pour votre environnement, accédez aux paramètres de **** puis activez l’option **Agentic** sous l’onglet **Général** de la section **Fonctionnalités d’IA**. Pour plus d&#39;informations, consultez les paramètres de [](../install-conf-guide/workspace-settings.md).

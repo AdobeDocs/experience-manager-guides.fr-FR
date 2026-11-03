@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '872'
 ht-degree: 0%
 ---
 # Utiliser le moteur PDF natif v2
@@ -102,3 +102,4 @@ Les problèmes suivants dans la sortie PDF générée à l’aide de _Native PDF
 - L’ordre de lecture du contenu dans la sortie PDF native avec les paramètres d’accessibilité activés est incorrect. Les numéros de page des pieds de page sont lus avant le contenu principal et non à la fin. (GUIDES-27790)
 - La barre de couleurs dans la sortie Native PDF ne s’étend pas sur toute la largeur de la page et se chevauche lorsque la taille de la page est personnalisée, ce qui masque certaines zones de couleur. (GUIDES-15505)
 - Le sélecteur `CSS:is()pseudo-class` n’est pas respecté dans la sortie PDF native, ce qui entraîne des différences de style par rapport au rendu du navigateur. (GUIDES-11328)
+- Certains caractères chinois (simplifiés) sont rendus à l’aide d’une police japonaise dans la sortie Native PDF, même si la langue de sortie est définie sur Chinois (zh-CN). (GUIDES-48094)

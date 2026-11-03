@@ -17,12 +17,12 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ae9ac69745555aa3683e0a6a648f6519377dd6d7
+source-git-commit: 01ef49b5e26c31359559d9849e6726f704393cd7
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1067'
 ht-degree: 0%
 ---
-# Créer des documents de manière intelligente avec l’assistant AI (Beta)
+# Créer des documents de manière intelligente avec l’assistant AI
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Adobe Experience Manager Guides fournit un outil d’assistant d’IA qui vous a
 
 >[!NOTE]
 >
-> Cette fonctionnalité de création est disponible uniquement pour les rubriques DITA et n&#39;est accessible qu&#39;à partir de l&#39;interface de l&#39;éditeur. Sur la page d’accueil et la console Carte, seul le panneau **Aide** s’affiche. Les options disponibles dans la fonction Création sont configurées au niveau du profil du dossier par les administrateurs à l’aide des paramètres de Workspace.
+> Cette fonctionnalité de création est disponible uniquement pour les rubriques DITA et n&#39;est accessible qu&#39;à partir de l&#39;interface de l&#39;éditeur. Sur la page d’accueil et la console Carte . Les options disponibles dans la fonction Création sont configurées au niveau du profil du dossier par les administrateurs à l’aide des paramètres de Workspace.
 
 Après avoir sélectionné le texte d’une rubrique, vous pouvez choisir d’effectuer l’une des actions de l’assistant AI :
 
@@ -41,7 +41,7 @@ Après avoir sélectionné le texte d’une rubrique, vous pouvez choisir d’ef
 ## Suggérer du contenu réutilisable
 
 
-Utilisez la fonction **Suggérer du contenu réutilisable** ![ai Suggérer une icône &#x200B;](./images/ai-suggest-reusable-content-icon.svg) de contenu réutilisable pour créer du contenu de manière cohérente et précise. Vous pouvez sélectionner le contenu et Experience Manager Guides fournit des suggestions sur la manière de réutiliser le contenu existant dans votre référentiel.
+Utilisez la fonction **Suggérer du contenu réutilisable** ![ai Suggérer une icône ](./images/ai-suggest-reusable-content-icon.svg) de contenu réutilisable pour créer du contenu de manière cohérente et précise. Vous pouvez sélectionner le contenu et Experience Manager Guides fournit des suggestions sur la manière de réutiliser le contenu existant dans votre référentiel.
 En savoir plus sur l’utilisation de suggestions intelligentes optimisées par [IA pour créer du contenu](authoring-ai-based-smart-suggestions.md).
 
 

@@ -31,14 +31,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '541'
 ht-degree: 0%
 ---
 # Utiliser des libellés {#id164JBG0M0T1}
 
-Adobe Experience Manager Guides vous permet d’ajouter des libellés à différentes versions d’un fichier. Vous pouvez utiliser ces libellés pour spécifier la version à inclure dans une ligne de base pour la publication. Pour plus d&#39;informations sur l&#39;utilisation des libellés pour créer une ligne de base, voir [Utilisation d&#39;une ligne de base](generate-output-use-baseline-for-publishing.md#).
+Adobe Experience Manager Guides vous permet d’ajouter des libellés à différentes versions d’un fichier. Vous pouvez utiliser les libellés de version pour spécifier la version d&#39;une rubrique que vous souhaitez inclure dans une [ligne de base](./generate-output-use-baseline-for-publishing.md) pour la publication et pour [gérer les versions des fichiers non DITA](./authoring-file-management.md#work-with-media-and-other-non-dita-files) tels que les images, les fichiers multimédias, les fichiers PDF et les fichiers ZIP.
 
 Par exemple, si vous souhaitez utiliser *version 1.0* d’une rubrique dans *version 1.0* et *version 1.1* de la même rubrique dans *version 2.0*, vous pouvez ajouter le libellé *version 1.0* au libellé *version 1.0* et *version 2.0* au libellé *version 1.1*.
 
@@ -104,4 +104,4 @@ Pour supprimer un libellé de version d’une rubrique, utilisez le bouton **Sup
 ![](images/delete-labels.png){width="300"}
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation de l’éditeur](web-editor.md)
+**Rubrique parente :**[ Présentation de l’éditeur](web-editor.md)

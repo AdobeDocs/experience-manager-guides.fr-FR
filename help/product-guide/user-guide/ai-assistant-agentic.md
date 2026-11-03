@@ -9,49 +9,25 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 01ef49b5e26c31359559d9849e6726f704393cd7
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1086'
 ht-degree: 0%
 ---
 
-# Utilisation de l’assistant AI en mode Agence
+# Balisage intelligent avec l’assistant AI
 
->[!NOTE]
->
-> AI Assistant en mode Agentic est disponible dans Experience Manager Guides as a Cloud Service à partir de la version 2026.09.0. Votre entreprise doit être intégrée à CX Enterprise Coworker. Une fois l’intégration effectuée, contactez votre équipe du succès client pour activer la fonctionnalité. Pour plus d’informations sur la configuration, voir [Configurer l’assistant AI en mode agent](../install-conf-guide/configure-ai-assistant-agentic-mode-cs.md).
+La compétence Balisage intelligent, disponible en mode Agence de l’assistant AI via Adobe CX Enterprise Coworker, rend le balisage de votre contenu plus rapide, plus facile et plus cohérent. Il analyse votre contenu et recommande des balises pertinentes en fonction de la taxonomie de votre entreprise, ce qui élimine la nécessité de réviser manuellement le contenu et d’identifier les balises applicables. Votre administrateur peut configurer les taxonomies utilisées pour générer des recommandations de balises via les paramètres [](../install-conf-guide/workspace-settings.md#general) en sélectionnant les espaces de noms appropriés pour votre espace de travail.
 
-L’assistant d’IA en mode Agence rend le balisage de votre contenu plus rapide, plus facile et plus cohérent. Grâce aux compétences de balisage intelligent d’Adobe CX Enterprise Coworker, l’assistant AI analyse votre contenu et recommande des balises pertinentes en fonction de la taxonomie de votre entreprise, au lieu de lire manuellement le contenu pour décider des balises à appliquer. Pour garder le contrôle, examinez les balises suggérées et choisissez de les appliquer ou de les rejeter avant de confirmer votre sélection, ce qui réduit les efforts manuels, améliore la précision des balises et garantit la cohérence des métadonnées dans l’ensemble de la documentation.
+Vous gardez le contrôle en examinant les balises suggérées et en choisissant de les appliquer ou de les rejeter avant de confirmer votre sélection. Cela réduit les efforts manuels, améliore la précision du balisage et permet de maintenir des métadonnées cohérentes dans l’ensemble de votre documentation.
 
-## Panneau de l’assistant AI
-
-Le panneau de l’assistant d’IA fournit tous les outils dont vous avez besoin pour générer, réviser et appliquer les balises suggérées par l’IA.
-
-![Panneau assistant d’IA dédiée aux agences](images/guides-ai-panel.png){width="650"}
-
-Les composants suivants de l’assistant AI en mode Agence vous aident à ajouter des fichiers, à configurer des recommandations de balises et à gérer votre workflow de balisage intelligent :
-
-- **(A)** Historique des conversations : affichez et rouvrez les conversations précédentes pour consulter les recommandations et actions relatives aux balises précédentes.
-
-  ![Historique des conversations du panneau de l’assistant IA dédiée aux agences](images/chat-history.png){width="350"}
-
-- **(B)** Nouvelle conversation : démarrez une nouvelle session de balisage pour une autre rubrique, un autre mappage ou un autre ensemble de fichiers.
-- **(C)** Espace de noms de balise : sélectionnez les espaces de noms de taxonomie à partir desquels l’assistant AI génère des recommandations de balises. Seules les balises des espaces de noms sélectionnés sont prises en compte.
-
-  ![Taxonomie du panneau Assistant d’IA dédiée aux agences](images/taxononmy.png){width="350"}
-
-- **(D)** Espace de réponse : passez en revue les recommandations de balises générées par l’IA et choisissez de les accepter, de les rejeter ou de les modifier avant d’appliquer les balises.
-- **(E)** Espace d’invite : saisissez une demande d’invite pour générer des recommandations de balises pour le contenu sélectionné.
-- **(F)** Joindre des fichiers ou ajouter du contexte : permet d’ajouter des rubriques, des cartes ou des fichiers externes à partir de votre système local pour fournir le contenu que l’assistant AI analyse pour les recommandations de balises.
-- Modèle **(G)** : affiche le modèle d’IA utilisé pour analyser le contenu et générer des recommandations de balises. Plusieurs modèles OpenAI et Anthropic Claude peuvent être sélectionnés. Par défaut, l’option **Utiliser le manifeste par défaut** est sélectionnée, et utilise le modèle configuré pour l’assistant sélectionné.
-- **(H)** Envoyer : envoyez votre invite et le contenu joint pour générer des recommandations de balises basées sur l’IA.
 
 ## Appliquer des balises à une ou plusieurs rubriques avec la compétence de balisage intelligent
 
 Effectuez les étapes suivantes pour utiliser l’assistant AI afin d’appliquer des balises à une ou plusieurs rubriques avec la compétence de balisage intelligent :
 
 1. Connectez-vous à Experience Manager Guides.
-1. Sur la page d’accueil, sélectionnez **Assistant AI** dans la barre de navigation. Assurez-vous que l’assistant AI en mode Agence est activé par l’administrateur.
+1. Sur la page d’accueil, sélectionnez **Assistant AI** dans la barre de navigation. Assurez-vous que l’assistant [AI en mode Agence](../install-conf-guide/workspace-settings.md) est activé par l’administrateur.
 1. Ajoutez la rubrique pour laquelle vous souhaitez générer des recommandations de balises à l’aide de l’une des méthodes suivantes :
 
    - **Utilisation d’invites suggérées** : pour la première conversation de la zone Réponse, sélectionnez **Suggérer des balises pour une invite de fichier**. L’invite est automatiquement ajoutée à l’espace Invite . Sélectionnez `[file]`, puis choisissez la rubrique dans le référentiel ou dans une collection de la boîte de dialogue **Sélectionner un fichier**. Vous pouvez sélectionner une rubrique dans la boîte de dialogue **Sélectionner un fichier**.
@@ -136,8 +112,8 @@ Un message indique que la carte sélectionnée contient plusieurs rubriques. Sé
 1. Sélectionnez **Confirmer**. L’assistant AI analyse les rubriques sélectionnées et affiche le nombre de recommandations de balises générées pour chaque rubrique.
 1. Sélectionnez **Aperçu** pour consulter les recommandations de balises générées par l’IA.
 1. Passez en revue les balises suggérées pour chaque rubrique, puis choisissez l’une des actions suivantes :
-   - **Accepter tout** pour appliquer toutes les balises suggérées à toutes les rubriques.
-   - **Rejeter tout** pour ignorer toutes les balises suggérées pour toutes les rubriques.
+   - **Accepter** pour appliquer toutes les balises suggérées à toutes les rubriques.
+   - **Rejeter** pour ignorer toutes les balises suggérées pour toutes les rubriques.
    - **Effacer toutes les suggestions** pour supprimer toutes les balises suggérées pour une rubrique spécifique.
    - Sélectionnez l’icône **X** en regard d’une balise pour supprimer une suggestion de balise individuelle.
 
