@@ -1,7 +1,7 @@
 ---
 title: Importer des documents en tant que rubriques avec l’assistant AI
 description: Découvrez comment convertir des fichiers PDF, Word et Markdown en rubriques DITA et en carte à l’aide de l’assistant AI, et examinez les résultats avant de les enregistrer.
-source-git-commit: f936d474c6efcea89b244ccd25e03b065a478250
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Vous pouvez importer des fichiers à partir de votre appareil ou référentiel d
 
    - **Utilisation d’un raccourci** : saisissez `/` dans le champ Invite, puis choisissez **Ajouter une référence au référentiel** pour choisir le fichier dans le référentiel (ou **Ajouter des fichiers à partir de l’appareil** pour télécharger le fichier depuis votre ordinateur).
 
-   - **À l’aide de l’icône Joindre des fichiers ou Ajouter un contexte (+)** : permet d’ajouter des fichiers de votre système local pour fournir le contenu à importer.
+   - **À l’aide de l’icône Joindre des fichiers ou Ajouter un contexte (+)** : ajoutez les fichiers de votre système local pour fournir le contenu à importer.
 
    - **Glisser-déposer** : faites glisser et déposez le fichier à importer du système directement dans l&#39;espace d&#39;invite.
 

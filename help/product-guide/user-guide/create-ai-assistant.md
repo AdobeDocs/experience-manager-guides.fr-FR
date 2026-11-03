@@ -1,9 +1,9 @@
 ---
 title: Créer des rubriques et des cartes avec l’assistant AI
 description: Découvrez comment rédiger de nouvelles rubriques et de nouveaux mappages DITA à partir de vos notes, spécifications ou contenu collé avec l'assistant AI, puis examinez-les avant d'enregistrer.
-source-git-commit: f936d474c6efcea89b244ccd25e03b065a478250
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '602'
 ht-degree: 0%
 ---
 
@@ -24,13 +24,13 @@ Vous pouvez joindre un fichier, sélectionner un fichier existant comme référe
 
    - **Utilisation d’un raccourci** : saisissez `/` dans le champ Invite, puis choisissez **Ajouter une référence au référentiel** pour choisir le fichier dans le référentiel (ou **Ajouter des fichiers à partir de l’appareil** pour télécharger le fichier depuis votre ordinateur).
 
-   - **À l’aide de l’icône Joindre des fichiers ou Ajouter un contexte (+)** : ajoute les fichiers de votre système local.
+   - **À l’aide de l’icône Joindre des fichiers ou Ajouter un contexte (+)** : ajoutez les fichiers de votre système local.
 
    - **Glisser-déposer** : faites glisser et déposez le fichier que vous souhaitez brouiller du système directement dans l’espace d’invite.
 
 1. *(Facultatif)* Dans l’invite de démarrage, sélectionnez `[file]`. Sélectionnez la rubrique existante dont vous souhaitez que le brouillon corresponde au ton. Vous pouvez choisir la rubrique dans le référentiel ou dans une collection. Le nom de la rubrique remplace `[file]` dans l’invite.
 
-   ![Sélectionnez l’espace réservé au fichier pour choisir la rubrique](images/sample-create.png){width="350"}
+   ![Sélectionnez l’espace réservé au fichier pour choisir la rubrique](images/sample-create.png){width="650"}
 
 1. Sélectionnez **Envoyer**.
 
@@ -38,7 +38,7 @@ Vous pouvez joindre un fichier, sélectionner un fichier existant comme référe
 
 1. Répondez à toutes les questions de suivi de l’assistant AI pour fournir les détails nécessaires à la génération du contenu.
 
-   ![Sélectionnez l’espace réservé au fichier pour choisir la rubrique](images/folder-create.png){width="350"}
+   ![Sélectionnez l’espace réservé au fichier pour choisir la rubrique](images/folder-create.png){width="650"}
 
 1. Sélectionnez **Aperçu** pour passer en revue la rubrique générée.
 

@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2eb766dc53b23f750dd6eb232ab21025b0c0c46d
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '2804'
+source-wordcount: '2799'
 ht-degree: 0%
 ---
 # Paramètres de Workspace
@@ -55,15 +55,11 @@ Les paramètres Général vous permettent de configurer les paramètres pour uti
 
 ![](assets/editor-setting-general-agentic.png){width="350"}
 
-- **Fonctionnalités d’IA**
+- **Fonctionnalités d’IA** : utilisez cette option pour activer la fonctionnalité Assistant d’IA dans Experience Manager Guides. AI Assistant est disponible dans deux modes : **Agentic** et **Standard**. Vous pouvez choisir entre les deux modes en activant les boutons radio respectifs.
 
   >[!NOTE]
   >
   > Pour utiliser le mode Agentic de la fonctionnalité Assistant d’IA dans votre environnement, contactez l’équipe du succès client.
-
-  Sélectionnez cette option pour activer la fonction Assistant AI dans Experience Manager Guides. Désélectionnez cette option pour désactiver la fonction.
-
-  AI Assistant est disponible dans deux modes : **Agentic** et **Standard**. Vous pouvez choisir entre les deux modes en activant les boutons radio respectifs.
 
   - **Agentic** : après avoir activé cette option, vous pouvez accéder à l’assistant IA agentic à partir de la barre de navigation de l’application Experience Manager Guides. Vous pouvez également configurer les espaces de noms de taxonomie utilisés par la compétence Balisage intelligent pour générer des recommandations de balises. L’assistant AI prend en compte uniquement les balises des espaces de noms sélectionnés, en fonction des balises définies dans AEM. Pour plus d’informations, consultez la section [Mode agent dans l’assistant AI](../user-guide/ai-assistant.md#ai-assistant-modes).
 
@@ -71,7 +67,7 @@ Les paramètres Général vous permettent de configurer les paramètres pour uti
 
   - **Standard** : après avoir activé l’option **Standard**, vous pouvez configurer les options qui apparaissent sous le menu **Actions rapides de création** comme illustré ci-dessous.
 
-    Ces modifications s’appliquent au profil de dossier spécifique que vous utilisez. Si vous créez un profil de dossier, il héritera des paramètres Workspace définis dans le profil de dossier **global** par défaut. Vous pouvez modifier ces paramètres selon vos besoins à l&#39;aide des paramètres **&#x200B;**&#x200B;et enregistrer la configuration mise à jour.
+    Ces modifications s’appliquent au profil de dossier spécifique que vous utilisez. Si vous créez un profil de dossier, il héritera des paramètres Workspace définis dans le profil de dossier **global** par défaut. Vous pouvez modifier ces paramètres selon vos besoins à l&#39;aide des paramètres **** et enregistrer la configuration mise à jour.
 
     Pour obtenir un aperçu détaillé des options disponibles pour la création à l’aide de l’assistant AI, consultez la page [Créer des documents de manière intelligente avec l’assistant AI](../user-guide/ai-assistant-right-panel.md).
 
@@ -111,7 +107,7 @@ Les paramètres Général vous permettent de configurer les paramètres pour uti
 
   - **Vérification orthographique du navigateur** : par défaut, l’éditeur utilise la fonctionnalité de vérification orthographique du navigateur, dans laquelle la vérification orthographique est effectuée à l’aide du dictionnaire intégré du navigateur.
 
-  - **Vérification orthographique d’AEM** : vous pouvez passer à la vérification orthographique d’AEM pour utiliser le dictionnaire Adobe Experience Manager, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section [&#x200B; Personnaliser le dictionnaire par défaut d’AEM &#x200B;](../install-conf-guide/customize-aem-default-dictionary.md).
+  - **Vérification orthographique d’AEM** : vous pouvez passer à la vérification orthographique d’AEM pour utiliser le dictionnaire Adobe Experience Manager, qui peut également être personnalisé pour ajouter votre liste de mots personnalisée. Pour plus d’informations sur la personnalisation du dictionnaire AEM, consultez la section [ Personnaliser le dictionnaire par défaut d’AEM ](../install-conf-guide/customize-aem-default-dictionary.md).
 
     >[!NOTE]
     >
@@ -239,9 +235,9 @@ Configurez le serveur ServiceNow pour charger les ressources.
 
 - Pour créer un profil, sélectionnez la base de connaissances ServiceNow dans le menu déroulant **Type de serveur**. Saisissez un profil **Nom**. Dans l’URL **ServiceNow**, saisissez le site client que vous utiliseriez pour publier la sortie, puis ajoutez les **Nom d’utilisateur** et **Mot de passe** fournis par le site client ServiceNow. Ensuite, **Valider** et **Enregistrer** le profil nouvellement créé.
 
-  ![Profil de publication ServiceNow &#x200B;](../user-guide/images/service-now-publish-profile.png){width="550"}
+  ![Profil de publication ServiceNow ](../user-guide/images/service-now-publish-profile.png){width="550"}
 
-  Après la validation, vous pouvez sélectionner le profil de publication dans les paramètres prédéfinis de sortie d&#39;un plan DITA et l&#39;utiliser pour générer la sortie vers le serveur **&#x200B;**&#x200B;ou **ServiceNow** que vous avez choisi.
+  Après la validation, vous pouvez sélectionner le profil de publication dans les paramètres prédéfinis de sortie d&#39;un plan DITA et l&#39;utiliser pour générer la sortie vers le serveur **** ou **ServiceNow** que vous avez choisi.
 
   En savoir plus sur le paramètre prédéfini de sortie [Base de connaissances](../user-guide/generate-output-knowledge-base.md).
 
