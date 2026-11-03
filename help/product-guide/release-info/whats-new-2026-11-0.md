@@ -40,7 +40,7 @@ En savoir plus sur [Branchement et fusion](../user-guide/branching-overview.md).
 >
 >Pour utiliser l’assistant AI en mode Agence, votre entreprise doit être intégrée à Adobe CX Enterprise Coworker et disposer des crédits requis.
 
-Vous pouvez désormais utiliser l&#39;**assistant AI** pour créer et importer du contenu DITA à l&#39;aide d&#39;invites en langage naturel. Optimisées par ****, les nouvelles compétences **Créer** et **Importer** simplifient la création de contenu structuré et aident les auteurs à travailler avec du contenu DITA sans avoir besoin d&#39;une expertise approfondie de DITA.
+Vous pouvez désormais utiliser l&#39;**assistant AI** pour créer et importer du contenu DITA à l&#39;aide d&#39;invites en langage naturel. Optimisées par **&#x200B;**, les nouvelles compétences **Créer** et **Importer** simplifient la création de contenu structuré et aident les auteurs à travailler avec du contenu DITA sans avoir besoin d&#39;une expertise approfondie de DITA.
 
 - **Créer :** génère des rubriques et des mappages DITA à partir d&#39;invites en langage naturel, de documents de référence ou de contenu existant à l&#39;aide de modèles de référentiel. Vous pouvez réviser le contenu généré avant de l’enregistrer et affiner de manière itérative le contenu nouveau ou existant pour répondre à vos besoins.
 - **Importer :** permet de convertir des fichiers PDF, DOCX ou Markdown existants en rubriques et mappages DITA structurés. Vous pouvez réviser le contenu converti avant de l’enregistrer dans le référentiel.
@@ -71,7 +71,7 @@ Le panneau **Suivi des modifications** est désormais disponible dans le nouvel 
 
 Vous pouvez également contrôler l’affichage du contenu supprimé dans l’éditeur à l’aide du paramètre **Afficher les suppressions suivies en ligne** qui vous permet d’afficher le contenu supprimé sous forme de texte barré ou de le remplacer par une icône en forme de crayon liée à la modification correspondante. En savoir plus sur le [suivi des modifications](../user-guide/config-editor-settings.md#track-changes).
 
-![ Paramètres de l’éditeur ](./assets/track-changes-all.png){width="650"}
+![&#x200B; Paramètres de l’éditeur &#x200B;](./assets/track-changes-all.png){width="650"}
 
 ### Trier des fichiers et des dossiers dans le panneau de l’explorateur
 
@@ -86,7 +86,7 @@ Experience Manager Guides vous permet d’afficher l’historique des versions e
 Pour plus d&#39;informations, voir [Utiliser des fichiers multimédias et autres fichiers non DITA](../user-guide/authoring-file-management.md#work-with-media-and-other-non-dita-files).
 
 
-![ Paramètres de l’éditeur ](./assets/version-management-non-dita-files.png){width="650"}
+![&#x200B; Paramètres de l’éditeur &#x200B;](./assets/version-management-non-dita-files.png){width="650"}
 
 
 ## Améliorations de la révision
@@ -107,7 +107,7 @@ L’onglet fournit une vue consolidée des tâches de génération de sortie, y 
 
 Pour plus d’informations, consultez [Gérer le processus de génération de sortie](../user-guide/generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
 
-![ Paramètres de l’éditeur ](./assets/output-history-editor-view.png){width="650"}
+![&#x200B; Paramètres de l’éditeur &#x200B;](./assets/output-history-editor-view.png){width="650"}
 
 
 ### Amélioration des options de purge de l’historique de sortie
