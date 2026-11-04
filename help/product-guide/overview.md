@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: c578f56f0aa976ea4421e4317e4c86dedfc5a700
+source-git-commit: c6381f6d58f64bed575966423685b63971834d66
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '326'
 ht-degree: 7%
 ---
 # Documentation de Experience Manager Guides
@@ -58,7 +58,7 @@ Experience Manager Guides est un système de gestion de contenu d’entreprise a
 
 ::::landing-cards-container
 :::card
-![&#x200B; Icône Administrateurs &#x200B;](../assets/admin.png)
+![ Icône Administrateurs ](../assets/admin.png)
 
 Administrateurs
 
@@ -68,7 +68,7 @@ Configurez les profils de dossier, les autorisations, les paramètres de workflo
 :::
 
 :::card
-![&#x200B; Icône Auteurs &#x200B;](../assets/author.png)
+![ Icône Auteurs ](../assets/author.png)
 
 Auteurs
 
@@ -130,7 +130,7 @@ Consultez les rubriques, gérez les tâches et les notifications de révision.
 :::
 
 :::card
-![&#x200B; Icône de publication &#x200B;](../assets/publishing.png)
+![ Icône de publication ](../assets/publishing.png)
 
 Publication
 
@@ -140,7 +140,7 @@ Types de sortie PDF, AEM Sites, HTML5, EPUB et JSON.
 :::
 
 :::card
-![&#x200B; Icône de traduction &#x200B;](../assets/translation.png)
+![ Icône de traduction ](../assets/translation.png)
 
 Traduction
 
@@ -186,11 +186,11 @@ Profils de dossier, personnalisation DITA-OT et modèles de sortie.
 
 Découvrez les nouvelles fonctionnalités améliorées introduites dans la dernière version de Experience Manager Guides.
 
-- Balisage intelligent optimisé par l’IA dans l’assistant d’IA
-- Marquer la rubrique comme terminée dans une tâche de révision
-- Améliorations du contenu d’apprentissage
+- Embranchement et fusion au niveau de la carte
+- Création et importation de contenu dans l’assistant AI
+- Nouveau panneau d&#39;aide
 
-[Tout explorer](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+[Tout explorer](../../help/product-guide/release-info/whats-new-2026-11-0.md)
 
 </td>
 <td>
@@ -215,10 +215,10 @@ Découvrez les dernières notes de mise à jour et mises à jour de produits pou
 
 Accédez à des ressources, de la documentation et du support utiles pour tirer le meilleur parti de la plateforme.
 
-* [Référentiel GitHub](https://github.com/AdobeDocs/experience-manager-guides.fr-FR){target="_blank"}
-* [Assistance](https://experienceleague.adobe.com/support/v2/en/?lang=fr){target="_blank"}
-* [Tutoriels vidéo](https://experienceleague.adobe.com/fr/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [Communauté AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=fr){target="_blank"}
+* [Référentiel GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Assistance](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Tutoriels vidéo](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [Communauté AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 
 </td>
 </tr>
