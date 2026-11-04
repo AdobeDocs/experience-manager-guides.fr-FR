@@ -1,7 +1,6 @@
 ---
-title: Tutoriels pour Experience Manager Guides
-description: Découvrez des tutoriels vidéo pour Experience Manager Guides (anciennement XML Documentation for Adobe Experience Manager). Découvrez la prise en charge native de DITA et la création structurée dans Experience Manager.
-exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
+title: Documentation de Experience Manager Guides
+description: Recherchez la documentation d’Adobe Experience Manager Guides. Découvrez la prise en charge native de DITA, la création structurée et la publication multicanale dans Experience Manager.
 feature: AEM Guides Tutorials
 role: User
 TQID: 'https://experienceleague.adobe.com/S4wTM-7gfU7D-JfKVbb9nK3qoQIG6PdiY7jtpsc6kDs'
@@ -44,41 +43,190 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: c6381f6d58f64bed575966423685b63971834d66
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 10%
+source-wordcount: '326'
+ht-degree: 7%
 ---
-# Documentation Experience Manager Guides
+# Documentation de Experience Manager Guides
 
-[!DNL Experience Manager Guides] est une solution performante de gestion de contenu par composant (CCMS) de qualité professionnelle. Il active la prise en charge native de DITA dans Experience Manager, ce qui permet à AEM de gérer la création et la diffusion de contenu basé sur DITA. Il permet aux créateurs et créatrices de créer du contenu à l’aide de n’importe quel outil de création DITA hors ligne, tel qu’Adobe FrameMaker ou un éditeur intégré facile à utiliser.
+Experience Manager Guides est un système de gestion de contenu d’entreprise avec prise en charge native de DITA pour la création structurée, la publication multicanal et la gestion du cycle de vie du contenu.
 
-[!DNL Experience Manager Guides] solution fournit toutes les fonctions de base du système de gestion de contenu par composant (CCMS), telles que la collaboration, la révision, la traduction, la recherche et les rapports pour le contenu DITA, ce qui permet aux auteurs d&#39;en faire plus en moins de temps grâce à une réutilisation efficace du contenu et à des workflows puissants. De plus, les utilisateurs peuvent tirer parti de sa meilleure fonctionnalité de publication en un seul clic de sa catégorie pour générer une sortie basée sur DITA pour les formats les plus populaires : Experience Manager Sites, PDF, HTML5, EPUB, JSON et une sortie personnalisée via DITA-OT.
+**Déploiement :** [!BADGE Cloud Service]{type=Positive} [!BADGE On-Premise]{type=Informative}
 
-Grâce à [!DNL Experience Manager Guides] solution, les entreprises peuvent offrir des expériences transparentes et personnalisées aux utilisateurs finaux et garantir la cohérence et l’uniformité du contenu avant et après-vente. Le contrôle total de l’intégrité du contenu est facile à réaliser. De plus, le temps et les coûts de localisation diminuent considérablement.
+## Commencer par votre rôle
 
->[!NOTE]
-> 
-> Adobe Experience Manager Guides était auparavant marqué comme _XML Documentation pour Adobe Experience Manager_. Veuillez noter que certaines références contenues dans la documentation peuvent toujours faire référence à une image de marque antérieure, mais s’appliquent toujours à l’offre actuelle.
+::::landing-cards-container
+:::card
+![&#x200B; Icône Administrateurs &#x200B;](../assets/admin.png)
 
-## Nouveautés
+Administrateurs
 
-* **[[!DNL Experience Manager Guides] Cours de prise en main](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html?lang=fr){target="blank"}**
+Configurez les profils de dossier, les autorisations, les paramètres de workflow et les modèles de sortie.
 
-  _Découvrez comment créer, organiser, créer et publier du contenu avec [!DNL Adobe Experience Manager Guides]._
+[Guide d’administration](./install-conf-guide/introduction.md)
+:::
 
-* **[[!DNL Experience Manager Guides] Création dans l’éditeur intégré](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=fr){target="blank"}**
+:::card
+![&#x200B; Icône Auteurs &#x200B;](../assets/author.png)
 
-  _Découvrez comment créer du contenu à l’aide de l’éditeur natif dans [!DNL Adobe Experience Manager Guides]. Comprendre pleinement les préférences utilisateur, les paramètres de l’éditeur, la configuration, les barres d’outils, etc._
+Auteurs
 
-* **[Génération de sortie avec [!DNL Experience Manager Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html?lang=fr){target="blank"}**
+Créez et gérez des rubriques, des mappages, une réutilisation du contenu et des workflows de révision DITA.
 
-  _Découvrez comment générer une sortie à l’aide de [!DNL Adobe Experience Manager Guides]. Découvrez les différentes fonctionnalités disponibles pour la génération de sortie : rapports, lignes de base, conditions, dépannage, publication en masse et activation._
+[Présentation de la création](./user-guide/authoring-content.md)
+:::
+
+:::card
+![icône Éditeurs](../assets/publisher.png)
+
+Editeurs
+
+Configurez les paramètres prédéfinis de sortie, gérez les lignes de base et générez une sortie sur plusieurs canaux.
+
+[Gestion et publication des cartes](./user-guide/map-console-overview.md)
+:::
+
+::::
+
+<!--
+:::card
+![Architects icon](./user-guide/images/architect.svg)
+
+Architects
+
+Design DITA specializations, schemas, and content architecture for your implementation.
+
+[DITA specialization](./install-conf-guide/dita-ot-specialization.md)
+:::
+
+::::
+-->
+
+## Explorer par domaine
+
+<!-- Author note: Six cards wrap to two rows of three in production. The landing-cards-container component is in beta — verify rendering in production before publishing. -->
+
+::::landing-cards-container
+
+:::card
+![Icône de création](../assets/authoring.png)
+
+Création
+
+Éditeur web, intégration de FrameMaker, contenu réutilisable et cycles de révision.
+
+[Créer votre contenu](./user-guide/web-editor.md)
+:::
+
+:::card
+![Icône Vérifier](../assets/review.png)
+
+Révision
+
+Consultez les rubriques, gérez les tâches et les notifications de révision.
+
+[Présentation de la révision](./user-guide/review.md)
+:::
+
+:::card
+![&#x200B; Icône de publication &#x200B;](../assets/publishing.png)
+
+Publication
+
+Types de sortie PDF, AEM Sites, HTML5, EPUB et JSON.
+
+[Publier votre contenu](./user-guide/generate-output.md)
+:::
+
+:::card
+![&#x200B; Icône de traduction &#x200B;](../assets/translation.png)
+
+Traduction
+
+Workflows de traduction humaine et automatique de contenu multilingue.
+
+[Traduction du contenu](./user-guide/translation.md)
+:::
+
+:::card
+![icône Rapports](../assets/reports.png)
+
+Rapports
+
+Liste de rubriques, multimédia, liens rompus et rapports de métadonnées.
+
+[Génération de rapports](./user-guide/reports-intro.md)
+:::
+
+:::card
+![Icône Configuration](../assets/configure.png)
+
+Configuration
+
+Profils de dossier, personnalisation DITA-OT et modèles de sortie.
+
+[Configuration des profils de dossier](./install-conf-guide/conf-profiles.md)
+:::
+
+::::
 
 
-## Ressources supplémentaires
+## Liens rapides
 
-* [Guide de l’utilisateur d’[!DNL Experience Manager Guides] (ancienne interface utilisateur)](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
-* [Formation et assistance [!DNL AEM Guides]](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
-* [Experience League - Explorer AEM](https://business.adobe.com/fr/products/experience-manager/adobe-experience-manager.html)
+>[!BEGINSHADEBOX]
+
+<table>
+<tr style="border: 0;">
+<td>
+
+![Nouveautés](../assets/whats-new-git-connector.svg)
+
+**Nouveautés d’AEM Guides**
+
+Découvrez les nouvelles fonctionnalités améliorées introduites dans la dernière version de Experience Manager Guides.
+
+- Embranchement et fusion au niveau de la carte
+- Création et importation de contenu dans l’assistant AI
+- Nouveau panneau d&#39;aide
+
+[Tout explorer](../../help/product-guide/release-info/whats-new-2026-11-0.md)
+
+</td>
+<td>
+
+![Notes de mise à jour](../assets/whats-new-map-collection.svg)
+
+**Notes de mise à jour**
+
+Découvrez les dernières notes de mise à jour et mises à jour de produits pour les déploiements dans le cloud et On-Premise.
+
+- Versions cloud | [Afficher les notes de mise à jour](./release-info/latest-release-info-cs.md)
+- Versions On-Premise | [Afficher les notes de mise à jour](./release-info/latest-release-info.md)
+
+[Afficher la feuille de route de la version](./release-info/aem-guides-releases-roadmap.md)
+
+</td>
+<td>
+
+![Formation et assistance](../assets/whats-new-delegate-review.svg)
+
+**Formation et assistance**
+
+Accédez à des ressources, de la documentation et du support utiles pour tirer le meilleur parti de la plateforme.
+
+* [Référentiel GitHub](https://github.com/AdobeDocs/experience-manager-guides.fr-FR){target="_blank"}
+* [Assistance](https://experienceleague.adobe.com/support/v2/en/?lang=fr){target="_blank"}
+* [Tutoriels vidéo](https://experienceleague.adobe.com/fr/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [Communauté AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=fr){target="_blank"}
+
+</td>
+</tr>
+</table>
+
+>[!ENDSHADEBOX]
+
+
+
+
 
