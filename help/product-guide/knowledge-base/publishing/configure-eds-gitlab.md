@@ -67,18 +67,18 @@ https://<worker URL>/gitlab/<git acc domain>/<git username>/<git repo>/main/docs
 
 Créez le ou les jetons d’accès requis pour :
 
-- **&#x200B;**, pour valider et accéder au référentiel. Pour en savoir plus, consultez la section [Ajouter des référentiels externes dans Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
+- **&#x200B;**, pour valider et accéder au référentiel. Pour en savoir plus, consultez la section [Ajouter des référentiels externes dans Cloud Manager](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
 - **Profil de publication**, pour valider la sortie publiée. Créez un jeton d’accès au projet GitLab avec le rôle **Développeur** et la portée `api`. Pour en savoir plus, consultez la [documentation GitLab](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html).
 
 >[!NOTE]
 >
-> Renouveler les jetons avant leur expiration. La publication échoue si le jeton dans le profil de publication a expiré. Pour mettre à jour un jeton utilisé par Cloud Manager, consultez [Gérer les jetons d’accès pour les référentiels externes](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens).
+> Renouveler les jetons avant leur expiration. La publication échoue si le jeton dans le profil de publication a expiré. Pour mettre à jour un jeton utilisé par Cloud Manager, consultez [Gérer les jetons d’accès pour les référentiels externes](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens).
 
 ### &#x200B;5. Ajout du référentiel GitLab à Cloud Manager
 
 Dans Cloud Manager, accédez à **Référentiels** > **Ajouter un référentiel**, sélectionnez **Référentiel privé** et validez la propriété à l’aide du jeton d’accès. Patientez jusqu’à ce que le statut du référentiel soit **Prêt**. L’option BYOG n’est disponible qu’une fois qu’au moins un référentiel externe est Prêt.
 
-Pour connaître les étapes, voir [Ajouter des référentiels externes dans Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
+Pour connaître les étapes, voir [Ajouter des référentiels externes dans Cloud Manager](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
 
 ### &#x200B;6. Générer une clé API Cloud Manager
 
