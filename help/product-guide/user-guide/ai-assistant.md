@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
+source-git-commit: b3c2c68321080aa4dde16befe4bfd0022bf9f61c
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 0%
@@ -86,13 +86,12 @@ Pour lancer l’assistant AI, procédez comme suit :
 
 1. Connectez-vous à Experience Manager Guides.
 1. Sur la page d’accueil, sélectionnez **Assistant AI** dans la partie supérieure. Assurez-vous que votre administrateur a activé la fonction Assistant AI dans le mode souhaité.
-
 L’assistant AI affiche les fonctionnalités clés, un lien destiné aux utilisateurs et un bouton **Commencer**.
-Lisez attentivement les directives d’utilisation, puis sélectionnez **Commencer** pour lancer l’assistant d’IA.
+1. Lisez attentivement les directives d’utilisation, puis sélectionnez **Commencer** pour lancer l’assistant d’IA.
 
 >[!NOTE]
 >
->Si vous avez déjà consenti aux instructions pour l’utilisation de la fonction Assistant d’aide, vous ne serez pas invité à donner à nouveau votre consentement et pourrez continuer à utiliser la fonction Assistant d’IA.
+>Si vous avez déjà consenti aux instructions pour l’utilisation de la fonctionnalité d’assistant d’aide, vous ne serez pas invité à donner à nouveau votre consentement et vous pourrez continuer à utiliser la fonctionnalité d’assistant d’IA.
 
 **Rubriques connexes**
 
