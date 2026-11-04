@@ -43,7 +43,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 3c8ea4a0644121e4eb87877aeb6f9140fc365cc1
+source-git-commit: 30cc2448fbc386901ec2a71f4d226ca3b01d905e
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 6%
@@ -58,7 +58,7 @@ Experience Manager Guides est un système de gestion de contenu d’entreprise a
 
 ::::landing-cards-container
 :::card
-![&#x200B; Icône Administrateurs &#x200B;](../assets/admin.png)
+![ Icône Administrateurs ](../assets/admin.png)
 
 Administrateurs
 
@@ -68,7 +68,7 @@ Configurez les profils de dossier, les autorisations, les paramètres de workflo
 :::
 
 :::card
-![&#x200B; Icône Auteurs &#x200B;](../assets/author.png)
+![ Icône Auteurs ](../assets/author.png)
 
 Auteurs
 
@@ -130,7 +130,7 @@ Créez et gérez des tâches de révision, collaborez sur des commentaires et tr
 :::
 
 :::card
-![&#x200B; Icône de publication &#x200B;](../assets/publishing.png)
+![ Icône de publication ](../assets/publishing.png)
 
 Publication
 
@@ -140,7 +140,7 @@ Configurez et générez une sortie sur AEM Sites, PDF, HTML5, EPUB, JSON et d’
 :::
 
 :::card
-![&#x200B; Icône de traduction &#x200B;](../assets/translation.png)
+![ Icône de traduction ](../assets/translation.png)
 
 Traduction
 
@@ -184,7 +184,7 @@ Configurez les profils, les modèles, les attributs conditionnels, les paramètr
 
 **Nouveautés d’AEM Guides**
 
-Découvrez les nouvelles fonctionnalités améliorées introduites dans la dernière version de Experience Manager Guides.
+Découvrez les nouvelles fonctionnalités améliorées introduites dans la dernière version de Experience Manager Guides, 2026.11.0.
 
 - Embranchement et fusion au niveau de la carte
 - Création et importation de contenu dans l’assistant AI
@@ -215,10 +215,10 @@ Découvrez les dernières notes de mise à jour et mises à jour de produits pou
 
 Accédez à des ressources, de la documentation et du support utiles pour tirer le meilleur parti de la plateforme.
 
-* [Référentiel GitHub](https://github.com/AdobeDocs/experience-manager-guides.fr-FR){target="_blank"}
-* [Assistance](https://experienceleague.adobe.com/support/v2/en/?lang=fr){target="_blank"}
-* [Tutoriels vidéo](https://experienceleague.adobe.com/fr/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [Communauté AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=fr){target="_blank"}
+* [Référentiel GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Assistance](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Tutoriels vidéo](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [Communauté AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 
 </td>
 </tr>
