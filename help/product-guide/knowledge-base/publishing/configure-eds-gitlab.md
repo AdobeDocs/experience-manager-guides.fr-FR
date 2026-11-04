@@ -18,7 +18,7 @@ Pour publier du contenu de Experience Manager Guides vers Edge Delivery Services
 
 - Un **référentiel GitHub** crée le site EDS via l’application de synchronisation de code AEM.
 - Un **référentiel GitLab** stocke le contenu publié à partir de Experience Manager Guides.
-- **** relie les deux en recevant les événements push GitLab (webhook) et en les synchronisant avec le site EDS.
+- **&#x200B;**&#x200B;relie les deux en recevant les événements push GitLab (webhook) et en les synchronisant avec le site EDS.
 
 ## Conditions préalables
 
@@ -78,7 +78,7 @@ https://<worker URL>/gitlab/<git acc domain>/<git username>/<git repo>/main/docs
 
 Créez le ou les jetons d’accès requis pour :
 
-- ****, pour valider et accéder au référentiel. Pour en savoir plus, consultez la section [Ajouter des référentiels externes dans Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
+- **&#x200B;**, pour valider et accéder au référentiel. Pour en savoir plus, consultez la section [Ajouter des référentiels externes dans Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
 - **Profil de publication**, pour valider la sortie publiée. Créez un jeton d’accès au projet GitLab avec le rôle **Développeur** et la portée `api`. Pour en savoir plus, consultez la [documentation GitLab](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html).
 
 >[!NOTE]
