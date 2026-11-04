@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: c6381f6d58f64bed575966423685b63971834d66
+source-git-commit: 30cc2448fbc386901ec2a71f4d226ca3b01d905e
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 7%
+source-wordcount: '349'
+ht-degree: 6%
 ---
 # Documentation de Experience Manager Guides
 
@@ -114,7 +114,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 Création
 
-Éditeur web, intégration de FrameMaker, contenu réutilisable et cycles de révision.
+Créez et modifiez du contenu structuré à l’aide des fonctionnalités d’éditeur et de création DITA.
 
 [Créer votre contenu](./user-guide/web-editor.md)
 :::
@@ -124,7 +124,7 @@ Création
 
 Révision
 
-Consultez les rubriques, gérez les tâches et les notifications de révision.
+Créez et gérez des tâches de révision, collaborez sur des commentaires et traitez des commentaires de révision.
 
 [Présentation de la révision](./user-guide/review.md)
 :::
@@ -134,7 +134,7 @@ Consultez les rubriques, gérez les tâches et les notifications de révision.
 
 Publication
 
-Types de sortie PDF, AEM Sites, HTML5, EPUB et JSON.
+Configurez et générez une sortie sur AEM Sites, PDF, HTML5, EPUB, JSON et d’autres formats.
 
 [Publier votre contenu](./user-guide/generate-output.md)
 :::
@@ -144,7 +144,7 @@ Types de sortie PDF, AEM Sites, HTML5, EPUB et JSON.
 
 Traduction
 
-Workflows de traduction humaine et automatique de contenu multilingue.
+Traduisez du contenu à l’aide de workflows de traduction humaine ou automatique et suivez le statut de la traduction.
 
 [Traduction du contenu](./user-guide/translation.md)
 :::
@@ -154,7 +154,7 @@ Workflows de traduction humaine et automatique de contenu multilingue.
 
 Rapports
 
-Liste de rubriques, multimédia, liens rompus et rapports de métadonnées.
+Évaluation de l’intégrité du contenu, gestion des métadonnées, identification des liens rompus et analyse de la réutilisation du contenu.
 
 [Génération de rapports](./user-guide/reports-intro.md)
 :::
@@ -164,7 +164,7 @@ Liste de rubriques, multimédia, liens rompus et rapports de métadonnées.
 
 Configuration
 
-Profils de dossier, personnalisation DITA-OT et modèles de sortie.
+Configurez les profils, les modèles, les attributs conditionnels, les paramètres prédéfinis de sortie et les paramètres de l’éditeur.
 
 [Configuration des profils de dossier](./install-conf-guide/conf-profiles.md)
 :::
@@ -172,7 +172,7 @@ Profils de dossier, personnalisation DITA-OT et modèles de sortie.
 ::::
 
 
-## Liens rapides
+## Ressources et mises à jour
 
 >[!BEGINSHADEBOX]
 
@@ -184,7 +184,7 @@ Profils de dossier, personnalisation DITA-OT et modèles de sortie.
 
 **Nouveautés d’AEM Guides**
 
-Découvrez les nouvelles fonctionnalités améliorées introduites dans la dernière version de Experience Manager Guides.
+Découvrez les nouvelles fonctionnalités améliorées introduites dans la dernière version de Experience Manager Guides, 2026.11.0.
 
 - Embranchement et fusion au niveau de la carte
 - Création et importation de contenu dans l’assistant AI
