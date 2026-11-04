@@ -4,7 +4,7 @@ description: Découvrez comment configurer les référentiels GitLab, les jetons
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: e5721ff1d6e2322213ac7bc988fb1d7e721cd148
+source-git-commit: 97620587a9e736e0886ea4d7158af330814e6392
 workflow-type: tm+mt
 source-wordcount: '1256'
 ht-degree: 3%
@@ -18,7 +18,7 @@ Pour publier du contenu de Experience Manager Guides vers Edge Delivery Services
 
 - Un **référentiel GitHub** crée le site EDS via l’application de synchronisation de code AEM.
 - Un **référentiel GitLab** stocke le contenu publié à partir de Experience Manager Guides.
-- **&#x200B;**&#x200B;relie les deux en recevant les événements push GitLab (webhook) et en les synchronisant avec le site EDS.
+- **** relie les deux en recevant les événements push GitLab (webhook) et en les synchronisant avec le site EDS.
 
 ## Conditions préalables
 
@@ -29,7 +29,7 @@ Pour publier du contenu de Experience Manager Guides vers Edge Delivery Services
 
 ## Ordre de configuration
 
-1. [Créer le site EDS à l’aide de GitHub](#1-create-the-eds-site-using-github)
+1. [Créer le site EDS à l’aide de GitHub](#1-create-the-eds-site-using-github-create-eds-site)
 2. [Création du référentiel GitLab](#2-create-the-gitlab-repository)
 3. [Configurer l’URL du point de montage](#3-configure-the-mountpoint-url)
 4. [Création de jetons d’accès GitLab](#4-create-gitlab-access-tokens)
@@ -42,7 +42,7 @@ Pour publier du contenu de Experience Manager Guides vers Edge Delivery Services
 11. [Synchroniser et vérifier](#11-sync-and-verify)
 12. [Publier à partir de Experience Manager Guides](#12-publish-from-experience-manager-guides)
 
-### &#x200B;1. Créer le site EDS à l’aide de GitHub
+### &#x200B;1. Créer le site EDS à l’aide de GitHub {#create-eds-site}
 
 Créez un référentiel GitHub à partir du standard AEM Guides et installez-y l’application de synchronisation du code AEM. Enregistrez l’**URL en direct** (`https://<branch>--<github-repo>--<github-username>.aem.live`) générée pour plus tard.
 
@@ -78,18 +78,18 @@ https://<worker URL>/gitlab/<git acc domain>/<git username>/<git repo>/main/docs
 
 Créez le ou les jetons d’accès requis pour :
 
-- **&#x200B;**, pour valider et accéder au référentiel. Pour en savoir plus, consultez la section [Ajouter des référentiels externes dans Cloud Manager](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
+- ****, pour valider et accéder au référentiel. Pour en savoir plus, consultez la section [Ajouter des référentiels externes dans Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
 - **Profil de publication**, pour valider la sortie publiée. Créez un jeton d’accès au projet GitLab avec le rôle **Développeur** et la portée `api`. Pour en savoir plus, consultez la [documentation GitLab](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html).
 
 >[!NOTE]
 >
-> Renouveler les jetons avant leur expiration. La publication échoue si le jeton dans le profil de publication a expiré. Pour mettre à jour un jeton utilisé par Cloud Manager, consultez [Gérer les jetons d’accès pour les référentiels externes](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens).
+> Renouveler les jetons avant leur expiration. La publication échoue si le jeton dans le profil de publication a expiré. Pour mettre à jour un jeton utilisé par Cloud Manager, consultez [Gérer les jetons d’accès pour les référentiels externes](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens).
 
 ### &#x200B;5. Ajout du référentiel GitLab à Cloud Manager
 
 Dans Cloud Manager, accédez à **Référentiels** > **Ajouter un référentiel**, sélectionnez **Référentiel privé** et validez la propriété à l’aide du jeton d’accès. Patientez jusqu’à ce que le statut du référentiel soit **Prêt**. L’option BYOG n’est disponible qu’une fois qu’au moins un référentiel externe est Prêt.
 
-Pour connaître les étapes, voir [Ajouter des référentiels externes dans Cloud Manager](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
+Pour connaître les étapes, voir [Ajouter des référentiels externes dans Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
 
 ### &#x200B;6. Générer une clé API Cloud Manager
 
