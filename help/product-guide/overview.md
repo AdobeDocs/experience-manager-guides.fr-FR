@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 30cc2448fbc386901ec2a71f4d226ca3b01d905e
+source-git-commit: de4730d6b52026979ba40224dc7ff811a8915412
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '353'
 ht-degree: 6%
 ---
 # Documentation de Experience Manager Guides
@@ -58,7 +58,7 @@ Experience Manager Guides est un système de gestion de contenu d’entreprise a
 
 ::::landing-cards-container
 :::card
-![&#x200B; Icône Administrateurs &#x200B;](../assets/admin.png)
+![ Icône Administrateurs ](../assets/admin.png)
 
 Administrateurs
 
@@ -68,7 +68,7 @@ Configurez les profils de dossier, les autorisations, les paramètres de workflo
 :::
 
 :::card
-![&#x200B; Icône Auteurs &#x200B;](../assets/author.png)
+![ Icône Auteurs ](../assets/author.png)
 
 Auteurs
 
@@ -120,6 +120,16 @@ Créez et modifiez du contenu structuré à l’aide des fonctionnalités d’é
 :::
 
 :::card
+![Icône de l’assistant AI](../assets/ai-author.png)
+
+Assistant IA
+
+Accélérez la création de contenu, trouvez des réponses et appliquez des balises intelligentes avec une assistance optimisée par l’IA.
+
+[Assistant IA](./install-conf-guide/conf-profiles.md)
+:::
+
+:::card
 ![Icône Vérifier](../assets/review.png)
 
 Révision
@@ -130,7 +140,7 @@ Créez et gérez des tâches de révision, collaborez sur des commentaires et tr
 :::
 
 :::card
-![&#x200B; Icône de publication &#x200B;](../assets/publishing.png)
+![ Icône de publication ](../assets/publishing.png)
 
 Publication
 
@@ -140,7 +150,7 @@ Configurez et générez une sortie sur AEM Sites, PDF, HTML5, EPUB, JSON et d’
 :::
 
 :::card
-![&#x200B; Icône de traduction &#x200B;](../assets/translation.png)
+![ Icône de traduction ](../assets/translation.png)
 
 Traduction
 
@@ -157,16 +167,6 @@ Rapports
 Évaluation de l’intégrité du contenu, gestion des métadonnées, identification des liens rompus et analyse de la réutilisation du contenu.
 
 [Génération de rapports](./user-guide/reports-intro.md)
-:::
-
-:::card
-![Icône Configuration](../assets/configure.png)
-
-Configuration
-
-Configurez les profils, les modèles, les attributs conditionnels, les paramètres prédéfinis de sortie et les paramètres de l’éditeur.
-
-[Configuration des profils de dossier](./install-conf-guide/conf-profiles.md)
 :::
 
 ::::
@@ -215,10 +215,10 @@ Découvrez les dernières notes de mise à jour et mises à jour de produits pou
 
 Accédez à des ressources, de la documentation et du support utiles pour tirer le meilleur parti de la plateforme.
 
-* [Référentiel GitHub](https://github.com/AdobeDocs/experience-manager-guides.fr-FR){target="_blank"}
-* [Assistance](https://experienceleague.adobe.com/support/v2/en/?lang=fr){target="_blank"}
-* [Tutoriels vidéo](https://experienceleague.adobe.com/fr/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [Communauté AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=fr){target="_blank"}
+* [Référentiel GitHub](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Assistance](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Tutoriels vidéo](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [Communauté AEM Guides](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 
 </td>
 </tr>
