@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 30cc2448fbc386901ec2a71f4d226ca3b01d905e
+source-git-commit: ea5982aa0802068c9adc6ba38764f7102850996e
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '353'
 ht-degree: 6%
 ---
 # Documentation de Experience Manager Guides
@@ -120,6 +120,16 @@ Créez et modifiez du contenu structuré à l’aide des fonctionnalités d’é
 :::
 
 :::card
+![Icône de l’assistant AI](../assets/ai-author.png)
+
+Assistant IA
+
+Accélérez la création de contenu, trouvez des réponses et appliquez des balises intelligentes avec une assistance optimisée par l’IA.
+
+[Assistant IA](./user-guide/ai-assistant.md)
+:::
+
+:::card
 ![Icône Vérifier](../assets/review.png)
 
 Révision
@@ -157,16 +167,6 @@ Rapports
 Évaluation de l’intégrité du contenu, gestion des métadonnées, identification des liens rompus et analyse de la réutilisation du contenu.
 
 [Génération de rapports](./user-guide/reports-intro.md)
-:::
-
-:::card
-![Icône Configuration](../assets/configure.png)
-
-Configuration
-
-Configurez les profils, les modèles, les attributs conditionnels, les paramètres prédéfinis de sortie et les paramètres de l’éditeur.
-
-[Configuration des profils de dossier](./install-conf-guide/conf-profiles.md)
 :::
 
 ::::
