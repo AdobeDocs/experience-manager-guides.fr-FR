@@ -1,9 +1,9 @@
 ---
 title: Notes de mise à jour | Correction de problèmes dans Adobe Experience Manager Guides, version 2026.11.0
 description: Découvrez les correctifs de bugs de la version 2026.11.0 d’Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: f33da832def2bf2cc8caf46f3b6f8102bcfafb19
+source-git-commit: 0ebd3941a6ea5160c86e68a9ca6bdda50900a78d
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
@@ -102,12 +102,12 @@ Lorsque le **suivi des modifications** est activé :
 
 - Dans la sortie Native PDF, la mise en exposant et en indice n’est pas conservée dans les entrées d’index. (GUIDES-58349)
 - Lorsque vous utilisez le même paramètre prédéfini global pour générer une sortie pour différents mappages, la sélection de rubrique de la carte précédente peut affecter la sortie de la nouvelle carte. (GUIDES-58346)
-- Lorsqu’un mappage de livres contient un chapitre avec un `href` valide et une référence de rubrique imbriquée, la publication du mappage dans AEM Sites donne lieu à une page vierge. (GUIDES-58266)
+- La publication d’un bookmap entraîne parfois l’affichage d’une page vierge lorsque, dans un scénario spécifique, un `<chapter>` définit simultanément une cible de `href` directe et que ce chapitre contient des éléments enfants `<topicref>` imbriqués. (GUIDES-58266)
 - Lorsque vous accédez à l’onglet **Historique de sortie** à partir d’un paramètre prédéfini avec des modifications non enregistrées, les boutons **Enregistrer** et **Générer la sortie** restent visibles. (GUIDES-57989)
 - Lorsqu’un workflow de post-publication est configuré pour un préréglage, la durée de publication indiquée dans **Historique de sortie** n’inclut pas le temps pris par le workflow. (GUIDES-57856)
 - Vous ne pouvez pas annuler la génération de sortie Native PDF à partir de la page **Historique de sortie**. (GUIDES-57821)
 
 ### Révision
 
-- L’ouverture d’une tâche de révision créée dans la version 2026.08.0 ou 2026.09.0 peut entraîner des erreurs d’application. (GUIDES-56583) <br>**Solution :** terminez ou fermez toutes les tâches de révision créées dans ces versions avant la mise à niveau vers la version 2026.11.0.
+- L’ouverture d’une tâche de révision créée dans la version 2026.08.0 ou 2026.09.0 entraîne parfois une erreur d’application lorsque le contenu révisé contient *toute annotation de révision* avec des espaces insécables (`&nbsp;`). (GUIDES-56583) <br>**Solution :** terminez ou fermez toutes les tâches de révision créées dans ces versions.
 

@@ -10,9 +10,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: b5e241987a89ab974c71f3ec7283c668fedb164b
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '596'
 ht-degree: 4%
 ---
 # Instructions de mise à niveau vers la version 5.1.0 Service Pack 4 (avril 2026)
@@ -30,7 +30,7 @@ Cette section répertorie la matrice de compatibilité pour les applications log
 | 5.1.0 Service Pack 4 (UUID) | 6.5 LTS | 1 |
 | 5.1.0 Service Pack 4 (UUID) | 6.5 | 23, 22, 21 |
 
-Pour plus d&#39;informations, consultez la section [Exigences techniques](../install-guide/download-install-technical-requirements.md) dans le Guide d&#39;installation et de configuration On-Premise.
+Pour plus d&#39;informations, consultez la section [Exigences techniques](../install-conf-guide/aemg-technical-requirements.md) dans le Guide d&#39;installation et de configuration On-Premise.
 
 ### FrameMaker et FrameMaker Publishing Server
 
@@ -75,7 +75,7 @@ Avant de procéder à la mise à niveau vers la version 5.1.0 Service Pack 4 de 
 - Si vous utilisez la version 5.1.0 ou 5.1.x, vous pouvez directement effectuer la mise à niveau vers la version 5.1.0 du Service Pack 4.
 - Si vous utilisez la version 4.6.0, 4.6.x, 5.0.0 ou 5.0.x, vous devez effectuer la mise à niveau vers la version 5.1.0.
 - Si vous utilisez la version 4.6.3, 4.6.1, 4.6 ou 4.4, vous devez effectuer la mise à niveau vers la version 5.0.0.
-- Si vous utilisez la version 4.3.x, 4.2, 4.2.1 (correctif 4.2.1.3), 4.1 ou 4.1.x, vous devez effectuer la mise à niveau vers la version 4.4 avant d’effectuer la mise à niveau vers la version 5.0.0.
+- Si vous utilisez la version 4.3.x, 4.2, 4.2.1 (correctif 4.2.1.3), 4.1 ou 4.1.x, vous devez effectuer une mise à niveau vers la version 4.4 avant de passer à la version 5.0.0.
 - Si vous utilisez la version 4.0, vous devez effectuer la mise à niveau vers la version 4.2 avant d’effectuer la mise à niveau vers la version 4.3.x.
 - Si vous utilisez la version 3.8.5, vous devez effectuer la mise à niveau vers la version 4.0 avant de passer à la version 4.2.
 - Si vous utilisez une version antérieure à la version 3.8.5, reportez-vous à la section Mise à niveau de Experience Manager Guides dans le guide d’installation spécifique au produit disponible sur [l’archive PDF d’aide d’Adobe Experience Manager Guides](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
