@@ -10,18 +10,18 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-    internal-label: Publishing
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - 
+    id: ab01a588-7dea-43f2-a699-0b3f128465d6
     internal-label: Authoring
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-    internal-label: Configuration
   - id: d90290ec-3e61-4ebd-8649-bcafe0836803
     internal-label: Reports
-  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
-    internal-label: Authoring and publishing content
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: afb45297-4313-4f67-818e-bc0b03abe086
     internal-label: Knowledge base
+
 subfeature_v2:
   - id: aad65a09-20cc-4780-ad44-329d14dc8481
     internal-label: Workflows
@@ -38,12 +38,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: ea5982aa0802068c9adc6ba38764f7102850996e
+source-git-commit: 7192c61ae75791247e8d98f7f99bc68594233bd3
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 6%
@@ -58,7 +62,7 @@ Experience Manager Guides est un système de gestion de contenu d’entreprise a
 
 ::::landing-cards-container
 :::card
-![&#x200B; Icône Administrateurs &#x200B;](../assets/admin.png)
+![Icône Administrateurs](../assets/admin.png)
 
 Administrateurs
 
@@ -68,7 +72,7 @@ Configurez les profils de dossier, les autorisations, les paramètres de workflo
 :::
 
 :::card
-![&#x200B; Icône Auteurs &#x200B;](../assets/author.png)
+![Icône Auteurs](../assets/author.png)
 
 Auteurs
 
@@ -78,7 +82,7 @@ Créez et gérez des rubriques, des mappages, une réutilisation du contenu et d
 :::
 
 :::card
-![icône Éditeurs](../assets/publisher.png)
+![Icône Éditeurs](../assets/publisher.png)
 
 Editeurs
 
@@ -120,7 +124,7 @@ Créez et modifiez du contenu structuré à l’aide des fonctionnalités d’é
 :::
 
 :::card
-![Icône de l’assistant AI](../assets/ai-author.png)
+Icône de l’assistant AI ![1](../assets/ai-author.png)
 
 Assistant IA
 
@@ -140,7 +144,7 @@ Créez et gérez des tâches de révision, collaborez sur des commentaires et tr
 :::
 
 :::card
-![&#x200B; Icône de publication &#x200B;](../assets/publishing.png)
+![Icône de publication](../assets/publishing.png)
 
 Publication
 
@@ -150,7 +154,7 @@ Configurez et générez une sortie sur AEM Sites, PDF, HTML5, EPUB, JSON et d’
 :::
 
 :::card
-![&#x200B; Icône de traduction &#x200B;](../assets/translation.png)
+![Icône de traduction](../assets/translation.png)
 
 Traduction
 
@@ -160,7 +164,7 @@ Traduisez du contenu à l’aide de workflows de traduction humaine ou automatiq
 :::
 
 :::card
-![icône Rapports](../assets/reports.png)
+![Icône Rapports](../assets/reports.png)
 
 Rapports
 
@@ -201,7 +205,7 @@ Découvrez les nouvelles fonctionnalités améliorées introduites dans la derni
 
 Découvrez les dernières notes de mise à jour et mises à jour de produits pour les déploiements dans le cloud et On-Premise.
 
-- Versions cloud | [Afficher les notes de mise à jour](./release-info/latest-release-info-cs.md)
+- Versions du cloud | [Afficher les notes de mise à jour](./release-info/latest-release-info-cs.md)
 - Versions On-Premise | [Afficher les notes de mise à jour](./release-info/latest-release-info.md)
 
 [Afficher la feuille de route de la version](./release-info/aem-guides-releases-roadmap.md)
