@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '223'
 ht-degree: 0%
 ---
 # Modification, duplication ou suppression d’un paramètre prédéfini de sortie {#id205BEH0K09Z}
@@ -38,11 +38,11 @@ Vous pouvez gérer les paramètres prédéfinis de sortie à partir de la consol
 
 Vous pouvez modifier le paramètre prédéfini de sortie sélectionné en modifiant directement les champs obligatoires pour les paramètres prédéfinis nécessaires.
 
-De plus, vous pouvez dupliquer ou supprimer un paramètre prédéfini de sortie à l’aide du menu déroulant **Options** comme illustré ci-dessous.
+De plus, vous pouvez dupliquer ou supprimer un paramètre prédéfini de sortie à l’aide du menu déroulant **Options**, comme illustré ci-dessous.
 
 >[!NOTE]
 >
->Vous ne pouvez pas modifier, dupliquer ou supprimer un paramètre prédéfini de modèle. Ces actions sont limitées aux administrateurs. Pour en savoir plus sur les paramètres prédéfinis de modèle, voir [&#x200B; Paramètres prédéfinis de modèle &#x200B;](../install-conf-guide/template-presets-output-generation.md).
+>Vous ne pouvez pas modifier, dupliquer ou supprimer un paramètre prédéfini de modèle. Ces actions sont limitées aux administrateurs. Pour en savoir plus sur les paramètres prédéfinis de modèle, voir [Paramètres prédéfinis de modèle](../install-conf-guide/template-presets-output-generation.md).
 
 
 ![](images/delete-preset-map-console.png)
@@ -50,10 +50,14 @@ De plus, vous pouvez dupliquer ou supprimer un paramètre prédéfini de sortie 
 
 ## Utilisation du tableau de bord des cartes
 
+>[!NOTE]
+>
+>À compter de la version 2027.01.0 de Cloud Service et de la version 5.4 d’On-Premise de Experience Manager Guides , la fonctionnalité de tableau de bord des cartes sera abandonnée pour les nouveaux clients. Toutefois, elle restera activée pour les clients qui l’utilisent déjà. Si vous souhaitez désactiver le tableau de bord des cartes, contactez votre équipe du succès client. Il est dorénavant recommandé d’utiliser la console Map pour la gestion et la publication des cartes.
+
 Vous pouvez modifier, dupliquer et supprimer un paramètre prédéfini de sortie à l’aide du tableau de bord de mappage en sélectionnant l’onglet requis dans la barre supérieure, comme illustré ci-dessous.
 
 ![](images/create-new-preset-map-dashboard-new.png)
 
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)
+**Rubrique parente :**[ Génération de sortie](generate-output.md)

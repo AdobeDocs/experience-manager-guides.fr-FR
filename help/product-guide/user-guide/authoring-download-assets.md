@@ -27,14 +27,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '934'
 ht-degree: 0%
 ---
 # Télécharger les fichiers {#id216MC0H0BE8}
 
-Vous pouvez télécharger des ressources, y compris des fichiers DITA et non DITA. Vous pouvez télécharger des ressources de plusieurs façons. Certaines méthodes sont natives à Adobe Experience Manager et d’autres sont prises en charge par Adobe Experience Manager Guides. Pour obtenir des informations sur le téléchargement des ressources natives de Adobe Experience Manager, consultez [Télécharger des ressources depuis Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=fr) dans la documentation de Adobe Experience Manager. La section suivante explique le mécanisme de téléchargement des fichiers dans Experience Manager Guides.
+Vous pouvez télécharger des ressources, y compris des fichiers DITA et non DITA. Vous pouvez télécharger des ressources de plusieurs façons. Certaines méthodes sont natives à Adobe Experience Manager et d’autres sont prises en charge par Adobe Experience Manager Guides. Pour obtenir des informations sur le téléchargement des ressources natives de Adobe Experience Manager, consultez [Téléchargement de ressources depuis Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) dans la documentation de Adobe Experience Manager. La section suivante explique le mécanisme de téléchargement des fichiers dans Experience Manager Guides.
 
 ## Télécharger un fichier de plan DITA à partir de l&#39;éditeur
 
@@ -53,16 +53,16 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA à pa
 
 1. Dans la boîte de dialogue Télécharger la carte , vous pouvez choisir les options suivantes :
 
-   - **Utiliser une ligne de base** : sélectionnez cette option pour obtenir la liste des lignes de base créées pour le plan DITA. Pour télécharger le fichier de mappage et son contenu en fonction d&#39;une ligne de base spécifique, sélectionnez la ligne de base dans la liste déroulante. Pour plus d&#39;informations sur l&#39;utilisation des lignes de base, voir [Utilisation des lignes de base](generate-output-use-baseline-for-publishing.md#).
+   - **Utiliser une ligne de base** : sélectionnez cette option pour obtenir la liste des lignes de base créées pour le plan DITA. Pour télécharger le fichier de mappage et son contenu en fonction d&#39;une ligne de base spécifique, sélectionnez la ligne de base dans la liste déroulante. Pour plus d&#39;informations sur l&#39;utilisation des lignes de base, consultez [Utilisation des lignes de base](generate-output-use-baseline-for-publishing.md#).
 
-   - **Options de hiérarchie de fichiers** : vous pouvez également utiliser la liste déroulante de hiérarchie de fichiers pour choisir comment la structure de dossiers est gérée pour vos fichiers de mappage téléchargés. Les options disponibles sont les suivantes :
+   - **Options de hiérarchie de fichiers** : vous pouvez également utiliser la liste déroulante de hiérarchie de fichiers pour choisir comment la structure de dossiers est gérée pour vos fichiers map téléchargés. Les options disponibles sont les suivantes :
 
      - **Conserver la hiérarchie de fichiers** : sélectionnez cette option dans la liste déroulante pour conserver la structure de dossiers existante pour les fichiers téléchargés.
-     - **Aplatir la hiérarchie de fichiers** : sélectionnez cette option dans la liste déroulante pour télécharger toutes les rubriques et tous les fichiers multimédias référencés dans un seul dossier.
+     - **Aplatir la hiérarchie des fichiers** : sélectionnez cette option dans la liste déroulante pour télécharger toutes les rubriques et tous les fichiers multimédias référencés dans un seul dossier.
 
      Pour chaque option, vous pouvez spécifier davantage la manière dont les noms de fichier sont gérés pour les fichiers téléchargés. Les options de nom de fichier suivantes sont disponibles :
 
-     - **Utiliser le nom de fichier GUID** : télécharge le fichier map avec GUID comme nom de fichier.
+     - **Utiliser le nom de fichier GUID** : télécharge le fichier de mappage avec GUID comme nom de fichier.
      - **Utiliser le nom de fichier réel** : télécharge le fichier de mappage avec son nom de fichier d’origine. Lorsque cette option est utilisée avec la hiérarchie de fichiers d&#39;aplatissement, tous les noms de fichiers en double dans la carte sont automatiquement résolus en ajoutant des suffixes numériques (_2, _3, etc.) pour garantir des noms de fichiers uniques.
 
    >[!NOTE]
@@ -80,15 +80,19 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA à pa
 
    ![](images/download-map-success-message.png){width="550"}
 
-1. Sélectionnez **Télécharger** pour télécharger le fichier de mappage au format `.zip`. Vous pouvez également le télécharger ultérieurement à partir de la boîte de réception AEM.
+1. Sélectionnez **Télécharger** pour télécharger le fichier map au format `.zip`. Vous pouvez également le télécharger ultérieurement à partir de la boîte de réception AEM.
 
    >[!NOTE]
    >
    > Par défaut, les cartes téléchargées restent pendant cinq jours dans la boîte de réception de notifications de Adobe Experience Manager.
 
-Une fois la carte téléchargée, vous pouvez sélectionner la carte et utiliser l’icône Ouvrir en haut pour ouvrir le contenu téléchargé. Pour afficher les métadonnées associées à la carte téléchargée, ouvrez le fichier `metdata.json` inclus dans le contenu téléchargé. Ce fichier est disponible pour les deux options *Hiérarchie des fichiers* - Aplatir la hiérarchie des fichiers et Conserver la hiérarchie des fichiers.
+Une fois la carte téléchargée, vous pouvez sélectionner la carte et utiliser l’icône Ouvrir en haut pour ouvrir le contenu téléchargé. Pour afficher les métadonnées associées de la carte téléchargée, ouvrez le fichier `metdata.json` inclus dans le contenu téléchargé. Ce fichier est disponible pour les deux options *Hiérarchie de fichiers* - Aplatir la hiérarchie de fichiers et Conserver la hiérarchie de fichiers.
 
 ## Télécharger un fichier de mappage DITA à partir du tableau de bord de mappage
+
+>[!NOTE]
+>
+>À compter de la version 2027.01.0 de Cloud Service et de la version 5.4 d’On-Premise de Experience Manager Guides , la fonctionnalité de tableau de bord des cartes sera abandonnée pour les nouveaux clients. Toutefois, elle restera activée pour les clients qui l’utilisent déjà. Si vous souhaitez désactiver le tableau de bord des cartes, contactez votre équipe du succès client. Il est dorénavant recommandé d’utiliser la console Map pour la gestion et la publication des cartes.
 
 Une fois que vous disposez du fichier de mappage DITA dans le référentiel Adobe Experience Manager, vous pouvez télécharger le fichier de mappage ainsi que ses dépendants. Vous avez ainsi la possibilité de partager le fichier de mappage complet pour la modification, la validation, la révision hors ligne ou simplement la création d’une sauvegarde.
 
@@ -100,7 +104,7 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA avec 
 
 1. Sélectionnez l&#39;onglet **Rubriques** pour afficher la liste des rubriques disponibles dans le plan DITA.
 
-1. Dans la barre d’outils principale, sélectionnez **Télécharger la carte**.
+1. Dans la barre d’outils principale, sélectionnez **Télécharger le mappage**.
 
    La boîte de dialogue Télécharger la carte s’affiche.
 
@@ -108,9 +112,9 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA avec 
 
 1. Sélectionnez **Télécharger**. Dans la boîte de dialogue Télécharger la carte , vous pouvez choisir les options suivantes :
 
-   - **Utiliser niveau de référence** : sélectionnez cette option pour obtenir la liste des niveaux de référence créés pour le plan DITA. Pour télécharger le fichier de mappage et son contenu en fonction d&#39;une ligne de base spécifique, sélectionnez la ligne de base dans la liste déroulante. Pour plus d&#39;informations sur l&#39;utilisation des lignes de base, voir [Utilisation des lignes de base](generate-output-use-baseline-for-publishing.md#).
+   - **Utiliser la ligne de base** : sélectionnez cette option pour obtenir la liste des lignes de base créées pour le plan DITA. Pour télécharger le fichier de mappage et son contenu en fonction d&#39;une ligne de base spécifique, sélectionnez la ligne de base dans la liste déroulante. Pour plus d&#39;informations sur l&#39;utilisation des lignes de base, consultez [Utilisation des lignes de base](generate-output-use-baseline-for-publishing.md#).
 
-   - **Aplatir la hiérarchie de fichiers** : sélectionnez cette option pour enregistrer toutes les rubriques et tous les fichiers multimédias référencés dans un seul dossier.
+   - **Aplatir la hiérarchie des fichiers** : sélectionnez cette option pour enregistrer toutes les rubriques et tous les fichiers multimédias référencés dans un seul dossier.
 
 
    >[!NOTE]
@@ -121,7 +125,7 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA avec 
 
    ![](images/download-map-prompt.png){width="550"}
 
-   - Sélectionnez **Télécharger** pour télécharger le fichier de mappage au format .zip.
+   - Sélectionnez **Télécharger** pour télécharger le fichier de mappage au format in.zip.
 
    - Sélectionnez **Télécharger ultérieurement** pour télécharger le fichier de mappage ultérieurement. Le lien de téléchargement est accessible à partir de la boîte de réception de notifications Adobe Experience Manager. Sélectionnez la notification de mappage générée dans la boîte de réception pour télécharger le mappage au format .zip.
 
@@ -133,4 +137,4 @@ Effectuez les étapes suivantes pour télécharger un fichier de plan DITA avec 
 
 Une fois la carte téléchargée, vous pouvez sélectionner la carte et utiliser l’icône Ouvrir en haut pour ouvrir le contenu téléchargé.
 
-**Rubrique parente :**&#x200B;[&#x200B; Gérer le contenu](authoring.md)
+**Rubrique parente :**[ Gérer le contenu](authoring.md)

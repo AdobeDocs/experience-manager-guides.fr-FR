@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: b4ab0b62f5e4a863a7ae061fbd5f21330921b27d
+source-git-commit: 5a65f5e9fc14df1548491321aa3a3356b6a91c12
 workflow-type: tm+mt
-source-wordcount: '2701'
+source-wordcount: '2708'
 ht-degree: 11%
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 11%
   - [Feuille de route des versions d’AEM Guides](./release-info/aem-guides-releases-roadmap.md)
   - Notes de mise à jour {#release-notes}
     - Services cloud {#cloud-release-notes}
-      - {hide-from-toc}[&#x200B; Instructions de déploiement &#x200B;](./release-info/deploy-xml-on-aemaacs.md)
+      - {hide-from-toc}[Instructions De Déploiement](./release-info/deploy-xml-on-aemaacs.md)
       - [Versions cloud](./release-info/latest-release-info-cs.md)
       - Versions De 2026 {#2026-releases}
         - Version 2026.11.0 {#2611-release}
@@ -50,8 +50,8 @@ ht-degree: 11%
           - [Instructions de mise à niveau](./release-info/upgrade-instructions-2026-04-0.md)
         - Version 2026.03.0 {#2603-release}
           - {hide-from-toc}[Nouveautés](./release-info/whats-new-2026-03-0.md)
-          - {hide-from-toc}[Correction de problèmes](./release-info/fixed-issues-2026-03-0.md)
-          - {hide-from-toc}[&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-2026-03-0.md)
+          - {hide-from-toc}[Problèmes résolus](./release-info/fixed-issues-2026-03-0.md)
+          - {hide-from-toc}[Instructions de mise à niveau](./release-info/upgrade-instructions-2026-03-0.md)
         - Version 2026.01.0 {#2601-release}
           - [Nouveautés](./release-info/whats-new-2026-01-0.md)
           - [Problèmes résolus](./release-info/fixed-issues-2026-01-0.md)
@@ -147,6 +147,9 @@ ht-degree: 11%
         - [Notes de mise à jour de janvier](./release-info/release-notes-2022-1-0.md)
     - On-prem/Managed Services {#on-prem-release-notes}
       - [[!DNL AEM Guides] versions](./release-info/latest-release-info.md)
+      - Version 5.2.0 SP3 {#520-sp3-release}
+        - [Problèmes résolus](./release-info/fixed-issues-5-2-0-sp3.md)
+        - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-2-0-sp3.md)
       - Version 5.2.0 SP1 {#520-sp1-release}
         - [Nouveautés](./release-info/whats-new-5-2-1.md)
         - [Problèmes résolus](./release-info/fixed-issues-5-2-0-sp1.md)
@@ -174,7 +177,7 @@ ht-degree: 11%
         - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0-sp4.md)
       - Version 5.0.0 SP3 {#500-sp3-release}
         - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp3.md)
-        - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-5-0-0-sp3.md)
+        - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0-sp3.md)
       - Version 5.0.0 SP2 {#500-sp2-release}
         - [Problèmes résolus](./release-info/fixed-issues-5-0-0-sp2.md)
         - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0-sp2.md)
@@ -186,17 +189,17 @@ ht-degree: 11%
         - [Problèmes résolus](./release-info/fixed-issues-5-0-0.md)
         - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-0-0.md)
       - Version 4.6.0 SP4 {#460-sp4-release}
-        - [Correction de problèmes](./release-info/fixed-issues-4-6-0-sp4.md)
+        - [Problèmes résolus](./release-info/fixed-issues-4-6-0-sp4.md)
         - [Instructions de mise à niveau](./release-info/upgrade-instructions-4-6-0-sp4.md)
       - Version 4.6.0 SP3 {#460-sp3-release}
-        - [Correction de problèmes](./release-info/fixed-issues-4-6-0-sp2.md)
+        - [Problèmes résolus](./release-info/fixed-issues-4-6-0-sp2.md)
         - [Instructions de mise à niveau](./release-info/upgrade-instructions-4-6-0-sp2.md)
       - Version 4.6.0 SP1 {#460-sp1-release}
-        - [Correction de problèmes](./release-info/fixed-issues-4-6-0-sp1.md)
-        - [&#x200B; Instructions de mise à niveau &#x200B;](./release-info/upgrade-instructions-4-6-0-sp1.md)
+        - [Problèmes résolus](./release-info/fixed-issues-4-6-0-sp1.md)
+        - [Instructions de mise à niveau](./release-info/upgrade-instructions-4-6-0-sp1.md)
       - Version 4.6.0 {#460-release}
         - [Nouveautés](./release-info/whats-new-4-6.md)
-        - [Correction de problèmes](./release-info/fixed-issues-4-6-0.md)
+        - [Problèmes résolus](./release-info/fixed-issues-4-6-0.md)
         - [Instructions de mise à niveau](./release-info/upgrade-instructions-4-6-0.md)
       - Version 4.4.0 {#440-release}
         - [Nouveautés](./release-info/whats-new-4-4.md)
@@ -224,10 +227,10 @@ ht-degree: 11%
       - [Notes de mise à jour 3.8.x](./release-info/release-notes-3-8.md)
 - Guide de l’utilisateur (nouvelle interface utilisateur) {#user-guide}
   - Présentation {#about-aemg}
-    - [À propos  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
-    - Fonctionnalités [!DNL AEM Guides] et clés {#aemg-works-features}
-      - [Fonctionnement  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-      - [Fonctionnalités [!DNL AEM Guides] clés](./user-guide/intro-dxml-features.md)
+    - [À propos de [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
+    - [!DNL AEM Guides] fonctionnalités de travail et fonctionnalités clés {#aemg-works-features}
+      - [Fonctionnement de [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+      - [Fonctionnalités clés [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
   - Page d’accueil {#home-page}
     - [Expérience de la page d’accueil [!DNL AEM Guides]](./user-guide/intro-home-page.md)
     - [Interface du référentiel](./user-guide/home-page-repository-view.md)
@@ -252,13 +255,13 @@ ht-degree: 11%
         - [Zone d&#39;édition du contenu](./user-guide/web-editor-content-editing-area.md)
         - [Panneau de droite](./user-guide/web-editor-right-panel.md)
         - [Panneau de recherche](./user-guide/search-panel-explorer.md)
-      - [Fonctionnalités supplémentaires de l’éditeur](./user-guide/web-editor-other-features.md)
+      - [Fonctionnalités supplémentaires dans l’éditeur](./user-guide/web-editor-other-features.md)
       - [Raccourcis clavier dans l’éditeur](./user-guide/web-editor-keyboard-shortcuts.md)
       - [Vues de l’éditeur](./user-guide/web-editor-views.md)
       - [Prise en charge des fichiers Schematron](./user-guide/support-schematron-file.md)
       - [Créer des documents Markdown à partir de l’éditeur](./user-guide/web-editor-markdown-topic.md)
       - [Ajouter des citations à votre contenu](./user-guide/web-editor-apply-citations.md)
-      - [Utiliser des données provenant de vos sources de données](./user-guide/web-editor-content-snippet.md)
+      - [Utiliser les données de vos sources de données](./user-guide/web-editor-content-snippet.md)
       - [Importer du contenu à l’aide du connecteur Git](./user-guide/web-editor-git-connector.md)
       - [Etat du document](./user-guide/web-editor-document-states.md)
       - [Utiliser des libellés](./user-guide/web-editor-use-label.md)
@@ -306,7 +309,7 @@ ht-degree: 11%
       - [Rapport DITA map à partir du tableau de bord Map](./user-guide/reports-ditamap.md)
       - [Rapport sur la réutilisation du contenu](./user-guide/reports-content-reuse.md)
       - [Rapport sur le statut de la conversion](./user-guide/reports-convertion-status.md)
-      - [Rapport Historique des versions des fichiers rétablis](./user-guide/reports-reverted-file-version-history.md)
+      - [Rapport sur l&#39;historique des versions des fichiers inversés](./user-guide/reports-reverted-file-version-history.md)
     - Traduction de contenu {#translate-content}
       - [Présentation de la traduction de contenu](./user-guide/translation.md)
       - [Bonnes pratiques relatives à la traduction de contenu](./user-guide/translation-first-time.md)
@@ -380,17 +383,17 @@ ht-degree: 11%
       - [Créer le premier brouillon de votre contenu](./user-guide/create-ai-assistant.md)
       - [Balisage intelligent avec l’assistant AI](./user-guide/ai-assistant-agentic.md)
     - Assistant d’IA en mode standard {#ai-assistant-standard}
-      - [Assistant AI Création pour créer des documents intelligemment](./user-guide/ai-assistant-right-panel.md)
+      - [Assistant AI Création pour créer des documents de manière intelligente](./user-guide/ai-assistant-right-panel.md)
       - [Suggestions intelligentes optimisées par l’IA pour créer du contenu](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [Questions fréquentes](./user-guide/ai-assistant-faq.md)
   - Assistant d’aide dans AEM Guides {#help-assistant-aem}
-    - [&#x200B; Aide intelligente optimisée par l’IA pour rechercher du contenu](./user-guide/ai-based-smart-help.md)
+    - Aide intelligente optimisée par l’IA [pour rechercher du contenu](./user-guide/ai-based-smart-help.md)
   - Gérer le contenu de formation {#learning-training-content}
     - Guide de prise en main {#get-started}
       - Présentation {#intro-lc}
         - {hide-from-toc}[Notes de mise à jour](./release-info-lt/release-notes-lt-2025-12-v2.md)
         - {hide-from-toc}[Notes de mise à jour](./release-info-lt/release-notes-lt-2026-02-v3.md)
-        - [Présentation du contenu de formation](./learning-content/intro.md)
+        - [Présentation du contenu d’apprentissage et de formation](./learning-content/intro.md)
       - Configurer votre cours {#setup-course}
         - [Présentation du cours](./learning-content/course-overview.md)
         - [Exploration de l’interface et des conditions préalables](./learning-content/access-lc-interface-preq.md)
@@ -410,10 +413,10 @@ ht-degree: 11%
         - [Créer un quiz](./learning-content/create-quiz.md)
         - [Modifier le quiz](./learning-content/edit-quiz.md)
         - [Insérer des questions dans un quiz](./learning-content/quiz-insert-questions.md)
-        - [&#x200B; Propriétés du quiz &#x200B;](./learning-content/quiz-properties.md)
+        - [Propriétés du quiz](./learning-content/quiz-properties.md)
         - Banque de questions {#question-bank}
           - [Créer une banque de questions](./learning-content/create-qb.md)
-          - [Insérer des questions depuis la banque de questions](./learning-content/insert-questions.md)
+          - [Insérer des questions à partir de la banque de questions](./learning-content/insert-questions.md)
       - Publier votre cours {#publish-course}
         - [À propos de la publication de cours](./learning-content/publish-overview.md)
         - [Préréglages pris en charge](./learning-content/course-presets.md)
@@ -447,7 +450,7 @@ ht-degree: 11%
     - Gestion des performances {#performance-management}
       - [Chargement paginé de fichiers et de dossiers](./user-guide/paginated-loading-assets.md)
 - Guide de l’utilisateur (ancienne interface utilisateur) {#user-guide-old-ui}
-  - [Présentation d’AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Présentation d’AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation et configuration {#install-conf-guide}
   - [Téléchargement, installation et mise à niveau](./install-conf-guide/introduction.md)
   - Processus d’installation de Cloud Service {#deploy-conf-aemg-cs}
@@ -465,9 +468,9 @@ ht-degree: 11%
       - [Configuration supplémentaire pour la mise à niveau d’AEM Guides as a Cloud Service](./install-conf-guide/additional-config-for-upgrade.md)
       - [Remplacements de configuration pour Cloud Service](./install-conf-guide/download-install-config-override.md)
     - On-Premise {#on-prem}
-      - [Mettre à niveau AEM Guides On-Premise 4.6.0 et versions ultérieures](./install-conf-guide/upgrade-aemg-latest-version.md)
+      - [Mise à niveau d’AEM Guides On-Premise 4.6.0 et versions ultérieures](./install-conf-guide/upgrade-aemg-latest-version.md)
       - [Mise à niveau des versions antérieures d’AEM Guides On-Premise](./install-conf-guide/upgrade-aemg-prev-versions.md)
-      - [Mises à jour de configuration pour les versions de Experience Manager Guides](./install-conf-guide/configuration-on-prem.md)
+      - [Mises à jour de la configuration pour les versions de Experience Manager Guides](./install-conf-guide/configuration-on-prem.md)
   - Recommandations pour l’optimisation des performances {#performance-optimization-aemg}
     - [Optimisation des performances pour Cloud Service](./install-conf-guide/perf-optimization-cs.md)
     - [Optimisation des performances pour On-Premise](./install-conf-guide/perf-optimization-on-prem.md)
@@ -477,11 +480,11 @@ ht-degree: 11%
     - [Utiliser la commande Curl pour charger le contenu DITA](./install-conf-guide/use-curl-command.md)
     - [Configurer le modèle de fichier UUID](./install-conf-guide/conf-uuid-filename-pattern.md)
     - [Migration de contenu non DITA](./install-conf-guide/non-dita-content.md)
-    - [Migration de contenu d’On-premise vers Cloud Service](./install-conf-guide/migrate-on-premise-content-cloud.md)
+    - [Migrer du contenu On-premise vers Cloud Service](./install-conf-guide/migrate-on-premise-content-cloud.md)
     - Processus de migration pour On-premise {#migration-process-on-prem}
       - [Migration de contenu non UUID vers UUID](./install-conf-guide/uuid-non-uuid.md)
       - [4.3.1 migration de contenu non UUID vers 4.3.2 UUID](./install-conf-guide/non-uuid-4-3.md)
-      - [migration de contenu non UUID vers 4.6.1 UUID](./install-conf-guide/non-uuid-uuid-4-6.md)
+      - [4.6.0 migration de contenu non UUID vers 4.6.1 UUID](./install-conf-guide/non-uuid-uuid-4-6.md)
   - DITA-OT personnalisé et spécialisation {#custom-dita-ot-cs}
     - [Utilisation de la spécialisation DITA-OT et DITA personnalisée](./install-conf-guide/dita-ot-specialization.md)
   - Groupes d’utilisateurs et sécurité {#user-group-sec-cs}
@@ -496,7 +499,7 @@ ht-degree: 11%
       - [Configuration du post-traitement pour un dossier](./install-conf-guide/conf-folder-post-processing.md)
     - [Gestion des versions](./install-conf-guide/version-management.md)
     - [Configurer le nettoyage de l’arborescence B](./install-conf-guide/conf-btree-cleanup.md)
-    - [Configuration de la réplication des ressources DITA](./install-conf-guide/conf-dita-asset-replication.md)
+    - [Configurer la réplication des ressources DITA](./install-conf-guide/conf-dita-asset-replication.md)
   - Configurations de l’éditeur {#editor-configs}
     - [Personnaliser l’éditeur](./install-conf-guide/customize-overview.md)
     - [Personnaliser la barre d’outils](./install-conf-guide/customize-toolbar.md)
@@ -506,7 +509,7 @@ ht-degree: 11%
     - [Inclure l’attribut @navtitle par défaut](./install-conf-guide/auto-add-navtitle.md)
     - [Configurer l’affichage des liens basés sur l’UUID](./install-conf-guide/conf-uuid-based-links.md)
     - [Ouvrir la rubrique DITA ou mapper des fichiers dans le même onglet](./install-conf-guide/open-dita-files-same-tab.md)
-    - [Définir l’éditeur de carte avancé par défaut](./install-conf-guide/conf-default-map-editor.md)
+    - [Définir l&#39;éditeur de carte avancé comme valeur par défaut](./install-conf-guide/conf-default-map-editor.md)
     - [Configuration de l’enregistrement automatique des fichiers dans l’éditeur](./install-conf-guide/conf-auto-save-in-editor.md)
     - [Configurer l&#39;invite pour enregistrer en tant que nouvelle version à la fermeture](./install-conf-guide/conf-save-as-new-version-close.md)
     - [Configurer l&#39;invite pour archiver un fichier à la fermeture](./install-conf-guide/conf-checkin-file-close.md)
@@ -518,13 +521,13 @@ ht-degree: 11%
     - [Configuration de la liste d’exclusion des propriétés de métadonnées](./install-conf-guide/conf-metadata-prop.md)
     - Paramètre de l’éditeur pour Cloud Service {#editor-cloud-settings}
       - [Configuration de l’assistant AI en mode Agence pour Cloud Service](./install-conf-guide/configure-ai-assistant-agentic-mode-cs.md)
-      - [Configurer les suggestions intelligentes optimisées par l’IA pour la création dans Cloud Service](./install-conf-guide/conf-smart-suggestions.md)
+      - [Configurer les suggestions intelligentes optimisées par l’IA pour la création pour Cloud Service](./install-conf-guide/conf-smart-suggestions.md)
       - [Configurer l’aide intelligente optimisée par l’IA pour rechercher du contenu pour Cloud Service](./install-conf-guide/conf-smart-help.md)
       - [Configurer l’option de modification dans Oxygen for Cloud Service](./install-conf-guide/conf-edit-in-oxygen.md)
-      - [Configurer l’affichage des tableaux collés pour Cloud Service](./install-conf-guide/conf-pasted-tables.md)
+      - [Configurer l&#39;affichage des tableaux collés pour Cloud Service](./install-conf-guide/conf-pasted-tables.md)
       - [Configurer la génération PDF sur une seule rubrique pour Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
       - [Configuration de la fonctionnalité de traduction dans l’éditeur pour Cloud Service](./install-conf-guide/conf-translation-editor.md)
-      - [Création et gestion des paramètres prédéfinis de contrôle de l’intégrité](./install-conf-guide/conf-health-check-preset.md)
+      - [Créer et gérer des paramètres prédéfinis de contrôle de l’intégrité](./install-conf-guide/conf-health-check-preset.md)
     - Paramètre de l’éditeur pour On-Premise {#editor-on-prem-settings}
       - [Configurer un nouvel éditeur](./install-conf-guide/conf-new-editor-on-prem.md)
       - [Configuration de caractères spéciaux supplémentaires pour On-Premise](/help/product-guide/web-editor/conf-additional-special-characters.md)
@@ -532,21 +535,21 @@ ht-degree: 11%
       - [Configurer le nombre de LimitReads pour une requête On-Premise](./install-conf-guide/conf-query-limitreads.md)
     - Connecteur de source de données {#data-source}
       - [Configuration d’un connecteur de source de données à partir de l’interface utilisateur](./install-conf-guide/conf-data-source-connector-tools.md)
-      - {hide-from-toc}[Configuration d’un connecteur de source de données pour Cloud Service](./install-conf-guide/conf-data-source-connector-cs.md)
+      - {hide-from-toc}[Configurer un connecteur de source de données pour Cloud Service](./install-conf-guide/conf-data-source-connector-cs.md)
       - {hide-from-toc}[Créer et configurer le connecteur Git à partir de l’interface utilisateur](./install-conf-guide/conf-git-connector.md)
   - Profils globaux et au niveau du dossier {#global-folder-profiles}
-    - [Configuration de profils globaux ou de niveau dossier](./install-conf-guide/conf-profiles.md)
+    - [Configurer des profils globaux ou au niveau du dossier](./install-conf-guide/conf-profiles.md)
   - Modèles de rubrique et de carte {#topic-map-template}
     - [Configurer les modèles de rubrique et de mappage](./install-conf-guide/conf-template-tags.md)
     - [Configurer un modèle de rubrique DITA personnalisé](./install-conf-guide/conf-template-tags-custom-dita-topic-template.md)
     - [Configurer un modèle de plan DITA personnalisé](./install-conf-guide/conf-template-tags-custom-dita-map-templates.md)
   - États du document {#doc-state}
     - [Configurer les états du document](./install-conf-guide/customize-doc-state.md)
-    - [Configurer des filtres d’état de document pour Cloud Service](./install-conf-guide/conf-doc-state-filters.md)
+    - [Configurer des filtres de statut de document pour Cloud Service](./install-conf-guide/conf-doc-state-filters.md)
   - Configuration des paramètres de Workspace {#workspace-configs}
-    - [Paramètres &#x200B;](./install-conf-guide/workspace-settings.md)
+    - [Paramètres Workspace](./install-conf-guide/workspace-settings.md)
   - Recherche AEM Assets {#aem-asset-search}
-    - [Configuration de la recherche pour l’interface utilisateur d’AEM Assets](./install-conf-guide/conf-dita-search.md)
+    - [Configurer la recherche pour l’interface utilisateur d’AEM Assets](./install-conf-guide/conf-dita-search.md)
   - Paramètres de génération de sortie {#output-gen-config}
     - [Configurer les paramètres de génération de sortie](./install-conf-guide/conf-output-generation.md)
     - Configurer les paramètres de sortie du site AEM {#conf-aem-sites-output}
@@ -571,17 +574,17 @@ ht-degree: 11%
         - [Ajout d’un signet personnalisé dans la sortie PDF](./native-pdf/add-custom-bookmark.md)
         - [Utilisation de JavaScript pour utiliser du contenu ou du style](./native-pdf/use-javascript-content-style.md)
         - [Application de styles aux notes de bas de page](./native-pdf/footnote-number-style.md)
-        - [Configuration du nouveau moteur de publication pour le PDF natif](./native-pdf/conf-new-pdf-engine.md)
+        - [Configurer le nouveau moteur de publication pour le PDF natif](./native-pdf/conf-new-pdf-engine.md)
       - [Utiliser le moteur PDF natif v2](./native-pdf/new-pdf-engine.md)
       - [Configurer le rendu en annexe pour le rendu map pour le PDF natif](./install-conf-guide/conf-appendix-map-ref-native-pdf.md)
-      - [Configurer le processus de nœud pour la publication native de PDF pour Cloud Service](./native-pdf/conf-node-options-cs.md)
+      - [Configurer le processus de nœud pour la publication native PDF pour Cloud Service](./native-pdf/conf-node-options-cs.md)
       - [Configurer les indicateurs JVM pour la publication native PDF pour On-Premise](./native-pdf/conf-jvm-flags-on-prem.md)
     - Configuration de fragments de contenu et d’expérience pour Cloud Service {#conf-content-exp-fragment}
       - [Créer un mappage entre une rubrique et un fragment de contenu](./install-conf-guide/conf-mapping-topic-content-fragment-cs.md)
       - [Créer un mappage entre une rubrique et un fragment d’expérience](./install-conf-guide/conf-mapping-topic-content-exp-cs.md)
-    - [Configurer la limite de taille d’entité de l’analyseur XML](./install-conf-guide/conf-xml-parsing.md)
+    - [Configurer la limite de taille d&#39;entité d&#39;analyseur XML](./install-conf-guide/conf-xml-parsing.md)
   - Personnalisation des workflows {#workflow}
-    - [Configuration et personnalisation de workflows](./install-conf-guide/conf-customize-workflows.md)
+    - [Configurer et personnaliser des workflows](./install-conf-guide/conf-customize-workflows.md)
   - Intégrations {#aemg-integrations}
     - [Intégration d’éditeurs XML de bureau](./install-conf-guide/integrate-desktop-editors.md)
     - [Configuration de Workfront pour Cloud Service](./install-conf-guide/conf-workfront.md)
@@ -596,12 +599,12 @@ ht-degree: 11%
       - [Configurer les paramètres de connexion MCP pour AEM Guides On-Premise](./install-conf-guide/configure-aem-guides-mcp-on-prem.md)
   - Extension des fonctionnalités {#aemg-customization}
     - [Déployer l’index personnalisé pour la fonctionnalité de recherche et de remplacement de Cloud Service](./install-conf-guide/custom-indexing-cs.md)
-    - [Réindexation pour la fonction Rechercher et remplacer dans On-Premise](./install-conf-guide/custom-indexing-on-prem.md)
+    - [Réindexation pour la fonctionnalité de recherche et de remplacement sur On-Premise](./install-conf-guide/custom-indexing-on-prem.md)
     - [Configuration de la fonctionnalité de recherche et de remplacement pour On-Premise](./install-conf-guide/conf-find-replace-on-prem.md)
     - [Index des rubriques dans une tâche de révision](./install-conf-guide/index-review-tasks.md)
     - [Mappage des composants pour AEM Sites](./install-conf-guide/component-mapping.md)
     - [Configuration des paramètres prédéfinis de modèle pour la génération de sortie](./install-conf-guide/template-presets-output-generation.md)
-    - {hide-from-toc}[Connecter AEM Guides à Guides Knowledge AI](./install-conf-guide/knowledge-ai-connector.md)
+    - {hide-from-toc}[Connecter AEM Guides à l’IA dédiée à la connaissance Guides](./install-conf-guide/knowledge-ai-connector.md)
   - Annexe {#appendix}
     - [Annexe](./install-conf-guide/aemg-appendix.md)
 
@@ -673,7 +676,7 @@ ht-degree: 11%
         - Widgets {#framework-widgets}
           - [Widgets de rendu](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
           - [Widgets de base](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
-        - [Modifications de la structure d’extension pour l’éditeur 2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md)
+        - [Modifications du framework d’extension pour l’éditeur 2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md)
         - [Migration de la structure d’extension vers l’éditeur 2.0](./guides-ui-extensions/getting-started/migrating-extensions-new-editor.md)
       - Prise en main {#getting-started}
         - [Présentation](./guides-ui-extensions/getting-started/introduction.md)
@@ -691,7 +694,7 @@ ht-degree: 11%
           - [Boîte de dialogue personnalisée](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
     - Source de données externe {#external-data-source}
       - [Intégration des sources de données](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
-      - [Configuration d’un connecteur de source de données](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
+      - [Configurer un connecteur de source de données](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
     - Publication {#publishing}
       - PDF natif {#native-pdf}
         - [Ajouter des polices personnalisées à votre PDF natif DITA](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
@@ -721,4 +724,4 @@ ht-degree: 11%
       - [Utilisation de contenu conditionnel](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
       - [Utilisation des clés](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
       - [Activation des variables de contenu contextuel (CCVAR) dans les pages AEM Sites générées à partir d’AEM Guides](./knowledge-base/kb-articles/publishing/enabling-contextual-content-variables-in-aem-sites-via-aemguides.md)
-  - {hide-from-toc}[Utiliser un connecteur d&#39;oxygène](./oxygen-connector/use-aem-connector.md)
+  - {hide-from-toc}[Utiliser Un Connecteur D&#39;Oxygène](./oxygen-connector/use-aem-connector.md)
