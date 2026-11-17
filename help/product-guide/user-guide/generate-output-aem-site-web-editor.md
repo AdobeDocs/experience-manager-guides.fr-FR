@@ -75,7 +75,7 @@ Pour créer le paramètre prédéfini AEM Sites à l’aide du mappage de compos
    Le paramètre prédéfini d’AEM Sites est créé.
 
 
-   ![Nouveau ](images/new-aem-sites-dialog-box.png){width="300"}
+   ![Nouveau &#x200B;](images/new-aem-sites-dialog-box.png){width="300"}
 
 <!--
 ### Generate the AEM Sites output using the templates
@@ -114,7 +114,7 @@ Dans la console Mappage , les options de configuration des paramètres prédéfi
 - Liste de sujets
 - Références de mappage croisé
 
-![Nouveau ](images/aem-sites-new-config.png){width="650"}
+![Nouveau &#x200B;](images/aem-sites-new-config.png){width="650"}
 
 **Général**
 
@@ -123,8 +123,8 @@ L&#39;onglet **Général** contient les options de configuration suivantes :
 | Options d’AEM Sites | Description |
 | --- | --- |
 | Utiliser le chemin du site | Utilisez cette option pour publier votre contenu sur un site Experience Manager. |
-| Chemin du site | **Cette option apparaît si vous sélectionnez l&#39;option** Utiliser le chemin du site ****. Parcourez le chemin d’accès prédéfini au site Experience Manager ou spécifiez un chemin d’accès personnalisé dans lequel vous souhaitez que la sortie soit publiée. L’option **Utiliser les sites** vous permet de spécifier le chemin de publication entier même si le chemin spécifié n’a pas été précréé dans la structure AEM Sites. Dans ce cas, le système crée la structure nécessaire pendant le processus de publication en utilisant le modèle de page d’accueil de mappage sélectionné.<br><br>Vous pouvez également utiliser des variables lors de la définition du chemin du site. Pour plus de détails, consultez [Utilisation de variables pour définir les options Chemin de destination, Nom du site ou Nom de fichier](./generate-output-use-variables.md) |
-| Modèle de page de carte | **Cette option apparaît si vous sélectionnez l&#39;option** Utiliser le chemin du site ****. Sélectionnez le modèle à appliquer aux pages d&#39;accueil de carte. |
+| Chemin du site | **Cette option apparaît si vous sélectionnez l&#39;option** Utiliser le chemin du site **&#x200B;**. Parcourez le chemin d’accès prédéfini au site Experience Manager ou spécifiez un chemin d’accès personnalisé dans lequel vous souhaitez que la sortie soit publiée. L’option **Utiliser les sites** vous permet de spécifier le chemin de publication entier même si le chemin spécifié n’a pas été précréé dans la structure AEM Sites. Dans ce cas, le système crée la structure nécessaire pendant le processus de publication en utilisant le modèle de page d’accueil de mappage sélectionné.<br><br>Vous pouvez également utiliser des variables lors de la définition du chemin du site. Pour plus de détails, consultez [Utilisation de variables pour définir les options Chemin de destination, Nom du site ou Nom de fichier](./generate-output-use-variables.md) |
+| Modèle de page de carte | **Cette option apparaît si vous sélectionnez l&#39;option** Utiliser le chemin du site **&#x200B;**. Sélectionnez le modèle à appliquer aux pages d&#39;accueil de carte. |
 | Site | Nom du Experience Manager Sites sur lequel vous souhaitez publier votre contenu. Les options de la liste déroulante sont renseignées en fonction de la liste des sites disponibles dans AEM Sites. <br>Sélectionnez **Actualiser** ![l’icône d’actualisation](images/navtitle-refresh-icon.svg) pour récupérer une nouvelle liste d’options et refléter les données mises à jour. |
 | Chemin de publication | Chemin d’accès dans votre référentiel AEM où la sortie est stockée. Le chemin de publication est renseigné avec tous les chemins qui contiennent les pages créées à partir du modèle Page d’accueil . La sortie AEM Sites du plan DITA est générée sous ce chemin d&#39;accès.  Par exemple, si vous spécifiez le site en tant que `AEMG-Docs` et le chemin de publication en tant que `aemg-docs-en/docs/product-abc.`, la sortie AEM Sites est générée sous le nœud `aemg-docs-en/docs/product-abc/` dans `crx/de`. |
 | Modèle de page de rubrique | Sélectionnez le modèle à appliquer à toutes les rubriques de sortie. |
@@ -183,7 +183,7 @@ Dans la console Mappage , les options de configuration des paramètres prédéfi
 - Contenu
 - Références de mappage croisé
 
-![Nouveau ](images/aem-sites-preset-legacy-config.png){width="500"}
+![Nouveau &#x200B;](images/aem-sites-preset-legacy-config.png){width="500"}
 
 **Général**
 
@@ -206,7 +206,7 @@ L&#39;onglet **Général** contient les options de configuration suivantes :
 
 **Contenu**
 
-![Nouveau ](images/aem-sites-content-tab.png){width="650"}
+![Nouveau &#x200B;](images/aem-sites-content-tab.png){width="650"}
 
 L’onglet **Contenu** contient les options de configuration suivantes :
 

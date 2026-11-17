@@ -144,4 +144,4 @@ Vous pouvez rechercher une chaîne dans la sortie AEM Sites. Par défaut, vous n
 
 Pour plus d’informations, consultez la section *Configurer l’aplatissement de la structure de nœud du site AEM* du guide Installation et configuration d’Adobe Experience Manager Guides .
 
-**Rubrique parente :**[ Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)
+**Rubrique parente :**&#x200B;[&#x200B; Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)

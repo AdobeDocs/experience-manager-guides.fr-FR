@@ -229,8 +229,8 @@ ht-degree: 11%
   - Présentation {#about-aemg}
     - [À propos de [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] fonctionnalités de travail et fonctionnalités clés {#aemg-works-features}
-      - [Fonctionnement de [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
-      - [Fonctionnalités clés [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
+      - [Fonctionnement de [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+      - [Fonctionnalités clés [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
   - Page d’accueil {#home-page}
     - [Expérience de la page d’accueil [!DNL AEM Guides]](./user-guide/intro-home-page.md)
     - [Interface du référentiel](./user-guide/home-page-repository-view.md)
@@ -387,7 +387,7 @@ ht-degree: 11%
       - [Suggestions intelligentes optimisées par l’IA pour créer du contenu](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [Questions fréquentes](./user-guide/ai-assistant-faq.md)
   - Assistant d’aide dans AEM Guides {#help-assistant-aem}
-    - Aide intelligente optimisée par l’IA [pour rechercher du contenu](./user-guide/ai-based-smart-help.md)
+    - [Aide intelligente optimisée par l’IA pour rechercher du contenu](./user-guide/ai-based-smart-help.md)
   - Gérer le contenu de formation {#learning-training-content}
     - Guide de prise en main {#get-started}
       - Présentation {#intro-lc}
