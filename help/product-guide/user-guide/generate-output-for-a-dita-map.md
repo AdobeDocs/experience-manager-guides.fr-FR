@@ -34,52 +34,56 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '667'
 ht-degree: 0%
 ---
 # Générer la sortie
 
 Il existe deux manières de générer une sortie pour un plan DITA :
 
-- [Générer la sortie d&#39;un plan DITA à partir de la console Plan](#generate-output-for-a-dita-map-from-the-map-console)
+- [Générer la sortie d&#39;un plan DITA à partir de la console Carte](#generate-output-for-a-dita-map-from-the-map-console)
 - [Générer une sortie pour un plan DITA à partir du tableau de bord Plan](#generate-output-for-a-dita-map-from-the-map-dashboard)
 
 ## Générer la sortie d&#39;un plan DITA à partir de la console Plan
 
 Effectuez les étapes suivantes pour générer une sortie pour un plan DITA à l&#39;aide de la console Map :
 
-1. [Ouvrez un fichier map dans la console Mappage](./open-files-map-console.md).
+1. [Ouvrez un fichier de mappage dans la console Mappage](./open-files-map-console.md).
 2. La console de mappage DITA s&#39;affiche avec la liste des **paramètres prédéfinis de sortie** disponibles pour générer la sortie.
 
 3. Ouvrez le paramètre prédéfini que vous souhaitez utiliser pour générer la sortie, puis sélectionnez **Générer la sortie** pour lancer le processus de génération.
 
    <img src="images/generate-output-pdf.png" alt="onglet métadonnées" width="600">
 
-   Vous pouvez également pointer sur le paramètre prédéfini et sélectionner **Générer** dans le menu contextuel du paramètre prédéfini.
+   Ou, pointez sur le paramètre prédéfini et sélectionnez **Générer** dans le menu contextuel du paramètre prédéfini.
 
 
    <img src="images/generate-preset-map-console.png" alt="onglet métadonnées" width="600">
 
 Une fois la génération de la sortie terminée, sélectionnez **Afficher la sortie** pour afficher la sortie.
 
-Une boîte de dialogue **Succès** s’affiche dans le coin inférieur droit de l’écran.
+Une boîte de dialogue **Succès** est visible dans le coin inférieur droit de l’écran.
 
 Si une sortie échoue, le message d’erreur ci-dessous s’affiche.
 
 <img src="images/error-log.png" alt="journal des erreurs" width="250">
 
-Pour afficher le journal des erreurs, sélectionnez **Ignorer**, survolez l’onglet du paramètre prédéfini sélectionné et sélectionnez **Afficher le journal** dans le menu contextuel du paramètre prédéfini.
+Pour afficher le journal des erreurs, sélectionnez **Ignorer**, passez la souris sur l’onglet du paramètre prédéfini sélectionné et sélectionnez **Afficher le journal** dans le menu contextuel du paramètre prédéfini.
 
 >[!NOTE]
 >
 > Si votre carte utilise un fichier DITAVAL, toutes les images marquées référencées dans le fichier DITAVAL sont copiées vers un emplacement associé à la carte publiée dans la sortie.  En outre, si vous utilisez plusieurs fichiers DITAVAL pour filtrer dans la même carte, veillez à utiliser des noms de fichier `.ditaval` uniques pour éviter les problèmes de nom de fichier en double lors de la publication.
 
-Vous pouvez consulter le statut actuel de la demande de génération de sortie dans l’onglet **Historique de sortie**. Pour plus d’informations, voir [Afficher l’état de la tâche de génération de sortie](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
+Vous pouvez consulter le statut actuel de la demande de génération de sortie dans l’onglet **Historique de sortie**. Pour plus d&#39;informations, consultez [Afficher l&#39;état de la tâche de génération de sortie](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
 
 
 ## Générer une sortie pour un plan DITA à partir du tableau de bord Plan
+
+>[!NOTE]
+>
+>À compter de la version 2027.01.0 de Cloud Service et de la version 5.4 d’On-Premise de Experience Manager Guides , la fonctionnalité de tableau de bord des cartes sera abandonnée pour les nouveaux clients. Toutefois, elle restera activée pour les clients qui l’utilisent déjà. Si vous souhaitez désactiver le tableau de bord des cartes, contactez votre équipe du succès client. Il est dorénavant recommandé d’utiliser la console Map pour la gestion et la publication des cartes.
 
 Effectuez les étapes suivantes pour générer une sortie pour un plan DITA à l&#39;aide du tableau de bord Map :
 
@@ -94,22 +98,22 @@ Effectuez les étapes suivantes pour générer une sortie pour un plan DITA à l
 1. Sélectionnez l’icône **Générer** pour lancer le processus de génération de sortie.
 
 
-Vous pouvez consulter le statut actuel de la demande de génération de sortie dans l’onglet **Sorties**. Pour plus d&#39;informations, voir [Afficher l&#39;état de la tâche de génération de sortie](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor)..
+Vous pouvez consulter le statut actuel de la demande de génération de sortie dans l’onglet **Sorties**. Pour plus d&#39;informations, consultez [Afficher l&#39;état de la tâche de génération de sortie](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor)..
 
 >[!IMPORTANT]
 >
 > Si un processus de génération de sortie pour un paramètre prédéfini est en file d’attente ou en cours, vous ne pouvez pas lancer une autre tâche de génération de sortie pour le même paramètre prédéfini.
 
-Vous pouvez également générer la sortie AEM Sites pour une ou plusieurs rubriques, ou l&#39;ensemble du plan DITA à partir de la console de mappage. Pour plus d’informations, consultez [Générer la sortie de la base de connaissances](web-editor-article-publishing.md#id218CK0U019I).
+Vous pouvez également générer la sortie AEM Sites pour une ou plusieurs rubriques, ou l&#39;ensemble du plan DITA à partir de la console de mappage. Pour plus de détails, consultez [Générer la sortie de la base de connaissances](web-editor-article-publishing.md#id218CK0U019I).
 
 ## Fusion de différentes rubriques dans un plan DITA à l&#39;aide de l&#39;attribut `chunk`
 
 Un plan DITA peut inclure différents types de rubriques tels que des références, des concepts et des tâches. L’attribut `chunk=to-content` vous permet de fusionner ces rubriques pour générer une sortie d’une seule page sur AEM Sites. Toutefois, pour publier correctement la rubrique fusionnée, vérifiez que votre administrateur a configuré le catalogue XML approprié dans les profils DITA.
 
-Le système requiert un ID public avec le mot-clé `composite` dans le catalogue XML pour identifier et appliquer correctement la règle DTD appropriée.
+Le système nécessite un ID public avec le mot-clé `composite` dans le catalogue XML pour identifier et appliquer correctement la règle DTD appropriée.
 Cette configuration est incluse par défaut dans le catalogue XML standard. Cependant, si vous utilisez un catalogue XML personnalisé, assurez-vous que votre administrateur a ajouté cet ID public à la configuration. Sans cela, la rubrique fusionnée risque de ne pas être publiée correctement.
 
-Pour plus d&#39;informations sur l&#39;utilisation de l&#39;ID public et de l&#39;ID système dans vos DTD/XSD personnalisés, consultez [Intégration de la spécialisation DITA](../cs-install-guide/dita-ot-specialization.md#integrate-dita-specialization-id211mb0e00xa).
+Pour plus d&#39;informations sur l&#39;utilisation de l&#39;ID public et de l&#39;ID système dans vos DTD/XSD personnalisés, consultez [Intégrer la spécialisation DITA](../cs-install-guide/dita-ot-specialization.md#integrate-dita-specialization-id211mb0e00xa).
 
 
 

@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '735'
 ht-degree: 0%
 ---
 # Génération incrémentielle de la sortie
@@ -52,11 +52,11 @@ Effectuez les étapes suivantes pour générer une sortie incrémentielle pour A
 
    - Sans ligne de base
 
-     ![liste de rubriques aem sites](images/aem-presets-topic-list.png)
+     ![liste de sujets aem sites](images/aem-presets-topic-list.png)
 
    - Avec la ligne de base
 
-     ![liste de rubriques aem sites avec ligne de base](images/aem-presets-topic-list-new.png)
+     ![liste de sujets aem sites avec ligne de base](images/aem-presets-topic-list-new.png)
 
    >[!NOTE]
    >
@@ -68,6 +68,10 @@ Effectuez les étapes suivantes pour générer une sortie incrémentielle pour A
 
 
 ## Générer une sortie incrémentielle à partir du tableau de bord des cartes (pour les sites AEM utilisant le mappage des composants hérités)
+
+>[!NOTE]
+>
+>À compter de la version 2027.01.0 de Cloud Service et de la version 5.4 d’On-Premise de Experience Manager Guides , la fonctionnalité de tableau de bord des cartes sera abandonnée pour les nouveaux clients. Toutefois, elle restera activée pour les clients qui l’utilisent déjà. Si vous souhaitez désactiver le tableau de bord des cartes, contactez votre équipe du succès client. Il est dorénavant recommandé d’utiliser la console Map pour la gestion et la publication des cartes.
 
 Effectuez les étapes suivantes pour générer une sortie incrémentielle pour AEM Sites à l’aide du tableau de bord de mappage :
 
@@ -96,14 +100,14 @@ Effectuez les étapes suivantes pour générer une sortie incrémentielle pour A
    Pour le paramètre prédéfini de sortie AEM Sites utilisant le mappage des composants hérités, si une ligne de base est sélectionnée, les versions de rubrique incluses dans la ligne de base sélectionnée sont utilisées pour la génération de la sortie. En outre, la publication incrémentielle à partir de la liste Rubriques ne doit être utilisée que lorsqu’il n’y a aucune modification à la structure de la carte. Si la structure de la carte/table des matières est modifiée, la carte entière doit être publiée une seule fois pour mettre à jour la table des matières. Pour plus d’informations sur l’utilisation des paramètres prédéfinis de site AEM, consultez [Paramètres prédéfinis AEM Sites dans le tableau de bord des cartes](./generate-output-aem-site-map-dashboard.md).
 
 
-1. Sélectionnez **Régénérer** pour lancer le processus de génération de sortie.
+1. Sélectionnez **Régénérer** pour démarrer le processus de génération de sortie.
 
 
 >[!IMPORTANT]
 >
 > Si vous renommez un titre de rubrique et que vous régénérez la rubrique, le titre de rubrique mis à jour n&#39;apparaît pas dans la table des matières du plan DITA. Pour mettre à jour le titre de la rubrique dans la table des matières, vous devez générer l&#39;ensemble du plan DITA.
 
-Vous pouvez consulter le statut actuel de la demande de génération de sortie dans l’onglet **Sorties**. Pour plus d’informations, voir [Afficher l’état de la tâche de génération de sortie](#view-the-status-of-the-output-generation-task).
+Vous pouvez consulter le statut actuel de la demande de génération de sortie dans l’onglet **Sorties**. Pour plus d&#39;informations, consultez [Afficher l&#39;état de la tâche de génération de sortie](#view-the-status-of-the-output-generation-task).
 
 
 

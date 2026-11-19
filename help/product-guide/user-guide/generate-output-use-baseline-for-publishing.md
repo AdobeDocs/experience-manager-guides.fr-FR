@@ -27,12 +27,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1873'
 ht-degree: 0%
 ---
 # Utiliser la ligne de base depuis le tableau de bord des cartes {#id1825FI0J0PF}
+
+>[!NOTE]
+>
+>À compter de la version 2027.01.0 de Cloud Service et de la version 5.4 d’On-Premise de Experience Manager Guides , la fonctionnalité de tableau de bord des cartes sera abandonnée pour les nouveaux clients. Toutefois, elle restera activée pour les clients qui l’utilisent déjà. Si vous souhaitez désactiver le tableau de bord des cartes, contactez votre équipe du succès client. Il est dorénavant recommandé d’utiliser la console Map pour la gestion et la publication des cartes.
 
 Experience Manager Guides fournit la fonction Ligne de base qui permet aux utilisateurs de créer des lignes de base et de les utiliser pour publier ou traduire des rubriques de différentes versions. Ils peuvent également publier plusieurs paramètres prédéfinis de sortie du même plan DITA en parallèle.
 
@@ -40,9 +44,9 @@ Experience Manager Guides fournit la fonction Ligne de base qui permet aux utili
 >
 > Consultez la section *Ligne de base* du guide des bonnes pratiques pour connaître les bonnes pratiques relatives à l&#39;utilisation des lignes de base.
 
-Votre administrateur peut configurer l’onglet Ligne de base dans le tableau de bord des cartes. Pour plus d&#39;informations, consultez la section *Onglet Configurer la ligne de base sur le tableau de bord du plan DITA* du Guide d&#39;installation et de configuration.
+Votre administrateur peut configurer l’onglet Ligne de base dans le tableau de bord des cartes. Pour plus de détails, consultez l&#39;onglet *Configurer la ligne de base dans la section Tableau de bord de plan DITA* du Guide d&#39;installation et de configuration.
 
-Dans l&#39;onglet **Lignes de base**, vous pouvez effectuer les actions suivantes :
+Dans l&#39;onglet **Niveaux de référence**, vous pouvez effectuer les actions suivantes :
 
 - [Créer une ligne de base](#create-a-baseline)
 - [Afficher le contenu d&#39;une ligne de base](#view-contents-of-a-baseline)
@@ -57,17 +61,17 @@ Pour créer une ligne de base, procédez comme suit :
 
 1. Ouvrez un fichier de plan DITA dans l&#39;interface utilisateur d&#39;Assets et accédez à la page **Lignes de base**.
 2. Sélectionnez **Créer** en haut à gauche.
-3. Sur la page Ligne de base, entrez le nom de la ligne de base dans le champ **Nom de la ligne de base**.
+3. Sur la page Ligne de base, saisissez le nom de la ligne de base dans le champ **Nom de la ligne de base**.
 
    ![](images/create-baseline-assets-ui.png){width="300"}
 
-4. Dans **Définir la version en fonction de**, sélectionnez l’une des options suivantes :
+4. Dans **Définir la version en fonction de**, sélectionnez l&#39;une des options suivantes :
 
    - **Libellé** : sélectionnez cette option pour sélectionner les rubriques en fonction du libellé qui leur est appliqué. Saisissez un libellé pour filtrer la liste en fonction de la chaîne saisie. Dans la liste filtrée, vous pouvez choisir un libellé pour sélectionner les rubriques et les autres ressources portant le libellé spécifié.
 
      Lorsque vous sélectionnez Libellé, vous avez également la possibilité d&#39;utiliser la dernière version des rubriques sur lesquelles le libellé spécifié n&#39;est pas appliqué. Si vous ne sélectionnez pas cette option et qu&#39;un sujet ou un fichier multimédia ne porte pas le libellé spécifié, le processus de création de la ligne de base échouera. Pour plus d’informations sur l’ajout de libellés, voir Utiliser des libellés.
 
-   - **Version activée** : sélectionne la version des rubriques en fonction de la date et de l’heure spécifiées. Notez que l’heure que vous indiquez ici correspond au fuseau horaire de votre serveur Adobe Experience Manager. Si votre serveur se trouve dans un fuseau horaire différent, les rubriques sont sélectionnées en fonction du fuseau horaire de votre serveur et non de votre fuseau horaire local.
+   - **Version le** : sélectionne la version des rubriques à la date et à l&#39;heure spécifiées. Notez que l’heure que vous indiquez ici correspond au fuseau horaire de votre serveur Adobe Experience Manager. Si votre serveur se trouve dans un fuseau horaire différent, les rubriques sont sélectionnées en fonction du fuseau horaire de votre serveur et non de votre fuseau horaire local.
 
      Une fois que vous avez sélectionné un libellé ou une version en fonction de la date, toutes les rubriques et tous les fichiers multimédias référencés dans la carte sont sélectionnés en conséquence. Cette sélection de rubriques ne s’affiche pas dans l’interface utilisateur, mais elle est enregistrée en arrière-plan.
 5. Sélectionnez **Enregistrer**.
@@ -78,13 +82,13 @@ Vous pouvez afficher le contenu d&#39;une ligne de base existante en sélectionn
 
 - **Nom** : répertorie le plan DITA, le titre de la rubrique ou le nom de la ressource, tel que le nom de fichier d&#39;une image.
 
-- **Kind** : répertorie le type de ressource dans le mappage comme un mappage DITA, une rubrique DITA ou un format d’image.
+- **Kind** : répertorie le type ou le type de ressource dans le mappage tel que le mappage DITA, la rubrique DITA ou le format d’image.
 
 - **Version** : répertorie la version de la ressource disponible dans la ligne de base.
 
-- **Date et heure de version** : répertorie la date et l’heure de création de la ressource pour la version sélectionnée.
+- **Date et heure de la version** : répertorie la date et l’heure de création de la ressource pour la version sélectionnée.
 
-- **La plus récente** : indique si la dernière version de la ressource est utilisée dans la ligne de base.
+- **Latest** : indique si la dernière version de la ressource est utilisée dans la ligne de base.
 
 - **Mappage parent** : si votre fichier de mappage contient des sous-mappages, cette colonne contient le nom du mappage dans lequel une rubrique est référencée.
 
@@ -94,13 +98,13 @@ Vous pouvez afficher le contenu d&#39;une ligne de base existante en sélectionn
 
 ## Modifier, dupliquer ou supprimer des niveaux de référence
 
-**Modifier niveaux de référence**
+**Modifier les niveaux de référence**
 
 Pour modifier une ligne de base existante, procédez comme suit :
 
-1. Sélectionnez la ligne de base, puis sélectionnez **Modifier**.
+1. Sélectionnez la ligne de base et sélectionnez **Modifier**.
 1. Effectuez les modifications requises dans la ligne de base. Vous pouvez modifier le nom et la version de la rubrique ou du contenu référencé.
-1. Si vous souhaitez utiliser une version différente pour une ou plusieurs rubriques, vous pouvez le faire en sélectionnant manuellement ces rubriques. Sélectionnez **Parcourir la rubrique**, puis sélectionnez la rubrique pour laquelle vous souhaitez utiliser une autre version. Dans la liste déroulante Sélectionner une version de la rubrique sélectionnée, sélectionnez une version de la rubrique à utiliser dans la ligne de base et sélectionnez **OK**.
+1. Si vous souhaitez utiliser une version différente pour une ou plusieurs rubriques, vous pouvez le faire en sélectionnant manuellement ces rubriques. Sélectionnez **Parcourir la rubrique**, sélectionnez la rubrique pour laquelle vous souhaitez utiliser une autre version. Dans la liste déroulante Sélectionner une version pour la rubrique sélectionnée, sélectionnez une version de la rubrique que vous souhaitez utiliser dans la ligne de base et sélectionnez **OK**.
 
    ![](images/baseline-select-version-drop-down.png)
 
@@ -116,9 +120,9 @@ Pour modifier une ligne de base existante, procédez comme suit :
 
    La liste déroulante **Version** affiche les versions disponibles des rubriques ou du contenu référencé. Pour le contenu référencé, vous avez la possibilité de choisir automatiquement une version.
 
-   Si vous choisissez **Sélectionner automatiquement** pour le contenu référencé, le système sélectionne automatiquement la version du contenu référencé correspondant à la version du contenu dans lequel il est référencé. Par exemple, supposons qu’une rubrique A contienne une référence à une image B. Lorsque la version 1.5 de la rubrique A a été créée, la version de l’image B était 1.2 dans le référentiel. Désormais, lorsqu’une ligne de base est créée avec la version 1.5 de la rubrique A avec l’image B définie sur **Sélection automatique**, le système sélectionne automatiquement la version 1.2 de l’image B.
+   Si vous choisissez **Sélectionner automatiquement** pour le contenu référencé, le système sélectionne automatiquement la version du contenu référencé correspondant à la version du contenu dans lequel il est référencé. Par exemple, supposons qu’une rubrique A contienne une référence à une image B. Lorsque la version 1.5 de la rubrique A a été créée, la version de l’image B était 1.2 dans le référentiel. Désormais, lorsqu’une ligne de base est créée avec la version 1.5 de la rubrique A avec l’image B définie sur **Sélectionner automatiquement**, le système sélectionne automatiquement la version 1.2 de l’image B.
 
-   Si vous créez une ligne de base à l’aide des libellés, **Choisir automatiquement** est appliqué à la version de tout le contenu référencé.
+   Si vous créez une ligne de base à l’aide des libellés, **Sélectionner automatiquement** est appliqué à la version de tout le contenu référencé.
 
    Si le contenu ou les ressources référencés \(rubrique, sous-cartes, images ou vidéos\) ne disposent pas d’une version \(par exemple, contenu récemment chargé\), la création d’une ligne de base crée une version pour ces fichiers. Cependant, si vos fichiers sont versionnés, aucune version incrémentielle n’est créée pour ces fichiers. Ce comportement est contrôlé par le paramètre de création automatique de version, qui est activé par défaut. Cela est également nécessaire pour traduire le contenu dans lequel le processus de traduction s’attend à ce que tous les fichiers aient une version.
 
@@ -127,11 +131,11 @@ Pour modifier une ligne de base existante, procédez comme suit :
    > Si vous souhaitez spécifier une version différente pour une ressource particulière, vous pouvez le faire en choisissant la version souhaitée dans la liste déroulante **Version**.
 1. Sélectionnez **Enregistrer**.
 
-**Dupliquer les références**
+**Niveaux De Référence En Double**
 
-Sélectionnez la ligne de base et sélectionnez **Dupliquer** pour créer une copie d&#39;une ligne de base existante. Spécifiez un autre nom pour la ligne de base et choisissez le numéro de version pour les rubriques et le contenu référencé, puis sélectionnez **Enregistrer**.
+Sélectionnez la ligne de base et sélectionnez **Dupliquer** pour créer une copie d&#39;une ligne de base existante. Indiquez un autre nom pour la ligne de base et choisissez le numéro de version pour les rubriques et le contenu référencé, puis sélectionnez **Enregistrer**.
 
-**Supprimer niveaux de référence**
+**Supprimer les niveaux de référence**
 
 Sélectionnez la version Lignes de base et sélectionnez **Supprimer** pour supprimer une ligne de base.
 
@@ -147,7 +151,7 @@ Effectuez les étapes suivantes pour ajouter un libellé à plusieurs rubriques 
    >
    > Assurez-vous que votre ligne de base ne dispose pas de la dernière version d&#39;une rubrique ou d&#39;une ressource. Un libellé ne peut être ajouté qu’à une rubrique ou une ressource versionnée.
 
-1. Sélectionnez **Ajouter des libellés**.
+1. Sélectionnez **Ajouter Des Étiquettes**.
 
    ![](images/add-label-baseline-uuid.png)
 
@@ -189,7 +193,7 @@ Effectuez les étapes suivantes pour exporter une ligne de base traduite :
 
    Si vous essayez d’exporter la ligne de base déjà exportée, le message Échec de la création de la ligne de base s’affiche également.
 
-1. \(Facultatif\) Pour exporter une ligne de base déjà exportée, sélectionnez **Remplacer la ligne de base existante** puis **Exporter la ligne de base**.
+1. \(Facultatif\) Pour exporter une ligne de base déjà exportée, sélectionnez **Remplacer la ligne de base existante**, puis **Exporter la ligne de base**.
 
 
 **Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)

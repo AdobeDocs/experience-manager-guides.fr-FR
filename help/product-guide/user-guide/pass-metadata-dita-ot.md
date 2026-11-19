@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '690'
 ht-degree: 0%
 ---
 # Transmettre les métadonnées à la sortie à l’aide de DITA-OT {#id21BJ00QD0XA}
@@ -53,8 +53,8 @@ Il existe deux manières de transmettre les métadonnées à Output à l’aide 
 Effectuez les étapes suivantes pour transmettre les métadonnées à la sortie à l’aide de la publication DITA-OT :
 
 1. [Ouvrez le fichier de mappage DITA dans la console de mappage](./open-files-map-console.md) pour lequel vous souhaitez transmettre les métadonnées au DITA-OT.
-1. Sélectionnez et ouvrez un paramètre prédéfini de sortie auquel vous souhaitez transmettre les champs de métadonnées. Par exemple, sélectionnez le paramètre prédéfini de sortie PDF. Assurez-vous qu’il est créé à l’aide de l’option **DITA-OT**.
-1. Dans la liste déroulante **Propriétés du fichier** sélectionnez les métadonnées que vous souhaitez transmettre à la publication DITA-OT.
+1. Sélectionnez et ouvrez un paramètre prédéfini de sortie auquel vous souhaitez transmettre les champs de métadonnées. Par exemple, sélectionnez le paramètre prédéfini de sortie PDF. Assurez-vous qu&#39;il est créé à l&#39;aide de l&#39;option **DITA-OT**.
+1. Dans la liste déroulante **Propriétés du fichier**, sélectionnez les métadonnées que vous souhaitez transmettre à la publication DITA-OT.
 
    ![](images/custom-metadata-output-preset-new.png)
 
@@ -62,11 +62,11 @@ Effectuez les étapes suivantes pour transmettre les métadonnées à la sortie 
 
    >[!NOTE]
    >
-   > Ces propriétés sont sélectionnées à partir du fichier metadataList disponible à l’emplacement suivant :`/libs/fmdita/config/metadataList`. Par défaut, ce fichier répertorie quatre propriétés : `dc:description`, `dc:language`, `dc:title` et `docstate`.
+   > Ces propriétés sont sélectionnées à partir du fichier metadataList disponible à l&#39;emplacement suivant : `/libs/fmdita/config/metadataList`. Par défaut, ce fichier contient quatre propriétés : `dc:description`, `dc:language`, `dc:title` et `docstate`.
 
-   Ce fichier peut être recouvert à l’adresse : `/apps/fmdita/config/metadataList`.
+   Ce fichier peut être recouvert à l’emplacement suivant : `/apps/fmdita/config/metadataList`.
 
-   Pour transmettre une propriété personnalisée pour laquelle vous avez déjà défini les valeurs, affichez la vue [Utiliser les métadonnées AEM dans la sortie PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=fr).
+   Pour transmettre une propriété personnalisée pour laquelle vous avez déjà défini les valeurs, affichez [Utiliser les métadonnées AEM dans la sortie PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=fr).
 
 1. Les propriétés sélectionnées sont répertoriées sous la liste déroulante.
 
@@ -79,15 +79,19 @@ Les propriétés de métadonnées sélectionnées seront transmises à la sortie
 
 >[!NOTE]
 >
-> Depuis la version 2502 de Experience Manager Guides, la fonctionnalité permettant de transmettre des arguments de métadonnées de carte racine via la ligne de commande DITA-OT est obsolète. Toutefois, pour éviter toute perturbation, une nouvelle propriété a été ajoutée à la `Config.Manager` pour activer ou désactiver la fonctionnalité.  Pour plus d’informations, consultez la section [Configurer les paramètres de génération de sortie](../cs-install-guide/conf-output-generation.md#configure-the-dita-ot-command-line-arguement-field-on-the-dita-map-dashboard).
+> Depuis la version 2502 de Experience Manager Guides, la fonctionnalité permettant de transmettre des arguments de métadonnées de carte racine via la ligne de commande DITA-OT est obsolète. Toutefois, afin d’éviter toute perturbation, une nouvelle propriété a été ajoutée dans le `Config.Manager` pour activer ou désactiver la fonctionnalité.  Pour plus de détails, consultez [Configurer les paramètres de génération de sortie](../cs-install-guide/conf-output-generation.md#configure-the-dita-ot-command-line-arguement-field-on-the-dita-map-dashboard).
 
 ## Utilisation du tableau de bord des cartes
 
-Si vous travaillez sur l’**interface utilisateur d’**, effectuez les étapes suivantes pour transmettre les métadonnées à la sortie à l’aide de la publication DITA-OT :
+>[!NOTE]
+>
+>À compter de la version 2027.01.0 de Cloud Service et de la version 5.4 d’On-Premise de Experience Manager Guides , la fonctionnalité de tableau de bord des cartes sera abandonnée pour les nouveaux clients. Toutefois, elle restera activée pour les clients qui l’utilisent déjà. Si vous souhaitez désactiver le tableau de bord des cartes, contactez votre équipe du succès client. Il est dorénavant recommandé d’utiliser la console Map pour la gestion et la publication des cartes.
 
-1. Dans l’interface utilisateur **&#x200B;**, accédez au fichier de mappage DITA pour lequel vous souhaitez transmettre les métadonnées au DITA-OT et sélectionnez-le.
+Si vous travaillez sur l’**interface utilisateur d’Assets**, procédez comme suit pour transmettre les métadonnées à la sortie à l’aide de la publication DITA-OT :
+
+1. Dans l’**interface utilisateur d’Assets**, accédez au fichier de mappage DITA pour lequel vous souhaitez transmettre les métadonnées au DITA-OT et sélectionnez-le.
 1. Sélectionnez et modifiez un paramètre prédéfini de sortie auquel vous souhaitez transmettre les champs de métadonnées. Par exemple, sélectionnez le paramètre prédéfini de sortie PDF.
-1. Sélectionnez l’option **DITA-OT** dans le paramètre prédéfini de sortie sélectionné.
+1. Sélectionnez l&#39;option **DITA-OT** dans le paramètre prédéfini de sortie sélectionné.
 
    ![](images/custom-meta-data-output-preset.png)
 
@@ -97,13 +101,13 @@ Si vous travaillez sur l’**interface utilisateur d’**, effectuez les étapes
 
    >[!NOTE]
    >
-   > Ces propriétés sont sélectionnées à partir du fichier metadataList disponible à l’emplacement suivant :`/libs/fmdita/config/metadataList`. Par défaut, ce fichier répertorie quatre propriétés : `dc:description`, `dc:language`, `dc:title` et `docstate`.
+   > Ces propriétés sont sélectionnées à partir du fichier metadataList disponible à l&#39;emplacement suivant : `/libs/fmdita/config/metadataList`. Par défaut, ce fichier contient quatre propriétés : `dc:description`, `dc:language`, `dc:title` et `docstate`.
 
-   Ce fichier peut être recouvert à l’adresse : `/apps/fmdita/config/metadataList`.
+   Ce fichier peut être recouvert à l’emplacement suivant : `/apps/fmdita/config/metadataList`.
 
-   Pour transmettre une propriété personnalisée pour laquelle vous avez déjà défini les valeurs, affichez la vue [Utiliser les métadonnées AEM dans la sortie PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=fr).
+   Pour transmettre une propriété personnalisée pour laquelle vous avez déjà défini les valeurs, affichez [Utiliser les métadonnées AEM dans la sortie PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=fr).
 
-1. Dans la liste déroulante **Propriétés**, sélectionnez les propriétés personnalisées et par défaut requises. Par exemple, sélectionnez `author`, `dc:title` et `dc:description`. Il s’agit des `metadata/properties` standard qui sont créées une fois que nous créons un fichier. Les propriétés sélectionnées sont répertoriées sous la liste déroulante.
+1. Dans la liste déroulante **Propriétés**, sélectionnez les propriétés personnalisées et par défaut requises. Par exemple, sélectionnez `author`, `dc:title` et `dc:description`. Il s’agit de la valeur `metadata/properties` standard qui est créée une fois le fichier créé. Les propriétés sélectionnées sont répertoriées sous la liste déroulante.
 
    ![](images/selected-metadata-properties.png){width="300"}
 

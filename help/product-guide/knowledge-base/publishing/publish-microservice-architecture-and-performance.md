@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -106,4 +106,4 @@ Si vous publiez une carte volumineuse sur site, vous devrez peut-être ajuster l
 
 Une partie de chaque requête de publication doit s’exécuter sur l’instance AEM pour récupérer le contenu de publication correct à envoyer au microservice. La nouvelle architecture cloud utilise les traitements AEM à la place des workflows AEM, comme c&#39;était le cas dans l&#39;ancienne architecture. Cette modification permet aux administrateurs AEM Guides de configurer individuellement les paramètres de la file d’attente de publication dans le cloud sans affecter les autres tâches AEM ou configurations de workflow.
 
-Vous trouverez des détails sur la configuration du nouveau microservice de publication ici : [Configurer le microservice](configure-microservices.md)
+Vous trouverez des détails sur la configuration du nouveau microservice de publication ici : [Configurer le microservice](./configure-microservices-imt-config.md)

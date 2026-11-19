@@ -30,14 +30,16 @@ topic_v2:
     internal-label: Reporting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: 769
+source-wordcount: '839'
 ht-degree: 0%
-
 ---
-
 # Rapport DITA map à partir du tableau de bord du mappage {#id205BB800EEN}
+
+>[!NOTE]
+>
+>À compter de la version 2027.01.0 de Cloud Service et de la version 5.4 d’On-Premise de Experience Manager Guides , la fonctionnalité de tableau de bord des cartes sera abandonnée pour les nouveaux clients. Toutefois, elle restera activée pour les clients qui l’utilisent déjà. Si vous souhaitez désactiver le tableau de bord des cartes, contactez votre équipe du succès client. Il est dorénavant recommandé d’utiliser la console Map pour la gestion et la publication des cartes.
 
 Adobe Experience Manager Guides fournit à vos administrateurs les fonctionnalités de création de rapports nécessaires pour vérifier l’intégrité globale de la documentation avant qu’elle ne soit mise en ligne ou mise à la disposition des utilisateurs finaux. Le rapport de plan DITA du tableau de bord des plans de Experience Manager Guides fournit des informations précieuses telles que les rubriques manquantes, les rubriques comportant des éléments manquants, l&#39;UUID des rubriques référencées et des fichiers multimédias, ainsi que l&#39;état de révision de chaque rubrique. Un rapport détaillé individuel au niveau de la rubrique fournit également des informations relatives au contenu DITA, telles que des références de contenu, des images manquantes ou des références croisées.
 
@@ -55,40 +57,40 @@ Pour afficher le rapport DITA Map, procédez comme suit :
 
    La page Rapports est divisée en deux parties :
 
-   - **Résumé du sujet :**
+   - **Résumé De La Rubrique :**
 
      Répertorie le résumé général du fichier de mappage sélectionné. En regardant le Résumé, vous pouvez rapidement connaître le nombre total de sujets dans la carte, les sujets manquants, le nombre de sujets qui ont des éléments manquants, l&#39;état des sujets — En version préliminaire, En révision ou Révisé.
 
-   - **Détails:**
+   - **Détails :**
 
      Lorsque vous sélectionnez une rubrique, un rapport détaillé de la rubrique sélectionnée s&#39;affiche.
 
      ![](images/detailed-report-uuid-new.png)
 
-     Les éléments mis en évidence sous **A**, **B**, **C** et **D** sont décrits ci-dessous :
+     Les éléments mis en surbrillance sous **A**, **B**, **C** et **D** sont décrits ci-dessous :
 
-      - **Rubrique** : titre de la rubrique spécifiée dans le plan DITA. Placez le pointeur de la souris sur le titre de la rubrique pour afficher le chemin d&#39;accès complet de la rubrique. En cas de problèmes dans la rubrique, tels que des références ou des images manquantes, un point rouge s&#39;affiche avant le titre de la rubrique.
+     - **Rubrique** : titre de la rubrique spécifiée dans le plan DITA. Placez le pointeur de la souris sur le titre de la rubrique pour afficher le chemin d&#39;accès complet de la rubrique. En cas de problèmes dans la rubrique, tels que des références ou des images manquantes, un point rouge s&#39;affiche avant le titre de la rubrique.
 
-      - **Nom de fichier** : nom du fichier.
+     - **Nom de fichier** : nom du fichier.
 
-      - **UUID** : identifiant universel unique \(UUID\) du fichier.
+     - **UUID** : identifiant universel unique \(UUID\) du fichier.
 
-      - **Auteur** : dernier utilisateur à avoir travaillé sur ce sujet.
+     - **Auteur** : dernier utilisateur à avoir travaillé sur ce sujet.
 
-      - **État du document** : état actuel du document (brouillon, en cours de révision ou révisé).
+     - **État du document** : état actuel du document - Brouillon, En cours de révision ou Révisé.
 
-      - **Éléments manquants** : indique le nombre d’images manquantes ou de références croisées rompues, le cas échéant.
+     - **Éléments manquants** : répertorie le nombre d’images manquantes ou de références croisées rompues, le cas échéant.
 
-      - **Rubriques manquantes \(B\)** : s’il existe des rubriques dont les références sont rompues, elles sont répertoriées sous la liste Rubriques manquantes .
+     - **Rubriques manquantes \(B\)** : s’il existe des rubriques dont les références sont rompues, elles sont répertoriées sous la liste Rubriques manquantes .
 
-      - **Ouvrir dans Framemaker \(C\)** : répertorie le nombre d’images manquantes ou de références croisées rompues, le cas échéant.
+     - **Ouvrir dans Framemaker \(C\)** : répertorie le nombre d’images manquantes ou de références croisées rompues, le cas échéant.
 
-      - **Ouvrir dans l’éditeur \(D\)** : si vous sélectionnez cette icône, la rubrique s’ouvre dans l’éditeur.
+     - **Ouvrir dans l’éditeur \(D\)** : si vous sélectionnez cette icône, la rubrique s’ouvre dans l’éditeur.
 
 
    Les éléments mis en surbrillance sous **E** sont décrits ci-dessous :
 
-   - **Multimédia** : le chemin des images utilisées dans la rubrique s’affiche avec son UUID. Si vous sélectionnez le chemin d’accès de l’image, l’image correspondante s’ouvre dans une fenêtre pop-up. Les liens d’image rompus sont répertoriés en rouge.
+   - **Multimédia** : le chemin des images utilisées dans la rubrique s&#39;affiche avec son UUID. Si vous sélectionnez le chemin d’accès de l’image, l’image correspondante s’ouvre dans une fenêtre pop-up. Les liens d’image rompus sont répertoriés en rouge.
 
    - **Références de contenu** : le chemin d’accès du contenu référencé dans la rubrique s’affiche avec son UUID. Si vous sélectionnez le titre du contenu référencé, la rubrique correspondante est ouverte en mode Aperçu.
 
@@ -96,7 +98,7 @@ Pour afficher le rapport DITA Map, procédez comme suit :
 
    - **Révision** : affiche le statut de la tâche de révision de la rubrique. Vous pouvez afficher le statut \(ouverture ou fermeture\), la date d’échéance et la personne désignée pour la rubrique en cours de révision. Si vous sélectionnez le lien de la rubrique, il ouvre la rubrique en mode Révision.
 
-   - **Utilisé dans** : affiche une liste d’autres rubriques ou mappages dans lesquels la rubrique est utilisée. L&#39;UUID de toutes ces rubriques et cartes est également répertorié.
+   - **Utilisé dans** : affiche une liste d&#39;autres rubriques ou mappages dans lesquels la rubrique est utilisée. L&#39;UUID de toutes ces rubriques et cartes est également répertorié.
 
 Outre le rapport de chaque rubrique, les administrateurs ont également accès à des informations telles que l&#39;historique de publication d&#39;un plan DITA. Pour plus d&#39;informations sur l&#39;historique des sorties générées, consultez la section [Afficher l&#39;état de la tâche de génération de sortie](generate-output-for-a-dita-map.md#viewing_output_history).
 

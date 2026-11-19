@@ -22,31 +22,35 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '497'
 ht-degree: 0%
 ---
 # Désactivation du post-traitement pour un dossier
 
+>[!NOTE]
+>
+>À compter de la version 2027.01.0 de Cloud Service et de la version 5.4 d’On-Premise de Experience Manager Guides , la fonctionnalité de tableau de bord des cartes sera abandonnée pour les nouveaux clients. Toutefois, elle restera activée pour les clients qui l’utilisent déjà. Si vous souhaitez désactiver le tableau de bord des cartes, contactez votre équipe du succès client. Il est dorénavant recommandé d’utiliser la console Map pour la gestion et la publication des cartes.
+
 Par défaut, toutes les ressources chargées sont traitées à l’aide du workflow Ressource de mise à jour de la gestion des ressources numériques . Experience Manager Guides exécute un traitement supplémentaire, appelé post-traitement, dans le cadre de ce workflow. Cela permet également de générer les UUID
 
-Lors du chargement de vos fichiers et dossiers sur le serveur **, vous pouvez également désactiver le post-traitement et la génération des UUID.
+Lors du chargement de vos fichiers et dossiers sur le serveur *Adobe Experience Manager Assets*, vous pouvez également désactiver le post-traitement et la génération des UUID.
 
 Les onglets suivants fournissent des instructions pour désactiver le post-traitement d’un dossier en fonction de votre configuration Experience Manager Guides : Cloud Service ou On-Premise.
 
 >[!BEGINTABS]
 
->[!TAB Tab]
+>[!TAB Cloud Service]
 
-Suivez les instructions de la section [&#x200B; Remplacements de la configuration &#x200B;](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails (propriété) suivants pour désactiver le post-traitement sur un chemin donné ou ignorer le post-traitement pour un dossier :
+Suivez les instructions de la section [Remplacements de configuration](download-install-config-override.md#) pour créer le fichier de configuration. Dans le fichier de configuration, fournissez les détails (propriété) suivants pour désactiver le post-traitement sur un chemin donné ou ignorer le post-traitement pour un dossier :
 
 | PID | Clé de la propriété | Valeur de la propriété |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `ignored.post.processing.paths` | Valeur de chaîne pour définir toute valeur NODE_OPTIONS standard (propriété à plusieurs valeurs, chaînes dont le chemin d’accès omet la `/` à la fin) <br> **Valeur par défaut** : `/content/dam/projects/translation_output` |
-| `com.adobe.fmdita.config.ConfigManager` | `enabled.post.processing.paths` | Valeur de chaîne pour définir toute valeur NODE_OPTIONS standard (propriété à plusieurs valeurs, chaînes dont le chemin d’accès omet la `/` à la fin) <br> **Valeur par défaut** : `/content/dam` |
+| `com.adobe.fmdita.config.ConfigManager` | `ignored.post.processing.paths` | Valeur de chaîne pour définir les NODE_OPTIONS standard (propriété à plusieurs valeurs, chaînes dont le chemin d’accès omet `/` à la fin) <br> **Valeur Par Défaut** : `/content/dam/projects/translation_output` |
+| `com.adobe.fmdita.config.ConfigManager` | `enabled.post.processing.paths` | Valeur de chaîne pour définir les NODE_OPTIONS standard (propriété à plusieurs valeurs, chaînes dont le chemin d’accès omet `/` à la fin) <br> **Valeur Par Défaut** : `/content/dam` |
 
->[!TAB  On-Premise ]
+>[!TAB On-Premise]
 
 Effectuez les étapes suivantes pour désactiver le post-traitement sur un chemin donné ou ignorer le post-traitement pour un dossier :
 
@@ -59,13 +63,13 @@ Effectuez les étapes suivantes pour désactiver le post-traitement sur un chemi
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Recherchez et cliquez sur le lot **com.adobe.fmdita.config.ConfigManager** et cliquez dessus.
+1. Recherchez et cliquez sur le lot **com.adobe.fmdita.config.ConfigManager**.
 
-1. Sélectionnez l’option **Chemins ignorés pour le post-traitement** pour ignorer un dossier à des fins de post-traitement.
+1. Sélectionnez l’option **Chemins ignorés pour le post-traitement** pour ignorer un dossier pour le post-traitement.
 
-   Valeur de chaîne pour définir les NODE_OPTIONS standard (propriété à plusieurs valeurs, chaînes dont le chemin d’accès omet la `/` à la fin)
+   Valeur de chaîne pour définir les NODE_OPTIONS standard (propriété à plusieurs valeurs, chaînes dont le chemin d’accès omet `/` à la fin)
 
-   **Valeur par défaut** : `/content/dam/projects/translation_output`
+   **Valeur Par Défaut** : `/content/dam/projects/translation_output`
 
    >[!NOTE]
    >
@@ -73,9 +77,9 @@ Effectuez les étapes suivantes pour désactiver le post-traitement sur un chemi
 
 1. Sélectionnez l’option **Chemins activés pour le post-traitement** pour activer un chemin pour le post-traitement.
 
-   Valeur de chaîne pour définir les NODE_OPTIONS standard (propriété à plusieurs valeurs, chaînes dont le chemin d’accès omet la `/` à la fin)
+   Valeur de chaîne pour définir les NODE_OPTIONS standard (propriété à plusieurs valeurs, chaînes dont le chemin d’accès omet `/` à la fin)
 
-   **Valeur par défaut** : `/content/dam/`
+   **Valeur Par Défaut** : `/content/dam/`
 
    >[!NOTE]
    >

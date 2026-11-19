@@ -27,12 +27,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '293'
 ht-degree: 1%
 ---
 # Présentation des paramètres prédéfinis de sortie {#understanding_output_settings}
+
+>[!NOTE]
+>
+>À compter de la version 2027.01.0 de Cloud Service et de la version 5.4 d’On-Premise de Experience Manager Guides , la fonctionnalité de tableau de bord des cartes sera abandonnée pour les nouveaux clients. Toutefois, elle restera activée pour les clients qui l’utilisent déjà. Si vous souhaitez désactiver le tableau de bord des cartes, contactez votre équipe du succès client. Il est dorénavant recommandé d’utiliser la console Map pour la gestion et la publication des cartes.
 
 Experience Manager Guides prend en charge la création de sortie dans les formats les plus populaires tels qu’AEM Sites, PDF, la base de connaissances, HTML5, EPUB, JSON et la sortie personnalisée via DITA-OT, Native PDF et FMPS. À l’aide de ces formats de sortie, vous pouvez configurer différents paramètres prédéfinis de sortie. Ici, un paramètre prédéfini de sortie représente un format de sortie personnalisé dans lequel vous souhaitez que le contenu soit publié.
 
@@ -41,7 +45,7 @@ Vous pouvez créer et gérer des paramètres prédéfinis de sortie de deux mani
 - **À partir de la console de mappage** : vous pouvez créer des paramètres prédéfinis de sortie AEM Sites, PDF, la base de connaissances, HTML5, personnalisés et JSON et générer les sorties respectives.
 - **À partir du tableau de bord Mapper** : vous pouvez créer des paramètres prédéfinis de sortie AEM Sites, PDF, HTML5, EPUB et personnalisés et générer les sorties respectives.
 
-Pour plus d’informations, consultez [création, modification, duplication ou suppression d’un paramètre prédéfini de sortie](./generate-output-create-edit-preset.md).
+Pour plus d’informations, consultez [Créer, modifier, dupliquer ou supprimer un paramètre prédéfini de sortie](./generate-output-create-edit-preset.md).
 
 ## Types de paramètres prédéfinis de sortie pris en charge dans Experience Manager Guides
 
@@ -51,11 +55,11 @@ Les options de paramètre prédéfini suivantes sont disponibles pour les format
 
 - **[PDF](generate-output-pdf.md)**
 
-- **[Base de connaissances](generate-output-knowledge-base.md)**
+- **[Base De Connaissances](generate-output-knowledge-base.md)**
 
 - **[HTML5](generate-output-html5.md)**
 
-- **[&#128279;](generate-output-epub.md)**
+- **[EPUB](generate-output-epub.md)**
 
 - **[Personnalisé](generate-output-custom.md)**
 
