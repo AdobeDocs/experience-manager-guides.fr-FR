@@ -10,8 +10,8 @@ product_v2:
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
     internal-label: Authoring
-  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-    internal-label: Generative AI
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -23,7 +23,7 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 3f0d8e31537ade58a4eab5ddf73eb6d263d3dd96
+source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 0%
@@ -45,15 +45,15 @@ Pour créer une branche, procédez comme suit :
 
    >[!NOTE]
    >
-   > Si un autre mappage est déjà ouvert dans l’éditeur, une boîte de dialogue de confirmation s’affiche. Sélectionnez **Ouvrir** pour ouvrir la carte sélectionnée dans la branche active. Pour plus d’informations, voir [Ouvrir le contenu en dehors du contexte de carte actuel](#open-content-outside-the-current-map-context).
+   > Si un autre mappage est déjà ouvert dans l’éditeur, une boîte de dialogue de confirmation s’affiche. Sélectionnez **Ouvrir** pour ouvrir le mappage sélectionné dans la branche actuelle. Pour plus d&#39;informations, consultez [Ouvrir le contenu en dehors du contexte de carte actuel](#open-content-outside-the-current-map-context).
 
 1. Sélectionnez la liste déroulante de branche **principale** et vérifiez que le plan DITA requis est sélectionné.
 
    ![](./images/map-context-change.png)
 
-1. Sélectionnez **Nouvelle branche** pour créer une branche de la carte sélectionnée.
+1. Sélectionnez **Nouvelle branche** pour créer une branche du mappage sélectionné.
 
-1. Dans la boîte de dialogue **Nouvelle branche**, saisissez le nom de la nouvelle branche et sélectionnez la branche parent à partir de laquelle vous souhaitez la créer.
+1. Dans la boîte de dialogue **Nouvelle branche**, saisissez le nom de la nouvelle branche et sélectionnez la branche parente à partir de laquelle vous souhaitez la créer.
 
    ![](./images/new-branch-creation.png)
 
@@ -65,12 +65,12 @@ Une nouvelle branche est créée pour le plan DITA sélectionné. Vous pouvez ma
 
 Effectuez les étapes suivantes pour changer de branche :
 
-1. Sélectionnez la **liste déroulante de branche** en haut de l’éditeur (qui affiche `main` par défaut). La liste des branches disponibles pour le plan DITA sélectionné s&#39;affiche.
+1. Sélectionnez la liste déroulante **branche** en haut de l’éditeur (qui affiche `main` par défaut). La liste des branches disponibles pour le plan DITA sélectionné s&#39;affiche.
 1. Sélectionnez la branche que vous souhaitez utiliser.
 
    ![](./images/switch-branches.png)
 
-   La branche sélectionnée s’ouvre et son nom apparaît dans la liste déroulante de branche située en haut de l’éditeur, en remplaçant **principal**.
+   La branche sélectionnée s’ouvre et son nom apparaît dans la liste déroulante de branche située en haut de l’éditeur, en remplaçant **main**.
 
    ![](./images/branch-switched.png)
 
@@ -88,7 +88,7 @@ Vous pouvez maintenant travailler sur la carte et son contenu associé dans la b
 
 Lorsque vous travaillez dans une branche d&#39;un plan DITA, les modifications apportées à son contenu restent dans la branche sélectionnée et n&#39;affectent pas le contenu correspondant dans les autres branches. Cela permet à plusieurs auteurs de travailler indépendamment sur les mêmes sujets dans différentes branches d’une carte.
 
-Par défaut, les rubriques inchangées sont lues à partir de la branche source ou du `main`. Lorsque vous modifiez une rubrique dans la branche sélectionnée, elle devient une partie de cette branche. Toutes les modifications ultérieures apportées à la rubrique restent dans la branche sélectionnée.
+Par défaut, les rubriques inchangées sont lues à partir de la branche source ou `main`. Lorsque vous modifiez une rubrique dans la branche sélectionnée, elle devient une partie de cette branche. Toutes les modifications ultérieures apportées à la rubrique restent dans la branche sélectionnée.
 
 Vous pouvez basculer entre les branches d&#39;un même plan DITA pour afficher et modifier leur contenu respectif.
 
@@ -110,15 +110,15 @@ Vous pouvez continuer à modifier la rubrique dans la branche sélectionnée ou 
 
 ### Ouvrir un mappage en dehors du contexte de mappage actuel
 
-Dans Experience Manager Guides, **contexte du plan** fait référence au plan DITA actuellement ouvert dans l&#39;éditeur.
+Dans Experience Manager Guides, le **contexte du plan** fait référence au plan DITA actuellement ouvert dans l&#39;éditeur.
 
 Si vous essayez d’ouvrir un mappage, une rubrique ou une ressource qui ne fait pas partie du contexte de mappage actuel, une boîte de dialogue de confirmation s’affiche avec les options suivantes :
 
-- **Ouvrir :** remplace le contexte de carte actuel par le contenu sélectionné.
+- **Ouvrir :** remplace le contexte de mappage actuel par le contenu sélectionné.
 - **Ouvrir dans l’éditeur :** ouvre le contenu dans un nouvel onglet sans modifier le contexte de mappage actuel.
 - **Annuler :** annule l’opération et conserve le contexte de mappage actuel.
 
-Supposons, par exemple, que `master_map.ditamap` soit actuellement sélectionné dans la branche **principale**.
+Par exemple, considérez que `master_map.ditamap` est actuellement sélectionné dans la branche **principale**.
 
 ![](./images/map-context-selection.png)
 
@@ -128,7 +128,7 @@ Si vous essayez d&#39;ouvrir un autre plan DITA, la boîte de dialogue de confir
 
 Sélectionnez **Ouvrir** pour passer à la carte sélectionnée.
 
-Le contexte de mappage de la branche `main` est mis à jour vers le mappage nouvellement sélectionné, ce qui vous permet d’utiliser le contenu associé.
+Le contexte de mappage de la branche `main` est mis à jour vers le mappage nouvellement sélectionné, ce qui vous permet d’utiliser son contenu associé.
 
 ![](./images/map-context-change.png)
 
@@ -138,27 +138,27 @@ Les rubriques qui ne sont pas référencées par le mappage ne sont pas automati
 
 ![](./images/edit-topic-current-branch.png)
 
-Sélectionnez **Modifier dans la branche active** pour rendre ces rubriques modifiables dans la branche sélectionnée.
+Sélectionnez **Modifier dans la branche actuelle** pour rendre ces rubriques modifiables dans la branche sélectionnée.
 
 Vous pouvez désormais modifier la rubrique sans affecter son contenu dans `main`. Toutefois, la rubrique n&#39;est pas automatiquement ajoutée au plan DITA associé et n&#39;est pas incluse dans la sortie publiée. Pour inclure la rubrique dans la sortie, ajoutez-la au plan DITA.
 
 ## Gestion des branches
 
-Vous pouvez gérer les branches d&#39;un plan DITA à partir du panneau **Branches** de la console Carte. Vous pouvez afficher les branches disponibles, créer de nouvelles branches, fusionner ou renommer les branches existantes et archiver les branches qui ne sont plus utilisées activement.
+Vous pouvez gérer les branches d&#39;un plan DITA à partir du panneau **Branches** dans la console Carte. Vous pouvez afficher les branches disponibles, créer de nouvelles branches, fusionner ou renommer les branches existantes et archiver les branches qui ne sont plus utilisées activement.
 
 Le panneau **Branches** répertorie toutes les branches disponibles pour le plan DITA sélectionné.
 
 ![](./images/branches-panel.png)
 
-Pour gérer une branche, pointez sur la branche souhaitée et sélectionnez le menu **Options**. Les actions disponibles sont les suivantes :
+Pour gérer une branche, pointez sur la branche requise et sélectionnez le menu **Options**. Les actions disponibles sont les suivantes :
 
 ![](./images/options-menu-branch.png)
 
-- **Nouvelle branche :** permet de créer une branche à partir de la branche sélectionnée.
+- **Nouvelle branche :** Créez une branche à partir de la branche sélectionnée.
 - **Fusionner dans la branche principale :** [Fusionner les modifications](./merge-branches.md) de la branche sélectionnée dans la branche `main`.
-- **Renommer la branche :** modifiez le nom de la branche sélectionnée.
-- **Historique de fusion :** affiche l’historique des activités de fusion. Cette option n’est disponible qu’après la création d’une demande de fusion.
-- **Archiver la branche :** permet d’archiver une branche qui n’est plus utilisée activement.
+- **Renommer la branche :** Modifiez le nom de la branche sélectionnée.
+- **Historique de fusion :** affiche un historique des activités de fusion. Cette option n’est disponible qu’après la création d’une demande de fusion.
+- **Archiver la branche :** Archivez une branche qui n’est plus utilisée activement.
 
   >[!NOTE]
   >
@@ -187,7 +187,7 @@ Pour archiver une branche, procédez comme suit :
    La boîte de dialogue contient les onglets suivants :
 
    - **Actif :** répertorie toutes les branches actives du plan DITA sélectionné.
-   - **Archivé :** répertorie toutes les branches archivées du plan DITA sélectionné.
+   - **Archivé :** Répertorie toutes les branches archivées du plan DITA sélectionné.
 
 2. Dans l’onglet **Actif**, pointez sur la branche à archiver et sélectionnez **Archiver**.
 
