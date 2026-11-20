@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
+source-git-commit: 4dbc008bb913b34a534eb65a146b33e9939febb8
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1158'
 ht-degree: 0%
 ---
 
@@ -45,7 +45,7 @@ Pour créer une branche, procédez comme suit :
 
    >[!NOTE]
    >
-   > Si un autre mappage est déjà ouvert dans l’éditeur, une boîte de dialogue de confirmation s’affiche. Sélectionnez **Ouvrir** pour ouvrir le mappage sélectionné dans la branche actuelle. Pour plus d&#39;informations, consultez [Ouvrir le contenu en dehors du contexte de carte actuel](#open-content-outside-the-current-map-context).
+   > Si un autre mappage est déjà ouvert dans l’éditeur, une boîte de dialogue de confirmation s’affiche. Sélectionnez **Ouvrir** pour ouvrir le mappage sélectionné dans la branche actuelle. Pour plus d&#39;informations, voir [Ouvrir une carte en dehors du contexte de carte actuel](#open-a-map-outside-the-current-map-context).
 
 1. Sélectionnez la liste déroulante de branche **principale** et vérifiez que le plan DITA requis est sélectionné.
 
@@ -53,7 +53,7 @@ Pour créer une branche, procédez comme suit :
 
 1. Sélectionnez **Nouvelle branche** pour créer une branche du mappage sélectionné.
 
-1. Dans la boîte de dialogue **Nouvelle branche**, saisissez le nom de la nouvelle branche et sélectionnez la branche parente à partir de laquelle vous souhaitez la créer.
+1. Dans la boîte de dialogue **Nouvelle branche**, saisissez le nom de la nouvelle branche et sélectionnez la **branche Source** (agissant comme une branche parent) à partir de laquelle vous souhaitez la créer.
 
    ![](./images/new-branch-creation.png)
 
@@ -76,13 +76,9 @@ Effectuez les étapes suivantes pour changer de branche :
 
 Vous pouvez maintenant travailler sur la carte et son contenu associé dans la branche sélectionnée.
 
-![](./images/branch-switched.png)
-
 >[!NOTE]
 >
 >Si une rubrique comporte des modifications non enregistrées lorsque vous changez de branche, une boîte de dialogue s’affiche vous invitant à enregistrer les modifications avant de passer à la branche sélectionnée.
-
-Vous pouvez maintenant travailler sur la carte et son contenu associé dans la branche sélectionnée.
 
 ## Modification isolée dans une branche
 
@@ -199,7 +195,7 @@ Pour archiver une branche, procédez comme suit :
 
 Vous pouvez restaurer une branche archivée d&#39;un plan DITA lorsque vous devez reprendre à travailler sur son contenu.
 
-Pour restaurer une branche archivée, procédez comme suit :
+Effectuez les étapes suivantes pour restaurer une branche archivée :
 
 1. Dans le panneau **Branches**, sélectionnez l’icône **Gérer**.
 2. Dans la boîte de dialogue **Gérer les branches**, sélectionnez l’onglet **Archivé**.

@@ -23,18 +23,18 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
+source-git-commit: 92654f51cb5f9ad4b0d625460e8b16908e01b2a5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1041'
 ht-degree: 0%
 ---
 # Fusion d’une branche dans la
 
 Dans Experience Manager Guides, vous pouvez fusionner les modifications d&#39;une branche d&#39;un plan DITA dans la branche `main`. La fusion vous permet d’incorporer les mises à jour de la documentation terminées dans `main` sans copier manuellement les modifications dans `main`.
 
-Prenons l&#39;exemple d&#39;un plan DITA nommé `install-the-lift.ditamap` avec une branche nommée `Release 2`. Les auteurs peuvent mettre à jour les instructions d&#39;installation dans cette branche pendant que la documentation existante reste inchangée dans `main`.
+Prenons l&#39;exemple d&#39;un plan DITA nommé `install-the-lift.ditamap` avec une branche nommée `Release 2.0`. Les auteurs peuvent mettre à jour les instructions d&#39;installation (décrites dans l&#39;une des rubriques de la carte) dans cette branche tandis que la documentation existante reste inchangée dans `main`.
 
-Une fois les mises à jour prêtes, les auteurs peuvent fusionner les modifications de `Release 2` dans `main`.
+Une fois les mises à jour prêtes, les auteurs peuvent fusionner les modifications de `Release 2.0` dans `main`.
 
 ## Comprendre la fusion des branches
 
@@ -64,14 +64,12 @@ Pour fusionner une branche, procédez comme suit :
 
 5. Sélectionnez la demande de fusion.
 
-   La demande de fusion s’ouvre dans la vue **Branche de fusion**. Passez en revue les modifications et résolvez les conflits, le cas échéant.
-6. Terminez la fusion.
+   La demande de fusion s’ouvre dans la vue **Branche de fusion**, qui répertorie les fichiers présentant des conflits et les fichiers pouvant être fusionnés sans conflits.
+6. Si la requête de fusion contient des conflits, résolvez-les. Pour plus d&#39;informations, consultez [Résoudre les conflits de fusion](#resolve-merge-conflicts).
 
-   Passez en revue les modifications et résolvez les conflits, le cas échéant. Pour plus d&#39;informations, consultez [Résoudre les conflits de fusion](#resolve-merge-conflicts).
+7. Sélectionnez **Fusionner tout**.
 
-   Une fois tous les conflits résolus, sélectionnez **Fusionner tout** pour fusionner les modifications dans `main`.
-
-   Les modifications sont fusionnées dans la branche `main`.
+   Les modifications de la branche sont fusionnées dans `main`.
 
 ## Résoudre les conflits de fusion
 
@@ -143,20 +141,17 @@ Procédez comme suit pour résoudre les conflits de fusion :
 
    Vous pouvez également vérifier ou modifier le contenu directement dans le volet **Fusionné** et sélectionner **Marquer comme résolu** pour conserver le contenu fusionné.
 
-4. Passez en revue le contenu final dans le volet **Fusionné** et sélectionnez **Marquer comme résolu** pour marquer le fichier comme résolu.
-
-5. Répétez les étapes pour tous les fichiers répertoriés sous **Conflits**.
+4. Répétez les étapes pour tous les fichiers répertoriés sous **Conflits**.
 
    Une fois tous les conflits résolus, l’option **Fusionner tout** devient disponible.
 
-6. Sélectionnez **Fusionner tout** pour fusionner les fichiers résolus et les mises à jour nettoyées dans `main`.
+5. Sélectionnez **Fusionner tout** pour fusionner les fichiers résolus et les mises à jour nettoyées dans `main`.
 
    >[!NOTE]
    > 
    > L&#39;option **Fusionner tout** reste désactivée jusqu&#39;à ce que tous les conflits soient résolus.
 
    Les modifications résolues sont fusionnées dans `main`. Impossible d’annuler une fusion terminée. Cependant, vous pouvez créer une demande de fusion pour fusionner les modifications suivantes dans la requête principale.
-
 
 
 ## Gestion d’une demande de fusion

@@ -2,9 +2,9 @@
 title: Notes de mise à jour | Nouveautés de la version Adobe Experience Manager Guides 2026.11.0
 description: Découvrez les nouvelles fonctionnalités de la version 2026.11.0 d’Adobe Experience Manager Guides, notamment l’embranchement au niveau de la carte et la création de contenu de l’assistant d’IA.
 role: Leader
-source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
+source-git-commit: 88172f3fd5c6da80091581a082db9b05d5d13483
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1544'
 ht-degree: 0%
 ---
 
@@ -18,18 +18,22 @@ Découvrez les [instructions de mise à niveau pour la version 2026.11.0](../rel
 
 ## Présentation de l’embranchement et de la fusion au niveau de la carte
 
+>[!NOTE]
+>
+> La fonctionnalité **Embranchement et fusion** n’est actuellement prise en charge que dans les environnements Cloud Service qui utilisent une configuration de base de données et est désactivée par défaut. Pour activer l’embranchement et la fusion dans votre environnement, contactez votre équipe du succès client.
+
 Experience Manager Guides introduit une fonctionnalité d’embranchement et de fusion au niveau de la carte, ce qui permet aux auteurs de travailler sur plusieurs versions de documentation, mises à jour de fonctionnalités et correctifs critiques en parallèle sans affecter le contenu principal. Les auteurs peuvent créer des branches isolées d&#39;un plan DITA et de ses dépendances, en s&#39;assurant que les modifications, les verrous et les aperçus restent spécifiques à chaque branche.
 
 Cette fonctionnalité permet aux équipes de documentation de gérer les flux de travail parallèles, de collaborer efficacement et de maintenir la stabilité de la version de documentation principale. Vous pouvez :
 
 - **Créez des branches** à partir de la version principale d&#39;un plan DITA pour travailler indépendamment sur des fonctionnalités, des améliorations ou des correctifs critiques.
-- **Basculer entre les branches** dans l’éditeur pour gérer plusieurs versions de documentation.
+- **Basculez entre les branches** dans l’éditeur pour gérer plusieurs versions de documentation.
 - **Gérez les versions de contenu** pour organiser les modifications par embranchement et fusion.
-- **Résolvez les conflits de fusion** à l’aide d’un workflow de comparaison guidée avec fusion à trois.
+- **Résolvez les conflits de fusion** à l’aide d’un workflow de comparaison guidée avec fusion à trois voies.
 - **Fusionner les modifications** dans la version principale.
-- **Publication directe à partir d’une branche** à l’aide de la publication standard sans modifier la version principale.
+- **Publiez directement à partir d’une branche** à l’aide de la publication standard sans modifier la version principale.
 
-En savoir plus sur [Branchement et fusion](../user-guide/branching-overview.md).
+En savoir plus sur les [Embranchements et fusions](../user-guide/branching-overview.md).
 
 ![](./assets/branching.png){width="650"}
 
@@ -40,26 +44,26 @@ En savoir plus sur [Branchement et fusion](../user-guide/branching-overview.md).
 >
 >Pour utiliser l’assistant AI en mode Agence, votre entreprise doit être intégrée à Adobe CX Enterprise Coworker et disposer des crédits requis.
 
-Vous pouvez désormais utiliser l&#39;**assistant AI** pour créer et importer du contenu DITA à l&#39;aide d&#39;invites en langage naturel. Optimisées par **&#x200B;**, les nouvelles compétences **Créer** et **Importer** simplifient la création de contenu structuré et aident les auteurs à travailler avec du contenu DITA sans avoir besoin d&#39;une expertise approfondie de DITA.
+Vous pouvez désormais utiliser l&#39;**assistant AI** pour créer et importer du contenu DITA à l&#39;aide d&#39;invites en langage naturel. Optimisées par **Adobe CX Enterprise Coworker**, les nouvelles compétences **Créer** et **Importer** simplifient la création de contenu structuré et aident les auteurs à travailler avec du contenu DITA sans nécessiter une expertise approfondie de DITA.
 
-- **Créer :** génère des rubriques et des mappages DITA à partir d&#39;invites en langage naturel, de documents de référence ou de contenu existant à l&#39;aide de modèles de référentiel. Vous pouvez réviser le contenu généré avant de l’enregistrer et affiner de manière itérative le contenu nouveau ou existant pour répondre à vos besoins.
-- **Importer :** permet de convertir des fichiers PDF, DOCX ou Markdown existants en rubriques et mappages DITA structurés. Vous pouvez réviser le contenu converti avant de l’enregistrer dans le référentiel.
+- **Créer :** à l&#39;aide de modèles de référentiel, générez des rubriques et des mappages DITA à partir d&#39;invites en langage naturel, de documents de référence ou de contenu existant. Vous pouvez réviser le contenu généré avant de l’enregistrer et affiner de manière itérative le contenu nouveau ou existant pour répondre à vos besoins.
+- **Importer :** convertir des fichiers PDF, DOCX ou Markdown existants en rubriques et mappages DITA structurés. Vous pouvez réviser le contenu converti avant de l’enregistrer dans le référentiel.
 - **Balisage intelligent :** obtenez des recommandations de balises pertinentes pour votre contenu en fonction de la taxonomie de votre organisation. L’expérience améliorée permet aux administrateurs et administratrices de configurer des espaces de noms de taxonomie dans les paramètres Workspace, assurant ainsi des recommandations de balises cohérentes et régies.
 
-Le panneau **Assistant IA** introduit également un mode plein écran et une section **Conversations actives** pour une expérience de conversation améliorée.
+Le panneau **Assistant d’IA** introduit également un mode plein écran et une section **Conversations actives** pour une expérience de conversation améliorée.
 
-Pour plus d’informations, consultez [Utilisation de l’assistant AI en mode Agence](../user-guide/ai-assistant.md#agentic-mode).
+Pour plus d&#39;informations, consultez la section [Utiliser l&#39;assistant AI en mode Agentic](../user-guide/ai-assistant.md#agentic-mode).
 
 ![](./assets/preview-import.png){width="650"}
 
 
 ## Nouveau panneau d’aide d’Experience Manager Guides
 
-La fonctionnalité d’aide intelligente **Smart Help** optimisée par l’IA générative est disponible via le panneau dédié **Assistant d’aide**, accessible à partir des interfaces de la page d’accueil, de l’éditeur et de la console Cartes. Le panneau offre une expérience de recherche conversationnelle, ce qui vous permet de poser des questions en langage naturel et de trouver rapidement des informations pertinentes à partir de la documentation de Experience Manager Guides. Vous pouvez ainsi accéder à des conseils contextuels et résoudre des requêtes sans quitter l’éditeur, ce qui vous permet de rationaliser votre workflow de création.
+La fonctionnalité d’**aide intelligente** alimentée par l’IA générative est disponible via le panneau dédié **Assistant d’aide**, accessible à partir des interfaces de la page d’accueil, de l’éditeur et de la console Cartes. Le panneau offre une expérience de recherche conversationnelle, ce qui vous permet de poser des questions en langage naturel et de trouver rapidement des informations pertinentes à partir de la documentation de Experience Manager Guides. Vous pouvez ainsi accéder à des conseils contextuels et résoudre des requêtes sans quitter l’éditeur, ce qui vous permet de rationaliser votre workflow de création.
 
-Les administrateurs peuvent gérer la disponibilité du panneau d’aide via les paramètres de Workspace. La section **Assistant d’aide AI** comprend un bouton (bascule) permettant d’activer ou de désactiver le panneau pour les utilisateurs.
+Les administrateurs peuvent gérer la disponibilité du panneau d’aide via les paramètres de Workspace. La section **Assistant d’aide de l’IA** comprend un bouton (bascule) permettant d’activer ou de désactiver le panneau pour les utilisateurs.
 
-Pour plus d’informations, voir [Assistant d’aide](../user-guide/ai-based-smart-help.md).
+Pour plus d&#39;informations, consultez [Assistant Aide](../user-guide/ai-based-smart-help.md).
 
 ![](./assets/help-assistant.png){width="650"}
 
@@ -67,26 +71,26 @@ Pour plus d’informations, voir [Assistant d’aide](../user-guide/ai-based-sma
 
 ### Panneau Suivi des modifications dans le nouvel éditeur
 
-Le panneau **Suivi des modifications** est désormais disponible dans le nouvel éditeur, ce qui vous permet d’afficher toutes les insertions et suppressions suivies au sein d’une rubrique. Vous pouvez effectuer le suivi des modifications apportées par plusieurs utilisateurs et utilisatrices et accepter ou refuser les modifications directement à partir du panneau.
+Le panneau **Suivi des modifications** est désormais disponible dans le nouvel éditeur, ce qui vous permet d’afficher toutes les insertions et suppressions suivies dans une rubrique. Vous pouvez effectuer le suivi des modifications apportées par plusieurs utilisateurs et utilisatrices et accepter ou refuser les modifications directement à partir du panneau.
 
-Vous pouvez également contrôler l’affichage du contenu supprimé dans l’éditeur à l’aide du paramètre **Afficher les suppressions suivies en ligne** qui vous permet d’afficher le contenu supprimé sous forme de texte barré ou de le remplacer par une icône en forme de crayon liée à la modification correspondante. En savoir plus sur le [suivi des modifications](../user-guide/config-editor-settings.md#track-changes).
+Vous pouvez également contrôler l’affichage du contenu supprimé dans l’éditeur à l’aide du paramètre **Afficher les suppressions suivies en ligne** qui permet d’afficher le contenu supprimé sous forme de texte barré ou de le remplacer par une icône en forme de crayon liée à la modification correspondante. En savoir plus sur le [suivi des modifications](../user-guide/config-editor-settings.md#track-changes).
 
-![&#x200B; Paramètres de l’éditeur &#x200B;](./assets/track-changes-all.png){width="650"}
+![Paramètres de l’éditeur](./assets/track-changes-all.png){width="650"}
 
 ### Trier des fichiers et des dossiers dans le panneau de l’explorateur
 
 Le panneau **Explorateur** de l’éditeur vous permet de trier les fichiers et les dossiers par ordre croissant ou décroissant à l’aide du bouton **Trier**. Par défaut, les éléments sont triés dans l’ordre croissant par titre ou nom de fichier, en fonction du paramètre **Affichage des fichiers de l’éditeur** dans **Préférences utilisateur**. Cela facilite la navigation et la localisation du contenu dans l’éditeur.
 
-Pour plus d’informations, consultez la section [Explorateur](../user-guide/paginated-loading-assets.md#explorer) dans Chargement paginé de fichiers et de dossiers.
+Pour plus d&#39;informations, consultez la section [Explorateur](../user-guide/paginated-loading-assets.md#explorer) dans Chargement paginé de fichiers et de dossiers.
 
 ### Gérer les versions et les libellés des fichiers non DITA à partir de l&#39;éditeur
 
 Experience Manager Guides vous permet d’afficher l’historique des versions et de gérer les libellés de version des fichiers non DITA, tels que les fichiers images, multimédias, ZIP, PDF et DOCX, directement à partir de l’éditeur. Vous pouvez prévisualiser ces fichiers, consulter leur historique de versions, comparer des versions et revenir à une version antérieure sans accéder à l’interface utilisateur d’Assets. Vous pouvez également appliquer ou mettre à jour des libellés de version pour les versions de fichiers existantes afin de simplifier l’identification et la gestion des versions.
 
-Pour plus d&#39;informations, voir [Utiliser des fichiers multimédias et autres fichiers non DITA](../user-guide/authoring-file-management.md#work-with-media-and-other-non-dita-files).
+Pour plus d&#39;informations, consultez [Utilisation de fichiers multimédias et d&#39;autres fichiers non DITA](../user-guide/authoring-file-management.md#work-with-media-and-other-non-dita-files).
 
 
-![&#x200B; Paramètres de l’éditeur &#x200B;](./assets/version-management-non-dita-files.png){width="650"}
+![Paramètres de l’éditeur](./assets/version-management-non-dita-files.png){width="650"}
 
 
 ## Améliorations de la révision
@@ -95,19 +99,19 @@ Pour plus d&#39;informations, voir [Utiliser des fichiers multimédias et autres
 
 Les initiateurs de révision peuvent ajouter des commentaires et des annotations intégrés aux rubriques d’une tâche de révision à l’aide de l’interface utilisateur de révision. Cela leur permet de fournir un contexte supplémentaire, de mettre en évidence un contenu spécifique et d’attirer l’attention des réviseurs et des réviseuses sur les domaines nécessitant des commentaires.
 
-Ces commentaires apparaissent dans le panneau **Commentaires** avec les commentaires des autres réviseurs et réviseuses, offrant ainsi une vue d’ensemble des discussions relatives à la révision. Les réviseurs reçoivent également une notification AEM lorsque l’initiateur ajoute un commentaire, ce qui permet de rationaliser la collaboration et la communication tout au long du processus de révision. Pour plus d’informations, voir [Ajouter des commentaires pour les réviseurs](../user-guide/review-send-topics-for-review.md#add-comments-for-reviewers).
+Ces commentaires apparaissent dans le panneau **Commentaires** avec les commentaires des autres réviseurs, offrant ainsi une vue consolidée des discussions de révision. Les réviseurs reçoivent également une notification AEM lorsque l’initiateur ajoute un commentaire, ce qui permet de rationaliser la collaboration et la communication tout au long du processus de révision. Pour plus d&#39;informations, voir [Ajouter des commentaires pour les réviseurs](../user-guide/review-send-topics-for-review.md#add-comments-for-reviewers).
 
 ## Améliorations de la publication
 
 ### Afficher et gérer l’historique de sortie à partir de la console Carte
 
-La console Mappage de Experience Manager Guides comprend désormais un onglet **Historique de sortie** qui vous permet d’afficher et de gérer les tâches de génération de sortie directement à partir de l’éditeur sans avoir à accéder au tableau de bord Mappage.
+La console Mappage de Experience Manager Guides comprend désormais un onglet **Historique de sortie**, qui vous permet d’afficher et de gérer les tâches de génération de sortie directement à partir de l’éditeur sans avoir à accéder au tableau de bord Mappage.
 
 L’onglet fournit une vue consolidée des tâches de génération de sortie, y compris leur statut, les détails du préréglage, la date de génération et la durée. Vous pouvez rechercher et filtrer des tâches, annuler des générations en cours, accéder aux sorties et aux journaux générés et supprimer des entrées terminées de l’historique. Vous pouvez également exporter l’historique de sortie au format CSV pour effectuer une analyse plus approfondie. Les statuts de génération de sortie utilisent des indicateurs de couleur cohérents avec le tableau de bord de la carte.
 
-Pour plus d’informations, consultez [Gérer le processus de génération de sortie](../user-guide/generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
+Pour plus de détails, consultez [Gérer le processus de génération de sortie](../user-guide/generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
 
-![&#x200B; Paramètres de l’éditeur &#x200B;](./assets/output-history-editor-view.png){width="650"}
+![Paramètres de l’éditeur](./assets/output-history-editor-view.png){width="650"}
 
 
 ### Amélioration des options de purge de l’historique de sortie
@@ -116,7 +120,7 @@ Vous pouvez purger l’historique de sortie **Par âge** (en supprimant les entr
 
 Vous pouvez également choisir de purger uniquement les journaux de sortie tout en conservant les entrées d’historique à des fins d’audit ou de supprimer les journaux et les entrées associées. Ces options permettent d’optimiser le stockage du référentiel tout en offrant un meilleur contrôle sur la purge de l’historique de sortie.
 
-Pour plus d’informations, consultez [Configuration de la période de purge automatique pour l’historique de sortie](../install-conf-guide/conf-output-generation.md#configure-auto-purging-period-for-output-history-id19aai070v8q).
+Pour plus d&#39;informations, consultez [Configurer la période de purge automatique pour l&#39;historique de sortie](../install-conf-guide/conf-output-generation.md#configure-auto-purging-period-for-output-history-id19aai070v8q).
 
 ### Prise en charge de GitLab pour les profils de publication Edge Delivery Services
 
@@ -124,13 +128,13 @@ La publication Edge Delivery Services prend en charge les référentiels héberg
 
 Les paramètres prédéfinis de publication incluent également un champ pour un sous-dossier, afin que vous puissiez publier du contenu dans un sous-dossier au sein du dossier racine spécifié dans le profil.
 
-Pour plus d’informations, consultez [Configuration d’un Edge Delivery Services](../knowledge-base/publishing/configure-eds.md).
+Pour plus de détails, consultez [Configurer un Edge Delivery Services](../knowledge-base/publishing/configure-eds.md).
 
 ### Améliorations apportées à la publication sur Salesforce
 
 Experience Manager Guides améliore la publication Salesforce, ainsi que la sécurité, les performances et l’efficacité de publication. Ces améliorations comprennent la prise en charge de la clé de vérification pour l’échange de code (PKCE), l’authentification par jeton d’actualisation, l’état de publication au niveau de l’article, les journaux de publication détaillés, l’historique de sortie et la publication optimisée des ressources pour réduire les chargements redondants.
 
-Pour plus d’informations, consultez la section [Publication Salesforce améliorée à l’aide du traitement principal](../user-guide/web-editor-article-publishing.md#enhanced-salesforce-publishing-using-backend-processing).
+Pour plus d&#39;informations, consultez [Publication Salesforce améliorée à l&#39;aide du traitement principal](../user-guide/web-editor-article-publishing.md#enhanced-salesforce-publishing-using-backend-processing).
 
 
 ### Prise en charge des images à partir des métadonnées de carte dans Native PDF
@@ -139,13 +143,13 @@ La publication native de PDF prend en charge l&#39;affichage dynamique des image
 
 En ajoutant un espace réservé pour l’image à la mise en page, vous pouvez le remplir automatiquement avec l’image référencée dans les métadonnées de carte lors de la publication. Cela élimine la nécessité de conserver des modèles distincts pour différentes images et simplifie la gestion des modèles.
 
-Pour plus d’informations, voir [Ajouter une image à partir des métadonnées de carte](../native-pdf/design-page-layout.md#add-an-image-from-map-metadata-add-image-map-metadata).
+Pour plus d&#39;informations, voir [Ajouter une image à partir des métadonnées de carte](../native-pdf/design-page-layout.md#add-an-image-from-map-metadata-add-image-map-metadata).
 
 ### Valider la qualité du contenu avec le contrôle de l’intégrité du contenu dans l’ancien éditeur
 
 Le contrôle de l&#39;intégrité du contenu est disponible dans l&#39;ancien éditeur (déjà pris en charge dans le nouvel éditeur), ce qui permet de valider la qualité du contenu dans les plans DITA avant la publication. Les administrateurs peuvent créer des paramètres prédéfinis de contrôle de l’intégrité réutilisables en combinant les contrôles pour les liens rompus, les identifiants en double et la validation du schéma.
 
-Les auteurs peuvent exécuter un contrôle d&#39;intégrité sur un plan DITA ou sur une ligne de base sélectionnée dans l&#39;ancien éditeur pour générer un rapport consolidé des problèmes sur les rubriques et plans associés. Pour plus d’informations, consultez [Exécuter le contrôle d’intégrité sur une carte](../user-guide/map-editor-other-features.md#run-health-check-on-a-map).
+Les auteurs peuvent exécuter un contrôle d&#39;intégrité sur un plan DITA ou sur une ligne de base sélectionnée dans l&#39;ancien éditeur pour générer un rapport consolidé des problèmes sur les rubriques et plans associés. Pour plus d&#39;informations, consultez [Exécuter le contrôle de l&#39;intégrité sur une carte](../user-guide/map-editor-other-features.md#run-health-check-on-a-map).
 
 ## API d’upsert pour la migration de contenu héritée
 
