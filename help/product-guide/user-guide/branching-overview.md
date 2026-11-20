@@ -1,5 +1,5 @@
 ---
-title: Branchement dans AEM Guides | Adobe Experience Manager Guides
+title: Branchement et fusion dans AEM Guides | Adobe Experience Manager Guides
 description: Découvrez comment créer et gérer les branches d'un plan DITA dans AEM Guides pour prendre en charge la création parallèle, la publication indépendante et la fusion des modifications de la documentation.
 TQID: https://experienceleague.adobe.com/pg9zeEg8m3NeDbN-j945SqPbaMX0GgBmuquAsQcrjOM
 product_v2:
@@ -23,16 +23,16 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
+source-git-commit: 88172f3fd5c6da80091581a082db9b05d5d13483
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '677'
 ht-degree: 0%
 ---
 # Vue d’ensemble
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> La fonctionnalité d’embranchement et de fusion est introduite dans la version 2026.11.0 de Experience Manager Guides as a Cloud Service et est désactivée par défaut. Pour activer cette fonctionnalité dans votre environnement, contactez votre équipe du succès client.
+> La fonctionnalité **Embranchement et fusion** est disponible à partir de la version 2026.11.0 de Experience Manager Guides as a Cloud Service. Il est actuellement pris en charge uniquement dans les environnements Cloud Service qui utilisent une configuration de base de données et est désactivé par défaut. Pour activer l’embranchement et la fusion dans votre environnement, contactez votre équipe du succès client.
 
 L&#39;embranchement dans Adobe Experience Manager Guides vous permet de créer et de gérer plusieurs branches à partir de la branche **principale** pour qu&#39;un plan DITA fonctionne sur différentes versions de documentation en parallèle. Chaque branche permet aux auteurs de gérer les modifications de contenu de manière indépendante, sans affecter le contenu correspondant dans les autres branches.
 
