@@ -9,9 +9,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 9fc07666f2f53b6f0ca43e3203ac817daf8039d9
+source-git-commit: e21e39b2acf48c4115101ab806e97b45844fa191
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '431'
 ht-degree: 1%
 ---
 # Notes de mise à jour de la version 2026.11.0 Service Pack 1 (novembre 2026)
@@ -26,7 +26,7 @@ Utilisez les ressources suivantes lors du développement de modules externes Jav
 |---|---|---|----|
 | 2026.11.0 Service Pack 1 | 2026.11.0 | [API AEM Guides SDK 2026.11.0](https://central.sonatype.com/artifact/com.adobe.aem/aem-dox-sdk-api/2026.11.0) | [Javadoc 2026.11.0](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) |
 
-Pour plus d’informations, consultez [Configurer et utiliser le fichier JAR de l’API à partir du référentiel central Maven](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/api-reference/introduction).
+Pour plus d’informations, consultez [Configurer et utiliser le fichier JAR de l’API à partir du référentiel central Maven](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
 
 
 ## Problèmes résolus
@@ -46,5 +46,5 @@ Les problèmes suivants se produisent lors de la publication dans AEM Sites à l
 Adobe a identifié les problèmes connus suivants pour la version 2026.11.0 du Service Pack 1 :
 
 - Lors de l’utilisation de Experience Manager Guides as a Cloud Service version 2026.11.0 ou ultérieure, la publication échoue avec une erreur d’application si AEM redémarre certains services internes pendant le processus de publication, par exemple lorsqu’une instance de serveur démarre. (GUIDES-60804)<br>**Solution de contournement :** Pour résoudre le problème, relancez la publication.
-- Lors de la génération d’une sortie pour plusieurs paramètres prédéfinis AEM Sites (à l’aide du mappage de composants composites) ou PDF natifs via **Collection de mappages** ou l’API, la génération de la sortie échoue avec une exception `Rebuild the Baseline`. (GUIDES-60877) <br>**Solution :** publiez les paramètres prédéfinis de manière séquentielle plutôt que simultanément pour éviter le problème.
+- Lors de la génération d’une sortie pour plusieurs paramètres prédéfinis AEM Sites (à l’aide du mappage des composants composites) ou PDF natifs à l’aide de la même ligne de base via **Collection de mappages** ou l’API, la génération de la sortie échoue avec une exception `Rebuild the Baseline`. (GUIDES-60877) <br>**Solution :** publiez les paramètres prédéfinis de manière séquentielle plutôt que simultanément pour éviter le problème.
 
