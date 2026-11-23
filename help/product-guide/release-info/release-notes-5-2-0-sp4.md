@@ -31,7 +31,7 @@ Utilisez les ressources suivantes lors du développement de modules externes Jav
 |---|---|---|----|
 | 5.2.0 Service Pack 4 (UUID) | 5.2.2 | [API AEM Guides SDK 5.2.2](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.2/) | [Javadoc 5.2.2](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html) |
 
-Pour plus d’informations, consultez [Configurer et utiliser le fichier JAR de l’API à partir du référentiel central Maven](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
+Pour plus d’informations, consultez [Configurer et utiliser le fichier JAR de l’API à partir du référentiel central Maven](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using/api-reference/introduction).
 
 ## Mise à niveau vers la version 5.2.0 Service Pack 4 de Experience Manager Guides
 
