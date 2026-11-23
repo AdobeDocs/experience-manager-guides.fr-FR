@@ -14,9 +14,9 @@ feature_v2:
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader
-source-git-commit: ad78587f55ec7190443dbbce80f596821ec41f9f
+source-git-commit: a232c8a03cda9b0ef7ae8114c3d901df5fb5bcb4
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '530'
 ht-degree: 2%
 ---
 # Notes de mise à jour de la version 5.2.0 Service Pack 4 (novembre 2026)
@@ -45,7 +45,7 @@ Découvrez comment installer le pack de services 4 de Experience Manager Guides 
 
 Avant de commencer le processus de mise à niveau du pack de services 4 de Experience Manager Guides 5.2.0, assurez-vous d’utiliser la version 5.2.0 du pack de services 1.
 
-### Processus de mise à niveau vers la version 5.2.0 du pack de services 4
+### Processus de mise à niveau vers la version 5.2.0 Service Pack 4
 
 1. Téléchargez le package Experience Manager Guides version 5.2.0 Service Pack 4.
 1. Chargez le package vers votre instance à l’aide du gestionnaire de packages (`/crx/packmgr`).
@@ -58,7 +58,7 @@ Les bogues corrigés dans différentes zones sont répertoriés ci-dessous :
 
 ### Création
 
-- Lorsque vous faites glisser une ressource dans un mappage à partir du panneau Explorateur qui n’a pas été actualisé après qu’un autre auteur a déplacé cette ressource, une référence rompue est ajoutée au mappage. (GUIDES-57869)
+- Lorsque vous faites glisser et déposez une ressource dans un mappage à partir du panneau Explorateur qui n’a pas été actualisé après qu’un autre auteur a déplacé cette ressource, une référence rompue est ajoutée au mappage. (GUIDES-57869)
 
 ### Gestion des ressources numériques
 
