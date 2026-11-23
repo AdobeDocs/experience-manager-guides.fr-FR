@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Consultez la documentation du produit Adobe Experience Manager Guides.
 breadcrumb-title: Documentation d’AEM Guides
-source-git-commit: 79ba2d52e002fd5c821678e5662d67e6607f7808
+source-git-commit: ad78587f55ec7190443dbbce80f596821ec41f9f
 workflow-type: tm+mt
-source-wordcount: '2713'
+source-wordcount: '2717'
 ht-degree: 11%
 ---
 
@@ -149,6 +149,8 @@ ht-degree: 11%
         - [Notes de mise à jour de janvier](./release-info/release-notes-2022-1-0.md)
     - On-prem/Managed Services {#on-prem-release-notes}
       - [[!DNL AEM Guides] versions](./release-info/latest-release-info.md)
+      - {hide-from-toc} 5.2.0 SP4 {#520-sp4-release}
+        - {hide-from-toc}[Notes de mise à jour](./release-info/release-notes-5-2-0-sp4.md)
       - Version 5.2.0 SP3 {#520-sp3-release}
         - [Problèmes résolus](./release-info/fixed-issues-5-2-0-sp3.md)
         - [Instructions de mise à niveau](./release-info/upgrade-instructions-5-2-0-sp3.md)
@@ -231,8 +233,8 @@ ht-degree: 11%
   - Présentation {#about-aemg}
     - [À propos de [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] fonctionnalités de travail et fonctionnalités clés {#aemg-works-features}
-      - [Fonctionnement de [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-      - [Fonctionnalités clés [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+      - [Fonctionnement de [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+      - [Fonctionnalités clés [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
   - Page d’accueil {#home-page}
     - [Expérience de la page d’accueil [!DNL AEM Guides]](./user-guide/intro-home-page.md)
     - [Interface du référentiel](./user-guide/home-page-repository-view.md)
@@ -389,7 +391,7 @@ ht-degree: 11%
       - [Suggestions intelligentes optimisées par l’IA pour créer du contenu](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [Questions fréquentes](./user-guide/ai-assistant-faq.md)
   - Assistant d’aide dans AEM Guides {#help-assistant-aem}
-    - [Aide intelligente optimisée par l’IA pour rechercher du contenu](./user-guide/ai-based-smart-help.md)
+    - Aide intelligente optimisée par l’IA [pour rechercher du contenu](./user-guide/ai-based-smart-help.md)
   - Gérer le contenu de formation {#learning-training-content}
     - Guide de prise en main {#get-started}
       - Présentation {#intro-lc}
@@ -452,7 +454,7 @@ ht-degree: 11%
     - Gestion des performances {#performance-management}
       - [Chargement paginé de fichiers et de dossiers](./user-guide/paginated-loading-assets.md)
 - Guide de l’utilisateur (ancienne interface utilisateur) {#user-guide-old-ui}
-  - [Présentation d’AEM Guides](https://experienceleague.adobe.com/fr/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Présentation d’AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation et configuration {#install-conf-guide}
   - [Téléchargement, installation et mise à niveau](./install-conf-guide/introduction.md)
   - Processus d’installation de Cloud Service {#deploy-conf-aemg-cs}

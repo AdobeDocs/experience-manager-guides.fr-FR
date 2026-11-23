@@ -14,9 +14,9 @@ feature_v2:
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader
-source-git-commit: 01aae4f8c25d87d2dd0a0255bedab8d7b091e54d
+source-git-commit: a3144f0078b2073289043befacc5e2358b9c0e02
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '816'
 ht-degree: 1%
 ---
 # Correction de problèmes dans la version 5.2.0 Service Pack 3 (novembre 2026)
@@ -74,4 +74,4 @@ Découvrez les [instructions de mise à niveau pour le pack de services 3 versio
 
 Adobe a identifié les problèmes connus suivants pour la version 5.2.0 Service Pack 3 :
 
-- Après avoir installé le pack de services, la validation de Schematron peut échouer avec une exception `NoClassDefFoundError` et vous ne pouvez pas enregistrer les rubriques dans l&#39;éditeur. <br>**Solution :** Actualisez le lot `com.adobe.fmdita.schematron-wrapper` à partir de la console web AEM (`/system/console/bundles`).
+- Après avoir installé le pack de services, la validation de Schematron peut échouer avec une exception `NoClassDefFoundError` et vous ne pouvez pas enregistrer les rubriques dans l&#39;éditeur. (GUIDES-60062)<br>**Solution :** Actualisez le lot `com.adobe.fmdita.schematron-wrapper` à partir de la console web AEM (`/system/console/bundles`).
