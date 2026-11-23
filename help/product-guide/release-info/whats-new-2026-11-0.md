@@ -2,9 +2,9 @@
 title: Notes de mise à jour | Nouveautés de la version Adobe Experience Manager Guides 2026.11.0
 description: Découvrez les nouvelles fonctionnalités de la version 2026.11.0 d’Adobe Experience Manager Guides, notamment l’embranchement au niveau de la carte et la création de contenu de l’assistant d’IA.
 role: Leader
-source-git-commit: 88172f3fd5c6da80091581a082db9b05d5d13483
+source-git-commit: 79ba2d52e002fd5c821678e5662d67e6607f7808
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1543'
 ht-degree: 0%
 ---
 
@@ -118,7 +118,7 @@ Pour plus de détails, consultez [Gérer le processus de génération de sortie]
 
 Vous pouvez purger l’historique de sortie **Par âge** (en supprimant les entrées datant de plus d’un nombre de jours spécifié) ou **Par nombre** (en conservant uniquement un nombre spécifié d’entrées récentes).
 
-Vous pouvez également choisir de purger uniquement les journaux de sortie tout en conservant les entrées d’historique à des fins d’audit ou de supprimer les journaux et les entrées associées. Ces options permettent d’optimiser le stockage du référentiel tout en offrant un meilleur contrôle sur la purge de l’historique de sortie.
+Vous pouvez choisir de purger uniquement les journaux de sortie tout en conservant les entrées d’historique à des fins d’audit ou de supprimer les journaux et les entrées associées. Ces options permettent d’optimiser le stockage du référentiel tout en offrant un meilleur contrôle sur la purge de l’historique de sortie.
 
 Pour plus d&#39;informations, consultez [Configurer la période de purge automatique pour l&#39;historique de sortie](../install-conf-guide/conf-output-generation.md#configure-auto-purging-period-for-output-history-id19aai070v8q).
 
