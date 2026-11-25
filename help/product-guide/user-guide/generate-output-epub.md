@@ -32,16 +32,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1204'
 ht-degree: 0%
 ---
 # EPUB {#id205BED020YT}
 
 >[!NOTE]
 >
->À compter de la version 2027.01.0 de Cloud Service et de la version 5.4 d’On-Premise de Experience Manager Guides , la fonctionnalité de tableau de bord des cartes sera abandonnée pour les nouveaux clients. Par conséquent, la création du préréglage EPUB ne serait pas disponible.  Toutefois, la fonctionnalité Mapper le tableau de bord reste activée pour les clients existants qui l’utilisent déjà. Si vous souhaitez désactiver le tableau de bord des cartes, contactez votre équipe du succès client. Il est dorénavant recommandé d’utiliser la console Map pour la gestion et la publication des cartes.
+>À compter de la version 2027.01.0 de Experience Manager Guides Cloud Service et de la version 5.3 On-Premise, le tableau de bord des cartes sera obsolète pour les nouveaux clients. Par conséquent, la création du préréglage EPUB ne serait pas disponible. Les nouveaux clients utiliseront la console de mappage par défaut. Avec la version 2027.03.0, le tableau de bord Carte sera désactivé par défaut. À l’avenir, nous vous recommandons d’utiliser la console Map pour la gestion et la publication des cartes. Si vous avez toujours besoin d’accéder au tableau de bord des cartes, contactez l’équipe du succès client pour obtenir de l’aide.
 
 Vous pouvez créer le paramètre prédéfini EPUB à partir du tableau de bord de mappage.
 
@@ -81,4 +81,4 @@ Les options de configuration suivantes sont disponibles pour le paramètre préd
 | Utiliser niveau de référence | Si vous avez créé une ligne de base pour le plan DITA sélectionné, sélectionnez cette option pour spécifier la version que vous souhaitez publier. Afficher [Utilisation de la ligne de base](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) pour plus de détails. <br>**Remarque** : si vous supprimez une ligne de base utilisée dans le paramètre prédéfini de sortie, ce dernier ne se met pas à jour automatiquement. Procédez comme suit avant de générer la sortie : <ul><li>**Si vous supprimez la seule ligne de base** : l&#39;option **Utiliser la ligne de base** reste activée et la liste déroulante apparaît vide. La génération d’une sortie dans cet état échoue. Désactivez le bouton (bascule) Utiliser la ligne de base et actualisez la page, puis générez la sortie.</li><li>**Si vous disposez de plusieurs niveaux de référence et supprimez celui sélectionné** : la liste déroulante **Utiliser le niveau de référence** continue d&#39;afficher le niveau de référence supprimé tel qu&#39;il est sélectionné. Sélectionnez une ligne de base valide dans la liste déroulante, puis générez la sortie.</li></ul> |
 | Propriétés | Sélectionnez les propriétés à traiter en tant que métadonnées. Ces propriétés sont définies à partir de la page Propriétés du fichier DITA map ou bookmap. Les propriétés que vous sélectionnez dans la liste déroulante sont répertoriées sous le champ Propriétés et sont supprimées de la liste déroulante. Une fois définies, ces propriétés sont également copiées dans les rubriques du mappage.<br><br>**Remarque** : vous pouvez également transmettre les métadonnées à la sortie à l’aide de la publication DITA-OT. Pour plus de détails, [Transmettez les métadonnées à la sortie à l&#39;aide de DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)
+**Rubrique parente :**[ Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)

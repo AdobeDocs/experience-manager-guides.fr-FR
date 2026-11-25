@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 7a29c5f8373907c02c84a125da8da5ad38584173
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1755'
 ht-degree: 0%
 ---
 # Créer un paramètre prédéfini de sortie PDF DITA-OT {#id205BE600HAH}
@@ -99,7 +99,7 @@ Pour plus d’informations sur les options de configuration des paramètres pré
 
 >[!NOTE]
 >
->À compter de la version 2027.01.0 de Cloud Service et de la version 5.4 d’On-Premise de Experience Manager Guides , la fonctionnalité de tableau de bord des cartes sera abandonnée pour les nouveaux clients. Toutefois, elle restera activée pour les clients qui l’utilisent déjà. Si vous souhaitez désactiver le tableau de bord des cartes, contactez votre équipe du succès client. Il est dorénavant recommandé d’utiliser la console Map pour la gestion et la publication des cartes.
+>À compter de la version 2027.01.0 de Experience Manager Guides Cloud Service et de la version 5.3 On-Premise, le tableau de bord des cartes sera obsolète pour les nouveaux clients. Les nouveaux clients utiliseront la console de mappage par défaut. Avec la version 2027.03.0, le tableau de bord Carte sera désactivé par défaut. À l’avenir, nous vous recommandons d’utiliser la console Map pour la gestion et la publication des cartes. Si vous avez toujours besoin d’accéder au tableau de bord des cartes, contactez l’équipe du succès client pour obtenir de l’aide.
 
 Pour créer le paramètre prédéfini PDF à partir du tableau de bord de mappage, procédez comme suit :
 
@@ -136,4 +136,4 @@ Par exemple, **Chemin de sortie/Chemin de destination** - Ici, **Chemin de sorti
 | Propriétés du fichier | Sélectionnez les propriétés à traiter en tant que métadonnées. Ces propriétés sont définies à partir de la page Propriétés du fichier DITA map ou bookmap. Les propriétés que vous sélectionnez dans la liste déroulante apparaissent sous le champ **Propriétés du fichier**. Sélectionnez l’icône croisée en regard de la propriété pour la supprimer. <br><br>Remarque : vous pouvez également transmettre les métadonnées à la sortie à l&#39;aide de la publication DITA-OT. Pour plus de détails, [Transmettez les métadonnées à la sortie à l&#39;aide de DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)
+**Rubrique parente :**[ Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)

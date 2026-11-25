@@ -32,16 +32,16 @@ topic_v2:
     internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '2589'
+source-wordcount: '2595'
 ht-degree: 0%
 ---
 # Paramètres prédéfinis AEM Sites dans le tableau de bord de carte {#id205BE3008SW}
 
 >[!NOTE]
 >
->À compter de la version 2027.01.0 de Cloud Service et de la version 5.4 d’On-Premise de Experience Manager Guides , la fonctionnalité de tableau de bord des cartes sera abandonnée pour les nouveaux clients. Toutefois, elle restera activée pour les clients qui l’utilisent déjà. Si vous souhaitez désactiver le tableau de bord des cartes, contactez votre équipe du succès client. Il est dorénavant recommandé d’utiliser la console Map pour la gestion et la publication des cartes.
+>À compter de la version 2027.01.0 de Experience Manager Guides Cloud Service et de la version 5.3 On-Premise, le tableau de bord des cartes sera obsolète pour les nouveaux clients. Les nouveaux clients utiliseront la console de mappage par défaut. Avec la version 2027.03.0, le tableau de bord Carte sera désactivé par défaut. À l’avenir, nous vous recommandons d’utiliser la console Map pour la gestion et la publication des cartes. Si vous avez toujours besoin d’accéder au tableau de bord des cartes, contactez l’équipe du succès client pour obtenir de l’aide.
 
 Vous pouvez créer des paramètres prédéfinis AEM Sites à partir du tableau de bord de mappage et les configurer pour générer la sortie AEM Sites.
 
@@ -144,4 +144,4 @@ Vous pouvez rechercher une chaîne dans la sortie AEM Sites. Par défaut, vous n
 
 Pour plus d’informations, consultez la section *Configurer l’aplatissement de la structure de nœud du site AEM* du guide Installation et configuration d’Adobe Experience Manager Guides .
 
-**Rubrique parente :**&#x200B;[&#x200B; Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)
+**Rubrique parente :**[ Présentation des paramètres prédéfinis de sortie](generate-output-understand-presets.md)

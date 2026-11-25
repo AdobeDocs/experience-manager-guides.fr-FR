@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '696'
 ht-degree: 0%
 ---
 # Transmettre les métadonnées à la sortie à l’aide de DITA-OT {#id21BJ00QD0XA}
@@ -66,7 +66,7 @@ Effectuez les étapes suivantes pour transmettre les métadonnées à la sortie 
 
    Ce fichier peut être recouvert à l’emplacement suivant : `/apps/fmdita/config/metadataList`.
 
-   Pour transmettre une propriété personnalisée pour laquelle vous avez déjà défini les valeurs, affichez [Utiliser les métadonnées AEM dans la sortie PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=fr).
+   Pour transmettre une propriété personnalisée pour laquelle vous avez déjà défini les valeurs, affichez [Utiliser les métadonnées AEM dans la sortie PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
 
 1. Les propriétés sélectionnées sont répertoriées sous la liste déroulante.
 
@@ -85,7 +85,7 @@ Les propriétés de métadonnées sélectionnées seront transmises à la sortie
 
 >[!NOTE]
 >
->À compter de la version 2027.01.0 de Cloud Service et de la version 5.4 d’On-Premise de Experience Manager Guides , la fonctionnalité de tableau de bord des cartes sera abandonnée pour les nouveaux clients. Toutefois, elle restera activée pour les clients qui l’utilisent déjà. Si vous souhaitez désactiver le tableau de bord des cartes, contactez votre équipe du succès client. Il est dorénavant recommandé d’utiliser la console Map pour la gestion et la publication des cartes.
+>À compter de la version 2027.01.0 de Experience Manager Guides Cloud Service et de la version 5.3 On-Premise, le tableau de bord des cartes sera obsolète pour les nouveaux clients. Les nouveaux clients utiliseront la console de mappage par défaut. Avec la version 2027.03.0, le tableau de bord Carte sera désactivé par défaut. À l’avenir, nous vous recommandons d’utiliser la console Map pour la gestion et la publication des cartes. Si vous avez toujours besoin d’accéder au tableau de bord des cartes, contactez l’équipe du succès client pour obtenir de l’aide.
 
 Si vous travaillez sur l’**interface utilisateur d’Assets**, procédez comme suit pour transmettre les métadonnées à la sortie à l’aide de la publication DITA-OT :
 
@@ -105,7 +105,7 @@ Si vous travaillez sur l’**interface utilisateur d’Assets**, procédez comme
 
    Ce fichier peut être recouvert à l’emplacement suivant : `/apps/fmdita/config/metadataList`.
 
-   Pour transmettre une propriété personnalisée pour laquelle vous avez déjà défini les valeurs, affichez [Utiliser les métadonnées AEM dans la sortie PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=fr).
+   Pour transmettre une propriété personnalisée pour laquelle vous avez déjà défini les valeurs, affichez [Utiliser les métadonnées AEM dans la sortie PDF DITA-OT](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
 
 1. Dans la liste déroulante **Propriétés**, sélectionnez les propriétés personnalisées et par défaut requises. Par exemple, sélectionnez `author`, `dc:title` et `dc:description`. Il s’agit de la valeur `metadata/properties` standard qui est créée une fois le fichier créé. Les propriétés sélectionnées sont répertoriées sous la liste déroulante.
 
@@ -118,4 +118,4 @@ Les propriétés de métadonnées sélectionnées seront transmises à la sortie
 
 
 
-**Rubrique parente :**&#x200B;[&#x200B; Génération de sortie](generate-output.md)
+**Rubrique parente :**[ Génération de sortie](generate-output.md)
