@@ -43,7 +43,7 @@ Les onglets suivants fournissent des instructions pour traduire le contenu en fo
 
 1. Associez les pages de votre gabarit de langue au service de traduction et aux configurations de structure.
 
-1. Identifiez le type de contenu [ à traduire](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en).
+1. Identifiez le type de contenu [&#x200B; à traduire](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en).
 
 1. [Préparez le contenu à traduire](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en) en créant le gabarit de langue et les pages racine des copies de langue.
 
@@ -58,7 +58,7 @@ Les onglets suivants fournissent des instructions pour traduire le contenu en fo
 
 1. Associez les pages de votre gabarit de langue au [service de traduction et aux configurations de structure](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
 
-1. Identifiez le type de contenu [ à traduire](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-rules.html?lang=fr).
+1. Identifiez le type de contenu [&#x200B; à traduire](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-rules.html?lang=fr).
 
 1. [Préparez le contenu à traduire](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html) en créant le gabarit de langue et les pages racine des copies de langue.
 
