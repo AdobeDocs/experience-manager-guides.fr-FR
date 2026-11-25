@@ -19,9 +19,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1649'
 ht-degree: 10%
 ---
 # Traduction du contenu {#id181GB0400UI}
@@ -78,7 +78,7 @@ Lorsque votre fournisseur de services de traduction ne fournit pas de connecteur
 
 >[!NOTE]
 >
->À compter de la version 2027.01.0 de Cloud Service et de la version 5.4 d’On-Premise de Experience Manager Guides , la fonctionnalité de tableau de bord des cartes sera abandonnée pour les nouveaux clients. Toutefois, elle restera activée pour les clients qui l’utilisent déjà. Si vous souhaitez désactiver le tableau de bord des cartes, contactez votre équipe du succès client. Il est dorénavant recommandé d’utiliser la console Map pour la gestion et la publication des cartes.
+>À compter de la version 2027.01.0 de Experience Manager Guides Cloud Service et de la version 5.3 On-Premise, le tableau de bord des cartes sera obsolète pour les nouveaux clients. Les nouveaux clients utiliseront la console de mappage par défaut. Avec la version 2027.03.0, le tableau de bord Carte sera désactivé par défaut. À l’avenir, nous vous recommandons d’utiliser la console Map pour la gestion et la publication des cartes. Si vous avez toujours besoin d’accéder au tableau de bord des cartes, contactez l’équipe du succès client pour obtenir de l’aide.
 
 Les onglets suivants fournissent des instructions pour masquer l’onglet Traduction dans le tableau de bord de plan DITA en fonction de votre configuration Experience Manager Guides : Cloud Service ou On-Premise.
 
