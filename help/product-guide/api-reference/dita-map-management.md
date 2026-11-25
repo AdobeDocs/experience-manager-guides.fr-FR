@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: f3225fd7090ddfdcba5ec80908d9e300520ae995
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '625'
 ht-degree: 4%
 ---
 # API REST pour utiliser les plans DITA {#id175UB30E05Z}
@@ -36,17 +36,17 @@ L&#39;API REST suivante vous permet d&#39;utiliser des plans DITA dans AEM Guide
 
 ## Télécharger le plan DITA avec les personnes à charge
 
-Méthode GET qui télécharge un plan DITA avec toutes ses dépendances telles que les rubriques référencées, les sous-plans, les images et les DTD utilisés dans le plan et les rubriques.
+Méthode GET qui télécharge un plan DITA avec toutes ses dépendances telles que les rubriques référencées, les sous-plans, les images et les DTD utilisés dans les plans et les rubriques.
 
 **URL de la requête** :
-*&lt;aem-guides-server\>* : *&lt;port-number\>*/bin/fmdita/exportditamap
+http://*&lt;aem-guides-server\>* : *&lt;numéro-port\>*/bin/fmdita/exportditamap
 
 **Paramètres** :
 
 | Nom | Type | Requis | Description |
 |----|----|--------|-----------|
 | `ditamap` | Chaîne | Oui | Chemin d&#39;accès absolu au fichier de mappage DITA dans le référentiel AEM. |
-| `baseline` | Chaîne | Non | Titre de la ligne de base utilisée pour récupérer le contenu avec version. <br> **Remarque :** la valeur respecte la casse. |
+| `baseline` | Chaîne | Non | Titre de la ligne de base utilisée pour récupérer le contenu avec version. <br> **Remarque :** La valeur respecte la casse. |
 
 **Valeurs de réponse** :
 Fichier .zip dont le contenu est écrit dans le flux de sortie de la réponse.
@@ -63,7 +63,7 @@ http:*//&lt;aem-guides-server\>: &lt;port-number\>/bin/dxml/async-export*
 | Nom | Type | Requis | Description |
 |----|----|--------|-----------|
 | `ditamap` | Chaîne | Oui | Chemin d&#39;accès absolu au fichier de mappage DITA dans le référentiel AEM. |
-| `baseline` | Chaîne | Non | Titre de la ligne de base utilisée pour récupérer le contenu avec version. <br> **Remarque :** la valeur respecte la casse. |
+| `baseline` | Chaîne | Non | Titre de la ligne de base utilisée pour récupérer le contenu avec version. <br> **Remarque :** La valeur respecte la casse. |
 | `flatFS` | Booléen | Non | \(Facultatif\) Si cet attribut est défini sur true, une structure plate de fichiers est renvoyée dans le fichier ZIP. Par exemple, si votre plan DITA fait référence à du contenu situé dans plusieurs dossiers, tous les fichiers référencés sont extraits dans un seul dossier. Si des fichiers portent le même nom, ils sont renommés en ajoutant un suffixe numérique. Toutes les références \(dans plan DITA et rubriques\) sont gérées automatiquement, car elles sont mises à jour en fonction du nouvel emplacement des fichiers dans la structure de dossiers plate. Si cette valeur est définie sur false, la structure de dossiers est conservée telle quelle dans le fichier ZIP. Si le plan DITA fait référence à des fichiers provenant de plusieurs emplacements, tous ces emplacements sont également créés dans le fichier ZIP. Lorsque vous restaurez le fichier ZIP, la structure de dossiers exacte est créée à l’emplacement de destination. <br> La valeur par défaut de ce paramètre est false. |
 
 **Valeurs de réponse** :
